@@ -1,9 +1,21 @@
-# fallhaven_prison
+# Fallhaven prison
+
+15×10 tiles
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fallhaven_prison.webp" alt="fallhaven_prison" width="480" height="320" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../fallhaven_nw/#place-prison" title="Exit to Fallhaven nw" style="left:33.333%;top:90.000%;width:6.667%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/prisoner/" title="Spawns: Prisoner" style="left:60.000%;top:30.000%;width:33.333%;height:30.000%"></a><a class="mo mo-spawn" href="../../monsters/guard/" title="Spawns: Guard" style="left:86.667%;top:70.000%;width:6.667%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/guard/" title="Spawns: Guard" style="left:6.667%;top:70.000%;width:6.667%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/warden/" title="Spawns: Guard captain" style="left:20.000%;top:40.000%;width:6.667%;height:10.000%"></a></div>
+
+## Exits
+
+- [Fallhaven nw](fallhaven_nw.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
-| [Guard captain](../monsters/warden.md) | 0 |
 | [Guard](../monsters/guard.md) | 0 |
+| [Guard captain](../monsters/warden.md) | 0 |
 | [Prisoner](../monsters/prisoner.md) | 1 |
+
+<small>Map ID: `fallhaven_prison` · Data from v0.8.18</small>

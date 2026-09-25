@@ -1,4 +1,15 @@
-# brightport_cave14
+# Brightport cave14
+
+16×10 tiles · part of [Bpcave](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave14.webp" alt="brightport_cave14" width="512" height="320" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../brightport_cave13/#place-south" title="Exit to Brightport cave13" style="left:12.500%;top:0.000%;width:31.250%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../brightport_cave15/#place-north" title="Exit to Brightport cave15" style="left:62.500%;top:90.000%;width:31.250%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/brightport_scorpion/" title="Spawns: Cave scorpion" style="left:37.500%;top:40.000%;width:50.000%;height:40.000%"></a><a class="mo mo-spawn" href="../../monsters/brightport_snake/" title="Spawns: Cavern snake" style="left:12.500%;top:20.000%;width:31.250%;height:50.000%"></a></div>
+
+## Exits
+
+- [Brightport cave13](brightport_cave13.md)
+- [Brightport cave15](brightport_cave15.md)
 
 ## Monsters & NPCs here
 
@@ -6,3 +17,5 @@
 |---|---|
 | [Cave scorpion](../monsters/brightport_scorpion.md) | 150 |
 | [Cavern snake](../monsters/brightport_snake.md) | 180 |
+
+<small>Map ID: `brightport_cave14` · Data from v0.8.18</small>

@@ -1,4 +1,16 @@
-# pwcave2
+# Pwcave2
+
+30×30 tiles · part of [Pwcave](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/pwcave2.webp" alt="pwcave2" width="960" height="960" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../pwcave1/#place-north" title="Exit to Pwcave1" style="left:90.000%;top:96.667%;width:6.667%;height:3.333%"></a><a id="place-north" class="mo mo-mapchange" href="../pwcave2a/#place-south" title="Exit to Pwcave2a" style="left:46.667%;top:6.667%;width:3.333%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../pwcave3/#place-west" title="Exit to Pwcave3" style="left:96.667%;top:63.333%;width:3.333%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Iqhan guard thrall, Iqhan thrall" style="left:80.000%;top:86.667%;width:6.667%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:73.333%;top:86.667%;width:6.667%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:50.000%;top:90.000%;width:6.667%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan guard thrall, Iqhan thrall" style="left:26.667%;top:93.333%;width:13.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:20.000%;top:90.000%;width:3.333%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:6.667%;top:73.333%;width:13.333%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:10.000%;top:66.667%;width:10.000%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan guard thrall, Iqhan thrall" style="left:10.000%;top:53.333%;width:23.333%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:10.000%;top:20.000%;width:23.333%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master" style="left:40.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master" style="left:53.333%;top:10.000%;width:3.333%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master, Iqhan warrior thrall" style="left:63.333%;top:13.333%;width:30.000%;height:23.333%"></span><span class="mo mo-spawn" title="Spawns: Iqhan chaos evoker" style="left:43.333%;top:36.667%;width:50.000%;height:36.667%"></span><span class="mo mo-spawn" title="Spawns: Iqhan master" style="left:46.667%;top:33.333%;width:43.333%;height:33.333%"></span></div>
+
+## Exits
+
+- [Pwcave1](pwcave1.md)
+- [Pwcave2a](pwcave2a.md)
+- [Pwcave3](pwcave3.md)
 
 ## Monsters & NPCs here
 
@@ -12,3 +24,5 @@
 | [Iqhan master](../monsters/iqhan_4b.md) | 71 |
 | [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 73 |
 | [Iqhan chaos evoker](../monsters/iqhan_ch_1b.md) | 75 |
+
+<small>Map ID: `pwcave2` · Data from v0.8.18</small>

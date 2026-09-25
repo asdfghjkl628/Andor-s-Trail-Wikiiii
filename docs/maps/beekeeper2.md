@@ -1,4 +1,14 @@
-# beekeeper2
+# Beekeeper2
+
+12×8 tiles · outdoors · part of [World1](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/beekeeper2.webp" alt="beekeeper2" width="384" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../beekeeper1/#place-north" title="Exit to Beekeeper1" style="left:41.667%;top:87.500%;width:25.000%;height:12.500%"></a><span class="mo mo-container" title="Container: Gold coins, Hand carved snowball" style="left:41.667%;top:50.000%;width:8.333%;height:12.500%"></span><span class="mo mo-container" title="Container: Gold coins, Coconut" style="left:41.667%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-container" title="Container: Gold coins, Cold Lava Rock" style="left:50.000%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-container" title="Container: Gold coins, Mead, Red apple" style="left:58.333%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-container" title="Container: Gold coins, Sparkling egg" style="left:58.333%;top:50.000%;width:8.333%;height:12.500%"></span><span class="mo mo-container" title="Container: Gold coins" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"></span><a class="mo mo-spawn" href="../../monsters/vicious_hound/" title="Spawns: Vicious hound" style="left:16.667%;top:37.500%;width:16.667%;height:50.000%"></a><a class="mo mo-spawn" href="../../monsters/forest_beetle/" title="Spawns: Forest beetle" style="left:75.000%;top:0.000%;width:25.000%;height:87.500%"></a><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 51" style="left:41.667%;top:50.000%;width:8.333%;height:12.500%"></span><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 52" style="left:41.667%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 53" style="left:50.000%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 54" style="left:58.333%;top:37.500%;width:8.333%;height:12.500%"></span><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 55" style="left:58.333%;top:50.000%;width:8.333%;height:12.500%"></span><span class="mo mo-key" title="Blocked: needs questProgress guynmart_nondisplay 59" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"></span><span class="mo mo-replace" title="Guynmart nondisplay:51" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Guynmart nondisplay:52" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Guynmart nondisplay:53" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Guynmart nondisplay:54" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Guynmart nondisplay:55" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Guynmart nondisplay:59" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span></div>
+
+## Exits
+
+- [Beekeeper1](beekeeper1.md)
 
 ## Monsters & NPCs here
 
@@ -6,3 +16,5 @@
 |---|---|
 | [Forest beetle](../monsters/forest_beetle.md) | 14 |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 |
+
+<small>Map ID: `beekeeper2` · Data from v0.8.18</small>

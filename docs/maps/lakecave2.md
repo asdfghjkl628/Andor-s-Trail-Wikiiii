@@ -1,13 +1,26 @@
-# lakecave2
+# Lakecave2
+
+30×30 tiles · part of [Lakecave](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/lakecave2.webp" alt="lakecave2" width="960" height="960" loading="lazy"><a id="place-west1" class="mo mo-mapchange" href="../lakecave0/#place-east" title="Exit to Lakecave0" style="left:0.000%;top:93.333%;width:3.333%;height:3.333%"></a><a id="place-west2" class="mo mo-mapchange" href="../lakecave1/#place-east1" title="Exit to Lakecave1" style="left:0.000%;top:50.000%;width:3.333%;height:3.333%"></a><a id="place-west3" class="mo mo-mapchange" href="../lakecave1/#place-east2" title="Exit to Lakecave1" style="left:0.000%;top:16.667%;width:3.333%;height:3.333%"></a><span class="mo mo-script" title="Script grow lakecave1 damerilias 0" style="left:3.333%;top:16.667%;width:3.333%;height:3.333%"></span><span class="mo mo-script" title="Script grow lakecave1 damerilias 0" style="left:3.333%;top:50.000%;width:3.333%;height:3.333%"></span><span class="mo mo-script" title="Lakecave2 script keycheck3" style="left:90.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-script" title="Lakecave2 script keycheck1" style="left:66.667%;top:6.667%;width:30.000%;height:16.667%"></span><span class="mo mo-script" title="Script lakecave cleared" style="left:3.333%;top:10.000%;width:93.333%;height:86.667%"></span><span class="mo mo-spawn" title="Spawns: Cave scorpion, Puny cave scorpion" style="left:6.667%;top:10.000%;width:30.000%;height:53.333%"></span><a class="mo mo-spawn" href="../../monsters/cave_troll_5/" title="Spawns: Cave troll leader" style="left:90.000%;top:13.333%;width:6.667%;height:6.667%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:66.667%;top:36.667%;width:6.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:90.000%;top:50.000%;width:6.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_4/" title="Spawns: Cave troll shaman" style="left:40.000%;top:10.000%;width:43.333%;height:26.667%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_2/" title="Spawns: Strong cave troll" style="left:40.000%;top:13.333%;width:30.000%;height:23.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:70.000%;top:10.104%;width:13.333%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_4/" title="Spawns: Cave troll shaman" style="left:36.667%;top:43.333%;width:60.000%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_2/" title="Spawns: Strong cave troll" style="left:6.667%;top:63.333%;width:90.000%;height:33.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:33.333%;top:40.000%;width:63.333%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:13.333%;top:83.333%;width:6.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_4/" title="Spawns: Cave troll shaman" style="left:36.667%;top:63.333%;width:60.000%;height:30.000%"></a><a class="mo mo-spawn" href="../../monsters/cave_troll_3/" title="Spawns: Tough cave troll" style="left:46.667%;top:56.667%;width:43.333%;height:6.667%"></a><a class="mo mo-spawn" href="../../monsters/caeda/" title="Spawns: Caeda" style="left:10.000%;top:13.333%;width:26.667%;height:26.667%"></a><span class="mo mo-key" title="Blocked: needs killedMonster cave_troll_5 1" style="left:86.667%;top:6.667%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress base_nondisplay 2" style="left:86.667%;top:3.333%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Board" style="left:80.000%;top:3.333%;width:13.333%;height:13.333%"></span><span class="mo mo-replace" title="Key taken" style="left:90.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Caedas bed" style="left:26.667%;top:10.000%;width:10.000%;height:10.000%"></span></div>
+
+## Exits
+
+- [Lakecave0](lakecave0.md)
+- [Lakecave1](lakecave1.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
 | [Caeda](../monsters/caeda.md) | 0 |
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Strong cave troll](../monsters/cave_troll_2.md) | 250 |
 | [Tough cave troll](../monsters/cave_troll_3.md) | 290 |
 | [Cave troll shaman](../monsters/cave_troll_4.md) | 300 |
 | [Cave troll leader](../monsters/cave_troll_5.md) | 410 |
+
+<small>Map ID: `lakecave2` · Data from v0.8.18</small>

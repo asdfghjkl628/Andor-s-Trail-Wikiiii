@@ -1,10 +1,31 @@
-# sullengard1
+# Sullengard1
+
+30×30 tiles · outdoors · part of [World1](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard1.webp" alt="sullengard1" width="960" height="960" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../sullengard2/#place-south" title="Exit to Sullengard2" style="left:60.000%;top:0.000%;width:3.333%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../sullengard5/#place-west" title="Exit to Sullengard5" style="left:96.667%;top:70.000%;width:3.333%;height:3.333%"></a><a id="place-sullengard1_southwest_house_outside" class="mo mo-mapchange" href="../sullengard1_southwest_house/#place-door" title="Exit to Sullengard1 southwest house" style="left:13.333%;top:83.333%;width:3.333%;height:3.333%"></a><a id="place-sullengard1_northeast_house_outside" class="mo mo-mapchange" href="../sullengard1_northeast_house/#place-door" title="Exit to Sullengard1 northeast house" style="left:76.667%;top:40.000%;width:3.333%;height:3.333%"></a><a id="place-sullengard1_southeast_house_outside" class="mo mo-mapchange" href="../sullengard1_southeast_house/#place-door" title="Exit to Sullengard1 southeast house" style="left:76.667%;top:86.667%;width:3.333%;height:3.333%"></a><a id="place-sullengard_weapon_shop_outside" class="mo mo-mapchange" href="../sullengard_weapon_shop/#place-door" title="Exit to Sullengard weapon shop" style="left:46.667%;top:86.667%;width:3.333%;height:3.333%"></a><a id="place-sullengard_inn_outside" class="mo mo-mapchange" href="../sullengard_inn/#place-door" title="Exit to Sullengard inn" style="left:80.000%;top:63.333%;width:3.333%;height:3.333%"></a><a id="place-sullengard1_townhall_outside" class="mo mo-mapchange" href="../sullengard1_townhall/#place-door" title="Exit to Sullengard1 townhall" style="left:33.333%;top:46.667%;width:3.333%;height:3.333%"></a><a id="place-sullengard_church_outside" class="mo mo-mapchange" href="../sullengard_church/#place-door" title="Exit to Sullengard church" style="left:43.333%;top:16.667%;width:3.333%;height:3.333%"></a><span class="mo mo-sign" title="Sign: Welcome to the Bruyere family home, five-time winners of the &#x27;Best beer in festival&#x27; competition." style="left:26.667%;top:86.667%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Welcome to the Briwerra family home, three-time winners of the &#x27;Best beer in festival&#x27; competition." style="left:80.000%;top:90.000%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Welcome to the Brueria family home, four-time winners of the &#x27;Best beer in festival&#x27; competition." style="left:73.333%;top:43.333%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Diramisk was right, the drink didn&#x27;t kill him...it was the fall." style="left:10.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: [This gravestone has been heavily scratched. It appears someone really wanted to obscure the inscription.]" style="left:20.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Erlumvu: A beloved wife and loyal drinking companion." style="left:20.000%;top:16.667%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Bosworth&#x27;s last words: &quot;The last one is on me boys!&quot;" style="left:10.000%;top:23.333%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Here lies Stout. Faster than the wind, dumber than a stump." style="left:20.000%;top:23.333%;width:3.333%;height:3.333%"></span><a id="place-sullengard1_aunts_house_outside" class="mo mo-mapchange" href="../sullengard1_aunts_house/#place-door" title="Exit to Sullengard1 aunts house" style="left:76.667%;top:13.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/pig/" title="Spawns: Pig" style="left:6.667%;top:60.000%;width:10.000%;height:6.667%"></a><a class="mo mo-spawn" href="../../monsters/sullengard_cat/" title="Spawns: Frosty" style="left:90.000%;top:93.333%;width:6.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/sullengard_cat_seeker/" title="Spawns: Lindauer" style="left:33.333%;top:66.667%;width:16.667%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/sullengard_citizen/" title="Spawns: Local citizen" style="left:56.667%;top:70.000%;width:33.333%;height:3.333%"></a><span class="mo mo-sign" title="Sign: Welcome to Sullengard, the home of the best beer in Dhayavar. Please enjoy our upcoming 20th anniversary beer festival." style="left:90.000%;top:66.667%;width:3.333%;height:3.333%"></span><span class="mo mo-sign" title="Sign: Welcome to the Sullengard townhall. Please come on in." style="left:36.667%;top:50.000%;width:3.333%;height:3.333%"></span></div>
+
+## Exits
+
+- [Sullengard1 aunts house](sullengard1_aunts_house.md)
+- [Sullengard1 northeast house](sullengard1_northeast_house.md)
+- [Sullengard1 southeast house](sullengard1_southeast_house.md)
+- [Sullengard1 southwest house](sullengard1_southwest_house.md)
+- [Sullengard1 townhall](sullengard1_townhall.md)
+- [Sullengard2](sullengard2.md)
+- [Sullengard5](sullengard5.md)
+- [Sullengard church](sullengard_church.md)
+- [Sullengard inn](sullengard_inn.md)
+- [Sullengard weapon shop](sullengard_weapon_shop.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
-| [Local citizen](../monsters/sullengard_citizen.md) | 0 |
-| [Frosty](../monsters/sullengard_cat.md) | 0 |
-| [Pig](../monsters/pig.md) | 0 |
 | [Lindauer](../monsters/sullengard_cat_seeker.md) | 0 |
+| [Frosty](../monsters/sullengard_cat.md) | 0 |
+| [Local citizen](../monsters/sullengard_citizen.md) | 0 |
+| [Pig](../monsters/pig.md) | 0 |
+
+<small>Map ID: `sullengard1` · Data from v0.8.18</small>
