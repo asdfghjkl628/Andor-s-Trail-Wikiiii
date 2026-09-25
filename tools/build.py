@@ -104,22 +104,10 @@ for m in re.finditer(r'new SkillInfo\(SkillID\.(\w+),\s*([\w.]+),\s*SkillInfo\.L
                        long=strings.get(f'skill_longdescription_{k}', ''))
 
 # ---------------------------------------------------------------- cross references
-# map spawns
-spawn_maps = defaultdict(set)  # monster id -> maps
+# map spawns are computed by tools/maps.py (which also renders the maps)
 group_to_monsters = defaultdict(list)
 for mid, m in monsters.items():
     group_to_monsters[m.get('spawnGroup', mid)].append(mid)
-for tmx in glob.glob(os.path.join(GAME, 'res', 'xml', '*.tmx')):
-    mapname = os.path.basename(tmx)[:-4]
-    try: root = ET.parse(tmx).getroot()
-    except ET.ParseError: continue
-    for obj in root.iter('object'):
-        if obj.get('type') != 'spawn': continue
-        grp = obj.get('name')
-        for p in obj.iter('property'):
-            if p.get('name') == 'spawngroup': grp = p.get('value')
-        for mid in group_to_monsters.get(grp, []) or ([grp] if grp in monsters else []):
-            spawn_maps[mid].add(mapname)
 
 # shopkeepers: NPCs whose dialogue can reach the shop screen ("S")
 def reaches_shop(start, limit=400):
@@ -223,8 +211,13 @@ def write(path, text):
     full = os.path.join(DOCS, path); os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, 'w', encoding='utf-8').write(text)
 
-for d in ('items', 'monsters', 'quests', 'skills', 'maps'):
+for d in ('items', 'monsters', 'quests', 'skills', 'maps', 'assets/maps'):
     shutil.rmtree(os.path.join(DOCS, d), ignore_errors=True)
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from maps import build_maps
+spawn_maps, n_maps = build_maps(dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
+    items=items, conversations=conversations, group_to_monsters=group_to_monsters, write=write, md_esc=md_esc))
 
 def item_kind(it):
     c = cats.get(it.get('category'), {})
@@ -297,18 +290,6 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
     write(f'monsters/{mid}.md', ''.join(P))
     L.append(f"| {img(ic)} | [{md_esc(m.get('name', mid))}]({mid}.md) | {m.get('monsterClass', '?')} | {m.get('maxHP', 0)} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} | {crit} |\n")
 write('monsters/index.md', ''.join(L))
-
-# maps (one page per map that has spawns)
-maps_monsters = defaultdict(set)
-for mid, mps in spawn_maps.items():
-    for mp in mps: maps_monsters[mp].add(mid)
-L = [f"# Maps\n\n{len(maps_monsters)} maps with monster or NPC spawns.\n\n"]
-for mp in sorted(maps_monsters):
-    ms = sorted(maps_monsters[mp], key=lambda x: monsters[x].get('maxHP', 0))
-    write(f'maps/{mp}.md', f"# {mp}\n\n## Monsters & NPCs here\n\n| Name | HP |\n|---|---|\n" +
-          ''.join(f"| {link('monsters', x, monsters[x].get('name', x))} | {monsters[x].get('maxHP', 0)} |\n" for x in ms))
-    L.append(f"- [{mp}]({mp}.md) ({len(ms)})\n")
-write('maps/index.md', ''.join(L))
 
 # quests
 L = ["# Quests\n\n| Quest | Stages |\n|---|---|\n"]
@@ -384,11 +365,11 @@ This wiki currently describes **v{VERSION}**, the latest release, and rebuilds i
 - **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs, with drops and locations
 - **[Skills](skills/index.md)**<br>{len(skills)} skills, with requirements
 - **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 1))} quests and their journal stages
-- **[Maps](maps/index.md)**<br>{len(maps_monsters)} maps with spawns
+- **[World map](maps/index.md)**<br>{n_maps} maps, plus a clickable world map
 - **[Changelog](changelog.md)**<br>What changed in each release
 
 </div>
 
 <small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki.</small>
 """)
-print(f"Built v{VERSION}: {len(items)} items, {len(monsters)} monsters, {len(skills)} skills, {len(quests)} quests, {len(maps_monsters)} maps")
+print(f"Built v{VERSION}: {len(items)} items, {len(monsters)} monsters, {len(skills)} skills, {len(quests)} quests, {n_maps} maps")

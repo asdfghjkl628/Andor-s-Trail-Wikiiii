@@ -18,3 +18,31 @@
 .md-typeset table:not([class]) { font-size: .72rem; }
 .md-typeset table:not([class]) th { background: var(--md-primary-fg-color); color: var(--md-primary-bg-color); }
 .md-typeset .grid.cards > ul > li { border-color: var(--md-accent-fg-color); }
+
+/* ---------- maps ---------- */
+.map-wrap { position: relative; display: inline-block; max-width: 100%; line-height: 0; border: 2px solid var(--md-primary-fg-color); }
+.map-wrap img { max-width: 100%; height: auto; image-rendering: pixelated; }
+.map-wrap .mo, .map-wrap .wm-zone { position: absolute; box-sizing: border-box; }
+.mo { border: 2px solid; border-radius: 3px; transition: background .15s; }
+.mo:hover, .mo:target { background: rgba(255,255,255,.35); }
+.mo:target { outline: 3px solid #fff; animation: pulse 1s 3; }
+@keyframes pulse { 50% { outline-color: transparent; } }
+.mo-spawn { border-color: #e04b3a; background: rgba(224,75,58,.18); }
+.mo-mapchange { border-color: #3aa7e0; background: rgba(58,167,224,.25); }
+.mo-container { border-color: #f2c14e; background: rgba(242,193,78,.3); }
+.mo-sign { border-color: #b98cf2; background: rgba(185,140,242,.3); }
+.mo-rest { border-color: #5fd068; background: rgba(95,208,104,.3); }
+.mo-key { border-color: #ff8c1a; border-style: dashed; }
+.mo-script { border-color: #9aa0a6; border-style: dotted; }
+.mo-replace { border-color: #e7e7e7; border-style: dotted; }
+.map-legend { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .7rem; margin-bottom: .5rem; }
+.map-legend label { cursor: pointer; display: flex; align-items: center; gap: .3em; }
+.map-legend label::before { content: ''; width: .9em; height: .9em; border: 2px solid; border-radius: 2px; }
+.lg-spawn::before { border-color: #e04b3a; } .lg-mapchange::before { border-color: #3aa7e0; }
+.lg-container::before { border-color: #f2c14e; } .lg-sign::before { border-color: #b98cf2; }
+.lg-rest::before { border-color: #5fd068; } .lg-key::before { border-color: #ff8c1a; border-style: dashed; }
+.lg-script::before { border-color: #9aa0a6; border-style: dotted; } .lg-replace::before { border-color: #bbb; border-style: dotted; }
+.hide-spawn .mo-spawn, .hide-mapchange .mo-mapchange, .hide-container .mo-container, .hide-sign .mo-sign,
+.hide-rest .mo-rest, .hide-key .mo-key, .hide-script .mo-script, .hide-replace .mo-replace { display: none; }
+.map-wrap.world img { image-rendering: auto; }
+.wm-zone:hover { background: rgba(224,164,88,.35); outline: 2px solid #e0a458; z-index: 2; }

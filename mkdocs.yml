@@ -14,6 +14,7 @@ theme:
       toggle: { icon: material/weather-sunny, name: Light mode }
   features: [navigation.tabs, navigation.top, search.suggest, search.highlight, content.code.copy]
 extra_css: [stylesheets/extra.css]
+extra_javascript: [javascripts/maps.js]
 plugins: [search]
 markdown_extensions: [admonition, attr_list, md_in_html, tables, { toc: { permalink: true } }]
 nav:
@@ -22,7 +23,7 @@ nav:
   - Monsters: monsters/index.md
   - Skills: skills/index.md
   - Quests: quests/index.md
-  - Maps: maps/index.md
+  - World map: maps/index.md
   - Changelog: changelog.md
 not_in_nav: |
   /items/*.md
