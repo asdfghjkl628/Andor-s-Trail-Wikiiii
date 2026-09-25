@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&display=swap');
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #3b2a1a; --md-primary-bg-color: #f3e6c8;
+  --md-accent-fg-color: #b5651d; --md-default-bg-color: #f7efdc;
+  --md-typeset-a-color: #8a4b12;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1c1712; --md-primary-bg-color: #e9d8b0;
+  --md-accent-fg-color: #e0a458; --md-default-bg-color: #221c16;
+  --md-default-fg-color: #eadfc6; --md-typeset-a-color: #e0a458;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-header__title {
+  font-family: 'Pixelify Sans', 'Alegreya Sans', sans-serif; letter-spacing: .02em;
+}
+.md-typeset h1 { font-weight: 700; display: flex; align-items: center; gap: .4em; }
+.md-typeset img.sprite { image-rendering: pixelated; width: 32px; height: auto; vertical-align: middle; }
+.md-typeset h1 img.sprite { width: 48px; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset table:not([class]) th { background: var(--md-primary-fg-color); color: var(--md-primary-bg-color); }
+.md-typeset .grid.cards > ul > li { border-color: var(--md-accent-fg-color); }
