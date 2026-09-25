@@ -4,5 +4,5 @@
 
 | Name | HP |
 |---|---|
-| [Cave rat](../monsters/cave_rat.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
+| [Cave rat](../monsters/cave_rat.md) | 5 |

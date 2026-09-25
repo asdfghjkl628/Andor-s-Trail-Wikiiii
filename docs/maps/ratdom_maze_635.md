@@ -10,6 +10,6 @@
 | [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Venomous cave snake](../monsters/venomous_cave_snake.md) | 15 |
 | [Tough cave snake](../monsters/tough_cave_snake.md) | 21 |
-| [Nasty cave snake](../monsters/ratdom_m3b.md) | 30 |
 | [Malignant cave snake](../monsters/ratdom_m3a.md) | 30 |
+| [Nasty cave snake](../monsters/ratdom_m3b.md) | 30 |
 | [Giant larval burrower](../monsters/burrower_4.md) | 75 |

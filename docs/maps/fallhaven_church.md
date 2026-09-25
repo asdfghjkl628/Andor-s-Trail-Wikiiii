@@ -4,5 +4,5 @@
 
 | Name | HP |
 |---|---|
-| [Thoronir](../monsters/thoronir.md) | 0 |
 | [Mourning woman](../monsters/chapelgoer.md) | 0 |
+| [Thoronir](../monsters/thoronir.md) | 0 |

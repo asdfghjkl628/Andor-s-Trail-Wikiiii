@@ -4,8 +4,8 @@
 
 | Name | HP |
 |---|---|
-| [Spectre](../monsters/spectre.md) | 15 |
 | [Lost soul](../monsters/lost_soul.md) | 15 |
+| [Spectre](../monsters/spectre.md) | 15 |
 | [Shade](../monsters/shade.md) | 16 |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 |
 | [Apparition](../monsters/apparition.md) | 17 |
