@@ -1,4 +1,16 @@
-# ratdom_maze2
+# Ratdom maze2
+
+8×30 tiles · part of [Ratdom cave](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/ratdom_maze2.webp" alt="ratdom_maze2" width="256" height="960" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../ratdom_maze_448/#place-north2" title="Exit to Ratdom maze 448" style="left:37.500%;top:90.000%;width:12.500%;height:3.333%"></a><a id="place-up" class="mo mo-mapchange" href="../ratdom_maze3/#place-down" title="Exit to Ratdom maze3" style="left:25.000%;top:43.333%;width:12.500%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../ratdom_maze1/#place-west" title="Exit to Ratdom maze1" style="left:87.500%;top:13.333%;width:12.500%;height:3.333%"></a><span class="mo mo-script" title="Ratdom maze light1" style="left:12.500%;top:10.000%;width:50.000%;height:20.000%"></span><span class="mo mo-script" title="Ratdom maze light2" style="left:12.500%;top:70.000%;width:62.500%;height:26.667%"></span><span class="mo mo-script" title="Ratdom maze light3" style="left:37.500%;top:30.000%;width:62.500%;height:16.667%"></span><span class="mo mo-script" title="Ratdom maze light4" style="left:62.500%;top:46.667%;width:25.000%;height:13.333%"></span><span class="mo mo-script" title="Ratdom maze light5" style="left:62.500%;top:10.000%;width:37.500%;height:6.667%"></span><span class="mo mo-script" title="Ratdom maze light6" style="left:12.500%;top:43.333%;width:50.000%;height:26.667%"></span><span class="mo mo-script" title="Ratdom rat conv2" style="left:12.500%;top:63.333%;width:12.500%;height:3.333%"></span><a class="mo mo-spawn" href="../../monsters/ratdom_rat/" title="Spawns: Clevred" style="left:87.500%;top:0.000%;width:12.500%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/tough_cave_rat/" title="Spawns: Tough cave rat" style="left:37.500%;top:33.333%;width:25.000%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_rat/" title="Spawns: Cave rat" style="left:12.500%;top:10.000%;width:62.500%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_rat/" title="Spawns: Cave rat" style="left:12.500%;top:53.333%;width:75.000%;height:33.333%"></a><span class="mo mo-replace" title="Ratdom maze:10" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:1" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:2" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:3" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:4" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:5" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:6" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:7" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom maze:8" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom rat conv2:1" style="left:37.500%;top:73.333%;width:12.500%;height:3.333%"></span><span class="mo mo-replace" title="Ratdom rat conv2:2" style="left:50.000%;top:76.667%;width:12.500%;height:3.333%"></span></div>
+
+## Exits
+
+- [Ratdom maze1](ratdom_maze1.md)
+- [Ratdom maze3](ratdom_maze3.md)
+- [Ratdom maze 448](ratdom_maze_448.md)
 
 ## Monsters & NPCs here
 
@@ -7,3 +19,5 @@
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
 | [Cave rat](../monsters/cave_rat.md) | 5 |
+
+<small>Map ID: `ratdom_maze2` · Data from v0.8.18</small>

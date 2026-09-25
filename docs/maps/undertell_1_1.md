@@ -1,15 +1,28 @@
-# undertell_1_1
+# Undertell 1 1
+
+30×30 tiles · part of [Undertell floor2](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/undertell_1_1.webp" alt="undertell_1_1" width="960" height="960" loading="lazy"><a id="place-down_northwest" class="mo mo-mapchange" href="../undertell_01/#place-up_northwest" title="Exit to Undertell 01" style="left:30.000%;top:50.000%;width:3.333%;height:3.333%"></a><a id="place-down_northeast" class="mo mo-mapchange" href="../undertell_01/#place-up_northeast" title="Exit to Undertell 01" style="left:66.667%;top:50.000%;width:3.333%;height:3.333%"></a><a id="place-down_southwest" class="mo mo-mapchange" href="../undertell_01/#place-up_southwest" title="Exit to Undertell 01" style="left:30.000%;top:66.667%;width:3.333%;height:3.333%"></a><a id="place-down_southeast" class="mo mo-mapchange" href="../undertell_01/#place-up_southeast" title="Exit to Undertell 01" style="left:66.667%;top:66.667%;width:3.333%;height:3.333%"></a><a id="place-west" class="mo mo-mapchange" href="../undertell_1_0/#place-east" title="Exit to Undertell 1 0" style="left:0.000%;top:43.333%;width:3.333%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/lethgar_miner_ghost/" title="Spawns: Lethgar miner ghost" style="left:30.000%;top:16.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/lethgar_miner_ghost2/" title="Spawns: Lethgar miner ghost" style="left:53.333%;top:13.333%;width:16.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/lethgar_female_ghost/" title="Spawns: Lethgar slave ghost" style="left:50.000%;top:23.333%;width:13.333%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/ysrine/" title="Spawns: Ysrine" style="left:36.667%;top:13.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/elytharan_cook_slave/" title="Spawns: Elytharan cooker slave" style="left:30.000%;top:80.000%;width:10.000%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/shy_cora/" title="Spawns: Shy Cora" style="left:46.667%;top:56.667%;width:6.667%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/spider_queen/" title="Spawns: Queen spider" style="left:20.000%;top:80.000%;width:3.333%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/spider_queen/" title="Spawns: Queen spider" style="left:76.667%;top:10.000%;width:3.333%;height:20.000%"></a><a class="mo mo-spawn" href="../../monsters/saki/" title="Spawns: Saki" style="left:43.333%;top:16.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/nyratees/" title="Spawns: Ny&#x27;Ratees" style="left:23.333%;top:26.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/nyratees/" title="Spawns: Ny&#x27;Ratees" style="left:10.000%;top:26.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/nyratees/" title="Spawns: Ny&#x27;Ratees" style="left:93.333%;top:26.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/nyratees/" title="Spawns: Ny&#x27;Ratees" style="left:66.667%;top:93.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/nyratees/" title="Spawns: Ny&#x27;Ratees" style="left:80.000%;top:83.333%;width:3.333%;height:3.333%"></a><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:40.000%;top:56.667%;width:20.000%;height:6.667%"></span><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:10.000%;top:26.667%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:93.333%;top:26.667%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:23.333%;top:26.667%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:80.000%;top:83.333%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress andor 1" style="left:66.667%;top:93.333%;width:3.333%;height:3.333%"></span></div>
+
+## Exits
+
+- [Undertell 01](undertell_01.md)
+- [Undertell 1 0](undertell_1_0.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
 | [Ysrine](../monsters/ysrine.md) | 0 |
-| [Shy Cora](../monsters/shy_cora.md) | 0 |
 | [Elytharan cooker slave](../monsters/elytharan_cook_slave.md) | 0 |
 | [Lethgar miner ghost](../monsters/lethgar_miner_ghost.md) | 0 |
 | [Lethgar miner ghost](../monsters/lethgar_miner_ghost2.md) | 0 |
+| [Shy Cora](../monsters/shy_cora.md) | 0 |
 | [Lethgar slave ghost](../monsters/lethgar_female_ghost.md) | 0 |
 | [Queen spider](../monsters/spider_queen.md) | 135 |
 | [Ny'Ratees](../monsters/nyratees.md) | 207 |
 | [Saki](../monsters/saki.md) | 498 |
+
+<small>Map ID: `undertell_1_1` · Data from v0.8.18</small>

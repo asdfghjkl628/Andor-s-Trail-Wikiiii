@@ -1,7 +1,22 @@
-# swamp2
+# Swamp2
+
+30×30 tiles · outdoors · part of [World1](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/swamp2.webp" alt="swamp2" width="960" height="960" loading="lazy"><a id="place-dis1" class="mo mo-mapchange" href="../swamp2/#place-dis1b" title="Exit to Swamp2" style="left:6.667%;top:10.000%;width:3.333%;height:6.667%"></a><span id="place-dis1b" class="mo mo-mapchange" title="Dis1b" style="left:10.000%;top:10.000%;width:3.333%;height:6.667%"></span><a id="place-dis2" class="mo mo-mapchange" href="../swamp2/#place-dis2b" title="Exit to Swamp2" style="left:10.000%;top:20.000%;width:3.333%;height:30.000%"></a><span id="place-dis2b" class="mo mo-mapchange" title="Dis2b" style="left:13.333%;top:20.000%;width:3.333%;height:30.000%"></span><a id="place-east" class="mo mo-mapchange" href="../swamp1/#place-west" title="Exit to Swamp1" style="left:96.667%;top:6.667%;width:3.333%;height:6.667%"></a><a id="place-west1" class="mo mo-mapchange" href="../swamp3/#place-east" title="Exit to Swamp3" style="left:0.000%;top:6.667%;width:3.333%;height:40.000%"></a><a id="place-west2" class="mo mo-mapchange" href="../swamp4/#place-east1" title="Exit to Swamp4" style="left:0.000%;top:56.667%;width:3.333%;height:40.000%"></a><span class="mo mo-script" title="Feygard fogmonster check" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-script" title="Feygard fogmonster2 heart" style="left:53.333%;top:20.000%;width:3.333%;height:3.333%"></span><span class="mo mo-script" title="Feygard fogmonster startquest" style="left:60.000%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-script" title="Feygard fogmonster startquest" style="left:76.667%;top:36.667%;width:3.333%;height:3.333%"></span><a class="mo mo-spawn" href="../../monsters/feygard_fogmonster2/" title="Spawns: Icy foggerlump" style="left:53.333%;top:20.000%;width:3.333%;height:3.333%"></a><span class="mo mo-replace" title="Swamp3c" style="left:33.333%;top:53.333%;width:10.000%;height:46.667%"></span><span class="mo mo-replace" title="Swamp3b" style="left:26.667%;top:53.333%;width:6.667%;height:46.667%"></span><span class="mo mo-replace" title="Swamp3a" style="left:0.000%;top:30.000%;width:26.667%;height:70.000%"></span><span class="mo mo-replace" title="Swamp3c b" style="left:33.333%;top:53.333%;width:10.000%;height:46.667%"></span><span class="mo mo-replace" title="Swamp3b b" style="left:26.667%;top:53.333%;width:6.667%;height:46.667%"></span><span class="mo mo-replace" title="Swamp3a b" style="left:0.000%;top:30.000%;width:26.667%;height:70.000%"></span><span class="mo mo-replace" title="Swamp2c" style="left:43.333%;top:53.333%;width:56.667%;height:10.000%"></span><span class="mo mo-replace" title="Swamp2b" style="left:26.667%;top:30.000%;width:73.333%;height:23.333%"></span><span class="mo mo-replace" title="Swamp2a" style="left:0.000%;top:0.000%;width:100.000%;height:30.000%"></span><span class="mo mo-replace" title="Swamp2c b" style="left:43.333%;top:53.333%;width:56.667%;height:10.000%"></span><span class="mo mo-replace" title="Swamp2b b" style="left:26.667%;top:30.000%;width:73.333%;height:23.333%"></span><span class="mo mo-replace" title="Swamp2a b" style="left:0.000%;top:0.000%;width:100.000%;height:30.000%"></span></div>
+
+## Exits
+
+- [Swamp1](swamp1.md)
+- [Swamp2](swamp2.md)
+- [Swamp3](swamp3.md)
+- [Swamp4](swamp4.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
 | [Icy foggerlump](../monsters/feygard_fogmonster2.md) | 220 |
+
+<small>Map ID: `swamp2` · Data from v0.8.18</small>

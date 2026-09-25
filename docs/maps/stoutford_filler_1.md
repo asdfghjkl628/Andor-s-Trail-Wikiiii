@@ -1,4 +1,16 @@
-# stoutford_filler_1
+# Stoutford filler 1
+
+23×24 tiles · outdoors · part of [World1](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/stoutford_filler_1.webp" alt="stoutford_filler_1" width="736" height="768" loading="lazy"><a id="place-south_first" class="mo mo-mapchange" href="../galmore_12a/#place-north_down" title="Exit to Galmore 12a" style="left:13.043%;top:95.833%;width:4.348%;height:4.167%"></a><a id="place-south_second" class="mo mo-mapchange" href="../galmore_12a/#place-north_top" title="Exit to Galmore 12a" style="left:52.174%;top:95.833%;width:43.478%;height:4.167%"></a><a id="place-east" class="mo mo-mapchange" href="../stoutford_filler_2/#place-west" title="Exit to Stoutford filler 2" style="left:95.652%;top:0.000%;width:4.348%;height:91.667%"></a><span class="mo mo-script" title="Rubycrest strider flee stoutford filler1 selector" style="left:47.826%;top:79.167%;width:4.348%;height:4.167%"></span><span class="mo mo-script" title="Rubycrest strider flee stoutford filler1 selector" style="left:91.304%;top:0.000%;width:4.348%;height:29.167%"></span><span class="mo mo-script" title="Rubycrest strider killed selector" style="left:47.826%;top:29.167%;width:21.739%;height:20.833%"></span><a id="place-north" class="mo mo-mapchange" href="../stoutford_sw/#place-top_south" title="Exit to Stoutford sw" style="left:52.174%;top:0.000%;width:4.348%;height:4.167%"></a><span class="mo mo-script" title="Rubycrest not killed qs 52" style="left:52.174%;top:75.000%;width:4.348%;height:8.333%"></span><span class="mo mo-script" title="Rubycrest not killed qs 52" style="left:86.957%;top:0.000%;width:4.348%;height:37.500%"></span><a class="mo mo-spawn" href="../../monsters/rubycrest_strider/" title="Spawns: Rubycrest strider" style="left:56.522%;top:37.500%;width:4.348%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/hill_vine_bottom/" title="Spawns: Hillside vine" style="left:73.913%;top:87.500%;width:4.348%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/hill_vine_bottom/" title="Spawns: Hillside vine" style="left:60.870%;top:79.167%;width:4.348%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/hill_vine_bottom/" title="Spawns: Hillside vine" style="left:13.043%;top:25.000%;width:4.348%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/dirt_spider/" title="Spawns: Dirt spider" style="left:13.043%;top:45.833%;width:8.696%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/dirt_spider/" title="Spawns: Dirt spider" style="left:47.826%;top:87.500%;width:4.348%;height:4.167%"></a><a class="mo mo-spawn" href="../../monsters/dirt_spider/" title="Spawns: Dirt spider" style="left:43.478%;top:16.667%;width:13.043%;height:8.333%"></a><a class="mo mo-spawn" href="../../monsters/dirt_spider/" title="Spawns: Dirt spider" style="left:39.130%;top:50.000%;width:17.391%;height:20.833%"></a><a class="mo mo-spawn" href="../../monsters/dirt_spider/" title="Spawns: Dirt spider" style="left:69.565%;top:20.833%;width:13.043%;height:33.333%"></a><span class="mo mo-key" title="Blocked: needs questProgress base_nondisplay 2" style="left:73.913%;top:87.500%;width:4.348%;height:4.167%"></span><span class="mo mo-key" title="Blocked: needs questProgress base_nondisplay 2" style="left:60.870%;top:79.167%;width:4.348%;height:4.167%"></span><span class="mo mo-key" title="Blocked: needs questProgress base_nondisplay 2" style="left:13.043%;top:25.000%;width:4.348%;height:4.167%"></span></div>
+
+## Exits
+
+- [Galmore 12a](galmore_12a.md)
+- [Stoutford filler 2](stoutford_filler_2.md)
+- [Stoutford sw](stoutford_sw.md)
 
 ## Monsters & NPCs here
 
@@ -7,3 +19,5 @@
 | [Dirt spider](../monsters/dirt_spider.md) | 82 |
 | [Hillside vine](../monsters/hill_vine_bottom.md) | 108 |
 | [Rubycrest strider](../monsters/rubycrest_strider.md) | 293 |
+
+<small>Map ID: `stoutford_filler_1` · Data from v0.8.18</small>

@@ -1,25 +1,44 @@
-# crossglen
+# Crossglen
+
+30×30 tiles · outdoors · part of [World1](index.md)
+
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/crossglen.webp" alt="crossglen" width="960" height="960" loading="lazy"><a id="place-cave" class="mo mo-mapchange" href="../crossglen_cave/#place-entrance" title="Exit to Crossglen cave" style="left:60.000%;top:3.333%;width:3.333%;height:3.333%"></a><a id="place-hall" class="mo mo-mapchange" href="../crossglen_hall/#place-entrance" title="Exit to Crossglen hall" style="left:56.667%;top:63.333%;width:3.333%;height:3.333%"></a><span class="mo mo-script" title="Burhczyd check1" style="left:53.333%;top:66.667%;width:10.000%;height:3.333%"></span><a id="place-farmhouse" class="mo mo-mapchange" href="../crossglen_farmhouse/#place-entrance" title="Exit to Crossglen farmhouse" style="left:33.333%;top:56.667%;width:3.333%;height:3.333%"></a><a id="place-home" class="mo mo-mapchange" href="../home/#place-entrance" title="Exit to Home" style="left:16.667%;top:16.667%;width:3.333%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../wild1/#place-west" title="Exit to Wild1" style="left:96.667%;top:43.333%;width:3.333%;height:6.667%"></a><a id="place-smith" class="mo mo-mapchange" href="../crossglen_smith/#place-entrance" title="Exit to Crossglen smith" style="left:13.333%;top:83.333%;width:3.333%;height:3.333%"></a><a id="place-south" class="mo mo-mapchange" href="../wild2/#place-north" title="Exit to Wild2" style="left:26.667%;top:96.667%;width:3.333%;height:3.333%"></a><span class="mo mo-script" title="Crossglen fortune teller" style="left:10.000%;top:3.333%;width:3.333%;height:3.333%"></span><a id="place-west1" class="mo mo-mapchange" href="../ratdom_bwm1/#place-east1" title="Exit to Ratdom bwm1" style="left:0.000%;top:3.333%;width:3.333%;height:16.667%"></a><span class="mo mo-script" title="Ratdom check kills" style="left:33.333%;top:10.000%;width:3.333%;height:13.333%"></span><span class="mo mo-script" title="Ratdom bwm1 east 10 1" style="left:3.333%;top:3.333%;width:3.333%;height:16.667%"></span><span class="mo mo-script" title="Gal chk h1" style="left:26.667%;top:93.333%;width:6.667%;height:3.333%"></span><span class="mo mo-script" title="Gal chk h2" style="left:93.333%;top:43.333%;width:3.333%;height:6.667%"></span><span class="mo mo-script" title="Crossglen dark spirit selector" style="left:33.333%;top:60.000%;width:6.667%;height:3.333%"></span><a class="mo mo-spawn" href="../../monsters/small_wasp/" title="Spawns: Small wasp" style="left:76.667%;top:16.667%;width:20.000%;height:16.667%"></a><a class="mo mo-spawn" href="../../monsters/tiny_rat/" title="Spawns: Tiny rat" style="left:33.333%;top:10.000%;width:20.000%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/farmer/" title="Spawns: Farmer" style="left:20.000%;top:33.333%;width:26.667%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/tired_farmer/" title="Spawns: Tired farmer" style="left:6.667%;top:43.333%;width:10.000%;height:20.000%"></a><a class="mo mo-spawn" href="../../monsters/beetle/" title="Spawns: Beetle" style="left:3.333%;top:33.333%;width:40.000%;height:23.333%"></a><a class="mo mo-spawn" href="../../monsters/black_ant/" title="Spawns: Black ant" style="left:53.333%;top:86.667%;width:40.000%;height:10.000%"></a><a class="mo mo-spawn" href="../../monsters/odair/" title="Spawns: Odair" style="left:93.333%;top:3.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/oromir/" title="Spawns: Oromir" style="left:93.333%;top:90.000%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/gorwath/" title="Spawns: Gorwath" style="left:30.000%;top:13.333%;width:10.000%;height:6.667%"></a><a class="mo mo-spawn" href="../../monsters/halvor/" title="Spawns: Halvor" style="left:76.667%;top:63.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/oromir_behind_inn_help/" title="Spawns: Oromir" style="left:90.000%;top:56.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/oromir_behind_haystack_help/" title="Spawns: Oromir" style="left:53.333%;top:16.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/oromir_behind_inn/" title="Spawns: Oromir" style="left:90.000%;top:53.333%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/oromir_behind_haystack/" title="Spawns: Oromir" style="left:53.333%;top:16.667%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/ratdom_mara/" title="Spawns: Mara" style="left:36.667%;top:10.000%;width:20.000%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/ratdom_tharal/" title="Spawns: Tharal" style="left:36.667%;top:10.000%;width:20.000%;height:13.333%"></a><a class="mo mo-spawn" href="../../monsters/cave_rat/" title="Spawns: Cave rat" style="left:6.667%;top:6.667%;width:90.000%;height:90.000%"></a><a class="mo mo-spawn" href="../../monsters/ratdom_rat_crossglen/" title="Spawns: Clevred" style="left:40.000%;top:0.000%;width:3.333%;height:3.333%"></a><a class="mo mo-spawn" href="../../monsters/reindeer/" title="Spawns: Reindeer" style="left:10.000%;top:3.333%;width:46.667%;height:13.333%"></a><span class="mo mo-key" title="Blocked: needs questLatestProgress familiar_shadow 20" style="left:33.333%;top:63.333%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress ratdom_nondisplay 1" style="left:96.667%;top:43.333%;width:3.333%;height:6.667%"></span><span class="mo mo-key" title="Blocked: needs questProgress ratdom_nondisplay 1" style="left:26.667%;top:96.667%;width:3.333%;height:3.333%"></span><span class="mo mo-key" title="Blocked: needs questProgress ratdom_nondisplay 1" style="left:56.667%;top:63.333%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Ratdom nondisplay 1" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Ratdom nondisplay not 1" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></span><span class="mo mo-replace" title="Gal h1g" style="left:80.000%;top:63.333%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1f" style="left:63.333%;top:10.000%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1e" style="left:30.000%;top:16.667%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1d" style="left:30.000%;top:60.000%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1c" style="left:53.333%;top:63.333%;width:10.000%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1b" style="left:16.667%;top:83.333%;width:3.333%;height:3.333%"></span><span class="mo mo-replace" title="Gal h1a" style="left:13.333%;top:16.667%;width:3.333%;height:3.333%"></span></div>
+
+## Exits
+
+- [Crossglen cave](crossglen_cave.md)
+- [Crossglen farmhouse](crossglen_farmhouse.md)
+- [Crossglen hall](crossglen_hall.md)
+- [Crossglen smith](crossglen_smith.md)
+- [Home](home.md)
+- [Ratdom bwm1](ratdom_bwm1.md)
+- [Wild1](wild1.md)
+- [Wild2](wild2.md)
 
 ## Monsters & NPCs here
 
 | Name | HP |
 |---|---|
 | [Clevred](../monsters/ratdom_rat_crossglen.md) | 0 |
+| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
+| [Oromir](../monsters/oromir.md) | 0 |
+| [Halvor](../monsters/halvor.md) | 0 |
 | [Farmer](../monsters/farmer.md) | 0 |
 | [Oromir](../monsters/oromir_behind_inn.md) | 0 |
-| [Oromir](../monsters/oromir_behind_haystack.md) | 0 |
-| [Oromir](../monsters/oromir_behind_inn_help.md) | 0 |
-| [Oromir](../monsters/oromir.md) | 0 |
-| [Tired farmer](../monsters/tired_farmer.md) | 0 |
-| [Halvor](../monsters/halvor.md) | 0 |
-| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
 | [Gorwath](../monsters/gorwath.md) | 0 |
 | [Odair](../monsters/odair.md) | 0 |
+| [Oromir](../monsters/oromir_behind_inn_help.md) | 0 |
+| [Oromir](../monsters/oromir_behind_haystack.md) | 0 |
+| [Tired farmer](../monsters/tired_farmer.md) | 0 |
 | [Tiny rat](../monsters/tiny_rat.md) | 2 |
 | [Black ant](../monsters/black_ant.md) | 3 |
-| [Beetle](../monsters/beetle.md) | 4 |
 | [Small wasp](../monsters/small_wasp.md) | 4 |
-| [Reindeer](../monsters/reindeer.md) | 5 |
+| [Beetle](../monsters/beetle.md) | 4 |
 | [Cave rat](../monsters/cave_rat.md) | 5 |
+| [Reindeer](../monsters/reindeer.md) | 5 |
 | [Mara](../monsters/ratdom_mara.md) | 90 |
 | [Tharal](../monsters/ratdom_tharal.md) | 160 |
+
+<small>Map ID: `crossglen` · Data from v0.8.18</small>
