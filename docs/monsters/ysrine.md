@@ -1,0 +1,21 @@
+# ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } Ysrine
+
+| Stat | Value |
+|---|---|
+| Class | ? |
+| HP | 0 |
+| Max AP | 10 |
+| Attack cost | 10 |
+| Move cost | 10 |
+| Damage | 0 |
+| Attack chance | 0 |
+| Block chance | 0 |
+| Damage resistance | 0 |
+| Critical skill | 0 |
+| Critical multiplier | 0 |
+
+## Found on
+
+- [undertell_1_1](../maps/undertell_1_1.md)
+
+<small>Monster ID: `ysrine` · Data from v0.8.18</small>

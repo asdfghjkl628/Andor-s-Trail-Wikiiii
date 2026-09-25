@@ -1,0 +1,21 @@
+# ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Drunken Feygard patrol
+
+| Stat | Value |
+|---|---|
+| Class | humanoid |
+| HP | 0 |
+| Max AP | 10 |
+| Attack cost | 10 |
+| Move cost | 10 |
+| Damage | 0 |
+| Attack chance | 0 |
+| Block chance | 0 |
+| Damage resistance | 0 |
+| Critical skill | 0 |
+| Critical multiplier | 0 |
+
+## Found on
+
+- [elm_mine1](../maps/elm_mine1.md)
+
+<small>Monster ID: `ortholion_guard11` · Data from v0.8.18</small>

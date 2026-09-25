@@ -1,0 +1,33 @@
+site_name: Andor's Trail Wiki
+site_description: Always-current reference for Andor's Trail, generated from the game's open-source data.
+theme:
+  name: material
+  font: { text: Alegreya Sans, code: JetBrains Mono }
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-night, name: Dark mode }
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-sunny, name: Light mode }
+  features: [navigation.tabs, navigation.top, search.suggest, search.highlight, content.code.copy]
+extra_css: [stylesheets/extra.css]
+plugins: [search]
+markdown_extensions: [admonition, attr_list, md_in_html, tables, { toc: { permalink: true } }]
+nav:
+  - Home: index.md
+  - Items: items/index.md
+  - Monsters: monsters/index.md
+  - Skills: skills/index.md
+  - Quests: quests/index.md
+  - Maps: maps/index.md
+  - Changelog: changelog.md
+not_in_nav: |
+  /items/*.md
+  /monsters/*.md
+  /skills/*.md
+  /quests/*.md
+  /maps/*.md
+validation: { links: { not_found: info, unrecognized_links: info }, nav: { omitted_files: info } }

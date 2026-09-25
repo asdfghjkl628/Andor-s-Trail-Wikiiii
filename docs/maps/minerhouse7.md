@@ -1,0 +1,10 @@
+# minerhouse7
+
+## Monsters & NPCs here
+
+| Name | HP |
+|---|---|
+| [Fayvara](../monsters/fayvara0.md) | 0 |
+| [Charwood goblin](../monsters/charwdg4.md) | 73 |
+| [Charwood goblin fighter](../monsters/charwdg5.md) | 81 |
+| [Tough Charwood goblin](../monsters/charwdg6.md) | 92 |
