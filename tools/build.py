@@ -216,8 +216,18 @@ for d in ('items', 'monsters', 'quests', 'skills', 'maps', 'assets/maps'):
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from maps import build_maps
-spawn_maps, n_maps = build_maps(dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
-    items=items, conversations=conversations, group_to_monsters=group_to_monsters, write=write, md_esc=md_esc))
+def _monster_icon(mid): return icon(monsters.get(mid, {}).get('iconID'), 'monsters')
+def _monster_size(mid):
+    rel = _monster_icon(mid)
+    if not rel: return (1, 1)
+    from PIL import Image
+    w, h = Image.open(os.path.join(DOCS, rel)).size
+    return (max(1, round(w / 32)), max(1, round(h / 32)))
+spawn_maps, n_maps, quest_notes = build_maps(dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
+    items=items, conversations=conversations, quests=quests, skills=skills, conditions=conditions,
+    group_to_monsters=group_to_monsters, write=write, md_esc=md_esc, chance_txt=chance_txt, rng=rng,
+    monster_icon=_monster_icon, monster_size=_monster_size,
+    item_icon=lambda iid: icon(items.get(iid, {}).get('iconID'), 'items')))
 
 def item_kind(it):
     c = cats.get(it.get('category'), {})
@@ -291,16 +301,35 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
     L.append(f"| {img(ic)} | [{md_esc(m.get('name', mid))}]({mid}.md) | {m.get('monsterClass', '?')} | {m.get('maxHP', 0)} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} | {crit} |\n")
 write('monsters/index.md', ''.join(L))
 
-# quests
+# quests (every quest gets a page, including hidden story flags, so map links always resolve)
 L = ["# Quests\n\n| Quest | Stages |\n|---|---|\n"]
+hidden_rows = []
 for qid, q in sorted(quests.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
-    if not q.get('showInLog', 1): continue
-    P = [f"# {q.get('name', qid)}\n\n| Progress | Journal entry |\n|---|---|\n"]
-    for s in q.get('stages', []):
-        P.append(f"| {s.get('progress')} | {md_esc(s.get('logText', ''))}{' **(completes quest)**' if s.get('finishesQuest') else ''} |\n")
+    visible = bool(q.get('showInLog', 0))
+    notes = quest_notes.get(qid, {})
+    P = [f"# {q.get('name', qid)}\n\n"]
+    if not visible:
+        P.append("!!! info \"Hidden story flag\"\n    This is an internal quest the game uses to track story progress. "
+                 "It never appears in your journal; the entries below are the developers' own notes.\n\n")
+    P.append("| Progress | Journal entry |\n|---|---|\n")
+    stages = {st.get('progress') for st in q.get('stages', [])}
+    for st in q.get('stages', []):
+        pr = st.get('progress')
+        extra = ''.join(f"<br><span class=\"qnote\">{n}</span>" for n in sorted(notes.get(pr, ())))
+        P.append(f"| <span id=\"stage-{pr}\"></span>{pr} | {md_esc(st.get('logText', ''))}"
+                 f"{' **(completes quest)**' if st.get('finishesQuest') else ''}{extra} |\n")
+    orphan = {v: n for v, n in notes.items() if v not in stages}
+    if orphan:
+        P.append("\n## Other map events\n\n| Progress | Event |\n|---|---|\n")
+        for v in sorted(orphan):
+            P.append(f"| <span id=\"stage-{v}\"></span>{v} | " + '<br>'.join(sorted(orphan[v])) + " |\n")
     P.append(f"\n<small>Quest ID: `{qid}` · Data from v{VERSION}</small>\n")
     write(f'quests/{qid}.md', ''.join(P))
-    L.append(f"| [{md_esc(q.get('name', qid))}]({qid}.md) | {len(q.get('stages', []))} |\n")
+    row = f"| [{md_esc(q.get('name', qid))}]({qid}.md) | {len(q.get('stages', []))} |\n"
+    (L if visible else hidden_rows).append(row)
+if hidden_rows:
+    L.append("\n## Hidden story flags\n\nInternal progress trackers that never show in the journal, "
+             "but gate doors, events and map changes.\n\n| Flag | Stages |\n|---|---|\n" + ''.join(hidden_rows))
 write('quests/index.md', ''.join(L))
 
 # skills
@@ -364,7 +393,7 @@ This wiki currently describes **v{VERSION}**, the latest release, and rebuilds i
 - **[Items](items/index.md)**<br>{len(items)} items, with stats and drop sources
 - **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs, with drops and locations
 - **[Skills](skills/index.md)**<br>{len(skills)} skills, with requirements
-- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 1))} quests and their journal stages
+- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and their journal stages
 - **[World map](maps/index.md)**<br>{n_maps} maps, plus a clickable world map
 - **[Changelog](changelog.md)**<br>What changed in each release
 
