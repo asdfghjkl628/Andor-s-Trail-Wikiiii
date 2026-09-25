@@ -8,7 +8,7 @@ This wiki currently describes **v0.8.18**, the latest release, and rebuilds itse
 - **[Items](items/index.md)**<br>1005 items, with stats and drop sources
 - **[Monsters](monsters/index.md)**<br>1907 monsters and NPCs, with drops and locations
 - **[Skills](skills/index.md)**<br>45 skills, with requirements
-- **[Quests](quests/index.md)**<br>151 quests and their journal stages
+- **[Quests](quests/index.md)**<br>123 quests and their journal stages
 - **[World map](maps/index.md)**<br>1296 maps, plus a clickable world map
 - **[Changelog](changelog.md)**<br>What changed in each release
 
