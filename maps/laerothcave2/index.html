@@ -21,7 +21,7 @@
     
     
       
-        <title>laerothcave2 - Andor's Trail Wiki</title>
+        <title>Laerothcave2 - Andor's Trail Wiki</title>
       
     
     
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              laerothcave2
+              Laerothcave2
             
           </span>
         </div>
@@ -310,7 +310,7 @@
   
     
   
-  Maps
+  World map
 
       </a>
     </li>
@@ -518,7 +518,7 @@
   <span class="md-ellipsis">
     
   
-    Maps
+    World map
   
 
     
@@ -585,6 +585,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#exits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#monsters-npcs-here" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -612,7 +623,17 @@
 
 
 
-<h1 id="laerothcave2">laerothcave2<a class="headerlink" href="#laerothcave2" title="Permanent link">&para;</a></h1>
+<h1 id="laerothcave2">Laerothcave2<a class="headerlink" href="#laerothcave2" title="Permanent link">&para;</a></h1>
+<p>20×20 tiles · part of <a href="../">Laeroth caves</a></p>
+<div class="map-legend" markdown="0"><label class="lg lg-spawn"><input type="checkbox" data-t="spawn" checked> Monsters / NPCs</label><label class="lg lg-mapchange"><input type="checkbox" data-t="mapchange" checked> Exit to another map</label><label class="lg lg-container"><input type="checkbox" data-t="container" checked> Container</label><label class="lg lg-sign"><input type="checkbox" data-t="sign" checked> Sign</label><label class="lg lg-rest"><input type="checkbox" data-t="rest" checked> Resting place</label><label class="lg lg-key"><input type="checkbox" data-t="key" checked> Blocked / needs key or quest</label><label class="lg lg-script"><input type="checkbox" data-t="script"> Scripted event</label><label class="lg lg-replace"><input type="checkbox" data-t="replace"> Changes after a quest</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothcave2.webp" alt="laerothcave2" width="640" height="640" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../laerothcave1/#place-north" title="Exit to Laerothcave1" style="left:35.000%;top:95.000%;width:30.000%;height:5.000%"></a><a id="place-north" class="mo mo-mapchange" href="../laerothcave3/#place-south" title="Exit to Laerothcave3" style="left:30.000%;top:10.000%;width:5.000%;height:5.000%"></a><span class="mo mo-container" title="Container: Ruby gem" style="left:80.000%;top:75.000%;width:5.000%;height:5.000%"></span><a class="mo mo-spawn" href="../../monsters/spider_queen/" title="Spawns: Queen spider" style="left:25.000%;top:45.000%;width:5.000%;height:5.000%"></a><a class="mo mo-spawn" href="../../monsters/laerothbasement_spider/" title="Spawns: Basement spider" style="left:20.000%;top:20.000%;width:25.000%;height:5.000%"></a><a class="mo mo-spawn" href="../../monsters/cave_jelly/" title="Spawns: Cave jelly" style="left:65.000%;top:45.000%;width:30.000%;height:30.000%"></a><span class="mo mo-spawn" title="Spawns: Aggressive cave bat, Cave bat" style="left:10.000%;top:30.000%;width:35.000%;height:60.000%"></span><span class="mo mo-spawn" title="Spawns: Aggressive cave scorpion, Tough cave scorpion" style="left:25.000%;top:25.000%;width:60.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Armored cave scorpion, Fierce cave scorpion" style="left:55.000%;top:35.000%;width:20.000%;height:5.000%"></span></div>
+
+<h2 id="exits">Exits<a class="headerlink" href="#exits" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../laerothcave1/">Laerothcave1</a></li>
+<li><a href="../laerothcave3/">Laerothcave3</a></li>
+</ul>
 <h2 id="monsters-npcs-here">Monsters &amp; NPCs here<a class="headerlink" href="#monsters-npcs-here" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -623,16 +644,12 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../monsters/cave_scorpion_3/">Tough cave scorpion</a></td>
-<td>30</td>
-</tr>
-<tr>
 <td><a href="../../monsters/cave_jelly/">Cave jelly</a></td>
 <td>30</td>
 </tr>
 <tr>
-<td><a href="../../monsters/cave_scorpion_1/">Aggressive cave scorpion</a></td>
-<td>35</td>
+<td><a href="../../monsters/cave_scorpion_3/">Tough cave scorpion</a></td>
+<td>30</td>
 </tr>
 <tr>
 <td><a href="../../monsters/cave_scorpion_4/">Armored cave scorpion</a></td>
@@ -640,6 +657,10 @@
 </tr>
 <tr>
 <td><a href="../../monsters/cave_scorpion_5/">Fierce cave scorpion</a></td>
+<td>35</td>
+</tr>
+<tr>
+<td><a href="../../monsters/cave_scorpion_1/">Aggressive cave scorpion</a></td>
 <td>35</td>
 </tr>
 <tr>
@@ -660,6 +681,7 @@
 </tr>
 </tbody>
 </table>
+<p><small>Map ID: <code>laerothcave2</code> · Data from v0.8.18</small></p>
 
 
 
@@ -719,6 +741,8 @@
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/maps.js"></script>
       
     
   </body>
