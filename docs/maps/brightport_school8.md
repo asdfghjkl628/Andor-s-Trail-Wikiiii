@@ -4,5 +4,5 @@
 
 | Name | HP |
 |---|---|
-| [Erelyn](../monsters/brightport_studentghost.md) | 0 |
 | [Drendolas](../monsters/brightport_studentghost1.md) | 0 |
+| [Erelyn](../monsters/brightport_studentghost.md) | 0 |

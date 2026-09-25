@@ -9,10 +9,10 @@
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 |
 | [Swarming yellowjacket](../monsters/yjacket3.md) | 42 |
 | [Puny venomscale](../monsters/vscale1.md) | 42 |
-| [Young venomscale](../monsters/vscale2.md) | 46 |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 |
-| [Gray venomscale](../monsters/vscale3.md) | 48 |
+| [Young venomscale](../monsters/vscale2.md) | 46 |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 |
+| [Gray venomscale](../monsters/vscale3.md) | 48 |
 | [Zortak fighter](../monsters/zortak2.md) | 189 |
 | [Zortak guard](../monsters/zortak3.md) | 195 |
 | [Zortak barbarian](../monsters/zortak4.md) | 207 |

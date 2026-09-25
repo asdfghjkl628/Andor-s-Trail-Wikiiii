@@ -9,8 +9,8 @@
 | [Brown cave bat](../monsters/cavebat3.md) | 36 |
 | [Mudfiend](../monsters/mudfiend1.md) | 37 |
 | [Cave bat](../monsters/cavebat4.md) | 39 |
-| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 |
+| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Young poisonous cave burrower](../monsters/caveburr1.md) | 57 |
 | [Infected larval cave burrower](../monsters/caveburr2.md) | 62 |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 65 |

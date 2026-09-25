@@ -4,5 +4,5 @@
 
 | Name | HP |
 |---|---|
-| [Valhorn](../monsters/sullengard_valhorn.md) | 0 |
 | [Beltina](../monsters/sullengard_beltina.md) | 0 |
+| [Valhorn](../monsters/sullengard_valhorn.md) | 0 |

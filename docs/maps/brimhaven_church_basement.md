@@ -4,5 +4,5 @@
 
 | Name | HP |
 |---|---|
-| [Quasi](../monsters/hunchback.md) | 0 |
 | [Zorvan](../monsters/brv_undertaker.md) | 0 |
+| [Quasi](../monsters/hunchback.md) | 0 |

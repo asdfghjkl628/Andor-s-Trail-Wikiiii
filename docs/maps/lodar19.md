@@ -7,8 +7,8 @@
 | [Especially sweet berries](../monsters/wild_berry3.md) | 0 |
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 |
-| [Aggressive venomscale](../monsters/vscale4.md) | 52 |
 | [Fast horned anklebiter](../monsters/anklebiter4.md) | 52 |
+| [Aggressive venomscale](../monsters/vscale4.md) | 52 |
 | [Quick venomscale](../monsters/vscale5.md) | 56 |
 | [Vicious venomscale](../monsters/vscale6.md) | 59 |
 | [Strong venomscale](../monsters/vscale7.md) | 63 |

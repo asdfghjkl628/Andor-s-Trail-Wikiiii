@@ -4,8 +4,8 @@
 
 | Name | HP |
 |---|---|
-| [Rosmara](../monsters/rosmara.md) | 0 |
 | [Andor](../monsters/dds_andor.md) | 0 |
+| [Rosmara](../monsters/rosmara.md) | 0 |
 | [Mean cat](../monsters/rosmara_cat.md) | 0 |
 | [Rat](../monsters/crossroads_rat.md) | 5 |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | 77 |
