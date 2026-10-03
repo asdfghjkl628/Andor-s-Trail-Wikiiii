@@ -4,24 +4,32 @@ theme:
   name: material
   font: { text: Alegreya Sans, code: JetBrains Mono }
   palette:
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle: { icon: material/weather-night, name: Dark mode }
     - scheme: slate
       primary: custom
       accent: custom
-      toggle: { icon: material/weather-sunny, name: Light mode }
-  features: [navigation.tabs, navigation.top, search.suggest, search.highlight, content.code.copy]
+  features: [navigation.tabs, navigation.top, navigation.sections, search.suggest, search.highlight, content.code.copy]
 extra_css: [stylesheets/extra.css]
 extra_javascript: [javascripts/maps.js]
 plugins: [search]
-markdown_extensions: [admonition, attr_list, md_in_html, tables, { toc: { permalink: true } }]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc: { permalink: true }
 nav:
   - Home: index.md
   - Items: items/index.md
   - Monsters: monsters/index.md
-  - Stats & Skills: skills/index.md
+  - Stats & Skills:
+      - Overview: skills/index.md
+      - Stat glossary: skills/stats.md
+  - Strategy:
+      - strategy/index.md
+      - Levelling & skill points: strategy/levelling.md
+      - Combat tips: strategy/combat.md
   - Quests: quests/index.md
   - World map: maps/index.md
   - Changelog: changelog.md

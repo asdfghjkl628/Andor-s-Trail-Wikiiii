@@ -394,92 +394,124 @@ for sid, sk in skills.items():
             else f"Granted by an NPC during a conversation ({len(skill_sources[sid])} place(s) in the game).") + '\n')
     write(f'skills/{sid}.md', ''.join(P))
 
-# --- the Stats & Skills overview page
 sp_levels = [l for l in range(LV['first_sp'], 61, LV['every_sp'])]
-exp_rows = ''.join(f"| {l} | {exp_to_reach(l):,} | {LV['exp_base'] * l * l:,} |\n" for l in (2, 5, 10, 15, 20, 25, 30, 40, 45, 50, 60))
+exp_rows = ''.join(f"| {l} | {exp_to_reach(l):,} | {LV['exp_base'] * l * l:,} |\n" for l in (2, 5, 10, 15, 20, 25, 30, 40, 50, 60))
 def hit_f(gap): return 50 * (1 + 2 / math.pi * math.atan((gap - 50) / 40))
-hit_rows = ''.join(f"| {g:+d} | {hit_pct(g)}% | +{hit_f(g + 5) - hit_f(g):.1f} percentage points |\n" for g in (-50, 0, 25, 50, 75, 100, 150, 200, 300))
+hit_rows = ''.join(f"| {g:+d} | {hit_pct(g)}% | +{hit_f(g + 5) - hit_f(g):.1f}% |\n" for g in (-50, 0, 25, 50, 75, 100, 150, 200, 300))
 crit_rows = ''.join(f"| {c} | {crit_pct(c)}% |\n" for c in (5, 10, 20, 30, 45, 60, 80, 100, 150))
 by_cat = defaultdict(list)
 for sid, sk in skills.items(): by_cat[sk['category']].append(sid)
-skill_tables = ''
-for cat in sorted(by_cat):
-    skill_tables += f"\n### {cat.capitalize()}\n\n| Skill | Max level | How obtained | Summary |\n|---|---|---|---|\n"
-    for sid in sorted(by_cat[cat], key=lambda x: skills[x]['name']):
-        sk = skills[sid]
-        skill_tables += f"| [{md_esc(sk['name'])}]({sid}.md) | {sk['maxLevel']} | {LUT.get(sk['levelUpType'], sk['levelUpType'])} | {md_esc(sk['short'])} |\n"
-write('skills/index.md', f"""# Stats & Skills
 
-How your hero's numbers work in Andor's Trail v{VERSION}. Every figure on this page is read straight from the game's source code.
+# --- Cobalt UI frames, taken straight from the game (9-patch guide pixels stripped)
+from PIL import Image as _Img
+os.makedirs(os.path.join(DOCS, 'assets', 'ui'), exist_ok=True)
+for nm in ('stdframe', 'richframe', 'lightframe', 'tabframe', 'textbutton_enabled_unpressed', 'textbutton_enabled_pressed'):
+    src = os.path.join(GAME, 'res', 'drawable', f'ui_blue_{nm}.9.png')
+    if os.path.exists(src):
+        im = _Img.open(src).convert('RGBA'); im.crop((1, 1, im.width - 1, im.height - 1)).save(os.path.join(DOCS, 'assets', 'ui', f'{nm}.png'))
 
-## Starting stats (level 1)
+def section(title, body, open_=True):
+    """A collapsible block (pymdownx.details); body is indented so it renders inside the block."""
+    ind = '\n'.join(('    ' + ln) if ln.strip() else '' for ln in body.strip('\n').split('\n'))
+    return f'\n{"???+" if open_ else "???"} section "{title}"\n\n{ind}\n'
 
-| Stat | Value | What it does |
-|---|---|---|
-| Max HP | {base.get('maxHP', 25)} | Health. You die at 0. |
-| Max AP | {base.get('maxAP', 10)} | Action points per combat turn. Attacking, moving and using items all spend AP. |
-| Attack chance (AC) | {base.get('attackChance', 60)} | Accuracy. Compared against the target's block chance. |
-| Attack damage | {base_dmg_min}–{base_dmg_max} | Each hit rolls a random number in this range. |
-| Block chance (BC) | {base.get('blockChance', 9)} | Evasion. Compared against the attacker's attack chance. |
-| Damage resistance (DR) | {base.get('damageResistance', 0)} | Subtracted from every hit you take. |
-| Critical skill | {base.get('criticalSkill', 0)} | Sets how often you land critical hits. |
-| Critical multiplier | none | How hard criticals hit. Only weapons provide one. |
-| Attack cost | {LV['atk_cost']} AP (unarmed) | AP per attack. A weapon replaces this with its own cost. |
-| Move cost | {base.get('moveCost', 6)} AP | AP to step one tile during combat. |
-| Use item / re-equip cost | {base.get('useItemCost', 5)} / {base.get('reequipCost', 5)} AP | AP to drink a potion or swap gear in combat. |
-
-## Levelling up
-
-Every time you level up, **you pick exactly one** of these four bonuses. They're permanent, and the choice can't be undone:
-
-| Choice | Bonus per level-up |
+G = 'stats.md'  # glossary page, linked from stat names
+start_pairs = [('Max HP', base.get('maxHP', 25), 'max-hp'), ('Max AP', base.get('maxAP', 10), 'max-ap'),
+               ('Attack chance', base.get('attackChance', 60), 'attack-chance'), ('Attack damage', f'{base_dmg_min}–{base_dmg_max}', 'attack-damage'),
+               ('Block chance', base.get('blockChance', 9), 'block-chance'), ('Damage resistance', base.get('damageResistance', 0), 'damage-resistance'),
+               ('Critical skill', base.get('criticalSkill', 0), 'critical-skill'), ('Critical multiplier', '–', 'critical-multiplier'),
+               ('Attack cost', f"{LV['atk_cost']} AP", 'attack-cost'), ('Move cost', f"{base.get('moveCost', 6)} AP", 'move-cost'),
+               ('Use item cost', f"{base.get('useItemCost', 5)} AP", 'use-item-cost'), ('Re-equip cost', f"{base.get('reequipCost', 5)} AP", 're-equip-cost')]
+half = (len(start_pairs) + 1) // 2
+start_tbl = "| Stat | Lv 1 | Stat | Lv 1 |\n|---|---|---|---|\n" + ''.join(
+    f"| [{a[0]}]({G}#{a[2]}) | {a[1]} | " + (f"[{b[0]}]({G}#{b[2]}) | {b[1]} |" if b else " | |") + "\n"
+    for a, b in zip(start_pairs[:half], start_pairs[half:] + [None]))
+sp_list = [l for l in sp_levels if l <= 60]
+level_body = f"""| Choice each level-up | Bonus |
 |---|---|
-| Increase max health | +{LV['hp']} max HP |
-| Increase attack chance | +{LV['ac']} attack chance |
-| Increase attack damage | +{LV['dmg']} to both minimum and maximum damage |
-| Increase block chance | +{LV['bc']} block chance |
+| Max health | +{LV['hp']} HP |
+| Attack chance | +{LV['ac']} |
+| Attack damage | +{LV['dmg']} min & max |
+| Block chance | +{LV['bc']} |
 
-These choices make up your **base stats**. They matter beyond the raw numbers, because skill requirements look only at base stats. For example, [Bark Skin](barkSkin.md) needs block chance from level-ups, and gear doesn't count toward it.
+Pick **one** per level-up; it's permanent. These form your **base stats**, the only values skill requirements check (gear and skills never count).
 
-**Skill points.** You get your first skill point at level {LV['first_sp']}, then one more every {LV['every_sp']} levels ({', '.join(map(str, sp_levels[:8]))}…). That's only {len([l for l in sp_levels if l <= 50])} skill points by level 50, so each one is a big decision.
+**Skill points:** level {', '.join(map(str, sp_list))} ({len([l for l in sp_levels if l <= 50])} by level 50).
+**Experience:** level L → L+1 costs {LV['exp_base']} × L².
 
-**Health and Fortitude.** [Fortitude](fortitude.md) adds +{LV['fort']} max HP per skill level to **every level-up after you learn it**. It is not retroactive, so the earlier you take it, the more it gives. Its first level needs character level 5, which is why players hold their level-4 skill point until level 5. Over a long game it out-scales the +{LV['hp']} HP level-up choice, which is why many players never pick health at level-up.
-
-**Experience needed.** Going from level L to L+1 costs {LV['exp_base']} × L² experience.
-
-| Level | Total experience to reach it | Experience for the next level |
+| Level | Total XP | XP to next |
 |---|---|---|
-{exp_rows}
-## How combat works
+{exp_rows}"""
+combat_body = f"""Every attack runs four steps. See the [stat glossary]({G}) for what each stat means.
 
-Each attack is resolved in four steps.
+**1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
-**1. Does it hit?** The game takes your attack chance minus the target's block chance, and puts that gap through an S-shaped curve:
-
-> hit % = 50 × (1 + (2/π) × arctan((gap − 50) / 40))
-
-| AC − BC gap | Hit chance | Value of +5 more AC here |
+| AC − BC | Hit | +5 AC adds |
 |---|---|---|
 {hit_rows}
-A 50-point gap is a coin flip. Near that point, every extra attack chance pays off the most. Far above it, you're close to the cap, so more accuracy barely helps. Far below it, you need a lot of accuracy before you see much change. Block chance works the same way in reverse: it helps most when your enemies' accuracy sits near yours + 50.
+**2 · Damage:** random between min and max attack damage.
 
-**2. How much damage?** A random number between your minimum and maximum attack damage.
+**3 · Critical?** Only with critical skill > 0 **and** a weapon that gives a critical multiplier. Ghosts, constructs and demons are immune. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
-**3. Is it critical?** It can only be critical if two things are both true: you have critical skill above 0, **and** your weapon gives a critical multiplier. Unarmed attacks and weapons without a multiplier never crit, however much critical skill you have. Ghosts, constructs and demons are immune to critical hits. Critical skill becomes a crit chance with diminishing returns:
-
-> crit % = −5 + 2 × √(5 × critical skill)
-
-| Critical skill | Crit chance |
+| Crit skill | Crit % |
 |---|---|
 {crit_rows}
-A critical hit multiplies the damage roll by the critical multiplier (e.g. ×2).
+**4 · Armor:** the target's damage resistance is subtracted from the result (minimum 0).
 
-**4. Armor.** The target's damage resistance is subtracted from the result, after any critical multiplier, and damage can't go below 0. That's why a few big hits beat many small ones against heavily armored enemies: a 5-damage hit into 4 DR does 1 damage, while a 20-damage hit does 16.
+**Attacks per turn** = max AP ÷ attack cost, rounded down."""
+skill_body = ''
+for cat in sorted(by_cat):
+    skill_body += f"\n**{cat.capitalize()}**\n\n| Skill | Max | Obtained | Summary |\n|---|---|---|---|\n"
+    for sid in sorted(by_cat[cat], key=lambda x: skills[x]['name']):
+        sk = skills[sid]
+        how = {'alwaysShown': 'Points', 'firstLevelRequiresQuest': 'Quest, then points', 'onlyByQuests': 'Quest only'}.get(sk['levelUpType'], sk['levelUpType'])
+        skill_body += f"| [{md_esc(sk['name'])}]({sid}.md) | {sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else '∞'} | {how} | {md_esc(sk['short'])} |\n"
+write('skills/index.md', f"""# Stats & Skills
 
-**Attacks per turn** = max AP ÷ attack cost, rounded down. With 10 AP, a 4-AP weapon attacks twice and 2 AP sit unused; [Combat Speed](speed.md) (+1 max AP per level) would turn that into 3 attacks. Because of the rounding, one point of AP or attack cost can be worth nothing, or worth a whole extra attack.
+Andor's Trail v{VERSION}, read straight from the game's source code. Click a heading to collapse it. For advice on how to spend your points, see [Strategy](../strategy/index.md).
+""" + section('Starting stats (level 1)', start_tbl) + section('Levelling up', level_body)
+  + section('How combat works', combat_body) + section(f'All skills ({len(skills)})', skill_body))
 
-## All skills
-{skill_tables}
+# --- stat glossary (what each stat does)
+write('skills/stats.md', f"""# Stat glossary
+
+What each stat does in Andor's Trail v{VERSION}. Starting values are on [Stats & Skills](index.md).
+
+## Max HP
+Your health. You die at 0. Raised by the **max health** level-up choice (+{LV['hp']}), by [Fortitude](fortitude.md) (+{LV['fort']} per skill level on every later level-up), and by some gear.
+
+## Max AP
+Action points per combat turn. Attacking, moving and using items all spend AP. [Combat Speed](speed.md) adds +1 per level (max 2).
+
+## Attack chance
+Your accuracy. Compared with the target's block chance to decide whether you hit; see [how combat works](index.md). Raised by the **attack chance** level-up (+{LV['ac']}), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
+
+## Attack damage
+Each hit deals a random amount between your minimum and maximum damage. The **attack damage** level-up adds +{LV['dmg']} to both; [Hard Hit](weaponDmg.md) adds +2 to the maximum only.
+
+## Block chance
+Your evasion. Compared with the attacker's attack chance. Raised by the **block chance** level-up (+{LV['bc']}), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements such as [Bark Skin](barkSkin.md).
+
+## Damage resistance
+Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it's strongest against many weak hits. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
+
+## Critical skill
+Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. Does nothing unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) increases it by 20% per level.
+
+## Critical multiplier
+How much a critical hit multiplies damage (e.g. ×2). Only weapons provide one; you have none unarmed. [Better Criticals](betterCriticals.md) increases it by 25% per level.
+
+## Attack cost
+AP spent per attack. Unarmed it's {LV['atk_cost']}; a weapon replaces it with its own cost. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can mean an extra attack every turn.
+
+## Move cost
+AP to move one tile during combat. Heavy armor can raise it.
+
+## Use item cost
+AP to use an item (e.g. drink a potion) during combat.
+
+## Re-equip cost
+AP to change equipment during combat.
 """)
 # ---------------------------------------------------------------- snapshot + changelog
 snap = {'version': VERSION,
