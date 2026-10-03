@@ -332,24 +332,155 @@ if hidden_rows:
              "but gate doors, events and map changes.\n\n| Flag | Stages |\n|---|---|\n" + ''.join(hidden_rows))
 write('quests/index.md', ''.join(L))
 
-# skills
-def req_text(r):
-    if r[0] == 'skill': return f"{link('skills', r[1], skills.get(r[1], {}).get('name', r[1]))} level {r[2]}"
-    if r[0] == 'level': return f"character level {r[1]}" + (f" (+{r[2]} per skill level)" if r[2] else '')
-    return f"{r[1]} ≥ {r[2]}" + (f" (+{r[3]} per skill level)" if r[3] else '')
-LUT = {'alwaysShown': 'Skill points', 'firstLevelRequiresQuest': 'First level from a quest, then skill points', 'onlyByQuests': 'Quest reward only'}
-L = ["# Skills\n\n| Skill | Category | Max level | How obtained |\n|---|---|---|---|\n"]
-for sid, s in skills.items():
-    P = [f"# {s['name']}\n\n*{s['short']}*\n\n", f"**Category:** {s['category']} · **Max level:** {s['maxLevel']} · **Obtained via:** {LUT.get(s['levelUpType'], s['levelUpType'])}\n\n"]
-    if s['requirements']:
-        P.append("## Requirements\n\n" + ''.join(f"- {req_text(r)}\n" for r in s['requirements']) + '\n')
-    if s['long']: P.append("## Description\n\n" + html.unescape(s['long']).replace('\n', '\n\n') + '\n')
-    if skill_sources.get(sid):
-        P.append(f"\n## Granted in conversations\n\nGranted by {len(skill_sources[sid])} dialogue node(s): " + ', '.join(f'`{c}`' for c in sorted(skill_sources[sid])) + '\n')
-    write(f'skills/{sid}.md', ''.join(P))
-    L.append(f"| [{md_esc(s['name'])}]({sid}.md) | {s['category']} | {s['maxLevel']} | {LUT.get(s['levelUpType'], s['levelUpType'])} |\n")
-write('skills/index.md', ''.join(L))
+# ---------------------------------------------------------------- stats & skills
+import math
+pj = open(os.path.join(JAVA, 'model', 'actor', 'Player.java'), encoding='utf-8').read()
+cj = open(os.path.join(JAVA, 'controller', 'Constants.java'), encoding='utf-8').read()
+def jint(src, name, default=0):
+    m = re.search(rf'\b{name}\s*=\s*(-?\d+)', src); return int(m.group(1)) if m else default
+base = {k: int(v) for k, v in re.findall(r'baseTraits\.(\w+)\s*=\s*(-?\d+);', pj)}
+dmg = re.search(r'baseTraits\.damagePotential\.set\((\d+),\s*(\d+)\)', pj)
+base_dmg_max, base_dmg_min = (int(dmg.group(1)), int(dmg.group(2))) if dmg else (1, 1)
+LV = dict(hp=jint(cj, 'LEVELUP_EFFECT_HEALTH', 5), ac=jint(cj, 'LEVELUP_EFFECT_ATK_CH', 5),
+          dmg=jint(cj, 'LEVELUP_EFFECT_ATK_DMG', 1), bc=jint(cj, 'LEVELUP_EFFECT_DEF_CH', 3),
+          first_sp=jint(cj, 'FIRST_SKILL_POINT_IS_GIVEN_AT_LEVEL', 4), every_sp=jint(cj, 'NEW_SKILL_POINT_EVERY_N_LEVELS', 4),
+          exp_base=jint(pj, 'EXP_base', 55), atk_cost=jint(pj, 'DEFAULT_PLAYER_ATTACKCOST', 4),
+          fort=consts.get('PER_SKILLPOINT_INCREASE_FORTITUDE_HEALTH', 1))
+def exp_to_reach(level): return sum(LV['exp_base'] * i * i for i in range(1, level))
+def hit_pct(gap): return int(50 * (1 + 2 / math.pi * math.atan((gap - 50) / 40)))
+def crit_pct(cs): return max(0, int(-5 + 2 * math.sqrt(5 * cs))) if cs > 0 else 0
+STAT_NAMES = {'blockChance': 'Block chance', 'attackChance': 'Attack chance', 'maxHP': 'Max HP', 'maxAP': 'Max AP',
+              'damageResistance': 'Damage resistance', 'criticalSkill': 'Critical skill', 'damagePotentialMax': 'Max damage',
+              'damagePotentialMin': 'Min damage', 'criticalMultiplier': 'Critical multiplier'}
 
+def req_text(r, max_level):
+    """Requirement for skill level N is (N x per_level) + starting amount, per SkillInfo.SkillLevelRequirement."""
+    more = max_level == 'unlimited' or (isinstance(max_level, int) and max_level > 1)
+    if r[0] == 'skill':
+        nm = link('skills', r[1], skills.get(r[1], {}).get('name', r[1]))
+        return f"{nm} level {r[2]}" + (f" (each further level needs {r[2]} more)" if more else '')
+    if r[0] == 'level':
+        first = r[1] + r[2]
+        return f"Character level {first}" + (f"; level 2 needs {2 * r[1] + r[2]}, level 3 needs {3 * r[1] + r[2]}, and so on" if more and r[1] else '')
+    nm = STAT_NAMES.get(r[1], r[1]); first = r[2] + r[3]
+    return (f"{nm} of at least {first} from level-ups (gear and skills don't count)" +
+            (f"; each further level needs {r[2]} more" if more and r[2] else ''))
+
+unlocks = defaultdict(list)  # skill -> skills that require it
+for sid, sk in skills.items():
+    for r in sk['requirements']:
+        if r[0] == 'skill': unlocks[r[1]].append((sid, r[2]))
+skill_quests = defaultdict(set)  # skill -> quests advanced in the same dialogue node that grants it
+for sid, cids in skill_sources.items():
+    for cid in cids:
+        for r in conversations[cid].get('rewards', []) or []:
+            if r.get('rewardType') == 'questProgress' and r.get('rewardID') in quests:
+                skill_quests[sid].add(r['rewardID'])
+
+LUT = {'alwaysShown': 'Skill points', 'firstLevelRequiresQuest': 'First level from a quest, then skill points', 'onlyByQuests': 'Quest reward only'}
+for sid, sk in skills.items():
+    P = [f"# {sk['name']}\n\n*{sk['short']}*\n\n",
+         f"**Category:** {sk['category']} · **Max level:** {sk['maxLevel']} · **Obtained via:** {LUT.get(sk['levelUpType'], sk['levelUpType'])}\n\n"]
+    if sk['requirements']:
+        P.append("## Requirements\n\n" + ''.join(f"- {req_text(r, sk['maxLevel'])}\n" for r in sk['requirements']) + '\n')
+    if unlocks.get(sid):
+        P.append("## Unlocks\n\nInvesting here also counts toward:\n\n" + ''.join(
+            f"- {link('skills', u, skills[u]['name'])} (needs this skill at level {n})\n" for u, n in unlocks[sid]) + '\n')
+    if sk['long']: P.append("## Description\n\n" + html.unescape(sk['long']).replace('\n', '\n\n') + '\n')
+    if skill_sources.get(sid):
+        qs = sorted(skill_quests.get(sid, ()), key=lambda q: quests[q].get('name', q))
+        P.append("\n## Where to learn it\n\n" + (
+            "Granted by an NPC as part of: " + ', '.join(link('quests', q, quests[q].get('name', q)) for q in qs) if qs
+            else f"Granted by an NPC during a conversation ({len(skill_sources[sid])} place(s) in the game).") + '\n')
+    write(f'skills/{sid}.md', ''.join(P))
+
+# --- the Stats & Skills overview page
+sp_levels = [l for l in range(LV['first_sp'], 61, LV['every_sp'])]
+exp_rows = ''.join(f"| {l} | {exp_to_reach(l):,} | {LV['exp_base'] * l * l:,} |\n" for l in (2, 5, 10, 15, 20, 25, 30, 40, 45, 50, 60))
+def hit_f(gap): return 50 * (1 + 2 / math.pi * math.atan((gap - 50) / 40))
+hit_rows = ''.join(f"| {g:+d} | {hit_pct(g)}% | +{hit_f(g + 5) - hit_f(g):.1f} percentage points |\n" for g in (-50, 0, 25, 50, 75, 100, 150, 200, 300))
+crit_rows = ''.join(f"| {c} | {crit_pct(c)}% |\n" for c in (5, 10, 20, 30, 45, 60, 80, 100, 150))
+by_cat = defaultdict(list)
+for sid, sk in skills.items(): by_cat[sk['category']].append(sid)
+skill_tables = ''
+for cat in sorted(by_cat):
+    skill_tables += f"\n### {cat.capitalize()}\n\n| Skill | Max level | How obtained | Summary |\n|---|---|---|---|\n"
+    for sid in sorted(by_cat[cat], key=lambda x: skills[x]['name']):
+        sk = skills[sid]
+        skill_tables += f"| [{md_esc(sk['name'])}]({sid}.md) | {sk['maxLevel']} | {LUT.get(sk['levelUpType'], sk['levelUpType'])} | {md_esc(sk['short'])} |\n"
+write('skills/index.md', f"""# Stats & Skills
+
+How your hero's numbers work in Andor's Trail v{VERSION}. Every figure on this page is read straight from the game's source code.
+
+## Starting stats (level 1)
+
+| Stat | Value | What it does |
+|---|---|---|
+| Max HP | {base.get('maxHP', 25)} | Health. You die at 0. |
+| Max AP | {base.get('maxAP', 10)} | Action points per combat turn. Attacking, moving and using items all spend AP. |
+| Attack chance (AC) | {base.get('attackChance', 60)} | Accuracy. Compared against the target's block chance. |
+| Attack damage | {base_dmg_min}–{base_dmg_max} | Each hit rolls a random number in this range. |
+| Block chance (BC) | {base.get('blockChance', 9)} | Evasion. Compared against the attacker's attack chance. |
+| Damage resistance (DR) | {base.get('damageResistance', 0)} | Subtracted from every hit you take. |
+| Critical skill | {base.get('criticalSkill', 0)} | Sets how often you land critical hits. |
+| Critical multiplier | none | How hard criticals hit. Only weapons provide one. |
+| Attack cost | {LV['atk_cost']} AP (unarmed) | AP per attack. A weapon replaces this with its own cost. |
+| Move cost | {base.get('moveCost', 6)} AP | AP to step one tile during combat. |
+| Use item / re-equip cost | {base.get('useItemCost', 5)} / {base.get('reequipCost', 5)} AP | AP to drink a potion or swap gear in combat. |
+
+## Levelling up
+
+Every time you level up, **you pick exactly one** of these four bonuses. They're permanent, and the choice can't be undone:
+
+| Choice | Bonus per level-up |
+|---|---|
+| Increase max health | +{LV['hp']} max HP |
+| Increase attack chance | +{LV['ac']} attack chance |
+| Increase attack damage | +{LV['dmg']} to both minimum and maximum damage |
+| Increase block chance | +{LV['bc']} block chance |
+
+These choices make up your **base stats**. They matter beyond the raw numbers, because skill requirements look only at base stats. For example, [Bark Skin](barkSkin.md) needs block chance from level-ups, and gear doesn't count toward it.
+
+**Skill points.** You get your first skill point at level {LV['first_sp']}, then one more every {LV['every_sp']} levels ({', '.join(map(str, sp_levels[:8]))}…). That's only {len([l for l in sp_levels if l <= 50])} skill points by level 50, so each one is a big decision.
+
+**Health and Fortitude.** [Fortitude](fortitude.md) adds +{LV['fort']} max HP per skill level to **every level-up after you learn it**. It is not retroactive, so the earlier you take it, the more it gives. Its first level needs character level 5, which is why players hold their level-4 skill point until level 5. Over a long game it out-scales the +{LV['hp']} HP level-up choice, which is why many players never pick health at level-up.
+
+**Experience needed.** Going from level L to L+1 costs {LV['exp_base']} × L² experience.
+
+| Level | Total experience to reach it | Experience for the next level |
+|---|---|---|
+{exp_rows}
+## How combat works
+
+Each attack is resolved in four steps.
+
+**1. Does it hit?** The game takes your attack chance minus the target's block chance, and puts that gap through an S-shaped curve:
+
+> hit % = 50 × (1 + (2/π) × arctan((gap − 50) / 40))
+
+| AC − BC gap | Hit chance | Value of +5 more AC here |
+|---|---|---|
+{hit_rows}
+A 50-point gap is a coin flip. Near that point, every extra attack chance pays off the most. Far above it, you're close to the cap, so more accuracy barely helps. Far below it, you need a lot of accuracy before you see much change. Block chance works the same way in reverse: it helps most when your enemies' accuracy sits near yours + 50.
+
+**2. How much damage?** A random number between your minimum and maximum attack damage.
+
+**3. Is it critical?** It can only be critical if two things are both true: you have critical skill above 0, **and** your weapon gives a critical multiplier. Unarmed attacks and weapons without a multiplier never crit, however much critical skill you have. Ghosts, constructs and demons are immune to critical hits. Critical skill becomes a crit chance with diminishing returns:
+
+> crit % = −5 + 2 × √(5 × critical skill)
+
+| Critical skill | Crit chance |
+|---|---|
+{crit_rows}
+A critical hit multiplies the damage roll by the critical multiplier (e.g. ×2).
+
+**4. Armor.** The target's damage resistance is subtracted from the result, after any critical multiplier, and damage can't go below 0. That's why a few big hits beat many small ones against heavily armored enemies: a 5-damage hit into 4 DR does 1 damage, while a 20-damage hit does 16.
+
+**Attacks per turn** = max AP ÷ attack cost, rounded down. With 10 AP, a 4-AP weapon attacks twice and 2 AP sit unused; [Combat Speed](speed.md) (+1 max AP per level) would turn that into 3 attacks. Because of the rounding, one point of AP or attack cost can be worth nothing, or worth a whole extra attack.
+
+## All skills
+{skill_tables}
+""")
 # ---------------------------------------------------------------- snapshot + changelog
 snap = {'version': VERSION,
         'items': {k: {x: v[x] for x in v if x not in ('iconID',)} for k, v in items.items()},
@@ -392,7 +523,7 @@ This wiki currently describes **v{VERSION}**, the latest release, and rebuilds i
 
 - **[Items](items/index.md)**<br>{len(items)} items, with stats and drop sources
 - **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs, with drops and locations
-- **[Skills](skills/index.md)**<br>{len(skills)} skills, with requirements
+- **[Stats & Skills](skills/index.md)**<br>How stats and levelling work, plus all {len(skills)} skills
 - **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and their journal stages
 - **[World map](maps/index.md)**<br>{n_maps} maps, plus a clickable world map
 - **[Changelog](changelog.md)**<br>What changed in each release

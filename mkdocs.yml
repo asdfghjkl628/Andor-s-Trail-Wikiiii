@@ -21,7 +21,7 @@ nav:
   - Home: index.md
   - Items: items/index.md
   - Monsters: monsters/index.md
-  - Skills: skills/index.md
+  - Stats & Skills: skills/index.md
   - Quests: quests/index.md
   - World map: maps/index.md
   - Changelog: changelog.md
