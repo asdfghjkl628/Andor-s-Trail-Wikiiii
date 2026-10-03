@@ -6,8 +6,8 @@
 
 ## Requirements
 
-- character level 10
-- blockChance ≥ 15
+- Character level 10; level 2 needs 20, level 3 needs 30, and so on
+- Block chance of at least 15 from level-ups (gear and skills don't count); each further level needs 15 more
 
 ## Description
 

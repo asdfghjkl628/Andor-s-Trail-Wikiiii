@@ -16,8 +16,8 @@
 | Name | HP |
 |---|---|
 | [Waitress](../monsters/brv_tavern_west_waitress.md) | 0 |
+| [Guest](../monsters/brv_tavern_west_guest.md) | 0 |
 | [Zimsko](../monsters/zimsko.md) | 0 |
 | [Guard](../monsters/brv_tavern_west_guard.md) | 0 |
-| [Guest](../monsters/brv_tavern_west_guest.md) | 0 |
 
 <small>Map ID: `brimhaven_tavern_west` · Data from v0.8.18</small>

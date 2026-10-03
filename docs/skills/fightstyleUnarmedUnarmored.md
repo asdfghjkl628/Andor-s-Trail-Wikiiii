@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- character level 15
+- Character level 15; level 2 needs 30, level 3 needs 45, and so on
 
 ## Description
 

@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Mayor Ale](../monsters/sullengard_mayor.md) | 0 |
 | [Maddalena](../monsters/sullengard_town_clerk.md) | 0 |
+| [Mayor Ale](../monsters/sullengard_mayor.md) | 0 |
 
 <small>Map ID: `sullengard1_townhall` · Data from v0.8.18</small>

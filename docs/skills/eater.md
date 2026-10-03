@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- maxHP ≥ 20 (+20 per skill level)
+- Max HP of at least 40 from level-ups (gear and skills don't count); each further level needs 20 more
 
 ## Description
 

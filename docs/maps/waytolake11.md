@@ -15,9 +15,9 @@
 
 | Name | HP |
 |---|---|
-| [Horse](../monsters/guynmart_horse.md) | 0 |
 | [Especially sweet berries](../monsters/wild_berry3.md) | 0 |
 | [Teksin](../monsters/teksin.md) | 0 |
+| [Horse](../monsters/guynmart_horse.md) | 0 |
 | [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 |

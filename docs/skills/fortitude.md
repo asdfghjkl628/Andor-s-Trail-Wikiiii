@@ -6,12 +6,18 @@
 
 ## Requirements
 
-- character level 15 (+-10 per skill level)
+- Character level 5; level 2 needs 20, level 3 needs 35, and so on
+
+## Unlocks
+
+Investing here also counts toward:
+
+- [Regeneration](../skills/regeneration.md) (needs this skill at level 1)
 
 ## Description
 
 On every subsequent level-up, maximum health points (HP) will be raised by %1$,d per skill level. This is not applied retroactively, only subsequent level-ups will be affected.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `brv_fortune_back_62b`
+Granted by an NPC as part of: [The exploded star](../quests/mg2_exploded_star.md)

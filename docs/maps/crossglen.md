@@ -22,16 +22,16 @@
 | Name | HP |
 |---|---|
 | [Halvor](../monsters/halvor.md) | 0 |
-| [Odair](../monsters/odair.md) | 0 |
+| [Farmer](../monsters/farmer.md) | 0 |
+| [Oromir](../monsters/oromir_behind_inn.md) | 0 |
 | [Gorwath](../monsters/gorwath.md) | 0 |
 | [Oromir](../monsters/oromir_behind_inn_help.md) | 0 |
-| [Oromir](../monsters/oromir.md) | 0 |
-| [Oromir](../monsters/oromir_behind_inn.md) | 0 |
-| [Clevred](../monsters/ratdom_rat_crossglen.md) | 0 |
-| [Farmer](../monsters/farmer.md) | 0 |
 | [Tired farmer](../monsters/tired_farmer.md) | 0 |
-| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
 | [Oromir](../monsters/oromir_behind_haystack.md) | 0 |
+| [Clevred](../monsters/ratdom_rat_crossglen.md) | 0 |
+| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
+| [Oromir](../monsters/oromir.md) | 0 |
+| [Odair](../monsters/odair.md) | 0 |
 | [Tiny rat](../monsters/tiny_rat.md) | 2 |
 | [Black ant](../monsters/black_ant.md) | 3 |
 | [Small wasp](../monsters/small_wasp.md) | 4 |

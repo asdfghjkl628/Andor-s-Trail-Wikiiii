@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Oegyth crystal](../monsters/mg2_cavea_home.md) | 0 |
 | [Oegyth crystal](../monsters/mg2_cavea_throdna.md) | 0 |
+| [Oegyth crystal](../monsters/mg2_cavea_home.md) | 0 |
 | [Beholder](../monsters/beholder.md) | 180 |
 
 <small>Map ID: `galmore_cavea_2` · Data from v0.8.18</small>

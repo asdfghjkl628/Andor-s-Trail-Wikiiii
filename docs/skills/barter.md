@@ -8,6 +8,6 @@
 
 For every skill level, decreases the buying and selling gold penalty by %1$,d percentage points.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `brv_fortune_back_65b`
+Granted by an NPC as part of: [The exploded star](../quests/mg2_exploded_star.md)

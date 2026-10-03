@@ -8,6 +8,6 @@
 
 While fighting without having any piece of armor equipped, gain %1$,d block chance per skill level. Items made of cloth are not considered as being armor.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 2 dialogue node(s): `fayvara1_2nd_u3`, `fayvara1_7_u2`
+Granted by an NPC as part of: [Destined for great things](../quests/charwood1.md)

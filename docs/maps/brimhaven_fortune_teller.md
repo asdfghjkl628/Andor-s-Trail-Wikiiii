@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Eagle](../monsters/brv_eagle.md) | 0 |
 | [Pangitain](../monsters/brv_fortune_teller.md) | 0 |
+| [Eagle](../monsters/brv_eagle.md) | 0 |
 
 <small>Map ID: `brimhaven_fortune_teller` · Data from v0.8.18</small>

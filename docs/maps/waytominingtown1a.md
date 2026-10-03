@@ -15,8 +15,8 @@
 | Name | HP |
 |---|---|
 | [Erethori](../monsters/erethori.md) | 0 |
-| [Askyl](../monsters/askyl.md) | 0 |
 | [Esfiume](../monsters/esfiume.md) | 0 |
+| [Askyl](../monsters/askyl.md) | 0 |
 | [Tough redfoot beast](../monsters/redft0.md) | 39 |
 
 <small>Map ID: `waytominingtown1a` · Data from v0.8.18</small>

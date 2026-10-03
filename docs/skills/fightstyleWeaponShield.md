@@ -6,7 +6,13 @@
 
 ## Requirements
 
-- character level 15
+- Character level 15; level 2 needs 30, level 3 needs 45, and so on
+
+## Unlocks
+
+Investing here also counts toward:
+
+- [Specialization: Weapon and shield](../skills/specializationWeaponShield.md) (needs this skill at level 2)
 
 ## Description
 

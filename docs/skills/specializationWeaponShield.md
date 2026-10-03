@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- character level 45
+- Character level 45
 - [Fighting style: Weapon and shield](../skills/fightstyleWeaponShield.md) level 2
 
 ## Description

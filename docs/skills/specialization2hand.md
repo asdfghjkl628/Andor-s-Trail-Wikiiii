@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- character level 45
+- Character level 45
 - [Fighting style: Two-handed weapon](../skills/fightstyle2hand.md) level 2
 
 ## Description

@@ -19,10 +19,10 @@
 |---|---|
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
-| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
-| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 |
+| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Fierce cave lizard](../monsters/ratdom_m7a.md) | 30 |
+| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 |
 | [Giant larval burrower](../monsters/burrower_4.md) | 75 |
 
 <small>Map ID: `ratdom_maze_455` · Data from v0.8.18</small>
