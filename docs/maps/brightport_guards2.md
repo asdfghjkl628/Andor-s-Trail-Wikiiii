@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Leorio](../monsters/brightport_gunfrykassistant.md) | 0 |
 | [Brightport guard](../monsters/brightportguard.md) | 0 |
+| [Leorio](../monsters/brightport_gunfrykassistant.md) | 0 |
 
 <small>Map ID: `brightport_guards2` · Data from v0.8.18</small>

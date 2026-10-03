@@ -16,8 +16,8 @@
 
 | Name | HP |
 |---|---|
-| [Churrie](../monsters/churrie.md) | 0 |
 | [Tamarukh](../monsters/tamarukh.md) | 0 |
+| [Churrie](../monsters/churrie.md) | 0 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 |

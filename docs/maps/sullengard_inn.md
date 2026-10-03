@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Lost traveler](../monsters/sullengard_inn_traveler.md) | 0 |
 | [Godfrey](../monsters/sullengard_innkeeper.md) | 0 |
+| [Lost traveler](../monsters/sullengard_inn_traveler.md) | 0 |
 
 <small>Map ID: `sullengard_inn` · Data from v0.8.18</small>

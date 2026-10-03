@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Lethenlor](../monsters/lethenlor.md) | 0 |
 | [Lleglaris](../monsters/lleglaris.md) | 0 |
+| [Lethenlor](../monsters/lethenlor.md) | 0 |
 
 <small>Map ID: `tradehouse1` · Data from v0.8.18</small>

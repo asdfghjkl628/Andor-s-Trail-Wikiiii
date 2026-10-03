@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Rubiano](../monsters/brightport_mayor.md) | 0 |
 | [Nicolo](../monsters/brightport_councilor.md) | 0 |
+| [Rubiano](../monsters/brightport_mayor.md) | 0 |
 
 <small>Map ID: `brightport_bakery3` · Data from v0.8.18</small>

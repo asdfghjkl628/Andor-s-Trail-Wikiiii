@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Wyrm trainer](../monsters/wyrm_trainer.md) | 69 |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 69 |
+| [Wyrm trainer](../monsters/wyrm_trainer.md) | 69 |
 
 <small>Map ID: `blackwater_mountain36` · Data from v0.8.18</small>

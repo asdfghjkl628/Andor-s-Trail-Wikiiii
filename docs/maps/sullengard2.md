@@ -20,7 +20,7 @@
 | Name | HP |
 |---|---|
 | [Gwinnett](../monsters/sullengard_courtyard_girl.md) | 0 |
-| [Curwen](../monsters/sullengard_courtyard_boy.md) | 0 |
 | [Hamerick](../monsters/sullengard_hamerick.md) | 0 |
+| [Curwen](../monsters/sullengard_courtyard_boy.md) | 0 |
 
 <small>Map ID: `sullengard2` · Data from v0.8.18</small>

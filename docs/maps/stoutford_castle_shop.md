@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Gyra](../monsters/stn_gyra1.md) | 0 |
 | [Undead child](../monsters/erwyn_child.md) | 0 |
+| [Gyra](../monsters/stn_gyra1.md) | 0 |
 
 <small>Map ID: `stoutford_castle_shop` · Data from v0.8.18</small>

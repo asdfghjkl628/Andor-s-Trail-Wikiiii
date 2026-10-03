@@ -1,181 +1,161 @@
 # Stats & Skills
 
-How your hero's numbers work in Andor's Trail v0.8.18. Every figure on this page is read straight from the game's source code.
+Andor's Trail v0.8.18, read straight from the game's source code. Click a heading to collapse it. For advice on how to spend your points, see [Strategy](../strategy/index.md).
 
-## Starting stats (level 1)
+???+ section "Starting stats (level 1)"
 
-| Stat | Value | What it does |
-|---|---|---|
-| Max HP | 25 | Health. You die at 0. |
-| Max AP | 10 | Action points per combat turn. Attacking, moving and using items all spend AP. |
-| Attack chance (AC) | 60 | Accuracy. Compared against the target's block chance. |
-| Attack damage | 1–1 | Each hit rolls a random number in this range. |
-| Block chance (BC) | 9 | Evasion. Compared against the attacker's attack chance. |
-| Damage resistance (DR) | 0 | Subtracted from every hit you take. |
-| Critical skill | 0 | Sets how often you land critical hits. |
-| Critical multiplier | none | How hard criticals hit. Only weapons provide one. |
-| Attack cost | 4 AP (unarmed) | AP per attack. A weapon replaces this with its own cost. |
-| Move cost | 6 AP | AP to step one tile during combat. |
-| Use item / re-equip cost | 5 / 5 AP | AP to drink a potion or swap gear in combat. |
+    | Stat | Lv 1 | Stat | Lv 1 |
+    |---|---|---|---|
+    | [Max HP](stats.md#max-hp) | 25 | [Critical skill](stats.md#critical-skill) | 0 |
+    | [Max AP](stats.md#max-ap) | 10 | [Critical multiplier](stats.md#critical-multiplier) | – |
+    | [Attack chance](stats.md#attack-chance) | 60 | [Attack cost](stats.md#attack-cost) | 4 AP |
+    | [Attack damage](stats.md#attack-damage) | 1–1 | [Move cost](stats.md#move-cost) | 6 AP |
+    | [Block chance](stats.md#block-chance) | 9 | [Use item cost](stats.md#use-item-cost) | 5 AP |
+    | [Damage resistance](stats.md#damage-resistance) | 0 | [Re-equip cost](stats.md#re-equip-cost) | 5 AP |
 
-## Levelling up
+???+ section "Levelling up"
 
-Every time you level up, **you pick exactly one** of these four bonuses. They're permanent, and the choice can't be undone:
+    | Choice each level-up | Bonus |
+    |---|---|
+    | Max health | +5 HP |
+    | Attack chance | +5 |
+    | Attack damage | +1 min & max |
+    | Block chance | +3 |
 
-| Choice | Bonus per level-up |
-|---|---|
-| Increase max health | +5 max HP |
-| Increase attack chance | +5 attack chance |
-| Increase attack damage | +1 to both minimum and maximum damage |
-| Increase block chance | +3 block chance |
+    Pick **one** per level-up; it's permanent. These form your **base stats**, the only values skill requirements check (gear and skills never count).
 
-These choices make up your **base stats**. They matter beyond the raw numbers, because skill requirements look only at base stats. For example, [Bark Skin](barkSkin.md) needs block chance from level-ups, and gear doesn't count toward it.
+    **Skill points:** level 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 (12 by level 50).
+    **Experience:** level L → L+1 costs 55 × L².
 
-**Skill points.** You get your first skill point at level 4, then one more every 4 levels (4, 8, 12, 16, 20, 24, 28, 32…). That's only 12 skill points by level 50, so each one is a big decision.
+    | Level | Total XP | XP to next |
+    |---|---|---|
+    | 2 | 55 | 220 |
+    | 5 | 1,650 | 1,375 |
+    | 10 | 15,675 | 5,500 |
+    | 15 | 55,825 | 12,375 |
+    | 20 | 135,850 | 22,000 |
+    | 25 | 269,500 | 34,375 |
+    | 30 | 470,525 | 49,500 |
+    | 40 | 1,129,700 | 88,000 |
+    | 50 | 2,223,375 | 137,500 |
+    | 60 | 3,861,550 | 198,000 |
 
-**Health and Fortitude.** [Fortitude](fortitude.md) adds +1 max HP per skill level to **every level-up after you learn it**. It is not retroactive, so the earlier you take it, the more it gives. Its first level needs character level 5, which is why players hold their level-4 skill point until level 5. Over a long game it out-scales the +5 HP level-up choice, which is why many players never pick health at level-up.
+???+ section "How combat works"
 
-**Experience needed.** Going from level L to L+1 costs 55 × L² experience.
+    Every attack runs four steps. See the [stat glossary](stats.md) for what each stat means.
 
-| Level | Total experience to reach it | Experience for the next level |
-|---|---|---|
-| 2 | 55 | 220 |
-| 5 | 1,650 | 1,375 |
-| 10 | 15,675 | 5,500 |
-| 15 | 55,825 | 12,375 |
-| 20 | 135,850 | 22,000 |
-| 25 | 269,500 | 34,375 |
-| 30 | 470,525 | 49,500 |
-| 40 | 1,129,700 | 88,000 |
-| 45 | 1,615,350 | 111,375 |
-| 50 | 2,223,375 | 137,500 |
-| 60 | 3,861,550 | 198,000 |
+    **1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
-## How combat works
+    | AC − BC | Hit | +5 AC adds |
+    |---|---|---|
+    | -50 | 12% | +0.6% |
+    | +0 | 21% | +1.7% |
+    | +25 | 32% | +3.0% |
+    | +50 | 50% | +4.0% |
+    | +75 | 67% | +2.7% |
+    | +100 | 78% | +1.5% |
+    | +150 | 87% | +0.5% |
+    | +200 | 91% | +0.3% |
+    | +300 | 94% | +0.1% |
 
-Each attack is resolved in four steps.
+    **2 · Damage:** random between min and max attack damage.
 
-**1. Does it hit?** The game takes your attack chance minus the target's block chance, and puts that gap through an S-shaped curve:
+    **3 · Critical?** Only with critical skill > 0 **and** a weapon that gives a critical multiplier. Ghosts, constructs and demons are immune. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
-> hit % = 50 × (1 + (2/π) × arctan((gap − 50) / 40))
+    | Crit skill | Crit % |
+    |---|---|
+    | 5 | 5% |
+    | 10 | 9% |
+    | 20 | 15% |
+    | 30 | 19% |
+    | 45 | 25% |
+    | 60 | 29% |
+    | 80 | 35% |
+    | 100 | 39% |
+    | 150 | 49% |
 
-| AC − BC gap | Hit chance | Value of +5 more AC here |
-|---|---|---|
-| -50 | 12% | +0.6 percentage points |
-| +0 | 21% | +1.7 percentage points |
-| +25 | 32% | +3.0 percentage points |
-| +50 | 50% | +4.0 percentage points |
-| +75 | 67% | +2.7 percentage points |
-| +100 | 78% | +1.5 percentage points |
-| +150 | 87% | +0.5 percentage points |
-| +200 | 91% | +0.3 percentage points |
-| +300 | 94% | +0.1 percentage points |
+    **4 · Armor:** the target's damage resistance is subtracted from the result (minimum 0).
 
-A 50-point gap is a coin flip. Near that point, every extra attack chance pays off the most. Far above it, you're close to the cap, so more accuracy barely helps. Far below it, you need a lot of accuracy before you see much change. Block chance works the same way in reverse: it helps most when your enemies' accuracy sits near yours + 50.
+    **Attacks per turn** = max AP ÷ attack cost, rounded down.
 
-**2. How much damage?** A random number between your minimum and maximum attack damage.
+???+ section "All skills (45)"
 
-**3. Is it critical?** It can only be critical if two things are both true: you have critical skill above 0, **and** your weapon gives a critical multiplier. Unarmed attacks and weapons without a multiplier never crit, however much critical skill you have. Ghosts, constructs and demons are immune to critical hits. Critical skill becomes a crit chance with diminishing returns:
+    **Criticals**
 
-> crit % = −5 + 2 × √(5 × critical skill)
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Better Criticals](betterCriticals.md) | ∞ | Points | Increased critical damage |
+    | [Fracture](crit2.md) | 1 | Points | Chance of bone fracture |
+    | [Internal bleeding](crit1.md) | 1 | Points | Chance of internal bleeding |
+    | [More Criticals](moreCriticals.md) | ∞ | Points | Increased critical skill |
 
-| Critical skill | Crit chance |
-|---|---|
-| 5 | 5% |
-| 10 | 9% |
-| 20 | 15% |
-| 30 | 19% |
-| 45 | 25% |
-| 60 | 29% |
-| 80 | 35% |
-| 100 | 39% |
-| 150 | 49% |
+    **Defense**
 
-A critical hit multiplies the damage roll by the critical multiplier (e.g. ×2).
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Bark Skin](barkSkin.md) | 5 | Points | Damage resistance |
+    | [Dodge](dodge.md) | ∞ | Points | Increased block chance |
+    | [Evasion](evasion.md) | 4 | Points | Increased chance of fleeing |
+    | [Taunt](taunt.md) | 1 | Points | Attacker loses AP on miss |
 
-**4. Armor.** The target's damage resistance is subtracted from the result, after any critical multiplier, and damage can't go below 0. That's why a few big hits beat many small ones against heavily armored enemies: a 5-damage hit into 4 DR does 1 damage, while a 20-damage hit does 16.
+    **Immunity**
 
-**Attacks per turn** = max AP ÷ attack cost, rounded down. With 10 AP, a 4-AP weapon attacks twice and 2 AP sit unused; [Combat Speed](speed.md) (+1 max AP per level) would turn that into 3 attacks. Because of the rounding, one point of AP or attack cost can be worth nothing, or worth a whole extra attack.
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Corpse Eater](eater.md) | ∞ | Points | Recover health points on every kill |
+    | [Dark blessing of the Shadow](shadowBless.md) | 1 | Quest only | Resistance against all types of conditions |
+    | [Enduring Body](resistancePhysical.md) | 7 | Points | Resistance against physical capacity conditions |
+    | [Increased Fortitude](fortitude.md) | ∞ | Points | Gain health on each level up |
+    | [Pure Blood](resistanceBlood.md) | 7 | Points | Resistance against blood disorders |
+    | [Regeneration](regeneration.md) | ∞ | Points | Gain health every round |
+    | [Rejuvenation](rejuvenation.md) | 1 | Points | Chance of effect removal |
+    | [Spore poison immunity](sporeImmunity.md) | 1 | Quest only | Full immunity to spore poison |
+    | [Strong Mind](resistanceMental.md) | 7 | Points | Resistance against mental conditions |
 
-## All skills
+    **Offense**
 
-### Criticals
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Cleave](cleave.md) | ∞ | Points | Recover action points on every kill |
+    | [Combat Speed](speed.md) | 2 | Points | Increased maximum action points |
+    | [Concussion](concussion.md) | 1 | Points | Chance of concussion |
+    | [Hard Hit](weaponDmg.md) | ∞ | Points | Increased attack damage |
+    | [Weapon Accuracy](weaponChance.md) | ∞ | Points | Increased attack chance |
 
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Better Criticals](betterCriticals.md) | unlimited | Skill points | Increased critical damage |
-| [Fracture](crit2.md) | 1 | Skill points | Chance of bone fracture |
-| [Internal bleeding](crit1.md) | 1 | Skill points | Chance of internal bleeding |
-| [More Criticals](moreCriticals.md) | unlimited | Skill points | Increased critical skill |
+    **Proficiency**
 
-### Defense
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Axe proficiency](weaponProficiencyAxe.md) | 3 | Quest, then points | Better at fighting with axes |
+    | [Blunt weapon proficiency](weaponProficiencyBlunt.md) | 3 | Quest, then points | Better at fighting with blunt weapons |
+    | [Dagger proficiency](weaponProficiencyDagger.md) | 3 | Quest, then points | Better at fighting with daggers |
+    | [Heavy armor proficiency](armorProficiencyHeavy.md) | 4 | Quest, then points | Make better use of heavy armor |
+    | [Light armor proficiency](armorProficiencyLight.md) | 3 | Quest, then points | Make better use of light armor |
+    | [One-handed sword proficiency](weaponProficiency1hsword.md) | 3 | Quest, then points | Better at fighting with one-handed swords |
+    | [Pole weapon proficiency](weaponProficiencyPole.md) | 3 | Quest, then points | Better at fighting with pole weapons |
+    | [Shield proficiency](armorProficiencyShield.md) | 2 | Quest, then points | Make better use of shields and parrying weapons |
+    | [Two-handed sword proficiency](weaponProficiency2hsword.md) | 3 | Quest, then points | Better at fighting with two-handed swords |
+    | [Unarmed fighting](weaponProficiencyUnarmed.md) | 3 | Quest, then points | Better at fighting without weapons |
+    | [Unarmored fighting](armorProficiencyUnarmored.md) | 3 | Quest, then points | Better at fighting without armor |
 
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Bark Skin](barkSkin.md) | 5 | Skill points | Damage resistance |
-| [Dodge](dodge.md) | unlimited | Skill points | Increased block chance |
-| [Evasion](evasion.md) | 4 | Skill points | Increased chance of fleeing |
-| [Taunt](taunt.md) | 1 | Skill points | Attacker loses AP on miss |
+    **Specialty**
 
-### Immunity
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Fighting style: Dual wield](fightstyleDualWield.md) | 2 | Points | Wield two weapons at the same time |
+    | [Fighting style: Two-handed weapon](fightstyle2hand.md) | 2 | Points | Make better use of weapons that require both hands |
+    | [Fighting style: Way of the monk](fightstyleUnarmedUnarmored.md) | 3 | Points | Better at fighting unarmed/unarmored |
+    | [Fighting style: Weapon and shield](fightstyleWeaponShield.md) | 2 | Points | Better at fighting with weapon and shield |
+    | [Specialization: Dual wield](specializationDualWield.md) | 1 | Points | Expert at dual wielding |
+    | [Specialization: Two-handed weapon](specialization2hand.md) | 1 | Points | Expert at two-handed weapons |
+    | [Specialization: Weapon and shield](specializationWeaponShield.md) | 1 | Points | Expert at fighting with weapon and shield |
 
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Corpse Eater](eater.md) | unlimited | Skill points | Recover health points on every kill |
-| [Dark blessing of the Shadow](shadowBless.md) | 1 | Quest reward only | Resistance against all types of conditions |
-| [Enduring Body](resistancePhysical.md) | 7 | Skill points | Resistance against physical capacity conditions |
-| [Increased Fortitude](fortitude.md) | unlimited | Skill points | Gain health on each level up |
-| [Pure Blood](resistanceBlood.md) | 7 | Skill points | Resistance against blood disorders |
-| [Regeneration](regeneration.md) | unlimited | Skill points | Gain health every round |
-| [Rejuvenation](rejuvenation.md) | 1 | Skill points | Chance of effect removal |
-| [Spore poison immunity](sporeImmunity.md) | 1 | Quest reward only | Full immunity to spore poison |
-| [Strong Mind](resistanceMental.md) | 7 | Skill points | Resistance against mental conditions |
+    **Utility**
 
-### Offense
-
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Cleave](cleave.md) | unlimited | Skill points | Recover action points on every kill |
-| [Combat Speed](speed.md) | 2 | Skill points | Increased maximum action points |
-| [Concussion](concussion.md) | 1 | Skill points | Chance of concussion |
-| [Hard Hit](weaponDmg.md) | unlimited | Skill points | Increased attack damage |
-| [Weapon Accuracy](weaponChance.md) | unlimited | Skill points | Increased attack chance |
-
-### Proficiency
-
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Axe proficiency](weaponProficiencyAxe.md) | 3 | First level from a quest, then skill points | Better at fighting with axes |
-| [Blunt weapon proficiency](weaponProficiencyBlunt.md) | 3 | First level from a quest, then skill points | Better at fighting with blunt weapons |
-| [Dagger proficiency](weaponProficiencyDagger.md) | 3 | First level from a quest, then skill points | Better at fighting with daggers |
-| [Heavy armor proficiency](armorProficiencyHeavy.md) | 4 | First level from a quest, then skill points | Make better use of heavy armor |
-| [Light armor proficiency](armorProficiencyLight.md) | 3 | First level from a quest, then skill points | Make better use of light armor |
-| [One-handed sword proficiency](weaponProficiency1hsword.md) | 3 | First level from a quest, then skill points | Better at fighting with one-handed swords |
-| [Pole weapon proficiency](weaponProficiencyPole.md) | 3 | First level from a quest, then skill points | Better at fighting with pole weapons |
-| [Shield proficiency](armorProficiencyShield.md) | 2 | First level from a quest, then skill points | Make better use of shields and parrying weapons |
-| [Two-handed sword proficiency](weaponProficiency2hsword.md) | 3 | First level from a quest, then skill points | Better at fighting with two-handed swords |
-| [Unarmed fighting](weaponProficiencyUnarmed.md) | 3 | First level from a quest, then skill points | Better at fighting without weapons |
-| [Unarmored fighting](armorProficiencyUnarmored.md) | 3 | First level from a quest, then skill points | Better at fighting without armor |
-
-### Specialty
-
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Fighting style: Dual wield](fightstyleDualWield.md) | 2 | Skill points | Wield two weapons at the same time |
-| [Fighting style: Two-handed weapon](fightstyle2hand.md) | 2 | Skill points | Make better use of weapons that require both hands |
-| [Fighting style: Way of the monk](fightstyleUnarmedUnarmored.md) | 3 | Skill points | Better at fighting unarmed/unarmored |
-| [Fighting style: Weapon and shield](fightstyleWeaponShield.md) | 2 | Skill points | Better at fighting with weapon and shield |
-| [Specialization: Dual wield](specializationDualWield.md) | 1 | Skill points | Expert at dual wielding |
-| [Specialization: Two-handed weapon](specialization2hand.md) | 1 | Skill points | Expert at two-handed weapons |
-| [Specialization: Weapon and shield](specializationWeaponShield.md) | 1 | Skill points | Expert at fighting with weapon and shield |
-
-### Utility
-
-| Skill | Max level | How obtained | Summary |
-|---|---|---|---|
-| [Failure Mastery](lowerExploss.md) | 5 | Skill points | Decrease amount of lost experience when dying |
-| [Magic Finder](magicfinder.md) | unlimited | Skill points | Increased chance of finding magic items |
-| [Merchant](barter.md) | 3 | Skill points | Better shop prices |
-| [Quick Learner](moreExp.md) | unlimited | Skill points | More experience from monster kills |
-| [Treasure Hunter](coinfinder.md) | unlimited | Skill points | Higher chance of finding gold |
-
+    | Skill | Max | Obtained | Summary |
+    |---|---|---|---|
+    | [Failure Mastery](lowerExploss.md) | 5 | Points | Decrease amount of lost experience when dying |
+    | [Magic Finder](magicfinder.md) | ∞ | Points | Increased chance of finding magic items |
+    | [Merchant](barter.md) | 3 | Points | Better shop prices |
+    | [Quick Learner](moreExp.md) | ∞ | Points | More experience from monster kills |
+    | [Treasure Hunter](coinfinder.md) | ∞ | Points | Higher chance of finding gold |

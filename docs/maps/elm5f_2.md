@@ -22,8 +22,8 @@
 
 | Name | HP |
 |---|---|
-| [General Ortholion](../monsters/ortholion.md) | 0 |
 | [Ehrenfest](../monsters/ehrenfest.md) | 0 |
+| [General Ortholion](../monsters/ortholion.md) | 0 |
 | [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 66 |
 | [Animated debris](../monsters/elm_debris.md) | 70 |
 | [Foul miner's skeleton](../monsters/elm_miner2.md) | 82 |

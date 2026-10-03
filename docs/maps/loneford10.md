@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Arngyr](../monsters/arngyr.md) | 0 |
 | [Guard](../monsters/loneford_guard0.md) | 0 |
+| [Arngyr](../monsters/arngyr.md) | 0 |
 
 <small>Map ID: `loneford10` · Data from v0.8.18</small>
