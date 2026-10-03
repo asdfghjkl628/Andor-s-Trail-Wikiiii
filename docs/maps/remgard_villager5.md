@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Elwel](../monsters/elwel.md) | 0 |
 | [Elwyl](../monsters/elwyl.md) | 0 |
+| [Elwel](../monsters/elwel.md) | 0 |
 
 <small>Map ID: `remgard_villager5` · Data from v0.8.18</small>

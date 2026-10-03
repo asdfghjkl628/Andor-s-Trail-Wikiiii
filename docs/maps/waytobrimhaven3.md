@@ -16,8 +16,8 @@
 
 | Name | HP |
 |---|---|
-| [Forenza](../monsters/forenza_waytobrimhaven3.md) | 0 |
 | [Sly Seraphina](../monsters/tt_seraphina.md) | 0 |
+| [Forenza](../monsters/forenza_waytobrimhaven3.md) | 0 |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |

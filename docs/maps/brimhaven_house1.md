@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Mustura](../monsters/brv_guard_captain.md) | 0 |
 | [Alkapoan](../monsters/brv_richman.md) | 0 |
+| [Mustura](../monsters/brv_guard_captain.md) | 0 |
 
 <small>Map ID: `brimhaven_house1` · Data from v0.8.18</small>

@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Larval burrower](../monsters/larval_burrower.md) | 35 |
 | [Strong larval burrower](../monsters/larval_boss.md) | 35 |
+| [Larval burrower](../monsters/larval_burrower.md) | 35 |
 
 <small>Map ID: `woodcave1` · Data from v0.8.18</small>

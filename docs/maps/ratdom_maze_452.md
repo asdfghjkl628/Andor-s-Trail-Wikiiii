@@ -22,7 +22,7 @@
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Old cave worm](../monsters/ratdom_m11c.md) | 30 |
-| [Angry cave worm](../monsters/ratdom_m11b.md) | 30 |
 | [Young cave worm](../monsters/ratdom_m11a.md) | 30 |
+| [Angry cave worm](../monsters/ratdom_m11b.md) | 30 |
 
 <small>Map ID: `ratdom_maze_452` · Data from v0.8.18</small>

@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Perester](../monsters/perester.md) | 0 |
 | [Dog](../monsters/petdog.md) | 0 |
+| [Perester](../monsters/perester.md) | 0 |
 
 <small>Map ID: `remgard_villager4` · Data from v0.8.18</small>

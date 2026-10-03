@@ -16,7 +16,7 @@
 | Name | HP |
 |---|---|
 | [Beetle](../monsters/beetle.md) | 4 |
-| [Lost spirit](../monsters/lost_spirit.md) | 15 |
 | [Lost soul](../monsters/lost_soul.md) | 15 |
+| [Lost spirit](../monsters/lost_spirit.md) | 15 |
 
 <small>Map ID: `hauntedhouse2` · Data from v0.8.18</small>

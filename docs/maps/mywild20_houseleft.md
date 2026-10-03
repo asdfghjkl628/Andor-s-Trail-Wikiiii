@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Nimael](../monsters/nimael.md) | 0 |
 | [Gison](../monsters/gison.md) | 0 |
+| [Nimael](../monsters/nimael.md) | 0 |
 
 <small>Map ID: `mywild20_houseleft` · Data from v0.8.18</small>

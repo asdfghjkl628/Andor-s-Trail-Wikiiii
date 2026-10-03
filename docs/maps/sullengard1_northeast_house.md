@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Stephanie](../monsters/sullengard_stephanie.md) | 0 |
 | [Ollie](../monsters/sullengard_newborn_baby.md) | 0 |
+| [Stephanie](../monsters/sullengard_stephanie.md) | 0 |
 | [Matpat](../monsters/sullengard_matpat.md) | 0 |
 
 <small>Map ID: `sullengard1_northeast_house` · Data from v0.8.18</small>

@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Kazaul imp](../monsters/kazaul_imp.md) | 45 |
 | [Kazaul spawn](../monsters/kazaul_spawn.md) | 45 |
+| [Kazaul imp](../monsters/kazaul_imp.md) | 45 |
 | [Kazaul guardian](../monsters/kazaul_guardian.md) | 95 |
 
 <small>Map ID: `blackwater_mountain42` · Data from v0.8.18</small>

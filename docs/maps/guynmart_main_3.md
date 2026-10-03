@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Maid](../monsters/guynmart_maid.md) | 0 |
 | [Servant](../monsters/guynmart_servant.md) | 0 |
+| [Maid](../monsters/guynmart_maid.md) | 0 |
 | [Rob](../monsters/guynmart_rob.md) | 0 |
 
 <small>Map ID: `guynmart_main_3` · Data from v0.8.18</small>

@@ -16,9 +16,9 @@
 
 | Name | HP |
 |---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 |
-| [Blue fish](../monsters/fish_school.md) | 0 |
 | [Isobel](../monsters/sutdover_fisherman.md) | 0 |
+| [Blue fish](../monsters/fish_school.md) | 0 |
+| [Pond fish](../monsters/pond_fish.md) | 0 |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 |
 
 <small>Map ID: `lake_shore_road_3` · Data from v0.8.18</small>
