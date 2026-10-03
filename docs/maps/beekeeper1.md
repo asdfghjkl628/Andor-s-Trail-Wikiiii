@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Leofric](../monsters/leofric.md) | 0 |
 | [Honey bee](../monsters/honey_bee.md) | 0 |
+| [Leofric](../monsters/leofric.md) | 0 |
 | [Hardershell beetle](../monsters/hardershell_beetle.md) | 54 |
 
 <small>Map ID: `beekeeper1` · Data from v0.8.18</small>

@@ -25,7 +25,7 @@
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
-| [Pernicious cave snake](../monsters/ratdom_m4a.md) | 30 |
 | [Virulent cave snake](../monsters/ratdom_m4b.md) | 30 |
+| [Pernicious cave snake](../monsters/ratdom_m4a.md) | 30 |
 
 <small>Map ID: `ratdom_maze_546` · Data from v0.8.18</small>

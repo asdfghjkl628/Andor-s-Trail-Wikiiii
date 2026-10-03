@@ -10,7 +10,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Internal bleeding](../skills/crit1.md) (needs this skill at level 2)
 - [Fracture](../skills/crit2.md) (needs this skill at level 4)

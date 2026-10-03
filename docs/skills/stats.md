@@ -1,39 +1,39 @@
 # Stat glossary
 
-What each stat does in Andor's Trail v0.8.18. Starting values are on [Stats & Skills](index.md).
+What each stat actually does in v0.8.18. Starting values live on [Stats & Skills](index.md).
 
 ## Max HP
-Your health. You die at 0. Raised by the **max health** level-up choice (+5), by [Fortitude](fortitude.md) (+1 per skill level on every later level-up), and by some gear.
+Your health. Hit 0 and you're done. Raised by the **max health** level-up (+5), by [Fortitude](fortitude.md) (+1 per skill level on every later level-up), and by some gear. Most experienced players get theirs almost entirely from Fortitude; see [Strategy](../strategy/levelling.md) for why.
 
 ## Max AP
-Action points per combat turn. Attacking, moving and using items all spend AP. [Combat Speed](speed.md) adds +1 per level (max 2).
+Action points per combat turn. Attacking, moving and drinking potions all cost AP, and running out mid-fight is a classic way to die. [Combat Speed](speed.md) adds +1 per level, up to 2.
 
 ## Attack chance
-Your accuracy. Compared with the target's block chance to decide whether you hit; see [how combat works](index.md). Raised by the **attack chance** level-up (+5), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
+Your accuracy. It's compared with the target's block chance to decide whether you hit, through a curve with heavy diminishing returns at both ends ([details](index.md)). Raised by the **attack chance** level-up (+5), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
 
 ## Attack damage
-Each hit deals a random amount between your minimum and maximum damage. The **attack damage** level-up adds +1 to both; [Hard Hit](weaponDmg.md) adds +2 to the maximum only.
+Each hit rolls a random number between your minimum and maximum damage. The **attack damage** level-up adds +1 to both. [Hard Hit](weaponDmg.md) adds +2 to the maximum only, which sounds better than it is: your average goes up by just 1.
 
 ## Block chance
-Your evasion. Compared with the attacker's attack chance. Raised by the **block chance** level-up (+3), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements such as [Bark Skin](barkSkin.md).
+Your evasion: the same curve as attack chance, pointed the other way. Raised by the **block chance** level-up (+3), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements like [Bark Skin](barkSkin.md), so your fancy shield doesn't help there.
 
 ## Damage resistance
-Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it's strongest against many weak hits. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
+Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
 
 ## Critical skill
-Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. Does nothing unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) increases it by 20% per level.
+Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) raises it by 20% per level.
 
 ## Critical multiplier
-How much a critical hit multiplies damage (e.g. ×2). Only weapons provide one; you have none unarmed. [Better Criticals](betterCriticals.md) increases it by 25% per level.
+How hard a critical hit lands (e.g. ×2). Only weapons provide one; your bare fists have none, which is why unarmed heroes never crit. [Better Criticals](betterCriticals.md) raises it by 25% per level.
 
 ## Attack cost
-AP spent per attack. Unarmed it's 4; a weapon replaces it with its own cost. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can mean an extra attack every turn.
+AP spent per attack: 4 unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.
 
 ## Move cost
-AP to move one tile during combat. Heavy armor can raise it.
+AP to move one tile during combat. Heavy armor raises it, which is the price of looking like a walking tank.
 
 ## Use item cost
-AP to use an item (e.g. drink a potion) during combat.
+AP to use an item, e.g. drinking a potion in the middle of a fight.
 
 ## Re-equip cost
-AP to change equipment during combat.
+AP to change equipment during combat. Possible, but rarely a good use of your turn.

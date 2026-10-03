@@ -6,7 +6,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Better Criticals](../skills/betterCriticals.md) (needs this skill at level 1)
 - [Internal bleeding](../skills/crit1.md) (needs this skill at level 2)

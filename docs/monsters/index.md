@@ -1,6 +1,6 @@
 # Monsters
 
-All 1907 monsters and NPCs, sorted by HP.
+All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom of the list are there for a reason.
 
 | | Name | Class | HP | Attack | AC | BC | DR | Crit |
 |---|---|---|---|---|---|---|---|---|

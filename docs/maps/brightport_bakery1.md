@@ -14,9 +14,9 @@
 
 | Name | HP |
 |---|---|
-| [Androni](../monsters/brightport_chef.md) | 0 |
-| [Crescenzio](../monsters/brightport_chef2.md) | 0 |
-| [Allares](../monsters/brightportstoragenpc.md) | 0 |
 | [Delon](../monsters/brightportnpc10.md) | 0 |
+| [Allares](../monsters/brightportstoragenpc.md) | 0 |
+| [Crescenzio](../monsters/brightport_chef2.md) | 0 |
+| [Androni](../monsters/brightport_chef.md) | 0 |
 
 <small>Map ID: `brightport_bakery1` · Data from v0.8.18</small>

@@ -10,7 +10,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Specialization: Dual wield](../skills/specializationDualWield.md) (needs this skill at level 2)
 

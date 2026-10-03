@@ -15,7 +15,7 @@
 | Name | HP |
 |---|---|
 | [Trauerquol](../monsters/brightportinnvisitor.md) | 0 |
-| [Elvira](../monsters/brightportinn.md) | 0 |
 | [Elynard](../monsters/brightportinnvisitor1.md) | 0 |
+| [Elvira](../monsters/brightportinn.md) | 0 |
 
 <small>Map ID: `brightport_inn` · Data from v0.8.18</small>

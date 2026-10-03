@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Beltina](../monsters/sullengard_beltina.md) | 0 |
 | [Valhorn](../monsters/sullengard_valhorn.md) | 0 |
+| [Beltina](../monsters/sullengard_beltina.md) | 0 |
 
 <small>Map ID: `sullengard2_northeast_house` · Data from v0.8.18</small>

@@ -50,8 +50,8 @@
 
 | Name | HP |
 |---|---|
+| [Thalos, the centaur](../monsters/lae_centaur9.md) | 0 |
 | [Callista, the centaur](../monsters/lae_centaur2.md) | 0 |
 | [Centaur](../monsters/lae_centaur.md) | 0 |
-| [Thalos, the centaur](../monsters/lae_centaur9.md) | 0 |
 
 <small>Map ID: `island2` · Data from v0.8.18</small>

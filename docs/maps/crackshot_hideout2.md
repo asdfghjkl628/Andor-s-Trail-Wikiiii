@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Dying patrol](../monsters/g03_deadpatrol_1.md) | 0 |
 | [Dying Patrol](../monsters/g03_deadpatrol_2.md) | 0 |
+| [Dying patrol](../monsters/g03_deadpatrol_1.md) | 0 |
 | [Rebelled thief](../monsters/guild03_rebthief_1.md) | 60 |
 
 <small>Map ID: `crackshot_hideout2` · Data from v0.8.18</small>

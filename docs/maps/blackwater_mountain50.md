@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Throdna's guard](../monsters/throdnas_guard.md) | 0 |
-| [Blackwater mage](../monsters/blackwater_mage.md) | 0 |
 | [Throdna](../monsters/throdna.md) | 0 |
+| [Blackwater mage](../monsters/blackwater_mage.md) | 0 |
+| [Throdna's guard](../monsters/throdnas_guard.md) | 0 |
 
 <small>Map ID: `blackwater_mountain50` · Data from v0.8.18</small>

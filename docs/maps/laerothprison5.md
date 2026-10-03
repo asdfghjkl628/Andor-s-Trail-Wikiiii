@@ -16,7 +16,7 @@
 | Name | HP |
 |---|---|
 | [Dark watch](../monsters/lae_demon5_safe.md) | 0 |
-| [Lesser wight](../monsters/wight_lesser5b.md) | 130 |
 | [Lesser wight](../monsters/wight_lesser5.md) | 130 |
+| [Lesser wight](../monsters/wight_lesser5b.md) | 130 |
 
 <small>Map ID: `laerothprison5` · Data from v0.8.18</small>
