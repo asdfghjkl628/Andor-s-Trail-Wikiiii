@@ -853,7 +853,7 @@
 
 
 <h1 id="stats-skills">Stats &amp; Skills<a class="headerlink" href="#stats-skills" title="Permanent link">&para;</a></h1>
-<p>Andor's Trail v0.8.18, read straight from the game's source code. Click a heading to collapse it. For advice on how to spend your points, see <a href="../strategy/">Strategy</a>.</p>
+<p>How your hero's numbers actually work in v0.8.18, pulled straight from the game's source code rather than from forum folklore. Click a heading to fold it away. Wondering what to <em>do</em> with all this? That's what <a href="../strategy/">Strategy</a> is for.</p>
 <details class="section" open="open">
 <summary>Starting stats (level 1)</summary>
 <table>
@@ -933,9 +933,9 @@
 </tr>
 </tbody>
 </table>
-<p>Pick <strong>one</strong> per level-up; it's permanent. These form your <strong>base stats</strong>, the only values skill requirements check (gear and skills never count).</p>
-<p><strong>Skill points:</strong> level 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 (12 by level 50).
-<strong>Experience:</strong> level L → L+1 costs 55 × L².</p>
+<p>Pick <strong>one</strong> per level-up. There's no respec, so choose like you mean it. These picks form your <strong>base stats</strong>, which are the only values skill requirements look at. Gear and skills don't count, however shiny.</p>
+<p><strong>Skill points:</strong> levels 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60. That's 12 by level 50, and every one of them will feel like a hard decision.
+<strong>Experience:</strong> level L → L+1 costs 55 × L². Quadratic growth, so the grind gets real.</p>
 <table>
 <thead>
 <tr>
@@ -1000,7 +1000,7 @@
 </details>
 <details class="section" open="open">
 <summary>How combat works</summary>
-<p>Every attack runs four steps. See the <a href="stats/">stat glossary</a> for what each stat means.</p>
+<p>Every attack goes through the same four steps. No hidden dice, no secret modifiers; this is the whole thing. The <a href="stats/">stat glossary</a> explains each stat.</p>
 <p><strong>1 · Hit?</strong> <code>hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))</code></p>
 <table>
 <thead>
@@ -1059,7 +1059,7 @@
 </tbody>
 </table>
 <p><strong>2 · Damage:</strong> random between min and max attack damage.</p>
-<p><strong>3 · Critical?</strong> Only with critical skill &gt; 0 <strong>and</strong> a weapon that gives a critical multiplier. Ghosts, constructs and demons are immune. <code>crit % = −5 + 2 × √(5 × critical skill)</code>, then damage × multiplier.</p>
+<p><strong>3 · Critical?</strong> Only if you have critical skill above 0 <strong>and</strong> your weapon gives a critical multiplier. No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. <code>crit % = −5 + 2 × √(5 × critical skill)</code>, then damage × multiplier.</p>
 <table>
 <thead>
 <tr>
@@ -1106,7 +1106,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>4 · Armor:</strong> the target's damage resistance is subtracted from the result (minimum 0).</p>
+<p><strong>4 · Armor:</strong> the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.</p>
 <p><strong>Attacks per turn</strong> = max AP ÷ attack cost, rounded down.</p>
 </details>
 <details class="section" open="open">

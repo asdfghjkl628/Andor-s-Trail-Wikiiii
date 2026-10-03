@@ -1162,31 +1162,31 @@
 
 
 <h1 id="stat-glossary">Stat glossary<a class="headerlink" href="#stat-glossary" title="Permanent link">&para;</a></h1>
-<p>What each stat does in Andor's Trail v0.8.18. Starting values are on <a href="../">Stats &amp; Skills</a>.</p>
+<p>What each stat actually does in v0.8.18. Starting values live on <a href="../">Stats &amp; Skills</a>.</p>
 <h2 id="max-hp">Max HP<a class="headerlink" href="#max-hp" title="Permanent link">&para;</a></h2>
-<p>Your health. You die at 0. Raised by the <strong>max health</strong> level-up choice (+5), by <a href="../fortitude/">Fortitude</a> (+1 per skill level on every later level-up), and by some gear.</p>
+<p>Your health. Hit 0 and you're done. Raised by the <strong>max health</strong> level-up (+5), by <a href="../fortitude/">Fortitude</a> (+1 per skill level on every later level-up), and by some gear. Most experienced players get theirs almost entirely from Fortitude; see <a href="../../strategy/levelling/">Strategy</a> for why.</p>
 <h2 id="max-ap">Max AP<a class="headerlink" href="#max-ap" title="Permanent link">&para;</a></h2>
-<p>Action points per combat turn. Attacking, moving and using items all spend AP. <a href="../speed/">Combat Speed</a> adds +1 per level (max 2).</p>
+<p>Action points per combat turn. Attacking, moving and drinking potions all cost AP, and running out mid-fight is a classic way to die. <a href="../speed/">Combat Speed</a> adds +1 per level, up to 2.</p>
 <h2 id="attack-chance">Attack chance<a class="headerlink" href="#attack-chance" title="Permanent link">&para;</a></h2>
-<p>Your accuracy. Compared with the target's block chance to decide whether you hit; see <a href="../">how combat works</a>. Raised by the <strong>attack chance</strong> level-up (+5), <a href="../weaponChance/">Weapon Accuracy</a> (+12 per level), weapons and proficiencies.</p>
+<p>Your accuracy. It's compared with the target's block chance to decide whether you hit, through a curve with heavy diminishing returns at both ends (<a href="../">details</a>). Raised by the <strong>attack chance</strong> level-up (+5), <a href="../weaponChance/">Weapon Accuracy</a> (+12 per level), weapons and proficiencies.</p>
 <h2 id="attack-damage">Attack damage<a class="headerlink" href="#attack-damage" title="Permanent link">&para;</a></h2>
-<p>Each hit deals a random amount between your minimum and maximum damage. The <strong>attack damage</strong> level-up adds +1 to both; <a href="../weaponDmg/">Hard Hit</a> adds +2 to the maximum only.</p>
+<p>Each hit rolls a random number between your minimum and maximum damage. The <strong>attack damage</strong> level-up adds +1 to both. <a href="../weaponDmg/">Hard Hit</a> adds +2 to the maximum only, which sounds better than it is: your average goes up by just 1.</p>
 <h2 id="block-chance">Block chance<a class="headerlink" href="#block-chance" title="Permanent link">&para;</a></h2>
-<p>Your evasion. Compared with the attacker's attack chance. Raised by the <strong>block chance</strong> level-up (+3), <a href="../dodge/">Dodge</a> (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements such as <a href="../barkSkin/">Bark Skin</a>.</p>
+<p>Your evasion: the same curve as attack chance, pointed the other way. Raised by the <strong>block chance</strong> level-up (+3), <a href="../dodge/">Dodge</a> (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements like <a href="../barkSkin/">Bark Skin</a>, so your fancy shield doesn't help there.</p>
 <h2 id="damage-resistance">Damage resistance<a class="headerlink" href="#damage-resistance" title="Permanent link">&para;</a></h2>
-<p>Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it's strongest against many weak hits. Raised by <a href="../barkSkin/">Bark Skin</a> (+1 per level), shields and armor.</p>
+<p>Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by <a href="../barkSkin/">Bark Skin</a> (+1 per level), shields and armor.</p>
 <h2 id="critical-skill">Critical skill<a class="headerlink" href="#critical-skill" title="Permanent link">&para;</a></h2>
-<p>Sets your critical hit chance: <code>−5 + 2 × √(5 × critical skill)</code>. Does nothing unless your weapon also gives a critical multiplier. <a href="../moreCriticals/">More Criticals</a> increases it by 20% per level.</p>
+<p>Sets your critical hit chance: <code>−5 + 2 × √(5 × critical skill)</code>. The square root means each extra point helps less than the one before. It does <strong>nothing</strong> unless your weapon also gives a critical multiplier. <a href="../moreCriticals/">More Criticals</a> raises it by 20% per level.</p>
 <h2 id="critical-multiplier">Critical multiplier<a class="headerlink" href="#critical-multiplier" title="Permanent link">&para;</a></h2>
-<p>How much a critical hit multiplies damage (e.g. ×2). Only weapons provide one; you have none unarmed. <a href="../betterCriticals/">Better Criticals</a> increases it by 25% per level.</p>
+<p>How hard a critical hit lands (e.g. ×2). Only weapons provide one; your bare fists have none, which is why unarmed heroes never crit. <a href="../betterCriticals/">Better Criticals</a> raises it by 25% per level.</p>
 <h2 id="attack-cost">Attack cost<a class="headerlink" href="#attack-cost" title="Permanent link">&para;</a></h2>
-<p>AP spent per attack. Unarmed it's 4; a weapon replaces it with its own cost. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can mean an extra attack every turn.</p>
+<p>AP spent per attack: 4 unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.</p>
 <h2 id="move-cost">Move cost<a class="headerlink" href="#move-cost" title="Permanent link">&para;</a></h2>
-<p>AP to move one tile during combat. Heavy armor can raise it.</p>
+<p>AP to move one tile during combat. Heavy armor raises it, which is the price of looking like a walking tank.</p>
 <h2 id="use-item-cost">Use item cost<a class="headerlink" href="#use-item-cost" title="Permanent link">&para;</a></h2>
-<p>AP to use an item (e.g. drink a potion) during combat.</p>
+<p>AP to use an item, e.g. drinking a potion in the middle of a fight.</p>
 <h2 id="re-equip-cost">Re-equip cost<a class="headerlink" href="#re-equip-cost" title="Permanent link">&para;</a></h2>
-<p>AP to change equipment during combat.</p>
+<p>AP to change equipment during combat. Possible, but rarely a good use of your turn.</p>
 
 
 
