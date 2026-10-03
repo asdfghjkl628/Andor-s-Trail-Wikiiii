@@ -1,0 +1,18 @@
+# Fungi Panic - non displayed
+
+!!! info "Hidden story flag"
+    This is an internal quest the game uses to track story progress. It never appears in your journal; the entries below are the developers' own notes.
+
+| Progress | Journal entry |
+|---|---|
+| <span id="stage-10"></span>10 | 10=Chains.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m3 1](../maps/mushroom_m3_1.md).</span><br><span class="qnote">🔒 An area on [Mushroom m3 1](../maps/mushroom_m3_1.md) becomes blocked off.</span> |
+| <span id="stage-20"></span>20 | 20=Algore grave<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Woodsettlement0](../maps/woodsettlement0.md).</span><br><span class="qnote">🗺️ Part of [Woodsettlement0](../maps/woodsettlement0.md) visibly changes.</span> |
+| <span id="stage-35"></span>35 | 35=I opened Bogsten's backyard door.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Bogsten1](../maps/bogsten1.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Bogsten1](../maps/bogsten1.md).</span> |
+| <span id="stage-60"></span>60 | 60=Cave wall open<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Bogsten3](../maps/bogsten3.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Bogsten4](../maps/bogsten4.md).</span><br><span class="qnote">🗺️ Part of [Bogsten3](../maps/bogsten3.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Bogsten4](../maps/bogsten4.md) visibly changes.</span> |
+| <span id="stage-90"></span>90 | 90=killed fungi<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m3 2](../maps/mushroom_m3_2.md).</span> |
+| <span id="stage-100"></span>100 | 100=Granny despawn.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m2 4](../maps/mushroom_m2_4.md).</span> |
+| <span id="stage-110"></span>110 | 110=Gardener gloves worn<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain32](../maps/blackwater_mountain32.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gapfiller2](../maps/gapfiller2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 11](../maps/guynmart_wood_11.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lodar19](../maps/lodar19.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lodar21](../maps/lodar21.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake7](../maps/mountainlake7.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Way to sullengard east8](../maps/way_to_sullengard_east8.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytolake10](../maps/waytolake10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild9](../maps/wild9.md).</span> |
+| <span id="stage-200"></span>200 | Bogsten's grand grand grandmother invited me to their family tomb.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mushroom m2 4](../maps/mushroom_m2_4.md).</span><br><span class="qnote">🗺️ Part of [Mushroom m2 4](../maps/mushroom_m2_4.md) visibly changes.</span> |
+| <span id="stage-210"></span>210 | You found a hidden way downstairs.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m2 4](../maps/mushroom_m2_4.md).</span><br><span class="qnote">🗺️ Part of [Mushroom m2 4](../maps/mushroom_m2_4.md) visibly changes.</span> |
+
+<small>Quest ID: `fungi_panic_nondisplayed` · Data from v0.8.18</small>

@@ -1,31 +1,34 @@
 # Lake Laeroth nondisplay
 
+!!! info "Hidden story flag"
+    This is an internal quest the game uses to track story progress. It never appears in your journal; the entries below are the developers' own notes.
+
 | Progress | Journal entry |
 |---|---|
-| 10 | 10=Boat afloat |
-| 11 | 11=Boat anchored in Remgard |
-| 12 | 12=Boat anchored at Kalypso |
-| 13 | 13=Boat anchored at Circe |
-| 14 | 14=Boat anchored at Cyclops |
-| 20 | 20=Sub Boat afloat |
-| 21 | Shallow spot message given |
-| 31 | 31=Charybdis aktiv |
-| 33 | 33=Charybdis aktiv |
-| 34 | 34=Charybdis aktiv |
-| 35 | 35=Charybdis aktiv |
-| 36 | 36=Charybdis aktiv |
-| 37 | 37=Charybdis aktiv |
-| 40 | 40=Cyclops roast mentioned |
-| 41 | 41=Cling to sheep again |
-| 100 | 100=Leofric not needed anymore |
-| 104 | 104=Sirene passage free |
-| 110 | 110=Polyphem door closed |
-| 111 | 111=Door 1 open |
-| 112 | 112=Door 2 open |
-| 113 | 113=Door 3 open |
-| 121 | 121=Taurophag hit 1 |
-| 122 | 122=Taurophag hit 2 |
-| 123 | 123=Taurophag hit 3+ |
-| 129 | 129=Taurophag dead shown |
+| <span id="stage-10"></span>10 | 10=Boat afloat<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake14](../maps/mountainlake14.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake22](../maps/mountainlake22.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard2a](../maps/remgard2a.md).</span> |
+| <span id="stage-11"></span>11 | 11=Boat anchored in Remgard<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard2](../maps/remgard2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard2a](../maps/remgard2a.md).</span><br><span class="qnote">🗺️ Part of [Remgard2a](../maps/remgard2a.md) visibly changes.</span> |
+| <span id="stage-12"></span>12 | 12=Boat anchored at Kalypso<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake14](../maps/mountainlake14.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake14](../maps/mountainlake14.md) visibly changes.</span> |
+| <span id="stage-13"></span>13 | 13=Boat anchored at Circe<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake22](../maps/mountainlake22.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake22](../maps/mountainlake22.md) visibly changes.</span> |
+| <span id="stage-14"></span>14 | 14=Boat anchored at Cyclops<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake27](../maps/mountainlake27.md) visibly changes.</span> |
+| <span id="stage-20"></span>20 | 20=Sub Boat afloat<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake sub](../maps/mountainlake_sub.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake sub](../maps/mountainlake_sub.md) visibly changes.</span> |
+| <span id="stage-21"></span>21 | Shallow spot message given |
+| <span id="stage-31"></span>31 | 31=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-33"></span>33 | 33=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-34"></span>34 | 34=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-35"></span>35 | 35=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-36"></span>36 | 36=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-37"></span>37 | 37=Charybdis aktiv<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> |
+| <span id="stage-40"></span>40 | 40=Cyclops roast mentioned<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span><br><span class="qnote">🔒 An area on [Mountainlake28](../maps/mountainlake28.md) becomes blocked off.</span> |
+| <span id="stage-41"></span>41 | 41=Cling to sheep again<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span> |
+| <span id="stage-100"></span>100 | 100=Leofric not needed anymore |
+| <span id="stage-104"></span>104 | 104=Sirene passage free<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mountainlake21](../maps/mountainlake21.md).</span> |
+| <span id="stage-110"></span>110 | 110=Polyphem door closed<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ll2 cyclops cave](../maps/ll2_cyclops_cave.md).</span><br><span class="qnote">🔒 An area on [Ll2 cyclops cave](../maps/ll2_cyclops_cave.md) becomes blocked off.</span><br><span class="qnote">🗺️ Part of [Ll2 cyclops cave](../maps/ll2_cyclops_cave.md) visibly changes.</span> |
+| <span id="stage-111"></span>111 | 111=Door 1 open<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake sub](../maps/mountainlake_sub.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake sub](../maps/mountainlake_sub.md) visibly changes.</span> |
+| <span id="stage-112"></span>112 | 112=Door 2 open<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake sub](../maps/mountainlake_sub.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake sub](../maps/mountainlake_sub.md) visibly changes.</span> |
+| <span id="stage-113"></span>113 | 113=Door 3 open<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake sub](../maps/mountainlake_sub.md).</span><br><span class="qnote">🗺️ Part of [Mountainlake sub](../maps/mountainlake_sub.md) visibly changes.</span> |
+| <span id="stage-121"></span>121 | 121=Taurophag hit 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> |
+| <span id="stage-122"></span>122 | 122=Taurophag hit 2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> |
+| <span id="stage-123"></span>123 | 123=Taurophag hit 3+<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> |
+| <span id="stage-129"></span>129 | 129=Taurophag dead shown<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> |
 
 <small>Quest ID: `ll2_nd` · Data from v0.8.18</small>

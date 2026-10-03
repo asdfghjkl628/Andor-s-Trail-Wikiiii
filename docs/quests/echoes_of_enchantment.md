@@ -2,19 +2,19 @@
 
 | Progress | Journal entry |
 |---|---|
-| 1 | At the Wexlow well, I angered something evil and powerful (named Gamjee, I think) to the point that it pulled me down into the well. I've landed at the well's bottom severely injured, but alive. |
-| 2 | After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Maybe a symptom of the concussion perhaps? |
-| 3 | After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Are they the voices of something more sinister? |
-| 4 | The voices I thought I heard earlier seem to be persistent and seemed to be getting louder. It was hard to tell if they're real or just a figment of my imagination. |
-| 5 | Deep inside the well's tunnels, I found eight people being held captive inside a very deep pit. |
-| 6 | I learned that these people are held captive by a troll and they need me to find a way to free them. |
-| 7 | I met the troll named Gamjee and listened to what he had to say. |
-| 8 | In an attempt to help Gamjee and the villagers, I have facilitated a conversation between Gamjee and one of the villagers. |
-| 9 | I killed Gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit. |
-| 11 | I killed Gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier. |
-| 10 | The villagers have been freed. I should visit them back in their village of Wexlow. |
-| 12 | The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit. |
-| 13 | After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit. |
-| 14 | I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now. **(completes quest)** |
+| <span id="stage-1"></span>1 | At the Wexlow well, I angered something evil and powerful (named Gamjee, I think) to the point that it pulled me down into the well. I've landed at the well's bottom severely injured, but alive.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wexlow village](../maps/wexlow_village.md).</span> |
+| <span id="stage-2"></span>2 | After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Maybe a symptom of the concussion perhaps?<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well 1 1](../maps/gamjee_well_1_1.md).</span> |
+| <span id="stage-3"></span>3 | After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Are they the voices of something more sinister?<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well 1 1](../maps/gamjee_well_1_1.md).</span> |
+| <span id="stage-4"></span>4 | The voices I thought I heard earlier seem to be persistent and seemed to be getting louder. It was hard to tell if they're real or just a figment of my imagination.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well 2 1](../maps/gamjee_well_2_1.md).</span> |
+| <span id="stage-5"></span>5 | Deep inside the well's tunnels, I found eight people being held captive inside a very deep pit.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).</span> |
+| <span id="stage-6"></span>6 | I learned that these people are held captive by a troll and they need me to find a way to free them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).</span> |
+| <span id="stage-7"></span>7 | I met the troll named Gamjee and listened to what he had to say. |
+| <span id="stage-8"></span>8 | In an attempt to help Gamjee and the villagers, I have facilitated a conversation between Gamjee and one of the villagers. |
+| <span id="stage-9"></span>9 | I killed Gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well 4 1](../maps/gamjee_well_4_1.md).</span> |
+| <span id="stage-11"></span>11 | I killed Gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well 4 1](../maps/gamjee_well_4_1.md).</span> |
+| <span id="stage-10"></span>10 | The villagers have been freed. I should visit them back in their village of Wexlow.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> |
+| <span id="stage-12"></span>12 | The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit. |
+| <span id="stage-13"></span>13 | After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit. |
+| <span id="stage-14"></span>14 | I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now. **(completes quest)** |
 
 <small>Quest ID: `echoes_of_enchantment` · Data from v0.8.18</small>

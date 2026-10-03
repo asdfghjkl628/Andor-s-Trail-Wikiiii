@@ -1,0 +1,45 @@
+# brv_nondisplay
+
+!!! info "Hidden story flag"
+    This is an internal quest the game uses to track story progress. It never appears in your journal; the entries below are the developers' own notes.
+
+| Progress | Journal entry |
+|---|---|
+| <span id="stage-1"></span>1 | butcher state<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven inn east](../maps/brimhaven_inn_east.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven inn east](../maps/brimhaven_inn_east.md) visibly changes.</span> |
+| <span id="stage-11"></span>11 | 11=1 Employee is at home |
+| <span id="stage-23"></span>23 | - Employee Msg 23 |
+| <span id="stage-22"></span>22 | - Employee Msg 22 |
+| <span id="stage-21"></span>21 | - Employee Msg 21 |
+| <span id="stage-23"></span>23 | - Employee Msg 23 |
+| <span id="stage-70"></span>70 | 70=passage to river closed<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven1](../maps/waytobrimhaven1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven2](../maps/waytobrimhaven2.md).</span><br><span class="qnote">🔒 An area on [Brimhaven1](../maps/brimhaven1.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Waytobrimhaven2](../maps/waytobrimhaven2.md) becomes blocked off.</span> |
+| <span id="stage-71"></span>71 | 71=Stage-1 flood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> |
+| <span id="stage-72"></span>72 | 72=stage-2 flood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> |
+| <span id="stage-73"></span>73 | 73=stage-3 flood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> |
+| <span id="stage-79"></span>79 | 79=End flood |
+| <span id="stage-80"></span>80 | 80=Start flood |
+| <span id="stage-81"></span>81 | 81=Stage-1 flood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven1](../maps/brimhaven1.md) visibly changes.</span> |
+| <span id="stage-82"></span>82 | 82=stage-2 flood<br><span class="qnote">⚡ A scripted event can now trigger on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven1](../maps/brimhaven1.md) visibly changes.</span> |
+| <span id="stage-83"></span>83 | 83=stage-3 flood<br><span class="qnote">⚡ A scripted event can now trigger on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Waytobrimhaven2](../maps/waytobrimhaven2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven1](../maps/waytobrimhaven1.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven1](../maps/brimhaven1.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Brimhaven4](../maps/brimhaven4.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Waytobrimhaven2](../maps/waytobrimhaven2.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Waytobrimhaven3](../maps/waytobrimhaven3.md) visibly changes.</span> |
+| <span id="stage-87"></span>87 | 87=flood pending |
+| <span id="stage-88"></span>88 | 88=drain pending |
+| <span id="stage-89"></span>89 | 89=End flood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven1](../maps/waytobrimhaven1.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven1](../maps/brimhaven1.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Brimhaven4](../maps/brimhaven4.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Waytobrimhaven2](../maps/waytobrimhaven2.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Waytobrimhaven3](../maps/waytobrimhaven3.md) visibly changes.</span> |
+| <span id="stage-100"></span>100 | Leaving Brimhaven is forbidden<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span><br><span class="qnote">🔒 An area on [Brimhaven3](../maps/brimhaven3.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Brimhaven4](../maps/brimhaven4.md) becomes blocked off.</span> |
+| <span id="stage-110"></span>110 | Alkapoan told about the captain |
+| <span id="stage-120"></span>120 | captain told about burning the letters |
+| <span id="stage-130"></span>130 | showed money to shop owner |
+| <span id="stage-138"></span>138 | Tember active<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard prison](../maps/remgard_prison.md).</span> |
+| <span id="stage-139"></span>139 | Feygard patrol wall<br><span class="qnote">🗺️ Part of [Remgard prison](../maps/remgard_prison.md) visibly changes.</span> |
+| <span id="stage-140"></span>140 | Movement blocked by the Feygard patrol<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven4](../maps/brimhaven4.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossroads](../maps/crossroads.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fields6](../maps/fields6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard0](../maps/remgard0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road1](../maps/road1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads2](../maps/roadbeforecrossroads2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads6](../maps/roadbeforecrossroads6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild6](../maps/wild6.md).</span><br><span class="qnote">🔒 An area on [Brimhaven4](../maps/brimhaven4.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Crossroads](../maps/crossroads.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Fields6](../maps/fields6.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Remgard0](../maps/remgard0.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Road1](../maps/road1.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) becomes blocked off.</span><br><span class="qnote">🔒 An area on [Wild6](../maps/wild6.md) becomes blocked off.</span> |
+| <span id="stage-141"></span>141 | Has met the Feygard patrol before |
+| <span id="stage-142"></span>142 | Confiscated bonemeals<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven4](../maps/brimhaven4.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossroads](../maps/crossroads.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fields6](../maps/fields6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard0](../maps/remgard0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road1](../maps/road1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads2](../maps/roadbeforecrossroads2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads6](../maps/roadbeforecrossroads6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild6](../maps/wild6.md).</span> |
+| <span id="stage-143"></span>143 | Never true<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven3](../maps/brimhaven3.md).</span> |
+| <span id="stage-144"></span>144 | Told fortune teller about andor |
+| <span id="stage-145"></span>145 | Fortune teller told about gold behind father's house - brv_fortune_hero_70 |
+| <span id="stage-146"></span>146 | Fortune teller found gold behind father's house<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> |
+| <span id="stage-147"></span>147 | brv_fortune_hero_130 |
+| <span id="stage-148"></span>148 | brv_fortune_hero_30 |
+| <span id="stage-149"></span>149 | brv_fortune_hero_10 |
+| <span id="stage-150"></span>150 | brv_fortune_andor_30 |
+| <span id="stage-151"></span>151 | brv_fortune_andor_10 |
+
+<small>Quest ID: `brv_nondisplay` · Data from v0.8.18</small>
