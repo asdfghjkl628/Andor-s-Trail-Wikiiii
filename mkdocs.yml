@@ -18,6 +18,8 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tilde
+  - footnotes
   - toc: { permalink: true }
 nav:
   - Home: index.md

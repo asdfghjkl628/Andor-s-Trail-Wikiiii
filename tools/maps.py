@@ -231,8 +231,8 @@ def build_maps(ctx):
         canvas.save(os.path.join(DOCS, 'assets', 'maps', f'_world_{seg_id}.webp'), 'WEBP', quality=70)
         seg_md.append((len(entries), f'\n## {_pretty(seg_id)}\n\n<div class="map-wrap world" markdown="0"><img src="../assets/maps/_world_{seg_id}.webp" alt="{seg_id}" loading="lazy">{"".join(zones)}</div>\n'))
     seg_md.sort(key=lambda s: -s[0])
-    idx = [f"# World map\n\nEvery region of Andor's Trail v{ctx['VERSION']}, assembled from the game's own map files. "
-           "Hover to see a map's name; click it to open that map.\n"] + [s[1] for s in seg_md]
+    idx = [f"# World map\n\nEvery region of v{ctx['VERSION']}, stitched together from the game's own map files. "
+           "Hover over a piece to see its name; click it to go there. Walking the real thing takes considerably longer.\n"] + [s[1] for s in seg_md]
     idx.append("\n## All maps (A–Z)\n\n" + ''.join(f"- [{_pretty(m)}]({m}.md)\n" for m in sorted(parsed)))
     ctx['write']('maps/index.md', ''.join(idx))
 

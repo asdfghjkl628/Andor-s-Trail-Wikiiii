@@ -262,7 +262,7 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
 groups = defaultdict(list)
 for it, c, ic in item_rows:
     groups[(item_kind(it), c.get('name', it.get('category', 'Uncategorized')))].append((it, ic))
-L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION} ({len(items)} total). Use the search box to find one quickly.\n"]
+L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION}, all {len(items)} of them. The search box is your friend; scrolling through this whole list is not.\n"]
 for kind in ('Equipment', 'Consumable', 'Other'):
     L.append(f"\n## {kind}\n")
     for (k, cname), lst in sorted(groups.items()):
@@ -273,7 +273,7 @@ for kind in ('Equipment', 'Consumable', 'Other'):
 write('items/index.md', ''.join(L))
 
 # monsters
-L = [f"# Monsters\n\nAll {len(monsters)} monsters and NPCs, sorted by HP.\n\n| | Name | Class | HP | Attack | AC | BC | DR | Crit |\n|---|---|---|---|---|---|---|---|---|\n"]
+L = [f"# Monsters\n\nAll {len(monsters)} monsters and NPCs, sorted by HP, weakest first. The ones at the bottom of the list are there for a reason.\n\n| | Name | Class | HP | Attack | AC | BC | DR | Crit |\n|---|---|---|---|---|---|---|---|---|\n"]
 for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv[1].get('name', ''))):
     ic = icon(m.get('iconID'), 'monsters')
     dmg = rng(m.get('attackDamage', {'min': 0, 'max': 0}))
@@ -285,7 +285,7 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
              ('Critical multiplier', m.get('criticalMultiplier', 0))]
     P = [f"# {img(ic)} {m.get('name', mid)}\n\n", "| Stat | Value |\n|---|---|\n", ''.join(f"| {a} | {b} |\n" for a, b in stats)]
     if m.get('monsterClass') in ('ghost', 'construct', 'demon'):
-        P.append("\n!!! note \"Immune to critical hits\"\n    Monsters of this class cannot be critically hit.\n")
+        P.append("\n!!! note \"Immune to critical hits\"\n    Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.\n")
     if m.get('hitEffect'):
         P.append("\n## On hit\n\n" + ''.join(f"- **{a}:** {md_esc(b)}\n" for a, b in effect_rows(m['hitEffect'])))
     dl = droplists.get(m.get('droplistID'))
@@ -302,15 +302,15 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
 write('monsters/index.md', ''.join(L))
 
 # quests (every quest gets a page, including hidden story flags, so map links always resolve)
-L = ["# Quests\n\n| Quest | Stages |\n|---|---|\n"]
+L = ["# Quests\n\nEvery quest that shows up in your journal, plus, at the bottom, the hidden story flags the game uses to keep track of you without telling you.\n\n| Quest | Stages |\n|---|---|\n"]
 hidden_rows = []
 for qid, q in sorted(quests.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
     visible = bool(q.get('showInLog', 0))
     notes = quest_notes.get(qid, {})
     P = [f"# {q.get('name', qid)}\n\n"]
     if not visible:
-        P.append("!!! info \"Hidden story flag\"\n    This is an internal quest the game uses to track story progress. "
-                 "It never appears in your journal; the entries below are the developers' own notes.\n\n")
+        P.append("!!! info \"Hidden story flag\"\n    An internal quest the game uses to track your progress behind the scenes. "
+                 "It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.\n\n")
     P.append("| Progress | Journal entry |\n|---|---|\n")
     stages = {st.get('progress') for st in q.get('stages', [])}
     for st in q.get('stages', []):
@@ -328,8 +328,8 @@ for qid, q in sorted(quests.items(), key=lambda kv: kv[1].get('name', kv[0]).low
     row = f"| [{md_esc(q.get('name', qid))}]({qid}.md) | {len(q.get('stages', []))} |\n"
     (L if visible else hidden_rows).append(row)
 if hidden_rows:
-    L.append("\n## Hidden story flags\n\nInternal progress trackers that never show in the journal, "
-             "but gate doors, events and map changes.\n\n| Flag | Stages |\n|---|---|\n" + ''.join(hidden_rows))
+    L.append("\n## Hidden story flags\n\nInternal progress trackers that never appear in your journal, but quietly decide which doors open "
+             "and which events fire. The names were not written with human readers in mind.\n\n| Flag | Stages |\n|---|---|\n" + ''.join(hidden_rows))
 write('quests/index.md', ''.join(L))
 
 # ---------------------------------------------------------------- stats & skills
@@ -384,7 +384,7 @@ for sid, sk in skills.items():
     if sk['requirements']:
         P.append("## Requirements\n\n" + ''.join(f"- {req_text(r, sk['maxLevel'])}\n" for r in sk['requirements']) + '\n')
     if unlocks.get(sid):
-        P.append("## Unlocks\n\nInvesting here also counts toward:\n\n" + ''.join(
+        P.append("## Unlocks\n\nPoints spent here also count toward:\n\n" + ''.join(
             f"- {link('skills', u, skills[u]['name'])} (needs this skill at level {n})\n" for u, n in unlocks[sid]) + '\n')
     if sk['long']: P.append("## Description\n\n" + html.unescape(sk['long']).replace('\n', '\n\n') + '\n')
     if skill_sources.get(sid):
@@ -434,15 +434,15 @@ level_body = f"""| Choice each level-up | Bonus |
 | Attack damage | +{LV['dmg']} min & max |
 | Block chance | +{LV['bc']} |
 
-Pick **one** per level-up; it's permanent. These form your **base stats**, the only values skill requirements check (gear and skills never count).
+Pick **one** per level-up. There's no respec, so choose like you mean it. These picks form your **base stats**, which are the only values skill requirements look at. Gear and skills don't count, however shiny.
 
-**Skill points:** level {', '.join(map(str, sp_list))} ({len([l for l in sp_levels if l <= 50])} by level 50).
-**Experience:** level L → L+1 costs {LV['exp_base']} × L².
+**Skill points:** levels {', '.join(map(str, sp_list))}. That's {len([l for l in sp_levels if l <= 50])} by level 50, and every one of them will feel like a hard decision.
+**Experience:** level L → L+1 costs {LV['exp_base']} × L². Quadratic growth, so the grind gets real.
 
 | Level | Total XP | XP to next |
 |---|---|---|
 {exp_rows}"""
-combat_body = f"""Every attack runs four steps. See the [stat glossary]({G}) for what each stat means.
+combat_body = f"""Every attack goes through the same four steps. No hidden dice, no secret modifiers; this is the whole thing. The [stat glossary]({G}) explains each stat.
 
 **1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
@@ -451,12 +451,12 @@ combat_body = f"""Every attack runs four steps. See the [stat glossary]({G}) for
 {hit_rows}
 **2 · Damage:** random between min and max attack damage.
 
-**3 · Critical?** Only with critical skill > 0 **and** a weapon that gives a critical multiplier. Ghosts, constructs and demons are immune. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
+**3 · Critical?** Only if you have critical skill above 0 **and** your weapon gives a critical multiplier. No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
 | Crit skill | Crit % |
 |---|---|
 {crit_rows}
-**4 · Armor:** the target's damage resistance is subtracted from the result (minimum 0).
+**4 · Armor:** the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.
 
 **Attacks per turn** = max AP ÷ attack cost, rounded down."""
 skill_body = ''
@@ -468,50 +468,50 @@ for cat in sorted(by_cat):
         skill_body += f"| [{md_esc(sk['name'])}]({sid}.md) | {sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else '∞'} | {how} | {md_esc(sk['short'])} |\n"
 write('skills/index.md', f"""# Stats & Skills
 
-Andor's Trail v{VERSION}, read straight from the game's source code. Click a heading to collapse it. For advice on how to spend your points, see [Strategy](../strategy/index.md).
+How your hero's numbers actually work in v{VERSION}, pulled straight from the game's source code rather than from forum folklore. Click a heading to fold it away. Wondering what to *do* with all this? That's what [Strategy](../strategy/index.md) is for.
 """ + section('Starting stats (level 1)', start_tbl) + section('Levelling up', level_body)
   + section('How combat works', combat_body) + section(f'All skills ({len(skills)})', skill_body))
 
 # --- stat glossary (what each stat does)
 write('skills/stats.md', f"""# Stat glossary
 
-What each stat does in Andor's Trail v{VERSION}. Starting values are on [Stats & Skills](index.md).
+What each stat actually does in v{VERSION}. Starting values live on [Stats & Skills](index.md).
 
 ## Max HP
-Your health. You die at 0. Raised by the **max health** level-up choice (+{LV['hp']}), by [Fortitude](fortitude.md) (+{LV['fort']} per skill level on every later level-up), and by some gear.
+Your health. Hit 0 and you're done. Raised by the **max health** level-up (+{LV['hp']}), by [Fortitude](fortitude.md) (+{LV['fort']} per skill level on every later level-up), and by some gear. Most experienced players get theirs almost entirely from Fortitude; see [Strategy](../strategy/levelling.md) for why.
 
 ## Max AP
-Action points per combat turn. Attacking, moving and using items all spend AP. [Combat Speed](speed.md) adds +1 per level (max 2).
+Action points per combat turn. Attacking, moving and drinking potions all cost AP, and running out mid-fight is a classic way to die. [Combat Speed](speed.md) adds +1 per level, up to 2.
 
 ## Attack chance
-Your accuracy. Compared with the target's block chance to decide whether you hit; see [how combat works](index.md). Raised by the **attack chance** level-up (+{LV['ac']}), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
+Your accuracy. It's compared with the target's block chance to decide whether you hit, through a curve with heavy diminishing returns at both ends ([details](index.md)). Raised by the **attack chance** level-up (+{LV['ac']}), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
 
 ## Attack damage
-Each hit deals a random amount between your minimum and maximum damage. The **attack damage** level-up adds +{LV['dmg']} to both; [Hard Hit](weaponDmg.md) adds +2 to the maximum only.
+Each hit rolls a random number between your minimum and maximum damage. The **attack damage** level-up adds +{LV['dmg']} to both. [Hard Hit](weaponDmg.md) adds +2 to the maximum only, which sounds better than it is: your average goes up by just 1.
 
 ## Block chance
-Your evasion. Compared with the attacker's attack chance. Raised by the **block chance** level-up (+{LV['bc']}), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements such as [Bark Skin](barkSkin.md).
+Your evasion: the same curve as attack chance, pointed the other way. Raised by the **block chance** level-up (+{LV['bc']}), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements like [Bark Skin](barkSkin.md), so your fancy shield doesn't help there.
 
 ## Damage resistance
-Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it's strongest against many weak hits. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
+Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
 
 ## Critical skill
-Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. Does nothing unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) increases it by 20% per level.
+Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) raises it by 20% per level.
 
 ## Critical multiplier
-How much a critical hit multiplies damage (e.g. ×2). Only weapons provide one; you have none unarmed. [Better Criticals](betterCriticals.md) increases it by 25% per level.
+How hard a critical hit lands (e.g. ×2). Only weapons provide one; your bare fists have none, which is why unarmed heroes never crit. [Better Criticals](betterCriticals.md) raises it by 25% per level.
 
 ## Attack cost
-AP spent per attack. Unarmed it's {LV['atk_cost']}; a weapon replaces it with its own cost. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can mean an extra attack every turn.
+AP spent per attack: {LV['atk_cost']} unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.
 
 ## Move cost
-AP to move one tile during combat. Heavy armor can raise it.
+AP to move one tile during combat. Heavy armor raises it, which is the price of looking like a walking tank.
 
 ## Use item cost
-AP to use an item (e.g. drink a potion) during combat.
+AP to use an item, e.g. drinking a potion in the middle of a fight.
 
 ## Re-equip cost
-AP to change equipment during combat.
+AP to change equipment during combat. Possible, but rarely a good use of your turn.
 """)
 # ---------------------------------------------------------------- snapshot + changelog
 snap = {'version': VERSION,
@@ -523,8 +523,9 @@ os.makedirs(DATA, exist_ok=True)
 snap_path = os.path.join(DATA, 'snapshot.json')
 old = json.load(open(snap_path)) if os.path.exists(snap_path) else None
 clog_path = os.path.join(DOCS, 'changelog.md')
-header = "# Changelog\n\nAutomatically generated whenever a new release is published.\n"
-body = open(clog_path, encoding='utf-8').read().replace(header, '') if os.path.exists(clog_path) else ''
+header = "# Changelog\n\nWhat changed in each release, worked out by comparing the game's data before and after. It's generated automatically, so it's thorough, if not exactly poetic.\n"
+_old = open(clog_path, encoding='utf-8').read() if os.path.exists(clog_path) else ''
+body = _old[_old.index('\n## v'):] if '\n## v' in _old else ''
 if old and old.get('version') != VERSION:
     E = [f"\n## v{VERSION} (from v{old['version']})\n"]
     for sec, namekey in (('items', 'name'), ('monsters', 'name')):
@@ -540,28 +541,31 @@ if old and old.get('version') != VERSION:
     if newq: E.append(f"\n**New quests ({len(newq)}):** " + ', '.join(snap['quests'][k] or k for k in newq) + '\n')
     body = ''.join(E) + body
 elif not old:
-    body = f"\n## v{VERSION}\n\nFirst version tracked by this wiki.\n" + body
+    body = f"\n## v{VERSION}\n\nFirst version tracked by this wiki. Anything before this is lost to history.\n" + body
 write('changelog.md', header + body)
 json.dump(snap, open(snap_path, 'w'), indent=0, sort_keys=True)
 open(os.path.join(DATA, 'VERSION'), 'w').write(VERSION + '\n')
 
 # home page stats
+n_rings = sum(1 for it in items.values() if it.get('category') == 'ring')
 write('index.md', f"""# Andor's Trail Wiki
 
-An always-current reference for **Andor's Trail**, generated straight from the game's own open-source data.
-This wiki currently describes **v{VERSION}**, the latest release, and rebuilds itself automatically when a new version is tagged.
+A wiki for **Andor's Trail**, the open-source pixel RPG where you set out to find your missing brother Andor and somehow end up running errands for half the continent.
+
+Everything here is generated straight from the game's own data files, so the numbers are exactly what the game uses. No "I think it was around 30%?" guesswork. When the developers tag a new release, the wiki rebuilds itself within the hour. It currently describes **v{VERSION}**.
 
 <div class="grid cards" markdown>
 
-- **[Items](items/index.md)**<br>{len(items)} items, with stats and drop sources
-- **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs, with drops and locations
-- **[Stats & Skills](skills/index.md)**<br>How stats and levelling work, plus all {len(skills)} skills
-- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and their journal stages
-- **[World map](maps/index.md)**<br>{n_maps} maps, plus a clickable world map
-- **[Changelog](changelog.md)**<br>What changed in each release
+- **[Items](items/index.md)**<br>{len(items)} items, including {n_rings} different rings, which is apparently how many one hero needs
+- **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs. Most want you dead; the rest want you to fetch something
+- **[Stats & Skills](skills/index.md)**<br>How the numbers work, plus the {len(skills)} skills you'll agonize over
+- **[Strategy](strategy/index.md)**<br>Hand-written advice. Opinionated, as advertised
+- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and every journal entry, plus the hidden flags behind them
+- **[World map](maps/index.md)**<br>{n_maps} maps, every monster, every chest
+- **[Changelog](changelog.md)**<br>What each release changed, down to the last gold coin
 
 </div>
 
-<small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki.</small>
+<small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki, not affiliated with the developers.</small>
 """)
 print(f"Built v{VERSION}: {len(items)} items, {len(monsters)} monsters, {len(skills)} skills, {len(quests)} quests, {n_maps} maps")
