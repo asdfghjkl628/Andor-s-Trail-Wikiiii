@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- character level 45
+- Character level 45
 - [Fighting style: Dual wield](../skills/fightstyleDualWield.md) level 2
 
 ## Description

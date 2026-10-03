@@ -8,6 +8,6 @@
 
 Increase damage resistance by %1$,d per skill level while having a shield or parrying weapon equipped.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 2 dialogue node(s): `fayvara1_2nd_s3`, `fayvara1_7_s2`
+Granted by an NPC as part of: [Destined for great things](../quests/charwood1.md)

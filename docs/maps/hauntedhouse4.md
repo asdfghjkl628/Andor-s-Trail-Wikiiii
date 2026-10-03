@@ -15,7 +15,7 @@
 | Name | HP |
 |---|---|
 | [Skeleton](../monsters/skeleton.md) | 35 |
-| [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 |
 | [Skeletal master](../monsters/skeletal_master.md) | 52 |
+| [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 |
 
 <small>Map ID: `hauntedhouse4` · Data from v0.8.18</small>

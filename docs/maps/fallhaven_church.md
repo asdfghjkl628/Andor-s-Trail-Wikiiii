@@ -16,7 +16,7 @@
 
 | Name | HP |
 |---|---|
-| [Mourning woman](../monsters/chapelgoer.md) | 0 |
 | [Thoronir](../monsters/thoronir.md) | 0 |
+| [Mourning woman](../monsters/chapelgoer.md) | 0 |
 
 <small>Map ID: `fallhaven_church` · Data from v0.8.18</small>

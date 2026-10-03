@@ -4,10 +4,16 @@
 
 **Category:** defense · **Max level:** unlimited · **Obtained via:** Skill points
 
+## Unlocks
+
+Investing here also counts toward:
+
+- [Taunt](../skills/taunt.md) (needs this skill at level 4)
+
 ## Description
 
 Increases block chance by %1$,d percentage points for each skill level.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `brv_fortune_back_66b`
+Granted by an NPC as part of: [The exploded star](../quests/mg2_exploded_star.md)

@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Guard](../monsters/brv_prison_guard.md) | 0 |
 | [Ogea](../monsters/brv_villager3.md) | 0 |
+| [Guard](../monsters/brv_prison_guard.md) | 0 |
 
 <small>Map ID: `brimhaven_prison` · Data from v0.8.18</small>

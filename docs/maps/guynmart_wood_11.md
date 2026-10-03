@@ -22,7 +22,7 @@
 | [Wild berries](../monsters/wild_berry.md) | 0 |
 | [Forest beetle](../monsters/forest_beetle.md) | 14 |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 |
-| [Vicious hound](../monsters/vicious_hound.md) | 31 |
 | [Anklebiter](../monsters/anklebiter.md) | 31 |
+| [Vicious hound](../monsters/vicious_hound.md) | 31 |
 
 <small>Map ID: `guynmart_wood_11` · Data from v0.8.18</small>

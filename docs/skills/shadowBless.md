@@ -8,6 +8,6 @@
 
 Lowers the chance of being afflicted with all types of conditions by %1$,d %%. This includes all types of conditions caused by monster attacks such as Poison, Dazed or Fatigue.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `ulirfendor_dp_bless_5`
+Granted by an NPC as part of: [The dark protector](../quests/darkprotector.md)

@@ -10,7 +10,7 @@
 
 | Name | HP |
 |---|---|
-| [Guard 2](../monsters/brightportguardcrate2.md) | 0 |
 | [Guard 1](../monsters/brightportguardcrate1.md) | 0 |
+| [Guard 2](../monsters/brightportguardcrate2.md) | 0 |
 
 <small>Map ID: `brightport_crate2` · Data from v0.8.18</small>

@@ -6,8 +6,8 @@
 
 ## Requirements
 
-- maxHP ≥ 30
-- [Increased Fortitude](../skills/fortitude.md) level 1
+- Max HP of at least 30 from level-ups (gear and skills don't count); each further level needs 30 more
+- [Increased Fortitude](../skills/fortitude.md) level 1 (each further level needs 1 more)
 
 ## Description
 

@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 |
 
 <small>Map ID: `lostmine4` · Data from v0.8.18</small>

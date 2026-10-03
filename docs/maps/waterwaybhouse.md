@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Cithurn](../monsters/waterwayhermit.md) | 0 |
 | [Cithurn's cat](../monsters/cithurncat.md) | 0 |
+| [Cithurn](../monsters/waterwayhermit.md) | 0 |
 
 <small>Map ID: `waterwaybhouse` · Data from v0.8.18</small>

@@ -8,6 +8,6 @@
 
 Permanently prevents monster attacks from inflicting the "Spore poisoning" status effect.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `zuul_khan_150_10`
+Granted by an NPC as part of: [Fungi panic](../quests/fungi_panic.md)

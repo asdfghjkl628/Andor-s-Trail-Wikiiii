@@ -17,10 +17,10 @@ South: Nor City." style="left:50.000%;top:85.714%;width:3.333%;height:3.571%"></
 
 | Name | HP |
 |---|---|
-| [Feygard soldier](../monsters/patrol_roaming.md) | 0 |
 | [Tinlyn](../monsters/tinlyn.md) | 0 |
+| [Feygard soldier](../monsters/patrol_roaming.md) | 0 |
 | [Sheep](../monsters/sheep1.md) | 5 |
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 |
 
 <small>Map ID: `fields6` · Data from v0.8.18</small>

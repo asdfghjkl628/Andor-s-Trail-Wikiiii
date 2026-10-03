@@ -8,6 +8,6 @@
 
 Increases the chance of finding non-ordinary items by %1$,d %% for every skill level.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `brv_fortune_back_69b`
+Granted by an NPC as part of: [The exploded star](../quests/mg2_exploded_star.md)

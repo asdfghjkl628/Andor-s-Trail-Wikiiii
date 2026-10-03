@@ -6,13 +6,13 @@
 
 ## Requirements
 
-- [Weapon Accuracy](../skills/weaponChance.md) level 1
-- [Hard Hit](../skills/weaponDmg.md) level 1
+- [Weapon Accuracy](../skills/weaponChance.md) level 1 (each further level needs 1 more)
+- [Hard Hit](../skills/weaponDmg.md) level 1 (each further level needs 1 more)
 
 ## Description
 
 Gives +%1$,d action points (AP) on every kill per skill level.
 
-## Granted in conversations
+## Where to learn it
 
-Granted by 1 dialogue node(s): `brv_fortune_back_68b`
+Granted by an NPC as part of: [The exploded star](../quests/mg2_exploded_star.md)

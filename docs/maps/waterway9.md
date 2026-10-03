@@ -18,8 +18,8 @@ South: Brightport" style="left:33.333%;top:36.667%;width:3.333%;height:3.333%"><
 
 | Name | HP |
 |---|---|
-| [Erumen lizard](../monsters/erumen_3.md) | 45 |
 | [Izthiel](../monsters/izthiel_2.md) | 45 |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 54 |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 |

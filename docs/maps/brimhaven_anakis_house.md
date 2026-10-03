@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Juttarka](../monsters/juttarka.md) | 0 |
 | [Anakis](../monsters/anakis.md) | 0 |
+| [Juttarka](../monsters/juttarka.md) | 0 |
 
 <small>Map ID: `brimhaven_anakis_house` · Data from v0.8.18</small>

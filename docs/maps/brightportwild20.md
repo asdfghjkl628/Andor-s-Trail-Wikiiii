@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 |
 | [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 |
+| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 |
 
 <small>Map ID: `brightportwild20` · Data from v0.8.18</small>

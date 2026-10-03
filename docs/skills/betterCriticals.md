@@ -6,7 +6,14 @@
 
 ## Requirements
 
-- [More Criticals](../skills/moreCriticals.md) level 1
+- [More Criticals](../skills/moreCriticals.md) level 1 (each further level needs 1 more)
+
+## Unlocks
+
+Investing here also counts toward:
+
+- [Internal bleeding](../skills/crit1.md) (needs this skill at level 2)
+- [Fracture](../skills/crit2.md) (needs this skill at level 4)
 
 ## Description
 

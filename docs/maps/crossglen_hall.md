@@ -15,7 +15,7 @@
 | Name | HP |
 |---|---|
 | [Knight of Elythom](../monsters/burhczyd1e.md) | 0 |
-| [Drunk](../monsters/drunk.md) | 0 |
 | [Burhczyd](../monsters/burhczyd1.md) | 0 |
+| [Drunk](../monsters/drunk.md) | 0 |
 
 <small>Map ID: `crossglen_hall` · Data from v0.8.18</small>

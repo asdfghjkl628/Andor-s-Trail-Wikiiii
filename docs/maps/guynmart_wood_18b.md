@@ -22,7 +22,7 @@
 | Name | HP |
 |---|---|
 | [Ancient kobold](../monsters/kobold3.md) | 70 |
-| [Kobold](../monsters/kobold2.md) | 70 |
 | [Quick kobold](../monsters/kobold1.md) | 70 |
+| [Kobold](../monsters/kobold2.md) | 70 |
 
 <small>Map ID: `guynmart_wood_18b` · Data from v0.8.18</small>

@@ -20,8 +20,8 @@
 |---|---|
 | [Greedy](../monsters/aidem_jail_greedy.md) | 0 |
 | [Defy](../monsters/aidem_jail_defy.md) | 0 |
+| [Zachlanny](../monsters/aidem_jail_zachlanny.md) | 0 |
 | [Grabby](../monsters/aidem_jail_grabby.md) | 0 |
 | [Alaric](../monsters/aidem_jail_alaric.md) | 0 |
-| [Zachlanny](../monsters/aidem_jail_zachlanny.md) | 0 |
 
 <small>Map ID: `guildbrig2` · Data from v0.8.18</small>
