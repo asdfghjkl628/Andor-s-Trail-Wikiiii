@@ -22,6 +22,14 @@
 
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 20
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Feygard barricade guard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/Feygard_BG_selector.json" data-npc="Feygard barricade guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (9 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -72,7 +80,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 9 lines added |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…”<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…”<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

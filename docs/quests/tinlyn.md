@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 31, 60) |
 | **Started by** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
-| **NPCs involved** | [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep2.md), [Sheep](../monsters/lostsheep4.md), [Tinlyn](../monsters/tinlyn.md) |
+| **NPCs involved** | [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep4.md), [Sheep](../monsters/lostsheep2.md), [Tinlyn](../monsters/tinlyn.md) |
 | **Locations** | [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md), [fields6](../maps/fields6.md) |
 | **Total XP** | 800 |
 | **Related quests** | 2 |
@@ -56,7 +56,7 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

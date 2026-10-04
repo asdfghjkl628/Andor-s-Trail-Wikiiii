@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
 | **Started by** | [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah3.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md), [Rob](../monsters/guynmart_rob.md) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md), [Rob](../monsters/guynmart_rob.md) |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_3](../maps/guynmart_main_3.md) |
 
 </div>
@@ -48,7 +48,7 @@ No links to other quests were found in the dialogue conditions.
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 2 routes"
 

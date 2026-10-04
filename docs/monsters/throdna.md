@@ -23,6 +23,14 @@
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): stages 100, 110
 - [Lights in the dark](../quests/kazaul.md): stages 8, 9, 10, 11, 30, 40, 41, 100
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Throdna. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/throdna_start.json" data-npc="Throdna" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (71 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -338,7 +346,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “.. Kazaul .. Shadow ..” → “...Kazaul ... Shadow...”<br>· text: “Hm, maybe you could be of use here..” → “Hmm, maybe you could be of use here...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “This is the mages' chamber in Blackwater Mountain. We devote our time…” → “This is the mages' chamber in Blackwater mountain. We devote our time…”<br>· text: “.. Kazaul .. Shadow ..” → “...Kazaul ... Shadow...” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 22 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

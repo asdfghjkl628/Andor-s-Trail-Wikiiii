@@ -31,6 +31,14 @@
 
 - [A difference of opinion](../quests/sisterfight.md): stages 40, 41, 45, 60, 61
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Hjaldar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/hjaldar.json" data-npc="Hjaldar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (32 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -183,7 +191,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Now, let's see. Some of these.. *Hjaldar pulls out some dried up berr…” → “Now, let's see. Some of these... [Hjaldar pulls out some dried up ber…”<br>· text: “Finally, the Lyson marrow extract..” → “Finally, the Lyson marrow extract...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Blackwater Mountain? I'm afraid I don't know where that is. Never min…” → “Blackwater mountain? I'm afraid I don't know where that is. Never min…”<br>· text: “*Hjaldar shakes the vials vigorously, one in each of his hands*” → “[Hjaldar shakes the vials vigorously, one in each of his hands]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -18,8 +18,8 @@
 
 | Name | HP |
 |---|---|
-| [Florencia](../monsters/brightportforenza1.md) | 0 |
 | [Sylvester](../monsters/brightportforenza.md) | 0 |
+| [Florencia](../monsters/brightportforenza1.md) | 0 |
 
 ## Version history
 

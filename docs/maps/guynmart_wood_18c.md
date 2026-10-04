@@ -20,8 +20,8 @@
 
 | Name | HP |
 |---|---|
-| [Kobold](../monsters/kobold2.md) | 70 |
 | [Quick kobold](../monsters/kobold1.md) | 70 |
+| [Kobold](../monsters/kobold2.md) | 70 |
 
 ## Version history
 

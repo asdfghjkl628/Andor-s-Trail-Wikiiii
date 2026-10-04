@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Nimael](../monsters/nimael.md) | 0 |
 | [Gison](../monsters/gison.md) | 0 |
+| [Nimael](../monsters/nimael.md) | 0 |
 
 ## Version history
 

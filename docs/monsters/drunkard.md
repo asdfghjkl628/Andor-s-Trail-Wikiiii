@@ -24,6 +24,14 @@
 - [You shall pass](../quests/undertell_barricades.md): stages 130, 140
 - [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 55
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Drunkard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_drunk_selector.json" data-npc="Drunkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (25 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -145,7 +153,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Oh sweet drinks of joy. May the sssshadow be with you kid. *makes big…” → “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big…”<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “*takes a gulp of the mead* That's good stuff!” → “[Takes a gulp of the mead] That's good stuff!”<br>· text: “That's where we.. Hey, where did my mead go? Did you take it from me?” → “That's where we... Hey, where did my mead go? Did you take it from me?” |
 | [v0.8.18](../versions/0.8.18.md) | phraseID: fallhaven_drunk → fallhaven_drunk_selector<br>Dialogue: 10 lines added, 2 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, guard. I'm not causing any trouble anymore, see? I sits outside n…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

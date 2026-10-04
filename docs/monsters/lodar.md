@@ -41,6 +41,14 @@
 - [Searching for madness](../quests/lodar2.md): stages 10, 15, 20, 30, 50, 51, 60
 - [The way out is through](../quests/shortcut_lodar.md): stages 10, 30
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Lodar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/lodar.json" data-npc="Lodar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (142 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -682,8 +690,8 @@
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …”<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …”<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Maybe it was in here ..” → “Maybe it was in here...”<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…”<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Oh, you must be referring to that other boy that was here recently.” → “Oh, you must be referring to that older boy that was here recently.” |
 

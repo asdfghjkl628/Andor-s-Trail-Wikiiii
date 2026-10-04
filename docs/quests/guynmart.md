@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 41 (completes at 210, 211) |
 | **Started by** | [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../maps/guynmart_wood_1.md)) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_gguard.md), [Guynmart guard](../monsters/guynmart_guard_guide.md), [Hannah](../monsters/guynmart_hannah.md) +16 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_guard_guide.md), [Guynmart guard](../monsters/guynmart_gguard.md), [Hannah](../monsters/guynmart_hannah3.md) +16 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Total XP** | 10,027 |
 | **Related quests** | 6 |
@@ -100,7 +100,7 @@ None: talk to [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../ma
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

@@ -72,7 +72,7 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -118,7 +118,7 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…”<br>· text: “Give me that. Oh, yes.. Yes!” → “Give me that. Oh, yes ... yes!” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Give me that. Oh, yes.. Yes!” → “Give me that. Oh, yes ... yes!”<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -22,6 +22,14 @@
 
 - [Bread and circus](../quests/brightport_bakery.md): stages 1, 22, 23, 70
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Allares. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brightport_allares.json" data-npc="Allares" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (17 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*

@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 40) |
 | **Started by** | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
-| **NPCs involved** | [Tobby](../monsters/tobby4a.md), [Tobby](../monsters/tobby5.md), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby4b.md), [Tobby](../monsters/tobby2.md), [Tobby](../monsters/tobby3.md) +1 |
+| **NPCs involved** | [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby4b.md), [Tobby](../monsters/tobby4a.md), [Tobby](../monsters/tobby5.md), [Tobby](../monsters/tobby6.md), [Tobby](../monsters/tobby3.md) +1 |
 | **Locations** | [guynmart_wood_17](../maps/guynmart_wood_17.md), [guynmart_wood_17b](../maps/guynmart_wood_17b.md), [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_19](../maps/guynmart_wood_19.md) |
 | **Total XP** | 1,560 |
 
@@ -48,7 +48,7 @@ No links to other quests were found in the dialogue conditions.
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

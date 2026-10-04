@@ -19,9 +19,9 @@ Welcome to Vilegard, the friendliest town around." style="left:52.381%;top:10.00
 
 | Name | HP |
 |---|---|
-| [Grumpy Vilegard villager](../monsters/grumpy_vilegard_villager.md) | 0 |
-| [Vilegard citizen](../monsters/vilegard_citizen.md) | 0 |
 | [Old Vilegard villager](../monsters/old_vilegard_villager.md) | 0 |
+| [Vilegard citizen](../monsters/vilegard_citizen.md) | 0 |
+| [Grumpy Vilegard villager](../monsters/grumpy_vilegard_villager.md) | 0 |
 
 ## Version history
 

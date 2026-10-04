@@ -34,6 +34,14 @@
 - [Beer Bootlegging](../quests/beer_bootlegging.md): stages 20
 - [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stages 10
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Torilo. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/torilo_1.json" data-npc="Torilo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (26 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -166,7 +174,7 @@
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 11 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?”<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

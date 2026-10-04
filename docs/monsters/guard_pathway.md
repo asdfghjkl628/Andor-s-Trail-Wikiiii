@@ -22,6 +22,14 @@
 
 - [A path to the Duleian Road](../quests/pathway_fallhaven.md): stages 10, 60
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Watchman. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/guard_pathway.json" data-npc="Watchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (10 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -82,7 +90,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 10 lines added |
-| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…”<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…”<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed<br>· text: “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” → “OK, maybe you can be of use. Talk to the guard captain. Maybe you can…” |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “You're really curious boy... Well our superior, the guard captain, on…” → “You're really curious kid... Well our superior, the guard captain, on…” |
 

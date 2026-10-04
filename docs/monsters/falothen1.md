@@ -22,6 +22,14 @@
 
 - [Destined for great things](../quests/charwood1.md): stages 65, 70, 71, 72, 73, 74, 75, 76, 80, 110
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Falothen. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/falothen1.json" data-npc="Falothen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (72 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -369,7 +377,7 @@
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…”<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…”<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 7 lines added, 4 lines changed<br>· text: “I can teach you about swords, either one-handed or two-handed ones. I…” → “I can teach you about swords, either one-handed or two-handed ones. I…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We usually don't teach anyone outside our settlement. Last time I did…” → “We usually don't teach anyone outside our settlement. Last time I did…” |
 

@@ -17,8 +17,8 @@
 
 | Name | HP |
 |---|---|
-| [Catacomb rat](../monsters/catacomb_rat.md) | 15 |
 | [Spectre](../monsters/spectre.md) | 15 |
+| [Catacomb rat](../monsters/catacomb_rat.md) | 15 |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 |
 | [Shade](../monsters/shade.md) | 16 |
 | [Apparition](../monsters/apparition.md) | 17 |

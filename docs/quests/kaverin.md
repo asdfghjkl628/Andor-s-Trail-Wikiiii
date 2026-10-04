@@ -55,7 +55,7 @@ None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remga
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -118,7 +118,7 @@ None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remga
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…”<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]”<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

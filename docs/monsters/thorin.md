@@ -28,6 +28,14 @@
 
 - [Bits and pieces](../quests/thorin.md): stages 20, 40
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Thorin. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/thorin.json" data-npc="Thorin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (30 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -173,7 +181,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Those 'Scaradon' things are tough! They did not even seem to take any…” → “Those 'scaradon' things are tough! They did not even seem to take any…”<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok then. Please return when you have found them all. I would go searc…” → “OK then. Please return when you have found them all. I would go searc…”<br>· text: “Oh yes. The upside of this cave is that it literally is crawling with…” → “Oh yes. The upside of this cave is that it literally is crawling with…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Erumen lizard](../monsters/erumen_3.md) | 45 |
 | [Izthiel](../monsters/izthiel_2.md) | 45 |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 |
 | [Blooming amoeba](../monsters/brightport_amoeba.md) | 60 |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 |
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 |

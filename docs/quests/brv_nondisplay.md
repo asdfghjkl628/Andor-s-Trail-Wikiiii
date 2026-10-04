@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 36 |
 | **Started by** | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol2_roaming.md), [Feygard soldier](../monsters/patrol_roaming.md), [Feygard soldier](../monsters/patrol2_captain.md), [Gnossath](../monsters/brv_employer.md) +5 |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol2_roaming.md), [Feygard soldier](../monsters/patrol2_captain.md), [Feygard soldier](../monsters/patrol_roaming.md), [Gnossath](../monsters/brv_employer.md) +5 |
 | **Locations** | [brimhaven1](../maps/brimhaven1.md), [brimhaven4](../maps/brimhaven4.md), [brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md), [brimhaven_house1](../maps/brimhaven_house1.md) |
 | **Total XP** | 500 |
 | **Related quests** | 7 |
@@ -97,7 +97,7 @@ None: talk to stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_in
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

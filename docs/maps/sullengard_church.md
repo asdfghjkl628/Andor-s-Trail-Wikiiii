@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Kealwea](../monsters/sullengard_priest.md) | 0 |
 | [Chapel guard](../monsters/sullengard_church_guard.md) | 0 |
+| [Kealwea](../monsters/sullengard_priest.md) | 0 |
 
 ## Version history
 

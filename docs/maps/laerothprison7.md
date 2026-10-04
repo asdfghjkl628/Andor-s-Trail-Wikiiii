@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Dark watch](../monsters/lae_demon7_safe.md) | 0 |
 | [Dark watch](../monsters/lae_demon9_safe.md) | 0 |
+| [Dark watch](../monsters/lae_demon7_safe.md) | 0 |
 | [Greater wight](../monsters/wight_greater.md) | 150 |
 | [Dark watch](../monsters/lae_demon4.md) | 180 |
 | [Kotheses](../monsters/kotheses.md) | 180 |

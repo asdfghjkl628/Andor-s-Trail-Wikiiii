@@ -26,6 +26,14 @@
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 6, 7, 10, 11, 15, 16, 20, 31, 33, 45, 46, 53
 - [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 5, 6, 7, 14, 21
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ehrenfest_selector_2.json" data-npc="Ehrenfest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (126 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -649,7 +657,7 @@
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “*looks nervious* I told you. Something big is about to happen. I beli…” → “*looks nervous* I told you. Something big is about to happen. I belie…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 3 lines changed<br>· text: “Lorn lay next to me, just a few meters away. His armor was entirely c…” → “Lorn lay next to me, just a few steps away. His armor was entirely co…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “Don't look at me that way, kid...*laughs*. This is too complicated fo…” → “Don't look at me that way, kid...[laughs]. This is too complicated fo…”<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

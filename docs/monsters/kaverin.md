@@ -32,6 +32,14 @@
 
 - [Old friends?](../quests/kaverin.md): stages 10, 20, 21, 22, 25, 40, 45, 60, 90
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Kaverin. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/kaverin.json" data-npc="Kaverin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (28 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -163,7 +171,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “I have an old .. shall we say .. friend .. from Fallhaven. Goes by th…” → “I have an old ... shall we say ... friend ... from Fallhaven. Goes by…” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “You?! But.. But.. This is terrible! I bet you are one of the goons of…” → “You?! But ... but ... this is terrible! I bet you are one of the goon…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

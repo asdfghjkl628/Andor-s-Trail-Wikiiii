@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 290) |
 | **Started by** | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)), [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) |
-| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest2.md), [Dark priest](../monsters/dds_dark_priest.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
+| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest2.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
 | **Locations** | [galmore_41](../maps/galmore_41.md), [galmore_45](../maps/galmore_45.md), [loneford4](../maps/loneford4.md), [nw_sullengard_1](../maps/nw_sullengard_1.md) |
 | **Total XP** | 27,001 |
 | **Related quests** | 7 |
@@ -97,7 +97,7 @@
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 5 routes"
 

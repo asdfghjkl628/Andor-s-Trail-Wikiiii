@@ -22,6 +22,14 @@
 
 - [A lost potion](../quests/lodar.md): stages 71
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Rambling Feygard guard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/lodar_fg2.json" data-npc="Rambling Feygard guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (9 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -71,7 +79,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “(the guard mumbles something that you can't understand)” → “[The guard mumbles something that you can't understand]”<br>· text: “(the guard continues with his mumbling)” → “[The guard continues with his mumbling]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “(the guard continues with his mumbling)” → “[The guard continues with his mumbling]”<br>· text: “(the guard mumbles something that you can't understand)” → “[The guard mumbles something that you can't understand]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

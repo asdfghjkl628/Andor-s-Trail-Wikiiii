@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 80, 130) |
 | **Started by** | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner4a.md) |
-| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon9.md), [Dark watch](../monsters/lae_demon4b.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4i.md), [Laeroth prisoner](../monsters/lae_prisoner4a.md) +1 |
+| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon9.md), [Dark watch](../monsters/lae_demon4b.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4a.md), [Laeroth prisoner](../monsters/lae_prisoner4.md) +1 |
 | **Locations** | [laerothprison4](../maps/laerothprison4.md), [laerothprison7](../maps/laerothprison7.md) |
 | **Related quests** | 1 |
 
@@ -68,7 +68,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 5: 1 route"
 

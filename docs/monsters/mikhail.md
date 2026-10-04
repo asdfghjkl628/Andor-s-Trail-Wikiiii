@@ -33,6 +33,14 @@
 - [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stages 1
 - [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stages 40
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Mikhail. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/mikhail_start_select.json" data-npc="Mikhail" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (69 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -384,7 +392,7 @@
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Oh you did? Wow, thanks a lot for your help! If you are hurt, use you…” → “Oh you did? Wow, thanks a lot for your help! Please take Andor's trai…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |

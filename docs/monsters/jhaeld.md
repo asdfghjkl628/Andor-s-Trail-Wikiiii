@@ -23,6 +23,14 @@
 - [Everything in order](../quests/remgard.md): stages 40, 50, 51, 52, 53, 54, 59, 75, 80, 110
 - [What is that stench?](../quests/remgard2.md): stages 10, 20, 21, 40, 41, 45
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Jhaeld. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/jhaeld.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (81 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -408,7 +416,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “I.. I don't know what to do.” → “I ... I don't know what to do.”<br>· text: “Ok, so what I would like you to do for me is ask some people what the…” → “OK, so what I would like you to do for me is ask some people what the…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Hm, yes, and what of it?” → “Hmm, yes, and what of it?”<br>· text: “I.. I don't know what to do.” → “I ... I don't know what to do.” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

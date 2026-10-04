@@ -50,9 +50,9 @@
 
 | Name | HP |
 |---|---|
+| [Centaur](../monsters/lae_centaur.md) | 0 |
 | [Callista, the centaur](../monsters/lae_centaur2.md) | 0 |
 | [Thalos, the centaur](../monsters/lae_centaur9.md) | 0 |
-| [Centaur](../monsters/lae_centaur.md) | 0 |
 
 ## Version history
 

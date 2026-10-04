@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 100, 105) |
 | **Started by** | [Leta](../monsters/leta.md), [Leta](../monsters/leta.md) |
-| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir.md), [Oromir](../monsters/oromir_behind_inn.md), [Oromir](../monsters/oromir_basement_help.md), [Oromir](../monsters/oromir_behind_haystack.md), [Oromir](../monsters/oromir_basement.md) +2 |
+| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir_behind_haystack_help.md), [Oromir](../monsters/oromir_basement.md), [Oromir](../monsters/oromir.md), [Oromir](../monsters/oromir_basement_help.md), [Oromir](../monsters/oromir_behind_haystack.md) +2 |
 | **Locations** | [crossglen](../maps/crossglen.md), [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md) |
 | **Total XP** | 520 |
 | **Related quests** | 1 |
@@ -78,7 +78,7 @@
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 4 routes"
 

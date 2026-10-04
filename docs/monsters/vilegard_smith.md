@@ -40,6 +40,14 @@
 - [Feygard errands](../quests/feygard_shipment.md): stages 55, 56
 - [Trusting an outsider](../quests/vilegard.md): stages 10
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Vilegard smith. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/vilegard_smith_select.json" data-npc="Vilegard smith" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (29 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -177,7 +185,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…”<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…”<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

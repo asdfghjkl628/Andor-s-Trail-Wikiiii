@@ -31,6 +31,14 @@
 - [Clouded intent](../quests/prim_hunt.md): stages 30, 90, 91, 250
 - [The agent and the beast](../quests/bwm_agent.md): stages 65, 66, 70, 90, 95, 110, 120, 149, 150, 240, 250, 251
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Harlenn. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/harlenn_start.json" data-npc="Harlenn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (73 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -369,7 +377,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…”<br>· text: “Ok, you have convinced me. I will leave this settlement for another t…” → “OK, you have convinced me. I will leave this settlement for another t…” |
+| [v0.7.2](../versions/0.7.2.md) | faction added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…”<br>· text: “Ok, this leaves us with no choice. We will have to step this up to an…” → “OK, this leaves us with no choice. We will have to step this up to an…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

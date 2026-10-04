@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 31 (completes at 115) |
 | **Started by** | [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/tradehouse1.md)) |
-| **NPCs involved** | [Charwood goblin](../monsters/charwdgg.md), [Drashad](../monsters/drashad.md), [Erethori](../monsters/erethori.md), [Falothen](../monsters/falothen0.md), [Falothen](../monsters/falothen1.md), [Fayvara](../monsters/fayvara0.md) +6 |
+| **NPCs involved** | [Charwood goblin](../monsters/charwdgg.md), [Drashad](../monsters/drashad.md), [Erethori](../monsters/erethori.md), [Falothen](../monsters/falothen1.md), [Falothen](../monsters/falothen0.md), [Fayvara](../monsters/fayvara0.md) +6 |
 | **Locations** | [minerhouse0](../maps/minerhouse0.md), [minerhouse7](../maps/minerhouse7.md), [tradehouse0](../maps/tradehouse0.md), [tradehouse0a](../maps/tradehouse0a.md) |
 | **Total XP** | 3,000 |
 | **Related quests** | 4 |
@@ -77,7 +77,7 @@ None: talk to [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/trade
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -227,7 +227,7 @@ None: talk to [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/trade
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 11 journal text changed; stage 41 journal text changed; stage 43 journal text changed; stage 65 journal text changed<br>Dialogue: 10 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…”<br>· text: “It's just north of here. Take the path west of our camp here, and hea…” → “It's just north of here. Take the path west of our camp here, and hea…” |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 11 journal text changed; stage 41 journal text changed; stage 43 journal text changed; stage 65 journal text changed<br>Dialogue: 10 lines changed<br>· text: “It's just north of here. Take the path west of our camp here, and hea…” → “It's just north of here. Take the path west of our camp here, and hea…”<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | stages added: 76<br>Dialogue: 2 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…” |

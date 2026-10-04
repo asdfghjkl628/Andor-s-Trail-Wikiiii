@@ -30,6 +30,14 @@
 - [Cheap cuts](../quests/benbyr.md): stages 21
 - [Lost sheep](../quests/tinlyn.md): stages 23, 25, 60
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Sheep. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_lostsheep4.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (13 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*

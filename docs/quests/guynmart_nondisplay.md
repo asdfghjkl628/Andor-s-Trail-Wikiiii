@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 29 |
 | **Started by** | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah2.md), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md) +6 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah2.md) +6 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Related quests** | 3 |
 
@@ -94,7 +94,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

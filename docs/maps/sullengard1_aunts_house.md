@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Valentina](../monsters/sullengard_valentina.md) | 0 |
 | [Valeria](../monsters/sullengard_valeria.md) | 0 |
+| [Valentina](../monsters/sullengard_valentina.md) | 0 |
 
 ## Version history
 

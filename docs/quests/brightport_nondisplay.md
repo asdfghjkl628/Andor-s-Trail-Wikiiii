@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 197 |
 | **Started by** | [Othinus](../monsters/brightportpriest.md) ([brightport_temple](../maps/brightport_temple.md)) |
-| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportnorthguard.md), [Brightport guard](../monsters/brightportguard2.md), [Brightport guard](../monsters/brightport_guardcrate.md) +28 |
+| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard2.md), [Brightport guard](../monsters/brightportnorthguard.md), [Brightport guard](../monsters/brightport_guardcrate.md) +28 |
 | **Locations** | [brightport1](../maps/brightport1.md), [brightport4](../maps/brightport4.md), [brightport5](../maps/brightport5.md), [brightport_abandoned](../maps/brightport_abandoned.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 13 |
@@ -304,7 +304,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 5: 1 route"
 
@@ -1247,7 +1247,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…” |
+| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

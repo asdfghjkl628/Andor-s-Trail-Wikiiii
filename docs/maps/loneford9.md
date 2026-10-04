@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Sienn's pet](../monsters/sienn_pet.md) | 0 |
 | [Sienn](../monsters/sienn.md) | 0 |
+| [Sienn's pet](../monsters/sienn_pet.md) | 0 |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 5 |
 
 ## Version history

@@ -31,6 +31,14 @@
 - [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md): stages 20
 - [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 28
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Umar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/umar_select_1.json" data-npc="Umar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (150 lines+)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -768,18 +776,18 @@
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.”<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.” |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “I expect more of you.That was your first mission inside the guild and…” → “I expect more of you. That was your first mission inside the guild an…”<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.”<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “However, the Feygard presence is still significant. Be cautious with …” → “However, the Feygard presence is still significant. Be cautious with …”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…” |
 | [v0.7.14](../versions/0.7.14.md) | Dialogue: 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 35 lines added, 2 lines changed |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed |
 | [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “Fortunately, one of my men found one of his drunk men and had a short…” → “Fortunately, one of my men found one of his drunk men and had a short…” |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “[Here, the story continues]” → “You are really very hardworking. I can't find new work for you fast e…” |
-| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.”<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…”<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…”<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -22,6 +22,14 @@
 
 - [Ancient secrets](../quests/flagstone.md): stages 10, 30, 40, 70
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Flagstone sentry. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/flagstone_sentry.json" data-npc="Flagstone sentry" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (23 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -133,7 +141,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Flagstone Sentry → Flagstone sentry<br>Dialogue: 1 line added, 14 lines changed<br>· text: “A guardian you say? This is troubling news, since it means there is s…” → “A guardian and undead prisoners you say? This is troubling news, sinc…”<br>· text: “Flagstone used to be a prison camp for runaway workers from when Moun…” → “Flagstone Prison was built a few hundred years ago by house Gorland o…” |
+| [v0.7.2](../versions/0.7.2.md) | name: Flagstone Sentry → Flagstone sentry<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Are you really sure you want to head in there? Well, ok, fine by me.” → “Are you really sure you want to head in there? Well, OK, fine by me.”<br>· text: “A guardian you say? This is troubling news, since it means there is s…” → “A guardian and undead prisoners you say? This is troubling news, sinc…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

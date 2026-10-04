@@ -26,6 +26,14 @@
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 45, 46, 55, 56, 59, 60, 61, 62, 63
 - [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 21, 39, 41, 42
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to General Ortholion. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ortholion_selector.json" data-npc="General Ortholion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (63 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -353,8 +361,8 @@
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “*laughs quietly* Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “A knight's only trusted escorts are his sword and his horse. I'm pret…” → “A knight's only trustworthy escorts are his sword and his horse. *get…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “[People from the tavern start looking at the place where Ortholion an…” → “[People from the tavern start looking at the place where Ortholion an…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
