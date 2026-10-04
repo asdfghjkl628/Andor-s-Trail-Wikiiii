@@ -9,7 +9,7 @@ theme:
       accent: custom
   features: [navigation.tabs, navigation.top, navigation.sections, search.suggest, search.highlight, content.code.copy]
 extra_css: [stylesheets/extra.css]
-extra_javascript: [javascripts/maps.js]
+extra_javascript: [javascripts/maps.js, javascripts/dialogue-sim.js]
 plugins: [search]
 markdown_extensions:
   - admonition

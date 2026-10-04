@@ -22,7 +22,7 @@ DATA = os.path.join(ROOT, 'data')
 JAVA = os.path.join(GAME, 'app', 'src', 'main', 'java', 'com', 'gpl', 'rpg', 'AndorsTrail')
 
 # ---------------------------------------------------------------- loading
-ARRAY_NAME = {'itemlist': 'items', 'monsterlist': 'monsters', 'questlist': 'quests', 'conversationlist': 'conversationlists',
+ARRAY_NAME = {'itemfilters': 'itemfilters', 'itemlist': 'items', 'monsterlist': 'monsters', 'questlist': 'quests', 'conversationlist': 'conversationlists',
               'droplists': 'droplists', 'itemcategories': 'itemcategories', 'actorconditions': 'actorconditions'}
 def loaded_files(kind):
     """Files the game actually loads for a resource kind, per res/values/loadresources.xml (skips debug/test data)."""
@@ -271,7 +271,15 @@ from notes import Notes
 from quests import QuestGraph, write_quest_pages, npc_section
 notes = Notes(os.path.join(ROOT, 'notes'))
 QG = QuestGraph(dict(conversations=conversations, quests=quests, monsters=monsters, items=items, droplists=droplists,
-                     skills=skills, spawn_maps=spawn_maps, script_maps=script_maps, map_notes=quest_notes))
+                     skills=skills, spawn_maps=spawn_maps, script_maps=script_maps, map_notes=quest_notes, VERSION=VERSION))
+# dialogue simulator data: one file per conversation starting point used by an NPC
+from quests import export_dialogue
+item_filters = {f['id']: f.get('include', []) for fn in loaded_files('itemfilters') if os.path.exists(fn)
+                for f in json.load(open(fn, encoding='utf-8'))}
+shutil.rmtree(os.path.join(DOCS, 'assets', 'dialogue'), ignore_errors=True)
+_sk_names = {k: v['name'] for k, v in skills.items()}
+_exported = {m['phraseID'] for m in monsters.values() if m.get('phraseID') in conversations}
+for _rp in _exported: export_dialogue(QG, _rp, os.path.join(DOCS, 'assets', 'dialogue'), item_filters, _sk_names)
 
 def item_kind(it):
     c = cats.get(it.get('category'), {})

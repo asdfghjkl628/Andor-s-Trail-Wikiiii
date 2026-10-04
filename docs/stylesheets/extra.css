@@ -120,3 +120,41 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .md-typeset .admonition.history { border-color: #e0a458; }
 .md-typeset .history > .admonition-title { background: rgba(224,164,88,.15); }
 .md-typeset .history > .admonition-title::before { background-color: #e0a458; -webkit-mask-image: var(--md-admonition-icon--info); mask-image: var(--md-admonition-icon--info); }
+
+/* ---------- dialogue simulator ---------- */
+.dlg-sim { margin: .8rem 0 1.2rem; font-size: .72rem; border: 12px solid transparent;
+  border-image: url(../assets/ui/stdframe.png) 8 fill / 12px stretch; image-rendering: pixelated; }
+.dlg-sim .ds-cols { display: grid; grid-template-columns: minmax(12rem, 18rem) 1fr; gap: 1rem; }
+@media (max-width: 52em) { .dlg-sim .ds-cols { grid-template-columns: 1fr; } }
+.dlg-sim h4 { margin: 0 0 .2rem; color: var(--cb-orange); font-family: 'Pixelify Sans', sans-serif; }
+.dlg-sim .ds-hint { margin: 0 0 .5rem; color: var(--cb-text-dim); font-size: .65rem; }
+.dlg-sim .ds-state { max-height: 32rem; overflow-y: auto; padding-right: .3rem; }
+.dlg-sim .ds-group { margin: 0 0 .5rem; border-left: 3px solid var(--cb-light); padding-left: .5rem; }
+.dlg-sim .ds-group > summary { cursor: pointer; color: var(--cb-text-bright); font-weight: 700; }
+.dlg-sim .ds-row { display: flex; align-items: center; justify-content: space-between; gap: .4rem; margin: .15rem 0; }
+.dlg-sim .ds-row input[type=number] { width: 4.2rem; background: var(--cb-dark); color: var(--cb-text); border: 1px solid var(--cb-light); padding: .1rem .2rem; }
+.dlg-sim .ds-chk { justify-content: flex-start; }
+.dlg-sim .ds-quest { margin: .3rem 0; }
+.dlg-sim .ds-stages { display: flex; flex-wrap: wrap; gap: .1rem .6rem; }
+.dlg-sim .ds-stages .ds-row { margin: 0; }
+.dlg-sim .ds-bar { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .5rem; }
+.dlg-sim button { font: inherit; cursor: pointer; border: 10px solid transparent; color: var(--cb-text-bright);
+  border-image: url(../assets/ui/textbutton_enabled_unpressed.png) 8 fill / 10px stretch; image-rendering: pixelated; padding: 0 .4rem; background: none; }
+.dlg-sim button:active { border-image-source: url(../assets/ui/textbutton_enabled_pressed.png); }
+.dlg-sim .ds-talk { color: var(--cb-orange); font-weight: 700; }
+.dlg-sim .ds-chat { background: #0c1828; border: 2px solid var(--cb-metal-dark); padding: .6rem; max-height: 32rem; overflow-y: auto; }
+.dlg-sim .ds-line { margin: .25rem 0; line-height: 1.4; }
+.dlg-sim .ds-npc { color: var(--cb-text-bright); }
+.dlg-sim .ds-npc b { color: var(--cb-orange); }
+.dlg-sim .ds-you { color: var(--cb-cyan); text-align: right; }
+.dlg-sim .ds-you::before { content: 'You: '; font-weight: 700; }
+.dlg-sim .ds-sys { color: var(--cb-text-dim); font-style: italic; font-size: .66rem; }
+.dlg-sim .ds-effect { color: #5fd068; font-size: .68rem; }
+.dlg-sim .ds-effect::before { content: '➜ '; }
+.dlg-sim .ds-end { color: #e0a458; font-style: italic; }
+.dlg-sim .ds-opts { display: flex; flex-direction: column; align-items: flex-start; gap: .25rem; margin: .3rem 0 .5rem 1rem; }
+.dlg-sim .ds-opt { text-align: left; }
+.dlg-sim .ds-opt.ds-chosen { color: var(--cb-cyan); }
+.dlg-sim .ds-locked { opacity: .55; cursor: not-allowed; }
+.dlg-sim .ds-locked small { color: #e0a458; }
+.dlg-sim .ds-npc { white-space: pre-line; }

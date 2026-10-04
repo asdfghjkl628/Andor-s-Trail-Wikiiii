@@ -308,7 +308,8 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
                                 + (f"    *…and {len(lines) - 25} more routes.*\n" if len(lines) > 25 else '') + "\n")
         if route_md:
             P.append("## How each stage is reached\n\n*Every dialogue route found in the game data, including alternatives that end up in the same place. "
-                     "\"Conditions\" are everything checked along that dialogue path.*\n\n" + ''.join(route_md))
+                     "\"Conditions\" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its "
+                     "**Dialogue simulator**.*\n\n" + ''.join(route_md))
 
         if route_md: P.append(verified("dialogue data", VERSION))
         removed = [(v, cid) for (qq, v), cids in G.removals.items() if qq == qid for cid in cids]
@@ -347,6 +348,13 @@ def npc_section(G, mid, notes, history=None):
         out.append("## Quests\n\n" + ''.join(f"- {G.qlink(q)}: stages " + ', '.join(
             str(s) for (qq, s), cids in sorted(G.triggers.items()) if qq == q and any(rp in G.paths.get(c, {}) for c in cids)) + "\n"
             for q in (vis + [q for q in quests_here if q not in vis])[:30]) + "\n")
+    out.append("## Dialogue simulator\n\n"
+               "Set up your situation (quest stages, items, kills…), then talk to "
+               f"{_md(m.get('name', mid))}. The simulator follows the game's own rules: it takes the same silent checks, "
+               "offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.\n\n"
+               f'<div class="dlg-sim" data-src="../../assets/dialogue/{rp}.json" data-npc="{html.escape(m.get("name", mid))}" markdown="0">'
+               '<noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>\n\n')
+    out.append(f"<p class=\"verified\">Rules verified against v{G.c.get('VERSION', '')} game code (ConversationController.java) and dialogue data.</p>\n\n")
     # dialogue: breadth-first from the NPC's first phrase, each phrase once, with anchors
     order, seen, dq = [], {rp}, deque([rp])
     while dq and len(order) < MAX_DIALOGUE_NODES:
@@ -378,3 +386,48 @@ def npc_section(G, mid, notes, history=None):
     if history: out.append(history('monsters', mid, G.root_nodes.get(rp, ()), ''))
     out.append(notes('monsters', mid, m.get('name', mid)))
     return ''.join(out)
+
+
+# ---------------------------------------------------------------- dialogue simulator data
+def export_dialogue(G, rp, out_dir, item_filters, skills_names):
+    """Write assets/dialogue/<root phrase>.json: the conversation reachable from this phrase, plus the names it uses.
+    The browser engine (javascripts/dialogue-sim.js) runs it with the game's rules (ConversationController.java)."""
+    import json as _json
+    nodes, q_ids, i_ids, m_ids, f_ids = {}, set(), set(), set(), set()
+    def note_req(t, rid):
+        if t in ('questProgress', 'questLatestProgress'): q_ids.add(rid)
+        elif t in ('inventoryKeep', 'inventoryRemove', 'wear', 'wearRemove', 'usedItem'):
+            (f_ids if rid in item_filters else i_ids).add(rid)
+        elif t == 'killedMonster': m_ids.add(rid)
+    for x in sorted(G.root_nodes.get(rp, ())):
+        c = G.convs[x]
+        reps = []
+        for r in c.get('replies') or []:
+            reqs = []
+            for q in r.get('requires') or []:
+                t, rid = q.get('requireType'), q.get('requireID')
+                val = q.get('value', 0)
+                if t == 'random': val = rid; rid = ''
+                reqs.append([t, rid, val, 1 if q.get('negate') else 0]); note_req(t, rid)
+            reps.append([r.get('text', ''), r.get('nextPhraseID', ''), reqs])
+        rws = []
+        for w in c.get('rewards') or []:
+            t, rid = w.get('rewardType'), w.get('rewardID')
+            rws.append([t, rid, w.get('value'), w.get('mapName')])
+            if t in ('questProgress', 'removeQuestProgress'): q_ids.add(rid)
+            elif t == 'giveItem': i_ids.add(rid)
+        sw = c.get('switchToNPC')
+        if sw: m_ids.add(sw)
+        nodes[x] = {'m': c.get('message'), 'r': reps, 'w': rws, **({'n': sw} if sw else {})}
+    for f in f_ids: i_ids.update(item_filters.get(f, []))
+    data = {'root': rp, 'nodes': nodes,
+            'q': {q: [G.quests.get(q, {}).get('name', q), 1 if G.quests.get(q, {}).get('showInLog', 0) else 0,
+                      {str(s.get('progress')): s.get('logText', '') for s in G.quests.get(q, {}).get('stages', [])}] for q in q_ids},
+            'i': {i: G.items.get(i, {}).get('name', i) for i in i_ids if i != 'gold'},
+            'mo': {m: G.monsters.get(m, {}).get('name', m) for m in m_ids},
+            'f': {f: item_filters.get(f, []) for f in f_ids},
+            'sk': skills_names}
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, f'{rp}.json'), 'w', encoding='utf-8') as fh:
+        _json.dump(data, fh, ensure_ascii=False, separators=(',', ':'))
+    return len(nodes)
