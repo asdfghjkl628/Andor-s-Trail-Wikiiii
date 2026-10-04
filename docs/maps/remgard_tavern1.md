@@ -15,12 +15,12 @@
 
 | Name | HP |
 |---|---|
-| [Jhaeld](../monsters/jhaeld.md) | 0 |
-| [Maelf](../monsters/maelf.md) | 0 |
-| [Guard](../monsters/remgard_g1.md) | 0 |
 | [Morgisia](../monsters/morgisia.md) | 0 |
-| [Guard](../monsters/remgard_g3.md) | 0 |
 | [Guard](../monsters/remgard_g2.md) | 0 |
+| [Jhaeld](../monsters/jhaeld.md) | 0 |
+| [Guard](../monsters/remgard_g1.md) | 0 |
+| [Guard](../monsters/remgard_g3.md) | 0 |
+| [Maelf](../monsters/maelf.md) | 0 |
 | [Kaverin](../monsters/kaverin.md) | 320 |
 
 <small>Map ID: `remgard_tavern1` · Data from v0.8.18</small>

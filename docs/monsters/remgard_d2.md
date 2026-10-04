@@ -18,4 +18,53 @@
 
 - [remgard_tavern0](../maps/remgard_tavern0.md)
 
+??? quote "Dialogue (5 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-remgard_drunk2"></span>**`remgard_drunk2`** Tavern guest: “*burp* This is the best place in all of the northern lands!”
+
+    - Next → [remgard_drunk2_2](#d-remgard_drunk2_2)
+
+    <span id="d-remgard_drunk2_2"></span>**`remgard_drunk2_2`** Tavern guest: “Oh, hello there. *burp* Kid, I tell you, don't go looking for trouble even if you think you can handle it.”
+
+    - Next → [remgard_drunk2_3](#d-remgard_drunk2_3)
+
+    <span id="d-remgard_drunk2_3"></span>**`remgard_drunk2_3`** Tavern guest: “I did once, and ended up in those horrid caverns of Mount Galmore.”
+
+    - Next → [remgard_drunk2_4](#d-remgard_drunk2_4)
+
+    <span id="d-remgard_drunk2_4"></span>**`remgard_drunk2_4`** Tavern guest: “That place twists your mind. I tell you, don't go there, even if you think you want to!”
+
+    - “Mount Galmore, where is that?” *(if NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10))* → [remgard_drunk2_5](#d-remgard_drunk2_5)
+    - “Mount Galmore twists your mind? Oh, I see. You mean Undertell?” *(if reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [remgard_drunk2_5](#d-remgard_drunk2_5)
+    - “I'll keep that in mind.” → *conversation ends*
+    - “Get out of my way!” → *conversation ends*
+
+    <span id="d-remgard_drunk2_5"></span>**`remgard_drunk2_5`** Tavern guest: “[burp] What was that? Were you saying something?”
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=remgard_d2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=remgard_d2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=remgard_d2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=remgard_d2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `remgard_d2` · Data from v0.8.18</small>

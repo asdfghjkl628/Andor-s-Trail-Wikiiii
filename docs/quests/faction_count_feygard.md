@@ -3,37 +3,99 @@
 !!! info "Hidden story flag"
     An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
 
-| Progress | Journal entry |
-|---|---|
-| <span id="stage-0"></span>0 | Ranges: ... |
-| <span id="stage-10"></span>10 |   |
-| <span id="stage-20"></span>20 |   |
-| <span id="stage-30"></span>30 |   |
-| <span id="stage-40"></span>40 |   |
-| <span id="stage-50"></span>50 |   |
-| <span id="stage-60"></span>60 |   |
-| <span id="stage-70"></span>70 |   |
-| <span id="stage-80"></span>80 |   |
-| <span id="stage-90"></span>90 |   |
-| <span id="stage-100"></span>100 |   |
-| <span id="stage-110"></span>110 |   |
-| <span id="stage-120"></span>120 |   |
-| <span id="stage-130"></span>130 |   |
-| <span id="stage-140"></span>140 |   |
-| <span id="stage-150"></span>150 |   |
-| <span id="stage-160"></span>160 |   |
-| <span id="stage-170"></span>170 |   |
-| <span id="stage-180"></span>180 |   |
-| <span id="stage-190"></span>190 |   |
-| <span id="stage-200"></span>200 |   |
-| <span id="stage-210"></span>210 |   |
-| <span id="stage-220"></span>220 |   |
-| <span id="stage-230"></span>230 |   |
-| <span id="stage-240"></span>240 |   |
-| <span id="stage-250"></span>250 |   |
-| <span id="stage-260"></span>260 |   |
-| <span id="stage-270"></span>270 |   |
-| <span id="stage-280"></span>280 |   |
-| <span id="stage-290"></span>290 |   |
+<div class="infobox" markdown>
 
-<small>Quest ID: `faction_count_feygard` · Data from v0.8.18</small>
+| | |
+|---|---|
+| **Quest ID** | `faction_count_feygard` |
+| **In journal** | No (hidden flag) |
+| **Stages** | 30 |
+
+</div>
+
+## Overview
+
+> Ranges: ...
+
+## Dependencies
+
+*Quest logic, read from the dialogue conditions.*
+
+No links to other quests were found in the dialogue conditions.
+
+## Stages
+
+| Stage | Journal entry | Triggered by | Needs | Rewards |
+|---|---|---|---|---|
+| <span id="stage-0"></span>0 | Ranges: ... | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-10"></span>10 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-20"></span>20 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-30"></span>30 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-40"></span>40 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-50"></span>50 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-60"></span>60 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-70"></span>70 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-80"></span>80 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-90"></span>90 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-100"></span>100 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-110"></span>110 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-120"></span>120 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-130"></span>130 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-140"></span>140 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-150"></span>150 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-160"></span>160 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-170"></span>170 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-180"></span>180 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-190"></span>190 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-200"></span>200 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-210"></span>210 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-220"></span>220 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-230"></span>230 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-240"></span>240 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-250"></span>250 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-260"></span>260 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-270"></span>270 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-280"></span>280 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+| <span id="stage-290"></span>290 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+
+<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Walkthrough**: step-by-step help for players · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Bugs**: known glitches and workarounds · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Walkthrough
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_feygard.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_feygard.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_feygard.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Bugs
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_feygard.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_feygard.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Quest ID | `faction_count_feygard` |
+    | showInLog | 0 |
+    | Stage IDs | 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290 |
+    | Dialogue nodes setting stages | – |
+    | Dialogue nodes clearing stages | – |
+    | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
+
+
+<small>Data from v0.8.18</small>

@@ -22,8 +22,8 @@
 | [Puny yellowjacket](../monsters/yjacket1.md) | 31 |
 | [Small yellowjacket](../monsters/yjacket2.md) | 37 |
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 |
-| [Swarming yellowjacket](../monsters/yjacket3.md) | 42 |
 | [Puny venomscale](../monsters/vscale1.md) | 42 |
+| [Swarming yellowjacket](../monsters/yjacket3.md) | 42 |
 | [Young venomscale](../monsters/vscale2.md) | 46 |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 |
 | [Gray venomscale](../monsters/vscale3.md) | 48 |

@@ -26,4 +26,71 @@
 
 - [aidem_base_2](../maps/aidem_base_2.md)
 
+## Quests
+
+- [Wanted men](../quests/wanted_men.md): stages 56, 60, 75
+
+??? quote "Dialogue (8 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-aidem_base_defy_selector"></span>**`aidem_base_defy_selector`** *(silent check: the first matching branch below is taken)*
+
+    - “Come and get it!” *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-75) is 75)* → [aidem_base_fight](#d-aidem_base_fight)
+    - Next *(if reached stage 45 of [Wanted men](../quests/wanted_men.md#stage-45); NOT reached stage 60 of [Wanted men](../quests/wanted_men.md#stage-60))* → [aidem_base_defy_help_10](#d-aidem_base_defy_help_10)
+    - Next *(if NOT reached stage 56 of [Wanted men](../quests/wanted_men.md#stage-56))* → [aidem_base_dont_help_defy_10](#d-aidem_base_dont_help_defy_10)
+    - “What are you waiting for? Go take the fake key to Troublemaker.” *(if reached stage 60 of [Wanted men](../quests/wanted_men.md#stage-60))* → *conversation ends*
+
+    <span id="d-aidem_base_fight"></span>**`aidem_base_fight`** Defy: “You will regret this, kid!” — **effects:** removes monsters from aidem_base_2, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2
+
+    - “I hope not.” → *fight starts*
+
+    <span id="d-aidem_base_defy_help_10"></span>**`aidem_base_defy_help_10`** Defy: “Do you have the key? Hand it over.”
+
+    - “Oops. I forgot to bring it with me. I'll be back soon.” *(if NOT carry 1× [Thieves' vault key](../items/thieves_vault_key.md))* → *conversation ends*
+    - “Yes. Here it is.” *(if hand over 1× [Thieves' vault key](../items/thieves_vault_key.md))* → [aidem_base_defy_help_20](#d-aidem_base_defy_help_20)
+    - “Yes, but you are not having it. I will loot the vault myself and keep everything I find.” *(if carry 1× [Thieves' vault key](../items/thieves_vault_key.md))* → [aidem_base_defy_dont_help_10](#d-aidem_base_defy_dont_help_10)
+
+    <span id="d-aidem_base_dont_help_defy_10"></span>**`aidem_base_dont_help_defy_10`** Defy: “Do you have the key? Hand it over.”
+
+    - “Yes, Here it is. [Handing over the fake key]” *(if hand over 1× [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md))* → [aidem_base_defy_help_tg_10](#d-aidem_base_defy_help_tg_10)
+
+    <span id="d-aidem_base_defy_help_20"></span>**`aidem_base_defy_help_20`** Defy: “Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot.” — **effects:** gives [Aidem fake vault key](../items/aidem_fake_vault_key.md), sets stage 60 of [Wanted men](../quests/wanted_men.md#stage-60)
+
+
+    <span id="d-aidem_base_defy_dont_help_10"></span>**`aidem_base_defy_dont_help_10`** Defy: “Come again?”
+
+    - “I said, "here it is".” → [aidem_base_defy_help_20](#d-aidem_base_defy_help_20)
+    - “You heard me the first time. I'm keeping the key and looting the vault myself.” → [aidem_base_defy_dont_help_20](#d-aidem_base_defy_dont_help_20)
+
+    <span id="d-aidem_base_defy_help_tg_10"></span>**`aidem_base_defy_help_tg_10`** Defy: “Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot.” — **effects:** gives [Aidem fake vault key](../items/aidem_fake_vault_key.md), sets stage 56 of [Wanted men](../quests/wanted_men.md#stage-56), removes monsters from aidem_base_2, spawns monsters on wild6_house, removes monsters from aidem_base_2
+
+
+    <span id="d-aidem_base_defy_dont_help_20"></span>**`aidem_base_defy_dont_help_20`** Defy: “I will be taking that key now!” — **effects:** sets stage 75 of [Wanted men](../quests/wanted_men.md#stage-75)
+
+    - “Come and try!” → [aidem_base_fight](#d-aidem_base_fight)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_defy.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_defy.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_defy.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_defy.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `aidem_base_defy` · Data from v0.8.18</small>

@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Potion merchant](../monsters/potion_merchant.md) | 0 |
 | [Lediofa](../monsters/fungi_rescued2.md) | 0 |
+| [Potion merchant](../monsters/potion_merchant.md) | 0 |
 
 <small>Map ID: `fallhaven_potions` · Data from v0.8.18</small>

@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Brightport guard](../monsters/brightport_guardgoons.md) | 0 |
 | [Dynes](../monsters/brightportgoons.md) | 0 |
+| [Brightport guard](../monsters/brightport_guardgoons.md) | 0 |
 | [Barthold](../monsters/brightportgoons1.md) | 0 |
 
 <small>Map ID: `brightport_benbyr` · Data from v0.8.18</small>

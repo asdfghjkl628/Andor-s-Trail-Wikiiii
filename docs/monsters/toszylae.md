@@ -33,4 +33,81 @@
 
 - [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)
 
+## Quests
+
+- [An involuntary carrier](../quests/toszylae.md): stages 50
+- [I have it in me](../quests/maggots.md): stages 10
+
+??? quote "Dialogue (11 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-toszylae"></span>**`toszylae`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50))* → [toszylae_10](#d-toszylae_10)
+    - branch 2 → [toszylae_1](#d-toszylae_1)
+
+    <span id="d-toszylae_10"></span>**`toszylae_10`** Toszylae: “[The lich seems to enjoy seeing you in pain]”
+
+    - “You will pay for what you did to me!” → *fight starts*
+
+    <span id="d-toszylae_1"></span>**`toszylae_1`** Toszylae: “[The lich looks at you with its burning eyes, and glances at the remains of the guardian you defeated]”
+
+    - Next → [toszylae_2](#d-toszylae_2)
+
+    <span id="d-toszylae_2"></span>**`toszylae_2`** Toszylae: “Kazaul'te vaarmun iktel urul. Klatam ku turum Kazaul'te?”
+
+    - Next → [toszylae_3](#d-toszylae_3)
+
+    <span id="d-toszylae_3"></span>**`toszylae_3`** Toszylae: “[The lich raises its hands towards the ceiling, chanting something you cannot understand]”
+
+    - Next → [toszylae_4](#d-toszylae_4)
+
+    <span id="d-toszylae_4"></span>**`toszylae_4`** Toszylae: “[While chanting, it slowly lowers its hands forward, until pointing directly at you]”
+
+    - Next → [toszylae_5](#d-toszylae_5)
+
+    <span id="d-toszylae_5"></span>**`toszylae_5`** Toszylae: “Klatam ku turum Kazaul'te.”
+
+    - Next → [toszylae_6](#d-toszylae_6)
+
+    <span id="d-toszylae_6"></span>**`toszylae_6`** Toszylae: “[As if having swallowed a thousand needles, you are suddenly stricken with a cascading series of spikes of pain throughout your stomach]” — **effects:** applies condition rotworm, sets stage 10 of [I have it in me](../quests/maggots.md#stage-10), sets stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50)
+
+    - Next → [toszylae_7](#d-toszylae_7)
+
+    <span id="d-toszylae_7"></span>**`toszylae_7`** Toszylae: “[You start to feel nauseous, and your stomach turns and twists - as if it has a life of its own]”
+
+    - Next → [toszylae_8](#d-toszylae_8)
+
+    <span id="d-toszylae_8"></span>**`toszylae_8`** Toszylae: “[The pain increases slightly, and you start to realize that something is moving inside of you]”
+
+    - Next → [toszylae_9](#d-toszylae_9)
+
+    <span id="d-toszylae_9"></span>**`toszylae_9`** Toszylae: “[The lich must have infected you with something]”
+
+    - “What is happening to me!?” → [toszylae_10](#d-toszylae_10)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=toszylae.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=toszylae.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=toszylae.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=toszylae.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `toszylae` · Data from v0.8.18</small>

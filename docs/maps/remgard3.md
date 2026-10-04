@@ -19,7 +19,7 @@
 | Name | HP |
 |---|---|
 | [Duaina](../monsters/duaina.md) | 0 |
-| [Reinkarr](../monsters/reinkarr.md) | 0 |
 | [Commoner](../monsters/rg_villager7.md) | 0 |
+| [Reinkarr](../monsters/reinkarr.md) | 0 |
 
 <small>Map ID: `remgard3` · Data from v0.8.18</small>

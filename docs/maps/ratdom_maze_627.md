@@ -24,7 +24,7 @@
 | [Curious roundling](../monsters/ratdom_m13b.md) | 30 |
 | [Young roundling](../monsters/ratdom_m13a.md) | 30 |
 | [King Rah](../monsters/ratdom_king_rah.md) | 160 |
-| [Roundling](../monsters/ratdom_roundling.md) | 200 |
 | [Roundling](../monsters/ratdom_roundling3.md) | 200 |
+| [Roundling](../monsters/ratdom_roundling.md) | 200 |
 
 <small>Map ID: `ratdom_maze_627` · Data from v0.8.18</small>

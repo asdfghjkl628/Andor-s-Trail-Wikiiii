@@ -25,4 +25,81 @@
 
 - [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)
 
+## Quests
+
+- [Much water](../quests/brv_flood.md): stages 20, 30, 50, 52, 70, 72, 120
+
+??? quote "Dialogue (11 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-brv_brothers_select"></span>**`brv_brothers_select`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 56 of [Much water](../quests/brv_flood.md#stage-56))* → [brv_brothers_14](#d-brv_brothers_14)
+    - branch 2 *(if reached stage 50 of [Much water](../quests/brv_flood.md#stage-50))* → [brv_brothers_13](#d-brv_brothers_13)
+    - branch 3 *(if reached stage 30 of [Much water](../quests/brv_flood.md#stage-30))* → [brv_brothers_10](#d-brv_brothers_10)
+    - branch 4 *(if reached stage 20 of [Much water](../quests/brv_flood.md#stage-20))* → [brv_brothers_8](#d-brv_brothers_8)
+    - branch 5 → [brv_brothers_6](#d-brv_brothers_6)
+
+    <span id="d-brv_brothers_14"></span>**`brv_brothers_14`** Attohead: “It's great how you destroyed the dam!”
+
+    - “Can you tell me who is your boss?” *(if reached stage 110 of [Much water](../quests/brv_flood.md#stage-110))* → [brv_brothers_15](#d-brv_brothers_15)
+
+    <span id="d-brv_brothers_13"></span>**`brv_brothers_13`** Attohead: “Go and destroy the dam.”
+
+
+    <span id="d-brv_brothers_10"></span>**`brv_brothers_10`** Attohead: “Would you assist us in destroying the dam?” — **effects:** sets stage 30 of [Much water](../quests/brv_flood.md#stage-30), removes monsters from brimhaven1
+
+    - “OK, I would like to help you destroy the dam.” → [brv_brothers_12](#d-brv_brothers_12)
+    - “No, I will never do that!” → [brv_brothers_11](#d-brv_brothers_11)
+
+    <span id="d-brv_brothers_8"></span>**`brv_brothers_8`** [Attohead](../monsters/brv_attohead.md): “[You accidently make a noise and they turn their heads towards you] Hey, what are you doing down here? No matter, we have to shut their mouth.”
+
+    - Next → [brv_brothers_9](#d-brv_brothers_9)
+
+    <span id="d-brv_brothers_6"></span>**`brv_brothers_6`** [Alvies](../monsters/brv_alvies.md): “[It seems they still have not seen you, because they have their backs turned to you.] Your way of destroying the dam will not work. Better that we use my idea.” — **effects:** sets stage 20 of [Much water](../quests/brv_flood.md#stage-20)
+
+    - Next → [brv_brothers_7](#d-brv_brothers_7)
+
+    <span id="d-brv_brothers_15"></span>**`brv_brothers_15`** Attohead: “We don't know him by name. He looked very rich and I think he lives in the western town alone in a big house.” — **effects:** sets stage 120 of [Much water](../quests/brv_flood.md#stage-120)
+
+
+    <span id="d-brv_brothers_12"></span>**`brv_brothers_12`** Attohead: “To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry river bed.” — **effects:** sets stage 50 of [Much water](../quests/brv_flood.md#stage-50), sets stage 52 of [Much water](../quests/brv_flood.md#stage-52), gives 1× [Hand Axe](../items/hand_axe.md)
+
+
+    <span id="d-brv_brothers_11"></span>**`brv_brothers_11`** Attohead: “Then we have to shut you up and do it ourselves.” — **effects:** faction “brv_brothers” set to -1, sets stage 70 of [Much water](../quests/brv_flood.md#stage-70), sets stage 72 of [Much water](../quests/brv_flood.md#stage-72)
+
+    - “Let's fight!” → *fight starts*
+
+    <span id="d-brv_brothers_9"></span>**`brv_brothers_9`** [Alvies](../monsters/brv_alvies.md): “Since they are already here, we could ask them to help us, if they want to save their life.”
+
+    - Next → [brv_brothers_10](#d-brv_brothers_10)
+
+    <span id="d-brv_brothers_7"></span>**`brv_brothers_7`** [Attohead](../monsters/brv_attohead.md): “Your idea to destroy the great Brimhaven dam? Are you kidding?”
+
+    - Next → [brv_brothers_8](#d-brv_brothers_8)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `brv_attohead` · Data from v0.8.18</small>

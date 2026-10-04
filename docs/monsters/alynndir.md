@@ -36,4 +36,67 @@
 
 - [road5_house](../maps/road5_house.md)
 
+??? quote "Dialogue (8 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-alynndir_1"></span>**`alynndir_1`** Alynndir: “Hello there. Welcome to my cabin.”
+
+    - “What do you do around here?” → [alynndir_2](#d-alynndir_2)
+    - “What can you tell me about the surroundings here?” → [alynndir_3](#d-alynndir_3)
+
+    <span id="d-alynndir_2"></span>**`alynndir_2`** Alynndir: “Mostly, I trade with travelers on the main road on the way to Nor City.”
+
+    - “Do you have anything to trade?” → *shop opens*
+    - “What can you tell me about the surroundings here?” → [alynndir_3](#d-alynndir_3)
+
+    <span id="d-alynndir_3"></span>**`alynndir_3`** Alynndir: “Oh, there is not much around here. Vilegard to the west, Brightport to the east and Sullengard to the south.”
+
+    - Next → [alynndir_4](#d-alynndir_4)
+
+    <span id="d-alynndir_4"></span>**`alynndir_4`** Alynndir: “Up north is just forest. But there are some strange things happening there.”
+
+    - Next → [alynndir_5](#d-alynndir_5)
+
+    <span id="d-alynndir_5"></span>**`alynndir_5`** Alynndir: “I have heard terrible screams coming from the forest to the northwest.”
+
+    - Next → [alynndir_6](#d-alynndir_6)
+
+    <span id="d-alynndir_6"></span>**`alynndir_6`** Alynndir: “I really wonder what is up there.”
+
+    - “Goodbye.” → *conversation ends*
+    - “You mentioned Sullengard. What can you tell me about it?” *(if NOT reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [alynndir_10](#d-alynndir_10)
+
+    <span id="d-alynndir_10"></span>**`alynndir_10`** Alynndir: “It is home of the best beer in all of Dhayavar! Every year they hold a beer festival. Matter of fact, that event is coming very soon.”
+
+    - “I think I would like to go there now.” → [alynndir_16](#d-alynndir_16)
+
+    <span id="d-alynndir_16"></span>**`alynndir_16`** Alynndir: “Well, I would too, but it is a very dangerous route to Sullengard. I'd think twice if I were you before making that trip.”
+
+    - “I sure will. Thanks for the warning.” → *conversation ends*
+    - “I can handle myself.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=alynndir.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=alynndir.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=alynndir.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=alynndir.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `alynndir` · Data from v0.8.18</small>

@@ -31,4 +31,101 @@
 
 - [lakecave2](../maps/lakecave2.md)
 
+## Quests
+
+- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 203
+
+??? quote "Dialogue (15 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-lakecave2_troll_10"></span>**`lakecave2_troll_10`** Cave troll leader: “You! You have no business here! Get out of my cave!”
+
+    - “Of course, sorry, please excuse the disturbance.” → *conversation ends*
+    - “May I ask a question before I leave?” → [lakecave2_troll_12](#d-lakecave2_troll_12)
+
+    <span id="d-lakecave2_troll_12"></span>**`lakecave2_troll_12`** Cave troll leader: “That was already a question! Hahaha! You are lucky that I am in good mood - and not hungry at the moment.”
+
+    - Next → [lakecave2_troll_14](#d-lakecave2_troll_14)
+
+    <span id="d-lakecave2_troll_14"></span>**`lakecave2_troll_14`** Cave troll leader: “What do you want?”
+
+    - “I am looking for my brother Andor. Have you seen him?” → [lakecave2_troll_20](#d-lakecave2_troll_20)
+    - “I am looking for some flowers called damerilias.” *(if reached stage 10 of [The roots of love](../quests/roots_love.md#stage-10))* → [lakecave2_troll_30](#d-lakecave2_troll_30)
+    - “Someone lost a key here. Once I have found the key, you can have your wet, dark hole to yourself again.” *(if reached stage 10 of [A secret garden](../quests/secret_garden.md#stage-10); NOT reached stage 20 of [A secret garden](../quests/secret_garden.md#stage-20))* → [lakecave2_troll_40](#d-lakecave2_troll_40)
+    - “I will leave now.” → *conversation ends*
+
+    <span id="d-lakecave2_troll_20"></span>**`lakecave2_troll_20`** Cave troll leader: “No. If your brother looks like you then I have never seen him, and if I had then I would have eaten him! Now go!”
+
+    - “I have another question.” → [lakecave2_troll_14](#d-lakecave2_troll_14)
+
+    <span id="d-lakecave2_troll_30"></span>**`lakecave2_troll_30`** Cave troll leader: “Everyone is after my damerilias! For what? Such ugly, stinking things! No, I won't give you a single one. And you really should leave now, before I get hungry!”
+
+    - “What do you need damerilias for, if you don't like them?” → [lakecave2_troll_32](#d-lakecave2_troll_32)
+
+    <span id="d-lakecave2_troll_40"></span>**`lakecave2_troll_40`** Cave troll leader: “What do you know about the key? I keep the key safe. Are you associated with that thief who comes once a year and steals my damerilias?”
+
+    - “Do you mean Noraed? He is dead.” → [lakecave2_troll_50](#d-lakecave2_troll_50)
+
+    <span id="d-lakecave2_troll_32"></span>**`lakecave2_troll_32`** Cave troll leader: “The damerilias attract food for me; tasty, delicate, little people. Catching them is kind of a sport for me. It makes eating more fun.”
+
+    - Next → [lakecave2_troll_34](#d-lakecave2_troll_34)
+
+    <span id="d-lakecave2_troll_50"></span>**`lakecave2_troll_50`** Cave troll leader: “Dead? No - what a pity! I am really sorry. What a loss.”
+
+    - Next → [lakecave2_troll_52](#d-lakecave2_troll_52)
+
+    <span id="d-lakecave2_troll_34"></span>**`lakecave2_troll_34`** Cave troll leader: “But talking about food with a troll is not the smartest idea...”
+
+    - “Right. I have another question.” → [lakecave2_troll_14](#d-lakecave2_troll_14)
+
+    <span id="d-lakecave2_troll_52"></span>**`lakecave2_troll_52`** Cave troll leader: “I was so looking forward to eating him.”
+
+    - “I would like to take some damerilias for his grave.” → [lakecave2_troll_60](#d-lakecave2_troll_60)
+
+    <span id="d-lakecave2_troll_60"></span>**`lakecave2_troll_60`** Cave troll leader: “Forget it. Especially because you know those people who built that terrible statue near the entrance.”
+
+    - “What is terrible about that statue?” → [lakecave2_troll_62](#d-lakecave2_troll_62)
+
+    <span id="d-lakecave2_troll_62"></span>**`lakecave2_troll_62`** Cave troll leader: “It is a bane for all trolls. We avoid going past, or even near, her.”
+
+    - Next → [lakecave2_troll_64](#d-lakecave2_troll_64)
+
+    <span id="d-lakecave2_troll_64"></span>**`lakecave2_troll_64`** Cave troll leader: “I might let you go if you remove that ghastly statue. Maybe I'll even give you two of those ugly plants for that. Agreed?”
+
+    - “[Lie] Agreed. Bring the Damerilias first.” → [lakecave2_troll_70](#d-lakecave2_troll_70)
+    - “No. That statue is a blessing for the people here. Even if I could, I would not tear it down.” → [lakecave2_troll_90](#d-lakecave2_troll_90)
+
+    <span id="d-lakecave2_troll_70"></span>**`lakecave2_troll_70`** Cave troll leader: “You lie. You think I am just a stupid troll.”
+
+    - “Of course you are.” → [lakecave2_troll_90](#d-lakecave2_troll_90)
+    - “It was worth a try.” → [lakecave2_troll_90](#d-lakecave2_troll_90)
+
+    <span id="d-lakecave2_troll_90"></span>**`lakecave2_troll_90`** Cave troll leader: “Outrageous! I will put you in my pantry now.” — **effects:** sets stage 203 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-203)
+
+    - “We'll see.” → *fight starts*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=cave_troll_5.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=cave_troll_5.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=cave_troll_5.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=cave_troll_5.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `cave_troll_5` · Data from v0.8.18</small>

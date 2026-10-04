@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Nor agent](../monsters/brightport_agent.md) | 0 |
 | [Brightport guard](../monsters/brightport_jailguard.md) | 0 |
+| [Nor agent](../monsters/brightport_agent.md) | 0 |
 | [Watchdog](../monsters/brightportthieves4.md) | 0 |
 
 <small>Map ID: `brightport_jail` · Data from v0.8.18</small>

@@ -18,4 +18,52 @@
 
 - [wexlow_village](../maps/wexlow_village.md)
 
+??? quote "Dialogue (5 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-wexlow_osric_start"></span>**`wexlow_osric_start`** Osric: “Thank you! Thank you! We men tried to rescue our wives, but you succeeded. Thank you!”
+
+    - “How did the troll manage to capture all of you without anyone noticing?” → [wexlow_osric_1](#d-wexlow_osric_1)
+    - “What about the state of your village? How will you repair it?” → [wexlow_osric_cleanup](#d-wexlow_osric_cleanup)
+
+    <span id="d-wexlow_osric_1"></span>**`wexlow_osric_1`** Osric: “Once the women were taken, the troll mimicked their voices, calling out to us men. We thought our wives needed help, but it was a trap.”
+
+    - “Scary.” → [wexlow_osric_2](#d-wexlow_osric_2)
+
+    <span id="d-wexlow_osric_cleanup"></span>**`wexlow_osric_cleanup`** Osric: “It's like the village itself fell into a deep sleep, just like us. Now, we have to wake it up again, clean out the overgrowth, and hope the roots haven't gone too deep. This'll take every bit of strength we've got.”
+
+    - “Oh, it most certainly will.” → *conversation ends*
+
+    <span id="d-wexlow_osric_2"></span>**`wexlow_osric_2`** Osric: “Each of us was lured by what we thought were our loved ones. By the time we realized the truth, it was too late.”
+
+    - “But after one of you men was grabbed, how did the last two of you stll fall for this trap?” → [wexlow_osric_3](#d-wexlow_osric_3)
+
+    <span id="d-wexlow_osric_3"></span>**`wexlow_osric_3`** Osric: “Each of us was taken silently and swiftly. By the time we realized something was wrong, it was too late.”
+
+    - “I guess that makes some sense.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wexlow_osric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wexlow_osric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wexlow_osric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wexlow_osric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `wexlow_osric` · Data from v0.8.18</small>

@@ -26,4 +26,57 @@
 
 - [houseatcrossroads0](../maps/houseatcrossroads0.md)
 
+??? quote "Dialogue (6 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-gallain"></span>**`gallain`** Gallain: “Welcome to the Crossroads guardhouse. I am Gallain, the proprietor of this place.”
+
+    - Next → [gallain_1](#d-gallain_1)
+
+    <span id="d-gallain_1"></span>**`gallain_1`** Gallain: “How may I help you?”
+
+    - “Do you have anything to eat around here?” → [gallain_trade_1](#d-gallain_trade_1)
+    - “Is there any place I can rest here?” → [gallain_rest_1](#d-gallain_rest_1)
+    - “What is this place?” → [gallain_cr_1](#d-gallain_cr_1)
+
+    <span id="d-gallain_trade_1"></span>**`gallain_trade_1`** Gallain: “Here, have a look.”
+
+    - “Trade” → *shop opens*
+
+    <span id="d-gallain_rest_1"></span>**`gallain_rest_1`** Gallain: “The guards have set up some beds downstairs. Go check with them.”
+
+    - Next → [gallain_1](#d-gallain_1)
+
+    <span id="d-gallain_cr_1"></span>**`gallain_cr_1`** Gallain: “As I said, this is the Crossroads guardhouse. The guards from Feygard are using this place as a place to rest and gear up.”
+
+    - Next → [gallain_cr_2](#d-gallain_cr_2)
+
+    <span id="d-gallain_cr_2"></span>**`gallain_cr_2`** Gallain: “Because of this, it is also a safe haven for merchants travelling through here. We get a lot of those.”
+
+    - Next → [gallain_1](#d-gallain_1)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gallain.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gallain.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gallain.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gallain.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `gallain` · Data from v0.8.18</small>

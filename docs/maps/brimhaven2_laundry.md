@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Venanra](../monsters/brv_laundry_boss.md) | 0 |
 | [Worker](../monsters/brv_laundry_worker.md) | 0 |
+| [Venanra](../monsters/brv_laundry_boss.md) | 0 |
 
 <small>Map ID: `brimhaven2_laundry` · Data from v0.8.18</small>

@@ -27,7 +27,7 @@
 | [Cave serpent](../monsters/cave_serpent.md) | 24 |
 | [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 30 |
 | [Tough cave serpent](../monsters/tough_cave_serpent.md) | 40 |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 
 <small>Map ID: `basiliskcave1_1_3` · Data from v0.8.18</small>

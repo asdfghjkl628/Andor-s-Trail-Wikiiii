@@ -18,4 +18,55 @@
 
 - [loneford16](../maps/loneford16.md)
 
+## Quests
+
+- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 50, 70
+
+??? quote "Dialogue (4 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-aemens_0"></span>**`aemens_0`** Aemens: “Don't you know that it's rude to walk into someone's house without knocking?” — **effects:** sets stage 50 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-50)
+
+    - “Your neighbor was right. He said you were not always a nice person.” *(if reached stage 60 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-60); NOT reached stage 75 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-75))* → [aemens_3](#d-aemens_3)
+    - “Sorry. I'll leave.” → *conversation ends*
+    - “Sorry. I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → [aemens_1](#d-aemens_1)
+
+    <span id="d-aemens_3"></span>**`aemens_3`** Aemens: “Did he now! Well, I'll have a word or two to say to him later! What do you want?” — **effects:** sets stage 70 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-70)
+
+    - “Sorry. Nothing. I'll leave.” → *conversation ends*
+    - “I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → [aemens_1](#d-aemens_1)
+
+    <span id="d-aemens_1"></span>**`aemens_1`** Aemens: “No. And little boys like you should not be wandering around on your own. I'm sure your father would not approve.”
+
+    - “My father sent me to look for my brother.” → [aemens_2](#d-aemens_2)
+
+    <span id="d-aemens_2"></span>**`aemens_2`** Aemens: “Then he must be a very bad father. He should look for your brother himself. Tell me, are your father and brother as rude as you?”
+
+    - “Thank you for talking to me. I will leave now.” → *conversation ends*
+    - “They are certainly not as rude as you. Goodbye.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aemens.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aemens.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aemens.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aemens.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `aemens` · Data from v0.8.18</small>

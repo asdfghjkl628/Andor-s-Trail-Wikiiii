@@ -20,8 +20,8 @@ West: Stoutford" style="left:50.000%;top:35.000%;width:5.000%;height:5.000%"></s
 |---|---|
 | [Wild flower](../monsters/wild_flower.md) | 0 |
 | [Forest wasp](../monsters/forest_wasp.md) | 6 |
-| [Wild boar](../monsters/wild_boar.md) | 20 |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 |
+| [Wild boar](../monsters/wild_boar.md) | 20 |
 | [Shady bandit](../monsters/shady_bandit.md) | 45 |
 
 <small>Map ID: `wild10` · Data from v0.8.18</small>

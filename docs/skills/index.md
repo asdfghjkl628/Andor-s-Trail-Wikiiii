@@ -27,6 +27,12 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
     **Skill points:** levels 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60. That's 12 by level 50, and every one of them will feel like a hard decision.
     **Experience:** level L → L+1 costs 55 × L². Quadratic growth, so the grind gets real.
 
+    ![Experience needed per level](../assets/charts/experience.png)
+
+    ![Fortitude vs health level-ups](../assets/charts/fortitude_vs_health.png)
+
+    One point of [Fortitude](fortitude.md) at level 5 out-earns a health level-up by level 10. Add a second level at 20 and it matches nine health level-ups by level 35, while those nine level-ups were free to go into other stats. Details on [Strategy](../strategy/levelling.md).
+
     | Level | Total XP | XP to next |
     |---|---|---|
     | 2 | 55 | 220 |
@@ -46,6 +52,10 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
 
     **1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
+    ![Hit chance curve](../assets/charts/hit_chance.png)
+
+    ![Value of +5 attack chance](../assets/charts/hit_marginal.png)
+
     | AC − BC | Hit | +5 AC adds |
     |---|---|---|
     | -50 | 12% | +0.6% |
@@ -62,6 +72,8 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
 
     **3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
+    ![Crit chance curve](../assets/charts/crit_chance.png)
+
     | Crit skill | Crit % |
     |---|---|
     | 5 | 5% |
@@ -77,6 +89,8 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
     **4 · Armor:** the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.
 
     **Attacks per turn** = max AP ÷ attack cost, rounded down.
+
+    ![Attacks per turn by AP and attack cost](../assets/charts/attacks_per_turn.png)
 
 ???+ section "All skills (45)"
 
@@ -117,24 +131,22 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
     | [Specialization: Two-handed weapon](specialization2hand.md) | 1 | Lv 45+ · [Fighting style: Two-handed weapon](fightstyle2hand.md) 2 | Increases damage potential of two-handed weapons by an additional 50 % of the original damage potential, in addition to the benefits given by the weapon style skill. |
     | [Specialization: Weapon and shield](specializationWeaponShield.md) | 1 | Lv 45+ · [Fighting style: Weapon and shield](fightstyleWeaponShield.md) 2 | Increases both attack chances and damage potential of weapons in the main hand. |
 
-    \* Extra levels can also be earned from quests.
+    \* Some quests also reward a level of this skill directly, without spending a skill point.
 
     **Unlocked through quests**
 
     | Skill | Max | Prerequisite | What it does |
     |---|---|---|---|
-    | [Dark blessing of the Shadow](shadowBless.md) | 1 | Quest | Lowers the chance of being afflicted with all types of conditions by 5 %. |
-    | [Dagger proficiency](weaponProficiencyDagger.md) | 3 | Quest | For each skill level, increases attack chance when using daggers and shortswords by 30 % of the item's base attack chance, increases block chance by 30 % of the… |
-    | [One-handed sword proficiency](weaponProficiency1hsword.md) | 3 | Quest | For each skill level, increases attack chance of rapiers, longswords and broadswords by 30 % of the item's base attack chance, increases block chance by 30 % of the… |
-    | [Two-handed sword proficiency](weaponProficiency2hsword.md) | 3 | Quest | For each skill level, increases attack chance of two-handed swords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
-    | [Axe proficiency](weaponProficiencyAxe.md) | 3 | Quest | For each skill level, increases attack chance of axes and greataxes by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
-    | [Blunt weapon proficiency](weaponProficiencyBlunt.md) | 3 | Quest | For each skill level, increases attack chance of blunt weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
-    | [Unarmed fighting](weaponProficiencyUnarmed.md) | 3 | Quest | When fighting without a weapon and shield, gain 20 attack chance, 2 damage potential and 5 block chance per skill level. |
-    | [Pole weapon proficiency](weaponProficiencyPole.md) | 3 | Quest | For each skill level, increases attack chance when using pole weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base… |
-    | [Shield proficiency](armorProficiencyShield.md) | 2 | Quest | Increase damage resistance by 1 per skill level while having a shield or parrying weapon equipped. |
-    | [Unarmored fighting](armorProficiencyUnarmored.md) | 3 | Quest | While fighting without having any piece of armor equipped, gain 10 block chance per skill level. |
-    | [Light armor proficiency](armorProficiencyLight.md) | 3 | Quest | For every skill level, increases the block chance of every piece of light armor being worn by 30 % of their original block chances. |
-    | [Heavy armor proficiency](armorProficiencyHeavy.md) | 4 | Quest | For every skill level, increases the block chance of every piece of heavy armor being worn by 20 % of their original block chances. |
-    | [Spore poison immunity](sporeImmunity.md) | 1 | Quest | Permanently prevents monster attacks from inflicting the "Spore poisoning" status effect. |
-
-    *Quest* = the first level comes from a quest; for proficiencies, later levels cost skill points as usual.
+    | [Dark blessing of the Shadow](shadowBless.md) | 1 | Quest only | Lowers the chance of being afflicted with all types of conditions by 5 %. |
+    | [Dagger proficiency](weaponProficiencyDagger.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance when using daggers and shortswords by 30 % of the item's base attack chance, increases block chance by 30 % of the… |
+    | [One-handed sword proficiency](weaponProficiency1hsword.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance of rapiers, longswords and broadswords by 30 % of the item's base attack chance, increases block chance by 30 % of the… |
+    | [Two-handed sword proficiency](weaponProficiency2hsword.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance of two-handed swords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
+    | [Axe proficiency](weaponProficiencyAxe.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance of axes and greataxes by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
+    | [Blunt weapon proficiency](weaponProficiencyBlunt.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance of blunt weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block… |
+    | [Unarmed fighting](weaponProficiencyUnarmed.md) | 3 | First level from a quest, then skill points | When fighting without a weapon and shield, gain 20 attack chance, 2 damage potential and 5 block chance per skill level. |
+    | [Pole weapon proficiency](weaponProficiencyPole.md) | 3 | First level from a quest, then skill points | For each skill level, increases attack chance when using pole weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base… |
+    | [Shield proficiency](armorProficiencyShield.md) | 2 | First level from a quest, then skill points | Increase damage resistance by 1 per skill level while having a shield or parrying weapon equipped. |
+    | [Unarmored fighting](armorProficiencyUnarmored.md) | 3 | First level from a quest, then skill points | While fighting without having any piece of armor equipped, gain 10 block chance per skill level. |
+    | [Light armor proficiency](armorProficiencyLight.md) | 3 | First level from a quest, then skill points | For every skill level, increases the block chance of every piece of light armor being worn by 30 % of their original block chances. |
+    | [Heavy armor proficiency](armorProficiencyHeavy.md) | 4 | First level from a quest, then skill points | For every skill level, increases the block chance of every piece of heavy armor being worn by 20 % of their original block chances. |
+    | [Spore poison immunity](sporeImmunity.md) | 1 | Quest only | Permanently prevents monster attacks from inflicting the "Spore poisoning" status effect. |

@@ -18,4 +18,88 @@
 
 - [guynmart](../maps/guynmart.md)
 
+## Quests
+
+- [Roses](../quests/guynmart.md): stages 70, 90, 100
+- [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md): stages 7
+- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stages 34
+- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): stages 1
+
+??? quote "Dialogue (11 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-guynmart_hannah_10"></span>**`guynmart_hannah_10`** *(silent check: the first matching branch below is taken)* — **effects:** removes monsters from guynmart_main_1, removes monsters from guynmart_main_2, sets stage 34 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-34)
+
+    - branch 1 *(if carry 1× [Rose](../items/guynmart_rose.md))* → [guynmart_hannah_110](#d-guynmart_hannah_110)
+    - branch 2 *(if reached stage 70 of [Roses](../quests/guynmart.md#stage-70))* → [guynmart_hannah_12](#d-guynmart_hannah_12)
+    - branch 3 → [guynmart_hannah_20](#d-guynmart_hannah_20)
+
+    <span id="d-guynmart_hannah_110"></span>**`guynmart_hannah_110`** Hannah: “Oh, what a lovely rose you found for me!”
+
+    - Next → [guynmart_hannah_112](#d-guynmart_hannah_112)
+
+    <span id="d-guynmart_hannah_12"></span>**`guynmart_hannah_12`** Hannah: “Go away, kid. I want to be alone. I cannot think clearly without the smell of another fresh, fragrant rose.”
+
+    - “I will bring your rose now.” → *conversation ends*
+    - “You and your stupid rose.” *(if reached stage 70 of [Roses](../quests/guynmart.md#stage-70))* → *conversation ends*
+
+    <span id="d-guynmart_hannah_20"></span>**`guynmart_hannah_20`** Hannah: “I cannot think clearly ... I need a rose! A fresh, fragrant rose! Please bring me a rose from my garden...” — **effects:** sets stage 70 of [Roses](../quests/guynmart.md#stage-70), spawns monsters on guynmart, clears stage 1 of [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-1), sets stage 7 of [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-7)
+
+    - “I have some delicious lunch for you.” *(if carry 1× [Hannah's lunch](../items/guynmart_lunch.md))* → [guynmart_hannah_30](#d-guynmart_hannah_30)
+    - “I will go and ask Nuik.” → *conversation ends*
+
+    <span id="d-guynmart_hannah_112"></span>**`guynmart_hannah_112`** Hannah: “Ah - beautiful. Just look!”
+
+    - Next *(if hand over 1× [Rose](../items/guynmart_rose.md))* → [guynmart_hannah_114](#d-guynmart_hannah_114)
+
+    <span id="d-guynmart_hannah_30"></span>**`guynmart_hannah_30`** Hannah: “How can you think of eating and drinking! My love has gone - I will never eat again! Take it for yourself or throw it away. And leave me alone now. A rose ... I need my rose...”
+
+    - “I will bring your rose now.” → *conversation ends*
+
+    <span id="d-guynmart_hannah_114"></span>**`guynmart_hannah_114`** Hannah: “[Hannah takes the rose] Now. I feel better again. Thank you.” — **effects:** sets stage 90 of [Roses](../quests/guynmart.md#stage-90)
+
+    - Next → [guynmart_hannah_120](#d-guynmart_hannah_120)
+
+    <span id="d-guynmart_hannah_120"></span>**`guynmart_hannah_120`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 100 of [Roses](../quests/guynmart.md#stage-100))* → [guynmart_hannah_122](#d-guynmart_hannah_122)
+    - branch 2 → [guynmart_hannah_140](#d-guynmart_hannah_140)
+
+    <span id="d-guynmart_hannah_122"></span>**`guynmart_hannah_122`** Hannah: “Have you found Lovis yet?”
+
+    - “No, sorry. Not yet.” → *conversation ends*
+
+    <span id="d-guynmart_hannah_140"></span>**`guynmart_hannah_140`** Hannah: “I would like to give you Lovis' flute. He used to play on it every day for me. When you find Lovis, show the flute as a token that I sent you.”
+
+    - “I will not disappoint you.” → [guynmart_hannah_150](#d-guynmart_hannah_150)
+    - “No, I do not feel like running back and forth.” → *conversation ends*
+
+    <span id="d-guynmart_hannah_150"></span>**`guynmart_hannah_150`** Hannah: “So take this flute and take good care of it.” — **effects:** sets stage 100 of [Roses](../quests/guynmart.md#stage-100), gives 1× [Lovis' Flute](../items/guynmart_flute.md), sets stage 1 of [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1), removes monsters from guynmart_main_3, spawns monsters on guynmart_tower_3
+
+    - “I will.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_hannah.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_hannah.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_hannah.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_hannah.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `guynmart_hannah` · Data from v0.8.18</small>

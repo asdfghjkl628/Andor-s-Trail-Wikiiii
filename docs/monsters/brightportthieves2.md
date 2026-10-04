@@ -18,4 +18,52 @@
 
 - [brightport_thieves](../maps/brightport_thieves.md)
 
+## Quests
+
+- [No rest for the wicked](../quests/Stanwickquest.md): stages 50
+
+??? quote "Dialogue (4 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-brightport_counterfeit"></span>**`brightport_counterfeit`** [Counterfeit](../monsters/brightportthieves2.md): “Hello kid. Name's Counterfeit. I specialize in exactly that. Now please leave me be, I have work to do.”
+
+    - “I need a copy of the key for the library here in Brightport. Could you help me with that” *(if reached stage 46 of [No rest for the wicked](../quests/Stanwickquest.md#stage-46); NOT reached stage 50 of [No rest for the wicked](../quests/Stanwickquest.md#stage-50); NOT reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47))* → [brightport_counterfeit1](#d-brightport_counterfeit1)
+    - “I seriously doubt that's your real name.” → [brightport_counterfeit3](#d-brightport_counterfeit3)
+
+    <span id="d-brightport_counterfeit1"></span>**`brightport_counterfeit1`** [Counterfeit](../monsters/brightportthieves2.md): “Normally, I'd need the original. Lucky for you kid, I was a student here years ago and made a copy. You can have it for 2,000 gold.”
+
+    - “OK, here's the gold.” *(if pay 2,000 gold)* → [brightport_counterfeit2](#d-brightport_counterfeit2)
+    - “I don't have that gold on me.” *(if NOT pay 500 gold)* → *conversation ends*
+
+    <span id="d-brightport_counterfeit3"></span>**`brightport_counterfeit3`** Counterfeit: “Yes, it's not my real name. So what? What people call me is what matters.”
+
+    - “A false name? Fitting for someone in the Guild.” → *conversation ends*
+
+    <span id="d-brightport_counterfeit2"></span>**`brightport_counterfeit2`** [Counterfeit](../monsters/brightportthieves2.md): “Alright, here you go. Now hush off. I've got work to do.” — **effects:** sets stage 50 of [No rest for the wicked](../quests/Stanwickquest.md#stage-50), gives 1× [Library key](../items/brightport_key.md)
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `brightportthieves2` · Data from v0.8.18</small>

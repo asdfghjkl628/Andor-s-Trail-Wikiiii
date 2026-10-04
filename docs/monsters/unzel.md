@@ -27,4 +27,166 @@
 
 - [wild6](../maps/wild6.md)
 
+## Quests
+
+- [Old friends?](../quests/kaverin.md): stages 30
+
+??? quote "Dialogue (31 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-unzel"></span>**`unzel`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 30 of [Old friends?](../quests/kaverin.md#stage-30))* → [unzel_msg_r0](#d-unzel_msg_r0)
+    - branch 2 *(if reached stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61))* → [unzel_40](#d-unzel_40)
+    - branch 3 *(if reached stage 51 of [vacor (hidden flag)](../quests/vacor.md#stage-51))* → [unzel_return_1](#d-unzel_return_1)
+    - branch 4 → [unzel_1](#d-unzel_1)
+
+    <span id="d-unzel_msg_r0"></span>**`unzel_msg_r0`** Unzel: “Hello again. Thank you for your help with defeating Vacor and bringing me the message from Kaverin.”
+
+    - Next → [unzel_msg5](#d-unzel_msg5)
+
+    <span id="d-unzel_40"></span>**`unzel_40`** Unzel: “Thank you for your help. Now we are safe from Vacor's rift spell.”
+
+    - “I have a message for you from Kaverin in Remgard.” *(if reached stage 25 of [Old friends?](../quests/kaverin.md#stage-25); carry 1× [Kaverin's sealed message](../items/kaverin_message.md))* → [unzel_msg1](#d-unzel_msg1)
+
+    <span id="d-unzel_return_1"></span>**`unzel_return_1`** Unzel: “Welcome back. Did you talk to Vacor?”
+
+    - “Yes, I have dealt with him.” *(if hand over 1× [Vacor's ring](../items/ring_vacor.md))* → [unzel_30](#d-unzel_30)
+    - “No, not yet.” → *conversation ends*
+
+    <span id="d-unzel_1"></span>**`unzel_1`** Unzel: “Hello. I'm Unzel.”
+
+    - “Is this your camp?” → [unzel_2](#d-unzel_2)
+    - “I am sent by Vacor to kill you.” *(if reached stage 40 of [vacor (hidden flag)](../quests/vacor.md#stage-40))* → [unzel_3](#d-unzel_3)
+
+    <span id="d-unzel_msg5"></span>**`unzel_msg5`** Unzel: “Your help could prove more valuable than you might realize.”
+
+    - Next → [unzel_msg6](#d-unzel_msg6)
+
+    <span id="d-unzel_msg1"></span>**`unzel_msg1`** Unzel: “Kaverin, my old friend! It's good to hear that he is still alive. What is the message?”
+
+    - “Here it is.” *(if hand over 1× [Kaverin's sealed message](../items/kaverin_message.md))* → [unzel_msg2](#d-unzel_msg2)
+
+    <span id="d-unzel_30"></span>**`unzel_30`** Unzel: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.” — **effects:** sets stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61), gives [Gold coins](../items/gold.md)
+
+    - “Shadow be with you.” → *conversation ends*
+    - “Thank you.” → *conversation ends*
+
+    <span id="d-unzel_2"></span>**`unzel_2`** Unzel: “Yes, this is my camp. Lovely place, isn't it?”
+
+    - “Bye.” → *conversation ends*
+
+    <span id="d-unzel_3"></span>**`unzel_3`** Unzel: “Vacor sent you huh? I guess I should have figured he would send someone sooner or later.”
+
+    - Next → [unzel_4](#d-unzel_4)
+
+    <span id="d-unzel_msg6"></span>**`unzel_msg6`** Unzel: “Say hello to my old friend Kaverin the next time you see him, will you?”
+
+
+    <span id="d-unzel_msg2"></span>**`unzel_msg2`** Unzel: “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” — **effects:** sets stage 30 of [Old friends?](../quests/kaverin.md#stage-30)
+
+    - Next → [unzel_msg3](#d-unzel_msg3)
+
+    <span id="d-unzel_4"></span>**`unzel_4`** Unzel: “Very well then. Kill me if you must, or allow me to tell you my side of the story.”
+
+    - “Hah, I will enjoy killing you!” → [unzel_fight](#d-unzel_fight)
+    - “I will listen to your story.” → [unzel_5](#d-unzel_5)
+
+    <span id="d-unzel_msg3"></span>**`unzel_msg3`** Unzel: “Yes, this makes sense with what I have seen.”
+
+    - Next → [unzel_msg4](#d-unzel_msg4)
+
+    <span id="d-unzel_fight"></span>**`unzel_fight`** Unzel: “Very well, let's fight then.” — **effects:** sets stage 53 of [vacor (hidden flag)](../quests/vacor.md#stage-53)
+
+    - “A fight it is!” → *fight starts*
+
+    <span id="d-unzel_5"></span>**`unzel_5`** Unzel: “Thank you for listening.”
+
+    - Next → [unzel_10](#d-unzel_10)
+
+    <span id="d-unzel_msg4"></span>**`unzel_msg4`** Unzel: “Thank you for bringing it to me.”
+
+    - Next → [unzel_msg5](#d-unzel_msg5)
+
+    <span id="d-unzel_10"></span>**`unzel_10`** Unzel: “Vacor and I used to travel together, but he started to get obsessed with his spell making.”
+
+    - Next → [unzel_11](#d-unzel_11)
+
+    <span id="d-unzel_11"></span>**`unzel_11`** Unzel: “He even started to question the Shadow. I knew I had to do something to stop him!”
+
+    - Next → [unzel_12](#d-unzel_12)
+
+    <span id="d-unzel_12"></span>**`unzel_12`** Unzel: “I started questioning him about what he was up to, but he just wanted to keep on going.”
+
+    - Next → [unzel_13](#d-unzel_13)
+
+    <span id="d-unzel_13"></span>**`unzel_13`** Unzel: “After a while, he became obsessed with the thought of a rift spell. He said it would grant him unlimited powers against the Shadow.”
+
+    - Next → [unzel_14](#d-unzel_14)
+
+    <span id="d-unzel_14"></span>**`unzel_14`** Unzel: “So, there was only one thing I could do. I left him and needed to stop him from trying to create the rift spell.”
+
+    - Next → [unzel_15](#d-unzel_15)
+
+    <span id="d-unzel_15"></span>**`unzel_15`** Unzel: “I sent some friends to take the spell from him.”
+
+    - Next → [unzel_16_select](#d-unzel_16_select)
+
+    <span id="d-unzel_16_select"></span>**`unzel_16_select`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 50 of [vacor (hidden flag)](../quests/vacor.md#stage-50))* → [unzel_16_2](#d-unzel_16_2)
+    - branch 2 → [unzel_16_1](#d-unzel_16_1)
+
+    <span id="d-unzel_16_2"></span>**`unzel_16_2`** Unzel: “So, here we are.”
+
+    - Next → [unzel_19](#d-unzel_19)
+
+    <span id="d-unzel_16_1"></span>**`unzel_16_1`** Unzel: “So, here we are.”
+
+    - “I killed the four bandits you sent after Vacor.” → [unzel_17](#d-unzel_17)
+
+    <span id="d-unzel_19"></span>**`unzel_19`** Unzel: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?” — **effects:** sets stage 50 of [vacor (hidden flag)](../quests/vacor.md#stage-50)
+
+    - “I will side with you. The Shadow must not be disturbed.” → [unzel_20](#d-unzel_20)
+    - “I will side with Vacor.” → [unzel_fight](#d-unzel_fight)
+
+    <span id="d-unzel_17"></span>**`unzel_17`** Unzel: “What? You killed my four friends? Argh, I feel the rage coming.”
+
+    - Next → [unzel_18](#d-unzel_18)
+
+    <span id="d-unzel_20"></span>**`unzel_20`** Unzel: “Thank you my friend. We will keep the Shadow safe from Vacor.” — **effects:** sets stage 51 of [vacor (hidden flag)](../quests/vacor.md#stage-51)
+
+    - Next → [unzel_21](#d-unzel_21)
+
+    <span id="d-unzel_18"></span>**`unzel_18`** Unzel: “However, I also realize that all this is the making of Vacor. I'll give you a choice now. Choose wisely.”
+
+    - Next → [unzel_19](#d-unzel_19)
+
+    <span id="d-unzel_21"></span>**`unzel_21`** Unzel: “You should go talk to him about the Shadow.”
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unzel.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unzel.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unzel.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unzel.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `unzel` · Data from v0.8.18</small>

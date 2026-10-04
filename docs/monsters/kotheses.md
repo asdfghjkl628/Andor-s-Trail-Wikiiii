@@ -31,4 +31,204 @@
 
 - [laerothprison7](../maps/laerothprison7.md)
 
+## Quests
+
+- [Shadow of the torturer](../quests/lae_torturer.md): stages 25, 30, 35, 40, 50, 60, 120
+
+??? quote "Dialogue (40 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-lae_torturer"></span>**`lae_torturer`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if NOT killed 1× [Dark watch](../monsters/lae_demon9.md); NOT killed 1× [Dark watch](../monsters/lae_demon7.md); NOT killed 1× [Dark watch](../monsters/lae_demon5.md); NOT killed 1× [Dark watch](../monsters/lae_demon4.md))* → [lae_torturer_5](#d-lae_torturer_5)
+    - branch 2 *(if reached stage 50 of [Shadow of the torturer](../quests/lae_torturer.md#stage-50))* → [lae_torturer_5](#d-lae_torturer_5)
+    - branch 3 *(if NOT reached stage 30 of [Shadow of the torturer](../quests/lae_torturer.md#stage-30))* → [lae_torturer_5](#d-lae_torturer_5)
+    - branch 4 → [lae_torturer_2](#d-lae_torturer_2)
+
+    <span id="d-lae_torturer_5"></span>**`lae_torturer_5`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 110 of [Shadow of the torturer](../quests/lae_torturer.md#stage-110))* → [lae_torturer_110](#d-lae_torturer_110)
+    - branch 2 *(if reached stage 100 of [Shadow of the torturer](../quests/lae_torturer.md#stage-100))* → [lae_torturer_100](#d-lae_torturer_100)
+    - branch 3 → [lae_torturer_10](#d-lae_torturer_10)
+
+    <span id="d-lae_torturer_2"></span>**`lae_torturer_2`** Kotheses: “Why do you kill my precious demons?! I told you to stay here beside me!” — **effects:** sets stage 50 of [Shadow of the torturer](../quests/lae_torturer.md#stage-50)
+
+    - “They have attacked me!” → [lae_torturer_5](#d-lae_torturer_5)
+
+    <span id="d-lae_torturer_110"></span>**`lae_torturer_110`** Kotheses: “I see it in your eyes - you want to leave too. Like your brother.” — **effects:** sets stage 120 of [Shadow of the torturer](../quests/lae_torturer.md#stage-120)
+
+    - “Yes. Thank you for your lessons.” → *conversation ends*
+
+    <span id="d-lae_torturer_100"></span>**`lae_torturer_100`** Kotheses: “Now you can talk to the demons. To all of them. Tell them what they have to do.”
+
+    - “All of them?” *(if reached stage 50 of [Shadow of the torturer](../quests/lae_torturer.md#stage-50))* → [lae_torturer_101](#d-lae_torturer_101)
+    - “OK.” *(if NOT reached stage 50 of [Shadow of the torturer](../quests/lae_torturer.md#stage-50))* → [lae_torturer_102](#d-lae_torturer_102)
+
+    <span id="d-lae_torturer_10"></span>**`lae_torturer_10`** Kotheses: “Hello, child.”
+
+    - Next → [lae_torturer_10a](#d-lae_torturer_10a)
+
+    <span id="d-lae_torturer_101"></span>**`lae_torturer_101`** Kotheses: “To all of those that you have left alive. But please, stay close to me this time.”
+
+
+    <span id="d-lae_torturer_102"></span>**`lae_torturer_102`** Kotheses: “But stay close to me.”
+
+
+    <span id="d-lae_torturer_10a"></span>**`lae_torturer_10a`** Kotheses: “Would you like to learn the trade of a torturer?” — **effects:** sets stage 25 of [Shadow of the torturer](../quests/lae_torturer.md#stage-25), removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4
+
+    - “Tell me more about it.” *(if NOT reached stage 60 of [Shadow of the torturer](../quests/lae_torturer.md#stage-60))* → [lae_torturer_11](#d-lae_torturer_11)
+    - “I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks…” → [lae_torturer_12](#d-lae_torturer_12)
+    - “You stole the life force of your captives.” → [lae_torturer_18](#d-lae_torturer_18)
+    - “Very gladly. I always like to learn new things.” *(if NOT reached stage 60 of [Shadow of the torturer](../quests/lae_torturer.md#stage-60))* → [lae_torturer_30](#d-lae_torturer_30)
+
+    <span id="d-lae_torturer_11"></span>**`lae_torturer_11`** Kotheses: “I seek a young apprentice to train in our essential duties.”
+
+    - Next → [lae_torturer_11a](#d-lae_torturer_11a)
+
+    <span id="d-lae_torturer_12"></span>**`lae_torturer_12`** Kotheses: “No, I don't know where Andor is now.”
+
+    - “Oh, how do you know his name?” → [lae_torturer_14](#d-lae_torturer_14)
+
+    <span id="d-lae_torturer_18"></span>**`lae_torturer_18`** Kotheses: “Yes. So?”
+
+    - “Nothing.” → [lae_torturer_20](#d-lae_torturer_20)
+
+    <span id="d-lae_torturer_30"></span>**`lae_torturer_30`** Kotheses: “OK, then let's get started. This is a very important job, you know?” — **effects:** sets stage 30 of [Shadow of the torturer](../quests/lae_torturer.md#stage-30)
+
+    - “Why?” → [lae_torturer_32](#d-lae_torturer_32)
+
+    <span id="d-lae_torturer_11a"></span>**`lae_torturer_11a`** Kotheses: “You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain.”
+
+    - Next → [lae_torturer_11b](#d-lae_torturer_11b)
+
+    <span id="d-lae_torturer_14"></span>**`lae_torturer_14`** Kotheses: “Well, he was here a while ago and was shown a few tricks.”
+
+    - “So he was here too?” → [lae_torturer_16](#d-lae_torturer_16)
+
+    <span id="d-lae_torturer_20"></span>**`lae_torturer_20`** Kotheses: “You are sure you don't want to learn the art of a torturer?”
+
+    - “That is no job for me.” *(if NOT reached stage 30 of [Shadow of the torturer](../quests/lae_torturer.md#stage-30))* → [lae_torturer_60](#d-lae_torturer_60)
+    - “Well, I could try at least.” *(if NOT reached stage 60 of [Shadow of the torturer](../quests/lae_torturer.md#stage-60))* → [lae_torturer_30](#d-lae_torturer_30)
+
+    <span id="d-lae_torturer_32"></span>**`lae_torturer_32`** Kotheses: “You get people to tell you the truth you want to hear.”
+
+    - “Oh, OK.” → [lae_torturer_34](#d-lae_torturer_34)
+
+    <span id="d-lae_torturer_11b"></span>**`lae_torturer_11b`** Kotheses: “While keeping the prisoner alive, of course.”
+
+    - “Oh, makes sense.” → [lae_torturer_11c](#d-lae_torturer_11c)
+
+    <span id="d-lae_torturer_16"></span>**`lae_torturer_16`** Kotheses: “Andor was a very eager student. It's a shame he didn't stay.” — **effects:** sets stage 120 of [andor (hidden flag)](../quests/andor.md#stage-120)
+
+    - Next → [lae_torturer_20](#d-lae_torturer_20)
+
+    <span id="d-lae_torturer_60"></span>**`lae_torturer_60`** Kotheses: “What a pity. At least let me warn you about the prisoners above.” — **effects:** sets stage 60 of [Shadow of the torturer](../quests/lae_torturer.md#stage-60)
+
+    - “What is with them?” → [lae_torturer_62](#d-lae_torturer_62)
+
+    <span id="d-lae_torturer_34"></span>**`lae_torturer_34`** Kotheses: “Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody.”
+
+    - “Eh ...” → [lae_torturer_36](#d-lae_torturer_36)
+
+    <span id="d-lae_torturer_11c"></span>**`lae_torturer_11c`** Kotheses: “Your education will include mastering various torture devices and understanding their effects.”
+
+    - Next → [lae_torturer_11d](#d-lae_torturer_11d)
+
+    <span id="d-lae_torturer_62"></span>**`lae_torturer_62`** Kotheses: “They are devious. They are highly dangerous.”
+
+    - Next → [lae_torturer_64](#d-lae_torturer_64)
+
+    <span id="d-lae_torturer_36"></span>**`lae_torturer_36`** Kotheses: “What?”
+
+    - “I opened the cells and released them.” → [lae_torturer_40](#d-lae_torturer_40)
+
+    <span id="d-lae_torturer_11d"></span>**`lae_torturer_11d`** Kotheses: “Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness.”
+
+    - “Interrogations you call it?” → [lae_torturer_11e](#d-lae_torturer_11e)
+
+    <span id="d-lae_torturer_64"></span>**`lae_torturer_64`** Kotheses: “They must be imprisoned for all reasons.”
+
+    - “Why?” → [lae_torturer_66](#d-lae_torturer_66)
+
+    <span id="d-lae_torturer_40"></span>**`lae_torturer_40`** Kotheses: “Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control.”
+
+    - “Demons? That doesn't sound safe.” → [lae_torturer_42](#d-lae_torturer_42)
+
+    <span id="d-lae_torturer_11e"></span>**`lae_torturer_11e`** Kotheses: “Sure. We only want the truth. Nothing more. It is a very prestigious work.”
+
+    - “If you say so.” → [lae_torturer_10a](#d-lae_torturer_10a)
+    - “Then why do you wear a mask at public executions?” → [lae_torturer_11f](#d-lae_torturer_11f)
+
+    <span id="d-lae_torturer_66"></span>**`lae_torturer_66`** Kotheses: “Their lies influence you to have mercy. But turn your back to them they pierce you cruelly.”
+
+    - Next → [lae_torturer_70](#d-lae_torturer_70)
+
+    <span id="d-lae_torturer_42"></span>**`lae_torturer_42`** Kotheses: “You screwed up, you have to fix it.”
+
+    - “Sigh.” *(if NOT reached stage 35 of [Shadow of the torturer](../quests/lae_torturer.md#stage-35))* → [lae_torturer_44](#d-lae_torturer_44)
+    - “Sigh. I know.” *(if reached stage 35 of [Shadow of the torturer](../quests/lae_torturer.md#stage-35))* → [lae_torturer_45](#d-lae_torturer_45)
+
+    <span id="d-lae_torturer_11f"></span>**`lae_torturer_11f`** Kotheses: “Enough questions.”
+
+    - Next → [lae_torturer_10a](#d-lae_torturer_10a)
+
+    <span id="d-lae_torturer_70"></span>**`lae_torturer_70`** Kotheses: “Believe it or not.”
+
+    - “Not.” → [lae_torturer_74](#d-lae_torturer_74)
+
+    <span id="d-lae_torturer_44"></span>**`lae_torturer_44`** Kotheses: “Here take this Oegyth crystal.” — **effects:** gives 1× [Oegyth crystal](../items/oegyth.md), sets stage 35 of [Shadow of the torturer](../quests/lae_torturer.md#stage-35)
+
+    - Next → [lae_torturer_45](#d-lae_torturer_45)
+
+    <span id="d-lae_torturer_45"></span>**`lae_torturer_45`** Kotheses: “Take this precious Oegyth crystal to that small room to the south and continue through the corridor.”
+
+    - Next → [lae_torturer_46](#d-lae_torturer_46)
+
+    <span id="d-lae_torturer_74"></span>**`lae_torturer_74`** Kotheses: “At least I play fair. I do not come from ambush, but rather announce my attack.”
+
+    - “OK ...” → [lae_torturer_76](#d-lae_torturer_76)
+
+    <span id="d-lae_torturer_46"></span>**`lae_torturer_46`** Kotheses: “Then throw the crystal with all your might into the dark abyss.”
+
+    - “What?!” → [lae_torturer_48](#d-lae_torturer_48)
+
+    <span id="d-lae_torturer_76"></span>**`lae_torturer_76`** Kotheses: “... which is now!” — **effects:** faction “lae_torturer” set to -100
+
+    - “How gross.” → *fight starts*
+
+    <span id="d-lae_torturer_48"></span>**`lae_torturer_48`** Kotheses: “Do it. Then run for your life back to me so that I can protect you from them.” — **effects:** sets stage 40 of [Shadow of the torturer](../quests/lae_torturer.md#stage-40)
+
+    - Next → [lae_torturer_50](#d-lae_torturer_50)
+
+    <span id="d-lae_torturer_50"></span>**`lae_torturer_50`** Kotheses: “You hear me? Don't wait for the demons. They are deadly.”
+
+    - Next → [lae_torturer_52](#d-lae_torturer_52)
+
+    <span id="d-lae_torturer_52"></span>**`lae_torturer_52`** Kotheses: “Now. Move.”
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `kotheses` · Data from v0.8.18</small>

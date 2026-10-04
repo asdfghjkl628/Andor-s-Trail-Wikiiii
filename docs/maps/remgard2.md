@@ -19,7 +19,7 @@
 
 | Name | HP |
 |---|---|
-| [Commoner](../monsters/rg_villager6.md) | 0 |
 | [Commoner](../monsters/rg_villager5.md) | 0 |
+| [Commoner](../monsters/rg_villager6.md) | 0 |
 
 <small>Map ID: `remgard2` · Data from v0.8.18</small>

@@ -18,7 +18,7 @@
 | Name | HP |
 |---|---|
 | [Ridgehowler](../monsters/ridgehowler.md) | 180 |
-| [Harrowback](../monsters/harrowback.md) | 197 |
 | [Mutated harrowback](../monsters/mutated_harrowback.md) | 197 |
+| [Harrowback](../monsters/harrowback.md) | 197 |
 
 <small>Map ID: `galmore_34` · Data from v0.8.18</small>

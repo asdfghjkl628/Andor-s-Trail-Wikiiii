@@ -28,4 +28,80 @@
 
 - [woodhouse2](../maps/woodhouse2.md)
 
+## Quests
+
+- [Sweet sweet rat poison](../quests/lowyna.md): stages 20
+
+??? quote "Dialogue (10 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-lowyna"></span>**`lowyna`** Lowyna: “Uh. Hello.”
+
+    - Next → [lowyna_1](#d-lowyna_1)
+
+    <span id="d-lowyna_1"></span>**`lowyna_1`** Lowyna: “Whoa, you look small. I must be seeing things. That last batch I did must have gotten stronger than usual.”
+
+    - “Who are you?” → [lowyna_3](#d-lowyna_3)
+    - “What are you people doing here?” → [lowyna_2](#d-lowyna_2)
+    - “What is that smell?” → [lowyna_4](#d-lowyna_4)
+    - “Can I look at your wares again?” *(if reached stage 20 of [Sweet sweet rat poison](../quests/lowyna.md#stage-20))* → *shop opens*
+
+    <span id="d-lowyna_3"></span>**`lowyna_3`** Lowyna: “I am Lowyna, of course. These people that you see in here and in the other huts, you could say that we're sort of in the same ... family.”
+
+    - “What are you people doing here?” → [lowyna_2](#d-lowyna_2)
+
+    <span id="d-lowyna_2"></span>**`lowyna_2`** Lowyna: “He he, this and that.”
+
+    - “I see a lot of potion bottles around. Is that what you do?” → [lowyna_5](#d-lowyna_5)
+    - “What is that smell?” → [lowyna_4](#d-lowyna_4)
+
+    <span id="d-lowyna_4"></span>**`lowyna_4`** Lowyna: “What smell? I can't smell anything out of the ordinary. It must be you.”
+
+    - “What are you people doing here?” → [lowyna_2](#d-lowyna_2)
+    - “Who are you?” → [lowyna_3](#d-lowyna_3)
+
+    <span id="d-lowyna_5"></span>**`lowyna_5`** Lowyna: “It's that obvious eh?”
+
+    - Next → [lowyna_6](#d-lowyna_6)
+
+    <span id="d-lowyna_6"></span>**`lowyna_6`** Lowyna: “I really shouldn't be discussing this with you. You look way too inexperienced for this.”
+
+    - “I can handle myself!” → [lowyna_7](#d-lowyna_7)
+    - “Two-teeth sent me to get some rat poison.” *(if reached stage 10 of [Sweet sweet rat poison](../quests/lowyna.md#stage-10))* → [lowyna_8](#d-lowyna_8)
+
+    <span id="d-lowyna_7"></span>**`lowyna_7`** Lowyna: “Hah! How about no?”
+
+
+    <span id="d-lowyna_8"></span>**`lowyna_8`** Lowyna: “I'm amazed he's still around, good old two-teeth.”
+
+    - Next → [lowyna_9](#d-lowyna_9)
+
+    <span id="d-lowyna_9"></span>**`lowyna_9`** Lowyna: “For his sake, I'll let you browse my wares.” — **effects:** sets stage 20 of [Sweet sweet rat poison](../quests/lowyna.md#stage-20)
+
+    - “Let's see what you have.” *(if reached stage 20 of [Sweet sweet rat poison](../quests/lowyna.md#stage-20))* → *shop opens*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lowyna.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lowyna.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lowyna.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lowyna.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `lowyna` · Data from v0.8.18</small>

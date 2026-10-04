@@ -32,4 +32,79 @@
 
 - [stoutford_tavern](../maps/stoutford_tavern.md)
 
+??? quote "Dialogue (10 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-cadoren_0"></span>**`cadoren_0`** Cadoren: “Welcome to our wonderful Inn. How can we help you?”
+
+    - “Who are you?” → [cadoren_1](#d-cadoren_1)
+
+    <span id="d-cadoren_1"></span>**`cadoren_1`** Cadoren: “My name is Cadoren. I'm the best cook in town.”
+
+    - Next → [cadoren_2](#d-cadoren_2)
+
+    <span id="d-cadoren_2"></span>**`cadoren_2`** Cadoren: “Unlike most, lesser, cooks in local towns, I'm a specialist.”
+
+    - “A specialist? In what?” → [cadoren_3](#d-cadoren_3)
+    - “Enough of the bragging. Show me what you have to trade.” → *shop opens*
+
+    <span id="d-cadoren_3"></span>**`cadoren_3`** Cadoren: “Food that lasts a long time. *cough*. Or in some cases food that has already lasted a long time.”
+
+    - “That sounds disgusting. No thanks.” → *conversation ends*
+    - “That sounds interesting. Show me what you have.” → *shop opens*
+    - “Why do you need food that lasts a long time?” → [cadoren_4](#d-cadoren_4)
+
+    <span id="d-cadoren_4"></span>**`cadoren_4`** Cadoren: “The path to Blackwater mountain has been cut off. There are also increasing attacks by monsters. These things have driven down trade, making supplies hard to get.”
+
+    - “So all the food you sell is old?” → [cadoren_5](#d-cadoren_5)
+    - “Where is Blackwater mountain?” → [cadoran_4b](#d-cadoran_4b)
+    - “Why are monster attacks increasing?” → [cadoren_4a](#d-cadoren_4a)
+    - “Thanks for the information. I have to leave now.” → *conversation ends*
+
+    <span id="d-cadoren_5"></span>**`cadoren_5`** Cadoren: “Of course not. We have some fields where we grow crops. And we have a number of goats.”
+
+    - “Goats?” → [cadoren_6](#d-cadoren_6)
+
+    <span id="d-cadoran_4b"></span>**`cadoran_4b`** Cadoren: “Head out of town to the north. There are two settlements there, Prim and Blackwater mountain Settlement. There has been a rockfall though, making it very difficult to get to them.”
+
+    - “Thanks for the information. What was it you said about the monsters?” → [cadoren_4](#d-cadoren_4)
+
+    <span id="d-cadoren_4a"></span>**`cadoren_4a`** Cadoren: “We think they came from Mount Galmore, and they recently started attacking the town. We can fight them off, but they deter travelers from coming here.”
+
+    - “OK. Could you repeat what you said about that other mountain.” → [cadoren_4](#d-cadoren_4)
+
+    <span id="d-cadoren_6"></span>**`cadoren_6`** Cadoren: “Goats are very versatile. They eat almost anything, provide both milk and meat, and their hides make excellent clothing.”
+
+    - Next → [cadoren_7](#d-cadoren_7)
+
+    <span id="d-cadoren_7"></span>**`cadoren_7`** Cadoren: “With supplies from other towns being so limited, getting the goats was an excellent idea. My idea, of course.”
+
+    - “*Sigh*. The whole town would obviously starve if it were not for you. Thanks for the information though.” → *conversation ends*
+    - “How about you quit with the bragging, and show me what you have to trade.” → *shop opens*
+    - “Whatever. Why don't we go back to what you said about the monsters and that mountain.” → [cadoren_4](#d-cadoren_4)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_cook.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_cook.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_cook.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_cook.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `stoutford_cook` · Data from v0.8.18</small>

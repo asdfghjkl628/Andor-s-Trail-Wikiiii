@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Algangror](../monsters/lae_algangror1.md) | 0 |
 | [Jhaeld](../monsters/lae_jhaeld1.md) | 0 |
+| [Algangror](../monsters/lae_algangror1.md) | 0 |
 
 <small>Map ID: `island_4_cave1` · Data from v0.8.18</small>
