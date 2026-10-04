@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 35 |
 | **Started by** | walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) |
-| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee_oc.md), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe2.md), [Godoe](../monsters/godoe1.md) +5 |
+| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee_oc.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe2.md), [Godoe](../monsters/godoe1.md) +5 |
 | **Locations** | [beekeeper1](../maps/beekeeper1.md), [fallhaven_clothes](../maps/fallhaven_clothes.md), [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [guynmart_wood_18](../maps/guynmart_wood_18.md) |
 | **Total XP** | 1,101 |
 | **Related quests** | 3 |
@@ -97,7 +97,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

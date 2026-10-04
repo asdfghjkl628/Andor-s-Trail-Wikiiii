@@ -34,6 +34,14 @@
 - [The five idols](../quests/fiveidols.md): stages 10, 20, 30, 31, 32, 33, 34, 35, 37, 51, 60, 61, 70, 100
 - [What is that stench?](../quests/remgard2.md): stages 30, 35
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Algangror. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/algangror.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (108 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -529,7 +537,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “Because of our previous .. misunderstanding, I think it's best they d…” → “Because of our previous ... misunderstanding, I think it's best they …”<br>· text: “You return. Thank you for helping me with my .. ahem .. rodent proble…” → “You return. Thank you for helping me with my ... ahem ... rodent prob…” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “Tell me, now that you have entered this house, would you be willing t…” → “Tell me, now that you have entered this house, would you be willing t…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 

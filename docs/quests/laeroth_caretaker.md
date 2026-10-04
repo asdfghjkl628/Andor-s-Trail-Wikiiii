@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 180) |
 | **Started by** | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) |
-| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin_b.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
+| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin_b.md), [Jerelin](../monsters/jerelin.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
 | **Locations** | [laerothmanor1](../maps/laerothmanor1.md), [laerothtomb1](../maps/laerothtomb1.md) |
 | **Total XP** | 18,000 |
 | **Related quests** | 2 |
@@ -79,7 +79,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

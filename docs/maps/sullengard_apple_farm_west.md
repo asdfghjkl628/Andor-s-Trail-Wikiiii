@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Overworked farmer](../monsters/deebo_orchard_farmer.md) | 0 |
 | [Alduan](../monsters/brightport_orchardsupervisor.md) | 0 |
+| [Overworked farmer](../monsters/deebo_orchard_farmer.md) | 0 |
 | [Ainsley](../monsters/deebo_orchard_farmer_ainsley.md) | 0 |
 
 ## Version history

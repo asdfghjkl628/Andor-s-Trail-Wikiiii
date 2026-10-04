@@ -22,8 +22,8 @@ South: Nor City" style="left:72.414%;top:60.000%;width:3.448%;height:3.333%"></s
 | [Forest serpent](../monsters/forest_serpent.md) | 20 |
 | [Wild fox](../monsters/wild_fox.md) | 25 |
 | [Wolf](../monsters/wolf.md) | 30 |
-| [Young forest fox](../monsters/forestfox2.md) | 31 |
 | [Anklebiter](../monsters/anklebiter.md) | 31 |
+| [Young forest fox](../monsters/forestfox2.md) | 31 |
 | [Forest fox](../monsters/forestfox3.md) | 35 |
 
 ## Version history

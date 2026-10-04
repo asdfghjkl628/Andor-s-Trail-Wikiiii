@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 83 |
 | **Started by** | walking into a blocked passage on [waytogalmore0](../maps/waytogalmore0.md) |
-| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist.md), [Blornvale](../monsters/stoutford_alchemist2.md), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
+| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist2.md), [Blornvale](../monsters/stoutford_alchemist.md), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
 | **Locations** | [flagstone0](../maps/flagstone0.md), [lakecave2](../maps/lakecave2.md), [remgard0](../maps/remgard0.md), [stoutford_armorer](../maps/stoutford_armorer.md) |
 | **Total XP** | 50 |
 | **Related quests** | 6 |
@@ -165,7 +165,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 5: 1 route"
 

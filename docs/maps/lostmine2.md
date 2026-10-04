@@ -31,8 +31,8 @@
 | [Young ash gargoyle](../monsters/ash1.md) | 109 |
 | [Strong Charwood goblin](../monsters/charwdg8.md) | 112 |
 | [Ash gargoyle](../monsters/ash2.md) | 116 |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 148 |
 
 ## Version history

@@ -63,7 +63,7 @@ None: talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../map
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -117,7 +117,7 @@ None: talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../map
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 30 journal text changed; stage 42 journal text changed<br>Dialogue: 4 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(The potion smells rancid, but you manage to drink it all down. The p…” → “[The potion smells rancid, but you manage to drink it all down. The p…” |
+| [v0.7.2](../versions/0.7.2.md) | stage 30 journal text changed; stage 42 journal text changed<br>Dialogue: 4 lines changed<br>· text: “(The potion smells rancid, but you manage to drink it all down. The p…” → “[The potion smells rancid, but you manage to drink it all down. The p…”<br>· text: “Bring me these things and I will be able to help you with your .. con…” → “Bring me these things and I will be able to help you with your ... co…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

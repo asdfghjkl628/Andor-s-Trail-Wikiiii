@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Elwyl](../monsters/elwyl.md) | 0 |
 | [Elwel](../monsters/elwel.md) | 0 |
+| [Elwyl](../monsters/elwyl.md) | 0 |
 
 ## Version history
 

@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 22 |
 | **Started by** | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd14.md), [Burhczyd](../monsters/burhczyd2.md), [Burhczyd](../monsters/burhczyd7.md), [Burhczyd](../monsters/burhczyd10.md), [Burhczyd](../monsters/burhczyd20.md), [Burhczyd](../monsters/burhczyd4.md) +38 |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd2.md), [Burhczyd](../monsters/burhczyd21.md), [Burhczyd](../monsters/burhczyd5.md), [Burhczyd](../monsters/burhczyd9.md), [Burhczyd](../monsters/burhczyd22.md), [Burhczyd](../monsters/burhczyd14.md) +38 |
 | **Locations** | [blackwater_mountain22](../maps/blackwater_mountain22.md), [blackwater_mountain43](../maps/blackwater_mountain43.md), [brightport_bakery](../maps/brightport_bakery.md), [brimhaven_tavern1](../maps/brimhaven_tavern1.md) |
 | **Total XP** | 204,370 |
 | **Related quests** | 3 |
@@ -129,7 +129,7 @@ None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/cro
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 22 routes"
 

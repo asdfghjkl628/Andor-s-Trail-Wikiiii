@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 240, 250, 251) |
 | **Started by** | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) |
-| **NPCs involved** | [Agent](../monsters/agent6.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent4.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent1.md), [Agent](../monsters/agent3.md) +2 |
+| **NPCs involved** | [Agent](../monsters/agent1.md), [Agent](../monsters/agent4.md), [Agent](../monsters/agent6.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent3.md) +2 |
 | **Locations** | [blackwater_mountain14](../maps/blackwater_mountain14.md), [blackwater_mountain17](../maps/blackwater_mountain17.md), [blackwater_mountain29](../maps/blackwater_mountain29.md), [blackwater_mountain30](../maps/blackwater_mountain30.md) |
 | **Total XP** | 8,250 |
 | **Related quests** | 4 |
@@ -77,7 +77,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

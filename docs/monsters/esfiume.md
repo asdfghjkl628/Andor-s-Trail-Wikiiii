@@ -18,6 +18,14 @@
 
 - [waytominingtown1a](../maps/waytominingtown1a.md)
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Esfiume. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/esfiume0.json" data-npc="Esfiume" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (5 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -50,7 +58,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “These aren't even our things. We are only .. uh .. standing around he…” → “These aren't even our things. We are only ... uh ... standing around …”<br>· text: “Oh nothing. They're .. uh .. empty. Yes, that's it, empty.” → “Oh nothing. They're ... uh ... empty. Yes, that's it, empty.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Oh, we .. um .. stay here. Completely legit. Not at all doing anythin…” → “Oh, we ... um ... stay here. Completely legit. Not at all doing anyth…”<br>· text: “These aren't even our things. We are only .. uh .. standing around he…” → “These aren't even our things. We are only ... uh ... standing around …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

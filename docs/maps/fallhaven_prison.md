@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Guard captain](../monsters/warden.md) | 0 |
 | [Guard](../monsters/guard.md) | 0 |
+| [Guard captain](../monsters/warden.md) | 0 |
 | [Prisoner](../monsters/prisoner.md) | 1 |
 
 ## Version history

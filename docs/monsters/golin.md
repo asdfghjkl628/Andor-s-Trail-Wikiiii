@@ -23,6 +23,14 @@
 - [Lessons learned](../quests/brv_school2.md): stages 20, 30, 40, 50, 60, 100, 104, 240
 - [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stages 20, 21
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Golin. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/golin.json" data-npc="Golin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (75 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -365,7 +373,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “However Elythara and her cultists failed to completely annihilate the…” → “However Elythara and her cultists failed to completely annihilate the…”<br>· text: “The Elytharans built several towns and cities, dedicated to their god…” → “The Elytharans built several towns and cities, dedicated to their god…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “However Elythara and her cultists failed to completely annihilate the…” → “However Elythara and her cultists failed to completely annihilate the…”<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

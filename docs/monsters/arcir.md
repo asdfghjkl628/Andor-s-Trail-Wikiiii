@@ -19,6 +19,14 @@
 - [Undertell: What was not written](../quests/undertell_book.md): stages 40, 90
 - [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stages 10
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Arcir. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/arcir_start.json" data-npc="Arcir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (29 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -168,7 +176,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…”<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.11](../versions/0.8.11.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |

@@ -33,6 +33,14 @@
 - [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 22
 - [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 15
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Alkapoan. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_richman.json" data-npc="Alkapoan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (38 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -214,7 +222,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …”<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 13 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
 

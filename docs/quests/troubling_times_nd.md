@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
-| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina2.md), [Sly Seraphina](../monsters/tt_seraphina4.md), [Sly Seraphina](../monsters/tt_seraphina5.md) |
+| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina2.md), [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina4.md) |
 | **Locations** | [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md) |
 | **Related quests** | 1 |
 
@@ -47,7 +47,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

@@ -114,7 +114,7 @@ Start with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_m
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 5: 1 route"
 
@@ -305,7 +305,7 @@ Start with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_m
 | [v0.7.15](../versions/0.7.15.md) | stage 24 journal text changed; stage 61 journal text changed<br>Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | stage 45 journal text changed |
 | [v0.8.4](../versions/0.8.4.md) | stage 23 journal text changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
 | [v0.8.18](../versions/0.8.18.md) | stage 22 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

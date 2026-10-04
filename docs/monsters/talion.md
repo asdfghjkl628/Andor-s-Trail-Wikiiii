@@ -34,6 +34,14 @@
 - [Shadows](../quests/shadows.md): stages 90, 100
 - [Troubling times](../quests/troubling_times.md): stages 70, 80, 170, 280, 290, 300
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Talion. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/talion.json" data-npc="Talion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (131 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -642,7 +650,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Third, I will need a gland of poison from a creature called the Irdeg…” → “Third, I will need a gland of poison from a creature called the irdeg…”<br>· text: “Yes. Well .. for a fee of course.” → “Yes. Well ... for a fee of course.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Now, let's get this cure started. I just need to grind this .. and mi…” → “Now, let's get this cure started. I just need to grind this ... and m…”<br>· text: “(He gives the potion a thorough shake for quite a while.)” → “[He gives the potion a thorough shake for quite a while]” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 36 lines added, 1 line changed |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 15 lines added, 2 lines changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |

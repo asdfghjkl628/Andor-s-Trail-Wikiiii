@@ -31,6 +31,14 @@
 - [Clouded intent](../quests/prim_hunt.md): stages 11, 20, 25, 40, 50, 70, 80, 99, 100, 240, 250, 251
 - [The agent and the beast](../quests/bwm_agent.md): stages 25, 80, 130, 131, 250
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Guthbered. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/guthbered_start.json" data-npc="Guthbered" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (83 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -411,7 +419,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “Now, the permit is not .. shall we say .. completely genuine. But we …” → “Now, the permit is not ... shall we say ... completely genuine. But w…”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
+| [v0.7.2](../versions/0.7.2.md) | faction added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “Ok. We will have to investigate that later.” → “OK. We will have to investigate that later.”<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

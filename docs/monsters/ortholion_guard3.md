@@ -19,6 +19,14 @@
 - [blackwater_mountain10](../maps/blackwater_mountain10.md)
 - [elm_mine2](../maps/elm_mine2.md)
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Feygard patrol guard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard3_selector.json" data-npc="Feygard patrol guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (15 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -102,7 +110,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 10 lines added |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 5 lines added, 3 lines changed<br>· text: “We soldiers of Feygard have come to this lonely place by direct comma…” → “We soldiers of Feygard have come to this lonely place by direct comma…”<br>· text: “Our... mighty general has already caught that Shadow fanatic...Yes. D…” → “Our... mighty general has already caught that Shadow fanatic...Yes. D…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 5 lines added, 3 lines changed<br>· text: “Our... mighty general has already caught that Shadow fanatic...Yes. D…” → “Our... mighty general has already caught that Shadow fanatic...Yes. D…”<br>· text: “We soldiers of Feygard have come to this lonely place by direct comma…” → “We soldiers of Feygard have come to this lonely place by direct comma…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Yes sir, I w... Hey! What did you just say?” → “Yes, I w... Hey! What did you just say?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -22,6 +22,14 @@
 
 - [Everything in order](../quests/remgard.md): stages 63, 70
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Duaina. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/duaina.json" data-npc="Duaina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (26 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -148,7 +156,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “The dreams and the visions. It is you! The child that challenges the …” → “The dreams and the visions. It is you! The child that challenges the …”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -25,6 +25,14 @@
 - [The balance of scales](../quests/brightport_lizard.md): stages 5, 10, 36, 50, 55, 100, 110
 - [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 104, 105, 106, 107, 110, 111, 112, 221, 233, 257
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Bryma. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brightport_bryma_selector.json" data-npc="Bryma" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (67 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -343,7 +351,7 @@
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 67 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “We sat down and he started asking me all sorts of questions. I was gl…” → “We sat down and he started asking me all sorts of questions. I was gl…”<br>· text: “Not to mention that the origin of those bones could have very well hu…” → “Not to mention that the origin of those bones could have very well ha…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Not to mention that the origin of those bones could have very well hu…” → “Not to mention that the origin of those bones could have very well ha…”<br>· text: “We sat down and he started asking me all sorts of questions. I was gl…” → “We sat down and he started asking me all sorts of questions. I was gl…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

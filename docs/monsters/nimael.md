@@ -23,6 +23,14 @@
 - [Delicious soup](../quests/gison_soup.md): stages 70, 90, 110, 120
 - [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 20, 21
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Nimael. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/nimael.json" data-npc="Nimael" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (20 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -125,7 +133,7 @@
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Thanks to your advice, we have been successful selling more soup to t…” → “Thanks to your advice, we have been successful selling more soup to t…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed |
-| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…”<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…”<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…” |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

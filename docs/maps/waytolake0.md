@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Small scaradon](../monsters/scaradon_2.md) | 35 |
 | [Scaradon](../monsters/scaradon_3.md) | 35 |
+| [Small scaradon](../monsters/scaradon_2.md) | 35 |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 |
 | [Puny plaguecrawler](../monsters/plaguesp_1.md) | 55 |
 | [Plaguecrawler](../monsters/plaguesp_2.md) | 57 |

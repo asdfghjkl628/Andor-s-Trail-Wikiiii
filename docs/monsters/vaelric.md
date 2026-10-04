@@ -33,6 +33,14 @@
 - [The swamp healer](../quests/swamp_healer.md): stages 10, 30
 - [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 59
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Vaelric. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/vaelric_selector.json" data-npc="Vaelric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (68 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -332,7 +340,7 @@
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 68 lines added |
 | [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed<br>· text: “Interesting, but not helpful. Go back to search for something useful …” → “Interesting, but not helpful. Go back and search for something useful…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “You see, I have to make ten tonics at a time and because I refuse to …” → “You see, I have to make ten tonics at a time and because I refuse to …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

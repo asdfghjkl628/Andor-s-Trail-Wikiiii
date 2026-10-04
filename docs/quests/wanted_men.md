@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 19 (completes at 57, 70, 80) |
 | **Started by** | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) |
-| **NPCs involved** | [Defy](../monsters/aidem_base_defy.md), [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_camp_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
+| **NPCs involved** | [Defy](../monsters/aidem_camp_defy.md), [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_base_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
 | **Locations** | [aidem_base_2](../maps/aidem_base_2.md), [aidem_camp](../maps/aidem_camp.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 51,385 |
 | **Related quests** | 6 |
@@ -75,7 +75,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

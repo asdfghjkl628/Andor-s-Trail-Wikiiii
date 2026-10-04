@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 42 (completes at 20, 30, 310) |
 | **Started by** | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)), [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/thief_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina2.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina4.md) +2 |
+| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina4.md), [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/thief_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina2.md) +2 |
 | **Locations** | [blackwater_mountain12](../maps/blackwater_mountain12.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 15,002 |
 | **Related quests** | 7 |
@@ -117,7 +117,7 @@
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 6 routes"
 
@@ -291,7 +291,7 @@
 | Version | Change |
 |---|---|
 | [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “By the way, here's your money back. 1000 gold.” → “By the way, here's your money back. {1000} gold.”<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

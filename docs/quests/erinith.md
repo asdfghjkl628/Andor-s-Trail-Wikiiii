@@ -47,7 +47,7 @@ No links to other quests were found in the dialogue conditions.
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -93,7 +93,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]”<br>· text: “Thank you for bringing them to me. *drinks all four potions*” → “Thank you for bringing them to me. [Drinks all four potions]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]”<br>· text: “Bonemeal potion? But.. but.. We are not allowed to use them since the…” → “Bonemeal potion? But ... but ... we are not allowed to use them since…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

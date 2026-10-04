@@ -40,6 +40,14 @@
 
 - [Everything in order](../quests/remgard.md): stages 64, 70
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Rothses. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/rothses.json" data-npc="Rothses" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (35 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -210,7 +218,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “It's ok, I guess. Not as good as I would like it to be, now that the …” → “It's OK, I guess. Not as good as I would like it to be, now that the …”<br>· text: “Hm, let me see.” → “Hmm, let me see.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Hm, let me see.” → “Hmm, let me see.”<br>· text: “It's ok, I guess. Not as good as I would like it to be, now that the …” → “It's OK, I guess. Not as good as I would like it to be, now that the …” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Now that is one fine looking chain mail you have there! For 3000 gold…” → “Now that is one fine looking chain mail you have there! For {3000} go…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

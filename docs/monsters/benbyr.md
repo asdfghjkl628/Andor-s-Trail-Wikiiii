@@ -24,6 +24,14 @@
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 11
 - [You shall pass](../quests/undertell_barricades.md): stages 60, 70, 100, 110, 120
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Benbyr. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/benbyr.json" data-npc="Benbyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (46 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -231,7 +239,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.”<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”<br>· text: “You look like an aspiring adventurer. Are you willing to do some .. (…” → “You look like an aspiring adventurer. Are you willing to do some ... …” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines added, 1 line changed |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “(This man seems to be inmersed in his thoughts)” → “(This man seems to be immersed in his thoughts)” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 15 lines added, 1 line changed |

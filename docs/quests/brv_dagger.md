@@ -86,7 +86,7 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 
@@ -207,7 +207,7 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 18 lines added |
-| [v0.7.12](../versions/0.7.12.md) | renamed “A strange-looking dagger” → “A strange looking dagger”; stages added: 105, 110, 115, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230; stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 60 journal text changed (+8 more)<br>Dialogue: 15 lines added, 5 lines changed<br>· text: “I recognize this. It was used in something I made, many years ago. It…” → “I recognize this. It was used in something I made, many years ago. It…”<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…” |
+| [v0.7.12](../versions/0.7.12.md) | renamed “A strange-looking dagger” → “A strange looking dagger”; stages added: 105, 110, 115, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230; stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 60 journal text changed (+8 more)<br>Dialogue: 15 lines added, 5 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…” |
 | [v0.7.13](../versions/0.7.13.md) | stage 140 journal text changed<br>Dialogue: 1 line changed<br>· text: “That is as good as done” → “That is as good as done.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

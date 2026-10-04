@@ -37,6 +37,14 @@
 - [Stoutford's old castle](../quests/stoutford_castle.md): stages 10, 12, 20, 30, 42, 50, 60, 70
 - [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 180, 190
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Yolgen. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/yolgen_0.json" data-npc="Yolgen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (67 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*

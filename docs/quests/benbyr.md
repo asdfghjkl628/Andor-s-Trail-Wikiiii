@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30, 60) |
 | **Started by** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
-| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep2.md), [Sheep](../monsters/lostsheep4.md) |
+| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep4.md), [Sheep](../monsters/lostsheep2.md) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md) |
 | **Total XP** | 900 |
 | **Related quests** | 2 |
@@ -54,7 +54,7 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 1 route"
 

@@ -33,6 +33,14 @@
 - [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stages 44, 45, 47, 48
 - [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stages 105, 106, 107
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Gylew. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/gylew.json" data-npc="Gylew" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (71 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -373,7 +381,7 @@
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.8.11](../versions/0.8.11.md) | attackChance added (60); attackCost added (5); attackDamage added ({"max": 22, "min": 10}); blockChance added (40); criticalMultiplier added (2.0); criticalSkill added (20) (+4 more)<br>Dialogue: 66 lines added, 1 line changed<br>· text: “Beat it, kid. You shouldn't be out here.” → “Hey kid.” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 8 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Great! Let me have it.” → “Great! Let me have them.” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 8 lines changed<br>· text: “Great! Let me have it.” → “Great! Let me have them.”<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, don't get greedy on me. How about 7000 gol…” → “[While laughing] Now, now, don't get greedy on me. How about {7000} g…” |
 

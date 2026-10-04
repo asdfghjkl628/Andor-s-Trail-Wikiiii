@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 14) |
 | **Started by** | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
-| **NPCs involved** | [Gamjee](../monsters/gamjee_oc.md), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md) |
+| **NPCs involved** | [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee_oc.md), [Godelieve](../monsters/village_godelieve.md) |
 | **Locations** | [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md) |
 | **Total XP** | 5,200 |
 | **Related quests** | 1 |
@@ -77,7 +77,7 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

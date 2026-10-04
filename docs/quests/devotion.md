@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 24 (completes at 450, 480) |
 | **Started by** | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) |
-| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade2.md), [Forsaken shade](../monsters/shade8.md), [Forsaken shade](../monsters/shade1.md), [Forsaken shade](../monsters/shade5.md), [Forsaken shade](../monsters/shade7.md) +6 |
+| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade10.md), [Forsaken shade](../monsters/shade4.md), [Forsaken shade](../monsters/shade8.md), [Forsaken shade](../monsters/shade3.md), [Forsaken shade](../monsters/shade2.md) +6 |
 | **Locations** | [undertell_3_00](../maps/undertell_3_00.md), [undertell_3_02](../maps/undertell_3_02.md), [undertell_3_03](../maps/undertell_3_03.md), [undertell_3_10](../maps/undertell_3_10.md) |
 | **Total XP** | 9,003 |
 | **Related quests** | 2 |
@@ -96,7 +96,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 20: 1 route"
 

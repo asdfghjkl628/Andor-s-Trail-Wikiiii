@@ -19,6 +19,14 @@
 - [Key of Luthor](../quests/bucus.md): stages 30, 40, 50
 - [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 60, 61, 63, 71, 73
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Athamyr. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/athamyr.json" data-npc="Athamyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (29 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*

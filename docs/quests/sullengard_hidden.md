@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lake_shore_road_9](../maps/lake_shore_road_9.md), [mywild20_houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
 | **Related quests** | 13 |
@@ -124,7 +124,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 1: 1 route"
 

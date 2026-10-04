@@ -18,6 +18,14 @@
 
 - [Lost treasures](../quests/nocmar.md): stages 10, 50
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Unnmir. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/unnmir.json" data-npc="Unnmir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (24 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -129,7 +137,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…”<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…”<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

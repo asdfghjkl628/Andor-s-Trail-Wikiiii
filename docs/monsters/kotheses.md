@@ -36,6 +36,14 @@
 - [Search for Andor](../quests/andor.md): stages 120
 - [Shadow of the torturer](../quests/lae_torturer.md): stages 25, 30, 35, 40, 50, 60, 120
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Kotheses. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/lae_torturer.json" data-npc="Kotheses" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (40 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -216,7 +224,7 @@
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …”<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?”<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

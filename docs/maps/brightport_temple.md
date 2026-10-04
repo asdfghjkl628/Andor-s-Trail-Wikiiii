@@ -14,9 +14,9 @@
 
 | Name | HP |
 |---|---|
-| [Othinus](../monsters/brightportpriest.md) | 0 |
-| [Praying woman](../monsters/brightportchurch1.md) | 0 |
 | [Chapelgoer ](../monsters/brightportchurch.md) | 0 |
+| [Praying woman](../monsters/brightportchurch1.md) | 0 |
+| [Othinus](../monsters/brightportpriest.md) | 0 |
 
 ## Version history
 

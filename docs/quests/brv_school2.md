@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 22 (completes at 200, 210, 220, 230, 240) |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil7.md), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil3.md) +5 |
+| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil8.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil2.md), [Pupil](../monsters/brv_pupil3.md) +5 |
 | **Locations** | [brimhaven_school](../maps/brimhaven_school.md) |
 | **Total XP** | 9,500 |
 | **Related quests** | 1 |
@@ -76,7 +76,7 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 2 routes"
 

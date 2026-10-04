@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Anakis](../monsters/anakis.md) | 0 |
 | [Juttarka](../monsters/juttarka.md) | 0 |
+| [Anakis](../monsters/anakis.md) | 0 |
 
 ## Version history
 

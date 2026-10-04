@@ -29,6 +29,14 @@
 
 - [Much water](../quests/brv_flood.md): stages 20, 30, 50, 52, 70, 72, 120
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Alvies. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_brothers_select.json" data-npc="Alvies" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (11 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -86,7 +94,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…”<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…”<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

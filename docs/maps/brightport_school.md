@@ -17,8 +17,8 @@
 
 | Name | HP |
 |---|---|
-| [Dibella](../monsters/brightportnpc3.md) | 0 |
 | [Cavill](../monsters/brightportstudent3.md) | 0 |
+| [Dibella](../monsters/brightportnpc3.md) | 0 |
 
 ## Version history
 

@@ -29,6 +29,14 @@
 - [Flows through the veins](../quests/loneford.md): stages 41, 42, 45, 50, 60
 - [Search for Andor](../quests/andor.md): stages 61, 62
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Buceth. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/buceth.json" data-npc="Buceth" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (56 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -296,7 +304,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…”<br>· text: “Without going into specifics, let's say that these are methods that h…” → “Without going into specifics, let's say that these are ways that have…” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “A while later, the men return. They explain that some of the methods …” → “A while later, the men return. They explain that some of the ways thi…”<br>· text: “Now, tell me. Would you in secret continue using the old methods your…” → “Now, tell me. Would you in secret continue using the old ways your pa…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |

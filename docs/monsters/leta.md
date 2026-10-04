@@ -20,6 +20,14 @@
 - [Missing husband](../quests/leta.md): stages 10, 30, 50, 70, 100
 - [Thief apprentice](../quests/Thieves01.md): stages 25
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Leta. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/leta_selector.json" data-npc="Leta" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (31 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*

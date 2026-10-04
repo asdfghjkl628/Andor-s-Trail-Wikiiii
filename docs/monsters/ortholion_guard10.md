@@ -18,6 +18,14 @@
 
 - [elm_mine1](../maps/elm_mine1.md)
 
+## Dialogue simulator
+
+Set up your situation (quest stages, items, kills…), then talk to Drunken Feygard scout. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard10_s.json" data-npc="Drunken Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 ??? quote "Dialogue (5 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -53,7 +61,7 @@
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 5 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!”<br>· text: “No! *looks at you* This is my beeeeeer, kid! *hic*” → “No! [looks at you] This is my beeeeeer, kid! [hic]” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “H..Halt! *hic* Kids not allowed!” → “H..Halt! [hic] Kids not allowed!”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

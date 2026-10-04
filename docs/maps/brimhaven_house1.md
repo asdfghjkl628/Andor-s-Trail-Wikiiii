@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Alkapoan](../monsters/brv_richman.md) | 0 |
 | [Mustura](../monsters/brv_guard_captain.md) | 0 |
+| [Alkapoan](../monsters/brv_richman.md) | 0 |
 
 ## Version history
 

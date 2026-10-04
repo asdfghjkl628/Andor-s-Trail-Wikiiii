@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Percival](../monsters/village_percival.md) | 0 |
 | [Philippa](../monsters/village_philippa.md) | 0 |
+| [Percival](../monsters/village_percival.md) | 0 |
 
 ## Version history
 

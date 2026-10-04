@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 310) |
 | **Started by** | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)), [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) |
-| **NPCs involved** | [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror1.md), [Algangror](../monsters/lae_algangror3.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld2.md) +5 |
+| **NPCs involved** | [Algangror](../monsters/lae_algangror3.md), [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror1.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld1.md) +5 |
 | **Locations** | [final_cave1](../maps/final_cave1.md), [final_cave2](../maps/final_cave2.md), [island1](../maps/island1.md), [island2](../maps/island2.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |
@@ -70,7 +70,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
+*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
 
 ???+ note "Stage 10: 3 routes"
 
