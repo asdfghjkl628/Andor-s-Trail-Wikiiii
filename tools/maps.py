@@ -347,6 +347,7 @@ def build_maps(ctx):
             P.append("## Monsters & NPCs here\n\n| Name | HP |\n|---|---|\n" + ''.join(
                 f"| [{ctx['md_esc'](monsters[x].get('name', x))}](../monsters/{x}.md) | {monsters[x].get('maxHP', 0)} |\n"
                 for x in sorted(here, key=lambda x: monsters[x].get('maxHP', 0))))
+        if ctx.get('history'): P.append(ctx['history']('maps', m, (), ''))
         P.append(f"\n<small>Map ID: `{m}` · Data from v{ctx['VERSION']}</small>\n")
         ctx['write'](f'maps/{m}.md', ''.join(P))
     return spawn_maps, len(parsed), QI.notes, script_maps

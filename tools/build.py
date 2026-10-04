@@ -22,11 +22,13 @@ DATA = os.path.join(ROOT, 'data')
 JAVA = os.path.join(GAME, 'app', 'src', 'main', 'java', 'com', 'gpl', 'rpg', 'AndorsTrail')
 
 # ---------------------------------------------------------------- loading
+ARRAY_NAME = {'itemlist': 'items', 'monsterlist': 'monsters', 'questlist': 'quests', 'conversationlist': 'conversationlists',
+              'droplists': 'droplists', 'itemcategories': 'itemcategories', 'actorconditions': 'actorconditions'}
 def loaded_files(kind):
-    """Files the game actually loads for a resource kind (skips debug/test data)."""
+    """Files the game actually loads for a resource kind, per res/values/loadresources.xml (skips debug/test data)."""
     tree = ET.parse(os.path.join(GAME, 'res', 'values', 'loadresources.xml'))
     for arr in tree.getroot():
-        if arr.get('name') == f'loadresource_{kind}':
+        if arr.get('name') in (f'loadresource_{kind}', f'loadresource_{ARRAY_NAME.get(kind, kind)}'):
             return [os.path.join(RAW, i.text.split('/')[-1] + '.json') for i in arr if i.text]
     return sorted(glob.glob(os.path.join(RAW, f'{kind}_*.json')))
 
@@ -243,6 +245,16 @@ for d in ('items', 'monsters', 'quests', 'skills', 'maps', 'assets/maps'):
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from maps import build_maps
+import history as H
+hist = H.update_history(DATA, os.path.join(GAME, 'res'), VERSION)
+_names = {'items': {k: v.get('name', k) for k, v in items.items()}, 'monsters': {k: v.get('name', k) for k, v in monsters.items()},
+          'quests': {k: v.get('name', k) for k, v in quests.items()}}
+def page_exists(kind, oid):
+    if kind == 'maps': return os.path.exists(os.path.join(GAME, 'res', 'xml', oid + '.tmx'))
+    return oid in {'items': items, 'monsters': monsters, 'quests': quests}.get(kind, {})
+def hist_md(kind, oid, dialogue_ids=(), lead=''):
+    return H.history_section(hist, kind, oid, VERSION, dialogue_ids, lead)
+def comp_md(qid): return H.completability_text(hist, qid, _names['items'], VERSION) if hist else ''
 def _monster_icon(mid): return icon(monsters.get(mid, {}).get('iconID'), 'monsters')
 def _monster_size(mid):
     rel = _monster_icon(mid)
@@ -253,7 +265,7 @@ def _monster_size(mid):
 spawn_maps, n_maps, quest_notes, script_maps = build_maps(dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
     items=items, conversations=conversations, quests=quests, skills=skills, conditions=conditions,
     group_to_monsters=group_to_monsters, write=write, md_esc=md_esc, chance_txt=chance_txt, rng=rng,
-    monster_icon=_monster_icon, monster_size=_monster_size,
+    monster_icon=_monster_icon, monster_size=_monster_size, history=lambda *a: hist_md(*a),
     item_icon=lambda iid: icon(items.get(iid, {}).get('iconID'), 'items')))
 from notes import Notes
 from quests import QuestGraph, write_quest_pages, npc_section
@@ -286,6 +298,8 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
             L.append(f"| {link('monsters', mid, monsters[mid].get('name', mid))} | {chance_txt(ch)} | {q} |\n")
     if sold_by.get(iid):
         L.append("\n## Sold by\n\n" + ''.join(f"- {link('monsters', mid, monsters[mid].get('name', mid))}\n" for mid, _, _ in sold_by[iid]))
+    L.append(H.verified("item data", VERSION))
+    L.append(hist_md('items', iid))
     L.append(f"\n<small>Item ID: `{iid}` · Data from v{VERSION}</small>\n")
     write(f'items/{iid}.md', ''.join(L))
     item_rows.append((it, c, ic))
@@ -328,14 +342,15 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
             P.append(f"| {link('items', e['itemID'], items.get(e['itemID'], {}).get('name', e['itemID']))} | {chance_txt(e.get('chance'))} | {rng(q)} |\n")
     if spawn_maps.get(mid):
         P.append("\n## Found on\n\n" + ''.join(f"- {link('maps', mp, mp)}\n" for mp in sorted(spawn_maps[mid])))
-    if m.get('phraseID'): P.append('\n' + npc_section(QG, mid, notes))
+    if m.get('phraseID'): P.append('\n' + npc_section(QG, mid, notes, hist_md))
+    else: P.append(hist_md('monsters', mid))
     P.append(f"\n<small>Monster ID: `{mid}` · Data from v{VERSION}</small>\n")
     write(f'monsters/{mid}.md', ''.join(P))
     L.append(f"| {img(ic)} | [{md_esc(m.get('name', mid))}]({mid}.md) | {m.get('monsterClass', '?')} | {m.get('maxHP', 0)} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} | {crit} |\n")
 write('monsters/index.md', ''.join(L))
 
 # quests: dependency-graph pages (tools/quests.py)
-write_quest_pages(QG, write, VERSION, notes)
+write_quest_pages(QG, write, VERSION, notes, hist_md, comp_md, H.verified)
 
 # ---------------------------------------------------------------- stats & skills
 import math
@@ -468,7 +483,7 @@ for sid, sk in skills.items():
     P = [f"# {sk['name']}\n\n*{sk['summary']}*\n\n",
          '<div class="infobox" markdown>\n\n| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in info if v) + '\n</div>\n\n',
          "## Effect\n\n" + (html.unescape(sk['long']).replace('\n', '\n\n') if sk['long'] else sk['short']) + "\n\n",
-         "## Requirements per skill level\n\n" + level_rows(sk) + "\n"]
+         "## Requirements per skill level\n\n" + level_rows(sk) + H.verified("game code (`SkillCollection.java`)", VERSION)]
     if sk['levelUpType'] == 'firstLevelRequiresQuest':
         P.append("The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.\n\n")
     if unlocks.get(sid):
@@ -702,6 +717,12 @@ AP to use an item, e.g. drinking a potion in the middle of a fight.
 ## Re-equip cost
 AP to change equipment during combat. Possible, but rarely a good use of your turn.
 """)
+# ---------------------------------------------------------------- version history pages
+if hist:
+    shutil.rmtree(os.path.join(DOCS, 'versions'), ignore_errors=True)
+    H.write_version_pages(hist, write, _names, VERSION, page_exists)
+    H.growth_chart(hist, os.path.join(DOCS, 'assets', 'charts', 'growth.png'))
+
 # ---------------------------------------------------------------- snapshot + changelog
 snap = {'version': VERSION,
         'items': {k: {x: v[x] for x in v if x not in ('iconID',)} for k, v in items.items()},
@@ -741,7 +762,7 @@ write('index.md', f"""# Andor's Trail Wiki
 
 A wiki for **Andor's Trail**, the open-source pixel RPG where you set out to find your missing brother Andor and somehow end up running errands for half the continent.
 
-Everything here is generated straight from the game's own data files, so the numbers are exactly what the game uses. No "I think it was around 30%?" guesswork. When the developers tag a new release, the wiki rebuilds itself within the hour. It currently describes **v{VERSION}**.
+Everything here is generated straight from the game's own data files, so the numbers are exactly what the game uses. No "I think it was around 30%?" guesswork. When the developers tag a new release, the wiki rebuilds itself within the hour. Every page states the version it describes; this build covers **v{VERSION}**, with history back to v0.7.0.
 
 <div class="grid cards" markdown>
 
@@ -751,7 +772,7 @@ Everything here is generated straight from the game's own data files, so the num
 - **[Strategy](strategy/index.md)**<br>Hand-written advice. Opinionated, as advertised
 - **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and every journal entry, plus the hidden flags behind them
 - **[World map](maps/index.md)**<br>{n_maps} maps, every monster, every chest
-- **[Changelog](changelog.md)**<br>What each release changed, down to the last gold coin
+- **[Version history](versions/index.md)**<br>What every release since v0.7.0 changed, down to the last gold coin
 
 </div>
 

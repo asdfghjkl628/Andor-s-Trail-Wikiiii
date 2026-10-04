@@ -47,6 +47,7 @@ class QuestGraph:
     def _reach(self):
         """BFS from each root: shortest dialogue path to every reachable phrase."""
         self.paths = defaultdict(dict)   # phrase -> {root phrase: prev-map}
+        self.root_nodes = {}            # root phrase -> every phrase reachable from it
         for rp in self.roots:
             prev, q = {rp: None}, deque([rp])
             while q:
@@ -56,6 +57,7 @@ class QuestGraph:
                     if n in self.convs and n not in prev:
                         prev[n] = (x, i); q.append(n)
             for node in prev: self.paths[node][rp] = prev
+            self.root_nodes[rp] = set(prev)
 
     def path_edges(self, node, rp):
         prev, out, x = self.paths[node][rp], [], node
@@ -181,7 +183,7 @@ class QuestGraph:
 
 
 # ---------------------------------------------------------------- quest pages
-def write_quest_pages(G, write, VERSION, notes):
+def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, verified=lambda w, v: ''):
     L = ["# Quests\n\nEvery quest that shows up in your journal, plus, at the bottom, the hidden story flags the game uses to keep track of you without telling you. "
          "Each quest page shows what starts it, what each stage needs, what it unlocks and what it locks you out of.\n\n"
          "| Quest | Stages | Starts with |\n|---|---|---|\n"]
@@ -214,6 +216,8 @@ def write_quest_pages(G, write, VERSION, notes):
                 ('Locations', ', '.join(f"[{m}](../maps/{m}.md)" for m in locs[:4]) if locs else None),
                 ('Total XP', f"{xp:,}" if xp else None), ('Related quests', str(len(related)) if related else None)]
         P.append('<div class="infobox" markdown>\n\n| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in info if v) + '\n</div>\n\n')
+        if comp_text and comp_text(qid):
+            P.append(f"!!! history \"Version note\"\n    {comp_text(qid)}\n\n")
         intro = next((s.get('logText') for s in sorted(stages, key=lambda s: s.get('progress', 0)) if s.get('logText')), '')
         if intro: P.append(f"## Overview\n\n> {_short(intro, 400)}\n\n")
 
@@ -232,6 +236,8 @@ def write_quest_pages(G, write, VERSION, notes):
                 for i, (w, c) in enumerate(uniq[:6], 1):
                     P.append((f"**Route {i}** ({w}):\n\n" if len(uniq) > 1 else f"Start with {w}. Required:\n\n") +
                              (''.join(f"- {x}\n" for x in c) if c else "- nothing\n") + "\n")
+
+        if first is not None: P.append(verified("quest and dialogue data", VERSION))
 
         # ---- dependencies (quest logic)
         P.append("## Dependencies\n\n*Quest logic, read from the dialogue conditions.*\n\n")
@@ -275,10 +281,10 @@ def write_quest_pages(G, write, VERSION, notes):
             P.append(f"| <span id=\"stage-{v}\"></span>{v} | {jt} | {'<br>'.join(trig_u[:3]) + (f'<br>+{len(trig_u) - 3} more' if len(trig_u) > 3 else '')} "
                      f"| {', '.join(sorted(needs)) or '–'} | {'<br>'.join(dict.fromkeys(rew)) or '–'} |\n")
         if untraced:
-            P.append("\n<span id=\"untraced\"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. "
+            P.append(f"\n<span id=\"untraced\"></span>*No trigger*: as of v{VERSION}, nothing in the game's dialogue, maps or code sets this stage. "
                      "It may be unused or unfinished content, or set in a way this wiki can't trace yet. "
                      "That doesn't make it a secret: treat anything you hear about it as speculation.\n")
-        P.append("\n")
+        P.append(verified("quest, dialogue and map data", VERSION))
 
         # ---- every dialogue route to every stage (preserves alternative paths)
         route_md = []
@@ -304,7 +310,12 @@ def write_quest_pages(G, write, VERSION, notes):
             P.append("## How each stage is reached\n\n*Every dialogue route found in the game data, including alternatives that end up in the same place. "
                      "\"Conditions\" are everything checked along that dialogue path.*\n\n" + ''.join(route_md))
 
+        if route_md: P.append(verified("dialogue data", VERSION))
         removed = [(v, cid) for (qq, v), cids in G.removals.items() if qq == qid for cid in cids]
+        if history:
+            dlg = {c for (qq, v), cids in list(G.triggers.items()) + list(G.removals.items()) if qq == qid for c in cids}
+            lead = comp_text(qid) if comp_text else ''
+            P.append(history('quests', qid, dlg, (f"**Completability:** {lead}" if lead else '')))
         P.append(notes('quests', qid, q.get('name', qid)))
         tech = [('Quest ID', f"`{qid}`"), ('showInLog', q.get('showInLog', 0)),
                 ('Stage IDs', ', '.join(map(str, st_vals)) or '–'),
@@ -324,7 +335,7 @@ def write_quest_pages(G, write, VERSION, notes):
 
 
 # ---------------------------------------------------------------- NPC dialogue section (appended to monster pages)
-def npc_section(G, mid, notes):
+def npc_section(G, mid, notes, history=None):
     m = G.monsters[mid]
     rp = m.get('phraseID')
     if rp not in G.convs: return ''
@@ -364,5 +375,6 @@ def npc_section(G, mid, notes):
     out.append(f"??? quote \"Dialogue ({len(order)} lines{'+' if total is None else ''})\"\n\n"
                "    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*\n\n" + ''.join(D) +
                ("    *Dialogue continues beyond this point (truncated).*\n" if total is None else '') + "\n")
+    if history: out.append(history('monsters', mid, G.root_nodes.get(rp, ()), ''))
     out.append(notes('monsters', mid, m.get('name', mid)))
     return ''.join(out)

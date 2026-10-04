@@ -34,11 +34,13 @@ nav:
       - Combat tips: strategy/combat.md
   - Quests: quests/index.md
   - World map: maps/index.md
-  - Changelog: changelog.md
+  - Version history: versions/index.md
 not_in_nav: |
   /items/*.md
   /monsters/*.md
   /skills/*.md
   /quests/*.md
   /maps/*.md
+  /versions/*.md
+  changelog.md
 validation: { links: { not_found: info, unrecognized_links: info }, nav: { omitted_files: info } }

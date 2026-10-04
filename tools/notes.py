@@ -54,5 +54,16 @@ class Notes:
         for s in SECTIONS[kind]:
             body = found.get(s, '')
             body = re.sub(r'<!--.*?-->', '', body, flags=re.S).strip()
+            body = render_tags(body)
             out.append(f"### {s}\n\n{body if body else invite}\n\n")
         return ''.join(out)
+
+
+def render_tags(text):
+    """[verified: v0.8.18 | gameplay]  [interpretation]  [unverified]  [developer: https://...]"""
+    text = re.sub(r'\[verified:\s*([^|\]]+?)\s*\|\s*([^\]]+?)\s*\]',
+                  lambda m: f'<span class="verified">Verified in {m.group(1)} · Source: {m.group(2)}</span>', text)
+    text = re.sub(r'\[developer:\s*([^\]]+?)\s*\]', lambda m: f'<span class="verified">Source: [developer statement]({m.group(1)})</span>', text)
+    text = text.replace('[interpretation]', '<span class="interp">Interpretation; not confirmed by game data.</span>')
+    text = text.replace('[unverified]', '<span class="interp">Unverified; please confirm in-game.</span>')
+    return text

@@ -101,3 +101,22 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .md-typeset td:has(span:target) { background: rgba(224,164,88,.28); }
 .map-wrap.world img { image-rendering: auto; }
 .wm-zone:hover { background: rgba(224,164,88,.35); outline: 2px solid #e0a458; z-index: 2; }
+
+/* ---------- infobox (standard page header for skills, and later items/monsters/locations) ---------- */
+.md-typeset .infobox { float: right; clear: right; width: 17rem; max-width: 100%; margin: 0 0 1rem 1.2rem;
+  border: 12px solid transparent; border-image: url(../assets/ui/richframe.png) 8 10 fill / 12px 14px stretch; image-rendering: pixelated; }
+.md-typeset .infobox table:not([class]) { font-size: .68rem; border: 0; background: none; margin: 0; display: table; width: 100%; }
+.md-typeset .infobox table:not([class]) thead { display: none; }
+.md-typeset .infobox table:not([class]) td { padding: .25em .4em; border-top: 1px solid var(--cb-mid); }
+.md-typeset .infobox td:first-child { color: var(--cb-orange); white-space: nowrap; }
+@media (max-width: 45em) { .md-typeset .infobox { float: none; width: auto; margin: 0 0 1rem; } }
+.md-typeset h2 { clear: both; }
+
+/* ---------- source verification ---------- */
+.md-typeset .verified, .md-typeset p.verified { font-style: italic; font-size: .68rem; color: var(--cb-text-dim); }
+.md-typeset p.verified::before, .md-typeset span.verified::before { content: '✔ '; color: #5fd068; font-style: normal; }
+.md-typeset .interp { font-style: italic; font-size: .68rem; color: #e0a458; }
+.md-typeset .interp::before { content: '? '; font-style: normal; }
+.md-typeset .admonition.history { border-color: #e0a458; }
+.md-typeset .history > .admonition-title { background: rgba(224,164,88,.15); }
+.md-typeset .history > .admonition-title::before { background-color: #e0a458; -webkit-mask-image: var(--md-admonition-icon--info); mask-image: var(--md-admonition-icon--info); }

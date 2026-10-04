@@ -25,5 +25,29 @@ short "Add it" invitation on the page. The easiest way to start is to click that
 - **Bugs**: glitches and workarounds.
 - **Theory / speculation**: anything unconfirmed. Something mysterious may simply be unfinished content.
 
+## Say where a claim comes from
+
+For anything non-obvious, and especially on complicated quests, tag the claim with its source. The tags render
+as small italic labels:
+
+| Write this | Shows as |
+|---|---|
+| `[verified: v0.8.18 \| gameplay]` | *Verified in v0.8.18 · Source: gameplay* |
+| `[verified: v0.8.18 \| game files]` | *Verified in v0.8.18 · Source: game files* |
+| `[developer: https://link]` | *Source: developer statement* (linked) |
+| `[unverified]` | *Unverified; please confirm in-game.* |
+| `[interpretation]` | *Interpretation; not confirmed by game data.* |
+
+Example:
+
+```markdown
+Killing the Thief leader does not stop Gison's quest from starting. [verified: v0.8.18 | game files]
+
+The skeletons here may be the cave's missing miners. [interpretation]
+```
+
+Always name the version. Old versions still show up in search results, so "currently" or "can't be
+done" ages badly. Write "Before v0.8.18 this couldn't be done; since v0.8.18 it can."
+
 Game mechanics, requirements and rewards are generated from the data. If they look wrong, report it
 rather than writing around it in a note.
