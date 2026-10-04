@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 32 |
 | **Started by** | stepping on a trigger on [island_underground1](../maps/island_underground1.md), stepping on a trigger on [island_underground3](../maps/island_underground3.md) |
-| **NPCs involved** | [Callista, the centaur](../monsters/lae_centaur2.md), [Forenza](../monsters/forenza_waytobrimhaven3.md), [Forenza](../monsters/forenza.md), [Gylew](../monsters/gylew.md), [Moriath](../monsters/moriath.md), [Orion, the centaur](../monsters/lae_centaur1.md) +1 |
+| **NPCs involved** | [Callista, the centaur](../monsters/lae_centaur2.md), [Forenza](../monsters/forenza.md), [Forenza](../monsters/forenza_waytobrimhaven3.md), [Gylew](../monsters/gylew.md), [Moriath](../monsters/moriath.md), [Orion, the centaur](../monsters/lae_centaur1.md) +1 |
 | **Locations** | [island1](../maps/island1.md), [island2](../maps/island2.md), [island3](../maps/island3.md), [laerothbasement2](../maps/laerothbasement2.md) |
 | **Related quests** | 6 |
 
@@ -25,6 +25,8 @@
 
 None: talk to stepping on a trigger on [island_underground1](../maps/island_underground1.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -110,8 +112,9 @@ None: talk to stepping on a trigger on [island_underground1](../maps/island_unde
 | <span id="stage-212"></span>212 | centaur2 heard | [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) | – | sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10) |
 | <span id="stage-213"></span>213 | centaur3 heard | [Silvanus, the centaur](../monsters/lae_centaur3.md) ([island3](../maps/island3.md)) | – | sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -248,6 +251,17 @@ None: talk to stepping on a trigger on [island_underground1](../maps/island_unde
 
     1. Talk to [Silvanus, the centaur](../monsters/lae_centaur3.md) ([island3](../maps/island3.md)) → choose “Enough now. I want to speak to your boss.” → **stage 213**; also sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10). NPC: “Thalos, our wise guide, is currently in the northeast of the island.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 44 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

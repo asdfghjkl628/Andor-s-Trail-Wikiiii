@@ -30,4 +30,16 @@
 | [Garnet Gornaud](../monsters/gornaud_5.md) | 0.01% | 1 |
 | [Nephrite Gornaud](../monsters/gornaud_6.md) | 0.01% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.7.10](../versions/0.7.10.md) | hitEffect removed; killEffect: {"conditionsSource": [{"chance": "10", … → {"conditionsSource": [{"chance": "10", … |
+| [v0.7.11](../versions/0.7.11.md) | name: Hunters Sword → Hunter's Sword |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `hunters_sword` · Data from v0.8.18</small>

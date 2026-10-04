@@ -16,4 +16,12 @@
 |---|---|
 | [Mountain Sheep](../monsters/bwm_sheep1.md) | 30 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.10](../versions/0.8.10.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `bwmfill_tunlon` · Data from v0.8.18</small>

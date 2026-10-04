@@ -187,6 +187,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 31 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 4 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” → “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

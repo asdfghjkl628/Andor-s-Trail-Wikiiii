@@ -28,6 +28,7 @@ Increases any existing critical multiplier given by equipment by 25 % for each s
 | 5 | 5 |
 | … | +1 per level |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Internal bleeding](crit1.md): needs this skill at level 2

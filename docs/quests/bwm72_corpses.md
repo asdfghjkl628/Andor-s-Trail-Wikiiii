@@ -22,6 +22,8 @@
 
 None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -36,6 +38,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-2"></span>2 | Corpse west discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | – |
 | <span id="stage-3"></span>3 | Corpse south discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -52,6 +55,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) → the conversation leads here automatically → **stage 3**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 3 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

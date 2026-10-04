@@ -11,7 +11,7 @@
 | **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest2.md), [Dark priest](../monsters/dds_dark_priest.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
 | **Locations** | [galmore_41](../maps/galmore_41.md), [galmore_45](../maps/galmore_45.md), [loneford4](../maps/loneford4.md), [nw_sullengard_1](../maps/nw_sullengard_1.md) |
 | **Total XP** | 27,001 |
-| **Related quests** | 6 |
+| **Related quests** | 7 |
 
 </div>
 
@@ -38,6 +38,8 @@
 
 - NOT reached stage 82 of [Feygard errands](../quests/feygard_shipment.md#stage-82)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +51,7 @@
 | Requires | [Trusting an outsider](vilegard.md#stage-30) | stage 30 reached, for stages 110, 120 here |
 | Blocked by | [Beer Bootlegging](beer_bootlegging.md#stage-120) | stage 120 must NOT be reached, for stages 10, 20, 30 here |
 | Blocked by | [Feygard errands](feygard_shipment.md#stage-82) | stage 82 must NOT be reached, for stages 10, 20, 30 here |
+| Unlocks | [Search for Andor](andor.md#stage-147) | stage 147 there needs stage 260 here |
 | Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-3) | stage 3 there needs stage 40 here |
 | Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-6) | stage 6 there needs stage 240 here |
 
@@ -87,10 +90,11 @@
 | <span id="stage-260"></span>260 | Borvis fulfilled his promise and told me that Andor would be refilling his supplies from Alynndir. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) | stage 240 | 15,000 XP<br>removes monsters from galmore_41<br>spawns monsters on road5<br>sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6)<br>spawns monsters on road5_house |
 | <span id="stage-270"></span>270 | I ran to Alynndir's hut.  | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-280"></span>280 | I found Andor there. | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 260 | – |
-| <span id="stage-290"></span>290 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 260 | 5,000 XP<br>sets stage 147 of [andor (hidden flag)](../quests/andor.md#stage-147) |
+| <span id="stage-290"></span>290 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 260 | 5,000 XP<br>sets stage 147 of [Search for Andor](../quests/andor.md#stage-147) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -220,8 +224,18 @@
 
 ???+ note "Stage 290: 1 route"
 
-    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Are you just going to disappear again? Please don't!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280); reached stage 260 of [Shadows](../quests/shadows.md#stage-260) → **stage 290**; also sets stage 147 of [andor (hidden flag)](../quests/andor.md#stage-147)
+    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Are you just going to disappear again? Please don't!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280); reached stage 260 of [Shadows](../quests/shadows.md#stage-260) → **stage 290**; also sets stage 147 of [Search for Andor](../quests/andor.md#stage-147)
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 33 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -17,4 +17,15 @@
 |---|---|
 | [Temple Guard](../monsters/brv_temple_entrance_guard.md) | 0 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `brimhaven6` · Data from v0.8.18</small>

@@ -22,6 +22,8 @@
 
 None: talk to stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -38,6 +40,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-4"></span>4 | 04=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | – |
 | <span id="stage-5"></span>5 | 05=Rocks<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -62,6 +65,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) → the conversation leads here automatically → **stage 5**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 5 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

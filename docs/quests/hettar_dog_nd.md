@@ -31,6 +31,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +48,7 @@
 | <span id="stage-1"></span>1 | 1=found dog<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)<br>[Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | – | – |
 | <span id="stage-2"></span>2 | 2=picked up bones<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)<br>[Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | hand over 1× [Wyrm meat](../items/hettar_bone.md) | gives 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)<br>sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -60,6 +63,16 @@
     1. stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md) → choose “The wolfhound doesn't want you to take 'his' bones. Take them nevertheless.” — **conditions:** NOT reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 2**; also gives 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)
     2. Talk to [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Hey Norry, look here! I have some much better food for you from Hettar.” — **conditions:** hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 2**; also sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40). NPC: “The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

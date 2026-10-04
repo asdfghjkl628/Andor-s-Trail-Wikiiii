@@ -29,7 +29,7 @@
 
     <span id="d-larcal"></span>**`larcal`** Larcal: “I don't have time for you, kid. Get lost.”
 
-    - “I found a note with your name on it while looking for the book 'Calomyran Secrets'.” *(if reached stage 20 of [calomyran (hidden flag)](../quests/calomyran.md#stage-20))* → [larcal_1](#d-larcal_1)
+    - “I found a note with your name on it while looking for the book 'Calomyran Secrets'.” *(if reached stage 20 of [Calomyran secrets](../quests/calomyran.md#stage-20))* → [larcal_1](#d-larcal_1)
 
     <span id="d-larcal_1"></span>**`larcal_1`** Larcal: “Now now, what have we here? Are you implying that I have been down in Arcir's basement?”
 
@@ -59,6 +59,17 @@
     - “Very well. I will leave.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “You are still here? Ok then, if you want the book that bad, you will …” → “You are still here? OK then, if you want the book that bad, you will …”<br>· text: “Ok, now you're starting to annoy me, kid. Get lost while you still ca…” → “OK, now you're starting to annoy me, kid. Get lost while you still ca…” |
+| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+| [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Good boy. Now run away.” → “Good, now run away.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

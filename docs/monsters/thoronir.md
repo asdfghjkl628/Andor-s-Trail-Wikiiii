@@ -26,6 +26,8 @@
 
 ## Quests
 
+- [Disallowed substance](../quests/bonemeal.md): stages 40, 50, 100, 110
+- [Key of Luthor](../quests/bucus.md): stages 20
 - [Thief apprentice](../quests/Thieves01.md): stages 50
 - [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stages 80
 
@@ -76,15 +78,15 @@
 
     - “What can you tell me about the Shadow?” → [thoronir_shadow_1](#d-thoronir_shadow_1)
     - “Can you tell me more about the church?” → [thoronir_church_1](#d-thoronir_church_1)
-    - “Are the Bonemeal potions ready yet?” *(if reached stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100))* → [thoronir_trade_bonemeal](#d-thoronir_trade_bonemeal)
-    - “Do you have some special white powdered potions whose name must not be mentioned?” *(if reached stage 110 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-110))* → [thoronir_trade_bonemeal_a](#d-thoronir_trade_bonemeal_a)
-    - “I really need your help!” *(if reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50))* → [thoronir_guild_1](#d-thoronir_guild_1)
+    - “Are the Bonemeal potions ready yet?” *(if reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100))* → [thoronir_trade_bonemeal](#d-thoronir_trade_bonemeal)
+    - “Do you have some special white powdered potions whose name must not be mentioned?” *(if reached stage 110 of [Disallowed substance](../quests/bonemeal.md#stage-110))* → [thoronir_trade_bonemeal_a](#d-thoronir_trade_bonemeal_a)
+    - “I really need your help!” *(if reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50))* → [thoronir_guild_1](#d-thoronir_guild_1)
     - “I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.” *(if reached stage 50 of [Troubling times](../quests/troubling_times.md#stage-50); NOT reached stage 70 of [Troubling times](../quests/troubling_times.md#stage-70))* → [tt_thoronir_10](#d-tt_thoronir_10)
-    - “I really need your help!” *(if reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 110 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-110); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50))* → [thoronir_guild_1](#d-thoronir_guild_1)
+    - “I really need your help!” *(if reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 110 of [Disallowed substance](../quests/bonemeal.md#stage-110); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50))* → [thoronir_guild_1](#d-thoronir_guild_1)
 
     <span id="d-thoronir_shadow_1"></span>**`thoronir_shadow_1`** Thoronir: “The Shadow protects us from the dangers of the night. It keeps us safe and comforts us when we sleep.”
 
-    - “Tharal sent me and told me to tell you the password 'Glow of the Shadow'.” *(if reached stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30))* → [thoronir_tharal_select](#d-thoronir_tharal_select)
+    - “Tharal sent me and told me to tell you the password 'Glow of the Shadow'.” *(if reached stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30))* → [thoronir_tharal_select](#d-thoronir_tharal_select)
     - “Shadow be with you.” → [thoronir_default](#d-thoronir_default)
     - “Sounds like nonsense to me.” → [thoronir_default](#d-thoronir_default)
 
@@ -113,8 +115,8 @@
 
     <span id="d-thoronir_tharal_select"></span>**`thoronir_tharal_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100))* → [thoronir_trade_bonemeal](#d-thoronir_trade_bonemeal)
-    - branch 2 *(if reached stage 110 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-110))* → [thoronir_trade_bonemeal_a](#d-thoronir_trade_bonemeal_a)
+    - branch 1 *(if reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100))* → [thoronir_trade_bonemeal](#d-thoronir_trade_bonemeal)
+    - branch 2 *(if reached stage 110 of [Disallowed substance](../quests/bonemeal.md#stage-110))* → [thoronir_trade_bonemeal_a](#d-thoronir_trade_bonemeal_a)
     - branch 3 → [thoronir_tharal_1](#d-thoronir_tharal_1)
 
     <span id="d-thoronir_church_2"></span>**`thoronir_church_2`** Thoronir: “This church has withstood hundreds of years, and has been kept safe from grave robbers.”
@@ -135,7 +137,7 @@
 
     <span id="d-thoronir_church_3"></span>**`thoronir_church_3`** Thoronir: “The catacombs beneath the church house the remains of our passed leaders. Our great King Luthor is rumored to be buried there.”
 
-    - “Has anyone entered the catacombs?” *(if reached stage 10 of [bucus (hidden flag)](../quests/bucus.md#stage-10))* → [thoronir_church_4](#d-thoronir_church_4)
+    - “Has anyone entered the catacombs?” *(if reached stage 10 of [Key of Luthor](../quests/bucus.md#stage-10))* → [thoronir_church_4](#d-thoronir_church_4)
     - “There was something else I wanted to talk about.” → [thoronir_default](#d-thoronir_default)
 
     <span id="d-thoronir_guild_3"></span>**`thoronir_guild_3`** Thoronir: “This is what I have, take it. I expect this will be useful.” — **effects:** sets stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50), gives 1× [Bandage](../items/bandage.md)
@@ -147,7 +149,7 @@
 
     - Next → [thoronir_tharal_3](#d-thoronir_tharal_3)
 
-    <span id="d-thoronir_church_4"></span>**`thoronir_church_4`** Thoronir: “No one is allowed down in the catacombs, except for Athamyr, my apprentice. He is the only one that has been down there for years.” — **effects:** sets stage 20 of [bucus (hidden flag)](../quests/bucus.md#stage-20)
+    <span id="d-thoronir_church_4"></span>**`thoronir_church_4`** Thoronir: “No one is allowed down in the catacombs, except for Athamyr, my apprentice. He is the only one that has been down there for years.” — **effects:** sets stage 20 of [Key of Luthor](../quests/bucus.md#stage-20)
 
     - “OK, I might go see him.” → [thoronir_default](#d-thoronir_default)
 
@@ -157,7 +159,7 @@
 
     <span id="d-thoronir_tharal_3a"></span>**`thoronir_tharal_3a`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 50 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-50))* → [thoronir_tharal_4a](#d-thoronir_tharal_4a)
+    - branch 1 *(if reached stage 50 of [Disallowed substance](../quests/bonemeal.md#stage-50))* → [thoronir_tharal_4a](#d-thoronir_tharal_4a)
     - branch 2 → [thoronir_tharal_4](#d-thoronir_tharal_4)
 
     <span id="d-thoronir_tharal_4a"></span>**`thoronir_tharal_4a`** Thoronir: “Well, do you think you could find me 5 skeletal bones that I can use for ... church matters?”
@@ -169,21 +171,21 @@
 
     - “Sure, I might be able to do that.” → [thoronir_tharal_5](#d-thoronir_tharal_5)
     - “I have those bones for you.” *(if hand over 5× [Bone](../items/bone.md))* → [thoronir_tharal_complete](#d-thoronir_tharal_complete)
-    - “I've changed my mind. If Lord Geomyr forbids bonemeal potions, we should abide by that.” *(if NOT reached stage 40 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-40))* → [thoronir_tharal_4b](#d-thoronir_tharal_4b)
+    - “I've changed my mind. If Lord Geomyr forbids bonemeal potions, we should abide by that.” *(if NOT reached stage 40 of [Disallowed substance](../quests/bonemeal.md#stage-40))* → [thoronir_tharal_4b](#d-thoronir_tharal_4b)
 
-    <span id="d-thoronir_tharal_5a"></span>**`thoronir_tharal_5a`** Thoronir: “Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?” — **effects:** sets stage 50 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-50)
+    <span id="d-thoronir_tharal_5a"></span>**`thoronir_tharal_5a`** Thoronir: “Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?” — **effects:** sets stage 50 of [Disallowed substance](../quests/bonemeal.md#stage-50)
 
     - “OK, I'll go check there.” → [thoronir_default](#d-thoronir_default)
 
-    <span id="d-thoronir_tharal_complete_a"></span>**`thoronir_tharal_complete_a`** Thoronir: “Thank you, these bones will do fine. Now I can start creating some ... things.” — **effects:** sets stage 110 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-110)
+    <span id="d-thoronir_tharal_complete_a"></span>**`thoronir_tharal_complete_a`** Thoronir: “Thank you, these bones will do fine. Now I can start creating some ... things.” — **effects:** sets stage 110 of [Disallowed substance](../quests/bonemeal.md#stage-110)
 
     - Next → [thoronir_complete_2a](#d-thoronir_complete_2a)
 
-    <span id="d-thoronir_tharal_5"></span>**`thoronir_tharal_5`** Thoronir: “Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?” — **effects:** sets stage 40 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-40)
+    <span id="d-thoronir_tharal_5"></span>**`thoronir_tharal_5`** Thoronir: “Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?” — **effects:** sets stage 40 of [Disallowed substance](../quests/bonemeal.md#stage-40)
 
     - “OK, I'll go check there.” → [thoronir_default](#d-thoronir_default)
 
-    <span id="d-thoronir_tharal_complete"></span>**`thoronir_tharal_complete`** Thoronir: “Thank you, these bones will do fine. Now I can start creating some bonemeal healing potions for you.” — **effects:** sets stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100)
+    <span id="d-thoronir_tharal_complete"></span>**`thoronir_tharal_complete`** Thoronir: “Thank you, these bones will do fine. Now I can start creating some bonemeal healing potions for you.” — **effects:** sets stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100)
 
     - Next → [thoronir_complete_2](#d-thoronir_complete_2)
 
@@ -199,6 +201,21 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…”<br>· text: “Shhh, we shouldn't talk so loud about using Bonemeal. As you know, Lo…” → “Shhh, we shouldn't talk so loud about using bonemeal. As you know, Lo…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 8 lines added, 1 line changed<br>· text: “Bask in the Shadow, my child.” → “null” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 7 lines added, 5 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

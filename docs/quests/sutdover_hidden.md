@@ -33,6 +33,8 @@
 
 - latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-65) is 65
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -57,6 +59,7 @@
 | <span id="stage-7"></span>7 | halloween<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span><br><span class="qnote">🗺️ Part of [Crossglen](../maps/crossglen.md) visibly changes.</span> | stepping on a trigger on [crossglen](../maps/crossglen.md)<br>stepping on a trigger on [home](../maps/home.md) | – | clears stage 8 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-8)<br>removes monsters from crossglen |
 | <span id="stage-8"></span>8 | xmas<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span><br><span class="qnote">🗺️ Part of [Home](../maps/home.md) visibly changes.</span> | stepping on a trigger on [crossglen](../maps/crossglen.md)<br>stepping on a trigger on [home](../maps/home.md) | – | clears stage 7 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-7)<br>spawns monsters on crossglen |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -86,6 +89,18 @@
     2. stepping on a trigger on [crossglen](../maps/crossglen.md) → the conversation leads here automatically — **conditions:** date MMDD 1224; NOT date MMDD 1228 → **stage 8**; also clears stage 7 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-7), spawns monsters on crossglen
     3. stepping on a trigger on [home](../maps/home.md) → the conversation leads here automatically — **conditions:** date MMDD 1224; NOT date MMDD 1228 → **stage 8**; also clears stage 7 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-7), spawns monsters on crossglen
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 6 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stages added: 3<br>Dialogue: 1 line added, 3 lines changed |
+| [v0.8.14](../versions/0.8.14.md) | stage 1 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

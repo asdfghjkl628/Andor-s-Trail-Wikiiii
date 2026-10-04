@@ -26,6 +26,7 @@
 
 ## Quests
 
+- [Search for Andor](../quests/andor.md): stages 130, 999
 - [Troubling times](../quests/troubling_times.md): stages 180, 190, 192, 195
 
 ??? quote "Dialogue (15 lines)"
@@ -72,11 +73,11 @@
 
     - “That kid, did he look just like me, but older?” → [tt_sly_230](#d-tt_sly_230)
 
-    <span id="d-tt_sly_230"></span>**`tt_sly_230`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)
+    <span id="d-tt_sly_230"></span>**`tt_sly_230`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [Search for Andor](../quests/andor.md#stage-999)
 
     - branch 1 → [tt_sly_240](#d-tt_sly_240)
 
-    <span id="d-tt_sly_240"></span>**`tt_sly_240`** Sly Seraphina: “Come to think of it, he did.” — **effects:** sets stage 130 of [andor (hidden flag)](../quests/andor.md#stage-130), sets stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)
+    <span id="d-tt_sly_240"></span>**`tt_sly_240`** Sly Seraphina: “Come to think of it, he did.” — **effects:** sets stage 130 of [Search for Andor](../quests/andor.md#stage-130), sets stage 999 of [Search for Andor](../quests/andor.md#stage-999)
 
     - “[to self] What was Andor trying to do now?” → [tt_sly_250](#d-tt_sly_250)
 
@@ -94,6 +95,15 @@
     - “OK.” → *NPC leaves*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 15 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “By the way, here's your money back. 1000 gold.” → “By the way, here's your money back. {1000} gold.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

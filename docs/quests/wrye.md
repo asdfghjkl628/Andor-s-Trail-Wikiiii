@@ -25,6 +25,8 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 - reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,6 +50,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 | <span id="stage-80"></span>80 | To the northwest of Vilegard I found a man that had found Rincel fighting some monsters. Rincel had apparently left Vilegard by his own will to go see the city of Feygard. I should go tell Wrye in northern Vilegard what happened to her son. | [Oluag](../monsters/oluag.md) ([wild14_clearing](../maps/wild14_clearing.md)) | stage 40 | – |
 | <span id="stage-90"></span>90 | I have told Wrye the truth about her son's disappearance. **(completes quest)** | [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | stage 40, stage 80 | 520 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -84,6 +87,17 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
     1. Talk to [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) → choose “Yes, but not for long. He did not survive the wounds. He is now buried to the northwest of Vilegard.” — **conditions:** reached stage 40 of [Uncertain cause](../quests/wrye.md#stage-40); reached stage 80 of [Uncertain cause](../quests/wrye.md#stage-80) → **stage 90**. NPC: “Oh my poor boy. What have I done?”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

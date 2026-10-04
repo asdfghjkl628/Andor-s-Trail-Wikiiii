@@ -24,6 +24,8 @@ Start with [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackw
 
 - reached stage 10 of [No weakness](../quests/bwm_wyrms.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -38,6 +40,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-20"></span>20 | I have given the 5 white wyrm claws to Herec. | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | hand over 5× [White wyrm claw](../items/bwm_claws.md), stage 10 | – |
 | <span id="stage-30"></span>30 | Herec has finished making a potion of fatigue restoration that will be very useful when fighting against the wyrms in the future. **(completes quest)** | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | stage 20 | 1,500 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -54,6 +57,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [No weakness](../quests/bwm_wyrms.md#stage-20) → **stage 30**. NPC: “Now I am able to create effective potions that contain some essence of the white wyrms. These potions will be very…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

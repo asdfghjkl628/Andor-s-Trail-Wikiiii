@@ -11,9 +11,12 @@
 | **NPCs involved** | [Galmore wolf](../monsters/mg2_wolves.md), [Galmore wolf's pup](../monsters/mg2_wolves_pup.md), [Hungry pig](../monsters/hungry_pig.md), [Local artist](../monsters/stoutford_artist.md), [Mikhail](../monsters/mikhail.md) |
 | **Locations** | [galmore_54](../maps/galmore_54.md), [galmore_55](../maps/galmore_55.md), [galmore_64](../maps/galmore_64.md), [gapfillerhole](../maps/gapfillerhole.md) |
 | **Total XP** | 6,901 |
-| **Related quests** | 7 |
+| **Related quests** | 9 |
 
 </div>
+
+!!! history "Version note"
+    As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.13.
 
 ## Overview
 
@@ -23,12 +26,14 @@
 
 Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required:
 
-- reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10)
+- reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10)
 - NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1)
 - NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1)
-- reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100)
-- reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100)
+- reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100)
+- reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -38,6 +43,9 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Requires | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-83) | stage 83 reached, for stage 100 here |
 | Requires | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-57) | stage 57 reached, for stage 150 here |
 | Requires | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-59) | stage 59 reached, for stage 60 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-10) | stage 10 reached, for stage 1 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-100) | stage 100 reached, for stage 1 here |
+| Requires | [Rats!](mikhail_rats.md#stage-100) | stage 100 reached, for stage 1 here |
 | Requires | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-200) | stage 200 reached, for stage 40 here |
 | Requires | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-40) | stage 40 reached, for stage 125 here |
 | Requires | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-41) | stage 41 reached, for stage 125 here |
@@ -86,15 +94,16 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | <span id="stage-200"></span>200 | Sheep in wolf's clothing: I finally found a use for the Wolfpack's hide. | [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) ([galmore_54](../maps/galmore_54.md))<br>[Galmore wolf](../monsters/mg2_wolves.md) ([galmore_54](../maps/galmore_54.md)) | wearing [Wolfpack's animal hide](../items/packhide.md) | 1,000 XP |
 | <span id="stage-225"></span>225 | #reserved: sutdover_ext | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 1: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, sounds great.” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100) → **stage 1**. NPC: “Here you are.”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, sounds great.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100) → **stage 1**. NPC: “Here you are.”
 
 ???+ note "Stage 10: 1 route"
 
@@ -161,6 +170,27 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
     1. Talk to [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) ([galmore_54](../maps/galmore_54.md)) → the conversation leads here automatically — **conditions:** wearing [Wolfpack's animal hide](../items/packhide.md) → **stage 200**. NPC: “Yelp - don't hurt us, big wolf.”
     2. Talk to [Galmore wolf](../monsters/mg2_wolves.md) ([galmore_54](../maps/galmore_54.md)) → choose “Grrr, grrr” — **conditions:** wearing [Wolfpack's animal hide](../items/packhide.md) → **stage 200**. NPC: “You may go thrrrough herrre. No tarrrrying.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+**Completability:** As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.13.
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 11 lines added |
+| [v0.8.2](../versions/0.8.2.md) | stages added: 110, 120 |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines added |
+| [v0.8.5](../versions/0.8.5.md) | stages added: 125; stage 80 journal text changed<br>Dialogue: 2 lines added, 1 line changed<br>· text: “This must be the great Duleian Road! I have heard so much of it - and…” → “This must be the great Duleian Road! I have heard so much about it - …” |
+| [v0.8.7](../versions/0.8.7.md) | stage 110 journal text changed; stage 120 journal text changed |
+| [v0.8.10](../versions/0.8.10.md) | stages added: 130<br>Dialogue: 1 line added |
+| [v0.8.11](../versions/0.8.11.md) | stages added: 135; stages removed: 130<br>Dialogue: 1 line added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stages added: 130; stage 135 journal text changed |
+| [v0.8.14](../versions/0.8.14.md) | stages added: 150, 200<br>Dialogue: 3 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stages added: 160, 225; stage 30 journal text changed<br>Dialogue: 1 line changed<br>· text: “Reflecting on your journey, you marvel at how you were able to go fro…” → “Reflecting on your journey, you marvel at how you were able to go fro…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

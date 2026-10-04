@@ -43,7 +43,7 @@
 
     <span id="d-arcir_books_1"></span>**`arcir_books_1`** Arcir: “I find great pleasure in my books. They contain the accumulated knowledge of past generations.”
 
-    - “Do you have a book called 'Calomyran Secrets'?” *(if reached stage 10 of [calomyran (hidden flag)](../quests/calomyran.md#stage-10))* → [arcir_calomyran_select](#d-arcir_calomyran_select)
+    - “Do you have a book called 'Calomyran Secrets'?” *(if reached stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10))* → [arcir_calomyran_select](#d-arcir_calomyran_select)
     - “OK.” → [arcir_anythingelse](#d-arcir_anythingelse)
     - “I have found some valuable-looking map. Want to have a look?” *(if carry 1× [Ewmondold's map](../items/inspiring_snake_master_map.md); killed 1× [Ewmondold](../monsters/ewmondold_snake_master.md))* → [arcir_books_rares_map](#d-arcir_books_rares_map)
     - “I have found a strange book about slavery. Interested?” *(if carry 1× [Nasty looking book](../items/ratdom_book.md))* → [arcir_books_rares_book1](#d-arcir_books_rares_book1)
@@ -85,8 +85,8 @@
 
     <span id="d-arcir_calomyran_select"></span>**`arcir_calomyran_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [calomyran (hidden flag)](../quests/calomyran.md#stage-100))* → [arcir_calomyran_complete](#d-arcir_calomyran_complete)
-    - branch 2 *(if reached stage 20 of [calomyran (hidden flag)](../quests/calomyran.md#stage-20))* → [arcir_calomyran_5](#d-arcir_calomyran_5)
+    - branch 1 *(if reached stage 100 of [Calomyran secrets](../quests/calomyran.md#stage-100))* → [arcir_calomyran_complete](#d-arcir_calomyran_complete)
+    - branch 2 *(if reached stage 20 of [Calomyran secrets](../quests/calomyran.md#stage-20))* → [arcir_calomyran_5](#d-arcir_calomyran_5)
     - branch 3 → [arcir_calomyran_1](#d-arcir_calomyran_1)
 
     <span id="d-arcir_books_rares_map"></span>**`arcir_books_rares_map`** Arcir: “Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it.”
@@ -162,6 +162,18 @@
     - Next → [arcir_anythingelse](#d-arcir_anythingelse)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…” |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.11](../versions/0.8.11.md) | Dialogue: 8 lines added, 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

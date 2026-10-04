@@ -20,4 +20,12 @@
 | [Cave scorpion](../monsters/brightport_scorpion.md) | 150 |
 | [Green-claw-emyro](../monsters/brightport_lizard.md) | 160 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `brightport_cave10` · Data from v0.8.18</small>

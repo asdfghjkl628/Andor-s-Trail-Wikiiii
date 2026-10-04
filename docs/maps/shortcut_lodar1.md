@@ -21,12 +21,21 @@
 | [Brown cave bat](../monsters/cavebat3.md) | 36 |
 | [Mudfiend](../monsters/mudfiend1.md) | 37 |
 | [Cave bat](../monsters/cavebat4.md) | 39 |
-| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 |
+| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Young poisonous cave burrower](../monsters/caveburr1.md) | 57 |
 | [Infected larval cave burrower](../monsters/caveburr2.md) | 62 |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 65 |
 | [Strong poisonous cave burrower](../monsters/caveburr4.md) | 67 |
 | [Giant poisonous cave burrower](../monsters/caveburr5.md) | 69 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `shortcut_lodar1` · Data from v0.8.18</small>

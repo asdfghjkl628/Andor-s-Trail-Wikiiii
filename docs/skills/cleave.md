@@ -28,6 +28,7 @@ Gives +3 action points (AP) on every kill per skill level.
 | 5 | 5 | 5 |
 | … | +1 per level | +1 per level |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Relevant quest
 
 **Quest:** [The exploded star](../quests/mg2_exploded_star.md#stage-62) (reaching stage 62)

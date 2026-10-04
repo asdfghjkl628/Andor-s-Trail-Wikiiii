@@ -26,6 +26,8 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 - NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10)
 - NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +58,7 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 | <span id="stage-60"></span>60 | I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman. **(completes quest)** | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | carry 1× [Tesrekan's bone](../items/tesrekanbone.md), hand over 1× [Cithurn's talisman](../items/cithurn_talisman.md), hand over 1× [Tesrekan's bone](../items/tesrekanbone.md), stage 55 | 7,000 XP |
 | <span id="stage-70"></span>70 | I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work. **(completes quest)** | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | carry 1× [Tesrekan's bone](../items/tesrekanbone.md), hand over 1× [Tesrekan's bone](../items/tesrekanbone.md), stage 55 | 4,500 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -112,6 +115,18 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 
     1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “You are right about that debt. I think I'll keep the talisman as payment.” — **conditions:** NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70); reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55); carry 1× [Tesrekan's bone](../items/tesrekanbone.md); hand over 1× [Tesrekan's bone](../items/tesrekanbone.md) → **stage 70**. NPC: “I see. You are apparently a great fighter, but not a very honorable one.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 13 lines added |
+| [v0.7.4](../versions/0.7.4.md) | stage 35 journal text changed<br>Dialogue: 1 line changed<br>· text: “You have found the enterance to the cave Cithurn was talking about.” → “You have found the entrance to the cave Cithurn was talking about.” |
+| [v0.7.17](../versions/0.7.17.md) | stage 35 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

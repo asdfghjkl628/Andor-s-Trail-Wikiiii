@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 910) |
 | **Started by** | [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) |
-| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md), [Charybdis](../monsters/ll2_whirl_return.md), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem_door.md), [Polyphem](../monsters/polyphem_bed.md) +3 |
+| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md), [Charybdis](../monsters/ll2_whirl_return.md), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem_bed.md), [Polyphem](../monsters/polyphem_door.md) +3 |
 | **Locations** | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md), [mountainlake14](../maps/mountainlake14.md), [mountainlake19](../maps/mountainlake19.md), [mountainlake27](../maps/mountainlake27.md) |
 | **Total XP** | 13,000 |
 | **Related quests** | 2 |
@@ -25,6 +25,8 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 
 - NOT reached stage 10 of [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -104,8 +106,9 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 | <span id="stage-900"></span>900 | Looks like we had got the map of the great Lake Laeroth complete.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake14](../maps/mountainlake14.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake15](../maps/mountainlake15.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake16](../maps/mountainlake16.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake17](../maps/mountainlake17.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake18](../maps/mountainlake18.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake19](../maps/mountainlake19.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake20](../maps/mountainlake20.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake21](../maps/mountainlake21.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake22](../maps/mountainlake22.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake25](../maps/mountainlake25.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake26](../maps/mountainlake26.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake28](../maps/mountainlake28.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake30](../maps/mountainlake30.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake32](../maps/mountainlake32.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> | stepping on a trigger on [mountainlake14](../maps/mountainlake14.md)<br>stepping on a trigger on [mountainlake15](../maps/mountainlake15.md)<br>stepping on a trigger on [mountainlake16](../maps/mountainlake16.md)<br>+19 more | – | – |
 | <span id="stage-910"></span>910 | Thyrope Splathershed is happy to have the map complete now. He seemed to doubt my story though, but he allowed me to use the ship for my leisure. **(completes quest)** | [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | 5,000 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -269,6 +272,16 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 
     1. Talk to [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “The cruise was fun.” — **conditions:** faction “ll2_maps” ≥ 22 → **stage 910**. NPC: “As a reward you can use Captain Burry and his ship whenever you want. I will pay for it.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 38 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

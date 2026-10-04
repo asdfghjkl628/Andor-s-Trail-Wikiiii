@@ -21,4 +21,13 @@
 | [Forest deer](../monsters/brightport_sickdeer.md) | 212 |
 | [Virulent forest deer](../monsters/brightport_deer.md) | 240 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `waytobrightport5` · Data from v0.8.18</small>

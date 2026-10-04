@@ -26,6 +26,8 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 - NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60
 - NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -53,6 +55,7 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 | <span id="stage-60"></span>60 | I found the stolen items and should return to Zaccheria with them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods9](../maps/sullengard_woods9.md).</span> | stepping on a trigger on [sullengard_woods9](../maps/sullengard_woods9.md) | stage 50 | gives 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md) |
 | <span id="stage-70"></span>70 | Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold. **(completes quest)** | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), stage 60 | 3,800 XP<br>gives 15000× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -85,6 +88,19 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 
     1. Talk to [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) → choose “I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what…” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md); hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md) → **stage 70**; also gives 15000× [Gold coins](../items/gold.md). NPC: “Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 7 lines added |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “[You have successfully removed an extreamly heavy sack. This must be …” → “[You have successfully removed an extremely heavy sack. This must be …” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “[You have successfully removed an extremely heavy sack. This must be …” → “You have successfully removed an extremely heavy sack. This must be Z…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Well that's unfortunate that we cannot punish this individual. But ve…” → “Well that's unfortunate that we cannot punish this individual. But ve…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

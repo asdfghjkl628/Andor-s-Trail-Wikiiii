@@ -18,27 +18,39 @@
 
 - [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)
 
+## Quests
+
+- [Missing husband](../quests/leta.md): stages 105
+
 ??? quote "Dialogue (4 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
     <span id="d-oromir_basement_help_10"></span>**`oromir_basement_help_10`** Oromir: “Thank you for not telling my wife where I've been.”
 
-    - “Why are you back in the house?” *(if reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [oromir_basement_help_20](#d-oromir_basement_help_20)
-    - “You're welcome.” *(if reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105))* → [oromir_basement_help_15](#d-oromir_basement_help_15)
+    - “Why are you back in the house?” *(if reached stage 45 of [Missing husband](../quests/leta.md#stage-45))* → [oromir_basement_help_20](#d-oromir_basement_help_20)
+    - “You're welcome.” *(if reached stage 105 of [Missing husband](../quests/leta.md#stage-105))* → [oromir_basement_help_15](#d-oromir_basement_help_15)
 
     <span id="d-oromir_basement_help_20"></span>**`oromir_basement_help_20`** Oromir: “That mysterious looking man in the inn saw me and ratted me out and now I'm down here cleaning as a punishment.”
 
-    - “I'm sorry to hear that.” *(if NOT reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105))* → [oromir_basement_help_30](#d-oromir_basement_help_30)
-    - “I'm sorry to hear that.” *(if reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105))* → *conversation ends*
+    - “I'm sorry to hear that.” *(if NOT reached stage 105 of [Missing husband](../quests/leta.md#stage-105))* → [oromir_basement_help_30](#d-oromir_basement_help_30)
+    - “I'm sorry to hear that.” *(if reached stage 105 of [Missing husband](../quests/leta.md#stage-105))* → *conversation ends*
 
     <span id="d-oromir_basement_help_15"></span>**`oromir_basement_help_15`** Oromir: “Goodbye.”
 
 
-    <span id="d-oromir_basement_help_30"></span>**`oromir_basement_help_30`** Oromir: “While cleaning, I found your kid brother's boots. Please take them as my gift to you for all of your help.” — **effects:** sets stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105), gives 1× [Kid's boots](../items/kids_boots.md)
+    <span id="d-oromir_basement_help_30"></span>**`oromir_basement_help_30`** Oromir: “While cleaning, I found your kid brother's boots. Please take them as my gift to you for all of your help.” — **effects:** sets stage 105 of [Missing husband](../quests/leta.md#stage-105), gives 1× [Kid's boots](../items/kids_boots.md)
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

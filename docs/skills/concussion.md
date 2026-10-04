@@ -22,6 +22,7 @@ When making an attack on a target whose block chance (BC) is at least 50 lower t
 |---|---|---|---|
 | 1 | 2 | 3 | 5 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

@@ -26,13 +26,24 @@
 | [Swarming yellowjacket](../monsters/yjacket3.md) | 42 |
 | [Young venomscale](../monsters/vscale2.md) | 46 |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 |
-| [Gray venomscale](../monsters/vscale3.md) | 48 |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 |
+| [Gray venomscale](../monsters/vscale3.md) | 48 |
 | [Zortak fighter](../monsters/zortak2.md) | 189 |
 | [Zortak guard](../monsters/zortak3.md) | 195 |
 | [Zortak barbarian](../monsters/zortak4.md) | 207 |
 | [Insane Feygard guard](../monsters/lodar_fg4.md) | 212 |
 | [Guardian of the bridge](../monsters/lbridge.md) | 213 |
 | [Zortak leader](../monsters/zortakb.md) | 279 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `lodar8` · Data from v0.8.18</small>

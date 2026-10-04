@@ -25,6 +25,8 @@
 
 None: talk to walking into a blocked passage on [basiliskcave2](../maps/basiliskcave2.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,8 +52,9 @@ None: talk to walking into a blocked passage on [basiliskcave2](../maps/basilisk
 | <span id="stage-50"></span>50 | Told Fangwurm about keeping the blood for myself | [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) | – | – |
 | <span id="stage-60"></span>60 | Told Fangwurm about killling the Basilisk | [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -77,6 +80,16 @@ None: talk to walking into a blocked passage on [basiliskcave2](../maps/basilisk
 
     1. Talk to [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60) → **stage 60**. NPC: “Thank you for killing the Basilisk, but it would be better if you had talked to me before killing it, because its…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 5 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

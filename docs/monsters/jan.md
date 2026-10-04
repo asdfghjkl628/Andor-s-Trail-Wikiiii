@@ -14,14 +14,18 @@
 | Critical skill | 0 |
 | Critical multiplier | 0 |
 
+## Quests
+
+- [Fallen friends](../quests/jan.md): stages 10, 100
+
 ??? quote "Dialogue (20 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
     <span id="d-jan_start_select"></span>**`jan_start_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [jan (hidden flag)](../quests/jan.md#stage-100))* → [jan_complete2](#d-jan_complete2)
-    - branch 2 *(if reached stage 10 of [jan (hidden flag)](../quests/jan.md#stage-10))* → [jan_return](#d-jan_return)
+    - branch 1 *(if reached stage 100 of [Fallen friends](../quests/jan.md#stage-100))* → [jan_complete2](#d-jan_complete2)
+    - branch 2 *(if reached stage 10 of [Fallen friends](../quests/jan.md#stage-10))* → [jan_return](#d-jan_return)
     - branch 3 → [jan_default](#d-jan_default)
 
     <span id="d-jan_complete2"></span>**`jan_complete2`** Jan: “Thanks for dealing with Irogotu earlier! I am forever in debt to you.”
@@ -50,7 +54,7 @@
     - “I wasn't listening that much the first time you told it. What was that about a treasure?” → [jan_default4](#d-jan_default4)
     - “No, never mind. I remember it now.” → [jan_default14](#d-jan_default14)
 
-    <span id="d-jan_complete"></span>**`jan_complete`** Jan: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by.” — **effects:** sets stage 100 of [jan (hidden flag)](../quests/jan.md#stage-100)
+    <span id="d-jan_complete"></span>**`jan_complete`** Jan: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by.” — **effects:** sets stage 100 of [Fallen friends](../quests/jan.md#stage-100)
 
     - “Glad that I could help. Goodbye.” → *conversation ends*
     - “Shadow be with you. Goodbye.” → *conversation ends*
@@ -103,7 +107,7 @@
     - “Sure. Irogotu should pay for what he did.” → [jan_default12](#d-jan_default12)
     - “No thanks, I would rather not be involved in this. It sounds dangerous.” → *conversation ends*
 
-    <span id="d-jan_default12"></span>**`jan_default12`** Jan: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.” — **effects:** sets stage 10 of [jan (hidden flag)](../quests/jan.md#stage-10)
+    <span id="d-jan_default12"></span>**`jan_default12`** Jan: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.” — **effects:** sets stage 10 of [Fallen friends](../quests/jan.md#stage-10)
 
     - Next → [jan_default13](#d-jan_default13)
 
@@ -114,6 +118,15 @@
     - “Never mind, goodbye.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…”<br>· text: “That's when it happened. *sob* Oh what have we done?” → “That's when it happened. *sob* Oh what have we done?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

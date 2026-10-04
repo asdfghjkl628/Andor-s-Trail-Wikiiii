@@ -22,6 +22,7 @@ Increases both attack chances and damage potential of weapons in the main hand. 
 |---|---|---|
 | 1 | 45 | 2 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

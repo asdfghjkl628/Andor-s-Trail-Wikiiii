@@ -18,6 +18,10 @@
 
 - [flagstone4](../maps/flagstone4.md)
 
+## Quests
+
+- [Ancient secrets](../quests/flagstone.md): stages 60
+
 ??? quote "Dialogue (11 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -28,7 +32,7 @@
 
     <span id="d-narael_select"></span>**`narael_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60))* → [narael_9](#d-narael_9)
+    - branch 1 *(if reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60))* → [narael_9](#d-narael_9)
     - branch 2 → [narael_1](#d-narael_1)
 
     <span id="d-narael_9"></span>**`narael_9`** Narael: “If you find my wife Taurum in Nor City, please tell her I'm alive and that I haven't forgotten about her.”
@@ -64,11 +68,21 @@
 
     - Next → [narael_8](#d-narael_8)
 
-    <span id="d-narael_8"></span>**`narael_8`** Narael: “Now leave me to my fate. I do not have the strength to leave this place.” — **effects:** sets stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60)
+    <span id="d-narael_8"></span>**`narael_8`** Narael: “Now leave me to my fate. I do not have the strength to leave this place.” — **effects:** sets stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60)
 
     - Next → [narael_9](#d-narael_9)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines changed<br>· text: “I was once a citizen in Nor City, and worked on the excavation of Mou…” → “I was once a citizen in Nor City, during which time some men wanted t…”<br>· text: “The officer in charge would not let me, and I was sent to Flagstone a…” → “The officer in charge would not let me, and out of malice he threw me…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

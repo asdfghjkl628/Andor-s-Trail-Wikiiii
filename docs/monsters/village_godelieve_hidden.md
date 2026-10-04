@@ -18,4 +18,12 @@
 
 - [wexlow_village](../maps/wexlow_village.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `village_godelieve_hidden` · Data from v0.8.18</small>

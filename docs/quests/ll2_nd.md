@@ -39,6 +39,8 @@
 
 - NOT reached stage 10 of [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -81,6 +83,7 @@
 | <span id="stage-123"></span>123 | 123=Taurophag hit 3+<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> | stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) | stage 122 | applies condition solid_impact |
 | <span id="stage-129"></span>129 | 129=Taurophag dead shown<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> | stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -191,6 +194,16 @@
 
     1. stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) → the conversation leads here automatically — **conditions:** killed 1× [Taurophag](../monsters/taurophag.md); NOT reached stage 129 of [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-129) → **stage 129**. NPC: “The Taurophag is no more. We have survived it!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 31 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

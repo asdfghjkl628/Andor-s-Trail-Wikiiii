@@ -18,8 +18,17 @@
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Creeping fungus](../monsters/waterwayamushroom.md) | 65 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waterwayb1` · Data from v0.8.18</small>

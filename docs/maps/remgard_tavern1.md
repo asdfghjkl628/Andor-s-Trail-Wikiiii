@@ -15,12 +15,22 @@
 
 | Name | HP |
 |---|---|
-| [Morgisia](../monsters/morgisia.md) | 0 |
 | [Guard](../monsters/remgard_g2.md) | 0 |
+| [Maelf](../monsters/maelf.md) | 0 |
+| [Morgisia](../monsters/morgisia.md) | 0 |
+| [Guard](../monsters/remgard_g3.md) | 0 |
 | [Jhaeld](../monsters/jhaeld.md) | 0 |
 | [Guard](../monsters/remgard_g1.md) | 0 |
-| [Guard](../monsters/remgard_g3.md) | 0 |
-| [Maelf](../monsters/maelf.md) | 0 |
 | [Kaverin](../monsters/kaverin.md) | 320 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `remgard_tavern1` · Data from v0.8.18</small>

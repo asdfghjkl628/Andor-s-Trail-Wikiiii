@@ -25,6 +25,8 @@ Start with [Ewmondold](../monsters/inspiring_snake_master.md) ([wild2](../maps/w
 - NOT killed 1× [Snake master](../monsters/snake_master.md)
 - NOT reached stage 5 of [Perception is not reality](../quests/new_snake_master.md#stage-5)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -41,8 +43,9 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-25"></span>25 | I must stop Ewmondold from getting stronger. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-30"></span>30 | I've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Snakecave3](../maps/snakecave3.md).</span> | stepping on a trigger on [snakecave3](../maps/snakecave3.md) | – | 250 XP<br>gives [Gold coins](../items/gold.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -63,6 +66,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [snakecave3](../maps/snakecave3.md) → the conversation leads here automatically — **conditions:** killed 1× [Ewmondold](../monsters/ewmondold_snake_master.md); NOT reached stage 30 of [Perception is not reality](../quests/new_snake_master.md#stage-30) → **stage 30**; also gives [Gold coins](../items/gold.md). NPC: “You've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 4 lines added |
+| [v0.7.13](../versions/0.7.13.md) | stage 10 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

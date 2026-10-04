@@ -21,8 +21,6 @@
 | [Snake servant](../monsters/snake_servant.md) | 25% | 1 |
 | [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 |
 | [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 |
-| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 |
-| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 |
 | [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 |
 | [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1-2 |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 10% | 1-2 |
@@ -30,9 +28,21 @@
 | [Restless dead](../monsters/restless_dead.md) | 10% | 1 |
 | [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 |
 | [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 |
+| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 |
+| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 |
 
 ## Sold by
 
 - [Kealwea](../monsters/sullengard_priest.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `health_minor` · Data from v0.8.18</small>

@@ -29,6 +29,7 @@ On every subsequent level-up, maximum health points (HP) will be raised by 1 per
 | 5 | 65 |
 | … | +15 per level |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Regeneration](regeneration.md): needs this skill at level 1

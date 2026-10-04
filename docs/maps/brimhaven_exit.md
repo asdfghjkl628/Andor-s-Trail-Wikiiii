@@ -7,4 +7,13 @@
 <div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_exit.webp" alt="brimhaven_exit" width="960" height="960" loading="lazy"><a class="mo mo-script" href="../../quests/cat_and_mouse/#stage-90" title="Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)" style="left:46.667%;top:0.000%;width:53.333%;height:23.333%"></a></div>
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `brimhaven_exit` · Data from v0.8.18</small>

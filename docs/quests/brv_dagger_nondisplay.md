@@ -32,6 +32,8 @@
 - carry 1× [A strange looking dagger](../items/strange_dagger.md)
 - carry 1× [A strange-looking gem](../items/strange_gem.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -55,6 +57,7 @@
 | <span id="stage-30"></span>30 | purchased knife the hard way. | [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) | pay 1,000 gold, stage 10 | gives 1× [A strange looking dagger](../items/strange_dagger.md) |
 | <span id="stage-40"></span>40 | purchased gem the hard way. | [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) | pay 1,500 gold, stage 20 | gives 1× [A strange-looking gem](../items/strange_gem.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -77,6 +80,16 @@
 
     1. Talk to [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) → choose “I don't think it's fair, but I'll pay it.” — **conditions:** NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40); reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); pay 1,500 gold → **stage 40**; also gives 1× [A strange-looking gem](../items/strange_gem.md). NPC: “Here you go kid”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 6 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

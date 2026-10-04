@@ -126,6 +126,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | droplistID added (shop_fallhaven_lumberjack)<br>Dialogue: 14 lines added, 2 lines changed<br>· text: “Hi, I'm Jakrar.” → “null” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed<br>· text: “You're welcome. But you're not the only one who is happy. There are m…” → “You're welcome. But you're not the only one who is happy. There are m…” |
+| [v0.8.10](../versions/0.8.10.md) | Dialogue: 2 lines added, 2 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

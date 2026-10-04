@@ -25,6 +25,8 @@ Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))
 
 - NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -59,8 +61,9 @@ Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))
 | <span id="stage-85"></span>85 | I saved the life of Anakis' sister Juttarka.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave2](../maps/basiliskcave2.md).</span> | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | carry 1× [Empty crystal vial](../items/empty_crystal_vial.md), stage 60 | 400 XP<br>sets stage 20 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20)<br>sets stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30)<br>spawns monsters on brimhaven_anakis_house |
 | <span id="stage-90"></span>90 | I told Anakis that I killed the Basilisk. **(completes quest)** | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | stage 85 | 1,000 XP<br>spawns monsters on brimhaven_anakis_house<br>removes monsters from brimhaven7 |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -121,6 +124,17 @@ Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))
     2. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90); latest stage of [A quick glance](../quests/quick_glance.md#stage-85) is 85 → **stage 90**; also spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7. NPC: “Thank you so much for rescuing my sister Juttarka. She just came out of the cave and told me what you did for her. I…”
     3. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I found the Basilisk and killed it, but I decided to take the blood for myself.” — **conditions:** NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) → **stage 90**; also spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7. NPC: “Oh no. Why did you not even try to help her? Now i will go and mourn for my sister.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 15 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 15 journal text changed; stage 77 journal text changed; stage 79 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

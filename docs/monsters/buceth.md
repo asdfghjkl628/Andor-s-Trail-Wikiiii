@@ -27,6 +27,7 @@
 ## Quests
 
 - [Flows through the veins](../quests/loneford.md): stages 41, 42, 45, 50, 60
+- [Search for Andor](../quests/andor.md): stages 61, 62
 
 ??? quote "Dialogue (56 lines)"
 
@@ -122,7 +123,7 @@
     - “Here's 1,000 gold, take it.” *(if pay 1,000 gold)* → [buceth_gold_yes](#d-buceth_gold_yes)
     - “Here's 2,000 gold, take it.” *(if pay 2,000 gold)* → [buceth_gold_yes](#d-buceth_gold_yes)
 
-    <span id="d-buceth_story_7"></span>**`buceth_story_7`** Buceth: “They were sending a boy to do some business here, and I was assigned to make sure that the mission was successful.” — **effects:** sets stage 61 of [andor (hidden flag)](../quests/andor.md#stage-61)
+    <span id="d-buceth_story_7"></span>**`buceth_story_7`** Buceth: “They were sending a boy to do some business here, and I was assigned to make sure that the mission was successful.” — **effects:** sets stage 61 of [Search for Andor](../quests/andor.md#stage-61)
 
     - “Do you know where he went after he left Loneford?” → [buceth_story_7_1](#d-buceth_story_7_1)
 
@@ -137,7 +138,7 @@
 
     - Next → [buceth_story_1](#d-buceth_story_1)
 
-    <span id="d-buceth_story_7_1"></span>**`buceth_story_7_1`** Buceth: “The boy told me he had some business with a rich man in Brimhaven. Maybe he went there.” — **effects:** sets stage 62 of [andor (hidden flag)](../quests/andor.md#stage-62)
+    <span id="d-buceth_story_7_1"></span>**`buceth_story_7_1`** Buceth: “The boy told me he had some business with a rich man in Brimhaven. Maybe he went there.” — **effects:** sets stage 62 of [Search for Andor](../quests/andor.md#stage-62)
 
     - Next → [buceth_story_8](#d-buceth_story_8)
 
@@ -289,6 +290,19 @@
     - “Fine. How about I give you some gold instead, would that make you talk?” → [buceth_gold_1](#d-buceth_gold_1)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…”<br>· text: “Without going into specifics, let's say that these are methods that h…” → “Without going into specifics, let's say that these are ways that have…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

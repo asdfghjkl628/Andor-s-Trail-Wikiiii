@@ -21,4 +21,12 @@
 | [Warg veal](../items/warg_veal.md) | 8% | 1 |
 | [Red apple](../items/apple_red.md) | 15% | 1 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `warg_pup` · Data from v0.8.18</small>

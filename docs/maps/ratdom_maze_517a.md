@@ -22,8 +22,8 @@
 |---|---|
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
-| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
+| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Young ogre](../monsters/ratdom_troll_1.md) | 230 |
 | [Weak ogre](../monsters/ratdom_troll_2.md) | 230 |
 | [Angry ogre](../monsters/ratdom_troll_3.md) | 330 |
@@ -31,5 +31,13 @@
 | [Dangerous ogre](../monsters/ratdom_troll_5.md) | 380 |
 | [Ancient ogre](../monsters/ratdom_troll_6.md) | 430 |
 | [Giant ogre](../monsters/ratdom_troll_9.md) | 590 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `ratdom_maze_517a` · Data from v0.8.18</small>

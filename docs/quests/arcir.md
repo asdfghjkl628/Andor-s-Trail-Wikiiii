@@ -18,6 +18,8 @@
 
 None: talk to reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -30,6 +32,7 @@ No links to other quests were found in the dialogue conditions.
 |---|---|---|---|---|
 | <span id="stage-10"></span>10 |  | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -38,6 +41,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) → the conversation leads here automatically → **stage 10**. NPC: “Elythara, mother of the light. Protect us from the curse of the Shadow.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

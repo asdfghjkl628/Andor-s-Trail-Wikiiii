@@ -14,9 +14,18 @@
 
 | Name | HP |
 |---|---|
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Irdegh spawn](../monsters/irdegh_sp_1.md) | 57 |
 | [Irdegh spawn](../monsters/irdegh_sp_2.md) | 68 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waterway_forest3` · Data from v0.8.18</small>

@@ -117,6 +117,19 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 12 lines added |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Thanks to your advice, we have been successful selling more soup to t…” → “Thanks to your advice, we have been successful selling more soup to t…” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 8 lines added, 1 line changed |
+| [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…”<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

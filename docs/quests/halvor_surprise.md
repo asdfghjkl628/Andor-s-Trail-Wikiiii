@@ -22,6 +22,8 @@
 
 None: talk to [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -65,8 +67,9 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-180"></span>180 | Halvor left, asking me to pay a visit to his friend Kayla if I ever go to Stoutford. **(completes quest)** | [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | stage 175 | removes monsters from waytolostmine1 |
 | <span id="stage-190"></span>190 | I met Kayla in Stoutford. She offered me a pair of the boots she made with Halvor's items. | [Kayla](../monsters/kayla.md) ([stoutford_cottage2](../maps/stoutford_cottage2.md)) | stage 180 | gives 1× [Boots of the Globetrotter](../items/globetrotter_boots.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -198,6 +201,18 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Kayla](../monsters/kayla.md) ([stoutford_cottage2](../maps/stoutford_cottage2.md)) → choose “It was a pleasure.” — **conditions:** reached stage 180 of [Surprise?](../quests/halvor_surprise.md#stage-180); NOT reached stage 190 of [Surprise?](../quests/halvor_surprise.md#stage-190) → **stage 190**; also gives 1× [Boots of the Globetrotter](../items/globetrotter_boots.md). NPC: “Here. Take these. I've given one pair to Halvor, and I'll keep the last one for myself.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 34 lines added |
+| [v0.7.4](../versions/0.7.4.md) | stage 15 journal text changed; stage 25 journal text changed; stage 60 journal text changed; stage 70 journal text changed; stage 75 journal text changed; stage 80 journal text changed (+7 more) |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

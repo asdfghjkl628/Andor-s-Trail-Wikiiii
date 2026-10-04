@@ -26,6 +26,8 @@
 
 None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -106,8 +108,9 @@ None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwate
 | <span id="stage-42"></span>42 | "Climbing up is forbidden" finished. | [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | – | gives 2000× [Gold coins](../items/gold.md)<br>starts timer “ortholion_next1”<br>sets stage 59 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-59)<br>gives 30× [Mundane necklace](../items/junk_necklace0.md)<br>gives 20× [Mundane ring](../items/ring1.md)<br>sets stage 60 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-60)<br>sets stage 61 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-61)<br>gives 50× [Gold coins](../items/gold.md)<br>sets stage 62 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62)<br>gives 1× [Ortholion's talisman](../items/ortholion_reward.md)<br>sets stage 63 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-63) |
 | <span id="stage-43"></span>43 | Conversation with Jern & the Captain. | [Prim guard captain](../monsters/prim_guard5.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md))<br>[Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | stage 18 | gives 1× [Rusted key](../items/elm2_key.md)<br>removes monsters from blackwater_mountain29 |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -301,6 +304,21 @@ None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwate
     1. Talk to [Prim guard captain](../monsters/prim_guard5.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “You are needed here more.” — **conditions:** reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18) → **stage 43**; also gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29. NPC: “Thank you again. *looks at the captain* I'll be going.”
     2. Talk to [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “You are needed here more.” — **conditions:** reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18) → **stage 43**; also gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29. NPC: “Thank you again. *looks at the captain* I'll be going.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 56 lines added |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines changed<br>· text: “Everything seems too old and stinky to be worth a penny, but after ha…” → “Everything seems too old and stinky to be worth anything much, but af…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…”<br>· text: “You try to put off the armor first but you soon discover both the man…” → “You try to pull off the armor first but you soon discover both the ma…” |
+| [v0.8.8](../versions/0.8.8.md) | stages added: 43<br>Dialogue: 1 line added, 2 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

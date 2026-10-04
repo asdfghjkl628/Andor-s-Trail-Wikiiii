@@ -21,6 +21,7 @@
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 86, 92, 95
+- [Search for Andor](../quests/andor.md): stages 132
 - [The balance of scales](../quests/brightport_lizard.md): stages 5, 10, 36, 50, 55, 100, 110
 - [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 104, 105, 106, 107, 110, 111, 112, 221, 233, 257
 
@@ -78,9 +79,9 @@
 
     <span id="d-brightport_bryma14"></span>**`brightport_bryma14`** Bryma: “Sure, what do you want to know?”
 
-    - “Can you tell me about Andor again?” *(if reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma13](#d-brightport_bryma13)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
-    - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
+    - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
     - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma22](#d-brightport_bryma22)
     - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
@@ -88,9 +89,9 @@
     <span id="d-brightport_bryma6"></span>**`brightport_bryma6`** Bryma: “You're back again? The forest isn't as quiet as it used to be.”
 
     - “I saw a strange creature in the cave under your house. It didn't stick around though.” *(if reached stage 1 of [The balance of scales](../quests/brightport_lizard.md#stage-1); NOT reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10))* → [brightport_bryma39](#d-brightport_bryma39)
-    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “Can you tell me about Andor again?” *(if reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
+    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
     - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 107 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-107); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106))* → [brightport_bryma22](#d-brightport_bryma22)
@@ -99,9 +100,9 @@
     <span id="d-brightport_bryma_alternative_greeting"></span>**`brightport_bryma_alternative_greeting`** Bryma: “Hello, I am most happy to have someone to talk with.”
 
     - “I saw a strange creature in the cave under your house. It didn't stick around though.” *(if reached stage 1 of [The balance of scales](../quests/brightport_lizard.md#stage-1); NOT reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10))* → [brightport_bryma39](#d-brightport_bryma39)
-    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “Can you tell me about Andor again?” *(if reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “I'm curious, how did that scroll get to you?” *(if NOT reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
+    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “I'm curious, how did that scroll get to you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
     - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 107 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-107))* → [brightport_bryma22](#d-brightport_bryma22)
@@ -219,7 +220,7 @@
 
     - “Thanks! I will make sure it's returned to its place.” → *conversation ends*
 
-    <span id="d-brightport_bryma3"></span>**`brightport_bryma3`** Bryma: “He brought me a scroll, and in exchange, he wanted me to mentor him in alchemy.” — **effects:** sets stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132)
+    <span id="d-brightport_bryma3"></span>**`brightport_bryma3`** Bryma: “He brought me a scroll, and in exchange, he wanted me to mentor him in alchemy.” — **effects:** sets stage 132 of [Search for Andor](../quests/andor.md#stage-132)
 
     - “I was looking for that scroll, can I have it?” → [brightport_bryma5](#d-brightport_bryma5)
     - “You can give that scroll to me, or I can take it by force.” → [brightport_bryma4](#d-brightport_bryma4)
@@ -231,7 +232,7 @@
 
     - Next → [brightport_bryma44](#d-brightport_bryma44)
 
-    <span id="d-brightport_bryma11"></span>**`brightport_bryma11`** Bryma: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'last resort...'” — **effects:** sets stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132), sets stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105)
+    <span id="d-brightport_bryma11"></span>**`brightport_bryma11`** Bryma: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'last resort...'” — **effects:** sets stage 132 of [Search for Andor](../quests/andor.md#stage-132), sets stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105)
 
     - Next → [brightport_bryma12](#d-brightport_bryma12)
 
@@ -336,6 +337,15 @@
     - “That's a lot to digest, I think I'll leave now.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 67 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “We sat down and he started asking me all sorts of questions. I was gl…” → “We sat down and he started asking me all sorts of questions. I was gl…”<br>· text: “Not to mention that the origin of those bones could have very well hu…” → “Not to mention that the origin of those bones could have very well ha…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

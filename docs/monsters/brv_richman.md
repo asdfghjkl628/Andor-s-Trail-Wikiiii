@@ -28,6 +28,7 @@
 
 - [A place to forge](../quests/place_to_forge.md): stages 30, 35, 40, 50
 - [Much water](../quests/brv_flood.md): stages 130, 150
+- [Search for Andor](../quests/andor.md): stages 65, 912
 - [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stages 110, 120
 - [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 22
 - [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 15
@@ -95,7 +96,7 @@
 
     - “Laugh while you can. The captain is here and now you will get your deserved punishment!” → [brv_guard_captain_and_rich_man_20](#d-brv_guard_captain_and_rich_man_20)
 
-    <span id="d-brv_richman_20"></span>**`brv_richman_20`** Alkapoan: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did. [The handwriting looks like that of my brother.]” — **effects:** sets stage 150 of [Much water](../quests/brv_flood.md#stage-150), gives 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [andor (hidden flag)](../quests/andor.md#stage-65)
+    <span id="d-brv_richman_20"></span>**`brv_richman_20`** Alkapoan: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did. [The handwriting looks like that of my brother.]” — **effects:** sets stage 150 of [Much water](../quests/brv_flood.md#stage-150), gives 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [Search for Andor](../quests/andor.md#stage-65)
 
     - “You were honest to me so I will not kill you, but I will tell the guard captain. (And you can't escape from Brimhaven…” *(if NOT reached stage 80 of [Much water](../quests/brv_flood.md#stage-80))* → [brv_richman_25](#d-brv_richman_25)
     - “I stopped the two brothers from destroying the dam. Who else could have done it?” *(if reached stage 80 of [Much water](../quests/brv_flood.md#stage-80))* → [brv_richman_21](#d-brv_richman_21)
@@ -203,10 +204,21 @@
     - “OK, here you get 50,000. Make something good out of it.” *(if pay 50,000 gold)* → [mg2_richman_18](#d-mg2_richman_18)
     - “You get 25,000. Be happy, that's plenty.” *(if pay 25,000 gold; NOT pay 50,000 gold)* → [mg2_richman_18](#d-mg2_richman_18)
 
-    <span id="d-mg2_richman_18"></span>**`mg2_richman_18`** Alkapoan: “So be it. You will be amazed how quickly we work.” — **effects:** sets stage 22 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-22), faction “cavea_down” set to 2, clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999), sets stage 912 of [andor (hidden flag)](../quests/andor.md#stage-912), removes monsters from galmore_cavea, removes monsters from galmore_cavea, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_2
+    <span id="d-mg2_richman_18"></span>**`mg2_richman_18`** Alkapoan: “So be it. You will be amazed how quickly we work.” — **effects:** sets stage 22 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-22), faction “cavea_down” set to 2, clears stage 999 of [Search for Andor](../quests/andor.md#stage-999), sets stage 912 of [Search for Andor](../quests/andor.md#stage-912), removes monsters from galmore_cavea, removes monsters from galmore_cavea, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_2
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 13 lines added, 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

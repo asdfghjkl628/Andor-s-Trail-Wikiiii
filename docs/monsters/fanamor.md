@@ -211,6 +211,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Oh, who am I kidding. Ok, I was trying to get through the forest here…” → “Oh, who am I kidding. OK, I was trying to get through the forest here…”<br>· text: “.. sigh ..” → “*sigh*” |
+| [v0.7.8](../versions/0.7.8.md) | movementAggressionType added (none); phraseID: fanamor → fanamor_selector<br>Dialogue: 19 lines added, 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 13 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

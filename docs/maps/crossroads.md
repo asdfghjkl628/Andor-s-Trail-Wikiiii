@@ -23,13 +23,29 @@ East: Loneford." style="left:66.667%;top:13.333%;width:3.333%;height:3.333%"></s
 
 | Name | HP |
 |---|---|
-| [Guard](../monsters/crossroads_guard.md) | 0 |
 | [Feygard soldier](../monsters/patrol_roaming.md) | 0 |
 | [Benbyr](../monsters/benbyr.md) | 0 |
 | [Fanamor](../monsters/fanamor.md) | 0 |
+| [Guard](../monsters/crossroads_guard.md) | 0 |
 | [Frantic forest wasp](../monsters/fieldwasp_0.md) | 29 |
 | [Anklebiter](../monsters/anklebiter.md) | 31 |
 | [Frantic forest wasp](../monsters/fieldwasp_unique.md) | 70 |
 | [Feygard scout](../monsters/feygard_scout.md) | 83 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `crossroads` · Data from v0.8.18</small>

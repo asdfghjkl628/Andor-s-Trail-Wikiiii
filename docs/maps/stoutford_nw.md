@@ -20,4 +20,14 @@
 |---|---|
 | [Farmer](../monsters/stouford_farmer2.md) | 0 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `stoutford_nw` · Data from v0.8.18</small>

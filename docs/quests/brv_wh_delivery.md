@@ -25,6 +25,8 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 
 - reached stage 3 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -62,6 +64,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 | <span id="stage-120"></span>120 | Facutloni wants me to report back after the deliveries are complete. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | – | gives 1× [Crystal globe](../items/brv_wh_item_00.md)<br>gives 1× [Plush pillow](../items/brv_wh_item_01.md)<br>gives 1× [Lyre](../items/brv_wh_item_02.md)<br>gives 1× [Yellow boot](../items/brv_wh_item_03.md)<br>gives 1× [Chandelier](../items/brv_wh_item_04.md)<br>gives 1× [Mysterious green something](../items/brv_wh_item_05.md)<br>gives 1× [Old, worn cape](../items/brv_wh_item_06.md)<br>gives 1× [Pretty porcelain figure](../items/brv_wh_item_07.md)<br>gives 1× [Striped hammer](../items/brv_wh_item_08.md)<br>gives 1× [Dusty old book](../items/brv_wh_item_09.md)<br>sets stage 1 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-1)<br>gives 1× [Facutloni's Docket](../items/facutloni_docket.md) |
 | <span id="stage-130"></span>130 | I reported back to Facutloni. He is very happy. **(completes quest)** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | pay 330 gold | 10,000 XP<br>sets stage 3 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3)<br>gives 100× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -118,6 +121,16 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 
     1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “And seriously.” — **conditions:** reached stage 2 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2); pay 330 gold → **stage 130**; also sets stage 3 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3), gives 100× [Gold coins](../items/gold.md). NPC: “That is serious. And here you have your well-deserved reward: 100 gold.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.17](../versions/0.7.17.md) | Added<br>Dialogue: 12 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

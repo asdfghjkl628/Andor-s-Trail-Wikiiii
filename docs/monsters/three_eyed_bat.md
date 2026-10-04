@@ -29,4 +29,12 @@
 - [haunted_underground_4](../maps/haunted_underground_4.md)
 - [haunted_underground_5](../maps/haunted_underground_5.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.3](../versions/0.8.3.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `three_eyed_bat` · Data from v0.8.18</small>

@@ -31,16 +31,26 @@
 
 ## Sold by
 
-- [Stiyl](../monsters/brightportpriest1.md)
 - [Tharal](../monsters/tharal.md)
 - [Potion merchant](../monsters/potion_merchant.md)
-- [Yolgen](../monsters/yolgen.md)
-- [Aryfora](../monsters/stoutford_widow2.md)
-- [Kealwea](../monsters/sullengard_priest.md)
-- [Talion](../monsters/talion.md)
-- [Skylenar](../monsters/skylenar.md)
 - [Jolnor](../monsters/jolnor.md)
 - [Samar](../monsters/samar.md)
 - [Mazeg](../monsters/mazeg.md)
+- [Talion](../monsters/talion.md)
+- [Skylenar](../monsters/skylenar.md)
+- [Yolgen](../monsters/yolgen.md)
+- [Aryfora](../monsters/stoutford_widow2.md)
+- [Kealwea](../monsters/sullengard_priest.md)
+- [Stiyl](../monsters/brightportpriest1.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `health_major2` · Data from v0.8.18</small>

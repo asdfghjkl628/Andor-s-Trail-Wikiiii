@@ -29,6 +29,7 @@
 
 ## Quests
 
+- [Missing pieces](../quests/vacor.md): stages 50, 51, 53, 61
 - [Old friends?](../quests/kaverin.md): stages 30
 
 ??? quote "Dialogue (31 lines)"
@@ -38,8 +39,8 @@
     <span id="d-unzel"></span>**`unzel`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 30 of [Old friends?](../quests/kaverin.md#stage-30))* → [unzel_msg_r0](#d-unzel_msg_r0)
-    - branch 2 *(if reached stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61))* → [unzel_40](#d-unzel_40)
-    - branch 3 *(if reached stage 51 of [vacor (hidden flag)](../quests/vacor.md#stage-51))* → [unzel_return_1](#d-unzel_return_1)
+    - branch 2 *(if reached stage 61 of [Missing pieces](../quests/vacor.md#stage-61))* → [unzel_40](#d-unzel_40)
+    - branch 3 *(if reached stage 51 of [Missing pieces](../quests/vacor.md#stage-51))* → [unzel_return_1](#d-unzel_return_1)
     - branch 4 → [unzel_1](#d-unzel_1)
 
     <span id="d-unzel_msg_r0"></span>**`unzel_msg_r0`** Unzel: “Hello again. Thank you for your help with defeating Vacor and bringing me the message from Kaverin.”
@@ -58,7 +59,7 @@
     <span id="d-unzel_1"></span>**`unzel_1`** Unzel: “Hello. I'm Unzel.”
 
     - “Is this your camp?” → [unzel_2](#d-unzel_2)
-    - “I am sent by Vacor to kill you.” *(if reached stage 40 of [vacor (hidden flag)](../quests/vacor.md#stage-40))* → [unzel_3](#d-unzel_3)
+    - “I am sent by Vacor to kill you.” *(if reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40))* → [unzel_3](#d-unzel_3)
 
     <span id="d-unzel_msg5"></span>**`unzel_msg5`** Unzel: “Your help could prove more valuable than you might realize.”
 
@@ -68,7 +69,7 @@
 
     - “Here it is.” *(if hand over 1× [Kaverin's sealed message](../items/kaverin_message.md))* → [unzel_msg2](#d-unzel_msg2)
 
-    <span id="d-unzel_30"></span>**`unzel_30`** Unzel: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.” — **effects:** sets stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61), gives [Gold coins](../items/gold.md)
+    <span id="d-unzel_30"></span>**`unzel_30`** Unzel: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.” — **effects:** sets stage 61 of [Missing pieces](../quests/vacor.md#stage-61), gives [Gold coins](../items/gold.md)
 
     - “Shadow be with you.” → *conversation ends*
     - “Thank you.” → *conversation ends*
@@ -97,7 +98,7 @@
 
     - Next → [unzel_msg4](#d-unzel_msg4)
 
-    <span id="d-unzel_fight"></span>**`unzel_fight`** Unzel: “Very well, let's fight then.” — **effects:** sets stage 53 of [vacor (hidden flag)](../quests/vacor.md#stage-53)
+    <span id="d-unzel_fight"></span>**`unzel_fight`** Unzel: “Very well, let's fight then.” — **effects:** sets stage 53 of [Missing pieces](../quests/vacor.md#stage-53)
 
     - “A fight it is!” → *fight starts*
 
@@ -135,7 +136,7 @@
 
     <span id="d-unzel_16_select"></span>**`unzel_16_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 50 of [vacor (hidden flag)](../quests/vacor.md#stage-50))* → [unzel_16_2](#d-unzel_16_2)
+    - branch 1 *(if reached stage 50 of [Missing pieces](../quests/vacor.md#stage-50))* → [unzel_16_2](#d-unzel_16_2)
     - branch 2 → [unzel_16_1](#d-unzel_16_1)
 
     <span id="d-unzel_16_2"></span>**`unzel_16_2`** Unzel: “So, here we are.”
@@ -146,7 +147,7 @@
 
     - “I killed the four bandits you sent after Vacor.” → [unzel_17](#d-unzel_17)
 
-    <span id="d-unzel_19"></span>**`unzel_19`** Unzel: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?” — **effects:** sets stage 50 of [vacor (hidden flag)](../quests/vacor.md#stage-50)
+    <span id="d-unzel_19"></span>**`unzel_19`** Unzel: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?” — **effects:** sets stage 50 of [Missing pieces](../quests/vacor.md#stage-50)
 
     - “I will side with you. The Shadow must not be disturbed.” → [unzel_20](#d-unzel_20)
     - “I will side with Vacor.” → [unzel_fight](#d-unzel_fight)
@@ -155,7 +156,7 @@
 
     - Next → [unzel_18](#d-unzel_18)
 
-    <span id="d-unzel_20"></span>**`unzel_20`** Unzel: “Thank you my friend. We will keep the Shadow safe from Vacor.” — **effects:** sets stage 51 of [vacor (hidden flag)](../quests/vacor.md#stage-51)
+    <span id="d-unzel_20"></span>**`unzel_20`** Unzel: “Thank you my friend. We will keep the Shadow safe from Vacor.” — **effects:** sets stage 51 of [Missing pieces](../quests/vacor.md#stage-51)
 
     - Next → [unzel_21](#d-unzel_21)
 
@@ -167,6 +168,16 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 6 lines changed<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
+| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

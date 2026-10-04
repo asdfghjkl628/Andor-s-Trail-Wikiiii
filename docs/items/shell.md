@@ -11,8 +11,8 @@
 | [Forest ant](../monsters/forest_ant.md) | 30% | 1 |
 | [Yellow forest ant](../monsters/yellow_forest_ant.md) | 30% | 1 |
 | [Yellow cave ant](../monsters/yellow_cave_ant.md) | 30% | 1 |
-| [Hardershell beetle](../monsters/hardershell_beetle.md) | 30% | 1 |
-| [Village ant](../monsters/village_ant.md) | 30% | 1 |
+| [Forest beetle](../monsters/forest_beetle.md) | 30% | 1 |
+| [Hardshell beetle](../monsters/hardshell_beetle.md) | 30% | 1 |
 | [Grasslands ant](../monsters/grass_ant.md) | 30% | 1 |
 | [Tough grasslands ant](../monsters/grass_ant2.md) | 30% | 1 |
 | [Grasslands beetle](../monsters/grass_beetle.md) | 30% | 1 |
@@ -28,7 +28,6 @@
 | [Cave burrower](../monsters/burrower_2.md) | 30% | 1 |
 | [Strong larval burrower](../monsters/burrower_3.md) | 30% | 1 |
 | [Giant larval burrower](../monsters/burrower_4.md) | 30% | 1 |
-| [Hardshell beetle](../monsters/hardshell_beetle.md) | 30% | 1 |
 | [Carrion centipede](../monsters/ccentip0.md) | 30% | 1 |
 | [Ravenous carrion centipede](../monsters/ccentip1.md) | 30% | 1 |
 | [Bloated carrion centipede](../monsters/ccentip2.md) | 30% | 1 |
@@ -37,11 +36,22 @@
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 30% | 1 |
 | [Strong poisonous cave burrower](../monsters/caveburr4.md) | 30% | 1 |
 | [Giant poisonous cave burrower](../monsters/caveburr5.md) | 30% | 1 |
-| [Forest beetle](../monsters/forest_beetle.md) | 30% | 1 |
+| [Hardershell beetle](../monsters/hardershell_beetle.md) | 30% | 1 |
+| [Village ant](../monsters/village_ant.md) | 30% | 1 |
 | [Queen spider](../monsters/spider_queen.md) | 20% | 1 |
-| [Grass spider](../monsters/grass_spider.md) | 10% | 1 |
 | [Basement spider](../monsters/laerothbasement_spider.md) | 10% | 1 |
 | [Giant spider](../monsters/spider_massive.md) | 10% | 1 |
+| [Grass spider](../monsters/grass_spider.md) | 10% | 1 |
 | [Dirt spider](../monsters/dirt_spider.md) | 10% | 1 |
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `shell` · Data from v0.8.18</small>

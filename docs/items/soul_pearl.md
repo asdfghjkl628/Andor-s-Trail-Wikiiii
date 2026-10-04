@@ -11,4 +11,14 @@
 | [Bone-Marshal lich](../monsters/bone_marshal_lich_pearl.md) | 100% | 1 |
 | [Saki](../monsters/saki.md) | 100% | 5 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `soul_pearl` · Data from v0.8.18</small>

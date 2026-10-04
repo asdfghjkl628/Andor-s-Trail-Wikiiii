@@ -30,7 +30,7 @@
 
     - “Shannal let me through.” → [lethgar_miner_ghost2_shannal_10](#d-lethgar_miner_ghost2_shannal_10)
     - “I found these ash covered dragon scales. Was this place once home to a dragon?” *(if latest stage of [The fifth master](../quests/fifth_master.md#stage-65) is 65; NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50); carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md))* → [lethgar_miner_ghost2_dragon_10](#d-lethgar_miner_ghost2_dragon_10)
-    - “I'm here for the Heartstone, of course!” *(if NOT reached stage 40 of [nocmar (hidden flag)](../quests/nocmar.md#stage-40))* → [lethgar_miner_ghost2_heartstone_10](#d-lethgar_miner_ghost2_heartstone_10)
+    - “I'm here for the Heartstone, of course!” *(if NOT reached stage 40 of [Lost treasures](../quests/nocmar.md#stage-40))* → [lethgar_miner_ghost2_heartstone_10](#d-lethgar_miner_ghost2_heartstone_10)
 
     <span id="d-lethgar_miner_ghost2_shannal_10"></span>**`lethgar_miner_ghost2_shannal_10`** Lethgar miner ghost: “Oh, Shannal! She's my girlfriend, you know?”
 
@@ -83,6 +83,14 @@
     - “I'll remember that.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 13 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

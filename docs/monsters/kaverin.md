@@ -137,9 +137,9 @@
     <span id="d-kaverin_4"></span>**`kaverin_4`** Kaverin: “You wouldn't by any chance have met him, would you?” — **effects:** sets stage 10 of [Old friends?](../quests/kaverin.md#stage-10)
 
     - “No, I've never met him.” → [kaverin_5](#d-kaverin_5)
-    - “Yes, I've met that fool. He was an easy kill.” *(if reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
-    - “Yes, I have met him. I still have some of his blood on my boots.” *(if reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
-    - “Yes, I even helped him defeat a scoundrel named Vacor.” *(if reached stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61))* → [kaverin_7](#d-kaverin_7)
+    - “Yes, I've met that fool. He was an easy kill.” *(if reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
+    - “Yes, I have met him. I still have some of his blood on my boots.” *(if reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
+    - “Yes, I even helped him defeat a scoundrel named Vacor.” *(if reached stage 61 of [Missing pieces](../quests/vacor.md#stage-61))* → [kaverin_7](#d-kaverin_7)
 
     <span id="d-kaverin_5"></span>**`kaverin_5`** Kaverin: “I guess he keeps to himself. I sure hope he is OK. If you ever run into him, please say hi to him for me.”
 
@@ -157,6 +157,15 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “I have an old .. shall we say .. friend .. from Fallhaven. Goes by th…” → “I have an old ... shall we say ... friend ... from Fallhaven. Goes by…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

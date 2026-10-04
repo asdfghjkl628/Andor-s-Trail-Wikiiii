@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | stepping on a trigger on [guynmart](../maps/guynmart.md) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md) |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_1](../maps/guynmart_main_1.md) |
 | **Related quests** | 1 |
 
@@ -25,6 +25,8 @@
 
 None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,7 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 | <span id="stage-7"></span>7 | 7 olav-<br><span class="qnote">⚡ A scripted event can now trigger on [Guynmart](../maps/guynmart.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md)<br>[Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)) | stage 1 | clears stage 1 of [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-1)<br>spawns monsters on guynmart<br>clears stage 71 of [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-71)<br>clears stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11)<br>sets stage 70 of [Roses](../quests/guynmart.md#stage-70) |
 | <span id="stage-71"></span>71 | 71 wall<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | – | applies condition stunned<br>applies condition bone_fracture |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -59,6 +62,16 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 
     1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 71**; also applies condition stunned, applies condition bone_fracture
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 9 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

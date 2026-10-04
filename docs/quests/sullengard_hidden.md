@@ -11,10 +11,10 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lake_shore_road_9](../maps/lake_shore_road_9.md), [mywild20_houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
-| **Related quests** | 12 |
+| **Related quests** | 13 |
 
 </div>
 
@@ -29,6 +29,8 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 - NOT reached stage 1 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-1)
 - pay 700 gold
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -38,6 +40,8 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | Requires | [Another ruthless Crackshot](Thieves04.md#stage-70) | stage 70 reached, for stage 28 here |
 | Requires | [Another ruthless Crackshot](Thieves04.md#stage-75) | stage 75 reached, for stage 37 here |
 | Requires | [Another ruthless Crackshot](Thieves04.md#stage-80) | stage 80 reached, for stages 39, 42 here |
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stage 28 here |
+| Requires | [Search for Andor](andor.md#stage-100) | stage 100 reached, for stage 26 here |
 | Requires | [Getting home on time](deebo_orchard_ght.md#stage-30) | stage 30 reached, for stage 100 here |
 | Requires | [Hunting the hunter](deebo_orchard_hth.md#stage-0) | stage 0 reached, for stage 4 here |
 | Requires | [Delicious soup](gison_soup.md#stage-120) | stage 120 reached, for stage 20 here |
@@ -46,6 +50,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | Requires | [Trusting an outsider](vilegard.md#stage-30) | stage 30 reached, for stage 32 here |
 | Requires | [Wanted men](wanted_men.md#stage-57) | stage 57 reached, for stage 40 here |
 | Mutually exclusive | [Another ruthless Crackshot](Thieves04.md#stage-75) | stage 75 must NOT be reached, for stages 36, 38 here |
+| Blocked by | [Search for Andor](andor.md#stage-110) | stage 110 must NOT be reached, for stage 26 here |
 | Blocked by | [Beer Bootlegging](beer_bootlegging.md#stage-30) | stage 30 must NOT be reached, for stage 32 here |
 | Blocked by | [Getting home on time](deebo_orchard_ght.md#stage-10) | stage 10 must NOT be reached, for stage 16 here |
 | Mutually exclusive | [Hunting the hunter](deebo_orchard_hth.md#stage-50) | stage 50 must NOT be reached, for stage 4 here |
@@ -53,6 +58,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | Blocked by | [Wanted men](wanted_men.md#stage-15) | stage 15 must NOT be reached, for stage 41 here |
 | Unlocks | [Another ruthless Crackshot](Thieves04.md#stage-80) | stage 80 there needs stage 30 here |
 | Unlocks | [Unusual experiences and achievements](achievements.md#stage-120) | stage 120 there needs stage 2 here |
+| Unlocks | [Search for Andor](andor.md#stage-110) | stage 110 there needs stage 26 here |
 | Unlocks | [Beer Bootlegging](beer_bootlegging.md#stage-30) | stage 30 there needs stage 32 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-125) | stage 125 there needs stage 37 here |
 | Unlocks | [Recovering stolen property](sullengard_recover_items.md#stage-40) | stage 40 there needs stages 23, 24, 25 here |
@@ -113,8 +119,9 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | <span id="stage-120"></span>120 | 120 bar achievement<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard tavern](../maps/sullengard_tavern.md).</span> | stepping on a trigger on [sullengard_tavern](../maps/sullengard_tavern.md) | carry 1× [Brimhaven brew](../items/brv_brew.md), stage 2 | – |
 | <span id="stage-500"></span>500 | Key:(Never true condition)<br><span class="qnote">🔓 You can finally access a previously blocked area on [Loneford13](../maps/loneford13.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -215,7 +222,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 ???+ note "Stage 26: 1 route"
 
-    1. stepping on a trigger on [home](../maps/home.md) → choose “Some of them were ants..” — **conditions:** reached stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100); NOT reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110); NOT reached stage 26 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-26); NOT reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1) → **stage 26**. NPC: “$playername, I'm not laughing.”
+    1. stepping on a trigger on [home](../maps/home.md) → choose “Some of them were ants..” — **conditions:** reached stage 100 of [Search for Andor](../quests/andor.md#stage-100); NOT reached stage 110 of [Search for Andor](../quests/andor.md#stage-110); NOT reached stage 26 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-26); NOT reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1) → **stage 26**. NPC: “$playername, I'm not laughing.”
 
 ???+ note "Stage 27: 1 route"
 
@@ -223,7 +230,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 ???+ note "Stage 28: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What? How?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30); NOT reached stage 28 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-28) → **stage 28**; also gives 1000× [Gold coins](../items/gold.md). NPC: “Here's 1,000 gold coins as my financial contribution.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What? How?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30); NOT reached stage 28 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-28) → **stage 28**; also gives 1000× [Gold coins](../items/gold.md). NPC: “Here's 1,000 gold coins as my financial contribution.”
 
 ???+ note "Stage 29: 1 route"
 
@@ -290,6 +297,22 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
     1. stepping on a trigger on [sullengard_tavern](../maps/sullengard_tavern.md) → choose “Oh, but I will.” — **conditions:** reached stage 2 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-2); carry 1× [Brimhaven brew](../items/brv_brew.md); NOT reached stage 120 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_nondisplay.md#stage-120) → **stage 120**. NPC: “Get out of here now. Do not come back until you learn some respect.”
 
 
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 33 lines added |
+| [v0.8.3](../versions/0.8.3.md) | stages added: 33, 34, 35<br>Dialogue: 3 lines added |
+| [v0.8.4](../versions/0.8.4.md) | stages added: 110, 120; stage 21 XP 0 → 3000<br>Dialogue: 1 line added, 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
+| [v0.8.5](../versions/0.8.5.md) | Dialogue: 1 line changed |
+| [v0.8.8](../versions/0.8.8.md) | stages added: 36, 37, 38, 39, 40, 41<br>Dialogue: 6 lines added, 1 line changed<br>· text: “Thank you so much again, kid. You are just like your brother Andor.” → “Thank you so much again, kid. You are just like your brother Andor. A…” |
+| [v0.8.13](../versions/0.8.13.md) | stage 28 journal text changed |
+| [v0.8.18](../versions/0.8.18.md) | stages added: 42; stage 1 journal text changed; stage 2 journal text changed; stage 3 journal text changed; stage 5 journal text changed; stage 20 journal text changed (+9 more)<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Walkthrough**: step-by-step help for players · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Bugs**: known glitches and workarounds · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -323,7 +346,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 100, 101, 110, 120, 500 |
     | Dialogue nodes setting stages | 1: `sullengard_godrey_40`, 2: `sullengard_bartender_20`, 3: `sullengard_bartender_50b`, 4: `deebo_orchard_deebo_80`, 5: `script_sullengard_woods14_20`, 6: `sullengard6_replace_below_script`, 7: `sullengard6_replace_above_script`, 8: `sullengard5_replace_below_script`, 9: `sullengard5_replace_above_script`, 10: `sullengard_ollie_giggle`, 10: `sullengard7_replace_below_script`, 11: `sullengard7_replace_above_script`, 12: `sullengard9_replace_below_script`, 13: `sullengard9_replace_above_script`, 14: `sullengard10_replace_below_script`, 15: `sullengard10_replace_above_script`, 16: `sullengard_hadena_0`, 17: `sull_ravine_grazia_50`, 18: `sull_ravine_grazia_60`, 18: `sull_ravine_grazia_90`, 20: `nimael_pm_30`, 21: `nimael_pm_50`, 23: `sullengard_drinking_brother_30`, 24: `sullengard_lamberta_10`, 25: `sullengard_mayor_30`, 26: `parents_argue_100`, 27: `notice_large_sullengard_trees_10`, 28: `umar_guild04_28b`, 29: `sull_ravine_south_of_bridge`, 30: `sullengard_mayor_5`, 31: `sullengard_cat_0`, 32: `tharwyn_beer_50`, 33: `haunted_cemetery1_deafult_gp_inner`, 34: `haunted_cemetery1_walkable_gp`, 35: `haunted_cemetery1_nonwalkable_hole`, 36: `sutdover_river_bridge_broken_script`, 37: `sutdover_river_bridge_fixed_script`, 38: `thief_seraphina_70`, 39: `spawn_aidem_camp_thieves_spawn`, 40: `sullengard_zaccheria_ask_about_lt_13`, 41: `prerequisite_easedropping_2`, 42: `set_sullengard_hidden_qs42`, 100: `loneford13_pitchfork_success`, 120: `sullengard_bartender_50b` |
-    | Dialogue nodes clearing stages | 33: `haunted_cemetery1_walkable_gp`, 35: `haunted_cemetery1_walkable_gp`, 34: `haunted_cemetery1_deafult_gp_inner`, 3: `sullengard_bartender_clear_qp`, 7: `sullengard6_replace_below_script`, 6: `sullengard6_replace_above_script`, 9: `sullengard5_replace_below_script`, 8: `sullengard5_replace_above_script`, 11: `sullengard7_replace_below_script`, 10: `sullengard7_replace_above_script` |
+    | Dialogue nodes clearing stages | 3: `sullengard_bartender_clear_qp`, 7: `sullengard6_replace_below_script`, 6: `sullengard6_replace_above_script`, 9: `sullengard5_replace_below_script`, 8: `sullengard5_replace_above_script`, 11: `sullengard7_replace_below_script`, 10: `sullengard7_replace_above_script`, 15: `sullengard10_replace_below_script`, 14: `sullengard10_replace_above_script`, 12: `sullengard9_replace_above_script` |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 
 

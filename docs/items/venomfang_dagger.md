@@ -37,4 +37,16 @@
 
 - [Feygard scout](../monsters/ortholion_guard6.md)
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.7.15](../versions/0.7.15.md) | equipEffect: {"increaseAttackChance": 16, "increaseA… → {"increaseAttackChance": 16, "increaseA… |
+| [v0.8.12.1](../versions/0.8.12.1.md) | description: Fast and accurate, just like serpent's … → Fast and accurate, delivering a venomou…; displaytype: extraordinary → rare |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `venomfang_dagger` · Data from v0.8.18</small>

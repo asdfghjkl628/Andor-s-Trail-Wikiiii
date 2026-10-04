@@ -26,15 +26,26 @@
 
 | Name | HP |
 |---|---|
-| [Guard](../monsters/loneford_wellguard.md) | 0 |
-| [Villager](../monsters/loneford_villager0.md) | 0 |
 | [Villager](../monsters/loneford_villager1.md) | 0 |
 | [Guard](../monsters/loneford_guard0.md) | 0 |
-| [Pig](../monsters/pig.md) | 0 |
-| [Conren](../monsters/conren.md) | 0 |
-| [Villager](../monsters/loneford_villager2.md) | 0 |
 | [Villager](../monsters/loneford_villager3.md) | 0 |
+| [Guard](../monsters/loneford_wellguard.md) | 0 |
+| [Villager](../monsters/loneford_villager2.md) | 0 |
+| [Pig](../monsters/pig.md) | 0 |
 | [Villager](../monsters/loneford_villager4.md) | 0 |
+| [Villager](../monsters/loneford_villager0.md) | 0 |
 | [Wallach](../monsters/wallach.md) | 0 |
+| [Conren](../monsters/conren.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `loneford2` · Data from v0.8.18</small>

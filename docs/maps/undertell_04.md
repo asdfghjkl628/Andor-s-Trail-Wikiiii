@@ -19,4 +19,12 @@
 | [Gravewing](../monsters/undertell_bat.md) | 138 |
 | [Gilded dust](../monsters/gilded_dust.md) | 235 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `undertell_04` · Data from v0.8.18</small>

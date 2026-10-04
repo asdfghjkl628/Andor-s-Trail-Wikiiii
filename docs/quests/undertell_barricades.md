@@ -8,10 +8,10 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 160) |
 | **Started by** | [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela_2.md), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
+| **NPCs involved** | [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fallhaven_nw](../maps/fallhaven_nw.md), [galmore_58](../maps/galmore_58.md), [mt_galmore_railhouse](../maps/mt_galmore_railhouse.md) |
 | **Total XP** | 7,204 |
-| **Related quests** | 3 |
+| **Related quests** | 4 |
 
 </div>
 
@@ -24,9 +24,11 @@
 Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)). Required:
 
 - reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9)
-- latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-35) is 35
+- latest stage of [Lost treasures](../quests/nocmar.md#stage-35) is 35
 - NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -35,6 +37,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 |---|---|---|
 | Requires | [A giant snake](bela_gsnake.md#stage-90) | stage 90 reached, for stage 150 here |
 | Requires | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-9) | stage 9 reached, for stage 10 here |
+| Requires | [Lost treasures](nocmar.md#stage-35) | stage 35 reached, for stage 10 here |
 | Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-55) | stage 55 reached, for stage 130 here |
 | Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-55) | reaching stage 130 here closes stage 55 there |
 
@@ -57,13 +60,14 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 | <span id="stage-150"></span>150 | I entrusted 4850 gold to Bela for safekeeping. She agreed to hold it. | [Bela](../monsters/bela_2.md)<br>[Bela](../monsters/bela.md) | pay 4,850 gold, stage 140 | removes monsters from fallhaven_nw<br>spawns monsters on fallhaven_nw |
 | <span id="stage-160"></span>160 | Shannal thanked me for helping Rain and warned me to be careful. She removed the barricades in front of the entrance to Undertell. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 58](../maps/galmore_58.md).</span><br><span class="qnote">🗺️ Part of [Galmore 58](../maps/galmore_58.md) visibly changes.</span> | [Shannal](../monsters/shannal.md) ([mt_galmore_railhouse](../maps/mt_galmore_railhouse.md)) | stage 150 | 7,204 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 10: 1 route"
 
-    1. Talk to [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) → choose “How do I get past those barricades?” — **conditions:** reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-35) is 35; NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20) → **stage 10**; also spawns monsters on mt_galmore_railhouse. NPC: “To enter Undertell, you need to talk to my friend Shannal, she has just come to spend a day at the beach. Shannal is…”
+    1. Talk to [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) → choose “How do I get past those barricades?” — **conditions:** reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [Lost treasures](../quests/nocmar.md#stage-35) is 35; NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20) → **stage 10**; also spawns monsters on mt_galmore_railhouse. NPC: “To enter Undertell, you need to talk to my friend Shannal, she has just come to spend a day at the beach. Shannal is…”
 
 ???+ note "Stage 20: 1 route"
 
@@ -118,6 +122,16 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 
     1. Talk to [Shannal](../monsters/shannal.md) ([mt_galmore_railhouse](../maps/mt_galmore_railhouse.md)) → the conversation leads here automatically — **conditions:** latest stage of [You shall pass](../quests/undertell_barricades.md#stage-150) is 150 → **stage 160**. NPC: “You may now pass. The path to Undertell is open. Fare the well, wanderer.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 14 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

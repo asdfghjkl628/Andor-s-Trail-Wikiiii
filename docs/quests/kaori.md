@@ -25,6 +25,8 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 - reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 | <span id="stage-10"></span>10 | Kaori in northern Vilegard wants me to bring her 10 bonemeal potions. | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | stage 5 | – |
 | <span id="stage-20"></span>20 | I have brought 10 bonemeal potions to Kaori. **(completes quest)** | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | hand over 10× [Bonemeal potion](../items/bonemeal_potion.md), stage 10 | 520 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -58,6 +61,17 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
     1. Talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) → choose “Yes, I brought your potions.” — **conditions:** reached stage 10 of [Kaori's errands](../quests/kaori.md#stage-10); hand over 10× [Bonemeal potion](../items/bonemeal_potion.md) → **stage 20**. NPC: “Good. Give them to me.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “I would really like to have a few more of those. If you can bring me …” → “I would really like to have a few more of those. If you can bring me …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

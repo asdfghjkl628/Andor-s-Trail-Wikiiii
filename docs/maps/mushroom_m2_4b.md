@@ -20,9 +20,17 @@
 
 | Name | HP |
 |---|---|
-| [Confused ghost](../monsters/bogsten_ghost5.md) | 0 |
 | [Bogal](../monsters/bogsten_gambler1.md) | 0 |
-| [Bollo](../monsters/bogsten_gambler3.md) | 0 |
+| [Confused ghost](../monsters/bogsten_ghost5.md) | 0 |
 | [Botisto](../monsters/bogsten_gambler2.md) | 0 |
+| [Bollo](../monsters/bogsten_gambler3.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `mushroom_m2_4b` · Data from v0.8.18</small>

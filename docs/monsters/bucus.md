@@ -14,6 +14,11 @@
 | Critical skill | 0 |
 | Critical multiplier | 0 |
 
+## Quests
+
+- [Key of Luthor](../quests/bucus.md): stages 10, 100
+- [Search for Andor](../quests/andor.md): stages 50
+
 ??? quote "Dialogue (18 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -25,13 +30,13 @@
 
     <span id="d-bucus_andor_select"></span>**`bucus_andor_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100))* → [bucus_umar_1](#d-bucus_umar_1)
+    - branch 1 *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [bucus_umar_1](#d-bucus_umar_1)
     - branch 2 → [bucus_andor_no_1](#d-bucus_andor_no_1)
 
     <span id="d-bucus_thieves_select"></span>**`bucus_thieves_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100))* → [bucus_thieves_complete_3](#d-bucus_thieves_complete_3)
-    - branch 2 *(if reached stage 10 of [bucus (hidden flag)](../quests/bucus.md#stage-10))* → [bucus_thieves_continue](#d-bucus_thieves_continue)
+    - branch 1 *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [bucus_thieves_complete_3](#d-bucus_thieves_complete_3)
+    - branch 2 *(if reached stage 10 of [Key of Luthor](../quests/bucus.md#stage-10))* → [bucus_thieves_continue](#d-bucus_thieves_continue)
     - branch 3 → [bucus_thieves_select2](#d-bucus_thieves_select2)
 
     <span id="d-bucus_umar_1"></span>**`bucus_umar_1`** Bucus: “OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago.”
@@ -54,7 +59,7 @@
 
     <span id="d-bucus_thieves_select2"></span>**`bucus_thieves_select2`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 40 of [andor (hidden flag)](../quests/andor.md#stage-40))* → [bucus_thieves_1](#d-bucus_thieves_1)
+    - branch 1 *(if reached stage 40 of [Search for Andor](../quests/andor.md#stage-40))* → [bucus_thieves_1](#d-bucus_thieves_1)
     - branch 2 → [bucus_thieves_no](#d-bucus_thieves_no)
 
     <span id="d-bucus_umar_2"></span>**`bucus_umar_2`** Bucus: “I don't know what he was up to though. He kept asking a lot of questions. Kind of like you do. *snicker*”
@@ -64,11 +69,11 @@
     <span id="d-bucus_andor_no_2"></span>**`bucus_andor_no_2`** Bucus: “No, I can't tell you. Now please leave.”
 
 
-    <span id="d-bucus_thieves_4"></span>**`bucus_thieves_4`** Bucus: “Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church.” — **effects:** sets stage 10 of [bucus (hidden flag)](../quests/bucus.md#stage-10)
+    <span id="d-bucus_thieves_4"></span>**`bucus_thieves_4`** Bucus: “Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church.” — **effects:** sets stage 10 of [Key of Luthor](../quests/bucus.md#stage-10)
 
     - “OK, sounds easy enough.” → *conversation ends*
 
-    <span id="d-bucus_thieves_complete_1"></span>**`bucus_thieves_complete_1`** Bucus: “Wow, you actually got the key of Luthor? I didn't think you would make it out of there.” — **effects:** sets stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100)
+    <span id="d-bucus_thieves_complete_1"></span>**`bucus_thieves_complete_1`** Bucus: “Wow, you actually got the key of Luthor? I didn't think you would make it out of there.” — **effects:** sets stage 100 of [Key of Luthor](../quests/bucus.md#stage-100)
 
     - Next → [bucus_thieves_complete_2](#d-bucus_thieves_complete_2)
 
@@ -79,7 +84,7 @@
     <span id="d-bucus_thieves_no"></span>**`bucus_thieves_no`** Bucus: “Wh, what? No, I don't know anything about that.”
 
 
-    <span id="d-bucus_umar_3"></span>**`bucus_umar_3`** Bucus: “Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there.” — **effects:** sets stage 50 of [andor (hidden flag)](../quests/andor.md#stage-50)
+    <span id="d-bucus_umar_3"></span>**`bucus_umar_3`** Bucus: “Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there.” — **effects:** sets stage 50 of [Search for Andor](../quests/andor.md#stage-50)
 
     - “OK, bye.” → *conversation ends*
 
@@ -98,6 +103,15 @@
     - “As long as this leads to some treasure, I'm in!” → [bucus_thieves_4](#d-bucus_thieves_4)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Ok kid. You've proven yourself to me. Yes, I saw some other kid by th…” → “OK kid. You've proven yourself to me. Yes, I saw some other kid by th…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

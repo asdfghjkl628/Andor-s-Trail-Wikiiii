@@ -18,6 +18,10 @@
 
 - [crossglen](../maps/crossglen.md)
 
+## Quests
+
+- [Missing husband](../quests/leta.md): stages 20, 25
+
 ??? quote "Dialogue (3 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -26,15 +30,25 @@
 
     - “Hello.” → [oromir2](#d-oromir2)
 
-    <span id="d-oromir2"></span>**`oromir2`** Oromir: “I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here.” — **effects:** sets stage 20 of [leta (hidden flag)](../quests/leta.md#stage-20)
+    <span id="d-oromir2"></span>**`oromir2`** Oromir: “I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here.” — **effects:** sets stage 20 of [Missing husband](../quests/leta.md#stage-20)
 
     - “[Lie] OK.” → *conversation ends*
-    - “Your secret is safe with me.” *(if NOT reached stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100))* → [oromir_trees_help_10](#d-oromir_trees_help_10)
+    - “Your secret is safe with me.” *(if NOT reached stage 100 of [Missing husband](../quests/leta.md#stage-100))* → [oromir_trees_help_10](#d-oromir_trees_help_10)
 
-    <span id="d-oromir_trees_help_10"></span>**`oromir_trees_help_10`** Oromir: “Thank you, friend.” — **effects:** sets stage 25 of [leta (hidden flag)](../quests/leta.md#stage-25)
+    <span id="d-oromir_trees_help_10"></span>**`oromir_trees_help_10`** Oromir: “Thank you, friend.” — **effects:** sets stage 25 of [Missing husband](../quests/leta.md#stage-25)
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

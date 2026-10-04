@@ -118,7 +118,7 @@
 
     <span id="d-brightport_silvear_selector"></span>**`brightport_silvear_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20); NOT reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100))* → [brightport_silvear_directions0](#d-brightport_silvear_directions0)
+    - Next *(if NOT reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [brightport_silvear_directions0](#d-brightport_silvear_directions0)
     - Next *(if NOT reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions1](#d-brightport_silvear_directions1)
     - Next *(if reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions](#d-brightport_silvear_directions)
 
@@ -178,6 +178,15 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 33 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “We've talked about this before. Im confident in my skill, the informa…” → “We've talked about this before. Im confident in my skill, the informa…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

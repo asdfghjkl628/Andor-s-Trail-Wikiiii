@@ -27,16 +27,29 @@
 
 - [flagstone_upper](../maps/flagstone_upper.md)
 
+## Quests
+
+- [Ancient secrets](../quests/flagstone.md): stages 31
+
 ??? quote "Dialogue (1 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-flagstone_guard0"></span>**`flagstone_guard0`** Undead warden: “Ah, another mortal. Prepare to become part of my undead army!” — **effects:** sets stage 31 of [flagstone (hidden flag)](../quests/flagstone.md#stage-31)
+    <span id="d-flagstone_guard0"></span>**`flagstone_guard0`** Undead warden: “Ah, another mortal. Prepare to become part of my undead army!” — **effects:** sets stage 31 of [Ancient secrets](../quests/flagstone.md#stage-31)
 
     - “Shadow take you.” → *fight starts*
     - “Prepare to die once more.” → *fight starts*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

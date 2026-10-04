@@ -11,4 +11,13 @@
 - [Galmore 68](galmore_68.md)
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `mt_galmore1_h1` · Data from v0.8.18</small>

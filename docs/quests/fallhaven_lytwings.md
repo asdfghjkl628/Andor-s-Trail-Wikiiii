@@ -26,6 +26,8 @@ Start with [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_s
 - NOT reached stage 12 of [It's knot funny](../quests/fallhaven_lytwings.md#stage-12)
 - latest stage of [It's knot funny](../quests/fallhaven_lytwings.md#stage-1) is 1
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +58,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-102"></span>102 | I lied to Arensia's and kept her mother's ring for myself. **(completes quest)** | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 100 | – |
 | <span id="stage-103"></span>103 | Arensia gave me her magical promise ring as reward for helping her. **(completes quest)** | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 100 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -136,6 +139,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “They used their magic on your ring, and asked that I give it back to you.” — **conditions:** NOT reached stage 1 of [It's knot funny](../quests/fallhaven_lytwings.md#stage-1); reached stage 100 of [It's knot funny](../quests/fallhaven_lytwings.md#stage-100); NOT reached stage 102 of [It's knot funny](../quests/fallhaven_lytwings.md#stage-102) → **stage 103**. NPC: “After everything you have done for me ... I want you to keep it. Please, I insist!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 19 lines added |
+| [v0.8.13](../versions/0.8.13.md) | stage 21 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

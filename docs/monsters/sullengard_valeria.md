@@ -18,14 +18,18 @@
 
 - [sullengard1_aunts_house](../maps/sullengard1_aunts_house.md)
 
+## Quests
+
+- [Search for Andor](../quests/andor.md): stages 100
+
 ??? quote "Dialogue (17 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
     <span id="d-sullengard_valeria_selector"></span>**`sullengard_valeria_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100))* → [sullengard_valentina_0](#d-sullengard_valentina_0)
-    - Next *(if reached stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100))* → [sullengard_valeria_15](#d-sullengard_valeria_15)
+    - Next *(if NOT reached stage 100 of [Search for Andor](../quests/andor.md#stage-100))* → [sullengard_valentina_0](#d-sullengard_valentina_0)
+    - Next *(if reached stage 100 of [Search for Andor](../quests/andor.md#stage-100))* → [sullengard_valeria_15](#d-sullengard_valeria_15)
 
     <span id="d-sullengard_valentina_0"></span>**`sullengard_valentina_0`** [Valentina](../monsters/sullengard_valentina.md): “$playername, what are you doing here?!”
 
@@ -42,7 +46,7 @@
     <span id="d-sullengard_valeria_20"></span>**`sullengard_valeria_20`** Valeria: “I'm sorry $playername, but I am in no position to answer that question for you. Please do as your mother has requested of you and go home. There you will find your answer.”
 
     - “OK. I will do that.” → *conversation ends*
-    - “But, I've already done that and she didn't answer my question.” *(if reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110))* → [sullengard_valeria_30](#d-sullengard_valeria_30)
+    - “But, I've already done that and she didn't answer my question.” *(if reached stage 110 of [Search for Andor](../quests/andor.md#stage-110))* → [sullengard_valeria_30](#d-sullengard_valeria_30)
 
     <span id="d-sullengard_find_mother_20"></span>**`sullengard_find_mother_20`** Valeria: “What?! Where is he? Why is your father not with you?”
 
@@ -75,7 +79,7 @@
 
     <span id="d-sullengard_valeria_0"></span>**`sullengard_valeria_0`** [Valeria](../monsters/sullengard_valeria.md): “Hello $playername, it's so wonderful to finally meet you after all of these years.”
 
-    - “But, I don't have an aunt?” *(if NOT reached stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100))* → [sullengard_find_mother_60](#d-sullengard_find_mother_60)
+    - “But, I don't have an aunt?” *(if NOT reached stage 100 of [Search for Andor](../quests/andor.md#stage-100))* → [sullengard_find_mother_60](#d-sullengard_find_mother_60)
     - “How come mother never spoke of you or told me that she had a sister?” → [sullengard_valeria_10](#d-sullengard_valeria_10)
 
     <span id="d-sullengard_find_mother_60"></span>**`sullengard_find_mother_60`** [Valentina](../monsters/sullengard_valentina.md): “$playername, I will explain this to you later.”
@@ -90,10 +94,18 @@
 
     - “But what about my search for Andor? Father expects me to find him before I come home again.” → [sullengard_find_mother_80](#d-sullengard_find_mother_80)
 
-    <span id="d-sullengard_find_mother_80"></span>**`sullengard_find_mother_80`** Valeria: “Just follow me home and we can talk there. I may have something to aid you in your search for Andor.” — **effects:** sets stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100), removes monsters from sullengard1_aunts_house, spawns monsters on home
+    <span id="d-sullengard_find_mother_80"></span>**`sullengard_find_mother_80`** Valeria: “Just follow me home and we can talk there. I may have something to aid you in your search for Andor.” — **effects:** sets stage 100 of [Search for Andor](../quests/andor.md#stage-100), removes monsters from sullengard1_aunts_house, spawns monsters on home
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 17 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -57,4 +57,12 @@
 - [way_to_sullengard_east_ravine_north](../maps/way_to_sullengard_east_ravine_north.md)
 - [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `sullengard_venom_snake` · Data from v0.8.18</small>

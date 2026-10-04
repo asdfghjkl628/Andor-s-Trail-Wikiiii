@@ -21,4 +21,15 @@
 | [Grimmthorn marauder](../monsters/grimmthorn_marauder.md) | 0.1% | 1 |
 | [Dirty grimmthorn marauder](../monsters/dirty_grimmthorn_marauder.md) | 0.1% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | description: A heavy boot that boasts animposing des… → A heavy boot that boasts an imposing de… |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `titanforge_stompers` · Data from v0.8.18</small>

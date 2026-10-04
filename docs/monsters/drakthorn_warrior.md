@@ -28,4 +28,13 @@
 - [island_underground2](../maps/island_underground2.md)
 - [island_underground3](../maps/island_underground3.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | attackDamage: {"max": 21, "min": 10} → {"max": 22, "min": 10}; criticalMultiplier: 18.0 → 1.8 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `drakthorn_warrior` · Data from v0.8.18</small>

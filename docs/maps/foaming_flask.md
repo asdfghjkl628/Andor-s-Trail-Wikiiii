@@ -14,12 +14,25 @@
 
 | Name | HP |
 |---|---|
-| [Torilo](../monsters/torilo.md) | 0 |
-| [Ambelie](../monsters/ambelie.md) | 0 |
-| [Knight of Elythom](../monsters/burhczyd13e.md) | 0 |
-| [Burhczyd](../monsters/burhczyd13.md) | 0 |
-| [Foaming Flask cook](../monsters/foaming_flask_cook.md) | 0 |
-| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) | 0 |
 | [Feygard patrol](../monsters/feygard_patrol.md) | 0 |
+| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) | 0 |
+| [Torilo](../monsters/torilo.md) | 0 |
+| [Burhczyd](../monsters/burhczyd13.md) | 0 |
+| [Knight of Elythom](../monsters/burhczyd13e.md) | 0 |
+| [Foaming Flask cook](../monsters/foaming_flask_cook.md) | 0 |
+| [Ambelie](../monsters/ambelie.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `foaming_flask` · Data from v0.8.18</small>

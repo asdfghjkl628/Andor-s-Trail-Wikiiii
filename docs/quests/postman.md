@@ -25,6 +25,8 @@ Start with [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md))
 
 - reached stage 10 of [You're the postman](../quests/postman.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@ Start with [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md))
 | <span id="stage-20"></span>20 | I gave the letter to Arensia, who was visibly happy about it. Gorwath needs to hear that. | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | carry 1× [Gorwath's letter](../items/gorwath_letter.md), hand over 1× [Gorwath's letter](../items/gorwath_letter.md) | – |
 | <span id="stage-30"></span>30 | I told Gorwath that I gave the letter to Arensia. He's happy too. **(completes quest)** | [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md)) | stage 20 | 50 XP<br>gives 30× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -67,6 +70,16 @@ Start with [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md))
 
     1. Talk to [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md)) → choose “Yes. I gave her the letter and she asked me to tell you that she loves you too.” — **conditions:** reached stage 20 of [You're the postman](../quests/postman.md#stage-20) → **stage 30**; also gives 30× [Gold coins](../items/gold.md). NPC: “You have truly earned these gold pieces.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 5 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

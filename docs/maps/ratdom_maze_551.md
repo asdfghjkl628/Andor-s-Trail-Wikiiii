@@ -17,14 +17,22 @@
 
 | Name | HP |
 |---|---|
-| [Clevred](../monsters/ratdom_rat.md) | 0 |
-| [Flaming orb](../monsters/ratdom_maze_boulder4.md) | 0 |
-| [Flaming orb](../monsters/ratdom_maze_boulder5.md) | 0 |
 | [Flaming orb](../monsters/ratdom_maze_boulder3.md) | 0 |
 | [Flaming orb](../monsters/ratdom_maze_boulder1.md) | 0 |
+| [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Flaming orb](../monsters/ratdom_maze_boulder2.md) | 0 |
+| [Flaming orb](../monsters/ratdom_maze_boulder4.md) | 0 |
+| [Flaming orb](../monsters/ratdom_maze_boulder5.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
-| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
+| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `ratdom_maze_551` · Data from v0.8.18</small>

@@ -29,6 +29,7 @@
 
 ## Quests
 
+- [Missing pieces](../quests/vacor.md): stages 10, 20, 30, 40, 54, 60
 - [Old friends?](../quests/kaverin.md): stages 70, 75, 90
 
 ??? quote "Dialogue (68 lines)"
@@ -37,9 +38,9 @@
 
     <span id="d-vacor"></span>**`vacor`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60))* → [vacor_return_complete0](#d-vacor_return_complete0)
-    - branch 2 *(if reached stage 40 of [vacor (hidden flag)](../quests/vacor.md#stage-40))* → [vacor_return2](#d-vacor_return2)
-    - branch 3 *(if reached stage 30 of [vacor (hidden flag)](../quests/vacor.md#stage-30))* → [vacor_42](#d-vacor_42)
+    - branch 1 *(if reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60))* → [vacor_return_complete0](#d-vacor_return_complete0)
+    - branch 2 *(if reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40))* → [vacor_return2](#d-vacor_return2)
+    - branch 3 *(if reached stage 30 of [Missing pieces](../quests/vacor.md#stage-30))* → [vacor_42](#d-vacor_42)
     - branch 4 → [vacor_select1](#d-vacor_select1)
 
     <span id="d-vacor_return_complete0"></span>**`vacor_return_complete0`** *(silent check: the first matching branch below is taken)*
@@ -60,7 +61,7 @@
 
     <span id="d-vacor_select1"></span>**`vacor_select1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 20 of [vacor (hidden flag)](../quests/vacor.md#stage-20))* → [vacor_return1](#d-vacor_return1)
+    - branch 1 *(if reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20))* → [vacor_return1](#d-vacor_return1)
     - branch 2 → [vacor_begin](#d-vacor_begin)
 
     <span id="d-vacor_msg_16"></span>**`vacor_msg_16`** Vacor: “Thanks for giving me that message, but now please leave me. I have more important things to do than to talk to you.”
@@ -81,7 +82,7 @@
     <span id="d-vacor_return2_2"></span>**`vacor_return2_2`** Vacor: “Have you killed Unzel for me yet? Bring me his signet ring when you have killed him.”
 
     - “I have dealt with him. Here is his ring.” *(if hand over 1× [Unzel's ring](../items/ring_unzel.md))* → [vacor_60](#d-vacor_60)
-    - “I listened to Unzel's story and have decided to side with him. The Shadow must be preserved.” *(if reached stage 51 of [vacor (hidden flag)](../quests/vacor.md#stage-51))* → [vacor_70](#d-vacor_70)
+    - “I listened to Unzel's story and have decided to side with him. The Shadow must be preserved.” *(if reached stage 51 of [Missing pieces](../quests/vacor.md#stage-51))* → [vacor_70](#d-vacor_70)
 
     <span id="d-vacor_43"></span>**`vacor_43`** Vacor: “The only obstacle between me and continuing my rift spell research is that stupid Unzel fellow.”
 
@@ -109,7 +110,7 @@
 
     - “A man in Remgard, by the name of Kaverin, was asking about Unzel...” → [vacor_msg_b2](#d-vacor_msg_b2)
 
-    <span id="d-vacor_60"></span>**`vacor_60`** Vacor: “Ha ha, Unzel is dead! That pathetic creature is gone!” — **effects:** sets stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60)
+    <span id="d-vacor_60"></span>**`vacor_60`** Vacor: “Ha ha, Unzel is dead! That pathetic creature is gone!” — **effects:** sets stage 60 of [Missing pieces](../quests/vacor.md#stage-60)
 
     - Next → [vacor_61](#d-vacor_61)
 
@@ -121,11 +122,11 @@
 
     - Next → [vacor_45](#d-vacor_45)
 
-    <span id="d-vacor_40"></span>**`vacor_40`** Vacor: “Oh, you found all four pieces? Hurry, give them to me.” — **effects:** sets stage 30 of [vacor (hidden flag)](../quests/vacor.md#stage-30)
+    <span id="d-vacor_40"></span>**`vacor_40`** Vacor: “Oh, you found all four pieces? Hurry, give them to me.” — **effects:** sets stage 30 of [Missing pieces](../quests/vacor.md#stage-30)
 
     - Next → [vacor_41](#d-vacor_41)
 
-    <span id="d-vacor_18"></span>**`vacor_18`** Vacor: “OK, find the four pieces of my rift spell that the bandits took, and bring the pieces to me.” — **effects:** sets stage 20 of [vacor (hidden flag)](../quests/vacor.md#stage-20)
+    <span id="d-vacor_18"></span>**`vacor_18`** Vacor: “OK, find the four pieces of my rift spell that the bandits took, and bring the pieces to me.” — **effects:** sets stage 20 of [Missing pieces](../quests/vacor.md#stage-20)
 
     - Next → [vacor_19](#d-vacor_19)
 
@@ -191,7 +192,7 @@
 
     - Next → [vacor_63](#d-vacor_63)
 
-    <span id="d-vacor_72"></span>**`vacor_72`** Vacor: “Bah, lowly creature. I knew I shouldn't have trusted you. Now you will die along with your precious Shadow.” — **effects:** sets stage 54 of [vacor (hidden flag)](../quests/vacor.md#stage-54)
+    <span id="d-vacor_72"></span>**`vacor_72`** Vacor: “Bah, lowly creature. I knew I shouldn't have trusted you. Now you will die along with your precious Shadow.” — **effects:** sets stage 54 of [Missing pieces](../quests/vacor.md#stage-54)
 
     - “For the Shadow!” → *fight starts*
     - “You must be stopped.” → *fight starts*
@@ -267,7 +268,7 @@
 
     - “Excellent, I could always use more supplies.” → [vacor_msg_7](#d-vacor_msg_7)
 
-    <span id="d-vacor_49"></span>**`vacor_49`** Vacor: “I need you to find Unzel and kill him for me. He can probably be found somewhere southwest of Fallhaven.” — **effects:** sets stage 40 of [vacor (hidden flag)](../quests/vacor.md#stage-40)
+    <span id="d-vacor_49"></span>**`vacor_49`** Vacor: “I need you to find Unzel and kill him for me. He can probably be found somewhere southwest of Fallhaven.” — **effects:** sets stage 40 of [Missing pieces](../quests/vacor.md#stage-40)
 
     - Next → [vacor_50](#d-vacor_50)
 
@@ -290,7 +291,7 @@
     <span id="d-vacor_51"></span>**`vacor_51`** Vacor: “Now hurry, I cannot wait much longer. The power shall be MINE!”
 
 
-    <span id="d-vacor_11"></span>**`vacor_11`** Vacor: “Oh, the power I could have had. My dear rift spell.” — **effects:** sets stage 10 of [vacor (hidden flag)](../quests/vacor.md#stage-10)
+    <span id="d-vacor_11"></span>**`vacor_11`** Vacor: “Oh, the power I could have had. My dear rift spell.” — **effects:** sets stage 10 of [Missing pieces](../quests/vacor.md#stage-10)
 
     - Next → [vacor_12](#d-vacor_12)
 
@@ -321,6 +322,15 @@
     - Next → [vacor_18](#d-vacor_18)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Now I should be able to finish the rift spell and open up the Shadow …” → “Now I should be able to finish the rift spell and open up the Shadow …”<br>· text: “Please hurry! I am so eager to open up the rift.. Erm, I mean finish …” → “Please hurry! I am so eager to open up the rift ... erm, I mean finis…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

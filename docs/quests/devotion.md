@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 24 (completes at 450, 480) |
 | **Started by** | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) |
-| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade7.md), [Forsaken shade](../monsters/shade6.md), [Forsaken shade](../monsters/shade9.md), [Forsaken shade](../monsters/shade10.md), [Forsaken shade](../monsters/shade5.md) +6 |
+| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade2.md), [Forsaken shade](../monsters/shade8.md), [Forsaken shade](../monsters/shade1.md), [Forsaken shade](../monsters/shade5.md), [Forsaken shade](../monsters/shade7.md) +6 |
 | **Locations** | [undertell_3_00](../maps/undertell_3_00.md), [undertell_3_02](../maps/undertell_3_02.md), [undertell_3_03](../maps/undertell_3_03.md), [undertell_3_10](../maps/undertell_3_10.md) |
 | **Total XP** | 9,003 |
 | **Related quests** | 2 |
@@ -26,6 +26,8 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 - NOT reached stage 30 of [Devotion](../quests/devotion.md#stage-30)
 - NOT reached stage 20 of [Devotion](../quests/devotion.md#stage-20)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -91,6 +93,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 | <span id="stage-470"></span>470 | Anoa informed me that he could have been redeemed, but because I freed at least one of the Kha'zaan shades, this was not to happen. Thus he became a monstrous shade. He and all of the freed shades swarmed and attacked me. | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) | wearing [Elythara's ring](../items/elythara_ring.md) | spawns monsters on undertell_3_02 |
 | <span id="stage-480"></span>480 | I killed all the shades including Anoa. I did not get any reward. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 3 02](../maps/undertell_3_02.md).</span> | stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) | stage 470 | 13 XP<br>sets stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450)<br>spawns monsters on undertell_3_00<br>spawns monsters on undertell_3_01<br>spawns monsters on undertell_3_11<br>spawns monsters on undertell_3_12<br>spawns monsters on undertell_3_13<br>spawns monsters on undertell_3_03<br>spawns monsters on undertell_3_02 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -311,6 +314,16 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 
     1. stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) → the conversation leads here automatically — **conditions:** latest stage of [Devotion](../quests/devotion.md#stage-470) is 470; killed 1× [Anoa](../monsters/anoa.md); faction “shadeSetFreeCount” = 11; killed 11× [Evil shade](../monsters/evil_shade.md) → **stage 480**; also sets stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450), spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02. NPC: “The darkness born in the War of Dawn loosens its grip at last, leaving only the echo of what devotion once twisted.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 34 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

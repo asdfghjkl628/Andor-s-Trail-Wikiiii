@@ -25,6 +25,8 @@
 
 None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -65,6 +67,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | <span id="stage-2"></span>2 | Done. But haven't received gold and exp reward yet. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | hand over 2× [Chandelier](../items/brv_wh_item_04.md), hand over 2× [Crystal globe](../items/brv_wh_item_00.md), hand over 2× [Dusty old book](../items/brv_wh_item_09.md), hand over 2× [Lyre](../items/brv_wh_item_02.md), hand over 2× [Mysterious green something](../items/brv_wh_item_05.md), hand over 2× [Old, worn cape](../items/brv_wh_item_06.md), hand over 2× [Plush pillow](../items/brv_wh_item_01.md), hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), hand over 2× [Striped hammer](../items/brv_wh_item_08.md), hand over 2× [Yellow boot](../items/brv_wh_item_03.md) | sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900) |
 | <span id="stage-3"></span>3 | Done. I received gold and exp reward. Old scrooge. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | stage 2 | gives 100× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -81,6 +84,17 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 
     1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “I am glad. How much do I actually get for this work?” — **conditions:** reached stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2) → **stage 3**; also gives 100× [Gold coins](../items/gold.md). NPC: “Good work gives good wages! Here is 100 gold.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 3 lines added |
+| [v0.7.17](../versions/0.7.17.md) | Added<br>Dialogue: 3 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

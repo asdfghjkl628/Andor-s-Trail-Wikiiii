@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 100, 105, 110, 115) |
 | **Started by** | [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) |
-| **NPCs involved** | [Forenza](../monsters/forenza_waytobrimhaven3.md), [Forenza](../monsters/forenza.md), [Gylew](../monsters/gylew.md) |
+| **NPCs involved** | [Forenza](../monsters/forenza.md), [Forenza](../monsters/forenza_waytobrimhaven3.md), [Gylew](../monsters/gylew.md) |
 | **Locations** | [laerothbasement2](../maps/laerothbasement2.md), [waterway5](../maps/waterway5.md), [waytobrimhaven3](../maps/waytobrimhaven3.md) |
 | **Total XP** | 28,150 |
 | **Related quests** | 5 |
@@ -32,6 +32,8 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 - NOT reached stage 11 of [The odd coin collector](../quests/odd_coin_collector.md#stage-11)
 - pay 5 gold
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -86,6 +88,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 | <span id="stage-110"></span>110 | I sold Forenza the Coin of Prestige and he rewarded me handsomely for it. **(completes quest)** | [Forenza](../monsters/forenza_waytobrimhaven3.md) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | carry 1× [Coin of Prestige](../items/hero_coin.md), carry 1× [Shield of the Brave](../items/shield_of_brave.md), hand over 1× [Coin of Prestige](../items/hero_coin.md), stage 65 | 5,000 XP<br>gives [Gold coins](../items/gold.md)<br>clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47)<br>sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106) |
 | <span id="stage-115"></span>115 | I gave Forenza the Coin of Prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward" me. Whatever that means. **(completes quest)** | [Forenza](../monsters/forenza_waytobrimhaven3.md) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | carry 1× [Coin of Prestige](../items/hero_coin.md), carry 1× [Shield of the Brave](../items/shield_of_brave.md), hand over 1× [Coin of Prestige](../items/hero_coin.md), stage 65 | 6,000 XP<br>clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47)<br>sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -191,6 +194,18 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 
     1. Talk to [Forenza](../monsters/forenza_waytobrimhaven3.md) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) → choose “Here, take it. I have enough coins.” — **conditions:** latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-65) is 65; carry 1× [Shield of the Brave](../items/shield_of_brave.md); carry 1× [Coin of Prestige](../items/hero_coin.md); hand over 1× [Coin of Prestige](../items/hero_coin.md) → **stage 115**; also clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106). NPC: “Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport,…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 25 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
+| [v0.8.13](../versions/0.8.13.md) | stage 12 journal text changed; stage 20 journal text changed; stage 30 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

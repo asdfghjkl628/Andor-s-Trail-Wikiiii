@@ -8,10 +8,10 @@
 | **In journal** | Yes |
 | **Stages** | 44 (completes at 940, 948, 999) |
 | **Started by** | stepping on a trigger on [home](../maps/home.md), [Clevred](../monsters/ratdom_rat.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) |
-| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat.md), [Clevred](../monsters/ratdom_rat_bwm1.md), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
+| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat_bwm1.md), [Clevred](../monsters/ratdom_rat.md), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
 | **Locations** | [blackwater_mountain55](../maps/blackwater_mountain55.md), [crossglen_cave](../maps/crossglen_cave.md), [home](../maps/home.md), [ratdom_bwm1](../maps/ratdom_bwm1.md) |
 | **Total XP** | 47,910 |
-| **Related quests** | 7 |
+| **Related quests** | 9 |
 
 </div>
 
@@ -27,8 +27,8 @@
 - NOT reached stage 940 of [Yellow is it](../quests/ratdom_quest.md#stage-940)
 - NOT reached stage 942 of [Yellow is it](../quests/ratdom_quest.md#stage-942)
 - NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
-- reached stage 100 of [odair (hidden flag)](../quests/odair.md#stage-100)
-- reached stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30)
+- reached stage 100 of [Rat infestation](../quests/odair.md#stage-100)
+- reached stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30)
 - reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
 - reached stage 115 of [Destined for great things](../quests/charwood1.md#stage-115)
 - reached stage 190 of [Colonel Lutarc](../quests/stn_colonel.md#stage-190)
@@ -38,14 +38,18 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Disallowed substance](bonemeal.md#stage-30) | stage 30 reached, for stage 10 here |
 | Requires | [Destined for great things](charwood1.md#stage-115) | stage 115 reached, for stage 10 here |
 | Requires | [Searching for madness](lodar2.md#stage-60) | stage 60 reached, for stage 10 here |
+| Requires | [Rat infestation](odair.md#stage-100) | stage 100 reached, for stage 10 here |
 | Requires | [More rats!](ratdom_mikhail.md#stage-10) | stage 10 reached, for stage 50 here |
 | Requires | [More rats!](ratdom_mikhail.md#stage-90) | stage 90 reached, for stages 940, 999 here |
 | Requires | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 reached, for stages 90, 100, 999 here |
@@ -130,15 +134,16 @@
 | <span id="stage-960"></span>960 | I persuaded Clevred to leave the artifact behind. Clevred obeyed disappointedly, but he left me on the spot. | [Roundling](../monsters/ratdom_roundling2.md) ([ratdom_maze_448](../maps/ratdom_maze_448.md)) | – | 10 XP<br>clears stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10)<br>clears stage 11 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-11)<br>sets stage 13 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-13)<br>removes monsters from ratdom_maze_627<br>removes monsters from ratdom_maze_448<br>removes monsters from home<br>removes monsters from ratdom_bwm1 |
 | <span id="stage-999"></span>999 | I fell asleep just in front of my bed. After long hours of deep and dreamless sleep I woke up - all the rats were gone! Was it only a dream? **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | stepping on a trigger on [home](../maps/home.md) | stage 950 | 20,000 XP<br>clears stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)<br>removes monsters from crossglen<br>changes map crossglen |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 10: 2 routes"
 
-    1. stepping on a trigger on [home](../maps/home.md) → the conversation leads here automatically — **conditions:** NOT reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); NOT reached stage 940 of [Yellow is it](../quests/ratdom_quest.md#stage-940); NOT reached stage 942 of [Yellow is it](../quests/ratdom_quest.md#stage-942); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 100 of [odair (hidden flag)](../quests/odair.md#stage-100); reached stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30); reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); reached stage 115 of [Destined for great things](../quests/charwood1.md#stage-115); reached stage 190 of [Colonel Lutarc](../quests/stn_colonel.md#stage-190); have 9,000 gold → **stage 10**; also sets stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1), sets stage 2 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-2), sets stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”
+    1. stepping on a trigger on [home](../maps/home.md) → the conversation leads here automatically — **conditions:** NOT reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); NOT reached stage 940 of [Yellow is it](../quests/ratdom_quest.md#stage-940); NOT reached stage 942 of [Yellow is it](../quests/ratdom_quest.md#stage-942); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 100 of [Rat infestation](../quests/odair.md#stage-100); reached stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30); reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); reached stage 115 of [Destined for great things](../quests/charwood1.md#stage-115); reached stage 190 of [Colonel Lutarc](../quests/stn_colonel.md#stage-190); have 9,000 gold → **stage 10**; also sets stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1), sets stage 2 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-2), sets stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”
     2. Talk to [Clevred](../monsters/ratdom_rat.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → the conversation leads here automatically → **stage 10**. NPC: “This is my bed - go away!”
 
 ???+ note "Stage 30: 1 route"
@@ -306,6 +311,18 @@
 
     1. stepping on a trigger on [home](../maps/home.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 90 of [More rats!](../quests/ratdom_mikhail.md#stage-90) → **stage 999**; also clears stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1), removes monsters from crossglen, removes monsters from crossglen, removes monsters from crossglen, changes map crossglen. NPC: “You didn't make it to your bed - again. Nevertheless you took some minutes of sleep. When you woke up, something had…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 44 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stage 10 journal text changed; stage 30 journal text changed; stage 31 journal text changed; stage 32 journal text changed; stage 33 journal text changed; stage 34 journal text changed (+34 more) |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “This is a lot of money for our museum. But here you have 1000 gold.” → “This is a lot of money for our museum. But here you have {1000} gold.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

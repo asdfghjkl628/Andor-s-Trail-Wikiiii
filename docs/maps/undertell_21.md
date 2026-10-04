@@ -21,4 +21,12 @@
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 |
 | [Plague-Lich](../monsters/plague_lich.md) | 263 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `undertell_21` · Data from v0.8.18</small>

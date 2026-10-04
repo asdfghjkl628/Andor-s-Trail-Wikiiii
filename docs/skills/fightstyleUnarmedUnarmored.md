@@ -28,6 +28,7 @@ Items made of cloth are not considered as being armor.
 | 2 | 30 |
 | 3 | 45 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

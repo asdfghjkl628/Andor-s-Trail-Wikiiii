@@ -259,6 +259,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 9 lines added |
+| [v0.8.14](../versions/0.8.14.md) | phraseID: sullengard_kealwea_0 → sullengard_kealwea_00<br>Dialogue: 35 lines added |
+| [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines added, 1 line changed<br>· text: “Hey, young fellow. I am Kealwea. How can I help you my child?” → “Ah, young traveller. I am Kealwea. How can I help you, my child?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

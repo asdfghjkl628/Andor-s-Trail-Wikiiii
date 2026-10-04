@@ -16,11 +16,20 @@
 
 | Name | HP |
 |---|---|
-| [Grazing horse](../monsters/graze_horse_left.md) | 0 |
 | [Farm horse](../monsters/farm_horse_right.md) | 0 |
 | [Pig](../monsters/pig.md) | 0 |
-| [Farm horse](../monsters/farm_horse.md) | 0 |
-| [Deebo](../monsters/deebo_orchard_deebo.md) | 0 |
 | [Grazing horse](../monsters/grazing_horse_right.md) | 0 |
+| [Deebo](../monsters/deebo_orchard_deebo.md) | 0 |
+| [Grazing horse](../monsters/graze_horse_left.md) | 0 |
+| [Farm horse](../monsters/farm_horse.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `sullengard_apple_farm_east` · Data from v0.8.18</small>

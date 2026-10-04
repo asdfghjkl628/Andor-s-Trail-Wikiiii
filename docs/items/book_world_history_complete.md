@@ -54,4 +54,14 @@ Lord Geomyr became fearful of the power of the religion and tensions between Nor
 Then he even banned the trade and use of heartsteel weapons as he feared they would be used to overthrow him.  He destroyed many weapons and confiscated others. Bonemeal potions were prohibited as well much to the disapproval of the smallfolk and the priests.
 
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `book_world_history_complete` · Data from v0.8.18</small>

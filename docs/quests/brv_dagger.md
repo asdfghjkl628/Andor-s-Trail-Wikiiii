@@ -31,6 +31,8 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 - NOT reached stage 20 of [A strange looking dagger](../quests/brv_dagger.md#stage-20)
 - NOT carry 1× [A strange-looking gem](../items/strange_gem.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -81,6 +83,7 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 | <span id="stage-220"></span>220 | I informed the authorities of the results of my investigation. | [Ito](../monsters/brv_guard_deputy.md) ([brimhaven2](../maps/brimhaven2.md)) | – | removes monsters from brimhaven4<br>spawns monsters on brimhaven_prison |
 | <span id="stage-230"></span>230 | Arlish thanked me for finding her father's murderer, and gave me his dagger as a gift. **(completes quest)** | [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) | stage 130, stage 220 | 1,000 XP<br>gives 1× [Assassin's blade](../items/dagger_assassin.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -196,6 +199,18 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 
     1. Talk to [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) → choose “I have some good news for you.” — **conditions:** reached stage 130 of [A strange looking dagger](../quests/brv_dagger.md#stage-130); NOT reached stage 200 of [A strange looking dagger](../quests/brv_dagger.md#stage-200); NOT reached stage 230 of [A strange looking dagger](../quests/brv_dagger.md#stage-230); reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220) → **stage 230**; also gives 1× [Assassin's blade](../items/dagger_assassin.md). NPC: “It would be my honor if you take Lawellyn's dagger. He would want you to have it.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 18 lines added |
+| [v0.7.12](../versions/0.7.12.md) | renamed “A strange-looking dagger” → “A strange looking dagger”; stages added: 105, 110, 115, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230; stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 60 journal text changed (+8 more)<br>Dialogue: 15 lines added, 5 lines changed<br>· text: “I recognize this. It was used in something I made, many years ago. It…” → “I recognize this. It was used in something I made, many years ago. It…”<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…” |
+| [v0.7.13](../versions/0.7.13.md) | stage 140 journal text changed<br>Dialogue: 1 line changed<br>· text: “That is as good as done” → “That is as good as done.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

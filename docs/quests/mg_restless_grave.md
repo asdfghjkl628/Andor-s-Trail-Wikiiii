@@ -26,6 +26,8 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 - NOT reached stage 5 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-5)
 - reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -73,8 +75,9 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 | <span id="stage-125"></span>125 | In Sullengard, Maddalena informed me that Celdar was headed for Brimhaven, but may have stopped to rest along the way as it is a long trip to Brimhaven. | [Maddalena](../monsters/sullengard_town_clerk.md) ([sullengard1_townhall](../maps/sullengard1_townhall.md)) | stage 123 | – |
 | <span id="stage-130"></span>130 | I gave Celdar the 'Mysterious music box' just as Eryndor had instructed and she gave me her longsword. **(completes quest)** | [Celdar](../monsters/celdar.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) | stage 123 | 4,500 XP<br>gives 1× [Blood seeker](../items/bloodseeker.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -175,6 +178,19 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 
     1. Talk to [Celdar](../monsters/celdar.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “I just gave you that music box...” — **conditions:** reached stage 123 of [Restless in the grave](../quests/mg_restless_grave.md#stage-123); NOT reached stage 130 of [Restless in the grave](../quests/mg_restless_grave.md#stage-130); reached stage 19 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-19) → **stage 130**; also gives 1× [Blood seeker](../items/bloodseeker.md). NPC: “Here, take this longsword, I have no need for it. But...”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 24 lines added |
+| [v0.8.15](../versions/0.8.15.md) | Dialogue: 2 lines changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 2 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

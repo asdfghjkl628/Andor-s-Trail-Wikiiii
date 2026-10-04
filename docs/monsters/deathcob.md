@@ -33,4 +33,12 @@
 - [sullengard9](../maps/sullengard9.md)
 - [way_to_sullengard_west_6](../maps/way_to_sullengard_west_6.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `deathcob` · Data from v0.8.18</small>

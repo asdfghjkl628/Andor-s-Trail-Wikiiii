@@ -11,7 +11,7 @@
 | **NPCs involved** | [Mikhail](../monsters/mikhail.md), [Shop Owner](../monsters/brv_shop_owner.md) |
 | **Locations** | [brimhaven_shop](../maps/brimhaven_shop.md), [home](../maps/home.md), [waytogalmore0](../maps/waytogalmore0.md) |
 | **Total XP** | 600 |
-| **Related quests** | 2 |
+| **Related quests** | 3 |
 
 </div>
 
@@ -25,6 +25,8 @@ Start with [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps
 
 - reached stage 130 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-130)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -33,6 +35,7 @@ Start with [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps
 |---|---|---|
 | Requires | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-130) | stage 130 reached, for stages 10, 20 here |
 | Requires | [brv_nondisplay_multipurpose (hidden flag)](brv_nondisplay_multipurpose.md#stage-40) | stage 40 reached, for stages 40, 50, 60 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-10) | stage 10 reached, for stages 30, 40, 50, 60 here |
 | Blocked by | [brv_nondisplay_multipurpose (hidden flag)](brv_nondisplay_multipurpose.md#stage-40) | stage 40 must NOT be reached, for stage 30 here |
 
 ## Stages
@@ -46,6 +49,7 @@ Start with [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps
 | <span id="stage-50"></span>50 | My father was very happy with the nice necklace. **(completes quest)** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Necklace for father](../items/necklace_for_father2.md), stage 20 | 500 XP |
 | <span id="stage-60"></span>60 | My father was disappointed with the pretentious necklace I bought. **(completes quest)** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Necklace for father (expensive)](../items/necklace_for_father3.md), stage 20 | 50 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -62,20 +66,32 @@ Start with [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “I have a present for you.” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); NOT reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40) → **stage 30**. NPC: “I asked you to search for your brother Andor and you did not find out anything and instead you are bringing me a…”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “I have a present for you.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); NOT reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40) → **stage 30**. NPC: “I asked you to search for your brother Andor and you did not find out anything and instead you are bringing me a…”
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the cheap necklace]” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father (cheap)](../items/necklace_for_father1.md) → **stage 40**. NPC: “Hm, thank you. Looks like you spent all your pocket money for this.”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the cheap necklace]” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father (cheap)](../items/necklace_for_father1.md) → **stage 40**. NPC: “Hm, thank you. Looks like you spent all your pocket money for this.”
 
 ???+ note "Stage 50: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the necklace]” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father](../items/necklace_for_father2.md) → **stage 50**. NPC: “Thank you my child for this wonderful necklace. Oh and it is in our family colors!”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the necklace]” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father](../items/necklace_for_father2.md) → **stage 50**. NPC: “Thank you my child for this wonderful necklace. Oh and it is in our family colors!”
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the expensive necklace]” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father (expensive)](../items/necklace_for_father3.md) → **stage 60**. NPC: “Oh, where did you get the money to buy this? Maybe I don't want to know...”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “[Give him the expensive necklace]” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40); hand over 1× [Necklace for father (expensive)](../items/necklace_for_father3.md) → **stage 60**. NPC: “Oh, where did you get the money to buy this? Maybe I don't want to know...”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 8 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 20 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed; stage 60 journal text changed<br>Dialogue: 1 line changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

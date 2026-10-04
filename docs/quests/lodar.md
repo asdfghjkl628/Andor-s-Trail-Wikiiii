@@ -11,7 +11,7 @@
 | **NPCs involved** | [Afflicted Feygard guard](../monsters/lodar_fg3.md), [Feygard guard](../monsters/lodar_fg1.md), [Forest guardian](../monsters/lodar0_g.md), [Insane Feygard guard](../monsters/lodar_fg4.md), [Lodar](../monsters/lodar.md), [Ogam](../monsters/ogam.md) +2 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lodar0](../maps/lodar0.md), [lodar11](../maps/lodar11.md) |
 | **Total XP** | 15,500 |
-| **Related quests** | 1 |
+| **Related quests** | 2 |
 
 </div>
 
@@ -23,14 +23,17 @@
 
 Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)). Required:
 
-- reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51)
+- reached stage 51 of [Search for Andor](../quests/andor.md#stage-51)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stages 10, 15 here |
 | Unlocks | [Searching for madness](lodar2.md#stage-10) | stage 10 there needs stage 110 here |
 | Unlocks | [Searching for madness](lodar2.md#stage-15) | stage 15 there needs stage 110 here |
 | Unlocks | [Searching for madness](lodar2.md#stage-20) | stage 20 there needs stage 110 here |
@@ -58,17 +61,18 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-100"></span>100 | In the cave, I reached what looks like a tomb. I was unable to venture further into the tomb because of something that held me back. | walking into a blocked passage on [lodarcave4a](../maps/lodarcave4a.md) | – | – |
 | <span id="stage-110"></span>110 | After navigating through the immense twisty green maze and the damp cave, I have reached a cabin in a clearing. The cabin is occupied by the potion-maker called Lodar. **(completes quest)** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | 5,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 10: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “OK, I'll promise to keep it a secret.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51) → **stage 10**. NPC: “The only one that understands the language of the guardian is the old man Ogam in Vilegard.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “OK, I'll promise to keep it a secret.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51) → **stage 10**. NPC: “The only one that understands the language of the guardian is the old man Ogam in Vilegard.”
 
 ???+ note "Stage 15: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “OK, I'll promise to keep it a secret.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51) → **stage 15**. NPC: “You should travel to the town of Vilegard and find Ogam. He can help you get the right words to enter Lodar's Hideaway.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “OK, I'll promise to keep it a secret.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51) → **stage 15**. NPC: “You should travel to the town of Vilegard and find Ogam. He can help you get the right words to enter Lodar's Hideaway.”
 
 ???+ note "Stage 20: 1 route"
 
@@ -130,6 +134,18 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
     1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “I'm $playername.” — **conditions:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110) → **stage 110**. NPC: “Well, it doesn't matter who you are anyway. I am Lodar, maker of potions.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(the guard continues with his mumbling)” → “[The guard continues with his mumbling]” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “While examining them, you recall the the old man Ogam in Vilegard spo…” → “While examining them, you recall the old man Ogam in Vilegard spoke o…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

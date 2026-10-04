@@ -26,6 +26,8 @@ Start with [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/g
 - reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
 - hand over 2× [Bread](../items/bread.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@ Start with [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/g
 | <span id="stage-30"></span>30 | He would be even happier if the cheese was cheddar from Charwood. You can only get the cheddar there if you explicitly ask for it. | [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | stage 20 | – |
 | <span id="stage-90"></span>90 | I got bread, cheddar and wine for him. He started feasting happily. **(completes quest)** | [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 1× [Charwood cheddar](../items/charwood_cheddar.md), hand over 1× [Wine](../items/guynmart_wine.md), hand over 2× [Bread](../items/bread.md), stage 30 | 2,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -63,6 +66,18 @@ Start with [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/g
 
     1. Talk to [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” — **conditions:** reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); reached stage 30 of [Rare delicacies](../quests/guynmart_wise.md#stage-30); hand over 2× [Bread](../items/bread.md); hand over 1× [Charwood cheddar](../items/charwood_cheddar.md); hand over 1× [Wine](../items/guynmart_wine.md) → **stage 90**. NPC: “Cheddar! I can't believe it!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Cheddar! I can't belive it!” → “Cheddar! I can't believe it!” |
+| [v0.7.13](../versions/0.7.13.md) | stage 10 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

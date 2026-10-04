@@ -22,19 +22,33 @@
 
 | Name | HP |
 |---|---|
-| [Farmer](../monsters/remgard_farmer1.md) | 0 |
-| [Fish](../monsters/ll2_fish1.md) | 0 |
-| [Fish](../monsters/ll2_fish2.md) | 0 |
-| [Fish](../monsters/ll2_fish5.md) | 0 |
-| [Squid](../monsters/ll2_squid1.md) | 0 |
-| [Fish](../monsters/ll2_fish6.md) | 0 |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 |
-| [Fish](../monsters/ll2_fish4.md) | 0 |
-| [Fish](../monsters/ll2_fish3.md) | 0 |
 | [Chael](../monsters/chael.md) | 0 |
-| [Commoner](../monsters/rg_villager4.md) | 0 |
 | [Commoner](../monsters/rg_villager2.md) | 0 |
+| [Farmer](../monsters/remgard_farmer1.md) | 0 |
+| [Eel](../monsters/ll2_watersnake1.md) | 0 |
+| [Fish](../monsters/ll2_fish6.md) | 0 |
 | [Turtle](../monsters/ll2_turtle1.md) | 0 |
 | [Jellyfish](../monsters/ll2_jelly1.md) | 0 |
+| [Fish](../monsters/ll2_fish5.md) | 0 |
+| [Commoner](../monsters/rg_villager4.md) | 0 |
+| [Fish](../monsters/ll2_fish3.md) | 0 |
+| [Fish](../monsters/ll2_fish4.md) | 0 |
+| [Squid](../monsters/ll2_squid1.md) | 0 |
+| [Fish](../monsters/ll2_fish2.md) | 0 |
+| [Fish](../monsters/ll2_fish1.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `remgard1` · Data from v0.8.18</small>

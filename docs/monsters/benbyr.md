@@ -226,6 +226,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.”<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines added, 1 line changed |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “(This man seems to be inmersed in his thoughts)” → “(This man seems to be immersed in his thoughts)” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 15 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

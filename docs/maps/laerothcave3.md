@@ -15,13 +15,21 @@
 
 | Name | HP |
 |---|---|
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 |
 | [Cave jelly](../monsters/cave_jelly.md) | 30 |
 | [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 |
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 |
 | [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 35 |
 | [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 |
 | [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 |
 | [Giant spider](../monsters/spider_massive.md) | 104 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `laerothcave3` · Data from v0.8.18</small>

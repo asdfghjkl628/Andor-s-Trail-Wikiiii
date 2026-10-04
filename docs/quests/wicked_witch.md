@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 50, 70, 95, 96) |
 | **Started by** | [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_third.md), [Bonicksa](../monsters/wicked_witch_first.md), [Busy farmer](../monsters/fallhaven_outdoor_farmer.md), [Emmeline](../monsters/captive_girl.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_first.md), [Bonicksa](../monsters/wicked_witch_third.md), [Busy farmer](../monsters/fallhaven_outdoor_farmer.md), [Emmeline](../monsters/captive_girl.md) |
 | **Locations** | [fallhaven_se](../maps/fallhaven_se.md), [lake_shore_road_1](../maps/lake_shore_road_1.md), [witch_house](../maps/witch_house.md) |
 | **Total XP** | 46,182 |
 | **Related quests** | 2 |
@@ -29,6 +29,8 @@ Start with [Bela](../monsters/bela.md). Required:
 - NOT reached stage 95 of [A Wicked witch](../quests/wicked_witch.md#stage-95)
 - NOT reached stage 96 of [A Wicked witch](../quests/wicked_witch.md#stage-96)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,8 +60,9 @@ Start with [Bela](../monsters/bela.md). Required:
 | <span id="stage-95"></span>95 | I gave Emmeline 25 of the "Tonics of Blood" that she asked for and she was then able to leave that terrible place. **(completes quest)** | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | hand over 25× [Tonic of blood](../items/tonic_of_blood.md), stage 90 | 24,097 XP |
 | <span id="stage-96"></span>96 | I gave Emmeline 20 of the 25 "Tonics of Blood" that she asked for and she was then able to leave that terrible place. **(completes quest)** | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | carry 20× [Tonic of blood](../items/tonic_of_blood.md), hand over 20× [Tonic of blood](../items/tonic_of_blood.md), stage 90 | 21,085 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -116,6 +119,18 @@ Start with [Bela](../monsters/bela.md). Required:
 
     1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → choose “I know that you "asked" for twenty-five, but I have twenty and they are hard to get. Please take these.” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; carry 20× [Tonic of blood](../items/tonic_of_blood.md); NOT carry 25× [Tonic of blood](../items/tonic_of_blood.md); hand over 20× [Tonic of blood](../items/tonic_of_blood.md) → **stage 96**. NPC: “OK. I won't make you go back just for five more when you've already brought me twenty.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 13 lines added |
+| [v0.8.9](../versions/0.8.9.md) | Dialogue: 1 line changed<br>· text: “Ah, YES. I remember her saying that an "undead" friend of her's east …” → “Ah, YES. I remember her saying that an "undead" friend of her's east …” |
+| [v0.8.18](../versions/0.8.18.md) | stage 30 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

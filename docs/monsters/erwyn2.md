@@ -83,6 +83,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 9 lines added |
+| [v0.7.4](../versions/0.7.4.md) | attackCost: 53 → 5; attackDamage: {"max": 7, "min": 5} → {"max": 22, "min": 13}; damageResistance added (5); hitEffect: {"conditionsTarget": [{"chance": "40", … → {"conditionsTarget": [{"chance": "40", … |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Gain? I am the the one who gains!” → “Gain? I am the one who gains!” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

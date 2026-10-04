@@ -22,6 +22,8 @@
 
 None: talk to stepping on a trigger on [undertell_exit](../maps/undertell_exit.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -37,6 +39,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-4"></span>4 | undertell_floor4<br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 00](../maps/undertell_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 01](../maps/undertell_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 10](../maps/undertell_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 11](../maps/undertell_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 21](../maps/undertell_21.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 00](../maps/undertell_3_lava_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 10](../maps/undertell_3_lava_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 11](../maps/undertell_3_lava_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 00](../maps/undertell_4_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 01](../maps/undertell_4_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 10](../maps/undertell_4_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 11](../maps/undertell_4_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 00](../maps/undertell_7_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 01](../maps/undertell_7_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 10](../maps/undertell_7_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 11](../maps/undertell_7_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [White house basement](../maps/white_house_basement.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 4 10](../maps/undertell_4_10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 4 11](../maps/undertell_4_11.md).</span> | stepping on a trigger on [undertell_4_10](../maps/undertell_4_10.md) | – | – |
 | <span id="stage-7"></span>7 | undertell_floor7<br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 00](../maps/undertell_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 01](../maps/undertell_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 10](../maps/undertell_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 11](../maps/undertell_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 21](../maps/undertell_21.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 00](../maps/undertell_3_lava_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 10](../maps/undertell_3_lava_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 3 lava 11](../maps/undertell_3_lava_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 00](../maps/undertell_4_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 01](../maps/undertell_4_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 10](../maps/undertell_4_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 4 11](../maps/undertell_4_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 00](../maps/undertell_7_00.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 01](../maps/undertell_7_01.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 10](../maps/undertell_7_10.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Undertell 7 11](../maps/undertell_7_11.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [White house basement](../maps/white_house_basement.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 7 01](../maps/undertell_7_01.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 7 10](../maps/undertell_7_10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 7 11](../maps/undertell_7_11.md).</span> | stepping on a trigger on [undertell_7_01](../maps/undertell_7_01.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -57,6 +60,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [undertell_7_01](../maps/undertell_7_01.md) → the conversation leads here automatically → **stage 7**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 8 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

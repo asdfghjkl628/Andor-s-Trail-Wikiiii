@@ -33,6 +33,7 @@
 
 ## Quests
 
+- [Search for Andor](../quests/andor.md): stages 120
 - [Shadow of the torturer](../quests/lae_torturer.md): stages 25, 30, 35, 40, 50, 60, 120
 
 ??? quote "Dialogue (40 lines)"
@@ -119,7 +120,7 @@
 
     - “Oh, makes sense.” → [lae_torturer_11c](#d-lae_torturer_11c)
 
-    <span id="d-lae_torturer_16"></span>**`lae_torturer_16`** Kotheses: “Andor was a very eager student. It's a shame he didn't stay.” — **effects:** sets stage 120 of [andor (hidden flag)](../quests/andor.md#stage-120)
+    <span id="d-lae_torturer_16"></span>**`lae_torturer_16`** Kotheses: “Andor was a very eager student. It's a shame he didn't stay.” — **effects:** sets stage 120 of [Search for Andor](../quests/andor.md#stage-120)
 
     - Next → [lae_torturer_20](#d-lae_torturer_20)
 
@@ -209,6 +210,15 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 40 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …”<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -26,6 +26,8 @@ Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)
 - NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10)
 - NOT reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -93,6 +95,7 @@ Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)
 | <span id="stage-109"></span>109 | I have found nine brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108) |
 | <span id="stage-110"></span>110 | Done at last - I have found the last piece of the crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -341,6 +344,17 @@ Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)
     9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
     10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 35 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stage 60 now completes the quest |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

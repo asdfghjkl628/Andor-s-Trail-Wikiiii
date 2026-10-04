@@ -345,6 +345,19 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 63 lines added |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “*laughs quietly* Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

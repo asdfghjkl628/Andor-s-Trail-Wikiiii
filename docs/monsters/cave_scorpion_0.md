@@ -32,4 +32,12 @@
 - [lakecave2](../maps/lakecave2.md)
 - [secretpassage0](../maps/secretpassage0.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `cave_scorpion_0` · Data from v0.8.18</small>

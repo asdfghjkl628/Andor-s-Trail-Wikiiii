@@ -15,8 +15,16 @@
 | Name | HP |
 |---|---|
 | [Horn player](../monsters/erwyn_skel_hornet.md) | 0 |
-| [Cymbalist](../monsters/erwyn_skel_cymbal.md) | 0 |
 | [Drummer](../monsters/erwyn_skel_drum.md) | 0 |
 | [Lutenist](../monsters/erwyn_skel_lute.md) | 0 |
+| [Cymbalist](../monsters/erwyn_skel_cymbal.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `stoutford_castle_shed` · Data from v0.8.18</small>

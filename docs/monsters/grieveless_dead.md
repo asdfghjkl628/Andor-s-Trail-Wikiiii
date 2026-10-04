@@ -40,4 +40,13 @@
 - [haunted_forest_way_to_house5](../maps/haunted_forest_way_to_house5.md)
 - [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.3](../versions/0.8.3.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | monsterClass: undead → ghost |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `grieveless_dead` · Data from v0.8.18</small>

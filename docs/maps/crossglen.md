@@ -21,24 +21,43 @@
 
 | Name | HP |
 |---|---|
-| [Farmer](../monsters/farmer.md) | 0 |
-| [Clevred](../monsters/ratdom_rat_crossglen.md) | 0 |
-| [Oromir](../monsters/oromir.md) | 0 |
-| [Odair](../monsters/odair.md) | 0 |
-| [Oromir](../monsters/oromir_behind_inn.md) | 0 |
-| [Tired farmer](../monsters/tired_farmer.md) | 0 |
-| [Oromir](../monsters/oromir_behind_haystack.md) | 0 |
-| [Halvor](../monsters/halvor.md) | 0 |
-| [Oromir](../monsters/oromir_behind_inn_help.md) | 0 |
-| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
 | [Gorwath](../monsters/gorwath.md) | 0 |
+| [Halvor](../monsters/halvor.md) | 0 |
+| [Farmer](../monsters/farmer.md) | 0 |
+| [Oromir](../monsters/oromir_behind_haystack.md) | 0 |
+| [Oromir](../monsters/oromir_behind_haystack_help.md) | 0 |
+| [Clevred](../monsters/ratdom_rat_crossglen.md) | 0 |
+| [Tired farmer](../monsters/tired_farmer.md) | 0 |
+| [Odair](../monsters/odair.md) | 0 |
+| [Oromir](../monsters/oromir.md) | 0 |
+| [Oromir](../monsters/oromir_behind_inn.md) | 0 |
+| [Oromir](../monsters/oromir_behind_inn_help.md) | 0 |
 | [Tiny rat](../monsters/tiny_rat.md) | 2 |
 | [Black ant](../monsters/black_ant.md) | 3 |
 | [Small wasp](../monsters/small_wasp.md) | 4 |
 | [Beetle](../monsters/beetle.md) | 4 |
-| [Cave rat](../monsters/cave_rat.md) | 5 |
 | [Reindeer](../monsters/reindeer.md) | 5 |
+| [Cave rat](../monsters/cave_rat.md) | 5 |
 | [Mara](../monsters/ratdom_mara.md) | 90 |
 | [Tharal](../monsters/ratdom_tharal.md) | 160 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.7.14](../versions/0.7.14.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `crossglen` · Data from v0.8.18</small>

@@ -18,14 +18,22 @@
 
 | Name | HP |
 |---|---|
-| [Evelina](../monsters/brightportstudent9.md) | 0 |
-| [Dietrich](../monsters/brightportstudent7.md) | 0 |
-| [Regnal](../monsters/brightportstudent4.md) | 0 |
-| [Cedric](../monsters/brightportstudent6.md) | 0 |
-| [Ysolde](../monsters/brightportstudent2.md) | 0 |
 | [Thaddeus](../monsters/brightportstudent1.md) | 0 |
-| [Aurelia](../monsters/brightportstudent8.md) | 0 |
 | [Brightport student](../monsters/brightportstudent5.md) | 0 |
+| [Evelina](../monsters/brightportstudent9.md) | 0 |
+| [Regnal](../monsters/brightportstudent4.md) | 0 |
+| [Aurelia](../monsters/brightportstudent8.md) | 0 |
+| [Dietrich](../monsters/brightportstudent7.md) | 0 |
+| [Ysolde](../monsters/brightportstudent2.md) | 0 |
+| [Cedric](../monsters/brightportstudent6.md) | 0 |
 | [Frederich](../monsters/brightportnpc5.md) | 120 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brightport_school10` · Data from v0.8.18</small>

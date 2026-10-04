@@ -26,6 +26,8 @@ Start with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_
 - reached stage 450 of [Devotion](../quests/devotion.md#stage-450)
 - NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,6 +50,7 @@ Start with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_
 | <span id="stage-70"></span>70 | Prevented from escaping Undertell by Shannal, I found Saki at the passage to Undertell. | [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md))<br>[Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 60 | – |
 | <span id="stage-90"></span>90 | Ysrine thanked me and told me to keep the soul pearls safe. **(completes quest)** | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | carry 5× [Soul pearl](../items/soul_pearl.md) | 7,500 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -83,6 +86,16 @@ Start with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_
 
     1. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “What do I do with the Soul pearls?” — **conditions:** killed 1× [Saki](../monsters/saki.md); NOT reached stage 90 of [Dominion](../quests/dominion.md#stage-90); carry 5× [Soul pearl](../items/soul_pearl.md) → **stage 90**. NPC: “Besides keeping them away from those Kazaul Masters? I do not know yet. Powerful they are - they could perhaps bring…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 7 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

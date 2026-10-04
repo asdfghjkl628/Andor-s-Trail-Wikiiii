@@ -18,11 +18,24 @@
 
 | Name | HP |
 |---|---|
-| [Wild berries](../monsters/wild_berry.md) | 0 |
 | [Dog](../monsters/guynmart_dog10.md) | 0 |
+| [Wild berries](../monsters/wild_berry.md) | 0 |
 | [Forest beetle](../monsters/forest_beetle.md) | 14 |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 |
-| [Vicious hound](../monsters/vicious_hound.md) | 31 |
 | [Anklebiter](../monsters/anklebiter.md) | 31 |
+| [Vicious hound](../monsters/vicious_hound.md) | 31 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `guynmart_wood_11` · Data from v0.8.18</small>

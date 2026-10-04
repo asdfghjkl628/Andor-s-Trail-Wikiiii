@@ -8,10 +8,10 @@
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 240, 250, 251) |
 | **Started by** | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) |
-| **NPCs involved** | [Agent](../monsters/agent6.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent3.md), [Agent](../monsters/agent1.md), [Agent](../monsters/agent4.md), [Agent](../monsters/agent5.md) +2 |
+| **NPCs involved** | [Agent](../monsters/agent6.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent4.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent1.md), [Agent](../monsters/agent3.md) +2 |
 | **Locations** | [blackwater_mountain14](../maps/blackwater_mountain14.md), [blackwater_mountain17](../maps/blackwater_mountain17.md), [blackwater_mountain29](../maps/blackwater_mountain29.md), [blackwater_mountain30](../maps/blackwater_mountain30.md) |
 | **Total XP** | 8,250 |
-| **Related quests** | 3 |
+| **Related quests** | 4 |
 
 </div>
 
@@ -23,6 +23,8 @@
 
 None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -33,6 +35,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 | Requires | [Clouded intent](prim_hunt.md#stage-50) | stage 50 reached, for stage 251 here |
 | Requires | [Clouded intent](prim_hunt.md#stage-100) | stage 100 reached, for stage 250 here |
 | Requires | [Clouded intent](prim_hunt.md#stage-251) | stage 251 reached, for stage 80 here |
+| Unlocks | [Search for Andor](andor.md#stage-110) | stage 110 there needs stage 60 here |
 | Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-16) | stage 16 there needs stage 240 here |
 | Unlocks | [Clouded intent](prim_hunt.md#stage-30) | stage 30 there needs stage 251 here |
 | Unlocks | [Clouded intent](prim_hunt.md#stage-250) | stage 250 there needs stage 150 here |
@@ -68,9 +71,10 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 | <span id="stage-149"></span>149 | I have told Harlenn that Guthbered is gone. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | hand over 1× [Guthbered's ring](../items/guthbered_id.md), stage 120 | – |
 | <span id="stage-150"></span>150 | Harlenn thanked me for the help I have provided. Hopefully, the attacks on the Blackwater mountain settlement should stop now. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 149 | 5,000 XP<br>gives [Sword of Shadow's rage](../items/clouded_rage.md), [Gold coins](../items/gold.md), [Regular potion of health](../items/health.md) |
 | <span id="stage-240"></span>240 | I am now trusted in the Blackwater mountain settlement, and all services should be available for me to use. **(completes quest)** | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 150 | – |
-| <span id="stage-250"></span>250 | I have decided to not help the people of the Blackwater mountain settlement. **(completes quest)** | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md))<br>[Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 70 | – |
+| <span id="stage-250"></span>250 | I have decided to not help the people of the Blackwater mountain settlement. **(completes quest)** | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md))<br>[Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 70 | – |
 | <span id="stage-251"></span>251 | Since I am helping Prim, Harlenn no longer wants to talk to me. **(completes quest)** | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -170,13 +174,24 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 ???+ note "Stage 250: 2 routes"
 
-    1. Talk to [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) → choose “No. In fact, I think I should help the people of Prim instead.” — **conditions:** reached stage 70 of [The agent and the beast](../quests/bwm_agent.md#stage-70) → **stage 250**. NPC: “Bah. Then you are useless to me. Why did you even bother to come up here and waste my time? Begone.”
-    2. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → the conversation leads here automatically — **conditions:** reached stage 100 of [Clouded intent](../quests/prim_hunt.md#stage-100) → **stage 250**. NPC: “Thank you again for your help.”
+    1. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → the conversation leads here automatically — **conditions:** reached stage 100 of [Clouded intent](../quests/prim_hunt.md#stage-100) → **stage 250**. NPC: “Thank you again for your help.”
+    2. Talk to [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) → choose “No. In fact, I think I should help the people of Prim instead.” — **conditions:** reached stage 70 of [The agent and the beast](../quests/bwm_agent.md#stage-70) → **stage 250**. NPC: “Bah. Then you are useless to me. Why did you even bother to come up here and waste my time? Begone.”
 
 ???+ note "Stage 251: 1 route"
 
     1. Talk to [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Clouded intent](../quests/prim_hunt.md#stage-50) → **stage 251**. NPC: “Of course we can't have that here. We can't have a spy in our midst. You should leave our settlement while you still…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 
@@ -210,7 +225,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
     | Quest ID | `bwm_agent` |
     | showInLog | 1 |
     | Stage IDs | 1, 5, 10, 20, 25, 30, 40, 50, 60, 65, 66, 70, 80, 90, 95, 100, 110, 120, 130, 131, 149, 150, 240, 250, 251 |
-    | Dialogue nodes setting stages | 1: `bwm_agent_1_4`, 5: `bwm_agent_1_7`, 10: `bwm_agent_1_14`, 20: `bwm_agent_2_7`, 25: `guthbered_22`, 30: `bwm_agent_3_4`, 40: `bwm_agent_4_5`, 50: `bwm_agent_5_6`, 60: `bwm_agent_6_4`, 65: `harlenn_14`, 66: `harlenn_17`, 70: `harlenn_22`, 80: `guthbered_attacks_1`, 90: `harlenn_talkedto_guth_3`, 95: `harlenn_talkedto_guth_11`, 100: `sign_blackwater29_qstarted_1`, 110: `harlenn_lookforsigns_5`, 120: `harlenn_lookforsigns_11`, 120: `harlenn_lookforsigns_12`, 130: `guthbered_sentbybwm_fight`, 131: `guthbered_sentbybwm_leave`, 149: `harlenn_killguth_2`, 150: `harlenn_killguth_4`, 240: `harlenn_completed`, 250: `harlenn_prim_7`, 250: `guthbered_completed_2`, 251: `harlenn_workingforprim_2` |
+    | Dialogue nodes setting stages | 1: `bwm_agent_1_4`, 5: `bwm_agent_1_7`, 10: `bwm_agent_1_14`, 20: `bwm_agent_2_7`, 25: `guthbered_22`, 30: `bwm_agent_3_4`, 40: `bwm_agent_4_5`, 50: `bwm_agent_5_6`, 60: `bwm_agent_6_4`, 65: `harlenn_14`, 66: `harlenn_17`, 70: `harlenn_22`, 80: `guthbered_attacks_1`, 90: `harlenn_talkedto_guth_3`, 95: `harlenn_talkedto_guth_11`, 100: `sign_blackwater29_qstarted_1`, 110: `harlenn_lookforsigns_5`, 120: `harlenn_lookforsigns_11`, 120: `harlenn_lookforsigns_12`, 130: `guthbered_sentbybwm_fight`, 131: `guthbered_sentbybwm_leave`, 149: `harlenn_killguth_2`, 150: `harlenn_killguth_4`, 240: `harlenn_completed`, 250: `guthbered_completed_2`, 250: `harlenn_prim_7`, 251: `harlenn_workingforprim_2` |
     | Dialogue nodes clearing stages | – |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 

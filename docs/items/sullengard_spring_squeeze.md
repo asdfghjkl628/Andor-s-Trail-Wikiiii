@@ -17,4 +17,15 @@
 |---|---|---|
 | [Oakleigh](../monsters/sullengard_bartender.md) | 100% | 4 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | description: A little bit of spring in ever sip. Bre… → A little bit of spring in every sip. Br… |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `sullengard_spring_squeeze` · Data from v0.8.18</small>

@@ -24,6 +24,8 @@ Start with [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../map
 
 - reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -40,6 +42,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-40"></span>40 | I have brought the milk to Arghest. He agreed to let me use the back room at the Prim inn. I should be able to rest there now. I should go talk to the cook at the inn. | [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | hand over 5× [Milk](../items/milk.md), stage 30 | 500 XP |
 | <span id="stage-50"></span>50 | I have explained to the cook that I have permission by Arghest to use the back room. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain21](../maps/blackwater_mountain21.md).</span> | [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) | stage 10, stage 40 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -64,6 +67,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “Yes, he gave me permission to use the back room whenever I wish.” — **conditions:** reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10); reached stage 40 of [Well rested](../quests/prim_innquest.md#stage-40) → **stage 50**. NPC: “Really, he did? Well then, go ahead. I'm just glad the back room is being used.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed<br>Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

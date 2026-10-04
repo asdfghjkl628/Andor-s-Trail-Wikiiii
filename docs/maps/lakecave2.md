@@ -16,11 +16,21 @@
 | Name | HP |
 |---|---|
 | [Caeda](../monsters/caeda.md) | 0 |
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Strong cave troll](../monsters/cave_troll_2.md) | 250 |
 | [Tough cave troll](../monsters/cave_troll_3.md) | 290 |
 | [Cave troll shaman](../monsters/cave_troll_4.md) | 300 |
 | [Cave troll leader](../monsters/cave_troll_5.md) | 410 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `lakecave2` · Data from v0.8.18</small>

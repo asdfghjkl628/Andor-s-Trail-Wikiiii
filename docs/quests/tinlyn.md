@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 31, 60) |
 | **Started by** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
-| **NPCs involved** | [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep4.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/lostsheep2.md), [Sheep](../monsters/lostsheep1.md), [Tinlyn](../monsters/tinlyn.md) |
+| **NPCs involved** | [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep2.md), [Sheep](../monsters/lostsheep4.md), [Tinlyn](../monsters/tinlyn.md) |
 | **Locations** | [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md), [fields6](../maps/fields6.md) |
 | **Total XP** | 800 |
 | **Related quests** | 2 |
@@ -25,6 +25,8 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
 
 - reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +53,7 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
 | <span id="stage-31"></span>31 | Tinlyn thanked me for finding his lost sheep, but he had no reward to give me. **(completes quest)** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 15, stage 25 | 500 XP |
 | <span id="stage-60"></span>60 | I have attacked at least one of Tinlyn's lost sheep and I am therefore unable to return them all to Tinlyn. **(completes quest)** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md))<br>[Sheep](../monsters/lostsheep1.md) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/lostsheep2.md) ([fields2](../maps/fields2.md))<br>+3 more | stage 10, stage 20, stage 21, stage 22, stage 23 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -103,6 +106,18 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
     5. Talk to [Sheep](../monsters/lostsheep4.md) ([loneford1](../maps/loneford1.md)) → choose “[Attack]” — **conditions:** reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
     6. Talk to [Sheep](../monsters/sheep1.md) ([fields6](../maps/fields6.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…” |
+| [v0.8.7](../versions/0.8.7.md) | stage 60 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

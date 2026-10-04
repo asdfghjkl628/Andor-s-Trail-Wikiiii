@@ -22,6 +22,8 @@
 
 None: talk to [Tharal](../monsters/tharal.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -39,6 +41,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-35"></span>35 | I received a potion of antidote, that should help me if I get food-poisoning. | [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | hand over 1× [Poison gland](../items/gland.md), hand over 2× [Animal hair](../items/hair.md), pay 50 gold, stage 40 | gives [Antidote](../items/antifoodp.md) |
 | <span id="stage-40"></span>40 | I can bring him more ingredients if I want him to create more antidote potions in the future. **(completes quest)** | [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | stage 35 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -67,6 +70,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) → choose “Do you have anything to help against food-poisoning?” — **conditions:** reached stage 35 of [Taste is everything](../quests/antifoodp.md#stage-35) → **stage 40**. NPC: “I can create more of those potions if you want. You'll have to bring me more of those ingredients then.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

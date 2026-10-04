@@ -17,13 +17,22 @@
 
 | Name | HP |
 |---|---|
+| [Feeding goat](../monsters/sullengard_goat_feeding.md) | 0 |
 | [Goat herder](../monsters/sullengard_goat_herder.md) | 0 |
 | [Young herding dog](../monsters/sull_herding_dog.md) | 0 |
-| [Feeding goat](../monsters/sullengard_goat_feeding.md) | 0 |
 | [Goat](../monsters/sullengard_goat_standing.md) | 0 |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 97 |
 | [Preabola fly](../monsters/preabola_fly.md) | 109 |
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 119 |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 148 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `way_to_sullengard_east11` · Data from v0.8.18</small>

@@ -183,6 +183,19 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 35 lines added |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The magical barrier at the cemetary could only be penetrated by someo…” → “The magical barrier at the cemetery could only be penetrated by someo…” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Lets go.” → “Let's go.” |
+| [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “The ground began to tremble and darkness filled the sky. This was fol…” → “The ground began to tremble and darkness filled the sky. This was fol…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

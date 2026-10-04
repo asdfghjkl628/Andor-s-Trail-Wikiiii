@@ -31,4 +31,13 @@
 
 - [elm5f_2](../maps/elm5f_2.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.5](../versions/0.8.5.md) | maxHP: 104 → 364 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `elm_miner4a` · Data from v0.8.18</small>

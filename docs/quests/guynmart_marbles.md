@@ -22,6 +22,8 @@
 
 None: talk to [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -41,6 +43,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-30"></span>30 | That was all of them. I should give them to Stuephant now. | [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>[Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>[Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>+2 more | stage 21, stage 22, stage 23, stage 24, stage 25 | – |
 | <span id="stage-90"></span>90 | Stuephant was happy again. **(completes quest)** | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 5× [Stuephant's marble](../items/guynmart_marble.md), stage 21, stage 22, stage 23, stage 24, stage 25 | 1,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -81,6 +84,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25); hand over 5× [Stuephant's marble](../items/guynmart_marble.md) → **stage 90**. NPC: “My lost marbles! All five! Great, thank you! [Stuephant takes the marbles]”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 8 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [mushroom_m3_1](../maps/mushroom_m3_1.md) |
-| **NPCs involved** | [Undina Bogsten](../monsters/bogsten_granny.md), [Undina Bogsten](../monsters/bogsten_granny1.md) |
+| **NPCs involved** | [Undina Bogsten](../monsters/bogsten_granny1.md), [Undina Bogsten](../monsters/bogsten_granny.md) |
 | **Locations** | [mushroom_m2_4](../maps/mushroom_m2_4.md) |
 
 </div>
@@ -24,6 +24,8 @@
 
 None: talk to stepping on a trigger on [mushroom_m3_1](../maps/mushroom_m3_1.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -44,6 +46,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-200"></span>200 | Bogsten's grand grand grandmother invited me to their family tomb.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mushroom m2 4](../maps/mushroom_m2_4.md).</span><br><span class="qnote">🗺️ Part of [Mushroom m2 4](../maps/mushroom_m2_4.md) visibly changes.</span> | [Undina Bogsten](../monsters/bogsten_granny.md) ([mushroom_m2_4](../maps/mushroom_m2_4.md)) | – | removes monsters from mushroom_m2_4<br>spawns monsters on mushroom_m2_4 |
 | <span id="stage-210"></span>210 | You found a hidden way downstairs.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m2 4](../maps/mushroom_m2_4.md).</span><br><span class="qnote">🗺️ Part of [Mushroom m2 4](../maps/mushroom_m2_4.md) visibly changes.</span> | stepping on a trigger on [mushroom_m2_4](../maps/mushroom_m2_4.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -84,6 +87,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [mushroom_m2_4](../maps/mushroom_m2_4.md) → choose “. . . . . . N” — **conditions:** NOT reached stage 210 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-210); faction “bogsten_tomb_pw” = 3; faction “bogsten_tomb_pw” = 2; faction “bogsten_tomb_pw” = 5; faction “bogsten_tomb_pw” = 1 → **stage 210**. NPC: “The tombstone silently glides back into the wall.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 12 lines added |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

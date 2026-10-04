@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 22 (completes at 200, 210, 220, 230, 240) |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil8.md), [Pupil](../monsters/brv_pupil6.md), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil3.md) +5 |
+| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil7.md), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil3.md) +5 |
 | **Locations** | [brimhaven_school](../maps/brimhaven_school.md) |
 | **Total XP** | 9,500 |
 | **Related quests** | 1 |
@@ -25,6 +25,8 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 
 - NOT reached stage 10 of [Lessons learned](../quests/brv_school2.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -69,8 +71,9 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 | <span id="stage-230"></span>230 | The teacher sent me away, because I killed Golin in the duel. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 100, stage 102 | 500 XP |
 | <span id="stage-240"></span>240 | Golin was horrified by my murder of the teacher and attacked me to avenge her. **(completes quest)** | [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 122 | 500 XP<br>faction “brv_fct_school_duel” -10 |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -168,6 +171,17 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 
     1. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → the conversation leads here automatically — **conditions:** reached stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122) → **stage 240**; also faction “brv_fct_school_duel” -10. NPC: “I will avenge her. Prepare to die!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 23 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 12 journal text changed; stage 20 journal text changed; stage 60 journal text changed; stage 100 journal text changed; stage 102 journal text changed (+13 more)<br>Dialogue: 1 line changed<br>· text: “And now we get to a completely different thing. Let's have some pract…” → “And now we will do something completely different. Let's practice fig…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -21,6 +21,7 @@ Increases the chance of finding non-ordinary items by 50 % for every skill level
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Relevant quest
 
 **Quest:** [The exploded star](../quests/mg2_exploded_star.md#stage-62) (reaching stage 62)

@@ -22,6 +22,7 @@ Increases block chance by 9 percentage points for each skill level.
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Taunt](taunt.md): needs this skill at level 4

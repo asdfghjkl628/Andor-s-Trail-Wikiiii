@@ -18,4 +18,12 @@
 | [Lava entity](../monsters/lava_entity.md) | 290 |
 | [Queen lava entity](../monsters/lava_queen_entity.md) | 490 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `way_to_sullengard_east5_filler` · Data from v0.8.18</small>

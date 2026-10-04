@@ -163,6 +163,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Hm, yes. I guess you have a point. Oh well, here goes. *drinks potion*” → “Hmm, yes. I guess you have a point. Oh well, here goes. [Drinks potio…”<br>· text: “I managed to throw the book in among the trees over there during the …” → “I managed to throw the book in among the trees over there during the …” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
+| [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I have heard that the potion makers these days have potions of major …” → “I have heard that the potion makers these days have major potions of …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

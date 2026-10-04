@@ -18,6 +18,10 @@
 
 - [crossglen](../maps/crossglen.md)
 
+## Quests
+
+- [Missing husband](../quests/leta.md): stages 60
+
 ??? quote "Dialogue (2 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -26,10 +30,18 @@
 
     - “A happy wife is a happy life. Go home.” → [oromir_behind_haystack_20](#d-oromir_behind_haystack_20)
 
-    <span id="d-oromir_behind_haystack_20"></span>**`oromir_behind_haystack_20`** Oromir: “No thanks. I'm staying here.” — **effects:** sets stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60)
+    <span id="d-oromir_behind_haystack_20"></span>**`oromir_behind_haystack_20`** Oromir: “No thanks. I'm staying here.” — **effects:** sets stage 60 of [Missing husband](../quests/leta.md#stage-60)
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 2 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

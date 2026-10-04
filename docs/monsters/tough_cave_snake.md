@@ -47,4 +47,13 @@
 - [snakecave2](../maps/snakecave2.md)
 - [snakecave3](../maps/snakecave3.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | name: Tough Cave Snake → Tough cave snake |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `tough_cave_snake` · Data from v0.8.18</small>

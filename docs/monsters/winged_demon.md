@@ -31,11 +31,15 @@
 
 - [flagstone4](../maps/flagstone4.md)
 
+## Quests
+
+- [Ancient secrets](../quests/flagstone.md): stages 50
+
 ??? quote "Dialogue (3 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-flagstone_guard2"></span>**`flagstone_guard2`** Winged demon: “What, a mortal in here that is not marked by my touch?” — **effects:** sets stage 50 of [flagstone (hidden flag)](../quests/flagstone.md#stage-50)
+    <span id="d-flagstone_guard2"></span>**`flagstone_guard2`** Winged demon: “What, a mortal in here that is not marked by my touch?” — **effects:** sets stage 50 of [Ancient secrets](../quests/flagstone.md#stage-50)
 
     - Next → [flagstone_guard2_2](#d-flagstone_guard2_2)
 
@@ -49,6 +53,15 @@
     - “No! This land must be protected from the undead!” → *fight starts*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | size removed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

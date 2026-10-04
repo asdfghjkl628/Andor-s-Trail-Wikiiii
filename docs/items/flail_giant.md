@@ -29,4 +29,16 @@
 |---|---|---|
 | [Arulir Pack Leader](../monsters/arulir_leader.md) | 100% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 20, "increaseA… → {"increaseAttackChance": 20, "increaseA… |
+| [v0.8.14](../versions/0.8.14.md) | category: mace → mace2h |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `flail_giant` · Data from v0.8.18</small>

@@ -13,7 +13,7 @@
 | **Started by** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | **NPCs involved** | [Arngyr](../monsters/arngyr.md), [Forenza](../monsters/forenza_waytobrimhaven3.md), [Galmore wolf](../monsters/mg2_wolves.md), [Gandoren](../monsters/gandoren.md), [Gauward](../monsters/gauward.md), [Guard](../monsters/crossroads_sleepguard.md) +9 |
 | **Locations** | [blackwater_mountain44](../maps/blackwater_mountain44.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [foaming_flask](../maps/foaming_flask.md) |
-| **Related quests** | 14 |
+| **Related quests** | 16 |
 
 </div>
 
@@ -25,12 +25,14 @@
 
 Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required:
 
-- reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10)
+- reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10)
 - NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1)
 - NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1)
-- reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100)
-- reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100)
+- reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100)
+- reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,9 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Requires | [Night visit](farrik.md#stage-90) | stage 90 reached, for stage 17 here |
 | Requires | [Feygard errands](feygard_shipment.md#stage-81) | stage 81 reached, for stage 18 here |
 | Requires | [Flows through the veins](loneford.md#stage-55) | stage 55 reached, for stage 19 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-10) | stage 10 reached, for stage 1 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-100) | stage 100 reached, for stage 1 here |
+| Requires | [Rats!](mikhail_rats.md#stage-100) | stage 100 reached, for stage 1 here |
 | Requires | [The odd coin collector](odd_coin_collector.md#stage-40) | stage 40 reached, for stages 44, 45, 48 here |
 | Requires | [The odd coin collector](odd_coin_collector.md#stage-60) | stage 60 reached, for stages 44, 45, 48 here |
 | Requires | [The odd coin collector](odd_coin_collector.md#stage-63) | stage 63 reached, for stages 44, 45, 48 here |
@@ -117,15 +122,16 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | <span id="stage-89"></span>89 | prim_treasure_9 taken<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain25](../maps/blackwater_mountain25.md).</span> | stepping on a trigger on [blackwater_mountain25](../maps/blackwater_mountain25.md) | – | – |
 | <span id="stage-149"></span>149 |  | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | carry 1× [Stoutford chief's helmet](../items/stoutford_helmet.md), hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) | sets stage 90 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90)<br>sets stage 92 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 1: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “No, thanks.” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100) → **stage 1**. NPC: “No problem. I won't bother you with it again.”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “No, thanks.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100) → **stage 1**. NPC: “No problem. I won't bother you with it again.”
 
 ???+ note "Stage 10: 1 route"
 
@@ -321,6 +327,25 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
     2. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “No, I have...” — **conditions:** reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) → **stage 149**; also sets stage 92 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92). NPC: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.”
 
 
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | stages added: 5 |
+| [v0.7.2](../versions/0.7.2.md) | stages added: 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39; stage 20 journal text changed<br>Dialogue: 16 lines added |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “You see large shapes moving in the shadows to the East. It looks dang…” → “You see large shapes moving in the shadows to the east. It looks dang…” |
+| [v0.7.13](../versions/0.7.13.md) | stages added: 1<br>Dialogue: 1 line added |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line added |
+| [v0.8.11](../versions/0.8.11.md) | stages added: 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52<br>Dialogue: 24 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
+| [v0.8.14](../versions/0.8.14.md) | stages added: 60, 70<br>Dialogue: 1 line added, 1 line changed |
+| [v0.8.15](../versions/0.8.15.md) | stages added: 80, 81, 82, 83, 84, 85, 87, 88, 89<br>Dialogue: 9 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Walkthrough**: step-by-step help for players · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Bugs**: known glitches and workarounds · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -354,7 +379,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
     | showInLog | 0 |
     | Stage IDs | 1, 5, 10, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 60, 70, 80, 81, 82, 83, 84, 85, 87, 88, 89, 149 |
     | Dialogue nodes setting stages | 1: `mikhail_achievements_40`, 10: `torilo_rest_6`, 16: `laede_1`, 17: `crossroads_sleepguard_6`, 18: `gandoren_tr_5`, 19: `arngyr_3`, 19: `arngyr_5`, 20: `gauward_7`, 21: `kendelow_room_8`, 23: `tahalendor_rumblings10x_1`, 24: `script_lakecave0_1`, 25: `script_open_glade_door_1`, 26: `script_close_glade_door_1`, 30: `script_lakecave1_damerilia1_2`, 31: `script_grow_lakecave1_damerilias_1`, 32: `script_lakecave1_damerilia2_2`, 33: `script_grow_lakecave1_damerilias_2`, 34: `script_lakecave1_damerilia3_2`, 35: `script_grow_lakecave1_damerilias_3`, 36: `script_lakecave1_damerilia4_2`, 37: `script_grow_lakecave1_damerilias_4`, 38: `script_lakecave1_damerilia5_2`, 39: `script_grow_lakecave1_damerilias_5`, 40: `script_open_cave_door_1`, 41: `script_close_cave_door_scared`, 42: `script_open_korhald_tomb_door_1`, 43: `script_close_korhald_tomb_door_1`, 44: `korhald_chest_examine_50`, 44: `mysterious_map_44_reset_reward`, 45: `korhald_chest_examine_50`, 45: `mysterious_map_45_reset_reward`, 46: `korhald_cave1_found`, 47: `gylew_korhald_cop_45`, 47: `forenza_korhald_41`, 48: `korhald_chest_examine_50`, 48: `mysterious_map_48_reset_reward`, 49: `korhald_cave_hidden_locked_chest_loot`, 50: `korhald_cave_hidden_locked_chest_no_key`, 51: `hungry_pig_upset_stomach_2`, 52: `waterway_forest2_house_vacant`, 60: `troublemaker_wm_return_real_key_10`, 70: `mg2_wolves_22`, 80: `prim_treasure_door_10`, 81: `prim_treasure_12`, 82: `prim_treasure_22`, 83: `prim_treasure_init_2`, 84: `prim_treasure_42`, 85: `prim_treasure_52`, 87: `prim_treasure_72`, 88: `prim_treasure_82`, 89: `prim_treasure_92`, 149: `berbane_32`, 149: `berbane_132` |
-    | Dialogue nodes clearing stages | 40: `script_close_cave_door_1`, 43: `script_open_korhald_tomb_door_1`, 42: `script_close_korhald_tomb_door_1`, 44: `mysterious_map_waterway7_0`, 44: `korhald_cave1_found`, 44: `mysterious_map_44_remove_reward`, 45: `mysterious_map_waterway9_0`, 45: `korhald_cave1_found`, 48: `korhald_cave1_found`, 48: `mysterious_map_stop_and_review_korhald_cave_outdoor1` |
+    | Dialogue nodes clearing stages | 25: `script_close_glade_door_1`, 26: `script_open_glade_door_1`, 31: `script_lakecave1_damerilia1_2`, 33: `script_lakecave1_damerilia2_2`, 35: `script_lakecave1_damerilia3_2`, 37: `script_lakecave1_damerilia4_2`, 39: `script_lakecave1_damerilia5_2`, 30: `script_grow_lakecave1_damerilias_1`, 32: `script_grow_lakecave1_damerilias_2`, 34: `script_grow_lakecave1_damerilias_3` |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 
 

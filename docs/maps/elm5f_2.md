@@ -22,8 +22,8 @@
 
 | Name | HP |
 |---|---|
-| [General Ortholion](../monsters/ortholion.md) | 0 |
 | [Ehrenfest](../monsters/ehrenfest.md) | 0 |
+| [General Ortholion](../monsters/ortholion.md) | 0 |
 | [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 66 |
 | [Animated debris](../monsters/elm_debris.md) | 70 |
 | [Foul miner's skeleton](../monsters/elm_miner2.md) | 82 |
@@ -38,5 +38,15 @@
 | [Yczorah marauder](../monsters/elm_yczorah1.md) | 256 |
 | [Undead Kamelio](../monsters/kamelio2.md) | 304 |
 | [Prim guard skeleton](../monsters/elm_miner4a.md) | 364 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.7.17](../versions/0.7.17.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `elm5f_2` · Data from v0.8.18</small>

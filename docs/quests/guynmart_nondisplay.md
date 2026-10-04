@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 29 |
 | **Started by** | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah2.md), [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md) +6 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah2.md), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md) +6 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Related quests** | 3 |
 
@@ -28,6 +28,8 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 - killed 1× [Cute dog puppy](../monsters/guynmart_dog_puppy.md)
 - NOT reached stage 1 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -87,8 +89,9 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 | <span id="stage-63"></span>63 | 63=Hannah rant 3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart main 1](../maps/guynmart_main_1.md).</span> | stepping on a trigger on [guynmart_main_1](../maps/guynmart_main_1.md) | stage 62 | clears stage 62 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-62) |
 | <span id="stage-99"></span>99 | 99 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -224,6 +227,17 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
     1. stepping on a trigger on [guynmart_main_1](../maps/guynmart_main_1.md) → the conversation leads here automatically — **conditions:** reached stage 62 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-62) → **stage 63**; also clears stage 62 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-62). NPC: “Leave now, or I will call the guards!”
 
 
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 44 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 7 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Walkthrough**: step-by-step help for players · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Bugs**: known glitches and workarounds · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -257,7 +271,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 30, 31, 32, 33, 34, 35, 36, 41, 42, 43, 44, 45, 50, 51, 52, 53, 54, 55, 59, 60, 61, 62, 63, 99 |
     | Dialogue nodes setting stages | 1: `guynmart_s_dog_puppy_10`, 2: `guynmart_s_gate1_56`, 2: `guynmart_s_gate1_58`, 4: `guynmart_drunkard1_20`, 4: `guynmart_drunkard1_30`, 5: `guynmart_seat1`, 5: `guynmart_seat3`, 5: `guynmart_seat5`, 6: `guynmart_lovis_40`, 30: `guynmart_s_herold_14`, 31: `guynmart_s_herold_10`, 31: `guynmart_s_herold_12`, 32: `guynmart_reward1_20`, 32: `guynmart_reward2_20`, 32: `guynmart_reward3_20`, 33: `guynmart_lovis2_360`, 34: `guynmart_hannah_10`, 35: `guynmart_wise_102`, 36: `guynmart_lovis2_130`, 36: `guynmart_lovis2_240`, 36: `guynmart_lovis2_241`, 41: `guynmart_s_hill1`, 42: `guynmart_s_hill2`, 43: `guynmart_s_hill3`, 44: `guynmart_s_hill4`, 45: `guynmart_s_hill5`, 50: `guynmart_rob5_30`, 51: `guynmart_s_clearing_51`, 52: `guynmart_s_clearing_52`, 53: `guynmart_s_clearing_53`, 54: `guynmart_s_clearing_54`, 55: `guynmart_s_clearing_55`, 59: `guynmart_s_clearing_59`, 60: `guynmart_sRpl_main_1r_20`, 60: `guynmart_s_hannah_63`, 61: `guynmart_s_hannah_60`, 62: `guynmart_s_hannah_61`, 63: `guynmart_s_hannah_62` |
-    | Dialogue nodes clearing stages | 5: `guynmart_seat2`, 5: `guynmart_seat4`, 2: `guynmart_s_gate1_62`, 2: `guynmart_s_gate1_64`, 34: `guynmart_s_gateopenrest_10`, 59: `guynmart_s_clearing_51`, 51: `guynmart_s_clearing_52`, 52: `guynmart_s_clearing_53`, 53: `guynmart_s_clearing_54`, 54: `guynmart_s_clearing_55` |
+    | Dialogue nodes clearing stages | 5: `guynmart_seat2`, 5: `guynmart_seat4`, 2: `guynmart_s_gate1_62`, 2: `guynmart_s_gate1_64`, 60: `guynmart_s_hannah_60`, 61: `guynmart_s_hannah_61`, 62: `guynmart_s_hannah_62`, 63: `guynmart_s_hannah_63`, 31: `guynmart_s_herold_out`, 34: `guynmart_s_gateopenrest_10` |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 
 

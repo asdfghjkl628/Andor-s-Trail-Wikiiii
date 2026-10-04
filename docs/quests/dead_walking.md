@@ -24,6 +24,8 @@ Start with [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md
 
 - NOT reached stage 0 of [The Dead are Walking](../quests/dead_walking.md#stage-0)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-60"></span>60 | Now that Benzimos is "dead" again, I should return to Vilegard and speak with Gabriel.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted house basement](../maps/haunted_house_basement.md).</span> | stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) | – | – |
 | <span id="stage-70"></span>70 | Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard. **(completes quest)** | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) | stage 60 | 6,000 XP<br>gives [Gold coins](../items/gold.md)<br>faction “factionCountShadow” set to 2 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -75,6 +78,18 @@ No links to other quests were found in the dialogue conditions.
     1. Talk to [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) → choose “How 'grateful' are you?” — **conditions:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60 → **stage 70**; also gives [Gold coins](../items/gold.md). NPC: “Very! In fact, here are 3,000 gold pieces for all your trouble.”
     2. Talk to [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) → choose “I will do anything for the Shadow.” — **conditions:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60 → **stage 70**; also faction “factionCountShadow” set to 2. NPC: “Walk with the Shadow, my child.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.3](../versions/0.8.3.md) | Added<br>Dialogue: 8 lines added |
+| [v0.8.5](../versions/0.8.5.md) | stage 40 journal text changed<br>Dialogue: 2 lines changed<br>· text: “Now you begin to notice that the moaning heard by Gabriel is a little…” → “Now you begin to notice that the moaning heard by Gabriel is a little…”<br>· text: “As you enter this dark place, you suspect that you are getting closer…” → “As you enter this dark place, you suspect that you are getting closer…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Very! In fact, here are 3000 gold pieces for all your trouble.” → “Very! In fact, here are {3000} gold pieces for all your trouble.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

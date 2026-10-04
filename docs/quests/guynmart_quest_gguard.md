@@ -28,6 +28,8 @@ Start with [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/
 - reached stage 30 of [Roses](../quests/guynmart.md#stage-30)
 - pay 100 gold
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +48,7 @@ Start with [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/
 | <span id="stage-1"></span>1 | 1=unblocked<br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart](../maps/guynmart.md).</span> | [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/guynmart.md)) | pay 100 gold | sets stage 30 of [Roses](../quests/guynmart.md#stage-30) |
 | <span id="stage-82"></span>82 |  | [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/guynmart.md)) | have 100 gold, pay 100 gold | gives [Rose](../items/guynmart_rose.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -58,6 +61,16 @@ Start with [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/
 
     1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/guynmart.md)) → choose “I understand. Here, 100 gold.” — **conditions:** reached stage 70 of [Roses](../quests/guynmart.md#stage-70); NOT carry 1× [Rose](../items/guynmart_rose.md); NOT reached stage 100 of [Roses](../quests/guynmart.md#stage-100); NOT reached stage 132 of [Roses](../quests/guynmart.md#stage-132); have 100 gold; pay 100 gold → **stage 82**; also gives [Rose](../items/guynmart_rose.md). NPC: “And here is the rose. Don't tell anybody that you got it from me.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

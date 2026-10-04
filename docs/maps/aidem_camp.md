@@ -17,10 +17,18 @@
 | [Lost Traveler](../monsters/aidem_camp_lost_traveler.md) | 0 |
 | [Defy](../monsters/aidem_camp_defy.md) | 0 |
 | [Zachlanny](../monsters/aidem_camp_zachlanny.md) | 1 |
-| [Grabby](../monsters/aidem_camp_grabby.md) | 1 |
 | [Greedy](../monsters/aidem_camp_greedy.md) | 1 |
+| [Grabby](../monsters/aidem_camp_grabby.md) | 1 |
 | [Preabola fly](../monsters/preabola_fly.md) | 109 |
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 119 |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 148 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `aidem_camp` · Data from v0.8.18</small>

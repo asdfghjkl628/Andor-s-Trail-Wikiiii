@@ -55,7 +55,7 @@
     <span id="d-ehrenfest_49"></span>**`ehrenfest_49`** Ehrenfest: “Hmm... $playername, I wonder how your brother Andor would react if he knew I had to kill you.”
 
     - “What do you know about him?!” → [ehrenfest_50a](#d-ehrenfest_50a)
-    - “So you're the guy that Lodar told me about.” *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72))* → [ehrenfest_50b](#d-ehrenfest_50b)
+    - “So you're the guy that Lodar told me about.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72))* → [ehrenfest_50b](#d-ehrenfest_50b)
     - “I won't hear your lies. I'll finish you right here.” → [ehrenfest_50c](#d-ehrenfest_50c)
 
     <span id="d-ortholion_conversation2_1"></span>**`ortholion_conversation2_1`** [General Ortholion](../monsters/ortholion.md): “Ehrenfest, you have come this far just to get rid of me...” — **effects:** removes monsters from blackwater_mountain31
@@ -640,6 +640,18 @@
     - “What about the campfire?” → [ehrenfest_24a](#d-ehrenfest_24a)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 125 lines added |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “*looks nervious* I told you. Something big is about to happen. I beli…” → “*looks nervous* I told you. Something big is about to happen. I belie…” |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 3 lines changed<br>· text: “Lorn lay next to me, just a few meters away. His armor was entirely c…” → “Lorn lay next to me, just a few steps away. His armor was entirely co…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

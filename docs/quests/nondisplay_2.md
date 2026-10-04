@@ -14,7 +14,7 @@
 | **NPCs involved** | [Aemens](../monsters/aemens.md), [Cithurn](../monsters/waterwayhermit.md), [Cithurn's cat](../monsters/cithurncat.md), [Melona](../monsters/melona.md), [Taret](../monsters/taret.md), [Teksin](../monsters/teksin.md) +1 |
 | **Locations** | [brimhaven_inn_east](../maps/brimhaven_inn_east.md), [loneford16](../maps/loneford16.md), [loneford17](../maps/loneford17.md), [stoutford_church](../maps/stoutford_church.md) |
 | **Total XP** | 25 |
-| **Related quests** | 6 |
+| **Related quests** | 8 |
 
 </div>
 
@@ -32,6 +32,8 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 - reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35)
 - NOT reached stage 10 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +47,8 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 | Mutually exclusive | [Just the beginning](waterwayacave.md#stage-10) | stage 10 must NOT be reached, for stage 90 here |
 | Mutually exclusive | [Just the beginning](waterwayacave.md#stage-70) | stage 70 must NOT be reached, for stage 10 here |
 | Unlocks | [Unusual experiences and achievements](achievements.md#stage-40) | stage 40 there needs stage 200 here |
+| Unlocks | [Search for Andor](andor.md#stage-110) | stage 110 there needs stage 170 here |
+| Unlocks | [Ancient secrets](flagstone.md#stage-5) | stage 5 there needs stages 180, 190 here |
 | Unlocks | [The odd coin collector](odd_coin_collector.md#stage-12) | stage 12 there needs stage 250 here |
 | Unlocks | [The odd coin collector](odd_coin_collector.md#stage-13) | stage 13 there needs stage 250 here |
 | Unlocks | [Stoutford's old castle](stoutford_castle.md#stage-10) | stage 10 there needs stages 180, 190 here |
@@ -83,8 +87,9 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 | <span id="stage-240"></span>240 | Despawned monsters in graveyard<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Graveyard1](../maps/graveyard1.md).</span> | stepping on a trigger on [graveyard1](../maps/graveyard1.md) | hand over 1× [Ancient text](../items/graveyardtext.md) | removes monsters from graveyard1<br>removes monsters from graveyard0 |
 | <span id="stage-250"></span>250 | Looted arulir secret room<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulircave5](../maps/arulircave5.md).</span> | stepping on a trigger on [arulircave5](../maps/arulircave5.md) | – | gives [Sharpened gem](../items/gem4.md), [Polished sparkling gem](../items/gem5.md), [Gold coins](../items/gold.md), [Polished gem](../items/gem3.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -180,15 +185,31 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 
 ???+ note "Stage 240: 4 routes"
 
-    1. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to…”
-    2. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md) → **stage 240**
-    3. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to…”
-    4. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240); hand over 1× [Ancient text](../items/graveyardtext.md) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The ancient text crumbles and turns to dust. The defeat of the undead master seems to have lifted the spell animating…”
+    1. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240); hand over 1× [Ancient text](../items/graveyardtext.md) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The ancient text crumbles and turns to dust. The defeat of the undead master seems to have lifted the spell animating…”
+    2. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to…”
+    3. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md) → **stage 240**
+    4. stepping on a trigger on [graveyard1](../maps/graveyard1.md) → the conversation leads here automatically — **conditions:** killed 1× [Graveyard king](../monsters/graveyardking.md); NOT reached stage 240 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) → **stage 240**; also removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard1, removes monsters from graveyard0, removes monsters from graveyard1, removes monsters from graveyard1. NPC: “The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to…”
 
 ???+ note "Stage 250: 1 route"
 
     1. stepping on a trigger on [arulircave5](../maps/arulircave5.md) → choose “[Plunder the loot]” — **conditions:** NOT reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) → **stage 250**; also gives [Sharpened gem](../items/gem4.md), [Polished sparkling gem](../items/gem5.md), [Gold coins](../items/gold.md), [Polished gem](../items/gem3.md). NPC: “You have 'acquired' some gold and other valuable gems!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 22 lines added |
+| [v0.7.4](../versions/0.7.4.md) | stages added: 200, 210, 220<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Flagstone Prison was built four hundred years ago by house Gorland of…” → “Flagstone Prison was built four hundred years ago by house Gorland of…” |
+| [v0.7.11](../versions/0.7.11.md) | stages added: 230<br>Dialogue: 1 line added |
+| [v0.7.12](../versions/0.7.12.md) | stages added: 240<br>Dialogue: 3 lines added, 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+| [v0.8.11](../versions/0.8.11.md) | stages added: 250<br>Dialogue: 1 line added |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 1 line changed<br>· text: “However, recently more and more of the most foul monsters are coming …” → “However, recently more and more of the most foul monsters are coming …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 
@@ -222,7 +243,7 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
     | Quest ID | `nondisplay_2` |
     | showInLog | 0 |
     | Stage IDs | 10, 20, 30, 40, 50, 60, 70, 75, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250 |
-    | Dialogue nodes setting stages | 10: `cithurn_51`, 20: `sign_waytolake7b_1`, 30: `lostfound1`, 40: `lostfound2`, 50: `aemens_0`, 60: `taret_3`, 70: `aemens_3`, 75: `taret_5`, 80: `waterwatcaveloot2`, 90: `cithurn_80`, 100: `cithurncatmeow_1`, 100: `cithurncatmeow_2`, 110: `waterwaycavex_1`, 120: `cithurn_111`, 130: `old_clothes_2`, 140: `teksin12`, 150: `teksin110`, 160: `teksin50`, 170: `been_to_remgard`, 180: `yolgen_surroundings_2c`, 190: `yolgen_surroundings_1`, 200: `lookout_up_1`, 210: `lookout_down_3`, 230: `melona_2a`, 240: `graveyardday2a`, 240: `boss_killed1`, 240: `despawn_fix1`, 250: `arulir_secret_room_loot_2` |
+    | Dialogue nodes setting stages | 10: `cithurn_51`, 20: `sign_waytolake7b_1`, 30: `lostfound1`, 40: `lostfound2`, 50: `aemens_0`, 60: `taret_3`, 70: `aemens_3`, 75: `taret_5`, 80: `waterwatcaveloot2`, 90: `cithurn_80`, 100: `cithurncatmeow_1`, 100: `cithurncatmeow_2`, 110: `waterwaycavex_1`, 120: `cithurn_111`, 130: `old_clothes_2`, 140: `teksin12`, 150: `teksin110`, 160: `teksin50`, 170: `been_to_remgard`, 180: `yolgen_surroundings_2c`, 190: `yolgen_surroundings_1`, 200: `lookout_up_1`, 210: `lookout_down_3`, 230: `melona_2a`, 240: `graveyardday2`, 240: `graveyardday2a`, 240: `boss_killed1`, 250: `arulir_secret_room_loot_2` |
     | Dialogue nodes clearing stages | – |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 

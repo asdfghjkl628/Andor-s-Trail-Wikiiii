@@ -14,7 +14,7 @@
 | **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportnorthguard.md), [Brightport guard](../monsters/brightportguard2.md), [Brightport guard](../monsters/brightport_guardcrate.md) +28 |
 | **Locations** | [brightport1](../maps/brightport1.md), [brightport4](../maps/brightport4.md), [brightport5](../maps/brightport5.md), [brightport_abandoned](../maps/brightport_abandoned.md) |
 | **Total XP** | 1,500 |
-| **Related quests** | 11 |
+| **Related quests** | 13 |
 
 </div>
 
@@ -26,6 +26,8 @@
 
 None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](../maps/brightport_temple.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,8 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | Requires | [No rest for the wicked](Stanwickquest.md#stage-96) | stage 96 reached, for stage 70 here |
 | Requires | [The ruthless Crackshot](Thieves03.md#stage-50) | stage 50 reached, for stage 20 here |
 | Requires | [Another ruthless Crackshot](Thieves04.md#stage-10) | stage 10 reached, for stage 20 here |
+| Requires | [Search for Andor](andor.md#stage-131) | stage 131 reached, for stage 244 here |
+| Requires | [Search for Andor](andor.md#stage-132) | stage 132 reached, for stage 105 here |
 | Requires | [Bread and circus](brightport_bakery.md#stage-5) | stage 5 reached, for stages 162, 163, 164, 165, 166, 167, 184, 186, 190, 191, 192, 193, 194, 195, 206, 207, 243 here |
 | Requires | [Bread and circus](brightport_bakery.md#stage-16) | stage 16 reached, for stages 168, 169, 170, 171, 172, 199, 200, 201, 202, 203, 204 here |
 | Requires | [Bread and circus](brightport_bakery.md#stage-23) | stage 23 reached, for stage 213 here |
@@ -84,16 +88,14 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | Mutually exclusive | [No rest for the wicked](Stanwickquest.md#stage-85) | stage 85 must NOT be reached, for stages 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102 here |
 | Mutually exclusive | [No rest for the wicked](Stanwickquest.md#stage-96) | stage 96 must NOT be reached, for stage 66 here |
 | Blocked by | [The ruthless Crackshot](Thieves03.md#stage-50) | stage 50 must NOT be reached, for stage 130 here |
+| Blocked by | [Excluded endings for the main quest andor (hidden flag)](andor_ending.md#stage-900) | stage 900 must NOT be reached, for stage 35 here |
 | Mutually exclusive | [Bread and circus](brightport_bakery.md#stage-1) | stage 1 must NOT be reached, for stage 157 here |
 | Mutually exclusive | [Bread and circus](brightport_bakery.md#stage-25) | stage 25 must NOT be reached, for stage 213 here |
 | Mutually exclusive | [Bread and circus](brightport_bakery.md#stage-45) | stage 45 must NOT be reached, for stage 197 here |
 | Mutually exclusive | [Bread and circus](brightport_bakery.md#stage-50) | stage 50 must NOT be reached, for stage 198 here |
 | Blocked by | [Too hot to handle](brightport_fiamma.md#stage-25) | stage 25 must NOT be reached, for stages 175, 176, 177, 178, 179, 180, 181 here |
-| Mutually exclusive | [Priceful vengeance](brightport_goons.md#stage-40) | stage 40 must NOT be reached, for stage 133 here |
-| Mutually exclusive | [Priceful vengeance](brightport_goons.md#stage-60) | stage 60 must NOT be reached, for stages 136, 139, 141, 142, 143, 150, 156, 208, 211, 212, 234, 240 here |
-| Mutually exclusive | [Priceful vengeance](brightport_goons.md#stage-120) | stage 120 must NOT be reached, for stages 139, 240 here |
 
-*…and 52 more.*
+*…and 60 more.*
 
 ## Stages
 
@@ -143,7 +145,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | <span id="stage-102"></span>102 | R correct | walking into a blocked passage on [brightportwild9](../maps/brightportwild9.md) | stage 88 | – |
 | <span id="stage-103"></span>103 | got library key<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brightport school2](../maps/brightport_school2.md).</span> | walking into a blocked passage on [brightport_school2](../maps/brightport_school2.md) | carry 1× [Library key](../items/brightport_key.md) | – |
 | <span id="stage-104"></span>104 | got scroll | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | sets stage 95 of [No rest for the wicked](../quests/Stanwickquest.md#stage-95)<br>gives 1× [Secret scroll](../items/brightport_scroll.md)<br>sets stage 92 of [No rest for the wicked](../quests/Stanwickquest.md#stage-92) |
-| <span id="stage-105"></span>105 | andor story | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | sets stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132) |
+| <span id="stage-105"></span>105 | andor story | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | sets stage 132 of [Search for Andor](../quests/andor.md#stage-132) |
 | <span id="stage-106"></span>106 | bryma bonemeal | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | – |
 | <span id="stage-107"></span>107 | bryma baking story | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | – |
 | <span id="stage-108"></span>108 | mordred dog | [Mordred](../monsters/brightport_huntingdog.md) ([brightport_thieves](../maps/brightport_thieves.md)) | – | – |
@@ -297,8 +299,9 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | <span id="stage-257"></span>257 | bonemeal helps breads | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | – | – |
 | <span id="stage-258"></span>258 | chocolate pastries, yum. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -339,7 +342,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
 ???+ note "Stage 35: 1 route"
 
-    1. Talk to [Hortensia](../monsters/brightportbakery.md) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “He has been missing for a while, and so my father sent me out to search for him. Have you seen him?” — **conditions:** NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900) → **stage 35**. NPC: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find…”
+    1. Talk to [Hortensia](../monsters/brightportbakery.md) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “He has been missing for a while, and so my father sent me out to search for him. Have you seen him?” — **conditions:** NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900) → **stage 35**. NPC: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find…”
 
 ???+ note "Stage 40: 1 route"
 
@@ -519,7 +522,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
 ???+ note "Stage 105: 1 route"
 
-    1. Talk to [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) → choose “Can you tell me about Andor again?” — **conditions:** reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132) → **stage 105**; also sets stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132). NPC: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out…”
+    1. Talk to [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) → choose “Can you tell me about Andor again?” — **conditions:** reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132) → **stage 105**; also sets stage 132 of [Search for Andor](../quests/andor.md#stage-132). NPC: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out…”
 
 ???+ note "Stage 106: 1 route"
 
@@ -1180,7 +1183,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
 ???+ note "Stage 244: 1 route"
 
-    1. Talk to [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) → choose “Can you tell me about Andor again?” — **conditions:** reached stage 196 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-196); reached stage 131 of [andor (hidden flag)](../quests/andor.md#stage-131) → **stage 244**. NPC: “First, as Umar told you, Andor was looking for directions to the potion maker named Lodar; and second, he wanted…”
+    1. Talk to [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) → choose “Can you tell me about Andor again?” — **conditions:** reached stage 196 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-196); reached stage 131 of [Search for Andor](../quests/andor.md#stage-131) → **stage 244**. NPC: “First, as Umar told you, Andor was looking for directions to the potion maker named Lodar; and second, he wanted…”
 
 ???+ note "Stage 245: 1 route"
 
@@ -1236,6 +1239,17 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
     1. Talk to [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) → choose “[Listen quietly.]” — **conditions:** reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112) → **stage 257**. NPC: “To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

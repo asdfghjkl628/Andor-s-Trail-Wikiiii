@@ -26,6 +26,8 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 - reached stage 250 of [It makes no fence](../quests/tunlon_fence.md#stage-250)
 - NOT reached stage 10 of [It makes no fence](../quests/tunlon_fence.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -59,6 +61,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 | <span id="stage-240"></span>240 | Brimhaven's wood craftsman sold me some nice looking fences. | [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) | pay 200 gold, stage 235 | gives [New fence](../items/tunlon_fence2.md) |
 | <span id="stage-250"></span>250 | Tunlon was happy to see the fences I brought him. These should be just fine, he said. **(completes quest)** | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | hand over 10× [New fence](../items/tunlon_fence2.md), stage 200 | 5,000 XP<br>gives [Gold coins](../items/gold.md), [Specially peppered lamb meat](../items/lamb_meat2.md), [Red Pepper](../items/red_pepper.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -130,6 +133,17 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
     1. Talk to [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) → choose “Here, I hope these are better.” — **conditions:** reached stage 200 of [It makes no fence](../quests/tunlon_fence.md#stage-200); hand over 10× [New fence](../items/tunlon_fence2.md) → **stage 250**; also gives [Gold coins](../items/gold.md), [Specially peppered lamb meat](../items/lamb_meat2.md), [Red Pepper](../items/red_pepper.md). NPC: “Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.10](../versions/0.8.10.md) | Added<br>Dialogue: 17 lines added |
+| [v0.8.11](../versions/0.8.11.md) | stage 12 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

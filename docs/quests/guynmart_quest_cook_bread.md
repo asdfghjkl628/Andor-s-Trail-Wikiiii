@@ -29,6 +29,8 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
 - NOT reached stage 64 of [Roses](../quests/guynmart.md#stage-64)
 - reached stage 40 of [Roses](../quests/guynmart.md#stage-40)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +47,7 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
 |---|---|---|---|---|
 | <span id="stage-1"></span>1 | 1=got | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | – | gives [Bread](../items/bread.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -53,6 +56,16 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
 
     1. Talk to [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) → choose “The steward told me you could give me some bread.” — **conditions:** reached stage 62 of [Roses](../quests/guynmart.md#stage-62); NOT reached stage 64 of [Roses](../quests/guynmart.md#stage-64); reached stage 40 of [Roses](../quests/guynmart.md#stage-40) → **stage 1**; also gives [Bread](../items/bread.md). NPC: “Here I have some fresh bread for you. Enjoy it.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

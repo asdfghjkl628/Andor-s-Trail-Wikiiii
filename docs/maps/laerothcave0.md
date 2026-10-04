@@ -22,9 +22,18 @@
 | Name | HP |
 |---|---|
 | [Venomous beach crawler](../monsters/beach_crawler_1.md) | 70 |
+| [Poisonous vine](../monsters/poison_vine_top.md) | 90 |
 | [Poisonous vine](../monsters/poison_vine_bottom.md) | 90 |
 | [Giant centipede](../monsters/centipede.md) | 90 |
-| [Poisonous vine](../monsters/poison_vine_top.md) | 90 |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `laerothcave0` · Data from v0.8.18</small>

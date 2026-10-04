@@ -23,6 +23,8 @@
 
 None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -44,6 +46,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 | <span id="stage-50"></span>50 | Jakrar was very happy to see his good old axe again. He expressed his gratitude, and started to clear away the trees immediately. | [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 40 | – |
 | <span id="stage-60"></span>60 | Now the woodcutter has cleared away all the trees that blocked the path. Finally, the townsfolk have got back their shortcut to the Duleian Road! **(completes quest)** | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) | stage 50 | 700 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -76,6 +79,18 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 
     1. Talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-50) → **stage 60**. NPC: “Hello again. It seems like you have sorted things out. Now the passage isn't blocked anymore. You have my gratitude…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 7 lines added |
+| [v0.7.15](../versions/0.7.15.md) | stage 10 journal text changed; stage 20 journal text changed<br>Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed<br>· text: “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” → “OK, maybe you can be of use. Talk to the guard captain. Maybe you can…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -30,12 +30,24 @@
 
 | Name | HP |
 |---|---|
-| [Prim priestly acolyte](../monsters/prim_priestly_acolyte.md) | 0 |
 | [Reading Prim pupil](../monsters/reading_prim_pupil.md) | 0 |
+| [Prim priestly acolyte](../monsters/prim_priestly_acolyte.md) | 0 |
 | [Samar](../monsters/samar.md) | 0 |
-| [Prim pupil](../monsters/prim_pupil.md) | 0 |
 | [Studying Prim pupil](../monsters/studying_prim_pupil.md) | 0 |
+| [Prim pupil](../monsters/prim_pupil.md) | 0 |
 | [Prim treasury guard](../monsters/prim_treasury_guard.md) | 60 |
 | [Strong Prim treasury guard](../monsters/prim_treasury_guard2.md) | 160 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.15](../versions/0.8.15.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain25` · Data from v0.8.18</small>

@@ -19,4 +19,13 @@
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30 |
 | [Larval burrower](../monsters/larval_burrower.md) | 35 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.8.6](../versions/0.8.6.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `crackshot_hideout1` · Data from v0.8.18</small>

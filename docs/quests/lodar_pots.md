@@ -25,6 +25,8 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
 - reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +47,7 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | <span id="stage-42"></span>42 | Lodar can create a potion of strength if I bring him a dead spider and the wings of an insect. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 40 | – |
 | <span id="stage-43"></span>43 | Lodar can create a potent defensive potion if I bring him two arulir skins and a claw from some monster. The arulir beasts can be found somewhere up in the north, and the claws can apparently be found from creatures that dwell underground and in caves somewhere outside Fallhaven. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 40 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -77,6 +80,18 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
     1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “What about the hardening potion?” — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); reached stage 40 of [Lodar's potions](../quests/lodar_pots.md#stage-40) → **stage 43**. NPC: “Up in the north, I have heard tales of beast called the arulir. Their skin is thick as bark due to the interesting…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | stage 43 journal text changed<br>Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
+| [v0.7.2](../versions/0.7.2.md) | stage 43 journal text changed<br>Dialogue: 2 lines changed<br>· text: “I have discovered that if you mix some ground up claws from a beast c…” → “I have discovered that if you mix some ground up claws from a beast c…”<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the arulir. Their…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

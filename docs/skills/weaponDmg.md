@@ -21,6 +21,7 @@ Increases max damage by 2 for each skill level.
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Cleave](cleave.md): needs this skill at level 1

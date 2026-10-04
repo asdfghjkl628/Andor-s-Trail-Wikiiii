@@ -23,6 +23,7 @@ For every critical hit made, there is a 50 % chance that the hit will cause inte
 |---|---|---|
 | 1 | 2 | 2 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Fracture](crit2.md): needs this skill at level 1

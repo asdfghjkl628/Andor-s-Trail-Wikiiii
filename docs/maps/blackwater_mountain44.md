@@ -15,12 +15,23 @@
 
 | Name | HP |
 |---|---|
+| [Studying Blackwater priest](../monsters/studying_blackwater_priest.md) | 0 |
 | [Blackwater pupil](../monsters/blackwater_pupil.md) | 0 |
 | [Laede](../monsters/laede.md) | 0 |
-| [Studying Blackwater priest](../monsters/studying_blackwater_priest.md) | 0 |
-| [Herec](../monsters/herec.md) | 0 |
-| [Blackwater priest](../monsters/blackwater_priest.md) | 0 |
 | [Iducus](../monsters/iducus.md) | 0 |
+| [Blackwater priest](../monsters/blackwater_priest.md) | 0 |
+| [Herec](../monsters/herec.md) | 0 |
 | [Blackwater guard](../monsters/blackwater_guard.md) | 60 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain44` · Data from v0.8.18</small>

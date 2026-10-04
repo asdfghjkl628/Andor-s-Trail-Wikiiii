@@ -27,4 +27,15 @@
 
 - [Prowling Arantxa](../monsters/sullengard_arantxa.md)
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.8](../versions/0.8.8.md) | name: Thieve's cloak of whispers → Thieves' cloak of whispers |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `thieve_clock_whispers` · Data from v0.8.18</small>

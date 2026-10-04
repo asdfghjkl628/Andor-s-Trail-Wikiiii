@@ -140,6 +140,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

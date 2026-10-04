@@ -32,4 +32,12 @@
 - [waytobrimhaven3](../maps/waytobrimhaven3.md)
 - [wild21](../maps/wild21.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.13](../versions/0.8.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `tt_guys` · Data from v0.8.18</small>

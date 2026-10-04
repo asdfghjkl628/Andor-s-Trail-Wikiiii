@@ -11,7 +11,7 @@
 | **NPCs involved** | [Glasforn](../monsters/stoutford_innkeeper.md), [Quiet thief](../monsters/stoutford_thief.md), [Tahalendor](../monsters/tahalendor.md), [Yolgen](../monsters/yolgen.md) |
 | **Locations** | [stoutford_church](../maps/stoutford_church.md), [stoutford_tavern](../maps/stoutford_tavern.md) |
 | **Total XP** | 7,000 |
-| **Related quests** | 5 |
+| **Related quests** | 7 |
 
 </div>
 
@@ -23,6 +23,8 @@
 
 None: talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -30,6 +32,10 @@ None: talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../map
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Night visit](farrik.md#stage-70) | stage 70 reached, for stage 25 here |
+| Unlocks | [Search for Andor](andor.md#stage-85) | stage 85 there needs stage 10 here |
+| Unlocks | [Search for Andor](andor.md#stage-86) | stage 86 there needs stage 60 here |
+| Unlocks | [Ancient secrets](flagstone.md#stage-5) | stage 5 there needs stage 80 here |
+| Unlocks | [Ancient secrets](flagstone.md#stage-100) | stage 100 there needs stage 80 here |
 | Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-23) | stage 23 there needs stage 106 here |
 | Unlocks | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-180) | stage 180 there needs stage 80 here |
 | Unlocks | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-190) | stage 190 there needs stage 80 here |
@@ -62,8 +68,9 @@ None: talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../map
 | <span id="stage-103"></span>103 | I told him Glasforn was responsible. **(completes quest)** | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 70, stage 90 | 2,500 XP<br>removes monsters from stoutford_tavern |
 | <span id="stage-106"></span>106 | I told him Andor was responsible. **(completes quest)** | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 70, stage 90 | 2,500 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -117,6 +124,16 @@ None: talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../map
 
     1. Talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “It was my brother Andor. I need to find him.” — **conditions:** reached stage 90 of [Rumblings](../quests/rumblings.md#stage-90); reached stage 70 of [Rumblings](../quests/rumblings.md#stage-70) → **stage 106**. NPC: “That is troublesome. I have no idea where he went when he left Stoutford, but Kazaul has always been linked to the…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 13 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

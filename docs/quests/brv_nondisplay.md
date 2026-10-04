@@ -26,6 +26,8 @@
 
 None: talk to stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -90,8 +92,9 @@ None: talk to stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_in
 | <span id="stage-150"></span>150 | brv_fortune_andor_30 | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | have 100 gold, stage 144 | – |
 | <span id="stage-151"></span>151 | brv_fortune_andor_10 | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | have 100 gold, stage 144 | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -229,6 +232,21 @@ None: talk to stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_in
 
     1. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); have 100 gold; NOT 0 rounds passed since timer “brv_fortune”; random chance (17%); NOT reached stage 151 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-151) → **stage 151**. NPC: “I see you talking to your brother, somewhere far from here in a big city. Feygard or Nor City, I think.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 33 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…” |
+| [v0.7.14](../versions/0.7.14.md) | stages added: 138, 139<br>Dialogue: 7 lines added |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “I see you walking up a path on a mountain. Beware! There is something…” → “I see you walking up a path on a mountain. Beware! There is something…” |
+| [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line added, 2 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

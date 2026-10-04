@@ -11,6 +11,7 @@
 | **NPCs involved** | [Kaverin](../monsters/kaverin.md), [Unzel](../monsters/unzel.md), [Vacor](../monsters/vacor.md) |
 | **Locations** | [fallhaven_sw](../maps/fallhaven_sw.md), [remgard_tavern1](../maps/remgard_tavern1.md), [wild6](../maps/wild6.md) |
 | **Total XP** | 20,000 |
+| **Related quests** | 1 |
 
 </div>
 
@@ -22,11 +23,16 @@
 
 None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
-No links to other quests were found in the dialogue conditions.
+| Relationship | Quest | Detail |
+|---|---|---|
+| Requires | [Missing pieces](vacor.md#stage-60) | stage 60 reached, for stages 70, 75, 90 here |
+| Requires | [Missing pieces](vacor.md#stage-61) | stage 61 reached, for stage 30 here |
 
 ## Stages
 
@@ -46,6 +52,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-90"></span>90 | I should try to find Vacor's old hideout, on the road to the west of the former prison of Flagstone, southwest of Fallhaven.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild16](../maps/wild16.md).</span> | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md))<br>[Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 45, stage 75 | – |
 | <span id="stage-100"></span>100 | I have found Vacor's old hideout. **(completes quest)** | reading a sign on [wild16_cave](../maps/wild16_cave.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -72,7 +79,7 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “Here it is.” — **conditions:** reached stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61); reached stage 25 of [Old friends?](../quests/kaverin.md#stage-25); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 30**. NPC: “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”
+    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “Here it is.” — **conditions:** reached stage 61 of [Missing pieces](../quests/vacor.md#stage-61); reached stage 25 of [Old friends?](../quests/kaverin.md#stage-25); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 30**. NPC: “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”
 
 ???+ note "Stage 40: 1 route"
 
@@ -88,21 +95,32 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 70: 1 route"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 70**. NPC: “What's that in your hands?! ... I recognize that seal!”
+    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 70**. NPC: “What's that in your hands?! ... I recognize that seal!”
 
 ???+ note "Stage 75: 1 route"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Here, have the message.” — **conditions:** reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 75**; also gives [Map to Vacor's old hideout](../items/vacor_map.md). NPC: “Here, take this map as compensation for your troubles.”
+    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Here, have the message.” — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 75**; also gives [Map to Vacor's old hideout](../items/vacor_map.md). NPC: “Here, take this map as compensation for your troubles.”
 
 ???+ note "Stage 90: 2 routes"
 
     1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 45 of [Old friends?](../quests/kaverin.md#stage-45) → **stage 90**. NPC: “According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take…”
-    2. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60); reached stage 75 of [Old friends?](../quests/kaverin.md#stage-75) → **stage 90**. NPC: “[The map shows a location to the northwest of the former prison of Flagstone]”
+    2. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 75 of [Old friends?](../quests/kaverin.md#stage-75) → **stage 90**. NPC: “[The map shows a location to the northwest of the former prison of Flagstone]”
 
 ???+ note "Stage 100: 1 route"
 
     1. reading a sign on [wild16_cave](../maps/wild16_cave.md) → the conversation leads here automatically → **stage 100**. NPC: “You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…”<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

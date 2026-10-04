@@ -30,4 +30,15 @@
 |---|---|---|
 | [Vahram the butcher](../monsters/vahram.md) | 100% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.16.1](../versions/0.8.16.1.md) | description: Shiny, and sharp! → Shiny, and sharp, carries a long histor…; equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 15, "increaseA…; name: Glaive of the butcher → Glaive of Imeria |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `glaive_butcher` · Data from v0.8.18</small>

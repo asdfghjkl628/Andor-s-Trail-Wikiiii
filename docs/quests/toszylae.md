@@ -25,6 +25,8 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 
 - reached stage 15 of [An involuntary carrier](../quests/toszylae.md#stage-15)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +54,7 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 | <span id="stage-60"></span>60 | Ulirfendor told me that he had managed to translate the parts of the inscription that I told the guardian. Apparently, what I told the guardian roughly means 'My body for Kazaul'. Ulirfendor was very concerned about what this means for me, and was very regretful that he had made me speak the words. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
 | <span id="stage-70"></span>70 | Ulirfendor was very happy to hear that I managed to defeat the lich. With the lich defeated, the people in the surrounding areas should be safe now. **(completes quest)** | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 60 | 20,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -104,6 +107,17 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 
     1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “I at least defeated the lich that infected me with this thing.” — **conditions:** reached stage 60 of [An involuntary carrier](../quests/toszylae.md#stage-60); reached stage 10 of [The dark protector](../quests/darkprotector.md#stage-10) → **stage 70**. NPC: “Oh, that is good news indeed. A lich you say? With your help, the people of the surrounding towns should be safe from…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

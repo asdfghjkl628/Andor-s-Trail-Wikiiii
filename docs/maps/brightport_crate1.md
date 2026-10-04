@@ -10,7 +10,15 @@
 
 | Name | HP |
 |---|---|
-| [Guard 1](../monsters/brightportguardcrate1.md) | 0 |
 | [Guard 2](../monsters/brightportguardcrate2.md) | 0 |
+| [Guard 1](../monsters/brightportguardcrate1.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brightport_crate1` · Data from v0.8.18</small>

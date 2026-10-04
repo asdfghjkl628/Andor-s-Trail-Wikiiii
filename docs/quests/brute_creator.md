@@ -25,6 +25,8 @@ Start with [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mou
 - reached stage 10 of [Brutes](../quests/brute_creator.md#stage-10)
 - NOT reached stage 30 of [Brutes](../quests/brute_creator.md#stage-30)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +44,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-40"></span>40 | I have talked to Os, a scientist about brute matters. He has built up a brute production facility. | [Os](../monsters/brute_creator.md) ([mountainlake8_cave](../maps/mountainlake8_cave.md)) | – | – |
 | <span id="stage-90"></span>90 | I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife. **(completes quest)** | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) | stage 35, stage 40 | 2,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -71,6 +74,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) → choose “There are several bake rooms where the animals take on an even more hideous appearance. Until they finally…” — **conditions:** reached stage 35 of [Brutes](../quests/brute_creator.md#stage-35); reached stage 40 of [Brutes](../quests/brute_creator.md#stage-40); NOT reached stage 90 of [Brutes](../quests/brute_creator.md#stage-90) → **stage 90**. NPC: “Wow, what a great story!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 7 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

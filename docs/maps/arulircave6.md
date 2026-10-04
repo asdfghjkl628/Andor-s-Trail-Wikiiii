@@ -26,4 +26,12 @@
 | [Demonic Arulir](../monsters/arulir_8.md) | 750 |
 | [Arulir Pack Leader](../monsters/arulir_leader.md) | 1000 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `arulircave6` · Data from v0.8.18</small>

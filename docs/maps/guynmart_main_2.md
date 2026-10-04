@@ -20,13 +20,23 @@
 
 | Name | HP |
 |---|---|
-| [Fjoerkard](../monsters/guynmart_drunkard1.md) | 0 |
-| [Hannah](../monsters/guynmart_hannah2.md) | 0 |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) | 0 |
-| [Hofala](../monsters/guynmart_cook.md) | 0 |
 | [Guynmart guard](../monsters/guynmart_mguard.md) | 0 |
+| [Fjoerkard](../monsters/guynmart_drunkard5.md) | 0 |
+| [Hannah](../monsters/guynmart_hannah2.md) | 0 |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md) | 0 |
+| [Hofala](../monsters/guynmart_cook.md) | 0 |
 | [Lovis](../monsters/guynmart_lovis2.md) | 0 |
 | [Unkorh](../monsters/guynmart_steward2.md) | 0 |
 | [Guynmart guard](../monsters/guynmart_wguard9a.md) | 120 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.6](../versions/0.8.6.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `guynmart_main_2` · Data from v0.8.18</small>

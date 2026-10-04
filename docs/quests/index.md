@@ -21,6 +21,7 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [A Wicked witch](wicked_witch.md) | 14 | [Bela](../monsters/bela.md) |
 | [About a girl](about_a_girl.md) | 9 | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) |
 | [An involuntary carrier](toszylae.md) | 12 | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) |
+| [Ancient secrets](flagstone.md) | 10 | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) |
 | [Another ruthless Crackshot](Thieves04.md) | 10 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
 | [Awoken from slumber](bjorgur_grave.md) | 8 | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) |
 | [base_nondisplay](base_nondisplay.md) | 2 | stepping on a trigger on [stoutford_castle_barrack2](../maps/stoutford_castle_barrack2.md) |
@@ -28,7 +29,9 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Bits and pieces](thorin.md) | 8 | [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) |
 | [Boxed in](brightport_thieves.md) | 10 | [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) |
 | [Bread and circus](brightport_bakery.md) | 18 | [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) |
+| [Breakfast bread](mikhail_bread.md) | 2 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Brutes](brute_creator.md) | 6 | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) |
+| [Calomyran secrets](calomyran.md) | 3 | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
 | [Cheap cuts](benbyr.md) | 5 | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
 | [Climbing up is forbidden](Omi2_bwm1.md) | 41 | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) |
 | [Clouded intent](prim_hunt.md) | 19 | [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) |
@@ -40,10 +43,13 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Destined for great things](charwood1.md) | 31 | [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/tradehouse1.md)) |
 | [Devastated land](hadracor.md) | 4 | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) |
 | [Devotion](devotion.md) | 24 | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) |
+| [Disallowed substance](bonemeal.md) | 7 | [Leonid](../monsters/leonid.md) |
 | [Dominion](dominion.md) | 7 | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) |
+| [Drunken tale](fallhavendrunk.md) | 2 | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
 | [Echoes of enchantment](echoes_of_enchantment.md) | 14 | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
 | [Everything in order](remgard.md) | 21 | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) |
 | [Fair play?](brv_blackjack.md) | 10 | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) |
+| [Fallen friends](jan.md) | 2 | [Jan](../monsters/jan.md) |
 | [Feygard errands](feygard_shipment.md) | 15 | [Gandoren](../monsters/gandoren.md) |
 | [Flows through the veins](loneford.md) | 17 | [Gandoren](../monsters/gandoren.md) |
 | [Fog in the woods](fogmonster.md) | 8 | stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.md) |
@@ -58,14 +64,18 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [It's knot funny](fallhaven_lytwings.md) | 19 | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) |
 | [Just the beginning](waterwayacave.md) | 13 | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) |
 | [Kaori's errands](kaori.md) | 3 | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
+| [Key of Luthor](bucus.md) | 6 | [Bucus](../monsters/bucus.md) |
 | [Lessons learned](brv_school2.md) | 22 | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
 | [Lights in the dark](kazaul.md) | 15 | [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) |
 | [Lodar's potions](lodar_pots.md) | 7 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
 | [Long lost memories](lleglaris.md) | 4 | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) |
 | [Lost girl looking for lost things](stn_quest_gyra.md) | 14 | walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) |
 | [Lost sheep](tinlyn.md) | 10 | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
+| [Lost treasures](nocmar.md) | 15 | [Unnmir](../monsters/unnmir.md) |
 | [Marble hunting](guynmart_marbles.md) | 8 | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
 | [Mine for the taking](graveyard_quest.md) | 13 | stepping on a trigger on [graveyard0](../maps/graveyard0.md) |
+| [Missing husband](leta.md) | 13 | [Leta](../monsters/leta.md) |
+| [Missing pieces](vacor.md) | 10 | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) |
 | [More rats!](ratdom_mikhail.md) | 10 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Much water](brv_flood.md) | 17 | walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) |
 | [Night visit](farrik.md) | 11 | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
@@ -79,10 +89,13 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Pond safety](sullengard_pond_safety.md) | 5 | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) |
 | [Priceful vengeance](brightport_goons.md) | 17 | [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../maps/brightport_benbyr.md)) |
 | [Rare delicacies](guynmart_wise.md) | 4 | [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
+| [Rat infestation](odair.md) | 2 | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) |
+| [Rats!](mikhail_rats.md) | 2 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Recovering stolen property](sullengard_recover_items.md) | 7 | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) |
 | [Restless in the grave](mg_restless_grave.md) | 25 | stepping on a trigger on [galmore_47](../maps/galmore_47.md) |
 | [Roses](guynmart.md) | 41 | [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../maps/guynmart_wood_1.md)) |
 | [Rumblings](rumblings.md) | 13 | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) |
+| [Search for Andor](andor.md) | 37 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Searching for madness](lodar2.md) | 9 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
 | [Shadow of the torturer](lae_torturer.md) | 16 | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)) |
 | [Shadows](shadows.md) | 32 | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) |
@@ -149,6 +162,7 @@ Internal progress trackers that never appear in your journal, but quietly decide
 | [Darkness in the Daylight and Shadows - Non displayed](dds_nd.md) | 8 | stepping on a trigger on [crossroads](../maps/crossroads.md) |
 | [Delivery - nondisplay](brv_wh_delivery_nondisplay.md) | 10 | [Arcir](../monsters/arcir.md) |
 | [Elythara](arcir.md) | 1 | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) |
+| [Excluded endings for the main quest andor](andor_ending.md) | 2 | – |
 | [faction_count_feygard](faction_count_feygard.md) | 30 | – |
 | [faction_count_shadow](faction_count_shadow.md) | 33 | – |
 | [faction_count_thieves](faction_count_thieves.md) | 30 | – |

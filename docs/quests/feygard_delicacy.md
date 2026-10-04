@@ -25,6 +25,8 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 
 - NOT reached stage 1 of [A Feygard delicacy](../quests/feygard_delicacy.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,8 +49,9 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 | <span id="stage-7"></span>7 | I gave Philippa all the ingredients needed to bake the Feydelight. Now I just need to come back later. | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | carry 1× [Butter](../items/butter.md), carry 1× [Honey](../items/honey.md), carry 1× [Raw dough](../items/dough.md), carry 1× [Wine](../items/guynmart_wine.md), carry 2× [Eggs](../items/eggs.md), carry 5× [Fig](../items/fig_fruit.md), hand over 1× [Butter](../items/butter.md), hand over 1× [Honey](../items/honey.md), hand over 1× [Raw dough](../items/dough.md), hand over 1× [Wine](../items/guynmart_wine.md), hand over 2× [Eggs](../items/eggs.md), hand over 5× [Fig](../items/fig_fruit.md), stage 4 | starts timer “feydelight_baking” |
 | <span id="stage-8"></span>8 | I have received my Feydelight from Philippa.  **(completes quest)** | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | stage 7 | 5,049 XP<br>gives 1× [Feydelight](../items/feydelight.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -81,6 +84,16 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 
     1. Talk to [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) → choose “I am wondering, is my Feydelight ready yet?” — **conditions:** latest stage of [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) is 7; 18 rounds passed since timer “feydelight_baking” → **stage 8**; also gives 1× [Feydelight](../items/feydelight.md). NPC: “Yes. Please enjoy while it's hot.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 7 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

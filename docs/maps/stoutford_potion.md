@@ -14,9 +14,17 @@
 
 | Name | HP |
 |---|---|
-| [Blornvale](../monsters/stoutford_alchemist.md) | 0 |
 | [Blornvale](../monsters/stoutford_alchemist2.md) | 0 |
-| [Tahalendor](../monsters/tahalendor2.md) | 0 |
 | [Aryfora](../monsters/stoutford_widow2.md) | 0 |
+| [Blornvale](../monsters/stoutford_alchemist.md) | 0 |
+| [Tahalendor](../monsters/tahalendor2.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `stoutford_potion` · Data from v0.8.18</small>

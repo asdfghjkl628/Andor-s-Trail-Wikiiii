@@ -14,7 +14,16 @@
 
 | Name | HP |
 |---|---|
-| [Beltina](../monsters/sullengard_beltina.md) | 0 |
 | [Valhorn](../monsters/sullengard_valhorn.md) | 0 |
+| [Beltina](../monsters/sullengard_beltina.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `sullengard2_northeast_house` · Data from v0.8.18</small>

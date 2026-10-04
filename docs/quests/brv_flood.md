@@ -11,7 +11,7 @@
 | **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Alvies](../monsters/brv_alvies.md), [Attohead](../monsters/brv_attohead.md), [Guard](../monsters/brv_exit_guard.md), [Mustura](../monsters/brv_guard_captain.md) |
 | **Locations** | [brimhaven3](../maps/brimhaven3.md), [brimhaven4](../maps/brimhaven4.md), [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md), [brimhaven_house1](../maps/brimhaven_house1.md) |
 | **Total XP** | 1,500 |
-| **Related quests** | 4 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -23,6 +23,8 @@
 
 None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -30,6 +32,8 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 reached, for stages 100, 110 here |
+| Unlocks | [Search for Andor](andor.md#stage-65) | stage 65 there needs stages 120, 130 here |
+| Unlocks | [Search for Andor](andor.md#stage-910) | stage 910 there needs stage 200 here |
 | Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-71) | stage 71 there needs stages 52, 70 here |
 | Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-81) | stage 81 there needs stages 52, 70 here |
 | Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 there needs stages 52, 70 here |
@@ -67,9 +71,10 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | <span id="stage-110"></span>110 | I have promised to track down the real perpetrators. However, I still cannot leave the town. | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | – | – |
 | <span id="stage-120"></span>120 | The two brothers did not know their boss's name, but he seemed to have a lot of gold. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 110, stage 56 | – |
 | <span id="stage-130"></span>130 | The rich man living up on the hill of Brimhaven seemed to know more than he admitted. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 110, stage 120 | – |
-| <span id="stage-150"></span>150 | The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 120, stage 130 | gives 1× [Alkapoans's letters](../items/alkapoans_letters.md)<br>sets stage 65 of [andor (hidden flag)](../quests/andor.md#stage-65) |
+| <span id="stage-150"></span>150 | The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 120, stage 130 | gives 1× [Alkapoans's letters](../items/alkapoans_letters.md)<br>sets stage 65 of [Search for Andor](../quests/andor.md#stage-65) |
 | <span id="stage-200"></span>200 | I gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man. **(completes quest)** | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md), stage 110 | 1,000 XP<br>clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>removes monsters from brimhaven4<br>removes monsters from brimhaven3<br>removes monsters from brimhaven_house1<br>spawns monsters on brimhaven1<br>spawns monsters on brimhaven_house1 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -143,12 +148,25 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 ???+ note "Stage 150: 1 route"
 
-    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.” — **conditions:** reached stage 130 of [Much water](../quests/brv_flood.md#stage-130); reached stage 120 of [Much water](../quests/brv_flood.md#stage-120) → **stage 150**; also gives 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [andor (hidden flag)](../quests/andor.md#stage-65). NPC: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them,…”
+    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.” — **conditions:** reached stage 130 of [Much water](../quests/brv_flood.md#stage-130); reached stage 120 of [Much water](../quests/brv_flood.md#stage-120) → **stage 150**; also gives 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [Search for Andor](../quests/andor.md#stage-65). NPC: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them,…”
 
 ???+ note "Stage 200: 1 route"
 
     1. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110); hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md) → **stage 200**; also clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1. NPC: “We will check this and if it is true then you can leave the town.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 15 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 30 journal text changed; stage 50 journal text changed; stage 52 journal text changed; stage 54 journal text changed; stage 70 journal text changed (+4 more) |
+| [v0.7.13](../versions/0.7.13.md) | stages added: 53<br>Dialogue: 1 line added, 1 line changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.8.14](../versions/0.8.14.md) | stage 100 journal text changed; stage 110 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

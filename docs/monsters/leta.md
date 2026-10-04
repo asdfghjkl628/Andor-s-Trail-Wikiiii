@@ -17,6 +17,7 @@
 ## Quests
 
 - [A familiar shadow](../quests/familiar_shadow.md): stages 40
+- [Missing husband](../quests/leta.md): stages 10, 30, 50, 70, 100
 - [Thief apprentice](../quests/Thieves01.md): stages 25
 
 ??? quote "Dialogue (31 lines)"
@@ -49,9 +50,9 @@
 
     <span id="d-leta_oromir_select"></span>**`leta_oromir_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100))* → [leta_oromir_complete2](#d-leta_oromir_complete2)
-    - branch 2 *(if NOT reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105); NOT reached stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100))* → [leta_oromir1](#d-leta_oromir1)
-    - branch 3 *(if reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105))* → [leta_oromir_complete2_helped_oromir](#d-leta_oromir_complete2_helped_oromir)
+    - branch 1 *(if reached stage 100 of [Missing husband](../quests/leta.md#stage-100))* → [leta_oromir_complete2](#d-leta_oromir_complete2)
+    - branch 2 *(if NOT reached stage 105 of [Missing husband](../quests/leta.md#stage-105); NOT reached stage 100 of [Missing husband](../quests/leta.md#stage-100))* → [leta_oromir1](#d-leta_oromir1)
+    - branch 3 *(if reached stage 105 of [Missing husband](../quests/leta.md#stage-105))* → [leta_oromir_complete2_helped_oromir](#d-leta_oromir_complete2_helped_oromir)
 
     <span id="d-leta_guild_1a"></span>**`leta_guild_1a`** Leta: “Umar you say? I don't know any Umar!”
 
@@ -72,13 +73,13 @@
     <span id="d-leta_oromir1"></span>**`leta_oromir1`** Leta: “Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual. Sigh.”
 
     - “I have no idea.” → [leta_oromir2](#d-leta_oromir2)
-    - “Yes, I found him. He is hiding among some trees to the east.” *(if reached stage 20 of [leta (hidden flag)](../quests/leta.md#stage-20); NOT reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45); NOT reached stage 40 of [leta (hidden flag)](../quests/leta.md#stage-40); NOT reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80); NOT reached stage 25 of [leta (hidden flag)](../quests/leta.md#stage-25))* → [leta_oromir1_trees](#d-leta_oromir1_trees)
-    - “[Lie] I have no idea.” *(if reached stage 25 of [leta (hidden flag)](../quests/leta.md#stage-25); NOT reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_trees_help](#d-leta_oromir1_trees_help)
-    - “[Lie] I have no idea.” *(if reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_behind_inn_help](#d-leta_oromir1_behind_inn_help)
-    - “[Lie] I have no idea.” *(if reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_behind_haystack_help](#d-leta_oromir1_behind_haystack_help)
-    - “He's found a new hiding spot.” *(if reached stage 40 of [leta (hidden flag)](../quests/leta.md#stage-40); NOT reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_behind_inn_10](#d-leta_oromir1_behind_inn_10)
-    - “He's found another new hiding spot. Give him credit, he is great at avoiding work.” *(if reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_behind_haystack_10](#d-leta_oromir1_behind_haystack_10)
-    - “He's in your basement.” *(if reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_basement_10](#d-leta_oromir1_basement_10)
+    - “Yes, I found him. He is hiding among some trees to the east.” *(if reached stage 20 of [Missing husband](../quests/leta.md#stage-20); NOT reached stage 35 of [Missing husband](../quests/leta.md#stage-35); NOT reached stage 45 of [Missing husband](../quests/leta.md#stage-45); NOT reached stage 40 of [Missing husband](../quests/leta.md#stage-40); NOT reached stage 60 of [Missing husband](../quests/leta.md#stage-60); NOT reached stage 80 of [Missing husband](../quests/leta.md#stage-80); NOT reached stage 25 of [Missing husband](../quests/leta.md#stage-25))* → [leta_oromir1_trees](#d-leta_oromir1_trees)
+    - “[Lie] I have no idea.” *(if reached stage 25 of [Missing husband](../quests/leta.md#stage-25); NOT reached stage 35 of [Missing husband](../quests/leta.md#stage-35); NOT reached stage 45 of [Missing husband](../quests/leta.md#stage-45))* → [leta_oromir1_trees_help](#d-leta_oromir1_trees_help)
+    - “[Lie] I have no idea.” *(if reached stage 35 of [Missing husband](../quests/leta.md#stage-35); NOT reached stage 45 of [Missing husband](../quests/leta.md#stage-45))* → [leta_oromir1_behind_inn_help](#d-leta_oromir1_behind_inn_help)
+    - “[Lie] I have no idea.” *(if reached stage 45 of [Missing husband](../quests/leta.md#stage-45))* → [leta_oromir1_behind_haystack_help](#d-leta_oromir1_behind_haystack_help)
+    - “He's found a new hiding spot.” *(if reached stage 40 of [Missing husband](../quests/leta.md#stage-40); NOT reached stage 60 of [Missing husband](../quests/leta.md#stage-60); NOT reached stage 80 of [Missing husband](../quests/leta.md#stage-80))* → [leta_oromir1_behind_inn_10](#d-leta_oromir1_behind_inn_10)
+    - “He's found another new hiding spot. Give him credit, he is great at avoiding work.” *(if reached stage 60 of [Missing husband](../quests/leta.md#stage-60); NOT reached stage 80 of [Missing husband](../quests/leta.md#stage-80))* → [leta_oromir1_behind_haystack_10](#d-leta_oromir1_behind_haystack_10)
+    - “He's in your basement.” *(if reached stage 80 of [Missing husband](../quests/leta.md#stage-80))* → [leta_oromir1_basement_10](#d-leta_oromir1_basement_10)
 
     <span id="d-leta_oromir_complete2_helped_oromir"></span>**`leta_oromir_complete2_helped_oromir`** Leta: “What about him?”
 
@@ -93,19 +94,19 @@
 
     - Next → [galmore_marked_stone_leta_40](#d-galmore_marked_stone_leta_40)
 
-    <span id="d-leta_oromir2"></span>**`leta_oromir2`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10)
+    <span id="d-leta_oromir2"></span>**`leta_oromir2`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [Missing husband](../quests/leta.md#stage-10)
 
 
-    <span id="d-leta_oromir1_trees"></span>**`leta_oromir1_trees`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** sets stage 30 of [leta (hidden flag)](../quests/leta.md#stage-30), removes monsters from crossglen, spawns monsters on crossglen
+    <span id="d-leta_oromir1_trees"></span>**`leta_oromir1_trees`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** sets stage 30 of [Missing husband](../quests/leta.md#stage-30), removes monsters from crossglen, spawns monsters on crossglen
 
 
-    <span id="d-leta_oromir1_trees_help"></span>**`leta_oromir1_trees_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
+    <span id="d-leta_oromir1_trees_help"></span>**`leta_oromir1_trees_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [Missing husband](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
 
 
-    <span id="d-leta_oromir1_behind_inn_help"></span>**`leta_oromir1_behind_inn_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
+    <span id="d-leta_oromir1_behind_inn_help"></span>**`leta_oromir1_behind_inn_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [Missing husband](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
 
 
-    <span id="d-leta_oromir1_behind_haystack_help"></span>**`leta_oromir1_behind_haystack_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen_farmhouse_basement
+    <span id="d-leta_oromir1_behind_haystack_help"></span>**`leta_oromir1_behind_haystack_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [Missing husband](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen_farmhouse_basement
 
 
     <span id="d-leta_oromir1_behind_inn_10"></span>**`leta_oromir1_behind_inn_10`** Leta: “Where?”
@@ -116,7 +117,7 @@
 
     - “Hiding behind a haystack.” → [leta_oromir1_behind_haystack_20](#d-leta_oromir1_behind_haystack_20)
 
-    <span id="d-leta_oromir1_basement_10"></span>**`leta_oromir1_basement_10`** Leta: “What?! How? Oh, it doesn't matter. Thank you for finding him.” — **effects:** sets stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100)
+    <span id="d-leta_oromir1_basement_10"></span>**`leta_oromir1_basement_10`** Leta: “What?! How? Oh, it doesn't matter. Thank you for finding him.” — **effects:** sets stage 100 of [Missing husband](../quests/leta.md#stage-100)
 
 
     <span id="d-leta_oromir_complete2_helped_oromir_10"></span>**`leta_oromir_complete2_helped_oromir_10`** Leta: “This is my house! I don't have to answer to you. Now get out of here!”
@@ -129,10 +130,10 @@
 
     - Next → [galmore_marked_stone_leta_40n2](#d-galmore_marked_stone_leta_40n2)
 
-    <span id="d-leta_oromir1_behind_inn_20"></span>**`leta_oromir1_behind_inn_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 50 of [leta (hidden flag)](../quests/leta.md#stage-50), spawns monsters on crossglen
+    <span id="d-leta_oromir1_behind_inn_20"></span>**`leta_oromir1_behind_inn_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 50 of [Missing husband](../quests/leta.md#stage-50), spawns monsters on crossglen
 
 
-    <span id="d-leta_oromir1_behind_haystack_20"></span>**`leta_oromir1_behind_haystack_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 70 of [leta (hidden flag)](../quests/leta.md#stage-70), spawns monsters on crossglen_farmhouse_basement
+    <span id="d-leta_oromir1_behind_haystack_20"></span>**`leta_oromir1_behind_haystack_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 70 of [Missing husband](../quests/leta.md#stage-70), spawns monsters on crossglen_farmhouse_basement
 
 
     <span id="d-galmore_marked_stone_leta_40n2"></span>**`galmore_marked_stone_leta_40n2`** [Dummy NPC](../monsters/none.md): “Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttural.”
@@ -152,6 +153,18 @@
     - “Die!” → *fight starts*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 11 lines added, 2 lines changed |
+| [v0.8.14](../versions/0.8.14.md) | phraseID: leta1 → leta_selector<br>Dialogue: 10 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

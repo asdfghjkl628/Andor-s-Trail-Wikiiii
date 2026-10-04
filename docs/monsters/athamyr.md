@@ -16,6 +16,7 @@
 
 ## Quests
 
+- [Key of Luthor](../quests/bucus.md): stages 30, 40, 50
 - [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 60, 61, 63, 71, 73
 
 ??? quote "Dialogue (29 lines)"
@@ -24,17 +25,17 @@
 
     <span id="d-athamyr"></span>**`athamyr`** Athamyr: “Walk with the Shadow.”
 
-    - “Have you been down in the catacombs?” *(if reached stage 20 of [bucus (hidden flag)](../quests/bucus.md#stage-20); NOT reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100))* → [athamyr_select](#d-athamyr_select)
-    - “May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” *(if reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100); NOT reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md))* → [athamyr_coup_10](#d-athamyr_coup_10)
+    - “Have you been down in the catacombs?” *(if reached stage 20 of [Key of Luthor](../quests/bucus.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [athamyr_select](#d-athamyr_select)
+    - “May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); NOT reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md))* → [athamyr_coup_10](#d-athamyr_coup_10)
     - “What about the ladder?” *(if reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 61 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-61); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_24a](#d-athamyr_coup_24a)
     - “I will go and find your ladder.” *(if reached stage 71 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-71); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → *conversation ends*
     - “I tried the ladder, but the window is locked.” *(if reached stage 62 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-62); NOT reached stage 63 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_30](#d-athamyr_coup_30)
     - “The ladder is gone and the window shut.” *(if reached stage 63 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_40](#d-athamyr_coup_40)
-    - “The catacombs were interesting.” *(if reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100))* → [athamyr_complete_12](#d-athamyr_complete_12)
+    - “The catacombs were interesting.” *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [athamyr_complete_12](#d-athamyr_complete_12)
 
     <span id="d-athamyr_select"></span>**`athamyr_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 40 of [bucus (hidden flag)](../quests/bucus.md#stage-40))* → [athamyr_complete_2](#d-athamyr_complete_2)
+    - branch 1 *(if reached stage 40 of [Key of Luthor](../quests/bucus.md#stage-40))* → [athamyr_complete_2](#d-athamyr_complete_2)
     - branch 2 → [athamyr_1](#d-athamyr_1)
 
     <span id="d-athamyr_coup_10"></span>**`athamyr_coup_10`** Athamyr: “No, there is no way over the fence.”
@@ -57,7 +58,7 @@
     <span id="d-athamyr_complete_12"></span>**`athamyr_complete_12`** Athamyr: “I hope you behaved well there.”
 
 
-    <span id="d-athamyr_complete_2"></span>**`athamyr_complete_2`** Athamyr: “You have my permission to enter the catacombs of Fallhaven Church.” — **effects:** sets stage 50 of [bucus (hidden flag)](../quests/bucus.md#stage-50)
+    <span id="d-athamyr_complete_2"></span>**`athamyr_complete_2`** Athamyr: “You have my permission to enter the catacombs of Fallhaven Church.” — **effects:** sets stage 50 of [Key of Luthor](../quests/bucus.md#stage-50)
 
 
     <span id="d-athamyr_1"></span>**`athamyr_1`** Athamyr: “Yes, I have been in the catacombs beneath Fallhaven Church.”
@@ -109,7 +110,7 @@
 
     - “Here take it. And don't forget to unlock the window.” *(if hand over 20× [Cooked meat](../items/meat_cooked.md))* → [athamyr_coup_38](#d-athamyr_coup_38)
 
-    <span id="d-athamyr_4"></span>**`athamyr_4`** Athamyr: “Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church.” — **effects:** sets stage 30 of [bucus (hidden flag)](../quests/bucus.md#stage-30)
+    <span id="d-athamyr_4"></span>**`athamyr_4`** Athamyr: “Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church.” — **effects:** sets stage 30 of [Key of Luthor](../quests/bucus.md#stage-30)
 
     - “Here, I have cooked meat for you.” *(if hand over 1× [Cooked meat](../items/meat_cooked.md))* → [athamyr_complete](#d-athamyr_complete)
     - “OK, I'll go get some.” → *conversation ends*
@@ -123,7 +124,7 @@
     - “Thank you.” → *conversation ends*
     - “I hope for your sake that was all.” → *conversation ends*
 
-    <span id="d-athamyr_complete"></span>**`athamyr_complete`** Athamyr: “Thanks, this will do nicely.” — **effects:** sets stage 40 of [bucus (hidden flag)](../quests/bucus.md#stage-40)
+    <span id="d-athamyr_complete"></span>**`athamyr_complete`** Athamyr: “Thanks, this will do nicely.” — **effects:** sets stage 40 of [Key of Luthor](../quests/bucus.md#stage-40)
 
     - Next → [athamyr_complete_2](#d-athamyr_complete_2)
 
@@ -150,6 +151,16 @@
     - “Forget it.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “You want to go down in the catacombs? Hm, maybe we can make a deal.” → “You want to go down in the catacombs? Hmm, maybe we can make a deal.” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 21 lines added, 2 lines changed<br>· text: “But I'm the only one that both has the permission and the bravery to …” → “But I'm the only one that has both the permission and the bravery to …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

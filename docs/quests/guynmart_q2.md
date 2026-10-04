@@ -31,6 +31,8 @@
 - have 100 gold
 - reached stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,8 +58,9 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-13"></span>13 | Step13 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-99"></span>99 | Step99 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -111,6 +114,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Guynmart guard](../monsters/guynmart_player.md) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11) → **stage 12**; also clears stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11)
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 13 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -13,7 +13,7 @@
 | **Started by** | stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) |
 | **NPCs involved** | [Umar](../monsters/umar.md) |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
-| **Related quests** | 2 |
+| **Related quests** | 3 |
 
 </div>
 
@@ -27,6 +27,8 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
 
 - NOT reached stage 10 of [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -34,6 +36,7 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-76) | stage 76 reached, for stage 20 here |
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stage 20 here |
 | Blocked by | [Immaculate kidnapping](Thieves02.md#stage-75) | stage 75 must NOT be reached, for stage 20 here |
 | Blocked by | [The ruthless Crackshot](Thieves03.md#stage-1) | stage 1 must NOT be reached, for stage 20 here |
 
@@ -44,6 +47,7 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
 | <span id="stage-10"></span>10 | Found silver bar at bwm<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain5a](../maps/blackwater_mountain5a.md).</span> | stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) | – | gives 1× [Silver bar](../items/silver_bar.md) |
 | <span id="stage-20"></span>20 | Told by Umar to say he sent you at the inn. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -54,8 +58,20 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
 
 ???+ note "Stage 20: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I expected that. See you tomorrow then.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1) → **stage 20**. NPC: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I expected that. See you tomorrow then.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1) → **stage 20**. NPC: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

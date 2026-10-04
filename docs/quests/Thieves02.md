@@ -11,7 +11,7 @@
 | **NPCs involved** | [Ambelie](../monsters/ambelie.md), [Feygard patrol captain](../monsters/feygard_patrol_captain.md), [Troublemaker](../monsters/troublemaker.md), [Umar](../monsters/umar.md) |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [foaming_flask](../maps/foaming_flask.md) |
 | **Total XP** | 9,350 |
-| **Related quests** | 4 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -23,10 +23,12 @@
 
 Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)). Required:
 
-- reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51)
+- reached stage 51 of [Search for Andor](../quests/andor.md#stage-51)
 - latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-2) is 2
 - NOT reached stage 4 of [Immaculate kidnapping](../quests/Thieves02.md#stage-4)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -34,6 +36,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Thief apprentice](Thieves01.md#stage-60) | stage 60 reached, for stages 45, 60, 70 here |
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stages 2, 4, 6, 30, 35, 40, 75, 76 here |
 | Unlocks | [The ruthless Crackshot](Thieves03.md#stage-1) | stage 1 there needs stage 76 here |
 | Unlocks | [misc_nondisplay (hidden flag)](misc_nondisplay.md#stage-20) | stage 20 there needs stage 76 here |
 | Unlocks | [Thieves Hidden (hidden flag)](thieves_hidden.md#stage-20) | stage 20 there needs stages 15, 21 here |
@@ -64,21 +67,22 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-75"></span>75 | I completed this task successfully. Umar told me they have sent couriers to Feygard, and the ransom is almost guaranteed. He paid me for my work. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 70 | 4,500 XP<br>faction “ThievesGuild” +10<br>gives 2500× [Gold coins](../items/gold.md) |
 | <span id="stage-76"></span>76 | Umar took the necklace as compensation for my errors. Everything is fine again. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Sapphire Necklace](../items/g02_ambelie.md), stage 21, stage 24 | 2,250 XP<br>faction “ThievesGuild” +10 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 2: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything more about my new task?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-2) is 2; NOT reached stage 4 of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) → **stage 2**. NPC: “I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything more about my new task?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-2) is 2; NOT reached stage 4 of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) → **stage 2**. NPC: “I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.”
 
 ???+ note "Stage 4: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Where can I find this woman?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-2) is 2; NOT reached stage 4 of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) → **stage 4**. NPC: “Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Where can I find this woman?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-2) is 2; NOT reached stage 4 of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) → **stage 4**. NPC: “Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a…”
 
 ???+ note "Stage 6: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything more about my new task?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) is 4; NOT reached stage 6 of [Immaculate kidnapping](../quests/Thieves02.md#stage-6); NOT reached stage 15 of [Immaculate kidnapping](../quests/Thieves02.md#stage-15) → **stage 6**. NPC: “Use your tongue, young man. Sometimes it is more important than your sword skills.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything more about my new task?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-4) is 4; NOT reached stage 6 of [Immaculate kidnapping](../quests/Thieves02.md#stage-6); NOT reached stage 15 of [Immaculate kidnapping](../quests/Thieves02.md#stage-15) → **stage 6**. NPC: “Use your tongue, young man. Sometimes it is more important than your sword skills.”
 
 ???+ note "Stage 10: 1 route"
 
@@ -102,15 +106,15 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I have brought the hostage.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20); NOT reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21); NOT reached stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24) → **stage 30**. NPC: “(You put Ambelie, who is still unconscious, in a chair next to you) Oh! How did you get here so fast? I've heard…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I have brought the hostage.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20); NOT reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21); NOT reached stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24) → **stage 30**. NPC: “(You put Ambelie, who is still unconscious, in a chair next to you) Oh! How did you get here so fast? I've heard…”
 
 ???+ note "Stage 35: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What am I supposed to do with the noblewoman?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 35 of [Immaculate kidnapping](../quests/Thieves02.md#stage-35) → **stage 35**. NPC: “We are supposed to have one room for receiving "visitors". However, I don't know if It's finished.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What am I supposed to do with the noblewoman?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 35 of [Immaculate kidnapping](../quests/Thieves02.md#stage-35) → **stage 35**. NPC: “We are supposed to have one room for receiving "visitors". However, I don't know if It's finished.”
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What am I supposed to do with the noblewoman?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 35 of [Immaculate kidnapping](../quests/Thieves02.md#stage-35); NOT reached stage 40 of [Immaculate kidnapping](../quests/Thieves02.md#stage-40) → **stage 40**. NPC: “Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What am I supposed to do with the noblewoman?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 35 of [Immaculate kidnapping](../quests/Thieves02.md#stage-35); NOT reached stage 40 of [Immaculate kidnapping](../quests/Thieves02.md#stage-40) → **stage 40**. NPC: “Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.”
 
 ???+ note "Stage 45: 1 route"
 
@@ -140,12 +144,24 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 75: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Urgh ... I just need better tasks! Do you still think I'm not yet ready?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); NOT latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-75) is 75; reached stage 70 of [Immaculate kidnapping](../quests/Thieves02.md#stage-70) → **stage 75**; also faction “ThievesGuild” +10, gives 2500× [Gold coins](../items/gold.md). NPC: “First of all, take this gold for a job well done. We have already sent people to ask for the ransom.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Urgh ... I just need better tasks! Do you still think I'm not yet ready?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); NOT latest stage of [Immaculate kidnapping](../quests/Thieves02.md#stage-75) is 75; reached stage 70 of [Immaculate kidnapping](../quests/Thieves02.md#stage-70) → **stage 75**; also faction “ThievesGuild” +10, gives 2500× [Gold coins](../items/gold.md). NPC: “First of all, take this gold for a job well done. We have already sent people to ask for the ransom.”
 
 ???+ note "Stage 76: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I brought a valuable necklace from the noblewoman.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24); reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21); NOT reached stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20); NOT reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); hand over 1× [Sapphire Necklace](../items/g02_ambelie.md) → **stage 76**; also faction “ThievesGuild” +10. NPC: “Well. I will take it as compensation for your mistakes.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I brought a valuable necklace from the noblewoman.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24); reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21); NOT reached stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20); NOT reached stage 30 of [Immaculate kidnapping](../quests/Thieves02.md#stage-30); NOT reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); hand over 1× [Sapphire Necklace](../items/g02_ambelie.md) → **stage 76**; also faction “ThievesGuild” +10. NPC: “Well. I will take it as compensation for your mistakes.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 20 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

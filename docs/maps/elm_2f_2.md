@@ -23,4 +23,14 @@ Signed by Guthbered of Prim" style="left:62.500%;top:33.333%;width:12.500%;heigh
 - [Elm 2f 1](elm_2f_1.md)
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `elm_2f_2` · Data from v0.8.18</small>

@@ -35,4 +35,13 @@
 - [lodar17](../maps/lodar17.md)
 - [lodar19](../maps/lodar19.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 17} → {"max": 17, "min": 0}; hitEffect: {"conditionsTarget": [{"chance": 30, "c… → {"conditionsTarget": [{"chance": "30", …; name: Venomscale Master → Venomscale master |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `vscaleb2` · Data from v0.8.18</small>

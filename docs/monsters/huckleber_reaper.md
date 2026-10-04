@@ -33,4 +33,12 @@
 - [sullengard_woods14](../maps/sullengard_woods14.md)
 - [sullengard_woods_gj1](../maps/sullengard_woods_gj1.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `huckleber_reaper` · Data from v0.8.18</small>

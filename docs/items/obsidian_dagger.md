@@ -28,4 +28,15 @@
 |---|---|---|
 | [Kotheses](../monsters/kotheses.md) | 100% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.13](../versions/0.8.13.md) | equipEffect: {"increaseAttackCost": 4, "increaseAtta… → {"increaseAttackChance": 15, "increaseA…; hitEffect: {"conditionsTarget": [{"chance": "20", … → {"conditionsTarget": [{"chance": "20", … |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `obsidian_dagger` · Data from v0.8.18</small>

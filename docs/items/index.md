@@ -1,6 +1,6 @@
 # Items
 
-Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your friend; scrolling through this whole list is not.
+Every item in Andor's Trail v0.8.18, all 1000 of them. The search box is your friend; scrolling through this whole list is not.
 
 ## Equipment
 
@@ -536,8 +536,8 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_weapons_3_18.png){ .sprite } | [Bogsten's staff](bogsten_staff.md) | quest | 0 |
 | ![](../assets/icons/items/items_weapons_3_23.png){ .sprite } | [Farmer's flail](flail_farm.md) | ordinary | 0 |
 | ![](../assets/icons/items/items_rijackson_1_17.png){ .sprite } | [Oaken staff](oaken_staff.md) | rare | 2562 |
-| ![](../assets/icons/items/items_weapons_3_18.png){ .sprite } | [Quarterstaff](swampwitch_staff.md) | ordinary | 10 |
 | ![](../assets/icons/items/items_weapons_3_18.png){ .sprite } | [Quarterstaff](qtrstaff.md) | ordinary | 10 |
+| ![](../assets/icons/items/items_weapons_3_18.png){ .sprite } | [Quarterstaff](swampwitch_staff.md) | ordinary | 10 |
 | ![](../assets/icons/items/items_weapons_3_18.png){ .sprite } | [Superior quarterstaff](qtrstaff_2.md) | rare | 1600 |
 
 ### Rapier
@@ -981,8 +981,6 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_misc_40.png){ .sprite } | [Dead spider](spider.md) | ordinary | 1 |
 | ![](../assets/icons/items/items_newb_625.png){ .sprite } | [Deer antlers](brightport_deer.md) | ordinary | 67 |
 | ![](../assets/icons/items/items_newb_548.png){ .sprite } | [Dragon claw](dragon_claw_key.md) | quest | 0 |
-| ![](../assets/icons/items/items_misc_45.png){ .sprite } | [Eye](eye.md) | ordinary | 6 |
-| ![](../assets/icons/items/items_misc_16.png){ .sprite } | [Feather](feather.md) | ordinary | 6 |
 | ![](../assets/icons/items/items_newb_547.png){ .sprite } | [Feline fang](feline_fang.md) | ordinary | 0 |
 | ![](../assets/icons/items/items_japozero_565.png){ .sprite } | [Gelatinous blob](jelly_blob.md) | ordinary | 4 |
 | ![](../assets/icons/items/items_misc_52.png){ .sprite } | [Giant wasp wing](hadracor_waspwing.md) | quest | 0 |
@@ -1008,7 +1006,6 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_misc_4_65.png){ .sprite } | [Pig's bone](pig_bone.md) | rare | 0 |
 | ![](../assets/icons/items/actorconditions_1_60.png){ .sprite } | [Poison gland](gland.md) | ordinary | 15 |
 | ![](../assets/icons/items/items_misc_38.png){ .sprite } | [Rat tail](rat_tail.md) | ordinary | 2 |
-| ![](../assets/icons/items/items_misc_15.png){ .sprite } | [Red feather](red_feather.md) | ordinary | 11 |
 | ![](../assets/icons/items/items_misc_48.png){ .sprite } | [Redfoot beast hair](redfthair.md) | ordinary | 15 |
 | ![](../assets/icons/items/items_japozero_570.png){ .sprite } | [Scorpion sting](scorpion_sting.md) | ordinary | 3 |
 | ![](../assets/icons/items/items_misc_3_160.png){ .sprite } | [Shredded tunic](shredded_tunic.md) | ordinary | 109 |
@@ -1031,7 +1028,6 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_misc_2_120.png){ .sprite } | [Azure gem](gem6.md) | ordinary | 20 |
 | ![](../assets/icons/items/items_omi2_21.png){ .sprite } | [Blob of kazarite](elm_gem.md) | extraordinary | 116 |
 | ![](../assets/icons/items/items_misc_31.png){ .sprite } | [Blue Crystals](crystal_blue.md) | ordinary | 5 |
-| ![](../assets/icons/items/actorconditions_1_50.png){ .sprite } | [Brilliant gem](gem8.md) | ordinary | 68 |
 | ![](../assets/icons/items/items_misc_6_27.png){ .sprite } | [Cithurn's talisman](cithurn_talisman.md) | quest | 0 |
 | ![](../assets/icons/items/items_newb_561.png){ .sprite } | [Cyclopean eye gem](cyclopean_eye_gem.md) | rare | 0 |
 | ![](../assets/icons/items/items_misc_35.png){ .sprite } | [Depleted oegyth crystal](oegyth7.md) | rare | 100 |
@@ -1130,8 +1126,8 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_misc_5_6.png){ .sprite } | [Cuned's diary](diary_cuned.md) | quest | 0 |
 | ![](../assets/icons/items/items_rijackson_1_12.png){ .sprite } | [Damerilias](damerilias.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_251.png){ .sprite } | [Defy's ring](defy_ring.md) | quest | 0 |
-| ![](../assets/icons/items/items_misc_6.png){ .sprite } | [Demon heart](eliszylae_heart.md) | quest | 0 |
 | ![](../assets/icons/items/items_misc_6.png){ .sprite } | [Demon heart](toszylae_heart.md) | quest | 0 |
+| ![](../assets/icons/items/items_misc_6.png){ .sprite } | [Demon heart](eliszylae_heart.md) | quest | 0 |
 | ![](../assets/icons/items/items_misc_6.png){ .sprite } | [Dorhantarh's heart](lae_island_boss_heart.md) | quest | 0 |
 | ![](../assets/icons/items/items_books_4.png){ .sprite } | [Dunla's Journal](Dunla_journal.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_548.png){ .sprite } | [Duskbloom](duskbloom_flower.md) | rare | 0 |
@@ -1184,8 +1180,8 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_japozero_384.png){ .sprite } | [Key (found in run-down house East Brimhaven)](brv_key_brother2.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_387.png){ .sprite } | [Key for Adakin's chest](adakin_chest_key.md) | quest | 0 |
 | ![](../assets/icons/items/items_misc_25.png){ .sprite } | [Key for Adakin's diary](adakin_diary_key.md) | quest | 0 |
-| ![](../assets/icons/items/items_misc_21.png){ .sprite } | [Key of Luthor](g03_luthor.md) | quest | 0 |
 | ![](../assets/icons/items/items_misc_21.png){ .sprite } | [Key of Luthor](key_luthor.md) | quest | 0 |
+| ![](../assets/icons/items/items_misc_21.png){ .sprite } | [Key of Luthor](g03_luthor.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_387.png){ .sprite } | [Key to the glade](glade_key.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_469.png){ .sprite } | [Korhald coin chest](korhald_coins.md) | quest | 0 |
 | ![](../assets/icons/items/items_newb_552.png){ .sprite } | [Korhald Family Legacy](korhald_book.md) | rare | 0 |
@@ -1202,7 +1198,6 @@ Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your fr
 | ![](../assets/icons/items/items_tometik1_20.png){ .sprite } | [Lodar's activation vial](vial_activation.md) | quest | 0 |
 | ![](../assets/icons/items/items_misc_3_60.png){ .sprite } | [Lodar's letter](lodar_letter.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_371.png){ .sprite } | [Lovis' Flute](guynmart_flute.md) | quest | 0 |
-| ![](../assets/icons/items/actorconditions_1_9.png){ .sprite } | [Lump of clay](clay.md) | ordinary | 1 |
 | ![](../assets/icons/items/items_japozero_368.png){ .sprite } | [Lyre](brv_wh_item_02.md) | quest | 0 |
 | ![](../assets/icons/items/items_books_9.png){ .sprite } | [Map to Vacor's old hideout](vacor_map.md) | quest | 0 |
 | ![](../assets/icons/items/items_japozero_370.png){ .sprite } | [Marshal sigil](marshal_sigil.md) | rare | 0 |

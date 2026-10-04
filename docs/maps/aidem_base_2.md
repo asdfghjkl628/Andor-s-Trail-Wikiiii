@@ -14,14 +14,22 @@
 
 | Name | HP |
 |---|---|
-| [Alaric](../monsters/aidem_base_alaric.md) | 1 |
 | [Zachlanny](../monsters/aidem_camp_zachlanny.md) | 1 |
-| [Grabby](../monsters/aidem_camp_grabby.md) | 1 |
 | [Greedy](../monsters/aidem_camp_greedy.md) | 1 |
-| [Zachlanny](../monsters/aidem_base_zachlanny_aggressive.md) | 329 |
-| [Alaric](../monsters/aidem_base_alaric_aggressive.md) | 329 |
+| [Grabby](../monsters/aidem_camp_grabby.md) | 1 |
+| [Alaric](../monsters/aidem_base_alaric.md) | 1 |
 | [Grabby](../monsters/aidem_base_grabby_aggressive.md) | 329 |
+| [Alaric](../monsters/aidem_base_alaric_aggressive.md) | 329 |
 | [Greedy](../monsters/aidem_base_greedy_aggressive.md) | 329 |
+| [Zachlanny](../monsters/aidem_base_zachlanny_aggressive.md) | 329 |
 | [Defy](../monsters/aidem_base_defy.md) | 359 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `aidem_base_2` · Data from v0.8.18</small>

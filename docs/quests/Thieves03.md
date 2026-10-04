@@ -11,7 +11,7 @@
 | **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Dying Patrol](../monsters/g03_deadpatrol_2.md), [Dying patrol](../monsters/g03_deadpatrol_1.md), [Feygard barricade guard](../monsters/Feygard_BG.md), [Feygard patrol sergeant](../monsters/g03_sergeant.md), [Guard](../monsters/crossroads_guard.md) +1 |
 | **Locations** | [crackshot_hideout2](../maps/crackshot_hideout2.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [crossroads](../maps/crossroads.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 9,625 |
-| **Related quests** | 6 |
+| **Related quests** | 7 |
 
 </div>
 
@@ -23,11 +23,13 @@
 
 Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)). Required:
 
-- reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51)
+- reached stage 51 of [Search for Andor](../quests/andor.md#stage-51)
 - reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76)
 - NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75)
 - NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -35,6 +37,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-76) | stage 76 reached, for stage 1 here |
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stages 1, 4, 5, 10, 45, 50 here |
 | Requires | [Thieves Hidden (hidden flag)](thieves_hidden.md#stage-40) | stage 40 reached, for stage 26 here |
 | Blocked by | [Immaculate kidnapping](Thieves02.md#stage-75) | stage 75 must NOT be reached, for stage 1 here |
 | Mutually exclusive | [Thieves Hidden (hidden flag)](thieves_hidden.md#stage-40) | stage 40 must NOT be reached, for stage 27 here |
@@ -76,13 +79,14 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-45"></span>45 | I reported about the situation to Umar, and gave him the key. He did not seem to want to tell me more about the key - yet. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Key of Luthor](../items/g03_luthor.md), stage 40 | – |
 | <span id="stage-50"></span>50 | Finally, this job is done. Now I should take a rest and regain my strength. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 45 | 7,500 XP<br>gives 4000× [Gold coins](../items/gold.md)<br>gives 10× [Mead](../items/mead.md)<br>faction “ThievesGuild” +20 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 1: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Good idea.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1) → **stage 1**; also changes map fallhaven_tavern, changes map fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from guildbrig2. NPC: “Come back to me when you're prepared. Bear in mind that your next task isn't going to be as easy as the ones you…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Good idea.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1) → **stage 1**; also changes map fallhaven_tavern, changes map fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from guildbrig2. NPC: “Come back to me when you're prepared. Bear in mind that your next task isn't going to be as easy as the ones you…”
 
 ???+ note "Stage 2: 1 route"
 
@@ -94,16 +98,16 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 4: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “And what happened then?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 3 of [The ruthless Crackshot](../quests/Thieves03.md#stage-3); NOT reached stage 4 of [The ruthless Crackshot](../quests/Thieves03.md#stage-4) → **stage 4**. NPC: “The team leader and others loyal to him killed the rest of the team and escaped with the key, before entering the…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “And what happened then?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 3 of [The ruthless Crackshot](../quests/Thieves03.md#stage-3); NOT reached stage 4 of [The ruthless Crackshot](../quests/Thieves03.md#stage-4) → **stage 4**. NPC: “The team leader and others loyal to him killed the rest of the team and escaped with the key, before entering the…”
 
 ???+ note "Stage 5: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “And you think the traitors are involved in that?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 4 of [The ruthless Crackshot](../quests/Thieves03.md#stage-4); NOT reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5) → **stage 5**. NPC: “I'm pretty sure about it. The team leader is the one we call "Crackshot", as he is a master of murder, torture and the…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “And you think the traitors are involved in that?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 4 of [The ruthless Crackshot](../quests/Thieves03.md#stage-4); NOT reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5) → **stage 5**. NPC: “I'm pretty sure about it. The team leader is the one we call "Crackshot", as he is a master of murder, torture and the…”
 
 ???+ note "Stage 10: 2 routes"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What? How I will find him then?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5); NOT reached stage 10 of [The ruthless Crackshot](../quests/Thieves03.md#stage-10) → **stage 10**. NPC: “Probably people near the Duleian road guard tower know more. See if you can ask them for tips.”
-    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “He will show up sooner or later ...” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5); NOT reached stage 10 of [The ruthless Crackshot](../quests/Thieves03.md#stage-10) → **stage 10**. NPC: “Maybe, but it will be faster if you question people near the Duleian road guard tower. The Duleian road is the place…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What? How I will find him then?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5); NOT reached stage 10 of [The ruthless Crackshot](../quests/Thieves03.md#stage-10) → **stage 10**. NPC: “Probably people near the Duleian road guard tower know more. See if you can ask them for tips.”
+    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “He will show up sooner or later ...” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 5 of [The ruthless Crackshot](../quests/Thieves03.md#stage-5); NOT reached stage 10 of [The ruthless Crackshot](../quests/Thieves03.md#stage-10) → **stage 10**. NPC: “Maybe, but it will be faster if you question people near the Duleian road guard tower. The Duleian road is the place…”
 
 ???+ note "Stage 11: 1 route"
 
@@ -179,14 +183,28 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 45: 3 routes"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Oh. Yes, I remember now that I found the key. Here, take it.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “Why did it take so long? And do not look at me that way. I can not tell you anything about the key for now.”
-    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Yes ... [give key]. Why is this key so important to us?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “I'm sorry, but for now I can't say more.”
-    3. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Sure, here, take it. And maybe it's time to give me some more information.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “Be patient, my friend. Everything will come in due time.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Oh. Yes, I remember now that I found the key. Here, take it.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “Why did it take so long? And do not look at me that way. I can not tell you anything about the key for now.”
+    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Yes ... [give key]. Why is this key so important to us?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “I'm sorry, but for now I can't say more.”
+    3. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Sure, here, take it. And maybe it's time to give me some more information.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40); NOT reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); hand over 1× [Key of Luthor](../items/g03_luthor.md) → **stage 45**. NPC: “Be patient, my friend. Everything will come in due time.”
 
 ???+ note "Stage 50: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Understood ....” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); NOT reached stage 50 of [The ruthless Crackshot](../quests/Thieves03.md#stage-50) → **stage 50**; also gives 4000× [Gold coins](../items/gold.md), gives 10× [Mead](../items/mead.md), faction “ThievesGuild” +20. NPC: “Take 4,000 gold coins, and some bottles of my favorite mead. Now you deserve a good rest, my friend. You have earned…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Understood ....” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 45 of [The ruthless Crackshot](../quests/Thieves03.md#stage-45); NOT reached stage 50 of [The ruthless Crackshot](../quests/Thieves03.md#stage-50) → **stage 50**; also gives 4000× [Gold coins](../items/gold.md), gives 10× [Mead](../items/mead.md), faction “ThievesGuild” +20. NPC: “Take 4,000 gold coins, and some bottles of my favorite mead. Now you deserve a good rest, my friend. You have earned…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 29 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Yeah, Feygard authorities have sent more patrols to the south. Appear…” → “Yeah, Feygard authorities have sent more patrols to the south. Appare…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

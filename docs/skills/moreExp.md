@@ -20,6 +20,7 @@ Increases amount of exp given by defeating monsters by 10 % for each skill level
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

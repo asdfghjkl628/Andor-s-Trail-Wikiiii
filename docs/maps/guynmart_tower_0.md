@@ -15,10 +15,18 @@
 
 | Name | HP |
 |---|---|
-| [Lovis](../monsters/guynmart_lovis.md) | 0 |
 | [Nightmare](../monsters/guynmart_mare0.md) | 0 |
+| [Lovis](../monsters/guynmart_lovis.md) | 0 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
 | [Nightmare](../monsters/guynmart_mare.md) | 120 |
 | [Torturer](../monsters/guynmart_tort1.md) | 120 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `guynmart_tower_0` · Data from v0.8.18</small>

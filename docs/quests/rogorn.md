@@ -24,6 +24,8 @@ Start with [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/house
 
 - reached stage 10 of [The path is clear to me](../quests/rogorn.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +52,7 @@ Start with [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/house
 | <span id="stage-55"></span>55 | After telling Minarra that she must have mistaken the men for someone else, she seemed a bit suspicious, but thanked me for helping her look into the matter. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 20, stage 45 | – |
 | <span id="stage-60"></span>60 | I have helped Minarra with her task. **(completes quest)** | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 55 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -94,6 +97,16 @@ Start with [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/house
 
     1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → the conversation leads here automatically — **conditions:** reached stage 55 of [The path is clear to me](../quests/rogorn.md#stage-55) → **stage 60**. NPC: “Thank you for helping me investigate this matter.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -25,6 +25,8 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 
 - reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +52,7 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 | <span id="stage-45"></span>45 | For helping the people of Remgard find the cause of the disappearing people, Jhaeld told me to talk to Rothses. He might be able to improve some of my equipment. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 41 | 21,000 XP |
 | <span id="stage-46"></span>46 | Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people. | [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) | stage 45 | gives [Woodcutter's feathered hat](../items/hat_crit.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -90,6 +93,16 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 
     1. Talk to [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) → the conversation leads here automatically — **conditions:** reached stage 45 of [What is that stench?](../quests/remgard2.md#stage-45) → **stage 46**; also gives [Woodcutter's feathered hat](../items/hat_crit.md). NPC: “As a token of my appreciation, please accept this hat that I made. May it guide you through the blinding light.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

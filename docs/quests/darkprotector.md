@@ -23,6 +23,8 @@
 
 None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +53,7 @@ None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencav
 | <span id="stage-66"></span>66 | I have placed the lich's heart in front of the Kazaul shrine. | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | hand over 1× [Demon heart](../items/toszylae_heart.md), stage 65 | – |
 | <span id="stage-70"></span>70 | The ritual is complete, and I have restored the power of the helmet to its former glory. **(completes quest)** | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | stage 66 | 5,000 XP<br>gives [Dark protector](../items/helm_protector.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -115,6 +118,17 @@ None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencav
 
     1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → choose “Take the helmet” — **conditions:** reached stage 66 of [The dark protector](../quests/darkprotector.md#stage-66) → **stage 70**; also gives [Dark protector](../items/helm_protector.md). NPC: “You take the helmet, and examine it more closely.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “(The helmet completely shatters, leaving nothing but a fine dust.)” → “[The helmet completely shatters, leaving nothing but a fine dust]”<br>· text: “(Among the remains of the lich 'Toszylae' that you defeated, you find…” → “[On the shrine that was behind the lich 'Toszylae' that you defeated,…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

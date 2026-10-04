@@ -12,4 +12,14 @@
 - [Waytolake12](waytolake12.md)
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.4](../versions/0.7.4.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `lookout_upper` · Data from v0.8.18</small>

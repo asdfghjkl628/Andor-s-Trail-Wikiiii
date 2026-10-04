@@ -24,4 +24,12 @@
 | [Basilisk](../monsters/basilisk.md) | 40 |
 | [Lizard](../monsters/stn_lizard.md) | 50 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `flagstone_filler_east_1` · Data from v0.8.18</small>

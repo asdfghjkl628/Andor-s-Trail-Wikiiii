@@ -26,4 +26,12 @@
 | [Tough grasslands snake](../monsters/grass_snake2.md) | 38 |
 | [Shiny Foggerlump](../monsters/feygard_fogmonster9.md) | 220 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `swamp3` · Data from v0.8.18</small>

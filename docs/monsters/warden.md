@@ -171,6 +171,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines added, 10 lines changed<br>· text: “I want you to go one step further and tell them that we will have les…” → “I want you to go one step further and tell them that we will have les…”<br>· text: “Mead? Oh.. no, I don't do that anymore. Who told you that?” → “Mead? Oh ... no, I don't do that anymore. Who told you that?” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Thank you again for the information. While I'm not sure how you may k…” → “Thank you again for the information. I'm not sure how you may know th…” |
+| [v0.7.15](../versions/0.7.15.md) | name: Warden → Guard captain |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

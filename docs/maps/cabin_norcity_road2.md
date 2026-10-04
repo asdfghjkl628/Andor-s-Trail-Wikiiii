@@ -20,4 +20,17 @@
 | [Hardshell beetle](../monsters/hardshell_beetle.md) | 25 |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | 77 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `cabin_norcity_road2` · Data from v0.8.18</small>

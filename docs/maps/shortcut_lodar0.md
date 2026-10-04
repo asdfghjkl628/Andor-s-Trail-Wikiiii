@@ -17,8 +17,8 @@
 |---|---|
 | [Mudfiend](../monsters/mudfiend1.md) | 37 |
 | [Cave bat](../monsters/cavebat4.md) | 39 |
-| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 |
+| [Tough mudfiend](../monsters/mudfiend2.md) | 41 |
 | [Hirathil spawn](../monsters/hirathil0.md) | 73 |
 | [Aggressive hirathil ghost](../monsters/hirathil1.md) | 75 |
 | [Hirathil ghost](../monsters/hirathil2.md) | 77 |
@@ -27,5 +27,15 @@
 | [Hirathil servant](../monsters/hirathil5.md) | 87 |
 | [Hirathil master](../monsters/hirathil6.md) | 89 |
 | [Ancient hirathil ghost](../monsters/hirathil7.md) | 92 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.15](../versions/0.8.15.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `shortcut_lodar0` · Data from v0.8.18</small>

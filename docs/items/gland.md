@@ -7,31 +7,42 @@
 | Monster | Chance | Qty |
 |---|---|---|
 | [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 |
-| [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 30% | 1 |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 |
-| [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 30% | 1 |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 |
 | [Grasslands snake](../monsters/grass_snake.md) | 30% | 1 |
 | [Tough grasslands snake](../monsters/grass_snake2.md) | 30% | 1 |
 | [Grasslands lizard](../monsters/grass_lizard.md) | 30% | 1 |
 | [Black grasslands lizard](../monsters/grass_lizard2.md) | 30% | 1 |
 | [Poisonous river frog](../monsters/frog_3.md) | 30% | 1 |
-| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 |
+| [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 30% | 1 |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 |
+| [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 30% | 1 |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 |
 | [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 |
 | [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 |
 | [ViridToxin dartmaw](../monsters/virid_toxin.md) | 8% | 1 |
-| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 |
-| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 |
-| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 |
-| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 |
 | [Forest snake](../monsters/forest_snake.md) | 5% | 1 |
 | [Young cave snake](../monsters/young_cave_snake.md) | 5% | 1 |
 | [Cave snake](../monsters/cave_snake.md) | 5% | 1 |
 | [Venomous cave snake](../monsters/venomous_cave_snake.md) | 5% | 1 |
 | [Tough cave snake](../monsters/tough_cave_snake.md) | 5% | 1 |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 5% | 1 |
-| [Young ViridToxin dartmaw](../monsters/young_virid_toxin.md) | 5% | 1 |
+| [Forest serpent](../monsters/forest_serpent.md) | 5% | 1 |
+| [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 5% | 1 |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 5% | 1 |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 5% | 1 |
+| [Tough venomfang](../monsters/tough_venomfang.md) | 5% | 1 |
+| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 |
+| [Young venomscale](../monsters/vscale2.md) | 5% | 1 |
+| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 |
+| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 |
+| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 |
+| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 |
+| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 |
+| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 |
+| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 |
+| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 |
+| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 |
+| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 |
 | [Slippery Venomfang](../monsters/slippery_venomfang.md) | 5% | 0-2 |
 | [Noxious venomfang](../monsters/noxious_venomfang.md) | 5% | 0-2 |
 | [Big cave snake](../monsters/cavesnake4.md) | 5% | 1 |
@@ -55,19 +66,8 @@
 | [Old cave worm](../monsters/ratdom_m11c.md) | 5% | 1 |
 | [Quick viper](../monsters/ratdom_m12a.md) | 5% | 1 |
 | [Nasty viper](../monsters/ratdom_m12b.md) | 5% | 1 |
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 5% | 1 |
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 5% | 1 |
-| [Tough venomfang](../monsters/tough_venomfang.md) | 5% | 1 |
-| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 |
-| [Young venomscale](../monsters/vscale2.md) | 5% | 1 |
-| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 |
-| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 |
-| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 |
-| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 |
-| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 |
-| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 |
-| [Forest serpent](../monsters/forest_serpent.md) | 5% | 1 |
-| [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 5% | 1 |
+| [Young ViridToxin dartmaw](../monsters/young_virid_toxin.md) | 5% | 1 |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 5% | 1 |
 | [Puny plaguecrawler](../monsters/plaguesp_1.md) | 1% | 1 |
 | [Plaguecrawler](../monsters/plaguesp_2.md) | 1% | 1 |
 | [Tough plaguecrawler](../monsters/plaguesp_3.md) | 1% | 1 |
@@ -86,5 +86,15 @@
 | [Venomous irdegh](../monsters/irdegh_2.md) | 1% | 1 |
 | [Piercing irdegh](../monsters/irdegh_3.md) | 1% | 1 |
 | [Ancient piercing irdegh](../monsters/irdegh_4.md) | 1% | 1 |
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `gland` · Data from v0.8.18</small>

@@ -360,6 +360,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “However Elythara and her cultists failed to completely annihilate the…” → “However Elythara and her cultists failed to completely annihilate the…”<br>· text: “The Elytharans built several towns and cities, dedicated to their god…” → “The Elytharans built several towns and cities, dedicated to their god…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

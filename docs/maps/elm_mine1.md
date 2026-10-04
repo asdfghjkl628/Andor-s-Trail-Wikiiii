@@ -15,8 +15,17 @@
 | Name | HP |
 |---|---|
 | [Ehrenfest](../monsters/ehrenfest.md) | 0 |
+| [Drunken Feygard scout](../monsters/ortholion_guard10.md) | 0 |
 | [General Ortholion](../monsters/ortholion.md) | 0 |
 | [Drunken Feygard patrol](../monsters/ortholion_guard11.md) | 0 |
-| [Drunken Feygard scout](../monsters/ortholion_guard10.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.14](../versions/0.7.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `elm_mine1` · Data from v0.8.18</small>

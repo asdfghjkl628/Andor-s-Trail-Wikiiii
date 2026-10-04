@@ -41,6 +41,8 @@
 - reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10)
 - NOT reached stage 20 of [The fifth master](../quests/fifth_master.md#stage-20)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -76,6 +78,7 @@
 | <span id="stage-85"></span>85 | As the ritual completed, the Masters revealed their true intent. The rite was not to seal the Rift but to awaken the Fifth Master, whose power might reopen it. They told me the Shadow itself serves Kazaul. Their words left me doubtful, unsure whether I had been deceived or warned.<br><span class="qnote">🗺️ Part of [Undertell 5](../maps/undertell_5.md) visibly changes.</span> | [Anavrin](../monsters/anavrin.md) ([undertell_5](../maps/undertell_5.md))<br>[Kazaul acolyte](../monsters/kazaul_acolyte.md) ([undertell_5](../maps/undertell_5.md)) | stage 80 | – |
 | <span id="stage-90"></span>90 | I left Undertell uncertain of what to believe. If what the Masters said is true, the Shadow may not be what it seems. Still, doubt lingers like smoke after the forge cools. **(completes quest)** | [Anavrin](../monsters/anavrin.md) ([undertell_5](../maps/undertell_5.md)) | – | 14,165 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -155,6 +158,16 @@
 
     1. Talk to [Anavrin](../monsters/anavrin.md) ([undertell_5](../maps/undertell_5.md)) → choose “You lie. The Shadow is not Kazaul.” — **conditions:** NOT reached stage 90 of [The fifth master](../quests/fifth_master.md#stage-90) → **stage 90**. NPC: “Perhaps. Or perhaps you already know the truth, but your heart fears its shape. Leave now, child of dust. The Fifth is…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 16 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

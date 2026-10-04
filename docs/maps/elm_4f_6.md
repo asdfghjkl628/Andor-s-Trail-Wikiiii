@@ -11,4 +11,12 @@
 - [Elm 4f 4](elm_4f_4.md)
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `elm_4f_6` · Data from v0.8.18</small>

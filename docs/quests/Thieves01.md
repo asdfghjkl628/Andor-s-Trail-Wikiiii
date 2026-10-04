@@ -11,7 +11,7 @@
 | **NPCs involved** | [Dunla](../monsters/dunla.md), [Fanamor](../monsters/fanamor.md), [Feygard scout](../monsters/feygard_scout.md), [Leta](../monsters/leta.md), [Thoronir](../monsters/thoronir.md), [Troublemaker](../monsters/troublemaker.md) +1 |
 | **Locations** | [crossroads](../maps/crossroads.md), [fallhaven_church](../maps/fallhaven_church.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 4,550 |
-| **Related quests** | 6 |
+| **Related quests** | 9 |
 
 </div>
 
@@ -23,16 +23,21 @@
 
 Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)). Required:
 
-- reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51)
-- reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100)
+- reached stage 51 of [Search for Andor](../quests/andor.md#stage-51)
+- reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100)
 - NOT reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stages 5, 10 here |
+| Requires | [Disallowed substance](bonemeal.md#stage-100) | stage 100 reached, for stage 50 here |
+| Requires | [Key of Luthor](bucus.md#stage-100) | stage 100 reached, for stage 5 here |
 | Requires | [scores (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 50 here |
 | Requires | [Thieves Hidden (hidden flag)](thieves_hidden.md#stage-100) | stage 100 reached, for stage 60 here |
 | Mutually exclusive | [Thieves Hidden (hidden flag)](thieves_hidden.md#stage-110) | stage 110 must NOT be reached, for stage 60 here |
@@ -68,18 +73,19 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-55"></span>55 | Fanamor is alive and will find her own way to return. | [Fanamor](../monsters/fanamor.md) ([crossroads](../maps/crossroads.md)) | hand over 1× [Bandage](../items/bandage.md), stage 45, stage 50 | 1,000 XP<br>removes monsters from crossroads<br>spawns monsters on fallhaven_derelict2 |
 | <span id="stage-60"></span>60 | I returned to Troublemaker and gave him the journals. He told me to talk with Umar, maybe he has another task for me. **(completes quest)** | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 20 | 1,750 XP<br>gives 900× [Gold coins](../items/gold.md)<br>sets stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 5: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “But I really want to join your guild!” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100); NOT reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5) → **stage 5**. NPC: “OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “But I really want to join your guild!” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); NOT reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5) → **stage 5**. NPC: “OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.”
 
 ???+ note "Stage 10: 2 routes"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I will take your opportunity!” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5); NOT reached stage 10 of [Thief apprentice](../quests/Thieves01.md#stage-10); NOT latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60 → **stage 10**. NPC: “Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have…”
-    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything else?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5); NOT reached stage 10 of [Thief apprentice](../quests/Thieves01.md#stage-10); NOT latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60 → **stage 10**. NPC: “Not for now. Make sure nobody sees you doing suspicious things. Good luck.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I will take your opportunity!” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5); NOT reached stage 10 of [Thief apprentice](../quests/Thieves01.md#stage-10); NOT latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60 → **stage 10**. NPC: “Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have…”
+    2. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Anything else?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 5 of [Thief apprentice](../quests/Thieves01.md#stage-5); NOT reached stage 10 of [Thief apprentice](../quests/Thieves01.md#stage-10); NOT latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60 → **stage 10**. NPC: “Not for now. Make sure nobody sees you doing suspicious things. Good luck.”
 
 ???+ note "Stage 15: 1 route"
 
@@ -112,7 +118,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 50: 1 route"
 
-    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Ehm ... My father has cut himself with an axe, and we don't have any bandages!” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50) → **stage 50**; also gives 1× [Bandage](../items/bandage.md). NPC: “This is what I have, take it. I expect this will be useful.”
+    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Ehm ... My father has cut himself with an axe, and we don't have any bandages!” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50) → **stage 50**; also gives 1× [Bandage](../items/bandage.md). NPC: “This is what I have, take it. I expect this will be useful.”
 
 ???+ note "Stage 51: 1 route"
 
@@ -126,6 +132,17 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
     1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I gave you the journals, so where's my reward?” — **conditions:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100); NOT reached stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110) → **stage 60**; also gives 900× [Gold coins](../items/gold.md), sets stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110). NPC: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 14 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

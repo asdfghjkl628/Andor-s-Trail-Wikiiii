@@ -25,4 +25,13 @@
 | [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 111 |
 | [Glowing mudfiend](../monsters/elm_fiend1.md) | 132 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `elm_4f_5` · Data from v0.8.18</small>

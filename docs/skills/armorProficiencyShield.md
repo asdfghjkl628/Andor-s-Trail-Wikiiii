@@ -23,6 +23,7 @@ Increase damage resistance by 1 per skill level while having a shield or parryin
 | 1 | Quest reward |
 | 2 | Skill point |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.
 
 ## Relevant quest

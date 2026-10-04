@@ -8,10 +8,10 @@
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 30, 310) |
 | **Started by** | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) |
-| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Dark priest](../monsters/dds_dark_priest2.md), [Dark priest](../monsters/dds_dark_priest.md), [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/dds_mourning_woman.md), [Old hermit](../monsters/dds_oldhermit.md) +2 |
+| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest2.md), [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/dds_mourning_woman.md), [Old hermit](../monsters/dds_oldhermit.md) +2 |
 | **Locations** | [blackwater_mountain50](../maps/blackwater_mountain50.md), [fallhaven_nw](../maps/fallhaven_nw.md), [galmore_41](../maps/galmore_41.md), [galmore_45](../maps/galmore_45.md) |
 | **Total XP** | 27,002 |
-| **Related quests** | 4 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -23,6 +23,8 @@
 
 None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -31,6 +33,9 @@ None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.m
 |---|---|---|
 | Requires | [Beer Bootlegging](beer_bootlegging.md#stage-120) | stage 120 reached, for stage 30 here |
 | Requires | [Feygard errands](feygard_shipment.md#stage-82) | stage 82 reached, for stage 20 here |
+| Unlocks | [Search for Andor](andor.md#stage-145) | stage 145 there needs stage 280 here |
+| Unlocks | [Search for Andor](andor.md#stage-147) | stage 147 there needs stage 280 here |
+| Unlocks | [Search for Andor](andor.md#stage-999) | stage 999 there needs stage 280 here |
 | Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-2) | stage 2 there needs stage 150 here |
 | Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-3) | stage 3 there needs stage 50 here |
 | Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-6) | stage 6 there needs stage 260 here |
@@ -72,10 +77,11 @@ None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.m
 | <span id="stage-270"></span>270 | I defeated the monster. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 260 | – |
 | <span id="stage-280"></span>280 | Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 260 | 15,000 XP<br>removes monsters from galmore_41<br>spawns monsters on houseatcrossroads0<br>sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6)<br>spawns monsters on wayto_feygard_duleian_2 |
 | <span id="stage-300"></span>300 | Indeed, I have found Andor there. | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 280 | – |
-| <span id="stage-310"></span>310 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 280 | 5,000 XP<br>sets stage 145 of [andor (hidden flag)](../quests/andor.md#stage-145) |
+| <span id="stage-310"></span>310 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 280 | 5,000 XP<br>sets stage 145 of [Search for Andor](../quests/andor.md#stage-145) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -206,8 +212,19 @@ None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.m
 
 ???+ note "Stage 310: 1 route"
 
-    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Are you just going to disappear again? Please don't!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280) → **stage 310**; also sets stage 145 of [andor (hidden flag)](../quests/andor.md#stage-145)
+    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Are you just going to disappear again? Please don't!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280) → **stage 310**; also sets stage 145 of [Search for Andor](../quests/andor.md#stage-145)
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 31 lines added |
+| [v0.8.15](../versions/0.8.15.md) | stage 70 journal text changed; stage 80 journal text changed; stage 110 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

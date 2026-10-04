@@ -22,8 +22,11 @@
 ## Quests
 
 - [A familiar shadow](../quests/familiar_shadow.md): stages 30
+- [Breakfast bread](../quests/mikhail_bread.md): stages 10, 100
 - [Honor your parents](../quests/brv_present.md): stages 30, 40, 50, 60
 - [More rats!](../quests/ratdom_mikhail.md): stages 10, 20, 52, 54, 70, 74, 90
+- [Rats!](../quests/mikhail_rats.md): stages 10, 100
+- [Search for Andor](../quests/andor.md): stages 1
 - [Unusual experiences and achievements](../quests/achievements.md): stages 1
 - [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): stages 20
 - [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stages 90
@@ -37,8 +40,8 @@
     <span id="d-mikhail_start_select"></span>**`mikhail_start_select`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1))* → [ratdom_mikhail](#d-ratdom_mikhail)
-    - branch 2 *(if reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100))* → [mikhail_start_select2](#d-mikhail_start_select2)
-    - branch 3 *(if reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10))* → [mikhail_bread_continue](#d-mikhail_bread_continue)
+    - branch 2 *(if reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100))* → [mikhail_start_select2](#d-mikhail_start_select2)
+    - branch 3 *(if reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10))* → [mikhail_bread_continue](#d-mikhail_bread_continue)
     - branch 4 → [mikhail_start_select2](#d-mikhail_start_select2)
 
     <span id="d-ratdom_mikhail"></span>**`ratdom_mikhail`** *(silent check: the first matching branch below is taken)*
@@ -51,8 +54,8 @@
 
     <span id="d-mikhail_start_select2"></span>**`mikhail_start_select2`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_start_select_default](#d-mikhail_start_select_default)
-    - branch 2 *(if reached stage 10 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-10))* → [mikhail_rats_continue](#d-mikhail_rats_continue)
+    - branch 1 *(if reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_start_select_default](#d-mikhail_start_select_default)
+    - branch 2 *(if reached stage 10 of [Rats!](../quests/mikhail_rats.md#stage-10))* → [mikhail_rats_continue](#d-mikhail_rats_continue)
     - branch 3 → [mikhail_start_select_default](#d-mikhail_start_select_default)
 
     <span id="d-mikhail_bread_continue"></span>**`mikhail_bread_continue`** Mikhail: “Did you get my bread from Mara at the town hall yet?”
@@ -90,7 +93,7 @@
 
     <span id="d-mikhail_start_select_default"></span>**`mikhail_start_select_default`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [andor (hidden flag)](../quests/andor.md#stage-1))* → [mikhail_default](#d-mikhail_default)
+    - branch 1 *(if reached stage 1 of [Search for Andor](../quests/andor.md#stage-1))* → [mikhail_default](#d-mikhail_default)
     - branch 2 → [mikhail_gamestart](#d-mikhail_gamestart)
 
     <span id="d-mikhail_rats_continue"></span>**`mikhail_rats_continue`** Mikhail: “Did you kill those two rats in our garden?”
@@ -98,21 +101,21 @@
     - “Yes, I have dealt with the rats now.” *(if hand over 2× [Small rat tail](../items/tail_trainingrat.md))* → [mikhail_rats_complete](#d-mikhail_rats_complete)
     - “No, not yet.” → [mikhail_rats_start2](#d-mikhail_rats_start2)
 
-    <span id="d-mikhail_bread_complete"></span>**`mikhail_bread_complete`** Mikhail: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.” — **effects:** sets stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100), gives [Gold coins](../items/gold.md)
+    <span id="d-mikhail_bread_complete"></span>**`mikhail_bread_complete`** Mikhail: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.” — **effects:** sets stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100), gives [Gold coins](../items/gold.md)
 
     - Next → [mikhail_default](#d-mikhail_default)
 
     <span id="d-mikhail_default"></span>**`mikhail_default`** Mikhail: “Anything else I can help you with?”
 
-    - “Do you have any more tasks for me?” *(if reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_all_tasks_done](#d-mikhail_all_tasks_done)
-    - “Do you have any more tasks for me?” *(if reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); NOT reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_bread_done](#d-mikhail_bread_done)
-    - “Do you have any more tasks for me?” *(if NOT reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_rats_done](#d-mikhail_rats_done)
-    - “Do you have any tasks for me?” *(if NOT reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); NOT reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_tasks](#d-mikhail_tasks)
+    - “Do you have any more tasks for me?” *(if reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_all_tasks_done](#d-mikhail_all_tasks_done)
+    - “Do you have any more tasks for me?” *(if reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); NOT reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_bread_done](#d-mikhail_bread_done)
+    - “Do you have any more tasks for me?” *(if NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_rats_done](#d-mikhail_rats_done)
+    - “Do you have any tasks for me?” *(if NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); NOT reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_tasks](#d-mikhail_tasks)
     - “Is there anything else you can tell me about Andor?” → [mikhail_andor1](#d-mikhail_andor1)
     - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_20](#d-mikhail_present_20)
     - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); NOT reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_10](#d-mikhail_present_10)
     - “I was searching for Andor.” → [mikhail_news_10](#d-mikhail_news_10)
-    - “What kind of book is it that you have in your hand?” *(if NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100); reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_achievements_10](#d-mikhail_achievements_10)
+    - “What kind of book is it that you have in your hand?” *(if NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_achievements_10](#d-mikhail_achievements_10)
     - “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” *(if hand over 1× [Plush pillow](../items/brv_wh_item_01.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100))* → [brv_wh_delivery_mikhail](#d-brv_wh_delivery_mikhail)
     - “I don't know...something feels wrong. I thought maybe you were in danger.” *(if latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-20) is 20)* → [galmore_marked_stone_mikhail](#d-galmore_marked_stone_mikhail)
 
@@ -147,7 +150,7 @@
 
     - Next → [mikhail_visited](#d-mikhail_visited)
 
-    <span id="d-mikhail_rats_complete"></span>**`mikhail_rats_complete`** Mikhail: “Oh you did? Wow, thanks a lot for your help! Please take Andor's training shield - you're going to need it. If you are hurt, use your bed over there to rest and regain your strength.” — **effects:** sets stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100), gives 1× [Kid's shield](../items/kids_shield.md)
+    <span id="d-mikhail_rats_complete"></span>**`mikhail_rats_complete`** Mikhail: “Oh you did? Wow, thanks a lot for your help! Please take Andor's training shield - you're going to need it. If you are hurt, use your bed over there to rest and regain your strength.” — **effects:** sets stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100), gives 1× [Kid's shield](../items/kids_shield.md)
 
     - Next → [mikhail_default](#d-mikhail_default)
 
@@ -192,10 +195,10 @@
 
     <span id="d-mikhail_news_10"></span>**`mikhail_news_10`** Mikhail: “Did you find out something?”
 
-    - “I asked around in Crossglen and they sent me to Fallhaven.” *(if reached stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30))* → [mikhail_news_20](#d-mikhail_news_20)
-    - “Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if NOT reached stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30); reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail_news_30)
-    - “I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30); NOT reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55); reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
-    - “No I did not find out anything yet.” *(if NOT reached stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30); NOT reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55); NOT reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [mikhail_default](#d-mikhail_default)
+    - “I asked around in Crossglen and they sent me to Fallhaven.” *(if reached stage 30 of [Search for Andor](../quests/andor.md#stage-30))* → [mikhail_news_20](#d-mikhail_news_20)
+    - “Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail_news_30)
+    - “I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
+    - “No I did not find out anything yet.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_default](#d-mikhail_default)
     - “I found Andor far north of here, at a fruit seller's stand.” *(if reached stage 310 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-310); NOT reached stage 20 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail_news_60)
     - “I found Andor far south of here, at Alynndir's house.” *(if reached stage 290 of [Shadows](../quests/shadows.md#stage-290); NOT reached stage 20 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail_news_60)
 
@@ -221,7 +224,7 @@
 
     - “What are you doing in my house? Where is Mikhail?” → [ratdom_mikhail_04](#d-ratdom_mikhail_04)
 
-    <span id="d-mikhail_visited"></span>**`mikhail_visited`** Mikhail: “I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday.” — **effects:** sets stage 1 of [andor (hidden flag)](../quests/andor.md#stage-1)
+    <span id="d-mikhail_visited"></span>**`mikhail_visited`** Mikhail: “I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday.” — **effects:** sets stage 1 of [Search for Andor](../quests/andor.md#stage-1)
 
     - Next → [mikhail3](#d-mikhail3)
 
@@ -231,14 +234,14 @@
 
     <span id="d-mikhail_rats_select"></span>**`mikhail_rats_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-100))* → [mikhail_rats_complete2](#d-mikhail_rats_complete2)
-    - branch 2 *(if reached stage 10 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-10))* → [mikhail_rats_continue](#d-mikhail_rats_continue)
+    - branch 1 *(if reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_rats_complete2](#d-mikhail_rats_complete2)
+    - branch 2 *(if reached stage 10 of [Rats!](../quests/mikhail_rats.md#stage-10))* → [mikhail_rats_continue](#d-mikhail_rats_continue)
     - branch 3 → [mikhail_rats_start](#d-mikhail_rats_start)
 
     <span id="d-mikhail_bread_select"></span>**`mikhail_bread_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-100))* → [mikhail_bread_complete2](#d-mikhail_bread_complete2)
-    - branch 2 *(if reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10))* → [mikhail_bread_continue](#d-mikhail_bread_continue)
+    - branch 1 *(if reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100))* → [mikhail_bread_complete2](#d-mikhail_bread_complete2)
+    - branch 2 *(if reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10))* → [mikhail_bread_continue](#d-mikhail_bread_continue)
     - branch 3 → [mikhail_bread_start](#d-mikhail_bread_start)
 
     <span id="d-mikhail_andor2"></span>**`mikhail_andor2`** Mikhail: “Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town.”
@@ -259,14 +262,14 @@
 
     <span id="d-mikhail_news_20"></span>**`mikhail_news_20`** Mikhail: “Did you go the dangerous way to Fallhaven?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
-    - “Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail_news_30)
-    - “Then I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55); reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
-    - “Not yet.” *(if NOT reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80); NOT reached stage 55 of [andor (hidden flag)](../quests/andor.md#stage-55))* → [mikhail_news_50](#d-mikhail_news_50)
+    - “Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail_news_30)
+    - “Then I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
+    - “Not yet.” *(if NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_50](#d-mikhail_news_50)
 
     <span id="d-mikhail_news_30"></span>**`mikhail_news_30`** Mikhail: “Did you find this Lodar?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
-    - “Yes, and he told me that Andor probably went to Nor City.” *(if reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
-    - “No, not yet.” *(if NOT reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [mikhail_news_50](#d-mikhail_news_50)
+    - “Yes, and he told me that Andor probably went to Nor City.” *(if reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail_news_40)
+    - “No, not yet.” *(if NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_50](#d-mikhail_news_50)
 
     <span id="d-mikhail_news_40"></span>**`mikhail_news_40`** Mikhail: “Did you go to Nor City?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
@@ -306,7 +309,7 @@
 
     - Next → [mikhail_default](#d-mikhail_default)
 
-    <span id="d-mikhail_rats_start"></span>**`mikhail_rats_start`** Mikhail: “I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?” — **effects:** sets stage 10 of [mikhail_rats (hidden flag)](../quests/mikhail_rats.md#stage-10)
+    <span id="d-mikhail_rats_start"></span>**`mikhail_rats_start`** Mikhail: “I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?” — **effects:** sets stage 10 of [Rats!](../quests/mikhail_rats.md#stage-10)
 
     - “I have already dealt with the rats.” *(if hand over 2× [Small rat tail](../items/tail_trainingrat.md))* → [mikhail_rats_complete](#d-mikhail_rats_complete)
     - “OK, I'll go check out in our garden.” → [mikhail_rats_start2](#d-mikhail_rats_start2)
@@ -315,7 +318,7 @@
 
     - “You're welcome.” → [mikhail_default](#d-mikhail_default)
 
-    <span id="d-mikhail_bread_start"></span>**`mikhail_bread_start`** Mikhail: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.” — **effects:** sets stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10)
+    <span id="d-mikhail_bread_start"></span>**`mikhail_bread_start`** Mikhail: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.” — **effects:** sets stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10)
 
     - Next → [mikhail_default](#d-mikhail_default)
 
@@ -371,6 +374,27 @@
     - Next → [mikhail_default](#d-mikhail_default)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines added, 9 lines changed |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
+| [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
+| [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |
+| [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “One more thing: Look at that basket on the floor over there. It belon…” → “One more thing: Look at that basket on the floor over there. It belon…” |
+| [v0.8.6.1](../versions/0.8.6.1.md) | Dialogue: 3 lines changed |
+| [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I saw some rats out back in our garden earlier. Could you please go k…” → “I saw some rats out back in our garden earlier. Could you please go k…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 5 lines added, 2 lines changed |
+| [v0.8.15](../versions/0.8.15.md) | horizontalFlipChance added (100) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

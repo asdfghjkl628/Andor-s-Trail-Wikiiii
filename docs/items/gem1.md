@@ -7,16 +7,6 @@
 | Monster | Chance | Qty |
 |---|---|---|
 | [Ghost of Luthor](../monsters/ghost_of_luthor.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon4.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon4b.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon5.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon7.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon9.md) | 100% | 1 |
-| [Beholder](../monsters/beholder.md) | 100% | 5-15 |
-| [Pyreling](../monsters/pyreling.md) | 100% | 1-2 |
-| [Erupting pyreling](../monsters/erupting_pyreling.md) | 100% | 1-2 |
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 5-15 |
-| [Lava entity](../monsters/lava_entity.md) | 100% | 1-2 |
 | [Glowing abcess](../monsters/fire1.md) | 100% | 1-3 |
 | [Blazing abcess](../monsters/fire2.md) | 100% | 1-3 |
 | [Lava spawn](../monsters/fire3.md) | 100% | 1-3 |
@@ -28,9 +18,19 @@
 | [Ancient walking inferno](../monsters/fire9.md) | 100% | 1-3 |
 | [Thukuzun](../monsters/thukuzun.md) | 100% | 1-3 |
 | [Hira'zinn](../monsters/hirazinn.md) | 100% | 1-3 |
-| [Molten pyreling](../monsters/molten_pyreling.md) | 75% | 1-2 |
+| [Lava entity](../monsters/lava_entity.md) | 100% | 1-2 |
+| [Dark watch](../monsters/lae_demon4.md) | 100% | 1 |
+| [Dark watch](../monsters/lae_demon4b.md) | 100% | 1 |
+| [Dark watch](../monsters/lae_demon5.md) | 100% | 1 |
+| [Dark watch](../monsters/lae_demon7.md) | 100% | 1 |
+| [Dark watch](../monsters/lae_demon9.md) | 100% | 1 |
+| [Beholder](../monsters/beholder.md) | 100% | 5-15 |
+| [Pyreling](../monsters/pyreling.md) | 100% | 1-2 |
+| [Erupting pyreling](../monsters/erupting_pyreling.md) | 100% | 1-2 |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 5-15 |
 | [Spearborn thrall](../monsters/spearborn_thrall.md) | 75% | 1-2 |
 | [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 75% | 1-2 |
+| [Molten pyreling](../monsters/molten_pyreling.md) | 75% | 1-2 |
 | [Gruil](../monsters/ratdom_gruil.md) | 50% | 1 |
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30% | 1 |
 | [Larval burrower](../monsters/larval_burrower.md) | 30% | 1 |
@@ -57,11 +57,12 @@
 | [Strong cave rat](../monsters/strong_cave_rat.md) | 5% | 1 |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 5% | 1 |
 | [Rabid fox](../monsters/rabid_fox.md) | 5% | 1 |
-| [Dungeon rat](../monsters/guynmart_rat.md) | 5% | 1 |
-| [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 5% | 1 |
-| [Wild dog](../monsters/guynmart_dog2a.md) | 5% | 1 |
-| [Wild dog](../monsters/guynmart_dog3a.md) | 5% | 1 |
-| [Trained mountain wolf](../monsters/mountain_wolf_2.md) | 5% | 1 |
+| [Wild fox](../monsters/wild_fox.md) | 5% | 1 |
+| [Wolf](../monsters/wolf.md) | 5% | 1 |
+| [Anklebiter](../monsters/anklebiter.md) | 5% | 1 |
+| [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 5% | 1 |
+| [Rabid hound](../monsters/rabid_hound.md) | 5% | 1 |
+| [Mountain wolf](../monsters/mountain_wolf.md) | 5% | 1 |
 | [Young carrion beetle](../monsters/cbeetle_1.md) | 5% | 1 |
 | [Carrion beetle](../monsters/cbeetle_2.md) | 5% | 1 |
 | [Young scaradon](../monsters/scaradon_1.md) | 5% | 1 |
@@ -73,9 +74,6 @@
 | [Cave burrower](../monsters/burrower_2.md) | 5% | 1 |
 | [Strong larval burrower](../monsters/burrower_3.md) | 5% | 1 |
 | [Giant larval burrower](../monsters/burrower_4.md) | 5% | 1 |
-| [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 5% | 1 |
-| [Rabid hound](../monsters/rabid_hound.md) | 5% | 1 |
-| [Mountain wolf](../monsters/mountain_wolf.md) | 5% | 1 |
 | [Carrion centipede](../monsters/ccentip0.md) | 5% | 1 |
 | [Ravenous carrion centipede](../monsters/ccentip1.md) | 5% | 1 |
 | [Bloated carrion centipede](../monsters/ccentip2.md) | 5% | 1 |
@@ -95,9 +93,11 @@
 | [Rat](../monsters/vermin0.md) | 5% | 1 |
 | [Rat](../monsters/vermin1.md) | 5% | 1 |
 | [Roach](../monsters/vermin2.md) | 5% | 1 |
-| [Wild fox](../monsters/wild_fox.md) | 5% | 1 |
-| [Wolf](../monsters/wolf.md) | 5% | 1 |
-| [Anklebiter](../monsters/anklebiter.md) | 5% | 1 |
+| [Dungeon rat](../monsters/guynmart_rat.md) | 5% | 1 |
+| [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 5% | 1 |
+| [Wild dog](../monsters/guynmart_dog2a.md) | 5% | 1 |
+| [Wild dog](../monsters/guynmart_dog3a.md) | 5% | 1 |
+| [Trained mountain wolf](../monsters/mountain_wolf_2.md) | 5% | 1 |
 | [Young allaceph](../monsters/allaceph_1.md) | 1% | 1 |
 | [Allaceph](../monsters/allaceph_2.md) | 1% | 1 |
 | [Strong allaceph](../monsters/allaceph_3.md) | 1% | 1 |
@@ -107,5 +107,15 @@
 ## Sold by
 
 - [Gruil](../monsters/gruil.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `gem1` · Data from v0.8.18</small>

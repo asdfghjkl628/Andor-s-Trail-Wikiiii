@@ -25,6 +25,8 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 
 - NOT reached stage 10 of [Getting home on time](../quests/deebo_orchard_ght.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +48,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 | <span id="stage-50"></span>50 | I gave Ainsley the new pitchfork. I should tell Hadena about this. | [Ainsley](../monsters/deebo_orchard_farmer_ainsley.md) ([sullengard_apple_farm_west](../maps/sullengard_apple_farm_west.md)) | – | – |
 | <span id="stage-60"></span>60 | Hadena was so grateful to me for helping them. **(completes quest)** | [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md)) | stage 50 | 5,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -78,6 +81,19 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 
     1. Talk to [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md)) → choose “It is done. Ainsley will be home on time today.” — **conditions:** NOT reached stage 60 of [Getting home on time](../quests/deebo_orchard_ght.md#stage-60); latest stage of [Getting home on time](../quests/deebo_orchard_ght.md#stage-50) is 50 → **stage 60**. NPC: “Thank you so much for helping us. You are just like your brother.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 7 lines added |
+| [v0.8.4](../versions/0.8.4.md) | stage 40 journal text changed |
+| [v0.8.5](../versions/0.8.5.md) | Dialogue: 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

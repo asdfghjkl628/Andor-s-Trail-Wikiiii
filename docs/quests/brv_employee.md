@@ -23,6 +23,8 @@
 
 None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,8 +48,9 @@ None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../
 | <span id="stage-44"></span>44 | Only a few to go...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
 | <span id="stage-90"></span>90 | Finally - that was the last boulder! Gnossath was very pleased with my work. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | 1,000 XP<br>removes monsters from brimhaven_tavern1<br>removes monsters from brimhaven_employee<br>changes map brimhaven1<br>spawns monsters on brimhaven_employee<br>spawns monsters on brimhaven_tavern1<br>clears stage 83 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-83)<br>sets stage 89 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-89) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -84,6 +87,18 @@ None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../
 
     1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 25; NOT reached stage 90 of [Work for debts](../quests/brv_employee.md#stage-90) → **stage 90**; also removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1, clears stage 83 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-83), sets stage 89 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-89). NPC: “Wow, you got it.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 8 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 41 journal text changed; stage 42 journal text changed; stage 43 journal text changed (+1 more) |
+| [v0.7.13](../versions/0.7.13.md) | stage 90 XP 0 → 1000 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

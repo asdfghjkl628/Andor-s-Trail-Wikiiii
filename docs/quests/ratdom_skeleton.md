@@ -26,6 +26,8 @@ Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](..
 - NOT reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62)
 - NOT reached stage 42 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-42)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,6 +50,7 @@ Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](..
 | <span id="stage-72"></span>72 | I have killed Roskelt.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ratdom maze 415](../maps/ratdom_maze_415.md).</span> | stepping on a trigger on [ratdom_maze_415](../maps/ratdom_maze_415.md) | – | – |
 | <span id="stage-90"></span>90 | For all my efforts, I've got a pretty poor reward. **(completes quest)** | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md))<br>[Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | stage 61, stage 62, stage 71, stage 72 | 1,000 XP<br>gives 18× [Gold coins](../items/gold.md)<br>gives 2× [Glass gem](../items/gem1.md)<br>sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37)<br>gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -89,6 +92,17 @@ Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](..
     1. Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) → choose “Yes. Your brother is dead.” — **conditions:** reached stage 71 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-71); reached stage 61 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-61) → **stage 90**; also gives 18× [Gold coins](../items/gold.md), gives 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md). NPC: “Good. I will shower you with gold, jewels and bones.”
     2. Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) → choose “Yes. Your brother is dead.” — **conditions:** reached stage 72 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-72); reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62) → **stage 90**; also gives 18× [Gold coins](../items/gold.md), gives 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md). NPC: “Good. I will shower you with gold, jewels and bones.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 9 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stage 41 journal text changed; stage 42 journal text changed; stage 51 journal text changed; stage 52 journal text changed; stage 61 journal text changed; stage 62 journal text changed (+3 more) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

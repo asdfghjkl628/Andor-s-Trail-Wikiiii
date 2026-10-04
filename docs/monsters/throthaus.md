@@ -66,6 +66,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 4 lines added, 2 lines changed |
+| [v0.8.3](../versions/0.8.3.md) | Dialogue: 3 lines changed<br>· text: “If you are a son of an ordinary farmer. Then, pick up my pitchfork ou…” → “If you are the child of an ordinary farmer. Then, pick up my pitchfor…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

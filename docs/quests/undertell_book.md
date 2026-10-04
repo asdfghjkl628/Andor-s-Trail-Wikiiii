@@ -25,6 +25,8 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 
 - NOT reached stage 10 of [Undertell: What was not written](../quests/undertell_book.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +51,7 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 | <span id="stage-80"></span>80 | The Elytharan ghosts each revealed a different truth: identity, labor and silence. I think Arcir would like to hear about this. | [Brenor](../monsters/brenor.md) ([undertell_1_0](../maps/undertell_1_0.md))<br>walking into a blocked passage on [undertell_1_1](../maps/undertell_1_1.md)<br>[Elytharan cooker slave](../monsters/elytharan_cook_slave.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 50, stage 60, stage 70 | – |
 | <span id="stage-90"></span>90 | I returned to Arcir with what I learned about the Elytharan dead and the omissions in the history of Undertell. **(completes quest)** | [Arcir](../monsters/arcir.md) | stage 80 | 6,666 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -87,6 +90,16 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 
     1. Talk to [Arcir](../monsters/arcir.md) → choose “The Elytharan ghosts remember different things.” — **conditions:** reached stage 80 of [Undertell: What was not written](../quests/undertell_book.md#stage-80); NOT reached stage 90 of [Undertell: What was not written](../quests/undertell_book.md#stage-90) → **stage 90**. NPC: “Of course they do. History records stone and steel, but memory lives in people even after death. You have given voice…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 10 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

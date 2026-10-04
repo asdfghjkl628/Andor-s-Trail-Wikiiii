@@ -25,6 +25,8 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
 - NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -53,6 +55,7 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 | <span id="stage-20"></span>20 | I defeated the monstrous creature that I found on Vaelric's land. This creature was enormous and venomous, feeding on the lifeblood of the swamp.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 28](../maps/galmore_28.md).</span> | stepping on a trigger on [galmore_28](../maps/galmore_28.md) | – | – |
 | <span id="stage-30"></span>30 | Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power. **(completes quest)** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | 2,449 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -69,6 +72,16 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
     1. Talk to [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) → choose “Can you teach me?” — **conditions:** reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30); NOT reached stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59) → **stage 30**. NPC: “See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here,…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 3 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

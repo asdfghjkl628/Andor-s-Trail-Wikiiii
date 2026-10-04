@@ -18,8 +18,16 @@
 |---|---|
 | [Bone-Marshal lich](../monsters/bone_marshal_lich_pearl.md) | 232 |
 | [Embergeist](../monsters/embergeist.md) | 266 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 295 |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 295 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 295 |
 | [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 305 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `undertell_4_01` · Data from v0.8.18</small>

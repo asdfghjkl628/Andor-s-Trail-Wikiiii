@@ -14,12 +14,20 @@
 
 | Name | HP |
 |---|---|
-| [Mordred](../monsters/brightport_huntingdog.md) | 0 |
-| [Oseanpry](../monsters/Brightportthieves5.md) | 0 |
-| [Watchdog](../monsters/brightportthieves4.md) | 0 |
-| [Loudmouth](../monsters/brightportthieves.md) | 0 |
-| [Elysa](../monsters/brightportthieves6.md) | 0 |
 | [Counterfeit](../monsters/brightportthieves2.md) | 0 |
 | [Rowdy thief](../monsters/brightportthieves3.md) | 0 |
+| [Elysa](../monsters/brightportthieves6.md) | 0 |
+| [Oseanpry](../monsters/Brightportthieves5.md) | 0 |
+| [Mordred](../monsters/brightport_huntingdog.md) | 0 |
+| [Loudmouth](../monsters/brightportthieves.md) | 0 |
+| [Watchdog](../monsters/brightportthieves4.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brightport_thieves` · Data from v0.8.18</small>

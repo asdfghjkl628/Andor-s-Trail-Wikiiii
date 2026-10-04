@@ -17,4 +17,12 @@
 |---|---|
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `gamjee_well_1_3` · Data from v0.8.18</small>

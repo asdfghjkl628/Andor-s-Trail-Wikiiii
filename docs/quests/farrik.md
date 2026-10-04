@@ -23,6 +23,8 @@
 
 None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +52,7 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 | <span id="stage-80"></span>80 | I have told Farrik that the security will be lowered tonight. | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 30, stage 50 | – |
 | <span id="stage-90"></span>90 | The guard captain thanked me for helping him plan to catch the thieves. He said he will also tell other guards that I helped him. **(completes quest)** | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | stage 50, stage 80 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -98,6 +101,19 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 
     1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “Yes, they won't expect a thing.” — **conditions:** reached stage 50 of [Night visit](../quests/farrik.md#stage-50); reached stage 80 of [Night visit](../quests/farrik.md#stage-80) → **stage 90**; also gives [Gold coins](../items/gold.md). NPC: “Great. Thank you for your help. Here, take these coins as a token of our appreciation.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Oh you did? Well done. You have my thanks, friend.” → “That's very useful information. Well done. You have my thanks, friend.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -73,7 +73,7 @@
 
     <span id="d-duaina_s_1"></span>**`duaina_s_1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60))* → [duaina_s_1a](#d-duaina_s_1a)
+    - branch 1 *(if reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60))* → [duaina_s_1a](#d-duaina_s_1a)
     - branch 2 → [duaina_s_2](#d-duaina_s_2)
 
     <span id="d-duaina_s_1a"></span>**`duaina_s_1a`** Duaina: “Slaying the beast beneath the prison of Flagstone.”
@@ -142,6 +142,15 @@
     - branch 1 → [duaina_8](#d-duaina_8)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

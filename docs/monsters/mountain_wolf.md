@@ -34,4 +34,12 @@
 - [mountainlake8_cave](../maps/mountainlake8_cave.md)
 - [ratdom_bwm1](../maps/ratdom_bwm1.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `mountain_wolf` · Data from v0.8.18</small>
