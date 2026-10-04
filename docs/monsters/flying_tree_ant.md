@@ -54,4 +54,13 @@
 - [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md)
 - [way_to_sullengard_west_5](../maps/way_to_sullengard_west_5.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.14](../versions/0.8.14.md) | attackCost added (5) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `flying_tree_ant` · Data from v0.8.18</small>

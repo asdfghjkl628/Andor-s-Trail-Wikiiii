@@ -31,6 +31,8 @@
 - NOT reached stage 157 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-157)
 - NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -117,6 +119,7 @@
 | <span id="stage-65"></span>65 | I brought the apples back to Eatloni. Time to let Allares know I'm done with everything. | [Eatloni](../monsters/brightportbakeryoutside.md) ([brightport5](../maps/brightport5.md)) | hand over 15× [Orchard apple](../items/deebo_apples.md), stage 25, stage 40 | sets stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198) |
 | <span id="stage-70"></span>70 | I completed all the tasks at the bakery. **(completes quest)** | [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | stage 5 | 10,000 XP<br>gives 200× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -202,6 +205,17 @@
 
     1. Talk to [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) → choose “Just give me the gold already.” — **conditions:** reached stage 5 of [Bread and circus](../quests/brightport_bakery.md#stage-5); reached stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198) → **stage 70**; also gives 200× [Gold coins](../items/gold.md). NPC: “OK, here you go. Don't spend it all in useless shops. Ideally buy some pastries at our bakery.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 21 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stage 22 journal text changed; stage 25 journal text changed<br>Dialogue: 1 line changed<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

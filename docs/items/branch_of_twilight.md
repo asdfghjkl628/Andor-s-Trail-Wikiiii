@@ -24,4 +24,15 @@
 
 - [Prowling Arantxa](../monsters/sullengard_arantxa.md)
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | hitEffect: {"conditionsTarget": [{"chance": "3", "… → {"conditionsTarget": [{"chance": "3", "… |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `branch_of_twilight` · Data from v0.8.18</small>

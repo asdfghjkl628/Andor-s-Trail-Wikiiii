@@ -17,23 +17,34 @@
 
 | Monster | Chance | Qty |
 |---|---|---|
-| [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | 100% | 1 |
 | [Cave guardian](../monsters/cave_guardian.md) | 100% | 1 |
+| [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | 100% | 1 |
 | [Thief warden](../monsters/g03_thief_2.md) | 60% | 1 |
+| [Rotting corpse](../monsters/rotting_corpse.md) | 10% | 1 |
+| [Walking corpse](../monsters/walking_corpse.md) | 10% | 1 |
+| [Gargoyle](../monsters/gargoyle.md) | 10% | 1 |
+| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 10% | 1 |
 | [Rancid zombie](../monsters/zombie1.md) | 10% | 1 |
 | [Rotting zombie](../monsters/zombie2.md) | 10% | 1 |
 | [Blighted zombie](../monsters/zombie3.md) | 10% | 1 |
 | [Corrupted zombie](../monsters/zombie5.md) | 10% | 1 |
 | [Bloodthirsty zombie](../monsters/zombie6.md) | 10% | 1 |
 | [Tainted zombie](../monsters/zombie7.md) | 10% | 1 |
-| [Rotting corpse](../monsters/rotting_corpse.md) | 10% | 1 |
-| [Walking corpse](../monsters/walking_corpse.md) | 10% | 1 |
-| [Gargoyle](../monsters/gargoyle.md) | 10% | 1 |
-| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 10% | 1 |
 
 ## Sold by
 
 - [Audir](../monsters/audir.md)
 - [Prim armorer](../monsters/prim_armorer.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 10, "increaseA… → {"increaseAttackChance": 10, "increaseA… |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `ironsword1` · Data from v0.8.18</small>

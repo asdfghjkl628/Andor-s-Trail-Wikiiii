@@ -23,6 +23,8 @@
 
 None: talk to [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/tradehouse1.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -72,6 +74,7 @@ None: talk to [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/trade
 | <span id="stage-110"></span>110 | I have been taught one weapon type skill and one armor type skill from Falothen and Fayvara. I should go see Maevalia again. | [Falothen](../monsters/falothen1.md) ([tradehouse0a](../maps/tradehouse0a.md))<br>[Fayvara](../monsters/fayvara1.md) ([tradehouse0a](../maps/tradehouse0a.md)) | stage 70, stage 91 | – |
 | <span id="stage-115"></span>115 | Maevalia thanked me for helping the people of Charwood. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Tradehouse0](../maps/tradehouse0.md).</span> | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | stage 60, stage 65, stage 90 | 3,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -216,6 +219,20 @@ None: talk to [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/trade
 
     1. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “I've spoken to them both.” — **conditions:** reached stage 60 of [Destined for great things](../quests/charwood1.md#stage-60); reached stage 65 of [Destined for great things](../quests/charwood1.md#stage-65); reached stage 90 of [Destined for great things](../quests/charwood1.md#stage-90) → **stage 115**. NPC: “Good. We are truly grateful for the help that you have provided to us from the Charwood heights.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 11 journal text changed; stage 41 journal text changed; stage 43 journal text changed; stage 65 journal text changed<br>Dialogue: 10 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…”<br>· text: “It's just north of here. Take the path west of our camp here, and hea…” → “It's just north of here. Take the path west of our camp here, and hea…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
+| [v0.7.12](../versions/0.7.12.md) | stages added: 76<br>Dialogue: 2 lines added, 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

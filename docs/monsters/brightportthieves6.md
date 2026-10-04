@@ -21,6 +21,7 @@
 ## Quests
 
 - [Boxed in](../quests/brightport_thieves.md): stages 10, 50, 70
+- [Search for Andor](../quests/andor.md): stages 131
 - [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 130, 196, 244, 256
 
 ??? quote "Dialogue (43 lines)"
@@ -37,8 +38,8 @@
 
     <span id="d-brightport_elysa_common"></span>**`brightport_elysa_common`** Elysa: “Hello $playername, I don't have any work to give you.”
 
-    - “You haven't told me about Andor.” *(if NOT reached stage 131 of [andor (hidden flag)](../quests/andor.md#stage-131))* → [brightport_elysa_andor_selector](#d-brightport_elysa_andor_selector)
-    - “Can you tell me about Andor again?” *(if reached stage 131 of [andor (hidden flag)](../quests/andor.md#stage-131))* → [brightport_elysa_caught4](#d-brightport_elysa_caught4)
+    - “You haven't told me about Andor.” *(if NOT reached stage 131 of [Search for Andor](../quests/andor.md#stage-131))* → [brightport_elysa_andor_selector](#d-brightport_elysa_andor_selector)
+    - “Can you tell me about Andor again?” *(if reached stage 131 of [Search for Andor](../quests/andor.md#stage-131))* → [brightport_elysa_caught4](#d-brightport_elysa_caught4)
 
     <span id="d-brightport_meeting"></span>**`brightport_meeting`** *(silent check: the first matching branch below is taken)*
 
@@ -63,7 +64,7 @@
 
     <span id="d-brightport_elysa_andor_selector"></span>**`brightport_elysa_andor_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 220 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-220); NOT reached stage 131 of [andor (hidden flag)](../quests/andor.md#stage-131))* → [brightport_elysa_andor](#d-brightport_elysa_andor)
+    - Next *(if NOT reached stage 220 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-220); NOT reached stage 131 of [Search for Andor](../quests/andor.md#stage-131))* → [brightport_elysa_andor](#d-brightport_elysa_andor)
     - Next *(if reached stage 220 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-220); reached stage 244 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-244))* → [brightport_elysa_andor](#d-brightport_elysa_andor)
     - Next *(if reached stage 220 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-220); NOT reached stage 244 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-244))* → [brightport_elysa_jail1](#d-brightport_elysa_jail1)
 
@@ -114,7 +115,7 @@
     - “Here it is.” *(if pay 1,000 gold)* → [brightport_elysa_gold](#d-brightport_elysa_gold)
     - “I don't have the gold now. I will come later.” → *conversation ends*
 
-    <span id="d-brightport_elysa_caught5"></span>**`brightport_elysa_caught5`** Elysa: “He wanted to know who our members are and what skills they possess. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. I shared this information with your brother, as his little…” — **effects:** sets stage 131 of [andor (hidden flag)](../quests/andor.md#stage-131)
+    <span id="d-brightport_elysa_caught5"></span>**`brightport_elysa_caught5`** Elysa: “He wanted to know who our members are and what skills they possess. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. I shared this information with your brother, as his little…” — **effects:** sets stage 131 of [Search for Andor](../quests/andor.md#stage-131)
 
     - “Interesting, is that all?” → [brightport_elysa15](#d-brightport_elysa15)
 
@@ -186,8 +187,8 @@
 
     <span id="d-brightport_thiefboss_introduction3"></span>**`brightport_thiefboss_introduction3`** Elysa: “I don't know anything more than what Umar has told you. However there is a single detail about your brother that might help you.” — **effects:** sets stage 130 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-130)
 
-    - “A detail about my brother? I'm all ears.” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_elysa](#d-brightport_elysa)
-    - “My journey in search of him is over, but I wouldn't mind hearing something new.” *(if reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_elysa](#d-brightport_elysa)
+    - “A detail about my brother? I'm all ears.” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_elysa](#d-brightport_elysa)
+    - “My journey in search of him is over, but I wouldn't mind hearing something new.” *(if reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_elysa](#d-brightport_elysa)
 
     <span id="d-brightport_elysa_jail3"></span>**`brightport_elysa_jail3`** [Elysa](../monsters/brightportthieves6.md): “Have you come to make a fool of yourself $playername? The package is empty.” — **effects:** sets stage 196 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-196)
 
@@ -219,6 +220,15 @@
     - Next → [brightport_elysa0](#d-brightport_elysa0)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 43 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Your work was supposed to pay for it, however now I feel inclined to …” → “Your work was supposed to pay for it, however now I feel inclined to …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

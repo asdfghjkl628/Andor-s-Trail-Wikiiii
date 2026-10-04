@@ -17,8 +17,17 @@
 |---|---|
 | [Weak fungi](../monsters/weak_fungi.md) | 20 |
 | [Fungi](../monsters/mid_fungi.md) | 25 |
-| [Lombric ball](../monsters/lombric_ball.md) | 30 |
 | [Lombric beast](../monsters/lombric_beast.md) | 30 |
+| [Lombric ball](../monsters/lombric_ball.md) | 30 |
 | [Dangerous fungi](../monsters/dangerous_fungi.md) | 55 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `bogsten3` · Data from v0.8.18</small>

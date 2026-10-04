@@ -15,9 +15,19 @@
 
 | Name | HP |
 |---|---|
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 |
 | [Gornaud](../monsters/gornaud.md) | 95 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.7.9](../versions/0.7.9.md) | map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain53` · Data from v0.8.18</small>

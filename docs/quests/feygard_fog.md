@@ -31,6 +31,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +58,7 @@
 | <span id="stage-9"></span>9 | 9=Fogs ended<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Swamp hut](../maps/swamp_hut.md).</span> | [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md))<br>stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) | – | clears stage 6 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6)<br>clears stage 7 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7)<br>sets stage 90 of [Fog in the woods](../quests/fogmonster.md#stage-90)<br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13<br>sets stage 70 of [Fog in the woods](../quests/fogmonster.md#stage-70)<br>gives 1× [Quarterstaff](../items/swampwitch_staff.md) |
 | <span id="stage-10"></span>10 | 10=Board<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Swamp hut](../maps/swamp_hut.md).</span> | stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -107,6 +110,16 @@
 
     1. stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-10) → **stage 10**. NPC: “Oh what's this? How unusual!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 18 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

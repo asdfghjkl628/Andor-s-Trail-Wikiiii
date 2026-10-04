@@ -24,6 +24,8 @@ Start with [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehou
 
 - reached stage 15 of [Long lost memories](../quests/lleglaris.md#stage-15)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -39,6 +41,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-30"></span>30 | I have given the amulet back to Lleglaris. | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | hand over 1× [Lleglaris' amulet](../items/lleglaris.md), stage 15 | – |
 | <span id="stage-40"></span>40 | As thanks, Lleglaris offered to trade some of his items with me. **(completes quest)** | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | stage 30 | 3,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -59,6 +62,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [Long lost memories](../quests/lleglaris.md#stage-30) → **stage 40**. NPC: “Anyway, see this table here? It's just some old trinkets that I've gathered along the years. Maybe some of them could…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

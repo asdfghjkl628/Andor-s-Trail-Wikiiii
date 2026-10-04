@@ -25,4 +25,16 @@ East: Loneford." style="left:43.333%;top:43.333%;width:3.333%;height:3.333%"></s
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `fields1` · Data from v0.8.18</small>

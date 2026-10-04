@@ -26,14 +26,26 @@
 
 | Name | HP |
 |---|---|
-| [Prim citizen](../monsters/prim_citizen.md) | 0 |
-| [General's henchman](../monsters/ortholion_guard1.md) | 0 |
-| [Prim evoker](../monsters/prim_evoker.md) | 0 |
 | [Ehrenfest](../monsters/ehrenfest.md) | 0 |
-| [General's henchman](../monsters/ortholion_guard_hidden.md) | 0 |
+| [Prim citizen](../monsters/prim_citizen.md) | 0 |
+| [Prim commoner](../monsters/prim_commoner.md) | 0 |
+| [General's henchman](../monsters/ortholion_guard1.md) | 0 |
+| [Prim resident](../monsters/prim_resident.md) | 0 |
+| [Prim evoker](../monsters/prim_evoker.md) | 0 |
 | [General Ortholion](../monsters/ortholion_hidden.md) | 0 |
 | [Moyra](../monsters/moyra.md) | 0 |
-| [Prim resident](../monsters/prim_resident.md) | 0 |
-| [Prim commoner](../monsters/prim_commoner.md) | 0 |
+| [General's henchman](../monsters/ortholion_guard_hidden.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.14](../versions/0.7.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain11` · Data from v0.8.18</small>

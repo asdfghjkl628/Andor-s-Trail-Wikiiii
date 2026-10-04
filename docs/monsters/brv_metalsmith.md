@@ -159,6 +159,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 25 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…”<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…” |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

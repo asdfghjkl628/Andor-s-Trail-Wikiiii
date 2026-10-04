@@ -17,4 +17,15 @@
 |---|---|---|
 | [Oakleigh](../monsters/sullengard_bartender.md) | 100% | 10-12 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | category: food → drink |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `sullengard_dark_beer_sour` · Data from v0.8.18</small>

@@ -25,6 +25,8 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 
 - reached stage 10 of [Feygard errands](../quests/feygard_shipment.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -62,6 +64,7 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 | <span id="stage-81"></span>81 | Gandoren thanked me for helping him deliver the shipment. He never suspected anything. I should also report back to Ailshara. | [Gandoren](../monsters/gandoren.md) | stage 25, stage 60 | – |
 | <span id="stage-82"></span>82 | I have reported back to Ailshara. **(completes quest)** | [Ailshara](../monsters/ailshara.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) | stage 35, stage 55, stage 81 | 500 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -126,6 +129,17 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 
     1. Talk to [Ailshara](../monsters/ailshara.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “Yes, it is done.” — **conditions:** reached stage 35 of [Feygard errands](../quests/feygard_shipment.md#stage-35); reached stage 55 of [Feygard errands](../quests/feygard_shipment.md#stage-55); reached stage 81 of [Feygard errands](../quests/feygard_shipment.md#stage-81) → **stage 82**. NPC: “Excellent! You do indeed walk with the Shadow my friend. I am glad to hear that there are at least a few decent folk…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Ok then.” → “OK then.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

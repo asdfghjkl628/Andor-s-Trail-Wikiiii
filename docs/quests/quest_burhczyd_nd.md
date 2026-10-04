@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 94 |
 | **Started by** | stepping on a trigger on [crossglen](../maps/crossglen.md) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd12.md), [Burhczyd](../monsters/burhczyd4.md), [Burhczyd](../monsters/burhczyd11.md), [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd3.md), [Burhczyd](../monsters/burhczyd18.md) +38 |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd14.md), [Burhczyd](../monsters/burhczyd2.md), [Burhczyd](../monsters/burhczyd7.md), [Burhczyd](../monsters/burhczyd10.md), [Burhczyd](../monsters/burhczyd20.md), [Burhczyd](../monsters/burhczyd4.md) +38 |
 | **Locations** | [blackwater_mountain22](../maps/blackwater_mountain22.md), [blackwater_mountain43](../maps/blackwater_mountain43.md), [brightport_bakery](../maps/brightport_bakery.md), [brimhaven_tavern1](../maps/brimhaven_tavern1.md) |
 | **Related quests** | 1 |
 
@@ -28,6 +28,8 @@ Start with stepping on a trigger on [crossglen](../maps/crossglen.md). Required:
 - latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
 - NOT reached stage 91 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-91)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -139,8 +141,9 @@ Start with stepping on a trigger on [crossglen](../maps/crossglen.md). Required:
 | <span id="stage-921"></span>921 | 921=finished merchant ... | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd10.md) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd11.md) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 621 | removes monsters from crossglen_hall<br>clears stage 621 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-621)<br>removes monsters from fallhaven_tavern<br>removes monsters from loneford6<br>removes monsters from vilegard_tavern<br>removes monsters from stoutford_tavern<br>removes monsters from blackwater_mountain43<br>removes monsters from remgard_tavern0<br>removes monsters from woodhouse2<br>removes monsters from blackwater_mountain22<br>removes monsters from brimhaven_tavern1<br>removes monsters from sullengard_tavern<br>removes monsters from houseatcrossroads0<br>removes monsters from foaming_flask<br>removes monsters from brightport_bakery |
 | <span id="stage-922"></span>922 | 922=finished merchant ... | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd10.md) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd11.md) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 622 | removes monsters from crossglen_hall<br>clears stage 622 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-622)<br>removes monsters from fallhaven_tavern<br>removes monsters from loneford6<br>removes monsters from vilegard_tavern<br>removes monsters from stoutford_tavern<br>removes monsters from blackwater_mountain43<br>removes monsters from remgard_tavern0<br>removes monsters from woodhouse2<br>removes monsters from blackwater_mountain22<br>removes monsters from brimhaven_tavern1<br>removes monsters from sullengard_tavern<br>removes monsters from houseatcrossroads0<br>removes monsters from foaming_flask<br>removes monsters from brightport_bakery |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -1602,6 +1605,21 @@ Start with stepping on a trigger on [crossglen](../maps/crossglen.md). Required:
     25. Talk to [Burhczyd](../monsters/burhczyd11.md) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “Burhczyd, is it really you? Wait, don't run away ...” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-210) is 210 → **stage 922**; also removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from fallhaven_tavern, removes monsters from fallhaven_tavern, removes monsters from loneford6, removes monsters from loneford6, removes monsters from vilegard_tavern, removes monsters from vilegard_tavern, removes monsters from stoutford_tavern, removes monsters from stoutford_tavern, removes monsters from blackwater_mountain43, removes monsters from blackwater_mountain43, removes monsters from remgard_tavern0, removes monsters from remgard_tavern0, removes monsters from woodhouse2, removes monsters from woodhouse2, removes monsters from blackwater_mountain22, removes monsters from blackwater_mountain22, removes monsters from brimhaven_tavern1, removes monsters from brimhaven_tavern1, removes monsters from sullengard_tavern, removes monsters from sullengard_tavern, removes monsters from houseatcrossroads0, removes monsters from houseatcrossroads0, removes monsters from foaming_flask, removes monsters from foaming_flask, removes monsters from brightport_bakery, removes monsters from brightport_bakery, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall
     *…and 19 more routes.*
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 37 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
+| [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
+| [v0.7.11](../versions/0.7.11.md) | stages added: 91, 92, 93, 94, 95, 97, 98, 99, 610, 611, 612, 710, 711, 712, 910, 911, 912; stage 68 journal text changed; stage 78 journal text changed<br>Dialogue: 10 lines added, 21 lines changed<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…”<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.” |
+| [v0.8.2](../versions/0.8.2.md) | stages added: 96; stage 611 journal text changed; stage 711 journal text changed; stage 911 journal text changed<br>Dialogue: 12 lines changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | journal visibility changed; stages added: 51, 52, 53, 54, 55, 56, 57, 58, 59, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922; stage 612 journal text changed; stage 712 journal text changed; stage 912 journal text changed<br>Dialogue: 74 lines added, 26 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

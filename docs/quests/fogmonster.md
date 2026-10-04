@@ -25,6 +25,8 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 
 - NOT reached stage 5 of [Fog in the woods](../quests/fogmonster.md#stage-5)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +54,7 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 | <span id="stage-90"></span>90 | You convinced the witch Mim to replace the fog with a distraction spell. **(completes quest)** | [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) | – | 1,000 XP<br>sets stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1)<br>sets stage 2 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2)<br>sets stage 3 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3)<br>sets stage 4 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4)<br>sets stage 5 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5)<br>clears stage 6 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6)<br>clears stage 7 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7)<br>sets stage 9 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9)<br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13 |
 | <span id="stage-92"></span>92 | Madame Mim gave you a bottle of her swamp water. | [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) | – | 1,000 XP<br>gives 1× [Madame Mim's Medicine](../items/swampwitch_health.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -92,6 +95,16 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 
     1. Talk to [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) → choose “Everlasting thankfulness” → **stage 92**; also gives 1× [Madame Mim's Medicine](../items/swampwitch_health.md). NPC: “You have it. And now go and finally leave me alone. Otherwise I'll turn you into a frog. [Muttering] Here, take this…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 12 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

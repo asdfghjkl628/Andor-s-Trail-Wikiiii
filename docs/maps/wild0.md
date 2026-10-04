@@ -18,10 +18,21 @@
 | Name | HP |
 |---|---|
 | [Erinith](../monsters/erinith.md) | 0 |
-| [Forest wasp](../monsters/forest_wasp.md) | 6 |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
+| [Forest wasp](../monsters/forest_wasp.md) | 6 |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 |
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `wild0` · Data from v0.8.18</small>

@@ -26,6 +26,10 @@
 | [Ruby gem](../items/gem2.md) | 100% | 5 |
 | [Polished gem](../items/gem3.md) | 100% | 5 |
 
+## Quests
+
+- [Search for Andor](../quests/andor.md): stages 20, 30
+
 ??? quote "Dialogue (8 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -33,18 +37,18 @@
     <span id="d-gruil1"></span>**`gruil1`** Gruil: “Psst, hey. Wanna trade?”
 
     - “Sure, let's trade.” → *shop opens*
-    - “I heard that you talked to my brother a while ago.” *(if reached stage 10 of [andor (hidden flag)](../quests/andor.md#stage-10))* → [gruil_select](#d-gruil_select)
+    - “I heard that you talked to my brother a while ago.” *(if reached stage 10 of [Search for Andor](../quests/andor.md#stage-10))* → [gruil_select](#d-gruil_select)
 
     <span id="d-gruil_select"></span>**`gruil_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30))* → [gruil_return](#d-gruil_return)
+    - branch 1 *(if reached stage 30 of [Search for Andor](../quests/andor.md#stage-30))* → [gruil_return](#d-gruil_return)
     - branch 2 → [gruil2](#d-gruil2)
 
     <span id="d-gruil_return"></span>**`gruil_return`** Gruil: “Look kid, I already told you.”
 
     - Next → [gruil_andor1](#d-gruil_andor1)
 
-    <span id="d-gruil2"></span>**`gruil2`** Gruil: “Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you.” — **effects:** sets stage 20 of [andor (hidden flag)](../quests/andor.md#stage-20)
+    <span id="d-gruil2"></span>**`gruil2`** Gruil: “Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you.” — **effects:** sets stage 20 of [Search for Andor](../quests/andor.md#stage-20)
 
     - “Here, I have a poison gland for you.” *(if hand over 1× [Poison gland](../items/gland.md))* → [gruil_complete](#d-gruil_complete)
     - “OK, I'll bring one.” → *conversation ends*
@@ -53,7 +57,7 @@
 
     - Next → [gruil_andor2](#d-gruil_andor2)
 
-    <span id="d-gruil_complete"></span>**`gruil_complete`** Gruil: “Thanks a lot kid. This will do just fine.” — **effects:** sets stage 30 of [andor (hidden flag)](../quests/andor.md#stage-30)
+    <span id="d-gruil_complete"></span>**`gruil_complete`** Gruil: “Thanks a lot kid. This will do just fine.” — **effects:** sets stage 30 of [Search for Andor](../quests/andor.md#stage-30)
 
     - Next → [gruil_andor1](#d-gruil_andor1)
 
@@ -66,6 +70,15 @@
     - “Thanks, bye.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

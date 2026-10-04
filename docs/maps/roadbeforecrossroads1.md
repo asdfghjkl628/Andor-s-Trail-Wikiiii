@@ -18,11 +18,22 @@
 | Name | HP |
 |---|---|
 | [Giant dungfly](../monsters/dungfly1.md) | 16 |
-| [Olive ooze](../monsters/jelly1.md) | 20 |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 |
+| [Olive ooze](../monsters/jelly1.md) | 20 |
 | [Aggressive dungfly](../monsters/dungfly2.md) | 23 |
 | [Wild fox](../monsters/wild_fox.md) | 25 |
 | [Emerald jelly](../monsters/jelly2.md) | 35 |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `roadbeforecrossroads1` · Data from v0.8.18</small>

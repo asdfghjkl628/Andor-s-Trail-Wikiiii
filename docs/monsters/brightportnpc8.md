@@ -34,7 +34,7 @@
 
     <span id="d-brightport_janwick"></span>**`brightport_janwick`** [Janwick](../monsters/brightportnpc8.md): “Where did I put my glasses? Was it here... or maybe over there?”
 
-    - Next *(if reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110))* → [brightport_janwick1](#d-brightport_janwick1)
+    - Next *(if reached stage 110 of [Search for Andor](../quests/andor.md#stage-110))* → [brightport_janwick1](#d-brightport_janwick1)
 
     <span id="d-brightport_janwick4"></span>**`brightport_janwick4`** Janwick: “My eyesight's not what it was...”
 
@@ -51,6 +51,14 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 6 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

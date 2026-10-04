@@ -199,6 +199,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...”<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I don't know if was just me imagining things or if something truly ha…” → “I don't know if it was just me imagining things or if something truly…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+| [v0.8.7](../versions/0.8.7.md) | monsterClass added (humanoid) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

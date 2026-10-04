@@ -19,4 +19,14 @@ When Emil finally arrived back in the village, everyone welcomed him. He told th
 And if they didn't die, they're still afraid today. But they also know that courage is much stronger than any fear.
 
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `mg2_rewarded_book` · Data from v0.8.18</small>

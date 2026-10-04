@@ -21,6 +21,7 @@
 ## Quests
 
 - [Rumblings](../quests/rumblings.md): stages 30, 60, 70
+- [Search for Andor](../quests/andor.md): stages 86
 
 ??? quote "Dialogue (30 lines)"
 
@@ -102,7 +103,7 @@
 
     - “Well, I heard they may be related to my brother Andor. I'm looking for him.” → [glasforn_rumblings20_1](#d-glasforn_rumblings20_1)
 
-    <span id="d-glasforn_rumblings60_2"></span>**`glasforn_rumblings60_2`** Glasforn: “When he came, he asked me for a "private" place where he could do his weird stuff undisturbed. It had to be underground, and it had to be in the city. I have no idea why.” — **effects:** sets stage 86 of [andor (hidden flag)](../quests/andor.md#stage-86)
+    <span id="d-glasforn_rumblings60_2"></span>**`glasforn_rumblings60_2`** Glasforn: “When he came, he asked me for a "private" place where he could do his weird stuff undisturbed. It had to be underground, and it had to be in the city. I have no idea why.” — **effects:** sets stage 86 of [Search for Andor](../quests/andor.md#stage-86)
 
     - Next → [glasforn_rumblings60_3](#d-glasforn_rumblings60_3)
 
@@ -165,6 +166,17 @@
     - Next → [glasforn_rumblings70_0](#d-glasforn_rumblings70_0)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 30 lines added |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then he laughed some more, and told me that all I had to do was kill …” → “Then he laughed some more, and told me that all I had to do was kill …” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “OK, I can believe that you are Andor's brother. You should have told …” → “OK, I can believe that you are Andor's sibling. You should have told …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

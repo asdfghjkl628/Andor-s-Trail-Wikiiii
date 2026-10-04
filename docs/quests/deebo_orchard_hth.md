@@ -26,6 +26,8 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 - NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50)
 - latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -44,6 +46,7 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 | <span id="stage-40"></span>40 | I killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as proof that I've killed it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard west ravine](../maps/sullengard_west_ravine.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods gj1](../maps/sullengard_woods_gj1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods12](../maps/sullengard_woods12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods4](../maps/sullengard_woods4.md).</span> | stepping on a trigger on [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | – |
 | <span id="stage-50"></span>50 | I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me. **(completes quest)** | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md), stage 40 | 10,000 XP<br>gives 1× [Golden jackal fur](../items/golden_jackal_fur.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -65,6 +68,16 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 
     1. Talk to [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) → choose “I have killed the Golden jackal and I have the requested proof.” — **conditions:** NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50); hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) is 40 → **stage 50**; also gives 1× [Golden jackal fur](../items/golden_jackal_fur.md). NPC: “Wonderful. Let me have it. [You hand over the Golden jackal's fur] Ah yes, this is indeed proof it is dead.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 5 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -27,6 +27,8 @@ Start with stepping on a trigger on [galmore_9](../maps/galmore_9.md). Required:
 
 - reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -84,6 +86,7 @@ Start with stepping on a trigger on [galmore_9](../maps/galmore_9.md). Required:
 | <span id="stage-90"></span>90 | 90=No star drops<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 9](../maps/galmore_9.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lake shore road 9](../maps/lake_shore_road_9.md).</span> | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md))<br>[Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md))<br>stepping on a trigger on [galmore_9](../maps/galmore_9.md) | – | sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20) |
 | <span id="stage-91"></span>91 | 91=End of quest | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md))<br>[Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) | sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20)<br>sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -143,6 +146,16 @@ Start with stepping on a trigger on [galmore_9](../maps/galmore_9.md). Required:
     5. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “No. I will keep them.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 91**; also sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40). NPC: “NOOOOO!!”
     6. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “No. I will keep them.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 91**; also sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40). NPC: “NOOOOO!!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 14 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

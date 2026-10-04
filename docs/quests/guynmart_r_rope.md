@@ -25,6 +25,8 @@
 
 None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -41,6 +43,7 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
 | <span id="stage-2"></span>2 | 2=down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | stage 1 | clears stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1)<br>applies condition stunned<br>applies condition bone_fracture |
 | <span id="stage-11"></span>11 | 11=rope2 set<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md)<br>[Rob](../monsters/guynmart_rob6.md) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) | – | removes monsters from guynmart_wood_7 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -61,6 +64,16 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
     2. Talk to [Rob](../monsters/guynmart_rob6.md) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) → choose “Yes. Could you drop the rope down?” → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
     3. stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md) → choose “Yes. Could you drop the rope down?” — **conditions:** NOT reached stage 11 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-11); reached stage 80 of [Roses](../quests/guynmart.md#stage-80) → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 5 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

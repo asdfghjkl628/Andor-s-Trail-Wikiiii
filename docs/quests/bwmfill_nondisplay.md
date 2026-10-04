@@ -28,6 +28,8 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 - NOT reached stage 41 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-41)
 - reached stage 80 of [Young merchant](../quests/quest_burhczyd.md#stage-80)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,6 +50,7 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 | <span id="stage-43"></span>43 | BMP box with normal BMP<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven4](../maps/brimhaven4.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossroads](../maps/crossroads.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fields6](../maps/fields6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Remgard0](../maps/remgard0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road1](../maps/road1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads2](../maps/roadbeforecrossroads2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads6](../maps/roadbeforecrossroads6.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild6](../maps/wild6.md).</span> | stepping on a trigger on [brimhaven4](../maps/brimhaven4.md) | carry 1× [Andor's bonemeal box](../items/guynmart_bonemealbox.md), carry 1× [Bonemeal potion](../items/bonemeal_potion.md) | – |
 | <span id="stage-44"></span>44 | Killed Tunlon's sheep detected<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Bwmfill3](../maps/bwmfill3.md).</span> | stepping on a trigger on [bwmfill3](../maps/bwmfill3.md)<br>[Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | – | removes monsters from bwmfill3<br>spawns monsters on bwmfill3 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -74,6 +77,18 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
     1. stepping on a trigger on [bwmfill3](../maps/bwmfill3.md) → the conversation leads here automatically — **conditions:** killed 1× [Mountain Sheep](../monsters/bwm_sheep1.md); NOT reached stage 44 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44) → **stage 44**; also removes monsters from bwmfill3, spawns monsters on bwmfill3. NPC: “You filthy MURDERER!!”
     2. Talk to [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) → the conversation leads here automatically — **conditions:** killed 1× [Mountain Sheep](../monsters/bwm_sheep1.md); NOT reached stage 44 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44) → **stage 44**; also removes monsters from bwmfill3, spawns monsters on bwmfill3. NPC: “You filthy MURDERER!!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line added |
+| [v0.8.10](../versions/0.8.10.md) | Added<br>Dialogue: 4 lines added, 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

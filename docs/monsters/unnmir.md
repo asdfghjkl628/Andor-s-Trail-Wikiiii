@@ -14,14 +14,18 @@
 | Critical skill | 0 |
 | Critical multiplier | 0 |
 
+## Quests
+
+- [Lost treasures](../quests/nocmar.md): stages 10, 50
+
 ??? quote "Dialogue (24 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
     <span id="d-unnmir"></span>**`unnmir`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-10) is 10)* → [unnmir_r](#d-unnmir_r)
-    - branch 2 *(if reached stage 40 of [nocmar (hidden flag)](../quests/nocmar.md#stage-40))* → [unnmir_hs_10](#d-unnmir_hs_10)
+    - branch 1 *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-10) is 10)* → [unnmir_r](#d-unnmir_r)
+    - branch 2 *(if reached stage 40 of [Lost treasures](../quests/nocmar.md#stage-40))* → [unnmir_hs_10](#d-unnmir_hs_10)
     - branch 3 → [unnmir_0](#d-unnmir_0)
 
     <span id="d-unnmir_r"></span>**`unnmir_r`** Unnmir: “Hello again. You should go talk to Nocmar.”
@@ -30,12 +34,12 @@
 
     <span id="d-unnmir_hs_10"></span>**`unnmir_hs_10`** Unnmir: “You've come back to visit me?”
 
-    - “Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot carry it.” *(if NOT reached stage 50 of [nocmar (hidden flag)](../quests/nocmar.md#stage-50))* → [unnmir_hs_20](#d-unnmir_hs_20)
+    - “Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot carry it.” *(if NOT reached stage 50 of [Lost treasures](../quests/nocmar.md#stage-50))* → [unnmir_hs_20](#d-unnmir_hs_20)
     - “I don't want to hold you from your busy day. I will leave now.” → *conversation ends*
 
     <span id="d-unnmir_0"></span>**`unnmir_0`** Unnmir: “Hi there.”
 
-    - “There was a drunk outside the tavern that told me a story about you two.” *(if reached stage 100 of [fallhavendrunk (hidden flag)](../quests/fallhavendrunk.md#stage-100))* → [unnmir_1](#d-unnmir_1)
+    - “There was a drunk outside the tavern that told me a story about you two.” *(if reached stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100))* → [unnmir_1](#d-unnmir_1)
     - “Inside Undertell, I stumbled across the remains of an adventurer. Among his possessions, he had a 'Jewel of Fallhaven'.” *(if reached stage 10 of [Undertell: What was not written](../quests/undertell_book.md#stage-10); NOT reached stage 40 of [Undertell: What was not written](../quests/undertell_book.md#stage-40); carry 1× [Undertell: Its Ghosts and History](../items/undertell_book.md))* → [unnmir_undertell_book_10](#d-unnmir_undertell_book_10)
 
     <span id="d-unnmir_13"></span>**`unnmir_13`** Unnmir: “His house is just southwest of the tavern.”
@@ -78,7 +82,7 @@
 
     - “OK, you don't know then. Thanks anyway.” → *conversation ends*
 
-    <span id="d-unnmir_hs_30"></span>**`unnmir_hs_30`** [Unnmir](../monsters/unnmir.md): “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged, you'll need to brave the peak. No one else can do this but you.” — **effects:** sets stage 50 of [nocmar (hidden flag)](../quests/nocmar.md#stage-50)
+    <span id="d-unnmir_hs_30"></span>**`unnmir_hs_30`** [Unnmir](../monsters/unnmir.md): “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged, you'll need to brave the peak. No one else can do this but you.” — **effects:** sets stage 50 of [Lost treasures](../quests/nocmar.md#stage-50)
 
     - “Great. Thanks. That helps a lot.” → *conversation ends*
 
@@ -111,7 +115,7 @@
     - “Yes” → [unnmir_11](#d-unnmir_11)
     - “No, not really.” → [unnmir_12](#d-unnmir_12)
 
-    <span id="d-unnmir_11"></span>**`unnmir_11`** Unnmir: “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by the west side of town. Tell him I sent you.” — **effects:** sets stage 10 of [nocmar (hidden flag)](../quests/nocmar.md#stage-10)
+    <span id="d-unnmir_11"></span>**`unnmir_11`** Unnmir: “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by the west side of town. Tell him I sent you.” — **effects:** sets stage 10 of [Lost treasures](../quests/nocmar.md#stage-10)
 
     - Next → [unnmir_13](#d-unnmir_13)
 
@@ -119,6 +123,16 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…”<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

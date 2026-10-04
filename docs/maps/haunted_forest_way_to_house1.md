@@ -17,4 +17,12 @@
 |---|---|
 | [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 169 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.3](../versions/0.8.3.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `haunted_forest_way_to_house1` · Data from v0.8.18</small>

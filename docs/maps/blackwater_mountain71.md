@@ -25,4 +25,12 @@
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 |
 | [Tough venomfang](../monsters/tough_venomfang.md) | 41 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `blackwater_mountain71` · Data from v0.8.18</small>

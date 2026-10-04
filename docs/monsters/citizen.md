@@ -32,6 +32,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Hm, I might have seen someone matching that description a few days ag…” → “Hmm, I might have seen someone matching that description a few days a…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “Hmm, I might have seen someone matching that description a few days a…” → “Hmm, I might have seen someone that looks a bit like you a few days a…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

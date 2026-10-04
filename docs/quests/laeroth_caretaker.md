@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 180) |
 | **Started by** | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) |
-| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin_b.md), [Jerelin](../monsters/jerelin.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
+| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin_b.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
 | **Locations** | [laerothmanor1](../maps/laerothmanor1.md), [laerothtomb1](../maps/laerothtomb1.md) |
 | **Total XP** | 18,000 |
 | **Related quests** | 2 |
@@ -26,6 +26,8 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 - reached stage 10 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-10)
 - NOT reached stage 30 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-30)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -74,6 +76,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 | <span id="stage-170"></span>170 | I spoke to Jerelin again, and told him of Audela's wishes. He told me he will release the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothtomb1](../maps/laerothtomb1.md).</span> | [Jerelin](../monsters/jerelin_b.md) ([laerothtomb1](../maps/laerothtomb1.md))<br>stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | gives 1× [Depleted oegyth crystal](../items/oegyth7.md)<br>removes monsters from laerothtomb1 |
 | <span id="stage-180"></span>180 | I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it. **(completes quest)**<br><span class="qnote">🗺️ Part of [Laerothtomb1](../maps/laerothtomb1.md) visibly changes.</span> | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) | stage 10, stage 170 | 18,000 XP<br>removes monsters from laerothmanor1<br>sets stage 120 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-120) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -167,6 +170,18 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 
     1. Talk to [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) → choose “Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you…” — **conditions:** reached stage 10 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-10); reached stage 170 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-170) → **stage 180**; also removes monsters from laerothmanor1, sets stage 120 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-120). NPC: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 21 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed<br>· text: “This looks interesting. Could be a jewelry box. I has "A" inscribed o…” → “This looks interesting. Could be a jewelry box. It has "A" inscribed …” |
+| [v0.8.13](../versions/0.8.13.md) | stage 170 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

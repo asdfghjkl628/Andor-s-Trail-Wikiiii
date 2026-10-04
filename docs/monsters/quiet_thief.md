@@ -112,6 +112,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
+| [v0.7.12](../versions/0.7.12.md) | name: Shady thief → Pixtumn<br>Dialogue: 2 lines changed<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?”<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?”<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

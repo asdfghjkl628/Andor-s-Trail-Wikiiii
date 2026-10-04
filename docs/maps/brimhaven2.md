@@ -21,13 +21,24 @@
 
 | Name | HP |
 |---|---|
-| [Ito](../monsters/brv_guard_deputy.md) | 0 |
-| [Commoner](../monsters/brv_villager7.md) | 0 |
-| [Woodcutter](../monsters/brv_woodcutter.md) | 0 |
-| [Peasant](../monsters/brv_farmer.md) | 0 |
 | [Commoner](../monsters/brv_villager6.md) | 0 |
-| [Commoner](../monsters/brv_villager8.md) | 0 |
+| [Peasant](../monsters/brv_farmer.md) | 0 |
+| [Ito](../monsters/brv_guard_deputy.md) | 0 |
 | [Peasant girl](../monsters/brv_farmer_girl.md) | 0 |
+| [Commoner](../monsters/brv_villager8.md) | 0 |
+| [Woodcutter](../monsters/brv_woodcutter.md) | 0 |
 | [Commoner](../monsters/brv_villager10.md) | 0 |
+| [Commoner](../monsters/brv_villager7.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brimhaven2` · Data from v0.8.18</small>

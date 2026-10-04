@@ -31,6 +31,15 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 1 line added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

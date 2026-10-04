@@ -26,6 +26,8 @@
 
 None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogalmore0.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -158,8 +160,9 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 | <span id="stage-212"></span>212 | 212=lakecave2 key taken<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lakecave2](../maps/lakecave2.md).</span><br><span class="qnote">🗺️ Part of [Lakecave2](../maps/lakecave2.md) visibly changes.</span> | stepping on a trigger on [lakecave2](../maps/lakecave2.md) | stage 211 | gives 1× [Key to the glade](../items/glade_key.md)<br>sets stage 30 of [A secret garden](../quests/secret_garden.md#stage-30) |
 | <span id="stage-999"></span>999 | - | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -463,6 +466,20 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
     1. stepping on a trigger on [lakecave2](../maps/lakecave2.md) → the conversation leads here automatically — **conditions:** reached stage 211 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-211); NOT reached stage 212 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-212) → **stage 212**; also gives 1× [Key to the glade](../items/glade_key.md), sets stage 30 of [A secret garden](../quests/secret_garden.md#stage-30). NPC: “Hey, this looks like Caeda's lost key.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 138 lines added |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Hey, this looks like Caedas lost key.” → “Hey, this looks like Caeda's lost key.” |
+| [v0.8.9](../versions/0.8.9.md) | Dialogue: 1 line changed |
+| [v0.8.14](../versions/0.8.14.md) | stages added: 8, 9<br>Dialogue: 3 lines added, 1 line changed<br>· text: “NO! Please not through the gate! I won't go there!” → “NO! Please not to the south! I won't go to those devasted lands!” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

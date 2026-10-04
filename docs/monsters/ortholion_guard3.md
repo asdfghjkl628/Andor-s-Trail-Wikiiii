@@ -97,6 +97,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 10 lines added |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 5 lines added, 3 lines changed<br>· text: “We soldiers of Feygard have come to this lonely place by direct comma…” → “We soldiers of Feygard have come to this lonely place by direct comma…”<br>· text: “Our... mighty general has already caught that Shadow fanatic...Yes. D…” → “Our... mighty general has already caught that Shadow fanatic...Yes. D…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Yes sir, I w... Hey! What did you just say?” → “Yes, I w... Hey! What did you just say?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

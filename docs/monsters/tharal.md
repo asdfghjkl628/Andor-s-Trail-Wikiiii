@@ -32,6 +32,7 @@
 
 ## Quests
 
+- [Disallowed substance](../quests/bonemeal.md): stages 20, 30
 - [Taste is everything](../quests/antifoodp.md): stages 10
 
 ??? quote "Dialogue (12 lines)"
@@ -41,12 +42,12 @@
     <span id="d-tharal1"></span>**`tharal1`** Tharal: “Walk in the glow of the Shadow, my child.”
 
     - “Do you have anything to trade?” → *shop opens*
-    - “What can you tell me about bonemeal?” *(if reached stage 10 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-10))* → [tharal_bonemeal_select](#d-tharal_bonemeal_select)
+    - “What can you tell me about bonemeal?” *(if reached stage 10 of [Disallowed substance](../quests/bonemeal.md#stage-10))* → [tharal_bonemeal_select](#d-tharal_bonemeal_select)
     - “Do you have anything to help against food-poisoning?” → [tharal_antifoodp1](#d-tharal_antifoodp1)
 
     <span id="d-tharal_bonemeal_select"></span>**`tharal_bonemeal_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30))* → [tharal_bonemeal4](#d-tharal_bonemeal4)
+    - branch 1 *(if reached stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30))* → [tharal_bonemeal4](#d-tharal_bonemeal4)
     - branch 2 → [tharal_bonemeal1](#d-tharal_bonemeal1)
 
     <span id="d-tharal_antifoodp1"></span>**`tharal_antifoodp1`** Tharal: “No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though.”
@@ -77,7 +78,7 @@
 
     - Next → [tharal_bonemeal7](#d-tharal_bonemeal7)
 
-    <span id="d-tharal_bonemeal2"></span>**`tharal_bonemeal2`** Tharal: “Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more.” — **effects:** sets stage 20 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-20)
+    <span id="d-tharal_bonemeal2"></span>**`tharal_bonemeal2`** Tharal: “Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more.” — **effects:** sets stage 20 of [Disallowed substance](../quests/bonemeal.md#stage-20)
 
     - “Here, I have the insect wings.” *(if hand over 5× [Insect wing](../items/insectwing.md))* → [tharal_bonemeal3](#d-tharal_bonemeal3)
     - “OK, I'll bring them.” → *conversation ends*
@@ -86,11 +87,20 @@
 
     - “Thanks, bye.” → *conversation ends*
 
-    <span id="d-tharal_bonemeal3"></span>**`tharal_bonemeal3`** Tharal: “Thanks kid. I knew I could count on you.” — **effects:** sets stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30)
+    <span id="d-tharal_bonemeal3"></span>**`tharal_bonemeal3`** Tharal: “Thanks kid. I knew I could count on you.” — **effects:** sets stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30)
 
     - Next → [tharal_bonemeal4](#d-tharal_bonemeal4)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “I know someone that still has a supply of Bonemeal if you are interes…” → “I know someone that still has a supply of bonemeal if you are interes…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

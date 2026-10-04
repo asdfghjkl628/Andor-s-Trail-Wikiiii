@@ -17,4 +17,12 @@
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 |
 | [Honor Guard](../monsters/feygard_offering_guard.md) | 220 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `guynmart_wood_16` · Data from v0.8.18</small>

@@ -11,4 +11,14 @@
 [With each passing paragraph, you bear witness to the indomitable spirit of a man who forged his own destiny, shaping the world around him with the hammer blows of fate. And as you close the tome, the echoes of Korhald's journey linger in your mind, a testament to the enduring power of courage, determination, and the bonds of family that transcend the ages.]
 
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `korhald_book` · Data from v0.8.18</small>

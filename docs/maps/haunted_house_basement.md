@@ -23,4 +23,12 @@
 | [Mindless disgrace](../monsters/mindless_disgrace.md) | 275 |
 | [Benzimos](../monsters/haunted_benzimos.md) | 291 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.3](../versions/0.8.3.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `haunted_house_basement` · Data from v0.8.18</small>

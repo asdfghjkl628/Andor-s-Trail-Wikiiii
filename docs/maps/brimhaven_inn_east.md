@@ -14,13 +14,22 @@
 
 | Name | HP |
 |---|---|
-| [Pixtumn](../monsters/quiet_thief.md) | 0 |
+| [Pixtumn](../monsters/quiet_thief_1.md) | 0 |
 | [Pixtumn](../monsters/quiet_thief_3.md) | 0 |
+| [Butcher](../monsters/brv_butcher.md) | 0 |
+| [Pixtumn](../monsters/quiet_thief.md) | 0 |
 | [Pixtumn](../monsters/quiet_thief_2.md) | 0 |
+| [Guest](../monsters/brv_inn_guest.md) | 0 |
 | [Melona](../monsters/melona.md) | 0 |
 | [Room service](../monsters/brv_cleaning.md) | 0 |
-| [Butcher](../monsters/brv_butcher.md) | 0 |
-| [Pixtumn](../monsters/quiet_thief_1.md) | 0 |
-| [Guest](../monsters/brv_inn_guest.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brimhaven_inn_east` · Data from v0.8.18</small>

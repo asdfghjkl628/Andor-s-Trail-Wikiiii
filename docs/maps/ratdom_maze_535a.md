@@ -20,10 +20,18 @@
 |---|---|
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
-| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
-| [Pernicious cave snake](../monsters/ratdom_m4a.md) | 30 |
+| [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Virulent cave snake](../monsters/ratdom_m4b.md) | 30 |
+| [Pernicious cave snake](../monsters/ratdom_m4a.md) | 30 |
 | [Gold hunter](../monsters/ratdom_goldhunter.md) | 70 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `ratdom_maze_535a` · Data from v0.8.18</small>

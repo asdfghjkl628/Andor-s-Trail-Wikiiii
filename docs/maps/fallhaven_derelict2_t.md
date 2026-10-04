@@ -15,12 +15,20 @@
 
 | Name | HP |
 |---|---|
+| [Troublemaker](../monsters/troublemaker.md) | 0 |
 | [Smug looking thief](../monsters/smug_looking_thief.md) | 0 |
-| [Farrik](../monsters/farrik.md) | 0 |
 | [Pickpocket](../monsters/pickpocket.md) | 0 |
+| [Farrik](../monsters/farrik.md) | 0 |
 | [Umar](../monsters/umar.md) | 0 |
 | [Thieves guild cook](../monsters/thieves_guild_cook.md) | 0 |
 | [Fanamor](../monsters/fanamor.md) | 0 |
-| [Troublemaker](../monsters/troublemaker.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.13](../versions/0.8.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `fallhaven_derelict2_t` · Data from v0.8.18</small>

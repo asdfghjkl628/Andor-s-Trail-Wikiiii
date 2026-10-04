@@ -19,15 +19,26 @@
 
 | Name | HP |
 |---|---|
-| [Boralla](../monsters/stn_boralla4.md) | 0 |
-| [Boralla](../monsters/stn_boralla7.md) | 0 |
 | [Commoner](../monsters/stoutford_commoner2.md) | 0 |
-| [Boralla](../monsters/stn_boralla3.md) | 0 |
-| [Boralla](../monsters/stn_boralla.md) | 0 |
-| [Boralla](../monsters/stn_boralla2.md) | 0 |
-| [Boralla](../monsters/stn_boralla1.md) | 0 |
-| [Boralla](../monsters/stn_boralla5.md) | 0 |
 | [Jen](../monsters/stoutford_farmer_jen.md) | 0 |
+| [Boralla](../monsters/stn_boralla1.md) | 0 |
+| [Boralla](../monsters/stn_boralla.md) | 0 |
 | [Boralla](../monsters/stn_boralla6.md) | 0 |
+| [Boralla](../monsters/stn_boralla7.md) | 0 |
+| [Boralla](../monsters/stn_boralla3.md) | 0 |
+| [Boralla](../monsters/stn_boralla4.md) | 0 |
+| [Boralla](../monsters/stn_boralla5.md) | 0 |
+| [Boralla](../monsters/stn_boralla2.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `stoutford_ne` · Data from v0.8.18</small>

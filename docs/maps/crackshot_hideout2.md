@@ -19,4 +19,13 @@
 | [Dying patrol](../monsters/g03_deadpatrol_1.md) | 0 |
 | [Rebelled thief](../monsters/guild03_rebthief_1.md) | 60 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `crackshot_hideout2` · Data from v0.8.18</small>

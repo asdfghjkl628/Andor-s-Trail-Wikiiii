@@ -27,6 +27,8 @@ Start with [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../m
 - NOT reached stage 130 of [Priceful vengeance](../quests/brightport_goons.md#stage-130)
 - reached stage 129 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-129)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -87,8 +89,9 @@ Start with [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../m
 | <span id="stage-140"></span>140 | I told the commander I couldn't find anything, even though I had the blade I blackmailed Barthold and Dynes with. **(completes quest)** | [Gunfryk](../monsters/brightport_gunfrykstill.md) ([brightport_bakery](../maps/brightport_bakery.md)) | stage 130, stage 80 | sets stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139) |
 | <span id="stage-150"></span>150 |  | [Gunfryk](../monsters/brightport_gunfrykstill.md) ([brightport_bakery](../maps/brightport_bakery.md)) | – | sets stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139)<br>spawns monsters on brightport_benbyr<br>starts timer “brightport_arrest”<br>sets stage 212 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-212) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -162,6 +165,16 @@ Start with [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../m
 
     1. Talk to [Gunfryk](../monsters/brightport_gunfrykstill.md) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “[I do feel a little bad.]” — **conditions:** NOT reached stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139); NOT reached stage 60 of [Priceful vengeance](../quests/brightport_goons.md#stage-60); reached stage 240 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-240) → **stage 150**; also sets stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139), spawns monsters on brightport_benbyr, starts timer “brightport_arrest”, sets stage 212 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-212). NPC: “We sure need more brave, law-upholding youngsters like you around! I'll make sure to write to my superiors about it.…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 17 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

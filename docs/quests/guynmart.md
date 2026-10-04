@@ -8,10 +8,10 @@
 | **In journal** | Yes |
 | **Stages** | 41 (completes at 210, 211) |
 | **Started by** | [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../maps/guynmart_wood_1.md)) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_guard_guide.md), [Guynmart guard](../monsters/guynmart_gguard.md), [Hannah](../monsters/guynmart_hannah.md) +16 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_gguard.md), [Guynmart guard](../monsters/guynmart_guard_guide.md), [Hannah](../monsters/guynmart_hannah.md) +16 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Total XP** | 10,027 |
-| **Related quests** | 5 |
+| **Related quests** | 6 |
 
 </div>
 
@@ -23,6 +23,8 @@
 
 None: talk to [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../maps/guynmart_wood_1.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -33,6 +35,7 @@ None: talk to [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../ma
 | Blocked by | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-2) | stage 2 must NOT be reached, for stage 164 here |
 | Blocked by | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-32) | stage 32 must NOT be reached, for stages 201, 202, 203 here |
 | Blocked by | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-33) | stage 33 must NOT be reached, for stages 210, 211 here |
+| Unlocks | [Search for Andor](andor.md#stage-92) | stage 92 there needs stage 161 here |
 | Unlocks | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-2) | stage 2 there needs stage 170 here |
 | Unlocks | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-33) | stage 33 there needs stages 181, 190 here |
 | Unlocks | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-36) | stage 36 there needs stages 181, 190 here |
@@ -92,8 +95,9 @@ None: talk to [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../ma
 | <span id="stage-210"></span>210 | Lovis prepared a surprise for me east of the castle. **(completes quest)**<br><span class="qnote">⚡ A scripted event can now trigger on [Guynmart wood 9](../maps/guynmart_wood_9.md).</span> | [Lovis](../monsters/guynmart_lovis2.md) ([guynmart_main_0](../maps/guynmart_main_0.md))<br>[Unkorh](../monsters/guynmart_steward5.md) ([guynmart_main_1](../maps/guynmart_main_1.md))<br>[Hannah](../monsters/guynmart_hannah2.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) | stage 181, stage 190 | spawns monsters on guynmart_wood_9<br>sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)<br>removes monsters from guynmart_main_1 |
 | <span id="stage-211"></span>211 | Then I took my leave of Unkorh. **(completes quest)** | [Lovis](../monsters/guynmart_lovis2.md) ([guynmart_main_0](../maps/guynmart_main_0.md))<br>[Unkorh](../monsters/guynmart_steward5.md) ([guynmart_main_1](../maps/guynmart_main_1.md))<br>[Hannah](../monsters/guynmart_hannah2.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) | stage 181, stage 190 | sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)<br>removes monsters from guynmart_main_1 |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -253,6 +257,20 @@ None: talk to [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../ma
     4. Talk to [Lovis](../monsters/guynmart_lovis2.md) ([guynmart_main_0](../maps/guynmart_main_0.md)) → choose “I will go. Bye.” — **conditions:** killed 1× [Sheep](../monsters/guynmart_sheep.md); NOT reached stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33); reached stage 181 of [Roses](../quests/guynmart.md#stage-181) → **stage 211**; also sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
     5. Talk to [Unkorh](../monsters/guynmart_steward5.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) → choose “I will go. Bye.” — **conditions:** killed 1× [Sheep](../monsters/guynmart_sheep.md); NOT reached stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33); reached stage 181 of [Roses](../quests/guynmart.md#stage-181) → **stage 211**; also sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 40 lines added |
+| [v0.7.4](../versions/0.7.4.md) | stage 60 journal text changed |
+| [v0.7.5](../versions/0.7.5.md) | Dialogue: 1 line changed |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Then you must open the gate! Go to the gatehouse and open it, so that…” → “Then you must open the gate! Go to the gatehouse and open it, so that…” |
+| [v0.7.12](../versions/0.7.12.md) | stage 210 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

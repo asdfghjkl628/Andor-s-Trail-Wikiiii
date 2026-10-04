@@ -22,6 +22,7 @@ When an attacker makes an attack that misses, there is a 75 % chance that the at
 |---|---|---|
 | 1 | 2 | 4 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

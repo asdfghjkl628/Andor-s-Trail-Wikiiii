@@ -25,6 +25,8 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 
 - NOT reached stage 10 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -60,6 +62,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 | <span id="stage-110"></span>110 | I informed the guard captain at the Foaming flask tavern that Sullengard was responsible for brewing the beer. **(completes quest)** | [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) | stage 10, stage 80 | 5,109 XP |
 | <span id="stage-120"></span>120 | I lied to the guard captain at the Foaming flask tavern and told him nothing about the beer bootlegging operation. **(completes quest)** | [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) | stage 10, stage 80 | 3,900 XP<br>faction “factionCountShadow” set to 4<br>faction “factionCountThieves” set to 4<br>faction “factionCountFeygard” set to -4 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -113,6 +116,18 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 
     1. Talk to [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) → choose “That's the thing, I don't 'know' anything that I could prove.” — **conditions:** reached stage 10 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-10); NOT reached stage 90 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-90); NOT reached stage 100 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-100); NOT reached stage 110 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-110); NOT reached stage 120 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-120); latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80) is 80 → **stage 120**; also faction “factionCountShadow” set to 4, faction “factionCountThieves” set to 4, faction “factionCountFeygard” set to -4. NPC: “I knew that you would be a waste of my time. I'll reward you with nothing.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 13 lines added |
+| [v0.8.3](../versions/0.8.3.md) | stage 20 journal text changed; stage 80 journal text changed; stage 90 journal text changed; stage 100 journal text changed; stage 110 journal text changed; stage 120 journal text changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

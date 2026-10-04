@@ -25,6 +25,8 @@ Start with [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../m
 
 - reached stage 130 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-130)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -70,6 +72,7 @@ Start with [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../m
 | <span id="stage-60"></span>60 | I lied to Gunfryk in a plot to kill him, and in the process the courier I was supposed to meet got arrested. **(completes quest)** | [Gunfryk](../monsters/brightport_gunfrykstill.md) ([brightport_bakery](../maps/brightport_bakery.md)) | – | sets stage 136 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-136)<br>gives 1× [Agent's cloak](../items/brightport_cloak.md) |
 | <span id="stage-70"></span>70 | I failed to deliver the package to Elysa. She was not happy. **(completes quest)** | [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) | stage 20, stage 32, stage 40 | 2,000 XP<br>sets stage 196 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-196) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -122,6 +125,17 @@ Start with [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../m
     2. Talk to [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) → choose “Yes. [Tell her what happened.]” — **conditions:** reached stage 20 of [Boxed in](../quests/brightport_thieves.md#stage-20); reached stage 40 of [Boxed in](../quests/brightport_thieves.md#stage-40); NOT carry 1× [Package](../items/brightportpackage.md) → **stage 70**; also sets stage 196 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-196). NPC: “And now, let's talk about you, $playername. I'm a bit disheartened that you got caught, but I'm still willing to tell…”
     3. Talk to [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) → choose “It's lost, and I can't find it.” — **conditions:** reached stage 20 of [Boxed in](../quests/brightport_thieves.md#stage-20); NOT reached stage 40 of [Boxed in](../quests/brightport_thieves.md#stage-40); reached stage 32 of [Boxed in](../quests/brightport_thieves.md#stage-32); NOT carry 1× [Package](../items/brightportpackage.md) → **stage 70**. NPC: “You lost it? Sigh. I had higher expectations of you, my mood is soured. I'll still tell you about Andor, but only for…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 16 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stage 10 journal text changed; stage 50 journal text changed<br>Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

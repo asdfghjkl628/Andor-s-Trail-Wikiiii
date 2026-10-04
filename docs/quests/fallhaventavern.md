@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 (completes at 10) |
 | **Started by** | [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela_2.md) |
+| **NPCs involved** | [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,6 +27,8 @@
 - reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90)
 - pay 10 gold
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,8 +44,9 @@
 | <span id="stage-10"></span>10 |  **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | [Bela](../monsters/bela_2.md)<br>[Bela](../monsters/bela.md) | pay 10 gold | – |
 | <span id="stage-20"></span>20 | <br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -53,6 +56,18 @@
     1. Talk to [Bela](../monsters/bela_2.md) → choose “[Buy for 10 gold]” — **conditions:** pay 10 gold → **stage 10**. NPC: “OK. Take the last room down at the end of the hall.”
     2. Talk to [Bela](../monsters/bela.md) → choose “[Buy for 10 gold]” — **conditions:** reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90); pay 10 gold → **stage 10**. NPC: “OK. Take the last room down at the end of the hall.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | stages added: 20 |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Thanks. Take the last room down at the end of the hall.” → “OK. Take the last room down at the end of the hall.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

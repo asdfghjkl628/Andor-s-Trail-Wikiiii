@@ -26,6 +26,8 @@ Start with [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyh
 - reached stage 21 of [Of mice and men](../quests/algangror.md#stage-21)
 - reached stage 75 of [Everything in order](../quests/remgard.md#stage-75)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,6 +65,7 @@ Start with [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyh
 | <span id="stage-70"></span>70 | For helping her with the tasks that she could not perform herself, Algangror gave me her enchanted necklace, 'Marrowtaint'. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 61 | 21,000 XP<br>gives [Marrowtaint](../items/marrowtaint.md) |
 | <span id="stage-100"></span>100 | I have decided not to help Algangror with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 10, stage 37 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -152,6 +155,18 @@ Start with [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyh
     1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “I am sent by Jhaeld to end whatever it is you do to the people of Remgard.” — **conditions:** reached stage 15 of [Of mice and men](../quests/algangror.md#stage-15); reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21); reached stage 100 of [Of mice and men](../quests/algangror.md#stage-100); reached stage 10 of [The five idols](../quests/fiveidols.md#stage-10) → **stage 100**
     2. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “I won't do your stupid task.” — **conditions:** reached stage 37 of [The five idols](../quests/fiveidols.md#stage-37) → **stage 100**. NPC: “Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. Hee hee.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

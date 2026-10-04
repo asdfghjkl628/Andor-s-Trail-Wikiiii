@@ -16,11 +16,20 @@
 | Name | HP |
 |---|---|
 | [Gray cave bat](../monsters/cavebat1.md) | 28 |
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 |
 | [Black cave bat](../monsters/cavebat2.md) | 32 |
 | [Brown cave bat](../monsters/cavebat3.md) | 36 |
 | [Giant centipede](../monsters/centipede.md) | 90 |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `secretpassage0` · Data from v0.8.18</small>

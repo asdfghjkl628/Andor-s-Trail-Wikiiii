@@ -18,4 +18,12 @@
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `waytobrimhaven4` · Data from v0.8.18</small>

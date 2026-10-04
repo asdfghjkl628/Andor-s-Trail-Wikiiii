@@ -205,6 +205,19 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Ok, here is the plan. The guard captain has a bit of a drinking probl…” → “OK, here is the plan. The guard captain has a bit of a drinking probl…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line added, 7 lines changed<br>· text: “Oh you did? Well done. You have my thanks, friend.” → “That's very useful information. Well done. You have my thanks, friend.”<br>· text: “The Fallhaven guard has started to get really annoyed at us lately. P…” → “The Fallhaven guard has started to get really annoyed with us lately.…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “So did you tell the Warden about our plan then?” → “So did you tell the guard captain about our plan then?” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 7 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

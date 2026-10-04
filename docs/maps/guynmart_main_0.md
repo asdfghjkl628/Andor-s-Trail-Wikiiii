@@ -21,11 +21,19 @@
 
 | Name | HP |
 |---|---|
-| [Norgothla](../monsters/guynmart_cguard2.md) | 0 |
+| [Unkorh](../monsters/guynmart_steward4.md) | 0 |
 | [Lovis](../monsters/guynmart_lovis2.md) | 0 |
 | [Guynmart](../monsters/guynmart.md) | 0 |
-| [Unkorh](../monsters/guynmart_steward4.md) | 0 |
+| [Norgothla](../monsters/guynmart_cguard2.md) | 0 |
 | [Lost soul](../monsters/lost_soul.md) | 15 |
 | [Assistant torturer](../monsters/guynmart_tort2.md) | 120 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `guynmart_main_0` · Data from v0.8.18</small>

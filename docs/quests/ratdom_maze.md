@@ -28,6 +28,8 @@ Start with stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md). Req
 - NOT reached stage 1 of [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-1)
 - wearing [Ratcave Torch](../items/ratdom_torch.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -68,8 +70,9 @@ Start with stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md). Req
 | <span id="stage-131"></span>131 | Rec compass BWM | stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md)<br>stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md) | carry 1× [Blue rat necklace](../items/ratdom_compass_bwm.md), stage 31, wearing [Blue rat necklace](../items/ratdom_compass_bwm.md) | – |
 | <span id="stage-132"></span>132 | Rec compass Tour | stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md)<br>stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md)<br>[Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | carry 1× [Orange rat necklace](../items/ratdom_compass_tour.md), stage 31, wearing [Blue rat necklace](../items/ratdom_compass_bwm.md) | starts timer “ratdom_compass_tour” |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -190,6 +193,16 @@ Start with stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md). Req
     3. stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md) → choose “I understood how the orange necklace works. Don't bother me with that anymore.” — **conditions:** wearing [Blue rat necklace](../items/ratdom_compass_bwm.md); reached stage 31 of [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-31); reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10); random chance (33%); NOT reached stage 132 of [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-132); 50 rounds passed since timer “ratdom_compass_bwm”; random chance (25%); NOT wearing [Blue rat necklace](../items/ratdom_compass_bwm.md); NOT wearing [Orange rat necklace](../items/ratdom_compass_tour.md); carry 1× [Orange rat necklace](../items/ratdom_compass_tour.md) → **stage 132**. NPC: “It's okay. If you still want to hear it again, just ask me.”
     4. Talk to [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) → choose “And then?” — **conditions:** reached stage 310 of [Yellow is it](../quests/ratdom_quest.md#stage-310); NOT reached stage 390 of [Yellow is it](../quests/ratdom_quest.md#stage-390) → **stage 132**; also starts timer “ratdom_compass_tour”. NPC: “Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 34 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

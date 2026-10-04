@@ -26,6 +26,8 @@ Start with [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)). Re
 - reached stage 20 of [The roots of love](../quests/roots_love.md#stage-20)
 - NOT reached stage 10 of [A secret garden](../quests/secret_garden.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,8 +54,9 @@ Start with [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)). Re
 | <span id="stage-55"></span>55 | Many monsters are dead now. The rest will no longer dare to approach the statue.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lakecave0](../maps/lakecave0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lakecave2](../maps/lakecave2.md).</span> | stepping on a trigger on [lakecave0](../maps/lakecave0.md) | stage 50 | removes monsters from lakecave0 |
 | <span id="stage-60"></span>60 | I told Caeda, so that she can attend to the glade. **(completes quest)** | [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) | stage 50, stage 55 | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -86,6 +89,18 @@ Start with [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)). Re
 
     1. Talk to [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) → choose “Yes, I have dealt with most of the trolls. They won't dare to bother you for a long time.” — **conditions:** reached stage 50 of [A secret garden](../quests/secret_garden.md#stage-50); reached stage 55 of [A secret garden](../quests/secret_garden.md#stage-55) → **stage 60**. NPC: “Thank you so much! I wish you safe travels back to Stoutford. If you want to go to the glade next time you are in…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 7 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Hey, this looks like Caedas lost key.” → “Hey, this looks like Caeda's lost key.” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

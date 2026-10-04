@@ -34,13 +34,22 @@
 
     <span id="d-fallhaven_bandit"></span>**`fallhaven_bandit`** Shady bandit: “Get lost kid. I don't have time for you.”
 
-    - “I'm looking for a piece of the Rift spell.” *(if reached stage 20 of [vacor (hidden flag)](../quests/vacor.md#stage-20))* → [fallhaven_bandit_2](#d-fallhaven_bandit_2)
+    - “I'm looking for a piece of the Rift spell.” *(if reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20))* → [fallhaven_bandit_2](#d-fallhaven_bandit_2)
 
     <span id="d-fallhaven_bandit_2"></span>**`fallhaven_bandit_2`** Shady bandit: “No! Vacor will not gain the power of the rift spell!”
 
     - “Let's fight!” → *fight starts*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | name: Shady Bandit → Shady bandit<br>Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

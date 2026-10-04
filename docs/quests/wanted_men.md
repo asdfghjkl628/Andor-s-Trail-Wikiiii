@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 19 (completes at 57, 70, 80) |
 | **Started by** | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) |
-| **NPCs involved** | [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_camp_defy.md), [Defy](../monsters/aidem_base_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
+| **NPCs involved** | [Defy](../monsters/aidem_base_defy.md), [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_camp_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
 | **Locations** | [aidem_base_2](../maps/aidem_base_2.md), [aidem_camp](../maps/aidem_camp.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 51,385 |
 | **Related quests** | 6 |
@@ -26,6 +26,8 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 - NOT reached stage 10 of [Wanted men](../quests/wanted_men.md#stage-10)
 - reached stage 39 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-39)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -70,6 +72,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 | <span id="stage-77"></span>77 | I've unlocked the hatch leading to the vault. It's time to head down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild6 house](../maps/wild6_house.md).</span><br><span class="qnote">🗺️ Part of [Wild6 house](../maps/wild6_house.md) visibly changes.</span> | stepping on a trigger on [wild6_house](../maps/wild6_house.md) | carry 1× [Thieves' vault key](../items/thieves_vault_key.md), stage 76 | changes map wild6_house |
 | <span id="stage-80"></span>80 | I informed Troublemaker that Defy and his men are now dead. **(completes quest)** | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Defy's ring](../items/defy_ring.md), hand over 1× [Grabby's ring](../items/grabby_ring.md), hand over 1× [Greedy's ring](../items/greedy_ring.md), hand over 1× [Zachlanny ring](../items/zachlanny_ring.md), stage 76 | 16,888 XP<br>faction “factionCountThieves” set to 3 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -151,6 +154,19 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 
     1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Yes. I looted their rings. [Shows them to Troublemaker]” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76; hand over 1× [Defy's ring](../items/defy_ring.md); hand over 1× [Greedy's ring](../items/greedy_ring.md); hand over 1× [Grabby's ring](../items/grabby_ring.md); hand over 1× [Zachlanny ring](../items/zachlanny_ring.md) → **stage 80**; also faction “factionCountThieves” set to 3. NPC: “Well, this is great news indeed. However, we would like to have them alive.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 20 lines added |
+| [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line changed |
+| [v0.8.13](../versions/0.8.13.md) | stage 20 journal text changed; stage 25 journal text changed; stage 35 journal text changed; stage 45 journal text changed; stage 50 journal text changed; stage 57 journal text changed (+1 more)<br>Dialogue: 1 line changed<br>· text: “I'm talking about the Thieves Guild.” → “I'm talking about the Thieves' Guild.” |
+| [v0.8.14](../versions/0.8.14.md) | stage 50 journal text changed<br>Dialogue: 1 line changed<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

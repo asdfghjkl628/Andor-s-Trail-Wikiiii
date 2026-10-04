@@ -13,7 +13,7 @@
 | **Started by** | [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)), [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) |
 | **NPCs involved** | [Ambelie](../monsters/ambelie.md), [Dying Patrol](../monsters/g03_deadpatrol_2.md), [Dying patrol](../monsters/g03_deadpatrol_1.md), [Feygard patrol sergeant](../monsters/g03_sergeant.md), [Thoronir](../monsters/thoronir.md), [Troublemaker](../monsters/troublemaker.md) |
 | **Locations** | [crackshot_hideout2](../maps/crackshot_hideout2.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [fallhaven_church](../maps/fallhaven_church.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
-| **Related quests** | 5 |
+| **Related quests** | 6 |
 
 </div>
 
@@ -31,6 +31,8 @@
 
 - reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@
 | Requires | [Thief apprentice](Thieves01.md#stage-55) | stage 55 reached, for stage 100 here |
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-15) | stage 15 reached, for stage 20 here |
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-21) | stage 21 reached, for stage 20 here |
+| Requires | [Disallowed substance](bonemeal.md#stage-100) | stage 100 reached, for stage 80 here |
 | Requires | [scores (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 80 here |
 | Mutually exclusive | [Thief apprentice](Thieves01.md#stage-50) | stage 50 must NOT be reached, for stage 80 here |
 | Mutually exclusive | [Thief apprentice](Thieves01.md#stage-60) | stage 60 must NOT be reached, for stages 100, 110 here |
@@ -67,8 +70,9 @@
 | <span id="stage-100"></span>100 | Gave journals | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Dunla's Journal](../items/Dunla_journal.md), hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md), hand over 1× [Leta's Journal](../items/Leta_journal.md) | – |
 | <span id="stage-110"></span>110 | Got reward | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 100 | sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60)<br>gives 900× [Gold coins](../items/gold.md) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -100,7 +104,7 @@
 
 ???+ note "Stage 80: 1 route"
 
-    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50) → **stage 80**
+    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50) → **stage 80**
 
 ???+ note "Stage 90: 1 route"
 
@@ -115,6 +119,17 @@
 
     1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I gave you the journals, so where's my reward?” — **conditions:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100); NOT reached stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110) → **stage 110**; also sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), gives 900× [Gold coins](../items/gold.md). NPC: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 12 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

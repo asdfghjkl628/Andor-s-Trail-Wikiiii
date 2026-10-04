@@ -22,4 +22,12 @@
 | [Tough grasslands snake](../monsters/grass_snake2.md) | 38 |
 | [Wet foggerlump](../monsters/feygard_fogmonster3.md) | 220 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `swamp4` · Data from v0.8.18</small>

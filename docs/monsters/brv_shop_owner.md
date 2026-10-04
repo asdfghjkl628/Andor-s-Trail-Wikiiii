@@ -89,6 +89,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Are you lookng for something in particular?” → “Are you looking for something in particular?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…”<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

@@ -20,6 +20,7 @@ For every skill level, reduces the amount of lost experience caused by death by 
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

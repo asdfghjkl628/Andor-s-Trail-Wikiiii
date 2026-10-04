@@ -25,6 +25,8 @@ Start with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_m
 
 - reached stage 3 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-3)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -107,8 +109,9 @@ Start with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_m
 | <span id="stage-62"></span>62 | For my bravery and sense of honor, General Ortholion gave me a beautiful necklace, a symbol of his gratitude towards me. He also told me to come back in a few days, when I should ask him about all the events that have happened. **(completes quest)** | [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 56 | 6,000 XP<br>sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42)<br>starts timer “ortholion_next1”<br>gives 1× [Ortholion's talisman](../items/ortholion_reward.md) |
 | <span id="stage-63"></span>63 | For my bravery and... ignorance?, General Ortholion gave me a few days to rest and urged me to come back soon after that. **(completes quest)** | [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 56 | 10,000 XP<br>sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42)<br>starts timer “ortholion_next1” |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -291,6 +294,21 @@ Start with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_m
 
     1. Talk to [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “My family is the most important thing to me.” — **conditions:** reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56) → **stage 63**; also sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”. NPC: “I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 47 lines added |
+| [v0.7.15](../versions/0.7.15.md) | stage 24 journal text changed; stage 61 journal text changed<br>Dialogue: 2 lines changed |
+| [v0.7.17](../versions/0.7.17.md) | stage 45 journal text changed |
+| [v0.8.4](../versions/0.8.4.md) | stage 23 journal text changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…” |
+| [v0.8.18](../versions/0.8.18.md) | stage 22 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

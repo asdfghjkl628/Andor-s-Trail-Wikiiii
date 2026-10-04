@@ -20,13 +20,22 @@
 
 | Name | HP |
 |---|---|
-| [Unknown well voice](../monsters/well_voice.md) | 0 |
-| [Theobald](../monsters/village_theobald.md) | 0 |
-| [Godelieve](../monsters/village_godelieve_hidden.md) | 0 |
-| [Osric](../monsters/wexlow_osric.md) | 0 |
 | [Godwin](../monsters/village_godwin.md) | 0 |
 | [Theodora](../monsters/village_theodora.md) | 0 |
+| [Godelieve](../monsters/village_godelieve_hidden.md) | 0 |
+| [Unknown well voice](../monsters/well_voice.md) | 0 |
+| [Osric](../monsters/wexlow_osric.md) | 0 |
+| [Theobald](../monsters/village_theobald.md) | 0 |
 | [Rat](../monsters/crossroads_rat.md) | 5 |
 | [Village ant](../monsters/village_ant.md) | 54 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `wexlow_village` · Data from v0.8.18</small>

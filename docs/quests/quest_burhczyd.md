@@ -8,12 +8,15 @@
 | **In journal** | Yes |
 | **Stages** | 22 |
 | **Started by** | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd12.md), [Burhczyd](../monsters/burhczyd4.md), [Burhczyd](../monsters/burhczyd11.md), [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd3.md), [Burhczyd](../monsters/burhczyd18.md) +38 |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd14.md), [Burhczyd](../monsters/burhczyd2.md), [Burhczyd](../monsters/burhczyd7.md), [Burhczyd](../monsters/burhczyd10.md), [Burhczyd](../monsters/burhczyd20.md), [Burhczyd](../monsters/burhczyd4.md) +38 |
 | **Locations** | [blackwater_mountain22](../maps/blackwater_mountain22.md), [blackwater_mountain43](../maps/blackwater_mountain43.md), [brightport_bakery](../maps/brightport_bakery.md), [brimhaven_tavern1](../maps/brimhaven_tavern1.md) |
 | **Total XP** | 204,370 |
 | **Related quests** | 3 |
 
 </div>
+
+!!! history "Version note"
+    As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.8.
 
 ## Overview
 
@@ -23,6 +26,8 @@
 
 None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -119,8 +124,9 @@ None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/cro
 | <span id="stage-210"></span>210 | - | dialogue `burhczydx_21a_9`, which nothing in the data starts directly | – | 30,000 XP |
 | <span id="stage-220"></span>220 | - | dialogue `burhczydx_22a_9`, which nothing in the data starts directly | – | 32,000 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -475,6 +481,23 @@ None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/cro
     21. Talk to [Burhczyd](../monsters/burhczyd8.md) ([woodhouse2](../maps/woodhouse2.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 68 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-68); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
     22. Talk to [Burhczyd](../monsters/burhczyd9.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 69 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-69); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+**Completability:** As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.8.
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 9 lines added |
+| [v0.7.11](../versions/0.7.11.md) | stages added: 100, 110, 120; stage 80 journal text changed<br>Dialogue: 1 line added |
+| [v0.8.2](../versions/0.8.2.md) | stage 110 journal text changed |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added |
+| [v0.8.5](../versions/0.8.5.md) | stage 110 journal text changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 130, 140, 150, 160, 170, 180, 190, 200, 210, 220; stage 70 XP 2000 → 1500; stage 80 XP 5000 → 2000; stage 90 XP 10000 → 3000; stage 100 XP 20000 → 4000; stage 110 journal text changed (+3 more)<br>Dialogue: 11 lines added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

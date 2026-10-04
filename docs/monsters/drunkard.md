@@ -20,6 +20,7 @@
 
 ## Quests
 
+- [Drunken tale](../quests/fallhavendrunk.md): stages 10, 100
 - [You shall pass](../quests/undertell_barricades.md): stages 130, 140
 - [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 55
 
@@ -104,7 +105,7 @@
 
     <span id="d-fallhaven_drunk_7_select"></span>**`fallhaven_drunk_7_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [fallhavendrunk (hidden flag)](../quests/fallhavendrunk.md#stage-100))* → [fallhaven_drunk_11](#d-fallhaven_drunk_11)
+    - branch 1 *(if reached stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100))* → [fallhaven_drunk_11](#d-fallhaven_drunk_11)
     - branch 2 → [fallhaven_drunk_8](#d-fallhaven_drunk_8)
 
     <span id="d-fallhaven_drunk_11"></span>**`fallhaven_drunk_11`** Drunkard: “[Takes a gulp of the mead] That's good stuff!”
@@ -116,18 +117,18 @@
     - “Yes” → [fallhaven_drunk_9_1](#d-fallhaven_drunk_9_1)
     - “No” → [fallhaven_drunk_9_2](#d-fallhaven_drunk_9_2)
 
-    <span id="d-fallhaven_drunk_12"></span>**`fallhaven_drunk_12`** Drunkard: “Yeah, me and Unnmir had good times. Go ask him yourself, he is usually in the barn to the east of here. I wonder *burps* where that treasure went.” — **effects:** sets stage 100 of [fallhavendrunk (hidden flag)](../quests/fallhavendrunk.md#stage-100)
+    <span id="d-fallhaven_drunk_12"></span>**`fallhaven_drunk_12`** Drunkard: “Yeah, me and Unnmir had good times. Go ask him yourself, he is usually in the barn to the east of here. I wonder *burps* where that treasure went.” — **effects:** sets stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100)
 
     - “Treasure? I'm in! I'll go look for Unnmir right away.” → *conversation ends*
     - “Thank you for the story. Goodbye.” → *conversation ends*
 
-    <span id="d-fallhaven_drunk_9_1"></span>**`fallhaven_drunk_9_1`** Drunkard: “Well then give it back! Or go buy me another mead.” — **effects:** sets stage 10 of [fallhavendrunk (hidden flag)](../quests/fallhavendrunk.md#stage-10)
+    <span id="d-fallhaven_drunk_9_1"></span>**`fallhaven_drunk_9_1`** Drunkard: “Well then give it back! Or go buy me another mead.” — **effects:** sets stage 10 of [Drunken tale](../quests/fallhavendrunk.md#stage-10)
 
     - “Here, have some mead.” *(if hand over 1× [Mead](../items/mead.md))* → [fallhaven_drunk_10](#d-fallhaven_drunk_10)
     - “OK, I'll go buy some mead for you.” → *conversation ends*
     - “No. I don't think I should help you. Goodbye.” → *conversation ends*
 
-    <span id="d-fallhaven_drunk_9_2"></span>**`fallhaven_drunk_9_2`** Drunkard: “I must have drunk it then. Could you get me a new mead do you think?” — **effects:** sets stage 10 of [fallhavendrunk (hidden flag)](../quests/fallhavendrunk.md#stage-10)
+    <span id="d-fallhaven_drunk_9_2"></span>**`fallhaven_drunk_9_2`** Drunkard: “I must have drunk it then. Could you get me a new mead do you think?” — **effects:** sets stage 10 of [Drunken tale](../quests/fallhavendrunk.md#stage-10)
 
     - “Here, have some mead.” *(if hand over 1× [Mead](../items/mead.md))* → [fallhaven_drunk_10](#d-fallhaven_drunk_10)
     - “OK, I'll go buy some mead for you.” → *conversation ends*
@@ -138,6 +139,16 @@
     - Next → [fallhaven_drunk_11](#d-fallhaven_drunk_11)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Oh sweet drinks of joy. May the sssshadow be with you kid. *makes big…” → “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big…”<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” |
+| [v0.8.18](../versions/0.8.18.md) | phraseID: fallhaven_drunk → fallhaven_drunk_selector<br>Dialogue: 10 lines added, 2 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, guard. I'm not causing any trouble anymore, see? I sits outside n…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

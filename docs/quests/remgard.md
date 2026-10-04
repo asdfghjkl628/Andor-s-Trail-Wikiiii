@@ -23,6 +23,8 @@
 
 None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,11 +56,12 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
 | <span id="stage-62"></span>62 | The Knights of Elythom in the Remgard tavern have had one of their knights disappearing recently. No one noticed anything when she disappeared, however. | [Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | stage 52 | – |
 | <span id="stage-63"></span>63 | Duaina has seen me in her visions. I did not understand all that she spoke of, but the parts that were clear were that me and Andor were parts of a larger plot. I wonder what this means? She did not speak of any disappearing people however, not that I could understand anyway. | [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) | stage 52 | – |
 | <span id="stage-64"></span>64 | Rothses told me that Bethir visited him the night before she disappeared, to sell some equipment. He did not see where she went after that. | [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) | stage 52 | – |
-| <span id="stage-70"></span>70 | I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next. | [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md))<br>[Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md))<br>[Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md))<br>+1 more | stage 51, stage 52, stage 61, stage 62, stage 63, stage 64 | – |
+| <span id="stage-70"></span>70 | I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next. | [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md))<br>[Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md))<br>[Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md))<br>+1 more | stage 51, stage 52, stage 61, stage 62, stage 63, stage 64 | – |
 | <span id="stage-75"></span>75 | Jhaeld was really upset that I did not find out anything from the people that I was sent to talk to. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | 15,000 XP |
 | <span id="stage-80"></span>80 | If I still want to help Jhaeld and the people of Remgard, I should look for clues in other places. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
 | <span id="stage-110"></span>110 | Jhaeld does not want to talk to me. I will not help them find out what happened to the missing people of Remgard. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -133,9 +136,9 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
 
 ???+ note "Stage 70: 4 routes"
 
-    1. Talk to [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) → choose “I'm not here to hurt you!” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
+    1. Talk to [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md)) → choose “Is there anything else you have found out that you didn't tell the guards earlier?” — **conditions:** reached stage 51 of [Everything in order](../quests/remgard.md#stage-51); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
     2. Talk to [Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “What do you know about the knight that is missing?” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
-    3. Talk to [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md)) → choose “Is there anything else you have found out that you didn't tell the guards earlier?” — **conditions:** reached stage 51 of [Everything in order](../quests/remgard.md#stage-51); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
+    3. Talk to [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) → choose “I'm not here to hurt you!” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
     4. Talk to [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) → choose “I'll keep my eye on you.” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63) → **stage 70**
 
 ???+ note "Stage 75: 1 route"
@@ -150,6 +153,17 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
 
     1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “I won't do it. I fail to see why I should help you.” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 110**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...”<br>· text: “Hm, yes, that might be a good idea actually. Considering you made it …” → “Hmm, yes, that might be a good idea actually. Considering you made it…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 
@@ -183,7 +197,7 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
     | Quest ID | `remgard` |
     | showInLog | 1 |
     | Stage IDs | 10, 15, 20, 30, 31, 35, 40, 50, 51, 52, 53, 54, 59, 61, 62, 63, 64, 70, 75, 80, 110 |
-    | Dialogue nodes setting stages | 10: `remgardb_3`, 15: `remgardb_help_1`, 20: `remgardb_help_10`, 30: `remgardb_helped_y`, 31: `remgardb_helped_n`, 35: `remgardb_helped_1`, 40: `jhaeld_9`, 50: `jhaeld_14`, 51: `jhaeld_15`, 52: `jhaeld_16`, 53: `jhaeld_17`, 54: `jhaeld_18`, 59: `jhaeld_21`, 61: `norath_jhaeld_s_1`, 62: `krell_jhaeld_s_1`, 63: `duaina_jhaeld_s_1`, 64: `rothses_jhaeld_s_1`, 70: `duaina_jhaeld_s_4`, 70: `krell_jhaeld_s_4`, 70: `norath_jhaeld_s_4`, 75: `jhaeld_return6`, 80: `jhaeld_return8`, 110: `jhaeld_reject` |
+    | Dialogue nodes setting stages | 10: `remgardb_3`, 15: `remgardb_help_1`, 20: `remgardb_help_10`, 30: `remgardb_helped_y`, 31: `remgardb_helped_n`, 35: `remgardb_helped_1`, 40: `jhaeld_9`, 50: `jhaeld_14`, 51: `jhaeld_15`, 52: `jhaeld_16`, 53: `jhaeld_17`, 54: `jhaeld_18`, 59: `jhaeld_21`, 61: `norath_jhaeld_s_1`, 62: `krell_jhaeld_s_1`, 63: `duaina_jhaeld_s_1`, 64: `rothses_jhaeld_s_1`, 70: `norath_jhaeld_s_4`, 70: `krell_jhaeld_s_4`, 70: `duaina_jhaeld_s_4`, 75: `jhaeld_return6`, 80: `jhaeld_return8`, 110: `jhaeld_reject` |
     | Dialogue nodes clearing stages | – |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 

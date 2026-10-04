@@ -15,18 +15,29 @@
 
 | Name | HP |
 |---|---|
-| [General's henchman](../monsters/ortholion_guard1.md) | 0 |
-| [Feygard scout](../monsters/ortholion_guard2.md) | 0 |
-| [Prim guard](../monsters/prim_guard6.md) | 0 |
-| [General Ortholion](../monsters/ortholion.md) | 0 |
-| [Prim guard captain](../monsters/prim_guard5.md) | 0 |
-| [Jern](../monsters/prim_bar_regular.md) | 0 |
 | [Wounded Prim guard](../monsters/prim_guard7.md) | 0 |
-| [Prim sentry](../monsters/prim_sentry.md) | 60 |
-| [Tired Prim guard](../monsters/tired_prim_guard.md) | 60 |
+| [Jern](../monsters/prim_bar_regular.md) | 0 |
+| [General Ortholion](../monsters/ortholion.md) | 0 |
+| [General's henchman](../monsters/ortholion_guard1.md) | 0 |
+| [Prim guard captain](../monsters/prim_guard5.md) | 0 |
+| [Prim guard](../monsters/prim_guard6.md) | 0 |
+| [Feygard scout](../monsters/ortholion_guard2.md) | 0 |
 | [Prim guard](../monsters/prim_guard.md) | 60 |
 | [Prim weapon guard](../monsters/prim_weapon_guard.md) | 60 |
 | [Guthbered's bodyguard](../monsters/guthbereds_bodyguard.md) | 60 |
+| [Tired Prim guard](../monsters/tired_prim_guard.md) | 60 |
+| [Prim sentry](../monsters/prim_sentry.md) | 60 |
 | [Guthbered](../monsters/guthbered.md) | 80 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.14](../versions/0.7.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain29` · Data from v0.8.18</small>

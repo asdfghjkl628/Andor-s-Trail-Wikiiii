@@ -27,6 +27,7 @@ Gives +1 health points (HP) on every kill per skill level.
 | 5 | 120 |
 | … | +20 per level |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

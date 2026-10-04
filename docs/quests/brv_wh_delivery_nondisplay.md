@@ -14,7 +14,7 @@
 | **NPCs involved** | [Arcir](../monsters/arcir.md), [Arghes](../monsters/arghes.md), [Edrin](../monsters/brv_metalsmith.md), [Mikhail](../monsters/mikhail.md), [Odirath](../monsters/stoutford_armorer.md), [Pangitain](../monsters/brv_fortune_teller.md) +4 |
 | **Locations** | [blackwater_mountain54](../maps/blackwater_mountain54.md), [brimhaven2_laundry](../maps/brimhaven2_laundry.md), [brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md), [brimhaven_metalsmith](../maps/brimhaven_metalsmith.md) |
 | **Total XP** | 1,975 |
-| **Related quests** | 3 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -30,12 +30,15 @@ Start with [Arcir](../monsters/arcir.md). Required:
 - reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10)
 - reached stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stage 70 here |
 | Requires | [Delivery](brv_wh_delivery.md#stage-10) | stage 10 reached, for stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 here |
 | Requires | [Delivery](brv_wh_delivery.md#stage-20) | stage 20 reached, for stage 10 here |
 | Requires | [Delivery](brv_wh_delivery.md#stage-30) | stage 30 reached, for stage 20 here |
@@ -48,6 +51,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 | Requires | [Delivery](brv_wh_delivery.md#stage-100) | stage 100 reached, for stage 90 here |
 | Requires | [Delivery](brv_wh_delivery.md#stage-110) | stage 110 reached, for stage 100 here |
 | Requires | [The silver scale](mermaid_scale.md#stage-200) | stage 200 reached, for stage 50 here |
+| Requires | [Breakfast bread](mikhail_bread.md#stage-10) | stage 10 reached, for stage 90 here |
 | Requires | [Uncertain cause](wrye.md#stage-90) | stage 90 reached, for stage 80 here |
 
 ## Stages
@@ -65,6 +69,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 | <span id="stage-90"></span>90 | I delivered 'Plush Pillow' | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Plush pillow](../items/brv_wh_item_01.md) | 100 XP<br>clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100) |
 | <span id="stage-100"></span>100 | I delivered 'Crystal Globe' | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | hand over 1× [Crystal globe](../items/brv_wh_item_00.md) | 50 XP<br>clears stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110)<br>gives 100× [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -95,7 +100,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 ???+ note "Stage 70: 1 route"
 
-    1. Talk to [Arghes](../monsters/arghes.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); hand over 1× [Yellow boot](../items/brv_wh_item_03.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80) → **stage 70**; also clears stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), gives 50× [Gold coins](../items/gold.md). NPC: “Yes kid, thank you. Here, take this gold for them.”
+    1. Talk to [Arghes](../monsters/arghes.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); hand over 1× [Yellow boot](../items/brv_wh_item_03.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80) → **stage 70**; also clears stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), gives 50× [Gold coins](../items/gold.md). NPC: “Yes kid, thank you. Here, take this gold for them.”
 
 ???+ note "Stage 80: 1 route"
 
@@ -103,12 +108,22 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 ???+ note "Stage 90: 1 route"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” — **conditions:** reached stage 10 of [mikhail_bread (hidden flag)](../quests/mikhail_bread.md#stage-10); hand over 1× [Plush pillow](../items/brv_wh_item_01.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100) → **stage 90**; also clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100). NPC: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.”
+    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); hand over 1× [Plush pillow](../items/brv_wh_item_01.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100) → **stage 90**; also clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100). NPC: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.”
 
 ???+ note "Stage 100: 1 route"
 
     1. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “So you are the one who ordered a 'Crystal Globe'?” — **conditions:** hand over 1× [Crystal globe](../items/brv_wh_item_00.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110) → **stage 100**; also clears stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), gives 100× [Gold coins](../items/gold.md). NPC: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.17](../versions/0.7.17.md) | Added<br>Dialogue: 10 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

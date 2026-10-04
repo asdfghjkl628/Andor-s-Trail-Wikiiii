@@ -28,6 +28,7 @@ Every skill level increases the attack chance of weapons in the main hand with 2
 | 1 | 15 |
 | 2 | 30 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Specialization: Weapon and shield](specializationWeaponShield.md): needs this skill at level 2

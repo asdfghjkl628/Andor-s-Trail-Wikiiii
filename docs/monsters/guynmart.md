@@ -21,6 +21,7 @@
 ## Quests
 
 - [Roses](../quests/guynmart.md): stages 160, 161, 162
+- [Search for Andor](../quests/andor.md): stages 90, 92
 
 ??? quote "Dialogue (37 lines)"
 
@@ -141,7 +142,7 @@
 
     - Next → [guynmart_steward4_166](#d-guynmart_steward4_166)
 
-    <span id="d-guynmart_steward4_166"></span>**`guynmart_steward4_166`** Guynmart: “We had long nights of interesting conversation.” — **effects:** sets stage 90 of [andor (hidden flag)](../quests/andor.md#stage-90)
+    <span id="d-guynmart_steward4_166"></span>**`guynmart_steward4_166`** Guynmart: “We had long nights of interesting conversation.” — **effects:** sets stage 90 of [Search for Andor](../quests/andor.md#stage-90)
 
     - Next → [guynmart_steward4_170](#d-guynmart_steward4_170)
 
@@ -167,7 +168,7 @@
 
     - “Thank you. Really, I didn't expect this from Lord Guynmart.” → [guynmart_steward4_230](#d-guynmart_steward4_230)
 
-    <span id="d-guynmart_steward4_230"></span>**`guynmart_steward4_230`** Guynmart: “Yes, Guynmart had changed a lot recently. Here, please take Andor's bonemeal potion box and return it to him.” — **effects:** sets stage 92 of [andor (hidden flag)](../quests/andor.md#stage-92), gives [Andor's bonemeal box](../items/guynmart_bonemealbox.md), [Bonemeal potion](../items/bonemeal_potion.md)
+    <span id="d-guynmart_steward4_230"></span>**`guynmart_steward4_230`** Guynmart: “Yes, Guynmart had changed a lot recently. Here, please take Andor's bonemeal potion box and return it to him.” — **effects:** sets stage 92 of [Search for Andor](../quests/andor.md#stage-92), gives [Andor's bonemeal box](../items/guynmart_bonemealbox.md), [Bonemeal potion](../items/bonemeal_potion.md)
 
     - “If only I had finally found my brother.” → [guynmart_steward4_290](#d-guynmart_steward4_290)
 
@@ -180,6 +181,15 @@
     - “Thank you.” → *NPC leaves*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 37 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Then you must open the gate! Go to the gatehouse and open it, so that…” → “Then you must open the gate! Go to the gatehouse and open it, so that…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

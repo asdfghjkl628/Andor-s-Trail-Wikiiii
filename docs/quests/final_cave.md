@@ -39,6 +39,8 @@
 
 - hand over 1× [Scroll of wind](../items/final_cave_a.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -68,8 +70,9 @@
 | <span id="stage-12"></span>12 | 12: Algangror/Jhaeld talk<br><span class="qnote">🔓 You can finally access a previously blocked area on [Island 4 cave1](../maps/island_4_cave1.md).</span> | [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md))<br>[Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
 | <span id="stage-99"></span>99 | x | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -146,6 +149,16 @@
     1. Talk to [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
     2. Talk to [Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 60 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

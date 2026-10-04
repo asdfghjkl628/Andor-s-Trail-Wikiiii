@@ -26,6 +26,8 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 - NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10)
 - NOT reached stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,6 +50,7 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 | <span id="stage-80"></span>80 | I decided to release the mouse outside. Seviron told me to do that outside the town. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | carry 1× [Trapped mouse](../items/trapped_mouse.md), stage 60 | – |
 | <span id="stage-90"></span>90 | I released the mouse. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven exit](../maps/brimhaven_exit.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven7](../maps/brimhaven7.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterway12](../maps/waterway12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven3](../maps/waytobrimhaven3.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven6](../maps/waytobrimhaven6.md).</span> | stepping on a trigger on [brimhaven7](../maps/brimhaven7.md) | carry 1× [Trapped mouse](../items/trapped_mouse.md), hand over 1× [Trapped mouse](../items/trapped_mouse.md) | 1,500 XP<br>gives [Large empty bottle](../items/large_bottle.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -90,6 +93,17 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 
     1. stepping on a trigger on [brimhaven7](../maps/brimhaven7.md) → choose “[Open the bottle]” — **conditions:** carry 1× [Trapped mouse](../items/trapped_mouse.md); hand over 1× [Trapped mouse](../items/trapped_mouse.md) → **stage 90**; also gives [Large empty bottle](../items/large_bottle.md). NPC: “You look after as it disappears quickly.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 9 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

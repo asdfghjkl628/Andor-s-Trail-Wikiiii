@@ -22,6 +22,7 @@ Increases damage potential of two-handed weapons by an additional 50 % of the or
 |---|---|---|
 | 1 | 45 | 2 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

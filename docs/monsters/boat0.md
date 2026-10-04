@@ -24,7 +24,7 @@
 
     <span id="d-boat0"></span>**`boat0`** Beldric: “Hi kid. You look curious. Want to try boating?”
 
-    - “Sure.” *(if NOT reached stage 1 of [andor (hidden flag)](../quests/andor.md#stage-1))* → [boat0_a](#d-boat0_a)
+    - “Sure.” *(if NOT reached stage 1 of [Search for Andor](../quests/andor.md#stage-1))* → [boat0_a](#d-boat0_a)
     - “No, I rather stay dry.” → *conversation ends*
 
     <span id="d-boat0_a"></span>**`boat0_a`** Beldric: “I would let you for 10 pieces of gold.”
@@ -37,6 +37,14 @@
     - branch 1 → *NPC leaves*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 3 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -18,6 +18,10 @@
 
 - [sullengard1_aunts_house](../maps/sullengard1_aunts_house.md)
 
+## Quests
+
+- [Search for Andor](../quests/andor.md): stages 100
+
 ??? quote "Dialogue (13 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -57,7 +61,7 @@
 
     <span id="d-sullengard_valeria_0"></span>**`sullengard_valeria_0`** [Valeria](../monsters/sullengard_valeria.md): “Hello $playername, it's so wonderful to finally meet you after all of these years.”
 
-    - “But, I don't have an aunt?” *(if NOT reached stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100))* → [sullengard_find_mother_60](#d-sullengard_find_mother_60)
+    - “But, I don't have an aunt?” *(if NOT reached stage 100 of [Search for Andor](../quests/andor.md#stage-100))* → [sullengard_find_mother_60](#d-sullengard_find_mother_60)
     - “How come mother never spoke of you or told me that she had a sister?” → [sullengard_valeria_10](#d-sullengard_valeria_10)
 
     <span id="d-sullengard_find_mother_60"></span>**`sullengard_find_mother_60`** [Valentina](../monsters/sullengard_valentina.md): “$playername, I will explain this to you later.”
@@ -72,10 +76,18 @@
 
     - “But what about my search for Andor? Father expects me to find him before I come home again.” → [sullengard_find_mother_80](#d-sullengard_find_mother_80)
 
-    <span id="d-sullengard_find_mother_80"></span>**`sullengard_find_mother_80`** Valentina: “Just follow me home and we can talk there. I may have something to aid you in your search for Andor.” — **effects:** sets stage 100 of [andor (hidden flag)](../quests/andor.md#stage-100), removes monsters from sullengard1_aunts_house, spawns monsters on home
+    <span id="d-sullengard_find_mother_80"></span>**`sullengard_find_mother_80`** Valentina: “Just follow me home and we can talk there. I may have something to aid you in your search for Andor.” — **effects:** sets stage 100 of [Search for Andor](../quests/andor.md#stage-100), removes monsters from sullengard1_aunts_house, spawns monsters on home
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 13 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

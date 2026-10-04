@@ -11,7 +11,7 @@
 | **NPCs involved** | [Buceth](../monsters/buceth.md), [Farmer](../monsters/loneford_farmer0.md), [Gandoren](../monsters/gandoren.md), [Kuldan](../monsters/kuldan.md), [Landa](../monsters/landa.md), [Minarra](../monsters/minarra.md) +6 |
 | **Locations** | [fields0](../maps/fields0.md), [houseatcrossroads4](../maps/houseatcrossroads4.md), [loneford1](../maps/loneford1.md), [loneford2](../maps/loneford2.md) |
 | **Total XP** | 30,000 |
-| **Related quests** | 4 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -47,6 +47,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +58,8 @@
 | Requires | [Feygard errands](feygard_shipment.md#stage-25) | stage 25 reached, for stages 10, 11, 21 here |
 | Requires | [I have it in me](maggots.md#stage-51) | stage 51 reached, for stages 23, 25 here |
 | Requires | [The path is clear to me](rogorn.md#stage-20) | stage 20 reached, for stages 10, 11, 21 here |
+| Unlocks | [Search for Andor](andor.md#stage-61) | stage 61 there needs stage 45 here |
+| Unlocks | [Search for Andor](andor.md#stage-62) | stage 62 there needs stage 45 here |
 | Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-19) | stage 19 there needs stage 55 here |
 
 ## Stages
@@ -80,6 +84,7 @@
 | <span id="stage-55"></span>55 | Kuldan thanked me for solving the mystery of the illness in Loneford. They will start bringing in water with help from Feygard instead of drinking from the well from now on. Kuldan also told me to visit the castle steward in Feygard if I want to help further. **(completes quest)** | [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) | stage 54 | 15,000 XP |
 | <span id="stage-60"></span>60 | I have promised to keep Buceth's story a secret. If Andor was indeed here, he must have had a good reason for doing what he did. Buceth also told me to visit the chapel custodian in Nor City if I want to learn more about the Shadow. **(completes quest)** | [Buceth](../monsters/buceth.md) | stage 45 | 15,000 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -170,6 +175,17 @@
     1. Talk to [Buceth](../monsters/buceth.md) → choose “Absolutely. Walk with the Shadow.” — **conditions:** reached stage 45 of [Flows through the veins](../quests/loneford.md#stage-45) → **stage 60**. NPC: “Thank you, my friend.”
     2. Talk to [Buceth](../monsters/buceth.md) → the conversation leads here automatically — **conditions:** reached stage 60 of [Flows through the veins](../quests/loneford.md#stage-60) → **stage 60**. NPC: “If you want to learn more about the Shadow, please visit the chapel custodian in Nor City. Tell them I sent you, and…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Also, isn't it strange how Buceth has not gotten ill, while all the o…” → “Also, isn't it strange how Buceth has not gotten ill, while all the o…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

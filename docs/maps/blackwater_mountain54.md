@@ -20,4 +20,14 @@
 | [Forest wasp](../monsters/forest_wasp.md) | 6 |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `blackwater_mountain54` · Data from v0.8.18</small>

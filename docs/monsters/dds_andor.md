@@ -22,6 +22,7 @@
 ## Quests
 
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): stages 300, 310
+- [Search for Andor](../quests/andor.md): stages 145, 147, 999
 - [Shadows](../quests/shadows.md): stages 280, 290
 
 ??? quote "Dialogue (12 lines)"
@@ -62,23 +63,31 @@
     - “Are you just going to disappear again? Please don't!” *(if reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280))* → [dds_andor_52](#d-dds_andor_52)
     - “Are you just going to disappear again? Please don't!” *(if reached stage 260 of [Shadows](../quests/shadows.md#stage-260))* → [dds_andor_54](#d-dds_andor_54)
 
-    <span id="d-dds_andor_52"></span>**`dds_andor_52`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 310 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-310), sets stage 145 of [andor (hidden flag)](../quests/andor.md#stage-145)
+    <span id="d-dds_andor_52"></span>**`dds_andor_52`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 310 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-310), sets stage 145 of [Search for Andor](../quests/andor.md#stage-145)
 
     - branch 1 → [dds_andor_60](#d-dds_andor_60)
 
-    <span id="d-dds_andor_54"></span>**`dds_andor_54`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 290 of [Shadows](../quests/shadows.md#stage-290), sets stage 147 of [andor (hidden flag)](../quests/andor.md#stage-147)
+    <span id="d-dds_andor_54"></span>**`dds_andor_54`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 290 of [Shadows](../quests/shadows.md#stage-290), sets stage 147 of [Search for Andor](../quests/andor.md#stage-147)
 
     - branch 1 → [dds_andor_60](#d-dds_andor_60)
 
-    <span id="d-dds_andor_60"></span>**`dds_andor_60`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)
+    <span id="d-dds_andor_60"></span>**`dds_andor_60`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [Search for Andor](../quests/andor.md#stage-999)
 
     - branch 1 → [dds_andor_62](#d-dds_andor_62)
 
-    <span id="d-dds_andor_62"></span>**`dds_andor_62`** Andor: “Don't worry - we'll see each other again, in happier days.” — **effects:** removes monsters from wayto_feygard_duleian_2, removes monsters from road5_house, sets stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)
+    <span id="d-dds_andor_62"></span>**`dds_andor_62`** Andor: “Don't worry - we'll see each other again, in happier days.” — **effects:** removes monsters from wayto_feygard_duleian_2, removes monsters from road5_house, sets stage 999 of [Search for Andor](../quests/andor.md#stage-999)
 
     - “Wait!” → *NPC leaves*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 12 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

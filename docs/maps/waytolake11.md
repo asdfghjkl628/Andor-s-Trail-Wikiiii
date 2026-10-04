@@ -15,9 +15,9 @@
 
 | Name | HP |
 |---|---|
+| [Especially sweet berries](../monsters/wild_berry3.md) | 0 |
 | [Horse](../monsters/guynmart_horse.md) | 0 |
 | [Teksin](../monsters/teksin.md) | 0 |
-| [Especially sweet berries](../monsters/wild_berry3.md) | 0 |
 | [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 |
@@ -27,5 +27,16 @@
 | [Giant maonit troll](../monsters/maonit_2.md) | 270 |
 | [Tough maonit brute](../monsters/maonit_5.md) | 310 |
 | [Strong maonit brute](../monsters/maonit_6.md) | 320 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waytolake11` · Data from v0.8.18</small>

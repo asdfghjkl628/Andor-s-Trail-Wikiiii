@@ -16,13 +16,22 @@
 
 | Name | HP |
 |---|---|
-| [Gyra](../monsters/stn_gyra1.md) | 0 |
-| [Gyra](../monsters/stn_gyra3.md) | 0 |
 | [Gyra](../monsters/stn_gyra4.md) | 0 |
 | [Gyra](../monsters/stn_gyra2.md) | 0 |
+| [Gyra](../monsters/stn_gyra1.md) | 0 |
+| [Gyra](../monsters/stn_gyra3.md) | 0 |
 | [Cook](../monsters/erwyn_cook.md) | 35 |
 | [Erwyn's knight](../monsters/erwyn_knight.md) | 75 |
-| [Lord Erwyn](../monsters/erwyn2.md) | 110 |
 | [Lord Erwyn](../monsters/erwyn.md) | 110 |
+| [Lord Erwyn](../monsters/erwyn2.md) | 110 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `stoutford_castle0` · Data from v0.8.18</small>

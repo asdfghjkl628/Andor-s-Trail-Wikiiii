@@ -14,12 +14,25 @@
 
 | Name | HP |
 |---|---|
-| [Birgil](../monsters/birgil.md) | 0 |
-| [Prim bar guest](../monsters/prim_bar_guest.md) | 0 |
 | [Burhczyd](../monsters/burhczyd9.md) | 0 |
-| [Prim tavern guest](../monsters/prim_tavern_guest.md) | 0 |
+| [Birgil](../monsters/birgil.md) | 0 |
 | [Jern](../monsters/prim_bar_regular.md) | 0 |
-| [Prim tavern regular](../monsters/prim_tavern_regular.md) | 0 |
 | [Knight of Elythom](../monsters/burhczyd9e.md) | 0 |
+| [Prim bar guest](../monsters/prim_bar_guest.md) | 0 |
+| [Prim tavern guest](../monsters/prim_tavern_guest.md) | 0 |
+| [Prim tavern regular](../monsters/prim_tavern_regular.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.14](../versions/0.7.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain22` · Data from v0.8.18</small>

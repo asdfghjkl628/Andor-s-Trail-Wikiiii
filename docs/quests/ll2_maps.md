@@ -25,6 +25,8 @@ Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md).
 
 - NOT reached stage 14 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-14)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,8 +65,9 @@ Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md).
 | <span id="stage-37"></span>37 | 37=mountainlake37<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> | stepping on a trigger on [mountainlake37](../maps/mountainlake37.md) | – | – |
 | <span id="stage-38"></span>38 | 38=mountainlake38 | dialogue `ll2_maps_38_1`, which nothing in the data starts directly | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -157,6 +160,16 @@ Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md).
 
     1. stepping on a trigger on [mountainlake37](../maps/mountainlake37.md) → the conversation leads here automatically — **conditions:** NOT reached stage 37 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-37) → **stage 37**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 25 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

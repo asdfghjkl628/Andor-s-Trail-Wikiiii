@@ -40,6 +40,8 @@
 - reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20)
 - NOT reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,8 +60,9 @@
 | <span id="stage-100"></span>100 | Anakis left | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-110"></span>110 | Basilisk blocked<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave2](../maps/basiliskcave2.md).</span><br><span class="qnote">🔒 An area on [Basiliskcave2](../maps/basiliskcave2.md) becomes blocked off.</span> | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | – | applies condition turn_to_stone |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -70,6 +73,16 @@
     2. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT wearing [Hand mirror](../items/hand_mirror.md); NOT affected by turn_to_stone → **stage 110**; also applies condition turn_to_stone. NPC: “You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get…”
     3. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20); NOT reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50) → **stage 110**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -11,7 +11,7 @@
 | **NPCs involved** | [Bryma](../monsters/brightportnpc7.md), [Counterfeit](../monsters/brightportthieves2.md), [Dibella](../monsters/brightportnpc3.md), [Franz](../monsters/brightportnpc4.md), [Frederich](../monsters/brightportnpc5.md), [Janwick](../monsters/brightportnpc8.md) +4 |
 | **Locations** | [brightport1](../maps/brightport1.md), [brightport_forest](../maps/brightport_forest.md), [brightport_school](../maps/brightport_school.md), [brightport_school10](../maps/brightport_school10.md) |
 | **Total XP** | 20,000 |
-| **Related quests** | 2 |
+| **Related quests** | 3 |
 
 </div>
 
@@ -25,15 +25,19 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 
 - NOT reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40)
 - reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40)
-- reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110)
+- reached stage 110 of [Search for Andor](../quests/andor.md#stage-110)
 - NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-110) | stage 110 reached, for stages 5, 10 here |
+| Requires | [Search for Andor](andor.md#stage-132) | stage 132 reached, for stages 96, 97, 100 here |
 | Requires | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-40) | stage 40 reached, for stages 5, 15, 16, 31 here |
 | Requires | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-45) | stage 45 reached, for stage 45 here |
 | Requires | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-66) | stage 66 reached, for stages 15, 16 here |
@@ -53,6 +57,7 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-80) | stage 80 must NOT be reached, for stage 47 here |
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-94) | stage 94 must NOT be reached, for stages 84, 85 here |
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-95) | stage 95 must NOT be reached, for stage 85 here |
+| Unlocks | [Search for Andor](andor.md#stage-126) | stage 126 there needs stage 20 here |
 | Unlocks | [The balance of scales](brightport_lizard.md#stage-5) | stage 5 there needs stage 95 here |
 | Unlocks | [The balance of scales](brightport_lizard.md#stage-10) | stage 10 there needs stage 95 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-42) | stage 42 there needs stage 25 here |
@@ -63,6 +68,7 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-85) | stage 85 there needs stage 35 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-237) | stage 237 there needs stage 15 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-248) | stage 248 there needs stages 10, 55 here |
+| Blocks | [Search for Andor](andor.md#stage-126) | reaching stage 25 here closes stage 126 there |
 
 ## Stages
 
@@ -72,7 +78,7 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 | <span id="stage-10"></span>10 | Janwick, Stanwick's grandfather, mistook me for Andor and asked me to deliver some fresh fruit to Stanwick. | [Janwick](../monsters/brightportnpc8.md) ([brightport_stanwick](../maps/brightport_stanwick.md)) | – | gives 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md) |
 | <span id="stage-15"></span>15 | I was allowed to visit Stanwick. | [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) | carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md), stage 16 | – |
 | <span id="stage-16"></span>16 | I learned that Stanwick is under investigation as the main suspect in the disappearance of an important scroll from the school library. | [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) | – | sets stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66) |
-| <span id="stage-20"></span>20 | Stanwick has something important to tell me about Andor, but I must help him first.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brightport school7](../maps/brightport_school7.md).</span> | stepping on a trigger on [brightport_school7](../maps/brightport_school7.md)<br>[Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | – | sets stage 126 of [andor (hidden flag)](../quests/andor.md#stage-126) |
+| <span id="stage-20"></span>20 | Stanwick has something important to tell me about Andor, but I must help him first.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brightport school7](../maps/brightport_school7.md).</span> | stepping on a trigger on [brightport_school7](../maps/brightport_school7.md)<br>[Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | – | sets stage 126 of [Search for Andor](../quests/andor.md#stage-126) |
 | <span id="stage-25"></span>25 | I agreed to help Stanwick find the culprit responsible for the theft. I should look for clues around the school.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brightport school7](../maps/brightport_school7.md).</span> | stepping on a trigger on [brightport_school7](../maps/brightport_school7.md)<br>[Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | stage 20 | – |
 | <span id="stage-30"></span>30 | Milena, the school cook, told me that last year she noticed a dark figure sneaking off from the living quarters. | [Milena](../monsters/brightportnpc1.md) ([brightport_school3](../maps/brightport_school3.md)) | stage 25 | – |
 | <span id="stage-31"></span>31 | Dibella, the lady at the desk at the entrance, told me that Stanwick has a respectable reputation, but as the library supervisor he must be considered a suspect.  | [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) | stage 25, stage 35 | – |
@@ -99,17 +105,18 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 | <span id="stage-100"></span>100 | I received a reward from the Headmaster for having returned the scroll. | [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) | – | gives 1× [Deerskin gloves](../items/brightportgloves.md) |
 | <span id="stage-110"></span>110 | I informed Stanwick and he was relieved to hear the news. **(completes quest)** | [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | stage 25, stage 96 | 20,000 XP<br>sets stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 5: 1 route"
 
-    1. Talk to [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) → choose “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” — **conditions:** NOT reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40); reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40); reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110); NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66) → **stage 5**. NPC: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed…”
+    1. Talk to [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) → choose “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” — **conditions:** NOT reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40); reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40); reached stage 110 of [Search for Andor](../quests/andor.md#stage-110); NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66) → **stage 5**. NPC: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed…”
 
 ???+ note "Stage 10: 1 route"
 
-    1. Talk to [Janwick](../monsters/brightportnpc8.md) ([brightport_stanwick](../maps/brightport_stanwick.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [No rest for the wicked](../quests/Stanwickquest.md#stage-10); reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110) → **stage 10**; also gives 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md). NPC: “He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?”
+    1. Talk to [Janwick](../monsters/brightportnpc8.md) ([brightport_stanwick](../maps/brightport_stanwick.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [No rest for the wicked](../quests/Stanwickquest.md#stage-10); reached stage 110 of [Search for Andor](../quests/andor.md#stage-110) → **stage 10**; also gives 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md). NPC: “He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?”
 
 ???+ note "Stage 15: 1 route"
 
@@ -121,8 +128,8 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 
 ???+ note "Stage 20: 2 routes"
 
-    1. stepping on a trigger on [brightport_school7](../maps/brightport_school7.md) → choose “That might be something that could help my search. Could you tell me more?” — **conditions:** NOT reached stage 50 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-50) → **stage 20**; also sets stage 126 of [andor (hidden flag)](../quests/andor.md#stage-126). NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”
-    2. Talk to [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); NOT reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25) → **stage 20**; also sets stage 126 of [andor (hidden flag)](../quests/andor.md#stage-126). NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”
+    1. stepping on a trigger on [brightport_school7](../maps/brightport_school7.md) → choose “That might be something that could help my search. Could you tell me more?” — **conditions:** NOT reached stage 50 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-50) → **stage 20**; also sets stage 126 of [Search for Andor](../quests/andor.md#stage-126). NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”
+    2. Talk to [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); NOT reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25) → **stage 20**; also sets stage 126 of [Search for Andor](../quests/andor.md#stage-126). NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”
 
 ???+ note "Stage 25: 2 routes"
 
@@ -211,20 +218,30 @@ Start with [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps
 
 ???+ note "Stage 96: 1 route"
 
-    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132) → **stage 96**. NPC: “And now on the matter of Stanwick. The academy will release him, with an apology letter, and I will personally make…”
+    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132) → **stage 96**. NPC: “And now on the matter of Stanwick. The academy will release him, with an apology letter, and I will personally make…”
 
 ???+ note "Stage 97: 1 route"
 
-    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47) → **stage 97**. NPC: “Stealing the key was not very nice of you. Consider your reward the fact that I overlooked it this time.”
+    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47) → **stage 97**. NPC: “Stealing the key was not very nice of you. Consider your reward the fact that I overlooked it this time.”
 
 ???+ note "Stage 100: 1 route"
 
-    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132); NOT reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47) → **stage 100**; also gives 1× [Deerskin gloves](../items/brightportgloves.md). NPC: “Please have these Deerskin gloves as a sign of my gratitude. Those are as sturdy as leather can be.”
+    1. Talk to [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — **conditions:** reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47) → **stage 100**; also gives 1× [Deerskin gloves](../items/brightportgloves.md). NPC: “Please have these Deerskin gloves as a sign of my gratitude. Those are as sturdy as leather can be.”
 
 ???+ note "Stage 110: 1 route"
 
     1. Talk to [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) → choose “I returned the scroll to the headmaster, he'll release an apology for you later.” — **conditions:** reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70); reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96) → **stage 110**; also sets stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70). NPC: “Stanwick lets out a deep breath, his expression softening with visible relief as he sits down on his bed.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 30 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

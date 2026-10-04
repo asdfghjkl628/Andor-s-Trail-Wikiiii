@@ -15,7 +15,15 @@
 
 | Name | HP |
 |---|---|
-| [Jhaeld](../monsters/lae_jhaeld1.md) | 0 |
 | [Algangror](../monsters/lae_algangror1.md) | 0 |
+| [Jhaeld](../monsters/lae_jhaeld1.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `island_4_cave1` · Data from v0.8.18</small>

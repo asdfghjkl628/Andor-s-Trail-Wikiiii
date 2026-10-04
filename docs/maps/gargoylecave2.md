@@ -17,10 +17,23 @@
 | Name | HP |
 |---|---|
 | [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 |
-| [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 35 |
+| [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 36 |
-| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 |
 | [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 |
+| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `gargoylecave2` · Data from v0.8.18</small>

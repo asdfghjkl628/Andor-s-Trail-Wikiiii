@@ -14,14 +14,23 @@
 
 | Name | HP |
 |---|---|
-| [Miri](../monsters/dds_miri.md) | 0 |
+| [Borvis](../monsters/dds_borvis.md) | 0 |
 | [Dark priest](../monsters/dds_dark_priest2.md) | 0 |
 | [Dark priest](../monsters/dds_dark_priest.md) | 0 |
-| [Borvis](../monsters/dds_borvis.md) | 0 |
+| [Miri](../monsters/dds_miri.md) | 0 |
 | [Spitfire bug](../monsters/spitfire_bug.md) | 106 |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 246 |
 | [Pyreling](../monsters/pyreling.md) | 266 |
 | [Dark priest](../monsters/dds_dark_priest_monster.md) | 330 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+| [v0.8.15](../versions/0.8.15.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `galmore_41` · Data from v0.8.18</small>

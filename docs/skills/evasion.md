@@ -22,6 +22,7 @@ For every skill level, reduces both the chance of failed flee attempts by 5 % an
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Taunt](taunt.md): needs this skill at level 2

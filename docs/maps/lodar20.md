@@ -18,12 +18,23 @@
 |---|---|
 | [Puny venomscale](../monsters/vscale1.md) | 42 |
 | [Young venomscale](../monsters/vscale2.md) | 46 |
-| [Gray venomscale](../monsters/vscale3.md) | 48 |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 |
+| [Gray venomscale](../monsters/vscale3.md) | 48 |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 |
 | [Quick venomscale](../monsters/vscale5.md) | 56 |
 | [Morkin lookout](../monsters/morkin1.md) | 145 |
 | [Morkin scout](../monsters/morkin2.md) | 152 |
 | [Morkin fighter](../monsters/morkin3.md) | 159 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `lodar20` · Data from v0.8.18</small>

@@ -33,4 +33,16 @@
 |---|---|---|
 | [Kamelio](../monsters/kamelio.md) | 100% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 9, "increaseAt… → {"increaseAttackChance": 9, "increaseAt… |
+| [v0.7.14](../versions/0.7.14.md) | description added (These gloves can be used on your hands …); displaytype: ordinary → rare; equipEffect: {"increaseAttackChance": 9, "increaseAt… → {"increaseAttackChance": 9, "increaseAt…; hasManualPrice removed; hitEffect added ({"conditionsTarget": [{"chance": "5", "…) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `gauntlet_omi2_1` · Data from v0.8.18</small>

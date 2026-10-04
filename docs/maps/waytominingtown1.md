@@ -24,4 +24,15 @@ South: Nor City" style="left:20.000%;top:80.000%;width:3.333%;height:3.333%"></s
 | [Strong redfoot beast](../monsters/redft1.md) | 43 |
 | [Bloodthirsty redfoot beast](../monsters/redft2.md) | 47 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `waytominingtown1` · Data from v0.8.18</small>

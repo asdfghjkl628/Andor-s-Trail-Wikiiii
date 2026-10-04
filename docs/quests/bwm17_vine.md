@@ -23,6 +23,8 @@
 
 None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -39,6 +41,7 @@ None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwate
 | <span id="stage-2"></span>2 | Vine placed.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span> | walking into a blocked passage on [blackwater_mountain70](../maps/blackwater_mountain70.md) | hand over 1× [Rolled up vine](../items/bwm17_vine.md) | – |
 | <span id="stage-3"></span>3 | Quest Climbing forbidden enabled.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain14](../maps/blackwater_mountain14.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span><br><span class="qnote">🗺️ Part of [Blackwater mountain70](../maps/blackwater_mountain70.md) visibly changes.</span> | stepping on a trigger on [blackwater_mountain14](../maps/blackwater_mountain14.md) | – | removes monsters from blackwater_mountain70 |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -55,6 +58,16 @@ None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwate
 
     1. stepping on a trigger on [blackwater_mountain14](../maps/blackwater_mountain14.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [Lights in the dark](../quests/kazaul.md#stage-9) → **stage 3**; also removes monsters from blackwater_mountain70
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 3 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

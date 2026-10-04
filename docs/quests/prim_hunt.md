@@ -23,6 +23,8 @@
 
 None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,8 +44,8 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 | Stage | Journal entry | Triggered by | Needs | Rewards |
 |---|---|---|---|---|
 | <span id="stage-10"></span>10 | Just outside the collapsed mine on the way to Blackwater mountain, I met a man from the village of Prim. He begged me to help them. | [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | – |
-| <span id="stage-11"></span>11 | The village of Prim needs help from someone from the outside to deal with attacks from some monsters. I should speak to Guthbered in Prim if I want to help them. | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md))<br>[Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md))<br>[Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md))<br>+1 more | stage 10, stage 20, stage 25 | – |
-| <span id="stage-15"></span>15 | Guthbered can be found in the main hall of Prim. I should look for a stone house in the center of town. | [Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md))<br>[Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) | – | – |
+| <span id="stage-11"></span>11 | The village of Prim needs help from someone from the outside to deal with attacks from some monsters. I should speak to Guthbered in Prim if I want to help them. | [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md))<br>[Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md))<br>[Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md))<br>+1 more | stage 10, stage 20, stage 25 | – |
+| <span id="stage-15"></span>15 | Guthbered can be found in the main hall of Prim. I should look for a stone house in the center of town. | [Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md))<br>[Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) | – | – |
 | <span id="stage-20"></span>20 | I talked to Guthbered about the story about Prim. Prim has recently been under constant attack from the Blackwater mountain settlement. | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 25 | – |
 | <span id="stage-25"></span>25 | Guthbered wants me to go up to the settlement atop the Blackwater mountain and ask their battle master Harlenn why (or if) they have summoned the gornaud monsters against Prim. | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | – | – |
 | <span id="stage-30"></span>30 | I have talked to Harlenn about the attacks on Prim. He denies that the people of the Blackwater mountain settlement have anything to do with them. I should go talk to Guthbered in Prim again. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 25 | – |
@@ -58,9 +60,10 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 | <span id="stage-100"></span>100 | Guthbered thanked me for the help I have provided to Prim. Hopefully, the attacks on Prim should stop now. As thanks, Guthbered gave me some items and a forged permit so that I can enter the inner chamber up in the Blackwater mountain settlement. | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 99 | 5,000 XP<br>gives [Blackwater dagger](../items/bwm_dagger.md), [Gold coins](../items/gold.md), [Regular potion of health](../items/health.md), [Forged papers for Blackwater](../items/bwm_permit.md) |
 | <span id="stage-140"></span>140 | I have shown the forged permit to the guard and was let through to the inner chamber. | [Blackwater chamber guard](../monsters/blackwater_chamber_guard.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | hand over 1× [Forged papers for Blackwater](../items/bwm_permit.md) | – |
 | <span id="stage-240"></span>240 | I am now trusted in Prim, and all services should be available for me to use. **(completes quest)** | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 100 | – |
-| <span id="stage-250"></span>250 | I have decided to not help the people of Prim. **(completes quest)** | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md))<br>[Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | stage 25, stage 30 | – |
+| <span id="stage-250"></span>250 | I have decided to not help the people of Prim. **(completes quest)** | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md))<br>[Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 25, stage 30 | – |
 | <span id="stage-251"></span>251 | Since I am helping the Blackwater mountain settlement, Guthbered no longer wants to talk to me. **(completes quest)** | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -71,15 +74,15 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 
 ???+ note "Stage 11: 4 routes"
 
-    1. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “Tough luck.” — **conditions:** reached stage 25 of [Clouded intent](../quests/prim_hunt.md#stage-25) → **stage 11**. NPC: “On top of that, there are the attacks from the monsters that we have to deal with.”
-    2. Talk to [Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “What beasts are you talking about?” → **stage 11**. NPC: “Their attacks are getting more and more clever.”
-    3. Talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) → choose “Yes, he told me the story about Prim.” — **conditions:** reached stage 10 of [Clouded intent](../quests/prim_hunt.md#stage-10); reached stage 20 of [Clouded intent](../quests/prim_hunt.md#stage-20) → **stage 11**. NPC: “Good, thanks. We really need your help!”
-    4. Talk to [Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) → choose “Yes, I am here to help your village.” → **stage 11**. NPC: “Thank you. We really need your help.”
+    1. Talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) → choose “Yes, he told me the story about Prim.” — **conditions:** reached stage 10 of [Clouded intent](../quests/prim_hunt.md#stage-10); reached stage 20 of [Clouded intent](../quests/prim_hunt.md#stage-20) → **stage 11**. NPC: “Good, thanks. We really need your help!”
+    2. Talk to [Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) → choose “Yes, I am here to help your village.” → **stage 11**. NPC: “Thank you. We really need your help.”
+    3. Talk to [Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “What beasts are you talking about?” → **stage 11**. NPC: “Their attacks are getting more and more clever.”
+    4. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “Tough luck.” — **conditions:** reached stage 25 of [Clouded intent](../quests/prim_hunt.md#stage-25) → **stage 11**. NPC: “On top of that, there are the attacks from the monsters that we have to deal with.”
 
 ???+ note "Stage 15: 2 routes"
 
-    1. Talk to [Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “Is there anything I can do to help?” → **stage 15**. NPC: “You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village.”
-    2. Talk to [Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) → choose “Where can I find him?” → **stage 15**. NPC: “He is in the main hall right over there. The large stone house.”
+    1. Talk to [Prim citizen](../monsters/prim_citizen.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) → choose “Where can I find him?” → **stage 15**. NPC: “He is in the main hall right over there. The large stone house.”
+    2. Talk to [Laecca](../monsters/laecca.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “Is there anything I can do to help?” → **stage 15**. NPC: “You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village.”
 
 ???+ note "Stage 20: 1 route"
 
@@ -140,13 +143,24 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 
 ???+ note "Stage 250: 2 routes"
 
-    1. Talk to [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) → the conversation leads here automatically — **conditions:** reached stage 150 of [The agent and the beast](../quests/bwm_agent.md#stage-150) → **stage 250**. NPC: “I'm sure the monster attacks will stop now when we kill the last few monsters that are outside the settlement.”
-    2. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “Hmm, maybe I should help the people up in Blackwater mountain instead.” — **conditions:** reached stage 25 of [Clouded intent](../quests/prim_hunt.md#stage-25); reached stage 30 of [Clouded intent](../quests/prim_hunt.md#stage-30) → **stage 250**. NPC: “Fine. You should leave now while you still can, traitor.”
+    1. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → choose “Hmm, maybe I should help the people up in Blackwater mountain instead.” — **conditions:** reached stage 25 of [Clouded intent](../quests/prim_hunt.md#stage-25); reached stage 30 of [Clouded intent](../quests/prim_hunt.md#stage-30) → **stage 250**. NPC: “Fine. You should leave now while you still can, traitor.”
+    2. Talk to [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) → the conversation leads here automatically — **conditions:** reached stage 150 of [The agent and the beast](../quests/bwm_agent.md#stage-150) → **stage 250**. NPC: “I'm sure the monster attacks will stop now when we kill the last few monsters that are outside the settlement.”
 
 ???+ note "Stage 251: 1 route"
 
     1. Talk to [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) → the conversation leads here automatically — **conditions:** reached stage 95 of [The agent and the beast](../quests/bwm_agent.md#stage-95) → **stage 251**. NPC: “It is, of course, your choice. But if you are working for them, you are not welcome here in Prim. You should leave…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+3 more)<br>Dialogue: 3 lines changed<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 
@@ -180,7 +194,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
     | Quest ID | `prim_hunt` |
     | showInLog | 1 |
     | Stage IDs | 10, 11, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 91, 99, 100, 140, 240, 250, 251 |
-    | Dialogue nodes setting stages | 10: `tonis_6`, 11: `guthbered_12`, 11: `laecca_12`, 11: `tonis_8`, 15: `laecca_13`, 15: `prim_commoner1_4`, 20: `guthbered_19`, 25: `guthbered_30`, 25: `guthbered_31`, 30: `harlenn_prim_2`, 40: `guthbered_talkedto_harl_3`, 50: `guthbered_talkedto_harl_13`, 60: `sign_blackwater45_qstarted_1`, 70: `guthbered_lookforsigns_4`, 80: `guthbered_lookforsigns_9`, 90: `harlenn_sentbyprim_2`, 91: `harlenn_sentbyprim_8`, 99: `guthbered_killharl_2`, 100: `guthbered_killharl_6`, 140: `blackwater_throneguard_3`, 240: `guthbered_completed_1`, 250: `harlenn_completed_1`, 250: `guthbered_workingforbwm_1`, 251: `guthbered_workingforbwm_3` |
+    | Dialogue nodes setting stages | 10: `tonis_6`, 11: `tonis_8`, 11: `prim_commoner1_2`, 11: `laecca_12`, 15: `prim_commoner1_4`, 15: `laecca_13`, 20: `guthbered_19`, 25: `guthbered_30`, 25: `guthbered_31`, 30: `harlenn_prim_2`, 40: `guthbered_talkedto_harl_3`, 50: `guthbered_talkedto_harl_13`, 60: `sign_blackwater45_qstarted_1`, 70: `guthbered_lookforsigns_4`, 80: `guthbered_lookforsigns_9`, 90: `harlenn_sentbyprim_2`, 91: `harlenn_sentbyprim_8`, 99: `guthbered_killharl_2`, 100: `guthbered_killharl_6`, 140: `blackwater_throneguard_3`, 240: `guthbered_completed_1`, 250: `guthbered_workingforbwm_1`, 250: `harlenn_completed_1`, 251: `guthbered_workingforbwm_3` |
     | Dialogue nodes clearing stages | – |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 

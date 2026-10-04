@@ -24,12 +24,24 @@
 | [Black plaguecrawler](../monsters/plaguesp_4.md) | 61 |
 | [Plaguestrider](../monsters/plaguesp_5.md) | 62 |
 | [Hardshell plaguestrider](../monsters/plaguesp_6.md) | 63 |
-| [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 |
 | [Ferocious mountain fox](../monsters/mwolf_5.md) | 64 |
+| [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 |
 | [Rabid mountain wolf](../monsters/mwolf_6.md) | 67 |
 | [Strong maonit troll](../monsters/maonit_3.md) | 285 |
 | [Maonit brute](../monsters/maonit_4.md) | 290 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.4](../versions/0.7.4.md) | Added |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waytolake12` · Data from v0.8.18</small>

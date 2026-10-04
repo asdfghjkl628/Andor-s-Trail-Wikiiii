@@ -16,6 +16,8 @@
 
 ## Quests
 
+- [Disallowed substance](../quests/bonemeal.md): stages 10
+- [Search for Andor](../quests/andor.md): stages 10
 - [TODO (hidden flag)](../quests/crossglen.md): stages 1
 
 ??? quote "Dialogue (15 lines)"
@@ -28,7 +30,7 @@
     - “What can you tell me about Crossglen?” → [leonid_crossglen](#d-leonid_crossglen)
     - “Never mind, see you later.” → [leonid_bye](#d-leonid_bye)
 
-    <span id="d-leonid_andor"></span>**`leonid_andor`** Leonid: “Your brother? No, I haven't seen him here today. I think I saw him in here yesterday talking to Gruil. Maybe he knows more?” — **effects:** sets stage 10 of [andor (hidden flag)](../quests/andor.md#stage-10)
+    <span id="d-leonid_andor"></span>**`leonid_andor`** Leonid: “Your brother? No, I haven't seen him here today. I think I saw him in here yesterday talking to Gruil. Maybe he knows more?” — **effects:** sets stage 10 of [Search for Andor](../quests/andor.md#stage-10)
 
     - “Thanks, I'll go talk to Gruil. There was something more I wanted to talk about.” → [leonid_continue](#d-leonid_continue)
     - “Thanks, I'll go talk to Gruil.” → [leonid_bye](#d-leonid_bye)
@@ -60,7 +62,7 @@
 
     - Next → [leonid_crossglen4](#d-leonid_crossglen4)
 
-    <span id="d-leonid_crossglen4"></span>**`leonid_crossglen4`** Leonid: “Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it.” — **effects:** sets stage 10 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-10)
+    <span id="d-leonid_crossglen4"></span>**`leonid_crossglen4`** Leonid: “Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it.” — **effects:** sets stage 10 of [Disallowed substance](../quests/bonemeal.md#stage-10)
 
     - Next → [leonid_crossglen4_1](#d-leonid_crossglen4_1)
 
@@ -90,6 +92,16 @@
     - “Thank you for the information. Bye.” → [leonid_bye](#d-leonid_bye)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “In the meantime, we've banned all use of Bonemeal as a healing substa…” → “In the meantime, we've banned all use of bonemeal as a healing substa…” |
+| [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Hello kid. You're Mikhail's son aren't you? With that brother of your…” → “Hello kid. You're Mikhail's youngest child aren't you? With that brot…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -15,8 +15,8 @@
 
 | Monster | Chance | Qty |
 |---|---|---|
-| [Ancient death cob](../monsters/deathcobboss.md) | 100% | 1 |
 | [Winged demon](../monsters/winged_demon.md) | 100% | 1 |
+| [Ancient death cob](../monsters/deathcobboss.md) | 100% | 1 |
 | [Feygard scout](../monsters/ortholion_guard2.md) | 20% | 1-3 |
 | [Sinister wraith](../monsters/sinister_wraith.md) | 10% | 1 |
 | [Young izthiel](../monsters/izthiel_1.md) | 1% | 1 |
@@ -26,8 +26,18 @@
 
 ## Sold by
 
+- [Alynndir](../monsters/alynndir.md)
 - [Rorthron](../monsters/guynmart_wizard.md)
 - [Feygard scout](../monsters/ortholion_guard6.md)
-- [Alynndir](../monsters/alynndir.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `ring_jinxed1` · Data from v0.8.18</small>

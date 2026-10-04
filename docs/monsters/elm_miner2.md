@@ -38,4 +38,12 @@
 - [elm_4f_4](../maps/elm_4f_4.md)
 - [elm_4f_5](../maps/elm_4f_5.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `elm_miner2` · Data from v0.8.18</small>

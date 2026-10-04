@@ -271,6 +271,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 12 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “Shields can be used in combination with your regular weapon, to block…” → “Shields can be used in combination with your regular weapon, to block…”<br>· text: “I can teach you to better withstand attacks using a shield, so that y…” → “I can teach you to better withstand attacks using a shield, or to div…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…”<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

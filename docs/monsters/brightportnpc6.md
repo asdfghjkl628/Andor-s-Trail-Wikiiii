@@ -63,7 +63,7 @@
 
     <span id="d-brightport_oswald14"></span>**`brightport_oswald14`** Oswald: “Before we discuss what is next. Have you learned who the culprit was?”
 
-    - “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” *(if reached stage 132 of [andor (hidden flag)](../quests/andor.md#stage-132))* → [brightport_oswald15](#d-brightport_oswald15)
+    - “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_oswald15](#d-brightport_oswald15)
     - “I prefer not to say, as it would cause trouble for the people who helped me.” → [brightport_oswald17](#d-brightport_oswald17)
     - “A former baker named Bryma was in possesion of it. I'm unaware of how she acquired it.” → [brightport_oswald16](#d-brightport_oswald16)
     - “Hey, I spent a lot of time to find it! Why did you burn it?” → [brightport_oswald3](#d-brightport_oswald3)
@@ -183,6 +183,14 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 36 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

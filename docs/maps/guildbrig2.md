@@ -18,10 +18,20 @@
 
 | Name | HP |
 |---|---|
-| [Alaric](../monsters/aidem_jail_alaric.md) | 0 |
-| [Greedy](../monsters/aidem_jail_greedy.md) | 0 |
-| [Defy](../monsters/aidem_jail_defy.md) | 0 |
-| [Grabby](../monsters/aidem_jail_grabby.md) | 0 |
 | [Zachlanny](../monsters/aidem_jail_zachlanny.md) | 0 |
+| [Greedy](../monsters/aidem_jail_greedy.md) | 0 |
+| [Alaric](../monsters/aidem_jail_alaric.md) | 0 |
+| [Grabby](../monsters/aidem_jail_grabby.md) | 0 |
+| [Defy](../monsters/aidem_jail_defy.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `guildbrig2` · Data from v0.8.18</small>

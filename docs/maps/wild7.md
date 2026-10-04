@@ -23,4 +23,18 @@ South: Sutdover River and Sullengard" style="left:65.000%;top:50.000%;width:5.00
 | [Forest serpent](../monsters/forest_serpent.md) | 20 |
 | [Wolf](../monsters/wolf.md) | 30 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `wild7` · Data from v0.8.18</small>

@@ -11,7 +11,7 @@
 | **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Dealer](../monsters/brv_blackjack_dealer.md), [Mustura](../monsters/brv_guard_captain.md), [Nocmar](../monsters/nocmar.md) |
 | **Locations** | [brimhaven4](../maps/brimhaven4.md), [brimhaven_house1](../maps/brimhaven_house1.md), [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) |
 | **Total XP** | 8,975 |
-| **Related quests** | 4 |
+| **Related quests** | 5 |
 
 </div>
 
@@ -23,11 +23,13 @@
 
 Start with [Nocmar](../monsters/nocmar.md). Required:
 
-- NOT reached stage 90 of [nocmar (hidden flag)](../quests/nocmar.md#stage-90)
-- reached stage 10 of [nocmar (hidden flag)](../quests/nocmar.md#stage-10)
+- NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90)
+- reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10)
 - NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60)
-- reached stage 80 of [nocmar (hidden flag)](../quests/nocmar.md#stage-80)
+- reached stage 80 of [Lost treasures](../quests/nocmar.md#stage-80)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -36,10 +38,14 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 |---|---|---|
 | Requires | [Much water](brv_flood.md#stage-130) | stage 130 reached, for stage 20 here |
 | Requires | [Much water](brv_flood.md#stage-200) | stage 200 reached, for stages 30, 35, 40, 50 here |
+| Requires | [Lost treasures](nocmar.md#stage-10) | stage 10 reached, for stages 10, 20, 60 here |
+| Requires | [Lost treasures](nocmar.md#stage-80) | stage 80 reached, for stages 10, 20, 60 here |
 | Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-15) | stage 15 reached, for stages 30, 35, 40, 50 here |
 | Blocked by | [Fair play?](brv_blackjack.md#stage-50) | stage 50 must NOT be reached, for stage 45 here |
 | Blocked by | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-100) | stage 100 must NOT be reached, for stage 45 here |
+| Mutually exclusive | [Lost treasures](nocmar.md#stage-90) | stage 90 must NOT be reached, for stages 10, 20, 60 here |
 | Unlocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-150) | stage 150 there needs stage 40 here |
+| Unlocks | [Lost treasures](nocmar.md#stage-90) | stage 90 there needs stage 60 here |
 | Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-10) | reaching stage 60 here closes stage 10 there |
 | Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-15) | reaching stage 50 here closes stage 15 there |
 
@@ -56,17 +62,18 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 | <span id="stage-50"></span>50 | After I paid Alkapoan, he gave me the deed and the key to the white house south of Fallhaven. I should bring them back to Nocmar. | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md))<br>[Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | pay 45,000 gold, stage 45 | gives 1× [White house deed](../items/white_house_deed.md)<br>gives 1× [White house key](../items/white_house_key.md) |
 | <span id="stage-60"></span>60 | I was able to finally give Nocmar back what was rightfully his...possession of his forge house. **(completes quest)** | [Nocmar](../monsters/nocmar.md) | hand over 1× [White house deed](../items/white_house_deed.md), hand over 1× [White house key](../items/white_house_key.md), stage 50 | 8,975 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 10: 1 route"
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Unnmir sent me.” — **conditions:** NOT reached stage 90 of [nocmar (hidden flag)](../quests/nocmar.md#stage-90); reached stage 10 of [nocmar (hidden flag)](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [nocmar (hidden flag)](../quests/nocmar.md#stage-80) → **stage 10**. NPC: “There was a time, before all this, when I had a place. A house. Not just any house...a white house on the edge of…”
+    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Unnmir sent me.” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [Lost treasures](../quests/nocmar.md#stage-80) → **stage 10**. NPC: “There was a time, before all this, when I had a place. A house. Not just any house...a white house on the edge of…”
 
 ???+ note "Stage 20: 1 route"
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “That's a lot to lose, indeed.” — **conditions:** NOT reached stage 90 of [nocmar (hidden flag)](../quests/nocmar.md#stage-90); reached stage 10 of [nocmar (hidden flag)](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [nocmar (hidden flag)](../quests/nocmar.md#stage-80); NOT reached stage 50 of [A place to forge](../quests/place_to_forge.md#stage-50); reached stage 130 of [Much water](../quests/brv_flood.md#stage-130) → **stage 20**. NPC: “If I am to work again, I must have that house returned to me. Speak to Alkapoan. Persuade him, pay him, bargain with…”
+    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “That's a lot to lose, indeed.” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [Lost treasures](../quests/nocmar.md#stage-80); NOT reached stage 50 of [A place to forge](../quests/place_to_forge.md#stage-50); reached stage 130 of [Much water](../quests/brv_flood.md#stage-130) → **stage 20**. NPC: “If I am to work again, I must have that house returned to me. Speak to Alkapoan. Persuade him, pay him, bargain with…”
 
 ???+ note "Stage 30: 2 routes"
 
@@ -97,8 +104,18 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Well, that time has come back! I have the deed and the key to your forge house. [hand them to Nocmar]” — **conditions:** NOT reached stage 90 of [nocmar (hidden flag)](../quests/nocmar.md#stage-90); reached stage 10 of [nocmar (hidden flag)](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [nocmar (hidden flag)](../quests/nocmar.md#stage-80); latest stage of [A place to forge](../quests/place_to_forge.md#stage-50) is 50; hand over 1× [White house deed](../items/white_house_deed.md); hand over 1× [White house key](../items/white_house_key.md) → **stage 60**. NPC: “Ah, all these years and at last I have a chance to see it again.”
+    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Well, that time has come back! I have the deed and the key to your forge house. [hand them to Nocmar]” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 80 of [Lost treasures](../quests/nocmar.md#stage-80); latest stage of [A place to forge](../quests/place_to_forge.md#stage-50) is 50; hand over 1× [White house deed](../items/white_house_deed.md); hand over 1× [White house key](../items/white_house_key.md) → **stage 60**. NPC: “Ah, all these years and at last I have a chance to see it again.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 8 lines added, 1 line changed<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -86,6 +86,15 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 10 lines added |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed<br>· text: “Follow the path to the west. There are two settlements there, Prim an…” → “Head out of town to the north. There are two settlements there, Prim …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

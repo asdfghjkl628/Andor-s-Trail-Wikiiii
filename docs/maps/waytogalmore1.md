@@ -22,21 +22,33 @@
 
 | Name | HP |
 |---|---|
-| [Gyra](../monsters/stn_gyra1.md) | 0 |
-| [Gyra](../monsters/stn_gyraC.md) | 0 |
-| [Gyra](../monsters/stn_gyra7.md) | 0 |
-| [Gyra](../monsters/stn_gyra5.md) | 0 |
-| [Gyra](../monsters/stn_gyra8.md) | 0 |
-| [Gyra](../monsters/stn_gyra6.md) | 0 |
 | [Gyra](../monsters/stn_gyraA.md) | 0 |
-| [Gyra](../monsters/stn_gyra3.md) | 0 |
-| [Gyra](../monsters/stn_gyra9.md) | 0 |
+| [Gyra](../monsters/stn_gyraC.md) | 0 |
+| [Gyra](../monsters/stn_gyra8.md) | 0 |
+| [Gyra](../monsters/stn_gyra5.md) | 0 |
 | [Gyra](../monsters/stn_gyra4.md) | 0 |
 | [Gyra](../monsters/stn_gyra2.md) | 0 |
 | [Gyra](../monsters/stn_gyraB.md) | 0 |
-| [Erwyn's soldier](../monsters/erwyn_soldier.md) | 65 |
-| [Erwyn's soldier](../monsters/erwyn_soldier3.md) | 65 |
+| [Gyra](../monsters/stn_gyra1.md) | 0 |
+| [Gyra](../monsters/stn_gyra3.md) | 0 |
+| [Gyra](../monsters/stn_gyra7.md) | 0 |
+| [Gyra](../monsters/stn_gyra6.md) | 0 |
+| [Gyra](../monsters/stn_gyra9.md) | 0 |
 | [Erwyn's soldier](../monsters/erwyn_soldier2.md) | 65 |
+| [Erwyn's soldier](../monsters/erwyn_soldier3.md) | 65 |
+| [Erwyn's soldier](../monsters/erwyn_soldier.md) | 65 |
 | [Erwyn's knight](../monsters/erwyn_knight.md) | 75 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waytogalmore1` · Data from v0.8.18</small>

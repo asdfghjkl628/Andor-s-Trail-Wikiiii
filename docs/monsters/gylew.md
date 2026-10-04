@@ -367,6 +367,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.8.11](../versions/0.8.11.md) | attackChance added (60); attackCost added (5); attackDamage added ({"max": 22, "min": 10}); blockChance added (40); criticalMultiplier added (2.0); criticalSkill added (20) (+4 more)<br>Dialogue: 66 lines added, 1 line changed<br>· text: “Beat it, kid. You shouldn't be out here.” → “Hey kid.” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 8 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Great! Let me have it.” → “Great! Let me have them.” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, don't get greedy on me. How about 7000 gol…” → “[While laughing] Now, now, don't get greedy on me. How about {7000} g…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

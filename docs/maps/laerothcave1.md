@@ -20,8 +20,17 @@
 | [Black cave bat](../monsters/cavebat2.md) | 32 |
 | [Brown cave bat](../monsters/cavebat3.md) | 36 |
 | [Cave worm](../monsters/cave_worm.md) | 80 |
-| [Giant centipede](../monsters/centipede.md) | 90 |
 | [Vicious cave worm](../monsters/cave_worm_vicious.md) | 90 |
+| [Giant centipede](../monsters/centipede.md) | 90 |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `laerothcave1` · Data from v0.8.18</small>

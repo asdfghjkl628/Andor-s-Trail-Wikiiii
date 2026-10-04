@@ -16,15 +16,27 @@
 
 | Name | HP |
 |---|---|
-| [Clevred](../monsters/ratdom_rat.md) | 0 |
-| [Whootibarfag](../monsters/whootibarfag.md) | 0 |
-| [Wolfhound](../monsters/hettar_dog2.md) | 0 |
 | [Wolfhound](../monsters/hettar_dog.md) | 0 |
+| [Wolfhound](../monsters/hettar_dog2.md) | 0 |
+| [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Little Hettar](../monsters/hettar.md) | 0 |
+| [Whootibarfag](../monsters/whootibarfag.md) | 0 |
 | [Wolfhound](../monsters/hettar_dog3.md) | 40 |
 | [Young white wyrm](../monsters/young_white_wyrm.md) | 47 |
 | [White wyrm](../monsters/white_wyrm.md) | 55 |
 | [Aulaeth](../monsters/aulaeth.md) | 120 |
 | [Strong aulaeth](../monsters/strong_aulaeth.md) | 135 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `blackwater_mountain55` · Data from v0.8.18</small>

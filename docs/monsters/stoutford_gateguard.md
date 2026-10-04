@@ -18,6 +18,10 @@
 
 - [wild20](../maps/wild20.md)
 
+## Quests
+
+- [Search for Andor](../quests/andor.md): stages 85
+
 ??? quote "Dialogue (10 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -36,7 +40,7 @@
 
     - “Guarding against what?” → [soutford_gateguard_who_1](#d-soutford_gateguard_who_1)
 
-    <span id="d-stoutford_gateguard_andor_0"></span>**`stoutford_gateguard_andor_0`** Stoutford guard: “I do recall some kid that looked a bit like you a while ago. He stayed here a couple of days, and never came back as far as I can tell.” — **effects:** sets stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85)
+    <span id="d-stoutford_gateguard_andor_0"></span>**`stoutford_gateguard_andor_0`** Stoutford guard: “I do recall some kid that looked a bit like you a while ago. He stayed here a couple of days, and never came back as far as I can tell.” — **effects:** sets stage 85 of [Search for Andor](../quests/andor.md#stage-85)
 
     - “What did he do here?” → [stoutford_gateguard_andor_1](#d-stoutford_gateguard_andor_1)
     - “Do you know where he was going?” → [stoutford_gateguard_andor_2](#d-stoutford_gateguard_andor_2)
@@ -74,6 +78,16 @@
     - “Thank you.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 10 lines added |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “This is Stoutford. Our small town was the resting place of choice for…” → “This is Stoutford. Our small town was the resting place of choice for…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

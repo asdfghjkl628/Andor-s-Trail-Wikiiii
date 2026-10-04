@@ -15,9 +15,18 @@
 | Name | HP |
 |---|---|
 | [Andor](../monsters/dds_andor.md) | 0 |
-| [Rosmara](../monsters/rosmara.md) | 0 |
 | [Mean cat](../monsters/rosmara_cat.md) | 0 |
+| [Rosmara](../monsters/rosmara.md) | 0 |
 | [Rat](../monsters/crossroads_rat.md) | 5 |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | 77 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `wayto_feygard_duleian_2` · Data from v0.8.18</small>

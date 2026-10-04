@@ -19,8 +19,16 @@
 | [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 |
 | [Cave bat](../monsters/cavebat4.md) | 39 |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 |
-| [Poisonous vine](../monsters/poison_vine_bottom.md) | 90 |
 | [Poisonous vine](../monsters/poison_vine_top.md) | 90 |
+| [Poisonous vine](../monsters/poison_vine_bottom.md) | 90 |
 | [Queen spider](../monsters/spider_queen.md) | 135 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `secretpassage1` · Data from v0.8.18</small>

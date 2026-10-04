@@ -546,6 +546,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 34 lines changed<br>· text: “It also speaks of someone or some .. thing called the 'Dark protector…” → “It also speaks of someone or some ... thing called the 'Dark protecto…”<br>· text: “The ritual proceeds with the carrier being eaten alive by the rotworm…” → “The ritual proceeds with the carrier being eaten from the inside by t…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

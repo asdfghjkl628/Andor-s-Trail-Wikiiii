@@ -26,6 +26,8 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
 
 - hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -38,6 +40,7 @@ No links to other quests were found in the dialogue conditions.
 |---|---|---|---|---|
 | <span id="stage-1"></span>1 | 1=got<br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart main 2](../maps/guynmart_main_2.md).</span> | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md) | gives [Hannah's lunch](../items/guynmart_lunch.md)<br>sets stage 64 of [Roses](../quests/guynmart.md#stage-64) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -46,6 +49,16 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) → the conversation leads here automatically — **conditions:** hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md) → **stage 1**; also gives [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64). NPC: “...and now it is suitable for her. Hurry now, while it is still hot!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

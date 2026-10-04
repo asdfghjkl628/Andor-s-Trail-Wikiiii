@@ -20,6 +20,7 @@
 
 ## Quests
 
+- [Calomyran secrets](../quests/calomyran.md): stages 10, 100
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): stages 130, 140
 
 ??? quote "Dialogue (19 lines)"
@@ -29,8 +30,8 @@
     <span id="d-fallhaven_oldman"></span>**`fallhaven_oldman`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 110 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-110); NOT reached stage 140 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-140))* → [dds_oldman_10](#d-dds_oldman_10)
-    - branch 2 *(if reached stage 100 of [calomyran (hidden flag)](../quests/calomyran.md#stage-100))* → [fallhaven_oldman_complete_2](#d-fallhaven_oldman_complete_2)
-    - branch 3 *(if reached stage 10 of [calomyran (hidden flag)](../quests/calomyran.md#stage-10))* → [fallhaven_oldman_continue](#d-fallhaven_oldman_continue)
+    - branch 2 *(if reached stage 100 of [Calomyran secrets](../quests/calomyran.md#stage-100))* → [fallhaven_oldman_complete_2](#d-fallhaven_oldman_complete_2)
+    - branch 3 *(if reached stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10))* → [fallhaven_oldman_continue](#d-fallhaven_oldman_continue)
     - branch 4 → [fallhaven_oldman_1](#d-fallhaven_oldman_1)
 
     <span id="d-dds_oldman_10"></span>**`dds_oldman_10`** Old man: “Who are you? Not here to steal my books, are you?”
@@ -56,12 +57,12 @@
 
     - “In fact, I'd like to borrow your copy of Calomyran Secrets.” → [dds_oldman_30](#d-dds_oldman_30)
 
-    <span id="d-fallhaven_oldman_complete"></span>**`fallhaven_oldman_complete`** Old man: “My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.” — **effects:** sets stage 100 of [calomyran (hidden flag)](../quests/calomyran.md#stage-100), gives [Gold coins](../items/gold.md)
+    <span id="d-fallhaven_oldman_complete"></span>**`fallhaven_oldman_complete`** Old man: “My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.” — **effects:** sets stage 100 of [Calomyran secrets](../quests/calomyran.md#stage-100), gives [Gold coins](../items/gold.md)
 
     - “Thank you. Goodbye.” → *conversation ends*
     - “At last, some gold. Bye.” → *conversation ends*
 
-    <span id="d-fallhaven_oldman_6"></span>**`fallhaven_oldman_6`** Old man: “I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the south]” — **effects:** sets stage 10 of [calomyran (hidden flag)](../quests/calomyran.md#stage-10)
+    <span id="d-fallhaven_oldman_6"></span>**`fallhaven_oldman_6`** Old man: “I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the south]” — **effects:** sets stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10)
 
     - “OK, I'll go ask Arcir. Goodbye.” → *conversation ends*
 
@@ -109,6 +110,16 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “I have no idea where it might be. You could go ask Arcir, he seems ve…” → “I have no idea where it might be. You could go ask Arcir, he seems ve…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 9 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

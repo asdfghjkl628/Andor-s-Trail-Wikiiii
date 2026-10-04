@@ -28,6 +28,8 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 - NOT reached stage 49 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49)
 - killed 2× [Lord Erwyn](../monsters/erwyn.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,6 +60,7 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 | <span id="stage-60"></span>60 | I kept the ring for myself, which upset Yolgen. I should keep looking for its previous owner. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10, stage 40 | 500 XP |
 | <span id="stage-70"></span>70 | I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10, stage 40 | 500 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -107,6 +110,17 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 
     1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “[Lie] Yes, but I found nothing worth having.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40) → **stage 70**. NPC: “If you say so. I suspect Lord Erwyn had a ring, and if you find it you must bring it to me. It is dangerous.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 11 lines added |
+| [v0.7.11](../versions/0.7.11.md) | stage 12 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

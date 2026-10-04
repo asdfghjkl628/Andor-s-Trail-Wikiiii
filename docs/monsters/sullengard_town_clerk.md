@@ -65,6 +65,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 2 lines added |
+| [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “If you are here about a tax complaint or a land dispute, then please …” → “If you are here about a tax complaint or a land dispute, then please …” |
+| [v0.8.8](../versions/0.8.8.md) | phraseID: sullengard_town_clerk_0 → sullengard_town_clerk_selector<br>Dialogue: 5 lines added, 1 line changed<br>· text: “Hello. I am Maddalena, the the town hall clerk. If you are looking fo…” → “Hello. I am Maddalena, the town hall clerk. If you are looking for Ma…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

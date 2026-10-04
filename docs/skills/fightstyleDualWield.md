@@ -36,6 +36,7 @@ With two levels of this skill, 100 % of the off-hand's weapon's qualities may be
 | 1 | 15 |
 | 2 | 30 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Unlocks
 
 - [Specialization: Dual wield](specializationDualWield.md): needs this skill at level 2

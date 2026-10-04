@@ -17,10 +17,21 @@
 | Name | HP |
 |---|---|
 | [Young scaradon](../monsters/scaradon_1.md) | 32 |
-| [Scaradon](../monsters/scaradon_3.md) | 35 |
 | [Small scaradon](../monsters/scaradon_2.md) | 35 |
+| [Scaradon](../monsters/scaradon_3.md) | 35 |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 |
 | [Young carrion beetle](../monsters/cbeetle_1.md) | 45 |
 | [Carrion beetle](../monsters/cbeetle_2.md) | 51 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `mountaincave1` · Data from v0.8.18</small>

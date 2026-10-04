@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 80, 130) |
 | **Started by** | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner4a.md) |
-| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon4b.md), [Dark watch](../monsters/lae_demon9.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4i.md), [Laeroth prisoner](../monsters/lae_prisoner4a.md) +1 |
+| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon9.md), [Dark watch](../monsters/lae_demon4b.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4i.md), [Laeroth prisoner](../monsters/lae_prisoner4a.md) +1 |
 | **Locations** | [laerothprison4](../maps/laerothprison4.md), [laerothprison7](../maps/laerothprison7.md) |
 | **Related quests** | 1 |
 
@@ -26,6 +26,8 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 - reached stage 33 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-33)
 - reached stage 34 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-34)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -61,8 +63,9 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 | <span id="stage-120"></span>120 | I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal. | [Kotheses](../monsters/kotheses.md) ([laerothprison7](../maps/laerothprison7.md)) | stage 110 | – |
 | <span id="stage-130"></span>130 | Everything was in order when I left. The prisoners were back in their cells, and the Demon guard were on duty again. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothprison4](../maps/laerothprison4.md).</span> | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md))<br>stepping on a trigger on [laerothprison4](../maps/laerothprison4.md) | stage 114, stage 25 | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -130,6 +133,17 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
     1. Talk to [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)) → the conversation leads here automatically — **conditions:** reached stage 25 of [Shadow of the torturer](../quests/lae_torturer.md#stage-25); reached stage 114 of [Shadow of the torturer](../quests/lae_torturer.md#stage-114); NOT reached stage 130 of [Shadow of the torturer](../quests/lae_torturer.md#stage-130) → **stage 130**. NPC: “Everything is in order now. The prisoners are back in their cells, and the Demon guards are on duty again.”
     2. stepping on a trigger on [laerothprison4](../maps/laerothprison4.md) → the conversation leads here automatically — **conditions:** reached stage 114 of [Shadow of the torturer](../quests/lae_torturer.md#stage-114); NOT reached stage 130 of [Shadow of the torturer](../quests/lae_torturer.md#stage-130) → **stage 130**. NPC: “Everything is in order now. The prisoners are back in their cells, and the Demon guards are on duty again.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 15 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stage 40 journal text changed; stage 100 journal text changed; stage 130 journal text changed<br>Dialogue: 1 line changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

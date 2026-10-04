@@ -32,4 +32,13 @@
 - [shortcut_lodar2](../maps/shortcut_lodar2.md)
 - [shortcut_lodar3](../maps/shortcut_lodar3.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 5} → {"max": 5, "min": 0}; name: Young posionous cave burrower → Young poisonous cave burrower |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `caveburr1` · Data from v0.8.18</small>

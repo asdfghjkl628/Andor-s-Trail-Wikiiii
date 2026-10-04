@@ -689,6 +689,23 @@
     *Dialogue continues beyond this point (truncated).*
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
+| [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…”<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “null” → “Well, her parents haven't given me their consent yet.”<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Hm ... what?” → “Hmm ... what?”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

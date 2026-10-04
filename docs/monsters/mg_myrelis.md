@@ -20,6 +20,7 @@
 
 ## Quests
 
+- [Lost treasures](../quests/nocmar.md): stages 35
 - [You shall pass](../quests/undertell_barricades.md): stages 10
 - [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 10
 
@@ -37,9 +38,9 @@
     - “You did that? How?” → [mg_myrelis_illusion_you_did_that_10](#d-mg_myrelis_illusion_you_did_that_10)
     - “Why did you build that here?” → [mg_myrelis_illusion_why_build_that_10](#d-mg_myrelis_illusion_why_build_that_10)
     - “We've already discussed it. Don't you remember?” *(if reached stage 10 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-10))* → [mg_myrelis_vaelric_5](#d-mg_myrelis_vaelric_5)
-    - “I was wondering, why are those barricades there? [pointing southwest]” *(if latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-3))* → [mg_myrelis_barricades_10](#d-mg_myrelis_barricades_10)
-    - “How do I get past those barricades?” *(if latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-35) is 35; NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20))* → [mg_myrelis_shannal_10](#d-mg_myrelis_shannal_10)
-    - “I am wondering if you could help me, I am looking for something.” *(if latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-30) is 30)* → [mg_myrelis_undertell_10](#d-mg_myrelis_undertell_10)
+    - “I was wondering, why are those barricades there? [pointing southwest]” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-3))* → [mg_myrelis_barricades_10](#d-mg_myrelis_barricades_10)
+    - “How do I get past those barricades?” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-35) is 35; NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20))* → [mg_myrelis_shannal_10](#d-mg_myrelis_shannal_10)
+    - “I am wondering if you could help me, I am looking for something.” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-30) is 30)* → [mg_myrelis_undertell_10](#d-mg_myrelis_undertell_10)
 
     <span id="d-mg_myrelis_illusion_what_was_that_20"></span>**`mg_myrelis_illusion_what_was_that_20`** Myrelis: “Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life's beauty. I call it "Tropical Bliss." But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?”
 
@@ -58,9 +59,9 @@
     <span id="d-mg_myrelis_vaelric_5"></span>**`mg_myrelis_vaelric_5`** Myrelis: “Sorry. You see, ghosts sometimes have bad memories. Or is it just me? Anyway, if we already talked, then why are you back here?”
 
     - “Do you know of Vaelric, the healer?” → [mg_myrelis_vaelric_20](#d-mg_myrelis_vaelric_20)
-    - “I'm wondering if you could help me? I'm looking for something.” *(if latest stage of [nocmar (hidden flag)](../quests/nocmar.md#stage-30) is 30)* → [mg_myrelis_undertell_10](#d-mg_myrelis_undertell_10)
+    - “I'm wondering if you could help me? I'm looking for something.” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-30) is 30)* → [mg_myrelis_undertell_10](#d-mg_myrelis_undertell_10)
 
-    <span id="d-mg_myrelis_barricades_10"></span>**`mg_myrelis_barricades_10`** Myrelis: “[With a terrified expression on his face] Oh those? Yeah, you don't want to go past those. Past them is the entrance to Undertell.” — **effects:** sets stage 35 of [nocmar (hidden flag)](../quests/nocmar.md#stage-35)
+    <span id="d-mg_myrelis_barricades_10"></span>**`mg_myrelis_barricades_10`** Myrelis: “[With a terrified expression on his face] Oh those? Yeah, you don't want to go past those. Past them is the entrance to Undertell.” — **effects:** sets stage 35 of [Lost treasures](../quests/nocmar.md#stage-35)
 
     - “Oh, that's how to get to Undertell?! How do I get past those barricades?” → [mg_myrelis_shannal_10](#d-mg_myrelis_shannal_10)
 
@@ -92,11 +93,20 @@
     <span id="d-mg_myrelis_andor"></span>**`mg_myrelis_andor`** Myrelis: “No, I'm sorry, but you are the first human that I've seen in...geez, I can't even remember how long.”
 
 
-    <span id="d-mg_myrelis_undertell_30"></span>**`mg_myrelis_undertell_30`** [Myrelis](../monsters/mg_myrelis.md): “Over there, but it looks like it's blocked.” — **effects:** sets stage 35 of [nocmar (hidden flag)](../quests/nocmar.md#stage-35)
+    <span id="d-mg_myrelis_undertell_30"></span>**`mg_myrelis_undertell_30`** [Myrelis](../monsters/mg_myrelis.md): “Over there, but it looks like it's blocked.” — **effects:** sets stage 35 of [Lost treasures](../quests/nocmar.md#stage-35)
 
     - “How do I get past those barricades?” → [mg_myrelis_shannal_10](#d-mg_myrelis_shannal_10)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 12 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines added, 3 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

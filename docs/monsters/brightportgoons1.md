@@ -66,7 +66,7 @@
 
     <span id="d-brightport_goons13"></span>**`brightport_goons13`** Barthold: “It's nice to see a trustworthy fellow like you around. You need something?”
 
-    - “I'm looking for my brother Andor, have you seen him?” *(if NOT latest stage of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900) is 900)* → [brightport_goons9](#d-brightport_goons9)
+    - “I'm looking for my brother Andor, have you seen him?” *(if NOT latest stage of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900) is 900)* → [brightport_goons9](#d-brightport_goons9)
     - “Benbyr said to come and see you.” → [brightport_goons8](#d-brightport_goons8)
 
     <span id="d-brightport_goons"></span>**`brightport_goons`** Barthold: “Who are you, and what do you need from us?”
@@ -261,6 +261,15 @@
     - “He looks a lot like me, his name is Andor.” → [brightport_goons9](#d-brightport_goons9)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 54 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

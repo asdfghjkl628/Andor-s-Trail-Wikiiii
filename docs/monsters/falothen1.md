@@ -363,6 +363,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…”<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 7 lines added, 4 lines changed<br>· text: “I can teach you about swords, either one-handed or two-handed ones. I…” → “I can teach you about swords, either one-handed or two-handed ones. I…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We usually don't teach anyone outside our settlement. Last time I did…” → “We usually don't teach anyone outside our settlement. Last time I did…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

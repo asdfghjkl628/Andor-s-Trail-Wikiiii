@@ -26,6 +26,8 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 - NOT reached stage 10 of [The way out is through](../quests/shortcut_lodar.md#stage-10)
 - NOT reached stage 30 of [The way out is through](../quests/shortcut_lodar.md#stage-30)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -48,8 +50,9 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | <span id="stage-40"></span>40 | I poured the vial over the purple fire and then it turned green. When approaching it I was teleported into another room of the cave with more purple torches. I was able to activate them as well. Finally, I have got my shortcut and can travel to Lodar a lot faster! **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar4](../maps/shortcut_lodar4.md).</span> | stepping on a trigger on [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | – |
 | <span id="stage-50"></span>50 | I told Lodar about the new shortcut. He asked me to keep it a secret. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -78,6 +81,16 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
     1. stepping on a trigger on [shortcut_lodar0](../maps/shortcut_lodar0.md) → the conversation leads here automatically — **conditions:** NOT reached stage 40 of [The way out is through](../quests/shortcut_lodar.md#stage-40) → **stage 40**. NPC: “When pouring the vial's liquid over the torch, it suddenly burns a lot brighter and changes its color to green. I…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 6 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -34,4 +34,12 @@
 
 - [arulircave6](../maps/arulircave6.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.8](../versions/0.7.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `arulir_leader` · Data from v0.8.18</small>

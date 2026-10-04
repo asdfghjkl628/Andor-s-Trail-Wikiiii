@@ -24,7 +24,7 @@
 
     <span id="d-brightport_mayor"></span>**`brightport_mayor`** Rubiano: “I'm Rubiano, the Doughe of Brightport, speak up.”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
     - “What's the history of the town?” → [brightport_mayor5](#d-brightport_mayor5)
     - “What's a doughe?” → [brightport_mayor1](#d-brightport_mayor1)
     - “Can you give Freya permission to sell me better equipment?” *(if reached stage 236 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-236))* → [brightport_mayor8](#d-brightport_mayor8)
@@ -55,7 +55,7 @@
 
     <span id="d-brightport_mayor2"></span>**`brightport_mayor2`** Rubiano: “Haha, think nothing of it! We're Brightporters, like any other. So, what brings you here?”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
     - “What's the history of the town?” → [brightport_mayor5](#d-brightport_mayor5)
 
     <span id="d-brightport_mayor9"></span>**`brightport_mayor9`** Rubiano: “That would be a no.”
@@ -80,6 +80,15 @@
     - “I see, bye.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 13 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…”<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -3344,13 +3344,6 @@
 "id": "claws",
 "name": "Claws"
 },
-"clay": {
-"baseMarketCost": 1,
-"category": "other",
-"hasManualPrice": 1,
-"id": "clay",
-"name": "Lump of clay"
-},
 "claymore_steel": {
 "category": "2hsword",
 "equipEffect": {
@@ -5074,13 +5067,6 @@
 "id": "expensive_necklace",
 "name": "Diamond Necklace"
 },
-"eye": {
-"baseMarketCost": 6,
-"category": "animal",
-"hasManualPrice": 1,
-"id": "eye",
-"name": "Eye"
-},
 "eye_ball": {
 "baseMarketCost": 25,
 "category": "animal",
@@ -5134,13 +5120,6 @@
 },
 "id": "fauchard_steel",
 "name": "Steel fauchard"
-},
-"feather": {
-"baseMarketCost": 6,
-"category": "animal",
-"hasManualPrice": 1,
-"id": "feather",
-"name": "Feather"
 },
 "feline_fang": {
 "category": "animal",
@@ -5798,13 +5777,6 @@
 "hasManualPrice": 1,
 "id": "gem7",
 "name": "Shimmering opal"
-},
-"gem8": {
-"baseMarketCost": 68,
-"category": "gem",
-"hasManualPrice": 1,
-"id": "gem8",
-"name": "Brilliant gem"
 },
 "gem_fire": {
 "baseMarketCost": 25,
@@ -11329,13 +11301,6 @@
 }
 ]
 }
-},
-"red_feather": {
-"baseMarketCost": 11,
-"category": "animal",
-"hasManualPrice": 1,
-"id": "red_feather",
-"name": "Red feather"
 },
 "red_pepper": {
 "baseMarketCost": 34,
@@ -43242,6 +43207,8 @@
 "achievements": "Unusual experiences and achievements",
 "alaun_soup_reward": "Alaun soup rewards",
 "algangror": "Of mice and men",
+"andor": "Search for Andor",
+"andor_ending": "Excluded endings for the main quest andor",
 "antifoodp": "Taste is everything",
 "arcir": "Elythara",
 "arulircave_non_display": "arulircave_non_display",
@@ -43253,6 +43220,7 @@
 "bela_gsnake": "A giant snake",
 "benbyr": "Cheap cuts",
 "bjorgur_grave": "Awoken from slumber",
+"bonemeal": "Disallowed substance",
 "brightport_bakery": "Bread and circus",
 "brightport_fiamma": "Too hot to handle",
 "brightport_goons": "Priceful vengeance",
@@ -43276,6 +43244,7 @@
 "brv_wh_delivery_nondisplay": "Delivery - nondisplay",
 "brv_wh_delivery_reward_nondisplay": "Gold and Exp reward for Delivery quest completed - nondisplay",
 "brv_wh_reward_nondisplay": "Gold and Exp reward for Inventory quest completed - nondisplay",
+"bucus": "Key of Luthor",
 "bwm17_heights": "Heights change in bwm_17 (Actually 70)",
 "bwm17_vine": "Vines in bwm_17",
 "bwm72_beginning": "Hidden: events in bwm",
@@ -43283,6 +43252,7 @@
 "bwm_agent": "The agent and the beast",
 "bwm_wyrms": "No weakness",
 "bwmfill_nondisplay": "bwmfill_nondisplay",
+"calomyran": "Calomyran secrets",
 "cat_and_mouse": "A cat and mouse game",
 "charwood1": "Destined for great things",
 "charwood2": "Trial by fire",
@@ -43301,6 +43271,7 @@
 "faction_count_shadow": "faction_count_shadow",
 "faction_count_thieves": "faction_count_thieves",
 "fallhaven_lytwings": "It's knot funny",
+"fallhavendrunk": "Drunken tale",
 "fallhaventavern": "Room to rent",
 "familiar_shadow": "A familiar shadow",
 "farrik": "Night visit",
@@ -43311,6 +43282,7 @@
 "fifth_master": "The fifth master",
 "final_cave": "final_cave",
 "fiveidols": "The five idols",
+"flagstone": "Ancient secrets",
 "fogmonster": "Fog in the woods",
 "fungi_panic": "Fungi panic",
 "fungi_panic_nondisplayed": "Fungi Panic - non displayed",
@@ -43341,6 +43313,7 @@
 "hettar_dog": "Where is Norry?",
 "hettar_dog_nd": "hettar_dog_nd",
 "hidden_devotion": "hidden_devotion",
+"jan": "Fallen friends",
 "jolnor": "Spies in the foam",
 "kaori": "Kaori's errands",
 "kaverin": "Old friends?",
@@ -43352,6 +43325,7 @@
 "lake_map": "A map of the Great Lake Laeroth",
 "last_lord": "The last lord of Laeroth",
 "lava_burning": "hidden_lava_burning_rounds",
+"leta": "Missing husband",
 "ll2_maps": "Lake Laeroth Maps found",
 "ll2_nd": "Lake Laeroth nondisplay",
 "lleglaris": "Long lost memories",
@@ -43366,12 +43340,16 @@
 "mg2_exploded_star": "The exploded star",
 "mg2_exploded_star_nd": "mg2_exploded_star_nd",
 "mg_restless_grave": "Restless in the grave",
+"mikhail_bread": "Breakfast bread",
+"mikhail_rats": "Rats!",
 "misc_nondisplay": "misc_nondisplay",
 "mushroomcave_pathblock": "mushroomcave_pathblock",
 "mushroomcave_trap": "mushroomcave_trap",
 "new_snake_master": "Perception is not reality",
+"nocmar": "Lost treasures",
 "nondisplay": "Placeholder for hidden quest stages (not displayed)",
 "nondisplay_2": "Placeholder for hidden quest stages 2 (not displayed)",
+"odair": "Rat infestation",
 "odd_coin_collector": "The odd coin collector",
 "pathway_fallhaven": "A path to the Duleian Road",
 "place_to_forge": "A place to forge",
@@ -43419,6 +43397,7 @@
 "undertell_barricades": "You shall pass",
 "undertell_book": "Undertell: What was not written",
 "undertell_hidden": "hidden_undertell",
+"vacor": "Missing pieces",
 "vilegard": "Trusting an outsider",
 "wanted_men": "Wanted men",
 "waterwayacave": "Just the beginning",

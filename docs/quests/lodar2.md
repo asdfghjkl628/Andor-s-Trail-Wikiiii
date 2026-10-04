@@ -11,7 +11,7 @@
 | **NPCs involved** | [Hira'zinn](../monsters/hirazinn.md), [Lodar](../monsters/lodar.md) |
 | **Locations** | [lodarcave4a](../maps/lodarcave4a.md), [lodarhouse1](../maps/lodarhouse1.md) |
 | **Total XP** | 1,000 |
-| **Related quests** | 6 |
+| **Related quests** | 7 |
 
 </div>
 
@@ -25,6 +25,8 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
 - reached stage 110 of [A lost potion](../quests/lodar.md#stage-110)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -33,6 +35,10 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 |---|---|---|
 | Requires | [A lost potion](lodar.md#stage-100) | stage 100 reached, for stage 30 here |
 | Requires | [A lost potion](lodar.md#stage-110) | stage 110 reached, for stages 10, 15, 20 here |
+| Unlocks | [Search for Andor](andor.md#stage-70) | stage 70 there needs stage 60 here |
+| Unlocks | [Search for Andor](andor.md#stage-71) | stage 71 there needs stage 60 here |
+| Unlocks | [Search for Andor](andor.md#stage-72) | stage 72 there needs stage 60 here |
+| Unlocks | [Search for Andor](andor.md#stage-80) | stage 80 there needs stage 60 here |
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-10) | stage 10 there needs stage 60 here |
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-30) | stage 30 there needs stage 60 here |
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-40) | stage 40 there needs stage 60 here |
@@ -63,6 +69,7 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | <span id="stage-51"></span>51 | As soon as I presented the heart of the Hira'zinn to Lodar, he seemed to snap out of his previous state of mind. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 50 | – |
 | <span id="stage-60"></span>60 | Lodar thanked me for defeating the Hira'zinn. In return, he promised to help me in any way he can. He has a large selection of potent potions available for me to purchase at a discount. **(completes quest)** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -103,6 +110,17 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
     1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60) → **stage 60**. NPC: “Again, thank you for your help.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…”<br>· text: “Give me that. Oh, yes.. Yes!” → “Give me that. Oh, yes ... yes!” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

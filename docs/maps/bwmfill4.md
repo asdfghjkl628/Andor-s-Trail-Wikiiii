@@ -21,4 +21,12 @@
 | [Young gornaud](../monsters/young_gornaud.md) | 70 |
 | [Aulaeth](../monsters/aulaeth.md) | 120 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.10](../versions/0.8.10.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `bwmfill4` · Data from v0.8.18</small>

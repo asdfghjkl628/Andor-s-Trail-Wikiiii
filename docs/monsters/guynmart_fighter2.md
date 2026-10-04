@@ -18,4 +18,12 @@
 
 - [guynmart_wood_8](../maps/guynmart_wood_8.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `guynmart_fighter2` · Data from v0.8.18</small>

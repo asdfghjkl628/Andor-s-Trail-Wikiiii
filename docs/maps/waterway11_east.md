@@ -16,11 +16,23 @@
 
 | Name | HP |
 |---|---|
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Irdegh spawn](../monsters/irdegh_sp_1.md) | 57 |
 | [Irdegh spawn](../monsters/irdegh_sp_2.md) | 68 |
 | [Hardened erumen lizard](../monsters/erumen_7.md) | 93 |
 | [Irdegh](../monsters/irdegh_1.md) | 115 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waterway11_east` · Data from v0.8.18</small>

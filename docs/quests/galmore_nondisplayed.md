@@ -14,7 +14,7 @@
 | **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Celdar](../monsters/celdar.md), [Dark spirit](../monsters/undertell_dark_spirit.md), [Egrinda](../monsters/egrinda.md), [Eryndor](../monsters/mg_eryndor.md), [Leta's son](../monsters/leta_child.md) +3 |
 | **Locations** | [brimhaven_house1](../maps/brimhaven_house1.md), [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md), [galmore_17_house](../maps/galmore_17_house.md), [galmore_32](../maps/galmore_32.md) |
 | **Total XP** | 12,000 |
-| **Related quests** | 6 |
+| **Related quests** | 9 |
 
 </div>
 
@@ -39,12 +39,15 @@
 - affected by pull_of_the_mark
 - NOT reached stage 1 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-140) | stage 140 reached, for stage 11 here |
 | Requires | [Much water](brv_flood.md#stage-200) | stage 200 reached, for stages 20, 21 here |
 | Requires | [Restless in the grave](mg_restless_grave.md#stage-20) | stage 20 reached, for stage 16 here |
 | Requires | [Restless in the grave](mg_restless_grave.md#stage-70) | stage 70 reached, for stage 17 here |
@@ -52,15 +55,20 @@
 | Requires | [The swamp healer](swamp_healer.md#stage-10) | stage 10 reached, for stage 10 here |
 | Requires | [The swamp healer](swamp_healer.md#stage-30) | stage 30 reached, for stage 59 here |
 | Blocked by | [Unusual experiences and achievements](achievements.md#stage-150) | stage 150 must NOT be reached, for stage 58 here |
+| Blocked by | [Excluded endings for the main quest andor (hidden flag)](andor_ending.md#stage-1) | stage 1 must NOT be reached, for stages 20, 21 here |
 | Blocked by | [A familiar shadow](familiar_shadow.md#stage-50) | stage 50 must NOT be reached, for stages 1, 2 here |
 | Mutually exclusive | [Restless in the grave](mg_restless_grave.md#stage-45) | stage 45 must NOT be reached, for stage 16 here |
 | Mutually exclusive | [Restless in the grave](mg_restless_grave.md#stage-90) | stage 90 must NOT be reached, for stage 17 here |
 | Mutually exclusive | [Restless in the grave](mg_restless_grave.md#stage-130) | stage 130 must NOT be reached, for stage 19 here |
 | Unlocks | [Unusual experiences and achievements](achievements.md#stage-150) | stage 150 there needs stage 57 here |
+| Unlocks | [Search for Andor](andor.md#stage-912) | stage 912 there needs stage 21 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-20) | stage 20 there needs stage 5 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-90) | stage 90 there needs stage 17 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-130) | stage 130 there needs stage 19 here |
+| Unlocks | [Lost treasures](nocmar.md#stage-35) | stage 35 there needs stage 9 here |
 | Unlocks | [You shall pass](undertell_barricades.md#stage-10) | stage 10 there needs stage 9 here |
+| Blocks | [Search for Andor](andor.md#stage-910) | reaching stage 20 here closes stage 910 there |
+| Blocks | [Search for Andor](andor.md#stage-912) | reaching stage 22 here closes stage 912 there |
 | Blocks | [The swamp healer](swamp_healer.md#stage-30) | reaching stage 59 here closes stage 30 there |
 
 ## Stages
@@ -84,9 +92,9 @@
 | <span id="stage-17"></span>17 | PC brought the ring back to Eryndor | [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | hand over 1× [Cursed ring of focus](../items/cursed_ring_focus.md) | – |
 | <span id="stage-18"></span>18 | PC has collected the pondslime extract.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 17](../maps/galmore_17.md).</span> | stepping on a trigger on [galmore_17](../maps/galmore_17.md) | carry 10× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md), hand over 10× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md) | gives 10× [Pondslime extract](../items/pondslime_extract.md) |
 | <span id="stage-19"></span>19 | PC has given the mysterious music box to Celdar. | [Celdar](../monsters/celdar.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) | hand over 1× [Mysterious music box](../items/mg_music_box.md) | – |
-| <span id="stage-20"></span>20 | Cavea no more dialogue<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore cavea](../maps/galmore_cavea.md).</span> | stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) | – | sets stage 910 of [andor (hidden flag)](../quests/andor.md#stage-910)<br>faction “andor_ending” set to 1 |
-| <span id="stage-21"></span>21 | Cavea visited<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore cavea](../maps/galmore_cavea.md).</span> | stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) | – | sets stage 910 of [andor (hidden flag)](../quests/andor.md#stage-910)<br>faction “andor_ending” set to 1 |
-| <span id="stage-22"></span>22 | Cavea renovated<br><span class="qnote">⚡ A scripted event can now trigger on [Galmore cavea](../maps/galmore_cavea.md).</span><br><span class="qnote">🗺️ Part of [Galmore cavea 1](../maps/galmore_cavea_1.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Galmore cavea 2](../maps/galmore_cavea_2.md) visibly changes.</span> | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | pay 50,000 gold, stage 21 | faction “cavea_down” set to 2<br>clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)<br>sets stage 912 of [andor (hidden flag)](../quests/andor.md#stage-912)<br>removes monsters from galmore_cavea<br>removes monsters from galmore_cavea_1<br>removes monsters from galmore_cavea_2 |
+| <span id="stage-20"></span>20 | Cavea no more dialogue<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore cavea](../maps/galmore_cavea.md).</span> | stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) | – | sets stage 910 of [Search for Andor](../quests/andor.md#stage-910)<br>faction “andor_ending” set to 1 |
+| <span id="stage-21"></span>21 | Cavea visited<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore cavea](../maps/galmore_cavea.md).</span> | stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) | – | sets stage 910 of [Search for Andor](../quests/andor.md#stage-910)<br>faction “andor_ending” set to 1 |
+| <span id="stage-22"></span>22 | Cavea renovated<br><span class="qnote">⚡ A scripted event can now trigger on [Galmore cavea](../maps/galmore_cavea.md).</span><br><span class="qnote">🗺️ Part of [Galmore cavea 1](../maps/galmore_cavea_1.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Galmore cavea 2](../maps/galmore_cavea_2.md) visibly changes.</span> | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | pay 50,000 gold, stage 21 | faction “cavea_down” set to 2<br>clears stage 999 of [Search for Andor](../quests/andor.md#stage-999)<br>sets stage 912 of [Search for Andor](../quests/andor.md#stage-912)<br>removes monsters from galmore_cavea<br>removes monsters from galmore_cavea_1<br>removes monsters from galmore_cavea_2 |
 | <span id="stage-23"></span>23 | Feedback renovation<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore cavea](../maps/galmore_cavea.md).</span> | stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) | stage 22 | – |
 | <span id="stage-24"></span>24 | PC breaks vine and falls. galmore_24<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 24](../maps/galmore_24.md).</span><br><span class="qnote">🗺️ Part of [Galmore 24](../maps/galmore_24.md) visibly changes.</span> | walking into a blocked passage on [galmore_24](../maps/galmore_24.md) | – | moves you to [galmore_24](../maps/galmore_24.md)<br>applies condition crit2 |
 | <span id="stage-31"></span>31 | mg2_cavea_carn | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
@@ -114,8 +122,9 @@
 | <span id="stage-59"></span>59 | PC got free leech from Vaelric. | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | gives 1× [Leech](../items/leech_usable.md) |
 | <span id="stage-61"></span>61 | PC has returned the looted gold found near the Sutdover River to Egrinda. | [Egrinda](../monsters/egrinda.md) ([way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md)) | pay 10,000 gold | 12,000 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -157,7 +166,7 @@
 
 ???+ note "Stage 11: 1 route"
 
-    1. stepping on a trigger on [galmore_62](../maps/galmore_62.md) → the conversation leads here automatically — **conditions:** reached stage 140 of [andor (hidden flag)](../quests/andor.md#stage-140); NOT reached stage 11 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-11) → **stage 11**; also spawns monsters on galmore_52
+    1. stepping on a trigger on [galmore_62](../maps/galmore_62.md) → the conversation leads here automatically — **conditions:** reached stage 140 of [Search for Andor](../quests/andor.md#stage-140); NOT reached stage 11 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-11) → **stage 11**; also spawns monsters on galmore_52
 
 ???+ note "Stage 12: 1 route"
 
@@ -193,16 +202,16 @@
 
 ???+ note "Stage 20: 2 routes"
 
-    1. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “No. And I never want to think about it any more.” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0 → **stage 20**
-    2. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “My decision is final. Off to Brimhaven and spend some gold there!” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0; reached stage 200 of [Much water](../quests/brv_flood.md#stage-200) → **stage 20**; also sets stage 910 of [andor (hidden flag)](../quests/andor.md#stage-910), faction “andor_ending” set to 1
+    1. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “No. And I never want to think about it any more.” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0 → **stage 20**
+    2. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “My decision is final. Off to Brimhaven and spend some gold there!” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0; reached stage 200 of [Much water](../quests/brv_flood.md#stage-200) → **stage 20**; also sets stage 910 of [Search for Andor](../quests/andor.md#stage-910), faction “andor_ending” set to 1
 
 ???+ note "Stage 21: 1 route"
 
-    1. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “My decision is final. Off to Brimhaven and spend some gold there!” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0; reached stage 200 of [Much water](../quests/brv_flood.md#stage-200) → **stage 21**; also sets stage 910 of [andor (hidden flag)](../quests/andor.md#stage-910), faction “andor_ending” set to 1
+    1. stepping on a trigger on [galmore_cavea](../maps/galmore_cavea.md) → choose “My decision is final. Off to Brimhaven and spend some gold there!” — **conditions:** NOT reached stage 20 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-20); NOT reached stage 1 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-1); faction “andor_ending” = 0; reached stage 200 of [Much water](../quests/brv_flood.md#stage-200) → **stage 21**; also sets stage 910 of [Search for Andor](../quests/andor.md#stage-910), faction “andor_ending” set to 1
 
 ???+ note "Stage 22: 1 route"
 
-    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “OK, here you get 50,000. Make something good out of it.” — **conditions:** reached stage 21 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-21); NOT reached stage 22 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-22); faction “andor_ending” ≥ 1; pay 50,000 gold → **stage 22**; also faction “cavea_down” set to 2, clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999), sets stage 912 of [andor (hidden flag)](../quests/andor.md#stage-912), removes monsters from galmore_cavea, removes monsters from galmore_cavea, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_2. NPC: “So be it. You will be amazed how quickly we work.”
+    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “OK, here you get 50,000. Make something good out of it.” — **conditions:** reached stage 21 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-21); NOT reached stage 22 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-22); faction “andor_ending” ≥ 1; pay 50,000 gold → **stage 22**; also faction “cavea_down” set to 2, clears stage 999 of [Search for Andor](../quests/andor.md#stage-999), sets stage 912 of [Search for Andor](../quests/andor.md#stage-912), removes monsters from galmore_cavea, removes monsters from galmore_cavea, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_1, removes monsters from galmore_cavea_2. NPC: “So be it. You will be amazed how quickly we work.”
 
 ???+ note "Stage 23: 1 route"
 
@@ -308,6 +317,16 @@
 
     1. Talk to [Egrinda](../monsters/egrinda.md) ([way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md)) → choose “If it's truly yours, then take it. [Hand over the recently looted gold.]” — **conditions:** pay 10,000 gold → **stage 61**. NPC: “Thank you very much!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 55 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

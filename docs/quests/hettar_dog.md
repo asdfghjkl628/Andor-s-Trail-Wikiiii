@@ -23,6 +23,8 @@
 
 None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 | <span id="stage-80"></span>80 | Hettar thanked me a thousand times for my help in finding Norry. **(completes quest)** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 50 | 2,000 XP |
 | <span id="stage-90"></span>90 | I explained to Hettar that I killed Norry. Hettar broke down on the floor in agony. **(completes quest)** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 30 | 200 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -75,6 +78,17 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 
     1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “This brute attacked me, so I had to kill it.” — **conditions:** reached stage 30 of [Where is Norry?](../quests/hettar_dog.md#stage-30); killed 1× [Wolfhound](../monsters/hettar_dog3.md) → **stage 90**. NPC: “[Hettar fell on the floor] Nooo! What did you do?!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 7 lines added |
+| [v0.7.15](../versions/0.7.15.md) | stage 30 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

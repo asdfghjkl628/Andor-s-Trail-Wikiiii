@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
 | **Started by** | [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah3.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md), [Rob](../monsters/guynmart_rob.md) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md), [Rob](../monsters/guynmart_rob.md) |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_3](../maps/guynmart_main_3.md) |
 
 </div>
@@ -31,6 +31,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@ No links to other quests were found in the dialogue conditions.
 |---|---|---|---|---|
 | <span id="stage-1"></span>1 | 1=shutters open | [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md))<br>[Rob](../monsters/guynmart_rob.md) ([guynmart_main_3](../maps/guynmart_main_3.md)) | carry 1× [Rose](../items/guynmart_rose.md), hand over 1× [Rose](../items/guynmart_rose.md) | sets stage 100 of [Roses](../quests/guynmart.md#stage-100)<br>gives 1× [Lovis' Flute](../items/guynmart_flute.md)<br>removes monsters from guynmart_main_3<br>spawns monsters on guynmart_tower_3<br>sets stage 45 of [Roses](../quests/guynmart.md#stage-45) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -52,6 +55,16 @@ No links to other quests were found in the dialogue conditions.
     1. Talk to [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)) → choose “I will not disappoint you.” — **conditions:** carry 1× [Rose](../items/guynmart_rose.md); hand over 1× [Rose](../items/guynmart_rose.md) → **stage 1**; also sets stage 100 of [Roses](../quests/guynmart.md#stage-100), gives 1× [Lovis' Flute](../items/guynmart_flute.md), removes monsters from guynmart_main_3, spawns monsters on guynmart_tower_3. NPC: “So take this flute and take good care of it.”
     2. Talk to [Rob](../monsters/guynmart_rob.md) ([guynmart_main_3](../maps/guynmart_main_3.md)) → the conversation leads here automatically → **stage 1**; also sets stage 45 of [Roses](../quests/guynmart.md#stage-45). NPC: “Hey - you found me at last! That was fun! I am Robalyrius, Guynmart's son, but please call me Rob. Who are you? Wait,…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 2 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

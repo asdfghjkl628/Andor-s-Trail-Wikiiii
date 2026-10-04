@@ -15,12 +15,20 @@
 
 | Name | HP |
 |---|---|
-| [Izthiel](../monsters/izthiel_2.md) | 45 |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 |
+| [Izthiel](../monsters/izthiel_2.md) | 45 |
 | [Blooming amoeba](../monsters/brightport_amoeba.md) | 60 |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 |
-| [ Moonwalker tree stump](../monsters/brightport_tree.md) | 100 |
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 |
+| [ Moonwalker tree stump](../monsters/brightport_tree.md) | 100 |
 | [Forest fawn](../monsters/brightport_sickfawn.md) | 120 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waytobrightport21` · Data from v0.8.18</small>

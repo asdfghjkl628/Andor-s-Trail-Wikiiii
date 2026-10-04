@@ -16,16 +16,31 @@
 | Name | HP |
 |---|---|
 | [Leofric](../monsters/leofric_remgard.md) | 0 |
-| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) | 0 |
+| [Eraepsekahs](../monsters/eraepsekahs.md) | 0 |
+| [Knight of Elythom](../monsters/elythom_kn1.md) | 0 |
 | [Tavern guest](../monsters/remgard_d2.md) | 0 |
-| [Knight of Elythom](../monsters/elythom_kn2.md) | 0 |
 | [Burhczyd](../monsters/burhczyd7.md) | 0 |
 | [Knight of Elythom](../monsters/burhczyd7e.md) | 0 |
-| [Tavern guest](../monsters/remgard_d1.md) | 0 |
-| [Knight of Elythom](../monsters/elythom_kn1.md) | 0 |
 | [Kendelow](../monsters/kendelow.md) | 0 |
+| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) | 0 |
 | [Arghes](../monsters/arghes.md) | 0 |
+| [Knight of Elythom](../monsters/elythom_kn2.md) | 0 |
 | [Krell](../monsters/krell.md) | 0 |
-| [Eraepsekahs](../monsters/eraepsekahs.md) | 0 |
+| [Tavern guest](../monsters/remgard_d1.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `remgard_tavern0` · Data from v0.8.18</small>

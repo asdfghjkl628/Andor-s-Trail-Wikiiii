@@ -148,6 +148,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 24 lines added |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I'm surprised such a young boy as you managed to survive encountering…” → “I'm surprised such a young kid as you managed to survive encountering…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

@@ -38,7 +38,7 @@
 
     <span id="d-brightport_dibella0"></span>**`brightport_dibella0`** Dibella: “Is there something I can assist you with?”
 
-    - “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” *(if reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110); NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella4](#d-brightport_dibella4)
+    - “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” *(if reached stage 110 of [Search for Andor](../quests/andor.md#stage-110); NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella4](#d-brightport_dibella4)
     - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
     - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
     - “Could you tell me what you know about the library theft?” *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96))* → [brightport_dibella9](#d-brightport_dibella9)
@@ -46,7 +46,7 @@
 
     <span id="d-brightport_dibella1"></span>**`brightport_dibella1`** Dibella: “It's time for the history lecture. If you hurry, you might still make it to the lecture room on time!”
 
-    - “My brother has been missing for a while, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” *(if NOT reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110))* → [brightport_dibella4](#d-brightport_dibella4)
+    - “My brother has been missing for a while, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” *(if NOT reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 110 of [Search for Andor](../quests/andor.md#stage-110))* → [brightport_dibella4](#d-brightport_dibella4)
     - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
     - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
     - “Could you tell me what you know about the library theft?” *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96))* → [brightport_dibella9](#d-brightport_dibella9)
@@ -102,6 +102,14 @@
     - “Interesting, thanks.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 16 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

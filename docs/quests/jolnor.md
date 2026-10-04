@@ -25,6 +25,8 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 - reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -44,6 +46,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 | <span id="stage-21"></span>21 | I have started a fight with the guard outside the Foaming Flask tavern. I should bring his Feygard royal guard ring to Jolnor once he is dead to show Jolnor that he has disappeared. | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) ([road1](../maps/road1.md)) | stage 10 | – |
 | <span id="stage-30"></span>30 | I have told Jolnor that the guard is now gone. **(completes quest)** | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | stage 20 | 630 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -64,6 +67,17 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
     1. Talk to [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) → choose “Yes, he will leave his post as soon as this shift is over.” — **conditions:** reached stage 20 of [Trusting an outsider](../quests/vilegard.md#stage-20); reached stage 20 of [Spies in the foam](../quests/jolnor.md#stage-20) → **stage 30**. NPC: “Very good. Thank you for your help.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

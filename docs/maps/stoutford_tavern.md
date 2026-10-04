@@ -15,14 +15,24 @@
 
 | Name | HP |
 |---|---|
-| [Quiet thief](../monsters/stoutford_thief.md) | 0 |
-| [Customer](../monsters/stoutford_drinker_2.md) | 0 |
-| [Croaklear](../monsters/stoutford_old_woman.md) | 0 |
 | [Knight of Elythom](../monsters/burhczyd5e.md) | 0 |
-| [Lord Berbane](../monsters/berbane.md) | 0 |
-| [Customer](../monsters/stoutford_drinker_1.md) | 0 |
-| [Glasforn](../monsters/stoutford_innkeeper.md) | 0 |
 | [Cadoren](../monsters/stoutford_cook.md) | 0 |
 | [Burhczyd](../monsters/burhczyd5.md) | 0 |
+| [Customer](../monsters/stoutford_drinker_2.md) | 0 |
+| [Glasforn](../monsters/stoutford_innkeeper.md) | 0 |
+| [Customer](../monsters/stoutford_drinker_1.md) | 0 |
+| [Croaklear](../monsters/stoutford_old_woman.md) | 0 |
+| [Quiet thief](../monsters/stoutford_thief.md) | 0 |
+| [Lord Berbane](../monsters/berbane.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `stoutford_tavern` · Data from v0.8.18</small>

@@ -32,4 +32,13 @@
 - [galmore_85](../maps/galmore_85.md)
 - [galmore_86](../maps/galmore_86.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+| [v0.8.14](../versions/0.8.14.md) | attackChance added (130); attackCost added (7); attackDamage added ({"max": 27, "min": 25}); blockChance added (200); criticalMultiplier added (2.0); criticalSkill added (8) (+6 more) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `laska_blizz` · Data from v0.8.18</small>

@@ -170,6 +170,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Ok then. Return to me once you have them.” → “OK then. Return to me once you have them.” |
+| [v0.7.14](../versions/0.7.14.md) | Dialogue: 8 lines added, 4 lines changed<br>· text: “The attacks on Prim by the beasts and the bandits really reduced our …” → “The attacks on Prim by the beasts, the bandits and the disappearances…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “You'd better telling me the truth. I will report it later.” → “You'd better be telling me the truth. I will report it later.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

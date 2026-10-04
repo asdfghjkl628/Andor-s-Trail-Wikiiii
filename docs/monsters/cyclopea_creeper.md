@@ -31,4 +31,12 @@
 - [nw_sullengard_1](../maps/nw_sullengard_1.md)
 - [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `cyclopea_creeper` · Data from v0.8.18</small>

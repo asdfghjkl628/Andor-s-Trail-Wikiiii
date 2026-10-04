@@ -26,6 +26,7 @@ Increases damage resistance by 1 for each skill level.
 | 4 | 40 | 60 |
 | 5 | 50 | 75 |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
 ## Community notes
 

@@ -18,6 +18,10 @@
 
 - [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)
 
+## Quests
+
+- [Missing husband](../quests/leta.md): stages 80
+
 ??? quote "Dialogue (2 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -26,10 +30,18 @@
 
     - “I'm sorry, but I think that it's better if I'm on Leta's side.” → [oromir_basement_20](#d-oromir_basement_20)
 
-    <span id="d-oromir_basement_20"></span>**`oromir_basement_20`** Oromir: “Yep. That's something that I've not learnt to do.” — **effects:** sets stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80)
+    <span id="d-oromir_basement_20"></span>**`oromir_basement_20`** Oromir: “Yep. That's something that I've not learnt to do.” — **effects:** sets stage 80 of [Missing husband](../quests/leta.md#stage-80)
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 2 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

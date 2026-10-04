@@ -406,6 +406,15 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | faction added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “Now, the permit is not .. shall we say .. completely genuine. But we …” → “Now, the permit is not ... shall we say ... completely genuine. But w…”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

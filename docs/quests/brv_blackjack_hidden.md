@@ -32,6 +32,8 @@
 - NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50)
 - pay 1 gold
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -66,6 +68,7 @@
 | <span id="stage-140"></span>140 | Played blackjack for higher amounts<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md).</span> | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | pay 10 gold, pay 5 gold | – |
 | <span id="stage-150"></span>150 | Allowed to enter backroom<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))<br>stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) | – | sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)<br>spawns monsters on brimhaven_tavern_west_back |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -119,6 +122,19 @@
     2. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler2_evil.md); killed 1× [Gambler](../monsters/brv_blackjack_gambler1_evil.md); killed 1× [Dealer](../monsters/brv_blackjack_dealer_evil.md); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
     3. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 60 of [Fair play?](../quests/brv_blackjack.md#stage-60); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 12 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

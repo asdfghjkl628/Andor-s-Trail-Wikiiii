@@ -25,6 +25,8 @@ Start with stepping on a trigger on [graveyard0](../maps/graveyard0.md). Require
 - NOT reached stage 80 of [Mine for the taking](../quests/graveyard_quest.md#stage-80)
 - NOT reached stage 70 of [Mine for the taking](../quests/graveyard_quest.md#stage-70)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +51,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-100"></span>100 | Hagale wanted some of the gold I got from selling the sword. It seemed fair to give him a share. **(completes quest)** | [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | pay 1,000 gold, stage 80 | 1,000 XP |
 | <span id="stage-105"></span>105 | Hagale tried to rob me of the gold I got from selling the sword. I had no choice but to kill him. **(completes quest)** | [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | stage 80 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -105,6 +108,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) → choose “No way! I fought to get the sword, and the profit is mine!” — **conditions:** reached stage 80 of [Mine for the taking](../quests/graveyard_quest.md#stage-80); NOT reached stage 90 of [Mine for the taking](../quests/graveyard_quest.md#stage-90); NOT reached stage 95 of [Mine for the taking](../quests/graveyard_quest.md#stage-95); NOT reached stage 100 of [Mine for the taking](../quests/graveyard_quest.md#stage-100); NOT reached stage 105 of [Mine for the taking](../quests/graveyard_quest.md#stage-105); NOT carry 1× [LifeTaker](../items/lifetaker.md); NOT wearing [LifeTaker](../items/lifetaker.md) → **stage 105**. NPC: “We'll see about that.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 14 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Lets go.” → “Let's go.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

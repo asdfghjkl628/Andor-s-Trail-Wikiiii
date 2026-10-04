@@ -19,11 +19,19 @@
 | Name | HP |
 |---|---|
 | [Agile aroughcun](../monsters/aroughcun_agile.md) | 168 |
-| [Young glacibite](../monsters/young_glacibite.md) | 201 |
 | [River wretch](../monsters/river_wretch2.md) | 201 |
+| [Young glacibite](../monsters/young_glacibite.md) | 201 |
 | [River wretch](../monsters/river_wretch.md) | 201 |
 | [Aroughcun](../monsters/aroughcun.md) | 204 |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 232 |
 | [Dreadmane](../monsters/dreadmane.md) | 235 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `galmore_66` · Data from v0.8.18</small>

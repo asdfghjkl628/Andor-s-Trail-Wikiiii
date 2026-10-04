@@ -26,6 +26,8 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 - reached stage 45 of [The roots of love](../quests/roots_love.md#stage-45)
 - used 1× [Potion of deftness](../items/potion_deftness.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -57,8 +59,9 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 | <span id="stage-80"></span>80 | Blornvale confessed to killing Aryfora's father in the presence of Tahalendor. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor2.md) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 71 | removes monsters from stoutford_potion |
 | <span id="stage-90"></span>90 | Aryfora regained her father's shop. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 80 | 4,000 XP<br>removes monsters from stoutford_gate<br>spawns monsters on stoutford_potion |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -126,6 +129,17 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 
     1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “Oh, that was just a trifle.” — **conditions:** reached stage 80 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-80) → **stage 90**; also removes monsters from stoutford_gate, spawns monsters on stoutford_potion. NPC: “Now I can move back into my father's house and create potions again. I will leave at once. Please come and visit me at…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 16 lines added |
+| [v0.7.4](../versions/0.7.4.md) | stage 71 journal text changed<br>Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

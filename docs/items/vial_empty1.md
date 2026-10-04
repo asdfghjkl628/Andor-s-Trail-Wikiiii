@@ -6,14 +6,14 @@
 
 | Monster | Chance | Qty |
 |---|---|---|
-| [Seraphina's bodyguard](../monsters/tt_guys.md) | 100% | 0-1 |
 | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | 100% | 1 |
+| [Seraphina's bodyguard](../monsters/tt_guys.md) | 100% | 0-1 |
 | [Lost spirit](../monsters/lost_spirit.md) | 25% | 1 |
 | [Lost soul](../monsters/lost_soul.md) | 25% | 1 |
 | [Haunting](../monsters/haunting.md) | 25% | 1 |
 | [Catacomb rat](../monsters/catacomb_rat.md) | 25% | 1 |
 | [Large catacomb rat](../monsters/large_catacomb_rat.md) | 25% | 1 |
-| [Bogsten](../monsters/bogsten.md) | 25% | 100-200 |
+| [Large cave rat](../monsters/large_cave_rat.md) | 25% | 1 |
 | [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 25% | 1 |
 | [Young white wyrm](../monsters/young_white_wyrm.md) | 25% | 1 |
 | [White wyrm](../monsters/white_wyrm.md) | 25% | 1 |
@@ -22,7 +22,7 @@
 | [Strong aulaeth](../monsters/strong_aulaeth.md) | 25% | 1 |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 25% | 1 |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 25% | 1 |
-| [Large cave rat](../monsters/large_cave_rat.md) | 25% | 1 |
+| [Bogsten](../monsters/bogsten.md) | 25% | 100-200 |
 | [Contaminated woodworm](../monsters/elm_woodworm.md) | 12.5% | 1 |
 | [Aggresive woodworm](../monsters/elm_woodworm2.md) | 12.5% | 1 |
 | [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 11.1111% | 1 |
@@ -41,5 +41,15 @@
 
 - [Potion merchant](../monsters/potion_merchant.md)
 - [Alynndir](../monsters/alynndir.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `vial_empty1` · Data from v0.8.18</small>

@@ -26,4 +26,17 @@
 | [Zortak guard](../monsters/zortak3.md) | 1% | 1 |
 | [Zortak barbarian](../monsters/zortak4.md) | 1% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | equipEffect: {"increaseAttackChance": 19, "increaseA… → {"increaseAttackChance": 19, "increaseA… |
+| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 19, "increaseA… → {"increaseAttackChance": 19, "increaseA… |
+| [v0.8.13](../versions/0.8.13.md) | displaytype added (rare) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `clmr_wrld` · Data from v0.8.18</small>

@@ -73,13 +73,22 @@
     <span id="d-ogam_lodar_3"></span>**`ogam_lodar_3`** Ogam: “Guardian. Glow of the Shadow.” — **effects:** sets stage 20 of [A lost potion](../quests/lodar.md#stage-20)
 
     - “Glow of the Shadow? Are those the words the guardian needs to hear?” → [ogam_lodar_4](#d-ogam_lodar_4)
-    - “'Glow of the Shadow'? I recognize that from somewhere.” *(if reached stage 30 of [bonemeal (hidden flag)](../quests/bonemeal.md#stage-30))* → [ogam_lodar_4](#d-ogam_lodar_4)
+    - “'Glow of the Shadow'? I recognize that from somewhere.” *(if reached stage 30 of [Disallowed substance](../quests/bonemeal.md#stage-30))* → [ogam_lodar_4](#d-ogam_lodar_4)
 
     <span id="d-ogam_lodar_4"></span>**`ogam_lodar_4`** Ogam: “Turning. Twisting. Clear form.”
 
     - “What does that mean?” → [ogam_1](#d-ogam_1)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

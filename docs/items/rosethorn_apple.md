@@ -18,4 +18,14 @@
 | [Scardy aroughcun](../monsters/scardy_aroughcun.md) | 20% | 1 |
 | [Aroughcun kit](../monsters/aroughcun_kit.md) | 15% | 1 |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `rosethorn_apple` · Data from v0.8.18</small>

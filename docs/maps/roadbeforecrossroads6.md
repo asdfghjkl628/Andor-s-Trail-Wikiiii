@@ -18,13 +18,26 @@ East: Nor City" style="left:75.000%;top:74.194%;width:5.000%;height:3.226%"></sp
 
 | Name | HP |
 |---|---|
-| [Agthor](../monsters/agthor.md) | 0 |
 | [Agthor's guard](../monsters/agthor_guard.md) | 0 |
 | [Feygard soldier](../monsters/patrol_roaming.md) | 0 |
+| [Agthor](../monsters/agthor.md) | 0 |
 | [Wild fox](../monsters/wild_fox.md) | 25 |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 |
 | [Young forest fox](../monsters/forestfox2.md) | 31 |
 | [Anklebiter](../monsters/anklebiter.md) | 31 |
 | [Forest fox](../monsters/forestfox3.md) | 35 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `roadbeforecrossroads6` · Data from v0.8.18</small>

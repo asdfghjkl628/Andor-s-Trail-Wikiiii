@@ -19,4 +19,13 @@
 | [Stone worm](../monsters/stone_worm_2.md) | 26 |
 | [Old stone worm](../monsters/old_stone_worm.md) | 36 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `mywildcave1` · Data from v0.8.18</small>

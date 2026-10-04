@@ -37,4 +37,12 @@
 - [undertell_7_10](../maps/undertell_7_10.md)
 - [undertell_7_11](../maps/undertell_7_11.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `kazaul_seer_lich_help_plague` · Data from v0.8.18</small>

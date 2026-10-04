@@ -21,4 +21,13 @@
 | [Grimmthorn marauder](../monsters/grimmthorn_marauder.md) | 369 |
 | [Dirty grimmthorn marauder](../monsters/dirty_grimmthorn_marauder.md) | 370 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `way_to_sullengard_west_3` · Data from v0.8.18</small>

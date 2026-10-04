@@ -15,4 +15,15 @@
 | Block chance | +11 |
 | Grants | Feygard Loyalist (magnitude 1) |
 
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+| [v0.8.13](../versions/0.8.13.md) | baseMarketCost added (3118); equipEffect: {"addedConditions": [{"condition": "loy… → {"addedConditions": [{"condition": "loy…; hasManualPrice added (1) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Item ID: `feygard_necklace` · Data from v0.8.18</small>

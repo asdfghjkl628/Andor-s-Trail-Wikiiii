@@ -34,4 +34,13 @@
 | [Blackened olm](../monsters/bwm_olm4.md) | 75 |
 | [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 211 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `elm_mine2` · Data from v0.8.18</small>

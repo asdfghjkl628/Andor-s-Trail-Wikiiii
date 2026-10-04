@@ -37,6 +37,16 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 3 lines added |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “He is entirely white. He looks look a freash coat of snow.” → “He is entirely white. He looks look a fresh coat of snow.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “He is entirely white. He looks look a fresh coat of snow.” → “He is entirely white. He looks like a fresh coat of snow.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

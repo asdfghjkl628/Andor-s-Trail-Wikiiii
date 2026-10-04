@@ -25,6 +25,8 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 - reached stage 87 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-87)
 - NOT reached stage 20 of [Too hot to handle](../quests/brightport_fiamma.md#stage-20)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -62,6 +64,7 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 | <span id="stage-45"></span>45 | I asked Fiamma to give me something else, and he gave me a very sharp glaive. **(completes quest)** | [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | – | gives 1× [Glaive of Imeria](../items/glaive_butcher.md) |
 | <span id="stage-50"></span>50 | I thanked Fiamma and went on my merry way. **(completes quest)** | [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | – | gives 1× [Glaive of Imeria](../items/glaive_butcher.md)<br>gives 1× [Flaming greatsword](../items/brightportflamesword.md)<br>gives 1× [Salamander gloves](../items/brightport_glove.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -107,6 +110,16 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
     1. Talk to [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) → choose “Yes, I would prefer that.” — **conditions:** 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of [Too hot to handle](../quests/brightport_fiamma.md#stage-50) → **stage 50**; also gives 1× [Glaive of Imeria](../items/glaive_butcher.md). NPC: “Take this glaive, it was given to me by my old master from Nor City. It was originally forged for nobility but after…”
     2. Talk to [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) → choose “Sounds nice, I'll take it.” — **conditions:** 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of [Too hot to handle](../quests/brightport_fiamma.md#stage-50) → **stage 50**; also gives 1× [Flaming greatsword](../items/brightportflamesword.md), gives 1× [Salamander gloves](../items/brightport_glove.md). NPC: “Well, usually I would have my reservations about giving someone as young as you something this dangerous. But you're…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 10 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

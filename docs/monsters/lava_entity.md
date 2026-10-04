@@ -32,4 +32,12 @@
 - [undertell_11](../maps/undertell_11.md)
 - [way_to_sullengard_east5_filler](../maps/way_to_sullengard_east5_filler.md)
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `lava_entity` · Data from v0.8.18</small>

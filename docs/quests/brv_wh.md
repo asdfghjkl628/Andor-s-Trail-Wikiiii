@@ -23,6 +23,8 @@
 
 None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +51,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | <span id="stage-109"></span>109 | I have found a pair of dusty old books. | [brv_wh_item_09](../monsters/brv_wh_item_09.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md))<br>[brv_wh_item_29](../monsters/brv_wh_item_29.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | – | gives 2× [Dusty old book](../items/brv_wh_item_09.md)<br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse |
 | <span id="stage-900"></span>900 | I found all the 10 pairs. Facutloni is very happy. **(completes quest)** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | hand over 2× [Chandelier](../items/brv_wh_item_04.md), hand over 2× [Crystal globe](../items/brv_wh_item_00.md), hand over 2× [Dusty old book](../items/brv_wh_item_09.md), hand over 2× [Lyre](../items/brv_wh_item_02.md), hand over 2× [Mysterious green something](../items/brv_wh_item_05.md), hand over 2× [Old, worn cape](../items/brv_wh_item_06.md), hand over 2× [Plush pillow](../items/brv_wh_item_01.md), hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), hand over 2× [Striped hammer](../items/brv_wh_item_08.md), hand over 2× [Yellow boot](../items/brv_wh_item_03.md), stage 10, stage 100, stage 101, stage 102, stage 103, stage 104, stage 105, stage 106, stage 107, stage 108, stage 109 | 2,000 XP<br>sets stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -112,6 +115,18 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
     1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “I found 10 pairs of each item.” — **conditions:** reached stage 10 of [Inventory](../quests/brv_wh.md#stage-10); reached stage 100 of [Inventory](../quests/brv_wh.md#stage-100); reached stage 101 of [Inventory](../quests/brv_wh.md#stage-101); reached stage 102 of [Inventory](../quests/brv_wh.md#stage-102); reached stage 103 of [Inventory](../quests/brv_wh.md#stage-103); reached stage 104 of [Inventory](../quests/brv_wh.md#stage-104); reached stage 105 of [Inventory](../quests/brv_wh.md#stage-105); reached stage 106 of [Inventory](../quests/brv_wh.md#stage-106); reached stage 107 of [Inventory](../quests/brv_wh.md#stage-107); reached stage 108 of [Inventory](../quests/brv_wh.md#stage-108); reached stage 109 of [Inventory](../quests/brv_wh.md#stage-109); hand over 2× [Crystal globe](../items/brv_wh_item_00.md); hand over 2× [Plush pillow](../items/brv_wh_item_01.md); hand over 2× [Lyre](../items/brv_wh_item_02.md); hand over 2× [Yellow boot](../items/brv_wh_item_03.md); hand over 2× [Chandelier](../items/brv_wh_item_04.md); hand over 2× [Mysterious green something](../items/brv_wh_item_05.md); hand over 2× [Old, worn cape](../items/brv_wh_item_06.md); hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md); hand over 2× [Striped hammer](../items/brv_wh_item_08.md); hand over 2× [Dusty old book](../items/brv_wh_item_09.md) → **stage 900**; also sets stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2). NPC: “10 pairs - that is correct. So everything is in order.”
     2. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → the conversation leads here automatically — **conditions:** reached stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2) → **stage 900**. NPC: “Good work! I am very pleased with you.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 100 journal text changed; stage 101 journal text changed; stage 102 journal text changed; stage 103 journal text changed; stage 104 journal text changed (+5 more) |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

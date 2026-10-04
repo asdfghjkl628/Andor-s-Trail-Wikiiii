@@ -29,6 +29,8 @@
 
 - NOT reached stage 110 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-110)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -80,6 +82,7 @@
 | <span id="stage-172"></span>172 | My result confirmed his relatively low expectations.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytogalmore0](../maps/waytogalmore0.md).</span> | [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md))<br>stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | stage 160 | 500 XP |
 | <span id="stage-190"></span>190 | Lutarc gave me a medallion as a present. There is a tiny little lizard on it, that looks completely real. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytogalmore0](../maps/waytogalmore0.md).</span> | [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md))<br>stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | stage 113, stage 123, stage 133, stage 143, stage 153, stage 160 | gives 1× [Lutarc's medallion](../items/lutarc_medallion.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -207,6 +210,19 @@
     1. Talk to [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md)) → choose “They were far too strong, and they all fought in an unfair way.” — **conditions:** reached stage 160 of [Colonel Lutarc](../quests/stn_colonel.md#stage-160); reached stage 113 of [Colonel Lutarc](../quests/stn_colonel.md#stage-113); reached stage 123 of [Colonel Lutarc](../quests/stn_colonel.md#stage-123); reached stage 133 of [Colonel Lutarc](../quests/stn_colonel.md#stage-133); reached stage 143 of [Colonel Lutarc](../quests/stn_colonel.md#stage-143); reached stage 153 of [Colonel Lutarc](../quests/stn_colonel.md#stage-153) → **stage 190**; also gives 1× [Lutarc's medallion](../items/lutarc_medallion.md). NPC: “Take this medallion as a token of my thanks.”
     2. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → choose “They were far too strong, and they all fought in an unfair way.” — **conditions:** reached stage 160 of [Colonel Lutarc](../quests/stn_colonel.md#stage-160); reached stage 113 of [Colonel Lutarc](../quests/stn_colonel.md#stage-113); reached stage 123 of [Colonel Lutarc](../quests/stn_colonel.md#stage-123); reached stage 133 of [Colonel Lutarc](../quests/stn_colonel.md#stage-133); reached stage 143 of [Colonel Lutarc](../quests/stn_colonel.md#stage-143); reached stage 153 of [Colonel Lutarc](../quests/stn_colonel.md#stage-153) → **stage 190**; also gives 1× [Lutarc's medallion](../items/lutarc_medallion.md). NPC: “Take this medallion as a token of my thanks.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 23 lines added |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “[Ring taken] Thank you, stupid boy.” → “[Ring taken] Thank you, stupid kid.” |
+| [v0.7.10](../versions/0.7.10.md) | stages added: 171; stage 170 journal text changed; stage 170 XP 500 → 0 |
+| [v0.8.15](../versions/0.8.15.md) | stage 170 XP 0 → 1; stage 171 journal text changed; stage 171 XP 500 → 1000; stage 172 journal text changed; stage 172 XP 1000 → 500 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

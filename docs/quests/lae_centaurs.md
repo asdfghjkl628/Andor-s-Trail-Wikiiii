@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 310) |
 | **Started by** | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)), [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) |
-| **NPCs involved** | [Algangror](../monsters/lae_algangror3.md), [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror1.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld3.md) +5 |
+| **NPCs involved** | [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror1.md), [Algangror](../monsters/lae_algangror3.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld2.md) +5 |
 | **Locations** | [final_cave1](../maps/final_cave1.md), [final_cave2](../maps/final_cave2.md), [island1](../maps/island1.md), [island2](../maps/island2.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |
@@ -23,6 +23,8 @@
 
 None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,8 +65,9 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 | <span id="stage-300"></span>300 | I brought the monster's heart to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time. | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | – |
 | <span id="stage-310"></span>310 | Since then I have been a welcome guest of the centaurs. **(completes quest)** | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | 10,000 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -144,6 +147,16 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
     1. Talk to [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) → the conversation leads here automatically — **conditions:** reached stage 310 of [Not Pony Island](../quests/lae_centaurs.md#stage-310) → **stage 310**. NPC: “You have proven yourself to be more than just another ignorant human.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 19 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

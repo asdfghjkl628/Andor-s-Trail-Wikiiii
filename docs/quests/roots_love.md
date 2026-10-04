@@ -23,6 +23,8 @@
 
 None: talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -44,6 +46,7 @@ None: talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../map
 | <span id="stage-40"></span>40 | I told her the flowers were from Noraed's sister, Caeda. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 30 | – |
 | <span id="stage-45"></span>45 | I told her I found the flowers around Remgard, in the wild. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 30 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -68,6 +71,17 @@ None: talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../map
 
     1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “I found them in the wild around Remgard.” — **conditions:** reached stage 30 of [The roots of love](../quests/roots_love.md#stage-30) → **stage 45**. NPC: “Is that so? Remgard must be a beautiful place to have such nice flowers growing in the wild.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 5 lines added |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “I still have some. Here, take these to her, and send her my condolanc…” → “I still have some. Here, take these to her, and send her my condolenc…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

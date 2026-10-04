@@ -21,10 +21,19 @@
 
 | Name | HP |
 |---|---|
-| [Eatloni](../monsters/brightportbakeryoutside.md) | 0 |
 | [Brightport commoner](../monsters/brightportcitizen1.md) | 0 |
+| [Eatloni](../monsters/brightportbakeryoutside.md) | 0 |
 | [Brightport guard](../monsters/brightportguard2.md) | 0 |
-| [Brightport guard](../monsters/brightportguard.md) | 0 |
 | [Laborer](../monsters/brightportbakeryoutside2.md) | 0 |
+| [Brightport guard](../monsters/brightportguard.md) | 0 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `brightport5` · Data from v0.8.18</small>

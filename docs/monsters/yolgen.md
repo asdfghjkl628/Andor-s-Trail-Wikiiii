@@ -31,7 +31,9 @@
 
 ## Quests
 
+- [Ancient secrets](../quests/flagstone.md): stages 5, 100
 - [Rumblings](../quests/rumblings.md): stages 20, 80
+- [Search for Andor](../quests/andor.md): stages 85
 - [Stoutford's old castle](../quests/stoutford_castle.md): stages 10, 12, 20, 30, 42, 50, 60, 70
 - [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 180, 190
 
@@ -54,7 +56,7 @@
     - “Tahalendor told me that you may have items to trade.” *(if reached stage 23 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-23))* → *shop opens*
     - “What can you tell me about the area around here?” → [yolgen_surroundings_0](#d-yolgen_surroundings_0)
     - “I have dealt with Erwyn's army.” *(if reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70))* → [yolgen_castle_1](#d-yolgen_castle_1)
-    - “I cleared Flagstone of an evil demon.” *(if reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60); NOT reached stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100))* → [yolgen_flagstone_10](#d-yolgen_flagstone_10)
+    - “I cleared Flagstone of an evil demon.” *(if reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_flagstone_10](#d-yolgen_flagstone_10)
     - “Is there anything I can do to help?” *(if reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_task_0](#d-yolgen_task_0)
     - “I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.” *(if reached stage 50 of [Troubling times](../quests/troubling_times.md#stage-50); NOT reached stage 70 of [Troubling times](../quests/troubling_times.md#stage-70))* → [tt_yolgen_10](#d-tt_yolgen_10)
 
@@ -90,7 +92,7 @@
     - branch 3 *(if killed 2× [Erwyn's soldier](../monsters/erwyn_soldier.md))* → [yolgen_castle_1_1b](#d-yolgen_castle_1_1b)
     - branch 4 → [yolgen_castle_1_1c](#d-yolgen_castle_1_1c)
 
-    <span id="d-yolgen_flagstone_10"></span>**`yolgen_flagstone_10`** Yolgen: “Oh that is good news! I am very pleased that the citizens of Stoutford have one thing less to worry about. It is a pity that we didn't send guards to investigate the prison earlier. Then all of this wouldn't have happened. Here, take this…” — **effects:** removes monsters from flagstone4, sets stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100), gives [Gold coins](../items/gold.md)
+    <span id="d-yolgen_flagstone_10"></span>**`yolgen_flagstone_10`** Yolgen: “Oh that is good news! I am very pleased that the citizens of Stoutford have one thing less to worry about. It is a pity that we didn't send guards to investigate the prison earlier. Then all of this wouldn't have happened. Here, take this…” — **effects:** removes monsters from flagstone4, sets stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100), gives [Gold coins](../items/gold.md)
 
     - “Thank you kindly. I am happy to help.” → *conversation ends*
     - “Thank you kindly. Shadow be with you.” → *conversation ends*
@@ -99,9 +101,9 @@
 
     - branch 1 *(if NOT reached stage 10 of [stoutford_reinforcements (hidden flag)](../quests/stoutford_reinforcements.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
     - branch 2 *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
-    - branch 3 *(if NOT reached stage 5 of [flagstone (hidden flag)](../quests/flagstone.md#stage-5))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
+    - branch 3 *(if NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
     - branch 4 *(if NOT reached stage 10 of [prim_tunnel (hidden flag)](../quests/prim_tunnel.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
-    - branch 5 *(if NOT reached stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100))* → [yolgen_task_0_2_1](#d-yolgen_task_0_2_1)
+    - branch 5 *(if NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_task_0_2_1](#d-yolgen_task_0_2_1)
     - branch 6 *(if NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70))* → [yolgen_task_0_2_2](#d-yolgen_task_0_2_2)
     - branch 7 → [yolgen_task_0_1](#d-yolgen_task_0_1)
 
@@ -157,13 +159,13 @@
     <span id="d-yolgen_task_0_2"></span>**`yolgen_task_0_2`** Yolgen: “Well, you look a bit young. But I guess we could still make use of you in these dark times. Let me think about some tasks I can offer you.”
 
     - “What about the undead in the castle?” *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180))* → [yolgen_castle_0](#d-yolgen_castle_0)
-    - “What about Flagstone prison?” *(if NOT reached stage 5 of [flagstone (hidden flag)](../quests/flagstone.md#stage-5); NOT reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60); NOT reached stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
+    - “What about Flagstone prison?” *(if NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5); NOT reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
     - “OK, bye.” → *conversation ends*
 
     <span id="d-yolgen_task_0_2_1"></span>**`yolgen_task_0_2_1`** Yolgen: “Could you help with Flagstone?”
 
-    - “OK. I will go to the prison.” *(if NOT reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60))* → *conversation ends*
-    - “I cleared Flagstone of an evil demon.” *(if reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60))* → [yolgen_flagstone_10](#d-yolgen_flagstone_10)
+    - “OK. I will go to the prison.” *(if NOT reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60))* → *conversation ends*
+    - “I cleared Flagstone of an evil demon.” *(if reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60))* → [yolgen_flagstone_10](#d-yolgen_flagstone_10)
 
     <span id="d-yolgen_task_0_2_2"></span>**`yolgen_task_0_2_2`** Yolgen: “Can you clear the castle?”
 
@@ -172,15 +174,15 @@
     <span id="d-yolgen_task_0_1"></span>**`yolgen_task_0_1`** Yolgen: “Well, you already were of great help. Thank you again!”
 
 
-    <span id="d-yolgen_rumblings10_2"></span>**`yolgen_rumblings10_2`** Yolgen: “To his credit, I have to admit you do look a bit like him. I don't know his name.” — **effects:** sets stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85)
+    <span id="d-yolgen_rumblings10_2"></span>**`yolgen_rumblings10_2`** Yolgen: “To his credit, I have to admit you do look a bit like him. I don't know his name.” — **effects:** sets stage 85 of [Search for Andor](../quests/andor.md#stage-85)
 
     - “That must be my brother Andor!” → [yolgen_rumblings10_3](#d-yolgen_rumblings10_3)
     - “Go on.” → [yolgen_rumblings10_3](#d-yolgen_rumblings10_3)
 
     <span id="d-yolgen_surroundings_1a"></span>**`yolgen_surroundings_1a`** Yolgen: “That dreadful place has been left abandoned ever since. Recently, however, undead have started pouring out of the prison, and we had to send guards to keep them away from the road.”
 
-    - “I took care of that.” *(if reached stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100))* → [yolgen_surroundings_flagstone_4](#d-yolgen_surroundings_flagstone_4)
-    - “Can I help you with Flagstone?” *(if NOT reached stage 70 of [flagstone (hidden flag)](../quests/flagstone.md#stage-70); NOT reached stage 5 of [flagstone (hidden flag)](../quests/flagstone.md#stage-5); NOT reached stage 100 of [flagstone (hidden flag)](../quests/flagstone.md#stage-100))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
+    - “I took care of that.” *(if reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_surroundings_flagstone_4](#d-yolgen_surroundings_flagstone_4)
+    - “Can I help you with Flagstone?” *(if NOT reached stage 70 of [Ancient secrets](../quests/flagstone.md#stage-70); NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
     - “Is there anything I could help you with?” → [yolgen_task_0](#d-yolgen_task_0)
     - “There was something else I wanted to ask you about.” → [yolgen_surroundings_0](#d-yolgen_surroundings_0)
 
@@ -213,9 +215,9 @@
 
     - Next → [yolgen_castle_0a](#d-yolgen_castle_0a)
 
-    <span id="d-yolgen_flagstone_0"></span>**`yolgen_flagstone_0`** Yolgen: “If you could help with Flagstone, it would take a big burden off us.” — **effects:** sets stage 5 of [flagstone (hidden flag)](../quests/flagstone.md#stage-5)
+    <span id="d-yolgen_flagstone_0"></span>**`yolgen_flagstone_0`** Yolgen: “If you could help with Flagstone, it would take a big burden off us.” — **effects:** sets stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5)
 
-    - “I have been inside Flagstone, but I will go back and find out more.” *(if reached stage 20 of [flagstone (hidden flag)](../quests/flagstone.md#stage-20); NOT reached stage 60 of [flagstone (hidden flag)](../quests/flagstone.md#stage-60))* → *conversation ends*
+    - “I have been inside Flagstone, but I will go back and find out more.” *(if reached stage 20 of [Ancient secrets](../quests/flagstone.md#stage-20); NOT reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60))* → *conversation ends*
     - “OK, I will take a look.” → *conversation ends*
     - “Maybe.” → *conversation ends*
 
@@ -369,6 +371,19 @@
     - “I will clear the castle of undead for you.” *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10))* → [yolgen_castle_0_1](#d-yolgen_castle_0_1)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 66 lines added |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “Flagstone Prison was built four hundred years ago by house Gorland of…” → “Flagstone Prison was built four hundred years ago by house Gorland of…” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line added, 1 line changed |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 1 line changed<br>· text: “However, recently more and more of the most foul monsters are coming …” → “However, recently more and more of the most foul monsters are coming …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

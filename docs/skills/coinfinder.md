@@ -21,6 +21,7 @@ Increases chance of finding gold in monster drops by 30 %, and increases amount 
 
 No requirements: any skill point can go here.
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Relevant quest
 
 **Quest:** [The exploded star](../quests/mg2_exploded_star.md#stage-62) (reaching stage 62)

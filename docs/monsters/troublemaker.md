@@ -315,6 +315,22 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
+| [v0.7.8](../versions/0.7.8.md) | phraseID: thievesguild_troublemaker_1 → troublemaker_selector<br>Dialogue: 32 lines added, 1 line changed |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 20 lines added, 1 line changed |
+| [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line changed<br>· text: “You can find the empty house just south east of here. Enter it and yo…” → “You can find the empty house just southwest of here. Enter it and you…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 6 lines changed<br>· text: “Can you prove this? Can you show me something that proves that all 4 …” → “Can you prove this? Can you show me something that proves that all fo…”<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

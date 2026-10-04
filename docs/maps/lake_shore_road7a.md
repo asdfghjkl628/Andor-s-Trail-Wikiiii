@@ -19,4 +19,12 @@
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 119 |
 | [River troll](../monsters/rivertroll.md) | 210 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `lake_shore_road7a` · Data from v0.8.18</small>

@@ -22,6 +22,7 @@ Permanently prevents monster attacks from inflicting the "Spore poisoning" statu
 |---|---|
 | 1 | Quest reward |
 
+<p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 ## Relevant quest
 
 **Quest:** [Fungi panic](../quests/fungi_panic.md#stage-155) (reaching stage 155)

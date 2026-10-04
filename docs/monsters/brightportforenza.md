@@ -49,7 +49,7 @@
 
     <span id="d-brightport_sylvester1"></span>**`brightport_sylvester1`** [Florencia](../monsters/brightportforenza1.md): “Ah, he's always grumpy when he's working. Did you wish to ask something child?”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_florencia1](#d-brightport_florencia1)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_florencia1](#d-brightport_florencia1)
     - “While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” *(if reached stage 243 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-243); carry 1× [Bakery ledger](../items/brightport_documents.md); reached stage 242 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-242))* → [brightport_sylvester](#d-brightport_sylvester)
 
     <span id="d-brightport_sylvester3"></span>**`brightport_sylvester3`** Sylvester: “Good heavens, that's the missing ledger I was losing sleep over! I was beginning to suspect someone stole and hid it, I'm glad you found it.”
@@ -64,6 +64,14 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 9 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

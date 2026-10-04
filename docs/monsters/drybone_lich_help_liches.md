@@ -27,4 +27,12 @@
 | [Lich dust](../items/lich_dust.md) | 5% | 1 |
 | [Tonic of blood](../items/tonic_of_blood.md) | 10% | 1 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Monster ID: `drybone_lich_help_liches` · Data from v0.8.18</small>

@@ -11,10 +11,10 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 35 |
 | **Started by** | walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) |
-| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee_oc.md), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md), [Godoe](../monsters/godoe2.md) +5 |
+| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee_oc.md), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe2.md), [Godoe](../monsters/godoe1.md) +5 |
 | **Locations** | [beekeeper1](../maps/beekeeper1.md), [fallhaven_clothes](../maps/fallhaven_clothes.md), [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [guynmart_wood_18](../maps/guynmart_wood_18.md) |
 | **Total XP** | 1,101 |
-| **Related quests** | 2 |
+| **Related quests** | 3 |
 
 </div>
 
@@ -29,12 +29,15 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 - faction “feygard_offering_sum” ≥ 1
 - reached stage 1 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-1)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Key of Luthor](bucus.md#stage-100) | stage 100 reached, for stage 60 here |
 | Requires | [Echoes of enchantment](echoes_of_enchantment.md#stage-5) | stage 5 reached, for stages 4, 5, 6 here |
 | Requires | [Echoes of enchantment](echoes_of_enchantment.md#stage-8) | stage 8 reached, for stage 6 here |
 | Requires | [Echoes of enchantment](echoes_of_enchantment.md#stage-12) | stage 12 reached, for stage 9 here |
@@ -89,8 +92,9 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 | <span id="stage-91"></span>91 | 91=Ravine outlets blocked<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 18](../maps/guynmart_wood_18.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 18](../maps/guynmart_wood_18.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | clears stage 90 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-90)<br>clears stage 92 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-92) |
 | <span id="stage-92"></span>92 | 92=Ravine free<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 18](../maps/guynmart_wood_18.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 18](../maps/guynmart_wood_18.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | clears stage 90 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-90)<br>clears stage 91 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-91)<br>spawns monsters on guynmart_wood_18 |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -173,7 +177,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Athamyr](../monsters/athamyr.md) → choose “Are you crazy?” — **conditions:** reached stage 100 of [bucus (hidden flag)](../quests/bucus.md#stage-100); NOT reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md) → **stage 60**. NPC: “Then you can climb through a window and reach a path right to the back of the tailor's house.”
+    1. Talk to [Athamyr](../monsters/athamyr.md) → choose “Are you crazy?” — **conditions:** reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); NOT reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md) → **stage 60**. NPC: “Then you can climb through a window and reach a path right to the back of the tailor's house.”
 
 ???+ note "Stage 61: 1 route"
 
@@ -241,6 +245,17 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
     1. stepping on a trigger on [guynmart_wood_18](../maps/guynmart_wood_18.md) → the conversation leads here automatically → **stage 92**; also clears stage 90 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-90), clears stage 91 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-91), spawns monsters on guynmart_wood_18, spawns monsters on guynmart_wood_18
 
 
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 36 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Walkthrough**: step-by-step help for players · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Bugs**: known glitches and workarounds · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -274,7 +289,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 30, 31, 32, 60, 61, 62, 63, 65, 66, 68, 69, 71, 72, 73, 80, 81, 90, 91, 92 |
     | Dialogue nodes setting stages | 1: `feygard_offering_44`, 2: `wexlow_well_throw_oegyth_crystal`, 3: `gamjee_villagers_unknown_attack`, 4: `gamjee_villagers_known_fight`, 5: `gamjee_villagers_unknown_attack`, 5: `gamjee_villagers_known_fight`, 6: `gamjee_compromise_9`, 7: `village_godwin_lost_ring_take_ring`, 7: `village_godwin_lost_ring_3k`, 7: `village_godwin_lost_ring_give_ring_free`, 8: `rosmara_explain_4`, 9: `village_godelieve_bed`, 10: `leofric_sell`, 11: `wexlow_mother_letter`, 11: `wexlow_godwin_journal`, 12: `village_philippa_fd_complete_no`, 13: `village_godwin_lost_ring_give_ring_free`, 14: `village_godwin_lost_ring_take_ring`, 15: `village_godwin_lost_ring_3k`, 30: `boat0_0a`, 31: `boat0_5a`, 32: `boat0_9a`, 60: `athamyr_coup_24`, 61: `athamyr_coup_28`, 62: `fallhaven_coup_62`, 63: `athamyr_coup_38`, 65: `fallhaven_clothes_coup_30`, 66: `fallhaven_clothes_window_in`, 68: `fallhaven_clothes_10`, 69: `fallhaven_clothes_coup_1`, 69: `fallhaven_clothes_coup_end_10`, 71: `athamyr_coup_28`, 72: `sign_catacombs1_grave3_10`, 73: `athamyr_coup_38`, 80: `godoe_10`, 81: `guynmart18_s1_20`, 90: `guynmart18_passage0`, 91: `guynmart18_passage1`, 92: `guynmart18_passage2` |
-    | Dialogue nodes clearing stages | 72: `athamyr_coup_38`, 1: `feygard_offering`, 91: `guynmart18_passage0`, 91: `guynmart18_passage2`, 92: `guynmart18_passage0`, 92: `guynmart18_passage1`, 90: `guynmart18_passage1`, 90: `guynmart18_passage2`, 81: `guynmart18_s2_20`, 80: `guynmart18_s_2` |
+    | Dialogue nodes clearing stages | 72: `athamyr_coup_38`, 71: `sign_catacombs1_grave3_10`, 1: `feygard_offering`, 91: `guynmart18_passage0`, 91: `guynmart18_passage2`, 92: `guynmart18_passage0`, 92: `guynmart18_passage1`, 90: `guynmart18_passage1`, 90: `guynmart18_passage2`, 81: `guynmart18_s2_20` |
     | Source files | `res/raw/questlist*.json`, `res/raw/conversationlist*.json` |
 
 

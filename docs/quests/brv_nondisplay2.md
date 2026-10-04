@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil8.md), [Pupil](../monsters/brv_pupil6.md), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil4.md) +6 |
+| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil7.md), [Pupil](../monsters/brv_pupil1.md) +6 |
 | **Locations** | [brimhaven_general1](../maps/brimhaven_general1.md), [brimhaven_school](../maps/brimhaven_school.md) |
 | **Related quests** | 2 |
 
@@ -32,6 +32,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -73,6 +75,7 @@
 | <span id="stage-50"></span>50 | Pupils ran out<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Pupil](../monsters/brv_pupil1.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | removes monsters from brimhaven_school<br>sets stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122)<br>clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120)<br>faction “brv_fct_school_duel” set to 10<br>sets stage 110 of [Lessons learned](../quests/brv_school2.md#stage-110) |
 | <span id="stage-60"></span>60 | 60=banned fromtower<br><span class="qnote">⚡ A scripted event can now trigger on [Brimhaven2](../maps/brimhaven2.md).</span><br><span class="qnote">🔒 An area on [Brimhaven church](../maps/brimhaven_church.md) becomes blocked off.</span> | walking into a blocked passage on [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md) | – | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -124,6 +127,17 @@
 
     1. walking into a blocked passage on [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md) → the conversation leads here automatically — **conditions:** faction “brv_ring_bells” ≥ 6; reached stage 60 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-60) → **stage 60**. NPC: “That does it! Leave this tower immediately! And don't you ever dare come back!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
+| [v0.7.12](../versions/0.7.12.md) | stages added: 60<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

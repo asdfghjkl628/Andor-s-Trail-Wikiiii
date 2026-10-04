@@ -37,6 +37,7 @@
 - [A creeping fear](../quests/xulviir.md): stages 10
 - [A lost potion](../quests/lodar.md): stages 110
 - [Lodar's potions](../quests/lodar_pots.md): stages 10, 30, 40, 41, 42, 43
+- [Search for Andor](../quests/andor.md): stages 70, 71, 72, 80
 - [Searching for madness](../quests/lodar2.md): stages 10, 15, 20, 30, 50, 51, 60
 - [The way out is through](../quests/shortcut_lodar.md): stages 10, 30
 
@@ -568,7 +569,7 @@
 
     - “Someone was hiding in the forest?” → [lodar_andor16](#d-lodar_andor16)
 
-    <span id="d-lodar_andor16"></span>**`lodar_andor16`** Lodar: “Yes, so it would seem. It was quite obvious that he did not want me to spot him. After your brother left, I saw them both speak some words to each other, before they both left together.” — **effects:** sets stage 70 of [andor (hidden flag)](../quests/andor.md#stage-70)
+    <span id="d-lodar_andor16"></span>**`lodar_andor16`** Lodar: “Yes, so it would seem. It was quite obvious that he did not want me to spot him. After your brother left, I saw them both speak some words to each other, before they both left together.” — **effects:** sets stage 70 of [Search for Andor](../quests/andor.md#stage-70)
 
     - “So, Andor was here, wanted some Narwood extract, and he was travelling with someone that did not want you to spot him?” → [lodar_andor17](#d-lodar_andor17)
 
@@ -604,7 +605,7 @@
 
     - Next → [lodar_andor25](#d-lodar_andor25)
 
-    <span id="d-lodar_andor25"></span>**`lodar_andor25`** Lodar: “Maybe they visited that tomb. Now, I'm not pointing any fingers here, but it certainly seems like they had something to do with this, considering that the tomb has been quiet for ages.” — **effects:** sets stage 71 of [andor (hidden flag)](../quests/andor.md#stage-71)
+    <span id="d-lodar_andor25"></span>**`lodar_andor25`** Lodar: “Maybe they visited that tomb. Now, I'm not pointing any fingers here, but it certainly seems like they had something to do with this, considering that the tomb has been quiet for ages.” — **effects:** sets stage 71 of [Search for Andor](../quests/andor.md#stage-71)
 
     - “Are you implying that Andor awoke the Hira'zinn?” → [lodar_andor25a](#d-lodar_andor25a)
     - “Interesting. Please go on.” → [lodar_andor26](#d-lodar_andor26)
@@ -632,14 +633,14 @@
 
     <span id="d-lodar_andor30s"></span>**`lodar_andor30s`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72))* → [lodar_andor31](#d-lodar_andor31)
+    - branch 1 *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72))* → [lodar_andor31](#d-lodar_andor31)
     - branch 2 → [lodar_andor30](#d-lodar_andor30)
 
     <span id="d-lodar_andor31"></span>**`lodar_andor31`** Lodar: “Present the letter to the guards at the temple, and they will grant you an audience with Lady Lydalon.”
 
     - Next → [lodar_andor32](#d-lodar_andor32)
 
-    <span id="d-lodar_andor30"></span>**`lodar_andor30`** Lodar: “Here, take this letter.” — **effects:** gives [Lodar's letter](../items/lodar_letter.md), sets stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72)
+    <span id="d-lodar_andor30"></span>**`lodar_andor30`** Lodar: “Here, take this letter.” — **effects:** gives [Lodar's letter](../items/lodar_letter.md), sets stage 72 of [Search for Andor](../quests/andor.md#stage-72)
 
     - Next → [lodar_andor31](#d-lodar_andor31)
 
@@ -664,7 +665,7 @@
 
     - Next → [lodar_andor36](#d-lodar_andor36)
 
-    <span id="d-lodar_andor36"></span>**`lodar_andor36`** Lodar: “It could mean that whatever group of people he belongs to - there might be more of them in Nor City. Either you might want to stay away from them, or seek them out. You decide.” — **effects:** sets stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80)
+    <span id="d-lodar_andor36"></span>**`lodar_andor36`** Lodar: “It could mean that whatever group of people he belongs to - there might be more of them in Nor City. Either you might want to stay away from them, or seek them out. You decide.” — **effects:** sets stage 80 of [Search for Andor](../quests/andor.md#stage-80)
 
     - “Thank you for all the information. I will travel to Nor City.” → [lodar_andor37](#d-lodar_andor37)
     - “I can handle myself.” → [lodar_andor37](#d-lodar_andor37)
@@ -674,6 +675,19 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …”<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …”<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Oh, you must be referring to that other boy that was here recently.” → “Oh, you must be referring to that older boy that was here recently.” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

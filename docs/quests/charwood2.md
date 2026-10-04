@@ -25,6 +25,8 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 
 - reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +53,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 | <span id="stage-40"></span>40 | I have presented one of the bones from the corpse of the Thukuzun to Maevalia. | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | – | – |
 | <span id="stage-50"></span>50 | Maevalia was happy to hear that I killed the source of the monster invasion. **(completes quest)** | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | stage 40 | 7,000 XP<br>gives [Gold coins](../items/gold.md)<br>gives [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -81,6 +84,17 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
     2. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “How about some gold for all my troubles?” — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 50**; also gives [Gold coins](../items/gold.md). NPC: “Certainly. Here is what we can spare. Thank you yet again.”
     3. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “I think that one of your most precious items will suffice as payment.” — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 50**; also gives [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md). NPC: “I guess we have no choice but to agree. Here, take these. They used to belong to my mother.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

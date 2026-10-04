@@ -31,7 +31,7 @@
 
     <span id="d-mara1"></span>**`mara1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [odair (hidden flag)](../quests/odair.md#stage-100))* → [mara_thanks](#d-mara_thanks)
+    - branch 1 *(if reached stage 100 of [Rat infestation](../quests/odair.md#stage-100))* → [mara_thanks](#d-mara_thanks)
     - branch 2 → [mara_default](#d-mara_default)
 
     <span id="d-mara_thanks"></span>**`mara_thanks`** Mara: “I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon.”
@@ -43,6 +43,15 @@
     - “Do you have anything to trade?” → *shop opens*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

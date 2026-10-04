@@ -18,6 +18,10 @@
 
 - [crossglen](../maps/crossglen.md)
 
+## Quests
+
+- [Rat infestation](../quests/odair.md): stages 10, 100
+
 ??? quote "Dialogue (10 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -28,8 +32,8 @@
 
     <span id="d-odair_select"></span>**`odair_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [odair (hidden flag)](../quests/odair.md#stage-100))* → [odair_complete2](#d-odair_complete2)
-    - branch 2 *(if reached stage 10 of [odair (hidden flag)](../quests/odair.md#stage-10))* → [odair_continue](#d-odair_continue)
+    - branch 1 *(if reached stage 100 of [Rat infestation](../quests/odair.md#stage-100))* → [odair_complete2](#d-odair_complete2)
+    - branch 2 *(if reached stage 10 of [Rat infestation](../quests/odair.md#stage-10))* → [odair_continue](#d-odair_continue)
     - branch 3 → [odair2](#d-odair2)
 
     <span id="d-odair_complete2"></span>**`odair_complete2`** Odair: “Thanks a lot for your help earlier. Now we might start using that cave as our old supply cave again.”
@@ -47,11 +51,11 @@
     - “Tell me more about this task.” → [odair3](#d-odair3)
     - “Sure, if there is anything I can gain from it.” → [odair3](#d-odair3)
 
-    <span id="d-odair_complete"></span>**`odair_complete`** Odair: “Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help.” — **effects:** sets stage 100 of [odair (hidden flag)](../quests/odair.md#stage-100), gives [Gold coins](../items/gold.md)
+    <span id="d-odair_complete"></span>**`odair_complete`** Odair: “Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help.” — **effects:** sets stage 100 of [Rat infestation](../quests/odair.md#stage-100), gives [Gold coins](../items/gold.md)
 
     - “Thanks.” → *conversation ends*
 
-    <span id="d-odair5"></span>**`odair5`** Odair: “I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again.” — **effects:** sets stage 10 of [odair (hidden flag)](../quests/odair.md#stage-10)
+    <span id="d-odair5"></span>**`odair5`** Odair: “I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again.” — **effects:** sets stage 10 of [Rat infestation](../quests/odair.md#stage-10)
 
     - “OK.” → *conversation ends*
     - “On second thought, I don't think I will help you after all.” → [odair_cowards](#d-odair_cowards)
@@ -71,6 +75,16 @@
     - “No thanks.” → [odair_cowards](#d-odair_cowards)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “I recently went in to that cave over there *points west*, to check on…” → “I recently went in to that cave over there [points west], to check on…” |
+| [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

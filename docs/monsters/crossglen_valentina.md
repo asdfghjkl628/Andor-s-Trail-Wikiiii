@@ -18,6 +18,10 @@
 
 - [home](../maps/home.md)
 
+## Quests
+
+- [Search for Andor](../quests/andor.md): stages 110
+
 ??? quote "Dialogue (12 lines)"
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
@@ -30,12 +34,12 @@
 
     <span id="d-crossglen_valentina_andor_10"></span>**`crossglen_valentina_andor_10`** Valentina: “I should be able to help you, but first you have to tell me where have you been?”
 
-    - “I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor.” *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina_andor_20)
-    - “I've been around a lot of Dhayavar and have spoken to a lot of people about Andor.” *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina_andor_20)
-    - “I've talked with a potion maker.” *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); NOT reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
-    - “I've been to Remgard looking for Andor” *(if NOT reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); NOT reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
-    - “I've been to this really cool place called Blackwater settlement.” *(if NOT reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); NOT reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
-    - “I've not gone much past Sullengard.” *(if NOT reached stage 85 of [andor (hidden flag)](../quests/andor.md#stage-85); NOT reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
+    - “I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina_andor_20)
+    - “I've been around a lot of Dhayavar and have spoken to a lot of people about Andor.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina_andor_20)
+    - “I've talked with a potion maker.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
+    - “I've been to Remgard looking for Andor” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
+    - “I've been to this really cool place called Blackwater settlement.” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
+    - “I've not gone much past Sullengard.” *(if NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
     - “I've been running around a lot, but I've not learned much.” → [crossglen_valentina_andor_21](#d-crossglen_valentina_andor_21)
 
     <span id="d-crossglen_valentina_valeria_10"></span>**`crossglen_valentina_valeria_10`** Valentina: “Right now? No. I am not ready to discuss this with you.”
@@ -68,9 +72,9 @@
 
     - “Oh, Stanwick, of course.” → [crossglen_valentina_andor_50](#d-crossglen_valentina_andor_50)
     - “Stanwick? I never liked that kid. He's really annoying and always picked on me. I really don't want to talk to him.” → [crossglen_valentina_andor_50](#d-crossglen_valentina_andor_50)
-    - “Are you sure that this is worth it? All the information that I have is pointing me to Nor City.” *(if reached stage 80 of [andor (hidden flag)](../quests/andor.md#stage-80))* → [crossglen_valentina_andor_55](#d-crossglen_valentina_andor_55)
+    - “Are you sure that this is worth it? All the information that I have is pointing me to Nor City.” *(if reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [crossglen_valentina_andor_55](#d-crossglen_valentina_andor_55)
 
-    <span id="d-crossglen_valentina_andor_50"></span>**`crossglen_valentina_andor_50`** Valentina: “Yes, I think you should go to Brightport and seek him out. Maybe, just maybe, he could be helpful to us for once.” — **effects:** sets stage 110 of [andor (hidden flag)](../quests/andor.md#stage-110)
+    <span id="d-crossglen_valentina_andor_50"></span>**`crossglen_valentina_andor_50`** Valentina: “Yes, I think you should go to Brightport and seek him out. Maybe, just maybe, he could be helpful to us for once.” — **effects:** sets stage 110 of [Search for Andor](../quests/andor.md#stage-110)
 
     - “Thanks, mother. I will go to Brightport next.” → *conversation ends*
 
@@ -83,6 +87,15 @@
     - Next → [crossglen_valentina_andor_50](#d-crossglen_valentina_andor_50)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 11 lines added |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 2 lines changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

@@ -18,4 +18,13 @@
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 97 |
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 119 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `way_to_sullengard_east2a` · Data from v0.8.18</small>

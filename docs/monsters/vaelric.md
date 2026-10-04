@@ -29,6 +29,7 @@
 ## Quests
 
 - [Restless in the grave](../quests/mg_restless_grave.md): stages 20, 63, 70, 80, 95, 97, 115, 120
+- [Search for Andor](../quests/andor.md): stages 125, 999
 - [The swamp healer](../quests/swamp_healer.md): stages 10, 30
 - [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 59
 
@@ -38,7 +39,7 @@
 
     <span id="d-vaelric_selector"></span>**`vaelric_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 125 of [andor (hidden flag)](../quests/andor.md#stage-125))* → [vaelric_andor_10](#d-vaelric_andor_10)
+    - branch 1 *(if NOT reached stage 125 of [Search for Andor](../quests/andor.md#stage-125))* → [vaelric_andor_10](#d-vaelric_andor_10)
     - branch 2 *(if NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10))* → [vaelric_alone_10](#d-vaelric_alone_10)
     - branch 3 *(if latest stage of [The swamp healer](../quests/swamp_healer.md#stage-10) is 10)* → [vaelric_need_to_kill_creature_10](#d-vaelric_need_to_kill_creature_10)
     - branch 4 *(if latest stage of [The swamp healer](../quests/swamp_healer.md#stage-20) is 20)* → [vaelric_creature_killed_5](#d-vaelric_creature_killed_5)
@@ -134,7 +135,7 @@
     - Next *(if reached stage 115 of [Restless in the grave](../quests/mg_restless_grave.md#stage-115); carry 0× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md); NOT reached stage 18 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-18))* → [mg_vaelric_reward_45](#d-mg_vaelric_reward_45)
     - branch 5 → [mg_vaelric_reward_missing_ing_10](#d-mg_vaelric_reward_missing_ing_10)
 
-    <span id="d-vaelric_andor_22"></span>**`vaelric_andor_22`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999), sets stage 125 of [andor (hidden flag)](../quests/andor.md#stage-125)
+    <span id="d-vaelric_andor_22"></span>**`vaelric_andor_22`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [Search for Andor](../quests/andor.md#stage-999), sets stage 125 of [Search for Andor](../quests/andor.md#stage-125)
 
     - branch 1 → [vaelric_andor_30](#d-vaelric_andor_30)
 
@@ -192,7 +193,7 @@
 
     - “I don't?” → [mg_vaelric_reward_missing_ing_20](#d-mg_vaelric_reward_missing_ing_20)
 
-    <span id="d-vaelric_andor_30"></span>**`vaelric_andor_30`** Vaelric: “What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.” — **effects:** sets stage 999 of [andor (hidden flag)](../quests/andor.md#stage-999)
+    <span id="d-vaelric_andor_30"></span>**`vaelric_andor_30`** Vaelric: “What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.” — **effects:** sets stage 999 of [Search for Andor](../quests/andor.md#stage-999)
 
     - “Why are you living out here alone?” → [vaelric_alone_25](#d-vaelric_alone_25)
 
@@ -324,6 +325,16 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 68 lines added |
+| [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed<br>· text: “Interesting, but not helpful. Go back to search for something useful …” → “Interesting, but not helpful. Go back and search for something useful…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

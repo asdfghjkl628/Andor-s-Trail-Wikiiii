@@ -22,6 +22,8 @@
 
 None: talk to stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,6 +56,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-29"></span>29 | 29<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 30 | clears stage 30 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-30) |
 | <span id="stage-30"></span>30 | 30<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 11 | clears stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -142,6 +145,18 @@ No links to other quests were found in the dialogue conditions.
 
     1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11) → **stage 30**; also clears stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11). NPC: “Oh no, the raft has drifted off!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 23 lines added |
+| [v0.7.4](../versions/0.7.4.md) | Dialogue: 9 lines changed |
+| [v0.7.5](../versions/0.7.5.md) | Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

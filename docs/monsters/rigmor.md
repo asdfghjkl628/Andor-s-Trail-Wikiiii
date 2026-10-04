@@ -38,7 +38,7 @@
 
     <span id="d-rigmor_leave_select"></span>**`rigmor_leave_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 100 of [calomyran (hidden flag)](../quests/calomyran.md#stage-100))* → [rigmor_thanks](#d-rigmor_thanks)
+    - branch 1 *(if reached stage 100 of [Calomyran secrets](../quests/calomyran.md#stage-100))* → [rigmor_thanks](#d-rigmor_thanks)
     - branch 2 → *conversation ends*
 
     <span id="d-rigmor_lytwing_6"></span>**`rigmor_lytwing_6`** Rigmor: “The poor girl. She looks exhausted, and her hair is absolutely tousled. Will those lytwings never leave her alone?”
@@ -70,6 +70,16 @@
     - Next → [rigmor_lytwing_2](#d-rigmor_lytwing_2)
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

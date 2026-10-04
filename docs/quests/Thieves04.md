@@ -11,7 +11,7 @@
 | **NPCs involved** | [Defy](../monsters/g04_defy.md), [Matpat](../monsters/sullengard_matpat.md), [Mayor Ale](../monsters/sullengard_mayor.md), [Umar](../monsters/umar.md) |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [sullengard1_northeast_house](../maps/sullengard1_northeast_house.md), [sullengard1_townhall](../maps/sullengard1_townhall.md) |
 | **Total XP** | 35,000 |
-| **Related quests** | 3 |
+| **Related quests** | 4 |
 
 </div>
 
@@ -23,15 +23,18 @@
 
 Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)). Required:
 
-- reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51)
+- reached stage 51 of [Search for Andor](../quests/andor.md#stage-51)
 - latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-10) is 10
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
 
 | Relationship | Quest | Detail |
 |---|---|---|
+| Requires | [Search for Andor](andor.md#stage-51) | stage 51 reached, for stages 10, 30, 40, 60, 70, 80 here |
 | Requires | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-30) | stage 30 reached, for stage 80 here |
 | Mutually exclusive | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-30) | stage 30 must NOT be reached, for stage 70 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-20) | stage 20 there needs stage 10 here |
@@ -59,13 +62,14 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-75"></span>75 | Sullengard has been given their share of the gold and now it's time to revisit Umar.<br><span class="qnote">🗺️ Part of [Lake shore road 9](../maps/lake_shore_road_9.md) visibly changes.</span> | [Mayor Ale](../monsters/sullengard_mayor.md) ([sullengard1_townhall](../maps/sullengard1_townhall.md)) | – | sets stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30) |
 | <span id="stage-80"></span>80 | At last, Sullengard can now sleep calmly and eat sufficiently with their finances restored. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | 35,000 XP<br>faction “ThievesGuild” +10<br>gives 1× [Blade of the protector](../items/blade_protector.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
 
 ???+ note "Stage 10: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “You can count on me.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-10) is 10 → **stage 10**. NPC: “Hurry now. There's no time to waste.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “You can count on me.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-10) is 10 → **stage 10**. NPC: “Hurry now. There's no time to waste.”
 
 ???+ note "Stage 20: 1 route"
 
@@ -73,7 +77,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I don't know.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-20) is 20 → **stage 30**; also removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement. NPC: “Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I don't know.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-20) is 20 → **stage 30**; also removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement. NPC: “Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.”
 
 ???+ note "Stage 35: 1 route"
 
@@ -81,7 +85,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Defy and his men have left Sullengard.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-35) is 35 → **stage 40**. NPC: “He can't be gone without our share from the bootleg brewers.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Defy and his men have left Sullengard.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-35) is 35 → **stage 40**. NPC: “He can't be gone without our share from the bootleg brewers.”
 
 ???+ note "Stage 50: 1 route"
 
@@ -89,11 +93,11 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Matpat told me that Defy and his men left Sullengard.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-50) is 50 → **stage 60**. NPC: “This is madness! He betrayed us just like Crackshot did.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Matpat told me that Defy and his men left Sullengard.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-50) is 50 → **stage 60**. NPC: “This is madness! He betrayed us just like Crackshot did.”
 
 ???+ note "Stage 70: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “How can we earn that large amount of gold?” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30) → **stage 70**. NPC: “I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so…”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “How can we earn that large amount of gold?” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30) → **stage 70**. NPC: “I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so…”
 
 ???+ note "Stage 75: 1 route"
 
@@ -101,8 +105,22 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 ???+ note "Stage 80: 1 route"
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I have given them our promised share.” — **conditions:** reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51); NOT reached stage 80 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-80); reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30) → **stage 80**; also faction “ThievesGuild” +10, gives 1× [Blade of the protector](../items/blade_protector.md). NPC: “Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.”
+    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I have given them our promised share.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); NOT reached stage 80 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-80); reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30) → **stage 80**; also faction “ThievesGuild” +10, gives 1× [Blade of the protector](../items/blade_protector.md). NPC: “Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | renamed “Honor and plunder” → “Another ruthless Crackshot”; journal visibility changed; stages added: 10, 20, 30, 35, 40, 50, 60, 70, 80; stages removed: 5<br>Dialogue: 10 lines added |
+| [v0.8.4](../versions/0.8.4.md) | stages added: 75; stage 70 journal text changed<br>Dialogue: 3 lines changed<br>· text: “[Strange. Defy and his men are gone. Maybe they talked with the bootl…” → “Strange. Defy and his men are gone. Maybe they talked with the bootle…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “Thank you so much again, kid. You are just like your brother Andor.” → “Thank you so much again, kid. You are just like your brother Andor. A…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “Thank you. You are my only hope here. I don't trust those unlawful Fe…” → “Thank you. You are my only hope here. I don't trust those unlawful Fe…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

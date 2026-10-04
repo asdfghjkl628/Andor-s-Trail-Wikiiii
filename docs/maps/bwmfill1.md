@@ -20,9 +20,17 @@
 | [Rabid boar](../monsters/rabid_boar.md) | 20 |
 | [Wolf](../monsters/wolf.md) | 30 |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 |
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 |
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 |
 | [Gornaud](../monsters/gornaud.md) | 95 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.10](../versions/0.8.10.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `bwmfill1` · Data from v0.8.18</small>

@@ -637,6 +637,18 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Third, I will need a gland of poison from a creature called the Irdeg…” → “Third, I will need a gland of poison from a creature called the irdeg…”<br>· text: “Yes. Well .. for a fee of course.” → “Yes. Well ... for a fee of course.” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 36 lines added, 1 line changed |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 15 lines added, 2 lines changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

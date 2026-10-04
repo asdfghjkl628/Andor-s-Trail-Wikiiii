@@ -29,6 +29,8 @@
 
 - nothing
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -61,6 +63,7 @@
 | <span id="stage-70"></span>70 | I told Zimsko that I believe the gamblers are cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30, stage 50 | 500 XP |
 | <span id="stage-80"></span>80 | I told Zimsko that I believe the gamblers are not cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30 | 1,150 XP |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -112,6 +115,18 @@
 
     1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I gambled with them and I think they are playing fair.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30); reached stage 140 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140); NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50) → **stage 80**. NPC: “I still believe they are cheating. Thanks anyway.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 12 lines added |
+| [v0.7.13](../versions/0.7.13.md) | stage 45 journal text changed; stage 50 journal text changed; stage 70 XP 1000 → 500; stage 80 XP 800 → 1150<br>Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

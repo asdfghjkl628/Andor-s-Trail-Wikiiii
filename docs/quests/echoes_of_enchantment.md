@@ -32,6 +32,8 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 - hand over 1× [Rotten meat](../items/meat2.md)
 - hand over 1× [Bone](../items/bone.md)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -70,8 +72,9 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 | <span id="stage-13"></span>13 | After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit. | [Gamjee](../monsters/gamjee.md) ([gamjee_well_4_1](../maps/gamjee_well_4_1.md)) | stage 12, stage 5, stage 8 | gives 1× [Gamjee's rope](../items/gamjee_rope.md) |
 | <span id="stage-14"></span>14 | I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now. **(completes quest)** | [Godelieve](../monsters/village_godelieve.md) ([wexlow_village_nw_house](../maps/wexlow_village_nw_house.md)) | – | 500 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -128,6 +131,17 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 
     1. Talk to [Godelieve](../monsters/village_godelieve.md) ([wexlow_village_nw_house](../maps/wexlow_village_nw_house.md)) → choose “I'm just happy to see you guys safe.” — **conditions:** NOT reached stage 14 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-14) → **stage 14**. NPC: “I'm just happy to curl up with Godwin in our own bed tonight.”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 13 lines added |
+| [v0.8.13](../versions/0.8.13.md) | stage 1 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

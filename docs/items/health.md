@@ -16,20 +16,20 @@
 | [Irogotu](../monsters/irogotu.md) | 100% | 1 |
 | [Vacor](../monsters/vacor.md) | 100% | 1 |
 | [Unzel](../monsters/unzel.md) | 100% | 1 |
-| [Feygard scout](../monsters/ortholion_guard2.md) | 100% | 1-10 |
+| [Undead warden](../monsters/undead_warden.md) | 100% | 1 |
+| [Cave guardian](../monsters/cave_guardian.md) | 100% | 2 |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 3 |
+| [Maelveon](../monsters/maelveon.md) | 100% | 2 |
+| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 2 |
 | [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 5-7 |
 | [Gylew](../monsters/gylew.md) | 100% | 2-3 |
 | [Toszylae](../monsters/toszylae.md) | 100% | 5-7 |
 | [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1-2 |
 | [Algangror](../monsters/algangror.md) | 100% | 1-2 |
 | [Kaverin](../monsters/kaverin.md) | 100% | 1-2 |
-| [Maelveon](../monsters/maelveon.md) | 100% | 2 |
-| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 2 |
 | [Zortak leader](../monsters/zortakb.md) | 100% | 2 |
 | [Guardian of the bridge](../monsters/lbridge.md) | 100% | 3 |
-| [Undead warden](../monsters/undead_warden.md) | 100% | 1 |
-| [Cave guardian](../monsters/cave_guardian.md) | 100% | 2 |
-| [Winged demon](../monsters/winged_demon.md) | 100% | 3 |
+| [Feygard scout](../monsters/ortholion_guard2.md) | 100% | 1-10 |
 | [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1-2 |
 | [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1-2 |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 25% | 1 |
@@ -41,10 +41,12 @@
 | [Apparition](../monsters/apparition.md) | 25% | 1 |
 | [Shade](../monsters/shade.md) | 25% | 1 |
 | [Young gargoyle](../monsters/young_gargoyle.md) | 25% | 1 |
-| [Sleepless taint](../monsters/sleepless_taint.md) | 25% | 2-3 |
-| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 25% | 1 |
-| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 25% | 1 |
-| [Luthor's skeleton guard](../monsters/tt_monster3.md) | 25% | 1 |
+| [Bone warrior](../monsters/bone_warrior.md) | 25% | 1 |
+| [Bone champion](../monsters/bone_champion.md) | 25% | 1 |
+| [Rotting corpse](../monsters/rotting_corpse.md) | 25% | 1 |
+| [Walking corpse](../monsters/walking_corpse.md) | 25% | 1 |
+| [Gargoyle](../monsters/gargoyle.md) | 25% | 1 |
+| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 25% | 1 |
 | [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 25% | 1 |
 | [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 25% | 1 |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 25% | 1 |
@@ -54,17 +56,12 @@
 | [Corrupted zombie](../monsters/zombie5.md) | 25% | 1 |
 | [Bloodthirsty zombie](../monsters/zombie6.md) | 25% | 1 |
 | [Tainted zombie](../monsters/zombie7.md) | 25% | 1 |
-| [Bone warrior](../monsters/bone_warrior.md) | 25% | 1 |
-| [Bone champion](../monsters/bone_champion.md) | 25% | 1 |
-| [Rotting corpse](../monsters/rotting_corpse.md) | 25% | 1 |
-| [Walking corpse](../monsters/walking_corpse.md) | 25% | 1 |
-| [Gargoyle](../monsters/gargoyle.md) | 25% | 1 |
-| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 25% | 1 |
+| [Sleepless taint](../monsters/sleepless_taint.md) | 25% | 2-3 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 25% | 1 |
+| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 25% | 1 |
+| [Luthor's skeleton guard](../monsters/tt_monster3.md) | 25% | 1 |
 | [Drakthorn](../monsters/drakthorn.md) | 12% | 1 |
 | [Drakthorn warrior](../monsters/drakthorn_warrior.md) | 12% | 1-2 |
-| [Spitfire bug](../monsters/spitfire_bug.md) | 10% | 1 |
-| [Young spitfire bug](../monsters/young_spitfire_bug.md) | 10% | 1 |
-| [Plaguestrider master](../monsters/plaguesp_13.md) | 10% | 0-1 |
 | [White wyrm](../monsters/white_wyrm.md) | 10% | 1-2 |
 | [Young aulaeth](../monsters/young_aulaeth.md) | 10% | 1-2 |
 | [Aulaeth](../monsters/aulaeth.md) | 10% | 1-2 |
@@ -72,6 +69,7 @@
 | [Restless apparition](../monsters/restless_apparition.md) | 10% | 1 |
 | [Skeletal reaper](../monsters/skeletal_reaper.md) | 10% | 1 |
 | [Kazaul imp](../monsters/kazaul_imp.md) | 10% | 1 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | 10% | 0-1 |
 | [Branchtender](../monsters/brtender1.md) | 10% | 1 |
 | [Frantic branchtender](../monsters/brtender2.md) | 10% | 1 |
 | [Zortak scout](../monsters/zortak1.md) | 10% | 1 |
@@ -84,6 +82,8 @@
 | [Morkin guard](../monsters/morkin4.md) | 10% | 1 |
 | [Morkin berserker](../monsters/morkin5.md) | 10% | 1 |
 | [Morkin leader](../monsters/morkin6.md) | 10% | 1 |
+| [Spitfire bug](../monsters/spitfire_bug.md) | 10% | 1 |
+| [Young spitfire bug](../monsters/young_spitfire_bug.md) | 10% | 1 |
 | [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1-3 |
 | [Iqhan chaos master](../monsters/iqhan_ch_3b.md) | 5% | 1-3 |
 | [Iqhan chaos beast](../monsters/iqhan_chb_1a.md) | 5% | 1 |
@@ -96,20 +96,30 @@
 
 ## Sold by
 
-- [Stiyl](../monsters/brightportpriest1.md)
 - [Tharal](../monsters/tharal.md)
 - [Potion merchant](../monsters/potion_merchant.md)
-- [Feygard scout](../monsters/ortholion_guard6.md)
-- [Yolgen](../monsters/yolgen.md)
-- [Blornvale](../monsters/stoutford_alchemist.md)
-- [Blornvale](../monsters/stoutford_alchemist2.md)
-- [Kealwea](../monsters/sullengard_priest.md)
-- [Talion](../monsters/talion.md)
-- [Skylenar](../monsters/skylenar.md)
 - [Jolnor](../monsters/jolnor.md)
 - [Alynndir](../monsters/alynndir.md)
 - [Birgil](../monsters/birgil.md)
 - [Samar](../monsters/samar.md)
 - [Mazeg](../monsters/mazeg.md)
+- [Talion](../monsters/talion.md)
+- [Skylenar](../monsters/skylenar.md)
+- [Yolgen](../monsters/yolgen.md)
+- [Blornvale](../monsters/stoutford_alchemist.md)
+- [Blornvale](../monsters/stoutford_alchemist2.md)
+- [Feygard scout](../monsters/ortholion_guard6.md)
+- [Kealwea](../monsters/sullengard_priest.md)
+- [Stiyl](../monsters/brightportpriest1.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `health` · Data from v0.8.18</small>

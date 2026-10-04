@@ -257,6 +257,20 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines added, 2 lines changed |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “I see you walking up a path on a mountain. Beware! There is something…” → “I see you walking up a path on a mountain. Beware! There is something…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 20 lines added, 1 line changed<br>· text: “Welcome back.” → “null” |
+| [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

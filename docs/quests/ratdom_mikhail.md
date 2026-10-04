@@ -35,6 +35,8 @@
 - reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950)
 - NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -67,6 +69,7 @@
 | <span id="stage-74"></span>74 | I gave a bread to Gruiik.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | hand over 1× [Bread](../items/bread.md), stage 20, stage 70 | 200 XP |
 | <span id="stage-90"></span>90 | The huge rat ignored me after he had got the bread. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | stage 70, stage 74 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -128,6 +131,18 @@
     2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “Hey - I have brought some bread already.” — **conditions:** reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); reached stage 74 of [More rats!](../quests/ratdom_mikhail.md#stage-74) → **stage 90**. NPC: “Good! Now I don't need you anymore!”
     3. stepping on a trigger on [home](../maps/home.md) → choose “Hey - I have brought some bread already.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); reached stage 74 of [More rats!](../quests/ratdom_mikhail.md#stage-74) → **stage 90**. NPC: “Good! Now I don't need you anymore!”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 11 lines added |
+| [v0.8.6.1](../versions/0.8.6.1.md) | Dialogue: 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | stage 10 journal text changed; stage 20 journal text changed; stage 30 journal text changed; stage 32 journal text changed; stage 52 journal text changed; stage 54 journal text changed (+3 more) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

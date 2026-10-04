@@ -17,9 +17,18 @@
 |---|---|
 | [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 30 |
 | [Tough cave serpent](../monsters/tough_cave_serpent.md) | 40 |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `basiliskcave1_1_5` · Data from v0.8.18</small>

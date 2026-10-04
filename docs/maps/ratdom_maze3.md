@@ -19,4 +19,13 @@
 | [Cave rat](../monsters/cave_rat.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `ratdom_maze3` · Data from v0.8.18</small>

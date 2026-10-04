@@ -23,6 +23,8 @@
 
 None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,6 +49,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 | <span id="stage-100"></span>100 | I will not help Algangror with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 15 | – |
 | <span id="stage-101"></span>101 | Algangror won't talk to me, and I will be unable to help her with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 10, stage 15, stage 21 | – |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -80,6 +83,17 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
     1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “I am sent by Jhaeld to end whatever it is you do to the people of Remgard.” — **conditions:** reached stage 15 of [Of mice and men](../quests/algangror.md#stage-15); reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21); reached stage 10 of [Of mice and men](../quests/algangror.md#stage-10) → **stage 101**
     2. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Of mice and men](../quests/algangror.md#stage-21); reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10); reached stage 10 of [Of mice and men](../quests/algangror.md#stage-10) → **stage 101**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “That's where you come in. Would you be willing to .. ahem .. handle t…” → “That's where you come in. Would you be willing to ... ahem ... handle…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

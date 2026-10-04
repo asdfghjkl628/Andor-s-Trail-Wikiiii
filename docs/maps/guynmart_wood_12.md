@@ -24,4 +24,16 @@ Northwest: Feygard" style="left:10.000%;top:20.000%;width:3.333%;height:6.667%">
 | [Vicious hound](../monsters/vicious_hound.md) | 31 |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 |
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <small>Map ID: `guynmart_wood_12` · Data from v0.8.18</small>

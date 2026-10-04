@@ -11,7 +11,7 @@
 | **NPCs involved** | [Bryma](../monsters/brightportnpc7.md), [Long-tail-dominio](../monsters/brightport_lizardpriest.md), [Mysterious lizard creature](../monsters/brightport_emyro.md), [Three-fang-elyzard](../monsters/brightport_lizardking.md) |
 | **Locations** | [brightport_cave1](../maps/brightport_cave1.md), [brightport_cave10](../maps/brightport_cave10.md), [brightport_forest](../maps/brightport_forest.md), [brightport_lizard1](../maps/brightport_lizard1.md) |
 | **Total XP** | 50,000 |
-| **Related quests** | 2 |
+| **Related quests** | 3 |
 
 </div>
 
@@ -29,6 +29,8 @@
 
 - NOT reached stage 113 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-113)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +52,7 @@
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-120) | stage 120 must NOT be reached, for stage 35 here |
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-124) | stage 124 must NOT be reached, for stages 75, 80 here |
 | Mutually exclusive | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-125) | stage 125 must NOT be reached, for stages 75, 80 here |
+| Unlocks | [Search for Andor](andor.md#stage-132) | stage 132 there needs stage 10 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-105) | stage 105 there needs stage 10 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-106) | stage 106 there needs stage 10 here |
 | Unlocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-107) | stage 107 there needs stage 10 here |
@@ -94,8 +97,9 @@
 | <span id="stage-100"></span>100 | Bryma agreed to stop intruding on the lizardmen's tomb, as they promised to supply her with bones for her research. **(completes quest)** | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | stage 10, stage 90, stage 95 | 23,000 XP<br>gives 2× [Essence concentrate potion](../items/brightport_bonemeal.md)<br>sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112) |
 | <span id="stage-110"></span>110 | Bryma agreed to stop intruding on the lizardmen's tomb. **(completes quest)** | [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) | stage 10, stage 90 | 15,000 XP<br>gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md)<br>sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112) |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -194,6 +198,17 @@
 
     1. Talk to [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) → choose “I've solved the main problem. That should be the least of your issues now.” — **conditions:** reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112); reached stage 90 of [The balance of scales](../quests/brightport_lizard.md#stage-90); NOT reached stage 95 of [The balance of scales](../quests/brightport_lizard.md#stage-95) → **stage 110**; also gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md), sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112). NPC: “You're right. I can figure the rest out, $playername. I don't have much to offer, except one of my special potions. I…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 23 lines added |
+| [v0.8.18](../versions/0.8.18.md) | stage 55 journal text changed<br>Dialogue: 1 line changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

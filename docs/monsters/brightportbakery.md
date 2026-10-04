@@ -28,7 +28,7 @@
 
     <span id="d-brightport_hortensia"></span>**`brightport_hortensia`** Hortensia: “Hello, today's astronomy class at the Academy will be held in the evening, you musn't miss it.”
 
-    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
+    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
     - “Academy, where is that?” *(if NOT reached stage 231 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-231))* → [brightport_hortensia3](#d-brightport_hortensia3)
     - “Sorry to disturb your meal. [Leave]” → *conversation ends*
 
@@ -38,7 +38,7 @@
 
     <span id="d-brightport_hortensia3"></span>**`brightport_hortensia3`** Hortensia: “It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you were a student. Head to the western part of town, and you will find it.”
 
-    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [andor_ending (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
+    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
     - “Thanks, bye.” → *conversation ends*
 
     <span id="d-brightport_hortensia2"></span>**`brightport_hortensia2`** Hortensia: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find him soon.” — **effects:** sets stage 35 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-35)
@@ -46,6 +46,14 @@
     - “I hope so too.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

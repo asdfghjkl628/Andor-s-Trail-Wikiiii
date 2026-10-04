@@ -524,6 +524,17 @@
 
 
 
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “Because of our previous .. misunderstanding, I think it's best they d…” → “Because of our previous ... misunderstanding, I think it's best they …”<br>· text: “You return. Thank you for helping me with my .. ahem .. rodent proble…” → “You return. Thank you for helping me with my ... ahem ... rodent prob…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>

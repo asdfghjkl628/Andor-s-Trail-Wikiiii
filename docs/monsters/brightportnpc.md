@@ -21,6 +21,7 @@
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 20, 25, 110
+- [Search for Andor](../quests/andor.md): stages 126, 127, 128
 - [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 70
 
 ??? quote "Dialogue (37 lines)"
@@ -29,9 +30,9 @@
 
     <span id="d-brightport_stanwick_selector"></span>**`brightport_stanwick_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 128 of [andor (hidden flag)](../quests/andor.md#stage-128))* → [brightport_stanwick_common](#d-brightport_stanwick_common)
-    - Next *(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of [andor (hidden flag)](../quests/andor.md#stage-128))* → [brightport_stanwick_andor0](#d-brightport_stanwick_andor0)
-    - Next *(if reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70); NOT reached stage 128 of [andor (hidden flag)](../quests/andor.md#stage-128))* → [brightport_stanwick_end](#d-brightport_stanwick_end)
+    - Next *(if reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_common](#d-brightport_stanwick_common)
+    - Next *(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_andor0](#d-brightport_stanwick_andor0)
+    - Next *(if reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70); NOT reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_end](#d-brightport_stanwick_end)
     - Next *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70))* → [brightport_stanwick12](#d-brightport_stanwick12)
     - Next *(if reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); NOT reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25))* → [brightport_stanwick7](#d-brightport_stanwick7)
     - Next *(if NOT reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15))* → [brightport_stanwick1](#d-brightport_stanwick1)
@@ -57,7 +58,7 @@
     - “I have these fruits for you.” *(if hand over 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md))* → [brightport_stanwick_fruit](#d-brightport_stanwick_fruit)
     - “I'm still investigating. [Leave]” → *conversation ends*
 
-    <span id="d-brightport_stanwick7"></span>**`brightport_stanwick7`** Stanwick: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.” — **effects:** sets stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20), sets stage 126 of [andor (hidden flag)](../quests/andor.md#stage-126)
+    <span id="d-brightport_stanwick7"></span>**`brightport_stanwick7`** Stanwick: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.” — **effects:** sets stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20), sets stage 126 of [Search for Andor](../quests/andor.md#stage-126)
 
     - Next → [brightport_stanwick8](#d-brightport_stanwick8)
 
@@ -70,7 +71,7 @@
 
     - Next → [brightport_stanwick_andor2](#d-brightport_stanwick_andor2)
 
-    <span id="d-brightport_stanwick_andor"></span>**`brightport_stanwick_andor`** Stanwick: “Once I collect my memories I will tell you about Andor. Please come back in a few minutes.” — **effects:** sets stage 127 of [andor (hidden flag)](../quests/andor.md#stage-127), starts timer “stanwick”
+    <span id="d-brightport_stanwick_andor"></span>**`brightport_stanwick_andor`** Stanwick: “Once I collect my memories I will tell you about Andor. Please come back in a few minutes.” — **effects:** sets stage 127 of [Search for Andor](../quests/andor.md#stage-127), starts timer “stanwick”
 
 
     <span id="d-brightport_stanwick13"></span>**`brightport_stanwick13`** Stanwick: “I gave the headmaster my library key. You should try asking him.”
@@ -166,7 +167,7 @@
     <span id="d-brightport_stanwick_andor5"></span>**`brightport_stanwick_andor5`** Stanwick: “Yeah, just as I thought. There's a strange connection I feel between Andor going missing and Nor City. I mean, you've heard what those Feygard folk say about it. Those who've been there know it's not true, but the others always call it a…”
 
     - “Do you think Andor went there?” → [brightport_stanwick_andor6](#d-brightport_stanwick_andor6)
-    - “I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]” *(if reached stage 72 of [andor (hidden flag)](../quests/andor.md#stage-72))* → [brightport_stanwick_andor8](#d-brightport_stanwick_andor8)
+    - “I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72))* → [brightport_stanwick_andor8](#d-brightport_stanwick_andor8)
 
     <span id="d-brightport_stanwick_andor6"></span>**`brightport_stanwick_andor6`** Stanwick: “Perhaps. We've spent hours discussing the visage of the city as you approach its gates, the craftsmen and merchants going about. Even the unsavory buildings which add to the charm. We've spent equal amounts reading about Feygard, but if…”
 
@@ -180,12 +181,21 @@
 
     - Next → [brightport_stanwick_andor9](#d-brightport_stanwick_andor9)
 
-    <span id="d-brightport_stanwick_andor9"></span>**`brightport_stanwick_andor9`** Stanwick: “This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.” — **effects:** sets stage 128 of [andor (hidden flag)](../quests/andor.md#stage-128), gives 1× [Stanwick's signet ring](../items/brightport_ring.md)
+    <span id="d-brightport_stanwick_andor9"></span>**`brightport_stanwick_andor9`** Stanwick: “This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.” — **effects:** sets stage 128 of [Search for Andor](../quests/andor.md#stage-128), gives 1× [Stanwick's signet ring](../items/brightport_ring.md)
 
     - “Thank you Stanwick, see you later!” → *conversation ends*
     - “It was worth the trouble.” → *conversation ends*
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 37 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “What this Lodar man told you lines up with what I've said, without a …” → “What this Lodar man told you lines up with what I've said, without a …” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

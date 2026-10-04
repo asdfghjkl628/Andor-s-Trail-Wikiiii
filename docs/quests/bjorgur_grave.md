@@ -24,6 +24,8 @@ Start with [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/bl
 
 - reached stage 15 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-15)
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -43,6 +45,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-51"></span>51 | I have told Fulus that I helped Bjorgur return his family dagger to its original place. | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | – | – |
 | <span id="stage-60"></span>60 | I have given Bjorgur's family dagger to Fulus. He thanked me for bringing it to him, and rewarded me handsomely. **(completes quest)** | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md), stage 20 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -79,6 +82,17 @@ No links to other quests were found in the dialogue conditions.
 
     1. Talk to [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) → choose “Yes. Here it is.” — **conditions:** reached stage 20 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-20); hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md) → **stage 60**; also gives [Gold coins](../items/gold.md). NPC: “Oh wow, you actually managed to get the dagger? Thank you kid. This is worth a lot. Here, take these coins as…”
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

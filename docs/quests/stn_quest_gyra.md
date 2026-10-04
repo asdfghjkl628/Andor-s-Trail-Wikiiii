@@ -23,6 +23,8 @@
 
 None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) to begin.
 
+
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -59,8 +61,9 @@ None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogal
 | <span id="stage-170"></span>170 | Odirath thanked you many thousands of times. **(completes quest)** | [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | stage 60, stage 99 | 2,500 XP |
 | <span id="stage-199"></span>199 | Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster. **(completes quest)** | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md), stage 70 | 200 XP |
 
-<span id="untraced"></span>*No trigger*: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.*
@@ -119,6 +122,17 @@ None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogal
 
     1. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I give up.” — **conditions:** reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md); reached stage 70 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-70) → **stage 199**
 
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 11 lines added |
+| [v0.8.14](../versions/0.8.14.md) | stages added: 5, 80; stage 170 journal text changed<br>Dialogue: 2 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

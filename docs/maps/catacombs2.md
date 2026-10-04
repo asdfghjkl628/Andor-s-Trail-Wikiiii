@@ -15,9 +15,20 @@
 
 | Name | HP |
 |---|---|
-| [Catacomb rat](../monsters/catacomb_rat.md) | 15 |
 | [Spectre](../monsters/spectre.md) | 15 |
+| [Catacomb rat](../monsters/catacomb_rat.md) | 15 |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 |
 | [Large catacomb rat](../monsters/large_catacomb_rat.md) | 21 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `catacombs2` · Data from v0.8.18</small>

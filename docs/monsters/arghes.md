@@ -38,7 +38,7 @@
 
     <span id="d-arghes"></span>**`arghes`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 51 of [andor (hidden flag)](../quests/andor.md#stage-51))* → [arghes_2](#d-arghes_2)
+    - branch 1 *(if reached stage 51 of [Search for Andor](../quests/andor.md#stage-51))* → [arghes_2](#d-arghes_2)
     - branch 2 → [arghes_1](#d-arghes_1)
 
     <span id="d-arghes_2"></span>**`arghes_2`** Arghes: “How interesting. The child from Fallhaven, here in Remgard?”
@@ -93,6 +93,16 @@
 
 
 
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…”<br>· text: “No, I cannot tell you anything at this time. You are welcome to retur…” → “No, I cannot tell you anything at this time. You are welcome to retur…” |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 ## Community notes
 

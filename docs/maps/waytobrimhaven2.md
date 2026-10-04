@@ -16,14 +16,29 @@
 
 | Name | HP |
 |---|---|
-| [Tamarukh](../monsters/tamarukh.md) | 0 |
 | [Churrie](../monsters/churrie.md) | 0 |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
+| [Tamarukh](../monsters/tamarukh.md) | 0 |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Bone champion](../monsters/bone_champion.md) | 49 |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 |
 | [Vile erumen lizard](../monsters/erumen_5.md) | 89 |
 | [Tough erumen lizard](../monsters/erumen_6.md) | 91 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.7.15](../versions/0.7.15.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `waytobrimhaven2` · Data from v0.8.18</small>

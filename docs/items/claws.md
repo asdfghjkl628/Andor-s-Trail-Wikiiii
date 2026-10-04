@@ -6,10 +6,10 @@
 
 | Monster | Chance | Qty |
 |---|---|---|
-| [Madame Mim](../monsters/swamp_witch_shop.md) | 100% | 5-8 |
 | [Zuul'khan](../monsters/zuul_khan3.md) | 100% | 1-2 |
-| [Duleian panther](../monsters/brightport_cat2.md) | 40% | 2-5 |
+| [Madame Mim](../monsters/swamp_witch_shop.md) | 100% | 5-8 |
 | [Duleian mountain cat](../monsters/duleian_mountain_cat.md) | 40% | 2-5 |
+| [Duleian panther](../monsters/brightport_cat2.md) | 40% | 2-5 |
 | [Aggressive bear](../monsters/cave_bear.md) | 35% | 1-2 |
 | [Contaminated woodworm](../monsters/elm_woodworm.md) | 33.3333% | 1 |
 | [Aggresive woodworm](../monsters/elm_woodworm2.md) | 33.3333% | 1 |
@@ -21,5 +21,15 @@
 ## Sold by
 
 - [General's henchman](../monsters/ortholion_guard1.md)
+
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Item ID: `claws` · Data from v0.8.18</small>

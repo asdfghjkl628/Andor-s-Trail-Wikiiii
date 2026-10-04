@@ -35,8 +35,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Ambelie](ambelie.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_84.png){ .sprite } | [Anakis](anakis.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } | [Anavrin](anavrin.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } | [Andor](dds_andor.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } | [Andor](lae_andor2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } | [Andor](dds_andor.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } | [Andor](mg2_andor.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_23.png){ .sprite } | [Androni](brightport_chef.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Arambold](arambold.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -119,6 +119,15 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Bryma](brightportnpc7.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Bucus](bucus.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } | [Builder](stoutford_builder.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd6.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd7.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd8.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd9.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -141,18 +150,9 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd20.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd21.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd22.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd6.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd7.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd8.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](stn_burhczyd9.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Busy farmer](busy_farmer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Busy farmer](fallhaven_outdoor_farmer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Busy farmer](stoutford_farmer2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Busy farmer](fallhaven_outdoor_farmer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_7.png){ .sprite } | [Butcher](brv_butcher.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } | [Cadoren](stoutford_cook.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_145.png){ .sprite } | [Caeda](caeda.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -168,8 +168,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Centaur](lae_centaur.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Chael](chael.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/items_misc_2_238.png){ .sprite } | [Chandelier](brv_wh_item_44.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik6_39.png){ .sprite } | [Chapel guard](sullengard_church_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_78.png){ .sprite } | [Chapel guard](loneford_chapelguard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik6_39.png){ .sprite } | [Chapel guard](sullengard_church_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } | [Chapelgoer ](brightportchurch.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_81.png){ .sprite } | [Charybdis](ll2_whirl.md) | construct | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_81.png){ .sprite } | [Charybdis](ll2_whirl_return.md) | construct | 0 | 0 | 0 | 0 | 0 | – |
@@ -185,6 +185,16 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Clevred](ratdom_rat_bwm1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Clevred](ratdom_rat_crossglen.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_37.png){ .sprite } | [Colonel Lutarc](stn_colonel.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Commoner](rg_villager1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Commoner](rg_villager2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } | [Commoner](rg_villager3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_164.png){ .sprite } | [Commoner](rg_villager4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } | [Commoner](rg_villager5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } | [Commoner](rg_villager6.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } | [Commoner](rg_villager7.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rltiles3_18.png){ .sprite } | [Commoner](rg_villager8.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Commoner](stoutford_commoner.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } | [Commoner](stoutford_commoner2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Commoner](brv_villager1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Commoner](brv_villager2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Commoner](brv_villager4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -197,16 +207,6 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_82.png){ .sprite } | [Commoner](brv_villager11.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik1_60.png){ .sprite } | [Commoner](brv_villager14.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } | [Commoner](brv_villager15.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Commoner](stoutford_commoner.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } | [Commoner](stoutford_commoner2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Commoner](rg_villager1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Commoner](rg_villager2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } | [Commoner](rg_villager3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_164.png){ .sprite } | [Commoner](rg_villager4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } | [Commoner](rg_villager5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } | [Commoner](rg_villager6.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } | [Commoner](rg_villager7.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles3_18.png){ .sprite } | [Commoner](rg_villager8.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } | [Confused ghost](bogsten_ghost5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Conren](conren.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_29.png){ .sprite } | [Cornith](stoutford_smith.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -218,13 +218,13 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/items_japozero_227.png){ .sprite } | [Crystal globe](brv_wh_item_40.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Cuned](cuned.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Curwen](sullengard_courtyard_boy.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_119.png){ .sprite } | [Customer](brv_tavern1_guest.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_35.png){ .sprite } | [Customer](stoutford_drinker_1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Customer](stoutford_drinker_2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_119.png){ .sprite } | [Customer](brv_tavern1_guest.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite } | [Cymbalist](erwyn_skel_cymbal.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite } | [Cymbalist](ratdom_skel_cymb.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite } | [Cymbalist](ratdom_skel_cymb1.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_46.png){ .sprite } | [Cymbalist](ratdom_skel_cymb2.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite } | [Cymbalist](erwyn_skel_cymbal.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik8_28.png){ .sprite } | [Dancing skeleton](ratdom_skel_dance1.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik8_29.png){ .sprite } | [Dancing skeleton](ratdom_skel_dance2.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik8_30.png){ .sprite } | [Dancing skeleton](ratdom_skel_dance3.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
@@ -242,25 +242,25 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld2_238.png){ .sprite } | [Dark watch](lae_demon9_safe.md) | demon | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Dealer](brv_blackjack_dealer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik2_39.png){ .sprite } | [Deebo](deebo_orchard_deebo.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } | [Defy](g04_defy.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } | [Defy](aidem_camp_defy.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } | [Defy](defy_wild6house.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } | [Defy](aidem_jail_defy.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } | [Defy](g04_defy.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_195.png){ .sprite } | [Delon](brightportnpc10.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } | [Dibella](brightportnpc3.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_86.png){ .sprite } | [Dietrich](brightportstudent7.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Digiani](brightportbakeryvisitor.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Dog](guynmart_dog10.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_dogs_0.png){ .sprite } | [Dog](petdog.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Dog](guynmart_dog10.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } | [Drashad](drashad.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Drendolas](brightport_studentghost1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Drinking brother](sullengard_drinking_brother.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_35.png){ .sprite } | [Drinking brother](sullengard_drinking_brother2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_97.png){ .sprite } | [Drinking brother](sullengard_drinking_brother3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite } | [Drummer](erwyn_skel_drum.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite } | [Drummer](ratdom_skel_drum.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite } | [Drummer](ratdom_skel_drum1.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_44.png){ .sprite } | [Drummer](ratdom_skel_drum2.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite } | [Drummer](erwyn_skel_drum.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Drunk](drunk.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Drunkard](drunkard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Drunken Feygard patrol](ortholion_guard11.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -313,10 +313,10 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld2_67.png){ .sprite } | [Farm horse](farm_horse.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_64.png){ .sprite } | [Farm horse](farm_horse_right.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Farmer](farmer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } | [Farmer](stouford_farmer2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Farmer](loneford_farmer0.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } | [Farmer](remgard_farmer1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_220.png){ .sprite } | [Farmer](remgard_farmer2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } | [Farmer](stouford_farmer2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Farrik](farrik.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_5.png){ .sprite } | [Favlon](dds_favlon.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } | [Fayvara](fayvara0.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
@@ -337,18 +337,18 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Feygard soldier](patrol2_roaming.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Feygard soldier](patrol2_captain.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_219.png){ .sprite } | [Fiamma](brightportsmith.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } | [Fish](brv_fish1.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } | [Fish](brv_fish2.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } | [Fish](guynmart_fish1.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/items_misc_2_180.png){ .sprite } | [Fish](guynmart_fish2.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } | [Fish](brv_fish1.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } | [Fish](brv_fish2.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rltiles1_147.png){ .sprite } | [Fish](ratdom_water_fish1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_snakes_0.png){ .sprite } | [Fish](ratdom_water_fish2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish1.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish2.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish3.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish4.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish5.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_nut_18.png){ .sprite } | [Fish](ll2_fish6.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles1_147.png){ .sprite } | [Fish](ratdom_water_fish1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_snakes_0.png){ .sprite } | [Fish](ratdom_water_fish2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_115.png){ .sprite } | [Fisherman](brv_fisher.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_122.png){ .sprite } | [Fjoerkard](guynmart_drunkard1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_122.png){ .sprite } | [Fjoerkard](guynmart_drunkard5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -425,13 +425,7 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Gruil](gruil.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_5.png){ .sprite } | [Grumpy Vilegard villager](grumpy_vilegard_villager.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_2.png){ .sprite } | [Grumpy citizen](grumpy_citizen.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles1_69.png){ .sprite } | [Guard](brv_tavern_west_guard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](brv_exit_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](brv_prison_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Guard](brv_shop_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](guard_advent.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Guard](guard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik2_44.png){ .sprite } | [Guard](flagstone_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Guard](crossroads_backguard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Guard](crossroads_guard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Guard](crossroads_sleepguard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -441,6 +435,12 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_5.png){ .sprite } | [Guard](remgard_g2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_67.png){ .sprite } | [Guard](remgard_g3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_114.png){ .sprite } | [Guard](charwd_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik2_44.png){ .sprite } | [Guard](flagstone_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rltiles1_69.png){ .sprite } | [Guard](brv_tavern_west_guard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](brv_exit_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](brv_prison_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Guard](brv_shop_guard.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Guard](guard_advent.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Guard 1](brightportguardcrate1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Guard 2](brightportguardcrate2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Guard captain](warden.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -492,10 +492,10 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Hofala](guynmart_cook.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik10_48.png){ .sprite } | [Honey bee](honey_bee.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_9.png){ .sprite } | [Horfael](ratdom_rat_pub_owner.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_fatboy73_43.png){ .sprite } | [Horn player](erwyn_skel_hornet.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_43.png){ .sprite } | [Horn player](ratdom_skel_horn.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_43.png){ .sprite } | [Horn player](ratdom_skel_horn1.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_42.png){ .sprite } | [Horn player](ratdom_skel_horn2.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_fatboy73_43.png){ .sprite } | [Horn player](erwyn_skel_hornet.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_66.png){ .sprite } | [Horse](guynmart_horse.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_66.png){ .sprite } | [Horse](stn_horse.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld_edit_3.png){ .sprite } | [Hortensia](brightportbakery.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
@@ -519,9 +519,9 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Jerelin](jerelin.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Jerelin](jerelin_b.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_106.png){ .sprite } | [Jern](prim_bar_regular.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } | [Jhaeld](jhaeld.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } | [Jhaeld](lae_jhaeld1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } | [Jhaeld](lae_jhaeld2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } | [Jhaeld](jhaeld.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } | [Jolnor](jolnor.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_0.png){ .sprite } | [Jueth](jueth.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_185.png){ .sprite } | [Juttarka](juttarka.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
@@ -538,6 +538,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } | [Khorailla](khorailla_cheddar.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Khorand](khorand.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Kizzo](loneford_tavern_patron.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](elythom_kn1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](elythom_kn2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd1e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd2e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd3e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -560,8 +562,6 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd20e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd21e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd22e.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](elythom_kn1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](elythom_kn2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } | [Krell](krell.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_85.png){ .sprite } | [Kuldan](kuldan.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Kuldan's guard](kuldan_guard.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -613,10 +613,10 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Lovis](guynmart_lovis.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Lovis](guynmart_lovis2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Lowyna](lowyna.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_fatboy73_41.png){ .sprite } | [Lutenist](erwyn_skel_lute.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_41.png){ .sprite } | [Lutenist](ratdom_skel_lute.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_41.png){ .sprite } | [Lutenist](ratdom_skel_lute1.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_fatboy73_40.png){ .sprite } | [Lutenist](ratdom_skel_lute2.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_fatboy73_41.png){ .sprite } | [Lutenist](erwyn_skel_lute.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Lyra, the centaur](lae_centaur8.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/items_japozero_368.png){ .sprite } | [Lyre](brv_wh_item_42.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_203.png){ .sprite } | [Lytwing](lytwing_fallhaven.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -643,8 +643,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Moriath](moriath.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik5_10.png){ .sprite } | [Morvath](morvath.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } | [Mother](brv_villager12.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Mourning woman](dds_mourning_woman.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Mourning woman](chapelgoer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Mourning woman](dds_mourning_woman.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Moyra](moyra.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_49.png){ .sprite } | [Mustura](brv_guard_captain.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_gisons_13.png){ .sprite } | [Myrelis](mg_myrelis.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -688,13 +688,13 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Oluag](oluag.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_cats_0.png){ .sprite } | [Orange cat](orange_cat.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Orion, the centaur](lae_centaur1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_behind_inn_help.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_behind_haystack_help.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_basement_help.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_behind_inn.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_behind_haystack.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir_basement.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Ortholion's henchman](ortholion_guard9.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_113.png){ .sprite } | [Os](brute_creator.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_114.png){ .sprite } | [Oseanpry](Brightportthieves5.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
@@ -722,8 +722,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_205.png){ .sprite } | [Philippa](troll_hollow_philippa.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_205.png){ .sprite } | [Philippa](village_philippa.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Pickpocket](pickpocket.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Pig](ll2_circe_pig.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Pig](pig.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Pig](ll2_circe_pig.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Pink marble](guynmart_marble3.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Pixtumn](quiet_thief.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Pixtumn](quiet_thief_1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -740,8 +740,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } | [Polyphem](polyphem_door.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_137.png){ .sprite } | [Pond fish](pond_fish.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Potion merchant](potion_merchant.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Praying woman](brightportchurch1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Praying woman](stoutford_worshiper.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Praying woman](brightportchurch1.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/items_misc_5_15.png){ .sprite } | [Pretty porcelain figure](brv_wh_item_47.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_newb_1_223.png){ .sprite } | [Preying bird](preying_bird.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_88.png){ .sprite } | [Prim armorer](prim_armorer.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -864,9 +864,9 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } | [Talion](talion.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_141.png){ .sprite } | [Tamarukh](tamarukh.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Taret](taret.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Tavern guest](tavern_guest.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Tavern guest](remgard_d1.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } | [Tavern guest](remgard_d2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Tavern guest](tavern_guest.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Taylin](taylin.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_230.png){ .sprite } | [Teccow](mg2_starwatcher.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik2_71.png){ .sprite } | [Teksin](teksin.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -957,8 +957,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } | [Warehouse worker](brv_wh_worker3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite } | [Wart](ratdom_rat_warden.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite } | [Wart](ratdom_rat_warden2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Watchdog](brightportthieves4.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } | [Watchdog](brv_brother1_watchdog.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Watchdog](brightportthieves4.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Watchman](guard_pathway.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_6.png){ .sprite } | [Waterway traveler](graveyard_traveler.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_16.png){ .sprite } | [Whootibarfag](whootibarfag.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
@@ -973,12 +973,12 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wolfhound](hettar_dog.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wolfhound](hettar_dog2.md) | animal | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik2_63.png){ .sprite } | [Wood craftsman](brv_woodcraftsman.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_tometik2_39.png){ .sprite } | [Woodcutter](brv_woodcutter.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Woodcutter](woodcutter_0.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Woodcutter](woodcutter_2.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } | [Woodcutter](woodcutter_3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_93.png){ .sprite } | [Woodcutter](woodcutter_4.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } | [Woodcutter](woodcutter_5.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_tometik2_39.png){ .sprite } | [Woodcutter](brv_woodcutter.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik2_62.png){ .sprite } | [Worker](brv_laundry_worker.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } | [Wounded Feygard mountain scout](ortholion_guard_wounded.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Wounded Prim guard](prim_guard7.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -991,8 +991,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_ld1_145.png){ .sprite } | [Ysolde](brightportstudent2.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } | [Ysrine](ysrine.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } | [Zaccheria](sullengard_zaccheria.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Zachlanny](aidem_jail_zachlanny.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Zachlanny](guild04_rebcomrade_3.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Zachlanny](aidem_jail_zachlanny.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik6_34.png){ .sprite } | [Zaroth](zaroth.md) | undead | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Zimsko](zimsko.md) | ? | 0 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Zorvan](brv_undertaker.md) | humanoid | 0 | 0 | 0 | 0 | 0 | – |
@@ -1024,25 +1024,25 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_omi2_2.png){ .sprite } | [Thalen](thalen.md) | undead | 1 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Zachlanny](aidem_camp_zachlanny.md) | humanoid | 1 | 0 | 0 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](tiny_rat.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](tobby_trainingrat.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](brute_origin1.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](ratdom_maze_rat1.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](brute_origin1.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](tobby_trainingrat.md) | animal | 2 | 1 | 50 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_insects_0.png){ .sprite } | [Black ant](black_ant.md) | insect | 3 | 1 to 2 | 70 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_insects_4.png){ .sprite } | [Beetle](beetle.md) | insect | 4 | 3 | 70 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_insects_0.png){ .sprite } | [Forest ant](forest_ant.md) | insect | 4 | 1 to 2 | 90 | 10 | 0 | – |
 | ![](../assets/icons/monsters/monsters_insects_1.png){ .sprite } | [Small wasp](small_wasp.md) | insect | 4 | 1 to 2 | 70 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Cave rat](cave_rat.md) | animal | 5 | 2 | 90 | 0 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Cave rat](ratdom_maze_rat2.md) | animal | 5 | 2 | 90 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Cave rat](puny_caverat.md) | animal | 5 | 1 | 50 | 30 | 0 | – |
+| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Cave rat](ratdom_maze_rat2.md) | animal | 5 | 2 | 90 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Mouse](brv_churchmouse.md) | animal | 5 | 1 | 50 | 30 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Rat](crossroads_rat.md) | animal | 5 | 1 | 50 | 30 | 0 | – |
 | ![](../assets/icons/monsters/monsters_johny_24.png){ .sprite } | [Reindeer](reindeer.md) | animal | 5 | 0 | 1 | 999 | 0 | – |
-| ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](guynmart_sheep.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](lostsheep1.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](lostsheep2.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](lostsheep3.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](lostsheep4.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](sheep1.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
+| ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](guynmart_sheep.md) | animal | 5 | 0 to 1 | 10 | 5 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_188.png){ .sprite } | [Slime](ratdom_maze_slime.md) | animal | 5 | 8 to 18 | 130 | 40 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Tough cave rat](tough_cave_rat.md) | animal | 5 | 3 | 90 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Tough cave rat](tough_cave_rat3.md) | animal | 5 | 3 | 90 | 0 | 0 | – |
@@ -1097,8 +1097,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_insects_4.png){ .sprite } | [Hardshell beetle](hardshell_beetle.md) | insect | 25 | 0 to 5 | 50 | 40 | 9 | – |
 | ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Hunting dog](hunting_dog.md) | animal | 25 | 2 to 5 | 60 | 50 | 0 | – |
 | ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Rabid fox](rabid_fox.md) | animal | 25 | 3 | 100 | 50 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles1_47.png){ .sprite } | [Restless dead](bwm_dead.md) | ghost | 25 | 0 to 3 | 50 | 140 | 3 | 80 / x2.0 |
 | ![](../assets/icons/monsters/monsters_rltiles1_47.png){ .sprite } | [Restless dead](restless_dead.md) | ghost | 25 | 0 to 3 | 50 | 140 | 3 | 80 / x2.0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_47.png){ .sprite } | [Restless dead](bwm_dead.md) | ghost | 25 | 0 to 3 | 50 | 140 | 3 | 80 / x2.0 |
 | ![](../assets/icons/monsters/monsters_misc_0.png){ .sprite } | [Teeth critter](teeth_critter.md) | reptile | 25 | 1 | 60 | 70 | 0 | 10 / x3.0 |
 | ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wild fox](wild_fox.md) | animal | 25 | 4 to 5 | 100 | 40 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik8_25.png){ .sprite } | [Rancid zombie](zombie1.md) | undead | 26 | 4 to 7 | 83 | 47 | 3 | 20 / x3.0 |
@@ -1232,8 +1232,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rltiles2_117.png){ .sprite } | [Black grasslands lizard](grass_lizard2.md) | reptile | 45 | 2 to 9 | 125 | 80 | 4 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } | [Erumen lizard](erumen_3.md) | reptile | 45 | 2 to 9 | 125 | 80 | 4 | – |
 | ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } | [Grasslands lizard](grass_lizard.md) | reptile | 45 | 0 to 8 | 120 | 80 | 3 | – |
-| ![](../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite } | [Grave spawn](bwm_grave_spawn.md) | demon | 45 | 2 to 5 | 110 | 35 | 3 | 40 / x2.0 |
 | ![](../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite } | [Grave spawn](grave_spawn.md) | demon | 45 | 2 to 5 | 110 | 35 | 3 | 40 / x2.0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite } | [Grave spawn](bwm_grave_spawn.md) | demon | 45 | 2 to 5 | 110 | 35 | 3 | 40 / x2.0 |
 | ![](../assets/icons/monsters/monsters_rltiles2_49.png){ .sprite } | [Izthiel](izthiel_2.md) | reptile | 45 | 2 to 7 | 90 | 58 | 6 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_45.png){ .sprite } | [Kazaul imp](kazaul_imp.md) | demon | 45 | 3 to 7 | 70 | 105 | 1 | 40 / x2.0 |
 | ![](../assets/icons/monsters/monsters_rltiles1_41.png){ .sprite } | [Kazaul spawn](kazaul_spawn.md) | demon | 45 | 3 to 5 | 70 | 90 | 1 | 50 / x2.0 |
@@ -1404,8 +1404,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_rltiles4_18.png){ .sprite } | [Charwood goblin](charwdg4.md) | ? | 73 | 7 to 9 | 144 | 63 | 4 | 25 / x3.0 |
 | ![](../assets/icons/monsters/monsters_rltiles2_40.png){ .sprite } | [Hirathil spawn](hirathil0.md) | ghost | 73 | 6 to 7 | 193 | 74 | 14 | 25 / x3.0 |
 | ![](../assets/icons/monsters/monsters_rltiles2_135.png){ .sprite } | [Iqhan chaos evoker](iqhan_ch_1a.md) | humanoid | 73 | 2 to 15 | 140 | 60 | 0 | 20 / x2.0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_107.png){ .sprite } | [Strong mountain wolf](mountain_wolf_3.md) | animal | 73 | 9 to 17 | 160 | 80 | 4 | – |
 | ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Strong mountain wolf](mwolf_7.md) | animal | 73 | 3 to 9 | 90 | 57 | 6 | 10 / x2.0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_107.png){ .sprite } | [Strong mountain wolf](mountain_wolf_3.md) | animal | 73 | 9 to 17 | 160 | 80 | 4 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Tunlon](tunlon2.md) | humanoid | 73 | 9 to 17 | 200 | 90 | 10 | 10 / x2.0 |
 | ![](../assets/icons/monsters/monsters_insects_5.png){ .sprite } | [Giant yellowjacket](yjacket8.md) | insect | 74 | 3 to 4 | 126 | 93 | 0 | 20 / x3.0 |
 | ![](../assets/icons/monsters/monsters_rltiles2_40.png){ .sprite } | [Aggressive hirathil ghost](hirathil1.md) | ghost | 75 | 6 to 7 | 199 | 75 | 14 | 25 / x3.0 |
@@ -1436,8 +1436,8 @@ All 1907 monsters and NPCs, sorted by HP, weakest first. The ones at the bottom 
 | ![](../assets/icons/monsters/monsters_tometik8_40.png){ .sprite } | [Angry skeleton](ratdom_skel_dance26.md) | undead | 80 | 10 to 30 | 100 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_tometik8_57.png){ .sprite } | [Angry skeleton](ratdom_skel_dance27.md) | undead | 80 | 10 to 30 | 100 | 0 | 0 | – |
 | ![](../assets/icons/monsters/monsters_ld2_134.png){ .sprite } | [Cave worm](cave_worm.md) | reptile | 80 | 1 to 11 | 80 | 75 | 0 | – |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard patrol watch](ratdom_ff_guard.md) | humanoid | 80 | 12 to 17 | 170 | 180 | 3 | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard patrol watch](feygard_patrol_watch.md) | humanoid | 80 | 2 to 7 | 70 | 80 | 3 | – |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard patrol watch](ratdom_ff_guard.md) | humanoid | 80 | 12 to 17 | 170 | 180 | 3 | – |
 | ![](../assets/icons/monsters/monsters_ld1_12.png){ .sprite } | [Golin](golin.md) | humanoid | 80 | 1 to 4 | 40 | 120 | 5 | – |
 | ![](../assets/icons/monsters/monsters_rltiles1_92.png){ .sprite } | [Guthbered](guthbered.md) | humanoid | 80 | 4 to 9 | 70 | 80 | 4 | – |
 | ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } | [Harlenn](harlenn.md) | humanoid | 80 | 4 to 9 | 70 | 80 | 4 | – |

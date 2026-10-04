@@ -18,10 +18,20 @@
 
 | Name | HP |
 |---|---|
-| [Roach](../monsters/vermin2.md) | 0 |
-| [Rat](../monsters/vermin1.md) | 0 |
 | [Rat](../monsters/vermin0.md) | 0 |
+| [Roach](../monsters/vermin2.md) | 0 |
 | [Beldric](../monsters/boat0.md) | 0 |
+| [Rat](../monsters/vermin1.md) | 0 |
 | [Hungry pig](../monsters/hungry_pig.md) | 303 |
+
+## Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 <small>Map ID: `gapfillerhole` · Data from v0.8.18</small>
