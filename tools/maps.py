@@ -89,7 +89,10 @@ LEGEND = [('spawn', 'Red', 'Monsters / NPCs', True), ('mapchange', 'Blue', 'Exit
           ('script', 'Grey dotted', 'Scripted event', False), ('replace', 'White dotted', 'Changes during a quest', False)]
 LEGEND_TYPES = {l[0] for l in LEGEND}
 
-def _pretty(name): return name.replace('_', ' ').strip().capitalize()
+_COMPASS = {'nw': 'north-west', 'ne': 'north-east', 'sw': 'south-west', 'se': 'south-east', 'n': 'north', 's': 'south', 'e': 'east', 'w': 'west'}
+def _pretty(name):
+    words = (name or '').replace('_', ' ').strip().split(' ')
+    return ' '.join(_COMPASS.get(w.lower(), w) if i else w for i, w in enumerate(words)).capitalize()
 def _esc(s): return html.escape(str(s), quote=True)
 
 class QuestInfo:
@@ -237,20 +240,27 @@ def build_maps(ctx):
     idx.append("\n## All maps (A–Z)\n\n" + ''.join(f"- [{_pretty(m)}]({m}.md)\n" for m in sorted(parsed)))
     ctx['write']('maps/index.md', ''.join(idx))
 
-    # ------------------------------------------------ one page per map
+    # ------------------------------------------------ per map: collect (pages are written later by write_map_pages)
+    area_of = {mp.get('id'): mp.get('area') for seg in wm.findall('segment') for mp in seg.findall('map') if mp.get('area')}
+    seg_of = {mp.get('id'): (seg.get('id'), int(mp.get('x')), int(mp.get('y'))) for seg in wm.findall('segment') for mp in seg.findall('map')}
+    area_names = {na.get('id'): (na.get('name', '').strip(), na.get('type', '')) for seg in wm.findall('segment') for na in seg.findall('namedarea')}
+    pages = {}
     for m, t in parsed.items():
         W, H = t['w'] * TILE, t['h'] * TILE
         pct = lambda x, y, w, h: f"left:{x/W*100:.3f}%;top:{y/H*100:.3f}%;width:{max(w,8)/W*100:.3f}%;height:{max(h,8)/H*100:.3f}%"
         mlink = f'[{_pretty(m)}](../maps/{m}.md)'
-        boxes, mobs, here, exits, containers, spawns = [], [], set(), [], [], []
+        boxes, here, exits, containers, spawns, pois, qroles = [], set(), [], [], [], [], defaultdict(set)
         for n, o in enumerate(t['objects']):
             typ = o['type']
             if typ not in LEGEND_TYPES: continue
+            cx, cy = o['x'] + o['w'] / 2, o['y'] + o['h'] / 2
             tip, href, attrs, extra_cls = _pretty(o['name']), None, '', ''
             if typ == 'spawn':
                 ms = spawn_mids(o)
                 active = str(o['props'].get('active', 'true')).lower() != 'false'
-                here.update(ms); spawns.append((o, ms, active))
+                try: qty = max(1, int(o['props'].get('quantity', 1)))
+                except ValueError: qty = 1
+                here.update(ms); spawns.append((o, ms, active, qty))
                 for x in ms: spawn_maps[x].add(m)
                 names = sorted({monsters[x].get('name', x) for x in ms})
                 tip = 'Spawns: ' + (', '.join(names) if names else o['name']) + ('' if active else ' (only appears later, during a quest)')
@@ -259,18 +269,23 @@ def build_maps(ctx):
                 attrs = f' id="place-{_esc(o["name"])}"'
                 if dest:
                     tip = f'Exit to {_pretty(dest)}'; href = f'../{dest}/' + (f'#place-{place}' if place else '')
-                    exits.append(dest)
+                    exits.append(dict(dest=dest, place=place, name=o['name'], x=cx, y=cy, tx=cx / TILE, ty=cy / TILE))
             elif typ == 'container':
                 dl = droplists.get(o['name'])
                 if not dl: continue
-                k = len(containers); containers.append(dl)
+                k = len(containers); containers.append((o['name'], dl))
                 tip = 'Container: click to see what\'s inside'; href = f'#container-{k}'
                 attrs = f' data-container="container-{k}"'
+                pois.append(dict(kind='container', x=cx, y=cy, label=f'Container {k + 1}', href=f'#container-{k}',
+                                 detail=', '.join(items.get(e['itemID'], {}).get('name', e['itemID']) for e in dl.get('items', [])[:6])))
             elif typ == 'sign':
                 script_maps[o['name']].add((m, 'sign'))
-                tip = 'Sign: ' + (convs.get(o['name'], {}).get('message') or o['name'])
+                text = convs.get(o['name'], {}).get('message') or ''
+                tip = 'Sign: ' + (text or o['name'])
+                pois.append(dict(kind='sign', x=cx, y=cy, label='Sign', detail=f'“{text}”' if text else 'A sign'))
             elif typ == 'rest':
                 tip = 'Resting place (respawn point)'
+                pois.append(dict(kind='rest', x=cx, y=cy, label='Resting place', detail='Rest here to heal and set your respawn point'))
             elif typ == 'key':
                 p = o['props']
                 if p.get('phrase'): script_maps[p['phrase']].add((m, 'key'))
@@ -281,6 +296,8 @@ def build_maps(ctx):
                 if (p.get('requireType') or 'questProgress').startswith('quest'):
                     QI.note(p.get('requireId'), val, f"🔓 You can finally access a previously blocked area on {mlink}." if not neg
                             else f"🔒 An area on {mlink} becomes blocked off.")
+                    qroles[p.get('requireId')].add(f"blocked passage {'opens' if not neg else 'closes'} at stage {val}")
+                pois.append(dict(kind='key', x=cx, y=cy, label='Blocked passage', detail=tip, href=href))
             elif typ == 'replace':
                 p = o['props']
                 if p.get('requireType') or p.get('requireId'):
@@ -290,6 +307,8 @@ def build_maps(ctx):
                                        'This area changes during', 'This area changes back during')
                     if (p.get('requireType') or 'questProgress').startswith('quest'):
                         QI.note(p.get('requireId'), val, f"🗺️ Part of {mlink} visibly changes.")
+                        qroles[p.get('requireId')].add(f"part of the map changes at stage {val}")
+                        pois.append(dict(kind='replace', x=cx, y=cy, label='Changes during a quest', detail=tip, href=href))
                 else:
                     tip = 'This area changes when a scripted event activates it'
             elif typ == 'script':
@@ -304,50 +323,248 @@ def build_maps(ctx):
                     href = QI.url(qid, val) if qid in QI.q else None
                     for q2, v2 in set(rewards):
                         QI.note(q2, v2, f"👣 Reached by stepping onto a trigger spot on {mlink}.")
+                        qroles[q2].add(f"stepping on a trigger here sets stage {v2}")
+                    pois.append(dict(kind='script', x=cx, y=cy, label='Quest trigger', detail=tip, href=href))
                 elif reqs:
                     qid, val, neg = reqs[0]
                     tip = f"Scripted event that only happens during the quest: {QI.name(qid)} (stage {val})"
                     href = QI.url(qid, val) if qid in QI.q else None
                     for q2, v2, n2 in set(reqs):
-                        if not n2: QI.note(q2, v2, f"⚡ A scripted event can now trigger on {mlink}.")
+                        if not n2:
+                            QI.note(q2, v2, f"⚡ A scripted event can now trigger on {mlink}.")
+                            qroles[q2].add(f"a scripted event can trigger here from stage {v2}")
                 else:
                     tip = 'Scripted event' + (': ' + other[0] if other else (': “' + first[:90] + ('…' if len(first) > 90 else '') + '”' if first else ''))
             tag = 'a' if href else 'span'
             h = f' href="{_esc(href)}"' if href else ''
             boxes.append(f'<{tag}{attrs} class="mo mo-{typ}{extra_cls}"{h} title="{_esc(tip)}" style="{pct(o["x"], o["y"], o["w"], o["h"])}"></{tag}>')
+        placed = _place_monsters(t, [(o, ms, act) for o, ms, act, _ in spawns], ctx, seed=m)
+        pages[m] = dict(t=t, W=W, H=H, boxes=boxes, here=here, exits=exits, containers=containers, spawns=spawns,
+                        pois=pois, qroles=qroles, placed=placed)
 
-        # monsters standing in their spawn areas
-        for mid, x, y, fw, fh, active in _place_monsters(t, spawns, ctx, seed=m):
+    # ------------------------------------------------ regions: named area, else inherited through doors (indoor maps)
+    adj = defaultdict(set)
+    for m, pg in pages.items():
+        for e in pg['exits']:
+            if e['dest'] in pages: adj[m].add(e['dest']); adj[e['dest']].add(m)
+    def region(m):
+        if m in area_of: return area_of[m], 'in'
+        seen, frontier = {m}, [m]
+        for depth in range(3):
+            nxt = []
+            for x in frontier:
+                for y in sorted(adj[x]):
+                    if y in seen: continue
+                    seen.add(y)
+                    if y in area_of: return area_of[y], ('in' if parsed[m]['props'].get('outdoors') != '1' else 'near')
+                    nxt.append(y)
+            frontier = nxt
+        return None, None
+    for m, pg in pages.items():
+        aid, rel = region(m)
+        pg['area'] = (area_names.get(aid, (aid, ''))[0] if aid else None, area_names.get(aid, ('', ''))[1] if aid else None, rel)
+        pg['segment'] = seg_of.get(m) or ((on_world.get(m), None, None) if m in on_world else None)
+        pg['outdoors'] = parsed[m]['props'].get('outdoors') == '1'
+    ctx['_map_pages'] = pages
+    return spawn_maps, len(parsed), QI.notes, script_maps, pages
+
+
+# ======================================================================== pass 2: location pages
+DIR_ORDER = ['North', 'Northeast', 'East', 'Southeast', 'South', 'Southwest', 'West', 'Northwest']
+UNDERGROUND = re.compile(r'cave|mine|dungeon|cellar|crypt|tunnel|well|basement|sewer|underground|hole|catacomb|tomb|lair|pit', re.I)
+
+
+def exit_direction(pg, e, pages):
+    """Edge exits get a compass direction; exits inside the map are doors, cave entrances, stairs or paths."""
+    w, h = pg['t']['w'], pg['t']['h']
+    ns = 'North' if e['ty'] < 2.5 else ('South' if e['ty'] > h - 2.5 else '')
+    ew = 'West' if e['tx'] < 2.5 else ('East' if e['tx'] > w - 2.5 else '')
+    if ns or ew: return (ns + ew.lower()) if ns and ew else (ns or ew)
+    here_out, dest_out = pg['outdoors'], pages.get(e['dest'], {}).get('outdoors', False)
+    if here_out and not dest_out: return 'Cave entrance' if UNDERGROUND.search(e['dest']) else 'Door'
+    if not here_out and dest_out: return 'Exit outside'
+    if not here_out and not dest_out: return 'Stairs / passage'
+    return 'Path'
+
+
+def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
+    monsters, items, write, VERSION = ctx['monsters'], ctx['items'], ctx['write'], ctx['VERSION']
+    md = ctx['md_esc']
+    qb = defaultdict(set)                       # conversation start -> quests it can advance
+    for (q, s), cids in QG.triggers.items():
+        for cid in cids:
+            for rp in QG.paths.get(cid, {}): qb[rp].add(q)
+    map_roots = defaultdict(set)                # map -> conversation starts placed on it (signs, triggers, blocked passages)
+    for ph, places in QG.script_maps.items():
+        for mp, how in places: map_roots[mp].add(ph)
+
+    for m, pg in pages.items():
+        t, W, H = pg['t'], pg['W'], pg['H']
+        pctp = lambda x, y: f"left:{x / W * 100:.3f}%;top:{y / H * 100:.3f}%"
+        pct = lambda x, y, w, h: f"left:{x/W*100:.3f}%;top:{y/H*100:.3f}%;width:{max(w,8)/W*100:.3f}%;height:{max(h,8)/H*100:.3f}%"
+        npcs = sorted({x for x in pg['here'] if monsters[x].get('phraseID')}, key=lambda x: monsters[x].get('name', x))
+        enemies = sorted({x for x in pg['here'] if not monsters[x].get('phraseID')}, key=lambda x: monsters[x].get('maxHP', 0))
+        first_pos = {}
+        for mid, x, y, fw, fh, active in pg['placed']:
+            first_pos.setdefault(mid, ((x + fw / 2) * TILE, (y + fh / 2) * TILE))
+        for o, ms, active, qty in pg['spawns']:
+            for x in ms: first_pos.setdefault(x, (o['x'] + o['w'] / 2, o['y'] + o['h'] / 2))
+        npc_quests = {x: qb.get(monsters[x]['phraseID'], set()) for x in npcs}
+
+        # ---------- numbered key: exits, NPCs, then points of interest
+        key, pins = [], []
+        key_num, pin_xy = {}, []
+        def add_pin(kind, x, y, what, detail):
+            """Identical points (same thing, same details) share one number; each spot still gets a pin."""
+            n = key_num.get((what, detail))
+            if n is None:
+                n = len(key) + 1
+                if n > 80: return None
+                key_num[(what, detail)] = n
+                key.append((n, what, detail))
+            # nudge pins that would sit on top of an earlier one (about 22 px apart), staying inside the map
+            r, x0, y0 = 22, x, y
+            free = lambda a, b: all((a - px) ** 2 + (b - py) ** 2 >= r * r for px, py in pin_xy)
+            k = 0
+            while not free(x, y) and k < 60:      # golden-angle spiral around the true spot
+                k += 1
+                ang, rad = k * 2.39996, r * (0.6 + 0.35 * k ** 0.5)
+                x = min(W - 10, max(10, x0 + rad * __import__('math').cos(ang)))
+                y = min(H - 10, max(10, y0 + rad * __import__('math').sin(ang)))
+            pin_xy.append((x, y))
+            pins.append(f'<a class="pin pin-{kind}" href="#key-{n}" style="{pctp(x, y)}" title="{_esc(re.sub(r"[\\[\\]]|\\(\\.\\./[^)]*\\)", "", what + ": " + detail))}">{n}</a>')
+            return n
+        conn = defaultdict(list)
+        for e in sorted(pg['exits'], key=lambda e: (DIR_ORDER.index(d) if (d := exit_direction(pg, e, pages)) in DIR_ORDER else 99, e['dest'])):
+            d = exit_direction(pg, e, pages)
+            n = add_pin('exit', e['x'], e['y'], f"Exit ({d.lower()})", f"to [{_pretty(e['dest'])}](../{e['dest']}.md)")
+            if n not in conn[(d, e['dest'])]: conn[(d, e['dest'])].append(n)
+        npc_num = {}
+        for x in npcs:
+            px, py = first_pos.get(x, (W / 2, H / 2))
+            role = []
+            if x in shopkeepers: role.append('shopkeeper')
+            vq = [q for q in npc_quests[x] if QG.quests[q].get('showInLog', 0)]
+            if vq: role.append(f"{len(vq)} quest{'s' if len(vq) != 1 else ''}")
+            npc_num[x] = add_pin('npc', px, py, f"[{md(monsters[x].get('name', x))}](../../monsters/{x}.md)", ', '.join(role) or 'NPC')
+        for p in pg['pois']:
+            add_pin(p['kind'], p['x'], p['y'], p['label'], p.get('detail', ''))
+        num_of_poi = {id(p): i for i, p in enumerate(pg['pois'])}
+
+        # ---------- sprites standing in their spawn areas
+        mobs = []
+        for mid, x, y, fw, fh, active in pg['placed']:
             ic = ctx['monster_icon'](mid)
             if not ic: continue
             nm = monsters[mid].get('name', mid)
             mobs.append(f'<a class="mob{"" if active else " mob-later"}" href="../../monsters/{mid}/" title="{_esc(nm + ("" if active else " (appears later in a quest)"))}" '
                         f'style="{pct(x*TILE, y*TILE, fw*TILE, fh*TILE)}"><img src="../../{ic}" alt="{_esc(nm)}"></a>')
 
+        # ---------- quests connected to this map
+        quests_here = defaultdict(set)
+        for x in npcs:
+            for q in npc_quests[x]: quests_here[q].add(f"[{md(monsters[x].get('name', x))}](../monsters/{x}.md) is involved")
+        for ph in map_roots.get(m, ()):
+            for q in qb.get(ph, ()): quests_here[q].add('something on this map advances it')
+        for q, roles in pg['qroles'].items():
+            if q in QG.quests: quests_here[q].update(roles)
+        qlist = sorted(quests_here, key=lambda q: (0 if QG.quests[q].get('showInLog', 0) else 1, QG.quests[q].get('name', q).lower()))
+
+        # ---------- page
+        area, atype, rel = pg['area']
+        region = (f"{'In' if rel == 'in' else 'Near'} {area}" + (f" ({atype})" if atype else '')) if area else None
+        seg = pg['segment']
+        intro_v = introduced('maps', m) if introduced else None
+        info = [('Map ID', f"`{m}`"), ('Region', region), ('Type', 'Outdoors' if pg['outdoors'] else 'Indoors / underground'),
+                ('Size', f"{t['w']}×{t['h']} tiles"),
+                ('World map', f"[{_pretty(seg[0])}](index.md)" if seg and seg[0] else None),
+                ('Introduced', intro_v), ('NPCs', str(len(npcs)) if npcs else None),
+                ('Enemy types', str(len(enemies)) if enemies else None),
+                ('Quests', str(sum(1 for q in qlist if QG.quests[q].get('showInLog', 0))) or None),
+                ('Containers', str(len(pg['containers'])) if pg['containers'] else None)]
+        dests = list(dict.fromkeys(d for (_, d) in conn))
+        overview = (f"**{_pretty(m)}** is an {'outdoor' if pg['outdoors'] else 'indoor'} map" + (f", {region[0].lower() + region[1:]}" if region else '') + ". "
+                    + (f"It has {len(npcs)} NPC{'s' if len(npcs) != 1 else ''}" if npcs else "It has no NPCs")
+                    + (f" and {len(enemies)} kind{'s' if len(enemies) != 1 else ''} of enemy" if enemies else ", and no enemies") + ". "
+                    + (f"Exits lead to {', '.join(_pretty(d) for d in dests[:4])}" + (f" and {len(dests) - 4} more" if len(dests) > 4 else '') + '.' if dests else ''))
         legend = ''.join(f'<label class="lg"><input type="checkbox" data-t="{k}"{" checked" if on else ""}>'
-                         f'<span class="sw sw-{k}"></span><b>{color}</b>&nbsp;{label}</label>' for k, color, label, on in LEGEND)
-        hidden = ' '.join(f'hide-{k}' for k, _, _, on in LEGEND if not on)
+                         f'<span class="sw sw-{k}"></span><b>{color}</b>&nbsp;{label}</label>' for k, color, label, on in LEGEND + PIN_LEGEND)
+        hidden = ' '.join(f'hide-{k}' for k, _, _, on in LEGEND + PIN_LEGEND if not on)
         P = [f"# {_pretty(m)}\n\n",
-             f"{t['w']}×{t['h']} tiles" + (" · outdoors" if t['props'].get('outdoors') == '1' else '') +
-             (f" · part of [{_pretty(on_world[m])}](index.md)" if m in on_world else '') + "\n\n",
+             '<div class="infobox" markdown>\n\n| | |\n|---|---|\n' + ''.join(f"| **{a}** | {b} |\n" for a, b in info if b) + '\n</div>\n\n',
+             overview + "\n\n",
+             "## Map\n\n",
              f'<div class="map-legend" markdown="0">{legend}</div>\n\n',
-             f'<div class="map-wrap {hidden}" markdown="0"><img src="../../assets/maps/{m}.webp" alt="{m}" width="{W}" height="{H}" loading="lazy">{"".join(boxes)}{"".join(mobs)}</div>\n\n']
-        if containers:
-            P.append("## Containers\n\n")
-            for k, dl in enumerate(containers):
+             f'<div class="map-wrap {hidden}" markdown="0"><img src="../../assets/maps/{m}.webp" alt="Map of {_esc(_pretty(m))}" width="{W}" height="{H}" loading="lazy">'
+             f'{"".join(pg["boxes"])}{"".join(mobs)}{"".join(pins)}</div>\n\n']
+        if key:
+            P.append("??? abstract \"Key to the numbers on the map\"\n\n    | # | What | Details |\n    |---|---|---|\n" +
+                     ''.join(f"    | <span id=\"key-{n}\"></span>{n} | {what.replace('../../', '../')} | {md(detail).replace('../../', '../')} |\n" for n, what, detail in key) + "\n")
+        P.append(ctx['verified']("map data", VERSION))
+        if conn:
+            P.append("## Connections\n\n| Direction | Leads to | Region there | Map # |\n|---|---|---|---|\n")
+            for (d, dest), nums in sorted(conn.items(), key=lambda kv: (DIR_ORDER.index(kv[0][0]) if kv[0][0] in DIR_ORDER else 99, kv[0][1])):
+                da = pages.get(dest, {}).get('area', (None, None, None))
+                P.append(f"| {d} | [{_pretty(dest)}]({dest}.md) | {da[0] or '–'} | {', '.join(map(str, nums))} |\n")
+            P.append("\n")
+        if npcs:
+            P.append("## NPCs\n\n" + ''.join(
+                f"- [{md(monsters[x].get('name', x))}](../monsters/{x}.md)" + (" — shopkeeper" if x in shopkeepers else '') +
+                (f" — quests: {', '.join(QG.qlink(q, None, '../quests/') for q in sorted(npc_quests[x], key=lambda q: QG.quests[q].get('name', q)) if QG.quests[q].get('showInLog', 0))}"
+                 if any(QG.quests[q].get('showInLog', 0) for q in npc_quests[x]) else '') +
+                (f" (#{npc_num[x]})" if npc_num.get(x) else '') + "\n" for x in npcs) + "\n")
+        if enemies:
+            maxq = defaultdict(int); later = set(); shared = defaultdict(set)
+            for o, ms, active, qty in pg['spawns']:
+                for x in ms:
+                    maxq[x] += qty
+                    if not active: later.add(x)
+                    if len(ms) > 1: shared[x].update(y for y in ms if y != x)
+            P.append("## Enemies\n\n| Enemy | HP | Damage | Up to | Notes |\n|---|---|---|---|---|\n")
+            for x in enemies:
+                mm = monsters[x]; dmg = mm.get('attackDamage', {})
+                notes_ = []
+                if x in later: notes_.append('appears later, during a quest')
+                if shared[x]: notes_.append('shares spawn with ' + ', '.join(sorted({monsters[y].get('name', y) for y in shared[x]}))[:120])
+                P.append(f"| [{md(mm.get('name', x))}](../monsters/{x}.md) | {mm.get('maxHP', 0)} | {dmg.get('min', 0)}–{dmg.get('max', 0)} | {maxq[x]} | {'; '.join(notes_) or '–'} |\n")
+            P.append("\n<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>\n\n")
+        shops = [x for x in npcs if x in shopkeepers]
+        if pg['containers'] or shops:
+            P.append("## Items & containers\n\n")
+            if shops: P.append("**Shops:** " + ', '.join(f"[{md(monsters[x].get('name', x))}](../monsters/{x}.md)" for x in shops) + "\n\n")
+            for k, (cid, dl) in enumerate(pg['containers']):
                 rows = ''.join(
                     f'<li><a href="../../items/{e["itemID"]}/">' + (f'<img class="sprite" src="../../{ctx["item_icon"](e["itemID"])}" alt="">' if ctx['item_icon'](e['itemID']) else '') +
                     f'{_esc(items.get(e["itemID"], {}).get("name", e["itemID"]))}</a> <small>{_esc(ctx["chance_txt"](e.get("chance")))}'
                     + (f' · ×{_esc(ctx["rng"](e.get("quantity")))}' if e.get('quantity') and ctx['rng'](e.get('quantity')) != '1' else '') + '</small></li>'
                     for e in dl.get('items', []))
                 P.append(f'<div class="container-list" id="container-{k}" markdown="0"><b>Container {k + 1}</b><ul>{rows}</ul></div>\n\n')
-        if exits:
-            P.append("## Exits\n\n" + ''.join(f"- [{_pretty(d)}]({d}.md)\n" for d in sorted(set(exits))) + '\n')
-        if here:
-            P.append("## Monsters & NPCs here\n\n| Name | HP |\n|---|---|\n" + ''.join(
-                f"| [{ctx['md_esc'](monsters[x].get('name', x))}](../monsters/{x}.md) | {monsters[x].get('maxHP', 0)} |\n"
-                for x in sorted(here, key=lambda x: monsters[x].get('maxHP', 0))))
+        if qlist:
+            P.append("## Quests\n\n" + ''.join(f"- {QG.qlink(q, None, '../quests/')}: {'; '.join(sorted(quests_here[q]))}\n" for q in qlist[:40]) + "\n")
+        poi_kinds = [p for p in pg['pois'] if p['kind'] in ('sign', 'rest', 'key', 'script', 'replace')]
+        if poi_kinds:
+            P.append("## Points of interest\n\n")
+            seen_poi = set()
+            for p in poi_kinds:
+                k2 = (p['label'], p.get('detail', ''))
+                if k2 in seen_poi: continue
+                seen_poi.add(k2)
+                n = key_num.get(k2)
+                P.append(f"- **{p['label']}**{f' (#{n})' if n else ''}: {md(p.get('detail', '')).replace('../../', '../')}\n")
+            P.append("\n")
         if ctx.get('history'): P.append(ctx['history']('maps', m, (), ''))
-        P.append(f"\n<small>Map ID: `{m}` · Data from v{ctx['VERSION']}</small>\n")
-        ctx['write'](f'maps/{m}.md', ''.join(P))
-    return spawn_maps, len(parsed), QI.notes, script_maps
+        P.append(notes('maps', m, _pretty(m)))
+        from collections import Counter
+        objc = Counter(o['type'] or 'other' for o in t['objects'])
+        tech = [('Map ID', f"`{m}`"), ('File', f"`res/xml/{m}.tmx`"), ('Size', f"{t['w']}×{t['h']} tiles ({W}×{H} px)"),
+                ('outdoors property', t['props'].get('outdoors', '–')),
+                ('Layers drawn', ', '.join(n for n, _ in t['layers'])),
+                ('Tilesets', ', '.join(sorted({os.path.basename(src).replace('.png', '') for _, src, _ in t['tilesets']}))),
+                ('Map objects', ', '.join(f"{k}: {v}" for k, v in objc.most_common())),
+                ('World map position', f"segment `{seg[0]}`, x {seg[1]}, y {seg[2]}" if seg and seg[1] is not None else '–')]
+        P.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) + '\n')
+        P.append(f"\n<small>Data from v{VERSION}</small>\n")
+        write(f'maps/{m}.md', ''.join(P))
+
+
+PIN_LEGEND = [('pin', 'Numbers', 'Numbered key points (see the key below the map)', True)]

@@ -10,6 +10,7 @@ SECTIONS = {
     'quests':   ['Walkthrough', 'Lore', 'Trivia', 'Bugs', 'Theory / speculation'],
     'monsters': ['Observations', 'Lore', 'Trivia', 'Theory / speculation'],
     'skills':   ['Strategy', 'Trivia'],
+    'maps':     ['Observations', 'Lore', 'Trivia', 'Theory / speculation'],
 }
 HINTS = {
     'Walkthrough': 'step-by-step help for players',

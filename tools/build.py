@@ -262,11 +262,12 @@ def _monster_size(mid):
     from PIL import Image
     w, h = Image.open(os.path.join(DOCS, rel)).size
     return (max(1, round(w / 32)), max(1, round(h / 32)))
-spawn_maps, n_maps, quest_notes, script_maps = build_maps(dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
+_map_ctx = dict(GAME=GAME, DOCS=DOCS, VERSION=VERSION, monsters=monsters, droplists=droplists,
     items=items, conversations=conversations, quests=quests, skills=skills, conditions=conditions,
     group_to_monsters=group_to_monsters, write=write, md_esc=md_esc, chance_txt=chance_txt, rng=rng,
     monster_icon=_monster_icon, monster_size=_monster_size, history=lambda *a: hist_md(*a),
-    item_icon=lambda iid: icon(items.get(iid, {}).get('iconID'), 'items')))
+    item_icon=lambda iid: icon(items.get(iid, {}).get('iconID'), 'items'))
+spawn_maps, n_maps, quest_notes, script_maps, _map_pages = build_maps(_map_ctx)
 from notes import Notes
 from quests import QuestGraph, write_quest_pages, npc_section
 notes = Notes(os.path.join(ROOT, 'notes'))
@@ -280,6 +281,13 @@ shutil.rmtree(os.path.join(DOCS, 'assets', 'dialogue'), ignore_errors=True)
 _sk_names = {k: v['name'] for k, v in skills.items()}
 _exported = {m['phraseID'] for m in monsters.values() if m.get('phraseID') in conversations}
 for _rp in _exported: export_dialogue(QG, _rp, os.path.join(DOCS, 'assets', 'dialogue'), item_filters, _sk_names)
+from maps import write_map_pages
+def introduced(kind, oid):
+    if not hist: return None
+    evs = hist['entities'].get(kind, {}).get(oid, [])
+    first_added = next((v for v, ev, _ in evs if ev == 'added'), None)
+    return f"[v{first_added}](../versions/{first_added}.md)" if first_added else f"v{hist['first']} or earlier"
+_map_ctx['verified'] = H.verified
 
 def item_kind(it):
     c = cats.get(it.get('category'), {})
@@ -356,6 +364,8 @@ for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv
     write(f'monsters/{mid}.md', ''.join(P))
     L.append(f"| {img(ic)} | [{md_esc(m.get('name', mid))}]({mid}.md) | {m.get('monsterClass', '?')} | {m.get('maxHP', 0)} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} | {crit} |\n")
 write('monsters/index.md', ''.join(L))
+
+write_map_pages(_map_pages, _map_ctx, QG, notes, shopkeepers, introduced)
 
 # quests: dependency-graph pages (tools/quests.py)
 write_quest_pages(QG, write, VERSION, notes, hist_md, comp_md, H.verified)

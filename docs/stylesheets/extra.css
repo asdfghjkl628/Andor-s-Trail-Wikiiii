@@ -158,3 +158,15 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .dlg-sim .ds-locked { opacity: .55; cursor: not-allowed; }
 .dlg-sim .ds-locked small { color: #e0a458; }
 .dlg-sim .ds-npc { white-space: pre-line; }
+
+/* ---------- numbered map pins ---------- */
+.map-wrap .pin { position: absolute; z-index: 6; transform: translate(-50%, -50%); min-width: 1.35em; height: 1.35em; padding: 0 .25em;
+  border-radius: .7em; background: #0c1828; color: #fcfcfc !important; border: 2px solid var(--cb-orange); font: 700 .62rem/1.15em 'Pixelify Sans', sans-serif;
+  text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.8); line-height: 1.15em; }
+.map-wrap .pin:hover { background: var(--cb-orange); color: #0c1828 !important; z-index: 7; }
+.map-wrap .pin-exit { border-color: #3aa7e0; } .map-wrap .pin-npc { border-color: #ffb400; }
+.map-wrap .pin-container { border-color: #f2c14e; } .map-wrap .pin-key { border-color: #ff8c1a; border-style: dashed; }
+.map-wrap .pin-script, .map-wrap .pin-replace { border-color: #9aa0a6; } .map-wrap .pin-sign { border-color: #b98cf2; } .map-wrap .pin-rest { border-color: #5fd068; }
+.hide-pin .pin { display: none; }
+.sw-pin { border-radius: 50%; border-color: var(--cb-orange); background: #0c1828; }
+.md-typeset td:has(span[id^="key-"]:target) { background: rgba(224,164,88,.3); }

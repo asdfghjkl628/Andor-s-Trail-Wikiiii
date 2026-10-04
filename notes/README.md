@@ -13,6 +13,7 @@ Create `notes/<type>/<id>.md`, where `<id>` is the ID shown in the page's *Techn
 | Quest | `notes/quests/` | Walkthrough, Lore, Trivia, Bugs, Theory / speculation |
 | Monster or NPC | `notes/monsters/` | Observations, Lore, Trivia, Theory / speculation |
 | Skill | `notes/skills/` | Strategy, Trivia |
+| Map / location | `notes/maps/` | Observations, Lore, Trivia, Theory / speculation |
 
 Each section starts with a `## Heading` using exactly those names. Missing or empty sections show a
 short "Add it" invitation on the page. The easiest way to start is to click that link on the wiki page.
