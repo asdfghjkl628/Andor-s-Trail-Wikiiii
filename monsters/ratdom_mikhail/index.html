@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,104 @@
 <ul>
 <li><a href="../../maps/home/">home</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/ratdom_mikhail/">More rats!</a>: stages 10, 20, 52, 54, 70, 74, 90</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (16 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ratdom_mikhail"></span><strong><code>ratdom_mikhail</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/ratdom_mikhail/#stage-90">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_90">ratdom_mikhail_90</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/ratdom_mikhail/#stage-20">More rats!</a>; NOT reached stage 52 of <a href="../../quests/ratdom_mikhail/#stage-52">More rats!</a>; NOT reached stage 54 of <a href="../../quests/ratdom_mikhail/#stage-54">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_50">ratdom_mikhail_50</a></li>
+<li>branch 3 <em>(if reached stage 20 of <a href="../../quests/ratdom_mikhail/#stage-20">More rats!</a>; NOT reached stage 70 of <a href="../../quests/ratdom_mikhail/#stage-70">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_10_10">ratdom_mikhail_10_10</a></li>
+<li>branch 4 <em>(if reached stage 70 of <a href="../../quests/ratdom_mikhail/#stage-70">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_70">ratdom_mikhail_70</a></li>
+<li>branch 5 → <a href="#d-ratdom_mikhail_01">ratdom_mikhail_01</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_90"></span><strong><code>ratdom_mikhail_90</code></strong> <a href="../none/">Dummy NPC</a>: “The huge rat ignores you now.”</p>
+<p><span id="d-ratdom_mikhail_50"></span><strong><code>ratdom_mikhail_50</code></strong> Gruiik: “Is my garden clean of filthy two-legs again?”</p>
+<ul>
+<li>“No, not yet” → <em>conversation ends</em></li>
+<li>“Yes, I killed Mara and Tharal in the garden for you.” <em>(if killed 1× <a href="../ratdom_mara/">Mara</a>; killed 1× <a href="../ratdom_tharal/">Tharal</a>)</em> → <a href="#d-ratdom_mikhail_50_2">ratdom_mikhail_50_2</a></li>
+<li>“(lie) I killed Mara and Tharal in the garden for you.” <em>(if NOT killed 1× <a href="../ratdom_mara/">Mara</a>; killed 1× <a href="../ratdom_tharal/">Tharal</a>)</em> → <a href="#d-ratdom_mikhail_50_4">ratdom_mikhail_50_4</a></li>
+<li>“(lie) I killed Mara and Tharal in the garden for you.” <em>(if killed 1× <a href="../ratdom_mara/">Mara</a>; NOT killed 1× <a href="../ratdom_tharal/">Tharal</a>)</em> → <a href="#d-ratdom_mikhail_50_4">ratdom_mikhail_50_4</a></li>
+<li>“(lie) I killed Mara and Tharal in the garden for you.” <em>(if NOT killed 1× <a href="../ratdom_mara/">Mara</a>; NOT killed 1× <a href="../ratdom_tharal/">Tharal</a>)</em> → <a href="#d-ratdom_mikhail_50_4">ratdom_mikhail_50_4</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_10_10"></span><strong><code>ratdom_mikhail_10_10</code></strong> Gruiik: “And I am hungry. Go to the town hall and bring me some bread.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/ratdom_mikhail/#stage-70">More rats!</a></p>
+<ul>
+<li>“OK.” → <em>conversation ends</em></li>
+<li>“Forget it.” → <em>conversation ends</em></li>
+<li>“Here I have some bread for you.” <em>(if hand over 1× <a href="../../items/bread/">Bread</a>)</em> → <a href="#d-ratdom_mikhail_10_20">ratdom_mikhail_10_20</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_70"></span><strong><code>ratdom_mikhail_70</code></strong> Gruiik: “Where is my bread? Why does it need to take so long?”</p>
+<ul>
+<li>“Just a minute.” → <em>conversation ends</em></li>
+<li>“Forget it.” → <em>conversation ends</em></li>
+<li>“Here I have some bread for you.” <em>(if hand over 1× <a href="../../items/bread/">Bread</a>)</em> → <a href="#d-ratdom_mikhail_74">ratdom_mikhail_74</a></li>
+<li>“Hey - I have brought some bread already.” <em>(if reached stage 74 of <a href="../../quests/ratdom_mikhail/#stage-74">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_80">ratdom_mikhail_80</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_01"></span><strong><code>ratdom_mikhail_01</code></strong> Gruiik: “Good. You are awake at last.”</p>
+<ul>
+<li>“A rat? Here?” → <a href="#d-ratdom_mikhail_02">ratdom_mikhail_02</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_50_2"></span><strong><code>ratdom_mikhail_50_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 52 of <a href="../../quests/ratdom_mikhail/#stage-52">More rats!</a></p>
+<ul>
+<li>branch 1 → <a href="#d-ratdom_mikhail_50_10">ratdom_mikhail_50_10</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_50_4"></span><strong><code>ratdom_mikhail_50_4</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 54 of <a href="../../quests/ratdom_mikhail/#stage-54">More rats!</a></p>
+<ul>
+<li>branch 1 → <a href="#d-ratdom_mikhail_50_10">ratdom_mikhail_50_10</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_10_20"></span><strong><code>ratdom_mikhail_10_20</code></strong> Gruiik: “It's about time.” — <strong>effects:</strong> sets stage 74 of <a href="../../quests/ratdom_mikhail/#stage-74">More rats!</a></p>
+<ul>
+<li>“What - no thanks? Rats.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_mikhail_74"></span><strong><code>ratdom_mikhail_74</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 74 of <a href="../../quests/ratdom_mikhail/#stage-74">More rats!</a></p>
+<ul>
+<li>branch 1 <em>(if reached stage 52 of <a href="../../quests/ratdom_mikhail/#stage-52">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_80">ratdom_mikhail_80</a></li>
+<li>branch 2 <em>(if reached stage 54 of <a href="../../quests/ratdom_mikhail/#stage-54">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_80">ratdom_mikhail_80</a></li>
+<li>branch 3 → <a href="#d-ratdom_mikhail_10_20">ratdom_mikhail_10_20</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_80"></span><strong><code>ratdom_mikhail_80</code></strong> Gruiik: “Good! Now I don't need you anymore!” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/ratdom_mikhail/#stage-90">More rats!</a></p>
+<ul>
+<li>“OK.” → <em>conversation ends</em></li>
+<li>“I would have gone anyway.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_mikhail_02"></span><strong><code>ratdom_mikhail_02</code></strong> Gruiik: “As you see. Did you find your brother Andor already? He hasn't been back home for a while now.”</p>
+<ul>
+<li>“Eh, what? No, I am still looking for Andor.” → <a href="#d-ratdom_mikhail_03">ratdom_mikhail_03</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_50_10"></span><strong><code>ratdom_mikhail_50_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 70 of <a href="../../quests/ratdom_mikhail/#stage-70">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_10_10">ratdom_mikhail_10_10</a></li>
+<li>branch 2 <em>(if NOT reached stage 74 of <a href="../../quests/ratdom_mikhail/#stage-74">More rats!</a>)</em> → <a href="#d-ratdom_mikhail_70">ratdom_mikhail_70</a></li>
+<li>branch 3 → <a href="#d-ratdom_mikhail_80">ratdom_mikhail_80</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_03"></span><strong><code>ratdom_mikhail_03</code></strong> Gruiik: “I should have guessed. Anyway.”</p>
+<ul>
+<li>“What are you doing in my house? Where is Mikhail?” → <a href="#d-ratdom_mikhail_04">ratdom_mikhail_04</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_04"></span><strong><code>ratdom_mikhail_04</code></strong> Gruiik: “We rats took over this village. I am Gruiik, their leader.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/ratdom_mikhail/#stage-10">More rats!</a></p>
+<ul>
+<li>Next → <a href="#d-ratdom_mikhail_10">ratdom_mikhail_10</a></li>
+</ul>
+<p><span id="d-ratdom_mikhail_10"></span><strong><code>ratdom_mikhail_10</code></strong> Gruiik: “However, there are two-legs running around in my garden again. Go and kill them.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/ratdom_mikhail/#stage-20">More rats!</a></p>
+<ul>
+<li>“I'll have a look.” → <a href="#d-ratdom_mikhail_10_10">ratdom_mikhail_10_10</a></li>
+<li>“I would never do that!” → <a href="#d-ratdom_mikhail_10_10">ratdom_mikhail_10_10</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_mikhail.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_mikhail.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_mikhail.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_mikhail.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ratdom_mikhail</code> · Data from v0.8.18</small></p>
 
 

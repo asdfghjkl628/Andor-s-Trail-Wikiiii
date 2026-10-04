@@ -855,6 +855,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -958,6 +1030,233 @@
 <ul>
 <li><a href="../../maps/swamp_hut/">swamp_hut</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fogmonster/">Fog in the woods</a>: stages 30, 80, 90, 92</li>
+<li><a href="../../quests/feygard_fog/">feygard fog (hidden flag)</a>: stages 1, 2, 3, 4, 5, 7, 8, 9</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (48 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-swamp_witch"></span><strong><code>swamp_witch</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 90 of <a href="../../quests/fogmonster/#stage-90">Fog in the woods</a>)</em> → <a href="#d-swamp_witch_90">swamp_witch_90</a></li>
+<li>Next <em>(if reached stage 80 of <a href="../../quests/fogmonster/#stage-80">Fog in the woods</a>)</em> → <a href="#d-swamp_witch_80">swamp_witch_80</a></li>
+<li>Next → <a href="#d-swamp_witch_20">swamp_witch_20</a></li>
+</ul>
+<p><span id="d-swamp_witch_90"></span><strong><code>swamp_witch_90</code></strong> Madame Mim: “Oh - how did you pass through my distraction fence?”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_90_10">swamp_witch_90_10</a></li>
+</ul>
+<p><span id="d-swamp_witch_80"></span><strong><code>swamp_witch_80</code></strong> Madame Mim: “You again! You promised me peace and solitude!”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_90_10">swamp_witch_90_10</a></li>
+</ul>
+<p><span id="d-swamp_witch_20"></span><strong><code>swamp_witch_20</code></strong> Madame Mim: “Who dares disturb my solitude? Be gone, or face my wrath!” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/fogmonster/#stage-30">Fog in the woods</a></p>
+<ul>
+<li>“Sorry. I got lost in the fog.” → <a href="#d-swamp_witch_20_10">swamp_witch_20_10</a></li>
+<li>“I am not afraid of you. (You grope for your weapon)” → <a href="#d-swamp_witch_20_210">swamp_witch_20_210</a></li>
+</ul>
+<p><span id="d-swamp_witch_90_10"></span><strong><code>swamp_witch_90_10</code></strong> Madame Mim: “Go away!”</p>
+<ul>
+<li>“OK, sorry for disturbing your peace.” → <em>conversation ends</em></li>
+<li>“Can I buy more of your medicinal water?” → <a href="#d-swamp_witch_90_20">swamp_witch_90_20</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_10"></span><strong><code>swamp_witch_20_10</code></strong> Madame Mim: “Oh, how touching. The brave little hero got themselves lost, did they?”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_12">swamp_witch_20_12</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_210"></span><strong><code>swamp_witch_20_210</code></strong> <a href="../none/">Dummy NPC</a>: “The old witch raises her hands, chanting ominously.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_212">swamp_witch_20_212</a></li>
+</ul>
+<p><span id="d-swamp_witch_90_20"></span><strong><code>swamp_witch_90_20</code></strong> <a href="../swamp_witch_shop/">Madame Mim</a>: “Well, if you promise to finally leave me alone afterwards.”</p>
+<ul>
+<li>“Sure” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_12"></span><strong><code>swamp_witch_20_12</code></strong> Madame Mim: “And now you expect me to help you? Ha!”</p>
+<ul>
+<li>“Yes, please.” → <a href="#d-swamp_witch_20_30">swamp_witch_20_30</a></li>
+<li>“No. I can handle myself as always.” → <em>conversation ends</em></li>
+<li>“I managed to defeat the fog monsters that caused it.” → <a href="#d-swamp_witch_20_20">swamp_witch_20_20</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_212"></span><strong><code>swamp_witch_20_212</code></strong> <a href="./">Madame Mim</a>: “A curse upon you, little one! May darkness be your companion, and fear be your guide!”</p>
+<ul>
+<li>“I won't let you curse me! (Draws the weapon)” → <a href="#d-swamp_witch_20_214">swamp_witch_20_214</a></li>
+<li>“I'm sorry, ma'am. Please forgive me.” → <a href="#d-swamp_witch_20_24">swamp_witch_20_24</a></li>
+<li>“Wait! Spare me please. I'll give you ...” → <a href="#d-swamp_witch_20_220">swamp_witch_20_220</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_30"></span><strong><code>swamp_witch_20_30</code></strong> Madame Mim: “[Grumbles] Lost, you say? It's your own fault for wandering where you don't belong. I prefer to be left alone, away from the meddling of outsiders.”</p>
+<ul>
+<li>“I understand, and I'm really sorry. I promise I'll leave as soon as you point me in the right direction.” → <a href="#d-swamp_witch_20_40">swamp_witch_20_40</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_20"></span><strong><code>swamp_witch_20_20</code></strong> Madame Mim: “Defeated my fog monsters, did you? Meddlesome brat!”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_22">swamp_witch_20_22</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_214"></span><strong><code>swamp_witch_20_214</code></strong> Madame Mim: “Hahaha! You? Defeat me? We shall see!”</p>
+<ul>
+<li>“Attack!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_24"></span><strong><code>swamp_witch_20_24</code></strong> Madame Mim: “And?”</p>
+<ul>
+<li>“And I just wanted to find my way to Feygard.” → <a href="#d-swamp_witch_20_40">swamp_witch_20_40</a></li>
+<li>“I just want to find my way home.” → <a href="#d-swamp_witch_20_40">swamp_witch_20_40</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_220"></span><strong><code>swamp_witch_20_220</code></strong> Madame Mim: “Oh, the heroic little braveheart, off to save their own skin.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_222">swamp_witch_20_222</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_40"></span><strong><code>swamp_witch_20_40</code></strong> Madame Mim: “[Grinning wickedly] That is easy. Go outside and far away. As fast as possible.”</p>
+<ul>
+<li>“Thank you! You're really kind ...” → <a href="#d-swamp_witch_20_42">swamp_witch_20_42</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_22"></span><strong><code>swamp_witch_20_22</code></strong> Madame Mim: “Those creatures were my only protection from unwanted visitors like you!”</p>
+<ul>
+<li>“I didn't know. The fog was disorienting ...” → <a href="#d-swamp_witch_20_24">swamp_witch_20_24</a></li>
+<li>“I'm sorry, I didn't mean to disturb you.” → <a href="#d-swamp_witch_20_24">swamp_witch_20_24</a></li>
+<li>“Not much of a protection, were they.” → <a href="#d-swamp_witch_20_200">swamp_witch_20_200</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_222"></span><strong><code>swamp_witch_20_222</code></strong> Madame Mim: “What do you offer me?”</p>
+<ul>
+<li>“100 gold coins” <em>(if pay 100 gold)</em> → <a href="#d-swamp_witch_20_228">swamp_witch_20_228</a></li>
+<li>“My Ring of the Lesser Shadow” <em>(if carry 1× <a href="../../items/ring_shadow0/">Ring of lesser Shadow</a>)</em> → <a href="#d-swamp_witch_20_228">swamp_witch_20_228</a></li>
+<li>“My Ring of the Lesser Shadow” <em>(if NOT carry 1× <a href="../../items/ring_shadow0/">Ring of lesser Shadow</a>)</em> → <a href="#d-swamp_witch_20_228b">swamp_witch_20_228b</a></li>
+<li>“A quick death” → <a href="#d-swamp_witch_20_214">swamp_witch_20_214</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_42"></span><strong><code>swamp_witch_20_42</code></strong> Madame Mim: “What?”</p>
+<ul>
+<li>“... despite what I have always heard about witches in the swamp.” → <a href="#d-swamp_witch_20_50">swamp_witch_20_50</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_200"></span><strong><code>swamp_witch_20_200</code></strong> Madame Mim: “[Grinning wickedly] I think it's time you learn a lesson, meddling child.”</p>
+<ul>
+<li>“What are you going to do?” → <a href="#d-swamp_witch_20_210">swamp_witch_20_210</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_228"></span><strong><code>swamp_witch_20_228</code></strong> Madame Mim: “I have no need for that. But I will take it nevertheless.”</p>
+<ul>
+<li>“NO! I changed my mind.” → <a href="#d-swamp_witch_20_222">swamp_witch_20_222</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_228b"></span><strong><code>swamp_witch_20_228b</code></strong> Madame Mim: “You don't even have this ring. Don't show off like that!”</p>
+<ul>
+<li>“Eh ...” → <a href="#d-swamp_witch_20_222">swamp_witch_20_222</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_50"></span><strong><code>swamp_witch_20_50</code></strong> Madame Mim: “[Gruffly] Kind? Bah! I simply don't want the likes of you lingering around here.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_60">swamp_witch_20_60</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_60"></span><strong><code>swamp_witch_20_60</code></strong> Madame Mim: “Now, listen carefully, child. I will wait a few minutes before I create fog again.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_62">swamp_witch_20_62</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_62"></span><strong><code>swamp_witch_20_62</code></strong> Madame Mim: “Be sure to be out of the area.”</p>
+<ul>
+<li>“I appreciate your help. I promise I'll be away for good. But can I ask you something else before I leave?” → <a href="#d-swamp_witch_20_70">swamp_witch_20_70</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_70"></span><strong><code>swamp_witch_20_70</code></strong> Madame Mim: “[Sighs] Make it quick, then. I don't have all night.”</p>
+<ul>
+<li>“Why do you live all alone in this swamp? Don't you ever get lonely?” → <a href="#d-swamp_witch_20_80">swamp_witch_20_80</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_80"></span><strong><code>swamp_witch_20_80</code></strong> Madame Mim: “Men used to laugh at me. They threw stones at me and finally tried to burn my house.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_82">swamp_witch_20_82</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_82"></span><strong><code>swamp_witch_20_82</code></strong> Madame Mim: “All I want is peace and to enjoy my lovely garden outside.”</p>
+<ul>
+<li>“You mean the swamp?” → <a href="#d-swamp_witch_20_84">swamp_witch_20_84</a></li>
+<li>“Eh, yes, your garden is beautiful.” → <a href="#d-swamp_witch_20_90">swamp_witch_20_90</a></li>
+<li>“You want peace and loneliness?” → <a href="#d-swamp_witch_20_100">swamp_witch_20_100</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_84"></span><strong><code>swamp_witch_20_84</code></strong> Madame Mim: “How dare you!”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_200">swamp_witch_20_200</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_90"></span><strong><code>swamp_witch_20_90</code></strong> Madame Mim: “Yes, it is. At least one person who knows beauty when they see it.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_92">swamp_witch_20_92</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_100"></span><strong><code>swamp_witch_20_100</code></strong> Madame Mim: “Loneliness is a price I'm willing to pay for my solitude.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_102">swamp_witch_20_102</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_92"></span><strong><code>swamp_witch_20_92</code></strong> Madame Mim: “Well, I shall spare you... this time. Now leave my sight and never return!”</p>
+<ul>
+<li>“It was sort of nice to meet you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_102"></span><strong><code>swamp_witch_20_102</code></strong> Madame Mim: “People fear me because of my powers, and I grow weary of their endless superstitions and suspicions. Here, far from any village, I can be myself without interference.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_104">swamp_witch_20_104</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_104"></span><strong><code>swamp_witch_20_104</code></strong> Madame Mim: “Here I have found peace at last.”</p>
+<ul>
+<li>“I'm sorry people treat you that way. But maybe if they got to know you, they wouldn't be so afraid.” → <a href="#d-swamp_witch_20_110">swamp_witch_20_110</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_110"></span><strong><code>swamp_witch_20_110</code></strong> Madame Mim: “Bah! Humans will always fear what they don't understand.”</p>
+<ul>
+<li>“Maybe you are right. Let me think ...” → <a href="#d-swamp_witch_20_120">swamp_witch_20_120</a></li>
+<li>“Right. And now you should fear me - attack!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_120"></span><strong><code>swamp_witch_20_120</code></strong> Madame Mim: “Hmph, fine. But be quick about it.”</p>
+<ul>
+<li>“Shrink the fog in the north.” → <a href="#d-swamp_witch_20_130">swamp_witch_20_130</a></li>
+<li>“Release the fog.” → <a href="#d-swamp_witch_20_140">swamp_witch_20_140</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_130"></span><strong><code>swamp_witch_20_130</code></strong> Madame Mim: “[Eyeing you suspiciously] What?!”</p>
+<ul>
+<li>“People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in the north,…” → <a href="#d-swamp_witch_20_132">swamp_witch_20_132</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_140"></span><strong><code>swamp_witch_20_140</code></strong> Madame Mim: “[Eyeing you suspiciously] What?!”</p>
+<ul>
+<li>“People have trouble that the way to Feygard is barred by your fog. No fog on the road, no reason to visit you.” → <a href="#d-swamp_witch_20_142">swamp_witch_20_142</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_132"></span><strong><code>swamp_witch_20_132</code></strong> Madame Mim: “Hmm. Sounds reasonable.”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_134">swamp_witch_20_134</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_142"></span><strong><code>swamp_witch_20_142</code></strong> Madame Mim: “Hmm. Sounds reasonable.”</p>
+<ul>
+<li>“And being a witch, you can certainly put a spell around your swamp that will distract people from wanting to come here.” → <a href="#d-swamp_witch_20_144">swamp_witch_20_144</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_134"></span><strong><code>swamp_witch_20_134</code></strong> Madame Mim: “Agreed. Here child, take these sweets and now begone!” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/fogmonster/#stage-80">Fog in the woods</a>, sets stage 8 of <a href="../../quests/feygard_fog/#stage-8">feygard fog (hidden flag)</a>, sets stage 7 of <a href="../../quests/feygard_fog/#stage-7">feygard fog (hidden flag)</a>, clears stage 1 of <a href="../../quests/feygard_fog/#stage-1">feygard fog (hidden flag)</a>, clears stage 6 of <a href="../../quests/feygard_fog/#stage-6">feygard fog (hidden flag)</a>, spawns monsters on guynmart_wood_14</p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+<li>“[grumbling] Sweets - I am no kid anymore.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_144"></span><strong><code>swamp_witch_20_144</code></strong> Madame Mim: “Swamp! what did you name my beautiful peace of land??”</p>
+<ul>
+<li>“Well, what else is it?” → <a href="#d-swamp_witch_20_84">swamp_witch_20_84</a></li>
+<li>“Uh, garden, I meant.” → <a href="#d-swamp_witch_20_150">swamp_witch_20_150</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_150"></span><strong><code>swamp_witch_20_150</code></strong> Madame Mim: “A distraction spell. That I didn't think of it myself ...”</p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_160">swamp_witch_20_160</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_160"></span><strong><code>swamp_witch_20_160</code></strong> Madame Mim: “Great. You deserve a reward for that. You may choose one thing from these:” — <strong>effects:</strong> sets stage 1 of <a href="../../quests/feygard_fog/#stage-1">feygard fog (hidden flag)</a>, sets stage 2 of <a href="../../quests/feygard_fog/#stage-2">feygard fog (hidden flag)</a>, sets stage 3 of <a href="../../quests/feygard_fog/#stage-3">feygard fog (hidden flag)</a>, sets stage 4 of <a href="../../quests/feygard_fog/#stage-4">feygard fog (hidden flag)</a>, sets stage 5 of <a href="../../quests/feygard_fog/#stage-5">feygard fog (hidden flag)</a>, clears stage 6 of <a href="../../quests/feygard_fog/#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="../../quests/feygard_fog/#stage-7">feygard fog (hidden flag)</a>, sets stage 9 of <a href="../../quests/feygard_fog/#stage-9">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../../quests/fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13</p>
+<ul>
+<li>“Gold and jewels” → <a href="#d-swamp_witch_20_170">swamp_witch_20_170</a></li>
+<li>“A vial of healing water from the garden” → <a href="#d-swamp_witch_20_180">swamp_witch_20_180</a></li>
+<li>“Everlasting thankfulness” → <a href="#d-swamp_witch_20_190">swamp_witch_20_190</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_170"></span><strong><code>swamp_witch_20_170</code></strong> Madame Mim: “Here take this stuff. And now go and finally leave me alone.” — <strong>effects:</strong> gives 200× <a href="../../items/gold/">Gold coins</a>, gives 2× <a href="../../items/swampwitch_health/">Madame Mim's Medicine</a></p>
+<p><span id="d-swamp_witch_20_180"></span><strong><code>swamp_witch_20_180</code></strong> <a href="../swamp_witch_shop/">Madame Mim</a>: “Well, choose what you want. Of course you'll have to pay for it.”</p>
+<ul>
+<li>Next → <em>shop opens</em></li>
+</ul>
+<p><span id="d-swamp_witch_20_190"></span><strong><code>swamp_witch_20_190</code></strong> Madame Mim: “You have it. And now go and finally leave me alone. Otherwise I'll turn you into a frog. [Muttering] Here, take this bottle.” — <strong>effects:</strong> gives 1× <a href="../../items/swampwitch_health/">Madame Mim's Medicine</a>, sets stage 92 of <a href="../../quests/fogmonster/#stage-92">Fog in the woods</a></p>
+<ul>
+<li>Next → <a href="#d-swamp_witch_20_192">swamp_witch_20_192</a></li>
+</ul>
+<p><span id="d-swamp_witch_20_192"></span><strong><code>swamp_witch_20_192</code></strong> Madame Mim: “Still here? Begone!”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=swamp_witch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=swamp_witch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=swamp_witch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=swamp_witch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>swamp_witch</code> · Data from v0.8.18</small></p>
 
 

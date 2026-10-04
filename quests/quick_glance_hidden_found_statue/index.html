@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,41 +971,240 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>quick_glance_hidden_found_statue</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>walking into a blocked passage on <a href="../../maps/basiliskcave2/">basiliskcave2</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/fangwurm/">Fangwurm</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/brimhaven_church/">brimhaven_church</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Found Statue</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to walking into a blocked passage on <a href="../../maps/basiliskcave2/">basiliskcave2</a> to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../quick_glance/#stage-60">A quick glance</a></td>
+<td>stage 60 reached, for stages 20, 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../quick_glance/#stage-40">A quick glance</a></td>
+<td>stage 40 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../quick_glance/#stage-50">A quick glance</a></td>
+<td>stage 50 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../quick_glance/#stage-90">A quick glance</a></td>
+<td>stage 90 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../quick_glance/#stage-20">A quick glance</a></td>
+<td>reaching stage 10 here closes stage 20 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../quick_glance/#stage-80">A quick glance</a></td>
+<td>reaching stage 30 here closes stage 80 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../quick_glance/#stage-85">A quick glance</a></td>
+<td>reaching stage 30 here closes stage 85 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Found Statue</td>
+<td>walking into a blocked passage on <a href="../../maps/basiliskcave2/">basiliskcave2</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Removed Statue<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/basiliskcave2/">Basiliskcave2</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/basiliskcave2/">Basiliskcave2</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/basiliskcave2/">Basiliskcave2</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/basiliskcave2/">basiliskcave2</a></td>
+<td>carry 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a></td>
+<td>sets stage 85 of <a href="../quick_glance/#stage-85">A quick glance</a><br>spawns monsters on brimhaven_anakis_house</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>Decided what to do with the Basilisks blood<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/basiliskcave2/">Basiliskcave2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/basiliskcave2/">basiliskcave2</a></td>
+<td>carry 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a>, hand over 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a></td>
+<td>sets stage 85 of <a href="../quick_glance/#stage-85">A quick glance</a><br>spawns monsters on brimhaven_anakis_house<br>gives 1× <a href="../../items/basilisk_blood/">Basilisk blood</a></td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>Killed Basilisk and left the room</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>Told Fangwurm about keeping the blood for myself</td>
+<td><a href="../../monsters/fangwurm/">Fangwurm</a> (<a href="../../maps/brimhaven_church/">brimhaven_church</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Told Fangwurm about killling the Basilisk</td>
+<td><a href="../../monsters/fangwurm/">Fangwurm</a> (<a href="../../maps/brimhaven_church/">brimhaven_church</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>quick_glance_hidden_found_statue</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/basiliskcave2/">basiliskcave2</a> → the conversation leads here automatically → <strong>stage 10</strong>. NPC: “This stone statue looks almost like a real woman.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/basiliskcave2/">basiliskcave2</a> → choose “I use the crystal vial and pour the blood over the stone statue.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="./#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; reached stage 60 of <a href="../quick_glance/#stage-60">A quick glance</a>; carry 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a> → <strong>stage 20</strong>; also sets stage 85 of <a href="../quick_glance/#stage-85">A quick glance</a>, spawns monsters on brimhaven_anakis_house. NPC: “Slowly the stone statue gets colorful and starts to move. You healed the woman! After she comes back to life, she…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/basiliskcave2/">basiliskcave2</a> → choose “I use the crystal vial and pour the blood over the stone statue.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="./#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; reached stage 60 of <a href="../quick_glance/#stage-60">A quick glance</a>; carry 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a> → <strong>stage 30</strong>; also sets stage 85 of <a href="../quick_glance/#stage-85">A quick glance</a>, spawns monsters on brimhaven_anakis_house. NPC: “Slowly the stone statue gets colorful and starts to move. You healed the woman! After she comes back to life, she…”</li>
+<li>stepping on a trigger on <a href="../../maps/basiliskcave2/">basiliskcave2</a> → choose “I keep the blood for myself using the empty crystal vial.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="./#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; reached stage 60 of <a href="../quick_glance/#stage-60">A quick glance</a>; hand over 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a> → <strong>stage 30</strong>; also gives 1× <a href="../../items/basilisk_blood/">Basilisk blood</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/fangwurm/">Fangwurm</a> (<a href="../../maps/brimhaven_church/">brimhaven_church</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">quick_glance_hidden_found_statue (hidden flag)</a> → <strong>stage 50</strong>. NPC: “I am sad that you took the blood for yourself instead of trying to help Anakis' sister. Please leave now.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/fangwurm/">Fangwurm</a> (<a href="../../maps/brimhaven_church/">brimhaven_church</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">quick_glance_hidden_found_statue (hidden flag)</a> → <strong>stage 60</strong>. NPC: “Thank you for killing the Basilisk, but it would be better if you had talked to me before killing it, because its…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=quick_glance_hidden_found_statue.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=quick_glance_hidden_found_statue.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=quick_glance_hidden_found_statue.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=quick_glance_hidden_found_statue.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=quick_glance_hidden_found_statue.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>quick_glance_hidden_found_statue</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 40, 50, 60</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>sister_statue</code>, 20: <code>basiliskcave2_decided_to_heal</code>, 30: <code>basiliskcave2_decided_to_heal</code>, 30: <code>basiliskcave2_keep_blood</code>, 50: <code>fangwurm_angry</code>, 60: <code>fangwurm_thank_killing_basilisk</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

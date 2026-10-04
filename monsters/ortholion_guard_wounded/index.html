@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,59 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain31/">blackwater_mountain31</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Omi2_bwm1/">Climbing up is forbidden</a>: stages 34, 35</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (9 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ortholion_gw_selector"></span><strong><code>ortholion_gw_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 34 of <a href="../../quests/Omi2_bwm1/#stage-34">Climbing up is forbidden</a>)</em> → <a href="#d-ortholion_gw_sleeping">ortholion_gw_sleeping</a></li>
+<li>branch 2 → <a href="#d-ortholion_gw_1">ortholion_gw_1</a></li>
+</ul>
+<p><span id="d-ortholion_gw_sleeping"></span><strong><code>ortholion_gw_sleeping</code></strong> <a href="../none/">Dummy NPC</a>: “The scout is sleeping on the ground. Her wounds don't seem to be that bad.”</p>
+<p><span id="d-ortholion_gw_1"></span><strong><code>ortholion_gw_1</code></strong> Wounded Feygard mountain scout: “<em>cough</em>, <em>cough</em> What the... <em>cough</em>. Go back home kid, quick. This place is <em>cough</em>, dangerous.”</p>
+<ul>
+<li>“Where can I find General Ortholion?” → <a href="#d-ortholion_gw_2a">ortholion_gw_2a</a></li>
+<li>“Gonna rest here first, sweet dreams.” → <em>conversation ends</em></li>
+<li>“What happened to you?” → <a href="#d-ortholion_gw_2b">ortholion_gw_2b</a></li>
+</ul>
+<p><span id="d-ortholion_gw_2a"></span><strong><code>ortholion_gw_2a</code></strong> Wounded Feygard mountain scout: “What? What do you have to do with <em>cough</em>, him?”</p>
+<ul>
+<li>“[Lie] I have an important message to deliver to him. It comes from Prim.” → <a href="#d-ortholion_gw_3a">ortholion_gw_3a</a></li>
+<li>“Never mind, what happened to you?” → <a href="#d-ortholion_gw_2b">ortholion_gw_2b</a></li>
+</ul>
+<p><span id="d-ortholion_gw_2b"></span><strong><code>ortholion_gw_2b</code></strong> Wounded Feygard mountain scout: “We were on the way to Blackwater Settlement, when we <em>cough</em>, <em>cough</em>, were attacked by a group of white wyrms. I got, uh, somewhat injured... So my general decided I should wait right here, safe from the monsters.” — <strong>effects:</strong> sets stage 34 of <a href="../../quests/Omi2_bwm1/#stage-34">Climbing up is forbidden</a>, clears stage 16 of <a href="../../quests/bwm72_beginning/#stage-16">Hidden: events in bwm (hidden flag)</a></p>
+<ul>
+<li>“Hope you get better. I must leave.” → <a href="#d-ortholion_gw_3b">ortholion_gw_3b</a></li>
+<li>“OK. That's everything I need to know.” → <a href="#d-ortholion_gw_3c">ortholion_gw_3c</a></li>
+<li>“Feygard scum... Are you always such bigmouths? [Kill her]” → <a href="#d-ortholion_gw_4">ortholion_gw_4</a></li>
+</ul>
+<p><span id="d-ortholion_gw_3a"></span><strong><code>ortholion_gw_3a</code></strong> Wounded Feygard mountain scout: “I don't <em>cough</em>, think anybody would be that crazy to send a kid to a place like this. Sorry, <em>cough</em>, I don't have the energy to listen to nonsense.”</p>
+<p><span id="d-ortholion_gw_3b"></span><strong><code>ortholion_gw_3b</code></strong> Wounded Feygard mountain scout: “Thank you, thank <em>cough</em> you.”</p>
+<p><span id="d-ortholion_gw_3c"></span><strong><code>ortholion_gw_3c</code></strong> Wounded Feygard mountain scout: “What do you mean? <em>cough</em>”</p>
+<ul>
+<li>“Nothing at all, bye.” → <em>conversation ends</em></li>
+<li>“Sweet dreams, idiot! [Kill her]” → <a href="#d-ortholion_gw_4">ortholion_gw_4</a></li>
+</ul>
+<p><span id="d-ortholion_gw_4"></span><strong><code>ortholion_gw_4</code></strong> Wounded Feygard mountain scout: “Wh..<em>cough</em> NO! [You manage to land a fatal blow to the already wounded Feygard scout. Once you're sure she's dead, you set her body aside, out of the cabin]” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/Omi2_bwm1/#stage-35">Climbing up is forbidden</a>, removes monsters from blackwater_mountain31</p>
+<ul>
+<li>“One less. Good.” → <em>NPC leaves</em></li>
+<li>“That was easy.” → <em>NPC leaves</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard_wounded.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard_wounded.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard_wounded.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard_wounded.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ortholion_guard_wounded</code> · Data from v0.8.18</small></p>
 
 

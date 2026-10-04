@@ -833,6 +833,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +970,97 @@
 <ul>
 <li><a href="../../maps/brimhaven3/">brimhaven3</a></li>
 </ul>
+<details class="quote">
+<summary>Dialogue (19 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-guard_advent"></span><strong><code>guard_advent</code></strong> Guard: “I used to be an adventurer like you,”</p>
+<ul>
+<li>Next → <a href="#d-guard_advent_2">guard_advent_2</a></li>
+</ul>
+<p><span id="d-guard_advent_2"></span><strong><code>guard_advent_2</code></strong> Guard: “Then I took an arrow in the knee.”</p>
+<ul>
+<li>“Sorry for you.” → <em>conversation ends</em></li>
+<li>“That reminds me of a song.” <em>(if random chance (20%))</em> → <a href="#d-guard_advent_4">guard_advent_4</a></li>
+<li>“I'm wondering, do you know anything about Lawellyn's death?” <em>(if reached stage 130 of <a href="../../quests/brv_dagger/#stage-130">A strange looking dagger</a>; NOT reached stage 200 of <a href="../../quests/brv_dagger/#stage-200">A strange looking dagger</a>; NOT reached stage 230 of <a href="../../quests/brv_dagger/#stage-230">A strange looking dagger</a>)</em> → <a href="#d-guard_advent_asd_10">guard_advent_asd_10</a></li>
+</ul>
+<p><span id="d-guard_advent_4"></span><strong><code>guard_advent_4</code></strong> Guard: “I think I know which song you are thinking of.”</p>
+<ul>
+<li>“Shall we sing it together?” → <a href="#d-guard_advent_10">guard_advent_10</a></li>
+</ul>
+<p><span id="d-guard_advent_asd_10"></span><strong><code>guard_advent_asd_10</code></strong> Guard: “Death? The last I knew was that Arlish reported him missing.”</p>
+<p><span id="d-guard_advent_10"></span><strong><code>guard_advent_10</code></strong> Guard: “Mahna.”</p>
+<ul>
+<li>“Mahna mahna?” → <a href="#d-guard_advent_12">guard_advent_12</a></li>
+</ul>
+<p><span id="d-guard_advent_12"></span><strong><code>guard_advent_12</code></strong> Guard: “I took an arrow ...”</p>
+<ul>
+<li>“You took an arrow” → <a href="#d-guard_advent_14">guard_advent_14</a></li>
+</ul>
+<p><span id="d-guard_advent_14"></span><strong><code>guard_advent_14</code></strong> Guard: “... right in the knee.”</p>
+<ul>
+<li>“right in your knee” → <a href="#d-guard_advent_16">guard_advent_16</a></li>
+</ul>
+<p><span id="d-guard_advent_16"></span><strong><code>guard_advent_16</code></strong> Guard: “I took an arrow.”</p>
+<ul>
+<li>“You took an arrow, an arrow, an arrow, an evil dirty arrow in your knee.” → <a href="#d-guard_advent_20">guard_advent_20</a></li>
+</ul>
+<p><span id="d-guard_advent_20"></span><strong><code>guard_advent_20</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (50%))</em> → <a href="#d-guard_advent_22">guard_advent_22</a></li>
+<li>branch 2 → <a href="#d-guard_advent_30">guard_advent_30</a></li>
+</ul>
+<p><span id="d-guard_advent_22"></span><strong><code>guard_advent_22</code></strong> Guard: “-”</p>
+<ul>
+<li>“What?” → <a href="#d-guard_advent_30">guard_advent_30</a></li>
+</ul>
+<p><span id="d-guard_advent_30"></span><strong><code>guard_advent_30</code></strong> Guard: “I took an arrow ...”</p>
+<ul>
+<li>“He took an arrow” → <a href="#d-guard_advent_32">guard_advent_32</a></li>
+</ul>
+<p><span id="d-guard_advent_32"></span><strong><code>guard_advent_32</code></strong> Guard: “... right in the knee.”</p>
+<ul>
+<li>“right in his knee” → <a href="#d-guard_advent_34">guard_advent_34</a></li>
+</ul>
+<p><span id="d-guard_advent_34"></span><strong><code>guard_advent_34</code></strong> Guard: “I took an arrow.”</p>
+<ul>
+<li>“He took an arrow, an arrow, an arrow, an evil dirty arrow in his knee.” → <a href="#d-guard_advent_40">guard_advent_40</a></li>
+</ul>
+<p><span id="d-guard_advent_40"></span><strong><code>guard_advent_40</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (25%))</em> → <a href="#d-guard_advent_12">guard_advent_12</a></li>
+<li>branch 2 → <a href="#d-guard_advent_50">guard_advent_50</a></li>
+</ul>
+<p><span id="d-guard_advent_50"></span><strong><code>guard_advent_50</code></strong> Guard: “An adventurer like you,”</p>
+<ul>
+<li>Next → <a href="#d-guard_advent_52">guard_advent_52</a></li>
+</ul>
+<p><span id="d-guard_advent_52"></span><strong><code>guard_advent_52</code></strong> Guard: “I took an arrow in the knee!”</p>
+<ul>
+<li>Next → <a href="#d-guard_advent_54">guard_advent_54</a></li>
+</ul>
+<p><span id="d-guard_advent_54"></span><strong><code>guard_advent_54</code></strong> Guard: “adventunarrow, In the knee the arrow”</p>
+<ul>
+<li>Next → <a href="#d-guard_advent_56">guard_advent_56</a></li>
+</ul>
+<p><span id="d-guard_advent_56"></span><strong><code>guard_advent_56</code></strong> Guard: “La be di bap bap ...”</p>
+<ul>
+<li>Next → <a href="#d-guard_advent_58">guard_advent_58</a></li>
+</ul>
+<p><span id="d-guard_advent_58"></span><strong><code>guard_advent_58</code></strong> Guard: “Die be die be boo mbie La be di bap bap ...”</p>
+<ul>
+<li>“What??” → <a href="#d-guard_advent_12">guard_advent_12</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guard_advent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guard_advent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guard_advent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guard_advent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>guard_advent</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,198 @@
 <ul>
 <li><a href="../../maps/vilegard_wrye/">vilegard_wrye</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/wrye/">Uncertain cause</a>: stages 20, 30, 40, 41, 90</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stages 80</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (40 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-wrye_select_1"></span><strong><code>wrye_select_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/wrye/#stage-90">Uncertain cause</a>)</em> → <a href="#d-wrye_return_2">wrye_return_2</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/wrye/#stage-40">Uncertain cause</a>)</em> → <a href="#d-wrye_return_1">wrye_return_1</a></li>
+<li>branch 3 → <a href="#d-wrye_mourn_1">wrye_mourn_1</a></li>
+</ul>
+<p><span id="d-wrye_return_2"></span><strong><code>wrye_return_2</code></strong> Wrye: “Welcome back. Thank you for your help in finding out what happened to my son.”</p>
+<ul>
+<li>“Shadow be with you.” → <a href="#d-wrye_story_15">wrye_story_15</a></li>
+<li>“You are welcome.” → <a href="#d-wrye_story_15">wrye_story_15</a></li>
+<li>“Yes, I came back to deliver your order of a 'Lyre'. You must be good at playing it?” <em>(if hand over 1× <a href="../../items/brv_wh_item_02/">Lyre</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_wyre">brv_wh_delivery_wyre</a></li>
+</ul>
+<p><span id="d-wrye_return_1"></span><strong><code>wrye_return_1</code></strong> Wrye: “Welcome back. Have you found out anything about my son, Rincel?”</p>
+<ul>
+<li>“Can you tell me the story about what happened again?” → <a href="#d-wrye_mourn_5">wrye_mourn_5</a></li>
+<li>“No, I have not found anything yet.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+<li>“Yes, I have found out the story about what happened to him.” <em>(if reached stage 80 of <a href="../../quests/wrye/#stage-80">Uncertain cause</a>)</em> → <a href="#d-wrye_resolved_1">wrye_resolved_1</a></li>
+<li>“Not yet, but your order has finally arrived.” <em>(if carry 1× <a href="../../items/brv_wh_item_02/">Lyre</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_wyre_negative">brv_wh_delivery_wyre_negative</a></li>
+</ul>
+<p><span id="d-wrye_mourn_1"></span><strong><code>wrye_mourn_1</code></strong> Wrye: “Shadow help me.”</p>
+<ul>
+<li>“What is the matter?” → <a href="#d-wrye_mourn_2">wrye_mourn_2</a></li>
+<li>“Excuse me, I'm here to deliver your order for a 'Lyre'.” <em>(if carry 1× <a href="../../items/brv_wh_item_02/">Lyre</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>)</em> → <a href="#d-wrye_mourn_3">wrye_mourn_3</a></li>
+</ul>
+<p><span id="d-wrye_story_15"></span><strong><code>wrye_story_15</code></strong> Wrye: “Walk with the Shadow.”</p>
+<p><span id="d-brv_wh_delivery_wyre"></span><strong><code>brv_wh_delivery_wyre</code></strong> Wrye: “Yes, I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I die.” — <strong>effects:</strong> clears stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>, sets stage 80 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-80">Delivery - nondisplay (hidden flag)</a></p>
+<ul>
+<li>“My sincere condolence for the loss of your beloved son.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-wrye_mourn_5"></span><strong><code>wrye_mourn_5</code></strong> Wrye: “My son is dead, I know it! And it's those damn guards fault. Those guards with their snobby Feygard attitude.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_mourn_6">wrye_mourn_6</a></li>
+</ul>
+<p><span id="d-wrye_story_14"></span><strong><code>wrye_story_14</code></strong> Wrye: “Please return here as soon as you have found out anything.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_15">wrye_story_15</a></li>
+</ul>
+<p><span id="d-wrye_resolved_1"></span><strong><code>wrye_resolved_1</code></strong> Wrye: “Please tell me what happened to him!”</p>
+<ul>
+<li>“He left Vilegard by his own will because he wanted to see the great city of Feygard.” → <a href="#d-wrye_resolved_2">wrye_resolved_2</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_wyre_negative"></span><strong><code>brv_wh_delivery_wyre_negative</code></strong> Wrye: “That's not what I'm waiting for! Go out and find out what happened to my son, please!”</p>
+<p><span id="d-wrye_mourn_2"></span><strong><code>wrye_mourn_2</code></strong> Wrye: “My son! My son is gone.”</p>
+<ul>
+<li>“Jolnor said I should see you about your son.” <em>(if reached stage 10 of <a href="../../quests/wrye/#stage-10">Uncertain cause</a>)</em> → <a href="#d-wrye_mourn_5">wrye_mourn_5</a></li>
+<li>“What about him?” → <a href="#d-wrye_mourn_3">wrye_mourn_3</a></li>
+<li>“Maybe your order here will comfort you?” <em>(if carry 1× <a href="../../items/brv_wh_item_02/">Lyre</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>)</em> → <a href="#d-wrye_mourn_3">wrye_mourn_3</a></li>
+</ul>
+<p><span id="d-wrye_mourn_3"></span><strong><code>wrye_mourn_3</code></strong> Wrye: “I don't want to talk about it. Not with an outsider like you.”</p>
+<ul>
+<li>“Outsider?” → <a href="#d-wrye_mourn_4">wrye_mourn_4</a></li>
+<li>“Jolnor said I should see you about your son.” <em>(if reached stage 10 of <a href="../../quests/wrye/#stage-10">Uncertain cause</a>)</em> → <a href="#d-wrye_mourn_5">wrye_mourn_5</a></li>
+</ul>
+<p><span id="d-wrye_mourn_6"></span><strong><code>wrye_mourn_6</code></strong> Wrye: “At first they come with promises of protection and power. But then you really start to see them for what they are.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_mourn_7">wrye_mourn_7</a></li>
+</ul>
+<p><span id="d-wrye_resolved_2"></span><strong><code>wrye_resolved_2</code></strong> Wrye: “I don't believe it.”</p>
+<ul>
+<li>“He had secretly longed to go to Feygard, but didn't dare tell you.” → <a href="#d-wrye_resolved_3">wrye_resolved_3</a></li>
+</ul>
+<p><span id="d-wrye_mourn_4"></span><strong><code>wrye_mourn_4</code></strong> Wrye: “Please leave me. Oh Shadow, watch over me.”</p>
+<p><span id="d-wrye_mourn_7"></span><strong><code>wrye_mourn_7</code></strong> Wrye: “I can feel it in me. The Shadow speaks to me. He is dead.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/wrye/#stage-20">Uncertain cause</a></p>
+<ul>
+<li>“Can you tell me what happened?” → <a href="#d-wrye_story_1">wrye_story_1</a></li>
+<li>“What are you talking about?” → <a href="#d-wrye_story_1">wrye_story_1</a></li>
+<li>“Shadow be with you.” → <a href="#d-wrye_mourn_8">wrye_mourn_8</a></li>
+</ul>
+<p><span id="d-wrye_resolved_3"></span><strong><code>wrye_resolved_3</code></strong> Wrye: “Really?”</p>
+<ul>
+<li>“But he never got far. He was attacked while camping one night.” → <a href="#d-wrye_resolved_4">wrye_resolved_4</a></li>
+</ul>
+<p><span id="d-wrye_story_1"></span><strong><code>wrye_story_1</code></strong> Wrye: “It all started with those Feygard royal guards coming here.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_2">wrye_story_2</a></li>
+</ul>
+<p><span id="d-wrye_mourn_8"></span><strong><code>wrye_mourn_8</code></strong> Wrye: “Thank you. Shadow watch over me.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_1">wrye_story_1</a></li>
+</ul>
+<p><span id="d-wrye_resolved_4"></span><strong><code>wrye_resolved_4</code></strong> Wrye: “Attacked?”</p>
+<ul>
+<li>“Yes, he could not stand up to the monsters, and was critically wounded.” → <a href="#d-wrye_resolved_5">wrye_resolved_5</a></li>
+</ul>
+<p><span id="d-wrye_story_2"></span><strong><code>wrye_story_2</code></strong> Wrye: “They tried to pressure everyone in Vilegard into recruiting more soldiers.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_3">wrye_story_3</a></li>
+</ul>
+<p><span id="d-wrye_resolved_5"></span><strong><code>wrye_resolved_5</code></strong> Wrye: “My dear boy.”</p>
+<ul>
+<li>“I talked to a man that found him bleeding to death.” → <a href="#d-wrye_resolved_6">wrye_resolved_6</a></li>
+</ul>
+<p><span id="d-wrye_story_3"></span><strong><code>wrye_story_3</code></strong> Wrye: “The guards would say they needed more support to help squelch the supposed uprising and sabotage.”</p>
+<ul>
+<li>“How did this relate to your son?” → <a href="#d-wrye_story_4">wrye_story_4</a></li>
+<li>“Are you going to get to the point soon?” → <a href="#d-wrye_story_4">wrye_story_4</a></li>
+</ul>
+<p><span id="d-wrye_resolved_6"></span><strong><code>wrye_resolved_6</code></strong> Wrye: “He was still alive?”</p>
+<ul>
+<li>“Yes, but not for long. He did not survive the wounds. He is now buried to the northwest of Vilegard.” → <a href="#d-wrye_resolved_7">wrye_resolved_7</a></li>
+</ul>
+<p><span id="d-wrye_story_4"></span><strong><code>wrye_story_4</code></strong> Wrye: “My son, Rincel, did not seem to care much for the stories they told.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_5">wrye_story_5</a></li>
+</ul>
+<p><span id="d-wrye_resolved_7"></span><strong><code>wrye_resolved_7</code></strong> Wrye: “Oh my poor boy. What have I done?” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/wrye/#stage-90">Uncertain cause</a></p>
+<ul>
+<li>Next → <a href="#d-wrye_resolved_8">wrye_resolved_8</a></li>
+</ul>
+<p><span id="d-wrye_story_5"></span><strong><code>wrye_story_5</code></strong> Wrye: “I also told Rincel of how bad an idea I thought it was to recruit more people to the Royal Guard.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_6">wrye_story_6</a></li>
+</ul>
+<p><span id="d-wrye_resolved_8"></span><strong><code>wrye_resolved_8</code></strong> Wrye: “I always thought he shared my view of those Feygard snobs.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_resolved_9">wrye_resolved_9</a></li>
+</ul>
+<p><span id="d-wrye_story_6"></span><strong><code>wrye_story_6</code></strong> Wrye: “The guards stayed a couple of days to talk to everyone here in Vilegard. Then they left. They went to the next town I guess.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_7">wrye_story_7</a></li>
+</ul>
+<p><span id="d-wrye_resolved_9"></span><strong><code>wrye_resolved_9</code></strong> Wrye: “And now he is not with us anymore.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_resolved_10">wrye_resolved_10</a></li>
+</ul>
+<p><span id="d-wrye_story_7"></span><strong><code>wrye_story_7</code></strong> Wrye: “A few days passed, and then suddenly my boy Rincel was gone one day. I am sure those guards managed to somehow persuade him to join them.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_8">wrye_story_8</a></li>
+</ul>
+<p><span id="d-wrye_resolved_10"></span><strong><code>wrye_resolved_10</code></strong> Wrye: “Thank you, friend, for finding out what happened to him and telling me the truth.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_resolved_11">wrye_resolved_11</a></li>
+</ul>
+<p><span id="d-wrye_story_8"></span><strong><code>wrye_story_8</code></strong> Wrye: “Oh how I despise those evil and snobby Feygard bastards.”</p>
+<ul>
+<li>“What now?” → <a href="#d-wrye_story_9">wrye_story_9</a></li>
+</ul>
+<p><span id="d-wrye_resolved_11"></span><strong><code>wrye_resolved_11</code></strong> Wrye: “Oh my poor boy.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_mourn_4">wrye_mourn_4</a></li>
+</ul>
+<p><span id="d-wrye_story_9"></span><strong><code>wrye_story_9</code></strong> Wrye: “This was several weeks ago. Now I feel an emptiness inside. I know in me that something has happened to my son Rincel.”</p>
+<ul>
+<li>Next → <a href="#d-wrye_story_10">wrye_story_10</a></li>
+</ul>
+<p><span id="d-wrye_story_10"></span><strong><code>wrye_story_10</code></strong> Wrye: “I fear he has died or got hurt somehow. Those bastards probably drove him into his own death.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/wrye/#stage-30">Uncertain cause</a></p>
+<ul>
+<li>Next → <a href="#d-wrye_story_11">wrye_story_11</a></li>
+</ul>
+<p><span id="d-wrye_story_11"></span><strong><code>wrye_story_11</code></strong> Wrye: “<em>sob</em> Shadow help me.”</p>
+<ul>
+<li>“What can I do to help?” → <a href="#d-wrye_story_13">wrye_story_13</a></li>
+<li>“That sounds awful. I am sure you are just imagining things.” → <a href="#d-wrye_story_13">wrye_story_13</a></li>
+<li>“Do you have proof that the people from Feygard are involved?” → <a href="#d-wrye_story_12">wrye_story_12</a></li>
+</ul>
+<p><span id="d-wrye_story_13"></span><strong><code>wrye_story_13</code></strong> Wrye: “If you want to help me, please find out what happened to my son, Rincel.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/wrye/#stage-40">Uncertain cause</a></p>
+<ul>
+<li>“Any idea where I should look?” → <a href="#d-wrye_story_16">wrye_story_16</a></li>
+<li>“OK. I will go look for your son. I sure hope there will be some reward for this.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+<li>“By the Shadow, your son will be avenged.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+</ul>
+<p><span id="d-wrye_story_12"></span><strong><code>wrye_story_12</code></strong> Wrye: “No, but I know it in me that they are. The Shadow speaks to me.”</p>
+<ul>
+<li>“OK. Is there anything I can do to help?” → <a href="#d-wrye_story_13">wrye_story_13</a></li>
+<li>“You sound a bit too occupied with the Shadow. I want no part of this.” → <a href="#d-wrye_mourn_4">wrye_mourn_4</a></li>
+<li>“I probably shouldn't get involved in this if it means that I could upset the royal guard.” → <a href="#d-wrye_mourn_4">wrye_mourn_4</a></li>
+</ul>
+<p><span id="d-wrye_story_16"></span><strong><code>wrye_story_16</code></strong> Wrye: “I guess you could ask in the tavern here in Vilegard, or the Foaming Flask tavern just north of here.” — <strong>effects:</strong> sets stage 41 of <a href="../../quests/wrye/#stage-41">Uncertain cause</a></p>
+<ul>
+<li>“By the Shadow, your son will be avenged.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+<li>“OK. I will go look for your son. I sure hope there will be some reward for this.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+<li>“OK. I will go look for your son so that you may know what happened to him.” → <a href="#d-wrye_story_14">wrye_story_14</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wrye.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wrye.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wrye.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wrye.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>wrye</code> · Data from v0.8.18</small></p>
 
 

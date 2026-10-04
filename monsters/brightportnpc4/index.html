@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,56 @@
 <ul>
 <li><a href="../../maps/brightport_school12/">brightport_school12</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Stanwickquest/">No rest for the wicked</a>: stages 45</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 42, 45</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (8 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_franz_selector"></span><strong><code>brightport_franz_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT 6 rounds passed since timer “franz_note_read_timer”; NOT latest stage of <a href="../../quests/Stanwickquest/#stage-45">No rest for the wicked</a> is 45; reached stage 45 of <a href="../../quests/brightport_nondisplay/#stage-45">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_franz3">brightport_franz3</a></li>
+<li>Next <em>(if reached stage 45 of <a href="../../quests/brightport_nondisplay/#stage-45">brightport_nondisplay (hidden flag)</a>; 6 rounds passed since timer “franz_note_read_timer”; NOT reached stage 45 of <a href="../../quests/Stanwickquest/#stage-45">No rest for the wicked</a>)</em> → <a href="#d-brightport_franz">brightport_franz</a></li>
+<li>Next → <a href="#d-brightport_franz1">brightport_franz1</a></li>
+</ul>
+<p><span id="d-brightport_franz3"></span><strong><code>brightport_franz3</code></strong> Franz: “I haven't read your question yet. Come back later.”</p>
+<p><span id="d-brightport_franz"></span><strong><code>brightport_franz</code></strong> Franz: “I've read your question, but I must say, your handwriting could use some improvement.”</p>
+<ul>
+<li>“Hey, if you'd slain dragons like me, you wouldn't have time to practice either.” → <a href="#d-brightport_franz4">brightport_franz4</a></li>
+<li>“Tsk, skip to the answer please.” → <a href="#d-brightport_franz4">brightport_franz4</a></li>
+</ul>
+<p><span id="d-brightport_franz1"></span><strong><code>brightport_franz1</code></strong> <a href="./">Franz</a>: “I am currently busy grading today's assignment papers. If you have any questions, please write them down and bring them to me.”</p>
+<ul>
+<li>“[Give written note]” <em>(if hand over 1× <a href="../../items/brightport_note/">Written note</a>)</em> → <a href="#d-brightport_franz2">brightport_franz2</a></li>
+<li>“Could you tell me what you know about the library theft?” <em>(if NOT reached stage 45 of <a href="../../quests/brightport_nondisplay/#stage-45">brightport_nondisplay (hidden flag)</a>; reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>)</em> → <a href="#d-brightport_franz6">brightport_franz6</a></li>
+<li>“Never mind, that's too much hassle.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_franz4"></span><strong><code>brightport_franz4</code></strong> Franz: “There is not much I can tell you about the incident. None of us teachers knew anything about the scroll or where it was kept. In such a case, one might presume that the most logical step would be to investigate the room where it was stored.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/Stanwickquest/#stage-45">No rest for the wicked</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_franz5">brightport_franz5</a></li>
+</ul>
+<p><span id="d-brightport_franz2"></span><strong><code>brightport_franz2</code></strong> Franz: “I'll read it next after I'm done with this other paper. Please come back later.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/brightport_nondisplay/#stage-45">brightport_nondisplay (hidden flag)</a>, starts timer “franz_note_read_timer”</p>
+<p><span id="d-brightport_franz6"></span><strong><code>brightport_franz6</code></strong> Franz: “As I've said, I'm busy. Write your question down and I'll answer you later.” — <strong>effects:</strong> sets stage 42 of <a href="../../quests/brightport_nondisplay/#stage-42">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“[Guess I'll find some paper and ink.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_franz5"></span><strong><code>brightport_franz5</code></strong> Franz: “However, the library was locked, so one would need to ask the Headmaster for permission.”</p>
+<ul>
+<li>“Thanks, I will do that.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc4.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc4.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc4.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc4.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportnpc4</code> · Data from v0.8.18</small></p>
 
 

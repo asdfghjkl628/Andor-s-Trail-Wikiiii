@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,97 +967,429 @@
 
 
 <h1 id="the-five-idols">The five idols<a class="headerlink" href="#the-five-idols" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>fiveidols</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>20 (completes at 70, 100)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/algangror/">Algangror</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/lonelyhouse0/">lonelyhouse0</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>21,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Algangror wants me to help her with a task. She cannot describe the nature of the task, or the reasoning behind it. If I help her, she has promised to give me her enchanted necklace, that apparently is worth a lot.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>). Required:</p>
+<ul>
+<li>reached stage 21 of <a href="../algangror/#stage-21">Of mice and men</a></li>
+<li>reached stage 75 of <a href="../remgard/#stage-75">Everything in order</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../algangror/#stage-15">Of mice and men</a></td>
+<td>stage 15 reached, for stage 100 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../algangror/#stage-21">Of mice and men</a></td>
+<td>stage 21 reached, for stages 10, 20 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../algangror/#stage-100">Of mice and men</a></td>
+<td>stage 100 reached, for stage 100 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../remgard/#stage-75">Everything in order</a></td>
+<td>stage 75 reached, for stages 10, 20 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../remgard2/#stage-21">What is that stench?</a></td>
+<td>stage 21 reached, for stage 100 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Algangror wants me to help her with a task. She cannot describe the nature of the task, or the reasoning behind it. If I help her, she has promised to give me her enchanted necklace, that apparently is worth a lot.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>I have agreed to help Algangror with her task.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>Algangror wants me to place five idols near five different people in Remgard. The idols should be placed near the beds of these five people, and must be hidden so that they are not found easily.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-31"></span>31</td>
 <td>The first person is Jhaeld, the village elder that can be found in the Remgard tavern.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>Second, I should place an idol by the bed of Larni the farmer, that lives in one of the northern cabins in Remgard.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-33"></span>33</td>
 <td>The third person is Arnal the weapon-smith, that lives in the northwest of Remgard.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-34"></span>34</td>
 <td>Fourth is Emerei, that can be found to the southeast of Remgard.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-35"></span>35</td>
 <td>The fifth person is Carthe. Carthe lives on the eastern shore of Remgard, near the tavern.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-37"></span>37</td>
 <td>I must not tell anyone of my task, or of the placement of the idols.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>–</td>
+<td>gives <a href="../../items/algangror_idol/">Small idol</a></td>
 </tr>
 <tr>
 <td><span id="stage-41"></span>41</td>
 <td>I have placed an idol by Jhaeld's bed.</td>
+<td>reading a sign on <a href="../../maps/remgard_tavern1/">remgard_tavern1</a></td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 31</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-42"></span>42</td>
 <td>I have placed an idol by Larni the farmer's bed.</td>
+<td>reading a sign on <a href="../../maps/remgard_farmer1/">remgard_farmer1</a></td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 32</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-43"></span>43</td>
 <td>I have placed an idol by Arnal's bed.</td>
+<td>reading a sign on <a href="../../maps/remgard_weapon/">remgard_weapon</a></td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 33</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-44"></span>44</td>
 <td>I have placed an idol by Emerei's bed.</td>
+<td>reading a sign on <a href="../../maps/remgard_villager3/">remgard_villager3</a></td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 34</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>I have placed an idol by Carthe's bed.</td>
+<td>reading a sign on <a href="../../maps/remgard_farmer2/">remgard_farmer2</a></td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 35</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>All the idols have been placed by the beds of the people that Algangror told me to visit. I should return to Algangror.</td>
+<td>reading a sign on <a href="../../maps/remgard_tavern1/">remgard_tavern1</a><br>reading a sign on <a href="../../maps/remgard_farmer1/">remgard_farmer1</a><br>reading a sign on <a href="../../maps/remgard_weapon/">remgard_weapon</a><br>+2 more</td>
+<td>hand over 1× <a href="../../items/algangror_idol/">Small idol</a>, stage 31, stage 32, stage 33, stage 34, stage 35, stage 41, stage 42, stage 43, stage 44, stage 45</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-51"></span>51</td>
 <td>Algangror thanked me for helping her.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 37, stage 50</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>She told me her story, with how she used to live in the city, but was persecuted for her beliefs. According to her, the persecution was totally unjustified since she does no harm to people.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 51</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-61"></span>61</td>
 <td>To take revenge on the city of Remgard, she managed to lure some people into her cabin and turn them into rats.</td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 51</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>For helping her with the tasks that she could not perform herself, Algangror gave me her enchanted necklace, 'Marrowtaint'. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 61</td>
+<td>21,000 XP<br>gives <a href="../../items/marrowtaint/">Marrowtaint</a></td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>I have decided not to help Algangror with her task. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>)</td>
+<td>stage 10, stage 37</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>fiveidols</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Depends on the task.” — <strong>conditions:</strong> reached stage 21 of <a href="../algangror/#stage-21">Of mice and men</a>; reached stage 75 of <a href="../remgard/#stage-75">Everything in order</a> → <strong>stage 10</strong>. NPC: “The world around you seems to move a bit slower when you wear it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “OK. I will help you with your task.” — <strong>conditions:</strong> reached stage 21 of <a href="../algangror/#stage-21">Of mice and men</a>; reached stage 75 of <a href="../remgard/#stage-75">Everything in order</a> → <strong>stage 20</strong>. NPC: “Good, good.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Can you repeat what you wanted me to do?” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 30</strong>. NPC: “Remember, it is of utmost importance that you be as discreet as possible about this. The idols must not be found once…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 31: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Go on.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 31</strong>. NPC: “So, the first person that I want you to visit is Jhaeld. I hear that he spends most of his time in the Remgard tavern…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Go on.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 32</strong>. NPC: “Secondly, I want you to visit one of the farmers named Larni. He lives with his wife Caeda here in Remgard in one of…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 33: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Go on.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 33</strong>. NPC: “The third person is Arnal the weapon-smith, that lives in the northwest of Remgard.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 34: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Go on.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 34</strong>. NPC: “Fourth is Emerei, that can probably be found in his house to the southeast of Remgard.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Go on.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 35</strong>. NPC: “The fifth person is the farmer Carthe. Carthe lives on the eastern shore of Remgard, near the tavern.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 37: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “I understand.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 37</strong>; also gives <a href="../../items/algangror_idol/">Small idol</a>. NPC: “Here are the idols.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 41: 1 route</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_tavern1/">remgard_tavern1</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 31 of <a href="./#stage-31">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a> → <strong>stage 41</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 42: 1 route</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_farmer1/">remgard_farmer1</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 32 of <a href="./#stage-32">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a> → <strong>stage 42</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 43: 1 route</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_weapon/">remgard_weapon</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 33 of <a href="./#stage-33">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a> → <strong>stage 43</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 44: 1 route</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_villager3/">remgard_villager3</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 34 of <a href="./#stage-34">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a> → <strong>stage 44</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 45: 1 route</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_farmer2/">remgard_farmer2</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 35 of <a href="./#stage-35">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a> → <strong>stage 45</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 5 routes</summary>
+<ol>
+<li>reading a sign on <a href="../../maps/remgard_tavern1/">remgard_tavern1</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 31 of <a href="./#stage-31">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a>; reached stage 42 of <a href="./#stage-42">The five idols</a>; reached stage 43 of <a href="./#stage-43">The five idols</a>; reached stage 44 of <a href="./#stage-44">The five idols</a>; reached stage 45 of <a href="./#stage-45">The five idols</a> → <strong>stage 50</strong></li>
+<li>reading a sign on <a href="../../maps/remgard_farmer1/">remgard_farmer1</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 32 of <a href="./#stage-32">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a>; reached stage 41 of <a href="./#stage-41">The five idols</a>; reached stage 43 of <a href="./#stage-43">The five idols</a>; reached stage 44 of <a href="./#stage-44">The five idols</a>; reached stage 45 of <a href="./#stage-45">The five idols</a> → <strong>stage 50</strong></li>
+<li>reading a sign on <a href="../../maps/remgard_weapon/">remgard_weapon</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 33 of <a href="./#stage-33">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a>; reached stage 41 of <a href="./#stage-41">The five idols</a>; reached stage 42 of <a href="./#stage-42">The five idols</a>; reached stage 44 of <a href="./#stage-44">The five idols</a>; reached stage 45 of <a href="./#stage-45">The five idols</a> → <strong>stage 50</strong></li>
+<li>reading a sign on <a href="../../maps/remgard_villager3/">remgard_villager3</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 34 of <a href="./#stage-34">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a>; reached stage 41 of <a href="./#stage-41">The five idols</a>; reached stage 42 of <a href="./#stage-42">The five idols</a>; reached stage 43 of <a href="./#stage-43">The five idols</a>; reached stage 45 of <a href="./#stage-45">The five idols</a> → <strong>stage 50</strong></li>
+<li>reading a sign on <a href="../../maps/remgard_farmer2/">remgard_farmer2</a> → choose “Hide one of the idols under the bed.” — <strong>conditions:</strong> reached stage 35 of <a href="./#stage-35">The five idols</a>; hand over 1× <a href="../../items/algangror_idol/">Small idol</a>; reached stage 41 of <a href="./#stage-41">The five idols</a>; reached stage 42 of <a href="./#stage-42">The five idols</a>; reached stage 43 of <a href="./#stage-43">The five idols</a>; reached stage 44 of <a href="./#stage-44">The five idols</a> → <strong>stage 50</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 51: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “No, I hid the idols as you instructed.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a>; reached stage 50 of <a href="./#stage-50">The five idols</a> → <strong>stage 51</strong>. NPC: “Good. Thank you again for helping me.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “So what happened?” — <strong>conditions:</strong> reached stage 51 of <a href="./#stage-51">The five idols</a> → <strong>stage 60</strong>. NPC: “I had little chance to argue, however. The guards led me out of the city. They did not even let me gather my things.…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 61: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “Wait, does this mean that those rats I killed for you were...” — <strong>conditions:</strong> reached stage 51 of <a href="./#stage-51">The five idols</a> → <strong>stage 61</strong>. NPC: “So, that's my story. Thank you for listening to it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 61 of <a href="./#stage-61">The five idols</a> → <strong>stage 70</strong>; also gives <a href="../../items/marrowtaint/">Marrowtaint</a>. NPC: “Here you go.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “I am sent by Jhaeld to end whatever it is you do to the people of Remgard.” — <strong>conditions:</strong> reached stage 15 of <a href="../algangror/#stage-15">Of mice and men</a>; reached stage 21 of <a href="../remgard2/#stage-21">What is that stench?</a>; reached stage 100 of <a href="../algangror/#stage-100">Of mice and men</a>; reached stage 10 of <a href="./#stage-10">The five idols</a> → <strong>stage 100</strong></li>
+<li>Talk to <a href="../../monsters/algangror/">Algangror</a> (<a href="../../maps/lonelyhouse0/">lonelyhouse0</a>) → choose “I won't do your stupid task.” — <strong>conditions:</strong> reached stage 37 of <a href="./#stage-37">The five idols</a> → <strong>stage 100</strong>. NPC: “Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. Hee hee.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fiveidols.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fiveidols.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fiveidols.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fiveidols.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fiveidols.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>fiveidols</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 31, 32, 33, 34, 35, 37, 41, 42, 43, 44, 45, 50, 51, 60, 61, 70, 100</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>algangror_task2_4</code>, 20: <code>algangror_task2_6</code>, 30: <code>algangror_task2_10</code>, 31: <code>algangror_task2_11</code>, 32: <code>algangror_task2_12</code>, 33: <code>algangror_task2_13</code>, 34: <code>algangror_task2_14</code>, 35: <code>algangror_task2_15</code>, 37: <code>algangror_task2_18</code>, 41: <code>jhaeld_bed_4s1</code>, 42: <code>larni_bed_4s1</code>, 43: <code>arnal_bed_4s1</code>, 44: <code>emerei_bed_4s1</code>, 45: <code>carthe_bed_4s1</code>, 50: <code>jhaeld_bed_4s5</code>, 50: <code>larni_bed_4s5</code>, 50: <code>arnal_bed_4s5</code>, 51: <code>algangror_task2_done3</code>, 60: <code>algangror_story19</code>, 61: <code>algangror_story28</code>, 70: <code>algangror_cmp3</code>, 100: <code>algangror_fight_2a</code>, 100: <code>algangror_task2_n</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -962,6 +1034,84 @@
 <ul>
 <li><a href="../../maps/brimhaven2_woodcutter/">brimhaven2_woodcutter</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/tunlon_fence/">It makes no fence</a>: stages 220, 235, 240</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (15 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_woodcraftsman_0"></span><strong><code>brv_woodcraftsman_0</code></strong> Wood craftsman: “Hello, we sell the finest wood products and tools. Do you want to buy some?”</p>
+<ul>
+<li>“Yes” → <em>shop opens</em></li>
+<li>“No, I just want to look around.” → <a href="#d-brv_woodcraftsman_2">brv_woodcraftsman_2</a></li>
+<li>“I am looking for my brother, Andor. He looks a bit like me.” → <a href="#d-brv_woodcraftsman_1">brv_woodcraftsman_1</a></li>
+<li>“Hello. The woodcutter in Loneford said that you can make me fences for a shepherd. Is that true?” <em>(if reached stage 210 of <a href="../../quests/tunlon_fence/#stage-210">It makes no fence</a>; NOT reached stage 220 of <a href="../../quests/tunlon_fence/#stage-220">It makes no fence</a>)</em> → <a href="#d-brv_woodcraftsman_fence1">brv_woodcraftsman_fence1</a></li>
+<li>“Here is your wood.” <em>(if reached stage 230 of <a href="../../quests/tunlon_fence/#stage-230">It makes no fence</a>; hand over 1× <a href="../../items/tunlon_wood/">Pile of wood</a>; NOT reached stage 240 of <a href="../../quests/tunlon_fence/#stage-240">It makes no fence</a>)</em> → <a href="#d-brv_woodcraftsman_fence2">brv_woodcraftsman_fence2</a></li>
+<li>“Ah, you are back.” <em>(if reached stage 235 of <a href="../../quests/tunlon_fence/#stage-235">It makes no fence</a>; NOT reached stage 240 of <a href="../../quests/tunlon_fence/#stage-240">It makes no fence</a>)</em> → <a href="#d-brv_woodcraftsman_fence3">brv_woodcraftsman_fence3</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_2"></span><strong><code>brv_woodcraftsman_2</code></strong> Wood craftsman: “Take your time.”</p>
+<p><span id="d-brv_woodcraftsman_1"></span><strong><code>brv_woodcraftsman_1</code></strong> Wood craftsman: “I only know a goblin that looks like you. [Laughs]”</p>
+<p><span id="d-brv_woodcraftsman_fence1"></span><strong><code>brv_woodcraftsman_fence1</code></strong> Wood craftsman: “[laughing] Haha! Yes, that's my job.”</p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence1a">brv_woodcraftsman_fence1a</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence2"></span><strong><code>brv_woodcraftsman_fence2</code></strong> Wood craftsman: “Perfect! Thank you for helping out, kid. Just wait a few minutes.” — <strong>effects:</strong> sets stage 235 of <a href="../../quests/tunlon_fence/#stage-235">It makes no fence</a></p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence3">brv_woodcraftsman_fence3</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence3"></span><strong><code>brv_woodcraftsman_fence3</code></strong> Wood craftsman: “This is some good looking wood I must say. Very easy to process.”</p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence4">brv_woodcraftsman_fence4</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence1a"></span><strong><code>brv_woodcraftsman_fence1a</code></strong> Wood craftsman: “But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood.” — <strong>effects:</strong> sets stage 220 of <a href="../../quests/tunlon_fence/#stage-220">It makes no fence</a></p>
+<ul>
+<li>“Fine, I'm on my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence4"></span><strong><code>brv_woodcraftsman_fence4</code></strong> Wood craftsman: “These posts will be standing for a long time. I guarantee you that.”</p>
+<ul>
+<li>“Are you done soon?” → <a href="#d-brv_woodcraftsman_fence4a">brv_woodcraftsman_fence4a</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence4a"></span><strong><code>brv_woodcraftsman_fence4a</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (10%))</em> → <a href="#d-brv_woodcraftsman_fence5">brv_woodcraftsman_fence5</a></li>
+<li>branch 2 <em>(if random chance (20%))</em> → <a href="#d-brv_woodcraftsman_fence4d">brv_woodcraftsman_fence4d</a></li>
+<li>branch 3 <em>(if random chance (50%))</em> → <a href="#d-brv_woodcraftsman_fence4c">brv_woodcraftsman_fence4c</a></li>
+<li>branch 4 → <a href="#d-brv_woodcraftsman_fence4b">brv_woodcraftsman_fence4b</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence5"></span><strong><code>brv_woodcraftsman_fence5</code></strong> Wood craftsman: “Finished. That's 200 gold pieces. What do you say?”</p>
+<ul>
+<li>“200 ... gold pieces - well, OK.” <em>(if pay 200 gold)</em> → <a href="#d-brv_woodcraftsman_fence6">brv_woodcraftsman_fence6</a></li>
+<li>“That is too much!” → <a href="#d-brv_woodcraftsman_fence7">brv_woodcraftsman_fence7</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence4d"></span><strong><code>brv_woodcraftsman_fence4d</code></strong> Wood craftsman: “[Swearing]”</p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence4a">brv_woodcraftsman_fence4a</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence4c"></span><strong><code>brv_woodcraftsman_fence4c</code></strong> Wood craftsman: “[Hammering]”</p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence4a">brv_woodcraftsman_fence4a</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence4b"></span><strong><code>brv_woodcraftsman_fence4b</code></strong> Wood craftsman: “[Sawing]”</p>
+<ul>
+<li>Next → <a href="#d-brv_woodcraftsman_fence4a">brv_woodcraftsman_fence4a</a></li>
+</ul>
+<p><span id="d-brv_woodcraftsman_fence6"></span><strong><code>brv_woodcraftsman_fence6</code></strong> Wood craftsman: “Thank you. Bye!” — <strong>effects:</strong> sets stage 240 of <a href="../../quests/tunlon_fence/#stage-240">It makes no fence</a>, gives <a href="../../items/tunlon_fence2/">New fence</a></p>
+<p><span id="d-brv_woodcraftsman_fence7"></span><strong><code>brv_woodcraftsman_fence7</code></strong> Wood craftsman: “No gold - no fences.”</p>
+<ul>
+<li>“Well ... OK.” <em>(if pay 200 gold)</em> → <a href="#d-brv_woodcraftsman_fence6">brv_woodcraftsman_fence6</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_woodcraftsman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_woodcraftsman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_woodcraftsman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_woodcraftsman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_woodcraftsman</code> · Data from v0.8.18</small></p>
 
 

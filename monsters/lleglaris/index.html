@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -982,6 +1054,126 @@
 <ul>
 <li><a href="../../maps/tradehouse1/">tradehouse1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lleglaris/">Long lost memories</a>: stages 10, 15, 30, 40</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (24 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-lleglaris"></span><strong><code>lleglaris</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/lleglaris/#stage-30">Long lost memories</a>)</em> → <a href="#d-lleglaris_r4">lleglaris_r4</a></li>
+<li>branch 2 <em>(if reached stage 15 of <a href="../../quests/lleglaris/#stage-15">Long lost memories</a>)</em> → <a href="#d-lleglaris_r1">lleglaris_r1</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/lleglaris/#stage-10">Long lost memories</a>)</em> → <a href="#d-lleglaris15">lleglaris15</a></li>
+<li>branch 4 → <a href="#d-lleglaris0">lleglaris0</a></li>
+</ul>
+<p><span id="d-lleglaris_r4"></span><strong><code>lleglaris_r4</code></strong> Lleglaris: “Thank you for finding my amulet.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris_r5">lleglaris_r5</a></li>
+</ul>
+<p><span id="d-lleglaris_r1"></span><strong><code>lleglaris_r1</code></strong> Lleglaris: “Hi again. Did you find my amulet?”</p>
+<ul>
+<li>“Can you tell me your story again?” → <a href="#d-lleglaris8">lleglaris8</a></li>
+<li>“Yes, here it is.” <em>(if hand over 1× <a href="../../items/lleglaris/">Lleglaris' amulet</a>)</em> → <a href="#d-lleglaris_r3">lleglaris_r3</a></li>
+<li>“Still looking for it.” → <a href="#d-lleglaris_r2">lleglaris_r2</a></li>
+</ul>
+<p><span id="d-lleglaris15"></span><strong><code>lleglaris15</code></strong> Lleglaris: “Go look just east of my cabin here. You probably need to take the path north when you exit the cabin, and then head east.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/lleglaris/#stage-15">Long lost memories</a></p>
+<p><span id="d-lleglaris0"></span><strong><code>lleglaris0</code></strong> Lleglaris: “Are you sure you should be here? Maybe you should go play with ... your toys or something?”</p>
+<ul>
+<li>“Watch it. Do you even know who you're talking to?” → <a href="#d-lleglaris2">lleglaris2</a></li>
+<li>“Fine. I'll leave.” → <em>conversation ends</em></li>
+<li>“Hey, no need to be rude.” → <a href="#d-lleglaris1">lleglaris1</a></li>
+<li>“Hey, those look like some nice items you have there. Care to trade?” → <a href="#d-lleglaris_rej">lleglaris_rej</a></li>
+</ul>
+<p><span id="d-lleglaris_r5"></span><strong><code>lleglaris_r5</code></strong> Lleglaris: “Maybe you really are an experienced adventurer after all.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris_r6">lleglaris_r6</a></li>
+</ul>
+<p><span id="d-lleglaris8"></span><strong><code>lleglaris8</code></strong> Lleglaris: “I've lost an amulet of mine. I was out in the woods around the cabin here and heard a noise coming from the east.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris9">lleglaris9</a></li>
+</ul>
+<p><span id="d-lleglaris_r3"></span><strong><code>lleglaris_r3</code></strong> Lleglaris: “Yes, that's the one. It's good to see it back in my hands again.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/lleglaris/#stage-30">Long lost memories</a></p>
+<ul>
+<li>Next → <a href="#d-lleglaris_r4">lleglaris_r4</a></li>
+</ul>
+<p><span id="d-lleglaris_r2"></span><strong><code>lleglaris_r2</code></strong> Lleglaris: “OK then. I won't keep you.”</p>
+<p><span id="d-lleglaris2"></span><strong><code>lleglaris2</code></strong> Lleglaris: “Hah! Please enlighten me.”</p>
+<ul>
+<li>“I was the one who slew the lich Toszylae between Loneford and Brimhaven.” <em>(if reached stage 70 of <a href="../../quests/toszylae/#stage-70">An involuntary carrier</a>)</em> → <a href="#d-lleglaris3">lleglaris3</a></li>
+<li>“See this amulet that I'm wearing? This is Marrowtaint.” <em>(if wearing <a href="../../items/marrowtaint/">Marrowtaint</a>)</em> → <a href="#d-lleglaris4">lleglaris4</a></li>
+<li>“See this ring that I am wearing? This is the Ring of lesser Shadow.” <em>(if wearing <a href="../../items/ring_shadow0/">Ring of lesser Shadow</a>)</em> → <a href="#d-lleglaris4">lleglaris4</a></li>
+<li>“I was the one who helped solve the mystery in Loneford.” <em>(if reached stage 54 of <a href="../../quests/loneford/#stage-54">Flows through the veins</a>)</em> → <a href="#d-lleglaris3">lleglaris3</a></li>
+<li>“I saved the settlement of Prim from the attacks from Blackwater mountain.” <em>(if reached stage 240 of <a href="../../quests/prim_hunt/#stage-240">Clouded intent</a>)</em> → <a href="#d-lleglaris3">lleglaris3</a></li>
+<li>“I helped the Blackwater mountain settlement make the attacks from Prim stop.” <em>(if reached stage 240 of <a href="../../quests/bwm_agent/#stage-240">The agent and the beast</a>)</em> → <a href="#d-lleglaris3">lleglaris3</a></li>
+<li>“I am the son of an ordinary farmer in a minor settlement called Crossglen, not far west from here! I've even killed a…” → <a href="#d-lleglaris5">lleglaris5</a></li>
+<li>“Never mind.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lleglaris1"></span><strong><code>lleglaris1</code></strong> Lleglaris: “Ha ha. I can be as rude as I want!”</p>
+<ul>
+<li>“Whatever.” → <em>conversation ends</em></li>
+<li>“Watch it. Do you even know who you're talking to?” → <a href="#d-lleglaris2">lleglaris2</a></li>
+</ul>
+<p><span id="d-lleglaris_rej"></span><strong><code>lleglaris_rej</code></strong> Lleglaris: “With you? No way. You look way to inexperienced.”</p>
+<ul>
+<li>“Watch it. Do you even know who you're talking to?” → <a href="#d-lleglaris2">lleglaris2</a></li>
+<li>“Fine. Maybe later then.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lleglaris_r6"></span><strong><code>lleglaris_r6</code></strong> Lleglaris: “Anyway, see this table here? It's just some old trinkets that I've gathered along the years. Maybe some of them could come in handy for you?” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/lleglaris/#stage-40">Long lost memories</a></p>
+<ul>
+<li>“Let me see what you have.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-lleglaris9"></span><strong><code>lleglaris9</code></strong> Lleglaris: “Tired as I was, I didn't notice the things coming out from behind the trees fast enough.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris10">lleglaris10</a></li>
+</ul>
+<p><span id="d-lleglaris3"></span><strong><code>lleglaris3</code></strong> Lleglaris: “That was you? Hah! And you expect me to believe that?”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris7">lleglaris7</a></li>
+</ul>
+<p><span id="d-lleglaris4"></span><strong><code>lleglaris4</code></strong> Lleglaris: “Good for you. It looks just like any other trinket to me.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris7">lleglaris7</a></li>
+</ul>
+<p><span id="d-lleglaris5"></span><strong><code>lleglaris5</code></strong> Lleglaris: “Ha ha! Now, that's funny!”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris6">lleglaris6</a></li>
+</ul>
+<p><span id="d-lleglaris10"></span><strong><code>lleglaris10</code></strong> Lleglaris: “Undead things. Yuck, that smell.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris11">lleglaris11</a></li>
+</ul>
+<p><span id="d-lleglaris7"></span><strong><code>lleglaris7</code></strong> Lleglaris: “If you're such an experienced adventurer, I'm sure a small task of mine wouldn't be any problem for you?”</p>
+<ul>
+<li>“What task?” → <a href="#d-lleglaris8">lleglaris8</a></li>
+</ul>
+<p><span id="d-lleglaris6"></span><strong><code>lleglaris6</code></strong> Lleglaris: “You have my best wishes, kid. Hope you'll get to see the world some day.”</p>
+<p><span id="d-lleglaris11"></span><strong><code>lleglaris11</code></strong> Lleglaris: “I saw this hole in the ground that they seemed to come out of. The ground had been completely corrupted around it.”</p>
+<ul>
+<li>Next → <a href="#d-lleglaris12">lleglaris12</a></li>
+</ul>
+<p><span id="d-lleglaris12"></span><strong><code>lleglaris12</code></strong> Lleglaris: “Anyway, I ran away and my amulet must have gotten stuck on a branch or something like that.”</p>
+<ul>
+<li>“I'll go look for your amulet.” → <a href="#d-lleglaris14">lleglaris14</a></li>
+<li>“Undead? No way, I'm out.” → <a href="#d-lleglaris13">lleglaris13</a></li>
+</ul>
+<p><span id="d-lleglaris14"></span><strong><code>lleglaris14</code></strong> Lleglaris: “Good.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/lleglaris/#stage-10">Long lost memories</a></p>
+<ul>
+<li>Next → <a href="#d-lleglaris15">lleglaris15</a></li>
+</ul>
+<p><span id="d-lleglaris13"></span><strong><code>lleglaris13</code></strong> Lleglaris: “Yeah, that's what I though as well.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lleglaris.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lleglaris.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lleglaris.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lleglaris.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>lleglaris</code> · Data from v0.8.18</small></p>
 
 

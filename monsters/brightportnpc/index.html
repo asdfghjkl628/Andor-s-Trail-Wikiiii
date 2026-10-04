@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,175 @@
 <ul>
 <li><a href="../../maps/brightport_school7/">brightport_school7</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Stanwickquest/">No rest for the wicked</a>: stages 20, 25, 110</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 70</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (37 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_stanwick_selector"></span><strong><code>brightport_stanwick_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_common">brightport_stanwick_common</a></li>
+<li>Next <em>(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_andor0">brightport_stanwick_andor0</a></li>
+<li>Next <em>(if reached stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>; NOT reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_end">brightport_stanwick_end</a></li>
+<li>Next <em>(if reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>; NOT reached stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick12">brightport_stanwick12</a></li>
+<li>Next <em>(if reached stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>; NOT reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick7">brightport_stanwick7</a></li>
+<li>Next <em>(if NOT reached stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>; reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick1">brightport_stanwick1</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_common"></span><strong><code>brightport_stanwick_common</code></strong> Stanwick: “Hey $playername, how is your search going?”</p>
+<ul>
+<li>“I'm still looking for Andor.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor0"></span><strong><code>brightport_stanwick_andor0</code></strong> Stanwick: “I think I now remember some things that could be useful in your search.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor1">brightport_stanwick_andor1</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_end"></span><strong><code>brightport_stanwick_end</code></strong> <a href="./">Stanwick</a>: “Thank you $playername. I knew I could entrust this to you.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor">brightport_stanwick_andor</a></li>
+</ul>
+<p><span id="d-brightport_stanwick12"></span><strong><code>brightport_stanwick12</code></strong> Stanwick: “How's the investigation going, $playername?”</p>
+<ul>
+<li>“Do you know how I can enter the library?” <em>(if reached stage 45 of <a href="../../quests/Stanwickquest/#stage-45">No rest for the wicked</a>; NOT reached stage 47 of <a href="../../quests/Stanwickquest/#stage-47">No rest for the wicked</a>; NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick13">brightport_stanwick13</a></li>
+<li>“Could you explain to me the details surrounding the incident?” <em>(if NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick_incident">brightport_stanwick_incident</a></li>
+<li>“I returned the scroll to the headmaster, he'll release an apology for you later.” <em>(if reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick16">brightport_stanwick16</a></li>
+<li>“I have the scroll right here” <em>(if carry 1× <a href="../../items/brightport_scroll/">Secret scroll</a>)</em> → <a href="#d-brightport_stanwick17">brightport_stanwick17</a></li>
+<li>“I have these fruits for you.” <em>(if hand over 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>)</em> → <a href="#d-brightport_stanwick_fruit">brightport_stanwick_fruit</a></li>
+<li>“I'm still investigating. [Leave]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_stanwick7"></span><strong><code>brightport_stanwick7</code></strong> Stanwick: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>, sets stage 126 of <a href="../quests/andor.md#stage-126">andor (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick8">brightport_stanwick8</a></li>
+</ul>
+<p><span id="d-brightport_stanwick1"></span><strong><code>brightport_stanwick1</code></strong> <a href="./">Stanwick</a>: “Long time no see, $playername! What brings you to Brightport? Did Andor finally convince you to enroll, or did you just come to see me? [The boy laughs.]”</p>
+<ul>
+<li>“Ha, not in a thousand years! You guys were always making me run errands.” → <a href="#d-brightport_stanwick3">brightport_stanwick3</a></li>
+<li>“I was getting bored back home with nothing to do!” → <a href="#d-brightport_stanwick2">brightport_stanwick2</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor1"></span><strong><code>brightport_stanwick_andor1</code></strong> Stanwick: “Andor is my friend, so when you told me he was missing, of course I was concerned. Not as much as I was about the document, if I'm being honest, but you know as well as I do that was no trivial thing.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor2">brightport_stanwick_andor2</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor"></span><strong><code>brightport_stanwick_andor</code></strong> Stanwick: “Once I collect my memories I will tell you about Andor. Please come back in a few minutes.” — <strong>effects:</strong> sets stage 127 of <a href="../quests/andor.md#stage-127">andor (hidden flag)</a>, starts timer “stanwick”</p>
+<p><span id="d-brightport_stanwick13"></span><strong><code>brightport_stanwick13</code></strong> Stanwick: “I gave the headmaster my library key. You should try asking him.”</p>
+<ul>
+<li>“I already did and he refused to give me the key.” <em>(if reached stage 46 of <a href="../../quests/Stanwickquest/#stage-46">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick_key">brightport_stanwick_key</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_incident"></span><strong><code>brightport_stanwick_incident</code></strong> Stanwick: “Several days ago, I was attending to my duties in the library when Headmaster Oswald came in to access the archive. When he returned, he was in a panic over a missing document.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_incident1">brightport_stanwick_incident1</a></li>
+</ul>
+<p><span id="d-brightport_stanwick16"></span><strong><code>brightport_stanwick16</code></strong> <a href="../none/">Dummy NPC</a>: “Stanwick lets out a deep breath, his expression softening with visible relief as he sits down on his bed.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>, sets stage 110 of <a href="../../quests/Stanwickquest/#stage-110">No rest for the wicked</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_end">brightport_stanwick_end</a></li>
+</ul>
+<p><span id="d-brightport_stanwick17"></span><strong><code>brightport_stanwick17</code></strong> Stanwick: “What use do I have for it, $playername? Return it to the headmaster.”</p>
+<ul>
+<li>“Sorry.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_stanwick_fruit"></span><strong><code>brightport_stanwick_fruit</code></strong> Stanwick: “I don't feel like eating anything right now, you can have them.” — <strong>effects:</strong> gives 1× <a href="../../items/brightport_fruit2/">Fruit assortment</a></p>
+<p><span id="d-brightport_stanwick8"></span><strong><code>brightport_stanwick8</code></strong> Stanwick: “At this rate I will be freed of suspicion, but if they don't find the stolen document while I'm on room arrest, my reputation might never recover.”</p>
+<ul>
+<li>“I heard of the incident. I could help you with it.” → <a href="#d-brightport_stanwick9">brightport_stanwick9</a></li>
+</ul>
+<p><span id="d-brightport_stanwick3"></span><strong><code>brightport_stanwick3</code></strong> Stanwick: “Someone had to go buy the bread and pull the weeds. And it wasn't going to be us.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick4">brightport_stanwick4</a></li>
+</ul>
+<p><span id="d-brightport_stanwick2"></span><strong><code>brightport_stanwick2</code></strong> Stanwick: “Yeah, I bet. Crossglen can be pretty boring, but it's also nostalgic.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick4">brightport_stanwick4</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor2"></span><strong><code>brightport_stanwick_andor2</code></strong> Stanwick: “When it comes to strange details my recollections start sometime about a year ago, at the start of my third year and Andor's fourth, when we were handed our correspondence. He was given a sealed envelope. Nothing strange except it was…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor3">brightport_stanwick_andor3</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_key"></span><strong><code>brightport_stanwick_key</code></strong> Stanwick: “Hmm, let me think.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick14">brightport_stanwick14</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_incident1"></span><strong><code>brightport_stanwick_incident1</code></strong> Stanwick: “Of course, I had nothing to do with it. As a matter of fact, the Headmaster and his assistant were the only ones I've seen go down there.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_incident2">brightport_stanwick_incident2</a></li>
+</ul>
+<p><span id="d-brightport_stanwick9"></span><strong><code>brightport_stanwick9</code></strong> Stanwick: “You would? But still, I'm not sure. This might be as difficult as finding a needle in a haystack.”</p>
+<ul>
+<li>“You can trust me. I've solved all sorts of mysteries on this journey.” → <a href="#d-brightport_stanwick10">brightport_stanwick10</a></li>
+</ul>
+<p><span id="d-brightport_stanwick4"></span><strong><code>brightport_stanwick4</code></strong> Stanwick: “Still, though, it's been a while, huh? Six years since my father sent me to Crossglen for safety, when I met Andor and you.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick5">brightport_stanwick5</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor3"></span><strong><code>brightport_stanwick_andor3</code></strong> Stanwick: “Later that same week, I'd fallen asleep at my desk while studying. When I woke, Andor wasn't in his bed, but at the time I thought little of it. I stepped to the hallway window for some fresh air and happened to glance outside. Someone…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor4">brightport_stanwick_andor4</a></li>
+</ul>
+<p><span id="d-brightport_stanwick14"></span><strong><code>brightport_stanwick14</code></strong> Stanwick: “I once accidentally damaged an expensive book cover. To get it fixed, I turned to someone nicknamed Counterfeit, from the Brightport Thieves Guild. He managed to restore it in no time. You should try asking him for help.”</p>
+<ul>
+<li>“Where can I find the thieves Guild?” → <a href="#d-brightport_stanwick15">brightport_stanwick15</a></li>
+<li>“I know exactly where to look.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_stanwick_incident2"></span><strong><code>brightport_stanwick_incident2</code></strong> Stanwick: “Shortly after, every senior student and teacher was gathered in the lecture room for questioning. No one knew much about it, so it was over quickly. Afterwards, the Headmaster decided I would stay in my room until the end of the…”</p>
+<ul>
+<li>“Wasn't that a little too rash?” → <a href="#d-brightport_stanwick_incident3">brightport_stanwick_incident3</a></li>
+</ul>
+<p><span id="d-brightport_stanwick10"></span><strong><code>brightport_stanwick10</code></strong> Stanwick: “Thank you $playername, I'm convinced I can entrust this to you.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick11">brightport_stanwick11</a></li>
+</ul>
+<p><span id="d-brightport_stanwick5"></span><strong><code>brightport_stanwick5</code></strong> Stanwick: “By the way, did Andor accompany you here? I was hoping I could ask for his help on something.”</p>
+<ul>
+<li>“Andor has been missing and I was sent here to search for him.” → <a href="#d-brightport_stanwick6">brightport_stanwick6</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor4"></span><strong><code>brightport_stanwick_andor4</code></strong> Stanwick: “Sometimes he'd fidget with a button. I could tell it was Nor City made since my family's from there. But your family's never been there right?”</p>
+<ul>
+<li>“I don't think so.” → <a href="#d-brightport_stanwick_andor5">brightport_stanwick_andor5</a></li>
+</ul>
+<p><span id="d-brightport_stanwick15"></span><strong><code>brightport_stanwick15</code></strong> Stanwick: “It's against the rules to tell. Try asking a man named Silvear, you'll recognize him by his blue cloak.”</p>
+<p><span id="d-brightport_stanwick_incident3"></span><strong><code>brightport_stanwick_incident3</code></strong> Stanwick: “All things considered, it was a reasonable response. The safekeeping of the archive was partly my responsibility. But being told to stay put while I could have done something to help find it does feel deeply unfair to me.”</p>
+<ul>
+<li>“I'll see what I can do.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_stanwick11"></span><strong><code>brightport_stanwick11</code></strong> Stanwick: “OK. You should start by asking people around the academy. Maybe it will send you in the right direction. Good luck.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a></p>
+<p><span id="d-brightport_stanwick6"></span><strong><code>brightport_stanwick6</code></strong> Stanwick: “That's terrible news. But strangely, I'm not that surprised. Something about his behavior before graduation was bothering me.”</p>
+<ul>
+<li>“That might be something that could help my search. Could you tell me more?” → <a href="#d-brightport_stanwick7">brightport_stanwick7</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor5"></span><strong><code>brightport_stanwick_andor5</code></strong> Stanwick: “Yeah, just as I thought. There's a strange connection I feel between Andor going missing and Nor City. I mean, you've heard what those Feygard folk say about it. Those who've been there know it's not true, but the others always call it a…”</p>
+<ul>
+<li>“Do you think Andor went there?” → <a href="#d-brightport_stanwick_andor6">brightport_stanwick_andor6</a></li>
+<li>“I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]” <em>(if reached stage 72 of <a href="../quests/andor.md#stage-72">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_andor8">brightport_stanwick_andor8</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor6"></span><strong><code>brightport_stanwick_andor6</code></strong> Stanwick: “Perhaps. We've spent hours discussing the visage of the city as you approach its gates, the craftsmen and merchants going about. Even the unsavory buildings which add to the charm. We've spent equal amounts reading about Feygard, but if…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor7">brightport_stanwick_andor7</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor8"></span><strong><code>brightport_stanwick_andor8</code></strong> Stanwick: “What this Lodar man told you lines up with what I've said, without a doubt, there is a connection. I don't know who Lady Lydalon is, but I doubt they'll let you meet her so easily The high priest of Nor City, of all places.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor7">brightport_stanwick_andor7</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor7"></span><strong><code>brightport_stanwick_andor7</code></strong> Stanwick: “Listen, $playername. I know that after everything you've done for me, what I'm saying may not seem like much. So instead, I want to entrust you with something far more important.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_stanwick_andor9">brightport_stanwick_andor9</a></li>
+</ul>
+<p><span id="d-brightport_stanwick_andor9"></span><strong><code>brightport_stanwick_andor9</code></strong> Stanwick: “This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.” — <strong>effects:</strong> sets stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>, gives 1× <a href="../../items/brightport_ring/">Stanwick's signet ring</a></p>
+<ul>
+<li>“Thank you Stanwick, see you later!” → <em>conversation ends</em></li>
+<li>“It was worth the trouble.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportnpc</code> · Data from v0.8.18</small></p>
 
 

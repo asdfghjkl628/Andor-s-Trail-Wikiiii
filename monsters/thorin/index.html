@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -937,6 +1009,150 @@
 <ul>
 <li><a href="../../maps/mountaincave3/">mountaincave3</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/thorin/">Bits and pieces</a>: stages 20, 40</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (30 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-thorin"></span><strong><code>thorin</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 40 of <a href="../../quests/thorin/#stage-40">Bits and pieces</a>)</em> → <a href="#d-thorin_return_1">thorin_return_1</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/thorin/#stage-20">Bits and pieces</a>)</em> → <a href="#d-thorin_search_1">thorin_search_1</a></li>
+<li>branch 3 → <a href="#d-thorin_1">thorin_1</a></li>
+</ul>
+<p><span id="d-thorin_return_1"></span><strong><code>thorin_return_1</code></strong> Thorin: “My friend returns. What can Thorin do for you?”</p>
+<ul>
+<li>“Mind if I use your bed over there to rest?” → <a href="#d-thorin_rest_1">thorin_rest_1</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-thorin_trade_1">thorin_trade_1</a></li>
+</ul>
+<p><span id="d-thorin_search_1"></span><strong><code>thorin_search_1</code></strong> Thorin: “Welcome back. Did you find all six of them?”</p>
+<ul>
+<li>“No, not yet. I am still looking.” → <a href="#d-thorin_search_2">thorin_search_2</a></li>
+<li>“Yes, this is what I found.” <em>(if hand over 6× <a href="../../items/thorin_bone/">Chewed bone</a>)</em> → <a href="#d-thorin_search_c_1">thorin_search_c_1</a></li>
+<li>“Mind if I use your bed over there to rest?” → <a href="#d-thorin_rest_1">thorin_rest_1</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-thorin_trade_1">thorin_trade_1</a></li>
+</ul>
+<p><span id="d-thorin_1"></span><strong><code>thorin_1</code></strong> Thorin: “What's this, a visitor? How unexpected.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_2">thorin_2</a></li>
+</ul>
+<p><span id="d-thorin_rest_1"></span><strong><code>thorin_rest_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 40 of <a href="../../quests/thorin/#stage-40">Bits and pieces</a>)</em> → <a href="#d-thorin_rest_y">thorin_rest_y</a></li>
+<li>branch 2 → <a href="#d-thorin_rest_n">thorin_rest_n</a></li>
+</ul>
+<p><span id="d-thorin_trade_1"></span><strong><code>thorin_trade_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 40 of <a href="../../quests/thorin/#stage-40">Bits and pieces</a>)</em> → <a href="#d-thorin_trade_y">thorin_trade_y</a></li>
+<li>branch 2 → <a href="#d-thorin_trade_n">thorin_trade_n</a></li>
+</ul>
+<p><span id="d-thorin_search_2"></span><strong><code>thorin_search_2</code></strong> Thorin: “OK then. Please return when you have found them all. I would go search myself if those nasty bugs weren't there.”</p>
+<p><span id="d-thorin_search_c_1"></span><strong><code>thorin_search_c_1</code></strong> Thorin: “Thank you. I would have gone myself if those nasty bugs weren't there. This turned out to be much easier though.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/thorin/#stage-40">Bits and pieces</a></p>
+<ul>
+<li>Next → <a href="#d-thorin_search_c_2">thorin_search_c_2</a></li>
+</ul>
+<p><span id="d-thorin_2"></span><strong><code>thorin_2</code></strong> Thorin: “Tell me, what can Thorin do for you?”</p>
+<ul>
+<li>“What are you doing here?” → <a href="#d-thorin_what_1">thorin_what_1</a></li>
+<li>“Who are you?” → <a href="#d-thorin_who_1">thorin_who_1</a></li>
+<li>“Mind if I use your bed over there to rest?” → <a href="#d-thorin_rest_1">thorin_rest_1</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-thorin_trade_1">thorin_trade_1</a></li>
+</ul>
+<p><span id="d-thorin_rest_y"></span><strong><code>thorin_rest_y</code></strong> Thorin: “Please, go ahead. You may rest here as much as you like.”</p>
+<p><span id="d-thorin_rest_n"></span><strong><code>thorin_rest_n</code></strong> Thorin: “My bed? No, that's mine. Maybe I will let you use it if you help me with a small task.”</p>
+<ul>
+<li>“What's that?” → <a href="#d-thorin_story_1">thorin_story_1</a></li>
+</ul>
+<p><span id="d-thorin_trade_y"></span><strong><code>thorin_trade_y</code></strong> Thorin: “Oh yes. The upside of this cave is that it literally is crawling with dead bodies of those scaradon bugs.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_trade_y2">thorin_trade_y2</a></li>
+</ul>
+<p><span id="d-thorin_trade_n"></span><strong><code>thorin_trade_n</code></strong> Thorin: “No. I might have something to trade if you help me with a small task.”</p>
+<ul>
+<li>“What's that?” → <a href="#d-thorin_story_1">thorin_story_1</a></li>
+</ul>
+<p><span id="d-thorin_search_c_2"></span><strong><code>thorin_search_c_2</code></strong> Thorin: “As a token of my appreciation, you are welcome to use the bed over there to rest. Also, if you are interested in healing, I might be able to provide some help.”</p>
+<ul>
+<li>“I think I should use the bed to rest right now. Thank you.” → <em>conversation ends</em></li>
+<li>“Do you have anything to trade?” → <a href="#d-thorin_trade_1">thorin_trade_1</a></li>
+<li>“You are welcome. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-thorin_what_1"></span><strong><code>thorin_what_1</code></strong> Thorin: “Oh, not much. Well actually, I am waiting for someone - or rather, some people.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_1">thorin_story_1</a></li>
+</ul>
+<p><span id="d-thorin_who_1"></span><strong><code>thorin_who_1</code></strong> Thorin: “Oh, I did not introduce me, my apologies. I am Thorin.”</p>
+<ul>
+<li>“What are you doing here?” → <a href="#d-thorin_what_1">thorin_what_1</a></li>
+</ul>
+<p><span id="d-thorin_story_1"></span><strong><code>thorin_story_1</code></strong> Thorin: “You see, me and my fellow gatherers were out investigating the poisonous nature of the irdegh.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_2">thorin_story_2</a></li>
+</ul>
+<p><span id="d-thorin_trade_y2"></span><strong><code>thorin_trade_y2</code></strong> Thorin: “By chance, I happened to find out that with the right mixture, they can be made into a healing substance.”</p>
+<ul>
+<li>“Let's see what you have to trade.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-thorin_story_2"></span><strong><code>thorin_story_2</code></strong> Thorin: “Apparently, I was the only one that was careful enough when handling our wares.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_3">thorin_story_3</a></li>
+</ul>
+<p><span id="d-thorin_story_3"></span><strong><code>thorin_story_3</code></strong> Thorin: “The others got ill quite quick, and we hid in this cave to rest up. However, we had not anticipated these bugs in here.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_4">thorin_story_4</a></li>
+</ul>
+<p><span id="d-thorin_story_4"></span><strong><code>thorin_story_4</code></strong> Thorin: “Those 'scaradon' things are tough! They did not even seem to take any damage when I hit them.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_5">thorin_story_5</a></li>
+</ul>
+<p><span id="d-thorin_story_5"></span><strong><code>thorin_story_5</code></strong> Thorin: “So, that's where I am now. The people that sent us to investigate told us to set up camp if we encountered any problems, and they would come help us.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_6">thorin_story_6</a></li>
+</ul>
+<p><span id="d-thorin_story_6"></span><strong><code>thorin_story_6</code></strong> Thorin: “So far, you are the first visitor here for quite a while.”</p>
+<ul>
+<li>“You don't seem all that upset that your friends died.” → <a href="#d-thorin_story_6_1">thorin_story_6_1</a></li>
+<li>“Anything I can do to help you meanwhile?” → <a href="#d-thorin_story_7">thorin_story_7</a></li>
+<li>“Tough luck. I bet help will be here any day now. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-thorin_story_6_1"></span><strong><code>thorin_story_6_1</code></strong> Thorin: “Nah, it's just business. Just business.”</p>
+<ul>
+<li>“Anything I can do to help you?” → <a href="#d-thorin_story_7">thorin_story_7</a></li>
+<li>“Tough luck. I bet your rescue will be here any day now. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-thorin_story_7"></span><strong><code>thorin_story_7</code></strong> Thorin: “Hmm. Yes, actually there is something that you could do for me.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_8">thorin_story_8</a></li>
+</ul>
+<p><span id="d-thorin_story_8"></span><strong><code>thorin_story_8</code></strong> Thorin: “The others that I was travelling with, they did not make it this far into the cave, but got attacked by those bugs closer to the entrance.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_9">thorin_story_9</a></li>
+</ul>
+<p><span id="d-thorin_story_9"></span><strong><code>thorin_story_9</code></strong> Thorin: “Considering how they died, I would be very interested in seeing what effects both the irdegh and the scaradons had on them.”</p>
+<ul>
+<li>Next → <a href="#d-thorin_story_10">thorin_story_10</a></li>
+</ul>
+<p><span id="d-thorin_story_10"></span><strong><code>thorin_story_10</code></strong> Thorin: “If you could find me their remains, I would be most grateful. Maybe I could continue my investigation based on their remains. Hmm, yes that would be great.”</p>
+<ul>
+<li>“Sure, find their remains. Sounds easy enough, I'll do it.” → <a href="#d-thorin_story_11">thorin_story_11</a></li>
+<li>“I'm all for finding dead things. I'll do it.” → <a href="#d-thorin_story_11">thorin_story_11</a></li>
+<li>“Hmm, this sounds a bit shady to me. I'm not sure I should do this.” → <a href="#d-thorin_decline">thorin_decline</a></li>
+</ul>
+<p><span id="d-thorin_story_11"></span><strong><code>thorin_story_11</code></strong> Thorin: “Excellent. Bring me back the remains of all six of them. I would go search myself if those nasty bugs weren't there.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/thorin/#stage-20">Bits and pieces</a></p>
+<p><span id="d-thorin_decline"></span><strong><code>thorin_decline</code></strong> Thorin: “Too bad. Good day to you then.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thorin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thorin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thorin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thorin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>thorin</code> · Data from v0.8.18</small></p>
 
 

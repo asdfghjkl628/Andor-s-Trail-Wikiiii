@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -916,6 +988,231 @@
 <li><a href="../../maps/mt_galmore_nw_tower_f2/">mt_galmore_nw_tower_f2</a></li>
 <li><a href="../../maps/mt_galmore_sw_tower_f2/">mt_galmore_sw_tower_f2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/mg_restless_grave/">Restless in the grave</a>: stages 50, 60, 65, 85, 90, 110, 123</li>
+<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stages 15, 17</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (50 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-mg_eryndor_selector"></span><strong><code>mg_eryndor_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 15 of <a href="../../quests/galmore_nondisplayed/#stage-15">galmore_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>branch 1 <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-50">Restless in the grave</a> is 50)</em> → <a href="#d-mg_eryndor_give_items_20">mg_eryndor_give_items_20</a></li>
+<li>branch 2 <em>(if reached stage 77 of <a href="../../quests/mg_restless_grave/#stage-77">Restless in the grave</a>; NOT reached stage 85 of <a href="../../quests/mg_restless_grave/#stage-85">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_give_stolen_ring_10">mg_eryndor_give_stolen_ring_10</a></li>
+<li>branch 3 <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-85">Restless in the grave</a> is 85)</em> → <a href="#d-mg_eryndor_give_stolen_ring_30">mg_eryndor_give_stolen_ring_30</a></li>
+<li>branch 4 <em>(if reached stage 70 of <a href="../../quests/mg_restless_grave/#stage-70">Restless in the grave</a>; NOT reached stage 90 of <a href="../../quests/mg_restless_grave/#stage-90">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_give_ring_10">mg_eryndor_give_ring_10</a></li>
+<li>branch 5 <em>(if reached stage 110 of <a href="../../quests/mg_restless_grave/#stage-110">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_keep_ring_20">mg_eryndor_keep_ring_20</a></li>
+<li>branch 6 <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a> is 60)</em> → <a href="#d-mg_eryndor_vaelric_jump_to30">mg_eryndor_vaelric_jump_to30</a></li>
+<li>branch 7 <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a> is 65)</em> → <a href="#d-mg_eryndor_currently65">mg_eryndor_currently65</a></li>
+<li>branch 8 <em>(if reached stage 123 of <a href="../../quests/mg_restless_grave/#stage-123">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_music_box_default_10">mg_eryndor_music_box_default_10</a></li>
+<li>branch 9 → <a href="#d-mg_eryndor_ask_for_items_10">mg_eryndor_ask_for_items_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_items_20"></span><strong><code>mg_eryndor_give_items_20</code></strong> Eryndor: “I have a story to tell only to "friends". So being my "friend" means giving me those two items you found.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_items_10">mg_eryndor_give_items_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_10"></span><strong><code>mg_eryndor_give_stolen_ring_10</code></strong> Eryndor: “So, you return with my ring?”</p>
+<ul>
+<li>“Yes, here it is. [Hand it over]” <em>(if hand over 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_give_stolen_ring_20">mg_eryndor_give_stolen_ring_20</a></li>
+<li>“Yes, here it is. [Take it off and hand it over.]” <em>(if wearing (and give up) <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_give_stolen_ring_20">mg_eryndor_give_stolen_ring_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_30"></span><strong><code>mg_eryndor_give_stolen_ring_30</code></strong> <a href="./">Eryndor</a>: “You really did it? You took it from him? Hah... good. Maybe now he will understand what it is to have something stolen away.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_stolen_ring_40">mg_eryndor_give_stolen_ring_40</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_10"></span><strong><code>mg_eryndor_give_ring_10</code></strong> Eryndor: “So, you return with my ring?”</p>
+<ul>
+<li>“Yes, here it is. [Hand it over]” <em>(if hand over 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_give_ring_20">mg_eryndor_give_ring_20</a></li>
+<li>“Yes, here it is. [Take it off and hand it over.]” <em>(if wearing (and give up) <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_give_ring_20">mg_eryndor_give_ring_20</a></li>
+<li>“I already gave it to you.” <em>(if reached stage 17 of <a href="../../quests/galmore_nondisplayed/#stage-17">galmore_nondisplayed (hidden flag)</a>; NOT carry 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_give_ring_50">mg_eryndor_give_ring_50</a></li>
+<li>“I have it, but I've decided to keep it for myself.” <em>(if carry 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_keep_ring_10">mg_eryndor_keep_ring_10</a></li>
+<li>“I'm wearing it, and you can't have it.” <em>(if wearing <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <a href="#d-mg_eryndor_keep_ring_10">mg_eryndor_keep_ring_10</a></li>
+<li>“Yes, but I forgot to bring it with me. I will have to come back later.” <em>(if NOT carry 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>; NOT wearing <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg_eryndor_keep_ring_20"></span><strong><code>mg_eryndor_keep_ring_20</code></strong> <a href="../none/">Dummy NPC</a>: “Eryndor's spectral form flickers violently, the air around him growing thick with a bitter chill.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_keep_ring_30">mg_eryndor_keep_ring_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_jump_to30"></span><strong><code>mg_eryndor_vaelric_jump_to30</code></strong> Eryndor: “We were in the middle of my story...”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_vaelric_30">mg_eryndor_vaelric_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_currently65"></span><strong><code>mg_eryndor_currently65</code></strong> Eryndor: “What are you waiting for? Go get my ring back from Vaelric.”</p>
+<p><span id="d-mg_eryndor_music_box_default_10"></span><strong><code>mg_eryndor_music_box_default_10</code></strong> Eryndor: “Have you brought the music box to Celdar yet?”</p>
+<ul>
+<li>“Yes” <em>(if reached stage 130 of <a href="../../quests/mg_restless_grave/#stage-130">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_music_box_default_20">mg_eryndor_music_box_default_20</a></li>
+<li>“Nope.” → <a href="#d-mg_eryndor_music_box_default_15">mg_eryndor_music_box_default_15</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_10"></span><strong><code>mg_eryndor_ask_for_items_10</code></strong> Eryndor: “Oh, a human? A human, indeed. How surprising. Yes, surprising indeed, but useful. Yes, useful indeed.”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-mg_eryndor_ask_for_items_20">mg_eryndor_ask_for_items_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_items_10"></span><strong><code>mg_eryndor_give_items_10</code></strong> Eryndor: “Yes, you need to give me my things or we are not friends.”</p>
+<ul>
+<li>“I already did.” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-50">Restless in the grave</a> is 50)</em> → <a href="#d-mg_eryndor_vaelric_friend">mg_eryndor_vaelric_friend</a></li>
+<li>“What does that mean, "friends"?” → <a href="#d-mg_eryndor_give_items_20">mg_eryndor_give_items_20</a></li>
+<li>“Umm, I guess so. Here. [You hand over the broken bell and the mysterious music box.]” <em>(if hand over 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; hand over 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-mg_eryndor_vaelric_friend">mg_eryndor_vaelric_friend</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_20"></span><strong><code>mg_eryndor_give_stolen_ring_20</code></strong> <a href="../none/">Dummy NPC</a>: “Eryndor's ghost flickers with anticipation as you hold out the ring. His spectral fingers pass through it at first, but he quickly pulls back, composing himself.” — <strong>effects:</strong> sets stage 85 of <a href="../../quests/mg_restless_grave/#stage-85">Restless in the grave</a></p>
+<ul>
+<li>“Now where is my reward?” → <a href="#d-mg_eryndor_give_stolen_ring_30">mg_eryndor_give_stolen_ring_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_40"></span><strong><code>mg_eryndor_give_stolen_ring_40</code></strong> <a href="../none/">Dummy NPC</a>: “He stares at the ring for a long moment, the glow of his form pulsing unevenly.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_stolen_ring_50">mg_eryndor_give_stolen_ring_50</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_20"></span><strong><code>mg_eryndor_give_ring_20</code></strong> <a href="../none/">Dummy NPC</a>: “Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.” — <strong>effects:</strong> sets stage 17 of <a href="../../quests/galmore_nondisplayed/#stage-17">galmore_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_30">mg_eryndor_give_ring_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_50"></span><strong><code>mg_eryndor_give_ring_50</code></strong> <a href="./">Eryndor</a>: “When I came to that swamp, I still had my bell, my music box, and this. But this ring was the only thing of real worth. The only thing I had left to bargain with when my body failed me.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_60">mg_eryndor_give_ring_60</a></li>
+</ul>
+<p><span id="d-mg_eryndor_keep_ring_10"></span><strong><code>mg_eryndor_keep_ring_10</code></strong> Eryndor: “You dare? That ring is mine by right! It was stolen from me in death, just as my life was stolen before its time. I will not suffer another thief to profit from my misery.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/mg_restless_grave/#stage-110">Restless in the grave</a></p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_keep_ring_20">mg_eryndor_keep_ring_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_keep_ring_30"></span><strong><code>mg_eryndor_keep_ring_30</code></strong> <a href="./">Eryndor</a>: “You may hold it now, but I promise you, it will not remain in your grasp for long. I will tear it from your fingers, along with the flesh that clings to it!”</p>
+<ul>
+<li>“I just hope I don't die for this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_30"></span><strong><code>mg_eryndor_vaelric_30</code></strong> Eryndor: “Return my ring, and this torment ends for both of us. Vaelric can go on with his life, and I will trouble him no more. That is my offer.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a></p>
+<ul>
+<li>“You have been wronged, and I will not let that stand. I will get your ring back, one way or another.” → <a href="#d-mg_eryndor_vaelric_side_with_eryndor_10">mg_eryndor_vaelric_side_with_eryndor_10</a></li>
+<li>“If what you say is true, then this should not be settled with more deceit. I will speak to Vaelric. Maybe there is a…” → <a href="#d-mg_eryndor_vaelric_help_both_10">mg_eryndor_vaelric_help_both_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_music_box_default_20"></span><strong><code>mg_eryndor_music_box_default_20</code></strong> Eryndor: “Thank you!”</p>
+<p><span id="d-mg_eryndor_music_box_default_15"></span><strong><code>mg_eryndor_music_box_default_15</code></strong> Eryndor: “What are you waiting for? Get going!”</p>
+<p><span id="d-mg_eryndor_ask_for_items_20"></span><strong><code>mg_eryndor_ask_for_items_20</code></strong> Eryndor: “No, no, no. I ask the questions.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_ask_for_items_25">mg_eryndor_ask_for_items_25</a></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_friend"></span><strong><code>mg_eryndor_vaelric_friend</code></strong> Eryndor: “Thank you, friend.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/mg_restless_grave/#stage-50">Restless in the grave</a></p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_vaelric_10">mg_eryndor_vaelric_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_50"></span><strong><code>mg_eryndor_give_stolen_ring_50</code></strong> <a href="./">Eryndor</a>: “This was mine. My last possession, my last choice. He had no right to claim it when my body still had breath. And now? Now it is back in the hands it belongs in. [Turning the ring in his hand, lost in thought.]”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_stolen_ring_60">mg_eryndor_give_stolen_ring_60</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_30"></span><strong><code>mg_eryndor_give_ring_30</code></strong> <a href="./">Eryndor</a>: “You... you actually found it? After all this time?”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_40">mg_eryndor_give_ring_40</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_60"></span><strong><code>mg_eryndor_give_ring_60</code></strong> <a href="../none/">Dummy NPC</a>: “He exhales a slow, weightless sigh, the glow of his form dimming slightly.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_70">mg_eryndor_give_ring_70</a></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_side_with_eryndor_10"></span><strong><code>mg_eryndor_vaelric_side_with_eryndor_10</code></strong> Eryndor: “Then you see the truth. Vaelric took from me when I had nothing, and now he clings to what is not his. I will be waiting, but not always here in this spot. I will not forget this, friend.” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a></p>
+<p><span id="d-mg_eryndor_vaelric_help_both_10"></span><strong><code>mg_eryndor_vaelric_help_both_10</code></strong> Eryndor: “Fair? What was fair about what he did to me? Do you think words will undo my suffering? I have lingered here too long for empty promises. But... if you truly mean to help, then do not return with excuses. Only with my ring.”</p>
+<ul>
+<li>“I will come back with answers.” → <a href="#d-mg_eryndor_restless">mg_eryndor_restless</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_25"></span><strong><code>mg_eryndor_ask_for_items_25</code></strong> Eryndor: “The graveyard west of here, have you been there?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-mg_eryndor_ask_for_items_30">mg_eryndor_ask_for_items_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_10"></span><strong><code>mg_eryndor_vaelric_10</code></strong> Eryndor: “I came to Vaelric in my hour of greatest need, bearing little but a token of my past. A ring of no great value to anyone but myself. I was desperate, suffering, and he agreed to help me for a price. Not gold, not silver, but my ring. I…”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_vaelric_20">mg_eryndor_vaelric_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_stolen_ring_60"></span><strong><code>mg_eryndor_give_stolen_ring_60</code></strong> Eryndor: “But don't think this is over. No... he will still know my presence. He will still feel my breath in the dark. This was never just about the ring. It was about what he did. About what he took from me that I can never get back.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eyndor_give_stolen_ring_70">mg_eyndor_give_stolen_ring_70</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_40"></span><strong><code>mg_eryndor_give_ring_40</code></strong> <a href="../none/">Dummy NPC</a>: “His voice is softer now, no longer laced with bitterness. He takes the ring, though it merely passes through his spectral palm. For a long moment, he stares at it, lost in thought.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_50">mg_eryndor_give_ring_50</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_70"></span><strong><code>mg_eryndor_give_ring_70</code></strong> <a href="./">Eryndor</a>: “Vaelric took it as payment, believing he had done all he could for me. And I hated him for it. Hated him for leaving me in the dark, for shoveling earth over me when I still had breath in my lungs.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_80">mg_eryndor_give_ring_80</a></li>
+</ul>
+<p><span id="d-mg_eryndor_restless"></span><strong><code>mg_eryndor_restless</code></strong> Eryndor: “I feel restless here, I was a traveler when I was alive.”</p>
+<ul>
+<li>“Umm...OK. That was random.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_30"></span><strong><code>mg_eryndor_ask_for_items_30</code></strong> Eryndor: “Did you find anything on your way from there to here?”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_ask_for_items_30_selector">mg_eryndor_ask_for_items_30_selector</a></li>
+</ul>
+<p><span id="d-mg_eryndor_vaelric_20"></span><strong><code>mg_eryndor_vaelric_20</code></strong> Eryndor: “He worked his craft, took his payment, and let me rest. But I never awoke under his roof. I awoke beneath the earth, buried like a thing to be discarded. I clawed my way free, but the world had already moved on without me. My body failed,…”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_vaelric_30">mg_eryndor_vaelric_30</a></li>
+</ul>
+<p><span id="d-mg_eyndor_give_stolen_ring_70"></span><strong><code>mg_eyndor_give_stolen_ring_70</code></strong> <a href="../none/">Dummy NPC</a>: “His expression shifts, something unreadable in his flickering gaze. A strange hesitation. He looks away for a moment before turning back to you.”</p>
+<ul>
+<li>“You're scaring me now.” → <a href="#d-mg_eyndor_give_stolen_ring_80">mg_eyndor_give_stolen_ring_80</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_80"></span><strong><code>mg_eryndor_give_ring_80</code></strong> <a href="../none/">Dummy NPC</a>: “He clenches his fist, as if testing the solidity of his fading presence.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_90">mg_eryndor_give_ring_90</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_30_selector"></span><strong><code>mg_eryndor_ask_for_items_30_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 30 of <a href="../../quests/mg_restless_grave/#stage-30">Restless in the grave</a>; reached stage 40 of <a href="../../quests/mg_restless_grave/#stage-40">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10">mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10</a></li>
+<li>Next <em>(if NOT reached stage 30 of <a href="../../quests/mg_restless_grave/#stage-30">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10">mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10</a></li>
+<li>Next <em>(if NOT reached stage 40 of <a href="../../quests/mg_restless_grave/#stage-40">Restless in the grave</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10">mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10</a></li>
+</ul>
+<p><span id="d-mg_eyndor_give_stolen_ring_80"></span><strong><code>mg_eyndor_give_stolen_ring_80</code></strong> <a href="./">Eryndor</a>: “You have done me a service, and for that, I am grateful. But there is something else I need from you. Something unfinished. A debt of my own that I must see repaid.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_music_box_10">mg_eryndor_music_box_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_90"></span><strong><code>mg_eryndor_give_ring_90</code></strong> <a href="./">Eryndor</a>: “But now... now I see things clearer than I did in life. He was wrong, but not cruel. He truly thought I was beyond saving. And perhaps, in a way, I was.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_100">mg_eryndor_give_ring_100</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10"></span><strong><code>mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10</code></strong> Eryndor: “Let me see what you found.”</p>
+<ul>
+<li>“Yes, but I didn't keep them.” <em>(if NOT carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; NOT carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems">mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems</a></li>
+<li>“Yes, but I didn't keep both.” <em>(if carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; NOT carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems">mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems</a></li>
+<li>“Yes, but I didn't keep both.” <em>(if NOT carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems">mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems</a></li>
+<li>“Why should I give them to you when I think I need them?” <em>(if carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-mg_eryndor_give_items_10">mg_eryndor_give_items_10</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10"></span><strong><code>mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10</code></strong> Eryndor: “Wait! Don't answer that. I can already tell from the expression on your face that you have not found all that I desire.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20">mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_music_box_10"></span><strong><code>mg_eryndor_music_box_10</code></strong> Eryndor: “There was one rival who stood above the rest. A relic hunter like myself, relentless and cunning. Her name is Celdar. We crossed paths often, always chasing the same artifacts, always trying to outmaneuver one another. And when it came to…”</p>
+<ul>
+<li>“Interesting.” → <a href="#d-mg_eryndor_music_box_20">mg_eryndor_music_box_20</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_100"></span><strong><code>mg_eryndor_give_ring_100</code></strong> <a href="../none/">Dummy NPC</a>: “He lifts his gaze to you, his expression unreadable, yet calm.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_give_ring_110">mg_eryndor_give_ring_110</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems"></span><strong><code>mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems</code></strong> Eryndor: “Bring both of them to me.”</p>
+<ul>
+<li>“Is there anything else I should know?” → <a href="#d-mg_eryndor_restless">mg_eryndor_restless</a></li>
+</ul>
+<p><span id="d-mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20"></span><strong><code>mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20</code></strong> Eryndor: “There are two items that I desire located somewhere between here and the graveyard. Find them and return them to me.”</p>
+<ul>
+<li>“Is there anything else I should know?” → <a href="#d-mg_eryndor_restless">mg_eryndor_restless</a></li>
+</ul>
+<p><span id="d-mg_eryndor_music_box_20"></span><strong><code>mg_eryndor_music_box_20</code></strong> <a href="../none/">Dummy NPC</a>: “Eryndor looks down at the music box, his expression unreadable.”</p>
+<ul>
+<li>Next → <a href="#d-mg_eryndor_music_box_30">mg_eryndor_music_box_30</a></li>
+</ul>
+<p><span id="d-mg_eryndor_give_ring_110"></span><strong><code>mg_eryndor_give_ring_110</code></strong> <a href="./">Eryndor</a>: “I have been bound to this world by resentment, by the belief that my suffering was without meaning. But now, with my ring returned, I feel... lighter. It's time to let go. [With a final, grateful nod, Eryndor begins to fade, his form…” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/mg_restless_grave/#stage-90">Restless in the grave</a>, clears stage 15 of <a href="../../quests/galmore_nondisplayed/#stage-15">galmore_nondisplayed (hidden flag)</a>, removes monsters from mt_galmore_nw_tower_f2, removes monsters from mt_galmore_sw_tower_f2, removes monsters from mt_galmore0_h1, removes monsters from mt_galmore0_h1_2</p>
+<p><span id="d-mg_eryndor_music_box_30"></span><strong><code>mg_eryndor_music_box_30</code></strong> <a href="./">Eryndor</a>: “But now? What does a dead man need with a relic? It is time to put an old contest to rest. I want you to find Celdar and give this to her. Not as a gesture of kindness, but because it is right.”</p>
+<ul>
+<li>“"Celdar", you say? I think I met her.” → <a href="#d-mg_eryndor_music_box_40">mg_eryndor_music_box_40</a></li>
+<li>“"Celdar"? Where can I find her?” → <a href="#d-mg_eryndor_music_box_40">mg_eryndor_music_box_40</a></li>
+</ul>
+<p><span id="d-mg_eryndor_music_box_40"></span><strong><code>mg_eryndor_music_box_40</code></strong> Eryndor: “Celdar is from Sullengard. If you don't recall speaking with her, that would be the place to start. But I suspect you have met her before. She is not one easily forgotten. She does not tolerate fools, nor those who waste her time with…” — <strong>effects:</strong> sets stage 123 of <a href="../../quests/mg_restless_grave/#stage-123">Restless in the grave</a>, gives 1× <a href="../../items/mg_music_box/">Mysterious music box</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg_eryndor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg_eryndor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg_eryndor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg_eryndor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>mg_eryndor</code> · Data from v0.8.18</small></p>
 
 

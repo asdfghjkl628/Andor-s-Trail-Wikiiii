@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,151 @@
 <ul>
 <li><a href="../../maps/wild0/">wild0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/erinith/">Deep wound</a>: stages 10, 20, 21, 30, 31, 40, 41, 42, 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (30 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-erinith"></span><strong><code>erinith</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/erinith/#stage-50">Deep wound</a>)</em> → <a href="#d-erinith_complete_1">erinith_complete_1</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/erinith/#stage-40">Deep wound</a>)</em> → <a href="#d-erinith_givenpotion_1">erinith_givenpotion_1</a></li>
+<li>branch 3 <em>(if reached stage 41 of <a href="../../quests/erinith/#stage-41">Deep wound</a>)</em> → <a href="#d-erinith_givenpotion_1">erinith_givenpotion_1</a></li>
+<li>branch 4 <em>(if reached stage 42 of <a href="../../quests/erinith/#stage-42">Deep wound</a>)</em> → <a href="#d-erinith_givenpotion_1">erinith_givenpotion_1</a></li>
+<li>branch 5 <em>(if reached stage 30 of <a href="../../quests/erinith/#stage-30">Deep wound</a>)</em> → <a href="#d-erinith_needspotions_1">erinith_needspotions_1</a></li>
+<li>branch 6 <em>(if reached stage 20 of <a href="../../quests/erinith/#stage-20">Deep wound</a>)</em> → <a href="#d-erinith_needsbook_1">erinith_needsbook_1</a></li>
+<li>branch 7 <em>(if reached stage 21 of <a href="../../quests/erinith/#stage-21">Deep wound</a>)</em> → <a href="#d-erinith_needsbook_1">erinith_needsbook_1</a></li>
+<li>branch 8 → <a href="#d-erinith_1">erinith_1</a></li>
+</ul>
+<p><span id="d-erinith_complete_1"></span><strong><code>erinith_complete_1</code></strong> Erinith: “Thank you for all your help earlier.”</p>
+<p><span id="d-erinith_givenpotion_1"></span><strong><code>erinith_givenpotion_1</code></strong> Erinith: “Thank you my friend for your help. My book is safe and my wound is healing. I hope our paths will cross again.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/erinith/#stage-50">Deep wound</a></p>
+<p><span id="d-erinith_needspotions_1"></span><strong><code>erinith_needspotions_1</code></strong> Erinith: “Thank you for helping me find my book earlier.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_2">erinith_needspotions_2</a></li>
+</ul>
+<p><span id="d-erinith_needsbook_1"></span><strong><code>erinith_needsbook_1</code></strong> Erinith: “Have you found that book yet?”</p>
+<ul>
+<li>“Not yet, I am still looking.” → <a href="#d-erinith_story_8">erinith_story_8</a></li>
+<li>“Yes, here is your book.” <em>(if hand over 1× <a href="../../items/erinith_book/">Erinith's book</a>)</em> → <a href="#d-erinith_needsbook_2">erinith_needsbook_2</a></li>
+</ul>
+<p><span id="d-erinith_1"></span><strong><code>erinith_1</code></strong> Erinith: “Please, you have to help me!”</p>
+<ul>
+<li>“What's wrong?” → <a href="#d-erinith_story_1">erinith_story_1</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_2"></span><strong><code>erinith_needspotions_2</code></strong> Erinith: “I am still hurt by this wound that I got from the attack during the night.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_3">erinith_needspotions_3</a></li>
+</ul>
+<p><span id="d-erinith_story_8"></span><strong><code>erinith_story_8</code></strong> Erinith: “Please go look for it among those trees to the northeast.”</p>
+<p><span id="d-erinith_needsbook_2"></span><strong><code>erinith_needsbook_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 30 of <a href="../../quests/erinith/#stage-30">Deep wound</a></p>
+<ul>
+<li>branch 1 <em>(if reached stage 21 of <a href="../../quests/erinith/#stage-21">Deep wound</a>)</em> → <a href="#d-erinith_needsbook_3_2">erinith_needsbook_3_2</a></li>
+<li>branch 2 → <a href="#d-erinith_needsbook_3_1">erinith_needsbook_3_1</a></li>
+</ul>
+<p><span id="d-erinith_story_1"></span><strong><code>erinith_story_1</code></strong> Erinith: “I was setting up camp here during the night, and was attacked by some bandits while asleep.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/erinith/#stage-10">Deep wound</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_story_2">erinith_story_2</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_3"></span><strong><code>erinith_needspotions_3</code></strong> Erinith: “Ack, it hurts so bad and it doesn't seem to be healing itself.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_4">erinith_needspotions_4</a></li>
+</ul>
+<p><span id="d-erinith_needsbook_3_2"></span><strong><code>erinith_needsbook_3_2</code></strong> Erinith: “You found it! Oh thank you so much. In return, here is the gold I promised you.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_2">erinith_needspotions_2</a></li>
+</ul>
+<p><span id="d-erinith_needsbook_3_1"></span><strong><code>erinith_needsbook_3_1</code></strong> Erinith: “You found it! Oh thank you so much. I was so worried that I had lost it.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_2">erinith_needspotions_2</a></li>
+</ul>
+<p><span id="d-erinith_story_2"></span><strong><code>erinith_story_2</code></strong> Erinith: “Ack, this wound doesn't seem to be healing itself.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_story_3">erinith_story_3</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_4"></span><strong><code>erinith_needspotions_4</code></strong> Erinith: “I am really in need of some stronger healing here. Maybe some potions would do.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_5">erinith_needspotions_5</a></li>
+</ul>
+<p><span id="d-erinith_story_3"></span><strong><code>erinith_story_3</code></strong> Erinith: “At least I managed to keep them from getting my book. I'm sure they were after the book.”</p>
+<ul>
+<li>“Seems like a valuable book then. This sounds interesting, please go on.” → <a href="#d-erinith_story_4">erinith_story_4</a></li>
+<li>“What happened?” → <a href="#d-erinith_story_4">erinith_story_4</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_5"></span><strong><code>erinith_needspotions_5</code></strong> Erinith: “I have heard that the potion makers these days have major potions of health, and not just the regular potions of health.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_needspotions_6">erinith_needspotions_6</a></li>
+</ul>
+<p><span id="d-erinith_story_4"></span><strong><code>erinith_story_4</code></strong> Erinith: “I managed to throw the book in among the trees over there during the attack. [Points to the trees directly to the north]”</p>
+<ul>
+<li>Next → <a href="#d-erinith_story_5">erinith_story_5</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_6"></span><strong><code>erinith_needspotions_6</code></strong> Erinith: “One of those would surely do. Otherwise, I think four regular potions of health would be enough.” — <strong>effects:</strong> sets stage 31 of <a href="../../quests/erinith/#stage-31">Deep wound</a></p>
+<ul>
+<li>“I'll go get those potions for you.” → <a href="#d-erinith_needspotions_7">erinith_needspotions_7</a></li>
+<li>“Here, take this bonemeal potion instead. It's very potent in healing deep wounds.” <em>(if hand over 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>)</em> → <a href="#d-erinith_gavepotion_bm_1">erinith_gavepotion_bm_1</a></li>
+<li>“Here, take this major potion of health.” <em>(if hand over 1× <a href="../../items/health_major2/">Major potion of health</a>)</em> → <a href="#d-erinith_gavepotion_major_1">erinith_gavepotion_major_1</a></li>
+<li>“Here, take this major flask of health.” <em>(if hand over 1× <a href="../../items/health_major/">Major flask of health</a>)</em> → <a href="#d-erinith_gavepotion_major_1">erinith_gavepotion_major_1</a></li>
+<li>“Here, take these four regular potions of health.” <em>(if hand over 4× <a href="../../items/health/">Regular potion of health</a>)</em> → <a href="#d-erinith_gavepotion_reg_1">erinith_gavepotion_reg_1</a></li>
+</ul>
+<p><span id="d-erinith_story_5"></span><strong><code>erinith_story_5</code></strong> Erinith: “I don't think they managed to get the book. It's probably still somewhere among those trees.”</p>
+<ul>
+<li>“What is in the book?” → <a href="#d-erinith_story_6">erinith_story_6</a></li>
+</ul>
+<p><span id="d-erinith_needspotions_7"></span><strong><code>erinith_needspotions_7</code></strong> Erinith: “Thank you my friend. Please hurry back.”</p>
+<p><span id="d-erinith_gavepotion_bm_1"></span><strong><code>erinith_gavepotion_bm_1</code></strong> Erinith: “Bonemeal potion? But ... but ... we are not allowed to use them since they are prohibited by Lord Geomyr.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/erinith/#stage-40">Deep wound</a></p>
+<ul>
+<li>“Who will find out?” → <a href="#d-erinith_gavepotion_bm_2">erinith_gavepotion_bm_2</a></li>
+<li>“I have tried them myself, it's perfectly safe to use them.” → <a href="#d-erinith_gavepotion_bm_2">erinith_gavepotion_bm_2</a></li>
+</ul>
+<p><span id="d-erinith_gavepotion_major_1"></span><strong><code>erinith_gavepotion_major_1</code></strong> Erinith: “Thank you for bringing me one. [Drinks potion]” — <strong>effects:</strong> sets stage 41 of <a href="../../quests/erinith/#stage-41">Deep wound</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_gavepotion_1">erinith_gavepotion_1</a></li>
+</ul>
+<p><span id="d-erinith_gavepotion_reg_1"></span><strong><code>erinith_gavepotion_reg_1</code></strong> Erinith: “Thank you for bringing them to me. [Drinks all four potions]” — <strong>effects:</strong> sets stage 42 of <a href="../../quests/erinith/#stage-42">Deep wound</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_gavepotion_1">erinith_gavepotion_1</a></li>
+</ul>
+<p><span id="d-erinith_story_6"></span><strong><code>erinith_story_6</code></strong> Erinith: “Oh, I can't say really.”</p>
+<ul>
+<li>“I could help you find that book if you want.” → <a href="#d-erinith_story_7">erinith_story_7</a></li>
+<li>“What would it be worth for you to get that book back?” → <a href="#d-erinith_story_gold_1">erinith_story_gold_1</a></li>
+</ul>
+<p><span id="d-erinith_gavepotion_bm_2"></span><strong><code>erinith_gavepotion_bm_2</code></strong> Erinith: “Hmm, yes. I guess you have a point. Oh well, here goes. [Drinks potion]”</p>
+<ul>
+<li>Next → <a href="#d-erinith_gavepotion_1">erinith_gavepotion_1</a></li>
+</ul>
+<p><span id="d-erinith_gavepotion_1"></span><strong><code>erinith_gavepotion_1</code></strong> Erinith: “Wow, I feel slightly better already. I guess this healing really works.”</p>
+<ul>
+<li>Next → <a href="#d-erinith_givenpotion_1">erinith_givenpotion_1</a></li>
+</ul>
+<p><span id="d-erinith_story_7"></span><strong><code>erinith_story_7</code></strong> Erinith: “You would? Oh thank you.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/erinith/#stage-20">Deep wound</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_story_8">erinith_story_8</a></li>
+</ul>
+<p><span id="d-erinith_story_gold_1"></span><strong><code>erinith_story_gold_1</code></strong> Erinith: “Worth? Well, I was hoping you would help me anyway, but I guess 200 gold could do.”</p>
+<ul>
+<li>“200 gold it is then. I'll go look for your book.” → <a href="#d-erinith_story_gold_2">erinith_story_gold_2</a></li>
+<li>“A lousy 200 gold, is that all you can do? Fine, I'll go look for your stupid book.” → <a href="#d-erinith_story_gold_2">erinith_story_gold_2</a></li>
+<li>“Keep your gold, I'll return your book for you anyway.” → <a href="#d-erinith_story_7">erinith_story_7</a></li>
+<li>“No, I am not getting involved in this. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-erinith_story_gold_2"></span><strong><code>erinith_story_gold_2</code></strong> Erinith: “Make it quick.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/erinith/#stage-21">Deep wound</a></p>
+<ul>
+<li>Next → <a href="#d-erinith_story_8">erinith_story_8</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erinith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erinith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erinith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erinith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>erinith</code> · Data from v0.8.18</small></p>
 
 

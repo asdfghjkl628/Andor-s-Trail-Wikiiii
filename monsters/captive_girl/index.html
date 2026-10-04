@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,106 @@
 <ul>
 <li><a href="../../maps/lake_shore_road_1/">lake_shore_road_1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/wicked_witch/">A Wicked witch</a>: stages 80, 85, 90, 95, 96</li>
+<li><a href="../../quests/sutdover_hidden/">Sutdove_nondisplay (hidden flag)</a>: stages 1</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (19 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-captive_girl_selector"></span><strong><code>captive_girl_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 90 of <a href="../../quests/wicked_witch/#stage-90">A Wicked witch</a>; NOT reached stage 95 of <a href="../../quests/wicked_witch/#stage-95">A Wicked witch</a>; NOT reached stage 96 of <a href="../../quests/wicked_witch/#stage-96">A Wicked witch</a>)</em> → <a href="#d-captive_girl_10">captive_girl_10</a></li>
+<li>Next <em>(if latest stage of <a href="../../quests/wicked_witch/#stage-90">A Wicked witch</a> is 90)</em> → <a href="#d-captive_girl_50">captive_girl_50</a></li>
+<li>Next <em>(if reached stage 95 of <a href="../../quests/wicked_witch/#stage-95">A Wicked witch</a>)</em> → <a href="#d-captive_girl_75">captive_girl_75</a></li>
+<li>Next → <a href="#d-captive_girl_31">captive_girl_31</a></li>
+</ul>
+<p><span id="d-captive_girl_10"></span><strong><code>captive_girl_10</code></strong> Emmeline: “Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion.”</p>
+<ul>
+<li>“What ... do I know you? You're just a young girl?” → <a href="#d-captive_girl_20">captive_girl_20</a></li>
+</ul>
+<p><span id="d-captive_girl_50"></span><strong><code>captive_girl_50</code></strong> Emmeline: “I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot.” — <strong>effects:</strong> sets stage 85 of <a href="../../quests/wicked_witch/#stage-85">A Wicked witch</a></p>
+<ul>
+<li>“Well, I have twenty-five of those for you.” <em>(if hand over 25× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_71">captive_girl_71</a></li>
+<li>“Well, I have twenty of those for you.” <em>(if carry 20× <a href="../../items/tonic_of_blood/">Tonic of blood</a>; NOT carry 25× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_54">captive_girl_54</a></li>
+<li>“Well, I have ten of those for you.” <em>(if carry 10× <a href="../../items/tonic_of_blood/">Tonic of blood</a>; NOT carry 20× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_56">captive_girl_56</a></li>
+<li>“Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?” <em>(if carry 5× <a href="../../items/tonic_of_blood/">Tonic of blood</a>; NOT carry 10× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_56">captive_girl_56</a></li>
+<li>“Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?” <em>(if carry 1× <a href="../../items/tonic_of_blood/">Tonic of blood</a>; NOT carry 5× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_56">captive_girl_56</a></li>
+<li>“I'm sorry, but I don't have any of those.” <em>(if NOT carry 1× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_56">captive_girl_56</a></li>
+</ul>
+<p><span id="d-captive_girl_75"></span><strong><code>captive_girl_75</code></strong> Emmeline: “Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now.” — <strong>effects:</strong> gives <a href="../../items/witch_scepter/">Enchanted evergreen rod</a>, removes monsters from lake_shore_road_1</p>
+<p><span id="d-captive_girl_31"></span><strong><code>captive_girl_31</code></strong> Emmeline: “Thank you again, my savior! I will go now.”</p>
+<ul>
+<li>Next → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-captive_girl_20"></span><strong><code>captive_girl_20</code></strong> Emmeline: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/wicked_witch/#stage-80">A Wicked witch</a>, sets stage 1 of <a href="../../quests/sutdover_hidden/#stage-1">Sutdove_nondisplay (hidden flag)</a>, spawns monsters on lake_shore_road_0, changes map lake_shore_road_0</p>
+<ul>
+<li>“Thank you, but you don't look well.” → <a href="#d-captive_girl_30">captive_girl_30</a></li>
+</ul>
+<p><span id="d-captive_girl_71"></span><strong><code>captive_girl_71</code></strong> Emmeline: “WOW! You actually managed to find twenty-five! I am so grateful.” — <strong>effects:</strong> sets stage 95 of <a href="../../quests/wicked_witch/#stage-95">A Wicked witch</a></p>
+<ul>
+<li>Next → <a href="#d-captive_girl_75">captive_girl_75</a></li>
+</ul>
+<p><span id="d-captive_girl_54"></span><strong><code>captive_girl_54</code></strong> Emmeline: “Only twenty? I was really hoping for twenty-five.”</p>
+<ul>
+<li>“Whatever! Fine. I will go get you five more.” → <em>conversation ends</em></li>
+<li>“I know that you "asked" for twenty-five, but I have twenty and they are hard to get. Please take these.” <em>(if hand over 20× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_70">captive_girl_70</a></li>
+</ul>
+<p><span id="d-captive_girl_56"></span><strong><code>captive_girl_56</code></strong> Emmeline: “Can you get me twenty-five of them?”</p>
+<ul>
+<li>“Where can I get some?” → <a href="#d-captive_girl_55">captive_girl_55</a></li>
+</ul>
+<p><span id="d-captive_girl_30"></span><strong><code>captive_girl_30</code></strong> Emmeline: “I am not well. Which is why I have not run far from this awful place and this awful witch.”</p>
+<ul>
+<li>“What's wrong? Why can't you leave?” → <a href="#d-captive_girl_35">captive_girl_35</a></li>
+<li>“What happened to you here? How did you get here?” → <a href="#d-captive_girl_35a">captive_girl_35a</a></li>
+</ul>
+<p><span id="d-captive_girl_70"></span><strong><code>captive_girl_70</code></strong> Emmeline: “OK. I won't make you go back just for five more when you've already brought me twenty.” — <strong>effects:</strong> sets stage 96 of <a href="../../quests/wicked_witch/#stage-96">A Wicked witch</a></p>
+<ul>
+<li>Next → <a href="#d-captive_girl_76">captive_girl_76</a></li>
+</ul>
+<p><span id="d-captive_girl_55"></span><strong><code>captive_girl_55</code></strong> Emmeline: “Well, I am not exactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.”</p>
+<ul>
+<li>“Can you help me out a little bit? Do you know anything about them?” → <a href="#d-captive_girl_60">captive_girl_60</a></li>
+</ul>
+<p><span id="d-captive_girl_35"></span><strong><code>captive_girl_35</code></strong> Emmeline: “I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year.”</p>
+<ul>
+<li>Next → <a href="#d-captive_girl_40">captive_girl_40</a></li>
+</ul>
+<p><span id="d-captive_girl_35a"></span><strong><code>captive_girl_35a</code></strong> Emmeline: “I am too sick to talk about this right now.”</p>
+<ul>
+<li>Next → <a href="#d-captive_girl_35">captive_girl_35</a></li>
+</ul>
+<p><span id="d-captive_girl_76"></span><strong><code>captive_girl_76</code></strong> Emmeline: “I need to go now. Thanks a lot.” — <strong>effects:</strong> removes monsters from lake_shore_road_1</p>
+<p><span id="d-captive_girl_60"></span><strong><code>captive_girl_60</code></strong> Emmeline: “Hold on. Let me think....”</p>
+<ul>
+<li>Next → <a href="#d-captive_girl_65">captive_girl_65</a></li>
+</ul>
+<p><span id="d-captive_girl_40"></span><strong><code>captive_girl_40</code></strong> Emmeline: “All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it.”</p>
+<ul>
+<li>“I've had one or two of those. They are not that bad.” <em>(if used 1× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_45">captive_girl_45</a></li>
+<li>“Are those things even good for you?” <em>(if NOT used 1× <a href="../../items/tonic_of_blood/">Tonic of blood</a>)</em> → <a href="#d-captive_girl_45">captive_girl_45</a></li>
+</ul>
+<p><span id="d-captive_girl_65"></span><strong><code>captive_girl_65</code></strong> Emmeline: “Ah, YES. I remember her saying that an "undead" friend of her's east of here taught her how to make them.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/wicked_witch/#stage-90">A Wicked witch</a></p>
+<ul>
+<li>“OK. Stay here. I will be back with more of them.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-captive_girl_45"></span><strong><code>captive_girl_45</code></strong> Emmeline: “Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them.”</p>
+<ul>
+<li>Next → <a href="#d-captive_girl_50">captive_girl_50</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=captive_girl.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=captive_girl.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=captive_girl.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=captive_girl.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>captive_girl</code> · Data from v0.8.18</small></p>
 
 

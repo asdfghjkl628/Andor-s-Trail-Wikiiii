@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,225 @@
 <ul>
 <li><a href="../../maps/fallhaven_sw/">fallhaven_sw</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fallhaven_lytwings/">It's knot funny</a>: stages 1, 91, 100, 101, 102, 103</li>
+<li><a href="../../quests/postman/">You're the postman</a>: stages 20</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (45 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-arensia"></span><strong><code>arensia</code></strong> Arensia: “Hello, dear.”</p>
+<ul>
+<li>“I have a letter for you.” <em>(if carry 1× <a href="../../items/gorwath_letter/">Gorwath's letter</a>)</em> → <a href="#d-arensia_letter">arensia_letter</a></li>
+<li>“Hello. I am wondering if you could help me?” <em>(if latest stage of <a href="../../quests/wicked_witch/#stage-10">A Wicked witch</a> is 10)</em> → <a href="#d-arensia_witch_10">arensia_witch_10</a></li>
+<li>“You seem tired. Is everything alright?” <em>(if NOT reached stage 1 of <a href="../../quests/fallhaven_lytwings/#stage-1">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_select">arensia_lytwing_select</a></li>
+<li>“About the lytwings ...” <em>(if reached stage 1 of <a href="../../quests/fallhaven_lytwings/#stage-1">It's knot funny</a>; NOT reached stage 102 of <a href="../../quests/fallhaven_lytwings/#stage-102">It's knot funny</a>; NOT reached stage 103 of <a href="../../quests/fallhaven_lytwings/#stage-103">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_select">arensia_lytwing_select</a></li>
+<li>“Have the lytwings honored their word?” <em>(if reached stage 100 of <a href="../../quests/fallhaven_lytwings/#stage-100">It's knot funny</a>; wearing <a href="../../items/ring_of_promise/">Arensia's Ring of Promise</a>)</em> → <a href="#d-arensia_lytwing_34">arensia_lytwing_34</a></li>
+<li>“Hello.” → <a href="#d-arensia_done">arensia_done</a></li>
+</ul>
+<p><span id="d-arensia_letter"></span><strong><code>arensia_letter</code></strong> Arensia: “A letter? From whom?”</p>
+<ul>
+<li>“It is from Gorwath, of Crossgl...” → <a href="#d-arensia_letter_10">arensia_letter_10</a></li>
+</ul>
+<p><span id="d-arensia_witch_10"></span><strong><code>arensia_witch_10</code></strong> Arensia: “Of course, my dear.”</p>
+<ul>
+<li>“Did you see a witch around here or hear about a witch kidnapping a girl?” → <a href="#d-no_witch_info">no_witch_info</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_select"></span><strong><code>arensia_lytwing_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 1 of <a href="../../quests/fallhaven_lytwings/#stage-1">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_1">arensia_lytwing_1</a></li>
+<li>branch 2 <em>(if reached stage 101 of <a href="../../quests/fallhaven_lytwings/#stage-101">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_22">arensia_lytwing_22</a></li>
+<li>branch 3 <em>(if NOT reached stage 12 of <a href="../../quests/fallhaven_lytwings/#stage-12">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_5">arensia_lytwing_5</a></li>
+<li>branch 4 <em>(if NOT reached stage 99 of <a href="../../quests/fallhaven_lytwings/#stage-99">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_6">arensia_lytwing_6</a></li>
+<li>branch 5 <em>(if reached stage 100 of <a href="../../quests/fallhaven_lytwings/#stage-100">It's knot funny</a>; NOT reached stage 102 of <a href="../../quests/fallhaven_lytwings/#stage-102">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_24">arensia_lytwing_24</a></li>
+<li>branch 6 <em>(if reached stage 100 of <a href="../../quests/fallhaven_lytwings/#stage-100">It's knot funny</a>; NOT reached stage 103 of <a href="../../quests/fallhaven_lytwings/#stage-103">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_24">arensia_lytwing_24</a></li>
+<li>branch 7 → <a href="#d-arensia_lytwing_23">arensia_lytwing_23</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_34"></span><strong><code>arensia_lytwing_34</code></strong> Arensia: “They have, I no longer wake up with fairy-locks.”</p>
+<ul>
+<li>“I am happy to hear that.” <em>(if reached stage 102 of <a href="../../quests/fallhaven_lytwings/#stage-102">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_35">arensia_lytwing_35</a></li>
+<li>“I am happy to hear that.” <em>(if reached stage 103 of <a href="../../quests/fallhaven_lytwings/#stage-103">It's knot funny</a>)</em> → <a href="#d-arensia_lytwing_36">arensia_lytwing_36</a></li>
+</ul>
+<p><span id="d-arensia_done"></span><strong><code>arensia_done</code></strong> Arensia: “What a beautiful day, isn't it?”</p>
+<p><span id="d-arensia_letter_10"></span><strong><code>arensia_letter_10</code></strong> Arensia: “Oh really? Give it to me - quickly!”</p>
+<ul>
+<li>“Here it is.” <em>(if hand over 1× <a href="../../items/gorwath_letter/">Gorwath's letter</a>)</em> → <a href="#d-arensia_letter_20">arensia_letter_20</a></li>
+</ul>
+<p><span id="d-no_witch_info"></span><strong><code>no_witch_info</code></strong> Arensia: “No, I'm sorry, I didn't.”</p>
+<ul>
+<li>“Oh, thanks anyway.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_1"></span><strong><code>arensia_lytwing_1</code></strong> Arensia: “My sleep has been very restless lately.”</p>
+<ul>
+<li>“Oh no, why are you not sleeping well?” → <a href="#d-arensia_lytwing_2">arensia_lytwing_2</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_22"></span><strong><code>arensia_lytwing_22</code></strong> Arensia: “There is nothing else to be done, and I will have to live with the lytwings tormenting me until my last day.”</p>
+<p><span id="d-arensia_lytwing_5"></span><strong><code>arensia_lytwing_5</code></strong> Arensia: “Have you found them yet?”</p>
+<ul>
+<li>“Not yet. I still need to go talk with Rigmor to find out more.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-1">It's knot funny</a> is 1)</em> → <a href="#d-arensia_lytwing_33">arensia_lytwing_33</a></li>
+<li>“Not yet. I am still looking for their mushroom patch. You wouldn't know where it is, perhaps?” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-10">It's knot funny</a> is 10)</em> → <a href="#d-arensia_lytwing_27">arensia_lytwing_27</a></li>
+<li>“I did, they asked that I bring them a gift of apples and strawberries.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-11">It's knot funny</a> is 11)</em> → <a href="#d-arensia_lytwing_11">arensia_lytwing_11</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_6"></span><strong><code>arensia_lytwing_6</code></strong> Arensia: “Please tell me you have good news?”</p>
+<ul>
+<li>“They accepted the gift and will allow me to talk to them.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-12">It's knot funny</a> is 12)</em> → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+<li>“The lytwings are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-13">It's knot funny</a> is 13)</em> → <a href="#d-arensia_lytwing_10">arensia_lytwing_10</a></li>
+<li>“I have, and they agreed to stop pestering you if I help cut down a tree for them.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-20">It's knot funny</a> is 20)</em> → <a href="#d-arensia_lytwing_7">arensia_lytwing_7</a></li>
+<li>“The lytwings changed their minds, and are now thinking of something else they want instead.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-21">It's knot funny</a> is 21)</em> → <a href="#d-arensia_lytwing_13">arensia_lytwing_13</a></li>
+<li>“They now want four bottles of mead. They sure are giving me the run around today!” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-30">It's knot funny</a> is 30)</em> → <a href="#d-arensia_lytwing_14">arensia_lytwing_14</a></li>
+<li>“They took the mead, but said they need something else.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-31">It's knot funny</a> is 31)</em> → <a href="#d-arensia_lytwing_28">arensia_lytwing_28</a></li>
+<li>“They want a dozen wild flowers.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-40">It's knot funny</a> is 40)</em> → <a href="#d-arensia_lytwing_30">arensia_lytwing_30</a></li>
+<li>“They took the wild flowers ...” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-41">It's knot funny</a> is 41)</em> → <a href="#d-arensia_lytwing_18">arensia_lytwing_18</a></li>
+<li>“The lytwings ask that you make a promise to never pick mushrooms from their fairy ring again.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-90">It's knot funny</a> is 90)</em> → <a href="#d-arensia_lytwing_19">arensia_lytwing_19</a></li>
+<li>“I will take your ring to them at once!” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-91">It's knot funny</a> is 91)</em> → <a href="#d-arensia_lytwing_32">arensia_lytwing_32</a></li>
+<li>“I gave them your ring, they are busy discussing it now.” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-92">It's knot funny</a> is 92)</em> → <a href="#d-arensia_lytwing_32">arensia_lytwing_32</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_24"></span><strong><code>arensia_lytwing_24</code></strong> Arensia: “I cannot thank you enough, $playername. You have saved my sanity!” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/fallhaven_lytwings/#stage-100">It's knot funny</a></p>
+<ul>
+<li>“Unfortunately they kept your mother's ring (Lie).” → <a href="#d-arensia_lytwing_25">arensia_lytwing_25</a></li>
+<li>“They used their magic on your ring, and asked that I give it back to you.” → <a href="#d-arensia_lytwing_26">arensia_lytwing_26</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_23"></span><strong><code>arensia_lytwing_23</code></strong> Arensia: “So ... what did they say?”</p>
+<ul>
+<li>“The lytwings finally agreed to leave you in peace.” → <a href="#d-arensia_lytwing_24">arensia_lytwing_24</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_35"></span><strong><code>arensia_lytwing_35</code></strong> Arensia: “But I see you have the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.”</p>
+<ul>
+<li>“But, I ... um ....” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_36"></span><strong><code>arensia_lytwing_36</code></strong> Arensia: “I see you have my magical ring. I hope it serves you well, you deserve it.”</p>
+<ul>
+<li>“I keep it safe, and it keeps me safe in return.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_letter_20"></span><strong><code>arensia_letter_20</code></strong> Arensia: “[Reading] Oh that's cute. Tell Gorwath I love him too.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/postman/#stage-20">You're the postman</a></p>
+<ul>
+<li>“I'll be happy to tell him that.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_2"></span><strong><code>arensia_lytwing_2</code></strong> Arensia: “I am being taunted by naughty lytwings at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots.…”</p>
+<ul>
+<li>“I am sorry to hear that, but I cannot help you right now.” → <a href="#d-arensia_lytwing_3">arensia_lytwing_3</a></li>
+<li>“That sounds awful, can I help in any way?” → <a href="#d-arensia_lytwing_4">arensia_lytwing_4</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_33"></span><strong><code>arensia_lytwing_33</code></strong> Arensia: “You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north past the tavern.” — <strong>effects:</strong> sets stage 1 of <a href="../../quests/fallhaven_lytwings/#stage-1">It's knot funny</a></p>
+<ul>
+<li>“Okay.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_27"></span><strong><code>arensia_lytwing_27</code></strong> Arensia: “I can't say that I have noticed it. A few days ago I was picking mushrooms to the west of here.”</p>
+<p><span id="d-arensia_lytwing_11"></span><strong><code>arensia_lytwing_11</code></strong> Arensia: “Oh wonderful! An odd request nonetheless.”</p>
+<ul>
+<li>“I better go and find those fruit.” → <em>conversation ends</em></li>
+<li>“Where can I find apples and strawberries?” → <a href="#d-arensia_lytwing_12">arensia_lytwing_12</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_8"></span><strong><code>arensia_lytwing_8</code></strong> Arensia: “Please keep me updated.”</p>
+<ul>
+<li>“I will.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_10"></span><strong><code>arensia_lytwing_10</code></strong> Arensia: “Okay thanks for letting me know. Don't let them wait too long.”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_7"></span><strong><code>arensia_lytwing_7</code></strong> Arensia: “Oh that is great news! If you need an axe, check with Jakrar, my father, over there.”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_13"></span><strong><code>arensia_lytwing_13</code></strong> Arensia: “Oh no, they sound very difficult to deal with. I hope it gets better.”</p>
+<ul>
+<li>“Thank you.” → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_14"></span><strong><code>arensia_lytwing_14</code></strong> Arensia: “I am so sorry.”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_28"></span><strong><code>arensia_lytwing_28</code></strong> Arensia: “They sure are a greedy bunch!”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_30"></span><strong><code>arensia_lytwing_30</code></strong> Arensia: “How can I help?”</p>
+<ul>
+<li>“Where can I find wild flowers?” <em>(if NOT carry 1× <a href="../../items/wild_flower/">Wild Flower</a>)</em> → <a href="#d-arensia_lytwing_31">arensia_lytwing_31</a></li>
+<li>“I found some wild flowers, I just need a few more.” <em>(if carry 1× <a href="../../items/wild_flower/">Wild Flower</a>; NOT carry 12× <a href="../../items/wild_flower/">Wild Flower</a>)</em> → <a href="#d-arensia_lytwing_37">arensia_lytwing_37</a></li>
+<li>“I have found a dozen wild flowers. I will take them to the lytwings.” <em>(if carry 12× <a href="../../items/wild_flower/">Wild Flower</a>)</em> → <a href="#d-arensia_lytwing_37">arensia_lytwing_37</a></li>
+<li>“Will this ever end?” → <a href="#d-arensia_lytwing_15">arensia_lytwing_15</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_18"></span><strong><code>arensia_lytwing_18</code></strong> Arensia: “Oh please tell me that is the end of it?”</p>
+<ul>
+<li>“I'm afraid not, they still want more.” → <a href="#d-arensia_lytwing_15">arensia_lytwing_15</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_19"></span><strong><code>arensia_lytwing_19</code></strong> Arensia: “Of course! anything!”</p>
+<ul>
+<li>“You have to make this promise to a piece of jewellery, which I will take back to them.” → <a href="#d-arensia_lytwing_20">arensia_lytwing_20</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_32"></span><strong><code>arensia_lytwing_32</code></strong> Arensia: “Oh I hope they accept it, and I hope they are done with their silly errands.”</p>
+<ul>
+<li>“Me too.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_25"></span><strong><code>arensia_lytwing_25</code></strong> Arensia: “That is okay. I did not expect to get it back.” — <strong>effects:</strong> sets stage 102 of <a href="../../quests/fallhaven_lytwings/#stage-102">It's knot funny</a></p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_9">arensia_lytwing_9</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_26"></span><strong><code>arensia_lytwing_26</code></strong> Arensia: “After everything you have done for me ... I want you to keep it. Please, I insist!” — <strong>effects:</strong> sets stage 103 of <a href="../../quests/fallhaven_lytwings/#stage-103">It's knot funny</a></p>
+<ul>
+<li>“That is very generous, I won't forget it.” → <a href="#d-arensia_lytwing_9">arensia_lytwing_9</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_3"></span><strong><code>arensia_lytwing_3</code></strong> Arensia: “I understand. I guess I will just have to live with their mischief, and hope that I don't lose my hair, or my sanity!”</p>
+<ul>
+<li>“Good luck.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_4"></span><strong><code>arensia_lytwing_4</code></strong> Arensia: “You would be willing to help me? I would be so grateful if you could make them leave me alone.”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_33">arensia_lytwing_33</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_12"></span><strong><code>arensia_lytwing_12</code></strong> Arensia: “You can buy apples at the Fallhaven tavern. Not sure about strawberries though.”</p>
+<ul>
+<li>“OK, thanks anyway.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_31"></span><strong><code>arensia_lytwing_31</code></strong> Arensia: “Look to the south, and southeast from here. You will see the wild flowers growing next to the trees.”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_30">arensia_lytwing_30</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_37"></span><strong><code>arensia_lytwing_37</code></strong> Arensia: “Those flowers look perfect.”</p>
+<p><span id="d-arensia_lytwing_15"></span><strong><code>arensia_lytwing_15</code></strong> Arensia: “You have done so much for me already. I will understand if you want to quit, I won't blame you.”</p>
+<ul>
+<li>“I want to see this through.” → <a href="#d-arensia_lytwing_16">arensia_lytwing_16</a></li>
+<li>“The lytwings are driving me insane. I thought about this, and I can't help you any more. I am sorry.” → <a href="#d-arensia_lytwing_29">arensia_lytwing_29</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_20"></span><strong><code>arensia_lytwing_20</code></strong> Arensia: “I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the lytwings!”</p>
+<ul>
+<li>“I hope this works.” → <a href="#d-arensia_lytwing_21">arensia_lytwing_21</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_9"></span><strong><code>arensia_lytwing_9</code></strong> Arensia: “Thank you so much for helping me with the lytwings!”</p>
+<ul>
+<li>“You are welcome!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_16"></span><strong><code>arensia_lytwing_16</code></strong> Arensia: “You are too kind!”</p>
+<ul>
+<li>Next → <a href="#d-arensia_lytwing_8">arensia_lytwing_8</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_29"></span><strong><code>arensia_lytwing_29</code></strong> Arensia: “Are you sure that you want to quit?”</p>
+<ul>
+<li>“Yes, I want to quit.” → <a href="#d-arensia_lytwing_17">arensia_lytwing_17</a></li>
+<li>“On second thought, I want to see this through.” → <a href="#d-arensia_lytwing_16">arensia_lytwing_16</a></li>
+</ul>
+<p><span id="d-arensia_lytwing_21"></span><strong><code>arensia_lytwing_21</code></strong> Arensia: “I made a promise to the ring, here take it to the lytwings!” — <strong>effects:</strong> gives 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a>, sets stage 91 of <a href="../../quests/fallhaven_lytwings/#stage-91">It's knot funny</a></p>
+<ul>
+<li>“I will, right away!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arensia_lytwing_17"></span><strong><code>arensia_lytwing_17</code></strong> Arensia: “I appreciate your help either way.” — <strong>effects:</strong> sets stage 101 of <a href="../../quests/fallhaven_lytwings/#stage-101">It's knot funny</a></p>
+<ul>
+<li>“Goodbye.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arensia.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arensia.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arensia.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arensia.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>arensia</code> · Data from v0.8.18</small></p>
 
 

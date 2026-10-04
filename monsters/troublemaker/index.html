@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -988,6 +1060,284 @@
 <li><a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a></li>
 <li><a href="../../maps/fallhaven_derelict2_t/">fallhaven_derelict2_t</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 45, 60, 70</li>
+<li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 15, 20, 60</li>
+<li><a href="../../quests/wanted_men/">Wanted men</a>: stages 45, 50, 55, 65, 80</li>
+<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 60</li>
+<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stages 100, 110</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (58 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-troublemaker_selector"></span><strong><code>troublemaker_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if latest stage of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a> is 60)</em> → <a href="#d-troublemaker_guild_13a">troublemaker_guild_13a</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/Thieves01/#stage-20">Thief apprentice</a>; NOT reached stage 60 of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a>)</em> → <a href="#d-troublemaker_guild_10">troublemaker_guild_10</a></li>
+<li>branch 3 → <a href="#d-thievesguild_troublemaker_1">thievesguild_troublemaker_1</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_13a"></span><strong><code>troublemaker_guild_13a</code></strong> Troublemaker: “Hi again, kid. What do you want?”</p>
+<ul>
+<li>“OK ... It's done. She's alright, and probably eating some bread now.” <em>(if reached stage 65 of <a href="../../quests/Thieves02/#stage-65">Immaculate kidnapping</a>; NOT reached stage 70 of <a href="../../quests/Thieves02/#stage-70">Immaculate kidnapping</a>)</em> → <a href="#d-troublemaker_guild02_9">troublemaker_guild02_9</a></li>
+<li>“I've dealt with the lady.” <em>(if latest stage of <a href="../../quests/Thieves02/#stage-55">Immaculate kidnapping</a> is 55; NOT reached stage 65 of <a href="../../quests/Thieves02/#stage-65">Immaculate kidnapping</a>)</em> → <a href="#d-troublemaker_guild02_8">troublemaker_guild02_8</a></li>
+<li>“I still have to take our guest to her quarters.” <em>(if reached stage 45 of <a href="../../quests/Thieves02/#stage-45">Immaculate kidnapping</a>; NOT reached stage 55 of <a href="../../quests/Thieves02/#stage-55">Immaculate kidnapping</a>)</em> → <em>conversation ends</em></li>
+<li>“I have to ...(you look at Ambelie) find a better place for her.” <em>(if reached stage 40 of <a href="../../quests/Thieves02/#stage-40">Immaculate kidnapping</a>; NOT reached stage 45 of <a href="../../quests/Thieves02/#stage-45">Immaculate kidnapping</a>)</em> → <a href="#d-troublemaker_guild02_1">troublemaker_guild02_1</a></li>
+<li>“[Lie] I just recovered 10,000 gold from my latest mission and was told to give it to The Guild.” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-40">Wanted men</a> is 40)</em> → <a href="#d-troublemaker_wm_10">troublemaker_wm_10</a></li>
+<li>“I have found Defy and his men.” <em>(if reached stage 50 of <a href="../../quests/wanted_men/#stage-50">Wanted men</a>; NOT reached stage 55 of <a href="../../quests/wanted_men/#stage-55">Wanted men</a>)</em> → <a href="#d-troublemaker_wm_report_5_alt">troublemaker_wm_report_5_alt</a></li>
+<li>“I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-56">Wanted men</a> is 56)</em> → <a href="#d-troublemaker_wm_report_45">troublemaker_wm_report_45</a></li>
+<li>“I have found Defy and his men.” <em>(if reached stage 40 of <a href="../../quests/wanted_men/#stage-40">Wanted men</a>; NOT latest stage of <a href="../../quests/wanted_men/#stage-45">Wanted men</a> is 45; NOT reached stage 50 of <a href="../../quests/wanted_men/#stage-50">Wanted men</a>; NOT reached stage 60 of <a href="../../quests/wanted_men/#stage-60">Wanted men</a>; NOT reached stage 76 of <a href="../../quests/wanted_men/#stage-76">Wanted men</a>)</em> → <a href="#d-troublemaker_wm_report_5">troublemaker_wm_report_5</a></li>
+<li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-60">Wanted men</a> is 60; hand over 1× <a href="../../items/aidem_fake_vault_key/">Aidem fake vault key</a>)</em> → <a href="#d-troublemaker_wm_return_fake_key_10">troublemaker_wm_return_fake_key_10</a></li>
+<li>“I encountered Defy and his men and was forced to kill them!” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-76">Wanted men</a> is 76)</em> → <a href="#d-troublemaker_wm_deffy_killed_10">troublemaker_wm_deffy_killed_10</a></li>
+<li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-77">Wanted men</a> is 77; hand over 1× <a href="../../items/thieves_vault_key/">Thieves' vault key</a>)</em> → <a href="#d-troublemaker_wm_return_real_key_10">troublemaker_wm_return_real_key_10</a></li>
+<li>“Can I take a look at the Guild's current supplies?” → <em>shop opens</em></li>
+<li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if reached stage 60 of <a href="../../quests/nondisplay/#stage-60">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>)</em> → <a href="#d-troublemaker_wm_return_real_key_10">troublemaker_wm_return_real_key_10</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_10"></span><strong><code>troublemaker_guild_10</code></strong> Troublemaker: “How is the mission going?”</p>
+<ul>
+<li>“I've brought all the journals.” <em>(if reached stage 55 of <a href="../../quests/Thieves01/#stage-55">Thief apprentice</a>; hand over 1× <a href="../../items/Dunla_journal/">Dunla's Journal</a>; hand over 1× <a href="../../items/Fanamor_journal/">Fanamor's Journal</a>; hand over 1× <a href="../../items/Leta_journal/">Leta's Journal</a>)</em> → <a href="#d-troublemaker_guild_11a">troublemaker_guild_11a</a></li>
+<li>“I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.” <em>(if latest stage of <a href="../../quests/Thieves01/#stage-51">Thief apprentice</a> is 51; hand over 1× <a href="../../items/Dunla_journal/">Dunla's Journal</a>; hand over 1× <a href="../../items/Fanamor_journal/">Fanamor's Journal</a>; hand over 1× <a href="../../items/Leta_journal/">Leta's Journal</a>)</em> → <a href="#d-troublemaker_guild_11b">troublemaker_guild_11b</a></li>
+<li>“I gave you the journals, so where's my reward?” <em>(if reached stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a>; NOT reached stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
+<li>“Almost done.” → <a href="#d-troublemaker_guild_11c">troublemaker_guild_11c</a></li>
+<li>“Well, but can I take a look at your supplies again?” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_1"></span><strong><code>thievesguild_troublemaker_1</code></strong> Troublemaker: “Hello. Don't I recognize you from somewhere?”</p>
+<ul>
+<li>“No, I'm sure we have never met.” → <a href="#d-thievesguild_troublemaker_3">thievesguild_troublemaker_3</a></li>
+<li>“What do you do around here?” → <a href="#d-thievesguild_troublemaker_2">thievesguild_troublemaker_2</a></li>
+<li>“Can I take a look at what supplies you have available?” → <em>shop opens</em></li>
+<li>“Umar sent me to talk about my first job here.” <em>(if reached stage 10 of <a href="../../quests/Thieves01/#stage-10">Thief apprentice</a>)</em> → <a href="#d-troublemaker_guild_1">troublemaker_guild_1</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_9"></span><strong><code>troublemaker_guild02_9</code></strong> Troublemaker: “Excellent. From now on me and my fellows will take care of her.”</p>
+<ul>
+<li>“Very well. I will go and talk to Umar again. Bye.” → <a href="#d-troublemaker_guild02_9_1">troublemaker_guild02_9_1</a></li>
+<li>“But ...” → <a href="#d-troublemaker_guild02_10">troublemaker_guild02_10</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_8"></span><strong><code>troublemaker_guild02_8</code></strong> Troublemaker: “Ah, yes ... that captive. Take this food and make sure she is comfortable enough. We don't want her starving right? (Troublemaker gives you some bread)” — <strong>effects:</strong> gives 5× <a href="../../items/bread/">Bread</a>, sets stage 60 of <a href="../../quests/Thieves02/#stage-60">Immaculate kidnapping</a></p>
+<ul>
+<li>“Argh. OK. What a tedious job!” → <em>conversation ends</em></li>
+<li>“Understood.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild02_1"></span><strong><code>troublemaker_guild02_1</code></strong> Troublemaker: “So do you want to kill her quietly?”</p>
+<ul>
+<li>“No, just I want a suitable place to leave her until ...” → <a href="#d-troublemaker_guild02_2a">troublemaker_guild02_2a</a></li>
+<li>“What? No, I am just asking you for a place for this type of job. Umar told me you knew of somewhere.” → <a href="#d-troublemaker_guild02_2b">troublemaker_guild02_2b</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_10"></span><strong><code>troublemaker_wm_10</code></strong> Troublemaker: “Great! Give it to me and when I have time, whenever that may be, I will add it to our bank.”</p>
+<ul>
+<li>“Well, if you are so busy, I don't mind making the deposit for the greater good.” → <a href="#d-troublemaker_wm_15">troublemaker_wm_15</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_5_alt"></span><strong><code>troublemaker_wm_report_5_alt</code></strong> Troublemaker: “Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?”</p>
+<ul>
+<li>“Well, I agreed to, but only because I want to help you guys catch him.” → <a href="#d-troublemaker_wm_report_20">troublemaker_wm_report_20</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_45"></span><strong><code>troublemaker_wm_report_45</code></strong> Troublemaker: “Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there.”</p>
+<ul>
+<li>“Oh, yeah, I forgot.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_5"></span><strong><code>troublemaker_wm_report_5</code></strong> Troublemaker: “You what? How? Where? Tell me all you know.”</p>
+<ul>
+<li>“I found them by pure luck, really.” → <a href="#d-troublemaker_wm_report_10">troublemaker_wm_report_10</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_return_fake_key_10"></span><strong><code>troublemaker_wm_return_fake_key_10</code></strong> Troublemaker: “Thank you very much!” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/wanted_men/#stage-65">Wanted men</a>, removes monsters from aidem_base_2, spawns monsters on wild6_house, faction “factionCountThieves” set to -8, removes monsters from aidem_base_2</p>
+<p><span id="d-troublemaker_wm_deffy_killed_10"></span><strong><code>troublemaker_wm_deffy_killed_10</code></strong> Troublemaker: “You what? How? Where? Tell me all you know.”</p>
+<ul>
+<li>“You're never going to believe this, but they were inside that vacant house when I walked in.” → <a href="#d-troublemaker_wm_deffy_killed_20">troublemaker_wm_deffy_killed_20</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_return_real_key_10"></span><strong><code>troublemaker_wm_return_real_key_10</code></strong> Troublemaker: “Thank you very much!” — <strong>effects:</strong> faction “factionCountThieves” set to -8, sets stage 60 of <a href="../../quests/nondisplay/#stage-60">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<ul>
+<li>“I encountered Defy and his men and was forced to kill them!” → <a href="#d-troublemaker_wm_deffy_killed_10">troublemaker_wm_deffy_killed_10</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_11a"></span><strong><code>troublemaker_guild_11a</code></strong> Troublemaker: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a></p>
+<ul>
+<li>“Thank you!” → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
+<li>“Yes .... So where is my reward?” → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_11b"></span><strong><code>troublemaker_guild_11b</code></strong> Troublemaker: “Well, that is the price of being one of us. There's always risk.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_12a"></span><strong><code>troublemaker_guild_12a</code></strong> Troublemaker: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a>, gives 900× <a href="../../items/gold/">Gold coins</a>, sets stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a></p>
+<ul>
+<li>“Sure, I will talk to him.” → <em>conversation ends</em></li>
+<li>“At least I got some gold. Bye!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild_11c"></span><strong><code>troublemaker_guild_11c</code></strong> Troublemaker: “Return to me when you are done.”</p>
+<ul>
+<li>“OK, I will.” → <em>conversation ends</em></li>
+<li>“Can you tell me again what I'm supposed to do?” → <a href="#d-troublemaker_guild_12b">troublemaker_guild_12b</a></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_3"></span><strong><code>thievesguild_troublemaker_3</code></strong> Troublemaker: “No, I really recognize you.”</p>
+<ul>
+<li>“You must have me confused with someone else.” → <a href="#d-thievesguild_troublemaker_4">thievesguild_troublemaker_4</a></li>
+<li>“Maybe you have me confused with my brother Andor.” → <a href="#d-thievesguild_troublemaker_5">thievesguild_troublemaker_5</a></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_2"></span><strong><code>thievesguild_troublemaker_2</code></strong> Troublemaker: “I keep an eye on our supplies for the guild.”</p>
+<ul>
+<li>“Can I take a look at what you have available?” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-troublemaker_guild_1"></span><strong><code>troublemaker_guild_1</code></strong> Troublemaker: “Argh, another annoying apprentice ... I mean, sorry. I know you were the one who brought us the key.”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_2">troublemaker_guild_2</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_9_1"></span><strong><code>troublemaker_guild02_9_1</code></strong> Troublemaker: “Do that.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/Thieves02/#stage-70">Immaculate kidnapping</a></p>
+<p><span id="d-troublemaker_guild02_10"></span><strong><code>troublemaker_guild02_10</code></strong> Troublemaker: “Hey, what are you waiting for? Leave me and go talk with Umar or something!” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/Thieves02/#stage-70">Immaculate kidnapping</a></p>
+<ul>
+<li>“You don't need to be rude! I will leave.” → <em>conversation ends</em></li>
+<li>“I'll talk to him. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild02_2a"></span><strong><code>troublemaker_guild02_2a</code></strong> Troublemaker: “Yeah, the ransom. I'm a veteran kid, don't forget that.”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild02_3">troublemaker_guild02_3</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_2b"></span><strong><code>troublemaker_guild02_2b</code></strong> Troublemaker: “Hmpf, be more specific next time. I'm not a mind-reader!”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild02_3">troublemaker_guild02_3</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_15"></span><strong><code>troublemaker_wm_15</code></strong> Troublemaker: “Hmm... well I guess you could do that for me considering Umar trusts you a lot.”</p>
+<ul>
+<li>“Great! Just tell me where to go and you can consider it done.” → <a href="#d-troublemaker_wm_20">troublemaker_wm_20</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_20"></span><strong><code>troublemaker_wm_report_20</code></strong> Troublemaker: “Really? What did you say?” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/wanted_men/#stage-50">Wanted men</a></p>
+<ul>
+<li>“Well, I agreed to, but only because I want to help you guys catch him.” → <a href="#d-troublemaker_wm_report_25">troublemaker_wm_report_25</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_10"></span><strong><code>troublemaker_wm_report_10</code></strong> Troublemaker: “Where did you find them?”</p>
+<ul>
+<li>“Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjoying some of Sullengard's…” → <a href="#d-troublemaker_wm_report_15">troublemaker_wm_report_15</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_deffy_killed_20"></span><strong><code>troublemaker_wm_deffy_killed_20</code></strong> Troublemaker: “Then what happened?”</p>
+<ul>
+<li>“They looked up to no good, so I questioned them. Then the next thing I know, I'm caught up in the heat of battle and…” → <a href="#d-troublemaker_wm_deffy_killed_30">troublemaker_wm_deffy_killed_30</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_12b"></span><strong><code>troublemaker_guild_12b</code></strong> Troublemaker: “You have to retrieve information from our spies. The first one is a spy in Crossglen, Leta. I believe you know her. One of our veteran spies, Dunla, is disguised as a vendor in Vilegard Tavern. And finally we have Fanamor, watching what…”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_13b">troublemaker_guild_13b</a></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_4"></span><strong><code>thievesguild_troublemaker_4</code></strong> Troublemaker: “Yes, might be.”</p>
+<ul>
+<li>“Have you seen my brother around here? He looks somewhat like me.” → <a href="#d-thievesguild_troublemaker_5">thievesguild_troublemaker_5</a></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_5"></span><strong><code>thievesguild_troublemaker_5</code></strong> Troublemaker: “Oh yes, now that you mention it. There was that kid running around here, asking a lot of questions.”</p>
+<ul>
+<li>“Do you know what he was looking for, or what he was doing?” → <a href="#d-thievesguild_troublemaker_6">thievesguild_troublemaker_6</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_2"></span><strong><code>troublemaker_guild_2</code></strong> Troublemaker: “OK, now listen up!”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_3">troublemaker_guild_3</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_3"></span><strong><code>troublemaker_guild02_3</code></strong> Troublemaker: “Well, I understand. Yes I have a place, but there's a problem. That place is at the other end of the town, next to the graveyard.”</p>
+<ul>
+<li>“I don't think that will present a major problem for me.” → <a href="#d-troublemaker_guild02_4">troublemaker_guild02_4</a></li>
+<li>“I got here without any problem. Why I would have problems crossing through town?” → <a href="#d-troublemaker_guild02_4">troublemaker_guild02_4</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_20"></span><strong><code>troublemaker_wm_20</code></strong> Troublemaker: “Well, it's not that easy. You need more than the location. You need this key.” — <strong>effects:</strong> gives <a href="../../items/thieves_vault_key/">Thieves' vault key</a>, sets stage 45 of <a href="../../quests/wanted_men/#stage-45">Wanted men</a></p>
+<ul>
+<li>“Thanks, but where is the vault located?” → <a href="#d-troublemaker_wm_25">troublemaker_wm_25</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_25"></span><strong><code>troublemaker_wm_report_25</code></strong> Troublemaker: “You know, $playername, for just being a young adventurer, you are learning a lot.”</p>
+<ul>
+<li>“Thanks a lot. I do feel a lot smarter now than I did before joining your guild.” → <a href="#d-troublemaker_wm_report_30">troublemaker_wm_report_30</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_15"></span><strong><code>troublemaker_wm_report_15</code></strong> Troublemaker: “What else can you tell me?”</p>
+<ul>
+<li>“They wanted to hire me to rob you guys. Defy wants your stash of gold and treasures.” → <a href="#d-troublemaker_wm_report_20">troublemaker_wm_report_20</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_deffy_killed_30"></span><strong><code>troublemaker_wm_deffy_killed_30</code></strong> Troublemaker: “Can you prove this? Can you show me something that proves that all four are dead?”</p>
+<ul>
+<li>“Yes. I looted their rings. [Shows them to Troublemaker]” <em>(if hand over 1× <a href="../../items/defy_ring/">Defy's ring</a>; hand over 1× <a href="../../items/greedy_ring/">Greedy's ring</a>; hand over 1× <a href="../../items/grabby_ring/">Grabby's ring</a>; hand over 1× <a href="../../items/zachlanny_ring/">Zachlanny ring</a>)</em> → <a href="#d-troublemaker_wm_deffy_killed_40">troublemaker_wm_deffy_killed_40</a></li>
+<li>“Yes. I looted their rings, but I forgot to bring them with me. I'll come back.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild_13b"></span><strong><code>troublemaker_guild_13b</code></strong> Troublemaker: “And don't forget the password: You are no one. No one knows you. No one has seen you.”</p>
+<ul>
+<li>“Understood, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-thievesguild_troublemaker_6"></span><strong><code>thievesguild_troublemaker_6</code></strong> Troublemaker: “No. I don't know. I just manage the supplies.”</p>
+<ul>
+<li>“OK, thanks anyway. Goodbye.” → <em>conversation ends</em></li>
+<li>“Bah, you're useless. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild_3"></span><strong><code>troublemaker_guild_3</code></strong> Troublemaker: “As I expect you are aware, we're not welcome in many places. In fact, we're being pursued by Fallhaven patrols. That's why we are here. This place is safe.”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_4">troublemaker_guild_4</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_4"></span><strong><code>troublemaker_guild02_4</code></strong> Troublemaker: “Well, anyway, I'm building a way underground to reach it without being seen. It will be ready next time, I promise.”</p>
+<ul>
+<li>“Whatever, anything more?” → <a href="#d-troublemaker_guild02_5a">troublemaker_guild02_5a</a></li>
+<li>“Thank you. I will go there.” → <a href="#d-troublemaker_guild02_5b">troublemaker_guild02_5b</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_25"></span><strong><code>troublemaker_wm_25</code></strong> Troublemaker: “You can find the empty house just south of here. Enter it and you will find your way.”</p>
+<ul>
+<li>“Thank you so much! I will bring the key back as quick as possible.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_30"></span><strong><code>troublemaker_wm_report_30</code></strong> Troublemaker: “Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault.” — <strong>effects:</strong> gives <a href="../../items/thieves_vault_key_fake/">Fake Thieve's Guild vault key</a>, sets stage 55 of <a href="../../quests/wanted_men/#stage-55">Wanted men</a></p>
+<ul>
+<li>“Sir, that sounds like a great plan. What do you want me to do after handing him the fake key?” → <a href="#d-troublemaker_wm_report_35">troublemaker_wm_report_35</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_deffy_killed_40"></span><strong><code>troublemaker_wm_deffy_killed_40</code></strong> Troublemaker: “Well, this is great news indeed. However, we would like to have them alive.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>, faction “factionCountThieves” set to 3</p>
+<p><span id="d-troublemaker_guild_4"></span><strong><code>troublemaker_guild_4</code></strong> Troublemaker: “But we need supplies to survive, and also to maintain the Guild's influence. We are not just common robbers.”</p>
+<ul>
+<li>“What do you mean?” → <a href="#d-troublemaker_guild_5">troublemaker_guild_5</a></li>
+<li>“Please continue.” → <a href="#d-troublemaker_guild_5">troublemaker_guild_5</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_5a"></span><strong><code>troublemaker_guild02_5a</code></strong> Troublemaker: “Yes, there is something.”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild02_6">troublemaker_guild02_6</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_5b"></span><strong><code>troublemaker_guild02_5b</code></strong> Troublemaker: “OK. Make sure you're not seen doing suspicious things!”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild02_6">troublemaker_guild02_6</a></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_35"></span><strong><code>troublemaker_wm_report_35</code></strong> Troublemaker: “You should go with them to the vault as we may need your help there.”</p>
+<ul>
+<li>“Great! Just tell me where to go and you can consider it done.” → <a href="#d-troublemaker_wm_report_40">troublemaker_wm_report_40</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_5"></span><strong><code>troublemaker_guild_5</code></strong> Troublemaker: “We don't just steal gold or goods. We steal information. Secrets, shipment reports, strategic locations. Do you know what I mean?”</p>
+<ul>
+<li>“Get to the point please.” → <a href="#d-troublemaker_guild_6">troublemaker_guild_6</a></li>
+<li>“Yes, I understand.” → <a href="#d-troublemaker_guild_6">troublemaker_guild_6</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_6"></span><strong><code>troublemaker_guild02_6</code></strong> Troublemaker: “I almost forgot. Take this key. Make sure you put it in correctly to open the hatchway.” — <strong>effects:</strong> gives 1× <a href="../../items/guildbrigK/">Guild brig key</a>, sets stage 45 of <a href="../../quests/Thieves02/#stage-45">Immaculate kidnapping</a></p>
+<ul>
+<li>“You forget many things, right?” → <a href="#d-troublemaker_guild02_7">troublemaker_guild02_7</a></li>
+<li>“Hmm, OK. I will keep that in mind.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_wm_report_40"></span><strong><code>troublemaker_wm_report_40</code></strong> Troublemaker: “You can find the empty house just southwest of here. Enter it and you will find your way.”</p>
+<ul>
+<li>“I'll be there. Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-troublemaker_guild_6"></span><strong><code>troublemaker_guild_6</code></strong> Troublemaker: “We have spies and scouts in certain key locations, gathering information. These locations are places frequented by people from Feygard and also from Nor City.”</p>
+<ul>
+<li>Next → <a href="#d-troublemaker_guild_7">troublemaker_guild_7</a></li>
+</ul>
+<p><span id="d-troublemaker_guild02_7"></span><strong><code>troublemaker_guild02_7</code></strong> Troublemaker: “I have better things to do than help an apprentice. Leave me. Hmpf.”</p>
+<p><span id="d-troublemaker_guild_7"></span><strong><code>troublemaker_guild_7</code></strong> Troublemaker: “So you will be the intermediary this time, collecting our spies' journals and bringing them to me.”</p>
+<ul>
+<li>“Sounds easy, I'll do it.” → <a href="#d-troublemaker_guild_8a">troublemaker_guild_8a</a></li>
+<li>“That's not my favorite kind of job, but I will bring them.” → <a href="#d-troublemaker_guild_8a">troublemaker_guild_8a</a></li>
+<li>“No, I'm too strong to be just a mere broker.” → <a href="#d-troublemaker_guild_8b">troublemaker_guild_8b</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_8a"></span><strong><code>troublemaker_guild_8a</code></strong> Troublemaker: “Good. We have three people on the job. The first one is a spy in Crossglen, Leta. I believe you know her. One of our veteran spies, Dunla, is disguised as a vendor in Vilegard Tavern. And finally we have Fanamor, watching what is…” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/Thieves01/#stage-15">Thief apprentice</a></p>
+<ul>
+<li>“Anything else?” → <a href="#d-troublemaker_guild_9">troublemaker_guild_9</a></li>
+<li>“OK, bye.” → <a href="#d-troublemaker_guild_9">troublemaker_guild_9</a></li>
+</ul>
+<p><span id="d-troublemaker_guild_8b"></span><strong><code>troublemaker_guild_8b</code></strong> Troublemaker: “Hmpf. Go kill some beetles with your strength!”</p>
+<p><span id="d-troublemaker_guild_9"></span><strong><code>troublemaker_guild_9</code></strong> Troublemaker: “Ah! I almost forgot. You have to say the password if you want them to give you the journal. The password is "You are no one. No one knows you. No one has seen you." Good luck.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Thieves01/#stage-20">Thief apprentice</a></p>
+<ul>
+<li>“I will keep that in mind. Bye.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=troublemaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=troublemaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=troublemaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=troublemaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>troublemaker</code> · Data from v0.8.18</small></p>
 
 

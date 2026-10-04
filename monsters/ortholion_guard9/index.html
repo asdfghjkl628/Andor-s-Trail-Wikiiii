@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,104 @@
 <ul>
 <li><a href="../../maps/elm_3f/">elm_3f</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Omi2_bwm1/">Climbing up is forbidden</a>: stages 50</li>
+<li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stages 34, 35</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (16 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ortholion_guard9_s"></span><strong><code>ortholion_guard9_s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 35 of <a href="../../quests/bwm72_beginning/#stage-35">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-ortholion_guard9_11">ortholion_guard9_11</a></li>
+<li>branch 2 <em>(if reached stage 50 of <a href="../../quests/Omi2_bwm1/#stage-50">Climbing up is forbidden</a>)</em> → <a href="#d-ortholion_guard9_10a">ortholion_guard9_10a</a></li>
+<li>branch 3 <em>(if 6 rounds passed since timer “elm3f_grow”)</em> → <a href="#d-ortholion_guard9_3">ortholion_guard9_3</a></li>
+<li>branch 4 → <a href="#d-ortholion_guard9_1">ortholion_guard9_1</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_11"></span><strong><code>ortholion_guard9_11</code></strong> Ortholion's henchman: “I will leave this place right now and come back with more men anyway! Kids these days...Annoying.” — <strong>effects:</strong> clears stage 34 of <a href="../../quests/bwm72_beginning/#stage-34">Hidden: events in bwm (hidden flag)</a>, sets stage 50 of <a href="../../quests/Omi2_bwm1/#stage-50">Climbing up is forbidden</a>, sets stage 35 of <a href="../../quests/bwm72_beginning/#stage-35">Hidden: events in bwm (hidden flag)</a></p>
+<ul>
+<li>“Goodbye!” → <em>NPC leaves</em></li>
+<li>“Whatever, I'm leaving.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-ortholion_guard9_10a"></span><strong><code>ortholion_guard9_10a</code></strong> Ortholion's henchman: “I knew I could count on you! This sign of bravery won't be forgotten.” — <strong>effects:</strong> clears stage 34 of <a href="../../quests/bwm72_beginning/#stage-34">Hidden: events in bwm (hidden flag)</a>, sets stage 50 of <a href="../../quests/Omi2_bwm1/#stage-50">Climbing up is forbidden</a></p>
+<ul>
+<li>“See you soon, sir.” → <em>NPC leaves</em></li>
+<li>“Whatever. Step aside, I'm leading the way!” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-ortholion_guard9_3"></span><strong><code>ortholion_guard9_3</code></strong> Ortholion's henchman: “Unbelievable...”</p>
+<ul>
+<li>“Where's the general?” → <a href="#d-ortholion_guard9_4">ortholion_guard9_4</a></li>
+<li>“Uhm, whatever. I have to go.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ortholion_guard9_1"></span><strong><code>ortholion_guard9_1</code></strong> Ortholion's henchman: “Be quiet.”</p>
+<ul>
+<li>“What?” → <a href="#d-ortholion_guard9_1">ortholion_guard9_1</a></li>
+<li>“Why?” <em>(if NOT reached stage 34 of <a href="../../quests/bwm72_beginning/#stage-34">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-orhtolion_guard9_2">orhtolion_guard9_2</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_4"></span><strong><code>ortholion_guard9_4</code></strong> Ortholion's henchman: “General...Oh! That's right. I don't think this is the right way.”</p>
+<ul>
+<li>Next → <a href="#d-ortholion_guard9_5">ortholion_guard9_5</a></li>
+</ul>
+<p><span id="d-orhtolion_guard9_2"></span><strong><code>orhtolion_guard9_2</code></strong> Ortholion's henchman: “Look <em>points to the large crystals</em>...It grows.” — <strong>effects:</strong> sets stage 34 of <a href="../../quests/bwm72_beginning/#stage-34">Hidden: events in bwm (hidden flag)</a>, starts timer “elm3f_grow”</p>
+<ul>
+<li>“[Look]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ortholion_guard9_5"></span><strong><code>ortholion_guard9_5</code></strong> Ortholion's henchman: “This no longer seems to be part of the Elm mine. Look at all these strange creatures... Uh, I'm the only one that has gone this far. My partners must have discovered the right path.”</p>
+<ul>
+<li>“Half of your partners are dead and the other half are too scared to even go inside the mine.” → <a href="#d-ortholion_guard9_6b">ortholion_guard9_6b</a></li>
+<li>“I haven't seen any other way. This is the right one.” → <a href="#d-ortholion_guard9_6a">ortholion_guard9_6a</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_6b"></span><strong><code>ortholion_guard9_6b</code></strong> Ortholion's henchman: “That cannot be... Damn it! I knew those screams were not from these creatures.”</p>
+<ul>
+<li>“I'm sorry.” → <a href="#d-ortholion_guard9_8c">ortholion_guard9_8c</a></li>
+<li>“Save your breath. We still have a mission, and monsters to slay.” → <a href="#d-ortholion_guard9_8b">ortholion_guard9_8b</a></li>
+<li>“It was their fault.” → <a href="#d-ortholion_guard9_8a">ortholion_guard9_8a</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_6a"></span><strong><code>ortholion_guard9_6a</code></strong> Ortholion's henchman: “You sure?”</p>
+<ul>
+<li>Next → <a href="#d-ortholion_guard9_7">ortholion_guard9_7</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_8c"></span><strong><code>ortholion_guard9_8c</code></strong> Ortholion's henchman: “No, It's not your fault. You could have done nothing.”</p>
+<ul>
+<li>Next → <a href="#d-ortholion_guard9_9">ortholion_guard9_9</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_8b"></span><strong><code>ortholion_guard9_8b</code></strong> Ortholion's henchman: “Yes...”</p>
+<ul>
+<li>Next → <a href="#d-ortholion_guard9_9">ortholion_guard9_9</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_8a"></span><strong><code>ortholion_guard9_8a</code></strong> Ortholion's henchman: “But...Ugh, you're dead right. Soliders of Feygard MUST NOT SHRINK FROM DANGER!”</p>
+<ul>
+<li>“Calm down, please.” → <a href="#d-ortholion_guard9_9">ortholion_guard9_9</a></li>
+<li>“HONOR!!” → <a href="#d-ortholion_guard9_9">ortholion_guard9_9</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_7"></span><strong><code>ortholion_guard9_7</code></strong> Ortholion's henchman: “Where are my partners then?”</p>
+<ul>
+<li>“Dead...Most of them.” → <a href="#d-ortholion_guard9_6b">ortholion_guard9_6b</a></li>
+<li>“They were all consumed by those crystals that you were amazed by.” → <a href="#d-ortholion_guard9_6b">ortholion_guard9_6b</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_9"></span><strong><code>ortholion_guard9_9</code></strong> Ortholion's henchman: “OK...You're strong and valiant, but are you reliable enough? I will go all the way back and call for reinforcements. I want you to explore this cavern. If you find something too dangerous, please return to the mine, will you?”</p>
+<ul>
+<li>“That was my plan until you distracted me.” → <a href="#d-ortholion_guard9_10b">ortholion_guard9_10b</a></li>
+<li>“Anything for the glory of Feygard!” → <a href="#d-ortholion_guard9_10a">ortholion_guard9_10a</a></li>
+<li>“Hmpf, just this time.” → <a href="#d-ortholion_guard9_10a">ortholion_guard9_10a</a></li>
+</ul>
+<p><span id="d-ortholion_guard9_10b"></span><strong><code>ortholion_guard9_10b</code></strong> Ortholion's henchman: “Will you help me or not?”</p>
+<ul>
+<li>“Hmpf, OK.” → <a href="#d-ortholion_guard9_11">ortholion_guard9_11</a></li>
+<li>“Maybe some other time.” → <a href="#d-ortholion_guard9_11">ortholion_guard9_11</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard9.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard9.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard9.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard9.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ortholion_guard9</code> · Data from v0.8.18</small></p>
 
 

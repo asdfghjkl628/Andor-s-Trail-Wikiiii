@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -913,6 +985,115 @@
 <ul>
 <li><a href="../../maps/undertell_3_00/">undertell_3_00</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/about_a_girl/">About a girl</a>: stages 10, 20, 30, 40, 90</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (22 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-elytharan_liberated_ghost_selector"></span><strong><code>elytharan_liberated_ghost_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/about_a_girl/#stage-10">About a girl</a>)</em> → <a href="#d-elytharan_liberated_ghost_initial">elytharan_liberated_ghost_initial</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/about_a_girl/#stage-10">About a girl</a>; NOT reached stage 20 of <a href="../../quests/about_a_girl/#stage-20">About a girl</a>)</em> → <a href="#d-elytharan_liberated_ghost_about_girl_10">elytharan_liberated_ghost_about_girl_10</a></li>
+<li>branch 3 <em>(if reached stage 20 of <a href="../../quests/about_a_girl/#stage-20">About a girl</a>; NOT reached stage 30 of <a href="../../quests/about_a_girl/#stage-30">About a girl</a>)</em> → <a href="#d-elytharan_liberated_ghost_about_girl_20">elytharan_liberated_ghost_about_girl_20</a></li>
+<li>branch 4 <em>(if latest stage of <a href="../../quests/about_a_girl/#stage-30">About a girl</a> is 30)</em> → <a href="#d-elytharan_liberated_ghost_about_girl_30">elytharan_liberated_ghost_about_girl_30</a></li>
+<li>branch 5 <em>(if reached stage 40 of <a href="../../quests/about_a_girl/#stage-40">About a girl</a>; NOT reached stage 70 of <a href="../../quests/about_a_girl/#stage-70">About a girl</a>)</em> → <a href="#d-elytharan_liberated_ghost_about_girl_40_not_70">elytharan_liberated_ghost_about_girl_40_not_70</a></li>
+<li>branch 6 <em>(if reached stage 80 of <a href="../../quests/about_a_girl/#stage-80">About a girl</a>; NOT reached stage 90 of <a href="../../quests/about_a_girl/#stage-90">About a girl</a>)</em> → <a href="#d-elytharan_liberated_ghost_about_girl_90">elytharan_liberated_ghost_about_girl_90</a></li>
+<li>branch 7 → <a href="#d-elytharan_liberated_ghost_default">elytharan_liberated_ghost_default</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_initial"></span><strong><code>elytharan_liberated_ghost_initial</code></strong> Liberated Elytharan ghost: “Oh thank you Elythara! We are freed at last.”</p>
+<ul>
+<li>“Freed?” → <a href="#d-elytharan_liberated_ghost_freed_10">elytharan_liberated_ghost_freed_10</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_10"></span><strong><code>elytharan_liberated_ghost_about_girl_10</code></strong> <a href="./">Liberated Elytharan ghost</a>: “There is another. A girl. She never came back here when the shades fell. Instead, she hides east of here. Probably in a corner somewhere.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/about_a_girl/#stage-10">About a girl</a></p>
+<ul>
+<li>“Why would she still hide?” → <a href="#d-elytharan_liberated_ghost_about_girl_10b">elytharan_liberated_ghost_about_girl_10b</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_20"></span><strong><code>elytharan_liberated_ghost_about_girl_20</code></strong> <a href="../elytharan_liberated_ghost2/">Liberated Elytharan ghost</a>: “You have not forgotten her, have you?”</p>
+<ul>
+<li>“I am still trying to understand what happened to the talisman.” → <a href="#d-elytharan_liberated_ghost_about_girl_20b">elytharan_liberated_ghost_about_girl_20b</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_30"></span><strong><code>elytharan_liberated_ghost_about_girl_30</code></strong> <a href="./">Liberated Elytharan ghost</a>: “If the talisman still exists, it will not be with the dead.”</p>
+<ul>
+<li>“Then where should I look?” → <a href="#d-elytharan_liberated_ghost_about_girl_30b">elytharan_liberated_ghost_about_girl_30b</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_40_not_70"></span><strong><code>elytharan_liberated_ghost_about_girl_40_not_70</code></strong> <a href="./">Liberated Elytharan ghost</a>: “What are you doing here? Go find that talisman and bring it to her.”</p>
+<ul>
+<li>“Yes, of course.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_90"></span><strong><code>elytharan_liberated_ghost_about_girl_90</code></strong> <a href="./">Liberated Elytharan ghost</a>: “She came back. We did not think she would.”</p>
+<ul>
+<li>“I want to speak to her.” → <a href="#d-elytharan_liberated_ghost_about_girl_90b">elytharan_liberated_ghost_about_girl_90b</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_default"></span><strong><code>elytharan_liberated_ghost_default</code></strong> Liberated Elytharan ghost: “It is so wonderful to finally be free of the evil that surrounded those shades...thank you Elythara!”</p>
+<ul>
+<li>“What?! It was thanks to me. You guys are hopeless.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_freed_10"></span><strong><code>elytharan_liberated_ghost_freed_10</code></strong> <a href="../elytharan_liberated_ghost2/">Liberated Elytharan ghost</a>: “Yes! Freed from the rule of those Kha'zaan shades.”</p>
+<ul>
+<li>“But that was not Elythara. That was me.” → <a href="#d-elytharan_liberated_ghost_freed_20">elytharan_liberated_ghost_freed_20</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_10b"></span><strong><code>elytharan_liberated_ghost_about_girl_10b</code></strong> <a href="../elytharan_liberated_ghost2/">Liberated Elytharan ghost</a>: “Fear does not listen to truth. She made something to keep it away.”</p>
+<ul>
+<li>“What did she make?” → <a href="#d-elytharan_liberated_ghost_about_girl_10c">elytharan_liberated_ghost_about_girl_10c</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_20b"></span><strong><code>elytharan_liberated_ghost_about_girl_20b</code></strong> <a href="./">Liberated Elytharan ghost</a>: “They used to gather our things. Count them. Decide what mattered.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/about_a_girl/#stage-30">About a girl</a></p>
+<ul>
+<li>“Who did?” → <a href="#d-elytharan_liberated_ghost_about_girl_20c">elytharan_liberated_ghost_about_girl_20c</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_30b"></span><strong><code>elytharan_liberated_ghost_about_girl_30b</code></strong> Liberated Elytharan ghost: “With those who believed fear could be shaped. Go to the Masters.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/about_a_girl/#stage-40">About a girl</a>, spawns monsters on undertell_3_12</p>
+<ul>
+<li>“Don't worry, I will take care of this for you guys.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_90b"></span><strong><code>elytharan_liberated_ghost_about_girl_90b</code></strong> <a href="../elytharan_liberated_ghost2/">Liberated Elytharan ghost</a>: “She is here because she chose to be. Not because fear left her.”</p>
+<ul>
+<li>“Then let me hear it from her.” → <a href="#d-elytharan_liberated_ghost_about_girl_90c">elytharan_liberated_ghost_about_girl_90c</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_freed_20"></span><strong><code>elytharan_liberated_ghost_freed_20</code></strong> <a href="./">Liberated Elytharan ghost</a>: “Listen you, we've been hiding for Elythara knows how long, and the first thing you say to us is a lie?”</p>
+<ul>
+<li>“But it was me, I swear to Elythara it was me.” → <a href="#d-elytharan_liberated_ghost_freed_30">elytharan_liberated_ghost_freed_30</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_10c"></span><strong><code>elytharan_liberated_ghost_about_girl_10c</code></strong> Liberated Elytharan ghost: “A folded coin. Copper. She believed evil could be trapped if it could not breathe.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/about_a_girl/#stage-20">About a girl</a></p>
+<ul>
+<li>“Where is it now?” → <a href="#d-elytharan_liberated_ghost_about_girl_10d">elytharan_liberated_ghost_about_girl_10d</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_20c"></span><strong><code>elytharan_liberated_ghost_about_girl_20c</code></strong> Liberated Elytharan ghost: “Those above us. Those who studied fear instead of ending it.”</p>
+<ul>
+<li>“The Masters?” → <a href="#d-elytharan_liberated_ghost_about_girl_30">elytharan_liberated_ghost_about_girl_30</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_90c"></span><strong><code>elytharan_liberated_ghost_about_girl_90c</code></strong> <a href="../about_a_girl_final/">Syrra</a>: “Do not mistake silence for weakness.”</p>
+<ul>
+<li>“You do not have to hide anymore.” → <a href="#d-about_girl_syrra_90">about_girl_syrra_90</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_freed_30"></span><strong><code>elytharan_liberated_ghost_freed_30</code></strong> <a href="../elytharan_liberated_ghost2/">Liberated Elytharan ghost</a>: “If that is true, then maybe you could help us help someone else?”</p>
+<ul>
+<li>“Who?” → <a href="#d-elytharan_liberated_ghost_about_girl_10">elytharan_liberated_ghost_about_girl_10</a></li>
+</ul>
+<p><span id="d-elytharan_liberated_ghost_about_girl_10d"></span><strong><code>elytharan_liberated_ghost_about_girl_10d</code></strong> Liberated Elytharan ghost: “Lost. Taken. We do not know which. Only that it never came back.”</p>
+<ul>
+<li>“I will look for it.” → <a href="#d-elytharan_liberated_ghost_about_girl_20b">elytharan_liberated_ghost_about_girl_20b</a></li>
+</ul>
+<p><span id="d-about_girl_syrra_90"></span><strong><code>about_girl_syrra_90</code></strong> Liberated Elytharan ghost: “I know. It still follows me. Just not as closely.”</p>
+<ul>
+<li>“Fear does not decide where you stand.” → <a href="#d-about_girl_syrra_90b">about_girl_syrra_90b</a></li>
+</ul>
+<p><span id="d-about_girl_syrra_90b"></span><strong><code>about_girl_syrra_90b</code></strong> Liberated Elytharan ghost: “No. But it remembers. I will too.”</p>
+<ul>
+<li>“Then this is enough.” → <a href="#d-about_girl_syrra_90c">about_girl_syrra_90c</a></li>
+</ul>
+<p><span id="d-about_girl_syrra_90c"></span><strong><code>about_girl_syrra_90c</code></strong> Liberated Elytharan ghost: “It is.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/about_a_girl/#stage-90">About a girl</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=elytharan_liberated_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=elytharan_liberated_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=elytharan_liberated_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=elytharan_liberated_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>elytharan_liberated_ghost</code> · Data from v0.8.18</small></p>
 
 

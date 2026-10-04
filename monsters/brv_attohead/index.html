@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -942,6 +1014,64 @@
 <ul>
 <li><a href="../../maps/brimhaven_brother1_to_2/">brimhaven_brother1_to_2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_flood/">Much water</a>: stages 20, 30, 50, 52, 70, 72, 120</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (11 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_brothers_select"></span><strong><code>brv_brothers_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 56 of <a href="../../quests/brv_flood/#stage-56">Much water</a>)</em> → <a href="#d-brv_brothers_14">brv_brothers_14</a></li>
+<li>branch 2 <em>(if reached stage 50 of <a href="../../quests/brv_flood/#stage-50">Much water</a>)</em> → <a href="#d-brv_brothers_13">brv_brothers_13</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/brv_flood/#stage-30">Much water</a>)</em> → <a href="#d-brv_brothers_10">brv_brothers_10</a></li>
+<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/brv_flood/#stage-20">Much water</a>)</em> → <a href="#d-brv_brothers_8">brv_brothers_8</a></li>
+<li>branch 5 → <a href="#d-brv_brothers_6">brv_brothers_6</a></li>
+</ul>
+<p><span id="d-brv_brothers_14"></span><strong><code>brv_brothers_14</code></strong> Attohead: “It's great how you destroyed the dam!”</p>
+<ul>
+<li>“Can you tell me who is your boss?” <em>(if reached stage 110 of <a href="../../quests/brv_flood/#stage-110">Much water</a>)</em> → <a href="#d-brv_brothers_15">brv_brothers_15</a></li>
+</ul>
+<p><span id="d-brv_brothers_13"></span><strong><code>brv_brothers_13</code></strong> Attohead: “Go and destroy the dam.”</p>
+<p><span id="d-brv_brothers_10"></span><strong><code>brv_brothers_10</code></strong> Attohead: “Would you assist us in destroying the dam?” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_flood/#stage-30">Much water</a>, removes monsters from brimhaven1</p>
+<ul>
+<li>“OK, I would like to help you destroy the dam.” → <a href="#d-brv_brothers_12">brv_brothers_12</a></li>
+<li>“No, I will never do that!” → <a href="#d-brv_brothers_11">brv_brothers_11</a></li>
+</ul>
+<p><span id="d-brv_brothers_8"></span><strong><code>brv_brothers_8</code></strong> <a href="./">Attohead</a>: “[You accidently make a noise and they turn their heads towards you] Hey, what are you doing down here? No matter, we have to shut their mouth.”</p>
+<ul>
+<li>Next → <a href="#d-brv_brothers_9">brv_brothers_9</a></li>
+</ul>
+<p><span id="d-brv_brothers_6"></span><strong><code>brv_brothers_6</code></strong> <a href="../brv_alvies/">Alvies</a>: “[It seems they still have not seen you, because they have their backs turned to you.] Your way of destroying the dam will not work. Better that we use my idea.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brv_flood/#stage-20">Much water</a></p>
+<ul>
+<li>Next → <a href="#d-brv_brothers_7">brv_brothers_7</a></li>
+</ul>
+<p><span id="d-brv_brothers_15"></span><strong><code>brv_brothers_15</code></strong> Attohead: “We don't know him by name. He looked very rich and I think he lives in the western town alone in a big house.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_flood/#stage-120">Much water</a></p>
+<p><span id="d-brv_brothers_12"></span><strong><code>brv_brothers_12</code></strong> Attohead: “To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry river bed.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brv_flood/#stage-50">Much water</a>, sets stage 52 of <a href="../../quests/brv_flood/#stage-52">Much water</a>, gives 1× <a href="../../items/hand_axe/">Hand Axe</a></p>
+<p><span id="d-brv_brothers_11"></span><strong><code>brv_brothers_11</code></strong> Attohead: “Then we have to shut you up and do it ourselves.” — <strong>effects:</strong> faction “brv_brothers” set to -1, sets stage 70 of <a href="../../quests/brv_flood/#stage-70">Much water</a>, sets stage 72 of <a href="../../quests/brv_flood/#stage-72">Much water</a></p>
+<ul>
+<li>“Let's fight!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-brv_brothers_9"></span><strong><code>brv_brothers_9</code></strong> <a href="../brv_alvies/">Alvies</a>: “Since they are already here, we could ask them to help us, if they want to save their life.”</p>
+<ul>
+<li>Next → <a href="#d-brv_brothers_10">brv_brothers_10</a></li>
+</ul>
+<p><span id="d-brv_brothers_7"></span><strong><code>brv_brothers_7</code></strong> <a href="./">Attohead</a>: “Your idea to destroy the great Brimhaven dam? Are you kidding?”</p>
+<ul>
+<li>Next → <a href="#d-brv_brothers_8">brv_brothers_8</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_attohead.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_attohead</code> · Data from v0.8.18</small></p>
 
 

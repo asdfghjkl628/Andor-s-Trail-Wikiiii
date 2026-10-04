@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -962,6 +1034,85 @@
 </tr>
 </tbody>
 </table>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/undertell_barricades/">You shall pass</a>: stages 150</li>
+<li><a href="../../quests/fallhaventavern/">Room to rent (hidden flag)</a>: stages 10</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (13 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-bela"></span><strong><code>bela</code></strong> Bela: “Welcome to Fallhaven Tavern. Have a seat anywhere.”</p>
+<ul>
+<li>“Let me see what food and drinks you have available.” → <a href="#d-bela_select">bela_select</a></li>
+<li>“Are there any rooms available?” → <a href="#d-bela_room_select">bela_room_select</a></li>
+<li>“Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a…” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-20">Beer Bootlegging</a> is 20)</em> → <a href="#d-bela_beer">bela_beer</a></li>
+<li>“Do you have strawberries?” <em>(if latest stage of <a href="../../quests/fallhaven_lytwings/#stage-11">It's knot funny</a> is 11)</em> → <a href="#d-bela_lytwing_strawberries">bela_lytwing_strawberries</a></li>
+<li>“Please keep these 4,850 gold coins for safekeeping. Rain asked for you until he gets over his hangover, he'll come…” <em>(if latest stage of <a href="../../quests/undertell_barricades/#stage-140">You shall pass</a> is 140; pay 4,850 gold)</em> → <a href="#d-bela_rain">bela_rain</a></li>
+</ul>
+<p><span id="d-bela_select"></span><strong><code>bela_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 120 of <a href="../../quests/gison_soup/#stage-120">Delicious soup</a>)</em> → <a href="#d-bela_trade_2">bela_trade_2</a></li>
+<li>branch 2 → <a href="#d-bela_trade_1">bela_trade_1</a></li>
+</ul>
+<p><span id="d-bela_room_select"></span><strong><code>bela_room_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Room to rent (hidden flag)</a>)</em> → <a href="#d-bela_room_3">bela_room_3</a></li>
+<li>branch 2 → <a href="#d-bela_room_1">bela_room_1</a></li>
+</ul>
+<p><span id="d-bela_beer"></span><strong><code>bela_beer</code></strong> Bela: “Who is Torilo?”</p>
+<ul>
+<li>“Come on. You know who Torilo is.” → <a href="#d-bela_beer_10">bela_beer_10</a></li>
+</ul>
+<p><span id="d-bela_lytwing_strawberries"></span><strong><code>bela_lytwing_strawberries</code></strong> Bela: “I don't, but I believe the potion merchant here in Fallhaven has some.”</p>
+<ul>
+<li>“OK.” → <a href="#d-bela">bela</a></li>
+</ul>
+<p><span id="d-bela_rain"></span><strong><code>bela_rain</code></strong> Bela: “Definitely. Count on me. Glad you could help him, the poor sod.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/undertell_barricades/#stage-150">You shall pass</a>, removes monsters from fallhaven_nw, spawns monsters on fallhaven_nw</p>
+<p><span id="d-bela_trade_2"></span><strong><code>bela_trade_2</code></strong> <a href="./">Bela</a>: “I have some new soup now, from Gison and Nimael. It's expensive, but worth the money.”</p>
+<ul>
+<li>“Sounds interesting.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-bela_trade_1"></span><strong><code>bela_trade_1</code></strong> Bela: “I have a variety of food and drinks.”</p>
+<ul>
+<li>“OK. Please show me.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-bela_room_3"></span><strong><code>bela_room_3</code></strong> Bela: “I hope the room suits your needs. It's the last room down at the end of the hall.”</p>
+<ul>
+<li>“Thank you. There was something else I wanted to talk about.” → <a href="#d-bela">bela</a></li>
+<li>“Thanks, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bela_room_1"></span><strong><code>bela_room_1</code></strong> Bela: “A room will cost you only 10 gold.”</p>
+<ul>
+<li>“[Buy for 10 gold]” <em>(if pay 10 gold)</em> → <a href="#d-bela_room_2">bela_room_2</a></li>
+<li>“I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]” <em>(if NOT have 10 gold; reached stage 1 of <a href="../../quests/Thieves03/#stage-1">The ruthless Crackshot</a>)</em> → <a href="#d-bela_room_2">bela_room_2</a></li>
+<li>“Umar sent me.” <em>(if reached stage 20 of <a href="../../quests/misc_nondisplay/#stage-20">misc_nondisplay (hidden flag)</a>)</em> → <a href="#d-bela_room_2">bela_room_2</a></li>
+<li>“No thanks.” → <a href="#d-bela">bela</a></li>
+</ul>
+<p><span id="d-bela_beer_10"></span><strong><code>bela_beer_10</code></strong> Bela: “No, really, I don't know anyone by that name.”</p>
+<ul>
+<li>“Sure you do. He is the owner of the Foaming flask.” → <a href="#d-bela_beer_20">bela_beer_20</a></li>
+</ul>
+<p><span id="d-bela_room_2"></span><strong><code>bela_room_2</code></strong> Bela: “OK. Take the last room down at the end of the hall.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Room to rent (hidden flag)</a></p>
+<ul>
+<li>“Thank you. There was something else I wanted to talk about.” → <a href="#d-bela">bela</a></li>
+<li>“Thanks, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bela_beer_20"></span><strong><code>bela_beer_20</code></strong> Bela: “the 'Foaming flask', what is that? Is that a tavern?”</p>
+<ul>
+<li>“I've had enough of you. If you want to play dumb, then I don't have time for you.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bela_2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bela_2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bela_2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bela_2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>bela_2</code> · Data from v0.8.18</small></p>
 
 

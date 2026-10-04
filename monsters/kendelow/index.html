@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,118 @@
 <ul>
 <li><a href="../../maps/remgard_tavern0/">remgard_tavern0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 21</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (24 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-kendelow"></span><strong><code>kendelow</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-kendelow_1">kendelow_1</a></li>
+<li>branch 2 → <a href="#d-kendelow_2">kendelow_2</a></li>
+</ul>
+<p><span id="d-kendelow_1"></span><strong><code>kendelow_1</code></strong> Kendelow: “I heard that you helped us get rid of that witch Algangror. Thank you.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_d">kendelow_d</a></li>
+</ul>
+<p><span id="d-kendelow_2"></span><strong><code>kendelow_2</code></strong> Kendelow: “Welcome to my tavern. I hope you will find your stay a pleasant one.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_d">kendelow_d</a></li>
+</ul>
+<p><span id="d-kendelow_d"></span><strong><code>kendelow_d</code></strong> Kendelow: “How may I be of service?”</p>
+<ul>
+<li>“What is there to do around here?” → <a href="#d-kendelow_3">kendelow_3</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-kendelow_shop">kendelow_shop</a></li>
+<li>“Are there any rooms available?” → <a href="#d-kendelow_room_1">kendelow_room_1</a></li>
+<li>“Actually, I am wondering if it would be possible if I could cook some meat in your kitchen?” → <a href="#d-kendelow_meat">kendelow_meat</a></li>
+</ul>
+<p><span id="d-kendelow_3"></span><strong><code>kendelow_3</code></strong> Kendelow: “Most people here in Remgard tend to their crops. Other than that, I hear that Arnal the armorer over on the western shore has some good business trading.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_4">kendelow_4</a></li>
+</ul>
+<p><span id="d-kendelow_shop"></span><strong><code>kendelow_shop</code></strong> Kendelow: “Oh sure. Here, have a look.”</p>
+<ul>
+<li>Next → <em>shop opens</em></li>
+</ul>
+<p><span id="d-kendelow_room_1"></span><strong><code>kendelow_room_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 21 of <a href="../../quests/nondisplay/#stage-21">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-kendelow_room_2">kendelow_room_2</a></li>
+<li>branch 2 → <a href="#d-kendelow_room_3">kendelow_room_3</a></li>
+</ul>
+<p><span id="d-kendelow_meat"></span><strong><code>kendelow_meat</code></strong> Kendelow: “No, sorry. I can't let you use my kitchen. But...”</p>
+<ul>
+<li>Next → <a href="#d-gael_cook_10">gael_cook_10</a></li>
+</ul>
+<p><span id="d-kendelow_4"></span><strong><code>kendelow_4</code></strong> Kendelow: “Also, we usually get a lot of visitors here in the tavern. Lately, it has been a lot fewer people in here though, with the closing of the bridge because of those missing people and all.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_5">kendelow_5</a></li>
+</ul>
+<p><span id="d-kendelow_room_2"></span><strong><code>kendelow_room_2</code></strong> Kendelow: “You have already rented my last room. We don't have any more rooms other than that one.”</p>
+<p><span id="d-kendelow_room_3"></span><strong><code>kendelow_room_3</code></strong> Kendelow: “Why, yes, as a matter of fact, there is. I have one very fine room available upstairs.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_room_4">kendelow_room_4</a></li>
+</ul>
+<p><span id="d-gael_cook_10"></span><strong><code>gael_cook_10</code></strong> Kendelow: “I could use some extra gold. So I can cook them for you for let's say 30 gold a piece.”</p>
+<ul>
+<li>“Well, here is 1 piece and 30 gold.” <em>(if pay 30 gold; hand over 1× <a href="../../items/meat/">Meat</a>)</em> → <a href="#d-get_one_cooked_meat">get_one_cooked_meat</a></li>
+<li>“OK, I have 5 pieces and 150 gold.” <em>(if pay 150 gold; hand over 5× <a href="../../items/meat/">Meat</a>)</em> → <a href="#d-get_five_cooked_meat">get_five_cooked_meat</a></li>
+<li>“Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too.” <em>(if pay 300 gold; hand over 10× <a href="../../items/meat/">Meat</a>)</em> → <a href="#d-get_ten_cooked_meat">get_ten_cooked_meat</a></li>
+<li>“I'm hungry! Here are 20 pieces and 600 gold.” <em>(if pay 600 gold; hand over 20× <a href="../../items/meat/">Meat</a>)</em> → <a href="#d-get_twenty_cooked_meat">get_twenty_cooked_meat</a></li>
+<li>“Oh, my mistake, I forgot that I have no meat.” <em>(if NOT carry 1× <a href="../../items/meat/">Meat</a>)</em> → <em>conversation ends</em></li>
+<li>“Oops, I'm still poor. I can't afford to pay your price.” <em>(if NOT have 30 gold)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-kendelow_5"></span><strong><code>kendelow_5</code></strong> Kendelow: “On your way in, maybe you noticed that we even have a visit from the Knights of Elythom here in the tavern? It seems that more and more people are becoming aware of the hospitality of Remgard.”</p>
+<ul>
+<li>“Thank you. I had some other questions.” → <a href="#d-kendelow_d">kendelow_d</a></li>
+</ul>
+<p><span id="d-kendelow_room_4"></span><strong><code>kendelow_room_4</code></strong> Kendelow: “The previous tenant left in a hurry some days ago.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_room_5">kendelow_room_5</a></li>
+</ul>
+<p><span id="d-get_one_cooked_meat"></span><strong><code>get_one_cooked_meat</code></strong> Kendelow: “Only one? That's no problem. Here's your cooked meat.” — <strong>effects:</strong> gives <a href="../../items/meat_cooked/">Cooked meat</a></p>
+<p><span id="d-get_five_cooked_meat"></span><strong><code>get_five_cooked_meat</code></strong> Kendelow: “Just five? That's no problem. Here's all your cooked meat.” — <strong>effects:</strong> gives <a href="../../items/meat_cooked/">Cooked meat</a></p>
+<p><span id="d-get_ten_cooked_meat"></span><strong><code>get_ten_cooked_meat</code></strong> Kendelow: “10 meat at once? That's no problem. Here's all your cooked meat.” — <strong>effects:</strong> gives <a href="../../items/meat_cooked/">Cooked meat</a></p>
+<p><span id="d-get_twenty_cooked_meat"></span><strong><code>get_twenty_cooked_meat</code></strong> Kendelow: “20 meat at once?! You may even love this stuff more than I do. Here's all your cooked meat.” — <strong>effects:</strong> gives <a href="../../items/meat_cooked/">Cooked meat</a></p>
+<p><span id="d-kendelow_room_5"></span><strong><code>kendelow_room_5</code></strong> Kendelow: “You may rent the room for as long as you like for only 600 gold.”</p>
+<ul>
+<li>“600 gold, are you mad!? That's a fortune.” → <a href="#d-kendelow_room_6s">kendelow_room_6s</a></li>
+<li>“Is there anything you can do to lower the price?” → <a href="#d-kendelow_room_6s">kendelow_room_6s</a></li>
+<li>“I'll take it. Here is the gold.” <em>(if pay 600 gold)</em> → <a href="#d-kendelow_room_8">kendelow_room_8</a></li>
+<li>“I don't have that much gold.” → <a href="#d-kendelow_room_7">kendelow_room_7</a></li>
+</ul>
+<p><span id="d-kendelow_room_6s"></span><strong><code>kendelow_room_6s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-kendelow_room_6b">kendelow_room_6b</a></li>
+<li>branch 2 → <a href="#d-kendelow_room_6a">kendelow_room_6a</a></li>
+</ul>
+<p><span id="d-kendelow_room_8"></span><strong><code>kendelow_room_8</code></strong> Kendelow: “Thank you. The room is upstairs. You may rent it for as long as you wish.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/nondisplay/#stage-21">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-kendelow_room_7"></span><strong><code>kendelow_room_7</code></strong> Kendelow: “You are welcome to return once you have the gold, if you are still interested.”</p>
+<ul>
+<li>Next → <a href="#d-kendelow_d">kendelow_d</a></li>
+</ul>
+<p><span id="d-kendelow_room_6b"></span><strong><code>kendelow_room_6b</code></strong> Kendelow: “Since you helped us here in Remgard with that witch Algangror, I am prepared to offer you a discount. How about we say 400 gold for it instead?”</p>
+<ul>
+<li>“I'll take it. Here is the gold.” <em>(if pay 400 gold)</em> → <a href="#d-kendelow_room_8">kendelow_room_8</a></li>
+<li>“I don't have that much gold.” → <a href="#d-kendelow_room_7">kendelow_room_7</a></li>
+</ul>
+<p><span id="d-kendelow_room_6a"></span><strong><code>kendelow_room_6a</code></strong> Kendelow: “The price is fixed. I cannot go around handing out discounts to just anyone. Also, keep in mind that you may rent it for as long as you wish.”</p>
+<ul>
+<li>“I'll take it. Here is the gold.” <em>(if pay 600 gold)</em> → <a href="#d-kendelow_room_8">kendelow_room_8</a></li>
+<li>“I don't have that much gold.” → <a href="#d-kendelow_room_7">kendelow_room_7</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kendelow.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kendelow.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kendelow.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kendelow.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>kendelow</code> · Data from v0.8.18</small></p>
 
 

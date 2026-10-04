@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,91 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain28/">blackwater_mountain28</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/bjorgur_grave/">Awoken from slumber</a>: stages 20, 51, 60</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (17 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-fulus_start"></span><strong><code>fulus_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/bjorgur_grave/#stage-60">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_1">fulus_return_1</a></li>
+<li>branch 2 <em>(if reached stage 51 of <a href="../../quests/bjorgur_grave/#stage-51">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_3">fulus_return_3</a></li>
+<li>branch 3 <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_4">fulus_return_4</a></li>
+<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/bjorgur_grave/#stage-20">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_2">fulus_return_2</a></li>
+<li>branch 5 → <a href="#d-fulus_1">fulus_1</a></li>
+</ul>
+<p><span id="d-fulus_return_1"></span><strong><code>fulus_return_1</code></strong> Fulus: “Hello again, friend. Thank you for your assistance in obtaining that dagger earlier.”</p>
+<p><span id="d-fulus_return_3"></span><strong><code>fulus_return_3</code></strong> Fulus: “What?! Sigh. Stupid kid. That dagger is worth a fortune. We could have been rich! Rich I tell you!” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/bjorgur_grave/#stage-51">Awoken from slumber</a></p>
+<p><span id="d-fulus_return_4"></span><strong><code>fulus_return_4</code></strong> Fulus: “Hello again. Have you been able to retrieve that dagger from Bjorgur's family grave yet?”</p>
+<ul>
+<li>“I have already helped Bjorgur return the dagger to its original place.” → <a href="#d-fulus_return_3">fulus_return_3</a></li>
+</ul>
+<p><span id="d-fulus_return_2"></span><strong><code>fulus_return_2</code></strong> Fulus: “Hello again. Have you been able to retrieve that dagger from Bjorgur's family grave yet?”</p>
+<ul>
+<li>“No, not yet.” → <a href="#d-fulus_9">fulus_9</a></li>
+<li>“I decided to help Bjorgur instead.” <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_3">fulus_return_3</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-fulus_3">fulus_3</a></li>
+<li>“Yes. Here it is.” <em>(if hand over 1× <a href="../../items/bjorgur_dagger/">Bjorgur's family dagger</a>)</em> → <a href="#d-fulus_complete_1">fulus_complete_1</a></li>
+</ul>
+<p><span id="d-fulus_1"></span><strong><code>fulus_1</code></strong> Fulus: “Hello there. You seem like just the type of person I am looking for.”</p>
+<ul>
+<li>Next → <a href="#d-fulus_2">fulus_2</a></li>
+</ul>
+<p><span id="d-fulus_9"></span><strong><code>fulus_9</code></strong> Fulus: “Now hurry up. I really need that dagger soon.”</p>
+<p><span id="d-fulus_3"></span><strong><code>fulus_3</code></strong> Fulus: “For some time, I have known about a certain valuable dagger that a certain family used to possess here in Prim.”</p>
+<ul>
+<li>Next → <a href="#d-fulus_4">fulus_4</a></li>
+</ul>
+<p><span id="d-fulus_complete_1"></span><strong><code>fulus_complete_1</code></strong> Fulus: “Oh wow, you actually managed to get the dagger? Thank you kid. This is worth a lot. Here, take these coins as compensation for your efforts!” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/bjorgur_grave/#stage-60">Awoken from slumber</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>Next → <a href="#d-fulus_complete_2">fulus_complete_2</a></li>
+</ul>
+<p><span id="d-fulus_2"></span><strong><code>fulus_2</code></strong> Fulus: “Would you be interested in hearing about a business proposal I have?”</p>
+<ul>
+<li>“Sure. What is the proposal?” → <a href="#d-fulus_3">fulus_3</a></li>
+<li>“If it leads to something for me to gain, then sure.” → <a href="#d-fulus_3">fulus_3</a></li>
+<li>“I couldn't possibly think you would have anything worthwhile to offer me, but let's hear it anyways.” → <a href="#d-fulus_3">fulus_3</a></li>
+</ul>
+<p><span id="d-fulus_4"></span><strong><code>fulus_4</code></strong> Fulus: “This dagger is extremely valuable to me, for personal reasons.”</p>
+<ul>
+<li>“I don't like where this is going. I better not get involved in your shady business.” → <a href="#d-fulus_5">fulus_5</a></li>
+<li>“I like where this is going, please continue.” → <a href="#d-fulus_6">fulus_6</a></li>
+<li>“Tell me more.” → <a href="#d-fulus_6">fulus_6</a></li>
+<li>“I have already helped Bjorgur return the dagger to its original place.” <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_3">fulus_return_3</a></li>
+</ul>
+<p><span id="d-fulus_complete_2"></span><strong><code>fulus_complete_2</code></strong> Fulus: “Thank you again. Now, let's see ... how much should we sell this dagger for?”</p>
+<p><span id="d-fulus_5"></span><strong><code>fulus_5</code></strong> Fulus: “Fine. Suit yourself, you goody two-shoes.”</p>
+<p><span id="d-fulus_6"></span><strong><code>fulus_6</code></strong> Fulus: “The family in question is Bjorgur's family.”</p>
+<ul>
+<li>Next → <a href="#d-fulus_7">fulus_7</a></li>
+</ul>
+<p><span id="d-fulus_7"></span><strong><code>fulus_7</code></strong> Fulus: “Now, I happen to know that this particular dagger can be found in their family tomb that has been opened by other ... people ... recently.”</p>
+<ul>
+<li>Next → <a href="#d-fulus_8">fulus_8</a></li>
+</ul>
+<p><span id="d-fulus_8"></span><strong><code>fulus_8</code></strong> Fulus: “What I want is simple. You go get that dagger and bring it to me, and I will reward you handsomely.”</p>
+<ul>
+<li>“Sounds easy enough. I'll do it.” → <a href="#d-fulus_10">fulus_10</a></li>
+<li>“No, I had better not get involved in your shady business.” → <a href="#d-fulus_5">fulus_5</a></li>
+<li>“I have already helped Bjorgur return the dagger to its original place.” <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-fulus_return_3">fulus_return_3</a></li>
+</ul>
+<p><span id="d-fulus_10"></span><strong><code>fulus_10</code></strong> Fulus: “Good. Return to me once you have it. Maybe you can talk to Bjorgur about directions to the tomb. His house is just outside here in Prim. Just don't mention anything about our plan to him!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/bjorgur_grave/#stage-20">Awoken from slumber</a></p>
+<ul>
+<li>Next → <a href="#d-fulus_9">fulus_9</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fulus.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fulus.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fulus.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fulus.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>fulus</code> · Data from v0.8.18</small></p>
 
 

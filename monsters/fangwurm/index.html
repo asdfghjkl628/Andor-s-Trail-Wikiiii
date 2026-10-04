@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,60 @@
 <ul>
 <li><a href="../../maps/brimhaven_church/">brimhaven_church</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/quick_glance/">A quick glance</a>: stages 77, 78</li>
+<li><a href="../../quests/quick_glance_hidden_found_statue/">quick_glance_hidden_found_statue (hidden flag)</a>: stages 50, 60</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (11 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-fangwurm_start"></span><strong><code>fangwurm_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-fangwurm_thank_rescuing_sister">fangwurm_thank_rescuing_sister</a></li>
+<li>branch 2 <em>(if reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>)</em> → <a href="#d-fangwurm_angry_2">fangwurm_angry_2</a></li>
+<li>branch 3 <em>(if reached stage 50 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-50">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-fangwurm_angry">fangwurm_angry</a></li>
+<li>branch 4 <em>(if reached stage 60 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-60">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-fangwurm_thank_killing_basilisk">fangwurm_thank_killing_basilisk</a></li>
+<li>branch 5 <em>(if reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>)</em> → <a href="#d-fangwurm_thank_killing_basilisk_2">fangwurm_thank_killing_basilisk_2</a></li>
+<li>branch 6 → <a href="#d-fangwurm_talking">fangwurm_talking</a></li>
+</ul>
+<p><span id="d-fangwurm_thank_rescuing_sister"></span><strong><code>fangwurm_thank_rescuing_sister</code></strong> Fangwurm: “Juttarka told me that you saved her life. Thank you. May the Shadow always be with you.”</p>
+<p><span id="d-fangwurm_angry_2"></span><strong><code>fangwurm_angry_2</code></strong> Fangwurm: “Anakis told me that you took the blood for yourself instead of trying to help his sister. Please leave now.”</p>
+<p><span id="d-fangwurm_angry"></span><strong><code>fangwurm_angry</code></strong> Fangwurm: “I am sad that you took the blood for yourself instead of trying to help Anakis' sister. Please leave now.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-50">quick_glance_hidden_found_statue (hidden flag)</a></p>
+<p><span id="d-fangwurm_thank_killing_basilisk"></span><strong><code>fangwurm_thank_killing_basilisk</code></strong> Fangwurm: “Thank you for killing the Basilisk, but it would be better if you had talked to me before killing it, because its magical blood is now dried up and wasted. May the Shadow always be with you.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-60">quick_glance_hidden_found_statue (hidden flag)</a></p>
+<p><span id="d-fangwurm_thank_killing_basilisk_2"></span><strong><code>fangwurm_thank_killing_basilisk_2</code></strong> Fangwurm: “Anakis told me that you killed the Basilisk. Thank you, but it would be better if you had talked to me before killing it, because its magical blood is now dried up and wasted. May the Shadow always be with you.”</p>
+<p><span id="d-fangwurm_talking"></span><strong><code>fangwurm_talking</code></strong> Fangwurm: “May the Shadow be with you.”</p>
+<ul>
+<li>“I killed the Basilisk and took the blood for myself.” <em>(if reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; NOT reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-fangwurm_angry">fangwurm_angry</a></li>
+<li>“I killed the Basilisk in the cave.” <em>(if NOT reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; reached stage 20 of <a href="../../quests/quick_glance/#stage-20">A quick glance</a>)</em> → <a href="#d-fangwurm_thank_killing_basilisk">fangwurm_thank_killing_basilisk</a></li>
+<li>“Can you please tell me again, what you know about the Basilisk's blood?” <em>(if reached stage 77 of <a href="../../quests/quick_glance/#stage-77">A quick glance</a>)</em> → <a href="#d-fangwurm_info_about_blood">fangwurm_info_about_blood</a></li>
+<li>“I believe that Anakis' sister was turned to stone by the Basilisk in the cave. Do you have any idea if I could help her?” <em>(if NOT reached stage 77 of <a href="../../quests/quick_glance/#stage-77">A quick glance</a>; reached stage 50 of <a href="../../quests/quick_glance/#stage-50">A quick glance</a>)</em> → <a href="#d-fangwurm_info_about_blood">fangwurm_info_about_blood</a></li>
+<li>“Anakis' sister is missing. Can you tell me more about the Basilisk in the cave?” <em>(if reached stage 20 of <a href="../../quests/quick_glance/#stage-20">A quick glance</a>; NOT reached stage 50 of <a href="../../quests/quick_glance/#stage-50">A quick glance</a>)</em> → <a href="#d-fangwurm_info_basilisk">fangwurm_info_basilisk</a></li>
+<li>“I am looking for my brother, Andor. He looks a bit like me.” → <a href="#d-fangwurm_talking_1a">fangwurm_talking_1a</a></li>
+</ul>
+<p><span id="d-fangwurm_info_about_blood"></span><strong><code>fangwurm_info_about_blood</code></strong> Fangwurm: “The Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisks blood might even heal a person that has been turned to stone. But how can you kill a Basilisk if you can't even look…” — <strong>effects:</strong> sets stage 77 of <a href="../../quests/quick_glance/#stage-77">A quick glance</a></p>
+<ul>
+<li>“I already killed the Basilisk.” <em>(if killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-fangwurm_thank_killing_basilisk">fangwurm_thank_killing_basilisk</a></li>
+<li>“You are right, it will not be possible to kill the Basilisk.” → <em>conversation ends</em></li>
+<li>“I will find a way to kill the Basilisk.” → <a href="#d-fangwurm_info_vial">fangwurm_info_vial</a></li>
+</ul>
+<p><span id="d-fangwurm_info_basilisk"></span><strong><code>fangwurm_info_basilisk</code></strong> Fangwurm: “The Basilisk will turn you to stone when you go near him and your eyes meet its eyes. You should not look at it. Come back to me if you know what happened to Anakis' sister.”</p>
+<p><span id="d-fangwurm_talking_1a"></span><strong><code>fangwurm_talking_1a</code></strong> Fangwurm: “Yes, I know someone who looks almost like you, but he and his parents are from this town.”</p>
+<ul>
+<li>Next → <a href="#d-fangwurm_talking">fangwurm_talking</a></li>
+</ul>
+<p><span id="d-fangwurm_info_vial"></span><strong><code>fangwurm_info_vial</code></strong> Fangwurm: “You would need a special crystal vial that is resistant to the Basilisk's blood to handle it. The potion maker in Fallhaven might sell them. May the Shadow be with you.” — <strong>effects:</strong> sets stage 78 of <a href="../../quests/quick_glance/#stage-78">A quick glance</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fangwurm.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fangwurm.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fangwurm.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fangwurm.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>fangwurm</code> · Data from v0.8.18</small></p>
 
 

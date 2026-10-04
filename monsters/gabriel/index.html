@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,154 @@
 <ul>
 <li><a href="../../maps/vilegard_s/">vilegard_s</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/dead_walking/">The Dead are Walking</a>: stages 0, 70</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (32 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-gabriel"></span><strong><code>gabriel</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 70 of <a href="../../quests/dead_walking/#stage-70">The Dead are Walking</a>)</em> → <a href="#d-gabriel_shadow">gabriel_shadow</a></li>
+<li>branch 2 <em>(if NOT reached stage 0 of <a href="../../quests/dead_walking/#stage-0">The Dead are Walking</a>)</em> → <a href="#d-gabriel_shh">gabriel_shh</a></li>
+<li>branch 3 <em>(if NOT reached stage 60 of <a href="../../quests/dead_walking/#stage-60">The Dead are Walking</a>)</em> → <a href="#d-gabriel_daw_incomplete">gabriel_daw_incomplete</a></li>
+<li>branch 4 <em>(if latest stage of <a href="../../quests/dead_walking/#stage-60">The Dead are Walking</a> is 60)</em> → <a href="#d-gabriel_daw_complete_0">gabriel_daw_complete_0</a></li>
+</ul>
+<p><span id="d-gabriel_shadow"></span><strong><code>gabriel_shadow</code></strong> Gabriel: “Shadow be with you.”</p>
+<ul>
+<li>“Can you tell me more about the Shadow?” → <a href="#d-priest_shadow_1">priest_shadow_1</a></li>
+</ul>
+<p><span id="d-gabriel_shh"></span><strong><code>gabriel_shh</code></strong> Gabriel: “Shh!”</p>
+<ul>
+<li>“What? Why?” → <a href="#d-gabriel_shh">gabriel_shh</a></li>
+<li>“[You just nod up and down]” → <a href="#d-gabriel_daw_10">gabriel_daw_10</a></li>
+</ul>
+<p><span id="d-gabriel_daw_incomplete"></span><strong><code>gabriel_daw_incomplete</code></strong> Gabriel: “Why are you still here when the noises persist?”</p>
+<ul>
+<li>“Can you explain to me again what it is that you want me to do?” → <a href="#d-gabriel_daw_incomplete_10">gabriel_daw_incomplete_10</a></li>
+<li>“You're not the boss of me, Shadow man. I will address your problem when I am ready to do so.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_0"></span><strong><code>gabriel_daw_complete_0</code></strong> Gabriel: “The noise, it's gone! Was it you? Did you stop it?”</p>
+<ul>
+<li>“Yes. It was me.” → <a href="#d-gabriel_daw_complete_10">gabriel_daw_complete_10</a></li>
+</ul>
+<p><span id="d-priest_shadow_1"></span><strong><code>priest_shadow_1</code></strong> Gabriel: “The Shadow protects us. It keeps us safe and comforts us when we sleep.”</p>
+<ul>
+<li>Next → <a href="#d-priest_shadow_2">priest_shadow_2</a></li>
+</ul>
+<p><span id="d-gabriel_daw_10"></span><strong><code>gabriel_daw_10</code></strong> Gabriel: “Do you hear it?”</p>
+<ul>
+<li>“[You just nod up and down]” → <a href="#d-gabriel_daw_10_rec">gabriel_daw_10_rec</a></li>
+<li>“[Lie] Umm I sure do.” → <a href="#d-gabriel_daw_20">gabriel_daw_20</a></li>
+<li>“No, sir, I do not.” → <a href="#d-gabriel_daw_30">gabriel_daw_30</a></li>
+</ul>
+<p><span id="d-gabriel_daw_incomplete_10"></span><strong><code>gabriel_daw_incomplete_10</code></strong> Gabriel: “The noise, my child! It's coming from over there. [He points east]”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_incomplete_20">gabriel_daw_incomplete_20</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_10"></span><strong><code>gabriel_daw_complete_10</code></strong> Gabriel: “Well, for that, I am eternally grateful.”</p>
+<ul>
+<li>“How 'grateful' are you?” → <a href="#d-gabriel_daw_complete_15">gabriel_daw_complete_15</a></li>
+<li>“I will do anything for the Shadow.” → <a href="#d-gabriel_daw_complete_13">gabriel_daw_complete_13</a></li>
+</ul>
+<p><span id="d-priest_shadow_2"></span><strong><code>priest_shadow_2</code></strong> Gabriel: “It follows us wherever we go. Go with the Shadow my child.”</p>
+<ul>
+<li>“Shadow be with you.” → <em>conversation ends</em></li>
+<li>“Whatever, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gabriel_daw_10_rec"></span><strong><code>gabriel_daw_10_rec</code></strong> Gabriel: “Speak, child.”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_10">gabriel_daw_10</a></li>
+</ul>
+<p><span id="d-gabriel_daw_20"></span><strong><code>gabriel_daw_20</code></strong> Gabriel: “What do you hear?”</p>
+<ul>
+<li>“The Shadow. It talks to me too.” → <a href="#d-gabriel_daw_20_lie">gabriel_daw_20_lie</a></li>
+<li>“The birds are singing today. I also like to listen to them.” → <a href="#d-gabriel_daw_20_birds">gabriel_daw_20_birds</a></li>
+</ul>
+<p><span id="d-gabriel_daw_30"></span><strong><code>gabriel_daw_30</code></strong> Gabriel: “It's coming from over there. [He points east]”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_35">gabriel_daw_35</a></li>
+</ul>
+<p><span id="d-gabriel_daw_incomplete_20"></span><strong><code>gabriel_daw_incomplete_20</code></strong> Gabriel: “I asked you to go investigate the noise and stop it if it is a threat”</p>
+<ul>
+<li>“Oh yeah. Sorry. I will get on top of that right away.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_15"></span><strong><code>gabriel_daw_complete_15</code></strong> Gabriel: “I will get to that momentarily.”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_complete_20">gabriel_daw_complete_20</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_13"></span><strong><code>gabriel_daw_complete_13</code></strong> Gabriel: “Thank you, my child.”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_complete_20">gabriel_daw_complete_20</a></li>
+</ul>
+<p><span id="d-gabriel_daw_20_lie"></span><strong><code>gabriel_daw_20_lie</code></strong> Gabriel: “You lie!”</p>
+<p><span id="d-gabriel_daw_20_birds"></span><strong><code>gabriel_daw_20_birds</code></strong> Gabriel: “No! Not that.”</p>
+<p><span id="d-gabriel_daw_35"></span><strong><code>gabriel_daw_35</code></strong> Gabriel: “Clear your mind and you will hear it.”</p>
+<ul>
+<li>“You are crazy. I'm out of here.” → <em>conversation ends</em></li>
+<li>“How do I clear my mind?” → <a href="#d-gabriel_daw_40">gabriel_daw_40</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_20"></span><strong><code>gabriel_daw_complete_20</code></strong> Gabriel: “Please tell me what was causing the noise?”</p>
+<ul>
+<li>“A demonic creature and its minions rose from their graves and were roaming the forest.” → <a href="#d-gabriel_daw_complete_30">gabriel_daw_complete_30</a></li>
+</ul>
+<p><span id="d-gabriel_daw_40"></span><strong><code>gabriel_daw_40</code></strong> Gabriel: “Close your eyes.”</p>
+<ul>
+<li>“Yeah, you're scaring me. Maybe I'll come back later.” → <em>conversation ends</em></li>
+<li>“Sure. I'll close my eyes now, but don't try anything that you will regret.” → <a href="#d-gabriel_daw_50">gabriel_daw_50</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_30"></span><strong><code>gabriel_daw_complete_30</code></strong> Gabriel: “Anything else?”</p>
+<ul>
+<li>“They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning…” → <a href="#d-gabriel_daw_complete_40">gabriel_daw_complete_40</a></li>
+</ul>
+<p><span id="d-gabriel_daw_50"></span><strong><code>gabriel_daw_50</code></strong> Gabriel: “Do you hear it now?”</p>
+<ul>
+<li>“Yes, I think so. It sounds like moaning of some kind.” → <a href="#d-gabriel_daw_60">gabriel_daw_60</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_40"></span><strong><code>gabriel_daw_complete_40</code></strong> Gabriel: “This is indeed alarming. But we are so grateful for your work here.”</p>
+<ul>
+<li>“How 'grateful' are you?” → <a href="#d-gabriel_daw_complete_50">gabriel_daw_complete_50</a></li>
+<li>“I will do anything for the Shadow.” → <a href="#d-gabriel_daw_complete_49">gabriel_daw_complete_49</a></li>
+</ul>
+<p><span id="d-gabriel_daw_60"></span><strong><code>gabriel_daw_60</code></strong> Gabriel: “Yes! Finally. Someone else that can hear it.”</p>
+<ul>
+<li>“This is scaring me. I'm going home to father.” → <em>conversation ends</em></li>
+<li>“What is it?” → <a href="#d-gabriel_daw_70">gabriel_daw_70</a></li>
+</ul>
+<p><span id="d-gabriel_daw_complete_50"></span><strong><code>gabriel_daw_complete_50</code></strong> Gabriel: “Very! In fact, here are 3,000 gold pieces for all your trouble.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, sets stage 70 of <a href="../../quests/dead_walking/#stage-70">The Dead are Walking</a></p>
+<p><span id="d-gabriel_daw_complete_49"></span><strong><code>gabriel_daw_complete_49</code></strong> Gabriel: “Walk with the Shadow, my child.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/dead_walking/#stage-70">The Dead are Walking</a>, faction “factionCountShadow” set to 2</p>
+<p><span id="d-gabriel_daw_70"></span><strong><code>gabriel_daw_70</code></strong> Gabriel: “I have no idea and the other villagers think I am crazy. Do you think I'm crazy?”</p>
+<ul>
+<li>“Maybe, but I'm intrigued, so I will say 'no'.” → <a href="#d-gabriel_daw_80">gabriel_daw_80</a></li>
+<li>“Oh, absolutely.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gabriel_daw_80"></span><strong><code>gabriel_daw_80</code></strong> Gabriel: “OK. I fear that whatever it is, it is coming for this church and the village.”</p>
+<ul>
+<li>Next → <a href="#d-gabriel_daw_85">gabriel_daw_85</a></li>
+</ul>
+<p><span id="d-gabriel_daw_85"></span><strong><code>gabriel_daw_85</code></strong> Gabriel: “I am not an adventurer, and I am certainly not a fighter.”</p>
+<ul>
+<li>“Obviously.” → <a href="#d-gabriel_daw_90">gabriel_daw_90</a></li>
+</ul>
+<p><span id="d-gabriel_daw_90"></span><strong><code>gabriel_daw_90</code></strong> Gabriel: “I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?”</p>
+<ul>
+<li>“Of course. Anything for the Shadow.” → <a href="#d-gabriel_daw_100">gabriel_daw_100</a></li>
+<li>“If there is a reward, why not?” → <a href="#d-gabriel_daw_100">gabriel_daw_100</a></li>
+<li>“I don't think I am ready.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gabriel_daw_100"></span><strong><code>gabriel_daw_100</code></strong> Gabriel: “Outstanding. Report back to me when you are done.” — <strong>effects:</strong> sets stage 0 of <a href="../../quests/dead_walking/#stage-0">The Dead are Walking</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gabriel.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gabriel.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gabriel.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gabriel.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>gabriel</code> · Data from v0.8.18</small></p>
 
 

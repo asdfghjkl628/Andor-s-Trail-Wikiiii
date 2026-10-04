@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -942,6 +1014,81 @@
 <ul>
 <li><a href="../../maps/fields3/">fields3</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/benbyr/">Cheap cuts</a>: stages 21</li>
+<li><a href="../../quests/tinlyn/">Lost sheep</a>: stages 22, 25, 60</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (13 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tinlyn_lostsheep3"></span><strong><code>tinlyn_lostsheep3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 22 of <a href="../../quests/tinlyn/#stage-22">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_y">tinlyn_lostsheep_y</a></li>
+<li>branch 2 → <a href="#d-tinlyn_lostsheep3_n">tinlyn_lostsheep3_n</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_y"></span><strong><code>tinlyn_lostsheep_y</code></strong> Sheep: “Baah!”</p>
+<ul>
+<li>“[Attack]” <em>(if reached stage 20 of <a href="../../quests/benbyr/#stage-20">Cheap cuts</a>)</em> → <a href="#d-tinlyn_lostsheep_atk">tinlyn_lostsheep_atk</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep3_n"></span><strong><code>tinlyn_lostsheep3_n</code></strong> Sheep: “Baah!”</p>
+<ul>
+<li>“[Place Tinlyn's bell around the neck of the sheep]” <em>(if hand over 1× <a href="../../items/tinlyn_bells/">Tinlyn's sheep bell</a>)</em> → <a href="#d-tinlyn_lostsheep3_place">tinlyn_lostsheep3_place</a></li>
+<li>“[Attack]” <em>(if reached stage 20 of <a href="../../quests/benbyr/#stage-20">Cheap cuts</a>)</em> → <a href="#d-tinlyn_lostsheep_atk">tinlyn_lostsheep_atk</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_atk"></span><strong><code>tinlyn_lostsheep_atk</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/tinlyn/#stage-10">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_atk1">tinlyn_lostsheep_atk1</a></li>
+<li>branch 2 → <a href="#d-tinlyn_sheep_atk">tinlyn_sheep_atk</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep3_place"></span><strong><code>tinlyn_lostsheep3_place</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 22 of <a href="../../quests/tinlyn/#stage-22">Lost sheep</a></p>
+<ul>
+<li>branch 1 → <a href="#d-tinlyn_lostsheep_check_1">tinlyn_lostsheep_check_1</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_atk1"></span><strong><code>tinlyn_lostsheep_atk1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 60 of <a href="../../quests/tinlyn/#stage-60">Lost sheep</a></p>
+<ul>
+<li>branch 1 → <a href="#d-tinlyn_sheep_atk">tinlyn_sheep_atk</a></li>
+</ul>
+<p><span id="d-tinlyn_sheep_atk"></span><strong><code>tinlyn_sheep_atk</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 21 of <a href="../../quests/benbyr/#stage-21">Cheap cuts</a></p>
+<ul>
+<li>branch 1 → <em>fight starts</em></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_check_1"></span><strong><code>tinlyn_lostsheep_check_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 20 of <a href="../../quests/tinlyn/#stage-20">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_check_2">tinlyn_lostsheep_check_2</a></li>
+<li>branch 2 → <a href="#d-tinlyn_lostsheep_placed_2">tinlyn_lostsheep_placed_2</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_check_2"></span><strong><code>tinlyn_lostsheep_check_2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 21 of <a href="../../quests/tinlyn/#stage-21">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_check_3">tinlyn_lostsheep_check_3</a></li>
+<li>branch 2 → <a href="#d-tinlyn_lostsheep_placed_2">tinlyn_lostsheep_placed_2</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_placed_2"></span><strong><code>tinlyn_lostsheep_placed_2</code></strong> Sheep: “[You place one of the bells around the neck of the sheep]”</p>
+<p><span id="d-tinlyn_lostsheep_check_3"></span><strong><code>tinlyn_lostsheep_check_3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 22 of <a href="../../quests/tinlyn/#stage-22">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_check_4">tinlyn_lostsheep_check_4</a></li>
+<li>branch 2 → <a href="#d-tinlyn_lostsheep_placed_2">tinlyn_lostsheep_placed_2</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_check_4"></span><strong><code>tinlyn_lostsheep_check_4</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 23 of <a href="../../quests/tinlyn/#stage-23">Lost sheep</a>)</em> → <a href="#d-tinlyn_lostsheep_placed_1">tinlyn_lostsheep_placed_1</a></li>
+<li>branch 2 → <a href="#d-tinlyn_lostsheep_placed_2">tinlyn_lostsheep_placed_2</a></li>
+</ul>
+<p><span id="d-tinlyn_lostsheep_placed_1"></span><strong><code>tinlyn_lostsheep_placed_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 25 of <a href="../../quests/tinlyn/#stage-25">Lost sheep</a></p>
+<ul>
+<li>branch 1 → <a href="#d-tinlyn_lostsheep_placed_2">tinlyn_lostsheep_placed_2</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lostsheep3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lostsheep3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lostsheep3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lostsheep3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>lostsheep3</code> · Data from v0.8.18</small></p>
 
 

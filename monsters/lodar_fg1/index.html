@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,121 @@
 <ul>
 <li><a href="../../maps/lodar2/">lodar2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lodar/">A lost potion</a>: stages 50, 51</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (22 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-lodar_fg1"></span><strong><code>lodar_fg1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 51 of <a href="../../quests/lodar/#stage-51">A lost potion</a>)</em> → <a href="#d-lodar_fg1_r1">lodar_fg1_r1</a></li>
+<li>branch 2 <em>(if reached stage 50 of <a href="../../quests/lodar/#stage-50">A lost potion</a>)</em> → <a href="#d-lodar_fg1_r2">lodar_fg1_r2</a></li>
+<li>branch 3 → <a href="#d-lodar_fg1_1">lodar_fg1_1</a></li>
+</ul>
+<p><span id="d-lodar_fg1_r1"></span><strong><code>lodar_fg1_r1</code></strong> Feygard guard: “Oh, it's you again.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_17">lodar_fg1_17</a></li>
+</ul>
+<p><span id="d-lodar_fg1_r2"></span><strong><code>lodar_fg1_r2</code></strong> Feygard guard: “Oh, it's you again.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_2">lodar_fg1_2</a></li>
+</ul>
+<p><span id="d-lodar_fg1_1"></span><strong><code>lodar_fg1_1</code></strong> Feygard guard: “You there! What are you doing here?”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_2">lodar_fg1_2</a></li>
+</ul>
+<p><span id="d-lodar_fg1_17"></span><strong><code>lodar_fg1_17</code></strong> Feygard guard: “I don't know if it's the twisty paths themselves or something that the madman has done that caused my fellow guards to behave the way they have - but consider yourself warned if you venture further into the forest!” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/lodar/#stage-51">A lost potion</a></p>
+<ul>
+<li>“I can handle myself.” → <a href="#d-lodar_fg1_18">lodar_fg1_18</a></li>
+<li>“Your fellow guards must have been weak. I'm surely not as weak as them.” → <a href="#d-lodar_fg1_18">lodar_fg1_18</a></li>
+<li>“OK, I'll be on the look-out for any dangers.” → <a href="#d-lodar_fg1_18">lodar_fg1_18</a></li>
+</ul>
+<p><span id="d-lodar_fg1_2"></span><strong><code>lodar_fg1_2</code></strong> Feygard guard: “This place is not safe. I urge you to turn back and to venture no further into this cursed forest.”</p>
+<ul>
+<li>“I think I can handle myself.” → <a href="#d-lodar_fg1_3">lodar_fg1_3</a></li>
+<li>“Cursed forest?” → <a href="#d-lodar_fg1_3">lodar_fg1_3</a></li>
+<li>“OK, I'll turn back. Thanks for the warning.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lodar_fg1_18"></span><strong><code>lodar_fg1_18</code></strong> Feygard guard: “Consider yourself warned. I can't come help you if something happens.”</p>
+<ul>
+<li>“Goodbye.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-lodar_fg1_3"></span><strong><code>lodar_fg1_3</code></strong> Feygard guard: “This place - oh why did we ever agree to go on this mission?”</p>
+<ul>
+<li>“What mission?” → <a href="#d-lodar_fg1_4">lodar_fg1_4</a></li>
+<li>“What has happened?” → <a href="#d-lodar_fg1_4">lodar_fg1_4</a></li>
+</ul>
+<p><span id="d-lodar_fg1_4"></span><strong><code>lodar_fg1_4</code></strong> Feygard guard: “Me and some other guards were sent here to find a madman that is wanted by the Feygard authorities.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_5">lodar_fg1_5</a></li>
+</ul>
+<p><span id="d-lodar_fg1_5"></span><strong><code>lodar_fg1_5</code></strong> Feygard guard: “The madman is wanted for a number of crimes committed against Feygard, none of which I am allowed to disclose.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_6">lodar_fg1_6</a></li>
+</ul>
+<p><span id="d-lodar_fg1_6"></span><strong><code>lodar_fg1_6</code></strong> Feygard guard: “At first, it seemed like just any ordinary mission - go find some crazy fool.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_7">lodar_fg1_7</a></li>
+</ul>
+<p><span id="d-lodar_fg1_7"></span><strong><code>lodar_fg1_7</code></strong> Feygard guard: “But once we got here, it started happening. One by one, my fellow guards got more and more ... well ... I don't know how to put it, but something started to happen to them.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_8a">lodar_fg1_8a</a></li>
+</ul>
+<p><span id="d-lodar_fg1_8a"></span><strong><code>lodar_fg1_8a</code></strong> Feygard guard: “Now, these flies that inhabit these woods can drive a grown man mad, I'll tell you that. But that wasn't it. There was something else.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_8">lodar_fg1_8</a></li>
+</ul>
+<p><span id="d-lodar_fg1_8"></span><strong><code>lodar_fg1_8</code></strong> Feygard guard: “The first guard said he had seen something among the trees, and went to look for it. We never saw him again.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_9">lodar_fg1_9</a></li>
+</ul>
+<p><span id="d-lodar_fg1_9"></span><strong><code>lodar_fg1_9</code></strong> Feygard guard: “Some time later, one of the other guards seemed like he didn't know who we were, and ran off into the forest.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_10">lodar_fg1_10</a></li>
+</ul>
+<p><span id="d-lodar_fg1_10"></span><strong><code>lodar_fg1_10</code></strong> Feygard guard: “Another guard said he'd nearly gotten lost in a what he called the 'green maze'.”</p>
+<ul>
+<li>“So it's only you left?” → <a href="#d-lodar_fg1_11">lodar_fg1_11</a></li>
+</ul>
+<p><span id="d-lodar_fg1_11"></span><strong><code>lodar_fg1_11</code></strong> Feygard guard: “Yes, it seems so. None of the scouts have come back. Or rather, the ones that have come back have been ... afflicted by something.”</p>
+<ul>
+<li>“What could be causing them to behave that way?” → <a href="#d-lodar_fg1_12">lodar_fg1_12</a></li>
+</ul>
+<p><span id="d-lodar_fg1_12"></span><strong><code>lodar_fg1_12</code></strong> Feygard guard: “I don't know. Maybe something in the woods.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_13">lodar_fg1_13</a></li>
+</ul>
+<p><span id="d-lodar_fg1_13"></span><strong><code>lodar_fg1_13</code></strong> Feygard guard: “Maybe it's something that the madman that we were looking for has done.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/lodar/#stage-50">A lost potion</a></p>
+<ul>
+<li>“Any signs of the madman?” → <a href="#d-lodar_fg1_14">lodar_fg1_14</a></li>
+<li>“That's a really touching story. I really need to get going.” → <a href="#d-lodar_fg1_16">lodar_fg1_16</a></li>
+</ul>
+<p><span id="d-lodar_fg1_14"></span><strong><code>lodar_fg1_14</code></strong> Feygard guard: “No, none.”</p>
+<ul>
+<li>“I'll keep my eyes open for any dangers when traveling through the forest myself.” → <a href="#d-lodar_fg1_15">lodar_fg1_15</a></li>
+<li>“Best of luck on your mission.” → <a href="#d-lodar_fg1_16">lodar_fg1_16</a></li>
+</ul>
+<p><span id="d-lodar_fg1_16"></span><strong><code>lodar_fg1_16</code></strong> Feygard guard: “Thank you.”</p>
+<ul>
+<li>Next → <a href="#d-lodar_fg1_15">lodar_fg1_15</a></li>
+</ul>
+<p><span id="d-lodar_fg1_15"></span><strong><code>lodar_fg1_15</code></strong> Feygard guard: “Oh, before you go. As I told you before, one of the guards mentioned 'the green maze', that apparently is somewhere around here.”</p>
+<ul>
+<li>“What about it?” → <a href="#d-lodar_fg1_17">lodar_fg1_17</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lodar_fg1.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lodar_fg1.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lodar_fg1.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lodar_fg1.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>lodar_fg1</code> · Data from v0.8.18</small></p>
 
 

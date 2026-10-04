@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,119 @@
 <ul>
 <li><a href="../../maps/stoutford_tavern/">stoutford_tavern</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/stn_quest_gyra/">Lost girl looking for lost things</a>: stages 90, 92, 99, 199</li>
+<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 149</li>
+<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stages 44, 45</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (21 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-berbane"></span><strong><code>berbane</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_200">berbane_200</a></li>
+<li>branch 2 <em>(if reached stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_90">berbane_90</a></li>
+<li>branch 3 <em>(if reached stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>branch 4 → <a href="#d-berbane_10">berbane_10</a></li>
+</ul>
+<p><span id="d-berbane_200"></span><strong><code>berbane_200</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane is singing merrily about his heroic deeds.”</p>
+<ul>
+<li>“Psst. I have something for you.” <em>(if carry 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_200_1">berbane_200_1</a></li>
+<li>“Lalala lala lala” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-berbane_90"></span><strong><code>berbane_90</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane looks sadly at his bottle, but still shows no sign of getting up.”</p>
+<ul>
+<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>“Hey, up!” → <a href="#d-berbane_90">berbane_90</a></li>
+</ul>
+<p><span id="d-berbane_100"></span><strong><code>berbane_100</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane jumps up and cries with a loud voice: SILENCE!”</p>
+<ul>
+<li>“...?” → <a href="#d-berbane_102">berbane_102</a></li>
+</ul>
+<p><span id="d-berbane_10"></span><strong><code>berbane_10</code></strong> <a href="../none/">Dummy NPC</a>: “The richly dressed man does not react.”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-berbane_10">berbane_10</a></li>
+<li>“Yolgen asked me to help clear the castle of undead. Shall we do it together?” <em>(if reached stage 10 of <a href="../../quests/stoutford_castle/#stage-10">Stoutford's old castle</a>; NOT reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_10">berbane_10</a></li>
+<li>“Gyra found your helmet and asked me to give it to you, so that you could start to clear the castle.” <em>(if reached stage 70 of <a href="../../quests/stn_quest_gyra/#stage-70">Lost girl looking for lost things</a>; carry 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_20">berbane_20</a></li>
+<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+</ul>
+<p><span id="d-berbane_200_1"></span><strong><code>berbane_200_1</code></strong> <a href="./">Lord Berbane</a>: “Why are you disturbing my song?”</p>
+<ul>
+<li>“Gyra found your helmet and asked me to give it to you.” <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_200_2">berbane_200_2</a></li>
+<li>“Eh, nothing. Sing on.” → <a href="#d-berbane_200">berbane_200</a></li>
+</ul>
+<p><span id="d-berbane_102"></span><strong><code>berbane_102</code></strong> <a href="./">Lord Berbane</a>: “[Loud voice] Pay attention and listen everybody! The castle is free! The trembling is over!” — <strong>effects:</strong> sets stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“...??” → <a href="#d-berbane_110">berbane_110</a></li>
+</ul>
+<p><span id="d-berbane_20"></span><strong><code>berbane_20</code></strong> <a href="./">Lord Berbane</a>: “Gyra? My dearest and most eager listener?”</p>
+<ul>
+<li>“Seems so.” → <a href="#d-berbane_30">berbane_30</a></li>
+</ul>
+<p><span id="d-berbane_200_2"></span><strong><code>berbane_200_2</code></strong> Lord Berbane: “Ah yes, one of my helmets. Thank you.”</p>
+<ul>
+<li>Next → <a href="#d-berbane_200_3">berbane_200_3</a></li>
+</ul>
+<p><span id="d-berbane_110"></span><strong><code>berbane_110</code></strong> Lord Berbane: “[Loud voice] My trainee and I, we were in the castle. I demonstrated how to fight properly. Lord Erwyn himself was an especially good demonstration object.”</p>
+<ul>
+<li>“But...” → <a href="#d-berbane_120">berbane_120</a></li>
+</ul>
+<p><span id="d-berbane_30"></span><strong><code>berbane_30</code></strong> Lord Berbane: “Many of my songs are about this magical helmet. But it's all just songs.”</p>
+<ul>
+<li>“Will you make the songs a reality now?” <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_32">berbane_32</a></li>
+<li>“I cleared the castle of undead already.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+</ul>
+<p><span id="d-berbane_200_3"></span><strong><code>berbane_200_3</code></strong> Lord Berbane: “Anything else?”</p>
+<ul>
+<li>“Here you go. You're welcome. No, I don't need a reward. I always like to help without appreciation. Everything is OK.…” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-berbane_120"></span><strong><code>berbane_120</code></strong> Lord Berbane: “[Loud voice] But we will come to the details later - after the next round.”</p>
+<ul>
+<li>“No, I have...” → <a href="#d-berbane_130">berbane_130</a></li>
+</ul>
+<p><span id="d-berbane_32"></span><strong><code>berbane_32</code></strong> <a href="../none/">Dummy NPC</a>: “He sighs and slowly takes the helmet.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<ul>
+<li>“Let's go now.” → <a href="#d-berbane_90">berbane_90</a></li>
+</ul>
+<p><span id="d-berbane_130"></span><strong><code>berbane_130</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_132">berbane_132</a></li>
+<li>branch 2 → <a href="#d-berbane_134">berbane_134</a></li>
+</ul>
+<p><span id="d-berbane_132"></span><strong><code>berbane_132</code></strong> Lord Berbane: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.” — <strong>effects:</strong> sets stage 92 of <a href="../../quests/stn_quest_gyra/#stage-92">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<ul>
+<li>“I give up.” → <a href="#d-berbane_140">berbane_140</a></li>
+</ul>
+<p><span id="d-berbane_134"></span><strong><code>berbane_134</code></strong> Lord Berbane: “[Loud voice] Yes, he has learned much from me. But no need to thank me now.”</p>
+<ul>
+<li>“I give up.” → <a href="#d-berbane_140">berbane_140</a></li>
+</ul>
+<p><span id="d-berbane_140"></span><strong><code>berbane_140</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> gives 1× <a href="../../items/mead/">Mead</a>, sets stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">stn_nondisplay (hidden flag)</a></p>
+<ul>
+<li>branch 1 <em>(if reached stage 70 of <a href="../../quests/stn_quest_gyra/#stage-70">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_144">berbane_144</a></li>
+<li>branch 2 → <a href="#d-berbane_142">berbane_142</a></li>
+</ul>
+<p><span id="d-berbane_144"></span><strong><code>berbane_144</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 199 of <a href="../../quests/stn_quest_gyra/#stage-199">Lost girl looking for lost things</a></p>
+<ul>
+<li>branch 1 → <a href="#d-berbane_146">berbane_146</a></li>
+</ul>
+<p><span id="d-berbane_142"></span><strong><code>berbane_142</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 99 of <a href="../../quests/stn_quest_gyra/#stage-99">Lost girl looking for lost things</a></p>
+<ul>
+<li>branch 1 → <a href="#d-berbane_146">berbane_146</a></li>
+</ul>
+<p><span id="d-berbane_146"></span><strong><code>berbane_146</code></strong> Lord Berbane: “[Low voice] Well-behaved. [Loud voice] And now: Mead for everyone! Let's be merry! Forget all sorrows!”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=berbane.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=berbane.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=berbane.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=berbane.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>berbane</code> · Data from v0.8.18</small></p>
 
 

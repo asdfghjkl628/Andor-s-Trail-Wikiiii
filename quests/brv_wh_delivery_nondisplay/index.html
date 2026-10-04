@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,57 +971,335 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>brv_wh_delivery_nondisplay</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/arcir/">Arcir</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/arcir/">Arcir</a>, <a href="../../monsters/arghes/">Arghes</a>, <a href="../../monsters/brv_metalsmith/">Edrin</a>, <a href="../../monsters/mikhail/">Mikhail</a>, <a href="../../monsters/stoutford_armorer/">Odirath</a>, <a href="../../monsters/brv_fortune_teller/">Pangitain</a> +4</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/blackwater_mountain54/">blackwater_mountain54</a>, <a href="../../maps/brimhaven2_laundry/">brimhaven2_laundry</a>, <a href="../../maps/brimhaven_fortune_teller/">brimhaven_fortune_teller</a>, <a href="../../maps/brimhaven_metalsmith/">brimhaven_metalsmith</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>1,975</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>I delivered 'Dusty Old book'</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/arcir/">Arcir</a>. Required:</p>
+<ul>
+<li>hand over 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a></li>
+<li>reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a></li>
+<li>reached stage 20 of <a href="../brv_wh_delivery/#stage-20">Delivery</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-10">Delivery</a></td>
+<td>stage 10 reached, for stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-20">Delivery</a></td>
+<td>stage 20 reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-30">Delivery</a></td>
+<td>stage 30 reached, for stage 20 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-40">Delivery</a></td>
+<td>stage 40 reached, for stage 30 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-50">Delivery</a></td>
+<td>stage 50 reached, for stage 40 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-60">Delivery</a></td>
+<td>stage 60 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-70">Delivery</a></td>
+<td>stage 70 reached, for stage 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-80">Delivery</a></td>
+<td>stage 80 reached, for stage 70 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-90">Delivery</a></td>
+<td>stage 90 reached, for stage 80 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-100">Delivery</a></td>
+<td>stage 100 reached, for stage 90 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_wh_delivery/#stage-110">Delivery</a></td>
+<td>stage 110 reached, for stage 100 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mermaid_scale/#stage-200">The silver scale</a></td>
+<td>stage 200 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../wrye/#stage-90">Uncertain cause</a></td>
+<td>stage 90 reached, for stage 80 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>I delivered 'Dusty Old book'</td>
+<td><a href="../../monsters/arcir/">Arcir</a></td>
+<td>hand over 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a></td>
+<td>75 XP<br>clears stage 20 of <a href="../brv_wh_delivery/#stage-20">Delivery</a><br>gives 20× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>I delivered 'Striped Hammer'</td>
+<td><a href="../../monsters/brv_metalsmith/">Edrin</a> (<a href="../../maps/brimhaven_metalsmith/">brimhaven_metalsmith</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_08/">Striped hammer</a></td>
+<td>50 XP<br>clears stage 30 of <a href="../brv_wh_delivery/#stage-30">Delivery</a><br>gives 10× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I delivered 'Pretty Porcelain Figure'</td>
+<td><a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a></td>
+<td>250 XP<br>clears stage 40 of <a href="../brv_wh_delivery/#stage-40">Delivery</a><br>gives 30× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>I delivered 'Old, worn cape'</td>
+<td><a href="../../monsters/brv_laundry_boss/">Venanra</a> (<a href="../../maps/brimhaven2_laundry/">brimhaven2_laundry</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_06/">Old, worn cape</a></td>
+<td>50 XP<br>clears stage 50 of <a href="../brv_wh_delivery/#stage-50">Delivery</a><br>gives 10× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>I delivered 'Mysterious green something'</td>
+<td><a href="../../monsters/tjure/">Tjure</a> (<a href="../../maps/blackwater_mountain54/">blackwater_mountain54</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a></td>
+<td>500 XP<br>clears stage 60 of <a href="../brv_wh_delivery/#stage-60">Delivery</a><br>gives 50× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>I delivered 'Chandelier'</td>
+<td><a href="../../monsters/guynmart_servant/">Servant</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_04/">Chandelier</a></td>
+<td>250 XP<br>clears stage 70 of <a href="../brv_wh_delivery/#stage-70">Delivery</a><br>gives 40× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>I delivered 'Yellow boots'</td>
+<td><a href="../../monsters/arghes/">Arghes</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a></td>
+<td>500 XP<br>clears stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a><br>gives 50× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-80"></span>80</td>
 <td>I delivered 'Lyre'</td>
+<td><a href="../../monsters/wrye/">Wrye</a> (<a href="../../maps/vilegard_wrye/">vilegard_wrye</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_02/">Lyre</a></td>
+<td>150 XP<br>clears stage 90 of <a href="../brv_wh_delivery/#stage-90">Delivery</a></td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td>I delivered 'Plush Pillow'</td>
+<td><a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a></td>
+<td>100 XP<br>clears stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a></td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>I delivered 'Crystal Globe'</td>
+<td><a href="../../monsters/brv_fortune_teller/">Pangitain</a> (<a href="../../maps/brimhaven_fortune_teller/">brimhaven_fortune_teller</a>)</td>
+<td>hand over 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a></td>
+<td>50 XP<br>clears stage 110 of <a href="../brv_wh_delivery/#stage-110">Delivery</a><br>gives 100× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>brv_wh_delivery_nondisplay</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/arcir/">Arcir</a> → choose “And I'm your delivery kid. Did you order a 'Dusty old book'?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 20 of <a href="../brv_wh_delivery/#stage-20">Delivery</a> → <strong>stage 10</strong>; also clears stage 20 of <a href="../brv_wh_delivery/#stage-20">Delivery</a>, gives 20× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes, an old but useful book, but you should have wiped it off first. Anyway, here's my delivery fee.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_metalsmith/">Edrin</a> (<a href="../../maps/brimhaven_metalsmith/">brimhaven_metalsmith</a>) → choose “Hello, did you order a 'Striped Hammer'?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_08/">Striped hammer</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 30 of <a href="../brv_wh_delivery/#stage-30">Delivery</a> → <strong>stage 20</strong>; also clears stage 30 of <a href="../brv_wh_delivery/#stage-30">Delivery</a>, gives 10× <a href="../../items/gold/">Gold coins</a>. NPC: “Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>) → choose “Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 40 of <a href="../brv_wh_delivery/#stage-40">Delivery</a> → <strong>stage 30</strong>; also clears stage 40 of <a href="../brv_wh_delivery/#stage-40">Delivery</a>, gives 30× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_laundry_boss/">Venanra</a> (<a href="../../maps/brimhaven2_laundry/">brimhaven2_laundry</a>) → choose “Did you order an 'Old, worn cape'?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 50 of <a href="../brv_wh_delivery/#stage-50">Delivery</a> → <strong>stage 40</strong>; also clears stage 50 of <a href="../brv_wh_delivery/#stage-50">Delivery</a>, gives 10× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes I did, kid. Incredibly, it has become the latest fashion to buy new capes with holes. Here's my delivery fee.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/tjure/">Tjure</a> (<a href="../../maps/blackwater_mountain54/">blackwater_mountain54</a>) → choose “Indeed. By the way, did you order a 'Mysterious green something'?” — <strong>conditions:</strong> reached stage 200 of <a href="../mermaid_scale/#stage-200">The silver scale</a>; hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../brv_wh_delivery/#stage-60">Delivery</a> → <strong>stage 50</strong>; also clears stage 60 of <a href="../brv_wh_delivery/#stage-60">Delivery</a>, gives 50× <a href="../../items/gold/">Gold coins</a>. NPC: “What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck. Here's my delivery fee.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_servant/">Servant</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>) → choose “I'm here to give you your ordered item. You don't want it?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_04/">Chandelier</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 70 of <a href="../brv_wh_delivery/#stage-70">Delivery</a> → <strong>stage 60</strong>; also clears stage 70 of <a href="../brv_wh_delivery/#stage-70">Delivery</a>, gives 40× <a href="../../items/gold/">Gold coins</a>. NPC: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/arghes/">Arghes</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; hand over 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a> → <strong>stage 70</strong>; also clears stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a>, gives 50× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes kid, thank you. Here, take this gold for them.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 80: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/wrye/">Wrye</a> (<a href="../../maps/vilegard_wrye/">vilegard_wrye</a>) → choose “Yes, I came back to deliver your order of a 'Lyre'. You must be good at playing it?” — <strong>conditions:</strong> reached stage 90 of <a href="../wrye/#stage-90">Uncertain cause</a>; hand over 1× <a href="../../items/brv_wh_item_02/">Lyre</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 90 of <a href="../brv_wh_delivery/#stage-90">Delivery</a> → <strong>stage 80</strong>; also clears stage 90 of <a href="../brv_wh_delivery/#stage-90">Delivery</a>. NPC: “Yes, I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 90: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; hand over 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a> → <strong>stage 90</strong>; also clears stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a>. NPC: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_fortune_teller/">Pangitain</a> (<a href="../../maps/brimhaven_fortune_teller/">brimhaven_fortune_teller</a>) → choose “So you are the one who ordered a 'Crystal Globe'?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 110 of <a href="../brv_wh_delivery/#stage-110">Delivery</a> → <strong>stage 100</strong>; also clears stage 110 of <a href="../brv_wh_delivery/#stage-110">Delivery</a>, gives 100× <a href="../../items/gold/">Gold coins</a>. NPC: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>brv_wh_delivery_nondisplay</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 40, 50, 60, 70, 80, 90, 100</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>brv_wh_delivery_arcir</code>, 20: <code>brv_wh_delivery_edrin</code>, 30: <code>brv_wh_delivery_odirath</code>, 40: <code>brv_wh_delivery_venanra</code>, 50: <code>brv_wh_delivery_tjure</code>, 60: <code>brv_wh_delivery_servant</code>, 70: <code>brv_wh_delivery_arghes</code>, 80: <code>brv_wh_delivery_wyre</code>, 90: <code>brv_wh_delivery_mikhail</code>, 100: <code>brv_wh_delivery_brv_fortune</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

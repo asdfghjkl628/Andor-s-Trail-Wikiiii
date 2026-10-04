@@ -833,6 +833,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +970,118 @@
 <ul>
 <li><a href="../../maps/flagstone0/">flagstone0</a></li>
 </ul>
+<details class="quote">
+<summary>Dialogue (23 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-flagstone_sentry"></span><strong><code>flagstone_sentry</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../quests/flagstone.md#stage-60">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return4">flagstone_sentry_return4</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../quests/flagstone.md#stage-40">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return3">flagstone_sentry_return3</a></li>
+<li>branch 3 → <a href="#d-flagstone_sentry_select0">flagstone_sentry_select0</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_return4"></span><strong><code>flagstone_sentry_return4</code></strong> Flagstone sentry: “Hello again. It seems something happened inside Flagstone that made the undead weaker. I'm sure we have you to thank for it.”</p>
+<ul>
+<li>“In the depths of Flagstone, I had to fight a winged demon and found a prisoner called Narael. He told me that he has…” → <a href="#d-flagstone_sentry_45">flagstone_sentry_45</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_return3"></span><strong><code>flagstone_sentry_return3</code></strong> Flagstone sentry: “Hello again. How is the investigation of the undead in Flagstone going?”</p>
+<ul>
+<li>“No progress yet.” → <a href="#d-flagstone_sentry_43">flagstone_sentry_43</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_select0"></span><strong><code>flagstone_sentry_select0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../quests/flagstone.md#stage-30">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return2">flagstone_sentry_return2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../quests/flagstone.md#stage-10">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return1">flagstone_sentry_return1</a></li>
+<li>branch 3 → <a href="#d-flagstone_sentry_1">flagstone_sentry_1</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_45"></span><strong><code>flagstone_sentry_45</code></strong> Flagstone sentry: “This is both good and bad news. I am truly grateful that you rid us of the warden and his thralls. Talk to Yolgen for a reward. We will make sure that we recover this prisoner.” — <strong>effects:</strong> removes monsters from flagstone4, sets stage 70 of <a href="../quests/flagstone.md#stage-70">flagstone (hidden flag)</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+<li>“Thank you. Shadow be with you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-flagstone_sentry_43"></span><strong><code>flagstone_sentry_43</code></strong> Flagstone sentry: “Well, keep looking. Return to me if you need my advice.”</p>
+<p><span id="d-flagstone_sentry_return2"></span><strong><code>flagstone_sentry_return2</code></strong> Flagstone sentry: “Hello again. Have you found the former warden in Flagstone yet?”</p>
+<ul>
+<li>“I slew the former warden and found a peculiar necklace among his remains.” <em>(if hand over 1× <a href="../../items/necklace_flagstone/">Flagstone Warden's necklace</a>)</em> → <a href="#d-flagstone_sentry_23">flagstone_sentry_23</a></li>
+<li>“Can you tell me the story again?” → <a href="#d-flagstone_sentry_3">flagstone_sentry_3</a></li>
+<li>“Not yet. I have to keep looking.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-flagstone_sentry_return1"></span><strong><code>flagstone_sentry_return1</code></strong> Flagstone sentry: “Hello again. Did you enter Flagstone? I am surprised you actually returned.”</p>
+<ul>
+<li>“Can you tell me the story again?” → <a href="#d-flagstone_sentry_4">flagstone_sentry_4</a></li>
+<li>“There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now.” <em>(if reached stage 20 of <a href="../quests/flagstone.md#stage-20">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_20">flagstone_sentry_20</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_1"></span><strong><code>flagstone_sentry_1</code></strong> Flagstone sentry: “Halt! Who's there? No one is allowed to approach Flagstone.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_2">flagstone_sentry_2</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_23"></span><strong><code>flagstone_sentry_23</code></strong> Flagstone sentry: “Oh this looks most interesting. Let's take a look. Hmm. It has got some weird inscriptions on it that say 'Daylight Shadow'. Maybe you could try these words on the demon? So perhaps the warden did have something to do with the demon after…” — <strong>effects:</strong> sets stage 40 of <a href="../quests/flagstone.md#stage-40">flagstone (hidden flag)</a></p>
+<ul>
+<li>“That might work. Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-flagstone_sentry_3"></span><strong><code>flagstone_sentry_3</code></strong> Flagstone sentry: “Flagstone has been overrun by undead, and we are standing guard here to make sure no undead escape.”</p>
+<ul>
+<li>“Can you tell me the story about Flagstone?” → <a href="#d-flagstone_sentry_4">flagstone_sentry_4</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_4"></span><strong><code>flagstone_sentry_4</code></strong> Flagstone sentry: “Flagstone Prison was built a few hundred years ago by house Gorland of Stoutford and used until the Noble Wars, when the house was vanquished. This dreadful place has been abandoned ever since.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_8">flagstone_sentry_8</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_20"></span><strong><code>flagstone_sentry_20</code></strong> Flagstone sentry: “A guardian and undead prisoners you say? This is troubling news, since it means there is some larger force behind all this.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_21">flagstone_sentry_21</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_2"></span><strong><code>flagstone_sentry_2</code></strong> Flagstone sentry: “You should turn back while you still can.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_3">flagstone_sentry_3</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_8"></span><strong><code>flagstone_sentry_8</code></strong> Flagstone sentry: “For years, no one took notice of Flagstone, although there were occasional reports from travelers of terrible screams coming from the camp.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_9">flagstone_sentry_9</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_21"></span><strong><code>flagstone_sentry_21</code></strong> Flagstone sentry: “You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news.” — <strong>effects:</strong> sets stage 30 of <a href="../quests/flagstone.md#stage-30">flagstone (hidden flag)</a></p>
+<ul>
+<li>“OK, I will go and look for the former warden.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-flagstone_sentry_9"></span><strong><code>flagstone_sentry_9</code></strong> Flagstone sentry: “But recently, undead started pouring out of Flagstone and started to threaten Stoutford and the trade routes nearby.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_10">flagstone_sentry_10</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_10"></span><strong><code>flagstone_sentry_10</code></strong> Flagstone sentry: “So, here we are. I have to guard the road from undead, so that they do not spread farther than Flagstone.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_11">flagstone_sentry_11</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_11"></span><strong><code>flagstone_sentry_11</code></strong> Flagstone sentry: “So, I would advise you to leave unless you want to be overrun by undead.”</p>
+<ul>
+<li>“Can I investigate the Flagstone ruins?” → <a href="#d-flagstone_sentry_12">flagstone_sentry_12</a></li>
+<li>“Yes, I should leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-flagstone_sentry_12"></span><strong><code>flagstone_sentry_12</code></strong> Flagstone sentry: “Are you really sure you want to head in there? Well, OK, fine by me.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_13">flagstone_sentry_13</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_13"></span><strong><code>flagstone_sentry_13</code></strong> Flagstone sentry: “I won't stop you, and I won't mourn you if you never return.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_14">flagstone_sentry_14</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_14"></span><strong><code>flagstone_sentry_14</code></strong> Flagstone sentry: “Go ahead. Let me know if there's anything I can tell you that would help.”</p>
+<ul>
+<li>Next → <a href="#d-flagstone_sentry_15">flagstone_sentry_15</a></li>
+</ul>
+<p><span id="d-flagstone_sentry_15"></span><strong><code>flagstone_sentry_15</code></strong> Flagstone sentry: “Return here if you need my advice.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/flagstone.md#stage-10">flagstone (hidden flag)</a></p>
+<ul>
+<li>“OK. I will return to you if there is anything I need help with.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=flagstone_sentry.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=flagstone_sentry.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=flagstone_sentry.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=flagstone_sentry.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>flagstone_sentry</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,72 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain10/">blackwater_mountain10</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/prim_hunt/">Clouded intent</a>: stages 10, 11</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (12 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tonis_start"></span><strong><code>tonis_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/prim_hunt/#stage-10">Clouded intent</a>)</em> → <a href="#d-tonis_return_1">tonis_return_1</a></li>
+<li>branch 2 → <a href="#d-tonis_1">tonis_1</a></li>
+</ul>
+<p><span id="d-tonis_return_1"></span><strong><code>tonis_return_1</code></strong> Tonis: “Hello again. Have you spoken to Guthbered in the Prim main hall yet?”</p>
+<ul>
+<li>“No, not yet. Where can I find him?” → <a href="#d-tonis_return_2">tonis_return_2</a></li>
+<li>“Yes, he told me the story about Prim.” <em>(if reached stage 20 of <a href="../../quests/prim_hunt/#stage-20">Clouded intent</a>)</em> → <a href="#d-tonis_8">tonis_8</a></li>
+<li>“No, and I do not intend to speak to him either. I am on an urgent mission to help the Blackwater mountain settlement.” → <a href="#d-tonis_return_3">tonis_return_3</a></li>
+</ul>
+<p><span id="d-tonis_1"></span><strong><code>tonis_1</code></strong> Tonis: “You there! Please you have to help us!”</p>
+<ul>
+<li>“What is the matter?” → <a href="#d-tonis_6">tonis_6</a></li>
+<li>“Is this the Blackwater mountain settlement?” → <a href="#d-tonis_2">tonis_2</a></li>
+<li>“Sorry, I cannot be bothered right now. I was told to go east quickly.” → <a href="#d-tonis_4">tonis_4</a></li>
+</ul>
+<p><span id="d-tonis_return_2"></span><strong><code>tonis_return_2</code></strong> Tonis: “The village of Prim is just north of here. You can probably see it through the trees over there.”</p>
+<ul>
+<li>“OK, I will go there right away.” → <a href="#d-tonis_8">tonis_8</a></li>
+</ul>
+<p><span id="d-tonis_8"></span><strong><code>tonis_8</code></strong> Tonis: “Good, thanks. We really need your help!” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/prim_hunt/#stage-11">Clouded intent</a></p>
+<p><span id="d-tonis_return_3"></span><strong><code>tonis_return_3</code></strong> Tonis: “Do not listen to their lies!”</p>
+<p><span id="d-tonis_6"></span><strong><code>tonis_6</code></strong> Tonis: “We desperately need help from someone from the outside in our village of Prim.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/prim_hunt/#stage-10">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-tonis_7">tonis_7</a></li>
+</ul>
+<p><span id="d-tonis_2"></span><strong><code>tonis_2</code></strong> Tonis: “Blackwater? No no, certainly not. Just over there is the village of Prim.”</p>
+<ul>
+<li>Next → <a href="#d-tonis_3">tonis_3</a></li>
+</ul>
+<p><span id="d-tonis_4"></span><strong><code>tonis_4</code></strong> Tonis: “East? But that leads up to Blackwater mountain.”</p>
+<ul>
+<li>Next → <a href="#d-tonis_5">tonis_5</a></li>
+</ul>
+<p><span id="d-tonis_7"></span><strong><code>tonis_7</code></strong> Tonis: “You should speak to Guthbered, in the Prim main hall, just north of here.”</p>
+<ul>
+<li>“OK, I will go see him.” → <a href="#d-tonis_8">tonis_8</a></li>
+<li>“I was told to go directly east.” → <a href="#d-tonis_4">tonis_4</a></li>
+</ul>
+<p><span id="d-tonis_3"></span><strong><code>tonis_3</code></strong> Tonis: “Blackwater mountain, those vicious bastards.”</p>
+<ul>
+<li>Next → <a href="#d-tonis_6">tonis_6</a></li>
+</ul>
+<p><span id="d-tonis_5"></span><strong><code>tonis_5</code></strong> Tonis: “You really do not want to go up there.”</p>
+<ul>
+<li>Next → <a href="#d-tonis_3">tonis_3</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tonis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tonis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tonis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tonis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>tonis</code> · Data from v0.8.18</small></p>
 
 

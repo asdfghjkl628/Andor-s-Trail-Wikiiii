@@ -816,6 +816,75 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -886,6 +955,118 @@
 </tr>
 </tbody>
 </table>
+<details class="quote">
+<summary>Dialogue (24 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-unnmir"></span><strong><code>unnmir</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if latest stage of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a> is 10)</em> → <a href="#d-unnmir_r">unnmir_r</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../quests/nocmar.md#stage-40">nocmar (hidden flag)</a>)</em> → <a href="#d-unnmir_hs_10">unnmir_hs_10</a></li>
+<li>branch 3 → <a href="#d-unnmir_0">unnmir_0</a></li>
+</ul>
+<p><span id="d-unnmir_r"></span><strong><code>unnmir_r</code></strong> Unnmir: “Hello again. You should go talk to Nocmar.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_13">unnmir_13</a></li>
+</ul>
+<p><span id="d-unnmir_hs_10"></span><strong><code>unnmir_hs_10</code></strong> Unnmir: “You've come back to visit me?”</p>
+<ul>
+<li>“Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot carry it.” <em>(if NOT reached stage 50 of <a href="../quests/nocmar.md#stage-50">nocmar (hidden flag)</a>)</em> → <a href="#d-unnmir_hs_20">unnmir_hs_20</a></li>
+<li>“I don't want to hold you from your busy day. I will leave now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-unnmir_0"></span><strong><code>unnmir_0</code></strong> Unnmir: “Hi there.”</p>
+<ul>
+<li>“There was a drunk outside the tavern that told me a story about you two.” <em>(if reached stage 100 of <a href="../quests/fallhavendrunk.md#stage-100">fallhavendrunk (hidden flag)</a>)</em> → <a href="#d-unnmir_1">unnmir_1</a></li>
+<li>“Inside Undertell, I stumbled across the remains of an adventurer. Among his possessions, he had a 'Jewel of Fallhaven'.” <em>(if reached stage 10 of <a href="../../quests/undertell_book/#stage-10">Undertell: What was not written</a>; NOT reached stage 40 of <a href="../../quests/undertell_book/#stage-40">Undertell: What was not written</a>; carry 1× <a href="../../items/undertell_book/">Undertell: Its Ghosts and History</a>)</em> → <a href="#d-unnmir_undertell_book_10">unnmir_undertell_book_10</a></li>
+</ul>
+<p><span id="d-unnmir_13"></span><strong><code>unnmir_13</code></strong> Unnmir: “His house is just southwest of the tavern.”</p>
+<ul>
+<li>“Thanks, I'll go see him.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-unnmir_hs_20"></span><strong><code>unnmir_hs_20</code></strong> Unnmir: “Too hot, you say? Hah, that makes sense. The heartstone has been sitting near that cursed rift for centuries, soaking up its heat. No man alive could carry it as it is. But there is a way. Back when I still walked the high trails of…”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_hs_25">unnmir_hs_25</a></li>
+</ul>
+<p><span id="d-unnmir_1"></span><strong><code>unnmir_1</code></strong> Unnmir: “That old drunk over at the tavern told you his story did he?”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_2">unnmir_2</a></li>
+</ul>
+<p><span id="d-unnmir_undertell_book_10"></span><strong><code>unnmir_undertell_book_10</code></strong> Unnmir: “And?”</p>
+<ul>
+<li>“And he had this book. [show the Undertell history book] I was hoping for your insight.” → <a href="#d-unnmir_undertell_book_20">unnmir_undertell_book_20</a></li>
+</ul>
+<p><span id="d-unnmir_hs_25"></span><strong><code>unnmir_hs_25</code></strong> Unnmir: “They called it "Galmore Ice". Unlike any common frost, it does not melt in your hand or in the lowlands. Only the hottest fire, or something born of the Rift itself, can turn it to water. If you can get your hands on a block of it, place…”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_hs_narrator_10">unnmir_hs_narrator_10</a></li>
+</ul>
+<p><span id="d-unnmir_2"></span><strong><code>unnmir_2</code></strong> Unnmir: “Same old story. We used to travel together a few years back.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_3">unnmir_3</a></li>
+</ul>
+<p><span id="d-unnmir_undertell_book_20"></span><strong><code>unnmir_undertell_book_20</code></strong> Unnmir: “If that book matters, someone in Fallhaven should know why.”</p>
+<ul>
+<li>“But who?” → <a href="#d-unnmir_undertell_book_30">unnmir_undertell_book_30</a></li>
+</ul>
+<p><span id="d-unnmir_hs_narrator_10"></span><strong><code>unnmir_hs_narrator_10</code></strong> <a href="../none/">Dummy NPC</a>: “Unnmir leans back, shaking his head.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_hs_30">unnmir_hs_30</a></li>
+</ul>
+<p><span id="d-unnmir_3"></span><strong><code>unnmir_3</code></strong> Unnmir: “Real adventuring you know, swords and spells.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_4">unnmir_4</a></li>
+</ul>
+<p><span id="d-unnmir_undertell_book_30"></span><strong><code>unnmir_undertell_book_30</code></strong> Unnmir: “Someone with a lot of books, I presume.”</p>
+<ul>
+<li>“OK, you don't know then. Thanks anyway.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-unnmir_hs_30"></span><strong><code>unnmir_hs_30</code></strong> <a href="./">Unnmir</a>: “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged, you'll need to brave the peak. No one else can do this but you.” — <strong>effects:</strong> sets stage 50 of <a href="../quests/nocmar.md#stage-50">nocmar (hidden flag)</a></p>
+<ul>
+<li>“Great. Thanks. That helps a lot.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-unnmir_4"></span><strong><code>unnmir_4</code></strong> Unnmir: “Then, after a while, we stopped. I can't really say why, I guess we got tired of life on the road. We settled down here in Fallhaven.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_5">unnmir_5</a></li>
+</ul>
+<p><span id="d-unnmir_5"></span><strong><code>unnmir_5</code></strong> Unnmir: “Nice little town here. A lot of thieves around, but they don't bother me.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_6">unnmir_6</a></li>
+</ul>
+<p><span id="d-unnmir_6"></span><strong><code>unnmir_6</code></strong> Unnmir: “So what's your story, kid? How did you end up here in Fallhaven?”</p>
+<ul>
+<li>“I'm looking for my brother.” → <a href="#d-unnmir_7">unnmir_7</a></li>
+</ul>
+<p><span id="d-unnmir_7"></span><strong><code>unnmir_7</code></strong> Unnmir: “Yeah yeah, I get it. Your brother has probably run off to some dungeon, trying to go adventuring. [Rolls eyes]”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_8">unnmir_8</a></li>
+</ul>
+<p><span id="d-unnmir_8"></span><strong><code>unnmir_8</code></strong> Unnmir: “Or maybe he has gone to one of the bigger cities to the north.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_9">unnmir_9</a></li>
+</ul>
+<p><span id="d-unnmir_9"></span><strong><code>unnmir_9</code></strong> Unnmir: “Can't say I blame him for wanting to see the world.”</p>
+<ul>
+<li>Next → <a href="#d-unnmir_10">unnmir_10</a></li>
+</ul>
+<p><span id="d-unnmir_10"></span><strong><code>unnmir_10</code></strong> Unnmir: “Hey, by the way, are you looking to be an adventurer?”</p>
+<ul>
+<li>“Yes” → <a href="#d-unnmir_11">unnmir_11</a></li>
+<li>“No, not really.” → <a href="#d-unnmir_12">unnmir_12</a></li>
+</ul>
+<p><span id="d-unnmir_11"></span><strong><code>unnmir_11</code></strong> Unnmir: “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by the west side of town. Tell him I sent you.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-unnmir_13">unnmir_13</a></li>
+</ul>
+<p><span id="d-unnmir_12"></span><strong><code>unnmir_12</code></strong> Unnmir: “Smart move. Adventuring leads to a lot of scars. If you know what I mean.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unnmir.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unnmir.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unnmir.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unnmir.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>unnmir</code> · Data from v0.8.18</small></p>
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,134 @@
 <ul>
 <li><a href="../../maps/lodar14/">lodar14</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lodar13_rest/">No rest for the guilty</a>: stages 20, 22, 24, 30, 41, 60, 65</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (25 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tiqui"></span><strong><code>tiqui</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/lodar13_rest/#stage-30">No rest for the guilty</a>)</em> → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>branch 2 <em>(if reached stage 60 of <a href="../../quests/lodar13_rest/#stage-60">No rest for the guilty</a>)</em> → <a href="#d-tiqui_wb0">tiqui_wb0</a></li>
+<li>branch 3 <em>(if reached stage 41 of <a href="../../quests/lodar13_rest/#stage-41">No rest for the guilty</a>)</em> → <a href="#d-tiqui_r1">tiqui_r1</a></li>
+<li>branch 4 <em>(if reached stage 22 of <a href="../../quests/lodar13_rest/#stage-22">No rest for the guilty</a>)</em> → <a href="#d-tiqui_r0">tiqui_r0</a></li>
+<li>branch 5 → <a href="#d-tiqui0">tiqui0</a></li>
+</ul>
+<p><span id="d-tiqui_atk"></span><strong><code>tiqui_atk</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 31 of <a href="../../quests/lodar13_rest/#stage-31">No rest for the guilty</a>)</em> → <a href="#d-tiqui_atk1">tiqui_atk1</a></li>
+<li>branch 2 → <a href="#d-tiqui_atk0">tiqui_atk0</a></li>
+</ul>
+<p><span id="d-tiqui_wb0"></span><strong><code>tiqui_wb0</code></strong> Tiqui: “My helping friend! Thank you, thank you!”</p>
+<ul>
+<li>Next → <a href="#d-tiqui_r2">tiqui_r2</a></li>
+</ul>
+<p><span id="d-tiqui_r1"></span><strong><code>tiqui_r1</code></strong> Tiqui: “Yes! Yes! The smell is gone. You friend of Tiqui now! Tiqui help you when we meet again!” — <strong>effects:</strong> sets stage 41 of <a href="../../quests/lodar13_rest/#stage-41">No rest for the guilty</a></p>
+<ul>
+<li>Next → <a href="#d-tiqui_r2">tiqui_r2</a></li>
+</ul>
+<p><span id="d-tiqui_r0"></span><strong><code>tiqui_r0</code></strong> Tiqui: “Hello, friend of Tiqui. Can Tiqui have revenge for friends?”</p>
+<ul>
+<li>“I won't listen to any more of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“Can you tell me your story again?” → <a href="#d-tiqui3">tiqui3</a></li>
+<li>“I've dealt with Aulowenn for you.” <em>(if hand over 1× <a href="../../items/aulowenn/">Aulowenn's signet ring</a>)</em> → <a href="#d-tiqui_r1">tiqui_r1</a></li>
+</ul>
+<p><span id="d-tiqui0"></span><strong><code>tiqui0</code></strong> Tiqui: “You not belong here. You leave now.”</p>
+<ul>
+<li>“I am sent here by Aulowenn to take care of you.” <em>(if reached stage 11 of <a href="../../quests/lodar13_rest/#stage-11">No rest for the guilty</a>)</em> → <a href="#d-tiqui1">tiqui1</a></li>
+</ul>
+<p><span id="d-tiqui_atk1"></span><strong><code>tiqui_atk1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 65 of <a href="../../quests/lodar13_rest/#stage-65">No rest for the guilty</a></p>
+<ul>
+<li>branch 1 → <a href="#d-tiqui_atk0">tiqui_atk0</a></li>
+</ul>
+<p><span id="d-tiqui_atk0"></span><strong><code>tiqui_atk0</code></strong> Tiqui: “No, you die now! You one of them! Tiqui angry!” — <strong>effects:</strong> sets stage 24 of <a href="../../quests/lodar13_rest/#stage-24">No rest for the guilty</a>, sets stage 30 of <a href="../../quests/lodar13_rest/#stage-30">No rest for the guilty</a></p>
+<ul>
+<li>“Attack!” → <em>fight starts</em></li>
+<li>“Sorry, I wasn't listening since I was so distracted by your hideous appearance and your foul smell. Here, let me fix…” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-tiqui_r2"></span><strong><code>tiqui_r2</code></strong> Tiqui: “You also use bed of smelly men, and Tiqui keep you safe.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/lodar13_rest/#stage-60">No rest for the guilty</a></p>
+<ul>
+<li>“Thank you. I'll feel much safer now that I know you'll watch over me when I rest in Aulowenn's old bed.” → <a href="#d-tiqui_r3">tiqui_r3</a></li>
+</ul>
+<p><span id="d-tiqui3"></span><strong><code>tiqui3</code></strong> Tiqui: “You can smell them from far away even. We sense something bad would happen when we first noticed them.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui4">tiqui4</a></li>
+</ul>
+<p><span id="d-tiqui1"></span><strong><code>tiqui1</code></strong> Tiqui: “Tiqui not want fight. Tiqui angry that men who smell bad kill his friends.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/lodar13_rest/#stage-20">No rest for the guilty</a></p>
+<ul>
+<li>“I won't listen to any of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“They killed your friends?” → <a href="#d-tiqui2">tiqui2</a></li>
+</ul>
+<p><span id="d-tiqui_r3"></span><strong><code>tiqui_r3</code></strong> Tiqui: “You good friend of Tiqui!”</p>
+<p><span id="d-tiqui4"></span><strong><code>tiqui4</code></strong> Tiqui: “First we try stay away from them. They notice us, but we stay away. They trespass deeper.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui5">tiqui5</a></li>
+</ul>
+<p><span id="d-tiqui2"></span><strong><code>tiqui2</code></strong> Tiqui: “They did. Men who smell bad do not belong here. Everything quiet before they came.”</p>
+<ul>
+<li>“I won't listen to any of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“I'll listen to your story.” → <a href="#d-tiqui3">tiqui3</a></li>
+</ul>
+<p><span id="d-tiqui5"></span><strong><code>tiqui5</code></strong> Tiqui: “One smelly man walked into snake trap. Snake trap not meant for smelly man.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui6">tiqui6</a></li>
+</ul>
+<p><span id="d-tiqui6"></span><strong><code>tiqui6</code></strong> Tiqui: “Other smelly men angry at snake trap. Tiqui not understand. Smelly men should be angry at stupid man who walk into snake trap.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui7">tiqui7</a></li>
+</ul>
+<p><span id="d-tiqui7"></span><strong><code>tiqui7</code></strong> Tiqui: “After, smelly men angry at us. Hunt us. Kill us.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui8">tiqui8</a></li>
+</ul>
+<p><span id="d-tiqui8"></span><strong><code>tiqui8</code></strong> Tiqui: “Much fight. Much blood on ground. But blood good for trees.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui9">tiqui9</a></li>
+</ul>
+<p><span id="d-tiqui9"></span><strong><code>tiqui9</code></strong> Tiqui: “Tiqui head of clan. Tiqui make decision of revenge.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui10">tiqui10</a></li>
+</ul>
+<p><span id="d-tiqui10"></span><strong><code>tiqui10</code></strong> Tiqui: “Smelly men hunt us down. Kill many.”</p>
+<ul>
+<li>“The smelly men you speak of must be the guards from Feygard. They've been killing you off?” → <a href="#d-tiqui11">tiqui11</a></li>
+<li>“I won't listen to any more of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+</ul>
+<p><span id="d-tiqui11"></span><strong><code>tiqui11</code></strong> Tiqui: “Yes. Smelly men kill us when they see us.”</p>
+<ul>
+<li>“I won't listen to any more of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“What can I do to help?” → <a href="#d-tiqui12">tiqui12</a></li>
+</ul>
+<p><span id="d-tiqui12"></span><strong><code>tiqui12</code></strong> Tiqui: “You help Tiqui? Tiqui want revenge for dead friends.”</p>
+<ul>
+<li>Next → <a href="#d-tiqui13">tiqui13</a></li>
+</ul>
+<p><span id="d-tiqui13"></span><strong><code>tiqui13</code></strong> Tiqui: “Tiqui knows smelly person with crates [points in the direction to where Aulowenn is].”</p>
+<ul>
+<li>Next → <a href="#d-tiqui14">tiqui14</a></li>
+</ul>
+<p><span id="d-tiqui14"></span><strong><code>tiqui14</code></strong> Tiqui: “You go take care of last smelly person. Tiqui can be friend to you. Tiqui can have revenge.” — <strong>effects:</strong> sets stage 22 of <a href="../../quests/lodar13_rest/#stage-22">No rest for the guilty</a></p>
+<ul>
+<li>“I won't listen to any more of your lies. You'll die now!” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“I will gladly kill more of those Feygard scum.” → <a href="#d-tiqui15">tiqui15</a></li>
+<li>“No, I think I'll find your village and take whatever riches you have instead.” → <a href="#d-tiqui_atk">tiqui_atk</a></li>
+<li>“OK. I will help you.” → <a href="#d-tiqui15">tiqui15</a></li>
+<li>“It sounds like they have been wrongfully killing you. I will help you.” → <a href="#d-tiqui15">tiqui15</a></li>
+</ul>
+<p><span id="d-tiqui15"></span><strong><code>tiqui15</code></strong> Tiqui: “You friend of Tiqui.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tiqui.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tiqui.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tiqui.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tiqui.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>tiqui</code> · Data from v0.8.18</small></p>
 
 

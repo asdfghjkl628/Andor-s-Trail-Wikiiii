@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,173 +971,786 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>undertell_hidden</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>walking into a blocked passage on <a href="../../maps/galmore_58/">galmore_58</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/brv_richman/">Alkapoan</a>, <a href="../../monsters/brenor/">Brenor</a>, <a href="../../monsters/drunkard/">Drunkard</a>, <a href="../../monsters/lethgar_miner_ghost2/">Lethgar miner ghost</a>, <a href="../../monsters/lethgar_female_ghost/">Lethgar slave ghost</a>, <a href="../../monsters/morvath/">Morvath</a> +8</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/brimhaven4/">brimhaven4</a>, <a href="../../maps/brimhaven_house1/">brimhaven_house1</a>, <a href="../../maps/fallhaven_nw/">fallhaven_nw</a>, <a href="../../maps/undertell_00/">undertell_00</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>3 = PC has encountered the Galmore encampment barricades.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to walking into a blocked passage on <a href="../../maps/galmore_58/">galmore_58</a> to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../about_a_girl/#stage-40">About a girl</a></td>
+<td>stage 40 reached, for stage 90 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../about_a_girl/#stage-70">About a girl</a></td>
+<td>stage 70 reached, for stage 85 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_flood/#stage-200">Much water</a></td>
+<td>stage 200 reached, for stage 15 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../fifth_master/#stage-65">The fifth master</a></td>
+<td>stage 65 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a></td>
+<td>stage 450 reached, for stage 82 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a></td>
+<td>stage 2 reached, for stage 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../undertell_book/#stage-40">Undertell: What was not written</a></td>
+<td>stage 40 reached, for stage 70 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../about_a_girl/#stage-50">About a girl</a></td>
+<td>stage 50 must NOT be reached, for stage 95 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../about_a_girl/#stage-70">About a girl</a></td>
+<td>stage 70 must NOT be reached, for stage 90 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../about_a_girl/#stage-80">About a girl</a></td>
+<td>stage 80 must NOT be reached, for stage 85 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../place_to_forge/#stage-50">A place to forge</a></td>
+<td>stage 50 must NOT be reached, for stage 15 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../place_to_forge/#stage-60">A place to forge</a></td>
+<td>stage 60 must NOT be reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../undertell_barricades/#stage-130">You shall pass</a></td>
+<td>stage 130 must NOT be reached, for stage 55 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../about_a_girl/#stage-80">About a girl</a></td>
+<td>stage 80 there needs stage 85 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../fifth_master/#stage-70">The fifth master</a></td>
+<td>stage 70 there needs stage 45 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../fifth_master/#stage-72">The fifth master</a></td>
+<td>stage 72 there needs stage 45 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../place_to_forge/#stage-30">A place to forge</a></td>
+<td>stage 30 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../place_to_forge/#stage-35">A place to forge</a></td>
+<td>stage 35 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../place_to_forge/#stage-40">A place to forge</a></td>
+<td>stage 40 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../place_to_forge/#stage-50">A place to forge</a></td>
+<td>stage 50 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../undertell_barricades/#stage-130">You shall pass</a></td>
+<td>stage 130 there needs stage 55 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../undertell_book/#stage-70">Undertell: What was not written</a></td>
+<td>stage 70 there needs stage 75 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../dominion/#stage-50">Dominion</a></td>
+<td>reaching stage 7 here closes stage 50 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../fifth_master/#stage-65">The fifth master</a></td>
+<td>reaching stage 50 here closes stage 65 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../fifth_master/#stage-70">The fifth master</a></td>
+<td>reaching stage 50 here closes stage 70 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../fifth_master/#stage-72">The fifth master</a></td>
+<td>reaching stage 50 here closes stage 72 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../undertell_book/#stage-30">Undertell: What was not written</a></td>
+<td>reaching stage 7 here closes stage 30 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-3"></span>3</td>
 <td>3 = PC has encountered the Galmore encampment barricades.</td>
+<td>walking into a blocked passage on <a href="../../maps/galmore_58/">galmore_58</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>5 = PC has met a kazaul master.</td>
+<td><a href="../../monsters/zaroth/">Zaroth</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>)<br><a href="../../monsters/morvath/">Morvath</a> (<a href="../../maps/undertell_00/">undertell_00</a>)<br><a href="../../monsters/thalen/">Thalen</a> (<a href="../../maps/undertell_3_lava_00/">undertell_3_lava_00</a>)<br>+1 more</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-7"></span>7</td>
 <td>PC found the "The Five Aspects" ritual and let the Masters know about it.</td>
+<td><a href="../../monsters/zaroth/">Zaroth</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>)<br><a href="../../monsters/morvath/">Morvath</a> (<a href="../../maps/undertell_00/">undertell_00</a>)<br><a href="../../monsters/vaelzahr/">Vaelzahr</a> (<a href="../../maps/undertell_7_00/">undertell_7_00</a>)<br>+1 more</td>
+<td>carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a>, hand over 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a></td>
+<td>sets stage 78 of <a href="../fifth_master/#stage-78">The fifth master</a><br>sets stage 80 of <a href="../fifth_master/#stage-80">The fifth master</a><br>spawns monsters on undertell_5</td>
 </tr>
 <tr>
 <td><span id="stage-8"></span>8</td>
 <td>8 = PC found the Undertell pickaxe<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_22/">Undertell 22</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/undertell_22/">Undertell 22</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_22/">undertell_22</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/undertell_pickaxe/">Undertell pickaxe</a></td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>10 = PC has handed over the heartstone to Nocmar.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>hand over 1× <a href="../../items/heartstone/">Heartstone</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-15"></span>15</td>
 <td>15 = PC was able to get Mustura out of the way in order to talk to Alkapoan.</td>
+<td><a href="../../monsters/brv_guard_captain/">Mustura</a> (<a href="../../maps/brimhaven4/">brimhaven4</a>)<br><a href="../../monsters/brv_richman/">Alkapoan</a> (<a href="../../maps/brimhaven_house1/">brimhaven_house1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-25"></span>25</td>
 <td>25 = PC has seen Nocmar's inventory.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>30 = PC chose to forge the claymore.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-31"></span>31</td>
 <td>31 = PC chose to forge the one-handed sword.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>32 = PC chose to forge the dagger.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-33"></span>33</td>
 <td>33 = PC chose to forge the glaive.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-34"></span>34</td>
 <td>34 = PC chose to forge the greateaxe.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-35"></span>35</td>
 <td>35 = PC chose to forge the hand axe.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-36"></span>36</td>
 <td>36 = PC chose to forge the mace.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-37"></span>37</td>
 <td>37 = PC chose to forge the parrying weapon.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-38"></span>38</td>
 <td>38 = PC chose to forge no weapon.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>stage 25</td>
+<td>sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-39"></span>39</td>
 <td>39 = PC gave Nocmar an answer.</td>
+<td><a href="../../monsters/nocmar/">Nocmar</a></td>
+<td>stage 25, stage 30, stage 31, stage 32, stage 33, stage 34, stage 35, stage 36, stage 37</td>
+<td>sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>45 = white house - going down the basement stairs<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/white_house/">White house</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/white_house/">white_house</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>50 = PC has "talked" to the white house dragon.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/white_house_basement/">White house basement</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/white_house_basement/">white_house_basement</a><br>stepping on a trigger on <a href="../../maps/white_house_basement/">white_house_basement</a><br><a href="../../monsters/lethgar_miner_ghost2/">Lethgar miner ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>carry 1× <a href="../../items/ancient_dragon_scales/">Ash covered dragon scales</a>, stage 45</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-55"></span>55</td>
 <td>55 = PC gave the Potion of heightened senses to Rain.</td>
+<td><a href="../../monsters/drunkard/">Drunkard</a> (<a href="../../maps/fallhaven_nw/">fallhaven_nw</a>)</td>
+<td>have 5,000 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>60 = PC gave Nixite crystal to the rock eater.</td>
+<td><a href="../../monsters/rock_eater/">Rock eater</a> (<a href="../../maps/undertell_exit/">undertell_exit</a>)</td>
+<td>hand over 1× <a href="../../items/nixite_crystal/">Nixite crystal</a></td>
+<td>removes monsters from undertell_exit<br>spawns monsters on undertell_exit</td>
 </tr>
 <tr>
 <td><span id="stage-65"></span>65</td>
 <td>65 = PC confirmed exit from the Lake of Fire.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/undertell_5/">Undertell 5</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_5/">undertell_5</a></td>
+<td>–</td>
+<td>faction “undertellIsland” set to 0</td>
 </tr>
 <tr>
 <td><span id="stage-66"></span>66</td>
 <td>66 = PC confirmed entry to the Lake of Fire.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/undertell_4_01/">Undertell 4 01</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_4_01/">undertell_4_01</a></td>
+<td>–</td>
+<td>faction “undertellIsland” set to 1</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>70 = PC has yelled down to Cora.</td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_1_1/">undertell_1_1</a></td>
+<td>–</td>
+<td>removes monsters from undertell_1_1</td>
 </tr>
 <tr>
 <td><span id="stage-75"></span>75</td>
 <td>75 = PC has chased Cora down to the first floor.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_01/">Undertell 01</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_01/">undertell_01</a></td>
+<td>stage 70</td>
+<td>spawns monsters on undertell_1_1</td>
 </tr>
 <tr>
 <td><span id="stage-78"></span>78</td>
 <td>78 = PC has entered archival room at least once.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_archive2/">Undertell archive2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_archive2/">undertell_archive2</a></td>
+<td>–</td>
+<td>applies condition kazaul_mortality<br>applies condition burning<br>applies condition kazarite_misery</td>
 </tr>
 <tr>
 <td><span id="stage-80"></span>80</td>
 <td>80 = PC has been pinched.</td>
+<td><a href="../../monsters/lethgar_female_ghost/">Lethgar slave ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-81"></span>81</td>
 <td>81 = PC has seen the sleep quarters.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_1_0/">Undertell 1 0</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_1_0/">undertell_1_0</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-82"></span>82</td>
 <td>82 = PC can sleep in Undertell now.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/undertell_1_0/">Undertell 1 0</a>.</span></td>
+<td><a href="../../monsters/lethgar_female_ghost/">Lethgar slave ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>stage 81</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-83"></span>83</td>
 <td>83 = Looted chest on undertell_00<br><span class="qnote">🗺️ Part of <a href="../../maps/undertell_00/">Undertell 00</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_00/">undertell_00</a></td>
+<td>stage 5</td>
+<td>gives 2100× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-84"></span>84</td>
 <td>84 = Looted chest of rare coins.<br><span class="qnote">🗺️ Part of <a href="../../maps/undertell_3_02/">Undertell 3 02</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/rare_coins/">Rare coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-85"></span>85</td>
 <td>85 = PC gave the talisman to Syrra.</td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_3_12/">undertell_3_12</a></td>
+<td>carry 1× <a href="../../items/folded_copper_talisman/">Folded copper talisman</a>, hand over 1× <a href="../../items/folded_copper_talisman/">Folded copper talisman</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-86"></span>86</td>
 <td>86 = PC entered archival room.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_archive2/">Undertell archive2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_archive2/">undertell_archive2</a></td>
+<td>–</td>
+<td>applies condition kazaul_mortality<br>applies condition burning<br>applies condition kazarite_misery</td>
 </tr>
 <tr>
 <td><span id="stage-87"></span>87</td>
 <td>87 = PC took the crown.<br><span class="qnote">🗺️ Part of <a href="../../maps/undertell_archive2/">Undertell archive2</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/undertell_archive2/">undertell_archive2</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/undertell_lgd_headgear/">Crown of studied defiance</a></td>
 </tr>
 <tr>
 <td><span id="stage-88"></span>88</td>
 <td>88 = Galmore_58 barricades removed.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-89"></span>89</td>
 <td>89 = PC has talked to Vaelzahr about Oegyth crystals.</td>
+<td><a href="../../monsters/vaelzahr/">Vaelzahr</a> (<a href="../../maps/undertell_7_00/">undertell_7_00</a>)</td>
+<td>carry 1× <a href="../items/oegyth_crystal.md">oegyth_crystal</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td>about_a_girl1 runs away from PC on map under_3_12<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_12/">Undertell 3 12</a>.</span></td>
+<td><a href="../../monsters/about_a_girl1/">Terrified teenager</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>)<br>stepping on a trigger on <a href="../../maps/undertell_3_12/">undertell_3_12</a></td>
+<td>–</td>
+<td>removes monsters from undertell_3_12<br>spawns monsters on undertell_3_12</td>
 </tr>
 <tr>
 <td><span id="stage-95"></span>95</td>
 <td>PC met a hungry campanite.</td>
+<td><a href="../../monsters/tocsin/">Tocsin</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>)</td>
+<td>carry 1× <a href="../../items/meat2/">Rotten meat</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>The PC learned from an Undertell ghost that during the Rise of the Shadow, a cult of descendants of Kazaul priests calling themselves the Shadow, used hearsteel weapons to defeat the  Elytharan mages.</td>
+<td><a href="../../monsters/brenor/">Brenor</a> (<a href="../../maps/undertell_1_0/">undertell_1_0</a>)</td>
+<td>wearing <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a></td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>undertell_hidden</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 3: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/galmore_58/">galmore_58</a> → the conversation leads here automatically → <strong>stage 3</strong>. NPC: “You can't proceed any further with these barricades in your way. Maybe there's a way to remove them?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 5: 4 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/zaroth/">Zaroth</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>) → choose “"Our"? There's more of you bosses?” — <strong>conditions:</strong> NOT reached stage 5 of <a href="./#stage-5">hidden_undertell (hidden flag)</a> → <strong>stage 5</strong>. NPC: “We are "masters", not "bosses". And yes, there are five of us.”</li>
+<li>Talk to <a href="../../monsters/morvath/">Morvath</a> (<a href="../../maps/undertell_00/">undertell_00</a>) → choose “"Our"? There's more of you bosses?” — <strong>conditions:</strong> NOT reached stage 5 of <a href="./#stage-5">hidden_undertell (hidden flag)</a> → <strong>stage 5</strong>. NPC: “We are "masters", not "bosses". And yes, there are five of us.”</li>
+<li>Talk to <a href="../../monsters/thalen/">Thalen</a> (<a href="../../maps/undertell_3_lava_00/">undertell_3_lava_00</a>) → choose “"Our"? There's more of you bosses?” — <strong>conditions:</strong> NOT reached stage 5 of <a href="./#stage-5">hidden_undertell (hidden flag)</a> → <strong>stage 5</strong>. NPC: “We are "masters", not "bosses". And yes, there are five of us.”</li>
+<li>Talk to <a href="../../monsters/vaelzahr/">Vaelzahr</a> (<a href="../../maps/undertell_7_00/">undertell_7_00</a>) → choose “"Our"? There's more of you bosses?” — <strong>conditions:</strong> NOT reached stage 5 of <a href="./#stage-5">hidden_undertell (hidden flag)</a> → <strong>stage 5</strong>. NPC: “We are "masters", not "bosses". And yes, there are five of us.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 7: 4 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/zaroth/">Zaroth</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>) → choose “Thalen? What will he do with it?” — <strong>conditions:</strong> carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a> → <strong>stage 7</strong>; also sets stage 78 of <a href="../fifth_master/#stage-78">The fifth master</a>. NPC: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only…”</li>
+<li>Talk to <a href="../../monsters/morvath/">Morvath</a> (<a href="../../maps/undertell_00/">undertell_00</a>) → choose “Thalen? What will he do with it?” — <strong>conditions:</strong> carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a> → <strong>stage 7</strong>; also sets stage 78 of <a href="../fifth_master/#stage-78">The fifth master</a>. NPC: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only…”</li>
+<li>Talk to <a href="../../monsters/vaelzahr/">Vaelzahr</a> (<a href="../../maps/undertell_7_00/">undertell_7_00</a>) → choose “Thalen? What will he do with it?” — <strong>conditions:</strong> carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a> → <strong>stage 7</strong>; also sets stage 78 of <a href="../fifth_master/#stage-78">The fifth master</a>. NPC: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only…”</li>
+<li>Talk to <a href="../../monsters/thalen/">Thalen</a> (<a href="../../maps/undertell_3_lava_00/">undertell_3_lava_00</a>) → choose “Then I will take it to the shrine.” — <strong>conditions:</strong> carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a>; hand over 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a> → <strong>stage 7</strong>; also sets stage 80 of <a href="../fifth_master/#stage-80">The fifth master</a>, spawns monsters on undertell_5. NPC: “No. Give it to me and I will give it to the kin. You have done what none of the living could. Do not fail now, mortal.…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 8: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_22/">undertell_22</a> → choose “Yes!” — <strong>conditions:</strong> NOT reached stage 8 of <a href="./#stage-8">hidden_undertell (hidden flag)</a> → <strong>stage 8</strong>; also gives 1× <a href="../../items/undertell_pickaxe/">Undertell pickaxe</a>. NPC: “Kneeling down, you push aside loose dirt with your fingers, you pick up the pickaxe.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yes, at last I found it.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>; reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="../place_to_forge/#stage-60">A place to forge</a>; reached stage 20 of <a href="../quests/nocmar.md#stage-20">nocmar (hidden flag)</a>; hand over 1× <a href="../../items/heartstone/">Heartstone</a>; NOT carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a> → <strong>stage 10</strong>. NPC: “So you truly have it? The heartstone...beautiful and intact. Remarkable. You've done what few would dare. Can you see…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 15: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_guard_captain/">Mustura</a> (<a href="../../maps/brimhaven4/">brimhaven4</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 200 of <a href="../brv_flood/#stage-200">Much water</a>; reached stage 15 of <a href="./#stage-15">hidden_undertell (hidden flag)</a>; NOT reached stage 50 of <a href="../place_to_forge/#stage-50">A place to forge</a> → <strong>stage 15</strong>. NPC: “What do you want, foolish child?”</li>
+<li>Talk to <a href="../../monsters/brv_richman/">Alkapoan</a> (<a href="../../maps/brimhaven_house1/">brimhaven_house1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 200 of <a href="../brv_flood/#stage-200">Much water</a>; reached stage 15 of <a href="./#stage-15">hidden_undertell (hidden flag)</a>; NOT reached stage 50 of <a href="../place_to_forge/#stage-50">A place to forge</a> → <strong>stage 15</strong>. NPC: “What do you want, foolish child?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 25: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “What?! I only get one? But how will I decide which one I want?” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100 → <strong>stage 25</strong>. NPC: “Oh, that's easier than you might think. Here, I will show you a list of the items and their capabilities. Then after…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 30</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 31: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 31</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 32</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 33: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 33</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 34: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 34</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 35</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 36: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 36</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 37: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 37</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 38: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 38</strong>; also sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>. NPC: “Okay.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 39: 9 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>; also sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>. NPC: “Okay.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 45: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/white_house/">white_house</a> → the conversation leads here automatically → <strong>stage 45</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 3 routes</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/white_house_basement/">white_house_basement</a> → choose “I will not wake you. I only wanted to see.” → <strong>stage 50</strong>. NPC: “The dragon settles, and the warm hush returns. Its breath is a slow tide through the stone vents. The glow above you…”</li>
+<li>stepping on a trigger on <a href="../../maps/white_house_basement/">white_house_basement</a> → choose “I will not wake you. I only wanted to see.” — <strong>conditions:</strong> reached stage 45 of <a href="./#stage-45">hidden_undertell (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">hidden_undertell (hidden flag)</a> → <strong>stage 50</strong>. NPC: “The dragon settles, and the warm hush returns. Its breath is a slow tide through the stone vents. The glow above you…”</li>
+<li>Talk to <a href="../../monsters/lethgar_miner_ghost2/">Lethgar miner ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “Then maybe the legend was real.” — <strong>conditions:</strong> latest stage of <a href="../fifth_master/#stage-65">The fifth master</a> is 65; NOT reached stage 50 of <a href="./#stage-50">hidden_undertell (hidden flag)</a>; carry 1× <a href="../../items/ancient_dragon_scales/">Ash covered dragon scales</a> → <strong>stage 50</strong>. NPC: “If he still lives, child, best let him sleep. Some fires burn long after they should have gone out.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 55: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/drunkard/">Drunkard</a> (<a href="../../maps/fallhaven_nw/">fallhaven_nw</a>) → choose “Shannal sent me.” — <strong>conditions:</strong> reached stage 55 of <a href="./#stage-55">hidden_undertell (hidden flag)</a>; NOT reached stage 130 of <a href="../undertell_barricades/#stage-130">You shall pass</a>; have 5,000 gold → <strong>stage 55</strong>. NPC: “Shannal? That name sounds familiar to me, yet distant to me.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/rock_eater/">Rock eater</a> (<a href="../../maps/undertell_exit/">undertell_exit</a>) → choose “Here, I have it. Take it.” — <strong>conditions:</strong> reached stage 2 of <a href="../sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/nixite_crystal/">Nixite crystal</a> → <strong>stage 60</strong>; also removes monsters from undertell_exit, spawns monsters on undertell_exit. NPC: “Wonderful! Now move along before I change my mind.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 65: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_5/">undertell_5</a> → choose “Yes.” → <strong>stage 65</strong>; also faction “undertellIsland” set to 0</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 66: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_4_01/">undertell_4_01</a> → choose “Yes.” → <strong>stage 66</strong>; also faction “undertellIsland” set to 1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_1_1/">undertell_1_1</a> → choose “Hello?” — <strong>conditions:</strong> reached stage 40 of <a href="../undertell_book/#stage-40">Undertell: What was not written</a>; NOT reached stage 70 of <a href="./#stage-70">hidden_undertell (hidden flag)</a> → <strong>stage 70</strong>; also removes monsters from undertell_1_1. NPC: “[Talking to yourself...]”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 75: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_01/">undertell_01</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 70 of <a href="./#stage-70">hidden_undertell (hidden flag)</a>; NOT reached stage 75 of <a href="./#stage-75">hidden_undertell (hidden flag)</a> → <strong>stage 75</strong>; also spawns monsters on undertell_1_1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 78: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_archive2/">undertell_archive2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 86 of <a href="./#stage-86">hidden_undertell (hidden flag)</a> → <strong>stage 78</strong>; also applies condition kazaul_mortality, applies condition burning, applies condition kazarite_misery. NPC: “You step into a chamber where nothing is displayed for reverence. Every object is placed as if awaiting judgment. The…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 80: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lethgar_female_ghost/">Lethgar slave ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 80 of <a href="./#stage-80">hidden_undertell (hidden flag)</a> → <strong>stage 80</strong>. NPC: “She reaches out and pinches your arm to confirm that you are in fact human.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 81: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_1_0/">undertell_1_0</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 81 of <a href="./#stage-81">hidden_undertell (hidden flag)</a> → <strong>stage 81</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 82: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lethgar_female_ghost/">Lethgar slave ghost</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “I would really like to rest here now.” — <strong>conditions:</strong> reached stage 450 of <a href="../hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="./#stage-81">hidden_undertell (hidden flag)</a> → <strong>stage 82</strong>. NPC: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 83: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_00/">undertell_00</a> → choose “Of course I do. I'm poor and really need these coins.” — <strong>conditions:</strong> NOT reached stage 83 of <a href="./#stage-83">hidden_undertell (hidden flag)</a>; reached stage 5 of <a href="./#stage-5">hidden_undertell (hidden flag)</a> → <strong>stage 83</strong>; also gives 2100× <a href="../../items/gold/">Gold coins</a>. NPC: “While stuffing the gold into your coin purse, you try counting the coins..twenty-one hundred coins!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 84: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → choose “You bet I do! I will take the risk and steal these babies.” — <strong>conditions:</strong> NOT reached stage 84 of <a href="./#stage-84">hidden_undertell (hidden flag)</a> → <strong>stage 84</strong>; also gives 1× <a href="../../items/rare_coins/">Rare coins</a>. NPC: “You reach into the crate. The coins slide together with a familiar sound.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 85: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_3_12/">undertell_3_12</a> → choose “[Toss the talisman to her.]” — <strong>conditions:</strong> reached stage 70 of <a href="../about_a_girl/#stage-70">About a girl</a>; NOT reached stage 80 of <a href="../about_a_girl/#stage-80">About a girl</a>; carry 1× <a href="../../items/folded_copper_talisman/">Folded copper talisman</a>; hand over 1× <a href="../../items/folded_copper_talisman/">Folded copper talisman</a> → <strong>stage 85</strong>. NPC: “She fumbles, then grips it tightly. Her breathing slows.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 86: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_archive2/">undertell_archive2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 86 of <a href="./#stage-86">hidden_undertell (hidden flag)</a> → <strong>stage 86</strong>; also applies condition kazaul_mortality, applies condition burning, applies condition kazarite_misery. NPC: “You step into a chamber where nothing is displayed for reverence. Every object is placed as if awaiting judgment. The…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 87: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/undertell_archive2/">undertell_archive2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 87 of <a href="./#stage-87">hidden_undertell (hidden flag)</a> → <strong>stage 87</strong>; also gives 1× <a href="../../items/undertell_lgd_headgear/">Crown of studied defiance</a>. NPC: “As you lift the crown from the table, the space around it feels suddenly incomplete, as though the room was arranged…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 89: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/vaelzahr/">Vaelzahr</a> (<a href="../../maps/undertell_7_00/">undertell_7_00</a>) → choose “So this crystal is a tool?” — <strong>conditions:</strong> carry 1× <a href="../items/oegyth_crystal.md">oegyth_crystal</a> → <strong>stage 89</strong>. NPC: “We no longer shape the world so openly. But what was shaped does not forget the hand that shaped it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 90: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/about_a_girl1/">Terrified teenager</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “What is wrong?” → <strong>stage 90</strong>; also removes monsters from undertell_3_12, spawns monsters on undertell_3_12. NPC: “STAY AWAY FROM ME!”</li>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_12/">undertell_3_12</a> → choose “What is wrong?” — <strong>conditions:</strong> reached stage 40 of <a href="../about_a_girl/#stage-40">About a girl</a>; NOT reached stage 70 of <a href="../about_a_girl/#stage-70">About a girl</a>; NOT reached stage 90 of <a href="./#stage-90">hidden_undertell (hidden flag)</a> → <strong>stage 90</strong>; also removes monsters from undertell_3_12, spawns monsters on undertell_3_12. NPC: “STAY AWAY FROM ME!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 95: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/tocsin/">Tocsin</a> (<a href="../../maps/undertell_4_00/">undertell_4_00</a>) → the conversation leads here automatically — <strong>conditions:</strong> carry 1× <a href="../../items/meat2/">Rotten meat</a>; NOT reached stage 50 of <a href="../about_a_girl/#stage-50">About a girl</a> → <strong>stage 95</strong>. NPC: “The creature lunges forward...you pull back moments before it clamps onto your hand!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brenor/">Brenor</a> (<a href="../../maps/undertell_1_0/">undertell_1_0</a>) → choose “Executioner's tool?” — <strong>conditions:</strong> wearing <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a> → <strong>stage 100</strong>. NPC: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease,…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>undertell_hidden</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>3, 5, 7, 8, 10, 15, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 45, 50, 55, 60, 65, 66, 70, 75, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 95, 100</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>3: <code>undertell_barricade_key_message</code>, 5: <code>kazaul_masters_not_met_20</code>, 7: <code>masters_send_to_thalen_20</code>, 7: <code>thalen_receives_ritual_30</code>, 8: <code>undertell_22_axe_20</code>, 10: <code>nocmar_complete</code>, 15: <code>talk_about_white_house_20</code>, 25: <code>nocmar_forge_one_item_20</code>, 30: <code>nocmar_claymore_10</code>, 31: <code>nocmar_onehanded_10</code>, 32: <code>nocmar_dagger_10</code>, 33: <code>nocmar_glaive_10</code>, 34: <code>nocmar_greateaxe_10</code>, 35: <code>nocmar_handaxe_10</code>, 36: <code>nocmar_mace_10</code>, 37: <code>nocmar_bladeBreaker_10</code>, 38: <code>nocmar_no_weapon_15</code>, 39: <code>nocmar_bladeBreaker_10</code>, 39: <code>nocmar_claymore_10</code>, 39: <code>nocmar_dagger_10</code>, 45: <code>white_house_going_downstairs</code>, 50: <code>dragon_leave</code>, 50: <code>lethgar_miner_ghost2_dragon_50</code>, 55: <code>fallhaven_drunk_potion_30</code>, 60: <code>rock_eater_pc_give_nixite_10</code>, 65: <code>undertell5_leave_confirmed</code>, 66: <code>undertell5_lof_confirmed</code>, 70: <code>cora_pit_yell_20</code>, 75: <code>undertell_put_cora_back_10</code>, 78: <code>undertell_archival_10</code>, 80: <code>lethgar_female_ghost_pinch_10</code>, 81: <code>undertell_player_seen_beds_reward</code>, 82: <code>lethgar_female_ghost_rest_yes</code>, 83: <code>undertell_00_chest_loot</code>, 84: <code>undertell_3_02_looting_chest_10</code>, 85: <code>about_girl_meet_50</code>, 86: <code>undertell_archival_10</code>, 87: <code>undertell_crown_take_20</code>, 89: <code>master_oegyth_50</code>, 90: <code>about_girl_scream_20</code>, 95: <code>tocsin_rotten_20</code>, 100: <code>brenor_heartsteel_30</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>87: <code>passive_achievement_check_remove_hidden_quest_step</code>, 87: <code>undertell_crown_put_back_20</code>, 86: <code>porter_player_does_not_have_crown_10</code>, 65: <code>undertell5_enter_yes</code>, 66: <code>undertell5_exit_yes</code>, 45: <code>white_house_basement_down_10</code>, 45: <code>white_house_basement_voice</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

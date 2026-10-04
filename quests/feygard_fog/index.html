@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,57 +971,290 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>feygard_fog</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_wood_14/">guynmart_wood_14</a>, <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/swamp_witch/">Madame Mim</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/swamp_hut/">swamp_hut</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>1=Fog 1 has lifted</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p><strong>Route 1</strong> (stepping on a trigger on <a href="../../maps/guynmart_wood_14/">guynmart_wood_14</a>):</p>
+<ul>
+<li>NOT reached stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a></li>
+</ul>
+<p><strong>Route 2</strong> (<a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)):</p>
+<ul>
+<li>nothing</li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unlocks</td>
+<td><a href="../fogmonster/#stage-20">Fog in the woods</a></td>
+<td>stage 20 there needs stage 1 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../fogmonster/#stage-10">Fog in the woods</a></td>
+<td>reaching stages 1, 2, 3, 4, 5 here closes stage 10 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../fogmonster/#stage-70">Fog in the woods</a></td>
+<td>reaching stage 9 here closes stage 70 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>1=Fog 1 has lifted<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_wood_14/">Guynmart wood 14</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_wood_13/">Guynmart wood 13</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_13/">Guynmart wood 13</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_14/">Guynmart wood 14</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp3/">Swamp3</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_wood_14/">guynmart_wood_14</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>starts timer “feygard_fogmonster1”<br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>changes map guynmart_wood_13<br>sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6</td>
 </tr>
 <tr>
 <td><span id="stage-2"></span>2</td>
 <td>2=Fog 2 has lifted<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp2/">Swamp2</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp2/">Swamp2</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp3/">Swamp3</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>starts timer “feygard_fogmonster2”<br>sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13</td>
 </tr>
 <tr>
 <td><span id="stage-3"></span>3</td>
 <td>3=Fog 3 has lifted<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp4/">Swamp4</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp2/">Swamp2</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp3/">Swamp3</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp4/">Swamp4</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp4/">swamp4</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>starts timer “feygard_fogmonster3”<br>sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13</td>
 </tr>
 <tr>
 <td><span id="stage-4"></span>4</td>
 <td>4=Fog 4 has lifted<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp5/">Swamp5</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp3/">Swamp3</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp4/">Swamp4</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp5/">Swamp5</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp6/">Swamp6</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp5/">swamp5</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>starts timer “feygard_fogmonster4”<br>sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13</td>
 </tr>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>5=Fog 5 has lifted<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp6/">Swamp6</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp3/">Swamp3</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/swamp6/">Swamp6</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp6/">swamp6</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>starts timer “feygard_fogmonster5”<br>sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13</td>
 </tr>
 <tr>
 <td><span id="stage-6"></span>6</td>
 <td>6=Fog 1 normal<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp2/">Swamp2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp4/">Swamp4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp5/">Swamp5</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp6/">Swamp6</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_13/">Guynmart wood 13</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_14/">Guynmart wood 14</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a></td>
+<td>stage 1</td>
+<td>clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-7"></span>7</td>
 <td>7=Fog 1 short<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp2/">Swamp2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp4/">Swamp4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp5/">Swamp5</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp6/">Swamp6</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_13/">Guynmart wood 13</a> visibly changes.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/guynmart_wood_14/">Guynmart wood 14</a> visibly changes.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a><br><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>stage 1, stage 8</td>
+<td>clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>sets stage 80 of <a href="../fogmonster/#stage-80">Fog in the woods</a><br>spawns monsters on guynmart_wood_14</td>
 </tr>
 <tr>
 <td><span id="stage-8"></span>8</td>
 <td>8=Fogs shortened</td>
+<td><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)</td>
+<td>–</td>
+<td>sets stage 80 of <a href="../fogmonster/#stage-80">Fog in the woods</a><br>clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a><br>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>spawns monsters on guynmart_wood_14</td>
 </tr>
 <tr>
 <td><span id="stage-9"></span>9</td>
 <td>9=Fogs ended<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp_hut/">Swamp hut</a>.</span></td>
+<td><a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>)<br>stepping on a trigger on <a href="../../maps/swamp_hut/">swamp_hut</a></td>
+<td>–</td>
+<td>clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a><br>clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a><br>sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a><br>removes monsters from guynmart_wood_14<br>removes monsters from swamp2<br>removes monsters from swamp4<br>removes monsters from swamp5<br>removes monsters from swamp6<br>changes map swamp2<br>changes map swamp4<br>changes map swamp6<br>changes map guynmart_wood_13<br>sets stage 70 of <a href="../fogmonster/#stage-70">Fog in the woods</a><br>gives 1× <a href="../../items/swampwitch_staff/">Quarterstaff</a></td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>10=Board<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/swamp_hut/">Swamp hut</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/swamp_hut/">swamp_hut</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>feygard_fog</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 1: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_wood_14/">guynmart_wood_14</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a> → <strong>stage 1</strong>; also starts timer “feygard_fogmonster1”, clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, changes map guynmart_wood_13, sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a>. NPC: “The fog vanishes completely as soon as you touch its heart.”</li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 1</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 2: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 2 of <a href="./#stage-2">feygard fog (hidden flag)</a> → <strong>stage 2</strong>; also starts timer “feygard_fogmonster2”, sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a>. NPC: “The fog vanishes completely as soon as you touch its heart.”</li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 2</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 3: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp4/">swamp4</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 3 of <a href="./#stage-3">feygard fog (hidden flag)</a> → <strong>stage 3</strong>; also starts timer “feygard_fogmonster3”, sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a>. NPC: “The fog vanishes completely as soon as you touch its heart.”</li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 3</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 4: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp5/">swamp5</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 4 of <a href="./#stage-4">feygard fog (hidden flag)</a> → <strong>stage 4</strong>; also starts timer “feygard_fogmonster4”, sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a>. NPC: “The fog vanishes completely as soon as you touch its heart.”</li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 4</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 5: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp6/">swamp6</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 5 of <a href="./#stage-5">feygard fog (hidden flag)</a> → <strong>stage 5</strong>; also starts timer “feygard_fogmonster5”, sets stage 10 of <a href="../fogmonster/#stage-10">Fog in the woods</a>. NPC: “The fog vanishes completely as soon as you touch its heart.”</li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 5</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 6: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 9 of <a href="./#stage-9">feygard fog (hidden flag)</a>; reached stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>; 75 rounds passed since timer “feygard_fogmonster1” → <strong>stage 6</strong>; also clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 7: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp2/">swamp2</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 9 of <a href="./#stage-9">feygard fog (hidden flag)</a>; reached stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>; 75 rounds passed since timer “feygard_fogmonster1”; reached stage 8 of <a href="./#stage-8">feygard fog (hidden flag)</a> → <strong>stage 7</strong>; also clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>, clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a></li>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in…” → <strong>stage 7</strong>; also sets stage 80 of <a href="../fogmonster/#stage-80">Fog in the woods</a>, clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>, clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, spawns monsters on guynmart_wood_14. NPC: “Agreed. Here child, take these sweets and now begone!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 8: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in…” → <strong>stage 8</strong>; also sets stage 80 of <a href="../fogmonster/#stage-80">Fog in the woods</a>, clears stage 1 of <a href="./#stage-1">feygard fog (hidden flag)</a>, clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, spawns monsters on guynmart_wood_14. NPC: “Agreed. Here child, take these sweets and now begone!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 9: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/swamp_witch/">Madame Mim</a> (<a href="../../maps/swamp_hut/">swamp_hut</a>) → choose “Uh, garden, I meant.” → <strong>stage 9</strong>; also clears stage 6 of <a href="./#stage-6">feygard fog (hidden flag)</a>, clears stage 7 of <a href="./#stage-7">feygard fog (hidden flag)</a>, sets stage 90 of <a href="../fogmonster/#stage-90">Fog in the woods</a>, removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13. NPC: “Great. You deserve a reward for that. You may choose one thing from these:”</li>
+<li>stepping on a trigger on <a href="../../maps/swamp_hut/">swamp_hut</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 9 of <a href="./#stage-9">feygard fog (hidden flag)</a>; killed 1× <a href="../../monsters/swamp_witch/">Madame Mim</a> → <strong>stage 9</strong>; also sets stage 70 of <a href="../fogmonster/#stage-70">Fog in the woods</a>, gives 1× <a href="../../items/swampwitch_staff/">Quarterstaff</a>. NPC: “This area will never be bullied by the old witch again. You take the witch's staff - maybe it will find a good use as…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/swamp_hut/">swamp_hut</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">feygard fog (hidden flag)</a> → <strong>stage 10</strong>. NPC: “Oh what's this? How unusual!”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=feygard_fog.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=feygard_fog.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=feygard_fog.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=feygard_fog.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=feygard_fog.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>feygard_fog</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>1: <code>feygard_fogmonster1_heart_10</code>, 1: <code>swamp_witch_20_160</code>, 1: <code>swamp_witch_t1</code>, 2: <code>feygard_fogmonster2_heart_10</code>, 2: <code>swamp_witch_20_160</code>, 2: <code>swamp_witch_t1</code>, 3: <code>feygard_fogmonster3_heart_10</code>, 3: <code>swamp_witch_20_160</code>, 3: <code>swamp_witch_t1</code>, 4: <code>feygard_fogmonster4_heart_10</code>, 4: <code>swamp_witch_20_160</code>, 4: <code>swamp_witch_t1</code>, 5: <code>feygard_fogmonster5_heart_10</code>, 5: <code>swamp_witch_20_160</code>, 5: <code>swamp_witch_t1</code>, 6: <code>feygard_fogmonster1_check_10_6</code>, 7: <code>feygard_fogmonster1_check_10_7</code>, 7: <code>swamp_witch_20_134</code>, 7: <code>swamp_witch_t2</code>, 8: <code>swamp_witch_20_134</code>, 8: <code>swamp_witch_t2</code>, 9: <code>swamp_witch_20_160</code>, 9: <code>swamp_witch_checkkill_10</code>, 9: <code>swamp_witch_t1</code>, 10: <code>swampwitch_board_note_10</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>1: <code>feygard_fogmonster1_check_10_6</code>, 1: <code>feygard_fogmonster1_check_10_7</code>, 1: <code>swamp_witch_20_134</code>, 1: <code>swamp_witch_t2</code>, 1: <code>swamphut_oven_10</code>, 7: <code>feygard_fogmonster1_check_10_6</code>, 7: <code>feygard_fogmonster1_heart_10</code>, 7: <code>swamp_witch_20_160</code>, 7: <code>swamphut_oven_10</code>, 6: <code>feygard_fogmonster1_check_10_7</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

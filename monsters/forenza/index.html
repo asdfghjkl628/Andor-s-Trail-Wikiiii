@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -947,6 +1019,167 @@
 <ul>
 <li><a href="../../maps/laerothbasement2/">laerothbasement2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/odd_coin_collector/">The odd coin collector</a>: stages 41, 42, 43, 44, 45, 46, 47, 48, 50</li>
+<li><a href="../../quests/laeroth_nondisplay/">laeroth_nondisplay (hidden flag)</a>: stages 104</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (32 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-forenza_island_selector"></span><strong><code>forenza_island_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a>)</em> → <a href="#d-forenza_island_injured">forenza_island_injured</a></li>
+<li>branch 2 → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured"></span><strong><code>forenza_island_injured</code></strong> Forenza: “Hey, you. I need your help!”</p>
+<ul>
+<li>“What? Who are you? How did you get in here?” → <a href="#d-forenza_island_injured_need_help">forenza_island_injured_need_help</a></li>
+<li>“What kind of help?” → <a href="#d-forenza_island_injured_explained">forenza_island_injured_explained</a></li>
+</ul>
+<p><span id="d-forenza_island_initial_phrase"></span><strong><code>forenza_island_initial_phrase</code></strong> Forenza: “What do you think you are doing here?”</p>
+<ul>
+<li>“Returning to Gylew what is rightfully his.” <em>(if reached stage 45 of <a href="../../quests/odd_coin_collector/#stage-45">The odd coin collector</a>)</em> → <em>fight starts</em></li>
+<li>“I am working a job for a man name Gylew.” <em>(if NOT reached stage 45 of <a href="../../quests/odd_coin_collector/#stage-45">The odd coin collector</a>)</em> → <a href="#d-forenza_island_10">forenza_island_10</a></li>
+<li>“Um...I am returning something to a man named Gylew.” <em>(if NOT reached stage 45 of <a href="../../quests/odd_coin_collector/#stage-45">The odd coin collector</a>)</em> → <a href="#d-forenza_island_10">forenza_island_10</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_need_help"></span><strong><code>forenza_island_injured_need_help</code></strong> Forenza: “Nerver mind that now. I am injured and I need your help!”</p>
+<ul>
+<li>“What kind of help?” → <a href="#d-forenza_island_injured_explained">forenza_island_injured_explained</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_explained"></span><strong><code>forenza_island_injured_explained</code></strong> Forenza: “Seriously?! Can't you see that I am bleeding and weak?” — <strong>effects:</strong> sets stage 41 of <a href="../../quests/odd_coin_collector/#stage-41">The odd coin collector</a></p>
+<ul>
+<li>“Well, I have this ointment for stopping wounds. Take it.” <em>(if hand over 1× <a href="../../items/pot_bleeding_ointment/">Ointment of bleeding wounds</a>)</em> → <a href="#d-forenza_island_injured_ointment">forenza_island_injured_ointment</a></li>
+<li>“What do you want? A healing potion maybe?” → <a href="#d-forenza_island_injured_help">forenza_island_injured_help</a></li>
+</ul>
+<p><span id="d-forenza_island_10"></span><strong><code>forenza_island_10</code></strong> Forenza: “I don't think you want to do that.”</p>
+<ul>
+<li>“And why is that?” → <a href="#d-forenza_island_20">forenza_island_20</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_ointment"></span><strong><code>forenza_island_injured_ointment</code></strong> Forenza: “Oh, that's wonderful. Thank you.” — <strong>effects:</strong> sets stage 42 of <a href="../../quests/odd_coin_collector/#stage-42">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_injured_help">forenza_island_injured_help</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help"></span><strong><code>forenza_island_injured_help</code></strong> Forenza: “Please. I'll take whatever you have that could heal me.”</p>
+<ul>
+<li>“Well I have a bonemeal potion. It's yours now. Take it.” <em>(if hand over 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>)</em> → <a href="#d-forenza_island_injured_help_bm">forenza_island_injured_help_bm</a></li>
+<li>“Well I have a special bonemeal potion. It's yours now. Take it.” <em>(if hand over 1× <a href="../../items/pot_bm_lodar/">Lodar's bonemeal potion</a>)</em> → <a href="#d-forenza_island_injured_help_bm">forenza_island_injured_help_bm</a></li>
+<li>“Here, take it. It's a really strong potion of healing.” <em>(if hand over 1× <a href="../../items/health_major2/">Major potion of health</a>)</em> → <a href="#d-forenza_island_injured_help_mph">forenza_island_injured_help_mph</a></li>
+<li>“I have this really special potion of healing that I got from a very wise old man. Take it!” <em>(if hand over 1× <a href="../../items/pot_healthlodar/">Lodar's potion of health</a>)</em> → <a href="#d-forenza_island_injured_help_lph">forenza_island_injured_help_lph</a></li>
+<li>“I have an ordinary potion of health for you. Take it!” <em>(if hand over 1× <a href="../../items/health/">Regular potion of health</a>)</em> → <a href="#d-forenza_island_injured_help_rph">forenza_island_injured_help_rph</a></li>
+<li>“I have an little health potion for you. It's all I have. Take it!” <em>(if hand over 1× <a href="../../items/health_minor2/">Minor potion of health</a>)</em> → <a href="#d-forenza_island_injured_help_minor_ph">forenza_island_injured_help_minor_ph</a></li>
+<li>“I'm so sorry, but I have nothing that can help you.” <em>(if NOT carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>; NOT carry 1× <a href="../../items/pot_bm_lodar/">Lodar's bonemeal potion</a>; NOT carry 1× <a href="../../items/pot_healthlodar/">Lodar's potion of health</a>; NOT carry 1× <a href="../../items/health_major2/">Major potion of health</a>; NOT carry 1× <a href="../../items/health/">Regular potion of health</a>; NOT carry 1× <a href="../../items/health_minor2/">Minor potion of health</a>)</em> → <a href="#d-forenza_island_injured_help_not">forenza_island_injured_help_not</a></li>
+</ul>
+<p><span id="d-forenza_island_20"></span><strong><code>forenza_island_20</code></strong> Forenza: “Well, for starters, that chest that you are carrying belongs to me.”</p>
+<ul>
+<li>“How do you figure?” → <a href="#d-forenza_island_30">forenza_island_30</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_bm"></span><strong><code>forenza_island_injured_help_bm</code></strong> Forenza: “Oh, this stuff is great!” — <strong>effects:</strong> sets stage 43 of <a href="../../quests/odd_coin_collector/#stage-43">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_mph"></span><strong><code>forenza_island_injured_help_mph</code></strong> Forenza: “This stuff tastes nasty, but I swear I can feel it helping already.” — <strong>effects:</strong> sets stage 44 of <a href="../../quests/odd_coin_collector/#stage-44">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_lph"></span><strong><code>forenza_island_injured_help_lph</code></strong> Forenza: “Oh, now this stuff feels like its healing power will last just a little bit longer.” — <strong>effects:</strong> sets stage 46 of <a href="../../quests/odd_coin_collector/#stage-46">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_rph"></span><strong><code>forenza_island_injured_help_rph</code></strong> Forenza: “Oh, this should help. Thank you.” — <strong>effects:</strong> sets stage 47 of <a href="../../quests/odd_coin_collector/#stage-47">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_minor_ph"></span><strong><code>forenza_island_injured_help_minor_ph</code></strong> Forenza: “Oh, this should help. I guess.” — <strong>effects:</strong> sets stage 48 of <a href="../../quests/odd_coin_collector/#stage-48">The odd coin collector</a>, sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_injured_help_not"></span><strong><code>forenza_island_injured_help_not</code></strong> Forenza: “You are a disappointment. Anyways...” — <strong>effects:</strong> sets stage 104 of <a href="../../quests/laeroth_nondisplay/#stage-104">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-forenza_island_initial_phrase">forenza_island_initial_phrase</a></li>
+</ul>
+<p><span id="d-forenza_island_30"></span><strong><code>forenza_island_30</code></strong> Forenza: “Because I said it does! Now give me that chest before you get hurt.”</p>
+<ul>
+<li>“Don't make me laugh. You hurt me? Do you know who I am? Explain yourself now.” → <a href="#d-forenza_island_40">forenza_island_40</a></li>
+<li>“Explain yourself now or Gylew gets his treasure.” → <a href="#d-forenza_island_40">forenza_island_40</a></li>
+</ul>
+<p><span id="d-forenza_island_40"></span><strong><code>forenza_island_40</code></strong> Forenza: “The story starts many many years ago.”</p>
+<ul>
+<li>“[You rudely interrupt] Oh great, please spare me the grandpa story.” → <a href="#d-forenza_island_50">forenza_island_50</a></li>
+</ul>
+<p><span id="d-forenza_island_50"></span><strong><code>forenza_island_50</code></strong> Forenza: “Anyways...it was back when we were kids. You see, Gylew and I are half-brothers.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_60">forenza_island_60</a></li>
+</ul>
+<p><span id="d-forenza_island_60"></span><strong><code>forenza_island_60</code></strong> Forenza: “We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_70">forenza_island_70</a></li>
+</ul>
+<p><span id="d-forenza_island_70"></span><strong><code>forenza_island_70</code></strong> Forenza: “To "spare you of the grandpa story" as you called it, I will skip details.”</p>
+<ul>
+<li>“Thank you very much.” → <a href="#d-forenza_island_80">forenza_island_80</a></li>
+</ul>
+<p><span id="d-forenza_island_80"></span><strong><code>forenza_island_80</code></strong> Forenza: “Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_90">forenza_island_90</a></li>
+</ul>
+<p><span id="d-forenza_island_90"></span><strong><code>forenza_island_90</code></strong> Forenza: “But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_100">forenza_island_100</a></li>
+</ul>
+<p><span id="d-forenza_island_100"></span><strong><code>forenza_island_100</code></strong> Forenza: “I was only allowed to go after mother insisted to father that I go too.”</p>
+<ul>
+<li>“What happened to skipping the details?” → <a href="#d-forenza_island_110">forenza_island_110</a></li>
+<li>“Please continue.” → <a href="#d-forenza_island_110">forenza_island_110</a></li>
+</ul>
+<p><span id="d-forenza_island_110"></span><strong><code>forenza_island_110</code></strong> Forenza: “OK...Gylew and father discovered this story of looted gold coins that were rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_120">forenza_island_120</a></li>
+</ul>
+<p><span id="d-forenza_island_120"></span><strong><code>forenza_island_120</code></strong> Forenza: “For many years afterwards, this is all the family ever talked about. During this time, my father and I grew apart and eventually, my mother and I left him and returned to her hometown of Brightport.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_130">forenza_island_130</a></li>
+</ul>
+<p><span id="d-forenza_island_130"></span><strong><code>forenza_island_130</code></strong> Forenza: “I was able to make it back to him shortly before his death in an attempt to repair our broken relationship.”</p>
+<ul>
+<li>“What happened to skipping the details?” → <a href="#d-forenza_island_140">forenza_island_140</a></li>
+<li>“Please, continue.” → <a href="#d-forenza_island_140">forenza_island_140</a></li>
+</ul>
+<p><span id="d-forenza_island_140"></span><strong><code>forenza_island_140</code></strong> Forenza: “Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew.”</p>
+<ul>
+<li>Next → <a href="#d-forenza_island_150">forenza_island_150</a></li>
+</ul>
+<p><span id="d-forenza_island_150"></span><strong><code>forenza_island_150</code></strong> Forenza: “A few years later I learned what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key.”</p>
+<ul>
+<li>“Where do you think the other key is?” → <a href="#d-forenza_island_160">forenza_island_160</a></li>
+<li>“[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the other key is.” → <a href="#d-forenza_island_160">forenza_island_160</a></li>
+</ul>
+<p><span id="d-forenza_island_160"></span><strong><code>forenza_island_160</code></strong> Forenza: “Isn't it obvious? Gylew must have it.”</p>
+<ul>
+<li>“You have been wronged by your family and deserve this treasure. I can get Gylew's key for you.” → <a href="#d-forenza_island_170">forenza_island_170</a></li>
+<li>“Gylew is the rightful owner of his father's estate and that key belongs to the estate.” → <a href="#d-forenza_island_170_attack">forenza_island_170_attack</a></li>
+</ul>
+<p><span id="d-forenza_island_170"></span><strong><code>forenza_island_170</code></strong> Forenza: “You will do this for me?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-forenza_island_180">forenza_island_180</a></li>
+<li>“On second thought...” → <a href="#d-forenza_island_170_attack">forenza_island_170_attack</a></li>
+</ul>
+<p><span id="d-forenza_island_170_attack"></span><strong><code>forenza_island_170_attack</code></strong> Forenza: “What are you going to do about it?” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/odd_coin_collector/#stage-45">The odd coin collector</a></p>
+<ul>
+<li>“Kill you and take that key!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-forenza_island_180"></span><strong><code>forenza_island_180</code></strong> Forenza: “Great. Go to Gylew and get his key. Then bring it and the chest to me. I will meet you outside of Brimhaven.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/odd_coin_collector/#stage-50">The odd coin collector</a>, removes monsters from laerothbasement2, spawns monsters on waytobrimhaven3</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>forenza</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,72 @@
 <ul>
 <li><a href="../../maps/galmore_41/">galmore_41</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/darkness_in_daylight/">Darkness in the Daylight</a>: stages 260</li>
+<li><a href="../../quests/shadows/">Shadows</a>: stages 240</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (13 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-dds_dark_priest2"></span><strong><code>dds_dark_priest2</code></strong> <a href="./">Dark priest</a>: “You again? This must end now.”</p>
+<ul>
+<li>“I completely agree.” <em>(if reached stage 190 of <a href="../../quests/darkness_in_daylight/#stage-190">Darkness in the Daylight</a>)</em> → <a href="#d-dds_dark_priest2_2">dds_dark_priest2_2</a></li>
+<li>“I completely agree.” <em>(if reached stage 165 of <a href="../../quests/shadows/#stage-165">Shadows</a>)</em> → <a href="#d-dds_dark_priest2_102">dds_dark_priest2_102</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_2"></span><strong><code>dds_dark_priest2_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on galmore_41</p>
+<ul>
+<li>branch 1 → <a href="#d-dds_dark_priest2_10">dds_dark_priest2_10</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_102"></span><strong><code>dds_dark_priest2_102</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on galmore_41</p>
+<ul>
+<li>branch 1 → <a href="#d-dds_dark_priest2_110">dds_dark_priest2_110</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_10"></span><strong><code>dds_dark_priest2_10</code></strong> <a href="../dds_miri/">Miri</a>: “You're no priest!”</p>
+<ul>
+<li>“Miri! How did you get here?” → <a href="#d-dds_dark_priest2_20">dds_dark_priest2_20</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_110"></span><strong><code>dds_dark_priest2_110</code></strong> <a href="../dds_borvis/">Borvis</a>: “You're no priest!”</p>
+<ul>
+<li>“Borvis! At last!” → <a href="#d-dds_dark_priest2_120">dds_dark_priest2_120</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_20"></span><strong><code>dds_dark_priest2_20</code></strong> Dark priest: “I could not let you go alone.”</p>
+<ul>
+<li>“You made me fight alone all the way here.” → <a href="#d-dds_dark_priest2_30">dds_dark_priest2_30</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_120"></span><strong><code>dds_dark_priest2_120</code></strong> Dark priest: “My legs are not as young as yours anymore.”</p>
+<ul>
+<li>“You made me fight alone all way here.” → <a href="#d-dds_dark_priest2_130">dds_dark_priest2_130</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_30"></span><strong><code>dds_dark_priest2_30</code></strong> Dark priest: “Don't worry - it's worth it.”</p>
+<ul>
+<li>“But it's unfair to ...” → <a href="#d-dds_dark_priest2_40">dds_dark_priest2_40</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_130"></span><strong><code>dds_dark_priest2_130</code></strong> Dark priest: “Don't worry - it's worth it.”</p>
+<ul>
+<li>“But it's unfair to ...” → <a href="#d-dds_dark_priest2_140">dds_dark_priest2_140</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_40"></span><strong><code>dds_dark_priest2_40</code></strong> <a href="./">Dark priest</a>: “Are we going to do this now, or are you two going to talk all day?” — <strong>effects:</strong> removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 260 of <a href="../../quests/darkness_in_daylight/#stage-260">Darkness in the Daylight</a></p>
+<ul>
+<li>“Ah, sorry: KAZAUL EST!” → <a href="#d-dds_dark_priest2_50">dds_dark_priest2_50</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_140"></span><strong><code>dds_dark_priest2_140</code></strong> <a href="./">Dark priest</a>: “Are we going to do this now, or are you two going to talk all day?” — <strong>effects:</strong> removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 240 of <a href="../../quests/shadows/#stage-240">Shadows</a></p>
+<ul>
+<li>“Ah, sorry: KAZAUL EST!” → <a href="#d-dds_dark_priest2_150">dds_dark_priest2_150</a></li>
+</ul>
+<p><span id="d-dds_dark_priest2_50"></span><strong><code>dds_dark_priest2_50</code></strong> <a href="../dds_miri/">Miri</a>: “That's its true form! A monster masquerading as a priest! Attack!”</p>
+<p><span id="d-dds_dark_priest2_150"></span><strong><code>dds_dark_priest2_150</code></strong> <a href="../dds_borvis/">Borvis</a>: “That's its true form! A monster masquerading as a priest! Attack!”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_dark_priest2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_dark_priest2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_dark_priest2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_dark_priest2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>dds_dark_priest2</code> · Data from v0.8.18</small></p>
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,136 @@
 <ul>
 <li><a href="../../maps/road1/">road1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/jolnor/">Spies in the foam</a>: stages 20, 21</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (26 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ff_outsideguard_select"></span><strong><code>ff_outsideguard_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 20 of <a href="../../quests/jolnor/#stage-20">Spies in the foam</a>)</em> → <a href="#d-ff_outsideguard_trouble_24">ff_outsideguard_trouble_24</a></li>
+<li>branch 2 → <a href="#d-ff_outsideguard_1">ff_outsideguard_1</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_24"></span><strong><code>ff_outsideguard_trouble_24</code></strong> Feygard patrol watch: “I will go inside in a minute. Will you stand watch while I go inside?” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/jolnor/#stage-20">Spies in the foam</a></p>
+<ul>
+<li>“Sure, I will do that.” → <a href="#d-ff_outsideguard_trouble_25">ff_outsideguard_trouble_25</a></li>
+<li>“[Lie] Sure, I will do that.” → <a href="#d-ff_outsideguard_trouble_25">ff_outsideguard_trouble_25</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_1"></span><strong><code>ff_outsideguard_1</code></strong> Feygard patrol watch: “Hello there. Should you be here? This is a tavern, you know. The Foaming Flask, to be precise.”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-ff_outsideguard_2">ff_outsideguard_2</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_25"></span><strong><code>ff_outsideguard_trouble_25</code></strong> Feygard patrol watch: “Thanks a lot my friend.”</p>
+<p><span id="d-ff_outsideguard_2"></span><strong><code>ff_outsideguard_2</code></strong> Feygard patrol watch: “I am a member of the royal guard patrol from Feygard.”</p>
+<ul>
+<li>“Feygard, where is that?” → <a href="#d-ff_outsideguard_3">ff_outsideguard_3</a></li>
+<li>“What do you do around here?” → <a href="#d-ff_outsideguard_3">ff_outsideguard_3</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_3"></span><strong><code>ff_outsideguard_3</code></strong> Feygard patrol watch: “Go talk to the captain inside if you want to talk. I must stay alert on my post.”</p>
+<ul>
+<li>“OK. Goodbye.” → <em>conversation ends</em></li>
+<li>“Why must you stay alert outside a tavern?” <em>(if reached stage 10 of <a href="../../quests/jolnor/#stage-10">Spies in the foam</a>)</em> → <a href="#d-ff_outsideguard_trouble_1">ff_outsideguard_trouble_1</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_1"></span><strong><code>ff_outsideguard_trouble_1</code></strong> Feygard patrol watch: “Really, I cannot talk to you. I could get into trouble.”</p>
+<ul>
+<li>“OK. I won't bother you anymore. Shadow be with you.” → <a href="#d-ff_outsideguard_shadow_1">ff_outsideguard_shadow_1</a></li>
+<li>“OK. I won't bother you anymore. Goodbye.” → <em>conversation ends</em></li>
+<li>“What trouble?” → <a href="#d-ff_outsideguard_trouble_2">ff_outsideguard_trouble_2</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_shadow_1"></span><strong><code>ff_outsideguard_shadow_1</code></strong> Feygard patrol watch: “Shadow? How curious that you would mention that. Explain yourself!”</p>
+<ul>
+<li>“I did not mean a thing by it. Never mind I said anything.” → <a href="#d-ff_outsideguard_shadow_2">ff_outsideguard_shadow_2</a></li>
+<li>“The Shadow watches over us when we sleep.” → <a href="#d-ff_outsideguard_shadow_3">ff_outsideguard_shadow_3</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_2"></span><strong><code>ff_outsideguard_trouble_2</code></strong> Feygard patrol watch: “No really, the captain might see me. I must be aware on my post at all times. <em>sigh</em>”</p>
+<ul>
+<li>“OK. I won't bother you anymore. Shadow be with you.” → <a href="#d-ff_outsideguard_shadow_1">ff_outsideguard_shadow_1</a></li>
+<li>“OK. I won't bother you anymore. Goodbye.” → <em>conversation ends</em></li>
+<li>“Do you like your job here?” → <a href="#d-ff_outsideguard_trouble_3">ff_outsideguard_trouble_3</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_shadow_2"></span><strong><code>ff_outsideguard_shadow_2</code></strong> Feygard patrol watch: “Good. Now be gone before I will have to deal with you.”</p>
+<p><span id="d-ff_outsideguard_shadow_3"></span><strong><code>ff_outsideguard_shadow_3</code></strong> Feygard patrol watch: “What? Are you one of those troublemakers sent here to sabotage our mission?”</p>
+<ul>
+<li>“The Shadow protects us.” → <a href="#d-ff_outsideguard_shadow_4">ff_outsideguard_shadow_4</a></li>
+<li>“Fine. I better not start a fight with the royal guard.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_3"></span><strong><code>ff_outsideguard_trouble_3</code></strong> Feygard patrol watch: “My job? I guess the royal guard is OK. I mean, Feygard is a really nice place to live in.”</p>
+<ul>
+<li>Next → <a href="#d-ff_outsideguard_trouble_4">ff_outsideguard_trouble_4</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_shadow_4"></span><strong><code>ff_outsideguard_shadow_4</code></strong> Feygard patrol watch: “That does it. You better fight or flee right now kid.”</p>
+<ul>
+<li>“Good. I have been waiting for a fight!” → <a href="#d-ff_outsideguard_shadow_5">ff_outsideguard_shadow_5</a></li>
+<li>“For the Shadow!” → <a href="#d-ff_outsideguard_shadow_5">ff_outsideguard_shadow_5</a></li>
+<li>“Never mind. I was just kidding with you.” → <a href="#d-ff_outsideguard_shadow_2">ff_outsideguard_shadow_2</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_4"></span><strong><code>ff_outsideguard_trouble_4</code></strong> Feygard patrol watch: “Standing guard on duty out here in the middle of nowhere is not really what I signed up for.”</p>
+<ul>
+<li>“I bet. This place is really boring.” → <a href="#d-ff_outsideguard_trouble_5">ff_outsideguard_trouble_5</a></li>
+<li>“You must get tired of just standing here also.” → <a href="#d-ff_outsideguard_trouble_5">ff_outsideguard_trouble_5</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_shadow_5"></span><strong><code>ff_outsideguard_shadow_5</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 21 of <a href="../../quests/jolnor/#stage-21">Spies in the foam</a></p>
+<ul>
+<li>branch 1 → <em>fight starts</em></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_5"></span><strong><code>ff_outsideguard_trouble_5</code></strong> Feygard patrol watch: “Yeah I know. I would rather be inside in the tavern drinking like the senior officers and the captain. How come I have to stand out here?”</p>
+<ul>
+<li>“At least the Shadow watches over you.” → <a href="#d-ff_outsideguard_shadow_1">ff_outsideguard_shadow_1</a></li>
+<li>“Why not just leave if it's not what you want to do?” → <a href="#d-ff_outsideguard_trouble_7">ff_outsideguard_trouble_7</a></li>
+<li>“The greater cause of the royal guard, to keep the peace, is worth it in the long run.” → <a href="#d-ff_outsideguard_trouble_6">ff_outsideguard_trouble_6</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_7"></span><strong><code>ff_outsideguard_trouble_7</code></strong> Feygard patrol watch: “No, my loyalty is to Feygard. If I would leave, I would also leave my loyalty behind.”</p>
+<ul>
+<li>“What does that mean if you are not satisfied with what you do?” → <a href="#d-ff_outsideguard_trouble_9">ff_outsideguard_trouble_9</a></li>
+<li>“Yes, that sounds right. Feygard sounds like a nice place from what I have heard.” → <a href="#d-ff_outsideguard_trouble_6">ff_outsideguard_trouble_6</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_6"></span><strong><code>ff_outsideguard_trouble_6</code></strong> Feygard patrol watch: “Yes, you are right of course. Our duty is to Feygard and to keep the peace from all that want to disrupt it.”</p>
+<ul>
+<li>“Yes. The Shadow will not look favorably upon those that disrupt the peace.” → <a href="#d-ff_outsideguard_shadow_1">ff_outsideguard_shadow_1</a></li>
+<li>“Yes. The troublemakers should be punished.” → <a href="#d-ff_outsideguard_trouble_8">ff_outsideguard_trouble_8</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_9"></span><strong><code>ff_outsideguard_trouble_9</code></strong> Feygard patrol watch: “Well, I am convinced that we must follow the laws laid down by our rulers. If we don't obey the law, what are we left with?”</p>
+<ul>
+<li>Next → <a href="#d-ff_outsideguard_trouble_10">ff_outsideguard_trouble_10</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_8"></span><strong><code>ff_outsideguard_trouble_8</code></strong> Feygard patrol watch: “Right. I like you, kid. Tell you what, I could put in a good word for you in the barracks when we get back to Feygard if you want.”</p>
+<ul>
+<li>“Sure, that sounds good to me.” → <a href="#d-ff_outsideguard_trouble_20">ff_outsideguard_trouble_20</a></li>
+<li>“No thanks. I have enough to do already.” → <a href="#d-ff_outsideguard_trouble_20">ff_outsideguard_trouble_20</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_10"></span><strong><code>ff_outsideguard_trouble_10</code></strong> Feygard patrol watch: “Chaos. Disorder. No, I prefer the lawful way of Feygard. My loyalty is firm.”</p>
+<ul>
+<li>“Sounds good to me. Laws are made to be followed.” → <a href="#d-ff_outsideguard_trouble_8">ff_outsideguard_trouble_8</a></li>
+<li>“I do not agree. We should follow our heart, even if that goes against the rules.” → <a href="#d-ff_outsideguard_trouble_12">ff_outsideguard_trouble_12</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_20"></span><strong><code>ff_outsideguard_trouble_20</code></strong> Feygard patrol watch: “Was there anything else you wanted?”</p>
+<ul>
+<li>“I was wondering about why you stand guard here.” → <a href="#d-ff_outsideguard_trouble_21">ff_outsideguard_trouble_21</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_12"></span><strong><code>ff_outsideguard_trouble_12</code></strong> Feygard patrol watch: “That troubles me. We might see each other again in the future. But then we might not be able to have this kind of civil discussion.”</p>
+<p><span id="d-ff_outsideguard_trouble_21"></span><strong><code>ff_outsideguard_trouble_21</code></strong> Feygard patrol watch: “Right, we went over this before. As I said, I would rather be inside by the fire.”</p>
+<ul>
+<li>“I could spot for you if you want to go inside.” → <a href="#d-ff_outsideguard_trouble_23">ff_outsideguard_trouble_23</a></li>
+<li>“Tough luck. I guess you are left out here, while your captain and buddies are inside.” → <a href="#d-ff_outsideguard_trouble_22">ff_outsideguard_trouble_22</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_23"></span><strong><code>ff_outsideguard_trouble_23</code></strong> Feygard patrol watch: “Really? Yes that would be great. Then I can at least get something to eat and a bit of warmth from the fire.”</p>
+<ul>
+<li>Next → <a href="#d-ff_outsideguard_trouble_24">ff_outsideguard_trouble_24</a></li>
+</ul>
+<p><span id="d-ff_outsideguard_trouble_22"></span><strong><code>ff_outsideguard_trouble_22</code></strong> Feygard patrol watch: “Yeah, that's just my luck.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_watch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_watch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_watch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_watch.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>feygard_patrol_watch</code> · Data from v0.8.18</small></p>
 
 

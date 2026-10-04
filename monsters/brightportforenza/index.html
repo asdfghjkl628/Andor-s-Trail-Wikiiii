@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,57 @@
 <ul>
 <li><a href="../../maps/brightport_forenza/">brightport_forenza</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 182</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (9 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_sylverster_selector"></span><strong><code>brightport_sylverster_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester2">brightport_sylvester2</a></li>
+<li>Next <em>(if reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a>; NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester5">brightport_sylvester5</a></li>
+<li>Next <em>(if NOT reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester0">brightport_sylvester0</a></li>
+</ul>
+<p><span id="d-brightport_sylvester2"></span><strong><code>brightport_sylvester2</code></strong> <a href="./">Sylvester</a>: “You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now.”</p>
+<ul>
+<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?” <em>(if carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
+</ul>
+<p><span id="d-brightport_sylvester5"></span><strong><code>brightport_sylvester5</code></strong> Sylvester: “I'm really thankful that you found that ledger for me.”</p>
+<p><span id="d-brightport_sylvester0"></span><strong><code>brightport_sylvester0</code></strong> Sylvester: “Do you need something, or are you just wandering into people's houses?”</p>
+<ul>
+<li>Next → <a href="#d-brightport_sylvester1">brightport_sylvester1</a></li>
+</ul>
+<p><span id="d-brightport_sylvester"></span><strong><code>brightport_sylvester</code></strong> <a href="./">Sylvester</a>: “Did I hear that correctly, you found a paper? Let me see!”</p>
+<ul>
+<li>“Sure.” <em>(if hand over 1× <a href="../../items/brightport_documents/">Bakery ledger</a>)</em> → <a href="#d-brightport_sylvester3">brightport_sylvester3</a></li>
+</ul>
+<p><span id="d-brightport_sylvester1"></span><strong><code>brightport_sylvester1</code></strong> <a href="../brightportforenza1/">Florencia</a>: “Ah, he's always grumpy when he's working. Did you wish to ask something child?”</p>
+<ul>
+<li>“Have you seen my brother Andor?” <em>(if NOT reached stage 900 of <a href="../quests/andor_ending.md#stage-900">andor_ending (hidden flag)</a>)</em> → <a href="#d-brightport_florencia1">brightport_florencia1</a></li>
+<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” <em>(if reached stage 243 of <a href="../../quests/brightport_nondisplay/#stage-243">brightport_nondisplay (hidden flag)</a>; carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
+</ul>
+<p><span id="d-brightport_sylvester3"></span><strong><code>brightport_sylvester3</code></strong> Sylvester: “Good heavens, that's the missing ledger I was losing sleep over! I was beginning to suspect someone stole and hid it, I'm glad you found it.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_sylvester4">brightport_sylvester4</a></li>
+</ul>
+<p><span id="d-brightport_florencia1"></span><strong><code>brightport_florencia1</code></strong> <a href="../brightportforenza1/">Florencia</a>: “No sorry, I don't think we have, but you could ask the Doughe. His chambers are on the Bakery's second floor.”</p>
+<ul>
+<li>“Thanks.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_sylvester4"></span><strong><code>brightport_sylvester4</code></strong> Sylvester: “You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.” — <strong>effects:</strong> sets stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportforenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportforenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportforenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportforenza.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportforenza</code> · Data from v0.8.18</small></p>
 
 

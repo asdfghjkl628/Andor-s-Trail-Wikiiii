@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,57 +967,341 @@
 
 
 <h1 id="too-hot-to-handle">Too hot to handle<a class="headerlink" href="#too-hot-to-handle" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>brightport_fiamma</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>10 (completes at 45, 50)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/brightport_weapon/">brightport_weapon</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Fiamma, the swordsmith of Brightport. Is willing to forge me a sword if I can bring him the materials.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>). Required:</p>
+<ul>
+<li>reached stage 87 of <a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a></li>
+<li>NOT reached stage 20 of <a href="./#stage-20">Too hot to handle</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 87 reached, for stages 5, 10, 15, 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-175">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 175 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-176">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 176 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-177">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 177 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-178">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 178 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-179">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 179 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-180">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 180 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brightport_nondisplay/#stage-181">brightport_nondisplay (hidden flag)</a></td>
+<td>stage 181 there needs stage 15 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-175">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 175 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-176">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 176 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-177">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 177 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-178">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 178 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-179">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 179 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-180">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 180 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brightport_nondisplay/#stage-181">brightport_nondisplay (hidden flag)</a></td>
+<td>reaching stage 25 here closes stage 181 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>Fiamma, the swordsmith of Brightport. Is willing to forge me a sword if I can bring him the materials.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>In the mountains near the road to Remgard lies a dangerous area overrun by Arulirs, beasts with skin as tough as steel.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-15"></span>15</td>
 <td>Fiamma has asked for a strip of Arulir skin, coveted for its durability and flexibility. He also requires 15 cold lava rocks from the mountain cave, which burn hotter than any ordinary coal.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>The final material is a red crystal from a Gornaud, a ferocious beast that sometimes forms these rare crystals in its body.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-25"></span>25</td>
 <td>I brought Fiamma the arulir skin and lava rocks.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>hand over 15× <a href="../../items/lava_rock_cold/">Cold Lava Rock</a>, hand over 1× <a href="../../items/arulir_skin/">Arulir skin</a>, stage 15, stage 20</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I brought Fiamma the red crystal.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>hand over 1× <a href="../../items/crystal_red/">Red Crystals</a>, stage 20</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-35"></span>35</td>
 <td>I gave all the materials to Fiamma. He thanked me and told me to come back later when it's finished.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>stage 25, stage 30</td>
+<td>starts timer “fiamma_forge”</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. They are made of the Arulir skin I brought.</td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>I asked Fiamma to give me something else, and he gave me a very sharp glaive. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>gives 1× <a href="../../items/glaive_butcher/">Glaive of Imeria</a></td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>I thanked Fiamma and went on my merry way. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>)</td>
+<td>–</td>
+<td>gives 1× <a href="../../items/glaive_butcher/">Glaive of Imeria</a><br>gives 1× <a href="../../items/brightportflamesword/">Flaming greatsword</a><br>gives 1× <a href="../../items/brightport_glove/">Salamander gloves</a></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>brightport_fiamma</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 5: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “There is no task beyond my skill.” — <strong>conditions:</strong> reached stage 87 of <a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 5</strong>. NPC: “OK. First, we have to discuss the materials I have in mind. I presume you have heard of the town of Remgard?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Yes I have heard of it.” — <strong>conditions:</strong> reached stage 87 of <a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 10</strong>. NPC: “Many travelers pass through Brightport on their way to and back from Remgard. The town lies high in the mountains, and…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 15: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Yes I have heard of it.” — <strong>conditions:</strong> reached stage 87 of <a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 15</strong>. NPC: “First, if you can travel there, I want a strip of the arulir's skin - rumored to be tougher than steel but as flexible…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Yes I have heard of it.” — <strong>conditions:</strong> reached stage 87 of <a href="../brightport_nondisplay/#stage-87">brightport_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 20</strong>. NPC: “And lastly, the material from which I will forge a blade, a red crystal from a gornaud. This material, which their…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 25: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “I have the cold lava rocks and arulir skin.” — <strong>conditions:</strong> hand over 15× <a href="../../items/lava_rock_cold/">Cold Lava Rock</a>; hand over 1× <a href="../../items/arulir_skin/">Arulir skin</a>; NOT reached stage 25 of <a href="./#stage-25">Too hot to handle</a>; reached stage 15 of <a href="./#stage-15">Too hot to handle</a>; reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 25</strong>. NPC: “Yes, those look good. Thanks!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “I have the red crystal here.” — <strong>conditions:</strong> hand over 1× <a href="../../items/crystal_red/">Red Crystals</a>; NOT reached stage 30 of <a href="./#stage-30">Too hot to handle</a>; reached stage 20 of <a href="./#stage-20">Too hot to handle</a> → <strong>stage 30</strong>. NPC: “Wow. It looks magnificent!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 25 of <a href="./#stage-25">Too hot to handle</a>; reached stage 30 of <a href="./#stage-30">Too hot to handle</a>; NOT reached stage 35 of <a href="./#stage-35">Too hot to handle</a> → <strong>stage 35</strong>; also starts timer “fiamma_forge”. NPC: “With all these quality materials, I can forge you something magnificent enough to equal the legends. Come back to me…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → the conversation leads here automatically — <strong>conditions:</strong> 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of <a href="./#stage-50">Too hot to handle</a> → <strong>stage 40</strong>. NPC: “I was hoping to keep the Arulir skin for a pair of forging gloves, but I ended up making these smaller, heat-resistant…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 45: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Yes, I would prefer that.” — <strong>conditions:</strong> 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of <a href="./#stage-50">Too hot to handle</a> → <strong>stage 45</strong>; also gives 1× <a href="../../items/glaive_butcher/">Glaive of Imeria</a>. NPC: “Take this glaive, it was given to me by my old master from Nor City. It was originally forged for nobility but after…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Yes, I would prefer that.” — <strong>conditions:</strong> 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of <a href="./#stage-50">Too hot to handle</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/glaive_butcher/">Glaive of Imeria</a>. NPC: “Take this glaive, it was given to me by my old master from Nor City. It was originally forged for nobility but after…”</li>
+<li>Talk to <a href="../../monsters/brightportsmith/">Fiamma</a> (<a href="../../maps/brightport_weapon/">brightport_weapon</a>) → choose “Sounds nice, I'll take it.” — <strong>conditions:</strong> 6 rounds passed since timer “fiamma_forge”; NOT reached stage 50 of <a href="./#stage-50">Too hot to handle</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/brightportflamesword/">Flaming greatsword</a>, gives 1× <a href="../../items/brightport_glove/">Salamander gloves</a>. NPC: “Well, usually I would have my reservations about giving someone as young as you something this dangerous. But you're…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brightport_fiamma.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brightport_fiamma.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brightport_fiamma.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brightport_fiamma.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brightport_fiamma.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>brightport_fiamma</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>5, 10, 15, 20, 25, 30, 35, 40, 45, 50</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>5: <code>brightport_fiamma3</code>, 10: <code>brightport_fiamma5</code>, 15: <code>brightport_fiamma7</code>, 20: <code>brightport_fiamma8</code>, 25: <code>brightport_fiamma9</code>, 30: <code>brightport_fiamma10</code>, 35: <code>brightport_fiamma11</code>, 40: <code>brightport_fiamma17</code>, 45: <code>brightport_fiamma21</code>, 50: <code>brightport_fiamma21</code>, 50: <code>brightport_fiamma20</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

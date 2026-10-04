@@ -833,6 +833,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1013,55 @@
 </tr>
 </tbody>
 </table>
+<details class="quote">
+<summary>Dialogue (8 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-gruil1"></span><strong><code>gruil1</code></strong> Gruil: “Psst, hey. Wanna trade?”</p>
+<ul>
+<li>“Sure, let's trade.” → <em>shop opens</em></li>
+<li>“I heard that you talked to my brother a while ago.” <em>(if reached stage 10 of <a href="../quests/andor.md#stage-10">andor (hidden flag)</a>)</em> → <a href="#d-gruil_select">gruil_select</a></li>
+</ul>
+<p><span id="d-gruil_select"></span><strong><code>gruil_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a>)</em> → <a href="#d-gruil_return">gruil_return</a></li>
+<li>branch 2 → <a href="#d-gruil2">gruil2</a></li>
+</ul>
+<p><span id="d-gruil_return"></span><strong><code>gruil_return</code></strong> Gruil: “Look kid, I already told you.”</p>
+<ul>
+<li>Next → <a href="#d-gruil_andor1">gruil_andor1</a></li>
+</ul>
+<p><span id="d-gruil2"></span><strong><code>gruil2</code></strong> Gruil: “Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you.” — <strong>effects:</strong> sets stage 20 of <a href="../quests/andor.md#stage-20">andor (hidden flag)</a></p>
+<ul>
+<li>“Here, I have a poison gland for you.” <em>(if hand over 1× <a href="../../items/gland/">Poison gland</a>)</em> → <a href="#d-gruil_complete">gruil_complete</a></li>
+<li>“OK, I'll bring one.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gruil_andor1"></span><strong><code>gruil_andor1</code></strong> Gruil: “I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about.”</p>
+<ul>
+<li>Next → <a href="#d-gruil_andor2">gruil_andor2</a></li>
+</ul>
+<p><span id="d-gruil_complete"></span><strong><code>gruil_complete</code></strong> Gruil: “Thanks a lot kid. This will do just fine.” — <strong>effects:</strong> sets stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-gruil_andor1">gruil_andor1</a></li>
+</ul>
+<p><span id="d-gruil_andor2"></span><strong><code>gruil_andor2</code></strong> Gruil: “He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven.”</p>
+<ul>
+<li>Next → <a href="#d-gruil_andor3">gruil_andor3</a></li>
+</ul>
+<p><span id="d-gruil_andor3"></span><strong><code>gruil_andor3</code></strong> Gruil: “That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more.”</p>
+<ul>
+<li>“Thanks, bye.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gruil.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gruil.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gruil.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gruil.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>gruil</code> · Data from v0.8.18</small></p>
 
 

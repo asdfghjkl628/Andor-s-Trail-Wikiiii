@@ -816,6 +816,130 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,149 +960,335 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>faction_count_shadow</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>33</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Ranges 30:max | 18:very high | 6:high | -5:low | -14:very low | -23:even lower</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None found.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<p>No links to other quests were found in the dialogue conditions.</p>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-0"></span>0</td>
 <td>Ranges  30:max | 18:very high | 6:high | -5:low | -14:very low | -23:even lower</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>4   vacor:61   Killed Vacor</td>
+<td>dialogue <code>faction_count_shadow_10a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>4-  vacor:60   Killed Unzel</td>
+<td>dialogue <code>faction_count_shadow_20a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreShadow” -4</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>4-  kaverin:21   Declined to help Kaverin -&gt;0</td>
+<td>dialogue <code>faction_count_shadow_30a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreShadow” +0</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>4   kaverin:40   Delivered Message to Unzel</td>
+<td>dialogue <code>faction_count_shadow_32a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “scoreShadow2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-34"></span>34</td>
 <td>4-  kaverin:40   Delivered Message to Vacor</td>
+<td>dialogue <code>faction_count_shadow_34a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “scoreShadow2” +4<br>faction “scoreShadow” -4</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>4   feygard_shipment:82   Reported back to Ailshara</td>
+<td>dialogue <code>faction_count_shadow_40a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4<br>faction “scoreShadowFeygard” +4</td>
 </tr>
 <tr>
 <td><span id="stage-42"></span>42</td>
 <td>4-  feygard_shipment:80   Reported back to Gandoren</td>
+<td>dialogue <code>faction_count_shadow_42a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreFeygard” +4<br>faction “scoreShadowFeygard” -4</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>1   thieves_hidden:80   Talked about thieves to Thoronir</td>
+<td>dialogue <code>faction_count_shadow_50a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +1<br>faction “scoreThieves2” +1<br>faction “scoreThieves” -1</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>4   stoutford_castle:50   Yolgen examined the ring</td>
+<td>dialogue <code>faction_count_shadow_60a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>4-  stoutford_castle:60   Kept the ring for myself, which upset Yolgen</td>
+<td>dialogue <code>faction_count_shadow_70a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreFeygard” +4</td>
 </tr>
 <tr>
 <td><span id="stage-80"></span>80</td>
 <td>4-  stoutford_castle:70   Kept the ring for myself and didn't tell Yolgen</td>
+<td>dialogue <code>faction_count_shadow_80a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreFeygard” +4</td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>4   kaverin:100   Found Vacor's old hideout</td>
+<td>dialogue <code>faction_count_shadow_100a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-110"></span>110</td>
 <td>4   Thieves03:32   The patrol sergeant has left to call for backup</td>
+<td>dialogue <code>faction_count_shadow_110a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-120"></span>120</td>
 <td>4-  darkprotector:70   Restored the helmet</td>
+<td>dialogue <code>faction_count_shadow_120a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreFeygard” +4</td>
 </tr>
 <tr>
 <td><span id="stage-130"></span>130</td>
 <td>5   darkprotector:40   Ulirfendor has given me the dark blessing of the Shadow</td>
+<td>dialogue <code>faction_count_shadow_130a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +5<br>faction “scoreShadow2” +5<br>faction “scoreFeygard2” +5<br>faction “scoreShadow” +5</td>
 </tr>
 <tr>
 <td><span id="stage-140"></span>140</td>
 <td>4   darkprotector:41   Ulirfendor wanted to give me the dark blessing of the Shadow, but I declined</td>
+<td>dialogue <code>faction_count_shadow_140a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-150"></span>150</td>
 <td>4   xulviir:30   Destroyed the Xul'viir</td>
+<td>dialogue <code>faction_count_shadow_150a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreShadow” +4</td>
 </tr>
 <tr>
 <td><span id="stage-160"></span>160</td>
 <td>4-  xulviir:20   Restored the Xul'viir</td>
+<td>dialogue <code>faction_count_shadow_160a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -4<br>faction “scoreShadow2” +4<br>faction “scoreFeygard2” +4<br>faction “scoreFeygard” +4</td>
 </tr>
 <tr>
 <td><span id="stage-170"></span>170</td>
 <td>3-  rogorn:50   Killed Rogorn</td>
+<td>dialogue <code>faction_count_shadow_170a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -3<br>faction “scoreShadow2” +3<br>faction “scoreFeygard2” +3<br>faction “scoreFeygard” +3</td>
 </tr>
 <tr>
 <td><span id="stage-180"></span>180</td>
 <td>3   rogorn:55   Lie about Rogorn killed</td>
+<td>dialogue <code>faction_count_shadow_180a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +3<br>faction “scoreShadow2” +3<br>faction “scoreFeygard2” +3<br>faction “scoreShadow” +3</td>
 </tr>
 <tr>
 <td><span id="stage-190"></span>190</td>
 <td>1-  loneford:55   Talked to Kuldan about the illness</td>
+<td>dialogue <code>faction_count_shadow_190a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” -1<br>faction “scoreShadow2” +1<br>faction “scoreFeygard2” +1<br>faction “scoreFeygard” +1</td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
 <td>1   loneford:60   Didn't tell Kuldan about the illness</td>
+<td>dialogue <code>faction_count_shadow_200a</code>, which nothing in the data starts directly</td>
+<td>–</td>
+<td>faction “factionCountShadow” +1<br>faction “scoreShadow2” +3<br>faction “scoreFeygard2” +3<br>faction “scoreShadow” +3</td>
 </tr>
 <tr>
 <td><span id="stage-210"></span>210</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-220"></span>220</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-230"></span>230</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-240"></span>240</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-250"></span>250</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-260"></span>260</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-270"></span>270</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-280"></span>280</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-290"></span>290</td>
 <td></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>faction_count_shadow</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_shadow.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_shadow.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_shadow.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_shadow.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=faction_count_shadow.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>faction_count_shadow</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>0, 10, 20, 30, 32, 34, 40, 42, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>faction_count_shadow_10a</code>, 20: <code>faction_count_shadow_20a</code>, 30: <code>faction_count_shadow_30a</code>, 32: <code>faction_count_shadow_32a</code>, 34: <code>faction_count_shadow_34a</code>, 40: <code>faction_count_shadow_40a</code>, 42: <code>faction_count_shadow_42a</code>, 50: <code>faction_count_shadow_50a</code>, 60: <code>faction_count_shadow_60a</code>, 70: <code>faction_count_shadow_70a</code>, 80: <code>faction_count_shadow_80a</code>, 100: <code>faction_count_shadow_100a</code>, 110: <code>faction_count_shadow_110a</code>, 120: <code>faction_count_shadow_120a</code>, 130: <code>faction_count_shadow_130a</code>, 140: <code>faction_count_shadow_140a</code>, 150: <code>faction_count_shadow_150a</code>, 160: <code>faction_count_shadow_160a</code>, 170: <code>faction_count_shadow_170a</code>, 180: <code>faction_count_shadow_180a</code>, 190: <code>faction_count_shadow_190a</code>, 200: <code>faction_count_shadow_200a</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

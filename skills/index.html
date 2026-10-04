@@ -936,6 +936,9 @@
 <p>Pick <strong>one</strong> per level-up. There's no respec, so choose like you mean it. These picks form your <strong>base stats</strong>, which are the only values skill requirements look at. Gear and skills don't count, however shiny.</p>
 <p><strong>Skill points:</strong> levels 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60. That's 12 by level 50, and every one of them will feel like a hard decision.
 <strong>Experience:</strong> level L → L+1 costs 55 × L². Quadratic growth, so the grind gets real.</p>
+<p><img alt="Experience needed per level" src="../assets/charts/experience.png" /></p>
+<p><img alt="Fortitude vs health level-ups" src="../assets/charts/fortitude_vs_health.png" /></p>
+<p>One point of <a href="fortitude/">Fortitude</a> at level 5 out-earns a health level-up by level 10. Add a second level at 20 and it matches nine health level-ups by level 35, while those nine level-ups were free to go into other stats. Details on <a href="../strategy/levelling/">Strategy</a>.</p>
 <table>
 <thead>
 <tr>
@@ -1002,6 +1005,8 @@
 <summary>How combat works</summary>
 <p>Every attack goes through the same four steps. No hidden dice, no secret modifiers; this is the whole thing. The <a href="stats/">stat glossary</a> explains each stat.</p>
 <p><strong>1 · Hit?</strong> <code>hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))</code></p>
+<p><img alt="Hit chance curve" src="../assets/charts/hit_chance.png" /></p>
+<p><img alt="Value of +5 attack chance" src="../assets/charts/hit_marginal.png" /></p>
 <table>
 <thead>
 <tr>
@@ -1060,6 +1065,7 @@
 </table>
 <p><strong>2 · Damage:</strong> random between min and max attack damage.</p>
 <p><strong>3 · Critical?</strong> Only if you have critical skill above 0 <strong>and</strong> a critical multiplier, which comes from your weapon (or from <a href="fightstyleUnarmedUnarmored/">Way of the Monk</a> when fighting unarmed). No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. <code>crit % = −5 + 2 × √(5 × critical skill)</code>, then damage × multiplier.</p>
+<p><img alt="Crit chance curve" src="../assets/charts/crit_chance.png" /></p>
 <table>
 <thead>
 <tr>
@@ -1108,6 +1114,7 @@
 </table>
 <p><strong>4 · Armor:</strong> the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.</p>
 <p><strong>Attacks per turn</strong> = max AP ÷ attack cost, rounded down.</p>
+<p><img alt="Attacks per turn by AP and attack cost" src="../assets/charts/attacks_per_turn.png" /></p>
 </details>
 <details class="section" open="open">
 <summary>All skills (45)</summary>
@@ -1316,7 +1323,7 @@
 </tr>
 </tbody>
 </table>
-<p>* Extra levels can also be earned from quests.</p>
+<p>* Some quests also reward a level of this skill directly, without spending a skill point.</p>
 <p><strong>Unlocked through quests</strong></p>
 <table>
 <thead>
@@ -1331,84 +1338,83 @@
 <tr>
 <td><a href="shadowBless/">Dark blessing of the Shadow</a></td>
 <td>1</td>
-<td>Quest</td>
+<td>Quest only</td>
 <td>Lowers the chance of being afflicted with all types of conditions by 5 %.</td>
 </tr>
 <tr>
 <td><a href="weaponProficiencyDagger/">Dagger proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance when using daggers and shortswords by 30 % of the item's base attack chance, increases block chance by 30 % of the…</td>
 </tr>
 <tr>
 <td><a href="weaponProficiency1hsword/">One-handed sword proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance of rapiers, longswords and broadswords by 30 % of the item's base attack chance, increases block chance by 30 % of the…</td>
 </tr>
 <tr>
 <td><a href="weaponProficiency2hsword/">Two-handed sword proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance of two-handed swords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block…</td>
 </tr>
 <tr>
 <td><a href="weaponProficiencyAxe/">Axe proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance of axes and greataxes by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block…</td>
 </tr>
 <tr>
 <td><a href="weaponProficiencyBlunt/">Blunt weapon proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance of blunt weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block…</td>
 </tr>
 <tr>
 <td><a href="weaponProficiencyUnarmed/">Unarmed fighting</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>When fighting without a weapon and shield, gain 20 attack chance, 2 damage potential and 5 block chance per skill level.</td>
 </tr>
 <tr>
 <td><a href="weaponProficiencyPole/">Pole weapon proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For each skill level, increases attack chance when using pole weapons by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base…</td>
 </tr>
 <tr>
 <td><a href="armorProficiencyShield/">Shield proficiency</a></td>
 <td>2</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>Increase damage resistance by 1 per skill level while having a shield or parrying weapon equipped.</td>
 </tr>
 <tr>
 <td><a href="armorProficiencyUnarmored/">Unarmored fighting</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>While fighting without having any piece of armor equipped, gain 10 block chance per skill level.</td>
 </tr>
 <tr>
 <td><a href="armorProficiencyLight/">Light armor proficiency</a></td>
 <td>3</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For every skill level, increases the block chance of every piece of light armor being worn by 30 % of their original block chances.</td>
 </tr>
 <tr>
 <td><a href="armorProficiencyHeavy/">Heavy armor proficiency</a></td>
 <td>4</td>
-<td>Quest</td>
+<td>First level from a quest, then skill points</td>
 <td>For every skill level, increases the block chance of every piece of heavy armor being worn by 20 % of their original block chances.</td>
 </tr>
 <tr>
 <td><a href="sporeImmunity/">Spore poison immunity</a></td>
 <td>1</td>
-<td>Quest</td>
+<td>Quest only</td>
 <td>Permanently prevents monster attacks from inflicting the "Spore poisoning" status effect.</td>
 </tr>
 </tbody>
 </table>
-<p><em>Quest</em> = the first level comes from a quest; for proficiencies, later levels cost skill points as usual.</p>
 </details>
 
 

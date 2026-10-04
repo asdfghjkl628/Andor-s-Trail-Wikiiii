@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -929,6 +1001,277 @@
 <ul>
 <li><a href="../../maps/undertell_3_02/">undertell_3_02</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/devotion/">Devotion</a>: stages 20, 40, 60, 80, 110, 450, 470</li>
+<li><a href="../../quests/hidden_devotion/">hidden_devotion (hidden flag)</a>: stages 450</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (56 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-anoa_selector"></span><strong><code>anoa_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>)</em> → <a href="#d-anona_fight">anona_fight</a></li>
+<li>branch 2 <em>(if faction “shadeKillCount” = 11)</em> → <a href="#d-anoa_11_shades_killed_10">anoa_11_shades_killed_10</a></li>
+<li>branch 3 <em>(if faction “shadeSetFreeCount” = 11)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 4 <em>(if faction “shadeSetFreeCount” = 10; faction “shadeKillCount” = 1)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 5 <em>(if faction “shadeSetFreeCount” = 9; faction “shadeKillCount” = 2)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 6 <em>(if faction “shadeSetFreeCount” = 8; faction “shadeKillCount” = 3)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 7 <em>(if faction “shadeSetFreeCount” = 7; faction “shadeKillCount” = 4)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 8 <em>(if faction “shadeSetFreeCount” = 6; faction “shadeKillCount” = 5)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 9 <em>(if faction “shadeSetFreeCount” = 5; faction “shadeKillCount” = 6)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 10 <em>(if faction “shadeSetFreeCount” = 4; faction “shadeKillCount” = 7)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 11 <em>(if faction “shadeSetFreeCount” = 3; faction “shadeKillCount” = 8)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 12 <em>(if faction “shadeSetFreeCount” = 2; faction “shadeKillCount” = 9)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 13 <em>(if faction “shadeSetFreeCount” = 1; faction “shadeKillCount” = 10)</em> → <a href="#d-anoa_one_plus_shades_freed_10">anoa_one_plus_shades_freed_10</a></li>
+<li>branch 14 <em>(if reached stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>; NOT reached stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>; NOT reached stage 450 of <a href="../../quests/devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../../quests/devotion/#stage-480">Devotion</a>)</em> → <a href="#d-anoa_after_ring_after_orders">anoa_after_ring_after_orders</a></li>
+<li>branch 15 <em>(if reached stage 100 of <a href="../../quests/devotion/#stage-100">Devotion</a>; NOT reached stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>; carry 1× <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_after_ring_10">anoa_after_ring_10</a></li>
+<li>branch 16 <em>(if reached stage 100 of <a href="../../quests/devotion/#stage-100">Devotion</a>; NOT reached stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_after_ring_10">anoa_after_ring_10</a></li>
+<li>branch 17 <em>(if NOT carry 1× <a href="../../items/elythara_ring/">Elythara's ring</a>; reached stage 100 of <a href="../../quests/devotion/#stage-100">Devotion</a>; NOT reached stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>)</em> → <a href="#d-anoa_forgot_ring_10">anoa_forgot_ring_10</a></li>
+<li>branch 18 <em>(if NOT wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; reached stage 100 of <a href="../../quests/devotion/#stage-100">Devotion</a>; NOT reached stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>)</em> → <a href="#d-anoa_forgot_ring_10">anoa_forgot_ring_10</a></li>
+<li>branch 19 <em>(if latest stage of <a href="../../quests/devotion/#stage-90">Devotion</a> is 90)</em> → <a href="#d-anoa_forgot_ring_10">anoa_forgot_ring_10</a></li>
+<li>branch 20 <em>(if reached stage 70 of <a href="../../quests/devotion/#stage-70">Devotion</a>; NOT reached stage 90 of <a href="../../quests/devotion/#stage-90">Devotion</a>)</em> → <a href="#d-anoa_third_return_10">anoa_third_return_10</a></li>
+<li>branch 21 <em>(if reached stage 50 of <a href="../../quests/devotion/#stage-50">Devotion</a>; NOT reached stage 70 of <a href="../../quests/devotion/#stage-70">Devotion</a>)</em> → <a href="#d-anoa_second_return_10">anoa_second_return_10</a></li>
+<li>branch 22 <em>(if reached stage 30 of <a href="../../quests/devotion/#stage-30">Devotion</a>; NOT reached stage 50 of <a href="../../quests/devotion/#stage-50">Devotion</a>)</em> → <a href="#d-anoa_first_return_10">anoa_first_return_10</a></li>
+<li>branch 23 <em>(if NOT reached stage 30 of <a href="../../quests/devotion/#stage-30">Devotion</a>)</em> → <a href="#d-anoa_welcome">anoa_welcome</a></li>
+</ul>
+<p><span id="d-anona_fight"></span><strong><code>anona_fight</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.”</p>
+<ul>
+<li>“Today, you will be removed from this world.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_10"></span><strong><code>anoa_11_shades_killed_10</code></strong> Anoa: “Good work, my friend. You have saved Dhayavar.”</p>
+<ul>
+<li>Next → <a href="#d-anoa_11_shades_killed_20">anoa_11_shades_killed_20</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_10"></span><strong><code>anoa_one_plus_shades_freed_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if wearing <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_one_plus_shades_freed_15">anoa_one_plus_shades_freed_15</a></li>
+<li>branch 2 → <a href="#d-anoa_one_plus_shades_freed_12">anoa_one_plus_shades_freed_12</a></li>
+</ul>
+<p><span id="d-anoa_after_ring_after_orders"></span><strong><code>anoa_after_ring_after_orders</code></strong> Anoa: “I told you already, wear the ring that the Holy One give you if you want to overcome the resistance of the Kha'zaan shades.”</p>
+<ul>
+<li>“Oh, yeah. I will try that now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_after_ring_10"></span><strong><code>anoa_after_ring_10</code></strong> Anoa: “So the Holy One gave you a ring.”</p>
+<ul>
+<li>Next → <a href="#d-anoa_after_ring">anoa_after_ring</a></li>
+</ul>
+<p><span id="d-anoa_forgot_ring_10"></span><strong><code>anoa_forgot_ring_10</code></strong> Anoa: “The Holy One gave you a relic did it not? Bring it to me.”</p>
+<p><span id="d-anoa_third_return_10"></span><strong><code>anoa_third_return_10</code></strong> Anoa: “You are back once more!”</p>
+<ul>
+<li>“It is no use. They are just making me disoriented. Maybe I should give up?” → <a href="#d-anoa_third_return_20">anoa_third_return_20</a></li>
+</ul>
+<p><span id="d-anoa_second_return_10"></span><strong><code>anoa_second_return_10</code></strong> Anoa: “You're back again without the job being completed?”</p>
+<ul>
+<li>“No luck. I'm still getting thrown out of the caverns.” → <a href="#d-anoa_second_return_20">anoa_second_return_20</a></li>
+</ul>
+<p><span id="d-anoa_first_return_10"></span><strong><code>anoa_first_return_10</code></strong> Anoa: “You're back so soon?”</p>
+<ul>
+<li>“I'm getting thrown out of Undertell.” → <a href="#d-anoa_first_return_20">anoa_first_return_20</a></li>
+</ul>
+<p><span id="d-anoa_welcome"></span><strong><code>anoa_welcome</code></strong> Anoa: “Why did you have to come here?”</p>
+<ul>
+<li>“I'm seeking my brother.” <em>(if NOT reached stage 20 of <a href="../../quests/devotion/#stage-20">Devotion</a>)</em> → <a href="#d-anoa_intro_10">anoa_intro_10</a></li>
+<li>“I need clarity. What am I supposed to be doing?” <em>(if latest stage of <a href="../../quests/devotion/#stage-20">Devotion</a> is 20)</em> → <a href="#d-anoa_clarity_10">anoa_clarity_10</a></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_20"></span><strong><code>anoa_11_shades_killed_20</code></strong> Anoa: “You shall have your reward. But first you shall know my secret: I was the twelfth shade.”</p>
+<ul>
+<li>“W-w-what?” → <a href="#d-anoa_11_shades_killed_30">anoa_11_shades_killed_30</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_15"></span><strong><code>anoa_one_plus_shades_freed_15</code></strong> Anoa: “What have you done? Don't you realize the evil you have unleashed. Thanks to an Elytharan mage, my soul which was to be liberated, is now getting reinfected.”</p>
+<ul>
+<li>“Liberated?” → <a href="#d-anoa_one_plus_shades_freed_20">anoa_one_plus_shades_freed_20</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_12"></span><strong><code>anoa_one_plus_shades_freed_12</code></strong> Anoa: “Wear the ring that the Holy One give you if you want to talk to me.”</p>
+<ul>
+<li>“Oh, you now too? Let me put it on now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_after_ring"></span><strong><code>anoa_after_ring</code></strong> Anoa: “Wear it if you want to overcome the resistance of the Kha'zaan shades. It should let you get past their safeguards.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/devotion/#stage-110">Devotion</a>, faction “shadeSetFreeCount” set to 0, faction “shadeKillCount” set to 0</p>
+<ul>
+<li>“I will try.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_third_return_20"></span><strong><code>anoa_third_return_20</code></strong> Anoa: “Not if you want to save your brother, your family and Dhayavar.”</p>
+<ul>
+<li>“So, what do I do?” → <a href="#d-anoa_third_return_30">anoa_third_return_30</a></li>
+</ul>
+<p><span id="d-anoa_second_return_20"></span><strong><code>anoa_second_return_20</code></strong> Anoa: “Try once more.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/devotion/#stage-60">Devotion</a></p>
+<p><span id="d-anoa_first_return_20"></span><strong><code>anoa_first_return_20</code></strong> Anoa: “Try again. Harder this time.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/devotion/#stage-40">Devotion</a></p>
+<p><span id="d-anoa_intro_10"></span><strong><code>anoa_intro_10</code></strong> Anoa: “You foolish child! Long were buried here the evil souls of the Kha'zaan. No one was to come here near these shades. Now your presence shall free them to wreak havoc on Dhayavar.”</p>
+<ul>
+<li>“What are you talking about?” → <a href="#d-anoa_story_20a">anoa_story_20a</a></li>
+</ul>
+<p><span id="d-anoa_clarity_10"></span><strong><code>anoa_clarity_10</code></strong> Anoa: “You foolish child. Buried here are the shades of the Kha'zaan. You must destroy them.”</p>
+<ul>
+<li>“Huh?” → <a href="#d-anoa_story_20a">anoa_story_20a</a></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_30"></span><strong><code>anoa_11_shades_killed_30</code></strong> Anoa: “Worry not, fear not - I shall not harm you. When I said that in the confusion of the War, us shades hid, that's not strictly true. An Elytharan mage caught up with me, who was about to be the last to hide. She could have killed us, but I…”</p>
+<ul>
+<li>Next → <a href="#d-anoa_11_shades_killed_40">anoa_11_shades_killed_40</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_20"></span><strong><code>anoa_one_plus_shades_freed_20</code></strong> Anoa: “What you don't realize is that I was the twelfth shade.”</p>
+<ul>
+<li>Next → <a href="#d-anoa_one_plus_shades_freed_30">anoa_one_plus_shades_freed_30</a></li>
+</ul>
+<p><span id="d-anoa_third_return_30"></span><strong><code>anoa_third_return_30</code></strong> Anoa: “Let me think...”</p>
+<ul>
+<li>“Alright...” → <a href="#d-anoa_third_return_40">anoa_third_return_40</a></li>
+</ul>
+<p><span id="d-anoa_story_20a"></span><strong><code>anoa_story_20a</code></strong> Anoa: “Child, if you knew the history of the world of Dhayavar, you would know how this place came to be. How the Lethgar were subjugated to Kazaul's will. How a few of the Lethgar became interested in the Dark Sorcery of Kazaul.”</p>
+<ul>
+<li>“That was the past.” → <a href="#d-anoa_story_20b">anoa_story_20b</a></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_40"></span><strong><code>anoa_11_shades_killed_40</code></strong> Anoa: “Instead she told me: "Until now, you have sustained fantasies in which you are the adventurers in magic, the pioneers in a new form of magic. Comforting daydreams in which you are always right. But no more. The fantasy is over. I have…”</p>
+<ul>
+<li>Next → <a href="#d-anoa_11_shades_killed_50">anoa_11_shades_killed_50</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_30"></span><strong><code>anoa_one_plus_shades_freed_30</code></strong> Anoa: “When we were about to go into hiding, an Elytharan mage caught up with me. She stripped away my fantasies of being a pioneer in a new type of magic: Kazaul's magic, and laid bare what I had become - a monster.”</p>
+<ul>
+<li>Next → <a href="#d-anoa_one_plus_shades_freed_30_selector">anoa_one_plus_shades_freed_30_selector</a></li>
+</ul>
+<p><span id="d-anoa_third_return_40"></span><strong><code>anoa_third_return_40</code></strong> Anoa: “In the town of Sullengard, there is a statue of Elythara. Pray to her for aid.”</p>
+<ul>
+<li>“That is the statue of Elythara? So close to Nor City?” → <a href="#d-anoa_third_return_50">anoa_third_return_50</a></li>
+</ul>
+<p><span id="d-anoa_story_20b"></span><strong><code>anoa_story_20b</code></strong> Anoa: “The past is never dead. It is not even past.”</p>
+<ul>
+<li>“Spare me the riddles.” → <a href="#d-anoa_story_20c">anoa_story_20c</a></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_50"></span><strong><code>anoa_11_shades_killed_50</code></strong> Anoa: “Her spell stripped away my justifications. It made me realize what a monster I was.”</p>
+<ul>
+<li>Next → <a href="#d-anoa_11_shades_killed_60">anoa_11_shades_killed_60</a></li>
+</ul>
+<p><span id="d-anoa_one_plus_shades_freed_30_selector"></span><strong><code>anoa_one_plus_shades_freed_30_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if faction “shadeSetFreeCount” = 11)</em> → <a href="#d-anoa_shades_freed_11">anoa_shades_freed_11</a></li>
+<li>branch 2 <em>(if faction “shadeSetFreeCount” = 10)</em> → <a href="#d-anoa_shades_freed_10">anoa_shades_freed_10</a></li>
+<li>branch 3 <em>(if faction “shadeSetFreeCount” = 9)</em> → <a href="#d-anoa_shades_freed_9">anoa_shades_freed_9</a></li>
+<li>branch 4 <em>(if faction “shadeSetFreeCount” = 8)</em> → <a href="#d-anoa_shades_freed_8">anoa_shades_freed_8</a></li>
+<li>branch 5 <em>(if faction “shadeSetFreeCount” = 7)</em> → <a href="#d-anoa_shades_freed_7">anoa_shades_freed_7</a></li>
+<li>branch 6 <em>(if faction “shadeSetFreeCount” = 6)</em> → <a href="#d-anoa_shades_freed_6">anoa_shades_freed_6</a></li>
+<li>branch 7 <em>(if faction “shadeSetFreeCount” = 5)</em> → <a href="#d-anoa_shades_freed_5">anoa_shades_freed_5</a></li>
+<li>branch 8 <em>(if faction “shadeSetFreeCount” = 4)</em> → <a href="#d-anoa_shades_freed_4">anoa_shades_freed_4</a></li>
+<li>branch 9 <em>(if faction “shadeSetFreeCount” = 3)</em> → <a href="#d-anoa_shades_freed_3">anoa_shades_freed_3</a></li>
+<li>branch 10 <em>(if faction “shadeSetFreeCount” = 2)</em> → <a href="#d-anoa_shades_freed_2">anoa_shades_freed_2</a></li>
+<li>branch 11 <em>(if faction “shadeSetFreeCount” = 1)</em> → <a href="#d-anoa_shades_freed_1">anoa_shades_freed_1</a></li>
+</ul>
+<p><span id="d-anoa_third_return_50"></span><strong><code>anoa_third_return_50</code></strong> Anoa: “Sullengard is a riddle bound in contradiction. Though it stands as the southernmost town sworn to the light of Elythara, it does not bend the knee to Feygard. Its people hold Feygard in quiet contempt, for its levies, its corruptions, its…”</p>
+<ul>
+<li>“And me praying will not kick a hornet's nest?” → <a href="#d-anoa_third_return_60">anoa_third_return_60</a></li>
+</ul>
+<p><span id="d-anoa_story_20c"></span><strong><code>anoa_story_20c</code></strong> Anoa: “As you wish. So those Lethgar who were interested in the Dark Sorcery became none other than the Kha'zaan. Word spread that the Kha'zaan, through their devotion, were among the strongest followers of Kazaul.”</p>
+<ul>
+<li>“The Kha'zaan were defeated in the War of Dawn, weren't they?” → <a href="#d-anoa_story_20d">anoa_story_20d</a></li>
+</ul>
+<p><span id="d-anoa_11_shades_killed_60"></span><strong><code>anoa_11_shades_killed_60</code></strong> Anoa: “Then she said - when your erstwhile colleagues, who hide now, are neutralized, you shall find peace. So $playername, thank you for liberating me.”</p>
+<ul>
+<li>“What happens now?” → <a href="#d-anoa_ring_check_10">anoa_ring_check_10</a></li>
+</ul>
+<p><span id="d-anoa_shades_freed_11"></span><strong><code>anoa_shades_freed_11</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_10"></span><strong><code>anoa_shades_freed_10</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_9"></span><strong><code>anoa_shades_freed_9</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_8"></span><strong><code>anoa_shades_freed_8</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_7"></span><strong><code>anoa_shades_freed_7</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_6"></span><strong><code>anoa_shades_freed_6</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_5"></span><strong><code>anoa_shades_freed_5</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_4"></span><strong><code>anoa_shades_freed_4</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_3"></span><strong><code>anoa_shades_freed_3</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_2"></span><strong><code>anoa_shades_freed_2</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_shades_freed_1"></span><strong><code>anoa_shades_freed_1</code></strong> Anoa: “Now, no thanks to you, my soul has become reinfected, and we shall lay Dhayavar to waste, starting with you.” — <strong>effects:</strong> sets stage 470 of <a href="../../quests/devotion/#stage-470">Devotion</a>, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“I was hoping that it wouldn't come to this.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-anoa_third_return_60"></span><strong><code>anoa_third_return_60</code></strong> Anoa: “No one will notice. Except maybe a few kids.”</p>
+<ul>
+<li>“What should I pray for?” → <a href="#d-anoa_third_return_70">anoa_third_return_70</a></li>
+</ul>
+<p><span id="d-anoa_story_20d"></span><strong><code>anoa_story_20d</code></strong> Anoa: “Devotion. Remember that word. It holds more power than you think.”</p>
+<ul>
+<li>“What does that mean?” → <a href="#d-anoa_story_20e">anoa_story_20e</a></li>
+</ul>
+<p><span id="d-anoa_ring_check_10"></span><strong><code>anoa_ring_check_10</code></strong> Anoa: “Before I depart, child...the blessing must be passed on. Give me the ring granted by the Holy One.”</p>
+<ul>
+<li>“Here it is.” <em>(if hand over 1× <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_ring_upgrade_10">anoa_ring_upgrade_10</a></li>
+<li>“Let me remove it first.” <em>(if wearing (and give up) <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_ring_upgrade_10">anoa_ring_upgrade_10</a></li>
+<li>“I dropped it.” <em>(if NOT carry 1× <a href="../../items/elythara_ring/">Elythara's ring</a>; NOT wearing <a href="../../items/elythara_ring/">Elythara's ring</a>)</em> → <a href="#d-anoa_dropped_ring_10">anoa_dropped_ring_10</a></li>
+</ul>
+<p><span id="d-anoa_third_return_70"></span><strong><code>anoa_third_return_70</code></strong> Anoa: “O Holy One, Preserve Us.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/devotion/#stage-80">Devotion</a></p>
+<ul>
+<li>“On my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_story_20e"></span><strong><code>anoa_story_20e</code></strong> Anoa: “Through devotion, even if the Kha'zaan lost their corporeal forms, they became incorporeal shades. And survived.”</p>
+<ul>
+<li>“How did they stay hidden?” → <a href="#d-anoa_story_20f">anoa_story_20f</a></li>
+</ul>
+<p><span id="d-anoa_ring_upgrade_10"></span><strong><code>anoa_ring_upgrade_10</code></strong> Anoa: “As you have truly vanquished the Kha'zaan and resisted their whispers, Elythara grants her favor. Through this ring, her blessing now flows anew.” — <strong>effects:</strong> gives 1× <a href="../../items/elythara_ring_upgraded/">Elythara's ring</a>, sets stage 450 of <a href="../../quests/devotion/#stage-450">Devotion</a>, removes monsters from undertell_3_02, sets stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>, spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02</p>
+<ul>
+<li>“Thank you, Anoa.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_dropped_ring_10"></span><strong><code>anoa_dropped_ring_10</code></strong> Anoa: “Child...you cast aside the Holy One's blessing? Retrieve the ring from where you left it. Only then can I complete what must be done.”</p>
+<ul>
+<li>“I'll go get it.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anoa_story_20f"></span><strong><code>anoa_story_20f</code></strong> Anoa: “During the confusion of the War, this section was overlooked. As the Elytharan mages cleansed Dhayavar, the war reached Undertell and was fought in these passages. Spells and counterspells everywhere. In this confusion, the shades hid…”</p>
+<ul>
+<li>“Let them be. I will just search for my brother Andor and get out. Tell me what to avoid.” → <a href="#d-anoa_story_20g">anoa_story_20g</a></li>
+</ul>
+<p><span id="d-anoa_story_20g"></span><strong><code>anoa_story_20g</code></strong> Anoa: “If only it were that simple. These shades gain strength from the life force of the living. As no one has come here, and you are the first, they shall awaken. The longer you stay, the stronger they will grow. Soon enough they will escape…”</p>
+<ul>
+<li>“What do I need to do?” → <a href="#d-anoa_story_20h">anoa_story_20h</a></li>
+</ul>
+<p><span id="d-anoa_story_20h"></span><strong><code>anoa_story_20h</code></strong> Anoa: “You must destroy each shade you encounter in this cavern. There were twelve who hid here. You should find eleven of them still around.”</p>
+<ul>
+<li>“What happened to the twelfth?” <em>(if NOT reached stage 20 of <a href="../../quests/devotion/#stage-20">Devotion</a>)</em> → <a href="#d-anoa_story_20i">anoa_story_20i</a></li>
+<li>“Before I leave...who are you?” <em>(if reached stage 20 of <a href="../../quests/devotion/#stage-20">Devotion</a>)</em> → <a href="#d-anoa_who_are_you_10">anoa_who_are_you_10</a></li>
+</ul>
+<p><span id="d-anoa_story_20i"></span><strong><code>anoa_story_20i</code></strong> Anoa: “There is not much time to tell you more. The shades grow stronger. Go hunt them! May Elythara bless you.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/devotion/#stage-20">Devotion</a>, spawns monsters on undertell_3_02, spawns monsters on undertell_3_02, spawns monsters on undertell_3_12, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_11, spawns monsters on undertell_3_00, spawns monsters on undertell_3_00, spawns monsters on undertell_3_00, spawns monsters on undertell_3_10, spawns monsters on undertell_3_03</p>
+<ul>
+<li>“Before I leave...who are you?” → <a href="#d-anoa_who_are_you_10">anoa_who_are_you_10</a></li>
+</ul>
+<p><span id="d-anoa_who_are_you_10"></span><strong><code>anoa_who_are_you_10</code></strong> Anoa: “Child, I will tell you later. Not enough time to tell you. Go hunt!”</p>
+<ul>
+<li>“Fine.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anoa.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anoa.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anoa.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anoa.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>anoa</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,85 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain26/">blackwater_mountain26</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/bjorgur_grave/">Awoken from slumber</a>: stages 10, 15, 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (16 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-bjorgur_start"></span><strong><code>bjorgur_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/bjorgur_grave/#stage-50">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_return_1">bjorgur_return_1</a></li>
+<li>branch 2 <em>(if reached stage 15 of <a href="../../quests/bjorgur_grave/#stage-15">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_return_2">bjorgur_return_2</a></li>
+<li>branch 3 → <a href="#d-bjorgur_1">bjorgur_1</a></li>
+</ul>
+<p><span id="d-bjorgur_return_1"></span><strong><code>bjorgur_return_1</code></strong> Bjorgur: “Hello again, friend. Thank you for your assistance with my family grave earlier.”</p>
+<p><span id="d-bjorgur_return_2"></span><strong><code>bjorgur_return_2</code></strong> Bjorgur: “Hello again. Have you investigated if anything has happened to my family grave?”</p>
+<ul>
+<li>“No, not yet.” → <a href="#d-bjorgur_9">bjorgur_9</a></li>
+<li>“[Lie] I went to check on the grave. Everything seems to be normal. You must be imagining things.” <em>(if reached stage 60 of <a href="../../quests/bjorgur_grave/#stage-60">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_return_3">bjorgur_return_3</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-bjorgur_3">bjorgur_3</a></li>
+<li>“Yes. I killed the intruder and restored the dagger to its original place.” <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_complete_1">bjorgur_complete_1</a></li>
+</ul>
+<p><span id="d-bjorgur_1"></span><strong><code>bjorgur_1</code></strong> Bjorgur: “Hello there. You wouldn't happen to know anything about a grave to the southwest of Prim would you?”</p>
+<ul>
+<li>“I have been there. I met someone on one of the lower levels.” <em>(if reached stage 30 of <a href="../../quests/bjorgur_grave/#stage-30">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_2">bjorgur_2</a></li>
+<li>“What about it?” → <a href="#d-bjorgur_3">bjorgur_3</a></li>
+<li>“No, sorry.” → <a href="#d-bjorgur_3">bjorgur_3</a></li>
+</ul>
+<p><span id="d-bjorgur_9"></span><strong><code>bjorgur_9</code></strong> Bjorgur: “Please hurry, and return here to tell me of your progress once you find out something.”</p>
+<p><span id="d-bjorgur_return_3"></span><strong><code>bjorgur_return_3</code></strong> Bjorgur: “Nothing you say? But I was sure something must have happened over there. Anyway. Thank you for checking it for me.”</p>
+<p><span id="d-bjorgur_3"></span><strong><code>bjorgur_3</code></strong> Bjorgur: “My family grave is located in the tomb to the southwest of Prim right outside the Elm mine. I fear that something has disturbed the peace there.”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_4">bjorgur_4</a></li>
+</ul>
+<p><span id="d-bjorgur_complete_1"></span><strong><code>bjorgur_complete_1</code></strong> Bjorgur: “An intruder? Oh thank you for dealing with this matter.”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_complete_2">bjorgur_complete_2</a></li>
+</ul>
+<p><span id="d-bjorgur_2"></span><strong><code>bjorgur_2</code></strong> Bjorgur: “You have been there?”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_3">bjorgur_3</a></li>
+</ul>
+<p><span id="d-bjorgur_4"></span><strong><code>bjorgur_4</code></strong> Bjorgur: “You see, my grandfather was very fond of a particular valuable dagger that our family used to possess. He wore it with him always.”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_5">bjorgur_5</a></li>
+</ul>
+<p><span id="d-bjorgur_complete_2"></span><strong><code>bjorgur_complete_2</code></strong> Bjorgur: “You say you restored the dagger to it's original place? Thank you. Now I might be able to rest during the nights ahead.”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_complete_3">bjorgur_complete_3</a></li>
+</ul>
+<p><span id="d-bjorgur_5"></span><strong><code>bjorgur_5</code></strong> Bjorgur: “The dagger would of course attract treasure hunters, but up until now we seem to have been spared of this.”</p>
+<ul>
+<li>Next → <a href="#d-bjorgur_6">bjorgur_6</a></li>
+</ul>
+<p><span id="d-bjorgur_complete_3"></span><strong><code>bjorgur_complete_3</code></strong> Bjorgur: “Thank you again. I'm afraid I can't give you anything except my gratitude. You should go see my relatives in Feygard if you get the chance to travel up there.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/bjorgur_grave/#stage-50">Awoken from slumber</a></p>
+<p><span id="d-bjorgur_6"></span><strong><code>bjorgur_6</code></strong> Bjorgur: “Now I fear something has happened to the grave. I have not been sleeping well the last couple of nights, and I am sure this must be the cause.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/bjorgur_grave/#stage-10">Awoken from slumber</a></p>
+<ul>
+<li>Next → <a href="#d-bjorgur_7">bjorgur_7</a></li>
+</ul>
+<p><span id="d-bjorgur_7"></span><strong><code>bjorgur_7</code></strong> Bjorgur: “You wouldn't happen to want to go check on the grave and see what is happening over there?”</p>
+<ul>
+<li>“Sure. I will go check on your parents grave.” → <a href="#d-bjorgur_8">bjorgur_8</a></li>
+<li>“A treasure you say? I'm interested.” → <a href="#d-bjorgur_8">bjorgur_8</a></li>
+<li>“I have actually already been there and restored the dagger to its original place.” <em>(if reached stage 40 of <a href="../../quests/bjorgur_grave/#stage-40">Awoken from slumber</a>)</em> → <a href="#d-bjorgur_complete_2">bjorgur_complete_2</a></li>
+</ul>
+<p><span id="d-bjorgur_8"></span><strong><code>bjorgur_8</code></strong> Bjorgur: “Thank you. Please see if anything has happened to the grave, and what could be the cause of my nightly anxiety.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/bjorgur_grave/#stage-15">Awoken from slumber</a></p>
+<ul>
+<li>Next → <a href="#d-bjorgur_9">bjorgur_9</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bjorgur.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bjorgur.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bjorgur.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bjorgur.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>bjorgur</code> · Data from v0.8.18</small></p>
 
 

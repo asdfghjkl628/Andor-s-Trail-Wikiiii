@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -937,6 +1009,96 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain44/">blackwater_mountain44</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/bwm_wyrms/">No weakness</a>: stages 10, 20, 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (18 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-herec_start"></span><strong><code>herec_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/bwm_wyrms/#stage-30">No weakness</a>)</em> → <a href="#d-herec_q5">herec_q5</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/bwm_wyrms/#stage-20">No weakness</a>)</em> → <a href="#d-herec_q3">herec_q3</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/bwm_wyrms/#stage-10">No weakness</a>)</em> → <a href="#d-herec_q1">herec_q1</a></li>
+<li>branch 4 → <a href="#d-herec_1">herec_1</a></li>
+</ul>
+<p><span id="d-herec_q5"></span><strong><code>herec_q5</code></strong> Herec: “Would you like to trade for some potions?”</p>
+<ul>
+<li>“Sure. Let's see what you have.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-herec_q3"></span><strong><code>herec_q3</code></strong> Herec: “Welcome back my friend! Good news. I have successfully distilled the fragments of the claws you brought earlier.”</p>
+<ul>
+<li>Next → <a href="#d-herec_q4">herec_q4</a></li>
+</ul>
+<p><span id="d-herec_q1"></span><strong><code>herec_q1</code></strong> Herec: “Welcome back. How is the search going?”</p>
+<ul>
+<li>“What was I supposed to do again?” → <a href="#d-herec_4">herec_4</a></li>
+<li>“I haven't found everything yet. But I am working on it.” → <a href="#d-herec_10">herec_10</a></li>
+<li>“I have found what you asked for.” <em>(if hand over 5× <a href="../../items/bwm_claws/">White wyrm claw</a>)</em> → <a href="#d-herec_q2">herec_q2</a></li>
+</ul>
+<p><span id="d-herec_1"></span><strong><code>herec_1</code></strong> Herec: “Welcome, traveller. You must be the one I heard about, that travelled up the mountain.”</p>
+<ul>
+<li>Next → <a href="#d-herec_2">herec_2</a></li>
+</ul>
+<p><span id="d-herec_q4"></span><strong><code>herec_q4</code></strong> Herec: “Now I am able to create effective potions that contain some essence of the white wyrms. These potions will be very useful in future dealings with these monsters.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/bwm_wyrms/#stage-30">No weakness</a></p>
+<ul>
+<li>Next → <a href="#d-herec_q5">herec_q5</a></li>
+</ul>
+<p><span id="d-herec_4"></span><strong><code>herec_4</code></strong> Herec: “It is simple really. I am studying these wyrm creatures that lurk outside our settlement. I am trying to find what their strengths are, so that I can use it for myself.”</p>
+<ul>
+<li>Next → <a href="#d-herec_5">herec_5</a></li>
+</ul>
+<p><span id="d-herec_10"></span><strong><code>herec_10</code></strong> Herec: “Good. Thank you. Please hurry back so I can continue my research on these beasts.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/bwm_wyrms/#stage-10">No weakness</a></p>
+<p><span id="d-herec_q2"></span><strong><code>herec_q2</code></strong> Herec: “Very well done my friend! These will be very valuable in my research.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/bwm_wyrms/#stage-20">No weakness</a></p>
+<ul>
+<li>Next → <a href="#d-herec_q2_2">herec_q2_2</a></li>
+</ul>
+<p><span id="d-herec_2"></span><strong><code>herec_2</code></strong> Herec: “Would you be willing to help me with a task?”</p>
+<ul>
+<li>“Depends. What task?” → <a href="#d-herec_4">herec_4</a></li>
+<li>“Why would I want to help you?” → <a href="#d-herec_3">herec_3</a></li>
+</ul>
+<p><span id="d-herec_5"></span><strong><code>herec_5</code></strong> Herec: “But my expertise is in the studies of them, and not in actually going head to head with those things.”</p>
+<ul>
+<li>Next → <a href="#d-herec_6">herec_6</a></li>
+</ul>
+<p><span id="d-herec_q2_2"></span><strong><code>herec_q2_2</code></strong> Herec: “Come back in just a minute and I will have something ready for you.”</p>
+<p><span id="d-herec_3"></span><strong><code>herec_3</code></strong> Herec: “Ah, a negotiator. I like that. If you help me, I will offer to trade the fruits of my labour with you. It should be most valuable to you.”</p>
+<ul>
+<li>“Fine. What task are we talking about here?” → <a href="#d-herec_4">herec_4</a></li>
+<li>“No, how can I agree to something when I don't know what it is? I'm out.” → <a href="#d-herec_11">herec_11</a></li>
+</ul>
+<p><span id="d-herec_6"></span><strong><code>herec_6</code></strong> Herec: “That's where you come in.”</p>
+<ul>
+<li>Next → <a href="#d-herec_7">herec_7</a></li>
+</ul>
+<p><span id="d-herec_11"></span><strong><code>herec_11</code></strong> Herec: “I assure you that my research is important. But it's your decision, and your loss.”</p>
+<p><span id="d-herec_7"></span><strong><code>herec_7</code></strong> Herec: “I need you to gather some samples from them for me. I hear that some of the white wyrm beasts have sharper claws that can be extracted at the time of death.”</p>
+<ul>
+<li>Next → <a href="#d-herec_8">herec_8</a></li>
+</ul>
+<p><span id="d-herec_8"></span><strong><code>herec_8</code></strong> Herec: “If you were to bring me some samples of those claws from the white wyrms, that would really speed up my research further.”</p>
+<ul>
+<li>Next → <a href="#d-herec_9">herec_9</a></li>
+</ul>
+<p><span id="d-herec_9"></span><strong><code>herec_9</code></strong> Herec: “Let's say, five of those claws should be enough.”</p>
+<ul>
+<li>“OK, sounds easy enough. I'll get you your 5 white wyrm claws.” → <a href="#d-herec_10">herec_10</a></li>
+<li>“Sure. Those things are no match for me.” → <a href="#d-herec_10">herec_10</a></li>
+<li>“No way I am going near those beasts again.” → <a href="#d-herec_11">herec_11</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=herec.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=herec.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=herec.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=herec.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>herec</code> · Data from v0.8.18</small></p>
 
 

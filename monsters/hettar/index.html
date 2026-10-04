@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,92 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain55/">blackwater_mountain55</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/hettar_dog/">Where is Norry?</a>: stages 10, 20, 30, 80, 90</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (17 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-hettar"></span><strong><code>hettar</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/hettar_dog/#stage-90">Where is Norry?</a>)</em> → <a href="#d-hettar_90">hettar_90</a></li>
+<li>branch 2 <em>(if reached stage 80 of <a href="../../quests/hettar_dog/#stage-80">Where is Norry?</a>)</em> → <a href="#d-hettar_80">hettar_80</a></li>
+<li>branch 3 <em>(if reached stage 50 of <a href="../../quests/hettar_dog/#stage-50">Where is Norry?</a>)</em> → <a href="#d-hettar_50">hettar_50</a></li>
+<li>branch 4 <em>(if reached stage 30 of <a href="../../quests/hettar_dog/#stage-30">Where is Norry?</a>)</em> → <a href="#d-hettar_30">hettar_30</a></li>
+<li>branch 5 <em>(if reached stage 20 of <a href="../../quests/hettar_dog/#stage-20">Where is Norry?</a>)</em> → <a href="#d-hettar_20">hettar_20</a></li>
+<li>branch 6 <em>(if reached stage 10 of <a href="../../quests/hettar_dog/#stage-10">Where is Norry?</a>)</em> → <a href="#d-hettar_10">hettar_10</a></li>
+<li>branch 7 → <a href="#d-hettar_1">hettar_1</a></li>
+</ul>
+<p><span id="d-hettar_90"></span><strong><code>hettar_90</code></strong> Little Hettar: “My poor Norry! Why did you have to die so young? * Sob *”</p>
+<ul>
+<li>Next → <a href="#d-hettar_90_10">hettar_90_10</a></li>
+</ul>
+<p><span id="d-hettar_80"></span><strong><code>hettar_80</code></strong> Little Hettar: “Thank you again a thousand times for rescuing my little Norry!”</p>
+<p><span id="d-hettar_50"></span><strong><code>hettar_50</code></strong> Little Hettar: “Haha! You know what? Norry has come back all alone! You have made all the way down unnecessarily.”</p>
+<ul>
+<li>“Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.” → <a href="#d-hettar_50_10">hettar_50_10</a></li>
+</ul>
+<p><span id="d-hettar_30"></span><strong><code>hettar_30</code></strong> Little Hettar: “I can read it in your face - there is no hope for Norry.”</p>
+<ul>
+<li>“This brute attacked me, so I had to kill it.” <em>(if killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_10_6">hettar_10_6</a></li>
+<li>“This brute growled at me, but I got away and let it live.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>; NOT killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_20">hettar_20</a></li>
+<li>“I am still searching.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-hettar_20"></span><strong><code>hettar_20</code></strong> Little Hettar: “Please go down there and look for my doggie. Maybe he is injured? Bring him back! You must!”</p>
+<ul>
+<li>“OK, I'll do it.” <em>(if NOT killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_20_10">hettar_20_10</a></li>
+<li>“This brute attacked me, so I had to kill it.” <em>(if killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_10_6">hettar_10_6</a></li>
+<li>“Eh, I have to leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-hettar_10"></span><strong><code>hettar_10</code></strong> Little Hettar: “Please help to find Norry. He is my only friend, and he is helpless without me.”</p>
+<ul>
+<li>“How can I help you?” → <a href="#d-hettar_20">hettar_20</a></li>
+<li>“The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge…” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>)</em> → <a href="#d-hettar_10_4">hettar_10_4</a></li>
+</ul>
+<p><span id="d-hettar_1"></span><strong><code>hettar_1</code></strong> Little Hettar: “Norry! Nooorryyyy!”</p>
+<ul>
+<li>“Hush! Don't make such noise with all these monsters around!” → <a href="#d-hettar_1_4">hettar_1_4</a></li>
+<li>“Who is Norry?” → <a href="#d-hettar_1_2">hettar_1_2</a></li>
+</ul>
+<p><span id="d-hettar_90_10"></span><strong><code>hettar_90_10</code></strong> Little Hettar: “Go away! I hate you!”</p>
+<p><span id="d-hettar_50_10"></span><strong><code>hettar_50_10</code></strong> Little Hettar: “Oh. Thank you then.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/hettar_dog/#stage-80">Where is Norry?</a></p>
+<p><span id="d-hettar_10_6"></span><strong><code>hettar_10_6</code></strong> Little Hettar: “[Hettar fell on the floor] Nooo! What did you do?!” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/hettar_dog/#stage-90">Where is Norry?</a></p>
+<p><span id="d-hettar_20_10"></span><strong><code>hettar_20_10</code></strong> Little Hettar: “Great! Go immediately, as long as he might be alive still.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/hettar_dog/#stage-20">Where is Norry?</a>, removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55</p>
+<ul>
+<li>“I hope he will follow me.” <em>(if NOT reached stage 30 of <a href="../../quests/hettar_dog/#stage-30">Where is Norry?</a>)</em> → <a href="#d-hettar_20_30">hettar_20_30</a></li>
+<li>“I hope he will follow me.” <em>(if reached stage 30 of <a href="../../quests/hettar_dog/#stage-30">Where is Norry?</a>)</em> → <a href="#d-hettar_20_20">hettar_20_20</a></li>
+<li>“I have no time just now. I'll be back soon.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-hettar_10_4"></span><strong><code>hettar_10_4</code></strong> Little Hettar: “This must be him! Go and get him here - be quick!”</p>
+<ul>
+<li>“That would be of no use. This brute had attacked me, so I had to kill it.” <em>(if killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_10_6">hettar_10_6</a></li>
+<li>“This brute growled at me, but I got away unharmed.” <em>(if NOT killed 1× <a href="../hettar_dog3/">Wolfhound</a>)</em> → <a href="#d-hettar_20">hettar_20</a></li>
+<li>“Eh, I have to leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-hettar_1_4"></span><strong><code>hettar_1_4</code></strong> Little Hettar: “I can see these Gornauds myself. That's why I must find Norry urgently. Nooorryyyy!”</p>
+<ul>
+<li>“Who is Norry?” → <a href="#d-hettar_1_2">hettar_1_2</a></li>
+</ul>
+<p><span id="d-hettar_1_2"></span><strong><code>hettar_1_2</code></strong> Little Hettar: “Norry is my little doggie. He fell down the steep slope and has not found his way back yet.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/hettar_dog/#stage-10">Where is Norry?</a></p>
+<ul>
+<li>“Oh dear.” → <a href="#d-hettar_10">hettar_10</a></li>
+<li>“A dog! He will be back soon... I better go now.” → <em>conversation ends</em></li>
+<li>“I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>)</em> → <a href="#d-hettar_10">hettar_10</a></li>
+</ul>
+<p><span id="d-hettar_20_30"></span><strong><code>hettar_20_30</code></strong> Little Hettar: “Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/hettar_dog/#stage-30">Where is Norry?</a>, gives 1× <a href="../../items/hettar_bone/">Wyrm meat</a></p>
+<p><span id="d-hettar_20_20"></span><strong><code>hettar_20_20</code></strong> Little Hettar: “I gave you my last piece of Wyrm meat for Norry. Did you lose it?”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>hettar</code> · Data from v0.8.18</small></p>
 
 

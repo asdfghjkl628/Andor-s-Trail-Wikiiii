@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -987,6 +1059,144 @@
 <ul>
 <li><a href="../../maps/vilegard_smith/">vilegard_smith</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/xulviir/">A creeping fear</a>: stages 20, 30</li>
+<li><a href="../../quests/feygard_shipment/">Feygard errands</a>: stages 55, 56</li>
+<li><a href="../../quests/vilegard/">Trusting an outsider</a>: stages 10</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (29 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-vilegard_smith_select"></span><strong><code>vilegard_smith_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 56 of <a href="../../quests/feygard_shipment/#stage-56">Feygard errands</a>)</em> → <a href="#d-vilegard_smith_1">vilegard_smith_1</a></li>
+<li>branch 2 <em>(if reached stage 55 of <a href="../../quests/feygard_shipment/#stage-55">Feygard errands</a>)</em> → <a href="#d-vilegard_smith_fg_2">vilegard_smith_fg_2</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a>)</em> → <a href="#d-vilegard_smith_1">vilegard_smith_1</a></li>
+<li>branch 4 → <a href="#d-vilegard_shop_notrust_smith">vilegard_shop_notrust_smith</a></li>
+</ul>
+<p><span id="d-vilegard_smith_1"></span><strong><code>vilegard_smith_1</code></strong> Vilegard smith: “Hello there. I heard you helped us here in Vilegard. What can I help you with?”</p>
+<ul>
+<li>“Can I see what items you have for sale?” → <em>shop opens</em></li>
+<li>“I have a shipment of Feygard items for you.” <em>(if reached stage 35 of <a href="../../quests/feygard_shipment/#stage-35">Feygard errands</a>; hand over 10× <a href="../../items/fg_ironsword/">Feygard iron sword</a>)</em> → <a href="#d-vilegard_smith_fg_1">vilegard_smith_fg_1</a></li>
+<li>“On the body of something called the Hira'zinn, I found this peculiar sword. Do you know anything about it?” <em>(if carry 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_1">vilegard_smith_xul_1</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_2"></span><strong><code>vilegard_smith_fg_2</code></strong> Vilegard smith: “Thank you for bringing me these items, they will be most useful to us here in the southern lands, and Vilegard in particular. We rarely get our hands on Feygard items, so these are really welcome.”</p>
+<ul>
+<li>“I was sent to deliver these items to a Feygard patrol stationed in the Foaming Flask tavern.” → <a href="#d-vilegard_smith_fg_3">vilegard_smith_fg_3</a></li>
+</ul>
+<p><span id="d-vilegard_shop_notrust_smith"></span><strong><code>vilegard_shop_notrust_smith</code></strong> Vilegard smith: “You are an outsider. We don't like outsiders here in Vilegard. Please leave.”</p>
+<ul>
+<li>“Why is everyone in Vilegard so suspicious of outsiders?” → <a href="#d-vilegard_shop_notrust_2">vilegard_shop_notrust_2</a></li>
+<li>“Can I see what items you have for sale?” → <a href="#d-vilegard_shop_notrust_2">vilegard_shop_notrust_2</a></li>
+<li>“I have a shipment of Feygard items for you.” <em>(if reached stage 35 of <a href="../../quests/feygard_shipment/#stage-35">Feygard errands</a>; carry 10× <a href="../../items/fg_ironsword/">Feygard iron sword</a>)</em> → <a href="#d-vilegard_shop_notrust_2">vilegard_shop_notrust_2</a></li>
+<li>“On the body of something called the Hira'zinn, I found this peculiar sword. Do you know anything about it?” <em>(if carry 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_shop_notrust_2">vilegard_shop_notrust_2</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_1"></span><strong><code>vilegard_smith_fg_1</code></strong> Vilegard smith: “Oh, this is most unexpected but very welcome. I will not question how you acquired these items, but instead express my gratitude for bringing them to me.” — <strong>effects:</strong> sets stage 55 of <a href="../../quests/feygard_shipment/#stage-55">Feygard errands</a></p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_fg_2">vilegard_smith_fg_2</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_1"></span><strong><code>vilegard_smith_xul_1</code></strong> Vilegard smith: “[Takes a step back] What ... is ... that? It can't be? No. Let me look at it.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_2">vilegard_smith_xul_2</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_3"></span><strong><code>vilegard_smith_fg_3</code></strong> Vilegard smith: “Instead, you brought them to me. You have my thanks.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_fg_4">vilegard_smith_fg_4</a></li>
+</ul>
+<p><span id="d-vilegard_shop_notrust_2"></span><strong><code>vilegard_shop_notrust_2</code></strong> Vilegard smith: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/vilegard/#stage-10">Trusting an outsider</a></p>
+<p><span id="d-vilegard_smith_xul_2"></span><strong><code>vilegard_smith_xul_2</code></strong> Vilegard smith: “It has all the markings. But it can't be? I don't understand.”</p>
+<ul>
+<li>“What is it?” → <a href="#d-vilegard_smith_xul_3">vilegard_smith_xul_3</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_4"></span><strong><code>vilegard_smith_fg_4</code></strong> Vilegard smith: “Hah, this means that we have another opportunity here. What if you were to deliver some other items to the Feygard patrol instead? Hah, this will really make my day.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_fg_5">vilegard_smith_fg_5</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_3"></span><strong><code>vilegard_smith_xul_3</code></strong> Vilegard smith: “This thing that you have stumbled upon, my friend. This is the Xul'viir. A most foul item indeed.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_4">vilegard_smith_xul_4</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_5"></span><strong><code>vilegard_smith_fg_5</code></strong> Vilegard smith: “I might have something that will do just fine... Let me just find them.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_fg_6">vilegard_smith_fg_6</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_4"></span><strong><code>vilegard_smith_xul_4</code></strong> Vilegard smith: “It has been said that King Luthor destroyed the sword so that it would not fall into the wrong hands.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_5">vilegard_smith_xul_5</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_6"></span><strong><code>vilegard_smith_fg_6</code></strong> Vilegard smith: “Here they are. Ha ha, these will do just fine for those deceiving Feygard snobs.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_fg_7">vilegard_smith_fg_7</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_5"></span><strong><code>vilegard_smith_xul_5</code></strong> Vilegard smith: “It would seem that either he, or the stories have not been telling the truth.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_6">vilegard_smith_xul_6</a></li>
+</ul>
+<p><span id="d-vilegard_smith_fg_7"></span><strong><code>vilegard_smith_fg_7</code></strong> Vilegard smith: “Take these items and deliver them to wherever you were supposed to deliver the items you gave me.” — <strong>effects:</strong> sets stage 56 of <a href="../../quests/feygard_shipment/#stage-56">Feygard errands</a>, gives <a href="../../items/fg_ironsword_d/">Degraded Feygard iron sword</a></p>
+<p><span id="d-vilegard_smith_xul_6"></span><strong><code>vilegard_smith_xul_6</code></strong> Vilegard smith: “If restored, anyone wielding it would make their enemies tremble from only the sight of it.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_7">vilegard_smith_xul_7</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_7"></span><strong><code>vilegard_smith_xul_7</code></strong> Vilegard smith: “You must destroy it, of course. Here, put it into my smelting pit and we'll be rid of it.”</p>
+<ul>
+<li>“Here it is. We had better get rid of it.” <em>(if hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_8">vilegard_smith_xul_8</a></li>
+<li>“I'd like to keep it.” → <a href="#d-vilegard_smith_xul_9">vilegard_smith_xul_9</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_8"></span><strong><code>vilegard_smith_xul_8</code></strong> Vilegard smith: “Into the smelting pit with it. Good. See how it bubbles and flares? That's the lives of countless people thanking you for destroying it.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/xulviir/#stage-30">A creeping fear</a></p>
+<p><span id="d-vilegard_smith_xul_9"></span><strong><code>vilegard_smith_xul_9</code></strong> Vilegard smith: “You can't be serious. It needs to be destroyed!”</p>
+<ul>
+<li>“Here it is. We had better get rid of it.” <em>(if hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_8">vilegard_smith_xul_8</a></li>
+<li>“You mentioned restoring it before, what would that entail?” → <a href="#d-vilegard_smith_xul_10">vilegard_smith_xul_10</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_10"></span><strong><code>vilegard_smith_xul_10</code></strong> Vilegard smith: “The original sword had ornaments of rare crystals, and a blade that was as sharp as nothing else.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_11">vilegard_smith_xul_11</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_11"></span><strong><code>vilegard_smith_xul_11</code></strong> Vilegard smith: “I can't believe I'm telling you this. Give. It. Here. Now! It needs to be destroyed!”</p>
+<ul>
+<li>“Here it is. We had better get rid of it.” <em>(if hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_8">vilegard_smith_xul_8</a></li>
+<li>“How about you get to work on restoring it, and I won't kill you.” → <a href="#d-vilegard_smith_xul_12">vilegard_smith_xul_12</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_12"></span><strong><code>vilegard_smith_xul_12</code></strong> Vilegard smith: “I ... what? Are you threatening me?”</p>
+<ul>
+<li>“You won't believe what I had to go through to get it.” → <a href="#d-vilegard_smith_xul_13">vilegard_smith_xul_13</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_13"></span><strong><code>vilegard_smith_xul_13</code></strong> Vilegard smith: “Sigh. You don't know what you are getting yourself into, kid.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_14">vilegard_smith_xul_14</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_14"></span><strong><code>vilegard_smith_xul_14</code></strong> Vilegard smith: “Regardless, to restore the sword to its former shape, I'd need some of those crystals that it was adorned with, and those crystals are really hard to come by.”</p>
+<ul>
+<li>Next → <a href="#d-vilegard_smith_xul_15">vilegard_smith_xul_15</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_15"></span><strong><code>vilegard_smith_xul_15</code></strong> Vilegard smith: “I think they are called Oegyth or something like that. The sword had three of them on its hilt.”</p>
+<ul>
+<li>“Never mind. Here is the sword. We had better destroy it.” <em>(if hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_8">vilegard_smith_xul_8</a></li>
+<li>“I'll go find some of those crystals.” → <a href="#d-vilegard_smith_xul_16">vilegard_smith_xul_16</a></li>
+<li>“I have three of those crystals right here.” <em>(if carry 3× <a href="../../items/oegyth/">Oegyth crystal</a>)</em> → <a href="#d-vilegard_smith_xul_17">vilegard_smith_xul_17</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_16"></span><strong><code>vilegard_smith_xul_16</code></strong> Vilegard smith: “Pfft. Run along now, and don't threaten anyone else, you hear?”</p>
+<p><span id="d-vilegard_smith_xul_17"></span><strong><code>vilegard_smith_xul_17</code></strong> Vilegard smith: “You continue to amaze me. Now, are you really sure that you want to do this? The lives of the people that it has slain will haunt you.”</p>
+<ul>
+<li>“I'm sure. Here is the sword and three of those crystals. Restore it to how it once was.” <em>(if hand over 3× <a href="../../items/oegyth/">Oegyth crystal</a>; hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_19">vilegard_smith_xul_19</a></li>
+<li>“Never mind. Here is the sword. We had better destroy it.” <em>(if hand over 1× <a href="../../items/xulviir0/">Broken sword</a>)</em> → <a href="#d-vilegard_smith_xul_8">vilegard_smith_xul_8</a></li>
+</ul>
+<p><span id="d-vilegard_smith_xul_19"></span><strong><code>vilegard_smith_xul_19</code></strong> Vilegard smith: “Sigh. OK, whatever you say. We just need to fit these into there, and sharpen up this bit here. There. It should be almost like it once was.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/xulviir/#stage-20">A creeping fear</a>, gives <a href="../../items/xulviir/">Xul'viir</a></p>
+<ul>
+<li>“Thanks.” → <a href="#d-vilegard_smith_xul_16">vilegard_smith_xul_16</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vilegard_smith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vilegard_smith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vilegard_smith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vilegard_smith.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>vilegard_smith</code> · Data from v0.8.18</small></p>
 
 

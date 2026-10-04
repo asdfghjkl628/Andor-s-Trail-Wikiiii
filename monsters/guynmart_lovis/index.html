@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,87 @@
 <ul>
 <li><a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/guynmart/">Roses</a>: stages 132, 134</li>
+<li><a href="../../quests/guynmart_nondisplay/">guynmart nondisplay (hidden flag)</a>: stages 6</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (13 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-guynmart_lovis_10"></span><strong><code>guynmart_lovis_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 132 of <a href="../../quests/guynmart/#stage-132">Roses</a>)</em> → <a href="#d-guynmart_lovis_100">guynmart_lovis_100</a></li>
+<li>branch 2 → <a href="#d-guynmart_lovis_20">guynmart_lovis_20</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_100"></span><strong><code>guynmart_lovis_100</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 134 of <a href="../../quests/guynmart/#stage-134">Roses</a>)</em> → <a href="#d-guynmart_lovis_200">guynmart_lovis_200</a></li>
+<li>branch 2 <em>(if 5 rounds passed since timer “guynmart_flute”)</em> → <a href="#d-guynmart_lovis_104">guynmart_lovis_104</a></li>
+<li>branch 3 → <a href="#d-guynmart_lovis_102">guynmart_lovis_102</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_20"></span><strong><code>guynmart_lovis_20</code></strong> Lovis: “What are you - a spy? Or just another prisoner?”</p>
+<ul>
+<li>“I'm a prisoner too. What is your name?” → <a href="#d-guynmart_lovis_22">guynmart_lovis_22</a></li>
+<li>“I'm $playername. Lady Hannah asked me to look for someone called Lovis.” → <a href="#d-guynmart_lovis_30">guynmart_lovis_30</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_200"></span><strong><code>guynmart_lovis_200</code></strong> Lovis: “Oh no! Look! The torturer! I will run around him and look for Guynmart's personal guards outside in the wood. They will help us. I hope Guynmart himself is also with them.” — <strong>effects:</strong> sets stage 134 of <a href="../../quests/guynmart/#stage-134">Roses</a>, spawns monsters on guynmart_tower_0, removes monsters from guynmart_tower_0</p>
+<ul>
+<li>“OK, we will see each other later.” → <em>NPC leaves</em></li>
+<li>“I will try to still be alive then.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_104"></span><strong><code>guynmart_lovis_104</code></strong> Lovis: “I will play something on my flute. Maybe this will give us some hope.”</p>
+<ul>
+<li>“Please do. Maybe a tune you used to play for Lady Hannah?” → <a href="#d-guynmart_lovis_110">guynmart_lovis_110</a></li>
+<li>“Is that a good idea? We might disturb someone.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_102"></span><strong><code>guynmart_lovis_102</code></strong> Lovis: “What a dreadful place. Time seems endless here.”</p>
+<ul>
+<li>“Yes, but we must not give up hope.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_22"></span><strong><code>guynmart_lovis_22</code></strong> Lovis: “No, you must tell me your name first.”</p>
+<ul>
+<li>“No, first you will tell me your name.” → <a href="#d-guynmart_lovis_22">guynmart_lovis_22</a></li>
+<li>“If you are going to be so rude, I have nothing to say.” → <em>conversation ends</em></li>
+<li>“I am $playername. Lady Hannah asked me to look for someone called Lovis.” → <a href="#d-guynmart_lovis_30">guynmart_lovis_30</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_30"></span><strong><code>guynmart_lovis_30</code></strong> Lovis: “You come from Hannah? I must be sure. Prove it!”</p>
+<ul>
+<li>“Here, I should give you this.” <em>(if hand over 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a>)</em> → <a href="#d-guynmart_lovis_40">guynmart_lovis_40</a></li>
+<li>“Oh dear - I forgot to bring your flute!” <em>(if NOT carry 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_110"></span><strong><code>guynmart_lovis_110</code></strong> Lovis: “[Fluting]”</p>
+<ul>
+<li>“What a lovely tune! I almost seem to understand the meaning.” → <a href="#d-guynmart_lovis_120">guynmart_lovis_120</a></li>
+<li>“Eh, nice, thank you for trying.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_40"></span><strong><code>guynmart_lovis_40</code></strong> Lovis: “My flute! How I have missed it! I believe you now.” — <strong>effects:</strong> sets stage 132 of <a href="../../quests/guynmart/#stage-132">Roses</a>, sets stage 6 of <a href="../../quests/guynmart_nondisplay/#stage-6">guynmart nondisplay (hidden flag)</a>, starts timer “guynmart_flute”</p>
+<ul>
+<li>“This is settled then. Let us now look for an exit.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_lovis_120"></span><strong><code>guynmart_lovis_120</code></strong> Lovis: “[Fluting]”</p>
+<ul>
+<li>“...do me wrong...” → <a href="#d-guynmart_lovis_130">guynmart_lovis_130</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_130"></span><strong><code>guynmart_lovis_130</code></strong> Lovis: “[Fluting]”</p>
+<ul>
+<li>“...all my joy ... my delight...” → <a href="#d-guynmart_lovis_190">guynmart_lovis_190</a></li>
+</ul>
+<p><span id="d-guynmart_lovis_190"></span><strong><code>guynmart_lovis_190</code></strong> Lovis: “Hush - I hear footsteps.”</p>
+<ul>
+<li>“Maybe some friendly soul will let us out? After all, we are completely innocent.” → <a href="#d-guynmart_lovis_200">guynmart_lovis_200</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_lovis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_lovis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_lovis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_lovis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>guynmart_lovis</code> · Data from v0.8.18</small></p>
 
 

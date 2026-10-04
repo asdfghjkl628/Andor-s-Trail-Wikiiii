@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,121 @@
 <ul>
 <li><a href="../../maps/crossglen/">crossglen</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/postman/">You're the postman</a>: stages 10, 12, 15, 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (25 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-gorwath"></span><strong><code>gorwath</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/postman/#stage-30">You're the postman</a>)</em> → <a href="#d-gorwath_done">gorwath_done</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/postman/#stage-20">You're the postman</a>)</em> → <a href="#d-gorwath_love">gorwath_love</a></li>
+<li>branch 3 <em>(if reached stage 15 of <a href="../../quests/postman/#stage-15">You're the postman</a>)</em> → <a href="#d-gorwath_tmp">gorwath_tmp</a></li>
+<li>branch 4 <em>(if reached stage 10 of <a href="../../quests/postman/#stage-10">You're the postman</a>)</em> → <a href="#d-gorwath_letter_20">gorwath_letter_20</a></li>
+<li>branch 5 → <a href="#d-gorwath_letter">gorwath_letter</a></li>
+</ul>
+<p><span id="d-gorwath_done"></span><strong><code>gorwath_done</code></strong> Gorwath: “Thanks again for your great help!”</p>
+<ul>
+<li>“My pleasure.” → <a href="#d-gorwath_exit">gorwath_exit</a></li>
+</ul>
+<p><span id="d-gorwath_love"></span><strong><code>gorwath_love</code></strong> Gorwath: “You are back! Did you find Arensia?”</p>
+<ul>
+<li>“Yes. I gave her the letter and she asked me to tell you that she loves you too.” → <a href="#d-gorwath_love_1">gorwath_love_1</a></li>
+</ul>
+<p><span id="d-gorwath_tmp"></span><strong><code>gorwath_tmp</code></strong> Gorwath: “Did you give her the letter yet?”</p>
+<ul>
+<li>“Eh ... no. I thought, it wasn't that important.” → <a href="#d-gorwath_tmp2">gorwath_tmp2</a></li>
+</ul>
+<p><span id="d-gorwath_letter_20"></span><strong><code>gorwath_letter_20</code></strong> Gorwath: “Would you be so kind to give her my letter?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/postman/#stage-10">You're the postman</a></p>
+<ul>
+<li>“Yeah sure, why not?” → <a href="#d-gorwath_letter_50">gorwath_letter_50</a></li>
+<li>“No I'm busy. Good bye.” → <a href="#d-gorwath_letter_22">gorwath_letter_22</a></li>
+</ul>
+<p><span id="d-gorwath_letter"></span><strong><code>gorwath_letter</code></strong> Gorwath: “Hey, Andor!”</p>
+<ul>
+<li>“I am not Andor. What do you want from him?” → <a href="#d-gorwath_letter_1">gorwath_letter_1</a></li>
+</ul>
+<p><span id="d-gorwath_exit"></span><strong><code>gorwath_exit</code></strong> Gorwath: “I will go now and prepare a present for lovely Arensia. When we get married, you will of course be invited.”</p>
+<ul>
+<li>“OK. Bye.” → <a href="#d-gorwath_exit_1">gorwath_exit_1</a></li>
+</ul>
+<p><span id="d-gorwath_love_1"></span><strong><code>gorwath_love_1</code></strong> Gorwath: “That's great! I'm so excited!”</p>
+<ul>
+<li>Next → <a href="#d-gorwath_love_2">gorwath_love_2</a></li>
+</ul>
+<p><span id="d-gorwath_tmp2"></span><strong><code>gorwath_tmp2</code></strong> Gorwath: “Not that important?? I can barely breathe if I don't get her answer! Hurry now! Please, do.”</p>
+<p><span id="d-gorwath_letter_50"></span><strong><code>gorwath_letter_50</code></strong> Gorwath: “Thanks a lot. Here's the letter. Go to Fallhaven and look for Arensia.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/postman/#stage-15">You're the postman</a>, gives 1× <a href="../../items/gorwath_letter/">Gorwath's letter</a></p>
+<ul>
+<li>“Fallhaven is a big city. How shall I find her?” → <a href="#d-gorwath_letter_52">gorwath_letter_52</a></li>
+</ul>
+<p><span id="d-gorwath_letter_22"></span><strong><code>gorwath_letter_22</code></strong> Gorwath: “You really don't want to help me? Then I have no more hope.”</p>
+<ul>
+<li>“Now, now. Give me your precious letter, I'll do it.” → <a href="#d-gorwath_letter_50">gorwath_letter_50</a></li>
+<li>“Sorry, but I have no time. I have to find my brother now.” → <a href="#d-gorwath_letter_24">gorwath_letter_24</a></li>
+<li>“Grow up and solve your problems yourself. I'm not a postman!” → <a href="#d-gorwath_letter_24">gorwath_letter_24</a></li>
+</ul>
+<p><span id="d-gorwath_letter_1"></span><strong><code>gorwath_letter_1</code></strong> Gorwath: “Oh, Andor promised to meet me here. Who are you?”</p>
+<ul>
+<li>“My name is $playername. I'm looking for my brother too, he has been away for a while now.” → <a href="#d-gorwath_letter_2">gorwath_letter_2</a></li>
+<li>“My name is none of your business. Get out of our property now!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gorwath_exit_1"></span><strong><code>gorwath_exit_1</code></strong> Gorwath: “Before we go our separate ways, please take this ring that I found behind those haystacks over there.” — <strong>effects:</strong> removes monsters from crossglen, gives <a href="../../items/kids_ring/">Kid's ring</a></p>
+<p><span id="d-gorwath_love_2"></span><strong><code>gorwath_love_2</code></strong> Gorwath: “You have truly earned these gold pieces.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/postman/#stage-30">You're the postman</a>, gives 30× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thank you.” → <a href="#d-gorwath_exit">gorwath_exit</a></li>
+</ul>
+<p><span id="d-gorwath_letter_52"></span><strong><code>gorwath_letter_52</code></strong> Gorwath: “She is the daughter of Jakrar the woodcutter, so she will surely live there.”</p>
+<p><span id="d-gorwath_letter_24"></span><strong><code>gorwath_letter_24</code></strong> Gorwath: “Good by then. I will not disturb you anymore. * Sob <em>” — </em><em>effects:</em>* sets stage 12 of <a href="../../quests/postman/#stage-12">You're the postman</a>, removes monsters from crossglen</p>
+<p><span id="d-gorwath_letter_2"></span><strong><code>gorwath_letter_2</code></strong> Gorwath: “Oh dear, oh dear. This is a very personal matter. I don't want everyone to know about it.”</p>
+<ul>
+<li>“I want to help you since my brother did not. Please tell me what's on your mind.” → <a href="#d-gorwath_letter_3">gorwath_letter_3</a></li>
+<li>“I promise not to tell anyone.” → <a href="#d-gorwath_letter_3">gorwath_letter_3</a></li>
+</ul>
+<p><span id="d-gorwath_letter_3"></span><strong><code>gorwath_letter_3</code></strong> Gorwath: “Really? That's very kind of you.”</p>
+<ul>
+<li>Next → <a href="#d-gorwath_letter_10">gorwath_letter_10</a></li>
+</ul>
+<p><span id="d-gorwath_letter_10"></span><strong><code>gorwath_letter_10</code></strong> Gorwath: “You probably don't know me. I am Gorwath. I only recently moved to Crossglen to live with my aunt.”</p>
+<ul>
+<li>“With Leta?” → <a href="#d-gorwath_letter_11">gorwath_letter_11</a></li>
+</ul>
+<p><span id="d-gorwath_letter_11"></span><strong><code>gorwath_letter_11</code></strong> Gorwath: “Yes. You know her? Then you will also know how strict she can be. Sigh.”</p>
+<ul>
+<li>“Indeed.” → <a href="#d-gorwath_letter_12">gorwath_letter_12</a></li>
+</ul>
+<p><span id="d-gorwath_letter_12"></span><strong><code>gorwath_letter_12</code></strong> Gorwath: “I met someone at the last weekly market and I want to send them something.”</p>
+<ul>
+<li>“Who is he?” → <a href="#d-gorwath_letter_13">gorwath_letter_13</a></li>
+</ul>
+<p><span id="d-gorwath_letter_13"></span><strong><code>gorwath_letter_13</code></strong> Gorwath: “To be precise, I have a letter ... for ... a lovely girl.”</p>
+<ul>
+<li>“Huh?” → <a href="#d-gorwath_letter_14">gorwath_letter_14</a></li>
+</ul>
+<p><span id="d-gorwath_letter_14"></span><strong><code>gorwath_letter_14</code></strong> Gorwath: “Yes, she is the most beautiful girl in the world! Her name is Arensia.”</p>
+<ul>
+<li>“Hm, I don't know anyone here by that name.” → <a href="#d-gorwath_letter_15">gorwath_letter_15</a></li>
+</ul>
+<p><span id="d-gorwath_letter_15"></span><strong><code>gorwath_letter_15</code></strong> Gorwath: “Unfortunately she lives in Fallhaven. My aunt would never allow me to go there.”</p>
+<ul>
+<li>“And how could I help you?” → <a href="#d-gorwath_letter_16">gorwath_letter_16</a></li>
+</ul>
+<p><span id="d-gorwath_letter_16"></span><strong><code>gorwath_letter_16</code></strong> Gorwath: “Andor promised to take the letter to her. Maybe you could ...”</p>
+<ul>
+<li>“I could what?” → <a href="#d-gorwath_letter_20">gorwath_letter_20</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gorwath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gorwath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gorwath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gorwath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>gorwath</code> · Data from v0.8.18</small></p>
 
 

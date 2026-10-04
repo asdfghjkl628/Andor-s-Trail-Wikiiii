@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,136 @@
 <ul>
 <li><a href="../../maps/waterwaybhouse/">waterwaybhouse</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/waterwayacave/">Just the beginning</a>: stages 10, 12, 15, 20, 25, 30, 35, 60, 70</li>
+<li><a href="../../quests/nondisplay_2/">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>: stages 10, 90, 120</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (28 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-cithurn_begin"></span><strong><code>cithurn_begin</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>; NOT reached stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a>)</em> → <a href="#d-cithurn_10">cithurn_10</a></li>
+<li>Next <em>(if NOT reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>; NOT reached stage 90 of <a href="../../quests/nondisplay_2/#stage-90">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-cithurn_00">cithurn_00</a></li>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>; NOT reached stage 12 of <a href="../../quests/waterwayacave/#stage-12">Just the beginning</a>; NOT reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>)</em> → <a href="#d-cithurn_64">cithurn_64</a></li>
+<li>Next <em>(if reached stage 70 of <a href="../../quests/waterwayacave/#stage-70">Just the beginning</a>; NOT reached stage 120 of <a href="../../quests/nondisplay_2/#stage-120">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-cithurn_110">cithurn_110</a></li>
+<li>Next <em>(if NOT reached stage 90 of <a href="../../quests/nondisplay_2/#stage-90">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 70 of <a href="../../quests/waterwayacave/#stage-70">Just the beginning</a>)</em> → <a href="#d-cithurn_90">cithurn_90</a></li>
+<li>Next <em>(if reached stage 90 of <a href="../../quests/nondisplay_2/#stage-90">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>)</em> → <a href="#d-cithurn_120">cithurn_120</a></li>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>; NOT reached stage 70 of <a href="../../quests/waterwayacave/#stage-70">Just the beginning</a>)</em> → <a href="#d-cithurn_90">cithurn_90</a></li>
+<li>Next <em>(if reached stage 120 of <a href="../../quests/nondisplay_2/#stage-120">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-cithurn_130">cithurn_130</a></li>
+</ul>
+<p><span id="d-cithurn_10"></span><strong><code>cithurn_10</code></strong> Cithurn: “The surrounding forest is usually quiet, but for some time now it has been under a monster invasion. I am surprised you managed to reach my home.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/waterwayacave/#stage-15">Just the beginning</a></p>
+<ul>
+<li>Next → <a href="#d-cithurn_20">cithurn_20</a></li>
+</ul>
+<p><span id="d-cithurn_00"></span><strong><code>cithurn_00</code></strong> Cithurn: “You must not be from around here. If you were, you would know that it is impolite to barge into homes without invitation.”</p>
+<ul>
+<li>“Sorry. I didn't mean to be rude. I'm $playername. I come from a small village where people tend to leave their doors…” → <a href="#d-cithurn_62">cithurn_62</a></li>
+<li>“I'm looking for someone.” → <a href="#d-cithurn_80">cithurn_80</a></li>
+</ul>
+<p><span id="d-cithurn_64"></span><strong><code>cithurn_64</code></strong> Cithurn: “What's a kid like you doing around here? It's a dangerous place to be.”</p>
+<ul>
+<li>“I'm looking for my brother, Andor. He looks a bit like me.” → <a href="#d-cithurn_65">cithurn_65</a></li>
+<li>“Dangerous? Perhaps I can help?” <em>(if NOT reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>)</em> → <a href="#d-cithurn_66">cithurn_66</a></li>
+<li>“Dangerous? Perhaps I can help?” <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; NOT reached stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a>)</em> → <a href="#d-cithurn_10">cithurn_10</a></li>
+</ul>
+<p><span id="d-cithurn_110"></span><strong><code>cithurn_110</code></strong> Cithurn: “Have you come to return my talisman?”</p>
+<ul>
+<li>“Yes. I changed my mind about keeping it.” <em>(if hand over 1× <a href="../../items/cithurn_talisman/">Cithurn's talisman</a>)</em> → <a href="#d-cithurn_111">cithurn_111</a></li>
+<li>“No. I already told you that I am keeping it as payment for my work.” → <a href="#d-cithurn_112">cithurn_112</a></li>
+</ul>
+<p><span id="d-cithurn_90"></span><strong><code>cithurn_90</code></strong> Cithurn: “It is good to see you again $playername.”</p>
+<ul>
+<li>“I explored the cave. You were correct. I found a monster called Tesrekan, which was similar to the one I found in the…” <em>(if reached stage 55 of <a href="../../quests/waterwayacave/#stage-55">Just the beginning</a>; carry 1× <a href="../../items/tesrekanbone/">Tesrekan's bone</a>)</em> → <a href="#d-cithurn_60">cithurn_60</a></li>
+<li>“I think I need more help to be able to complete my mission.” <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a>; NOT reached stage 10 of <a href="../../quests/nondisplay_2/#stage-10">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-cithurn_51">cithurn_51</a></li>
+<li>“I haven't found out what is happening yet, but I wanted to let you know I'm still working on it.” <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 10 of <a href="../../quests/nondisplay_2/#stage-10">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 55 of <a href="../../quests/waterwayacave/#stage-55">Just the beginning</a>)</em> → <a href="#d-cithurn_91">cithurn_91</a></li>
+</ul>
+<p><span id="d-cithurn_120"></span><strong><code>cithurn_120</code></strong> Cithurn: “You again? What do you want this time?”</p>
+<ul>
+<li>“I wish to apologize. I'm $playername. I come from a small village where people tend to leave their doors open. I…” → <a href="#d-cithurn_62">cithurn_62</a></li>
+<li>“Nothing. I'll leave now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-cithurn_130"></span><strong><code>cithurn_130</code></strong> Cithurn: “Thanks for your help, but I don't think we have anything else to discuss.”</p>
+<p><span id="d-cithurn_20"></span><strong><code>cithurn_20</code></strong> Cithurn: “I heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath the city.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/waterwayacave/#stage-20">Just the beginning</a></p>
+<ul>
+<li>“I was in Charwood recently and what you heard was true. [You describe your experiences in Charwood and the battle with…” → <a href="#d-cithurn_30">cithurn_30</a></li>
+<li>“That is interesting, but I am supposed to be looking for my brother. I should leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-cithurn_62"></span><strong><code>cithurn_62</code></strong> Cithurn: “Well $playername, you are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like your small village. My name is Cithurn.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a></p>
+<ul>
+<li>Next → <a href="#d-cithurn_63">cithurn_63</a></li>
+</ul>
+<p><span id="d-cithurn_80"></span><strong><code>cithurn_80</code></strong> Cithurn: “Well I'm the only one here. Perhaps you should leave. Come back when you have learned some manners.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/nondisplay_2/#stage-90">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-cithurn_65"></span><strong><code>cithurn_65</code></strong> Cithurn: “Sorry. I haven't seen anyone like that.”</p>
+<ul>
+<li>“Thanks. Maybe I can help you with whatever is dangerous around here?” <em>(if NOT reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>)</em> → <a href="#d-cithurn_66">cithurn_66</a></li>
+<li>“Thanks. I need to get going.” → <em>conversation ends</em></li>
+<li>“Thanks. Maybe I can help you with whatever is dangerous around here?” <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; NOT reached stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a>)</em> → <a href="#d-cithurn_10">cithurn_10</a></li>
+</ul>
+<p><span id="d-cithurn_66"></span><strong><code>cithurn_66</code></strong> Cithurn: “I don't think so. It would need an experienced fighter to help with this problem.” — <strong>effects:</strong> sets stage 12 of <a href="../../quests/waterwayacave/#stage-12">Just the beginning</a></p>
+<ul>
+<li>“I have experience fighting.” → <a href="#d-cithurn_67">cithurn_67</a></li>
+<li>“Fine. If I'm back around here sometime in the future maybe I'll offer my help again. Or maybe I won't.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-cithurn_111"></span><strong><code>cithurn_111</code></strong> Cithurn: “Thank you. It seems you do have more honor than I thought.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/nondisplay_2/#stage-120">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-cithurn_112"></span><strong><code>cithurn_112</code></strong> Cithurn: “Then I have nothing to say to you.”</p>
+<p><span id="d-cithurn_60"></span><strong><code>cithurn_60</code></strong> Cithurn: “Was?”</p>
+<ul>
+<li>“I killed the monster. I brought one of its bones as proof.” → <a href="#d-cithurn_61">cithurn_61</a></li>
+</ul>
+<p><span id="d-cithurn_51"></span><strong><code>cithurn_51</code></strong> Cithurn: “Here. Take this talisman. It does much to dispel evil forces. I acquired it long ago, and it has kept me safe over the years. Since you have agreed to help me I think your need is now greater than mine. My only request is that if you are…” — <strong>effects:</strong> gives 1× <a href="../../items/cithurn_talisman/">Cithurn's talisman</a>, sets stage 10 of <a href="../../quests/nondisplay_2/#stage-10">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-cithurn_52">cithurn_52</a></li>
+</ul>
+<p><span id="d-cithurn_91"></span><strong><code>cithurn_91</code></strong> Cithurn: “OK. Thanks for keeping me updated. Please come back when you have more information.”</p>
+<p><span id="d-cithurn_30"></span><strong><code>cithurn_30</code></strong> Cithurn: “I do not know if it began happening here before the events in Charwood or after. However, from what you tell me, maybe there is a connection between the two.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/waterwayacave/#stage-25">Just the beginning</a></p>
+<ul>
+<li>Next → <a href="#d-cithurn_40">cithurn_40</a></li>
+</ul>
+<p><span id="d-cithurn_63"></span><strong><code>cithurn_63</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; NOT reached stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a>; reached stage 10 of <a href="../../quests/waterwayacave/#stage-10">Just the beginning</a>)</em> → <a href="#d-cithurn_10">cithurn_10</a></li>
+<li>branch 2 → <a href="#d-cithurn_64">cithurn_64</a></li>
+</ul>
+<p><span id="d-cithurn_67"></span><strong><code>cithurn_67</code></strong> Cithurn: “I will clarify. A more experienced fighter than you.”</p>
+<ul>
+<li>“OK. I can take a hint.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-cithurn_61"></span><strong><code>cithurn_61</code></strong> Cithurn: “Well done! A thousand thanks young adventurer. I am in your debt. However, I would still like my talisman back. I need it to keep me safe.”</p>
+<ul>
+<li>“Certainly. Here you are.” <em>(if hand over 1× <a href="../../items/cithurn_talisman/">Cithurn's talisman</a>; hand over 1× <a href="../../items/tesrekanbone/">Tesrekan's bone</a>)</em> → <a href="#d-cithurn_100">cithurn_100</a></li>
+<li>“You are right about that debt. I think I'll keep the talisman as payment.” <em>(if hand over 1× <a href="../../items/tesrekanbone/">Tesrekan's bone</a>)</em> → <a href="#d-cithurn_101">cithurn_101</a></li>
+</ul>
+<p><span id="d-cithurn_52"></span><strong><code>cithurn_52</code></strong> Cithurn: “Good luck young adventurer. I await your return.”</p>
+<p><span id="d-cithurn_40"></span><strong><code>cithurn_40</code></strong> Cithurn: “There is a cave system that runs underneath the forest. If something sinister is afoot, it could be emanating from the ground below. Please, you must help me investigate the source of the monster invasion in this forest.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/waterwayacave/#stage-30">Just the beginning</a></p>
+<ul>
+<li>“OK, I will help you.” → <a href="#d-cithurn_50">cithurn_50</a></li>
+<li>“Sorry, I cannot help you right now.” → <em>conversation ends</em></li>
+<li>“How much "investigating" will you be doing in this proposed partnership?” → <a href="#d-cithurn_70">cithurn_70</a></li>
+</ul>
+<p><span id="d-cithurn_100"></span><strong><code>cithurn_100</code></strong> Cithurn: “Thank you. I see you are not just a great fighter, but also an adventurer that keeps his word.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/waterwayacave/#stage-60">Just the beginning</a></p>
+<p><span id="d-cithurn_101"></span><strong><code>cithurn_101</code></strong> Cithurn: “I see. You are apparently a great fighter, but not a very honorable one.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/waterwayacave/#stage-70">Just the beginning</a></p>
+<p><span id="d-cithurn_50"></span><strong><code>cithurn_50</code></strong> Cithurn: “Thank you. You will have to pass through the forest to reach an opening to the cave where you can enter. The opening is roughly east of my home.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/waterwayacave/#stage-35">Just the beginning</a></p>
+<ul>
+<li>Next → <a href="#d-cithurn_51">cithurn_51</a></li>
+</ul>
+<p><span id="d-cithurn_70"></span><strong><code>cithurn_70</code></strong> Cithurn: “Hmm ... I'll work on the parts that aren't dangerous. A brave and expert fighter like yourself is better suited to the dangerous parts.”</p>
+<ul>
+<li>“Danger is my middle name! I'll help you.” → <a href="#d-cithurn_50">cithurn_50</a></li>
+<li>“Sorry. Flattery will not persuade me to risk my life for some piece of forest with one old man living in it.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=waterwayhermit.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=waterwayhermit.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=waterwayhermit.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=waterwayhermit.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>waterwayhermit</code> · Data from v0.8.18</small></p>
 
 

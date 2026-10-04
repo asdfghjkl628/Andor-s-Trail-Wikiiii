@@ -855,6 +855,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -957,6 +1029,80 @@
 <ul>
 <li><a href="../../maps/way_to_sullengard_west_3/">way_to_sullengard_west_3</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stages 61</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (13 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-egrinda_selector"></span><strong><code>egrinda_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-egrinda_already_given_gold_10">egrinda_already_given_gold_10</a></li>
+<li>branch 2 → <a href="#d-egrinda_wants_gold_10">egrinda_wants_gold_10</a></li>
+</ul>
+<p><span id="d-egrinda_already_given_gold_10"></span><strong><code>egrinda_already_given_gold_10</code></strong> Egrinda: “This gold will really help me rebuild my life. Now I just need to decide where to do that.”</p>
+<ul>
+<li>“May I suggest Feygard?” → <a href="#d-egrinda_already_given_gold_20">egrinda_already_given_gold_20</a></li>
+<li>“May I suggest Nor City?” → <a href="#d-egrinda_already_given_gold_15">egrinda_already_given_gold_15</a></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_10"></span><strong><code>egrinda_wants_gold_10</code></strong> Egrinda: “That gold you're holding... it belonged to my family. Stolen from us not long ago, taken by hands no better than yours.”</p>
+<ul>
+<li>Next → <a href="#d-egrinda_wants_gold_narrator_1">egrinda_wants_gold_narrator_1</a></li>
+</ul>
+<p><span id="d-egrinda_already_given_gold_20"></span><strong><code>egrinda_already_given_gold_20</code></strong> Egrinda: “Feygard? Why would I ever want to live there?”</p>
+<ul>
+<li>“Well, I've heard such wonderful things about that glorious city. There's so many opportunities for almost anyone.” → <a href="#d-egrinda_already_given_gold_30">egrinda_already_given_gold_30</a></li>
+</ul>
+<p><span id="d-egrinda_already_given_gold_15"></span><strong><code>egrinda_already_given_gold_15</code></strong> Egrinda: “Nor City? Why would I ever want to live there?”</p>
+<ul>
+<li>“I'm really not sure why except that I've met so many Shadow folk that rave about that place.” → <a href="#d-egrinda_already_given_gold_25">egrinda_already_given_gold_25</a></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_narrator_1"></span><strong><code>egrinda_wants_gold_narrator_1</code></strong> <a href="../none/">Dummy NPC</a>: “She takes a cautious step forward.”</p>
+<ul>
+<li>Next → <a href="#d-egrinda_wants_gold_20">egrinda_wants_gold_20</a></li>
+</ul>
+<p><span id="d-egrinda_already_given_gold_30"></span><strong><code>egrinda_already_given_gold_30</code></strong> Egrinda: “Feygard? I don't know, maybe. But thank you for your suggestion.”</p>
+<ul>
+<li>“Good luck!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-egrinda_already_given_gold_25"></span><strong><code>egrinda_already_given_gold_25</code></strong> Egrinda: “Nor City? I don't know, maybe. But thank you for your suggestion.”</p>
+<ul>
+<li>“Good luck!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_20"></span><strong><code>egrinda_wants_gold_20</code></strong> <a href="./">Egrinda</a>: “You can do right and give it back. Or you can learn what happens to those who carry what's not theirs.”</p>
+<ul>
+<li>“If it's truly yours, then take it. [Hand over the recently looted gold.]” <em>(if pay 10,000 gold)</em> → <a href="#d-egrinda_wants_gold_reward_qs61">egrinda_wants_gold_reward_qs61</a></li>
+<li>“Oh, you mean that gold that now belongs to me? It's now mine.” → <a href="#d-egrinda_wants_gold_fight">egrinda_wants_gold_fight</a></li>
+<li>“[Lie] Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]” → <a href="#d-egrinda_wants_gold_lier">egrinda_wants_gold_lier</a></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_reward_qs61"></span><strong><code>egrinda_wants_gold_reward_qs61</code></strong> Egrinda: “Thank you very much!” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">galmore_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-egrinda_already_given_gold_10">egrinda_already_given_gold_10</a></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_fight"></span><strong><code>egrinda_wants_gold_fight</code></strong> <a href="../none/">Dummy NPC</a>: “Egrinda lunges at you.” — <strong>effects:</strong> faction “egrinda” set to -1</p>
+<ul>
+<li>“You will not survive this!” → <a href="#d-egrinda_fight">egrinda_fight</a></li>
+</ul>
+<p><span id="d-egrinda_wants_gold_lier"></span><strong><code>egrinda_wants_gold_lier</code></strong> Egrinda: “Liar!”</p>
+<ul>
+<li>Next → <a href="#d-egrinda_wants_gold_fight">egrinda_wants_gold_fight</a></li>
+</ul>
+<p><span id="d-egrinda_fight"></span><strong><code>egrinda_fight</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <em>fight starts</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=egrinda.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=egrinda.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=egrinda.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=egrinda.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>egrinda</code> · Data from v0.8.18</small></p>
 
 

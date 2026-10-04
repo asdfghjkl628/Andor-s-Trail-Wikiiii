@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,184 @@
 <ul>
 <li><a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_wh_delivery/">Delivery</a>: stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130</li>
+<li><a href="../../quests/brv_wh/">Inventory</a>: stages 10, 900</li>
+<li><a href="../../quests/brv_wh_delivery_reward_nondisplay/">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>: stages 1, 2, 3</li>
+<li><a href="../../quests/brv_wh_reward_nondisplay/">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>: stages 1, 2, 3</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (35 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_wh_boss"></span><strong><code>brv_wh_boss</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_900_10">brv_wh_boss_900_10</a></li>
+<li>branch 2 <em>(if reached stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10">brv_wh_delivery_boss_10_10</a></li>
+<li>branch 4 <em>(if reached stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10">brv_wh_delivery_boss_10</a></li>
+<li>branch 5 <em>(if reached stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_10_32">brv_wh_boss_10_32</a></li>
+<li>branch 6 <em>(if reached stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a>)</em> → <a href="#d-brv_wh_delivery_boss_10">brv_wh_delivery_boss_10</a></li>
+<li>branch 7 <em>(if reached stage 10 of <a href="../../quests/brv_wh/#stage-10">Inventory</a>)</em> → <a href="#d-brv_wh_boss_10_10">brv_wh_boss_10_10</a></li>
+<li>branch 8 → <a href="#d-brv_wh_boss_10">brv_wh_boss_10</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_900_10"></span><strong><code>brv_wh_boss_900_10</code></strong> Facutloni: “I have no work for you at the moment.”</p>
+<p><span id="d-brv_wh_delivery_boss_10_10_yes"></span><strong><code>brv_wh_delivery_boss_10_10_yes</code></strong> Facutloni: “That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sales.”</p>
+<ul>
+<li>“Sure. Here you are.” <em>(if pay 330 gold)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes_10">brv_wh_delivery_boss_10_10_yes_10</a></li>
+<li>“Uh, I had expenses along the way and I don't have all the gold anymore.” → <a href="#d-brv_wh_delivery_boss_10_10_yes_1">brv_wh_delivery_boss_10_10_yes_1</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_10_10"></span><strong><code>brv_wh_delivery_boss_10_10</code></strong> Facutloni: “You are back. Did you deliver all of the items?”</p>
+<ul>
+<li>“Yes. I delivered everything.” <em>(if reached stage 10 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-10">Delivery - nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-20">Delivery - nondisplay (hidden flag)</a>; reached stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Delivery - nondisplay (hidden flag)</a>; reached stage 40 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-40">Delivery - nondisplay (hidden flag)</a>; reached stage 50 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-50">Delivery - nondisplay (hidden flag)</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-60">Delivery - nondisplay (hidden flag)</a>; reached stage 70 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-70">Delivery - nondisplay (hidden flag)</a>; reached stage 80 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-80">Delivery - nondisplay (hidden flag)</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-90">Delivery - nondisplay (hidden flag)</a>; reached stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Delivery - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
+<li>“Not yet.” → <a href="#d-brv_wh_delivery_boss_10_10_no">brv_wh_delivery_boss_10_10_no</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_10"></span><strong><code>brv_wh_delivery_boss_10</code></strong> Facutloni: “Ah! You have finally returned, my new worker.”</p>
+<ul>
+<li>“How may I be of service?” → <a href="#d-brv_wh_delivery_boss_20">brv_wh_delivery_boss_20</a></li>
+<li>“What is it this time?” → <a href="#d-brv_wh_delivery_boss_20">brv_wh_delivery_boss_20</a></li>
+<li>“Ah! You are still insolent.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_32"></span><strong><code>brv_wh_boss_10_32</code></strong> Facutloni: “Good work! I am very pleased with you.” — <strong>effects:</strong> sets stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a></p>
+<ul>
+<li>“I am glad. How much do I actually get for this work?” → <a href="#d-brv_wh_boss_10_90">brv_wh_boss_10_90</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_10"></span><strong><code>brv_wh_boss_10_10</code></strong> Facutloni: “How do you get on with the work?”</p>
+<ul>
+<li>“I'm not quite done yet. I just want to take a short break.” → <a href="#d-brv_wh_boss_10_12">brv_wh_boss_10_12</a></li>
+<li>“Please tell me again, what I should do.” → <a href="#d-brv_wh_boss_40">brv_wh_boss_40</a></li>
+<li>“I found 10 pairs of each item.” <em>(if reached stage 100 of <a href="../../quests/brv_wh/#stage-100">Inventory</a>; reached stage 101 of <a href="../../quests/brv_wh/#stage-101">Inventory</a>; reached stage 102 of <a href="../../quests/brv_wh/#stage-102">Inventory</a>; reached stage 103 of <a href="../../quests/brv_wh/#stage-103">Inventory</a>; reached stage 104 of <a href="../../quests/brv_wh/#stage-104">Inventory</a>; reached stage 105 of <a href="../../quests/brv_wh/#stage-105">Inventory</a>; reached stage 106 of <a href="../../quests/brv_wh/#stage-106">Inventory</a>; reached stage 107 of <a href="../../quests/brv_wh/#stage-107">Inventory</a>; reached stage 108 of <a href="../../quests/brv_wh/#stage-108">Inventory</a>; reached stage 109 of <a href="../../quests/brv_wh/#stage-109">Inventory</a>)</em> → <a href="#d-brv_wh_boss_10_20">brv_wh_boss_10_20</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10"></span><strong><code>brv_wh_boss_10</code></strong> Facutloni: “Hey! Are you the new worker?”</p>
+<ul>
+<li>“Do you need any help?” → <a href="#d-brv_wh_boss_20">brv_wh_boss_20</a></li>
+<li>“Insolence! Who do you think you are?” → <em>conversation ends</em></li>
+<li>“Sure.” → <a href="#d-brv_wh_boss_12">brv_wh_boss_12</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_10_10_yes_10"></span><strong><code>brv_wh_delivery_boss_10_10_yes_10</code></strong> Facutloni: “Good job! I am glad that you work responsibly.” — <strong>effects:</strong> sets stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a></p>
+<ul>
+<li>“And seriously.” → <a href="#d-brv_wh_delivery_boss_reward">brv_wh_delivery_boss_reward</a></li>
+<li>“I travelled far and wide.” → <a href="#d-brv_wh_delivery_boss_reward">brv_wh_delivery_boss_reward</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_10_10_yes_1"></span><strong><code>brv_wh_delivery_boss_10_10_yes_1</code></strong> Facutloni: “And then you walk into my sight? Go get my gold!”</p>
+<ul>
+<li>“[Run]” → <em>conversation ends</em></li>
+<li>“Yes boss.” → <em>conversation ends</em></li>
+<li>“Oh, I just found the 330 gold pieces in my pocket. Please take it.” <em>(if pay 330 gold)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes_10">brv_wh_delivery_boss_10_10_yes_10</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_10_10_no"></span><strong><code>brv_wh_delivery_boss_10_10_no</code></strong> Facutloni: “Then what are you standing there for?! Get out and deliver everything!”</p>
+<ul>
+<li>“[Run]” → <em>conversation ends</em></li>
+<li>“Yes boss.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_20"></span><strong><code>brv_wh_delivery_boss_20</code></strong> Facutloni: “I need someone to deliver all of the items that are in storage.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_delivery_boss_30">brv_wh_delivery_boss_30</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_90"></span><strong><code>brv_wh_boss_10_90</code></strong> Facutloni: “Good work gives good wages! Here is 100 gold.” — <strong>effects:</strong> sets stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+<li>“Old scrooge.” → <a href="#d-brv_wh_boss_10_92">brv_wh_boss_10_92</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_12"></span><strong><code>brv_wh_boss_10_12</code></strong> Facutloni: “I'm not paying you to laze around! Back to work!”</p>
+<p><span id="d-brv_wh_boss_40"></span><strong><code>brv_wh_boss_40</code></strong> Facutloni: “OK: Go to the storage and take out an item.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_42">brv_wh_boss_42</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_20"></span><strong><code>brv_wh_boss_10_20</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; hand over 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; hand over 2× <a href="../../items/brv_wh_item_02/">Lyre</a>; hand over 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; hand over 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>; hand over 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; hand over 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>; hand over 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; hand over 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>; hand over 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>)</em> → <a href="#d-brv_wh_boss_10_30">brv_wh_boss_10_30</a></li>
+<li>branch 2 → <a href="#d-brv_wh_boss_10_22">brv_wh_boss_10_22</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_20"></span><strong><code>brv_wh_boss_20</code></strong> Facutloni: “I need someone to check if all the items are still in the storage.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_22">brv_wh_boss_22</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_12"></span><strong><code>brv_wh_boss_12</code></strong> Facutloni: “It took you long to get here! I hope you are not always that slow.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_20">brv_wh_boss_20</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_reward"></span><strong><code>brv_wh_delivery_boss_reward</code></strong> Facutloni: “That is serious. And here you have your well-deserved reward: 100 gold.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_wh_delivery/#stage-130">Delivery</a>, sets stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thanks.” → <em>conversation ends</em></li>
+<li>“What the?” → <a href="#d-brv_wh_delivery_boss_scrooge">brv_wh_delivery_boss_scrooge</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_30"></span><strong><code>brv_wh_delivery_boss_30</code></strong> Facutloni: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>, sets stage 20 of <a href="../../quests/brv_wh_delivery/#stage-20">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery/#stage-30">Delivery</a>, sets stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 50 of <a href="../../quests/brv_wh_delivery/#stage-50">Delivery</a>, sets stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>, sets stage 70 of <a href="../../quests/brv_wh_delivery/#stage-70">Delivery</a>, sets stage 80 of <a href="../../quests/brv_wh_delivery/#stage-80">Delivery</a>, sets stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery/#stage-100">Delivery</a>, sets stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 120 of <a href="../../quests/brv_wh_delivery/#stage-120">Delivery</a>, gives 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, gives 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, gives 1× <a href="../../items/brv_wh_item_02/">Lyre</a>, gives 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, gives 1× <a href="../../items/brv_wh_item_04/">Chandelier</a>, gives 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, gives 1× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, gives 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, gives 1× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, gives 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, sets stage 1 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-1">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>, gives 1× <a href="../../items/facutloni_docket/">Facutloni's Docket</a></p>
+<ul>
+<li>“It will be done.” → <a href="#d-brv_wh_delivery_boss_40">brv_wh_delivery_boss_40</a></li>
+<li>“You want me to deliver these items to your customers?” → <a href="#d-brv_wh_delivery_boss_40">brv_wh_delivery_boss_40</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_92"></span><strong><code>brv_wh_boss_10_92</code></strong> Facutloni: “What?”</p>
+<ul>
+<li>“Thank you so much.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_boss_42"></span><strong><code>brv_wh_boss_42</code></strong> Facutloni: “Then go and look for the another item of the same kind. So then you'll have a pair of them.”</p>
+<ul>
+<li>“A pair.” → <a href="#d-brv_wh_boss_44">brv_wh_boss_44</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_30"></span><strong><code>brv_wh_boss_10_30</code></strong> Facutloni: “10 pairs - that is correct. So everything is in order.” — <strong>effects:</strong> sets stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a>, sets stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_10_32">brv_wh_boss_10_32</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_10_22"></span><strong><code>brv_wh_boss_10_22</code></strong> Facutloni: “10 pairs! Great - but where are they? I don't see them.”</p>
+<ul>
+<li>“Oh, I must have lost some. Wait a second...” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_boss_22"></span><strong><code>brv_wh_boss_22</code></strong> Facutloni: “I always buy a pair of any item. So it would be best if you find the pairs.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_24">brv_wh_boss_24</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_scrooge"></span><strong><code>brv_wh_delivery_boss_scrooge</code></strong> Facutloni: “Pardon?”</p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_delivery_boss_40"></span><strong><code>brv_wh_delivery_boss_40</code></strong> Facutloni: “Yes yes, hurry now. I have work to do here.”</p>
+<ul>
+<li>“I'm going now.” → <em>conversation ends</em></li>
+<li>“Hope I get paid better this time.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_boss_44"></span><strong><code>brv_wh_boss_44</code></strong> Facutloni: “After that take another item, and look for the second one to get a pair again.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_46">brv_wh_boss_46</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_24"></span><strong><code>brv_wh_boss_24</code></strong> Facutloni: “Each time you find a pair, take it out of the storage bin!”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_30">brv_wh_boss_30</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_46"></span><strong><code>brv_wh_boss_46</code></strong> Facutloni: “Do this for all pairs, until you have found every one.”</p>
+<ul>
+<li>“Sounds easy.” → <a href="#d-brv_wh_boss_48">brv_wh_boss_48</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_30"></span><strong><code>brv_wh_boss_30</code></strong> Facutloni: “Come back to me when you found all the pairs and tell me how many there are.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh/#stage-10">Inventory</a>, sets stage 1 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-1">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></p>
+<ul>
+<li>“OK. I'll be back in a minute.” → <em>conversation ends</em></li>
+<li>“Eh, what do you want me to do exactly?” → <a href="#d-brv_wh_boss_40">brv_wh_boss_40</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_48"></span><strong><code>brv_wh_boss_48</code></strong> Facutloni: “If you have one item in hand, and in the next there is an item that doesn't match, then both items automatically go back to their bin. So be sure to take the items in pairs.”</p>
+<ul>
+<li>Next → <a href="#d-brv_wh_boss_50">brv_wh_boss_50</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_50"></span><strong><code>brv_wh_boss_50</code></strong> Facutloni: “Understood? Repeat it to me!”</p>
+<ul>
+<li>“I shall get the items, one by one.” → <a href="#d-brv_wh_boss_52">brv_wh_boss_52</a></li>
+<li>“Not necessary. I'll be back in a minute.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_wh_boss_52"></span><strong><code>brv_wh_boss_52</code></strong> Facutloni: “And?”</p>
+<ul>
+<li>“I shall find them in the right order: Pair after pair.” → <a href="#d-brv_wh_boss_60">brv_wh_boss_60</a></li>
+</ul>
+<p><span id="d-brv_wh_boss_60"></span><strong><code>brv_wh_boss_60</code></strong> Facutloni: “OK. Hurry now.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_wh_boss.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_wh_boss.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_wh_boss.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_wh_boss.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_wh_boss</code> · Data from v0.8.18</small></p>
 
 

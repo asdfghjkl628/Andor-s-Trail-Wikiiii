@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -987,6 +1059,184 @@
 <ul>
 <li><a href="../../maps/roadtocarntower1/">roadtocarntower1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/hadracor/">Devastated land</a>: stages 10, 20, 21, 30</li>
+<li><a href="../../quests/tunlon_fence/">It makes no fence</a>: stages 30, 32</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (37 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-hadracor"></span><strong><code>hadracor</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/hadracor/#stage-30">Devastated land</a>)</em> → <a href="#d-hadracor_complete_1">hadracor_complete_1</a></li>
+<li>branch 2 <em>(if reached stage 21 of <a href="../../quests/hadracor/#stage-21">Devastated land</a>)</em> → <a href="#d-hadracor_gaveitems_1">hadracor_gaveitems_1</a></li>
+<li>branch 3 <em>(if reached stage 20 of <a href="../../quests/hadracor/#stage-20">Devastated land</a>)</em> → <a href="#d-hadracor_gaveitems_1">hadracor_gaveitems_1</a></li>
+<li>branch 4 <em>(if reached stage 10 of <a href="../../quests/hadracor/#stage-10">Devastated land</a>)</em> → <a href="#d-hadracor_wantsitems_1">hadracor_wantsitems_1</a></li>
+<li>branch 5 → <a href="#d-hadracor_1">hadracor_1</a></li>
+</ul>
+<p><span id="d-hadracor_complete_1"></span><strong><code>hadracor_complete_1</code></strong> Hadracor: “Hello again. Thank you for your help with those wasps earlier.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_complete_2">hadracor_complete_2</a></li>
+</ul>
+<p><span id="d-hadracor_gaveitems_1"></span><strong><code>hadracor_gaveitems_1</code></strong> Hadracor: “Well done my friend. Thank you for getting revenge on those things.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_complete_2">hadracor_complete_2</a></li>
+</ul>
+<p><span id="d-hadracor_wantsitems_1"></span><strong><code>hadracor_wantsitems_1</code></strong> Hadracor: “Hello again. Did you kill those wasps for us?”</p>
+<ul>
+<li>“Could you tell me your story again?” → <a href="#d-hadracor_story_2">hadracor_story_2</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-hadracor_story_6">hadracor_story_6</a></li>
+<li>“Not yet, but I am working on it.” → <a href="#d-hadracor_accept_3">hadracor_accept_3</a></li>
+<li>“Yes, I killed six of them.” <em>(if hand over 6× <a href="../../items/hadracor_waspwing/">Giant wasp wing</a>)</em> → <a href="#d-hadracor_wantsitems_3">hadracor_wantsitems_3</a></li>
+<li>“Yes, I killed five of them.” <em>(if hand over 5× <a href="../../items/hadracor_waspwing/">Giant wasp wing</a>)</em> → <a href="#d-hadracor_wantsitems_2">hadracor_wantsitems_2</a></li>
+<li>“No, but I wanted to ask if you have some spare wood to make fences out of.” <em>(if reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>; NOT reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_1">hadracor_fence_1</a></li>
+<li>“No, I'm too busy running up and down Blackwater mountain.” <em>(if reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>; NOT reached stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_2">hadracor_fence_2</a></li>
+</ul>
+<p><span id="d-hadracor_1"></span><strong><code>hadracor_1</code></strong> Hadracor: “Hello there, I am Hadracor.”</p>
+<ul>
+<li>“What is this place?” → <a href="#d-hadracor_story_1">hadracor_story_1</a></li>
+<li>“Have you seen my brother Andor around here? Looks somewhat like me.” → <a href="#d-hadracor_andor_1">hadracor_andor_1</a></li>
+<li>“Do you by any chance have some spare wood to make fences out of?” <em>(if reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>; NOT reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_1">hadracor_fence_1</a></li>
+<li>“I'm $playername, running up and down Blackwater mountain for errands.” <em>(if reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>; NOT reached stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_2">hadracor_fence_2</a></li>
+</ul>
+<p><span id="d-hadracor_complete_2"></span><strong><code>hadracor_complete_2</code></strong> Hadracor: “As a token of our appreciation, we are willing to trade some of our equipment with you if you want.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/hadracor/#stage-30">Devastated land</a></p>
+<ul>
+<li>Next → <a href="#d-hadracor_complete_3">hadracor_complete_3</a></li>
+</ul>
+<p><span id="d-hadracor_story_2"></span><strong><code>hadracor_story_2</code></strong> Hadracor: “Our orders were to cut down all trees south of the Feygard bridge and north of this here road to Carn Tower.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_3">hadracor_story_3</a></li>
+</ul>
+<p><span id="d-hadracor_story_6"></span><strong><code>hadracor_story_6</code></strong> Hadracor: “You see, there were these really nasty wasps in that forest we cut down.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_7">hadracor_story_7</a></li>
+</ul>
+<p><span id="d-hadracor_accept_3"></span><strong><code>hadracor_accept_3</code></strong> Hadracor: “Good, hurry back once you are done.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/hadracor/#stage-10">Devastated land</a></p>
+<p><span id="d-hadracor_wantsitems_3"></span><strong><code>hadracor_wantsitems_3</code></strong> Hadracor: “Wow, you actually killed six of those things? I thought there were only five, so I guess I should be even more grateful. Here, take these gloves as thanks.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/hadracor/#stage-21">Devastated land</a>, gives <a href="../../items/gloves_woodcutter/">Woodcutter's gloves</a></p>
+<ul>
+<li>Next → <a href="#d-hadracor_gaveitems_1">hadracor_gaveitems_1</a></li>
+</ul>
+<p><span id="d-hadracor_wantsitems_2"></span><strong><code>hadracor_wantsitems_2</code></strong> Hadracor: “Wow, you actually killed those things?” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/hadracor/#stage-20">Devastated land</a></p>
+<ul>
+<li>Next → <a href="#d-hadracor_gaveitems_1">hadracor_gaveitems_1</a></li>
+</ul>
+<p><span id="d-hadracor_fence_1"></span><strong><code>hadracor_fence_1</code></strong> Hadracor: “Oh we do have a lot of wood indeed. However, all of this is very brittle and can only be used as firewood.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a></p>
+<ul>
+<li>“Then, willy-nilly, I will explain to Tunlon that I was unsuccessful. He may even want his 200 gold pieces back.” → <a href="#d-hadracor_fence_1b">hadracor_fence_1b</a></li>
+</ul>
+<p><span id="d-hadracor_fence_2"></span><strong><code>hadracor_fence_2</code></strong> Hadracor: “I saw you a few times in the forest over there coming from the mountains. Do you go there often?”</p>
+<ul>
+<li>“Well, I try to avoid it. The route past Stoutford and Prim is long and arduous.” → <a href="#d-hadracor_fence_3">hadracor_fence_3</a></li>
+</ul>
+<p><span id="d-hadracor_story_1"></span><strong><code>hadracor_story_1</code></strong> Hadracor: “This is the encampment that we woodcutters set up while working on the trees here for the past few days.”</p>
+<ul>
+<li>“What have you been working on?” → <a href="#d-hadracor_story_2">hadracor_story_2</a></li>
+<li>“I noticed a lot of tree stumps around here.” → <a href="#d-hadracor_story_2">hadracor_story_2</a></li>
+</ul>
+<p><span id="d-hadracor_andor_1"></span><strong><code>hadracor_andor_1</code></strong> Hadracor: “Looks like you eh? No, I would have remembered.”</p>
+<ul>
+<li>“OK, goodbye.” → <em>conversation ends</em></li>
+<li>“What is this place?” → <a href="#d-hadracor_story_1">hadracor_story_1</a></li>
+</ul>
+<p><span id="d-hadracor_complete_3"></span><strong><code>hadracor_complete_3</code></strong> Hadracor: “It's not much, but we do have some really sharp axes that you might be interested in.”</p>
+<ul>
+<li>“No thanks. Goodbye.” → <em>conversation ends</em></li>
+<li>“OK, let me see what you have.” → <em>shop opens</em></li>
+<li>“Do you by any chance have some spare wood to make fences out of?” <em>(if reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>; NOT reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_1">hadracor_fence_1</a></li>
+<li>“No, thanks. I'm too busy running up and down Blackwater mountain.” <em>(if reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>; NOT reached stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a>)</em> → <a href="#d-hadracor_fence_2">hadracor_fence_2</a></li>
+</ul>
+<p><span id="d-hadracor_story_3"></span><strong><code>hadracor_story_3</code></strong> Hadracor: “I guess the nobles of Feygard have some plans for these lands.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_4">hadracor_story_4</a></li>
+</ul>
+<p><span id="d-hadracor_story_7"></span><strong><code>hadracor_story_7</code></strong> Hadracor: “Nothing like we've seen before, and I'll tell you, we have seen a lot of wildlife in our days.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_8">hadracor_story_8</a></li>
+</ul>
+<p><span id="d-hadracor_fence_1b"></span><strong><code>hadracor_fence_1b</code></strong> Hadracor: “Wait!”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_fence_1c">hadracor_fence_1c</a></li>
+</ul>
+<p><span id="d-hadracor_fence_3"></span><strong><code>hadracor_fence_3</code></strong> Hadracor: “I like to believe that. Look, I told my men to cut down some trees for you. You can now take a shortcut.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a></p>
+<ul>
+<li>“Really? Thanks alot!” → <a href="#d-hadracor_fence_4">hadracor_fence_4</a></li>
+</ul>
+<p><span id="d-hadracor_story_4"></span><strong><code>hadracor_story_4</code></strong> Hadracor: “We, we just cut down them trees. No questions asked.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_5">hadracor_story_5</a></li>
+</ul>
+<p><span id="d-hadracor_story_8"></span><strong><code>hadracor_story_8</code></strong> Hadracor: “They almost got the best of us, and we were almost ready to quit it. But a job is a job and we need to get paid by Feygard for this job.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_9">hadracor_story_9</a></li>
+</ul>
+<p><span id="d-hadracor_fence_1c"></span><strong><code>hadracor_fence_1c</code></strong> Hadracor: “I like to sit here and look at the mountains and what's moving there. It's very relaxing after our hard work.”</p>
+<ul>
+<li>“Yes, the mountains are very beautiful - from a distance.” → <a href="#d-hadracor_fence_2">hadracor_fence_2</a></li>
+</ul>
+<p><span id="d-hadracor_fence_4"></span><strong><code>hadracor_fence_4</code></strong> Hadracor: “The passage is over there, a bit to the east from here.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_fence_5">hadracor_fence_5</a></li>
+</ul>
+<p><span id="d-hadracor_story_5"></span><strong><code>hadracor_story_5</code></strong> Hadracor: “However, this time we encountered some trouble.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_6">hadracor_story_6</a></li>
+</ul>
+<p><span id="d-hadracor_story_9"></span><strong><code>hadracor_story_9</code></strong> Hadracor: “So we went ahead and finished all of them trees, trying to evade the wasps as much as we could.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_10">hadracor_story_10</a></li>
+</ul>
+<p><span id="d-hadracor_fence_5"></span><strong><code>hadracor_fence_5</code></strong> Hadracor: “We were happy to do this for you. Now calm down.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_fence_6">hadracor_fence_6</a></li>
+</ul>
+<p><span id="d-hadracor_story_10"></span><strong><code>hadracor_story_10</code></strong> Hadracor: “However, I bet that whatever plans the nobles of Feygard have for these lands, they surely don't include these nasty wasps still being around.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_11">hadracor_story_11</a></li>
+</ul>
+<p><span id="d-hadracor_fence_6"></span><strong><code>hadracor_fence_6</code></strong> Hadracor: “And stop kissing my feet.”</p>
+<p><span id="d-hadracor_story_11"></span><strong><code>hadracor_story_11</code></strong> Hadracor: “See this scratch here? And this abscess? Yep, those wasps.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_story_11_1">hadracor_story_11_1</a></li>
+</ul>
+<p><span id="d-hadracor_story_11_1"></span><strong><code>hadracor_story_11_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/hadracor/#stage-10">Devastated land</a>)</em> → <a href="#d-hadracor_accept_1_1">hadracor_accept_1_1</a></li>
+<li>branch 2 → <a href="#d-hadracor_story_12">hadracor_story_12</a></li>
+</ul>
+<p><span id="d-hadracor_accept_1_1"></span><strong><code>hadracor_accept_1_1</code></strong> Hadracor: “I noticed that some of the wasps are larger than the other ones, and the other wasps tend to follow the larger ones around.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_accept_2">hadracor_accept_2</a></li>
+</ul>
+<p><span id="d-hadracor_story_12"></span><strong><code>hadracor_story_12</code></strong> Hadracor: “I would love to get revenge on those wasps. We, we aren't good enough fighters to take on those wasps, they are really too quick for us.”</p>
+<ul>
+<li>“Tough luck, you seem like a bunch of weaklings anyway.” → <a href="#d-hadracor_decline_1">hadracor_decline_1</a></li>
+<li>“I could try to take on those wasps for you if you want.” → <a href="#d-hadracor_accept_1">hadracor_accept_1</a></li>
+<li>“Just a couple of wasps? That's no problem for me. I'll kill them for you.” → <a href="#d-hadracor_accept_1">hadracor_accept_1</a></li>
+</ul>
+<p><span id="d-hadracor_accept_2"></span><strong><code>hadracor_accept_2</code></strong> Hadracor: “If you could kill at least five of those giant ones and bring me back their wings as proof, I would be very grateful.”</p>
+<ul>
+<li>“Sure, I will be back with those giant wasp wings for you.” → <a href="#d-hadracor_accept_3">hadracor_accept_3</a></li>
+<li>“No problem.” → <a href="#d-hadracor_accept_3">hadracor_accept_3</a></li>
+<li>“On second thought, I better stay out of this.” → <a href="#d-hadracor_decline_2">hadracor_decline_2</a></li>
+</ul>
+<p><span id="d-hadracor_decline_1"></span><strong><code>hadracor_decline_1</code></strong> Hadracor: “I will pretend I didn't hear that.”</p>
+<p><span id="d-hadracor_accept_1"></span><strong><code>hadracor_accept_1</code></strong> Hadracor: “You would? Sure, you have a try.”</p>
+<ul>
+<li>Next → <a href="#d-hadracor_accept_1_1">hadracor_accept_1_1</a></li>
+</ul>
+<p><span id="d-hadracor_decline_2"></span><strong><code>hadracor_decline_2</code></strong> Hadracor: “Fine, I guess we can find someone else to help us get revenge on them.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hadracor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hadracor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hadracor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hadracor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>hadracor</code> · Data from v0.8.18</small></p>
 
 

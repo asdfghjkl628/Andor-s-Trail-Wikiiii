@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -937,6 +1009,357 @@
 <ul>
 <li><a href="../../maps/ratdom_maze_624/">ratdom_maze_624</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/ratdom_quest/">Yellow is it</a>: stages 310, 320, 321, 322, 323, 324, 325, 390</li>
+<li><a href="../../quests/ratdom_maze/">Ratdom_maze (hidden flag)</a>: stages 132</li>
+<li><a href="../../quests/ratdom_nondisplay/">ratdom_nondisplay (hidden flag)</a>: stages 192</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (72 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ratdom_rat_warden"></span><strong><code>ratdom_rat_warden</code></strong> Wart: “Yes please?”</p>
+<ul>
+<li>“I have found some bones. May I enter now?” <em>(if reached stage 310 of <a href="../../quests/ratdom_quest/#stage-310">Yellow is it</a>; NOT reached stage 390 of <a href="../../quests/ratdom_quest/#stage-390">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden_50">ratdom_rat_warden_50</a></li>
+<li>“Who are you?” → <a href="#d-ratdom_rat_warden_10">ratdom_rat_warden_10</a></li>
+<li>“What are you doing here?” → <a href="#d-ratdom_rat_warden_10">ratdom_rat_warden_10</a></li>
+<li>“Could you tell me something about this place?” → <a href="#d-ratdom_rat_warden_30">ratdom_rat_warden_30</a></li>
+<li>“Oh, it's nothing. I just tried the bell.” → <a href="#d-ratdom_rat_warden_20">ratdom_rat_warden_20</a></li>
+<li>“Please give me back my cheese.” <em>(if faction “ratdom_rat_cheese1” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+<li>“Please give me back my cheese.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; faction “ratdom_rat_cheese2” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+<li>“Please give me back my cheese.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; NOT faction “ratdom_rat_cheese2” ≥ 1; faction “ratdom_rat_cheese3” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+<li>“Please give me back my cheese.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; NOT faction “ratdom_rat_cheese2” ≥ 1; NOT faction “ratdom_rat_cheese3” ≥ 1; faction “ratdom_rat_cheese4” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_50"></span><strong><code>ratdom_rat_warden_50</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>; hand over 4× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>; hand over 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>; hand over 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>; hand over 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_52">ratdom_rat_warden_52</a></li>
+<li>branch 2 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>)</em> → <a href="#d-ratdom_rat_warden_60">ratdom_rat_warden_60</a></li>
+<li>branch 3 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_61">ratdom_rat_warden_61</a></li>
+<li>branch 4 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_65">ratdom_rat_warden_65</a></li>
+<li>branch 5 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_66">ratdom_rat_warden_66</a></li>
+<li>branch 6 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_67">ratdom_rat_warden_67</a></li>
+<li>branch 7 → <a href="#d-ratdom_rat_warden_69">ratdom_rat_warden_69</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_10"></span><strong><code>ratdom_rat_warden_10</code></strong> Wart: “I am the warden of our Memorial Hall. I keep the exhibits in order and answer questions from visitors. Call me Wart.”</p>
+<ul>
+<li>“Could you tell me anything about this place?” → <a href="#d-ratdom_rat_warden_30">ratdom_rat_warden_30</a></li>
+<li>“Wart - really? [giggle]” → <a href="#d-ratdom_rat_warden_20">ratdom_rat_warden_20</a></li>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_30"></span><strong><code>ratdom_rat_warden_30</code></strong> Wart: “This used to be a happy place of memories. Many objects and statues from the past invite you to linger and think. Every rat loved this place.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_31">ratdom_rat_warden_31</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_20"></span><strong><code>ratdom_rat_warden_20</code></strong> Wart: “[Incomprehensible muttering]”</p>
+<ul>
+<li>“OK, just leave me then.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese"></span><strong><code>ratdom_rat_warden_cheese</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if faction “ratdom_rat_cheese1” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_1">ratdom_rat_warden_cheese_1</a></li>
+<li>branch 2 <em>(if faction “ratdom_rat_cheese2” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_2">ratdom_rat_warden_cheese_2</a></li>
+<li>branch 3 <em>(if faction “ratdom_rat_cheese3” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_3">ratdom_rat_warden_cheese_3</a></li>
+<li>branch 4 <em>(if faction “ratdom_rat_cheese4” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_4">ratdom_rat_warden_cheese_4</a></li>
+<li>branch 5 → <a href="#d-ratdom_rat_warden_cheese_50">ratdom_rat_warden_cheese_50</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_52"></span><strong><code>ratdom_rat_warden_52</code></strong> Wart: “Let's have a look. Oh, what are my old eyes seeing? King Rah is back, completely! I am overwhelmed with joy! You may pass now of course.” — <strong>effects:</strong> sets stage 390 of <a href="../../quests/ratdom_quest/#stage-390">Yellow is it</a></p>
+<ul>
+<li>“I hope you can puzzle your king back together.” → <a href="#d-ratdom_rat_warden_54">ratdom_rat_warden_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_60"></span><strong><code>ratdom_rat_warden_60</code></strong> Wart: “Wonderful! You've already recovered King Rah's head!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_70">ratdom_rat_warden_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_61"></span><strong><code>ratdom_rat_warden_61</code></strong> Wart: “You've already recovered some of King Rah's legs.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_70">ratdom_rat_warden_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_65"></span><strong><code>ratdom_rat_warden_65</code></strong> Wart: “Ah, you've already recovered King Rah's tail!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_70">ratdom_rat_warden_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_66"></span><strong><code>ratdom_rat_warden_66</code></strong> Wart: “Good, you've already recovered King Rah's back bone.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_70">ratdom_rat_warden_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_67"></span><strong><code>ratdom_rat_warden_67</code></strong> Wart: “Great! These bones look like King Rah's ribs!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_70">ratdom_rat_warden_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_69"></span><strong><code>ratdom_rat_warden_69</code></strong> Wart: “Please go and find all of King Rah's bones.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_80">ratdom_rat_warden_80</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_31"></span><strong><code>ratdom_rat_warden_31</code></strong> Wart: “Well, almost every rat.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_32">ratdom_rat_warden_32</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_1"></span><strong><code>ratdom_rat_warden_cheese_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “ratdom_rat_cheese1” -1, gives 1× <a href="../../items/cheese/">Cheese</a></p>
+<ul>
+<li>branch 1 <em>(if faction “ratdom_rat_cheese1” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_1">ratdom_rat_warden_cheese_1</a></li>
+<li>branch 2 → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_2"></span><strong><code>ratdom_rat_warden_cheese_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “ratdom_rat_cheese2” -1, gives 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a></p>
+<ul>
+<li>branch 1 <em>(if faction “ratdom_rat_cheese2” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_2">ratdom_rat_warden_cheese_2</a></li>
+<li>branch 2 → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_3"></span><strong><code>ratdom_rat_warden_cheese_3</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “ratdom_rat_cheese3” -1, gives 1× <a href="../../items/cheese_blue/">Blue cheese</a></p>
+<ul>
+<li>branch 1 <em>(if faction “ratdom_rat_cheese3” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_3">ratdom_rat_warden_cheese_3</a></li>
+<li>branch 2 → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_4"></span><strong><code>ratdom_rat_warden_cheese_4</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “ratdom_rat_cheese4” -1, gives 1× <a href="../../items/cheese_goat/">Goat cheese</a></p>
+<ul>
+<li>branch 1 <em>(if faction “ratdom_rat_cheese4” ≥ 1)</em> → <a href="#d-ratdom_rat_warden_cheese_4">ratdom_rat_warden_cheese_4</a></li>
+<li>branch 2 → <a href="#d-ratdom_rat_warden_cheese">ratdom_rat_warden_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_50"></span><strong><code>ratdom_rat_warden_cheese_50</code></strong> Wart: “Sure, here you are.”</p>
+<ul>
+<li>“Thank you. Here, have some coins.” <em>(if pay 2 gold)</em> → <a href="#d-ratdom_rat_warden_cheese_52">ratdom_rat_warden_cheese_52</a></li>
+<li>“Wasn't there one or two more pieces of cheese?” → <a href="#d-ratdom_rat_warden_cheese_54">ratdom_rat_warden_cheese_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_54"></span><strong><code>ratdom_rat_warden_54</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if random chance (25%))</em> → <a href="#d-ratdom_rat_warden_54d">ratdom_rat_warden_54d</a></li>
+<li>Next <em>(if random chance (33%))</em> → <a href="#d-ratdom_rat_warden_54c">ratdom_rat_warden_54c</a></li>
+<li>Next <em>(if random chance (50%))</em> → <a href="#d-ratdom_rat_warden_54b">ratdom_rat_warden_54b</a></li>
+<li>Next → <a href="#d-ratdom_rat_warden_54a">ratdom_rat_warden_54a</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_70"></span><strong><code>ratdom_rat_warden_70</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 4× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_70a">ratdom_rat_warden_70a</a></li>
+<li>branch 2 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>; carry 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_71a">ratdom_rat_warden_71a</a></li>
+<li>branch 3 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>; carry 4× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_75a">ratdom_rat_warden_75a</a></li>
+<li>branch 4 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>; carry 4× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_ribs/">Rib bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_76a">ratdom_rat_warden_76a</a></li>
+<li>branch 5 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_skull/">Rat skull</a>; carry 4× <a href="../../items/ratdom_rat_skelett_leg/">Leg bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_tail/">Tail bones of a rat</a>; carry 1× <a href="../../items/ratdom_rat_skelett_back/">Back bones of a rat</a>)</em> → <a href="#d-ratdom_rat_warden_77a">ratdom_rat_warden_77a</a></li>
+<li>branch 6 → <a href="#d-ratdom_rat_warden_79">ratdom_rat_warden_79</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_80"></span><strong><code>ratdom_rat_warden_80</code></strong> <a href="./">Wart</a>: “I can't let you enter our Memorial Hall. We have to get back our skeleton statue of King Rah first.” — <strong>effects:</strong> sets stage 310 of <a href="../../quests/ratdom_quest/#stage-310">Yellow is it</a></p>
+<ul>
+<li>“OK. I will find the bones for you.” → <a href="#d-ratdom_rat_warden_90">ratdom_rat_warden_90</a></li>
+<li>“This maze is terrible. Do you have any idea how I could find my way out again?” → <a href="#d-ratdom_rat_warden_82">ratdom_rat_warden_82</a></li>
+<li>“Do you have any idea where I should go looking for your bones?” → <a href="#d-ratdom_rat_warden_90">ratdom_rat_warden_90</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_32"></span><strong><code>ratdom_rat_warden_32</code></strong> Wart: “But Fraedro was filled with jealousy and consumed with envy.”</p>
+<ul>
+<li>“Yes, it is always the same thing.” → <a href="#d-ratdom_rat_warden_33">ratdom_rat_warden_33</a></li>
+<li>“Sigh. I know that story already. Get to the point.” <em>(if reached stage 310 of <a href="../../quests/ratdom_quest/#stage-310">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden_44b">ratdom_rat_warden_44b</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_52"></span><strong><code>ratdom_rat_warden_cheese_52</code></strong> Wart: “2 gold coins - how very generous.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_cheese_53">ratdom_rat_warden_cheese_53</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_54"></span><strong><code>ratdom_rat_warden_cheese_54</code></strong> Wart: “Insolence. I'll pretend that I didn't hear it.”</p>
+<p><span id="d-ratdom_rat_warden_54d"></span><strong><code>ratdom_rat_warden_54d</code></strong> Wart: “I am so grateful.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_54">ratdom_rat_warden_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_54c"></span><strong><code>ratdom_rat_warden_54c</code></strong> Wart: “Thanks!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_54">ratdom_rat_warden_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_54b"></span><strong><code>ratdom_rat_warden_54b</code></strong> Wart: “Thank you a thousand times!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_54">ratdom_rat_warden_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_54a"></span><strong><code>ratdom_rat_warden_54a</code></strong> Wart: “Thank you!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_54">ratdom_rat_warden_54</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_70a"></span><strong><code>ratdom_rat_warden_70a</code></strong> Wart: “Let's have a look ... Great! Only King Rah's head is missing. You will find it too, I am sure.” — <strong>effects:</strong> sets stage 321 of <a href="../../quests/ratdom_quest/#stage-321">Yellow is it</a></p>
+<ul>
+<li>“Of course.” → <em>conversation ends</em></li>
+<li>“I hope it is worth the hard work.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_71a"></span><strong><code>ratdom_rat_warden_71a</code></strong> Wart: “Let's have a look ... Great! Now we only need the fourth leg. You will find it too, I am sure.” — <strong>effects:</strong> sets stage 325 of <a href="../../quests/ratdom_quest/#stage-325">Yellow is it</a></p>
+<ul>
+<li>“Of course.” → <em>conversation ends</em></li>
+<li>“I hope it is worth the hard work.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_75a"></span><strong><code>ratdom_rat_warden_75a</code></strong> Wart: “Let's have a look ... Great! Only King Rah's tail is missing. You will find it too, I am sure.” — <strong>effects:</strong> sets stage 324 of <a href="../../quests/ratdom_quest/#stage-324">Yellow is it</a></p>
+<ul>
+<li>“Of course.” → <em>conversation ends</em></li>
+<li>“I hope it is worth the hard work.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_76a"></span><strong><code>ratdom_rat_warden_76a</code></strong> Wart: “Let's have a look ... Great! Only King Rah's back bone is missing. You will find it too, I am sure.” — <strong>effects:</strong> sets stage 322 of <a href="../../quests/ratdom_quest/#stage-322">Yellow is it</a></p>
+<ul>
+<li>“Of course.” → <em>conversation ends</em></li>
+<li>“I hope it is worth the hard work.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_77a"></span><strong><code>ratdom_rat_warden_77a</code></strong> Wart: “Let's have a look ... Great! Only King Rah's rib bones are missing. You will find them too, I am sure.” — <strong>effects:</strong> sets stage 323 of <a href="../../quests/ratdom_quest/#stage-323">Yellow is it</a></p>
+<ul>
+<li>“Of course.” → <em>conversation ends</em></li>
+<li>“I hope it is worth the hard work.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_79"></span><strong><code>ratdom_rat_warden_79</code></strong> Wart: “Let's have a look ... In total we need the head, the ribs and the back bone, 4 legs and the tail of course.” — <strong>effects:</strong> sets stage 320 of <a href="../../quests/ratdom_quest/#stage-320">Yellow is it</a></p>
+<ul>
+<li>“OK, I'll be back.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_90"></span><strong><code>ratdom_rat_warden_90</code></strong> <a href="./">Wart</a>: “The cave system is huge and really very confusing. It already surprised me how you found your way to me here.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_91">ratdom_rat_warden_91</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_82"></span><strong><code>ratdom_rat_warden_82</code></strong> Wart: “That is easy. Just choose the exit where you see rats in front of it. Rats always know their way out.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_84">ratdom_rat_warden_84</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_33"></span><strong><code>ratdom_rat_warden_33</code></strong> Wart: “How he hated it when visitors crowded these halls around the valuable exhibits and admired the statues.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_34">ratdom_rat_warden_34</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_44b"></span><strong><code>ratdom_rat_warden_44b</code></strong> Wart: “For security reasons, we don't let anyone in or out until King Rah is back in his accustomed place.”</p>
+<ul>
+<li>“Even 100 pieces of gold wouldn't change your mind?” → <a href="#d-ratdom_rat_warden_46a">ratdom_rat_warden_46a</a></li>
+<li>“If the skeleton is back, may I pass?” <em>(if NOT reached stage 390 of <a href="../../quests/ratdom_quest/#stage-390">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden_48">ratdom_rat_warden_48</a></li>
+<li>“I want to talk with Fraedro.” <em>(if NOT reached stage 395 of <a href="../../quests/ratdom_quest/#stage-395">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden_46b">ratdom_rat_warden_46b</a></li>
+<li>“What lies behind this blocked passage?” → <a href="#d-ratdom_rat_warden_46c">ratdom_rat_warden_46c</a></li>
+<li>“May I enter?” <em>(if reached stage 310 of <a href="../../quests/ratdom_quest/#stage-310">Yellow is it</a>; NOT reached stage 390 of <a href="../../quests/ratdom_quest/#stage-390">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden_50">ratdom_rat_warden_50</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_cheese_53"></span><strong><code>ratdom_rat_warden_cheese_53</code></strong> Wart: “[low voice] Scrooge.”</p>
+<p><span id="d-ratdom_rat_warden_91"></span><strong><code>ratdom_rat_warden_91</code></strong> Wart: “Maybe you'll find wisdom in my compass?”</p>
+<ul>
+<li>“What compass?” → <a href="#d-ratdom_rat_warden_92">ratdom_rat_warden_92</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_84"></span><strong><code>ratdom_rat_warden_84</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_rat_warden_86">ratdom_rat_warden_86</a></li>
+<li>Next → <a href="#d-ratdom_rat_warden_80">ratdom_rat_warden_80</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_34"></span><strong><code>ratdom_rat_warden_34</code></strong> Wart: “He wanted to be the center of attention. A larger-than-life statue of himself should dominate the room, he thought.”</p>
+<ul>
+<li>“Such a braggart.” → <a href="#d-ratdom_rat_warden_35">ratdom_rat_warden_35</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_46a"></span><strong><code>ratdom_rat_warden_46a</code></strong> Wart: “Of course not! This door will remain closed until King Rah returns.”</p>
+<ul>
+<li>“Sorry.” → <a href="#d-ratdom_rat_warden_44b">ratdom_rat_warden_44b</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_48"></span><strong><code>ratdom_rat_warden_48</code></strong> Wart: “If King Rah is with us again, that would be great! Of course you can then go to our memory hall. You would be our guest of honor.” — <strong>effects:</strong> sets stage 310 of <a href="../../quests/ratdom_quest/#stage-310">Yellow is it</a></p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_48a">ratdom_rat_warden_48a</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_46b"></span><strong><code>ratdom_rat_warden_46b</code></strong> Wart: “Impossible! No way.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_44b">ratdom_rat_warden_44b</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_46c"></span><strong><code>ratdom_rat_warden_46c</code></strong> Wart: “The memory hall of course.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_44d">ratdom_rat_warden_44d</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_92"></span><strong><code>ratdom_rat_warden_92</code></strong> Wart: “Start at the entrance where you entered the lower part of these caves.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_94">ratdom_rat_warden_94</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_86"></span><strong><code>ratdom_rat_warden_86</code></strong> <a href="../ratdom_rat/">Clevred</a>: “Didn't I tell you?”</p>
+<ul>
+<li>“You talk all the time and too much anyway. I can't always listen to that.” → <a href="#d-ratdom_rat_warden_80">ratdom_rat_warden_80</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_35"></span><strong><code>ratdom_rat_warden_35</code></strong> Wart: “He hated especially the fully preserved skeleton of King Rah, the powerful founder of this empire. It was particularly brilliant: King Rah, standing upright, his dreaded sword in his bony right hand.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_36">ratdom_rat_warden_36</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_48a"></span><strong><code>ratdom_rat_warden_48a</code></strong> Wart: “But we are not there yet.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_80">ratdom_rat_warden_80</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_44d"></span><strong><code>ratdom_rat_warden_44d</code></strong> Wart: “And another tunnel, but only a short distance and a dead end.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_44e">ratdom_rat_warden_44e</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_94"></span><strong><code>ratdom_rat_warden_94</code></strong> Wart: “There you put on the necklace with my compass. With this compass you may perceive otherwise invisible signs on the walls. Follow these.”</p>
+<ul>
+<li>“What signs?” → <a href="#d-ratdom_rat_warden_95">ratdom_rat_warden_95</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_36"></span><strong><code>ratdom_rat_warden_36</code></strong> Wart: “Yes, King Rah was a great leader. Many battles were fought against the monsters that came out of the rift. But when the superiority became too great, Rah led his people into the caves under the Blackwater Mountains and founded a new…”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_37">ratdom_rat_warden_37</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_44e"></span><strong><code>ratdom_rat_warden_44e</code></strong> Wart: “We never go there, there are scary noises coming from there.”</p>
+<ul>
+<li>“Finally light at the end of the tunnel.” → <a href="#d-ratdom_rat_warden_44b">ratdom_rat_warden_44b</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95"></span><strong><code>ratdom_rat_warden_95</code></strong> Wart: “Shields in orange and yellow color. Orange for the main route and yellow for short side tunnels.”</p>
+<ul>
+<li>“What?” → <a href="#d-ratdom_rat_warden_95_10">ratdom_rat_warden_95_10</a></li>
+<li>“OK.” → <a href="#d-ratdom_rat_warden_96">ratdom_rat_warden_96</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_37"></span><strong><code>ratdom_rat_warden_37</code></strong> Wart: “The wise King Rah had the existing caves further expanded as protection.”</p>
+<ul>
+<li>“That's why the passages are laid out so confusingly?” → <a href="#d-ratdom_rat_warden_38">ratdom_rat_warden_38</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95_10"></span><strong><code>ratdom_rat_warden_95_10</code></strong> Wart: “Should there be a branch, there will be an additional flag. The side trip is marked with a yellow shield.”</p>
+<ul>
+<li>“What?” → <a href="#d-ratdom_rat_warden_95_20">ratdom_rat_warden_95_20</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_96"></span><strong><code>ratdom_rat_warden_96</code></strong> <a href="./">Wart</a>: “It will be a far journey. But you will meet everything that you need to meet. And even more.”</p>
+<ul>
+<li>“This is finally good news.” → <a href="#d-ratdom_rat_warden_98">ratdom_rat_warden_98</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_38"></span><strong><code>ratdom_rat_warden_38</code></strong> Wart: “Right. This should be additional protection from enemies.”</p>
+<ul>
+<li>“Interesting. But why is the passage here closed now?” → <a href="#d-ratdom_rat_warden_40">ratdom_rat_warden_40</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95_20"></span><strong><code>ratdom_rat_warden_95_20</code></strong> Wart: “Sigh. If you see an orange shield together with a flag, then first look for another passage marked with a yellow shield.”</p>
+<ul>
+<li>“And then?” → <a href="#d-ratdom_rat_warden_95_30">ratdom_rat_warden_95_30</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_98"></span><strong><code>ratdom_rat_warden_98</code></strong> Wart: “Beware! It slows you down, because your mind is clouded and partly in another dimension.”</p>
+<ul>
+<li>“No problem. Show me this wonderful item.” → <em>shop opens</em></li>
+<li>“However, I am as poor as a church rat.” <em>(if NOT have 5,555 gold; NOT reached stage 192 of <a href="../../quests/ratdom_nondisplay/#stage-192">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_rat_warden_99">ratdom_rat_warden_99</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_40"></span><strong><code>ratdom_rat_warden_40</code></strong> Wart: “One bad day I found this place ransacked! Only an empty pedestal remained where the richly decorated skeleton of King Rah had been.”</p>
+<ul>
+<li>“No.” → <a href="#d-ratdom_rat_warden_41">ratdom_rat_warden_41</a></li>
+<li>“How did that happen?” → <a href="#d-ratdom_rat_warden_42">ratdom_rat_warden_42</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95_30"></span><strong><code>ratdom_rat_warden_95_30</code></strong> Wart: “Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the orange shield again.” — <strong>effects:</strong> sets stage 132 of <a href="../../quests/ratdom_maze/#stage-132">Ratdom_maze (hidden flag)</a>, starts timer “ratdom_compass_tour”</p>
+<ul>
+<li>“Eh, OK. Got it.” <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_rat_warden_95_40">ratdom_rat_warden_95_40</a></li>
+<li>“Eh, OK. Got it.” <em>(if NOT reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_rat_warden_95_41">ratdom_rat_warden_95_41</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_99"></span><strong><code>ratdom_rat_warden_99</code></strong> Wart: “Well, I have too good a heart. Here, take the amulet for 100 gold pieces.”</p>
+<ul>
+<li>“Oh thank you! Here is the gold.” <em>(if pay 100 gold)</em> → <a href="#d-ratdom_rat_warden_99a">ratdom_rat_warden_99a</a></li>
+<li>“I will think about it.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_41"></span><strong><code>ratdom_rat_warden_41</code></strong> Wart: “Yes.”</p>
+<ul>
+<li>“Ooh.” → <a href="#d-ratdom_rat_warden_42">ratdom_rat_warden_42</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_42"></span><strong><code>ratdom_rat_warden_42</code></strong> Wart: “This was probably Fraedro's most terrifying act. We found him and confronted him.”</p>
+<ul>
+<li>“Such a miserable villain!” → <a href="#d-ratdom_rat_warden_44">ratdom_rat_warden_44</a></li>
+<li>“Did he admit it?” → <a href="#d-ratdom_rat_warden_44">ratdom_rat_warden_44</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95_40"></span><strong><code>ratdom_rat_warden_95_40</code></strong> <a href="../ratdom_rat/">Clevred</a>: “[muttering] I want to hope so, but I don't really believe it yet.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_96">ratdom_rat_warden_96</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_95_41"></span><strong><code>ratdom_rat_warden_95_41</code></strong> Wart: “[muttering] I want to hope so, but I don't really believe it yet.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_96">ratdom_rat_warden_96</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_99a"></span><strong><code>ratdom_rat_warden_99a</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> gives 1× <a href="../../items/ratdom_compass_tour/">Orange rat necklace</a>, sets stage 192 of <a href="../../quests/ratdom_nondisplay/#stage-192">ratdom_nondisplay (hidden flag)</a></p>
+<p><span id="d-ratdom_rat_warden_44"></span><strong><code>ratdom_rat_warden_44</code></strong> Wart: “Of course he denied everything, that hypocrite! But who else could have done it?”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_44a">ratdom_rat_warden_44a</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden_44a"></span><strong><code>ratdom_rat_warden_44a</code></strong> Wart: “He deserved immediate death for this terrible act. However, we only locked him up until he would reveal where he stashed our beloved royal skeleton.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden_44b">ratdom_rat_warden_44b</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ratdom_rat_warden</code> · Data from v0.8.18</small></p>
 
 

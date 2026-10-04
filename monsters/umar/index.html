@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +982,744 @@
 <li><a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a></li>
 <li><a href="../../maps/fallhaven_derelict2_t/">fallhaven_derelict2_t</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lodar/">A lost potion</a>: stages 10, 15</li>
+<li><a href="../../quests/Thieves04/">Another ruthless Crackshot</a>: stages 10, 30, 40, 60, 70, 80</li>
+<li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 2, 4, 6, 30, 35, 40, 75, 76</li>
+<li><a href="../../quests/Thieves03/">The ruthless Crackshot</a>: stages 1, 4, 5, 10, 45, 50</li>
+<li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 5, 10</li>
+<li><a href="../../quests/troubling_times/">Troubling times</a>: stages 10, 20, 30, 120</li>
+<li><a href="../../quests/misc_nondisplay/">misc_nondisplay (hidden flag)</a>: stages 20</li>
+<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stages 28</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (150 lines+)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-umar_select_1"></span><strong><code>umar_select_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 70 of <a href="../../quests/wanted_men/#stage-70">Wanted men</a>)</em> → <a href="#d-nanath_10">nanath_10</a></li>
+<li>branch 2 <em>(if reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>)</em> → <a href="#d-nanath_12">nanath_12</a></li>
+<li>branch 3 <em>(if reached stage 115 of <a href="../../quests/troubling_times/#stage-115">Troubling times</a>; NOT reached stage 120 of <a href="../../quests/troubling_times/#stage-120">Troubling times</a>)</em> → <a href="#d-umar_tt_100">umar_tt_100</a></li>
+<li>branch 4 <em>(if reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; NOT reached stage 70 of <a href="../../quests/wanted_men/#stage-70">Wanted men</a>)</em> → <a href="#d-umar_tt">umar_tt</a></li>
+<li>branch 5 <em>(if reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>)</em> → <a href="#d-umar_return_1">umar_return_1</a></li>
+<li>branch 6 → <a href="#d-umar_novisit_1">umar_novisit_1</a></li>
+</ul>
+<p><span id="d-nanath_10"></span><strong><code>nanath_10</code></strong> Umar: “You? How dare you show your face?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/troubling_times/#stage-10">Troubling times</a>, sets stage 20 of <a href="../../quests/troubling_times/#stage-20">Troubling times</a></p>
+<ul>
+<li>“Why?” → <a href="#d-nanath_18">nanath_18</a></li>
+</ul>
+<p><span id="d-nanath_12"></span><strong><code>nanath_12</code></strong> Umar: “You? How dare you show your face?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/troubling_times/#stage-10">Troubling times</a>, sets stage 30 of <a href="../../quests/troubling_times/#stage-30">Troubling times</a></p>
+<ul>
+<li>“Why?” → <a href="#d-nanath_18">nanath_18</a></li>
+</ul>
+<p><span id="d-umar_tt_100"></span><strong><code>umar_tt_100</code></strong> Umar: “$playername, didn't I make it clear that I didn't want to be disturbed?”</p>
+<ul>
+<li>“Yes, I'm sorry too. But we need your help.” → <a href="#d-umar_tt_102">umar_tt_102</a></li>
+</ul>
+<p><span id="d-umar_tt"></span><strong><code>umar_tt</code></strong> Umar: “Hello $playername, good that you are here. Please talk to Nanath, I am really busy right now.”</p>
+<ul>
+<li>“Wait ...” → <a href="#d-umar_return_1">umar_return_1</a></li>
+<li>“OK, I'll go find Nanath.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_return_1"></span><strong><code>umar_return_1</code></strong> Umar: “Hello again, my friend.”</p>
+<ul>
+<li>“Do you have any tasks for me?” <em>(if faction “ThievesGuild” ≥ 40)</em> → <a href="#d-umar_guild05_0">umar_guild05_0</a></li>
+<li>“I have given them our promised share.” <em>(if NOT reached stage 80 of <a href="../../quests/Thieves04/#stage-80">Another ruthless Crackshot</a>; reached stage 30 of <a href="../../quests/sullengard_hidden/#stage-30">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-umar_guild04_29">umar_guild04_29</a></li>
+<li>“What are we gonna do about Sullengard?” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-70">Another ruthless Crackshot</a> is 70; NOT reached stage 30 of <a href="../../quests/sullengard_hidden/#stage-30">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-umar_guild04_26">umar_guild04_26</a></li>
+<li>“What are your plans for the new traitors?” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-60">Another ruthless Crackshot</a> is 60)</em> → <a href="#d-umar_guild04_21">umar_guild04_21</a></li>
+<li>“Matpat told me that Defy and his men left Sullengard.” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-50">Another ruthless Crackshot</a> is 50)</em> → <a href="#d-umar_guild04_19">umar_guild04_19</a></li>
+<li>“Defy and his men have left Sullengard.” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-35">Another ruthless Crackshot</a> is 35)</em> → <a href="#d-umar_guild04_17">umar_guild04_17</a></li>
+<li>“Defy told me that the time to share will be delayed for no stated reason.” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-20">Another ruthless Crackshot</a> is 20)</em> → <a href="#d-umar_guild04_15">umar_guild04_15</a></li>
+<li>“What am I supposed to do in Sullengard again?” <em>(if latest stage of <a href="../../quests/Thieves04/#stage-10">Another ruthless Crackshot</a> is 10)</em> → <a href="#d-umar_guild04_12">umar_guild04_12</a></li>
+<li>“Do you have any tasks for me?” <em>(if faction “ThievesGuild” ≥ 30; NOT reached stage 10 of <a href="../../quests/Thieves04/#stage-10">Another ruthless Crackshot</a>)</em> → <a href="#d-umar_guild04_0">umar_guild04_0</a></li>
+<li>“Are you going to tell me about the key?” <em>(if reached stage 45 of <a href="../../quests/Thieves03/#stage-45">The ruthless Crackshot</a>; NOT reached stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_27c">umar_guild03_27c</a></li>
+<li>“Crackshot is dead.” <em>(if reached stage 40 of <a href="../../quests/Thieves03/#stage-40">The ruthless Crackshot</a>; NOT reached stage 45 of <a href="../../quests/Thieves03/#stage-45">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_25">umar_guild03_25</a></li>
+<li>“What am I supposed to do again?” <em>(if reached stage 10 of <a href="../../quests/Thieves03/#stage-10">The ruthless Crackshot</a>; NOT reached stage 40 of <a href="../../quests/Thieves03/#stage-40">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_20">umar_guild03_20</a></li>
+<li>“What are your plans for the traitors?” <em>(if reached stage 5 of <a href="../../quests/Thieves03/#stage-5">The ruthless Crackshot</a>; NOT reached stage 10 of <a href="../../quests/Thieves03/#stage-10">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_14">umar_guild03_14</a></li>
+<li>“Can you continue with what you were telling me about the traitors?” <em>(if reached stage 4 of <a href="../../quests/Thieves03/#stage-4">The ruthless Crackshot</a>; NOT reached stage 5 of <a href="../../quests/Thieves03/#stage-5">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_10c">umar_guild03_10c</a></li>
+<li>“We are supposed to talk about something.” <em>(if reached stage 3 of <a href="../../quests/Thieves03/#stage-3">The ruthless Crackshot</a>; NOT reached stage 4 of <a href="../../quests/Thieves03/#stage-4">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_1">umar_guild03_1</a></li>
+<li>“We were supposed to talk about something, right?” <em>(if reached stage 76 of <a href="../../quests/Thieves02/#stage-76">Immaculate kidnapping</a>; NOT reached stage 75 of <a href="../../quests/Thieves02/#stage-75">Immaculate kidnapping</a>; NOT reached stage 1 of <a href="../../quests/Thieves03/#stage-1">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild02_26">umar_guild02_26</a></li>
+<li>“We were supposed to talk about something, right?” <em>(if reached stage 75 of <a href="../../quests/Thieves02/#stage-75">Immaculate kidnapping</a>; NOT reached stage 1 of <a href="../../quests/Thieves03/#stage-1">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild02_26">umar_guild02_26</a></li>
+<li>“I've finally finished the job.” <em>(if NOT latest stage of <a href="../../quests/Thieves02/#stage-75">Immaculate kidnapping</a> is 75; reached stage 70 of <a href="../../quests/Thieves02/#stage-70">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_22">umar_guild02_22</a></li>
+<li>“What am I suppossed to do again?” <em>(if reached stage 40 of <a href="../../quests/Thieves02/#stage-40">Immaculate kidnapping</a>; NOT reached stage 45 of <a href="../../quests/Thieves02/#stage-45">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_21">umar_guild02_21</a></li>
+<li>“What am I supposed to do with the noblewoman?” <em>(if reached stage 35 of <a href="../../quests/Thieves02/#stage-35">Immaculate kidnapping</a>; NOT reached stage 40 of <a href="../../quests/Thieves02/#stage-40">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_20">umar_guild02_20</a></li>
+<li>“What am I supposed to do with the noblewoman?” <em>(if reached stage 30 of <a href="../../quests/Thieves02/#stage-30">Immaculate kidnapping</a>; NOT reached stage 35 of <a href="../../quests/Thieves02/#stage-35">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_19">umar_guild02_19</a></li>
+<li>“I have to talk to you about the noblewoman.” <em>(if reached stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>; reached stage 21 of <a href="../../quests/Thieves02/#stage-21">Immaculate kidnapping</a>; NOT reached stage 20 of <a href="../../quests/Thieves02/#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="../../quests/Thieves02/#stage-30">Immaculate kidnapping</a>; NOT reached stage 76 of <a href="../../quests/Thieves02/#stage-76">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_28">umar_guild02_28</a></li>
+<li>“I have brought the hostage.” <em>(if reached stage 20 of <a href="../../quests/Thieves02/#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="../../quests/Thieves02/#stage-30">Immaculate kidnapping</a>; NOT reached stage 21 of <a href="../../quests/Thieves02/#stage-21">Immaculate kidnapping</a>; NOT reached stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_16">umar_guild02_16</a></li>
+<li>“Anything more about my new task?” <em>(if reached stage 6 of <a href="../../quests/Thieves02/#stage-6">Immaculate kidnapping</a>; NOT reached stage 15 of <a href="../../quests/Thieves02/#stage-15">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_15">umar_guild02_15</a></li>
+<li>“Anything more about my new task?” <em>(if latest stage of <a href="../../quests/Thieves02/#stage-2">Immaculate kidnapping</a> is 2; NOT reached stage 4 of <a href="../../quests/Thieves02/#stage-4">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_10">umar_guild02_10</a></li>
+<li>“Anything more about my new task?” <em>(if latest stage of <a href="../../quests/Thieves02/#stage-4">Immaculate kidnapping</a> is 4; NOT reached stage 6 of <a href="../../quests/Thieves02/#stage-6">Immaculate kidnapping</a>; NOT reached stage 15 of <a href="../../quests/Thieves02/#stage-15">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_13">umar_guild02_13</a></li>
+<li>“Troublemaker sent me. I have finished the job.” <em>(if latest stage of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a> is 60; NOT reached stage 2 of <a href="../../quests/Thieves02/#stage-2">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild02_1">umar_guild02_1</a></li>
+<li>“Hello.” → <a href="#d-umar_return_2">umar_return_2</a></li>
+<li>“Nice to meet you. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_novisit_1"></span><strong><code>umar_novisit_1</code></strong> Umar: “Hello. How did your search go?”</p>
+<ul>
+<li>“What search?” → <a href="#d-umar_2">umar_2</a></li>
+</ul>
+<p><span id="d-nanath_18"></span><strong><code>nanath_18</code></strong> Umar: “You betrayed the Guild over the task with Defy. Get out!”</p>
+<p><span id="d-umar_tt_102"></span><strong><code>umar_tt_102</code></strong> Umar: “[Muttering to himself] Tu quoque, mi fili? Sigh.”</p>
+<ul>
+<li>“To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate.” → <a href="#d-umar_tt_110">umar_tt_110</a></li>
+</ul>
+<p><span id="d-umar_guild05_0"></span><strong><code>umar_guild05_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 72 of <a href="../quests/andor.md#stage-72">andor (hidden flag)</a>; reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 100 of <a href="../quests/flagstone.md#stage-100">flagstone (hidden flag)</a>; reached stage 50 of <a href="../../quests/stoutford_castle/#stage-50">Stoutford's old castle</a>)</em> → <a href="#d-umar_guild05_1a">umar_guild05_1a</a></li>
+<li>branch 2 → <a href="#d-umar_guild05_1b">umar_guild05_1b</a></li>
+</ul>
+<p><span id="d-umar_guild04_29"></span><strong><code>umar_guild04_29</code></strong> Umar: “Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/Thieves04/#stage-80">Another ruthless Crackshot</a>, faction “ThievesGuild” +10, gives 1× <a href="../../items/blade_protector/">Blade of the protector</a></p>
+<ul>
+<li>“Thank you, sir. You can count me in as well to kill Defy.” → <a href="#d-umar_guild04_30">umar_guild04_30</a></li>
+<li>“Thank you sir, but what about Defy and his men?” → <a href="#d-umar_guild04_30">umar_guild04_30</a></li>
+</ul>
+<p><span id="d-umar_guild04_26"></span><strong><code>umar_guild04_26</code></strong> Umar: “Sullengard is our friend. Find a way to earn gold.”</p>
+<ul>
+<li>“How can we earn that large amount of gold?” → <a href="#d-umar_guild04_27">umar_guild04_27</a></li>
+<li>“This requires so much gold, how can we earn it?” → <a href="#d-umar_guild04_27">umar_guild04_27</a></li>
+</ul>
+<p><span id="d-umar_guild04_21"></span><strong><code>umar_guild04_21</code></strong> Umar: “Fortunately, one of my men found one of his drunk men and had a short talk with him before he bled to death.”</p>
+<ul>
+<li>“What did he say?” → <a href="#d-umar_guild04_22">umar_guild04_22</a></li>
+<li>“Sweet justice with small information?” → <a href="#d-umar_guild04_22">umar_guild04_22</a></li>
+</ul>
+<p><span id="d-umar_guild04_19"></span><strong><code>umar_guild04_19</code></strong> Umar: “This is madness! He betrayed us just like Crackshot did.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/Thieves04/#stage-60">Another ruthless Crackshot</a></p>
+<ul>
+<li>“We better find and kill him and his men and retrieve the share to help the people of Sullengard.” → <a href="#d-umar_guild04_20">umar_guild04_20</a></li>
+</ul>
+<p><span id="d-umar_guild04_17"></span><strong><code>umar_guild04_17</code></strong> Umar: “He can't be gone without our share from the bootleg brewers.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/Thieves04/#stage-40">Another ruthless Crackshot</a></p>
+<ul>
+<li>“I thought he would come back here.” → <a href="#d-umar_guild04_18">umar_guild04_18</a></li>
+<li>“You're right.” → <a href="#d-umar_guild04_18">umar_guild04_18</a></li>
+</ul>
+<p><span id="d-umar_guild04_15"></span><strong><code>umar_guild04_15</code></strong> Umar: “Not again. What's on his mind?”</p>
+<ul>
+<li>“I don't know.” → <a href="#d-umar_guild04_16">umar_guild04_16</a></li>
+<li>“I'll ask him again once his head is cool.” → <a href="#d-umar_guild04_16">umar_guild04_16</a></li>
+</ul>
+<p><span id="d-umar_guild04_12"></span><strong><code>umar_guild04_12</code></strong> Umar: “I want you to go to Sullengard and find one of my appointed veterans named Defy.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_13">umar_guild04_13</a></li>
+</ul>
+<p><span id="d-umar_guild04_0"></span><strong><code>umar_guild04_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <a href="#d-umar_guild04_1">umar_guild04_1</a></li>
+</ul>
+<p><span id="d-umar_guild03_27c"></span><strong><code>umar_guild03_27c</code></strong> Umar: “I've told you to have patience, my friend. Any thief is dead without patience.”</p>
+<ul>
+<li>“What do you mean?” → <a href="#d-umar_guild03_28b">umar_guild03_28b</a></li>
+<li>“Understood ....” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_25"></span><strong><code>umar_guild03_25</code></strong> Umar: “Excellent. Did he have the key with him?”</p>
+<ul>
+<li>“Yes ... [give key]. Why is this key so important to us?” <em>(if hand over 1× <a href="../../items/g03_luthor/">Key of Luthor</a>)</em> → <a href="#d-umar_guild03_26a">umar_guild03_26a</a></li>
+<li>“Sure, here, take it. And maybe it's time to give me some more information.” <em>(if hand over 1× <a href="../../items/g03_luthor/">Key of Luthor</a>)</em> → <a href="#d-umar_guild03_26b">umar_guild03_26b</a></li>
+<li>“(Lie) No, I didn't find it.” → <a href="#d-umar_guild03_25_1">umar_guild03_25_1</a></li>
+<li>“He had the key, but I don't have it with me.” <em>(if NOT carry 1× <a href="../../items/g03_luthor/">Key of Luthor</a>)</em> → <a href="#d-umar_guild03_25_2">umar_guild03_25_2</a></li>
+</ul>
+<p><span id="d-umar_guild03_20"></span><strong><code>umar_guild03_20</code></strong> Umar: “Remember, this is an important mission! Don't forget it again!”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_21">umar_guild03_21</a></li>
+</ul>
+<p><span id="d-umar_guild03_14"></span><strong><code>umar_guild03_14</code></strong> Umar: “Hmm ... I think we have no choice. We'll have to deal with him and his henchmen ... forever.”</p>
+<ul>
+<li>“OK, leave this to me. That's finally the kind of work I was searching for.” → <a href="#d-umar_guild03_15a">umar_guild03_15a</a></li>
+<li>“I ... I prefer to not get involved into this. Sorry.” → <a href="#d-umar_guild03_15b">umar_guild03_15b</a></li>
+</ul>
+<p><span id="d-umar_guild03_10c"></span><strong><code>umar_guild03_10c</code></strong> Umar: “Sure, I can do that.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_11b">umar_guild03_11b</a></li>
+</ul>
+<p><span id="d-umar_guild03_1"></span><strong><code>umar_guild03_1</code></strong> Umar: “I see you are better than yesterday.”</p>
+<ul>
+<li>“Indeed I am!” → <a href="#d-umar_guild03_2">umar_guild03_2</a></li>
+<li>“Yes ...” → <a href="#d-umar_guild03_2">umar_guild03_2</a></li>
+</ul>
+<p><span id="d-umar_guild02_26"></span><strong><code>umar_guild02_26</code></strong> Umar: “(Umar looks a little worried) This is really not your line of work huh? I suggest you rest for a while before doing more. You look tired.”</p>
+<ul>
+<li>“I'm not tired at all.” → <a href="#d-umar_guild02_27a">umar_guild02_27a</a></li>
+<li>“Tired? I don't know what that means!” → <a href="#d-umar_guild02_27b">umar_guild02_27b</a></li>
+<li>“Good idea.” → <a href="#d-umar_guild02_27c">umar_guild02_27c</a></li>
+</ul>
+<p><span id="d-umar_guild02_22"></span><strong><code>umar_guild02_22</code></strong> Umar: “Fine .... Although you look odd. What's the matter?”</p>
+<ul>
+<li>“It's OK ... it's just that is not my kind of work.” → <a href="#d-umar_guild02_23a">umar_guild02_23a</a></li>
+<li>“Urgh ... I just need better tasks! Do you still think I'm not yet ready?” → <a href="#d-umar_guild02_23b">umar_guild02_23b</a></li>
+</ul>
+<p><span id="d-umar_guild02_21"></span><strong><code>umar_guild02_21</code></strong> Umar: “Simple. Talk with Troublemaker about this job. He probably knows of some safe place to keep her. Then return to me.”</p>
+<ul>
+<li>“OK, thanks.” → <em>conversation ends</em></li>
+<li>“Understood.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild02_20"></span><strong><code>umar_guild02_20</code></strong> <a href="./">Umar</a>: “Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/Thieves02/#stage-40">Immaculate kidnapping</a></p>
+<ul>
+<li>“OK, I will. (You lift Ambelie up and carry her on your shoulders)” → <em>conversation ends</em></li>
+<li>“Hmpf ... Bye (You lift Ambelie up and carry her on your shoulders)” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild02_19"></span><strong><code>umar_guild02_19</code></strong> Umar: “We are supposed to have one room for receiving "visitors". However, I don't know if It's finished.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/Thieves02/#stage-35">Immaculate kidnapping</a></p>
+<ul>
+<li>“Great, more boring "moving" tasks, right?” → <a href="#d-umar_guild02_20">umar_guild02_20</a></li>
+<li>“And so?” → <a href="#d-umar_guild02_20">umar_guild02_20</a></li>
+</ul>
+<p><span id="d-umar_guild02_28"></span><strong><code>umar_guild02_28</code></strong> Umar: “I see guilt in your eyes, my young friend.”</p>
+<ul>
+<li>“I couldn't accomplish the objective, I'm sorry.” → <a href="#d-umar_guild02_29a">umar_guild02_29a</a></li>
+<li>“I felt sorry for that woman, and I decided to extort her and get the gold directly.” → <a href="#d-umar_guild02_29b">umar_guild02_29b</a></li>
+</ul>
+<p><span id="d-umar_guild02_16"></span><strong><code>umar_guild02_16</code></strong> Umar: “(You put Ambelie, who is still unconscious, in a chair next to you) Oh! How did you get here so fast? I've heard reports of a barricade blocking the way from the Duleian road to Fallhaven.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/Thieves02/#stage-30">Immaculate kidnapping</a></p>
+<ul>
+<li>“Barricades, guards ... no big thing for me.” → <a href="#d-umar_guild02_17">umar_guild02_17</a></li>
+<li>“I found a shortcut.” → <a href="#d-umar_guild02_17">umar_guild02_17</a></li>
+</ul>
+<p><span id="d-umar_guild02_15"></span><strong><code>umar_guild02_15</code></strong> Umar: “No, I've told you all you need to know. Now leave me please, I've work to do.”</p>
+<p><span id="d-umar_guild02_10"></span><strong><code>umar_guild02_10</code></strong> Umar: “I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.” — <strong>effects:</strong> sets stage 2 of <a href="../../quests/Thieves02/#stage-2">Immaculate kidnapping</a></p>
+<ul>
+<li>“Consider it done.” → <a href="#d-umar_guild02_11a">umar_guild02_11a</a></li>
+<li>“Where can I find this woman?” → <a href="#d-umar_guild02_11b">umar_guild02_11b</a></li>
+</ul>
+<p><span id="d-umar_guild02_13"></span><strong><code>umar_guild02_13</code></strong> Umar: “Use your tongue, young man. Sometimes it is more important than your sword skills.” — <strong>effects:</strong> sets stage 6 of <a href="../../quests/Thieves02/#stage-6">Immaculate kidnapping</a></p>
+<ul>
+<li>“Hah! I don't think so. But anyway, thank you for the advice.” → <a href="#d-umar_guild02_14">umar_guild02_14</a></li>
+<li>“I'll do that, thanks for the advice.” → <a href="#d-umar_guild02_14">umar_guild02_14</a></li>
+</ul>
+<p><span id="d-umar_guild02_1"></span><strong><code>umar_guild02_1</code></strong> Umar: “Excellent, young friend. Consider yourself a member of our Guild.”</p>
+<ul>
+<li>“Meh, that was nothing special. Bye.” → <em>conversation ends</em></li>
+<li>“OK, nice to see you again.” → <em>conversation ends</em></li>
+<li>“Hah, what an honor! It has been so, so difficult ....” → <a href="#d-umar_guild02_2">umar_guild02_2</a></li>
+</ul>
+<p><span id="d-umar_return_2"></span><strong><code>umar_return_2</code></strong> Umar: “Anything else I can help you with?”</p>
+<ul>
+<li>“Can you repeat what you said about Andor?” → <a href="#d-umar_5">umar_5</a></li>
+<li>“Nice to meet you. Goodbye.” → <em>conversation ends</em></li>
+<li>“Yes, I want to know more about the Thieves' Guild.” <em>(if reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>; NOT reached stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a>)</em> → <a href="#d-umar_guild_1">umar_guild_1</a></li>
+<li>“I've been thinking about joining the guild.” <em>(if reached stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="../../quests/Thieves01/#stage-10">Thief apprentice</a>; NOT latest stage of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a> is 60)</em> → <a href="#d-umar_guild_4b">umar_guild_4b</a></li>
+</ul>
+<p><span id="d-umar_2"></span><strong><code>umar_2</code></strong> Umar: “Last time we talked, you asked for the way to Lodar's Hideaway. Did you find it?”</p>
+<ul>
+<li>“We have never met.” → <a href="#d-umar_3">umar_3</a></li>
+<li>“You must have me confused with my brother Andor. We look very much alike.” → <a href="#d-umar_4">umar_4</a></li>
+</ul>
+<p><span id="d-umar_tt_110"></span><strong><code>umar_tt_110</code></strong> Umar: “She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/troubling_times/#stage-120">Troubling times</a></p>
+<ul>
+<li>“OK. She will listen to you.” → <a href="#d-umar_tt_120">umar_tt_120</a></li>
+</ul>
+<p><span id="d-umar_guild05_1a"></span><strong><code>umar_guild05_1a</code></strong> Umar: “You are really very hardworking. I can't find new work for you fast enough. You're free for now.”</p>
+<p><span id="d-umar_guild05_1b"></span><strong><code>umar_guild05_1b</code></strong> Umar: “No jobs today my young friend. Maybe some other day.”</p>
+<ul>
+<li>“I see. Bye.” → <em>conversation ends</em></li>
+<li>“That's a shame. Find more time for my skills then.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_30"></span><strong><code>umar_guild04_30</code></strong> Umar: “Like I said, we are still looking for him. You should rest for now from your long haul.”</p>
+<ul>
+<li>“You're right. My legs are so tired from having to walk back and forth from here to Sullengard so many times.” → <em>conversation ends</em></li>
+<li>“Yes, I should rest from my long travel.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_27"></span><strong><code>umar_guild04_27</code></strong> Umar: “I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/Thieves04/#stage-70">Another ruthless Crackshot</a></p>
+<ul>
+<li>“What? How?” <em>(if NOT reached stage 28 of <a href="../../quests/sullengard_hidden/#stage-28">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-umar_guild04_28b">umar_guild04_28b</a></li>
+<li>“Yes. I'm on it.” → <a href="#d-umar_guild04_28a">umar_guild04_28a</a></li>
+</ul>
+<p><span id="d-umar_guild04_22"></span><strong><code>umar_guild04_22</code></strong> Umar: “He said that they will no longer be a part of the Thieves' Guild. They are now referring to themselves as 'Aidem'.”</p>
+<ul>
+<li>“What a weird name. For what reason?” → <a href="#d-umar_guild04_23">umar_guild04_23</a></li>
+<li>“But why?” → <a href="#d-umar_guild04_23">umar_guild04_23</a></li>
+</ul>
+<p><span id="d-umar_guild04_20"></span><strong><code>umar_guild04_20</code></strong> Umar: “Yes. We must find and kill them and retrieve the share for the sake of Sullengard's living.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_21">umar_guild04_21</a></li>
+</ul>
+<p><span id="d-umar_guild04_18"></span><strong><code>umar_guild04_18</code></strong> Umar: “Go back to Sullengard and ask the townspeople if they know of his whereabouts.”</p>
+<ul>
+<li>“I'm on my way back to Sullengard now. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_16"></span><strong><code>umar_guild04_16</code></strong> Umar: “Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/Thieves04/#stage-30">Another ruthless Crackshot</a>, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement, removes monsters from sullengard_tavern_basement</p>
+<ul>
+<li>“I'm going to visit him again. Bye.” → <em>conversation ends</em></li>
+<li>“That's what I just said.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_13"></span><strong><code>umar_guild04_13</code></strong> Umar: “Tell him that it is time to give the bootleg brewers their share to aid in their livelihoods. Especially in paying their taxes.”</p>
+<ul>
+<li>“You can count on me.” → <a href="#d-umar_guild04_14">umar_guild04_14</a></li>
+<li>“But I need an invitation letter first.” → <a href="#d-umar_guild04_14">umar_guild04_14</a></li>
+<li>“I'll just wait for my brother to do that because it's very far.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_1"></span><strong><code>umar_guild04_1</code></strong> Umar: “Yes, I do have a new task for you. So, listen to me carefully.”</p>
+<ul>
+<li>“I'm listening.” → <a href="#d-umar_guild04_2">umar_guild04_2</a></li>
+</ul>
+<p><span id="d-umar_guild03_28b"></span><strong><code>umar_guild03_28b</code></strong> Umar: “I mean this is not the time to tell you what you want to know, sorry.”</p>
+<ul>
+<li>“Tsch, whatever.” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+<li>“Yes, understood.” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_27a"></span><strong><code>umar_guild03_27a</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/thieves_hidden/#stage-90">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-umar_guild03_27a_2">umar_guild03_27a_2</a></li>
+<li>branch 2 <em>(if reached stage 32 of <a href="../../quests/Thieves03/#stage-32">The ruthless Crackshot</a>)</em> → <a href="#d-umar_guild03_27a_1">umar_guild03_27a_1</a></li>
+<li>branch 3 → <a href="#d-umar_guild03_29">umar_guild03_29</a></li>
+</ul>
+<p><span id="d-umar_guild03_26a"></span><strong><code>umar_guild03_26a</code></strong> Umar: “I'm sorry, but for now I can't say more.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/Thieves03/#stage-45">The ruthless Crackshot</a></p>
+<ul>
+<li>“I see ....” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+<li>“Tsch, OK.” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_26b"></span><strong><code>umar_guild03_26b</code></strong> Umar: “Be patient, my friend. Everything will come in due time.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/Thieves03/#stage-45">The ruthless Crackshot</a></p>
+<ul>
+<li>“I expect my patience will be rewarded.” → <a href="#d-umar_guild03_27b">umar_guild03_27b</a></li>
+<li>“If you say so ...” → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_25_1"></span><strong><code>umar_guild03_25_1</code></strong> Umar: “Don't try to fool me. I am Umar. I know you have it.”</p>
+<ul>
+<li>“Oh. Yes, I remember now that I found the key. Here, take it.” <em>(if hand over 1× <a href="../../items/g03_luthor/">Key of Luthor</a>)</em> → <a href="#d-umar_guild03_25_3">umar_guild03_25_3</a></li>
+<li>“Even if I have the key, I won't give it to you.” → <a href="#d-umar_guild03_25_1a">umar_guild03_25_1a</a></li>
+</ul>
+<p><span id="d-umar_guild03_25_2"></span><strong><code>umar_guild03_25_2</code></strong> Umar: “Then what you are waiting for? Go and get it!”</p>
+<p><span id="d-umar_guild03_21"></span><strong><code>umar_guild03_21</code></strong> Umar: “First, you must find Crackshot's hideout.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_22">umar_guild03_22</a></li>
+</ul>
+<p><span id="d-umar_guild03_15a"></span><strong><code>umar_guild03_15a</code></strong> Umar: “Are you completely sure? You will be alone against trained thieves and other criminals whose sole objective is to earn more and more gold.”</p>
+<ul>
+<li>“I can deal with them with my bare hands!” → <a href="#d-umar_guild03_16">umar_guild03_16</a></li>
+<li>“Don't worry, I'll be careful.” → <a href="#d-umar_guild03_16">umar_guild03_16</a></li>
+</ul>
+<p><span id="d-umar_guild03_15b"></span><strong><code>umar_guild03_15b</code></strong> Umar: “Maybe it's not the best time. We must bring him down. Think about it. There are probably many lives at risk ...”</p>
+<ul>
+<li>“I will, I promise. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild03_11b"></span><strong><code>umar_guild03_11b</code></strong> Umar: “Apparently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit.”</p>
+<ul>
+<li>“What filthy and disloyal people.” → <a href="#d-umar_guild03_12">umar_guild03_12</a></li>
+<li>“They have signed their own death sentence.” → <a href="#d-umar_guild03_12">umar_guild03_12</a></li>
+</ul>
+<p><span id="d-umar_guild03_2"></span><strong><code>umar_guild03_2</code></strong> Umar: “Fine. Listen to me carefully.”</p>
+<ul>
+<li>“Sure, tell me what you have to say.” → <a href="#d-umar_guild03_3">umar_guild03_3</a></li>
+<li>“I'm all ears.” → <a href="#d-umar_guild03_3">umar_guild03_3</a></li>
+</ul>
+<p><span id="d-umar_guild02_27a"></span><strong><code>umar_guild02_27a</code></strong> Umar: “I prefer that you are completely rested before talking about work.”</p>
+<ul>
+<li>“Ugh ... OK.” → <a href="#d-umar_guild02_27c">umar_guild02_27c</a></li>
+<li>“I'm always rested!” → <a href="#d-umar_guild02_27b">umar_guild02_27b</a></li>
+</ul>
+<p><span id="d-umar_guild02_27b"></span><strong><code>umar_guild02_27b</code></strong> Umar: “Don't be overconfident. Take my advice and rest. We'll talk tomorrow.”</p>
+<ul>
+<li>“Tsch. All right, sir.” → <a href="#d-umar_guild02_27c">umar_guild02_27c</a></li>
+</ul>
+<p><span id="d-umar_guild02_27c"></span><strong><code>umar_guild02_27c</code></strong> Umar: “Come back to me when you're prepared. Bear in mind that your next task isn't going to be as easy as the ones you already did. We'll talk about that tomorrow.” — <strong>effects:</strong> sets stage 1 of <a href="../../quests/Thieves03/#stage-1">The ruthless Crackshot</a>, changes map fallhaven_tavern, changes map fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from fallhaven_nw, removes monsters from guildbrig2</p>
+<ul>
+<li>“I expected that. See you tomorrow then.” → <a href="#d-umar_guild02_27d">umar_guild02_27d</a></li>
+<li>“Easy? Argh, they've been so difficult! Good night.” → <a href="#d-umar_guild02_27d">umar_guild02_27d</a></li>
+</ul>
+<p><span id="d-umar_guild02_23a"></span><strong><code>umar_guild02_23a</code></strong> Umar: “Sometimes people must do things that they don't like. Maybe you're still too young to understand that?”</p>
+<ul>
+<li>“Not at all.” → <a href="#d-umar_guild02_24a">umar_guild02_24a</a></li>
+<li>“Yes.” → <a href="#d-umar_guild02_24b">umar_guild02_24b</a></li>
+</ul>
+<p><span id="d-umar_guild02_23b"></span><strong><code>umar_guild02_23b</code></strong> Umar: “No, nothing of the kind! I was .... Well, let's talk.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_25">umar_guild02_25</a></li>
+</ul>
+<p><span id="d-umar_guild02_29a"></span><strong><code>umar_guild02_29a</code></strong> Umar: “You don't need to tell me things I can see with my own eyes, it is a waste of time.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_30">umar_guild02_30</a></li>
+</ul>
+<p><span id="d-umar_guild02_29b"></span><strong><code>umar_guild02_29b</code></strong> Umar: “Being a good liar is a very valuable ability for the guild, but useless against me.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_30">umar_guild02_30</a></li>
+</ul>
+<p><span id="d-umar_guild02_17"></span><strong><code>umar_guild02_17</code></strong> Umar: “OK, well done. Now we will have to find a better place for our guest. Keeping this lady here could be dangerous for us.”</p>
+<ul>
+<li>“I'm sure that's the case, but that's not my problem anymore. Right?” → <a href="#d-umar_guild02_18a">umar_guild02_18a</a></li>
+<li>“Do you have any ideas?” → <a href="#d-umar_guild02_18b">umar_guild02_18b</a></li>
+</ul>
+<p><span id="d-umar_guild02_11a"></span><strong><code>umar_guild02_11a</code></strong> Umar: “Great ... Before you go, I should tell you where she is.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_11b">umar_guild02_11b</a></li>
+</ul>
+<p><span id="d-umar_guild02_11b"></span><strong><code>umar_guild02_11b</code></strong> Umar: “Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a problem though. It's up to you how you choose to solve the guards problem.” — <strong>effects:</strong> sets stage 4 of <a href="../../quests/Thieves02/#stage-4">Immaculate kidnapping</a></p>
+<ul>
+<li>“Yes. I understand.” → <a href="#d-umar_guild02_12">umar_guild02_12</a></li>
+<li>“Seems difficult, but whatever. I'll do it.” → <a href="#d-umar_guild02_12">umar_guild02_12</a></li>
+</ul>
+<p><span id="d-umar_guild02_14"></span><strong><code>umar_guild02_14</code></strong> Umar: “Remember that if you are discovered, you are no one. No one knows you. And of course, no one has seen you. You are now a member of the guild, so don't fail.”</p>
+<ul>
+<li>“You still think I'm a novice, right? You're going to see that you're wrong!” → <em>conversation ends</em></li>
+<li>“Understood. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild02_2"></span><strong><code>umar_guild02_2</code></strong> Umar: “I detect a certain sarcasm in your words.”</p>
+<ul>
+<li>“No, no .... Never mind, see you later.” → <em>conversation ends</em></li>
+<li>“That's maybe because I am trying to be sarcastic ...” → <a href="#d-umar_guild02_3">umar_guild02_3</a></li>
+</ul>
+<p><span id="d-umar_5"></span><strong><code>umar_5</code></strong> Umar: “He came here a while ago, asking a lot of questions about what relation the Thieves' Guild has to the Shadow and to the royal guard in Feygard.”</p>
+<ul>
+<li>Next → <a href="#d-umar_6">umar_6</a></li>
+</ul>
+<p><span id="d-umar_guild_1"></span><strong><code>umar_guild_1</code></strong> Umar: “I see .... So you want to get involved in our Guild?”</p>
+<ul>
+<li>“Yes, you seem like reasonable people.” → <a href="#d-umar_guild_2a">umar_guild_2a</a></li>
+<li>“Whatever. It's just curiosity.” → <a href="#d-umar_guild_2a">umar_guild_2a</a></li>
+<li>“No, not really. I'm not interested in being a smug thief.” → <a href="#d-umar_guild_2b">umar_guild_2b</a></li>
+</ul>
+<p><span id="d-umar_guild_4b"></span><strong><code>umar_guild_4b</code></strong> Umar: “What have you decided?”</p>
+<ul>
+<li>“I will take your opportunity!” → <a href="#d-umar_guild_5a">umar_guild_5a</a></li>
+<li>“I'm still confused, sorry.” → <a href="#d-umar_guild_5b">umar_guild_5b</a></li>
+</ul>
+<p><span id="d-umar_3"></span><strong><code>umar_3</code></strong> Umar: “Oh. I must have you confused with someone else.”</p>
+<ul>
+<li>“My brother Andor and I look very much alike.” → <a href="#d-umar_4">umar_4</a></li>
+</ul>
+<p><span id="d-umar_4"></span><strong><code>umar_4</code></strong> Umar: “Really? Never mind I said anything then.” — <strong>effects:</strong> sets stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a></p>
+<ul>
+<li>“I guess that means that Andor was here. What was he doing?” → <a href="#d-umar_5">umar_5</a></li>
+</ul>
+<p><span id="d-umar_tt_120"></span><strong><code>umar_tt_120</code></strong> Umar: “My head is so full. I can hardly concentrate on the important things.”</p>
+<ul>
+<li>“I won't bother you any further.” → <em>conversation ends</em></li>
+<li>“The spell will be broken.” → <em>conversation ends</em></li>
+<li>“Thoroughness is the key to success.” → <a href="#d-umar_tt_130">umar_tt_130</a></li>
+</ul>
+<p><span id="d-umar_guild04_28b"></span><strong><code>umar_guild04_28b</code></strong> Umar: “Here's 1,000 gold coins as my financial contribution.” — <strong>effects:</strong> sets stage 28 of <a href="../../quests/sullengard_hidden/#stage-28">sullengard_nondisplay (hidden flag)</a>, gives 1000× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Oh. Thank you.” → <a href="#d-umar_guild04_28a">umar_guild04_28a</a></li>
+<li>“Wow! It motivated me. Thanks.” → <a href="#d-umar_guild04_28a">umar_guild04_28a</a></li>
+</ul>
+<p><span id="d-umar_guild04_28a"></span><strong><code>umar_guild04_28a</code></strong> Umar: “Immediately report back to me once you are done.”</p>
+<ul>
+<li>“I better start looking for gold now.” → <em>conversation ends</em></li>
+<li>“It will be done.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_23"></span><strong><code>umar_guild04_23</code></strong> Umar: “They prefer riches over honor.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_24">umar_guild04_24</a></li>
+</ul>
+<p><span id="d-umar_guild04_14"></span><strong><code>umar_guild04_14</code></strong> Umar: “Hurry now. There's no time to waste.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves04/#stage-10">Another ruthless Crackshot</a></p>
+<ul>
+<li>“Fine.” → <em>conversation ends</em></li>
+<li>“I'm going now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_2"></span><strong><code>umar_guild04_2</code></strong> Umar: “Here in the guild, as you know, income sources come in different classes from poor to wealthy. The lower-middle class and poor class are usually associated with us.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_3">umar_guild04_3</a></li>
+</ul>
+<p><span id="d-umar_guild03_27a_2"></span><strong><code>umar_guild03_27a_2</code></strong> Umar: “Anyway, you've done your work. My spies reported to me you had saved someone's life.”</p>
+<ul>
+<li>“If your spies help me, tasks would be easier.” → <a href="#d-umar_guild03_28a">umar_guild03_28a</a></li>
+<li>“I tried to, unfortunately he didn't survive. But it was nobody important.” → <a href="#d-umar_guild03_28c">umar_guild03_28c</a></li>
+<li>“No, he died at last. He was a Feygard officer ... a sergeant I think.” → <a href="#d-umar_guild03_28c">umar_guild03_28c</a></li>
+</ul>
+<p><span id="d-umar_guild03_27a_1"></span><strong><code>umar_guild03_27a_1</code></strong> Umar: “Anyway, you've done your work. My spies reported to me that you saved someone's life.”</p>
+<ul>
+<li>“If your spies help me, tasks would be easier.” → <a href="#d-umar_guild03_28a">umar_guild03_28a</a></li>
+<li>“It is true .... Nobody important.” → <a href="#d-umar_guild03_28c">umar_guild03_28c</a></li>
+<li>“Yeah. He was a Feygard officer ... a sergeant I think.” → <a href="#d-umar_guild03_28c">umar_guild03_28c</a></li>
+</ul>
+<p><span id="d-umar_guild03_29"></span><strong><code>umar_guild03_29</code></strong> Umar: “Hmm! And now to business. Here's your reward for the good work.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_30">umar_guild03_30</a></li>
+</ul>
+<p><span id="d-umar_guild03_27b"></span><strong><code>umar_guild03_27b</code></strong> Umar: “Trust me, it will.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_25_3"></span><strong><code>umar_guild03_25_3</code></strong> Umar: “Why did it take so long? And do not look at me that way. I can not tell you anything about the key for now.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/Thieves03/#stage-45">The ruthless Crackshot</a></p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_27a">umar_guild03_27a</a></li>
+</ul>
+<p><span id="d-umar_guild03_25_1a"></span><strong><code>umar_guild03_25_1a</code></strong> Umar: “Come back when you are sane again.”</p>
+<p><span id="d-umar_guild03_22"></span><strong><code>umar_guild03_22</code></strong> Umar: “Then you will have to deal with him and his henchmen, and finally bring back the Key of Luthor to us.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_23">umar_guild03_23</a></li>
+</ul>
+<p><span id="d-umar_guild03_16"></span><strong><code>umar_guild03_16</code></strong> Umar: “Whatever, I do believe you are capable. Regardless, be cautious with Crackshot. He's powerful, and his attacks can severely wound or kill you. Clear?”</p>
+<ul>
+<li>“Bah, words are worth nothing now. It's going to be a nice fight.” → <a href="#d-umar_guild03_17a">umar_guild03_17a</a></li>
+<li>“Yes, understood!” → <a href="#d-umar_guild03_17b">umar_guild03_17b</a></li>
+</ul>
+<p><span id="d-umar_guild03_12"></span><strong><code>umar_guild03_12</code></strong> Umar: “There's more. Two days ago the southern route from here to the Duleian road was closed, because there was a murder. Soldiers are trying to prevent the murderer from escaping to the west.”</p>
+<ul>
+<li>“And you think the traitors are involved in that?” → <a href="#d-umar_guild03_13">umar_guild03_13</a></li>
+</ul>
+<p><span id="d-umar_guild03_3"></span><strong><code>umar_guild03_3</code></strong> Umar: “Here in the guild, as you know, members range from apprentices to veterans. The veterans are usually specialized in specific jobs.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_4">umar_guild03_4</a></li>
+</ul>
+<p><span id="d-umar_guild02_27d"></span><strong><code>umar_guild02_27d</code></strong> Umar: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell them Umar sent you then you will not have to pay for a bed.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/misc_nondisplay/#stage-20">misc_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“OK. Thanks.” → <em>conversation ends</em></li>
+<li>“I'll do that.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild02_24a"></span><strong><code>umar_guild02_24a</code></strong> Umar: “Well .... Anyway, I promise we won't give you those kind of jobs for a while.”</p>
+<ul>
+<li>“Fine.” → <a href="#d-umar_guild02_24b">umar_guild02_24b</a></li>
+<li>“That is good news for me.” → <a href="#d-umar_guild02_24b">umar_guild02_24b</a></li>
+</ul>
+<p><span id="d-umar_guild02_24b"></span><strong><code>umar_guild02_24b</code></strong> Umar: “Great, so let's talk then.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_25">umar_guild02_25</a></li>
+</ul>
+<p><span id="d-umar_guild02_25"></span><strong><code>umar_guild02_25</code></strong> Umar: “First of all, take this gold for a job well done. We have already sent people to ask for the ransom.” — <strong>effects:</strong> sets stage 75 of <a href="../../quests/Thieves02/#stage-75">Immaculate kidnapping</a>, faction “ThievesGuild” +10, gives 2500× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_26">umar_guild02_26</a></li>
+</ul>
+<p><span id="d-umar_guild02_30"></span><strong><code>umar_guild02_30</code></strong> Umar: “I expect more of you. That was your first mission inside the guild and you failed it!”</p>
+<ul>
+<li>“I brought a valuable necklace from the noblewoman.” <em>(if hand over 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a>)</em> → <a href="#d-umar_guild02_31">umar_guild02_31</a></li>
+</ul>
+<p><span id="d-umar_guild02_18a"></span><strong><code>umar_guild02_18a</code></strong> Umar: “Yes it is.”</p>
+<ul>
+<li>“Well, I have no choice. What should I do?” → <a href="#d-umar_guild02_19">umar_guild02_19</a></li>
+</ul>
+<p><span id="d-umar_guild02_18b"></span><strong><code>umar_guild02_18b</code></strong> Umar: “Hmm, let me think about it ....”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_19">umar_guild02_19</a></li>
+</ul>
+<p><span id="d-umar_guild02_12"></span><strong><code>umar_guild02_12</code></strong> Umar: “Good luck. Return to me when you're done.”</p>
+<ul>
+<li>“Wait, wait! How am I supposed to ...” → <a href="#d-umar_guild02_13">umar_guild02_13</a></li>
+<li>“I will bring her, even if I have to eliminate Feygard's entire army!” → <a href="#d-umar_guild02_13">umar_guild02_13</a></li>
+</ul>
+<p><span id="d-umar_guild02_3"></span><strong><code>umar_guild02_3</code></strong> Umar: “What do you mean?”</p>
+<ul>
+<li>“Just give me a high-risk job, please.” → <a href="#d-umar_guild02_4">umar_guild02_4</a></li>
+<li>“I mean my last job was a piece of cake. I need something more exciting!” → <a href="#d-umar_guild02_4">umar_guild02_4</a></li>
+</ul>
+<p><span id="d-umar_6"></span><strong><code>umar_6</code></strong> Umar: “We in the Thieves' Guild really don't care much for the Shadow. Nor do we care for the royal guard.”</p>
+<ul>
+<li>Next → <a href="#d-umar_7">umar_7</a></li>
+</ul>
+<p><span id="d-umar_guild_2a"></span><strong><code>umar_guild_2a</code></strong> Umar: “Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligible to be a member of our guild.”</p>
+<ul>
+<li>“But I really want to join your guild!” → <a href="#d-umar_guild_3">umar_guild_3</a></li>
+<li>“Really? I didn't see any of your members bringing you "that" key.” → <a href="#d-umar_guild_3">umar_guild_3</a></li>
+<li>“Never mind, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild_2b"></span><strong><code>umar_guild_2b</code></strong> Umar: “I'm sorry to hear that. Good luck.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild_5a"></span><strong><code>umar_guild_5a</code></strong> Umar: “Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have to do.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves01/#stage-10">Thief apprentice</a></p>
+<ul>
+<li>“All right! I'll go see him.” → <a href="#d-umar_guild_6a">umar_guild_6a</a></li>
+<li>“Anything else?” → <a href="#d-umar_guild_6b">umar_guild_6b</a></li>
+</ul>
+<p><span id="d-umar_guild_5b"></span><strong><code>umar_guild_5b</code></strong> Umar: “I understand your doubts. Come back when you're prepared.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_tt_130"></span><strong><code>umar_tt_130</code></strong> Umar: “Key? To success? Don't talk nonsense.”</p>
+<ul>
+<li>Next → <a href="#d-umar_tt_132">umar_tt_132</a></li>
+</ul>
+<p><span id="d-umar_guild04_24"></span><strong><code>umar_guild04_24</code></strong> Umar: “Such a dishonorable act for they stole 50,000 gold coins including the treasures of Sullengard.”</p>
+<ul>
+<li>“Their dishonorable act will be their undoing.” → <a href="#d-umar_guild04_25">umar_guild04_25</a></li>
+<li>“Justice shall serve!” → <a href="#d-umar_guild04_25">umar_guild04_25</a></li>
+</ul>
+<p><span id="d-umar_guild04_3"></span><strong><code>umar_guild04_3</code></strong> Umar: “Wealthy class is our highest target. This is why I didn't doubt to give you the first mission to kidnap Ambelie for ransom.”</p>
+<ul>
+<li>“My bad.” <em>(if reached stage 76 of <a href="../../quests/Thieves02/#stage-76">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild04_4">umar_guild04_4</a></li>
+<li>“That is not my kind of work though.” <em>(if reached stage 75 of <a href="../../quests/Thieves02/#stage-75">Immaculate kidnapping</a>)</em> → <a href="#d-umar_guild04_4">umar_guild04_4</a></li>
+</ul>
+<p><span id="d-umar_guild03_28a"></span><strong><code>umar_guild03_28a</code></strong> Umar: “Each of you have your own specific task. Spies must hide their identities, even to their allies.”</p>
+<ul>
+<li>“That makes sense.” → <a href="#d-umar_guild03_29">umar_guild03_29</a></li>
+</ul>
+<p><span id="d-umar_guild03_28c"></span><strong><code>umar_guild03_28c</code></strong> Umar: “I see ....”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_29">umar_guild03_29</a></li>
+</ul>
+<p><span id="d-umar_guild03_30"></span><strong><code>umar_guild03_30</code></strong> Umar: “Take 4,000 gold coins, and some bottles of my favorite mead. Now you deserve a good rest, my friend. You have earned the trust of the Thieves' Guild.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>, gives 4000× <a href="../../items/gold/">Gold coins</a>, gives 10× <a href="../../items/mead/">Mead</a>, faction “ThievesGuild” +20</p>
+<ul>
+<li>“I'll be back soon.” → <a href="#d-umar_guild03_31a">umar_guild03_31a</a></li>
+<li>“Count me in for the next job.” → <a href="#d-umar_guild03_31b">umar_guild03_31b</a></li>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild03_23"></span><strong><code>umar_guild03_23</code></strong> Umar: “Understood?”</p>
+<ul>
+<li>“Yes!” → <a href="#d-umar_guild03_24a">umar_guild03_24a</a></li>
+<li>“Understood ...” → <a href="#d-umar_guild03_24a">umar_guild03_24a</a></li>
+<li>“Can you explain it to me again?” → <a href="#d-umar_guild03_24b">umar_guild03_24b</a></li>
+</ul>
+<p><span id="d-umar_guild03_17a"></span><strong><code>umar_guild03_17a</code></strong> Umar: “If you say so. Your self-confidence is a good aspect of your personality.”</p>
+<ul>
+<li>“Thank you!” → <a href="#d-umar_guild03_17b">umar_guild03_17b</a></li>
+</ul>
+<p><span id="d-umar_guild03_17b"></span><strong><code>umar_guild03_17b</code></strong> Umar: “However, there's still a problem. We're not completely sure about the location of Crackshot's new hideout.”</p>
+<ul>
+<li>“What? How I will find him then?” → <a href="#d-umar_guild03_18a">umar_guild03_18a</a></li>
+<li>“He will show up sooner or later ...” → <a href="#d-umar_guild03_18b">umar_guild03_18b</a></li>
+</ul>
+<p><span id="d-umar_guild03_13"></span><strong><code>umar_guild03_13</code></strong> Umar: “I'm pretty sure about it. The team leader is the one we call "Crackshot", as he is a master of murder, torture and the subjugation arts. He's really a dangerous man.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/Thieves03/#stage-5">The ruthless Crackshot</a></p>
+<ul>
+<li>“So, do you have a plan?” → <a href="#d-umar_guild03_14">umar_guild03_14</a></li>
+<li>“What am I supposed to do?” → <a href="#d-umar_guild03_14">umar_guild03_14</a></li>
+</ul>
+<p><span id="d-umar_guild03_4"></span><strong><code>umar_guild03_4</code></strong> Umar: “Troublemaker is my right hand man. He's in charge of planning jobs that have some level of complexity.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_5">umar_guild03_5</a></li>
+</ul>
+<p><span id="d-umar_guild02_31"></span><strong><code>umar_guild02_31</code></strong> Umar: “What we have here? (Umar's face gets a smile while he admires the necklace)”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild02_32">umar_guild02_32</a></li>
+</ul>
+<p><span id="d-umar_guild02_4"></span><strong><code>umar_guild02_4</code></strong> Umar: “If you want me to give you a more difficult task, then I am happy to do so.”</p>
+<ul>
+<li>“Well, so?” → <a href="#d-umar_guild02_5">umar_guild02_5</a></li>
+<li>“OK, in that case tell me what it is.” → <a href="#d-umar_guild02_5">umar_guild02_5</a></li>
+</ul>
+<p><span id="d-umar_7"></span><strong><code>umar_7</code></strong> Umar: “We try to be above their bickering and differences. They may fight as much as they want, but the Thieves' Guild will outlive them all.”</p>
+<ul>
+<li>“What differences?” → <a href="#d-umar_conflict_1">umar_conflict_1</a></li>
+<li>“Tell me more about what Andor asked for.” → <a href="#d-umar_andor_1">umar_andor_1</a></li>
+</ul>
+<p><span id="d-umar_guild_3"></span><strong><code>umar_guild_3</code></strong> Umar: “OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a></p>
+<ul>
+<li>Next → <a href="#d-umar_guild_4a">umar_guild_4a</a></li>
+</ul>
+<p><span id="d-umar_guild_6a"></span><strong><code>umar_guild_6a</code></strong> Umar: “Fine. I will keep an eye on you.”</p>
+<p><span id="d-umar_guild_6b"></span><strong><code>umar_guild_6b</code></strong> Umar: “Not for now. Make sure nobody sees you doing suspicious things. Good luck.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves01/#stage-10">Thief apprentice</a></p>
+<ul>
+<li>“I will be careful. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_tt_132"></span><strong><code>umar_tt_132</code></strong> Umar: “There's something else I should think about. But it just doesn't occur to me right now.”</p>
+<ul>
+<li>“I better leave you alone now.” → <em>conversation ends</em></li>
+<li>“I'm sure you'll remember it again.” → <em>conversation ends</em></li>
+<li>“OK. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild04_25"></span><strong><code>umar_guild04_25</code></strong> Umar: “We still don't know where they are.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_26">umar_guild04_26</a></li>
+</ul>
+<p><span id="d-umar_guild04_4"></span><strong><code>umar_guild04_4</code></strong> Umar: “Don't worry, we already made a promise.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_5">umar_guild04_5</a></li>
+</ul>
+<p><span id="d-umar_guild03_31a"></span><strong><code>umar_guild03_31a</code></strong> Umar: “And last but not least, I have some useful information for you. The way from here to the southeast has finally been opened, once Crackshot's hideout was discovered.”</p>
+<ul>
+<li>“Good, I'm not going to have to take that detour.” → <a href="#d-umar_guild03_32">umar_guild03_32</a></li>
+<li>“Thank you for the information. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild03_31b"></span><strong><code>umar_guild03_31b</code></strong> Umar: “I will, no doubt about it.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_31a">umar_guild03_31a</a></li>
+</ul>
+<p><span id="d-umar_guild03_24a"></span><strong><code>umar_guild03_24a</code></strong> Umar: “Excellent. Good luck.”</p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild03_24b"></span><strong><code>umar_guild03_24b</code></strong> Umar: “Are you serious? Bah, I'll repeat it for you ...”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_21">umar_guild03_21</a></li>
+</ul>
+<p><span id="d-umar_guild03_18a"></span><strong><code>umar_guild03_18a</code></strong> Umar: “Probably people near the Duleian road guard tower know more. See if you can ask them for tips.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves03/#stage-10">The ruthless Crackshot</a></p>
+<ul>
+<li>“Whatever. I'll find him.” → <a href="#d-umar_guild03_19c">umar_guild03_19c</a></li>
+<li>“OK.” → <a href="#d-umar_guild03_19c">umar_guild03_19c</a></li>
+</ul>
+<p><span id="d-umar_guild03_18b"></span><strong><code>umar_guild03_18b</code></strong> Umar: “Maybe, but it will be faster if you question people near the Duleian road guard tower. The Duleian road is the place where we think he was last seen.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves03/#stage-10">The ruthless Crackshot</a></p>
+<ul>
+<li>“OK, I will ask there.” → <a href="#d-umar_guild03_19c">umar_guild03_19c</a></li>
+<li>“Argh, the Duleian road is big!” → <a href="#d-umar_guild03_19b">umar_guild03_19b</a></li>
+</ul>
+<p><span id="d-umar_guild03_5"></span><strong><code>umar_guild03_5</code></strong> Umar: “Pickpocket has developed his stealth skills to such an extreme that he's able to take your equipment, and you'll barely even feel it.”</p>
+<ul>
+<li>“Woah, how is that possible?” → <a href="#d-umar_guild03_6a">umar_guild03_6a</a></li>
+<li>“I don't believe you.” → <a href="#d-umar_guild03_6b">umar_guild03_6b</a></li>
+</ul>
+<p><span id="d-umar_guild02_32"></span><strong><code>umar_guild02_32</code></strong> Umar: “Well. I will take it as compensation for your mistakes.” — <strong>effects:</strong> sets stage 76 of <a href="../../quests/Thieves02/#stage-76">Immaculate kidnapping</a>, faction “ThievesGuild” +10</p>
+<ul>
+<li>“Again, I'm sorry.” → <a href="#d-umar_guild02_26">umar_guild02_26</a></li>
+<li>“Thank you.” → <a href="#d-umar_guild02_26">umar_guild02_26</a></li>
+</ul>
+<p><span id="d-umar_guild02_5"></span><strong><code>umar_guild02_5</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 80 of <a href="../../quests/thieves_hidden/#stage-80">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-umar_guild02_5a">umar_guild02_5a</a></li>
+<li>branch 2 → <a href="#d-umar_guild02_5z">umar_guild02_5z</a></li>
+</ul>
+<p><span id="d-umar_conflict_1"></span><strong><code>umar_conflict_1</code></strong> Umar: “Where have you been the last couple of years? Don't you know of the brewing conflict?”</p>
+<ul>
+<li>Next → <a href="#d-umar_conflict_2">umar_conflict_2</a></li>
+</ul>
+<p><span id="d-umar_andor_1"></span><strong><code>umar_andor_1</code></strong> Umar: “He asked me for my support, and asked about how to find Lodar.”</p>
+<ul>
+<li>“Who is Lodar?” → <a href="#d-umar_andor_2">umar_andor_2</a></li>
+</ul>
+<p><span id="d-umar_guild_4a"></span><strong><code>umar_guild_4a</code></strong> Umar: “So what is your decision?”</p>
+<ul>
+<li>“Haven't you understood? Just tell me what I have to do.” → <a href="#d-umar_guild_5a">umar_guild_5a</a></li>
+<li>“I will take the opportunity.” → <a href="#d-umar_guild_5a">umar_guild_5a</a></li>
+<li>“I need some time to think about it.” → <a href="#d-umar_guild_5b">umar_guild_5b</a></li>
+</ul>
+<p><span id="d-umar_guild04_5"></span><strong><code>umar_guild04_5</code></strong> Umar: “Anyway, the rest of the class are either with us or against us.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild04_6">umar_guild04_6</a></li>
+</ul>
+<p><span id="d-umar_guild03_32"></span><strong><code>umar_guild03_32</code></strong> Umar: “However, the Feygard presence is still significant. Be cautious with what you do.”</p>
+<ul>
+<li>“I will, thank you for the advice.” → <em>conversation ends</em></li>
+<li>“All is under control. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-umar_guild03_19c"></span><strong><code>umar_guild03_19c</code></strong> Umar: “Make sure you don't talk about the Guild and his relationship with us. Don't trust anyone.”</p>
+<ul>
+<li>“Understood!” → <a href="#d-umar_guild03_19d">umar_guild03_19d</a></li>
+<li>“I won't even trust my shadow.” → <a href="#d-umar_guild03_19d">umar_guild03_19d</a></li>
+</ul>
+<p><span id="d-umar_guild03_19b"></span><strong><code>umar_guild03_19b</code></strong> Umar: “That's why you have to ask.”</p>
+<ul>
+<li>Next → <a href="#d-umar_guild03_19c">umar_guild03_19c</a></li>
+</ul>
+<p><span id="d-umar_guild03_6a"></span><strong><code>umar_guild03_6a</code></strong> Umar: “Each person has their own way to reach the top.”</p>
+<ul>
+<li>Next → <code>umar_guild03_7</code></li>
+</ul>
+<p><span id="d-umar_guild03_6b"></span><strong><code>umar_guild03_6b</code></strong> Umar: “Believe me, I'm not lying.”</p>
+<ul>
+<li>Next → <code>umar_guild03_7</code></li>
+</ul>
+<p><span id="d-umar_guild02_5a"></span><strong><code>umar_guild02_5a</code></strong> Umar: “But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves' Guild.”</p>
+<ul>
+<li>“Did I?” → <code>umar_guild02_5b</code></li>
+<li>“You're right. It will not happen again.” → <a href="#d-umar_guild02_5z">umar_guild02_5z</a></li>
+</ul>
+<p><span id="d-umar_guild02_5z"></span><strong><code>umar_guild02_5z</code></strong> Umar: “Well, before I can give you a very demanding job, I need you to do another ... retrieval task.”</p>
+<ul>
+<li>“Anything for the glory o... Oops, I mean OK” → <code>umar_guild02_6a</code></li>
+<li>“Sigh. If you insist ...” → <code>umar_guild02_6a</code></li>
+<li>“Hmm, sounds boring. I decline.” → <code>umar_guild02_6b</code></li>
+</ul>
+<p><span id="d-umar_conflict_2"></span><strong><code>umar_conflict_2</code></strong> Umar: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward off the recent increase in illegal activities, and are therefore imposing more restrictions on what is or is not allowed.”</p>
+<ul>
+<li>Next → <code>umar_conflict_3</code></li>
+</ul>
+<p><span id="d-umar_andor_2"></span><strong><code>umar_andor_2</code></strong> Umar: “Lodar? He is one of the famous potion makers from the old days. The Thieves' Guild has requested his services many times before. He can make all sorts of strong sleeping potions, healing potions and cures.”</p>
+<ul>
+<li>Next → <code>umar_andor_3</code></li>
+</ul>
+<p><span id="d-umar_guild04_6"></span><strong><code>umar_guild04_6</code></strong> Umar: “Most of the time we made deals and negotiations with them in exchange of peace or protection.”</p>
+<ul>
+<li>Next → <code>umar_guild04_7</code></li>
+</ul>
+<p><span id="d-umar_guild03_19d"></span><strong><code>umar_guild03_19d</code></strong> Umar: “Fine.”</p>
+<ul>
+<li>“Anything more?” → <code>umar_guild03_19a</code></li>
+</ul>
+<p><em>Dialogue continues beyond this point (truncated).</em></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>umar</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,131 @@
 <ul>
 <li><a href="../../maps/fallhaven_nw/">fallhaven_nw</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/undertell_barricades/">You shall pass</a>: stages 130, 140</li>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 55</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (25 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-fallhaven_drunk_selector"></span><strong><code>fallhaven_drunk_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if latest stage of <a href="../../quests/undertell_barricades/#stage-140">You shall pass</a> is 140)</em> → <a href="#d-fallhaven_rain_qs_140">fallhaven_rain_qs_140</a></li>
+<li>branch 2 → <a href="#d-fallhaven_drunk">fallhaven_drunk</a></li>
+</ul>
+<p><span id="d-fallhaven_rain_qs_140"></span><strong><code>fallhaven_rain_qs_140</code></strong> Drunkard: “Let me meet the merchant and then return. Please go meet Bela.”</p>
+<p><span id="d-fallhaven_drunk"></span><strong><code>fallhaven_drunk</code></strong> Drunkard: “No problem. No sireee! Not causing any more trouble now. I sits here outside now.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_2">fallhaven_drunk_2</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_2"></span><strong><code>fallhaven_drunk_2</code></strong> Drunkard: “Wait, who are you again? Are you that guard?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-fallhaven_drunk_3_1">fallhaven_drunk_3_1</a></li>
+<li>“No.” → <a href="#d-fallhaven_drunk_3_2">fallhaven_drunk_3_2</a></li>
+<li>“No, I am here to give you something.” <em>(if reached stage 120 of <a href="../../quests/undertell_barricades/#stage-120">You shall pass</a>; carry 1× <a href="../../items/pot_senses/">Potion of heightened senses</a>; NOT reached stage 55 of <a href="../../quests/undertell_hidden/#stage-55">hidden_undertell (hidden flag)</a>; have 5,000 gold)</em> → <a href="#d-fallhaven_drunk_potion_10">fallhaven_drunk_potion_10</a></li>
+<li>“Shannal sent me.” <em>(if reached stage 55 of <a href="../../quests/undertell_hidden/#stage-55">hidden_undertell (hidden flag)</a>; NOT reached stage 130 of <a href="../../quests/undertell_barricades/#stage-130">You shall pass</a>; have 5,000 gold)</em> → <a href="#d-fallhaven_drunk_potion_30">fallhaven_drunk_potion_30</a></li>
+<li>“Are you okay now?” <em>(if latest stage of <a href="../../quests/undertell_barricades/#stage-130">You shall pass</a> is 130)</em> → <a href="#d-fallhaven_drunk_remember_30">fallhaven_drunk_remember_30</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_3_1"></span><strong><code>fallhaven_drunk_3_1</code></strong> Drunkard: “Oh, guard. I'm not causing any trouble anymore, see? I sits outside now as you says, OK?”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_4">fallhaven_drunk_4</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_3_2"></span><strong><code>fallhaven_drunk_3_2</code></strong> Drunkard: “Oh good. That guard threw me out of the tavern. If I see him again I'll show him one thing or another.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_4">fallhaven_drunk_4</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_potion_10"></span><strong><code>fallhaven_drunk_potion_10</code></strong> Drunkard: “Is it that mead I ordered from the tavern?”</p>
+<ul>
+<li>“No, it's not mead. That's the last thing that you need.” → <a href="#d-fallhaven_drunk_potion_20">fallhaven_drunk_potion_20</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_potion_30"></span><strong><code>fallhaven_drunk_potion_30</code></strong> Drunkard: “Shannal? That name sounds familiar to me, yet distant to me.” — <strong>effects:</strong> sets stage 55 of <a href="../../quests/undertell_hidden/#stage-55">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“Just drink the potion.” → <a href="#d-fallhaven_drunk_potion_drink_nar">fallhaven_drunk_potion_drink_nar</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_remember_30"></span><strong><code>fallhaven_drunk_remember_30</code></strong> Drunkard: “Well, let me get on with life...I seem to have made a mess of myself.”</p>
+<ul>
+<li>“Worry not, as restitution, Shannal made the kidnapper's descendant, Benbyr pay up. Here's 5,000 gold. Keep it and…” <em>(if pay 5,000 gold)</em> → <a href="#d-fallhaven_drunk_remember_40">fallhaven_drunk_remember_40</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_4"></span><strong><code>fallhaven_drunk_4</code></strong> Drunkard: “Drink drink drink, drink some more. Drink, drink ... Uh how did it go again?”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_5">fallhaven_drunk_5</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_potion_20"></span><strong><code>fallhaven_drunk_potion_20</code></strong> Drunkard: “Well, then I don't want it. Go get me some more mead from the lovely barkeeper, Bela.”</p>
+<ul>
+<li>“No. I have a potion that will make you recover. Shannal's ghost has asked that you drink it. Now, here, drink it.” <em>(if hand over 1× <a href="../../items/pot_senses/">Potion of heightened senses</a>)</em> → <a href="#d-fallhaven_drunk_potion_30">fallhaven_drunk_potion_30</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_potion_drink_nar"></span><strong><code>fallhaven_drunk_potion_drink_nar</code></strong> <a href="../none/">Dummy NPC</a>: “While leaning his head back, he downs the potion in one gulp...amazing.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_remember_10">fallhaven_drunk_remember_10</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_remember_40"></span><strong><code>fallhaven_drunk_remember_40</code></strong> Drunkard: “Thank you! Please ask Bela to keep them safe till Rain, oh by the way, that's my name, gets over this hangover. I need new clothes. So I will take 150 gold and visit the merchant. Please give Bela the remaining 4,850 gold.” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/undertell_barricades/#stage-140">You shall pass</a>, gives 4850× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-fallhaven_drunk_5"></span><strong><code>fallhaven_drunk_5</code></strong> Drunkard: “Were you saying something? Where was I? Yes, so we were in this dungeon.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_6">fallhaven_drunk_6</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_remember_10"></span><strong><code>fallhaven_drunk_remember_10</code></strong> <a href="./">Drunkard</a>: “Now I remember; it was horrible. [weeping]” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/undertell_barricades/#stage-130">You shall pass</a></p>
+<ul>
+<li>“There...there...Shannal's ghost told me to tell you she's at peace.” → <a href="#d-fallhaven_drunk_remember_20">fallhaven_drunk_remember_20</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_6"></span><strong><code>fallhaven_drunk_6</code></strong> Drunkard: “Or was it a house? I can't remember.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_7">fallhaven_drunk_7</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_remember_20"></span><strong><code>fallhaven_drunk_remember_20</code></strong> Drunkard: “Thank you! To have passed her life at that place, kidnapped against her will, away from her husband and kids...”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_remember_30">fallhaven_drunk_remember_30</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_7"></span><strong><code>fallhaven_drunk_7</code></strong> Drunkard: “No no, it was outside! Now I remember.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_7_select">fallhaven_drunk_7_select</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_7_select"></span><strong><code>fallhaven_drunk_7_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 100 of <a href="../quests/fallhavendrunk.md#stage-100">fallhavendrunk (hidden flag)</a>)</em> → <a href="#d-fallhaven_drunk_11">fallhaven_drunk_11</a></li>
+<li>branch 2 → <a href="#d-fallhaven_drunk_8">fallhaven_drunk_8</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_11"></span><strong><code>fallhaven_drunk_11</code></strong> Drunkard: “[Takes a gulp of the mead] That's good stuff!”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_12">fallhaven_drunk_12</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_8"></span><strong><code>fallhaven_drunk_8</code></strong> Drunkard: “That's where we... Hey, where did my mead go? Did you take it from me?”</p>
+<ul>
+<li>“Yes” → <a href="#d-fallhaven_drunk_9_1">fallhaven_drunk_9_1</a></li>
+<li>“No” → <a href="#d-fallhaven_drunk_9_2">fallhaven_drunk_9_2</a></li>
+</ul>
+<p><span id="d-fallhaven_drunk_12"></span><strong><code>fallhaven_drunk_12</code></strong> Drunkard: “Yeah, me and Unnmir had good times. Go ask him yourself, he is usually in the barn to the east of here. I wonder <em>burps</em> where that treasure went.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/fallhavendrunk.md#stage-100">fallhavendrunk (hidden flag)</a></p>
+<ul>
+<li>“Treasure? I'm in! I'll go look for Unnmir right away.” → <em>conversation ends</em></li>
+<li>“Thank you for the story. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fallhaven_drunk_9_1"></span><strong><code>fallhaven_drunk_9_1</code></strong> Drunkard: “Well then give it back! Or go buy me another mead.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/fallhavendrunk.md#stage-10">fallhavendrunk (hidden flag)</a></p>
+<ul>
+<li>“Here, have some mead.” <em>(if hand over 1× <a href="../../items/mead/">Mead</a>)</em> → <a href="#d-fallhaven_drunk_10">fallhaven_drunk_10</a></li>
+<li>“OK, I'll go buy some mead for you.” → <em>conversation ends</em></li>
+<li>“No. I don't think I should help you. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fallhaven_drunk_9_2"></span><strong><code>fallhaven_drunk_9_2</code></strong> Drunkard: “I must have drunk it then. Could you get me a new mead do you think?” — <strong>effects:</strong> sets stage 10 of <a href="../quests/fallhavendrunk.md#stage-10">fallhavendrunk (hidden flag)</a></p>
+<ul>
+<li>“Here, have some mead.” <em>(if hand over 1× <a href="../../items/mead/">Mead</a>)</em> → <a href="#d-fallhaven_drunk_10">fallhaven_drunk_10</a></li>
+<li>“OK, I'll go buy some mead for you.” → <em>conversation ends</em></li>
+<li>“No. I don't think I should help you. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fallhaven_drunk_10"></span><strong><code>fallhaven_drunk_10</code></strong> Drunkard: “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big eyes]”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_drunk_11">fallhaven_drunk_11</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=drunkard.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=drunkard.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=drunkard.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=drunkard.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>drunkard</code> · Data from v0.8.18</small></p>
 
 

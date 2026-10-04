@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +982,134 @@
 <li><a href="../../maps/brimhaven_church/">brimhaven_church</a></li>
 <li><a href="../../maps/brimhaven_church_upstairs/">brimhaven_church_upstairs</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/cat_and_mouse/">A cat and mouse game</a>: stages 10, 20, 30, 50, 60, 70, 80</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (27 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_churchman_start"></span><strong><code>brv_churchman_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/cat_and_mouse/#stage-60">A cat and mouse game</a>; NOT reached stage 70 of <a href="../../quests/cat_and_mouse/#stage-70">A cat and mouse game</a>; NOT reached stage 80 of <a href="../../quests/cat_and_mouse/#stage-80">A cat and mouse game</a>; NOT reached stage 90 of <a href="../../quests/cat_and_mouse/#stage-90">A cat and mouse game</a>; carry 1× <a href="../../items/trapped_mouse/">Trapped mouse</a>)</em> → <a href="#d-brv_churchman_mouse1">brv_churchman_mouse1</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>; NOT reached stage 50 of <a href="../../quests/cat_and_mouse/#stage-50">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_b1">brv_churchman_b1</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>; reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_i1">brv_churchman_i1</a></li>
+<li>branch 4 <em>(if reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_i1">brv_churchman_i1</a></li>
+<li>branch 5 <em>(if reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_i1">brv_churchman_i1</a></li>
+<li>branch 6 <em>(if reached stage 50 of <a href="../../quests/cat_and_mouse/#stage-50">A cat and mouse game</a>; NOT reached stage 60 of <a href="../../quests/cat_and_mouse/#stage-60">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_trap1">brv_churchman_trap1</a></li>
+<li>branch 7 <em>(if reached stage 60 of <a href="../../quests/brv_nondisplay2/#stage-60">brv_nondisplay2 (hidden flag)</a>)</em> → <a href="#d-brv_churchman_banned">brv_churchman_banned</a></li>
+<li>branch 8 <em>(if NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman">brv_churchman</a></li>
+<li>branch 9 → <a href="#d-brv_churchman_default1">brv_churchman_default1</a></li>
+</ul>
+<p><span id="d-brv_churchman_mouse1"></span><strong><code>brv_churchman_mouse1</code></strong> Seviron: “What do you intend to do with the mouse?”</p>
+<ul>
+<li>“I'll give it to the cat. That should solve the problem.” <em>(if hand over 1× <a href="../../items/trapped_mouse/">Trapped mouse</a>)</em> → <a href="#d-brv_churchman_trap3a">brv_churchman_trap3a</a></li>
+<li>“I'll release it outside.” → <a href="#d-brv_churchman_trap3b">brv_churchman_trap3b</a></li>
+</ul>
+<p><span id="d-brv_churchman_b1"></span><strong><code>brv_churchman_b1</code></strong> Seviron: “Do you have the bottle?”</p>
+<ul>
+<li>“Yes. Here it is.” <em>(if hand over 1× <a href="../../items/large_bottle/">Large empty bottle</a>)</em> → <a href="#d-brv_churchman_b2">brv_churchman_b2</a></li>
+<li>“No, not yet. I'm still looking for one.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_i1"></span><strong><code>brv_churchman_i1</code></strong> Seviron: “Do you have the items we need for the trap?”</p>
+<ul>
+<li>“I have the rocks.” <em>(if hand over 3× <a href="../../items/rock/">Small rock</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_09a">brv_churchman_09a</a></li>
+<li>“I have the rocks.” <em>(if hand over 3× <a href="../../items/rock/">Small rock</a>; reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_09c">brv_churchman_09c</a></li>
+<li>“I have the cheese.” <em>(if hand over 1× <a href="../../items/cheese/">Cheese</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT carry 3× <a href="../../items/rock/">Small rock</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_09b">brv_churchman_09b</a></li>
+<li>“I have the cheese.” <em>(if hand over 1× <a href="../../items/cheese/">Cheese</a>; reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_09c">brv_churchman_09c</a></li>
+<li>“I have the rocks and the cheese.” <em>(if hand over 3× <a href="../../items/rock/">Small rock</a>; hand over 1× <a href="../../items/cheese/">Cheese</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_09c">brv_churchman_09c</a></li>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_trap1"></span><strong><code>brv_churchman_trap1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 40 of <a href="../quests/nondisplay_bhvt.md#stage-40">nondisplay_bhvt (hidden flag)</a>)</em> → <a href="#d-brv_churchman_trap2">brv_churchman_trap2</a></li>
+<li>branch 2 → <a href="#d-brv_churchman_trap3">brv_churchman_trap3</a></li>
+</ul>
+<p><span id="d-brv_churchman_banned"></span><strong><code>brv_churchman_banned</code></strong> Seviron: “Go away, naughty kid!”</p>
+<p><span id="d-brv_churchman"></span><strong><code>brv_churchman</code></strong> Seviron: “Hello. I am Seviron. You are not supposed to be up here.”</p>
+<ul>
+<li>“What is this room used for?” → <a href="#d-brv_churchman_01">brv_churchman_01</a></li>
+<li>“I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → <a href="#d-brv_churchman_01a">brv_churchman_01a</a></li>
+<li>“Sorry, I'll leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_default1"></span><strong><code>brv_churchman_default1</code></strong> Seviron: “Hello again. Is there something I can help you with?”</p>
+<ul>
+<li>“I'm looking for my brother, Andor. He looks a bit like me.” → <a href="#d-Brv_churchman_default2">Brv_churchman_default2</a></li>
+<li>“No thanks. I'll be going.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_trap3a"></span><strong><code>brv_churchman_trap3a</code></strong> Seviron: “Hmm. I'm sure the cat will be happy, but I doubt the mouse will!” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/cat_and_mouse/#stage-70">A cat and mouse game</a>, gives <a href="../../items/large_bottle/">Large empty bottle</a></p>
+<p><span id="d-brv_churchman_trap3b"></span><strong><code>brv_churchman_trap3b</code></strong> Seviron: “Well, don't release it in the town. It will just go into another building.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/cat_and_mouse/#stage-80">A cat and mouse game</a></p>
+<p><span id="d-brv_churchman_b2"></span><strong><code>brv_churchman_b2</code></strong> Seviron: “Excellent. I'll set the trap. This will require some patience though, so you should come back later to see if it worked.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/cat_and_mouse/#stage-50">A cat and mouse game</a>, starts timer “mouse_trap”</p>
+<p><span id="d-brv_churchman_09a"></span><strong><code>brv_churchman_09a</code></strong> Seviron: “Thanks. Now we just need the cheese and the bottle.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a></p>
+<p><span id="d-brv_churchman_09c"></span><strong><code>brv_churchman_09c</code></strong> Seviron: “Thanks. Now we just need the bottle. You should ask around town. Someone must have one.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>, sets stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a></p>
+<p><span id="d-brv_churchman_09b"></span><strong><code>brv_churchman_09b</code></strong> Seviron: “Thanks. Now we just need the rocks and the bottle.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a></p>
+<p><span id="d-brv_churchman_trap2"></span><strong><code>brv_churchman_trap2</code></strong> Seviron: “We caught the mouse! Here it is, in the bottle. You can decide what to do with it. And here's a little gold for your help.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/cat_and_mouse/#stage-60">A cat and mouse game</a>, gives <a href="../../items/trapped_mouse/">Trapped mouse</a>, <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“I'll give it to the cat. That should solve the problem!” <em>(if hand over 1× <a href="../../items/trapped_mouse/">Trapped mouse</a>)</em> → <a href="#d-brv_churchman_trap3a">brv_churchman_trap3a</a></li>
+<li>“I'll release it outside.” → <a href="#d-brv_churchman_trap3b">brv_churchman_trap3b</a></li>
+</ul>
+<p><span id="d-brv_churchman_trap3"></span><strong><code>brv_churchman_trap3</code></strong> Seviron: “Sorry, the mouse is still running around. We will get it though. Be patient.”</p>
+<p><span id="d-brv_churchman_01"></span><strong><code>brv_churchman_01</code></strong> Seviron: “This is the church bell tower.”</p>
+<ul>
+<li>Next → <a href="#d-brv_churchman_02">brv_churchman_02</a></li>
+</ul>
+<p><span id="d-brv_churchman_01a"></span><strong><code>brv_churchman_01a</code></strong> Seviron: “No. Irritating children do not usually come up here. You are an exception.”</p>
+<ul>
+<li>“Hmm. OK. What is this room?” → <a href="#d-brv_churchman_01">brv_churchman_01</a></li>
+<li>“Sorry. I'll leave.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-Brv_churchman_default2"></span><strong><code>Brv_churchman_default2</code></strong> Seviron: “Sorry, I haven't seen anyone like that.”</p>
+<p><span id="d-brv_churchman_02"></span><strong><code>brv_churchman_02</code></strong> Seviron: “We use the bells to both notify townsfolk when there is a service, and to warn of danger to the town.”</p>
+<ul>
+<li>Next → <a href="#d-brv_churchman_03">brv_churchman_03</a></li>
+</ul>
+<p><span id="d-brv_churchman_03"></span><strong><code>brv_churchman_03</code></strong> Seviron: “I am the bell-ringer. Unfortunately, I also have to guard the bells from Quasi. He likes to ring them even when there is no reason to do so.”</p>
+<ul>
+<li>“Who is Quasi?” <em>(if NOT reached stage 30 of <a href="../quests/nondisplay_bhvt.md#stage-30">nondisplay_bhvt (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04a">brv_churchman_04a</a></li>
+<li>“Quasi is...interesting.” <em>(if reached stage 30 of <a href="../quests/nondisplay_bhvt.md#stage-30">nondisplay_bhvt (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04b">brv_churchman_04b</a></li>
+<li>“OK. Thanks. I'm looking for my brother, Andor. Have you seen him?” → <a href="#d-brv_churchman_01a">brv_churchman_01a</a></li>
+</ul>
+<p><span id="d-brv_churchman_04a"></span><strong><code>brv_churchman_04a</code></strong> Seviron: “Quasi is the grave digger. He is usually in the basement. Sometimes he is trouble, but mostly he is useful. Anyway, he has nowhere else to go, so he lives in the church.”</p>
+<ul>
+<li>Next → <a href="#d-brv_churchman_05">brv_churchman_05</a></li>
+</ul>
+<p><span id="d-brv_churchman_04b"></span><strong><code>brv_churchman_04b</code></strong> Seviron: “Yes, that is one way to put it. He is useful, so he lives here in the church. He has nowhere else to go anyway, so we accommodate him.”</p>
+<ul>
+<li>Next → <a href="#d-brv_churchman_05">brv_churchman_05</a></li>
+</ul>
+<p><span id="d-brv_churchman_05"></span><strong><code>brv_churchman_05</code></strong> Seviron: “Is there anything else I can help you with? You are distracting me from watching the cat and the mouse on the other side of the room.”</p>
+<ul>
+<li>Next → <a href="#d-brv_churchman_06">brv_churchman_06</a></li>
+</ul>
+<p><span id="d-brv_churchman_06"></span><strong><code>brv_churchman_06</code></strong> Seviron: “The mice like to chew the bell rope, which is a problem. So we brought in the cat to control them. That particular mouse seems to be very good at evading the cat though. It knows just when to turn, and just where to hide where the cat…”</p>
+<ul>
+<li>“Can I help in some way?” → <a href="#d-brv_churchman_07">brv_churchman_07</a></li>
+<li>“I need to find my brother. Bye.” → <em>conversation ends</em></li>
+<li>“Good luck with that! I have more important things to deal with. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_07"></span><strong><code>brv_churchman_07</code></strong> Seviron: “You could help me trap it. I need some cheese, a large empty bottle, and some rocks that we can use to prop up the bottle at an angle. If the mouse crawls in to get the cheese, it will not be able to get out again.”</p>
+<ul>
+<li>“OK. I'll help.” → <a href="#d-brv_churchman_08">brv_churchman_08</a></li>
+<li>“Sorry. I don't have time for that. I have to go.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_churchman_08"></span><strong><code>brv_churchman_08</code></strong> Seviron: “Thanks. Just bring me the items. I think three rocks should be enough.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a></p>
+<ul>
+<li>“I have the rocks.” <em>(if hand over 3× <a href="../../items/rock/">Small rock</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>)</em> → <a href="#d-brv_churchman_09a">brv_churchman_09a</a></li>
+<li>“I have the cheese.” <em>(if hand over 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 3× <a href="../../items/rock/">Small rock</a>)</em> → <a href="#d-brv_churchman_09b">brv_churchman_09b</a></li>
+<li>“I have the rocks and the cheese.” <em>(if hand over 3× <a href="../../items/rock/">Small rock</a>; hand over 1× <a href="../../items/cheese/">Cheese</a>)</em> → <a href="#d-brv_churchman_09c">brv_churchman_09c</a></li>
+<li>“I'll go and get the items you asked for.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_churchman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_churchman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_churchman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_churchman.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_churchman</code> · Data from v0.8.18</small></p>
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,266 @@
 <ul>
 <li><a href="../../maps/bogsten1/">bogsten1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fungi_panic/">Fungi panic</a>: stages 10, 30, 40, 52, 60, 100, 102</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (54 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-bogsten_start_select"></span><strong><code>bogsten_start_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 115 of <a href="../../quests/fungi_panic/#stage-115">Fungi panic</a>)</em> → <a href="#d-bogsten_115_10">bogsten_115_10</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/fungi_panic/#stage-100">Fungi panic</a>)</em> → <a href="#d-bogsten_100_10">bogsten_100_10</a></li>
+<li>branch 3 <em>(if reached stage 70 of <a href="../../quests/fungi_panic/#stage-70">Fungi panic</a>)</em> → <a href="#d-bogsten_70_10">bogsten_70_10</a></li>
+<li>branch 4 <em>(if reached stage 60 of <a href="../../quests/fungi_panic/#stage-60">Fungi panic</a>)</em> → <a href="#d-bogsten_60_20">bogsten_60_20</a></li>
+<li>branch 5 <em>(if reached stage 52 of <a href="../../quests/fungi_panic/#stage-52">Fungi panic</a>)</em> → <a href="#d-bogsten_52_10">bogsten_52_10</a></li>
+<li>branch 6 <em>(if reached stage 50 of <a href="../../quests/fungi_panic/#stage-50">Fungi panic</a>)</em> → <a href="#d-bogsten_50_10">bogsten_50_10</a></li>
+<li>branch 7 <em>(if reached stage 40 of <a href="../../quests/fungi_panic/#stage-40">Fungi panic</a>)</em> → <a href="#d-bogsten_40_10">bogsten_40_10</a></li>
+<li>branch 8 <em>(if reached stage 30 of <a href="../../quests/fungi_panic/#stage-30">Fungi panic</a>)</em> → <a href="#d-bogsten_30_10">bogsten_30_10</a></li>
+<li>branch 9 <em>(if reached stage 10 of <a href="../../quests/fungi_panic/#stage-10">Fungi panic</a>)</em> → <a href="#d-bogsten_10_10">bogsten_10_10</a></li>
+<li>branch 10 <em>(if NOT reached stage 50 of <a href="../../quests/gison_soup/#stage-50">Delicious soup</a>; NOT reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; NOT reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>)</em> → <a href="#d-bogsten_waitforsoup">bogsten_waitforsoup</a></li>
+<li>branch 11 → <a href="#d-bogsten_start_0">bogsten_start_0</a></li>
+</ul>
+<p><span id="d-bogsten_115_10"></span><strong><code>bogsten_115_10</code></strong> Bogsten: “Now what has happened down there?”</p>
+<ul>
+<li>“I met a sorcerer called Zuul'khan. He offered me something of value, so now I'll kill you.” → <a href="#d-bogsten_115_20">bogsten_115_20</a></li>
+</ul>
+<p><span id="d-bogsten_100_10"></span><strong><code>bogsten_100_10</code></strong> Bogsten: “Hi kid. Nice to meet you again.”</p>
+<ul>
+<li>“I've finally defeated Zuul'khan and his giant mushroom. You won't have to worry about them anymore.” <em>(if reached stage 200 of <a href="../../quests/fungi_panic/#stage-200">Fungi panic</a>)</em> → <a href="#d-bogsten_200_10">bogsten_200_10</a></li>
+</ul>
+<p><span id="d-bogsten_70_10"></span><strong><code>bogsten_70_10</code></strong> Bogsten: “It took you a long time to get back here. What has happened down there?”</p>
+<ul>
+<li>“I met an old sorcerer named Zuul'khan in the cave.” → <a href="#d-bogsten_70_20">bogsten_70_20</a></li>
+</ul>
+<p><span id="d-bogsten_60_20"></span><strong><code>bogsten_60_20</code></strong> Bogsten: “Now that I am restored again, I should go back to work.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_22">bogsten_60_22</a></li>
+</ul>
+<p><span id="d-bogsten_52_10"></span><strong><code>bogsten_52_10</code></strong> Bogsten: “Aaah. I feel much better. That was neat. You have my everlasting thanks, kid.”</p>
+<ul>
+<li>“I am glad I could help.” → <a href="#d-bogsten_60_20">bogsten_60_20</a></li>
+<li>“I'd prefer to have my 150 gold back.” → <a href="#d-bogsten_52_12">bogsten_52_12</a></li>
+</ul>
+<p><span id="d-bogsten_50_10"></span><strong><code>bogsten_50_10</code></strong> Bogsten: “I hope you have good news for me.”</p>
+<ul>
+<li>“Yes, I have got a potion for you.” <em>(if hand over 1× <a href="../../items/fungi_panic_cure/">Curative potion against mushroom wounding</a>)</em> → <a href="#d-bogsten_50_20">bogsten_50_20</a></li>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_40_10"></span><strong><code>bogsten_40_10</code></strong> Bogsten: “Quick, I am dying! The potion maker is the only one who could help me!”</p>
+<ul>
+<li>“I'll hurry.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_30_10"></span><strong><code>bogsten_30_10</code></strong> Bogsten: “Have you collected the spores already?”</p>
+<ul>
+<li>“Yes. I have them with me.” <em>(if carry 1× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-bogsten_30_20">bogsten_30_20</a></li>
+<li>“No, not yet.” → <a href="#d-bogsten_30_12">bogsten_30_12</a></li>
+</ul>
+<p><span id="d-bogsten_10_10"></span><strong><code>bogsten_10_10</code></strong> Bogsten: “Have you got the cure?”</p>
+<ul>
+<li>“Not yet. The potion merchant needs some spore sample to prepare it.” <em>(if reached stage 20 of <a href="../../quests/fungi_panic/#stage-20">Fungi panic</a>)</em> → <a href="#d-bogsten_20_10">bogsten_20_10</a></li>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup"></span><strong><code>bogsten_waitforsoup</code></strong> Bogsten: “Hmm ... hmm ...”</p>
+<ul>
+<li>“Hello, I am ...” → <a href="#d-bogsten_waitforsoup_1">bogsten_waitforsoup_1</a></li>
+</ul>
+<p><span id="d-bogsten_start_0"></span><strong><code>bogsten_start_0</code></strong> Bogsten: “Oh young kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!”</p>
+<ul>
+<li>“What's going on?” → <a href="#d-bogsten_start_1">bogsten_start_1</a></li>
+</ul>
+<p><span id="d-bogsten_115_20"></span><strong><code>bogsten_115_20</code></strong> Bogsten: “You...what? After saving me, you would turn against me?”</p>
+<ul>
+<li>“Enough talk, time to die.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-bogsten_200_10"></span><strong><code>bogsten_200_10</code></strong> Bogsten: “Oh, that's great news! I suppose I can get back to work with the mushrooms, then. Maybe tomorrow, after I've had time to rest.”</p>
+<ul>
+<li>“Goodbye.” → <em>conversation ends</em></li>
+<li>“How can you be so lazy?” → <a href="#d-bogsten_200_20">bogsten_200_20</a></li>
+</ul>
+<p><span id="d-bogsten_70_20"></span><strong><code>bogsten_70_20</code></strong> Bogsten: “Zuul'khan? Hmm, I think I have heard this name already.”</p>
+<ul>
+<li>“He told me that your family imprisoned him using an ancient petrifying spell.” → <a href="#d-bogsten_70_30">bogsten_70_30</a></li>
+</ul>
+<p><span id="d-bogsten_60_22"></span><strong><code>bogsten_60_22</code></strong> Bogsten: “I really should.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_24">bogsten_60_24</a></li>
+</ul>
+<p><span id="d-bogsten_52_12"></span><strong><code>bogsten_52_12</code></strong> Bogsten: “No, no, no. The uplifting feeling of saving a life cannot be balanced with gold.”</p>
+<ul>
+<li>“No?” → <a href="#d-bogsten_52_14">bogsten_52_14</a></li>
+<li>“You are right.” → <a href="#d-bogsten_60_20">bogsten_60_20</a></li>
+</ul>
+<p><span id="d-bogsten_50_20"></span><strong><code>bogsten_50_20</code></strong> Bogsten: “Finally! [He pours down the liquid greedily]” — <strong>effects:</strong> sets stage 52 of <a href="../../quests/fungi_panic/#stage-52">Fungi panic</a></p>
+<ul>
+<li>“And there goes 150 gold again...” → <a href="#d-bogsten_52_10">bogsten_52_10</a></li>
+</ul>
+<p><span id="d-bogsten_30_20"></span><strong><code>bogsten_30_20</code></strong> Bogsten: “These spores would do. Please go and give them to Fallhaven's potion merchant.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/fungi_panic/#stage-40">Fungi panic</a></p>
+<ul>
+<li>“I'll hurry.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_30_12"></span><strong><code>bogsten_30_12</code></strong> Bogsten: “Please get them for me.”</p>
+<ul>
+<li>Next → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_20_10"></span><strong><code>bogsten_20_10</code></strong> Bogsten: “I'm sorry to have dragged you into this, kid. Take this key. It will open the way to my mushroom cave. You will certainly find what you need.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/fungi_panic/#stage-30">Fungi panic</a>, gives 1× <a href="../../items/bogsten_key/">Bogsten's key</a></p>
+<ul>
+<li>“I will have a look.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_1"></span><strong><code>bogsten_waitforsoup_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (20%))</em> → <a href="#d-bogsten_waitforsoup_50">bogsten_waitforsoup_50</a></li>
+<li>branch 2 <em>(if random chance (25%))</em> → <a href="#d-bogsten_waitforsoup_40">bogsten_waitforsoup_40</a></li>
+<li>branch 3 <em>(if random chance (33%))</em> → <a href="#d-bogsten_waitforsoup_30">bogsten_waitforsoup_30</a></li>
+<li>branch 4 <em>(if random chance (50%))</em> → <a href="#d-bogsten_waitforsoup_20">bogsten_waitforsoup_20</a></li>
+<li>branch 5 → <a href="#d-bogsten_waitforsoup_10">bogsten_waitforsoup_10</a></li>
+</ul>
+<p><span id="d-bogsten_start_1"></span><strong><code>bogsten_start_1</code></strong> Bogsten: “No. I shouldn't be telling you. It's too dangerous.”</p>
+<ul>
+<li>“I'm sure I can help.” → <a href="#d-bogsten_start_2">bogsten_start_2</a></li>
+<li>“I'm way stronger than I look.” → <a href="#d-bogsten_start_2">bogsten_start_2</a></li>
+<li>“OK. Nevermind.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_200_20"></span><strong><code>bogsten_200_20</code></strong> Bogsten: “When you get to my age, maybe you'll understand that you don't need to rush through life. Now leave me to my rest.”</p>
+<p><span id="d-bogsten_70_30"></span><strong><code>bogsten_70_30</code></strong> Bogsten: “A petrifying spell? But this has to be renewed every week.”</p>
+<ul>
+<li>“Exactly. Thanks to your laxity, Zuul'khan got free.” → <a href="#d-bogsten_70_40">bogsten_70_40</a></li>
+</ul>
+<p><span id="d-bogsten_60_24"></span><strong><code>bogsten_60_24</code></strong> Bogsten: “I should...”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_26">bogsten_60_26</a></li>
+</ul>
+<p><span id="d-bogsten_52_14"></span><strong><code>bogsten_52_14</code></strong> Bogsten: “No.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_20">bogsten_60_20</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_50"></span><strong><code>bogsten_waitforsoup_50</code></strong> Bogsten: “All is flux, nothing stays still.”</p>
+<ul>
+<li>“What?” → <a href="#d-bogsten_waitforsoup_90">bogsten_waitforsoup_90</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_40"></span><strong><code>bogsten_waitforsoup_40</code></strong> Bogsten: “How could they see anything but the shadows if they were never allowed to move their heads?”</p>
+<ul>
+<li>“What?” → <a href="#d-bogsten_waitforsoup_90">bogsten_waitforsoup_90</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_30"></span><strong><code>bogsten_waitforsoup_30</code></strong> Bogsten: “There are two things a person should never be angry at: What they can help, and what they cannot.”</p>
+<ul>
+<li>“What?” → <a href="#d-bogsten_waitforsoup_90">bogsten_waitforsoup_90</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_20"></span><strong><code>bogsten_waitforsoup_20</code></strong> Bogsten: “An empty vessel makes the loudest sound. So they that have the least wit are the greatest babblers.”</p>
+<ul>
+<li>“What?” → <a href="#d-bogsten_waitforsoup_90">bogsten_waitforsoup_90</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_10"></span><strong><code>bogsten_waitforsoup_10</code></strong> Bogsten: “Wise men speak because they have something to say; fools because they have to say something.”</p>
+<ul>
+<li>“What?” → <a href="#d-bogsten_waitforsoup_90">bogsten_waitforsoup_90</a></li>
+</ul>
+<p><span id="d-bogsten_start_2"></span><strong><code>bogsten_start_2</code></strong> Bogsten: “My family has used this place to grow mushrooms for five generations. Our mushrooms are famous from Feygard to Nor City, loved by gourmets and potion makers alike.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_start_3">bogsten_start_3</a></li>
+</ul>
+<p><span id="d-bogsten_70_40"></span><strong><code>bogsten_70_40</code></strong> Bogsten: “And why is this Zuul'khan still running around? What did you do the whole time down there? Go and finish your work!”</p>
+<ul>
+<li>“What? Do it yourself!” → <em>conversation ends</em></li>
+<li>“Do you actually do anything with your own hands?” → <em>conversation ends</em></li>
+<li>“I already defeated Zuul'khan.” <em>(if killed 1× <a href="../zuul_khan/">Zuul'khan</a>)</em> → <a href="#d-bogsten_90_20">bogsten_90_20</a></li>
+</ul>
+<p><span id="d-bogsten_60_26"></span><strong><code>bogsten_60_26</code></strong> Bogsten: “What? ... Ah, yes - work.”</p>
+<ul>
+<li>“You seem a bit distracted.” → <a href="#d-bogsten_60_30">bogsten_60_30</a></li>
+</ul>
+<p><span id="d-bogsten_waitforsoup_90"></span><strong><code>bogsten_waitforsoup_90</code></strong> Bogsten: “Leave me now, kid. I'm trying to think, don't confuse me with your presence.”</p>
+<ul>
+<li>“OK. I will come back when you have more time.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_start_3"></span><strong><code>bogsten_start_3</code></strong> Bogsten: “Last month, I went to Nor City to sell an excellent batch and decided to stay a little longer.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_start_4">bogsten_start_4</a></li>
+</ul>
+<p><span id="d-bogsten_90_20"></span><strong><code>bogsten_90_20</code></strong> Bogsten: “So Zuul'khan is dead?”</p>
+<ul>
+<li>“I don't think so. He just disappeared into the ground.” → <a href="#d-bogsten_90_30">bogsten_90_30</a></li>
+</ul>
+<p><span id="d-bogsten_60_30"></span><strong><code>bogsten_60_30</code></strong> Bogsten: “Indeed. I can't concentrate.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_32">bogsten_60_32</a></li>
+</ul>
+<p><span id="d-bogsten_start_4"></span><strong><code>bogsten_start_4</code></strong> Bogsten: “You see, my son is studying across the country to become a Shadow priest, and he is currently in the Valanyr temple of the Shadow. I had not seen him for so long, so I decided to visit him.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_start_5">bogsten_start_5</a></li>
+</ul>
+<p><span id="d-bogsten_90_30"></span><strong><code>bogsten_90_30</code></strong> Bogsten: “Disappeared! I hope he doesn't appear here next. Well, as a reward for your efforts, please take this bag of mushrooms to the potion merchant in Fallhaven. I'm sure he'll prepare something good for you.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/fungi_panic/#stage-100">Fungi panic</a>, gives 1× <a href="../../items/fungi_panic_bag/">Bag with mushrooms</a></p>
+<ul>
+<li>Next → <a href="#d-bogsten_90_40">bogsten_90_40</a></li>
+</ul>
+<p><span id="d-bogsten_60_32"></span><strong><code>bogsten_60_32</code></strong> Bogsten: “There seems to be an evil force near us. Yes, that must be it.”</p>
+<ul>
+<li>Next → <a href="#d-bogsten_60_34">bogsten_60_34</a></li>
+</ul>
+<p><span id="d-bogsten_start_5"></span><strong><code>bogsten_start_5</code></strong> Bogsten: “Anyway, when I came back here, I felt something strange had happened. I couldn't tell what, but I knew evil was around as soon as I touched the door knob.”</p>
+<ul>
+<li>“Dealing with evil is my favorite hobby.” → <a href="#d-bogsten_start_6">bogsten_start_6</a></li>
+<li>“Get to the point.” → <a href="#d-bogsten_start_6">bogsten_start_6</a></li>
+<li>“I will never help a worshipper of the Shadow!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_90_40"></span><strong><code>bogsten_90_40</code></strong> Bogsten: “Anyway. The evil force is not gone, so you'll have to go down there again.”</p>
+<ul>
+<li>“What??” → <a href="#d-bogsten_90_50">bogsten_90_50</a></li>
+</ul>
+<p><span id="d-bogsten_60_34"></span><strong><code>bogsten_60_34</code></strong> Bogsten: “I remember my father warned me about this kind of thing before passing away. But I was just a kid and I forgot his advice on how to deal with it.”</p>
+<ul>
+<li>“Don't worry. I deal with evil every day. Whatever lurks down there, I can handle it.” → <a href="#d-bogsten_60_40">bogsten_60_40</a></li>
+<li>“How can you forget something that important! I guess I have no choice but to go.” → <a href="#d-bogsten_60_40">bogsten_60_40</a></li>
+<li>“Stupid old man. You really think I'm here to clean up your own mess!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_start_6"></span><strong><code>bogsten_start_6</code></strong> Bogsten: “When I got to my mushroom cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt.”</p>
+<ul>
+<li>“You really look bad. How can I help?” → <a href="#d-bogsten_start_7">bogsten_start_7</a></li>
+</ul>
+<p><span id="d-bogsten_90_50"></span><strong><code>bogsten_90_50</code></strong> Bogsten: “It has moved probably to another place. But that is someone else's problem.” — <strong>effects:</strong> sets stage 102 of <a href="../../quests/fungi_panic/#stage-102">Fungi panic</a></p>
+<ul>
+<li>“Honestly now?” → <a href="#d-bogsten_90_54">bogsten_90_54</a></li>
+</ul>
+<p><span id="d-bogsten_60_40"></span><strong><code>bogsten_60_40</code></strong> Bogsten: “Very good. Please go into my caves and check if everything is right.”</p>
+<ul>
+<li>“You're getting on my nerves now.” → <a href="#d-bogsten_60_40">bogsten_60_40</a></li>
+<li>“OK. Down again.” → <a href="#d-bogsten_60_50">bogsten_60_50</a></li>
+<li>“No way! You've bored me more than enough!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_start_7"></span><strong><code>bogsten_start_7</code></strong> Bogsten: “I know this potion maker in Fallhaven. Could you go ask him for a cure?”</p>
+<ul>
+<li>“Sure. I'll go there right now.” → <a href="#d-bogsten_start_8">bogsten_start_8</a></li>
+<li>“You fool! I'm not here to run your errands!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_90_54"></span><strong><code>bogsten_90_54</code></strong> Bogsten: “Leave now. I need to rest.”</p>
+<p><span id="d-bogsten_60_50"></span><strong><code>bogsten_60_50</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/fungi_panic/#stage-60">Fungi panic</a>)</em> → <a href="#d-bogsten_60_52">bogsten_60_52</a></li>
+<li>branch 2 → <a href="#d-bogsten_60_54">bogsten_60_54</a></li>
+</ul>
+<p><span id="d-bogsten_start_8"></span><strong><code>bogsten_start_8</code></strong> Bogsten: “Thank you! I'll be waiting for you. Be quick!” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fungi_panic/#stage-10">Fungi panic</a></p>
+<ul>
+<li>Next → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_60_52"></span><strong><code>bogsten_60_52</code></strong> Bogsten: “Don't forget that there are hidden rooms. I gave you my necklace so that you can find them. Wear it down in the caves. Never take it off.”</p>
+<ul>
+<li>“I'm curious what I will find there.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-bogsten_60_54"></span><strong><code>bogsten_60_54</code></strong> Bogsten: “There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never take it off.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/fungi_panic/#stage-60">Fungi panic</a>, gives 1× <a href="../../items/bogsten_necklace/">Bogsten's necklace</a></p>
+<ul>
+<li>“I'm curious what I will find there.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bogsten.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bogsten.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bogsten.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=bogsten.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>bogsten</code> · Data from v0.8.18</small></p>
 
 

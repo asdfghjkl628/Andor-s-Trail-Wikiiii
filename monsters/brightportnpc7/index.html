@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,323 @@
 <ul>
 <li><a href="../../maps/brightport_forest/">brightport_forest</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Stanwickquest/">No rest for the wicked</a>: stages 86, 92, 95</li>
+<li><a href="../../quests/brightport_lizard/">The balance of scales</a>: stages 5, 10, 36, 50, 55, 100, 110</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 104, 105, 106, 107, 110, 111, 112, 221, 233, 257</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (67 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_bryma_selector"></span><strong><code>brightport_bryma_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/brightport_lizard/#stage-10">The balance of scales</a>; NOT reached stage 112 of <a href="../../quests/brightport_nondisplay/#stage-112">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma38">brightport_bryma38</a></li>
+<li>Next <em>(if reached stage 112 of <a href="../../quests/brightport_nondisplay/#stage-112">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma50">brightport_bryma50</a></li>
+<li>Next <em>(if reached stage 104 of <a href="../../quests/brightport_nondisplay/#stage-104">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma6_alt">brightport_bryma6_alt</a></li>
+<li>Next → <a href="#d-brightport_bryma">brightport_bryma</a></li>
+</ul>
+<p><span id="d-brightport_bryma38"></span><strong><code>brightport_bryma38</code></strong> Bryma: “Have you had any success with the creatures?”</p>
+<ul>
+<li>“As long as you don't bother them again, things should be good now.” <em>(if reached stage 90 of <a href="../../quests/brightport_lizard/#stage-90">The balance of scales</a>)</em> → <a href="#d-brightport_bryma46">brightport_bryma46</a></li>
+<li>“Yes, they are all dead.” <em>(if reached stage 32 of <a href="../../quests/brightport_lizard/#stage-32">The balance of scales</a>)</em> → <a href="#d-brightport_bryma_lizardselector">brightport_bryma_lizardselector</a></li>
+<li>“I've met with the leader of the lizardman tribe, they demand I return the 13 stolen bones.” <em>(if NOT reached stage 55 of <a href="../../quests/brightport_lizard/#stage-55">The balance of scales</a>; reached stage 40 of <a href="../../quests/brightport_lizard/#stage-40">The balance of scales</a>; NOT reached stage 90 of <a href="../../quests/brightport_lizard/#stage-90">The balance of scales</a>)</em> → <a href="#d-brightport_bryma42_alt_alt">brightport_bryma42_alt_alt</a></li>
+<li>“Not yet.” <em>(if NOT reached stage 55 of <a href="../../quests/brightport_lizard/#stage-55">The balance of scales</a>)</em> → <a href="#d-brightport_bryma45">brightport_bryma45</a></li>
+<li>“I've yet to return the bones.” <em>(if reached stage 55 of <a href="../../quests/brightport_lizard/#stage-55">The balance of scales</a>; NOT reached stage 60 of <a href="../../quests/brightport_lizard/#stage-60">The balance of scales</a>)</em> → <a href="#d-brightport_bryma45">brightport_bryma45</a></li>
+<li>“I returned the bones but I've got one more task to do.” <em>(if reached stage 60 of <a href="../../quests/brightport_lizard/#stage-60">The balance of scales</a>; NOT reached stage 90 of <a href="../../quests/brightport_lizard/#stage-90">The balance of scales</a>)</em> → <a href="#d-brightport_bryma45">brightport_bryma45</a></li>
+<li>“Not yet, I wish to ask you about other things.” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+</ul>
+<p><span id="d-brightport_bryma50"></span><strong><code>brightport_bryma50</code></strong> Bryma: “It is good to see you $playername. what brings you around?”</p>
+<ul>
+<li>“I wish to talk about something.” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+</ul>
+<p><span id="d-brightport_bryma6_alt"></span><strong><code>brightport_bryma6_alt</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 95 of <a href="../../quests/Stanwickquest/#stage-95">No rest for the wicked</a>)</em> → <a href="#d-brightport_bryma6">brightport_bryma6</a></li>
+<li>Next <em>(if reached stage 92 of <a href="../../quests/Stanwickquest/#stage-92">No rest for the wicked</a>)</em> → <a href="#d-brightport_bryma_alternative_greeting">brightport_bryma_alternative_greeting</a></li>
+</ul>
+<p><span id="d-brightport_bryma"></span><strong><code>brightport_bryma</code></strong> Bryma: “A visitor, how unusual. I assume you haven't simply stumbled upon my cabin by accident?” — <strong>effects:</strong> sets stage 86 of <a href="../../quests/Stanwickquest/#stage-86">No rest for the wicked</a></p>
+<ul>
+<li>“Are you the person named Bryma?” → <a href="#d-brightport_bryma0">brightport_bryma0</a></li>
+<li>“Yuck, what is that thing inside your kitchen?” → <a href="#d-brightport_bryma7">brightport_bryma7</a></li>
+</ul>
+<p><span id="d-brightport_bryma46"></span><strong><code>brightport_bryma46</code></strong> Bryma: “That is no problem. But how am I supposed to get bones now...”</p>
+<ul>
+<li>“I negotiated with the lizardmen, they agree to trade with you the bones of the animals they hunt.” <em>(if reached stage 95 of <a href="../../quests/brightport_lizard/#stage-95">The balance of scales</a>)</em> → <a href="#d-brightport_bryma47">brightport_bryma47</a></li>
+<li>“I've solved the main problem. That should be the least of your issues now.” <em>(if NOT reached stage 95 of <a href="../../quests/brightport_lizard/#stage-95">The balance of scales</a>)</em> → <a href="#d-brightport_bryma53">brightport_bryma53</a></li>
+</ul>
+<p><span id="d-brightport_bryma_lizardselector"></span><strong><code>brightport_bryma_lizardselector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 35 of <a href="../../quests/brightport_lizard/#stage-35">The balance of scales</a>)</em> → <a href="#d-brightport_bryma_lizardexist">brightport_bryma_lizardexist</a></li>
+<li>Next <em>(if reached stage 35 of <a href="../../quests/brightport_lizard/#stage-35">The balance of scales</a>)</em> → <a href="#d-brightport_bryma_lizarddead">brightport_bryma_lizarddead</a></li>
+</ul>
+<p><span id="d-brightport_bryma42_alt_alt"></span><strong><code>brightport_bryma42_alt_alt</code></strong> <a href="../none/">Dummy NPC</a>: “She begins quietly murmuring to herself.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma42_alt">brightport_bryma42_alt</a></li>
+</ul>
+<p><span id="d-brightport_bryma45"></span><strong><code>brightport_bryma45</code></strong> Bryma: “I see, good luck with that.”</p>
+<p><span id="d-brightport_bryma14"></span><strong><code>brightport_bryma14</code></strong> Bryma: “Sure, what do you want to know?”</p>
+<ul>
+<li>“Can you tell me about Andor again?” <em>(if reached stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>)</em> → <a href="#d-brightport_bryma13">brightport_bryma13</a></li>
+<li>“Why do you live here in the forest?” → <a href="#d-brightport_bryma15">brightport_bryma15</a></li>
+<li>“I'm curious, how did that scroll reach you?” <em>(if NOT reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>)</em> → <a href="#d-brightport_bryma8">brightport_bryma8</a></li>
+<li>“What's with that statue at the entrance of the forest?” → <a href="#d-brightport_bryma37">brightport_bryma37</a></li>
+<li>“You mentioned your bonemeal research, what can you tell me about the potion?” <em>(if reached stage 106 of <a href="../../quests/brightport_nondisplay/#stage-106">brightport_nondisplay (hidden flag)</a>; NOT reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma22">brightport_bryma22</a></li>
+<li>“Can you tell me about your bonemeal theory again?” <em>(if reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma31">brightport_bryma31</a></li>
+</ul>
+<p><span id="d-brightport_bryma6"></span><strong><code>brightport_bryma6</code></strong> Bryma: “You're back again? The forest isn't as quiet as it used to be.”</p>
+<ul>
+<li>“I saw a strange creature in the cave under your house. It didn't stick around though.” <em>(if reached stage 1 of <a href="../../quests/brightport_lizard/#stage-1">The balance of scales</a>; NOT reached stage 10 of <a href="../../quests/brightport_lizard/#stage-10">The balance of scales</a>)</em> → <a href="#d-brightport_bryma39">brightport_bryma39</a></li>
+<li>“Can you tell me more about what you know of my brother Andor?” <em>(if reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; NOT reached stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma13">brightport_bryma13</a></li>
+<li>“Can you tell me about Andor again?” <em>(if reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; reached stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma13">brightport_bryma13</a></li>
+<li>“I'm curious, how did that scroll reach you?” <em>(if NOT reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>)</em> → <a href="#d-brightport_bryma8">brightport_bryma8</a></li>
+<li>“What's with that statue at the entrance of the forest?” → <a href="#d-brightport_bryma37">brightport_bryma37</a></li>
+<li>“Why do you live here in the forest?” → <a href="#d-brightport_bryma15">brightport_bryma15</a></li>
+<li>“You mentioned your bonemeal research, what can you tell me about the potion?” <em>(if reached stage 107 of <a href="../../quests/brightport_nondisplay/#stage-107">brightport_nondisplay (hidden flag)</a>; NOT reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>; reached stage 106 of <a href="../../quests/brightport_nondisplay/#stage-106">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma22">brightport_bryma22</a></li>
+<li>“Can you tell me about your bonemeal theory again?” <em>(if reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma31">brightport_bryma31</a></li>
+</ul>
+<p><span id="d-brightport_bryma_alternative_greeting"></span><strong><code>brightport_bryma_alternative_greeting</code></strong> Bryma: “Hello, I am most happy to have someone to talk with.”</p>
+<ul>
+<li>“I saw a strange creature in the cave under your house. It didn't stick around though.” <em>(if reached stage 1 of <a href="../../quests/brightport_lizard/#stage-1">The balance of scales</a>; NOT reached stage 10 of <a href="../../quests/brightport_lizard/#stage-10">The balance of scales</a>)</em> → <a href="#d-brightport_bryma39">brightport_bryma39</a></li>
+<li>“Can you tell me more about what you know of my brother Andor?” <em>(if reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; NOT reached stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma13">brightport_bryma13</a></li>
+<li>“Can you tell me about Andor again?” <em>(if reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; reached stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma13">brightport_bryma13</a></li>
+<li>“I'm curious, how did that scroll get to you?” <em>(if NOT reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>)</em> → <a href="#d-brightport_bryma8">brightport_bryma8</a></li>
+<li>“What's with that statue at the entrance of the forest?” → <a href="#d-brightport_bryma37">brightport_bryma37</a></li>
+<li>“Why do you live here in the forest?” → <a href="#d-brightport_bryma15">brightport_bryma15</a></li>
+<li>“You mentioned your bonemeal research, what can you tell me about the potion?” <em>(if reached stage 106 of <a href="../../quests/brightport_nondisplay/#stage-106">brightport_nondisplay (hidden flag)</a>; NOT reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>; reached stage 107 of <a href="../../quests/brightport_nondisplay/#stage-107">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma22">brightport_bryma22</a></li>
+<li>“Can you tell me about your bonemeal theory again?” <em>(if reached stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_bryma31">brightport_bryma31</a></li>
+</ul>
+<p><span id="d-brightport_bryma0"></span><strong><code>brightport_bryma0</code></strong> Bryma: “It's an odd coincidence that the only two visitors I have had in years are asking the same question. You two could almost be twins.”</p>
+<ul>
+<li>“So you are Bryma. I'm looking for a document from the Brightport archive that was stolen.” → <a href="#d-brightport_bryma2">brightport_bryma2</a></li>
+<li>“Could that possibly have been my brother, Andor?” → <a href="#d-brightport_bryma1">brightport_bryma1</a></li>
+</ul>
+<p><span id="d-brightport_bryma7"></span><strong><code>brightport_bryma7</code></strong> Bryma: “That is one of the bread golems I invented, after years of research and study with the great minds of Nor City.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma0">brightport_bryma0</a></li>
+</ul>
+<p><span id="d-brightport_bryma47"></span><strong><code>brightport_bryma47</code></strong> Bryma: “You've done a great job, $playername. I have little of value to offer, just these two special potions. I possess very few, so I can't give you more. Use them well.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/brightport_lizard/#stage-100">The balance of scales</a>, gives 2× <a href="../../items/brightport_bonemeal/">Essence concentrate potion</a>, sets stage 112 of <a href="../../quests/brightport_nondisplay/#stage-112">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next <em>(if reached stage 115 of <a href="../../quests/charwood1/#stage-115">Destined for great things</a>)</em> → <a href="#d-brightport_bryma48">brightport_bryma48</a></li>
+</ul>
+<p><span id="d-brightport_bryma53"></span><strong><code>brightport_bryma53</code></strong> Bryma: “You're right. I can figure the rest out, $playername. I don't have much to offer, except one of my special potions. I have very few, so use it wisely.” — <strong>effects:</strong> gives 1× <a href="../../items/brightport_bonemeal/">Essence concentrate potion</a>, sets stage 110 of <a href="../../quests/brightport_lizard/#stage-110">The balance of scales</a>, sets stage 112 of <a href="../../quests/brightport_nondisplay/#stage-112">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next <em>(if reached stage 35 of <a href="../../quests/charwood1/#stage-35">Destined for great things</a>)</em> → <a href="#d-brightport_bryma48">brightport_bryma48</a></li>
+</ul>
+<p><span id="d-brightport_bryma_lizardexist"></span><strong><code>brightport_bryma_lizardexist</code></strong> Bryma: “Sigh, I'm fine with such a violent method. But please finish the work to the end, there are still lizardmen left.”</p>
+<ul>
+<li>“Fine.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_bryma_lizarddead"></span><strong><code>brightport_bryma_lizarddead</code></strong> Bryma: “Good work $playername. Now I have access to as much bonemeal as I need. Please have these potions, including a special one.” — <strong>effects:</strong> sets stage 112 of <a href="../../quests/brightport_nondisplay/#stage-112">brightport_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/brightport_bonemeal/">Essence concentrate potion</a>, gives 6× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>, sets stage 36 of <a href="../../quests/brightport_lizard/#stage-36">The balance of scales</a></p>
+<ul>
+<li>Next <em>(if reached stage 115 of <a href="../../quests/charwood1/#stage-115">Destined for great things</a>)</em> → <a href="#d-brightport_bryma48">brightport_bryma48</a></li>
+</ul>
+<p><span id="d-brightport_bryma42_alt"></span><strong><code>brightport_bryma42_alt</code></strong> <a href="./">Bryma</a>: “Does this imply they're sentient? No. That can't be...”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma42">brightport_bryma42</a></li>
+</ul>
+<p><span id="d-brightport_bryma13"></span><strong><code>brightport_bryma13</code></strong> Bryma: “About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door. I went to look, and a boy who looked a little older than you introduced himself as Andor.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma10">brightport_bryma10</a></li>
+</ul>
+<p><span id="d-brightport_bryma15"></span><strong><code>brightport_bryma15</code></strong> Bryma: “I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, many alchemists like myself were at risk of being arrested under the new laws. So I returned here to continue my research.”</p>
+<ul>
+<li>“What kind of research?” → <a href="#d-brightport_bryma18">brightport_bryma18</a></li>
+</ul>
+<p><span id="d-brightport_bryma8"></span><strong><code>brightport_bryma8</code></strong> Bryma: “It was brought to me by a boy who looked a lot like you.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma9">brightport_bryma9</a></li>
+</ul>
+<p><span id="d-brightport_bryma37"></span><strong><code>brightport_bryma37</code></strong> Bryma: “Those statues are intriguing. The light one sees in their vicinity is similar to the descriptions of the blinding light of the false goddess Elythara.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma54">brightport_bryma54</a></li>
+</ul>
+<p><span id="d-brightport_bryma22"></span><strong><code>brightport_bryma22</code></strong> Bryma: “It will be a long and difficult subject, so please keep that in mind and don't interrupt me.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma23">brightport_bryma23</a></li>
+</ul>
+<p><span id="d-brightport_bryma31"></span><strong><code>brightport_bryma31</code></strong> Bryma: “In my baking research, I discovered that the potion does not merely heal but it facilitates growth. What we perceive as healing is, in fact, simply the acceleration of the body's natural regeneration condensed into a shorter time by the…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma32">brightport_bryma32</a></li>
+</ul>
+<p><span id="d-brightport_bryma39"></span><strong><code>brightport_bryma39</code></strong> Bryma: “Lizardmen, again. They've been bothering me for months now. My bread golems can handle a few, but if they all come at once, I'll be in trouble.”</p>
+<ul>
+<li>“Maybe I could help with that, what's the story here?” → <a href="#d-brightport_bryma40">brightport_bryma40</a></li>
+</ul>
+<p><span id="d-brightport_bryma2"></span><strong><code>brightport_bryma2</code></strong> Bryma: “You mean the secret scroll that I have right here? [Bryma takes out a rolled, tattered looking parchment]”</p>
+<ul>
+<li>“You can give it to me, or I can take it by force.” → <a href="#d-brightport_bryma4">brightport_bryma4</a></li>
+<li>“I need to take it back, could you kindly give it to me?” → <a href="#d-brightport_bryma5">brightport_bryma5</a></li>
+</ul>
+<p><span id="d-brightport_bryma1"></span><strong><code>brightport_bryma1</code></strong> Bryma: “Andor? Yes, I think that was his name.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma3">brightport_bryma3</a></li>
+</ul>
+<p><span id="d-brightport_bryma48"></span><strong><code>brightport_bryma48</code></strong> Bryma: “One thing I wish to mention, between Brightport and Charwood, there was a path that travelers would use. When I fled from Feygard, I took that path, but I was stopped by the same phenomenon as in the forest, and had to circle back to the…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma49">brightport_bryma49</a></li>
+</ul>
+<p><span id="d-brightport_bryma42"></span><strong><code>brightport_bryma42</code></strong> Bryma: “Suffice to say, those bones are no longer around, I ground them to dust for my bonemeal research and fertilizer experiments.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brightport_lizard/#stage-50">The balance of scales</a></p>
+<ul>
+<li>“Great, and what am I suppossed to return now?” → <a href="#d-brightport_bryma43">brightport_bryma43</a></li>
+</ul>
+<p><span id="d-brightport_bryma10"></span><strong><code>brightport_bryma10</code></strong> Bryma: “We sat down and he started asking me all sorts of questions. I was glad to have someone to talk to. But soon, he pulled out a list of ingredients and asked about how to acquire and use them. Most which were highly poisonous.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma11">brightport_bryma11</a></li>
+</ul>
+<p><span id="d-brightport_bryma18"></span><strong><code>brightport_bryma18</code></strong> Bryma: “The application of potions in baking, but primarily bonemeal potions. Their healing potency and various properties puzzled me for many years. I studied them with the great minds of Feygard and Nor City alike.” — <strong>effects:</strong> sets stage 106 of <a href="../../quests/brightport_nondisplay/#stage-106">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“What do potions have to do with baking?” → <a href="#d-brightport_bryma21">brightport_bryma21</a></li>
+</ul>
+<p><span id="d-brightport_bryma9"></span><strong><code>brightport_bryma9</code></strong> Bryma: “About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door creak. I went to look, and a boy who looked a little older than you introduced himself. I think his name was Andor...”</p>
+<ul>
+<li>“[My brother Andor, here too?]” → <a href="#d-brightport_bryma10">brightport_bryma10</a></li>
+</ul>
+<p><span id="d-brightport_bryma54"></span><strong><code>brightport_bryma54</code></strong> Bryma: “For all of it's shortcomings, the cult and her followers fought against necromancy, and many masters of the dark arts perished under their swords. The statues are likely a seal for some evil that dwelt here in ancient times.”</p>
+<ul>
+<li>“Shortcomings?” → <a href="#d-brightport_bryma55">brightport_bryma55</a></li>
+<li>“What's the meaning of that password?” → <a href="#d-brightport_bryma56">brightport_bryma56</a></li>
+</ul>
+<p><span id="d-brightport_bryma23"></span><strong><code>brightport_bryma23</code></strong> Bryma: “First, what do you think makes bonemeal so potent that people still seek it out despite it now being illegal?”</p>
+<ul>
+<li>“It's cheap and effective.” → <a href="#d-brightport_bryma27">brightport_bryma27</a></li>
+<li>“Personally I don't know, that evil concoction hasn't been anywhere near my mouth.” <em>(if NOT used 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>)</em> → <a href="#d-brightport_bryma24">brightport_bryma24</a></li>
+<li>“I'm not sure, but the main ingredient is easy to find anywhere.” → <a href="#d-brightport_bryma25">brightport_bryma25</a></li>
+</ul>
+<p><span id="d-brightport_bryma32"></span><strong><code>brightport_bryma32</code></strong> Bryma: “But my experiments revealed something more. The late Headmaster Dervin rewarded me with an advanced bonemeal potion that contained a mysterious ingredient called kazarite, which doubled the potency of a regular potion.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma33">brightport_bryma33</a></li>
+</ul>
+<p><span id="d-brightport_bryma40"></span><strong><code>brightport_bryma40</code></strong> Bryma: “One day, I ventured into that decrepit basement to see what was there. Curious, I began exploring and carelessly ventured down into a cave. Days later, I began hearing the scratching of monstrous claws echoing through the tunnels. Like a…” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/brightport_lizard/#stage-5">The balance of scales</a></p>
+<ul>
+<li>“I'll see what I can do about those creatures.” → <a href="#d-brightport_bryma41">brightport_bryma41</a></li>
+</ul>
+<p><span id="d-brightport_bryma4"></span><strong><code>brightport_bryma4</code></strong> Bryma: “Is that any way to speak to someone you just met? So rude! Here - have it. I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.” — <strong>effects:</strong> sets stage 95 of <a href="../../quests/Stanwickquest/#stage-95">No rest for the wicked</a>, gives 1× <a href="../../items/brightport_scroll/">Secret scroll</a>, sets stage 104 of <a href="../../quests/brightport_nondisplay/#stage-104">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_bryma5"></span><strong><code>brightport_bryma5</code></strong> Bryma: “It was never my intention to keep it, as it's not particularly useful to me. Here, take it.” — <strong>effects:</strong> sets stage 92 of <a href="../../quests/Stanwickquest/#stage-92">No rest for the wicked</a>, gives 1× <a href="../../items/brightport_scroll/">Secret scroll</a>, sets stage 104 of <a href="../../quests/brightport_nondisplay/#stage-104">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Thanks! I will make sure it's returned to its place.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_bryma3"></span><strong><code>brightport_bryma3</code></strong> Bryma: “He brought me a scroll, and in exchange, he wanted me to mentor him in alchemy.” — <strong>effects:</strong> sets stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a></p>
+<ul>
+<li>“I was looking for that scroll, can I have it?” → <a href="#d-brightport_bryma5">brightport_bryma5</a></li>
+<li>“You can give that scroll to me, or I can take it by force.” → <a href="#d-brightport_bryma4">brightport_bryma4</a></li>
+</ul>
+<p><span id="d-brightport_bryma49"></span><strong><code>brightport_bryma49</code></strong> Bryma: “I later investigated and found another statue, the activation word for that specific one is "Elythara" I hope this information assists you well.” — <strong>effects:</strong> sets stage 233 of <a href="../../quests/brightport_nondisplay/#stage-233">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_bryma43"></span><strong><code>brightport_bryma43</code></strong> Bryma: “No need to look at me like that, if those bones are gone just find more to replace them with.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma44">brightport_bryma44</a></li>
+</ul>
+<p><span id="d-brightport_bryma11"></span><strong><code>brightport_bryma11</code></strong> Bryma: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'last resort...'” — <strong>effects:</strong> sets stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>, sets stage 105 of <a href="../../quests/brightport_nondisplay/#stage-105">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma12">brightport_bryma12</a></li>
+</ul>
+<p><span id="d-brightport_bryma21"></span><strong><code>brightport_bryma21</code></strong> Bryma: “Don't underestimate baking, child. To master this art takes years of arduous training, including the study of advanced alchemy.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma16">brightport_bryma16</a></li>
+</ul>
+<p><span id="d-brightport_bryma55"></span><strong><code>brightport_bryma55</code></strong> Bryma: “I lived in Feygard among the northerners for several years, and the few who do not follow the Shadow bow down to the goddess Elythara. They take great pride in their past. Yet the light they praise has blinded more than it has…”</p>
+<ul>
+<li>“Can we talk about something else?” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+<li>“This has left me with more questions than answers.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_bryma56"></span><strong><code>brightport_bryma56</code></strong> Bryma: “The "Lethgar" password refers to the Lethgar people who lived over two thousand years ago. Perhaps their name was used by those who constructed the statues in remembrance of something.”</p>
+<ul>
+<li>“Can we talk about something else?” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+<li>“Interesting, I'll be on my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_bryma27"></span><strong><code>brightport_bryma27</code></strong> Bryma: “That simple answer is the closest to the correct one. And I would have told you the same, had I not dedicated my life to it.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma26">brightport_bryma26</a></li>
+</ul>
+<p><span id="d-brightport_bryma24"></span><strong><code>brightport_bryma24</code></strong> Bryma: “I don't know whether to applaud your commitment or waive it off as a form of childish ignorance, but either way...”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma26">brightport_bryma26</a></li>
+</ul>
+<p><span id="d-brightport_bryma25"></span><strong><code>brightport_bryma25</code></strong> Bryma: “That is true, any ordinary tomb will do for some bones. And monsters are not an uncommon appearance in our day and age.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brightport_nondisplay/#stage-110">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma26">brightport_bryma26</a></li>
+</ul>
+<p><span id="d-brightport_bryma33"></span><strong><code>brightport_bryma33</code></strong> Bryma: “This completely changed my perspective. When I asked for the recipe to identify the ingredient responsible, I was denied. But it was no setback. I soon realized that bones are not unique in their properties. It's common alchemical…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma34">brightport_bryma34</a></li>
+</ul>
+<p><span id="d-brightport_bryma41"></span><strong><code>brightport_bryma41</code></strong> Bryma: “I appreciate your enthusiasm. The passage down is blocked but if you go deeper into the forest you'll find another statue. The activation word is "Light". Use it, and then find a way to their lair.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brightport_lizard/#stage-10">The balance of scales</a></p>
+<p><span id="d-brightport_bryma44"></span><strong><code>brightport_bryma44</code></strong> Bryma: “Red or green, their bones look the same. Just slay those red ones along the shore of the lake until you have enough. Here's a few of what I've got left for starters.” — <strong>effects:</strong> sets stage 55 of <a href="../../quests/brightport_lizard/#stage-55">The balance of scales</a>, gives 3× <a href="../../items/brightport_bone/">Lizardman bone</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma52">brightport_bryma52</a></li>
+</ul>
+<p><span id="d-brightport_bryma12"></span><strong><code>brightport_bryma12</code></strong> Bryma: “I had no choice but to accept it. I told him everything he wanted to know, and he left me with the scroll before leaving. It might have been useful to me twenty years ago, but I've already researched and developed my baking methods…”</p>
+<ul>
+<li>“Can we talk about something else?” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+<li>“What are you researching?” → <a href="#d-brightport_bryma18">brightport_bryma18</a></li>
+</ul>
+<p><span id="d-brightport_bryma16"></span><strong><code>brightport_bryma16</code></strong> Bryma: “It started in my second year at the academy, at the beginning of my baking studies. I set out to develop a unique leavening method to stand out from other bakers and make a name for myself.”</p>
+<ul>
+<li>“[Listen quietly.]” → <a href="#d-brightport_bryma17">brightport_bryma17</a></li>
+<li>“Great, another long story.” → <a href="#d-brightport_bryma17_alt">brightport_bryma17_alt</a></li>
+</ul>
+<p><span id="d-brightport_bryma26"></span><strong><code>brightport_bryma26</code></strong> Bryma: “The answer would be all the correct reasons you could cite. It's cheap, it's effective, and it worked for hundreds of years.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma28">brightport_bryma28</a></li>
+</ul>
+<p><span id="d-brightport_bryma34"></span><strong><code>brightport_bryma34</code></strong> Bryma: “I call this the Theory of Essence. We all know that when the Rift opened, immense magical energy entered our plane along with the monstrous creatures. Before that, what I refer to as the essence already existed, but it was greatly…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma35">brightport_bryma35</a></li>
+</ul>
+<p><span id="d-brightport_bryma52"></span><strong><code>brightport_bryma52</code></strong> Bryma: “If you can pacify those creatures and they're truly capable of reason, see if you can come to an understanding. They could supply me with what I need.” — <strong>effects:</strong> sets stage 221 of <a href="../../quests/brightport_nondisplay/#stage-221">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_bryma17"></span><strong><code>brightport_bryma17</code></strong> Bryma: “I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. On a whim, I decided to mix a bonemeal potion into the process.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma19">brightport_bryma19</a></li>
+</ul>
+<p><span id="d-brightport_bryma17_alt"></span><strong><code>brightport_bryma17_alt</code></strong> Bryma: “Shush.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma17">brightport_bryma17</a></li>
+</ul>
+<p><span id="d-brightport_bryma28"></span><strong><code>brightport_bryma28</code></strong> Bryma: “But if you think I'm a blind supporter of its use, you're mistaken. In the first place, don't you think there's something off about it? It's easy to make and immensely effective.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma29">brightport_bryma29</a></li>
+</ul>
+<p><span id="d-brightport_bryma35"></span><strong><code>brightport_bryma35</code></strong> Bryma: “This essence exists within every part of Dhayavar. The soil, the mountains, the creatures, and the people all hold it. The proof lies in the crystals that form inside monsters. These crystals are concentrated forms of essence. Bones are…” — <strong>effects:</strong> sets stage 111 of <a href="../../quests/brightport_nondisplay/#stage-111">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma36">brightport_bryma36</a></li>
+</ul>
+<p><span id="d-brightport_bryma19"></span><strong><code>brightport_bryma19</code></strong> Bryma: “To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It was very well received, and I was rewarded with a specially made bonemeal potion from his collection.” — <strong>effects:</strong> sets stage 257 of <a href="../../quests/brightport_nondisplay/#stage-257">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma20">brightport_bryma20</a></li>
+</ul>
+<p><span id="d-brightport_bryma29"></span><strong><code>brightport_bryma29</code></strong> Bryma: “Not to mention that the origin of those bones could have very well have been human. There have been stories of such things having been done, especially during plagues...”</p>
+<ul>
+<li>“I thought we would be talking about your research?” → <a href="#d-brightport_bryma30">brightport_bryma30</a></li>
+</ul>
+<p><span id="d-brightport_bryma36"></span><strong><code>brightport_bryma36</code></strong> Bryma: “Not to say it's all the same. Some things, despite containing a high concentration of essence, can be harmful. Such as poisons or diseases that drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma51">brightport_bryma51</a></li>
+</ul>
+<p><span id="d-brightport_bryma20"></span><strong><code>brightport_bryma20</code></strong> Bryma: “But the bread baked using that potion started mutating, much like what you can see in my kitchen. Soon afterward, my research was banned, and I had no choice but to leave if I wanted to continue my studies.” — <strong>effects:</strong> sets stage 107 of <a href="../../quests/brightport_nondisplay/#stage-107">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Can I ask you something else?” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+<li>“Thanks for telling me this story. I will be on my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_bryma30"></span><strong><code>brightport_bryma30</code></strong> Bryma: “Oh right, my apologies. I got a bit sidetracked. Yes, where do I begin.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_bryma31">brightport_bryma31</a></li>
+</ul>
+<p><span id="d-brightport_bryma51"></span><strong><code>brightport_bryma51</code></strong> Bryma: “That is the gist of my research, which is mostly a theory. I was preparing to publish and discuss it among the scholars of Feygard before I fled.”</p>
+<ul>
+<li>“Can we talk about something else?” → <a href="#d-brightport_bryma14">brightport_bryma14</a></li>
+<li>“That's a lot to digest, I think I'll leave now.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc7.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc7.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc7.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportnpc7.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportnpc7</code> · Data from v0.8.18</small></p>
 
 

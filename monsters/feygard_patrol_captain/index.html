@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,238 @@
 <ul>
 <li><a href="../../maps/foaming_flask/">foaming_flask</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/beer_bootlegging/">Beer Bootlegging</a>: stages 10, 90, 100, 110, 120</li>
+<li><a href="../../quests/feygard_shipment/">Feygard errands</a>: stages 50, 60</li>
+<li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 15</li>
+<li><a href="../../quests/wrye/">Uncertain cause</a>: stages 42</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (49 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ff_captain_1"></span><strong><code>ff_captain_1</code></strong> <a href="./">Feygard patrol captain</a>: “Are you lost, son? This is no place for a kid like you.”</p>
+<ul>
+<li>“I have a shipment of iron swords from Gandoren for you.” <em>(if reached stage 56 of <a href="../../quests/feygard_shipment/#stage-56">Feygard errands</a>; hand over 10× <a href="../../items/fg_ironsword_d/">Degraded Feygard iron sword</a>)</em> → <a href="#d-ff_captain_vg_items_1">ff_captain_vg_items_1</a></li>
+<li>“I have a shipment of iron swords from Gandoren for you.” <em>(if reached stage 25 of <a href="../../quests/feygard_shipment/#stage-25">Feygard errands</a>; hand over 10× <a href="../../items/fg_ironsword/">Feygard iron sword</a>)</em> → <a href="#d-ff_captain_fg_items_1">ff_captain_fg_items_1</a></li>
+<li>“Who are you?” → <a href="#d-ff_captain_2">ff_captain_2</a></li>
+<li>“Have you seen a boy called Rincel around here recently?” <em>(if reached stage 41 of <a href="../../quests/wrye/#stage-41">Uncertain cause</a>)</em> → <a href="#d-ff_captain_rincel_1">ff_captain_rincel_1</a></li>
+<li>“Hi! I have been sent by Herg ... Hertzsen Laumwill, patriarch of the Laumwill family, to bring back his daughter!” <em>(if reached stage 10 of <a href="../../quests/Thieves02/#stage-10">Immaculate kidnapping</a>; NOT reached stage 15 of <a href="../../quests/Thieves02/#stage-15">Immaculate kidnapping</a>)</em> → <a href="#d-ff_captain_guild02_1">ff_captain_guild02_1</a></li>
+<li>“Let's talk about the beer investigation.” <em>(if reached stage 10 of <a href="../../quests/beer_bootlegging/#stage-10">Beer Bootlegging</a>; NOT reached stage 90 of <a href="../../quests/beer_bootlegging/#stage-90">Beer Bootlegging</a>; NOT reached stage 100 of <a href="../../quests/beer_bootlegging/#stage-100">Beer Bootlegging</a>; NOT reached stage 110 of <a href="../../quests/beer_bootlegging/#stage-110">Beer Bootlegging</a>; NOT reached stage 120 of <a href="../../quests/beer_bootlegging/#stage-120">Beer Bootlegging</a>)</em> → <a href="#d-ff_captain_selector">ff_captain_selector</a></li>
+</ul>
+<p><span id="d-ff_captain_vg_items_1"></span><strong><code>ff_captain_vg_items_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 60 of <a href="../../quests/feygard_shipment/#stage-60">Feygard errands</a></p>
+<ul>
+<li>branch 1 → <a href="#d-ff_captain_items_1">ff_captain_items_1</a></li>
+</ul>
+<p><span id="d-ff_captain_fg_items_1"></span><strong><code>ff_captain_fg_items_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 50 of <a href="../../quests/feygard_shipment/#stage-50">Feygard errands</a></p>
+<ul>
+<li>branch 1 → <a href="#d-ff_captain_items_1">ff_captain_items_1</a></li>
+</ul>
+<p><span id="d-ff_captain_2"></span><strong><code>ff_captain_2</code></strong> Feygard patrol captain: “I am the guard captain of this patrol. We hail from the great city of Feygard.”</p>
+<ul>
+<li>“Feygard, where is that?” → <a href="#d-ff_captain_4">ff_captain_4</a></li>
+<li>“What do you do around here?” → <a href="#d-ff_captain_3">ff_captain_3</a></li>
+</ul>
+<p><span id="d-ff_captain_rincel_1"></span><strong><code>ff_captain_rincel_1</code></strong> Feygard patrol captain: “There was a kid running around in here a while ago.”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_rincel_2">ff_captain_rincel_2</a></li>
+</ul>
+<p><span id="d-ff_captain_guild02_1"></span><strong><code>ff_captain_guild02_1</code></strong> Feygard patrol captain: “What? I haven't been informed of that. Since you seem like an inexperienced kid, I don't believe you.”</p>
+<ul>
+<li>“Ergh ... Mr Laumwill is grateful for your protection. However ... Ah! He has given this reward of 1,000 gold for your…” <em>(if pay 1,000 gold)</em> → <a href="#d-ff_captain_guild02_2a">ff_captain_guild02_2a</a></li>
+<li>“Trust me, I'm the one that delivered those swords from Gandoren to you!” <em>(if reached stage 80 of <a href="../../quests/feygard_shipment/#stage-80">Feygard errands</a>)</em> → <a href="#d-ff_captain_guild02_2b">ff_captain_guild02_2b</a></li>
+<li>“(I would like to bribe the captain, but I need at least 1,000 Gold) I will come back later.” <em>(if NOT have 1,000 gold)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_selector"></span><strong><code>ff_captain_selector</code></strong> Feygard patrol captain: “Have you learned anything about the beer?”</p>
+<ul>
+<li>“Not yet.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-10">Beer Bootlegging</a> is 10)</em> → <a href="#d-ff_captain_hurry_up">ff_captain_hurry_up</a></li>
+<li>“A little bit, but I need to go find out more.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-20">Beer Bootlegging</a> is 20)</em> → <a href="#d-ff_captain_hurry_up">ff_captain_hurry_up</a></li>
+<li>“I've talked to a couple of tavern owners, learned a few things, but I need to talk to some more people” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-30">Beer Bootlegging</a> is 30)</em> → <a href="#d-ff_captain_hurry_up">ff_captain_hurry_up</a></li>
+<li>“I've learned a lot, but I am still not ready to give you my report.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-40">Beer Bootlegging</a> is 40)</em> → <a href="#d-ff_captain_hurry_up">ff_captain_hurry_up</a></li>
+<li>“All the information I have obtained points me to Sullengard.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-50">Beer Bootlegging</a> is 50)</em> → <a href="#d-ff_captain_beer_120">ff_captain_beer_120</a></li>
+<li>“I still have some investigation to conduct in Sullengard. I will return to you afterwards.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-60">Beer Bootlegging</a> is 60)</em> → <em>conversation ends</em></li>
+<li>“I still have some investigation to conduct in Sullengard. I will return to you afterwards.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-70">Beer Bootlegging</a> is 70)</em> → <em>conversation ends</em></li>
+<li>“I've learned everything that you will care to know about the beer bootlegging operation.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a> is 80)</em> → <a href="#d-ff_captain_beer_tell_everything_10">ff_captain_beer_tell_everything_10</a></li>
+<li>“I know who is distributing the beer, but not the source of the beer.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a> is 80)</em> → <a href="#d-ff_captain_beer_tell_sull">ff_captain_beer_tell_sull</a></li>
+<li>“I know where the beer is coming from, but I do not know who is distributing it.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a> is 80)</em> → <a href="#d-ff_captain_beer_tell_thieves">ff_captain_beer_tell_thieves</a></li>
+<li>“I am sorry, but I have learned nothing that I am willing to share or feel confident in sharing with you.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a> is 80)</em> → <a href="#d-ff_captain_beer_tell">ff_captain_beer_tell</a></li>
+</ul>
+<p><span id="d-ff_captain_items_1"></span><strong><code>ff_captain_items_1</code></strong> Feygard patrol captain: “Excellent, I have been waiting for these. Thank you for bringing them to me.”</p>
+<p><span id="d-ff_captain_4"></span><strong><code>ff_captain_4</code></strong> Feygard patrol captain: “The great city of Feygard is the greatest sight you will ever see. Follow the road northwest.”</p>
+<ul>
+<li>“Thank you. Shadow be with you.” → <a href="#d-ff_captain_shadow_1">ff_captain_shadow_1</a></li>
+<li>“Thank you, Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_3"></span><strong><code>ff_captain_3</code></strong> Feygard patrol captain: “We are travelling the main road to make sure the merchants and travelers are safe. We keep the peace around here.”</p>
+<ul>
+<li>“You mentioned Feygard. Where is that?” → <a href="#d-ff_captain_4">ff_captain_4</a></li>
+<li>“So when you say "peace", you really mean "law enforcement"?” <em>(if NOT reached stage 10 of <a href="../../quests/beer_bootlegging/#stage-10">Beer Bootlegging</a>)</em> → <a href="#d-ff_captain_beer_10">ff_captain_beer_10</a></li>
+</ul>
+<p><span id="d-ff_captain_rincel_2"></span><strong><code>ff_captain_rincel_2</code></strong> Feygard patrol captain: “I never talked to him though, so I don't know if he is the one you are looking for.”</p>
+<ul>
+<li>“OK, that might be something worth checking anyway.” → <a href="#d-ff_captain_rincel_3">ff_captain_rincel_3</a></li>
+</ul>
+<p><span id="d-ff_captain_guild02_2a"></span><strong><code>ff_captain_guild02_2a</code></strong> Feygard patrol captain: “Oh! What a considerable reward! OK, OK. Only Feygard people are so generous!”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_guild02_3">ff_captain_guild02_3</a></li>
+</ul>
+<p><span id="d-ff_captain_guild02_2b"></span><strong><code>ff_captain_guild02_2b</code></strong> Feygard patrol captain: “Oh, I see. Maybe you're right.”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_guild02_3">ff_captain_guild02_3</a></li>
+</ul>
+<p><span id="d-ff_captain_hurry_up"></span><strong><code>ff_captain_hurry_up</code></strong> Feygard patrol captain: “Then why are you wasting your and my time by coming back here? Get going.”</p>
+<ul>
+<li>“Yes, sir! I'm on it.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_120"></span><strong><code>ff_captain_beer_120</code></strong> Feygard patrol captain: “Sullengard? Of course! Get down there now kid and get me more information.”</p>
+<ul>
+<li>“Yes, sir. Anything for the glorious Feygard.” → <em>conversation ends</em></li>
+<li>“I'll go to Sullengard when I feel like it. You don't own me.” → <em>conversation ends</em></li>
+<li>“Watch it captain! I am not one of your soldiers.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_10"></span><strong><code>ff_captain_beer_tell_everything_10</code></strong> Feygard patrol captain: “I knew that I could count on you kid. Please enlighten me and I will reward you handsomely.”</p>
+<ul>
+<li>“What would you like to know first?” → <a href="#d-ff_captain_beer_tell_everything_20">ff_captain_beer_tell_everything_20</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_sull"></span><strong><code>ff_captain_beer_tell_sull</code></strong> Feygard patrol captain: “That is disappointing, but at least you know something. Tell me.”</p>
+<ul>
+<li>“It is the Theives guild.” → <a href="#d-ff_captain_beer_tell_sull_10">ff_captain_beer_tell_sull_10</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_thieves"></span><strong><code>ff_captain_beer_tell_thieves</code></strong> Feygard patrol captain: “That is disappointing, but at least you know something. Please tell me.”</p>
+<ul>
+<li>“The brewers are the families of Sullengard.” → <a href="#d-ff_captain_beer_tell_thieves_10">ff_captain_beer_tell_thieves_10</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell"></span><strong><code>ff_captain_beer_tell</code></strong> Feygard patrol captain: “WHAT?! Tell me what you know, now!”</p>
+<ul>
+<li>“That's the thing, I don't 'know' anything that I could prove.” → <a href="#d-ff_captain_beer_tell_10">ff_captain_beer_tell_10</a></li>
+</ul>
+<p><span id="d-ff_captain_shadow_1"></span><strong><code>ff_captain_shadow_1</code></strong> Feygard patrol captain: “The Shadow? Don't tell me you believe in that stuff. In my experience, only troublemakers talk of the Shadow.”</p>
+<p><span id="d-ff_captain_beer_10"></span><strong><code>ff_captain_beer_10</code></strong> Feygard patrol captain: “You got it, kid, we watch out for lawbreakers!”</p>
+<ul>
+<li>“I knew it! Do you have your eye on anyone right now?” → <a href="#d-ff_captain_beer_20">ff_captain_beer_20</a></li>
+<li>“There's nothing to look at here. [You slowly back up and end the conversation.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_rincel_3"></span><strong><code>ff_captain_rincel_3</code></strong> Feygard patrol captain: “I noticed he left to the west heading out of the Foaming Flask tavern.” — <strong>effects:</strong> sets stage 42 of <a href="../../quests/wrye/#stage-42">Uncertain cause</a></p>
+<ul>
+<li>“West. Got it. Thanks for the information.” → <a href="#d-ff_captain_rincel_4">ff_captain_rincel_4</a></li>
+</ul>
+<p><span id="d-ff_captain_guild02_3"></span><strong><code>ff_captain_guild02_3</code></strong> Feygard patrol captain: “I have to stay here to supervise my guards. They sometimes need educating about what to do. I assume you're able to escort her without problems?” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/Thieves02/#stage-15">Immaculate kidnapping</a></p>
+<ul>
+<li>“[Lie]For the glory of Feygard, I will!” → <em>conversation ends</em></li>
+<li>“[Lie]Don't worry, she's safe with me.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_20"></span><strong><code>ff_captain_beer_tell_everything_20</code></strong> Feygard patrol captain: “Where is it coming from?”</p>
+<ul>
+<li>“It is coming from a town south of here called Sullengard.” → <a href="#d-ff_captain_beer_tell_everything_30">ff_captain_beer_tell_everything_30</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_sull_10"></span><strong><code>ff_captain_beer_tell_sull_10</code></strong> Feygard patrol captain: “The Thieves' Guild? Are you sure?”</p>
+<ul>
+<li>“Oh yeah. I heard it directly from them.” → <a href="#d-ff_captain_beer_tell_sull_20">ff_captain_beer_tell_sull_20</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_thieves_10"></span><strong><code>ff_captain_beer_tell_thieves_10</code></strong> Feygard patrol captain: “Sullengard?! Of course it would be coming from Sullengard. I should have known it is coming from them.”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_beer_tell_thieves_11">ff_captain_beer_tell_thieves_11</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_10"></span><strong><code>ff_captain_beer_tell_10</code></strong> Feygard patrol captain: “I knew that you would be a waste of my time. I'll reward you with nothing.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/beer_bootlegging/#stage-120">Beer Bootlegging</a>, faction “factionCountShadow” set to 4, faction “factionCountThieves” set to 4, faction “factionCountFeygard” set to -4</p>
+<ul>
+<li>“I should get going. Sorry that I could not be more helpful.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_20"></span><strong><code>ff_captain_beer_20</code></strong> Feygard patrol captain: “You bet I have. I suspect we are witnessing one right now.”</p>
+<ul>
+<li>“Really?! Who is it? Can I help?” → <a href="#d-ff_captain_beer_30">ff_captain_beer_30</a></li>
+</ul>
+<p><span id="d-ff_captain_rincel_4"></span><strong><code>ff_captain_rincel_4</code></strong> Feygard patrol captain: “Always happy to help. Anything for the glory of Feygard.”</p>
+<ul>
+<li>“Shadow be with you.” → <a href="#d-ff_captain_shadow_1">ff_captain_shadow_1</a></li>
+<li>“Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_30"></span><strong><code>ff_captain_beer_tell_everything_30</code></strong> Feygard patrol captain: “Sullengard?! Of course it would be coming from Sullengard.”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_beer_tell_everything_32">ff_captain_beer_tell_everything_32</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_sull_20"></span><strong><code>ff_captain_beer_tell_sull_20</code></strong> Feygard patrol captain: “Well done kid. Here, take some gold.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, faction “factionCountThieves” set to -4, faction “factionCountFeygard” set to 4</p>
+<ul>
+<li>“Thanks and Shadow be with you.” → <a href="#d-ff_captain_beer_tell_sull_30">ff_captain_beer_tell_sull_30</a></li>
+<li>“Thanks and glory to Feygard.” → <a href="#d-ff_captain_beer_tell_sull_30">ff_captain_beer_tell_sull_30</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_thieves_11"></span><strong><code>ff_captain_beer_tell_thieves_11</code></strong> Feygard patrol captain: “Well done kid. Here, take some gold.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, faction “factionCountShadow” set to -4, faction “factionCountFeygard” set to 4</p>
+<ul>
+<li>“Thanks!” → <a href="#d-ff_captain_beer_tell_thieves_20">ff_captain_beer_tell_thieves_20</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_30"></span><strong><code>ff_captain_beer_30</code></strong> Feygard patrol captain: “Hey, kid, not so loud!”</p>
+<ul>
+<li>“Oh, sorry, but this sounds exciting.” → <a href="#d-ff_captain_beer_40">ff_captain_beer_40</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_32"></span><strong><code>ff_captain_beer_tell_everything_32</code></strong> Feygard patrol captain: “What else can you tell me?”</p>
+<ul>
+<li>“I know that the Thieves' Guild are the ones helping the people of Sullengard distribute their beer.” → <a href="#d-ff_captain_beer_tell_everything_33">ff_captain_beer_tell_everything_33</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_sull_30"></span><strong><code>ff_captain_beer_tell_sull_30</code></strong> Feygard patrol captain: “I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/beer_bootlegging/#stage-100">Beer Bootlegging</a></p>
+<p><span id="d-ff_captain_beer_tell_thieves_20"></span><strong><code>ff_captain_beer_tell_thieves_20</code></strong> Feygard patrol captain: “I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/beer_bootlegging/#stage-110">Beer Bootlegging</a></p>
+<ul>
+<li>“Glory to Feygard.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_40"></span><strong><code>ff_captain_beer_40</code></strong> Feygard patrol captain: “Well, if you look around this tavern, both inside and outside, do you notice anything?”</p>
+<ul>
+<li>“Um...no. Should I?” → <a href="#d-ff_captain_beer_50">ff_captain_beer_50</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_33"></span><strong><code>ff_captain_beer_tell_everything_33</code></strong> Feygard patrol captain: “The Thieves' Guild? Are you sure?”</p>
+<ul>
+<li>“Oh yeah. I heard it directly from them.” → <a href="#d-ff_captain_beer_tell_everything_40">ff_captain_beer_tell_everything_40</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_50"></span><strong><code>ff_captain_beer_50</code></strong> Feygard patrol captain: “YES!”</p>
+<ul>
+<li>“Please enlighten me.” → <a href="#d-ff_captain_beer_60">ff_captain_beer_60</a></li>
+<li>“Now you are the one that needs to lower his voice.” → <a href="#d-ff_captain_beer_60">ff_captain_beer_60</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_40"></span><strong><code>ff_captain_beer_tell_everything_40</code></strong> Feygard patrol captain: “Well done kid. Here, take some gold.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, faction “factionCountShadow” set to -4, faction “factionCountThieves” set to -4, faction “factionCountFeygard” set to 4</p>
+<ul>
+<li>“All that work, and the reward is just gold?” → <a href="#d-ff_captain_beer_tell_everything_50">ff_captain_beer_tell_everything_50</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_60"></span><strong><code>ff_captain_beer_60</code></strong> Feygard patrol captain: “There is a large amount of beer here. There are a number of beer barrels outside. Both full and empty ones. There is a lot inside as well. Too much in fact!”</p>
+<ul>
+<li>“OK...Why does this equal a law being broken?” → <a href="#d-ff_captain_beer_70">ff_captain_beer_70</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_50"></span><strong><code>ff_captain_beer_tell_everything_50</code></strong> Feygard patrol captain: “Hey, what do you want from me? I'm stuck here babysitting a bunch of drunk guards.”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_beer_tell_everything_60">ff_captain_beer_tell_everything_60</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_70"></span><strong><code>ff_captain_beer_70</code></strong> Feygard patrol captain: “Well, for starters, Feygard taxes all beer sales. It is one of the best sources of gold used by Feygard to provide protection for the cities and towns.”</p>
+<ul>
+<li>“Understood, but I am still not seeing how this means that a law has been broken.” → <a href="#d-ff_captain_beer_80">ff_captain_beer_80</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_tell_everything_60"></span><strong><code>ff_captain_beer_tell_everything_60</code></strong> Feygard patrol captain: “Anyways, I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/beer_bootlegging/#stage-90">Beer Bootlegging</a></p>
+<ul>
+<li>“Glory to Feygard.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_80"></span><strong><code>ff_captain_beer_80</code></strong> Feygard patrol captain: “Well, you see kid, I used to work in the 'tax collection' division of the Feygard patrol and I don't ever remember seeing the kind of collected taxes that would reflect this kind of volume of beer.”</p>
+<ul>
+<li>“Um...I think I might be catching up to what you are thinking. Please, continue” → <a href="#d-ff_captain_beer_90">ff_captain_beer_90</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_90"></span><strong><code>ff_captain_beer_90</code></strong> Feygard patrol captain: “That's pretty much it kid, but I need your help.”</p>
+<ul>
+<li>“Anything for the glorious Feygard.” → <a href="#d-ff_captain_beer_100">ff_captain_beer_100</a></li>
+<li>“OK, but only if there is something in it for me.” → <a href="#d-ff_captain_beer_100">ff_captain_beer_100</a></li>
+<li>“No, thanks. I'm out of here.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ff_captain_beer_100"></span><strong><code>ff_captain_beer_100</code></strong> Feygard patrol captain: “Great to hear. I need you to talk with the tavern owner and find out anything you can about the beer.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/beer_bootlegging/#stage-10">Beer Bootlegging</a></p>
+<ul>
+<li>“Why me?” → <a href="#d-ff_captain_beer_110">ff_captain_beer_110</a></li>
+<li>“Sounds easy. I'll do it.” → <a href="#d-ff_captain_beer_111">ff_captain_beer_111</a></li>
+</ul>
+<p><span id="d-ff_captain_beer_110"></span><strong><code>ff_captain_beer_110</code></strong> Feygard patrol captain: “Well, because I am a Feygard captain and as such, the tavern keep will never give me information.”</p>
+<p><span id="d-ff_captain_beer_111"></span><strong><code>ff_captain_beer_111</code></strong> Feygard patrol captain: “Great. Report back to me when you have learnt something useful.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=feygard_patrol_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>feygard_patrol_captain</code> · Data from v0.8.18</small></p>
 
 

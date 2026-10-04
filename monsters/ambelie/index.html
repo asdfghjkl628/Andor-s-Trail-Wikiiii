@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,164 @@
 <ul>
 <li><a href="../../maps/foaming_flask/">foaming_flask</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 10, 20, 21, 24, 65</li>
+<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stages 20</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (31 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ambelie_selector"></span><strong><code>ambelie_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_20">ambelie_guild02_20</a></li>
+<li>Next <em>(if reached stage 60 of <a href="../../quests/Thieves02/#stage-60">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_10">ambelie_guild02_10</a></li>
+<li>Next <em>(if reached stage 21 of <a href="../../quests/Thieves02/#stage-21">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_16b">ambelie_guild02_16b</a></li>
+<li>Next <em>(if reached stage 15 of <a href="../../quests/Thieves02/#stage-15">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_3">ambelie_guild02_3</a></li>
+<li>Next → <a href="#d-ambelie_1">ambelie_1</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_20"></span><strong><code>ambelie_guild02_20</code></strong> Ambelie: “You already took my necklace. Leave me alone.”</p>
+<p><span id="d-ambelie_guild02_10"></span><strong><code>ambelie_guild02_10</code></strong> Ambelie: “Bread? That's not a worthy food for a noblewoman like me! Oh my, where am I?”</p>
+<ul>
+<li>“If you prefer going without food in this ugly cell for a long while then I don't care.” → <a href="#d-ambelie_guild02_11">ambelie_guild02_11</a></li>
+<li>“Do you prefer to eat the floor, bad mannered woman?” → <a href="#d-ambelie_guild02_11">ambelie_guild02_11</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_16b"></span><strong><code>ambelie_guild02_16b</code></strong> Ambelie: “You! Don't go any further. Leave me!”</p>
+<ul>
+<li>“I'm not going to hurt you.” → <a href="#d-ambelie_guild02_16a">ambelie_guild02_16a</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_3"></span><strong><code>ambelie_guild02_3</code></strong> <a href="./">Ambelie</a>: “You again?!”</p>
+<ul>
+<li>“[Lie] Sorry, but I have to take you back home!” → <a href="#d-ambelie_guild02_4a">ambelie_guild02_4a</a></li>
+<li>“(Knock her out) Time to sleep!” → <a href="#d-ambelie_guild02_4b">ambelie_guild02_4b</a></li>
+</ul>
+<p><span id="d-ambelie_1"></span><strong><code>ambelie_1</code></strong> Ambelie: “Oh my, a commoner. Get away from me. I might catch something.”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-ambelie_2">ambelie_2</a></li>
+<li>“What is a noble woman such as yourself doing in a place like this?” → <a href="#d-ambelie_5">ambelie_5</a></li>
+<li>“I would be glad to get away from a snob like you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ambelie_guild02_11"></span><strong><code>ambelie_guild02_11</code></strong> Ambelie: “S..sorry, please ... Yes I'm hungry ... Will you give me that? <em>sniffs</em>”</p>
+<ul>
+<li>“[Give the Bread]” <em>(if hand over 5× <a href="../../items/bread/">Bread</a>)</em> → <a href="#d-ambelie_guild02_12">ambelie_guild02_12</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_16a"></span><strong><code>ambelie_guild02_16a</code></strong> Ambelie: “Then get out of my sight now!” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/Thieves02/#stage-21">Immaculate kidnapping</a></p>
+<ul>
+<li>“I can't.Things are not that easy! Other people will get you instead of me.” → <a href="#d-ambelie_guild02_17a">ambelie_guild02_17a</a></li>
+<li>“They will probably kill me if I go back without you.” → <a href="#d-ambelie_guild02_17b">ambelie_guild02_17b</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_4a"></span><strong><code>ambelie_guild02_4a</code></strong> Ambelie: “No! I won't go anywhere with you, commoner! Guards, guards!”</p>
+<ul>
+<li>Next → <a href="#d-ff_captain_guild02_4">ff_captain_guild02_4</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_4b"></span><strong><code>ambelie_guild02_4b</code></strong> Ambelie: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Thieves02/#stage-20">Immaculate kidnapping</a>, removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves Hidden (hidden flag)</a></p>
+<ul>
+<li>“Fine ...” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-ambelie_2"></span><strong><code>ambelie_2</code></strong> Ambelie: “I am Ambelie of the house of Laumwill in Feygard. I am sure you must have heard of me and my house.”</p>
+<ul>
+<li>“Oh yes ... um ... House of Laumwill in Feygard. Of course.” → <a href="#d-ambelie_3">ambelie_3</a></li>
+<li>“I have never heard of you or your house.” → <a href="#d-ambelie_4">ambelie_4</a></li>
+<li>“Where is Feygard?” → <a href="#d-ambelie_3">ambelie_3</a></li>
+</ul>
+<p><span id="d-ambelie_5"></span><strong><code>ambelie_5</code></strong> Ambelie: “I, Ambelie, of the house of Laumwill in Feygard, am on an excursion to the southern Nor City.”</p>
+<ul>
+<li>Next → <a href="#d-ambelie_6">ambelie_6</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_12"></span><strong><code>ambelie_guild02_12</code></strong> Ambelie: “Th..thanks. Now, please tell me, where am I?” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/Thieves02/#stage-65">Immaculate kidnapping</a></p>
+<ul>
+<li>“Sorry, but I cannot reveal that to you right now. Bye.” → <em>conversation ends</em></li>
+<li>“That doesn't matter! If you behave well maybe you will be out of here sooner rather than later.” → <a href="#d-ambelie_guild02_13">ambelie_guild02_13</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_17a"></span><strong><code>ambelie_guild02_17a</code></strong> Ambelie: “I am safe here!”</p>
+<ul>
+<li>“You aren't, and my presence here is the proof!” → <a href="#d-ambelie_guild02_18">ambelie_guild02_18</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_17b"></span><strong><code>ambelie_guild02_17b</code></strong> Ambelie: “I couldn't care less about you! Just ask the guards.”</p>
+<ul>
+<li>“Those untrained men aren't able to defend themselves. Don't make me laugh.” → <a href="#d-ambelie_guild02_18">ambelie_guild02_18</a></li>
+<li>“Other people will get you, and they won't be as kind as me.” → <a href="#d-ambelie_guild02_17a">ambelie_guild02_17a</a></li>
+</ul>
+<p><span id="d-ff_captain_guild02_4"></span><strong><code>ff_captain_guild02_4</code></strong> <a href="../feygard_patrol_captain/">Feygard patrol captain</a>: “Haha! Sorry lady, but your father wants you back home. I also believe this dirty tavern is no place for a woman like you, haha!”</p>
+<ul>
+<li>“Yes, you have to come with me.” → <a href="#d-ambelie_guild02_5">ambelie_guild02_5</a></li>
+</ul>
+<p><span id="d-ambelie_3"></span><strong><code>ambelie_3</code></strong> Ambelie: “Feygard, the great city of peace. Surely you must know of it. Northwest in our great land.”</p>
+<ul>
+<li>“What is a noble woman such as yourself doing in a place like this?” → <a href="#d-ambelie_5">ambelie_5</a></li>
+<li>“No, I have never heard of it.” → <a href="#d-ambelie_4">ambelie_4</a></li>
+</ul>
+<p><span id="d-ambelie_4"></span><strong><code>ambelie_4</code></strong> Ambelie: “Pfft. That just proves everything I have heard of you savages here in the southern land. So uneducated.”</p>
+<p><span id="d-ambelie_6"></span><strong><code>ambelie_6</code></strong> <a href="./">Ambelie</a>: “An excursion to see if Nor City really is all that I have heard about it. If it really can compare itself to the glamour of the great city of Feygard.”</p>
+<ul>
+<li>“Nor City, where is that?” → <a href="#d-ambelie_7">ambelie_7</a></li>
+<li>“If you like it so much in Feygard, why would you even leave?” → <a href="#d-ambelie_9">ambelie_9</a></li>
+<li>“Ehh ... I'm here to ... escort you safely to Nor City.” <em>(if reached stage 4 of <a href="../../quests/Thieves02/#stage-4">Immaculate kidnapping</a>; NOT reached stage 10 of <a href="../../quests/Thieves02/#stage-10">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_1">ambelie_guild02_1</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_13"></span><strong><code>ambelie_guild02_13</code></strong> Ambelie: “... Fine <em>sniffs</em>.”</p>
+<p><span id="d-ambelie_guild02_18"></span><strong><code>ambelie_guild02_18</code></strong> Ambelie: “Stop. Then tell me what I can do!”</p>
+<ul>
+<li>“Give me something of value, and you won't see me again.” → <a href="#d-ambelie_guild02_19">ambelie_guild02_19</a></li>
+<li>“[Lie]I have enough gold, so if you give me something valuable .... The ransom we were going to ask will be covered.” → <a href="#d-ambelie_guild02_19">ambelie_guild02_19</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_5"></span><strong><code>ambelie_guild02_5</code></strong> <a href="./">Ambelie</a>: “NO! I've said no! Don't bother me. Get away from me!”</p>
+<ul>
+<li>“Sorry about this (Knock her out).” → <a href="#d-ambelie_guild02_4b">ambelie_guild02_4b</a></li>
+<li>“[Whispering] You fool! Be quiet. Listen to me if you want to save your life.” → <a href="#d-ambelie_guild02_4c">ambelie_guild02_4c</a></li>
+</ul>
+<p><span id="d-ambelie_7"></span><strong><code>ambelie_7</code></strong> Ambelie: “Don't you know of Nor City? I will take note that the savages here haven't even heard of the city.”</p>
+<ul>
+<li>Next → <a href="#d-ambelie_8">ambelie_8</a></li>
+</ul>
+<p><span id="d-ambelie_9"></span><strong><code>ambelie_9</code></strong> Ambelie: “All the noblewomen in Feygard keep talking about the mysterious Shadow in Nor City. I just have to see it myself.”</p>
+<ul>
+<li>“Nor City, where is that?” → <a href="#d-ambelie_7">ambelie_7</a></li>
+<li>“Good luck on your excursion.” → <a href="#d-ambelie_10">ambelie_10</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_1"></span><strong><code>ambelie_guild02_1</code></strong> Ambelie: “Why? I don't know you, commoner. Why would I be willing to trust a savage looking kid?”</p>
+<ul>
+<li>“But I'm not a commoner! I'm a ... Feygard spy. These clothes are my disguise!” → <a href="#d-ambelie_guild02_2">ambelie_guild02_2</a></li>
+<li>“I'm stronger than those smug guards.” → <a href="#d-ambelie_guild02_2">ambelie_guild02_2</a></li>
+</ul>
+<p><span id="d-ambelie_guild02_19"></span><strong><code>ambelie_guild02_19</code></strong> Ambelie: “Take this and leave me, please.” — <strong>effects:</strong> gives 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a>, sets stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>, spawns monsters on road1, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves Hidden (hidden flag)</a></p>
+<ul>
+<li>“It has been a pleasure, my lady.” → <em>conversation ends</em></li>
+<li>“Sure, thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ambelie_guild02_4c"></span><strong><code>ambelie_guild02_4c</code></strong> Ambelie: “Wha... what are you referring to?”</p>
+<ul>
+<li>“Sorry. Time to sleep! (Knock her out)” → <a href="#d-ambelie_guild02_4b">ambelie_guild02_4b</a></li>
+<li>“I'm here to detain you, and then ask for a ransom.” → <a href="#d-ambelie_guild02_15">ambelie_guild02_15</a></li>
+</ul>
+<p><span id="d-ambelie_8"></span><strong><code>ambelie_8</code></strong> Ambelie: “I am beginning to be even more certain that Nor City will never, even in my wildest dreams, be comparable to the great city of Feygard.”</p>
+<ul>
+<li>“Good luck on your excursion.” → <a href="#d-ambelie_10">ambelie_10</a></li>
+</ul>
+<p><span id="d-ambelie_10"></span><strong><code>ambelie_10</code></strong> Ambelie: “Thank you. Now please leave before someone sees me talking to a commoner like you.”</p>
+<ul>
+<li>“Commoner? Are you trying to insult me? Goodbye.” → <em>conversation ends</em></li>
+<li>“Whatever, you probably wouldn't even survive a forest wasp.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ambelie_guild02_2"></span><strong><code>ambelie_guild02_2</code></strong> Ambelie: “Anyway, I prefer to stay in this place for now. Get away from me!” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/Thieves02/#stage-10">Immaculate kidnapping</a></p>
+<ul>
+<li>“Hmpf .... Goodbye” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ambelie_guild02_15"></span><strong><code>ambelie_guild02_15</code></strong> Ambelie: “No way! Guards!”</p>
+<ul>
+<li>“... Yes, no way. (Knock her out)” → <a href="#d-ambelie_guild02_4b">ambelie_guild02_4b</a></li>
+<li>“I'm not going to hurt you, I don't want to do this.” → <a href="#d-ambelie_guild02_16a">ambelie_guild02_16a</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ambelie.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ambelie.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ambelie.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ambelie.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ambelie</code> · Data from v0.8.18</small></p>
 
 

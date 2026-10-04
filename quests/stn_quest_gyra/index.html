@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,73 +967,364 @@
 
 
 <h1 id="lost-girl-looking-for-lost-things">Lost girl looking for lost things<a class="headerlink" href="#lost-girl-looking-for-lost-things" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>stn_quest_gyra</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>14 (completes at 170, 199)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/stn_gyra/">Gyra</a>, <a href="../../monsters/berbane/">Lord Berbane</a>, <a href="../../monsters/stoutford_armorer/">Odirath</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/stoutford_armorer/">stoutford_armorer</a>, <a href="../../maps/stoutford_castle1/">stoutford_castle1</a>, <a href="../../maps/stoutford_tavern/">stoutford_tavern</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>5,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The mechanism of the south gate seemed to be broken. Maybe someone in Stoutford could repair it?</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a> to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-13">stn_nondisplay (hidden flag)</a></td>
+<td>stage 13 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-17">stn_nondisplay (hidden flag)</a></td>
+<td>stage 17 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-19">stn_nondisplay (hidden flag)</a></td>
+<td>stage 19 reached, for stage 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-21">stn_nondisplay (hidden flag)</a></td>
+<td>stage 21 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-41">stn_nondisplay (hidden flag)</a></td>
+<td>stage 41 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-42">stn_nondisplay (hidden flag)</a></td>
+<td>stage 42 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-43">stn_nondisplay (hidden flag)</a></td>
+<td>stage 43 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a></td>
+<td>stage 44 reached, for stages 92, 99, 199 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td>stage 149 there needs stage 70 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../stn_nondisplay/#stage-9">stn_nondisplay (hidden flag)</a></td>
+<td>stage 9 there needs stage 5 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>The mechanism of the south gate seemed to be broken. Maybe someone in Stoutford could repair it?</td>
+<td>walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>The little daughter of Odirath the armorer has been missing for several days now. You offered to help search for her.</td>
+<td><a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave her hiding place. She was looking for Lord Berbane's helmet, which he had forgotten somewhere in the castle.</td>
+<td><a href="../../monsters/stn_gyra/">Gyra</a> (<a href="../../maps/stoutford_castle1/">stoutford_castle1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>You offered Gyra to lead her back home safely.</td>
+<td><a href="../../monsters/stn_gyra/">Gyra</a> (<a href="../../maps/stoutford_castle1/">stoutford_castle1</a>)</td>
+<td>–</td>
+<td>sets stage 11 of <a href="../stn_nondisplay/#stage-11">stn_nondisplay (hidden flag)</a><br>starts timer “stn_gyra_hint”<br>removes monsters from stoutford_castle1<br>spawns monsters on stoutford_castle1</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>Gyra has the feeling that the helmet is very close.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>You found the helmet.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/stoutford_castle_barrack1/">Stoutford castle barrack1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/stoutford_castle_tower1/">Stoutford castle tower1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/stoutford_castle2/">Stoutford castle2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/stoutford_castle2/">stoutford_castle2</a><br>stepping on a trigger on <a href="../../maps/stoutford_castle_barrack1/">stoutford_castle_barrack1</a><br>stepping on a trigger on <a href="../../maps/stoutford_castle_tower1/">stoutford_castle_tower1</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a></td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Once back in Stoutford Gyra knew the way and ran to her father Odirath.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/wild19/">Wild19</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/wild19/">wild19</a></td>
+<td>stage 50</td>
+<td>clears stage 19 of <a href="../stn_nondisplay/#stage-19">stn_nondisplay (hidden flag)</a><br>clears stage 29 of <a href="../stn_nondisplay/#stage-29">stn_nondisplay (hidden flag)</a><br>removes monsters from wild19<br>applies condition fatigue_minor</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>Odirath thanks you many thousand times.</td>
+<td><a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>)</td>
+<td>stage 60</td>
+<td>2,300 XP</td>
 </tr>
 <tr>
 <td><span id="stage-80"></span>80</td>
 <td>Odirath had repaired the mechanism of the southern castle gate.</td>
+<td>walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td>Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.</td>
+<td><a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>)</td>
+<td>carry 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>, hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>, stage 70</td>
+<td>sets stage 149 of <a href="../nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-92"></span>92</td>
 <td>Lord Berbane took his helmet. But somehow that does not really satisfy you.</td>
+<td><a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>)</td>
+<td>hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a></td>
+<td>sets stage 149 of <a href="../nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-99"></span>99</td>
 <td>Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster.</td>
+<td><a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>)</td>
+<td>hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-170"></span>170</td>
 <td>Odirath thanked you many thousands of times. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>)</td>
+<td>stage 60, stage 99</td>
+<td>2,500 XP</td>
 </tr>
 <tr>
 <td><span id="stage-199"></span>199</td>
 <td>Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>)</td>
+<td>hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>, stage 70</td>
+<td>200 XP</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>stn_quest_gyra</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 5: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a> → the conversation leads here automatically → <strong>stage 5</strong>. NPC: “The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>) → choose “I'm not afraid. I could have a look in the castle.” — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">Lost girl looking for lost things</a>; NOT reached stage 60 of <a href="./#stage-60">Lost girl looking for lost things</a> → <strong>stage 10</strong>. NPC: “You would do that for me? I can hardly accept your offer.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stn_gyra/">Gyra</a> (<a href="../../maps/stoutford_castle1/">stoutford_castle1</a>) → choose “What is your problem, my little one?” → <strong>stage 20</strong>. NPC: “I was looking for Lord Bourbon's helmet, when I was surprised by these monsters.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stn_gyra/">Gyra</a> (<a href="../../maps/stoutford_castle1/">stoutford_castle1</a>) → choose “Of course I will help you. Just follow me.” → <strong>stage 30</strong>; also sets stage 11 of <a href="../stn_nondisplay/#stage-11">stn_nondisplay (hidden flag)</a>, starts timer “stn_gyra_hint”, removes monsters from stoutford_castle1, spawns monsters on stoutford_castle1. NPC: “I started to look in the main house, but maybe we have to search the whole castle.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 3 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/stoutford_castle2/">stoutford_castle2</a> → choose “Yes, there it is!” — <strong>conditions:</strong> reached stage 13 of <a href="../stn_nondisplay/#stage-13">stn_nondisplay (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">Lost girl looking for lost things</a>; reached stage 41 of <a href="../stn_nondisplay/#stage-41">stn_nondisplay (hidden flag)</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>. NPC: “And now back home quickly!”</li>
+<li>stepping on a trigger on <a href="../../maps/stoutford_castle_barrack1/">stoutford_castle_barrack1</a> → choose “Yes, there it is!” — <strong>conditions:</strong> reached stage 21 of <a href="../stn_nondisplay/#stage-21">stn_nondisplay (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">Lost girl looking for lost things</a>; reached stage 42 of <a href="../stn_nondisplay/#stage-42">stn_nondisplay (hidden flag)</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>. NPC: “And now back home quickly!”</li>
+<li>stepping on a trigger on <a href="../../maps/stoutford_castle_tower1/">stoutford_castle_tower1</a> → choose “Yes, there it is!” — <strong>conditions:</strong> reached stage 17 of <a href="../stn_nondisplay/#stage-17">stn_nondisplay (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">Lost girl looking for lost things</a>; reached stage 43 of <a href="../stn_nondisplay/#stage-43">stn_nondisplay (hidden flag)</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>. NPC: “And now back home quickly!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/wild19/">wild19</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 19 of <a href="../stn_nondisplay/#stage-19">stn_nondisplay (hidden flag)</a>; reached stage 50 of <a href="./#stage-50">Lost girl looking for lost things</a> → <strong>stage 60</strong>; also clears stage 19 of <a href="../stn_nondisplay/#stage-19">stn_nondisplay (hidden flag)</a>, clears stage 29 of <a href="../stn_nondisplay/#stage-29">stn_nondisplay (hidden flag)</a>, removes monsters from wild19, applies condition fatigue_minor. NPC: “Now I know the way. I run to my dad and tell him the whole story.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>) → choose “You look happy again.” — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Lost girl looking for lost things</a> → <strong>stage 70</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 80: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/waytogalmore1/">waytogalmore1</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 80 of <a href="./#stage-80">Lost girl looking for lost things</a> → <strong>stage 80</strong>. NPC: “Oh, cool, Odirath seems to have repaired the mechanism already.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 90: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>) → choose “Will you make the songs a reality now?” — <strong>conditions:</strong> reached stage 70 of <a href="./#stage-70">Lost girl looking for lost things</a>; carry 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>; hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a> → <strong>stage 90</strong>; also sets stage 149 of <a href="../nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “He sighs and slowly takes the helmet.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 92: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>) → choose “No, I have...” — <strong>conditions:</strong> reached stage 44 of <a href="../stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a> → <strong>stage 92</strong>; also sets stage 149 of <a href="../nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 99: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>) → choose “I give up.” — <strong>conditions:</strong> reached stage 44 of <a href="../stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a> → <strong>stage 99</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 170: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/stoutford_armorer/">Odirath</a> (<a href="../../maps/stoutford_armorer/">stoutford_armorer</a>) → choose “You look happy again.” — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Lost girl looking for lost things</a>; reached stage 99 of <a href="./#stage-99">Lost girl looking for lost things</a> → <strong>stage 170</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 199: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>) → choose “I give up.” — <strong>conditions:</strong> reached stage 44 of <a href="../stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>; reached stage 70 of <a href="./#stage-70">Lost girl looking for lost things</a> → <strong>stage 199</strong></li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_quest_gyra.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_quest_gyra.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_quest_gyra.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_quest_gyra.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_quest_gyra.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>stn_quest_gyra</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 92, 99, 170, 199</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>5: <code>stn_southgate_10a</code>, 10: <code>odirath_2_3</code>, 20: <code>stn_gyra_init_12</code>, 30: <code>stn_gyra_init_52</code>, 50: <code>stn_gyra_hlm1b_found_10</code>, 60: <code>stn_gyra_110</code>, 70: <code>odirath_3_1</code>, 80: <code>stn_southgate_10b</code>, 90: <code>berbane_32</code>, 92: <code>berbane_132</code>, 99: <code>berbane_142</code>, 170: <code>odirath_3_2</code>, 199: <code>berbane_144</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

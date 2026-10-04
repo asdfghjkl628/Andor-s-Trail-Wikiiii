@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,121 @@
 <ul>
 <li><a href="../../maps/undertell_7_00/">undertell_7_00</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fifth_master/">The fifth master</a>: stages 10, 20, 78</li>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 5, 7, 89</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (23 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-vaelzahr_initial_selector"></span><strong><code>vaelzahr_initial_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-kazaul_masters_not_met_10">kazaul_masters_not_met_10</a></li>
+<li>branch 2 <em>(if reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>)</em> → <a href="#d-kazaul_masters_met_but_no_quest_started_10">kazaul_masters_met_but_no_quest_started_10</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>; NOT reached stage 20 of <a href="../../quests/fifth_master/#stage-20">The fifth master</a>)</em> → <a href="#d-the_fifth_master_10">the_fifth_master_10</a></li>
+<li>branch 4 <em>(if carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a>)</em> → <a href="#d-masters_send_to_thalen_10">masters_send_to_thalen_10</a></li>
+<li>branch 5 <em>(if reached stage 90 of <a href="../../quests/fifth_master/#stage-90">The fifth master</a>)</em> → <a href="#d-vaelzahr_after_fifth_master_narrator">vaelzahr_after_fifth_master_narrator</a></li>
+<li>branch 6 → <a href="#d-vaelzahr_intro_10_narrator">vaelzahr_intro_10_narrator</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_10"></span><strong><code>kazaul_masters_not_met_10</code></strong> Vaelzahr: “[While pointing its finger in your direction.] You! How did you get past our army?”</p>
+<ul>
+<li>“"Our"? There's more of you bosses?” → <a href="#d-kazaul_masters_not_met_20">kazaul_masters_not_met_20</a></li>
+</ul>
+<p><span id="d-kazaul_masters_met_but_no_quest_started_10"></span><strong><code>kazaul_masters_met_but_no_quest_started_10</code></strong> Vaelzahr: “If you ever leave while I am talking to you again, I will end your life. Understood?”</p>
+<ul>
+<li>“[Terrified] Yes.” → <a href="#d-kazaul_masters_not_met_30">kazaul_masters_not_met_30</a></li>
+</ul>
+<p><span id="d-the_fifth_master_10"></span><strong><code>the_fifth_master_10</code></strong> Vaelzahr: “[The air grows heavy as the master studies you.] You are bold to walk here. Perhaps bold enough to be of use. One of our own is missing. The fifth master, Anavrin, lies silent. The Ritual of Five Aspects was taken from us long ago.…” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a></p>
+<ul>
+<li>“You want me to find this ritual?” → <a href="#d-the_fifth_master_20">the_fifth_master_20</a></li>
+</ul>
+<p><span id="d-masters_send_to_thalen_10"></span><strong><code>masters_send_to_thalen_10</code></strong> Vaelzahr: “[The Master's hollow eyes flare briefly with dim blue fire.] You hold the Ritual of Five Aspects, mortal. But its meaning lies beyond your grasp. Only Thalen, our brother of Knowledge, can speak the words. Seek him where the thoughts of…”</p>
+<ul>
+<li>“Thalen? What will he do with it?” → <a href="#d-masters_send_to_thalen_20">masters_send_to_thalen_20</a></li>
+</ul>
+<p><span id="d-vaelzahr_after_fifth_master_narrator"></span><strong><code>vaelzahr_after_fifth_master_narrator</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelzahr's voice is a rasping whisper.”</p>
+<ul>
+<li>Next → <a href="#d-vaelzahr_after_fifth_master">vaelzahr_after_fifth_master</a></li>
+</ul>
+<p><span id="d-vaelzahr_intro_10_narrator"></span><strong><code>vaelzahr_intro_10_narrator</code></strong> <a href="../none/">Dummy NPC</a>: “The walls pulse faintly, as if the stone itself had veins. A deep, rasping voice speaks within your chest.”</p>
+<ul>
+<li>Next → <a href="#d-vaelzahr_oegyth_selector">vaelzahr_oegyth_selector</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_20"></span><strong><code>kazaul_masters_not_met_20</code></strong> Vaelzahr: “We are "masters", not "bosses". And yes, there are five of us.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-kazaul_masters_not_met_30">kazaul_masters_not_met_30</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_30"></span><strong><code>kazaul_masters_not_met_30</code></strong> Vaelzahr: “Well, currently there are only four of us masters. We are not complete.”</p>
+<ul>
+<li>“"Complete"? What is that supposed to mean?” → <a href="#d-the_fifth_master_10">the_fifth_master_10</a></li>
+</ul>
+<p><span id="d-the_fifth_master_20"></span><strong><code>the_fifth_master_20</code></strong> Vaelzahr: “Yes. The Ritual of Five Aspects lies lost among your kind. Long ago, a mortal scribe named Varnel served the Kazaul, writing our words into form. But when fear took him, he fled with the ritual and hid among your people. Bring it back to…” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/fifth_master/#stage-20">The fifth master</a></p>
+<ul>
+<li>“Then I will find it.” → <a href="#d-the_fifth_master_accept">the_fifth_master_accept</a></li>
+<li>“I do not trust you, but I will look.” → <a href="#d-the_fifth_master_accept">the_fifth_master_accept</a></li>
+</ul>
+<p><span id="d-masters_send_to_thalen_20"></span><strong><code>masters_send_to_thalen_20</code></strong> Vaelzahr: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only ink on lost parchment.” — <strong>effects:</strong> sets stage 78 of <a href="../../quests/fifth_master/#stage-78">The fifth master</a>, sets stage 7 of <a href="../../quests/undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“I will find him.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelzahr_after_fifth_master"></span><strong><code>vaelzahr_after_fifth_master</code></strong> <a href="./">Vaelzahr</a>: “I felt the pulse the moment it stirred. Death is restless again. I welcome the silence no more.”</p>
+<ul>
+<li>“[Leave.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelzahr_oegyth_selector"></span><strong><code>vaelzahr_oegyth_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../items/oegyth_crystal.md">oegyth_crystal</a>)</em> → <a href="#d-vaelzahr_oegyth_10">vaelzahr_oegyth_10</a></li>
+<li>branch 2 → <a href="#d-vaelzahr_intro_10">vaelzahr_intro_10</a></li>
+</ul>
+<p><span id="d-the_fifth_master_accept"></span><strong><code>the_fifth_master_accept</code></strong> Vaelzahr: “[The master's eyes flare with dim light.] Then go, mortal. Seek the lost ritual. In the ruins of your kind lies our key to completion. Return only when it is found.”</p>
+<ul>
+<li>“I understand.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelzahr_oegyth_10"></span><strong><code>vaelzahr_oegyth_10</code></strong> <a href="./">Vaelzahr</a>: “You arrive carrying an echo that is not yours.”</p>
+<ul>
+<li>“What are you talking about” → <a href="#d-vaelzahr_oegyth_20">vaelzahr_oegyth_20</a></li>
+</ul>
+<p><span id="d-vaelzahr_intro_10"></span><strong><code>vaelzahr_intro_10</code></strong> <a href="./">Vaelzahr</a>: “Mortality remembers pain. Even now, your blood knows me.”</p>
+<ul>
+<li>“You sound crazy.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelzahr_oegyth_20"></span><strong><code>vaelzahr_oegyth_20</code></strong> Vaelzahr: “Your kind drags history behind it, even when it thinks it walks alone.”</p>
+<ul>
+<li>“You are being vague on purpose” → <a href="#d-vaelzahr_oegyth_30">vaelzahr_oegyth_30</a></li>
+</ul>
+<p><span id="d-vaelzahr_oegyth_30"></span><strong><code>vaelzahr_oegyth_30</code></strong> Vaelzahr: “You carry what your kind calls an Oegyth crystal.”</p>
+<ul>
+<li>“So you know what it is?” → <a href="#d-master_oegyth_20">master_oegyth_20</a></li>
+</ul>
+<p><span id="d-master_oegyth_20"></span><strong><code>master_oegyth_20</code></strong> Vaelzahr: “Names are comforts. They make old things feel small.”</p>
+<ul>
+<li>“Where did it come from?” → <a href="#d-master_oegyth_30">master_oegyth_30</a></li>
+</ul>
+<p><span id="d-master_oegyth_30"></span><strong><code>master_oegyth_30</code></strong> Vaelzahr: “It was placed where power would grow teeth and learn to walk.”</p>
+<ul>
+<li>“Placed by who?” → <a href="#d-master_oegyth_40">master_oegyth_40</a></li>
+</ul>
+<p><span id="d-master_oegyth_40"></span><strong><code>master_oegyth_40</code></strong> Vaelzahr: “Some tools were made for rule. Others were made to be watched.”</p>
+<ul>
+<li>“So this crystal is a tool?” → <a href="#d-master_oegyth_50">master_oegyth_50</a></li>
+</ul>
+<p><span id="d-master_oegyth_50"></span><strong><code>master_oegyth_50</code></strong> Vaelzahr: “We no longer shape the world so openly. But what was shaped does not forget the hand that shaped it.” — <strong>effects:</strong> sets stage 89 of <a href="../../quests/undertell_hidden/#stage-89">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“Then what should I do with it?” → <a href="#d-master_oegyth_60">master_oegyth_60</a></li>
+</ul>
+<p><span id="d-master_oegyth_60"></span><strong><code>master_oegyth_60</code></strong> Vaelzahr: “Keep it close. Power that is not understood still teaches obedience.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelzahr.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelzahr.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelzahr.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelzahr.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>vaelzahr</code> · Data from v0.8.18</small></p>
 
 

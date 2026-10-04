@@ -823,13 +823,129 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#other-map-events" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Other map events
+        Overview
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -851,196 +967,728 @@
 
 
 <h1 id="roses">Roses<a class="headerlink" href="#roses" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>guynmart</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>41 (completes at 210, 211)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/guynmart_farmer/">Rhodita</a> (<a href="../../maps/guynmart_wood_1/">guynmart_wood_1</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/guynmart_reward3/">Armor</a>, <a href="../../monsters/guynmart_reward1/">Gold</a>, <a href="../../monsters/guynmart/">Guynmart</a>, <a href="../../monsters/guynmart_guard_guide/">Guynmart guard</a>, <a href="../../monsters/guynmart_gguard/">Guynmart guard</a>, <a href="../../monsters/guynmart_hannah/">Hannah</a> +16</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/guynmart/">guynmart</a>, <a href="../../maps/guynmart_main_0/">guynmart_main_0</a>, <a href="../../maps/guynmart_main_1/">guynmart_main_1</a>, <a href="../../maps/guynmart_main_2/">guynmart_main_2</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>10,027</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>On a farm I heard of Guynmart Castle nearby. The farmer Rhodita is worried about young Lady Hannah of Guynmart, who used to visit often but has not been seen for a week now. Rhodita asked me to check on her.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to <a href="../../monsters/guynmart_farmer/">Rhodita</a> (<a href="../../maps/guynmart_wood_1/">guynmart_wood_1</a>) to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 32 reached, for stages 210, 211 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../guynmart_nondisplay/#stage-2">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 2 must NOT be reached, for stage 164 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 32 must NOT be reached, for stages 201, 202, 203 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 33 must NOT be reached, for stages 210, 211 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_nondisplay/#stage-2">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 2 there needs stage 170 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 33 there needs stages 181, 190 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 36 there needs stages 181, 190 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_nondisplay/#stage-60">guynmart nondisplay (hidden flag)</a></td>
+<td>stage 60 there needs stages 161, 170 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a></td>
+<td>stage 1 there needs stages 40, 62 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_quest_gguard/#stage-1">gardenGuard blocks (hidden flag)</a></td>
+<td>stage 1 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_quest_gguard/#stage-82">gardenGuard blocks (hidden flag)</a></td>
+<td>stage 82 there needs stage 70 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_quest_olav/#stage-7">Guest tour (hidden flag)</a></td>
+<td>stage 7 there needs stage 80 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../guynmart_r_rope/#stage-11">guynmart rope (hidden flag)</a></td>
+<td>stage 11 there needs stage 80 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a></td>
+<td>reaching stage 64 here closes stage 1 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../guynmart_quest_gguard/#stage-82">gardenGuard blocks (hidden flag)</a></td>
+<td>reaching stages 100, 132 here closes stage 82 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../guynmart_quest_olav/#stage-7">Guest tour (hidden flag)</a></td>
+<td>reaching stage 81 here closes stage 7 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>On a farm I heard of Guynmart Castle nearby. The farmer Rhodita is worried about young Lady Hannah of Guynmart, who used to visit often but has not been seen for a week now. Rhodita asked me to check on her.</td>
+<td><a href="../../monsters/guynmart_farmer/">Rhodita</a> (<a href="../../maps/guynmart_wood_1/">guynmart_wood_1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-16"></span>16</td>
 <td>I got to the castle, but the main gate was shut.</td>
+<td><a href="../../monsters/guynmart_guard_guide/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>pay 12 gold</td>
+<td>12 XP<br>removes monsters from guynmart</td>
 </tr>
 <tr>
 <td><span id="stage-18"></span>18</td>
 <td>I got to the castle, but the main gate was shut.</td>
+<td><a href="../../monsters/guynmart_guard_guide/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>pay 15 gold</td>
+<td>15 XP<br>removes monsters from guynmart</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>I found the way into the castle garden.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>The guard at the back door is corrupt. He agreed to let me through for some gold.</td>
+<td><a href="../../monsters/guynmart_gguard/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>pay 100 gold</td>
+<td>sets stage 1 of <a href="../guynmart_quest_gguard/#stage-1">gardenGuard blocks (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>He told me who is living at the castle: Guynmart himself, and his children Hannah and Robalyrius.</td>
+<td><a href="../../monsters/guynmart_gguard/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>pay 100 gold, stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>In the main hall I met Unkorh the steward. He expected Guynmart to return the following morning. He says I should go to the kitchen for some bread and then leave.</td>
+<td><a href="../../monsters/guynmart_steward/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>I met Lady Hannah's little brother, Rob.</td>
+<td><a href="../../monsters/guynmart_rob/">Rob</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>)</td>
+<td>–</td>
+<td>sets stage 1 of <a href="../guynmart_qRpl_shutters/#stage-1">shutters open (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>The maid told me that Hannah is missing her betrothed. I should talk to Hannah; she is on the tower top. To get to her, I should offer the cook to take Hannah her lunch.</td>
+<td><a href="../../monsters/guynmart_maid/">Maid</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>I overheard Unkorh the steward talking to himself. He plans for Guynmart to die in the castle dungeon, and after ursuping the throne he would marry Lady Hannah.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_main_2/">Guynmart main 2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_main_2/">guynmart_main_2</a></td>
+<td>stage 50</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-62"></span>62</td>
 <td>I suggested to Hofala the cook that I could take some lunch to Lady Hannah. He had no more of his special herb selection for the lunch and asked me to get some fresh herbs from Nuik in the garden.</td>
+<td><a href="../../monsters/guynmart_cook/">Hofala</a> (<a href="../../maps/guynmart_main_2/">guynmart_main_2</a>)</td>
+<td>stage 50</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-63"></span>63</td>
 <td>Nuik gave some herbs to me.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-64"></span>64</td>
 <td>I should take lunch to Lady Hannah on the tower top.</td>
+<td><a href="../../monsters/guynmart_cook/">Hofala</a> (<a href="../../maps/guynmart_main_2/">guynmart_main_2</a>)</td>
+<td>hand over 1× <a href="../../items/guynmart_herbs/">Hannah's special herbs</a></td>
+<td>gives <a href="../../items/guynmart_lunch/">Hannah's lunch</a><br>sets stage 1 of <a href="../guynmart_quest_cook_lunch/#stage-1">guynmart_quest_cook_lunch (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>Hannah is filled with grief, she cannot think clearly without the smell of a rose. Before she can tell me her whole story, she needs a fresh, fragrant rose.</td>
+<td><a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>–</td>
+<td>spawns monsters on guynmart<br>clears stage 1 of <a href="../guynmart_quest_olav/#stage-1">Guest tour (hidden flag)</a><br>sets stage 7 of <a href="../guynmart_quest_olav/#stage-7">Guest tour (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-80"></span>80</td>
 <td>Unkorh saw me talking to Hannah. He was very jealous and asked guard Olav to show me the special guest exit.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart_wood_9/">Guynmart wood 9</a>.</span></td>
+<td><a href="../../monsters/guynmart_steward3/">Unkorh</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>–</td>
+<td>removes monsters from guynmart</td>
 </tr>
 <tr>
 <td><span id="stage-81"></span>81</td>
 <td>I met Norgothla, the chief of Guynmart's personal guard. He was troubled about my news from the castle, and asked me to get evidence for it.</td>
+<td><a href="../../monsters/guynmart_cguard/">Norgothla</a> (<a href="../../maps/guynmart_wood_4/">guynmart_wood_4</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-82"></span>82</td>
 <td>I got the rose from the guard at the garden door at last.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td>I gave the rose to Hannah. She told me that Lovis has vanished. In the deepenst depths of her darkest dreams she hears Lovis' voice calling out.</td>
+<td><a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>carry 1× <a href="../../items/guynmart_rose/">Rose</a>, hand over 1× <a href="../../items/guynmart_rose/">Rose</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>Hannah gave Lovis' flute to me, so that I might prove that I was sent by Hannah.</td>
+<td><a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>carry 1× <a href="../../items/guynmart_rose/">Rose</a>, hand over 1× <a href="../../items/guynmart_rose/">Rose</a></td>
+<td>gives 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a><br>sets stage 1 of <a href="../guynmart_qRpl_shutters/#stage-1">shutters open (hidden flag)</a><br>removes monsters from guynmart_main_3<br>spawns monsters on guynmart_tower_3</td>
 </tr>
 <tr>
 <td><span id="stage-110"></span>110</td>
 <td>I met Rob in a room above the watch chamber. Rob promised to distract the guards so that I could pass by.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_tower_2/">Guynmart tower 2</a>.</span></td>
+<td><a href="../../monsters/guynmart_rob3/">Rob</a> (<a href="../../maps/guynmart_tower_3/">guynmart_tower_3</a>)</td>
+<td>–</td>
+<td>spawns monsters on guynmart_tower_2<br>removes monsters from guynmart_tower_3</td>
 </tr>
 <tr>
 <td><span id="stage-120"></span>120</td>
 <td>120 obsolete - The guards were distracted and would not see anybody climbing downstairs.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-130"></span>130</td>
 <td>130 obsolete - I jumped into the dark dungeon below the tower.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-132"></span>132</td>
 <td>I jumped into the dark dungeon below the tower where I found Lovis. He was overjoyed to get back his flute.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart_tower_1/">Guynmart tower 1</a>.</span></td>
+<td><a href="../../monsters/guynmart_lovis/">Lovis</a> (<a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a>)</td>
+<td>hand over 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a></td>
+<td>sets stage 6 of <a href="../guynmart_nondisplay/#stage-6">guynmart nondisplay (hidden flag)</a><br>starts timer “guynmart_flute”</td>
 </tr>
 <tr>
 <td><span id="stage-134"></span>134</td>
 <td>The dungeon door flew open. The torturer entered and demanded that we stop the noise.</td>
+<td><a href="../../monsters/guynmart_lovis/">Lovis</a> (<a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a>)</td>
+<td>stage 132</td>
+<td>spawns monsters on guynmart_tower_0<br>removes monsters from guynmart_tower_0</td>
 </tr>
 <tr>
 <td><span id="stage-136"></span>136</td>
 <td>After the torturer's death the door was open.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_tower_0/">Guynmart tower 0</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-140"></span>140</td>
 <td>Lovis left and went into the woods to get Guynmart's personal guards.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-160"></span>160</td>
 <td>Guynmart was laying half dead in a cell. He asked me to open the castle gate so that his personal guard may come in. After that I should run and hide, because there would be a dangerous battle. I should not return before the following morning.</td>
+<td><a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)</td>
+<td>–</td>
+<td>spawns monsters on guynmart_main_0<br>removes monsters from guynmart_tower_2</td>
 </tr>
 <tr>
 <td><span id="stage-161"></span>161</td>
 <td>Unkorh appeared and explained many things. Then Unkorh saw that Guynmart tried to kill me from behind, but stumbled and fell onto his own knife. I should still open the gate, and then go to the farm in the south until the morning.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart_main_0/">Guynmart main 0</a>.</span></td>
+<td><a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)<br><a href="../../monsters/guynmart_steward4/">Unkorh</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)</td>
+<td>–</td>
+<td>removes monsters from guynmart_main_0</td>
 </tr>
 <tr>
 <td><span id="stage-162"></span>162</td>
 <td>Unkorh appeared and killed Guynmart. Then he fled like a coward.</td>
+<td><a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)<br><a href="../../monsters/guynmart_steward4/">Unkorh</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)</td>
+<td>–</td>
+<td>removes monsters from guynmart_main_0</td>
 </tr>
 <tr>
 <td><span id="stage-163"></span>163</td>
 <td>The guards let me through to the wall.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_tower_2/">Guynmart tower 2</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/guynmart_tower_2/">guynmart_tower_2</a></td>
+<td>stage 160</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-164"></span>164</td>
 <td>I got the main gate open.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_gate_2/">Guynmart gate 2</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_main_1/">Guynmart main 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_gate_2/">guynmart_gate_2</a></td>
+<td>–</td>
+<td>sets stage 2 of <a href="../guynmart_nondisplay/#stage-2">guynmart nondisplay (hidden flag)</a><br>removes monsters from guynmart<br>removes monsters from guynmart_main_2<br>removes monsters from guynmart_main_1<br>spawns monsters on guynmart<br>spawns monsters on guynmart_main_2<br>spawns monsters on guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-170"></span>170</td>
 <td>I went to Rhodita the farmer and stayed there for the night.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart_wood_8/">Guynmart wood 8</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_farmhouse/">Guynmart farmhouse</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_tower_1/">Guynmart tower 1</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_farmhouse/">guynmart_farmhouse</a></td>
+<td>stage 164</td>
+<td>removes monsters from guynmart<br>removes monsters from guynmart_main_0<br>removes monsters from guynmart_main_1<br>removes monsters from guynmart_main_2<br>removes monsters from guynmart_tower_2<br>removes monsters from guynmart_wood_4<br>spawns monsters on guynmart<br>spawns monsters on guynmart_main_1<br>clears stage 34 of <a href="../guynmart_nondisplay/#stage-34">guynmart nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-180"></span>180</td>
 <td>When I got to the castle on the next day, I saw Hannah and Lovis in the throne room. The castle was decorated for a wedding and there had been a merry feast.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_main_1/">Guynmart main 1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_wood_1/">Guynmart wood 1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_wood_8/">Guynmart wood 8</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_main_1/">guynmart_main_1</a><br>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a></td>
+<td>stage 170</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-181"></span>181</td>
 <td>When I got to the castle on the next day, I saw Unkorh the steward in the throne room. The castle was decorated for a wedding and there had been a merry feast.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_main_1/">Guynmart main 1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_wood_1/">Guynmart wood 1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart_wood_8/">Guynmart wood 8</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart_main_1/">guynmart_main_1</a><br>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a></td>
+<td>stage 161, stage 170</td>
+<td>sets stage 60 of <a href="../guynmart_nondisplay/#stage-60">guynmart nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-190"></span>190</td>
 <td>Hannah gave me an everlasting fragrant rose as a present.</td>
+<td><a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)<br><a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)</td>
+<td>–</td>
+<td>gives 1× <a href="../../items/guynmart_rose/">Rose</a></td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
 <td>I was allowed to choose something from the treasury.</td>
+<td><a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)<br><a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)<br><a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>stage 190</td>
+<td>5,000 XP<br>spawns monsters on guynmart_main_1<br>removes monsters from guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-201"></span>201</td>
 <td>I took the money.</td>
+<td><a href="../../monsters/guynmart_reward1/">Gold</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>–</td>
+<td>sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a><br>gives 5000× <a href="../../items/gold/">Gold coins</a><br>removes monsters from guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-202"></span>202</td>
 <td>I took the scroll of wisdom.</td>
+<td><a href="../../monsters/guynmart_reward2/">Wisdom</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>–</td>
+<td>5,000 XP<br>sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a><br>gives 1× <a href="../../items/guynmart_scroll/">Scroll of wisdom</a><br>removes monsters from guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-203"></span>203</td>
 <td>I took the shield.</td>
+<td><a href="../../monsters/guynmart_reward3/">Armor</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>–</td>
+<td>sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a><br>gives 1× <a href="../../items/guynmart_shield/">Guynmart shield</a><br>removes monsters from guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-210"></span>210</td>
 <td>Lovis prepared a surprise for me east of the castle. <strong>(completes quest)</strong><br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart_wood_9/">Guynmart wood 9</a>.</span></td>
+<td><a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)<br><a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)<br><a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>stage 181, stage 190</td>
+<td>spawns monsters on guynmart_wood_9<br>sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a><br>removes monsters from guynmart_main_1</td>
 </tr>
 <tr>
 <td><span id="stage-211"></span>211</td>
 <td>Then I took my leave of Unkorh. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>)<br><a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)<br><a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>)</td>
+<td>stage 181, stage 190</td>
+<td>sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a><br>removes monsters from guynmart_main_1</td>
 </tr>
 </tbody>
 </table>
-<h2 id="other-map-events">Other map events<a class="headerlink" href="#other-map-events" title="Permanent link">&para;</a></h2>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_farmer/">Rhodita</a> (<a href="../../maps/guynmart_wood_1/">guynmart_wood_1</a>) → choose “Guynmart Castle? I have never heard of it. Please tell me more.” → <strong>stage 10</strong>. NPC: “I have too much work to do now. But maybe you could check if everything is OK with her?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 16: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_guard_guide/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “OK, one kid, without guide, please.” — <strong>conditions:</strong> pay 12 gold → <strong>stage 16</strong>; also removes monsters from guynmart</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 18: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_guard_guide/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “One kid and a guide, please.” — <strong>conditions:</strong> pay 15 gold → <strong>stage 18</strong>; also removes monsters from guynmart</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_gguard/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “Here is 100 gold.” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Roses</a>; pay 100 gold → <strong>stage 30</strong>; also sets stage 1 of <a href="../guynmart_quest_gguard/#stage-1">gardenGuard blocks (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_gguard/">Guynmart guard</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “Here is 100 gold.” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Roses</a>; pay 100 gold; NOT reached stage 10 of <a href="./#stage-10">Roses</a>; NOT reached stage 32 of <a href="./#stage-32">Roses</a> → <strong>stage 32</strong>. NPC: “[Gold taken] Very good. Before you enter maybe you should also know the family names: Lord Guynmart, his beautiful but…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_steward/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “I would like to buy something to eat.” → <strong>stage 40</strong>. NPC: “The cook shall give you some bread. And he can provide you with further provisions, if you can pay for them.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 45: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_rob/">Rob</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>) → the conversation leads here automatically → <strong>stage 45</strong>; also sets stage 1 of <a href="../guynmart_qRpl_shutters/#stage-1">shutters open (hidden flag)</a>. NPC: “Hey - you found me at last! That was fun! I am Robalyrius, Guynmart's son, but please call me Rob. Who are you? Wait,…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_maid/">Maid</a> (<a href="../../maps/guynmart_main_3/">guynmart_main_3</a>) → choose “Perhaps I could go and find Lovis for her.” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Roses</a> → <strong>stage 50</strong>. NPC: “Ah yes - tell the cook that I asked you to take lunch to Lady Hannah. He hates climbing stairs, so he will gladly agree.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_main_2/">guynmart_main_2</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Roses</a>; NOT reached stage 60 of <a href="./#stage-60">Roses</a> → <strong>stage 60</strong>. NPC: “[Whispering from below] Oh, how I long to take my place here...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 62: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_cook/">Hofala</a> (<a href="../../maps/guynmart_main_2/">guynmart_main_2</a>) → choose “Hannah's maid asked me to take her lunch to her.” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Roses</a>; NOT reached stage 62 of <a href="./#stage-62">Roses</a> → <strong>stage 62</strong>. NPC: “Quick, run to Nuik, the old gardener. He will give you some fresh herbs.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 64: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_cook/">Hofala</a> (<a href="../../maps/guynmart_main_2/">guynmart_main_2</a>) → the conversation leads here automatically — <strong>conditions:</strong> hand over 1× <a href="../../items/guynmart_herbs/">Hannah's special herbs</a> → <strong>stage 64</strong>; also gives <a href="../../items/guynmart_lunch/">Hannah's lunch</a>, sets stage 1 of <a href="../guynmart_quest_cook_lunch/#stage-1">guynmart_quest_cook_lunch (hidden flag)</a>. NPC: “...and now it is suitable for her. Hurry now, while it is still hot!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>) → the conversation leads here automatically → <strong>stage 70</strong>; also spawns monsters on guynmart, clears stage 1 of <a href="../guynmart_quest_olav/#stage-1">Guest tour (hidden flag)</a>, sets stage 7 of <a href="../guynmart_quest_olav/#stage-7">Guest tour (hidden flag)</a>. NPC: “I cannot think clearly ... I need a rose! A fresh, fragrant rose! Please bring me a rose from my garden...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 80: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_steward3/">Unkorh</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “But...” → <strong>stage 80</strong>; also removes monsters from guynmart. NPC: “Show our - guest - the special exit.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 81: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_cguard/">Norgothla</a> (<a href="../../maps/guynmart_wood_4/">guynmart_wood_4</a>) → choose “Maybe I could go back and bring some evidence?” → <strong>stage 81</strong>. NPC: “By doing this, you take a great burden from my heart. I get to know what is happening at the castle, but don't have to…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 90: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>) → the conversation leads here automatically — <strong>conditions:</strong> carry 1× <a href="../../items/guynmart_rose/">Rose</a>; hand over 1× <a href="../../items/guynmart_rose/">Rose</a> → <strong>stage 90</strong>. NPC: “[Hannah takes the rose] Now. I feel better again. Thank you.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>) → choose “I will not disappoint you.” — <strong>conditions:</strong> carry 1× <a href="../../items/guynmart_rose/">Rose</a>; hand over 1× <a href="../../items/guynmart_rose/">Rose</a> → <strong>stage 100</strong>; also gives 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a>, sets stage 1 of <a href="../guynmart_qRpl_shutters/#stage-1">shutters open (hidden flag)</a>, removes monsters from guynmart_main_3, spawns monsters on guynmart_tower_3. NPC: “So take this flute and take good care of it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 110: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_rob3/">Rob</a> (<a href="../../maps/guynmart_tower_3/">guynmart_tower_3</a>) → choose “Great idea.” → <strong>stage 110</strong>; also spawns monsters on guynmart_tower_2, removes monsters from guynmart_tower_3. NPC: “Follow me in a minute - but make no noise.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 132: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_lovis/">Lovis</a> (<a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a>) → choose “Here, I should give you this.” — <strong>conditions:</strong> hand over 1× <a href="../../items/guynmart_flute/">Lovis' Flute</a> → <strong>stage 132</strong>; also sets stage 6 of <a href="../guynmart_nondisplay/#stage-6">guynmart nondisplay (hidden flag)</a>, starts timer “guynmart_flute”. NPC: “My flute! How I have missed it! I believe you now.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 134: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_lovis/">Lovis</a> (<a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 132 of <a href="./#stage-132">Roses</a>; reached stage 134 of <a href="./#stage-134">Roses</a> → <strong>stage 134</strong>; also spawns monsters on guynmart_tower_0, removes monsters from guynmart_tower_0. NPC: “Oh no! Look! The torturer! I will run around him and look for Guynmart's personal guards outside in the wood. They…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 136: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/guynmart_tower_0/">guynmart_tower_0</a> → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/guynmart_tort1/">Torturer</a> → <strong>stage 136</strong>. NPC: “The door is wide open now.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 160: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Yes. I came through the garden door.” → <strong>stage 160</strong>; also spawns monsters on guynmart_main_0, removes monsters from guynmart_tower_2. NPC: “Then you must open the gate! Go to the gatehouse and open it, so that my men can get in. Be quick. After that go to…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 161: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Yes, I will trust you.” → <strong>stage 161</strong>; also removes monsters from guynmart_main_0. NPC: “Watch out! Guynmart...”</li>
+<li>Talk to <a href="../../monsters/guynmart_steward4/">Unkorh</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 161 of <a href="./#stage-161">Roses</a> → <strong>stage 161</strong>; also removes monsters from guynmart_main_0. NPC: “Watch out! Guynmart...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 162: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart/">Guynmart</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Ha! So come on and try! No? I will put an end to you now!” → <strong>stage 162</strong>; also removes monsters from guynmart_main_0. NPC: “OK. I will go now. But I will not forget you - fear my revenge! And before I leave, I will stab your beloved Guynmart...”</li>
+<li>Talk to <a href="../../monsters/guynmart_steward4/">Unkorh</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Ha! So come on and try! No? I will put an end to you now!” → <strong>stage 162</strong>; also removes monsters from guynmart_main_0. NPC: “OK. I will go now. But I will not forget you - fear my revenge! And before I leave, I will stab your beloved Guynmart...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 163: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/guynmart_tower_2/">guynmart_tower_2</a> → choose “I am on a mission for Lord Guynmart.” — <strong>conditions:</strong> reached stage 160 of <a href="./#stage-160">Roses</a>; NOT reached stage 161 of <a href="./#stage-161">Roses</a> → <strong>stage 163</strong>. NPC: “OK, then hurry.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 164: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_gate_2/">guynmart_gate_2</a> → choose “Open” — <strong>conditions:</strong> NOT reached stage 2 of <a href="../guynmart_nondisplay/#stage-2">guynmart nondisplay (hidden flag)</a> → <strong>stage 164</strong>; also sets stage 2 of <a href="../guynmart_nondisplay/#stage-2">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart, removes monsters from guynmart, removes monsters from guynmart, removes monsters from guynmart_main_2, removes monsters from guynmart_main_1, spawns monsters on guynmart, spawns monsters on guynmart_main_2, spawns monsters on guynmart_main_1. NPC: “Done, the gate is open, and Guynmart's personal guard can enter. I should leave quickly now, maybe to the farmhouse…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 170: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_farmhouse/">guynmart_farmhouse</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 164 of <a href="./#stage-164">Roses</a> → <strong>stage 170</strong>; also removes monsters from guynmart, removes monsters from guynmart, removes monsters from guynmart_main_0, removes monsters from guynmart_main_1, removes monsters from guynmart_main_2, removes monsters from guynmart_tower_2, removes monsters from guynmart_wood_4, removes monsters from guynmart_wood_4, removes monsters from guynmart_wood_4, removes monsters from guynmart_wood_4, spawns monsters on guynmart, spawns monsters on guynmart_main_1, spawns monsters on guynmart_main_1, spawns monsters on guynmart_main_1, spawns monsters on guynmart_main_1, clears stage 34 of <a href="../guynmart_nondisplay/#stage-34">guynmart nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 180: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_main_1/">guynmart_main_1</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 170 of <a href="./#stage-170">Roses</a> → <strong>stage 180</strong></li>
+<li>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 170 of <a href="./#stage-170">Roses</a> → <strong>stage 180</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 181: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart_main_1/">guynmart_main_1</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 170 of <a href="./#stage-170">Roses</a>; reached stage 161 of <a href="./#stage-161">Roses</a> → <strong>stage 181</strong>; also sets stage 60 of <a href="../guynmart_nondisplay/#stage-60">guynmart nondisplay (hidden flag)</a></li>
+<li>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 170 of <a href="./#stage-170">Roses</a>; reached stage 161 of <a href="./#stage-161">Roses</a> → <strong>stage 181</strong>; also sets stage 60 of <a href="../guynmart_nondisplay/#stage-60">guynmart nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 190: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → the conversation leads here automatically → <strong>stage 190</strong>; also gives 1× <a href="../../items/guynmart_rose/">Rose</a>. NPC: “Take this rose as a token of my deepest thanks. May its lovely fragrance last forever.”</li>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 190 of <a href="./#stage-190">Roses</a> → <strong>stage 190</strong>; also gives 1× <a href="../../items/guynmart_rose/">Rose</a>. NPC: “Take this rose as a token of my deepest thanks. May its lovely fragrance last forever.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 200: 3 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 190 of <a href="./#stage-190">Roses</a> → <strong>stage 200</strong>; also spawns monsters on guynmart_main_1, removes monsters from guynmart_main_1. NPC: “You have earned your reward. Go now into our treasury.”</li>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → the conversation leads here automatically → <strong>stage 200</strong>; also spawns monsters on guynmart_main_1, removes monsters from guynmart_main_1. NPC: “You have earned your reward. Go now into our treasury.”</li>
+<li>Talk to <a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → the conversation leads here automatically → <strong>stage 200</strong>; also spawns monsters on guynmart_main_1, removes monsters from guynmart_main_1. NPC: “You have earned your reward. Go now into our treasury.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 201: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_reward1/">Gold</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “You decide for the gold.” — <strong>conditions:</strong> NOT reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a> → <strong>stage 201</strong>; also sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a>, gives 5000× <a href="../../items/gold/">Gold coins</a>, removes monsters from guynmart_main_1. NPC: “You feel the pleasant weight of the gold in your bag.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 202: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_reward2/">Wisdom</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “You decide for the scroll.” — <strong>conditions:</strong> NOT reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a> → <strong>stage 202</strong>; also sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a>, gives 1× <a href="../../items/guynmart_scroll/">Scroll of wisdom</a>, removes monsters from guynmart_main_1. NPC: “You feel an immediate benefit from the experience of others.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 203: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_reward3/">Armor</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “You decide for the shield.” — <strong>conditions:</strong> NOT reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a> → <strong>stage 203</strong>; also sets stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a>, gives 1× <a href="../../items/guynmart_shield/">Guynmart shield</a>, removes monsters from guynmart_main_1. NPC: “This shield does feel good in your hands.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 210: 5 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Oh yes - I am overwhelmed by your generosity!” — <strong>conditions:</strong> reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a> → <strong>stage 210</strong>; also spawns monsters on guynmart_wood_9</li>
+<li>Talk to <a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “Oh yes - I am overwhelmed by your generosity!” — <strong>conditions:</strong> reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a> → <strong>stage 210</strong>; also spawns monsters on guynmart_wood_9</li>
+<li>Talk to <a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> reached stage 190 of <a href="./#stage-190">Roses</a>; killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 210</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9</li>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 210</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9</li>
+<li>Talk to <a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 210</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 211: 5 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “Oh yes - I am overwhelmed by your generosity!” — <strong>conditions:</strong> reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 211</strong></li>
+<li>Talk to <a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “Oh yes - I am overwhelmed by your generosity!” — <strong>conditions:</strong> reached stage 32 of <a href="../guynmart_nondisplay/#stage-32">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 211</strong></li>
+<li>Talk to <a href="../../monsters/guynmart_hannah2/">Hannah</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> reached stage 190 of <a href="./#stage-190">Roses</a>; killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 211</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1</li>
+<li>Talk to <a href="../../monsters/guynmart_lovis2/">Lovis</a> (<a href="../../maps/guynmart_main_0/">guynmart_main_0</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 211</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1</li>
+<li>Talk to <a href="../../monsters/guynmart_steward5/">Unkorh</a> (<a href="../../maps/guynmart_main_1/">guynmart_main_1</a>) → choose “I will go. Bye.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/guynmart_sheep/">Sheep</a>; NOT reached stage 33 of <a href="../guynmart_nondisplay/#stage-33">guynmart nondisplay (hidden flag)</a>; reached stage 181 of <a href="./#stage-181">Roses</a> → <strong>stage 211</strong>; also sets stage 36 of <a href="../guynmart_nondisplay/#stage-36">guynmart nondisplay (hidden flag)</a>, removes monsters from guynmart_main_1</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
 <table>
 <thead>
 <tr>
-<th>Progress</th>
-<th>Event</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-666"></span>666</td>
-<td>🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_main_0/">Guynmart main 0</a>.<br>🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart_passage/">Guynmart passage</a>.</td>
+<td>Quest ID</td>
+<td><code>guynmart</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 16, 18, 20, 30, 32, 40, 45, 50, 60, 62, 63, 64, 70, 80, 81, 82, 90, 100, 110, 120, 130, 132, 134, 136, 140, 160, 161, 162, 163, 164, 170, 180, 181, 190, 200, 201, 202, 203, 210, 211</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>guynmart_farmer_60</code>, 16: <code>guynmart_guard_guide_30</code>, 18: <code>guynmart_guard_guide_32</code>, 30: <code>guynmart_gguard_900</code>, 32: <code>guynmart_gguard_902</code>, 40: <code>guynmart_steward_30</code>, 45: <code>guynmart_rob_12</code>, 50: <code>guynmart_maid_66</code>, 60: <code>guynmart_sign_steward_2</code>, 62: <code>guynmart_cook_72</code>, 64: <code>guynmart_cook_120</code>, 70: <code>guynmart_player_02</code>, 70: <code>guynmart_hannah_20</code>, 80: <code>guynmart_steward3_52</code>, 81: <code>guynmart_cguard_80</code>, 90: <code>guynmart_hannah_114</code>, 100: <code>guynmart_hannah_150</code>, 110: <code>guynmart_rob3_40</code>, 132: <code>guynmart_lovis_40</code>, 134: <code>guynmart_lovis_200</code>, 136: <code>guynmart_key_tower0_door_30</code>, 160: <code>guynmart_100</code>, 161: <code>guynmart_steward4_210</code>, 162: <code>guynmart_steward4_60</code>, 163: <code>guynmart_key_tower1_20</code>, 164: <code>guynmart_s_gate1_58</code>, 170: <code>guynmart_s_gateopenrest_10</code>, 180: <code>guynmart_sRpl_main_1r_10</code>, 181: <code>guynmart_sRpl_main_1r_20</code>, 190: <code>guynmart_hannah2_50</code>, 200: <code>guynmart_lovis2_100</code>, 201: <code>guynmart_reward1_20</code>, 202: <code>guynmart_reward2_20</code>, 203: <code>guynmart_reward3_20</code>, 210: <code>guynmart_lovis2_140</code>, 210: <code>guynmart_lovis2_240</code>, 211: <code>guynmart_lovis2_141</code>, 211: <code>guynmart_lovis2_241</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>164: <code>guynmart_s_gate1_70</code>, 70: <code>guynmart_player_04</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>guynmart</code> · Data from v0.8.18</small></p>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

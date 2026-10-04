@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,57 +971,338 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>brv_blackjack_hidden</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>), stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a>, <a href="../../monsters/brv_tavern_west_guard/">Guard</a>, <a href="../../monsters/zimsko/">Zimsko</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>, <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Bet 1</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p><strong>Route 1</strong> (<a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)):</p>
+<ul>
+<li>pay 1 gold</li>
+</ul>
+<p><strong>Route 2</strong> (stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>):</p>
+<ul>
+<li>NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a></li>
+<li>pay 1 gold</li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_blackjack/#stage-40">Fair play?</a></td>
+<td>stage 40 reached, for stage 150 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_blackjack/#stage-50">Fair play?</a></td>
+<td>stage 50 reached, for stage 150 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_blackjack/#stage-60">Fair play?</a></td>
+<td>stage 60 reached, for stage 150 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../place_to_forge/#stage-40">A place to forge</a></td>
+<td>stage 40 reached, for stage 150 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../brv_blackjack/#stage-50">Fair play?</a></td>
+<td>stage 50 must NOT be reached, for stages 1, 10, 20, 30, 140 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-20">Fair play?</a></td>
+<td>stage 20 there needs stage 110 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-30">Fair play?</a></td>
+<td>stage 30 there needs stage 110 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-31">Fair play?</a></td>
+<td>stage 31 there needs stage 110 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-60">Fair play?</a></td>
+<td>stage 60 there needs stage 150 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-70">Fair play?</a></td>
+<td>stage 70 there needs stages 110, 140 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_blackjack/#stage-80">Fair play?</a></td>
+<td>stage 80 there needs stages 110, 140 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../place_to_forge/#stage-45">A place to forge</a></td>
+<td>reaching stage 100 here closes stage 45 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>Bet 1</td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>pay 1 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Bet 2</td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>pay 2 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Bet 5</td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>pay 5 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>Bet 10<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a>.</span></td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>pay 10 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>Seat taken<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-110"></span>110</td>
 <td>Started talking to Zimsko</td>
+<td><a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-120"></span>120</td>
 <td>Bought Zimsko beer</td>
+<td><a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>)</td>
+<td>pay 2 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-130"></span>130</td>
 <td>Zimsko talked about loosing money</td>
+<td><a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-140"></span>140</td>
 <td>Played blackjack for higher amounts<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a>.</span></td>
+<td><a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>pay 10 gold, pay 5 gold</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-150"></span>150</td>
 <td>Allowed to enter backroom<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_tavern_west/">Brimhaven tavern west</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/brimhaven_tavern_west/">Brimhaven tavern west</a>.</span></td>
+<td><a href="../../monsters/brv_tavern_west_guard/">Guard</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a></td>
+<td>–</td>
+<td>sets stage 40 of <a href="../brv_blackjack/#stage-40">Fair play?</a><br>spawns monsters on brimhaven_tavern_west_back</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>brv_blackjack_hidden</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 1: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “1 Gold” — <strong>conditions:</strong> pay 1 gold → <strong>stage 1</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “1 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 1 gold → <strong>stage 1</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “2 Gold” — <strong>conditions:</strong> pay 2 gold → <strong>stage 10</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “2 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 2 gold → <strong>stage 10</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “5 Gold” — <strong>conditions:</strong> pay 5 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 20</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “5 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 5 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 20</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “10 Gold” — <strong>conditions:</strong> pay 10 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 30</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “10 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 10 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 30</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → the conversation leads here automatically → <strong>stage 100</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 110: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>) → the conversation leads here automatically → <strong>stage 110</strong>. NPC: “What do you want from me?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 120: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>) → choose “Let's drink a beer together. I will pay. [Pay 2 gold]” — <strong>conditions:</strong> pay 2 gold → <strong>stage 120</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 130: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/zimsko/">Zimsko</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>) → choose “I want to join you for a beer.” → <strong>stage 130</strong>. NPC: “I lost all my money gambling and can't afford a beer.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 140: 4 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “5 Gold” — <strong>conditions:</strong> pay 5 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 140</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “5 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 5 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 140</strong></li>
+<li>Talk to <a href="../../monsters/brv_blackjack_dealer/">Dealer</a> (<a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a>) → choose “10 Gold” — <strong>conditions:</strong> pay 10 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 140</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a> → choose “10 Gold” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; pay 10 gold; faction “brv_blackjack_won” ≥ 3 → <strong>stage 140</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 150: 3 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_tavern_west_guard/">Guard</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 40 of <a href="../brv_blackjack/#stage-40">Fair play?</a> → <strong>stage 150</strong>; also sets stage 40 of <a href="../brv_blackjack/#stage-40">Fair play?</a>. NPC: “I wish you good luck. [Laughs]”</li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a> → choose “Sure I am. I'm on official Alkapoan business.” — <strong>conditions:</strong> reached stage 150 of <a href="./#stage-150">brv_blackjack_hidden (hidden flag)</a>; reached stage 50 of <a href="../brv_blackjack/#stage-50">Fair play?</a>; killed 1× <a href="../../monsters/brv_blackjack_gambler2_evil/">Gambler</a>; killed 1× <a href="../../monsters/brv_blackjack_gambler1_evil/">Gambler</a>; killed 1× <a href="../../monsters/brv_blackjack_dealer_evil/">Dealer</a>; latest stage of <a href="../place_to_forge/#stage-40">A place to forge</a> is 40 → <strong>stage 150</strong>; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”</li>
+<li>Talk to <a href="../../monsters/brv_tavern_west_guard/">Guard</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>) → choose “Sure I am. I'm on official Alkapoan business.” — <strong>conditions:</strong> reached stage 60 of <a href="../brv_blackjack/#stage-60">Fair play?</a>; latest stage of <a href="../place_to_forge/#stage-40">A place to forge</a> is 40 → <strong>stage 150</strong>; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>brv_blackjack_hidden</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>1, 10, 20, 30, 100, 110, 120, 130, 140, 150</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>1: <code>blackjack_bet_1</code>, 10: <code>blackjack_bet_2</code>, 20: <code>blackjack_bet_5</code>, 30: <code>blackjack_bet_10</code>, 100: <code>blackjack_seat</code>, 110: <code>brv_zimsko_10</code>, 120: <code>brv_zimsko_20</code>, 130: <code>brv_zimsko_10_2</code>, 140: <code>blackjack_bet_5</code>, 140: <code>blackjack_bet_10</code>, 150: <code>brv_tavern_west_guard_20</code>, 150: <code>brv_tavern_west_guard_alkapaon_business_10</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>100: <code>blackjack_left_seat</code>, 150: <code>brv_tavern_west_guard_90</code>, 1: <code>blackjack_bet</code>, 10: <code>blackjack_bet</code>, 20: <code>blackjack_bet</code>, 30: <code>blackjack_bet</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

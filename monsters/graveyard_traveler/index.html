@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,65 @@
 <ul>
 <li><a href="../../maps/graveyard0/">graveyard0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/graveyard_quest/">Mine for the taking</a>: stages 20, 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (10 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-graveyardtraveler_begin"></span><strong><code>graveyardtraveler_begin</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/graveyard_quest/#stage-10">Mine for the taking</a>; NOT reached stage 40 of <a href="../../quests/graveyard_quest/#stage-40">Mine for the taking</a>)</em> → <a href="#d-graveyardtraveler_10">graveyardtraveler_10</a></li>
+<li>Next → <a href="#d-graveyardtraveler_00">graveyardtraveler_00</a></li>
+</ul>
+<p><span id="d-graveyardtraveler_10"></span><strong><code>graveyardtraveler_10</code></strong> Waterway traveler: “Hey, did you try to open that treasure chest?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-graveyardtraveler_20">graveyardtraveler_20</a></li>
+<li>“No.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-graveyardtraveler_00"></span><strong><code>graveyardtraveler_00</code></strong> Waterway traveler: “Greetings, young traveler.”</p>
+<ul>
+<li>“I opened that chest and got a powerful sword.” <em>(if reached stage 80 of <a href="../../quests/graveyard_quest/#stage-80">Mine for the taking</a>; NOT reached stage 90 of <a href="../../quests/graveyard_quest/#stage-90">Mine for the taking</a>; NOT reached stage 95 of <a href="../../quests/graveyard_quest/#stage-95">Mine for the taking</a>)</em> → <a href="#d-graveyardtraveler_99">graveyardtraveler_99</a></li>
+</ul>
+<p><span id="d-graveyardtraveler_20"></span><strong><code>graveyardtraveler_20</code></strong> Waterway traveler: “That chest is something of a local legend. Been there for generations. They say it is sealed with magic and can only be opened with a special key, which hangs on the neck of one of the undead that roam in a cemetery directly south of here.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/graveyard_quest/#stage-20">Mine for the taking</a></p>
+<ul>
+<li>“Killing the undead is my specialty.” → <a href="#d-graveyardtraveler_30">graveyardtraveler_30</a></li>
+<li>“Undead? I would love to hear the rest of your story but I am on a mission to find my brother.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-graveyardtraveler_99"></span><strong><code>graveyardtraveler_99</code></strong> Waterway traveler: “I should not have doubted you. Well done.”</p>
+<p><span id="d-graveyardtraveler_30"></span><strong><code>graveyardtraveler_30</code></strong> Waterway traveler: “You don't think someone has already tried? It's a treasure chest ... left outside ... in plain view ... unguarded.”</p>
+<ul>
+<li>Next → <a href="#d-graveyardtraveler_40">graveyardtraveler_40</a></li>
+</ul>
+<p><span id="d-graveyardtraveler_40"></span><strong><code>graveyardtraveler_40</code></strong> Waterway traveler: “Listen kid. A hundred 'adventurers' before you have tried and failed to open that chest. The problem isn't killing some undead. It's getting into the cemetery, because it's protected by a magical barrier that prevents anyone from entering.”</p>
+<ul>
+<li>“Interesting. Is there anything else you can tell me about the chest or cemetery?” → <a href="#d-graveyardtraveler_50">graveyardtraveler_50</a></li>
+</ul>
+<p><span id="d-graveyardtraveler_50"></span><strong><code>graveyardtraveler_50</code></strong> Waterway traveler: “That is all I know ... Come to think of it ... Hagale from the Wood Settlement was out here a few weeks ago asking about the chest. Something about him struck me as odd. It was as if he was in a trance.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/graveyard_quest/#stage-30">Mine for the taking</a></p>
+<ul>
+<li>Next → <a href="#d-graveyardtraveler_60">graveyardtraveler_60</a></li>
+</ul>
+<p><span id="d-graveyardtraveler_60"></span><strong><code>graveyardtraveler_60</code></strong> Waterway traveler: “Maybe he knows more. You should give him a visit.”</p>
+<ul>
+<li>“OK, I'll do that.” → <em>conversation ends</em></li>
+<li>“Where is the Wood settlement?” → <a href="#d-graveyardtraveler61">graveyardtraveler61</a></li>
+</ul>
+<p><span id="d-graveyardtraveler61"></span><strong><code>graveyardtraveler61</code></strong> Waterway traveler: “South of the Duleian road, close to Fallhaven.”</p>
+<ul>
+<li>“OK. I'll go there now.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=graveyard_traveler.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=graveyard_traveler.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=graveyard_traveler.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=graveyard_traveler.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>graveyard_traveler</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,104 @@
 <ul>
 <li><a href="../../maps/undertell_4_00/">undertell_4_00</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 95</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (19 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tocsin_selector"></span><strong><code>tocsin_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../../items/meat2/">Rotten meat</a>; NOT reached stage 50 of <a href="../../quests/about_a_girl/#stage-50">About a girl</a>)</em> → <a href="#d-tocsin_rotten_10">tocsin_rotten_10</a></li>
+<li>branch 2 <em>(if carry 1× <a href="../../items/rotten_fish/">Rotten fish</a>; NOT reached stage 50 of <a href="../../quests/about_a_girl/#stage-50">About a girl</a>)</em> → <a href="#d-tocsin_rotten_10">tocsin_rotten_10</a></li>
+<li>branch 3 → <a href="#d-tocsin_switch">tocsin_switch</a></li>
+</ul>
+<p><span id="d-tocsin_rotten_10"></span><strong><code>tocsin_rotten_10</code></strong> <a href="./">Tocsin</a>: “Kek-kek-kek-kek-KRAAAK!”</p>
+<ul>
+<li>Next → <a href="#d-tocsin_rotten_20">tocsin_rotten_20</a></li>
+</ul>
+<p><span id="d-tocsin_switch"></span><strong><code>tocsin_switch</code></strong> <a href="../porter/">Kha'zaan Porter</a>: “What is wrong with you?”</p>
+<ul>
+<li>“Nothing.” → <a href="#d-tocsin_porter_10">tocsin_porter_10</a></li>
+<li>“Nothing. I'm just happy to still have ten fingers!” <em>(if reached stage 95 of <a href="../../quests/undertell_hidden/#stage-95">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-tocsin_porter_10">tocsin_porter_10</a></li>
+</ul>
+<p><span id="d-tocsin_rotten_20"></span><strong><code>tocsin_rotten_20</code></strong> <a href="../none/">Dummy NPC</a>: “The creature lunges forward...you pull back moments before it clamps onto your hand!” — <strong>effects:</strong> sets stage 95 of <a href="../../quests/undertell_hidden/#stage-95">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-tocsin_switch">tocsin_switch</a></li>
+</ul>
+<p><span id="d-tocsin_porter_10"></span><strong><code>tocsin_porter_10</code></strong> Tocsin: “You talk to me. She doesn't talk to mortals such as yourself.”</p>
+<ul>
+<li>“But what is it?” → <a href="#d-tocsin_porter_20">tocsin_porter_20</a></li>
+</ul>
+<p><span id="d-tocsin_porter_20"></span><strong><code>tocsin_porter_20</code></strong> Tocsin: “"She" is a campanite, a pet if you will...yeah, my guard pet and not an "it".”</p>
+<ul>
+<li>“A pet? I want a pet. Where can I get a campanite for myself?” → <a href="#d-porter_pet_10">porter_pet_10</a></li>
+<li>“Why do you have her?” → <a href="#d-porter_pet_15">porter_pet_15</a></li>
+</ul>
+<p><span id="d-porter_pet_10"></span><strong><code>porter_pet_10</code></strong> Tocsin: “You, have a pet? Nah! You are not allowed.”</p>
+<ul>
+<li>“Why not?” → <a href="#d-porter_pet_20">porter_pet_20</a></li>
+</ul>
+<p><span id="d-porter_pet_15"></span><strong><code>porter_pet_15</code></strong> Tocsin: “She helps me do my job of preventing rift rafts such as yourself from passing through this here door.”</p>
+<ul>
+<li>“But what's through that door?” <em>(if NOT reached stage 95 of <a href="../../quests/undertell_hidden/#stage-95">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-porter_door_10">porter_door_10</a></li>
+<li>“But what's through that door?” <em>(if reached stage 95 of <a href="../../quests/undertell_hidden/#stage-95">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-porter_pet_hungry_10">porter_pet_hungry_10</a></li>
+</ul>
+<p><span id="d-porter_pet_20"></span><strong><code>porter_pet_20</code></strong> Tocsin: “Well, you are an explorer, so you will find yourself in places unsuitable for pets.”</p>
+<ul>
+<li>“Blah! Whatever.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-porter_door_10"></span><strong><code>porter_door_10</code></strong> Tocsin: “Nothing for mortals to see without permission.”</p>
+<ul>
+<li>“Permission from whom?” → <a href="#d-porter_door_20">porter_door_20</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_10"></span><strong><code>porter_pet_hungry_10</code></strong> Tocsin: “Tocsin over here is hungry.”</p>
+<ul>
+<li>“What?” → <a href="#d-porter_pet_hungry_20">porter_pet_hungry_20</a></li>
+</ul>
+<p><span id="d-porter_door_20"></span><strong><code>porter_door_20</code></strong> Tocsin: “If you had it, then you would know. Now leave me.”</p>
+<p><span id="d-porter_pet_hungry_20"></span><strong><code>porter_pet_hungry_20</code></strong> Tocsin: “Give me your rotten animal parts so Tocsin can eat and if she enjoys your offerings, then I will allow your entry.”</p>
+<ul>
+<li>“No problem! I've been looking to get rid of them anyway.” → <a href="#d-porter_pet_hungry_30">porter_pet_hungry_30</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_30"></span><strong><code>porter_pet_hungry_30</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/meat2/">Rotten meat</a>)</em> → <a href="#d-porter_pet_hungry_30_1">porter_pet_hungry_30_1</a></li>
+<li>branch 2 <em>(if hand over 1× <a href="../../items/rotten_fish/">Rotten fish</a>)</em> → <a href="#d-porter_pet_hungry_30_2">porter_pet_hungry_30_2</a></li>
+<li>branch 3 → <a href="#d-porter_pet_hungry_fed_10">porter_pet_hungry_fed_10</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_30_1"></span><strong><code>porter_pet_hungry_30_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/meat2/">Rotten meat</a>)</em> → <a href="#d-porter_pet_hungry_30_1">porter_pet_hungry_30_1</a></li>
+<li>branch 2 <em>(if hand over 1× <a href="../../items/rotten_fish/">Rotten fish</a>)</em> → <a href="#d-porter_pet_hungry_30_2">porter_pet_hungry_30_2</a></li>
+<li>branch 3 → <a href="#d-porter_pet_hungry_fed_10">porter_pet_hungry_fed_10</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_30_2"></span><strong><code>porter_pet_hungry_30_2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/rotten_fish/">Rotten fish</a>)</em> → <a href="#d-porter_pet_hungry_30_2">porter_pet_hungry_30_2</a></li>
+<li>branch 2 → <a href="#d-porter_pet_hungry_fed_10">porter_pet_hungry_fed_10</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_fed_10"></span><strong><code>porter_pet_hungry_fed_10</code></strong> <a href="../none/">Dummy NPC</a>: “The porter proceeds to feed what you have given him to Tocsin. You watch with amazement as it looks as if Tocsin simply swallowed it whole.”</p>
+<ul>
+<li>“Well, do I have permission?” → <a href="#d-porter_pet_hungry_fed_20">porter_pet_hungry_fed_20</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_fed_20"></span><strong><code>porter_pet_hungry_fed_20</code></strong> <a href="../porter/">Kha'zaan Porter</a>: “If you had it, then you would know. Now leave me.”</p>
+<ul>
+<li>“What?!” → <a href="#d-porter_pet_hungry_fed_30">porter_pet_hungry_fed_30</a></li>
+</ul>
+<p><span id="d-porter_pet_hungry_fed_30"></span><strong><code>porter_pet_hungry_fed_30</code></strong> Tocsin: “Look at her, she didn't enjoy that meal. Now leave us.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tocsin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tocsin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tocsin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tocsin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>tocsin</code> · Data from v0.8.18</small></p>
 
 

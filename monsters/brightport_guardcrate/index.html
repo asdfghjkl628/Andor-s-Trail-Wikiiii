@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,134 @@
 <ul>
 <li><a href="../../maps/brightport_abandoned/">brightport_abandoned</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_thieves/">Boxed in</a>: stages 35</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 144, 159, 173, 209, 210, 220</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (26 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_crateguard_selector"></span><strong><code>brightport_crateguard_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 210 of <a href="../../quests/brightport_nondisplay/#stage-210">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_guardcrate17">brightport_guardcrate17</a></li>
+<li>Next <em>(if reached stage 209 of <a href="../../quests/brightport_nondisplay/#stage-209">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_guardcrate14">brightport_guardcrate14</a></li>
+<li>Next <em>(if reached stage 173 of <a href="../../quests/brightport_nondisplay/#stage-173">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_crateguard_arrest3">brightport_crateguard_arrest3</a></li>
+<li>Next <em>(if reached stage 159 of <a href="../../quests/brightport_nondisplay/#stage-159">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_crateguard_arrest">brightport_crateguard_arrest</a></li>
+<li>Next → <a href="#d-brightport_crateguard">brightport_crateguard</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate17"></span><strong><code>brightport_guardcrate17</code></strong> Brightport guard: “Agreed. You're coming with us. The commander can sort this out.” — <strong>effects:</strong> sets stage 210 of <a href="../../quests/brightport_nondisplay/#stage-210">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard_packageselector">brightport_crateguard_packageselector</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate14"></span><strong><code>brightport_guardcrate14</code></strong> <a href="./">Brightport guard</a>: “Enough games. You're coming with us.” — <strong>effects:</strong> sets stage 209 of <a href="../../quests/brightport_nondisplay/#stage-209">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard_packageselector">brightport_crateguard_packageselector</a></li>
+</ul>
+<p><span id="d-brightport_crateguard_arrest3"></span><strong><code>brightport_crateguard_arrest3</code></strong> Brightport guard: “I don't think so, we follow the law not the commander. You will be coming with us. We'll interrogate you later about what you were doing here.” — <strong>effects:</strong> sets stage 173 of <a href="../../quests/brightport_nondisplay/#stage-173">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard_packageselector">brightport_crateguard_packageselector</a></li>
+</ul>
+<p><span id="d-brightport_crateguard_arrest"></span><strong><code>brightport_crateguard_arrest</code></strong> Brightport guard: “Ha! The commander can forgive a mistake or two. Grab him. We'll interrogate him later” — <strong>effects:</strong> sets stage 159 of <a href="../../quests/brightport_nondisplay/#stage-159">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard_packageselector">brightport_crateguard_packageselector</a></li>
+</ul>
+<p><span id="d-brightport_crateguard"></span><strong><code>brightport_crateguard</code></strong> Brightport guard: “Halt! What are you doing here?”</p>
+<ul>
+<li>“I'm searching for my brother Andor, have you seen him?” <em>(if NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; NOT reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>)</em> → <a href="#d-brightport_crateguard8">brightport_crateguard8</a></li>
+<li>“That's private. Nothing you need to worry about.” <em>(if reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_crateguard0">brightport_crateguard0</a></li>
+<li>“Gentlemen. Has sir Gunfryk not told you to keep your noses out of places they don't belong?” <em>(if reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_crateguard2">brightport_crateguard2</a></li>
+<li>“I was patrolling the place to keep it safe from troublemakers, obviously.” <em>(if reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>)</em> → <a href="#d-brightport_crateguard3">brightport_crateguard3</a></li>
+</ul>
+<p><span id="d-brightport_crateguard_packageselector"></span><strong><code>brightport_crateguard_packageselector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if hand over 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_crate_failure_arrest">brightport_crate_failure_arrest</a></li>
+<li>Next → <a href="#d-brightport_crate_failure_arrest">brightport_crate_failure_arrest</a></li>
+</ul>
+<p><span id="d-brightport_crateguard8"></span><strong><code>brightport_crateguard8</code></strong> Brightport guard: “And we're supposed to believe that?”</p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard9">brightport_crateguard9</a></li>
+</ul>
+<p><span id="d-brightport_crateguard0"></span><strong><code>brightport_crateguard0</code></strong> Brightport guard: “What's with that tone?! We came here on a simple patrol but I think we might have caught a spy. We should arrest him, right partner?”</p>
+<ul>
+<li>“Think about it twice. You try and arrest me, and by tomorrow morning you might find yourself discharged, or on a…” → <a href="#d-brightport_crateguard_arrest_selector">brightport_crateguard_arrest_selector</a></li>
+</ul>
+<p><span id="d-brightport_crateguard2"></span><strong><code>brightport_crateguard2</code></strong> Brightport guard: “Ha, you're funny kid. And suspicious. Funny and suspicious. The commander himself ordered us to go on a patrol. So I think we've caught a troublemaker.”</p>
+<ul>
+<li>“He might have ordered you to come here, but did he not tell you to keep your hands off Barthold and his friends? I…” → <a href="#d-brightport_crateguard_arrest2">brightport_crateguard_arrest2</a></li>
+</ul>
+<p><span id="d-brightport_crateguard3"></span><strong><code>brightport_crateguard3</code></strong> Brightport guard: “Wait, I think I know you. You're the kid who helped us with capturing those two criminals!”</p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard4">brightport_crateguard4</a></li>
+</ul>
+<p><span id="d-brightport_crate_failure_arrest"></span><strong><code>brightport_crate_failure_arrest</code></strong> Brightport guard: “The guards grab you by your shoulders and restrain you. You try shaking them off, but you can't resist them. They put a blindfold over your eyes, and next thing you know, you're in a jail cell.” — <strong>effects:</strong> moves you to <a href="../../maps/brightport_jail/">brightport_jail</a>, sets stage 144 of <a href="../../quests/brightport_nondisplay/#stage-144">brightport_nondisplay (hidden flag)</a>, clears stage 158 of <a href="../../quests/brightport_nondisplay/#stage-158">brightport_nondisplay (hidden flag)</a>, removes monsters from brightport_abandoned, starts timer “brightport_jail”, sets stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_crateguard9"></span><strong><code>brightport_crateguard9</code></strong> Brightport guard: “Calm down, our duty is to protect the citizens of this town. Maybe that cloaked figure was his brother.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate10">brightport_guardcrate10</a></li>
+</ul>
+<p><span id="d-brightport_crateguard_arrest_selector"></span><strong><code>brightport_crateguard_arrest_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if random chance (5%))</em> → <a href="#d-brightport_crateguard_arrest">brightport_crateguard_arrest</a></li>
+<li>Next <em>(if random chance (100%))</em> → <a href="#d-brightport_crateguard1">brightport_crateguard1</a></li>
+</ul>
+<p><span id="d-brightport_crateguard_arrest2"></span><strong><code>brightport_crateguard_arrest2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if random chance (5%))</em> → <a href="#d-brightport_crateguard_arrest3">brightport_crateguard_arrest3</a></li>
+<li>Next <em>(if random chance (100%))</em> → <a href="#d-brightport_crateguard7">brightport_crateguard7</a></li>
+</ul>
+<p><span id="d-brightport_crateguard4"></span><strong><code>brightport_crateguard4</code></strong> Brightport guard: “I guess you were the one the lookout spotted, so there is nothing else suspicious here. Either way, you did some impressive work with those two, but you shouldn't be hanging out around here. It's dangerous.”</p>
+<ul>
+<li>“Anything for the glory of Feygard.” → <a href="#d-brightport_crateguard5">brightport_crateguard5</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate10"></span><strong><code>brightport_guardcrate10</code></strong> Brightport guard: “Hmph, fine. We'll ask you a few questions then. What would your brother be doing here?”</p>
+<ul>
+<li>“We were playing hide and seek.” → <a href="#d-brightport_guardcrate11">brightport_guardcrate11</a></li>
+<li>“I don't know, I've been looking everywhere I can.” → <a href="#d-brightport_guardcrate15">brightport_guardcrate15</a></li>
+</ul>
+<p><span id="d-brightport_crateguard1"></span><strong><code>brightport_crateguard1</code></strong> Brightport guard: “Alright, alright, no need to get worked up. I think I've heard your name mentioned by the captain, so we'll trust him with this.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard6">brightport_crateguard6</a></li>
+</ul>
+<p><span id="d-brightport_crateguard7"></span><strong><code>brightport_crateguard7</code></strong> Brightport guard: “Alright, got it. Never thought the commander would let someone suspicious like you run around, but we'll trust his judgment.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_crateguard6">brightport_crateguard6</a></li>
+</ul>
+<p><span id="d-brightport_crateguard5"></span><strong><code>brightport_crateguard5</code></strong> Brightport guard: “That's the spirit. We'll be heading back now, so follow behind us. Wouldn't want a future knight of Feygard getting hurt.”</p>
+<ul>
+<li>“Sure, I'll be right behind you.” → <a href="#d-brightport_crateguard6">brightport_crateguard6</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate11"></span><strong><code>brightport_guardcrate11</code></strong> Brightport guard: “Hide and seek. In an abandoned structure, ways from town?”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate12">brightport_guardcrate12</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate15"></span><strong><code>brightport_guardcrate15</code></strong> Brightport guard: “You expect us to believe your brother's been the one wandering around this ruin?”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate16">brightport_guardcrate16</a></li>
+</ul>
+<p><span id="d-brightport_crateguard6"></span><strong><code>brightport_crateguard6</code></strong> <a href="../none/">Dummy NPC</a>: “The two guards exchange a glance, then turn and leave the building.” — <strong>effects:</strong> removes monsters from brightport_abandoned, sets stage 144 of <a href="../../quests/brightport_nondisplay/#stage-144">brightport_nondisplay (hidden flag)</a>, clears stage 158 of <a href="../../quests/brightport_nondisplay/#stage-158">brightport_nondisplay (hidden flag)</a>, sets stage 35 of <a href="../../quests/brightport_thieves/#stage-35">Boxed in</a></p>
+<p><span id="d-brightport_guardcrate12"></span><strong><code>brightport_guardcrate12</code></strong> Brightport guard: “And I suppose your friends are hiding in the jail cell too, huh?”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate13">brightport_guardcrate13</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate16"></span><strong><code>brightport_guardcrate16</code></strong> Brightport guard: “Sounds like an excuse to me. No one just wanders in here.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate17">brightport_guardcrate17</a></li>
+</ul>
+<p><span id="d-brightport_guardcrate13"></span><strong><code>brightport_guardcrate13</code></strong> <a href="../none/">Dummy NPC</a>: “The guards both laugh.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_guardcrate14">brightport_guardcrate14</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_guardcrate.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_guardcrate.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_guardcrate.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_guardcrate.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightport_guardcrate</code> · Data from v0.8.18</small></p>
 
 

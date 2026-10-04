@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -942,6 +1014,100 @@
 <ul>
 <li><a href="../../maps/ratdom_maze_515/">ratdom_maze_515</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/ratdom_quest/">Yellow is it</a>: stages 395</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (17 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ratdom_rat_warden2"></span><strong><code>ratdom_rat_warden2</code></strong> Wart: “Welcome to our great rat memory hall! Shall I tell you something about our great expositions?”</p>
+<ul>
+<li>“Thank you, I'll find my way.” → <em>conversation ends</em></li>
+<li>“Why is here an empty pedestal?” <em>(if NOT reached stage 130 of <a href="../../quests/ratdom_nondisplay/#stage-130">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_rat_warden2_r_1">ratdom_rat_warden2_r_1</a></li>
+<li>“I want to visit Fraedro.” <em>(if NOT reached stage 130 of <a href="../../quests/ratdom_quest/#stage-130">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden2_r_14">ratdom_rat_warden2_r_14</a></li>
+<li>“Do you have anything for sale?” → <em>shop opens</em></li>
+<li>“Please give me back my cheese.” <em>(if faction “ratdom_rat_cheese1” ≥ 1)</em> → <a href="#d-ratdom_rat_warden2_cheese">ratdom_rat_warden2_cheese</a></li>
+<li>“Please give me back my delicious Charwood cheddar.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; faction “ratdom_rat_cheese2” ≥ 1)</em> → <a href="#d-ratdom_rat_warden2_cheese">ratdom_rat_warden2_cheese</a></li>
+<li>“Please give me back my moldy blue cheese.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; NOT faction “ratdom_rat_cheese2” ≥ 1; faction “ratdom_rat_cheese3” ≥ 1)</em> → <a href="#d-ratdom_rat_warden2_cheese">ratdom_rat_warden2_cheese</a></li>
+<li>“Please give me back my goat cheese.” <em>(if NOT faction “ratdom_rat_cheese1” ≥ 1; NOT faction “ratdom_rat_cheese2” ≥ 1; NOT faction “ratdom_rat_cheese3” ≥ 1; faction “ratdom_rat_cheese4” ≥ 1)</em> → <a href="#d-ratdom_rat_warden2_cheese">ratdom_rat_warden2_cheese</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_1"></span><strong><code>ratdom_rat_warden2_r_1</code></strong> Wart: “Here stood the statue of King Rah. I told you about it.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden2_r_2">ratdom_rat_warden2_r_2</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_14"></span><strong><code>ratdom_rat_warden2_r_14</code></strong> Wart: “For security reasons, we don't let anyone talk with Fraedro until he finally admits everything.”</p>
+<ul>
+<li>“I did find the skeleton. Can Fraedro be released now?” → <a href="#d-ratdom_rat_warden2_r_15">ratdom_rat_warden2_r_15</a></li>
+<li>“Can I speak to Fraedro? Maybe he regrets what he did and wouldn't do it again.” <em>(if NOT reached stage 390 of <a href="../../quests/ratdom_quest/#stage-390">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_warden2_r_16">ratdom_rat_warden2_r_16</a></li>
+<li>“I don't think it was Fraedro.” → <a href="#d-ratdom_rat_warden2_r_17">ratdom_rat_warden2_r_17</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_cheese"></span><strong><code>ratdom_rat_warden2_cheese</code></strong> Wart: “Sure. Let's go outside.” — <strong>effects:</strong> spawns monsters on ratdom_maze_624</p>
+<p><span id="d-ratdom_rat_warden2_r_2"></span><strong><code>ratdom_rat_warden2_r_2</code></strong> Wart: “Thank you for bringing the bones back to me. But I still have to put them back together.”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_warden2_r_3">ratdom_rat_warden2_r_3</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_15"></span><strong><code>ratdom_rat_warden2_r_15</code></strong> Wart: “Of course not. He would steal the bones just one more time.”</p>
+<ul>
+<li>“You have a sad opinion of your fellow rats.” → <a href="#d-ratdom_rat_warden2_r_15a">ratdom_rat_warden2_r_15a</a></li>
+<li>“Can I speak to Fraedro? Maybe he regrets what he did and wouldn't do it again.” → <a href="#d-ratdom_rat_warden2_r_16">ratdom_rat_warden2_r_16</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16"></span><strong><code>ratdom_rat_warden2_r_16</code></strong> Wart: “No, you can't speak to Fraedro. It is too dangerous.”</p>
+<ul>
+<li>“Well, I have 100 gold pieces here. Can I speak to Fraedro?” <em>(if have 100 gold)</em> → <a href="#d-ratdom_rat_warden2_r_16a">ratdom_rat_warden2_r_16a</a></li>
+<li>“I would like to offer him 100 gold pieces to let me through, but I don't have enough with me.” <em>(if NOT have 100 gold)</em> → <em>conversation ends</em></li>
+<li>“Maybe it wasn't Fraedro after all?” → <a href="#d-ratdom_rat_warden2_r_17">ratdom_rat_warden2_r_17</a></li>
+<li>“Alright, I think I'll take a look at the rest of the exhibition now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_17"></span><strong><code>ratdom_rat_warden2_r_17</code></strong> Wart: “Of course he was. It couldn't have been otherwise. Go now please, I have work to do.”</p>
+<p><span id="d-ratdom_rat_warden2_r_3"></span><strong><code>ratdom_rat_warden2_r_3</code></strong> Wart: “Until then, our great museum will have to do without this highlight of the exhibition.”</p>
+<ul>
+<li>“Too bad.” → <a href="#d-ratdom_rat_warden2_r_14">ratdom_rat_warden2_r_14</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_15a"></span><strong><code>ratdom_rat_warden2_r_15a</code></strong> Wart: “They're just rats. What do you expect?”</p>
+<ul>
+<li>“Can I speak to Fraedro? Maybe he regrets what he did and wouldn't do it again.” → <a href="#d-ratdom_rat_warden2_r_16">ratdom_rat_warden2_r_16</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16a"></span><strong><code>ratdom_rat_warden2_r_16a</code></strong> Wart: “You think you could bribe me for a ridiculous 100 gold pieces?”</p>
+<ul>
+<li>“Eh, no. Of course not. Sorry. I'd better leave.” → <em>conversation ends</em></li>
+<li>“Well, if you don't want the gold ...” <em>(if pay 100 gold)</em> → <a href="#d-ratdom_rat_warden2_r_16b">ratdom_rat_warden2_r_16b</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16b"></span><strong><code>ratdom_rat_warden2_r_16b</code></strong> Wart: “Wait! [He takes the gold hastily] Sure you can talk to Fraedro. Do you see the stairs over there? Just walk along there, you can't miss it.” — <strong>effects:</strong> sets stage 395 of <a href="../../quests/ratdom_quest/#stage-395">Yellow is it</a></p>
+<ul>
+<li>“OK, bye.” → <a href="#d-ratdom_rat_warden2_r_16c">ratdom_rat_warden2_r_16c</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16c"></span><strong><code>ratdom_rat_warden2_r_16c</code></strong> Wart: “I hope you don't think I'll keep the gold for myself. I will use it for the museum.”</p>
+<ul>
+<li>“Sure, bye.” → <a href="#d-ratdom_rat_warden2_r_16d">ratdom_rat_warden2_r_16d</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16d"></span><strong><code>ratdom_rat_warden2_r_16d</code></strong> Wart: “You do not believe me!”</p>
+<ul>
+<li>“Yes, of course I believe you. But I have to go on.” → <a href="#d-ratdom_rat_warden2_r_16e">ratdom_rat_warden2_r_16e</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16e"></span><strong><code>ratdom_rat_warden2_r_16e</code></strong> Wart: “I'm honest as a church rat. Yes indeed.”</p>
+<ul>
+<li>“Bye.” → <a href="#d-ratdom_rat_warden2_r_16f">ratdom_rat_warden2_r_16f</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16f"></span><strong><code>ratdom_rat_warden2_r_16f</code></strong> Wart: “I am a little offended that you would accuse me of something despicable like accepting gold.”</p>
+<ul>
+<li>“But I just want to go.” → <a href="#d-ratdom_rat_warden2_r_16x">ratdom_rat_warden2_r_16x</a></li>
+</ul>
+<p><span id="d-ratdom_rat_warden2_r_16x"></span><strong><code>ratdom_rat_warden2_r_16x</code></strong> Wart: “Yes, go now, and don't keep me from my work.”</p>
+<ul>
+<li>“??” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat_warden2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ratdom_rat_warden2</code> · Data from v0.8.18</small></p>
 
 

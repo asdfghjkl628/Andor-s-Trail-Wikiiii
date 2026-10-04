@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,81 @@
 <ul>
 <li><a href="../../maps/brimhaven1/">brimhaven1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_employee/">Work for debts</a>: stages 30</li>
+<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 11</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (14 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_employer"></span><strong><code>brv_employer</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/brv_employee/#stage-90">Work for debts</a>)</em> → <a href="#d-brv_employer_90">brv_employer_90</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/brv_employee/#stage-40">Work for debts</a>)</em> → <a href="#d-brv_employer_40">brv_employer_40</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/brv_employee/#stage-30">Work for debts</a>)</em> → <a href="#d-brv_employer_30">brv_employer_30</a></li>
+<li>branch 4 <em>(if reached stage 10 of <a href="../../quests/brv_employee/#stage-10">Work for debts</a>)</em> → <a href="#d-brv_employer_10">brv_employer_10</a></li>
+<li>branch 5 <em>(if reached stage 1 of <a href="../../quests/brv_employee/#stage-1">Work for debts</a>)</em> → <a href="#d-brv_employer_01">brv_employer_01</a></li>
+<li>branch 6 → <a href="#d-brv_employer_0">brv_employer_0</a></li>
+</ul>
+<p><span id="d-brv_employer_90"></span><strong><code>brv_employer_90</code></strong> Gnossath: “Thanks again for your good work. Are you sure you don't want a job?”</p>
+<ul>
+<li>“Certainly not. I am on a mission for Mikhail.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_employer_40"></span><strong><code>brv_employer_40</code></strong> Gnossath: “You have carried some boulders already - good. Just do the rest too.”</p>
+<ul>
+<li>“OK.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_employer_30"></span><strong><code>brv_employer_30</code></strong> Gnossath: “Where are the boulders? I knew they would be too heavy for you.”</p>
+<ul>
+<li>“Just you wait.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_employer_10"></span><strong><code>brv_employer_10</code></strong> Gnossath: “Have you seen the lazybones, Stebbarik?”</p>
+<ul>
+<li>“Stebbarik is ill at home. He is very anxious that you might get angry.” → <a href="#d-brv_employer_10_10">brv_employer_10_10</a></li>
+</ul>
+<p><span id="d-brv_employer_01"></span><strong><code>brv_employer_01</code></strong> Gnossath: “I am waiting for Stebbarik. Have you seen him?” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/brv_nondisplay/#stage-11">brv_nondisplay (hidden flag)</a>, removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1</p>
+<ul>
+<li>“No. What do you want of him?” → <a href="#d-brv_employer_02">brv_employer_02</a></li>
+</ul>
+<p><span id="d-brv_employer_0"></span><strong><code>brv_employer_0</code></strong> Gnossath: “Ahoy kid! I am Gnossath, warden of the great dam.”</p>
+<ul>
+<li>Next → <a href="#d-brv_employer_01">brv_employer_01</a></li>
+</ul>
+<p><span id="d-brv_employer_10_10"></span><strong><code>brv_employer_10_10</code></strong> Gnossath: “Ill? Rats! Who will repair the dam now? It must be done soon.”</p>
+<ul>
+<li>“If it is so important, maybe I can help?” → <a href="#d-brv_employer_10_20">brv_employer_10_20</a></li>
+</ul>
+<p><span id="d-brv_employer_02"></span><strong><code>brv_employer_02</code></strong> Gnossath: “He has to work for me. I hope for his sake that he will appear soon.”</p>
+<ul>
+<li>Next → <a href="#d-brv_employer_04">brv_employer_04</a></li>
+</ul>
+<p><span id="d-brv_employer_10_20"></span><strong><code>brv_employer_10_20</code></strong> Gnossath: “You? This work requires a lot of heavy lifting. You being a kid and all, I'm not sure you are up to it.”</p>
+<ul>
+<li>Next → <a href="#d-brv_employer_10_22">brv_employer_10_22</a></li>
+</ul>
+<p><span id="d-brv_employer_04"></span><strong><code>brv_employer_04</code></strong> Gnossath: “You could do me a favor, if you'd find him for me.”</p>
+<p><span id="d-brv_employer_10_22"></span><strong><code>brv_employer_10_22</code></strong> Gnossath: “We need 25 big boulders carried from the stock to the dam here.”</p>
+<ul>
+<li>“Sounds easy. Let me try it.” → <a href="#d-brv_employer_10_30">brv_employer_10_30</a></li>
+<li>“You are right. This is no work for me.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_employer_10_30"></span><strong><code>brv_employer_10_30</code></strong> Gnossath: “OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_employee/#stage-30">Work for debts</a>, changes map brimhaven1</p>
+<ul>
+<li>“OK.” → <a href="#d-brv_employer_10_40">brv_employer_10_40</a></li>
+</ul>
+<p><span id="d-brv_employer_10_40"></span><strong><code>brv_employer_10_40</code></strong> Gnossath: “But beware, they are really heavy.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_employer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_employer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_employer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_employer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_employer</code> · Data from v0.8.18</small></p>
 
 

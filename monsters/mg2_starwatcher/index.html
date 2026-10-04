@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,176 @@
 <ul>
 <li><a href="../../maps/wild22/">wild22</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/mg2_exploded_star/">The exploded star</a>: stages 5, 10, 15, 20, 30, 40, 45, 46, 50</li>
+<li><a href="../../quests/mg2_exploded_star_nd/">mg2_exploded_star_nd (hidden flag)</a>: stages 90, 91</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (35 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-mg2_starwatcher"></span><strong><code>mg2_starwatcher</code></strong> Teccow: “Hello kid.”</p>
+<ul>
+<li>“Hello oldie.” → <em>conversation ends</em></li>
+<li>“What are you doing here?” <em>(if NOT reached stage 10 of <a href="../../quests/mg2_exploded_star/#stage-10">The exploded star</a>; NOT reached stage 80 of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a>)</em> → <a href="#d-mg2_starwatcher_1">mg2_starwatcher_1</a></li>
+<li>“What are you doing here?” <em>(if NOT reached stage 10 of <a href="../../quests/mg2_exploded_star/#stage-10">The exploded star</a>; reached stage 80 of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a>; NOT reached stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a>)</em> → <a href="#d-mg2_starwatcher_2">mg2_starwatcher_2</a></li>
+<li>“About the falling star ...” <em>(if reached stage 15 of <a href="../../quests/mg2_exploded_star/#stage-15">The exploded star</a>; NOT reached stage 45 of <a href="../../quests/mg2_exploded_star/#stage-45">The exploded star</a>; NOT reached stage 50 of <a href="../../quests/mg2_exploded_star/#stage-50">The exploded star</a>; NOT reached stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a>)</em> → <a href="#d-mg2_starwatcher_20">mg2_starwatcher_20</a></li>
+<li>“About the falling star ...” <em>(if reached stage 10 of <a href="../../quests/mg2_exploded_star/#stage-10">The exploded star</a>; NOT reached stage 15 of <a href="../../quests/mg2_exploded_star/#stage-15">The exploded star</a>; NOT reached stage 45 of <a href="../../quests/mg2_exploded_star/#stage-45">The exploded star</a>; NOT reached stage 46 of <a href="../../quests/mg2_exploded_star/#stage-46">The exploded star</a>; NOT reached stage 50 of <a href="../../quests/mg2_exploded_star/#stage-50">The exploded star</a>; NOT reached stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a>)</em> → <a href="#d-mg2_starwatcher_3">mg2_starwatcher_3</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_1"></span><strong><code>mg2_starwatcher_1</code></strong> Teccow: “I'm doing adult things. Come back when you're much stronger. Then we can talk.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/mg2_exploded_star/#stage-5">The exploded star</a></p>
+<ul>
+<li>“Just you wait, I'll show you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_2"></span><strong><code>mg2_starwatcher_2</code></strong> Teccow: “You saw it too, didn't you?”</p>
+<ul>
+<li>“Sure.” → <a href="#d-mg2_starwatcher_3">mg2_starwatcher_3</a></li>
+<li>“What do you mean?” → <a href="#d-mg2_starwatcher_3">mg2_starwatcher_3</a></li>
+<li>“No, I haven't had any mead today.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_20"></span><strong><code>mg2_starwatcher_20</code></strong> Teccow: “Kid, I have told you it wasn't a falling star.”</p>
+<ul>
+<li>“Anyway, I haven't found any pieces yet.” <em>(if NOT faction “mg2_exploded_star” ≥ 1)</em> → <a href="#d-mg2_starwatcher_22">mg2_starwatcher_22</a></li>
+<li>“Anyway, here I have some pieces already.” <em>(if carry 1× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>; NOT carry 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_24">mg2_starwatcher_24</a></li>
+<li>“I might give you half of them - five pieces.” <em>(if carry 5× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>; reached stage 17 of <a href="../../quests/mg2_exploded_star/#stage-17">The exploded star</a>; NOT reached stage 45 of <a href="../../quests/mg2_exploded_star/#stage-45">The exploded star</a>; NOT reached stage 47 of <a href="../../quests/mg2_exploded_star/#stage-47">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_25">mg2_starwatcher_25</a></li>
+<li>“I might give you the rest of them - five pieces.” <em>(if hand over 5× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>; reached stage 47 of <a href="../../quests/mg2_exploded_star/#stage-47">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_28">mg2_starwatcher_28</a></li>
+<li>“Anyway, I have found all of the ten pieces.” <em>(if reached stage 110 of <a href="../../quests/mg2_exploded_star/#stage-110">The exploded star</a>; NOT reached stage 20 of <a href="../../quests/mg2_exploded_star/#stage-20">The exploded star</a>; NOT reached stage 40 of <a href="../../quests/mg2_exploded_star/#stage-40">The exploded star</a>; NOT reached stage 45 of <a href="../../quests/mg2_exploded_star/#stage-45">The exploded star</a>; NOT reached stage 46 of <a href="../../quests/mg2_exploded_star/#stage-46">The exploded star</a>; NOT reached stage 52 of <a href="../../quests/mg2_exploded_star/#stage-52">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_30">mg2_starwatcher_30</a></li>
+<li>“Anyway, I have found all of the ten pieces, but I have already given them to Kealwea in Sullengard.” <em>(if reached stage 52 of <a href="../../quests/mg2_exploded_star/#stage-52">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_32">mg2_starwatcher_32</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_3"></span><strong><code>mg2_starwatcher_3</code></strong> Teccow: “A tear in the heavens. Not a star falling, but something cast down.”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_4">mg2_starwatcher_4</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_22"></span><strong><code>mg2_starwatcher_22</code></strong> Teccow: “Don't waste time. Go again and find them. It is urgent!”</p>
+<p><span id="d-mg2_starwatcher_24"></span><strong><code>mg2_starwatcher_24</code></strong> Teccow: “Good, good. But these are not all of them. It must be ten - where are the others?”</p>
+<p><span id="d-mg2_starwatcher_25"></span><strong><code>mg2_starwatcher_25</code></strong> Teccow: “You must be out of your mind! They are deadly - let me destroy all of them.”</p>
+<ul>
+<li>“OK, you are right. Here take them and do what you must.” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_50">mg2_starwatcher_50</a></li>
+<li>“No, I will give you only half of them.” <em>(if hand over 5× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_26">mg2_starwatcher_26</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_28"></span><strong><code>mg2_starwatcher_28</code></strong> Teccow: “Good, good. I'll destroy these dangerous things.” — <strong>effects:</strong> sets stage 46 of <a href="../../quests/mg2_exploded_star/#stage-46">The exploded star</a></p>
+<ul>
+<li>“Great to hear. And now I have to go and find my brother at last.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_30"></span><strong><code>mg2_starwatcher_30</code></strong> Teccow: “Good, good. Give them to me. I'll destroy these dangerous things.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/mg2_exploded_star/#stage-30">The exploded star</a></p>
+<ul>
+<li>“I seem to have lost them. Just a minute, I'll look for them ...” <em>(if NOT carry 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>; NOT reached stage 52 of <a href="../../quests/mg2_exploded_star/#stage-52">The exploded star</a>)</em> → <em>conversation ends</em></li>
+<li>“But I have already given them to Kealwea in Sullengard.” <em>(if reached stage 52 of <a href="../../quests/mg2_exploded_star/#stage-52">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_32">mg2_starwatcher_32</a></li>
+<li>“Here you go. Take it and do what you have to do.” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_50">mg2_starwatcher_50</a></li>
+<li>“I've changed my mind. These glittery things are too pretty to be destroyed.” <em>(if carry 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_40">mg2_starwatcher_40</a></li>
+<li>“Hmm, I still have to think about it. I'll be back...” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_32"></span><strong><code>mg2_starwatcher_32</code></strong> Teccow: “You fool!” — <strong>effects:</strong> sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+<ul>
+<li>“It was the right thing to do.” → <a href="#d-mg2_starwatcher_34">mg2_starwatcher_34</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_4"></span><strong><code>mg2_starwatcher_4</code></strong> Teccow: “It wept fire. And the mountain answered with a shudder. Such things are not random.”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_5">mg2_starwatcher_5</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_50"></span><strong><code>mg2_starwatcher_50</code></strong> Teccow: “Wonderful. You have no idea what terrible things this crystal could have done.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/mg2_exploded_star/#stage-50">The exploded star</a></p>
+<ul>
+<li>“Yes - whatever it was exactly.” → <a href="#d-mg2_starwatcher_52">mg2_starwatcher_52</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_26"></span><strong><code>mg2_starwatcher_26</code></strong> Teccow: “Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/mg2_exploded_star/#stage-45">The exploded star</a></p>
+<ul>
+<li>“I might throw the remaining ones at Andor. Hmm ...” <em>(if carry 1× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_27">mg2_starwatcher_27</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_40"></span><strong><code>mg2_starwatcher_40</code></strong> Teccow: “You must be out of your mind! Free yourself from them or you are lost!”</p>
+<ul>
+<li>“No. I will keep them.” → <a href="#d-mg2_starwatcher_42">mg2_starwatcher_42</a></li>
+<li>“You are certainly right. Take it and do what you have to do.” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_starwatcher_50">mg2_starwatcher_50</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_34"></span><strong><code>mg2_starwatcher_34</code></strong> Teccow: “It is bad. But I won't talk about it anymore.”</p>
+<p><span id="d-mg2_starwatcher_5"></span><strong><code>mg2_starwatcher_5</code></strong> <a href="../none/">Dummy NPC</a>: “He gestured to the dark Galmore montains in the distant south.”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_10">mg2_starwatcher_10</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_52"></span><strong><code>mg2_starwatcher_52</code></strong> Teccow: “You did the right thing. The whole world is grateful to you.”</p>
+<ul>
+<li>“I do something like that every other day.” → <em>conversation ends</em></li>
+<li>“I can't buy anything with words of thanks.” → <a href="#d-mg2_starwatcher_54">mg2_starwatcher_54</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_27"></span><strong><code>mg2_starwatcher_27</code></strong> Teccow: “What???”</p>
+<ul>
+<li>“Nothing. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_42"></span><strong><code>mg2_starwatcher_42</code></strong> Teccow: “NOOOOO!!” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/mg2_exploded_star/#stage-40">The exploded star</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+<ul>
+<li>“Now you're exaggerating. I'll go then.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_10"></span><strong><code>mg2_starwatcher_10</code></strong> <a href="./">Teccow</a>: “Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/mg2_exploded_star/#stage-10">The exploded star</a></p>
+<ul>
+<li>“Can I help?” → <a href="#d-mg2_starwatcher_14">mg2_starwatcher_14</a></li>
+<li>“How do you know there are ten pieces?” → <a href="#d-mg2_starwatcher_12">mg2_starwatcher_12</a></li>
+<li>“Ten tongues of light, each flickering in defiance of the dark.” <em>(if reached stage 12 of <a href="../../quests/mg2_exploded_star/#stage-12">The exploded star</a>)</em> → <a href="#d-mg2_starwatcher_11">mg2_starwatcher_11</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_54"></span><strong><code>mg2_starwatcher_54</code></strong> Teccow: “Oh. I understand.”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_56">mg2_starwatcher_56</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_14"></span><strong><code>mg2_starwatcher_14</code></strong> Teccow: “[Ominous voice] In The Ash I Saw Them - Ten Tongues Of Light, Each Flickering In Defiance Of The Dark.”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_15">mg2_starwatcher_15</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_12"></span><strong><code>mg2_starwatcher_12</code></strong> Teccow: “I can feel it.”</p>
+<ul>
+<li>“You can feel that there are ten? Wow.” → <a href="#d-mg2_starwatcher_14">mg2_starwatcher_14</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_11"></span><strong><code>mg2_starwatcher_11</code></strong> Teccow: “How do you know?!”</p>
+<ul>
+<li>“Kealwea, priest of Sullengard, told me so. Now go on.” → <a href="#d-mg2_starwatcher_16">mg2_starwatcher_16</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_56"></span><strong><code>mg2_starwatcher_56</code></strong> Teccow: “I have no gold to give...”</p>
+<ul>
+<li>“No?” → <a href="#d-mg2_starwatcher_60">mg2_starwatcher_60</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_15"></span><strong><code>mg2_starwatcher_15</code></strong> Teccow: “Their Number Is Ten. Not Nine. Not Eleven. Ten.”</p>
+<ul>
+<li>“All right, all right. Ten.” → <a href="#d-mg2_starwatcher_16">mg2_starwatcher_16</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_16"></span><strong><code>mg2_starwatcher_16</code></strong> Teccow: “So if you have no more questions ...”</p>
+<ul>
+<li>“Well, why don't you go and collect them?” → <a href="#d-mg2_starwatcher_17">mg2_starwatcher_17</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_60"></span><strong><code>mg2_starwatcher_60</code></strong> Teccow: “But this necklace with a medal on it will remind you of your heroic deed at any time.” — <strong>effects:</strong> gives 1× <a href="../../items/mg2_rewarded_necklace/">Necklace with a medal from Teccow</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg2_starwatcher_17"></span><strong><code>mg2_starwatcher_17</code></strong> Teccow: “Only little children could ask such a stupid question. Of course I can't go. Stoutford needs me here.”</p>
+<ul>
+<li>“What for?” → <a href="#d-mg2_starwatcher_17b">mg2_starwatcher_17b</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_17b"></span><strong><code>mg2_starwatcher_17b</code></strong> Teccow: “Silence now!”</p>
+<ul>
+<li>Next → <a href="#d-mg2_starwatcher_18">mg2_starwatcher_18</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_18"></span><strong><code>mg2_starwatcher_18</code></strong> Teccow: “'Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/mg2_exploded_star/#stage-15">The exploded star</a></p>
+<ul>
+<li>“But ...” <em>(if NOT faction “mg2_exploded_star” ≥ 1)</em> → <a href="#d-mg2_starwatcher_19">mg2_starwatcher_19</a></li>
+<li>“In fact I have already found some of these stars.” <em>(if faction “mg2_exploded_star” ≥ 1)</em> → <a href="#d-mg2_starwatcher_20">mg2_starwatcher_20</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_19"></span><strong><code>mg2_starwatcher_19</code></strong> Teccow: “[Ominous voice] Bring The Ten Pieces ...”</p>
+<ul>
+<li>“Enough, please! I can't think when you are talking like this.” → <em>conversation ends</em></li>
+<li>“Forget it, do it yourself.” → <a href="#d-mg2_starwatcher_19a">mg2_starwatcher_19a</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_19a"></span><strong><code>mg2_starwatcher_19a</code></strong> Teccow: “So you really don't want to help? And save the world from this disaster?”</p>
+<ul>
+<li>“Maybe later. I have to go now.” → <em>conversation ends</em></li>
+<li>“No, I have enough other things to do.” → <a href="#d-mg2_starwatcher_19b">mg2_starwatcher_19b</a></li>
+</ul>
+<p><span id="d-mg2_starwatcher_19b"></span><strong><code>mg2_starwatcher_19b</code></strong> Teccow: “Woe, woe! Then leave me. I hope you can live with the guilt.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/mg2_exploded_star/#stage-20">The exploded star</a>, sets stage 90 of <a href="../../quests/mg2_exploded_star_nd/#stage-90">mg2_exploded_star_nd (hidden flag)</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_starwatcher.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_starwatcher.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_starwatcher.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_starwatcher.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>mg2_starwatcher</code> · Data from v0.8.18</small></p>
 
 

@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,85 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/prim_innquest/">Well rested</a>: stages 10, 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (15 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-prim_cook_start"></span><strong><code>prim_cook_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/prim_innquest/#stage-50">Well rested</a>)</em> → <a href="#d-prim_cook_return_1">prim_cook_return_1</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/prim_innquest/#stage-10">Well rested</a>)</em> → <a href="#d-prim_cook_return_2">prim_cook_return_2</a></li>
+<li>branch 3 → <a href="#d-prim_cook_1">prim_cook_1</a></li>
+</ul>
+<p><span id="d-prim_cook_return_1"></span><strong><code>prim_cook_return_1</code></strong> Prim cook: “Thank you for your help earlier. I hope the back room is comfortable enough.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_return_7">prim_cook_return_7</a></li>
+</ul>
+<p><span id="d-prim_cook_return_2"></span><strong><code>prim_cook_return_2</code></strong> Prim cook: “Did you talk to Arghest?”</p>
+<ul>
+<li>“No, not yet.” → <a href="#d-prim_cook_return_3">prim_cook_return_3</a></li>
+<li>“[Lie] Yes, he told me that I could rest in the back room if I want to.” → <a href="#d-prim_cook_return_4">prim_cook_return_4</a></li>
+<li>“Yes, he gave me permission to use the back room whenever I wish.” <em>(if reached stage 40 of <a href="../../quests/prim_innquest/#stage-40">Well rested</a>)</em> → <a href="#d-prim_cook_return_6">prim_cook_return_6</a></li>
+</ul>
+<p><span id="d-prim_cook_1"></span><strong><code>prim_cook_1</code></strong> Prim cook: “Can I help you?”</p>
+<ul>
+<li>“What food do you have available for trade?” → <a href="#d-prim_cook_2">prim_cook_2</a></li>
+<li>“Is the back room available for rent?” → <a href="#d-prim_cook_3">prim_cook_3</a></li>
+</ul>
+<p><span id="d-prim_cook_return_7"></span><strong><code>prim_cook_return_7</code></strong> Prim cook: “You are welcome to rest in the back room any time you want. Please let me know if there is anything I can do to help.”</p>
+<p><span id="d-prim_cook_return_3"></span><strong><code>prim_cook_return_3</code></strong> Prim cook: “Return to me once you know if he is still interested in renting the back room or not.”</p>
+<ul>
+<li>“Any idea where he might be?” → <a href="#d-prim_cook_6">prim_cook_6</a></li>
+</ul>
+<p><span id="d-prim_cook_return_4"></span><strong><code>prim_cook_return_4</code></strong> Prim cook: “Did he really say that? Somehow I doubt that. It doesn't sound like him.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_return_5">prim_cook_return_5</a></li>
+</ul>
+<p><span id="d-prim_cook_return_6"></span><strong><code>prim_cook_return_6</code></strong> Prim cook: “Really, he did? Well then, go ahead. I'm just glad the back room is being used.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/prim_innquest/#stage-50">Well rested</a></p>
+<ul>
+<li>Next → <a href="#d-prim_cook_return_7">prim_cook_return_7</a></li>
+</ul>
+<p><span id="d-prim_cook_2"></span><strong><code>prim_cook_2</code></strong> Prim cook: “Food? No, sorry. I don't have anything to trade.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_1">prim_cook_1</a></li>
+</ul>
+<p><span id="d-prim_cook_3"></span><strong><code>prim_cook_3</code></strong> Prim cook: “Rent? Hmm. No, not at the moment.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_41">prim_cook_41</a></li>
+</ul>
+<p><span id="d-prim_cook_6"></span><strong><code>prim_cook_6</code></strong> Prim cook: “I don't know where he is now, but I do know that he used to be part of the mining effort in our mine to the southwest.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/prim_innquest/#stage-10">Well rested</a></p>
+<ul>
+<li>“Thanks. I will go look for him.” → <em>conversation ends</em></li>
+<li>“I will go look for him right away.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-prim_cook_return_5"></span><strong><code>prim_cook_return_5</code></strong> Prim cook: “You will have to do something more to convince me.”</p>
+<p><span id="d-prim_cook_41"></span><strong><code>prim_cook_41</code></strong> Prim cook: “It is still rented out to Arghest. He would not be very happy if I rented it out to someone else when he expects to use it.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_5">prim_cook_5</a></li>
+</ul>
+<p><span id="d-prim_cook_5"></span><strong><code>prim_cook_5</code></strong> Prim cook: “Now that you mention it, he hasn't been around here for quite some time. Maybe you could go talk to him and see if he still wants to rent it?”</p>
+<ul>
+<li>“OK, I will go talk to him.” → <a href="#d-prim_cook_7">prim_cook_7</a></li>
+<li>“Sure. Any idea where he might be?” → <a href="#d-prim_cook_6">prim_cook_6</a></li>
+</ul>
+<p><span id="d-prim_cook_7"></span><strong><code>prim_cook_7</code></strong> Prim cook: “Thanks.”</p>
+<ul>
+<li>Next → <a href="#d-prim_cook_6">prim_cook_6</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>prim_cook</code> · Data from v0.8.18</small></p>
 
 

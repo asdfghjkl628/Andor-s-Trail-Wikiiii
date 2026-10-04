@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,91 @@
 <ul>
 <li><a href="../../maps/brightport_lizard1/">brightport_lizard1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_lizard/">The balance of scales</a>: stages 40, 60, 90, 95</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 117, 118</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (19 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_lizardking"></span><strong><code>brightport_lizardking</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 90 of <a href="../../quests/brightport_lizard/#stage-90">The balance of scales</a>)</em> → <a href="#d-brightport_elyzard8">brightport_elyzard8</a></li>
+<li>Next <em>(if reached stage 60 of <a href="../../quests/brightport_lizard/#stage-60">The balance of scales</a>; NOT reached stage 95 of <a href="../../quests/brightport_lizard/#stage-95">The balance of scales</a>)</em> → <a href="#d-brightport_elyzard4">brightport_elyzard4</a></li>
+<li>Next <em>(if reached stage 40 of <a href="../../quests/brightport_lizard/#stage-40">The balance of scales</a>; NOT reached stage 60 of <a href="../../quests/brightport_lizard/#stage-60">The balance of scales</a>)</em> → <a href="#d-brightport_elyzard1">brightport_elyzard1</a></li>
+<li>Next <em>(if NOT reached stage 40 of <a href="../../quests/brightport_lizard/#stage-40">The balance of scales</a>)</em> → <a href="#d-brightport_elyzard">brightport_elyzard</a></li>
+</ul>
+<p><span id="d-brightport_elyzard8"></span><strong><code>brightport_elyzard8</code></strong> Three-fang-elyzard: “You are welcome here, outsider. Rest well.”</p>
+<p><span id="d-brightport_elyzard4"></span><strong><code>brightport_elyzard4</code></strong> Three-fang-elyzard: “Help the Shadow Chaplain with task, only then our trust be restored.”</p>
+<ul>
+<li>“I helped Dominio with his task.” <em>(if reached stage 127 of <a href="../../quests/brightport_nondisplay/#stage-127">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elyzard5">brightport_elyzard5</a></li>
+</ul>
+<p><span id="d-brightport_elyzard1"></span><strong><code>brightport_elyzard1</code></strong> Three-fang-elyzard: “Outsider, have you returned with the bones?”</p>
+<ul>
+<li>“Yes, 13 as promised.” <em>(if hand over 13× <a href="../../items/brightport_bone/">Lizardman bone</a>)</em> → <a href="#d-brightport_elyzard2">brightport_elyzard2</a></li>
+<li>“Not yet.” → <a href="#d-brightport_elyzard0_1">brightport_elyzard0_1</a></li>
+</ul>
+<p><span id="d-brightport_elyzard"></span><strong><code>brightport_elyzard</code></strong> Three-fang-elyzard: “I have heard from Emyro. You come before me, but there can be no talk before you return what the witch stole!”</p>
+<ul>
+<li>“I swear to return what was taken from you, what should I do?” → <a href="#d-brightport_elyzard0_0">brightport_elyzard0_0</a></li>
+<li>“I've changed my mind, we will talk with our swords!” → <a href="#d-brightport_lizardkingfight">brightport_lizardkingfight</a></li>
+</ul>
+<p><span id="d-brightport_elyzard5"></span><strong><code>brightport_elyzard5</code></strong> Three-fang-elyzard: “The spirits of our kin see your worth, outsider. Accept this gift from our tribe's great treasures.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/brightport_lizard/#stage-90">The balance of scales</a>, gives 1× <a href="../../items/brightport_crown/">Argentscale diadem</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_elyzard6">brightport_elyzard6</a></li>
+</ul>
+<p><span id="d-brightport_elyzard2"></span><strong><code>brightport_elyzard2</code></strong> Three-fang-elyzard: “We thank you outsider. But not enough to repair our trust.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elyzard3">brightport_elyzard3</a></li>
+</ul>
+<p><span id="d-brightport_elyzard0_1"></span><strong><code>brightport_elyzard0_1</code></strong> Three-fang-elyzard: “Our fangs hunger for retribution and our claws follow swiftly, we will not wait for long.”</p>
+<p><span id="d-brightport_elyzard0_0"></span><strong><code>brightport_elyzard0_0</code></strong> <a href="../none/">Dummy NPC</a>: “The lizard king's advisor interjects”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elyzard0">brightport_elyzard0</a></li>
+</ul>
+<p><span id="d-brightport_lizardkingfight"></span><strong><code>brightport_lizardkingfight</code></strong> <a href="./">Three-fang-elyzard</a>: “Despicable creature, you show your true self before us. Your days end!” — <strong>effects:</strong> faction “lizardman” set to -110, sets stage 118 of <a href="../../quests/brightport_nondisplay/#stage-118">brightport_nondisplay (hidden flag)</a>, faction “lizardfight” set to -110</p>
+<ul>
+<li>Next <em>(if NOT reached stage 117 of <a href="../../quests/brightport_nondisplay/#stage-117">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_lizardfight">brightport_lizardfight</a></li>
+</ul>
+<p><span id="d-brightport_elyzard6"></span><strong><code>brightport_elyzard6</code></strong> Three-fang-elyzard: “Our trust is given, what else do you wish to ask for.”</p>
+<ul>
+<li>“Would you agree to trade Bryma the bones of animals you hunt?” <em>(if reached stage 221 of <a href="../../quests/brightport_nondisplay/#stage-221">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elyzard7">brightport_elyzard7</a></li>
+<li>“Peace is enough.” → <a href="#d-brightport_elyzard9">brightport_elyzard9</a></li>
+</ul>
+<p><span id="d-brightport_elyzard3"></span><strong><code>brightport_elyzard3</code></strong> Three-fang-elyzard: “Speak with Dominio our Shadow chaplain, he will tell you the task.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/brightport_lizard/#stage-60">The balance of scales</a></p>
+<p><span id="d-brightport_elyzard0"></span><strong><code>brightport_elyzard0</code></strong> <a href="../brightport_lizardadvisor/">Tail-swing-tyliad</a>: “Minion of the witch! From our burial chamber 13 bones of our ancestors were shamelessly stolen. Return them to us or we will return them ourselves.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brightport_lizard/#stage-40">The balance of scales</a></p>
+<p><span id="d-brightport_lizardfight"></span><strong><code>brightport_lizardfight</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_lizard1, sets stage 117 of <a href="../../quests/brightport_nondisplay/#stage-117">brightport_nondisplay (hidden flag)</a>, faction “lizardfight” set to -111, removes monsters from brightport_lizard3, removes monsters from brightport_lizard2, removes monsters from brightport_lizard3, removes monsters from brightport_lizard1, removes monsters from brightport_lizard1</p>
+<ul>
+<li>Next <em>(if NOT reached stage 118 of <a href="../../quests/brightport_nondisplay/#stage-118">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_lizardfight1_1">brightport_lizardfight1_1</a></li>
+<li>Next <em>(if reached stage 118 of <a href="../../quests/brightport_nondisplay/#stage-118">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_lizardkingfight1">brightport_lizardkingfight1</a></li>
+</ul>
+<p><span id="d-brightport_elyzard7"></span><strong><code>brightport_elyzard7</code></strong> Three-fang-elyzard: “It is agreed. Now go and rest well, we welcome you.” — <strong>effects:</strong> sets stage 95 of <a href="../../quests/brightport_lizard/#stage-95">The balance of scales</a></p>
+<p><span id="d-brightport_elyzard9"></span><strong><code>brightport_elyzard9</code></strong> Three-fang-elyzard: “It is agreed. Now go and rest well, we welcome you.”</p>
+<p><span id="d-brightport_lizardfight1_1"></span><strong><code>brightport_lizardfight1_1</code></strong> Three-fang-elyzard: “As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_lizardfight1">brightport_lizardfight1</a></li>
+</ul>
+<p><span id="d-brightport_lizardkingfight1"></span><strong><code>brightport_lizardkingfight1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <em>fight starts</em></li>
+</ul>
+<p><span id="d-brightport_lizardfight1"></span><strong><code>brightport_lizardfight1</code></strong> <a href="../brightport_lizard00/">Lizard warrior</a>: “Your days end here, troublesome intruder!”</p>
+<ul>
+<li>“I will polish my blade in your blood.” → <em>conversation ends</em></li>
+<li>“Is it too late to apologize?” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_lizardking.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_lizardking.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_lizardking.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_lizardking.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightport_lizardking</code> · Data from v0.8.18</small></p>
 
 

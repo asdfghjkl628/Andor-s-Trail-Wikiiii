@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,62 @@
 <ul>
 <li><a href="../../maps/brightport5/">brightport5</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 232</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (9 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightportguard_1_selector"></span><strong><code>brightportguard_1_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 144 of <a href="../../quests/brightport_nondisplay/#stage-144">brightport_nondisplay (hidden flag)</a>; NOT reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>; NOT reached stage 232 of <a href="../../quests/brightport_nondisplay/#stage-232">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightportguard_afterhide">brightportguard_afterhide</a></li>
+<li>Next <em>(if reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>; NOT reached stage 232 of <a href="../../quests/brightport_nondisplay/#stage-232">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightportguard_2">brightportguard_2</a></li>
+<li>Next → <a href="#d-brightportguard_1">brightportguard_1</a></li>
+</ul>
+<p><span id="d-brightportguard_afterhide"></span><strong><code>brightportguard_afterhide</code></strong> Brightport guard: “Hey, did you not meet with my comrades? They came back from a patrol just now.” — <strong>effects:</strong> sets stage 232 of <a href="../../quests/brightport_nondisplay/#stage-232">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Uhh no, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightportguard_2"></span><strong><code>brightportguard_2</code></strong> Brightport guard: “Hmm? I think I saw my comrades carry you away from this direction before...” — <strong>effects:</strong> sets stage 232 of <a href="../../quests/brightport_nondisplay/#stage-232">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Oops, gotta go.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightportguard_1"></span><strong><code>brightportguard_1</code></strong> Brightport guard: “Halt! If you value your life, stay off this path.” — <strong>effects:</strong> clears stage 232 of <a href="../../quests/brightport_nondisplay/#stage-232">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Ha, I can handle myself. Don't worry about me.” → <a href="#d-brightportguard_1reply">brightportguard_1reply</a></li>
+<li>“What's wrong with this road?” → <a href="#d-brightportguard_1reply1">brightportguard_1reply1</a></li>
+<li>“[Slip past him.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightportguard_1reply"></span><strong><code>brightportguard_1reply</code></strong> <a href="./">Brightport guard</a>: “Sure, kid. You do seem to be carrying some shiny equipment. Just don't blame me if you get eaten by a scary lizardman.”</p>
+<ul>
+<li>“Lizardmen?” → <a href="#d-brightportguard_1reply2">brightportguard_1reply2</a></li>
+</ul>
+<p><span id="d-brightportguard_1reply1"></span><strong><code>brightportguard_1reply1</code></strong> <a href="./">Brightport guard</a>: “If you go that way, all you'll find is a shack, some trees, and the mountain. What's really scary are the nasty lizardmen who occasionally stumble up on the shore.”</p>
+<ul>
+<li>“Lizardmen?” → <a href="#d-brightportguard_1reply2">brightportguard_1reply2</a></li>
+<li>“Guess I'll turn around.” → <a href="#d-brightportguard_1reply3">brightportguard_1reply3</a></li>
+</ul>
+<p><span id="d-brightportguard_1reply2"></span><strong><code>brightportguard_1reply2</code></strong> <a href="../brightportguard/">Brightport guard</a>: “Terrifying, humanoid creatures with blood-red scales instead of skin, and the head of a giant Erumen lizard.”</p>
+<ul>
+<li>Next → <a href="#d-brightportguard_1_reply4">brightportguard_1_reply4</a></li>
+</ul>
+<p><span id="d-brightportguard_1reply3"></span><strong><code>brightportguard_1reply3</code></strong> <a href="./">Brightport guard</a>: “Take care, and don't slack off in school, or else you'll end up slaying sewer rats down in Nor City. [laughs]”</p>
+<p><span id="d-brightportguard_1_reply4"></span><strong><code>brightportguard_1_reply4</code></strong> <a href="../brightportguard/">Brightport guard</a>: “Just the thought gives me shivers.”</p>
+<ul>
+<li>“Guess I'll go back.” → <a href="#d-brightportguard_1reply3">brightportguard_1reply3</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportguard2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportguard2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportguard2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportguard2.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportguard2</code> · Data from v0.8.18</small></p>
 
 

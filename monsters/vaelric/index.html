@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -947,6 +1019,289 @@
 <ul>
 <li><a href="../../maps/galmore_17_house/">galmore_17_house</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/mg_restless_grave/">Restless in the grave</a>: stages 20, 63, 70, 80, 95, 97, 115, 120</li>
+<li><a href="../../quests/swamp_healer/">The swamp healer</a>: stages 10, 30</li>
+<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stages 59</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (68 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-vaelric_selector"></span><strong><code>vaelric_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 125 of <a href="../quests/andor.md#stage-125">andor (hidden flag)</a>)</em> → <a href="#d-vaelric_andor_10">vaelric_andor_10</a></li>
+<li>branch 2 <em>(if NOT reached stage 10 of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a>)</em> → <a href="#d-vaelric_alone_10">vaelric_alone_10</a></li>
+<li>branch 3 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a> is 10)</em> → <a href="#d-vaelric_need_to_kill_creature_10">vaelric_need_to_kill_creature_10</a></li>
+<li>branch 4 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-20">The swamp healer</a> is 20)</em> → <a href="#d-vaelric_creature_killed_5">vaelric_creature_killed_5</a></li>
+<li>branch 5 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>; NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_talk_leech_10">vaelric_creature_talk_leech_10</a></li>
+<li>branch 6 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>; carry 1× <a href="../../items/corrupted_swamp_core/">Corrupted swamp core</a>)</em> → <a href="#d-vaelric_creature_killed_70">vaelric_creature_killed_70</a></li>
+<li>branch 7 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>)</em> → <a href="#d-vaelric_met">vaelric_met</a></li>
+</ul>
+<p><span id="d-vaelric_andor_10"></span><strong><code>vaelric_andor_10</code></strong> Vaelric: “Step lightly, wanderer. The swamp doesn't take kindly to strangers, and neither do I. What brings you to my domain?”</p>
+<ul>
+<li>“I'm searching for someone, my brother, Andor. He looks like...” → <a href="#d-vaelric_andor_20">vaelric_andor_20</a></li>
+</ul>
+<p><span id="d-vaelric_alone_10"></span><strong><code>vaelric_alone_10</code></strong> Vaelric: “Step lightly, wanderer. The swamp doesn't take kindly to just anyone, and neither do I. Why are you before me?”</p>
+<ul>
+<li>“Why are you living out here alone?” → <a href="#d-vaelric_alone_25">vaelric_alone_25</a></li>
+</ul>
+<p><span id="d-vaelric_need_to_kill_creature_10"></span><strong><code>vaelric_need_to_kill_creature_10</code></strong> Vaelric: “Why are you still here? Go kill that massive, venomous, and ravenous creature for me, then we will talk!”</p>
+<p><span id="d-vaelric_creature_killed_5"></span><strong><code>vaelric_creature_killed_5</code></strong> Vaelric: “Have you killed the creature that threatens my way of life?”</p>
+<ul>
+<li>“Yes, and here, I have this thing that proves it. [shows the 'Corrupted swamp core' to Vaelric]” <em>(if carry 1× <a href="../../items/corrupted_swamp_core/">Corrupted swamp core</a>)</em> → <a href="#d-vaelric_creature_killed_10">vaelric_creature_killed_10</a></li>
+<li>“Yes, but I can't prove it. I will return with proof.” <em>(if NOT carry 1× <a href="../../items/corrupted_swamp_core/">Corrupted swamp core</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelric_creature_talk_leech_10"></span><strong><code>vaelric_creature_talk_leech_10</code></strong> Vaelric: “Yes?”</p>
+<ul>
+<li>“You mentioned leeches earlier. What did you mean by that?” → <a href="#d-vaelric_creature_killed_20">vaelric_creature_killed_20</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_70"></span><strong><code>vaelric_creature_killed_70</code></strong> Vaelric: “By the way, I'll take that 'Corrupted swamp core' now.”</p>
+<ul>
+<li>“Oh, yeah, sure. I don't need that thing.” <em>(if hand over 1× <a href="../../items/corrupted_swamp_core/">Corrupted swamp core</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelric_met"></span><strong><code>vaelric_met</code></strong> Vaelric: “So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?”</p>
+<ul>
+<li>“You stated that if I helped you kill that venomous creature that you would tell more about Andor.” → <a href="#d-vaelric_met_10">vaelric_met_10</a></li>
+<li>“That graveyard, the one directly south of here, who were those people?” <em>(if reached stage 5 of <a href="../../quests/galmore_nondisplayed/#stage-5">galmore_nondisplayed (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a>)</em> → <a href="#d-vaelric_graveyard_10">vaelric_graveyard_10</a></li>
+<li>“Actually, I am here to give you an update on that graveyard exploration you sent me on.” <em>(if reached stage 65 of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a>; NOT reached stage 80 of <a href="../../quests/mg_restless_grave/#stage-80">Restless in the grave</a>)</em> → <a href="#d-mg_lie_to_vaelric_10">mg_lie_to_vaelric_10</a></li>
+<li>“I spoke to a ghost in the Galmore encampment. His name is Eryndor...” <em>(if reached stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a>; NOT reached stage 70 of <a href="../../quests/mg_restless_grave/#stage-70">Restless in the grave</a>; NOT reached stage 65 of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a>)</em> → <a href="#d-mg_vaelric_story_10">mg_vaelric_story_10</a></li>
+<li>“No, that's old news. Try and keep up, won't you? I'm here to collect my reward?” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-90">Restless in the grave</a> is 90)</em> → <a href="#d-mg_vaelric_reward_10">mg_vaelric_reward_10</a></li>
+<li>“No, that's old news. Try and keep up, won't you? I'm here to inform you that I've defeted Eryndor's spirit.” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-111">Restless in the grave</a> is 111)</em> → <a href="#d-mg_vaelric_defeated_eryndor_10">mg_vaelric_defeated_eryndor_10</a></li>
+<li>“What do I need to give you in order for you to make those Insectbane tonics? I want some now.” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-95">Restless in the grave</a> is 95)</em> → <a href="#d-mg_vaelric_reward_40">mg_vaelric_reward_40</a></li>
+<li>“Can we talk about the Insectbane tonic?” <em>(if reached stage 97 of <a href="../../quests/mg_restless_grave/#stage-97">Restless in the grave</a>)</em> → <a href="#d-mg_vaelric_reward_selector">mg_vaelric_reward_selector</a></li>
+<li>“I would like to see your other potions for sale.” <em>(if reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>)</em> → <em>shop opens</em></li>
+</ul>
+<p><span id="d-vaelric_andor_20"></span><strong><code>vaelric_andor_20</code></strong> Vaelric: “Ah, the one with fire in his eyes and fear in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?”</p>
+<ul>
+<li>“What did he want from you?” → <a href="#d-vaelric_andor_22">vaelric_andor_22</a></li>
+</ul>
+<p><span id="d-vaelric_alone_25"></span><strong><code>vaelric_alone_25</code></strong> Vaelric: “Once, I was a celebrated healer. They called me a miracle worker for curing the incurable. My methods were...unconventional. Leeches, parasitic creatures, even plants most would call poisonous. I used whatever the swamp could offer.”</p>
+<ul>
+<li>“What happened?” → <a href="#d-vaelric_alone_28">vaelric_alone_28</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_10"></span><strong><code>vaelric_creature_killed_10</code></strong> Vaelric: “You've proven resourceful. Perhaps you are worthy of the knowledge I carry. The swamp holds more than muck and mire, and so do the creatures that call it home.”</p>
+<ul>
+<li>“You mentioned leeches earlier. What did you mean by that?” → <a href="#d-vaelric_creature_killed_20">vaelric_creature_killed_20</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_20"></span><strong><code>vaelric_creature_killed_20</code></strong> Vaelric: “Leeches are simple creatures, but they hold incredible power. With the right knowledge, they can purge poison, stop bleeding, and heal wounds that no salve can touch. Few have the courage to learn their secrets.”</p>
+<ul>
+<li>“Can you teach me?” → <a href="#d-vaelric_creature_killed_30">vaelric_creature_killed_30</a></li>
+</ul>
+<p><span id="d-vaelric_met_10"></span><strong><code>vaelric_met_10</code></strong> Vaelric: “No, no, no. I said "if you want my aid, you'll need to earn it", and indeed you did receive my aid as I taught you about the leeches.”</p>
+<p><span id="d-vaelric_graveyard_10"></span><strong><code>vaelric_graveyard_10</code></strong> Vaelric: “Oh, those people? They are nobody.”</p>
+<ul>
+<li>“Really? "Nobody" you say? Nobody is a "nobody".” → <a href="#d-vaelric_graveyard_20">vaelric_graveyard_20</a></li>
+</ul>
+<p><span id="d-mg_lie_to_vaelric_10"></span><strong><code>mg_lie_to_vaelric_10</code></strong> Vaelric: “And?”</p>
+<ul>
+<li>“I wasn't able to find any clues surrounding the grave site. Is there something you're not telling me?” → <a href="#d-mg_lie_to_vaelric_20">mg_lie_to_vaelric_20</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_10"></span><strong><code>mg_vaelric_story_10</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric's expression darkens, his fingers tightening around his staff. He turns away for a moment, exhaling slowly before speaking.”</p>
+<ul>
+<li>“He says you treated him once, but you buried him alive. That's why he haunts you. He wants his ring back, or the…” → <a href="#d-mg_vaelric_story_20">mg_vaelric_story_20</a></li>
+<li>“Please tell me more about Eryndor.” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-63">Restless in the grave</a> is 63)</em> → <a href="#d-mg_vaelric_story_50">mg_vaelric_story_50</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_10"></span><strong><code>mg_vaelric_reward_10</code></strong> Vaelric: “You did it? You were able to help me? You have prevented the future hauntings?”</p>
+<ul>
+<li>“Yes. Hence my being here with my hand out.” → <a href="#d-mg_vaelric_reward_20">mg_vaelric_reward_20</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_10"></span><strong><code>mg_vaelric_defeated_eryndor_10</code></strong> Vaelric: “So, it is done? You struck him down, ended his torment by force?”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_15">mg_vaelric_defeated_eryndor_15</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_40"></span><strong><code>mg_vaelric_reward_40</code></strong> Vaelric: “But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require: Five Duskbloom flowers. These rare blossoms can be found in the deepest parts…” — <strong>effects:</strong> sets stage 97 of <a href="../../quests/mg_restless_grave/#stage-97">Restless in the grave</a>, gives 10× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a></p>
+<ul>
+<li>“Great, more work for me.” → <a href="#d-mg_vaelric_reward_50">mg_vaelric_reward_50</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_selector"></span><strong><code>mg_vaelric_reward_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT have 4,800 gold)</em> → <a href="#d-mg_vaelric_reward_Not_enough_gold">mg_vaelric_reward_Not_enough_gold</a></li>
+<li>branch 2 <em>(if carry 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; carry 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; carry 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>; reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; have 4,800 gold)</em> → <a href="#d-mg_vaelric_buy_insectbance_10">mg_vaelric_buy_insectbance_10</a></li>
+<li>branch 3 <em>(if NOT reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; carry 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; carry 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>; carry 1× <a href="../../items/mudfiend/">Mudfiend goo</a>; have 4,800 gold)</em> → <a href="#d-mg_vaelric_reward_60">mg_vaelric_reward_60</a></li>
+<li>Next <em>(if reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 0× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a>; NOT reached stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-mg_vaelric_reward_45">mg_vaelric_reward_45</a></li>
+<li>branch 5 → <a href="#d-mg_vaelric_reward_missing_ing_10">mg_vaelric_reward_missing_ing_10</a></li>
+</ul>
+<p><span id="d-vaelric_andor_22"></span><strong><code>vaelric_andor_22</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a>, sets stage 125 of <a href="../quests/andor.md#stage-125">andor (hidden flag)</a></p>
+<ul>
+<li>branch 1 → <a href="#d-vaelric_andor_30">vaelric_andor_30</a></li>
+</ul>
+<p><span id="d-vaelric_alone_28"></span><strong><code>vaelric_alone_28</code></strong> Vaelric: “Innovation often breeds fear. When a Laumwill noble entrusted me with his life, I used every method I knew to save him. But he died under my care, and the courts called it murder. The Laumwills made certain there was no place for me among…”</p>
+<ul>
+<li>“And so you fled here?” → <a href="#d-vaelric_alone_30">vaelric_alone_30</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_30"></span><strong><code>vaelric_creature_killed_30</code></strong> Vaelric: “I don't waste my time on fools, but you've proven yourself. Watch closely.”</p>
+<ul>
+<li>Next → <a href="#d-vaelric_creature_killed_narrator">vaelric_creature_killed_narrator</a></li>
+</ul>
+<p><span id="d-vaelric_graveyard_20"></span><strong><code>vaelric_graveyard_20</code></strong> Vaelric: “Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners who lost their lives under false promises of riches.”</p>
+<ul>
+<li>“I see. Thank you for explaining this.” → <em>conversation ends</em></li>
+<li>“I noticed that one of the graves looks to have been dug-up in the not-so-distant past.” → <a href="#d-vaelric_graveyard_30">vaelric_graveyard_30</a></li>
+</ul>
+<p><span id="d-mg_lie_to_vaelric_20"></span><strong><code>mg_lie_to_vaelric_20</code></strong> Vaelric: “No, just a suspicion I had. In any event, thanks for looking into it for me. Good luck on your search for Andor.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/mg_restless_grave/#stage-80">Restless in the grave</a></p>
+<p><span id="d-mg_vaelric_story_20"></span><strong><code>mg_vaelric_story_20</code></strong> <a href="./">Vaelric</a>: “Eryndor... Yes, I remember. He came to me alone, desperate, barely able to stand. His condition was severe, far beyond anything my tinctures and poultices could mend. I did everything I knew. I bled out the sickness, cooled his fever,…”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_30">mg_vaelric_story_30</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_50"></span><strong><code>mg_vaelric_story_50</code></strong> <a href="../none/">Dummy NPC</a>: “His jaw tightens, regret flashing in his eyes.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_60">mg_vaelric_story_60</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_20"></span><strong><code>mg_vaelric_reward_20</code></strong> Vaelric: “Well, let me start by saying that you have done me a great service, and for that, I will offer you something few others could. I am no merchant, but I do have remedies, ones you will not find elsewhere. One in particular may prove…”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_reward_30">mg_vaelric_reward_30</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_15"></span><strong><code>mg_vaelric_defeated_eryndor_15</code></strong> <a href="../none/">Dummy NPC</a>: “He exhales sharply, shaking his head.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_20">mg_vaelric_defeated_eryndor_20</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_50"></span><strong><code>mg_vaelric_reward_50</code></strong> Vaelric: “Bring me these, and I shall prepare ten vials of the tonic for you. But understand this: my craft is no charity. If you seek to replenish your supply, you must pay the price. Four hundred and eighty gold per vial. A steep price, perhaps,…”</p>
+<p><span id="d-mg_vaelric_reward_Not_enough_gold"></span><strong><code>mg_vaelric_reward_Not_enough_gold</code></strong> Vaelric: “You see, I have to make ten tonics at a time and because I refuse to waste any of them, you must buy all ten at a cost of 4,800 gold. Do you have the gold?”</p>
+<ul>
+<li>“No.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-mg_vaelric_buy_insectbance_10"></span><strong><code>mg_vaelric_buy_insectbance_10</code></strong> Vaelric: “I'll take all of the ingredients and your 4,800 gold now and I will mix you up a batch of ten tonics”</p>
+<ul>
+<li>“Here, take them, please.” <em>(if pay 4,800 gold; hand over 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; hand over 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; hand over 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>)</em> → <a href="#d-mg_vaelric_reward_70">mg_vaelric_reward_70</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_60"></span><strong><code>mg_vaelric_reward_60</code></strong> Vaelric: “I'll take all of the ingredients and your 4,800 gold now and I will mix you up a batch of ten tonics” — <strong>effects:</strong> sets stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a></p>
+<ul>
+<li>“Here, take them, please.” <em>(if hand over 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; hand over 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>; hand over 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; hand over 1× <a href="../../items/mudfiend/">Mudfiend goo</a>; pay 4,800 gold)</em> → <a href="#d-mg_vaelric_reward_70">mg_vaelric_reward_70</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_45"></span><strong><code>mg_vaelric_reward_45</code></strong> Vaelric: “I require: Five Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh. Five Mosquito proboscises.…” — <strong>effects:</strong> gives 10× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a></p>
+<p><span id="d-mg_vaelric_reward_missing_ing_10"></span><strong><code>mg_vaelric_reward_missing_ing_10</code></strong> Vaelric: “You don't have what I require in order to make them.”</p>
+<ul>
+<li>“I don't?” → <a href="#d-mg_vaelric_reward_missing_ing_20">mg_vaelric_reward_missing_ing_20</a></li>
+</ul>
+<p><span id="d-vaelric_andor_30"></span><strong><code>vaelric_andor_30</code></strong> Vaelric: “What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.” — <strong>effects:</strong> sets stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a></p>
+<ul>
+<li>“Why are you living out here alone?” → <a href="#d-vaelric_alone_25">vaelric_alone_25</a></li>
+</ul>
+<p><span id="d-vaelric_alone_30"></span><strong><code>vaelric_alone_30</code></strong> Vaelric: “You ask for much considering you are someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my property, not an ordinary beast but one corrupted by the same darkness that haunts this…”</p>
+<ul>
+<li>“What kind of creature?” → <a href="#d-vaelric_alone_40">vaelric_alone_40</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_narrator"></span><strong><code>vaelric_creature_killed_narrator</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric produces a jar filled with wriggling leeches and demonstrates their use on a wounded arm.”</p>
+<ul>
+<li>Next → <a href="#d-vaelric_creature_killed_40">vaelric_creature_killed_40</a></li>
+</ul>
+<p><span id="d-vaelric_graveyard_30"></span><strong><code>vaelric_graveyard_30</code></strong> Vaelric: “What?! Which one?”</p>
+<ul>
+<li>“The northwest one near the river.” → <a href="#d-vaelric_restless_grave_10">vaelric_restless_grave_10</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_30"></span><strong><code>mg_vaelric_story_30</code></strong> <a href="../none/">Dummy NPC</a>: “He rubs his temple, his voice quieter now.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_40">mg_vaelric_story_40</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_60"></span><strong><code>mg_vaelric_story_60</code></strong> <a href="./">Vaelric</a>: “But I was wrong. I was wrong. Somehow, he still lived. I don't know if it was some illness that mimicked death or if I simply failed to see the life still in him. Either way, my hands put him in that grave, and now his suffering is on me.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_70">mg_vaelric_story_70</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_30"></span><strong><code>mg_vaelric_reward_30</code></strong> Vaelric: “This tonic does more than ease a fever or numb the pain of a bite. It eliminates the infection entirely. If you have already fallen victim to the Insect contagion poison, one dose will purge it from your body. But more than that, it…” — <strong>effects:</strong> sets stage 95 of <a href="../../quests/mg_restless_grave/#stage-95">Restless in the grave</a></p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_reward_40">mg_vaelric_reward_40</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_20"></span><strong><code>mg_vaelric_defeated_eryndor_20</code></strong> <a href="./">Vaelric</a>: “I suppose I should have expected as much.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_30">mg_vaelric_defeated_eryndor_30</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_70"></span><strong><code>mg_vaelric_reward_70</code></strong> Vaelric: “Here you go, ten Insectbane tonics.” — <strong>effects:</strong> gives 10× <a href="../../items/insectbane_tonic/">Insectbane tonic</a>, clears stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">galmore_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_other_potions_10">mg_vaelric_other_potions_10</a></li>
+</ul>
+<p><span id="d-mg_vaelric_reward_missing_ing_20"></span><strong><code>mg_vaelric_reward_missing_ing_20</code></strong> Vaelric: “No, you don't. I already told you, if you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require: Five Duskbloom flowers. These rare blossoms can be found in the deepest parts of the…”</p>
+<p><span id="d-vaelric_alone_40"></span><strong><code>vaelric_alone_40</code></strong> Vaelric: “A swamp creature, but far from the kind you'd expect to see. This one is massive, venomous, and ravenous. It's draining the life from my medicinal pools. Strength alone won't save you. You'll need to learn the ways of the swamp.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a>, spawns monsters on galmore_28</p>
+<p><span id="d-vaelric_creature_killed_40"></span><strong><code>vaelric_creature_killed_40</code></strong> <a href="./">Vaelric</a>: “See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here, take this.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a></p>
+<ul>
+<li>“[Extend my hand and take the leech.]” <em>(if NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_narrator_2">vaelric_creature_killed_narrator_2</a></li>
+<li>“[Extend my hand and take the leech.]” <em>(if reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_50">vaelric_creature_killed_50</a></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_10"></span><strong><code>vaelric_restless_grave_10</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric pauses, his expression tense as if piecing something together.”</p>
+<ul>
+<li>Next → <a href="#d-vaelric_restless_grave_11">vaelric_restless_grave_11</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_40"></span><strong><code>mg_vaelric_story_40</code></strong> <a href="./">Vaelric</a>: “I had no choice but to lay him to rest. There was no kin to claim him, no priest to see to his rites. So I carried him to the graveyard myself, dug the earth with my own hands, and gave him what peace I could. It was the right thing to…” — <strong>effects:</strong> sets stage 63 of <a href="../../quests/mg_restless_grave/#stage-63">Restless in the grave</a></p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_50">mg_vaelric_story_50</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_70"></span><strong><code>mg_vaelric_story_70</code></strong> <a href="../none/">Dummy NPC</a>: “He hesitates, then steps toward a cabinet, opening a drawer with a sigh.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_story_80">mg_vaelric_story_80</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_30"></span><strong><code>mg_vaelric_defeated_eryndor_30</code></strong> <a href="../none/">Dummy NPC</a>: “His gaze lingers on you, his expression hard to read. Somewhere between frustration and resignation.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_40">mg_vaelric_defeated_eryndor_40</a></li>
+</ul>
+<p><span id="d-mg_vaelric_other_potions_10"></span><strong><code>mg_vaelric_other_potions_10</code></strong> Vaelric: “I also have other potions for sale. Would you like to take a look?”</p>
+<ul>
+<li>“Of course.” → <em>shop opens</em></li>
+<li>“No thanks.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_narrator_2"></span><strong><code>vaelric_creature_killed_narrator_2</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric hands you a leech.” — <strong>effects:</strong> gives 1× <a href="../../items/leech_usable/">Leech</a>, sets stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-vaelric_creature_killed_50">vaelric_creature_killed_50</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_50"></span><strong><code>vaelric_creature_killed_50</code></strong> <a href="./">Vaelric</a>: “Don't underestimate them. In skilled hands, they are as effective as any blade or potion. Use them wisely.”</p>
+<ul>
+<li>“Thank you. Is there anything else I should know?” → <a href="#d-vaelric_creature_killed_60">vaelric_creature_killed_60</a></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_11"></span><strong><code>vaelric_restless_grave_11</code></strong> <a href="./">Vaelric</a>: “That's... unsettling. If what you say is true, we need to understand what happened there. Something doesn't sit right with this. Please go back to the graveyard and search for clues.”</p>
+<ul>
+<li>“No, I don't think so. Not this time. I'm tired of helping the pathetic with their problems.” <em>(if NOT reached stage 20 of <a href="../../quests/mg_restless_grave/#stage-20">Restless in the grave</a>)</em> → <a href="#d-vaelric_restless_grave_end">vaelric_restless_grave_end</a></li>
+<li>“OK, but this better be worth my time.” <em>(if NOT reached stage 20 of <a href="../../quests/mg_restless_grave/#stage-20">Restless in the grave</a>)</em> → <a href="#d-vaelric_restless_grave_15">vaelric_restless_grave_15</a></li>
+<li>“Actually, I found some clues already.” <em>(if carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-vaelric_restless_grave_found_clues_10">vaelric_restless_grave_found_clues_10</a></li>
+<li>“I found this bell in the graveyard. [Show Vaelric]” <em>(if carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; NOT carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-vaelric_restless_grave_found_clue_10">vaelric_restless_grave_found_clue_10</a></li>
+<li>“I found this music box in the graveyard. [Show Vaelric]” <em>(if NOT carry 1× <a href="../../items/mg_broken_bell/">Broken bell</a>; carry 1× <a href="../../items/mg_music_box/">Mysterious music box</a>)</em> → <a href="#d-vaelric_restless_grave_found_clue_10">vaelric_restless_grave_found_clue_10</a></li>
+</ul>
+<p><span id="d-mg_vaelric_story_80"></span><strong><code>mg_vaelric_story_80</code></strong> <a href="./">Vaelric</a>: “If his spirit will rest with this ring, take it. If that will end this curse, then let it be done.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/mg_restless_grave/#stage-70">Restless in the grave</a>, gives 1× <a href="../../items/cursed_ring_focus/">Cursed ring of focus</a></p>
+<p><span id="d-mg_vaelric_defeated_eryndor_40"></span><strong><code>mg_vaelric_defeated_eryndor_40</code></strong> <a href="./">Vaelric</a>: “And what of the hauntings? Is it over?”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_50">mg_vaelric_defeated_eryndor_50</a></li>
+</ul>
+<p><span id="d-vaelric_creature_killed_60"></span><strong><code>vaelric_creature_killed_60</code></strong> Vaelric: “Yes. Don't waste them on minor cuts or trifling ailments. Save them for when they're truly needed. The swamp still has more to teach you, if you are willing to learn.”</p>
+<ul>
+<li>Next → <a href="#d-vaelric_creature_killed_70">vaelric_creature_killed_70</a></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_end"></span><strong><code>vaelric_restless_grave_end</code></strong> Vaelric: “Well that's unfortunate...for you.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_15"></span><strong><code>vaelric_restless_grave_15</code></strong> Vaelric: “Look for anything that might tell us more about who was buried there and why the grave was disturbed.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/mg_restless_grave/#stage-20">Restless in the grave</a></p>
+<p><span id="d-vaelric_restless_grave_found_clues_10"></span><strong><code>vaelric_restless_grave_found_clues_10</code></strong> Vaelric: “What are they?”</p>
+<ul>
+<li>“I found this broken bell and a music box. [Show Vaelric.]” → <a href="#d-vaelric_restless_grave_found_clues_20">vaelric_restless_grave_found_clues_20</a></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_found_clue_10"></span><strong><code>vaelric_restless_grave_found_clue_10</code></strong> Vaelric: “Interesting, but not helpful. Go back and search for something useful. It makes sense if you search close by to where you found this other item. And don't keep running back to me every time you find something so mundane.”</p>
+<p><span id="d-mg_vaelric_defeated_eryndor_50"></span><strong><code>mg_vaelric_defeated_eryndor_50</code></strong> <a href="../none/">Dummy NPC</a>: “With your hesitation preventing you from getting a word in...”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_60">mg_vaelric_defeated_eryndor_60</a></li>
+</ul>
+<p><span id="d-vaelric_restless_grave_found_clues_20"></span><strong><code>vaelric_restless_grave_found_clues_20</code></strong> Vaelric: “I see. Interesting, but not very helpful. Go explore the Galmore encampment east of the graveyard and report back to me when you find something helpful.”</p>
+<p><span id="d-mg_vaelric_defeated_eryndor_60"></span><strong><code>mg_vaelric_defeated_eryndor_60</code></strong> <a href="./">Vaelric</a>: “I see. You took the ring for yourself and left his spirit unfulfilled. That was your choice.”</p>
+<ul>
+<li>“But, but...” → <a href="#d-mg_vaelric_defeated_eryndor_70">mg_vaelric_defeated_eryndor_70</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_70"></span><strong><code>mg_vaelric_defeated_eryndor_70</code></strong> <a href="../none/">Dummy NPC</a>: “He lets out a slow breath, his voice quieter now, laced with disappointment.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_80">mg_vaelric_defeated_eryndor_80</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_80"></span><strong><code>mg_vaelric_defeated_eryndor_80</code></strong> <a href="./">Vaelric</a>: “Andor would have done better.”</p>
+<ul>
+<li>Next → <a href="#d-mg_vaelric_defeated_eryndor_90">mg_vaelric_defeated_eryndor_90</a></li>
+</ul>
+<p><span id="d-mg_vaelric_defeated_eryndor_90"></span><strong><code>mg_vaelric_defeated_eryndor_90</code></strong> Vaelric: “[Turning away, he mutters:] I will take what peace I can, while it lasts. But do not expect my gratitude.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/mg_restless_grave/#stage-120">Restless in the grave</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelric.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelric.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelric.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vaelric.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>vaelric</code> · Data from v0.8.18</small></p>
 
 

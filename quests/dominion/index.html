@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,45 +967,248 @@
 
 
 <h1 id="dominion">Dominion<a class="headerlink" href="#dominion" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>dominion</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>7 (completes at 90)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/saki/">Saki</a>, <a href="../../monsters/ysrine/">Ysrine</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/undertell_1_1/">undertell_1_1</a>, <a href="../../maps/undertell_exit/">undertell_exit</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>9,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Ysrine introduced me to Saki, ghost of an Elytharan mage. Now that the Kha'zaan were destroyed, Saki wanted me to help revive his Elytharan colleagues. They had become incorporeal during the war, and their souls became soul pearls.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>). Required:</p>
+<ul>
+<li>reached stage 450 of <a href="../devotion/#stage-450">Devotion</a></li>
+<li>NOT reached stage 10 of <a href="./#stage-10">Dominion</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../devotion/#stage-450">Devotion</a></td>
+<td>stage 450 reached, for stages 10, 20, 30, 70 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../fifth_master/#stage-10">The fifth master</a></td>
+<td>stage 10 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a></td>
+<td>stage 7 must NOT be reached, for stage 50 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Ysrine introduced me to Saki, ghost of an Elytharan mage. Now that the Kha'zaan were destroyed, Saki wanted me to help revive his Elytharan colleagues. They had become incorporeal during the war, and their souls became soul pearls.</td>
+<td><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>–</td>
+<td>spawns monsters on undertell_1_1</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Saki wanted me to defeat the liches who had picked up the soul pearls, and get back all five of them.</td>
+<td><a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)<br><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>stage 10</td>
+<td>spawns monsters on undertell_21<br>spawns monsters on undertell_3_lava_01<br>spawns monsters on undertell_4_01<br>spawns monsters on undertell_7_10<br>spawns monsters on undertell_5</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I returned to Saki with all five soul pearls. He took them in haste and disappeared.</td>
+<td><a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)<br><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>hand over 5× <a href="../../items/soul_pearl/">Soul pearl</a>, stage 20</td>
+<td>1,500 XP<br>removes monsters from undertell_1_1</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>Ysrine told me that Saki's behavior had confirmed her suspicions that Saki was a Kazaul mage and wanted to absorb the Elytharan mage souls to make himself stronger.</td>
+<td><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Ysrine told me that Saki was trying to flee Undertell. I was to find him, defeat him, and get the soul pearls back.</td>
+<td><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>stage 50</td>
+<td>spawns monsters on undertell_exit</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>Prevented from escaping Undertell by Shannal, I found Saki at the passage to Undertell.</td>
+<td><a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)<br><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>stage 60</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-90"></span>90</td>
 <td>Ysrine thanked me and told me to keep the soul pearls safe. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>)</td>
+<td>carry 5× <a href="../../items/soul_pearl/">Soul pearl</a></td>
+<td>7,500 XP</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>dominion</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="./#stage-10">Dominion</a> → <strong>stage 10</strong>; also spawns monsters on undertell_1_1. NPC: “Here, on my left.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “So I must destroy the liches and recover the pearls.” — <strong>conditions:</strong> latest stage of <a href="./#stage-10">Dominion</a> is 10; reached stage 450 of <a href="../devotion/#stage-450">Devotion</a> → <strong>stage 20</strong>; also spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5. NPC: “They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”</li>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “So I must destroy the liches and recover the pearls.” — <strong>conditions:</strong> reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="./#stage-10">Dominion</a>; latest stage of <a href="./#stage-10">Dominion</a> is 10 → <strong>stage 20</strong>; also spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5. NPC: “They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “Yeah, here they are.” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Dominion</a>; NOT reached stage 30 of <a href="./#stage-30">Dominion</a>; hand over 5× <a href="../../items/soul_pearl/">Soul pearl</a> → <strong>stage 30</strong>; also removes monsters from undertell_1_1. NPC: “Thank you for these powerful artifacts!”</li>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “Yeah, here they are.” — <strong>conditions:</strong> reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="./#stage-10">Dominion</a>; reached stage 20 of <a href="./#stage-20">Dominion</a>; NOT reached stage 30 of <a href="./#stage-30">Dominion</a>; hand over 5× <a href="../../items/soul_pearl/">Soul pearl</a> → <strong>stage 30</strong>; also removes monsters from undertell_1_1. NPC: “Thank you for these powerful artifacts!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “Wrong how?” — <strong>conditions:</strong> reached stage 10 of <a href="../fifth_master/#stage-10">The fifth master</a>; NOT reached stage 7 of <a href="../undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">Dominion</a>; NOT reached stage 50 of <a href="./#stage-50">Dominion</a> → <strong>stage 50</strong>. NPC: “Saki was no follower of Elythara. He sought to absorb the spirits of the Elytharan mages and draw power from them. I…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Dominion</a>; NOT reached stage 60 of <a href="./#stage-60">Dominion</a> → <strong>stage 60</strong>; also spawns monsters on undertell_exit. NPC: “Saki is trying to flee Undertell. Find him, defeat him, and recover the soul pearls and anything else he carries.…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/saki/">Saki</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Dominion</a> → <strong>stage 70</strong>. NPC: “My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername,…”</li>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="./#stage-10">Dominion</a>; reached stage 60 of <a href="./#stage-60">Dominion</a> → <strong>stage 70</strong>. NPC: “My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername,…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 90: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ysrine/">Ysrine</a> (<a href="../../maps/undertell_1_1/">undertell_1_1</a>) → choose “What do I do with the Soul pearls?” — <strong>conditions:</strong> killed 1× <a href="../../monsters/saki/">Saki</a>; NOT reached stage 90 of <a href="./#stage-90">Dominion</a>; carry 5× <a href="../../items/soul_pearl/">Soul pearl</a> → <strong>stage 90</strong>. NPC: “Besides keeping them away from those Kazaul Masters? I do not know yet. Powerful they are - they could perhaps bring…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=dominion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=dominion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=dominion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=dominion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=dominion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>dominion</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 50, 60, 70, 90</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>ysrine_start_devotion_15</code>, 20: <code>saki_dominion_100</code>, 30: <code>saki_pearls_20</code>, 50: <code>ysrine_dominion_saki_fleed_40</code>, 60: <code>ysrine_dominion_saki_fleed_60</code>, 70: <code>saki_trapped_20</code>, 90: <code>ysrine_saki_killed_20</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

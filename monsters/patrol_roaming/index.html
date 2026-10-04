@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -916,6 +988,58 @@
 <li><a href="../../maps/roadbeforecrossroads6/">roadbeforecrossroads6</a></li>
 <li><a href="../../maps/wild6/">wild6</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 141</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (9 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_patrol_roaming"></span><strong><code>brv_patrol_roaming</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 141 of <a href="../../quests/brv_nondisplay/#stage-141">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_patrol_roaming_20">brv_patrol_roaming_20</a></li>
+<li>branch 2 → <a href="#d-brv_patrol_roaming_10">brv_patrol_roaming_10</a></li>
+</ul>
+<p><span id="d-brv_patrol_roaming_20"></span><strong><code>brv_patrol_roaming_20</code></strong> Feygard soldier: “You again. You have to wait while I check your belongings.”</p>
+<ul>
+<li>Next → <a href="#d-brv_patrol_roaming_11">brv_patrol_roaming_11</a></li>
+</ul>
+<p><span id="d-brv_patrol_roaming_10"></span><strong><code>brv_patrol_roaming_10</code></strong> Feygard soldier: “You are carrying a lot of gear. Any disallowed substances? You have to wait while I check your belongings.”</p>
+<ul>
+<li>Next → <a href="#d-brv_patrol_roaming_11">brv_patrol_roaming_11</a></li>
+</ul>
+<p><span id="d-brv_patrol_roaming_11"></span><strong><code>brv_patrol_roaming_11</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 142 of <a href="../../quests/brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_patrol_roaming_100">brv_patrol_roaming_100</a></li>
+<li>branch 2 → <a href="#d-brv_patrol_bonemeals_removed">brv_patrol_bonemeals_removed</a></li>
+</ul>
+<p><span id="d-brv_patrol_roaming_100"></span><strong><code>brv_patrol_roaming_100</code></strong> Feygard soldier: “Everything is OK. Stay clean.” — <strong>effects:</strong> sets stage 141 of <a href="../../quests/brv_nondisplay/#stage-141">brv_nondisplay (hidden flag)</a>, clears stage 140 of <a href="../../quests/brv_nondisplay/#stage-140">brv_nondisplay (hidden flag)</a>, removes monsters from the map</p>
+<p><span id="d-brv_patrol_bonemeals_removed"></span><strong><code>brv_patrol_bonemeals_removed</code></strong> Feygard soldier: “What's this? Smells like Bonemeal! Bonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it. [He gives you back all your belongings but keeps the Bonemeals] Keep away from illegal stuff. Now go on your way.” — <strong>effects:</strong> sets stage 141 of <a href="../../quests/brv_nondisplay/#stage-141">brv_nondisplay (hidden flag)</a>, clears stage 140 of <a href="../../quests/brv_nondisplay/#stage-140">brv_nondisplay (hidden flag)</a>, removes monsters from the map</p>
+<ul>
+<li>“Hey, what the ...?” <em>(if reached stage 40 of <a href="../../quests/bwmfill_nondisplay/#stage-40">bwmfill_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_patrol_bonemeals_removed_bur">brv_patrol_bonemeals_removed_bur</a></li>
+<li>“Phew, at least they didn't find my iron reserve in the bonemeal box.” <em>(if reached stage 42 of <a href="../../quests/bwmfill_nondisplay/#stage-42">bwmfill_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“Phew, at least they had let me go.” <em>(if NOT reached stage 40 of <a href="../../quests/bwmfill_nondisplay/#stage-40">bwmfill_nondisplay (hidden flag)</a>; NOT reached stage 42 of <a href="../../quests/bwmfill_nondisplay/#stage-42">bwmfill_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_patrol_bonemeals_removed_bur"></span><strong><code>brv_patrol_bonemeals_removed_bur</code></strong> <a href="../none/">Dummy NPC</a>: “One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch.”</p>
+<ul>
+<li>“???” → <a href="#d-brv_patrol_bonemeals_removed_bur_10">brv_patrol_bonemeals_removed_bur_10</a></li>
+</ul>
+<p><span id="d-brv_patrol_bonemeals_removed_bur_10"></span><strong><code>brv_patrol_bonemeals_removed_bur_10</code></strong> Feygard soldier: “You'll be speechless - the guard is Burhczyd in the uniform of the Feygard Guard!”</p>
+<ul>
+<li>Next → <a href="#d-brv_patrol_bonemeals_removed_bur_20">brv_patrol_bonemeals_removed_bur_20</a></li>
+</ul>
+<p><span id="d-brv_patrol_bonemeals_removed_bur_20"></span><strong><code>brv_patrol_bonemeals_removed_bur_20</code></strong> Feygard soldier: “Before you react, the guards have moved on.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=patrol_roaming.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=patrol_roaming.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=patrol_roaming.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=patrol_roaming.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>patrol_roaming</code> · Data from v0.8.18</small></p>
 
 

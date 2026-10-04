@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,315 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain50/">blackwater_mountain50</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/darkness_in_daylight/">Darkness in the Daylight</a>: stages 100, 110</li>
+<li><a href="../../quests/kazaul/">Lights in the dark</a>: stages 8, 9, 10, 11, 30, 40, 41, 100</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (71 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-throdna_start"></span><strong><code>throdna_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/darkness_in_daylight/#stage-90">Darkness in the Daylight</a>; NOT reached stage 100 of <a href="../../quests/darkness_in_daylight/#stage-100">Darkness in the Daylight</a>)</em> → <a href="#d-dds_throdna_10">dds_throdna_10</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/kazaul/#stage-100">Lights in the dark</a>)</em> → <a href="#d-throdna_purify_4">throdna_purify_4</a></li>
+<li>branch 3 <em>(if reached stage 41 of <a href="../../quests/kazaul/#stage-41">Lights in the dark</a>)</em> → <a href="#d-throdna_purify_1">throdna_purify_1</a></li>
+<li>branch 4 <em>(if reached stage 30 of <a href="../../quests/kazaul/#stage-30">Lights in the dark</a>)</em> → <a href="#d-throdna_return_3">throdna_return_3</a></li>
+<li>branch 5 <em>(if reached stage 10 of <a href="../../quests/kazaul/#stage-10">Lights in the dark</a>)</em> → <a href="#d-throdna_return_1">throdna_return_1</a></li>
+<li>branch 6 → <a href="#d-throdna_1">throdna_1</a></li>
+</ul>
+<p><span id="d-dds_throdna_10"></span><strong><code>dds_throdna_10</code></strong> Throdna: “You keep on disturbing us?”</p>
+<ul>
+<li>“How did you manage to lose this? [Gives Throdna the second piece of the Kazaul ritual]” → <a href="#d-dds_throdna_20">dds_throdna_20</a></li>
+</ul>
+<p><span id="d-throdna_purify_4"></span><strong><code>throdna_purify_4</code></strong> Throdna: “You should get out of here to allow us to concentrate on our work.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_purify_5">throdna_purify_5</a></li>
+</ul>
+<p><span id="d-throdna_purify_1"></span><strong><code>throdna_purify_1</code></strong> Throdna: “Hello again. I hope you are here to tell me you have purified the shrine of Kazaul?”</p>
+<ul>
+<li>“Yes, it is done.” <em>(if reached stage 60 of <a href="../../quests/kazaul/#stage-60">Lights in the dark</a>)</em> → <a href="#d-throdna_purify_3">throdna_purify_3</a></li>
+<li>“No, not yet.” → <a href="#d-throdna_purify_2">throdna_purify_2</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-throdna_return_8">throdna_return_8</a></li>
+</ul>
+<p><span id="d-throdna_return_3"></span><strong><code>throdna_return_3</code></strong> Throdna: “You actually found all five pieces? I suppose I should thank you. Well then. Thank you.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/kazaul/#stage-30">Lights in the dark</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_return_4">throdna_return_4</a></li>
+</ul>
+<p><span id="d-throdna_return_1"></span><strong><code>throdna_return_1</code></strong> Throdna: “Hello again. I hope you come here to tell me you have the five parts of the ritual.”</p>
+<ul>
+<li>“I am still looking for them.” → <a href="#d-throdna_return_2">throdna_return_2</a></li>
+<li>“How many parts was I supposed to find?” → <a href="#d-throdna_15">throdna_15</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-throdna_12">throdna_12</a></li>
+<li>“Yes, I think I have found them all.” <em>(if reached stage 21 of <a href="../../quests/kazaul/#stage-21">Lights in the dark</a>)</em> → <a href="#d-throdna_check_1">throdna_check_1</a></li>
+</ul>
+<p><span id="d-throdna_1"></span><strong><code>throdna_1</code></strong> Throdna: “Kazaul ... Shadow ... what was it again?”</p>
+<ul>
+<li>Next → <a href="#d-throdna_2">throdna_2</a></li>
+</ul>
+<p><span id="d-dds_throdna_20"></span><strong><code>dds_throdna_20</code></strong> Throdna: “Why did you steal this? You must be part of that terrible cult of the Kazaul.”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_22">dds_throdna_22</a></li>
+</ul>
+<p><span id="d-throdna_purify_5"></span><strong><code>throdna_purify_5</code></strong> Throdna: “...Kazaul, destroyer of bright dreams...”</p>
+<ul>
+<li>Next → <a href="#d-throdna_purify_6">throdna_purify_6</a></li>
+</ul>
+<p><span id="d-throdna_purify_3"></span><strong><code>throdna_purify_3</code></strong> Throdna: “Good. We must hurry to continue our research on Kazaul.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/kazaul/#stage-100">Lights in the dark</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_purify_4">throdna_purify_4</a></li>
+</ul>
+<p><span id="d-throdna_purify_2"></span><strong><code>throdna_purify_2</code></strong> Throdna: “Then hurry and go take the vial to the shrine! What are you standing around here for?”</p>
+<p><span id="d-throdna_return_8"></span><strong><code>throdna_return_8</code></strong> Throdna: “We need you to do two things. First, you must find the shrine of Kazaul. Our scouts tell us that the shrine should be located somewhere near the base of Blackwater mountain.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_return_9">throdna_return_9</a></li>
+</ul>
+<p><span id="d-throdna_return_4"></span><strong><code>throdna_return_4</code></strong> Throdna: “We have more pressing matters to focus on. As I briefly mentioned before, we believe that Kazaul will manifest in our presence soon.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_return_5">throdna_return_5</a></li>
+</ul>
+<p><span id="d-throdna_return_2"></span><strong><code>throdna_return_2</code></strong> Throdna: “Then hurry and go find them! What are you standing around here for then?”</p>
+<p><span id="d-throdna_15"></span><strong><code>throdna_15</code></strong> Throdna: “According to our sources, there should be five parts of the ritual scattered across the mountain. Three of them describing the ritual itself, and two describing the Kazaul chant used to summon the guardian.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_15_1">throdna_15_1</a></li>
+</ul>
+<p><span id="d-throdna_12"></span><strong><code>throdna_12</code></strong> Throdna: “As I said, we want to learn more about the ritual itself.” — <strong>effects:</strong> sets stage 9 of <a href="../../quests/kazaul/#stage-9">Lights in the dark</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_13">throdna_13</a></li>
+</ul>
+<p><span id="d-throdna_check_1"></span><strong><code>throdna_check_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 22 of <a href="../../quests/kazaul/#stage-22">Lights in the dark</a>)</em> → <a href="#d-throdna_check_2">throdna_check_2</a></li>
+<li>branch 2 → <a href="#d-throdna_check_fail">throdna_check_fail</a></li>
+</ul>
+<p><span id="d-throdna_2"></span><strong><code>throdna_2</code></strong> Throdna: “Oh, a visitor. Hello there. I have not seen you around here before. Did they let you in here?”</p>
+<ul>
+<li>Next → <a href="#d-throdna_3">throdna_3</a></li>
+</ul>
+<p><span id="d-dds_throdna_22"></span><strong><code>dds_throdna_22</code></strong> Throdna: “Where was I? Ah, yes ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_22a">dds_throdna_22a</a></li>
+</ul>
+<p><span id="d-throdna_purify_6"></span><strong><code>throdna_purify_6</code></strong> Throdna: “...Kazaul ... Shadow...”</p>
+<ul>
+<li>Next → <a href="#d-throdna_purify_7">throdna_purify_7</a></li>
+</ul>
+<p><span id="d-throdna_return_9"></span><strong><code>throdna_return_9</code></strong> Throdna: “However, all passageways to the shrine are 'clouded in Shadow' according to our scouts. I'm not sure what that means.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_return_10">throdna_return_10</a></li>
+</ul>
+<p><span id="d-throdna_return_5"></span><strong><code>throdna_return_5</code></strong> Throdna: “If that were to happen, we could not complete our research about the ritual or Kazaul itself, all our efforts would be lost.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_return_6">throdna_return_6</a></li>
+</ul>
+<p><span id="d-throdna_15_1"></span><strong><code>throdna_15_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/kazaul/#stage-10">Lights in the dark</a>)</em> → <em>conversation ends</em></li>
+<li>branch 2 → <a href="#d-throdna_16">throdna_16</a></li>
+</ul>
+<p><span id="d-throdna_13"></span><strong><code>throdna_13</code></strong> Throdna: “A while ago, we were on the verge of getting our hands on the whole ritual itself, but the messenger was killed under most interesting circumstances while traveling up here.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_14">throdna_14</a></li>
+</ul>
+<p><span id="d-throdna_check_2"></span><strong><code>throdna_check_2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 25 of <a href="../../quests/kazaul/#stage-25">Lights in the dark</a>)</em> → <a href="#d-throdna_check_3">throdna_check_3</a></li>
+<li>branch 2 → <a href="#d-throdna_check_fail">throdna_check_fail</a></li>
+</ul>
+<p><span id="d-throdna_check_fail"></span><strong><code>throdna_check_fail</code></strong> Throdna: “It seems you have not found all five pieces yet.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_15">throdna_15</a></li>
+</ul>
+<p><span id="d-throdna_3"></span><strong><code>throdna_3</code></strong> Throdna: “Of course they did. What am I rambling on about. Harlenn and his gang always keep their worldly duties under control.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_4">throdna_4</a></li>
+</ul>
+<p><span id="d-dds_throdna_22a"></span><strong><code>dds_throdna_22a</code></strong> Throdna: “O Kazaul, venerabilis deus, where art thou in the shadows of tempus ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_22b">dds_throdna_22b</a></li>
+</ul>
+<p><span id="d-throdna_purify_7"></span><strong><code>throdna_purify_7</code></strong> Throdna: “[Throdna continues to mumble on about Kazaul, but you cannot make out any other words]”</p>
+<p><span id="d-throdna_return_10"></span><strong><code>throdna_return_10</code></strong> Throdna: “Second, we need you to take a vial of purifying spirit and apply it to the shrine.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/kazaul/#stage-40">Lights in the dark</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_return_11_select">throdna_return_11_select</a></li>
+</ul>
+<p><span id="d-throdna_return_6"></span><strong><code>throdna_return_6</code></strong> Throdna: “Therefore, we intend to delay the process as much as we can, until we have learned of its powers.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_return_7">throdna_return_7</a></li>
+</ul>
+<p><span id="d-throdna_16"></span><strong><code>throdna_16</code></strong> Throdna: “Hmm, maybe you could be of use here...”</p>
+<ul>
+<li>“I would be glad to help.” → <a href="#d-throdna_18">throdna_18</a></li>
+<li>“Sounds dangerous, but I'll do it.” → <a href="#d-throdna_18">throdna_18</a></li>
+<li>“Keep your ritual of the Shadow to yourself. I am not getting involved in this.” → <a href="#d-throdna_17">throdna_17</a></li>
+</ul>
+<p><span id="d-throdna_14"></span><strong><code>throdna_14</code></strong> Throdna: “We knew he had the parts of the complete ritual on him, but since he was killed and we could not get to him because of the monsters - his notes were lost to us.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_15">throdna_15</a></li>
+</ul>
+<p><span id="d-throdna_check_3"></span><strong><code>throdna_check_3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 26 of <a href="../../quests/kazaul/#stage-26">Lights in the dark</a>)</em> → <a href="#d-throdna_check_4">throdna_check_4</a></li>
+<li>branch 2 → <a href="#d-throdna_check_fail">throdna_check_fail</a></li>
+</ul>
+<p><span id="d-throdna_4"></span><strong><code>throdna_4</code></strong> Throdna: “So, who might you be then, eh? Probably here to bother me with some worldly complaint about the settlement needing more resources or someone complaining about the cold drag from the outside again?”</p>
+<ul>
+<li>Next → <a href="#d-throdna_loop_1">throdna_loop_1</a></li>
+</ul>
+<p><span id="d-dds_throdna_22b"></span><strong><code>dds_throdna_22b</code></strong> Throdna: “... Sacra ritus, anciente, must be reawakened, sed obscure ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_22c">dds_throdna_22c</a></li>
+</ul>
+<p><span id="d-throdna_return_11_select"></span><strong><code>throdna_return_11_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 41 of <a href="../../quests/kazaul/#stage-41">Lights in the dark</a>)</em> → <a href="#d-throdna_return_13">throdna_return_13</a></li>
+<li>branch 2 → <a href="#d-throdna_return_11">throdna_return_11</a></li>
+</ul>
+<p><span id="d-throdna_return_7"></span><strong><code>throdna_return_7</code></strong> Throdna: “You might be useful to us here again.”</p>
+<ul>
+<li>“I'm ready for anything.” → <a href="#d-throdna_return_8">throdna_return_8</a></li>
+<li>“What do you need of me?” → <a href="#d-throdna_return_8">throdna_return_8</a></li>
+<li>“I sure hope it involves more killing and looting.” → <a href="#d-throdna_return_8">throdna_return_8</a></li>
+</ul>
+<p><span id="d-throdna_18"></span><strong><code>throdna_18</code></strong> Throdna: “Yes, you might be able to help. Not that you really have any choice though.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_19">throdna_19</a></li>
+</ul>
+<p><span id="d-throdna_17"></span><strong><code>throdna_17</code></strong> Throdna: “Fine, we will just have to find someone else then.”</p>
+<p><span id="d-throdna_check_4"></span><strong><code>throdna_check_4</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 27 of <a href="../../quests/kazaul/#stage-27">Lights in the dark</a>)</em> → <a href="#d-throdna_return_3">throdna_return_3</a></li>
+<li>branch 2 → <a href="#d-throdna_check_fail">throdna_check_fail</a></li>
+</ul>
+<p><span id="d-throdna_loop_1"></span><strong><code>throdna_loop_1</code></strong> Throdna: “What do you want?”</p>
+<ul>
+<li>“What is this place?” → <a href="#d-throdna_6">throdna_6</a></li>
+<li>“Who are you?” → <a href="#d-throdna_7">throdna_7</a></li>
+<li>“What was that you talked about when I arrived, Kazaul?” → <a href="#d-throdna_8">throdna_8</a></li>
+<li>“Are you aware that there is a bitter rivalry going on between this settlement and Prim?” → <a href="#d-throdna_5">throdna_5</a></li>
+</ul>
+<p><span id="d-dds_throdna_22c"></span><strong><code>dds_throdna_22c</code></strong> Throdna: “... Lumen in tenebris, the sigil of Kazaul, lost in the mists of memoria ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_24">dds_throdna_24</a></li>
+</ul>
+<p><span id="d-throdna_return_13"></span><strong><code>throdna_return_13</code></strong> Throdna: “Return to me as soon as you have completed your task.”</p>
+<p><span id="d-throdna_return_11"></span><strong><code>throdna_return_11</code></strong> Throdna: “This vial is a vial of purifying spirit. It should delay the process well enough for us to be able to continue our research.”</p>
+<ul>
+<li>“Sounds easy. I'll do it.” → <a href="#d-throdna_return_12">throdna_return_12</a></li>
+<li>“Sounds dangerous, but I will do it.” → <a href="#d-throdna_return_12">throdna_return_12</a></li>
+<li>“This sounds like a trap. I won't agree to do your dirty work.” → <a href="#d-throdna_17">throdna_17</a></li>
+</ul>
+<p><span id="d-throdna_19"></span><strong><code>throdna_19</code></strong> Throdna: “OK. Find me the pieces of the ritual that the former messenger carried on him. They should be found somewhere on the path up to Blackwater mountain.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/kazaul/#stage-10">Lights in the dark</a></p>
+<ul>
+<li>“I will return with your parts of the ritual.” → <a href="#d-throdna_20">throdna_20</a></li>
+</ul>
+<p><span id="d-throdna_6"></span><strong><code>throdna_6</code></strong> Throdna: “This is the mages' chamber in Blackwater mountain. We devote our time to the studies of the Shadow and its descendants.”</p>
+<ul>
+<li>“Descendants?” → <a href="#d-throdna_8">throdna_8</a></li>
+<li>“Let's go back to my other questions.” → <a href="#d-throdna_loop_1">throdna_loop_1</a></li>
+</ul>
+<p><span id="d-throdna_7"></span><strong><code>throdna_7</code></strong> Throdna: “I am Throdna. One of the most learned persons around, if you ask me.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_loop_1">throdna_loop_1</a></li>
+</ul>
+<p><span id="d-throdna_8"></span><strong><code>throdna_8</code></strong> Throdna: “Kazaul, the Shadow spawn of red marrow.” — <strong>effects:</strong> sets stage 8 of <a href="../../quests/kazaul/#stage-8">Lights in the dark</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_9">throdna_9</a></li>
+</ul>
+<p><span id="d-throdna_5"></span><strong><code>throdna_5</code></strong> Throdna: “And there you go with your mundane problems. I tell you, your worldly troubles do not interest me the least bit.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_6">throdna_6</a></li>
+</ul>
+<p><span id="d-dds_throdna_24"></span><strong><code>dds_throdna_24</code></strong> Throdna: “... Perhaps the incantatio of the ancients holds the key, sed forgotten ...”</p>
+<ul>
+<li>“What was the word again? Ah, I remember. [Loud voice] Kazaul Est!” → <a href="#d-dds_throdna_30">dds_throdna_30</a></li>
+</ul>
+<p><span id="d-throdna_return_12"></span><strong><code>throdna_return_12</code></strong> Throdna: “Good, here is the vial. Now hurry.” — <strong>effects:</strong> sets stage 41 of <a href="../../quests/kazaul/#stage-41">Lights in the dark</a>, gives <a href="../../items/q_kazaul_vial/">Vial of purifying spirit</a></p>
+<ul>
+<li>Next → <a href="#d-throdna_return_13">throdna_return_13</a></li>
+</ul>
+<p><span id="d-throdna_20"></span><strong><code>throdna_20</code></strong> Throdna: “Yes, you will.” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/kazaul/#stage-11">Lights in the dark</a></p>
+<p><span id="d-throdna_9"></span><strong><code>throdna_9</code></strong> Throdna: “We have been trying to read all we can on Kazaul, and the ritual. It seems we might be too late.”</p>
+<ul>
+<li>“What do you mean?” → <a href="#d-throdna_10">throdna_10</a></li>
+</ul>
+<p><span id="d-dds_throdna_30"></span><strong><code>dds_throdna_30</code></strong> Throdna: “You are still here? Well ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_32">dds_throdna_32</a></li>
+</ul>
+<p><span id="d-throdna_10"></span><strong><code>throdna_10</code></strong> Throdna: “The ritual. We believe that Kazaul will manifest in our presence soon.”</p>
+<ul>
+<li>Next → <a href="#d-throdna_11">throdna_11</a></li>
+</ul>
+<p><span id="d-dds_throdna_32"></span><strong><code>dds_throdna_32</code></strong> Throdna: “So, you're not the one who stole my notes?”</p>
+<ul>
+<li>“No, in fact I helped purify the shrine.” → <a href="#d-dds_throdna_40">dds_throdna_40</a></li>
+</ul>
+<p><span id="d-throdna_11"></span><strong><code>throdna_11</code></strong> Throdna: “We must learn more about the Kazaul ritual, to gain its power and learn to use it for our purposes.”</p>
+<ul>
+<li>“Can I help in some way?” → <a href="#d-throdna_12">throdna_12</a></li>
+<li>“What were you planning to do?” → <a href="#d-throdna_12">throdna_12</a></li>
+</ul>
+<p><span id="d-dds_throdna_40"></span><strong><code>dds_throdna_40</code></strong> Throdna: “That is right. So, what do you want?”</p>
+<ul>
+<li>“I need to know what all this chant can do.” → <a href="#d-dds_throdna_50">dds_throdna_50</a></li>
+</ul>
+<p><span id="d-dds_throdna_50"></span><strong><code>dds_throdna_50</code></strong> Throdna: “It's a powerful chant for many dangerous things. I'm not sure I should tell. Followers of Kazaul want to get a foothold in Dhayavar.”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_52">dds_throdna_52</a></li>
+</ul>
+<p><span id="d-dds_throdna_52"></span><strong><code>dds_throdna_52</code></strong> Throdna: “The ritual of the nocturnus, should it be performed under Luna's watchful eye ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_54">dds_throdna_54</a></li>
+</ul>
+<p><span id="d-dds_throdna_54"></span><strong><code>dds_throdna_54</code></strong> Throdna: “... Ego dubito, whether the offerings still hold power, or are but relics of a bygone era ...”</p>
+<ul>
+<li>“Not again - Kazaul Est!” → <a href="#d-dds_throdna_60">dds_throdna_60</a></li>
+</ul>
+<p><span id="d-dds_throdna_60"></span><strong><code>dds_throdna_60</code></strong> Throdna: “Yes. This piece of the ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive walls, impenetrable barriers ... dangerous rites.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/darkness_in_daylight/#stage-100">Darkness in the Daylight</a></p>
+<ul>
+<li>“I just came from such an impenetrable barrier in the south of Stoutford.” → <a href="#d-dds_throdna_70">dds_throdna_70</a></li>
+</ul>
+<p><span id="d-dds_throdna_70"></span><strong><code>dds_throdna_70</code></strong> Throdna: “An impenetrable barrier? That's no good. If Kazaul gains a foothold in Dhayavar, strong monsters will roam in Dhayavar.”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_72">dds_throdna_72</a></li>
+</ul>
+<p><span id="d-dds_throdna_72"></span><strong><code>dds_throdna_72</code></strong> Throdna: “... Is the tempus ripe for the reawakening of Kazaul, or is it but an illusion ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_74">dds_throdna_74</a></li>
+</ul>
+<p><span id="d-dds_throdna_74"></span><strong><code>dds_throdna_74</code></strong> Throdna: “... Must find the correct verba, the sacred words that summon the divine ...”</p>
+<ul>
+<li>Next → <a href="#d-dds_throdna_78">dds_throdna_78</a></li>
+</ul>
+<p><span id="d-dds_throdna_78"></span><strong><code>dds_throdna_78</code></strong> Throdna: “... Kazaul's essence, hidden within the arcana of the old scrolls, waiting to be uncovered ...”</p>
+<ul>
+<li>“Kazaul Est!!” → <a href="#d-dds_throdna_80">dds_throdna_80</a></li>
+</ul>
+<p><span id="d-dds_throdna_80"></span><strong><code>dds_throdna_80</code></strong> Throdna: “Eh, yes. The barrier. One has to use the two pieces of the ritual and a chant of passage to go through the barrier.”</p>
+<ul>
+<li>“What is the chant of passage?” → <a href="#d-dds_throdna_90">dds_throdna_90</a></li>
+</ul>
+<p><span id="d-dds_throdna_90"></span><strong><code>dds_throdna_90</code></strong> Throdna: “That is something I do not know.”</p>
+<ul>
+<li>“So, nothing to be done?” → <a href="#d-dds_throdna_100">dds_throdna_100</a></li>
+</ul>
+<p><span id="d-dds_throdna_100"></span><strong><code>dds_throdna_100</code></strong> Throdna: “I didn't say that! There was a traveler a long time back - he wrote a book Calomyran Secrets. It has the chant of passage, among other things to counter Kazaul dangers. Find it, if you can.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/darkness_in_daylight/#stage-110">Darkness in the Daylight</a></p>
+<ul>
+<li>“Calomyran Secrets? That rings a bell. Thanks!” → <a href="#d-dds_throdna_102">dds_throdna_102</a></li>
+</ul>
+<p><span id="d-dds_throdna_102"></span><strong><code>dds_throdna_102</code></strong> Throdna: “... Ah, the anciente scriptura, perhaps it reveals the secret to rekindling the divine ...”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=throdna.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=throdna.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=throdna.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=throdna.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>throdna</code> · Data from v0.8.18</small></p>
 
 

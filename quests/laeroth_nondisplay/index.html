@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,145 +971,753 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>laeroth_nondisplay</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>32</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/island_underground1/">island_underground1</a>, stepping on a trigger on <a href="../../maps/island_underground3/">island_underground3</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/lae_centaur2/">Callista, the centaur</a>, <a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a>, <a href="../../monsters/forenza/">Forenza</a>, <a href="../../monsters/gylew/">Gylew</a>, <a href="../../monsters/moriath/">Moriath</a>, <a href="../../monsters/lae_centaur1/">Orion, the centaur</a> +1</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/island1/">island1</a>, <a href="../../maps/island2/">island2</a>, <a href="../../maps/island3/">island3</a>, <a href="../../maps/laerothbasement2/">laerothbasement2</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>island_underground2_set1</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to stepping on a trigger on <a href="../../maps/island_underground1/">island_underground1</a> to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-10">Take care of the caretaker</a></td>
+<td>stage 10 reached, for stage 120 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-35">Take care of the caretaker</a></td>
+<td>stage 35 reached, for stage 3 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-50">Take care of the caretaker</a></td>
+<td>stage 50 reached, for stage 5 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a></td>
+<td>stage 90 reached, for stage 9 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-160">Take care of the caretaker</a></td>
+<td>stage 160 reached, for stage 14 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../laeroth_caretaker/#stage-170">Take care of the caretaker</a></td>
+<td>stage 170 reached, for stage 120 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../last_lord/#stage-40">The last lord of Laeroth</a></td>
+<td>stage 40 reached, for stage 140 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td>stage 47 reached, for stage 106 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odd_coin_collector/#stage-40">The odd coin collector</a></td>
+<td>stage 40 reached, for stage 105 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odd_coin_collector/#stage-45">The odd coin collector</a></td>
+<td>stage 45 reached, for stage 103 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odd_coin_collector/#stage-62">The odd coin collector</a></td>
+<td>stage 62 reached, for stage 103 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odd_coin_collector/#stage-63">The odd coin collector</a></td>
+<td>stage 63 reached, for stage 108 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odd_coin_collector/#stage-65">The odd coin collector</a></td>
+<td>stage 65 reached, for stage 106 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../wanted_men/#stage-80">Wanted men</a></td>
+<td>stage 80 reached, for stage 107 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../lae_torturer/#stage-110">Shadow of the torturer</a></td>
+<td>stage 110 must NOT be reached, for stages 31, 32, 33, 34 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-40">Take care of the caretaker</a></td>
+<td>stage 40 must NOT be reached, for stage 4 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-70">Take care of the caretaker</a></td>
+<td>stage 70 must NOT be reached, for stage 6 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a></td>
+<td>stage 90 must NOT be reached, for stages 8, 13 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-100">Take care of the caretaker</a></td>
+<td>stage 100 must NOT be reached, for stage 9 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-110">Take care of the caretaker</a></td>
+<td>stage 110 must NOT be reached, for stages 10, 14 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-120">Take care of the caretaker</a></td>
+<td>stage 120 must NOT be reached, for stage 13 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-160">Take care of the caretaker</a></td>
+<td>stage 160 must NOT be reached, for stage 12 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../laeroth_caretaker/#stage-170">Take care of the caretaker</a></td>
+<td>stage 170 must NOT be reached, for stage 14 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-60">The odd coin collector</a></td>
+<td>stage 60 must NOT be reached, for stage 108 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-62">The odd coin collector</a></td>
+<td>stage 62 must NOT be reached, for stage 105 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-65">The odd coin collector</a></td>
+<td>stage 65 must NOT be reached, for stage 103 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-66">The odd coin collector</a></td>
+<td>stage 66 must NOT be reached, for stage 103 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-100">The odd coin collector</a></td>
+<td>stage 100 must NOT be reached, for stage 105 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../odd_coin_collector/#stage-105">The odd coin collector</a></td>
+<td>stage 105 must NOT be reached, for stage 105 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lae_torturer/#stage-5">Shadow of the torturer</a></td>
+<td>stage 5 there needs stages 31, 33, 34 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lae_torturer/#stage-10">Shadow of the torturer</a></td>
+<td>stage 10 there needs stages 31, 33, 34 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-40">Take care of the caretaker</a></td>
+<td>stage 40 there needs stage 4 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-70">Take care of the caretaker</a></td>
+<td>stage 70 there needs stage 6 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a></td>
+<td>stage 90 there needs stage 8 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-110">Take care of the caretaker</a></td>
+<td>stage 110 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-120">Take care of the caretaker</a></td>
+<td>stage 120 there needs stage 13 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-160">Take care of the caretaker</a></td>
+<td>stage 160 there needs stage 12 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../laeroth_caretaker/#stage-170">Take care of the caretaker</a></td>
+<td>stage 170 there needs stage 14 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../nondisplay/#stage-44">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td>reaching stage 103 here closes stage 44 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../nondisplay/#stage-45">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td>reaching stage 103 here closes stage 45 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../nondisplay/#stage-48">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td>reaching stage 103 here closes stage 48 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>island_underground2_set1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/island_underground1/">Island underground1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/island_underground3/">Island underground3</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/island_underground1/">island_underground1</a></td>
+<td>–</td>
+<td>clears stage 2 of <a href="./#stage-2">laeroth_nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-2"></span>2</td>
 <td>island_underground2_set2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/island_underground3/">Island underground3</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/island_underground3/">island_underground3</a></td>
+<td>–</td>
+<td>clears stage 1 of <a href="./#stage-1">laeroth_nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-3"></span>3</td>
 <td>Got Verigil ring<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothmanor1/">Laerothmanor1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothmanor1/">laerothmanor1</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a></td>
 </tr>
 <tr>
 <td><span id="stage-4"></span>4</td>
 <td>placed ring on tomb<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/oegyth/">Oegyth crystal</a>, carry 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a>, hand over 1× <a href="../../items/oegyth/">Oegyth crystal</a>, hand over 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>Got Eyvipa candlestick<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothmanor2/">Laerothmanor2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothmanor2/">laerothmanor2</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a><br>sets stage 60 of <a href="../laeroth_caretaker/#stage-60">Take care of the caretaker</a></td>
 </tr>
 <tr>
 <td><span id="stage-6"></span>6</td>
 <td>placed candlestick on tomb<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a>, carry 1× <a href="../../items/oegyth1/">Slightly diminished oegyth crystal</a>, hand over 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a>, hand over 1× <a href="../../items/oegyth1/">Slightly diminished oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-7"></span>7</td>
 <td>Got Cuned's diary //obsolete,nut</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-8"></span>8</td>
 <td>Placed diary on tomb<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/diary_cuned/">Cuned's diary</a>, carry 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a>, hand over 1× <a href="../../items/diary_cuned/">Cuned's diary</a>, hand over 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-9"></span>9</td>
 <td>Got Jerelin's seal<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothbasement1/">Laerothbasement1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothbasement1/">laerothbasement1</a></td>
+<td>–</td>
+<td>sets stage 100 of <a href="../laeroth_caretaker/#stage-100">Take care of the caretaker</a><br>gives 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a></td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Placed seal on tomb<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>, carry 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a>, hand over 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>, hand over 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-11"></span>11</td>
 <td>Got Audela's necklace</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-12"></span>12</td>
 <td>Placed necklace on tomb<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/audela_necklace/">Audela's necklace</a>, carry 1× <a href="../../items/oegyth5/">Very heavily diminished oegyth crystal</a>, hand over 1× <a href="../../items/audela_necklace/">Audela's necklace</a>, hand over 1× <a href="../../items/oegyth5/">Very heavily diminished oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-13"></span>13</td>
 <td>Raised the spirit of cuned again<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/diary_cuned/">Cuned's diary</a>, carry 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a>, hand over 1× <a href="../../items/oegyth4/">Heavily diminished oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-14"></span>14</td>
 <td>Raised Jerelin again<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a></td>
+<td>carry 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>, carry 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a>, hand over 1× <a href="../../items/oegyth6/">Nearly depleted oegyth crystal</a></td>
+<td>spawns monsters on laerothtomb1</td>
 </tr>
 <tr>
 <td><span id="stage-31"></span>31</td>
 <td>Opened cell 1<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/laerothprison4/">Laerothprison4</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/laerothprison4/">Laerothprison4</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a></td>
+<td>carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>Opened cell 2<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/laerothprison4/">Laerothprison4</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/laerothprison4/">Laerothprison4</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a></td>
+<td>carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-33"></span>33</td>
 <td>Opened cell 3<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/laerothprison4/">Laerothprison4</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/laerothprison4/">Laerothprison4</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a></td>
+<td>carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-34"></span>34</td>
 <td>Opened cell 4<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/laerothprison4/">Laerothprison4</a>.</span><br><span class="qnote">🗺️ Part of <a href="../../maps/laerothprison4/">Laerothprison4</a> visibly changes.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a></td>
+<td>carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-102"></span>102</td>
 <td>Inside the Laeroth barn basement, the PC has found the Mystery Laeroth key.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothbarn1/">Laerothbarn1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothbarn1/">laerothbarn1</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/mystery_laeroth_key/">Mystery Laeroth key</a></td>
 </tr>
 <tr>
 <td><span id="stage-103"></span>103</td>
 <td>This is just a wrapper around the odd coin collector 65 and 66 steps, it is easier to check this one when looking for confirmation that the PC found the Coin of Prestige and the Shield of the Brave.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/korhald_cave_hidden/">Korhald cave hidden</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/korhald_cave_hidden/">korhald_cave_hidden</a></td>
+<td>carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a></td>
+<td>sets stage 65 of <a href="../odd_coin_collector/#stage-65">The odd coin collector</a><br>sets stage 66 of <a href="../odd_coin_collector/#stage-66">The odd coin collector</a></td>
 </tr>
 <tr>
 <td><span id="stage-104"></span>104</td>
 <td>The PC has helped heal Forenza. This is just a wrapper around the odd coin collector quest's "aid" Forenza steps.</td>
+<td><a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>)</td>
+<td>hand over 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>, hand over 1× <a href="../../items/pot_healthlodar/">Lodar's potion of health</a>, hand over 1× <a href="../../items/health_major2/">Major potion of health</a>, hand over 1× <a href="../../items/health_minor2/">Minor potion of health</a>, hand over 1× <a href="../../items/pot_bleeding_ointment/">Ointment of bleeding wounds</a>, hand over 1× <a href="../../items/health/">Regular potion of health</a></td>
+<td>sets stage 42 of <a href="../odd_coin_collector/#stage-42">The odd coin collector</a><br>sets stage 43 of <a href="../odd_coin_collector/#stage-43">The odd coin collector</a><br>sets stage 44 of <a href="../odd_coin_collector/#stage-44">The odd coin collector</a><br>sets stage 46 of <a href="../odd_coin_collector/#stage-46">The odd coin collector</a><br>sets stage 47 of <a href="../odd_coin_collector/#stage-47">The odd coin collector</a><br>sets stage 48 of <a href="../odd_coin_collector/#stage-48">The odd coin collector</a></td>
 </tr>
 <tr>
 <td><span id="stage-105"></span>105</td>
 <td>I gave Gylew the Korhald chest.</td>
+<td><a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>)</td>
+<td>carry 1× <a href="../../items/forenza_key/">Forenza's key</a>, carry 1× <a href="../../items/korhald_coins/">Korhald coin chest</a>, hand over 1× <a href="../../items/korhald_coins/">Korhald coin chest</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-106"></span>106</td>
 <td>This is just a wrapper around the odd coin collector "end" steps as there are 4 of them, it is easier to check this one when looking for confirmation that the quest is complete.</td>
+<td><a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>)<br><a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>)</td>
+<td>carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>, carry 1× <a href="../../items/shield_of_brave/">Shield of the Brave</a>, hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a></td>
+<td>gives <a href="../../items/gold/">Gold coins</a><br>sets stage 100 of <a href="../odd_coin_collector/#stage-100">The odd coin collector</a><br>clears stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a><br>sets stage 105 of <a href="../odd_coin_collector/#stage-105">The odd coin collector</a><br>sets stage 115 of <a href="../odd_coin_collector/#stage-115">The odd coin collector</a><br>sets stage 110 of <a href="../odd_coin_collector/#stage-110">The odd coin collector</a></td>
 </tr>
 <tr>
 <td><span id="stage-107"></span>107</td>
 <td>Sold 5 bronze and 5 silver coins to the coin collector.</td>
+<td><a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>)<br><a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>)</td>
+<td>carry 50× <a href="../../items/bronze_coin/">Bronze coin</a>, carry 60× <a href="../../items/silver_coin/">Silver coin</a>, hand over 5× <a href="../../items/bronze_coin/">Bronze coin</a>, hand over 5× <a href="../../items/silver_coin/">Silver coin</a>, stage 106</td>
+<td>gives 160× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 <tr>
 <td><span id="stage-108"></span>108</td>
 <td>PC gave Forenza Gylew's key.</td>
+<td><a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>)</td>
+<td>hand over 1× <a href="../../items/gylew_key/">Gylew's key</a>, hand over 1× <a href="../../items/korhald_coins/">Korhald coin chest</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-120"></span>120</td>
 <td>Jerelin grave moved<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/laerothtomb1/">Laerothtomb1</a>.</span></td>
+<td><a href="../../monsters/moriath/">Moriath</a> (<a href="../../maps/laerothmanor1/">laerothmanor1</a>)</td>
+<td>–</td>
+<td>removes monsters from laerothmanor1<br>sets stage 180 of <a href="../laeroth_caretaker/#stage-180">Take care of the caretaker</a></td>
 </tr>
 <tr>
 <td><span id="stage-140"></span>140</td>
 <td>Looted Adakin's chest.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/laerothbasement0/">Laerothbasement0</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/laerothbasement0/">laerothbasement0</a></td>
+<td>hand over 1× <a href="../../items/adakin_chest_key/">Key for Adakin's chest</a></td>
+<td>gives 3× <a href="../../items/health_major2/">Major potion of health</a><br>gives 1× <a href="../../items/sword_balanced_steel/">Balanced steel sword</a><br>gives 1× <a href="../../items/ring_dmg6/">Ring of damage +6</a></td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
 <td>brute_creator_in<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake8_cave/">Mountainlake8 cave</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a></td>
+<td>–</td>
+<td>changes map mountainlake8_cave</td>
 </tr>
 <tr>
 <td><span id="stage-201"></span>201</td>
 <td>brute_creator_key<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake8_cave/">Mountainlake8 cave</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/mountainlake8_cave/">Mountainlake8 cave</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a></td>
+<td>–</td>
+<td>faction “brute_creator_flash” set to 1<br>sets stage 30 of <a href="../brute_creator/#stage-30">Brutes</a><br>faction “brute_creator_flash” set to 2</td>
 </tr>
 <tr>
 <td><span id="stage-211"></span>211</td>
 <td>centaur1 heard</td>
+<td><a href="../../monsters/lae_centaur1/">Orion, the centaur</a> (<a href="../../maps/island1/">island1</a>)</td>
+<td>–</td>
+<td>sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a></td>
 </tr>
 <tr>
 <td><span id="stage-212"></span>212</td>
 <td>centaur2 heard</td>
+<td><a href="../../monsters/lae_centaur2/">Callista, the centaur</a> (<a href="../../maps/island2/">island2</a>)</td>
+<td>–</td>
+<td>sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a></td>
 </tr>
 <tr>
 <td><span id="stage-213"></span>213</td>
 <td>centaur3 heard</td>
+<td><a href="../../monsters/lae_centaur3/">Silvanus, the centaur</a> (<a href="../../maps/island3/">island3</a>)</td>
+<td>–</td>
+<td>sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>laeroth_nondisplay</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 1: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/island_underground1/">island_underground1</a> → the conversation leads here automatically → <strong>stage 1</strong>; also clears stage 2 of <a href="./#stage-2">laeroth_nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 2: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/island_underground3/">island_underground3</a> → the conversation leads here automatically → <strong>stage 2</strong>; also clears stage 1 of <a href="./#stage-1">laeroth_nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 3: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothmanor1/">laerothmanor1</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 35 of <a href="../laeroth_caretaker/#stage-35">Take care of the caretaker</a>; NOT reached stage 3 of <a href="./#stage-3">laeroth_nondisplay (hidden flag)</a> → <strong>stage 3</strong>; also gives 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a>. NPC: “You found a ring with "V" engraved on it. This should work.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 4: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Place Verigil's ring on the tomb.” — <strong>conditions:</strong> carry 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a>; NOT reached stage 40 of <a href="../laeroth_caretaker/#stage-40">Take care of the caretaker</a>; carry 1× <a href="../../items/oegyth/">Oegyth crystal</a>; hand over 1× <a href="../../items/verigil_ring/">Verigil's signet ring</a>; hand over 1× <a href="../../items/oegyth/">Oegyth crystal</a> → <strong>stage 4</strong>; also spawns monsters on laerothtomb1. NPC: “You place an oegyth crystal and Verigil's signet ring on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 5: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothmanor2/">laerothmanor2</a> → choose “Take a look in the chest.” — <strong>conditions:</strong> reached stage 50 of <a href="../laeroth_caretaker/#stage-50">Take care of the caretaker</a>; NOT reached stage 5 of <a href="./#stage-5">laeroth_nondisplay (hidden flag)</a> → <strong>stage 5</strong>; also gives 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a>, sets stage 60 of <a href="../laeroth_caretaker/#stage-60">Take care of the caretaker</a>. NPC: “You rummage around in the contents. Then a high quality candlestick catches your eye. It has "E" engraved on it! This…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 6: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Place candlestick on the tomb.” — <strong>conditions:</strong> carry 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a>; carry 1× <a href="../../items/oegyth1/">Slightly diminished oegyth crystal</a>; NOT reached stage 70 of <a href="../laeroth_caretaker/#stage-70">Take care of the caretaker</a>; hand over 1× <a href="../../items/eyvipa_candlestick/">Eyvipa's candlestick</a>; hand over 1× <a href="../../items/oegyth1/">Slightly diminished oegyth crystal</a> → <strong>stage 6</strong>; also spawns monsters on laerothtomb1. NPC: “You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 8: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Place diary on the tomb.” — <strong>conditions:</strong> carry 1× <a href="../../items/diary_cuned/">Cuned's diary</a>; carry 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a>; NOT reached stage 90 of <a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a>; hand over 1× <a href="../../items/diary_cuned/">Cuned's diary</a>; hand over 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a> → <strong>stage 8</strong>; also spawns monsters on laerothtomb1. NPC: “You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 9: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothbasement1/">laerothbasement1</a> → choose “You rummage around in the clutter in the chest.” — <strong>conditions:</strong> reached stage 90 of <a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a>; NOT reached stage 100 of <a href="../laeroth_caretaker/#stage-100">Take care of the caretaker</a> → <strong>stage 9</strong>; also sets stage 100 of <a href="../laeroth_caretaker/#stage-100">Take care of the caretaker</a>, gives 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>. NPC: “You find a ring that apparently served as a seal for Jerelin, as it had a large "J" on it. You take the seal.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Place seal on the tomb.” — <strong>conditions:</strong> carry 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>; carry 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a>; NOT reached stage 110 of <a href="../laeroth_caretaker/#stage-110">Take care of the caretaker</a>; hand over 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>; hand over 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a> → <strong>stage 10</strong>; also spawns monsters on laerothtomb1. NPC: “You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 12: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Place Audela's necklace on the tomb.” — <strong>conditions:</strong> carry 1× <a href="../../items/audela_necklace/">Audela's necklace</a>; carry 1× <a href="../../items/oegyth5/">Very heavily diminished oegyth crystal</a>; NOT reached stage 160 of <a href="../laeroth_caretaker/#stage-160">Take care of the caretaker</a>; hand over 1× <a href="../../items/audela_necklace/">Audela's necklace</a>; hand over 1× <a href="../../items/oegyth5/">Very heavily diminished oegyth crystal</a> → <strong>stage 12</strong>; also spawns monsters on laerothtomb1. NPC: “You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 13: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Call for Cuned.” — <strong>conditions:</strong> carry 1× <a href="../../items/diary_cuned/">Cuned's diary</a>; carry 1× <a href="../../items/oegyth2/">Diminished oegyth crystal</a>; NOT reached stage 90 of <a href="../laeroth_caretaker/#stage-90">Take care of the caretaker</a>; NOT reached stage 120 of <a href="../laeroth_caretaker/#stage-120">Take care of the caretaker</a>; hand over 1× <a href="../../items/oegyth4/">Heavily diminished oegyth crystal</a> → <strong>stage 13</strong>; also spawns monsters on laerothtomb1. NPC: “You place the heavily diminished oegyth crystal on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 14: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothtomb1/">laerothtomb1</a> → choose “Call for Jerelin.” — <strong>conditions:</strong> carry 1× <a href="../../items/seal_jerelin/">Jerelin's seal</a>; carry 1× <a href="../../items/oegyth3/">Very diminished oegyth crystal</a>; NOT reached stage 110 of <a href="../laeroth_caretaker/#stage-110">Take care of the caretaker</a>; reached stage 160 of <a href="../laeroth_caretaker/#stage-160">Take care of the caretaker</a>; NOT reached stage 170 of <a href="../laeroth_caretaker/#stage-170">Take care of the caretaker</a>; hand over 1× <a href="../../items/oegyth6/">Nearly depleted oegyth crystal</a> → <strong>stage 14</strong>; also spawns monsters on laerothtomb1. NPC: “You place the nearly depleted oegyth crystal on the tomb, and chant "iseray iritspay"”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 31: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a> → choose “Unlock.” — <strong>conditions:</strong> carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a>; NOT reached stage 110 of <a href="../lae_torturer/#stage-110">Shadow of the torturer</a> → <strong>stage 31</strong>. NPC: “Click.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a> → choose “Unlock.” — <strong>conditions:</strong> carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a>; NOT reached stage 110 of <a href="../lae_torturer/#stage-110">Shadow of the torturer</a> → <strong>stage 32</strong>. NPC: “Click.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 33: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a> → choose “Unlock.” — <strong>conditions:</strong> carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a>; NOT reached stage 110 of <a href="../lae_torturer/#stage-110">Shadow of the torturer</a> → <strong>stage 33</strong>. NPC: “Click.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 34: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/laerothprison4/">laerothprison4</a> → choose “Unlock.” — <strong>conditions:</strong> carry 1× <a href="../../items/lae_prison_key/">Laeroth prison key</a>; NOT reached stage 110 of <a href="../lae_torturer/#stage-110">Shadow of the torturer</a> → <strong>stage 34</strong>. NPC: “Click.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 102: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothbarn1/">laerothbarn1</a> → choose “[Bend down and take a look.]” — <strong>conditions:</strong> NOT reached stage 102 of <a href="./#stage-102">laeroth_nondisplay (hidden flag)</a> → <strong>stage 102</strong>; also gives 1× <a href="../../items/mystery_laeroth_key/">Mystery Laeroth key</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 103: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/korhald_cave_hidden/">korhald_cave_hidden</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 65 of <a href="../odd_coin_collector/#stage-65">The odd coin collector</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>; reached stage 62 of <a href="../odd_coin_collector/#stage-62">The odd coin collector</a> → <strong>stage 103</strong>; also sets stage 65 of <a href="../odd_coin_collector/#stage-65">The odd coin collector</a>. NPC: “you have just found a coin and a shield. You should bring this coin back to Forenza.”</li>
+<li>stepping on a trigger on <a href="../../maps/korhald_cave_hidden/">korhald_cave_hidden</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 66 of <a href="../odd_coin_collector/#stage-66">The odd coin collector</a>; reached stage 45 of <a href="../odd_coin_collector/#stage-45">The odd coin collector</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a> → <strong>stage 103</strong>; also sets stage 66 of <a href="../odd_coin_collector/#stage-66">The odd coin collector</a>. NPC: “you have just found a coin and a shield. You should bring this coin back to Gylew.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 104: 7 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “Well, I have this ointment for stopping wounds. Take it.” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/pot_bleeding_ointment/">Ointment of bleeding wounds</a> → <strong>stage 104</strong>; also sets stage 42 of <a href="../odd_coin_collector/#stage-42">The odd coin collector</a>. NPC: “Oh, that's wonderful. Thank you.”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “Well I have a bonemeal potion. It's yours now. Take it.” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a> → <strong>stage 104</strong>; also sets stage 43 of <a href="../odd_coin_collector/#stage-43">The odd coin collector</a>. NPC: “Oh, this stuff is great!”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “Here, take it. It's a really strong potion of healing.” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/health_major2/">Major potion of health</a> → <strong>stage 104</strong>; also sets stage 44 of <a href="../odd_coin_collector/#stage-44">The odd coin collector</a>. NPC: “This stuff tastes nasty, but I swear I can feel it helping already.”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “I have this really special potion of healing that I got from a very wise old man. Take it!” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/pot_healthlodar/">Lodar's potion of health</a> → <strong>stage 104</strong>; also sets stage 46 of <a href="../odd_coin_collector/#stage-46">The odd coin collector</a>. NPC: “Oh, now this stuff feels like its healing power will last just a little bit longer.”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “I have an ordinary potion of health for you. Take it!” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/health/">Regular potion of health</a> → <strong>stage 104</strong>; also sets stage 47 of <a href="../odd_coin_collector/#stage-47">The odd coin collector</a>. NPC: “Oh, this should help. Thank you.”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “I have an little health potion for you. It's all I have. Take it!” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/health_minor2/">Minor potion of health</a> → <strong>stage 104</strong>; also sets stage 48 of <a href="../odd_coin_collector/#stage-48">The odd coin collector</a>. NPC: “Oh, this should help. I guess.”</li>
+<li>Talk to <a href="../../monsters/forenza/">Forenza</a> (<a href="../../maps/laerothbasement2/">laerothbasement2</a>) → choose “I'm so sorry, but I have nothing that can help you.” — <strong>conditions:</strong> NOT reached stage 104 of <a href="./#stage-104">laeroth_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>; NOT carry 1× <a href="../../items/pot_bm_lodar/">Lodar's bonemeal potion</a>; NOT carry 1× <a href="../../items/pot_healthlodar/">Lodar's potion of health</a>; NOT carry 1× <a href="../../items/health_major2/">Major potion of health</a>; NOT carry 1× <a href="../../items/health/">Regular potion of health</a>; NOT carry 1× <a href="../../items/health_minor2/">Minor potion of health</a> → <strong>stage 104</strong>. NPC: “You are a disappointment. Anyways...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 105: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>) → choose “Here you go.” — <strong>conditions:</strong> reached stage 40 of <a href="../odd_coin_collector/#stage-40">The odd coin collector</a>; NOT reached stage 100 of <a href="../odd_coin_collector/#stage-100">The odd coin collector</a>; NOT reached stage 105 of <a href="../odd_coin_collector/#stage-105">The odd coin collector</a>; carry 1× <a href="../../items/korhald_coins/">Korhald coin chest</a>; carry 1× <a href="../../items/forenza_key/">Forenza's key</a>; NOT reached stage 62 of <a href="../odd_coin_collector/#stage-62">The odd coin collector</a>; hand over 1× <a href="../../items/korhald_coins/">Korhald coin chest</a> → <strong>stage 105</strong>. NPC: “[Gylew examines the chest] What?! There are two locks! How can this be? Do you know anything about a second key?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 106: 4 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>) → choose “Sounds like a great deal. I'll take it.” — <strong>conditions:</strong> reached stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a> → <strong>stage 106</strong>; also gives <a href="../../items/gold/">Gold coins</a>, sets stage 100 of <a href="../odd_coin_collector/#stage-100">The odd coin collector</a>, clears stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “Excellent. Come see me if you ever find any more interesting coins.”</li>
+<li>Talk to <a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>) → choose “Here, take it. I have enough coins.” — <strong>conditions:</strong> reached stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a> → <strong>stage 106</strong>; also sets stage 105 of <a href="../odd_coin_collector/#stage-105">The odd coin collector</a>, clears stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you…”</li>
+<li>Talk to <a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>) → choose “Here, take it. I have enough coins.” — <strong>conditions:</strong> latest stage of <a href="../odd_coin_collector/#stage-65">The odd coin collector</a> is 65; carry 1× <a href="../../items/shield_of_brave/">Shield of the Brave</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>; hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a> → <strong>stage 106</strong>; also sets stage 115 of <a href="../odd_coin_collector/#stage-115">The odd coin collector</a>, clears stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport,…”</li>
+<li>Talk to <a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>) → choose “Sounds like a great deal. I'll take it.” — <strong>conditions:</strong> latest stage of <a href="../odd_coin_collector/#stage-65">The odd coin collector</a> is 65; carry 1× <a href="../../items/shield_of_brave/">Shield of the Brave</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>; hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a> → <strong>stage 106</strong>; also gives <a href="../../items/gold/">Gold coins</a>, sets stage 110 of <a href="../odd_coin_collector/#stage-110">The odd coin collector</a>, clears stage 47 of <a href="../nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>. NPC: “Excellent. Come see me if you ever find any more interesting coins.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 107: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>) → choose “Well, something is better than nothing.” — <strong>conditions:</strong> reached stage 106 of <a href="./#stage-106">laeroth_nondisplay (hidden flag)</a>; reached stage 80 of <a href="../wanted_men/#stage-80">Wanted men</a>; carry 60× <a href="../../items/silver_coin/">Silver coin</a>; carry 50× <a href="../../items/bronze_coin/">Bronze coin</a>; NOT reached stage 107 of <a href="./#stage-107">laeroth_nondisplay (hidden flag)</a>; hand over 5× <a href="../../items/silver_coin/">Silver coin</a>; hand over 5× <a href="../../items/bronze_coin/">Bronze coin</a> → <strong>stage 107</strong>; also gives 160× <a href="../../items/gold/">Gold coins</a>. NPC: “Thank you so much.”</li>
+<li>Talk to <a href="../../monsters/gylew/">Gylew</a> (<a href="../../maps/waterway5/">waterway5</a>) → choose “Well, something is better than nothing.” — <strong>conditions:</strong> reached stage 106 of <a href="./#stage-106">laeroth_nondisplay (hidden flag)</a>; reached stage 80 of <a href="../wanted_men/#stage-80">Wanted men</a>; carry 50× <a href="../../items/bronze_coin/">Bronze coin</a>; carry 60× <a href="../../items/silver_coin/">Silver coin</a>; NOT reached stage 107 of <a href="./#stage-107">laeroth_nondisplay (hidden flag)</a>; hand over 5× <a href="../../items/silver_coin/">Silver coin</a>; hand over 5× <a href="../../items/bronze_coin/">Bronze coin</a> → <strong>stage 107</strong>; also gives 160× <a href="../../items/gold/">Gold coins</a>. NPC: “Thank you so much.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 108: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/forenza_waytobrimhaven3/">Forenza</a> (<a href="../../maps/waytobrimhaven3/">waytobrimhaven3</a>) → choose “Yes, and I also have the chest. Here, take them. [You give both items to Forenza]” — <strong>conditions:</strong> latest stage of <a href="../odd_coin_collector/#stage-63">The odd coin collector</a> is 63; NOT reached stage 60 of <a href="../odd_coin_collector/#stage-60">The odd coin collector</a>; hand over 1× <a href="../../items/gylew_key/">Gylew's key</a>; hand over 1× <a href="../../items/korhald_coins/">Korhald coin chest</a> → <strong>stage 108</strong>. NPC: “With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 120: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/moriath/">Moriath</a> (<a href="../../maps/laerothmanor1/">laerothmanor1</a>) → choose “Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you…” — <strong>conditions:</strong> reached stage 10 of <a href="../laeroth_caretaker/#stage-10">Take care of the caretaker</a>; reached stage 170 of <a href="../laeroth_caretaker/#stage-170">Take care of the caretaker</a> → <strong>stage 120</strong>; also removes monsters from laerothmanor1, sets stage 180 of <a href="../laeroth_caretaker/#stage-180">Take care of the caretaker</a>. NPC: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 140: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/laerothbasement0/">laerothbasement0</a> → choose “Maybe I should loot the chest. After all, Adakin is not here anymore.” — <strong>conditions:</strong> reached stage 40 of <a href="../last_lord/#stage-40">The last lord of Laeroth</a>; hand over 1× <a href="../../items/adakin_chest_key/">Key for Adakin's chest</a> → <strong>stage 140</strong>; also gives 3× <a href="../../items/health_major2/">Major potion of health</a>, gives 1× <a href="../../items/sword_balanced_steel/">Balanced steel sword</a>, gives 1× <a href="../../items/ring_dmg6/">Ring of damage +6</a>. NPC: “There are some nice items here. Let's see: I'll take 3 of these health potions, the sword and this ring.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 200: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a> → the conversation leads here automatically → <strong>stage 200</strong>; also changes map mountainlake8_cave. NPC: “Hey, I'm on the inside!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 201: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> random chance (3%) → <strong>stage 201</strong>; also faction “brute_creator_flash” set to 1, sets stage 30 of <a href="../brute_creator/#stage-30">Brutes</a></li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> random chance (5%) → <strong>stage 201</strong>; also faction “brute_creator_flash” set to 2, sets stage 30 of <a href="../brute_creator/#stage-30">Brutes</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 211: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lae_centaur1/">Orion, the centaur</a> (<a href="../../maps/island1/">island1</a>) → choose “Then just tell me where he is.” → <strong>stage 211</strong>; also sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a>. NPC: “Thalos, our wise guide, is currently in the northeast of the island.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 212: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lae_centaur2/">Callista, the centaur</a> (<a href="../../maps/island2/">island2</a>) → choose “Fine, I'll go see him.” → <strong>stage 212</strong>; also sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a>. NPC: “Thalos, our wise guide, is currently in the northeast of the island.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 213: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lae_centaur3/">Silvanus, the centaur</a> (<a href="../../maps/island3/">island3</a>) → choose “Enough now. I want to speak to your boss.” → <strong>stage 213</strong>; also sets stage 10 of <a href="../lae_centaurs/#stage-10">Not Pony Island</a>. NPC: “Thalos, our wise guide, is currently in the northeast of the island.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>laeroth_nondisplay</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 31, 32, 33, 34, 102, 103, 104, 105, 106, 107, 108, 120, 140, 200, 201, 211, 212, 213</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>1: <code>island_underground2_set1</code>, 2: <code>island_underground2_set2</code>, 3: <code>nightstand_search_1</code>, 4: <code>verigil_script_2a</code>, 5: <code>chest_search_2</code>, 6: <code>eyvipa_script_2a</code>, 8: <code>cuned_script_2a</code>, 9: <code>jerelin_chest_search_2</code>, 10: <code>jerelin_script_2a</code>, 12: <code>audela_script_2a</code>, 13: <code>cuned_script_b_2a</code>, 14: <code>jerelin_script_b_2a</code>, 31: <code>lae_prison_cell1_unlock</code>, 32: <code>lae_prison_cell2_unlock</code>, 33: <code>lae_prison_cell3_unlock</code>, 34: <code>lae_prison_cell4_unlock</code>, 102: <code>laeroth_barn_basement_2</code>, 103: <code>korhald_cave_hidden_basket_examine_loot_f2</code>, 103: <code>korhald_cave_hidden_basket_examine_loot_g2</code>, 104: <code>forenza_island_injured_ointment</code>, 104: <code>forenza_island_injured_help_bm</code>, 104: <code>forenza_island_injured_help_mph</code>, 105: <code>gylew_korhald_30</code>, 106: <code>gylew_korhald_cop_50</code>, 106: <code>gylew_korhald_cop_35</code>, 106: <code>forenza_korhald_cop_35</code>, 107: <code>coin_collector_thief_coins_70</code>, 108: <code>forenza_brimhaven_10</code>, 120: <code>moriath_9_1</code>, 140: <code>adakin_chest_3a</code>, 200: <code>brute_creator_in</code>, 201: <code>brute_creator_flash_1</code>, 201: <code>brute_creator_flash_2</code>, 211: <code>lae_centaur1_8</code>, 212: <code>lae_centaur2_8</code>, 213: <code>lae_centaur3_8</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>2: <code>island_underground2_set1</code>, 1: <code>island_underground2_set2</code>, 200: <code>brute_creator_out</code>, 201: <code>brute_creator_flash_0</code>, 31: <code>lae_demon4</code>, 32: <code>lae_demon4</code>, 33: <code>lae_demon4</code>, 34: <code>lae_demon4</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

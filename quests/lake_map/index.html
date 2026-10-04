@@ -823,13 +823,129 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#other-map-events" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Other map events
+        Overview
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -851,160 +967,763 @@
 
 
 <h1 id="a-map-of-the-great-lake-laeroth">A map of the Great Lake Laeroth<a class="headerlink" href="#a-map-of-the-great-lake-laeroth" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>lake_map</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>32 (completes at 910)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/ll2_whirl/">Charybdis</a>, <a href="../../monsters/ll2_whirl_return/">Charybdis</a>, <a href="../../monsters/circe/">Circe</a>, <a href="../../monsters/kalypso/">Kalypso</a>, <a href="../../monsters/polyphem_door/">Polyphem</a>, <a href="../../monsters/polyphem_bed/">Polyphem</a> +3</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>, <a href="../../maps/mountainlake14/">mountainlake14</a>, <a href="../../maps/mountainlake19/">mountainlake19</a>, <a href="../../maps/mountainlake27/">mountainlake27</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>13,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The cartographer Thyrope Splathershed asked me to join an expedition to get the maps of Lake Laeroth completed.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>). Required:</p>
+<ul>
+<li>NOT reached stage 10 of <a href="./#stage-10">A map of the Great Lake Laeroth</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 10 reached, for stage 31 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-33">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 33 reached, for stage 78 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-34">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 34 reached, for stage 78 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-35">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 35 reached, for stage 78 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-36">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 36 reached, for stage 78 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../ll2_nd/#stage-37">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 37 reached, for stage 78 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-14">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 14 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-15">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 15 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-16">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 16 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-17">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 17 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-18">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 18 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-19">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 19 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-20">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 20 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-21">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 21 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-22">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 22 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-25">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 25 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-26">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 26 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-27">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 27 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-28">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 28 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-29">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 29 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-30">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 30 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-31">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 31 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-32">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 32 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-33">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 33 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-34">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 34 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-35">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 35 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-36">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 36 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../ll2_maps/#stage-37">Lake Laeroth Maps found (hidden flag)</a></td>
+<td>stage 37 must NOT be reached, for stage 900 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 10 must NOT be reached, for stage 28 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../ll2_nd/#stage-40">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 40 must NOT be reached, for stage 28 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 10 there needs stage 59 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ll2_nd/#stage-11">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 11 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ll2_nd/#stage-14">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 14 there needs stage 59 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ll2_nd/#stage-40">Lake Laeroth nondisplay (hidden flag)</a></td>
+<td>stage 40 there needs stage 59 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>The cartographer Thyrope Splathershed asked me to join an expedition to get the maps of Lake Laeroth completed.</td>
+<td><a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-12"></span>12</td>
 <td>I should get beeswax from Leofric the beekeeper to make earplugs.</td>
+<td><a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>)</td>
+<td>stage 40</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>On a paradisiacal island, A woman named Kalypso welcomed me and offered refreshment.</td>
+<td><a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-22"></span>22</td>
 <td>I took a single grape to try her food. It gave me an extraordinary boost to my vigor.</td>
+<td><a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>)</td>
+<td>–</td>
+<td>applies condition heros_body</td>
 </tr>
 <tr>
 <td><span id="stage-24"></span>24</td>
 <td>Kalypso gave me a tiny green key as a present.</td>
+<td><a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>)</td>
+<td>–</td>
+<td>gives 1× <a href="../../items/ll2_key_kalypso/">Wooden green key from Kalypso</a></td>
 </tr>
 <tr>
 <td><span id="stage-26"></span>26</td>
 <td>I realized that I didn't have a desire to leave anymore.</td>
+<td>walking into a blocked passage on <a href="../../maps/mountainlake14/">mountainlake14</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-28"></span>28</td>
 <td>Once the magic had worn off, I was able to leave the island again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake14/">Mountainlake14</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake22/">Mountainlake22</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake27/">Mountainlake27</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/remgard2a/">Remgard2a</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a><br>stepping on a trigger on <a href="../../maps/mountainlake27/">mountainlake27</a><br>stepping on a trigger on <a href="../../maps/mountainlake14/">mountainlake14</a><br>+1 more</td>
+<td>stage 26, stage 59</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>You met Circe, a strange, lonely woman who kept pigs in her kitchen.</td>
+<td><a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-31"></span>31</td>
 <td>We docked at an unknown island. Captain Burry and his men set off to replenish supplies.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake22/">Mountainlake22</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>The ship was abandoned. Something was strange about that Circe, I decided to question her.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake22/">Mountainlake22</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a></td>
+<td>stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-34"></span>34</td>
 <td>I realized that the Captain and his crew had been turned into pigs, and I forced Circe to turn them back.</td>
+<td><a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>)</td>
+<td>stage 32</td>
+<td>spawns monsters on mountainlake_circe<br>removes monsters from mountainlake_circe</td>
 </tr>
 <tr>
 <td><span id="stage-36"></span>36</td>
 <td>Impressed, Circe gave me a golden key as a parting gift.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/mountainlake22/">Mountainlake22</a>.</span></td>
+<td><a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>)</td>
+<td>stage 32</td>
+<td>gives 1× <a href="../../items/ll2_key_circe/">Golden key from Circe</a></td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>We approached the Sirens' Reef. Many sailors have lost their lives here. Captain Burry refused to sail any further.</td>
+<td>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-42"></span>42</td>
 <td>I distributed earplugs to the crew so that the sirens' songs could no longer harm them.</td>
+<td>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a></td>
+<td>hand over 4× <a href="../../items/earplugs/">Earplugs</a></td>
+<td>sets stage 100 of <a href="../ll2_nd/#stage-100">Lake Laeroth nondisplay (hidden flag)</a><br>removes monsters from remgard_tavern0</td>
 </tr>
 <tr>
 <td><span id="stage-44"></span>44</td>
 <td>Then I put in earplugs too.</td>
+<td>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a></td>
+<td>hand over 4× <a href="../../items/earplugs/">Earplugs</a></td>
+<td>1,000 XP<br>sets stage 104 of <a href="../ll2_nd/#stage-104">Lake Laeroth nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-46"></span>46</td>
 <td>I had myself tied tightly to the mast so that I could hear what the sirens were singing without jumping overboard.</td>
+<td>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a></td>
+<td>hand over 4× <a href="../../items/earplugs/">Earplugs</a></td>
+<td>2,000 XP<br>sets stage 104 of <a href="../ll2_nd/#stage-104">Lake Laeroth nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-48"></span>48</td>
 <td>We have managed to passage by the Sirens' cliff.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake21/">Mountainlake21</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake21/">mountainlake21</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>I was exploring a cave on an island with just sheep, when suddenly the dwarvish cyclops Polyphem enters, together with a flock of sheep. Polyphem has locked the door behind him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/ll2_cyclops_cave/">Ll2 cyclops cave</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/ll2_cyclops_cave/">Ll2 cyclops cave</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a></td>
+<td>–</td>
+<td>spawns monsters on ll2_cyclops_cave<br>sets stage 110 of <a href="../ll2_nd/#stage-110">Lake Laeroth nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-52"></span>52</td>
 <td>He and his brothers would eat me in the next days.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/ll2_cyclops_cave/">Ll2 cyclops cave</a>.</span></td>
+<td><a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>)<br>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-54"></span>54</td>
 <td>Polyphem fell onto his bed and immediatly began to snore. I should find a way to leave.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/ll2_cyclops_cave/">Ll2 cyclops cave</a>.</span></td>
+<td><a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>)<br>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a></td>
+<td>stage 52</td>
+<td>removes monsters from ll2_cyclops_cave<br>spawns monsters on ll2_cyclops_cave</td>
 </tr>
 <tr>
 <td><span id="stage-55"></span>55</td>
 <td>I made a strong soap solution.</td>
+<td>walking into a blocked passage on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a></td>
+<td>hand over 1× <a href="../../items/soap/">Soap</a>, stage 54</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-56"></span>56</td>
 <td>And poured it directly into Polyphem's eye.</td>
+<td><a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>)</td>
+<td>stage 55</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-57"></span>57</td>
 <td>Polyphem let all the sheep out so he could more easily search the cave for me. As he did so, he felt each sheep's back and counted them.</td>
+<td><a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>)</td>
+<td>stage 56</td>
+<td>removes monsters from ll2_cyclops_cave<br>spawns monsters on ll2_cyclops_cave<br>clears stage 110 of <a href="../ll2_nd/#stage-110">Lake Laeroth nondisplay (hidden flag)</a><br>changes map ll2_cyclops_cave<br>spawns monsters on mountainlake27<br>changes map mountainlake27</td>
 </tr>
 <tr>
 <td><span id="stage-58"></span>58</td>
 <td>I hung myself from the side of a strong sheep to let it pull me to freedom.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/ll2_cyclops_cave/">Ll2 cyclops cave</a>.</span></td>
+<td><a href="../../monsters/ll2_cyclops_sheep2/">Sheep</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>)</td>
+<td>stage 57</td>
+<td>removes monsters from ll2_cyclops_cave</td>
 </tr>
 <tr>
 <td><span id="stage-59"></span>59</td>
 <td>It worked! I've left the cave.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake28/">Mountainlake28</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake28/">mountainlake28</a></td>
+<td>stage 58</td>
+<td>5,000 XP</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Scylla, the six headed monster, had attacked our ship.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake32/">Mountainlake32</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a></td>
+<td>–</td>
+<td>applies condition scylla</td>
 </tr>
 <tr>
 <td><span id="stage-62"></span>62</td>
 <td>We managed to defeat one of Scylla's monstrous heads. Rather than weakening her, however, this only seemed to make her more furious.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake32/">Mountainlake32</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a></td>
+<td>–</td>
+<td>spawns monsters on mountainlake32<br>applies condition scylla</td>
 </tr>
 <tr>
 <td><span id="stage-64"></span>64</td>
 <td>We managed to defeat another one of Scylla's monstrous heads. We better had not...</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td><span id="stage-66"></span>66</td>
+<td><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake32/">Mountainlake32</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a></td>
+<td>–</td>
+<td>spawns monsters on mountainlake32<br>applies condition scylla</td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>We were swept into the abyss of the maelstrom along with the ship.</td>
+<td><a href="../../monsters/ll2_whirl/">Charybdis</a> (<a href="../../maps/mountainlake31/">mountainlake31</a>)</td>
+<td>–</td>
+<td>clears stage 20 of <a href="../ll2_nd/#stage-20">Lake Laeroth nondisplay (hidden flag)</a><br>moves you to <a href="../../maps/mountainlake_sub/">mountainlake_sub</a></td>
 </tr>
 <tr>
 <td><span id="stage-78"></span>78</td>
 <td>At last we resurfaced again.</td>
+<td><a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>)</td>
+<td>–</td>
+<td>moves you to <a href="../../maps/mountainlake31/">mountainlake31</a><br>moves you to <a href="../../maps/mountainlake33/">mountainlake33</a><br>moves you to <a href="../../maps/mountainlake34/">mountainlake34</a><br>moves you to <a href="../../maps/mountainlake35/">mountainlake35</a><br>moves you to <a href="../../maps/mountainlake36/">mountainlake36</a><br>moves you to <a href="../../maps/mountainlake37/">mountainlake37</a></td>
 </tr>
 <tr>
 <td><span id="stage-900"></span>900</td>
 <td>Looks like we had got the map of the great Lake Laeroth complete.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake14/">Mountainlake14</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake15/">Mountainlake15</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake16/">Mountainlake16</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake17/">Mountainlake17</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake18/">Mountainlake18</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake19/">Mountainlake19</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake20/">Mountainlake20</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake21/">Mountainlake21</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake22/">Mountainlake22</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake25/">Mountainlake25</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake26/">Mountainlake26</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake27/">Mountainlake27</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake28/">Mountainlake28</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake29/">Mountainlake29</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake30/">Mountainlake30</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake31/">Mountainlake31</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake32/">Mountainlake32</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake33/">Mountainlake33</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake34/">Mountainlake34</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake35/">Mountainlake35</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake36/">Mountainlake36</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake37/">Mountainlake37</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake14/">mountainlake14</a><br>stepping on a trigger on <a href="../../maps/mountainlake15/">mountainlake15</a><br>stepping on a trigger on <a href="../../maps/mountainlake16/">mountainlake16</a><br>+19 more</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-910"></span>910</td>
 <td>Thyrope Splathershed is happy to have the map complete now. He seemed to doubt my story though, but he allowed me to use the ship for my leisure. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>)</td>
+<td>–</td>
+<td>5,000 XP</td>
 </tr>
 </tbody>
 </table>
-<h2 id="other-map-events">Other map events<a class="headerlink" href="#other-map-events" title="Permanent link">&para;</a></h2>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “Hmm. It sounds exciting. I agree to your proposal.” — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">A map of the Great Lake Laeroth</a> → <strong>stage 10</strong>. NPC: “So then, Captain Burry will greet you on board!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 12: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “Unfortunately no.” — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">A map of the Great Lake Laeroth</a>; NOT reached stage 42 of <a href="./#stage-42">A map of the Great Lake Laeroth</a>; NOT carry 4× <a href="../../items/beeswax/">Bees wax</a> → <strong>stage 12</strong>. NPC: “You can get the best beeswax directly from a beekeeper. I know one: Leofric, I would trust him.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>) → choose “Three seconds?” → <strong>stage 20</strong>. NPC: “It is not enchanted wine. Not a vow. Not chain that binds you.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 22: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>) → choose “Let me try your grape.” → <strong>stage 22</strong>; also applies condition heros_body. NPC: “[watches intensely] Ah. You feel it, don't you?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 24: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/kalypso/">Kalypso</a> (<a href="../../maps/mountainlake14/">mountainlake14</a>) → choose “Wow - I am the greatest!” → <strong>stage 24</strong>; also gives 1× <a href="../../items/ll2_key_kalypso/">Wooden green key from Kalypso</a>. NPC: “As a token of my friendship, I give you this tiny green key.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 26: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/mountainlake14/">mountainlake14</a> → choose “How do I leave?” → <strong>stage 26</strong>. NPC: “You will walk onto that ship without resistance.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 28: 4 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a> → choose “Lift anchors!” — <strong>conditions:</strong> NOT reached stage 10 of <a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a>; reached stage 26 of <a href="./#stage-26">A map of the Great Lake Laeroth</a>; NOT reached stage 28 of <a href="./#stage-28">A map of the Great Lake Laeroth</a> → <strong>stage 28</strong>. NPC: “Once the magic had worn off, you were able to leave the island again.”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake27/">mountainlake27</a> → choose “Lift anchors!” — <strong>conditions:</strong> reached stage 59 of <a href="./#stage-59">A map of the Great Lake Laeroth</a>; NOT reached stage 40 of <a href="../ll2_nd/#stage-40">Lake Laeroth nondisplay (hidden flag)</a>; NOT reached stage 10 of <a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a>; reached stage 26 of <a href="./#stage-26">A map of the Great Lake Laeroth</a>; NOT reached stage 28 of <a href="./#stage-28">A map of the Great Lake Laeroth</a> → <strong>stage 28</strong>. NPC: “Once the magic had worn off, you were able to leave the island again.”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake14/">mountainlake14</a> → choose “Lift anchors!” — <strong>conditions:</strong> NOT reached stage 10 of <a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a>; reached stage 26 of <a href="./#stage-26">A map of the Great Lake Laeroth</a>; NOT reached stage 28 of <a href="./#stage-28">A map of the Great Lake Laeroth</a> → <strong>stage 28</strong>. NPC: “Once the magic had worn off, you were able to leave the island again.”</li>
+<li>stepping on a trigger on <a href="../../maps/remgard2a/">remgard2a</a> → choose “Lift anchors!” — <strong>conditions:</strong> NOT reached stage 10 of <a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a>; reached stage 26 of <a href="./#stage-26">A map of the Great Lake Laeroth</a>; NOT reached stage 28 of <a href="./#stage-28">A map of the Great Lake Laeroth</a> → <strong>stage 28</strong>. NPC: “Once the magic had worn off, you were able to leave the island again.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>) → choose “You keep pigs?” → <strong>stage 30</strong>. NPC: “Yes, yes. You were a sailor once. We've all made mistakes.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 31: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a> → choose “Land the ship!” — <strong>conditions:</strong> reached stage 10 of <a href="../ll2_nd/#stage-10">Lake Laeroth nondisplay (hidden flag)</a>; NOT reached stage 31 of <a href="./#stage-31">A map of the Great Lake Laeroth</a> → <strong>stage 31</strong>. NPC: “I and my men go ashore and replenish supplies on the island. See you later.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">A map of the Great Lake Laeroth</a>; NOT reached stage 36 of <a href="./#stage-36">A map of the Great Lake Laeroth</a> → <strong>stage 32</strong>. NPC: “The ship is still abandoned.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 34: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>) → choose “It... I mean he saluted.” — <strong>conditions:</strong> reached stage 32 of <a href="./#stage-32">A map of the Great Lake Laeroth</a> → <strong>stage 34</strong>; also spawns monsters on mountainlake_circe, spawns monsters on mountainlake_circe, removes monsters from mountainlake_circe. NPC: “And another thing, you curly-tailed tyrannesse...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 36: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/circe/">Circe</a> (<a href="../../maps/mountainlake_circe/">mountainlake_circe</a>) → choose “Oh. What does it open?” — <strong>conditions:</strong> reached stage 32 of <a href="./#stage-32">A map of the Great Lake Laeroth</a> → <strong>stage 36</strong>; also gives 1× <a href="../../items/ll2_key_circe/">Golden key from Circe</a>. NPC: “Not yet, not yet. When you find the lock, you will know.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a> → choose “Hmm, then just ignore it and we'll drive by really quickly.” → <strong>stage 40</strong>. NPC: “Absolutely not. I will not sacrifice my ship and crew to the childish wish of a kid.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 42: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a> → choose “Look, I have earplugs here, take them and you can drive through here as often as you like without any…” — <strong>conditions:</strong> hand over 4× <a href="../../items/earplugs/">Earplugs</a> → <strong>stage 42</strong>; also sets stage 100 of <a href="../ll2_nd/#stage-100">Lake Laeroth nondisplay (hidden flag)</a>, removes monsters from remgard_tavern0. NPC: “Sounds like a plan. And you? How do you plan to stop yourself from simply jumping overboard?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 44: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a> → choose “I'll take earplugs too, of course.” — <strong>conditions:</strong> hand over 4× <a href="../../items/earplugs/">Earplugs</a> → <strong>stage 44</strong>; also sets stage 104 of <a href="../ll2_nd/#stage-104">Lake Laeroth nondisplay (hidden flag)</a>. NPC: “That's what we'll do. We'll be the first to cross the Sirens' Passage alive.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 46: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/mountainlake21/">mountainlake21</a> → choose “Just tie me to the mast. And whatever you do, don't untie me, no matter how much I beg.” — <strong>conditions:</strong> hand over 4× <a href="../../items/earplugs/">Earplugs</a> → <strong>stage 46</strong>; also sets stage 104 of <a href="../ll2_nd/#stage-104">Lake Laeroth nondisplay (hidden flag)</a>. NPC: “That's what we'll do. We'll be the first to cross the Sirens' Passage alive.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 48: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake21/">mountainlake21</a> → the conversation leads here automatically → <strong>stage 48</strong>. NPC: “One day, the knots won't be tied tightly enough. Or the blocked ears won't be closed tightly enough.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 50 of <a href="./#stage-50">A map of the Great Lake Laeroth</a> → <strong>stage 50</strong>; also spawns monsters on ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave, sets stage 110 of <a href="../ll2_nd/#stage-110">Lake Laeroth nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 52: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>) → choose “My name is Nobody.” → <strong>stage 52</strong>. NPC: “Nobody, huh? But that's not important. I just need to know what to call the dish.”</li>
+<li>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a> → choose “My name is Nobody.” — <strong>conditions:</strong> NOT reached stage 50 of <a href="./#stage-50">A map of the Great Lake Laeroth</a> → <strong>stage 52</strong>. NPC: “Nobody, huh? But that's not important. I just need to know what to call the dish.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 54: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 52 of <a href="./#stage-52">A map of the Great Lake Laeroth</a> → <strong>stage 54</strong>; also removes monsters from ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave. NPC: “Without another word, Polyphem falls onto his bed and immediately begins to snore loudly.”</li>
+<li>stepping on a trigger on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 52 of <a href="./#stage-52">A map of the Great Lake Laeroth</a>; NOT reached stage 54 of <a href="./#stage-54">A map of the Great Lake Laeroth</a> → <strong>stage 54</strong>; also removes monsters from ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave. NPC: “Without another word, Polyphem falls onto his bed and immediately begins to snore loudly.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 55: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a> → choose “Use the soap” — <strong>conditions:</strong> reached stage 54 of <a href="./#stage-54">A map of the Great Lake Laeroth</a>; NOT reached stage 55 of <a href="./#stage-55">A map of the Great Lake Laeroth</a>; hand over 1× <a href="../../items/soap/">Soap</a> → <strong>stage 55</strong>. NPC: “On a whim, you dissolve the soap in the water. That must sting badly if someone gets it in their eye.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 56: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>) → choose “You pour the harsh soapy water directly into Polyphem's eye.” — <strong>conditions:</strong> reached stage 55 of <a href="./#stage-55">A map of the Great Lake Laeroth</a> → <strong>stage 56</strong>. NPC: “AAAAH - MY EYE!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 57: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/polyphem/">Polyphem</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 56 of <a href="./#stage-56">A map of the Great Lake Laeroth</a> → <strong>stage 57</strong>; also removes monsters from ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave, clears stage 110 of <a href="../ll2_nd/#stage-110">Lake Laeroth nondisplay (hidden flag)</a>, changes map ll2_cyclops_cave, spawns monsters on mountainlake27, spawns monsters on mountainlake27, changes map mountainlake27. NPC: “I'll let the sheep out, then I'll find you more easily.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 58: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_cyclops_sheep2/">Sheep</a> (<a href="../../maps/ll2_cyclops_cave/">ll2_cyclops_cave</a>) → choose “You look strong enough to carry me. I hang down beneath you, and you pull me outwards.” — <strong>conditions:</strong> reached stage 57 of <a href="./#stage-57">A map of the Great Lake Laeroth</a> → <strong>stage 58</strong>; also removes monsters from ll2_cyclops_cave. NPC: “The sheep carries you willingly.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 59: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake28/">mountainlake28</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 58 of <a href="./#stage-58">A map of the Great Lake Laeroth</a>; NOT reached stage 59 of <a href="./#stage-59">A map of the Great Lake Laeroth</a> → <strong>stage 59</strong>. NPC: “Baaaaah!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a> → the conversation leads here automatically → <strong>stage 60</strong>; also applies condition scylla</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 62: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a> → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/scylla_1/">Scylla</a> → <strong>stage 62</strong>; also spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, applies condition scylla. NPC: “For a moment, time seems to stand still. Then all hell breaks loose.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 66: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a> → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/scylla_b1/">Furious Scylla</a> → <strong>stage 66</strong>; also spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, spawns monsters on mountainlake32, applies condition scylla. NPC: “You have managed to defeat another one of Scylla's monstrous heads.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_whirl/">Charybdis</a> (<a href="../../maps/mountainlake31/">mountainlake31</a>) → the conversation leads here automatically → <strong>stage 70</strong>; also clears stage 20 of <a href="../ll2_nd/#stage-20">Lake Laeroth nondisplay (hidden flag)</a>, moves you to <a href="../../maps/mountainlake_sub/">mountainlake_sub</a>. NPC: “It swirls around you, faster and faster, until everything is black. You wake up in a daze. The ship survived the…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 78: 6 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake31/">mountainlake31</a>. NPC: “The ship has made it back up again!”</li>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 33 of <a href="../ll2_nd/#stage-33">Lake Laeroth nondisplay (hidden flag)</a> → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake33/">mountainlake33</a>. NPC: “The ship has made it back up again!”</li>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 34 of <a href="../ll2_nd/#stage-34">Lake Laeroth nondisplay (hidden flag)</a> → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake34/">mountainlake34</a>. NPC: “The ship has made it back up again!”</li>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 35 of <a href="../ll2_nd/#stage-35">Lake Laeroth nondisplay (hidden flag)</a> → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake35/">mountainlake35</a>. NPC: “The ship has made it back up again!”</li>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 36 of <a href="../ll2_nd/#stage-36">Lake Laeroth nondisplay (hidden flag)</a> → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake36/">mountainlake36</a>. NPC: “The ship has made it back up again!”</li>
+<li>Talk to <a href="../../monsters/ll2_whirl_return/">Charybdis</a> (<a href="../../maps/mountainlake_sub/">mountainlake_sub</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 37 of <a href="../ll2_nd/#stage-37">Lake Laeroth nondisplay (hidden flag)</a> → <strong>stage 78</strong>; also moves you to <a href="../../maps/mountainlake37/">mountainlake37</a>. NPC: “The ship has made it back up again!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 900: 22 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/mountainlake14/">mountainlake14</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 14 of <a href="../ll2_maps/#stage-14">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake15/">mountainlake15</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 15 of <a href="../ll2_maps/#stage-15">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake16/">mountainlake16</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 16 of <a href="../ll2_maps/#stage-16">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake17/">mountainlake17</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 17 of <a href="../ll2_maps/#stage-17">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake18/">mountainlake18</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 18 of <a href="../ll2_maps/#stage-18">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake19/">mountainlake19</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 19 of <a href="../ll2_maps/#stage-19">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake20/">mountainlake20</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 20 of <a href="../ll2_maps/#stage-20">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake21/">mountainlake21</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 21 of <a href="../ll2_maps/#stage-21">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake22/">mountainlake22</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 22 of <a href="../ll2_maps/#stage-22">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake25/">mountainlake25</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 25 of <a href="../ll2_maps/#stage-25">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake26/">mountainlake26</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 26 of <a href="../ll2_maps/#stage-26">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake27/">mountainlake27</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 27 of <a href="../ll2_maps/#stage-27">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake28/">mountainlake28</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 28 of <a href="../ll2_maps/#stage-28">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake29/">mountainlake29</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 29 of <a href="../ll2_maps/#stage-29">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake30/">mountainlake30</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 30 of <a href="../ll2_maps/#stage-30">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake31/">mountainlake31</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 31 of <a href="../ll2_maps/#stage-31">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake32/">mountainlake32</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 32 of <a href="../ll2_maps/#stage-32">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake33/">mountainlake33</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 33 of <a href="../ll2_maps/#stage-33">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake34/">mountainlake34</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 34 of <a href="../ll2_maps/#stage-34">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake35/">mountainlake35</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 35 of <a href="../ll2_maps/#stage-35">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake36/">mountainlake36</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 36 of <a href="../ll2_maps/#stage-36">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+<li>stepping on a trigger on <a href="../../maps/mountainlake37/">mountainlake37</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 37 of <a href="../ll2_maps/#stage-37">Lake Laeroth Maps found (hidden flag)</a>; faction “ll2_maps” ≥ 22; NOT reached stage 900 of <a href="./#stage-900">A map of the Great Lake Laeroth</a> → <strong>stage 900</strong>. NPC: “Hey! A round of mead for everyone! We sailed the entire lake!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 910: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/ll2_mapmaker/">Thyrope Splathershed</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “The cruise was fun.” — <strong>conditions:</strong> faction “ll2_maps” ≥ 22 → <strong>stage 910</strong>. NPC: “As a reward you can use Captain Burry and his ship whenever you want. I will pay for it.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lake_map.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lake_map.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lake_map.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lake_map.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lake_map.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
 <table>
 <thead>
 <tr>
-<th>Progress</th>
-<th>Event</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-66"></span>66</td>
-<td>👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake32/">Mountainlake32</a>.</td>
+<td>Quest ID</td>
+<td><code>lake_map</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 12, 20, 22, 24, 26, 28, 30, 31, 32, 34, 36, 40, 42, 44, 46, 48, 50, 52, 54, 55, 56, 57, 58, 59, 60, 62, 64, 66, 70, 78, 900, 910</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>ll2_mapmaker_21</code>, 12: <code>ll2_mapmaker_6</code>, 20: <code>kalypso_16</code>, 22: <code>kalypso_19</code>, 24: <code>kalypso_19b</code>, 26: <code>kalypso_69</code>, 28: <code>ll2_boat_afloat_10</code>, 30: <code>ll2_circe_16</code>, 31: <code>ll2_boat_circe_10a</code>, 32: <code>ll2_boat_circe_1</code>, 34: <code>ll2_circe_46</code>, 36: <code>ll2_circe_54</code>, 40: <code>ll2_sirene_key_40</code>, 42: <code>ll2_sirene_key_60</code>, 44: <code>ll2_sirene_key_70</code>, 46: <code>ll2_sirene_key_80</code>, 48: <code>ll2_sirene_x</code>, 50: <code>polyphem_spawn_10</code>, 52: <code>polyphem_31</code>, 54: <code>polyphem_52</code>, 55: <code>ll2_cyclops_bucket_20</code>, 56: <code>polyphem_100</code>, 57: <code>polyphem_129</code>, 58: <code>ll2_cyclops_sheep2_20</code>, 59: <code>polyphem_59_10</code>, 60: <code>scylla</code>, 60: <code>scylla_2_10</code>, 62: <code>scylla_2_22</code>, 66: <code>scylla_2_30</code>, 70: <code>ll2_whirl</code>, 78: <code>ll2_whirl_return_to_31</code>, 78: <code>ll2_whirl_return_to_33</code>, 78: <code>ll2_whirl_return_to_34</code>, 900: <code>ll2_maps_91</code>, 910: <code>ll2_mapmaker_99</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>lake_map</code> · Data from v0.8.18</small></p>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

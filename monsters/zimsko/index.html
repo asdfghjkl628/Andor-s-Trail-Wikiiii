@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,113 @@
 <ul>
 <li><a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_blackjack/">Fair play?</a>: stages 20, 30, 31, 70, 80</li>
+<li><a href="../../quests/brv_blackjack_hidden/">brv_blackjack_hidden (hidden flag)</a>: stages 110, 120, 130</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (17 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_zimsko_select"></span><strong><code>brv_zimsko_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_5">brv_zimsko_5</a></li>
+<li>branch 2 → <a href="#d-brv_zimsko_10">brv_zimsko_10</a></li>
+</ul>
+<p><span id="d-brv_zimsko_5"></span><strong><code>brv_zimsko_5</code></strong> Zimsko: “You again?”</p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_6">brv_zimsko_6</a></li>
+</ul>
+<p><span id="d-brv_zimsko_10"></span><strong><code>brv_zimsko_10</code></strong> Zimsko: “What do you want from me?” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">brv_blackjack_hidden (hidden flag)</a></p>
+<ul>
+<li>“I just want to talk a little bit.” → <a href="#d-brv_zimsko_10_1">brv_zimsko_10_1</a></li>
+<li>“I want to join you for a beer.” → <a href="#d-brv_zimsko_10_2">brv_zimsko_10_2</a></li>
+<li>“Do you know something about the back room?” <em>(if reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>)</em> → <a href="#d-brv_zimsko_10_1">brv_zimsko_10_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_6"></span><strong><code>brv_zimsko_6</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a>)</em> → <a href="#d-brv_zimsko_80">brv_zimsko_80</a></li>
+<li>branch 2 <em>(if reached stage 80 of <a href="../../quests/brv_blackjack/#stage-80">Fair play?</a>)</em> → <a href="#d-brv_zimsko_80">brv_zimsko_80</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40">brv_zimsko_40</a></li>
+<li>branch 4 <em>(if reached stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
+<li>branch 5 → <a href="#d-brv_zimsko_10">brv_zimsko_10</a></li>
+</ul>
+<p><span id="d-brv_zimsko_10_1"></span><strong><code>brv_zimsko_10_1</code></strong> Zimsko: “I am very thirsty...”</p>
+<ul>
+<li>“Why don't you buy something for yourself?” → <a href="#d-brv_zimsko_10_2">brv_zimsko_10_2</a></li>
+<li>“Let's drink a beer together. I will pay. [Pay 2 gold]” <em>(if pay 2 gold)</em> → <a href="#d-brv_zimsko_20">brv_zimsko_20</a></li>
+</ul>
+<p><span id="d-brv_zimsko_10_2"></span><strong><code>brv_zimsko_10_2</code></strong> Zimsko: “I lost all my money gambling and can't afford a beer.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">brv_blackjack_hidden (hidden flag)</a></p>
+<ul>
+<li>“Bad luck.” → <em>conversation ends</em></li>
+<li>“I am out of money.” <em>(if NOT have 2 gold)</em> → <em>conversation ends</em></li>
+<li>“I will buy you a beer. [Pay 2 gold]” <em>(if pay 2 gold)</em> → <a href="#d-brv_zimsko_20">brv_zimsko_20</a></li>
+</ul>
+<p><span id="d-brv_zimsko_80"></span><strong><code>brv_zimsko_80</code></strong> Zimsko: “Thank you for your help with the gamblers.”</p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_40"></span><strong><code>brv_zimsko_40</code></strong> Zimsko: “Did you already find out if they are cheating? You have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.”</p>
+<ul>
+<li>“I did not find anything out yet.” → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+<li>“I gambled with them and it seems they are cheating.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_2">brv_zimsko_40_2</a></li>
+<li>“I gambled with them and it seems they are cheating. I even had a fight with them.” <em>(if reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_3">brv_zimsko_40_3</a></li>
+<li>“I gambled with them and I think they are playing fair.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_1">brv_zimsko_40_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_20_2"></span><strong><code>brv_zimsko_20_2</code></strong> Zimsko: “Thank you for the beer.”</p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_20"></span><strong><code>brv_zimsko_20</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">brv_blackjack_hidden (hidden flag)</a></p>
+<ul>
+<li>branch 1 → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
+</ul>
+<p><span id="d-brv_zimsko_20_1"></span><strong><code>brv_zimsko_20_1</code></strong> Zimsko: “Can I have one more beer?”</p>
+<ul>
+<li>“Here is one more beer. [Pay 2 gold]” <em>(if pay 2 gold)</em> → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
+<li>“I am out of money.” <em>(if NOT have 2 gold)</em> → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+<li>“[Lie] I am out of money.” <em>(if have 2 gold)</em> → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+<li>“No, you have had enough.” → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+<li>“Do you know something about the back room?” <em>(if reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30">brv_zimsko_30</a></li>
+<li>“Where did you lose your money?” <em>(if NOT reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; reached stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_30">brv_zimsko_30</a></li>
+<li>“I want to find out what's happening in the back room, but they want a password.” <em>(if reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_2">brv_zimsko_30_2</a></li>
+<li>“I want to find out what's happening in the back room.” <em>(if reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; NOT reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_1">brv_zimsko_30_1</a></li>
+<li>“I want to talk to you about the gamblers.” <em>(if reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>; NOT reached stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a>; NOT reached stage 80 of <a href="../../quests/brv_blackjack/#stage-80">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40">brv_zimsko_40</a></li>
+</ul>
+<p><span id="d-brv_zimsko_40_2"></span><strong><code>brv_zimsko_40_2</code></strong> Zimsko: “Thats what I thought. Thank you for your help.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a></p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_40_3"></span><strong><code>brv_zimsko_40_3</code></strong> Zimsko: “That's what I thought. Thank you for your help and the fight. Someone had to do it.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a></p>
+<p><span id="d-brv_zimsko_40_1"></span><strong><code>brv_zimsko_40_1</code></strong> Zimsko: “I still believe they are cheating. Thanks anyway.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/brv_blackjack/#stage-80">Fair play?</a></p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_30"></span><strong><code>brv_zimsko_30</code></strong> Zimsko: “I lost all my money gambling in the backroom. I think they are cheating.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a></p>
+<ul>
+<li>“Oh, bad luck.” → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+<li>“I will go and play with them to find out if they are cheating.” <em>(if NOT reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_1">brv_zimsko_30_1</a></li>
+<li>“I want to find out what's happening in the back room, but they want a password.” <em>(if reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_2">brv_zimsko_30_2</a></li>
+</ul>
+<p><span id="d-brv_zimsko_30_2"></span><strong><code>brv_zimsko_30_2</code></strong> Zimsko: “Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.] You have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>, sets stage 31 of <a href="../../quests/brv_blackjack/#stage-31">Fair play?</a></p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+<p><span id="d-brv_zimsko_30_1"></span><strong><code>brv_zimsko_30_1</code></strong> Zimsko: “Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.] You have to win and lose a few times until they trust you and play for higher amounts. Then they start…” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>, sets stage 31 of <a href="../../quests/brv_blackjack/#stage-31">Fair play?</a></p>
+<ul>
+<li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=zimsko.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=zimsko.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=zimsko.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=zimsko.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>zimsko</code> · Data from v0.8.18</small></p>
 
 

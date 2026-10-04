@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,53 +967,340 @@
 
 
 <h1 id="searching-for-madness">Searching for madness<a class="headerlink" href="#searching-for-madness" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>lodar2</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>9 (completes at 60)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/hirazinn/">Hira'zinn</a>, <a href="../../monsters/lodar/">Lodar</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/lodarcave4a/">lodarcave4a</a>, <a href="../../maps/lodarhouse1/">lodarhouse1</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>1,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The potion-maker Lodar seems to be obsessed with something called the Hira'zinn.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>). Required:</p>
+<ul>
+<li>reached stage 110 of <a href="../lodar/#stage-110">A lost potion</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../lodar/#stage-100">A lost potion</a></td>
+<td>stage 100 reached, for stage 30 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../lodar/#stage-110">A lost potion</a></td>
+<td>stage 110 reached, for stages 10, 15, 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-10">Lodar's potions</a></td>
+<td>stage 10 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-30">Lodar's potions</a></td>
+<td>stage 30 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-40">Lodar's potions</a></td>
+<td>stage 40 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-41">Lodar's potions</a></td>
+<td>stage 41 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-42">Lodar's potions</a></td>
+<td>stage 42 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../lodar_pots/#stage-43">Lodar's potions</a></td>
+<td>stage 43 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ratdom_nondisplay/#stage-1">ratdom_nondisplay (hidden flag)</a></td>
+<td>stage 1 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ratdom_nondisplay/#stage-2">ratdom_nondisplay (hidden flag)</a></td>
+<td>stage 2 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a></td>
+<td>stage 10 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../ratdom_quest/#stage-10">Yellow is it</a></td>
+<td>stage 10 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../shortcut_lodar/#stage-10">The way out is through</a></td>
+<td>stage 10 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../shortcut_lodar/#stage-22">The way out is through</a></td>
+<td>stage 22 there needs stage 50 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../shortcut_lodar/#stage-30">The way out is through</a></td>
+<td>stage 30 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../xulviir/#stage-10">A creeping fear</a></td>
+<td>stage 10 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../shortcut_lodar/#stage-20">The way out is through</a></td>
+<td>reaching stage 50 here closes stage 20 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>The potion-maker Lodar seems to be obsessed with something called the Hira'zinn.</td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-15"></span>15</td>
 <td>Apparently, it relates to something that has started to happen recently.</td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Lodar gave me a glowing stone, that he said would allow me to enter some sort of tomb. He did not say which tomb, where the tomb is located, or how to reach it - only that it's somewhere 'below'. Below what, I wonder?</td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>–</td>
+<td>gives <a href="../../items/lodarstone/">Gatekeeper stone</a></td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>In the cave leading to Lodar's Hideaway, I reached what looks like a tomb. Could this be the one Lodar was referring to?</td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>stage 20</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-35"></span>35</td>
 <td>The glowing stone that Lodar gave me, crumbled to dust as I got near the tomb. However, it seems that I am now able to enter.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/lodarcave4a/">Lodarcave4a</a>.</span></td>
+<td>walking into a blocked passage on <a href="../../maps/lodarcave4a/">lodarcave4a</a></td>
+<td>hand over 1× <a href="../../items/lodarstone/">Gatekeeper stone</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>I have encountered a foul creature inside the tomb. I assume this is the Hira'zinn that Lodar was referring to. I should kill it and then tell Lodar.</td>
+<td><a href="../../monsters/hirazinn/">Hira'zinn</a> (<a href="../../maps/lodarcave4a/">lodarcave4a</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>I have presented the heart of the Hira'zinn to Lodar.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/shortcut_lodar0/">Shortcut lodar0</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/shortcut_lodar4/">Shortcut lodar4</a>.</span></td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>hand over 1× <a href="../../items/hirazinn/">Heart of the Hira'zinn</a>, stage 20</td>
+<td>1,000 XP</td>
 </tr>
 <tr>
 <td><span id="stage-51"></span>51</td>
 <td>As soon as I presented the heart of the Hira'zinn to Lodar, he seemed to snap out of his previous state of mind.</td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>stage 50</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Lodar thanked me for defeating the Hira'zinn. In return, he promised to help me in any way he can. He has a large selection of potent potions available for me to purchase at a discount. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>lodar2</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “The Hira'zinn?” — <strong>conditions:</strong> reached stage 110 of <a href="../lodar/#stage-110">A lost potion</a> → <strong>stage 10</strong>. NPC: “Yes yes, the Hira'zinn. As I said, I must find the correct mixture before it moves again.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 15: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “You are still not making any sense to me. What is this Hira'zinn that you keep mentioning?” — <strong>conditions:</strong> reached stage 110 of <a href="../lodar/#stage-110">A lost potion</a> → <strong>stage 15</strong>. NPC: “It never used to be like this, or did it? I can't remember.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “I'm up for it! What do you need help with?” — <strong>conditions:</strong> reached stage 110 of <a href="../lodar/#stage-110">A lost potion</a> → <strong>stage 20</strong>; also gives <a href="../../items/lodarstone/">Gatekeeper stone</a>. NPC: “[Lodar hands you an odd looking stone that seems to be glowing from within] Good. Take this stone, it will allow you…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “Fine. I still don't understand, but I'll try to do as you ask.” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Searching for madness</a>; reached stage 100 of <a href="../lodar/#stage-100">A lost potion</a> → <strong>stage 30</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>walking into a blocked passage on <a href="../../maps/lodarcave4a/">lodarcave4a</a> → the conversation leads here automatically — <strong>conditions:</strong> hand over 1× <a href="../../items/lodarstone/">Gatekeeper stone</a> → <strong>stage 35</strong>. NPC: “From the stone that Lodar gave you, you start hearing cracking noises.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/hirazinn/">Hira'zinn</a> (<a href="../../maps/lodarcave4a/">lodarcave4a</a>) → the conversation leads here automatically → <strong>stage 40</strong>. NPC: “[You also feel a strong urge to leave this place]”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “I have defeated the Hira'zinn in the tomb below. Here is its heart.” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Searching for madness</a>; hand over 1× <a href="../../items/hirazinn/">Heart of the Hira'zinn</a> → <strong>stage 50</strong>. NPC: “Give me that. Oh, yes ... yes!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 51: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → choose “Yes, we spoke before, but you seemed to be obsessed with the Hira'zinn and did not make much sense.” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Searching for madness</a> → <strong>stage 51</strong>. NPC: “Well, I feel much better now.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/lodar/">Lodar</a> (<a href="../../maps/lodarhouse1/">lodarhouse1</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Searching for madness</a> → <strong>stage 60</strong>. NPC: “Again, thank you for your help.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lodar2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lodar2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lodar2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lodar2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lodar2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>lodar2</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 15, 20, 30, 35, 40, 50, 51, 60</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>lodar_3</code>, 15: <code>lodar_8</code>, 20: <code>lodar_12</code>, 30: <code>lodar_13a</code>, 35: <code>sign_lodarcave4a3</code>, 40: <code>hirazinn_2</code>, 50: <code>lodar_find1</code>, 51: <code>lodar_find4</code>, 60: <code>lodar_d1</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -997,6 +1069,132 @@
 <ul>
 <li><a href="../../maps/stoutford_armorer/">stoutford_armorer</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/stn_quest_gyra/">Lost girl looking for lost things</a>: stages 10, 70, 170</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stages 30</li>
+<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stages 9</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (20 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-odirath_0"></span><strong><code>odirath_0</code></strong> Odirath: “Welcome to my shop. Are you looking for anything in particular?”</p>
+<ul>
+<li>“Please show me everything you have available.” → <em>shop opens</em></li>
+<li>“I am looking for my brother, Andor. Have you seen anyone recently that looks a bit like me?” → <a href="#d-odirath_1">odirath_1</a></li>
+<li>“Can you tell me anything about Stoutford?” → <a href="#d-odirath_1_1">odirath_1_1</a></li>
+<li>“You look a bit worried.” <em>(if NOT reached stage 10 of <a href="../../quests/stn_quest_gyra/#stage-10">Lost girl looking for lost things</a>; NOT reached stage 60 of <a href="../../quests/stn_quest_gyra/#stage-60">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_2">odirath_2</a></li>
+<li>“You look happy again.” <em>(if reached stage 60 of <a href="../../quests/stn_quest_gyra/#stage-60">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_3">odirath_3</a></li>
+<li>“Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.” <em>(if hand over 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_odirath">brv_wh_delivery_odirath</a></li>
+<li>“I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?” <em>(if reached stage 5 of <a href="../../quests/stn_quest_gyra/#stage-5">Lost girl looking for lost things</a>; NOT reached stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-odirath_8">odirath_8</a></li>
+</ul>
+<p><span id="d-odirath_1"></span><strong><code>odirath_1</code></strong> Odirath: “I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know…”</p>
+<ul>
+<li>“Thanks. I'll go and do that now.” → <em>conversation ends</em></li>
+<li>“Please show me what you have to trade.” → <em>shop opens</em></li>
+<li>“OK. Can you tell me anything about Stoutford?” → <a href="#d-odirath_1_1">odirath_1_1</a></li>
+</ul>
+<p><span id="d-odirath_1_1"></span><strong><code>odirath_1_1</code></strong> Odirath: “Stoutford is a small town, and life used to be easy here. A lot of traders stayed in Stoutford on their way to and from Blackwater mountain, and spent money that boosted the economy of the whole town. Those days are gone though.”</p>
+<ul>
+<li>“What happened?” → <a href="#d-odirath_1_2">odirath_1_2</a></li>
+</ul>
+<p><span id="d-odirath_2"></span><strong><code>odirath_2</code></strong> Odirath: “Yes, indeed. My daughter has not come home for some days. I don't know what's happened to her.”</p>
+<ul>
+<li>“And you have no idea where she might be?” → <a href="#d-odirath_2_1">odirath_2_1</a></li>
+</ul>
+<p><span id="d-odirath_3"></span><strong><code>odirath_3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 99 of <a href="../../quests/stn_quest_gyra/#stage-99">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_3_2">odirath_3_2</a></li>
+<li>branch 2 → <a href="#d-odirath_3_1">odirath_3_1</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_odirath"></span><strong><code>brv_wh_delivery_odirath</code></strong> Odirath: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.” — <strong>effects:</strong> clears stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Delivery - nondisplay (hidden flag)</a>, gives 30× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-odirath_8"></span><strong><code>odirath_8</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/stoutford_castle/#stage-10">Stoutford's old castle</a>)</em> → <a href="#d-odirath_8a">odirath_8a</a></li>
+<li>branch 2 <em>(if NOT reached stage 20 of <a href="../../quests/stoutford_castle/#stage-20">Stoutford's old castle</a>)</em> → <a href="#d-odirath_8a">odirath_8a</a></li>
+<li>branch 3 <em>(if NOT reached stage 30 of <a href="../../quests/stoutford_castle/#stage-30">Stoutford's old castle</a>)</em> → <a href="#d-odirath_8a">odirath_8a</a></li>
+<li>branch 4 <em>(if NOT reached stage 60 of <a href="../../quests/stn_quest_gyra/#stage-60">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_8b">odirath_8b</a></li>
+<li>branch 5 → <a href="#d-odirath_8c">odirath_8c</a></li>
+</ul>
+<p><span id="d-odirath_1_2"></span><strong><code>odirath_1_2</code></strong> Odirath: “The path to Blackwater mountain was cut off by a rock fall. That stopped most of the traders from coming here. The attacks by the monsters stopped the rest.”</p>
+<ul>
+<li>“How do I get to Blackwater mountain?” → <a href="#d-odirath_1_3">odirath_1_3</a></li>
+<li>“Monsters?” → <a href="#d-odirath_1_4">odirath_1_4</a></li>
+</ul>
+<p><span id="d-odirath_2_1"></span><strong><code>odirath_2_1</code></strong> Odirath: “I've been looking for her all over Stoutford. She does not leave the city. So she can only be in the castle, or kidnapped, or worse.”</p>
+<ul>
+<li>“Did you already look for her in the castle?” → <a href="#d-odirath_2_2">odirath_2_2</a></li>
+</ul>
+<p><span id="d-odirath_3_2"></span><strong><code>odirath_3_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 170 of <a href="../../quests/stn_quest_gyra/#stage-170">Lost girl looking for lost things</a></p>
+<ul>
+<li>branch 1 → <a href="#d-odirath_3_3">odirath_3_3</a></li>
+</ul>
+<p><span id="d-odirath_3_1"></span><strong><code>odirath_3_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 70 of <a href="../../quests/stn_quest_gyra/#stage-70">Lost girl looking for lost things</a></p>
+<ul>
+<li>branch 1 → <a href="#d-odirath_3_3">odirath_3_3</a></li>
+</ul>
+<p><span id="d-odirath_8a"></span><strong><code>odirath_8a</code></strong> Odirath: “No, sorry. As long as there are still skeletons running around the castle, I can't work there.”</p>
+<ul>
+<li>“I understand.” → <a href="#d-odirath_0">odirath_0</a></li>
+</ul>
+<p><span id="d-odirath_8b"></span><strong><code>odirath_8b</code></strong> Odirath: “I can do that as soon as my daughter is back here.”</p>
+<ul>
+<li>“I understand.” → <a href="#d-odirath_0">odirath_0</a></li>
+</ul>
+<p><span id="d-odirath_8c"></span><strong><code>odirath_8c</code></strong> Odirath: “The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.” — <strong>effects:</strong> sets stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">stn_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Great!” → <a href="#d-odirath_0">odirath_0</a></li>
+</ul>
+<p><span id="d-odirath_1_3"></span><strong><code>odirath_1_3</code></strong> Odirath: “Just follow the path west, but you will have to find a way past the rockfall.”</p>
+<ul>
+<li>“Thanks for the directions. I'm headed there right now.” → <em>conversation ends</em></li>
+<li>“Thanks. What about the monsters?” → <a href="#d-odirath_1_4">odirath_1_4</a></li>
+<li>“Thanks for the information. Please show me what you have to trade.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-odirath_1_4"></span><strong><code>odirath_1_4</code></strong> Odirath: “They started attacking the town recently. Nobody is sure why. Their attacks have been unsuccessful, so we are all hoping that they will give up soon and go back to wherever they came from.”</p>
+<ul>
+<li>“Thanks for the information, but I have to leave.” → <em>conversation ends</em></li>
+<li>“Thanks for the information. Do you have anything to trade?” → <em>shop opens</em></li>
+<li>“Thanks. I'm looking for my brother, Andor. Has anyone new been through here recently?” → <a href="#d-odirath_1">odirath_1</a></li>
+<li>“How do I get to Blackwater mountain?” → <a href="#d-odirath_1_3">odirath_1_3</a></li>
+</ul>
+<p><span id="d-odirath_2_2"></span><strong><code>odirath_2_2</code></strong> Odirath: “You cannot go to the castle anymore, do not you know that? At least not if you want to continue living.”</p>
+<ul>
+<li>“I see. She will certainly reappear soon. In the meantime you could show me everything you have for sale.” → <em>shop opens</em></li>
+<li>“I am also looking for someone: my brother, Andor. Have you seen anyone recently that looks a bit like me?” → <a href="#d-odirath_1">odirath_1</a></li>
+<li>“OK. Can you tell me anything about Stoutford?” → <a href="#d-odirath_1_1">odirath_1_1</a></li>
+<li>“I'm not afraid. I could have a look in the castle.” → <a href="#d-odirath_2_3">odirath_2_3</a></li>
+</ul>
+<p><span id="d-odirath_3_3"></span><strong><code>odirath_3_3</code></strong> Odirath: “Gyra is back and has told me everything. Many thanks again for your help.”</p>
+<ul>
+<li>“I was happy to do it.” → <a href="#d-odirath_3_5">odirath_3_5</a></li>
+</ul>
+<p><span id="d-odirath_2_3"></span><strong><code>odirath_2_3</code></strong> Odirath: “You would do that for me? I can hardly accept your offer.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/stn_quest_gyra/#stage-10">Lost girl looking for lost things</a></p>
+<ul>
+<li>“I'm on my way.” → <em>conversation ends</em></li>
+<li>“No problem, but first I have something else I wish to discuss.” → <a href="#d-odirath_0">odirath_0</a></li>
+</ul>
+<p><span id="d-odirath_3_5"></span><strong><code>odirath_3_5</code></strong> Odirath: “Please give the helmet to its owner Lord Bourbon - eh, Lord Berbane I mean. He will be in the tavern.”</p>
+<ul>
+<li>“OK.” → <em>conversation ends</em></li>
+<li>“I did that already. But he didn't seem to be happy about it.” <em>(if reached stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>)</em> → <em>conversation ends</em></li>
+<li>“I did that already. Although he won't need it, because the castle is already clear of the undead.” <em>(if reached stage 149 of <a href="../../quests/stn_nondisplay/#stage-149">stn_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“Maybe.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_armorer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_armorer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_armorer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_armorer.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>stoutford_armorer</code> · Data from v0.8.18</small></p>
 
 

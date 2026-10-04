@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1027,6 +1099,216 @@
 <ul>
 <li><a href="../../maps/houseatcrossroads4/">houseatcrossroads4</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/loneford/">Flows through the veins</a>: stages 10, 11, 21</li>
+<li><a href="../../quests/rogorn/">The path is clear to me</a>: stages 10, 20, 21, 50, 55, 60</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (45 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-minarra"></span><strong><code>minarra</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/rogorn/#stage-60">The path is clear to me</a>)</em> → <a href="#d-minarra_completed_1">minarra_completed_1</a></li>
+<li>branch 2 <em>(if reached stage 55 of <a href="../../quests/rogorn/#stage-55">The path is clear to me</a>)</em> → <a href="#d-minarra_completing_1">minarra_completing_1</a></li>
+<li>branch 3 <em>(if reached stage 50 of <a href="../../quests/rogorn/#stage-50">The path is clear to me</a>)</em> → <a href="#d-minarra_completing_1">minarra_completing_1</a></li>
+<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/rogorn/#stage-20">The path is clear to me</a>)</em> → <a href="#d-minarra_look_1">minarra_look_1</a></li>
+<li>branch 5 <em>(if reached stage 10 of <a href="../../quests/rogorn/#stage-10">The path is clear to me</a>)</em> → <a href="#d-minarra_return_1">minarra_return_1</a></li>
+<li>branch 6 → <a href="#d-minarra_first_1">minarra_first_1</a></li>
+</ul>
+<p><span id="d-minarra_completed_1"></span><strong><code>minarra_completed_1</code></strong> Minarra: “Thank you for helping me investigate the men earlier.”</p>
+<ul>
+<li>“Do you have anything to trade?” → <a href="#d-minarra_trade_1">minarra_trade_1</a></li>
+<li>“You must have a good view of the surroundings up here. Have you seen anything interesting lately?” → <a href="#d-minarra_first_2">minarra_first_2</a></li>
+</ul>
+<p><span id="d-minarra_completing_1"></span><strong><code>minarra_completing_1</code></strong> Minarra: “Thank you for helping me investigate this matter.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/rogorn/#stage-60">The path is clear to me</a></p>
+<ul>
+<li>“Do you have anything to trade?” → <a href="#d-minarra_trade_1">minarra_trade_1</a></li>
+<li>“You must have a good view of the surroundings up here. Have you seen anything interesting lately?” → <a href="#d-minarra_first_2">minarra_first_2</a></li>
+</ul>
+<p><span id="d-minarra_look_1"></span><strong><code>minarra_look_1</code></strong> Minarra: “You return. Did you find those men that we talked about?”</p>
+<ul>
+<li>“I am still looking for them.” → <a href="#d-minarra_look_2">minarra_look_2</a></li>
+<li>“Yes, I killed them and recovered the three pieces of the painting.” <em>(if reached stage 40 of <a href="../../quests/rogorn/#stage-40">The path is clear to me</a>; hand over 3× <a href="../../items/rogorn_qitem/">Piece of painting</a>)</em> → <a href="#d-minarra_look_3">minarra_look_3</a></li>
+<li>“I travelled west and found a travelling group of men, but they did not match the men you described.” <em>(if reached stage 45 of <a href="../../quests/rogorn/#stage-45">The path is clear to me</a>)</em> → <a href="#d-minarra_look_5">minarra_look_5</a></li>
+<li>“I'd rather talk about the troubles in Loneford that you had mentioned.” <em>(if NOT reached stage 21 of <a href="../../quests/loneford/#stage-21">Flows through the veins</a>)</em> → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
+</ul>
+<p><span id="d-minarra_return_1"></span><strong><code>minarra_return_1</code></strong> Minarra: “You return. Was there something else you wanted?”</p>
+<ul>
+<li>“Can you tell me again about those men you saw?” → <a href="#d-minarra_story_1">minarra_story_1</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-minarra_trade_rej">minarra_trade_rej</a></li>
+<li>“What do you do up here?” → <a href="#d-minarra_first_5">minarra_first_5</a></li>
+</ul>
+<p><span id="d-minarra_first_1"></span><strong><code>minarra_first_1</code></strong> Minarra: “Hello there. Can I help you?”</p>
+<ul>
+<li>“You seem to have a lot of equipment around here. Do you have anything to trade?” → <a href="#d-minarra_trade_rej">minarra_trade_rej</a></li>
+<li>“What do you do up here?” → <a href="#d-minarra_first_5">minarra_first_5</a></li>
+<li>“You must have a good view of the surroundings up here. Have you seen anything interesting lately?” → <a href="#d-minarra_first_2">minarra_first_2</a></li>
+</ul>
+<p><span id="d-minarra_trade_1"></span><strong><code>minarra_trade_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 18 of <a href="../../quests/nondisplay/#stage-18">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-minarra_trade_2">minarra_trade_2</a></li>
+<li>branch 2 → <a href="#d-minarra_trade_rej">minarra_trade_rej</a></li>
+</ul>
+<p><span id="d-minarra_first_2"></span><strong><code>minarra_first_2</code></strong> Minarra: “Mostly, I see the travellers on the Duleian road from and to Feygard here.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_first_3">minarra_first_3</a></li>
+</ul>
+<p><span id="d-minarra_look_2"></span><strong><code>minarra_look_2</code></strong> Minarra: “Good. Return to me as soon as you have anything to report. We would really like to recover those three pieces of the painting they stole.”</p>
+<p><span id="d-minarra_look_3"></span><strong><code>minarra_look_3</code></strong> Minarra: “That is excellent news indeed! I knew that we could trust you.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/rogorn/#stage-50">The path is clear to me</a></p>
+<ul>
+<li>Next → <a href="#d-minarra_look_4">minarra_look_4</a></li>
+</ul>
+<p><span id="d-minarra_look_5"></span><strong><code>minarra_look_5</code></strong> Minarra: “Are you sure that they were not the ones? I have a keen eyesight, that's why I am up here. I was sure that they matched the description of the men.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_look_6">minarra_look_6</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_1"></span><strong><code>cr_loneford_st_1</code></strong> Minarra: “Didn't you hear? They have all gotten ill.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_2">cr_loneford_st_2</a></li>
+</ul>
+<p><span id="d-minarra_story_1"></span><strong><code>minarra_story_1</code></strong> Minarra: “I saw a band of rough looking men travelling up the Duleian road. Usually, a band of rough looking men is not something that's worth getting all excited about.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_2">minarra_story_2</a></li>
+</ul>
+<p><span id="d-minarra_trade_rej"></span><strong><code>minarra_trade_rej</code></strong> Minarra: “I might, but you would have to clear it with Gandoren downstairs. We don't trade with just anyone.”</p>
+<p><span id="d-minarra_first_5"></span><strong><code>minarra_first_5</code></strong> Minarra: “I handle the equipment storage for us guards here in the Crossroads guardhouse, and I keep a lookout of the surrounding areas.”</p>
+<ul>
+<li>“Do you have anything to trade?” → <a href="#d-minarra_trade_rej">minarra_trade_rej</a></li>
+<li>“Have you seen anything interesting lately?” → <a href="#d-minarra_first_2">minarra_first_2</a></li>
+</ul>
+<p><span id="d-minarra_trade_2"></span><strong><code>minarra_trade_2</code></strong> Minarra: “Sure, take a look.”</p>
+<ul>
+<li>Next → <em>shop opens</em></li>
+</ul>
+<p><span id="d-minarra_first_3"></span><strong><code>minarra_first_3</code></strong> Minarra: “Recently however, there have been a lot of movements to and from Loneford. I guess it is because of the problems they have been having up there.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_first_4_s">minarra_first_4_s</a></li>
+</ul>
+<p><span id="d-minarra_look_4"></span><strong><code>minarra_look_4</code></strong> Minarra: “Your services to Feygard will be greatly appreciated.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_completing_1">minarra_completing_1</a></li>
+</ul>
+<p><span id="d-minarra_look_6"></span><strong><code>minarra_look_6</code></strong> Minarra: “I guess I will have to take your word for it.” — <strong>effects:</strong> sets stage 55 of <a href="../../quests/rogorn/#stage-55">The path is clear to me</a></p>
+<ul>
+<li>Next → <a href="#d-minarra_completing_1">minarra_completing_1</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_2"></span><strong><code>cr_loneford_st_2</code></strong> Minarra: “It all started a few days ago. As the story goes, someone found one of the farmers passed out in one of the fields, completely white faced and shivering.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_3">cr_loneford_st_3</a></li>
+</ul>
+<p><span id="d-minarra_story_2"></span><strong><code>minarra_story_2</code></strong> Minarra: “But these men matched the description of some people that are wanted by the Feygard patrol.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_3">minarra_story_3</a></li>
+</ul>
+<p><span id="d-minarra_first_4_s"></span><strong><code>minarra_first_4_s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/rogorn/#stage-60">The path is clear to me</a>)</em> → <a href="#d-minarra_first_4_1">minarra_first_4_1</a></li>
+<li>branch 2 → <a href="#d-minarra_first_4">minarra_first_4</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_3"></span><strong><code>cr_loneford_st_3</code></strong> Minarra: “A few days later, the same symptoms started to show on a lot more people.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_4">cr_loneford_st_4</a></li>
+</ul>
+<p><span id="d-minarra_story_3"></span><strong><code>minarra_story_3</code></strong> Minarra: “If I saw correctly, these men were the band of rogues led by a man called Rogorn, that we are looking to apprehend for several ruthless cases of murder and theft.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_4">minarra_story_4</a></li>
+</ul>
+<p><span id="d-minarra_first_4_1"></span><strong><code>minarra_first_4_1</code></strong> Minarra: “Some farm animals today as well.”</p>
+<ul>
+<li>“You mentioned the Duleian road, what's that?” → <a href="#d-minarra_first_6_1">minarra_first_6_1</a></li>
+<li>“You mentioned some problems in Loneford, what problems were you referring to?” → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
+</ul>
+<p><span id="d-minarra_first_4"></span><strong><code>minarra_first_4</code></strong> Minarra: “I did see something very interesting yesterday though.”</p>
+<ul>
+<li>“What was that?” → <a href="#d-minarra_story_1">minarra_story_1</a></li>
+<li>“You mentioned the Duleian road, what's that?” → <a href="#d-minarra_first_6">minarra_first_6</a></li>
+<li>“You mentioned some problems in Loneford, what problems were you referring to?” → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
+<li>“Never mind that, I wanted to ask you what your duty is up here?” → <a href="#d-minarra_first_5">minarra_first_5</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_4"></span><strong><code>cr_loneford_st_4</code></strong> Minarra: “Then, all people showed the symptoms in one way or another.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_5">cr_loneford_st_5</a></li>
+</ul>
+<p><span id="d-minarra_story_4"></span><strong><code>minarra_story_4</code></strong> Minarra: “Their leader, Rogorn, is a particularly savage man according to the reports from Feygard that I have read.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_5">minarra_story_5</a></li>
+</ul>
+<p><span id="d-minarra_first_6_1"></span><strong><code>minarra_first_6_1</code></strong> Minarra: “See this wide road that goes outside this guardhouse? That's the Duleian road. It goes all the way from the glorious city of Feygard up in the northwest down to the wretched Nor City in the southeast.”</p>
+<ul>
+<li>“You mentioned some problems in Loneford, what problems are that?” → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
+</ul>
+<p><span id="d-minarra_first_6"></span><strong><code>minarra_first_6</code></strong> Minarra: “See this wide road that goes outside this guardhouse? That's the Duleian road. It goes all the way from the glorious city of Feygard up in the northwest down to the wretched Nor City in the southeast.”</p>
+<ul>
+<li>“You mentioned some problems in Loneford, what problems are that?” → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
+<li>“I wanted to ask you what your duty is up here?” → <a href="#d-minarra_first_5">minarra_first_5</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_5"></span><strong><code>cr_loneford_st_5</code></strong> Minarra: “Some old people even died.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_6">cr_loneford_st_6</a></li>
+</ul>
+<p><span id="d-minarra_story_5"></span><strong><code>minarra_story_5</code></strong> Minarra: “Now, usually, we would go out searching for them, to verify that the men I saw were indeed these men. However, now with the trouble up in Loneford, we cannot afford to spare any guards other than to guarding Loneford.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_6">minarra_story_6</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_6"></span><strong><code>cr_loneford_st_6</code></strong> Minarra: “Everyone started investigating what could be the cause. Currently, the cause is still unknown.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/loneford/#stage-10">Flows through the veins</a></p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_7">cr_loneford_st_7</a></li>
+</ul>
+<p><span id="d-minarra_story_6"></span><strong><code>minarra_story_6</code></strong> Minarra: “I am sure that those were the men. If we were to catch and kill them, the people of Feygard would be much safer.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/rogorn/#stage-10">The path is clear to me</a></p>
+<ul>
+<li>“I could go look for them if you want.” → <a href="#d-minarra_story_8">minarra_story_8</a></li>
+<li>“Well, good luck with that.” → <a href="#d-minarra_story_7">minarra_story_7</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_7"></span><strong><code>cr_loneford_st_7</code></strong> Minarra: “Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering though.” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/loneford/#stage-11">Flows through the veins</a></p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_8">cr_loneford_st_8</a></li>
+</ul>
+<p><span id="d-minarra_story_8"></span><strong><code>minarra_story_8</code></strong> Minarra: “Hey, that's a great idea. Are you sure you are up to it though? The people of Feygard would indeed be grateful if you were to find them.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_9">minarra_story_9</a></li>
+</ul>
+<p><span id="d-minarra_story_7"></span><strong><code>minarra_story_7</code></strong> Minarra: “Thank you. Good luck yourself. Now, if you will excuse me, I need to keep my eyes on the road.”</p>
+<p><span id="d-cr_loneford_st_8"></span><strong><code>cr_loneford_st_8</code></strong> Minarra: “Me, I am certain that this is the work of those savages from Nor City somehow. They probably sabotaged something up there.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_9">cr_loneford_st_9</a></li>
+</ul>
+<p><span id="d-minarra_story_9"></span><strong><code>minarra_story_9</code></strong> Minarra: “Anyway, I saw them travelling the road west of here. You know that road that leads to Carn Tower? That's the last I saw of them. You might want to follow that road and see if you can spot them.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_10">minarra_story_10</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_9"></span><strong><code>cr_loneford_st_9</code></strong> Minarra: “What do they call it, the 'Shadow'? They are willing to do almost anything to upset the law and order around here.”</p>
+<ul>
+<li>Next → <a href="#d-cr_loneford_st_10">cr_loneford_st_10</a></li>
+</ul>
+<p><span id="d-minarra_story_10"></span><strong><code>minarra_story_10</code></strong> Minarra: “They have stolen three pieces of a very valuable painting from Feygard, from the report that I have read. For their crimes and the savageness of their way, they are wanted dead by the Feygard patrol.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/rogorn/#stage-20">The path is clear to me</a></p>
+<ul>
+<li>“I will be back once they are dead. Anything else?” → <a href="#d-minarra_story_11">minarra_story_11</a></li>
+</ul>
+<p><span id="d-cr_loneford_st_10"></span><strong><code>cr_loneford_st_10</code></strong> Minarra: “I tell you. Savages - that's what they are. No respect for the laws or authority.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/loneford/#stage-21">Flows through the veins</a></p>
+<p><span id="d-minarra_story_11"></span><strong><code>minarra_story_11</code></strong> Minarra: “Yes, I should also tell you that they most likely will try to persuade you into believing their story.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_12">minarra_story_12</a></li>
+</ul>
+<p><span id="d-minarra_story_12"></span><strong><code>minarra_story_12</code></strong> Minarra: “In particular, their leader, Rogorn, is a well known villain by Feygard. Nothing he says should be trusted.”</p>
+<ul>
+<li>Next → <a href="#d-minarra_story_13">minarra_story_13</a></li>
+</ul>
+<p><span id="d-minarra_story_13"></span><strong><code>minarra_story_13</code></strong> Minarra: “I urge you not to listen to their lies. Their crimes must be punished in order to uphold the law.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/rogorn/#stage-21">The path is clear to me</a></p>
+<ul>
+<li>“I will return once the task is done.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=minarra.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=minarra.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=minarra.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=minarra.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>minarra</code> · Data from v0.8.18</small></p>
 
 

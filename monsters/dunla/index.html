@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -997,6 +1069,61 @@
 <ul>
 <li><a href="../../maps/vilegard_tavern/">vilegard_tavern</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/beer_bootlegging/">Beer Bootlegging</a>: stages 40</li>
+<li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (9 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-dunla_default"></span><strong><code>dunla_default</code></strong> <a href="./">Dunla</a>: “You look like a smart fellow. Need any supplies?”</p>
+<ul>
+<li>“Sure, let me see what you have available.” → <em>shop opens</em></li>
+<li>“What can you tell me about yourself?” → <a href="#d-dunla_1">dunla_1</a></li>
+<li>“I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-30">Beer Bootlegging</a> is 30; NOT reached stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>)</em> → <a href="#d-dunla_beer">dunla_beer</a></li>
+<li>“I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-30">Beer Bootlegging</a> is 30; reached stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>)</em> → <a href="#d-dunla_beer_10">dunla_beer_10</a></li>
+</ul>
+<p><span id="d-dunla_1"></span><strong><code>dunla_1</code></strong> Dunla: “Me? I am no one. You didn't even see me. You certainly did not talk to me.”</p>
+<ul>
+<li>“Troublemaker sent me to get your report.” <em>(if reached stage 25 of <a href="../../quests/Thieves01/#stage-25">Thief apprentice</a>; NOT reached stage 30 of <a href="../../quests/Thieves01/#stage-30">Thief apprentice</a>)</em> → <a href="#d-dunla_guild_1">dunla_guild_1</a></li>
+</ul>
+<p><span id="d-dunla_beer"></span><strong><code>dunla_beer</code></strong> Dunla: “She did, did she? Well, that is an insider topic, and you are not an "insider". Come back when you are.”</p>
+<p><span id="d-dunla_beer_10"></span><strong><code>dunla_beer_10</code></strong> Dunla: “She did, did she? What do you want to know?”</p>
+<ul>
+<li>“What is this 'business agreement' that the taven owners have?” → <a href="#d-dunla_beer_20">dunla_beer_20</a></li>
+</ul>
+<p><span id="d-dunla_guild_1"></span><strong><code>dunla_guild_1</code></strong> Dunla: “What? I don't know what you are talking about.”</p>
+<ul>
+<li>“You are no one. No one knows you. No one has seen you.” <em>(if NOT reached stage 30 of <a href="../../quests/Thieves01/#stage-30">Thief apprentice</a>)</em> → <a href="#d-dunla_guild_2a">dunla_guild_2a</a></li>
+<li>“You are no one. No one knows you. No one has seen you.” <em>(if reached stage 30 of <a href="../../quests/Thieves01/#stage-30">Thief apprentice</a>)</em> → <a href="#d-dunla_guild_2b">dunla_guild_2b</a></li>
+</ul>
+<p><span id="d-dunla_beer_20"></span><strong><code>dunla_beer_20</code></strong> Dunla: “That is not for me to say.”</p>
+<ul>
+<li>“Is the Thieves guild the 'distributors'?” → <a href="#d-dunla_beer_30">dunla_beer_30</a></li>
+</ul>
+<p><span id="d-dunla_guild_2a"></span><strong><code>dunla_guild_2a</code></strong> Dunla: “So, you are one of us. Here, take my journal.” — <strong>effects:</strong> gives 1× <a href="../../items/Dunla_journal/">Dunla's Journal</a>, sets stage 30 of <a href="../../quests/Thieves01/#stage-30">Thief apprentice</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+<li>“Do you have anything to trade?” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-dunla_guild_2b"></span><strong><code>dunla_guild_2b</code></strong> Dunla: “Sorry, I don't have any more information for you.”</p>
+<ul>
+<li>“Do you have anything to trade?” → <em>shop opens</em></li>
+<li>“Ok, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dunla_beer_30"></span><strong><code>dunla_beer_30</code></strong> Dunla: “Yes, yes we are, but if you want to learn more, go talk to Farrik back at our guild house.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/beer_bootlegging/#stage-40">Beer Bootlegging</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dunla.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dunla.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dunla.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dunla.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>dunla</code> · Data from v0.8.18</small></p>
 
 

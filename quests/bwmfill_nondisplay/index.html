@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,37 +971,217 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>bwmfill_nondisplay</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a>, stepping on a trigger on <a href="../../maps/crossroads/">crossroads</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/tunlon/">Tunlon</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/bwmfill3/">bwmfill3</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Guard Burhczyd active</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a>. Required:</p>
+<ul>
+<li>NOT reached stage 41 of <a href="./#stage-41">bwmfill_nondisplay (hidden flag)</a></li>
+<li>reached stage 80 of <a href="../quest_burhczyd/#stage-80">Young merchant</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../quest_burhczyd/#stage-80">Young merchant</a></td>
+<td>stage 80 reached, for stages 40, 41 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a></td>
+<td>reaching stage 41 here closes stage 142 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../tunlon_fence/#stage-12">It makes no fence</a></td>
+<td>reaching stage 44 here closes stage 12 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>Guard Burhczyd active<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven4/">Brimhaven4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/crossroads/">Crossroads</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fields6/">Fields6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/remgard0/">Remgard0</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/road1/">Road1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads2/">Roadbeforecrossroads2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads6/">Roadbeforecrossroads6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/wild6/">Wild6</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a></td>
+<td>–</td>
+<td>sets stage 142 of <a href="../brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-41"></span>41</td>
 <td>Guard Burhczyd used<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven4/">Brimhaven4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/crossroads/">Crossroads</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fields6/">Fields6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/remgard0/">Remgard0</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/road1/">Road1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads2/">Roadbeforecrossroads2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads6/">Roadbeforecrossroads6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/wild6/">Wild6</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a></td>
+<td>–</td>
+<td>sets stage 142 of <a href="../brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-42"></span>42</td>
 <td>BMP box<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven4/">Brimhaven4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/crossroads/">Crossroads</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fields6/">Fields6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/remgard0/">Remgard0</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/road1/">Road1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads2/">Roadbeforecrossroads2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads6/">Roadbeforecrossroads6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/wild6/">Wild6</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a></td>
+<td>carry 1× <a href="../../items/guynmart_bonemealbox/">Andor's bonemeal box</a>, carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-43"></span>43</td>
 <td>BMP box with normal BMP<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven4/">Brimhaven4</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/crossroads/">Crossroads</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fields6/">Fields6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/remgard0/">Remgard0</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/road1/">Road1</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads2/">Roadbeforecrossroads2</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads6/">Roadbeforecrossroads6</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/wild6/">Wild6</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a></td>
+<td>carry 1× <a href="../../items/guynmart_bonemealbox/">Andor's bonemeal box</a>, carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-44"></span>44</td>
 <td>Killed Tunlon's sheep detected<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/bwmfill3/">Bwmfill3</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/bwmfill3/">bwmfill3</a><br><a href="../../monsters/tunlon/">Tunlon</a> (<a href="../../maps/bwmfill3/">bwmfill3</a>)</td>
+<td>–</td>
+<td>removes monsters from bwmfill3<br>spawns monsters on bwmfill3</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>bwmfill_nondisplay</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 41 of <a href="./#stage-41">bwmfill_nondisplay (hidden flag)</a>; reached stage 80 of <a href="../quest_burhczyd/#stage-80">Young merchant</a> → <strong>stage 40</strong>; also sets stage 142 of <a href="../brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 41: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 41 of <a href="./#stage-41">bwmfill_nondisplay (hidden flag)</a>; reached stage 80 of <a href="../quest_burhczyd/#stage-80">Young merchant</a> → <strong>stage 41</strong>; also sets stage 142 of <a href="../brv_nondisplay/#stage-142">brv_nondisplay (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 42: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a> → the conversation leads here automatically — <strong>conditions:</strong> carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>; carry 1× <a href="../../items/guynmart_bonemealbox/">Andor's bonemeal box</a> → <strong>stage 42</strong></li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a> → the conversation leads here automatically — <strong>conditions:</strong> carry 1× <a href="../../items/guynmart_bonemealbox/">Andor's bonemeal box</a> → <strong>stage 42</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 43: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven4/">brimhaven4</a> → the conversation leads here automatically — <strong>conditions:</strong> carry 1× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>; carry 1× <a href="../../items/guynmart_bonemealbox/">Andor's bonemeal box</a> → <strong>stage 43</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 44: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/bwmfill3/">bwmfill3</a> → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/bwm_sheep1/">Mountain Sheep</a>; NOT reached stage 44 of <a href="./#stage-44">bwmfill_nondisplay (hidden flag)</a> → <strong>stage 44</strong>; also removes monsters from bwmfill3, spawns monsters on bwmfill3. NPC: “You filthy MURDERER!!”</li>
+<li>Talk to <a href="../../monsters/tunlon/">Tunlon</a> (<a href="../../maps/bwmfill3/">bwmfill3</a>) → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/bwm_sheep1/">Mountain Sheep</a>; NOT reached stage 44 of <a href="./#stage-44">bwmfill_nondisplay (hidden flag)</a> → <strong>stage 44</strong>; also removes monsters from bwmfill3, spawns monsters on bwmfill3. NPC: “You filthy MURDERER!!”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwmfill_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwmfill_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwmfill_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwmfill_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwmfill_nondisplay.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>bwmfill_nondisplay</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>40, 41, 42, 43, 44</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>40: <code>brv_patrol_stop_hero_bur</code>, 41: <code>brv_patrol_stop_hero_bur</code>, 42: <code>brv_patrol_stop_hero_box1</code>, 42: <code>brv_patrol_stop_hero_box2</code>, 43: <code>brv_patrol_stop_hero_box1</code>, 44: <code>bwmfill_killsheep_20</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>40: <code>brv_patrol_check_stop_hero</code>, 42: <code>brv_patrol_check_stop_hero</code>, 43: <code>brv_patrol_check_stop_hero</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

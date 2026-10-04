@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -982,6 +1054,303 @@
 <ul>
 <li><a href="../../maps/vilegard_chapel/">vilegard_chapel</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/kaori/">Kaori's errands</a>: stages 5</li>
+<li><a href="../../quests/shadows/">Shadows</a>: stages 110, 120</li>
+<li><a href="../../quests/jolnor/">Spies in the foam</a>: stages 10, 30</li>
+<li><a href="../../quests/vilegard/">Trusting an outsider</a>: stages 20, 30</li>
+<li><a href="../../quests/wrye/">Uncertain cause</a>: stages 10</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (61 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-jolnor_select_1"></span><strong><code>jolnor_select_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a>)</em> → <a href="#d-jolnor_default_3">jolnor_default_3</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/vilegard/#stage-20">Trusting an outsider</a>)</em> → <a href="#d-jolnor_default_2">jolnor_default_2</a></li>
+<li>branch 3 → <a href="#d-jolnor_default">jolnor_default</a></li>
+</ul>
+<p><span id="d-jolnor_default_3"></span><strong><code>jolnor_default_3</code></strong> Jolnor: “Walk with the Shadow my friend.”</p>
+<ul>
+<li>“Can you tell me again what this place is?” → <a href="#d-jolnor_chapel_1">jolnor_chapel_1</a></li>
+<li>“I require healing. Can I see what items you have available?” → <a href="#d-jolnor_shop_1">jolnor_shop_1</a></li>
+<li>“I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.” <em>(if reached stage 50 of <a href="../../quests/troubling_times/#stage-50">Troubling times</a>; NOT reached stage 70 of <a href="../../quests/troubling_times/#stage-70">Troubling times</a>)</em> → <a href="#d-tt_jolnor_10">tt_jolnor_10</a></li>
+<li>“What blessings can you provide?” <em>(if reached stage 100 of <a href="../../quests/shadows/#stage-100">Shadows</a>; NOT reached stage 110 of <a href="../../quests/shadows/#stage-110">Shadows</a>)</em> → <a href="#d-dds_jolnor_10">dds_jolnor_10</a></li>
+<li>“About Fatigue and Life drain ...” <em>(if reached stage 110 of <a href="../../quests/shadows/#stage-110">Shadows</a>; NOT reached stage 120 of <a href="../../quests/shadows/#stage-120">Shadows</a>)</em> → <a href="#d-dds_jolnor_100">dds_jolnor_100</a></li>
+<li>“The blessing has worn off too early. Could you give it again?” <em>(if reached stage 110 of <a href="../../quests/shadows/#stage-110">Shadows</a>; NOT reached stage 160 of <a href="../../quests/shadows/#stage-160">Shadows</a>; NOT affected by shadowsleep)</em> → <a href="#d-dds_talion_130">dds_talion_130</a></li>
+</ul>
+<p><span id="d-jolnor_default_2"></span><strong><code>jolnor_default_2</code></strong> Jolnor: “Walk with the Shadow my child.”</p>
+<ul>
+<li>“Can you tell me again what this place is?” → <a href="#d-jolnor_chapel_1">jolnor_chapel_1</a></li>
+<li>“Let's talk about those missions for gaining trust that you talked about earlier.” → <a href="#d-jolnor_quests_1">jolnor_quests_1</a></li>
+<li>“I require healing. Can I see what items you have available?” → <a href="#d-jolnor_shop_1">jolnor_shop_1</a></li>
+</ul>
+<p><span id="d-jolnor_default"></span><strong><code>jolnor_default</code></strong> Jolnor: “Walk with the Shadow my child.”</p>
+<ul>
+<li>“What is this place?” → <a href="#d-jolnor_chapel_1">jolnor_chapel_1</a></li>
+<li>“I was told to talk to you about why everyone in Vilegard is suspicious of outsiders.” <em>(if reached stage 10 of <a href="../../quests/vilegard/#stage-10">Trusting an outsider</a>)</em> → <a href="#d-jolnor_suspicious_1">jolnor_suspicious_1</a></li>
+</ul>
+<p><span id="d-jolnor_chapel_1"></span><strong><code>jolnor_chapel_1</code></strong> Jolnor: “This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory.”</p>
+<ul>
+<li>“Can you tell me more about the Shadow?” → <a href="#d-jolnor_shadow_1">jolnor_shadow_1</a></li>
+<li>“I require healing. Can I see what items you have available?” → <a href="#d-jolnor_shop_1">jolnor_shop_1</a></li>
+<li>“Whatever. Just show me your goods.” → <a href="#d-jolnor_shop_1">jolnor_shop_1</a></li>
+</ul>
+<p><span id="d-jolnor_shop_1"></span><strong><code>jolnor_shop_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a>)</em> → <em>shop opens</em></li>
+<li>branch 2 → <a href="#d-jolnor_shop_2">jolnor_shop_2</a></li>
+</ul>
+<p><span id="d-tt_jolnor_10"></span><strong><code>tt_jolnor_10</code></strong> Jolnor: “Excuse me? I don't know what you want from me.”</p>
+<ul>
+<li>“Never mind.” → <a href="#d-jolnor_default_3">jolnor_default_3</a></li>
+</ul>
+<p><span id="d-dds_jolnor_10"></span><strong><code>dds_jolnor_10</code></strong> Jolnor: “I don't provide any blessings.”</p>
+<ul>
+<li>“But Talion said that you could.” → <a href="#d-dds_jolnor_20">dds_jolnor_20</a></li>
+</ul>
+<p><span id="d-dds_jolnor_100"></span><strong><code>dds_jolnor_100</code></strong> Jolnor: “Well, ask away.”</p>
+<ul>
+<li>“Can you also give 'blessings' of Fatigue and Life Drain” → <a href="#d-dds_jolnor_110">dds_jolnor_110</a></li>
+</ul>
+<p><span id="d-dds_talion_130"></span><strong><code>dds_talion_130</code></strong> Jolnor: “That's no problem at all.”</p>
+<ul>
+<li>“I'm glad about that.” → <a href="#d-dds_talion_132">dds_talion_132</a></li>
+</ul>
+<p><span id="d-jolnor_quests_1"></span><strong><code>jolnor_quests_1</code></strong> Jolnor: “I would suggest you help Kaori, Wrye and me to gain our trust.”</p>
+<ul>
+<li>“About that guard outside the Foaming Flask tavern...” → <a href="#d-jolnor_guard_select">jolnor_guard_select</a></li>
+<li>“About those tasks...” → <a href="#d-jolnor_quests_2">jolnor_quests_2</a></li>
+<li>“Never mind, let's get back to those other topics.” → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_suspicious_1"></span><strong><code>jolnor_suspicious_1</code></strong> Jolnor: “Suspicious? No, I wouldn't call it suspicion. I would rather call it that we are careful nowadays.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_suspicious_2">jolnor_suspicious_2</a></li>
+</ul>
+<p><span id="d-jolnor_shadow_1"></span><strong><code>jolnor_shadow_1</code></strong> Jolnor: “The Shadow protects us from the dangers of the night. It keeps us safe and comforts us when we sleep.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_shop_2"></span><strong><code>jolnor_shop_2</code></strong> Jolnor: “I don't trust you enough yet to feel comfortable trading with you.”</p>
+<ul>
+<li>“Why are you that suspicious?” → <a href="#d-jolnor_suspicious_1">jolnor_suspicious_1</a></li>
+<li>“Very well.” → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-dds_jolnor_20"></span><strong><code>dds_jolnor_20</code></strong> Jolnor: “Oh, you mean Shadow Sleepiness?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-dds_jolnor_22">dds_jolnor_22</a></li>
+</ul>
+<p><span id="d-dds_jolnor_110"></span><strong><code>dds_jolnor_110</code></strong> Jolnor: “Borvis can't even manage those?! How unworthy!”</p>
+<ul>
+<li>“Well, could you?” → <a href="#d-dds_jolnor_112">dds_jolnor_112</a></li>
+</ul>
+<p><span id="d-dds_talion_132"></span><strong><code>dds_talion_132</code></strong> Jolnor: “It'll just cost you another 300 gold pieces.”</p>
+<ul>
+<li>“Sure, I am wealthy enough.” <em>(if have 300 gold)</em> → <a href="#d-dds_jolnor_62">dds_jolnor_62</a></li>
+<li>“I don't have that much with me. I'll be back.” <em>(if NOT have 300 gold)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jolnor_guard_select"></span><strong><code>jolnor_guard_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/jolnor/#stage-30">Spies in the foam</a>)</em> → <a href="#d-jolnor_guard_completed">jolnor_guard_completed</a></li>
+<li>branch 2 → <a href="#d-jolnor_guard_1">jolnor_guard_1</a></li>
+</ul>
+<p><span id="d-jolnor_quests_2"></span><strong><code>jolnor_quests_2</code></strong> Jolnor: “Yes, what about them?”</p>
+<ul>
+<li>“What was I supposed to do again?” → <a href="#d-jolnor_suspicious_2">jolnor_suspicious_2</a></li>
+<li>“I have done all the tasks you asked me to do.” <em>(if reached stage 30 of <a href="../../quests/jolnor/#stage-30">Spies in the foam</a>)</em> → <a href="#d-jolnor_quests_select_1">jolnor_quests_select_1</a></li>
+<li>“Never mind, let's get back to those other topics.” → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_suspicious_2"></span><strong><code>jolnor_suspicious_2</code></strong> Jolnor: “In order to gain the trust of the village, an outsider must prove that they are not here to cause trouble.”</p>
+<ul>
+<li>“Sounds like a good idea. There are a lot of selfish people out there.” → <a href="#d-jolnor_suspicious_3">jolnor_suspicious_3</a></li>
+<li>“That sounds really unnecessary. Why not trust people in the first place?” → <a href="#d-jolnor_suspicious_4">jolnor_suspicious_4</a></li>
+</ul>
+<p><span id="d-dds_jolnor_22"></span><strong><code>dds_jolnor_22</code></strong> Jolnor: “So Talion still can't tell a blessing from a spell.”</p>
+<ul>
+<li>Next → <a href="#d-dds_jolnor_24">dds_jolnor_24</a></li>
+</ul>
+<p><span id="d-dds_jolnor_112"></span><strong><code>dds_jolnor_112</code></strong> Jolnor: “Of course I could, if I wanted to.”</p>
+<ul>
+<li>“If you say so.” → <a href="#d-dds_jolnor_120">dds_jolnor_120</a></li>
+</ul>
+<p><span id="d-dds_jolnor_62"></span><strong><code>dds_jolnor_62</code></strong> Jolnor: “Well, give me the 300 gold.”</p>
+<ul>
+<li>“Sure, here.” <em>(if pay 300 gold)</em> → <a href="#d-dds_jolnor_70">dds_jolnor_70</a></li>
+</ul>
+<p><span id="d-jolnor_guard_completed"></span><strong><code>jolnor_guard_completed</code></strong> Jolnor: “Yes, you dealt with him earlier. Thank you for your help.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_quests_1">jolnor_quests_1</a></li>
+</ul>
+<p><span id="d-jolnor_guard_1"></span><strong><code>jolnor_guard_1</code></strong> Jolnor: “Yes, what about him. Have you removed him yet?”</p>
+<ul>
+<li>“Yes, he will leave his post as soon as this shift is over.” <em>(if reached stage 20 of <a href="../../quests/jolnor/#stage-20">Spies in the foam</a>)</em> → <a href="#d-jolnor_guard_2">jolnor_guard_2</a></li>
+<li>“Yes, he is removed.” <em>(if hand over 1× <a href="../../items/ffguard_qitem/">Feygard patrol ring</a>)</em> → <a href="#d-jolnor_guard_2">jolnor_guard_2</a></li>
+<li>“No, but I am working on it.” → <a href="#d-jolnor_gaintrust_14">jolnor_gaintrust_14</a></li>
+</ul>
+<p><span id="d-jolnor_quests_select_1"></span><strong><code>jolnor_quests_select_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 20 of <a href="../../quests/kaori/#stage-20">Kaori's errands</a>)</em> → <a href="#d-jolnor_quests_select_2">jolnor_quests_select_2</a></li>
+<li>branch 2 → <a href="#d-jolnor_quests_kaori_1">jolnor_quests_kaori_1</a></li>
+</ul>
+<p><span id="d-jolnor_suspicious_3"></span><strong><code>jolnor_suspicious_3</code></strong> Jolnor: “Yes, right. You seem to understand us well, I like that.”</p>
+<ul>
+<li>“Is there anything I can do to gain your trust?” → <a href="#d-jolnor_gaintrust_select">jolnor_gaintrust_select</a></li>
+</ul>
+<p><span id="d-jolnor_suspicious_4"></span><strong><code>jolnor_suspicious_4</code></strong> Jolnor: “We have learned from history not to trust outsiders, and you are an outsider. Why should we trust you?”</p>
+<ul>
+<li>“What can I do to gain your trust?” → <a href="#d-jolnor_gaintrust_select">jolnor_gaintrust_select</a></li>
+<li>“You are right. You probably should not trust me.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dds_jolnor_24"></span><strong><code>dds_jolnor_24</code></strong> Jolnor: “He never could.”</p>
+<ul>
+<li>“Now what?” → <a href="#d-dds_jolnor_26">dds_jolnor_26</a></li>
+</ul>
+<p><span id="d-dds_jolnor_120"></span><strong><code>dds_jolnor_120</code></strong> Jolnor: “There's one priest, Favlon, who can give you both. However, he went researching in the area west of Sullengard and hasn't been seen since.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/shadows/#stage-120">Shadows</a>, spawns monsters on nw_sullengard_1</p>
+<ul>
+<li>“West of Sullengard. Sigh.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dds_jolnor_70"></span><strong><code>dds_jolnor_70</code></strong> <a href="../none/">Dummy NPC</a>: “Jolnor is chanting, murmuring, gesticulating.”</p>
+<ul>
+<li>“[Thinking to himself] He's probably just doing this to distract me so I can't figure out how to do it.” → <a href="#d-dds_jolnor_80">dds_jolnor_80</a></li>
+</ul>
+<p><span id="d-jolnor_guard_2"></span><strong><code>jolnor_guard_2</code></strong> Jolnor: “Very good. Thank you for your help.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/jolnor/#stage-30">Spies in the foam</a></p>
+<ul>
+<li>“No problem. Let's get back to those other tasks we talked about.” → <a href="#d-jolnor_quests_2">jolnor_quests_2</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_14"></span><strong><code>jolnor_gaintrust_14</code></strong> Jolnor: “Good. Report back to me when you are done.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_15">jolnor_gaintrust_15</a></li>
+</ul>
+<p><span id="d-jolnor_quests_select_2"></span><strong><code>jolnor_quests_select_2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 90 of <a href="../../quests/wrye/#stage-90">Uncertain cause</a>)</em> → <a href="#d-jolnor_quests_completed">jolnor_quests_completed</a></li>
+<li>branch 2 → <a href="#d-jolnor_quests_wrye_1">jolnor_quests_wrye_1</a></li>
+</ul>
+<p><span id="d-jolnor_quests_kaori_1"></span><strong><code>jolnor_quests_kaori_1</code></strong> Jolnor: “You still need to help Kaori with her task.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_select"></span><strong><code>jolnor_gaintrust_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a>)</em> → <a href="#d-jolnor_gaintrust_return_2">jolnor_gaintrust_return_2</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/vilegard/#stage-20">Trusting an outsider</a>)</em> → <a href="#d-jolnor_gaintrust_return">jolnor_gaintrust_return</a></li>
+<li>branch 3 → <a href="#d-jolnor_gaintrust_1">jolnor_gaintrust_1</a></li>
+</ul>
+<p><span id="d-dds_jolnor_26"></span><strong><code>dds_jolnor_26</code></strong> Jolnor: “If Talion says - OK, it's yours for only 300 gold. Though it's not a blessing as such...”</p>
+<ul>
+<li>“Great!” <em>(if pay 300 gold)</em> → <a href="#d-dds_jolnor_50">dds_jolnor_50</a></li>
+<li>“That is too much. I'd offer you 50 gold at the most.” → <a href="#d-dds_jolnor_28">dds_jolnor_28</a></li>
+<li>“300? I have to get some gold first.” <em>(if NOT have 300 gold)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dds_jolnor_80"></span><strong><code>dds_jolnor_80</code></strong> <a href="./">Jolnor</a>: “Here you go. Take it to Borvis with care.” — <strong>effects:</strong> applies condition shadowsleep, sets stage 110 of <a href="../../quests/shadows/#stage-110">Shadows</a></p>
+<ul>
+<li>“Thank you. Bye.” → <em>conversation ends</em></li>
+<li>“Please, I still have a question.” → <a href="#d-dds_jolnor_100">dds_jolnor_100</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_15"></span><strong><code>jolnor_gaintrust_15</code></strong> Jolnor: “So, in order to gain our trust here in Vilegard, I would suggest you help Kaori, Wrye and me.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/vilegard/#stage-20">Trusting an outsider</a></p>
+<ul>
+<li>“Thank you for the information. I will be back when I have something to report.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jolnor_quests_completed"></span><strong><code>jolnor_quests_completed</code></strong> Jolnor: “Good. You helped all three of us.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a></p>
+<ul>
+<li>Next → <a href="#d-jolnor_quests_completed_2">jolnor_quests_completed_2</a></li>
+</ul>
+<p><span id="d-jolnor_quests_wrye_1"></span><strong><code>jolnor_quests_wrye_1</code></strong> Jolnor: “You still need to help Wrye with her task.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_return_2"></span><strong><code>jolnor_gaintrust_return_2</code></strong> Jolnor: “With your help earlier, you have already gained our trust.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_default_3">jolnor_default_3</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_return"></span><strong><code>jolnor_gaintrust_return</code></strong> Jolnor: “As I said before, you have to help some people here in Vilegard to gain our trust.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_quests_1">jolnor_quests_1</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_1"></span><strong><code>jolnor_gaintrust_1</code></strong> Jolnor: “If you do us a favor, we might consider trusting you. There are three people I can think of that are influential here in Vilegard, that you should try to help.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_2">jolnor_gaintrust_2</a></li>
+</ul>
+<p><span id="d-dds_jolnor_50"></span><strong><code>dds_jolnor_50</code></strong> Jolnor: “What do you want it for?”</p>
+<ul>
+<li>“Well, Borvis wanted it to break through a Shadow shield, as someone is misusing Shadow powers to the south of Stoutford.” → <a href="#d-dds_jolnor_60">dds_jolnor_60</a></li>
+</ul>
+<p><span id="d-dds_jolnor_28"></span><strong><code>dds_jolnor_28</code></strong> Jolnor: “Your choice. Come again, when you are wiser.”</p>
+<p><span id="d-jolnor_quests_completed_2"></span><strong><code>jolnor_quests_completed_2</code></strong> Jolnor: “I suppose that shows some dedication, and that we are ready to trust you now.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_quests_completed_3">jolnor_quests_completed_3</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_2"></span><strong><code>jolnor_gaintrust_2</code></strong> Jolnor: “First, there is Kaori. She lives up in the northern part of Vilegard. Ask her if she wants help with anything.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/kaori/#stage-5">Kaori's errands</a></p>
+<ul>
+<li>“OK. Talk to Kaori. Got it.” → <a href="#d-jolnor_gaintrust_3">jolnor_gaintrust_3</a></li>
+</ul>
+<p><span id="d-dds_jolnor_60"></span><strong><code>dds_jolnor_60</code></strong> Jolnor: “Tsk! Tsk! Not strong enough, is he? Sending a kid to do a priest's duty?”</p>
+<ul>
+<li>Next → <a href="#d-dds_jolnor_62">dds_jolnor_62</a></li>
+</ul>
+<p><span id="d-jolnor_quests_completed_3"></span><strong><code>jolnor_quests_completed_3</code></strong> Jolnor: “You have our thanks, friend. You will always find shelter here in Vilegard. We welcome you into our village.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_select_1">jolnor_select_1</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_3"></span><strong><code>jolnor_gaintrust_3</code></strong> Jolnor: “Then there is Wrye. Wrye also lives up in the northern part of Vilegard. Many people here in Vilegard seek her advice on various things.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_4">jolnor_gaintrust_4</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_4"></span><strong><code>jolnor_gaintrust_4</code></strong> Jolnor: “She recently lost her son in a tragic way. If you can gain her trust, you will have a strong ally here.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/wrye/#stage-10">Uncertain cause</a></p>
+<ul>
+<li>“Talk to Wrye. Got it.” → <a href="#d-jolnor_gaintrust_5">jolnor_gaintrust_5</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_5"></span><strong><code>jolnor_gaintrust_5</code></strong> Jolnor: “And last but not least, I have a favor to ask of you as well.”</p>
+<ul>
+<li>“What favor is that?” → <a href="#d-jolnor_gaintrust_6">jolnor_gaintrust_6</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_6"></span><strong><code>jolnor_gaintrust_6</code></strong> Jolnor: “North of Vilegard is a tavern called the Foaming Flask. In my opinion, this tavern is a guard station in guise for Feygard.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_7">jolnor_gaintrust_7</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_7"></span><strong><code>jolnor_gaintrust_7</code></strong> Jolnor: “The tavern is almost always visited by the Feygard royal guard of Lord Geomyr.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_8">jolnor_gaintrust_8</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_8"></span><strong><code>jolnor_gaintrust_8</code></strong> Jolnor: “They are probably here to spy on us, since we are followers of the Shadow. Lord Geomyr's forces always try to make life difficult for us and the Shadow.”</p>
+<ul>
+<li>“Yes, they seem like troublemakers all around.” → <a href="#d-jolnor_gaintrust_9">jolnor_gaintrust_9</a></li>
+<li>“I am sure they have their reasons for doing what they do.” → <a href="#d-jolnor_gaintrust_10">jolnor_gaintrust_10</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_9"></span><strong><code>jolnor_gaintrust_9</code></strong> Jolnor: “Right. Troublemakers indeed.”</p>
+<ul>
+<li>“What do you want me to do?” → <a href="#d-jolnor_gaintrust_11">jolnor_gaintrust_11</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_10"></span><strong><code>jolnor_gaintrust_10</code></strong> Jolnor: “Yes, their reason is to make life miserable for us, I am sure.”</p>
+<ul>
+<li>“What do you want me to do?” → <a href="#d-jolnor_gaintrust_11">jolnor_gaintrust_11</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_11"></span><strong><code>jolnor_gaintrust_11</code></strong> Jolnor: “My reports say that there is a guard stationed outside the tavern, to keep an eye on potential dangers.”</p>
+<ul>
+<li>Next → <a href="#d-jolnor_gaintrust_12">jolnor_gaintrust_12</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_12"></span><strong><code>jolnor_gaintrust_12</code></strong> Jolnor: “I want you to make sure the guard disappears somehow. How you do that is purely up to you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/jolnor/#stage-10">Spies in the foam</a></p>
+<ul>
+<li>“I am not sure I should upset the Feygard patrol guards. This could really get me into trouble.” → <a href="#d-jolnor_gaintrust_13">jolnor_gaintrust_13</a></li>
+<li>“For the Shadow, I will do as you ask.” → <a href="#d-jolnor_gaintrust_14">jolnor_gaintrust_14</a></li>
+<li>“OK, I hope this leads to some treasure in the end.” → <a href="#d-jolnor_gaintrust_14">jolnor_gaintrust_14</a></li>
+</ul>
+<p><span id="d-jolnor_gaintrust_13"></span><strong><code>jolnor_gaintrust_13</code></strong> Jolnor: “It's your choice. You can at least go check out the tavern and see if you find anything suspicious.”</p>
+<ul>
+<li>“Maybe.” → <a href="#d-jolnor_gaintrust_15">jolnor_gaintrust_15</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jolnor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jolnor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jolnor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jolnor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>jolnor</code> · Data from v0.8.18</small></p>
 
 

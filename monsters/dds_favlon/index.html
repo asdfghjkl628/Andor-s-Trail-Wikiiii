@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,92 @@
 <ul>
 <li><a href="../../maps/nw_sullengard_1/">nw_sullengard_1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/shadows/">Shadows</a>: stages 130, 140</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (16 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-dds_favlon"></span><strong><code>dds_favlon</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 140 of <a href="../../quests/shadows/#stage-140">Shadows</a>)</em> → <a href="#d-dds_favlon_2">dds_favlon_2</a></li>
+<li>branch 2 → <a href="#d-dds_favlon_10">dds_favlon_10</a></li>
+</ul>
+<p><span id="d-dds_favlon_2"></span><strong><code>dds_favlon_2</code></strong> Favlon: “Ah, my brave Shadow warrior. I hope you could help Borvis.”</p>
+<ul>
+<li>“Not yet.” <em>(if NOT reached stage 250 of <a href="../../quests/shadows/#stage-250">Shadows</a>)</em> → <em>conversation ends</em></li>
+<li>“Yes, we have saved the world.” <em>(if reached stage 250 of <a href="../../quests/shadows/#stage-250">Shadows</a>)</em> → <em>conversation ends</em></li>
+<li>“Your 'blessings' has worn off too early. Could you give them again?” <em>(if reached stage 140 of <a href="../../quests/shadows/#stage-140">Shadows</a>; NOT reached stage 160 of <a href="../../quests/shadows/#stage-160">Shadows</a>; NOT affected by fatigue1)</em> → <a href="#d-dds_favlon_90">dds_favlon_90</a></li>
+</ul>
+<p><span id="d-dds_favlon_10"></span><strong><code>dds_favlon_10</code></strong> Favlon: “By the Shadow - a kid! Here? How? Why?”</p>
+<ul>
+<li>“Jolnor sent me to find you here.” → <a href="#d-dds_favlon_12">dds_favlon_12</a></li>
+</ul>
+<p><span id="d-dds_favlon_90"></span><strong><code>dds_favlon_90</code></strong> Favlon: “That's no problem at all.”</p>
+<ul>
+<li>“I'm glad about that.” → <a href="#d-dds_favlon_92">dds_favlon_92</a></li>
+</ul>
+<p><span id="d-dds_favlon_12"></span><strong><code>dds_favlon_12</code></strong> Favlon: “He did?”</p>
+<ul>
+<li>“Borvis wants me to help him take care of a renegade Shadow priest. So, he asked me to get some 'blessings' - of which…” → <a href="#d-dds_favlon_14">dds_favlon_14</a></li>
+</ul>
+<p><span id="d-dds_favlon_92"></span><strong><code>dds_favlon_92</code></strong> Favlon: “It'll just cost you another 10 cooked meat.”</p>
+<ul>
+<li>“Sure. Here, enjoy.” <em>(if carry 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <a href="#d-dds_favlon_50">dds_favlon_50</a></li>
+<li>“I don't have that much with me. I'll be back.” <em>(if NOT carry 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dds_favlon_14"></span><strong><code>dds_favlon_14</code></strong> Favlon: “And Jolnor says I can bestow them?”</p>
+<ul>
+<li>“Exactly. I need Fatigue and Life Drain.” → <a href="#d-dds_favlon_20">dds_favlon_20</a></li>
+</ul>
+<p><span id="d-dds_favlon_50"></span><strong><code>dds_favlon_50</code></strong> Favlon: “I'll eat while I work the chants. You are sure that you still want them?”</p>
+<ul>
+<li>“Yes, I'm sure.” <em>(if hand over 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <a href="#d-dds_favlon_60">dds_favlon_60</a></li>
+<li>“Maybe I'd better think about it again.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-dds_favlon_20"></span><strong><code>dds_favlon_20</code></strong> Favlon: “Is Borvis that weak that he can't get them himself?”</p>
+<ul>
+<li>“He said a Shadow warrior is needed, not a Shadow priest.” → <a href="#d-dds_favlon_30">dds_favlon_30</a></li>
+</ul>
+<p><span id="d-dds_favlon_60"></span><strong><code>dds_favlon_60</code></strong> Favlon: “Here you go. Take them to Borvis with care.” — <strong>effects:</strong> applies condition fatigue1, applies condition life_drain, sets stage 140 of <a href="../../quests/shadows/#stage-140">Shadows</a></p>
+<ul>
+<li>“Thank you. Bye.” → <em>conversation ends</em></li>
+<li>“Ugh! What a terrible feeling. Thanks nevertheless.” → <a href="#d-dds_favlon_70">dds_favlon_70</a></li>
+</ul>
+<p><span id="d-dds_favlon_30"></span><strong><code>dds_favlon_30</code></strong> Favlon: “A likely story!”</p>
+<ul>
+<li>“So you can't do it?” → <a href="#d-dds_favlon_40">dds_favlon_40</a></li>
+</ul>
+<p><span id="d-dds_favlon_70"></span><strong><code>dds_favlon_70</code></strong> Favlon: “Take care! The return journey will be dangerous”</p>
+<ul>
+<li>“See you!” → <a href="#d-dds_favlon_80">dds_favlon_80</a></li>
+</ul>
+<p><span id="d-dds_favlon_40"></span><strong><code>dds_favlon_40</code></strong> Favlon: “No insults, please. Of course I can!”</p>
+<ul>
+<li>Next → <a href="#d-dds_favlon_42">dds_favlon_42</a></li>
+</ul>
+<p><span id="d-dds_favlon_80"></span><strong><code>dds_favlon_80</code></strong> Favlon: “[Muttering] Sending a kid to do a priest's job?! How lazy!”</p>
+<p><span id="d-dds_favlon_42"></span><strong><code>dds_favlon_42</code></strong> Favlon: “Do you have any cooked meat? I've been living on berries for so long, some meat can give me strength.”</p>
+<ul>
+<li>“How many do you need?” → <a href="#d-dds_favlon_44">dds_favlon_44</a></li>
+</ul>
+<p><span id="d-dds_favlon_44"></span><strong><code>dds_favlon_44</code></strong> Favlon: “Ten should be enough.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/shadows/#stage-130">Shadows</a></p>
+<ul>
+<li>“OK, I have it here.” <em>(if carry 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <a href="#d-dds_favlon_50">dds_favlon_50</a></li>
+<li>“I have to fetch some.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_favlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_favlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_favlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_favlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>dds_favlon</code> · Data from v0.8.18</small></p>
 
 

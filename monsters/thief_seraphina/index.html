@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -937,6 +1009,267 @@
 <ul>
 <li><a href="../../maps/lake_shore_road_9/">lake_shore_road_9</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/troubling_times/">Troubling times</a>: stages 110, 130, 140, 320</li>
+<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stages 38</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (59 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-thief_seraphina_selector"></span><strong><code>thief_seraphina_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 36 of <a href="../../quests/sullengard_hidden/#stage-36">sullengard_nondisplay (hidden flag)</a>; NOT reached stage 75 of <a href="../../quests/Thieves04/#stage-75">Another ruthless Crackshot</a>)</em> → <a href="#d-thief_seraphina_script_10">thief_seraphina_script_10</a></li>
+<li>Next <em>(if NOT reached stage 75 of <a href="../../quests/Thieves04/#stage-75">Another ruthless Crackshot</a>; NOT reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_seraphina_10">thief_seraphina_10</a></li>
+<li>Next <em>(if reached stage 75 of <a href="../../quests/Thieves04/#stage-75">Another ruthless Crackshot</a>)</em> → <a href="#d-thief_seraphina_bridge_fixed">thief_seraphina_bridge_fixed</a></li>
+<li>Next <em>(if reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_seraphina_80">thief_seraphina_80</a></li>
+</ul>
+<p><span id="d-thief_seraphina_script_10"></span><strong><code>thief_seraphina_script_10</code></strong> <a href="./">Sly Seraphina</a>: “Hey, kid! Just where do you think you're going?”</p>
+<ul>
+<li>“Across the bridge, of course. After all, I can't swim.” → <a href="#d-thief_seraphina_script_20">thief_seraphina_script_20</a></li>
+<li>“Nowhere...I guess.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-thief_seraphina_10"></span><strong><code>thief_seraphina_10</code></strong> <a href="./">Sly Seraphina</a>: “Let me guess, you're wondering if I know how to cross the river?”</p>
+<ul>
+<li>“Well, do you?” → <a href="#d-thief_seraphina_20">thief_seraphina_20</a></li>
+</ul>
+<p><span id="d-thief_seraphina_bridge_fixed"></span><strong><code>thief_seraphina_bridge_fixed</code></strong> <a href="./">Sly Seraphina</a>: “Please move along. There's nothing to see here.”</p>
+<ul>
+<li>“I've been wondering, do you have anything to sell?” <em>(if NOT reached stage 3 of <a href="../../quests/sutdover_hidden/#stage-3">Sutdove_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/armored_helmet/">Armored helmet</a>; NOT wearing <a href="../../items/armored_helmet/">Armored helmet</a>)</em> → <a href="#d-thief_seraphina_helmet_1">thief_seraphina_helmet_1</a></li>
+<li>“Yes, ma'am.” → <em>conversation ends</em></li>
+<li>“The Guild needs you. Umar ...” <em>(if reached stage 100 of <a href="../../quests/troubling_times/#stage-100">Troubling times</a>; NOT reached stage 140 of <a href="../../quests/troubling_times/#stage-140">Troubling times</a>)</em> → <a href="#d-tt_sly_10">tt_sly_10</a></li>
+<li>“Hi Seraphina, you were away so quickly after you gave me Luthor's ring.” <em>(if reached stage 270 of <a href="../../quests/troubling_times/#stage-270">Troubling times</a>; NOT reached stage 320 of <a href="../../quests/troubling_times/#stage-320">Troubling times</a>)</em> → <a href="#d-tt_sly_300">tt_sly_300</a></li>
+</ul>
+<p><span id="d-thief_seraphina_80"></span><strong><code>thief_seraphina_80</code></strong> Sly Seraphina: “Why are you looking at me like that?”</p>
+<ul>
+<li>“I want my gold back. You thief!” → <a href="#d-thief_seraphina_81">thief_seraphina_81</a></li>
+</ul>
+<p><span id="d-thief_seraphina_script_20"></span><strong><code>thief_seraphina_script_20</code></strong> Sly Seraphina: “The bridge is broken. You're going nowhere.”</p>
+<p><span id="d-thief_seraphina_20"></span><strong><code>thief_seraphina_20</code></strong> Sly Seraphina: “Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1,000 gold.”</p>
+<ul>
+<li>“Wow! All you thieves are alike. Here, take it.” <em>(if pay 1,000 gold)</em> → <a href="#d-thief_seraphina_30">thief_seraphina_30</a></li>
+</ul>
+<p><span id="d-thief_seraphina_helmet_1"></span><strong><code>thief_seraphina_helmet_1</code></strong> Sly Seraphina: “What, do I look like a merchant?”</p>
+<ul>
+<li>“Well...” → <a href="#d-thief_seraphina_helmet_2">thief_seraphina_helmet_2</a></li>
+</ul>
+<p><span id="d-tt_sly_10"></span><strong><code>tt_sly_10</code></strong> Sly Seraphina: “Umar? Who's that?”</p>
+<ul>
+<li>“Oh well: I am nothing. You don't see me.” → <a href="#d-tt_sly_12">tt_sly_12</a></li>
+</ul>
+<p><span id="d-tt_sly_300"></span><strong><code>tt_sly_300</code></strong> Sly Seraphina: “What did you expect?”</p>
+<ul>
+<li>“Well ...” → <a href="#d-tt_sly_310">tt_sly_310</a></li>
+</ul>
+<p><span id="d-thief_seraphina_81"></span><strong><code>thief_seraphina_81</code></strong> Sly Seraphina: “Do I know you?”</p>
+<ul>
+<li>“Oh, you want to play dumb? Umar will hear about this!” → <em>conversation ends</em></li>
+<li>“No time to joke - the Guild needs you. Umar ...” <em>(if reached stage 100 of <a href="../../quests/troubling_times/#stage-100">Troubling times</a>; NOT reached stage 140 of <a href="../../quests/troubling_times/#stage-140">Troubling times</a>)</em> → <a href="#d-tt_sly_10">tt_sly_10</a></li>
+</ul>
+<p><span id="d-thief_seraphina_30"></span><strong><code>thief_seraphina_30</code></strong> Sly Seraphina: “Great! Now, let me see. Where is that board?”</p>
+<ul>
+<li>Next → <a href="#d-thief_seraphina_40">thief_seraphina_40</a></li>
+</ul>
+<p><span id="d-thief_seraphina_helmet_2"></span><strong><code>thief_seraphina_helmet_2</code></strong> Sly Seraphina: “Well, I am not. But today is your lucky day.”</p>
+<ul>
+<li>“It is?” → <a href="#d-thief_seraphina_helmet_3">thief_seraphina_helmet_3</a></li>
+</ul>
+<p><span id="d-tt_sly_12"></span><strong><code>tt_sly_12</code></strong> Sly Seraphina: “That's better, little child. Get used to it.”</p>
+<ul>
+<li>“You are right.” → <a href="#d-tt_sly_20">tt_sly_20</a></li>
+<li>“I'm not a little child anymore!” → <a href="#d-tt_sly_14">tt_sly_14</a></li>
+</ul>
+<p><span id="d-tt_sly_310"></span><strong><code>tt_sly_310</code></strong> Sly Seraphina: “OK, I admit that you are quite good.”</p>
+<ul>
+<li>“Thank you!” → <a href="#d-tt_sly_320">tt_sly_320</a></li>
+</ul>
+<p><span id="d-thief_seraphina_40"></span><strong><code>thief_seraphina_40</code></strong> <a href="../none/">Dummy NPC</a>: “Seraphina bends down to look under the bridge.”</p>
+<ul>
+<li>Next → <a href="#d-thief_seraphina_50">thief_seraphina_50</a></li>
+</ul>
+<p><span id="d-thief_seraphina_helmet_3"></span><strong><code>thief_seraphina_helmet_3</code></strong> Sly Seraphina: “Yes. You see, I recently "acquired" this "beauty" from a dumb guy trying to cross the bridge before you fixed it. Do you want to take a look”</p>
+<ul>
+<li>“Yes!” → <em>shop opens</em></li>
+<li>“No, thanks. I'm leaving.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tt_sly_20"></span><strong><code>tt_sly_20</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 120 of <a href="../../quests/troubling_times/#stage-120">Troubling times</a>)</em> → <a href="#d-tt_sly_50">tt_sly_50</a></li>
+<li>branch 2 <em>(if reached stage 110 of <a href="../../quests/troubling_times/#stage-110">Troubling times</a>)</em> → <a href="#d-tt_sly_40">tt_sly_40</a></li>
+<li>branch 3 → <a href="#d-tt_sly_30">tt_sly_30</a></li>
+</ul>
+<p><span id="d-tt_sly_14"></span><strong><code>tt_sly_14</code></strong> Sly Seraphina: “Then stop stomping on the ground.”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_20">tt_sly_20</a></li>
+</ul>
+<p><span id="d-tt_sly_320"></span><strong><code>tt_sly_320</code></strong> Sly Seraphina: “I would actually do a job with you again if the opportunity came up.”</p>
+<ul>
+<li>“Yes, that would be nice.” → <a href="#d-tt_sly_330">tt_sly_330</a></li>
+</ul>
+<p><span id="d-thief_seraphina_50"></span><strong><code>thief_seraphina_50</code></strong> <a href="./">Sly Seraphina</a>: “Um, it's not here.”</p>
+<ul>
+<li>“What do you mean "it's not here"? Where is it?” → <a href="#d-thief_seraphina_60">thief_seraphina_60</a></li>
+</ul>
+<p><span id="d-tt_sly_50"></span><strong><code>tt_sly_50</code></strong> Sly Seraphina: “Now what does Umar want?”</p>
+<ul>
+<li>“Listen ... [whispering the password] Now you believe me? We have to remove the Striking Spectacle ...” → <a href="#d-tt_sly_52">tt_sly_52</a></li>
+</ul>
+<p><span id="d-tt_sly_40"></span><strong><code>tt_sly_40</code></strong> Sly Seraphina: “Now what does Umar want?”</p>
+<ul>
+<li>“We have to remove the Striking Spectacle Shadow spell from ...” → <a href="#d-tt_sly_42">tt_sly_42</a></li>
+</ul>
+<p><span id="d-tt_sly_30"></span><strong><code>tt_sly_30</code></strong> Sly Seraphina: “Now what does Umar want?”</p>
+<ul>
+<li>“We have to remove the Striking Spectacle Shadow spell from members of the Thieves' Guild. Or the Guild may as well…” → <a href="#d-tt_sly_32">tt_sly_32</a></li>
+</ul>
+<p><span id="d-tt_sly_330"></span><strong><code>tt_sly_330</code></strong> Sly Seraphina: “And now buzz off, kid. ... $playername.” — <strong>effects:</strong> sets stage 320 of <a href="../../quests/troubling_times/#stage-320">Troubling times</a></p>
+<ul>
+<li>“[Grinning] See you.” → <a href="#d-tt_sly_350">tt_sly_350</a></li>
+</ul>
+<p><span id="d-thief_seraphina_60"></span><strong><code>thief_seraphina_60</code></strong> Sly Seraphina: “It must have drifted down river. Sorry!”</p>
+<ul>
+<li>“"Sorry"? I want my gold back.” → <a href="#d-thief_seraphina_70">thief_seraphina_70</a></li>
+</ul>
+<p><span id="d-tt_sly_52"></span><strong><code>tt_sly_52</code></strong> Sly Seraphina: “You are still repeating yourself.”</p>
+<ul>
+<li>“Stop that game now and answer me!” → <a href="#d-tt_sly_54">tt_sly_54</a></li>
+</ul>
+<p><span id="d-tt_sly_42"></span><strong><code>tt_sly_42</code></strong> Sly Seraphina: “Yes, you've said already. Stop repeating yourself.”</p>
+<ul>
+<li>“Sure. We need Luthor's ring, and ...” → <a href="#d-tt_sly_44">tt_sly_44</a></li>
+</ul>
+<p><span id="d-tt_sly_32"></span><strong><code>tt_sly_32</code></strong> Sly Seraphina: “And what do I have to do with it?”</p>
+<ul>
+<li>“We need Luthor's ring, and you know ...” → <a href="#d-tt_sly_34">tt_sly_34</a></li>
+</ul>
+<p><span id="d-tt_sly_350"></span><strong><code>tt_sly_350</code></strong> Sly Seraphina: “See you.”</p>
+<p><span id="d-thief_seraphina_70"></span><strong><code>thief_seraphina_70</code></strong> Sly Seraphina: “Maybe next time you come by I'll have the board?” — <strong>effects:</strong> sets stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">sullengard_nondisplay (hidden flag)</a></p>
+<p><span id="d-tt_sly_54"></span><strong><code>tt_sly_54</code></strong> Sly Seraphina: “All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?”</p>
+<ul>
+<li>“Why would that ring unleash evil?” → <a href="#d-tt_sly_56">tt_sly_56</a></li>
+</ul>
+<p><span id="d-tt_sly_44"></span><strong><code>tt_sly_44</code></strong> Sly Seraphina: “Forget it, kid. Buzz off!”</p>
+<ul>
+<li>“Sure. We need Luthor's ring, and ...” → <a href="#d-tt_sly_46">tt_sly_46</a></li>
+</ul>
+<p><span id="d-tt_sly_34"></span><strong><code>tt_sly_34</code></strong> Sly Seraphina: “Likely story, kid. Buzz off!” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/troubling_times/#stage-110">Troubling times</a></p>
+<p><span id="d-tt_sly_56"></span><strong><code>tt_sly_56</code></strong> Sly Seraphina: “Not the ring itself. But the cave does, if the door is opened.”</p>
+<ul>
+<li>“That makes even less sense. Explain.” → <a href="#d-tt_sly_58">tt_sly_58</a></li>
+</ul>
+<p><span id="d-tt_sly_46"></span><strong><code>tt_sly_46</code></strong> Sly Seraphina: “And please, stop repeating yourself.”</p>
+<p><span id="d-tt_sly_58"></span><strong><code>tt_sly_58</code></strong> Sly Seraphina: “Say 'please'.”</p>
+<ul>
+<li>“No.” <em>(if random chance (50%))</em> → <a href="#d-tt_sly_58">tt_sly_58</a></li>
+<li>“Never.” <em>(if random chance (33%))</em> → <a href="#d-tt_sly_58">tt_sly_58</a></li>
+<li>“Forget it.” <em>(if random chance (33%))</em> → <a href="#d-tt_sly_58">tt_sly_58</a></li>
+<li>“[With rolling eyes] OK - please.” → <a href="#d-tt_sly_60">tt_sly_60</a></li>
+</ul>
+<p><span id="d-tt_sly_60"></span><strong><code>tt_sly_60</code></strong> Sly Seraphina: “You might remember Crackshot's hideout, do you?”</p>
+<ul>
+<li>“Of course. Behind the many ugly larvals.” → <a href="#d-tt_sly_62">tt_sly_62</a></li>
+</ul>
+<p><span id="d-tt_sly_62"></span><strong><code>tt_sly_62</code></strong> Sly Seraphina: “Good. Do you know why that cave in the back was sealed?”</p>
+<ul>
+<li>“No, tell me.” → <a href="#d-tt_sly_70">tt_sly_70</a></li>
+</ul>
+<p><span id="d-tt_sly_70"></span><strong><code>tt_sly_70</code></strong> Sly Seraphina: “A while back, when the Thieves' Guild got successful, we managed to acquire many items of value, including magical items.”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_72">tt_sly_72</a></li>
+</ul>
+<p><span id="d-tt_sly_72"></span><strong><code>tt_sly_72</code></strong> Sly Seraphina: “A place was needed to keep them safely. We heard of this deep cave where you met and bested Crackshot.”</p>
+<ul>
+<li>“That was no easy fight.” → <a href="#d-tt_sly_74">tt_sly_74</a></li>
+<li>“Phh, child's stuff.” → <a href="#d-tt_sly_74">tt_sly_74</a></li>
+</ul>
+<p><span id="d-tt_sly_74"></span><strong><code>tt_sly_74</code></strong> Sly Seraphina: “So, when we created that deep cave hideout for our most precious items, we never imagined that the cave held such terrible monsters. While we were exploring, they came and attacked us!”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_76">tt_sly_76</a></li>
+</ul>
+<p><span id="d-tt_sly_76"></span><strong><code>tt_sly_76</code></strong> <a href="../none/">Dummy NPC</a>: “Seraphina suddenly shivers.”</p>
+<ul>
+<li>“And then?” → <a href="#d-tt_sly_80">tt_sly_80</a></li>
+</ul>
+<p><span id="d-tt_sly_80"></span><strong><code>tt_sly_80</code></strong> <a href="./">Sly Seraphina</a>: “We're thieves, not warriors. We tried to escape from there. Lost a few members ...”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_82">tt_sly_82</a></li>
+</ul>
+<p><span id="d-tt_sly_82"></span><strong><code>tt_sly_82</code></strong> <a href="./">Sly Seraphina</a>: “Lost Luthor's ring in the cave in the scramble to get out.”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_84">tt_sly_84</a></li>
+</ul>
+<p><span id="d-tt_sly_84"></span><strong><code>tt_sly_84</code></strong> Sly Seraphina: “Still, we managed to hold off the cave monsters, and we managed to seal it.”</p>
+<ul>
+<li>“Using Luthor's items?” → <a href="#d-tt_sly_90">tt_sly_90</a></li>
+</ul>
+<p><span id="d-tt_sly_90"></span><strong><code>tt_sly_90</code></strong> Sly Seraphina: “That's right!”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_92">tt_sly_92</a></li>
+</ul>
+<p><span id="d-tt_sly_92"></span><strong><code>tt_sly_92</code></strong> Sly Seraphina: “We used Luthor's Key and his gloves to seal it, by creating a magical, impermeable door.”</p>
+<ul>
+<li>Next → <a href="#d-tt_sly_94">tt_sly_94</a></li>
+</ul>
+<p><span id="d-tt_sly_94"></span><strong><code>tt_sly_94</code></strong> Sly Seraphina: “Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently sealed.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/troubling_times/#stage-130">Troubling times</a></p>
+<ul>
+<li>“So that the door may never be opened.” → <a href="#d-tt_sly_96">tt_sly_96</a></li>
+</ul>
+<p><span id="d-tt_sly_96"></span><strong><code>tt_sly_96</code></strong> Sly Seraphina: “Exactly.”</p>
+<ul>
+<li>“But we need to retrieve Luthor's ring now.” → <a href="#d-tt_sly_100">tt_sly_100</a></li>
+</ul>
+<p><span id="d-tt_sly_100"></span><strong><code>tt_sly_100</code></strong> Sly Seraphina: “Even Umar's current plea will not change my mind. Whatever ails the Guild - find another solution.”</p>
+<ul>
+<li>“What?” → <a href="#d-tt_sly_110">tt_sly_110</a></li>
+</ul>
+<p><span id="d-tt_sly_110"></span><strong><code>tt_sly_110</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (17%))</em> → <a href="#d-tt_sly_116">tt_sly_116</a></li>
+<li>branch 2 <em>(if random chance (20%))</em> → <a href="#d-tt_sly_115">tt_sly_115</a></li>
+<li>branch 3 <em>(if random chance (25%))</em> → <a href="#d-tt_sly_114">tt_sly_114</a></li>
+<li>branch 4 <em>(if random chance (33%))</em> → <a href="#d-tt_sly_113">tt_sly_113</a></li>
+<li>branch 5 <em>(if random chance (50%))</em> → <a href="#d-tt_sly_112">tt_sly_112</a></li>
+<li>branch 6 → <a href="#d-tt_sly_111">tt_sly_111</a></li>
+</ul>
+<p><span id="d-tt_sly_116"></span><strong><code>tt_sly_116</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on vilegard_s, spawns monsters on vilegard_s, faction “tt_hide” set to 6</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_115"></span><strong><code>tt_sly_115</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on waterway6, spawns monsters on waterway6, faction “tt_hide” set to 5</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_114"></span><strong><code>tt_sly_114</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on blackwater_mountain12, spawns monsters on blackwater_mountain12, faction “tt_hide” set to 4</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_113"></span><strong><code>tt_sly_113</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on waytobrimhaven1, spawns monsters on waytobrimhaven1, faction “tt_hide” set to 3</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_112"></span><strong><code>tt_sly_112</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on wild21, spawns monsters on wild21, faction “tt_hide” set to 2</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_111"></span><strong><code>tt_sly_111</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> spawns monsters on sullengard3, spawns monsters on sullengard3, faction “tt_hide” set to 1</p>
+<ul>
+<li>branch 1 → <a href="#d-tt_sly_120">tt_sly_120</a></li>
+</ul>
+<p><span id="d-tt_sly_120"></span><strong><code>tt_sly_120</code></strong> Sly Seraphina: “Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me.” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/troubling_times/#stage-140">Troubling times</a>, removes monsters from lake_shore_road_9, removes monsters from lake_shore_road_9</p>
+<ul>
+<li>“Hey, don't run away!!” → <em>NPC leaves</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thief_seraphina.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thief_seraphina.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thief_seraphina.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thief_seraphina.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>thief_seraphina</code> · Data from v0.8.18</small></p>
 
 

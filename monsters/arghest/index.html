@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,166 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain13/">blackwater_mountain13</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/prim_innquest/">Well rested</a>: stages 20, 30, 40</li>
+<li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stages 22</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (29 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-arghest_start"></span><strong><code>arghest_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 47 of <a href="../../quests/Omi2_bwm1/#stage-47">Climbing up is forbidden</a>; NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_alert">arghest_alert</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/prim_innquest/#stage-40">Well rested</a>)</em> → <a href="#d-arghest_return_1">arghest_return_1</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/prim_innquest/#stage-30">Well rested</a>)</em> → <a href="#d-arghest_return_2">arghest_return_2</a></li>
+<li>branch 4 → <a href="#d-arghest_1">arghest_1</a></li>
+</ul>
+<p><span id="d-arghest_alert"></span><strong><code>arghest_alert</code></strong> Arghest: “Hey, do you know what's happening here? These serious-looking soldiers entered the mine without permission.”</p>
+<ul>
+<li>“They're soldiers of Feygard. I came along with them. Don't worry.” → <a href="#d-arghest_alert_2">arghest_alert_2</a></li>
+<li>“I'll investigate. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_return_1"></span><strong><code>arghest_return_1</code></strong> Arghest: “Welcome back. Thanks for your help earlier. I hope the room at the inn can be of use to you.”</p>
+<ul>
+<li>“You are welcome. Goodbye.” → <em>conversation ends</em></li>
+<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
+<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
+</ul>
+<p><span id="d-arghest_return_2"></span><strong><code>arghest_return_2</code></strong> Arghest: “Welcome back. Did you bring me the 5 bottles of milk that I requested?”</p>
+<ul>
+<li>“No, not yet. I'm working on it.” → <a href="#d-arghest_return_3">arghest_return_3</a></li>
+<li>“Yes, here you go, enjoy!” <em>(if hand over 5× <a href="../../items/milk/">Milk</a>)</em> → <a href="#d-arghest_return_4">arghest_return_4</a></li>
+<li>“Yes, but this nearly cost me a fortune!” <em>(if hand over 5× <a href="../../items/milk/">Milk</a>)</em> → <a href="#d-arghest_return_4">arghest_return_4</a></li>
+</ul>
+<p><span id="d-arghest_1"></span><strong><code>arghest_1</code></strong> Arghest: “Hello there.”</p>
+<ul>
+<li>“What is this place?” → <a href="#d-arghest_2">arghest_2</a></li>
+<li>“Who are you?” → <a href="#d-arghest_5">arghest_5</a></li>
+<li>“Did you rent the back room at the inn in Prim?” <em>(if reached stage 10 of <a href="../../quests/prim_innquest/#stage-10">Well rested</a>)</em> → <a href="#d-arghest_8">arghest_8</a></li>
+</ul>
+<p><span id="d-arghest_alert_2"></span><strong><code>arghest_alert_2</code></strong> Arghest: “You'd better be telling me the truth. I will report it later.”</p>
+<ul>
+<li>“Have you seen a guy with a cloak around here?” → <a href="#d-arghest_alert_3">arghest_alert_3</a></li>
+<li>“Yeah, whatever. We will talk later.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_6"></span><strong><code>arghest_6</code></strong> Arghest: “No. The mine is closed.”</p>
+<ul>
+<li>“OK, goodbye.” → <em>conversation ends</em></li>
+<li>“Please?” → <a href="#d-arghest_7">arghest_7</a></li>
+</ul>
+<p><span id="d-arghest_15"></span><strong><code>arghest_15</code></strong> Arghest: “Suit yourself... But no one else went in there in weeks.”</p>
+<ul>
+<li>“Thanks, bye.” → <em>conversation ends</em></li>
+<li>“If you say so.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_return_3"></span><strong><code>arghest_return_3</code></strong> Arghest: “OK then. Return to me once you have them.”</p>
+<ul>
+<li>“Will do. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_return_4"></span><strong><code>arghest_return_4</code></strong> Arghest: “Thank you my friend! Now I can restock my supply.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/prim_innquest/#stage-40">Well rested</a></p>
+<ul>
+<li>Next → <a href="#d-arghest_return_5">arghest_return_5</a></li>
+</ul>
+<p><span id="d-arghest_2"></span><strong><code>arghest_2</code></strong> Arghest: “This is the old Elm mine of Prim.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_3">arghest_3</a></li>
+</ul>
+<p><span id="d-arghest_5"></span><strong><code>arghest_5</code></strong> Arghest: “I am Arghest. I guard the entrance here to make sure no one enters the old mine.”</p>
+<ul>
+<li>“What is this place?” → <a href="#d-arghest_2">arghest_2</a></li>
+<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
+<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
+</ul>
+<p><span id="d-arghest_8"></span><strong><code>arghest_8</code></strong> Arghest: “'Inn in Prim' - you sound funny.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_9">arghest_9</a></li>
+</ul>
+<p><span id="d-arghest_alert_3"></span><strong><code>arghest_alert_3</code></strong> Arghest: “I was taking a break in the beds over there, so no idea. Sorry. No one usually comes here but you and those ... noisy soldiers.”</p>
+<ul>
+<li>“Maybe you should take another break now?” → <a href="#d-arghest_alert_4">arghest_alert_4</a></li>
+<li>“Can I do something for you?” → <a href="#d-arghest_alert_5">arghest_alert_5</a></li>
+</ul>
+<p><span id="d-arghest_7"></span><strong><code>arghest_7</code></strong> Arghest: “I said no. Visitors are not allowed in there.”</p>
+<ul>
+<li>“Please?” → <a href="#d-arghest_6">arghest_6</a></li>
+<li>“Just a quick peek?” → <a href="#d-arghest_6">arghest_6</a></li>
+</ul>
+<p><span id="d-arghest_return_5"></span><strong><code>arghest_return_5</code></strong> Arghest: “These bottles look excellent. Now I can last a while longer in here.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_return_6">arghest_return_6</a></li>
+</ul>
+<p><span id="d-arghest_3"></span><strong><code>arghest_3</code></strong> Arghest: “We used to mine a lot here. But that was before the attacks started.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_4">arghest_4</a></li>
+</ul>
+<p><span id="d-arghest_9"></span><strong><code>arghest_9</code></strong> Arghest: “Yes, I rent it. I stay there to rest when my shift ends.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_10">arghest_10</a></li>
+</ul>
+<p><span id="d-arghest_alert_4"></span><strong><code>arghest_alert_4</code></strong> Arghest: “I'd prefer something to drink. No milk this time, better something to warm my body.”</p>
+<ul>
+<li>“What exactly are you thinking of?” → <a href="#d-arghest_alert_5">arghest_alert_5</a></li>
+</ul>
+<p><span id="d-arghest_alert_5"></span><strong><code>arghest_alert_5</code></strong> Arghest: “Once I had got a potion from some crazy old guy in a foreign wood. That would be great now. 'Lodar' he was called.”</p>
+<ul>
+<li>“Would you like this 'Minor potion of strength'?” <em>(if hand over 1× <a href="../../items/pot_str/">Minor potion of strength</a>)</em> → <a href="#d-arghest_alert_8">arghest_alert_8</a></li>
+<li>“I have this 'Improved defense' potion. Here, take it.” <em>(if hand over 1× <a href="../../items/pot_def/">Potion of improved defense</a>)</em> → <a href="#d-arghest_alert_8">arghest_alert_8</a></li>
+<li>“What about his famous 'Perilous concoction'?” <em>(if hand over 1× <a href="../../items/pot_rnd/">Lodar's perilous concoction</a>)</em> → <a href="#d-arghest_alert_8">arghest_alert_8</a></li>
+</ul>
+<p><span id="d-arghest_return_6"></span><strong><code>arghest_return_6</code></strong> Arghest: “Oh, and about the room in the inn - you are welcome to use it in any way you see fit. Quite a cozy place to rest if you ask me.”</p>
+<ul>
+<li>“Thanks Arghest. Goodbye.” → <em>conversation ends</em></li>
+<li>“Finally, I thought I would never be able to rest here!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_4"></span><strong><code>arghest_4</code></strong> Arghest: “The attacks on Prim by the beasts, the bandits and the disappearances really reduced our numbers. Now we cannot keep up the mining activity any longer.”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-arghest_5">arghest_5</a></li>
+</ul>
+<p><span id="d-arghest_10"></span><strong><code>arghest_10</code></strong> Arghest: “However, now that we guards aren't as plentiful as we used to be, it has been a while since I could rest in there.”</p>
+<ul>
+<li>“Mind if I use the room at the inn to rest in?” → <a href="#d-arghest_11">arghest_11</a></li>
+<li>“Are you still going to use it?” → <a href="#d-arghest_11">arghest_11</a></li>
+</ul>
+<p><span id="d-arghest_alert_8"></span><strong><code>arghest_alert_8</code></strong> Arghest: “Really? Many many thanks - you make my old heart cry!” — <strong>effects:</strong> sets stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a></p>
+<ul>
+<li>“[muttering] I hope so. The potion was expensive enough!” → <a href="#d-arghest_alert_9">arghest_alert_9</a></li>
+</ul>
+<p><span id="d-arghest_11"></span><strong><code>arghest_11</code></strong> Arghest: “Well, I would like to still keep the option of using it. But I guess someone else could rest there now that I'm not actively using it.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/prim_innquest/#stage-20">Well rested</a></p>
+<ul>
+<li>Next → <a href="#d-arghest_12">arghest_12</a></li>
+</ul>
+<p><span id="d-arghest_alert_9"></span><strong><code>arghest_alert_9</code></strong> Arghest: “You may enter the mine now. But you have to find out for yourself, I won't go looking for you.”</p>
+<ul>
+<li>“Great.” → <em>conversation ends</em></li>
+<li>“At last.” → <em>conversation ends</em></li>
+<li>“Don't worry, I won't cause too much trouble.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arghest_12"></span><strong><code>arghest_12</code></strong> Arghest: “Tell you what, if you bring me some more supplies to keep me occupied here, I guess you could have my permission to use it even though I have rented it.”</p>
+<ul>
+<li>Next → <a href="#d-arghest_13">arghest_13</a></li>
+</ul>
+<p><span id="d-arghest_13"></span><strong><code>arghest_13</code></strong> Arghest: “I have plenty of meat here, but I ran out of milk some weeks ago. Do you think you could help me restock my milk supply?”</p>
+<ul>
+<li>“Sure, no problem. I'll get you your bottles of milk. How much do you need?” → <a href="#d-arghest_14">arghest_14</a></li>
+<li>“Sure, if it leads to me being able to rest here. I'm in.” → <a href="#d-arghest_14">arghest_14</a></li>
+</ul>
+<p><span id="d-arghest_14"></span><strong><code>arghest_14</code></strong> Arghest: “Bring me 5 bottles of milk. That should be enough.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/prim_innquest/#stage-30">Well rested</a></p>
+<ul>
+<li>“I'll go buy some.” → <em>conversation ends</em></li>
+<li>“OK. I'll be right back.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arghest.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arghest.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arghest.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arghest.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>arghest</code> · Data from v0.8.18</small></p>
 
 

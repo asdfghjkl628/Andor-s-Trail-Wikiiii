@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,88 @@
 <ul>
 <li><a href="../../maps/undertell_00/">undertell_00</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fifth_master/">The fifth master</a>: stages 10, 20, 78</li>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 5, 7</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (15 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-morvath_initial_selector"></span><strong><code>morvath_initial_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-kazaul_masters_not_met_10">kazaul_masters_not_met_10</a></li>
+<li>branch 2 <em>(if reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>)</em> → <a href="#d-kazaul_masters_met_but_no_quest_started_10">kazaul_masters_met_but_no_quest_started_10</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>; NOT reached stage 20 of <a href="../../quests/fifth_master/#stage-20">The fifth master</a>)</em> → <a href="#d-the_fifth_master_10">the_fifth_master_10</a></li>
+<li>branch 4 <em>(if carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a>)</em> → <a href="#d-masters_send_to_thalen_10">masters_send_to_thalen_10</a></li>
+<li>branch 5 <em>(if reached stage 90 of <a href="../../quests/fifth_master/#stage-90">The fifth master</a>)</em> → <a href="#d-morvath_after_fifth_master_narrator">morvath_after_fifth_master_narrator</a></li>
+<li>branch 6 → <a href="#d-morvath_intro_narrator">morvath_intro_narrator</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_10"></span><strong><code>kazaul_masters_not_met_10</code></strong> Morvath: “[While pointing its finger in your direction.] You! How did you get past our army?”</p>
+<ul>
+<li>“"Our"? There's more of you bosses?” → <a href="#d-kazaul_masters_not_met_20">kazaul_masters_not_met_20</a></li>
+</ul>
+<p><span id="d-kazaul_masters_met_but_no_quest_started_10"></span><strong><code>kazaul_masters_met_but_no_quest_started_10</code></strong> Morvath: “If you ever leave while I am talking to you again, I will end your life. Understood?”</p>
+<ul>
+<li>“[Terrified] Yes.” → <a href="#d-kazaul_masters_not_met_30">kazaul_masters_not_met_30</a></li>
+</ul>
+<p><span id="d-the_fifth_master_10"></span><strong><code>the_fifth_master_10</code></strong> Morvath: “[The air grows heavy as the master studies you.] You are bold to walk here. Perhaps bold enough to be of use. One of our own is missing. The fifth master, Anavrin, lies silent. The Ritual of Five Aspects was taken from us long ago.…” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a></p>
+<ul>
+<li>“You want me to find this ritual?” → <a href="#d-the_fifth_master_20">the_fifth_master_20</a></li>
+</ul>
+<p><span id="d-masters_send_to_thalen_10"></span><strong><code>masters_send_to_thalen_10</code></strong> Morvath: “[The Master's hollow eyes flare briefly with dim blue fire.] You hold the Ritual of Five Aspects, mortal. But its meaning lies beyond your grasp. Only Thalen, our brother of Knowledge, can speak the words. Seek him where the thoughts of…”</p>
+<ul>
+<li>“Thalen? What will he do with it?” → <a href="#d-masters_send_to_thalen_20">masters_send_to_thalen_20</a></li>
+</ul>
+<p><span id="d-morvath_after_fifth_master_narrator"></span><strong><code>morvath_after_fifth_master_narrator</code></strong> <a href="../none/">Dummy NPC</a>: “A slow rumble of laughter escapes the Master's skeletal chest.”</p>
+<ul>
+<li>Next → <a href="#d-morvath_after_fifth_master">morvath_after_fifth_master</a></li>
+</ul>
+<p><span id="d-morvath_intro_narrator"></span><strong><code>morvath_intro_narrator</code></strong> <a href="../none/">Dummy NPC</a>: “The cavern trembles with wrath. A heavy voice fills your mind.”</p>
+<ul>
+<li>Next → <a href="#d-morvath_intro">morvath_intro</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_20"></span><strong><code>kazaul_masters_not_met_20</code></strong> Morvath: “We are "masters", not "bosses". And yes, there are five of us.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-kazaul_masters_not_met_30">kazaul_masters_not_met_30</a></li>
+</ul>
+<p><span id="d-kazaul_masters_not_met_30"></span><strong><code>kazaul_masters_not_met_30</code></strong> Morvath: “Well, currently there are only four of us masters. We are not complete.”</p>
+<ul>
+<li>“"Complete"? What is that supposed to mean?” → <a href="#d-the_fifth_master_10">the_fifth_master_10</a></li>
+</ul>
+<p><span id="d-the_fifth_master_20"></span><strong><code>the_fifth_master_20</code></strong> Morvath: “Yes. The Ritual of Five Aspects lies lost among your kind. Long ago, a mortal scribe named Varnel served the Kazaul, writing our words into form. But when fear took him, he fled with the ritual and hid among your people. Bring it back to…” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/fifth_master/#stage-20">The fifth master</a></p>
+<ul>
+<li>“Then I will find it.” → <a href="#d-the_fifth_master_accept">the_fifth_master_accept</a></li>
+<li>“I do not trust you, but I will look.” → <a href="#d-the_fifth_master_accept">the_fifth_master_accept</a></li>
+</ul>
+<p><span id="d-masters_send_to_thalen_20"></span><strong><code>masters_send_to_thalen_20</code></strong> Morvath: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only ink on lost parchment.” — <strong>effects:</strong> sets stage 78 of <a href="../../quests/fifth_master/#stage-78">The fifth master</a>, sets stage 7 of <a href="../../quests/undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“I will find him.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-morvath_after_fifth_master"></span><strong><code>morvath_after_fifth_master</code></strong> <a href="./">Morvath</a>: “The Fifth breathes again. The world will tremble...as it once did.”</p>
+<ul>
+<li>“[Leave.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-morvath_intro"></span><strong><code>morvath_intro</code></strong> <a href="./">Morvath</a>: “You reek of intrusion, mortal. The stench of the living offends this place.”</p>
+<ul>
+<li>“I mean no harm. Who...what are you?” → <a href="#d-morvath_intro_20">morvath_intro_20</a></li>
+</ul>
+<p><span id="d-the_fifth_master_accept"></span><strong><code>the_fifth_master_accept</code></strong> Morvath: “[The master's eyes flare with dim light.] Then go, mortal. Seek the lost ritual. In the ruins of your kind lies our key to completion. Return only when it is found.”</p>
+<ul>
+<li>“I understand.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-morvath_intro_20"></span><strong><code>morvath_intro_20</code></strong> Morvath: “I am Morvath, the Kazaul master of wrath.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=morvath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=morvath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=morvath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=morvath.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>morvath</code> · Data from v0.8.18</small></p>
 
 

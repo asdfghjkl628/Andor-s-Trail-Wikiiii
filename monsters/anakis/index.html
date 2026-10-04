@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +982,91 @@
 <li><a href="../../maps/brimhaven7/">brimhaven7</a></li>
 <li><a href="../../maps/brimhaven_anakis_house/">brimhaven_anakis_house</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/quick_glance/">A quick glance</a>: stages 10, 15, 20, 40, 50, 60, 70, 75, 90</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (17 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-anakis_start"></span><strong><code>anakis_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/quick_glance/#stage-10">A quick glance</a>)</em> → <a href="#d-anakis_help_find_sister">anakis_help_find_sister</a></li>
+<li>branch 2 <em>(if NOT reached stage 20 of <a href="../../quests/quick_glance/#stage-20">A quick glance</a>; NOT reached stage 50 of <a href="../../quests/quick_glance/#stage-50">A quick glance</a>)</em> → <a href="#d-anakis_meet_2nd_time">anakis_meet_2nd_time</a></li>
+<li>branch 3 <em>(if NOT reached stage 50 of <a href="../../quests/quick_glance/#stage-50">A quick glance</a>)</em> → <a href="#d-anakis_did_you_find_my_sister">anakis_did_you_find_my_sister</a></li>
+<li>branch 4 <em>(if NOT reached stage 60 of <a href="../../quests/quick_glance/#stage-60">A quick glance</a>; NOT reached stage 70 of <a href="../../quests/quick_glance/#stage-70">A quick glance</a>)</em> → <a href="#d-anakis_can_you_take_revenge">anakis_can_you_take_revenge</a></li>
+<li>branch 5 <em>(if NOT reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>; latest stage of <a href="../../quests/quick_glance/#stage-85">A quick glance</a> is 85)</em> → <a href="#d-anakis_thank_healing_sister">anakis_thank_healing_sister</a></li>
+<li>branch 6 <em>(if NOT reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>)</em> → <a href="#d-anakis_did_you_take_revenge">anakis_did_you_take_revenge</a></li>
+<li>branch 7 <em>(if reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-anakis_at_home_thanks">anakis_at_home_thanks</a></li>
+<li>branch 8 <em>(if reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; NOT reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-anakis_at_home_angry">anakis_at_home_angry</a></li>
+<li>branch 9 → <a href="#d-anakis_at_home_morning">anakis_at_home_morning</a></li>
+</ul>
+<p><span id="d-anakis_help_find_sister"></span><strong><code>anakis_help_find_sister</code></strong> Anakis: “Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka left the city to go up to this hill. She did not come home and now I am searching for her. I fear she went into that cave.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/quick_glance/#stage-10">A quick glance</a></p>
+<ul>
+<li>“I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+<li>“Yes, I will search for your sister.” <em>(if NOT reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_agreed_find_sister">anakis_agreed_find_sister</a></li>
+<li>“No, that's none of my business.” → <a href="#d-anakis_deny_help">anakis_deny_help</a></li>
+</ul>
+<p><span id="d-anakis_meet_2nd_time"></span><strong><code>anakis_meet_2nd_time</code></strong> Anakis: “Hello again. Can you please help me to find my sister Juttarka?”</p>
+<ul>
+<li>“I found a statue looking almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+<li>“Yes, I will search for your sister.” → <a href="#d-anakis_agreed_find_sister">anakis_agreed_find_sister</a></li>
+<li>“No, that's none of my business.” → <a href="#d-anakis_deny_help">anakis_deny_help</a></li>
+</ul>
+<p><span id="d-anakis_did_you_find_my_sister"></span><strong><code>anakis_did_you_find_my_sister</code></strong> Anakis: “Did you find my sister?”</p>
+<ul>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+<li>“I only found a stone statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+</ul>
+<p><span id="d-anakis_can_you_take_revenge"></span><strong><code>anakis_can_you_take_revenge</code></strong> Anakis: “Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate that happened to my sister does not befall you.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/quick_glance/#stage-60">A quick glance</a></p>
+<ul>
+<li>“I already found the Basilisk and killed it.” <em>(if killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
+<li>“I will take revenge, but first tell me how I might help your sister.” <em>(if NOT killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-anakis_talk_to_priest">anakis_talk_to_priest</a></li>
+<li>“I can't imagine how to help your sister but I will take revenge for her and find a way to kill that Basilisk.” <em>(if NOT killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-anakis_agreed_take_revenge">anakis_agreed_take_revenge</a></li>
+<li>“No, that's too dangerous for me.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-anakis_thank_healing_sister"></span><strong><code>anakis_thank_healing_sister</code></strong> Anakis: “Thank you so much for rescuing my sister Juttarka. She just came out of the cave and told me what you did for her. I will now go home, too.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>, spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7</p>
+<ul>
+<li>Next → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-anakis_did_you_take_revenge"></span><strong><code>anakis_did_you_take_revenge</code></strong> Anakis: “Did you kill the Basilisk?”</p>
+<ul>
+<li>“I found the Basilisk and killed it, but I decided to take the blood for myself.” <em>(if killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_sad_blood_not_use_for_sister">anakis_sad_blood_not_use_for_sister</a></li>
+<li>“I found the Basilisk and killed it.” <em>(if NOT reached stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
+<li>“I found no way to help your sister, but I took revenge and killed the Basilisk.” <em>(if reached stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+<li>“I will take revenge, but let me first think if it is possible to help your sister.” → <a href="#d-anakis_talk_to_priest">anakis_talk_to_priest</a></li>
+</ul>
+<p><span id="d-anakis_at_home_thanks"></span><strong><code>anakis_at_home_thanks</code></strong> Anakis: “Thank you so much for helping my sister Juttarka. We are all very happy.”</p>
+<p><span id="d-anakis_at_home_angry"></span><strong><code>anakis_at_home_angry</code></strong> Anakis: “Go away. I don't want to talk to people like you.”</p>
+<p><span id="d-anakis_at_home_morning"></span><strong><code>anakis_at_home_morning</code></strong> Anakis: “Thank you for trying to help my sister. I am so sad.”</p>
+<p><span id="d-anakis_thank_finding_sister"></span><strong><code>anakis_thank_finding_sister</code></strong> Anakis: “Oh no, that's her! Thank you for helping me to find out what happened to her. I think it was the Basilisk who did that to her.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/quick_glance/#stage-50">A quick glance</a>, sets stage 40 of <a href="../../quests/quick_glance/#stage-40">A quick glance</a></p>
+<ul>
+<li>Next → <a href="#d-anakis_can_you_take_revenge">anakis_can_you_take_revenge</a></li>
+</ul>
+<p><span id="d-anakis_agreed_find_sister"></span><strong><code>anakis_agreed_find_sister</code></strong> Anakis: “Thank you. My sister has long hair and is wearing a long skirt. Please take care. Fangwurm the priest in western Brimhaven told us about a Basilisk in the cave that will turn you to stone when you go near him and your eyes meet its eyes.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/quick_glance/#stage-20">A quick glance</a></p>
+<p><span id="d-anakis_deny_help"></span><strong><code>anakis_deny_help</code></strong> Anakis: “Oh, thats's sad.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/quick_glance/#stage-15">A quick glance</a></p>
+<p><span id="d-anakis_thank_taking_revenge"></span><strong><code>anakis_thank_taking_revenge</code></strong> Anakis: “Thank you for taking revenge for Juttarka. I will go now and mourn for my sister.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>, spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7</p>
+<ul>
+<li>Next → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-anakis_talk_to_priest"></span><strong><code>anakis_talk_to_priest</code></strong> Anakis: “I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/quick_glance/#stage-70">A quick glance</a>, sets stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a></p>
+<p><span id="d-anakis_agreed_take_revenge"></span><strong><code>anakis_agreed_take_revenge</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 70 of <a href="../../quests/quick_glance/#stage-70">A quick glance</a></p>
+<p><span id="d-anakis_sad_blood_not_use_for_sister"></span><strong><code>anakis_sad_blood_not_use_for_sister</code></strong> Anakis: “Oh no. Why did you not even try to help her? Now i will go and mourn for my sister.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>, spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7</p>
+<ul>
+<li>Next → <em>NPC leaves</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anakis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anakis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anakis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anakis.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>anakis</code> · Data from v0.8.18</small></p>
 
 

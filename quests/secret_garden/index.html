@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,49 +967,268 @@
 
 
 <h1 id="a-secret-garden">A secret garden<a class="headerlink" href="#a-secret-garden" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>secret_garden</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>8 (completes at 20, 45, 60)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/caeda/">Caeda</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/lakecave2/">lakecave2</a>, <a href="../../maps/remgard0/">remgard0</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>4,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Caeda in Remgard told me I can find fresh damerilias in her family's glade, but the key was taken by monsters. If I can find the key in the cave north of Remgard, I can access that glade, but I have to return the key to Caeda.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>). Required:</p>
+<ul>
+<li>reached stage 20 of <a href="../roots_love/#stage-20">The roots of love</a></li>
+<li>NOT reached stage 10 of <a href="./#stage-10">A secret garden</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../roots_love/#stage-20">The roots of love</a></td>
+<td>stage 20 reached, for stages 10, 20 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../stn_nondisplay/#stage-211">stn_nondisplay (hidden flag)</a></td>
+<td>stage 211 reached, for stage 30 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../stn_nondisplay/#stage-212">stn_nondisplay (hidden flag)</a></td>
+<td>stage 212 must NOT be reached, for stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../stn_nondisplay/#stage-203">stn_nondisplay (hidden flag)</a></td>
+<td>stage 203 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../stn_nondisplay/#stage-205">stn_nondisplay (hidden flag)</a></td>
+<td>stage 205 there needs stage 60 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../roots_love/#stage-20">The roots of love</a></td>
+<td>reaching stage 10 here closes stage 20 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Caeda in Remgard told me I can find fresh damerilias in her family's glade, but the key was taken by monsters. If I can find the key in the cave north of Remgard, I can access that glade, but I have to return the key to Caeda.</td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Finding the key was not worth the trouble. The wilted damerilias Caeda gave me will be just fine. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I killed some monsters and found the key to the glade.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/lakecave2/">Lakecave2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/lakecave2/">lakecave2</a></td>
+<td>–</td>
+<td>gives 1× <a href="../../items/glade_key/">Key to the glade</a><br>sets stage 212 of <a href="../stn_nondisplay/#stage-212">stn_nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>I returned the key right away to Caeda.</td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+<td>–</td>
+<td>2,000 XP</td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>I kept the key for a while, but finally returned it to Caeda. <strong>(completes quest)</strong></td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>2,000 XP</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>Caeda asked for my help to clear out the monsters in the caves so that she can go back there and attend to the flowers.</td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+<td>stage 40</td>
+<td>spawns monsters on lakecave0</td>
 </tr>
 <tr>
 <td><span id="stage-55"></span>55</td>
 <td>Many monsters are dead now. The rest will no longer dare to approach the statue.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/lakecave0/">Lakecave0</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/lakecave2/">Lakecave2</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/lakecave0/">lakecave0</a></td>
+<td>stage 50</td>
+<td>removes monsters from lakecave0</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>I told Caeda, so that she can attend to the glade. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
+<td>stage 50, stage 55</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>secret_garden</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → choose “Had?” — <strong>conditions:</strong> reached stage 20 of <a href="../roots_love/#stage-20">The roots of love</a>; NOT reached stage 10 of <a href="./#stage-10">A secret garden</a> → <strong>stage 10</strong>. NPC: “Suddenly there were trolls everywhere. I barely escaped, but I must have lost the key to our glade there. If only I…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → choose “Eh, OK. This isn't worth the trouble. Fresh damerilias wouldn't look different after my travel back. Thank…” — <strong>conditions:</strong> reached stage 20 of <a href="../roots_love/#stage-20">The roots of love</a>; NOT reached stage 10 of <a href="./#stage-10">A secret garden</a> → <strong>stage 20</strong>. NPC: “Farewell then. Give my greetings to my sister-in-law.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/lakecave2/">lakecave2</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 211 of <a href="../stn_nondisplay/#stage-211">stn_nondisplay (hidden flag)</a>; NOT reached stage 212 of <a href="../stn_nondisplay/#stage-212">stn_nondisplay (hidden flag)</a> → <strong>stage 30</strong>; also gives 1× <a href="../../items/glade_key/">Key to the glade</a>, sets stage 212 of <a href="../stn_nondisplay/#stage-212">stn_nondisplay (hidden flag)</a>. NPC: “Hey, this looks like Caeda's lost key.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">A secret garden</a>; NOT reached stage 50 of <a href="./#stage-50">A secret garden</a> → <strong>stage 40</strong>. NPC: “You really found my key! Thank you - I can't believe it!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">A secret garden</a> → <strong>stage 50</strong>; also spawns monsters on lakecave0. NPC: “Would it be too much to ask if you could get rid of the trolls?”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 55: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/lakecave0/">lakecave0</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">A secret garden</a>; NOT reached stage 55 of <a href="./#stage-55">A secret garden</a>; NOT reached stage 60 of <a href="./#stage-60">A secret garden</a>; killed 7× <a href="../../monsters/cave_troll_2/">Strong cave troll</a>; killed 15× <a href="../../monsters/cave_troll_3/">Tough cave troll</a>; killed 7× <a href="../../monsters/cave_troll_4/">Cave troll shaman</a> → <strong>stage 55</strong>; also removes monsters from lakecave0, removes monsters from lakecave0, removes monsters from lakecave0. NPC: “Many of the trolls are dead now. The rest will no longer dare to approach the statue.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → choose “Yes, I have dealt with most of the trolls. They won't dare to bother you for a long time.” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">A secret garden</a>; reached stage 55 of <a href="./#stage-55">A secret garden</a> → <strong>stage 60</strong>. NPC: “Thank you so much! I wish you safe travels back to Stoutford. If you want to go to the glade next time you are in…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=secret_garden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=secret_garden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=secret_garden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=secret_garden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=secret_garden.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>secret_garden</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 40, 45, 50, 55, 60</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>caeda_root10_8</code>, 20: <code>caeda_root10_8a</code>, 30: <code>lakecave2_script_keycheck3a</code>, 40: <code>caeda_root30_1</code>, 50: <code>caeda_root40_2</code>, 55: <code>script_lakecave_cleared_1</code>, 60: <code>caeda_root50_4</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

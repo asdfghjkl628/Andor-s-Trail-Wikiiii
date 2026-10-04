@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,105 +967,476 @@
 
 
 <h1 id="lessons-learned">Lessons learned<a class="headerlink" href="#lessons-learned" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>brv_school2</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>22 (completes at 200, 210, 220, 230, 240)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a>, stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/golin/">Golin</a>, <a href="../../monsters/brv_pupil8/">Pupil</a>, <a href="../../monsters/brv_pupil6/">Pupil</a>, <a href="../../monsters/brv_pupil1/">Pupil</a>, <a href="../../monsters/brv_pupil4/">Pupil</a>, <a href="../../monsters/brv_pupil3/">Pupil</a> +5</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>9,500</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>I entered a classroom in Brimhaven's school. The teacher told me to sit down.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a>. Required:</p>
+<ul>
+<li>NOT reached stage 10 of <a href="./#stage-10">Lessons learned</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_nondisplay2/#stage-21">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 21 reached, for stage 40 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_nondisplay2/#stage-22">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 22 reached, for stage 220 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 30 reached, for stage 150 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_nondisplay2/#stage-20">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 20 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_nondisplay2/#stage-21">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 21 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_nondisplay2/#stage-22">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 22 there needs stage 100 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_nondisplay2/#stage-40">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 40 there needs stages 104, 120, 124, 152 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../brv_nondisplay2/#stage-50">brv_nondisplay2 (hidden flag)</a></td>
+<td>stage 50 there needs stages 60, 100, 102, 120, 150 here</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brv_nondisplay2/#stage-10">brv_nondisplay2 (hidden flag)</a></td>
+<td>reaching stage 60 here closes stage 10 there</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a></td>
+<td>reaching stages 100, 102, 104, 120, 122, 124 here closes stage 30 there</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>I entered a classroom in Brimhaven's school. The teacher told me to sit down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-12"></span>12</td>
 <td>I noticed an evil-looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>I found a free place next to a student named Golin.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>The teacher was droning endlessly about Brimhaven history.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>Then a practice lesson started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>Everyone should take a set of practice weapons from the chest and sit down again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 40</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>I should look for a dueling partner.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>carry 1× <a href="../../items/brv_school_shield/">Paper shield</a>, carry 1× <a href="../../items/brv_school_sword/">Wooden sword</a>, stage 50</td>
+<td>changes map brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-100"></span>100</td>
 <td>I started a fight with Golin.</td>
+<td><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 60</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-102"></span>102</td>
 <td>I started a fight with Golin and killed him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>stage 100</td>
+<td>clears stage 100 of <a href="./#stage-100">Lessons learned</a></td>
 </tr>
 <tr>
 <td><span id="stage-104"></span>104</td>
 <td>I started a fight with Golin, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 100</td>
+<td>500 XP<br>clears stage 100 of <a href="./#stage-100">Lessons learned</a><br>faction “brv_fct_school_duel” set to 10<br>removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-110"></span>110</td>
 <td>I tried to fight a pupil, but they all ran away screaming.</td>
+<td><a href="../../monsters/brv_pupil1/">Pupil</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 60</td>
+<td>sets stage 50 of <a href="../brv_nondisplay2/#stage-50">brv_nondisplay2 (hidden flag)</a><br>removes monsters from brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-120"></span>120</td>
 <td>I started a fight with the teacher.</td>
+<td><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 60, wearing <a href="../../items/brv_school_shield/">Paper shield</a>, wearing <a href="../../items/brv_school_sword/">Wooden sword</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-122"></span>122</td>
 <td>I started a fight with the teacher and killed her.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>stage 120</td>
+<td>1,000 XP<br>clears stage 120 of <a href="./#stage-120">Lessons learned</a><br>faction “brv_fct_school_duel” set to 10<br>sets stage 50 of <a href="../brv_nondisplay2/#stage-50">brv_nondisplay2 (hidden flag)</a><br>removes monsters from brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-124"></span>124</td>
 <td>I started a fight with the teacher, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 120</td>
+<td>500 XP<br>clears stage 120 of <a href="./#stage-120">Lessons learned</a><br>removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-130"></span>130</td>
 <td>I feel the evil stare of the statue.</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-150"></span>150</td>
 <td>The evil grinning statue suddenly grew to an incredible size and attacked me!</td>
+<td><a href="../../monsters/brv_school_statue/">Statue</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>–</td>
+<td>removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school</td>
 </tr>
 <tr>
 <td><span id="stage-152"></span>152</td>
 <td>I killed the evil statue.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>stage 150</td>
+<td>clears stage 150 of <a href="./#stage-150">Lessons learned</a></td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
 <td>The teacher thanked me for saving her. School is over for me. I can go to the general store and get a cake for good performance. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 152</td>
+<td>5,000 XP</td>
 </tr>
 <tr>
 <td><span id="stage-210"></span>210</td>
 <td>I cheated during the duel. The teacher noticed it and banned me from the school. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 104</td>
+<td>500 XP</td>
 </tr>
 <tr>
 <td><span id="stage-220"></span>220</td>
 <td>The teacher was very satisfied with my performance in the duel. School is over for me. I can go to the general store and get a cake for good performance. <strong>(completes quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)<br>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>stage 104, stage 120, stage 124</td>
+<td>1,000 XP<br>sets stage 40 of <a href="../brv_nondisplay2/#stage-40">brv_nondisplay2 (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-230"></span>230</td>
 <td>The teacher sent me away, because I killed Golin in the duel. <strong>(completes quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven_school/">Brimhaven school</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a><br><a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 100, stage 102</td>
+<td>500 XP</td>
 </tr>
 <tr>
 <td><span id="stage-240"></span>240</td>
 <td>Golin was horrified by my murder of the teacher and attacked me to avenge her. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>)</td>
+<td>stage 122</td>
+<td>500 XP<br>faction “brv_fct_school_duel” -10</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>brv_school2</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">Lessons learned</a> → <strong>stage 10</strong>. NPC: “Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”</li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">Lessons learned</a> → <strong>stage 10</strong>. NPC: “Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically → <strong>stage 20</strong>. NPC: “Hi kid. I am Golin.”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → the conversation leads here automatically → <strong>stage 20</strong>. NPC: “Hi kid. I am Golin.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Lessons learned</a> → <strong>stage 30</strong>. NPC: “In the glorious days of year 2177, the enslavement of men ended.”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “[nod silently]” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Lessons learned</a> → <strong>stage 30</strong>. NPC: “In the glorious days of year 2177, the enslavement of men ended.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → choose “[keep silent]” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Lessons learned</a>; reached stage 21 of <a href="../brv_nondisplay2/#stage-21">brv_nondisplay2 (hidden flag)</a> → <strong>stage 40</strong>. NPC: “And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “[keep silent]” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Lessons learned</a>; reached stage 21 of <a href="../brv_nondisplay2/#stage-21">brv_nondisplay2 (hidden flag)</a> → <strong>stage 40</strong>. NPC: “And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">Lessons learned</a> → <strong>stage 50</strong>. NPC: “Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield,…”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Hush, the teacher is talking again.” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Lessons learned</a>; reached stage 40 of <a href="./#stage-40">Lessons learned</a> → <strong>stage 50</strong>. NPC: “Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield,…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → choose “Anybody?” — <strong>conditions:</strong> carry 1× <a href="../../items/brv_school_sword/">Wooden sword</a>; carry 1× <a href="../../items/brv_school_shield/">Paper shield</a> → <strong>stage 60</strong>; also changes map brimhaven_school. NPC: “Just go ahead. But don't forget: You must use the school weapon and shield.”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Anybody?” — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">Lessons learned</a>; carry 1× <a href="../../items/brv_school_sword/">Wooden sword</a>; carry 1× <a href="../../items/brv_school_shield/">Paper shield</a> → <strong>stage 60</strong>; also changes map brimhaven_school. NPC: “Just go ahead. But don't forget: You must use the school weapon and shield.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 100: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Yes, en Garde!” — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Lessons learned</a> → <strong>stage 100</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 102: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 100 of <a href="./#stage-100">Lessons learned</a>; killed 1× <a href="../../monsters/golin/">Golin</a> → <strong>stage 102</strong>; also clears stage 100 of <a href="./#stage-100">Lessons learned</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 104: 3 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 100 of <a href="./#stage-100">Lessons learned</a> → <strong>stage 104</strong>; also clears stage 100 of <a href="./#stage-100">Lessons learned</a>, faction “brv_fct_school_duel” set to 10, removes monsters from brimhaven_school, spawns monsters on brimhaven_school</li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 100 of <a href="./#stage-100">Lessons learned</a>; killed 1× <a href="../../monsters/golin/">Golin</a>; reached stage 104 of <a href="./#stage-104">Lessons learned</a> → <strong>stage 104</strong>; also clears stage 100 of <a href="./#stage-100">Lessons learned</a>, spawns monsters on brimhaven_school. NPC: “Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”</li>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 100 of <a href="./#stage-100">Lessons learned</a> → <strong>stage 104</strong>; also clears stage 100 of <a href="./#stage-100">Lessons learned</a>, spawns monsters on brimhaven_school. NPC: “Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 110: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_pupil1/">Pupil</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Wait, I'll show you...” — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Lessons learned</a> → <strong>stage 110</strong>; also sets stage 50 of <a href="../brv_nondisplay2/#stage-50">brv_nondisplay2 (hidden flag)</a>, removes monsters from brimhaven_school. NPC: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 120: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Draw your weapon!” — <strong>conditions:</strong> reached stage 60 of <a href="./#stage-60">Lessons learned</a>; wearing <a href="../../items/brv_school_sword/">Wooden sword</a>; wearing <a href="../../items/brv_school_shield/">Paper shield</a> → <strong>stage 120</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 122: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 120 of <a href="./#stage-120">Lessons learned</a>; killed 1× <a href="../../monsters/brv_teacher/">Teacher</a> → <strong>stage 122</strong>; also clears stage 120 of <a href="./#stage-120">Lessons learned</a>, faction “brv_fct_school_duel” set to 10, sets stage 50 of <a href="../brv_nondisplay2/#stage-50">brv_nondisplay2 (hidden flag)</a>, removes monsters from brimhaven_school. NPC: “When the little students see how you killed their teacher, a panic breaks out. Screaming, they all run out of the…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 124: 3 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 120 of <a href="./#stage-120">Lessons learned</a> → <strong>stage 124</strong>; also clears stage 120 of <a href="./#stage-120">Lessons learned</a>, removes monsters from brimhaven_school, spawns monsters on brimhaven_school</li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 120 of <a href="./#stage-120">Lessons learned</a> → <strong>stage 124</strong>; also clears stage 120 of <a href="./#stage-120">Lessons learned</a>, spawns monsters on brimhaven_school. NPC: “Enough - stop now! I have seen enough. You have an interesting fighting style.”</li>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 120 of <a href="./#stage-120">Lessons learned</a> → <strong>stage 124</strong>; also clears stage 120 of <a href="./#stage-120">Lessons learned</a>, spawns monsters on brimhaven_school. NPC: “Enough - stop now! I have seen enough. You have an interesting fighting style.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 150: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_school_statue/">Statue</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Um, yes. Let's try, and see how long you might be able to defend yourself.” — <strong>conditions:</strong> reached stage 30 of <a href="../brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a>; NOT reached stage 100 of <a href="./#stage-100">Lessons learned</a>; NOT reached stage 102 of <a href="./#stage-102">Lessons learned</a>; NOT reached stage 104 of <a href="./#stage-104">Lessons learned</a>; NOT reached stage 120 of <a href="./#stage-120">Lessons learned</a>; NOT reached stage 122 of <a href="./#stage-122">Lessons learned</a>; NOT reached stage 124 of <a href="./#stage-124">Lessons learned</a> → <strong>stage 150</strong>; also removes monsters from brimhaven_school, spawns monsters on brimhaven_school. NPC: “Suddenly the small ugly figure begins to grow! Bigger and bigger, until it seems to almost fill the whole room.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 152: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 150 of <a href="./#stage-150">Lessons learned</a>; killed 1× <a href="../../monsters/brv_school_statue2/">Statue</a> → <strong>stage 152</strong>; also clears stage 150 of <a href="./#stage-150">Lessons learned</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 200: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “I just destroyed the evil statue in the corner.” — <strong>conditions:</strong> reached stage 152 of <a href="./#stage-152">Lessons learned</a> → <strong>stage 200</strong>. NPC: “The statue is gone? What a relief - I don't know how to thank you! I never had a good feeling about it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 210: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Eh, yes...” — <strong>conditions:</strong> reached stage 104 of <a href="./#stage-104">Lessons learned</a> → <strong>stage 210</strong>. NPC: “I cannot accept such a behaviour! You have to leave our school - now!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 220: 3 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Thank you!” — <strong>conditions:</strong> reached stage 104 of <a href="./#stage-104">Lessons learned</a>; reached stage 22 of <a href="../brv_nondisplay2/#stage-22">brv_nondisplay2 (hidden flag)</a> → <strong>stage 220</strong>. NPC: “I can't teach you things that are new for you. Leave now, you don't need to come to school anymore.”</li>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → choose “Thank you.” — <strong>conditions:</strong> reached stage 120 of <a href="./#stage-120">Lessons learned</a> → <strong>stage 220</strong>; also sets stage 40 of <a href="../brv_nondisplay2/#stage-40">brv_nondisplay2 (hidden flag)</a>. NPC: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”</li>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “It was no big thing...” — <strong>conditions:</strong> reached stage 124 of <a href="./#stage-124">Lessons learned</a> → <strong>stage 220</strong>; also sets stage 40 of <a href="../brv_nondisplay2/#stage-40">brv_nondisplay2 (hidden flag)</a>. NPC: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 230: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> → choose “Eh...” — <strong>conditions:</strong> reached stage 100 of <a href="./#stage-100">Lessons learned</a>; killed 1× <a href="../../monsters/golin/">Golin</a> → <strong>stage 230</strong>. NPC: “I still can't believe it. Leave the school - now!”</li>
+<li>Talk to <a href="../../monsters/brv_teacher/">Teacher</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → choose “Eh...” — <strong>conditions:</strong> reached stage 102 of <a href="./#stage-102">Lessons learned</a> → <strong>stage 230</strong>. NPC: “I still can't believe it. Leave the school - now!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 240: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/golin/">Golin</a> (<a href="../../maps/brimhaven_school/">brimhaven_school</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 122 of <a href="./#stage-122">Lessons learned</a> → <strong>stage 240</strong>; also faction “brv_fct_school_duel” -10. NPC: “I will avenge her. Prepare to die!”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_school2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_school2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_school2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_school2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_school2.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>brv_school2</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 12, 20, 30, 40, 50, 60, 100, 102, 104, 110, 120, 122, 124, 130, 150, 152, 200, 210, 220, 230, 240</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>brv_school_enter_10</code>, 20: <code>brv_school_seated_12</code>, 30: <code>brv_school_history_10</code>, 40: <code>brv_school_history_200</code>, 50: <code>brv_school_practice_10</code>, 60: <code>brv_school_practice_30</code>, 100: <code>golin_60_30</code>, 102: <code>brv_school_check_duel_12a</code>, 104: <code>brv_school_check_duel_12b</code>, 104: <code>golin_100</code>, 110: <code>brv_school_pupil_60_20</code>, 120: <code>brv_teacher_60_26</code>, 122: <code>brv_school_check_duel_20</code>, 124: <code>brv_school_check_duel_28</code>, 124: <code>brv_teacher_120</code>, 150: <code>brv_school_statue_80</code>, 152: <code>brv_school_check_duel_30</code>, 200: <code>brv_teacher_152_10</code>, 210: <code>brv_teacher_104b_20</code>, 220: <code>brv_teacher_104a_30</code>, 220: <code>brv_teacher_124_20</code>, 230: <code>brv_teacher_102_20</code>, 240: <code>golin_122_10</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>100: <code>brv_school_check_duel_12a</code>, 100: <code>brv_school_check_duel_12b</code>, 100: <code>golin_100</code>, 120: <code>brv_school_check_duel_20</code>, 120: <code>brv_school_check_duel_28</code>, 120: <code>brv_teacher_120</code>, 150: <code>brv_school_check_duel_30</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

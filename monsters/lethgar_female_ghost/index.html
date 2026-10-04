@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,83 @@
 <ul>
 <li><a href="../../maps/undertell_1_1/">undertell_1_1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 80, 82</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (14 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-lethgar_female_ghost_selector"></span><strong><code>lethgar_female_ghost_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 80 of <a href="../../quests/undertell_hidden/#stage-80">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_default">lethgar_female_ghost_default</a></li>
+<li>branch 2 → <a href="#d-lethgar_female_ghost_welcome_10">lethgar_female_ghost_welcome_10</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_default"></span><strong><code>lethgar_female_ghost_default</code></strong> Lethgar slave ghost: “Oh, a real live human here? I don't believe it.”</p>
+<ul>
+<li>Next → <a href="#d-lethgar_female_ghost_pinch_10">lethgar_female_ghost_pinch_10</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_welcome_10"></span><strong><code>lethgar_female_ghost_welcome_10</code></strong> Lethgar slave ghost: “What brings you to me now?”</p>
+<ul>
+<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
+<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
+<li>“Are you a Lethgar?” <em>(if reached stage 85 of <a href="../../quests/Stanwickquest/#stage-85">No rest for the wicked</a>)</em> → <a href="#d-lethgar_female_ghost_lethgar_10">lethgar_female_ghost_lethgar_10</a></li>
+<li>“Nothing right now. Thanks anyway.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_pinch_10"></span><strong><code>lethgar_female_ghost_pinch_10</code></strong> Lethgar slave ghost: “She reaches out and pinches your arm to confirm that you are in fact human.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/undertell_hidden/#stage-80">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“Ouch!” → <a href="#d-lethgar_female_ghost_welcome_10">lethgar_female_ghost_welcome_10</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_rest_no"></span><strong><code>lethgar_female_ghost_rest_no</code></strong> Lethgar slave ghost: “No, I'm sorry, but you don't need to rest here. You need to experience this place more before you decide whether or not you want to get cozy with a dark pillow.”</p>
+<ul>
+<li>“What is that supposed to mean?” → <a href="#d-lethgar_female_ghost_rest_no_explain">lethgar_female_ghost_rest_no_explain</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_rest_yes"></span><strong><code>lethgar_female_ghost_rest_yes</code></strong> Lethgar slave ghost: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.” — <strong>effects:</strong> sets stage 82 of <a href="../../quests/undertell_hidden/#stage-82">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“Finally! Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_lethgar_10"></span><strong><code>lethgar_female_ghost_lethgar_10</code></strong> Lethgar slave ghost: “I am. Born Lethgar, died Lethgar, and it seems I am doomed to remain so long after any of it mattered.”</p>
+<ul>
+<li>“I have seen a statue near Brightport that bears the Lethgar name. Do you know of it?” → <a href="#d-lethgar_female_ghost_lethgar_20">lethgar_female_ghost_lethgar_20</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_rest_no_explain"></span><strong><code>lethgar_female_ghost_rest_no_explain</code></strong> Lethgar slave ghost: “For your protection, you can not rest in our beds...right now anyway.”</p>
+<ul>
+<li>“So I can later? If so, when is 'later'?” → <a href="#d-lethgar_female_ghost_rest_no_explain_more">lethgar_female_ghost_rest_no_explain_more</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_lethgar_20"></span><strong><code>lethgar_female_ghost_lethgar_20</code></strong> Lethgar slave ghost: “Near Brightport? Child, my people never reached that far north. We were here, beneath this mountain. We built, we dug, we died. The northern lands were not ours to know.”</p>
+<ul>
+<li>“Then why would a statue carry your people's name up there?” → <a href="#d-lethgar_female_ghost_lethgar_30">lethgar_female_ghost_lethgar_30</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_rest_no_explain_more"></span><strong><code>lethgar_female_ghost_rest_no_explain_more</code></strong> Lethgar slave ghost: “When you have a better understanding of this place.”</p>
+<p><span id="d-lethgar_female_ghost_lethgar_30"></span><strong><code>lethgar_female_ghost_lethgar_30</code></strong> Lethgar slave ghost: “I cannot say with any certainty.”</p>
+<ul>
+<li>Next → <a href="#d-lethgar_female_ghost_lethgar_40">lethgar_female_ghost_lethgar_40</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_lethgar_40"></span><strong><code>lethgar_female_ghost_lethgar_40</code></strong> Lethgar slave ghost: “But the Kazaul were never above reshaping the truth to suit their purposes. They renamed places, rewrote histories, left their marks upon things that were never theirs. A statue bearing our name in a land we never walked...that is not…”</p>
+<ul>
+<li>“You think the Kazaul put it there to mislead people?” → <a href="#d-lethgar_female_ghost_lethgar_50">lethgar_female_ghost_lethgar_50</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_lethgar_50"></span><strong><code>lethgar_female_ghost_lethgar_50</code></strong> Lethgar slave ghost: “I think the Kazaul are ancient, patient, and very skilled at making the living doubt what stands before them. A name here, a stone there. Given enough time, even a carefully placed lie begins to look like history.”</p>
+<ul>
+<li>“That is a troubling thought.” → <a href="#d-lethgar_female_ghost_lethgar_60">lethgar_female_ghost_lethgar_60</a></li>
+</ul>
+<p><span id="d-lethgar_female_ghost_lethgar_60"></span><strong><code>lethgar_female_ghost_lethgar_60</code></strong> Lethgar slave ghost: “Good. You should be troubled. It means you have not yet stopped thinking for yourself. Now, was there something else you needed?”</p>
+<ul>
+<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
+<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
+<li>“Nothing else. Thank you.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lethgar_female_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lethgar_female_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lethgar_female_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lethgar_female_ghost.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>lethgar_female_ghost</code> · Data from v0.8.18</small></p>
 
 

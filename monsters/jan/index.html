@@ -816,6 +816,75 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -886,6 +955,115 @@
 </tr>
 </tbody>
 </table>
+<details class="quote">
+<summary>Dialogue (20 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-jan_start_select"></span><strong><code>jan_start_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 100 of <a href="../quests/jan.md#stage-100">jan (hidden flag)</a>)</em> → <a href="#d-jan_complete2">jan_complete2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../quests/jan.md#stage-10">jan (hidden flag)</a>)</em> → <a href="#d-jan_return">jan_return</a></li>
+<li>branch 3 → <a href="#d-jan_default">jan_default</a></li>
+</ul>
+<p><span id="d-jan_complete2"></span><strong><code>jan_complete2</code></strong> Jan: “Thanks for dealing with Irogotu earlier! I am forever in debt to you.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_return"></span><strong><code>jan_return</code></strong> Jan: “Hello again kid. Did you find Irogotu down in the cave?”</p>
+<ul>
+<li>“No, not yet.” → <a href="#d-jan_default14">jan_default14</a></li>
+<li>“Can you tell me your story again?” → <a href="#d-jan_background">jan_background</a></li>
+<li>“Yes, I have killed Irogotu.” <em>(if hand over 1× <a href="../../items/ring_gandir/">Gandir's ring</a>)</em> → <a href="#d-jan_complete">jan_complete</a></li>
+</ul>
+<p><span id="d-jan_default"></span><strong><code>jan_default</code></strong> Jan: “Hello kid. Please leave me to my mourning.”</p>
+<ul>
+<li>“What is the problem?” → <a href="#d-jan_default2">jan_default2</a></li>
+<li>“Do you want to talk about it?” → <a href="#d-jan_default2">jan_default2</a></li>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_default14"></span><strong><code>jan_default14</code></strong> Jan: “Return to me when you are done. Bring me Gandir's ring from Irogotu down in the cave.”</p>
+<ul>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_background"></span><strong><code>jan_background</code></strong> Jan: “Didn't you listen the first time I told you the story? Do I really have to tell you the story one more time?”</p>
+<ul>
+<li>“Yes, please tell me the story again.” → <a href="#d-jan_default3">jan_default3</a></li>
+<li>“I wasn't listening that much the first time you told it. What was that about a treasure?” → <a href="#d-jan_default4">jan_default4</a></li>
+<li>“No, never mind. I remember it now.” → <a href="#d-jan_default14">jan_default14</a></li>
+</ul>
+<p><span id="d-jan_complete"></span><strong><code>jan_complete</code></strong> Jan: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/jan.md#stage-100">jan (hidden flag)</a></p>
+<ul>
+<li>“Glad that I could help. Goodbye.” → <em>conversation ends</em></li>
+<li>“Shadow be with you. Goodbye.” → <em>conversation ends</em></li>
+<li>“Whatever. I only did it for the loot.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_default2"></span><strong><code>jan_default2</code></strong> Jan: “Oh, it's so sad. I really don't want to talk about it.”</p>
+<ul>
+<li>“Please do.” → <a href="#d-jan_default3">jan_default3</a></li>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_default3"></span><strong><code>jan_default3</code></strong> Jan: “Well, I guess it's OK to tell you. You seem to be a nice enough kid.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default4">jan_default4</a></li>
+</ul>
+<p><span id="d-jan_default4"></span><strong><code>jan_default4</code></strong> Jan: “My friend Gandir, his friend Irogotu, and I were down here digging this hole. We had heard there was a hidden treasure down here.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default5">jan_default5</a></li>
+</ul>
+<p><span id="d-jan_default5"></span><strong><code>jan_default5</code></strong> Jan: “We started digging and finally broke through to the cave system below. That's when we discovered them. The critters and bugs.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default6">jan_default6</a></li>
+</ul>
+<p><span id="d-jan_default6"></span><strong><code>jan_default6</code></strong> Jan: “Oh those critters. Damn bastards. Nearly killed me they did. Gandir and I told Irogotu that we should stop the digging and leave while we still could.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default7">jan_default7</a></li>
+</ul>
+<p><span id="d-jan_default7"></span><strong><code>jan_default7</code></strong> Jan: “But Irogotu wanted to continue deeper into the dungeon. He and Gandir got into an argument and started fighting.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default8">jan_default8</a></li>
+</ul>
+<p><span id="d-jan_default8"></span><strong><code>jan_default8</code></strong> Jan: “That's when it happened. <em>sob</em> Oh what have we done?”</p>
+<ul>
+<li>“Please go on.” → <a href="#d-jan_default9">jan_default9</a></li>
+</ul>
+<p><span id="d-jan_default9"></span><strong><code>jan_default9</code></strong> Jan: “Irogotu killed Gandir with his bare hands. You could see the fire in his eyes. He almost seemed to enjoy it.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default10">jan_default10</a></li>
+</ul>
+<p><span id="d-jan_default10"></span><strong><code>jan_default10</code></strong> Jan: “I fled and haven't dared go back down there because of the critters and Irogotu himself.”</p>
+<ul>
+<li>Next → <a href="#d-jan_default11">jan_default11</a></li>
+</ul>
+<p><span id="d-jan_default11"></span><strong><code>jan_default11</code></strong> Jan: “Oh that damn Irogotu. If only I could get to him. I'd show him one thing and another.”</p>
+<ul>
+<li>“Do you think I could help?” → <a href="#d-jan_default11_1">jan_default11_1</a></li>
+</ul>
+<p><span id="d-jan_default11_1"></span><strong><code>jan_default11_1</code></strong> Jan: “Do you think you could help me?”</p>
+<ul>
+<li>“Sure, there may be some treasure in this for me.” → <a href="#d-jan_default12">jan_default12</a></li>
+<li>“Sure. Irogotu should pay for what he did.” → <a href="#d-jan_default12">jan_default12</a></li>
+<li>“No thanks, I would rather not be involved in this. It sounds dangerous.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-jan_default12"></span><strong><code>jan_default12</code></strong> Jan: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/jan.md#stage-10">jan (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-jan_default13">jan_default13</a></li>
+</ul>
+<p><span id="d-jan_default13"></span><strong><code>jan_default13</code></strong> Jan: “If you really want to help, go find Irogotu down in the cave, and get me back Gandir's ring.”</p>
+<ul>
+<li>“Sure, I'll help.” → <a href="#d-jan_default14">jan_default14</a></li>
+<li>“Can you tell me the story again?” → <a href="#d-jan_background">jan_background</a></li>
+<li>“Never mind, goodbye.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jan.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jan.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jan.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jan.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>jan</code> · Data from v0.8.18</small></p>
 
 

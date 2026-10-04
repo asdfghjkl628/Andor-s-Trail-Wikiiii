@@ -855,6 +855,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -967,6 +1039,187 @@
 <ul>
 <li><a href="../../maps/laerothprison7/">laerothprison7</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lae_torturer/">Shadow of the torturer</a>: stages 25, 30, 35, 40, 50, 60, 120</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (40 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-lae_torturer"></span><strong><code>lae_torturer</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT killed 1× <a href="../lae_demon9/">Dark watch</a>; NOT killed 1× <a href="../lae_demon7/">Dark watch</a>; NOT killed 1× <a href="../lae_demon5/">Dark watch</a>; NOT killed 1× <a href="../lae_demon4/">Dark watch</a>)</em> → <a href="#d-lae_torturer_5">lae_torturer_5</a></li>
+<li>branch 2 <em>(if reached stage 50 of <a href="../../quests/lae_torturer/#stage-50">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_5">lae_torturer_5</a></li>
+<li>branch 3 <em>(if NOT reached stage 30 of <a href="../../quests/lae_torturer/#stage-30">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_5">lae_torturer_5</a></li>
+<li>branch 4 → <a href="#d-lae_torturer_2">lae_torturer_2</a></li>
+</ul>
+<p><span id="d-lae_torturer_5"></span><strong><code>lae_torturer_5</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 110 of <a href="../../quests/lae_torturer/#stage-110">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_110">lae_torturer_110</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/lae_torturer/#stage-100">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_100">lae_torturer_100</a></li>
+<li>branch 3 → <a href="#d-lae_torturer_10">lae_torturer_10</a></li>
+</ul>
+<p><span id="d-lae_torturer_2"></span><strong><code>lae_torturer_2</code></strong> Kotheses: “Why do you kill my precious demons?! I told you to stay here beside me!” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/lae_torturer/#stage-50">Shadow of the torturer</a></p>
+<ul>
+<li>“They have attacked me!” → <a href="#d-lae_torturer_5">lae_torturer_5</a></li>
+</ul>
+<p><span id="d-lae_torturer_110"></span><strong><code>lae_torturer_110</code></strong> Kotheses: “I see it in your eyes - you want to leave too. Like your brother.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/lae_torturer/#stage-120">Shadow of the torturer</a></p>
+<ul>
+<li>“Yes. Thank you for your lessons.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-lae_torturer_100"></span><strong><code>lae_torturer_100</code></strong> Kotheses: “Now you can talk to the demons. To all of them. Tell them what they have to do.”</p>
+<ul>
+<li>“All of them?” <em>(if reached stage 50 of <a href="../../quests/lae_torturer/#stage-50">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_101">lae_torturer_101</a></li>
+<li>“OK.” <em>(if NOT reached stage 50 of <a href="../../quests/lae_torturer/#stage-50">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_102">lae_torturer_102</a></li>
+</ul>
+<p><span id="d-lae_torturer_10"></span><strong><code>lae_torturer_10</code></strong> Kotheses: “Hello, child.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_10a">lae_torturer_10a</a></li>
+</ul>
+<p><span id="d-lae_torturer_101"></span><strong><code>lae_torturer_101</code></strong> Kotheses: “To all of those that you have left alive. But please, stay close to me this time.”</p>
+<p><span id="d-lae_torturer_102"></span><strong><code>lae_torturer_102</code></strong> Kotheses: “But stay close to me.”</p>
+<p><span id="d-lae_torturer_10a"></span><strong><code>lae_torturer_10a</code></strong> Kotheses: “Would you like to learn the trade of a torturer?” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/lae_torturer/#stage-25">Shadow of the torturer</a>, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4</p>
+<ul>
+<li>“Tell me more about it.” <em>(if NOT reached stage 60 of <a href="../../quests/lae_torturer/#stage-60">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_11">lae_torturer_11</a></li>
+<li>“I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks…” → <a href="#d-lae_torturer_12">lae_torturer_12</a></li>
+<li>“You stole the life force of your captives.” → <a href="#d-lae_torturer_18">lae_torturer_18</a></li>
+<li>“Very gladly. I always like to learn new things.” <em>(if NOT reached stage 60 of <a href="../../quests/lae_torturer/#stage-60">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_30">lae_torturer_30</a></li>
+</ul>
+<p><span id="d-lae_torturer_11"></span><strong><code>lae_torturer_11</code></strong> Kotheses: “I seek a young apprentice to train in our essential duties.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_11a">lae_torturer_11a</a></li>
+</ul>
+<p><span id="d-lae_torturer_12"></span><strong><code>lae_torturer_12</code></strong> Kotheses: “No, I don't know where Andor is now.”</p>
+<ul>
+<li>“Oh, how do you know his name?” → <a href="#d-lae_torturer_14">lae_torturer_14</a></li>
+</ul>
+<p><span id="d-lae_torturer_18"></span><strong><code>lae_torturer_18</code></strong> Kotheses: “Yes. So?”</p>
+<ul>
+<li>“Nothing.” → <a href="#d-lae_torturer_20">lae_torturer_20</a></li>
+</ul>
+<p><span id="d-lae_torturer_30"></span><strong><code>lae_torturer_30</code></strong> Kotheses: “OK, then let's get started. This is a very important job, you know?” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/lae_torturer/#stage-30">Shadow of the torturer</a></p>
+<ul>
+<li>“Why?” → <a href="#d-lae_torturer_32">lae_torturer_32</a></li>
+</ul>
+<p><span id="d-lae_torturer_11a"></span><strong><code>lae_torturer_11a</code></strong> Kotheses: “You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_11b">lae_torturer_11b</a></li>
+</ul>
+<p><span id="d-lae_torturer_14"></span><strong><code>lae_torturer_14</code></strong> Kotheses: “Well, he was here a while ago and was shown a few tricks.”</p>
+<ul>
+<li>“So he was here too?” → <a href="#d-lae_torturer_16">lae_torturer_16</a></li>
+</ul>
+<p><span id="d-lae_torturer_20"></span><strong><code>lae_torturer_20</code></strong> Kotheses: “You are sure you don't want to learn the art of a torturer?”</p>
+<ul>
+<li>“That is no job for me.” <em>(if NOT reached stage 30 of <a href="../../quests/lae_torturer/#stage-30">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_60">lae_torturer_60</a></li>
+<li>“Well, I could try at least.” <em>(if NOT reached stage 60 of <a href="../../quests/lae_torturer/#stage-60">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_30">lae_torturer_30</a></li>
+</ul>
+<p><span id="d-lae_torturer_32"></span><strong><code>lae_torturer_32</code></strong> Kotheses: “You get people to tell you the truth you want to hear.”</p>
+<ul>
+<li>“Oh, OK.” → <a href="#d-lae_torturer_34">lae_torturer_34</a></li>
+</ul>
+<p><span id="d-lae_torturer_11b"></span><strong><code>lae_torturer_11b</code></strong> Kotheses: “While keeping the prisoner alive, of course.”</p>
+<ul>
+<li>“Oh, makes sense.” → <a href="#d-lae_torturer_11c">lae_torturer_11c</a></li>
+</ul>
+<p><span id="d-lae_torturer_16"></span><strong><code>lae_torturer_16</code></strong> Kotheses: “Andor was a very eager student. It's a shame he didn't stay.” — <strong>effects:</strong> sets stage 120 of <a href="../quests/andor.md#stage-120">andor (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_20">lae_torturer_20</a></li>
+</ul>
+<p><span id="d-lae_torturer_60"></span><strong><code>lae_torturer_60</code></strong> Kotheses: “What a pity. At least let me warn you about the prisoners above.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/lae_torturer/#stage-60">Shadow of the torturer</a></p>
+<ul>
+<li>“What is with them?” → <a href="#d-lae_torturer_62">lae_torturer_62</a></li>
+</ul>
+<p><span id="d-lae_torturer_34"></span><strong><code>lae_torturer_34</code></strong> Kotheses: “Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody.”</p>
+<ul>
+<li>“Eh ...” → <a href="#d-lae_torturer_36">lae_torturer_36</a></li>
+</ul>
+<p><span id="d-lae_torturer_11c"></span><strong><code>lae_torturer_11c</code></strong> Kotheses: “Your education will include mastering various torture devices and understanding their effects.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_11d">lae_torturer_11d</a></li>
+</ul>
+<p><span id="d-lae_torturer_62"></span><strong><code>lae_torturer_62</code></strong> Kotheses: “They are devious. They are highly dangerous.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_64">lae_torturer_64</a></li>
+</ul>
+<p><span id="d-lae_torturer_36"></span><strong><code>lae_torturer_36</code></strong> Kotheses: “What?”</p>
+<ul>
+<li>“I opened the cells and released them.” → <a href="#d-lae_torturer_40">lae_torturer_40</a></li>
+</ul>
+<p><span id="d-lae_torturer_11d"></span><strong><code>lae_torturer_11d</code></strong> Kotheses: “Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness.”</p>
+<ul>
+<li>“Interrogations you call it?” → <a href="#d-lae_torturer_11e">lae_torturer_11e</a></li>
+</ul>
+<p><span id="d-lae_torturer_64"></span><strong><code>lae_torturer_64</code></strong> Kotheses: “They must be imprisoned for all reasons.”</p>
+<ul>
+<li>“Why?” → <a href="#d-lae_torturer_66">lae_torturer_66</a></li>
+</ul>
+<p><span id="d-lae_torturer_40"></span><strong><code>lae_torturer_40</code></strong> Kotheses: “Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control.”</p>
+<ul>
+<li>“Demons? That doesn't sound safe.” → <a href="#d-lae_torturer_42">lae_torturer_42</a></li>
+</ul>
+<p><span id="d-lae_torturer_11e"></span><strong><code>lae_torturer_11e</code></strong> Kotheses: “Sure. We only want the truth. Nothing more. It is a very prestigious work.”</p>
+<ul>
+<li>“If you say so.” → <a href="#d-lae_torturer_10a">lae_torturer_10a</a></li>
+<li>“Then why do you wear a mask at public executions?” → <a href="#d-lae_torturer_11f">lae_torturer_11f</a></li>
+</ul>
+<p><span id="d-lae_torturer_66"></span><strong><code>lae_torturer_66</code></strong> Kotheses: “Their lies influence you to have mercy. But turn your back to them they pierce you cruelly.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_70">lae_torturer_70</a></li>
+</ul>
+<p><span id="d-lae_torturer_42"></span><strong><code>lae_torturer_42</code></strong> Kotheses: “You screwed up, you have to fix it.”</p>
+<ul>
+<li>“Sigh.” <em>(if NOT reached stage 35 of <a href="../../quests/lae_torturer/#stage-35">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_44">lae_torturer_44</a></li>
+<li>“Sigh. I know.” <em>(if reached stage 35 of <a href="../../quests/lae_torturer/#stage-35">Shadow of the torturer</a>)</em> → <a href="#d-lae_torturer_45">lae_torturer_45</a></li>
+</ul>
+<p><span id="d-lae_torturer_11f"></span><strong><code>lae_torturer_11f</code></strong> Kotheses: “Enough questions.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_10a">lae_torturer_10a</a></li>
+</ul>
+<p><span id="d-lae_torturer_70"></span><strong><code>lae_torturer_70</code></strong> Kotheses: “Believe it or not.”</p>
+<ul>
+<li>“Not.” → <a href="#d-lae_torturer_74">lae_torturer_74</a></li>
+</ul>
+<p><span id="d-lae_torturer_44"></span><strong><code>lae_torturer_44</code></strong> Kotheses: “Here take this Oegyth crystal.” — <strong>effects:</strong> gives 1× <a href="../../items/oegyth/">Oegyth crystal</a>, sets stage 35 of <a href="../../quests/lae_torturer/#stage-35">Shadow of the torturer</a></p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_45">lae_torturer_45</a></li>
+</ul>
+<p><span id="d-lae_torturer_45"></span><strong><code>lae_torturer_45</code></strong> Kotheses: “Take this precious Oegyth crystal to that small room to the south and continue through the corridor.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_46">lae_torturer_46</a></li>
+</ul>
+<p><span id="d-lae_torturer_74"></span><strong><code>lae_torturer_74</code></strong> Kotheses: “At least I play fair. I do not come from ambush, but rather announce my attack.”</p>
+<ul>
+<li>“OK ...” → <a href="#d-lae_torturer_76">lae_torturer_76</a></li>
+</ul>
+<p><span id="d-lae_torturer_46"></span><strong><code>lae_torturer_46</code></strong> Kotheses: “Then throw the crystal with all your might into the dark abyss.”</p>
+<ul>
+<li>“What?!” → <a href="#d-lae_torturer_48">lae_torturer_48</a></li>
+</ul>
+<p><span id="d-lae_torturer_76"></span><strong><code>lae_torturer_76</code></strong> Kotheses: “... which is now!” — <strong>effects:</strong> faction “lae_torturer” set to -100</p>
+<ul>
+<li>“How gross.” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-lae_torturer_48"></span><strong><code>lae_torturer_48</code></strong> Kotheses: “Do it. Then run for your life back to me so that I can protect you from them.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/lae_torturer/#stage-40">Shadow of the torturer</a></p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_50">lae_torturer_50</a></li>
+</ul>
+<p><span id="d-lae_torturer_50"></span><strong><code>lae_torturer_50</code></strong> Kotheses: “You hear me? Don't wait for the demons. They are deadly.”</p>
+<ul>
+<li>Next → <a href="#d-lae_torturer_52">lae_torturer_52</a></li>
+</ul>
+<p><span id="d-lae_torturer_52"></span><strong><code>lae_torturer_52</code></strong> Kotheses: “Now. Move.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>kotheses</code> · Data from v0.8.18</small></p>
 
 

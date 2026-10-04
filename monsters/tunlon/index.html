@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -957,6 +1029,238 @@
 <ul>
 <li><a href="../../maps/bwmfill3/">bwmfill3</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/tunlon_fence/">It makes no fence</a>: stages 10, 12, 40, 200, 250</li>
+<li><a href="../../quests/bwmfill_nondisplay/">bwmfill_nondisplay (hidden flag)</a>: stages 44</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (50 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tunlon_start"></span><strong><code>tunlon_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if killed 1× <a href="../bwm_sheep1/">Mountain Sheep</a>)</em> → <a href="#d-bwmfill_killsheep">bwmfill_killsheep</a></li>
+<li>Next <em>(if reached stage 250 of <a href="../../quests/tunlon_fence/#stage-250">It makes no fence</a>)</em> → <a href="#d-tunlon_start_1">tunlon_start_1</a></li>
+<li>Next <em>(if reached stage 200 of <a href="../../quests/tunlon_fence/#stage-200">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_21">tunlon_prog_21</a></li>
+<li>Next <em>(if reached stage 40 of <a href="../../quests/tunlon_fence/#stage-40">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_11">tunlon_prog_11</a></li>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_1">tunlon_prog_1</a></li>
+<li>Next → <a href="#d-tunlon_start_1">tunlon_start_1</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep"></span><strong><code>bwmfill_killsheep</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if killed 1× <a href="../bwm_sheep1/">Mountain Sheep</a>)</em> → <a href="#d-bwmfill_killsheep_10">bwmfill_killsheep_10</a></li>
+</ul>
+<p><span id="d-tunlon_start_1"></span><strong><code>tunlon_start_1</code></strong> Tunlon: “Hello kid! How are you?”</p>
+<ul>
+<li>“Fine, thank you. Who are you?” <em>(if NOT reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>)</em> → <a href="#d-tunlon_start_2">tunlon_start_2</a></li>
+<li>“Good. Do you have anything to trade?” → <a href="#d-tunlon_trade">tunlon_trade</a></li>
+<li>“Have you seen Andor, my brother? He looks a bit ...” <em>(if NOT reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>)</em> → <a href="#d-tunlon_andor">tunlon_andor</a></li>
+</ul>
+<p><span id="d-tunlon_prog_21"></span><strong><code>tunlon_prog_21</code></strong> Tunlon: “Ah, my litle friend.”</p>
+<ul>
+<li>“Yes, I am back again.” → <a href="#d-tunlon_prog_21a">tunlon_prog_21a</a></li>
+</ul>
+<p><span id="d-tunlon_prog_11"></span><strong><code>tunlon_prog_11</code></strong> Tunlon: “So how is your journey going?”</p>
+<ul>
+<li>“Tinlyn said there is a woodcutter in Loneford who can help.” <em>(if reached stage 100 of <a href="../../quests/tunlon_fence/#stage-100">It makes no fence</a>; NOT reached stage 150 of <a href="../../quests/tunlon_fence/#stage-150">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_12">tunlon_prog_12</a></li>
+<li>“Tinlyn said there is a woodcutter in Loneford who can help.” <em>(if reached stage 110 of <a href="../../quests/tunlon_fence/#stage-110">It makes no fence</a>; NOT reached stage 150 of <a href="../../quests/tunlon_fence/#stage-150">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_12">tunlon_prog_12</a></li>
+<li>“I still have to ask Tinlyn.” <em>(if NOT reached stage 100 of <a href="../../quests/tunlon_fence/#stage-100">It makes no fence</a>; NOT reached stage 110 of <a href="../../quests/tunlon_fence/#stage-110">It makes no fence</a>)</em> → <a href="#d-tunlon_noprog">tunlon_noprog</a></li>
+<li>“Here, I brought you fences.” <em>(if carry 10× <a href="../../items/tunlon_fence1/">Sturdy fence</a>)</em> → <a href="#d-tunlon_prog_15">tunlon_prog_15</a></li>
+<li>“I still have to look for the fences ...” <em>(if NOT carry 10× <a href="../../items/tunlon_fence1/">Sturdy fence</a>)</em> → <a href="#d-tunlon_noprog">tunlon_noprog</a></li>
+</ul>
+<p><span id="d-tunlon_prog_1"></span><strong><code>tunlon_prog_1</code></strong> Tunlon: “Hello - are you back yet? I wasn't expecting you yet.”</p>
+<ul>
+<li>“Well ...” → <a href="#d-tunlon_prog_1b">tunlon_prog_1b</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep_10"></span><strong><code>bwmfill_killsheep_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if NOT reached stage 44 of <a href="../../quests/bwmfill_nondisplay/#stage-44">bwmfill_nondisplay (hidden flag)</a>)</em> → <a href="#d-bwmfill_killsheep_20">bwmfill_killsheep_20</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>; NOT reached stage 250 of <a href="../../quests/tunlon_fence/#stage-250">It makes no fence</a>; NOT reached stage 12 of <a href="../../quests/tunlon_fence/#stage-12">It makes no fence</a>)</em> → <a href="#d-bwmfill_killsheep_12">bwmfill_killsheep_12</a></li>
+</ul>
+<p><span id="d-tunlon_start_2"></span><strong><code>tunlon_start_2</code></strong> Tunlon: “I am Tunlon of Crossglen. I look after my flock of sheep here.”</p>
+<ul>
+<li>“I am from Crossglen too!” <em>(if NOT reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>)</em> → <a href="#d-tunlon_quest_1">tunlon_quest_1</a></li>
+<li>“Nice to have met you.” <em>(if reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tunlon_trade"></span><strong><code>tunlon_trade</code></strong> Tunlon: “Yes, I have a few basic supplies that I could offer. Do you want to have a look?”</p>
+<ul>
+<li>“Sure!” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-tunlon_andor"></span><strong><code>tunlon_andor</code></strong> Tunlon: “I know Andor. Of course I do.”</p>
+<ul>
+<li>Next → <a href="#d-tunlon_andor_2">tunlon_andor_2</a></li>
+</ul>
+<p><span id="d-tunlon_prog_21a"></span><strong><code>tunlon_prog_21a</code></strong> Tunlon: “Have you brought new fences?”</p>
+<ul>
+<li>“Here, I hope these are better.” <em>(if hand over 10× <a href="../../items/tunlon_fence2/">New fence</a>)</em> → <a href="#d-tunlon_prog_22">tunlon_prog_22</a></li>
+<li>“No, I am still looking for them.” <em>(if NOT carry 10× <a href="../../items/tunlon_fence2/">New fence</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tunlon_prog_12"></span><strong><code>tunlon_prog_12</code></strong> Tunlon: “Have you been there already?”</p>
+<ul>
+<li>“No, not yet.” → <a href="#d-tunlon_noprog">tunlon_noprog</a></li>
+</ul>
+<p><span id="d-tunlon_noprog"></span><strong><code>tunlon_noprog</code></strong> Tunlon: “Keep on going!”</p>
+<p><span id="d-tunlon_prog_15"></span><strong><code>tunlon_prog_15</code></strong> Tunlon: “Let me see!”</p>
+<ul>
+<li>Next → <a href="#d-tunlon_prog_16">tunlon_prog_16</a></li>
+</ul>
+<p><span id="d-tunlon_prog_1b"></span><strong><code>tunlon_prog_1b</code></strong> Tunlon: “Have you found some wood already?”</p>
+<ul>
+<li>“No, I am still searching.” <em>(if NOT reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>)</em> → <em>conversation ends</em></li>
+<li>“No, I asked Jakrar in Fallhaven, but he just sent me to other woodcutters.” <em>(if reached stage 20 of <a href="../../quests/tunlon_fence/#stage-20">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_2">tunlon_prog_2</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep_20"></span><strong><code>bwmfill_killsheep_20</code></strong> <a href="../tunlon2/">Tunlon</a>: “You filthy MURDERER!!” — <strong>effects:</strong> sets stage 44 of <a href="../../quests/bwmfill_nondisplay/#stage-44">bwmfill_nondisplay (hidden flag)</a>, removes monsters from bwmfill3, spawns monsters on bwmfill3</p>
+<ul>
+<li>Next → <a href="#d-bwmfill_killsheep_22">bwmfill_killsheep_22</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep_12"></span><strong><code>bwmfill_killsheep_12</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 12 of <a href="../../quests/tunlon_fence/#stage-12">It makes no fence</a></p>
+<p><span id="d-tunlon_quest_1"></span><strong><code>tunlon_quest_1</code></strong> Tunlon: “That is great to hear. Could you by any chance get me something from Crossglen? Unfortunately I have to stay here to watch my sheep.”</p>
+<ul>
+<li>“Oh yeah, no problem!” → <a href="#d-tunlon_quest_2">tunlon_quest_2</a></li>
+<li>“Sorry, I have other things to do right now.” → <a href="#d-tunlon_noquest">tunlon_noquest</a></li>
+</ul>
+<p><span id="d-tunlon_andor_2"></span><strong><code>tunlon_andor_2</code></strong> Tunlon: “Always good for mischief, that boy.”</p>
+<ul>
+<li>“Yes, that's him. Do you know where he is?” → <a href="#d-tunlon_andor_3">tunlon_andor_3</a></li>
+</ul>
+<p><span id="d-tunlon_prog_22"></span><strong><code>tunlon_prog_22</code></strong> Tunlon: “Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward.” — <strong>effects:</strong> sets stage 250 of <a href="../../quests/tunlon_fence/#stage-250">It makes no fence</a>, gives <a href="../../items/gold/">Gold coins</a>, <a href="../../items/lamb_meat2/">Specially peppered lamb meat</a>, <a href="../../items/red_pepper/">Red Pepper</a></p>
+<ul>
+<li>“No problem. See you!” → <em>conversation ends</em></li>
+<li>“I love running around and helping. See you!” → <em>conversation ends</em></li>
+<li>“Hmm, the lamb meat looks good. What is that exactly?” → <a href="#d-tunlon_prog_22a">tunlon_prog_22a</a></li>
+</ul>
+<p><span id="d-tunlon_prog_16"></span><strong><code>tunlon_prog_16</code></strong> Tunlon: “Hmm, no, these posts are too short. My sheep are probably able to jump over them.”</p>
+<ul>
+<li>Next → <a href="#d-tunlon_prog_17">tunlon_prog_17</a></li>
+</ul>
+<p><span id="d-tunlon_prog_2"></span><strong><code>tunlon_prog_2</code></strong> Tunlon: “Have you been there yet?”</p>
+<ul>
+<li>“No. I will go there next.” <em>(if NOT reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>)</em> → <em>conversation ends</em></li>
+<li>“Yes. They created a shortcut here into the forest.” <em>(if reached stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_2a">tunlon_prog_2a</a></li>
+<li>“Yes. However, they only have firewood available.” <em>(if reached stage 30 of <a href="../../quests/tunlon_fence/#stage-30">It makes no fence</a>; NOT reached stage 32 of <a href="../../quests/tunlon_fence/#stage-32">It makes no fence</a>)</em> → <a href="#d-tunlon_prog_2a">tunlon_prog_2a</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep_22"></span><strong><code>bwmfill_killsheep_22</code></strong> Tunlon: “My poor sheep! What have you done?!” — <strong>effects:</strong> sets stage 12 of <a href="../../quests/tunlon_fence/#stage-12">It makes no fence</a></p>
+<ul>
+<li>Next → <a href="#d-bwmfill_killsheep_24">bwmfill_killsheep_24</a></li>
+</ul>
+<p><span id="d-tunlon_quest_2"></span><strong><code>tunlon_quest_2</code></strong> Tunlon: “Thank you, kid. What I need is some wood to repair my fence.”</p>
+<ul>
+<li>“Where do I get that from?” → <a href="#d-tunlon_quest_3">tunlon_quest_3</a></li>
+</ul>
+<p><span id="d-tunlon_noquest"></span><strong><code>tunlon_noquest</code></strong> Tunlon: “No problem, kid. Just come back here whenever you have some time.”</p>
+<p><span id="d-tunlon_andor_3"></span><strong><code>tunlon_andor_3</code></strong> Tunlon: “No. And I want to keep it that way.”</p>
+<ul>
+<li>“Oh. What has he done to you?” → <a href="#d-tunlon_andor_4">tunlon_andor_4</a></li>
+</ul>
+<p><span id="d-tunlon_prog_22a"></span><strong><code>tunlon_prog_22a</code></strong> Tunlon: “This is lamb with a special seasoning mixture which of course I won't tell you. Here you have an additional one.” — <strong>effects:</strong> gives 1× <a href="../../items/lamb_meat2/">Specially peppered lamb meat</a></p>
+<ul>
+<li>“Thank you. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tunlon_prog_17"></span><strong><code>tunlon_prog_17</code></strong> Tunlon: “Could you go and ask him for other fences?”</p>
+<ul>
+<li>“Sure! No problem.” → <a href="#d-tunlon_prog_18">tunlon_prog_18</a></li>
+<li>“Maybe ...” → <a href="#d-tunlon_prog_18">tunlon_prog_18</a></li>
+<li>“What? All the way over again just because you didn't tell me how high your fences had to be?” → <a href="#d-tunlon_prog_17a">tunlon_prog_17a</a></li>
+</ul>
+<p><span id="d-tunlon_prog_2a"></span><strong><code>tunlon_prog_2a</code></strong> Tunlon: “That's good to hear.”</p>
+<ul>
+<li>“Yes. However, they only have firewood available.” → <a href="#d-tunlon_prog_2b">tunlon_prog_2b</a></li>
+</ul>
+<p><span id="d-bwmfill_killsheep_24"></span><strong><code>bwmfill_killsheep_24</code></strong> Tunlon: “Just you wait - you will pay for it!!”</p>
+<p><span id="d-tunlon_quest_3"></span><strong><code>tunlon_quest_3</code></strong> Tunlon: “Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time”</p>
+<ul>
+<li>“Maybe this explains why the forest around Crossglen is too dense to get through...” → <a href="#d-tunlon_quest_3a">tunlon_quest_3a</a></li>
+<li>“At least not that I know.” → <a href="#d-tunlon_quest_4">tunlon_quest_4</a></li>
+</ul>
+<p><span id="d-tunlon_andor_4"></span><strong><code>tunlon_andor_4</code></strong> Tunlon: “He scared my sheep. They didn't dare to leave the stable for two weeks.”</p>
+<ul>
+<li>Next → <a href="#d-tunlon_andor_5">tunlon_andor_5</a></li>
+</ul>
+<p><span id="d-tunlon_prog_18"></span><strong><code>tunlon_prog_18</code></strong> Tunlon: “Thank you. I knew I could trust you.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/tunlon_fence/#stage-200">It makes no fence</a></p>
+<p><span id="d-tunlon_prog_17a"></span><strong><code>tunlon_prog_17a</code></strong> Tunlon: “But ...”</p>
+<ul>
+<li>“Do you actually know how far the path is?” → <a href="#d-tunlon_prog_17b">tunlon_prog_17b</a></li>
+<li>“I also have something else to do. After all, I'm on Andor's trail.” → <a href="#d-tunlon_prog_17b">tunlon_prog_17b</a></li>
+</ul>
+<p><span id="d-tunlon_prog_2b"></span><strong><code>tunlon_prog_2b</code></strong> Tunlon: “But firewood isn't good for fences.”</p>
+<ul>
+<li>“Exactly. Where else can you get suitable wood?” → <a href="#d-tunlon_prog_2c">tunlon_prog_2c</a></li>
+</ul>
+<p><span id="d-tunlon_quest_3a"></span><strong><code>tunlon_quest_3a</code></strong> Tunlon: “What do you mean? The climb into the mountains is just northeast of Crossglen?”</p>
+<ul>
+<li>“Maybe it used to be like that.” → <a href="#d-tunlon_quest_3b">tunlon_quest_3b</a></li>
+<li>“If there was a path, it has long since become overgrown.” → <a href="#d-tunlon_quest_3b">tunlon_quest_3b</a></li>
+</ul>
+<p><span id="d-tunlon_quest_4"></span><strong><code>tunlon_quest_4</code></strong> Tunlon: “Well, then you would have to travel over to Fallhaven. Of course only, if that's not too much for you.”</p>
+<ul>
+<li>“Not for me! I know the way perfectly well.” → <a href="#d-tunlon_quest_5">tunlon_quest_5</a></li>
+<li>“Hmm, now that I think about it ...” → <a href="#d-tunlon_quest_4a">tunlon_quest_4a</a></li>
+</ul>
+<p><span id="d-tunlon_andor_5"></span><strong><code>tunlon_andor_5</code></strong> Tunlon: “I then confronted him, even though I was a little scared myself.”</p>
+<ul>
+<li>“And then?” → <a href="#d-tunlon_andor_6">tunlon_andor_6</a></li>
+</ul>
+<p><span id="d-tunlon_prog_17b"></span><strong><code>tunlon_prog_17b</code></strong> Tunlon: “Please ...”</p>
+<ul>
+<li>“All right. I'll go again.” → <a href="#d-tunlon_prog_18">tunlon_prog_18</a></li>
+</ul>
+<p><span id="d-tunlon_prog_2c"></span><strong><code>tunlon_prog_2c</code></strong> Tunlon: “Maybe it would be better to buy the finished fences straight away.”</p>
+<ul>
+<li>“Finished fences? Where do you get something like that from?” → <a href="#d-tunlon_prog_3">tunlon_prog_3</a></li>
+</ul>
+<p><span id="d-tunlon_quest_3b"></span><strong><code>tunlon_quest_3b</code></strong> Tunlon: “What do you mean?”</p>
+<ul>
+<li>“I had to take a long detour past Stoutford and Prim and come from the other side.” → <a href="#d-tunlon_quest_3c">tunlon_quest_3c</a></li>
+</ul>
+<p><span id="d-tunlon_quest_5"></span><strong><code>tunlon_quest_5</code></strong> Tunlon: “Thank you so much! Here is a bit of gold so you can pay for it.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“I will go and get it now.” → <em>conversation ends</em></li>
+<li>“Hehe, thank you!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tunlon_quest_4a"></span><strong><code>tunlon_quest_4a</code></strong> Tunlon: “Please don't let me down. There are wolves and worse here threatening my sheep.”</p>
+<ul>
+<li>“Sigh, I have too good a heart. It's okay, I'll do it.” → <a href="#d-tunlon_quest_5">tunlon_quest_5</a></li>
+<li>“No, forget it. I'm out.” → <a href="#d-tunlon_quest_4b">tunlon_quest_4b</a></li>
+</ul>
+<p><span id="d-tunlon_andor_6"></span><strong><code>tunlon_andor_6</code></strong> Tunlon: “And then? Nothing. With a look that made my blood run cold, he left.”</p>
+<ul>
+<li>“Yes, my beloved brother. Who are you by the way?” <em>(if NOT reached stage 10 of <a href="../../quests/tunlon_fence/#stage-10">It makes no fence</a>)</em> → <a href="#d-tunlon_start_2">tunlon_start_2</a></li>
+<li>“Then that's settled. Another question: Do you have anything to trade?” → <a href="#d-tunlon_trade">tunlon_trade</a></li>
+</ul>
+<p><span id="d-tunlon_prog_3"></span><strong><code>tunlon_prog_3</code></strong> Tunlon: “Hmm. Maybe my brother knows a place where to get fences.”</p>
+<ul>
+<li>“Your brother?” <em>(if reached stage 21 of <a href="../../quests/benbyr/#stage-21">Cheap cuts</a>)</em> → <a href="#d-tunlon_prog_4_1">tunlon_prog_4_1</a></li>
+<li>“Your brother?” <em>(if NOT reached stage 21 of <a href="../../quests/benbyr/#stage-21">Cheap cuts</a>)</em> → <a href="#d-tunlon_prog_4_2">tunlon_prog_4_2</a></li>
+</ul>
+<p><span id="d-tunlon_quest_3c"></span><strong><code>tunlon_quest_3c</code></strong> Tunlon: “Then it's a good thing that I haven't tried to go down to Crossglen with my sheep in recent years.”</p>
+<ul>
+<li>“In any case, there is no lumberjack in Crossglen.” → <a href="#d-tunlon_quest_4">tunlon_quest_4</a></li>
+</ul>
+<p><span id="d-tunlon_quest_4b"></span><strong><code>tunlon_quest_4b</code></strong> Tunlon: “A pity. Come back if you change your mind.”</p>
+<p><span id="d-tunlon_prog_4_1"></span><strong><code>tunlon_prog_4_1</code></strong> Tunlon: “Tinlyn, my brother. Poor guy, lost all of his sheep. He lives north of Crossroads guardhouse.”</p>
+<ul>
+<li>“Well ... yeah I know him.” → <a href="#d-tunlon_prog_5">tunlon_prog_5</a></li>
+</ul>
+<p><span id="d-tunlon_prog_4_2"></span><strong><code>tunlon_prog_4_2</code></strong> Tunlon: “Tinlyn, my brother. He lives north of Crossroads guardhouse.”</p>
+<ul>
+<li>“Ah, I think I know him.” <em>(if reached stage 10 of <a href="../../quests/tinlyn/#stage-10">Lost sheep</a>)</em> → <a href="#d-tunlon_prog_5">tunlon_prog_5</a></li>
+<li>“I don't know this Tinlyn yet, but I will find him.” <em>(if NOT reached stage 10 of <a href="../../quests/tinlyn/#stage-10">Lost sheep</a>)</em> → <a href="#d-tunlon_prog_5">tunlon_prog_5</a></li>
+</ul>
+<p><span id="d-tunlon_prog_5"></span><strong><code>tunlon_prog_5</code></strong> Tunlon: “Please go and ask him, if he knows anyone who could help.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/tunlon_fence/#stage-40">It makes no fence</a></p>
+<ul>
+<li>“I'm on my way!” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tunlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tunlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tunlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tunlon.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>tunlon</code> · Data from v0.8.18</small></p>
 
 

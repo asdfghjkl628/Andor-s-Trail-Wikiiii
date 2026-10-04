@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -947,6 +1019,380 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/prim_hunt/">Clouded intent</a>: stages 11, 20, 25, 40, 50, 70, 80, 99, 100, 240, 250, 251</li>
+<li><a href="../../quests/bwm_agent/">The agent and the beast</a>: stages 25, 80, 130, 131, 250</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (83 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-guthbered_start"></span><strong><code>guthbered_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 131 of <a href="../../quests/bwm_agent/#stage-131">The agent and the beast</a>)</em> → <a href="#d-guthbered_sentbybwm_leave">guthbered_sentbybwm_leave</a></li>
+<li>branch 2 <em>(if reached stage 130 of <a href="../../quests/bwm_agent/#stage-130">The agent and the beast</a>)</em> → <a href="#d-guthbered_sentbybwm_fight">guthbered_sentbybwm_fight</a></li>
+<li>branch 3 <em>(if reached stage 120 of <a href="../../quests/bwm_agent/#stage-120">The agent and the beast</a>)</em> → <a href="#d-guthbered_sentbybwm_1">guthbered_sentbybwm_1</a></li>
+<li>branch 4 <em>(if reached stage 251 of <a href="../../quests/prim_hunt/#stage-251">Clouded intent</a>)</em> → <a href="#d-guthbered_reject">guthbered_reject</a></li>
+<li>branch 5 <em>(if reached stage 250 of <a href="../../quests/prim_hunt/#stage-250">Clouded intent</a>)</em> → <a href="#d-guthbered_reject">guthbered_reject</a></li>
+<li>branch 6 <em>(if reached stage 100 of <a href="../../quests/prim_hunt/#stage-100">Clouded intent</a>)</em> → <a href="#d-guthbered_completed">guthbered_completed</a></li>
+<li>branch 7 <em>(if reached stage 99 of <a href="../../quests/prim_hunt/#stage-99">Clouded intent</a>)</em> → <a href="#d-guthbered_killharl_2">guthbered_killharl_2</a></li>
+<li>branch 8 <em>(if reached stage 95 of <a href="../../quests/bwm_agent/#stage-95">The agent and the beast</a>)</em> → <a href="#d-guthbered_workingforbwm_2">guthbered_workingforbwm_2</a></li>
+<li>branch 9 <em>(if reached stage 80 of <a href="../../quests/prim_hunt/#stage-80">Clouded intent</a>)</em> → <a href="#d-guthbered_killharl_1">guthbered_killharl_1</a></li>
+<li>branch 10 <em>(if reached stage 50 of <a href="../../quests/prim_hunt/#stage-50">Clouded intent</a>)</em> → <a href="#d-guthbered_lookforsigns_1">guthbered_lookforsigns_1</a></li>
+<li>branch 11 <em>(if reached stage 25 of <a href="../../quests/prim_hunt/#stage-25">Clouded intent</a>)</em> → <a href="#d-guthbered_return_1_1">guthbered_return_1_1</a></li>
+<li>branch 12 → <a href="#d-guthbered_1">guthbered_1</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_leave"></span><strong><code>guthbered_sentbybwm_leave</code></strong> Guthbered: “Thank you friend, for talking some sense into me.” — <strong>effects:</strong> sets stage 131 of <a href="../../quests/bwm_agent/#stage-131">The agent and the beast</a></p>
+<ul>
+<li>“You are welcome.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_fight"></span><strong><code>guthbered_sentbybwm_fight</code></strong> Guthbered: “I had hoped it would not come to this. I'm afraid that you will not survive this encounter. Yet another life on my hands.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/bwm_agent/#stage-130">The agent and the beast</a>, faction “fct_prim” set to -10</p>
+<ul>
+<li>“For the Shadow!” → <em>fight starts</em></li>
+<li>“Brave words, let's see if you can back them up with anything.” → <em>fight starts</em></li>
+<li>“Great, I have been longing to kill you.” → <em>fight starts</em></li>
+<li>“Let's fight!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_1"></span><strong><code>guthbered_sentbybwm_1</code></strong> Guthbered: “The glow in your eyes frightens me.”</p>
+<ul>
+<li>“I am sent by the Blackwater mountain settlement to stop you.” → <a href="#d-guthbered_sentbybwm_fight">guthbered_sentbybwm_fight</a></li>
+<li>“I am sent by the Blackwater mountain settlement to stop you. However, I have decided not to kill you.” → <a href="#d-guthbered_sentbybwm_3">guthbered_sentbybwm_3</a></li>
+</ul>
+<p><span id="d-guthbered_reject"></span><strong><code>guthbered_reject</code></strong> Guthbered: “You again? Leave this place and go to your friends up in the Blackwater mountain settlement instead. We want no business with you.”</p>
+<ul>
+<li>“I am here to give you a message from the Blackwater mountain settlement.” <em>(if reached stage 70 of <a href="../../quests/bwm_agent/#stage-70">The agent and the beast</a>)</em> → <a href="#d-guthbered_attacks">guthbered_attacks</a></li>
+</ul>
+<p><span id="d-guthbered_completed"></span><strong><code>guthbered_completed</code></strong> Guthbered: “Hello again my friend. Thank you for your help in dealing with the bandits up in Blackwater mountain.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_completed_1">guthbered_completed_1</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_2"></span><strong><code>guthbered_killharl_2</code></strong> Guthbered: “While I am grateful for this news in knowing that he is dead, I am also saddened that it had to come to this.” — <strong>effects:</strong> sets stage 99 of <a href="../../quests/prim_hunt/#stage-99">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_4">guthbered_killharl_4</a></li>
+</ul>
+<p><span id="d-guthbered_workingforbwm_2"></span><strong><code>guthbered_workingforbwm_2</code></strong> Guthbered: “My sources from inside the Blackwater mountain settlement tell me you are working for them.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_workingforbwm_3">guthbered_workingforbwm_3</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_1"></span><strong><code>guthbered_killharl_1</code></strong> Guthbered: “Hello again. Did you manage to remove that bastard battle master Harlenn from the Blackwater mountain settlement?”</p>
+<ul>
+<li>“Can you tell me again what I was supposed to do?” → <a href="#d-guthbered_lookforsigns_6">guthbered_lookforsigns_6</a></li>
+<li>“Not yet. I am still working on it.” → <a href="#d-guthbered_lookforsigns_9">guthbered_lookforsigns_9</a></li>
+<li>“Yes, he is dead.” <em>(if hand over 1× <a href="../../items/harlenn_id/">Harlenn's ring</a>)</em> → <a href="#d-guthbered_killharl_2">guthbered_killharl_2</a></li>
+<li>“Yes, he is gone.” <em>(if reached stage 91 of <a href="../../quests/prim_hunt/#stage-91">Clouded intent</a>)</em> → <a href="#d-guthbered_killharl_3">guthbered_killharl_3</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_1"></span><strong><code>guthbered_lookforsigns_1</code></strong> Guthbered: “Hello again. Did you find anything up in the Blackwater mountain settlement?”</p>
+<ul>
+<li>“No, I am still looking.” → <a href="#d-guthbered_talkedto_harl_13">guthbered_talkedto_harl_13</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-guthbered_talkedto_harl_9">guthbered_talkedto_harl_9</a></li>
+<li>“Yes, I found some papers with a plan to attack Prim.” <em>(if reached stage 60 of <a href="../../quests/prim_hunt/#stage-60">Clouded intent</a>)</em> → <a href="#d-guthbered_lookforsigns_2">guthbered_lookforsigns_2</a></li>
+</ul>
+<p><span id="d-guthbered_return_1_1"></span><strong><code>guthbered_return_1_1</code></strong> Guthbered: “Welcome back, traveller. Did you talk to Harlenn up in the Blackwater mountain settlement?”</p>
+<ul>
+<li>“Can you tell me the story about the monsters again?” → <a href="#d-guthbered_13">guthbered_13</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-guthbered_29">guthbered_29</a></li>
+<li>“Can you tell me the story about Prim again?” → <a href="#d-guthbered_2">guthbered_2</a></li>
+<li>“Yes, but Harlenn denies that they have anything to do with the attacks.” <em>(if reached stage 30 of <a href="../../quests/prim_hunt/#stage-30">Clouded intent</a>)</em> → <a href="#d-guthbered_talkedto_harl_1">guthbered_talkedto_harl_1</a></li>
+<li>“Actually, I am here to give you a message from the Blackwater mountain settlement.” <em>(if reached stage 70 of <a href="../../quests/bwm_agent/#stage-70">The agent and the beast</a>)</em> → <a href="#d-guthbered_attacks">guthbered_attacks</a></li>
+</ul>
+<p><span id="d-guthbered_1"></span><strong><code>guthbered_1</code></strong> Guthbered: “Welcome to Prim, traveller.”</p>
+<ul>
+<li>“What can you tell me about Prim?” → <a href="#d-guthbered_2">guthbered_2</a></li>
+<li>“Who are you?” → <a href="#d-guthbered_who_1">guthbered_who_1</a></li>
+<li>“I was told to see you about helping against the monster attacks.” <em>(if reached stage 11 of <a href="../../quests/prim_hunt/#stage-11">Clouded intent</a>)</em> → <a href="#d-guthbered_20">guthbered_20</a></li>
+<li>“Actually, I am here to give you a message from the Blackwater mountain settlement.” <em>(if reached stage 70 of <a href="../../quests/bwm_agent/#stage-70">The agent and the beast</a>)</em> → <a href="#d-guthbered_attacks">guthbered_attacks</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_3"></span><strong><code>guthbered_sentbybwm_3</code></strong> Guthbered: “How interesting... Please continue.”</p>
+<ul>
+<li>“It's obvious that this conflict will only end in more bloodshed. That should stop here.” → <a href="#d-guthbered_sentbybwm_4">guthbered_sentbybwm_4</a></li>
+</ul>
+<p><span id="d-guthbered_attacks"></span><strong><code>guthbered_attacks</code></strong> Guthbered: “What message?”</p>
+<ul>
+<li>“Harlenn in the Blackwater mountain settlement wants you to stop your attacks on their settlement.” → <a href="#d-guthbered_attacks_1">guthbered_attacks_1</a></li>
+</ul>
+<p><span id="d-guthbered_completed_1"></span><strong><code>guthbered_completed_1</code></strong> Guthbered: “I am sure everyone here in Prim will want to talk to you now.” — <strong>effects:</strong> sets stage 240 of <a href="../../quests/prim_hunt/#stage-240">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_completed_2">guthbered_completed_2</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_4"></span><strong><code>guthbered_killharl_4</code></strong> Guthbered: “This will hopefully mean that their attacks on our village will cease.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_5">guthbered_killharl_5</a></li>
+</ul>
+<p><span id="d-guthbered_workingforbwm_3"></span><strong><code>guthbered_workingforbwm_3</code></strong> Guthbered: “It is, of course, your choice. But if you are working for them, you are not welcome here in Prim. You should leave quickly, while you still can.” — <strong>effects:</strong> sets stage 251 of <a href="../../quests/prim_hunt/#stage-251">Clouded intent</a></p>
+<p><span id="d-guthbered_lookforsigns_6"></span><strong><code>guthbered_lookforsigns_6</code></strong> Guthbered: “I had hoped it would not come to this. But we are left with no choice. We must remove their main driving force behind the raids. We must remove their battle master, Harlenn.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_7">guthbered_lookforsigns_7</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_9"></span><strong><code>guthbered_lookforsigns_9</code></strong> Guthbered: “Excellent. Return to me once you are done.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/prim_hunt/#stage-80">Clouded intent</a></p>
+<p><span id="d-guthbered_killharl_3"></span><strong><code>guthbered_killharl_3</code></strong> Guthbered: “Really? This is great news indeed.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_4">guthbered_killharl_4</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_13"></span><strong><code>guthbered_talkedto_harl_13</code></strong> Guthbered: “Thank you, friend. Report back to me with your findings.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/prim_hunt/#stage-50">Clouded intent</a></p>
+<p><span id="d-guthbered_talkedto_harl_9"></span><strong><code>guthbered_talkedto_harl_9</code></strong> Guthbered: “I want you to go up there into their settlement and find any clues as to what they are planning.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_10">guthbered_talkedto_harl_10</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_2"></span><strong><code>guthbered_lookforsigns_2</code></strong> Guthbered: “Then it is as we suspected. This is terrible news indeed.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_3">guthbered_lookforsigns_3</a></li>
+</ul>
+<p><span id="d-guthbered_13"></span><strong><code>guthbered_13</code></strong> Guthbered: “A while ago, we started seeing the first of the monsters. At first, they were no problem for us to handle. Our guards could cut them down easily.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_14">guthbered_14</a></li>
+</ul>
+<p><span id="d-guthbered_29"></span><strong><code>guthbered_29</code></strong> Guthbered: “As I said, we believe those bastards up at the Blackwater mountain settlement are behind the monster attacks somehow.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_30">guthbered_30</a></li>
+</ul>
+<p><span id="d-guthbered_2"></span><strong><code>guthbered_2</code></strong> Guthbered: “Prim began as a simple camp for the miners that worked in the mines around here. Later it grew to a settlement, and a few years back we even got a tavern and an inn here.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_3">guthbered_3</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_1"></span><strong><code>guthbered_talkedto_harl_1</code></strong> Guthbered: “What did I expect? Of course he would say that. He probably even denies it to himself. Meanwhile, we here in Prim suffer from their savage raids.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_2">guthbered_talkedto_harl_2</a></li>
+</ul>
+<p><span id="d-guthbered_who_1"></span><strong><code>guthbered_who_1</code></strong> Guthbered: “I am Guthbered, protector of this village.”</p>
+<ul>
+<li>“What can you tell me about Prim?” → <a href="#d-guthbered_2">guthbered_2</a></li>
+<li>“I was told to see you about helping against the monster attacks.” <em>(if reached stage 11 of <a href="../../quests/prim_hunt/#stage-11">Clouded intent</a>)</em> → <a href="#d-guthbered_20">guthbered_20</a></li>
+</ul>
+<p><span id="d-guthbered_20"></span><strong><code>guthbered_20</code></strong> Guthbered: “Oh good. Did you talk to Tonis? Yes, I'm sure you met him on your way into town.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_21">guthbered_21</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_4"></span><strong><code>guthbered_sentbybwm_4</code></strong> Guthbered: “What are you proposing?”</p>
+<ul>
+<li>“My proposal is that you leave this village and find a new home somewhere else.” → <a href="#d-guthbered_sentbybwm_5">guthbered_sentbybwm_5</a></li>
+</ul>
+<p><span id="d-guthbered_attacks_1"></span><strong><code>guthbered_attacks_1</code></strong> Guthbered: “That's completely insane. We!? Stop OUR attacks?! You tell him that we have nothing to do with what happens up there. They have brought their own misfortune upon themselves.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/bwm_agent/#stage-80">The agent and the beast</a></p>
+<p><span id="d-guthbered_completed_2"></span><strong><code>guthbered_completed_2</code></strong> Guthbered: “Thank you again for your help.” — <strong>effects:</strong> sets stage 250 of <a href="../../quests/bwm_agent/#stage-250">The agent and the beast</a></p>
+<p><span id="d-guthbered_killharl_5"></span><strong><code>guthbered_killharl_5</code></strong> Guthbered: “I do not know how to thank you enough my friend.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_6">guthbered_killharl_6</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_7"></span><strong><code>guthbered_lookforsigns_7</code></strong> Guthbered: “This would be an excellent task for you my friend. Since you have access to their facilities, you can sneak in and kill that bastard Harlenn.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_8">guthbered_lookforsigns_8</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_10"></span><strong><code>guthbered_talkedto_harl_10</code></strong> Guthbered: “We believe they are training their fighters to launch a larger raid on us soon.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_11">guthbered_talkedto_harl_11</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_3"></span><strong><code>guthbered_lookforsigns_3</code></strong> Guthbered: “Now you know what I was talking about. They are always looking to cause trouble.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_4">guthbered_lookforsigns_4</a></li>
+</ul>
+<p><span id="d-guthbered_14"></span><strong><code>guthbered_14</code></strong> Guthbered: “But after a while, some of our guards got hurt, and the monsters started increasing in numbers.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_15">guthbered_15</a></li>
+</ul>
+<p><span id="d-guthbered_30"></span><strong><code>guthbered_30</code></strong> Guthbered: “I want you to go up there to their settlement and ask their battle master, Harlenn, why they are doing this to us.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/prim_hunt/#stage-25">Clouded intent</a></p>
+<ul>
+<li>“OK, I will go ask Harlenn in the Blackwater mountain settlement why they are attacking your village.” → <a href="#d-guthbered_31">guthbered_31</a></li>
+</ul>
+<p><span id="d-guthbered_3"></span><strong><code>guthbered_3</code></strong> Guthbered: “This place used to be full of life when the miners worked here.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_4">guthbered_4</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_2"></span><strong><code>guthbered_talkedto_harl_2</code></strong> Guthbered: “I am sure they are behind these attacks. However, I do not have sufficient evidence to back up my statements in order to do anything about it.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_3">guthbered_talkedto_harl_3</a></li>
+</ul>
+<p><span id="d-guthbered_21"></span><strong><code>guthbered_21</code></strong> Guthbered: “Good. Let me tell you the back-story about Prim first.”</p>
+<ul>
+<li>“Sure.” → <a href="#d-guthbered_2">guthbered_2</a></li>
+<li>“I'd rather skip to the end directly.” → <a href="#d-guthbered_13">guthbered_13</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_5"></span><strong><code>guthbered_sentbybwm_5</code></strong> Guthbered: “Now why would I want to do that?”</p>
+<ul>
+<li>“These two towns will always fight each other. By you leaving, they will think they have won, and stop their attacks.” → <a href="#d-guthbered_sentbybwm_6">guthbered_sentbybwm_6</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_6"></span><strong><code>guthbered_killharl_6</code></strong> Guthbered: “Here, please accept these few items as some form of compensation for your help. Also, take this piece of paper that we have acquired.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/prim_hunt/#stage-100">Clouded intent</a>, gives <a href="../../items/bwm_dagger/">Blackwater dagger</a>, <a href="../../items/gold/">Gold coins</a>, <a href="../../items/health/">Regular potion of health</a>, <a href="../../items/bwm_permit/">Forged papers for Blackwater</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_7">guthbered_killharl_7</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_8"></span><strong><code>guthbered_lookforsigns_8</code></strong> Guthbered: “By killing him, we can be sure that their attacks will ... shall we say ... lose their teeth. He he.”</p>
+<ul>
+<li>“No problem, he is as good as dead.” → <a href="#d-guthbered_lookforsigns_9">guthbered_lookforsigns_9</a></li>
+<li>“Are you sure more violence will really solve this conflict?” → <a href="#d-guthbered_lookforsigns_10">guthbered_lookforsigns_10</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_11"></span><strong><code>guthbered_talkedto_harl_11</code></strong> Guthbered: “Go look for any plans that you might find. But make sure that they do not see you while you're looking around.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_12">guthbered_talkedto_harl_12</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_4"></span><strong><code>guthbered_lookforsigns_4</code></strong> Guthbered: “Thank you for finding this information for us.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/prim_hunt/#stage-70">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_5">guthbered_lookforsigns_5</a></li>
+</ul>
+<p><span id="d-guthbered_15"></span><strong><code>guthbered_15</code></strong> Guthbered: “Also, the monsters almost seemed like they were getting smarter. Their attacks were getting more and more coordinated.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_16">guthbered_16</a></li>
+</ul>
+<p><span id="d-guthbered_31"></span><strong><code>guthbered_31</code></strong> Guthbered: “Thank you friend.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/prim_hunt/#stage-25">Clouded intent</a></p>
+<p><span id="d-guthbered_4"></span><strong><code>guthbered_4</code></strong> Guthbered: “The miners also attracted a lot of traders that used to come through here.”</p>
+<ul>
+<li>“'used to'?” → <a href="#d-guthbered_5">guthbered_5</a></li>
+<li>“What happened then?” → <a href="#d-guthbered_5">guthbered_5</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_3"></span><strong><code>guthbered_talkedto_harl_3</code></strong> Guthbered: “But I am sure they are! As false as they are, they must be. Always lying and deceiving. Causing destruction and turmoil.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/prim_hunt/#stage-40">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_4">guthbered_talkedto_harl_4</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_6"></span><strong><code>guthbered_sentbybwm_6</code></strong> Guthbered: “Hmm, you might have a point there.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_sentbybwm_7">guthbered_sentbybwm_7</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_7"></span><strong><code>guthbered_killharl_7</code></strong> Guthbered: “This is a permit that we have ... produced, which according to our sources, will allow you to enter their inner chamber in the Blackwater mountain settlement.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_8">guthbered_killharl_8</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_10"></span><strong><code>guthbered_lookforsigns_10</code></strong> Guthbered: “No, not really. But for now, it looks like the only option we have.”</p>
+<ul>
+<li>“I will remove him, but I will try to find a peaceful solution to this.” → <a href="#d-guthbered_lookforsigns_9">guthbered_lookforsigns_9</a></li>
+<li>“Very well. He is as good as dead.” → <a href="#d-guthbered_lookforsigns_9">guthbered_lookforsigns_9</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_12"></span><strong><code>guthbered_talkedto_harl_12</code></strong> Guthbered: “You should probably start your search around where their battle master, Harlenn, stays.”</p>
+<ul>
+<li>“OK. I will look for clues in their settlement.” → <a href="#d-guthbered_talkedto_harl_13">guthbered_talkedto_harl_13</a></li>
+</ul>
+<p><span id="d-guthbered_lookforsigns_5"></span><strong><code>guthbered_lookforsigns_5</code></strong> Guthbered: “Very well. We will have to deal with this.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_lookforsigns_6">guthbered_lookforsigns_6</a></li>
+</ul>
+<p><span id="d-guthbered_16"></span><strong><code>guthbered_16</code></strong> Guthbered: “Now, we can hardly hold them back. They mostly come at night.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_17">guthbered_17</a></li>
+</ul>
+<p><span id="d-guthbered_5"></span><strong><code>guthbered_5</code></strong> Guthbered: “Just until recently, we could at least get some contact with the outside villages. Nowadays, that hope is lost.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_6">guthbered_6</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_4"></span><strong><code>guthbered_talkedto_harl_4</code></strong> Guthbered: “Just listen to the name they have chosen for themselves: 'Blackwater'. The tone of it sounds like trouble.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_5">guthbered_talkedto_harl_5</a></li>
+</ul>
+<p><span id="d-guthbered_sentbybwm_7"></span><strong><code>guthbered_sentbybwm_7</code></strong> Guthbered: “OK, you have convinced me. I will leave Prim for another town. The survival of my people here is more important than me.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_sentbybwm_leave">guthbered_sentbybwm_leave</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_8"></span><strong><code>guthbered_killharl_8</code></strong> Guthbered: “Now, the permit is not ... shall we say ... completely genuine. But we are certain that the guards won't notice any difference.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_killharl_9">guthbered_killharl_9</a></li>
+</ul>
+<p><span id="d-guthbered_17"></span><strong><code>guthbered_17</code></strong> Guthbered: “According to lore, the monsters are called the 'gornauds'.”</p>
+<ul>
+<li>“Any ideas where they might be coming from?” → <a href="#d-guthbered_18">guthbered_18</a></li>
+</ul>
+<p><span id="d-guthbered_6"></span><strong><code>guthbered_6</code></strong> Guthbered: “You see, the mine tunnel to the south is collapsed, and no one can get in or out of Prim.”</p>
+<ul>
+<li>“I know, I just came from there.” → <a href="#d-guthbered_7">guthbered_7</a></li>
+<li>“Tough luck.” → <a href="#d-guthbered_10">guthbered_10</a></li>
+<li>“What made it collapse?” → <a href="#d-guthbered_11">guthbered_11</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_5"></span><strong><code>guthbered_talkedto_harl_5</code></strong> Guthbered: “Anyway. I would like to get some further evidence on what they are up to. Maybe something you can help us with.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_6">guthbered_talkedto_harl_6</a></li>
+</ul>
+<p><span id="d-guthbered_killharl_9"></span><strong><code>guthbered_killharl_9</code></strong> Guthbered: “Anyway, you have my greatest thanks for the assistance that you have provided for us.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_completed_1">guthbered_completed_1</a></li>
+</ul>
+<p><span id="d-guthbered_18"></span><strong><code>guthbered_18</code></strong> Guthbered: “Oh yes, we are almost certain.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_19">guthbered_19</a></li>
+</ul>
+<p><span id="d-guthbered_7"></span><strong><code>guthbered_7</code></strong> Guthbered: “You did? Oh. Well, yes of course you must have since you are not from Prim. So there's a way through it after all huh?”</p>
+<ul>
+<li>“Yes, but I had to go through the old pitch-black mine.” → <a href="#d-guthbered_8">guthbered_8</a></li>
+<li>“Yes, the passage in the mine below is safe.” → <a href="#d-guthbered_8">guthbered_8</a></li>
+<li>“No, just kidding. I scaled over the mountain ridge to get here.” → <a href="#d-guthbered_8">guthbered_8</a></li>
+</ul>
+<p><span id="d-guthbered_10"></span><strong><code>guthbered_10</code></strong> Guthbered: “The collapsed mine tunnel makes it hard for any traders to reach Prim. Our resources are really starting to dwindle.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_12">guthbered_12</a></li>
+</ul>
+<p><span id="d-guthbered_11"></span><strong><code>guthbered_11</code></strong> Guthbered: “We are not sure. But we have our suspicions.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_10">guthbered_10</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_6"></span><strong><code>guthbered_talkedto_harl_6</code></strong> Guthbered: “But I need to be sure that I can trust you. If you are working for them, you had better tell me now before things get ... messy.”</p>
+<ul>
+<li>“Sure, you can trust me. I will help the people of Prim.” → <a href="#d-guthbered_talkedto_harl_8">guthbered_talkedto_harl_8</a></li>
+<li>“Hmm, maybe I should help the people up in Blackwater mountain instead.” → <a href="#d-guthbered_workingforbwm_1">guthbered_workingforbwm_1</a></li>
+<li>“[Lie] You can trust me.” <em>(if reached stage 70 of <a href="../../quests/bwm_agent/#stage-70">The agent and the beast</a>)</em> → <a href="#d-guthbered_talkedto_harl_7">guthbered_talkedto_harl_7</a></li>
+</ul>
+<p><span id="d-guthbered_19"></span><strong><code>guthbered_19</code></strong> Guthbered: “Those evil bastards up in the Blackwater mountain settlement probably summoned them to attack us. They would rather see us perish.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/prim_hunt/#stage-20">Clouded intent</a></p>
+<ul>
+<li>Next → <a href="#d-guthbered_22">guthbered_22</a></li>
+</ul>
+<p><span id="d-guthbered_8"></span><strong><code>guthbered_8</code></strong> Guthbered: “OK. We will have to investigate that later.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_9">guthbered_9</a></li>
+</ul>
+<p><span id="d-guthbered_12"></span><strong><code>guthbered_12</code></strong> Guthbered: “On top of that, there are the attacks from the monsters that we have to deal with.” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/prim_hunt/#stage-11">Clouded intent</a></p>
+<ul>
+<li>“Yes, I noticed some monsters outside the village.” → <a href="#d-guthbered_13">guthbered_13</a></li>
+<li>“What monsters?” → <a href="#d-guthbered_13">guthbered_13</a></li>
+</ul>
+<p><span id="d-guthbered_talkedto_harl_8"></span><strong><code>guthbered_talkedto_harl_8</code></strong> Guthbered: “Good. I'm glad you want to help us.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_talkedto_harl_9">guthbered_talkedto_harl_9</a></li>
+</ul>
+<p><span id="d-guthbered_workingforbwm_1"></span><strong><code>guthbered_workingforbwm_1</code></strong> Guthbered: “Fine. You should leave now while you still can, traitor.” — <strong>effects:</strong> sets stage 250 of <a href="../../quests/prim_hunt/#stage-250">Clouded intent</a></p>
+<p><span id="d-guthbered_talkedto_harl_7"></span><strong><code>guthbered_talkedto_harl_7</code></strong> Guthbered: “Yet somehow I do not trust you.”</p>
+<ul>
+<li>“I was working for them, but I have decided to help you instead.” → <a href="#d-guthbered_talkedto_harl_8">guthbered_talkedto_harl_8</a></li>
+<li>“Why would I ever want to work for your filthy village? The people in the Blackwater mountain settlement deserve my…” → <a href="#d-guthbered_workingforbwm_1">guthbered_workingforbwm_1</a></li>
+</ul>
+<p><span id="d-guthbered_22"></span><strong><code>guthbered_22</code></strong> Guthbered: “We used to trade with them up there, but that all changed once they got greedy.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/bwm_agent/#stage-25">The agent and the beast</a></p>
+<ul>
+<li>“I met a man outside the collapsed mine saying he was from the Blackwater mountain settlement.” → <a href="#d-guthbered_26">guthbered_26</a></li>
+<li>“Do you need any help in dealing with those monsters?” → <a href="#d-guthbered_23">guthbered_23</a></li>
+<li>“I would be glad to help you with the monsters.” → <a href="#d-guthbered_24">guthbered_24</a></li>
+</ul>
+<p><span id="d-guthbered_9"></span><strong><code>guthbered_9</code></strong> Guthbered: “Anyway, as I was saying...”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_10">guthbered_10</a></li>
+</ul>
+<p><span id="d-guthbered_26"></span><strong><code>guthbered_26</code></strong> Guthbered: “A man, from the Blackwater mountain settlement, you say?”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_27">guthbered_27</a></li>
+</ul>
+<p><span id="d-guthbered_23"></span><strong><code>guthbered_23</code></strong> Guthbered: “Oh boy, do we? Yes please, you are welcome to help.”</p>
+<ul>
+<li>“I would be glad to help you with the monsters.” → <a href="#d-guthbered_24">guthbered_24</a></li>
+</ul>
+<p><span id="d-guthbered_24"></span><strong><code>guthbered_24</code></strong> Guthbered: “Do you really think you have what it takes to help us?”</p>
+<ul>
+<li>“I have left a bloody trail of monsters behind me.” → <a href="#d-guthbered_25">guthbered_25</a></li>
+<li>“Sure, I can handle it.” → <a href="#d-guthbered_25">guthbered_25</a></li>
+<li>“If the monsters are anything like those around where I entered the mine, it will be a tough fight. But I can manage it.” → <a href="#d-guthbered_25">guthbered_25</a></li>
+</ul>
+<p><span id="d-guthbered_27"></span><strong><code>guthbered_27</code></strong> Guthbered: “Did he say anything about us here in Prim?”</p>
+<ul>
+<li>“No. But he insisted that I go straight east when exiting the mine, thus not reaching Prim.” → <a href="#d-guthbered_28">guthbered_28</a></li>
+</ul>
+<p><span id="d-guthbered_25"></span><strong><code>guthbered_25</code></strong> Guthbered: “Great. I think we should go straight to the source with the problem.”</p>
+<ul>
+<li>Next → <a href="#d-guthbered_29">guthbered_29</a></li>
+</ul>
+<p><span id="d-guthbered_28"></span><strong><code>guthbered_28</code></strong> Guthbered: “That figures. They send out their spies even now.”</p>
+<ul>
+<li>“Do you need any help in dealing with those monsters?” → <a href="#d-guthbered_23">guthbered_23</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guthbered.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guthbered.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guthbered.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guthbered.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>guthbered</code> · Data from v0.8.18</small></p>
 
 

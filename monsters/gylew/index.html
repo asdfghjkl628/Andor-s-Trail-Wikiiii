@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -952,6 +1024,336 @@
 <ul>
 <li><a href="../../maps/waterway5/">waterway5</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/odd_coin_collector/">The odd coin collector</a>: stages 10, 11, 12, 13, 20, 60, 62, 100, 105</li>
+<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 44, 45, 47, 48</li>
+<li><a href="../../quests/laeroth_nondisplay/">laeroth_nondisplay (hidden flag)</a>: stages 105, 106, 107</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (71 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-gylew"></span><strong><code>gylew</code></strong> Gylew: “Hey kid.”</p>
+<ul>
+<li>“I'm not a kid anymore. Let's talk about the Korhald coins.” <em>(if reached stage 40 of <a href="../../quests/odd_coin_collector/#stage-40">The odd coin collector</a>; NOT reached stage 100 of <a href="../../quests/odd_coin_collector/#stage-100">The odd coin collector</a>; NOT reached stage 105 of <a href="../../quests/odd_coin_collector/#stage-105">The odd coin collector</a>)</em> → <a href="#d-gylew_korhald_10">gylew_korhald_10</a></li>
+<li>“Hey old man.” <em>(if NOT reached stage 100 of <a href="../../quests/odd_coin_collector/#stage-100">The odd coin collector</a>; NOT reached stage 105 of <a href="../../quests/odd_coin_collector/#stage-105">The odd coin collector</a>)</em> → <a href="#d-gylew_old_man">gylew_old_man</a></li>
+<li>“Hey. I found the Korhald tomb and it had two items that I think might interest you.” <em>(if latest stage of <a href="../../quests/odd_coin_collector/#stage-66">The odd coin collector</a> is 66; carry 1× <a href="../../items/shield_of_brave/">Shield of the Brave</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>)</em> → <a href="#d-gylew_korhald_cop_0">gylew_korhald_cop_0</a></li>
+<li>“Hey. I found the Korhald tomb and it had two items that I think might interest you.” <em>(if latest stage of <a href="../../quests/odd_coin_collector/#stage-66">The odd coin collector</a> is 66; wearing <a href="../../items/shield_of_brave/">Shield of the Brave</a>; carry 1× <a href="../../items/hero_coin/">Coin of Prestige</a>)</em> → <a href="#d-gylew_korhald_cop_0">gylew_korhald_cop_0</a></li>
+<li>“Inside the Korhald tomb, I found a locked chest. Do you know where I can find its key?” <em>(if reached stage 66 of <a href="../../quests/odd_coin_collector/#stage-66">The odd coin collector</a>; reached stage 50 of <a href="../../quests/nondisplay/#stage-50">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-odd_coin_collector_ask_about_locked_chest">odd_coin_collector_ask_about_locked_chest</a></li>
+<li>“About that "Coin of Prestige"...” <em>(if reached stage 47 of <a href="../../quests/nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-gylew_korhald_cop_30a">gylew_korhald_cop_30a</a></li>
+<li>“Hey. I need to go now and find this map.” <em>(if latest stage of <a href="../../quests/odd_coin_collector/#stage-60">The odd coin collector</a> is 60)</em> → <em>conversation ends</em></li>
+<li>“I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” <em>(if reached stage 100 of <a href="../../quests/odd_coin_collector/#stage-100">The odd coin collector</a>; carry 3× <a href="../../items/mysterious_coin/">Mysterious coin</a>)</em> → <a href="#d-coin_collector_troll_coins">coin_collector_troll_coins</a></li>
+<li>“We have no more business to discuss. I'll see you later.” <em>(if latest stage of <a href="../../quests/odd_coin_collector/#stage-100">The odd coin collector</a> is 100)</em> → <em>conversation ends</em></li>
+<li>“I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” <em>(if reached stage 105 of <a href="../../quests/odd_coin_collector/#stage-105">The odd coin collector</a>; carry 3× <a href="../../items/mysterious_coin/">Mysterious coin</a>)</em> → <a href="#d-coin_collector_troll_coins">coin_collector_troll_coins</a></li>
+<li>“I was glad to help fulfill you and your father's dream, but I need to go now.” <em>(if reached stage 105 of <a href="../../quests/odd_coin_collector/#stage-105">The odd coin collector</a>)</em> → <em>conversation ends</em></li>
+<li>“[Lie]I have these bronze and silver coins that I "acquired" in a game of chance. I would like to know if you are…” <em>(if reached stage 106 of <a href="../../quests/laeroth_nondisplay/#stage-106">laeroth_nondisplay (hidden flag)</a>; reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>; carry 50× <a href="../../items/bronze_coin/">Bronze coin</a>; carry 60× <a href="../../items/silver_coin/">Silver coin</a>; NOT reached stage 107 of <a href="../../quests/laeroth_nondisplay/#stage-107">laeroth_nondisplay (hidden flag)</a>)</em> → <a href="#d-coin_collector_thief_coins_10">coin_collector_thief_coins_10</a></li>
+</ul>
+<p><span id="d-gylew_korhald_10"></span><strong><code>gylew_korhald_10</code></strong> Gylew: “Did you find them?”</p>
+<ul>
+<li>“Yes.” <em>(if carry 1× <a href="../../items/korhald_coins/">Korhald coin chest</a>; carry 1× <a href="../../items/forenza_key/">Forenza's key</a>; NOT reached stage 62 of <a href="../../quests/odd_coin_collector/#stage-62">The odd coin collector</a>)</em> → <a href="#d-gylew_korhald_20">gylew_korhald_20</a></li>
+<li>“Yes and I already gave them to you.” <em>(if reached stage 105 of <a href="../../quests/laeroth_nondisplay/#stage-105">laeroth_nondisplay (hidden flag)</a>)</em> → <a href="#d-gylew_korhald_25">gylew_korhald_25</a></li>
+<li>“Yes, I found the Korhald coins, but you are not getting them...[Attack]” <em>(if reached stage 50 of <a href="../../quests/odd_coin_collector/#stage-50">The odd coin collector</a>)</em> → <a href="#d-gylew_attack">gylew_attack</a></li>
+<li>“Yes, but I don't have them on me. I will go get them.” <em>(if NOT carry 1× <a href="../../items/korhald_coins/">Korhald coin chest</a>; NOT reached stage 62 of <a href="../../quests/odd_coin_collector/#stage-62">The odd coin collector</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gylew_old_man"></span><strong><code>gylew_old_man</code></strong> Gylew: “Oh, you think you are a funny kid? I see.”</p>
+<ul>
+<li>“Let's talk about the Korhald coins.” <em>(if reached stage 40 of <a href="../../quests/odd_coin_collector/#stage-40">The odd coin collector</a>)</em> → <a href="#d-gylew_korhald_10">gylew_korhald_10</a></li>
+<li>“Yeah, actually, I do think so.” <em>(if NOT reached stage 20 of <a href="../../quests/odd_coin_collector/#stage-20">The odd coin collector</a>)</em> → <a href="#d-gylew_old_man_10a">gylew_old_man_10a</a></li>
+<li>“Umm...” <em>(if reached stage 20 of <a href="../../quests/odd_coin_collector/#stage-20">The odd coin collector</a>)</em> → <a href="#d-gylew_old_man_10b">gylew_old_man_10b</a></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_0"></span><strong><code>gylew_korhald_cop_0</code></strong> Gylew: “Oh, really?! Let me see them and we can talk more.”</p>
+<ul>
+<li>“[You show Gylew the Coin of Prestige and the Shield of the brave]” → <a href="#d-gylew_korhald_cop_10">gylew_korhald_cop_10</a></li>
+</ul>
+<p><span id="d-odd_coin_collector_ask_about_locked_chest"></span><strong><code>odd_coin_collector_ask_about_locked_chest</code></strong> Gylew: “A locked chest you say? Well, I'm not really sure, but logic tells me to look back in the Laeroth Manor.”</p>
+<ul>
+<li>“Oh, yeah. That makes sense.” → <em>conversation ends</em></li>
+<li>“Oh, come on! I don't want to go back there again.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_30a"></span><strong><code>gylew_korhald_cop_30a</code></strong> Gylew: “I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it.”</p>
+<ul>
+<li>“Reward?! I always love the sound of that. What are we talking here? 10,000 gold? 20,000 gold?” → <a href="#d-gylew_korhald_cop_40">gylew_korhald_cop_40</a></li>
+<li>“Here, take it. I have enough coins.” <em>(if hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a>)</em> → <a href="#d-gylew_korhald_cop_35">gylew_korhald_cop_35</a></li>
+</ul>
+<p><span id="d-coin_collector_troll_coins"></span><strong><code>coin_collector_troll_coins</code></strong> Gylew: “Ah, these are Enchanted Coins, crafted by ancient wizards who once drew magic from the well's waters. The runes on these coins change patterns, a sign of their magical origin. Such artifacts are rare indeed.”</p>
+<ul>
+<li>“What can you tell me about their enchantment?” → <a href="#d-coin_collector_troll_coins_2">coin_collector_troll_coins_2</a></li>
+<li>“Boring.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_10"></span><strong><code>coin_collector_thief_coins_10</code></strong> Gylew: “Sure. Let's see what you have.”</p>
+<ul>
+<li>“[Show the coins]” → <a href="#d-coin_collector_thief_coins_20">coin_collector_thief_coins_20</a></li>
+</ul>
+<p><span id="d-gylew_korhald_20"></span><strong><code>gylew_korhald_20</code></strong> Gylew: “Great! Let me have them.”</p>
+<ul>
+<li>“Here you go.” <em>(if hand over 1× <a href="../../items/korhald_coins/">Korhald coin chest</a>)</em> → <a href="#d-gylew_korhald_30">gylew_korhald_30</a></li>
+</ul>
+<p><span id="d-gylew_korhald_25"></span><strong><code>gylew_korhald_25</code></strong> Gylew: “You did? Oh, yes, I remember now.”</p>
+<ul>
+<li>“You're a crazy old man.” → <a href="#d-gylew_korhald_27">gylew_korhald_27</a></li>
+</ul>
+<p><span id="d-gylew_attack"></span><strong><code>gylew_attack</code></strong> Gylew: “What? Why?” — <strong>effects:</strong> sets stage 62 of <a href="../../quests/odd_coin_collector/#stage-62">The odd coin collector</a></p>
+<ul>
+<li>“You are not rightful.” → <a href="#d-gylew_attack_2">gylew_attack_2</a></li>
+</ul>
+<p><span id="d-gylew_old_man_10a"></span><strong><code>gylew_old_man_10a</code></strong> Gylew: “Show me your gold.”</p>
+<ul>
+<li>“No way. I'm out of here.” → <em>conversation ends</em></li>
+<li>“Um...sure, I guess.” → <a href="#d-gylew2">gylew2</a></li>
+</ul>
+<p><span id="d-gylew_old_man_10b"></span><strong><code>gylew_old_man_10b</code></strong> Gylew: “What are you waiting for? Go find those Korhald coins!”</p>
+<p><span id="d-gylew_korhald_cop_10"></span><strong><code>gylew_korhald_cop_10</code></strong> Gylew: “Hmm...these are indeed interesting. Very interesting in fact.”</p>
+<ul>
+<li>“[While trying to hold back the giant smile that you can feel growing upon your face, you ask 'why is that?']” → <a href="#d-gylew_korhald_cop_20">gylew_korhald_cop_20</a></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_40"></span><strong><code>gylew_korhald_cop_40</code></strong> Gylew: “[While laughing] Now, now, don't get greedy on me. How about 7,000 gold and I will tell people we are friends?”</p>
+<ul>
+<li>“Sounds like a great deal. I'll take it.” <em>(if hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a>)</em> → <a href="#d-gylew_korhald_cop_50">gylew_korhald_cop_50</a></li>
+<li>“Let me think about it. I will be back shortly.” → <a href="#d-gylew_korhald_cop_45">gylew_korhald_cop_45</a></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_35"></span><strong><code>gylew_korhald_cop_35</code></strong> Gylew: “Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you make that shield a little bit better.” — <strong>effects:</strong> sets stage 105 of <a href="../../quests/odd_coin_collector/#stage-105">The odd coin collector</a>, clears stage 47 of <a href="../../quests/nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>, sets stage 106 of <a href="../../quests/laeroth_nondisplay/#stage-106">laeroth_nondisplay (hidden flag)</a></p>
+<p><span id="d-coin_collector_troll_coins_2"></span><strong><code>coin_collector_troll_coins_2</code></strong> Gylew: “The coins hold a faint echo of the well's enchantment. Though their magic is subtle, they carry the essence of the well's power. As a token of my gratitude for bringing these to me, I offer you this rare artifact in exchange for three of…”</p>
+<ul>
+<li>“Without knowing more about this "rare artifact", I'm afraid that I will have to pass on your offer.” → <a href="#d-coin_collector_troll_coins_3a">coin_collector_troll_coins_3a</a></li>
+<li>“Umm, I guess I can trust you now.” <em>(if hand over 3× <a href="../../items/mysterious_coin/">Mysterious coin</a>)</em> → <a href="#d-coin_collector_troll_coins_3b">coin_collector_troll_coins_3b</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_20"></span><strong><code>coin_collector_thief_coins_20</code></strong> Gylew: “[The coin collector eagerly examines the pilfered coins, eyes gleaming with fascination.]...”</p>
+<ul>
+<li>Next → <a href="#d-coin_collector_thief_coins_30">coin_collector_thief_coins_30</a></li>
+</ul>
+<p><span id="d-gylew_korhald_30"></span><strong><code>gylew_korhald_30</code></strong> Gylew: “[Gylew examines the chest] What?! There are two locks! How can this be? Do you know anything about a second key?” — <strong>effects:</strong> sets stage 105 of <a href="../../quests/laeroth_nondisplay/#stage-105">laeroth_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Yes. In fact, I met a 'friend' of yours who told me all about it.” → <a href="#d-gylew_korhald_40">gylew_korhald_40</a></li>
+</ul>
+<p><span id="d-gylew_korhald_27"></span><strong><code>gylew_korhald_27</code></strong> Gylew: “There are two locks! How can this be? Do you know anything about a second key?”</p>
+<ul>
+<li>“Yes. In fact, I met a 'friend' of yours who told me all about it.” → <a href="#d-gylew_korhald_40">gylew_korhald_40</a></li>
+</ul>
+<p><span id="d-gylew_attack_2"></span><strong><code>gylew_attack_2</code></strong> Gylew: “My trusty henchman will take care of you.” — <strong>effects:</strong> removes monsters from waterway5, spawns monsters on waterway5</p>
+<ul>
+<li>“Oh, you need someone to help you?” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-gylew2"></span><strong><code>gylew2</code></strong> Gylew: “Great! Let me see.”</p>
+<ul>
+<li>Next → <a href="#d-gylew3">gylew3</a></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_20"></span><strong><code>gylew_korhald_cop_20</code></strong> Gylew: “Well, for starters, this shield has the Korhald family crest engraved on its front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it.”</p>
+<ul>
+<li>Next → <a href="#d-gylew_korhald_cop_30">gylew_korhald_cop_30</a></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_50"></span><strong><code>gylew_korhald_cop_50</code></strong> Gylew: “Excellent. Come see me if you ever find any more interesting coins.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, sets stage 100 of <a href="../../quests/odd_coin_collector/#stage-100">The odd coin collector</a>, clears stage 47 of <a href="../../quests/nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>, sets stage 106 of <a href="../../quests/laeroth_nondisplay/#stage-106">laeroth_nondisplay (hidden flag)</a></p>
+<p><span id="d-gylew_korhald_cop_45"></span><strong><code>gylew_korhald_cop_45</code></strong> Gylew: “OK, but don't keep an old man waiting too long. I want that coin.” — <strong>effects:</strong> sets stage 47 of <a href="../../quests/nondisplay/#stage-47">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-coin_collector_troll_coins_3a"></span><strong><code>coin_collector_troll_coins_3a</code></strong> Gylew: “Well, if you change your mind, I will be here.”</p>
+<p><span id="d-coin_collector_troll_coins_3b"></span><strong><code>coin_collector_troll_coins_3b</code></strong> Gylew: “For your effort in retrieving these valuable coins, take this rare artifact. It is a relic from the same era as the coins, crafted with similar enchantments. It will serve you well in your journeys, offering protection and a touch of…” — <strong>effects:</strong> gives 1× <a href="../../items/circlet_clarity/">Circlet of clarity</a></p>
+<p><span id="d-coin_collector_thief_coins_30"></span><strong><code>coin_collector_thief_coins_30</code></strong> Gylew: “Ah, these coins tell a tale of clandestine dealings and shadowy alliances.”</p>
+<ul>
+<li>Next → <a href="#d-coin_collector_thief_coins_35">coin_collector_thief_coins_35</a></li>
+</ul>
+<p><span id="d-gylew_korhald_40"></span><strong><code>gylew_korhald_40</code></strong> Gylew: “And whom may that be?”</p>
+<ul>
+<li>“Your half-brother, Forenza. What a story he had to tell.” → <a href="#d-gylew_korhald_50">gylew_korhald_50</a></li>
+</ul>
+<p><span id="d-gylew3"></span><strong><code>gylew3</code></strong> Gylew: “I am a rare coin collector. Have you ever noticed how some of your gold is more unique or older looking than others?”</p>
+<ul>
+<li>“Yes, I have.” → <a href="#d-gylew4">gylew4</a></li>
+<li>“[Lie] Yes, yes I have.” → <a href="#d-gylew4">gylew4</a></li>
+<li>“Honestly, I just use it to buy bonemeal.” <em>(if carry 20× <a href="../../items/bonemeal_potion/">Bonemeal potion</a>)</em> → <a href="#d-gylew4a">gylew4a</a></li>
+<li>“No and I don't care.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gylew_korhald_cop_30"></span><strong><code>gylew_korhald_cop_30</code></strong> Gylew: “But this coin you have here is a completely different story. I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it.”</p>
+<ul>
+<li>“Reward?! I always love the sound of that. What are we talking here? 10,000 gold? 20,000 gold?” → <a href="#d-gylew_korhald_cop_40">gylew_korhald_cop_40</a></li>
+<li>“Here, take it. I have enough coins.” <em>(if hand over 1× <a href="../../items/hero_coin/">Coin of Prestige</a>)</em> → <a href="#d-gylew_korhald_cop_35">gylew_korhald_cop_35</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_35"></span><strong><code>coin_collector_thief_coins_35</code></strong> Gylew: “These bronze pieces bear the mark of the Lunar Whisper, an infamous thieves' guild that once ruled the underground markets. Legend has it, these coins were minted in secret, their alloy infused with fragments of moonstone to enhance the…”</p>
+<ul>
+<li>Next → <a href="#d-coin_collector_thief_coins_40">coin_collector_thief_coins_40</a></li>
+</ul>
+<p><span id="d-gylew_korhald_50"></span><strong><code>gylew_korhald_50</code></strong> Gylew: “But I see that you did not listen to those 'stories' as you would not be here if you had. What did he tell you about the second key?”</p>
+<ul>
+<li>“Well, for starters, he told me that he had it and he would not give it to me without a fight. Which of course, we did…” → <a href="#d-gylew_korhald_60">gylew_korhald_60</a></li>
+</ul>
+<p><span id="d-gylew4"></span><strong><code>gylew4</code></strong> Gylew: “Great. Please let me see...agh, interesting.”</p>
+<ul>
+<li>“What? What do you see?” → <a href="#d-gylew5">gylew5</a></li>
+</ul>
+<p><span id="d-gylew4a"></span><strong><code>gylew4a</code></strong> Gylew: “You know that stuff is illegal and that you can get in serious trouble just for possessing it?”</p>
+<ul>
+<li>“What can I say? I like to go rogue.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_40"></span><strong><code>coin_collector_thief_coins_40</code></strong> Gylew: “These silver coins hold the captivating history of a nomadic people, a seafaring tribe whose exploits were as boundless as the horizon. Born from the hands of skilled minters among the maritime wanderers, these coins tell the tale of the…”</p>
+<ul>
+<li>Next → <a href="#d-coin_collector_thief_coins_45">coin_collector_thief_coins_45</a></li>
+</ul>
+<p><span id="d-gylew_korhald_60"></span><strong><code>gylew_korhald_60</code></strong> Gylew: “You killed my brother?”</p>
+<ul>
+<li>“YES, and I loved doing so. Pathetic creature he was.” → <a href="#d-gylew_korhald_70">gylew_korhald_70</a></li>
+<li>“I was forced to. He gave me no choice.” → <a href="#d-gylew_korhald_70">gylew_korhald_70</a></li>
+<li>“[Lie] No, but I beat him up good and took his key.” → <a href="#d-gylew_korhald_70">gylew_korhald_70</a></li>
+</ul>
+<p><span id="d-gylew5"></span><strong><code>gylew5</code></strong> Gylew: “This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger…”</p>
+<ul>
+<li>“Oh, I see.” <em>(if reached stage 220 of <a href="../../quests/mermaid_scale/#stage-220">The silver scale</a>; have 5 gold; NOT reached stage 10 of <a href="../../quests/odd_coin_collector/#stage-10">The odd coin collector</a>; NOT reached stage 11 of <a href="../../quests/odd_coin_collector/#stage-11">The odd coin collector</a>)</em> → <a href="#d-gylew6">gylew6</a></li>
+<li>“[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?” <em>(if reached stage 250 of <a href="../../quests/nondisplay_2/#stage-250">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 12 of <a href="../../quests/odd_coin_collector/#stage-12">The odd coin collector</a>; have 10 gold; NOT reached stage 13 of <a href="../../quests/odd_coin_collector/#stage-13">The odd coin collector</a>)</em> → <a href="#d-gylew8">gylew8</a></li>
+<li>“Yes, I know this already.” <em>(if reached stage 10 of <a href="../../quests/odd_coin_collector/#stage-10">The odd coin collector</a>)</em> → <a href="#d-gylew7">gylew7</a></li>
+<li>“Yes, I know this already.” <em>(if reached stage 11 of <a href="../../quests/odd_coin_collector/#stage-11">The odd coin collector</a>)</em> → <a href="#d-gylew7">gylew7</a></li>
+<li>“I am so not interested.” <em>(if NOT reached stage 220 of <a href="../../quests/mermaid_scale/#stage-220">The silver scale</a>)</em> → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_45"></span><strong><code>coin_collector_thief_coins_45</code></strong> Gylew: “The silver pieces depict a mighty ship sailing under the moonlit sky, capturing the essence of the Ocean Nomads' freedom and unity. Legends speak of these coins being crafted during the tribe's grand gatherings, where sailors from various…”</p>
+<ul>
+<li>“So they are priceless?” → <a href="#d-coin_collector_thief_coins_50">coin_collector_thief_coins_50</a></li>
+</ul>
+<p><span id="d-gylew_korhald_70"></span><strong><code>gylew_korhald_70</code></strong> Gylew: “I guess I should be saddened, but I am not. Can I have my brother's key now? I've waited a long time for these coins.”</p>
+<ul>
+<li>“Of course.” <em>(if hand over 1× <a href="../../items/forenza_key/">Forenza's key</a>)</em> → <a href="#d-gylew_korhald_80">gylew_korhald_80</a></li>
+</ul>
+<p><span id="d-gylew6"></span><strong><code>gylew6</code></strong> Gylew: “Where did you get these coins?! [Gylew shows you a set of identical coins]”</p>
+<ul>
+<li>“None of your business. Now get to the point.” → <a href="#d-gylew7">gylew7</a></li>
+<li>“It was a gift from a friend. Can we get right to what you want?” → <a href="#d-gylew7">gylew7</a></li>
+<li>“With all of my coins, do you actually think I can remember?” → <a href="#d-gylew7">gylew7</a></li>
+<li>“It was a reward for helping a mermaid.” → <a href="#d-gylew7a">gylew7a</a></li>
+</ul>
+<p><span id="d-gylew8"></span><strong><code>gylew8</code></strong> Gylew: “Where did you get these coins?! [Gylew shows you a collection of identical coins]”</p>
+<ul>
+<li>“I took them off of a dead guy.” → <a href="#d-gylew8a_1">gylew8a_1</a></li>
+<li>“I got them from a friend” → <a href="#d-gylew8a_2">gylew8a_2</a></li>
+<li>“That's none of your business.” → <a href="#d-gylew7">gylew7</a></li>
+<li>“I don't know. After all, I have looted many a gold coin in my travels.” → <a href="#d-gylew8a_2">gylew8a_2</a></li>
+</ul>
+<p><span id="d-gylew7"></span><strong><code>gylew7</code></strong> Gylew: “OK, I will get back to my ask of you now.”</p>
+<ul>
+<li>“Um, is this going to take long? I have to find my brother.” → <a href="#d-gylew9">gylew9</a></li>
+<li>“Interesting, it really is, but I'm leaving.” → <em>conversation ends</em></li>
+<li>“Interesting. Please enlighten me some more.” → <a href="#d-gylew9">gylew9</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_50"></span><strong><code>coin_collector_thief_coins_50</code></strong> Gylew: “[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past, a glimpse into the underground world where alliances were forged in secrecy. I'd be willing to make you an…”</p>
+<ul>
+<li>“So you want to buy them all?” → <a href="#d-coin_collector_thief_coins_55">coin_collector_thief_coins_55</a></li>
+</ul>
+<p><span id="d-gylew_korhald_80"></span><strong><code>gylew_korhald_80</code></strong> Gylew: “Thank you! It is so nice to finally be this close to my life's dream.”</p>
+<ul>
+<li>Next → <a href="#d-korhald_chest_examine_10_gylew">korhald_chest_examine_10_gylew</a></li>
+</ul>
+<p><span id="d-gylew7a"></span><strong><code>gylew7a</code></strong> Gylew: “What?! Seriously?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-gylew7a_1">gylew7a_1</a></li>
+<li>“No.” → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew8a_1"></span><strong><code>gylew8a_1</code></strong> Gylew: “What?! You went digging through his corpse?”</p>
+<ul>
+<li>“Don't judge me. I was desperate at the time.” → <a href="#d-gylew8a_2">gylew8a_2</a></li>
+</ul>
+<p><span id="d-gylew8a_2"></span><strong><code>gylew8a_2</code></strong> Gylew: “I must have them. All 10 of them!”</p>
+<ul>
+<li>“OK. What do you have of value?” <em>(if pay 10 gold)</em> → <a href="#d-gylew8a_3">gylew8a_3</a></li>
+<li>“Here, take it.” → <a href="#d-gylew8a_4">gylew8a_4</a></li>
+<li>“Nope. You can not have them.” → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew9"></span><strong><code>gylew9</code></strong> Gylew: “You see, I was raised in Feygard by my father who was commissioned to create gold coins. All he ever talked about was coins and we shared this common love.”</p>
+<ul>
+<li>Next → <a href="#d-gylew10">gylew10</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_55"></span><strong><code>coin_collector_thief_coins_55</code></strong> Gylew: “Well, yes. But not all of them. Afterall, who needs 110 of these?”</p>
+<ul>
+<li>“OK, so what do you want to buy?” → <a href="#d-coin_collector_thief_coins_60">coin_collector_thief_coins_60</a></li>
+</ul>
+<p><span id="d-korhald_chest_examine_10_gylew"></span><strong><code>korhald_chest_examine_10_gylew</code></strong> <a href="../none/">Dummy NPC</a>: “He opens the chest and begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...”</p>
+<ul>
+<li>Next → <a href="#d-korhald_chest_examine_20_gylew">korhald_chest_examine_20_gylew</a></li>
+</ul>
+<p><span id="d-gylew7a_1"></span><strong><code>gylew7a_1</code></strong> Gylew: “I must have one.”</p>
+<ul>
+<li>“OK. What do you have of value?” <em>(if pay 5 gold)</em> → <a href="#d-gylew7a_2">gylew7a_2</a></li>
+<li>“Here, take it.” <em>(if pay 5 gold)</em> → <a href="#d-gylew7a_3">gylew7a_3</a></li>
+<li>“Nope, they are mine.” → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew8a_3"></span><strong><code>gylew8a_3</code></strong> Gylew: “Here is 550 gold” — <strong>effects:</strong> gives 550× <a href="../../items/gold/">Gold coins</a>, sets stage 12 of <a href="../../quests/odd_coin_collector/#stage-12">The odd coin collector</a></p>
+<ul>
+<li>“Wow! I get 550 gold for the 10 I gave you?” → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew8a_4"></span><strong><code>gylew8a_4</code></strong> Gylew: “Much appreciated. Thank you.” — <strong>effects:</strong> sets stage 13 of <a href="../../quests/odd_coin_collector/#stage-13">The odd coin collector</a>, gives -10× <a href="../../items/gold/">Gold coins</a>, gives 1× <a href="../../items/feygard_plated_gloves/">Feygard plated gloves</a></p>
+<ul>
+<li>Next → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew10"></span><strong><code>gylew10</code></strong> Gylew: “He once told me this story when I was very young about this magnificent coin collection called the 'Korhald coins'. So from a very young age I was fascinated.”</p>
+<ul>
+<li>“You mentioned 'Korhald coins'. Who or what is 'Korhald'?” → <a href="#d-gylew10_1">gylew10_1</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_60"></span><strong><code>coin_collector_thief_coins_60</code></strong> Gylew: “Well, let's talk price first. You see, the silver coin is worth 11 gold in weight and the bronze is worth 5 gold in weight. But, to a collector they are worth more. Let's make this simple. I will pay you double those values for each coin…”</p>
+<ul>
+<li>“So how much total than?” → <a href="#d-coin_collector_thief_coins_65">coin_collector_thief_coins_65</a></li>
+</ul>
+<p><span id="d-korhald_chest_examine_20_gylew"></span><strong><code>korhald_chest_examine_20_gylew</code></strong> <a href="./">Gylew</a>: “Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]”</p>
+<ul>
+<li>“A map? Really? Where does it point to?” → <a href="#d-korhald_chest_examine_30">korhald_chest_examine_30</a></li>
+</ul>
+<p><span id="d-gylew7a_2"></span><strong><code>gylew7a_2</code></strong> Gylew: “Here is 500 gold.” — <strong>effects:</strong> gives 500× <a href="../../items/gold/">Gold coins</a>, sets stage 10 of <a href="../../quests/odd_coin_collector/#stage-10">The odd coin collector</a></p>
+<ul>
+<li>“Now that's funny. A coin collector traded me his gold coins for my coins.” <em>(if reached stage 250 of <a href="../../quests/nondisplay_2/#stage-250">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 12 of <a href="../../quests/odd_coin_collector/#stage-12">The odd coin collector</a>; have 10 gold; NOT reached stage 13 of <a href="../../quests/odd_coin_collector/#stage-13">The odd coin collector</a>)</em> → <a href="#d-gylew8">gylew8</a></li>
+<li>“Now that's funny. A coin collector traded me his gold coins for my coins.” <em>(if NOT reached stage 250 of <a href="../../quests/nondisplay_2/#stage-250">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew7a_3"></span><strong><code>gylew7a_3</code></strong> Gylew: “That was foolish of you. This is very valuable and you just gave it to me.” — <strong>effects:</strong> sets stage 11 of <a href="../../quests/odd_coin_collector/#stage-11">The odd coin collector</a></p>
+<ul>
+<li>“Well, what can I say? You caught me me wanting to be charitable.” <em>(if reached stage 250 of <a href="../../quests/nondisplay_2/#stage-250">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 12 of <a href="../../quests/odd_coin_collector/#stage-12">The odd coin collector</a>; have 10 gold; NOT reached stage 13 of <a href="../../quests/odd_coin_collector/#stage-13">The odd coin collector</a>)</em> → <a href="#d-gylew8">gylew8</a></li>
+<li>“Well, I just gave it to you because I was hoping for something special in return.” <em>(if NOT reached stage 250 of <a href="../../quests/nondisplay_2/#stage-250">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-gylew7">gylew7</a></li>
+</ul>
+<p><span id="d-gylew10_1"></span><strong><code>gylew10_1</code></strong> Gylew: “You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story...”</p>
+<ul>
+<li>Next → <a href="#d-gylew10_2">gylew10_2</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_65"></span><strong><code>coin_collector_thief_coins_65</code></strong> Gylew: “110 gold for the silver and 50 for the bronze coins.”</p>
+<ul>
+<li>“That little? No, thanks” → <em>conversation ends</em></li>
+<li>“Well, something is better than nothing.” <em>(if hand over 5× <a href="../../items/silver_coin/">Silver coin</a>; hand over 5× <a href="../../items/bronze_coin/">Bronze coin</a>)</em> → <a href="#d-coin_collector_thief_coins_70">coin_collector_thief_coins_70</a></li>
+</ul>
+<p><span id="d-korhald_chest_examine_30"></span><strong><code>korhald_chest_examine_30</code></strong> Gylew: “Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exist in Dhayavar.”</p>
+<ul>
+<li>“Yeah, I can see what you mean.” → <a href="#d-korhald_chest_examine_40">korhald_chest_examine_40</a></li>
+</ul>
+<p><span id="d-gylew10_2"></span><strong><code>gylew10_2</code></strong> Gylew: “My father never mentioned the exact location to me, but from my efforts, I've ascertained a location near Remgard.”</p>
+<ul>
+<li>“Remgard? Where's that?” <em>(if NOT reached stage 170 of <a href="../../quests/nondisplay_2/#stage-170">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-gylew10_2_1">gylew10_2_1</a></li>
+<li>“Great, I see where this is going. I need to go back to Remgard.” <em>(if reached stage 170 of <a href="../../quests/nondisplay_2/#stage-170">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-gylew11">gylew11</a></li>
+</ul>
+<p><span id="d-coin_collector_thief_coins_70"></span><strong><code>coin_collector_thief_coins_70</code></strong> Gylew: “Thank you so much.” — <strong>effects:</strong> gives 160× <a href="../../items/gold/">Gold coins</a>, sets stage 107 of <a href="../../quests/laeroth_nondisplay/#stage-107">laeroth_nondisplay (hidden flag)</a></p>
+<p><span id="d-korhald_chest_examine_40"></span><strong><code>korhald_chest_examine_40</code></strong> Gylew: “But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.”</p>
+<ul>
+<li>Next → <a href="#d-korhald_chest_examine_50">korhald_chest_examine_50</a></li>
+</ul>
+<p><span id="d-gylew10_2_1"></span><strong><code>gylew10_2_1</code></strong> Gylew: “It is far east of here near a place called Laeroth Manor.”</p>
+<ul>
+<li>Next → <a href="#d-gylew12">gylew12</a></li>
+</ul>
+<p><span id="d-gylew11"></span><strong><code>gylew11</code></strong> Gylew: “Yes, a place called Laeroth Manor.”</p>
+<ul>
+<li>Next → <a href="#d-gylew12">gylew12</a></li>
+</ul>
+<p><span id="d-korhald_chest_examine_50"></span><strong><code>korhald_chest_examine_50</code></strong> Gylew: “Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.” — <strong>effects:</strong> gives 1× <a href="../../items/korhald_map/">Mysterious Korhald map</a>, sets stage 60 of <a href="../../quests/odd_coin_collector/#stage-60">The odd coin collector</a>, gives 1× <a href="../../items/korhald_chamber_key/">Mysterious Korhald pendant</a>, sets stage 44 of <a href="../../quests/nondisplay/#stage-44">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>, sets stage 45 of <a href="../../quests/nondisplay/#stage-45">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>, sets stage 48 of <a href="../../quests/nondisplay/#stage-48">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-gylew12"></span><strong><code>gylew12</code></strong> Gylew: “We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?”</p>
+<ul>
+<li>“Yes, of course, you need my help.” → <a href="#d-gylew13">gylew13</a></li>
+<li>“Pathetic creatures you two are. Needing the help of a child. I will do it.” → <a href="#d-gylew13">gylew13</a></li>
+<li>“Depends. What is the reward?” → <a href="#d-gylew14">gylew14</a></li>
+<li>“No” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gylew13"></span><strong><code>gylew13</code></strong> Gylew: “Then please head to the east and return to me when you find the Korhald coins.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/odd_coin_collector/#stage-20">The odd coin collector</a></p>
+<p><span id="d-gylew14"></span><strong><code>gylew14</code></strong> Gylew: “We will discuss this after you have completed the job. But remember, I am from Feygard and can reward you handsomly.”</p>
+<ul>
+<li>“Sounds good.” → <a href="#d-gylew13">gylew13</a></li>
+<li>“OK, but I have high expectations. Please be prepared to pay up.” → <a href="#d-gylew13">gylew13</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gylew.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gylew.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gylew.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gylew.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>gylew</code> · Data from v0.8.18</small></p>
 
 

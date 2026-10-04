@@ -823,13 +823,129 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#other-map-events" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Other map events
+        Overview
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -851,60 +967,236 @@
 
 
 <h1 id="a-path-to-the-duleian-road">A path to the Duleian Road<a class="headerlink" href="#a-path-to-the-duleian-road" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>pathway_fallhaven</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>7 (completes at 60)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/warden/">Guard captain</a>, <a href="../../monsters/jakrar/">Jakrar</a>, <a href="../../monsters/guard_pathway/">Watchman</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/fallhaven_ne/">fallhaven_ne</a>, <a href="../../maps/fallhaven_prison/">fallhaven_prison</a>, <a href="../../maps/fallhaven_sw/">fallhaven_sw</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>1,000</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>I talked to a guard in the east of Fallhaven. He watches over the old passage to the Duleian Road, which is now blocked by fallen trees. If I want to help opening the path I should talk to his superior, the guard captain in the Fallhaven prison.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to <a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>) to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../farrik/#stage-60">Night visit</a></td>
+<td>stage 60 reached, for stage 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../tunlon_fence/#stage-20">It makes no fence</a></td>
+<td>stage 20 there needs stage 50 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>I talked to a guard in the east of Fallhaven. He watches over the old passage to the Duleian Road, which is now blocked by fallen trees. If I want to help opening the path I should talk to his superior, the guard captain in the Fallhaven prison.</td>
+<td><a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>I talked to the guard captain. I wasn't able to convince him, but he advised me to talk to the woodcutter Jakrar, who lives just south of Fallhaven's prison.</td>
+<td><a href="../../monsters/warden/">Guard captain</a> (<a href="../../maps/fallhaven_prison/">fallhaven_prison</a>)</td>
+<td>stage 10</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I talked to Jakrar the woodcutter. He will only clear the trees away if I do him a favor. I should search for his favorite axe east of the Crossroads Guardhouse, located to the north of Fallhaven. I should keep my eyes open for an evil wolf pack.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/roadbeforecrossroads/">Roadbeforecrossroads</a>.</span></td>
+<td><a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
+<td>stage 20</td>
+<td>–</td>
 </tr>
 <tr>
-<td><span id="stage-40"></span>40</td>
-<td>I have found a wolf pack and slain their leader. Beneath its remains I found Jakrar's axe. I should take it back to him.</td>
+<td><span id="stage-35"></span>35</td>
+<td><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads/">Roadbeforecrossroads</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/roadbeforecrossroads/">roadbeforecrossroads</a></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>I showed Jakrar the axe I found and he recognized it immediately.</td>
+<td><a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
+<td>hand over 1× <a href="../../items/jakrar_axe/">Jakrar's woodcutting axe</a>, stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>Jakrar was very happy to see his good old axe again. He expressed his gratitude, and started to clear away the trees immediately.</td>
+<td><a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
+<td>stage 40</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>Now the woodcutter has cleared away all the trees that blocked the path. Finally, the townsfolk have got back their shortcut to the Duleian Road! <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>)</td>
+<td>stage 50</td>
+<td>700 XP</td>
 </tr>
 </tbody>
 </table>
-<h2 id="other-map-events">Other map events<a class="headerlink" href="#other-map-events" title="Permanent link">&para;</a></h2>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>) → choose “You're right, but I'd really love to be able to take this path.” → <strong>stage 10</strong>. NPC: “OK, maybe you can be of use. Talk to the guard captain. Maybe you can convince him to pay the woodcutter first. But I…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/warden/">Guard captain</a> (<a href="../../maps/fallhaven_prison/">fallhaven_prison</a>) → choose “So where can I find him?” — <strong>conditions:</strong> reached stage 60 of <a href="../farrik/#stage-60">Night visit</a>; latest stage of <a href="./#stage-10">A path to the Duleian Road</a> is 10 → <strong>stage 20</strong>. NPC: “He lives in his hut, immediately south of my prison. Don't you bother me again!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “So I guess you want me to retrieve your axe?” — <strong>conditions:</strong> latest stage of <a href="./#stage-20">A path to the Duleian Road</a> is 20 → <strong>stage 30</strong>. NPC: “Yes exactly. If you would do me that favor I will gladly cut away the trees and receive payment afterwards. Just head…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/roadbeforecrossroads/">roadbeforecrossroads</a> → the conversation leads here automatically — <strong>conditions:</strong> killed 1× <a href="../../monsters/wolf_leader/">Korvan the leader of the wolves</a>; NOT reached stage 35 of <a href="./#stage-35">A path to the Duleian Road</a> → <strong>stage 35</strong>. NPC: “You have found Jakrar's axe next to the body of the beast.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “Hello again! I've finally found your axe!” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">A path to the Duleian Road</a>; hand over 1× <a href="../../items/jakrar_axe/">Jakrar's woodcutting axe</a> → <strong>stage 40</strong>. NPC: “Let me see... Oh yes! This is my axe! I cannot thank you enough!”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/jakrar/">Jakrar</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “So will you cut away those trees that block the old pathway?” — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">A path to the Duleian Road</a>; NOT reached stage 50 of <a href="./#stage-50">A path to the Duleian Road</a> → <strong>stage 50</strong>. NPC: “Sure! Already on my way! The work will be finished soon.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/guard_pathway/">Watchman</a> (<a href="../../maps/fallhaven_ne/">fallhaven_ne</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="./#stage-50">A path to the Duleian Road</a> → <strong>stage 60</strong>. NPC: “Hello again. It seems like you have sorted things out. Now the passage isn't blocked anymore. You have my gratitude…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=pathway_fallhaven.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=pathway_fallhaven.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=pathway_fallhaven.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=pathway_fallhaven.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=pathway_fallhaven.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
 <table>
 <thead>
 <tr>
-<th>Progress</th>
-<th>Event</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-35"></span>35</td>
-<td>👣 Reached by stepping onto a trigger spot on <a href="../../maps/roadbeforecrossroads/">Roadbeforecrossroads</a>.</td>
+<td>Quest ID</td>
+<td><code>pathway_fallhaven</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 35, 40, 50, 60</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>guard_pathway_4</code>, 20: <code>fallhaven_warden_pathway_3</code>, 30: <code>fallhaven_lumberjack_8</code>, 35: <code>sign_wolf_pack_jakrar_1</code>, 40: <code>fallhaven_lumberjack_10</code>, 50: <code>fallhaven_lumberjack_11</code>, 60: <code>guard_pathway_5</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>pathway_fallhaven</code> · Data from v0.8.18</small></p>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

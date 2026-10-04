@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,268 @@
 <ul>
 <li><a href="../../maps/undertell_1_1/">undertell_1_1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/dominion/">Dominion</a>: stages 10, 20, 30, 50, 60, 70, 90</li>
+<li><a href="../../quests/undertell_book/">Undertell: What was not written</a>: stages 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (58 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ysrine_selector"></span><strong><code>ysrine_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>; NOT reached stage 7 of <a href="../../quests/undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-ysrine_warn_of_master_lies_10">ysrine_warn_of_master_lies_10</a></li>
+<li>branch 2 <em>(if reached stage 450 of <a href="../../quests/devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="../../quests/dominion/#stage-10">Dominion</a>)</em> → <a href="#d-ysrine_start_devotion_10">ysrine_start_devotion_10</a></li>
+<li>branch 3 <em>(if reached stage 480 of <a href="../../quests/devotion/#stage-480">Devotion</a>; NOT reached stage 10 of <a href="../../quests/dominion/#stage-10">Dominion</a>)</em> → <a href="#d-ysrine_start_devotion_10">ysrine_start_devotion_10</a></li>
+<li>branch 4 <em>(if reached stage 30 of <a href="../../quests/dominion/#stage-30">Dominion</a>; NOT reached stage 50 of <a href="../../quests/dominion/#stage-50">Dominion</a>)</em> → <a href="#d-ysrine_dominion_saki_fleed_10">ysrine_dominion_saki_fleed_10</a></li>
+<li>branch 5 <em>(if reached stage 50 of <a href="../../quests/dominion/#stage-50">Dominion</a>; NOT reached stage 60 of <a href="../../quests/dominion/#stage-60">Dominion</a>)</em> → <a href="#d-ysrine_dominion_saki_fleed_60">ysrine_dominion_saki_fleed_60</a></li>
+<li>branch 6 <em>(if reached stage 60 of <a href="../../quests/dominion/#stage-60">Dominion</a>; NOT killed 1× <a href="../saki/">Saki</a>)</em> → <a href="#d-ysrine_saki_not_killed">ysrine_saki_not_killed</a></li>
+<li>branch 7 <em>(if killed 1× <a href="../saki/">Saki</a>; NOT reached stage 90 of <a href="../../quests/dominion/#stage-90">Dominion</a>)</em> → <a href="#d-ysrine_saki_killed_10">ysrine_saki_killed_10</a></li>
+<li>branch 8 → <a href="#d-ysrine_default_10">ysrine_default_10</a></li>
+</ul>
+<p><span id="d-ysrine_warn_of_master_lies_10"></span><strong><code>ysrine_warn_of_master_lies_10</code></strong> Ysrine: “You have spoken with one of them, haven't you? Their words cling to you. Be careful what promises you keep down here.”</p>
+<ul>
+<li>“They spoke of balance. I am not sure what they meant.” → <a href="#d-ysrine_warn_of_master_lies_20">ysrine_warn_of_master_lies_20</a></li>
+<li>“I did. Do you know what they want?” → <a href="#d-ysrine_warn_of_master_lies_30">ysrine_warn_of_master_lies_30</a></li>
+<li>“I wanted to talk about something else. The Kha'zaan to be specific.” <em>(if reached stage 450 of <a href="../../quests/devotion/#stage-450">Devotion</a>; NOT reached stage 10 of <a href="../../quests/dominion/#stage-10">Dominion</a>)</em> → <a href="#d-ysrine_start_devotion_10">ysrine_start_devotion_10</a></li>
+<li>“I wanted to talk about something else. The Kha'zaan to be specific.” <em>(if reached stage 480 of <a href="../../quests/devotion/#stage-480">Devotion</a>; NOT reached stage 10 of <a href="../../quests/dominion/#stage-10">Dominion</a>)</em> → <a href="#d-ysrine_start_devotion_10">ysrine_start_devotion_10</a></li>
+<li>“I found a book about Undertell. Do you know it?” <em>(if carry 1× <a href="../../items/undertell_book/">Undertell: Its Ghosts and History</a>; NOT reached stage 90 of <a href="../../quests/undertell_book/#stage-90">Undertell: What was not written</a>)</em> → <a href="#d-ysrine_undertell_book_intro">ysrine_undertell_book_intro</a></li>
+<li>“Actually, I want to talk about Saki.” <em>(if reached stage 30 of <a href="../../quests/dominion/#stage-30">Dominion</a>; NOT reached stage 50 of <a href="../../quests/dominion/#stage-50">Dominion</a>)</em> → <a href="#d-ysrine_dominion_saki_fleed_20">ysrine_dominion_saki_fleed_20</a></li>
+<li>“Where is Saki now?” <em>(if reached stage 50 of <a href="../../quests/dominion/#stage-50">Dominion</a>; NOT reached stage 60 of <a href="../../quests/dominion/#stage-60">Dominion</a>)</em> → <a href="#d-ysrine_dominion_saki_fleed_60">ysrine_dominion_saki_fleed_60</a></li>
+<li>“I destroyed Saki.” <em>(if NOT reached stage 90 of <a href="../../quests/dominion/#stage-90">Dominion</a>; killed 1× <a href="../saki/">Saki</a>)</em> → <a href="#d-ysrine_saki_killed_10">ysrine_saki_killed_10</a></li>
+</ul>
+<p><span id="d-ysrine_start_devotion_10"></span><strong><code>ysrine_start_devotion_10</code></strong> Ysrine: “Thank you! It's because of you that we are rid of the remnants of the Kha'zaan. On that note, there's someone here to meet you.”</p>
+<ul>
+<li>Next → <a href="#d-ysrine_start_devotion_15">ysrine_start_devotion_15</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_10"></span><strong><code>ysrine_dominion_saki_fleed_10</code></strong> Ysrine: “Oh no. Just as I feared.”</p>
+<ul>
+<li>“What just happened?” → <a href="#d-ysrine_dominion_saki_fleed_20">ysrine_dominion_saki_fleed_20</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_60"></span><strong><code>ysrine_dominion_saki_fleed_60</code></strong> Ysrine: “Saki is trying to flee Undertell. Find him, defeat him, and recover the soul pearls and anything else he carries. Bring them back here.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/dominion/#stage-60">Dominion</a>, spawns monsters on undertell_exit</p>
+<ul>
+<li>“Looks like no one can be trusted.” → <a href="#d-ysrine_dominion_saki_fleed_70">ysrine_dominion_saki_fleed_70</a></li>
+</ul>
+<p><span id="d-ysrine_saki_not_killed"></span><strong><code>ysrine_saki_not_killed</code></strong> Ysrine: “This is no time to be fooling around. Please get those pearls back.”</p>
+<p><span id="d-ysrine_saki_killed_10"></span><strong><code>ysrine_saki_killed_10</code></strong> Ysrine: “Good - you're back...”</p>
+<ul>
+<li>Next → <a href="#d-ysrine_saki_killed_selector">ysrine_saki_killed_selector</a></li>
+</ul>
+<p><span id="d-ysrine_default_10"></span><strong><code>ysrine_default_10</code></strong> Ysrine: “Oh, a human child, here? How did that come about?”</p>
+<ul>
+<li>“Shannal let me through. Can I ask you, why do you look different than the others here?” → <a href="#d-ysrine_looks_10">ysrine_looks_10</a></li>
+</ul>
+<p><span id="d-ysrine_warn_of_master_lies_20"></span><strong><code>ysrine_warn_of_master_lies_20</code></strong> Ysrine: “Balance can mean many things. For them, it once meant chains and silence. Listen closely, but never forget they speak for themselves, not for you.”</p>
+<ul>
+<li>“I will keep that in mind.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ysrine_warn_of_master_lies_30"></span><strong><code>ysrine_warn_of_master_lies_30</code></strong> Ysrine: “No one truly knows what the Masters want anymore. Even they may have forgotten. Just remember this: "truth and deceit sound much the same when spoken by the dead".”</p>
+<ul>
+<li>“You sound like you don't trust them.” → <a href="#d-ysrine_warn_of_master_lies_40">ysrine_warn_of_master_lies_40</a></li>
+</ul>
+<p><span id="d-ysrine_undertell_book_intro"></span><strong><code>ysrine_undertell_book_intro</code></strong> Ysrine: “Written histories come easily to stone and steel. They are less kind to breath, fear, and hunger.”</p>
+<ul>
+<li>“It feels like something is missing.” <em>(if NOT reached stage 40 of <a href="../../quests/undertell_book/#stage-40">Undertell: What was not written</a>)</em> → <a href="#d-ysrine_undertell_book_missing">ysrine_undertell_book_missing</a></li>
+<li>“A book collector from Fallhaven asked me to listen to the ghosts of Undertell.” <em>(if reached stage 40 of <a href="../../quests/undertell_book/#stage-40">Undertell: What was not written</a>)</em> → <a href="#d-ysrine_undertell_after_arcir">ysrine_undertell_after_arcir</a></li>
+<li>“I will think on that.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_20"></span><strong><code>ysrine_dominion_saki_fleed_20</code></strong> Ysrine: “Like I feared. He was up to no good.”</p>
+<ul>
+<li>“Well... what happened?” → <a href="#d-ysrine_dominion_saki_fleed_30">ysrine_dominion_saki_fleed_30</a></li>
+</ul>
+<p><span id="d-ysrine_start_devotion_15"></span><strong><code>ysrine_start_devotion_15</code></strong> Ysrine: “Here, on my left.” — <strong>effects:</strong> spawns monsters on undertell_1_1, sets stage 10 of <a href="../../quests/dominion/#stage-10">Dominion</a></p>
+<ul>
+<li>Next → <a href="#d-saki_selector">saki_selector</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_70"></span><strong><code>ysrine_dominion_saki_fleed_70</code></strong> Ysrine: “In the end, trust is still required. Without it, we would already be lost.”</p>
+<p><span id="d-ysrine_saki_killed_selector"></span><strong><code>ysrine_saki_killed_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT carry 5× <a href="../../items/soul_pearl/">Soul pearl</a>)</em> → <a href="#d-ysrine_saki_killed_12">ysrine_saki_killed_12</a></li>
+<li>Next <em>(if carry 5× <a href="../../items/soul_pearl/">Soul pearl</a>)</em> → <a href="#d-ysrine_saki_killed_13">ysrine_saki_killed_13</a></li>
+</ul>
+<p><span id="d-ysrine_looks_10"></span><strong><code>ysrine_looks_10</code></strong> Ysrine: “This is what happened when he died [point to the man at the table]. That is what happened when they died [pointing east]. It's all very personal.”</p>
+<ul>
+<li>“[puzzled] Oh, I see.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_warn_of_master_lies_40"></span><strong><code>ysrine_warn_of_master_lies_40</code></strong> Ysrine: “Trust is for the living. Down here, it's better to doubt everything, even me.”</p>
+<ul>
+<li>“I will remember that.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ysrine_undertell_book_missing"></span><strong><code>ysrine_undertell_book_missing</code></strong> Ysrine: “What is measured can be counted. What is endured must be remembered. Undertell has little love for the latter.”</p>
+<ul>
+<li>“You think the book leaves things out?” → <a href="#d-ysrine_undertell_omission">ysrine_undertell_omission</a></li>
+<li>“Thank you.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_undertell_after_arcir"></span><strong><code>ysrine_undertell_after_arcir</code></strong> Ysrine: “Then you walk a quieter road than most.”</p>
+<ul>
+<li>“What do you mean?” → <a href="#d-ysrine_undertell_quiet_road">ysrine_undertell_quiet_road</a></li>
+<li>“Thank you.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_questions_10"></span><strong><code>ysrine_questions_10</code></strong> Ysrine: “You carry questions like coins. Ask them, child.”</p>
+<ul>
+<li>“What is this heartstone everyone speaks of?” → <a href="#d-ysrine_heartstone_10">ysrine_heartstone_10</a></li>
+<li>“I found a book about Undertell. Do you know it?” <em>(if carry 1× <a href="../../items/undertell_book/">Undertell: Its Ghosts and History</a>; NOT reached stage 90 of <a href="../../quests/undertell_book/#stage-90">Undertell: What was not written</a>)</em> → <a href="#d-ysrine_undertell_book_intro">ysrine_undertell_book_intro</a></li>
+<li>“I found these coins [showing Ysrine the rare coins] here in Undertell. Are you familiar with them?” <em>(if carry 1× <a href="../../items/rare_coins/">Rare coins</a>)</em> → <a href="#d-ysrine_question_coins_10">ysrine_question_coins_10</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_30"></span><strong><code>ysrine_dominion_saki_fleed_30</code></strong> Ysrine: “Saki seemed kind, even gentle. But there were inconsistencies in his stories. I assumed they came from the loss of memory that follows death. I was wrong.”</p>
+<ul>
+<li>“Wrong how?” → <a href="#d-ysrine_dominion_saki_fleed_40">ysrine_dominion_saki_fleed_40</a></li>
+</ul>
+<p><span id="d-saki_selector"></span><strong><code>saki_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if latest stage of <a href="../../quests/dominion/#stage-10">Dominion</a> is 10)</em> → <a href="#d-saki_meet_10">saki_meet_10</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/dominion/#stage-20">Dominion</a>; NOT reached stage 30 of <a href="../../quests/dominion/#stage-30">Dominion</a>)</em> → <a href="#d-saki_pearls_10">saki_pearls_10</a></li>
+<li>branch 3 <em>(if reached stage 60 of <a href="../../quests/dominion/#stage-60">Dominion</a>)</em> → <a href="#d-saki_trapped_10">saki_trapped_10</a></li>
+</ul>
+<p><span id="d-ysrine_saki_killed_12"></span><strong><code>ysrine_saki_killed_12</code></strong> Ysrine: “but unfortunately you've come empty handed. How did you manage to drop them on the way back?”</p>
+<ul>
+<li>“Don't be so judgemental. They are really heavy, so I didn't want to carry them around with me.” → <a href="#d-ysrine_saki_killed_14">ysrine_saki_killed_14</a></li>
+</ul>
+<p><span id="d-ysrine_saki_killed_13"></span><strong><code>ysrine_saki_killed_13</code></strong> Ysrine: “and you have brought the Soul pearls.”</p>
+<ul>
+<li>“What do I do with the Soul pearls?” → <a href="#d-ysrine_saki_killed_20">ysrine_saki_killed_20</a></li>
+</ul>
+<p><span id="d-ysrine_undertell_omission"></span><strong><code>ysrine_undertell_omission</code></strong> Ysrine: “Those who suffered here were tools, not witnesses. Tools are used. Witnesses are avoided.”</p>
+<ul>
+<li>“I should keep that in mind.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_undertell_quiet_road"></span><strong><code>ysrine_undertell_quiet_road</code></strong> Ysrine: “The dead are accustomed to being spoken for. Few think to listen instead. Undertell remembers those who do.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/undertell_book/#stage-30">Undertell: What was not written</a></p>
+<ul>
+<li>“I will listen.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_heartstone_10"></span><strong><code>ysrine_heartstone_10</code></strong> Ysrine: “It is not ordinary ore. Heartstone drinks the breath of the Rift and holds it. They wanted it.”</p>
+<ul>
+<li>“Who wanted it?” → <a href="#d-ysrine_heartstone_20">ysrine_heartstone_20</a></li>
+</ul>
+<p><span id="d-ysrine_question_coins_10"></span><strong><code>ysrine_question_coins_10</code></strong> Ysrine: “Oh, sorry, child. I am not knowledgeable about such things.”</p>
+<ul>
+<li>“Oh, that's disappointing.” → <a href="#d-ysrine_questions_10">ysrine_questions_10</a></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_40"></span><strong><code>ysrine_dominion_saki_fleed_40</code></strong> Ysrine: “Saki was no follower of Elythara. He sought to absorb the spirits of the Elytharan mages and draw power from them. I fear he serves the Kazaul, and he must be stopped.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/dominion/#stage-50">Dominion</a></p>
+<ul>
+<li>“By we, do you mean me?” → <a href="#d-ysrine_dominion_saki_fleed_50">ysrine_dominion_saki_fleed_50</a></li>
+</ul>
+<p><span id="d-saki_meet_10"></span><strong><code>saki_meet_10</code></strong> Ysrine: “Hello, $playername.”</p>
+<ul>
+<li>“[freaking out] Who are you? Where did you come from?” → <a href="#d-saki_meet_20">saki_meet_20</a></li>
+</ul>
+<p><span id="d-saki_pearls_10"></span><strong><code>saki_pearls_10</code></strong> Ysrine: “Are you returning because you were successful in retrieving the pearls?”</p>
+<ul>
+<li>“Yeah, here they are.” <em>(if hand over 5× <a href="../../items/soul_pearl/">Soul pearl</a>)</em> → <a href="#d-saki_pearls_20">saki_pearls_20</a></li>
+<li>“[lie] Yes. Here you go, all five of them.” <em>(if NOT carry 5× <a href="../../items/soul_pearl/">Soul pearl</a>)</em> → <a href="#d-saki_not_5_pearls">saki_not_5_pearls</a></li>
+</ul>
+<p><span id="d-saki_trapped_10"></span><strong><code>saki_trapped_10</code></strong> Ysrine: “I'm not able to get out!”</p>
+<ul>
+<li>Next → <a href="#d-saki_trapped_20">saki_trapped_20</a></li>
+</ul>
+<p><span id="d-ysrine_saki_killed_14"></span><strong><code>ysrine_saki_killed_14</code></strong> Ysrine: “Go get them and bring them back here!”</p>
+<p><span id="d-ysrine_saki_killed_20"></span><strong><code>ysrine_saki_killed_20</code></strong> Ysrine: “Besides keeping them away from those Kazaul Masters? I do not know yet. Powerful they are - they could perhaps bring Elythara back, help her re-establish her Dominion on Dhayavar. Those Pearls might be the key to bring Elythara back, and…” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/dominion/#stage-90">Dominion</a></p>
+<p><span id="d-ysrine_heartstone_20"></span><strong><code>ysrine_heartstone_20</code></strong> Ysrine: “Long ago, the first King of Nor City, Garthan of House Houdart, sent men into Galmore to pry at the mountain. They prized what they pulled from the mountain, though few ever speak plainly of why.”</p>
+<ul>
+<li>“What did they want it for?” → <a href="#d-ysrine_heartstone_30">ysrine_heartstone_30</a></li>
+<li>“Thank you. That is enough for now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ysrine_dominion_saki_fleed_50"></span><strong><code>ysrine_dominion_saki_fleed_50</code></strong> Ysrine: “Unfortunately, yes.”</p>
+<ul>
+<li>“Then what do I do?” → <a href="#d-ysrine_dominion_saki_fleed_60">ysrine_dominion_saki_fleed_60</a></li>
+</ul>
+<p><span id="d-saki_meet_20"></span><strong><code>saki_meet_20</code></strong> Ysrine: “Saki, my name is. Haunt this area is all I do.”</p>
+<ul>
+<li>“Pleased to meet you...I think.” → <a href="#d-saki_devotion_selector">saki_devotion_selector</a></li>
+</ul>
+<p><span id="d-saki_pearls_20"></span><strong><code>saki_pearls_20</code></strong> Ysrine: “Thank you for these powerful artifacts!” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/dominion/#stage-30">Dominion</a>, removes monsters from undertell_1_1</p>
+<p><span id="d-saki_not_5_pearls"></span><strong><code>saki_not_5_pearls</code></strong> Ysrine: “You still have to find all of them. Now go.”</p>
+<ul>
+<li>“Right, I need to find five of them.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-saki_trapped_20"></span><strong><code>saki_trapped_20</code></strong> <a href="../voice_shannal/">Voice of Shannal</a>: “My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername, get this guy!” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/dominion/#stage-70">Dominion</a></p>
+<ul>
+<li>Next → <a href="#d-saki_fight">saki_fight</a></li>
+</ul>
+<p><span id="d-ysrine_heartstone_30"></span><strong><code>ysrine_heartstone_30</code></strong> Ysrine: “Power and profit are plain reasons. Old families in Nor City desired advantage. That is what men call progress and what others call cost. Remember this when you carry the stone.”</p>
+<ul>
+<li>“I will.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-saki_devotion_selector"></span><strong><code>saki_devotion_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 450 of <a href="../../quests/devotion/#stage-450">Devotion</a>)</em> → <a href="#d-saki_devotion_450_10">saki_devotion_450_10</a></li>
+<li>branch 2 <em>(if reached stage 480 of <a href="../../quests/devotion/#stage-480">Devotion</a>)</em> → <a href="#d-saki_devotion_480_10">saki_devotion_480_10</a></li>
+</ul>
+<p><span id="d-saki_fight"></span><strong><code>saki_fight</code></strong> <a href="../saki/">Saki</a>: “The kid can try!”</p>
+<ul>
+<li>“It'll be my pleasure!” → <a href="#d-saki_fight_20">saki_fight_20</a></li>
+</ul>
+<p><span id="d-saki_devotion_450_10"></span><strong><code>saki_devotion_450_10</code></strong> Ysrine: “Kha'zaan are no more, thanks to you. Their spirits lingered, making us hide.”</p>
+<ul>
+<li>Next → <a href="#d-saki_dominion_10">saki_dominion_10</a></li>
+</ul>
+<p><span id="d-saki_devotion_480_10"></span><strong><code>saki_devotion_480_10</code></strong> Ysrine: “Kha'zaan are no more. However, in the future, be wary, and learn not to get bamboozled. Hope you have learned your lesson.”</p>
+<ul>
+<li>Next → <a href="#d-saki_devotion_480_ysrine_10">saki_devotion_480_ysrine_10</a></li>
+</ul>
+<p><span id="d-saki_fight_20"></span><strong><code>saki_fight_20</code></strong> Ysrine: “You can't have what is mine! I shall use this power to cleanse a corner of Dhayavar and make it my Dominion!”</p>
+<ul>
+<li>“You followers of Kazaul - you want everything for yourself! Give them up!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-saki_dominion_10"></span><strong><code>saki_dominion_10</code></strong> Ysrine: “Well, now you need to find more spirits in this place. Ours.”</p>
+<ul>
+<li>“And you want me to liberate them. Why?” → <a href="#d-saki_dominion_20">saki_dominion_20</a></li>
+</ul>
+<p><span id="d-saki_devotion_480_ysrine_10"></span><strong><code>saki_devotion_480_ysrine_10</code></strong> <a href="./">Ysrine</a>: “Aye, little one. What were you thinking?”</p>
+<ul>
+<li>Next → <a href="#d-saki_devotion_480_20">saki_devotion_480_20</a></li>
+</ul>
+<p><span id="d-saki_dominion_20"></span><strong><code>saki_dominion_20</code></strong> Ysrine: “Because while the light of Elythara may not be extinguished, it has dimmed here in Dhayavar.”</p>
+<ul>
+<li>“Why would your colleagues be spirits? You won the war.” → <a href="#d-saki_dominion_30">saki_dominion_30</a></li>
+</ul>
+<p><span id="d-saki_devotion_480_20"></span><strong><code>saki_devotion_480_20</code></strong> <a href="../saki/">Saki</a>: “Anyways, it was their spirits that lingered, making us hide.”</p>
+<ul>
+<li>Next → <a href="#d-saki_dominion_10">saki_dominion_10</a></li>
+</ul>
+<p><span id="d-saki_dominion_30"></span><strong><code>saki_dominion_30</code></strong> Ysrine: “Did we win? Perhaps. Narrowly. And not decisively. The Shadow remains, and monsters from the other realm still roam freely.”</p>
+<ul>
+<li>“They lost their bodies during the war?” → <a href="#d-saki_dominion_40">saki_dominion_40</a></li>
+</ul>
+<p><span id="d-saki_dominion_40"></span><strong><code>saki_dominion_40</code></strong> Ysrine: “Yes. Five of my closest colleagues lost their corporeal forms here. The magic was heavy, and Elythara's blessing caused their spirits to linger.”</p>
+<ul>
+<li>“Like the Kha'zaan shades.” → <a href="#d-saki_dominion_50">saki_dominion_50</a></li>
+</ul>
+<p><span id="d-saki_dominion_50"></span><strong><code>saki_dominion_50</code></strong> Ysrine: “Er...yes. Similar. And now that the Kha'zaan are gone, they remain. Will you help them?”</p>
+<ul>
+<li>“They will not attack me?” → <a href="#d-saki_dominion_60">saki_dominion_60</a></li>
+</ul>
+<p><span id="d-saki_dominion_60"></span><strong><code>saki_dominion_60</code></strong> <a href="../lethgar_miner_ghost/">Lethgar miner ghost</a>: “They helped defend Dhayavar. They are not likely to harm any of us now.”</p>
+<ul>
+<li>“Very well. What needs to be done?” → <a href="#d-saki_dominion_70">saki_dominion_70</a></li>
+</ul>
+<p><span id="d-saki_dominion_70"></span><strong><code>saki_dominion_70</code></strong> <a href="../saki/">Saki</a>: “You are right to be wary. But I swear on Elythara, no harm will come from us.”</p>
+<ul>
+<li>“Tell me what I must do.” → <a href="#d-saki_dominion_80">saki_dominion_80</a></li>
+</ul>
+<p><span id="d-saki_dominion_80"></span><strong><code>saki_dominion_80</code></strong> Ysrine: “When they fell, their souls condensed into pearls. Five in total.”</p>
+<ul>
+<li>“Pearls?” → <a href="#d-saki_dominion_90">saki_dominion_90</a></li>
+</ul>
+<p><span id="d-saki_dominion_90"></span><strong><code>saki_dominion_90</code></strong> Ysrine: “Yes. Shimmering soul pearls. Liches gathered them, unaware of what they carried.”</p>
+<ul>
+<li>“So I must destroy the liches and recover the pearls.” → <a href="#d-saki_dominion_100">saki_dominion_100</a></li>
+</ul>
+<p><span id="d-saki_dominion_100"></span><strong><code>saki_dominion_100</code></strong> Ysrine: “They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/dominion/#stage-20">Dominion</a>, spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5</p>
+<ul>
+<li>“I will return with the soul pearls.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ysrine.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ysrine.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ysrine.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ysrine.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ysrine</code> · Data from v0.8.18</small></p>
 
 

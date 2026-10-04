@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +982,121 @@
 <li><a href="../../maps/brimhaven4/">brimhaven4</a></li>
 <li><a href="../../maps/brimhaven_house1/">brimhaven_house1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/place_to_forge/">A place to forge</a>: stages 30, 35, 40, 50</li>
+<li><a href="../../quests/brv_flood/">Much water</a>: stages 100, 110, 200</li>
+<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 110, 120</li>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 15</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (25 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_guard_captain_10"></span><strong><code>brv_guard_captain_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 200 of <a href="../../quests/brv_flood/#stage-200">Much water</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man">brv_guard_captain_and_rich_man</a></li>
+<li>branch 2 <em>(if reached stage 110 of <a href="../../quests/brv_flood/#stage-110">Much water</a>)</em> → <a href="#d-brv_guard_captain_25">brv_guard_captain_25</a></li>
+<li>branch 3 → <a href="#d-brv_guard_captain_15">brv_guard_captain_15</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_and_rich_man"></span><strong><code>brv_guard_captain_and_rich_man</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 15 of <a href="../../quests/undertell_hidden/#stage-15">hidden_undertell (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/place_to_forge/#stage-50">A place to forge</a>)</em> → <a href="#d-talk_about_white_house_20">talk_about_white_house_20</a></li>
+<li>branch 2 <em>(if reached stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_50">brv_guard_captain_and_rich_man_50</a></li>
+<li>branch 3 <em>(if reached stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_40">brv_guard_captain_and_rich_man_40</a></li>
+<li>branch 4 → <a href="#d-brv_guard_captain_and_rich_man_10">brv_guard_captain_and_rich_man_10</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_25"></span><strong><code>brv_guard_captain_25</code></strong> Mustura: “Hello again. Did you find out who destroyed the dam?”</p>
+<ul>
+<li>“No, not yet.” → <em>conversation ends</em></li>
+<li>“[Lie] The two brothers living in the north part of the eastern town destroyed the dam.” → <a href="#d-brv_guard_captain_22">brv_guard_captain_22</a></li>
+<li>“Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.” <em>(if hand over 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a>)</em> → <a href="#d-brv_guard_captain_30">brv_guard_captain_30</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_15"></span><strong><code>brv_guard_captain_15</code></strong> Mustura: “Always stay on the right side of the law.”</p>
+<ul>
+<li>Next <em>(if reached stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_20">brv_guard_captain_20</a></li>
+</ul>
+<p><span id="d-talk_about_white_house_20"></span><strong><code>talk_about_white_house_20</code></strong> <a href="../brv_richman/">Alkapoan</a>: “What do you want, foolish child?” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/undertell_hidden/#stage-15">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“I've collected your 'operation tax' from the dealer. Now let's finish our deal.” <em>(if latest stage of <a href="../../quests/place_to_forge/#stage-45">A place to forge</a> is 45)</em> → <a href="#d-alkapoan_lie_wh_50">alkapoan_lie_wh_50</a></li>
+<li>“[lie] I want the glowing white house. I need a place to hide from my parents.” <em>(if NOT reached stage 30 of <a href="../../quests/place_to_forge/#stage-30">A place to forge</a>; NOT reached stage 45 of <a href="../../quests/place_to_forge/#stage-45">A place to forge</a>)</em> → <a href="#d-alkapoan_lie_wh_10">alkapoan_lie_wh_10</a></li>
+<li>“Nocmar has sent me to get back what was once his.” <em>(if NOT reached stage 35 of <a href="../../quests/place_to_forge/#stage-35">A place to forge</a>)</em> → <a href="#d-alkapoan_nocmar_wh_10">alkapoan_nocmar_wh_10</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_and_rich_man_50"></span><strong><code>brv_guard_captain_and_rich_man_50</code></strong> <a href="./">Mustura</a>: “You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.”</p>
+<ul>
+<li>“We are all reasonable people here. Let us settle this, shall we?” → <a href="#d-talk_about_white_house_10">talk_about_white_house_10</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_and_rich_man_40"></span><strong><code>brv_guard_captain_and_rich_man_40</code></strong> <a href="./">Mustura</a>: “It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_guard_captain_and_rich_man_10"></span><strong><code>brv_guard_captain_and_rich_man_10</code></strong> <a href="../brv_richman/">Alkapoan</a>: “[Laughs] You again. Welcome back, foolish child.”</p>
+<ul>
+<li>“Laugh while you can. The captain is here and now you will get your deserved punishment!” → <a href="#d-brv_guard_captain_and_rich_man_20">brv_guard_captain_and_rich_man_20</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_22"></span><strong><code>brv_guard_captain_22</code></strong> Mustura: “You are accusing poor but honest people. Do you have any proof?”</p>
+<ul>
+<li>“No, not yet, but I will try to help you.” → <a href="#d-brv_guard_captain_23">brv_guard_captain_23</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_30"></span><strong><code>brv_guard_captain_30</code></strong> Mustura: “We will check this and if it is true then you can leave the town.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/brv_flood/#stage-200">Much water</a>, clears stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a>, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1</p>
+<p><span id="d-brv_guard_captain_20"></span><strong><code>brv_guard_captain_20</code></strong> Mustura: “Do you know anything about the destruction of the dam?”</p>
+<ul>
+<li>“[Lie] I have no idea, but I will try to help you.” → <a href="#d-brv_guard_captain_40">brv_guard_captain_40</a></li>
+<li>“[Lie] The two brothers living in the north part of the eastern town destroyed the dam.” → <a href="#d-brv_guard_captain_22">brv_guard_captain_22</a></li>
+<li>“Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.” <em>(if hand over 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a>)</em> → <a href="#d-brv_guard_captain_30">brv_guard_captain_30</a></li>
+</ul>
+<p><span id="d-alkapoan_lie_wh_50"></span><strong><code>alkapoan_lie_wh_50</code></strong> Mustura: “Sure thing! As soon as I see forty-five thousand gold, you will see the deed to the house. Remember, you have my 'operation tax' gold too.”</p>
+<ul>
+<li>“Forty-five thousand?! I don't have that kind of gold.” <em>(if NOT have 45,000 gold)</em> → <a href="#d-alkapoan_not_enough_gold">alkapoan_not_enough_gold</a></li>
+<li>“Here, take the fourty-five thousand and give me the deed and the key.” <em>(if pay 45,000 gold)</em> → <a href="#d-alkapoan_nocmar_wh_give_deed">alkapoan_nocmar_wh_give_deed</a></li>
+</ul>
+<p><span id="d-alkapoan_lie_wh_10"></span><strong><code>alkapoan_lie_wh_10</code></strong> Mustura: “You want the house for yourself? Now that is interesting. Most people shy away from that cursed glow, but I can see ambition in your eyes. Hm. I could let it go for forty thousand gold...but gold alone won't earn my trust. If I sell it to…” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/place_to_forge/#stage-35">A place to forge</a></p>
+<ul>
+<li>“Proof, how?” → <a href="#d-alkapoan_lie_wh_20">alkapoan_lie_wh_20</a></li>
+</ul>
+<p><span id="d-alkapoan_nocmar_wh_10"></span><strong><code>alkapoan_nocmar_wh_10</code></strong> Mustura: “Ah...so this is for Nocmar? The man who couldn't pay his debt and lost everything. And now you want me to just hand it back? Hah! If he wants redemption, let him pay double what he owed. Fifty thousand gold, no less. You bring me that…” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/place_to_forge/#stage-30">A place to forge</a></p>
+<ul>
+<li>“Fifty thousand gold?! Are you nuts? How about twenty-five housand?” → <a href="#d-alkapoan_bargin">alkapoan_bargin</a></li>
+<li>“Fifty thousand gold? I don't have it.” <em>(if NOT have 50,000 gold)</em> → <a href="#d-alkapoan_not_enough_gold">alkapoan_not_enough_gold</a></li>
+<li>“Here, take the fifty thousand and give me the deed and the key.” <em>(if pay 50,000 gold)</em> → <a href="#d-alkapoan_nocmar_wh_give_deed">alkapoan_nocmar_wh_give_deed</a></li>
+</ul>
+<p><span id="d-talk_about_white_house_10"></span><strong><code>talk_about_white_house_10</code></strong> Mustura: “You are reasonable?”</p>
+<ul>
+<li>“Whatever!” <em>(if NOT reached stage 10 of <a href="../../quests/place_to_forge/#stage-10">A place to forge</a>)</em> → <em>conversation ends</em></li>
+<li>“Oh, for the purposes of this conversation? Yeah, yeah I am. I want to talk to Alkapoan, not you!” <em>(if latest stage of <a href="../../quests/place_to_forge/#stage-20">A place to forge</a> is 20)</em> → <a href="#d-talk_about_white_house_20">talk_about_white_house_20</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_and_rich_man_20"></span><strong><code>brv_guard_captain_and_rich_man_20</code></strong> <a href="./">Mustura</a>: “Well...”</p>
+<ul>
+<li>Next → <a href="#d-brv_guard_captain_and_rich_man_30">brv_guard_captain_and_rich_man_30</a></li>
+</ul>
+<p><span id="d-brv_guard_captain_23"></span><strong><code>brv_guard_captain_23</code></strong> Mustura: “Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave the city.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/brv_flood/#stage-100">Much water</a>, sets stage 110 of <a href="../../quests/brv_flood/#stage-110">Much water</a></p>
+<p><span id="d-brv_guard_captain_40"></span><strong><code>brv_guard_captain_40</code></strong> Mustura: “Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_flood/#stage-110">Much water</a>, sets stage 100 of <a href="../../quests/brv_flood/#stage-100">Much water</a></p>
+<p><span id="d-alkapoan_not_enough_gold"></span><strong><code>alkapoan_not_enough_gold</code></strong> Mustura: “Well, then you better go find it.”</p>
+<p><span id="d-alkapoan_nocmar_wh_give_deed"></span><strong><code>alkapoan_nocmar_wh_give_deed</code></strong> Mustura: “A pleasure doing business with you.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/place_to_forge/#stage-50">A place to forge</a>, gives 1× <a href="../../items/white_house_deed/">White house deed</a>, gives 1× <a href="../../items/white_house_key/">White house key</a></p>
+<p><span id="d-alkapoan_lie_wh_20"></span><strong><code>alkapoan_lie_wh_20</code></strong> Mustura: “There's a small matter I want handled. Do this, and the price will stay at forty thousand. Refuse, and I'll reconsider whether you're worth the trouble.”</p>
+<ul>
+<li>“What do you want from me?” → <a href="#d-alkapoan_lie_wh_30">alkapoan_lie_wh_30</a></li>
+</ul>
+<p><span id="d-alkapoan_bargin"></span><strong><code>alkapoan_bargin</code></strong> Mustura: “Yeah, sure, twenty-five thousand and I take a couple of your fingers too?”</p>
+<p><span id="d-brv_guard_captain_and_rich_man_30"></span><strong><code>brv_guard_captain_and_rich_man_30</code></strong> <a href="../brv_richman/">Alkapoan</a>: “Let's see who is laughing in the end. The captain came to talk, not arrest me. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this a win-win.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_guard_captain_and_rich_man_40">brv_guard_captain_and_rich_man_40</a></li>
+</ul>
+<p><span id="d-alkapoan_lie_wh_30"></span><strong><code>alkapoan_lie_wh_30</code></strong> Mustura: “If you want the house, I'll need proof that you can handle business my way. There's a card dealer who runs games in the back of the tavern here in Brimhaven. He operates because I allow it. That means he owes me a regular fee, call it an…”</p>
+<ul>
+<li>“Okay?” → <a href="#d-alkapoan_lie_wh_40">alkapoan_lie_wh_40</a></li>
+</ul>
+<p><span id="d-alkapoan_lie_wh_40"></span><strong><code>alkapoan_lie_wh_40</code></strong> Mustura: “He's late. Bring me what he owes, and don't let him wiggle out of it. I want every bit of the five thousand gold. When you return with the gold, I'll know you're serious, and the deed will be yours for forty thousand more.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/place_to_forge/#stage-40">A place to forge</a></p>
+<ul>
+<li>“I'll be right back. Keep that deed handy.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_guard_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_guard_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_guard_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_guard_captain.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_guard_captain</code> · Data from v0.8.18</small></p>
 
 

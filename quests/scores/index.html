@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,229 +971,688 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>scores</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>53</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a>, stepping on a trigger on <a href="../../maps/fallhaven_church/">fallhaven_church</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Shadow score fixed</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a>. Required:</p>
+<ul>
+<li>eaten 1000+ bonemeals</li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unlocks</td>
+<td><a href="../Thieves01/#stage-50">Thief apprentice</a></td>
+<td>stage 50 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../thieves_hidden/#stage-80">Thieves Hidden (hidden flag)</a></td>
+<td>stage 80 there needs stage 18 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>Shadow score fixed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-11"></span>11</td>
 <td>Pro Shadow replies should be surpressed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-12"></span>12</td>
 <td>Absolute Shadow hater<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/debugmap/">Debugmap</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fallhaven_church/">Fallhaven church</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>–</td>
+<td>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-13"></span>13</td>
 <td>Shadow hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>–</td>
+<td>clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a><br>clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-15"></span>15</td>
 <td>Balanced Shadow feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>–</td>
+<td>faction “factionCountShadow” set to 0<br>faction “factionCountThieves” set to 0<br>faction “scoreShadow” set to 0<br>faction “scoreFeygard” set to 0<br>faction “scoreThieves” set to 0<br>faction “scoreShadow2” set to 0<br>faction “scoreFeygard2” set to 0<br>faction “scoreThieves2” set to 0<br>faction “scoreShadowFeygard” set to 0<br>clears stage 11 of <a href="./#stage-11">scores (hidden flag)</a><br>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a><br>clears stage 21 of <a href="./#stage-21">scores (hidden flag)</a><br>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a><br>clears stage 31 of <a href="./#stage-31">scores (hidden flag)</a><br>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a><br>clears stage 101 of <a href="./#stage-101">scores (hidden flag)</a><br>clears stage 102 of <a href="./#stage-102">scores (hidden flag)</a><br>clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-17"></span>17</td>
 <td>Shadow fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>–</td>
+<td>clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a><br>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-18"></span>18</td>
 <td>Absolute Shadow fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>–</td>
+<td>clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a><br>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Feygard score fixed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-21"></span>21</td>
 <td>Pro Feygard replies should be surpressed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-22"></span>22</td>
 <td>Absolute Feygard hater<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/debugmap/">Debugmap</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fallhaven_church/">Fallhaven church</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10</td>
+<td>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-23"></span>23</td>
 <td>Feygard hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10</td>
+<td>clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a><br>clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-25"></span>25</td>
 <td>Balanced Feygard feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10</td>
+<td>faction “factionCountShadow” set to 0<br>faction “factionCountThieves” set to 0<br>faction “scoreShadow” set to 0<br>faction “scoreFeygard” set to 0<br>faction “scoreThieves” set to 0<br>faction “scoreShadow2” set to 0<br>faction “scoreFeygard2” set to 0<br>faction “scoreThieves2” set to 0<br>faction “scoreShadowFeygard” set to 0<br>clears stage 11 of <a href="./#stage-11">scores (hidden flag)</a><br>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a><br>clears stage 21 of <a href="./#stage-21">scores (hidden flag)</a><br>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a><br>clears stage 31 of <a href="./#stage-31">scores (hidden flag)</a><br>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a><br>clears stage 101 of <a href="./#stage-101">scores (hidden flag)</a><br>clears stage 102 of <a href="./#stage-102">scores (hidden flag)</a><br>clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-27"></span>27</td>
 <td>Feygard fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10</td>
+<td>clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a><br>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-28"></span>28</td>
 <td>Absolute Feygard fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10</td>
+<td>clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a><br>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>Thieves score fixed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-31"></span>31</td>
 <td>Pro Thieves replies should be surpressed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-32"></span>32</td>
 <td>Absolute Thieves guild hater<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/debugmap/">Debugmap</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fallhaven_church/">Fallhaven church</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20</td>
+<td>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-33"></span>33</td>
 <td>Thieves guild hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20</td>
+<td>clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a><br>clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-35"></span>35</td>
 <td>Balanced Thieves guild feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20</td>
+<td>faction “factionCountShadow” set to 0<br>faction “factionCountThieves” set to 0<br>faction “scoreShadow” set to 0<br>faction “scoreFeygard” set to 0<br>faction “scoreThieves” set to 0<br>faction “scoreShadow2” set to 0<br>faction “scoreFeygard2” set to 0<br>faction “scoreThieves2” set to 0<br>faction “scoreShadowFeygard” set to 0<br>clears stage 11 of <a href="./#stage-11">scores (hidden flag)</a><br>clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a><br>clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a><br>clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a><br>clears stage 21 of <a href="./#stage-21">scores (hidden flag)</a><br>clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a><br>clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a><br>clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a><br>clears stage 31 of <a href="./#stage-31">scores (hidden flag)</a><br>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a><br>clears stage 101 of <a href="./#stage-101">scores (hidden flag)</a><br>clears stage 102 of <a href="./#stage-102">scores (hidden flag)</a><br>clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-37"></span>37</td>
 <td>Thieves guild fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20</td>
+<td>clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a><br>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a><br>clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-38"></span>38</td>
 <td>Absolute Thieves guild fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20</td>
+<td>clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a><br>clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a><br>clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a><br>clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>Kazaul score fixed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-41"></span>41</td>
 <td>Pro Kazaul replies should be surpressed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-42"></span>42</td>
 <td>Absolute Kazaul hater</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-43"></span>43</td>
 <td>Kazaul hater</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
 <td>Balanced Kazaul feelings</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-47"></span>47</td>
 <td>Kazaul fan</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-48"></span>48</td>
 <td>Absolute Kazaul fan</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>XX score fixed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-51"></span>51</td>
 <td>Pro XX replies should be surpressed</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-52"></span>52</td>
 <td>Absolute XX hater</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-53"></span>53</td>
 <td>XX hater</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-55"></span>55</td>
 <td>Balanced XX feelings</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-57"></span>57</td>
 <td>XX fan</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-58"></span>58</td>
 <td>Absolute XX fan</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-101"></span>101</td>
 <td>Clear preference: Shadow over Feygard</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-102"></span>102</td>
 <td>Clear preference: Feygard over Shadow</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-112"></span>112</td>
 <td>Max Absolute Shadow hater<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/debugmap/">Debugmap</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fallhaven_church/">Fallhaven church</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a><br>clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a><br>clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a><br>clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-113"></span>113</td>
 <td>Max Shadow hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a><br>clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a><br>clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a><br>clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-115"></span>115</td>
 <td>Max Balanced Shadow feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a><br>clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a><br>clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a><br>clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-117"></span>117</td>
 <td>Max Shadow fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a><br>clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a><br>clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a><br>clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-118"></span>118</td>
 <td>Max Absolute Shadow fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a><br>clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a><br>clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a><br>clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-122"></span>122</td>
 <td>Max Absolute Feygard hater<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/debugmap/">Debugmap</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/fallhaven_church/">Fallhaven church</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a><br>clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a><br>clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a><br>clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-123"></span>123</td>
 <td>Max Feygard hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a><br>clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a><br>clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a><br>clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-125"></span>125</td>
 <td>Max Balanced Feygard feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a><br>clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a><br>clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a><br>clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-127"></span>127</td>
 <td>Max Feygard fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a><br>clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a><br>clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a><br>clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-128"></span>128</td>
 <td>Max Absolute Feygard fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a><br>clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a><br>clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a><br>clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-132"></span>132</td>
 <td>Max Absolute Thieves guild hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a><br>clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a><br>clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a><br>clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-133"></span>133</td>
 <td>Max Thieves guild hater</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a><br>clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a><br>clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a><br>clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-135"></span>135</td>
 <td>Max Balanced Thieves guild feelings</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a><br>clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a><br>clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a><br>clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-137"></span>137</td>
 <td>Max Thieves guild fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a><br>clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a><br>clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a><br>clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-138"></span>138</td>
 <td>Max Absolute Thieves guild fan</td>
+<td>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a></td>
+<td>stage 10, stage 20, stage 30</td>
+<td>clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a><br>clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a><br>clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a><br>clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-999"></span>999</td>
 <td>-</td>
+<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
+<td>–</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>scores</code> · Data from v0.8.18</small></p>
+<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 12: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals → <strong>stage 12</strong>; also clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a>, clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a>, clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a>, clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 13: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; faction “fsc_shd2” ≥ 10 → <strong>stage 13</strong>; also clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a>, clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a>, clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a>, clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 15: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; NOT faction “fsc_shd9” ≥ 11 → <strong>stage 15</strong>; also clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a>, clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a>, clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a>, clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 17: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; faction “fsc_shd2” ≥ 60 → <strong>stage 17</strong>; also clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a>, clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a>, clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a>, clears stage 18 of <a href="./#stage-18">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 18: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; faction “fsc_shd2” ≥ 90 → <strong>stage 18</strong>; also clears stage 12 of <a href="./#stage-12">scores (hidden flag)</a>, clears stage 13 of <a href="./#stage-13">scores (hidden flag)</a>, clears stage 15 of <a href="./#stage-15">scores (hidden flag)</a>, clears stage 17 of <a href="./#stage-17">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 22: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a> → <strong>stage 22</strong>; also clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a>, clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a>, clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a>, clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 23: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 10 → <strong>stage 23</strong>; also clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a>, clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a>, clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a>, clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 25: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; NOT faction “fsc_fey9” ≥ 11 → <strong>stage 25</strong>; also clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a>, clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a>, clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a>, clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 27: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 60 → <strong>stage 27</strong>; also clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a>, clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a>, clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a>, clears stage 28 of <a href="./#stage-28">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 28: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 90 → <strong>stage 28</strong>; also clears stage 22 of <a href="./#stage-22">scores (hidden flag)</a>, clears stage 23 of <a href="./#stage-23">scores (hidden flag)</a>, clears stage 25 of <a href="./#stage-25">scores (hidden flag)</a>, clears stage 27 of <a href="./#stage-27">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 32: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a> → <strong>stage 32</strong>; also clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a>, clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a>, clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a>, clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 33: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; faction “fsc_thv2” ≥ 10 → <strong>stage 33</strong>; also clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a>, clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a>, clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a>, clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 35: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; NOT faction “fsc_thv9” ≥ 11 → <strong>stage 35</strong>; also clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a>, clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a>, clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a>, clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 37: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; faction “fsc_thv2” ≥ 60 → <strong>stage 37</strong>; also clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a>, clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a>, clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a>, clears stage 38 of <a href="./#stage-38">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 38: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; faction “fsc_thv2” ≥ 90 → <strong>stage 38</strong>; also clears stage 32 of <a href="./#stage-32">scores (hidden flag)</a>, clears stage 33 of <a href="./#stage-33">scores (hidden flag)</a>, clears stage 35 of <a href="./#stage-35">scores (hidden flag)</a>, clears stage 37 of <a href="./#stage-37">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 112: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a> → <strong>stage 112</strong>; also clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a>, clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a>, clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a>, clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 113: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 10 → <strong>stage 113</strong>; also clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a>, clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a>, clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a>, clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 115: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; NOT faction “fsc_shd9” ≥ 11 → <strong>stage 115</strong>; also clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a>, clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a>, clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a>, clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 117: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 60 → <strong>stage 117</strong>; also clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a>, clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a>, clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a>, clears stage 118 of <a href="./#stage-118">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 118: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 90 → <strong>stage 118</strong>; also clears stage 112 of <a href="./#stage-112">scores (hidden flag)</a>, clears stage 113 of <a href="./#stage-113">scores (hidden flag)</a>, clears stage 115 of <a href="./#stage-115">scores (hidden flag)</a>, clears stage 117 of <a href="./#stage-117">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 122: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a> → <strong>stage 122</strong>; also clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a>, clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a>, clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a>, clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 123: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 10 → <strong>stage 123</strong>; also clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a>, clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a>, clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a>, clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 125: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; NOT faction “fsc_fey9” ≥ 11 → <strong>stage 125</strong>; also clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a>, clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a>, clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a>, clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 127: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 60 → <strong>stage 127</strong>; also clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a>, clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a>, clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a>, clears stage 128 of <a href="./#stage-128">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 128: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_fey2” ≥ 90 → <strong>stage 128</strong>; also clears stage 122 of <a href="./#stage-122">scores (hidden flag)</a>, clears stage 123 of <a href="./#stage-123">scores (hidden flag)</a>, clears stage 125 of <a href="./#stage-125">scores (hidden flag)</a>, clears stage 127 of <a href="./#stage-127">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 132: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a> → <strong>stage 132</strong>; also clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a>, clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a>, clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a>, clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 133: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_thv2” ≥ 10 → <strong>stage 133</strong>; also clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a>, clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a>, clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a>, clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 135: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; NOT faction “fsc_thv9” ≥ 11 → <strong>stage 135</strong>; also clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a>, clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a>, clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a>, clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 137: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 60 → <strong>stage 137</strong>; also clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a>, clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a>, clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a>, clears stage 138 of <a href="./#stage-138">scores (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 138: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 90 → <strong>stage 138</strong>; also clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a>, clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a>, clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a>, clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a></li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=scores.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=scores.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=scores.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=scores.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=scores.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>scores</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 11, 12, 13, 15, 17, 18, 20, 21, 22, 23, 25, 27, 28, 30, 31, 32, 33, 35, 37, 38, 40, 41, 42, 43, 45, 47, 48, 50, 51, 52, 53, 55, 57, 58, 101, 102, 112, 113, 115, 117, 118, 122, 123, 125, 127, 128, 132, 133, 135, 137, 138, 999</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>12: <code>fsc_calc_shd_2</code>, 13: <code>fsc_calc_shd_3</code>, 15: <code>faction_count_shadow</code>, 15: <code>fsc_calc_shd_5</code>, 17: <code>fsc_calc_shd_7</code>, 18: <code>fsc_calc_shd_8</code>, 22: <code>fsc_calc_fey_2</code>, 23: <code>fsc_calc_fey_3</code>, 25: <code>faction_count_shadow</code>, 25: <code>fsc_calc_fey_5</code>, 27: <code>fsc_calc_fey_7</code>, 28: <code>fsc_calc_fey_8</code>, 32: <code>fsc_calc_thv_2</code>, 33: <code>fsc_calc_thv_3</code>, 35: <code>faction_count_shadow</code>, 35: <code>fsc_calc_thv_5</code>, 37: <code>fsc_calc_thv_7</code>, 38: <code>fsc_calc_thv_8</code>, 112: <code>fsc_calc_shd1_2</code>, 113: <code>fsc_calc_shd1_3</code>, 115: <code>fsc_calc_shd1_5</code>, 117: <code>fsc_calc_shd1_7</code>, 118: <code>fsc_calc_shd1_8</code>, 122: <code>fsc_calc_fey1_2</code>, 123: <code>fsc_calc_fey1_3</code>, 125: <code>fsc_calc_fey1_5</code>, 127: <code>fsc_calc_fey1_7</code>, 128: <code>fsc_calc_fey1_8</code>, 132: <code>fsc_calc_thv1_2</code>, 133: <code>fsc_calc_thv1_3</code>, 135: <code>fsc_calc_thv1_5</code>, 137: <code>fsc_calc_thv1_7</code>, 138: <code>fsc_calc_thv1_8</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>11: <code>faction_count_shadow</code>, 13: <code>faction_count_shadow</code>, 13: <code>fsc_calc_shd_2</code>, 13: <code>fsc_calc_shd_5</code>, 13: <code>fsc_calc_shd_7</code>, 13: <code>fsc_calc_shd_8</code>, 17: <code>faction_count_shadow</code>, 17: <code>fsc_calc_shd_2</code>, 17: <code>fsc_calc_shd_3</code>, 17: <code>fsc_calc_shd_5</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

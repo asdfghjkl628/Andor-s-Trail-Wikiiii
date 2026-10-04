@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,94 @@
 <ul>
 <li><a href="../../maps/undertell_1_0/">undertell_1_0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/undertell_book/">Undertell: What was not written</a>: stages 50, 80</li>
+<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 100</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (15 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brenor_selector"></span><strong><code>brenor_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../../items/heartstone/">Heartstone</a>)</em> → <a href="#d-brenor_refuse_10">brenor_refuse_10</a></li>
+<li>branch 2 <em>(if wearing <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a>)</em> → <a href="#d-brenor_heartsteel_10">brenor_heartsteel_10</a></li>
+<li>branch 3 <em>(if NOT carry 1× <a href="../../items/heartstone/">Heartstone</a>)</em> → <a href="#d-brenor_intro_10">brenor_intro_10</a></li>
+</ul>
+<p><span id="d-brenor_refuse_10"></span><strong><code>brenor_refuse_10</code></strong> Brenor: “I will not speak while that glowing stone is in your pack. It stirs old pain. Set it down and return if you want my words.”</p>
+<ul>
+<li>“All right. I will set it down.” → <em>conversation ends</em></li>
+<li>“Then we are done here.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_heartsteel_10"></span><strong><code>brenor_heartsteel_10</code></strong> Brenor: “That weapon...must you hold it where I can see it? Even in death I know its glow.”</p>
+<ul>
+<li>“Is something wrong with it?” → <a href="#d-brenor_heartsteel_20">brenor_heartsteel_20</a></li>
+</ul>
+<p><span id="d-brenor_intro_10"></span><strong><code>brenor_intro_10</code></strong> Brenor: “The pick is light in my hand and heavy in my memory. We were driven into the deep seams with only a lamp and a promise. Many never climbed back.”</p>
+<ul>
+<li>“Who are you?” <em>(if reached stage 40 of <a href="../../quests/undertell_book/#stage-40">Undertell: What was not written</a>)</em> → <a href="#d-brenor_who_20">brenor_who_20</a></li>
+<li>“What was it like down there?” <em>(if reached stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a>)</em> → <a href="#d-brenor_story_30">brenor_story_30</a></li>
+<li>“I should go.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_heartsteel_20"></span><strong><code>brenor_heartsteel_20</code></strong> Brenor: “Wrong? To you it is a finely forged weapon. To us...it was an executioner's tool.”</p>
+<ul>
+<li>“Executioner's tool?” → <a href="#d-brenor_heartsteel_30">brenor_heartsteel_30</a></li>
+</ul>
+<p><span id="d-brenor_who_20"></span><strong><code>brenor_who_20</code></strong> Brenor: “My name was Brenor. I came from the lands ruled by Feygard, back when its people still followed Elythara. I was taken during the rise of Garthan I, when those who held to the Light were chained and sent below the mountain. I swung this…” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a></p>
+<ul>
+<li>“I am sorry, Brenor.” → <em>conversation ends</em></li>
+<li>“What happened in the mines?” → <a href="#d-brenor_story_30">brenor_story_30</a></li>
+<li>“I will leave you be.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_story_30"></span><strong><code>brenor_story_30</code></strong> Brenor: “Dark, cold, and full of smoke. The tunnels shook when the rock groaned. We dug at glowing seams until our hands bled. The overseers said the ore was precious to Nor City, though none of us were told why. We were tools, nothing more.”</p>
+<ul>
+<li>“You endured much hardship.” → <a href="#d-brenor_memory_40">brenor_memory_40</a></li>
+<li>“Is there anything I can do to honor you?” → <a href="#d-brenor_help_50">brenor_help_50</a></li>
+<li>“I must continue my search.” <em>(if reached stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a>; reached stage 60 of <a href="../../quests/undertell_book/#stage-60">Undertell: What was not written</a>; reached stage 70 of <a href="../../quests/undertell_book/#stage-70">Undertell: What was not written</a>; NOT reached stage 80 of <a href="../../quests/undertell_book/#stage-80">Undertell: What was not written</a>)</em> → <a href="#d-brenor_reward_qs80">brenor_reward_qs80</a></li>
+<li>“I must go now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_heartsteel_30"></span><strong><code>brenor_heartsteel_30</code></strong> Brenor: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease, but that was never what we feared most.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/undertell_hidden/#stage-100">hidden_undertell (hidden flag)</a></p>
+<ul>
+<li>“What did you fear?” → <a href="#d-brenor_heartsteel_40">brenor_heartsteel_40</a></li>
+</ul>
+<p><span id="d-brenor_memory_40"></span><strong><code>brenor_memory_40</code></strong> Brenor: “Hardship was the only thing we owned. The mountain took the rest. But remembering us is enough. Few living souls do.”</p>
+<ul>
+<li>“I will remember that, but I must continue my search.” <em>(if reached stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a>; reached stage 60 of <a href="../../quests/undertell_book/#stage-60">Undertell: What was not written</a>; reached stage 70 of <a href="../../quests/undertell_book/#stage-70">Undertell: What was not written</a>; NOT reached stage 80 of <a href="../../quests/undertell_book/#stage-80">Undertell: What was not written</a>)</em> → <a href="#d-brenor_reward_qs80">brenor_reward_qs80</a></li>
+<li>“I will remember that.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_help_50"></span><strong><code>brenor_help_50</code></strong> Brenor: “Speak the names of the lost when you can. We were men once, not shadows in stone. That is all a slave could hope for.”</p>
+<ul>
+<li>“I will honor your memory by continuing my search.” <em>(if reached stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a>; reached stage 60 of <a href="../../quests/undertell_book/#stage-60">Undertell: What was not written</a>; reached stage 70 of <a href="../../quests/undertell_book/#stage-70">Undertell: What was not written</a>; NOT reached stage 80 of <a href="../../quests/undertell_book/#stage-80">Undertell: What was not written</a>)</em> → <a href="#d-brenor_reward_qs80">brenor_reward_qs80</a></li>
+<li>“I will honor your memory.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brenor_reward_qs80"></span><strong><code>brenor_reward_qs80</code></strong> Brenor: “Sure, you do that.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/undertell_book/#stage-80">Undertell: What was not written</a></p>
+<p><span id="d-brenor_heartsteel_40"></span><strong><code>brenor_heartsteel_40</code></strong> Brenor: “Those struck down by heartsteel often found no peace. Too many never reached Elythara's embrace. Instead, they lingered...as you see us now.”</p>
+<ul>
+<li>“So these weapons created the ghosts?” → <a href="#d-brenor_heartsteel_50">brenor_heartsteel_50</a></li>
+</ul>
+<p><span id="d-brenor_heartsteel_50"></span><strong><code>brenor_heartsteel_50</code></strong> Brenor: “No. The weapon was only a tool. It was those who wielded it, and the darkness they served, that filled our halls with restless souls.”</p>
+<ul>
+<li>“I never knew any of this.” → <a href="#d-brenor_heartsteel_60">brenor_heartsteel_60</a></li>
+</ul>
+<p><span id="d-brenor_heartsteel_60"></span><strong><code>brenor_heartsteel_60</code></strong> Brenor: “I believe you. Had I thought otherwise, I would not have spoken with you. Keep your weapon if you must, but remember what it once meant to my people.”</p>
+<ul>
+<li>“Thank you for telling me.” → <a href="#d-brenor_heartsteel_70">brenor_heartsteel_70</a></li>
+</ul>
+<p><span id="d-brenor_heartsteel_70"></span><strong><code>brenor_heartsteel_70</code></strong> Brenor: “If you want to talk about something else, then please, get it out of my sight.”</p>
+<ul>
+<li>“Understood.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brenor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brenor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brenor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brenor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brenor</code> · Data from v0.8.18</small></p>
 
 

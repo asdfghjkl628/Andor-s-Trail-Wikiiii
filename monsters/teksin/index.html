@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1017,6 +1089,96 @@
 <ul>
 <li><a href="../../maps/waytolake11/">waytolake11</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/nondisplay_2/">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>: stages 140, 150, 160</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (14 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-teksin_10"></span><strong><code>teksin_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin11">teksin11</a></li>
+<li>Next <em>(if NOT reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin12">teksin12</a></li>
+</ul>
+<p><span id="d-teksin11"></span><strong><code>teksin11</code></strong> Teksin: “Hello again.”</p>
+<ul>
+<li>“How do I get to Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin70">teksin70</a></li>
+<li>“What can you tell me about Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin60">teksin60</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-teksin80">teksin80</a></li>
+<li>“I'm looking for my brother, Andor. He looks a bit like me.” → <a href="#d-teksin20">teksin20</a></li>
+</ul>
+<p><span id="d-teksin12"></span><strong><code>teksin12</code></strong> Teksin: “Hello. My name is Teksin. I'm a trader. Who are you?” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<ul>
+<li>“I am $playername. I am looking for my brother, Andor. He looks a bit like me.” → <a href="#d-teksin20">teksin20</a></li>
+</ul>
+<p><span id="d-teksin70"></span><strong><code>teksin70</code></strong> Teksin: “You have to go back down to the river, then south until you find some caves. Go through the caves, up through the mountains, and then around the lake we are now standing next to. It's a long way, and as I said, there are some very bad…”</p>
+<ul>
+<li>“I can handle it. I'm on my way.” → <em>conversation ends</em></li>
+<li>“It sounds dangerous. I think I'll go somewhere else.” → <em>conversation ends</em></li>
+<li>“Thanks for the information. Do you have anything to trade?” → <a href="#d-teksin80">teksin80</a></li>
+</ul>
+<p><span id="d-teksin60"></span><strong><code>teksin60</code></strong> Teksin: “Remgard is a town that is well protected by the lake that we are next to. It is peaceful, and far from any enemies, which makes it somewhat surprising that they make excellent armor there. The high quality of the goods available in…”</p>
+<ul>
+<li>“How do I get to Remgard?” → <a href="#d-teksin70">teksin70</a></li>
+<li>“Thanks for the information, but I have to leave now.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-teksin80"></span><strong><code>teksin80</code></strong> Teksin: “Yes. I think you will see that I sell quality items from many places. Under the circumstances I can only sell you limited provisions though.”</p>
+<ul>
+<li>Next → <a href="#d-teksin85">teksin85</a></li>
+</ul>
+<p><span id="d-teksin20"></span><strong><code>teksin20</code></strong> Teksin: “Sorry. I haven't seen anyone that looks like you.”</p>
+<ul>
+<li>Next → <a href="#d-teksin30">teksin30</a></li>
+</ul>
+<p><span id="d-teksin85"></span><strong><code>teksin85</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 150 of <a href="../../quests/nondisplay_2/#stage-150">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin90">teksin90</a></li>
+<li>“OK. Show me what you have.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-teksin30"></span><strong><code>teksin30</code></strong> Teksin: “I have been out in the wild for a while, and have seen nobody since I left the main road weeks ago.”</p>
+<ul>
+<li>Next → <a href="#d-teksin40">teksin40</a></li>
+</ul>
+<p><span id="d-teksin90"></span><strong><code>teksin90</code></strong> Teksin: “I do also have one special item. It is a potion that increases your attack speed. It is very rare, and therefore expensive, but I am willing to part with it if the price is right.”</p>
+<ul>
+<li>“No thanks. Show me what else you have.” → <em>shop opens</em></li>
+<li>“How expensive is "expensive"?” → <a href="#d-teksin100">teksin100</a></li>
+</ul>
+<p><span id="d-teksin40"></span><strong><code>teksin40</code></strong> Teksin: “I decided that I should find a better route to Remgard. The road through the mountains to the east is plagued by terrible monsters. My quest for a better route was a mistake though.”</p>
+<ul>
+<li>Next → <a href="#d-teksin50">teksin50</a></li>
+</ul>
+<p><span id="d-teksin100"></span><strong><code>teksin100</code></strong> Teksin: “For you, I will offer the special price of 4,999 gold.”</p>
+<ul>
+<li>“I don't have that much gold. Please show me what else you have.” <em>(if have 4,999 gold)</em> → <em>shop opens</em></li>
+<li>“That's too expensive. Please show me what else you have.” <em>(if have 4,999 gold)</em> → <em>shop opens</em></li>
+<li>“OK. I'll take it.” <em>(if pay 4,999 gold)</em> → <a href="#d-teksin110">teksin110</a></li>
+<li>“I think I'll just be on my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-teksin50"></span><strong><code>teksin50</code></strong> Teksin: “This is as close as I can get coming this way. I am an experienced traveler, and I know that Remgard is close. It's north across this lake, but there is no way to cross, or to go further east around the lake.” — <strong>effects:</strong> sets stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<ul>
+<li>“It sounds like you are not quite the experienced traveler you claim to be.” → <em>conversation ends</em></li>
+<li>“I guess it was worth a try. What can you tell me about Remgard?” → <a href="#d-teksin60">teksin60</a></li>
+<li>“How do I get to Remgard?” → <a href="#d-teksin70">teksin70</a></li>
+<li>“Do you have anything to trade?” → <a href="#d-teksin80">teksin80</a></li>
+</ul>
+<p><span id="d-teksin110"></span><strong><code>teksin110</code></strong> Teksin: “Use it wisely. Such a potion is very hard to obtain. It is unlikely I will have any more to sell in the future.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/nondisplay_2/#stage-150">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>, gives 1× <a href="../../items/pot_light_attack/">Potion of lightning attack</a></p>
+<ul>
+<li>“Thanks for the advice. Please show me what else you have to trade.” → <em>shop opens</em></li>
+<li>“Thanks for the advice. I need to go now.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=teksin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=teksin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=teksin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=teksin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>teksin</code> · Data from v0.8.18</small></p>
 
 

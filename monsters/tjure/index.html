@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,144 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain54/">blackwater_mountain54</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/mermaid_scale/">The silver scale</a>: stages 10, 20, 30, 90, 100</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stages 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (25 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-tjure"></span><strong><code>tjure</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 200 of <a href="../../quests/mermaid_scale/#stage-200">The silver scale</a>)</em> → <a href="#d-tjure_200">tjure_200</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/mermaid_scale/#stage-100">The silver scale</a>)</em> → <a href="#d-tjure_100">tjure_100</a></li>
+<li>branch 3 <em>(if reached stage 90 of <a href="../../quests/mermaid_scale/#stage-90">The silver scale</a>)</em> → <a href="#d-tjure_90">tjure_90</a></li>
+<li>branch 4 <em>(if reached stage 90 of <a href="../../quests/mermaid_scale/#stage-90">The silver scale</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>)</em> → <a href="#d-tjure_wh_delivery_90">tjure_wh_delivery_90</a></li>
+<li>branch 5 <em>(if reached stage 30 of <a href="../../quests/mermaid_scale/#stage-30">The silver scale</a>)</em> → <a href="#d-tjure_30">tjure_30</a></li>
+<li>branch 6 <em>(if reached stage 20 of <a href="../../quests/mermaid_scale/#stage-20">The silver scale</a>)</em> → <a href="#d-tjure_20">tjure_20</a></li>
+<li>branch 7 <em>(if reached stage 10 of <a href="../../quests/mermaid_scale/#stage-10">The silver scale</a>)</em> → <a href="#d-tjure_10">tjure_10</a></li>
+<li>branch 8 → <a href="#d-tjure_0">tjure_0</a></li>
+</ul>
+<p><span id="d-tjure_200"></span><strong><code>tjure_200</code></strong> Tjure: “Oh, you look better than the last time we met. Thank you for your help.”</p>
+<ul>
+<li>“It was an interesting experience.” → <em>conversation ends</em></li>
+<li>“Indeed. By the way, did you order a 'Mysterious green something'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_tjure">brv_wh_delivery_tjure</a></li>
+</ul>
+<p><span id="d-tjure_100"></span><strong><code>tjure_100</code></strong> <a href="./">Tjure</a>: “Thank you for your help.”</p>
+<ul>
+<li>“It was an interesting experience.” → <em>conversation ends</em></li>
+<li>“No problem. By the way, did you order a 'Mysterious green something'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_tjure">brv_wh_delivery_tjure</a></li>
+</ul>
+<p><span id="d-tjure_90"></span><strong><code>tjure_90</code></strong> Tjure: “<em>Sigh</em> You were my last hope. Leave me now.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/mermaid_scale/#stage-90">The silver scale</a></p>
+<ul>
+<li>“Hope you learned from it.” → <em>conversation ends</em></li>
+<li>“OK. One question before I go: did you order a 'Mysterious green something'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_tjure">brv_wh_delivery_tjure</a></li>
+</ul>
+<p><span id="d-tjure_wh_delivery_90"></span><strong><code>tjure_wh_delivery_90</code></strong> Tjure: “<em>Sigh</em> You were my last hope. Leave me now.”</p>
+<ul>
+<li>“Not until I have delivered this to you. Are you the one who ordered a 'Mysterious green something'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>)</em> → <a href="#d-brv_wh_delivery_tjure">brv_wh_delivery_tjure</a></li>
+</ul>
+<p><span id="d-tjure_30"></span><strong><code>tjure_30</code></strong> Tjure: “At first I was happy with my shimmering scale. But I soon realized that everything in my life was going wrong.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_30_10">tjure_30_10</a></li>
+</ul>
+<p><span id="d-tjure_20"></span><strong><code>tjure_20</code></strong> Tjure: “Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I would never want to approach water again!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/mermaid_scale/#stage-20">The silver scale</a></p>
+<ul>
+<li>Next → <a href="#d-tjure_30">tjure_30</a></li>
+</ul>
+<p><span id="d-tjure_10"></span><strong><code>tjure_10</code></strong> Tjure: “I pulled out one of her shimmering, dazzling scales, and ran away.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/mermaid_scale/#stage-10">The silver scale</a></p>
+<ul>
+<li>“No! You really did that?” → <a href="#d-tjure_10_10">tjure_10_10</a></li>
+</ul>
+<p><span id="d-tjure_0"></span><strong><code>tjure_0</code></strong> Tjure: “Oh, what a rare surprise!”</p>
+<ul>
+<li>“Who are you?” → <a href="#d-tjure_0_10">tjure_0_10</a></li>
+<li>“What are you doing in such a lonely place?” → <a href="#d-tjure_0_10">tjure_0_10</a></li>
+<li>“Eh, sorry to disturb you.” → <em>conversation ends</em></li>
+<li>“I'm surprised to see you here as well. Did you order 'Mysterious green something'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_tjure">brv_wh_delivery_tjure</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_tjure"></span><strong><code>brv_wh_delivery_tjure</code></strong> Tjure: “What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck. Here's my delivery fee.” — <strong>effects:</strong> clears stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>, sets stage 50 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-50">Delivery - nondisplay (hidden flag)</a>, gives 50× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tjure_30_10"></span><strong><code>tjure_30_10</code></strong> Tjure: “I couldn't think of anything else but the wrath of the people of the river.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_30_20">tjure_30_20</a></li>
+</ul>
+<p><span id="d-tjure_10_10"></span><strong><code>tjure_10_10</code></strong> Tjure: “The mermaid immediately awoke and was very angry. But on land she had no chance to catch me.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_20">tjure_20</a></li>
+</ul>
+<p><span id="d-tjure_0_10"></span><strong><code>tjure_0_10</code></strong> Tjure: “I am Tjure of Brimhaven. I am ... was ... a successful merchant. But my luck has run out.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_0_12">tjure_0_12</a></li>
+</ul>
+<p><span id="d-tjure_30_20"></span><strong><code>tjure_30_20</code></strong> Tjure: “What could I do? I tried to throw it away or give it to other people - all in vain.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_30_30">tjure_30_30</a></li>
+</ul>
+<p><span id="d-tjure_0_12"></span><strong><code>tjure_0_12</code></strong> Tjure: “All I can do now is hide in this lonely place, far away from any water.”</p>
+<ul>
+<li>“Aha. I won't bother you then.” → <em>conversation ends</em></li>
+<li>“Why is that?” → <a href="#d-tjure_0_20">tjure_0_20</a></li>
+</ul>
+<p><span id="d-tjure_30_30"></span><strong><code>tjure_30_30</code></strong> Tjure: “I traveled all over Dhayavar to find someone to help me. Finally, a wise woman, far in the northeast, listened to my story. She advised me to return the scale to the mermaid. This would break the curse.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_30_32">tjure_30_32</a></li>
+</ul>
+<p><span id="d-tjure_0_20"></span><strong><code>tjure_0_20</code></strong> Tjure: “I once found a mermaid asleep on the beach of a river, north of here. What a beautiful sight! I could not avert my eyes!”</p>
+<ul>
+<li>Next → <a href="#d-tjure_0_22">tjure_0_22</a></li>
+</ul>
+<p><span id="d-tjure_30_32"></span><strong><code>tjure_30_32</code></strong> Tjure: “But I did not dare to do this.”</p>
+<ul>
+<li>Next → <a href="#d-tjure_30_34">tjure_30_34</a></li>
+</ul>
+<p><span id="d-tjure_0_22"></span><strong><code>tjure_0_22</code></strong> Tjure: “Especially, the colorful tail attracted me so much, that I did something that I have deeply regretted since then.”</p>
+<ul>
+<li>“What did you do?” → <a href="#d-tjure_10">tjure_10</a></li>
+</ul>
+<p><span id="d-tjure_30_34"></span><strong><code>tjure_30_34</code></strong> Tjure: “She told me that my only other option was to find some kind-hearted person to buy it from me, but then they take on the curse.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/mermaid_scale/#stage-30">The silver scale</a></p>
+<ul>
+<li>“Who would be that stupid?” → <a href="#d-tjure_30_40">tjure_30_40</a></li>
+<li>“Let me be the one to rescue you. Sell me the scale.” → <a href="#d-tjure_30_90">tjure_30_90</a></li>
+</ul>
+<p><span id="d-tjure_30_40"></span><strong><code>tjure_30_40</code></strong> Tjure: “I know, I know. When they heard my story, everybody ran away.”</p>
+<ul>
+<li>“That's too bad. I hope that you will find someone to buy it. Bye.” → <a href="#d-tjure_30_50">tjure_30_50</a></li>
+<li>“Not me. I will buy the scale.” → <a href="#d-tjure_30_90">tjure_30_90</a></li>
+</ul>
+<p><span id="d-tjure_30_90"></span><strong><code>tjure_30_90</code></strong> Tjure: “Here, take it! I have to request gold for it, otherwise it won't work. But one piece of gold should be enough.”</p>
+<ul>
+<li>“No problem, here, take the gold.” <em>(if pay 1 gold)</em> → <a href="#d-tjure_30_92">tjure_30_92</a></li>
+<li>“Forget it.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-tjure_30_50"></span><strong><code>tjure_30_50</code></strong> Tjure: “So you really won't help me? You will leave me to my misery?”</p>
+<ul>
+<li>“Sorry, I can't do it. Bye.” → <a href="#d-tjure_90">tjure_90</a></li>
+<li>“I have to think about it.” → <em>conversation ends</em></li>
+<li>“OK. maybe I am stupid, but sell me the scale.” → <a href="#d-tjure_30_90">tjure_30_90</a></li>
+</ul>
+<p><span id="d-tjure_30_92"></span><strong><code>tjure_30_92</code></strong> <a href="../none/">Dummy NPC</a>: “(As soon as you take the scale in your hands, a great sluggishness and a feeling of despair come over you.)” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/mermaid_scale/#stage-100">The silver scale</a>, applies condition mermaid_scale</p>
+<ul>
+<li>“I feel ... strange!” → <a href="#d-tjure_30_94">tjure_30_94</a></li>
+</ul>
+<p><span id="d-tjure_30_94"></span><strong><code>tjure_30_94</code></strong> Tjure: “(For a second you feel very dizzy. At least you manage not to faint. As from afar you hear a voice.)”</p>
+<ul>
+<li>Next → <a href="#d-tjure_100">tjure_100</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tjure.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tjure.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tjure.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tjure.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>tjure</code> · Data from v0.8.18</small></p>
 
 

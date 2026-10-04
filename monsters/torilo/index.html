@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -962,6 +1034,138 @@
 <ul>
 <li><a href="../../maps/foaming_flask/">foaming_flask</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/beer_bootlegging/">Beer Bootlegging</a>: stages 20</li>
+<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 10</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (26 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-torilo_1"></span><strong><code>torilo_1</code></strong> Torilo: “Welcome to the Foaming Flask tavern. We welcome all travelers in here.”</p>
+<ul>
+<li>“Thank you. Are you the innkeeper here?” → <a href="#d-torilo_2">torilo_2</a></li>
+<li>“Have you seen a boy called Rincel around here recently?” <em>(if reached stage 41 of <a href="../../quests/wrye/#stage-41">Uncertain cause</a>)</em> → <a href="#d-torilo_rincel_1">torilo_rincel_1</a></li>
+<li>“Hey, I noticted all of those beer barrels outside and all those drunk guards over there.” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-10">Beer Bootlegging</a> is 10)</em> → <a href="#d-torilo_beer">torilo_beer</a></li>
+</ul>
+<p><span id="d-torilo_2"></span><strong><code>torilo_2</code></strong> Torilo: “I am Torilo, the proprietor of this establishment. Please have a seat anywhere you like.”</p>
+<ul>
+<li>“Can I see what you have available for food and drink?” → <a href="#d-torilo_shop_1">torilo_shop_1</a></li>
+<li>“Do you have somewhere I can rest?” → <a href="#d-torilo_rest_select">torilo_rest_select</a></li>
+<li>“Are those guards always shouting and yelling that much?” → <a href="#d-torilo_guards_1">torilo_guards_1</a></li>
+</ul>
+<p><span id="d-torilo_rincel_1"></span><strong><code>torilo_rincel_1</code></strong> Torilo: “Rincel? No, not that I can recall. Actually, we don't get many children in here. <em>chuckle</em>”</p>
+<ul>
+<li>Next → <a href="#d-torilo_default">torilo_default</a></li>
+</ul>
+<p><span id="d-torilo_beer"></span><strong><code>torilo_beer</code></strong> Torilo: “OK, and this is your business why?”</p>
+<ul>
+<li>“Well, of course it is not my business, but I am just wondering...” → <a href="#d-torilo_beer_10">torilo_beer_10</a></li>
+</ul>
+<p><span id="d-torilo_shop_1"></span><strong><code>torilo_shop_1</code></strong> Torilo: “Absolutely. We have a wide selection of food and beverages.”</p>
+<ul>
+<li>Next → <em>shop opens</em></li>
+</ul>
+<p><span id="d-torilo_rest_select"></span><strong><code>torilo_rest_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/nondisplay/#stage-10">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-torilo_rest_1">torilo_rest_1</a></li>
+<li>branch 2 → <a href="#d-torilo_rest_3">torilo_rest_3</a></li>
+</ul>
+<p><span id="d-torilo_guards_1"></span><strong><code>torilo_guards_1</code></strong> Torilo: “<em>Sigh</em> Yes. Those guards have been here for quite some time now.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_guards_2">torilo_guards_2</a></li>
+</ul>
+<p><span id="d-torilo_default"></span><strong><code>torilo_default</code></strong> Torilo: “Was there anything else you wanted?”</p>
+<ul>
+<li>“Can I see what you have available for food and drink?” → <a href="#d-torilo_shop_1">torilo_shop_1</a></li>
+<li>“Are those guards always shouting and yelling that much?” → <a href="#d-torilo_guards_1">torilo_guards_1</a></li>
+<li>“Have you seen a boy called Rincel around here recently?” <em>(if reached stage 41 of <a href="../../quests/wrye/#stage-41">Uncertain cause</a>)</em> → <a href="#d-torilo_rincel_1">torilo_rincel_1</a></li>
+</ul>
+<p><span id="d-torilo_beer_10"></span><strong><code>torilo_beer_10</code></strong> Torilo: “Wondering what?”</p>
+<ul>
+<li>“Why you have so much beer for such a small-sized tavern and where you got it? I would like some to bring home to father.” → <a href="#d-torilo_beer_20">torilo_beer_20</a></li>
+<li>“Why you're such a jerk?” → <a href="#d-torilo_beer_jerk">torilo_beer_jerk</a></li>
+</ul>
+<p><span id="d-torilo_rest_1"></span><strong><code>torilo_rest_1</code></strong> Torilo: “Yes, you already rented the back room.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_rest_2">torilo_rest_2</a></li>
+</ul>
+<p><span id="d-torilo_rest_3"></span><strong><code>torilo_rest_3</code></strong> Torilo: “Oh yes. We have a very comfortable back room here in the Foaming Flask tavern.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_rest_4">torilo_rest_4</a></li>
+</ul>
+<p><span id="d-torilo_guards_2"></span><strong><code>torilo_guards_2</code></strong> Torilo: “They seem to be looking for something or someone, but I am not sure who or what.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_guards_3">torilo_guards_3</a></li>
+</ul>
+<p><span id="d-torilo_beer_20"></span><strong><code>torilo_beer_20</code></strong> Torilo: “Well, for as why I have so much, that is none of your business. As for where I got it, that information will cost you.”</p>
+<ul>
+<li>“What? Are you asking me to buy information from you? Why would I want to do that?” → <a href="#d-torilo_beer_30">torilo_beer_30</a></li>
+</ul>
+<p><span id="d-torilo_beer_jerk"></span><strong><code>torilo_beer_jerk</code></strong> Torilo: “Well, it's because of little snot-nosed kids like you”</p>
+<p><span id="d-torilo_rest_2"></span><strong><code>torilo_rest_2</code></strong> Torilo: “Please feel free to use it in any way you like. I hope you can get some sleep even with these guards yelling their songs.”</p>
+<ul>
+<li>“Thanks.” → <a href="#d-torilo_default">torilo_default</a></li>
+</ul>
+<p><span id="d-torilo_rest_4"></span><strong><code>torilo_rest_4</code></strong> Torilo: “Available for only 250 gold. Then you can use it as much as you like.”</p>
+<ul>
+<li>“250 gold? Sure, that's nothing to me. Here you go.” <em>(if pay 250 gold)</em> → <a href="#d-torilo_rest_6">torilo_rest_6</a></li>
+<li>“250 gold is a lot, but I guess it is worth it. Here you go.” <em>(if pay 250 gold)</em> → <a href="#d-torilo_rest_6">torilo_rest_6</a></li>
+<li>“That sounds a bit too much for me.” → <a href="#d-torilo_rest_5">torilo_rest_5</a></li>
+</ul>
+<p><span id="d-torilo_guards_3"></span><strong><code>torilo_guards_3</code></strong> Torilo: “I hope the Shadow watches over us so that nothing bad happens to the Foaming Flask tavern because of them.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_default">torilo_default</a></li>
+</ul>
+<p><span id="d-torilo_beer_30"></span><strong><code>torilo_beer_30</code></strong> Torilo: “Well, for the same reason why my bed is so expensive to rent...It's valuable.”</p>
+<ul>
+<li>“Forget it.” → <em>conversation ends</em></li>
+<li>“Funny, I thought it was because you are a jerk.” → <em>conversation ends</em></li>
+<li>“Oh, fine! What do you want? Gold? How much?” → <a href="#d-torilo_beer_40">torilo_beer_40</a></li>
+</ul>
+<p><span id="d-torilo_rest_6"></span><strong><code>torilo_rest_6</code></strong> Torilo: “Thank you. The room is now rented to you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/nondisplay/#stage-10">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-torilo_rest_2">torilo_rest_2</a></li>
+</ul>
+<p><span id="d-torilo_rest_5"></span><strong><code>torilo_rest_5</code></strong> Torilo: “Oh well, it's your loss.”</p>
+<ul>
+<li>Next → <a href="#d-torilo_default">torilo_default</a></li>
+</ul>
+<p><span id="d-torilo_beer_40"></span><strong><code>torilo_beer_40</code></strong> Torilo: “Hmm...let me think...how does 10,000 gold sound?”</p>
+<ul>
+<li>“That sounds fair. Take it. Now the information please!” <em>(if pay 10,000 gold)</em> → <a href="#d-torilo_beer_pay">torilo_beer_pay</a></li>
+<li>“That sounds ridiculous! I won't pay that.” <em>(if have 10,000 gold)</em> → <a href="#d-torilo_beer_bribe7500">torilo_beer_bribe7500</a></li>
+<li>“I can't afford that.” <em>(if NOT have 10,000 gold)</em> → <a href="#d-torilo_beer_bribe7500">torilo_beer_bribe7500</a></li>
+</ul>
+<p><span id="d-torilo_beer_pay"></span><strong><code>torilo_beer_pay</code></strong> Torilo: “Oh, I love the sound of clanking coins. Anyways...myself and other tavern owners have a 'business agreement' with a group of 'distributors'.”</p>
+<ul>
+<li>“What does that mean?” → <a href="#d-torilo_beer_pay_10">torilo_beer_pay_10</a></li>
+</ul>
+<p><span id="d-torilo_beer_bribe7500"></span><strong><code>torilo_beer_bribe7500</code></strong> Torilo: “OK. How does 7,500 gold sound?”</p>
+<ul>
+<li>“That sounds fair. Take it. Now the information please!” <em>(if pay 7,500 gold)</em> → <a href="#d-torilo_beer_pay">torilo_beer_pay</a></li>
+<li>“That still sounds ridiculous and I won't pay it.” <em>(if have 7,500 gold)</em> → <a href="#d-torilo_beer_bribe6000">torilo_beer_bribe6000</a></li>
+<li>“I can't afford that.” <em>(if NOT have 7,500 gold)</em> → <a href="#d-torilo_beer_bribe6000">torilo_beer_bribe6000</a></li>
+</ul>
+<p><span id="d-torilo_beer_pay_10"></span><strong><code>torilo_beer_pay_10</code></strong> Torilo: “It means that that is all I will tell you and I suggest you talk to another tavern owner.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/beer_bootlegging/#stage-20">Beer Bootlegging</a></p>
+<p><span id="d-torilo_beer_bribe6000"></span><strong><code>torilo_beer_bribe6000</code></strong> Torilo: “OK. How does 6,000 gold sound?”</p>
+<ul>
+<li>“That sounds ridiculous too, but I've had enough negotiating with you. [You reach into your bag, grab the coins and…” <em>(if pay 6,000 gold)</em> → <a href="#d-torilo_beer_pay">torilo_beer_pay</a></li>
+<li>“That sounds ridiculous! I won't pay that” <em>(if have 6,000 gold)</em> → <a href="#d-torilo_beer_bribe6000_10">torilo_beer_bribe6000_10</a></li>
+<li>“I can't afford that.” → <a href="#d-torilo_beer_bribe6000_10">torilo_beer_bribe6000_10</a></li>
+</ul>
+<p><span id="d-torilo_beer_bribe6000_10"></span><strong><code>torilo_beer_bribe6000_10</code></strong> Torilo: “That's fine with me, but no information for you.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=torilo.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=torilo.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=torilo.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=torilo.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>torilo</code> · Data from v0.8.18</small></p>
 
 

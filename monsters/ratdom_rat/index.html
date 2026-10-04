@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1049,6 +1121,122 @@
 <li><a href="../../maps/ratdom_maze_705/">ratdom_maze_705</a></li>
 <li><a href="../../maps/ratdom_maze_768/">ratdom_maze_768</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/ratdom_quest/">Yellow is it</a>: stages 10, 50, 52, 70, 940</li>
+<li><a href="../../quests/ratdom_nondisplay/">ratdom_nondisplay (hidden flag)</a>: stages 13, 21, 22, 23</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (24 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ratdom_rat"></span><strong><code>ratdom_rat</code></strong> Clevred: “This is my bed - go away!” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/ratdom_quest/#stage-10">Yellow is it</a></p>
+<ul>
+<li>“How do I get out of here?” <em>(if reached stage 10 of <a href="../../quests/ratdom_mikhail/#stage-10">More rats!</a>; NOT reached stage 70 of <a href="../../quests/ratdom_quest/#stage-70">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_10">ratdom_rat_10</a></li>
+<li>“Where would I find this yellow artifact thing?” <em>(if reached stage 50 of <a href="../../quests/ratdom_quest/#stage-50">Yellow is it</a>; NOT reached stage 70 of <a href="../../quests/ratdom_quest/#stage-70">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_50">ratdom_rat_50</a></li>
+<li>“There is a nice new statue in the cave.” <em>(if reached stage 60 of <a href="../../quests/ratdom_quest/#stage-60">Yellow is it</a>; reached stage 50 of <a href="../../quests/ratdom_quest/#stage-50">Yellow is it</a>; NOT reached stage 80 of <a href="../../quests/ratdom_quest/#stage-80">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_60">ratdom_rat_60</a></li>
+<li>“I tried to pass by Andor's statue, but there is not enough space.” <em>(if reached stage 80 of <a href="../../quests/ratdom_quest/#stage-80">Yellow is it</a>; NOT reached stage 90 of <a href="../../quests/ratdom_quest/#stage-90">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_80">ratdom_rat_80</a></li>
+<li>“Look! I have a pickaxe now.” <em>(if reached stage 82 of <a href="../../quests/ratdom_quest/#stage-82">Yellow is it</a>; NOT reached stage 90 of <a href="../../quests/ratdom_quest/#stage-90">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_82">ratdom_rat_82</a></li>
+<li>“There is a little bone shaped hole in the wall behind the statue. What shall I do now?” <em>(if reached stage 90 of <a href="../../quests/ratdom_quest/#stage-90">Yellow is it</a>; NOT reached stage 100 of <a href="../../quests/ratdom_quest/#stage-100">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_90">ratdom_rat_90</a></li>
+<li>“I found a dark deep passage behind our supply cave.” <em>(if reached stage 100 of <a href="../../quests/ratdom_quest/#stage-100">Yellow is it</a>; NOT faction “ratdom_rat_conv2” ≥ 5)</em> → <a href="#d-ratdom_rat_100">ratdom_rat_100</a></li>
+<li>“Will I ever be able to use my bed again? Sigh.” <em>(if faction “ratdom_rat_conv2” ≥ 5; NOT reached stage 900 of <a href="../../quests/ratdom_quest/#stage-900">Yellow is it</a>)</em> → <em>conversation ends</em></li>
+<li>“Clevred, I give up. You must search for your powerful artifact alone.” <em>(if faction “ratdom_rat_conv2” ≥ 5; NOT reached stage 900 of <a href="../../quests/ratdom_quest/#stage-900">Yellow is it</a>; reached stage 90 of <a href="../../quests/ratdom_mikhail/#stage-90">More rats!</a>)</em> → <a href="#d-ratdom_rat_200">ratdom_rat_200</a></li>
+</ul>
+<p><span id="d-ratdom_rat_10"></span><strong><code>ratdom_rat_10</code></strong> Clevred: “I know the way out, of course. Rats always know the way out.”</p>
+<ul>
+<li>“Great. Show me the way out of this rat infested place here.” → <a href="#d-ratdom_rat_10_10">ratdom_rat_10_10</a></li>
+</ul>
+<p><span id="d-ratdom_rat_50"></span><strong><code>ratdom_rat_50</code></strong> Clevred: “Thing! Don't call it just 'thing'! It is a great marvel in our world!”</p>
+<ul>
+<li>“If you say so. And where is this marvel?” → <a href="#d-ratdom_rat_52">ratdom_rat_52</a></li>
+</ul>
+<p><span id="d-ratdom_rat_60"></span><strong><code>ratdom_rat_60</code></strong> Clevred: “Yes. The artifact must be behind this statue. Did you look there?”</p>
+<ul>
+<li>“Not yet. I didn't even know there was a statue in our supply cave. How long has it been there?” → <a href="#d-ratdom_rat_60_10">ratdom_rat_60_10</a></li>
+</ul>
+<p><span id="d-ratdom_rat_80"></span><strong><code>ratdom_rat_80</code></strong> Clevred: “The statue is well built. You'll probably need a pickaxe to tear it down.”</p>
+<ul>
+<li>“Where would I get a pickaxe?” → <a href="#d-ratdom_rat_80_10">ratdom_rat_80_10</a></li>
+</ul>
+<p><span id="d-ratdom_rat_82"></span><strong><code>ratdom_rat_82</code></strong> Clevred: “Then why didn't you tried to get behind the statue yet?”</p>
+<p><span id="d-ratdom_rat_90"></span><strong><code>ratdom_rat_90</code></strong> Clevred: “In the shape of bones? That is a key hole, of course!”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_90_10">ratdom_rat_90_10</a></li>
+</ul>
+<p><span id="d-ratdom_rat_100"></span><strong><code>ratdom_rat_100</code></strong> Clevred: “I hope you have finally found my artifact?”</p>
+<ul>
+<li>“Eh, no, not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_200"></span><strong><code>ratdom_rat_200</code></strong> Clevred: “NO! You want to leave me alone in this huge maze?”</p>
+<ul>
+<li>“Eh, of course not.” → <em>conversation ends</em></li>
+<li>“Well, I don't see any way to help you.” → <a href="#d-ratdom_rat_210">ratdom_rat_210</a></li>
+</ul>
+<p><span id="d-ratdom_rat_10_10"></span><strong><code>ratdom_rat_10_10</code></strong> Clevred: “Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/ratdom_quest/#stage-50">Yellow is it</a></p>
+<ul>
+<li>“A yellow round artifact? Where would I find this thing?” → <a href="#d-ratdom_rat_50">ratdom_rat_50</a></li>
+</ul>
+<p><span id="d-ratdom_rat_52"></span><strong><code>ratdom_rat_52</code></strong> Clevred: “It is deep in the rat cave, of course. Use your eyes.” — <strong>effects:</strong> sets stage 52 of <a href="../../quests/ratdom_quest/#stage-52">Yellow is it</a></p>
+<ul>
+<li>“In our supply cave? That should be easy.” → <em>conversation ends</em></li>
+<li>“There is a nice new statue in the cave.” <em>(if reached stage 60 of <a href="../../quests/ratdom_quest/#stage-60">Yellow is it</a>)</em> → <a href="#d-ratdom_rat_60">ratdom_rat_60</a></li>
+</ul>
+<p><span id="d-ratdom_rat_60_10"></span><strong><code>ratdom_rat_60_10</code></strong> Clevred: “We erected the statue in honor of Andor for never killing rats.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/ratdom_quest/#stage-70">Yellow is it</a></p>
+<ul>
+<li>“OK. I'll have a look behind the statue.” → <em>conversation ends</em></li>
+<li>“How do I pass by the statue?” → <a href="#d-ratdom_rat_70">ratdom_rat_70</a></li>
+</ul>
+<p><span id="d-ratdom_rat_80_10"></span><strong><code>ratdom_rat_80_10</code></strong> Clevred: “Oh dear - I can't believe it! Are you really that stupid?”</p>
+<ul>
+<li>Next → <a href="#d-ratdom_rat_80_20">ratdom_rat_80_20</a></li>
+</ul>
+<p><span id="d-ratdom_rat_90_10"></span><strong><code>ratdom_rat_90_10</code></strong> Clevred: “Now, let's find out where Gruiik stores his bone supply.”</p>
+<p><span id="d-ratdom_rat_210"></span><strong><code>ratdom_rat_210</code></strong> Clevred: “You promised. You promised to find my artifact for me.”</p>
+<ul>
+<li>“Yes, you're right. Let's try again. Back to the caves!” → <em>conversation ends</em></li>
+<li>“I can't keep the promise. Sorry.” → <a href="#d-ratdom_rat_220">ratdom_rat_220</a></li>
+</ul>
+<p><span id="d-ratdom_rat_70"></span><strong><code>ratdom_rat_70</code></strong> Clevred: “Probably you are too fat to get by. Tear the statue down. But don't tell any rat that I said so.”</p>
+<ul>
+<li>“It's a pity to destroy such a beautiful statue.” → <a href="#d-ratdom_rat_70_10">ratdom_rat_70_10</a></li>
+</ul>
+<p><span id="d-ratdom_rat_80_20"></span><strong><code>ratdom_rat_80_20</code></strong> Clevred: “Think for yourself; where are pickaxes supposed to be?”</p>
+<p><span id="d-ratdom_rat_220"></span><strong><code>ratdom_rat_220</code></strong> Clevred: “So I should keep looking on my own?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-ratdom_rat_230">ratdom_rat_230</a></li>
+<li>“Well ...” → <a href="#d-ratdom_rat_230">ratdom_rat_230</a></li>
+</ul>
+<p><span id="d-ratdom_rat_70_10"></span><strong><code>ratdom_rat_70_10</code></strong> Clevred: “Hmm. I had better accompany you. I think it would be wise to keep an eye on you.”</p>
+<p><span id="d-ratdom_rat_230"></span><strong><code>ratdom_rat_230</code></strong> Clevred: “And you still want me to tell you how to get out of here?”</p>
+<ul>
+<li>“Yes. Please.” → <a href="#d-ratdom_rat_240">ratdom_rat_240</a></li>
+<li>“Alright, you won. Let's try again.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_240"></span><strong><code>ratdom_rat_240</code></strong> Clevred: “Fine, you don't want it any other way. I'll find the artifact on my own. Farewell.”</p>
+<ul>
+<li>“Farewell. And sorry.” → <a href="#d-ratdom_rat_250">ratdom_rat_250</a></li>
+<li>“Wait ...” → <a href="#d-ratdom_rat_242">ratdom_rat_242</a></li>
+</ul>
+<p><span id="d-ratdom_rat_250"></span><strong><code>ratdom_rat_250</code></strong> Clevred: “Bye. We will never meet again.” — <strong>effects:</strong> sets stage 940 of <a href="../../quests/ratdom_quest/#stage-940">Yellow is it</a>, clears stage 942 of <a href="../../quests/ratdom_quest/#stage-942">Yellow is it</a>, clears stage 1 of <a href="../../quests/ratdom_nondisplay/#stage-1">ratdom_nondisplay (hidden flag)</a>, clears stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>, sets stage 13 of <a href="../../quests/ratdom_nondisplay/#stage-13">ratdom_nondisplay (hidden flag)</a>, sets stage 21 of <a href="../../quests/ratdom_nondisplay/#stage-21">ratdom_nondisplay (hidden flag)</a>, sets stage 22 of <a href="../../quests/ratdom_nondisplay/#stage-22">ratdom_nondisplay (hidden flag)</a>, sets stage 23 of <a href="../../quests/ratdom_nondisplay/#stage-23">ratdom_nondisplay (hidden flag)</a>, removes monsters from home, removes monsters from ratdom_bwm1, removes monsters from ratdom_maze_448, removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_627, removes monsters from crossglen, removes monsters from crossglen, removes monsters from crossglen, changes map crossglen</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ratdom_rat_242"></span><strong><code>ratdom_rat_242</code></strong> Clevred: “Yes?”</p>
+<ul>
+<li>“I was stupid. Forget what I said.” → <a href="#d-ratdom_rat_244">ratdom_rat_244</a></li>
+<li>“Nothing.” → <a href="#d-ratdom_rat_240">ratdom_rat_240</a></li>
+</ul>
+<p><span id="d-ratdom_rat_244"></span><strong><code>ratdom_rat_244</code></strong> Clevred: “Don't ever scare me like that again.”</p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_rat.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ratdom_rat</code> · Data from v0.8.18</small></p>
 
 

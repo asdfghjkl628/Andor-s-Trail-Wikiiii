@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +982,92 @@
 <li><a href="../../maps/brightport_abandoned/">brightport_abandoned</a></li>
 <li><a href="../../maps/brightport_jail/">brightport_jail</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_thieves/">Boxed in</a>: stages 20, 30, 32</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 141, 142, 143, 158, 208</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (16 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_agent"></span><strong><code>brightport_agent</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>; reached stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a>)</em> → <a href="#d-brightport_agent6alt">brightport_agent6alt</a></li>
+<li>Next <em>(if reached stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a>; reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_agent6_alt">brightport_agent6_alt</a></li>
+<li>Next <em>(if reached stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_agent6">brightport_agent6</a></li>
+<li>Next <em>(if NOT 10 rounds passed since timer “Brightport_package”)</em> → <a href="#d-brightport_agent1">brightport_agent1</a></li>
+<li>Next <em>(if 10 rounds passed since timer “Brightport_package”)</em> → <a href="#d-brightport_agent2">brightport_agent2</a></li>
+</ul>
+<p><span id="d-brightport_agent6alt"></span><strong><code>brightport_agent6alt</code></strong> <a href="./">Nor agent</a>: “That is my partner on the lookout, the signal means the guards are coming.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a></p>
+<ul>
+<li>“I'll be fine, I'm in good standing with the guards.” → <a href="#d-brightport_agent8">brightport_agent8</a></li>
+</ul>
+<p><span id="d-brightport_agent6_alt"></span><strong><code>brightport_agent6_alt</code></strong> <a href="./">Nor agent</a>: “That is my partner on the lookout, the signal means the guards are coming.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a></p>
+<ul>
+<li>“I have the captain under my thumb, they can't touch me.” → <a href="#d-brightport_agent8">brightport_agent8</a></li>
+</ul>
+<p><span id="d-brightport_agent6"></span><strong><code>brightport_agent6</code></strong> <a href="./">Nor agent</a>: “That is my partner on the lookout, the signal means the guards are coming.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_crate_selector">brightport_crate_selector</a></li>
+</ul>
+<p><span id="d-brightport_agent1"></span><strong><code>brightport_agent1</code></strong> Nor agent: “That was a quick arrival.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brightport_thieves/#stage-20">Boxed in</a></p>
+<ul>
+<li>“Do you have a package for me?” → <a href="#d-brightport_agent3">brightport_agent3</a></li>
+</ul>
+<p><span id="d-brightport_agent2"></span><strong><code>brightport_agent2</code></strong> Nor agent: “You took your time.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brightport_thieves/#stage-20">Boxed in</a></p>
+<ul>
+<li>“Do you have a package for me?” → <a href="#d-brightport_agent3">brightport_agent3</a></li>
+</ul>
+<p><span id="d-brightport_agent8"></span><strong><code>brightport_agent8</code></strong> Nor agent: “Then take the package and deliver it, I will escape through the chimney. Shadow be with you.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/brightport_thieves/#stage-32">Boxed in</a>, gives 1× <a href="../../items/brightportpackage/">Package</a>, removes monsters from brightport_abandoned, starts timer “brightporthide”</p>
+<p><span id="d-brightport_crate_selector"></span><strong><code>brightport_crate_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (30%))</em> → <a href="#d-brightport_crate1">brightport_crate1</a></li>
+<li>branch 2 <em>(if random chance (40%))</em> → <a href="#d-brightport_crate2">brightport_crate2</a></li>
+<li>branch 3 <em>(if random chance (100%))</em> → <a href="#d-brightport_crate3">brightport_crate3</a></li>
+</ul>
+<p><span id="d-brightport_agent3"></span><strong><code>brightport_agent3</code></strong> Nor agent: “Package? I'm just a traveler taking refuge in this building, I don't know what you want.”</p>
+<ul>
+<li>“Hey, you clearly were expecting me!” → <a href="#d-brightport_agent4">brightport_agent4</a></li>
+<li>“If it's a code word I'm supposed to use, no one told me anything.” → <a href="#d-brightport_agent4">brightport_agent4</a></li>
+</ul>
+<p><span id="d-brightport_crate1"></span><strong><code>brightport_crate1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 141 of <a href="../../quests/brightport_nondisplay/#stage-141">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
+</ul>
+<p><span id="d-brightport_crate2"></span><strong><code>brightport_crate2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 142 of <a href="../../quests/brightport_nondisplay/#stage-142">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
+</ul>
+<p><span id="d-brightport_crate3"></span><strong><code>brightport_crate3</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 143 of <a href="../../quests/brightport_nondisplay/#stage-143">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
+</ul>
+<p><span id="d-brightport_agent4"></span><strong><code>brightport_agent4</code></strong> Nor agent: “I was testing you, here is the package.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_agent5">brightport_agent5</a></li>
+</ul>
+<p><span id="d-brightport_agent7"></span><strong><code>brightport_agent7</code></strong> Nor agent: “Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/brightport_thieves/#stage-32">Boxed in</a>, gives 1× <a href="../../items/brightportpackage/">Package</a>, removes monsters from brightport_abandoned, starts timer “brightporthide”, sets stage 208 of <a href="../../quests/brightport_nondisplay/#stage-208">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_agent5"></span><strong><code>brightport_agent5</code></strong> <a href="../none/">Dummy NPC</a>: “As the courier is taking something out of his robe you hear a whistle.” — <strong>effects:</strong> sets stage 158 of <a href="../../quests/brightport_nondisplay/#stage-158">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_agent6_selector">brightport_agent6_selector</a></li>
+</ul>
+<p><span id="d-brightport_agent6_selector"></span><strong><code>brightport_agent6_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>)</em> → <a href="#d-brightport_agent6alt">brightport_agent6alt</a></li>
+<li>Next <em>(if NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; NOT reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>)</em> → <a href="#d-brightport_agent6">brightport_agent6</a></li>
+<li>Next <em>(if reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_agent6_alt">brightport_agent6_alt</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_agent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_agent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_agent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_agent.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightport_agent</code> · Data from v0.8.18</small></p>
 
 

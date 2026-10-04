@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,93 @@
 <ul>
 <li><a href="../../maps/brightport5/">brightport5</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_bakery/">Bread and circus</a>: stages 25, 60, 65</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 157, 198, 213, 245</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (18 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_storemaster_selector"></span><strong><code>brightport_storemaster_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; NOT reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster_apples">brightport_storemaster_apples</a></li>
+<li>Next → <a href="#d-brightport_storemaster">brightport_storemaster</a></li>
+</ul>
+<p><span id="d-brightport_storemaster_apples"></span><strong><code>brightport_storemaster_apples</code></strong> Eatloni: “Have you learned what happened with the apple delivery?”</p>
+<ul>
+<li>“I have the shipment from Deebo.” <em>(if reached stage 50 of <a href="../../quests/brightport_bakery/#stage-50">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster6">brightport_storemaster6</a></li>
+<li>“Apparantly the merchant picked them up.” <em>(if reached stage 30 of <a href="../../quests/brightport_bakery/#stage-30">Bread and circus</a>; NOT reached stage 50 of <a href="../../quests/brightport_bakery/#stage-50">Bread and circus</a>; NOT reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster12">brightport_storemaster12</a></li>
+<li>“I found the apples in a mountain cat nest. The poor merchant probably got eaten.” <em>(if reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>; NOT reached stage 50 of <a href="../../quests/brightport_bakery/#stage-50">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster9">brightport_storemaster9</a></li>
+<li>“Not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_storemaster"></span><strong><code>brightport_storemaster</code></strong> Eatloni: “Please keep off this path, you'll get under the feet of the workers.”</p>
+<ul>
+<li>“What's up with all these crates outside?” → <a href="#d-brightport_storemaster2">brightport_storemaster2</a></li>
+<li>“Allares sent me to help find the apple delivery.” <em>(if NOT reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; reached stage 23 of <a href="../../quests/brightport_bakery/#stage-23">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster4">brightport_storemaster4</a></li>
+<li>“Who are you?” → <a href="#d-brightport_eatloni_selector">brightport_eatloni_selector</a></li>
+</ul>
+<p><span id="d-brightport_storemaster6"></span><strong><code>brightport_storemaster6</code></strong> Eatloni: “Thank you, $playername, that's excellent. However, I haven't contacted the merchant's Guild for a reimbursement yet, so I can't repay you in full. I can only offer you half the price. Once you hand over the 30 apples.”</p>
+<ul>
+<li>“Here you go. [Hand over the apples.]” <em>(if hand over 30× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster7">brightport_storemaster7</a></li>
+<li>“I think I might have eaten some.” <em>(if used 1× <a href="../../items/deebo_apples/">Orchard apple</a>; NOT carry 30× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster8">brightport_storemaster8</a></li>
+</ul>
+<p><span id="d-brightport_storemaster12"></span><strong><code>brightport_storemaster12</code></strong> Eatloni: “So? He hasn't delivered them. If you went through the trouble of going there you could have at least obtained a new batch of 30 apples.”</p>
+<ul>
+<li>“But you didn't tell me to...” → <a href="#d-brightport_storemaster13">brightport_storemaster13</a></li>
+</ul>
+<p><span id="d-brightport_storemaster9"></span><strong><code>brightport_storemaster9</code></strong> Eatloni: “The merchant arrived safe and sound shortly before you did. Well not quite, apparently he got robbed by highwaymen, and had to run for it with nothing but his cloak and a sack of 15 apples.”</p>
+<ul>
+<li>“Coincidentally I found 15 apples myself.” <em>(if reached stage 197 of <a href="../../quests/brightport_nondisplay/#stage-197">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster10">brightport_storemaster10</a></li>
+</ul>
+<p><span id="d-brightport_storemaster2"></span><strong><code>brightport_storemaster2</code></strong> Eatloni: “Our bakery bakes the finest bread in all of Dhayavar. There's bound to be a bit of a jumble getting it onto the rich folk's tables.”</p>
+<ul>
+<li>“Is there any work for me to do here?” <em>(if NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster3">brightport_storemaster3</a></li>
+<li>“Who are you?” → <a href="#d-brightport_eatloni_selector">brightport_eatloni_selector</a></li>
+</ul>
+<p><span id="d-brightport_storemaster4"></span><strong><code>brightport_storemaster4</code></strong> Eatloni: “Yes, it's unusual that it hasn't arrived. According to the contract, the merchant I hired will only get half pay for being late, that is if they even arrive.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_storemaster5">brightport_storemaster5</a></li>
+</ul>
+<p><span id="d-brightport_eatloni_selector"></span><strong><code>brightport_eatloni_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster1">brightport_storemaster1</a></li>
+<li>Next <em>(if reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_eatloni">brightport_eatloni</a></li>
+</ul>
+<p><span id="d-brightport_storemaster7"></span><strong><code>brightport_storemaster7</code></strong> Eatloni: “Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.” — <strong>effects:</strong> sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>, sets stage 60 of <a href="../../quests/brightport_bakery/#stage-60">Bread and circus</a>, gives 700× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brightport_storemaster8"></span><strong><code>brightport_storemaster8</code></strong> Eatloni: “That's not good. I need all 30, if you don't have them then I can't repay you.”</p>
+<ul>
+<li>“I'll be back.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_storemaster13"></span><strong><code>brightport_storemaster13</code></strong> Eatloni: “Use your brain, $playername.”</p>
+<p><span id="d-brightport_storemaster10"></span><strong><code>brightport_storemaster10</code></strong> Eatloni: “In total 30. That should be enough for the first round of baking. If you wouldn't mind giving them to me.”</p>
+<ul>
+<li>“Here you go. [Hand over the apples.]” <em>(if hand over 15× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster11">brightport_storemaster11</a></li>
+<li>“I think I might have eaten some.” <em>(if NOT carry 15× <a href="../../items/deebo_apples/">Orchard apple</a>; used 1× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster8">brightport_storemaster8</a></li>
+</ul>
+<p><span id="d-brightport_storemaster3"></span><strong><code>brightport_storemaster3</code></strong> Eatloni: “You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.” — <strong>effects:</strong> sets stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_storemaster5"></span><strong><code>brightport_storemaster5</code></strong> Eatloni: “But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>, sets stage 213 of <a href="../../quests/brightport_nondisplay/#stage-213">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Sure, can do.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_storemaster1"></span><strong><code>brightport_storemaster1</code></strong> Eatloni: “I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.” — <strong>effects:</strong> sets stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Is there any work for me to do here?” <em>(if NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster3">brightport_storemaster3</a></li>
+<li>“That explains the mess.” → <a href="#d-brightport_storemaster2">brightport_storemaster2</a></li>
+</ul>
+<p><span id="d-brightport_eatloni"></span><strong><code>brightport_eatloni</code></strong> Eatloni: “Do you not have other things to occupy yourself with. Why must you bother me?”</p>
+<p><span id="d-brightport_storemaster11"></span><strong><code>brightport_storemaster11</code></strong> Eatloni: “Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration, he will reward you sufficiently.” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/brightport_bakery/#stage-65">Bread and circus</a>, sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportbakeryoutside.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportbakeryoutside.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportbakeryoutside.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportbakeryoutside.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportbakeryoutside</code> · Data from v0.8.18</small></p>
 
 

@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -987,6 +1059,241 @@
 <ul>
 <li><a href="../../maps/fallhaven_potions/">fallhaven_potions</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/fungi_panic/">Fungi panic</a>: stages 20, 50</li>
+<li><a href="../../quests/lodar_pots/">Lodar's potions</a>: stages 20</li>
+<li><a href="../../quests/antifoodp/">Taste is everything</a>: stages 15, 20, 30, 35, 40</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (48 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-fallhaven_potions"></span><strong><code>fallhaven_potions</code></strong> Potion merchant: “Welcome to my shop. Please browse my fine selection of everyday potions.”</p>
+<ul>
+<li>“Let me see what potions you have available.” → <em>shop opens</em></li>
+<li>“Do you have anything to help against food-poisoning?” → <a href="#d-fallhaven_pot_antifoodp1">fallhaven_pot_antifoodp1</a></li>
+<li>“I was told that I can get some Spotted Hornbeam fungus from you.” <em>(if reached stage 10 of <a href="../../quests/lodar_pots/#stage-10">Lodar's potions</a>)</em> → <a href="#d-fallhaven_potions1">fallhaven_potions1</a></li>
+<li>“Can you sell me a special crystal vial?” <em>(if reached stage 78 of <a href="../../quests/quick_glance/#stage-78">A quick glance</a>)</em> → <a href="#d-fallhaven_potions_offer_crystal_vial">fallhaven_potions_offer_crystal_vial</a></li>
+<li>“Bogsten is sick after encountering a giant mushroom. He asked me to get a cure for him.” <em>(if reached stage 10 of <a href="../../quests/fungi_panic/#stage-10">Fungi panic</a>; NOT reached stage 20 of <a href="../../quests/fungi_panic/#stage-20">Fungi panic</a>)</em> → <a href="#d-fungi_panic_potioner_10">fungi_panic_potioner_10</a></li>
+<li>“Here are four samples of mushroom spores. Can you help Bogsten now?” <em>(if carry 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>; NOT reached stage 60 of <a href="../../quests/fungi_panic/#stage-60">Fungi panic</a>)</em> → <a href="#d-fungi_panic_potioner_50">fungi_panic_potioner_50</a></li>
+<li>“Here's a sample of the mushroom spores. Can you help Bogsten now?” <em>(if carry 1× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>; NOT reached stage 60 of <a href="../../quests/fungi_panic/#stage-60">Fungi panic</a>; NOT carry 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_50a">fungi_panic_potioner_50a</a></li>
+<li>“Here are some of Bogsten's mushrooms.” <em>(if hand over 1× <a href="../../items/fungi_panic_bag/">Bag with mushrooms</a>)</em> → <a href="#d-fungi_panic_potioner_100">fungi_panic_potioner_100</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp1"></span><strong><code>fallhaven_pot_antifoodp1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 40 of <a href="../../quests/antifoodp/#stage-40">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifoodp5">fallhaven_pot_antifoodp5</a></li>
+<li>branch 2 <em>(if reached stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q4">fallhaven_pot_antifp_q4</a></li>
+<li>branch 3 <em>(if reached stage 30 of <a href="../../quests/antifoodp/#stage-30">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q2">fallhaven_pot_antifp_q2</a></li>
+<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/antifoodp/#stage-20">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifoodp5">fallhaven_pot_antifoodp5</a></li>
+<li>branch 5 → <a href="#d-fallhaven_pot_antifoodp2">fallhaven_pot_antifoodp2</a></li>
+</ul>
+<p><span id="d-fallhaven_potions1"></span><strong><code>fallhaven_potions1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 20 of <a href="../../quests/lodar_pots/#stage-20">Lodar's potions</a>)</em> → <a href="#d-fallhaven_potions4">fallhaven_potions4</a></li>
+<li>branch 2 → <a href="#d-fallhaven_potions2">fallhaven_potions2</a></li>
+</ul>
+<p><span id="d-fallhaven_potions_offer_crystal_vial"></span><strong><code>fallhaven_potions_offer_crystal_vial</code></strong> Potion merchant: “Yes, I have some crystal vials. I can sell you one for 50 gold pieces.”</p>
+<ul>
+<li>“That is too expensive for me.” → <a href="#d-fallhaven_potions_offer_crystal_vial_too_expensive">fallhaven_potions_offer_crystal_vial_too_expensive</a></li>
+<li>“I'll take one.” <em>(if pay 50 gold)</em> → <a href="#d-fallhaven_potions_buy_crystal_vial">fallhaven_potions_buy_crystal_vial</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_10"></span><strong><code>fungi_panic_potioner_10</code></strong> Potion merchant: “Bogsten? I haven't heard from that old boy in a long time now. I was starting to wonder if he was still alive.”</p>
+<ul>
+<li>“He is alive, but only barely. He didn't even make it to Fallhaven to ask for help.” → <a href="#d-fungi_panic_potioner_20">fungi_panic_potioner_20</a></li>
+<li>“Stop talking. Just give me the cure.” → <a href="#d-fungi_panic_potioner_12">fungi_panic_potioner_12</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_50"></span><strong><code>fungi_panic_potioner_50</code></strong> Potion merchant: “Let me see... Ah, yes. A fungus maximus, also known as 'Giant mushroom'. Its wounds are deadly if not cured properly.”</p>
+<ul>
+<li>Next → <a href="#d-fungi_panic_potioner_52">fungi_panic_potioner_52</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_50a"></span><strong><code>fungi_panic_potioner_50a</code></strong> Potion merchant: “A sample? This won't do. I'll need at least four samples for my work.”</p>
+<ul>
+<li>“I see. I'll be back with more in just a moment.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_100"></span><strong><code>fungi_panic_potioner_100</code></strong> Potion merchant: “Oh. Thank you.”</p>
+<ul>
+<li>“Hey! Aren't you going to give me something interesting for it?” → <a href="#d-fungi_panic_potioner_110">fungi_panic_potioner_110</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp5"></span><strong><code>fallhaven_pot_antifoodp5</code></strong> Potion merchant: “To make the potion against food-poisoning, I would need one poison gland and two pieces of animal hair. I will also require 50 gold for the work required.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/antifoodp/#stage-20">Taste is everything</a></p>
+<ul>
+<li>“I'll be right back with those ingredients.” → <a href="#d-fallhaven_pot_antifoodp6">fallhaven_pot_antifoodp6</a></li>
+<li>“Any ideas where I can find those ingredients?” → <a href="#d-fallhaven_pot_antifoodp7">fallhaven_pot_antifoodp7</a></li>
+<li>“I have those ingredients for you.” <em>(if hand over 1× <a href="../../items/gland/">Poison gland</a>; hand over 2× <a href="../../items/hair/">Animal hair</a>; pay 50 gold; NOT reached stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q1">fallhaven_pot_antifp_q1</a></li>
+<li>“I have those ingredients for you.” <em>(if hand over 1× <a href="../../items/gland/">Poison gland</a>; hand over 2× <a href="../../items/hair/">Animal hair</a>; pay 50 gold; reached stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q3">fallhaven_pot_antifp_q3</a></li>
+<li>“Here, I have enough of those ingredients for five potions.” <em>(if hand over 5× <a href="../../items/gland/">Poison gland</a>; hand over 10× <a href="../../items/hair/">Animal hair</a>; pay 250 gold; reached stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q3x5">fallhaven_pot_antifp_q3x5</a></li>
+<li>“Here, I have enough of those ingredients for ten potions.” <em>(if hand over 10× <a href="../../items/gland/">Poison gland</a>; hand over 20× <a href="../../items/hair/">Animal hair</a>; pay 500 gold; reached stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>)</em> → <a href="#d-fallhaven_pot_antifp_q3x10">fallhaven_pot_antifp_q3x10</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q4"></span><strong><code>fallhaven_pot_antifp_q4</code></strong> Potion merchant: “I can create more of those potions if you want. You'll have to bring me more of those ingredients then.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/antifoodp/#stage-40">Taste is everything</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+<li>“I sure hope this mixture of your works.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q2"></span><strong><code>fallhaven_pot_antifp_q2</code></strong> Potion merchant: “[Mixes the ingredients]”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifp_q3">fallhaven_pot_antifp_q3</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp2"></span><strong><code>fallhaven_pot_antifoodp2</code></strong> Potion merchant: “Oh yes, I have a recipe for a mixture that helps against food poisoning. If you want, I could create some of that for you.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/antifoodp/#stage-15">Taste is everything</a></p>
+<ul>
+<li>“Sounds good, what do you need from me?” → <a href="#d-fallhaven_pot_antifoodp3">fallhaven_pot_antifoodp3</a></li>
+</ul>
+<p><span id="d-fallhaven_potions4"></span><strong><code>fallhaven_potions4</code></strong> Potion merchant: “I already gave you some, before. Don't tell me you lost it?”</p>
+<p><span id="d-fallhaven_potions2"></span><strong><code>fallhaven_potions2</code></strong> Potion merchant: “Oh yes. Really disgusting smell, they have. But good for making potions.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_potions3">fallhaven_potions3</a></li>
+</ul>
+<p><span id="d-fallhaven_potions_offer_crystal_vial_too_expensive"></span><strong><code>fallhaven_potions_offer_crystal_vial_too_expensive</code></strong> Potion merchant: “Well, that's the price.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_potions">fallhaven_potions</a></li>
+</ul>
+<p><span id="d-fallhaven_potions_buy_crystal_vial"></span><strong><code>fallhaven_potions_buy_crystal_vial</code></strong> Potion merchant: “Here is your crystal vial. Thanks for the 50 gold pieces.” — <strong>effects:</strong> gives 1× <a href="../../items/empty_crystal_vial/">Empty crystal vial</a></p>
+<ul>
+<li>Next → <a href="#d-fallhaven_potions">fallhaven_potions</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_20"></span><strong><code>fungi_panic_potioner_20</code></strong> Potion merchant: “And now I have to rescue him again. Well, what did he do to himself this time?”</p>
+<ul>
+<li>“A giant mushroom attacked him.” → <a href="#d-fungi_panic_potioner_40">fungi_panic_potioner_40</a></li>
+<li>“This time? Did he ask for help before?” → <a href="#d-fungi_panic_potioner_22">fungi_panic_potioner_22</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_12"></span><strong><code>fungi_panic_potioner_12</code></strong> Potion merchant: “[muttering] ... grumble ... cheeky kids, grumble ...”</p>
+<ul>
+<li>Next → <a href="#d-fungi_panic_potioner_40">fungi_panic_potioner_40</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_52"></span><strong><code>fungi_panic_potioner_52</code></strong> Potion merchant: “I'm glad that I have the right potion for it. You can have it for only 150 gold coins.”</p>
+<ul>
+<li>“That much!” → <a href="#d-fungi_panic_potioner_54">fungi_panic_potioner_54</a></li>
+<li>“OK, here you are.” <em>(if pay 150 gold; hand over 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_60">fungi_panic_potioner_60</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_110"></span><strong><code>fungi_panic_potioner_110</code></strong> Potion merchant: “I could, yes. But I won't.”</p>
+<ul>
+<li>“That's robbery! I won't let you get away with it!” → <a href="#d-fungi_panic_potioner_111">fungi_panic_potioner_111</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp6"></span><strong><code>fallhaven_pot_antifoodp6</code></strong> Potion merchant: “Excellent.”</p>
+<p><span id="d-fallhaven_pot_antifoodp7"></span><strong><code>fallhaven_pot_antifoodp7</code></strong> Potion merchant: “Well, animal hair can probably be found on any beast here outside of Fallhaven. I heard some hunters found a pack of wolves a bit south of here.”</p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifoodp8">fallhaven_pot_antifoodp8</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q1"></span><strong><code>fallhaven_pot_antifp_q1</code></strong> Potion merchant: “Good. Give me a minute to prepare that antidote for you.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/antifoodp/#stage-30">Taste is everything</a></p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifp_q2">fallhaven_pot_antifp_q2</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q3"></span><strong><code>fallhaven_pot_antifp_q3</code></strong> Potion merchant: “There. One potion against food-poisoning for you.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/antifoodp/#stage-35">Taste is everything</a>, gives <a href="../../items/antifoodp/">Antidote</a></p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifp_q4">fallhaven_pot_antifp_q4</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q3x5"></span><strong><code>fallhaven_pot_antifp_q3x5</code></strong> Potion merchant: “There. Five potions against food-poisoning for you.” — <strong>effects:</strong> gives <a href="../../items/antifoodp/">Antidote</a></p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifp_q4">fallhaven_pot_antifp_q4</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifp_q3x10"></span><strong><code>fallhaven_pot_antifp_q3x10</code></strong> Potion merchant: “There. Ten potions against food-poisoning for you.” — <strong>effects:</strong> gives <a href="../../items/antifoodp/">Antidote</a></p>
+<ul>
+<li>Next → <a href="#d-fallhaven_pot_antifp_q4">fallhaven_pot_antifp_q4</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp3"></span><strong><code>fallhaven_pot_antifoodp3</code></strong> Potion merchant: “I am all out of the ingredients required for it. Maybe you could help me gather some of them?”</p>
+<ul>
+<li>“No way, I'm not running your errands.” → <a href="#d-fallhaven_pot_antifoodp4">fallhaven_pot_antifoodp4</a></li>
+<li>“What ingredients are needed?” → <a href="#d-fallhaven_pot_antifoodp5">fallhaven_pot_antifoodp5</a></li>
+</ul>
+<p><span id="d-fallhaven_potions3"></span><strong><code>fallhaven_potions3</code></strong> Potion merchant: “Here, have some. I don't have that much, so don't lose it!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/lodar_pots/#stage-20">Lodar's potions</a>, gives <a href="../../items/hornbeam/">Spotted Hornbeam fungus</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_40"></span><strong><code>fungi_panic_potioner_40</code></strong> Potion merchant: “So you need a cure against giant mushrooms?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-fungi_panic_potioner_42">fungi_panic_potioner_42</a></li>
+<li>“Yes. Here are some samples of the mushroom spores.” <em>(if reached stage 40 of <a href="../../quests/fungi_panic/#stage-40">Fungi panic</a>; carry 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_50">fungi_panic_potioner_50</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_22"></span><strong><code>fungi_panic_potioner_22</code></strong> Potion merchant: “Several times, indeed. Let me think...”</p>
+<ul>
+<li>Next → <a href="#d-fungi_panic_potioner_24">fungi_panic_potioner_24</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_54"></span><strong><code>fungi_panic_potioner_54</code></strong> Potion merchant: “Take it or leave it. Poor Bogsten ...”</p>
+<ul>
+<li>“Forget it.” → <a href="#d-fungi_panic_potioner_56">fungi_panic_potioner_56</a></li>
+<li>“OK, here you are.” <em>(if pay 150 gold; hand over 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_60">fungi_panic_potioner_60</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_60"></span><strong><code>fungi_panic_potioner_60</code></strong> Potion merchant: “And here's the cure.” — <strong>effects:</strong> gives 1× <a href="../../items/fungi_panic_cure/">Curative potion against mushroom wounding</a>, sets stage 50 of <a href="../../quests/fungi_panic/#stage-50">Fungi panic</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_111"></span><strong><code>fungi_panic_potioner_111</code></strong> Potion merchant: “Well, what did you expect? I make potions, not mushroom stew. If that's what you're after, go look for that Gison fellow south of town.”</p>
+<ul>
+<li>Next → <a href="#d-fungi_panic_potioner_112">fungi_panic_potioner_112</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp8"></span><strong><code>fallhaven_pot_antifoodp8</code></strong> Potion merchant: “Poison glands however, can be a bit trickier to find. I don't know really, but any poisonous creature might do. Maybe some snakes around here are poisonous?”</p>
+<ul>
+<li>“I'll be right back with those ingredients.” → <a href="#d-fallhaven_pot_antifoodp6">fallhaven_pot_antifoodp6</a></li>
+<li>“Phew, that sounds like a lot of work. I don't know if I'll do it.” → <a href="#d-fallhaven_pot_antifoodp4">fallhaven_pot_antifoodp4</a></li>
+</ul>
+<p><span id="d-fallhaven_pot_antifoodp4"></span><strong><code>fallhaven_pot_antifoodp4</code></strong> Potion merchant: “Fair enough. Welcome back if you change your mind.”</p>
+<p><span id="d-fungi_panic_potioner_42"></span><strong><code>fungi_panic_potioner_42</code></strong> Potion merchant: “There are lots of different mushrooms. A spore infection can be nasty, deadly even. Unfortunately the cure for one kind kills you, when you are afflicted by another kind.”</p>
+<ul>
+<li>“Oh dear. So Bogsten can't be helped?” → <a href="#d-fungi_panic_potioner_44">fungi_panic_potioner_44</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_24"></span><strong><code>fungi_panic_potioner_24</code></strong> Potion merchant: “He was my first customer. Needed an antidote against snake poison. His pet snake bit him.”</p>
+<ul>
+<li>“Pet snake?!” → <a href="#d-fungi_panic_potioner_26">fungi_panic_potioner_26</a></li>
+<li>“I heard enough. Just give me the cure, please.” → <a href="#d-fungi_panic_potioner_40">fungi_panic_potioner_40</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_56"></span><strong><code>fungi_panic_potioner_56</code></strong> Potion merchant: “I had always liked him ...”</p>
+<ul>
+<li>“No.” → <a href="#d-fungi_panic_potioner_58">fungi_panic_potioner_58</a></li>
+<li>“OK, here you are.” <em>(if pay 150 gold; hand over 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_60">fungi_panic_potioner_60</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_112"></span><strong><code>fungi_panic_potioner_112</code></strong> Potion merchant: “Now leave my shop, unless you have some other business. I have work to do.”</p>
+<ul>
+<li>“Forget it, let's talk about something else.” → <a href="#d-fallhaven_potions">fallhaven_potions</a></li>
+<li>“You can't do that to me! I'll get the guards!” → <a href="#d-fungi_panic_potioner_120">fungi_panic_potioner_120</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_44"></span><strong><code>fungi_panic_potioner_44</code></strong> Potion merchant: “No need to despair. To make a cure, I will need a sample of these spores. Can you get some?”</p>
+<ul>
+<li>“I could try.” → <a href="#d-fungi_panic_potioner_46">fungi_panic_potioner_46</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_26"></span><strong><code>fungi_panic_potioner_26</code></strong> Potion merchant: “Next time he ate something interesting. I always had told him not to try all these red and white mushrooms.”</p>
+<ul>
+<li>Next → <a href="#d-fungi_panic_potioner_28">fungi_panic_potioner_28</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_58"></span><strong><code>fungi_panic_potioner_58</code></strong> Potion merchant: “Sigh.”</p>
+<ul>
+<li>“I said no.” → <em>conversation ends</em></li>
+<li>“OK, here you are.” <em>(if pay 150 gold; hand over 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_60">fungi_panic_potioner_60</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_120"></span><strong><code>fungi_panic_potioner_120</code></strong> Potion merchant: “Calm down. Shall I sell a sedative to you?”</p>
+<ul>
+<li>“NO! I DON'T NEED ANY SEDATIVE!!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_46"></span><strong><code>fungi_panic_potioner_46</code></strong> Potion merchant: “Good. Bring me four sample spores of the mushroom, then I will be able to choose the right antidote.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/fungi_panic/#stage-20">Fungi panic</a></p>
+<ul>
+<li>“I will be back with the spores in an instant.” → <em>conversation ends</em></li>
+<li>“Here are four samples of the mushroom spores.” <em>(if reached stage 40 of <a href="../../quests/fungi_panic/#stage-40">Fungi panic</a>; carry 4× <a href="../../items/fungi_panic_spores/">Spores of the giant mushroom</a>)</em> → <a href="#d-fungi_panic_potioner_50">fungi_panic_potioner_50</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_28"></span><strong><code>fungi_panic_potioner_28</code></strong> Potion merchant: “Then he wanted some drink for an annoying 'friend' who always came and disturbed him.”</p>
+<ul>
+<li>“Nice.” → <a href="#d-fungi_panic_potioner_30">fungi_panic_potioner_30</a></li>
+<li>“Enough. Just give me the cure, please.” → <a href="#d-fungi_panic_potioner_40">fungi_panic_potioner_40</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_30"></span><strong><code>fungi_panic_potioner_30</code></strong> Potion merchant: “He came regularly for the snake antidote. Trying to tame snakes wasn't successful obviously...”</p>
+<ul>
+<li>“I can imagine.” → <a href="#d-fungi_panic_potioner_32">fungi_panic_potioner_32</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_32"></span><strong><code>fungi_panic_potioner_32</code></strong> Potion merchant: “He even tried to get my recipe for this antidote. But of course I couldn't reveal it to him.”</p>
+<ul>
+<li>“Yes, such things should be done by learned potion makers.” → <a href="#d-fungi_panic_potioner_34">fungi_panic_potioner_34</a></li>
+</ul>
+<p><span id="d-fungi_panic_potioner_34"></span><strong><code>fungi_panic_potioner_34</code></strong> Potion merchant: “Nonsense. He was my best customer. I want to keep it like this.”</p>
+<ul>
+<li>“Oh. Sure.” → <a href="#d-fungi_panic_potioner_40">fungi_panic_potioner_40</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=potion_merchant.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=potion_merchant.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=potion_merchant.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=potion_merchant.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>potion_merchant</code> · Data from v0.8.18</small></p>
 
 

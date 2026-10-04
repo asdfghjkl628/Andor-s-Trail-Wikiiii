@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,343 @@
 <ul>
 <li><a href="../../maps/mywild20_houseleft/">mywild20_houseleft</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/gison_cookbook/">A raid for a cookbook</a>: stages 10, 15, 20, 60, 62, 70</li>
+<li><a href="../../quests/gison_soup/">Delicious soup</a>: stages 20, 22, 24, 26, 28, 40, 50, 60, 80, 100</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (68 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-gison"></span><strong><code>gison</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 70 of <a href="../../quests/gison_cookbook/#stage-70">A raid for a cookbook</a>)</em> → <a href="#d-gison_p2_70">gison_p2_70</a></li>
+<li>branch 2 <em>(if reached stage 62 of <a href="../../quests/gison_cookbook/#stage-62">A raid for a cookbook</a>)</em> → <a href="#d-gison_p2_62">gison_p2_62</a></li>
+<li>branch 3 <em>(if reached stage 60 of <a href="../../quests/gison_cookbook/#stage-60">A raid for a cookbook</a>)</em> → <a href="#d-gison_p2_60">gison_p2_60</a></li>
+<li>branch 4 <em>(if reached stage 40 of <a href="../../quests/gison_cookbook/#stage-40">A raid for a cookbook</a>)</em> → <a href="#d-gison_p2_40">gison_p2_40</a></li>
+<li>branch 5 <em>(if reached stage 15 of <a href="../../quests/gison_cookbook/#stage-15">A raid for a cookbook</a>)</em> → <a href="#d-gison_p2_15">gison_p2_15</a></li>
+<li>branch 6 <em>(if reached stage 50 of <a href="../../quests/gison_soup/#stage-50">Delicious soup</a>; killed 1× <a href="../zuul_khan9/">Zuul'khan</a>)</em> → <a href="#d-gison_p1_50">gison_p1_50</a></li>
+<li>branch 7 <em>(if reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; killed 1× <a href="../zuul_khan9/">Zuul'khan</a>)</em> → <a href="#d-gison_p1_40">gison_p1_40</a></li>
+<li>branch 8 <em>(if reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>; killed 1× <a href="../zuul_khan9/">Zuul'khan</a>)</em> → <a href="#d-gison_p1_40">gison_p1_40</a></li>
+<li>branch 9 <em>(if reached stage 30 of <a href="../../quests/gison_soup/#stage-30">Delicious soup</a>)</em> → <a href="#d-gison_p1_30">gison_p1_30</a></li>
+<li>branch 10 <em>(if reached stage 50 of <a href="../../quests/gison_soup/#stage-50">Delicious soup</a>)</em> → <a href="#d-gison_p1_fail">gison_p1_fail</a></li>
+<li>branch 11 <em>(if reached stage 20 of <a href="../../quests/gison_soup/#stage-20">Delicious soup</a>)</em> → <a href="#d-gison_p1_20">gison_p1_20</a></li>
+<li>branch 12 → <a href="#d-gison_firsttime">gison_firsttime</a></li>
+</ul>
+<p><span id="d-gison_p2_70"></span><strong><code>gison_p2_70</code></strong> Gison: “Thank you for your help retrieving my precious cookbook. Would you like some soup as a small reward?”</p>
+<ul>
+<li>“Oh yes.” → <a href="#d-gison_p2_70_10">gison_p2_70_10</a></li>
+</ul>
+<p><span id="d-gison_p2_62"></span><strong><code>gison_p2_62</code></strong> Gison: “Well, you tried to help. Thank you.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p2_62_10">gison_p2_62_10</a></li>
+</ul>
+<p><span id="d-gison_p2_60"></span><strong><code>gison_p2_60</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <a href="#d-gison_p2_70">gison_p2_70</a></li>
+</ul>
+<p><span id="d-gison_p2_40"></span><strong><code>gison_p2_40</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <a href="#d-gison_p2_50">gison_p2_50</a></li>
+</ul>
+<p><span id="d-gison_p2_15"></span><strong><code>gison_p2_15</code></strong> Gison: “The robbers came from the south. Maybe you should start your search in that direction. Take care!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/gison_cookbook/#stage-20">A raid for a cookbook</a></p>
+<ul>
+<li>“I will. Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_50"></span><strong><code>gison_p1_50</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <a href="#d-gison_p1_40">gison_p1_40</a></li>
+</ul>
+<p><span id="d-gison_p1_40"></span><strong><code>gison_p1_40</code></strong> Gison: “You have to help me.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_40_1">gison_p1_40_1</a></li>
+</ul>
+<p><span id="d-gison_p1_30"></span><strong><code>gison_p1_30</code></strong> Gison: “Oh, you are back!”</p>
+<ul>
+<li>“I want to return your bottle.” <em>(if reached stage 30 of <a href="../../quests/gison_soup/#stage-30">Delicious soup</a>; hand over 1× <a href="../../items/bottle_empty/">Empty bottle</a>)</em> → <a href="#d-gison_p1_30_1">gison_p1_30_1</a></li>
+<li>“I just want to say hello.” <em>(if reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; killed 1× <a href="../zuul_khan9/">Zuul'khan</a>)</em> → <a href="#d-gison_p1_40">gison_p1_40</a></li>
+<li>“I just want to say hello.” <em>(if reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>; killed 1× <a href="../zuul_khan9/">Zuul'khan</a>)</em> → <a href="#d-gison_p1_40">gison_p1_40</a></li>
+<li>“Alaun told me that your wife also makes very good soup.” <em>(if reached stage 35 of <a href="../../quests/gison_soup/#stage-35">Delicious soup</a>; NOT reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; NOT reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>; reached stage 40 of <a href="../../quests/gison_soup/#stage-40">Delicious soup</a>)</em> → <a href="#d-gison_arg_10">gison_arg_10</a></li>
+<li>“I wanted to ask you about something.” → <a href="#d-gison_talk_3">gison_talk_3</a></li>
+</ul>
+<p><span id="d-gison_p1_fail"></span><strong><code>gison_p1_fail</code></strong> Gison: “Oh, it's you. Alaun still hasn't come by for his soup. It's a pity that you couldn't help him.”</p>
+<p><span id="d-gison_p1_20"></span><strong><code>gison_p1_20</code></strong> Gison: “Hello you. Did you take the soup to Alaun?”</p>
+<ul>
+<li>“Yes, he was not able to bear it any longer.” <em>(if latest stage of <a href="../../quests/gison_soup/#stage-30">Delicious soup</a> is 30)</em> → <a href="#d-gison_p1_20_2">gison_p1_20_2</a></li>
+<li>“No, I still have it with me.” <em>(if carry 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>)</em> → <a href="#d-gison_p1_20_1">gison_p1_20_1</a></li>
+<li>“No ... ehm ... Maybe you could give me some more?” <em>(if NOT carry 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>; NOT reached stage 30 of <a href="../../quests/gison_soup/#stage-30">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup">gison_p1_20_nosoup</a></li>
+<li>“Could you make it hot again?” <em>(if 10 rounds passed since timer “gison_soup”; carry 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>)</em> → <a href="#d-gison_p1_20_warmup">gison_p1_20_warmup</a></li>
+</ul>
+<p><span id="d-gison_firsttime"></span><strong><code>gison_firsttime</code></strong> Gison: “Oh hello. What are you doing here? You got lost?”</p>
+<ul>
+<li>Next → <a href="#d-gison_firsttime_1">gison_firsttime_1</a></li>
+</ul>
+<p><span id="d-gison_p2_70_10"></span><strong><code>gison_p2_70_10</code></strong> Gison: “Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/gison_cookbook/#stage-70">A raid for a cookbook</a></p>
+<ul>
+<li>“OK.” → <a href="#d-gison_catchsoup_eva">gison_catchsoup_eva</a></li>
+</ul>
+<p><span id="d-gison_p2_62_10"></span><strong><code>gison_p2_62_10</code></strong> Gison: “It's a pity that I can't cook my delicious soup any more.”</p>
+<p><span id="d-gison_p2_50"></span><strong><code>gison_p2_50</code></strong> Gison: “Did you find my precious cook book?”</p>
+<ul>
+<li>“Yes I have. Look here.” <em>(if carry 1× <a href="../../items/gison_cookbook_2/">Fabulous cookings (copy)</a>)</em> → <a href="#d-gison_p2_50_1">gison_p2_50_1</a></li>
+<li>“[Lie] I found the robbers, but they had destroyed the book.” <em>(if NOT killed 1× <a href="../gison_thiefboss/">Zuul'khan</a>)</em> → <a href="#d-gison_p2_50_5">gison_p2_50_5</a></li>
+<li>“Not yet.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_40_1"></span><strong><code>gison_p1_40_1</code></strong> Gison: “Bandits raided my house. They even knocked me and Nimael unconscious.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_40_2">gison_p1_40_2</a></li>
+</ul>
+<p><span id="d-gison_p1_30_1"></span><strong><code>gison_p1_30_1</code></strong> Gison: “Thank you.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/gison_soup/#stage-40">Delicious soup</a></p>
+<ul>
+<li>“I have to go again. Bye.” → <em>conversation ends</em></li>
+<li>“Alaun said your wife also makes very good soup.” <em>(if reached stage 35 of <a href="../../quests/gison_soup/#stage-35">Delicious soup</a>; NOT reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; NOT reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>)</em> → <a href="#d-gison_arg_10">gison_arg_10</a></li>
+</ul>
+<p><span id="d-gison_arg_10"></span><strong><code>gison_arg_10</code></strong> Gison: “Yes, but it is not as good as mine.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/gison_soup/#stage-60">Delicious soup</a></p>
+<ul>
+<li>“Your wife disagrees.” <em>(if reached stage 70 of <a href="../../quests/gison_soup/#stage-70">Delicious soup</a>)</em> → <a href="#d-gison_arg_20">gison_arg_20</a></li>
+<li>“If you say so.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_talk_3"></span><strong><code>gison_talk_3</code></strong> Gison: “Well, all right. As you wish.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_10_0">gison_p1_10_0</a></li>
+</ul>
+<p><span id="d-gison_p1_20_2"></span><strong><code>gison_p1_20_2</code></strong> Gison: “Good. Alaun will be very satisfied. You didn't perchance bring the empty bottle back, did you?”</p>
+<ul>
+<li>“Yes I have. Here is it. [You give Gison the empty bottle.]” <em>(if hand over 1× <a href="../../items/bottle_empty/">Empty bottle</a>)</em> → <a href="#d-gison_p1_20_3">gison_p1_20_3</a></li>
+<li>“No. I forgot it. I'm sorry.” <em>(if NOT carry 1× <a href="../../items/bottle_empty/">Empty bottle</a>)</em> → <a href="#d-gison_p1_20_nobottle">gison_p1_20_nobottle</a></li>
+</ul>
+<p><span id="d-gison_p1_20_1"></span><strong><code>gison_p1_20_1</code></strong> Gison: “Then hurry up. A hungry Alaun is an angry Alaun.”</p>
+<ul>
+<li>“I'm on the way.” → <em>conversation ends</em></li>
+<li>“Yes, yes. He'll get it soon.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup"></span><strong><code>gison_p1_20_nosoup</code></strong> Gison: “Ate it yourself, did you? Haha, I hope it tasted good.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_20_nosoup_eva">gison_p1_20_nosoup_eva</a></li>
+</ul>
+<p><span id="d-gison_p1_20_warmup"></span><strong><code>gison_p1_20_warmup</code></strong> Gison: “I told you to not linger. But I can make it hot. Give me a moment. [Gison pours the soup back in the bowl and fills the bottle up again with hot soup.]”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_20_warmup_1">gison_p1_20_warmup_1</a></li>
+</ul>
+<p><span id="d-gison_firsttime_1"></span><strong><code>gison_firsttime_1</code></strong> Gison: “Just walk around the fence and head to the north. Soon you'll be in Fallhaven.”</p>
+<ul>
+<li>“Okay. Thanks for the description.” → <em>conversation ends</em></li>
+<li>“Are you Gison?” <em>(if reached stage 10 of <a href="../../quests/gison_soup/#stage-10">Delicious soup</a>)</em> → <a href="#d-gison_p1_10">gison_p1_10</a></li>
+</ul>
+<p><span id="d-gison_catchsoup_eva"></span><strong><code>gison_catchsoup_eva</code></strong> Gison: “I still have some of my delicious soup. How many bottles of soup do you want?”</p>
+<ul>
+<li>“I need soup! At least ten bottles! Quick!!” <em>(if hand over 10× <a href="../../items/bottle_empty/">Empty bottle</a>; hand over 20× <a href="../../items/mushroom_bogsten/">Bogsten's mushroom</a>; pay 500 gold)</em> → <a href="#d-gison_catchsoup_10new">gison_catchsoup_10new</a></li>
+<li>“Give me five bottles.” <em>(if hand over 5× <a href="../../items/bottle_empty/">Empty bottle</a>; hand over 10× <a href="../../items/mushroom_bogsten/">Bogsten's mushroom</a>; pay 250 gold)</em> → <a href="#d-gison_catchsoup_5new">gison_catchsoup_5new</a></li>
+<li>“Just one, please.” <em>(if hand over 1× <a href="../../items/bottle_empty/">Empty bottle</a>; hand over 2× <a href="../../items/mushroom_bogsten/">Bogsten's mushroom</a>; pay 50 gold)</em> → <a href="#d-gison_catchsoup_new">gison_catchsoup_new</a></li>
+<li>“I don't have an empty bottle.” <em>(if NOT carry 1× <a href="../../items/bottle_empty/">Empty bottle</a>)</em> → <a href="#d-gison_catchsoup_nonew">gison_catchsoup_nonew</a></li>
+<li>“I have to get more of Bogsten's mushrooms.” <em>(if NOT carry 2× <a href="../../items/mushroom_bogsten/">Bogsten's mushroom</a>)</em> → <a href="#d-gison_catchsoup_nonew">gison_catchsoup_nonew</a></li>
+<li>“I just noticed that my gold fund is low.” <em>(if NOT have 50 gold)</em> → <a href="#d-gison_catchsoup_nonew">gison_catchsoup_nonew</a></li>
+</ul>
+<p><span id="d-gison_p2_50_1"></span><strong><code>gison_p2_50_1</code></strong> Gison: “Is it really true? I can't believe it!”</p>
+<ul>
+<li>“A sorcerer named Zuul'khan was reciting dark words from it. You were right, the robbers wanted these strange written…” → <a href="#d-gison_p2_50_2">gison_p2_50_2</a></li>
+</ul>
+<p><span id="d-gison_p2_50_5"></span><strong><code>gison_p2_50_5</code></strong> Gison: “Noo!” — <strong>effects:</strong> sets stage 62 of <a href="../../quests/gison_cookbook/#stage-62">A raid for a cookbook</a>, changes map mywildcave4</p>
+<ul>
+<li>Next → <a href="#d-gison_p2_62">gison_p2_62</a></li>
+</ul>
+<p><span id="d-gison_p1_40_2"></span><strong><code>gison_p1_40_2</code></strong> Gison: “Strangely they only took my old cookbook with them. Please help me get back my book, otherwise I cannot make my delicious mushroom soup.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/gison_cookbook/#stage-10">A raid for a cookbook</a></p>
+<ul>
+<li>“A raid for an old cookbook?” → <a href="#d-gison_p2_10_3">gison_p2_10_3</a></li>
+<li>“What's in it for me?” → <a href="#d-gison_p2_10_7">gison_p2_10_7</a></li>
+<li>“Search on your own, old man.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_arg_20"></span><strong><code>gison_arg_20</code></strong> Gison: “Well, here is a small taste of mine, and a small taste of hers. I am sure you will agree with me.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/gison_soup/#stage-80">Delicious soup</a></p>
+<ul>
+<li>“I think they are both good. One is not better than the other, just different. Different people have different tastes,…” → <a href="#d-gison_arg_30">gison_arg_30</a></li>
+</ul>
+<p><span id="d-gison_p1_10_0"></span><strong><code>gison_p1_10_0</code></strong> Gison: “How can I help you?”</p>
+<ul>
+<li>“What are you doing here?” → <a href="#d-gison_talk">gison_talk</a></li>
+<li>“Alaun sent me to bring him some of your delicious soup.” <em>(if reached stage 10 of <a href="../../quests/gison_soup/#stage-10">Delicious soup</a>; NOT reached stage 20 of <a href="../../quests/gison_soup/#stage-20">Delicious soup</a>)</em> → <a href="#d-gison_p1_10_1">gison_p1_10_1</a></li>
+<li>“I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → <a href="#d-gison_andor">gison_andor</a></li>
+<li>“Nevermind. I guess I need to be going.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_3"></span><strong><code>gison_p1_20_3</code></strong> Gison: “Oh good. Thanks.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/gison_soup/#stage-40">Delicious soup</a></p>
+<ul>
+<li>“With pleasure. Goodbye.” → <em>conversation ends</em></li>
+<li>“I won't do this whole stupid running around again just for an empty bottle. Bye.” → <em>conversation ends</em></li>
+<li>“Alaun said that your wife also makes very good soup.” <em>(if reached stage 35 of <a href="../../quests/gison_soup/#stage-35">Delicious soup</a>; NOT reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; NOT reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>)</em> → <a href="#d-gison_arg_10">gison_arg_10</a></li>
+</ul>
+<p><span id="d-gison_p1_20_nobottle"></span><strong><code>gison_p1_20_nobottle</code></strong> Gison: “Oh no, too bad. Please bring me an empty bottle once you've found one.”</p>
+<ul>
+<li>“I will do. Bye” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_eva"></span><strong><code>gison_p1_20_nosoup_eva</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 28 of <a href="../../quests/gison_soup/#stage-28">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup_endquest">gison_p1_20_nosoup_endquest</a></li>
+<li>branch 2 <em>(if reached stage 26 of <a href="../../quests/gison_soup/#stage-26">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup_5000">gison_p1_20_nosoup_5000</a></li>
+<li>branch 3 <em>(if reached stage 24 of <a href="../../quests/gison_soup/#stage-24">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup_500">gison_p1_20_nosoup_500</a></li>
+<li>branch 4 <em>(if reached stage 22 of <a href="../../quests/gison_soup/#stage-22">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup_50">gison_p1_20_nosoup_50</a></li>
+<li>branch 5 <em>(if reached stage 20 of <a href="../../quests/gison_soup/#stage-20">Delicious soup</a>)</em> → <a href="#d-gison_p1_20_nosoup_5">gison_p1_20_nosoup_5</a></li>
+</ul>
+<p><span id="d-gison_p1_20_warmup_1"></span><strong><code>gison_p1_20_warmup_1</code></strong> Gison: “Here you go.” — <strong>effects:</strong> starts timer “gison_soup”</p>
+<ul>
+<li>“Thanks.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_10"></span><strong><code>gison_p1_10</code></strong> Gison: “Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_10_0">gison_p1_10_0</a></li>
+</ul>
+<p><span id="d-gison_catchsoup_10new"></span><strong><code>gison_catchsoup_10new</code></strong> Gison: “Whoah. You are hungry, aren't you? Here you go.” — <strong>effects:</strong> gives 10× <a href="../../items/gison_soup/">Gison's mushroom soup</a></p>
+<p><span id="d-gison_catchsoup_5new"></span><strong><code>gison_catchsoup_5new</code></strong> Gison: “You brought all ingredients needed for 5 portions. Here you go.” — <strong>effects:</strong> gives 5× <a href="../../items/gison_soup/">Gison's mushroom soup</a></p>
+<ul>
+<li>“Thanks a lot.” → <a href="#d-gison_catchsoup_eva">gison_catchsoup_eva</a></li>
+</ul>
+<p><span id="d-gison_catchsoup_new"></span><strong><code>gison_catchsoup_new</code></strong> Gison: “You brought an empty bottle, Bogsten's mushrooms and the 50 gold. Here it is.” — <strong>effects:</strong> gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a></p>
+<ul>
+<li>“Thank you.” → <a href="#d-gison_catchsoup_eva">gison_catchsoup_eva</a></li>
+</ul>
+<p><span id="d-gison_catchsoup_nonew"></span><strong><code>gison_catchsoup_nonew</code></strong> Gison: “You don't have the items I need for that exchange. Bring me an empty bottle, two of Bogsten's mushrooms and 50 gold for each portion.”</p>
+<ul>
+<li>“I will be back with those.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p2_50_2"></span><strong><code>gison_p2_50_2</code></strong> Gison: “But you have two similar looking books?”</p>
+<ul>
+<li>“Yes, the robbers have made a complete copy of the book, just without the spell.” → <a href="#d-gison_p2_50_3">gison_p2_50_3</a></li>
+</ul>
+<p><span id="d-gison_p2_10_3"></span><strong><code>gison_p2_10_3</code></strong> Gison: “I don't know why they only took the book. Maybe it's because of the one chapter... <em>brooding</em>”</p>
+<ul>
+<li>“What about that chapter?” → <a href="#d-gison_p2_10_4">gison_p2_10_4</a></li>
+<li>“You'll do that. Goodbye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p2_10_7"></span><strong><code>gison_p2_10_7</code></strong> Gison: “You want a reward?”</p>
+<ul>
+<li>“Yes.” → <a href="#d-gison_p2_10_8">gison_p2_10_8</a></li>
+<li>“No.” → <a href="#d-gison_p2_10_10">gison_p2_10_10</a></li>
+</ul>
+<p><span id="d-gison_arg_30"></span><strong><code>gison_arg_30</code></strong> Gison: “For a kid, that's a very insightful comment. I will talk to my wife about how we can better sell both soups to the townsfolk in Fallhaven. Here are a couple of bottles of my soup as thanks.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>, gives 2× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, starts timer “del_soup”</p>
+<ul>
+<li>“Glad I could help.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_talk"></span><strong><code>gison_talk</code></strong> Gison: “We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city.”</p>
+<ul>
+<li>“What's in the woods here?” → <a href="#d-gison_talk_1">gison_talk_1</a></li>
+</ul>
+<p><span id="d-gison_p1_10_1"></span><strong><code>gison_p1_10_1</code></strong> Gison: “Hahaha. Alaun the old swashbuckler. Could not get enough. I will fix something up for him. Wait here.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_10_2">gison_p1_10_2</a></li>
+</ul>
+<p><span id="d-gison_andor"></span><strong><code>gison_andor</code></strong> Gison: “No, sorry. I have not seen anyone that looks like you. We get few visitors out here in the woods.”</p>
+<ul>
+<li>“OK. Thanks anyway. Let's talk about something else.” → <a href="#d-gison_talk_3">gison_talk_3</a></li>
+<li>“OK. I need to be going.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_endquest"></span><strong><code>gison_p1_20_nosoup_endquest</code></strong> Gison: “I'm sorry for Alaun. I guess he has to get some himself.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/gison_soup/#stage-50">Delicious soup</a></p>
+<ul>
+<li>“Oops.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_5000"></span><strong><code>gison_p1_20_nosoup_5000</code></strong> Gison: “No problem, I'll give you more. However, this time you'll have to pay 5,000 gold for it.”</p>
+<ul>
+<li>“Let's adjourn it to another day, old man.” → <em>conversation ends</em></li>
+<li>“Yes, ok. Here are 5,000 gold pieces.” <em>(if pay 5,000 gold)</em> → <a href="#d-gison_p1_20_nosoup_5000go">gison_p1_20_nosoup_5000go</a></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_500"></span><strong><code>gison_p1_20_nosoup_500</code></strong> Gison: “No problem, I'll give you more. However, this time you'll have to pay 500 gold for it.”</p>
+<ul>
+<li>“Let's adjourn it to another day, old man.” → <em>conversation ends</em></li>
+<li>“Yes, ok. Here are 500 gold pieces.” <em>(if pay 500 gold)</em> → <a href="#d-gison_p1_20_nosoup_500go">gison_p1_20_nosoup_500go</a></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_50"></span><strong><code>gison_p1_20_nosoup_50</code></strong> Gison: “No problem, I'll give you more. However, this time you'll have to pay 50 gold for it.”</p>
+<ul>
+<li>“Let's adjourn it to another day, old man.” → <em>conversation ends</em></li>
+<li>“Yes, ok. Here are 50 gold pieces.” <em>(if pay 50 gold)</em> → <a href="#d-gison_p1_20_nosoup_50go">gison_p1_20_nosoup_50go</a></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_5"></span><strong><code>gison_p1_20_nosoup_5</code></strong> Gison: “No problem, I'll give you more. However, this time you'll have to pay 5 gold for it.”</p>
+<ul>
+<li>“Let's adjourn it to another day, old man.” → <em>conversation ends</em></li>
+<li>“Yes, ok. Here are 5 gold pieces.” <em>(if pay 5 gold)</em> → <a href="#d-gison_p1_20_nosoup_5go">gison_p1_20_nosoup_5go</a></li>
+</ul>
+<p><span id="d-gison_p2_50_3"></span><strong><code>gison_p2_50_3</code></strong> Gison: “Then give me the copy. I don't want to be raided again.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/gison_cookbook/#stage-60">A raid for a cookbook</a></p>
+<ul>
+<li>“OK. Then I'll take the version with the spell. I can't read the dark words, but that doesn't bother me.” <em>(if hand over 1× <a href="../../items/gison_cookbook_2/">Fabulous cookings (copy)</a>)</em> → <a href="#d-gison_p2_70">gison_p2_70</a></li>
+</ul>
+<p><span id="d-gison_p2_10_4"></span><strong><code>gison_p2_10_4</code></strong> Gison: “What? Yes, yes, the chapter... It contained several pages with strange letters written between the recipes.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p2_10_5">gison_p2_10_5</a></li>
+</ul>
+<p><span id="d-gison_p2_10_8"></span><strong><code>gison_p2_10_8</code></strong> Gison: “I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more.”</p>
+<ul>
+<li>“I guess it's not worth the trouble. Time to go.” → <em>conversation ends</em></li>
+<li>“Sounds fair.” → <a href="#d-gison_p2_10_3">gison_p2_10_3</a></li>
+</ul>
+<p><span id="d-gison_p2_10_10"></span><strong><code>gison_p2_10_10</code></strong> Gison: “Oh, well. I started to believe that I could not trust my knowledge of human nature anymore.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p2_10_3">gison_p2_10_3</a></li>
+</ul>
+<p><span id="d-gison_talk_1"></span><strong><code>gison_talk_1</code></strong> Gison: “Herbs, animals and above all: Mushrooms. If you would like to know more about mushrooms, I suggest you go to Bogsten, east of here. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup.”</p>
+<ul>
+<li>Next → <a href="#d-gison_talk_2">gison_talk_2</a></li>
+</ul>
+<p><span id="d-gison_p1_10_2"></span><strong><code>gison_p1_10_2</code></strong> <a href="../none/">Dummy NPC</a>: “Gison goes to a big bowl, fills up some of the soup and returns to you.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_10_3">gison_p1_10_3</a></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_5000go"></span><strong><code>gison_p1_20_nosoup_5000go</code></strong> Gison: “[Gison gives you a new bottle with hot soup.] Here you go. I can't give you more. Take this one to Alaun now, greedy lad!” — <strong>effects:</strong> gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, sets stage 28 of <a href="../../quests/gison_soup/#stage-28">Delicious soup</a>, starts timer “gison_soup”</p>
+<ul>
+<li>“Thanks. Goodbye.” → <em>conversation ends</em></li>
+<li>“Yum! More soup!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_500go"></span><strong><code>gison_p1_20_nosoup_500go</code></strong> Gison: “[Gison gives you a new bottle with hot soup.] Here you go.” — <strong>effects:</strong> gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, sets stage 26 of <a href="../../quests/gison_soup/#stage-26">Delicious soup</a>, starts timer “gison_soup”</p>
+<ul>
+<li>“Thanks. Goodbye.” → <em>conversation ends</em></li>
+<li>“Yum! More soup!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_50go"></span><strong><code>gison_p1_20_nosoup_50go</code></strong> Gison: “[Gison gives you a new bottle with hot soup.] Here you go.” — <strong>effects:</strong> gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, sets stage 24 of <a href="../../quests/gison_soup/#stage-24">Delicious soup</a>, starts timer “gison_soup”</p>
+<ul>
+<li>“Thanks. Goodbye.” → <em>conversation ends</em></li>
+<li>“Yum! More soup!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p1_20_nosoup_5go"></span><strong><code>gison_p1_20_nosoup_5go</code></strong> Gison: “[Gison gives you a new bottle with hot soup.] Here you go.” — <strong>effects:</strong> gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, sets stage 22 of <a href="../../quests/gison_soup/#stage-22">Delicious soup</a>, starts timer “gison_soup”</p>
+<ul>
+<li>“Thanks. Goodbye.” → <em>conversation ends</em></li>
+<li>“Yum! More soup!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p2_10_5"></span><strong><code>gison_p2_10_5</code></strong> Gison: “I obtained the book some years ago. It was a present from Bogsten - you know him? - and instantly I took a fancy for these fabulous recipes. Please find it and return it to me.”</p>
+<ul>
+<li>“What's written in that chapter?” → <a href="#d-gison_p2_10_6">gison_p2_10_6</a></li>
+</ul>
+<p><span id="d-gison_talk_2"></span><strong><code>gison_talk_2</code></strong> Gison: “Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out.”</p>
+<ul>
+<li>“I see. Let's talk about something else.” → <a href="#d-gison_talk_3">gison_talk_3</a></li>
+</ul>
+<p><span id="d-gison_p1_10_3"></span><strong><code>gison_p1_10_3</code></strong> <a href="./">Gison</a>: “Here you go. [He gives you a container with the soup.]” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/gison_soup/#stage-20">Delicious soup</a>, gives 1× <a href="../../items/gison_soup/">Gison's mushroom soup</a>, starts timer “gison_soup”</p>
+<ul>
+<li>Next → <a href="#d-gison_p1_10_4">gison_p1_10_4</a></li>
+</ul>
+<p><span id="d-gison_p2_10_6"></span><strong><code>gison_p2_10_6</code></strong> Gison: “That's a good question. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what that chapter is about.”</p>
+<ul>
+<li>Next → <a href="#d-gison_p2_10_9">gison_p2_10_9</a></li>
+</ul>
+<p><span id="d-gison_p1_10_4"></span><strong><code>gison_p1_10_4</code></strong> Gison: “Give him my regards and hurry up. He likes his soup hot.”</p>
+<ul>
+<li>“Alaun will get his soup soon enough.” → <em>conversation ends</em></li>
+<li>“Yes. I'm on my way.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p2_10_9"></span><strong><code>gison_p2_10_9</code></strong> Gison: “Well, will you help me?”</p>
+<ul>
+<li>“Sure thing. I'll search for your book.” → <a href="#d-gison_p2_10_11">gison_p2_10_11</a></li>
+<li>“Find somebody else.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-gison_p2_10_11"></span><strong><code>gison_p2_10_11</code></strong> Gison: “I really thank you.” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/gison_cookbook/#stage-15">A raid for a cookbook</a></p>
+<ul>
+<li>Next → <a href="#d-gison_p2_15">gison_p2_15</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gison.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gison.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gison.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gison.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>gison</code> · Data from v0.8.18</small></p>
 
 

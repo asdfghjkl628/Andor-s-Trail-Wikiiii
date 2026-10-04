@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,113 +971,615 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>hidden_devotion</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/anoa/">Anoa</a>, <a href="../../monsters/shade7/">Forsaken shade</a>, <a href="../../monsters/shade6/">Forsaken shade</a>, <a href="../../monsters/shade9/">Forsaken shade</a>, <a href="../../monsters/shade10/">Forsaken shade</a>, <a href="../../monsters/shade5/">Forsaken shade</a> +6</td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/undertell_3_00/">undertell_3_00</a>, <a href="../../maps/undertell_3_02/">undertell_3_02</a>, <a href="../../maps/undertell_3_03/">undertell_3_03</a>, <a href="../../maps/undertell_3_10/">undertell_3_10</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>PC killed shade1</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a>. Required:</p>
+<ul>
+<li>NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a></li>
+<li>NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a></li>
+<li>NOT reached stage 1 of <a href="./#stage-1">hidden_devotion (hidden flag)</a></li>
+<li>killed 1× <a href="../../monsters/shade1/">Forsaken shade</a></li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../devotion/#stage-110">Devotion</a></td>
+<td>stage 110 reached, for stages 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../devotion/#stage-470">Devotion</a></td>
+<td>stage 470 reached, for stage 450 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../devotion/#stage-40">Devotion</a></td>
+<td>stage 40 must NOT be reached, for stage 20 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../devotion/#stage-450">Devotion</a></td>
+<td>stage 450 must NOT be reached, for stages 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../devotion/#stage-480">Devotion</a></td>
+<td>stage 480 must NOT be reached, for stages 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../devotion/#stage-30">Devotion</a></td>
+<td>stage 30 there needs stage 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../devotion/#stage-50">Devotion</a></td>
+<td>stage 50 there needs stage 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../devotion/#stage-70">Devotion</a></td>
+<td>stage 70 there needs stage 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../undertell_hidden/#stage-82">hidden_undertell (hidden flag)</a></td>
+<td>stage 82 there needs stage 450 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>PC killed shade1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-2"></span>2</td>
 <td>PC killed shade2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-3"></span>3</td>
 <td>PC killed shade3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-4"></span>4</td>
 <td>PC killed shade4<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-5"></span>5</td>
 <td>PC killed shade5<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-6"></span>6</td>
 <td>PC killed shade6<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-7"></span>7</td>
 <td>PC killed shade7<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-8"></span>8</td>
 <td>PC killed shade8<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-9"></span>9</td>
 <td>PC killed shade9<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>PC killed shade10<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-11"></span>11</td>
 <td>PC killed shade11<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>–</td>
+<td>faction “shadeKillCount” +1</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>A shade has sent the PC away to a far off place.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-140"></span>140</td>
 <td>Shade # 1: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-170"></span>170</td>
 <td>Shade # 2: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
 <td>Shade # 3: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-230"></span>230</td>
 <td>Shade # 4: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-260"></span>260</td>
 <td>Shade # 5: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-290"></span>290</td>
 <td>Shade # 6: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-320"></span>320</td>
 <td>Shade # 7: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-350"></span>350</td>
 <td>Shade # 8: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-380"></span>380</td>
 <td>Shade # 9: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-410"></span>410</td>
 <td>Shade # 10: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-440"></span>440</td>
 <td>Shade # 11: I knew my history, so I attacked the shade.</td>
+<td><a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>)<br><a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>)<br><a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>+8 more</td>
+<td>wearing <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-450"></span>450</td>
 <td>PC has completed the Devotion quest.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/undertell_3_02/">Undertell 3 02</a>.</span></td>
+<td><a href="../../monsters/anoa/">Anoa</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>)<br>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a></td>
+<td>hand over 1× <a href="../../items/elythara_ring/">Elythara's ring</a></td>
+<td>gives 1× <a href="../../items/elythara_ring_upgraded/">Elythara's ring</a><br>sets stage 450 of <a href="../devotion/#stage-450">Devotion</a><br>removes monsters from undertell_3_02<br>spawns monsters on undertell_3_00<br>spawns monsters on undertell_3_01<br>spawns monsters on undertell_3_11<br>spawns monsters on undertell_3_12<br>spawns monsters on undertell_3_13<br>spawns monsters on undertell_3_03<br>spawns monsters on undertell_3_02<br>sets stage 480 of <a href="../devotion/#stage-480">Devotion</a></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>hidden_devotion</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 1: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 1 of <a href="./#stage-1">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade1/">Forsaken shade</a> → <strong>stage 1</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 2: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 2 of <a href="./#stage-2">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade2/">Forsaken shade</a> → <strong>stage 2</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 3: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 3 of <a href="./#stage-3">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade3/">Forsaken shade</a> → <strong>stage 3</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 4: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 4 of <a href="./#stage-4">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade4/">Forsaken shade</a> → <strong>stage 4</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 5: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 5 of <a href="./#stage-5">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade5/">Forsaken shade</a> → <strong>stage 5</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 6: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 6 of <a href="./#stage-6">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade6/">Forsaken shade</a> → <strong>stage 6</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 7: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 7 of <a href="./#stage-7">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade7/">Forsaken shade</a> → <strong>stage 7</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 8: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 8 of <a href="./#stage-8">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade8/">Forsaken shade</a> → <strong>stage 8</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 9: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 9 of <a href="./#stage-9">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade9/">Forsaken shade</a> → <strong>stage 9</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 10 of <a href="./#stage-10">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade10/">Forsaken shade</a> → <strong>stage 10</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 11: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 450 of <a href="../devotion/#stage-450">Devotion</a>; NOT reached stage 480 of <a href="../devotion/#stage-480">Devotion</a>; NOT reached stage 11 of <a href="./#stage-11">hidden_devotion (hidden flag)</a>; killed 1× <a href="../../monsters/shade11/">Forsaken shade</a> → <strong>stage 11</strong>; also faction “shadeKillCount” +1</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “But I want to...” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../devotion/#stage-40">Devotion</a> → <strong>stage 20</strong></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 140: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 1 → <strong>stage 140</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 170: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 2 → <strong>stage 170</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 200: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 3 → <strong>stage 200</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 230: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 4 → <strong>stage 230</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 260: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 5 → <strong>stage 260</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 290: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 6 → <strong>stage 290</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 320: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 7 → <strong>stage 320</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 350: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 8 → <strong>stage 350</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 380: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 9 → <strong>stage 380</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 410: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 10 → <strong>stage 410</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 440: 11 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/shade10/">Forsaken shade</a> (<a href="../../maps/undertell_3_10/">undertell_3_10</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade11/">Forsaken shade</a> (<a href="../../maps/undertell_3_03/">undertell_3_03</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade1/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade2/">Forsaken shade</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade3/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade4/">Forsaken shade</a> (<a href="../../maps/undertell_3_12/">undertell_3_12</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade5/">Forsaken shade</a> (<a href="../../maps/undertell_3_13/">undertell_3_13</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade6/">Forsaken shade</a> (<a href="../../maps/undertell_3_11/">undertell_3_11</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade7/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade8/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+<li>Talk to <a href="../../monsters/shade9/">Forsaken shade</a> (<a href="../../maps/undertell_3_00/">undertell_3_00</a>) → choose “I know my history. You shall cease to exist.” — <strong>conditions:</strong> reached stage 110 of <a href="../devotion/#stage-110">Devotion</a>; wearing <a href="../../items/elythara_ring/">Elythara's ring</a>; faction “currentShade” = 11 → <strong>stage 440</strong>. NPC: “You shall not live.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 450: 2 routes</summary>
+<ol>
+<li>Talk to <a href="../../monsters/anoa/">Anoa</a> (<a href="../../maps/undertell_3_02/">undertell_3_02</a>) → choose “Here it is.” — <strong>conditions:</strong> faction “shadeKillCount” = 11; hand over 1× <a href="../../items/elythara_ring/">Elythara's ring</a> → <strong>stage 450</strong>; also gives 1× <a href="../../items/elythara_ring_upgraded/">Elythara's ring</a>, sets stage 450 of <a href="../devotion/#stage-450">Devotion</a>, removes monsters from undertell_3_02, spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02. NPC: “As you have truly vanquished the Kha'zaan and resisted their whispers, Elythara grants her favor. Through this ring,…”</li>
+<li>stepping on a trigger on <a href="../../maps/undertell_3_02/">undertell_3_02</a> → the conversation leads here automatically — <strong>conditions:</strong> latest stage of <a href="../devotion/#stage-470">Devotion</a> is 470; killed 1× <a href="../../monsters/anoa/">Anoa</a>; faction “shadeSetFreeCount” = 11; killed 11× <a href="../../monsters/evil_shade/">Evil shade</a> → <strong>stage 450</strong>; also sets stage 480 of <a href="../devotion/#stage-480">Devotion</a>, spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02. NPC: “The darkness born in the War of Dawn loosens its grip at last, leaving only the echo of what devotion once twisted.”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=hidden_devotion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=hidden_devotion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=hidden_devotion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=hidden_devotion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=hidden_devotion.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>hidden_devotion</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440, 450</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>1: <code>killed_shade1_reward</code>, 2: <code>killed_shade2_reward</code>, 3: <code>killed_shade3_reward</code>, 4: <code>killed_shade4_reward</code>, 5: <code>killed_shade5_reward</code>, 6: <code>killed_shade6_reward</code>, 7: <code>killed_shade7_reward</code>, 8: <code>killed_shade8_reward</code>, 9: <code>killed_shade9_reward</code>, 10: <code>killed_shade10_reward</code>, 11: <code>killed_shade11_reward</code>, 20: <code>undertell_shade_teleport_loc_selector</code>, 140: <code>shade_kill_1</code>, 170: <code>shade_kill_2</code>, 200: <code>shade_kill_3</code>, 230: <code>shade_kill_4</code>, 260: <code>shade_kill_5</code>, 290: <code>shade_kill_6</code>, 320: <code>shade_kill_7</code>, 350: <code>shade_kill_8</code>, 380: <code>shade_kill_9</code>, 410: <code>shade_kill_10</code>, 440: <code>shade_kill_11</code>, 450: <code>anoa_ring_upgrade_10</code>, 450: <code>devotion_all_evil_shades_killed_reward</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>20: <code>undertell_shade_teleport_first_time_reward</code>, 20: <code>undertell_shade_teleport_last_time_reward</code>, 20: <code>undertell_shade_teleport_second_time_reward</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

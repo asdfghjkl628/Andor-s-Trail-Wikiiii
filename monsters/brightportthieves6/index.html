@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,212 @@
 <ul>
 <li><a href="../../maps/brightport_thieves/">brightport_thieves</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brightport_thieves/">Boxed in</a>: stages 10, 50, 70</li>
+<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 130, 196, 244, 256</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (43 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brightport_thiefboss_selector"></span><strong><code>brightport_thiefboss_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 196 of <a href="../../quests/brightport_nondisplay/#stage-196">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_common">brightport_elysa_common</a></li>
+<li>Next <em>(if reached stage 20 of <a href="../../quests/brightport_thieves/#stage-20">Boxed in</a>)</em> → <a href="#d-brightport_meeting">brightport_meeting</a></li>
+<li>Next <em>(if reached stage 10 of <a href="../../quests/brightport_thieves/#stage-10">Boxed in</a>; NOT reached stage 20 of <a href="../../quests/brightport_thieves/#stage-20">Boxed in</a>)</em> → <a href="#d-brightport_elysa6">brightport_elysa6</a></li>
+<li>Next <em>(if reached stage 130 of <a href="../../quests/brightport_nondisplay/#stage-130">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_greeting">brightport_elysa_greeting</a></li>
+<li>Next <em>(if NOT reached stage 130 of <a href="../../quests/brightport_nondisplay/#stage-130">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_thiefboss_introduction">brightport_thiefboss_introduction</a></li>
+</ul>
+<p><span id="d-brightport_elysa_common"></span><strong><code>brightport_elysa_common</code></strong> Elysa: “Hello $playername, I don't have any work to give you.”</p>
+<ul>
+<li>“You haven't told me about Andor.” <em>(if NOT reached stage 131 of <a href="../quests/andor.md#stage-131">andor (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_andor_selector">brightport_elysa_andor_selector</a></li>
+<li>“Can you tell me about Andor again?” <em>(if reached stage 131 of <a href="../quests/andor.md#stage-131">andor (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_caught4">brightport_elysa_caught4</a></li>
+</ul>
+<p><span id="d-brightport_meeting"></span><strong><code>brightport_meeting</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_jail">brightport_elysa_jail</a></li>
+<li>Next <em>(if reached stage 40 of <a href="../../quests/brightport_thieves/#stage-40">Boxed in</a>)</em> → <a href="#d-brightport_elysa_caught">brightport_elysa_caught</a></li>
+<li>Next <em>(if NOT reached stage 40 of <a href="../../quests/brightport_thieves/#stage-40">Boxed in</a>; reached stage 32 of <a href="../../quests/brightport_thieves/#stage-32">Boxed in</a>)</em> → <a href="#d-brightport_elysa_package">brightport_elysa_package</a></li>
+</ul>
+<p><span id="d-brightport_elysa6"></span><strong><code>brightport_elysa6</code></strong> Elysa: “Have you been the to the meeting place yet?”</p>
+<ul>
+<li>“The courier was not there. Apparently he got arrested.” <em>(if reached stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa16">brightport_elysa16</a></li>
+<li>“Not yet. [Leave.]” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_elysa_greeting"></span><strong><code>brightport_elysa_greeting</code></strong> Elysa: “Hello, $playername. Here to work for us? If so we still have that errand for you.”</p>
+<ul>
+<li>“Fine I'll do it.” → <a href="#d-brightport_elysa0">brightport_elysa0</a></li>
+<li>“I don't feel like working for you right now.” → <a href="#d-brightport_elysa11">brightport_elysa11</a></li>
+</ul>
+<p><span id="d-brightport_thiefboss_introduction"></span><strong><code>brightport_thiefboss_introduction</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>)</em> → <a href="#d-brightport_thiefboss_introduction0">brightport_thiefboss_introduction0</a></li>
+<li>Next <em>(if reached stage 50 of <a href="../../quests/Thieves03/#stage-50">The ruthless Crackshot</a>)</em> → <a href="#d-brightport_thiefboss_introduction1">brightport_thiefboss_introduction1</a></li>
+</ul>
+<p><span id="d-brightport_elysa_andor_selector"></span><strong><code>brightport_elysa_andor_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>; NOT reached stage 131 of <a href="../quests/andor.md#stage-131">andor (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_andor">brightport_elysa_andor</a></li>
+<li>Next <em>(if reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>; reached stage 244 of <a href="../../quests/brightport_nondisplay/#stage-244">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_andor">brightport_elysa_andor</a></li>
+<li>Next <em>(if reached stage 220 of <a href="../../quests/brightport_nondisplay/#stage-220">brightport_nondisplay (hidden flag)</a>; NOT reached stage 244 of <a href="../../quests/brightport_nondisplay/#stage-244">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa_jail1">brightport_elysa_jail1</a></li>
+</ul>
+<p><span id="d-brightport_elysa_caught4"></span><strong><code>brightport_elysa_caught4</code></strong> Elysa: “First, as Umar told you, Andor was looking for directions to the potion maker named Lodar; and second, he wanted information.” — <strong>effects:</strong> sets stage 244 of <a href="../../quests/brightport_nondisplay/#stage-244">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“What kind of information?” → <a href="#d-brightport_elysa_caught5">brightport_elysa_caught5</a></li>
+</ul>
+<p><span id="d-brightport_elysa_jail"></span><strong><code>brightport_elysa_jail</code></strong> Elysa: “You don't have to tell me, I know $playername, you got caught and they took the package. We don't have much left to discuss. I will still tell you about your brother Andor, but not for free.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brightport_thieves/#stage-70">Boxed in</a>, sets stage 196 of <a href="../../quests/brightport_nondisplay/#stage-196">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“For how much?” → <a href="#d-brightport_elysa_jail1">brightport_elysa_jail1</a></li>
+<li>“I actually have the package here!” <em>(if carry 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa_jail0">brightport_elysa_jail0</a></li>
+</ul>
+<p><span id="d-brightport_elysa_caught"></span><strong><code>brightport_elysa_caught</code></strong> Elysa: “$playername, you're all covered in grime, how did it go.”</p>
+<ul>
+<li>“The guards came in after I got it from the agent. I tried hiding, but they found me and took the package with them.” <em>(if NOT carry 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa_caught1">brightport_elysa_caught1</a></li>
+<li>“The guards came in after I got it from the agent. I tried hiding, but they found me. They left me the package but they…” <em>(if carry 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa_caught_alt">brightport_elysa_caught_alt</a></li>
+</ul>
+<p><span id="d-brightport_elysa_package"></span><strong><code>brightport_elysa_package</code></strong> Elysa: “$playername, you're all covered in grime, how did it go.”</p>
+<ul>
+<li>“Easy as pie.” → <a href="#d-brightport_elysa7">brightport_elysa7</a></li>
+</ul>
+<p><span id="d-brightport_elysa16"></span><strong><code>brightport_elysa16</code></strong> Elysa: “Sigh. I thought we'd be safe away from the town. My mood is soured. I'll still tell you about Andor, but only for some gold.”</p>
+<ul>
+<li>“How much gold?” → <a href="#d-brightport_elysa_jail1">brightport_elysa_jail1</a></li>
+</ul>
+<p><span id="d-brightport_elysa0"></span><strong><code>brightport_elysa0</code></strong> Elysa: “First you must know more about our activities and how the Guild operates in Brightport.”</p>
+<ul>
+<li>“Sure.” → <a href="#d-brightport_elysa1">brightport_elysa1</a></li>
+<li>“I don't have time, can't we get on with it already?” → <a href="#d-brightport_elysa2">brightport_elysa2</a></li>
+</ul>
+<p><span id="d-brightport_elysa11"></span><strong><code>brightport_elysa11</code></strong> Elysa: “Is that so? I believe you'll change your mind.”</p>
+<p><span id="d-brightport_thiefboss_introduction0"></span><strong><code>brightport_thiefboss_introduction0</code></strong> Elysa: “A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername.”</p>
+<ul>
+<li>“I heard my brother Andor came to speak with you before. I was hoping you could tell me about your meeting with him.” → <a href="#d-brightport_thiefboss_introduction2">brightport_thiefboss_introduction2</a></li>
+</ul>
+<p><span id="d-brightport_thiefboss_introduction1"></span><strong><code>brightport_thiefboss_introduction1</code></strong> Elysa: “Well well, if it isn't one of Umar's little helpers. Did Umar run out of work for you already?”</p>
+<ul>
+<li>“I heard my brother Andor came to speak with you before. I was hoping you could tell me about your meeting with him.” → <a href="#d-brightport_thiefboss_introduction2">brightport_thiefboss_introduction2</a></li>
+</ul>
+<p><span id="d-brightport_elysa_andor"></span><strong><code>brightport_elysa_andor</code></strong> Elysa: “Yes, because YOU, were rude enough to leave in the middle of our conversation. You have no patience, and you should feel ashamed.”</p>
+<ul>
+<li>“I'm sorry, please tell me about Andor.” → <a href="#d-brightport_elysa_caught4">brightport_elysa_caught4</a></li>
+</ul>
+<p><span id="d-brightport_elysa_jail1"></span><strong><code>brightport_elysa_jail1</code></strong> Elysa: “Your work was supposed to pay for it, however now I feel inclined to put a price on it. 1,000 gold.”</p>
+<ul>
+<li>“Here it is.” <em>(if pay 1,000 gold)</em> → <a href="#d-brightport_elysa_gold">brightport_elysa_gold</a></li>
+<li>“I don't have the gold now. I will come later.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_elysa_caught5"></span><strong><code>brightport_elysa_caught5</code></strong> Elysa: “He wanted to know who our members are and what skills they possess. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. I shared this information with your brother, as his little…” — <strong>effects:</strong> sets stage 131 of <a href="../quests/andor.md#stage-131">andor (hidden flag)</a></p>
+<ul>
+<li>“Interesting, is that all?” → <a href="#d-brightport_elysa15">brightport_elysa15</a></li>
+</ul>
+<p><span id="d-brightport_elysa_jail0"></span><strong><code>brightport_elysa_jail0</code></strong> Elysa: “You've pleasantly surprised me $playername! I didn't think you would get to keep it after your failure.”</p>
+<ul>
+<li>“Here you go. [Give her the package.]” <em>(if hand over 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa_jail2">brightport_elysa_jail2</a></li>
+</ul>
+<p><span id="d-brightport_elysa_caught1"></span><strong><code>brightport_elysa_caught1</code></strong> Elysa: “And they haven't arrested you, at least that's good. Have they opened the package to see what's inside?”</p>
+<ul>
+<li>“Yes. [Tell her what happened.]” → <a href="#d-brightport_elysa_caught2">brightport_elysa_caught2</a></li>
+</ul>
+<p><span id="d-brightport_elysa_caught_alt"></span><strong><code>brightport_elysa_caught_alt</code></strong> Elysa: “And they haven't arrested you. That's good. Have they examined the contents of the package?”</p>
+<ul>
+<li>“Yes. [Tell her what happened.]” → <a href="#d-brightport_elysa_caught2">brightport_elysa_caught2</a></li>
+</ul>
+<p><span id="d-brightport_elysa7"></span><strong><code>brightport_elysa7</code></strong> Elysa: “Good, well then where is the package?”</p>
+<ul>
+<li>“Here it is.” <em>(if hand over 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa8">brightport_elysa8</a></li>
+<li>“Here it is.” <em>(if reached stage 256 of <a href="../../quests/brightport_nondisplay/#stage-256">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_elysa8">brightport_elysa8</a></li>
+<li>“Sorry I think I dropped it somewhere.” <em>(if NOT carry 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa9">brightport_elysa9</a></li>
+<li>“It's lost, and I can't find it.” <em>(if NOT carry 1× <a href="../../items/brightportpackage/">Package</a>)</em> → <a href="#d-brightport_elysa_failsafe">brightport_elysa_failsafe</a></li>
+</ul>
+<p><span id="d-brightport_elysa1"></span><strong><code>brightport_elysa1</code></strong> Elysa: “For most of the time since its existence, the Guild in Brightport was a place to train new recruits, away from the soldiers of Feygard and the more established thieves of Nor City.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa4">brightport_elysa4</a></li>
+</ul>
+<p><span id="d-brightport_elysa2"></span><strong><code>brightport_elysa2</code></strong> Elysa: “Fine, $playername. I'll skip the details then.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa3">brightport_elysa3</a></li>
+</ul>
+<p><span id="d-brightport_thiefboss_introduction2"></span><strong><code>brightport_thiefboss_introduction2</code></strong> Elysa: “I was expecting your visit after receiving a letter from Fallhaven. Umar wrote that you would come and ask some questions.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_thiefboss_introduction3">brightport_thiefboss_introduction3</a></li>
+</ul>
+<p><span id="d-brightport_elysa_gold"></span><strong><code>brightport_elysa_gold</code></strong> Elysa: “Thank you for your business.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa_caught4">brightport_elysa_caught4</a></li>
+</ul>
+<p><span id="d-brightport_elysa15"></span><strong><code>brightport_elysa15</code></strong> Elysa: “That is all I feel inclined to share.”</p>
+<ul>
+<li>“Thanks, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_elysa_jail2"></span><strong><code>brightport_elysa_jail2</code></strong> <a href="../none/">Dummy NPC</a>: “Elysa takes the package, opens it and takes a long look at you.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa_jail3">brightport_elysa_jail3</a></li>
+</ul>
+<p><span id="d-brightport_elysa_caught2"></span><strong><code>brightport_elysa_caught2</code></strong> Elysa: “They will never be able to tell that it was a code. We will simply have to ask the client directly for any additional details.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa_caught3">brightport_elysa_caught3</a></li>
+</ul>
+<p><span id="d-brightport_elysa8"></span><strong><code>brightport_elysa8</code></strong> <a href="../none/">Dummy NPC</a>: “Elysa opens the small box, glances at the item inside, and closes it again.” — <strong>effects:</strong> sets stage 256 of <a href="../../quests/brightport_nondisplay/#stage-256">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa13">brightport_elysa13</a></li>
+</ul>
+<p><span id="d-brightport_elysa9"></span><strong><code>brightport_elysa9</code></strong> Elysa: “What incompetence! go pick it up.”</p>
+<p><span id="d-brightport_elysa_failsafe"></span><strong><code>brightport_elysa_failsafe</code></strong> Elysa: “You lost it? Sigh. I had higher expectations of you, my mood is soured. I'll still tell you about Andor, but only for some gold.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brightport_thieves/#stage-70">Boxed in</a></p>
+<ul>
+<li>“How much gold?” → <a href="#d-brightport_elysa_jail1">brightport_elysa_jail1</a></li>
+</ul>
+<p><span id="d-brightport_elysa4"></span><strong><code>brightport_elysa4</code></strong> Elysa: “But with Remgard's increasing exports of quality steel over the past hundred years, our guildhall was expanded to accomodate the growing demand for weapon smuggling.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa5">brightport_elysa5</a></li>
+</ul>
+<p><span id="d-brightport_elysa3"></span><strong><code>brightport_elysa3</code></strong> Elysa: “We need you to pick up a package from the mediator of one of our clients. We've received word that he'll be waiting in the old building east of town. Be discreet, and make sure the guards don't see you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brightport_thieves/#stage-10">Boxed in</a></p>
+<ul>
+<li>“I'll pick up that package for you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_thiefboss_introduction3"></span><strong><code>brightport_thiefboss_introduction3</code></strong> Elysa: “I don't know anything more than what Umar has told you. However there is a single detail about your brother that might help you.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brightport_nondisplay/#stage-130">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“A detail about my brother? I'm all ears.” <em>(if NOT reached stage 900 of <a href="../quests/andor_ending.md#stage-900">andor_ending (hidden flag)</a>)</em> → <a href="#d-brightport_elysa">brightport_elysa</a></li>
+<li>“My journey in search of him is over, but I wouldn't mind hearing something new.” <em>(if reached stage 900 of <a href="../quests/andor_ending.md#stage-900">andor_ending (hidden flag)</a>)</em> → <a href="#d-brightport_elysa">brightport_elysa</a></li>
+</ul>
+<p><span id="d-brightport_elysa_jail3"></span><strong><code>brightport_elysa_jail3</code></strong> <a href="./">Elysa</a>: “Have you come to make a fool of yourself $playername? The package is empty.” — <strong>effects:</strong> sets stage 196 of <a href="../../quests/brightport_nondisplay/#stage-196">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Uh oh.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brightport_elysa_caught3"></span><strong><code>brightport_elysa_caught3</code></strong> <a href="./">Elysa</a>: “And now, let's talk about you, $playername. I'm a bit disheartened that you got caught, but I'm still willing to tell you what I know of your brother. I was planning on telling you in the first place, but a good opportunity didn't arise.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/brightport_thieves/#stage-70">Boxed in</a>, sets stage 196 of <a href="../../quests/brightport_nondisplay/#stage-196">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“I'm all ears.” → <a href="#d-brightport_elysa_caught4">brightport_elysa_caught4</a></li>
+</ul>
+<p><span id="d-brightport_elysa13"></span><strong><code>brightport_elysa13</code></strong> <a href="./">Elysa</a>: “Very good work, $playername. I heard the guards went on patrol while you were there, and you skillfully avoided them. The Guild would very much like to have your skills again in the future.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brightport_thieves/#stage-50">Boxed in</a>, sets stage 196 of <a href="../../quests/brightport_nondisplay/#stage-196">brightport_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa14">brightport_elysa14</a></li>
+</ul>
+<p><span id="d-brightport_elysa5"></span><strong><code>brightport_elysa5</code></strong> Elysa: “With the restrictions on the trade of weapons and steel by Feygard, our importance has only increased. However, the newly established inspections have made carrying out our activities in town a nuisance. Several of my men have already…”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa3">brightport_elysa3</a></li>
+</ul>
+<p><span id="d-brightport_elysa"></span><strong><code>brightport_elysa</code></strong> Elysa: “But as you know very well, the Guild has it's rules, we're not keen on doing charity. Luckily we have just the right errand for you.”</p>
+<ul>
+<li>“Sure. What is it?” → <a href="#d-brightport_elysa12">brightport_elysa12</a></li>
+<li>“I don't feel like working for you right now.” → <a href="#d-brightport_elysa11">brightport_elysa11</a></li>
+</ul>
+<p><span id="d-brightport_elysa14"></span><strong><code>brightport_elysa14</code></strong> Elysa: “And now the information I promised. Your brother Andor came here and asked a few questions.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa_caught4">brightport_elysa_caught4</a></li>
+</ul>
+<p><span id="d-brightport_elysa12"></span><strong><code>brightport_elysa12</code></strong> Elysa: “Just a little errand for the Guild, I believe you are well acquainted with those.”</p>
+<ul>
+<li>Next → <a href="#d-brightport_elysa0">brightport_elysa0</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves6.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves6.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves6.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightportthieves6.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brightportthieves6</code> · Data from v0.8.18</small></p>
 
 

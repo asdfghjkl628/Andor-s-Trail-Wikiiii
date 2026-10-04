@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -836,29 +971,181 @@
 <p class="admonition-title">Hidden story flag</p>
 <p>An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.</p>
 </div>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>guynmart_quest_olav</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>No (hidden flag)</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a></td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/guynmart_hannah3/">Hannah</a>, <a href="../../monsters/guynmart_hannah/">Hannah</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/guynmart/">guynmart</a>, <a href="../../maps/guynmart_main_1/">guynmart_main_1</a></td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>1</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>None: talk to stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> to begin.</p>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../guynmart/#stage-80">Roses</a></td>
+<td>stage 80 reached, for stage 7 here</td>
+</tr>
+<tr>
+<td>Blocked by</td>
+<td><a href="../guynmart/#stage-81">Roses</a></td>
+<td>stage 81 must NOT be reached, for stage 7 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart/">Guynmart</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a></td>
+<td>–</td>
+<td>clears stage 7 of <a href="./#stage-7">Guest tour (hidden flag)</a></td>
 </tr>
 <tr>
 <td><span id="stage-7"></span>7</td>
 <td>7 olav-<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/guynmart/">Guynmart</a>.</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart/">Guynmart</a>.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a><br><a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>)</td>
+<td>stage 1</td>
+<td>clears stage 1 of <a href="./#stage-1">Guest tour (hidden flag)</a><br>spawns monsters on guynmart<br>clears stage 71 of <a href="./#stage-71">Guest tour (hidden flag)</a><br>clears stage 11 of <a href="../guynmart_r_lake/#stage-11">guynmart lake (hidden flag)</a><br>sets stage 70 of <a href="../guynmart/#stage-70">Roses</a></td>
 </tr>
 <tr>
 <td><span id="stage-71"></span>71</td>
 <td>71 wall<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/guynmart/">Guynmart</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a></td>
+<td>–</td>
+<td>applies condition stunned<br>applies condition bone_fracture</td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>guynmart_quest_olav</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 1: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> → the conversation leads here automatically → <strong>stage 1</strong>; also clears stage 7 of <a href="./#stage-7">Guest tour (hidden flag)</a></li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 7: 2 routes</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 80 of <a href="../guynmart/#stage-80">Roses</a>; NOT reached stage 81 of <a href="../guynmart/#stage-81">Roses</a>; reached stage 1 of <a href="./#stage-1">Guest tour (hidden flag)</a> → <strong>stage 7</strong>; also spawns monsters on guynmart, clears stage 1 of <a href="./#stage-1">Guest tour (hidden flag)</a>, clears stage 71 of <a href="./#stage-71">Guest tour (hidden flag)</a>, clears stage 11 of <a href="../guynmart_r_lake/#stage-11">guynmart lake (hidden flag)</a>. NPC: “Yoo-Hoo! You again - fine! I'm coming...”</li>
+<li>Talk to <a href="../../monsters/guynmart_hannah/">Hannah</a> (<a href="../../maps/guynmart/">guynmart</a>) → the conversation leads here automatically → <strong>stage 7</strong>; also sets stage 70 of <a href="../guynmart/#stage-70">Roses</a>, spawns monsters on guynmart, clears stage 1 of <a href="./#stage-1">Guest tour (hidden flag)</a>. NPC: “I cannot think clearly ... I need a rose! A fresh, fragrant rose! Please bring me a rose from my garden...”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 71: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/guynmart/">guynmart</a> → the conversation leads here automatically → <strong>stage 71</strong>; also applies condition stunned, applies condition bone_fracture</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_quest_olav.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_quest_olav.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_quest_olav.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_quest_olav.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_quest_olav.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>guynmart_quest_olav</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>1, 7, 71</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>1: <code>guynmart_sRpl_main_74</code>, 7: <code>guynmart_sRpl_main_72</code>, 7: <code>guynmart_sRpl_main_3a_10</code>, 7: <code>guynmart_hannah_20</code>, 71: <code>guynmart_sRpl_main_olav_2</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>7: <code>guynmart_sRpl_main_olav_3</code>, 7: <code>guynmart_sRpl_main_74</code>, 7: <code>guynmart_sRpl_main_78</code>, 71: <code>guynmart_sRpl_main_1</code>, 71: <code>guynmart_sRpl_main_76</code>, 71: <code>guynmart_sRpl_main_3a_10</code>, 1: <code>guynmart_sRpl_main_72</code>, 1: <code>guynmart_sRpl_main_3a_10</code>, 1: <code>guynmart_hannah_20</code></td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

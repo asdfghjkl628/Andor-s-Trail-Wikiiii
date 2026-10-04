@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,190 @@
 <ul>
 <li><a href="../../maps/remgard_tavern0/">remgard_tavern0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/lake_map/">A map of the Great Lake Laeroth</a>: stages 10, 12, 910</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (41 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-ll2_mapmaker"></span><strong><code>ll2_mapmaker</code></strong> Thyrope Splathershed: “Hello, child. Sit down, you may keep me company.”</p>
+<ul>
+<li>“Who are you?” <em>(if NOT reached stage 10 of <a href="../../quests/lake_map/#stage-10">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_10">ll2_mapmaker_10</a></li>
+<li>“I have earplugs now.” <em>(if carry 4× <a href="../../items/earplugs/">Earplugs</a>)</em> → <a href="#d-ll2_mapmaker_9">ll2_mapmaker_9</a></li>
+<li>“I have beeswax with me now.” <em>(if NOT carry 4× <a href="../../items/earplugs/">Earplugs</a>; carry 4× <a href="../../items/beeswax/">Bees wax</a>; reached stage 12 of <a href="../../quests/lake_map/#stage-12">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_6a">ll2_mapmaker_6a</a></li>
+<li>“We have a problem sir. There's a rocky reef that the captain doesn't want to sail past. He's afraid of some singing…” <em>(if reached stage 40 of <a href="../../quests/lake_map/#stage-40">A map of the Great Lake Laeroth</a>; NOT reached stage 42 of <a href="../../quests/lake_map/#stage-42">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_2">ll2_mapmaker_2</a></li>
+<li>“I have found all the new parts for your map.” <em>(if faction “ll2_maps” ≥ 22)</em> → <a href="#d-ll2_mapmaker_90">ll2_mapmaker_90</a></li>
+<li>“I have found some of the new parts for your map.” <em>(if faction “ll2_maps” ≥ 1; NOT faction “ll2_maps” ≥ 22)</em> → <a href="#d-ll2_mapmaker_80">ll2_mapmaker_80</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_10"></span><strong><code>ll2_mapmaker_10</code></strong> Thyrope Splathershed: “I am Thyrope Splathershed, the famous scholar and cartographer.”</p>
+<ul>
+<li>“Splathershed? Haven't I heard that name before?” → <a href="#d-ll2_mapmaker_11">ll2_mapmaker_11</a></li>
+<li>“A cartographer?” → <a href="#d-ll2_mapmaker_10a">ll2_mapmaker_10a</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_9"></span><strong><code>ll2_mapmaker_9</code></strong> <a href="./">Thyrope Splathershed</a>: “Good, good. Then off you go - the ship is waiting!”</p>
+<p><span id="d-ll2_mapmaker_6a"></span><strong><code>ll2_mapmaker_6a</code></strong> Thyrope Splathershed: “Beeswax? From Leofric I hope. Good, give it to me. I can create earplugs for you.”</p>
+<ul>
+<li>“Here you are.” → <a href="#d-ll2_mapmaker_7">ll2_mapmaker_7</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_2"></span><strong><code>ll2_mapmaker_2</code></strong> Thyrope Splathershed: “Oh, really? We have sirens here in the lake? Fascinating!”</p>
+<ul>
+<li>“You know what sirens are?” → <a href="#d-ll2_mapmaker_3">ll2_mapmaker_3</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_90"></span><strong><code>ll2_mapmaker_90</code></strong> Thyrope Splathershed: “Really!! That fast? I am extremely impressed. And delighted!”</p>
+<ul>
+<li>“The cruise was fun.” → <a href="#d-ll2_mapmaker_91">ll2_mapmaker_91</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_80"></span><strong><code>ll2_mapmaker_80</code></strong> Thyrope Splathershed: “Ohh, I'm almost dying to have the entire map complete.”</p>
+<p><span id="d-ll2_mapmaker_11"></span><strong><code>ll2_mapmaker_11</code></strong> Thyrope Splathershed: “You probably know my brother, who wrote the famous treatise on the history of Dhayavar.”</p>
+<ul>
+<li>“Maybe. What are you doing here?” → <a href="#d-ll2_mapmaker_13">ll2_mapmaker_13</a></li>
+<li>“Talking of brothers - have you seen my brother Andor?” → <a href="#d-ll2_mapmaker_12">ll2_mapmaker_12</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_10a"></span><strong><code>ll2_mapmaker_10a</code></strong> Thyrope Splathershed: “A map maker.”</p>
+<ul>
+<li>“Then you must travel a lot. Have you seen my brother Andor?” → <a href="#d-ll2_mapmaker_12">ll2_mapmaker_12</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_7"></span><strong><code>ll2_mapmaker_7</code></strong> <a href="../none/">Dummy NPC</a>: “With practiced movements, Thyrope made several pairs of earplugs.”</p>
+<ul>
+<li>Next <em>(if hand over 4× <a href="../../items/beeswax/">Bees wax</a>)</em> → <a href="#d-ll2_mapmaker_8">ll2_mapmaker_8</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_3"></span><strong><code>ll2_mapmaker_3</code></strong> Thyrope Splathershed: “Of course! Everyone with a bit of education knows about them.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_4">ll2_mapmaker_4</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_91"></span><strong><code>ll2_mapmaker_91</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 26 of <a href="../../quests/lake_map/#stage-26">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_91a">ll2_mapmaker_91a</a></li>
+<li>branch 2 → <a href="#d-ll2_mapmaker_91b">ll2_mapmaker_91b</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_13"></span><strong><code>ll2_mapmaker_13</code></strong> Thyrope Splathershed: “There's less and less terra incognita... sorry, children don't understand these technical terms - I mean unknown parts of the world. My work is getting more and more difficult.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_14">ll2_mapmaker_14</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_12"></span><strong><code>ll2_mapmaker_12</code></strong> Thyrope Splathershed: “Probably not. I mainly focus on the environment so I can create the most accurate maps possible.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_13">ll2_mapmaker_13</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_8"></span><strong><code>ll2_mapmaker_8</code></strong> <a href="./">Thyrope Splathershed</a>: “Here, take these earplugs. The wax was perfect for them, they'll work well.” — <strong>effects:</strong> gives 4× <a href="../../items/earplugs/">Earplugs</a></p>
+<ul>
+<li>“Thank you. I'm going to go and try them out right away.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ll2_mapmaker_4"></span><strong><code>ll2_mapmaker_4</code></strong> Thyrope Splathershed: “However, no one has yet returned alive to report what they sing - if that's what they do.”</p>
+<ul>
+<li>“Then my trip is already over.” → <a href="#d-ll2_mapmaker_5">ll2_mapmaker_5</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_91a"></span><strong><code>ll2_mapmaker_91a</code></strong> <a href="../none/">Dummy NPC</a>: “You talk of how you nearly got stuck at Kalypso on a paradise island.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_91b">ll2_mapmaker_91b</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_91b"></span><strong><code>ll2_mapmaker_91b</code></strong> <a href="../none/">Dummy NPC</a>: “You explain how you passed by the sirens.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_92">ll2_mapmaker_92</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_14"></span><strong><code>ll2_mapmaker_14</code></strong> Thyrope Splathershed: “Here in Remgard, I've struck gold. The great lake here is well known in the coastal regions - but what's in the lake itself?”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_15">ll2_mapmaker_15</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_5"></span><strong><code>ll2_mapmaker_5</code></strong> Thyrope Splathershed: “No, of course not. Just put something into your ears. Wax should work. Do you have beeswax with you?”</p>
+<ul>
+<li>“Luckily yes, here it is.” <em>(if carry 4× <a href="../../items/beeswax/">Bees wax</a>)</em> → <a href="#d-ll2_mapmaker_7">ll2_mapmaker_7</a></li>
+<li>“Unfortunately no.” <em>(if NOT carry 4× <a href="../../items/beeswax/">Bees wax</a>)</em> → <a href="#d-ll2_mapmaker_6">ll2_mapmaker_6</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_92"></span><strong><code>ll2_mapmaker_92</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 36 of <a href="../../quests/lake_map/#stage-36">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_92a">ll2_mapmaker_92a</a></li>
+<li>branch 2 → <a href="#d-ll2_mapmaker_93">ll2_mapmaker_93</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_15"></span><strong><code>ll2_mapmaker_15</code></strong> Thyrope Splathershed: “That's what I want to find out, and then I'll become famous with my map of the great lake.”</p>
+<ul>
+<li>“So you want to charter a ship and explore the lake? Sounds exciting.” → <a href="#d-ll2_mapmaker_16">ll2_mapmaker_16</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_6"></span><strong><code>ll2_mapmaker_6</code></strong> Thyrope Splathershed: “You can get the best beeswax directly from a beekeeper. I know one: Leofric, I would trust him.” — <strong>effects:</strong> sets stage 12 of <a href="../../quests/lake_map/#stage-12">A map of the Great Lake Laeroth</a></p>
+<ul>
+<li>“Leofric? Where can I find him?” → <a href="#d-ll2_mapmaker_6b">ll2_mapmaker_6b</a></li>
+<li>“Oh, that guy. I remember him.” → <a href="#d-ll2_mapmaker_6c">ll2_mapmaker_6c</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_92a"></span><strong><code>ll2_mapmaker_92a</code></strong> <a href="../none/">Dummy NPC</a>: “You talk of the captain and his crew being turned into pigs.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_93">ll2_mapmaker_93</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_93"></span><strong><code>ll2_mapmaker_93</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 59 of <a href="../../quests/lake_map/#stage-59">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_93a">ll2_mapmaker_93a</a></li>
+<li>branch 2 → <a href="#d-ll2_mapmaker_94">ll2_mapmaker_94</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_16"></span><strong><code>ll2_mapmaker_16</code></strong> Thyrope Splathershed: “What? No, absolutely not!”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_17">ll2_mapmaker_17</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_6b"></span><strong><code>ll2_mapmaker_6b</code></strong> Thyrope Splathershed: “When he isn't out and about, he's at his bee meadow behind the Foaming Flask - in case you know it, kid.”</p>
+<ul>
+<li>“A rather crowded and noisy place.” → <a href="#d-ll2_mapmaker_6c">ll2_mapmaker_6c</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_6c"></span><strong><code>ll2_mapmaker_6c</code></strong> Thyrope Splathershed: “You need one piece of wax for each pair of earplugs. So, four in total - for yourself, and for the crew.”</p>
+<p><span id="d-ll2_mapmaker_93a"></span><strong><code>ll2_mapmaker_93a</code></strong> <a href="../none/">Dummy NPC</a>: “You talk of blinded cyclops and sheep.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_94">ll2_mapmaker_94</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_94"></span><strong><code>ll2_mapmaker_94</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/lake_map/#stage-60">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_94a">ll2_mapmaker_94a</a></li>
+<li>branch 2 → <a href="#d-ll2_mapmaker_95">ll2_mapmaker_95</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_17"></span><strong><code>ll2_mapmaker_17</code></strong> Thyrope Splathershed: “I'm not allowed to go myself. It would be an immeasurable loss to humanity if something were to happen to me.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_18">ll2_mapmaker_18</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_94a"></span><strong><code>ll2_mapmaker_94a</code></strong> <a href="../none/">Dummy NPC</a>: “And how the six-headed monster Scylla had attacked your ship.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_95">ll2_mapmaker_95</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_95"></span><strong><code>ll2_mapmaker_95</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 78 of <a href="../../quests/lake_map/#stage-78">A map of the Great Lake Laeroth</a>)</em> → <a href="#d-ll2_mapmaker_95a">ll2_mapmaker_95a</a></li>
+<li>branch 2 → <a href="#d-ll2_mapmaker_96">ll2_mapmaker_96</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_18"></span><strong><code>ll2_mapmaker_18</code></strong> Thyrope Splathershed: “But I'm looking for someone to make the trip and tell me about it.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_19">ll2_mapmaker_19</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_95a"></span><strong><code>ll2_mapmaker_95a</code></strong> <a href="../none/">Dummy NPC</a>: “And finally, you raved about the gloomy land beneath the lake. What it was like to be swept into the abyss with the ship, and then to resurface again.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_96">ll2_mapmaker_96</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_96"></span><strong><code>ll2_mapmaker_96</code></strong> <a href="../none/">Dummy NPC</a>: “Thyrope Splathershed didn't seem entirely sure whether to believe your incredible story.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_97">ll2_mapmaker_97</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_19"></span><strong><code>ll2_mapmaker_19</code></strong> Thyrope Splathershed: “You look like you don't have anything better to do right now anyway. Will you make the trip for me?”</p>
+<ul>
+<li>“[muttering] Nothing to do? If you only knew...” → <a href="#d-ll2_mapmaker_20">ll2_mapmaker_20</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_97"></span><strong><code>ll2_mapmaker_97</code></strong> <a href="./">Thyrope Splathershed</a>: “Thank you so much for these extremely entertaining experiences. Perhaps I'll write a story about them sometime.”</p>
+<ul>
+<li>Next → <a href="#d-ll2_mapmaker_99">ll2_mapmaker_99</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_20"></span><strong><code>ll2_mapmaker_20</code></strong> Thyrope Splathershed: “The ship is ready to depart from the dock, and the passage has already been paid for.”</p>
+<ul>
+<li>“Hmm. It sounds exciting. I agree to your proposal.” → <a href="#d-ll2_mapmaker_21">ll2_mapmaker_21</a></li>
+</ul>
+<p><span id="d-ll2_mapmaker_99"></span><strong><code>ll2_mapmaker_99</code></strong> Thyrope Splathershed: “As a reward you can use Captain Burry and his ship whenever you want. I will pay for it.” — <strong>effects:</strong> sets stage 910 of <a href="../../quests/lake_map/#stage-910">A map of the Great Lake Laeroth</a></p>
+<ul>
+<li>“Oh, nice - thank you!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-ll2_mapmaker_21"></span><strong><code>ll2_mapmaker_21</code></strong> Thyrope Splathershed: “So then, Captain Burry will greet you on board!” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/lake_map/#stage-10">A map of the Great Lake Laeroth</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ll2_mapmaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ll2_mapmaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ll2_mapmaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ll2_mapmaker.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>ll2_mapmaker</code> · Data from v0.8.18</small></p>
 
 

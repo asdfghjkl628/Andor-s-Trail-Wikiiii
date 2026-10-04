@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,251 @@
 <ul>
 <li><a href="../../maps/brimhaven_fortune_teller/">brimhaven_fortune_teller</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/mg2_exploded_star/">The exploded star</a>: stages 60, 62</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stages 100</li>
+<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 144, 145, 147, 148, 149, 150, 151</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (48 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_fortune_select"></span><strong><code>brv_fortune_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if reached stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_back">brv_fortune_back</a></li>
+<li>Next → <a href="#d-brv_fortune">brv_fortune</a></li>
+</ul>
+<p><span id="d-brv_fortune_back"></span><strong><code>brv_fortune_back</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_10">brv_fortune_back_10</a></li>
+<li>branch 2 → <a href="#d-brv_fortune_back_2">brv_fortune_back_2</a></li>
+</ul>
+<p><span id="d-brv_fortune"></span><strong><code>brv_fortune</code></strong> Pangitain: “Welcome to my house. Please come in.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_10">brv_fortune_10</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_10"></span><strong><code>brv_fortune_back_10</code></strong> Pangitain: “Welcome back. I see that you bring me interesting things that have fallen from the sky.”</p>
+<ul>
+<li>“How do you know?” → <a href="#d-brv_fortune_back_12">brv_fortune_back_12</a></li>
+<li>“The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me.” → <a href="#d-brv_fortune_back_20">brv_fortune_back_20</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_2"></span><strong><code>brv_fortune_back_2</code></strong> Pangitain: “Welcome back.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_10"></span><strong><code>brv_fortune_10</code></strong> Pangitain: “What has brought you to me? It looks like you might need my help.”</p>
+<ul>
+<li>“What help can you offer?” → <a href="#d-brv_fortune_20">brv_fortune_20</a></li>
+<li>“I am searching...” → <a href="#d-brv_fortune_30">brv_fortune_30</a></li>
+<li>“So you are the one who ordered a 'Crystal Globe'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_brv_fortune">brv_wh_delivery_brv_fortune</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_12"></span><strong><code>brv_fortune_back_12</code></strong> Pangitain: “Sigh. I know many things. How often do I still have to prove it?”</p>
+<ul>
+<li>“Well, OK. What about my fallen stones collection?” → <a href="#d-brv_fortune_back_20">brv_fortune_back_20</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_20"></span><strong><code>brv_fortune_back_20</code></strong> Pangitain: “You can't do anything useful with them. Give them to me and I'll give you a kingly reward.”</p>
+<ul>
+<li>“Here, you can have them for the greater glory.” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_30">brv_fortune_back_30</a></li>
+<li>“Really? What can you offer?” → <a href="#d-brv_fortune_back_50">brv_fortune_back_50</a></li>
+</ul>
+<p><span id="d-brv_fortune_choice"></span><strong><code>brv_fortune_choice</code></strong> Pangitain: “Anything more I can help you with?”</p>
+<ul>
+<li>“Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]” <em>(if have 100 gold)</em> → <a href="#d-brv_fortune_pre_fortunes">brv_fortune_pre_fortunes</a></li>
+<li>“I don't have 100 gold to pay you.” → <a href="#d-brv_fortune_end_10">brv_fortune_end_10</a></li>
+<li>“Maybe I can help you.” → <a href="#d-brv_fortune_300">brv_fortune_300</a></li>
+<li>“Are you the one who ordered a 'Crystal Globe'?” <em>(if hand over 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_brv_fortune">brv_wh_delivery_brv_fortune</a></li>
+</ul>
+<p><span id="d-brv_fortune_20"></span><strong><code>brv_fortune_20</code></strong> Pangitain: “I can see what others can't see.”</p>
+<ul>
+<li>“Really? I am searching...” → <a href="#d-brv_fortune_30">brv_fortune_30</a></li>
+</ul>
+<p><span id="d-brv_fortune_30"></span><strong><code>brv_fortune_30</code></strong> Pangitain: “Wait”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_40">brv_fortune_40</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_brv_fortune"></span><strong><code>brv_wh_delivery_brv_fortune</code></strong> Pangitain: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you would bring me a new globe. Here is the gold for it.” — <strong>effects:</strong> clears stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Delivery - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Do you want to try the crystal ball with me to see if it works?” → <a href="#d-brv_wh_delivery_brv_fortune_10">brv_wh_delivery_brv_fortune_10</a></li>
+<li>“Thanks for choosing Facutloni's delivery.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_fortune_back_30"></span><strong><code>brv_fortune_back_30</code></strong> Pangitain: “Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ...” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/mg2_exploded_star/#stage-60">The exploded star</a></p>
+<ul>
+<li>“I already feel it.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_50"></span><strong><code>brv_fortune_back_50</code></strong> Pangitain: “Look here in my chest with my most valuable items, that could transfer their powers to you.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_pre_fortunes"></span><strong><code>brv_fortune_pre_fortunes</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if faction “brv_fortune” ≥ 6)</em> → <a href="#d-brv_fortune_come_back_much_later">brv_fortune_come_back_much_later</a></li>
+<li>Next <em>(if NOT 0 rounds passed since timer “brv_fortune”)</em> → <a href="#d-brv_fortune_pre_fortunes_2">brv_fortune_pre_fortunes_2</a></li>
+<li>Next <em>(if NOT 1 rounds passed since timer “brv_fortune”)</em> → <a href="#d-brv_fortune_come_back_later">brv_fortune_come_back_later</a></li>
+<li>Next → <a href="#d-brv_fortune_pre_fortunes_2">brv_fortune_pre_fortunes_2</a></li>
+</ul>
+<p><span id="d-brv_fortune_end_10"></span><strong><code>brv_fortune_end_10</code></strong> Pangitain: “Then goodbye. I know you will return some time in the future.”</p>
+<p><span id="d-brv_fortune_300"></span><strong><code>brv_fortune_300</code></strong> Pangitain: “Yes, that would be good. I already have an idea. But not now. Please come back later and ask me again.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_40"></span><strong><code>brv_fortune_40</code></strong> Pangitain: “I feel that you are on a search... at the beginning of a long and dangerous search for a relative of yours.” — <strong>effects:</strong> sets stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“I am impressed. Can you tell me more about my brother Andor or me?” → <a href="#d-brv_fortune_50">brv_fortune_50</a></li>
+<li>“That doesn't impress me.” → <a href="#d-brv_fortune_end_10">brv_fortune_end_10</a></li>
+</ul>
+<p><span id="d-brv_wh_delivery_brv_fortune_10"></span><strong><code>brv_wh_delivery_brv_fortune_10</code></strong> Pangitain: “You say you want me to help you?”</p>
+<ul>
+<li>“What help can you offer?” → <a href="#d-brv_fortune_20">brv_fortune_20</a></li>
+<li>“I am searching...” → <a href="#d-brv_fortune_30">brv_fortune_30</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_90"></span><strong><code>brv_fortune_back_90</code></strong> Pangitain: “Go now.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_fortune_back_52"></span><strong><code>brv_fortune_back_52</code></strong> Pangitain: “Which one do you want to learn more about?”</p>
+<ul>
+<li>“Gem of star precision” → <a href="#d-brv_fortune_back_61">brv_fortune_back_61</a></li>
+<li>“Wanderer's Vitality” <em>(if skillIncrease fortitude 1)</em> → <a href="#d-brv_fortune_back_62">brv_fortune_back_62</a></li>
+<li>“Mountainroot gold nugget” → <a href="#d-brv_fortune_back_65">brv_fortune_back_65</a></li>
+<li>“Shadowstep Favor” → <a href="#d-brv_fortune_back_66">brv_fortune_back_66</a></li>
+<li>“Starbound grip stone” <em>(if skillIncrease cleave 1)</em> → <a href="#d-brv_fortune_back_68">brv_fortune_back_68</a></li>
+<li>“Swirling orb of awareness.” → <a href="#d-brv_fortune_back_69">brv_fortune_back_69</a></li>
+</ul>
+<p><span id="d-brv_fortune_come_back_much_later"></span><strong><code>brv_fortune_come_back_much_later</code></strong> Pangitain: “I told you all I can see for now. But you can come back to me in a few months when you have had new experiences.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_pre_fortunes_2"></span><strong><code>brv_fortune_pre_fortunes_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “brv_fortune” +1, gives -100× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>Next <em>(if faction “brv_fortune” = 2)</em> → <a href="#d-brv_fortunes_set_timer">brv_fortunes_set_timer</a></li>
+<li>Next <em>(if faction “brv_fortune” = 4)</em> → <a href="#d-brv_fortunes_set_timer">brv_fortunes_set_timer</a></li>
+<li>Next → <a href="#d-brv_fortune_fortunes_select">brv_fortune_fortunes_select</a></li>
+</ul>
+<p><span id="d-brv_fortune_come_back_later"></span><strong><code>brv_fortune_come_back_later</code></strong> Pangitain: “I am tired and can't see anything new now. If you come back in a little while maybe I can tell you more.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_50"></span><strong><code>brv_fortune_50</code></strong> Pangitain: “It will cost you 100 gold.”</p>
+<ul>
+<li>“[Give him 100 gold]” <em>(if pay 100 gold)</em> → <a href="#d-brv_fortune_pre_fortunes_2">brv_fortune_pre_fortunes_2</a></li>
+<li>“That is too expensive for me.” → <a href="#d-brv_fortune_end_10">brv_fortune_end_10</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_61"></span><strong><code>brv_fortune_back_61</code></strong> Pangitain: “Your hand steadies with celestial clarity. Touching the item will permanently increase your weapon accuracy.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_61b">brv_fortune_back_61b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_62"></span><strong><code>brv_fortune_back_62</code></strong> Pangitain: “Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_62b">brv_fortune_back_62b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_65"></span><strong><code>brv_fortune_back_65</code></strong> Pangitain: “Very down-to-earth. You will have more success in financial matters.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_65b">brv_fortune_back_65b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_66"></span><strong><code>brv_fortune_back_66</code></strong> Pangitain: “You move as if guided by starlight. Touching this item will permanently improve your abilities to avoid being hit by your enemies.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_66b">brv_fortune_back_66b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_68"></span><strong><code>brv_fortune_back_68</code></strong> Pangitain: “From the sky to your hilt, strength flows unseen. Touching the item will permanently let you refresh faster after a kill in a fight.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_68b">brv_fortune_back_68b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_69"></span><strong><code>brv_fortune_back_69</code></strong> Pangitain: “Touching the item will permanently increase your awareness of unearthy items.”</p>
+<ul>
+<li>“Sounds great - I choose this one. [Touch the item]” <em>(if hand over 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-brv_fortune_back_69b">brv_fortune_back_69b</a></li>
+<li>“Let me have a look at the other items.” → <a href="#d-brv_fortune_back_52">brv_fortune_back_52</a></li>
+</ul>
+<p><span id="d-brv_fortunes_set_timer"></span><strong><code>brv_fortunes_set_timer</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> starts timer “brv_fortune”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_fortunes_select">brv_fortune_fortunes_select</a></li>
+</ul>
+<p><span id="d-brv_fortune_fortunes_select"></span><strong><code>brv_fortune_fortunes_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if random chance (5%); reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_come_back_much_later">brv_fortune_come_back_much_later</a></li>
+<li>branch 2 <em>(if random chance (17%); NOT reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_10">brv_fortune_andor_10</a></li>
+<li>branch 3 <em>(if random chance (20%); NOT reached stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_30">brv_fortune_andor_30</a></li>
+<li>branch 4 <em>(if random chance (25%); NOT reached stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_10">brv_fortune_hero_10</a></li>
+<li>branch 5 <em>(if random chance (33%); NOT reached stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_30">brv_fortune_hero_30</a></li>
+<li>branch 6 <em>(if random chance (50%); NOT reached stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_130">brv_fortune_hero_130</a></li>
+<li>branch 7 <em>(if NOT reached stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_70">brv_fortune_hero_70</a></li>
+<li>branch 8 → <a href="#d-brv_fortune_fortunes_select">brv_fortune_fortunes_select</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_61b"></span><strong><code>brv_fortune_back_61b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/weaponChance/">Weapon Accuracy</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_62b"></span><strong><code>brv_fortune_back_62b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/fortitude/">Increased Fortitude</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_65b"></span><strong><code>brv_fortune_back_65b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/coinfinder/">Treasure Hunter</a>, +1 <a href="../../skills/barter/">Merchant</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_fortune_back_66b"></span><strong><code>brv_fortune_back_66b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/dodge/">Dodge</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_68b"></span><strong><code>brv_fortune_back_68b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/cleave/">Cleave</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_back_69b"></span><strong><code>brv_fortune_back_69b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/magicfinder/">Magic Finder</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
+<ul>
+<li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
+</ul>
+<p><span id="d-brv_fortune_andor_10"></span><strong><code>brv_fortune_andor_10</code></strong> Pangitain: “I see you talking to your brother, somewhere far from here in a big city. Feygard or Nor City, I think.” — <strong>effects:</strong> sets stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_andor_30"></span><strong><code>brv_fortune_andor_30</code></strong> Pangitain: “Your brother is in league with dark forces.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_andor_31">brv_fortune_andor_31</a></li>
+</ul>
+<p><span id="d-brv_fortune_hero_10"></span><strong><code>brv_fortune_hero_10</code></strong> Pangitain: “I see you walking up a path on a mountain. Beware! There is something waiting for you ahead. I see you being attacked by monsters and they kill you.” — <strong>effects:</strong> sets stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_hero_30"></span><strong><code>brv_fortune_hero_30</code></strong> Pangitain: “I see a thief. He will take something from you.” — <strong>effects:</strong> sets stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_hero_130"></span><strong><code>brv_fortune_hero_130</code></strong> Pangitain: “I see a man pacing up and down in a little house. He seems to be waiting for someone.” — <strong>effects:</strong> sets stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“That must be my father Mikhail, he is waiting for me and my brother!” → <a href="#d-brv_fortune_hero_131">brv_fortune_hero_131</a></li>
+</ul>
+<p><span id="d-brv_fortune_hero_70"></span><strong><code>brv_fortune_hero_70</code></strong> Pangitain: “I see you picking up a lot of coins from a hole in the ground. Can it be behind your father's house?” — <strong>effects:</strong> sets stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">brv_nondisplay (hidden flag)</a></p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_andor_31"></span><strong><code>brv_fortune_andor_31</code></strong> Pangitain: “He needs your help. Something horrible ... argh.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_andor_35">brv_fortune_andor_35</a></li>
+</ul>
+<p><span id="d-brv_fortune_hero_131"></span><strong><code>brv_fortune_hero_131</code></strong> Pangitain: “Then go and get your brother and go home to him.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+<p><span id="d-brv_fortune_andor_35"></span><strong><code>brv_fortune_andor_35</code></strong> Pangitain: “I can't see more. My view seems to be blocked.”</p>
+<ul>
+<li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_fortune_teller.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_fortune_teller.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_fortune_teller.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_fortune_teller.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_fortune_teller</code> · Data from v0.8.18</small></p>
 
 

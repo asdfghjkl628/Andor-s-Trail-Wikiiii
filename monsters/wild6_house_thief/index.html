@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,56 @@
 <ul>
 <li><a href="../../maps/wild6_house/">wild6_house</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/wanted_men/">Wanted men</a>: stages 57</li>
+<li><a href="../../quests/sutdover_hidden/">Sutdove_nondisplay (hidden flag)</a>: stages 2</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (8 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-thief_rennik_selector"></span><strong><code>thief_rennik_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; NOT reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_rennik_10">thief_rennik_10</a></li>
+<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_rennik_20">thief_rennik_20</a></li>
+<li>Next → <a href="#d-thief_rennik_generic_10">thief_rennik_generic_10</a></li>
+</ul>
+<p><span id="d-thief_rennik_10"></span><strong><code>thief_rennik_10</code></strong> Rennik: “Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, <a href="../../items/nixite_crystal/">Nixite crystal</a>, sets stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a></p>
+<ul>
+<li>“Thank you.” → <a href="#d-thief_rennik_20">thief_rennik_20</a></li>
+</ul>
+<p><span id="d-thief_rennik_20"></span><strong><code>thief_rennik_20</code></strong> Rennik: “You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us.”</p>
+<ul>
+<li>“That's great news indeed. Where are they now?” → <a href="#d-thief_rennik_30">thief_rennik_30</a></li>
+</ul>
+<p><span id="d-thief_rennik_generic_10"></span><strong><code>thief_rennik_generic_10</code></strong> Rennik: “I am here now to watch out for suspicious activity and people.”</p>
+<p><span id="d-thief_rennik_30"></span><strong><code>thief_rennik_30</code></strong> Rennik: “We are keeping them in our holding cage in Fallhaven.” — <strong>effects:</strong> sets stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>, spawns monsters on guildbrig2</p>
+<ul>
+<li>“Is there anything else that I should know about?” → <a href="#d-thief_rennik_40">thief_rennik_40</a></li>
+</ul>
+<p><span id="d-thief_rennik_40"></span><strong><code>thief_rennik_40</code></strong> Rennik: “Yes. That fifth man, the one that was not one of us...”</p>
+<ul>
+<li>“You mean Alaric?” → <a href="#d-thief_rennik_50">thief_rennik_50</a></li>
+</ul>
+<p><span id="d-thief_rennik_50"></span><strong><code>thief_rennik_50</code></strong> Rennik: “His name is not important to me...”</p>
+<ul>
+<li>Next → <a href="#d-thief_rennik_55">thief_rennik_55</a></li>
+</ul>
+<p><span id="d-thief_rennik_55"></span><strong><code>thief_rennik_55</code></strong> Rennik: “We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have their guy.”</p>
+<ul>
+<li>“I will. Thank you again.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild6_house_thief.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild6_house_thief.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild6_house_thief.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild6_house_thief.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>wild6_house_thief</code> · Data from v0.8.18</small></p>
 
 

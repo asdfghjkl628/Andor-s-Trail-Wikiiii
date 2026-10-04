@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,93 @@
 <ul>
 <li><a href="../../maps/sullengard2_northwest_house/">sullengard2_northwest_house</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/sullengard_pond_safety/">Pond safety</a>: stages 10, 20, 30, 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (15 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-sullengard_nanette_selector_0"></span><strong><code>sullengard_nanette_selector_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/sullengard_pond_safety/#stage-50">Pond safety</a>)</em> → <a href="#d-sullengard_nanette_12">sullengard_nanette_12</a></li>
+<li>branch 2 <em>(if latest stage of <a href="../../quests/sullengard_pond_safety/#stage-20">Pond safety</a> is 20)</em> → <a href="#d-sullengard_nanette_7">sullengard_nanette_7</a></li>
+<li>branch 3 <em>(if latest stage of <a href="../../quests/sullengard_pond_safety/#stage-10">Pond safety</a> is 10)</em> → <a href="#d-sullengard_nanette_4">sullengard_nanette_4</a></li>
+<li>branch 4 <em>(if NOT reached stage 10 of <a href="../../quests/sullengard_pond_safety/#stage-10">Pond safety</a>)</em> → <a href="#d-sullengard_nanette_0">sullengard_nanette_0</a></li>
+<li>branch 5 → <a href="#d-sullengard_nanette_9">sullengard_nanette_9</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_12"></span><strong><code>sullengard_nanette_12</code></strong> Nanette: “Thank you so much again, kid. I can now enjoy my pond again. I'll never throw pebbles in the pond again, I promise.”</p>
+<ul>
+<li>“You're welcome.” → <em>conversation ends</em></li>
+<li>“You promise? I won't clean up your mess again.” → <a href="#d-sullengard_nanette_13">sullengard_nanette_13</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_7"></span><strong><code>sullengard_nanette_7</code></strong> Nanette: “[Sigh]. Oh hello there, kid. Is my pond safe again?”</p>
+<ul>
+<li>“Not yet.” <em>(if NOT killed 26× <a href="../sullengard_snapper/">Sullengard snapper</a>)</em> → <em>conversation ends</em></li>
+<li>“Yes, your pond is safe again. May I know the cause of it?” <em>(if killed 26× <a href="../sullengard_snapper/">Sullengard snapper</a>)</em> → <a href="#d-sullengard_nanette_8">sullengard_nanette_8</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_4"></span><strong><code>sullengard_nanette_4</code></strong> Nanette: “[Sigh]. Please help me. For I'm longing to enjoy my pond again.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/sullengard_pond_safety/#stage-10">Pond safety</a></p>
+<ul>
+<li>“Fine. I'm going now.” → <a href="#d-sullengard_nanette_5">sullengard_nanette_5</a></li>
+<li>“Where is your pond again?” → <a href="#d-sullengard_nanette_5">sullengard_nanette_5</a></li>
+<li>“What's the cause of it?” → <a href="#d-sullengard_nanette_6">sullengard_nanette_6</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_0"></span><strong><code>sullengard_nanette_0</code></strong> Nanette: “[Sigh]. Oh...hello there, kid.”</p>
+<ul>
+<li>“Are you OK?” → <a href="#d-sullengard_nanette_1">sullengard_nanette_1</a></li>
+<li>“Is everything all right?” → <a href="#d-sullengard_nanette_1">sullengard_nanette_1</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_9"></span><strong><code>sullengard_nanette_9</code></strong> Nanette: “Oh hello there, kid. Have you talked to Kealwea the priest yet?”</p>
+<ul>
+<li>“There must be a reason why it happened. But what is it?” <em>(if NOT reached stage 40 of <a href="../../quests/sullengard_pond_safety/#stage-40">Pond safety</a>)</em> → <a href="#d-sullengard_nanette_8">sullengard_nanette_8</a></li>
+<li>“Not yet” <em>(if NOT reached stage 40 of <a href="../../quests/sullengard_pond_safety/#stage-40">Pond safety</a>)</em> → <em>conversation ends</em></li>
+<li>“Yes. He told me to tell you a story.” <em>(if reached stage 40 of <a href="../../quests/sullengard_pond_safety/#stage-40">Pond safety</a>)</em> → <a href="#d-sullengard_nanette_10">sullengard_nanette_10</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_13"></span><strong><code>sullengard_nanette_13</code></strong> Nanette: “Promise.”</p>
+<p><span id="d-sullengard_nanette_8"></span><strong><code>sullengard_nanette_8</code></strong> Nanette: “I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/sullengard_pond_safety/#stage-30">Pond safety</a></p>
+<ul>
+<li>“I'm going to visit him now.” → <em>conversation ends</em></li>
+<li>“What the? But it just happened yesterday.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_nanette_5"></span><strong><code>sullengard_nanette_5</code></strong> Nanette: “Remember. It is just southeast from here.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/sullengard_pond_safety/#stage-20">Pond safety</a></p>
+<p><span id="d-sullengard_nanette_6"></span><strong><code>sullengard_nanette_6</code></strong> Nanette: “[Sigh] I will tell you once you help me enjoy my pond again.”</p>
+<ul>
+<li>“Fine. I'll do it.” → <a href="#d-sullengard_nanette_5">sullengard_nanette_5</a></li>
+<li>“If that's so, then I will not help you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_nanette_1"></span><strong><code>sullengard_nanette_1</code></strong> Nanette: “[Sigh]. I'm longing for my pond which I used to enjoy going to. But now it is dangerous to go near my pond, nevermind in it.”</p>
+<ul>
+<li>“Why is that?” → <a href="#d-sullengard_nanette_2">sullengard_nanette_2</a></li>
+<li>“And then?” → <a href="#d-sullengard_nanette_2">sullengard_nanette_2</a></li>
+<li>“Well I used to enjoy playing hide-and-seek with my brother but not anymore. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_nanette_10"></span><strong><code>sullengard_nanette_10</code></strong> Nanette: “[Sigh]. I'm too old for a story. Just tell me the moral of it.”</p>
+<ul>
+<li>“Don't throw pebbles into the pond. You might disturb whatever lies beneath the surface.” → <a href="#d-sullengard_nanette_11">sullengard_nanette_11</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_2"></span><strong><code>sullengard_nanette_2</code></strong> Nanette: “[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious creatures emerging from it.”</p>
+<ul>
+<li>Next → <a href="#d-sullengard_nanette_3">sullengard_nanette_3</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_11"></span><strong><code>sullengard_nanette_11</code></strong> Nanette: “Oh. I remember now. I kept throwing pebbles on the pond to relieve my anger issues caused by the unfair taxes of Feygard.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/sullengard_pond_safety/#stage-50">Pond safety</a></p>
+<ul>
+<li>Next → <a href="#d-sullengard_nanette_12">sullengard_nanette_12</a></li>
+</ul>
+<p><span id="d-sullengard_nanette_3"></span><strong><code>sullengard_nanette_3</code></strong> Nanette: “Before I could get away, one of them bit my leg. So I ran home in tremendous pain.”</p>
+<ul>
+<li>Next → <a href="#d-sullengard_nanette_4">sullengard_nanette_4</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_nanette.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_nanette.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_nanette.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_nanette.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>sullengard_nanette</code> · Data from v0.8.18</small></p>
 
 

@@ -816,6 +816,141 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-to-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites to start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-each-stage-is-reached" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bugs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,45 +967,270 @@
 
 
 <h1 id="recovering-stolen-property">Recovering stolen property<a class="headerlink" href="#recovering-stolen-property" title="Permanent link">&para;</a></h1>
+<div class="infobox">
 <table>
 <thead>
 <tr>
-<th>Progress</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quest ID</strong></td>
+<td><code>sullengard_recover_items</code></td>
+</tr>
+<tr>
+<td><strong>In journal</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Stages</strong></td>
+<td>7 (completes at 70)</td>
+</tr>
+<tr>
+<td><strong>Started by</strong></td>
+<td><a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>)</td>
+</tr>
+<tr>
+<td><strong>NPCs involved</strong></td>
+<td><a href="../../monsters/sullengard_gaelian/">Gaelian</a>, <a href="../../monsters/sullengard_inn_traveler/">Lost traveler</a>, <a href="../../monsters/sullengard_arantxa/">Prowling Arantxa</a>, <a href="../../monsters/sullengard_zaccheria/">Zaccheria</a></td>
+</tr>
+<tr>
+<td><strong>Locations</strong></td>
+<td><a href="../../maps/sullengard2_armory/">sullengard2_armory</a>, <a href="../../maps/sullengard_inn/">sullengard_inn</a>, <a href="../../maps/sullengard_tavern_basement/">sullengard_tavern_basement</a></td>
+</tr>
+<tr>
+<td><strong>Total XP</strong></td>
+<td>3,800</td>
+</tr>
+<tr>
+<td><strong>Related quests</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory.</p>
+</blockquote>
+<h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
+<p>Start with <a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>). Required:</p>
+<ul>
+<li>NOT latest stage of <a href="./#stage-60">Recovering stolen property</a> is 60</li>
+<li>NOT latest stage of <a href="./#stage-70">Recovering stolen property</a> is 70</li>
+</ul>
+<h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
+<p><em>Quest logic, read from the dialogue conditions.</em></p>
+<table>
+<thead>
+<tr>
+<th>Relationship</th>
+<th>Quest</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../sullengard_hidden/#stage-23">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 23 reached, for stage 40 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../sullengard_hidden/#stage-24">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 24 reached, for stage 40 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../sullengard_hidden/#stage-25">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 25 reached, for stage 40 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../sullengard_hidden/#stage-23">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 23 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../sullengard_hidden/#stage-24">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 24 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../sullengard_hidden/#stage-25">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 25 there needs stage 30 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../sullengard_hidden/#stage-39">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 39 there needs stage 70 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../sullengard_hidden/#stage-42">sullengard_nondisplay (hidden flag)</a></td>
+<td>stage 42 there needs stage 70 here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
 <th>Journal entry</th>
+<th>Triggered by</th>
+<th>Needs</th>
+<th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory.</td>
+<td><a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-20"></span>20</td>
 <td>Zaccheria suggested that I should start my investigation by speaking with Gaelian from the Briwerra family.</td>
+<td><a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>)</td>
+<td>–</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-30"></span>30</td>
 <td>I spoke with Gaelian from the Briwerra family and I suspect that he had nothing to do with this crime.</td>
+<td><a href="../../monsters/sullengard_gaelian/">Gaelian</a> (<a href="../../maps/sullengard_tavern_basement/">sullengard_tavern_basement</a>)</td>
+<td>stage 20</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-40"></span>40</td>
 <td>I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria. I should speak with the 'lost traveler'.</td>
+<td><a href="../../monsters/sullengard_arantxa/">Prowling Arantxa</a> (<a href="../../maps/sullengard_tavern_basement/">sullengard_tavern_basement</a>)</td>
+<td>stage 30</td>
+<td>–</td>
 </tr>
 <tr>
 <td><span id="stage-50"></span>50</td>
 <td>I had paid the 'lost traveler' in exchange for the location of Zaccheria's stolen items. He told me that he had hidden them on the eastern boundaries of town.</td>
+<td><a href="../../monsters/sullengard_inn_traveler/">Lost traveler</a> (<a href="../../maps/sullengard_inn/">sullengard_inn</a>)</td>
+<td>pay 10,000 gold, stage 40</td>
+<td>removes monsters from sullengard_inn</td>
 </tr>
 <tr>
 <td><span id="stage-60"></span>60</td>
 <td>I found the stolen items and should return to Zaccheria with them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/sullengard_woods9/">Sullengard woods9</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/sullengard_woods9/">sullengard_woods9</a></td>
+<td>stage 50</td>
+<td>gives 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a></td>
 </tr>
 <tr>
 <td><span id="stage-70"></span>70</td>
 <td>Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold. <strong>(completes quest)</strong></td>
+<td><a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>)</td>
+<td>carry 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>, hand over 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>, stage 60</td>
+<td>3,800 XP<br>gives 15000× <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 </tbody>
 </table>
-<p><small>Quest ID: <code>sullengard_recover_items</code> · Data from v0.8.18</small></p>
+<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
+<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
+<details class="note" open="open">
+<summary>Stage 10: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>) → choose “I'll take it, but can you give me some more details?” — <strong>conditions:</strong> NOT latest stage of <a href="./#stage-60">Recovering stolen property</a> is 60; NOT latest stage of <a href="./#stage-70">Recovering stolen property</a> is 70 → <strong>stage 10</strong>. NPC: “Sure. You see, I was at the tavern last night enjoying a couple "Southernhaze" beers like I almost always do after…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 20: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>) → choose “Why is that?” — <strong>conditions:</strong> NOT latest stage of <a href="./#stage-60">Recovering stolen property</a> is 60; NOT latest stage of <a href="./#stage-70">Recovering stolen property</a> is 70 → <strong>stage 20</strong>. NPC: “Anyways, I think you should start there, but I suspect others too.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 30: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_gaelian/">Gaelian</a> (<a href="../../maps/sullengard_tavern_basement/">sullengard_tavern_basement</a>) → choose “I was told that maybe you know some information about these crimes.” — <strong>conditions:</strong> latest stage of <a href="./#stage-20">Recovering stolen property</a> is 20; NOT latest stage of <a href="./#stage-30">Recovering stolen property</a> is 30 → <strong>stage 30</strong>. NPC: “I know nothing except that Zaccheria deserved it.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 40: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_arantxa/">Prowling Arantxa</a> (<a href="../../maps/sullengard_tavern_basement/">sullengard_tavern_basement</a>) → choose “Well, let's be honest. You are a thief after all.” — <strong>conditions:</strong> latest stage of <a href="./#stage-30">Recovering stolen property</a> is 30; reached stage 23 of <a href="../sullengard_hidden/#stage-23">sullengard_nondisplay (hidden flag)</a>; reached stage 24 of <a href="../sullengard_hidden/#stage-24">sullengard_nondisplay (hidden flag)</a>; reached stage 25 of <a href="../sullengard_hidden/#stage-25">sullengard_nondisplay (hidden flag)</a> → <strong>stage 40</strong>. NPC: “You see kid, here in Sullengard, we have a working agreement with the townspeople. They pay us for our services and we…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 50: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_inn_traveler/">Lost traveler</a> (<a href="../../maps/sullengard_inn/">sullengard_inn</a>) → choose “Whatever. I can spare it.” — <strong>conditions:</strong> latest stage of <a href="./#stage-40">Recovering stolen property</a> is 40; pay 10,000 gold → <strong>stage 50</strong>; also removes monsters from sullengard_inn. NPC: “Excellent. Nice doing 'business' with you. I hid them somewhere east of town. Close by, but I doubt you can find it…”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 60: 1 route</summary>
+<ol>
+<li>stepping on a trigger on <a href="../../maps/sullengard_woods9/">sullengard_woods9</a> → choose “Oh yeah! I've come this far already. There's no reason to stop.” — <strong>conditions:</strong> latest stage of <a href="./#stage-50">Recovering stolen property</a> is 50 → <strong>stage 60</strong>; also gives 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>. NPC: “You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.”</li>
+</ol>
+</details>
+<details class="note" open="open">
+<summary>Stage 70: 1 route</summary>
+<ol>
+<li>Talk to <a href="../../monsters/sullengard_zaccheria/">Zaccheria</a> (<a href="../../maps/sullengard2_armory/">sullengard2_armory</a>) → choose “I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what…” — <strong>conditions:</strong> latest stage of <a href="./#stage-60">Recovering stolen property</a> is 60; carry 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>; hand over 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a> → <strong>stage 70</strong>; also gives 15000× <a href="../../items/gold/">Gold coins</a>. NPC: “Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my…”</li>
+</ol>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_recover_items.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_recover_items.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_recover_items.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_recover_items.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_recover_items.md&amp;value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest ID</td>
+<td><code>sullengard_recover_items</code></td>
+</tr>
+<tr>
+<td>showInLog</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Stage IDs</td>
+<td>10, 20, 30, 40, 50, 60, 70</td>
+</tr>
+<tr>
+<td>Dialogue nodes setting stages</td>
+<td>10: <code>sullengard_zaccheria_40</code>, 20: <code>sullengard_zaccheria_70</code>, 30: <code>sullengard_gaelian_40</code>, 40: <code>sullengard_arantxa_60</code>, 50: <code>sullengard_inn_traveler_130</code>, 60: <code>sullengard_hidden_inventory_20</code>, 70: <code>sullengard_zaccheria_100</code></td>
+</tr>
+<tr>
+<td>Dialogue nodes clearing stages</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Source files</td>
+<td><code>res/raw/questlist*.json</code>, <code>res/raw/conversationlist*.json</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

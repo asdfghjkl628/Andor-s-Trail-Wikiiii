@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -972,6 +1044,113 @@
 <ul>
 <li><a href="../../maps/sullengard2_armory/">sullengard2_armory</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/sullengard_recover_items/">Recovering stolen property</a>: stages 10, 20, 70</li>
+<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stages 40</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (21 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-sullengard_zaccheria_selector"></span><strong><code>sullengard_zaccheria_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT latest stage of <a href="../../quests/sullengard_recover_items/#stage-60">Recovering stolen property</a> is 60; NOT latest stage of <a href="../../quests/sullengard_recover_items/#stage-70">Recovering stolen property</a> is 70)</em> → <a href="#d-sullengard_zaccheria_0">sullengard_zaccheria_0</a></li>
+<li>Next <em>(if latest stage of <a href="../../quests/sullengard_recover_items/#stage-60">Recovering stolen property</a> is 60; carry 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>)</em> → <a href="#d-sullengard_zaccheria_80">sullengard_zaccheria_80</a></li>
+<li>Next <em>(if latest stage of <a href="../../quests/sullengard_recover_items/#stage-50">Recovering stolen property</a> is 50)</em> → <a href="#d-sullengard_zaccheria_85">sullengard_zaccheria_85</a></li>
+<li>Next <em>(if latest stage of <a href="../../quests/wanted_men/#stage-57">Wanted men</a> is 57; NOT reached stage 40 of <a href="../../quests/sullengard_hidden/#stage-40">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-sullengard_zaccheria_ask_about_lt">sullengard_zaccheria_ask_about_lt</a></li>
+<li>Next <em>(if latest stage of <a href="../../quests/wanted_men/#stage-80">Wanted men</a> is 80; NOT reached stage 40 of <a href="../../quests/sullengard_hidden/#stage-40">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-sullengard_zaccheria_ask_about_lt">sullengard_zaccheria_ask_about_lt</a></li>
+<li>Next <em>(if reached stage 70 of <a href="../../quests/sullengard_recover_items/#stage-70">Recovering stolen property</a>)</em> → <a href="#d-sullengard_zaccheria_sell_0">sullengard_zaccheria_sell_0</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_0"></span><strong><code>sullengard_zaccheria_0</code></strong> Zaccheria: “How can I help you?”</p>
+<ul>
+<li>“I would like to see your wares.” → <a href="#d-sullengard_zaccheria_10">sullengard_zaccheria_10</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_80"></span><strong><code>sullengard_zaccheria_80</code></strong> Zaccheria: “Are you carrying what I think you are carrying?”</p>
+<ul>
+<li>“Yes. I tracked them down to this lost traveler who recently came into town. He was desperate for gold and a place to…” → <a href="#d-sullengard_zaccheria_90">sullengard_zaccheria_90</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_85"></span><strong><code>sullengard_zaccheria_85</code></strong> Zaccheria: “Have you found my stuff yet?”</p>
+<ul>
+<li>“Nope. Sorry, I am still looking.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt"></span><strong><code>sullengard_zaccheria_ask_about_lt</code></strong> Zaccheria: “Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered "the lost traveler" again?”</p>
+<ul>
+<li>“Actually, yes. Yes, I have.” → <a href="#d-sullengard_zaccheria_ask_about_lt_10">sullengard_zaccheria_ask_about_lt_10</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_sell_0"></span><strong><code>sullengard_zaccheria_sell_0</code></strong> Zaccheria: “How can I be of service?”</p>
+<ul>
+<li>“Can I see your wares?” → <a href="#d-sullengard_zaccheria_sell_10">sullengard_zaccheria_sell_10</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_10"></span><strong><code>sullengard_zaccheria_10</code></strong> Zaccheria: “I would like to show you, but my inventory has been stolen.”</p>
+<ul>
+<li>“Stolen? How? That is extremely unfortunate for you as I have lots of gold to spend.” → <a href="#d-sullengard_zaccheria_20">sullengard_zaccheria_20</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_90"></span><strong><code>sullengard_zaccheria_90</code></strong> Zaccheria: “And where is this person now?”</p>
+<ul>
+<li>“I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he…” <em>(if hand over 1× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>)</em> → <a href="#d-sullengard_zaccheria_100">sullengard_zaccheria_100</a></li>
+<li>“I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he…” <em>(if carry 0× <a href="../../items/zaccheria_inventory/">Zaccheria's shop inventory</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt_10"></span><strong><code>sullengard_zaccheria_ask_about_lt_10</code></strong> Zaccheria: “Where? Can you get him back here to be punished?”</p>
+<ul>
+<li>“Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there.” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-57">Wanted men</a> is 57)</em> → <a href="#d-sullengard_zaccheria_ask_about_lt_11">sullengard_zaccheria_ask_about_lt_11</a></li>
+<li>“Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no…” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-80">Wanted men</a> is 80)</em> → <a href="#d-sullengard_zaccheria_ask_about_lt_12">sullengard_zaccheria_ask_about_lt_12</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_sell_10"></span><strong><code>sullengard_zaccheria_sell_10</code></strong> Zaccheria: “Absolutetly.”</p>
+<ul>
+<li>Next → <em>shop opens</em></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_20"></span><strong><code>sullengard_zaccheria_20</code></strong> Zaccheria: “[With a smirk] Gee, how fortunate for you that I have job for you if you want it.”</p>
+<ul>
+<li>“Great! Let's hear it.” → <a href="#d-sullengard_zaccheria_30">sullengard_zaccheria_30</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_100"></span><strong><code>sullengard_zaccheria_100</code></strong> Zaccheria: “Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very grateful for that. So grateful in fact, here is 15,000 gold for your hard work. Also, I am now able…” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/sullengard_recover_items/#stage-70">Recovering stolen property</a>, gives 15000× <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thank you so much.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt_11"></span><strong><code>sullengard_zaccheria_ask_about_lt_11</code></strong> Zaccheria: “Oh, thank you so much!”</p>
+<ul>
+<li>“Of course. It was my pleasure.” → <a href="#d-sullengard_zaccheria_ask_about_lt_13">sullengard_zaccheria_ask_about_lt_13</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt_12"></span><strong><code>sullengard_zaccheria_ask_about_lt_12</code></strong> Zaccheria: “Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this.”</p>
+<ul>
+<li>“Of course. It was my pleasure.” → <a href="#d-sullengard_zaccheria_ask_about_lt_13">sullengard_zaccheria_ask_about_lt_13</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_30"></span><strong><code>sullengard_zaccheria_30</code></strong> Zaccheria: “I need you to ask around town to see if anyone knows where my supply is or if they have seen anything.”</p>
+<ul>
+<li>“I'll take it, but can you give me some more details?” → <a href="#d-sullengard_zaccheria_40">sullengard_zaccheria_40</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt_13"></span><strong><code>sullengard_zaccheria_ask_about_lt_13</code></strong> Zaccheria: “Please, take this as a gift of gratitude.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/sullengard_hidden/#stage-40">sullengard_nondisplay (hidden flag)</a>, gives <a href="../../items/feygard_might/">Feygard's might</a></p>
+<ul>
+<li>“Thank you!” → <a href="#d-sullengard_zaccheria_ask_about_lt_14">sullengard_zaccheria_ask_about_lt_14</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_40"></span><strong><code>sullengard_zaccheria_40</code></strong> Zaccheria: “Sure. You see, I was at the tavern last night enjoying a couple "Southernhaze" beers like I almost always do after work, when someone or some people broke into my shop and stole my entire inventory.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/sullengard_recover_items/#stage-10">Recovering stolen property</a></p>
+<ul>
+<li>“I see. Anything else? Is there anyone in town that you can think of that would want to hurt you?” → <a href="#d-sullengard_zaccheria_50">sullengard_zaccheria_50</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_ask_about_lt_14"></span><strong><code>sullengard_zaccheria_ask_about_lt_14</code></strong> Zaccheria: “I don't know if you will like it, but let me tell you, nobody down here wants it.”</p>
+<ul>
+<li>“Oh, really? I will play with it. Thanks again.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_50"></span><strong><code>sullengard_zaccheria_50</code></strong> Zaccheria: “Well, let me think...ah yes. Gaelian from the Briwerra family.”</p>
+<ul>
+<li>“Why is that?” → <a href="#d-sullengard_zaccheria_60">sullengard_zaccheria_60</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_60"></span><strong><code>sullengard_zaccheria_60</code></strong> Zaccheria: “Oh, it's not a big deal. Well, not from my side anyway, but he is mad about what he perceives as bad service on some repair work that I had recently done for him. He asked for his gold back, I refused.”</p>
+<ul>
+<li>Next → <a href="#d-sullengard_zaccheria_70">sullengard_zaccheria_70</a></li>
+</ul>
+<p><span id="d-sullengard_zaccheria_70"></span><strong><code>sullengard_zaccheria_70</code></strong> Zaccheria: “Anyways, I think you should start there, but I suspect others too.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/sullengard_recover_items/#stage-20">Recovering stolen property</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_zaccheria.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_zaccheria.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_zaccheria.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_zaccheria.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>sullengard_zaccheria</code> · Data from v0.8.18</small></p>
 
 

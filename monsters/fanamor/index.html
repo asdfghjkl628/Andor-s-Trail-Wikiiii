@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -911,6 +983,195 @@
 <li><a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a></li>
 <li><a href="../../maps/fallhaven_derelict2_t/">fallhaven_derelict2_t</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 35, 40, 45, 51, 55</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (39 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-fanamor_selector"></span><strong><code>fanamor_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 55 of <a href="../../quests/Thieves01/#stage-55">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_10">fanamor_guild_10</a></li>
+<li>branch 2 <em>(if reached stage 35 of <a href="../../quests/Thieves01/#stage-35">Thief apprentice</a>; NOT killed 1× <a href="../feygard_scout/">Feygard scout</a>)</em> → <a href="#d-fanamor_guild_5a">fanamor_guild_5a</a></li>
+<li>branch 3 <em>(if 120 rounds passed since timer “Fanamorbleeding”; reached stage 45 of <a href="../../quests/Thieves01/#stage-45">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_0">fanamor_guild_0</a></li>
+<li>branch 4 <em>(if reached stage 45 of <a href="../../quests/Thieves01/#stage-45">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_8">fanamor_guild_8</a></li>
+<li>branch 5 <em>(if killed 1× <a href="../feygard_scout/">Feygard scout</a>; reached stage 40 of <a href="../../quests/Thieves01/#stage-40">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_5">fanamor_guild_5</a></li>
+<li>branch 6 <em>(if reached stage 35 of <a href="../../quests/Thieves01/#stage-35">Thief apprentice</a>; NOT reached stage 40 of <a href="../../quests/Thieves01/#stage-40">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_4">fanamor_guild_4</a></li>
+<li>branch 7 → <a href="#d-fanamor">fanamor</a></li>
+</ul>
+<p><span id="d-fanamor_guild_10"></span><strong><code>fanamor_guild_10</code></strong> Fanamor: “Hello, friend! Thank you for all you've done for me.”</p>
+<ul>
+<li>“It was nothing. Bye.” → <em>conversation ends</em></li>
+<li>“It's my job. Nice to see you survived those anklebiters ...” → <em>conversation ends</em></li>
+<li>“Hmm, maybe you can help me?” <em>(if reached stage 150 of <a href="../../quests/troubling_times/#stage-150">Troubling times</a>; NOT reached stage 180 of <a href="../../quests/troubling_times/#stage-180">Troubling times</a>)</em> → <a href="#d-fanamor_tt">fanamor_tt</a></li>
+</ul>
+<p><span id="d-fanamor_guild_5a"></span><strong><code>fanamor_guild_5a</code></strong> Fanamor: “Watch out! Behind you!”</p>
+<ul>
+<li>“What ...?” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fanamor_guild_0"></span><strong><code>fanamor_guild_0</code></strong> Fanamor: “(You look away when you see the corpse of Fanamor. Anklebiters probably had something to do with this horrible event.)” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/Thieves01/#stage-51">Thief apprentice</a></p>
+<ul>
+<li>“[Bury the corpse.]” → <a href="#d-fanamor_guild_0a">fanamor_guild_0a</a></li>
+</ul>
+<p><span id="d-fanamor_guild_8"></span><strong><code>fanamor_guild_8</code></strong> Fanamor: “Have you brought me that bandage?”</p>
+<ul>
+<li>“Yes, I have it!” <em>(if hand over 1× <a href="../../items/bandage/">Bandage</a>; reached stage 50 of <a href="../../quests/Thieves01/#stage-50">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_9a">fanamor_guild_9a</a></li>
+<li>“I'm still searching.” → <a href="#d-fanamor_guild_9b">fanamor_guild_9b</a></li>
+</ul>
+<p><span id="d-fanamor_guild_5"></span><strong><code>fanamor_guild_5</code></strong> Fanamor: “Wow, you ... you really got rid of him ....”</p>
+<ul>
+<li>“Did you doubt me?” → <a href="#d-fanamor_guild_6">fanamor_guild_6</a></li>
+<li>“Yes, even though he was strong, as we can expect of Feygard soldiers ...” → <a href="#d-fanamor_guild_6">fanamor_guild_6</a></li>
+</ul>
+<p><span id="d-fanamor_guild_4"></span><strong><code>fanamor_guild_4</code></strong> <a href="./">Fanamor</a>: “Tsch ... I ... cannot ... You kid, protect the book!”</p>
+<ul>
+<li>Next → <a href="#d-feygard_scout_3">feygard_scout_3</a></li>
+</ul>
+<p><span id="d-fanamor"></span><strong><code>fanamor</code></strong> Fanamor: “Yikes! You scared me there.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_1">fanamor_1</a></li>
+</ul>
+<p><span id="d-fanamor_tt"></span><strong><code>fanamor_tt</code></strong> Fanamor: “Sure. I heard you're looking for Sly Seraphina.”</p>
+<ul>
+<li>“Eavesdropping is not nice.” → <a href="#d-fanamor_tt_10">fanamor_tt_10</a></li>
+<li>“Yes. Do you have any idea where she might be hiding?” → <a href="#d-fanamor_tt_20">fanamor_tt_20</a></li>
+</ul>
+<p><span id="d-fanamor_guild_0a"></span><strong><code>fanamor_guild_0a</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> removes monsters from crossroads</p>
+<ul>
+<li>branch 1 → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-fanamor_guild_9a"></span><strong><code>fanamor_guild_9a</code></strong> Fanamor: “(You help Fanamor put the bandage on the wound) ... I think I will be able ... to move in a few minutes. See you at the Guild. Thank you kid.” — <strong>effects:</strong> sets stage 55 of <a href="../../quests/Thieves01/#stage-55">Thief apprentice</a>, removes monsters from crossroads, spawns monsters on fallhaven_derelict2</p>
+<ul>
+<li>“I'm glad to hear that. Bye.” → <em>NPC leaves</em></li>
+<li>“Nothing for me.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-fanamor_guild_9b"></span><strong><code>fanamor_guild_9b</code></strong> Fanamor: “Hurry up! I do not have much time ...”</p>
+<p><span id="d-fanamor_guild_6"></span><strong><code>fanamor_guild_6</code></strong> Fanamor: “Argh ... The Feygard Scout hit me badly. I have not much time ... I am bleeding very heavily.”</p>
+<ul>
+<li>“I don't think so.” → <a href="#d-fanamor_guild_7a">fanamor_guild_7a</a></li>
+<li>“Can I help?” → <a href="#d-fanamor_guild_7b">fanamor_guild_7b</a></li>
+</ul>
+<p><span id="d-feygard_scout_3"></span><strong><code>feygard_scout_3</code></strong> <a href="../feygard_scout/">Feygard scout</a>: “(Grabs the book) What have we here? A lost kid trying to do business with this scum, hah? You are under arrest!” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/Thieves01/#stage-40">Thief apprentice</a></p>
+<ul>
+<li>“Not without a fight!” → <em>fight starts</em></li>
+<li>“How dare you! Prepare to die, useless soldier!” → <em>fight starts</em></li>
+<li>“For the shadow!” → <em>fight starts</em></li>
+</ul>
+<p><span id="d-fanamor_1"></span><strong><code>fanamor_1</code></strong> Fanamor: “I was just strolling through these woods ... eh ... killing anklebiters.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_2">fanamor_2</a></li>
+</ul>
+<p><span id="d-fanamor_tt_10"></span><strong><code>fanamor_tt_10</code></strong> Fanamor: “We are thieves - already forgotten?”</p>
+<ul>
+<li>“So can you help me?” → <a href="#d-fanamor_tt_20">fanamor_tt_20</a></li>
+<li>“Nevertheless, one can still maintain one's good manners.” → <a href="#d-fanamor_tt_12">fanamor_tt_12</a></li>
+</ul>
+<p><span id="d-fanamor_tt_20"></span><strong><code>fanamor_tt_20</code></strong> Fanamor: “Of course. In fact, I know exactly where she's hiding right now.”</p>
+<ul>
+<li>“Great. That will save me a lot of running around.” → <a href="#d-fanamor_tt_22">fanamor_tt_22</a></li>
+</ul>
+<p><span id="d-fanamor_guild_7a"></span><strong><code>fanamor_guild_7a</code></strong> Fanamor: “Yes, I am. I have no time for jokes!”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_guild_7b">fanamor_guild_7b</a></li>
+</ul>
+<p><span id="d-fanamor_guild_7b"></span><strong><code>fanamor_guild_7b</code></strong> Fanamor: “I need a bandage quickly, or I will never return to the guild house. A priest might help ...” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/Thieves01/#stage-45">Thief apprentice</a>, starts timer “Fanamorbleeding”</p>
+<ul>
+<li>“Yeah, OK.” → <em>conversation ends</em></li>
+<li>“I will find a bandage for you, don't worry.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-fanamor_2"></span><strong><code>fanamor_2</code></strong> Fanamor: “Yes. Killing them was what I was doing. Not running away from them. No, killing them.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_3">fanamor_3</a></li>
+</ul>
+<p><span id="d-fanamor_tt_12"></span><strong><code>fanamor_tt_12</code></strong> Fanamor: “Phh.”</p>
+<p><span id="d-fanamor_tt_22"></span><strong><code>fanamor_tt_22</code></strong> Fanamor: “Here's how we do it: You can guess, and I'll tell you whether it's true or not.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_tt_24">fanamor_tt_24</a></li>
+</ul>
+<p><span id="d-fanamor_3"></span><strong><code>fanamor_3</code></strong> Fanamor: “<em>sigh</em>”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_4">fanamor_4</a></li>
+</ul>
+<p><span id="d-fanamor_tt_24"></span><strong><code>fanamor_tt_24</code></strong> Fanamor: “And each tip only costs you 100 gold pieces.”</p>
+<ul>
+<li>“I should have known.” → <a href="#d-fanamor_tt_26">fanamor_tt_26</a></li>
+</ul>
+<p><span id="d-fanamor_4"></span><strong><code>fanamor_4</code></strong> Fanamor: “Oh, who am I kidding. OK, I was trying to get through the forest here and got ambushed by these anklebiters.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_5">fanamor_5</a></li>
+</ul>
+<p><span id="d-fanamor_tt_26"></span><strong><code>fanamor_tt_26</code></strong> Fanamor: “You already know that she is near a town.”</p>
+<ul>
+<li>“But which one?” → <a href="#d-fanamor_tt_30">fanamor_tt_30</a></li>
+</ul>
+<p><span id="d-fanamor_5"></span><strong><code>fanamor_5</code></strong> Fanamor: “I won't leave until nightfall, when they can't see me anymore and I might be able to sneak back.”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_6">fanamor_6</a></li>
+</ul>
+<p><span id="d-fanamor_tt_30"></span><strong><code>fanamor_tt_30</code></strong> Fanamor: “Guess!”</p>
+<ul>
+<li>“Vilegard?” <em>(if pay 100 gold; faction “tt_hide” = 6)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Vilegard?” <em>(if pay 100 gold; NOT faction “tt_hide” = 6)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Brimhaven?” <em>(if pay 100 gold; faction “tt_hide” = 5)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Brimhaven?” <em>(if pay 100 gold; NOT faction “tt_hide” = 5)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Prim?” <em>(if pay 100 gold; faction “tt_hide” = 4)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Prim?” <em>(if pay 100 gold; NOT faction “tt_hide” = 4)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Loneford?” <em>(if pay 100 gold; faction “tt_hide” = 3)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Loneford?” <em>(if pay 100 gold; NOT faction “tt_hide” = 3)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Stoutford?” <em>(if pay 100 gold; faction “tt_hide” = 2)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Stoutford?” <em>(if pay 100 gold; NOT faction “tt_hide” = 2)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Sullengard?” <em>(if pay 100 gold; faction “tt_hide” = 1)</em> → <a href="#d-fanamor_tt_40">fanamor_tt_40</a></li>
+<li>“Sullengard?” <em>(if pay 100 gold; NOT faction “tt_hide” = 1)</em> → <a href="#d-fanamor_tt_50">fanamor_tt_50</a></li>
+<li>“Oh, I'm running out of gold.” <em>(if NOT have 100 gold)</em> → <a href="#d-fanamor_tt_34">fanamor_tt_34</a></li>
+<li>“Enough. I think you don't know yourself.” → <a href="#d-fanamor_tt_32">fanamor_tt_32</a></li>
+</ul>
+<p><span id="d-fanamor_6"></span><strong><code>fanamor_6</code></strong> Fanamor: “This is my hiding spot! Now leave me.”</p>
+<ul>
+<li>“Umar sent me with the words "You are no one.No one knows you.No one has seen you." Now give me the journal please.” <em>(if reached stage 30 of <a href="../../quests/Thieves01/#stage-30">Thief apprentice</a>)</em> → <a href="#d-fanamor_guild_1">fanamor_guild_1</a></li>
+</ul>
+<p><span id="d-fanamor_tt_40"></span><strong><code>fanamor_tt_40</code></strong> Fanamor: “Hey, that's right!”</p>
+<ul>
+<li>“Thank you for your help.” → <a href="#d-fanamor_tt_60">fanamor_tt_60</a></li>
+</ul>
+<p><span id="d-fanamor_tt_50"></span><strong><code>fanamor_tt_50</code></strong> Fanamor: “Nope - 100 gold. Try again ...”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_tt_30">fanamor_tt_30</a></li>
+</ul>
+<p><span id="d-fanamor_tt_34"></span><strong><code>fanamor_tt_34</code></strong> Fanamor: “No problem. I can wait.”</p>
+<p><span id="d-fanamor_tt_32"></span><strong><code>fanamor_tt_32</code></strong> Fanamor: “You are so smart. I'm sorry I tried.”</p>
+<p><span id="d-fanamor_guild_1"></span><strong><code>fanamor_guild_1</code></strong> Fanamor: “Finally! I was getting tired of waiting here killing these beasts ...”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_guild_2">fanamor_guild_2</a></li>
+</ul>
+<p><span id="d-fanamor_tt_60"></span><strong><code>fanamor_tt_60</code></strong> Fanamor: “Thanks for the gold. But don't tell her that I betrayed her.”</p>
+<p><span id="d-fanamor_guild_2"></span><strong><code>fanamor_guild_2</code></strong> <a href="./">Fanamor</a>: “Take this. All I've seen is written here ...” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/Thieves01/#stage-35">Thief apprentice</a>, spawns monsters on crossroads</p>
+<ul>
+<li>Next → <a href="#d-feygard_scout_1">feygard_scout_1</a></li>
+</ul>
+<p><span id="d-feygard_scout_1"></span><strong><code>feygard_scout_1</code></strong> <a href="../feygard_scout/">Feygard scout</a>: “Halt! You have been caught!”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_guild_3">fanamor_guild_3</a></li>
+</ul>
+<p><span id="d-fanamor_guild_3"></span><strong><code>fanamor_guild_3</code></strong> <a href="../none/">Dummy NPC</a>: “In the blink of an eye, Fanamor starts attacking the scout.”</p>
+<ul>
+<li>Next → <a href="#d-feygard_scout_2">feygard_scout_2</a></li>
+</ul>
+<p><span id="d-feygard_scout_2"></span><strong><code>feygard_scout_2</code></strong> <a href="../feygard_scout/">Feygard scout</a>: “Argh ... damned trash, take this! (His sword swings quickly, and severely wounds Fanamor)”</p>
+<ul>
+<li>Next → <a href="#d-fanamor_guild_4">fanamor_guild_4</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fanamor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fanamor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fanamor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fanamor.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>fanamor</code> · Data from v0.8.18</small></p>
 
 

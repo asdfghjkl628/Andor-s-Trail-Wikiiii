@@ -833,6 +833,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +970,68 @@
 <ul>
 <li><a href="../../maps/crossglen/">crossglen</a></li>
 </ul>
+<details class="quote">
+<summary>Dialogue (10 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-odair1"></span><strong><code>odair1</code></strong> Odair: “Oh, it's you. You with that brother of yours. Always causing trouble.”</p>
+<ul>
+<li>Next → <a href="#d-odair_select">odair_select</a></li>
+</ul>
+<p><span id="d-odair_select"></span><strong><code>odair_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a>)</em> → <a href="#d-odair_complete2">odair_complete2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../quests/odair.md#stage-10">odair (hidden flag)</a>)</em> → <a href="#d-odair_continue">odair_continue</a></li>
+<li>branch 3 → <a href="#d-odair2">odair2</a></li>
+</ul>
+<p><span id="d-odair_complete2"></span><strong><code>odair_complete2</code></strong> Odair: “Thanks a lot for your help earlier. Now we might start using that cave as our old supply cave again.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-odair_continue"></span><strong><code>odair_continue</code></strong> Odair: “Did you kill that large rat in the cave west of here?”</p>
+<ul>
+<li>“Yes, I have killed the large rat.” <em>(if hand over 1× <a href="../../items/tail_caverat/">Cave rat tail</a>)</em> → <a href="#d-odair_complete">odair_complete</a></li>
+<li>“What was I supposed to do again?” → <a href="#d-odair5">odair5</a></li>
+<li>“No, not yet.” → <a href="#d-odair_cowards">odair_cowards</a></li>
+</ul>
+<p><span id="d-odair2"></span><strong><code>odair2</code></strong> Odair: “Hmm, maybe you could be of use to me. Do you think you could help me with a small task?”</p>
+<ul>
+<li>“Tell me more about this task.” → <a href="#d-odair3">odair3</a></li>
+<li>“Sure, if there is anything I can gain from it.” → <a href="#d-odair3">odair3</a></li>
+</ul>
+<p><span id="d-odair_complete"></span><strong><code>odair_complete</code></strong> Odair: “Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<ul>
+<li>“Thanks.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-odair5"></span><strong><code>odair5</code></strong> Odair: “I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/odair.md#stage-10">odair (hidden flag)</a></p>
+<ul>
+<li>“OK.” → <em>conversation ends</em></li>
+<li>“On second thought, I don't think I will help you after all.” → <a href="#d-odair_cowards">odair_cowards</a></li>
+</ul>
+<p><span id="d-odair_cowards"></span><strong><code>odair_cowards</code></strong> Odair: “I didn't think so either. You and that brother of yours always were cowards.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-odair3"></span><strong><code>odair3</code></strong> Odair: “I recently went in to that cave over there [points west], to check on our supplies. But apparently, the cave has been infested with rats.”</p>
+<ul>
+<li>Next → <a href="#d-odair4">odair4</a></li>
+</ul>
+<p><span id="d-odair4"></span><strong><code>odair4</code></strong> Odair: “In particular, I saw one rat that was larger than the other rats. Do you think you have what it takes to help eliminate them?”</p>
+<ul>
+<li>“Sure, I'll help you so that Crossglen can use the supply cave again.” → <a href="#d-odair5">odair5</a></li>
+<li>“Sure, I'll help you. But only because there might be some gain for me in this.” → <a href="#d-odair5">odair5</a></li>
+<li>“No thanks.” → <a href="#d-odair_cowards">odair_cowards</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=odair.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=odair.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=odair.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=odair.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>odair</code> · Data from v0.8.18</small></p>
 
 

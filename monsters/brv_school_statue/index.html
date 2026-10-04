@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,95 @@
 <ul>
 <li><a href="../../maps/brimhaven_school/">brimhaven_school</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/brv_school2/">Lessons learned</a>: stages 150</li>
+<li><a href="../../quests/brv_nondisplay2/">brv_nondisplay2 (hidden flag)</a>: stages 30</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (14 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-brv_school_statue"></span><strong><code>brv_school_statue</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a>; NOT reached stage 100 of <a href="../../quests/brv_school2/#stage-100">Lessons learned</a>; NOT reached stage 102 of <a href="../../quests/brv_school2/#stage-102">Lessons learned</a>; NOT reached stage 104 of <a href="../../quests/brv_school2/#stage-104">Lessons learned</a>; NOT reached stage 120 of <a href="../../quests/brv_school2/#stage-120">Lessons learned</a>; NOT reached stage 122 of <a href="../../quests/brv_school2/#stage-122">Lessons learned</a>; NOT reached stage 124 of <a href="../../quests/brv_school2/#stage-124">Lessons learned</a>)</em> → <a href="#d-brv_school_statue_20">brv_school_statue_20</a></li>
+<li>branch 2 → <a href="#d-brv_school_statue_10">brv_school_statue_10</a></li>
+</ul>
+<p><span id="d-brv_school_statue_20"></span><strong><code>brv_school_statue_20</code></strong> <a href="./">Statue</a>: “Leave me alone! What do you want of me?” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a></p>
+<ul>
+<li>“Oh, you can talk?” → <a href="#d-brv_school_statue_30">brv_school_statue_30</a></li>
+</ul>
+<p><span id="d-brv_school_statue_10"></span><strong><code>brv_school_statue_10</code></strong> <a href="../none/">Dummy NPC</a>: “Who on earth puts such an ugly, hideous thing in a school?”</p>
+<ul>
+<li>“Hey, I saw that! Your eyes sparkled!” <em>(if latest stage of <a href="../../quests/brv_school2/#stage-60">Lessons learned</a> is 60)</em> → <a href="#d-brv_school_statue_12">brv_school_statue_12</a></li>
+<li>“Am I mistaken or does the statue seem to be grinning?” <em>(if killed 1× <a href="../brv_teacher/">Teacher</a>; killed 1× <a href="../golin/">Golin</a>)</em> → <em>conversation ends</em></li>
+<li>“I had better leave it alone.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_school_statue_30"></span><strong><code>brv_school_statue_30</code></strong> Statue: “Of course I can talk. Why should I not? I am at school after all.”</p>
+<ul>
+<li>“I have no time for you now. I have to find a partner for dueling. Bye” → <em>conversation ends</em></li>
+<li>“What can you tell me about this school?” → <a href="#d-brv_school_statue_40">brv_school_statue_40</a></li>
+</ul>
+<p><span id="d-brv_school_statue_12"></span><strong><code>brv_school_statue_12</code></strong> Statue: “The statue shows no signs of movement.”</p>
+<ul>
+<li>“I will keep an eye on you!” → <em>conversation ends</em></li>
+<li>“[Poke your finger in the belly of the statue]” → <a href="#d-brv_school_statue_20">brv_school_statue_20</a></li>
+</ul>
+<p><span id="d-brv_school_statue_40"></span><strong><code>brv_school_statue_40</code></strong> Statue: “I like it here. It is warm and the students love me. I am their mascot.”</p>
+<ul>
+<li>Next → <a href="#d-brv_school_statue_42">brv_school_statue_42</a></li>
+</ul>
+<p><span id="d-brv_school_statue_42"></span><strong><code>brv_school_statue_42</code></strong> Statue: “I learn much about the Shadow, all very exciting.”</p>
+<ul>
+<li>Next → <a href="#d-brv_school_statue_50">brv_school_statue_50</a></li>
+</ul>
+<p><span id="d-brv_school_statue_50"></span><strong><code>brv_school_statue_50</code></strong> Statue: “But you heard the teacher: You must go now and fight your duel.”</p>
+<ul>
+<li>“You are right. Bye.” → <em>conversation ends</em></li>
+<li>“Which dueling partner would you recommend?” → <a href="#d-brv_school_statue_52">brv_school_statue_52</a></li>
+</ul>
+<p><span id="d-brv_school_statue_52"></span><strong><code>brv_school_statue_52</code></strong> Statue: “Take that cheeky boy in the front row. The others would be no match for you.”</p>
+<ul>
+<li>“OK, it is Golin then.” → <em>conversation ends</em></li>
+<li>“Why not an easy prey? I will take one of the little ones.” → <em>conversation ends</em></li>
+<li>“Maybe I should try the teacher?” → <em>conversation ends</em></li>
+<li>“What about you?” → <a href="#d-brv_school_statue_60">brv_school_statue_60</a></li>
+</ul>
+<p><span id="d-brv_school_statue_60"></span><strong><code>brv_school_statue_60</code></strong> Statue: “Me?? NO! That'd be unfair! I have done no harm! You're nasty! [The statue begins to weep]”</p>
+<ul>
+<li>“OK, OK, I was only joking.” → <a href="#d-brv_school_statue_62">brv_school_statue_62</a></li>
+<li>“Um, yes. Let's try, and see how long you might be able to defend yourself.” → <a href="#d-brv_school_statue_70">brv_school_statue_70</a></li>
+<li>“I'll take Golin. Shadow be with you!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_school_statue_62"></span><strong><code>brv_school_statue_62</code></strong> Statue: “Do not scare me like that again! <em>sob</em>”</p>
+<ul>
+<li>“Well, I had better go now.” → <em>conversation ends</em></li>
+<li>“You are much too sensitive. That was just fun.” → <em>conversation ends</em></li>
+<li>“Maybe I should go and try the teacher?” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-brv_school_statue_70"></span><strong><code>brv_school_statue_70</code></strong> Statue: “YOU! I HAVE HAD ENOUGH NOW!”</p>
+<ul>
+<li>Next → <a href="#d-brv_school_statue_80">brv_school_statue_80</a></li>
+</ul>
+<p><span id="d-brv_school_statue_80"></span><strong><code>brv_school_statue_80</code></strong> <a href="../none/">Dummy NPC</a>: “Suddenly the small ugly figure begins to grow! Bigger and bigger, until it seems to almost fill the whole room.” — <strong>effects:</strong> removes monsters from brimhaven_school, spawns monsters on brimhaven_school, sets stage 150 of <a href="../../quests/brv_school2/#stage-150">Lessons learned</a></p>
+<ul>
+<li>“Oops, what's that?” → <a href="#d-brv_school_statue_82">brv_school_statue_82</a></li>
+</ul>
+<p><span id="d-brv_school_statue_82"></span><strong><code>brv_school_statue_82</code></strong> <a href="../brv_school_statue2/">Statue</a>: “YOU FILTHY WORM! KNEEL IN THE DUST BEFORE YOUR MASTER!”</p>
+<ul>
+<li>“Now that's a worthy dueling partner at last!” → <em>fight starts</em></li>
+<li>“Eh, it was nice to have met you. I have to leave now... Bye.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_school_statue.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_school_statue.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_school_statue.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_school_statue.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>brv_school_statue</code> · Data from v0.8.18</small></p>
 
 

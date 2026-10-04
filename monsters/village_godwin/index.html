@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,67 @@
 <ul>
 <li><a href="../../maps/wexlow_village/">wexlow_village</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/feygard_nondisplayed/">feygard_nondisplayed (hidden flag)</a>: stages 7, 13, 14, 15</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (12 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-village_godwin_selector"></span><strong><code>village_godwin_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>Next <em>(if NOT reached stage 7 of <a href="../../quests/feygard_nondisplayed/#stage-7">feygard_nondisplayed (hidden flag)</a>)</em> → <a href="#d-village_godwin_lost_ring_1">village_godwin_lost_ring_1</a></li>
+<li>Next <em>(if reached stage 7 of <a href="../../quests/feygard_nondisplayed/#stage-7">feygard_nondisplayed (hidden flag)</a>)</em> → <a href="#d-village_godwin_has_ring">village_godwin_has_ring</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_1"></span><strong><code>village_godwin_lost_ring_1</code></strong> Godwin: “Have you by any chance seen my wedding ring? Oh my, Godelieve is going to kill me when she sees it's missing.”</p>
+<ul>
+<li>“What does it look like?” → <a href="#d-village_godwin_lost_ring_2">village_godwin_lost_ring_2</a></li>
+</ul>
+<p><span id="d-village_godwin_has_ring"></span><strong><code>village_godwin_has_ring</code></strong> Godwin: “A crisis has been averted thanks to you.”</p>
+<ul>
+<li>“You should do a better job protecting that ring.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_2"></span><strong><code>village_godwin_lost_ring_2</code></strong> Godwin: “Um, let me think. Oh, yeah, I remember. It's black, gold and covered in emeralds.”</p>
+<ul>
+<li>“"Oh, yeah, I remember"? What? Don't you know what it looks like?” → <a href="#d-village_godwin_lost_ring_3">village_godwin_lost_ring_3</a></li>
+<li>“Actually, this is your lucky day. I have it here.” <em>(if carry 1× <a href="../../items/godwin_ring/">Godwin's ring</a>)</em> → <a href="#d-village_godwin_lost_ring_4">village_godwin_lost_ring_4</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_3"></span><strong><code>village_godwin_lost_ring_3</code></strong> Godwin: “Leave me alone. I don't need you questioning me under this stressful situation.”</p>
+<p><span id="d-village_godwin_lost_ring_4"></span><strong><code>village_godwin_lost_ring_4</code></strong> Godwin: “Your messing with me, right? Give it to me, please.”</p>
+<ul>
+<li>“Sure. Here, it's yours.” <em>(if hand over 1× <a href="../../items/godwin_ring/">Godwin's ring</a>)</em> → <a href="#d-village_godwin_lost_ring_give_ring_free">village_godwin_lost_ring_give_ring_free</a></li>
+<li>“What do you want to give me in exchange for your wife not "killing you"?” → <a href="#d-village_godwin_lost_ring_5">village_godwin_lost_ring_5</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_give_ring_free"></span><strong><code>village_godwin_lost_ring_give_ring_free</code></strong> Godwin: “Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble.” — <strong>effects:</strong> sets stage 7 of <a href="../../quests/feygard_nondisplayed/#stage-7">feygard_nondisplayed (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a>, sets stage 13 of <a href="../../quests/feygard_nondisplayed/#stage-13">feygard_nondisplayed (hidden flag)</a></p>
+<p><span id="d-village_godwin_lost_ring_5"></span><strong><code>village_godwin_lost_ring_5</code></strong> Godwin: “Give you? How about 2,000 gold coins?”</p>
+<ul>
+<li>“Sounds good.” <em>(if hand over 1× <a href="../../items/godwin_ring/">Godwin's ring</a>)</em> → <a href="#d-village_godwin_lost_ring_take_ring">village_godwin_lost_ring_take_ring</a></li>
+<li>“Hey Godelieve, did you hear what happened to Godwin?” → <a href="#d-village_godwin_lost_ring_godelieve">village_godwin_lost_ring_godelieve</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_take_ring"></span><strong><code>village_godwin_lost_ring_take_ring</code></strong> Godwin: “Thank you so much! Here take these coins.” — <strong>effects:</strong> gives 2000× <a href="../../items/gold/">Gold coins</a>, sets stage 7 of <a href="../../quests/feygard_nondisplayed/#stage-7">feygard_nondisplayed (hidden flag)</a>, sets stage 14 of <a href="../../quests/feygard_nondisplayed/#stage-14">feygard_nondisplayed (hidden flag)</a></p>
+<p><span id="d-village_godwin_lost_ring_godelieve"></span><strong><code>village_godwin_lost_ring_godelieve</code></strong> <a href="../village_godelieve_hidden/">Godelieve</a>: “No. What happened?”</p>
+<ul>
+<li>“Well, he los...” → <a href="#d-village_godwin_lost_ring_godelieve_2">village_godwin_lost_ring_godelieve_2</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_godelieve_2"></span><strong><code>village_godwin_lost_ring_godelieve_2</code></strong> <a href="./">Godwin</a>: “NEVER MIND! Godelieve, this kid is being silly. You can go back to whatever it is that you were doing.”</p>
+<ul>
+<li>“3,000 gold or no ring.” <em>(if hand over 1× <a href="../../items/godwin_ring/">Godwin's ring</a>)</em> → <a href="#d-village_godwin_lost_ring_3k">village_godwin_lost_ring_3k</a></li>
+</ul>
+<p><span id="d-village_godwin_lost_ring_3k"></span><strong><code>village_godwin_lost_ring_3k</code></strong> Godwin: “Fine! Take the coins you thief.” — <strong>effects:</strong> gives 3000× <a href="../../items/gold/">Gold coins</a>, sets stage 7 of <a href="../../quests/feygard_nondisplayed/#stage-7">feygard_nondisplayed (hidden flag)</a>, sets stage 15 of <a href="../../quests/feygard_nondisplayed/#stage-15">feygard_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>“I will put them to good use.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=village_godwin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=village_godwin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=village_godwin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=village_godwin.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>village_godwin</code> · Data from v0.8.18</small></p>
 
 

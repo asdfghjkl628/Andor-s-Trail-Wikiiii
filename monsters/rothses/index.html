@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -997,6 +1069,177 @@
 <ul>
 <li><a href="../../maps/remgard_armour/">remgard_armour</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/remgard/">Everything in order</a>: stages 64, 70</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (35 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-rothses"></span><strong><code>rothses</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-rothses_c1">rothses_c1</a></li>
+<li>branch 2 → <a href="#d-rothses_1">rothses_1</a></li>
+</ul>
+<p><span id="d-rothses_c1"></span><strong><code>rothses_c1</code></strong> Rothses: “Our hero enters my shop. I am honored. How may I help you? A new set of boots perhaps, or some new gloves?”</p>
+<ul>
+<li>“Let me see what you have for sale.” → <em>shop opens</em></li>
+<li>“Jhaeld told me you could help me improve my equipment.” <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-rothses_c2">rothses_c2</a></li>
+</ul>
+<p><span id="d-rothses_1"></span><strong><code>rothses_1</code></strong> Rothses: “Hi. How may I help you? A new set of boots perhaps, or some new gloves?”</p>
+<ul>
+<li>“Let me see what you have for sale.” → <em>shop opens</em></li>
+<li>“Jhaeld sent me to ask you about the people that have gone missing.” <em>(if reached stage 52 of <a href="../../quests/remgard/#stage-52">Everything in order</a>)</em> → <a href="#d-rothses_3s">rothses_3s</a></li>
+<li>“How is business?” → <a href="#d-rothses_2">rothses_2</a></li>
+</ul>
+<p><span id="d-rothses_c2"></span><strong><code>rothses_c2</code></strong> Rothses: “Oh yes, I can make modifications to most of our defensive equipment that I sell. Want me to look through your things to see if there's anything I can improve for you?”</p>
+<ul>
+<li>“Sure, go ahead.” → <a href="#d-rothses_imp_s0">rothses_imp_s0</a></li>
+<li>“No, I would not want you going through my stuff.” → <a href="#d-rothses_c3">rothses_c3</a></li>
+<li>“Maybe some other time.” → <a href="#d-rothses_c3">rothses_c3</a></li>
+</ul>
+<p><span id="d-rothses_3s"></span><strong><code>rothses_3s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 64 of <a href="../../quests/remgard/#stage-64">Everything in order</a>)</em> → <a href="#d-rothses_19">rothses_19</a></li>
+<li>branch 2 → <a href="#d-rothses_3">rothses_3</a></li>
+</ul>
+<p><span id="d-rothses_2"></span><strong><code>rothses_2</code></strong> Rothses: “It's OK, I guess. Not as good as I would like it to be, now that the gates to the town are closed. But people here still seem to need new pieces of leather every now and then.”</p>
+<ul>
+<li>“Let me see what you have for sale.” → <em>shop opens</em></li>
+<li>“Jhaeld sent me to ask you about the people that have gone missing.” <em>(if reached stage 52 of <a href="../../quests/remgard/#stage-52">Everything in order</a>)</em> → <a href="#d-rothses_3s">rothses_3s</a></li>
+</ul>
+<p><span id="d-rothses_imp_s0"></span><strong><code>rothses_imp_s0</code></strong> Rothses: “Hmm, let me see.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_imp_s">rothses_imp_s</a></li>
+</ul>
+<p><span id="d-rothses_c3"></span><strong><code>rothses_c3</code></strong> Rothses: “Sure. I would be honored to have you back if you change your mind.”</p>
+<p><span id="d-rothses_19"></span><strong><code>rothses_19</code></strong> Rothses: “Look, I told you before.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_20">rothses_20</a></li>
+</ul>
+<p><span id="d-rothses_3"></span><strong><code>rothses_3</code></strong> Rothses: “Oh, I don't know much about that. Funny you should ask. [Rothses gives you a suspicious look]”</p>
+<ul>
+<li>“Are you sure? Anything you know or might have seen may be of interest.” → <a href="#d-rothses_4">rothses_4</a></li>
+</ul>
+<p><span id="d-rothses_imp_s"></span><strong><code>rothses_imp_s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../../items/remgard_shield_1/">Remgard shield</a>)</em> → <a href="#d-rothses_imp_shield">rothses_imp_shield</a></li>
+<li>branch 2 <em>(if wearing <a href="../../items/remgard_shield_1/">Remgard shield</a>)</em> → <a href="#d-rothses_imp_shield_w">rothses_imp_shield_w</a></li>
+<li>branch 3 → <a href="#d-rothses_imp_s3">rothses_imp_s3</a></li>
+</ul>
+<p><span id="d-rothses_20"></span><strong><code>rothses_20</code></strong> Rothses: “Now, if you'll excuse me, I have things to do.”</p>
+<p><span id="d-rothses_4"></span><strong><code>rothses_4</code></strong> Rothses: “Well, you would think that I see most of what is going on here, considering my shop is this close to Remgard's connecting entrance bridge.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_5">rothses_5</a></li>
+</ul>
+<p><span id="d-rothses_imp_shield"></span><strong><code>rothses_imp_shield</code></strong> Rothses: “That's a nice looking Remgard shield you have there. For 700 gold, I am able to improve it so that it blocks blows a bit better.”</p>
+<ul>
+<li>“Sure, here is the gold.” <em>(if pay 700 gold; hand over 1× <a href="../../items/remgard_shield_1/">Remgard shield</a>)</em> → <a href="#d-rothses_imp_shield_2">rothses_imp_shield_2</a></li>
+<li>“Maybe later. Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s3">rothses_imp_s3</a></li>
+</ul>
+<p><span id="d-rothses_imp_shield_w"></span><strong><code>rothses_imp_shield_w</code></strong> Rothses: “That's a nice looking Remgard shield you are wearing. Remove it from your hands and I might be able to help you improve it, if you want.”</p>
+<ul>
+<li>“Anything else?” → <a href="#d-rothses_imp_s3">rothses_imp_s3</a></li>
+</ul>
+<p><span id="d-rothses_imp_s3"></span><strong><code>rothses_imp_s3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../../items/gloves_combat1/">Combat gloves</a>)</em> → <a href="#d-rothses_imp_gloves">rothses_imp_gloves</a></li>
+<li>branch 2 <em>(if wearing <a href="../../items/gloves_combat1/">Combat gloves</a>)</em> → <a href="#d-rothses_imp_gloves_w">rothses_imp_gloves_w</a></li>
+<li>branch 3 → <a href="#d-rothses_imp_s4">rothses_imp_s4</a></li>
+</ul>
+<p><span id="d-rothses_5"></span><strong><code>rothses_5</code></strong> Rothses: “However, I don't know anything about it. <em>cough</em>”</p>
+<ul>
+<li>“Is there something you are not telling me?” → <a href="#d-rothses_7">rothses_7</a></li>
+<li>“Did the guards ask you about what you know?” → <a href="#d-rothses_6">rothses_6</a></li>
+</ul>
+<p><span id="d-rothses_imp_shield_2"></span><strong><code>rothses_imp_shield_2</code></strong> Rothses: “Here you go. One improved Remgard shield.” — <strong>effects:</strong> gives <a href="../../items/remgard_shield_2/">Remgard combat shield</a></p>
+<ul>
+<li>“Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s3">rothses_imp_s3</a></li>
+</ul>
+<p><span id="d-rothses_imp_gloves"></span><strong><code>rothses_imp_gloves</code></strong> Rothses: “Those are some nice looking combat gloves you have there. For 300 gold, I am able to improve them so that they block blows a bit better.”</p>
+<ul>
+<li>“Sure, here is the gold.” <em>(if pay 300 gold; hand over 1× <a href="../../items/gloves_combat1/">Combat gloves</a>)</em> → <a href="#d-rothses_imp_gloves_2">rothses_imp_gloves_2</a></li>
+<li>“Maybe later. Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s4">rothses_imp_s4</a></li>
+</ul>
+<p><span id="d-rothses_imp_gloves_w"></span><strong><code>rothses_imp_gloves_w</code></strong> Rothses: “Those are some nice looking combat gloves you are wearing. Remove them from your hands and I might be able to help you improve them, if you want.”</p>
+<ul>
+<li>“Anything else?” → <a href="#d-rothses_imp_s4">rothses_imp_s4</a></li>
+</ul>
+<p><span id="d-rothses_imp_s4"></span><strong><code>rothses_imp_s4</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if carry 1× <a href="../../items/armour_superior_chain/">Superior chain mail</a>)</em> → <a href="#d-rothses_imp_armour">rothses_imp_armour</a></li>
+<li>branch 2 <em>(if wearing <a href="../../items/armour_superior_chain/">Superior chain mail</a>)</em> → <a href="#d-rothses_imp_armour_w">rothses_imp_armour_w</a></li>
+<li>branch 3 → <a href="#d-rothses_imp_s5">rothses_imp_s5</a></li>
+</ul>
+<p><span id="d-rothses_7"></span><strong><code>rothses_7</code></strong> Rothses: “I did see Bethir the night before she disappeared. She had some equipment to sell. Nothing out of the ordinary though.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_8">rothses_8</a></li>
+</ul>
+<p><span id="d-rothses_6"></span><strong><code>rothses_6</code></strong> Rothses: “Oh yes, they've been around asking everyone. I told them everything I know, already.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_7">rothses_7</a></li>
+</ul>
+<p><span id="d-rothses_imp_gloves_2"></span><strong><code>rothses_imp_gloves_2</code></strong> Rothses: “Here you go. One pair of improved combat gloves.” — <strong>effects:</strong> gives <a href="../../items/gloves_combat2/">Enhanced combat gloves</a></p>
+<ul>
+<li>“Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s4">rothses_imp_s4</a></li>
+</ul>
+<p><span id="d-rothses_imp_armour"></span><strong><code>rothses_imp_armour</code></strong> Rothses: “Now that is one fine looking chain mail you have there! For 3,000 gold, I am able to improve it so that it not only blocks blows better, but also hinders your attacks less.”</p>
+<ul>
+<li>“Sure, here is the gold.” <em>(if pay 3,000 gold; hand over 1× <a href="../../items/armour_superior_chain/">Superior chain mail</a>)</em> → <a href="#d-rothses_imp_armour_2">rothses_imp_armour_2</a></li>
+<li>“Maybe later. Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s5">rothses_imp_s5</a></li>
+</ul>
+<p><span id="d-rothses_imp_armour_w"></span><strong><code>rothses_imp_armour_w</code></strong> Rothses: “Now that is one fine looking chain mail you are wearing. Remove it from your chest and I might be able to help you improve it, if you want.”</p>
+<ul>
+<li>“Anything else?” → <a href="#d-rothses_imp_s5">rothses_imp_s5</a></li>
+</ul>
+<p><span id="d-rothses_imp_s5"></span><strong><code>rothses_imp_s5</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 → <a href="#d-rothses_imp_n">rothses_imp_n</a></li>
+</ul>
+<p><span id="d-rothses_8"></span><strong><code>rothses_8</code></strong> Rothses: “I did not see where she went after that.”</p>
+<ul>
+<li>Next → <a href="#d-rothses_9">rothses_9</a></li>
+</ul>
+<p><span id="d-rothses_imp_armour_2"></span><strong><code>rothses_imp_armour_2</code></strong> Rothses: “Here you go. One improved chain mail.” — <strong>effects:</strong> gives <a href="../../items/armour_chain_remg/">Remgard chain mail</a></p>
+<ul>
+<li>“Do I have anything else that you can improve?” → <a href="#d-rothses_imp_s5">rothses_imp_s5</a></li>
+</ul>
+<p><span id="d-rothses_imp_n"></span><strong><code>rothses_imp_n</code></strong> Rothses: “No, you don't seem to have anything that I can improve. Come back later and I might be able to help you.”</p>
+<p><span id="d-rothses_9"></span><strong><code>rothses_9</code></strong> Rothses: “Look, I told all this to the guards before. Are you implying anything?”</p>
+<ul>
+<li>“I'll keep my eye on you.” → <a href="#d-rothses_jhaeld_s_1">rothses_jhaeld_s_1</a></li>
+<li>“Thank you for your cooperation.” → <a href="#d-rothses_jhaeld_s_1">rothses_jhaeld_s_1</a></li>
+</ul>
+<p><span id="d-rothses_jhaeld_s_1"></span><strong><code>rothses_jhaeld_s_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 64 of <a href="../../quests/remgard/#stage-64">Everything in order</a></p>
+<ul>
+<li>branch 1 <em>(if reached stage 61 of <a href="../../quests/remgard/#stage-61">Everything in order</a>)</em> → <a href="#d-rothses_jhaeld_s_2">rothses_jhaeld_s_2</a></li>
+<li>branch 2 → <a href="#d-rothses_20">rothses_20</a></li>
+</ul>
+<p><span id="d-rothses_jhaeld_s_2"></span><strong><code>rothses_jhaeld_s_2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 62 of <a href="../../quests/remgard/#stage-62">Everything in order</a>)</em> → <a href="#d-rothses_jhaeld_s_3">rothses_jhaeld_s_3</a></li>
+<li>branch 2 → <a href="#d-rothses_20">rothses_20</a></li>
+</ul>
+<p><span id="d-rothses_jhaeld_s_3"></span><strong><code>rothses_jhaeld_s_3</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 63 of <a href="../../quests/remgard/#stage-63">Everything in order</a>)</em> → <a href="#d-rothses_jhaeld_s_4">rothses_jhaeld_s_4</a></li>
+<li>branch 2 → <a href="#d-rothses_20">rothses_20</a></li>
+</ul>
+<p><span id="d-rothses_jhaeld_s_4"></span><strong><code>rothses_jhaeld_s_4</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 70 of <a href="../../quests/remgard/#stage-70">Everything in order</a></p>
+<ul>
+<li>branch 1 → <a href="#d-rothses_20">rothses_20</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rothses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rothses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rothses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rothses.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>rothses</code> · Data from v0.8.18</small></p>
 
 

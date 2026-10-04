@@ -833,6 +833,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +981,316 @@
 <ul>
 <li><a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/Omi2_bwm1/">Climbing up is forbidden</a>: stages 9, 40</li>
+<li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stages 18, 43</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (64 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-prim_guard5_s"></span><strong><code>prim_guard5_s</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 43 of <a href="../../quests/bwm72_beginning/#stage-43">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-capvjern_41">capvjern_41</a></li>
+<li>branch 2 <em>(if reached stage 56 of <a href="../../quests/Omi2_bwm1/#stage-56">Climbing up is forbidden</a>; reached stage 18 of <a href="../../quests/bwm72_beginning/#stage-18">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-capvjern_23">capvjern_23</a></li>
+<li>branch 3 <em>(if reached stage 40 of <a href="../../quests/Omi2_bwm1/#stage-40">Climbing up is forbidden</a>)</em> → <a href="#d-capvjern_22">capvjern_22</a></li>
+<li>branch 4 <em>(if reached stage 18 of <a href="../../quests/bwm72_beginning/#stage-18">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-capvjern_15">capvjern_15</a></li>
+<li>branch 5 <em>(if reached stage 17 of <a href="../../quests/bwm72_beginning/#stage-17">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-capvjern_1">capvjern_1</a></li>
+<li>branch 6 → <a href="#d-prim_guard5_1">prim_guard5_1</a></li>
+</ul>
+<p><span id="d-capvjern_41"></span><strong><code>capvjern_41</code></strong> <a href="./">Prim guard captain</a>: “I'll wait here. Farewell, $playername.”</p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+<li>“Shadow be with you.” → <em>conversation ends</em></li>
+<li>“As useful as always, captain.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-capvjern_23"></span><strong><code>capvjern_23</code></strong> <a href="./">Prim guard captain</a>: “Hey, $playername! You're back, where is the general?”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_24">capvjern_24</a></li>
+</ul>
+<p><span id="d-capvjern_22"></span><strong><code>capvjern_22</code></strong> Prim guard captain: “$playername, you must reach Blackwater Settlement and get help from General Ortholion.”</p>
+<ul>
+<li>“OK, bye.” → <em>conversation ends</em></li>
+<li>“Shadow be with you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-capvjern_15"></span><strong><code>capvjern_15</code></strong> <a href="./">Prim guard captain</a>: “We're short of men, and we don't even know where he is right now. <em>Meanwhile Jern stares at you.</em>” — <strong>effects:</strong> sets stage 18 of <a href="../../quests/bwm72_beginning/#stage-18">Hidden: events in bwm (hidden flag)</a></p>
+<ul>
+<li>“I don't know!” → <a href="#d-capvjern_16a">capvjern_16a</a></li>
+<li>“I can't be of help this time...” → <a href="#d-capvjern_16b">capvjern_16b</a></li>
+</ul>
+<p><span id="d-capvjern_1"></span><strong><code>capvjern_1</code></strong> <a href="../prim_bar_regular/">Jern</a>: “C'mon! Dare to raise your sword! You! You left my partners to DIE!” — <strong>effects:</strong> removes monsters from blackwater_mountain22, spawns monsters on blackwater_mountain29</p>
+<ul>
+<li>Next → <a href="#d-capvjern_2">capvjern_2</a></li>
+</ul>
+<p><span id="d-prim_guard5_1"></span><strong><code>prim_guard5_1</code></strong> Prim guard captain: “This is no place for kids.”</p>
+<ul>
+<li>“I will report your bad manners to your chief.” → <em>conversation ends</em></li>
+<li>“I might have some information about the recent disappearances.” → <a href="#d-prim_guard5_2">prim_guard5_2</a></li>
+</ul>
+<p><span id="d-capvjern_24"></span><strong><code>capvjern_24</code></strong> <a href="../prim_bar_regular/">Jern</a>: “It sure took you a while. What happened?”</p>
+<ul>
+<li>“General Ortholion was almost murdered by Ehrenfest, but I was there to save him.” → <a href="#d-capvjern_25a">capvjern_25a</a></li>
+<li>“I killed Kamelio. Twice.” → <a href="#d-capvjern_25b">capvjern_25b</a></li>
+</ul>
+<p><span id="d-capvjern_16a"></span><strong><code>capvjern_16a</code></strong> <a href="./">Prim guard captain</a>: “Do you remember anything out of the ordinary?”</p>
+<ul>
+<li>“He's been shady since the very beginning.” → <a href="#d-capvjern_17a">capvjern_17a</a></li>
+<li>“No...Apart from his need to not be heard by the Feygard soldiers.” → <a href="#d-capvjern_17b">capvjern_17b</a></li>
+</ul>
+<p><span id="d-capvjern_16b"></span><strong><code>capvjern_16b</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Or maybe yes.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_16a">capvjern_16a</a></li>
+</ul>
+<p><span id="d-capvjern_2"></span><strong><code>capvjern_2</code></strong> <a href="./">Prim guard captain</a>: “Stop, OK?! I'm really sorry, Jern! <em>sheathes his sword</em> We were scared. That's all, OK?! Gornauds have been decimating us while you were in the tavern day and night.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_3">capvjern_3</a></li>
+</ul>
+<p><span id="d-prim_guard5_2"></span><strong><code>prim_guard5_2</code></strong> Prim guard captain: “Yeah, we already know about the gornauds.”</p>
+<ul>
+<li>“No, I did not mean...” → <a href="#d-prim_guard5_3a">prim_guard5_3a</a></li>
+<li>“The gornauds?” → <a href="#d-prim_guard5_3b">prim_guard5_3b</a></li>
+</ul>
+<p><span id="d-capvjern_25a"></span><strong><code>capvjern_25a</code></strong> <a href="./">Prim guard captain</a>: “You sure are brave enough, kid. I hope you'll be staying around for a while.”</p>
+<ul>
+<li>“Eh...” → <a href="#d-capvjern_26a">capvjern_26a</a></li>
+<li>“I don't think the job is paid well enough.” → <a href="#d-capvjern_26a">capvjern_26a</a></li>
+<li>“Sorry, but I must do as I was told and find my brother Andor.” → <a href="#d-capvjern_26a">capvjern_26a</a></li>
+</ul>
+<p><span id="d-capvjern_25b"></span><strong><code>capvjern_25b</code></strong> Prim guard captain: “You WHAT?!”</p>
+<ul>
+<li>“Hey, hey, calm down big man! Let me explain.” → <a href="#d-capvjern_26c">capvjern_26c</a></li>
+<li>“I had no other choice.” → <a href="#d-capvjern_26b">capvjern_26b</a></li>
+</ul>
+<p><span id="d-capvjern_17a"></span><strong><code>capvjern_17a</code></strong> Prim guard captain: “Anything more specific?”</p>
+<ul>
+<li>“Give me some time to remember.” → <a href="#d-capvjern_18a">capvjern_18a</a></li>
+<li>“Umm...No, but I think he was scared of Feygard soldiers hearing our conversation.” → <a href="#d-capvjern_17b">capvjern_17b</a></li>
+</ul>
+<p><span id="d-capvjern_17b"></span><strong><code>capvjern_17b</code></strong> Prim guard captain: “I see...Feygard soldiers.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_18b">capvjern_18b</a></li>
+</ul>
+<p><span id="d-capvjern_3"></span><strong><code>capvjern_3</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Ah! Now your incompetence is my fault?”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_4">capvjern_4</a></li>
+</ul>
+<p><span id="d-prim_guard5_3a"></span><strong><code>prim_guard5_3a</code></strong> Prim guard captain: “Look, I have more important things to do than babysitting a kid, OK?” — <strong>effects:</strong> sets stage 9 of <a href="../../quests/Omi2_bwm1/#stage-9">Climbing up is forbidden</a></p>
+<ul>
+<li>“Bye.” → <em>conversation ends</em></li>
+<li>“Hmpf, when the gornauds get the village surrounded I'll be the one babysitting all of you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-prim_guard5_3b"></span><strong><code>prim_guard5_3b</code></strong> Prim guard captain: “Yes. They seem to be learning from every attack and their numbers are increasing.”</p>
+<ul>
+<li>“Can I help?” → <a href="#d-prim_guard5_4">prim_guard5_4</a></li>
+<li>“Will you hear what I have to say then?” → <a href="#d-prim_guard5_3a">prim_guard5_3a</a></li>
+</ul>
+<p><span id="d-capvjern_26a"></span><strong><code>capvjern_26a</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Ha HA! You want the kid to do your job for free? You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!”</p>
+<ul>
+<li>“Do you need any help with that?” → <a href="#d-capvjern_27a">capvjern_27a</a></li>
+</ul>
+<p><span id="d-capvjern_26c"></span><strong><code>capvjern_26c</code></strong> Prim guard captain: “Explain, explain it already!”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_26b">capvjern_26b</a></li>
+</ul>
+<p><span id="d-capvjern_26b"></span><strong><code>capvjern_26b</code></strong> <a href="./">Prim guard captain</a>: “Calm down, Jern. Kamelio, alive? How? Where?”</p>
+<ul>
+<li>“Deep in a cave below the Elm mine.” → <a href="#d-capvjern_27b">capvjern_27b</a></li>
+</ul>
+<p><span id="d-capvjern_18a"></span><strong><code>capvjern_18a</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Don't worry, We'll talk later.”</p>
+<p><span id="d-capvjern_18b"></span><strong><code>capvjern_18b</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Asking for their help seems not to be the worst idea right now.”</p>
+<ul>
+<li>“Yes.” → <a href="#d-capvjern_19">capvjern_19</a></li>
+<li>“Maybe...” → <a href="#d-capvjern_19">capvjern_19</a></li>
+<li>“Are you sure?” → <a href="#d-capvjern_19">capvjern_19</a></li>
+</ul>
+<p><span id="d-capvjern_4"></span><strong><code>capvjern_4</code></strong> <a href="./">Prim guard captain</a>: “<em>raises his hands</em> Drop it already! We're getting more and more surrounded by those beasts, you know? Right now there's no point to worrying about somebody who fell off the mountain!”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_5">capvjern_5</a></li>
+</ul>
+<p><span id="d-prim_guard5_4"></span><strong><code>prim_guard5_4</code></strong> Prim guard captain: “Of course you can. Go back home and let me and the rest do our job. Understood?”</p>
+<ul>
+<li>“But I have important information!” → <a href="#d-prim_guard5_3a">prim_guard5_3a</a></li>
+<li>“Whatever, you won't stand up after a Gornaud blow.” → <em>conversation ends</em></li>
+<li>“Understood, bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-capvjern_27a"></span><strong><code>capvjern_27a</code></strong> <a href="./">Prim guard captain</a>: “We have more important matters to attend. Now, where is the general? What about the workers of the mine?”</p>
+<ul>
+<li>“Uh ... The general will certainly let you know in full detail ... Soon enough.” → <a href="#d-capvjern_28c">capvjern_28c</a></li>
+<li>“No survivors, except Arghest. Many Feygard soldiers have fallen too.” → <a href="#d-capvjern_28b">capvjern_28b</a></li>
+</ul>
+<p><span id="d-capvjern_27b"></span><strong><code>capvjern_27b</code></strong> <a href="../prim_bar_regular/">Jern</a>: “For the Shadow, tell me why you had to kill my beloved friend!!”</p>
+<ul>
+<li>“It was me or him. He was no longer your friend.” → <a href="#d-capvjern_28d">capvjern_28d</a></li>
+<li>“I am truly sorry, but he did try to kill us too.” → <a href="#d-capvjern_28a">capvjern_28a</a></li>
+</ul>
+<p><span id="d-capvjern_19"></span><strong><code>capvjern_19</code></strong> <a href="./">Prim guard captain</a>: “That's right. But I feel that's what they wanted since the very beginning.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_20">capvjern_20</a></li>
+</ul>
+<p><span id="d-capvjern_5"></span><strong><code>capvjern_5</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Are you out of your mind? Lorn would never have died from something like that!”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_6">capvjern_6</a></li>
+</ul>
+<p><span id="d-capvjern_28c"></span><strong><code>capvjern_28c</code></strong> <a href="./">Prim guard captain</a>: “We will wait for him here, in that case.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_29c">capvjern_29c</a></li>
+</ul>
+<p><span id="d-capvjern_28b"></span><strong><code>capvjern_28b</code></strong> Prim guard captain: “Anything else?”</p>
+<ul>
+<li>“General Ortholion is inside the mine dependencies. I found Kamelio, he tried to kill us but I defeated him.” → <a href="#d-capvjern_28a">capvjern_28a</a></li>
+<li>“You better ask the general, I am tired already. He is still in the Elm mine celebrating he's still alive.” → <a href="#d-capvjern_28c">capvjern_28c</a></li>
+</ul>
+<p><span id="d-capvjern_28d"></span><strong><code>capvjern_28d</code></strong> Prim guard captain: “You or ...? That's utter nonsense!”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_28a">capvjern_28a</a></li>
+</ul>
+<p><span id="d-capvjern_28a"></span><strong><code>capvjern_28a</code></strong> <a href="./">Prim guard captain</a>: “That's absurd! Kamelio?! Trying to kill a kid? Be reasonable, $playername. We cannot simply believe that.”</p>
+<ul>
+<li>“Kamelio was no longer the person you knew.” → <a href="#d-capvjern_29b">capvjern_29b</a></li>
+<li>“General Ortholion was there.” → <a href="#d-capvjern_29a">capvjern_29a</a></li>
+</ul>
+<p><span id="d-capvjern_20"></span><strong><code>capvjern_20</code></strong> <a href="../prim_bar_regular/">Jern</a>: “$playername, what do you think? This is probably our best bet.”</p>
+<ul>
+<li>“I'm gonna rest for a while. See you later.” → <em>conversation ends</em></li>
+<li>“I will warn the general then.” → <a href="#d-capvjern_21">capvjern_21</a></li>
+</ul>
+<p><span id="d-capvjern_6"></span><strong><code>capvjern_6</code></strong> <a href="./">Prim guard captain</a>: “How can you be so sure? Accidents happen! He could have fallen off during an attack or a rock slide.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_7">capvjern_7</a></li>
+</ul>
+<p><span id="d-capvjern_29c"></span><strong><code>capvjern_29c</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Speak for yourself, cap! I'll head to the mine.”</p>
+<ul>
+<li>“You are needed here more.” → <a href="#d-capvjern_30c">capvjern_30c</a></li>
+<li>“The mine is no longer a safe place.” → <a href="#d-capvjern_30d">capvjern_30d</a></li>
+</ul>
+<p><span id="d-capvjern_29b"></span><strong><code>capvjern_29b</code></strong> Prim guard captain: “I cannot believe in your words, $playername.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_30b">capvjern_30b</a></li>
+</ul>
+<p><span id="d-capvjern_29a"></span><strong><code>capvjern_29a</code></strong> <a href="../prim_bar_regular/">Jern</a>: “So? You want me to believe that Kamelio went crazy and tried to kill you?”</p>
+<ul>
+<li>“Believe what you want. I give up.” → <em>conversation ends</em></li>
+<li>“I am not lying!” → <a href="#d-capvjern_29a">capvjern_29a</a></li>
+<li>“This is his cloak, right? [Show the Kazarite cloak]” <em>(if carry 1× <a href="../../items/kamelio_drop3/">Kazarite cloak</a>)</em> → <a href="#d-capvjern_30a">capvjern_30a</a></li>
+</ul>
+<p><span id="d-capvjern_21"></span><strong><code>capvjern_21</code></strong> <a href="./">Prim guard captain</a>: “It's settled then. We will spread the word among the guards.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/Omi2_bwm1/#stage-40">Climbing up is forbidden</a></p>
+<ul>
+<li>“Great. Shadow be with you.” → <em>conversation ends</em></li>
+<li>“We'll meet soon, then.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-capvjern_7"></span><strong><code>capvjern_7</code></strong> <a href="./">Prim guard captain</a>: “That is what the guy who reported it told me, too! Now I'm starting to welcome those Feygard guys. There aren't attacks anymore since they guard the village.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_8">capvjern_8</a></li>
+</ul>
+<p><span id="d-capvjern_30c"></span><strong><code>capvjern_30c</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Hmpf ... You know what? Right, someone has to patrol this settlement.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_31a">capvjern_31a</a></li>
+</ul>
+<p><span id="d-capvjern_30d"></span><strong><code>capvjern_30d</code></strong> <a href="./">Prim guard captain</a>: “I can believe that. Jern, let Feygard folks take care of the mine for a while, we have a lot to do here.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_30c">capvjern_30c</a></li>
+</ul>
+<p><span id="d-capvjern_30b"></span><strong><code>capvjern_30b</code></strong> Prim guard captain: “But the truth is that I can neither believe you killed him for the sake of it. Plus, the General is alive as you say, and it is thanks to you.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_29a">capvjern_29a</a></li>
+</ul>
+<p><span id="d-capvjern_30a"></span><strong><code>capvjern_30a</code></strong> <a href="./">Prim guard captain</a>: “What in the world ...? It moves!”</p>
+<ul>
+<li>“Yes. This strange substance was responsible of your friend's behaviour.” → <a href="#d-capvjern_31b">capvjern_31b</a></li>
+<li>“Do you believe me now?” → <a href="#d-capvjern_31b">capvjern_31b</a></li>
+</ul>
+<p><span id="d-capvjern_8"></span><strong><code>capvjern_8</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Eh?! What Feyga...”</p>
+<ul>
+<li>“Who told you that?” → <a href="#d-capvjern_9">capvjern_9</a></li>
+</ul>
+<p><span id="d-capvjern_31a"></span><strong><code>capvjern_31a</code></strong> Prim guard captain: “Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_32a">capvjern_32a</a></li>
+</ul>
+<p><span id="d-capvjern_31b"></span><strong><code>capvjern_31b</code></strong> <a href="../prim_bar_regular/">Jern</a>: “[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_32b">capvjern_32b</a></li>
+</ul>
+<p><span id="d-capvjern_9"></span><strong><code>capvjern_9</code></strong> <a href="./">Prim guard captain</a>: “<em>stares at you</em> What the hell kid? Why're you here again?”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_10">capvjern_10</a></li>
+</ul>
+<p><span id="d-capvjern_32a"></span><strong><code>capvjern_32a</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Thank you again. <em>looks at the captain</em> I'll be going.” — <strong>effects:</strong> gives 1× <a href="../../items/elm2_key/">Rusted key</a>, removes monsters from blackwater_mountain29, sets stage 43 of <a href="../../quests/bwm72_beginning/#stage-43">Hidden: events in bwm (hidden flag)</a></p>
+<ul>
+<li>“Shadow be with you.” → <em>NPC leaves</em></li>
+<li>“Good luck in your shift.” → <em>NPC leaves</em></li>
+<li>“Bye.” → <em>NPC leaves</em></li>
+</ul>
+<p><span id="d-capvjern_32b"></span><strong><code>capvjern_32b</code></strong> <a href="./">Prim guard captain</a>: “[looks at you]”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_33">capvjern_33</a></li>
+</ul>
+<p><span id="d-capvjern_10"></span><strong><code>capvjern_10</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Hey, show some respect. This youngster dared to go where you didn't. He told me what happened, too.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_11">capvjern_11</a></li>
+</ul>
+<p><span id="d-capvjern_33"></span><strong><code>capvjern_33</code></strong> Prim guard captain: “[stares at the cloak again]”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_34">capvjern_34</a></li>
+</ul>
+<p><span id="d-capvjern_11"></span><strong><code>capvjern_11</code></strong> <a href="./">Prim guard captain</a>: “<em>puts on an exhausted face</em> Whatever...I don't know his name. Just another one of the very few visitors we receive here. He was wearing a blue cloak, I think.”</p>
+<ul>
+<li>“Ehrenfest!” → <a href="#d-capvjern_12">capvjern_12</a></li>
+</ul>
+<p><span id="d-capvjern_34"></span><strong><code>capvjern_34</code></strong> Prim guard captain: “[stares at you again]”</p>
+<ul>
+<li>“What ...?” → <a href="#d-capvjern_35">capvjern_35</a></li>
+<li>“You alright?” → <a href="#d-capvjern_35">capvjern_35</a></li>
+</ul>
+<p><span id="d-capvjern_12"></span><strong><code>capvjern_12</code></strong> <a href="../prim_bar_regular/">Jern</a>: “The shady guy, isn't it?”</p>
+<ul>
+<li>“He lied to me again!” → <a href="#d-capvjern_13">capvjern_13</a></li>
+</ul>
+<p><span id="d-capvjern_35"></span><strong><code>capvjern_35</code></strong> <a href="../prim_bar_regular/">Jern</a>: “[puts his hand over the captain's shoulder] Hey, captain, wake up.”</p>
+<ul>
+<li>“[Put the cloak away]” → <a href="#d-capvjern_36">capvjern_36</a></li>
+</ul>
+<p><span id="d-capvjern_13"></span><strong><code>capvjern_13</code></strong> <a href="./">Prim guard captain</a>: “This is serious. That guy might be behind the disappearances.”</p>
+<ul>
+<li>“He has been in the mine during these last few days.” → <a href="#d-capvjern_14">capvjern_14</a></li>
+</ul>
+<p><span id="d-capvjern_36"></span><strong><code>capvjern_36</code></strong> <a href="./">Prim guard captain</a>: “... It is un...unbearable.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_37">capvjern_37</a></li>
+</ul>
+<p><span id="d-capvjern_14"></span><strong><code>capvjern_14</code></strong> <a href="../prim_bar_regular/">Jern</a>: “We should look for him. This Ehrenfest guy needs to clear up many things.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_15">capvjern_15</a></li>
+</ul>
+<p><span id="d-capvjern_37"></span><strong><code>capvjern_37</code></strong> Prim guard captain: “[breathing heavily] That ... that substance is dangerous! $playername, you must destroy the cloak!”</p>
+<ul>
+<li>“The mine is full of it! Do you believe me now?” → <a href="#d-capvjern_38">capvjern_38</a></li>
+</ul>
+<p><span id="d-capvjern_38"></span><strong><code>capvjern_38</code></strong> Prim guard captain: “I do. [looks at Jern] I do believe in what the kid says.”</p>
+<ul>
+<li>Next → <a href="#d-capvjern_39">capvjern_39</a></li>
+</ul>
+<p><span id="d-capvjern_39"></span><strong><code>capvjern_39</code></strong> <a href="../prim_bar_regular/">Jern</a>: “Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!”</p>
+<ul>
+<li>“It is too dangerous, you mustn't go.” → <a href="#d-capvjern_40">capvjern_40</a></li>
+<li>“Trained soldiers were lost down there. Let General's men handle this.” → <a href="#d-capvjern_40">capvjern_40</a></li>
+</ul>
+<p><span id="d-capvjern_40"></span><strong><code>capvjern_40</code></strong> Prim guard captain: “So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there.”</p>
+<ul>
+<li>“What about those who are alive here?” → <a href="#d-capvjern_30c">capvjern_30c</a></li>
+<li>“Do not lose your life for a bunch of dead bones. You must live for your friends.” → <a href="#d-capvjern_30c">capvjern_30c</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_guard5.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_guard5.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_guard5.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_guard5.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>prim_guard5</code> · Data from v0.8.18</small></p>
 
 

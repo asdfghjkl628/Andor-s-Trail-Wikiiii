@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -957,6 +1029,124 @@
 <ul>
 <li><a href="../../maps/guynmart_main_2/">guynmart_main_2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/guynmart/">Roses</a>: stages 62, 64</li>
+<li><a href="../../quests/guynmart_quest_cook_bread/">guynmart_quest_cook_bread (hidden flag)</a>: stages 1</li>
+<li><a href="../../quests/guynmart_quest_cook_lunch/">guynmart_quest_cook_lunch (hidden flag)</a>: stages 1</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (20 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-guynmart_cook_10"></span><strong><code>guynmart_cook_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 170 of <a href="../../quests/guynmart/#stage-170">Roses</a>)</em> → <a href="#d-guynmart_cook_14">guynmart_cook_14</a></li>
+<li>branch 2 <em>(if hand over 1× <a href="../../items/guynmart_herbs/">Hannah's special herbs</a>)</em> → <a href="#d-guynmart_cook_100">guynmart_cook_100</a></li>
+<li>branch 3 <em>(if reached stage 62 of <a href="../../quests/guynmart/#stage-62">Roses</a>; NOT reached stage 64 of <a href="../../quests/guynmart/#stage-64">Roses</a>)</em> → <a href="#d-guynmart_cook_22">guynmart_cook_22</a></li>
+<li>branch 4 → <a href="#d-guynmart_cook_20">guynmart_cook_20</a></li>
+</ul>
+<p><span id="d-guynmart_cook_14"></span><strong><code>guynmart_cook_14</code></strong> Hofala: “I am glad the feast is over. It was hard work.”</p>
+<ul>
+<li>“It's a pity that I couldn't attend the wedding.” → <em>conversation ends</em></li>
+<li>“Could I buy some provisions?” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-guynmart_cook_100"></span><strong><code>guynmart_cook_100</code></strong> Hofala: “Ah, the herbs. Good. You are not completely useless. I will add them to Lady Hannah's meal...”</p>
+<ul>
+<li>Next → <a href="#d-guynmart_cook_102">guynmart_cook_102</a></li>
+</ul>
+<p><span id="d-guynmart_cook_22"></span><strong><code>guynmart_cook_22</code></strong> Hofala: “Did you bring the herbs for Hannah's lunch?”</p>
+<ul>
+<li>“Oh. I knew I had forgotten something...” → <em>conversation ends</em></li>
+<li>“The steward told me you could give me some bread.” <em>(if reached stage 40 of <a href="../../quests/guynmart/#stage-40">Roses</a>)</em> → <a href="#d-guynmart_cook_30">guynmart_cook_30</a></li>
+<li>“Could I buy some provisions?” → <a href="#d-guynmart_cook_50">guynmart_cook_50</a></li>
+</ul>
+<p><span id="d-guynmart_cook_20"></span><strong><code>guynmart_cook_20</code></strong> Hofala: “What do you want? Be quick - I am preparing the meal for a wedding and I have little time.”</p>
+<ul>
+<li>“Hannah's maid asked me to take her lunch to her.” <em>(if reached stage 50 of <a href="../../quests/guynmart/#stage-50">Roses</a>; NOT reached stage 62 of <a href="../../quests/guynmart/#stage-62">Roses</a>)</em> → <a href="#d-guynmart_cook_60">guynmart_cook_60</a></li>
+<li>“The steward told me you could give me some bread.” <em>(if reached stage 40 of <a href="../../quests/guynmart/#stage-40">Roses</a>)</em> → <a href="#d-guynmart_cook_30">guynmart_cook_30</a></li>
+<li>“I would like to see Lady Hannah.” <em>(if NOT reached stage 62 of <a href="../../quests/guynmart/#stage-62">Roses</a>)</em> → <a href="#d-guynmart_cook_40">guynmart_cook_40</a></li>
+<li>“Can I buy some provisions?” → <a href="#d-guynmart_cook_50">guynmart_cook_50</a></li>
+</ul>
+<p><span id="d-guynmart_cook_102"></span><strong><code>guynmart_cook_102</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/guynmart_herbs/">Hannah's special herbs</a>)</em> → <a href="#d-guynmart_cook_104">guynmart_cook_104</a></li>
+<li>branch 2 → <a href="#d-guynmart_cook_110">guynmart_cook_110</a></li>
+</ul>
+<p><span id="d-guynmart_cook_30"></span><strong><code>guynmart_cook_30</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a>)</em> → <a href="#d-guynmart_cook_32">guynmart_cook_32</a></li>
+<li>branch 2 → <a href="#d-guynmart_cook_34">guynmart_cook_34</a></li>
+</ul>
+<p><span id="d-guynmart_cook_50"></span><strong><code>guynmart_cook_50</code></strong> Hofala: “Yes, of course. But be quick, I still have a lot of work to do.”</p>
+<ul>
+<li>“OK, show me what you have.” → <em>shop opens</em></li>
+</ul>
+<p><span id="d-guynmart_cook_60"></span><strong><code>guynmart_cook_60</code></strong> Hofala: “Good idea! You can carry her lunch up all those stairs to the tower top, and I'll have more time to prepare the wedding meal.”</p>
+<ul>
+<li>Next → <a href="#d-guynmart_cook_70">guynmart_cook_70</a></li>
+</ul>
+<p><span id="d-guynmart_cook_40"></span><strong><code>guynmart_cook_40</code></strong> Hofala: “Hmm. She might be in her room upstairs, or maybe on the top of the tower again. But of course you can't see her, so it doesn't really matter.”</p>
+<ul>
+<li>“Yes, sure. I will leave now.” → <em>conversation ends</em></li>
+<li>“The steward told me that you could give me some bread.” <em>(if reached stage 40 of <a href="../../quests/guynmart/#stage-40">Roses</a>)</em> → <a href="#d-guynmart_cook_30">guynmart_cook_30</a></li>
+<li>“Could I buy some provisions?” → <a href="#d-guynmart_cook_50">guynmart_cook_50</a></li>
+</ul>
+<p><span id="d-guynmart_cook_104"></span><strong><code>guynmart_cook_104</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if hand over 1× <a href="../../items/guynmart_herbs/">Hannah's special herbs</a>)</em> → <a href="#d-guynmart_cook_104">guynmart_cook_104</a></li>
+<li>branch 2 → <a href="#d-guynmart_cook_106">guynmart_cook_106</a></li>
+</ul>
+<p><span id="d-guynmart_cook_110"></span><strong><code>guynmart_cook_110</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
+<ul>
+<li>branch 1 <em>(if reached stage 64 of <a href="../../quests/guynmart/#stage-64">Roses</a>)</em> → <a href="#d-guynmart_cook_112">guynmart_cook_112</a></li>
+<li>branch 2 → <a href="#d-guynmart_cook_120">guynmart_cook_120</a></li>
+</ul>
+<p><span id="d-guynmart_cook_32"></span><strong><code>guynmart_cook_32</code></strong> Hofala: “Do you think I am stupid? I already gave you two fine loaves of bread, for free! Out of my kitchen, you scum!”</p>
+<ul>
+<li>“It was worth a try.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_cook_34"></span><strong><code>guynmart_cook_34</code></strong> Hofala: “Yes, of course. Just a second.”</p>
+<ul>
+<li>Next → <a href="#d-guynmart_cook_36">guynmart_cook_36</a></li>
+</ul>
+<p><span id="d-guynmart_cook_70"></span><strong><code>guynmart_cook_70</code></strong> Hofala: “Oh no! I am running out of Lady Hannah's special herbs, and these are essential for her lunch.”</p>
+<ul>
+<li>Next → <a href="#d-guynmart_cook_72">guynmart_cook_72</a></li>
+</ul>
+<p><span id="d-guynmart_cook_106"></span><strong><code>guynmart_cook_106</code></strong> Hofala: “You should have brought just 1 portion. These herbs must be used fresh. Nevertheless I will take all the herbs. [All herb portions taken]”</p>
+<ul>
+<li>“Eh, yes of course.” → <a href="#d-guynmart_cook_110">guynmart_cook_110</a></li>
+</ul>
+<p><span id="d-guynmart_cook_112"></span><strong><code>guynmart_cook_112</code></strong> Hofala: “Of course you won't get another serving of lunch!”</p>
+<ul>
+<li>“Eh, yes, of course.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_cook_120"></span><strong><code>guynmart_cook_120</code></strong> Hofala: “...and now it is suitable for her. Hurry now, while it is still hot!” — <strong>effects:</strong> gives <a href="../../items/guynmart_lunch/">Hannah's lunch</a>, sets stage 64 of <a href="../../quests/guynmart/#stage-64">Roses</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_lunch/#stage-1">guynmart_quest_cook_lunch (hidden flag)</a></p>
+<ul>
+<li>“Ouch! It is really hot!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-guynmart_cook_36"></span><strong><code>guynmart_cook_36</code></strong> Hofala: “Here I have some fresh bread for you. Enjoy it.” — <strong>effects:</strong> gives <a href="../../items/bread/">Bread</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a></p>
+<ul>
+<li>“Many thanks. Bye.” → <em>conversation ends</em></li>
+<li>“I would like to see Lady Hannah.” → <a href="#d-guynmart_cook_40">guynmart_cook_40</a></li>
+<li>“Could I also buy some provisions?” → <a href="#d-guynmart_cook_50">guynmart_cook_50</a></li>
+</ul>
+<p><span id="d-guynmart_cook_72"></span><strong><code>guynmart_cook_72</code></strong> Hofala: “Quick, run to Nuik, the old gardener. He will give you some fresh herbs.” — <strong>effects:</strong> sets stage 62 of <a href="../../quests/guynmart/#stage-62">Roses</a></p>
+<ul>
+<li>“OK. I will get the herbs.” → <em>conversation ends</em></li>
+<li>“I've had enough! Do it yourself.” → <em>conversation ends</em></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_cook.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>guynmart_cook</code> · Data from v0.8.18</small></p>
 
 

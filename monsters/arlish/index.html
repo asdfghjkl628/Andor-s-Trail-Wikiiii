@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -992,6 +1064,120 @@
 <ul>
 <li><a href="../../maps/brimhaven_general1/">brimhaven_general1</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/cat_and_mouse/">A cat and mouse game</a>: stages 40</li>
+<li><a href="../../quests/brv_dagger/">A strange looking dagger</a>: stages 115, 120, 130, 200, 230</li>
+<li><a href="../../quests/brv_nondisplay2/">brv_nondisplay2 (hidden flag)</a>: stages 42</li>
+<li><a href="../../quests/brv_nondisplay_multipurpose/">brv_nondisplay_multipurpose (hidden flag)</a>: stages 50</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (23 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-arlish_0"></span><strong><code>arlish_0</code></strong> Arlish: “Hello. I'm Arlish, the proprietor. This is a general store, so I sell some of this, some of that, and a little bit of the other. Would you like to see what I have?”</p>
+<ul>
+<li>“Yes, please show me.” → <em>shop opens</em></li>
+<li>“No thanks.” → <em>conversation ends</em></li>
+<li>“The teacher said that you would give me a cake.” <em>(if reached stage 40 of <a href="../../quests/brv_nondisplay2/#stage-40">brv_nondisplay2 (hidden flag)</a>; NOT reached stage 42 of <a href="../../quests/brv_nondisplay2/#stage-42">brv_nondisplay2 (hidden flag)</a>)</em> → <a href="#d-arlish_10">arlish_10</a></li>
+<li>“The teacher said that you would give me a cake.” <em>(if reached stage 42 of <a href="../../quests/brv_nondisplay2/#stage-42">brv_nondisplay2 (hidden flag)</a>)</em> → <a href="#d-arlish_20">arlish_20</a></li>
+<li>“What can you tell me about Lawellyn's dagger?” <em>(if reached stage 110 of <a href="../../quests/brv_dagger/#stage-110">A strange looking dagger</a>; NOT reached stage 115 of <a href="../../quests/brv_dagger/#stage-115">A strange looking dagger</a>; NOT reached stage 120 of <a href="../../quests/brv_dagger/#stage-120">A strange looking dagger</a>; NOT reached stage 200 of <a href="../../quests/brv_dagger/#stage-200">A strange looking dagger</a>; NOT reached stage 230 of <a href="../../quests/brv_dagger/#stage-230">A strange looking dagger</a>)</em> → <a href="#d-arlish_asd_0">arlish_asd_0</a></li>
+<li>“I want to talk about the investigation.” <em>(if reached stage 130 of <a href="../../quests/brv_dagger/#stage-130">A strange looking dagger</a>; NOT reached stage 200 of <a href="../../quests/brv_dagger/#stage-200">A strange looking dagger</a>; NOT reached stage 230 of <a href="../../quests/brv_dagger/#stage-230">A strange looking dagger</a>)</em> → <a href="#d-arlish_asd_100">arlish_asd_100</a></li>
+<li>“I need to find a large empty bottle. Do you have one?” <em>(if reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>; NOT reached stage 40 of <a href="../../quests/cat_and_mouse/#stage-40">A cat and mouse game</a>)</em> → <a href="#d-arlish_bottle_1">arlish_bottle_1</a></li>
+</ul>
+<p><span id="d-arlish_10"></span><strong><code>arlish_10</code></strong> Arlish: “Sure. You must have done something very good. Wait a second...”</p>
+<ul>
+<li>Next → <a href="#d-arlish_12">arlish_12</a></li>
+</ul>
+<p><span id="d-arlish_20"></span><strong><code>arlish_20</code></strong> Arlish: “Yes, but only one.”</p>
+<ul>
+<li>“One could try...” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_asd_0"></span><strong><code>arlish_asd_0</code></strong> Arlish: “Why? What do you know about it?”</p>
+<ul>
+<li>“Well, I have it right here.” <em>(if hand over 1× <a href="../../items/dagger_assassin/">Assassin's blade</a>)</em> → <a href="#d-arlish_asd_20">arlish_asd_20</a></li>
+<li>“Well, I have it right here.” <em>(if wearing (and give up) <a href="../../items/dagger_assassin/">Assassin's blade</a>)</em> → <a href="#d-arlish_asd_20">arlish_asd_20</a></li>
+<li>“You have looked at the dagger. Can you tell me more?” <em>(if reached stage 50 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-50">brv_nondisplay_multipurpose (hidden flag)</a>)</em> → <a href="#d-arlish_asd_30">arlish_asd_30</a></li>
+<li>“I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.” <em>(if NOT carry 1× <a href="../../items/dagger_assassin/">Assassin's blade</a>; NOT wearing <a href="../../items/dagger_assassin/">Assassin's blade</a>; NOT reached stage 50 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-50">brv_nondisplay_multipurpose (hidden flag)</a>)</em> → <a href="#d-arlish_asd_15">arlish_asd_15</a></li>
+<li>“Nothing. I was just curious. Bye.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_asd_100"></span><strong><code>arlish_asd_100</code></strong> Arlish: “What about it?”</p>
+<ul>
+<li>“I'm sorry, but I was not able to find any new information that would determine what happened to your father.” <em>(if reached stage 190 of <a href="../../quests/brv_dagger/#stage-190">A strange looking dagger</a>; NOT reached stage 200 of <a href="../../quests/brv_dagger/#stage-200">A strange looking dagger</a>; NOT reached stage 230 of <a href="../../quests/brv_dagger/#stage-230">A strange looking dagger</a>)</em> → <a href="#d-arlish_asd_110">arlish_asd_110</a></li>
+<li>“I'm still investigating. I'll come back when I have more information.” <em>(if NOT reached stage 190 of <a href="../../quests/brv_dagger/#stage-190">A strange looking dagger</a>; NOT reached stage 220 of <a href="../../quests/brv_dagger/#stage-220">A strange looking dagger</a>)</em> → <em>conversation ends</em></li>
+<li>“I have some good news for you.” <em>(if reached stage 220 of <a href="../../quests/brv_dagger/#stage-220">A strange looking dagger</a>)</em> → <a href="#d-arlish_asd_140">arlish_asd_140</a></li>
+</ul>
+<p><span id="d-arlish_bottle_1"></span><strong><code>arlish_bottle_1</code></strong> Arlish: “Well, that's an unusual request. What would you need such a thing for?”</p>
+<ul>
+<li>“Seviron at the church needs it. I'm just helping out.” → <a href="#d-arlish_bottle_2">arlish_bottle_2</a></li>
+<li>“Nevermind. If you don't have one you should just say so. I'll look elsewhere.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_12"></span><strong><code>arlish_12</code></strong> Arlish: “Shall I cut it for you?”</p>
+<ul>
+<li>“Yes, please.” → <a href="#d-arlish_16">arlish_16</a></li>
+<li>“No, thank you. I prefer the cake as a whole.” → <a href="#d-arlish_14">arlish_14</a></li>
+</ul>
+<p><span id="d-arlish_asd_20"></span><strong><code>arlish_asd_20</code></strong> <a href="../none/">Dummy NPC</a>: “Arlish takes the dagger and examines it while you continue to talk.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-50">brv_nondisplay_multipurpose (hidden flag)</a></p>
+<ul>
+<li>“I was able to acquire the dagger and its gem. Then Edrin repaired it for me.” → <a href="#d-arlish_asd_30">arlish_asd_30</a></li>
+</ul>
+<p><span id="d-arlish_asd_30"></span><strong><code>arlish_asd_30</code></strong> <a href="./">Arlish</a>: “This can't be it. It looks like my father's dagger, but his dagger has been missing for a couple of years now. I believe this is stolen property!”</p>
+<ul>
+<li>“Tell me more.” → <a href="#d-arlish_asd_40">arlish_asd_40</a></li>
+<li>“So what. You said it has been missing for years, so how would you know?” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_asd_15"></span><strong><code>arlish_asd_15</code></strong> Arlish: “Well, he did have a dagger, but I can't say if the one you had was his if I can't look at it.” — <strong>effects:</strong> sets stage 115 of <a href="../../quests/brv_dagger/#stage-115">A strange looking dagger</a></p>
+<p><span id="d-arlish_asd_110"></span><strong><code>arlish_asd_110</code></strong> Arlish: “I'm sorry too. Thank you for trying.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/brv_dagger/#stage-200">A strange looking dagger</a></p>
+<p><span id="d-arlish_asd_140"></span><strong><code>arlish_asd_140</code></strong> Arlish: “I know you do. I heard that you found my father's murderer.”</p>
+<ul>
+<li>Next → <a href="#d-arlish_asd_120">arlish_asd_120</a></li>
+</ul>
+<p><span id="d-arlish_bottle_2"></span><strong><code>arlish_bottle_2</code></strong> Arlish: “Well, I do happen to have one. I don't display it as shop inventory because I've never been asked for such a thing before. Since it's for the church, you can have it for free.” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/cat_and_mouse/#stage-40">A cat and mouse game</a>, gives <a href="../../items/large_bottle/">Large empty bottle</a></p>
+<p><span id="d-arlish_16"></span><strong><code>arlish_16</code></strong> Arlish: “Well, I'm cutting the cake into 8 large pieces. I hope they taste good to you!” — <strong>effects:</strong> gives 8× <a href="../../items/cake_piece/">Piece of cake</a>, sets stage 42 of <a href="../../quests/brv_nondisplay2/#stage-42">brv_nondisplay2 (hidden flag)</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_14"></span><strong><code>arlish_14</code></strong> Arlish: “I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.” — <strong>effects:</strong> gives 1× <a href="../../items/cake/">Cake</a>, sets stage 42 of <a href="../../quests/brv_nondisplay2/#stage-42">brv_nondisplay2 (hidden flag)</a></p>
+<ul>
+<li>“Thank you.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_asd_40"></span><strong><code>arlish_asd_40</code></strong> Arlish: “You see, this was my father Lawellyn's most prized possession. He kept it with him always.”</p>
+<ul>
+<li>“Please go on.” → <a href="#d-arlish_asd_50">arlish_asd_50</a></li>
+</ul>
+<p><span id="d-arlish_asd_120"></span><strong><code>arlish_asd_120</code></strong> Arlish: “I should have known that it was Ogea! He never agreed with my father's decision about the land.”</p>
+<ul>
+<li>Next → <a href="#d-arlish_asd_130">arlish_asd_130</a></li>
+</ul>
+<p><span id="d-arlish_asd_50"></span><strong><code>arlish_asd_50</code></strong> Arlish: “Then one night, father did not come to my place for dinner as was the custom. I quickly became worried that something terrible had happened to him. So I went to Mustura for help, but she quickly pushed it off as 'Lawellyn simply went on a…”</p>
+<ul>
+<li>Next → <a href="#d-arlish_asd_60">arlish_asd_60</a></li>
+</ul>
+<p><span id="d-arlish_asd_130"></span><strong><code>arlish_asd_130</code></strong> Arlish: “It would be my honor if you take Lawellyn's dagger. He would want you to have it.” — <strong>effects:</strong> sets stage 230 of <a href="../../quests/brv_dagger/#stage-230">A strange looking dagger</a>, gives 1× <a href="../../items/dagger_assassin/">Assassin's blade</a></p>
+<ul>
+<li>“Thank you, but it was my honor to help bring you closure and justice.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-arlish_asd_60"></span><strong><code>arlish_asd_60</code></strong> Arlish: “But I tried to explain to her that Lawellyn would not do so without telling me.”</p>
+<ul>
+<li>“That sounds suspicious.” → <a href="#d-arlish_asd_70">arlish_asd_70</a></li>
+</ul>
+<p><span id="d-arlish_asd_70"></span><strong><code>arlish_asd_70</code></strong> Arlish: “Indeed it does. In fact, I fear he was murdered. Will you help?”</p>
+<ul>
+<li>“Yes. Of course I will go investigate a little. You are in need.” → <a href="#d-arlish_asd_80">arlish_asd_80</a></li>
+<li>“I'm sorry, but I just don't have the time.” <em>(if NOT reached stage 130 of <a href="../../quests/brv_dagger/#stage-130">A strange looking dagger</a>)</em> → <a href="#d-arlish_asd_90">arlish_asd_90</a></li>
+</ul>
+<p><span id="d-arlish_asd_80"></span><strong><code>arlish_asd_80</code></strong> Arlish: “Oh thank you so much.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_dagger/#stage-130">A strange looking dagger</a></p>
+<p><span id="d-arlish_asd_90"></span><strong><code>arlish_asd_90</code></strong> Arlish: “I'm sorry to hear this.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_dagger/#stage-120">A strange looking dagger</a></p>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arlish.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arlish.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arlish.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arlish.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>arlish</code> · Data from v0.8.18</small></p>
 
 

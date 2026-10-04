@@ -844,6 +844,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -982,6 +1054,113 @@
 <ul>
 <li><a href="../../maps/wayto_feygard_duleian_2/">wayto_feygard_duleian_2</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/feygard_nondisplayed/">feygard_nondisplayed (hidden flag)</a>: stages 8</li>
+</ul>
+<details class="quote">
+<summary>Dialogue (20 lines)</summary>
+<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><span id="d-rosmara_initial_phrase"></span><strong><code>rosmara_initial_phrase</code></strong> Rosmara: “How can I help you today?”</p>
+<ul>
+<li>“What is going on with that cat?” → <a href="#d-rosmara_cat_1">rosmara_cat_1</a></li>
+<li>“What is this place?” → <a href="#d-rosmara_explain">rosmara_explain</a></li>
+<li>“Do you know why the village of Wexlow is void of people?” <em>(if reached stage 11 of <a href="../../quests/feygard_nondisplayed/#stage-11">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/echoes_of_enchantment/#stage-10">Echoes of enchantment</a>)</em> → <a href="#d-rosmara_wexlow">rosmara_wexlow</a></li>
+<li>“I would like to make a purchase, please.” <em>(if reached stage 8 of <a href="../../quests/feygard_nondisplayed/#stage-8">feygard_nondisplayed (hidden flag)</a>)</em> → <em>shop opens</em></li>
+</ul>
+<p><span id="d-rosmara_cat_1"></span><strong><code>rosmara_cat_1</code></strong> Rosmara: “Well, you see, he's my guard cat.”</p>
+<ul>
+<li>“Your guard cat?” → <a href="#d-rosmara_cat_2">rosmara_cat_2</a></li>
+</ul>
+<p><span id="d-rosmara_explain"></span><strong><code>rosmara_explain</code></strong> Rosmara: “This is my place of business. Right here on the side of Duleian Road.”</p>
+<ul>
+<li>“Why here? There's nothing else here besides you.” → <a href="#d-rosmara_explain_2">rosmara_explain_2</a></li>
+<li>“What do you sell?” → <a href="#d-rosmara_explain_3">rosmara_explain_3</a></li>
+</ul>
+<p><span id="d-rosmara_wexlow"></span><strong><code>rosmara_wexlow</code></strong> Rosmara: “What?! There's nobody in the village?”</p>
+<ul>
+<li>“Nope. Not a single person, and it looks like there hasn't been for a while.” → <a href="#d-rosmara_wexlow2">rosmara_wexlow2</a></li>
+</ul>
+<p><span id="d-rosmara_cat_2"></span><strong><code>rosmara_cat_2</code></strong> Rosmara: “Yes. If you attempt to rob me, he'll attack you. Hence he is my guard cat.”</p>
+<ul>
+<li>“I see.” → <em>conversation ends</em></li>
+<li>“Seriously?” → <a href="#d-rosmara_cat_3">rosmara_cat_3</a></li>
+</ul>
+<p><span id="d-rosmara_explain_2"></span><strong><code>rosmara_explain_2</code></strong> Rosmara: “Oh, you silly child. This is a very well traveled road. All the people coming and going from and to Feygard. It's a long road and they get hungry.”</p>
+<ul>
+<li>“I'm not a child anymore!” <em>(if wearing <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a>)</em> → <a href="#d-rosmara_heartsteel_10">rosmara_heartsteel_10</a></li>
+<li>“I am not a child!” <em>(if NOT carry 1× <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a>)</em> → <em>conversation ends</em></li>
+<li>“OK, you sell food. What kind of food?” → <a href="#d-rosmara_explain_3">rosmara_explain_3</a></li>
+<li>“And the fog? No one could take the path anymore.” → <a href="#d-rosmara_explain_10">rosmara_explain_10</a></li>
+</ul>
+<p><span id="d-rosmara_explain_3"></span><strong><code>rosmara_explain_3</code></strong> Rosmara: “I sell things that a child such as yourself is most likely not interested in.”</p>
+<ul>
+<li>“I am not a child anymore!!” → <em>conversation ends</em></li>
+<li>“What is it?” → <a href="#d-rosmara_explain_4">rosmara_explain_4</a></li>
+</ul>
+<p><span id="d-rosmara_wexlow2"></span><strong><code>rosmara_wexlow2</code></strong> Rosmara: “Hmm, I hope they are all right.”</p>
+<ul>
+<li>“Me too.” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-rosmara_cat_3"></span><strong><code>rosmara_cat_3</code></strong> Rosmara: “No, not seroiusly. He guards my fruits and vegetables.”</p>
+<ul>
+<li>“Guards them from what?” → <a href="#d-rosmara_cat_4">rosmara_cat_4</a></li>
+</ul>
+<p><span id="d-rosmara_heartsteel_10"></span><strong><code>rosmara_heartsteel_10</code></strong> Rosmara: “Yes, yes you are and a foolhardy one at that.”</p>
+<ul>
+<li>“Why the insult?” → <a href="#d-rosmara_heartsteel_20">rosmara_heartsteel_20</a></li>
+</ul>
+<p><span id="d-rosmara_explain_10"></span><strong><code>rosmara_explain_10</code></strong> Rosmara: “What kind of fog are you talking about?”</p>
+<ul>
+<li>“The fog that the witch had created in the swamp, of course.” <em>(if reached stage 30 of <a href="../../quests/fogmonster/#stage-30">Fog in the woods</a>)</em> → <a href="#d-rosmara_explain_11">rosmara_explain_11</a></li>
+<li>“The fog further down the road behind the kobolds, of course.” <em>(if NOT reached stage 30 of <a href="../../quests/fogmonster/#stage-30">Fog in the woods</a>)</em> → <a href="#d-rosmara_explain_11a">rosmara_explain_11a</a></li>
+</ul>
+<p><span id="d-rosmara_explain_4"></span><strong><code>rosmara_explain_4</code></strong> Rosmara: “I sell fruits and vegetables.” — <strong>effects:</strong> sets stage 8 of <a href="../../quests/feygard_nondisplayed/#stage-8">feygard_nondisplayed (hidden flag)</a></p>
+<ul>
+<li>“As an adult, I am interested in seeing what you have.” → <em>shop opens</em></li>
+<li>“Where do you get these fruits and vegetables?” → <a href="#d-rosmara_explain_5">rosmara_explain_5</a></li>
+</ul>
+<p><span id="d-rosmara_cat_4"></span><strong><code>rosmara_cat_4</code></strong> Rosmara: “I have a business agreement with him. He guards my food from the rats in exchange for a place to sleep.”</p>
+<ul>
+<li>“Oh, why didn't you just say so?” → <a href="#d-rosmara_cat_5">rosmara_cat_5</a></li>
+<li>“Well, he's not holding up his end of the deal, because there's a rat behind your tent right now.” → <a href="#d-rosmara_cat_rat">rosmara_cat_rat</a></li>
+</ul>
+<p><span id="d-rosmara_heartsteel_20"></span><strong><code>rosmara_heartsteel_20</code></strong> Rosmara: “Carrying the very same weapon Geomyr banned?”</p>
+<ul>
+<li>“Oh! Oops!” → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-rosmara_explain_11"></span><strong><code>rosmara_explain_11</code></strong> Rosmara: “Are you still afraid of witches or fog, child?”</p>
+<ul>
+<li>“I am not a child anymore!!” → <em>conversation ends</em></li>
+<li>“I was with the witch! Without me the fog would still be there!” → <a href="#d-rosmara_explain_12">rosmara_explain_12</a></li>
+</ul>
+<p><span id="d-rosmara_explain_11a"></span><strong><code>rosmara_explain_11a</code></strong> Rosmara: “Are you still afraid of kobolds or fog, child?”</p>
+<ul>
+<li>“I am not a child anymore!!” → <em>conversation ends</em></li>
+<li>“I have mastered the fog and survived the kobolds!!” → <a href="#d-rosmara_explain_12">rosmara_explain_12</a></li>
+</ul>
+<p><span id="d-rosmara_explain_5"></span><strong><code>rosmara_explain_5</code></strong> Rosmara: “From all over Dhayavar, but mostly from the great farmers in Loneford.”</p>
+<ul>
+<li>“Oh, yeah. I've seen all of their great farms.” <em>(if reached stage 22 of <a href="../../quests/loneford/#stage-22">Flows through the veins</a>)</em> → <em>conversation ends</em></li>
+<li>“Loneford, where's that?” <em>(if NOT reached stage 22 of <a href="../../quests/loneford/#stage-22">Flows through the veins</a>)</em> → <em>conversation ends</em></li>
+</ul>
+<p><span id="d-rosmara_cat_5"></span><strong><code>rosmara_cat_5</code></strong> Rosmara: “I wanted to waste your time just as you are doing to my time. Walking up to my business counter asking about my cat! Get lost, kid.”</p>
+<p><span id="d-rosmara_cat_rat"></span><strong><code>rosmara_cat_rat</code></strong> Rosmara: “Oh, my!”</p>
+<p><span id="d-rosmara_explain_12"></span><strong><code>rosmara_explain_12</code></strong> Rosmara: “Yes, of course. Calm down, child.”</p>
+<ul>
+<li>Next → <a href="#d-rosmara_initial_phrase">rosmara_initial_phrase</a></li>
+</ul>
+</details>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rosmara.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rosmara.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rosmara.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rosmara.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <p><small>Monster ID: <code>rosmara</code> · Data from v0.8.18</small></p>
 
 
