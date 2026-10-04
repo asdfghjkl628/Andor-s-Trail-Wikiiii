@@ -62,6 +62,6 @@
     | [Fracture](../skills/crit2.md) | 40 | 10 points: More Criticals 4 + Better Criticals 4 + Internal Bleeding + itself. |
     | A specialization | 45 | Needs the matching fighting style at level 2. |
 
-    The crit skills do nothing without a weapon that gives a critical multiplier, and ghosts, constructs and demons ignore crits completely. Don't sink 10 points into the crit chain unless you have a crit weapon you plan to marry.
+    The crit skills do nothing without a critical multiplier (a crit weapon, or [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md) for unarmed heroes), and ghosts, constructs and demons ignore crits completely. Don't sink 10 points into the crit chain unless you have a crit weapon you plan to marry.
 
     [^sp]: For comparison, you get 49 level-ups by level 50. Level-ups are cheap; skill points are not. Spend accordingly.

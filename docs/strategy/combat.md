@@ -48,4 +48,4 @@
 
 ???+ section "Crits need the right weapon and the right target"
 
-    Critical skill does nothing unless your **weapon** gives a critical multiplier, so check the weapon's page first. Crit chance also has diminishing returns: 20 critical skill gives 15%, and you need 80 to reach 35%. And against ghosts, constructs and demons, crits simply don't happen, so a crit-focused hero should carry a plan B for those fights. ~~"Hit it harder" is not a plan B.~~
+    Critical skill does nothing without a critical multiplier. That comes from your **weapon** (check its page), or from [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md) if you fight unarmed. Crit chance also has diminishing returns: 20 critical skill gives 15%, and you need 80 to reach 35%. And against ghosts, constructs and demons, crits simply don't happen, so a crit-focused hero should carry a plan B for those fights. ~~"Hit it harder" is not a plan B.~~

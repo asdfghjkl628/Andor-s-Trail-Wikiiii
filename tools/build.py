@@ -40,7 +40,8 @@ def load_all(kind):
 
 strings = {}
 for s in ET.parse(os.path.join(GAME, 'res', 'values', 'strings.xml')).getroot().iter('string'):
-    strings[s.get('name')] = ''.join(s.itertext()).replace("\\'", "'").replace('\\n', '\n')
+    _v = ''.join(s.itertext()).replace("\\'", "'").replace('\\n', '\n').replace('\\"', '"').strip()
+    strings[s.get('name')] = _v[1:-1] if len(_v) > 1 and _v[0] == '"' and _v[-1] == '"' else _v
 
 items = load_all('itemlist')
 cats = load_all('itemcategories')
@@ -65,7 +66,7 @@ cst = open(os.path.join(JAVA, 'controller', 'Constants.java'), encoding='utf-8')
 for name, expr in re.findall(r'static final (?:int|float) (\w+) = ([^;]+);', cst):
     try: consts['C_' + name] = _java_eval(expr, consts)
     except Exception: pass
-for name, expr in re.findall(r'(?:public|private) static final int (\w+) = ([^;]+);', sc, re.S):
+for name, expr in re.findall(r'(?:public|private) static final (?:int|float) (\w+) = ([^;]+);', sc, re.S):
     try: consts[name] = _java_eval(' '.join(expr.split()), consts)
     except Exception: pass
 SKILL_STRING_KEY = {  # enum name -> strings.xml suffix
@@ -102,6 +103,30 @@ for m in re.finditer(r'new SkillInfo\(SkillID\.(\w+),\s*([\w.]+),\s*SkillInfo\.L
                        category=cat, requirements=req_list,
                        short=strings.get(f'skill_shortdescription_{k}', ''),
                        long=strings.get(f'skill_longdescription_{k}', ''))
+
+# Fill the "%1$,d"-style blanks in skill descriptions with the constants the app passes in
+def java_format(fmt, args):
+    def sub(m):
+        i = int(m.group(1)) - 1
+        if i >= len(args) or args[i] is None: return m.group(0)
+        v = args[i]
+        if m.group(3) == 'd': return f"{int(v):,}" if m.group(2) == ',' else str(int(v))
+        return f"{v:g}" if isinstance(v, float) else str(v)
+    return re.sub(r'%(\d+)\$(,?)[.\d]*([dsf])', sub, fmt).replace('%%', '%')
+sia = open(os.path.join(JAVA, 'activity', 'SkillInfoActivity.java'), encoding='utf-8').read()
+unfilled = []
+for m in re.finditer(r'case (\w+):\s*return res\.getString\(R\.string\.(skill_longdescription_\w+)(.*?)\);', sia, re.S):
+    sid, key, argsrc = m.groups()
+    args = []
+    for a in [x.strip() for x in argsrc.split(',') if x.strip()]:
+        try: args.append(_java_eval(a.replace('SkillCollection.', ''), consts))
+        except Exception: args.append(None); unfilled.append(f'{sid}: {a}')
+    if sid in skills and key in strings:
+        skills[sid]['long'] = java_format(strings[key], args)
+for sid, sk in skills.items():
+    first = re.split(r'(?<=\.)\s', html.unescape(sk['long']).strip(), maxsplit=1)[0] if sk['long'] else ''
+    sk['summary'] = (first if len(first) <= 170 else first[:167].rsplit(' ', 1)[0] + '…') or sk['short']
+if unfilled: print('WARNING: could not evaluate skill description values:', unfilled)
 
 # ---------------------------------------------------------------- cross references
 # map spawns are computed by tools/maps.py (which also renders the maps)
@@ -379,7 +404,7 @@ for sid, cids in skill_sources.items():
 
 LUT = {'alwaysShown': 'Skill points', 'firstLevelRequiresQuest': 'First level from a quest, then skill points', 'onlyByQuests': 'Quest reward only'}
 for sid, sk in skills.items():
-    P = [f"# {sk['name']}\n\n*{sk['short']}*\n\n",
+    P = [f"# {sk['name']}\n\n*{sk['summary']}*\n\n",
          f"**Category:** {sk['category']} · **Max level:** {sk['maxLevel']} · **Obtained via:** {LUT.get(sk['levelUpType'], sk['levelUpType'])}\n\n"]
     if sk['requirements']:
         P.append("## Requirements\n\n" + ''.join(f"- {req_text(r, sk['maxLevel'])}\n" for r in sk['requirements']) + '\n')
@@ -451,7 +476,7 @@ combat_body = f"""Every attack goes through the same four steps. No hidden dice,
 {hit_rows}
 **2 · Damage:** random between min and max attack damage.
 
-**3 · Critical?** Only if you have critical skill above 0 **and** your weapon gives a critical multiplier. No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
+**3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
 | Crit skill | Crit % |
 |---|---|
@@ -459,13 +484,30 @@ combat_body = f"""Every attack goes through the same four steps. No hidden dice,
 **4 · Armor:** the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.
 
 **Attacks per turn** = max AP ÷ attack cost, rounded down."""
-skill_body = ''
-for cat in sorted(by_cat):
-    skill_body += f"\n**{cat.capitalize()}**\n\n| Skill | Max | Obtained | Summary |\n|---|---|---|---|\n"
-    for sid in sorted(by_cat[cat], key=lambda x: skills[x]['name']):
-        sk = skills[sid]
-        how = {'alwaysShown': 'Points', 'firstLevelRequiresQuest': 'Quest, then points', 'onlyByQuests': 'Quest only'}.get(sk['levelUpType'], sk['levelUpType'])
-        skill_body += f"| [{md_esc(sk['name'])}]({sid}.md) | {sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else '∞'} | {how} | {md_esc(sk['short'])} |\n"
+STAT_SHORT = {'blockChance': 'block chance', 'attackChance': 'attack chance', 'maxHP': 'max HP', 'maxAP': 'max AP',
+              'damageResistance': 'damage resistance', 'criticalSkill': 'critical skill'}
+def prereq_short(sk):
+    if sk['levelUpType'] in ('onlyByQuests', 'firstLevelRequiresQuest'):
+        parts = ['Quest']
+    else:
+        parts = []
+    for r in sk['requirements']:
+        if r[0] == 'level' and r[1] + r[2] > 1: parts.append(f"Lv {r[1] + r[2]}+")
+        elif r[0] == 'stat': parts.append(f"Base {STAT_SHORT.get(r[1], r[1])} {r[2] + r[3]}+")
+        elif r[0] == 'skill': parts.append(f"[{skills.get(r[1], {}).get('name', r[1])}]({r[1]}.md) {r[2]}")
+    return ' · '.join(parts) if parts else '–'
+def skill_row(sid, star=False):
+    sk = skills[sid]
+    mx = sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else '∞'
+    return f"| [{md_esc(sk['name'])}]({sid}.md){'\\*' if star else ''} | {mx} | {prereq_short(sk)} | {md_esc(sk['summary'])} |\n"
+points_skills = [sid for sid, sk in skills.items() if sk['levelUpType'] == 'alwaysShown']
+quest_skills = [sid for sid, sk in skills.items() if sk['levelUpType'] != 'alwaysShown']
+hdr = "| Skill | Max | Prerequisite | What it does |\n|---|---|---|---|\n"
+skill_body = ("**Learned with skill points** (in the order the game lists them)\n\n" + hdr +
+              ''.join(skill_row(x, x in skill_sources) for x in points_skills) +
+              "\n\\* Extra levels can also be earned from quests.\n\n**Unlocked through quests**\n\n" + hdr +
+              ''.join(skill_row(x) for x in quest_skills) +
+              "\n*Quest* = the first level comes from a quest; for proficiencies, later levels cost skill points as usual.\n")
 write('skills/index.md', f"""# Stats & Skills
 
 How your hero's numbers actually work in v{VERSION}, pulled straight from the game's source code rather than from forum folklore. Click a heading to fold it away. Wondering what to *do* with all this? That's what [Strategy](../strategy/index.md) is for.
@@ -496,10 +538,10 @@ Your evasion: the same curve as attack chance, pointed the other way. Raised by 
 Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
 
 ## Critical skill
-Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) raises it by 20% per level.
+Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless you also have a critical multiplier (from your weapon, or [Way of the Monk](fightstyleUnarmedUnarmored.md)). [More Criticals](moreCriticals.md) raises it by 20% per level.
 
 ## Critical multiplier
-How hard a critical hit lands (e.g. ×2). Only weapons provide one; your bare fists have none, which is why unarmed heroes never crit. [Better Criticals](betterCriticals.md) raises it by 25% per level.
+How hard a critical hit lands (e.g. ×2). Weapons provide it. Bare fists have none, so unarmed heroes can't crit at all, unless they learn [Way of the Monk](fightstyleUnarmedUnarmored.md), which grants ×1.25 per level. [Better Criticals](betterCriticals.md) raises it by 25% per level.
 
 ## Attack cost
 AP spent per attack: {LV['atk_cost']} unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.
@@ -568,4 +610,7 @@ Everything here is generated straight from the game's own data files, so the num
 
 <small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki, not affiliated with the developers.</small>
 """)
+_left = [os.path.relpath(f, DOCS) for f in glob.glob(os.path.join(DOCS, '**', '*.md'), recursive=True)
+         if re.search(r'%\d+\$[,.\d]*[dsf]', open(f, encoding='utf-8').read())]
+for f in _left: print(f"::warning file=docs/{f}::Unfilled text placeholder (e.g. %1$d) left on this page")
 print(f"Built v{VERSION}: {len(items)} items, {len(monsters)} monsters, {len(skills)} skills, {len(quests)} quests, {n_maps} maps")
