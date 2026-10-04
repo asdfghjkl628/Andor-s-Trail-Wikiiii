@@ -9,7 +9,7 @@ res/values/loadresources.xml), cross-references it, and writes:
   docs/**              - MkDocs pages, including cropped item/monster icons
   docs/changelog.md    - prepended with a diff vs. the previous snapshot
 """
-import json, os, re, sys, glob, shutil, html
+import json, os, re, sys, glob, shutil, html, math
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
@@ -32,12 +32,14 @@ def loaded_files(kind):
             return [os.path.join(RAW, i.text.split('/')[-1] + '.json') for i in arr if i.text]
     return sorted(glob.glob(os.path.join(RAW, f'{kind}_*.json')))
 
+FILE_OF = {}
 def load_all(kind):
     out = {}
     for f in loaded_files(kind):
         if os.path.exists(f):
             for obj in json.load(open(f, encoding='utf-8')):
                 out[obj['id']] = obj
+                FILE_OF[(kind, obj['id'])] = os.path.basename(f)
     return out
 
 strings = {}
@@ -295,28 +297,126 @@ def item_kind(it):
     if c.get('actionType') == 'use': return 'Consumable'
     return 'Other'
 
+# ---------------------------------------------------------------- indexes for item & monster pages
+def crit_pct(cs): return max(0, int(-5 + 2 * math.sqrt(5 * cs))) if cs > 0 else 0
+import numpy as _np
+def monster_xp(m):
+    """MonsterTypeParser.getExpectedMonsterExperience, in single precision like the game."""
+    f = _np.float32
+    ap, cost = int(m.get('maxAP', 10)), int(m.get('attackCost', 10))
+    d = m.get('attackDamage') or {}
+    avg = (f(d.get('min', 0)) + f(d.get('max', 0))) / f(2) if d else f(0)
+    apt = f(ap // cost if cost else 0)
+    att = apt * (f(m.get('attackChance', 0)) / f(100)) * avg * (f(1) + (f(m.get('criticalSkill', 0)) / f(100)) * f(m.get('criticalMultiplier', 0)))
+    dfn = f(m.get('maxHP', 1)) * (f(1) + f(m.get('blockChance', 0)) / f(100)) + f(9) * f(m.get('damageResistance', 0))
+    bonus = 50 if (m.get('hitEffect') or {}).get('conditionsTarget') else 0
+    return int(math.ceil(float((att * f(3) + dfn) * f(0.7)))) + bonus
+def region_of(mp):
+    pg = _map_pages.get(mp)
+    return pg['area'][0] if pg and pg.get('area') and pg['area'][0] else None
+def where(mid, n=3):
+    mps = sorted(spawn_maps.get(mid, ()))
+    if not mps: return ''
+    regs = list(dict.fromkeys(r for r in (region_of(x) for x in mps) if r))
+    return ', '.join(regs[:n]) if regs else ', '.join(mps[:n])
+in_containers = defaultdict(list)          # item -> [(map, container number, chance)]
+for mp, pg in _map_pages.items():
+    for k, (cid, dl) in enumerate(pg['containers']):
+        for e in dl.get('items', []): in_containers[e['itemID']].append((mp, k, e.get('chance')))
+dialogue_gives = defaultdict(list)         # item -> [(conversation node, how)]
+item_uses = defaultdict(list)              # item -> [(parent node, reply text, requirement type, amount, next node)]
+kill_reqs = defaultdict(list)              # monster -> [(parent node, amount, next node)]
+for cid, c in conversations.items():
+    for r in c.get('rewards') or []:
+        if r.get('rewardType') == 'giveItem': dialogue_gives[r.get('rewardID')].append((cid, f"{r.get('value') or 1}×"))
+        elif r.get('rewardType') == 'dropList':
+            for e in droplists.get(r.get('rewardID'), {}).get('items', []): dialogue_gives[e['itemID']].append((cid, chance_txt(e.get('chance'))))
+    for rep in c.get('replies') or []:
+        for q in rep.get('requires') or []:
+            t, rid = q.get('requireType'), q.get('requireID')
+            if t in ('inventoryRemove', 'inventoryKeep', 'wear', 'wearRemove', 'usedItem') and not q.get('negate'):
+                for x in (item_filters.get(rid) or [rid]): item_uses[x].append((cid, rep.get('text', ''), t, q.get('value', 1), rep.get('nextPhraseID'), rid if rid in item_filters else None))
+            elif t == 'killedMonster' and not q.get('negate'):
+                kill_reqs[rid].append((cid, q.get('value', 1), rep.get('nextPhraseID')))
+def node_quests(*cids):
+    out = []
+    for c in cids:
+        for r in (conversations.get(c, {}).get('rewards') or []):
+            if r.get('rewardType') == 'questProgress' and r.get('rewardID') in quests: out.append((r['rewardID'], r.get('value')))
+    return out
+def speakers_md(cid):
+    sp = [s for rt in QG.routes(cid) for s in rt['speakers']]
+    return QG.who(list(dict.fromkeys(sp))[:2]) if sp else 'a scripted event'
+def raw_json(o):
+    return '    ```json\n' + '\n'.join('    ' + l for l in json.dumps(o, indent=1, ensure_ascii=False).split('\n')) + '\n    ```\n'
+def infobox(rows, image=None):
+    return ('<div class="infobox" markdown>\n\n' + (f'<p class="ib-img">![]({image}){{ .sprite }}</p>\n\n' if image else '') +
+            '| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in rows if v not in (None, '', 0)) + '\n</div>\n\n')
+WEAPON_PROF = {'dagger': 'Dagger', 'ssword': 'Dagger', 'rapier': 'One-handed sword', 'lsword': 'One-handed sword', 'bsword': 'One-handed sword',
+               '2hsword': 'Two-handed sword', 'axe': 'Axe', 'axe2h': 'Axe', 'club': 'Blunt', 'staff': 'Blunt', 'mace': 'Blunt', 'mace2h': 'Blunt',
+               'scepter': 'Blunt', 'hammer': 'Blunt', 'hammer2h': 'Blunt', 'pole': 'Pole weapon'}
+
+# ---------------------------------------------------------------- item pages
 item_rows = []
 for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
     c = cats.get(it.get('category'), {})
     ic = icon(it.get('iconID'), 'items')
-    L = [f"# {img(ic)} {it.get('name', iid)}\n", f"*{it.get('displaytype', 'ordinary').capitalize()}* · {c.get('name', it.get('category', '?'))} · value {it.get('baseMarketCost', 0)} gold\n\n"]
+    is_weapon = c.get('inventorySlot') == 'weapon'
+    hands = ('Two-handed' if c.get('size') == 'large' else 'One-handed') if is_weapon else None
+    info = [('Item ID', f"`{iid}`"), ('Category', c.get('name', it.get('category'))), ('Slot', c.get('inventorySlot')),
+            ('Hands', hands), ('Proficiency', WEAPON_PROF.get(it.get('category')) if is_weapon else None),
+            ('Rarity', it.get('displaytype', 'ordinary').capitalize()), ('Base value', f"{it.get('baseMarketCost', 0):,} gold"),
+            ('Quest item', 'Yes' if it.get('displaytype') == 'quest' else None), ('Introduced', introduced('items', iid))]
+    L = [f"# {img(ic)} {it.get('name', iid)}\n\n", f"*{it.get('displaytype', 'ordinary').capitalize()} {c.get('name', '').lower() or 'item'}.*\n\n",
+         infobox(info, '../../' + ic if ic else None)]
     if it.get('description'): L.append(f"> {it['description']}\n\n")
-    if c.get('inventorySlot'): L.append(f"**Slot:** {c['inventorySlot']}" + (f" · **Size:** {c['size']}" if c.get('size') else '') + '\n\n')
+    stat_md = ''
     for title, key in (('When equipped', 'equipEffect'), ('When used', 'useEffect'), ('On hit', 'hitEffect'),
                        ('On kill', 'killEffect'), ('When hit', 'hitReceivedEffect')):
         rows = effect_rows(it.get(key))
-        if rows:
-            L.append(f"\n## {title}\n\n| Stat | Value |\n|---|---|\n" + ''.join(f"| {md_esc(a)} | {md_esc(b)} |\n" for a, b in rows))
+        if rows: stat_md += f"\n### {title}\n\n| Stat | Value |\n|---|---|\n" + ''.join(f"| {md_esc(a)} | {md_esc(b)} |\n" for a, b in rows)
+    if stat_md: L.append("## Statistics\n" + stat_md + H.verified("item data", VERSION))
+    # ---- acquisition
+    acq = []
     srcs = dropped_by.get(iid, [])
     if srcs:
-        L.append("\n## Dropped by\n\n| Monster | Chance | Qty |\n|---|---|---|\n")
-        for mid, ch, q in sorted(srcs, key=lambda s: -chance_pct(s[1])):
-            L.append(f"| {link('monsters', mid, monsters[mid].get('name', mid))} | {chance_txt(ch)} | {q} |\n")
+        acq.append("### Dropped by\n\n| Monster | Chance | Qty | Found in |\n|---|---|---|---|\n" + ''.join(
+            f"| {link('monsters', mid, monsters[mid].get('name', mid))} | {chance_txt(ch)} | {q} | {where(mid) or '–'} |\n"
+            for mid, ch, q in sorted(srcs, key=lambda s: -chance_pct(s[1]))[:40]) + (f"\n*…and {len(srcs) - 40} more.*\n" if len(srcs) > 40 else '') + "\n")
     if sold_by.get(iid):
-        L.append("\n## Sold by\n\n" + ''.join(f"- {link('monsters', mid, monsters[mid].get('name', mid))}\n" for mid, _, _ in sold_by[iid]))
-    L.append(H.verified("item data", VERSION))
+        acq.append("### Sold by\n\n" + ''.join(f"- {link('monsters', mid, monsters[mid].get('name', mid))}" + (f" ({where(mid)})" if where(mid) else '') + "\n"
+                                                for mid in dict.fromkeys(m for m, _, _ in sold_by[iid])) + "\n")
+    if in_containers.get(iid):
+        acq.append("### Found in containers\n\n" + ''.join(f"- [{mp}](../maps/{mp}.md#container-{k}) (container {k + 1}, {chance_txt(ch)})" + (f", {region_of(mp)}" if region_of(mp) else '') + "\n"
+                                                         for mp, k, ch in sorted(in_containers[iid])[:30]) + "\n")
+    if dialogue_gives.get(iid):
+        rows = []
+        for cid, how in dialogue_gives[iid][:20]:
+            qs = node_quests(cid)
+            rows.append(f"- From {speakers_md(cid)}" + (f" during {QG.qlink(qs[0][0], qs[0][1])}" if qs else '') + f" ({how})\n")
+        acq.append("### Quest & dialogue rewards\n\n" + ''.join(dict.fromkeys(rows)) + "\n")
+    L.append("## How to get it\n\n" + (''.join(acq) if acq else
+             f"As of v{VERSION}, nothing in the game data gives this item: no monster drops it, no shop sells it, no container holds it and no dialogue hands it out."
+             + (" It is only listed in an unused placeholder loot table." if any(iid in [e['itemID'] for e in dl.get('items', [])] for d, dl in droplists.items() if 'undropped' in d) else '') + "\n\n"))
+    L.append(H.verified("item, loot, map and dialogue data", VERSION))
+    # ---- uses
+    uses = item_uses.get(iid, [])
+    if uses:
+        verb = {'inventoryRemove': 'handed over', 'inventoryKeep': 'must be carried', 'wear': 'must be worn', 'wearRemove': 'worn item is taken', 'usedItem': 'must have been used'}
+        rows = []
+        for par, text, t, val, nxt, filt in uses[:30]:
+            qs = node_quests(nxt) or node_quests(par)
+            rows.append(f"| {speakers_md(par)} | {QG.qlink(qs[0][0], qs[0][1]) if qs else '–'} | {verb.get(t, t)} ({val}×){' — any item from group `' + filt + '`' if filt else ''} | “{md_esc(re.sub(r'\\{(\\d+)\\}', r'\\1', text or '')[:80]) or '(automatic)'}” |\n")
+        L.append("## Uses\n\nWhere the game checks for this item in dialogue:\n\n| With | Quest | What happens to it | Option |\n|---|---|---|---|\n" + ''.join(dict.fromkeys(rows)) +
+                 (f"\n*…and {len(uses) - 30} more.*\n" if len(uses) > 30 else '') + H.verified("dialogue data", VERSION))
     L.append(hist_md('items', iid))
-    L.append(f"\n<small>Item ID: `{iid}` · Data from v{VERSION}</small>\n")
+    L.append(notes('items', iid, it.get('name', iid)))
+    tech = [('Item ID', f"`{iid}`"), ('Category ID', f"`{it.get('category', '–')}`"), ('Icon', f"`{it.get('iconID', '–')}`"),
+            ('Defined in', f"`res/raw/{FILE_OF.get(('itemlist', iid), '?')}`"),
+            ('Loot tables containing it', ', '.join(f"`{d}`" for d, dl in droplists.items() if any(e['itemID'] == iid for e in dl.get('items', []))) or '–')]
+    L.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) +
+             "\n    Raw data:\n\n" + raw_json(it) + '\n')
+    L.append(f"\n<small>Data from v{VERSION}</small>\n")
     write(f'items/{iid}.md', ''.join(L))
     item_rows.append((it, c, ic))
 
@@ -334,35 +434,66 @@ for kind in ('Equipment', 'Consumable', 'Other'):
             L.append(f"| {img(ic)} | [{md_esc(it.get('name', it['id']))}]({it['id']}.md) | {it.get('displaytype', 'ordinary')} | {it.get('baseMarketCost', 0)} |\n")
 write('items/index.md', ''.join(L))
 
-# monsters
-L = [f"# Monsters\n\nAll {len(monsters)} monsters and NPCs, sorted by HP, weakest first. The ones at the bottom of the list are there for a reason.\n\n| | Name | Class | HP | Attack | AC | BC | DR | Crit |\n|---|---|---|---|---|---|---|---|---|\n"]
-for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 0), kv[1].get('name', ''))):
+# ---------------------------------------------------------------- monster pages
+L = [f"# Monsters\n\nAll {len(monsters)} monsters and NPCs, sorted by HP, weakest first. The ones at the bottom of the list are there for a reason.\n\n"
+     "| | Name | Type | Class | HP | XP | Attack | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|---|\n"]
+for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 1), kv[1].get('name', ''))):
     ic = icon(m.get('iconID'), 'monsters')
-    dmg = rng(m.get('attackDamage', {'min': 0, 'max': 0}))
-    crit = f"{m.get('criticalSkill', 0)} / x{m.get('criticalMultiplier', 1)}" if m.get('criticalSkill') else '–'
-    stats = [('Class', m.get('monsterClass', '?')), ('HP', m.get('maxHP', 0)), ('Max AP', m.get('maxAP', 10)),
-             ('Attack cost', m.get('attackCost', 10)), ('Move cost', m.get('moveCost', 10)), ('Damage', dmg),
-             ('Attack chance', m.get('attackChance', 0)), ('Block chance', m.get('blockChance', 0)),
-             ('Damage resistance', m.get('damageResistance', 0)), ('Critical skill', m.get('criticalSkill', 0)),
-             ('Critical multiplier', m.get('criticalMultiplier', 0))]
-    P = [f"# {img(ic)} {m.get('name', mid)}\n\n", "| Stat | Value |\n|---|---|\n", ''.join(f"| {a} | {b} |\n" for a, b in stats)]
-    if m.get('monsterClass') in ('ghost', 'construct', 'demon'):
-        P.append("\n!!! note \"Immune to critical hits\"\n    Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.\n")
-    if m.get('hitEffect'):
-        P.append("\n## On hit\n\n" + ''.join(f"- **{a}:** {md_esc(b)}\n" for a, b in effect_rows(m['hitEffect'])))
+    d = m.get('attackDamage') or {}
+    dmg = rng(d) if d else '0'
+    xp = monster_xp(m)
+    kind = 'Shopkeeper' if mid in shopkeepers else ('NPC' if m.get('phraseID') else 'Enemy')
+    ap, cost = m.get('maxAP', 10), m.get('attackCost', 10)
+    cs, cmul = m.get('criticalSkill', 0), m.get('criticalMultiplier', 0)
+    can_crit = cs > 0 and cmul not in (0, 1)
+    immune = m.get('monsterClass') in ('ghost', 'construct', 'demon')
+    info = [('Monster ID', f"`{mid}`"), ('Type', kind), ('Class', (m.get('monsterClass') or '?').capitalize()), ('HP', m.get('maxHP', 1)),
+            ('XP when killed', f"{xp:,}" if kind == 'Enemy' or m.get('maxHP', 1) > 1 else None),
+            ('Found in', where(mid) or None), ('Immune to crits', 'Yes' if immune else None), ('Introduced', introduced('monsters', mid))]
+    stats = [('HP', m.get('maxHP', 1)), ('Damage', dmg), ('Attack chance', m.get('attackChance', 0)), ('Block chance', m.get('blockChance', 0)),
+             ('Damage resistance', m.get('damageResistance', 0)), ('Max AP', ap), ('Attack cost', f"{cost} AP"),
+             ('Attacks per turn', ap // cost if cost else 0), ('Move cost', f"{m.get('moveCost', 10)} AP"),
+             ('Critical skill', cs), ('Critical multiplier', cmul or '–'),
+             ('Crit chance', f"{crit_pct(cs)}%" if can_crit else 'none (needs critical skill and a multiplier)')]
+    P = [f"# {img(ic)} {(m.get('name') or mid)}\n\n", infobox(info, '../../' + ic if ic else None),
+         "## Combat stats\n\n| Stat | Value |\n|---|---|\n" + ''.join(f"| {a} | {b} |\n" for a, b in stats)]
+    if immune: P.append("\n!!! note \"Immune to critical hits\"\n    Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.\n")
+    for title, key in (('On hit', 'hitEffect'), ('When hit', 'hitReceivedEffect'), ('On death', 'deathEffect')):
+        if m.get(key): P.append(f"\n**{title}:** " + '; '.join(f"{a}: {md_esc(b)}" for a, b in effect_rows(m[key])) + "\n")
+    P.append(f"\n**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.\n")
+    P.append(H.verified("monster data and game code (`MonsterTypeParser.java`)", VERSION))
     dl = droplists.get(m.get('droplistID'))
     if dl:
         P.append("\n## " + ("Shop stock" if mid in shopkeepers else "Drops") + "\n\n| Item | Chance | Qty |\n|---|---|---|\n")
         for e in dl.get('items', []):
             q = e.get('quantity', {})
             P.append(f"| {link('items', e['itemID'], items.get(e['itemID'], {}).get('name', e['itemID']))} | {chance_txt(e.get('chance'))} | {rng(q)} |\n")
-    if spawn_maps.get(mid):
-        P.append("\n## Found on\n\n" + ''.join(f"- {link('maps', mp, mp)}\n" for mp in sorted(spawn_maps[mid])))
+    locs = []
+    for mp in sorted(spawn_maps.get(mid, ())):
+        pg = _map_pages.get(mp)
+        if not pg: continue
+        cnt = sum(qty for o, ms, act, qty in pg['spawns'] if mid in ms)
+        later = any(not act for o, ms, act, qty in pg['spawns'] if mid in ms)
+        locs.append(f"| [{mp}](../maps/{mp}.md) | {region_of(mp) or '–'} | {cnt} | {'appears later in a quest' if later else '–'} |\n")
+    if locs: P.append("\n## Locations\n\n| Map | Region | Up to | Notes |\n|---|---|---|---|\n" + ''.join(locs[:60]) + (f"\n*…and {len(locs) - 60} more maps.*\n" if len(locs) > 60 else '') + "\n")
+    if kill_reqs.get(mid):
+        rows = []
+        for par, val, nxt in kill_reqs[mid]:
+            qs = node_quests(nxt) or node_quests(par)
+            rows.append(f"- {QG.qlink(qs[0][0], qs[0][1]) if qs else 'A conversation'} with {speakers_md(par)} checks that you've killed at least {val}\n")
+        P.append("\n## Quests that count kills\n\n" + ''.join(list(dict.fromkeys(rows))[:20]) + "\n")
     if m.get('phraseID'): P.append('\n' + npc_section(QG, mid, notes, hist_md))
-    else: P.append(hist_md('monsters', mid))
-    P.append(f"\n<small>Monster ID: `{mid}` · Data from v{VERSION}</small>\n")
+    else:
+        P.append(hist_md('monsters', mid)); P.append(notes('monsters', mid, (m.get('name') or mid)))
+    tech = [('Monster ID', f"`{mid}`"), ('Spawn group', f"`{m.get('spawnGroup', mid)}`"), ('Loot table', f"`{m.get('droplistID')}`" if m.get('droplistID') else '–'),
+            ('Conversation', f"`{m.get('phraseID')}`" if m.get('phraseID') else '–'), ('Faction', f"`{m.get('faction')}`" if m.get('faction') else '–'),
+            ('Movement', m.get('movementAggressionType', '–')), ('Icon', f"`{m.get('iconID', '–')}`"),
+            ('Defined in', f"`res/raw/{FILE_OF.get(('monsterlist', mid), '?')}`")]
+    P.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) +
+             "\n    Raw data:\n\n" + raw_json(m) + '\n')
+    P.append(f"\n<small>Data from v{VERSION}</small>\n")
     write(f'monsters/{mid}.md', ''.join(P))
-    L.append(f"| {img(ic)} | [{md_esc(m.get('name', mid))}]({mid}.md) | {m.get('monsterClass', '?')} | {m.get('maxHP', 0)} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} | {crit} |\n")
+    L.append(f"| {img(ic)} | [{md_esc((m.get('name') or mid))}]({mid}.md) | {kind} | {m.get('monsterClass', '?')} | {m.get('maxHP', 1)} | {xp:,} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} |\n")
 write('monsters/index.md', ''.join(L))
 
 write_map_pages(_map_pages, _map_ctx, QG, notes, shopkeepers, introduced)

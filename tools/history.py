@@ -224,7 +224,7 @@ def vlink(v, pre='../'): return f"[v{v}]({pre}versions/{v}.md)"
 
 
 def verified(what, version):
-    return f"\n<p class=\"verified\">Verified against v{version} {what}.</p>\n"
+    return f"\n<p class=\"verified\">Verified against v{version} {what}.</p>\n\n"
 
 
 def _dialogue_rows(hist, node_ids):
