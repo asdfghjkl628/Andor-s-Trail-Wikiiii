@@ -823,10 +823,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#found-on" class="md-nav__link">
+  <a href="#combat-stats" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Found on
+        Combat stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Locations
       
     </span>
   </a>
@@ -945,6 +956,44 @@
 
 
 <h1 id="burhczyd"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld2_8.png" /> Burhczyd<a class="headerlink" href="#burhczyd" title="Permanent link">&para;</a></h1>
+<div class="infobox">
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_8.png){ .sprite }</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monster ID</strong></td>
+<td><code>burhczyd3</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>NPC</td>
+</tr>
+<tr>
+<td><strong>Class</strong></td>
+<td>Humanoid</td>
+</tr>
+<tr>
+<td><strong>HP</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Found in</strong></td>
+<td>Loneford</td>
+</tr>
+<tr>
+<td><strong>Introduced</strong></td>
+<td><a href="../../versions/0.7.8/">v0.7.8</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="combat-stats">Combat stats<a class="headerlink" href="#combat-stats" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -954,24 +1003,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Class</td>
-<td>humanoid</td>
-</tr>
-<tr>
 <td>HP</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Move cost</td>
-<td>10</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Damage</td>
@@ -990,19 +1023,57 @@
 <td>0</td>
 </tr>
 <tr>
+<td>Max AP</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Attack cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
+<td>Attacks per turn</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Move cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
 <td>Critical skill</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Critical multiplier</td>
-<td>0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Crit chance</td>
+<td>none (needs critical skill and a multiplier)</td>
 </tr>
 </tbody>
 </table>
-<h2 id="found-on">Found on<a class="headerlink" href="#found-on" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../maps/loneford6/">loneford6</a></li>
-</ul>
+<p><strong>XP formula</strong> (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.</p>
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+<h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>Region</th>
+<th>Up to</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../maps/loneford6/">loneford6</a></td>
+<td>Loneford</td>
+<td>1</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/quest_burhczyd/">Young merchant</a>: stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140</li>
@@ -1657,7 +1728,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.11/">v0.7.11</a></td>
-<td>Dialogue: 26 lines added, 25 lines changed<br>· text: “Wow, splendid idea! I will take my fathers cart. Then all I need is a…” → “Wow, splendid idea! I will take my father's cart. Then all I need is …”<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”</td>
+<td>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.12/">v0.7.12</a></td>
@@ -1665,7 +1736,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.2/">v0.8.2</a></td>
-<td>Dialogue: 18 lines added, 15 lines changed<br>· text: “null” → “Well, her parents haven't given me their consent yet.”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”</td>
+<td>Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “null” → “Well, her parents haven't given me their consent yet.”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.4/">v0.8.4</a></td>
@@ -1673,11 +1744,11 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…”<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”</td>
+<td>Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
-<td>Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “null” → “Deep conversations.”</td>
+<td>Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
@@ -1697,7 +1768,62 @@
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burhczyd3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burhczyd3.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
-<p><small>Monster ID: <code>burhczyd3</code> · Data from v0.8.18</small></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monster ID</td>
+<td><code>burhczyd3</code></td>
+</tr>
+<tr>
+<td>Spawn group</td>
+<td><code>burhczyd3</code></td>
+</tr>
+<tr>
+<td>Loot table</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Conversation</td>
+<td><code>burhczyd3</code></td>
+</tr>
+<tr>
+<td>Faction</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Movement</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td><code>monsters_ld2:8</code></td>
+</tr>
+<tr>
+<td>Defined in</td>
+<td><code>res/raw/monsterlist_burhczyd.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Raw data:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w"> </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"burhczyd3"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Burhczyd"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"iconID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monsters_ld2:8"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"unique"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"monsterClass"</span><span class="p">:</span><span class="w"> </span><span class="s2">"humanoid"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"phraseID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"burhczyd3"</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

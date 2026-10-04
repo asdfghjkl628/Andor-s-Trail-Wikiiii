@@ -823,6 +823,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#combat-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#shop-stock" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -834,10 +845,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#found-on" class="md-nav__link">
+  <a href="#locations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Found on
+        Locations
       
     </span>
   </a>
@@ -945,6 +956,44 @@
 
 
 <h1 id="arnal"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_28.png" /> Arnal<a class="headerlink" href="#arnal" title="Permanent link">&para;</a></h1>
+<div class="infobox">
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_28.png){ .sprite }</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monster ID</strong></td>
+<td><code>arnal</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Shopkeeper</td>
+</tr>
+<tr>
+<td><strong>Class</strong></td>
+<td>Humanoid</td>
+</tr>
+<tr>
+<td><strong>HP</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Found in</strong></td>
+<td>Remgard</td>
+</tr>
+<tr>
+<td><strong>Introduced</strong></td>
+<td>v0.7.0 or earlier</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="combat-stats">Combat stats<a class="headerlink" href="#combat-stats" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -954,24 +1003,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Class</td>
-<td>humanoid</td>
-</tr>
-<tr>
 <td>HP</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Move cost</td>
-<td>10</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Damage</td>
@@ -990,15 +1023,38 @@
 <td>0</td>
 </tr>
 <tr>
+<td>Max AP</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Attack cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
+<td>Attacks per turn</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Move cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
 <td>Critical skill</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Critical multiplier</td>
-<td>0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Crit chance</td>
+<td>none (needs critical skill and a multiplier)</td>
 </tr>
 </tbody>
 </table>
+<p><strong>XP formula</strong> (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.</p>
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 <h2 id="shop-stock">Shop stock<a class="headerlink" href="#shop-stock" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1056,10 +1112,25 @@
 </tr>
 </tbody>
 </table>
-<h2 id="found-on">Found on<a class="headerlink" href="#found-on" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../maps/remgard_weapon/">remgard_weapon</a></li>
-</ul>
+<h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>Region</th>
+<th>Up to</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../maps/remgard_weapon/">remgard_weapon</a></td>
+<td>Remgard</td>
+<td>1</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
 <p>Set up your situation (quest stages, items, kills…), then talk to Arnal. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/arnal.json" data-npc="Arnal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
@@ -1107,7 +1178,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “(Arnal clears his throat)” → “[Arnal clears his throat]”<br>· text: “I don't know what .. <em>cough</em> .. happened. I started getting dizzy and…” → “I don't know what ... <em>cough</em> ... happened. I started getting dizzy a…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “I don't know what .. <em>cough</em> .. happened. I started getting dizzy and…” → “I don't know what ... <em>cough</em> ... happened. I started getting dizzy a…”<br>· text: “(Arnal clears his throat)” → “[Arnal clears his throat]”</td>
 </tr>
 </tbody>
 </table>
@@ -1123,7 +1194,63 @@
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arnal.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arnal.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
-<p><small>Monster ID: <code>arnal</code> · Data from v0.8.18</small></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monster ID</td>
+<td><code>arnal</code></td>
+</tr>
+<tr>
+<td>Spawn group</td>
+<td><code>arnal</code></td>
+</tr>
+<tr>
+<td>Loot table</td>
+<td><code>shop_arnal</code></td>
+</tr>
+<tr>
+<td>Conversation</td>
+<td><code>arnal</code></td>
+</tr>
+<tr>
+<td>Faction</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Movement</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td><code>monsters_ld1:28</code></td>
+</tr>
+<tr>
+<td>Defined in</td>
+<td><code>res/raw/monsterlist_v0611_npcs2.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Raw data:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w"> </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"arnal"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Arnal"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"iconID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monsters_ld1:28"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"monsterClass"</span><span class="p">:</span><span class="w"> </span><span class="s2">"humanoid"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"spawnGroup"</span><span class="p">:</span><span class="w"> </span><span class="s2">"arnal"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"phraseID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"arnal"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"droplistID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shop_arnal"</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

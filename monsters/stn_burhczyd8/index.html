@@ -816,6 +816,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#combat-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combat stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -832,6 +851,40 @@
 
 
 <h1 id="burhczyd"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld2_8.png" /> Burhczyd<a class="headerlink" href="#burhczyd" title="Permanent link">&para;</a></h1>
+<div class="infobox">
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_8.png){ .sprite }</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monster ID</strong></td>
+<td><code>stn_burhczyd8</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>NPC</td>
+</tr>
+<tr>
+<td><strong>Class</strong></td>
+<td>Humanoid</td>
+</tr>
+<tr>
+<td><strong>HP</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Introduced</strong></td>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="combat-stats">Combat stats<a class="headerlink" href="#combat-stats" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -841,24 +894,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Class</td>
-<td>humanoid</td>
-</tr>
-<tr>
 <td>HP</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Move cost</td>
-<td>10</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Damage</td>
@@ -877,16 +914,94 @@
 <td>0</td>
 </tr>
 <tr>
+<td>Max AP</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Attack cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
+<td>Attacks per turn</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Move cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
 <td>Critical skill</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Critical multiplier</td>
-<td>0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Crit chance</td>
+<td>none (needs critical skill and a multiplier)</td>
 </tr>
 </tbody>
 </table>
-<p><small>Monster ID: <code>stn_burhczyd8</code> · Data from v0.8.18</small></p>
+<p><strong>XP formula</strong> (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.</p>
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monster ID</td>
+<td><code>stn_burhczyd8</code></td>
+</tr>
+<tr>
+<td>Spawn group</td>
+<td><code>stn_burhczyd8</code></td>
+</tr>
+<tr>
+<td>Loot table</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Conversation</td>
+<td><code>stn_burhczyd4</code></td>
+</tr>
+<tr>
+<td>Faction</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Movement</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td><code>monsters_ld2:8</code></td>
+</tr>
+<tr>
+<td>Defined in</td>
+<td><code>res/raw/monsterlist_stoutford_combined.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Raw data:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w"> </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stn_burhczyd8"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Burhczyd"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"iconID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monsters_ld2:8"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"unique"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"monsterClass"</span><span class="p">:</span><span class="w"> </span><span class="s2">"humanoid"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"phraseID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stn_burhczyd4"</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

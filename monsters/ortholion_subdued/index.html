@@ -823,10 +823,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#on-hit" class="md-nav__link">
+  <a href="#combat-stats" class="md-nav__link">
     <span class="md-ellipsis">
       
-        On hit
+        Combat stats
       
     </span>
   </a>
@@ -845,10 +845,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#found-on" class="md-nav__link">
+  <a href="#locations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Found on
+        Locations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quests-that-count-kills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests that count kills
       
     </span>
   </a>
@@ -956,6 +967,48 @@
 
 
 <h1 id="subdued-feygard-mountain-scout"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_omi2_11.png" /> Subdued Feygard mountain scout<a class="headerlink" href="#subdued-feygard-mountain-scout" title="Permanent link">&para;</a></h1>
+<div class="infobox">
+<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_11.png){ .sprite }</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monster ID</strong></td>
+<td><code>ortholion_subdued</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>NPC</td>
+</tr>
+<tr>
+<td><strong>Class</strong></td>
+<td>Humanoid</td>
+</tr>
+<tr>
+<td><strong>HP</strong></td>
+<td>191</td>
+</tr>
+<tr>
+<td><strong>XP when killed</strong></td>
+<td>396</td>
+</tr>
+<tr>
+<td><strong>Found in</strong></td>
+<td>Blackwater Mountain</td>
+</tr>
+<tr>
+<td><strong>Introduced</strong></td>
+<td><a href="../../versions/0.7.14/">v0.7.14</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="combat-stats">Combat stats<a class="headerlink" href="#combat-stats" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -965,24 +1018,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Class</td>
-<td>humanoid</td>
-</tr>
-<tr>
 <td>HP</td>
 <td>191</td>
-</tr>
-<tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>3</td>
-</tr>
-<tr>
-<td>Move cost</td>
-<td>10</td>
 </tr>
 <tr>
 <td>Damage</td>
@@ -1001,6 +1038,22 @@
 <td>5</td>
 </tr>
 <tr>
+<td>Max AP</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Attack cost</td>
+<td>3 AP</td>
+</tr>
+<tr>
+<td>Attacks per turn</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Move cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
 <td>Critical skill</td>
 <td>20</td>
 </tr>
@@ -1008,12 +1061,16 @@
 <td>Critical multiplier</td>
 <td>3.0</td>
 </tr>
+<tr>
+<td>Crit chance</td>
+<td>15%</td>
+</tr>
 </tbody>
 </table>
-<h2 id="on-hit">On hit<a class="headerlink" href="#on-hit" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>On target:</strong> Icy wounds (magnitude 1, 3 rounds, 20% chance)</li>
-</ul>
+<p><strong>On hit:</strong> On target: Icy wounds (magnitude 1, 3 rounds, 20% chance)</p>
+<p><strong>XP formula</strong> (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.</p>
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 <h2 id="drops">Drops<a class="headerlink" href="#drops" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1071,9 +1128,28 @@
 </tr>
 </tbody>
 </table>
-<h2 id="found-on">Found on<a class="headerlink" href="#found-on" title="Permanent link">&para;</a></h2>
+<h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>Region</th>
+<th>Up to</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../maps/blackwater_mountain32/">blackwater_mountain32</a></td>
+<td>Blackwater Mountain</td>
+<td>1</td>
+<td>appears later in a quest</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quests-that-count-kills">Quests that count kills<a class="headerlink" href="#quests-that-count-kills" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../maps/blackwater_mountain32/">blackwater_mountain32</a></li>
+<li><a href="../../quests/Omi2_bwm1/#stage-41">Climbing up is forbidden</a> with stepping on a trigger on <a href="../../maps/blackwater_mountain32/">blackwater_mountain32</a> checks that you've killed at least 1</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
 <p>Set up your situation (quest stages, items, kills…), then talk to Subdued Feygard mountain scout. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
@@ -1130,7 +1206,87 @@
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_subdued.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
 <h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
 <p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_subdued.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
-<p><small>Monster ID: <code>ortholion_subdued</code> · Data from v0.8.18</small></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monster ID</td>
+<td><code>ortholion_subdued</code></td>
+</tr>
+<tr>
+<td>Spawn group</td>
+<td><code>ortholion_subdued</code></td>
+</tr>
+<tr>
+<td>Loot table</td>
+<td><code>ortholion_subdued</code></td>
+</tr>
+<tr>
+<td>Conversation</td>
+<td><code>ortholion_subdued_1</code></td>
+</tr>
+<tr>
+<td>Faction</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Movement</td>
+<td>protectSpawn</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td><code>monsters_omi2:11</code></td>
+</tr>
+<tr>
+<td>Defined in</td>
+<td><code>res/raw/monsterlist_omi2.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Raw data:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w"> </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ortholion_subdued"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Subdued Feygard mountain scout"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"iconID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monsters_omi2:11"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"maxHP"</span><span class="p">:</span><span class="w"> </span><span class="mi">191</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"maxAP"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"unique"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"monsterClass"</span><span class="p">:</span><span class="w"> </span><span class="s2">"humanoid"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"movementAggressionType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"protectSpawn"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackDamage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
+<span class="w"> </span><span class="p">},</span>
+<span class="w"> </span><span class="nt">"spawnGroup"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ortholion_subdued"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"phraseID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ortholion_subdued_1"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"droplistID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ortholion_subdued"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackCost"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackChance"</span><span class="p">:</span><span class="w"> </span><span class="mi">150</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"criticalSkill"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"criticalMultiplier"</span><span class="p">:</span><span class="w"> </span><span class="mf">3.0</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"blockChance"</span><span class="p">:</span><span class="w"> </span><span class="mi">95</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"damageResistance"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"hitEffect"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">"conditionsTarget"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">   </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"condition"</span><span class="p">:</span><span class="w"> </span><span class="s2">"frozen2"</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"magnitude"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"duration"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"chance"</span><span class="p">:</span><span class="w"> </span><span class="s2">"20"</span>
+<span class="w">   </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="w"> </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 

@@ -823,10 +823,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#found-on" class="md-nav__link">
+  <a href="#combat-stats" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Found on
+        Combat stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Locations
       
     </span>
   </a>
@@ -841,6 +852,67 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trivia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trivia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theory-speculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory / speculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -862,6 +934,48 @@
 
 
 <h1 id="angry-skeleton"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik8_38.png" /> Angry skeleton<a class="headerlink" href="#angry-skeleton" title="Permanent link">&para;</a></h1>
+<div class="infobox">
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_38.png){ .sprite }</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monster ID</strong></td>
+<td><code>ratdom_skel_dance24</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Enemy</td>
+</tr>
+<tr>
+<td><strong>Class</strong></td>
+<td>Undead</td>
+</tr>
+<tr>
+<td><strong>HP</strong></td>
+<td>80</td>
+</tr>
+<tr>
+<td><strong>XP when killed</strong></td>
+<td>107</td>
+</tr>
+<tr>
+<td><strong>Found in</strong></td>
+<td>Skeleton dance</td>
+</tr>
+<tr>
+<td><strong>Introduced</strong></td>
+<td><a href="../../versions/0.8.5/">v0.8.5</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="combat-stats">Combat stats<a class="headerlink" href="#combat-stats" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -871,24 +985,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Class</td>
-<td>undead</td>
-</tr>
-<tr>
 <td>HP</td>
 <td>80</td>
-</tr>
-<tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Move cost</td>
-<td>10</td>
 </tr>
 <tr>
 <td>Damage</td>
@@ -907,19 +1005,57 @@
 <td>0</td>
 </tr>
 <tr>
+<td>Max AP</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Attack cost</td>
+<td>5 AP</td>
+</tr>
+<tr>
+<td>Attacks per turn</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Move cost</td>
+<td>10 AP</td>
+</tr>
+<tr>
 <td>Critical skill</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Critical multiplier</td>
-<td>0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Crit chance</td>
+<td>none (needs critical skill and a multiplier)</td>
 </tr>
 </tbody>
 </table>
-<h2 id="found-on">Found on<a class="headerlink" href="#found-on" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../maps/ratdom_maze_543d/">ratdom_maze_543d</a></li>
-</ul>
+<p><strong>XP formula</strong> (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.</p>
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+<h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>Region</th>
+<th>Up to</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../maps/ratdom_maze_543d/">ratdom_maze_543d</a></td>
+<td>Skeleton dance</td>
+<td>25</td>
+<td>appears later in a quest</td>
+</tr>
+</tbody>
+</table>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -937,7 +1073,80 @@
 </table>
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<p><small>Monster ID: <code>ratdom_skel_dance24</code> · Data from v0.8.18</small></p>
+<h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
+<p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_skel_dance24.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="lore">Lore<a class="headerlink" href="#lore" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_skel_dance24.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="trivia">Trivia<a class="headerlink" href="#trivia" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_skel_dance24.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<h3 id="theory-speculation">Theory / speculation<a class="headerlink" href="#theory-speculation" title="Permanent link">&para;</a></h3>
+<p><em>Nothing here yet. Know something? <a href="https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_skel_dance24.md&amp;value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A">Add it</a>.</em></p>
+<details class="info">
+<summary>Technical information</summary>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monster ID</td>
+<td><code>ratdom_skel_dance24</code></td>
+</tr>
+<tr>
+<td>Spawn group</td>
+<td><code>ratdom_skel_dance2_grp</code></td>
+</tr>
+<tr>
+<td>Loot table</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Conversation</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Faction</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Movement</td>
+<td>helpOthers</td>
+</tr>
+<tr>
+<td>Icon</td>
+<td><code>monsters_tometik8:38</code></td>
+</tr>
+<tr>
+<td>Defined in</td>
+<td><code>res/raw/monsterlist_ratdom.json</code></td>
+</tr>
+</tbody>
+</table>
+<p>Raw data:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w"> </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ratdom_skel_dance24"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Angry skeleton"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"iconID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monsters_tometik8:38"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"maxHP"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"unique"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"monsterClass"</span><span class="p">:</span><span class="w"> </span><span class="s2">"undead"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"movementAggressionType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"helpOthers"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackDamage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span>
+<span class="w"> </span><span class="p">},</span>
+<span class="w"> </span><span class="nt">"spawnGroup"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ratdom_skel_dance2_grp"</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackCost"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">"attackChance"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><small>Data from v0.8.18</small></p>
 
 
 
