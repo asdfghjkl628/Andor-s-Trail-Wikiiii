@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -827,6 +827,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -994,7 +1005,7 @@
 </ul>
 <p><span id="d-arcir_books_1"></span><strong><code>arcir_books_1</code></strong> Arcir: “I find great pleasure in my books. They contain the accumulated knowledge of past generations.”</p>
 <ul>
-<li>“Do you have a book called 'Calomyran Secrets'?” <em>(if reached stage 10 of <a href="../quests/calomyran.md#stage-10">calomyran (hidden flag)</a>)</em> → <a href="#d-arcir_calomyran_select">arcir_calomyran_select</a></li>
+<li>“Do you have a book called 'Calomyran Secrets'?” <em>(if reached stage 10 of <a href="../../quests/calomyran/#stage-10">Calomyran secrets</a>)</em> → <a href="#d-arcir_calomyran_select">arcir_calomyran_select</a></li>
 <li>“OK.” → <a href="#d-arcir_anythingelse">arcir_anythingelse</a></li>
 <li>“I have found some valuable-looking map. Want to have a look?” <em>(if carry 1× <a href="../../items/inspiring_snake_master_map/">Ewmondold's map</a>; killed 1× <a href="../ewmondold_snake_master/">Ewmondold</a>)</em> → <a href="#d-arcir_books_rares_map">arcir_books_rares_map</a></li>
 <li>“I have found a strange book about slavery. Interested?” <em>(if carry 1× <a href="../../items/ratdom_book/">Nasty looking book</a>)</em> → <a href="#d-arcir_books_rares_book1">arcir_books_rares_book1</a></li>
@@ -1036,8 +1047,8 @@
 </ul>
 <p><span id="d-arcir_calomyran_select"></span><strong><code>arcir_calomyran_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/calomyran.md#stage-100">calomyran (hidden flag)</a>)</em> → <a href="#d-arcir_calomyran_complete">arcir_calomyran_complete</a></li>
-<li>branch 2 <em>(if reached stage 20 of <a href="../quests/calomyran.md#stage-20">calomyran (hidden flag)</a>)</em> → <a href="#d-arcir_calomyran_5">arcir_calomyran_5</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/calomyran/#stage-100">Calomyran secrets</a>)</em> → <a href="#d-arcir_calomyran_complete">arcir_calomyran_complete</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/calomyran/#stage-20">Calomyran secrets</a>)</em> → <a href="#d-arcir_calomyran_5">arcir_calomyran_5</a></li>
 <li>branch 3 → <a href="#d-arcir_calomyran_1">arcir_calomyran_1</a></li>
 </ul>
 <p><span id="d-arcir_books_rares_map"></span><strong><code>arcir_books_rares_map</code></strong> Arcir: “Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it.”</p>
@@ -1111,6 +1122,39 @@
 <li>Next → <a href="#d-arcir_anythingelse">arcir_anythingelse</a></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.17/">v0.7.17</a></td>
+<td>Dialogue: 1 line added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.11/">v0.8.11</a></td>
+<td>Dialogue: 8 lines added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 8 lines added, 2 lines changed</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

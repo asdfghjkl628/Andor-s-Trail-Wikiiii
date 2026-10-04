@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>3</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1020,6 +1031,7 @@
 <ul>
 <li>NOT reached stage 10 of <a href="./#stage-10">A familiar shadow</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1035,6 +1047,16 @@
 <td>Requires</td>
 <td><a href="../Thieves01/#stage-60">Thief apprentice</a></td>
 <td>stage 60 reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../leta/#stage-100">Missing husband</a></td>
+<td>stage 100 reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-10">Breakfast bread</a></td>
+<td>stage 10 reached, for stage 30 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1123,6 +1145,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1134,7 +1157,7 @@
 <details class="note" open="open">
 <summary>Stage 10: 1 route</summary>
 <ol>
-<li>walking into a blocked passage on <a href="../../maps/galmore_32/">galmore_32</a> → choose “[Touch the stone.]” — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">A familiar shadow</a>; reached stage 60 of <a href="../Thieves01/#stage-60">Thief apprentice</a>; reached stage 100 of <a href="../quests/leta.md#stage-100">leta (hidden flag)</a>; reached stage 10 of <a href="../postman/#stage-10">You're the postman</a> → <strong>stage 10</strong>; also applies condition pull_of_the_mark, applies condition fear, removes monsters from galmore_32, removes monsters from galmore_32. NPC: “The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and…”</li>
+<li>walking into a blocked passage on <a href="../../maps/galmore_32/">galmore_32</a> → choose “[Touch the stone.]” — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">A familiar shadow</a>; reached stage 60 of <a href="../Thieves01/#stage-60">Thief apprentice</a>; reached stage 100 of <a href="../leta/#stage-100">Missing husband</a>; reached stage 10 of <a href="../postman/#stage-10">You're the postman</a> → <strong>stage 10</strong>; also applies condition pull_of_the_mark, applies condition fear, removes monsters from galmore_32, removes monsters from galmore_32. NPC: “The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1146,7 +1169,7 @@
 <details class="note" open="open">
 <summary>Stage 30: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “I don't know...something feels wrong. I thought maybe you were in danger.” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; latest stage of <a href="./#stage-20">A familiar shadow</a> is 20 → <strong>stage 30</strong>. NPC: “What's gotten into you? I'm fine, but the same can't be said for Leta. I've seen her pacing in that house of hers,…”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “I don't know...something feels wrong. I thought maybe you were in danger.” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; latest stage of <a href="./#stage-20">A familiar shadow</a> is 20 → <strong>stage 30</strong>. NPC: “What's gotten into you? I'm fine, but the same can't be said for Leta. I've seen her pacing in that house of hers,…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1174,6 +1197,25 @@
 <li>Talk to <a href="../../monsters/old_oromir/">Old Oromir</a> (<a href="../../maps/crossglen_farmhouse/">crossglen_farmhouse</a>) → choose “I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?” — <strong>conditions:</strong> latest stage of <a href="./#stage-60">A familiar shadow</a> is 60 → <strong>stage 70</strong>. NPC: “While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Added<br>Dialogue: 8 lines added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

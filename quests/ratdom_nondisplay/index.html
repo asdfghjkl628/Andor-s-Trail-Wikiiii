@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>9</td>
+<td>11</td>
 </tr>
 </tbody>
 </table>
@@ -1022,13 +1033,14 @@
 <li>NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a></li>
 <li>NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a></li>
 <li>NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a></li>
-<li>reached stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a></li>
-<li>reached stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a></li>
+<li>reached stage 100 of <a href="../odair/#stage-100">Rat infestation</a></li>
+<li>reached stage 30 of <a href="../bonemeal/#stage-30">Disallowed substance</a></li>
 <li>reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a></li>
 <li>reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a></li>
 <li>reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a></li>
 <li>have 9,000 gold</li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1047,6 +1059,11 @@
 </tr>
 <tr>
 <td>Requires</td>
+<td><a href="../bonemeal/#stage-30">Disallowed substance</a></td>
+<td>stage 30 reached, for stages 1, 2, 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
 <td><a href="../charwood1/#stage-115">Destined for great things</a></td>
 <td>stage 115 reached, for stages 1, 2, 10 here</td>
 </tr>
@@ -1054,6 +1071,11 @@
 <td>Requires</td>
 <td><a href="../lodar2/#stage-60">Searching for madness</a></td>
 <td>stage 60 reached, for stages 1, 2, 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../odair/#stage-100">Rat infestation</a></td>
+<td>stage 100 reached, for stages 1, 2, 10 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1842,19 +1864,20 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 1: 1 route</summary>
 <ol>
-<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a>; reached stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 1</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
+<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../odair/#stage-100">Rat infestation</a>; reached stage 30 of <a href="../bonemeal/#stage-30">Disallowed substance</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 1</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 2: 1 route</summary>
 <ol>
-<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a>; reached stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 2</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
+<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../odair/#stage-100">Rat infestation</a>; reached stage 30 of <a href="../bonemeal/#stage-30">Disallowed substance</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 2</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1867,7 +1890,7 @@
 <summary>Stage 10: 2 routes</summary>
 <ol>
 <li>stepping on a trigger on <a href="../../maps/ratdom_maze1/">ratdom_maze1</a> → choose “OK, let us try again to find it.” — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">ratdom_nondisplay (hidden flag)</a>; reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a> → <strong>stage 10</strong>; also clears stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>, sets stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>, clears stage 13 of <a href="./#stage-13">ratdom_nondisplay (hidden flag)</a>, clears stage 21 of <a href="./#stage-21">ratdom_nondisplay (hidden flag)</a>, clears stage 22 of <a href="./#stage-22">ratdom_nondisplay (hidden flag)</a>, clears stage 23 of <a href="./#stage-23">ratdom_nondisplay (hidden flag)</a>, spawns monsters on ratdom_maze_627. NPC: “Great - then let's go!”</li>
-<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../quests/odair.md#stage-100">odair (hidden flag)</a>; reached stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 10</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
+<li>stepping on a trigger on <a href="../../maps/home/">home</a> → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">ratdom_nondisplay (hidden flag)</a>; NOT reached stage 940 of <a href="../ratdom_quest/#stage-940">Yellow is it</a>; NOT reached stage 942 of <a href="../ratdom_quest/#stage-942">Yellow is it</a>; NOT reached stage 999 of <a href="../ratdom_quest/#stage-999">Yellow is it</a>; reached stage 100 of <a href="../odair/#stage-100">Rat infestation</a>; reached stage 30 of <a href="../bonemeal/#stage-30">Disallowed substance</a>; reached stage 60 of <a href="../lodar2/#stage-60">Searching for madness</a>; reached stage 115 of <a href="../charwood1/#stage-115">Destined for great things</a>; reached stage 190 of <a href="../stn_colonel/#stage-190">Colonel Lutarc</a>; have 9,000 gold → <strong>stage 10</strong>; also sets stage 10 of <a href="../ratdom_quest/#stage-10">Yellow is it</a>, changes map home, spawns monsters on home, spawns monsters on home, spawns monsters on crossglen_cave, spawns monsters on crossglen, spawns monsters on crossglen, spawns monsters on crossglen, changes map crossglen, starts timer “ratdom_rat_eatme”, starts timer “ratdom_rat_drinkme”, starts timer “ratdom_compass_tour”, starts timer “ratdom_compass_bwm”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -2373,6 +2396,37 @@
 <li>Talk to <a href="../../monsters/ratdom_rat_warden/">Wart</a> (<a href="../../maps/ratdom_maze_624/">ratdom_maze_624</a>) → choose “Oh thank you! Here is the gold.” — <strong>conditions:</strong> reached stage 310 of <a href="../ratdom_quest/#stage-310">Yellow is it</a>; NOT reached stage 390 of <a href="../ratdom_quest/#stage-390">Yellow is it</a>; NOT have 5,555 gold; NOT reached stage 192 of <a href="./#stage-192">ratdom_nondisplay (hidden flag)</a>; pay 100 gold → <strong>stage 192</strong>; also gives 1× <a href="../../items/ratdom_compass_tour/">Orange rat necklace</a></li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.5/">v0.8.5</a></td>
+<td>Added<br>Dialogue: 153 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.6/">v0.8.6</a></td>
+<td>Dialogue: 1 line changed<br>· text: “Wait! This could be a trap!” → “Wait! I know this place - it is Flora's fountain. This could be a tra…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 1 line changed<br>· text: “This is a lot of money for our museum. But here you have 1000 gold.” → “This is a lot of money for our museum. But here you have {1000} gold.”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1037,6 +1048,7 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/place_to_forge/">A place to forge</a>: stages 10, 20, 60</li>
+<li><a href="../../quests/nocmar/">Lost treasures</a>: stages 20, 30, 48, 80, 90, 100, 200</li>
 <li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 10, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39</li>
 </ul>
 <details class="quote">
@@ -1044,15 +1056,15 @@
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-nocmar_selector"></span><strong><code>nocmar_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar">nocmar</a></li>
-<li>branch 2 <em>(if latest stage of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a> is 90)</em> → <a href="#d-nocmar_forge_10">nocmar_forge_10</a></li>
-<li>branch 3 <em>(if latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100)</em> → <a href="#d-nocmar_forge_one_item_10">nocmar_forge_one_item_10</a></li>
-<li>branch 4 <em>(if reached stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar_post_heartsteel_10">nocmar_post_heartsteel_10</a></li>
+<li>branch 1 <em>(if NOT reached stage 90 of <a href="../../quests/nocmar/#stage-90">Lost treasures</a>)</em> → <a href="#d-nocmar">nocmar</a></li>
+<li>branch 2 <em>(if latest stage of <a href="../../quests/nocmar/#stage-90">Lost treasures</a> is 90)</em> → <a href="#d-nocmar_forge_10">nocmar_forge_10</a></li>
+<li>branch 3 <em>(if latest stage of <a href="../../quests/nocmar/#stage-100">Lost treasures</a> is 100)</em> → <a href="#d-nocmar_forge_one_item_10">nocmar_forge_one_item_10</a></li>
+<li>branch 4 <em>(if reached stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>)</em> → <a href="#d-nocmar_post_heartsteel_10">nocmar_post_heartsteel_10</a></li>
 </ul>
 <p><span id="d-nocmar"></span><strong><code>nocmar</code></strong> Nocmar: “Hello and welcome to my place.”</p>
 <ul>
 <li>“This place looks like a smithy. Do you have anything to trade?” → <a href="#d-nocmar_trade_select">nocmar_trade_select</a></li>
-<li>“Unnmir sent me.” <em>(if reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/place_to_forge/#stage-60">A place to forge</a>)</em> → <a href="#d-nocmar_quest_select">nocmar_quest_select</a></li>
+<li>“Unnmir sent me.” <em>(if reached stage 10 of <a href="../../quests/nocmar/#stage-10">Lost treasures</a>; NOT reached stage 60 of <a href="../../quests/place_to_forge/#stage-60">A place to forge</a>)</em> → <a href="#d-nocmar_quest_select">nocmar_quest_select</a></li>
 <li>“Bye.” → <em>conversation ends</em></li>
 <li>“What will you do now?” <em>(if reached stage 60 of <a href="../../quests/place_to_forge/#stage-60">A place to forge</a>)</em> → <a href="#d-nocmar_deed_receive_10">nocmar_deed_receive_10</a></li>
 </ul>
@@ -1076,16 +1088,16 @@
 <p><span id="d-nocmar_post_heartsteel_10"></span><strong><code>nocmar_post_heartsteel_10</code></strong> Nocmar: “This place is a mess, I have a lot of work ahead of me to make this place usable.”</p>
 <p><span id="d-nocmar_trade_select"></span><strong><code>nocmar_trade_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>)</em> → <em>shop opens</em></li>
+<li>branch 1 <em>(if reached stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>)</em> → <em>shop opens</em></li>
 <li>branch 2 → <a href="#d-nocmar_trade_1">nocmar_trade_1</a></li>
 </ul>
 <p><span id="d-nocmar_quest_select"></span><strong><code>nocmar_quest_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar_complete_5">nocmar_complete_5</a></li>
-<li>branch 2 <em>(if reached stage 20 of <a href="../quests/nocmar.md#stage-20">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar_continue">nocmar_continue</a></li>
+<li>branch 1 <em>(if reached stage 80 of <a href="../../quests/nocmar/#stage-80">Lost treasures</a>)</em> → <a href="#d-nocmar_complete_5">nocmar_complete_5</a></li>
+<li>branch 2 <em>(if reached stage 20 of <a href="../../quests/nocmar/#stage-20">Lost treasures</a>)</em> → <a href="#d-nocmar_continue">nocmar_continue</a></li>
 <li>branch 3 → <a href="#d-nocmar_quest">nocmar_quest</a></li>
 </ul>
-<p><span id="d-nocmar_deed_receive_10"></span><strong><code>nocmar_deed_receive_10</code></strong> Nocmar: “Meet me at the white house south of town. The lock will no longer bar your entry. I must prepare the forge and make certain the place is safe.” — <strong>effects:</strong> sets stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>, removes monsters from fallhaven_nocmar</p>
+<p><span id="d-nocmar_deed_receive_10"></span><strong><code>nocmar_deed_receive_10</code></strong> Nocmar: “Meet me at the white house south of town. The lock will no longer bar your entry. I must prepare the forge and make certain the place is safe.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/nocmar/#stage-90">Lost treasures</a>, removes monsters from fallhaven_nocmar</p>
 <p><span id="d-nocmar_dragon_reveal_10"></span><strong><code>nocmar_dragon_reveal_10</code></strong> Nocmar: “Below this floor lies more than stone and ash. A dragon slumbers beneath, bound by the magic of this place since long before my time. Its breath seeps upward through cracks in the rock, feeding the forge with endless heat.”</p>
 <ul>
 <li>Next → <a href="#d-nocmar_dragon_reveal_10a">nocmar_dragon_reveal_10a</a></li>
@@ -1156,7 +1168,7 @@
 <li>“Yes, at last I found it.” <em>(if hand over 1× <a href="../../items/heartstone/">Heartstone</a>; NOT carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a>)</em> → <a href="#d-nocmar_complete">nocmar_complete</a></li>
 <li>“[while shaking your head] It's in your hand.” <em>(if reached stage 10 of <a href="../../quests/undertell_hidden/#stage-10">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_complete_2">nocmar_complete_2</a></li>
 </ul>
-<p><span id="d-nocmar_quest"></span><strong><code>nocmar_quest</code></strong> Nocmar: “Unnmir sent you huh? I guess it must be important then.” — <strong>effects:</strong> sets stage 20 of <a href="../quests/nocmar.md#stage-20">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_quest"></span><strong><code>nocmar_quest</code></strong> Nocmar: “Unnmir sent you huh? I guess it must be important then.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/nocmar/#stage-20">Lost treasures</a></p>
 <ul>
 <li>Next → <a href="#d-nocmar_quest_1">nocmar_quest_1</a></li>
 </ul>
@@ -1170,35 +1182,35 @@
 <li>“Yeah, I'm sure. Thanks anyway.” → <a href="#d-nocmar_no_weapon_15">nocmar_no_weapon_15</a></li>
 <li>“Umm, no, I am not so sure. Maybe I do want one.” → <a href="#d-nocmar_forge_one_item_picked_10">nocmar_forge_one_item_picked_10</a></li>
 </ul>
-<p><span id="d-nocmar_claymore_20"></span><strong><code>nocmar_claymore_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it. And tell no one where you got this.” — <strong>effects:</strong> gives 1× <a href="../../items/heartstone_2h_sword/">Heartsteel claymore</a>, sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_claymore_20"></span><strong><code>nocmar_claymore_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it. And tell no one where you got this.” — <strong>effects:</strong> gives 1× <a href="../../items/heartstone_2h_sword/">Heartsteel claymore</a>, sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_onehanded_20"></span><strong><code>nocmar_onehanded_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_1h_sword/">Heartsteel warblade</a></p>
+<p><span id="d-nocmar_onehanded_20"></span><strong><code>nocmar_onehanded_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_1h_sword/">Heartsteel warblade</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_dagger_20"></span><strong><code>nocmar_dagger_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_dagger/">Heartsteel dagger</a></p>
+<p><span id="d-nocmar_dagger_20"></span><strong><code>nocmar_dagger_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_dagger/">Heartsteel dagger</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_glaive_20"></span><strong><code>nocmar_glaive_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_glaive/">Heartsteel trident</a></p>
+<p><span id="d-nocmar_glaive_20"></span><strong><code>nocmar_glaive_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_glaive/">Heartsteel trident</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_greateaxe_20"></span><strong><code>nocmar_greateaxe_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_greataxe/">Heartsteel greataxe</a></p>
+<p><span id="d-nocmar_greateaxe_20"></span><strong><code>nocmar_greateaxe_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_greataxe/">Heartsteel greataxe</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_handaxe_20"></span><strong><code>nocmar_handaxe_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_handaxe/">Heartsteel handaxe</a></p>
+<p><span id="d-nocmar_handaxe_20"></span><strong><code>nocmar_handaxe_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_handaxe/">Heartsteel handaxe</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_mace_20"></span><strong><code>nocmar_mace_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_mace/">Heartsteel mace</a></p>
+<p><span id="d-nocmar_mace_20"></span><strong><code>nocmar_mace_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_mace/">Heartsteel mace</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-nocmar_bladeBreaker_20"></span><strong><code>nocmar_bladeBreaker_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, gives 1× <a href="../../items/heartstone_blade_breaker/">Heartsteel blade breaker</a></p>
+<p><span id="d-nocmar_bladeBreaker_20"></span><strong><code>nocmar_bladeBreaker_20</code></strong> Nocmar: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, gives 1× <a href="../../items/heartstone_blade_breaker/">Heartsteel blade breaker</a></p>
 <ul>
 <li>“Thank you. I will guard it.” → <em>conversation ends</em></li>
 </ul>
@@ -1215,7 +1227,7 @@
 <ul>
 <li>“What will you do now?” → <a href="#d-nocmar_deed_receive_10">nocmar_deed_receive_10</a></li>
 </ul>
-<p><span id="d-nocmar_unrefined_stone_10"></span><strong><code>nocmar_unrefined_stone_10</code></strong> Nocmar: “Well, I can tell from here that it is unrefined. Still forming. No heartsteel can be forged from this. If you tried, the forge would sputter and crack. Return it back where you found it, it will continue drawing heat and pressure from the…” — <strong>effects:</strong> sets stage 48 of <a href="../quests/nocmar.md#stage-48">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_unrefined_stone_10"></span><strong><code>nocmar_unrefined_stone_10</code></strong> Nocmar: “Well, I can tell from here that it is unrefined. Still forming. No heartsteel can be forged from this. If you tried, the forge would sputter and crack. Return it back where you found it, it will continue drawing heat and pressure from the…” — <strong>effects:</strong> sets stage 48 of <a href="../../quests/nocmar/#stage-48">Lost treasures</a></p>
 <p><span id="d-nocmar_quest_1"></span><strong><code>nocmar_quest_1</code></strong> Nocmar: “OK, these old weapons have lost their inner glow now that they haven't been used in a while.”</p>
 <ul>
 <li>Next → <a href="#d-nocmar_quest_2">nocmar_quest_2</a></li>
@@ -1235,13 +1247,13 @@
 </ul>
 <p><span id="d-nocmar_dragon_reveal_15"></span><strong><code>nocmar_dragon_reveal_15</code></strong> Nocmar: “Aye. The forge's light is fed by its breath, not by any flame of mine.”</p>
 <ul>
-<li>Next <em>(if NOT reached stage 100 of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar_dragon_reveal_20">nocmar_dragon_reveal_20</a></li>
+<li>Next <em>(if NOT reached stage 100 of <a href="../../quests/nocmar/#stage-100">Lost treasures</a>)</em> → <a href="#d-nocmar_dragon_reveal_20">nocmar_dragon_reveal_20</a></li>
 </ul>
 <p><span id="d-nocmar_dragon_reveal_17"></span><strong><code>nocmar_dragon_reveal_17</code></strong> Nocmar: “Aye. Respect it and it respects us. Disturb it and you wake things that cannot be bargained with. That is why I will work here and not in my shop.”</p>
 <ul>
-<li>Next <em>(if NOT reached stage 100 of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a>)</em> → <a href="#d-nocmar_dragon_reveal_20">nocmar_dragon_reveal_20</a></li>
+<li>Next <em>(if NOT reached stage 100 of <a href="../../quests/nocmar/#stage-100">Lost treasures</a>)</em> → <a href="#d-nocmar_dragon_reveal_20">nocmar_dragon_reveal_20</a></li>
 </ul>
-<p><span id="d-nocmar_no_weapon_15"></span><strong><code>nocmar_no_weapon_15</code></strong> Nocmar: “Okay.” — <strong>effects:</strong> sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>, sets stage 38 of <a href="../../quests/undertell_hidden/#stage-38">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_no_weapon_15"></span><strong><code>nocmar_no_weapon_15</code></strong> Nocmar: “Okay.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, sets stage 38 of <a href="../../quests/undertell_hidden/#stage-38">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
 <p><span id="d-nocmar_trade_3"></span><strong><code>nocmar_trade_3</code></strong> Nocmar: “By decree of Lord Geomyr, no one in Fallhaven is allowed to even use heartsteel weapons. Much less sell any.”</p>
 <ul>
 <li>Next → <a href="#d-nocmar_trade_4">nocmar_trade_4</a></li>
@@ -1259,15 +1271,15 @@
 <ul>
 <li>Next → <a href="#d-nocmar_quest_3">nocmar_quest_3</a></li>
 </ul>
-<p><span id="d-nocmar_two_stones_11"></span><strong><code>nocmar_two_stones_11</code></strong> Nocmar: “Return it back where you found it, it will continue drawing heat and pressure from the Rift, hardening over years. But taken from its cradle? It will never become whole. You must return it to the exact place you found it.” — <strong>effects:</strong> sets stage 48 of <a href="../quests/nocmar.md#stage-48">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_two_stones_11"></span><strong><code>nocmar_two_stones_11</code></strong> Nocmar: “Return it back where you found it, it will continue drawing heat and pressure from the Rift, hardening over years. But taken from its cradle? It will never become whole. You must return it to the exact place you found it.” — <strong>effects:</strong> sets stage 48 of <a href="../../quests/nocmar/#stage-48">Lost treasures</a></p>
 <ul>
 <li>“What about this other one? [showing Nocmar the stone in your left hand]” <em>(if hand over 1× <a href="../../items/heartstone/">Heartstone</a>)</em> → <a href="#d-nocmar_complete">nocmar_complete</a></li>
 </ul>
-<p><span id="d-nocmar_complete_3"></span><strong><code>nocmar_complete_3</code></strong> <a href="./">Nocmar</a>: “But no, I cannot work it here. Too many eyes, too many whispers. If I were caught forging heartsteel in this shop, it would mean ruin for me. I need a place that is safe, hidden, yet...proper. Somewhere I can work without Lord Geomyr's…” — <strong>effects:</strong> sets stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_complete_3"></span><strong><code>nocmar_complete_3</code></strong> <a href="./">Nocmar</a>: “But no, I cannot work it here. Too many eyes, too many whispers. If I were caught forging heartsteel in this shop, it would mean ruin for me. I need a place that is safe, hidden, yet...proper. Somewhere I can work without Lord Geomyr's…” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/nocmar/#stage-80">Lost treasures</a></p>
 <ul>
 <li>Next → <a href="#d-nocmar_complete_4">nocmar_complete_4</a></li>
 </ul>
-<p><span id="d-nocmar_dragon_reveal_20"></span><strong><code>nocmar_dragon_reveal_20</code></strong> Nocmar: “Now, you brought one cooled heartstone. We can forge only one item from it.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_dragon_reveal_20"></span><strong><code>nocmar_dragon_reveal_20</code></strong> Nocmar: “Now, you brought one cooled heartstone. We can forge only one item from it.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/nocmar/#stage-100">Lost treasures</a></p>
 <ul>
 <li>Next → <a href="#d-nocmar_forge_one_item_10">nocmar_forge_one_item_10</a></li>
 </ul>
@@ -1303,11 +1315,40 @@
 </ul>
 <p><span id="d-nocmar_trade_5"></span><strong><code>nocmar_trade_5</code></strong> Nocmar: “So, unfortunately I can't sell you any of my weapons.”</p>
 <p><span id="d-nocmar_quest_5"></span><strong><code>nocmar_quest_5</code></strong> Nocmar: “Beware the liches of Undertell, if they are still around. Those things can kill you by their gaze alone.”</p>
-<p><span id="d-nocmar_quest_4a"></span><strong><code>nocmar_quest_4a</code></strong> Nocmar: “Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.” — <strong>effects:</strong> sets stage 30 of <a href="../quests/nocmar.md#stage-30">nocmar (hidden flag)</a></p>
+<p><span id="d-nocmar_quest_4a"></span><strong><code>nocmar_quest_4a</code></strong> Nocmar: “Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/nocmar/#stage-30">Lost treasures</a></p>
 <ul>
 <li>Next → <a href="#d-nocmar_quest_5">nocmar_quest_5</a></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 7 lines changed<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…”<br>· text: “<em>Nocmar places the heartstone among the heartsteel weapons</em>” → “[Nocmar places the heartstone among the heartsteel weapons]”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”<br>· text: “By the Shadow. You actually found a heartstone. I thought I wouldn't …” → “So you truly have it? The heartstone...beautiful and intact. Remarkab…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

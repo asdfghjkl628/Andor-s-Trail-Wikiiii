@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>9</td>
+<td>10</td>
 </tr>
 </tbody>
 </table>
@@ -1017,6 +1028,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to walking into a blocked passage on <a href="../../maps/galmore_58/">galmore_58</a> to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1055,6 +1067,21 @@
 </tr>
 <tr>
 <td>Requires</td>
+<td><a href="../nocmar/#stage-10">Lost treasures</a></td>
+<td>stage 10 reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../nocmar/#stage-20">Lost treasures</a></td>
+<td>stage 20 reached, for stage 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../nocmar/#stage-100">Lost treasures</a></td>
+<td>stage 100 reached, for stages 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 here</td>
+</tr>
+<tr>
+<td>Requires</td>
 <td><a href="../sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a></td>
 <td>stage 2 reached, for stage 60 here</td>
 </tr>
@@ -1077,6 +1104,11 @@
 <td>Blocked by</td>
 <td><a href="../about_a_girl/#stage-80">About a girl</a></td>
 <td>stage 80 must NOT be reached, for stage 85 here</td>
+</tr>
+<tr>
+<td>Mutually exclusive</td>
+<td><a href="../nocmar/#stage-90">Lost treasures</a></td>
+<td>stage 90 must NOT be reached, for stage 10 here</td>
 </tr>
 <tr>
 <td>Blocked by</td>
@@ -1107,6 +1139,26 @@
 <td>Unlocks</td>
 <td><a href="../fifth_master/#stage-72">The fifth master</a></td>
 <td>stage 72 there needs stage 45 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nocmar/#stage-35">Lost treasures</a></td>
+<td>stage 35 there needs stage 3 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nocmar/#stage-80">Lost treasures</a></td>
+<td>stage 80 there needs stage 10 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nocmar/#stage-110">Lost treasures</a></td>
+<td>stage 110 there needs stages 38, 45 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nocmar/#stage-200">Lost treasures</a></td>
+<td>stage 200 there needs stages 25, 30, 31, 32, 33, 34, 35, 36, 37 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
@@ -1287,14 +1339,14 @@
 <td>38 = PC chose to forge no weapon.</td>
 <td><a href="../../monsters/nocmar/">Nocmar</a></td>
 <td>stage 25</td>
-<td>sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a></td>
+<td>sets stage 200 of <a href="../nocmar/#stage-200">Lost treasures</a></td>
 </tr>
 <tr>
 <td><span id="stage-39"></span>39</td>
 <td>39 = PC gave Nocmar an answer.</td>
 <td><a href="../../monsters/nocmar/">Nocmar</a></td>
 <td>stage 25, stage 30, stage 31, stage 32, stage 33, stage 34, stage 35, stage 36, stage 37</td>
-<td>sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a></td>
+<td>sets stage 200 of <a href="../nocmar/#stage-200">Lost treasures</a></td>
 </tr>
 <tr>
 <td><span id="stage-45"></span>45</td>
@@ -1452,7 +1504,8 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1488,7 +1541,7 @@
 <details class="note" open="open">
 <summary>Stage 10: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yes, at last I found it.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>; reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="../place_to_forge/#stage-60">A place to forge</a>; reached stage 20 of <a href="../quests/nocmar.md#stage-20">nocmar (hidden flag)</a>; hand over 1× <a href="../../items/heartstone/">Heartstone</a>; NOT carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a> → <strong>stage 10</strong>. NPC: “So you truly have it? The heartstone...beautiful and intact. Remarkable. You've done what few would dare. Can you see…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yes, at last I found it.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../nocmar/#stage-90">Lost treasures</a>; reached stage 10 of <a href="../nocmar/#stage-10">Lost treasures</a>; NOT reached stage 60 of <a href="../place_to_forge/#stage-60">A place to forge</a>; reached stage 20 of <a href="../nocmar/#stage-20">Lost treasures</a>; hand over 1× <a href="../../items/heartstone/">Heartstone</a>; NOT carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a> → <strong>stage 10</strong>. NPC: “So you truly have it? The heartstone...beautiful and intact. Remarkable. You've done what few would dare. Can you see…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1501,75 +1554,75 @@
 <details class="note" open="open">
 <summary>Stage 25: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “What?! I only get one? But how will I decide which one I want?” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100 → <strong>stage 25</strong>. NPC: “Oh, that's easier than you might think. Here, I will show you a list of the items and their capabilities. Then after…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “What?! I only get one? But how will I decide which one I want?” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100 → <strong>stage 25</strong>. NPC: “Oh, that's easier than you might think. Here, I will show you a list of the items and their capabilities. Then after…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 30: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 30</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 30</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 31: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 31</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 31</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 32: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 32</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 32</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 33: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 33</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 33</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 34: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 34</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 34</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 35: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 35</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 35</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 36: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 36</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 36</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 37: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 37</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 37</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 38: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 38</strong>; also sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>. NPC: “Okay.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 38</strong>; also sets stage 200 of <a href="../nocmar/#stage-200">Lost treasures</a>. NPC: “Okay.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 39: 9 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>; also sets stage 200 of <a href="../quests/nocmar.md#stage-200">nocmar (hidden flag)</a>. NPC: “Okay.”</li>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../quests/nocmar.md#stage-100">nocmar (hidden flag)</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the parrying weapon” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 37 of <a href="./#stage-37">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A parrying weapon it is. This will hinder your attacker's weapon.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the claymore.” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 30 of <a href="./#stage-30">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the dagger” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 32 of <a href="./#stage-32">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite.…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the glaive” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 33 of <a href="./#stage-33">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the greate axe” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 34 of <a href="./#stage-34">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the hand axe” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 35 of <a href="./#stage-35">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the mace” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 36 of <a href="./#stage-36">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Yeah, I'm sure. Thanks anyway.” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 25 of <a href="./#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="./#stage-39">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>; also sets stage 200 of <a href="../nocmar/#stage-200">Lost treasures</a>. NPC: “Okay.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “I chose the one-handed sword” — <strong>conditions:</strong> latest stage of <a href="../nocmar/#stage-100">Lost treasures</a> is 100; reached stage 31 of <a href="./#stage-31">hidden_undertell (hidden flag)</a> → <strong>stage 39</strong>. NPC: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1701,6 +1754,25 @@
 <li>Talk to <a href="../../monsters/brenor/">Brenor</a> (<a href="../../maps/undertell_1_0/">undertell_1_0</a>) → choose “Executioner's tool?” — <strong>conditions:</strong> wearing <a href="../items/#heartsteel_filter.md">#heartsteel_filter</a> → <strong>stage 100</strong>. NPC: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease,…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Added<br>Dialogue: 44 lines added, 1 line changed<br>· text: “By the Shadow. You actually found a heartstone. I thought I wouldn't …” → “So you truly have it? The heartstone...beautiful and intact. Remarkab…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

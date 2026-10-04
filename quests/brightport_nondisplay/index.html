@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1010,7 +1021,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>11</td>
+<td>13</td>
 </tr>
 </tbody>
 </table>
@@ -1021,6 +1032,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to <a href="../../monsters/brightportpriest/">Othinus</a> (<a href="../../maps/brightport_temple/">brightport_temple</a>) to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1081,6 +1093,16 @@
 <td>Requires</td>
 <td><a href="../Thieves04/#stage-10">Another ruthless Crackshot</a></td>
 <td>stage 10 reached, for stage 20 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-131">Search for Andor</a></td>
+<td>stage 131 reached, for stage 244 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-132">Search for Andor</a></td>
+<td>stage 132 reached, for stage 105 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1293,6 +1315,11 @@
 <td>stage 50 must NOT be reached, for stage 130 here</td>
 </tr>
 <tr>
+<td>Blocked by</td>
+<td><a href="../andor_ending/#stage-900">Excluded endings for the main quest andor (hidden flag)</a></td>
+<td>stage 900 must NOT be reached, for stage 35 here</td>
+</tr>
+<tr>
 <td>Mutually exclusive</td>
 <td><a href="../brightport_bakery/#stage-1">Bread and circus</a></td>
 <td>stage 1 must NOT be reached, for stage 157 here</td>
@@ -1317,24 +1344,9 @@
 <td><a href="../brightport_fiamma/#stage-25">Too hot to handle</a></td>
 <td>stage 25 must NOT be reached, for stages 175, 176, 177, 178, 179, 180, 181 here</td>
 </tr>
-<tr>
-<td>Mutually exclusive</td>
-<td><a href="../brightport_goons/#stage-40">Priceful vengeance</a></td>
-<td>stage 40 must NOT be reached, for stage 133 here</td>
-</tr>
-<tr>
-<td>Mutually exclusive</td>
-<td><a href="../brightport_goons/#stage-60">Priceful vengeance</a></td>
-<td>stage 60 must NOT be reached, for stages 136, 139, 141, 142, 143, 150, 156, 208, 211, 212, 234, 240 here</td>
-</tr>
-<tr>
-<td>Mutually exclusive</td>
-<td><a href="../brightport_goons/#stage-120">Priceful vengeance</a></td>
-<td>stage 120 must NOT be reached, for stages 139, 240 here</td>
-</tr>
 </tbody>
 </table>
-<p><em>…and 52 more.</em></p>
+<p><em>…and 60 more.</em></p>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1660,7 +1672,7 @@
 <td>andor story</td>
 <td><a href="../../monsters/brightportnpc7/">Bryma</a> (<a href="../../maps/brightport_forest/">brightport_forest</a>)</td>
 <td>–</td>
-<td>sets stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a></td>
+<td>sets stage 132 of <a href="../andor/#stage-132">Search for Andor</a></td>
 </tr>
 <tr>
 <td><span id="stage-106"></span>106</td>
@@ -2728,7 +2740,8 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -2784,7 +2797,7 @@
 <details class="note" open="open">
 <summary>Stage 35: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportbakery/">Hortensia</a> (<a href="../../maps/brightport_bakery/">brightport_bakery</a>) → choose “He has been missing for a while, and so my father sent me out to search for him. Have you seen him?” — <strong>conditions:</strong> NOT reached stage 900 of <a href="../quests/andor_ending.md#stage-900">andor_ending (hidden flag)</a> → <strong>stage 35</strong>. NPC: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find…”</li>
+<li>Talk to <a href="../../monsters/brightportbakery/">Hortensia</a> (<a href="../../maps/brightport_bakery/">brightport_bakery</a>) → choose “He has been missing for a while, and so my father sent me out to search for him. Have you seen him?” — <strong>conditions:</strong> NOT reached stage 900 of <a href="../andor_ending/#stage-900">Excluded endings for the main quest andor (hidden flag)</a> → <strong>stage 35</strong>. NPC: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -3036,7 +3049,7 @@
 <details class="note" open="open">
 <summary>Stage 105: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc7/">Bryma</a> (<a href="../../maps/brightport_forest/">brightport_forest</a>) → choose “Can you tell me about Andor again?” — <strong>conditions:</strong> reached stage 10 of <a href="../brightport_lizard/#stage-10">The balance of scales</a>; NOT reached stage 112 of <a href="./#stage-112">brightport_nondisplay (hidden flag)</a>; reached stage 105 of <a href="./#stage-105">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a> → <strong>stage 105</strong>; also sets stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>. NPC: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out…”</li>
+<li>Talk to <a href="../../monsters/brightportnpc7/">Bryma</a> (<a href="../../maps/brightport_forest/">brightport_forest</a>) → choose “Can you tell me about Andor again?” — <strong>conditions:</strong> reached stage 10 of <a href="../brightport_lizard/#stage-10">The balance of scales</a>; NOT reached stage 112 of <a href="./#stage-112">brightport_nondisplay (hidden flag)</a>; reached stage 105 of <a href="./#stage-105">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../andor/#stage-132">Search for Andor</a> → <strong>stage 105</strong>; also sets stage 132 of <a href="../andor/#stage-132">Search for Andor</a>. NPC: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -3959,7 +3972,7 @@
 <details class="note" open="open">
 <summary>Stage 244: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportthieves6/">Elysa</a> (<a href="../../maps/brightport_thieves/">brightport_thieves</a>) → choose “Can you tell me about Andor again?” — <strong>conditions:</strong> reached stage 196 of <a href="./#stage-196">brightport_nondisplay (hidden flag)</a>; reached stage 131 of <a href="../quests/andor.md#stage-131">andor (hidden flag)</a> → <strong>stage 244</strong>. NPC: “First, as Umar told you, Andor was looking for directions to the potion maker named Lodar; and second, he wanted…”</li>
+<li>Talk to <a href="../../monsters/brightportthieves6/">Elysa</a> (<a href="../../maps/brightport_thieves/">brightport_thieves</a>) → choose “Can you tell me about Andor again?” — <strong>conditions:</strong> reached stage 196 of <a href="./#stage-196">brightport_nondisplay (hidden flag)</a>; reached stage 131 of <a href="../andor/#stage-131">Search for Andor</a> → <strong>stage 244</strong>. NPC: “First, as Umar told you, Andor was looking for directions to the potion maker named Lodar; and second, he wanted…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -4042,6 +4055,29 @@
 <li>Talk to <a href="../../monsters/brightportnpc7/">Bryma</a> (<a href="../../maps/brightport_forest/">brightport_forest</a>) → choose “[Listen quietly.]” — <strong>conditions:</strong> reached stage 10 of <a href="../brightport_lizard/#stage-10">The balance of scales</a>; NOT reached stage 112 of <a href="./#stage-112">brightport_nondisplay (hidden flag)</a> → <strong>stage 257</strong>. NPC: “To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
+<td>Added<br>Dialogue: 271 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

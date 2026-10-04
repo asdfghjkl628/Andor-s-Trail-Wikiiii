@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -998,10 +1009,14 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>2</td>
+<td>4</td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="admonition history">
+<p class="admonition-title">Version note</p>
+<p>From v0.8.16.1, this quest could not be completed: it had no ending yet. It became completable in <a href="../../versions/0.8.17/">v0.8.17</a>.</p>
 </div>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <blockquote>
@@ -1012,6 +1027,7 @@
 <ul>
 <li>eaten 1000+ bonemeals</li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1027,6 +1043,31 @@
 <td>Unlocks</td>
 <td><a href="../Thieves01/#stage-50">Thief apprentice</a></td>
 <td>stage 50 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../bonemeal/#stage-40">Disallowed substance</a></td>
+<td>stage 40 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../bonemeal/#stage-50">Disallowed substance</a></td>
+<td>stage 50 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../bonemeal/#stage-100">Disallowed substance</a></td>
+<td>stage 100 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../bonemeal/#stage-110">Disallowed substance</a></td>
+<td>stage 110 there needs stage 18 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../bucus/#stage-20">Key of Luthor</a></td>
+<td>stage 20 there needs stage 18 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
@@ -1420,7 +1461,8 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1603,6 +1645,38 @@
 <li>stepping on a trigger on <a href="../../maps/debugmap/">debugmap</a> → the conversation leads here automatically — <strong>conditions:</strong> eaten 1000+ bonemeals; reached stage 10 of <a href="./#stage-10">scores (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">scores (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">scores (hidden flag)</a>; faction “fsc_shd2” ≥ 90 → <strong>stage 138</strong>; also clears stage 132 of <a href="./#stage-132">scores (hidden flag)</a>, clears stage 133 of <a href="./#stage-133">scores (hidden flag)</a>, clears stage 135 of <a href="./#stage-135">scores (hidden flag)</a>, clears stage 137 of <a href="./#stage-137">scores (hidden flag)</a></li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<p><strong>Completability:</strong> From v0.8.16.1, this quest could not be completed: it had no ending yet. It became completable in <a href="../../versions/0.8.17/">v0.8.17</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.2/">v0.8.2</a></td>
+<td>Dialogue: 1 line added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.15/">v0.8.15</a></td>
+<td>Added<br>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
+<td>journal visibility changed; stages added: 10, 20, 30, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 112, 113, 115, 117, 118, 122, 123, 125, 127, 128, 132, 133, 135, 137, 138<br>Dialogue: 30 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.17/">v0.8.17</a></td>
+<td>journal visibility changed; stages added: 11, 21, 31, 41, 51</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

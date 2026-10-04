@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>4</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1018,11 +1029,12 @@
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>Start with <a href="../../monsters/nocmar/">Nocmar</a>. Required:</p>
 <ul>
-<li>NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a></li>
-<li>reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a></li>
+<li>NOT reached stage 90 of <a href="../nocmar/#stage-90">Lost treasures</a></li>
+<li>reached stage 10 of <a href="../nocmar/#stage-10">Lost treasures</a></li>
 <li>NOT reached stage 60 of <a href="./#stage-60">A place to forge</a></li>
-<li>reached stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a></li>
+<li>reached stage 80 of <a href="../nocmar/#stage-80">Lost treasures</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1046,6 +1058,16 @@
 </tr>
 <tr>
 <td>Requires</td>
+<td><a href="../nocmar/#stage-10">Lost treasures</a></td>
+<td>stage 10 reached, for stages 10, 20, 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../nocmar/#stage-80">Lost treasures</a></td>
+<td>stage 80 reached, for stages 10, 20, 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
 <td><a href="../undertell_hidden/#stage-15">hidden_undertell (hidden flag)</a></td>
 <td>stage 15 reached, for stages 30, 35, 40, 50 here</td>
 </tr>
@@ -1060,9 +1082,19 @@
 <td>stage 100 must NOT be reached, for stage 45 here</td>
 </tr>
 <tr>
+<td>Mutually exclusive</td>
+<td><a href="../nocmar/#stage-90">Lost treasures</a></td>
+<td>stage 90 must NOT be reached, for stages 10, 20, 60 here</td>
+</tr>
+<tr>
 <td>Unlocks</td>
 <td><a href="../brv_blackjack_hidden/#stage-150">brv_blackjack_hidden (hidden flag)</a></td>
 <td>stage 150 there needs stage 40 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../nocmar/#stage-90">Lost treasures</a></td>
+<td>stage 90 there needs stage 60 here</td>
 </tr>
 <tr>
 <td>Blocks</td>
@@ -1146,18 +1178,19 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 10: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Unnmir sent me.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>; reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a> → <strong>stage 10</strong>. NPC: “There was a time, before all this, when I had a place. A house. Not just any house...a white house on the edge of…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Unnmir sent me.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../nocmar/#stage-90">Lost treasures</a>; reached stage 10 of <a href="../nocmar/#stage-10">Lost treasures</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../nocmar/#stage-80">Lost treasures</a> → <strong>stage 10</strong>. NPC: “There was a time, before all this, when I had a place. A house. Not just any house...a white house on the edge of…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 20: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “That's a lot to lose, indeed.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>; reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">A place to forge</a>; reached stage 130 of <a href="../brv_flood/#stage-130">Much water</a> → <strong>stage 20</strong>. NPC: “If I am to work again, I must have that house returned to me. Speak to Alkapoan. Persuade him, pay him, bargain with…”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “That's a lot to lose, indeed.” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../nocmar/#stage-90">Lost treasures</a>; reached stage 10 of <a href="../nocmar/#stage-10">Lost treasures</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../nocmar/#stage-80">Lost treasures</a>; NOT reached stage 50 of <a href="./#stage-50">A place to forge</a>; reached stage 130 of <a href="../brv_flood/#stage-130">Much water</a> → <strong>stage 20</strong>. NPC: “If I am to work again, I must have that house returned to me. Speak to Alkapoan. Persuade him, pay him, bargain with…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1200,9 +1233,28 @@
 <details class="note" open="open">
 <summary>Stage 60: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Well, that time has come back! I have the deed and the key to your forge house. [hand them to Nocmar]” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../quests/nocmar.md#stage-90">nocmar (hidden flag)</a>; reached stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../quests/nocmar.md#stage-80">nocmar (hidden flag)</a>; latest stage of <a href="./#stage-50">A place to forge</a> is 50; hand over 1× <a href="../../items/white_house_deed/">White house deed</a>; hand over 1× <a href="../../items/white_house_key/">White house key</a> → <strong>stage 60</strong>. NPC: “Ah, all these years and at last I have a chance to see it again.”</li>
+<li>Talk to <a href="../../monsters/nocmar/">Nocmar</a> → choose “Well, that time has come back! I have the deed and the key to your forge house. [hand them to Nocmar]” — <strong>conditions:</strong> NOT reached stage 90 of <a href="../nocmar/#stage-90">Lost treasures</a>; reached stage 10 of <a href="../nocmar/#stage-10">Lost treasures</a>; NOT reached stage 60 of <a href="./#stage-60">A place to forge</a>; reached stage 80 of <a href="../nocmar/#stage-80">Lost treasures</a>; latest stage of <a href="./#stage-50">A place to forge</a> is 50; hand over 1× <a href="../../items/white_house_deed/">White house deed</a>; hand over 1× <a href="../../items/white_house_key/">White house key</a> → <strong>stage 60</strong>. NPC: “Ah, all these years and at last I have a chance to see it again.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Added<br>Dialogue: 8 lines added, 1 line changed<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

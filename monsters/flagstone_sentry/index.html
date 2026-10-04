@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -827,6 +827,28 @@
     <span class="md-ellipsis">
       
         Found on
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -970,13 +992,17 @@
 <ul>
 <li><a href="../../maps/flagstone0/">flagstone0</a></li>
 </ul>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/flagstone/">Ancient secrets</a>: stages 10, 30, 40, 70</li>
+</ul>
 <details class="quote">
 <summary>Dialogue (23 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-flagstone_sentry"></span><strong><code>flagstone_sentry</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 60 of <a href="../quests/flagstone.md#stage-60">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return4">flagstone_sentry_return4</a></li>
-<li>branch 2 <em>(if reached stage 40 of <a href="../quests/flagstone.md#stage-40">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return3">flagstone_sentry_return3</a></li>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/flagstone/#stage-60">Ancient secrets</a>)</em> → <a href="#d-flagstone_sentry_return4">flagstone_sentry_return4</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/flagstone/#stage-40">Ancient secrets</a>)</em> → <a href="#d-flagstone_sentry_return3">flagstone_sentry_return3</a></li>
 <li>branch 3 → <a href="#d-flagstone_sentry_select0">flagstone_sentry_select0</a></li>
 </ul>
 <p><span id="d-flagstone_sentry_return4"></span><strong><code>flagstone_sentry_return4</code></strong> Flagstone sentry: “Hello again. It seems something happened inside Flagstone that made the undead weaker. I'm sure we have you to thank for it.”</p>
@@ -989,11 +1015,11 @@
 </ul>
 <p><span id="d-flagstone_sentry_select0"></span><strong><code>flagstone_sentry_select0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 30 of <a href="../quests/flagstone.md#stage-30">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return2">flagstone_sentry_return2</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/flagstone.md#stage-10">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_return1">flagstone_sentry_return1</a></li>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/flagstone/#stage-30">Ancient secrets</a>)</em> → <a href="#d-flagstone_sentry_return2">flagstone_sentry_return2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/flagstone/#stage-10">Ancient secrets</a>)</em> → <a href="#d-flagstone_sentry_return1">flagstone_sentry_return1</a></li>
 <li>branch 3 → <a href="#d-flagstone_sentry_1">flagstone_sentry_1</a></li>
 </ul>
-<p><span id="d-flagstone_sentry_45"></span><strong><code>flagstone_sentry_45</code></strong> Flagstone sentry: “This is both good and bad news. I am truly grateful that you rid us of the warden and his thralls. Talk to Yolgen for a reward. We will make sure that we recover this prisoner.” — <strong>effects:</strong> removes monsters from flagstone4, sets stage 70 of <a href="../quests/flagstone.md#stage-70">flagstone (hidden flag)</a></p>
+<p><span id="d-flagstone_sentry_45"></span><strong><code>flagstone_sentry_45</code></strong> Flagstone sentry: “This is both good and bad news. I am truly grateful that you rid us of the warden and his thralls. Talk to Yolgen for a reward. We will make sure that we recover this prisoner.” — <strong>effects:</strong> removes monsters from flagstone4, sets stage 70 of <a href="../../quests/flagstone/#stage-70">Ancient secrets</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 <li>“Thank you. Shadow be with you.” → <em>conversation ends</em></li>
@@ -1008,13 +1034,13 @@
 <p><span id="d-flagstone_sentry_return1"></span><strong><code>flagstone_sentry_return1</code></strong> Flagstone sentry: “Hello again. Did you enter Flagstone? I am surprised you actually returned.”</p>
 <ul>
 <li>“Can you tell me the story again?” → <a href="#d-flagstone_sentry_4">flagstone_sentry_4</a></li>
-<li>“There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now.” <em>(if reached stage 20 of <a href="../quests/flagstone.md#stage-20">flagstone (hidden flag)</a>)</em> → <a href="#d-flagstone_sentry_20">flagstone_sentry_20</a></li>
+<li>“There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now.” <em>(if reached stage 20 of <a href="../../quests/flagstone/#stage-20">Ancient secrets</a>)</em> → <a href="#d-flagstone_sentry_20">flagstone_sentry_20</a></li>
 </ul>
 <p><span id="d-flagstone_sentry_1"></span><strong><code>flagstone_sentry_1</code></strong> Flagstone sentry: “Halt! Who's there? No one is allowed to approach Flagstone.”</p>
 <ul>
 <li>Next → <a href="#d-flagstone_sentry_2">flagstone_sentry_2</a></li>
 </ul>
-<p><span id="d-flagstone_sentry_23"></span><strong><code>flagstone_sentry_23</code></strong> Flagstone sentry: “Oh this looks most interesting. Let's take a look. Hmm. It has got some weird inscriptions on it that say 'Daylight Shadow'. Maybe you could try these words on the demon? So perhaps the warden did have something to do with the demon after…” — <strong>effects:</strong> sets stage 40 of <a href="../quests/flagstone.md#stage-40">flagstone (hidden flag)</a></p>
+<p><span id="d-flagstone_sentry_23"></span><strong><code>flagstone_sentry_23</code></strong> Flagstone sentry: “Oh this looks most interesting. Let's take a look. Hmm. It has got some weird inscriptions on it that say 'Daylight Shadow'. Maybe you could try these words on the demon? So perhaps the warden did have something to do with the demon after…” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/flagstone/#stage-40">Ancient secrets</a></p>
 <ul>
 <li>“That might work. Thank you.” → <em>conversation ends</em></li>
 </ul>
@@ -1038,7 +1064,7 @@
 <ul>
 <li>Next → <a href="#d-flagstone_sentry_9">flagstone_sentry_9</a></li>
 </ul>
-<p><span id="d-flagstone_sentry_21"></span><strong><code>flagstone_sentry_21</code></strong> Flagstone sentry: “You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news.” — <strong>effects:</strong> sets stage 30 of <a href="../quests/flagstone.md#stage-30">flagstone (hidden flag)</a></p>
+<p><span id="d-flagstone_sentry_21"></span><strong><code>flagstone_sentry_21</code></strong> Flagstone sentry: “You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/flagstone/#stage-30">Ancient secrets</a></p>
 <ul>
 <li>“OK, I will go and look for the former warden.” → <em>conversation ends</em></li>
 </ul>
@@ -1067,11 +1093,32 @@
 <ul>
 <li>Next → <a href="#d-flagstone_sentry_15">flagstone_sentry_15</a></li>
 </ul>
-<p><span id="d-flagstone_sentry_15"></span><strong><code>flagstone_sentry_15</code></strong> Flagstone sentry: “Return here if you need my advice.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/flagstone.md#stage-10">flagstone (hidden flag)</a></p>
+<p><span id="d-flagstone_sentry_15"></span><strong><code>flagstone_sentry_15</code></strong> Flagstone sentry: “Return here if you need my advice.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/flagstone/#stage-10">Ancient secrets</a></p>
 <ul>
 <li>“OK. I will return to you if there is anything I need help with.” → <em>conversation ends</em></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>name: Flagstone Sentry → Flagstone sentry<br>Dialogue: 1 line added, 14 lines changed<br>· text: “A guardian you say? This is troubling news, since it means there is s…” → “A guardian and undead prisoners you say? This is troubling news, sinc…”<br>· text: “Flagstone used to be a prison camp for runaway workers from when Moun…” → “Flagstone Prison was built a few hundred years ago by house Gorland o…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

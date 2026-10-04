@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1017,6 +1028,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to <a href="../../monsters/tonis/">Tonis</a> (<a href="../../maps/blackwater_mountain10/">blackwater_mountain10</a>) to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1087,14 +1099,14 @@
 <tr>
 <td><span id="stage-11"></span>11</td>
 <td>The village of Prim needs help from someone from the outside to deal with attacks from some monsters. I should speak to Guthbered in Prim if I want to help them.</td>
-<td><a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>)<br><a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>)<br><a href="../../monsters/tonis/">Tonis</a> (<a href="../../maps/blackwater_mountain10/">blackwater_mountain10</a>)<br>+1 more</td>
+<td><a href="../../monsters/tonis/">Tonis</a> (<a href="../../maps/blackwater_mountain10/">blackwater_mountain10</a>)<br><a href="../../monsters/prim_citizen/">Prim citizen</a> (<a href="../../maps/blackwater_mountain11/">blackwater_mountain11</a>)<br><a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>)<br>+1 more</td>
 <td>stage 10, stage 20, stage 25</td>
 <td>–</td>
 </tr>
 <tr>
 <td><span id="stage-15"></span>15</td>
 <td>Guthbered can be found in the main hall of Prim. I should look for a stone house in the center of town.</td>
-<td><a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>)<br><a href="../../monsters/prim_citizen/">Prim citizen</a> (<a href="../../maps/blackwater_mountain11/">blackwater_mountain11</a>)</td>
+<td><a href="../../monsters/prim_citizen/">Prim citizen</a> (<a href="../../maps/blackwater_mountain11/">blackwater_mountain11</a>)<br><a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>)</td>
 <td>–</td>
 <td>–</td>
 </tr>
@@ -1199,7 +1211,7 @@
 <tr>
 <td><span id="stage-250"></span>250</td>
 <td>I have decided to not help the people of Prim. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>)<br><a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>)</td>
+<td><a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>)<br><a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>)</td>
 <td>stage 25, stage 30</td>
 <td>–</td>
 </tr>
@@ -1212,6 +1224,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1223,17 +1236,17 @@
 <details class="note" open="open">
 <summary>Stage 11: 4 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>) → choose “Tough luck.” — <strong>conditions:</strong> reached stage 25 of <a href="./#stage-25">Clouded intent</a> → <strong>stage 11</strong>. NPC: “On top of that, there are the attacks from the monsters that we have to deal with.”</li>
-<li>Talk to <a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>) → choose “What beasts are you talking about?” → <strong>stage 11</strong>. NPC: “Their attacks are getting more and more clever.”</li>
 <li>Talk to <a href="../../monsters/tonis/">Tonis</a> (<a href="../../maps/blackwater_mountain10/">blackwater_mountain10</a>) → choose “Yes, he told me the story about Prim.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Clouded intent</a>; reached stage 20 of <a href="./#stage-20">Clouded intent</a> → <strong>stage 11</strong>. NPC: “Good, thanks. We really need your help!”</li>
 <li>Talk to <a href="../../monsters/prim_citizen/">Prim citizen</a> (<a href="../../maps/blackwater_mountain11/">blackwater_mountain11</a>) → choose “Yes, I am here to help your village.” → <strong>stage 11</strong>. NPC: “Thank you. We really need your help.”</li>
+<li>Talk to <a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>) → choose “What beasts are you talking about?” → <strong>stage 11</strong>. NPC: “Their attacks are getting more and more clever.”</li>
+<li>Talk to <a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>) → choose “Tough luck.” — <strong>conditions:</strong> reached stage 25 of <a href="./#stage-25">Clouded intent</a> → <strong>stage 11</strong>. NPC: “On top of that, there are the attacks from the monsters that we have to deal with.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 15: 2 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>) → choose “Is there anything I can do to help?” → <strong>stage 15</strong>. NPC: “You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village.”</li>
 <li>Talk to <a href="../../monsters/prim_citizen/">Prim citizen</a> (<a href="../../maps/blackwater_mountain11/">blackwater_mountain11</a>) → choose “Where can I find him?” → <strong>stage 15</strong>. NPC: “He is in the main hall right over there. The large stone house.”</li>
+<li>Talk to <a href="../../monsters/laecca/">Laecca</a> (<a href="../../maps/blackwater_mountain21/">blackwater_mountain21</a>) → choose “Is there anything I can do to help?” → <strong>stage 15</strong>. NPC: “You should talk to Guthbered. He is usually in the main hall. Look for a stone house in the center of the village.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1324,8 +1337,8 @@
 <details class="note" open="open">
 <summary>Stage 250: 2 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 150 of <a href="../bwm_agent/#stage-150">The agent and the beast</a> → <strong>stage 250</strong>. NPC: “I'm sure the monster attacks will stop now when we kill the last few monsters that are outside the settlement.”</li>
 <li>Talk to <a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>) → choose “Hmm, maybe I should help the people up in Blackwater mountain instead.” — <strong>conditions:</strong> reached stage 25 of <a href="./#stage-25">Clouded intent</a>; reached stage 30 of <a href="./#stage-30">Clouded intent</a> → <strong>stage 250</strong>. NPC: “Fine. You should leave now while you still can, traitor.”</li>
+<li>Talk to <a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 150 of <a href="../bwm_agent/#stage-150">The agent and the beast</a> → <strong>stage 250</strong>. NPC: “I'm sure the monster attacks will stop now when we kill the last few monsters that are outside the settlement.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1334,6 +1347,29 @@
 <li>Talk to <a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 95 of <a href="../bwm_agent/#stage-95">The agent and the beast</a> → <strong>stage 251</strong>. NPC: “It is, of course, your choice. But if you are working for them, you are not welcome here in Prim. You should leave…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+3 more)<br>Dialogue: 3 lines changed<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
@@ -1370,7 +1406,7 @@
 </tr>
 <tr>
 <td>Dialogue nodes setting stages</td>
-<td>10: <code>tonis_6</code>, 11: <code>guthbered_12</code>, 11: <code>laecca_12</code>, 11: <code>tonis_8</code>, 15: <code>laecca_13</code>, 15: <code>prim_commoner1_4</code>, 20: <code>guthbered_19</code>, 25: <code>guthbered_30</code>, 25: <code>guthbered_31</code>, 30: <code>harlenn_prim_2</code>, 40: <code>guthbered_talkedto_harl_3</code>, 50: <code>guthbered_talkedto_harl_13</code>, 60: <code>sign_blackwater45_qstarted_1</code>, 70: <code>guthbered_lookforsigns_4</code>, 80: <code>guthbered_lookforsigns_9</code>, 90: <code>harlenn_sentbyprim_2</code>, 91: <code>harlenn_sentbyprim_8</code>, 99: <code>guthbered_killharl_2</code>, 100: <code>guthbered_killharl_6</code>, 140: <code>blackwater_throneguard_3</code>, 240: <code>guthbered_completed_1</code>, 250: <code>harlenn_completed_1</code>, 250: <code>guthbered_workingforbwm_1</code>, 251: <code>guthbered_workingforbwm_3</code></td>
+<td>10: <code>tonis_6</code>, 11: <code>tonis_8</code>, 11: <code>prim_commoner1_2</code>, 11: <code>laecca_12</code>, 15: <code>prim_commoner1_4</code>, 15: <code>laecca_13</code>, 20: <code>guthbered_19</code>, 25: <code>guthbered_30</code>, 25: <code>guthbered_31</code>, 30: <code>harlenn_prim_2</code>, 40: <code>guthbered_talkedto_harl_3</code>, 50: <code>guthbered_talkedto_harl_13</code>, 60: <code>sign_blackwater45_qstarted_1</code>, 70: <code>guthbered_lookforsigns_4</code>, 80: <code>guthbered_lookforsigns_9</code>, 90: <code>harlenn_sentbyprim_2</code>, 91: <code>harlenn_sentbyprim_8</code>, 99: <code>guthbered_killharl_2</code>, 100: <code>guthbered_killharl_6</code>, 140: <code>blackwater_throneguard_3</code>, 240: <code>guthbered_completed_1</code>, 250: <code>guthbered_workingforbwm_1</code>, 250: <code>harlenn_completed_1</code>, 251: <code>guthbered_workingforbwm_3</code></td>
 </tr>
 <tr>
 <td>Dialogue nodes clearing stages</td>

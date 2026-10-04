@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>6</td>
+<td>9</td>
 </tr>
 </tbody>
 </table>
@@ -1018,10 +1029,11 @@
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>Start with <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>). Required:</p>
 <ul>
-<li>reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a></li>
-<li>reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a></li>
+<li>reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a></li>
+<li>reached stage 100 of <a href="../bucus/#stage-100">Key of Luthor</a></li>
 <li>NOT reached stage 5 of <a href="./#stage-5">Thief apprentice</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1033,6 +1045,21 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-51">Search for Andor</a></td>
+<td>stage 51 reached, for stages 5, 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../bonemeal/#stage-100">Disallowed substance</a></td>
+<td>stage 100 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../bucus/#stage-100">Key of Luthor</a></td>
+<td>stage 100 reached, for stage 5 here</td>
+</tr>
 <tr>
 <td>Requires</td>
 <td><a href="../scores/#stage-18">scores (hidden flag)</a></td>
@@ -1220,19 +1247,20 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 5: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “But I really want to join your guild!” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>; NOT reached stage 5 of <a href="./#stage-5">Thief apprentice</a> → <strong>stage 5</strong>. NPC: “OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “But I really want to join your guild!” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 100 of <a href="../bucus/#stage-100">Key of Luthor</a>; NOT reached stage 5 of <a href="./#stage-5">Thief apprentice</a> → <strong>stage 5</strong>. NPC: “OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 10: 2 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I will take your opportunity!” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 5 of <a href="./#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="./#stage-10">Thief apprentice</a>; NOT latest stage of <a href="./#stage-60">Thief apprentice</a> is 60 → <strong>stage 10</strong>. NPC: “Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have…”</li>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything else?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 5 of <a href="./#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="./#stage-10">Thief apprentice</a>; NOT latest stage of <a href="./#stage-60">Thief apprentice</a> is 60 → <strong>stage 10</strong>. NPC: “Not for now. Make sure nobody sees you doing suspicious things. Good luck.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I will take your opportunity!” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 5 of <a href="./#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="./#stage-10">Thief apprentice</a>; NOT latest stage of <a href="./#stage-60">Thief apprentice</a> is 60 → <strong>stage 10</strong>. NPC: “Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have…”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything else?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 5 of <a href="./#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="./#stage-10">Thief apprentice</a>; NOT latest stage of <a href="./#stage-60">Thief apprentice</a> is 60 → <strong>stage 10</strong>. NPC: “Not for now. Make sure nobody sees you doing suspicious things. Good luck.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1281,7 +1309,7 @@
 <details class="note" open="open">
 <summary>Stage 50: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/thoronir/">Thoronir</a> (<a href="../../maps/fallhaven_church/">fallhaven_church</a>) → choose “Ehm ... My father has cut himself with an axe, and we don't have any bandages!” — <strong>conditions:</strong> reached stage 18 of <a href="../scores/#stage-18">scores (hidden flag)</a>; reached stage 45 of <a href="./#stage-45">Thief apprentice</a>; reached stage 100 of <a href="../quests/bonemeal.md#stage-100">bonemeal (hidden flag)</a>; NOT reached stage 50 of <a href="./#stage-50">Thief apprentice</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/bandage/">Bandage</a>. NPC: “This is what I have, take it. I expect this will be useful.”</li>
+<li>Talk to <a href="../../monsters/thoronir/">Thoronir</a> (<a href="../../maps/fallhaven_church/">fallhaven_church</a>) → choose “Ehm ... My father has cut himself with an axe, and we don't have any bandages!” — <strong>conditions:</strong> reached stage 18 of <a href="../scores/#stage-18">scores (hidden flag)</a>; reached stage 45 of <a href="./#stage-45">Thief apprentice</a>; reached stage 100 of <a href="../bonemeal/#stage-100">Disallowed substance</a>; NOT reached stage 50 of <a href="./#stage-50">Thief apprentice</a> → <strong>stage 50</strong>; also gives 1× <a href="../../items/bandage/">Bandage</a>. NPC: “This is what I have, take it. I expect this will be useful.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1302,6 +1330,29 @@
 <li>Talk to <a href="../../monsters/troublemaker/">Troublemaker</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I gave you the journals, so where's my reward?” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Thief apprentice</a>; NOT reached stage 60 of <a href="./#stage-60">Thief apprentice</a>; reached stage 100 of <a href="../thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a>; NOT reached stage 110 of <a href="../thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a> → <strong>stage 60</strong>; also gives 900× <a href="../../items/gold/">Gold coins</a>, sets stage 110 of <a href="../thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a>. NPC: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.8/">v0.7.8</a></td>
+<td>Added<br>Dialogue: 14 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>Dialogue: 1 line changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

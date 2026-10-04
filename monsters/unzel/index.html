@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -849,6 +849,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1026,6 +1037,7 @@
 </ul>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="../../quests/vacor/">Missing pieces</a>: stages 50, 51, 53, 61</li>
 <li><a href="../../quests/kaverin/">Old friends?</a>: stages 30</li>
 </ul>
 <details class="quote">
@@ -1034,8 +1046,8 @@
 <p><span id="d-unzel"></span><strong><code>unzel</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 30 of <a href="../../quests/kaverin/#stage-30">Old friends?</a>)</em> → <a href="#d-unzel_msg_r0">unzel_msg_r0</a></li>
-<li>branch 2 <em>(if reached stage 61 of <a href="../quests/vacor.md#stage-61">vacor (hidden flag)</a>)</em> → <a href="#d-unzel_40">unzel_40</a></li>
-<li>branch 3 <em>(if reached stage 51 of <a href="../quests/vacor.md#stage-51">vacor (hidden flag)</a>)</em> → <a href="#d-unzel_return_1">unzel_return_1</a></li>
+<li>branch 2 <em>(if reached stage 61 of <a href="../../quests/vacor/#stage-61">Missing pieces</a>)</em> → <a href="#d-unzel_40">unzel_40</a></li>
+<li>branch 3 <em>(if reached stage 51 of <a href="../../quests/vacor/#stage-51">Missing pieces</a>)</em> → <a href="#d-unzel_return_1">unzel_return_1</a></li>
 <li>branch 4 → <a href="#d-unzel_1">unzel_1</a></li>
 </ul>
 <p><span id="d-unzel_msg_r0"></span><strong><code>unzel_msg_r0</code></strong> Unzel: “Hello again. Thank you for your help with defeating Vacor and bringing me the message from Kaverin.”</p>
@@ -1054,7 +1066,7 @@
 <p><span id="d-unzel_1"></span><strong><code>unzel_1</code></strong> Unzel: “Hello. I'm Unzel.”</p>
 <ul>
 <li>“Is this your camp?” → <a href="#d-unzel_2">unzel_2</a></li>
-<li>“I am sent by Vacor to kill you.” <em>(if reached stage 40 of <a href="../quests/vacor.md#stage-40">vacor (hidden flag)</a>)</em> → <a href="#d-unzel_3">unzel_3</a></li>
+<li>“I am sent by Vacor to kill you.” <em>(if reached stage 40 of <a href="../../quests/vacor/#stage-40">Missing pieces</a>)</em> → <a href="#d-unzel_3">unzel_3</a></li>
 </ul>
 <p><span id="d-unzel_msg5"></span><strong><code>unzel_msg5</code></strong> Unzel: “Your help could prove more valuable than you might realize.”</p>
 <ul>
@@ -1064,7 +1076,7 @@
 <ul>
 <li>“Here it is.” <em>(if hand over 1× <a href="../../items/kaverin_message/">Kaverin's sealed message</a>)</em> → <a href="#d-unzel_msg2">unzel_msg2</a></li>
 </ul>
-<p><span id="d-unzel_30"></span><strong><code>unzel_30</code></strong> Unzel: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.” — <strong>effects:</strong> sets stage 61 of <a href="../quests/vacor.md#stage-61">vacor (hidden flag)</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-unzel_30"></span><strong><code>unzel_30</code></strong> Unzel: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/vacor/#stage-61">Missing pieces</a>, gives <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Shadow be with you.” → <em>conversation ends</em></li>
 <li>“Thank you.” → <em>conversation ends</em></li>
@@ -1091,7 +1103,7 @@
 <ul>
 <li>Next → <a href="#d-unzel_msg4">unzel_msg4</a></li>
 </ul>
-<p><span id="d-unzel_fight"></span><strong><code>unzel_fight</code></strong> Unzel: “Very well, let's fight then.” — <strong>effects:</strong> sets stage 53 of <a href="../quests/vacor.md#stage-53">vacor (hidden flag)</a></p>
+<p><span id="d-unzel_fight"></span><strong><code>unzel_fight</code></strong> Unzel: “Very well, let's fight then.” — <strong>effects:</strong> sets stage 53 of <a href="../../quests/vacor/#stage-53">Missing pieces</a></p>
 <ul>
 <li>“A fight it is!” → <em>fight starts</em></li>
 </ul>
@@ -1129,7 +1141,7 @@
 </ul>
 <p><span id="d-unzel_16_select"></span><strong><code>unzel_16_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 50 of <a href="../quests/vacor.md#stage-50">vacor (hidden flag)</a>)</em> → <a href="#d-unzel_16_2">unzel_16_2</a></li>
+<li>branch 1 <em>(if reached stage 50 of <a href="../../quests/vacor/#stage-50">Missing pieces</a>)</em> → <a href="#d-unzel_16_2">unzel_16_2</a></li>
 <li>branch 2 → <a href="#d-unzel_16_1">unzel_16_1</a></li>
 </ul>
 <p><span id="d-unzel_16_2"></span><strong><code>unzel_16_2</code></strong> Unzel: “So, here we are.”</p>
@@ -1140,7 +1152,7 @@
 <ul>
 <li>“I killed the four bandits you sent after Vacor.” → <a href="#d-unzel_17">unzel_17</a></li>
 </ul>
-<p><span id="d-unzel_19"></span><strong><code>unzel_19</code></strong> Unzel: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?” — <strong>effects:</strong> sets stage 50 of <a href="../quests/vacor.md#stage-50">vacor (hidden flag)</a></p>
+<p><span id="d-unzel_19"></span><strong><code>unzel_19</code></strong> Unzel: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/vacor/#stage-50">Missing pieces</a></p>
 <ul>
 <li>“I will side with you. The Shadow must not be disturbed.” → <a href="#d-unzel_20">unzel_20</a></li>
 <li>“I will side with Vacor.” → <a href="#d-unzel_fight">unzel_fight</a></li>
@@ -1149,7 +1161,7 @@
 <ul>
 <li>Next → <a href="#d-unzel_18">unzel_18</a></li>
 </ul>
-<p><span id="d-unzel_20"></span><strong><code>unzel_20</code></strong> Unzel: “Thank you my friend. We will keep the Shadow safe from Vacor.” — <strong>effects:</strong> sets stage 51 of <a href="../quests/vacor.md#stage-51">vacor (hidden flag)</a></p>
+<p><span id="d-unzel_20"></span><strong><code>unzel_20</code></strong> Unzel: “Thank you my friend. We will keep the Shadow safe from Vacor.” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/vacor/#stage-51">Missing pieces</a></p>
 <ul>
 <li>Next → <a href="#d-unzel_21">unzel_21</a></li>
 </ul>
@@ -1159,6 +1171,31 @@
 </ul>
 <p><span id="d-unzel_21"></span><strong><code>unzel_21</code></strong> Unzel: “You should go talk to him about the Shadow.”</p>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>minor data change<br>Dialogue: 6 lines changed<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.4/">v0.7.4</a></td>
+<td>attackCost: 10 → 9</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

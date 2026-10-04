@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1046,6 +1057,7 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="../../quests/bonemeal/">Disallowed substance</a>: stages 20, 30</li>
 <li><a href="../../quests/antifoodp/">Taste is everything</a>: stages 10</li>
 </ul>
 <details class="quote">
@@ -1054,12 +1066,12 @@
 <p><span id="d-tharal1"></span><strong><code>tharal1</code></strong> Tharal: “Walk in the glow of the Shadow, my child.”</p>
 <ul>
 <li>“Do you have anything to trade?” → <em>shop opens</em></li>
-<li>“What can you tell me about bonemeal?” <em>(if reached stage 10 of <a href="../quests/bonemeal.md#stage-10">bonemeal (hidden flag)</a>)</em> → <a href="#d-tharal_bonemeal_select">tharal_bonemeal_select</a></li>
+<li>“What can you tell me about bonemeal?” <em>(if reached stage 10 of <a href="../../quests/bonemeal/#stage-10">Disallowed substance</a>)</em> → <a href="#d-tharal_bonemeal_select">tharal_bonemeal_select</a></li>
 <li>“Do you have anything to help against food-poisoning?” → <a href="#d-tharal_antifoodp1">tharal_antifoodp1</a></li>
 </ul>
 <p><span id="d-tharal_bonemeal_select"></span><strong><code>tharal_bonemeal_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a>)</em> → <a href="#d-tharal_bonemeal4">tharal_bonemeal4</a></li>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/bonemeal/#stage-30">Disallowed substance</a>)</em> → <a href="#d-tharal_bonemeal4">tharal_bonemeal4</a></li>
 <li>branch 2 → <a href="#d-tharal_bonemeal1">tharal_bonemeal1</a></li>
 </ul>
 <p><span id="d-tharal_antifoodp1"></span><strong><code>tharal_antifoodp1</code></strong> Tharal: “No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though.”</p>
@@ -1090,7 +1102,7 @@
 <ul>
 <li>Next → <a href="#d-tharal_bonemeal7">tharal_bonemeal7</a></li>
 </ul>
-<p><span id="d-tharal_bonemeal2"></span><strong><code>tharal_bonemeal2</code></strong> Tharal: “Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more.” — <strong>effects:</strong> sets stage 20 of <a href="../quests/bonemeal.md#stage-20">bonemeal (hidden flag)</a></p>
+<p><span id="d-tharal_bonemeal2"></span><strong><code>tharal_bonemeal2</code></strong> Tharal: “Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/bonemeal/#stage-20">Disallowed substance</a></p>
 <ul>
 <li>“Here, I have the insect wings.” <em>(if hand over 5× <a href="../../items/insectwing/">Insect wing</a>)</em> → <a href="#d-tharal_bonemeal3">tharal_bonemeal3</a></li>
 <li>“OK, I'll bring them.” → <em>conversation ends</em></li>
@@ -1099,11 +1111,32 @@
 <ul>
 <li>“Thanks, bye.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-tharal_bonemeal3"></span><strong><code>tharal_bonemeal3</code></strong> Tharal: “Thanks kid. I knew I could count on you.” — <strong>effects:</strong> sets stage 30 of <a href="../quests/bonemeal.md#stage-30">bonemeal (hidden flag)</a></p>
+<p><span id="d-tharal_bonemeal3"></span><strong><code>tharal_bonemeal3</code></strong> Tharal: “Thanks kid. I knew I could count on you.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/bonemeal/#stage-30">Disallowed substance</a></p>
 <ul>
 <li>Next → <a href="#d-tharal_bonemeal4">tharal_bonemeal4</a></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “I know someone that still has a supply of Bonemeal if you are interes…” → “I know someone that still has a supply of bonemeal if you are interes…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

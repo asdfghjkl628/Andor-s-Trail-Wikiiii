@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>2</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>
@@ -1020,6 +1031,7 @@
 <ul>
 <li>reached stage 130 of <a href="../brv_nondisplay/#stage-130">brv_nondisplay (hidden flag)</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1040,6 +1052,11 @@
 <td>Requires</td>
 <td><a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a></td>
 <td>stage 40 reached, for stages 40, 50, 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-10">Breakfast bread</a></td>
+<td>stage 10 reached, for stages 30, 40, 50, 60 here</td>
 </tr>
 <tr>
 <td>Blocked by</td>
@@ -1104,6 +1121,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1123,27 +1141,54 @@
 <details class="note" open="open">
 <summary>Stage 30: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “I have a present for you.” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; NOT reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a> → <strong>stage 30</strong>. NPC: “I asked you to search for your brother Andor and you did not find out anything and instead you are bringing me a…”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “I have a present for you.” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; NOT reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a> → <strong>stage 30</strong>. NPC: “I asked you to search for your brother Andor and you did not find out anything and instead you are bringing me a…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 40: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the cheap necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father1/">Necklace for father (cheap)</a> → <strong>stage 40</strong>. NPC: “Hm, thank you. Looks like you spent all your pocket money for this.”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the cheap necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father1/">Necklace for father (cheap)</a> → <strong>stage 40</strong>. NPC: “Hm, thank you. Looks like you spent all your pocket money for this.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 50: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father2/">Necklace for father</a> → <strong>stage 50</strong>. NPC: “Thank you my child for this wonderful necklace. Oh and it is in our family colors!”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father2/">Necklace for father</a> → <strong>stage 50</strong>. NPC: “Thank you my child for this wonderful necklace. Oh and it is in our family colors!”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 60: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the expensive necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father3/">Necklace for father (expensive)</a> → <strong>stage 60</strong>. NPC: “Oh, where did you get the money to buy this? Maybe I don't want to know...”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “[Give him the expensive necklace]” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; reached stage 20 of <a href="./#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="./#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="./#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="./#stage-60">Honor your parents</a>; reached stage 40 of <a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>; hand over 1× <a href="../../items/necklace_for_father3/">Necklace for father (expensive)</a> → <strong>stage 60</strong>. NPC: “Oh, where did you get the money to buy this? Maybe I don't want to know...”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.11/">v0.7.11</a></td>
+<td>Added<br>Dialogue: 8 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.12/">v0.7.12</a></td>
+<td>stage 10 journal text changed; stage 20 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed; stage 60 journal text changed<br>Dialogue: 1 line changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 1 line changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

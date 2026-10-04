@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -987,6 +998,7 @@
 <li><a href="../../quests/lodar/">A lost potion</a>: stages 10, 15</li>
 <li><a href="../../quests/Thieves04/">Another ruthless Crackshot</a>: stages 10, 30, 40, 60, 70, 80</li>
 <li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 2, 4, 6, 30, 35, 40, 75, 76</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 51, 55</li>
 <li><a href="../../quests/Thieves03/">The ruthless Crackshot</a>: stages 1, 4, 5, 10, 45, 50</li>
 <li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 5, 10</li>
 <li><a href="../../quests/troubling_times/">Troubling times</a>: stages 10, 20, 30, 120</li>
@@ -1002,7 +1014,7 @@
 <li>branch 2 <em>(if reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>)</em> → <a href="#d-nanath_12">nanath_12</a></li>
 <li>branch 3 <em>(if reached stage 115 of <a href="../../quests/troubling_times/#stage-115">Troubling times</a>; NOT reached stage 120 of <a href="../../quests/troubling_times/#stage-120">Troubling times</a>)</em> → <a href="#d-umar_tt_100">umar_tt_100</a></li>
 <li>branch 4 <em>(if reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; NOT reached stage 70 of <a href="../../quests/wanted_men/#stage-70">Wanted men</a>)</em> → <a href="#d-umar_tt">umar_tt</a></li>
-<li>branch 5 <em>(if reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>)</em> → <a href="#d-umar_return_1">umar_return_1</a></li>
+<li>branch 5 <em>(if reached stage 51 of <a href="../../quests/andor/#stage-51">Search for Andor</a>)</em> → <a href="#d-umar_return_1">umar_return_1</a></li>
 <li>branch 6 → <a href="#d-umar_novisit_1">umar_novisit_1</a></li>
 </ul>
 <p><span id="d-nanath_10"></span><strong><code>nanath_10</code></strong> Umar: “You? How dare you show your face?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/troubling_times/#stage-10">Troubling times</a>, sets stage 20 of <a href="../../quests/troubling_times/#stage-20">Troubling times</a></p>
@@ -1065,7 +1077,7 @@
 </ul>
 <p><span id="d-umar_guild05_0"></span><strong><code>umar_guild05_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 72 of <a href="../quests/andor.md#stage-72">andor (hidden flag)</a>; reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 100 of <a href="../quests/flagstone.md#stage-100">flagstone (hidden flag)</a>; reached stage 50 of <a href="../../quests/stoutford_castle/#stage-50">Stoutford's old castle</a>)</em> → <a href="#d-umar_guild05_1a">umar_guild05_1a</a></li>
+<li>branch 1 <em>(if reached stage 72 of <a href="../../quests/andor/#stage-72">Search for Andor</a>; reached stage 50 of <a href="../../quests/charwood2/#stage-50">Trial by fire</a>; reached stage 100 of <a href="../../quests/flagstone/#stage-100">Ancient secrets</a>; reached stage 50 of <a href="../../quests/stoutford_castle/#stage-50">Stoutford's old castle</a>)</em> → <a href="#d-umar_guild05_1a">umar_guild05_1a</a></li>
 <li>branch 2 → <a href="#d-umar_guild05_1b">umar_guild05_1b</a></li>
 </ul>
 <p><span id="d-umar_guild04_29"></span><strong><code>umar_guild04_29</code></strong> Umar: “Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/Thieves04/#stage-80">Another ruthless Crackshot</a>, faction “ThievesGuild” +10, gives 1× <a href="../../items/blade_protector/">Blade of the protector</a></p>
@@ -1192,7 +1204,7 @@
 <ul>
 <li>“Can you repeat what you said about Andor?” → <a href="#d-umar_5">umar_5</a></li>
 <li>“Nice to meet you. Goodbye.” → <em>conversation ends</em></li>
-<li>“Yes, I want to know more about the Thieves' Guild.” <em>(if reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>; NOT reached stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a>)</em> → <a href="#d-umar_guild_1">umar_guild_1</a></li>
+<li>“Yes, I want to know more about the Thieves' Guild.” <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>; NOT reached stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a>)</em> → <a href="#d-umar_guild_1">umar_guild_1</a></li>
 <li>“I've been thinking about joining the guild.” <em>(if reached stage 5 of <a href="../../quests/Thieves01/#stage-5">Thief apprentice</a>; NOT reached stage 10 of <a href="../../quests/Thieves01/#stage-10">Thief apprentice</a>; NOT latest stage of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a> is 60)</em> → <a href="#d-umar_guild_4b">umar_guild_4b</a></li>
 </ul>
 <p><span id="d-umar_2"></span><strong><code>umar_2</code></strong> Umar: “Last time we talked, you asked for the way to Lodar's Hideaway. Did you find it?”</p>
@@ -1372,7 +1384,7 @@
 <ul>
 <li>“My brother Andor and I look very much alike.” → <a href="#d-umar_4">umar_4</a></li>
 </ul>
-<p><span id="d-umar_4"></span><strong><code>umar_4</code></strong> Umar: “Really? Never mind I said anything then.” — <strong>effects:</strong> sets stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a></p>
+<p><span id="d-umar_4"></span><strong><code>umar_4</code></strong> Umar: “Really? Never mind I said anything then.” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/andor/#stage-51">Search for Andor</a></p>
 <ul>
 <li>“I guess that means that Andor was here. What was he doing?” → <a href="#d-umar_5">umar_5</a></li>
 </ul>
@@ -1710,6 +1722,75 @@
 </ul>
 <p><em>Dialogue continues beyond this point (truncated).</em></p>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.”<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.8/">v0.7.8</a></td>
+<td>Dialogue: 112 lines added, 7 lines changed<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.9/">v0.7.9</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “I expect more of you.That was your first mission inside the guild and…” → “I expect more of you. That was your first mission inside the guild an…”<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.12/">v0.7.12</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.14/">v0.7.14</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.15/">v0.7.15</a></td>
+<td>Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.2/">v0.8.2</a></td>
+<td>Dialogue: 35 lines added, 2 lines changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.4/">v0.8.4</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.6/">v0.8.6</a></td>
+<td>Dialogue: 1 line changed<br>· text: “Fortunately, one of my men found one of his drunk men and had a short…” → “Fortunately, one of my men found one of his drunk men and had a short…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.8/">v0.8.8</a></td>
+<td>Dialogue: 1 line changed<br>· text: “[Here, the story continues]” → “You are really very hardworking. I can't find new work for you fast e…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.13/">v0.8.13</a></td>
+<td>Dialogue: 10 lines added, 4 lines changed<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.”<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

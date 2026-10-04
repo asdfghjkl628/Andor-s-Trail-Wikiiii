@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -998,7 +1009,7 @@
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
-<td><a href="../../monsters/athamyr/">Athamyr</a>, <a href="../../monsters/gamjee_oc/">Gamjee</a>, <a href="../../monsters/gamjee/">Gamjee</a>, <a href="../../monsters/village_godelieve/">Godelieve</a>, <a href="../../monsters/godoe1/">Godoe</a>, <a href="../../monsters/godoe2/">Godoe</a> +5</td>
+<td><a href="../../monsters/athamyr/">Athamyr</a>, <a href="../../monsters/gamjee_oc/">Gamjee</a>, <a href="../../monsters/gamjee/">Gamjee</a>, <a href="../../monsters/village_godelieve/">Godelieve</a>, <a href="../../monsters/godoe2/">Godoe</a>, <a href="../../monsters/godoe1/">Godoe</a> +5</td>
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
@@ -1010,7 +1021,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>2</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>
@@ -1025,6 +1036,7 @@
 <li>faction “feygard_offering_sum” ≥ 1</li>
 <li>reached stage 1 of <a href="./#stage-1">feygard_nondisplayed (hidden flag)</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1036,6 +1048,11 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../bucus/#stage-100">Key of Luthor</a></td>
+<td>stage 100 reached, for stage 60 here</td>
+</tr>
 <tr>
 <td>Requires</td>
 <td><a href="../echoes_of_enchantment/#stage-5">Echoes of enchantment</a></td>
@@ -1362,7 +1379,8 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1480,7 +1498,7 @@
 <details class="note" open="open">
 <summary>Stage 60: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/athamyr/">Athamyr</a> → choose “Are you crazy?” — <strong>conditions:</strong> reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>; NOT reached stage 60 of <a href="./#stage-60">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="./#stage-69">feygard_nondisplayed (hidden flag)</a>; NOT carry 1× <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>; NOT wearing <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a> → <strong>stage 60</strong>. NPC: “Then you can climb through a window and reach a path right to the back of the tailor's house.”</li>
+<li>Talk to <a href="../../monsters/athamyr/">Athamyr</a> → choose “Are you crazy?” — <strong>conditions:</strong> reached stage 100 of <a href="../bucus/#stage-100">Key of Luthor</a>; NOT reached stage 60 of <a href="./#stage-60">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="./#stage-69">feygard_nondisplayed (hidden flag)</a>; NOT carry 1× <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>; NOT wearing <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a> → <strong>stage 60</strong>. NPC: “Then you can climb through a window and reach a path right to the back of the tailor's house.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1578,6 +1596,29 @@
 <li>stepping on a trigger on <a href="../../maps/guynmart_wood_18/">guynmart_wood_18</a> → the conversation leads here automatically → <strong>stage 92</strong>; also clears stage 90 of <a href="./#stage-90">feygard_nondisplayed (hidden flag)</a>, clears stage 91 of <a href="./#stage-91">feygard_nondisplayed (hidden flag)</a>, spawns monsters on guynmart_wood_18, spawns monsters on guynmart_wood_18</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
+<td>Added<br>Dialogue: 36 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 1 line added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
@@ -1618,7 +1659,7 @@
 </tr>
 <tr>
 <td>Dialogue nodes clearing stages</td>
-<td>72: <code>athamyr_coup_38</code>, 1: <code>feygard_offering</code>, 91: <code>guynmart18_passage0</code>, 91: <code>guynmart18_passage2</code>, 92: <code>guynmart18_passage0</code>, 92: <code>guynmart18_passage1</code>, 90: <code>guynmart18_passage1</code>, 90: <code>guynmart18_passage2</code>, 81: <code>guynmart18_s2_20</code>, 80: <code>guynmart18_s_2</code></td>
+<td>72: <code>athamyr_coup_38</code>, 71: <code>sign_catacombs1_grave3_10</code>, 1: <code>feygard_offering</code>, 91: <code>guynmart18_passage0</code>, 91: <code>guynmart18_passage2</code>, 92: <code>guynmart18_passage0</code>, 92: <code>guynmart18_passage1</code>, 90: <code>guynmart18_passage1</code>, 90: <code>guynmart18_passage2</code>, 81: <code>guynmart18_s2_20</code></td>
 </tr>
 <tr>
 <td>Source files</td>

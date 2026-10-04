@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>4</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1017,6 +1028,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to walking into a blocked passage on <a href="../../maps/brimhaven_brother1_to_2/">brimhaven_brother1_to_2</a> to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1032,6 +1044,16 @@
 <td>Requires</td>
 <td><a href="../brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a></td>
 <td>stage 100 reached, for stages 100, 110 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../andor/#stage-65">Search for Andor</a></td>
+<td>stage 65 there needs stages 120, 130 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../andor/#stage-910">Search for Andor</a></td>
+<td>stage 910 there needs stage 200 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
@@ -1244,7 +1266,7 @@
 <td>The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam.</td>
 <td><a href="../../monsters/brv_richman/">Alkapoan</a> (<a href="../../maps/brimhaven_house1/">brimhaven_house1</a>)</td>
 <td>stage 120, stage 130</td>
-<td>gives 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a><br>sets stage 65 of <a href="../quests/andor.md#stage-65">andor (hidden flag)</a></td>
+<td>gives 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a><br>sets stage 65 of <a href="../andor/#stage-65">Search for Andor</a></td>
 </tr>
 <tr>
 <td><span id="stage-200"></span>200</td>
@@ -1255,6 +1277,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1359,7 +1382,7 @@
 <details class="note" open="open">
 <summary>Stage 150: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brv_richman/">Alkapoan</a> (<a href="../../maps/brimhaven_house1/">brimhaven_house1</a>) → choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.” — <strong>conditions:</strong> reached stage 130 of <a href="./#stage-130">Much water</a>; reached stage 120 of <a href="./#stage-120">Much water</a> → <strong>stage 150</strong>; also gives 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a>, sets stage 65 of <a href="../quests/andor.md#stage-65">andor (hidden flag)</a>. NPC: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them,…”</li>
+<li>Talk to <a href="../../monsters/brv_richman/">Alkapoan</a> (<a href="../../maps/brimhaven_house1/">brimhaven_house1</a>) → choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.” — <strong>conditions:</strong> reached stage 130 of <a href="./#stage-130">Much water</a>; reached stage 120 of <a href="./#stage-120">Much water</a> → <strong>stage 150</strong>; also gives 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a>, sets stage 65 of <a href="../andor/#stage-65">Search for Andor</a>. NPC: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them,…”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1368,6 +1391,37 @@
 <li>Talk to <a href="../../monsters/brv_guard_captain/">Mustura</a> (<a href="../../maps/brimhaven4/">brimhaven4</a>) → choose “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.” — <strong>conditions:</strong> reached stage 110 of <a href="./#stage-110">Much water</a>; hand over 1× <a href="../../items/alkapoans_letters/">Alkapoans's letters</a> → <strong>stage 200</strong>; also clears stage 100 of <a href="../brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a>, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1. NPC: “We will check this and if it is true then you can leave the town.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.11/">v0.7.11</a></td>
+<td>Added<br>Dialogue: 15 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.12/">v0.7.12</a></td>
+<td>stage 10 journal text changed; stage 30 journal text changed; stage 50 journal text changed; stage 52 journal text changed; stage 54 journal text changed; stage 70 journal text changed (+4 more)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>stages added: 53<br>Dialogue: 1 line added, 1 line changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>stage 100 journal text changed; stage 110 journal text changed</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

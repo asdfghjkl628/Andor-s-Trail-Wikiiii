@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -849,6 +849,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1022,6 +1033,7 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/mg_restless_grave/">Restless in the grave</a>: stages 20, 63, 70, 80, 95, 97, 115, 120</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 125, 999</li>
 <li><a href="../../quests/swamp_healer/">The swamp healer</a>: stages 10, 30</li>
 <li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stages 59</li>
 </ul>
@@ -1030,7 +1042,7 @@
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-vaelric_selector"></span><strong><code>vaelric_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 125 of <a href="../quests/andor.md#stage-125">andor (hidden flag)</a>)</em> → <a href="#d-vaelric_andor_10">vaelric_andor_10</a></li>
+<li>branch 1 <em>(if NOT reached stage 125 of <a href="../../quests/andor/#stage-125">Search for Andor</a>)</em> → <a href="#d-vaelric_andor_10">vaelric_andor_10</a></li>
 <li>branch 2 <em>(if NOT reached stage 10 of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a>)</em> → <a href="#d-vaelric_alone_10">vaelric_alone_10</a></li>
 <li>branch 3 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a> is 10)</em> → <a href="#d-vaelric_need_to_kill_creature_10">vaelric_need_to_kill_creature_10</a></li>
 <li>branch 4 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-20">The swamp healer</a> is 20)</em> → <a href="#d-vaelric_creature_killed_5">vaelric_creature_killed_5</a></li>
@@ -1122,7 +1134,7 @@
 <li>Next <em>(if reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 0× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a>; NOT reached stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-mg_vaelric_reward_45">mg_vaelric_reward_45</a></li>
 <li>branch 5 → <a href="#d-mg_vaelric_reward_missing_ing_10">mg_vaelric_reward_missing_ing_10</a></li>
 </ul>
-<p><span id="d-vaelric_andor_22"></span><strong><code>vaelric_andor_22</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a>, sets stage 125 of <a href="../quests/andor.md#stage-125">andor (hidden flag)</a></p>
+<p><span id="d-vaelric_andor_22"></span><strong><code>vaelric_andor_22</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../../quests/andor/#stage-999">Search for Andor</a>, sets stage 125 of <a href="../../quests/andor/#stage-125">Search for Andor</a></p>
 <ul>
 <li>branch 1 → <a href="#d-vaelric_andor_30">vaelric_andor_30</a></li>
 </ul>
@@ -1174,7 +1186,7 @@
 <ul>
 <li>“I don't?” → <a href="#d-mg_vaelric_reward_missing_ing_20">mg_vaelric_reward_missing_ing_20</a></li>
 </ul>
-<p><span id="d-vaelric_andor_30"></span><strong><code>vaelric_andor_30</code></strong> Vaelric: “What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.” — <strong>effects:</strong> sets stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a></p>
+<p><span id="d-vaelric_andor_30"></span><strong><code>vaelric_andor_30</code></strong> Vaelric: “What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.” — <strong>effects:</strong> sets stage 999 of <a href="../../quests/andor/#stage-999">Search for Andor</a></p>
 <ul>
 <li>“Why are you living out here alone?” → <a href="#d-vaelric_alone_25">vaelric_alone_25</a></li>
 </ul>
@@ -1292,6 +1304,31 @@
 </ul>
 <p><span id="d-mg_vaelric_defeated_eryndor_90"></span><strong><code>mg_vaelric_defeated_eryndor_90</code></strong> Vaelric: “[Turning away, he mutters:] I will take what peace I can, while it lasts. But do not expect my gratitude.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/mg_restless_grave/#stage-120">Restless in the grave</a></p>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Added<br>Dialogue: 68 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.15/">v0.8.15</a></td>
+<td>Dialogue: 1 line changed<br>· text: “Interesting, but not helpful. Go back to search for something useful …” → “Interesting, but not helpful. Go back and search for something useful…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

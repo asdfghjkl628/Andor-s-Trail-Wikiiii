@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -994,7 +1005,7 @@
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
-<td><a href="../../monsters/agent6/">Agent</a>, <a href="../../monsters/agent2/">Agent</a>, <a href="../../monsters/agent3/">Agent</a>, <a href="../../monsters/agent1/">Agent</a>, <a href="../../monsters/agent4/">Agent</a>, <a href="../../monsters/agent5/">Agent</a> +2</td>
+<td><a href="../../monsters/agent6/">Agent</a>, <a href="../../monsters/agent2/">Agent</a>, <a href="../../monsters/agent4/">Agent</a>, <a href="../../monsters/agent5/">Agent</a>, <a href="../../monsters/agent1/">Agent</a>, <a href="../../monsters/agent3/">Agent</a> +2</td>
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>3</td>
+<td>4</td>
 </tr>
 </tbody>
 </table>
@@ -1017,6 +1028,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to <a href="../../monsters/agent1/">Agent</a> (<a href="../../maps/blackwater_mountain5/">blackwater_mountain5</a>) to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1047,6 +1059,11 @@
 <td>Requires</td>
 <td><a href="../prim_hunt/#stage-251">Clouded intent</a></td>
 <td>stage 251 reached, for stage 80 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
+<td><a href="../andor/#stage-110">Search for Andor</a></td>
+<td>stage 110 there needs stage 60 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
@@ -1261,7 +1278,7 @@
 <tr>
 <td><span id="stage-250"></span>250</td>
 <td>I have decided to not help the people of the Blackwater mountain settlement. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>)<br><a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>)</td>
+<td><a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>)<br><a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>)</td>
 <td>stage 70</td>
 <td>–</td>
 </tr>
@@ -1274,6 +1291,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1418,8 +1436,8 @@
 <details class="note" open="open">
 <summary>Stage 250: 2 routes</summary>
 <ol>
-<li>Talk to <a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>) → choose “No. In fact, I think I should help the people of Prim instead.” — <strong>conditions:</strong> reached stage 70 of <a href="./#stage-70">The agent and the beast</a> → <strong>stage 250</strong>. NPC: “Bah. Then you are useless to me. Why did you even bother to come up here and waste my time? Begone.”</li>
 <li>Talk to <a href="../../monsters/guthbered/">Guthbered</a> (<a href="../../maps/blackwater_mountain29/">blackwater_mountain29</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 100 of <a href="../prim_hunt/#stage-100">Clouded intent</a> → <strong>stage 250</strong>. NPC: “Thank you again for your help.”</li>
+<li>Talk to <a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>) → choose “No. In fact, I think I should help the people of Prim instead.” — <strong>conditions:</strong> reached stage 70 of <a href="./#stage-70">The agent and the beast</a> → <strong>stage 250</strong>. NPC: “Bah. Then you are useless to me. Why did you even bother to come up here and waste my time? Begone.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1428,6 +1446,29 @@
 <li>Talk to <a href="../../monsters/harlenn/">Harlenn</a> (<a href="../../maps/blackwater_mountain45/">blackwater_mountain45</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 50 of <a href="../prim_hunt/#stage-50">Clouded intent</a> → <strong>stage 251</strong>. NPC: “Of course we can't have that here. We can't have a spy in our midst. You should leave our settlement while you still…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
@@ -1464,7 +1505,7 @@
 </tr>
 <tr>
 <td>Dialogue nodes setting stages</td>
-<td>1: <code>bwm_agent_1_4</code>, 5: <code>bwm_agent_1_7</code>, 10: <code>bwm_agent_1_14</code>, 20: <code>bwm_agent_2_7</code>, 25: <code>guthbered_22</code>, 30: <code>bwm_agent_3_4</code>, 40: <code>bwm_agent_4_5</code>, 50: <code>bwm_agent_5_6</code>, 60: <code>bwm_agent_6_4</code>, 65: <code>harlenn_14</code>, 66: <code>harlenn_17</code>, 70: <code>harlenn_22</code>, 80: <code>guthbered_attacks_1</code>, 90: <code>harlenn_talkedto_guth_3</code>, 95: <code>harlenn_talkedto_guth_11</code>, 100: <code>sign_blackwater29_qstarted_1</code>, 110: <code>harlenn_lookforsigns_5</code>, 120: <code>harlenn_lookforsigns_11</code>, 120: <code>harlenn_lookforsigns_12</code>, 130: <code>guthbered_sentbybwm_fight</code>, 131: <code>guthbered_sentbybwm_leave</code>, 149: <code>harlenn_killguth_2</code>, 150: <code>harlenn_killguth_4</code>, 240: <code>harlenn_completed</code>, 250: <code>harlenn_prim_7</code>, 250: <code>guthbered_completed_2</code>, 251: <code>harlenn_workingforprim_2</code></td>
+<td>1: <code>bwm_agent_1_4</code>, 5: <code>bwm_agent_1_7</code>, 10: <code>bwm_agent_1_14</code>, 20: <code>bwm_agent_2_7</code>, 25: <code>guthbered_22</code>, 30: <code>bwm_agent_3_4</code>, 40: <code>bwm_agent_4_5</code>, 50: <code>bwm_agent_5_6</code>, 60: <code>bwm_agent_6_4</code>, 65: <code>harlenn_14</code>, 66: <code>harlenn_17</code>, 70: <code>harlenn_22</code>, 80: <code>guthbered_attacks_1</code>, 90: <code>harlenn_talkedto_guth_3</code>, 95: <code>harlenn_talkedto_guth_11</code>, 100: <code>sign_blackwater29_qstarted_1</code>, 110: <code>harlenn_lookforsigns_5</code>, 120: <code>harlenn_lookforsigns_11</code>, 120: <code>harlenn_lookforsigns_12</code>, 130: <code>guthbered_sentbybwm_fight</code>, 131: <code>guthbered_sentbybwm_leave</code>, 149: <code>harlenn_killguth_2</code>, 150: <code>harlenn_killguth_4</code>, 240: <code>harlenn_completed</code>, 250: <code>guthbered_completed_2</code>, 250: <code>harlenn_prim_7</code>, 251: <code>harlenn_workingforprim_2</code></td>
 </tr>
 <tr>
 <td>Dialogue nodes clearing stages</td>

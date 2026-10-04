@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>14</td>
+<td>16</td>
 </tr>
 </tbody>
 </table>
@@ -1018,12 +1029,13 @@
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>Start with <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>). Required:</p>
 <ul>
-<li>reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a></li>
+<li>reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a></li>
 <li>NOT reached stage 1 of <a href="./#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></li>
 <li>NOT reached stage 1 of <a href="../achievements/#stage-1">Unusual experiences and achievements</a></li>
-<li>reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a></li>
-<li>reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a></li>
+<li>reached stage 100 of <a href="../mikhail_bread/#stage-100">Breakfast bread</a></li>
+<li>reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1059,6 +1071,21 @@
 <td>Requires</td>
 <td><a href="../loneford/#stage-55">Flows through the veins</a></td>
 <td>stage 55 reached, for stage 19 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-10">Breakfast bread</a></td>
+<td>stage 10 reached, for stage 1 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-100">Breakfast bread</a></td>
+<td>stage 100 reached, for stage 1 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_rats/#stage-100">Rats!</a></td>
+<td>stage 100 reached, for stage 1 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1519,13 +1546,14 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 1: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “No, thanks.” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; NOT reached stage 1 of <a href="./#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="../achievements/#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a> → <strong>stage 1</strong>. NPC: “No problem. I won't bother you with it again.”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “No, thanks.” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; NOT reached stage 1 of <a href="./#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="../achievements/#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../mikhail_bread/#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a> → <strong>stage 1</strong>. NPC: “No problem. I won't bother you with it again.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1813,6 +1841,61 @@
 <li>Talk to <a href="../../monsters/berbane/">Lord Berbane</a> (<a href="../../maps/stoutford_tavern/">stoutford_tavern</a>) → choose “No, I have...” — <strong>conditions:</strong> reached stage 44 of <a href="../stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a> → <strong>stage 149</strong>; also sets stage 92 of <a href="../stn_quest_gyra/#stage-92">Lost girl looking for lost things</a>. NPC: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.1/">v0.7.1</a></td>
+<td>stages added: 5</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>stages added: 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39; stage 20 journal text changed<br>Dialogue: 16 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.8/">v0.7.8</a></td>
+<td>Dialogue: 1 line changed<br>· text: “You see large shapes moving in the shadows to the East. It looks dang…” → “You see large shapes moving in the shadows to the east. It looks dang…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>stages added: 1<br>Dialogue: 1 line added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.8/">v0.8.8</a></td>
+<td>Dialogue: 1 line added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.11/">v0.8.11</a></td>
+<td>stages added: 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52<br>Dialogue: 24 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
+<td>Dialogue: 1 line changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>stages added: 60, 70<br>Dialogue: 1 line added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.15/">v0.8.15</a></td>
+<td>stages added: 80, 81, 82, 83, 84, 85, 87, 88, 89<br>Dialogue: 9 lines added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
@@ -1853,7 +1936,7 @@
 </tr>
 <tr>
 <td>Dialogue nodes clearing stages</td>
-<td>40: <code>script_close_cave_door_1</code>, 43: <code>script_open_korhald_tomb_door_1</code>, 42: <code>script_close_korhald_tomb_door_1</code>, 44: <code>mysterious_map_waterway7_0</code>, 44: <code>korhald_cave1_found</code>, 44: <code>mysterious_map_44_remove_reward</code>, 45: <code>mysterious_map_waterway9_0</code>, 45: <code>korhald_cave1_found</code>, 48: <code>korhald_cave1_found</code>, 48: <code>mysterious_map_stop_and_review_korhald_cave_outdoor1</code></td>
+<td>25: <code>script_close_glade_door_1</code>, 26: <code>script_open_glade_door_1</code>, 31: <code>script_lakecave1_damerilia1_2</code>, 33: <code>script_lakecave1_damerilia2_2</code>, 35: <code>script_lakecave1_damerilia3_2</code>, 37: <code>script_lakecave1_damerilia4_2</code>, 39: <code>script_lakecave1_damerilia5_2</code>, 30: <code>script_grow_lakecave1_damerilias_1</code>, 32: <code>script_grow_lakecave1_damerilias_2</code>, 34: <code>script_grow_lakecave1_damerilias_3</code></td>
 </tr>
 <tr>
 <td>Source files</td>

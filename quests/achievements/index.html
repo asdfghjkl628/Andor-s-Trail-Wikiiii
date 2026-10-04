@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,10 +1017,14 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>7</td>
+<td>9</td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="admonition history">
+<p class="admonition-title">Version note</p>
+<p>As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.13.</p>
 </div>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <blockquote>
@@ -1018,12 +1033,13 @@
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>Start with <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>). Required:</p>
 <ul>
-<li>reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a></li>
+<li>reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a></li>
 <li>NOT reached stage 1 of <a href="../nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></li>
 <li>NOT reached stage 1 of <a href="./#stage-1">Unusual experiences and achievements</a></li>
-<li>reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a></li>
-<li>reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a></li>
+<li>reached stage 100 of <a href="../mikhail_bread/#stage-100">Breakfast bread</a></li>
+<li>reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1049,6 +1065,21 @@
 <td>Requires</td>
 <td><a href="../guynmart_nondisplay/#stage-59">guynmart nondisplay (hidden flag)</a></td>
 <td>stage 59 reached, for stage 60 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-10">Breakfast bread</a></td>
+<td>stage 10 reached, for stage 1 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-100">Breakfast bread</a></td>
+<td>stage 100 reached, for stage 1 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_rats/#stage-100">Rats!</a></td>
+<td>stage 100 reached, for stage 1 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1314,13 +1345,14 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 1: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, sounds great.” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; NOT reached stage 1 of <a href="../nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="./#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a> → <strong>stage 1</strong>. NPC: “Here you are.”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, sounds great.” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; NOT reached stage 1 of <a href="../nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="./#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../mikhail_bread/#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a> → <strong>stage 1</strong>. NPC: “Here you are.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1416,6 +1448,62 @@
 <li>Talk to <a href="../../monsters/mg2_wolves/">Galmore wolf</a> (<a href="../../maps/galmore_54/">galmore_54</a>) → choose “Grrr, grrr” — <strong>conditions:</strong> wearing <a href="../../items/packhide/">Wolfpack's animal hide</a> → <strong>stage 200</strong>. NPC: “You may go thrrrough herrre. No tarrrrying.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<p><strong>Completability:</strong> As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.13.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>Added<br>Dialogue: 11 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.2/">v0.8.2</a></td>
+<td>stages added: 110, 120</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.4/">v0.8.4</a></td>
+<td>Dialogue: 2 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.5/">v0.8.5</a></td>
+<td>stages added: 125; stage 80 journal text changed<br>Dialogue: 2 lines added, 1 line changed<br>· text: “This must be the great Duleian Road! I have heard so much of it - and…” → “This must be the great Duleian Road! I have heard so much about it - …”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.7/">v0.8.7</a></td>
+<td>stage 110 journal text changed; stage 120 journal text changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.10/">v0.8.10</a></td>
+<td>stages added: 130<br>Dialogue: 1 line added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.11/">v0.8.11</a></td>
+<td>stages added: 135; stages removed: 130<br>Dialogue: 1 line added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
+<td>stages added: 130; stage 135 journal text changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>stages added: 150, 200<br>Dialogue: 3 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>stages added: 160, 225; stage 30 journal text changed<br>Dialogue: 1 line changed<br>· text: “Reflecting on your journey, you marvel at how you were able to go fro…” → “Reflecting on your journey, you marvel at how you were able to go fro…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

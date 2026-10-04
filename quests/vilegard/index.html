@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -990,7 +1001,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>), <a href="../../monsters/tharwyn/">Tharwyn</a> (<a href="../../maps/vilegard_tavern/">vilegard_tavern</a>)</td>
+<td><a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>), <a href="../../monsters/grumpy_vilegard_villager/">Grumpy Vilegard villager</a> (<a href="../../maps/vilegard_n/">vilegard_n</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1017,6 +1028,7 @@
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>None: talk to <a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>) to begin.</p>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1100,7 +1112,7 @@
 <tr>
 <td><span id="stage-10"></span>10</td>
 <td>The people of Vilegard are very suspicious of outsiders. I was told to go see Jolnor in the Vilegard chapel if I want to gain their trust.</td>
-<td><a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>)<br><a href="../../monsters/tharwyn/">Tharwyn</a> (<a href="../../maps/vilegard_tavern/">vilegard_tavern</a>)<br><a href="../../monsters/vilegard_armorer/">Vilegard armorer</a> (<a href="../../maps/vilegard_armorer/">vilegard_armorer</a>)<br>+3 more</td>
+<td><a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>)<br><a href="../../monsters/grumpy_vilegard_villager/">Grumpy Vilegard villager</a> (<a href="../../maps/vilegard_n/">vilegard_n</a>)<br><a href="../../monsters/vilegard_woman/">Vilegard woman</a> (<a href="../../maps/vilegard_s/">vilegard_s</a>)<br>+3 more</td>
 <td>–</td>
 <td>–</td>
 </tr>
@@ -1120,17 +1132,18 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 10: 6 routes</summary>
 <ol>
 <li>Talk to <a href="../../monsters/kaori/">Kaori</a> (<a href="../../maps/vilegard_kaori/">vilegard_kaori</a>) → choose “Why is everyone in Vilegard so afraid of outsiders?” → <strong>stage 10</strong>. NPC: “I don't want to talk to you. Go talk to Jolnor in the chapel if you want to help us.”</li>
+<li>Talk to <a href="../../monsters/grumpy_vilegard_villager/">Grumpy Vilegard villager</a> (<a href="../../maps/vilegard_n/">vilegard_n</a>) → choose “Why is everyone in Vilegard so afraid of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
+<li>Talk to <a href="../../monsters/vilegard_woman/">Vilegard woman</a> (<a href="../../maps/vilegard_s/">vilegard_s</a>) → choose “Why is everyone in Vilegard so afraid of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
 <li>Talk to <a href="../../monsters/tharwyn/">Tharwyn</a> (<a href="../../maps/vilegard_tavern/">vilegard_tavern</a>) → choose “Why is everyone in Vilegard so suspicious of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
 <li>Talk to <a href="../../monsters/vilegard_armorer/">Vilegard armorer</a> (<a href="../../maps/vilegard_armorer/">vilegard_armorer</a>) → choose “Why is everyone in Vilegard so suspicious of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
 <li>Talk to <a href="../../monsters/vilegard_smith/">Vilegard smith</a> (<a href="../../maps/vilegard_smith/">vilegard_smith</a>) → choose “Why is everyone in Vilegard so suspicious of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
-<li>Talk to <a href="../../monsters/grumpy_vilegard_villager/">Grumpy Vilegard villager</a> (<a href="../../maps/vilegard_n/">vilegard_n</a>) → choose “Why is everyone in Vilegard so afraid of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
-<li>Talk to <a href="../../monsters/vilegard_woman/">Vilegard woman</a> (<a href="../../maps/vilegard_s/">vilegard_s</a>) → choose “Why is everyone in Vilegard so afraid of outsiders?” → <strong>stage 10</strong>. NPC: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1145,6 +1158,29 @@
 <li>Talk to <a href="../../monsters/jolnor/">Jolnor</a> (<a href="../../maps/vilegard_chapel/">vilegard_chapel</a>) → choose “I have done all the tasks you asked me to do.” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Trusting an outsider</a>; reached stage 30 of <a href="../jolnor/#stage-30">Spies in the foam</a>; reached stage 20 of <a href="../kaori/#stage-20">Kaori's errands</a>; reached stage 90 of <a href="../wrye/#stage-90">Uncertain cause</a> → <strong>stage 30</strong>. NPC: “Good. You helped all three of us.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>
@@ -1181,7 +1217,7 @@
 </tr>
 <tr>
 <td>Dialogue nodes setting stages</td>
-<td>10: <code>kaori_2</code>, 10: <code>vilegard_shop_notrust_2</code>, 10: <code>vilegard_villager_5_1</code>, 20: <code>jolnor_gaintrust_15</code>, 30: <code>jolnor_quests_completed</code></td>
+<td>10: <code>kaori_2</code>, 10: <code>vilegard_villager_5_1</code>, 10: <code>vilegard_shop_notrust_2</code>, 20: <code>jolnor_gaintrust_15</code>, 30: <code>jolnor_quests_completed</code></td>
 </tr>
 <tr>
 <td>Dialogue nodes clearing stages</td>

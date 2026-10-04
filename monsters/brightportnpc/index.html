@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -984,6 +995,7 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/Stanwickquest/">No rest for the wicked</a>: stages 20, 25, 110</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 126, 127, 128</li>
 <li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 70</li>
 </ul>
 <details class="quote">
@@ -991,9 +1003,9 @@
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-brightport_stanwick_selector"></span><strong><code>brightport_stanwick_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_common">brightport_stanwick_common</a></li>
-<li>Next <em>(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_andor0">brightport_stanwick_andor0</a></li>
-<li>Next <em>(if reached stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>; NOT reached stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_end">brightport_stanwick_end</a></li>
+<li>Next <em>(if reached stage 128 of <a href="../../quests/andor/#stage-128">Search for Andor</a>)</em> → <a href="#d-brightport_stanwick_common">brightport_stanwick_common</a></li>
+<li>Next <em>(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of <a href="../../quests/andor/#stage-128">Search for Andor</a>)</em> → <a href="#d-brightport_stanwick_andor0">brightport_stanwick_andor0</a></li>
+<li>Next <em>(if reached stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>; NOT reached stage 128 of <a href="../../quests/andor/#stage-128">Search for Andor</a>)</em> → <a href="#d-brightport_stanwick_end">brightport_stanwick_end</a></li>
 <li>Next <em>(if reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>; NOT reached stage 70 of <a href="../../quests/brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick12">brightport_stanwick12</a></li>
 <li>Next <em>(if reached stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>; NOT reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick7">brightport_stanwick7</a></li>
 <li>Next <em>(if NOT reached stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>; reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick1">brightport_stanwick1</a></li>
@@ -1019,7 +1031,7 @@
 <li>“I have these fruits for you.” <em>(if hand over 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>)</em> → <a href="#d-brightport_stanwick_fruit">brightport_stanwick_fruit</a></li>
 <li>“I'm still investigating. [Leave]” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brightport_stanwick7"></span><strong><code>brightport_stanwick7</code></strong> Stanwick: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>, sets stage 126 of <a href="../quests/andor.md#stage-126">andor (hidden flag)</a></p>
+<p><span id="d-brightport_stanwick7"></span><strong><code>brightport_stanwick7</code></strong> Stanwick: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Stanwickquest/#stage-20">No rest for the wicked</a>, sets stage 126 of <a href="../../quests/andor/#stage-126">Search for Andor</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_stanwick8">brightport_stanwick8</a></li>
 </ul>
@@ -1032,7 +1044,7 @@
 <ul>
 <li>Next → <a href="#d-brightport_stanwick_andor2">brightport_stanwick_andor2</a></li>
 </ul>
-<p><span id="d-brightport_stanwick_andor"></span><strong><code>brightport_stanwick_andor</code></strong> Stanwick: “Once I collect my memories I will tell you about Andor. Please come back in a few minutes.” — <strong>effects:</strong> sets stage 127 of <a href="../quests/andor.md#stage-127">andor (hidden flag)</a>, starts timer “stanwick”</p>
+<p><span id="d-brightport_stanwick_andor"></span><strong><code>brightport_stanwick_andor</code></strong> Stanwick: “Once I collect my memories I will tell you about Andor. Please come back in a few minutes.” — <strong>effects:</strong> sets stage 127 of <a href="../../quests/andor/#stage-127">Search for Andor</a>, starts timer “stanwick”</p>
 <p><span id="d-brightport_stanwick13"></span><strong><code>brightport_stanwick13</code></strong> Stanwick: “I gave the headmaster my library key. You should try asking him.”</p>
 <ul>
 <li>“I already did and he refused to give me the key.” <em>(if reached stage 46 of <a href="../../quests/Stanwickquest/#stage-46">No rest for the wicked</a>)</em> → <a href="#d-brightport_stanwick_key">brightport_stanwick_key</a></li>
@@ -1120,7 +1132,7 @@
 <p><span id="d-brightport_stanwick_andor5"></span><strong><code>brightport_stanwick_andor5</code></strong> Stanwick: “Yeah, just as I thought. There's a strange connection I feel between Andor going missing and Nor City. I mean, you've heard what those Feygard folk say about it. Those who've been there know it's not true, but the others always call it a…”</p>
 <ul>
 <li>“Do you think Andor went there?” → <a href="#d-brightport_stanwick_andor6">brightport_stanwick_andor6</a></li>
-<li>“I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]” <em>(if reached stage 72 of <a href="../quests/andor.md#stage-72">andor (hidden flag)</a>)</em> → <a href="#d-brightport_stanwick_andor8">brightport_stanwick_andor8</a></li>
+<li>“I think so too, on my travels I met a person named Lodar and... [Tell him the whole story.]” <em>(if reached stage 72 of <a href="../../quests/andor/#stage-72">Search for Andor</a>)</em> → <a href="#d-brightport_stanwick_andor8">brightport_stanwick_andor8</a></li>
 </ul>
 <p><span id="d-brightport_stanwick_andor6"></span><strong><code>brightport_stanwick_andor6</code></strong> Stanwick: “Perhaps. We've spent hours discussing the visage of the city as you approach its gates, the craftsmen and merchants going about. Even the unsavory buildings which add to the charm. We've spent equal amounts reading about Feygard, but if…”</p>
 <ul>
@@ -1134,12 +1146,33 @@
 <ul>
 <li>Next → <a href="#d-brightport_stanwick_andor9">brightport_stanwick_andor9</a></li>
 </ul>
-<p><span id="d-brightport_stanwick_andor9"></span><strong><code>brightport_stanwick_andor9</code></strong> Stanwick: “This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.” — <strong>effects:</strong> sets stage 128 of <a href="../quests/andor.md#stage-128">andor (hidden flag)</a>, gives 1× <a href="../../items/brightport_ring/">Stanwick's signet ring</a></p>
+<p><span id="d-brightport_stanwick_andor9"></span><strong><code>brightport_stanwick_andor9</code></strong> Stanwick: “This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.” — <strong>effects:</strong> sets stage 128 of <a href="../../quests/andor/#stage-128">Search for Andor</a>, gives 1× <a href="../../items/brightport_ring/">Stanwick's signet ring</a></p>
 <ul>
 <li>“Thank you Stanwick, see you later!” → <em>conversation ends</em></li>
 <li>“It was worth the trouble.” → <em>conversation ends</em></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
+<td>Added<br>Dialogue: 37 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 1 line changed<br>· text: “What this Lodar man told you lines up with what I've said, without a …” → “What this Lodar man told you lines up with what I've said, without a …”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

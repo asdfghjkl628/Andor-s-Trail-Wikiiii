@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -821,6 +821,28 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#community-notes" class="md-nav__link">
@@ -955,13 +977,17 @@
 </tr>
 </tbody>
 </table>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/jan/">Fallen friends</a>: stages 10, 100</li>
+</ul>
 <details class="quote">
 <summary>Dialogue (20 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-jan_start_select"></span><strong><code>jan_start_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/jan.md#stage-100">jan (hidden flag)</a>)</em> → <a href="#d-jan_complete2">jan_complete2</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/jan.md#stage-10">jan (hidden flag)</a>)</em> → <a href="#d-jan_return">jan_return</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/jan/#stage-100">Fallen friends</a>)</em> → <a href="#d-jan_complete2">jan_complete2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/jan/#stage-10">Fallen friends</a>)</em> → <a href="#d-jan_return">jan_return</a></li>
 <li>branch 3 → <a href="#d-jan_default">jan_default</a></li>
 </ul>
 <p><span id="d-jan_complete2"></span><strong><code>jan_complete2</code></strong> Jan: “Thanks for dealing with Irogotu earlier! I am forever in debt to you.”</p>
@@ -990,7 +1016,7 @@
 <li>“I wasn't listening that much the first time you told it. What was that about a treasure?” → <a href="#d-jan_default4">jan_default4</a></li>
 <li>“No, never mind. I remember it now.” → <a href="#d-jan_default14">jan_default14</a></li>
 </ul>
-<p><span id="d-jan_complete"></span><strong><code>jan_complete</code></strong> Jan: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/jan.md#stage-100">jan (hidden flag)</a></p>
+<p><span id="d-jan_complete"></span><strong><code>jan_complete</code></strong> Jan: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/jan/#stage-100">Fallen friends</a></p>
 <ul>
 <li>“Glad that I could help. Goodbye.” → <em>conversation ends</em></li>
 <li>“Shadow be with you. Goodbye.” → <em>conversation ends</em></li>
@@ -1043,7 +1069,7 @@
 <li>“Sure. Irogotu should pay for what he did.” → <a href="#d-jan_default12">jan_default12</a></li>
 <li>“No thanks, I would rather not be involved in this. It sounds dangerous.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-jan_default12"></span><strong><code>jan_default12</code></strong> Jan: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/jan.md#stage-10">jan (hidden flag)</a></p>
+<p><span id="d-jan_default12"></span><strong><code>jan_default12</code></strong> Jan: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/jan/#stage-10">Fallen friends</a></p>
 <ul>
 <li>Next → <a href="#d-jan_default13">jan_default13</a></li>
 </ul>
@@ -1054,6 +1080,27 @@
 <li>“Never mind, goodbye.” → <em>conversation ends</em></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 8 lines changed<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…”<br>· text: “That's when it happened. <em>sob</em> Oh what have we done?” → “That's when it happened. <em>sob</em> Oh what have we done?”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

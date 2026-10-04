@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>2</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>
@@ -1020,9 +1031,10 @@
 <ul>
 <li>NOT reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a></li>
 <li>reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a></li>
-<li>reached stage 110 of <a href="../quests/andor.md#stage-110">andor (hidden flag)</a></li>
+<li>reached stage 110 of <a href="../andor/#stage-110">Search for Andor</a></li>
 <li>NOT reached stage 66 of <a href="../brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1034,6 +1046,16 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-110">Search for Andor</a></td>
+<td>stage 110 reached, for stages 5, 10 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-132">Search for Andor</a></td>
+<td>stage 132 reached, for stages 96, 97, 100 here</td>
+</tr>
 <tr>
 <td>Requires</td>
 <td><a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a></td>
@@ -1131,6 +1153,11 @@
 </tr>
 <tr>
 <td>Unlocks</td>
+<td><a href="../andor/#stage-126">Search for Andor</a></td>
+<td>stage 126 there needs stage 20 here</td>
+</tr>
+<tr>
+<td>Unlocks</td>
 <td><a href="../brightport_lizard/#stage-5">The balance of scales</a></td>
 <td>stage 5 there needs stage 95 here</td>
 </tr>
@@ -1179,6 +1206,11 @@
 <td><a href="../brightport_nondisplay/#stage-248">brightport_nondisplay (hidden flag)</a></td>
 <td>stage 248 there needs stages 10, 55 here</td>
 </tr>
+<tr>
+<td>Blocks</td>
+<td><a href="../andor/#stage-126">Search for Andor</a></td>
+<td>reaching stage 25 here closes stage 126 there</td>
+</tr>
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
@@ -1226,7 +1258,7 @@
 <td>Stanwick has something important to tell me about Andor, but I must help him first.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brightport_school7/">Brightport school7</a>.</span></td>
 <td>stepping on a trigger on <a href="../../maps/brightport_school7/">brightport_school7</a><br><a href="../../monsters/brightportnpc/">Stanwick</a> (<a href="../../maps/brightport_school7/">brightport_school7</a>)</td>
 <td>–</td>
-<td>sets stage 126 of <a href="../quests/andor.md#stage-126">andor (hidden flag)</a></td>
+<td>sets stage 126 of <a href="../andor/#stage-126">Search for Andor</a></td>
 </tr>
 <tr>
 <td><span id="stage-25"></span>25</td>
@@ -1405,18 +1437,19 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 5: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc3/">Dibella</a> (<a href="../../maps/brightport_school/">brightport_school</a>) → choose “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>; reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>; reached stage 110 of <a href="../quests/andor.md#stage-110">andor (hidden flag)</a>; NOT reached stage 66 of <a href="../brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a> → <strong>stage 5</strong>. NPC: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed…”</li>
+<li>Talk to <a href="../../monsters/brightportnpc3/">Dibella</a> (<a href="../../maps/brightport_school/">brightport_school</a>) → choose “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” — <strong>conditions:</strong> NOT reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>; reached stage 40 of <a href="../brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>; reached stage 110 of <a href="../andor/#stage-110">Search for Andor</a>; NOT reached stage 66 of <a href="../brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a> → <strong>stage 5</strong>. NPC: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 10: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc8/">Janwick</a> (<a href="../../maps/brightport_stanwick/">brightport_stanwick</a>) → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">No rest for the wicked</a>; reached stage 110 of <a href="../quests/andor.md#stage-110">andor (hidden flag)</a> → <strong>stage 10</strong>; also gives 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>. NPC: “He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?”</li>
+<li>Talk to <a href="../../monsters/brightportnpc8/">Janwick</a> (<a href="../../maps/brightport_stanwick/">brightport_stanwick</a>) → the conversation leads here automatically — <strong>conditions:</strong> NOT reached stage 10 of <a href="./#stage-10">No rest for the wicked</a>; reached stage 110 of <a href="../andor/#stage-110">Search for Andor</a> → <strong>stage 10</strong>; also gives 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>. NPC: “He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1434,8 +1467,8 @@
 <details class="note" open="open">
 <summary>Stage 20: 2 routes</summary>
 <ol>
-<li>stepping on a trigger on <a href="../../maps/brightport_school7/">brightport_school7</a> → choose “That might be something that could help my search. Could you tell me more?” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brightport_nondisplay/#stage-50">brightport_nondisplay (hidden flag)</a> → <strong>stage 20</strong>; also sets stage 126 of <a href="../quests/andor.md#stage-126">andor (hidden flag)</a>. NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”</li>
-<li>Talk to <a href="../../monsters/brightportnpc/">Stanwick</a> (<a href="../../maps/brightport_school7/">brightport_school7</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">No rest for the wicked</a>; NOT reached stage 25 of <a href="./#stage-25">No rest for the wicked</a> → <strong>stage 20</strong>; also sets stage 126 of <a href="../quests/andor.md#stage-126">andor (hidden flag)</a>. NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”</li>
+<li>stepping on a trigger on <a href="../../maps/brightport_school7/">brightport_school7</a> → choose “That might be something that could help my search. Could you tell me more?” — <strong>conditions:</strong> NOT reached stage 50 of <a href="../brightport_nondisplay/#stage-50">brightport_nondisplay (hidden flag)</a> → <strong>stage 20</strong>; also sets stage 126 of <a href="../andor/#stage-126">Search for Andor</a>. NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”</li>
+<li>Talk to <a href="../../monsters/brightportnpc/">Stanwick</a> (<a href="../../maps/brightport_school7/">brightport_school7</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">No rest for the wicked</a>; NOT reached stage 25 of <a href="./#stage-25">No rest for the wicked</a> → <strong>stage 20</strong>; also sets stage 126 of <a href="../andor/#stage-126">Search for Andor</a>. NPC: “I wish I could, but now's not the right time. This incident that's happened left my mind in a haze.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1568,19 +1601,19 @@
 <details class="note" open="open">
 <summary>Stage 96: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a> → <strong>stage 96</strong>. NPC: “And now on the matter of Stanwick. The academy will release him, with an apology letter, and I will personally make…”</li>
+<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../andor/#stage-132">Search for Andor</a> → <strong>stage 96</strong>. NPC: “And now on the matter of Stanwick. The academy will release him, with an apology letter, and I will personally make…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 97: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; reached stage 47 of <a href="./#stage-47">No rest for the wicked</a> → <strong>stage 97</strong>. NPC: “Stealing the key was not very nice of you. Consider your reward the fact that I overlooked it this time.”</li>
+<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../andor/#stage-132">Search for Andor</a>; reached stage 47 of <a href="./#stage-47">No rest for the wicked</a> → <strong>stage 97</strong>. NPC: “Stealing the key was not very nice of you. Consider your reward the fact that I overlooked it this time.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 100: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../quests/andor.md#stage-132">andor (hidden flag)</a>; NOT reached stage 47 of <a href="./#stage-47">No rest for the wicked</a> → <strong>stage 100</strong>; also gives 1× <a href="../../items/brightportgloves/">Deerskin gloves</a>. NPC: “Please have these Deerskin gloves as a sign of my gratitude. Those are as sturdy as leather can be.”</li>
+<li>Talk to <a href="../../monsters/brightportnpc6/">Oswald</a> (<a href="../../maps/brightport_school9/">brightport_school9</a>) → choose “It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.” — <strong>conditions:</strong> reached stage 85 of <a href="../brightport_nondisplay/#stage-85">brightport_nondisplay (hidden flag)</a>; reached stage 132 of <a href="../andor/#stage-132">Search for Andor</a>; NOT reached stage 47 of <a href="./#stage-47">No rest for the wicked</a> → <strong>stage 100</strong>; also gives 1× <a href="../../items/brightportgloves/">Deerskin gloves</a>. NPC: “Please have these Deerskin gloves as a sign of my gratitude. Those are as sturdy as leather can be.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1589,6 +1622,25 @@
 <li>Talk to <a href="../../monsters/brightportnpc/">Stanwick</a> (<a href="../../maps/brightport_school7/">brightport_school7</a>) → choose “I returned the scroll to the headmaster, he'll release an apology for you later.” — <strong>conditions:</strong> reached stage 25 of <a href="./#stage-25">No rest for the wicked</a>; NOT reached stage 70 of <a href="../brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>; reached stage 96 of <a href="./#stage-96">No rest for the wicked</a> → <strong>stage 110</strong>; also sets stage 70 of <a href="../brightport_nondisplay/#stage-70">brightport_nondisplay (hidden flag)</a>. NPC: “Stanwick lets out a deep breath, his expression softening with visible relief as he sits down on his bed.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.16.1/">v0.8.16.1</a></td>
+<td>Added<br>Dialogue: 30 lines added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

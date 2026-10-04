@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -994,7 +1005,7 @@
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
-<td><a href="../../monsters/nanath/">Nanath</a>, <a href="../../monsters/tt_seraphina5/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina4/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina2/">Sly Seraphina</a>, <a href="../../monsters/thief_seraphina/">Sly Seraphina</a> +2</td>
+<td><a href="../../monsters/nanath/">Nanath</a>, <a href="../../monsters/thief_seraphina/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina5/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina2/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina/">Sly Seraphina</a>, <a href="../../monsters/tt_seraphina4/">Sly Seraphina</a> +2</td>
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
@@ -1040,6 +1051,7 @@
 <ul>
 <li>nothing</li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1416,7 +1428,8 @@
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.</p>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1661,6 +1674,29 @@
 <li>Talk to <a href="../../monsters/thief_seraphina/">Sly Seraphina</a> (<a href="../../maps/lake_shore_road_9/">lake_shore_road_9</a>) → choose “Yes, that would be nice.” — <strong>conditions:</strong> reached stage 75 of <a href="../Thieves04/#stage-75">Another ruthless Crackshot</a>; reached stage 270 of <a href="./#stage-270">Troubling times</a>; NOT reached stage 320 of <a href="./#stage-320">Troubling times</a> → <strong>stage 320</strong>. NPC: “And now buzz off, kid. ... $playername.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.13/">v0.8.13</a></td>
+<td>Added<br>Dialogue: 40 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “By the way, here's your money back. 1000 gold.” → “By the way, here's your money back. {1000} gold.”<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

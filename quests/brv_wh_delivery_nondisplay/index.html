@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1010,7 +1021,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>3</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1026,6 +1037,7 @@
 <li>reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a></li>
 <li>reached stage 20 of <a href="../brv_wh_delivery/#stage-20">Delivery</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1037,6 +1049,11 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-51">Search for Andor</a></td>
+<td>stage 51 reached, for stage 70 here</td>
+</tr>
 <tr>
 <td>Requires</td>
 <td><a href="../brv_wh_delivery/#stage-10">Delivery</a></td>
@@ -1096,6 +1113,11 @@
 <td>Requires</td>
 <td><a href="../mermaid_scale/#stage-200">The silver scale</a></td>
 <td>stage 200 reached, for stage 50 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../mikhail_bread/#stage-10">Breakfast bread</a></td>
+<td>stage 10 reached, for stage 90 here</td>
 </tr>
 <tr>
 <td>Requires</td>
@@ -1188,6 +1210,7 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
@@ -1229,7 +1252,7 @@
 <details class="note" open="open">
 <summary>Stage 70: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/arghes/">Arghes</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; hand over 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a> → <strong>stage 70</strong>; also clears stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a>, gives 50× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes kid, thank you. Here, take this gold for them.”</li>
+<li>Talk to <a href="../../monsters/arghes/">Arghes</a> (<a href="../../maps/remgard_tavern0/">remgard_tavern0</a>) → choose “And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; hand over 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a> → <strong>stage 70</strong>; also clears stage 80 of <a href="../brv_wh_delivery/#stage-80">Delivery</a>, gives 50× <a href="../../items/gold/">Gold coins</a>. NPC: “Yes kid, thank you. Here, take this gold for them.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1241,7 +1264,7 @@
 <details class="note" open="open">
 <summary>Stage 90: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” — <strong>conditions:</strong> reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>; hand over 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a> → <strong>stage 90</strong>; also clears stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a>. NPC: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.”</li>
+<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” — <strong>conditions:</strong> reached stage 10 of <a href="../mikhail_bread/#stage-10">Breakfast bread</a>; hand over 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a> → <strong>stage 90</strong>; also clears stage 100 of <a href="../brv_wh_delivery/#stage-100">Delivery</a>. NPC: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1250,6 +1273,25 @@
 <li>Talk to <a href="../../monsters/brv_fortune_teller/">Pangitain</a> (<a href="../../maps/brimhaven_fortune_teller/">brimhaven_fortune_teller</a>) → choose “So you are the one who ordered a 'Crystal Globe'?” — <strong>conditions:</strong> hand over 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; reached stage 10 of <a href="../brv_wh_delivery/#stage-10">Delivery</a>; reached stage 110 of <a href="../brv_wh_delivery/#stage-110">Delivery</a> → <strong>stage 100</strong>; also clears stage 110 of <a href="../brv_wh_delivery/#stage-110">Delivery</a>, gives 100× <a href="../../items/gold/">Gold coins</a>. NPC: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen…”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.17/">v0.7.17</a></td>
+<td>Added<br>Dialogue: 10 lines added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

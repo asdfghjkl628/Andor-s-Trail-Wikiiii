@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -821,6 +821,28 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#community-notes" class="md-nav__link">
@@ -955,13 +977,17 @@
 </tr>
 </tbody>
 </table>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/nocmar/">Lost treasures</a>: stages 10, 50</li>
+</ul>
 <details class="quote">
 <summary>Dialogue (24 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
 <p><span id="d-unnmir"></span><strong><code>unnmir</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if latest stage of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a> is 10)</em> → <a href="#d-unnmir_r">unnmir_r</a></li>
-<li>branch 2 <em>(if reached stage 40 of <a href="../quests/nocmar.md#stage-40">nocmar (hidden flag)</a>)</em> → <a href="#d-unnmir_hs_10">unnmir_hs_10</a></li>
+<li>branch 1 <em>(if latest stage of <a href="../../quests/nocmar/#stage-10">Lost treasures</a> is 10)</em> → <a href="#d-unnmir_r">unnmir_r</a></li>
+<li>branch 2 <em>(if reached stage 40 of <a href="../../quests/nocmar/#stage-40">Lost treasures</a>)</em> → <a href="#d-unnmir_hs_10">unnmir_hs_10</a></li>
 <li>branch 3 → <a href="#d-unnmir_0">unnmir_0</a></li>
 </ul>
 <p><span id="d-unnmir_r"></span><strong><code>unnmir_r</code></strong> Unnmir: “Hello again. You should go talk to Nocmar.”</p>
@@ -970,12 +996,12 @@
 </ul>
 <p><span id="d-unnmir_hs_10"></span><strong><code>unnmir_hs_10</code></strong> Unnmir: “You've come back to visit me?”</p>
 <ul>
-<li>“Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot carry it.” <em>(if NOT reached stage 50 of <a href="../quests/nocmar.md#stage-50">nocmar (hidden flag)</a>)</em> → <a href="#d-unnmir_hs_20">unnmir_hs_20</a></li>
+<li>“Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot carry it.” <em>(if NOT reached stage 50 of <a href="../../quests/nocmar/#stage-50">Lost treasures</a>)</em> → <a href="#d-unnmir_hs_20">unnmir_hs_20</a></li>
 <li>“I don't want to hold you from your busy day. I will leave now.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-unnmir_0"></span><strong><code>unnmir_0</code></strong> Unnmir: “Hi there.”</p>
 <ul>
-<li>“There was a drunk outside the tavern that told me a story about you two.” <em>(if reached stage 100 of <a href="../quests/fallhavendrunk.md#stage-100">fallhavendrunk (hidden flag)</a>)</em> → <a href="#d-unnmir_1">unnmir_1</a></li>
+<li>“There was a drunk outside the tavern that told me a story about you two.” <em>(if reached stage 100 of <a href="../../quests/fallhavendrunk/#stage-100">Drunken tale</a>)</em> → <a href="#d-unnmir_1">unnmir_1</a></li>
 <li>“Inside Undertell, I stumbled across the remains of an adventurer. Among his possessions, he had a 'Jewel of Fallhaven'.” <em>(if reached stage 10 of <a href="../../quests/undertell_book/#stage-10">Undertell: What was not written</a>; NOT reached stage 40 of <a href="../../quests/undertell_book/#stage-40">Undertell: What was not written</a>; carry 1× <a href="../../items/undertell_book/">Undertell: Its Ghosts and History</a>)</em> → <a href="#d-unnmir_undertell_book_10">unnmir_undertell_book_10</a></li>
 </ul>
 <p><span id="d-unnmir_13"></span><strong><code>unnmir_13</code></strong> Unnmir: “His house is just southwest of the tavern.”</p>
@@ -1018,7 +1044,7 @@
 <ul>
 <li>“OK, you don't know then. Thanks anyway.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-unnmir_hs_30"></span><strong><code>unnmir_hs_30</code></strong> <a href="./">Unnmir</a>: “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged, you'll need to brave the peak. No one else can do this but you.” — <strong>effects:</strong> sets stage 50 of <a href="../quests/nocmar.md#stage-50">nocmar (hidden flag)</a></p>
+<p><span id="d-unnmir_hs_30"></span><strong><code>unnmir_hs_30</code></strong> <a href="./">Unnmir</a>: “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged, you'll need to brave the peak. No one else can do this but you.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/nocmar/#stage-50">Lost treasures</a></p>
 <ul>
 <li>“Great. Thanks. That helps a lot.” → <em>conversation ends</em></li>
 </ul>
@@ -1051,12 +1077,37 @@
 <li>“Yes” → <a href="#d-unnmir_11">unnmir_11</a></li>
 <li>“No, not really.” → <a href="#d-unnmir_12">unnmir_12</a></li>
 </ul>
-<p><span id="d-unnmir_11"></span><strong><code>unnmir_11</code></strong> Unnmir: “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by the west side of town. Tell him I sent you.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/nocmar.md#stage-10">nocmar (hidden flag)</a></p>
+<p><span id="d-unnmir_11"></span><strong><code>unnmir_11</code></strong> Unnmir: “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by the west side of town. Tell him I sent you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/nocmar/#stage-10">Lost treasures</a></p>
 <ul>
 <li>Next → <a href="#d-unnmir_13">unnmir_13</a></li>
 </ul>
 <p><span id="d-unnmir_12"></span><strong><code>unnmir_12</code></strong> Unnmir: “Smart move. Adventuring leads to a lot of scars. If you know what I mean.”</p>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “Nice. I'll give you a hint, kid. <em>snickering</em>. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by t…”<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.18/">v0.8.18</a></td>
+<td>Dialogue: 8 lines added, 2 lines changed</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

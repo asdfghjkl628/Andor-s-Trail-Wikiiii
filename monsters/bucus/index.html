@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -821,6 +821,28 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#community-notes" class="md-nav__link">
@@ -955,6 +977,11 @@
 </tr>
 </tbody>
 </table>
+<h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../quests/bucus/">Key of Luthor</a>: stages 10, 100</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 50</li>
+</ul>
 <details class="quote">
 <summary>Dialogue (18 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -965,13 +992,13 @@
 </ul>
 <p><span id="d-bucus_andor_select"></span><strong><code>bucus_andor_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>)</em> → <a href="#d-bucus_umar_1">bucus_umar_1</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>)</em> → <a href="#d-bucus_umar_1">bucus_umar_1</a></li>
 <li>branch 2 → <a href="#d-bucus_andor_no_1">bucus_andor_no_1</a></li>
 </ul>
 <p><span id="d-bucus_thieves_select"></span><strong><code>bucus_thieves_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a>)</em> → <a href="#d-bucus_thieves_complete_3">bucus_thieves_complete_3</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/bucus.md#stage-10">bucus (hidden flag)</a>)</em> → <a href="#d-bucus_thieves_continue">bucus_thieves_continue</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>)</em> → <a href="#d-bucus_thieves_complete_3">bucus_thieves_complete_3</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/bucus/#stage-10">Key of Luthor</a>)</em> → <a href="#d-bucus_thieves_continue">bucus_thieves_continue</a></li>
 <li>branch 3 → <a href="#d-bucus_thieves_select2">bucus_thieves_select2</a></li>
 </ul>
 <p><span id="d-bucus_umar_1"></span><strong><code>bucus_umar_1</code></strong> Bucus: “OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago.”</p>
@@ -994,7 +1021,7 @@
 </ul>
 <p><span id="d-bucus_thieves_select2"></span><strong><code>bucus_thieves_select2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 40 of <a href="../quests/andor.md#stage-40">andor (hidden flag)</a>)</em> → <a href="#d-bucus_thieves_1">bucus_thieves_1</a></li>
+<li>branch 1 <em>(if reached stage 40 of <a href="../../quests/andor/#stage-40">Search for Andor</a>)</em> → <a href="#d-bucus_thieves_1">bucus_thieves_1</a></li>
 <li>branch 2 → <a href="#d-bucus_thieves_no">bucus_thieves_no</a></li>
 </ul>
 <p><span id="d-bucus_umar_2"></span><strong><code>bucus_umar_2</code></strong> Bucus: “I don't know what he was up to though. He kept asking a lot of questions. Kind of like you do. <em>snicker</em>”</p>
@@ -1002,11 +1029,11 @@
 <li>Next → <a href="#d-bucus_umar_3">bucus_umar_3</a></li>
 </ul>
 <p><span id="d-bucus_andor_no_2"></span><strong><code>bucus_andor_no_2</code></strong> Bucus: “No, I can't tell you. Now please leave.”</p>
-<p><span id="d-bucus_thieves_4"></span><strong><code>bucus_thieves_4</code></strong> Bucus: “Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/bucus.md#stage-10">bucus (hidden flag)</a></p>
+<p><span id="d-bucus_thieves_4"></span><strong><code>bucus_thieves_4</code></strong> Bucus: “Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/bucus/#stage-10">Key of Luthor</a></p>
 <ul>
 <li>“OK, sounds easy enough.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-bucus_thieves_complete_1"></span><strong><code>bucus_thieves_complete_1</code></strong> Bucus: “Wow, you actually got the key of Luthor? I didn't think you would make it out of there.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/bucus.md#stage-100">bucus (hidden flag)</a></p>
+<p><span id="d-bucus_thieves_complete_1"></span><strong><code>bucus_thieves_complete_1</code></strong> Bucus: “Wow, you actually got the key of Luthor? I didn't think you would make it out of there.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a></p>
 <ul>
 <li>Next → <a href="#d-bucus_thieves_complete_2">bucus_thieves_complete_2</a></li>
 </ul>
@@ -1015,7 +1042,7 @@
 <li>“Can I join the Thieves' Guild?” → <a href="#d-bucus_thieves_2">bucus_thieves_2</a></li>
 </ul>
 <p><span id="d-bucus_thieves_no"></span><strong><code>bucus_thieves_no</code></strong> Bucus: “Wh, what? No, I don't know anything about that.”</p>
-<p><span id="d-bucus_umar_3"></span><strong><code>bucus_umar_3</code></strong> Bucus: “Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there.” — <strong>effects:</strong> sets stage 50 of <a href="../quests/andor.md#stage-50">andor (hidden flag)</a></p>
+<p><span id="d-bucus_umar_3"></span><strong><code>bucus_umar_3</code></strong> Bucus: “Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/andor/#stage-50">Search for Andor</a></p>
 <ul>
 <li>“OK, bye.” → <em>conversation ends</em></li>
 </ul>
@@ -1034,6 +1061,27 @@
 <li>“As long as this leads to some treasure, I'm in!” → <a href="#d-bucus_thieves_4">bucus_thieves_4</a></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Ok kid. You've proven yourself to me. Yes, I saw some other kid by th…” → “OK kid. You've proven yourself to me. Yes, I saw some other kid by th…”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

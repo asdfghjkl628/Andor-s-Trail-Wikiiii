@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -871,6 +871,17 @@
     <span class="md-ellipsis">
       
         How each stage is reached
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -1006,7 +1017,7 @@
 </tr>
 <tr>
 <td><strong>Related quests</strong></td>
-<td>4</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1018,10 +1029,11 @@
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
 <p>Start with <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>). Required:</p>
 <ul>
-<li>reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a></li>
+<li>reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a></li>
 <li>latest stage of <a href="./#stage-2">Immaculate kidnapping</a> is 2</li>
 <li>NOT reached stage 4 of <a href="./#stage-4">Immaculate kidnapping</a></li>
 </ul>
+<p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <table>
@@ -1037,6 +1049,11 @@
 <td>Requires</td>
 <td><a href="../Thieves01/#stage-60">Thief apprentice</a></td>
 <td>stage 60 reached, for stages 45, 60, 70 here</td>
+</tr>
+<tr>
+<td>Requires</td>
+<td><a href="../andor/#stage-51">Search for Andor</a></td>
+<td>stage 51 reached, for stages 2, 4, 6, 30, 35, 40, 75, 76 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
@@ -1212,24 +1229,25 @@
 </tr>
 </tbody>
 </table>
+<p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 <h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
 <p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path.</em></p>
 <details class="note" open="open">
 <summary>Stage 2: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything more about my new task?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; latest stage of <a href="./#stage-2">Immaculate kidnapping</a> is 2; NOT reached stage 4 of <a href="./#stage-4">Immaculate kidnapping</a> → <strong>stage 2</strong>. NPC: “I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything more about my new task?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; latest stage of <a href="./#stage-2">Immaculate kidnapping</a> is 2; NOT reached stage 4 of <a href="./#stage-4">Immaculate kidnapping</a> → <strong>stage 2</strong>. NPC: “I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 4: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Where can I find this woman?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; latest stage of <a href="./#stage-2">Immaculate kidnapping</a> is 2; NOT reached stage 4 of <a href="./#stage-4">Immaculate kidnapping</a> → <strong>stage 4</strong>. NPC: “Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a…”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Where can I find this woman?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; latest stage of <a href="./#stage-2">Immaculate kidnapping</a> is 2; NOT reached stage 4 of <a href="./#stage-4">Immaculate kidnapping</a> → <strong>stage 4</strong>. NPC: “Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 6: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything more about my new task?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; latest stage of <a href="./#stage-4">Immaculate kidnapping</a> is 4; NOT reached stage 6 of <a href="./#stage-6">Immaculate kidnapping</a>; NOT reached stage 15 of <a href="./#stage-15">Immaculate kidnapping</a> → <strong>stage 6</strong>. NPC: “Use your tongue, young man. Sometimes it is more important than your sword skills.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Anything more about my new task?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; latest stage of <a href="./#stage-4">Immaculate kidnapping</a> is 4; NOT reached stage 6 of <a href="./#stage-6">Immaculate kidnapping</a>; NOT reached stage 15 of <a href="./#stage-15">Immaculate kidnapping</a> → <strong>stage 6</strong>. NPC: “Use your tongue, young man. Sometimes it is more important than your sword skills.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1265,19 +1283,19 @@
 <details class="note" open="open">
 <summary>Stage 30: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I have brought the hostage.” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 20 of <a href="./#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 21 of <a href="./#stage-21">Immaculate kidnapping</a>; NOT reached stage 24 of <a href="./#stage-24">Immaculate kidnapping</a> → <strong>stage 30</strong>. NPC: “(You put Ambelie, who is still unconscious, in a chair next to you) Oh! How did you get here so fast? I've heard…”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I have brought the hostage.” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 20 of <a href="./#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 21 of <a href="./#stage-21">Immaculate kidnapping</a>; NOT reached stage 24 of <a href="./#stage-24">Immaculate kidnapping</a> → <strong>stage 30</strong>. NPC: “(You put Ambelie, who is still unconscious, in a chair next to you) Oh! How did you get here so fast? I've heard…”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 35: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “What am I supposed to do with the noblewoman?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 35 of <a href="./#stage-35">Immaculate kidnapping</a> → <strong>stage 35</strong>. NPC: “We are supposed to have one room for receiving "visitors". However, I don't know if It's finished.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “What am I supposed to do with the noblewoman?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 35 of <a href="./#stage-35">Immaculate kidnapping</a> → <strong>stage 35</strong>. NPC: “We are supposed to have one room for receiving "visitors". However, I don't know if It's finished.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 40: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “What am I supposed to do with the noblewoman?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 35 of <a href="./#stage-35">Immaculate kidnapping</a>; NOT reached stage 40 of <a href="./#stage-40">Immaculate kidnapping</a> → <strong>stage 40</strong>. NPC: “Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “What am I supposed to do with the noblewoman?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 35 of <a href="./#stage-35">Immaculate kidnapping</a>; NOT reached stage 40 of <a href="./#stage-40">Immaculate kidnapping</a> → <strong>stage 40</strong>. NPC: “Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.”</li>
 </ol>
 </details>
 <details class="note" open="open">
@@ -1321,15 +1339,42 @@
 <details class="note" open="open">
 <summary>Stage 75: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Urgh ... I just need better tasks! Do you still think I'm not yet ready?” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; NOT latest stage of <a href="./#stage-75">Immaculate kidnapping</a> is 75; reached stage 70 of <a href="./#stage-70">Immaculate kidnapping</a> → <strong>stage 75</strong>; also faction “ThievesGuild” +10, gives 2500× <a href="../../items/gold/">Gold coins</a>. NPC: “First of all, take this gold for a job well done. We have already sent people to ask for the ransom.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “Urgh ... I just need better tasks! Do you still think I'm not yet ready?” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; NOT latest stage of <a href="./#stage-75">Immaculate kidnapping</a> is 75; reached stage 70 of <a href="./#stage-70">Immaculate kidnapping</a> → <strong>stage 75</strong>; also faction “ThievesGuild” +10, gives 2500× <a href="../../items/gold/">Gold coins</a>. NPC: “First of all, take this gold for a job well done. We have already sent people to ask for the ransom.”</li>
 </ol>
 </details>
 <details class="note" open="open">
 <summary>Stage 76: 1 route</summary>
 <ol>
-<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I brought a valuable necklace from the noblewoman.” — <strong>conditions:</strong> reached stage 51 of <a href="../quests/andor.md#stage-51">andor (hidden flag)</a>; reached stage 24 of <a href="./#stage-24">Immaculate kidnapping</a>; reached stage 21 of <a href="./#stage-21">Immaculate kidnapping</a>; NOT reached stage 20 of <a href="./#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 76 of <a href="./#stage-76">Immaculate kidnapping</a>; hand over 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a> → <strong>stage 76</strong>; also faction “ThievesGuild” +10. NPC: “Well. I will take it as compensation for your mistakes.”</li>
+<li>Talk to <a href="../../monsters/umar/">Umar</a> (<a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a>) → choose “I brought a valuable necklace from the noblewoman.” — <strong>conditions:</strong> reached stage 51 of <a href="../andor/#stage-51">Search for Andor</a>; reached stage 24 of <a href="./#stage-24">Immaculate kidnapping</a>; reached stage 21 of <a href="./#stage-21">Immaculate kidnapping</a>; NOT reached stage 20 of <a href="./#stage-20">Immaculate kidnapping</a>; NOT reached stage 30 of <a href="./#stage-30">Immaculate kidnapping</a>; NOT reached stage 76 of <a href="./#stage-76">Immaculate kidnapping</a>; hand over 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a> → <strong>stage 76</strong>; also faction “ThievesGuild” +10. NPC: “Well. I will take it as compensation for your mistakes.”</li>
 </ol>
 </details>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.8/">v0.7.8</a></td>
+<td>Added<br>Dialogue: 20 lines added</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.9/">v0.7.9</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>Dialogue: 2 lines changed<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …”</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Walkthrough</strong>: step-by-step help for players · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Bugs</strong>: known glitches and workarounds · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="walkthrough">Walkthrough<a class="headerlink" href="#walkthrough" title="Permanent link">&para;</a></h3>

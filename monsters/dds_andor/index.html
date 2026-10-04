@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -985,6 +996,7 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/darkness_in_daylight/">Darkness in the Daylight</a>: stages 300, 310</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 145, 147, 999</li>
 <li><a href="../../quests/shadows/">Shadows</a>: stages 280, 290</li>
 </ul>
 <details class="quote">
@@ -1024,23 +1036,40 @@
 <li>“Are you just going to disappear again? Please don't!” <em>(if reached stage 280 of <a href="../../quests/darkness_in_daylight/#stage-280">Darkness in the Daylight</a>)</em> → <a href="#d-dds_andor_52">dds_andor_52</a></li>
 <li>“Are you just going to disappear again? Please don't!” <em>(if reached stage 260 of <a href="../../quests/shadows/#stage-260">Shadows</a>)</em> → <a href="#d-dds_andor_54">dds_andor_54</a></li>
 </ul>
-<p><span id="d-dds_andor_52"></span><strong><code>dds_andor_52</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 310 of <a href="../../quests/darkness_in_daylight/#stage-310">Darkness in the Daylight</a>, sets stage 145 of <a href="../quests/andor.md#stage-145">andor (hidden flag)</a></p>
+<p><span id="d-dds_andor_52"></span><strong><code>dds_andor_52</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 310 of <a href="../../quests/darkness_in_daylight/#stage-310">Darkness in the Daylight</a>, sets stage 145 of <a href="../../quests/andor/#stage-145">Search for Andor</a></p>
 <ul>
 <li>branch 1 → <a href="#d-dds_andor_60">dds_andor_60</a></li>
 </ul>
-<p><span id="d-dds_andor_54"></span><strong><code>dds_andor_54</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 290 of <a href="../../quests/shadows/#stage-290">Shadows</a>, sets stage 147 of <a href="../quests/andor.md#stage-147">andor (hidden flag)</a></p>
+<p><span id="d-dds_andor_54"></span><strong><code>dds_andor_54</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 290 of <a href="../../quests/shadows/#stage-290">Shadows</a>, sets stage 147 of <a href="../../quests/andor/#stage-147">Search for Andor</a></p>
 <ul>
 <li>branch 1 → <a href="#d-dds_andor_60">dds_andor_60</a></li>
 </ul>
-<p><span id="d-dds_andor_60"></span><strong><code>dds_andor_60</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a></p>
+<p><span id="d-dds_andor_60"></span><strong><code>dds_andor_60</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../../quests/andor/#stage-999">Search for Andor</a></p>
 <ul>
 <li>branch 1 → <a href="#d-dds_andor_62">dds_andor_62</a></li>
 </ul>
-<p><span id="d-dds_andor_62"></span><strong><code>dds_andor_62</code></strong> Andor: “Don't worry - we'll see each other again, in happier days.” — <strong>effects:</strong> removes monsters from wayto_feygard_duleian_2, removes monsters from road5_house, sets stage 999 of <a href="../quests/andor.md#stage-999">andor (hidden flag)</a></p>
+<p><span id="d-dds_andor_62"></span><strong><code>dds_andor_62</code></strong> Andor: “Don't worry - we'll see each other again, in happier days.” — <strong>effects:</strong> removes monsters from wayto_feygard_duleian_2, removes monsters from road5_house, sets stage 999 of <a href="../../quests/andor/#stage-999">Search for Andor</a></p>
 <ul>
 <li>“Wait!” → <em>NPC leaves</em></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Added<br>Dialogue: 12 lines added</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

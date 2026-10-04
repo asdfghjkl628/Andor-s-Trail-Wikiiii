@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -985,8 +996,11 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/familiar_shadow/">A familiar shadow</a>: stages 30</li>
+<li><a href="../../quests/mikhail_bread/">Breakfast bread</a>: stages 10, 100</li>
 <li><a href="../../quests/brv_present/">Honor your parents</a>: stages 30, 40, 50, 60</li>
 <li><a href="../../quests/ratdom_mikhail/">More rats!</a>: stages 10, 20, 52, 54, 70, 74, 90</li>
+<li><a href="../../quests/mikhail_rats/">Rats!</a>: stages 10, 100</li>
+<li><a href="../../quests/andor/">Search for Andor</a>: stages 1</li>
 <li><a href="../../quests/achievements/">Unusual experiences and achievements</a>: stages 1</li>
 <li><a href="../../quests/dds_nd/">Darkness in the Daylight and Shadows - Non displayed (hidden flag)</a>: stages 20</li>
 <li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stages 90</li>
@@ -999,8 +1013,8 @@
 <p><span id="d-mikhail_start_select"></span><strong><code>mikhail_start_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 1 of <a href="../../quests/ratdom_nondisplay/#stage-1">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_mikhail">ratdom_mikhail</a></li>
-<li>branch 2 <em>(if reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>)</em> → <a href="#d-mikhail_start_select2">mikhail_start_select2</a></li>
-<li>branch 3 <em>(if reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>)</em> → <a href="#d-mikhail_bread_continue">mikhail_bread_continue</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>)</em> → <a href="#d-mikhail_start_select2">mikhail_start_select2</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/mikhail_bread/#stage-10">Breakfast bread</a>)</em> → <a href="#d-mikhail_bread_continue">mikhail_bread_continue</a></li>
 <li>branch 4 → <a href="#d-mikhail_start_select2">mikhail_start_select2</a></li>
 </ul>
 <p><span id="d-ratdom_mikhail"></span><strong><code>ratdom_mikhail</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
@@ -1013,8 +1027,8 @@
 </ul>
 <p><span id="d-mikhail_start_select2"></span><strong><code>mikhail_start_select2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_start_select_default">mikhail_start_select_default</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/mikhail_rats.md#stage-10">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_rats_continue">mikhail_rats_continue</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_start_select_default">mikhail_start_select_default</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/mikhail_rats/#stage-10">Rats!</a>)</em> → <a href="#d-mikhail_rats_continue">mikhail_rats_continue</a></li>
 <li>branch 3 → <a href="#d-mikhail_start_select_default">mikhail_start_select_default</a></li>
 </ul>
 <p><span id="d-mikhail_bread_continue"></span><strong><code>mikhail_bread_continue</code></strong> Mikhail: “Did you get my bread from Mara at the town hall yet?”</p>
@@ -1050,7 +1064,7 @@
 </ul>
 <p><span id="d-mikhail_start_select_default"></span><strong><code>mikhail_start_select_default</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 1 of <a href="../quests/andor.md#stage-1">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_default">mikhail_default</a></li>
+<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/andor/#stage-1">Search for Andor</a>)</em> → <a href="#d-mikhail_default">mikhail_default</a></li>
 <li>branch 2 → <a href="#d-mikhail_gamestart">mikhail_gamestart</a></li>
 </ul>
 <p><span id="d-mikhail_rats_continue"></span><strong><code>mikhail_rats_continue</code></strong> Mikhail: “Did you kill those two rats in our garden?”</p>
@@ -1058,21 +1072,21 @@
 <li>“Yes, I have dealt with the rats now.” <em>(if hand over 2× <a href="../../items/tail_trainingrat/">Small rat tail</a>)</em> → <a href="#d-mikhail_rats_complete">mikhail_rats_complete</a></li>
 <li>“No, not yet.” → <a href="#d-mikhail_rats_start2">mikhail_rats_start2</a></li>
 </ul>
-<p><span id="d-mikhail_bread_complete"></span><strong><code>mikhail_bread_complete</code></strong> Mikhail: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-mikhail_bread_complete"></span><strong><code>mikhail_bread_complete</code></strong> Mikhail: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>, gives <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>Next → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
 <p><span id="d-mikhail_default"></span><strong><code>mikhail_default</code></strong> Mikhail: “Anything else I can help you with?”</p>
 <ul>
-<li>“Do you have any more tasks for me?” <em>(if reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_all_tasks_done">mikhail_all_tasks_done</a></li>
-<li>“Do you have any more tasks for me?” <em>(if reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; NOT reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_bread_done">mikhail_bread_done</a></li>
-<li>“Do you have any more tasks for me?” <em>(if NOT reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_rats_done">mikhail_rats_done</a></li>
-<li>“Do you have any tasks for me?” <em>(if NOT reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; NOT reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_tasks">mikhail_tasks</a></li>
+<li>“Do you have any more tasks for me?” <em>(if reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_all_tasks_done">mikhail_all_tasks_done</a></li>
+<li>“Do you have any more tasks for me?” <em>(if reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>; NOT reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_bread_done">mikhail_bread_done</a></li>
+<li>“Do you have any more tasks for me?” <em>(if NOT reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_rats_done">mikhail_rats_done</a></li>
+<li>“Do you have any tasks for me?” <em>(if NOT reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>; NOT reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_tasks">mikhail_tasks</a></li>
 <li>“Is there anything else you can tell me about Andor?” → <a href="#d-mikhail_andor1">mikhail_andor1</a></li>
 <li>“I have a present for you.” <em>(if reached stage 20 of <a href="../../quests/brv_present/#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="../../quests/brv_present/#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="../../quests/brv_present/#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="../../quests/brv_present/#stage-60">Honor your parents</a>; reached stage 40 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>)</em> → <a href="#d-mikhail_present_20">mikhail_present_20</a></li>
 <li>“I have a present for you.” <em>(if reached stage 20 of <a href="../../quests/brv_present/#stage-20">Honor your parents</a>; NOT reached stage 40 of <a href="../../quests/brv_present/#stage-40">Honor your parents</a>; NOT reached stage 50 of <a href="../../quests/brv_present/#stage-50">Honor your parents</a>; NOT reached stage 60 of <a href="../../quests/brv_present/#stage-60">Honor your parents</a>; NOT reached stage 40 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a>)</em> → <a href="#d-mikhail_present_10">mikhail_present_10</a></li>
 <li>“I was searching for Andor.” → <a href="#d-mikhail_news_10">mikhail_news_10</a></li>
-<li>“What kind of book is it that you have in your hand?” <em>(if NOT reached stage 1 of <a href="../../quests/nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/achievements/#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>; reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_achievements_10">mikhail_achievements_10</a></li>
+<li>“What kind of book is it that you have in your hand?” <em>(if NOT reached stage 1 of <a href="../../quests/nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/achievements/#stage-1">Unusual experiences and achievements</a>; reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_achievements_10">mikhail_achievements_10</a></li>
 <li>“Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” <em>(if hand over 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 100 of <a href="../../quests/brv_wh_delivery/#stage-100">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_mikhail">brv_wh_delivery_mikhail</a></li>
 <li>“I don't know...something feels wrong. I thought maybe you were in danger.” <em>(if latest stage of <a href="../../quests/familiar_shadow/#stage-20">A familiar shadow</a> is 20)</em> → <a href="#d-galmore_marked_stone_mikhail">galmore_marked_stone_mikhail</a></li>
 </ul>
@@ -1107,7 +1121,7 @@
 <ul>
 <li>Next → <a href="#d-mikhail_visited">mikhail_visited</a></li>
 </ul>
-<p><span id="d-mikhail_rats_complete"></span><strong><code>mikhail_rats_complete</code></strong> Mikhail: “Oh you did? Wow, thanks a lot for your help! Please take Andor's training shield - you're going to need it. If you are hurt, use your bed over there to rest and regain your strength.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>, gives 1× <a href="../../items/kids_shield/">Kid's shield</a></p>
+<p><span id="d-mikhail_rats_complete"></span><strong><code>mikhail_rats_complete</code></strong> Mikhail: “Oh you did? Wow, thanks a lot for your help! Please take Andor's training shield - you're going to need it. If you are hurt, use your bed over there to rest and regain your strength.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>, gives 1× <a href="../../items/kids_shield/">Kid's shield</a></p>
 <ul>
 <li>Next → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
@@ -1152,10 +1166,10 @@
 </ul>
 <p><span id="d-mikhail_news_10"></span><strong><code>mikhail_news_10</code></strong> Mikhail: “Did you find out something?”</p>
 <ul>
-<li>“I asked around in Crossglen and they sent me to Fallhaven.” <em>(if reached stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_20">mikhail_news_20</a></li>
-<li>“Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” <em>(if NOT reached stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a>; reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_30">mikhail_news_30</a></li>
-<li>“I met a man called Lodar and he told me that Andor probably went to Nor City.” <em>(if NOT reached stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a>; NOT reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>; reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
-<li>“No I did not find out anything yet.” <em>(if NOT reached stage 30 of <a href="../quests/andor.md#stage-30">andor (hidden flag)</a>; NOT reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>; NOT reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_default">mikhail_default</a></li>
+<li>“I asked around in Crossglen and they sent me to Fallhaven.” <em>(if reached stage 30 of <a href="../../quests/andor/#stage-30">Search for Andor</a>)</em> → <a href="#d-mikhail_news_20">mikhail_news_20</a></li>
+<li>“Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” <em>(if NOT reached stage 30 of <a href="../../quests/andor/#stage-30">Search for Andor</a>; reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>)</em> → <a href="#d-mikhail_news_30">mikhail_news_30</a></li>
+<li>“I met a man called Lodar and he told me that Andor probably went to Nor City.” <em>(if NOT reached stage 30 of <a href="../../quests/andor/#stage-30">Search for Andor</a>; NOT reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>; reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
+<li>“No I did not find out anything yet.” <em>(if NOT reached stage 30 of <a href="../../quests/andor/#stage-30">Search for Andor</a>; NOT reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>; NOT reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>)</em> → <a href="#d-mikhail_default">mikhail_default</a></li>
 <li>“I found Andor far north of here, at a fruit seller's stand.” <em>(if reached stage 310 of <a href="../../quests/darkness_in_daylight/#stage-310">Darkness in the Daylight</a>; NOT reached stage 20 of <a href="../../quests/dds_nd/#stage-20">Darkness in the Daylight and Shadows - Non displayed (hidden flag)</a>)</em> → <a href="#d-mikhail_news_60">mikhail_news_60</a></li>
 <li>“I found Andor far south of here, at Alynndir's house.” <em>(if reached stage 290 of <a href="../../quests/shadows/#stage-290">Shadows</a>; NOT reached stage 20 of <a href="../../quests/dds_nd/#stage-20">Darkness in the Daylight and Shadows - Non displayed (hidden flag)</a>)</em> → <a href="#d-mikhail_news_60">mikhail_news_60</a></li>
 </ul>
@@ -1179,7 +1193,7 @@
 <ul>
 <li>“What are you doing in my house? Where is Mikhail?” → <a href="#d-ratdom_mikhail_04">ratdom_mikhail_04</a></li>
 </ul>
-<p><span id="d-mikhail_visited"></span><strong><code>mikhail_visited</code></strong> Mikhail: “I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday.” — <strong>effects:</strong> sets stage 1 of <a href="../quests/andor.md#stage-1">andor (hidden flag)</a></p>
+<p><span id="d-mikhail_visited"></span><strong><code>mikhail_visited</code></strong> Mikhail: “I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday.” — <strong>effects:</strong> sets stage 1 of <a href="../../quests/andor/#stage-1">Search for Andor</a></p>
 <ul>
 <li>Next → <a href="#d-mikhail3">mikhail3</a></li>
 </ul>
@@ -1189,14 +1203,14 @@
 </ul>
 <p><span id="d-mikhail_rats_select"></span><strong><code>mikhail_rats_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/mikhail_rats.md#stage-100">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_rats_complete2">mikhail_rats_complete2</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/mikhail_rats.md#stage-10">mikhail_rats (hidden flag)</a>)</em> → <a href="#d-mikhail_rats_continue">mikhail_rats_continue</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/mikhail_rats/#stage-100">Rats!</a>)</em> → <a href="#d-mikhail_rats_complete2">mikhail_rats_complete2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/mikhail_rats/#stage-10">Rats!</a>)</em> → <a href="#d-mikhail_rats_continue">mikhail_rats_continue</a></li>
 <li>branch 3 → <a href="#d-mikhail_rats_start">mikhail_rats_start</a></li>
 </ul>
 <p><span id="d-mikhail_bread_select"></span><strong><code>mikhail_bread_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 100 of <a href="../quests/mikhail_bread.md#stage-100">mikhail_bread (hidden flag)</a>)</em> → <a href="#d-mikhail_bread_complete2">mikhail_bread_complete2</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a>)</em> → <a href="#d-mikhail_bread_continue">mikhail_bread_continue</a></li>
+<li>branch 1 <em>(if reached stage 100 of <a href="../../quests/mikhail_bread/#stage-100">Breakfast bread</a>)</em> → <a href="#d-mikhail_bread_complete2">mikhail_bread_complete2</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/mikhail_bread/#stage-10">Breakfast bread</a>)</em> → <a href="#d-mikhail_bread_continue">mikhail_bread_continue</a></li>
 <li>branch 3 → <a href="#d-mikhail_bread_start">mikhail_bread_start</a></li>
 </ul>
 <p><span id="d-mikhail_andor2"></span><strong><code>mikhail_andor2</code></strong> Mikhail: “Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town.”</p>
@@ -1217,14 +1231,14 @@
 </ul>
 <p><span id="d-mikhail_news_20"></span><strong><code>mikhail_news_20</code></strong> Mikhail: “Did you go the dangerous way to Fallhaven?” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a></p>
 <ul>
-<li>“Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” <em>(if reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_30">mikhail_news_30</a></li>
-<li>“Then I met a man called Lodar and he told me that Andor probably went to Nor City.” <em>(if NOT reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>; reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
-<li>“Not yet.” <em>(if NOT reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>; NOT reached stage 55 of <a href="../quests/andor.md#stage-55">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_50">mikhail_news_50</a></li>
+<li>“Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” <em>(if reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>)</em> → <a href="#d-mikhail_news_30">mikhail_news_30</a></li>
+<li>“Then I met a man called Lodar and he told me that Andor probably went to Nor City.” <em>(if NOT reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>; reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
+<li>“Not yet.” <em>(if NOT reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>; NOT reached stage 55 of <a href="../../quests/andor/#stage-55">Search for Andor</a>)</em> → <a href="#d-mikhail_news_50">mikhail_news_50</a></li>
 </ul>
 <p><span id="d-mikhail_news_30"></span><strong><code>mikhail_news_30</code></strong> Mikhail: “Did you find this Lodar?” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a></p>
 <ul>
-<li>“Yes, and he told me that Andor probably went to Nor City.” <em>(if reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
-<li>“No, not yet.” <em>(if NOT reached stage 80 of <a href="../quests/andor.md#stage-80">andor (hidden flag)</a>)</em> → <a href="#d-mikhail_news_50">mikhail_news_50</a></li>
+<li>“Yes, and he told me that Andor probably went to Nor City.” <em>(if reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>)</em> → <a href="#d-mikhail_news_40">mikhail_news_40</a></li>
+<li>“No, not yet.” <em>(if NOT reached stage 80 of <a href="../../quests/andor/#stage-80">Search for Andor</a>)</em> → <a href="#d-mikhail_news_50">mikhail_news_50</a></li>
 </ul>
 <p><span id="d-mikhail_news_40"></span><strong><code>mikhail_news_40</code></strong> Mikhail: “Did you go to Nor City?” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a></p>
 <ul>
@@ -1264,7 +1278,7 @@
 <ul>
 <li>Next → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
-<p><span id="d-mikhail_rats_start"></span><strong><code>mikhail_rats_start</code></strong> Mikhail: “I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?” — <strong>effects:</strong> sets stage 10 of <a href="../quests/mikhail_rats.md#stage-10">mikhail_rats (hidden flag)</a></p>
+<p><span id="d-mikhail_rats_start"></span><strong><code>mikhail_rats_start</code></strong> Mikhail: “I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/mikhail_rats/#stage-10">Rats!</a></p>
 <ul>
 <li>“I have already dealt with the rats.” <em>(if hand over 2× <a href="../../items/tail_trainingrat/">Small rat tail</a>)</em> → <a href="#d-mikhail_rats_complete">mikhail_rats_complete</a></li>
 <li>“OK, I'll go check out in our garden.” → <a href="#d-mikhail_rats_start2">mikhail_rats_start2</a></li>
@@ -1273,7 +1287,7 @@
 <ul>
 <li>“You're welcome.” → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
-<p><span id="d-mikhail_bread_start"></span><strong><code>mikhail_bread_start</code></strong> Mikhail: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.” — <strong>effects:</strong> sets stage 10 of <a href="../quests/mikhail_bread.md#stage-10">mikhail_bread (hidden flag)</a></p>
+<p><span id="d-mikhail_bread_start"></span><strong><code>mikhail_bread_start</code></strong> Mikhail: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/mikhail_bread/#stage-10">Breakfast bread</a></p>
 <ul>
 <li>Next → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
@@ -1325,6 +1339,75 @@
 <li>Next → <a href="#d-mikhail_default">mikhail_default</a></li>
 </ul>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 6 lines added, 9 lines changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.4/">v0.7.4</a></td>
+<td>Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.10/">v0.7.10</a></td>
+<td>Dialogue: 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.11/">v0.7.11</a></td>
+<td>Dialogue: 10 lines added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.12/">v0.7.12</a></td>
+<td>Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.13/">v0.7.13</a></td>
+<td>Dialogue: 5 lines added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.17/">v0.7.17</a></td>
+<td>Dialogue: 4 lines added, 1 line changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.5/">v0.8.5</a></td>
+<td>Dialogue: 17 lines added, 2 lines changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.6/">v0.8.6</a></td>
+<td>Dialogue: 1 line changed<br>· text: “One more thing: Look at that basket on the floor over there. It belon…” → “One more thing: Look at that basket on the floor over there. It belon…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.6.1/">v0.8.6.1</a></td>
+<td>Dialogue: 3 lines changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.7/">v0.8.7</a></td>
+<td>Dialogue: 1 line changed<br>· text: “I saw some rats out back in our garden earlier. Could you please go k…” → “I saw some rats out back in our garden earlier. Could you please go k…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Dialogue: 5 lines added, 2 lines changed</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.15/">v0.8.15</a></td>
+<td>horizontalFlipChance added (100)</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>

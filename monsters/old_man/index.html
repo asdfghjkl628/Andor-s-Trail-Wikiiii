@@ -330,13 +330,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../changelog/" class="md-tabs__link">
+      <a href="../../versions/" class="md-tabs__link">
         
   
   
     
   
-  Changelog
+  Version history
 
       </a>
     </li>
@@ -776,14 +776,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../versions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Changelog
+    Version history
   
 
     
@@ -838,6 +838,17 @@
     <span class="md-ellipsis">
       
         Quests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version history
       
     </span>
   </a>
@@ -983,6 +994,7 @@
 </ul>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="../../quests/calomyran/">Calomyran secrets</a>: stages 10, 100</li>
 <li><a href="../../quests/darkness_in_daylight/">Darkness in the Daylight</a>: stages 130, 140</li>
 </ul>
 <details class="quote">
@@ -991,8 +1003,8 @@
 <p><span id="d-fallhaven_oldman"></span><strong><code>fallhaven_oldman</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 110 of <a href="../../quests/darkness_in_daylight/#stage-110">Darkness in the Daylight</a>; NOT reached stage 140 of <a href="../../quests/darkness_in_daylight/#stage-140">Darkness in the Daylight</a>)</em> → <a href="#d-dds_oldman_10">dds_oldman_10</a></li>
-<li>branch 2 <em>(if reached stage 100 of <a href="../quests/calomyran.md#stage-100">calomyran (hidden flag)</a>)</em> → <a href="#d-fallhaven_oldman_complete_2">fallhaven_oldman_complete_2</a></li>
-<li>branch 3 <em>(if reached stage 10 of <a href="../quests/calomyran.md#stage-10">calomyran (hidden flag)</a>)</em> → <a href="#d-fallhaven_oldman_continue">fallhaven_oldman_continue</a></li>
+<li>branch 2 <em>(if reached stage 100 of <a href="../../quests/calomyran/#stage-100">Calomyran secrets</a>)</em> → <a href="#d-fallhaven_oldman_complete_2">fallhaven_oldman_complete_2</a></li>
+<li>branch 3 <em>(if reached stage 10 of <a href="../../quests/calomyran/#stage-10">Calomyran secrets</a>)</em> → <a href="#d-fallhaven_oldman_continue">fallhaven_oldman_continue</a></li>
 <li>branch 4 → <a href="#d-fallhaven_oldman_1">fallhaven_oldman_1</a></li>
 </ul>
 <p><span id="d-dds_oldman_10"></span><strong><code>dds_oldman_10</code></strong> Old man: “Who are you? Not here to steal my books, are you?”</p>
@@ -1016,12 +1028,12 @@
 <ul>
 <li>“In fact, I'd like to borrow your copy of Calomyran Secrets.” → <a href="#d-dds_oldman_30">dds_oldman_30</a></li>
 </ul>
-<p><span id="d-fallhaven_oldman_complete"></span><strong><code>fallhaven_oldman_complete</code></strong> Old man: “My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.” — <strong>effects:</strong> sets stage 100 of <a href="../quests/calomyran.md#stage-100">calomyran (hidden flag)</a>, gives <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-fallhaven_oldman_complete"></span><strong><code>fallhaven_oldman_complete</code></strong> Old man: “My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/calomyran/#stage-100">Calomyran secrets</a>, gives <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Thank you. Goodbye.” → <em>conversation ends</em></li>
 <li>“At last, some gold. Bye.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-fallhaven_oldman_6"></span><strong><code>fallhaven_oldman_6</code></strong> Old man: “I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the south]” — <strong>effects:</strong> sets stage 10 of <a href="../quests/calomyran.md#stage-10">calomyran (hidden flag)</a></p>
+<p><span id="d-fallhaven_oldman_6"></span><strong><code>fallhaven_oldman_6</code></strong> Old man: “I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the south]” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/calomyran/#stage-10">Calomyran secrets</a></p>
 <ul>
 <li>“OK, I'll go ask Arcir. Goodbye.” → <em>conversation ends</em></li>
 </ul>
@@ -1067,6 +1079,31 @@
 </ul>
 <p><span id="d-dds_oldman_70"></span><strong><code>dds_oldman_70</code></strong> Old man: “No, sorry. Do let me know if you come across a copy.” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/darkness_in_daylight/#stage-140">Darkness in the Daylight</a></p>
 </details>
+<h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../versions/0.7.0/">v0.7.0</a></td>
+<td>Present in v0.7.0 (earliest release tracked)</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.7.2/">v0.7.2</a></td>
+<td>Dialogue: 2 lines changed<br>· text: “I have no idea where it might be. You could go ask Arcir, he seems ve…” → “I have no idea where it might be. You could go ask Arcir, he seems ve…”</td>
+</tr>
+<tr>
+<td><a href="../../versions/0.8.14/">v0.8.14</a></td>
+<td>Dialogue: 9 lines added, 1 line changed</td>
+</tr>
+</tbody>
+</table>
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
 <h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">&para;</a></h3>
