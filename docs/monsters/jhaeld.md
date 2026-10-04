@@ -18,4 +18,410 @@
 
 - [remgard_tavern1](../maps/remgard_tavern1.md)
 
+## Quests
+
+- [Everything in order](../quests/remgard.md): stages 40, 50, 51, 52, 53, 54, 59, 75, 80, 110
+- [What is that stench?](../quests/remgard2.md): stages 10, 20, 21, 40, 41, 45
+
+??? quote "Dialogue (81 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-jhaeld"></span>**`jhaeld`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 41 of [The five idols](../quests/fiveidols.md#stage-41))* → [jhaeld_idol_1](#d-jhaeld_idol_1)
+    - branch 2 *(if reached stage 45 of [What is that stench?](../quests/remgard2.md#stage-45))* → [jhaeld_completed](#d-jhaeld_completed)
+    - branch 3 *(if reached stage 41 of [What is that stench?](../quests/remgard2.md#stage-41))* → [jhaeld_killalg_3](#d-jhaeld_killalg_3)
+    - branch 4 *(if reached stage 40 of [What is that stench?](../quests/remgard2.md#stage-40))* → [jhaeld_killalg_2](#d-jhaeld_killalg_2)
+    - branch 5 *(if reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21))* → [jhaeld_killalg](#d-jhaeld_killalg)
+    - branch 6 *(if reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10))* → [jhaeld_alg_3](#d-jhaeld_alg_3)
+    - branch 7 *(if reached stage 110 of [Everything in order](../quests/remgard.md#stage-110))* → [jhaeld_rejected](#d-jhaeld_rejected)
+    - branch 8 *(if reached stage 80 of [Everything in order](../quests/remgard.md#stage-80))* → [jhaeld_return8](#d-jhaeld_return8)
+    - branch 9 *(if reached stage 75 of [Everything in order](../quests/remgard.md#stage-75))* → [jhaeld_return6](#d-jhaeld_return6)
+    - branch 10 *(if reached stage 50 of [Everything in order](../quests/remgard.md#stage-50))* → [jhaeld_return1](#d-jhaeld_return1)
+    - branch 11 → [jhaeld_1](#d-jhaeld_1)
+
+    <span id="d-jhaeld_idol_1"></span>**`jhaeld_idol_1`** Jhaeld: “Please leave me be, child. I just had a sudden attack of nausea. I should probably lie down.”
+
+
+    <span id="d-jhaeld_completed"></span>**`jhaeld_completed`** Jhaeld: “Again, thank you for all your help.”
+
+
+    <span id="d-jhaeld_killalg_3"></span>**`jhaeld_killalg_3`** Jhaeld: “This means that the people of Remgard are now safe from her, and it is all thanks to you! Who would have thought.” — **effects:** sets stage 41 of [What is that stench?](../quests/remgard2.md#stage-41)
+
+    - Next → [jhaeld_killalg_4](#d-jhaeld_killalg_4)
+
+    <span id="d-jhaeld_killalg_2"></span>**`jhaeld_killalg_2`** Jhaeld: “You actually defeated her? I am so relieved! Tell me, how crazy was she? No, don't tell me, I don't want to hear more of her filth.”
+
+    - Next → [jhaeld_killalg_3](#d-jhaeld_killalg_3)
+
+    <span id="d-jhaeld_killalg"></span>**`jhaeld_killalg`** Jhaeld: “Hello again. What news do you bring?”
+
+    - “Can you tell me the story of Algangror again?” → [jhaeld_alg_5](#d-jhaeld_alg_5)
+    - “I am still trying to find a way to make Algangror disappear.” → [jhaeld_alg_26](#d-jhaeld_alg_26)
+    - “Algangror is dead.” *(if reached stage 35 of [What is that stench?](../quests/remgard2.md#stage-35))* → [jhaeld_killalg_1](#d-jhaeld_killalg_1)
+
+    <span id="d-jhaeld_alg_3"></span>**`jhaeld_alg_3`** Jhaeld: “If Algangror is here, this is grim news indeed.” — **effects:** sets stage 10 of [What is that stench?](../quests/remgard2.md#stage-10)
+
+    - Next → [jhaeld_alg_4](#d-jhaeld_alg_4)
+
+    <span id="d-jhaeld_rejected"></span>**`jhaeld_rejected`** Jhaeld: “What now? Look, we don't want kids like you running around here, messing with our things.”
+
+    - Next → [jhaeld_leave](#d-jhaeld_leave)
+
+    <span id="d-jhaeld_return8"></span>**`jhaeld_return8`** Jhaeld: “I suggest you go look in other places if you really want to help us.” — **effects:** sets stage 80 of [Everything in order](../quests/remgard.md#stage-80)
+
+    - Next → [jhaeld_return_s](#d-jhaeld_return_s)
+
+    <span id="d-jhaeld_return6"></span>**`jhaeld_return6`** Jhaeld: “[Jhaeld mumbles] Stupid kids...” — **effects:** sets stage 75 of [Everything in order](../quests/remgard.md#stage-75)
+
+    - Next → [jhaeld_return7](#d-jhaeld_return7)
+
+    <span id="d-jhaeld_return1"></span>**`jhaeld_return1`** Jhaeld: “Did you talk to those people that I sent you to ask about the missing people?”
+
+    - “Yes, I have talked to all of them.” *(if reached stage 70 of [Everything in order](../quests/remgard.md#stage-70))* → [jhaeld_return2](#d-jhaeld_return2)
+    - “Can you repeat the names of those that you wanted me to ask?” → [jhaeld_14](#d-jhaeld_14)
+    - “I'm not too sure about this. Will there be a reward?” → [jhaeld_11](#d-jhaeld_11)
+    - “I'm not too sure about this. Why would I want to help you people?” → [jhaeld_13](#d-jhaeld_13)
+    - “Not yet, but I will.” → [jhaeld_19](#d-jhaeld_19)
+
+    <span id="d-jhaeld_1"></span>**`jhaeld_1`** Jhaeld: “What, who are you? Don't bother me, child. We don't want kids running around in here.”
+
+    - “Are you Jhaeld? I was sent here to help you investigate the missing people.” → [jhaeld_3](#d-jhaeld_3)
+    - “Hey, watch that tone of yours. It would be a pity if more of your people would ... disappear.” → [jhaeld_2](#d-jhaeld_2)
+
+    <span id="d-jhaeld_killalg_4"></span>**`jhaeld_killalg_4`** Jhaeld: “I ... I don't know what to say. Thank you, that's the least I can say.”
+
+    - “You are most welcome.” → [jhaeld_killalg_5](#d-jhaeld_killalg_5)
+    - “That was a tough fight. Now, let's talk reward.” → [jhaeld_killalg_5](#d-jhaeld_killalg_5)
+    - “Just another body behind me.” → [jhaeld_killalg_5](#d-jhaeld_killalg_5)
+
+    <span id="d-jhaeld_alg_5"></span>**`jhaeld_alg_5`** Jhaeld: “She used to live here in Remgard, during the days of prosperity. She even helped with the crops on some days.”
+
+    - Next → [jhaeld_alg_6](#d-jhaeld_alg_6)
+
+    <span id="d-jhaeld_alg_26"></span>**`jhaeld_alg_26`** Jhaeld: “Remember, please be careful! I would not want to be responsible for another person disappearing.” — **effects:** sets stage 21 of [What is that stench?](../quests/remgard2.md#stage-21)
+
+
+    <span id="d-jhaeld_killalg_1"></span>**`jhaeld_killalg_1`** Jhaeld: “I find this very hard to believe. For you to have killed Algangror would have been a difficult task, given her power.”
+
+    - “I have brought you her ring as proof that what I say is true.” *(if hand over 1× [Algangror's ring](../items/algangror_ring.md))* → [jhaeld_killalg_1b](#d-jhaeld_killalg_1b)
+    - “No, never mind. I haven't actually defeated her yet.” → [jhaeld_alg_26](#d-jhaeld_alg_26)
+
+    <span id="d-jhaeld_alg_4"></span>**`jhaeld_alg_4`** Jhaeld: “To be honest, I had heard about this before, but I dismissed all talk of it since I did not believe it. Now you tell me this also, and I am starting to think that it may be true. She may have returned.”
+
+    - “Who is she?” → [jhaeld_alg_5](#d-jhaeld_alg_5)
+
+    <span id="d-jhaeld_leave"></span>**`jhaeld_leave`** Jhaeld: “I think you had better leave, before anything bad might happen to you.”
+
+
+    <span id="d-jhaeld_return_s"></span>**`jhaeld_return_s`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 20 of [The five idols](../quests/fiveidols.md#stage-20))* → [jhaeld_task2_n](#d-jhaeld_task2_n)
+    - branch 2 *(if reached stage 59 of [Everything in order](../quests/remgard.md#stage-59))* → [jhaeld_task2_f](#d-jhaeld_task2_f)
+    - branch 3 *(if reached stage 30 of [Everything in order](../quests/remgard.md#stage-30))* → [jhaeld_task2_y](#d-jhaeld_task2_y)
+    - branch 4 → [jhaeld_task2](#d-jhaeld_task2)
+
+    <span id="d-jhaeld_return7"></span>**`jhaeld_return7`** Jhaeld: “Fine then.”
+
+    - Next → [jhaeld_return8](#d-jhaeld_return8)
+
+    <span id="d-jhaeld_return2"></span>**`jhaeld_return2`** Jhaeld: “Well, what did you find out?”
+
+    - “Nothing. None of them told me anything new about the missing people.” → [jhaeld_return3](#d-jhaeld_return3)
+
+    <span id="d-jhaeld_14"></span>**`jhaeld_14`** Jhaeld: “There are four people here in Remgard that I believe have more to tell than what we have managed to get out of them. I want you to go ask them what they know of the disappearances.” — **effects:** sets stage 50 of [Everything in order](../quests/remgard.md#stage-50)
+
+    - Next → [jhaeld_15](#d-jhaeld_15)
+
+    <span id="d-jhaeld_11"></span>**`jhaeld_11`** Jhaeld: “What, you have the arrogance to ask for a reward for helping us find the people that are missing? If it's gold you seek, I suggest you look somewhere else.”
+
+    - “Fine, I'll do it. Who do you want me to ask?” → [jhaeld_14](#d-jhaeld_14)
+    - “No reward, no help.” → [jhaeld_12](#d-jhaeld_12)
+
+    <span id="d-jhaeld_13"></span>**`jhaeld_13`** Jhaeld: “Why!? It would be the right thing to do, of course. If you can't understand that, you had better go somewhere else.”
+
+    - “Fine, I'll do it. Who do you want me to ask?” → [jhaeld_14](#d-jhaeld_14)
+    - “I won't do it. I fail to see why I should help you.” → [jhaeld_reject](#d-jhaeld_reject)
+
+    <span id="d-jhaeld_19"></span>**`jhaeld_19`** Jhaeld: “Please be as swift as possible.”
+
+    - “What about that Algangror woman that lives outside town?” *(if reached stage 30 of [Everything in order](../quests/remgard.md#stage-30))* → [jhaeld_21](#d-jhaeld_21)
+    - “I'll go ask them.” → [jhaeld_20](#d-jhaeld_20)
+
+    <span id="d-jhaeld_3"></span>**`jhaeld_3`** Jhaeld: “Yes, yes. The missing people. What could possibly a kid like you help with, hm?”
+
+    - “I was thinking you could provide me with some tasks to help you with the investigation.” → [jhaeld_4](#d-jhaeld_4)
+    - “The bridge guard told me to talk to you.” → [jhaeld_4](#d-jhaeld_4)
+
+    <span id="d-jhaeld_2"></span>**`jhaeld_2`** Jhaeld: “Hrmpf. I don't take threats lightly. Especially not from snot-nosed kids like you.”
+
+    - “I was sent here to help you investigate the missing people.” → [jhaeld_3](#d-jhaeld_3)
+    - “You better get used to it with an attitude like that.” → [jhaeld_leave](#d-jhaeld_leave)
+
+    <span id="d-jhaeld_killalg_5"></span>**`jhaeld_killalg_5`** Jhaeld: “I would think that the whole town is in your debt, but they may not know it.”
+
+    - Next → [jhaeld_killalg_6](#d-jhaeld_killalg_6)
+
+    <span id="d-jhaeld_alg_6"></span>**`jhaeld_alg_6`** Jhaeld: “Then something happened. She started getting ideas, and occasionally locked herself in her house for several days. No one really knew what she was doing in there, but we all knew that she was up to no good.”
+
+    - Next → [jhaeld_alg_7](#d-jhaeld_alg_7)
+
+    <span id="d-jhaeld_killalg_1b"></span>**`jhaeld_killalg_1b`** Jhaeld: “I can hardly believe it! Yes, this is indeed her ring.” — **effects:** sets stage 40 of [What is that stench?](../quests/remgard2.md#stage-40)
+
+    - Next → [jhaeld_killalg_2](#d-jhaeld_killalg_2)
+
+    <span id="d-jhaeld_task2_n"></span>**`jhaeld_task2_n`** Jhaeld: “I have nothing more to say to you.”
+
+
+    <span id="d-jhaeld_task2_f"></span>**`jhaeld_task2_f`** Jhaeld: “Maybe someone else knows something that we haven't taken into account yet. Also, I seem to recall you saying something about Algangror before, is that right?”
+
+    - “Yes. As I tried to tell you, Algangror is hiding in that abandoned house outside town.” → [jhaeld_alg_3](#d-jhaeld_alg_3)
+
+    <span id="d-jhaeld_task2_y"></span>**`jhaeld_task2_y`** Jhaeld: “Maybe someone else knows something that we haven't taken into account yet.”
+
+    - “The bridge guard sent me to scout an abandoned house outside town.” → [jhaeld_alg_1](#d-jhaeld_alg_1)
+    - “Does the name 'Algangror' mean anything to you?” → [jhaeld_alg_2](#d-jhaeld_alg_2)
+
+    <span id="d-jhaeld_task2"></span>**`jhaeld_task2`** Jhaeld: “Maybe someone else knows something that we haven't taken into account yet.”
+
+    - “The bridge guard sent me to scout an abandoned house outside town.” → [jhaeld_alg_1](#d-jhaeld_alg_1)
+    - “I might know something, but I have promised not to tell anyone.” *(if reached stage 31 of [Everything in order](../quests/remgard.md#stage-31))* → [jhaeld_task2_1](#d-jhaeld_task2_1)
+    - “I don't know anything else.” → [jhaeld_task2_n](#d-jhaeld_task2_n)
+    - “I'll go ask around.” → [jhaeld_task2_n](#d-jhaeld_task2_n)
+
+    <span id="d-jhaeld_return3"></span>**`jhaeld_return3`** Jhaeld: “So ... let me get things straight. You went and asked them about the missing people, and they didn't tell you anything new?”
+
+    - “No. None of them had anything new to say.” → [jhaeld_return4](#d-jhaeld_return4)
+    - “You heard me the first time.” → [jhaeld_return4](#d-jhaeld_return4)
+    - “Maybe you should have sent me to ask other people than these losers you sent me to.” → [jhaeld_return4](#d-jhaeld_return4)
+
+    <span id="d-jhaeld_15"></span>**`jhaeld_15`** Jhaeld: “First, there's Norath and his wife Bethir that lives in the farmhouse on the southwestern shore. Bethir is nowhere to be found, and Norath might know more about where she is.” — **effects:** sets stage 51 of [Everything in order](../quests/remgard.md#stage-51)
+
+    - Next → [jhaeld_16](#d-jhaeld_16)
+
+    <span id="d-jhaeld_12"></span>**`jhaeld_12`** Jhaeld: “I knew you were just trouble. Sigh. Please leave me.”
+
+    - “Fine, I'll do it. Who do you want me to ask?” → [jhaeld_14](#d-jhaeld_14)
+    - “Suit yourself.” → [jhaeld_reject](#d-jhaeld_reject)
+
+    <span id="d-jhaeld_reject"></span>**`jhaeld_reject`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 110 of [Everything in order](../quests/remgard.md#stage-110)
+
+    - branch 1 → [jhaeld_leave](#d-jhaeld_leave)
+
+    <span id="d-jhaeld_21"></span>**`jhaeld_21`** Jhaeld: “What was that? Are you still here? I told you to be as quick as possible.” — **effects:** sets stage 59 of [Everything in order](../quests/remgard.md#stage-59)
+
+    - “What about her? The bridge guard sent me to investigate that house, and seemed very upset when I mentioned that she's…” → [jhaeld_22](#d-jhaeld_22)
+    - “I'll go ask those people you mentioned.” → [jhaeld_20](#d-jhaeld_20)
+
+    <span id="d-jhaeld_20"></span>**`jhaeld_20`** Jhaeld: “As I said, please be as quick as possible.”
+
+
+    <span id="d-jhaeld_4"></span>**`jhaeld_4`** Jhaeld: “Hmm, now that you are here you might as well make yourself useful instead of just standing there looking stupid. Even if you are a kid, you might be able to gather some information for me.”
+
+    - “Sure, what do you need help with?” → [jhaeld_7](#d-jhaeld_7)
+    - “Sigh. OK. I guess.” → [jhaeld_7](#d-jhaeld_7)
+    - “I'd rather kill something.” → [jhaeld_6](#d-jhaeld_6)
+    - “Hey, watch that tone of yours!” → [jhaeld_5](#d-jhaeld_5)
+
+    <span id="d-jhaeld_killalg_6"></span>**`jhaeld_killalg_6`** Jhaeld: “Go talk to Rothses over at the west side of town. He should be able to help you improve some of your equipment.” — **effects:** sets stage 45 of [What is that stench?](../quests/remgard2.md#stage-45)
+
+    - Next → [jhaeld_completed](#d-jhaeld_completed)
+
+    <span id="d-jhaeld_alg_7"></span>**`jhaeld_alg_7`** Jhaeld: “I can still recall the stench that came from her house. Ugh. What could possibly smell that bad?”
+
+    - Next → [jhaeld_alg_8](#d-jhaeld_alg_8)
+
+    <span id="d-jhaeld_alg_1"></span>**`jhaeld_alg_1`** Jhaeld: “Hmm, yes, and what of it?”
+
+    - “I met a woman named Algangror in that house.” → [jhaeld_alg_2](#d-jhaeld_alg_2)
+
+    <span id="d-jhaeld_alg_2"></span>**`jhaeld_alg_2`** Jhaeld: “Algangror?! Now that's a name I have not heard in a long time.”
+
+    - “Algangror is hiding in that abandoned house outside town.” → [jhaeld_alg_3](#d-jhaeld_alg_3)
+
+    <span id="d-jhaeld_task2_1"></span>**`jhaeld_task2_1`** Jhaeld: “A secret, eh? You would do well to tell me what you know. Lives may be at stake here.”
+
+    - “The bridge guard sent me to scout an abandoned house outside town.” → [jhaeld_alg_1](#d-jhaeld_alg_1)
+    - “No, I will keep my word and not tell.” → [jhaeld_task2_2](#d-jhaeld_task2_2)
+    - “Never mind, it was nothing.” → [jhaeld_task2_n](#d-jhaeld_task2_n)
+    - “Never mind, I'll go ask around if anyone else knows anything.” → [jhaeld_task2_n](#d-jhaeld_task2_n)
+
+    <span id="d-jhaeld_return4"></span>**`jhaeld_return4`** Jhaeld: “Oh, I knew you were nothing but trouble the moment I saw you.”
+
+    - Next → [jhaeld_return5](#d-jhaeld_return5)
+
+    <span id="d-jhaeld_16"></span>**`jhaeld_16`** Jhaeld: “Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in Remgard. Unfortunately, one of the knights has vanished, which is most embarrassing for us. They can be found here in…” — **effects:** sets stage 52 of [Everything in order](../quests/remgard.md#stage-52)
+
+    - Next → [jhaeld_17](#d-jhaeld_17)
+
+    <span id="d-jhaeld_22"></span>**`jhaeld_22`** Jhaeld: “Did you not hear me? I told you to be as quick as possible! That means you should go talk to those people instead of standing around here blabbing.”
+
+    - “But the bridge guard seemed...” → [jhaeld_23](#d-jhaeld_23)
+    - “But I thought that...” → [jhaeld_23](#d-jhaeld_23)
+    - “What about the...” → [jhaeld_23](#d-jhaeld_23)
+    - “I'll go ask those people you mentioned.” → [jhaeld_20](#d-jhaeld_20)
+
+    <span id="d-jhaeld_7"></span>**`jhaeld_7`** Jhaeld: “*sigh* To even think that we need to get help from children to run errands now.”
+
+    - Next → [jhaeld_8](#d-jhaeld_8)
+
+    <span id="d-jhaeld_6"></span>**`jhaeld_6`** Jhaeld: “Ha ha. You? Killing something?! Now that's about the funniest thing I have heard all day. Just about.”
+
+    - “Hey, watch that tone of yours!” → [jhaeld_5](#d-jhaeld_5)
+    - “I can handle myself. What do you need help with?” → [jhaeld_7](#d-jhaeld_7)
+    - “You just wait and see.” → [jhaeld_7](#d-jhaeld_7)
+
+    <span id="d-jhaeld_5"></span>**`jhaeld_5`** Jhaeld: “No, you watch that attitude of yours! Remember where you are and who you are talking to. I am Jhaeld, and you are in Remgard - which could be called *my* city.”
+
+    - “Fine. What do you need help with?” → [jhaeld_7](#d-jhaeld_7)
+    - “You don't scare me, old man!” → [jhaeld_leave](#d-jhaeld_leave)
+
+    <span id="d-jhaeld_alg_8"></span>**`jhaeld_alg_8`** Jhaeld: “Anyway, we started questioning her, and tried to persuade her to tell what she was up to. Stubborn and crazy as she is, she refused of course.”
+
+    - Next → [jhaeld_alg_9](#d-jhaeld_alg_9)
+
+    <span id="d-jhaeld_task2_2"></span>**`jhaeld_task2_2`** Jhaeld: “Ah, someone with honor. I respect that, and will not ask any more.”
+
+    - Next → [jhaeld_task2_n](#d-jhaeld_task2_n)
+
+    <span id="d-jhaeld_return5"></span>**`jhaeld_return5`** Jhaeld: “I sent you to do a simple task, and you return with ... nothing!”
+
+    - Next → [jhaeld_return6](#d-jhaeld_return6)
+
+    <span id="d-jhaeld_17"></span>**`jhaeld_17`** Jhaeld: “Third, the old woman Duaina usually has great wisdom to share, considering the experience she has with ... things out of the ordinary. You'll find her in her house to the south.” — **effects:** sets stage 53 of [Everything in order](../quests/remgard.md#stage-53)
+
+    - Next → [jhaeld_18](#d-jhaeld_18)
+
+    <span id="d-jhaeld_23"></span>**`jhaeld_23`** Jhaeld: “Are you still talking? I knew you were nothing but trouble the moment I saw you. Now, can you please hurry up and go talk to those people?”
+
+    - “Fine. I'll go ask them.” → [jhaeld_20](#d-jhaeld_20)
+
+    <span id="d-jhaeld_8"></span>**`jhaeld_8`** Jhaeld: “I guess you know the background to this situation already. We have had some people disappear on us for some time now. We have no idea what has happened to the people that have disappeared, or even if they are still alive.”
+
+    - Next → [jhaeld_9](#d-jhaeld_9)
+
+    <span id="d-jhaeld_alg_9"></span>**`jhaeld_alg_9`** Jhaeld: “Things started getting worse, and the stench spread like a deep fog over the whole town. All of us living here in Remgard knew we had to act before she did something that could hurt us all.”
+
+    - Next → [jhaeld_alg_10](#d-jhaeld_alg_10)
+
+    <span id="d-jhaeld_18"></span>**`jhaeld_18`** Jhaeld: “Lastly, you should go talk to Rothses, the armorer in town. He meets most people now and then, and might have picked up something that he won't dare tell us guards. His house is on the western side of town.” — **effects:** sets stage 54 of [Everything in order](../quests/remgard.md#stage-54)
+
+    - Next → [jhaeld_19](#d-jhaeld_19)
+
+    <span id="d-jhaeld_9"></span>**`jhaeld_9`** Jhaeld: “Considering how many there are that have disappeared without anyone knowing what happened, it doesn't seem like they are out travelling.” — **effects:** sets stage 40 of [Everything in order](../quests/remgard.md#stage-40)
+
+    - Next → [jhaeld_10](#d-jhaeld_10)
+
+    <span id="d-jhaeld_alg_10"></span>**`jhaeld_alg_10`** Jhaeld: “So we forced her to explain herself.”
+
+    - “Did she tell?” → [jhaeld_alg_11](#d-jhaeld_alg_11)
+
+    <span id="d-jhaeld_10"></span>**`jhaeld_10`** Jhaeld: “OK, so what I would like you to do for me is ask some people what they know of the missing people. The fact that you are not from around here might help you get information that neither me nor my guards would be able to acquire.”
+
+    - “Sounds simple enough.” → [jhaeld_14](#d-jhaeld_14)
+    - “Sure, I'll do it. Who do you want me to ask?” → [jhaeld_14](#d-jhaeld_14)
+    - “I'm not too sure about this. Will there be a reward?” → [jhaeld_11](#d-jhaeld_11)
+    - “I'm not too sure about this. Why would I want to help you people?” → [jhaeld_13](#d-jhaeld_13)
+
+    <span id="d-jhaeld_alg_11"></span>**`jhaeld_alg_11`** Jhaeld: “Would you believe it, she told us that what she believed in, and what she was doing was no concern of ours. She even had the stomach to tell us that she wanted to be left alone.”
+
+    - “What did you do?” → [jhaeld_alg_12](#d-jhaeld_alg_12)
+
+    <span id="d-jhaeld_alg_12"></span>**`jhaeld_alg_12`** Jhaeld: “Of course, we did what any sane man would do. We forced her to abandon her house and find somewhere else to live. Somewhere other than Remgard.”
+
+    - Next → [jhaeld_alg_13](#d-jhaeld_alg_13)
+
+    <span id="d-jhaeld_alg_13"></span>**`jhaeld_alg_13`** Jhaeld: “You should have seen her. Nails long as your finger, and her face full of unwashed hair. Clearly, she was crazy and could not be reasoned with.”
+
+    - Next → [jhaeld_alg_14](#d-jhaeld_alg_14)
+
+    <span id="d-jhaeld_alg_14"></span>**`jhaeld_alg_14`** Jhaeld: “When we marched her out of town, the children started crying out of fear of her.”
+
+    - Next → [jhaeld_alg_15](#d-jhaeld_alg_15)
+
+    <span id="d-jhaeld_alg_15"></span>**`jhaeld_alg_15`** Jhaeld: “The worst thing though, is that she said she would put a curse on all of us.”
+
+    - Next → [jhaeld_alg_16](#d-jhaeld_alg_16)
+
+    <span id="d-jhaeld_alg_16"></span>**`jhaeld_alg_16`** Jhaeld: “All of this was several seasons ago, and things have gone back to the usual business nowadays.”
+
+    - “What now then, since she has returned?” → [jhaeld_alg_17](#d-jhaeld_alg_17)
+
+    <span id="d-jhaeld_alg_17"></span>**`jhaeld_alg_17`** Jhaeld: “Yes. Her being back would explain the missing people. She must have done something to them. I fear for the worst.”
+
+    - Next → [jhaeld_alg_18](#d-jhaeld_alg_18)
+
+    <span id="d-jhaeld_alg_18"></span>**`jhaeld_alg_18`** Jhaeld: “Considering the people that have disappeared, I frankly don't know what to do. As you know, even one of the Knights of Elythom has disappeared.”
+
+    - Next → [jhaeld_alg_19](#d-jhaeld_alg_19)
+
+    <span id="d-jhaeld_alg_19"></span>**`jhaeld_alg_19`** Jhaeld: “Someone that can do that is dangerous indeed. I am not sure I would even risk sending the guards out there for her, in fear of what she might do.”
+
+    - “So, what then?” → [jhaeld_alg_20](#d-jhaeld_alg_20)
+
+    <span id="d-jhaeld_alg_20"></span>**`jhaeld_alg_20`** Jhaeld: “If I were to choose, I would rather not deal with it, and just seal the town bridge as safely as possible, to prevent any more people from disappearing.” — **effects:** sets stage 20 of [What is that stench?](../quests/remgard2.md#stage-20)
+
+    - Next → [jhaeld_alg_21s](#d-jhaeld_alg_21s)
+
+    <span id="d-jhaeld_alg_21s"></span>**`jhaeld_alg_21s`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21))* → [jhaeld_alg_21n](#d-jhaeld_alg_21n)
+    - branch 2 → [jhaeld_alg_21](#d-jhaeld_alg_21)
+
+    <span id="d-jhaeld_alg_21n"></span>**`jhaeld_alg_21n`** Jhaeld: “I ... I don't know what to do.”
+
+
+    <span id="d-jhaeld_alg_21"></span>**`jhaeld_alg_21`** Jhaeld: “I ... I don't know what to do.”
+
+    - “I could help you if you want.” → [jhaeld_alg_24](#d-jhaeld_alg_24)
+    - “You pathetic fool. You would rather sit here and do nothing instead of confronting her?” → [jhaeld_alg_22](#d-jhaeld_alg_22)
+    - “Hah, sucks to be you!” → [jhaeld_alg_23](#d-jhaeld_alg_23)
+
+    <span id="d-jhaeld_alg_24"></span>**`jhaeld_alg_24`** Jhaeld: “If you really want to help us, then please be careful. She can not be trusted.”
+
+    - Next → [jhaeld_alg_25](#d-jhaeld_alg_25)
+
+    <span id="d-jhaeld_alg_22"></span>**`jhaeld_alg_22`** Jhaeld: “I will not see more of my people get hurt, or whatever it is she has done to them. I will keep my people safe.”
+
+    - “I could help you if you want.” → [jhaeld_alg_24](#d-jhaeld_alg_24)
+    - “Hah, sucks to be you!” → [jhaeld_alg_23](#d-jhaeld_alg_23)
+
+    <span id="d-jhaeld_alg_23"></span>**`jhaeld_alg_23`** Jhaeld: “Insults won't get you anywhere. The people that have disappeared are still missing, and may be hurt, while you run around handing out insults. I pity you.”
+
+    - “I could help you if you want.” → [jhaeld_alg_24](#d-jhaeld_alg_24)
+    - “You pathetic fool. You would rather sit here and do nothing instead of confronting her?” → [jhaeld_alg_22](#d-jhaeld_alg_22)
+
+    <span id="d-jhaeld_alg_25"></span>**`jhaeld_alg_25`** Jhaeld: “However, if you were to find a way to make her disappear, we would of course be forever in your debt.”
+
+    - “I'll see what I can do.” → [jhaeld_alg_26](#d-jhaeld_alg_26)
+    - “I have dealt with stronger foes.” → [jhaeld_alg_27](#d-jhaeld_alg_27)
+
+    <span id="d-jhaeld_alg_27"></span>**`jhaeld_alg_27`** Jhaeld: “I doubt it.”
+
+    - Next → [jhaeld_alg_26](#d-jhaeld_alg_26)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jhaeld.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jhaeld.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jhaeld.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=jhaeld.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `jhaeld` · Data from v0.8.18</small>

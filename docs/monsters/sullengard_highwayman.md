@@ -26,4 +26,62 @@
 
 - [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md)
 
+??? quote "Dialogue (7 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-sullengard_highwayman"></span>**`sullengard_highwayman`** Highwayman: “I've been looking for someone who fits your description.” — **effects:** faction “fct_highwayman2” set to -10
+
+    - “You have? Why?” → [sullengard_highwayman_2](#d-sullengard_highwayman_2)
+
+    <span id="d-sullengard_highwayman_2"></span>**`sullengard_highwayman_2`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if killed 0× [Highwayman](../monsters/highwayman1.md))* → [sullengard_highwayman_2a](#d-sullengard_highwayman_2a)
+    - branch 2 *(if killed 0× [Highwayman](../monsters/highwayman.md))* → [sullengard_highwayman_2b](#d-sullengard_highwayman_2b)
+    - branch 3 → [sullengard_highwayman_3](#d-sullengard_highwayman_3)
+
+    <span id="d-sullengard_highwayman_2a"></span>**`sullengard_highwayman_2a`** Highwayman: “Yes! You are the one that has killed my fellow "road travellers" and now you must pay!”
+
+    - “Bring it on!” → *fight starts*
+
+    <span id="d-sullengard_highwayman_2b"></span>**`sullengard_highwayman_2b`** Highwayman: “Yes! You are the one that has killed my fellow "road travellers" and now you must pay!”
+
+    - “Bring it on!” → *fight starts*
+
+    <span id="d-sullengard_highwayman_3"></span>**`sullengard_highwayman_3`** Highwayman: “Yes, you do look like him. He is the one who helped Sullengard financially on many occasions.”
+
+    - “Hey, it must be my brother Andor! Tell me more about him.” → [sullengard_highwayman_4](#d-sullengard_highwayman_4)
+
+    <span id="d-sullengard_highwayman_4"></span>**`sullengard_highwayman_4`** Highwayman: “Pay me 750 gold coins first or I'll rob you and then the Sullengard for my living!”
+
+    - “Fine. Here's 750 gold coins. Now, tell me about him.” *(if pay 750 gold)* → [sullengard_highwayman_5](#d-sullengard_highwayman_5)
+    - “Bring it on!” → *fight starts*
+
+    <span id="d-sullengard_highwayman_5"></span>**`sullengard_highwayman_5`** Highwayman: “He is taller and stronger than you. Have a good time!” — **effects:** faction “fct_highwayman2” set to 11
+
+    - branch 1 → *NPC leaves*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_highwayman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_highwayman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_highwayman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_highwayman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `sullengard_highwayman` · Data from v0.8.18</small>

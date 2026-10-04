@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Drendolas](../monsters/brightport_studentghost1.md) | 0 |
 | [Erelyn](../monsters/brightport_studentghost.md) | 0 |
+| [Drendolas](../monsters/brightport_studentghost1.md) | 0 |
 
 <small>Map ID: `brightport_school8` · Data from v0.8.18</small>

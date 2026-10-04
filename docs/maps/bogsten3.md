@@ -17,8 +17,8 @@
 |---|---|
 | [Weak fungi](../monsters/weak_fungi.md) | 20 |
 | [Fungi](../monsters/mid_fungi.md) | 25 |
-| [Lombric beast](../monsters/lombric_beast.md) | 30 |
 | [Lombric ball](../monsters/lombric_ball.md) | 30 |
+| [Lombric beast](../monsters/lombric_beast.md) | 30 |
 | [Dangerous fungi](../monsters/dangerous_fungi.md) | 55 |
 
 <small>Map ID: `bogsten3` · Data from v0.8.18</small>

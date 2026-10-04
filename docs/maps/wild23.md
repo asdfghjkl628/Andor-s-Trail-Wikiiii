@@ -21,10 +21,10 @@
 
 | Name | HP |
 |---|---|
-| [Stoutford guard](../monsters/stoutford_guard3.md) | 0 |
 | [Stoutford guard](../monsters/stoutford_guard2.md) | 0 |
-| [Stoutford guard](../monsters/stoutford_guard1_b.md) | 0 |
 | [Stoutford guard](../monsters/stoutford_guard1_c.md) | 0 |
+| [Stoutford guard](../monsters/stoutford_guard3.md) | 0 |
 | [Stoutford guard](../monsters/stoutford_guard1.md) | 0 |
+| [Stoutford guard](../monsters/stoutford_guard1_b.md) | 0 |
 
 <small>Map ID: `wild23` · Data from v0.8.18</small>

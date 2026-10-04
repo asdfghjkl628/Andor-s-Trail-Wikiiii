@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Chapel guard](../monsters/sullengard_church_guard.md) | 0 |
 | [Kealwea](../monsters/sullengard_priest.md) | 0 |
+| [Chapel guard](../monsters/sullengard_church_guard.md) | 0 |
 
 <small>Map ID: `sullengard_church` · Data from v0.8.18</small>

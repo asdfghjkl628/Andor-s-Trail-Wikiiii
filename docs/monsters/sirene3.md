@@ -18,4 +18,5 @@
 
 - [mountainlake21](../maps/mountainlake21.md)
 
+
 <small>Monster ID: `sirene3` · Data from v0.8.18</small>

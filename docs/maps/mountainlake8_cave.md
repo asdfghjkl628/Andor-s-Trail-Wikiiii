@@ -23,8 +23,8 @@
 
 | Name | HP |
 |---|---|
-| [Tiny rat](../monsters/brute_origin1a.md) | 0 |
 | [Os](../monsters/brute_creator.md) | 0 |
+| [Tiny rat](../monsters/brute_origin1a.md) | 0 |
 | [Tiny rat](../monsters/brute_origin1.md) | 2 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
 | [Mountain wolf](../monsters/mountain_wolf.md) | 49 |

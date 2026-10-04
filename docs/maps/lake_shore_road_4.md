@@ -21,7 +21,7 @@
 
 | Name | HP |
 |---|---|
-| [Blue fish](../monsters/fish_school.md) | 0 |
 | [Pond fish](../monsters/pond_fish.md) | 0 |
+| [Blue fish](../monsters/fish_school.md) | 0 |
 
 <small>Map ID: `lake_shore_road_4` · Data from v0.8.18</small>

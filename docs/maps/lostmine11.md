@@ -15,8 +15,8 @@
 | Name | HP |
 |---|---|
 | [Walking flame](../monsters/fire7.md) | 131 |
-| [Ancient walking inferno](../monsters/fire9.md) | 135 |
 | [Walking inferno](../monsters/fire8.md) | 135 |
+| [Ancient walking inferno](../monsters/fire9.md) | 135 |
 | [Thukuzun](../monsters/thukuzun.md) | 193 |
 
 <small>Map ID: `lostmine11` · Data from v0.8.18</small>

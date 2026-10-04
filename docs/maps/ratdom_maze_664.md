@@ -22,9 +22,9 @@
 
 | Name | HP |
 |---|---|
-| [Fish](../monsters/ratdom_water_fish1.md) | 0 |
-| [Fish](../monsters/ratdom_water_fish2.md) | 0 |
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
+| [Fish](../monsters/ratdom_water_fish2.md) | 0 |
+| [Fish](../monsters/ratdom_water_fish1.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
 | [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
 | [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |

@@ -17,9 +17,9 @@
 
 | Name | HP |
 |---|---|
-| [Feeding goat](../monsters/sullengard_goat_feeding.md) | 0 |
-| [Young herding dog](../monsters/sull_herding_dog.md) | 0 |
 | [Goat herder](../monsters/sullengard_goat_herder.md) | 0 |
+| [Young herding dog](../monsters/sull_herding_dog.md) | 0 |
+| [Feeding goat](../monsters/sullengard_goat_feeding.md) | 0 |
 | [Goat](../monsters/sullengard_goat_standing.md) | 0 |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 97 |
 | [Preabola fly](../monsters/preabola_fly.md) | 109 |

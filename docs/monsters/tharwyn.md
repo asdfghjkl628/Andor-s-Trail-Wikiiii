@@ -28,4 +28,100 @@
 
 - [vilegard_tavern](../maps/vilegard_tavern.md)
 
+## Quests
+
+- [Beer Bootlegging](../quests/beer_bootlegging.md): stages 30
+- [Trusting an outsider](../quests/vilegard.md): stages 10
+- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 32
+
+??? quote "Dialogue (15 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-tharwyn_select"></span>**`tharwyn_select`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 30 of [Trusting an outsider](../quests/vilegard.md#stage-30))* → [tharwyn_1](#d-tharwyn_1)
+    - branch 2 → [vilegard_shop_notrust](#d-vilegard_shop_notrust)
+
+    <span id="d-tharwyn_1"></span>**`tharwyn_1`** Tharwyn: “Hello there. I heard you helped Jolnor in the chapel. You have my thanks, friend.”
+
+    - Next → [tharwyn_2](#d-tharwyn_2)
+
+    <span id="d-vilegard_shop_notrust"></span>**`vilegard_shop_notrust`** Tharwyn: “You are an outsider. We don't like outsiders here in Vilegard. Please leave.”
+
+    - “Why is everyone in Vilegard so suspicious of outsiders?” → [vilegard_shop_notrust_2](#d-vilegard_shop_notrust_2)
+    - “Can I see what items you have for sale?” → [vilegard_shop_notrust_2](#d-vilegard_shop_notrust_2)
+
+    <span id="d-tharwyn_2"></span>**`tharwyn_2`** Tharwyn: “Have a seat anywhere. What can I get you?”
+
+    - “Show me what food you have available.” → *shop opens*
+    - “Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a…” *(if latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-20) is 20)* → [tharwyn_beer](#d-tharwyn_beer)
+    - “Let's get back to discussing your 'business agreement' with the 'distributors'.” *(if reached stage 32 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-32); NOT reached stage 30 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-30))* → [tharwyn_beer_50](#d-tharwyn_beer_50)
+
+    <span id="d-vilegard_shop_notrust_2"></span>**`vilegard_shop_notrust_2`** Tharwyn: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.” — **effects:** sets stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
+
+
+    <span id="d-tharwyn_beer"></span>**`tharwyn_beer`** Tharwyn: “What? I don't know anything about what you speak of.”
+
+    - “I am sure you do. What do I have to do to hear what you know?” → [tharwyn_beer_10](#d-tharwyn_beer_10)
+
+    <span id="d-tharwyn_beer_50"></span>**`tharwyn_beer_50`** Tharwyn: “I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.” — **effects:** sets stage 32 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-32)
+
+    - “Great. Start talking.” → [tharwyn_beer_60](#d-tharwyn_beer_60)
+
+    <span id="d-tharwyn_beer_10"></span>**`tharwyn_beer_10`** Tharwyn: “Well, if I read you correctly, I feel like you are prepared to offer me a bribe?”
+
+    - “Oh great, not another tavern owner hungry for more gold.” → [tharwyn_beer_20](#d-tharwyn_beer_20)
+
+    <span id="d-tharwyn_beer_60"></span>**`tharwyn_beer_60`** Tharwyn: “Do you see that suspicious looking fellow over there in the corner?”
+
+    - “The thief?” → [tharwyn_beer_70](#d-tharwyn_beer_70)
+
+    <span id="d-tharwyn_beer_20"></span>**`tharwyn_beer_20`** Tharwyn: “Well, am I correct?”
+
+    - “If that's what it it takes to get you to talk, then yes.” → [tharwyn_beer_30](#d-tharwyn_beer_30)
+
+    <span id="d-tharwyn_beer_70"></span>**`tharwyn_beer_70`** Tharwyn: “That is Dunla. He gets me my beer. Go talk to him.” — **effects:** sets stage 30 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-30)
+
+
+    <span id="d-tharwyn_beer_30"></span>**`tharwyn_beer_30`** Tharwyn: “Wow! This is my lucky day. I just found out today that my daughter needs 5,000 gold in order to enroll at this special school in Nor City and now here you are offering me a bribe.”
+
+    - Next → [tharwyn_beer_31](#d-tharwyn_beer_31)
+
+    <span id="d-tharwyn_beer_31"></span>**`tharwyn_beer_31`** Tharwyn: “That will be 5,000 gold please.”
+
+    - “What? You guys are killing me.” → [tharwyn_beer_40](#d-tharwyn_beer_40)
+
+    <span id="d-tharwyn_beer_40"></span>**`tharwyn_beer_40`** Tharwyn: “Is that a 'yes' or a 'no'?”
+
+    - “That sounds ridiculous, but here, take it.” *(if pay 5,000 gold)* → [tharwyn_beer_50](#d-tharwyn_beer_50)
+    - “That sounds ridiculous! I won't pay that much.” *(if have 5,000 gold)* → [tharwyn_beer_51](#d-tharwyn_beer_51)
+    - “I can't afford that.” *(if have 5,000 gold)* → [tharwyn_beer_51](#d-tharwyn_beer_51)
+
+    <span id="d-tharwyn_beer_51"></span>**`tharwyn_beer_51`** Tharwyn: “That's fine with me, but no information for you.”
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tharwyn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tharwyn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tharwyn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tharwyn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `tharwyn` · Data from v0.8.18</small>

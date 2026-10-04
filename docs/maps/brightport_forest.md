@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Writhing bread](../monsters/breadgolem1.md) | 0 |
 | [Bryma](../monsters/brightportnpc7.md) | 0 |
+| [Writhing bread](../monsters/breadgolem1.md) | 0 |
 
 <small>Map ID: `brightport_forest` · Data from v0.8.18</small>

@@ -28,4 +28,155 @@
 
 - [remgard_tavern1](../maps/remgard_tavern1.md)
 
+## Quests
+
+- [Old friends?](../quests/kaverin.md): stages 10, 20, 21, 22, 25, 40, 45, 60, 90
+
+??? quote "Dialogue (28 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-kaverin"></span>**`kaverin`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 21 of [Old friends?](../quests/kaverin.md#stage-21))* → [kaverin_decline2](#d-kaverin_decline2)
+    - branch 2 *(if reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60))* → [kaverin_fight_1](#d-kaverin_fight_1)
+    - branch 3 *(if reached stage 90 of [Old friends?](../quests/kaverin.md#stage-90))* → [kaverin_done_ret](#d-kaverin_done_ret)
+    - branch 4 *(if reached stage 45 of [Old friends?](../quests/kaverin.md#stage-45))* → [kaverin_done3](#d-kaverin_done3)
+    - branch 5 *(if reached stage 40 of [Old friends?](../quests/kaverin.md#stage-40))* → [kaverin_done1](#d-kaverin_done1)
+    - branch 6 *(if reached stage 25 of [Old friends?](../quests/kaverin.md#stage-25))* → [kaverin_return1](#d-kaverin_return1)
+    - branch 7 *(if reached stage 22 of [Old friends?](../quests/kaverin.md#stage-22))* → [kaverin_accept2](#d-kaverin_accept2)
+    - branch 8 *(if reached stage 20 of [Old friends?](../quests/kaverin.md#stage-20))* → [kaverin_8r](#d-kaverin_8r)
+    - branch 9 → [kaverin_1](#d-kaverin_1)
+
+    <span id="d-kaverin_decline2"></span>**`kaverin_decline2`** Kaverin: “The friend from Fallhaven returns. Please leave me be, I have things to do.”
+
+
+    <span id="d-kaverin_fight_1"></span>**`kaverin_fight_1`** Kaverin: “Oh yes, I can feel it. You work for Vacor! He must be stopped!” — **effects:** sets stage 60 of [Old friends?](../quests/kaverin.md#stage-60)
+
+    - “Fight!” → *fight starts*
+
+    <span id="d-kaverin_done_ret"></span>**`kaverin_done_ret`** Kaverin: “Hello again. It's comforting to know that Unzel is still alive, and that you delivered my message to him.”
+
+    - Next → [kaverin_done6](#d-kaverin_done6)
+
+    <span id="d-kaverin_done3"></span>**`kaverin_done3`** Kaverin: “We've discovered one of Vacor's hideouts, far to the south.”
+
+    - Next → [kaverin_done4](#d-kaverin_done4)
+
+    <span id="d-kaverin_done1"></span>**`kaverin_done1`** Kaverin: “Thank you, my friend. May you walk in the glow of the Shadow.” — **effects:** sets stage 40 of [Old friends?](../quests/kaverin.md#stage-40)
+
+    - Next → [kaverin_done2](#d-kaverin_done2)
+
+    <span id="d-kaverin_return1"></span>**`kaverin_return1`** Kaverin: “It's good to see you again. Have you delivered my message to Unzel?”
+
+    - “Yes, the message is delivered.” *(if reached stage 30 of [Old friends?](../quests/kaverin.md#stage-30))* → [kaverin_done1](#d-kaverin_done1)
+    - “No, not yet.” → [kaverin_return2](#d-kaverin_return2)
+
+    <span id="d-kaverin_accept2"></span>**`kaverin_accept2`** Kaverin: “Make sure this doesn't fall into the hands of Feygard, or her loyalists.”
+
+    - Next → [kaverin_accept3](#d-kaverin_accept3)
+
+    <span id="d-kaverin_8r"></span>**`kaverin_8r`** Kaverin: “My friend from Fallhaven returns. It's comforting to hear that Unzel is still alive.”
+
+    - Next → [kaverin_8](#d-kaverin_8)
+
+    <span id="d-kaverin_1"></span>**`kaverin_1`** Kaverin: “From the looks of you, you don't seem to be from around here. That makes two of us then. He he.”
+
+    - “I'm from the village of Crossglen, far to the west of here.” → [kaverin_2](#d-kaverin_2)
+
+    <span id="d-kaverin_done6"></span>**`kaverin_done6`** Kaverin: “Walk with the Shadow, my friend.”
+
+
+    <span id="d-kaverin_done4"></span>**`kaverin_done4`** Kaverin: “Since you helped us stop him, it's fitting that you have this.”
+
+    - Next → [kaverin_done5](#d-kaverin_done5)
+
+    <span id="d-kaverin_done2"></span>**`kaverin_done2`** Kaverin: “Take this map as compensation for a job well done.” — **effects:** gives [Map to Vacor's old hideout](../items/vacor_map.md), sets stage 45 of [Old friends?](../quests/kaverin.md#stage-45)
+
+    - Next → [kaverin_done3](#d-kaverin_done3)
+
+    <span id="d-kaverin_return2"></span>**`kaverin_return2`** Kaverin: “Please don't take too long. Walk with the Shadow, my friend.”
+
+
+    <span id="d-kaverin_accept3"></span>**`kaverin_accept3`** Kaverin: “[He gives you a sealed message]” — **effects:** gives [Kaverin's sealed message](../items/kaverin_message.md), sets stage 25 of [Old friends?](../quests/kaverin.md#stage-25)
+
+    - “You can count on me, Kaverin.” → [kaverin_accept4](#d-kaverin_accept4)
+
+    <span id="d-kaverin_8"></span>**`kaverin_8`** Kaverin: “Would you be willing to deliver a message to him?” — **effects:** sets stage 20 of [Old friends?](../quests/kaverin.md#stage-20)
+
+    - Next → [kaverin_9](#d-kaverin_9)
+
+    <span id="d-kaverin_2"></span>**`kaverin_2`** Kaverin: “Crossglen! I know that place, it's not far from Fallhaven, right?”
+
+    - Next → [kaverin_3](#d-kaverin_3)
+
+    <span id="d-kaverin_done5"></span>**`kaverin_done5`** Kaverin: “According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take whatever is left in there.” — **effects:** sets stage 90 of [Old friends?](../quests/kaverin.md#stage-90)
+
+    - Next → [kaverin_done6](#d-kaverin_done6)
+
+    <span id="d-kaverin_accept4"></span>**`kaverin_accept4`** Kaverin: “Good. Now go deliver that message to Unzel.”
+
+
+    <span id="d-kaverin_9"></span>**`kaverin_9`** Kaverin: “You'd be well compensated for your efforts.”
+
+    - “Anything for the sake of the Shadow.” → [kaverin_accept1](#d-kaverin_accept1)
+    - “Sure.” → [kaverin_accept1](#d-kaverin_accept1)
+    - “No, I am done helping you people.” → [kaverin_decline1](#d-kaverin_decline1)
+
+    <span id="d-kaverin_3"></span>**`kaverin_3`** Kaverin: “I have an old ... shall we say ... friend ... from Fallhaven. Goes by the name of Unzel.”
+
+    - Next → [kaverin_4](#d-kaverin_4)
+
+    <span id="d-kaverin_accept1"></span>**`kaverin_accept1`** Kaverin: “Good, that's exactly what I wanted to hear.” — **effects:** sets stage 22 of [Old friends?](../quests/kaverin.md#stage-22)
+
+    - Next → [kaverin_accept2](#d-kaverin_accept2)
+
+    <span id="d-kaverin_decline1"></span>**`kaverin_decline1`** Kaverin: “That is unfortunate, you seemed like such a bright boy too.” — **effects:** sets stage 21 of [Old friends?](../quests/kaverin.md#stage-21)
+
+
+    <span id="d-kaverin_4"></span>**`kaverin_4`** Kaverin: “You wouldn't by any chance have met him, would you?” — **effects:** sets stage 10 of [Old friends?](../quests/kaverin.md#stage-10)
+
+    - “No, I've never met him.” → [kaverin_5](#d-kaverin_5)
+    - “Yes, I've met that fool. He was an easy kill.” *(if reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
+    - “Yes, I have met him. I still have some of his blood on my boots.” *(if reached stage 60 of [vacor (hidden flag)](../quests/vacor.md#stage-60))* → [kaverin_6](#d-kaverin_6)
+    - “Yes, I even helped him defeat a scoundrel named Vacor.” *(if reached stage 61 of [vacor (hidden flag)](../quests/vacor.md#stage-61))* → [kaverin_7](#d-kaverin_7)
+
+    <span id="d-kaverin_5"></span>**`kaverin_5`** Kaverin: “I guess he keeps to himself. I sure hope he is OK. If you ever run into him, please say hi to him for me.”
+
+    - “I'm trying to find my brother Andor, have you seen him?” → [kaverin_5b](#d-kaverin_5b)
+
+    <span id="d-kaverin_6"></span>**`kaverin_6`** Kaverin: “You?! But ... but ... this is terrible! I bet you are one of the goons of that Vacor fellow.”
+
+    - Next → [kaverin_fight_1](#d-kaverin_fight_1)
+
+    <span id="d-kaverin_7"></span>**`kaverin_7`** Kaverin: “Excellent, that is good news indeed! May you walk with the Shadow, my friend!”
+
+    - Next → [kaverin_8](#d-kaverin_8)
+
+    <span id="d-kaverin_5b"></span>**`kaverin_5b`** Kaverin: “Andor? No, I'm sorry. I've never heard of him.”
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kaverin.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kaverin.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kaverin.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kaverin.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `kaverin` · Data from v0.8.18</small>

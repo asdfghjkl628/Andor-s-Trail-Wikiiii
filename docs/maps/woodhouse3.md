@@ -15,8 +15,8 @@
 | Name | HP |
 |---|---|
 | [Rat](../monsters/vermin0.md) | 0 |
-| [Roach](../monsters/vermin2.md) | 0 |
 | [Outcast](../monsters/smuggler7.md) | 0 |
 | [Rat](../monsters/vermin1.md) | 0 |
+| [Roach](../monsters/vermin2.md) | 0 |
 
 <small>Map ID: `woodhouse3` · Data from v0.8.18</small>

@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Gyra](../monsters/stn_gyra2.md) | 0 |
 | [Gyra](../monsters/stn_gyra1.md) | 0 |
+| [Gyra](../monsters/stn_gyra2.md) | 0 |
 
 <small>Map ID: `stoutford_tower3` · Data from v0.8.18</small>

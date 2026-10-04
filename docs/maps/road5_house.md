@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Alynndir](../monsters/alynndir.md) | 0 |
 | [Andor](../monsters/dds_andor.md) | 0 |
+| [Alynndir](../monsters/alynndir.md) | 0 |
 
 <small>Map ID: `road5_house` · Data from v0.8.18</small>

@@ -30,4 +30,64 @@
 
 - [galmore_18](../maps/galmore_18.md)
 
+??? quote "Dialogue (7 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-mg2_troll"></span>**`mg2_troll`** Sleepy giant ogre: “[Snoring]”
+
+    - “Hey, ugly brute - wake up!” *(if random chance (50%))* → [mg2_troll](#d-mg2_troll)
+    - “MOVE!!” *(if random chance (50%))* → [mg2_troll](#d-mg2_troll)
+    - “Maybe I should just wait a bit?” → [mg2_troll](#d-mg2_troll)
+    - “[singing]Troll sat alone on his seat of stone” *(if random chance (10%))* → [mg2_troll_10](#d-mg2_troll_10)
+    - “I think I'm going to poke you in your big fat nose.” *(if reached stage 12 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-12))* → [mg2_troll_20](#d-mg2_troll_20)
+    - “Throw a rock at the troll.” *(if hand over 1× [Small rock](../items/rock.md))* → [mg2_troll_30](#d-mg2_troll_30)
+
+    <span id="d-mg2_troll_10"></span>**`mg2_troll_10`** Sleepy giant ogre: “[Snoring]”
+
+    - “[Singing] And munched and mumbled a bare old bone” → [mg2_troll_12](#d-mg2_troll_12)
+
+    <span id="d-mg2_troll_20"></span>**`mg2_troll_20`** Sleepy giant ogre: “Ouch! OUCH! Oooh - just you wait!!” — **effects:** faction “mg2_troll” set to -100
+
+    - “Oops” → *fight starts*
+
+    <span id="d-mg2_troll_30"></span>**`mg2_troll_30`** Sleepy giant ogre: “Awww ... hmm, moooore ...”
+
+    - Next → [mg2_troll](#d-mg2_troll)
+
+    <span id="d-mg2_troll_12"></span>**`mg2_troll_12`** Sleepy giant ogre: “Hmm? [Snoring]”
+
+    - “[Singing.] For many a year he had gnawed it near For meat was hard to come by.” → [mg2_troll_14](#d-mg2_troll_14)
+
+    <span id="d-mg2_troll_14"></span>**`mg2_troll_14`** Sleepy giant ogre: “[Muttering] Fooood?”
+
+    - Next → [mg2_troll_16](#d-mg2_troll_16)
+
+    <span id="d-mg2_troll_16"></span>**`mg2_troll_16`** Sleepy giant ogre: “[Muttering] No. Can't be. Must be dreaming.”
+
+    - “Hey!” → [mg2_troll](#d-mg2_troll)
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_troll.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_troll.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_troll.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_troll.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `mg2_troll` · Data from v0.8.18</small>

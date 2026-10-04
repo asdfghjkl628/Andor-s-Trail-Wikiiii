@@ -19,4 +19,103 @@
 - [blackwater_mountain10](../maps/blackwater_mountain10.md)
 - [elm_mine2](../maps/elm_mine2.md)
 
+??? quote "Dialogue (15 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-ortholion_guard3_selector"></span>**`ortholion_guard3_selector`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 54 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54))* → [ortholion_guard3_5](#d-ortholion_guard3_5)
+    - branch 2 *(if reached stage 47 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-47))* → [ortholion_guard3_2](#d-ortholion_guard3_2)
+    - branch 3 *(if latest stage of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-46) is 46)* → [ortholion_guard3_8](#d-ortholion_guard3_8)
+    - branch 4 *(if random chance (1/2%))* → [ortholion_guard3_1](#d-ortholion_guard3_1)
+    - branch 5 → [ortholion_guard3_1b](#d-ortholion_guard3_1b)
+
+    <span id="d-ortholion_guard3_5"></span>**`ortholion_guard3_5`** Feygard patrol guard: “Ahem... the general is waiting for you in the dining room.”
+
+    - “The general was waiting for you down in the mine.” → [ortholion_guard3_6a](#d-ortholion_guard3_6a)
+    - “Thank you, sir.” → *conversation ends*
+    - “Do you have anything to trade?” → [ortholion_guard3_6b](#d-ortholion_guard3_6b)
+
+    <span id="d-ortholion_guard3_2"></span>**`ortholion_guard3_2`** Feygard patrol guard: “Hey kid! You shouldn't be here, there are dangerous animals.”
+
+    - “Are you scared of the snakes?” → [ortholion_guard3_3](#d-ortholion_guard3_3)
+    - “OK, goodbye.” → *conversation ends*
+    - “I can handle myself.” → *conversation ends*
+
+    <span id="d-ortholion_guard3_8"></span>**`ortholion_guard3_8`** Feygard patrol guard: “I hate these escorting trips. It's not like the general really needs us for this.”
+
+    - Next → [ortholion_guard3_9](#d-ortholion_guard3_9)
+
+    <span id="d-ortholion_guard3_1"></span>**`ortholion_guard3_1`** Feygard patrol guard: “Out of my sight kid. I'm on duty.”
+
+
+    <span id="d-ortholion_guard3_1b"></span>**`ortholion_guard3_1b`** Feygard patrol guard: “We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and do not have time to waste talking to a kid.”
+
+
+    <span id="d-ortholion_guard3_6a"></span>**`ortholion_guard3_6a`** Feygard patrol guard: “What do you mean kid?! We had to... guard this place right here. We were sure our mighty general Ortholion was handling the problem!”
+
+    - “I will report your inefficiency.” → *conversation ends*
+    - “It was me who solved the problem!” → [ortholion_guard3_7](#d-ortholion_guard3_7)
+
+    <span id="d-ortholion_guard3_6b"></span>**`ortholion_guard3_6b`** Feygard patrol guard: “No, I do not.”
+
+    - “So cold...” → *conversation ends*
+    - “Fine. Keep the good work, hah!” → *conversation ends*
+
+    <span id="d-ortholion_guard3_3"></span>**`ortholion_guard3_3`** Feygard patrol guard: “Eh? No. We are...Uhm, the rearguard, keeping the others safe. After all, this is the mines only entrance.”
+
+    - “Yeah, sure. See you later, cowards.” → *conversation ends*
+    - “Where's the general?” → [ortholion_guard3_4](#d-ortholion_guard3_4)
+
+    <span id="d-ortholion_guard3_9"></span>**`ortholion_guard3_9`** Feygard patrol guard: “The trip here was anything but safe. I miss my former post in Crossglen.”
+
+    - “Oh, so you are one of those good for nothing, always drunk, soldiers?” → [ortholion_guard3_10](#d-ortholion_guard3_10)
+
+    <span id="d-ortholion_guard3_7"></span>**`ortholion_guard3_7`** Feygard patrol guard: “HAH! Out of my sight.”
+
+
+    <span id="d-ortholion_guard3_4"></span>**`ortholion_guard3_4`** Feygard patrol guard: “Our... mighty general has already caught that Shadow fanatic...Yes. Deep in the mine, that's where he is. He's coming back...Probably.”
+
+    - “Aha, so no idea. Thanks anyway.” → *conversation ends*
+    - “Good. Gonna check that out, bye.” → *conversation ends*
+
+    <span id="d-ortholion_guard3_10"></span>**`ortholion_guard3_10`** Feygard patrol guard: “Yes, I w... Hey! What did you just say?”
+
+    - “I have important information to deliver!” → [ortholion_guard3_11a](#d-ortholion_guard3_11a)
+    - “I am proud of you, drunkard. Where's your boss?” → [ortholion_guard3_11b](#d-ortholion_guard3_11b)
+
+    <span id="d-ortholion_guard3_11a"></span>**`ortholion_guard3_11a`** Feygard patrol guard: “Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*.”
+
+    - “Blackwater brew, eh? Truly disappointing. Goodbye.” → *conversation ends*
+    - “OK sir, many thanks.” → *conversation ends*
+
+    <span id="d-ortholion_guard3_11b"></span>**`ortholion_guard3_11b`** Feygard patrol guard: “[looks at you perplexed] Uhh... *hic* Over there. *points at the mountain scout*”
+
+    - “Finally, bye.” → *conversation ends*
+    - “Thanks, and sleep it off... Sigh.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `ortholion_guard3` · Data from v0.8.18</small>

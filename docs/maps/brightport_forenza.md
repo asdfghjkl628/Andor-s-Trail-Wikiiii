@@ -18,7 +18,7 @@
 
 | Name | HP |
 |---|---|
-| [Florencia](../monsters/brightportforenza1.md) | 0 |
 | [Sylvester](../monsters/brightportforenza.md) | 0 |
+| [Florencia](../monsters/brightportforenza1.md) | 0 |
 
 <small>Map ID: `brightport_forenza` · Data from v0.8.18</small>

@@ -31,4 +31,57 @@
 
 - [stoutford_potion](../maps/stoutford_potion.md)
 
+??? quote "Dialogue (5 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-stoutford_widow2_0"></span>**`stoutford_widow2_0`** Aryfora: “Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?”
+
+    - “Of course! Please show me what you have.” → *shop opens*
+    - “Can I get your masterpiece, the potion of deftness?” → [stoutford_widow2_1](#d-stoutford_widow2_1)
+    - “It's good to see you happy again.” → *conversation ends*
+
+    <span id="d-stoutford_widow2_1"></span>**`stoutford_widow2_1`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 207 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-207))* → [stoutford_widow2_2](#d-stoutford_widow2_2)
+    - branch 2 → [stoutford_widow2_3](#d-stoutford_widow2_3)
+
+    <span id="d-stoutford_widow2_2"></span>**`stoutford_widow2_2`** Aryfora: “Well, no. Somehow I have the feeling that you did not always tell the truth about the damerilias. I don't think that you are old enough to get such a potent potion.”
+
+    - “Then let me see your other potions, please.” → *shop opens*
+    - “I have to leave now - bye.” → *conversation ends*
+
+    <span id="d-stoutford_widow2_3"></span>**`stoutford_widow2_3`** Aryfora: “I won't sell this potion for money. You can pay me in flowers - damerilias of course. I will give you one potion of deftness for three damerilias.”
+
+    - “OK, I have some damerilias with me.” *(if hand over 3× [Damerilias](../items/damerilias.md))* → [stoutford_widow2_4](#d-stoutford_widow2_4)
+    - “I will think about it.” → *conversation ends*
+
+    <span id="d-stoutford_widow2_4"></span>**`stoutford_widow2_4`** Aryfora: “Here, I have one potion for you.” — **effects:** gives 1× [Potion of deftness](../items/potion_deftness.md)
+
+    - “And another one, please.” *(if hand over 3× [Damerilias](../items/damerilias.md))* → [stoutford_widow2_4](#d-stoutford_widow2_4)
+    - “Thank you, that is enough for today.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_widow2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_widow2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_widow2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stoutford_widow2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `stoutford_widow2` · Data from v0.8.18</small>

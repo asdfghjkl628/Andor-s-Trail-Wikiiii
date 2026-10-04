@@ -26,4 +26,65 @@
 
 - [sullengard_inn](../maps/sullengard_inn.md)
 
+## Quests
+
+- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 1
+
+??? quote "Dialogue (7 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-sullengard_godrey_0"></span>**`sullengard_godrey_0`** Godfrey: “Hello. I'm Godfrey, and I own this place, but I'm forced to work today because somebody quit on me.”
+
+    - Next → [sullengard_godrey_10](#d-sullengard_godrey_10)
+
+    <span id="d-sullengard_godrey_10"></span>**`sullengard_godrey_10`** Godfrey: “What can I help you with?”
+
+    - “I need somewhere to relax and refresh. Do you have a bed available?” *(if NOT reached stage 1 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-1))* → [sullengard_godrey_30](#d-sullengard_godrey_30)
+    - “I'm hungry. Do you have any food to sell?” → [sullengard_godrey_sell](#d-sullengard_godrey_sell)
+    - “Do you know by chance where this lost travelor is?” *(if reached stage 40 of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-40); NOT reached stage 50 of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-50))* → [sullengard_godrey_10a](#d-sullengard_godrey_10a)
+    - “Where I can find Celdar?” *(if latest stage of [Restless in the grave](../quests/mg_restless_grave.md#stage-123) is 123)* → [sullengard_godrey_celdar](#d-sullengard_godrey_celdar)
+
+    <span id="d-sullengard_godrey_30"></span>**`sullengard_godrey_30`** Godfrey: “Well, it will cost you 700 gold! Beds are always in high demand before and during the Beer Festival.”
+
+    - “That's too expensive. Let's talk about something else.” → [sullengard_godrey_10](#d-sullengard_godrey_10)
+    - “I'll take it, but I have to say that you really should join the Thieves' Guild with that attitude!” *(if pay 700 gold)* → [sullengard_godrey_40](#d-sullengard_godrey_40)
+
+    <span id="d-sullengard_godrey_sell"></span>**`sullengard_godrey_sell`** Godfrey: “Certainly. Please take a look at what I can offer.”
+
+    - “Great! Let's take a look.” → *shop opens*
+
+    <span id="d-sullengard_godrey_10a"></span>**`sullengard_godrey_10a`** Godfrey: “Sure. Look at the table over there. He is my best customer at the moment.” — **effects:** spawns monsters on sullengard_inn
+
+
+    <span id="d-sullengard_godrey_celdar"></span>**`sullengard_godrey_celdar`** Godfrey: “Now there's a name I haven't heard in a long time. I don't think she's been in town for a long time.”
+
+    - “Oh, OK, thanks.” → *conversation ends*
+
+    <span id="d-sullengard_godrey_40"></span>**`sullengard_godrey_40`** Godfrey: “Thank you! It pays to be the owner. You can use any available bed.” — **effects:** sets stage 1 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-1)
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_innkeeper.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_innkeeper.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_innkeeper.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_innkeeper.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `sullengard_innkeeper` · Data from v0.8.18</small>

@@ -17,7 +17,7 @@
 |---|---|
 | [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 36 |
-| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 |
 | [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 |
+| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 |
 
 <small>Map ID: `gargoylecave1` · Data from v0.8.18</small>

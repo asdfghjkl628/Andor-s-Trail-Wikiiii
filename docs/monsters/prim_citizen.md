@@ -18,4 +18,63 @@
 
 - [blackwater_mountain11](../maps/blackwater_mountain11.md)
 
+## Quests
+
+- [Clouded intent](../quests/prim_hunt.md): stages 11, 15
+
+??? quote "Dialogue (6 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-prim_commoner1"></span>**`prim_commoner1`** Prim citizen: “Hello there. Welcome to Prim. Are you here to help us?”
+
+    - “Yes, I am here to help your village.” → [prim_commoner1_2](#d-prim_commoner1_2)
+    - “[Lie] Yes, I am here to help your village.” → [prim_commoner1_2](#d-prim_commoner1_2)
+    - “Maybe, but first tell me what do you know about Lorn's crew accident?” *(if reached stage 20 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-20); NOT reached stage 21 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-21))* → [prim_commoner1_5](#d-prim_commoner1_5)
+
+    <span id="d-prim_commoner1_2"></span>**`prim_commoner1_2`** Prim citizen: “Thank you. We really need your help.” — **effects:** sets stage 11 of [Clouded intent](../quests/prim_hunt.md#stage-11)
+
+    - Next → [prim_commoner1_3](#d-prim_commoner1_3)
+
+    <span id="d-prim_commoner1_5"></span>**`prim_commoner1_5`** Prim citizen: “Lorn's crew accident you say? No idea. They are still missing, officially.”
+
+    - “And unofficially?” → [prim_commoner1_6](#d-prim_commoner1_6)
+    - “I see, thanks for nothing.” → *conversation ends*
+
+    <span id="d-prim_commoner1_3"></span>**`prim_commoner1_3`** Prim citizen: “You should speak to Guthbered if you haven't done so already.”
+
+    - “Will do, goodbye.” → *conversation ends*
+    - “Where can I find him?” → [prim_commoner1_4](#d-prim_commoner1_4)
+
+    <span id="d-prim_commoner1_6"></span>**`prim_commoner1_6`** Prim citizen: “Sorry child, I do not pay attention to the local gossip. Ask around.”
+
+    - “Thank you, Shadow be with you.” → *conversation ends*
+    - “What a waste of time, tsch.” → *conversation ends*
+
+    <span id="d-prim_commoner1_4"></span>**`prim_commoner1_4`** Prim citizen: “He is in the main hall right over there. The large stone house.” — **effects:** sets stage 15 of [Clouded intent](../quests/prim_hunt.md#stage-15)
+
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_citizen.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_citizen.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_citizen.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=prim_citizen.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `prim_citizen` · Data from v0.8.18</small>

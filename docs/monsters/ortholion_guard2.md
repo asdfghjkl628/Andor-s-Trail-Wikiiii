@@ -40,4 +40,56 @@
 
 - [blackwater_mountain29](../maps/blackwater_mountain29.md)
 
+??? quote "Dialogue (5 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-ortholion_guard6_1"></span>**`ortholion_guard6_1`** Feygard scout: “*Looks nervous* Kid! Go back now, it's really dangerous past here.”
+
+    - “Come with me, we'll cover each other's backs.” → [ortholion_guard6_2](#d-ortholion_guard6_2)
+    - “Can you clear the way for me then?” → [ortholion_guard6_2](#d-ortholion_guard6_2)
+    - “Where's the general?” → [ortholion_guard6_5](#d-ortholion_guard6_5)
+
+    <span id="d-ortholion_guard6_2"></span>**`ortholion_guard6_2`** Feygard scout: “No way! I have a home to go back to you know? And you probably do too.”
+
+    - “Step aside then, you're in my way.” → *conversation ends*
+    - “What are you scared of?” → [ortholion_guard6_3](#d-ortholion_guard6_3)
+
+    <span id="d-ortholion_guard6_5"></span>**`ortholion_guard6_5`** Feygard scout: “We...We haven't seen him. The other scout entered the tunnel... *looks back* Two men are guarding the rearback. Something's off with this place.”
+
+    - “What's wrong with those passages?” → [ortholion_guard6_3](#d-ortholion_guard6_3)
+    - “I will look for him, bye.” → *conversation ends*
+
+    <span id="d-ortholion_guard6_3"></span>**`ortholion_guard6_3`** Feygard scout: “*stares at the tunnels* They're dark, stinky, and narrow. We were going to pass in line through them. But seconds after the other scout entered, a horrible scream came from inside there... It was him, I'm sure!”
+
+    - Next → [ortholion_guard6_4](#d-ortholion_guard6_4)
+
+    <span id="d-ortholion_guard6_4"></span>**`ortholion_guard6_4`** Feygard scout: “...I ran away. I am sure there's something dangerous inside there. Really dangerous! Dangerous enough to make a Feygard soldier scream that way.”
+
+    - “I'll be careful. Thanks.” → *conversation ends*
+    - “It was surely a cave rat. I will find out now.” → *conversation ends*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion_guard2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `ortholion_guard2` · Data from v0.8.18</small>

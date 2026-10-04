@@ -14,4 +14,164 @@
 | Critical skill | 0 |
 | Critical multiplier | 0 |
 
+## Quests
+
+- [A familiar shadow](../quests/familiar_shadow.md): stages 40
+- [Thief apprentice](../quests/Thieves01.md): stages 25
+
+??? quote "Dialogue (31 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-leta_selector"></span>**`leta_selector`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 30 of [A familiar shadow](../quests/familiar_shadow.md#stage-30))* → [galmore_marked_stone_leta_5](#d-galmore_marked_stone_leta_5)
+    - branch 2 → [leta1](#d-leta1)
+
+    <span id="d-galmore_marked_stone_leta_5"></span>**`galmore_marked_stone_leta_5`** [Dummy NPC](../monsters/none.md): “Clearly more agitated than usual, pacing and muttering.”
+
+    - Next → [galmore_marked_stone_leta_10](#d-galmore_marked_stone_leta_10)
+
+    <span id="d-leta1"></span>**`leta1`** [Leta](../monsters/leta.md): “Hey, this is my house, get out of here!”
+
+    - “But I was just ...” → [leta2](#d-leta2)
+    - “What about your husband Oromir?” → [leta_oromir_select](#d-leta_oromir_select)
+    - “Umar sent me.” *(if reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 25 of [Thief apprentice](../quests/Thieves01.md#stage-25))* → [leta_guild_1a](#d-leta_guild_1a)
+    - “Umar sent me.” *(if reached stage 25 of [Thief apprentice](../quests/Thieves01.md#stage-25))* → [leta_guild_1b](#d-leta_guild_1b)
+
+    <span id="d-galmore_marked_stone_leta_10"></span>**`galmore_marked_stone_leta_10`** [Leta](../monsters/leta.md): “I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever control his kids?”
+
+    - “Leta, are you all right? Mikhail said you've been acting strange.” → [galmore_marked_stone_leta_30](#d-galmore_marked_stone_leta_30)
+
+    <span id="d-leta2"></span>**`leta2`** Leta: “Beat it kid, get out of my house!”
+
+    - “What about your husband Oromir?” → [leta_oromir_select](#d-leta_oromir_select)
+
+    <span id="d-leta_oromir_select"></span>**`leta_oromir_select`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100))* → [leta_oromir_complete2](#d-leta_oromir_complete2)
+    - branch 2 *(if NOT reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105); NOT reached stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100))* → [leta_oromir1](#d-leta_oromir1)
+    - branch 3 *(if reached stage 105 of [leta (hidden flag)](../quests/leta.md#stage-105))* → [leta_oromir_complete2_helped_oromir](#d-leta_oromir_complete2_helped_oromir)
+
+    <span id="d-leta_guild_1a"></span>**`leta_guild_1a`** Leta: “Umar you say? I don't know any Umar!”
+
+    - “[Whispering] You are no one. No one knows you. No one has seen you.” → [leta_guild_2](#d-leta_guild_2)
+
+    <span id="d-leta_guild_1b"></span>**`leta_guild_1b`** Leta: “I gave you all the information I have gathered. Now leave me alone.”
+
+    - “OK, bye.” → *conversation ends*
+    - “Shadow be with you.” → *conversation ends*
+
+    <span id="d-galmore_marked_stone_leta_30"></span>**`galmore_marked_stone_leta_30`** Leta: “Strange? Who does he think he is, meddling in my life? I'm fine! Just...leave me alone!”
+
+    - “You don't seem fine. You've been pacing, muttering to yourself. Something isn't right.” → [galmore_marked_stone_leta_40n](#d-galmore_marked_stone_leta_40n)
+
+    <span id="d-leta_oromir_complete2"></span>**`leta_oromir_complete2`** Leta: “Thanks for telling me about Oromir earlier. I will go get him in just a minute.”
+
+
+    <span id="d-leta_oromir1"></span>**`leta_oromir1`** Leta: “Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual. Sigh.”
+
+    - “I have no idea.” → [leta_oromir2](#d-leta_oromir2)
+    - “Yes, I found him. He is hiding among some trees to the east.” *(if reached stage 20 of [leta (hidden flag)](../quests/leta.md#stage-20); NOT reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45); NOT reached stage 40 of [leta (hidden flag)](../quests/leta.md#stage-40); NOT reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80); NOT reached stage 25 of [leta (hidden flag)](../quests/leta.md#stage-25))* → [leta_oromir1_trees](#d-leta_oromir1_trees)
+    - “[Lie] I have no idea.” *(if reached stage 25 of [leta (hidden flag)](../quests/leta.md#stage-25); NOT reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_trees_help](#d-leta_oromir1_trees_help)
+    - “[Lie] I have no idea.” *(if reached stage 35 of [leta (hidden flag)](../quests/leta.md#stage-35); NOT reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_behind_inn_help](#d-leta_oromir1_behind_inn_help)
+    - “[Lie] I have no idea.” *(if reached stage 45 of [leta (hidden flag)](../quests/leta.md#stage-45))* → [leta_oromir1_behind_haystack_help](#d-leta_oromir1_behind_haystack_help)
+    - “He's found a new hiding spot.” *(if reached stage 40 of [leta (hidden flag)](../quests/leta.md#stage-40); NOT reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_behind_inn_10](#d-leta_oromir1_behind_inn_10)
+    - “He's found another new hiding spot. Give him credit, he is great at avoiding work.” *(if reached stage 60 of [leta (hidden flag)](../quests/leta.md#stage-60); NOT reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_behind_haystack_10](#d-leta_oromir1_behind_haystack_10)
+    - “He's in your basement.” *(if reached stage 80 of [leta (hidden flag)](../quests/leta.md#stage-80))* → [leta_oromir1_basement_10](#d-leta_oromir1_basement_10)
+
+    <span id="d-leta_oromir_complete2_helped_oromir"></span>**`leta_oromir_complete2_helped_oromir`** Leta: “What about him?”
+
+    - “Nevermind. I have to be on my way.” → *conversation ends*
+    - “I'm wondering, how long are you going to make him stay in the basement for?” → [leta_oromir_complete2_helped_oromir_10](#d-leta_oromir_complete2_helped_oromir_10)
+
+    <span id="d-leta_guild_2"></span>**`leta_guild_2`** Leta: “How do you ...? Whatever, you are one of us.”
+
+    - “Umar sent me to get your journal.” → [leta_guild_3](#d-leta_guild_3)
+
+    <span id="d-galmore_marked_stone_leta_40n"></span>**`galmore_marked_stone_leta_40n`** [Dummy NPC](../monsters/none.md): “[Voice trembling but defensive.]”
+
+    - Next → [galmore_marked_stone_leta_40](#d-galmore_marked_stone_leta_40)
+
+    <span id="d-leta_oromir2"></span>**`leta_oromir2`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10)
+
+
+    <span id="d-leta_oromir1_trees"></span>**`leta_oromir1_trees`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** sets stage 30 of [leta (hidden flag)](../quests/leta.md#stage-30), removes monsters from crossglen, spawns monsters on crossglen
+
+
+    <span id="d-leta_oromir1_trees_help"></span>**`leta_oromir1_trees_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
+
+
+    <span id="d-leta_oromir1_behind_inn_help"></span>**`leta_oromir1_behind_inn_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen
+
+
+    <span id="d-leta_oromir1_behind_haystack_help"></span>**`leta_oromir1_behind_haystack_help`** Leta: “If you see him, tell him to hurry back here and help me with the housework. Now get out of here!” — **effects:** sets stage 10 of [leta (hidden flag)](../quests/leta.md#stage-10), removes monsters from crossglen, spawns monsters on crossglen_farmhouse_basement
+
+
+    <span id="d-leta_oromir1_behind_inn_10"></span>**`leta_oromir1_behind_inn_10`** Leta: “Where?”
+
+    - “Tucked away between the back of the inn and the woods.” → [leta_oromir1_behind_inn_20](#d-leta_oromir1_behind_inn_20)
+
+    <span id="d-leta_oromir1_behind_haystack_10"></span>**`leta_oromir1_behind_haystack_10`** Leta: “Where?”
+
+    - “Hiding behind a haystack.” → [leta_oromir1_behind_haystack_20](#d-leta_oromir1_behind_haystack_20)
+
+    <span id="d-leta_oromir1_basement_10"></span>**`leta_oromir1_basement_10`** Leta: “What?! How? Oh, it doesn't matter. Thank you for finding him.” — **effects:** sets stage 100 of [leta (hidden flag)](../quests/leta.md#stage-100)
+
+
+    <span id="d-leta_oromir_complete2_helped_oromir_10"></span>**`leta_oromir_complete2_helped_oromir_10`** Leta: “This is my house! I don't have to answer to you. Now get out of here!”
+
+
+    <span id="d-leta_guild_3"></span>**`leta_guild_3`** Leta: “Here. Make sure you don't raise any suspicion on your future jobs. Bye kid.” — **effects:** gives 1× [Leta's Journal](../items/Leta_journal.md), sets stage 25 of [Thief apprentice](../quests/Thieves01.md#stage-25)
+
+
+    <span id="d-galmore_marked_stone_leta_40"></span>**`galmore_marked_stone_leta_40`** [Leta](../monsters/leta.md): “Not right? Not right! What would you know about it? You don't know what I've seen, what I've felt!”
+
+    - Next → [galmore_marked_stone_leta_40n2](#d-galmore_marked_stone_leta_40n2)
+
+    <span id="d-leta_oromir1_behind_inn_20"></span>**`leta_oromir1_behind_inn_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 50 of [leta (hidden flag)](../quests/leta.md#stage-50), spawns monsters on crossglen
+
+
+    <span id="d-leta_oromir1_behind_haystack_20"></span>**`leta_oromir1_behind_haystack_20`** Leta: “Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.” — **effects:** removes monsters from crossglen, sets stage 70 of [leta (hidden flag)](../quests/leta.md#stage-70), spawns monsters on crossglen_farmhouse_basement
+
+
+    <span id="d-galmore_marked_stone_leta_40n2"></span>**`galmore_marked_stone_leta_40n2`** [Dummy NPC](../monsters/none.md): “Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttural.”
+
+    - “Leta, talk to me. What's going on?” → [galmore_marked_stone_leta_50](#d-galmore_marked_stone_leta_50)
+
+    <span id="d-galmore_marked_stone_leta_50"></span>**`galmore_marked_stone_leta_50`** [Leta](../monsters/leta.md): “You want to know? You want to understand? Fine. You'll see...but you won't like what you find.”
+
+    - Next → [galmore_marked_stone_leta_narrator](#d-galmore_marked_stone_leta_narrator)
+
+    <span id="d-galmore_marked_stone_leta_narrator"></span>**`galmore_marked_stone_leta_narrator`** [Dummy NPC](../monsters/none.md): “A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.” — **effects:** sets stage 40 of [A familiar shadow](../quests/familiar_shadow.md#stage-40), spawns monsters on crossglen_farmhouse, removes monsters from crossglen_farmhouse, removes monsters from crossglen_farmhouse_basement, removes monsters from crossglen, removes monsters from crossglen_farmhouse_basement
+
+    - Next → [galmore_marked_stone_spirit](#d-galmore_marked_stone_spirit)
+
+    <span id="d-galmore_marked_stone_spirit"></span>**`galmore_marked_stone_spirit`** [Dark spirit](../monsters/crossglen_dark_spirit.md): “[taunting] You shouldn't have meddled, little one. This vessel belongs to me now, and so does its anger!”
+
+    - “Die!” → *fight starts*
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=leta.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=leta.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=leta.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=leta.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
 <small>Monster ID: `leta` · Data from v0.8.18</small>

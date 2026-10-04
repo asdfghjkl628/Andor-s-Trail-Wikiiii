@@ -14,4 +14,5 @@
 | Critical skill | 0 |
 | Critical multiplier | 0 |
 
+
 <small>Monster ID: `stn_burhczyd2` · Data from v0.8.18</small>
