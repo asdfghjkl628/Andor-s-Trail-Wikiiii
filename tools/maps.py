@@ -199,6 +199,7 @@ def build_maps(ctx):
     map_names = [m for m in map_names if os.path.exists(os.path.join(xml_dir, m + '.tmx'))]
 
     parsed, spawn_maps, sizes = {}, defaultdict(set), {}
+    script_maps = defaultdict(set)   # phrase -> {(map, how)}: conversations started by map objects
     for m in map_names:
         try: parsed[m] = parse_tmx(os.path.join(xml_dir, m + '.tmx'))
         except Exception as e: print('  skip map', m, e)
@@ -266,11 +267,13 @@ def build_maps(ctx):
                 tip = 'Container: click to see what\'s inside'; href = f'#container-{k}'
                 attrs = f' data-container="container-{k}"'
             elif typ == 'sign':
+                script_maps[o['name']].add((m, 'sign'))
                 tip = 'Sign: ' + (convs.get(o['name'], {}).get('message') or o['name'])
             elif typ == 'rest':
                 tip = 'Resting place (respawn point)'
             elif typ == 'key':
                 p = o['props']
+                if p.get('phrase'): script_maps[p['phrase']].add((m, 'key'))
                 val = int(p.get('requireValue') or 0) if str(p.get('requireValue', '0')).lstrip('-').isdigit() else 0
                 neg = str(p.get('requireNegation', 'false')).lower() == 'true'
                 tip, href = QI.req(p.get('requireType'), p.get('requireId'), val, neg,
@@ -290,6 +293,7 @@ def build_maps(ctx):
                 else:
                     tip = 'This area changes when a scripted event activates it'
             elif typ == 'script':
+                script_maps[o['name']].add((m, 'script'))
                 reqs, rewards, other, first = _walk_script(convs, o['name'])
                 if rewards:
                     qid, val = rewards[0]
@@ -345,4 +349,4 @@ def build_maps(ctx):
                 for x in sorted(here, key=lambda x: monsters[x].get('maxHP', 0))))
         P.append(f"\n<small>Map ID: `{m}` · Data from v{ctx['VERSION']}</small>\n")
         ctx['write'](f'maps/{m}.md', ''.join(P))
-    return spawn_maps, len(parsed), QI.notes
+    return spawn_maps, len(parsed), QI.notes, script_maps
