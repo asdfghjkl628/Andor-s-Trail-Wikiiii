@@ -33,7 +33,7 @@ jobs:
       - name: Build and deploy
         if: steps.check.outputs.build == 'true'
         run: |
-          pip install "mkdocs<2" "mkdocs-material<10" pillow
+          pip install "mkdocs<2" "mkdocs-material<10" pillow matplotlib
           python tools/build.py game "${{ steps.check.outputs.latest }}"
           rm -rf game
           git config user.name "wiki-bot"; git config user.email "wiki-bot@users.noreply.github.com"
