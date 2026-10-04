@@ -352,9 +352,18 @@ def raw_json(o):
 def infobox(rows, image=None):
     return ('<div class="infobox" markdown>\n\n' + (f'<p class="ib-img">![]({image}){{ .sprite }}</p>\n\n' if image else '') +
             '| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in rows if v not in (None, '', 0)) + '\n</div>\n\n')
-WEAPON_PROF = {'dagger': 'Dagger', 'ssword': 'Dagger', 'rapier': 'One-handed sword', 'lsword': 'One-handed sword', 'bsword': 'One-handed sword',
-               '2hsword': 'Two-handed sword', 'axe': 'Axe', 'axe2h': 'Axe', 'club': 'Blunt', 'staff': 'Blunt', 'mace': 'Blunt', 'mace2h': 'Blunt',
-               'scepter': 'Blunt', 'hammer': 'Blunt', 'hammer2h': 'Blunt', 'pole': 'Pole weapon'}
+PROF_SKILL = {**{c: 'weaponProficiencyDagger' for c in ('dagger', 'ssword')}, **{c: 'weaponProficiency1hsword' for c in ('lsword', 'bsword', 'rapier')},
+              '2hsword': 'weaponProficiency2hsword', **{c: 'weaponProficiencyAxe' for c in ('axe', 'axe2h')},
+              **{c: 'weaponProficiencyBlunt' for c in ('club', 'staff', 'mace', 'scepter', 'hammer', 'hammer2h', 'whip')}, 'pole': 'weaponProficiencyPole'}
+def prof_skill(cat_id):
+    """SkillController.getProficiencySkillForItemCategory (note: the game maps no proficiency to some weapon categories, e.g. mace2h)."""
+    c = cats.get(cat_id, {})
+    if c.get('inventorySlot') == 'weapon': return PROF_SKILL.get(cat_id)
+    if c.get('inventorySlot') == 'shield': return 'armorProficiencyShield'
+    if c.get('inventorySlot') in ('head', 'body', 'hand', 'feet'):
+        return {'light': 'armorProficiencyLight', 'std': 'armorProficiencyLight', 'large': 'armorProficiencyHeavy'}.get(c.get('size'))
+    return None
+WEAPON_PROF = None
 
 # ---------------------------------------------------------------- item pages
 item_rows = []
@@ -364,7 +373,8 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
     is_weapon = c.get('inventorySlot') == 'weapon'
     hands = ('Two-handed' if c.get('size') == 'large' else 'One-handed') if is_weapon else None
     info = [('Item ID', f"`{iid}`"), ('Category', c.get('name', it.get('category'))), ('Slot', c.get('inventorySlot')),
-            ('Hands', hands), ('Proficiency', WEAPON_PROF.get(it.get('category')) if is_weapon else None),
+            ('Hands', hands), ('Proficiency', (f"[{skills[prof_skill(it.get('category'))]['name']}](../skills/{prof_skill(it.get('category'))}.md)"
+                                              if prof_skill(it.get('category')) else ('none (the game assigns no proficiency to this weapon type)' if is_weapon else None))),
             ('Rarity', it.get('displaytype', 'ordinary').capitalize()), ('Base value', f"{it.get('baseMarketCost', 0):,} gold"),
             ('Quest item', 'Yes' if it.get('displaytype') == 'quest' else None), ('Introduced', introduced('items', iid))]
     L = [f"# {img(ic)} {it.get('name', iid)}\n\n", f"*{it.get('displaytype', 'ordinary').capitalize()} {c.get('name', '').lower() or 'item'}.*\n\n",
@@ -866,6 +876,66 @@ AP to use an item, e.g. drinking a potion in the middle of a fight.
 ## Re-equip cost
 AP to change equipment during combat. Possible, but rarely a good use of your turn.
 """)
+# ---------------------------------------------------------------- build calculator data + page
+def _eqstats(e):
+    e = e or {}
+    d = e.get('increaseAttackDamage') or {}
+    return {'hp': e.get('increaseMaxHP', 0), 'ap': e.get('increaseMaxAP', 0), 'mv': e.get('increaseMoveCost', 0), 'use': e.get('increaseUseItemCost', 0),
+            're': e.get('increaseReequipCost', 0), 'atk': e.get('increaseAttackCost', 0), 'ac': e.get('increaseAttackChance', 0),
+            'bc': e.get('increaseBlockChance', 0), 'dmin': d.get('min', 0), 'dmax': d.get('max', 0), 'nwdm': e.get('setNonWeaponDamageModifier', 100),
+            'cs': e.get('increaseCriticalSkill', 0), 'cm': e.get('setCriticalMultiplier', 0), 'dr': e.get('increaseDamageResistance', 0)}
+calc_items = {}
+for iid, it in items.items():
+    c = cats.get(it.get('category'), {})
+    if c.get('actionType') != 'equip': continue
+    calc_items[iid] = {'n': it.get('name', iid), 'cat': it.get('category'), 'r': it.get('displaytype', 'ordinary'),
+                       's': _eqstats(it.get('equipEffect')) if it.get('equipEffect') else None,
+                       'cond': [conditions.get(x.get('condition'), {}).get('name', x.get('condition')) for x in (it.get('equipEffect') or {}).get('addedConditions', [])]}
+calc_cats = {cid: {'slot': c.get('inventorySlot'), 'size': c.get('size'), 'prof': prof_skill(cid)} for cid, c in cats.items() if c.get('actionType') == 'equip'}
+calc_mons = []
+for mid, m in monsters.items():
+    if m.get('phraseID'): continue
+    d = m.get('attackDamage') or {}
+    calc_mons.append([mid, m.get('name') or mid, m.get('maxHP', 1), m.get('attackChance', 0), m.get('blockChance', 0), m.get('damageResistance', 0),
+                      d.get('min', 0), d.get('max', 0), m.get('maxAP', 10), m.get('attackCost', 10), m.get('criticalSkill', 0), m.get('criticalMultiplier', 0), m.get('monsterClass')])
+calc = {'v': VERSION,
+        'base': {'maxHP': base.get('maxHP', 25), 'maxAP': base.get('maxAP', 10), 'attackChance': base.get('attackChance', 60), 'dmin': base_dmg_min, 'dmax': base_dmg_max,
+                 'blockChance': base.get('blockChance', 0), 'damageResistance': base.get('damageResistance', 0), 'moveCost': base.get('moveCost', 6),
+                 'attackCost': LV['atk_cost'], 'useItemCost': base.get('useItemCost', 5), 'reequipCost': base.get('reequipCost', 5),
+                 'criticalSkill': base.get('criticalSkill', 0), 'criticalMultiplier': base.get('criticalMultiplier', 1)},
+        'lv': {'hp': LV['hp'], 'ac': LV['ac'], 'dmg': LV['dmg'], 'bc': LV['bc'], 'first': LV['first_sp'], 'every': LV['every_sp'], 'fort': LV['fort']},
+        'c': {k: v for k, v in consts.items() if k.startswith(('PER_SKILLPOINT', 'DUALWIELD'))},
+        'skills': [{'id': sid, 'name': sk['name'], 'max': sk['maxLevel'] if isinstance(sk['maxLevel'], int) else 0, 'type': sk['levelUpType'],
+                    'reqs': [list(r) for r in sk['requirements']], 'sum': sk['summary']} for sid, sk in skills.items()],
+        'items': calc_items, 'cats': calc_cats, 'mons': calc_mons}
+os.makedirs(os.path.join(DOCS, 'assets', 'calc'), exist_ok=True)
+json.dump(calc, open(os.path.join(DOCS, 'assets', 'calc', 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+write('skills/calculator.md', f"""# Build calculator
+
+Plan a character before you commit a single level-up. Pick a level, split your level-ups, choose skills and gear, and see your final stats, worked out
+**the same way the game does it**: the formulas below are a line-by-line port of the game's own stat code for v{VERSION}.
+
+<div class="build-calc" data-src="../../assets/calc/data.json" markdown="0"><noscript>The calculator needs JavaScript.</noscript></div>
+
+??? info "How the numbers are calculated"
+
+    In the order the game applies them (`ActorStatsController.recalculatePlayerStats`):
+
+    1. **Base stats + level-ups.** Starting stats, plus each level-up choice. [Fortitude](fortitude.md) adds HP to every level-up *after* you learn it; the calculator assumes you learn each level as early as allowed.
+    2. **Main weapon** sets your attack cost and critical multiplier, then its stats are added.
+    3. **Off-hand.** A shield adds its stats directly. A second weapon is blended in by [Dual Wield](fightstyleDualWield.md) at 25 / 50 / 100% efficiency (level 0 / 1 / 2).
+    4. **Fighting styles:** two-handed, weapon & shield, dual wield, or [Way of the Monk](fightstyleUnarmedUnarmored.md) (no weapon, no off-hand, no weighted armor).
+    5. **Armor and jewelry** stats are added.
+    6. **Proficiencies** boost your main weapon's, shield's and armor's own bonuses by a percentage.
+    7. **Skills:** Weapon Accuracy, Hard Hit, Dodge, Bark Skin, More/Better Criticals, Combat Speed.
+    8. **Damage modifier.** Some weapons scale your *non-weapon* damage (base, level-ups, rings, skills) up or down.
+    9. **Caps:** attack chance can't go below 0, and neither can damage.
+
+    Percentages round down, as in the game. Effects from potions and other temporary conditions aren't included.
+
+<p class="verified">Verified against v{VERSION} game code (ActorStatsController, ItemController, SkillController, CombatController) and item data.</p>
+""")
+
 # ---------------------------------------------------------------- version history pages
 if hist:
     shutil.rmtree(os.path.join(DOCS, 'versions'), ignore_errors=True)

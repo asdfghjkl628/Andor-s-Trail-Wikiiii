@@ -170,3 +170,26 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .hide-pin .pin { display: none; }
 .sw-pin { border-radius: 50%; border-color: var(--cb-orange); background: #0c1828; }
 .md-typeset td:has(span[id^="key-"]:target) { background: rgba(224,164,88,.3); }
+
+/* ---------- build calculator ---------- */
+.build-calc { font-size: .72rem; margin: 1rem 0; }
+.build-calc .bc-grid { display: grid; grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 1fr); gap: 1rem; }
+@media (max-width: 52em) { .build-calc .bc-grid { grid-template-columns: 1fr; } }
+.build-calc .bc-box { border: 12px solid transparent; border-image: url(../assets/ui/stdframe.png) 8 fill / 12px stretch; image-rendering: pixelated; margin-bottom: .8rem; }
+.build-calc .bc-results { border-image-source: url(../assets/ui/richframe.png); position: sticky; top: 3.5rem; }
+.build-calc h4 { margin: 0 0 .4rem; color: var(--cb-orange); font-family: 'Pixelify Sans', sans-serif; }
+.build-calc .bc-row { display: flex; justify-content: space-between; align-items: center; gap: .5rem; margin: .18rem 0; }
+.build-calc .bc-row span { flex: 1; }
+.build-calc input[type=number] { width: 4.5rem; }
+.build-calc input, .build-calc select { background: var(--cb-dark); color: var(--cb-text); border: 1px solid var(--cb-light); padding: .1rem .25rem; font: inherit; max-width: 15rem; }
+.build-calc .bc-skills { max-height: 22rem; overflow-y: auto; padding-right: .3rem; }
+.build-calc .bc-note { color: var(--cb-text-dim); font-size: .66rem; margin: .3rem 0 0; }
+.build-calc .bc-warn { color: #ffb4a0; font-size: .68rem; }
+.build-calc .bc-warn ul { margin: .2rem 0 0 1rem; }
+.build-calc table { width: 100%; border-collapse: collapse; }
+.build-calc td, .build-calc th { padding: .15rem .4rem; border-top: 1px solid var(--cb-mid); text-align: left; }
+.build-calc td:first-child { color: var(--cb-text-dim); }
+.build-calc .bc-bar { display: flex; gap: .5rem; }
+.build-calc button { font: inherit; cursor: pointer; border: 10px solid transparent; color: var(--cb-text-bright); background: none;
+  border-image: url(../assets/ui/textbutton_enabled_unpressed.png) 8 fill / 10px stretch; image-rendering: pixelated; padding: 0 .4rem; }
+.build-calc .bc-vs select { margin: .3rem 0; }
