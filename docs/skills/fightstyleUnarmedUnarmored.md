@@ -1,6 +1,6 @@
 # Fighting style: Way of the monk
 
-*Better at fighting unarmed/unarmored*
+*While fighting without having any piece of armor equipped and without using a weapon or shield, gain 12 attack chance, 5 block chance, 1 damage resistance and…*
 
 **Category:** specialty · **Max level:** 3 · **Obtained via:** Skill points
 
@@ -10,8 +10,8 @@
 
 ## Description
 
-"While fighting without having any piece of armor equipped and without using a weapon or shield, gain %1$,d attack chance, %2$,d block chance, %3$,d damage resistance and increase the maximum damage by %4$,d per skill level. The skill also gives a critical multiplier of 1 plus 0.%5$,d per level.
+While fighting without having any piece of armor equipped and without using a weapon or shield, gain 12 attack chance, 5 block chance, 1 damage resistance and increase the maximum damage by 4 per skill level. The skill also gives a critical multiplier of 1 plus 0.25 per level.
 
 
 
-Items made of cloth are not considered as being armor." 
+Items made of cloth are not considered as being armor.

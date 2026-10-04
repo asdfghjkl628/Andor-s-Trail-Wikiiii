@@ -18,8 +18,8 @@
 
 | Name | HP |
 |---|---|
+| [Aryfora](../monsters/stoutford_widow.md) | 0 |
 | [Commoner](../monsters/stoutford_commoner.md) | 0 |
 | [Builder](../monsters/stoutford_builder.md) | 0 |
-| [Aryfora](../monsters/stoutford_widow.md) | 0 |
 
 <small>Map ID: `stoutford_gate` · Data from v0.8.18</small>

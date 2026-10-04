@@ -17,11 +17,11 @@
 | [Dark watch](../monsters/lae_demon7_safe.md) | 0 |
 | [Dark watch](../monsters/lae_demon9_safe.md) | 0 |
 | [Greater wight](../monsters/wight_greater.md) | 150 |
+| [Dark watch](../monsters/lae_demon9.md) | 180 |
 | [Dark watch](../monsters/lae_demon7.md) | 180 |
-| [Dark watch](../monsters/lae_demon4.md) | 180 |
+| [Dark watch](../monsters/lae_demon4b.md) | 180 |
 | [Kotheses](../monsters/kotheses.md) | 180 |
 | [Dark watch](../monsters/lae_demon5.md) | 180 |
-| [Dark watch](../monsters/lae_demon9.md) | 180 |
-| [Dark watch](../monsters/lae_demon4b.md) | 180 |
+| [Dark watch](../monsters/lae_demon4.md) | 180 |
 
 <small>Map ID: `laerothprison7` · Data from v0.8.18</small>

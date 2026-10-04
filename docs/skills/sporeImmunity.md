@@ -1,6 +1,6 @@
 # Spore poison immunity
 
-*Full immunity to spore poison*
+*Permanently prevents monster attacks from inflicting the "Spore poisoning" status effect.*
 
 **Category:** immunity · **Max level:** 1 · **Obtained via:** Quest reward only
 

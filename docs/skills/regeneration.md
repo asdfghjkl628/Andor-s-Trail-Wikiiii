@@ -1,6 +1,6 @@
 # Regeneration
 
-*Gain health every round*
+*Gain +1 health points (HP) on every round per skill level when no monsters are directly adjacent.*
 
 **Category:** immunity · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -11,4 +11,4 @@
 
 ## Description
 
-Gain +%1$,d health points (HP) on every round per skill level when no monsters are directly adjacent.
+Gain +1 health points (HP) on every round per skill level when no monsters are directly adjacent.

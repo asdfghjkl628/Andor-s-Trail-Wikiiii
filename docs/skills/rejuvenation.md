@@ -1,6 +1,6 @@
 # Rejuvenation
 
-*Chance of effect removal*
+*Every round (6 seconds), there is a 20 % chance that one of the active negative actor conditions will be lowered by one magnitude.*
 
 **Category:** immunity · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -12,4 +12,4 @@
 
 ## Description
 
-Every round (6 seconds), there is a %1$,d %% chance that one of the active negative actor conditions will be lowered by one magnitude. This applies to all temporary effect types that affect the body; mental conditions such as Dazed, physical capacity conditions such as Fatigue and also blood disorders such as poison.
+Every round (6 seconds), there is a 20 % chance that one of the active negative actor conditions will be lowered by one magnitude. This applies to all temporary effect types that affect the body; mental conditions such as Dazed, physical capacity conditions such as Fatigue and also blood disorders such as poison.

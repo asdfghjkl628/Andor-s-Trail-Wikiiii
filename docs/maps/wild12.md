@@ -20,8 +20,8 @@ East: Nor City" style="left:60.000%;top:70.000%;width:5.000%;height:5.000%"></sp
 | Name | HP |
 |---|---|
 | [Forest wasp](../monsters/forest_wasp.md) | 6 |
-| [Forest serpent](../monsters/forest_serpent.md) | 20 |
 | [Wild boar](../monsters/wild_boar.md) | 20 |
+| [Forest serpent](../monsters/forest_serpent.md) | 20 |
 | [Shady bandit](../monsters/shady_bandit.md) | 45 |
 
 <small>Map ID: `wild12` · Data from v0.8.18</small>

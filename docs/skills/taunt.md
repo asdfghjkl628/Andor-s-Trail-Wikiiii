@@ -1,6 +1,6 @@
 # Taunt
 
-*Attacker loses AP on miss*
+*When an attacker makes an attack that misses, there is a 75 % chance that the attacker loses 2 action points (AP).*
 
 **Category:** defense · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -11,4 +11,4 @@
 
 ## Description
 
-When an attacker makes an attack that misses, there is a %1$,d %% chance that the attacker loses %2$,d action points (AP). This applies to all types of melee attacks against you.
+When an attacker makes an attack that misses, there is a 75 % chance that the attacker loses 2 action points (AP). This applies to all types of melee attacks against you.

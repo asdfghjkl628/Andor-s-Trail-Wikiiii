@@ -1,6 +1,6 @@
 # Better Criticals
 
-*Increased critical damage*
+*Increases any existing critical multiplier given by equipment by 25 % for each skill level.*
 
 **Category:** criticals · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -17,4 +17,4 @@ Points spent here also count toward:
 
 ## Description
 
-Increases any existing critical multiplier given by equipment by %1$,d %% for each skill level.
+Increases any existing critical multiplier given by equipment by 25 % for each skill level.

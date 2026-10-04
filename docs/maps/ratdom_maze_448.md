@@ -20,8 +20,8 @@ With a last breath he thanked me for my company and died in my arms.”) (+1 mor
 |---|---|
 | [Clevred](../monsters/ratdom_rat.md) | 0 |
 | [Tiny rat](../monsters/ratdom_maze_rat1.md) | 2 |
-| [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat3.md) | 5 |
+| [Cave rat](../monsters/ratdom_maze_rat2.md) | 5 |
 | [Roundling](../monsters/ratdom_roundling2.md) | 200 |
 
 <small>Map ID: `ratdom_maze_448` · Data from v0.8.18</small>

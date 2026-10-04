@@ -1,6 +1,6 @@
 # More Criticals
 
-*Increased critical skill*
+*Increases any existing critical skill given by equipment by 20 % for each skill level.*
 
 **Category:** criticals · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -14,4 +14,4 @@ Points spent here also count toward:
 
 ## Description
 
-Increases any existing critical skill given by equipment by %1$,d %% for each skill level.
+Increases any existing critical skill given by equipment by 20 % for each skill level.

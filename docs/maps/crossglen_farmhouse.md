@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Old Oromir](../monsters/old_oromir.md) | 0 |
 | [Old Leta](../monsters/old_leta.md) | 0 |
+| [Old Oromir](../monsters/old_oromir.md) | 0 |
 | [Dark spirit](../monsters/crossglen_dark_spirit.md) | 470 |
 
 <small>Map ID: `crossglen_farmhouse` · Data from v0.8.18</small>

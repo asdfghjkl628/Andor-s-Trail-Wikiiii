@@ -1,9 +1,9 @@
 # Quick Learner
 
-*More experience from monster kills*
+*Increases amount of exp given by defeating monsters by 10 % for each skill level.*
 
 **Category:** utility · **Max level:** unlimited · **Obtained via:** Skill points
 
 ## Description
 
-Increases amount of exp given by defeating monsters by %1$,d %% for each skill level.
+Increases amount of exp given by defeating monsters by 10 % for each skill level.

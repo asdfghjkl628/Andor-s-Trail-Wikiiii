@@ -1,12 +1,12 @@
 # Magic Finder
 
-*Increased chance of finding magic items*
+*Increases the chance of finding non-ordinary items by 50 % for every skill level.*
 
 **Category:** utility · **Max level:** unlimited · **Obtained via:** Skill points
 
 ## Description
 
-Increases the chance of finding non-ordinary items by %1$,d %% for every skill level.
+Increases the chance of finding non-ordinary items by 50 % for every skill level.
 
 ## Where to learn it
 

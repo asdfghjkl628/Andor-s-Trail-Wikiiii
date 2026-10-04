@@ -1,12 +1,12 @@
 # Unarmored fighting
 
-*Better at fighting without armor*
+*While fighting without having any piece of armor equipped, gain 10 block chance per skill level.*
 
 **Category:** proficiency · **Max level:** 3 · **Obtained via:** First level from a quest, then skill points
 
 ## Description
 
-While fighting without having any piece of armor equipped, gain %1$,d block chance per skill level. Items made of cloth are not considered as being armor.
+While fighting without having any piece of armor equipped, gain 10 block chance per skill level. Items made of cloth are not considered as being armor.
 
 ## Where to learn it
 

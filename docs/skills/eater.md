@@ -1,6 +1,6 @@
 # Corpse Eater
 
-*Recover health points on every kill*
+*Gives +1 health points (HP) on every kill per skill level.*
 
 **Category:** immunity · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -10,4 +10,4 @@
 
 ## Description
 
-Gives +%1$,d health points (HP) on every kill per skill level.
+Gives +1 health points (HP) on every kill per skill level.

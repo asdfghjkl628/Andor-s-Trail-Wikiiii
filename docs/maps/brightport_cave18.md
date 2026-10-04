@@ -15,7 +15,7 @@
 
 | Name | HP |
 |---|---|
-| [Cave scorpion](../monsters/brightport_scorpion.md) | 150 |
 | [Wraith](../monsters/brightport_wraith.md) | 150 |
+| [Cave scorpion](../monsters/brightport_scorpion.md) | 150 |
 
 <small>Map ID: `brightport_cave18` · Data from v0.8.18</small>

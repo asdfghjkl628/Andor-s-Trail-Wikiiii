@@ -1,6 +1,6 @@
 # Hard Hit
 
-*Increased attack damage*
+*Increases max damage by 2 for each skill level.*
 
 **Category:** offense · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -13,4 +13,4 @@ Points spent here also count toward:
 
 ## Description
 
-Increases max damage by %1$,d for each skill level.
+Increases max damage by 2 for each skill level.
