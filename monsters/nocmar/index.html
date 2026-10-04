@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1051,6 +1062,12 @@
 <li><a href="../../quests/nocmar/">Lost treasures</a>: stages 20, 30, 48, 80, 90, 100, 200</li>
 <li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 10, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Nocmar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/nocmar_selector.json" data-npc="Nocmar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (63 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1335,7 +1352,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 7 lines changed<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…”<br>· text: “<em>Nocmar places the heartstone among the heartsteel weapons</em>” → “[Nocmar places the heartstone among the heartsteel weapons]”</td>
+<td>Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “<em>Nocmar places the heartstone among the heartsteel weapons</em>” → “[Nocmar places the heartstone among the heartsteel weapons]”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.14/">v0.8.14</a></td>
@@ -1343,7 +1360,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”<br>· text: “By the Shadow. You actually found a heartstone. I thought I wouldn't …” → “So you truly have it? The heartstone...beautiful and intact. Remarkab…”</td>
+<td>phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…”<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”</td>
 </tr>
 </tbody>
 </table>
@@ -1421,6 +1438,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -996,6 +1007,12 @@
 <ul>
 <li><a href="../../quests/pathway_fallhaven/">A path to the Duleian Road</a>: stages 10, 60</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Watchman. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/guard_pathway.json" data-npc="Watchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (10 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1064,7 +1081,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.15/">v0.7.15</a></td>
-<td>Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…”<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…”</td>
+<td>Dialogue: 2 lines changed<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…”<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.2/">v0.8.2</a></td>
@@ -1150,6 +1167,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

@@ -834,6 +834,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -982,6 +993,12 @@
 <li><a href="../../quests/bucus/">Key of Luthor</a>: stages 10, 100</li>
 <li><a href="../../quests/andor/">Search for Andor</a>: stages 50</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Bucus. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/bucus_welcome.json" data-npc="Bucus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (18 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1076,7 +1093,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Ok kid. You've proven yourself to me. Yes, I saw some other kid by th…” → “OK kid. You've proven yourself to me. Yes, I saw some other kid by th…”</td>
+<td>Dialogue: 9 lines changed<br>· text: “Who told you that? Argh. Ok so you found us. Now what?” → “Who told you that? Argh. OK so you found us. Now what?”<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”</td>
 </tr>
 </tbody>
 </table>
@@ -1154,6 +1171,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

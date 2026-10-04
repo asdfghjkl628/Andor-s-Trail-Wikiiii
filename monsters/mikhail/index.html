@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1007,6 +1018,12 @@
 <li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stages 1</li>
 <li><a href="../../quests/brv_nondisplay_multipurpose/">brv_nondisplay_multipurpose (hidden flag)</a>: stages 40</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Mikhail. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/mikhail_start_select.json" data-npc="Mikhail" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (69 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1370,7 +1387,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.12/">v0.7.12</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Oh you did? Wow, thanks a lot for your help! If you are hurt, use you…” → “Oh you did? Wow, thanks a lot for your help! Please take Andor's trai…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.13/">v0.7.13</a></td>
@@ -1480,6 +1497,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1047,6 +1058,12 @@
 <li><a href="../../quests/shadows/">Shadows</a>: stages 90, 100</li>
 <li><a href="../../quests/troubling_times/">Troubling times</a>: stages 70, 80, 170, 280, 290, 300</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Talion. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/talion.json" data-npc="Talion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (131 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1651,7 +1668,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 34 lines changed<br>· text: “Third, I will need a gland of poison from a creature called the Irdeg…” → “Third, I will need a gland of poison from a creature called the irdeg…”<br>· text: “Yes. Well .. for a fee of course.” → “Yes. Well ... for a fee of course.”</td>
+<td>Dialogue: 34 lines changed<br>· text: “Now, let's get this cure started. I just need to grind this .. and mi…” → “Now, let's get this cure started. I just need to grind this ... and m…”<br>· text: “(He gives the potion a thorough shake for quite a while.)” → “[He gives the potion a thorough shake for quite a while]”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.13/">v0.8.13</a></td>
@@ -1741,6 +1758,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

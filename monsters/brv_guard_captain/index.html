@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1000,6 +1011,12 @@
 <li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 110, 120</li>
 <li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 15</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Mustura. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_guard_captain_10.json" data-npc="Mustura" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (25 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1113,7 +1130,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.13/">v0.7.13</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”</td>
+<td>Dialogue: 3 lines changed<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
@@ -1195,6 +1212,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

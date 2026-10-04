@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -998,6 +1009,12 @@
 <li><a href="../../quests/undertell_barricades/">You shall pass</a>: stages 130, 140</li>
 <li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 55</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Drunkard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_drunk_selector.json" data-npc="Drunkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (25 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1123,7 +1140,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 8 lines changed<br>· text: “Oh sweet drinks of joy. May the sssshadow be with you kid. *makes big…” → “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big…”<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…”</td>
+<td>Dialogue: 8 lines changed<br>· text: “<em>takes a gulp of the mead</em> That's good stuff!” → “[Takes a gulp of the mead] That's good stuff!”<br>· text: “That's where we.. Hey, where did my mead go? Did you take it from me?” → “That's where we... Hey, where did my mead go? Did you take it from me?”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
@@ -1205,6 +1222,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

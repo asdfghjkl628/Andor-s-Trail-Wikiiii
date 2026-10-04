@@ -834,6 +834,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -981,6 +992,12 @@
 <ul>
 <li><a href="../../quests/nocmar/">Lost treasures</a>: stages 10, 50</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Unnmir. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/unnmir.json" data-npc="Unnmir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (24 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1098,7 +1115,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “Nice. I'll give you a hint, kid. <em>snickering</em>. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by t…”<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…”<br>· text: “Nice. I'll give you a hint, kid. <em>snickering</em>. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. <em>snickering</em> Go see Nocmar over by t…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
@@ -1180,6 +1197,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

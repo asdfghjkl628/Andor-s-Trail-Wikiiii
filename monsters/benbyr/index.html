@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -998,6 +1009,12 @@
 <li><a href="../../quests/Thieves03/">The ruthless Crackshot</a>: stages 11</li>
 <li><a href="../../quests/undertell_barricades/">You shall pass</a>: stages 60, 70, 100, 110, 120</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Benbyr. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/benbyr.json" data-npc="Benbyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (46 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1201,7 +1218,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 7 lines changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.”<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”</td>
+<td>Dialogue: 7 lines changed<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”<br>· text: “You look like an aspiring adventurer. Are you willing to do some .. (…” → “You look like an aspiring adventurer. Are you willing to do some ... …”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.8/">v0.7.8</a></td>
@@ -1291,6 +1308,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

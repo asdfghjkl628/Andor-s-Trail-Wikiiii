@@ -867,6 +867,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1059,6 +1070,12 @@
 <ul>
 <li><a href="../../quests/toszylae/">An involuntary carrier</a>: stages 20, 21, 42, 45</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Radiant guardian. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/toszylae_guard.json" data-npc="Radiant guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (15 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1142,7 +1159,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 11 lines changed<br>· text: “(The guardian gives off a laughter that makes the hair on the back of…” → “[The guardian gives off a laughter that makes the hair on the back of…”<br>· text: “(The horrifying creature looks down on you with its burning eyes, and…” → “[The horrifying creature looks down on you with its burning eyes, and…”</td>
+<td>hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 11 lines changed<br>· text: “(The creature turns away)” → “[The creature turns away]”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…”</td>
 </tr>
 </tbody>
 </table>
@@ -1220,6 +1237,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

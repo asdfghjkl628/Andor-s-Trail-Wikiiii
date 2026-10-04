@@ -834,6 +834,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -981,6 +992,12 @@
 <ul>
 <li><a href="../../maps/elm_mine1/">elm_mine1</a></li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Drunken Feygard scout. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard10_s.json" data-npc="Drunken Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (5 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1020,7 +1037,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “<em>hic</em> Drink! <em>hic</em> Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!”<br>· text: “No! <em>looks at you</em> This is my beeeeeer, kid! <em>hic</em>” → “No! [looks at you] This is my beeeeeer, kid! [hic]”</td>
+<td>Dialogue: 3 lines changed<br>· text: “H..Halt! <em>hic</em> Kids not allowed!” → “H..Halt! [hic] Kids not allowed!”<br>· text: “<em>hic</em> Drink! <em>hic</em> Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!”</td>
 </tr>
 </tbody>
 </table>
@@ -1098,6 +1115,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

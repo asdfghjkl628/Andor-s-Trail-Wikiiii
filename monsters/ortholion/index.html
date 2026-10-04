@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1000,6 +1011,12 @@
 <li><a href="../../quests/Omi2_bwm1/">Climbing up is forbidden</a>: stages 45, 46, 55, 56, 59, 60, 61, 62, 63</li>
 <li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stages 21, 39, 41, 42</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to General Ortholion. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/ortholion_selector.json" data-npc="General Ortholion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (63 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1336,11 +1353,11 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.8/">v0.8.8</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “A knight's only trusted escorts are his sword and his horse. I'm pret…” → “A knight's only trustworthy escorts are his sword and his horse. *get…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
-<td>Dialogue: 6 lines changed<br>· text: “<em>laughs quietly</em> Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…”<br>· text: “<em>The general effortlessly subdues you, and begins to laugh</em> Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”</td>
+<td>Dialogue: 6 lines changed<br>· text: “I'm... <em>stares at you</em> $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “[People from the tavern start looking at the place where Ortholion an…” → “[People from the tavern start looking at the place where Ortholion an…”</td>
 </tr>
 </tbody>
 </table>
@@ -1418,6 +1435,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

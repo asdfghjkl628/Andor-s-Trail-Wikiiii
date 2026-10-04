@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1005,6 +1016,12 @@
 <li><a href="../../quests/misc_nondisplay/">misc_nondisplay (hidden flag)</a>: stages 20</li>
 <li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stages 28</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Umar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/umar_select_1.json" data-npc="Umar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (150 lines+)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1741,11 +1758,11 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.8/">v0.7.8</a></td>
-<td>Dialogue: 112 lines added, 7 lines changed<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.”</td>
+<td>Dialogue: 112 lines added, 7 lines changed<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.”<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.9/">v0.7.9</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “I expect more of you.That was your first mission inside the guild and…” → “I expect more of you. That was your first mission inside the guild an…”<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.12/">v0.7.12</a></td>
@@ -1753,7 +1770,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.13/">v0.7.13</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”</td>
+<td>Dialogue: 3 lines changed<br>· text: “However, the Feygard presence is still significant. Be cautious with …” → “However, the Feygard presence is still significant. Be cautious with …”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.14/">v0.7.14</a></td>
@@ -1781,11 +1798,11 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.13/">v0.8.13</a></td>
-<td>Dialogue: 10 lines added, 4 lines changed<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”</td>
+<td>Dialogue: 10 lines added, 4 lines changed<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…”<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 4 lines changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.”<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…”</td>
+<td>Dialogue: 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…”<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.”</td>
 </tr>
 </tbody>
 </table>
@@ -1863,6 +1880,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

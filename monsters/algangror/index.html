@@ -856,6 +856,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1046,6 +1057,12 @@
 <li><a href="../../quests/fiveidols/">The five idols</a>: stages 10, 20, 30, 31, 32, 33, 34, 35, 37, 51, 60, 61, 70, 100</li>
 <li><a href="../../quests/remgard2/">What is that stench?</a>: stages 30, 35</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Algangror. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/algangror.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (108 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1533,7 +1550,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>minor data change<br>Dialogue: 30 lines changed<br>· text: “Because of our previous .. misunderstanding, I think it's best they d…” → “Because of our previous ... misunderstanding, I think it's best they …”<br>· text: “You return. Thank you for helping me with my .. ahem .. rodent proble…” → “You return. Thank you for helping me with my ... ahem ... rodent prob…”</td>
+<td>minor data change<br>Dialogue: 30 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “Tell me, now that you have entered this house, would you be willing t…” → “Tell me, now that you have entered this house, would you be willing t…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.8/">v0.7.8</a></td>
@@ -1619,6 +1636,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

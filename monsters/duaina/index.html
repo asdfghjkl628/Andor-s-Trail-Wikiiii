@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -996,6 +1007,12 @@
 <ul>
 <li><a href="../../quests/remgard/">Everything in order</a>: stages 63, 70</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Duaina. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/duaina.json" data-npc="Duaina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (26 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1128,7 +1145,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…”</td>
+<td>Dialogue: 11 lines changed<br>· text: “The dreams and the visions. It is you! The child that challenges the …” → “The dreams and the visions. It is you! The child that challenges the …”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…”</td>
 </tr>
 </tbody>
 </table>
@@ -1206,6 +1223,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>

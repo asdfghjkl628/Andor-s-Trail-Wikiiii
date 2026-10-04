@@ -845,6 +845,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#dialogue-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialogue simulator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#version-history" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -999,6 +1010,12 @@
 <li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 255</li>
 <li><a href="../../quests/laeroth_nondisplay/">laeroth_nondisplay (hidden flag)</a>: stages 106, 107, 108</li>
 </ul>
+<h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
+<p>Set up your situation (quest stages, items, kills…), then talk to Forenza. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.</p>
+<div class="dlg-sim" data-src="../../assets/dialogue/forenza_waytobrimhaven3_initial_phrase.json" data-npc="Forenza" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
 <details class="quote">
 <summary>Dialogue (36 lines)</summary>
 <p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
@@ -1156,7 +1173,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>
-<td>Dialogue: 4 lines added, 4 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …”</td>
+<td>Dialogue: 4 lines added, 4 lines changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…”<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.13/">v0.8.13</a></td>
@@ -1246,6 +1263,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/maps.js"></script>
+      
+        <script src="../../javascripts/dialogue-sim.js"></script>
       
     
   </body>
