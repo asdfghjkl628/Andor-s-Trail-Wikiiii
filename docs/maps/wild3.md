@@ -23,7 +23,7 @@ North: Feygard" style="left:35.000%;top:20.000%;width:5.000%;height:5.000%"></sp
 |---|---|
 | [Forest ant](../monsters/forest_ant.md) | 4 |
 | [Yellow forest ant](../monsters/yellow_forest_ant.md) | 5 |
-| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
 | [Forest wasp](../monsters/forest_wasp.md) | 6 |
+| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
 
 <small>Map ID: `wild3` · Data from v0.8.18</small>

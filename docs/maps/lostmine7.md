@@ -20,7 +20,7 @@
 | [Blazing abcess](../monsters/fire2.md) | 95 |
 | [Lava spawn](../monsters/fire3.md) | 102 |
 | [Tough lava spawn](../monsters/fire4.md) | 107 |
-| [Strong ash gargoyle](../monsters/ash3.md) | 131 |
 | [Hardened ash gargoyle](../monsters/ash4.md) | 131 |
+| [Strong ash gargoyle](../monsters/ash3.md) | 131 |
 
 <small>Map ID: `lostmine7` · Data from v0.8.18</small>

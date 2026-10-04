@@ -10,7 +10,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Specialization: Weapon and shield](../skills/specializationWeaponShield.md) (needs this skill at level 2)
 

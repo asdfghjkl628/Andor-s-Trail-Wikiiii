@@ -10,7 +10,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Regeneration](../skills/regeneration.md) (needs this skill at level 1)
 

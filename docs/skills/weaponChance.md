@@ -6,7 +6,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Cleave](../skills/cleave.md) (needs this skill at level 1)
 - [Concussion](../skills/concussion.md) (needs this skill at level 3)

@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Gyra](../monsters/stn_gyra1.md) | 0 |
 | [Stoutford guard](../monsters/stoutford_guard4.md) | 0 |
+| [Gyra](../monsters/stn_gyra1.md) | 0 |
 | [Erwyn's soldier](../monsters/erwyn_soldier.md) | 65 |
 
 <small>Map ID: `stoutford_tower4` · Data from v0.8.18</small>

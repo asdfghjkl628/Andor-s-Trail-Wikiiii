@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Mourning woman](../monsters/dds_mourning_woman.md) | 0 |
 | [Chapel guard](../monsters/loneford_chapelguard.md) | 0 |
+| [Mourning woman](../monsters/dds_mourning_woman.md) | 0 |
 | [Mourning woman](../monsters/chapelgoer.md) | 0 |
 
 <small>Map ID: `loneford4` · Data from v0.8.18</small>

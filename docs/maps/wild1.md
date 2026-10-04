@@ -19,8 +19,8 @@ North: Feygard" style="left:19.048%;top:76.190%;width:4.762%;height:4.762%"></sp
 
 | Name | HP |
 |---|---|
-| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
 | [Forest wasp](../monsters/forest_wasp.md) | 6 |
+| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 |
 

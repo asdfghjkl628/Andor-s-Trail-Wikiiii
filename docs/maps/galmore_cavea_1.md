@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Cave rat](../monsters/cave_rat.md) | 5 |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
+| [Cave rat](../monsters/cave_rat.md) | 5 |
 
 <small>Map ID: `galmore_cavea_1` · Data from v0.8.18</small>

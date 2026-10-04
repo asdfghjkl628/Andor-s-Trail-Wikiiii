@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Wild boar](../monsters/wild_boar.md) | 20 |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 |
+| [Wild boar](../monsters/wild_boar.md) | 20 |
 | [Hardshell beetle](../monsters/hardshell_beetle.md) | 25 |
 
 <small>Map ID: `wild13` · Data from v0.8.18</small>

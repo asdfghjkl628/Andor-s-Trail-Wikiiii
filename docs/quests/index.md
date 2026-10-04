@@ -1,5 +1,7 @@
 # Quests
 
+Every quest that shows up in your journal, plus, at the bottom, the hidden story flags the game uses to keep track of you without telling you.
+
 | Quest | Stages |
 |---|---|
 | [A cat and mouse game](cat_and_mouse.md) | 9 |
@@ -128,7 +130,7 @@
 
 ## Hidden story flags
 
-Internal progress trackers that never show in the journal, but gate doors, events and map changes.
+Internal progress trackers that never appear in your journal, but quietly decide which doors open and which events fire. The names were not written with human readers in mind.
 
 | Flag | Stages |
 |---|---|

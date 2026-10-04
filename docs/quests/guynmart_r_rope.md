@@ -1,7 +1,7 @@
 # guynmart rope
 
 !!! info "Hidden story flag"
-    This is an internal quest the game uses to track story progress. It never appears in your journal; the entries below are the developers' own notes.
+    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
 
 | Progress | Journal entry |
 |---|---|

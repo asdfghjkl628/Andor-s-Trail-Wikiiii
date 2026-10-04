@@ -1,6 +1,6 @@
 # World map
 
-Every region of Andor's Trail v0.8.18, assembled from the game's own map files. Hover to see a map's name; click it to open that map.
+Every region of v0.8.18, stitched together from the game's own map files. Hover over a piece to see its name; click it to go there. Walking the real thing takes considerably longer.
 
 ## World1
 

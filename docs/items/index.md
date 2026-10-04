@@ -1,6 +1,6 @@
 # Items
 
-Every item in Andor's Trail v0.8.18 (1005 total). Use the search box to find one quickly.
+Every item in Andor's Trail v0.8.18, all 1005 of them. The search box is your friend; scrolling through this whole list is not.
 
 ## Equipment
 

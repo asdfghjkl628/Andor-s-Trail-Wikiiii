@@ -16,8 +16,8 @@
 
 | Name | HP |
 |---|---|
-| [Feygard guard](../monsters/lodar_fg1.md) | 0 |
 | [Rambling Feygard guard](../monsters/lodar_fg2.md) | 0 |
+| [Feygard guard](../monsters/lodar_fg1.md) | 0 |
 | [Giant dungfly](../monsters/dungfly1.md) | 16 |
 | [Aggressive dungfly](../monsters/dungfly2.md) | 23 |
 | [Vicious dungfly](../monsters/dungfly3.md) | 34 |

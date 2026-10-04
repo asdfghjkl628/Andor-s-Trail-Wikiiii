@@ -6,7 +6,7 @@
 
 ## Unlocks
 
-Investing here also counts toward:
+Points spent here also count toward:
 
 - [Rejuvenation](../skills/rejuvenation.md) (needs this skill at level 3)
 

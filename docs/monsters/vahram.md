@@ -15,7 +15,7 @@
 | Critical multiplier | 0 |
 
 !!! note "Immune to critical hits"
-    Monsters of this class cannot be critically hit.
+    Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
 ## Drops
 
