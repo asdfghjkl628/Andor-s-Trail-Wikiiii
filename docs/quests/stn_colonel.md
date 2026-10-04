@@ -31,6 +31,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -83,6 +84,7 @@
 | <span id="stage-190"></span>190 | Lutarc gave me a medallion as a present. There is a tiny little lizard on it, that looks completely real. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytogalmore0](../maps/waytogalmore0.md).</span> | [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md))<br>stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | stage 113, stage 123, stage 133, stage 143, stage 153, stage 160 | gives 1× [Lutarc's medallion](../items/lutarc_medallion.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -213,6 +215,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -223,6 +226,7 @@
 | [v0.8.15](../versions/0.8.15.md) | stage 170 XP 0 → 1; stage 171 journal text changed; stage 171 XP 500 → 1000; stage 172 journal text changed; stage 172 XP 1000 → 500 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

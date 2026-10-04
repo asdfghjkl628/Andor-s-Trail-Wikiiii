@@ -27,6 +27,7 @@ Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,6 +55,7 @@ Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md
 | <span id="stage-61"></span>61 | I have killed Vacor and told Unzel about the deed. **(completes quest)** | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | hand over 1× [Vacor's ring](../items/ring_vacor.md), stage 51 | 1,600 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -101,6 +103,7 @@ Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -109,6 +112,7 @@ Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Ok, find the four pieces of my rift spell that the bandits took, and …” → “OK, find the four pieces of my rift spell that the bandits took, and …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

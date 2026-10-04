@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_johny_9.png){ .sprite } Forest fawn
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_johny_9.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `brightport_sickfawn` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 120 |
+| **XP when killed** | 261 |
+| **Found in** | Brightport |
+| **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 120 |
-| Max AP | 14 |
-| Attack cost | 8 |
-| Move cost | 7 |
 | Damage | 3 to 13 |
 | Attack chance | 165 |
 | Block chance | 144 |
 | Damage resistance | 4 |
+| Max AP | 14 |
+| Attack cost | 8 AP |
+| Attacks per turn | 1 |
+| Move cost | 7 AP |
 | Critical skill | 10 |
 | Critical multiplier | 1.0 |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -22,15 +46,18 @@
 | [Raw venison](../items/brightport_rawmeat.md) | 15% | 1 |
 | [Gold coins](../items/gold.md) | 100% | 3 to 18 |
 
-## Found on
+## Locations
 
-- [brightport8](../maps/brightport8.md)
-- [waytobrightport21](../maps/waytobrightport21.md)
-- [waytobrightport22](../maps/waytobrightport22.md)
-- [waytobrightport23](../maps/waytobrightport23.md)
-- [waytobrightport3](../maps/waytobrightport3.md)
-- [waytobrightport4](../maps/waytobrightport4.md)
-- [waytobrightport7](../maps/waytobrightport7.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [brightport8](../maps/brightport8.md) | Brightport | 1 | – |
+| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 2 | – |
+| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 1 | – |
+| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [waytobrightport3](../maps/waytobrightport3.md) | – | 5 | – |
+| [waytobrightport4](../maps/waytobrightport4.md) | – | 6 | – |
+| [waytobrightport7](../maps/waytobrightport7.md) | – | 1 | – |
+
 
 ## Version history
 
@@ -40,4 +67,66 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `brightport_sickfawn` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_sickfawn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_sickfawn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_sickfawn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brightport_sickfawn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `brightport_sickfawn` |
+    | Spawn group | `brightport_sickfawn` |
+    | Loot table | `brightport_deer` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_johny:9` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_sickfawn",
+     "name": "Forest fawn",
+     "iconID": "monsters_johny:9",
+     "maxHP": 120,
+     "maxAP": 14,
+     "moveCost": 7,
+     "monsterClass": "animal",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 3,
+      "max": 13
+     },
+     "droplistID": "brightport_deer",
+     "attackCost": 8,
+     "attackChance": 165,
+     "criticalSkill": 10,
+     "criticalMultiplier": 1.0,
+     "blockChance": 144,
+     "damageResistance": 4
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

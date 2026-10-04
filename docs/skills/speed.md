@@ -25,6 +25,7 @@ Increases maximum action points (AP) by 1 for each skill level.
 | 2 | 30 |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Unlocks
 
 - [Concussion](concussion.md): needs this skill at level 2

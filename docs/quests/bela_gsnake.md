@@ -26,6 +26,7 @@ Start with [Bela](../monsters/bela.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ Start with [Bela](../monsters/bela.md). Required:
 | <span id="stage-90"></span>90 | Bela was happy that I freed Fallhaven from the threat of this monstrous snake. **(completes quest)** | [Bela](../monsters/bela.md) | – | 1,000 XP<br>gives 1× [Mead](../items/mead.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -60,6 +62,7 @@ Start with [Bela](../monsters/bela.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -67,6 +70,7 @@ Start with [Bela](../monsters/bela.md). Required:
 | [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 2 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

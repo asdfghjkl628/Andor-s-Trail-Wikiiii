@@ -1,10 +1,27 @@
 # ![](../assets/icons/items/items_weapons_14.png){ .sprite } Iron dagger
-*Ordinary* · Dagger · value 12 gold
 
-**Slot:** weapon · **Size:** light
+*Ordinary dagger.*
 
+<div class="infobox" markdown>
 
-## When equipped
+<p class="ib-img">![](../../assets/icons/items/items_weapons_14.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `dagger0` |
+| **Category** | Dagger |
+| **Slot** | weapon |
+| **Hands** | One-handed |
+| **Proficiency** | Dagger |
+| **Rarity** | Ordinary |
+| **Base value** | 12 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When equipped
 
 | Stat | Value |
 |---|---|
@@ -13,35 +30,46 @@
 | setNonWeaponDamageModifier | +112 |
 | Attack chance | +10 |
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Dealer](../monsters/brv_blackjack_dealer_evil.md) | 100% | 1 |
-| [Gambler](../monsters/brv_blackjack_gambler1_evil.md) | 50% | 1 |
-| [Gambler](../monsters/brv_blackjack_gambler2_evil.md) | 50% | 1 |
-| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 25% | 1 |
-| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 |
-| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 |
-| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 |
-| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 |
-| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 |
-| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 |
-| [Iqhan master](../monsters/iqhan_4a.md) | 5% | 1 |
-| [Iqhan master](../monsters/iqhan_4b.md) | 5% | 1 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1b.md) | 5% | 1 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2b.md) | 5% | 1 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3b.md) | 5% | 1 |
+## How to get it
 
-## Sold by
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Dealer](../monsters/brv_blackjack_dealer_evil.md) | 100% | 1 | Brimhaven |
+| [Gambler](../monsters/brv_blackjack_gambler1_evil.md) | 50% | 1 | Brimhaven |
+| [Gambler](../monsters/brv_blackjack_gambler2_evil.md) | 50% | 1 | Brimhaven |
+| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 25% | 1 | crackshot_hideout2, crackshot_hideout3 |
+| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
+| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
+| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
+| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
+| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
+| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
+| [Iqhan master](../monsters/iqhan_4a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan master](../monsters/iqhan_4b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2b.md) | 5% | 1 | pwcave3, pwcave4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3b.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+
+### Sold by
 
 - [Gruil](../monsters/gruil.md)
 - [Ganos](../monsters/ganos.md)
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+### Found in containers
+
+- [guynmart_main_1](../maps/guynmart_main_1.md#container-1) (container 2, 100%), Guynmart Castle
+- [mushroom_m2_4b](../maps/mushroom_m2_4b.md#container-1) (container 2, 100%)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -52,4 +80,58 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `dagger0` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `dagger0` |
+    | Category ID | `dagger` |
+    | Icon | `items_weapons:14` |
+    | Defined in | `res/raw/itemlist_weapons.json` |
+    | Loot tables containing it | `shop_gruil`, `shop_ganos`, `iqhan_lesser`, `iqhan`, `iqhan_master`, `guynmart_drp_main1_weapons`, `drop_g03_rebthief_1`, `brv_dealer`, `brv_gambler`, `bogsten_tomb_loot1` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "dagger0",
+     "iconID": "items_weapons:14",
+     "name": "Iron dagger",
+     "baseMarketCost": 12,
+     "category": "dagger",
+     "equipEffect": {
+      "increaseAttackDamage": {
+       "min": 0,
+       "max": 1
+      },
+      "increaseAttackCost": 5,
+      "setNonWeaponDamageModifier": 112,
+      "increaseAttackChance": 10
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Agent
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_4.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `agent1` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | blackwater_mountain5 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [blackwater_mountain5](../maps/blackwater_mountain5.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [blackwater_mountain5](../maps/blackwater_mountain5.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -103,10 +129,11 @@ Set up your situation (quest stages, items, kills…), then talk to Agent. The s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “The mine shaft over there *points* has collapsed, so I guess you won'…” → “The mine shaft over there [points] has collapsed, so I guess you won'…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “Reward? Hm, I was hoping you would help us for other reasons than a r…” → “Reward? Hmm, I was hoping you would help us for other reasons than a …” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Oh, someone from the outside! Please, sir! You have to help us!” → “Oh, someone from the outside! Please, adventurer, you have to help us!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -129,4 +156,32 @@ Set up your situation (quest stages, items, kills…), then talk to Agent. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=agent1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `agent1` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `agent1` |
+    | Spawn group | `bwm_agent_1` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_1_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent1",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_1",
+     "phraseID": "bwm_agent_1_start"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

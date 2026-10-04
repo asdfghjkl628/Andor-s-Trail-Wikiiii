@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } Aulowenn
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `aulowenn` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 194 |
+| **XP when killed** | 324 |
+| **Found in** | lodar13 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 194 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 0 to 9 |
 | Attack chance | 120 |
 | Block chance | 90 |
 | Damage resistance | 5 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Gold coins](../items/gold.md) | 100% | 50 to 150 |
 | [Polished ring](../items/ring2.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [lodar13](../maps/lodar13.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodar13](../maps/lodar13.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -212,12 +239,13 @@ Set up your situation (quest stages, items, kills…), then talk to Aulowenn. Th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…”<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...”<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I don't know if was just me imagining things or if something truly ha…” → “I don't know if it was just me imagining things or if something truly…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
 | [v0.8.7](../versions/0.8.7.md) | monsterClass added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -240,4 +268,43 @@ Set up your situation (quest stages, items, kills…), then talk to Aulowenn. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aulowenn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `aulowenn` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `aulowenn` |
+    | Spawn group | `aulowenn` |
+    | Loot table | `aulowenn` |
+    | Conversation | `aulowenn0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:86` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aulowenn",
+     "name": "Aulowenn",
+     "iconID": "monsters_rltiles1:86",
+     "maxHP": 194,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 0,
+      "max": 9
+     },
+     "phraseID": "aulowenn0",
+     "droplistID": "aulowenn",
+     "attackCost": 3,
+     "attackChance": 120,
+     "blockChance": 90,
+     "damageResistance": 5
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

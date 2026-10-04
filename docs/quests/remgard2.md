@@ -27,6 +27,7 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -53,6 +54,7 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 | <span id="stage-46"></span>46 | Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people. | [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) | stage 45 | gives [Woodcutter's feathered hat](../items/hat_crit.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -96,6 +98,7 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -103,6 +106,7 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

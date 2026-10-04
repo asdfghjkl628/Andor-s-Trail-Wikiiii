@@ -1,22 +1,55 @@
 # ![](../assets/icons/monsters/monsters_ld1_12.png){ .sprite } Golin
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_12.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `golin` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 80 |
+| **XP when killed** | 159 |
+| **Found in** | Brimhaven |
+| **Introduced** | [v0.7.11](../versions/0.7.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 80 |
-| Max AP | 10 |
-| Attack cost | 4 |
-| Move cost | 5 |
 | Damage | 1 to 4 |
 | Attack chance | 40 |
 | Block chance | 120 |
 | Damage resistance | 5 |
+| Max AP | 10 |
+| Attack cost | 4 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [brimhaven_school](../maps/brimhaven_school.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+
+
+## Quests that count kills
+
+- [Lessons learned](../quests/brv_school2.md#stage-102) with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) checks that you've killed at least 1
+- A conversation with [Statue](../monsters/brv_school_statue.md) ([brimhaven_school](../maps/brimhaven_school.md)) checks that you've killed at least 1
+
 
 ## Quests
 
@@ -373,10 +406,11 @@ Set up your situation (quest stages, items, kills…), then talk to Golin. The s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “However Elythara and her cultists failed to completely annihilate the…” → “However Elythara and her cultists failed to completely annihilate the…”<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…”<br>· text: “However Elythara and her cultists failed to completely annihilate the…” → “However Elythara and her cultists failed to completely annihilate the…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -399,4 +433,44 @@ Set up your situation (quest stages, items, kills…), then talk to Golin. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=golin.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `golin` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `golin` |
+    | Spawn group | `golin` |
+    | Loot table | – |
+    | Conversation | `golin` |
+    | Faction | `brv_fct_school_duel` |
+    | Movement | – |
+    | Icon | `monsters_ld1:12` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "golin",
+     "name": "Golin",
+     "iconID": "monsters_ld1:12",
+     "maxHP": 80,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 1,
+      "max": 4
+     },
+     "spawnGroup": "golin",
+     "faction": "brv_fct_school_duel",
+     "phraseID": "golin",
+     "attackCost": 4,
+     "attackChance": 40,
+     "blockChance": 120,
+     "damageResistance": 5
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

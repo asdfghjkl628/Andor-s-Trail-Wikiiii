@@ -25,6 +25,7 @@ While fighting without having any piece of armor equipped, gain 10 block chance 
 | 3 | Skill point |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.
 
 ## Relevant quest

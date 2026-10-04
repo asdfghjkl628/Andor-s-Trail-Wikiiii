@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles1_68.png){ .sprite } Algangror
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_68.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `algangror` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 241 |
+| **XP when killed** | 548 |
+| **Found in** | lonelyhouse0 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 241 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 3 to 9 |
 | Attack chance | 80 |
 | Block chance | 120 |
 | Damage resistance | 4 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 200 |
 | Critical multiplier | 2.0 |
+| Crit chance | 58% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -24,9 +48,17 @@
 | [Sharpened gem](../items/gem4.md) | 100% | 1 |
 | [Empty vial](../items/vial_empty2.md) | 100% | 3 to 5 |
 
-## Found on
+## Locations
 
-- [lonelyhouse0](../maps/lonelyhouse0.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lonelyhouse0](../maps/lonelyhouse0.md) | – | 1 | – |
+
+
+## Quests that count kills
+
+- [final_cave (hidden flag)](../quests/final_cave.md#stage-10) with stepping on a trigger on [island4](../maps/island4.md) checks that you've killed at least 1
+
 
 ## Quests
 
@@ -537,11 +569,12 @@ Set up your situation (quest stages, items, kills…), then talk to Algangror. T
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “Tell me, now that you have entered this house, would you be willing t…” → “Tell me, now that you have entered this house, would you be willing t…” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “I have in my possession five idols. Five idols with very unique .. qu…” → “I have in my possession five idols. Five idols with very unique ... q…”<br>· text: “So, I decided to extend my .. experiments .. to larger things. To peo…” → “So, I decided to extend my ... experiments ... to larger things. To p…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -564,4 +597,46 @@ Set up your situation (quest stages, items, kills…), then talk to Algangror. T
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=algangror.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `algangror` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `algangror` |
+    | Spawn group | `algangror` |
+    | Loot table | `algangror` |
+    | Conversation | `algangror` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:68` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "algangror",
+     "name": "Algangror",
+     "iconID": "monsters_rltiles1:68",
+     "maxHP": 241,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "algangror",
+     "phraseID": "algangror",
+     "droplistID": "algangror",
+     "attackCost": 3,
+     "attackChance": 80,
+     "criticalSkill": 200,
+     "criticalMultiplier": 2.0,
+     "blockChance": 120,
+     "damageResistance": 4
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

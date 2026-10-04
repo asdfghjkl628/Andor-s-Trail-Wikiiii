@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Feygard patrol sergeant
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `g03_sergeant` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | crackshot_hideout3 |
+| **Introduced** | [v0.7.8](../versions/0.7.8.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [crackshot_hideout3](../maps/crackshot_hideout3.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -111,6 +137,7 @@ Set up your situation (quest stages, items, kills…), then talk to Feygard patr
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -132,4 +159,33 @@ Set up your situation (quest stages, items, kills…), then talk to Feygard patr
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=g03_sergeant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `g03_sergeant` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `g03_sergeant` |
+    | Spawn group | `g03_sergeant` |
+    | Loot table | – |
+    | Conversation | `FeygardSerg_guild03_select` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_rltiles1:76` |
+    | Defined in | `res/raw/monsterlist_omicronrg9.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "g03_sergeant",
+     "name": "Feygard patrol sergeant",
+     "iconID": "monsters_rltiles1:76",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "g03_sergeant",
+     "phraseID": "FeygardSerg_guild03_select"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

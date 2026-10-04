@@ -1,18 +1,40 @@
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Nocmar
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `nocmar` |
+| **Type** | Shopkeeper |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -334,11 +356,12 @@ Set up your situation (quest stages, items, kills…), then talk to Nocmar. The 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…” |
-| [v0.8.18](../versions/0.8.18.md) | phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…”<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.” |
+| [v0.8.18](../versions/0.8.18.md) | phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.”<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -361,4 +384,32 @@ Set up your situation (quest stages, items, kills…), then talk to Nocmar. The 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nocmar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `nocmar` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `nocmar` |
+    | Spawn group | `nocmar` |
+    | Loot table | `nocmar` |
+    | Conversation | `nocmar_selector` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "nocmar",
+     "name": "Nocmar",
+     "iconID": "monsters_men:8",
+     "monsterClass": "humanoid",
+     "spawnGroup": "nocmar",
+     "phraseID": "nocmar_selector",
+     "droplistID": "nocmar"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

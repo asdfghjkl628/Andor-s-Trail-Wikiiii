@@ -25,6 +25,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +51,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 | <span id="stage-101"></span>101 | Algangror won't talk to me, and I will be unable to help her with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 10, stage 15, stage 21 | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -86,6 +88,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -94,6 +97,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “That's where you come in. Would you be willing to .. ahem .. handle t…” → “That's where you come in. Would you be willing to ... ahem ... handle…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

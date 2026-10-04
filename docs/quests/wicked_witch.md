@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 50, 70, 95, 96) |
 | **Started by** | [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_first.md), [Bonicksa](../monsters/wicked_witch_third.md), [Busy farmer](../monsters/fallhaven_outdoor_farmer.md), [Emmeline](../monsters/captive_girl.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_third.md), [Bonicksa](../monsters/wicked_witch_first.md), [Busy farmer](../monsters/fallhaven_outdoor_farmer.md), [Emmeline](../monsters/captive_girl.md) |
 | **Locations** | [fallhaven_se](../maps/fallhaven_se.md), [lake_shore_road_1](../maps/lake_shore_road_1.md), [witch_house](../maps/witch_house.md) |
 | **Total XP** | 46,182 |
 | **Related quests** | 2 |
@@ -31,6 +31,7 @@ Start with [Bela](../monsters/bela.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,6 +64,7 @@ Start with [Bela](../monsters/bela.md). Required:
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -122,6 +124,7 @@ Start with [Bela](../monsters/bela.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -131,6 +134,7 @@ Start with [Bela](../monsters/bela.md). Required:
 | [v0.8.18](../versions/0.8.18.md) | stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

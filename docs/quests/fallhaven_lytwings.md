@@ -28,6 +28,7 @@ Start with [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_s
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -59,6 +60,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-103"></span>103 | Arensia gave me her magical promise ring as reward for helping her. **(completes quest)** | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 100 | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -142,6 +144,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -150,6 +153,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.8.13](../versions/0.8.13.md) | stage 21 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

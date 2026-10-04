@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_men2_7.png){ .sprite } Buceth
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_7.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `buceth` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 75 |
+| **XP when killed** | 292 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 75 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 3 to 9 |
 | Attack chance | 80 |
 | Block chance | 120 |
 | Damage resistance | 4 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 200 |
 | Critical multiplier | 2.0 |
+| Crit chance | 58% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -304,13 +327,14 @@ Set up your situation (quest stages, items, kills…), then talk to Buceth. The 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “A while later, the men return. They explain that some of the methods …” → “A while later, the men return. They explain that some of the ways thi…”<br>· text: “Now, tell me. Would you in secret continue using the old methods your…” → “Now, tell me. Would you in secret continue using the old ways your pa…” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “Without going into specifics, let's say that these are methods that h…” → “Without going into specifics, let's say that these are ways that have…”<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -333,4 +357,46 @@ Set up your situation (quest stages, items, kills…), then talk to Buceth. The 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=buceth.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `buceth` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `buceth` |
+    | Spawn group | `buceth` |
+    | Loot table | `buceth` |
+    | Conversation | `buceth` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men2:7` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "buceth",
+     "name": "Buceth",
+     "iconID": "monsters_men2:7",
+     "maxHP": 75,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "buceth",
+     "phraseID": "buceth",
+     "droplistID": "buceth",
+     "attackCost": 3,
+     "attackChance": 80,
+     "criticalSkill": 200,
+     "criticalMultiplier": 2.0,
+     "blockChance": 120,
+     "damageResistance": 4
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

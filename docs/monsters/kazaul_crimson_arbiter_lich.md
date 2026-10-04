@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_antison_5.png){ .sprite } Kazaul crimson arbiter lich
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_antison_5.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `kazaul_crimson_arbiter_lich` |
+| **Type** | Enemy |
+| **Class** | Undead |
+| **HP** | 305 |
+| **XP when killed** | 883 |
+| **Found in** | undertell_4_00, undertell_4_01, undertell_4_10 |
+| **Introduced** | [v0.8.18](../versions/0.8.18.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 305 |
-| Max AP | 10 |
-| Attack cost | 4 |
-| Move cost | 4 |
 | Damage | 11 to 13 |
 | Attack chance | 210 |
 | Block chance | 190 |
 | Damage resistance | 12 |
+| Max AP | 10 |
+| Attack cost | 4 AP |
+| Attacks per turn | 2 |
+| Move cost | 4 AP |
 | Critical skill | 15 |
 | Critical multiplier | 2.0 |
+| Crit chance | 12% |
 
-## On hit
+**On hit:** On target: Divine judgement (magnitude 1, 3 rounds, 14% chance)
 
-- **On target:** Divine judgement (magnitude 1, 3 rounds, 14% chance)
+**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 5% chance)
+
+**On death:** On self: Divine punishment (magnitude 1, 2 rounds, 100% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -27,17 +53,20 @@
 | [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
 | [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
 
-## Found on
+## Locations
 
-- [undertell_4_00](../maps/undertell_4_00.md)
-- [undertell_4_01](../maps/undertell_4_01.md)
-- [undertell_4_10](../maps/undertell_4_10.md)
-- [undertell_4_11](../maps/undertell_4_11.md)
-- [undertell_5](../maps/undertell_5.md)
-- [undertell_7_00](../maps/undertell_7_00.md)
-- [undertell_7_01](../maps/undertell_7_01.md)
-- [undertell_7_10](../maps/undertell_7_10.md)
-- [undertell_7_11](../maps/undertell_7_11.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [undertell_4_00](../maps/undertell_4_00.md) | – | 3 | – |
+| [undertell_4_01](../maps/undertell_4_01.md) | – | 5 | – |
+| [undertell_4_10](../maps/undertell_4_10.md) | – | 7 | – |
+| [undertell_4_11](../maps/undertell_4_11.md) | – | 3 | – |
+| [undertell_5](../maps/undertell_5.md) | – | 4 | – |
+| [undertell_7_00](../maps/undertell_7_00.md) | – | 1 | – |
+| [undertell_7_01](../maps/undertell_7_01.md) | – | 4 | – |
+| [undertell_7_10](../maps/undertell_7_10.md) | – | 9 | – |
+| [undertell_7_11](../maps/undertell_7_11.md) | – | 5 | – |
+
 
 ## Version history
 
@@ -47,4 +76,96 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `kazaul_crimson_arbiter_lich` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kazaul_crimson_arbiter_lich.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kazaul_crimson_arbiter_lich.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kazaul_crimson_arbiter_lich.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kazaul_crimson_arbiter_lich.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `kazaul_crimson_arbiter_lich` |
+    | Spawn group | `kazaul_crimson_arbiter_lich` |
+    | Loot table | `undertell_level4_lich_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_antison:5` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "kazaul_crimson_arbiter_lich",
+     "name": "Kazaul crimson arbiter lich",
+     "iconID": "monsters_antison:5",
+     "maxHP": 305,
+     "moveCost": 4,
+     "monsterClass": "undead",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 11,
+      "max": 13
+     },
+     "horizontalFlipChance": 50,
+     "droplistID": "undertell_level4_lich_dl",
+     "attackCost": 4,
+     "attackChance": 210,
+     "criticalSkill": 15,
+     "criticalMultiplier": 2.0,
+     "blockChance": 190,
+     "damageResistance": 12,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "divine_judgement",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "14"
+       }
+      ]
+     },
+     "hitReceivedEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "kazarite_misery",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "5"
+       }
+      ]
+     },
+     "deathEffect": {
+      "conditionsSource": [
+       {
+        "condition": "divine_punishment",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "100"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

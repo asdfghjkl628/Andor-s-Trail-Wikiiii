@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 180) |
 | **Started by** | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) |
-| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin_b.md), [Jerelin](../monsters/jerelin.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
+| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin_b.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
 | **Locations** | [laerothmanor1](../maps/laerothmanor1.md), [laerothtomb1](../maps/laerothtomb1.md) |
 | **Total XP** | 18,000 |
 | **Related quests** | 2 |
@@ -28,6 +28,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -77,6 +78,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 | <span id="stage-180"></span>180 | I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it. **(completes quest)**<br><span class="qnote">🗺️ Part of [Laerothtomb1](../maps/laerothtomb1.md) visibly changes.</span> | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) | stage 10, stage 170 | 18,000 XP<br>removes monsters from laerothmanor1<br>sets stage 120 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-120) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -173,6 +175,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -182,6 +185,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 | [v0.8.13](../versions/0.8.13.md) | stage 170 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

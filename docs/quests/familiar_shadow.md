@@ -27,6 +27,7 @@ Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,6 +55,7 @@ Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md)
 | <span id="stage-70"></span>70 | I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched. **(completes quest)** | [Old Leta](../monsters/old_leta.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md))<br>[Old Oromir](../monsters/old_oromir.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md)) | stage 60 | 6,548 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -94,6 +96,7 @@ Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md)
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -101,6 +104,7 @@ Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md)
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 8 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

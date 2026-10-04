@@ -1,22 +1,44 @@
 # ![](../assets/icons/monsters/monsters_phoenix01_9.png){ .sprite } Bonicksa
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_phoenix01_9.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `wicked_witch_second` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 277 |
+| **XP when killed** | 768 |
+| **Found in** | witch_house |
+| **Introduced** | [v0.8.8](../versions/0.8.8.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 277 |
-| Max AP | 12 |
-| Attack cost | 4 |
-| Move cost | 3 |
 | Damage | 14 to 17 |
 | Attack chance | 207 |
 | Block chance | 166 |
 | Damage resistance | 0 |
+| Max AP | 12 |
+| Attack cost | 4 AP |
+| Attacks per turn | 3 |
+| Move cost | 3 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## On hit
+**On hit:** On target: Rootsnare (magnitude 1, 3 rounds, 30% chance)
 
-- **On target:** Rootsnare (magnitude 1, 3 rounds, 30% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -26,9 +48,17 @@
 | [Rat tail](../items/rat_tail.md) | 100% | 7 to 12 |
 | [Witch's candle](../items/witch_candle.md) | 100% | 1 to 2 |
 
-## Found on
+## Locations
 
-- [witch_house](../maps/witch_house.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [witch_house](../maps/witch_house.md) | – | 1 | appears later in a quest |
+
+
+## Quests that count kills
+
+- [A Wicked witch](../quests/wicked_witch.md#stage-65) with stepping on a trigger on [witch_house](../maps/witch_house.md) checks that you've killed at least 1
+
 
 ## Dialogue simulator
 
@@ -72,6 +102,7 @@ Set up your situation (quest stages, items, kills…), then talk to Bonicksa. Th
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -93,4 +124,53 @@ Set up your situation (quest stages, items, kills…), then talk to Bonicksa. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wicked_witch_second.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `wicked_witch_second` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `wicked_witch_second` |
+    | Spawn group | `wicked_witch_second` |
+    | Loot table | `wicked_witch_second_dl` |
+    | Conversation | `wicked_witch_second_selector` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_phoenix01:9` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "wicked_witch_second",
+     "name": "Bonicksa",
+     "iconID": "monsters_phoenix01:9",
+     "maxHP": 277,
+     "maxAP": 12,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 14,
+      "max": 17
+     },
+     "phraseID": "wicked_witch_second_selector",
+     "droplistID": "wicked_witch_second_dl",
+     "attackCost": 4,
+     "attackChance": 207,
+     "blockChance": 166,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "rootsnare",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -1,26 +1,48 @@
 # ![](../assets/icons/monsters/monsters_demon2_0.png){ .sprite } Hira'zinn
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_demon2_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `hirazinn` |
+| **Type** | NPC |
+| **Class** | Demon |
+| **HP** | 263 |
+| **XP when killed** | 683 |
+| **Found in** | lodarcave4a |
+| **Immune to crits** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 263 |
-| Max AP | 10 |
-| Attack cost | 2 |
-| Move cost | 5 |
 | Damage | 3 to 6 |
 | Attack chance | 129 |
 | Block chance | 132 |
 | Damage resistance | 21 |
+| Max AP | 10 |
+| Attack cost | 2 AP |
+| Attacks per turn | 5 |
+| Move cost | 5 AP |
 | Critical skill | 10 |
 | Critical multiplier | 2.0 |
+| Crit chance | 9% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
-## On hit
+**On hit:** Heal HP: 1 to 6; On target: Fear (magnitude 4, 3 rounds, 30% chance); Bleeding wound (magnitude 3, 3 rounds, 30% chance)
 
-- **Heal HP:** 1 to 6
-- **On target:** Fear (magnitude 4, 3 rounds, 30% chance); Bleeding wound (magnitude 3, 3 rounds, 30% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -33,9 +55,12 @@
 | [Glass gem](../items/gem1.md) | 100% | 1 to 3 |
 | [Bone](../items/bone.md) | 100% | 0 to 4 |
 
-## Found on
+## Locations
 
-- [lodarcave4a](../maps/lodarcave4a.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodarcave4a](../maps/lodarcave4a.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -77,6 +102,7 @@ Set up your situation (quest stages, items, kills…), then talk to Hira'zinn. T
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -98,4 +124,64 @@ Set up your situation (quest stages, items, kills…), then talk to Hira'zinn. T
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hirazinn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `hirazinn` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `hirazinn` |
+    | Spawn group | `hirazinn` |
+    | Loot table | `hirazinn` |
+    | Conversation | `hirazinn` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_demon2:0` |
+    | Defined in | `res/raw/monsterlist_v070_lodarcave.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "hirazinn",
+     "name": "Hira'zinn",
+     "iconID": "monsters_demon2:0",
+     "maxHP": 263,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "demon",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "phraseID": "hirazinn",
+     "droplistID": "hirazinn",
+     "attackCost": 2,
+     "attackChance": 129,
+     "criticalSkill": 10,
+     "criticalMultiplier": 2.0,
+     "blockChance": 132,
+     "damageResistance": 21,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 1,
+       "max": 6
+      },
+      "conditionsTarget": [
+       {
+        "condition": "fear",
+        "magnitude": 4,
+        "duration": 3,
+        "chance": "30"
+       },
+       {
+        "condition": "bleeding_wound",
+        "magnitude": 3,
+        "duration": 3,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

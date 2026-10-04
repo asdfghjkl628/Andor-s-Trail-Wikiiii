@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } Anklebiter
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_6.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `anklebiter` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 31 |
+| **XP when killed** | 92 |
+| **Found in** | Crossroads Guardhouse, Flagstone Prison, Guynmart Castle |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 31 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 3 to 9 |
 | Attack chance | 150 |
 | Block chance | 60 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,26 +47,29 @@
 | [Meat](../items/meat.md) | 30% | 1 |
 | [Animal hair](../items/hair.md) | 30% | 1 |
 
-## Found on
+## Locations
 
-- [cabin_norcity_road1](../maps/cabin_norcity_road1.md)
-- [crossroads](../maps/crossroads.md)
-- [flagstone0](../maps/flagstone0.md)
-- [guynmart_wood_11](../maps/guynmart_wood_11.md)
-- [guynmart_wood_12](../maps/guynmart_wood_12.md)
-- [guynmart_wood_13](../maps/guynmart_wood_13.md)
-- [road3](../maps/road3.md)
-- [road4](../maps/road4.md)
-- [road5](../maps/road5.md)
-- [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md)
-- [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md)
-- [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md)
-- [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md)
-- [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md)
-- [roadbeforecrossroads7](../maps/roadbeforecrossroads7.md)
-- [wild14_cave](../maps/wild14_cave.md)
-- [wild14_clearing](../maps/wild14_clearing.md)
-- [wild16](../maps/wild16.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [cabin_norcity_road1](../maps/cabin_norcity_road1.md) | – | 3 | – |
+| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 4 | – |
+| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 2 | – |
+| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
+| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
+| [road3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
+| [road4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
+| [road5](../maps/road5.md) | – | 1 | – |
+| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 2 | – |
+| [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md) | Fallhaven | 2 | – |
+| [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md) | Fallhaven | 3 | – |
+| [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md) | Fallhaven | 3 | – |
+| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 1 | – |
+| [roadbeforecrossroads7](../maps/roadbeforecrossroads7.md) | Fallhaven | 2 | – |
+| [wild14_cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 1 | – |
+| [wild14_clearing](../maps/wild14_clearing.md) | – | 1 | – |
+| [wild16](../maps/wild16.md) | Flagstone Prison | 2 | – |
+
 
 ## Version history
 
@@ -52,4 +79,62 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `anklebiter` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anklebiter.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anklebiter.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anklebiter.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=anklebiter.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `anklebiter` |
+    | Spawn group | `forestboar3` |
+    | Loot table | `canine2` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_dogs:6` |
+    | Defined in | `res/raw/monsterlist_wilderness.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "anklebiter",
+     "name": "Anklebiter",
+     "iconID": "monsters_dogs:6",
+     "maxHP": 31,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "forestboar3",
+     "droplistID": "canine2",
+     "attackCost": 5,
+     "attackChance": 150,
+     "blockChance": 60,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

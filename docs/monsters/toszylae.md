@@ -1,23 +1,44 @@
 # ![](../assets/icons/monsters/monsters_liches_1.png){ .sprite } Toszylae
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_1.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `toszylae` |
+| **Type** | NPC |
+| **Class** | Undead |
+| **HP** | 207 |
+| **XP when killed** | 449 |
+| **Found in** | waytobrimhavencave3a |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 207 |
-| Max AP | 8 |
-| Attack cost | 2 |
-| Move cost | 5 |
 | Damage | 2 to 7 |
 | Attack chance | 80 |
 | Block chance | 120 |
 | Damage resistance | 4 |
+| Max AP | 8 |
+| Attack cost | 2 AP |
+| Attacks per turn | 4 |
+| Move cost | 5 AP |
 | Critical skill | 40 |
 | Critical multiplier | 2.0 |
+| Crit chance | 23% |
 
-## On hit
+**On hit:** Heal HP: 6; On target: Minor weapon feebleness (magnitude 3, 3 rounds, 20% chance)
 
-- **Heal HP:** 6
-- **On target:** Minor weapon feebleness (magnitude 3, 3 rounds, 20% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -29,9 +50,12 @@
 | [Polished sparkling gem](../items/gem5.md) | 100% | 2 |
 | [Small rock](../items/rock.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -102,9 +126,10 @@ Set up your situation (quest stages, items, kills…), then talk to Toszylae. Th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 9 lines changed<br>· text: “(While chanting, it slowly lowers its hands forward, until pointing d…” → “[While chanting, it slowly lowers its hands forward, until pointing d…”<br>· text: “(The pain increases slightly, and you start to realize that something…” → “[The pain increases slightly, and you start to realize that something…” |
+| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 9 lines changed<br>· text: “(The lich looks at you with its burning eyes, and glances at the rema…” → “[The lich looks at you with its burning eyes, and glances at the rema…”<br>· text: “(You start to feel nauseous, and your stomach turns and twists - as i…” → “[You start to feel nauseous, and your stomach turns and twists - as i…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -127,4 +152,60 @@ Set up your situation (quest stages, items, kills…), then talk to Toszylae. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=toszylae.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `toszylae` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `toszylae` |
+    | Spawn group | `toszylae` |
+    | Loot table | `toszylae` |
+    | Conversation | `toszylae` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:1` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "toszylae",
+     "name": "Toszylae",
+     "iconID": "monsters_liches:1",
+     "maxHP": 207,
+     "maxAP": 8,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "undead",
+     "attackDamage": {
+      "min": 2,
+      "max": 7
+     },
+     "spawnGroup": "toszylae",
+     "phraseID": "toszylae",
+     "droplistID": "toszylae",
+     "attackCost": 2,
+     "attackChance": 80,
+     "criticalSkill": 40,
+     "criticalMultiplier": 2.0,
+     "blockChance": 120,
+     "damageResistance": 4,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 6,
+       "max": 6
+      },
+      "conditionsTarget": [
+       {
+        "condition": "feebleness_minor",
+        "magnitude": 3,
+        "duration": 3,
+        "chance": "20"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -1,18 +1,40 @@
 # ![](../assets/icons/items/items_misc_4.png){ .sprite } Shimmering opal
-*Ordinary* · Gem · value 125 gold
+
+*Ordinary gem.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_misc_4.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `gem7` |
+| **Category** | Gem |
+| **Rarity** | Ordinary |
+| **Base value** | 125 gold |
+| **Introduced** | [v0.7.4](../versions/0.7.4.md) |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Beholder](../monsters/beholder.md) | 100% | 2-7 | Mt. Galmore |
+| [Swamp lizard](../monsters/swamp_lizard.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
+| [Bog eel](../monsters/bog_eel.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
+| [Swamp lizard](../monsters/swamp_lizard_leech.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
+| [Bog eel](../monsters/bog_eel_leech.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
+
+### Quest & dialogue rewards
+
+- From a scripted event during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-210) (100%)
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Beholder](../monsters/beholder.md) | 100% | 2-7 |
-| [Swamp lizard](../monsters/swamp_lizard.md) | 3% | 1 |
-| [Bog eel](../monsters/bog_eel.md) | 3% | 1 |
-| [Swamp lizard](../monsters/swamp_lizard_leech.md) | 3% | 1 |
-| [Bog eel](../monsters/bog_eel_leech.md) | 3% | 1 |
-
-<p class="verified">Verified against v0.8.18 item data.</p>
 
 ## Version history
 
@@ -22,4 +44,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `gem7` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem7.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem7.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem7.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem7.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `gem7` |
+    | Category ID | `gem` |
+    | Icon | `items_misc:4` |
+    | Defined in | `res/raw/itemlist_bugfix_0_7_4.json` |
+    | Loot tables containing it | `opal`, `beholder`, `swamp_lizard_dl`, `swamp_lizard_leetch_dl`, `swamp_eel_dl`, `swamp_eel_leech_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gem7",
+     "iconID": "items_misc:4",
+     "name": "Shimmering opal",
+     "hasManualPrice": 1,
+     "baseMarketCost": 125,
+     "category": "gem"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

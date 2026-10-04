@@ -62,6 +62,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -69,6 +70,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.8.2](../versions/0.8.2.md) | Added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

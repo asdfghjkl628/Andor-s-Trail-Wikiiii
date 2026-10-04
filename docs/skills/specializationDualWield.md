@@ -24,6 +24,7 @@ Increases the attack chance of both wielded weapons by an additional 50 % of the
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Trivia**: real-world facts, references, development history</small>

@@ -24,6 +24,7 @@ None: talk to stepping on a trigger on [arulircave1](../maps/arulircave1.md) to 
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,6 +48,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-101"></span>101 | 10=Slippery ground second time<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulircave3](../maps/arulircave3.md).</span><br><span class="qnote">🔒 An area on [Arulircave3](../maps/arulircave3.md) becomes blocked off.</span> | stepping on a trigger on [arulircave3](../maps/arulircave3.md) | stage 10 | clears stage 10 of [Arulir Cave Traps (hidden flag)](../quests/arulircave_trap.md#stage-10) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -98,6 +100,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -107,6 +110,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.12](../versions/0.7.12.md) | stages added: 101<br>Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

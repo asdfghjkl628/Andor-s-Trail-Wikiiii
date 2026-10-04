@@ -25,6 +25,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -64,6 +65,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 | <span id="stage-251"></span>251 | Since I am helping the Blackwater mountain settlement, Guthbered no longer wants to talk to me. **(completes quest)** | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -153,6 +155,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -161,6 +164,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 | [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+3 more)<br>Dialogue: 3 lines changed<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

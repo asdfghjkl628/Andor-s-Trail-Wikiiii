@@ -34,6 +34,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -89,6 +90,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 | <span id="stage-115"></span>115 | I gave Forenza the Coin of Prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward" me. Whatever that means. **(completes quest)** | [Forenza](../monsters/forenza_waytobrimhaven3.md) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | carry 1× [Coin of Prestige](../items/hero_coin.md), carry 1× [Shield of the Brave](../items/shield_of_brave.md), hand over 1× [Coin of Prestige](../items/hero_coin.md), stage 65 | 6,000 XP<br>clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47)<br>sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -197,6 +199,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -206,6 +209,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 | [v0.8.13](../versions/0.8.13.md) | stage 12 journal text changed; stage 20 journal text changed; stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

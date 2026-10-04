@@ -30,6 +30,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,7 +55,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 |---|---|---|---|---|
 | <span id="stage-1"></span>1 | Time to rest and prepare myself to start the next job. I should go to the tavern. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | changes map fallhaven_tavern<br>changes map fallhaven_nw<br>removes monsters from fallhaven_nw<br>removes monsters from guildbrig2 |
 | <span id="stage-2"></span>2 | I really need to take a break ....<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | stepping on a trigger on [fallhaven_tavern](../maps/fallhaven_tavern.md) | – | changes map fallhaven_tavern |
-| <span id="stage-3"></span>3 | I am now fully rested, so I should go back to Umar.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven nw](../maps/fallhaven_nw.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | stepping on a trigger on [fallhaven_tavern](../maps/fallhaven_tavern.md) | – | changes map fallhaven_tavern<br>spawns monsters on fallhaven_nw |
+| <span id="stage-3"></span>3 | I am now fully rested, so I should go back to Umar.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven north-west](../maps/fallhaven_nw.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | stepping on a trigger on [fallhaven_tavern](../maps/fallhaven_tavern.md) | – | changes map fallhaven_tavern<br>spawns monsters on fallhaven_nw |
 | <span id="stage-4"></span>4 | Umar told me about a group of traitors led by a veteran of the Guild. It seems he stole the Key of Luthor. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 3 | – |
 | <span id="stage-5"></span>5 | Umar went on to say that this team leader  was known as "Crackshot". He is probably also the responsible for a murder on the Duleian road. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 4 | – |
 | <span id="stage-10"></span>10 | Crackshot and his henchmen are probably hiding somewhere near the Duleian road. I must ask people there whether they have seen them. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 5 | – |
@@ -80,6 +81,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-50"></span>50 | Finally, this job is done. Now I should take a rest and regain my strength. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 45 | 7,500 XP<br>gives 4000× [Gold coins](../items/gold.md)<br>gives 10× [Mead](../items/mead.md)<br>faction “ThievesGuild” +20 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -194,6 +196,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -205,6 +208,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

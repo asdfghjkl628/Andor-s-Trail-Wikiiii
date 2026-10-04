@@ -1,15 +1,59 @@
 # ![](../assets/icons/items/items_japozero_238.png){ .sprite } Scroll of fire
-*Quest* · Other · value 0 gold
+
+*Quest other.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_japozero_238.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `final_cave_f` |
+| **Category** | Other |
+| **Rarity** | Quest |
+| **Base value** | 0 gold |
+| **Quest item** | Yes |
+| **Introduced** | [v0.8.11](../versions/0.8.11.md) |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Algangror](../monsters/lae_algangror3.md) | 100% | 1 | final_cave2 |
+| [Jhaeld](../monsters/lae_jhaeld3.md) | 100% | 1 | final_cave2 |
+
+### Found in containers
+
+- [island1](../maps/island1.md#container-0) (container 1, 100%)
+- [island1](../maps/island1.md#container-6) (container 7, 100%)
+- [island1](../maps/island1.md#container-9) (container 10, 100%)
+- [island1](../maps/island1.md#container-15) (container 16, 100%)
+
+### Quest & dialogue rewards
+
+- From walking into a blocked passage on [final_cave1](../maps/final_cave1.md) (1×)
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Algangror](../monsters/lae_algangror3.md) | 100% | 1 |
-| [Jhaeld](../monsters/lae_jhaeld3.md) | 100% | 1 |
+## Uses
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-1) | handed over (1×) | “The scroll of fire” |
+| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-3) | handed over (1×) | “The scroll of fire” |
+| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-5) | handed over (1×) | “The scroll of fire” |
+| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-7) | handed over (1×) | “The scroll of fire” |
+| walking into a blocked passage on [final_cave2](../maps/final_cave2.md) | [Not Pony Island](../quests/lae_centaurs.md#stage-210) | handed over (1×) | “The scroll of fire” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -19,4 +63,49 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `final_cave_f` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=final_cave_f.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=final_cave_f.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=final_cave_f.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=final_cave_f.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `final_cave_f` |
+    | Category ID | `other` |
+    | Icon | `items_japozero:238` |
+    | Defined in | `res/raw/itemlist_laeroth.json` |
+    | Loot tables containing it | `lae_fc1_1e1`, `lae_fc1_1e2`, `lae_fc1_1e3`, `lae_fc1_1e4`, `lae_algangror3` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "final_cave_f",
+     "iconID": "items_japozero:238",
+     "name": "Scroll of fire",
+     "displaytype": "quest",
+     "category": "other"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

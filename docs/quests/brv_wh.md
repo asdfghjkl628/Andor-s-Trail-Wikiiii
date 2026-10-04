@@ -25,6 +25,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +53,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | <span id="stage-900"></span>900 | I found all the 10 pairs. Facutloni is very happy. **(completes quest)** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | hand over 2× [Chandelier](../items/brv_wh_item_04.md), hand over 2× [Crystal globe](../items/brv_wh_item_00.md), hand over 2× [Dusty old book](../items/brv_wh_item_09.md), hand over 2× [Lyre](../items/brv_wh_item_02.md), hand over 2× [Mysterious green something](../items/brv_wh_item_05.md), hand over 2× [Old, worn cape](../items/brv_wh_item_06.md), hand over 2× [Plush pillow](../items/brv_wh_item_01.md), hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), hand over 2× [Striped hammer](../items/brv_wh_item_08.md), hand over 2× [Yellow boot](../items/brv_wh_item_03.md), stage 10, stage 100, stage 101, stage 102, stage 103, stage 104, stage 105, stage 106, stage 107, stage 108, stage 109 | 2,000 XP<br>sets stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -118,6 +120,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -127,6 +130,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

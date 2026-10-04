@@ -28,6 +28,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -62,6 +63,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 | <span id="stage-250"></span>250 | Tunlon was happy to see the fences I brought him. These should be just fine, he said. **(completes quest)** | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | hand over 10× [New fence](../items/tunlon_fence2.md), stage 200 | 5,000 XP<br>gives [Gold coins](../items/gold.md), [Specially peppered lamb meat](../items/lamb_meat2.md), [Red Pepper](../items/red_pepper.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -136,6 +138,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -144,6 +147,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 | [v0.8.11](../versions/0.8.11.md) | stage 12 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

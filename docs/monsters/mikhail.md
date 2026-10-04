@@ -1,23 +1,49 @@
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Mikhail
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_mage2_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `mikhail` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Crossglen, Flagstone Prison |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [home](../maps/home.md)
-- [waytogalmore0](../maps/waytogalmore0.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [home](../maps/home.md) | Crossglen | 1 | – |
+| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | – |
+
 
 ## Quests
 
@@ -392,7 +418,7 @@ Set up your situation (quest stages, items, kills…), then talk to Mikhail. The
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Oh you did? Wow, thanks a lot for your help! If you are hurt, use you…” → “Oh you did? Wow, thanks a lot for your help! Please take Andor's trai…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”<br>· text: “Thank you my son. Keep on searching for Andor.” → “Thank you my child. Keep on searching for Andor.” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |
@@ -403,6 +429,7 @@ Set up your situation (quest stages, items, kills…), then talk to Mikhail. The
 | [v0.8.15](../versions/0.8.15.md) | horizontalFlipChance added (100) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -425,4 +452,32 @@ Set up your situation (quest stages, items, kills…), then talk to Mikhail. The
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mikhail.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `mikhail` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `mikhail` |
+    | Spawn group | `mikhail` |
+    | Loot table | – |
+    | Conversation | `mikhail_start_select` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage2:0` |
+    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "mikhail",
+     "name": "Mikhail",
+     "iconID": "monsters_mage2:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "mikhail",
+     "phraseID": "mikhail_start_select",
+     "horizontalFlipChance": 100
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

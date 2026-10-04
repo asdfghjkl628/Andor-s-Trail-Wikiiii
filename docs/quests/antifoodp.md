@@ -24,6 +24,7 @@ None: talk to [Tharal](../monsters/tharal.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -42,6 +43,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-40"></span>40 | I can bring him more ingredients if I want him to create more antidote potions in the future. **(completes quest)** | [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | stage 35 | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -73,6 +75,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -81,6 +84,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

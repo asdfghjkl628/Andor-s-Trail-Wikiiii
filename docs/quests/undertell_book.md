@@ -27,6 +27,7 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +53,7 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 | <span id="stage-90"></span>90 | I returned to Arcir with what I learned about the Elytharan dead and the omissions in the history of Undertell. **(completes quest)** | [Arcir](../monsters/arcir.md) | stage 80 | 6,666 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -93,6 +95,7 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -100,6 +103,7 @@ Start with stepping on a trigger on [undertell_exit](../maps/undertell_exit.md).
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 10 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

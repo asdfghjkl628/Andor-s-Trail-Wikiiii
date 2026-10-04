@@ -1,32 +1,50 @@
 # ![](../assets/icons/items/items_japozero_591.png){ .sprite } Lich dust
-*Rare* · Other · value 0 gold
+
+*Rare other.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_japozero_591.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `lich_dust` |
+| **Category** | Other |
+| **Rarity** | Rare |
+| **Base value** | 0 gold |
+| **Introduced** | [v0.8.18](../versions/0.8.18.md) |
+
+</div>
 
 > A fine grey-blue dust left behind by powerful undead, faintly warm to the touch and resistant to decay.
 
+## How to get it
 
-## Dropped by
+### Dropped by
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 11% | 1 |
-| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 11% | 1 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_plague.md) | 11% | 1 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_liches.md) | 11% | 1 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 11% | 1 |
-| [Dreadstaff lich](../monsters/dreadblade.md) | 10% | 1 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_plague.md) | 10% | 1 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_liches.md) | 10% | 1 |
-| [Plague-Lich](../monsters/plague_lich.md) | 9% | 1 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 9% | 1 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder_help_liches.md) | 9% | 1 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 8% | 1 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_plague.md) | 8% | 1 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_liches.md) | 8% | 1 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_others.md) | 8% | 1 |
-| [Drybone lich](../monsters/drybone_lich.md) | 5% | 1 |
-| [Drybone lich](../monsters/drybone_lich_help_liches.md) | 5% | 1 |
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 11% | 1 | undertell_4_01, undertell_5 |
+| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_plague.md) | 11% | 1 | undertell_4_00, undertell_4_10, undertell_4_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_liches.md) | 11% | 1 | undertell_4_00, undertell_4_11, undertell_7_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
+| [Dreadstaff lich](../monsters/dreadblade.md) | 10% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
+| [Dreadstaff lich](../monsters/dreadstaff_help_plague.md) | 10% | 1 | undertell_3_lava_01, undertell_3_lava_10 |
+| [Dreadstaff lich](../monsters/dreadstaff_help_liches.md) | 10% | 1 | undertell_3_lava_00 |
+| [Plague-Lich](../monsters/plague_lich.md) | 9% | 1 | undertell_10, undertell_11, undertell_21 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 9% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder_help_liches.md) | 9% | 1 | undertell_3_lava_00 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 8% | 1 | undertell_11, undertell_12, undertell_21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_plague.md) | 8% | 1 | undertell_10, undertell_11, undertell_21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_liches.md) | 8% | 1 | undertell_00, undertell_10, undertell_12 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_others.md) | 8% | 1 | undertell_11 |
+| [Drybone lich](../monsters/drybone_lich.md) | 5% | 1 | undertell_00, undertell_10, undertell_11 |
+| [Drybone lich](../monsters/drybone_lich_help_liches.md) | 5% | 1 | – |
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -36,4 +54,52 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `lich_dust` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `lich_dust` |
+    | Category ID | `other` |
+    | Icon | `items_japozero:591` |
+    | Defined in | `res/raw/itemlist_undertell.json` |
+    | Loot tables containing it | `drybone_lich_dl`, `marshal_lich_dl`, `plague_lich_dl`, `hexbinder_lich_dl`, `dreadblade_lich_dl`, `undertell_level4_lich_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lich_dust",
+     "iconID": "items_japozero:591",
+     "name": "Lich dust",
+     "displaytype": "rare",
+     "hasManualPrice": 1,
+     "baseMarketCost": 0,
+     "category": "other",
+     "description": "A fine grey-blue dust left behind by powerful undead, faintly warm to the touch and resistant to decay."
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

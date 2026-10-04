@@ -1,37 +1,92 @@
 # ![](../assets/icons/items/items_misc_3.png){ .sprite } Sharpened gem
-*Ordinary* · Gem · value 13 gold
+
+*Ordinary gem.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_misc_3.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `gem4` |
+| **Category** | Gem |
+| **Rarity** | Ordinary |
+| **Base value** | 13 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Undead warden](../monsters/undead_warden.md) | 100% | 1 | Flagstone Prison |
+| [Cave guardian](../monsters/cave_guardian.md) | 100% | 1 | Flagstone Prison |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | flagstone4 |
+| [Pack leader](../monsters/pack_leader.md) | 100% | 1 | clearing_level2 |
+| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1 | waytobrimhavencave3a |
+| [Algangror](../monsters/algangror.md) | 100% | 1 | lonelyhouse0 |
+| [Madame Mim](../monsters/swamp_witch_shop.md) | 100% | 1-5 | swamp_hut |
+| [Embergeist](../monsters/embergeist.md) | 100% | 1-2 | Mt. Galmore |
+| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
+| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
+| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 20% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Restless apparition](../monsters/restless_apparition.md) | 10% | 1 | Prim |
+| [Skeletal reaper](../monsters/skeletal_reaper.md) | 10% | 1 | Prim |
+| [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 | Blackwater Mountain |
+| [Pack hunter](../monsters/pack_hunter.md) | 5% | 1 | clearing_level2 |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5% | 0-1 | elm5f_2, elm_2f_1, elm_3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5% | 0-1 | elm5f_2, elm_2f_1, elm_3f |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 5% | 1-2 | Brightport, Buried citadel |
+| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 5% | 1-2 | Buried citadel, Brightport |
+
+### Sold by
+
+- [Prowling Arantxa](../monsters/sullengard_arantxa.md) (Sullengard)
+- [Madame Mim](../monsters/swamp_witch.md) (swamp_hut)
+
+### Found in containers
+
+- [arulirmountain2](../maps/arulirmountain2.md#container-0) (container 1, 100%)
+- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-2) (container 3, 50%), Prim
+- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 10%)
+- [island1](../maps/island1.md#container-8) (container 9, 33%)
+- [island1](../maps/island1.md#container-12) (container 13, 100%)
+- [island2](../maps/island2.md#container-3) (container 4, 100%)
+- [island2](../maps/island2.md#container-7) (container 8, 100%)
+- [island2](../maps/island2.md#container-8) (container 9, 33%)
+- [island2](../maps/island2.md#container-10) (container 11, 100%)
+- [island2](../maps/island2.md#container-12) (container 13, 100%)
+- [island2](../maps/island2.md#container-13) (container 14, 100%)
+- [island3](../maps/island3.md#container-8) (container 9, 33%)
+- [island3](../maps/island3.md#container-12) (container 13, 100%)
+- [island4](../maps/island4.md#container-7) (container 8, 100%)
+- [island4](../maps/island4.md#container-8) (container 9, 33%)
+- [island4](../maps/island4.md#container-10) (container 11, 100%)
+- [island4](../maps/island4.md#container-12) (container 13, 100%)
+- [island4](../maps/island4.md#container-13) (container 14, 100%)
+- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
+
+### Quest & dialogue rewards
+
+- From stepping on a trigger on [waytolake6](../maps/waytolake6.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-30) (1×)
+- From stepping on a trigger on [arulircave5](../maps/arulircave5.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) (80%)
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Undead warden](../monsters/undead_warden.md) | 100% | 1 |
-| [Cave guardian](../monsters/cave_guardian.md) | 100% | 1 |
-| [Winged demon](../monsters/winged_demon.md) | 100% | 1 |
-| [Pack leader](../monsters/pack_leader.md) | 100% | 1 |
-| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1 |
-| [Algangror](../monsters/algangror.md) | 100% | 1 |
-| [Madame Mim](../monsters/swamp_witch_shop.md) | 100% | 1-5 |
-| [Embergeist](../monsters/embergeist.md) | 100% | 1-2 |
-| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1 |
-| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1 |
-| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 20% | 1 |
-| [Restless apparition](../monsters/restless_apparition.md) | 10% | 1 |
-| [Skeletal reaper](../monsters/skeletal_reaper.md) | 10% | 1 |
-| [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 |
-| [Pack hunter](../monsters/pack_hunter.md) | 5% | 1 |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5% | 0-1 |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5% | 0-1 |
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 5% | 1-2 |
-| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 5% | 1-2 |
+## Uses
 
-## Sold by
+Where the game checks for this item in dialogue:
 
-- [Prowling Arantxa](../monsters/sullengard_arantxa.md)
-- [Madame Mim](../monsters/swamp_witch.md)
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Sharpened gem]” |
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -41,4 +96,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `gem4` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem4.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem4.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem4.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem4.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `gem4` |
+    | Category ID | `gem` |
+    | Icon | `items_misc:3` |
+    | Defined in | `res/raw/itemlist_junk.json` |
+    | Loot tables containing it | `pack_boss`, `pack3`, `flagstone_guard2`, `flagstone_guard1`, `flagstone_guard0`, `kazaul_1`, `restless_dead_2`, `mwolf_b`, `allaceph_b`, `toszylae_guard`, `algangror`, `arulircave_secretloot`, `arulir_gem3`, `elm_fiend`, `elm2f2_chest`, `sullengard_arantxa_dl`, `korhald_gems`, `lae_fc1_1x3`, `lae_fc1_1x4`, `lae_fc1_2x3`, `lae_fc1_2x4`, `lae_fc1_3x3`, `lae_fc1_3x4`, `lae_fc1_4x3`, `lae_fc1_4x4`, `lae_fc1_2y1`, `lae_fc1_2y2`, `lae_fc1_2y3`, `lae_fc1_2y4`, `lae_fc1_4y2`, `lae_fc1_4y3`, `lae_fc1_4y4`, `swamp_witch`, `swamp_witch_shop`, `embergeist_dl`, `prim_treasure_8`, `brightport_redlizard` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gem4",
+     "iconID": "items_misc:3",
+     "name": "Sharpened gem",
+     "hasManualPrice": 1,
+     "baseMarketCost": 13,
+     "category": "gem"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

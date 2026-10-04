@@ -1,10 +1,27 @@
 # ![](../assets/icons/items/items_weapons_1.png){ .sprite } Massive two-handed sword
-*Ordinary* · Two-handed sword · value 767 gold
 
-**Slot:** weapon · **Size:** large
+*Ordinary two-handed sword.*
 
+<div class="infobox" markdown>
 
-## When equipped
+<p class="ib-img">![](../../assets/icons/items/items_weapons_1.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `clmr_msv` |
+| **Category** | Two-handed sword |
+| **Slot** | weapon |
+| **Hands** | Two-handed |
+| **Proficiency** | Two-handed sword |
+| **Rarity** | Ordinary |
+| **Base value** | 767 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When equipped
 
 | Stat | Value |
 |---|---|
@@ -16,13 +33,19 @@
 | Critical multiplier | 1.5 |
 | setNonWeaponDamageModifier | +175 |
 
-## Sold by
-
-- [Vilegard smith](../monsters/vilegard_smith.md)
-- [Truric](../monsters/truric.md)
-- [Fiamma](../monsters/brightportsmith.md)
-
 <p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Sold by
+
+- [Vilegard smith](../monsters/vilegard_smith.md) (Vilegard)
+- [Truric](../monsters/truric.md) (Brimhaven)
+- [Fiamma](../monsters/brightportsmith.md) (Brightport)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -34,4 +57,61 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `clmr_msv` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=clmr_msv.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=clmr_msv.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=clmr_msv.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=clmr_msv.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `clmr_msv` |
+    | Category ID | `2hsword` |
+    | Icon | `items_weapons:1` |
+    | Defined in | `res/raw/itemlist_v070.json` |
+    | Loot tables containing it | `shop_vg_smith`, `truric`, `fiamma_shop` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "clmr_msv",
+     "iconID": "items_weapons:1",
+     "name": "Massive two-handed sword",
+     "baseMarketCost": 767,
+     "category": "2hsword",
+     "equipEffect": {
+      "increaseAttackDamage": {
+       "min": 1,
+       "max": 6
+      },
+      "increaseAttackCost": 6,
+      "increaseAttackChance": 21,
+      "increaseCriticalSkill": 1,
+      "increaseBlockChance": -4,
+      "setCriticalMultiplier": 1.5,
+      "setNonWeaponDamageModifier": 175
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

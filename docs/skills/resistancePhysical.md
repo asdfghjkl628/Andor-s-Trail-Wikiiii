@@ -22,6 +22,7 @@ Lowers the chance of being afflicted with conditions affecting your physical cap
 No requirements: any skill point can go here.
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Unlocks
 
 - [Rejuvenation](rejuvenation.md): needs this skill at level 3

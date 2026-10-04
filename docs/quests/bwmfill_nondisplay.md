@@ -30,6 +30,7 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +52,7 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 | <span id="stage-44"></span>44 | Killed Tunlon's sheep detected<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Bwmfill3](../maps/bwmfill3.md).</span> | stepping on a trigger on [bwmfill3](../maps/bwmfill3.md)<br>[Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | – | removes monsters from bwmfill3<br>spawns monsters on bwmfill3 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -80,6 +82,7 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -89,6 +92,7 @@ Start with stepping on a trigger on [brimhaven4](../maps/brimhaven4.md). Require
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

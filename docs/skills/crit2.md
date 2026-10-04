@@ -24,6 +24,7 @@ For every critical hit made, there is a 50 % chance that the hit will fracture s
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Trivia**: real-world facts, references, development history</small>

@@ -25,6 +25,7 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -53,6 +54,7 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 | <span id="stage-90"></span>90 | The guard captain thanked me for helping him plan to catch the thieves. He said he will also tell other guards that I helped him. **(completes quest)** | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | stage 50, stage 80 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -104,6 +106,7 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -114,6 +117,7 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Oh you did? Well done. You have my thanks, friend.” → “That's very useful information. Well done. You have my thanks, friend.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

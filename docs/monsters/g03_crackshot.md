@@ -1,22 +1,46 @@
 # ![](../assets/icons/monsters/monsters_ld1_80.png){ .sprite } Crackshot
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_80.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `g03_crackshot` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 133 |
+| **XP when killed** | 271 |
+| **Found in** | crackshot_hideout3 |
+| **Introduced** | [v0.7.8](../versions/0.7.8.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 133 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 5 |
 | Damage | 5 to 11 |
 | Attack chance | 110 |
 | Block chance | 100 |
 | Damage resistance | 4 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 20 |
 | Critical multiplier | 3.0 |
+| Crit chance | 15% |
 
-## On hit
+**On hit:** On self: Combo (magnitude 1, 1 rounds, 25% chance)
 
-- **On self:** Combo (magnitude 1, 1 rounds, 25% chance)
+**When hit:** On self: Concentration (magnitude 1, 2 rounds, 33% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -27,9 +51,19 @@
 | [Yatagan](../items/sword_g03_crackshot.md) | 100% | 1 |
 | [Key of Luthor](../items/g03_luthor.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [crackshot_hideout3](../maps/crackshot_hideout3.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | 1 | – |
+
+
+## Quests that count kills
+
+- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-90) with [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) checks that you've killed at least 1
+- [The ruthless Crackshot](../quests/Thieves03.md#stage-35) with stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) checks that you've killed at least 1
+- A conversation with stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) checks that you've killed at least 1
+
 
 ## Dialogue simulator
 
@@ -77,6 +111,7 @@ Set up your situation (quest stages, items, kills…), then talk to Crackshot. T
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -98,4 +133,68 @@ Set up your situation (quest stages, items, kills…), then talk to Crackshot. T
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=g03_crackshot.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `g03_crackshot` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `g03_crackshot` |
+    | Spawn group | `g03_crackshot` |
+    | Loot table | `drop_g03_crackshot` |
+    | Conversation | `guild03_crackshot_1` |
+    | Faction | `crackshot` |
+    | Movement | protectSpawn |
+    | Icon | `monsters_ld1:80` |
+    | Defined in | `res/raw/monsterlist_omicronrg9.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "g03_crackshot",
+     "name": "Crackshot",
+     "iconID": "monsters_ld1:80",
+     "maxHP": 133,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 5,
+      "max": 11
+     },
+     "spawnGroup": "g03_crackshot",
+     "faction": "crackshot",
+     "phraseID": "guild03_crackshot_1",
+     "droplistID": "drop_g03_crackshot",
+     "attackCost": 5,
+     "attackChance": 110,
+     "criticalSkill": 20,
+     "criticalMultiplier": 3.0,
+     "blockChance": 100,
+     "damageResistance": 4,
+     "hitEffect": {
+      "conditionsSource": [
+       {
+        "condition": "g03_combo",
+        "magnitude": 1,
+        "duration": 1,
+        "chance": "25"
+       }
+      ]
+     },
+     "hitReceivedEffect": {
+      "conditionsSource": [
+       {
+        "condition": "g03_concentration",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "33"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

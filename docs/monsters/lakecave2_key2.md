@@ -1,18 +1,67 @@
 # ![](../assets/icons/monsters/items_japozero_387.png){ .sprite } Glade key
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/items_japozero_387.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `lakecave2_key2` |
+| **Type** | NPC |
+| **Class** | ? |
+| **HP** | 1 |
+| **Introduced** | [v0.7.2](../versions/0.7.2.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ? |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
 
 
-<small>Monster ID: `lakecave2_key2` · Data from v0.8.18</small>
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `lakecave2_key2` |
+    | Spawn group | `lakecave2_key2` |
+    | Loot table | – |
+    | Conversation | `lakecave2_key_found` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `items_japozero:387` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lakecave2_key2",
+     "name": "Glade key",
+     "iconID": "items_japozero:387",
+     "unique": 1,
+     "spawnGroup": "lakecave2_key2",
+     "phraseID": "lakecave2_key_found"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

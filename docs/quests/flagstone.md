@@ -34,6 +34,7 @@ Start with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -60,6 +61,7 @@ Start with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford
 | <span id="stage-100"></span>100 | Yolgen rewarded me handsomely for my efforts and is happy that there is one thing less the citizens of Stoutford have to worry about. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 60 | 3,000 XP<br>removes monsters from flagstone4<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -107,6 +109,7 @@ Start with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -116,6 +119,7 @@ Start with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford
 | [v0.7.11](../versions/0.7.11.md) | stage 31 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

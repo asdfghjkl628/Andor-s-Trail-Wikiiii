@@ -25,6 +25,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,6 +48,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 | <span id="stage-60"></span>60 | Now the woodcutter has cleared away all the trees that blocked the path. Finally, the townsfolk have got back their shortcut to the Duleian Road! **(completes quest)** | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) | stage 50 | 700 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -82,6 +84,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -91,6 +94,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed<br>· text: “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” → “OK, maybe you can be of use. Talk to the guard captain. Maybe you can…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

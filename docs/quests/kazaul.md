@@ -25,6 +25,7 @@ None: talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,6 +55,7 @@ None: talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps
 | <span id="stage-100"></span>100 | I had expected some form of appreciation from Throdna for helping him learn more about the ritual and for purifying the shrine. But he seemed more occupied with rambling on about Kazaul. I could not make out anything sane from his ramblings. **(completes quest)** | [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) | stage 41, stage 60 | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -121,14 +123,16 @@ None: talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 8 journal text changed; stage 10 journal text changed; stage 40 journal text changed; stage 50 journal text changed<br>Dialogue: 2 lines changed<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
+| [v0.7.2](../versions/0.7.2.md) | stage 8 journal text changed; stage 10 journal text changed; stage 40 journal text changed; stage 50 journal text changed<br>Dialogue: 2 lines changed<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …”<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

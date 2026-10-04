@@ -29,6 +29,7 @@ Every skill level increases damage potential of two-handed weapons with 30 % of 
 | 2 | 30 |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Unlocks
 
 - [Specialization: Two-handed weapon](specialization2hand.md): needs this skill at level 2

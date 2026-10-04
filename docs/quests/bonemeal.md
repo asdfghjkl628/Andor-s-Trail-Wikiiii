@@ -25,6 +25,7 @@ None: talk to [Leonid](../monsters/leonid.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +53,7 @@ None: talk to [Leonid](../monsters/leonid.md) to begin.
 | <span id="stage-110"></span>110 | I have brought the bones to Thoronir. Of course he wouldn't produce any bonemeal potion from them though, since Lord Geomyr has banned their use. **(completes quest)** | [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | hand over 5× [Bone](../items/bone.md), stage 30, stage 50 | 900 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -87,6 +89,7 @@ None: talk to [Leonid](../monsters/leonid.md) to begin.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -96,6 +99,7 @@ None: talk to [Leonid](../monsters/leonid.md) to begin.
 | [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 50, 110<br>Dialogue: 2 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

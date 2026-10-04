@@ -28,6 +28,7 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -68,7 +69,7 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 | <span id="stage-97"></span>97 | I need to bring Vaelric the following ingredients in order for him to make his "Insectbane Tonic": five Duskbloom flowers, five Mosquito proboscises, ten bottles of swamp water and one sample of Mudfiend goo. | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | stage 95 | gives 10× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md) |
 | <span id="stage-100"></span>100 | I brought the ring back to Eryndor just to tell him that I've decided to keep it. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-110"></span>110 | When I refused to return the ring, Eryndor attacked me. | [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | carry 1× [Cursed ring of focus](../items/cursed_ring_focus.md), stage 70 | – |
-| <span id="stage-111"></span>111 | I defeated Eryndor and prevented the hauntings of Vaelric...for now, but I feel that they will resume someday.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore nw tower f2](../maps/mt_galmore_nw_tower_f2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore sw tower f2](../maps/mt_galmore_sw_tower_f2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore0 h1 2](../maps/mt_galmore0_h1_2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore0 h1](../maps/mt_galmore0_h1.md).</span> | stepping on a trigger on [mt_galmore0_h1](../maps/mt_galmore0_h1.md) | – | clears stage 15 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-15) |
+| <span id="stage-111"></span>111 | I defeated Eryndor and prevented the hauntings of Vaelric...for now, but I feel that they will resume someday.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore north-west tower f2](../maps/mt_galmore_nw_tower_f2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore south-west tower f2](../maps/mt_galmore_sw_tower_f2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore0 h1 2](../maps/mt_galmore0_h1_2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore0 h1](../maps/mt_galmore0_h1.md).</span> | stepping on a trigger on [mt_galmore0_h1](../maps/mt_galmore0_h1.md) | – | clears stage 15 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-15) |
 | <span id="stage-115"></span>115 | Vaelric is now able to mix up some Insectbane tonic for me. **(completes quest)** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | carry 10× [Pondslime extract](../items/pondslime_extract.md), carry 1× [Mudfiend goo](../items/mudfiend.md), carry 5× [Duskbloom](../items/duskbloom_flower.md), carry 5× [Mosquito proboscis](../items/mosquito_proboscis.md), have 4,800 gold, stage 97 | 6,000 XP |
 | <span id="stage-120"></span>120 | I've informed Vaelric that I defeated Eryndor but was not able to promise an end to the hauntings, Vaelric was dissatisfied with me and the outcome even going as far as saying that Andor is a better person than I am. **(completes quest)** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | stage 111 | 100 XP |
 | <span id="stage-123"></span>123 | Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, "Celdar" somewhere. Eryndor stated that Celdar is intolerant of fools and petty trades and wears a garish purple dress. | [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | stage 85 | gives 1× [Mysterious music box](../items/mg_music_box.md) |
@@ -78,6 +79,7 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -181,6 +183,7 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -191,6 +194,7 @@ Start with stepping on a trigger on [galmore_47](../maps/galmore_47.md). Require
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

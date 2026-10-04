@@ -40,6 +40,7 @@
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -48,6 +49,7 @@
 | [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 900 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

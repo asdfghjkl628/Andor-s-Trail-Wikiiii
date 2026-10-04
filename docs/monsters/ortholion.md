@@ -1,25 +1,51 @@
 # ![](../assets/icons/monsters/monsters_omi2_10.png){ .sprite } General Ortholion
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_10.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `ortholion` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Prim |
+| **Introduced** | [v0.7.14](../versions/0.7.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [blackwater_mountain29](../maps/blackwater_mountain29.md)
-- [blackwater_mountain43](../maps/blackwater_mountain43.md)
-- [elm5f_2](../maps/elm5f_2.md)
-- [elm_mine1](../maps/elm_mine1.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | appears later in a quest |
+| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | appears later in a quest |
+| [elm5f_2](../maps/elm5f_2.md) | – | 2 | appears later in a quest |
+| [elm_mine1](../maps/elm_mine1.md) | – | 1 | appears later in a quest |
+
 
 ## Quests
 
@@ -361,10 +387,11 @@ Set up your situation (quest stages, items, kills…), then talk to General Orth
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “A knight's only trusted escorts are his sword and his horse. I'm pret…” → “A knight's only trustworthy escorts are his sword and his horse. *get…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “[People from the tavern start looking at the place where Ortholion an…” → “[People from the tavern start looking at the place where Ortholion an…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…”<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -387,4 +414,33 @@ Set up your situation (quest stages, items, kills…), then talk to General Orth
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ortholion.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `ortholion` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `ortholion` |
+    | Spawn group | `ortholion` |
+    | Loot table | – |
+    | Conversation | `ortholion_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_omi2:10` |
+    | Defined in | `res/raw/monsterlist_omi2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ortholion",
+     "name": "General Ortholion",
+     "iconID": "monsters_omi2:10",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "ortholion",
+     "phraseID": "ortholion_selector"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

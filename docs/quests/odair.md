@@ -27,6 +27,7 @@ Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Re
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +47,7 @@ Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Re
 | <span id="stage-100"></span>100 | I have helped Odair clear out the rats in the supply cave in Crossglen village. **(completes quest)** | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) | hand over 1× [Cave rat tail](../items/tail_caverat.md), stage 10 | 400 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -61,6 +63,7 @@ Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Re
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -70,6 +73,7 @@ Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Re
 | [v0.7.10](../versions/0.7.10.md) | stage 100 XP 300 → 400<br>Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

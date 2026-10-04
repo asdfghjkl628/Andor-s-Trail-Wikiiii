@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 35 |
 | **Started by** | walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) |
-| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee_oc.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe2.md), [Godoe](../monsters/godoe1.md) +5 |
+| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee_oc.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md), [Godoe](../monsters/godoe2.md) +5 |
 | **Locations** | [beekeeper1](../maps/beekeeper1.md), [fallhaven_clothes](../maps/fallhaven_clothes.md), [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [guynmart_wood_18](../maps/guynmart_wood_18.md) |
 | **Total XP** | 1,101 |
 | **Related quests** | 3 |
@@ -31,6 +31,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -64,7 +65,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 | <span id="stage-6"></span>6 | Gamjee, the troll under the village of Wexlow has sent the villager back to Wexlow. | [Gamjee](../monsters/gamjee.md) ([gamjee_well_4_1](../maps/gamjee_well_4_1.md)) | – | removes monsters from gamjee_well_4_1<br>sets stage 12 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-12)<br>spawns monsters on wexlow_village |
 | <span id="stage-7"></span>7 | PC gave Godwin, a villager from Wexlow, his lost ring. [wrapper for 13, 14, 15] | [Godwin](../monsters/village_godwin.md) ([wexlow_village](../maps/wexlow_village.md)) | carry 1× [Godwin's ring](../items/godwin_ring.md), hand over 1× [Godwin's ring](../items/godwin_ring.md) | gives 2000× [Gold coins](../items/gold.md)<br>gives 3000× [Gold coins](../items/gold.md)<br>gives 100× [Gold coins](../items/gold.md) |
 | <span id="stage-8"></span>8 | PC learns that Rosmara sells fruits and vegetables | [Rosmara](../monsters/rosmara.md) ([wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md)) | – | – |
-| <span id="stage-9"></span>9 | PC can sleep in Wexlow Village.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wexlow village nw house](../maps/wexlow_village_nw_house.md).</span> | [Godelieve](../monsters/village_godelieve.md) ([wexlow_village_nw_house](../maps/wexlow_village_nw_house.md)) | – | – |
+| <span id="stage-9"></span>9 | PC can sleep in Wexlow Village.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wexlow village north-west house](../maps/wexlow_village_nw_house.md).</span> | [Godelieve](../monsters/village_godelieve.md) ([wexlow_village_nw_house](../maps/wexlow_village_nw_house.md)) | – | – |
 | <span id="stage-10"></span>10 | PC has learned what the beekeeper, Leofric does for work. | [Leofric](../monsters/leofric.md) ([beekeeper1](../maps/beekeeper1.md)) | – | – |
 | <span id="stage-11"></span>11 | In Wexlow Village, the PC has learned that there are missing residents. | walking into a blocked passage on [wexlow_village_n_house](../maps/wexlow_village_n_house.md)<br>walking into a blocked passage on [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md) | – | – |
 | <span id="stage-12"></span>12 | PC is not being patient while waiting for the Feydelight to be cooked. | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | – |
@@ -80,9 +81,9 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 | <span id="stage-62"></span>62 | 62=tried window | walking into a blocked passage on [catacombs1](../maps/catacombs1.md) | – | – |
 | <span id="stage-63"></span>63 | 63=church window unlocked | [Athamyr](../monsters/athamyr.md) | carry 20× [Cooked meat](../items/meat_cooked.md), hand over 20× [Cooked meat](../items/meat_cooked.md), stage 62 | clears stage 72 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-72) |
 | <span id="stage-65"></span>65 | 65=jewel taken | walking into a blocked passage on [fallhaven_clothes](../maps/fallhaven_clothes.md) | stage 66 | gives 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md) |
-| <span id="stage-66"></span>66 | 66=passed window towards tailor<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven ne](../maps/fallhaven_ne.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven clothes](../maps/fallhaven_clothes.md).</span> | stepping on a trigger on [fallhaven_ne](../maps/fallhaven_ne.md) | – | – |
+| <span id="stage-66"></span>66 | 66=passed window towards tailor<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven north-east](../maps/fallhaven_ne.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven clothes](../maps/fallhaven_clothes.md).</span> | stepping on a trigger on [fallhaven_ne](../maps/fallhaven_ne.md) | – | – |
 | <span id="stage-68"></span>68 | 68=seen<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven clothes](../maps/fallhaven_clothes.md).</span> | [Tailor](../monsters/tailor.md) ([fallhaven_clothes](../maps/fallhaven_clothes.md))<br>stepping on a trigger on [fallhaven_clothes](../maps/fallhaven_clothes.md)<br>walking into a blocked passage on [fallhaven_clothes](../maps/fallhaven_clothes.md) | stage 66 | – |
-| <span id="stage-69"></span>69 | 69=closed<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven clothes](../maps/fallhaven_clothes.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven ne](../maps/fallhaven_ne.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven nw](../maps/fallhaven_nw.md).</span> | stepping on a trigger on [fallhaven_clothes](../maps/fallhaven_clothes.md)<br>stepping on a trigger on [fallhaven_ne](../maps/fallhaven_ne.md) | carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md), stage 65 | clears stage 73 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-73) |
+| <span id="stage-69"></span>69 | 69=closed<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven clothes](../maps/fallhaven_clothes.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven north-east](../maps/fallhaven_ne.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven north-west](../maps/fallhaven_nw.md).</span> | stepping on a trigger on [fallhaven_clothes](../maps/fallhaven_clothes.md)<br>stepping on a trigger on [fallhaven_ne](../maps/fallhaven_ne.md) | carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md), stage 65 | clears stage 73 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-73) |
 | <span id="stage-71"></span>71 | 71=ladder place 1<br><span class="qnote">🗺️ Part of [Catacombs1](../maps/catacombs1.md) visibly changes.</span> | [Athamyr](../monsters/athamyr.md) | carry 10× [Cooked meat](../items/meat_cooked.md), hand over 10× [Cooked meat](../items/meat_cooked.md), stage 60 | – |
 | <span id="stage-72"></span>72 | 72=ladder place 2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Catacombs1](../maps/catacombs1.md).</span><br><span class="qnote">🗺️ Part of [Catacombs1](../maps/catacombs1.md) visibly changes.</span> | stepping on a trigger on [catacombs1](../maps/catacombs1.md) | stage 71 | clears stage 71 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-71) |
 | <span id="stage-73"></span>73 | 73=windows church unlocked from inside<br><span class="qnote">🔓 You can finally access a previously blocked area on [Catacombs1](../maps/catacombs1.md).</span><br><span class="qnote">🗺️ Part of [Catacombs1](../maps/catacombs1.md) visibly changes.</span><br><span class="qnote">🗺️ Part of [Fallhaven clothes](../maps/fallhaven_clothes.md) visibly changes.</span> | [Athamyr](../monsters/athamyr.md) | carry 20× [Cooked meat](../items/meat_cooked.md), hand over 20× [Cooked meat](../items/meat_cooked.md), stage 62 | clears stage 72 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-72) |
@@ -95,6 +96,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -247,6 +249,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -255,6 +258,7 @@ Start with walking into a blocked passage on [guynmart_wood_16](../maps/guynmart
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

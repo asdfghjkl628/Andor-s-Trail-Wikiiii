@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 197 |
 | **Started by** | [Othinus](../monsters/brightportpriest.md) ([brightport_temple](../maps/brightport_temple.md)) |
-| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard2.md), [Brightport guard](../monsters/brightportnorthguard.md), [Brightport guard](../monsters/brightport_guardcrate.md) +28 |
+| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportnorthguard.md), [Brightport guard](../monsters/brightport_guardcrate.md), [Brightport guard](../monsters/brightportguard2.md) +28 |
 | **Locations** | [brightport1](../maps/brightport1.md), [brightport4](../maps/brightport4.md), [brightport5](../maps/brightport5.md), [brightport_abandoned](../maps/brightport_abandoned.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 13 |
@@ -28,6 +28,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -302,6 +303,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -1242,14 +1244,16 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…” |
+| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

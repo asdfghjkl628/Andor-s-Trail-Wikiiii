@@ -1,26 +1,48 @@
 # ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } Kamelio
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_2.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `kamelio` |
+| **Type** | NPC |
+| **Class** | Demon |
+| **HP** | 177 |
+| **XP when killed** | 602 |
+| **Found in** | elm5f_2 |
+| **Immune to crits** | Yes |
+| **Introduced** | [v0.7.14](../versions/0.7.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 177 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 2 |
 | Damage | 17 to 20 |
 | Attack chance | 171 |
 | Block chance | 123 |
 | Damage resistance | 12 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 2 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0.0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
-## On hit
+**On hit:** Heal HP: 1 to 4; On target: Vulnerability (magnitude 7, 2 rounds, 10% chance)
 
-- **Heal HP:** 1 to 4
-- **On target:** Vulnerability (magnitude 7, 2 rounds, 10% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -31,9 +53,18 @@
 | [Spiked Gloves](../items/gauntlet_omi2_1.md) | 100% | 1 |
 | [Ruby gem](../items/gem2.md) | 20% | 1 to 100 |
 
-## Found on
+## Locations
 
-- [elm5f_2](../maps/elm5f_2.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [elm5f_2](../maps/elm5f_2.md) | – | 1 | appears later in a quest |
+
+
+## Quests that count kills
+
+- A conversation with [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) checks that you've killed at least 1
+- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-38) with stepping on a trigger on [elm5f_2](../maps/elm5f_2.md) checks that you've killed at least 1
+
 
 ## Quests
 
@@ -125,6 +156,7 @@ Set up your situation (quest stages, items, kills…), then talk to Kamelio. The
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -146,4 +178,60 @@ Set up your situation (quest stages, items, kills…), then talk to Kamelio. The
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kamelio.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `kamelio` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `kamelio` |
+    | Spawn group | `kamelio` |
+    | Loot table | `kamelio` |
+    | Conversation | `kamelio_s` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_tometik1:2` |
+    | Defined in | `res/raw/monsterlist_omi2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "kamelio",
+     "name": "Kamelio",
+     "iconID": "monsters_tometik1:2",
+     "maxHP": 177,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "demon",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 17,
+      "max": 20
+     },
+     "spawnGroup": "kamelio",
+     "phraseID": "kamelio_s",
+     "droplistID": "kamelio",
+     "attackCost": 3,
+     "attackChance": 171,
+     "criticalSkill": 0,
+     "criticalMultiplier": 0.0,
+     "blockChance": 123,
+     "damageResistance": 12,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 1,
+       "max": 4
+      },
+      "conditionsTarget": [
+       {
+        "condition": "vulnerability",
+        "magnitude": 7,
+        "duration": 2,
+        "chance": "10"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

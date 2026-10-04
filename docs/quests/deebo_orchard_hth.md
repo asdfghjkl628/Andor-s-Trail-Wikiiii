@@ -28,6 +28,7 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,6 +48,7 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 | <span id="stage-50"></span>50 | I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me. **(completes quest)** | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md), stage 40 | 10,000 XP<br>gives 1× [Golden jackal fur](../items/golden_jackal_fur.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -71,6 +73,7 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -78,6 +81,7 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 5 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

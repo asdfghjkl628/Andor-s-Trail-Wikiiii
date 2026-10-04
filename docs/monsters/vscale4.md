@@ -1,22 +1,44 @@
 # ![](../assets/icons/monsters/monsters_tometik4_17.png){ .sprite } Aggressive venomscale
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik4_17.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `vscale4` |
+| **Type** | Enemy |
+| **Class** | Reptile |
+| **HP** | 52 |
+| **XP when killed** | 268 |
+| **Found in** | lodar16, lodar17, lodar18 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | reptile |
 | HP | 52 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 4 to 6 |
 | Attack chance | 99 |
 | Block chance | 119 |
 | Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 100 |
 | Critical multiplier | 3.0 |
+| Crit chance | 39% |
 
-## On hit
+**On hit:** On target: Weak Poison (magnitude 2, 3 rounds, 30% chance)
 
-- **On target:** Weak Poison (magnitude 2, 3 rounds, 30% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -27,14 +49,17 @@
 | [Poison gland](../items/gland.md) | 5% | 1 |
 | [Venomscale scales](../items/venomscale.md) | 5% | 1 |
 
-## Found on
+## Locations
 
-- [lodar16](../maps/lodar16.md)
-- [lodar17](../maps/lodar17.md)
-- [lodar18](../maps/lodar18.md)
-- [lodar19](../maps/lodar19.md)
-- [lodar20](../maps/lodar20.md)
-- [lodar21](../maps/lodar21.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodar16](../maps/lodar16.md) | – | 2 | – |
+| [lodar17](../maps/lodar17.md) | – | 3 | – |
+| [lodar18](../maps/lodar18.md) | – | 4 | – |
+| [lodar19](../maps/lodar19.md) | – | 3 | – |
+| [lodar20](../maps/lodar20.md) | – | 4 | – |
+| [lodar21](../maps/lodar21.md) | – | 2 | – |
+
 
 ## Version history
 
@@ -45,4 +70,75 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `vscale4` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vscale4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vscale4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vscale4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vscale4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `vscale4` |
+    | Spawn group | `vscale2` |
+    | Loot table | `vscale` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik4:17` |
+    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "vscale4",
+     "name": "Aggressive venomscale",
+     "iconID": "monsters_tometik4:17",
+     "maxHP": 52,
+     "moveCost": 5,
+     "monsterClass": "reptile",
+     "attackDamage": {
+      "min": 4,
+      "max": 6
+     },
+     "spawnGroup": "vscale2",
+     "droplistID": "vscale",
+     "attackCost": 3,
+     "attackChance": 99,
+     "criticalSkill": 100,
+     "criticalMultiplier": 3.0,
+     "blockChance": 119,
+     "damageResistance": 2,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "poison_weak",
+        "magnitude": 2,
+        "duration": 3,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

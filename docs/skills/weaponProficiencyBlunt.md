@@ -25,6 +25,7 @@ For each skill level, increases attack chance of blunt weapons by 30 % of the it
 | 3 | Skill point |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.
 
 ## Relevant quest

@@ -1,93 +1,87 @@
 # ![](../assets/icons/items/actorconditions_1_60.png){ .sprite } Poison gland
-*Ordinary* · Animal part · value 15 gold
+
+*Ordinary animal part.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/actorconditions_1_60.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `gland` |
+| **Category** | Animal part |
+| **Rarity** | Ordinary |
+| **Base value** | 15 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 | galmore_28 |
+| [Grasslands snake](../monsters/grass_snake.md) | 30% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
+| [Tough grasslands snake](../monsters/grass_snake2.md) | 30% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
+| [Grasslands lizard](../monsters/grass_lizard.md) | 30% | 1 | Crossroads Guardhouse |
+| [Black grasslands lizard](../monsters/grass_lizard2.md) | 30% | 1 | Crossroads Guardhouse, Flagstone Prison |
+| [Poisonous river frog](../monsters/frog_3.md) | 30% | 1 | Guynmart Castle |
+| [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 30% | 1 | Sullengard |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 | way_to_sullengard_east9 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 30% | 1 | Deebo's Orchard |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 | way_to_sullengard_east1 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 | lodar16, lodar19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 | lodar17, lodar19 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
+| [ViridToxin dartmaw](../monsters/virid_toxin.md) | 8% | 1 | Flagstone Prison |
+| [Forest snake](../monsters/forest_snake.md) | 5% | 1 | Blackwater Mountain, Fallhaven |
+| [Young cave snake](../monsters/young_cave_snake.md) | 5% | 1 | Blackwater Mountain |
+| [Cave snake](../monsters/cave_snake.md) | 5% | 1 | Blackwater Mountain |
+| [Venomous cave snake](../monsters/venomous_cave_snake.md) | 5% | 1 | Brimhaven, Bloskelt + Roskelt, Entry |
+| [Tough cave snake](../monsters/tough_cave_snake.md) | 5% | 1 | Brimhaven, Bloskelt + Roskelt, Entry |
+| [Forest serpent](../monsters/forest_serpent.md) | 5% | 1 | Flagstone Prison, Fallhaven, Crossroads Guardhouse |
+| [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 5% | 1 | Guynmart Castle, Foaming Flask Tavern, Fallhaven |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 5% | 1 | Stoutford, Blackwater Mountain, Prim |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 5% | 1 | Blackwater Mountain |
+| [Tough venomfang](../monsters/tough_venomfang.md) | 5% | 1 | Blackwater Mountain, Flagstone Prison |
+| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 | lodar16, lodar20, lodar21 |
+| [Young venomscale](../monsters/vscale2.md) | 5% | 1 | lodar16, lodar20, lodar21 |
+| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 | lodar16, lodar20, lodar21 |
+| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 | lodar16, lodar17, lodar18 |
+| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 | lodar16, lodar17, lodar18 |
+| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 | lodar18, lodar19, lodar21 |
+| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 | lodar18, lodar19, lodar21 |
+| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 | lodar19 |
+| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
+| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
+| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
+| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
+| [Slippery Venomfang](../monsters/slippery_venomfang.md) | 5% | 0-2 | Blackwater Mountain |
+| [Noxious venomfang](../monsters/noxious_venomfang.md) | 5% | 0-2 | Blackwater Mountain |
+| [Big cave snake](../monsters/cavesnake4.md) | 5% | 1 | 4 wells, Roundlings |
+
+*…and 40 more.*
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 |
-| [Grasslands snake](../monsters/grass_snake.md) | 30% | 1 |
-| [Tough grasslands snake](../monsters/grass_snake2.md) | 30% | 1 |
-| [Grasslands lizard](../monsters/grass_lizard.md) | 30% | 1 |
-| [Black grasslands lizard](../monsters/grass_lizard2.md) | 30% | 1 |
-| [Poisonous river frog](../monsters/frog_3.md) | 30% | 1 |
-| [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 30% | 1 |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 |
-| [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 30% | 1 |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 |
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 |
-| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 |
-| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 |
-| [ViridToxin dartmaw](../monsters/virid_toxin.md) | 8% | 1 |
-| [Forest snake](../monsters/forest_snake.md) | 5% | 1 |
-| [Young cave snake](../monsters/young_cave_snake.md) | 5% | 1 |
-| [Cave snake](../monsters/cave_snake.md) | 5% | 1 |
-| [Venomous cave snake](../monsters/venomous_cave_snake.md) | 5% | 1 |
-| [Tough cave snake](../monsters/tough_cave_snake.md) | 5% | 1 |
-| [Forest serpent](../monsters/forest_serpent.md) | 5% | 1 |
-| [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 5% | 1 |
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 5% | 1 |
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 5% | 1 |
-| [Tough venomfang](../monsters/tough_venomfang.md) | 5% | 1 |
-| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 |
-| [Young venomscale](../monsters/vscale2.md) | 5% | 1 |
-| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 |
-| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 |
-| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 |
-| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 |
-| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 |
-| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 |
-| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 |
-| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 |
-| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 |
-| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 |
-| [Slippery Venomfang](../monsters/slippery_venomfang.md) | 5% | 0-2 |
-| [Noxious venomfang](../monsters/noxious_venomfang.md) | 5% | 0-2 |
-| [Big cave snake](../monsters/cavesnake4.md) | 5% | 1 |
-| [Nasty cave snake](../monsters/cavesnake5.md) | 5% | 1 |
-| [Vicious cave snake](../monsters/ratdom_m2a.md) | 5% | 1 |
-| [Malicious cave snake](../monsters/ratdom_m2b.md) | 5% | 1 |
-| [Malignant cave snake](../monsters/ratdom_m3a.md) | 5% | 1 |
-| [Nasty cave snake](../monsters/ratdom_m3b.md) | 5% | 1 |
-| [Pernicious cave snake](../monsters/ratdom_m4a.md) | 5% | 1 |
-| [Virulent cave snake](../monsters/ratdom_m4b.md) | 5% | 1 |
-| [Lazy snail](../monsters/ratdom_m5a.md) | 5% | 1 |
-| [Poisenous snail](../monsters/ratdom_m5b.md) | 5% | 1 |
-| [Elvedridge](../monsters/ratdom_m8a.md) | 5% | 1 |
-| [Dangerous elvedridge](../monsters/ratdom_m8b.md) | 5% | 1 |
-| [Cave teckel](../monsters/ratdom_m9b.md) | 5% | 1 |
-| [Cave wolf](../monsters/ratdom_m9c.md) | 5% | 1 |
-| [Poisonous caterpillar](../monsters/ratdom_m10a.md) | 5% | 1 |
-| [Biting caterpillar](../monsters/ratdom_m10b.md) | 5% | 1 |
-| [Young cave worm](../monsters/ratdom_m11a.md) | 5% | 1 |
-| [Angry cave worm](../monsters/ratdom_m11b.md) | 5% | 1 |
-| [Old cave worm](../monsters/ratdom_m11c.md) | 5% | 1 |
-| [Quick viper](../monsters/ratdom_m12a.md) | 5% | 1 |
-| [Nasty viper](../monsters/ratdom_m12b.md) | 5% | 1 |
-| [Young ViridToxin dartmaw](../monsters/young_virid_toxin.md) | 5% | 1 |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 5% | 1 |
-| [Puny plaguecrawler](../monsters/plaguesp_1.md) | 1% | 1 |
-| [Plaguecrawler](../monsters/plaguesp_2.md) | 1% | 1 |
-| [Tough plaguecrawler](../monsters/plaguesp_3.md) | 1% | 1 |
-| [Black plaguecrawler](../monsters/plaguesp_4.md) | 1% | 1 |
-| [Plaguestrider](../monsters/plaguesp_5.md) | 1% | 1 |
-| [Hardshell plaguestrider](../monsters/plaguesp_6.md) | 1% | 1 |
-| [Tough plaguestrider](../monsters/plaguesp_7.md) | 1% | 1 |
-| [Wooly plaguestrider](../monsters/plaguesp_8.md) | 1% | 1 |
-| [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 1% | 1 |
-| [Vile plaguestrider](../monsters/plaguesp_10.md) | 1% | 1 |
-| [Nesting plaguestrider](../monsters/plaguesp_11.md) | 1% | 1 |
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | 1% | 1 |
-| [Irdegh spawn](../monsters/irdegh_sp_1.md) | 1% | 1 |
-| [Irdegh spawn](../monsters/irdegh_sp_2.md) | 1% | 1 |
-| [Irdegh](../monsters/irdegh_1.md) | 1% | 1 |
-| [Venomous irdegh](../monsters/irdegh_2.md) | 1% | 1 |
-| [Piercing irdegh](../monsters/irdegh_3.md) | 1% | 1 |
-| [Ancient piercing irdegh](../monsters/irdegh_4.md) | 1% | 1 |
+## Uses
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Gruil](../monsters/gruil.md) | [Search for Andor](../quests/andor.md#stage-30) | handed over (1×) | “Here, I have a poison gland for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (1×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (1×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (5×) | “Here, I have enough of those ingredients for five potions.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for ten potions.” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -97,4 +91,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `gland` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gland.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gland.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gland.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gland.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `gland` |
+    | Category ID | `animal` |
+    | Icon | `actorconditions_1:60` |
+    | Defined in | `res/raw/itemlist_animal.json` |
+    | Loot tables containing it | `snake`, `snake2`, `cave_serpent`, `fieldcritter_2`, `fieldcritter_3`, `frog_3`, `irdegh_spawn`, `irdegh`, `irdegh_b`, `plaguespider`, `vscale`, `vscaleb`, `bwm_venomfang2`, `forest_snake_dl`, `yellow_tooth_dl`, `plague_groundberry_dl`, `young_virid_toxin_dl`, `virid_toxin_dl`, `burrowing_glow_worm_dl`, `venomous_swamp_creature_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gland",
+     "iconID": "actorconditions_1:60",
+     "name": "Poison gland",
+     "hasManualPrice": 1,
+     "baseMarketCost": 15,
+     "category": "animal"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

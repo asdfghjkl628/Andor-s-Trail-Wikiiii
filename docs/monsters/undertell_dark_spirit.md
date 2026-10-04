@@ -1,25 +1,50 @@
 # ![](../assets/icons/monsters/monsters_newb_1_686.png){ .sprite } Dark spirit
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_686.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `undertell_dark_spirit` |
+| **Type** | NPC |
+| **Class** | Demon |
+| **HP** | 509 |
+| **XP when killed** | 999 |
+| **Found in** | galmore_32 |
+| **Immune to crits** | Yes |
+| **Introduced** | [v0.8.14](../versions/0.8.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 509 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 3 |
 | Damage | 9 to 10 |
 | Attack chance | 155 |
 | Block chance | 142 |
 | Damage resistance | 6 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 3 AP |
 | Critical skill | 3 |
 | Critical multiplier | 2.0 |
+| Crit chance | 2% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
-## On hit
+**On hit:** Heal HP: 2 to 4
 
-- **Heal HP:** 2 to 4
+**When hit:** Heal HP: 5 to 8
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -29,9 +54,17 @@
 | [Tonic of blood](../items/tonic_of_blood.md) | 100% | 4 to 8 |
 | [Elytharan gloves](../items/elytharan_gloves.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [galmore_32](../maps/galmore_32.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [galmore_32](../maps/galmore_32.md) | – | 1 | appears later in a quest |
+
+
+## Quests that count kills
+
+- A conversation with stepping on a trigger on [galmore_32](../maps/galmore_32.md) checks that you've killed at least 1
+
 
 ## Quests
 
@@ -76,6 +109,7 @@ Set up your situation (quest stages, items, kills…), then talk to Dark spirit.
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -97,4 +131,56 @@ Set up your situation (quest stages, items, kills…), then talk to Dark spirit.
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=undertell_dark_spirit.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `undertell_dark_spirit` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `undertell_dark_spirit` |
+    | Spawn group | `undertell_dark_spirit` |
+    | Loot table | `undertell_dark_spirit_dl` |
+    | Conversation | `galmore_dark_spirit_selector` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_newb_1:686` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "undertell_dark_spirit",
+     "name": "Dark spirit",
+     "iconID": "monsters_newb_1:686",
+     "maxHP": 509,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "demon",
+     "attackDamage": {
+      "min": 9,
+      "max": 10
+     },
+     "phraseID": "galmore_dark_spirit_selector",
+     "droplistID": "undertell_dark_spirit_dl",
+     "attackCost": 3,
+     "attackChance": 155,
+     "criticalSkill": 3,
+     "criticalMultiplier": 2.0,
+     "blockChance": 142,
+     "damageResistance": 6,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 2,
+       "max": 4
+      }
+     },
+     "hitReceivedEffect": {
+      "increaseCurrentHP": {
+       "min": 5,
+       "max": 8
+      }
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

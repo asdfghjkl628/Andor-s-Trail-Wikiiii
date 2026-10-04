@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_tometik1_86.png){ .sprite } Forenza
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_86.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `forenza_waytobrimhaven3` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Brimhaven |
+| **Introduced** | [v0.8.11](../versions/0.8.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [waytobrimhaven3](../maps/waytobrimhaven3.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 1 | appears later in a quest |
+
 
 ## Quests
 
@@ -200,12 +226,13 @@ Set up your situation (quest stages, items, kills…), then talk to Forenza. The
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 31 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 4 lines changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…”<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 4 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
 | [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” → “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -228,4 +255,33 @@ Set up your situation (quest stages, items, kills…), then talk to Forenza. The
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza_waytobrimhaven3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `forenza_waytobrimhaven3` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `forenza_waytobrimhaven3` |
+    | Spawn group | `forenza_waytobrimhaven3` |
+    | Loot table | – |
+    | Conversation | `forenza_waytobrimhaven3_initial_phrase` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_tometik1:86` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "forenza_waytobrimhaven3",
+     "name": "Forenza",
+     "iconID": "monsters_tometik1:86",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "forenza_waytobrimhaven3",
+     "phraseID": "forenza_waytobrimhaven3_initial_phrase"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

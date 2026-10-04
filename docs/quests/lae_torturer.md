@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 80, 130) |
 | **Started by** | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner4a.md) |
-| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon9.md), [Dark watch](../monsters/lae_demon4b.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4a.md), [Laeroth prisoner](../monsters/lae_prisoner4.md) +1 |
+| **NPCs involved** | [Dark watch](../monsters/lae_demon9.md), [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon4b.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner4i.md), [Laeroth prisoner](../monsters/lae_prisoner4.md) +1 |
 | **Locations** | [laerothprison4](../maps/laerothprison4.md), [laerothprison7](../maps/laerothprison7.md) |
 | **Related quests** | 1 |
 
@@ -28,6 +28,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -66,6 +67,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -136,6 +138,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -144,6 +147,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](..
 | [v0.8.12.1](../versions/0.8.12.1.md) | stage 40 journal text changed; stage 100 journal text changed; stage 130 journal text changed<br>Dialogue: 1 line changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

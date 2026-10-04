@@ -1,23 +1,58 @@
 # ![](../assets/icons/items/items_weapons_14.png){ .sprite } Bjorgur's family dagger
-*Quest* · Dagger · value 0 gold
 
-**Slot:** weapon · **Size:** light
+*Quest dagger.*
 
+<div class="infobox" markdown>
 
-## When equipped
+<p class="ib-img">![](../../assets/icons/items/items_weapons_14.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `bjorgur_dagger` |
+| **Category** | Dagger |
+| **Slot** | weapon |
+| **Hands** | One-handed |
+| **Proficiency** | Dagger |
+| **Rarity** | Quest |
+| **Base value** | 0 gold |
+| **Quest item** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When equipped
 
 | Stat | Value |
 |---|---|
 | Attack cost | +5 |
 | setNonWeaponDamageModifier | +128 |
 
-## Dropped by
-
-| Monster | Chance | Qty |
-|---|---|---|
-| [Graverobber](../monsters/graverobber.md) | 100% | 1 |
-
 <p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+## Uses
+
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| reading a sign on [blackwater_mountain35](../maps/blackwater_mountain35.md) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-40) | handed over (1×) | “Place the dagger back into its original place.” |
+| [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-60) | handed over (1×) | “Yes. Here it is.” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -28,4 +63,55 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `bjorgur_dagger` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bjorgur_dagger.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bjorgur_dagger.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bjorgur_dagger.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bjorgur_dagger.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `bjorgur_dagger` |
+    | Category ID | `dagger` |
+    | Icon | `items_weapons:14` |
+    | Defined in | `res/raw/itemlist_v069_questitems.json` |
+    | Loot tables containing it | `bjorgur_bandit` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "bjorgur_dagger",
+     "iconID": "items_weapons:14",
+     "name": "Bjorgur's family dagger",
+     "displaytype": "quest",
+     "hasManualPrice": 1,
+     "baseMarketCost": 0,
+     "category": "dagger",
+     "equipEffect": {
+      "increaseAttackCost": 5,
+      "setNonWeaponDamageModifier": 128
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

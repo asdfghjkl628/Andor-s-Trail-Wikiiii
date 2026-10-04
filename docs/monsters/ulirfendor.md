@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Ulirfendor
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `ulirfendor` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 288 |
+| **XP when killed** | 421 |
+| **Found in** | waytobrimhavencave4 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 288 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 1 to 16 |
 | Attack chance | 70 |
 | Block chance | 60 |
 | Damage resistance | 6 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 30 |
 | Critical multiplier | 2.0 |
+| Crit chance | 19% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Minor vial of health](../items/health_minor.md) | 100% | 1 to 2 |
 | [Empty vial](../items/vial_empty2.md) | 100% | 3 to 5 |
 
-## Found on
+## Locations
 
-- [waytobrimhavencave4](../maps/waytobrimhavencave4.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -559,11 +586,12 @@ Set up your situation (quest stages, items, kills…), then talk to Ulirfendor. 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 34 lines changed<br>· text: “(He pulls out a leathery potion case from his backpack, and takes out…” → “[He pulls out a leathery potion case from his backpack, and takes out…”<br>· text: “(The cracks start to get larger and more dense along the surface, unt…” → “[The cracks start to get larger and more dense along the surface, unt…” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 34 lines changed<br>· text: “(He pulls out a leathery potion case from his backpack, and takes out…” → “[He pulls out a leathery potion case from his backpack, and takes out…”<br>· text: “That's good to hear. I hope that .. thing .. didn't have any permanen…” → “That's good to hear. I hope that ... thing ... didn't have any perman…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …”<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -586,4 +614,46 @@ Set up your situation (quest stages, items, kills…), then talk to Ulirfendor. 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ulirfendor.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `ulirfendor` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `ulirfendor` |
+    | Spawn group | `ulirfendor` |
+    | Loot table | `ulirfendor` |
+    | Conversation | `ulirfendor` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:84` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ulirfendor",
+     "name": "Ulirfendor",
+     "iconID": "monsters_rltiles1:84",
+     "maxHP": 288,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 1,
+      "max": 16
+     },
+     "spawnGroup": "ulirfendor",
+     "phraseID": "ulirfendor",
+     "droplistID": "ulirfendor",
+     "attackCost": 3,
+     "attackChance": 70,
+     "criticalSkill": 30,
+     "criticalMultiplier": 2.0,
+     "blockChance": 60,
+     "damageResistance": 6
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

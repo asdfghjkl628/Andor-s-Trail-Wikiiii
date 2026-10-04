@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 19 (completes at 57, 70, 80) |
 | **Started by** | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) |
-| **NPCs involved** | [Defy](../monsters/aidem_camp_defy.md), [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_base_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
+| **NPCs involved** | [Defy](../monsters/defy_wild6house.md), [Defy](../monsters/aidem_base_defy.md), [Defy](../monsters/aidem_camp_defy.md), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
 | **Locations** | [aidem_base_2](../maps/aidem_base_2.md), [aidem_camp](../maps/aidem_camp.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 51,385 |
 | **Related quests** | 6 |
@@ -28,6 +28,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -73,6 +74,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 | <span id="stage-80"></span>80 | I informed Troublemaker that Defy and his men are now dead. **(completes quest)** | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Defy's ring](../items/defy_ring.md), hand over 1× [Grabby's ring](../items/grabby_ring.md), hand over 1× [Greedy's ring](../items/greedy_ring.md), hand over 1× [Zachlanny ring](../items/zachlanny_ring.md), stage 76 | 16,888 XP<br>faction “factionCountThieves” set to 3 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -157,6 +159,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -167,6 +170,7 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 | [v0.8.14](../versions/0.8.14.md) | stage 50 journal text changed<br>Dialogue: 1 line changed<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

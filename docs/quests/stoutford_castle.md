@@ -30,6 +30,7 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -61,6 +62,7 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 | <span id="stage-70"></span>70 | I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10, stage 40 | 500 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -113,6 +115,7 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -121,6 +124,7 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 | [v0.7.11](../versions/0.7.11.md) | stage 12 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

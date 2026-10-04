@@ -29,6 +29,7 @@ Gain +1 health points (HP) on every round per skill level when no monsters are d
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Trivia**: real-world facts, references, development history</small>

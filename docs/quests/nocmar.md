@@ -30,6 +30,7 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -93,6 +94,7 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 | <span id="stage-200"></span>200 | Nocmar forged the heartsteel once again and rewarded me with a weapon type of my choice, reforged in the lost art. **(completes quest)**<br><span class="qnote">🔒 An area on [White house basement](../maps/white_house_basement.md) becomes blocked off.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [White house](../maps/white_house.md).</span> | [Nocmar](../monsters/nocmar.md) | stage 100 | 10,036 XP<br>gives 1× [Heartsteel blade breaker](../items/heartstone_blade_breaker.md)<br>gives 1× [Heartsteel claymore](../items/heartstone_2h_sword.md)<br>gives 1× [Heartsteel dagger](../items/heartstone_dagger.md)<br>gives 1× [Heartsteel trident](../items/heartstone_glaive.md)<br>gives 1× [Heartsteel greataxe](../items/heartstone_greataxe.md)<br>gives 1× [Heartsteel handaxe](../items/heartstone_handaxe.md)<br>gives 1× [Heartsteel mace](../items/heartstone_mace.md)<br>sets stage 38 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-38)<br>sets stage 39 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-39)<br>gives 1× [Heartsteel warblade](../items/heartstone_1h_sword.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -171,6 +173,7 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 **Completability:** From v0.7.0 to v0.8.17, this quest could not be completed: its final step needed Heartstone, which could not be obtained anywhere. It became completable in [v0.8.18](../versions/0.8.18.md).
@@ -184,6 +187,7 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 | [v0.8.18](../versions/0.8.18.md) | stages added: 40, 45, 48, 50, 60, 70, 80, 90, 100, 110; stage 30 journal text changed; stage 35 journal text changed; stage 200 journal text changed; stage 200 XP 1200 → 10036<br>Dialogue: 21 lines added, 2 lines changed<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

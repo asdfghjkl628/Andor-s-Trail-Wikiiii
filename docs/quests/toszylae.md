@@ -27,6 +27,7 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -55,6 +56,7 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 | <span id="stage-70"></span>70 | Ulirfendor was very happy to hear that I managed to defeat the lich. With the lich defeated, the people in the surrounding areas should be safe now. **(completes quest)** | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 60 | 20,000 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -110,6 +112,7 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -118,6 +121,7 @@ Start with [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../map
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…”<br>· text: “Regardless, it must be stopped, whatever it means. Maybe it refers to…” → “Regardless, it must be stopped, whatever it means. Maybe it refers to…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -1,21 +1,46 @@
 # ![](../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite } Kazaul guardian
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `kazaul_guardian` |
+| **Type** | NPC |
+| **Class** | Demon |
+| **HP** | 95 |
+| **XP when killed** | 175 |
+| **Found in** | blackwater_mountain42 |
+| **Immune to crits** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 95 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 5 |
 | Damage | 3 to 8 |
 | Attack chance | 70 |
 | Block chance | 90 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 40 |
 | Critical multiplier | 2.0 |
+| Crit chance | 23% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -26,9 +51,12 @@
 | [Regular potion of health](../items/health.md) | 100% | 2 |
 | [Shadow of the slayer](../items/shadow_slayer.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [blackwater_mountain42](../maps/blackwater_mountain42.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [blackwater_mountain42](../maps/blackwater_mountain42.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -71,9 +99,10 @@ Set up your situation (quest stages, items, kills…), then talk to Kazaul guard
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …”<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -96,4 +125,46 @@ Set up your situation (quest stages, items, kills…), then talk to Kazaul guard
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kazaul_guardian.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `kazaul_guardian` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `kazaul_guardian` |
+    | Spawn group | `kazaul_guardian` |
+    | Loot table | `kazaul_guardian` |
+    | Conversation | `kazaul_guardian` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:42` |
+    | Defined in | `res/raw/monsterlist_v069_monsters.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "kazaul_guardian",
+     "name": "Kazaul guardian",
+     "iconID": "monsters_rltiles1:42",
+     "maxHP": 95,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "demon",
+     "attackDamage": {
+      "min": 3,
+      "max": 8
+     },
+     "spawnGroup": "kazaul_guardian",
+     "phraseID": "kazaul_guardian",
+     "droplistID": "kazaul_guardian",
+     "attackCost": 5,
+     "attackChance": 70,
+     "criticalSkill": 40,
+     "criticalMultiplier": 2.0,
+     "blockChance": 90,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

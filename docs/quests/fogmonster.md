@@ -27,6 +27,7 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -55,6 +56,7 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 | <span id="stage-92"></span>92 | Madame Mim gave you a bottle of her swamp water. | [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) | – | 1,000 XP<br>gives 1× [Madame Mim's Medicine](../items/swampwitch_health.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -98,6 +100,7 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -105,6 +108,7 @@ Start with stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 12 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

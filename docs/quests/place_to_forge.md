@@ -30,6 +30,7 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,6 +64,7 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 | <span id="stage-60"></span>60 | I was able to finally give Nocmar back what was rightfully his...possession of his forge house. **(completes quest)** | [Nocmar](../monsters/nocmar.md) | hand over 1× [White house deed](../items/white_house_deed.md), hand over 1× [White house key](../items/white_house_key.md), stage 50 | 8,975 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -109,6 +111,7 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -116,6 +119,7 @@ Start with [Nocmar](../monsters/nocmar.md). Required:
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 8 lines added, 1 line changed<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

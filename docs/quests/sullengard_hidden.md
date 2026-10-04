@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lake_shore_road_9](../maps/lake_shore_road_9.md), [mywild20_houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
 | **Related quests** | 13 |
@@ -31,6 +31,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -122,6 +123,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -299,6 +301,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -312,6 +315,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | [v0.8.18](../versions/0.8.18.md) | stages added: 42; stage 1 journal text changed; stage 2 journal text changed; stage 3 journal text changed; stage 5 journal text changed; stage 20 journal text changed (+9 more)<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

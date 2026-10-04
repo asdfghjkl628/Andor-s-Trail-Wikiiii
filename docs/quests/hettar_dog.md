@@ -25,6 +25,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +47,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 | <span id="stage-90"></span>90 | I explained to Hettar that I killed Norry. Hettar broke down on the floor in agony. **(completes quest)** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 30 | 200 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -81,6 +83,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -89,6 +92,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 | [v0.7.15](../versions/0.7.15.md) | stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

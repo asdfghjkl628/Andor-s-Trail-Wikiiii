@@ -1,81 +1,118 @@
 # ![](../assets/icons/items/items_misc_44.png){ .sprite } Bone
-*Ordinary* · Animal part · value 2 gold
+
+*Ordinary animal part.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_misc_44.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `bone` |
+| **Category** | Animal part |
+| **Rarity** | Ordinary |
+| **Base value** | 2 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Keknazar](../monsters/keknazar.md) | 100% | 1-3 | Crossroads Guardhouse |
+| [Thukuzun](../monsters/thukuzun.md) | 100% | 2-8 | lostmine11 |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 0-4 | lodarcave4a |
+| [Zuul'khan](../monsters/zuul_khan9.md) | 100% | 1 | mushroom_m3_1 |
+| [Prim guard skeleton](../monsters/elm_miner4a.md) | 100% | 1-2 | elm5f_2 |
+| [Golden jackal](../monsters/golden_jackal.md) | 100% | 1 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
+| [Sleepy giant ogre](../monsters/mg2_troll.md) | 100% | 1 | galmore_18 |
+| [Kotheses](../monsters/kotheses.md) | 80% | 1-2 | laerothprison7 |
+| [Greater wight](../monsters/wight_greater.md) | 70% | 1 | laerothprison6, laerothprison7 |
+| [River troll](../monsters/rivertroll.md) | 50% | 3-5 | Flagstone Prison, Crossroads Guardhouse |
+| [Mazarth beast](../monsters/mazarth1.md) | 50% | 0-5 | Charwood |
+| [Tough mazarth beast](../monsters/mazarth2.md) | 50% | 0-5 | Charwood |
+| [Skeleton](../monsters/guynmart_skeleton.md) | 50% | 1 | Guynmart Castle |
+| [Skeleton](../monsters/guynmart_skeleton2.md) | 50% | 1 | Guynmart Castle |
+| [Skeletal warrior](../monsters/skeletal_warrior.md) | 30% | 1 | Flagstone Prison |
+| [Skeletal master](../monsters/skeletal_master.md) | 30% | 1 | Flagstone Prison |
+| [Skeleton](../monsters/skeleton.md) | 30% | 1 | Flagstone Prison |
+| [Bone warrior](../monsters/bone_warrior.md) | 30% | 1 | Flagstone Prison |
+| [Bone champion](../monsters/bone_champion.md) | 30% | 1 | Flagstone Prison, Loneford |
+| [Graveyard corpse](../monsters/graveyard_corpse.md) | 30% | 1-2 | graveyard1 |
+| [Lesser wight](../monsters/wight_lesser.md) | 30% | 1 | laerothprison6 |
+| [Lesser wight](../monsters/wight_lesser5.md) | 30% | 1 | laerothprison5 |
+| [Lesser wight](../monsters/wight_lesser5b.md) | 30% | 1 | laerothprison5 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 30% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 30% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster3.md) | 30% | 1 | crackshot_hideout4 |
+| [Harrowback](../monsters/harrowback.md) | 25% | 1-2 | Mt. Galmore |
+| [Mutated harrowback](../monsters/mutated_harrowback.md) | 25% | 1-2 | Mt. Galmore |
+| [Ridgehowler](../monsters/ridgehowler.md) | 25% | 1-2 | Mt. Galmore |
+| [Tough redfoot beast](../monsters/redft0.md) | 20% | 1-3 | Foaming Flask Tavern, Fallhaven, Charwood |
+| [Strong redfoot beast](../monsters/redft1.md) | 20% | 1-3 | Foaming Flask Tavern, Fallhaven, Charwood |
+| [Bloodthirsty redfoot beast](../monsters/redft2.md) | 20% | 1-3 | Foaming Flask Tavern, Fallhaven, Charwood |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 16.6667% | 1-3 | elm5f_1, elm5f_2, elm_4f_2 |
+| [Foul miner's skeleton](../monsters/elm_miner2.md) | 16.6667% | 1-3 | elm5f_1, elm5f_2, elm_4f_2 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 16.6667% | 1-3 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 16.6667% | 1-3 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 | Blackwater Mountain |
+| [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1 | Blackwater Mountain |
+| [White wyrm](../monsters/white_wyrm.md) | 10% | 1-2 | Blackwater Mountain |
+| [Young aulaeth](../monsters/young_aulaeth.md) | 10% | 1-3 | Blackwater Mountain |
+
+*…and 28 more.*
+
+### Found in containers
+
+- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 80%), Blackwater Mountain
+- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 80%), Blackwater Mountain
+- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 80%), Blackwater Mountain
+- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 80%), Blackwater Mountain
+- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 80%)
+- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 80%)
+- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 80%)
+- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 80%)
+- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 80%)
+- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 80%)
+- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 80%)
+- [bwmfill6](../maps/bwmfill6.md#container-0) (container 1, 15%), Blackwater Mountain
+- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 100%)
+- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 80%)
+- [elm_mine5](../maps/elm_mine5.md#container-1) (container 2, 100%)
+- [gamjee_well_1](../maps/gamjee_well_1.md#container-2) (container 3, 100%)
+- [guynmart_wood_3_hole](../maps/guynmart_wood_3_hole.md#container-0) (container 1, 100%), Guynmart Castle
+- [home](../maps/home.md#container-1) (container 2, 100%), Crossglen
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Keknazar](../monsters/keknazar.md) | 100% | 1-3 |
-| [Thukuzun](../monsters/thukuzun.md) | 100% | 2-8 |
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 0-4 |
-| [Zuul'khan](../monsters/zuul_khan9.md) | 100% | 1 |
-| [Prim guard skeleton](../monsters/elm_miner4a.md) | 100% | 1-2 |
-| [Golden jackal](../monsters/golden_jackal.md) | 100% | 1 |
-| [Sleepy giant ogre](../monsters/mg2_troll.md) | 100% | 1 |
-| [Kotheses](../monsters/kotheses.md) | 80% | 1-2 |
-| [Greater wight](../monsters/wight_greater.md) | 70% | 1 |
-| [River troll](../monsters/rivertroll.md) | 50% | 3-5 |
-| [Mazarth beast](../monsters/mazarth1.md) | 50% | 0-5 |
-| [Tough mazarth beast](../monsters/mazarth2.md) | 50% | 0-5 |
-| [Skeleton](../monsters/guynmart_skeleton.md) | 50% | 1 |
-| [Skeleton](../monsters/guynmart_skeleton2.md) | 50% | 1 |
-| [Skeletal warrior](../monsters/skeletal_warrior.md) | 30% | 1 |
-| [Skeletal master](../monsters/skeletal_master.md) | 30% | 1 |
-| [Skeleton](../monsters/skeleton.md) | 30% | 1 |
-| [Bone warrior](../monsters/bone_warrior.md) | 30% | 1 |
-| [Bone champion](../monsters/bone_champion.md) | 30% | 1 |
-| [Graveyard corpse](../monsters/graveyard_corpse.md) | 30% | 1-2 |
-| [Lesser wight](../monsters/wight_lesser.md) | 30% | 1 |
-| [Lesser wight](../monsters/wight_lesser5.md) | 30% | 1 |
-| [Lesser wight](../monsters/wight_lesser5b.md) | 30% | 1 |
-| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 30% | 1 |
-| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 30% | 1 |
-| [Luthor's skeleton guard](../monsters/tt_monster3.md) | 30% | 1 |
-| [Harrowback](../monsters/harrowback.md) | 25% | 1-2 |
-| [Mutated harrowback](../monsters/mutated_harrowback.md) | 25% | 1-2 |
-| [Ridgehowler](../monsters/ridgehowler.md) | 25% | 1-2 |
-| [Tough redfoot beast](../monsters/redft0.md) | 20% | 1-3 |
-| [Strong redfoot beast](../monsters/redft1.md) | 20% | 1-3 |
-| [Bloodthirsty redfoot beast](../monsters/redft2.md) | 20% | 1-3 |
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 16.6667% | 1-3 |
-| [Foul miner's skeleton](../monsters/elm_miner2.md) | 16.6667% | 1-3 |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 16.6667% | 1-3 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 16.6667% | 1-3 |
-| [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 |
-| [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1 |
-| [White wyrm](../monsters/white_wyrm.md) | 10% | 1-2 |
-| [Young aulaeth](../monsters/young_aulaeth.md) | 10% | 1-3 |
-| [Aulaeth](../monsters/aulaeth.md) | 10% | 1-3 |
-| [Strong aulaeth](../monsters/strong_aulaeth.md) | 10% | 1-3 |
-| [Wyrm trainer](../monsters/wyrm_trainer.md) | 10% | 1-2 |
-| [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 10% | 1-2 |
-| [Restless dead](../monsters/restless_dead.md) | 10% | 1 |
-| [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 |
-| [Restless apparition](../monsters/restless_apparition.md) | 10% | 1 |
-| [Skeletal reaper](../monsters/skeletal_reaper.md) | 10% | 1 |
-| [Young mountain brute](../monsters/mbrute_1.md) | 10% | 1 |
-| [Weak mountain brute](../monsters/mbrute_2.md) | 10% | 1 |
-| [Whitefur mountain brute](../monsters/mbrute_3.md) | 10% | 1 |
-| [Mountain brute](../monsters/mbrute_4.md) | 10% | 1 |
-| [Large mountain brute](../monsters/mbrute_5.md) | 10% | 1 |
-| [Fast mountain brute](../monsters/mbrute_6.md) | 10% | 1 |
-| [Quick mountain brute](../monsters/mbrute_7.md) | 10% | 1 |
-| [Aggressive mountain brute](../monsters/mbrute_8.md) | 10% | 1 |
-| [Strong mountain brute](../monsters/mbrute_9.md) | 10% | 1 |
-| [Tough mountain brute](../monsters/mbrute_10.md) | 10% | 1 |
-| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 |
-| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 |
-| [Cave gargoyle](../monsters/waterwaycavebeast.md) | 10% | 1 |
-| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 |
-| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 |
-| [Duleian mountain cat](../monsters/duleian_mountain_cat.md) | 10% | 1-2 |
-| [Duleian panther](../monsters/brightport_cat2.md) | 10% | 1-2 |
-| [Angry skeleton](../monsters/ratdom_skel_dance21.md) | 5% | 1 |
-| [Angry skeleton](../monsters/ratdom_skel_dance22.md) | 5% | 1 |
-| [Angry skeleton](../monsters/ratdom_skel_dance23.md) | 5% | 1 |
+## Uses
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | [Disallowed substance](../quests/bonemeal.md#stage-100) | handed over (5×) | “I have those bones for you.” |
+| [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | [Disallowed substance](../quests/bonemeal.md#stage-110) | handed over (5×) | “I have those bones for you.” |
+| [Talion](../monsters/talion.md) | [I have it in me](../quests/maggots.md#stage-40) | handed over (5×) | “Here you go.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (2×) | “I do have these here. Take them.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (2×) | “Let me check ... I do have two bones here with me. Take them.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (2×) | “Yes. Look at these.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (2×) | “How about these two?” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-165) | handed over (1×) | “How about this one?” |
+| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A bone.” |
+| stepping on a trigger on [crossglen_cave](../maps/crossglen_cave.md) | [Yellow is it](../quests/ratdom_quest.md#stage-100) | handed over (1×) | “What would happen if I put a bone into the hole?” |
+| walking into a blocked passage on [ratdom_maze_626](../maps/ratdom_maze_626.md) | – | must be carried (1×) | “Insert a bone into the hole.” |
+| stepping on a trigger on [home](../maps/home.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [home](../maps/home.md) | – | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw a bone into the well]” |
+| walking into a blocked passage on [debugmap](../maps/debugmap.md) | – | handed over (-5×) | “5 normal bones” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -85,4 +122,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `bone` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `bone` |
+    | Category ID | `animal` |
+    | Icon | `items_misc:44` |
+    | Defined in | `res/raw/itemlist_animal.json` |
+    | Loot tables containing it | `skeleton`, `skeleton2`, `skeleton3`, `restless_dead_1`, `restless_dead_2`, `wyrm_1`, `wyrm_2`, `wyrm_3`, `wyrm_4`, `aulaeth`, `keknazar`, `rivertroll`, `mbrute`, `mbrute_b`, `hirazinn`, `thukuzun`, `redft`, `mazarth`, `graveyardcorpse`, `waterwaycavebeast`, `guynmart_drp_skeleton`, `guynmart_drp_wood3hole`, `guildbrig_2`, `zuul_khan9`, `bwm73_drop`, `elm2_passage2`, `elm_drop2`, `elm_miner1`, `elm_miner2`, `elm_miner4a`, `sullengard_gj_drop`, `big_cat_dl`, `ratdom_startitems2`, `ratdom_skeleton_bone`, `bwmfill6_container`, `wight1`, `wight2`, `kotheses`, `gamjee_well_bone_dl`, `mg2_troll`, `harrowback_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "bone",
+     "iconID": "items_misc:44",
+     "name": "Bone",
+     "hasManualPrice": 1,
+     "baseMarketCost": 2,
+     "category": "animal"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

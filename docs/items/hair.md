@@ -1,68 +1,99 @@
 # ![](../assets/icons/items/items_misc_48.png){ .sprite } Animal hair
-*Ordinary* · Animal part · value 2 gold
+
+*Ordinary animal part.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_misc_48.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `hair` |
+| **Category** | Animal part |
+| **Rarity** | Ordinary |
+| **Base value** | 2 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 1 | Crossroads Guardhouse |
+| [Feygard scout](../monsters/ortholion_guard2.md) | 100% | 1-10 | Prim |
+| [Rabid boar](../monsters/rabid_boar.md) | 30% | 1 | Blackwater Mountain, Crossroads Guardhouse, Crossglen |
+| [Wild boar](../monsters/wild_boar.md) | 30% | 1 | Flagstone Prison, Blackwater Mountain, Fallhaven |
+| [Anklebiter](../monsters/anklebiter.md) | 30% | 1 | Crossroads Guardhouse, Flagstone Prison, Guynmart Castle |
+| [Pack leader](../monsters/pack_leader.md) | 30% | 1 | clearing_level2 |
+| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 | clearing_level2 |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 30% | 1 | Fallhaven |
+| [Fledgling wolf](../monsters/fledgling_wolf.md) | 30% | 1 | Fallhaven |
+| [Young wolf](../monsters/young_wolf.md) | 30% | 1 | Fallhaven |
+| [Hunting dog](../monsters/hunting_dog.md) | 30% | 1 | Fallhaven |
+| [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 30% | 1 | Foaming Flask Tavern |
+| [Vicious hound](../monsters/vicious_hound.md) | 30% | 1 | Foaming Flask Tavern, Stoutford, Prim |
+| [Mountain wolf pup](../monsters/mwolf_1.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Young mountain wolf](../monsters/mwolf_2.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Young mountain fox](../monsters/mwolf_3.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Mountain fox](../monsters/mwolf_4.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Ferocious mountain fox](../monsters/mwolf_5.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Rabid mountain wolf](../monsters/mwolf_6.md) | 30% | 1 | Lake Laeroth, Remgard |
+| [Strong mountain wolf](../monsters/mwolf_7.md) | 30% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Young forest fox](../monsters/forestfox2.md) | 30% | 1 | Fallhaven, Foaming Flask Tavern |
+| [Forest fox](../monsters/forestfox3.md) | 30% | 1 | Fallhaven, Foaming Flask Tavern |
+| [Small horned anklebiter](../monsters/anklebiter2.md) | 30% | 1 | Loneford |
+| [Young horned anklebiter](../monsters/anklebiter3.md) | 30% | 1 | Loneford |
+| [Fast horned anklebiter](../monsters/anklebiter4.md) | 30% | 1 | lodar15, lodar17, lodar19 |
+| [Tough horned anklebiter](../monsters/anklebiter5.md) | 30% | 1 | lodar15, lodar17, lodar19 |
+| [Strong horned anklebiter](../monsters/anklebiter6.md) | 30% | 1 | lodar15, lodar17, lodar19 |
+| [Steelhide horned anklebiter](../monsters/anklebiter7.md) | 30% | 1 | lodar15, lodar17, lodar21 |
+| [Ancient wolf](../monsters/lonely_wolf.md) | 20% | 1 | Foaming Flask Tavern |
+| [Young gornaud](../monsters/young_gornaud.md) | 10% | 1 | Stoutford, Blackwater Mountain, Prim |
+| [Gornaud](../monsters/gornaud.md) | 10% | 1 | Blackwater Mountain |
+| [Strong gornaud](../monsters/strong_gornaud.md) | 10% | 1 | Blackwater Mountain |
+| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
+| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
+| [Maonit troll](../monsters/maonit_1.md) | 10% | 1 | Lake Laeroth |
+| [Giant maonit troll](../monsters/maonit_2.md) | 10% | 1 | Lake Laeroth |
+| [Strong maonit troll](../monsters/maonit_3.md) | 10% | 1 | Lake Laeroth |
+| [Maonit brute](../monsters/maonit_4.md) | 10% | 1 | Lake Laeroth |
+| [Tough maonit brute](../monsters/maonit_5.md) | 10% | 1 | Lake Laeroth |
+
+*…and 10 more.*
+
+### Sold by
+
+- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Feygard scout](../monsters/ortholion_guard6.md) (Prim)
 
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 1 |
-| [Feygard scout](../monsters/ortholion_guard2.md) | 100% | 1-10 |
-| [Rabid boar](../monsters/rabid_boar.md) | 30% | 1 |
-| [Wild boar](../monsters/wild_boar.md) | 30% | 1 |
-| [Anklebiter](../monsters/anklebiter.md) | 30% | 1 |
-| [Pack leader](../monsters/pack_leader.md) | 30% | 1 |
-| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 |
-| [Rabid wolf](../monsters/rabid_wolf.md) | 30% | 1 |
-| [Fledgling wolf](../monsters/fledgling_wolf.md) | 30% | 1 |
-| [Young wolf](../monsters/young_wolf.md) | 30% | 1 |
-| [Hunting dog](../monsters/hunting_dog.md) | 30% | 1 |
-| [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 30% | 1 |
-| [Vicious hound](../monsters/vicious_hound.md) | 30% | 1 |
-| [Mountain wolf pup](../monsters/mwolf_1.md) | 30% | 1 |
-| [Young mountain wolf](../monsters/mwolf_2.md) | 30% | 1 |
-| [Young mountain fox](../monsters/mwolf_3.md) | 30% | 1 |
-| [Mountain fox](../monsters/mwolf_4.md) | 30% | 1 |
-| [Ferocious mountain fox](../monsters/mwolf_5.md) | 30% | 1 |
-| [Rabid mountain wolf](../monsters/mwolf_6.md) | 30% | 1 |
-| [Strong mountain wolf](../monsters/mwolf_7.md) | 30% | 1 |
-| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 |
-| [Young forest fox](../monsters/forestfox2.md) | 30% | 1 |
-| [Forest fox](../monsters/forestfox3.md) | 30% | 1 |
-| [Small horned anklebiter](../monsters/anklebiter2.md) | 30% | 1 |
-| [Young horned anklebiter](../monsters/anklebiter3.md) | 30% | 1 |
-| [Fast horned anklebiter](../monsters/anklebiter4.md) | 30% | 1 |
-| [Tough horned anklebiter](../monsters/anklebiter5.md) | 30% | 1 |
-| [Strong horned anklebiter](../monsters/anklebiter6.md) | 30% | 1 |
-| [Steelhide horned anklebiter](../monsters/anklebiter7.md) | 30% | 1 |
-| [Ancient wolf](../monsters/lonely_wolf.md) | 20% | 1 |
-| [Young gornaud](../monsters/young_gornaud.md) | 10% | 1 |
-| [Gornaud](../monsters/gornaud.md) | 10% | 1 |
-| [Strong gornaud](../monsters/strong_gornaud.md) | 10% | 1 |
-| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 |
-| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 |
-| [Maonit troll](../monsters/maonit_1.md) | 10% | 1 |
-| [Giant maonit troll](../monsters/maonit_2.md) | 10% | 1 |
-| [Strong maonit troll](../monsters/maonit_3.md) | 10% | 1 |
-| [Maonit brute](../monsters/maonit_4.md) | 10% | 1 |
-| [Tough maonit brute](../monsters/maonit_5.md) | 10% | 1 |
-| [Strong maonit brute](../monsters/maonit_6.md) | 10% | 1 |
-| [Arulir](../monsters/arulir_1.md) | 10% | 1 |
-| [Giant arulir](../monsters/arulir_2.md) | 10% | 1 |
-| [Cave Arulir](../monsters/arulir_3.md) | 10% | 1 |
-| [Giant Cave Arulir](../monsters/arulir_4.md) | 10% | 1 |
-| [Golden Arulir](../monsters/arulir_5.md) | 10% | 1 |
-| [Giant Golden Arulir](../monsters/arulir_6.md) | 10% | 1 |
-| [Azurite Gornaud](../monsters/gornaud_4.md) | 10% | 1 |
-| [Garnet Gornaud](../monsters/gornaud_5.md) | 10% | 1 |
-| [Nephrite Gornaud](../monsters/gornaud_6.md) | 10% | 1 |
+## Uses
 
-## Sold by
+Where the game checks for this item in dialogue:
 
-- [Alynndir](../monsters/alynndir.md)
-- [Feygard scout](../monsters/ortholion_guard6.md)
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Talion](../monsters/talion.md) | [I have it in me](../quests/maggots.md#stage-41) | handed over (2×) | “Here you go.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (2×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (2×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for five potions.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (20×) | “Here, I have enough of those ingredients for ten potions.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “I already have them right here. Take them.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “Here. Take these.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-80) | handed over (3×) | “I have these with me. Take them.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (3×) | “I think so. Here's what I found.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I happen to have some here. Take them.” |
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I think I do. Look at these.” |
+| stepping on a trigger on [loneford13](../maps/loneford13.md) | – | handed over (1×) | “[Throw a piece of animal hair?]” |
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -72,4 +103,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `hair` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=hair.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=hair.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=hair.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=hair.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `hair` |
+    | Category ID | `animal` |
+    | Icon | `items_misc:48` |
+    | Defined in | `res/raw/itemlist_animal.json` |
+    | Loot tables containing it | `canineboss`, `pack_boss`, `pack1`, `pack2`, `canine2`, `pack3`, `gornaud_1`, `gornaud_2`, `gornaud_3`, `shop_alynndir`, `mwolf`, `mwolf_b`, `arulir`, `maonit`, `mbrute_b`, `anklebiter`, `jakrar_axe_drop`, `arulirskin`, `arulir_gornaud`, `lonely_wolf`, `ortholion_guard2` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "hair",
+     "iconID": "items_misc:48",
+     "name": "Animal hair",
+     "hasManualPrice": 1,
+     "baseMarketCost": 2,
+     "category": "animal"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

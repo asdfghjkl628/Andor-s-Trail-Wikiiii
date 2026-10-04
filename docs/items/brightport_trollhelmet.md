@@ -1,12 +1,27 @@
 # ![](../assets/icons/items/items_newb_76.png){ .sprite } Trollbone helmet
-*Extraordinary* · Headwear, metal (heavy) · value 2670 gold
+
+*Extraordinary headwear, metal (heavy).*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_newb_76.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `brightport_trollhelmet` |
+| **Category** | Headwear, metal (heavy) |
+| **Slot** | head |
+| **Rarity** | Extraordinary |
+| **Base value** | 2,670 gold |
+| **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
+
+</div>
 
 > A troll's skull fashioned into a helmet.
 
-**Slot:** head · **Size:** large
+## Statistics
 
-
-## When equipped
+### When equipped
 
 | Stat | Value |
 |---|---|
@@ -15,19 +30,25 @@
 | Block chance | +16 |
 | Damage resistance | +1 |
 
-## When hit
+### When hit
 
 | Stat | Value |
 |---|---|
 | On self | Troll regeneration (magnitude 1, 1 rounds, 20% chance) |
 
-## Dropped by
-
-| Monster | Chance | Qty |
-|---|---|---|
-| [Charwood troll](../monsters/brightport_troll.md) | 100% | 1 |
-
 <p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Charwood troll](../monsters/brightport_troll.md) | 100% | 1 | waytobrightport1 |
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -37,4 +58,69 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `brightport_trollhelmet` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=brightport_trollhelmet.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=brightport_trollhelmet.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=brightport_trollhelmet.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=brightport_trollhelmet.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `brightport_trollhelmet` |
+    | Category ID | `hd_mtl_hv` |
+    | Icon | `items_newb:76` |
+    | Defined in | `res/raw/itemlist_brightport.json` |
+    | Loot tables containing it | `brightport_chartroll` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_trollhelmet",
+     "iconID": "items_newb:76",
+     "name": "Trollbone helmet",
+     "displaytype": "extraordinary",
+     "hasManualPrice": 1,
+     "baseMarketCost": 2670,
+     "category": "hd_mtl_hv",
+     "description": "A troll's skull fashioned into a helmet.",
+     "equipEffect": {
+      "increaseAttackChance": -3,
+      "increaseCriticalSkill": -3,
+      "increaseBlockChance": 16,
+      "increaseDamageResistance": 1
+     },
+     "hitReceivedEffect": {
+      "conditionsSource": [
+       {
+        "condition": "brightport_trollregen",
+        "magnitude": 1,
+        "duration": 1,
+        "chance": "20"
+       }
+      ]
+     },
+     "missEffect": {}
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

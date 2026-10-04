@@ -25,6 +25,7 @@ None: talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_k
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +53,7 @@ None: talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_k
 | <span id="stage-30"></span>30 | I have helped all three people in Vilegard that Jolnor suggested. Now the people of Vilegard should trust me more. **(completes quest)** | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | stage 20 | 2,100 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -76,6 +78,7 @@ None: talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_k
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -84,6 +87,7 @@ None: talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_k
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -24,6 +24,7 @@ None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallha
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -40,6 +41,7 @@ None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallha
 | <span id="stage-100"></span>100 | The drunk told me he used to travel with Unnmir. I should go talk to Unnmir. **(completes quest)** | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -56,6 +58,7 @@ None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallha
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -64,6 +67,7 @@ None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallha
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard patrol watch
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `ratdom_ff_guard` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 80 |
+| **XP when killed** | 280 |
+| **Found in** | Pub |
+| **Introduced** | [v0.8.5](../versions/0.8.5.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 80 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 12 to 17 |
 | Attack chance | 170 |
 | Block chance | 180 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -20,9 +44,17 @@
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 2 to 9 |
 
-## Found on
+## Locations
 
-- [ratdom_maze_412](../maps/ratdom_maze_412.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [ratdom_maze_412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
+
+
+## Quests that count kills
+
+- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-173) with walking into a blocked passage on [ratdom_maze_412](../maps/ratdom_maze_412.md) checks that you've killed at least 1
+
 
 ## Dialogue simulator
 
@@ -85,6 +117,7 @@ Set up your situation (quest stages, items, kills…), then talk to Feygard patr
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -106,4 +139,42 @@ Set up your situation (quest stages, items, kills…), then talk to Feygard patr
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ratdom_ff_guard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `ratdom_ff_guard` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `ratdom_ff_guard` |
+    | Spawn group | `ratdom_ff_guard` |
+    | Loot table | `ratdom_ff_guard` |
+    | Conversation | `ratdom_ff_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_ff_guard",
+     "name": "Feygard patrol watch",
+     "iconID": "monsters_rltiles3:14",
+     "maxHP": 80,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 12,
+      "max": 17
+     },
+     "spawnGroup": "ratdom_ff_guard",
+     "phraseID": "ratdom_ff_guard",
+     "droplistID": "ratdom_ff_guard",
+     "attackCost": 5,
+     "attackChance": 170,
+     "blockChance": 180,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

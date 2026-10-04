@@ -1,30 +1,69 @@
 # ![](../assets/icons/items/items_consumables_3.png){ .sprite } Red apple
-*Ordinary* · Food · value 22 gold
 
+*Ordinary food.*
 
-## When used
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_consumables_3.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `apple_red` |
+| **Category** | Food |
+| **Rarity** | Ordinary |
+| **Base value** | 22 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When used
 
 | Stat | Value |
 |---|---|
 | On self | Sustenance (magnitude 1, 12 rounds, 100% chance) |
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Orphaned warg pup](../monsters/orphaned_warg_pup.md) | 15% | 1 |
-| [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) | 15% | 1 |
-| [Warg pup](../monsters/warg_pup.md) | 15% | 1 |
+## How to get it
 
-## Sold by
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Orphaned warg pup](../monsters/orphaned_warg_pup.md) | 15% | 1 | Mt. Galmore |
+| [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) | 15% | 1 | Mt. Galmore |
+| [Warg pup](../monsters/warg_pup.md) | 15% | 1 | – |
+
+### Sold by
 
 - [Bela](../monsters/bela.md)
-- [Peasant grandfather](../monsters/brv_old_farmer.md)
-- [Melona](../monsters/melona.md)
+- [Peasant grandfather](../monsters/brv_old_farmer.md) (Brimhaven)
+- [Melona](../monsters/melona.md) (Brimhaven)
 - [Bela](../monsters/bela_2.md)
-- [Rosmara](../monsters/rosmara.md)
+- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+### Found in containers
+
+- [beekeeper2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
+- [guynmart_main_0](../maps/guynmart_main_0.md#container-0) (container 1, 100%), Guynmart Castle
+- [guynmart_main_2](../maps/guynmart_main_2.md#container-0) (container 1, 33%), Guynmart Castle
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+## Uses
+
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-12) | handed over (2×) | “Yes, here are two red apples and two strawberries.” |
+| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “Hey, maybe I could leave a red apple. It might help it warm up to me.” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -35,4 +74,60 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `apple_red` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=apple_red.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=apple_red.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=apple_red.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=apple_red.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `apple_red` |
+    | Category ID | `food` |
+    | Icon | `items_consumables:3` |
+    | Defined in | `res/raw/itemlist_food.json` |
+    | Loot tables containing it | `shop_bela`, `guynmart_drp_main2_kitchen`, `guynmart_drp_main0_cellar`, `brv_farmer`, `melona`, `shop_bela_2`, `clear_loot4`, `rosmara_dl`, `orphaned_warg_pup_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "apple_red",
+     "iconID": "items_consumables:3",
+     "name": "Red apple",
+     "hasManualPrice": 1,
+     "baseMarketCost": 22,
+     "category": "food",
+     "useEffect": {
+      "conditionsSource": [
+       {
+        "condition": "food",
+        "magnitude": 1,
+        "duration": 12,
+        "chance": "100"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>
