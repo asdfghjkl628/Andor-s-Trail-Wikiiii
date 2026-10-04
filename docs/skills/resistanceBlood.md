@@ -1,6 +1,6 @@
 # Pure Blood
 
-*Resistance against blood disorders*
+*Lowers the chance of being afflicted with disorders of the blood by 10 % for every skill level, up to a maximum of 70 %.*
 
 **Category:** immunity · **Max level:** 7 · **Obtained via:** Skill points
 
@@ -12,4 +12,4 @@ Points spent here also count toward:
 
 ## Description
 
-Lowers the chance of being afflicted with disorders of the blood by %1$,d %% for every skill level, up to a maximum of %2$,d %%. This includes conditions caused by monster attacks such as Poison or bleeding wounds.
+Lowers the chance of being afflicted with disorders of the blood by 10 % for every skill level, up to a maximum of 70 %. This includes conditions caused by monster attacks such as Poison or bleeding wounds.

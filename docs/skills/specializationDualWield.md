@@ -1,6 +1,6 @@
 # Specialization: Dual wield
 
-*Expert at dual wielding*
+*Increases the attack chance of both wielded weapons by an additional 50 % of their original attack chances, in addition to the benefits given by the weapon style skill.*
 
 **Category:** specialty · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -11,4 +11,4 @@
 
 ## Description
 
-Increases the attack chance of both wielded weapons by an additional %1$,d %% of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by %2$,d %% of their original block chances.
+Increases the attack chance of both wielded weapons by an additional 50 % of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by 50 % of their original block chances.

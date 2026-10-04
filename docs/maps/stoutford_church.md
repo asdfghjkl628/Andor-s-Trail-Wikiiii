@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Yolgen](../monsters/yolgen.md) | 0 |
 | [Tahalendor](../monsters/tahalendor.md) | 0 |
+| [Yolgen](../monsters/yolgen.md) | 0 |
 | [Praying woman](../monsters/stoutford_worshiper.md) | 0 |
 
 <small>Map ID: `stoutford_church` · Data from v0.8.18</small>

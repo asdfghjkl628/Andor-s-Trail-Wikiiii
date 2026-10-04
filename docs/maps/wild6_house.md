@@ -15,8 +15,8 @@
 
 | Name | HP |
 |---|---|
-| [Alaric](../monsters/alaric_wild6house.md) | 0 |
 | [Defy](../monsters/defy_wild6house.md) | 0 |
 | [Rennik](../monsters/wild6_house_thief.md) | 0 |
+| [Alaric](../monsters/alaric_wild6house.md) | 0 |
 
 <small>Map ID: `wild6_house` · Data from v0.8.18</small>

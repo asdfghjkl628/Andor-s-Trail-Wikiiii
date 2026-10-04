@@ -1,6 +1,6 @@
 # Increased Fortitude
 
-*Gain health on each level up*
+*On every subsequent level-up, maximum health points (HP) will be raised by 1 per skill level.*
 
 **Category:** immunity · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -16,7 +16,7 @@ Points spent here also count toward:
 
 ## Description
 
-On every subsequent level-up, maximum health points (HP) will be raised by %1$,d per skill level. This is not applied retroactively, only subsequent level-ups will be affected.
+On every subsequent level-up, maximum health points (HP) will be raised by 1 per skill level. This is not applied retroactively, only subsequent level-ups will be affected.
 
 ## Where to learn it
 

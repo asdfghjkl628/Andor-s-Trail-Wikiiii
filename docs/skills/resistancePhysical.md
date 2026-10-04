@@ -1,6 +1,6 @@
 # Enduring Body
 
-*Resistance against physical capacity conditions*
+*Lowers the chance of being afflicted with conditions affecting your physical capacity by 10 % for every skill level, up to a maximum of 70 %.*
 
 **Category:** immunity · **Max level:** 7 · **Obtained via:** Skill points
 
@@ -12,4 +12,4 @@ Points spent here also count toward:
 
 ## Description
 
-Lowers the chance of being afflicted with conditions affecting your physical capacity by %1$,d %% for every skill level, up to a maximum of %2$,d %%. This includes conditions caused by monster attacks such as Fatigue.
+Lowers the chance of being afflicted with conditions affecting your physical capacity by 10 % for every skill level, up to a maximum of 70 %. This includes conditions caused by monster attacks such as Fatigue.

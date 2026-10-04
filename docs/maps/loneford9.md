@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Sienn](../monsters/sienn.md) | 0 |
 | [Sienn's pet](../monsters/sienn_pet.md) | 0 |
+| [Sienn](../monsters/sienn.md) | 0 |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 5 |
 
 <small>Map ID: `loneford9` · Data from v0.8.18</small>

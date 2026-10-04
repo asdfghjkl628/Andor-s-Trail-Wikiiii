@@ -1,12 +1,12 @@
 # Merchant
 
-*Better shop prices*
+*For every skill level, decreases the buying and selling gold penalty by 4 percentage points.*
 
 **Category:** utility · **Max level:** 3 · **Obtained via:** Skill points
 
 ## Description
 
-For every skill level, decreases the buying and selling gold penalty by %1$,d percentage points.
+For every skill level, decreases the buying and selling gold penalty by 4 percentage points.
 
 ## Where to learn it
 

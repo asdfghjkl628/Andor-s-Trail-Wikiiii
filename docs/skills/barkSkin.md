@@ -1,6 +1,6 @@
 # Bark Skin
 
-*Damage resistance*
+*Increases damage resistance by 1 for each skill level.*
 
 **Category:** defense · **Max level:** 5 · **Obtained via:** Skill points
 
@@ -11,4 +11,4 @@
 
 ## Description
 
-Increases damage resistance by %1$,d for each skill level.
+Increases damage resistance by 1 for each skill level.

@@ -15,7 +15,7 @@
 | Name | HP |
 |---|---|
 | [Prison guard](../monsters/remgard_pg.md) | 0 |
-| [Janach](../monsters/janach.md) | 0 |
 | [Tember](../monsters/remgard_prison_thief.md) | 0 |
+| [Janach](../monsters/janach.md) | 0 |
 
 <small>Map ID: `remgard_prison` · Data from v0.8.18</small>

@@ -1,6 +1,6 @@
 # Evasion
 
-*Increased chance of fleeing*
+*For every skill level, reduces both the chance of failed flee attempts by 5 % and the chance that an adjacent monster will attack by 5 %.*
 
 **Category:** defense · **Max level:** 4 · **Obtained via:** Skill points
 
@@ -12,7 +12,7 @@ Points spent here also count toward:
 
 ## Description
 
-For every skill level, reduces both the chance of failed flee attempts by %1$,d %% and the chance that an adjacent monster will attack by %2$,d %%.
+For every skill level, reduces both the chance of failed flee attempts by 5 % and the chance that an adjacent monster will attack by 5 %.
 
 ## Where to learn it
 

@@ -1,12 +1,12 @@
 # Two-handed sword proficiency
 
-*Better at fighting with two-handed swords*
+*For each skill level, increases attack chance of two-handed swords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block…*
 
 **Category:** proficiency · **Max level:** 3 · **Obtained via:** First level from a quest, then skill points
 
 ## Description
 
-For each skill level, increases attack chance of two-handed swords by %1$,d %% of the item's base attack chance, increases block chance by %2$,d %% of the item's base block chance, and increases critical skill by %3$,d %% of the item's base critical skill.
+For each skill level, increases attack chance of two-handed swords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block chance, and increases critical skill by 10 % of the item's base critical skill.
 
 ## Where to learn it
 

@@ -1,6 +1,6 @@
 # Dodge
 
-*Increased block chance*
+*Increases block chance by 9 percentage points for each skill level.*
 
 **Category:** defense · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -12,7 +12,7 @@ Points spent here also count toward:
 
 ## Description
 
-Increases block chance by %1$,d percentage points for each skill level.
+Increases block chance by 9 percentage points for each skill level.
 
 ## Where to learn it
 

@@ -14,8 +14,8 @@
 
 | Name | HP |
 |---|---|
-| [Durnan the Hollow](../monsters/durnan.md) | 0 |
 | [Brenor](../monsters/brenor.md) | 0 |
+| [Durnan the Hollow](../monsters/durnan.md) | 0 |
 | [Ny'Ratees](../monsters/nyratees.md) | 207 |
 
 <small>Map ID: `undertell_1_0` · Data from v0.8.18</small>

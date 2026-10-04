@@ -1,6 +1,6 @@
 # Cleave
 
-*Recover action points on every kill*
+*Gives +3 action points (AP) on every kill per skill level.*
 
 **Category:** offense · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-Gives +%1$,d action points (AP) on every kill per skill level.
+Gives +3 action points (AP) on every kill per skill level.
 
 ## Where to learn it
 

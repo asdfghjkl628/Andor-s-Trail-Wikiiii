@@ -14,7 +14,7 @@
 
 | Name | HP |
 |---|---|
-| [Valentina](../monsters/sullengard_valentina.md) | 0 |
 | [Valeria](../monsters/sullengard_valeria.md) | 0 |
+| [Valentina](../monsters/sullengard_valentina.md) | 0 |
 
 <small>Map ID: `sullengard1_aunts_house` · Data from v0.8.18</small>

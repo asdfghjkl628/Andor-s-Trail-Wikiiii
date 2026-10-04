@@ -16,7 +16,7 @@
 
 | Name | HP |
 |---|---|
-| [Guynmart guard](../monsters/guynmart_wguard.md) | 0 |
 | [Rob](../monsters/guynmart_rob4.md) | 0 |
+| [Guynmart guard](../monsters/guynmart_wguard.md) | 0 |
 
 <small>Map ID: `guynmart_tower_2` · Data from v0.8.18</small>

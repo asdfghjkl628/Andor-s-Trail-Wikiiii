@@ -1,12 +1,12 @@
 # Dagger proficiency
 
-*Better at fighting with daggers*
+*For each skill level, increases attack chance when using daggers and shortswords by 30 % of the item's base attack chance, increases block chance by 30 % of the…*
 
 **Category:** proficiency · **Max level:** 3 · **Obtained via:** First level from a quest, then skill points
 
 ## Description
 
-For each skill level, increases attack chance when using daggers and shortswords by %1$,d %% of the item's base attack chance, increases block chance by %2$,d %% of the item's base block chance, and increases critical skill by %3$,d %% of the item's base critical skill.
+For each skill level, increases attack chance when using daggers and shortswords by 30 % of the item's base attack chance, increases block chance by 30 % of the item's base block chance, and increases critical skill by 10 % of the item's base critical skill.
 
 ## Where to learn it
 

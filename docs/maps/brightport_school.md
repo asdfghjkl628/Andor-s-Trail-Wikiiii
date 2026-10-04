@@ -17,7 +17,7 @@
 
 | Name | HP |
 |---|---|
-| [Cavill](../monsters/brightportstudent3.md) | 0 |
 | [Dibella](../monsters/brightportnpc3.md) | 0 |
+| [Cavill](../monsters/brightportstudent3.md) | 0 |
 
 <small>Map ID: `brightport_school` · Data from v0.8.18</small>

@@ -19,7 +19,7 @@
 | Name | HP |
 |---|---|
 | [Prim cook](../monsters/prim_cook.md) | 0 |
-| [Prim visitor](../monsters/prim_visitor.md) | 0 |
 | [Laecca](../monsters/laecca.md) | 0 |
+| [Prim visitor](../monsters/prim_visitor.md) | 0 |
 
 <small>Map ID: `blackwater_mountain21` · Data from v0.8.18</small>

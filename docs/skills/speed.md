@@ -1,6 +1,6 @@
 # Combat Speed
 
-*Increased maximum action points*
+*Increases maximum action points (AP) by 1 for each skill level.*
 
 **Category:** offense · **Max level:** 2 · **Obtained via:** Skill points
 
@@ -16,4 +16,4 @@ Points spent here also count toward:
 
 ## Description
 
-Increases maximum action points (AP) by %1$,d for each skill level.
+Increases maximum action points (AP) by 1 for each skill level.

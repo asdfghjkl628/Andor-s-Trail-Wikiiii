@@ -15,14 +15,14 @@
 
 | Name | HP |
 |---|---|
-| [Spectre](../monsters/spectre.md) | 15 |
 | [Lost soul](../monsters/lost_soul.md) | 15 |
-| [Shade](../monsters/shade.md) | 16 |
+| [Spectre](../monsters/spectre.md) | 15 |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 |
+| [Shade](../monsters/shade.md) | 16 |
 | [Apparition](../monsters/apparition.md) | 17 |
 | [Haunting](../monsters/haunting.md) | 31 |
-| [Skeleton](../monsters/skeleton.md) | 35 |
 | [Young gargoyle](../monsters/young_gargoyle.md) | 35 |
+| [Skeleton](../monsters/skeleton.md) | 35 |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 |
 
 <small>Map ID: `hauntedhouse3` · Data from v0.8.18</small>

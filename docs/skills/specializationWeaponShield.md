@@ -1,6 +1,6 @@
 # Specialization: Weapon and shield
 
-*Expert at fighting with weapon and shield*
+*Increases both attack chances and damage potential of weapons in the main hand.*
 
 **Category:** specialty · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -11,4 +11,4 @@
 
 ## Description
 
-Increases both attack chances and damage potential of weapons in the main hand. The attack chance is increased by %1$,d %% of the original attack chance, and the damage potential is increased by %2$,d %% of the original damage potential.
+Increases both attack chances and damage potential of weapons in the main hand. The attack chance is increased by 50 % of the original attack chance, and the damage potential is increased by 20 % of the original damage potential.

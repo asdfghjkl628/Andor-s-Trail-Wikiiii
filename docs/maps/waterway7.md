@@ -15,9 +15,9 @@
 
 | Name | HP |
 |---|---|
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 |
 | [Izthiel](../monsters/izthiel_2.md) | 45 |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 |
 
 <small>Map ID: `waterway7` · Data from v0.8.18</small>

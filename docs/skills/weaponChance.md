@@ -1,6 +1,6 @@
 # Weapon Accuracy
 
-*Increased attack chance*
+*Increases attack chance by 12 percentage points for each skill level.*
 
 **Category:** offense · **Max level:** unlimited · **Obtained via:** Skill points
 
@@ -13,7 +13,7 @@ Points spent here also count toward:
 
 ## Description
 
-Increases attack chance by %1$,d percentage points for each skill level.
+Increases attack chance by 12 percentage points for each skill level.
 
 ## Where to learn it
 

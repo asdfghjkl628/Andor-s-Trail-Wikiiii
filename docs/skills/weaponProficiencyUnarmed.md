@@ -1,12 +1,12 @@
 # Unarmed fighting
 
-*Better at fighting without weapons*
+*When fighting without a weapon and shield, gain 20 attack chance, 2 damage potential and 5 block chance per skill level.*
 
 **Category:** proficiency · **Max level:** 3 · **Obtained via:** First level from a quest, then skill points
 
 ## Description
 
-When fighting without a weapon and shield, gain %1$,d attack chance, %2$,d damage potential and %3$,d block chance per skill level.
+When fighting without a weapon and shield, gain 20 attack chance, 2 damage potential and 5 block chance per skill level.
 
 ## Where to learn it
 

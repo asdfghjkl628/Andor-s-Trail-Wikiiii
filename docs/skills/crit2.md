@@ -1,6 +1,6 @@
 # Fracture
 
-*Chance of bone fracture*
+*For every critical hit made, there is a 50 % chance that the hit will fracture some of the target's bones, effectively causing the 'Fracture' condition on the target.*
 
 **Category:** criticals · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -12,4 +12,4 @@
 
 ## Description
 
-For every critical hit made, there is a %1$,d %% chance that the hit will fracture some of the target's bones, effectively causing the 'Fracture' condition on the target. This will severely lower the target's defensive combat abilities, making it less able to defend itself in subsequent attacks.
+For every critical hit made, there is a 50 % chance that the hit will fracture some of the target's bones, effectively causing the 'Fracture' condition on the target. This will severely lower the target's defensive combat abilities, making it less able to defend itself in subsequent attacks.

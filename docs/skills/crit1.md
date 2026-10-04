@@ -1,6 +1,6 @@
 # Internal bleeding
 
-*Chance of internal bleeding*
+*For every critical hit made, there is a 50 % chance that the hit will cause internal bleeding on the target, effectively causing the 'Internal bleeding' condition on…*
 
 **Category:** criticals · **Max level:** 1 · **Obtained via:** Skill points
 
@@ -17,4 +17,4 @@ Points spent here also count toward:
 
 ## Description
 
-For every critical hit made, there is a %1$,d %% chance that the hit will cause internal bleeding on the target, effectively causing the 'Internal bleeding' condition on the target. Internal bleeding severely lowers offensive combat abilities, making the target less able to land successful attacks.
+For every critical hit made, there is a 50 % chance that the hit will cause internal bleeding on the target, effectively causing the 'Internal bleeding' condition on the target. Internal bleeding severely lowers offensive combat abilities, making the target less able to land successful attacks.

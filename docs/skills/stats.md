@@ -21,10 +21,10 @@ Your evasion: the same curve as attack chance, pointed the other way. Raised by 
 Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
 
 ## Critical skill
-Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless your weapon also gives a critical multiplier. [More Criticals](moreCriticals.md) raises it by 20% per level.
+Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless you also have a critical multiplier (from your weapon, or [Way of the Monk](fightstyleUnarmedUnarmored.md)). [More Criticals](moreCriticals.md) raises it by 20% per level.
 
 ## Critical multiplier
-How hard a critical hit lands (e.g. ×2). Only weapons provide one; your bare fists have none, which is why unarmed heroes never crit. [Better Criticals](betterCriticals.md) raises it by 25% per level.
+How hard a critical hit lands (e.g. ×2). Weapons provide it. Bare fists have none, so unarmed heroes can't crit at all, unless they learn [Way of the Monk](fightstyleUnarmedUnarmored.md), which grants ×1.25 per level. [Better Criticals](betterCriticals.md) raises it by 25% per level.
 
 ## Attack cost
 AP spent per attack: 4 unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.
