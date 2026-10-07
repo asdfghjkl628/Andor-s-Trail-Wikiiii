@@ -1,10 +1,10 @@
 ---
-description: "Kha'zaan Porter is a non-player character (NPC) in Andor's Trail, found in undertell_4_00."
+description: "Kha'zaan Porter is a non-player character (NPC) in Andor's Trail, found in Undertell 4 00."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_199.png){ .sprite } Kha'zaan Porter
 
-**Where to find Kha'zaan Porter:** [undertell_4_00](../maps/undertell_4_00.md#pin-npc-porter)
+**Where to find Kha'zaan Porter:** [Undertell 4 00](../maps/undertell_4_00.md#pin-npc-porter)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kha'zaan Porter is a non-player character (NPC) in Andor's Trail, 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_4_00 |
+| **Found in** | Undertell 4 00 |
 | **Entry ID** | `porter` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -21,7 +21,7 @@ description: "Kha'zaan Porter is a non-player character (NPC) in Andor's Trail, 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kha'zaan Porter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kha'zaan Porter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/porter_selector.json" data-npc="Kha&#x27;zaan Porter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,11 +29,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (26 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-porter_selector"></span>**`porter_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 78 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-78))* → [leave_archival_room_key_selector](#d-leave_archival_room_key_selector)
+    - branch 1 *(if reached stage 78 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-78))* → [leave_archival_room_key_selector](#d-leave_archival_room_key_selector)
     - branch 2 *(if NOT reached stage 50 of [About a girl](../quests/about_a_girl.md#stage-50))* → [porter_no_permission_10](#d-porter_no_permission_10)
     - branch 3 *(if reached stage 50 of [About a girl](../quests/about_a_girl.md#stage-50))* → [porter_permission_10](#d-porter_permission_10)
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - branch 1 *(if wearing [Crown of studied defiance](../items/undertell_lgd_headgear.md))* → [porter_wearing_headgear_10](#d-porter_wearing_headgear_10)
     - branch 2 *(if carry 1× [Crown of studied defiance](../items/undertell_lgd_headgear.md))* → [porter_headgear_inventory_dc_10](#d-porter_headgear_inventory_dc_10)
-    - branch 3 *(if reached stage 87 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-87))* → [porter_player_took_crown_10](#d-porter_player_took_crown_10)
+    - branch 3 *(if reached stage 87 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-87))* → [porter_player_took_crown_10](#d-porter_player_took_crown_10)
     - branch 4 → [porter_player_does_not_have_crown_10](#d-porter_player_does_not_have_crown_10)
 
     <span id="d-porter_no_permission_10"></span>**`porter_no_permission_10`** [Kha'zaan Porter](../monsters/porter.md): “And where do you think you are headed, mortal?”
@@ -63,13 +63,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-porter_player_took_crown_10"></span>**`porter_player_took_crown_10`** [Kha'zaan Porter](../monsters/porter.md): “You moved restricted material and didn't put it back where you found it. Now go do so!”
 
 
-    <span id="d-porter_player_does_not_have_crown_10"></span>**`porter_player_does_not_have_crown_10`** [Kha'zaan Porter](../monsters/porter.md): “You may proceed.” — **effects:** clears stage 86 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-86), applies condition kazaul_mortality
+    <span id="d-porter_player_does_not_have_crown_10"></span>**`porter_player_does_not_have_crown_10`** [Kha'zaan Porter](../monsters/porter.md): “You may proceed.” — **effects:** clears stage 86 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-86), applies condition kazaul_mortality
 
 
     <span id="d-porter_no_permission_20"></span>**`porter_no_permission_20`** Kha'zaan Porter: “I was not notified. I'm afraid that you will not be allowed to proceed.”
 
     - “Oh, sorry about that. I will be on my way then.” → *conversation ends*
-    - “[lie] Oh, but I do have permission. One of the masters gave me permission.” *(if reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [porter_no_permission_lie_10](#d-porter_no_permission_lie_10)
+    - “[lie] Oh, but I do have permission. One of the masters gave me permission.” *(if reached stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [porter_no_permission_lie_10](#d-porter_no_permission_lie_10)
     - “How about some gold? Let's say one-thousand pieces?” *(if have 1,000 gold)* → [porter_no_permission_gold_10](#d-porter_no_permission_gold_10)
 
     <span id="d-porter_wearing_headgear_20"></span>**`porter_wearing_headgear_20`** Kha'zaan Porter: “That crown does not leave that room. Not worn. Not carried.”

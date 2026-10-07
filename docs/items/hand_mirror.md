@@ -38,7 +38,7 @@ description: "Hand mirror is a ordinary shield, metal (light) in Andor's Trail (
 
 ### Found in containers
 
-- [basiliskcave2](../maps/basiliskcave2.md#container-0) (container 1, 100%)
+- [Basiliskcave 2](../maps/basiliskcave2.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

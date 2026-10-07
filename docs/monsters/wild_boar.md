@@ -4,7 +4,7 @@ description: "Wild boar is an enemy in Andor's Trail (animal) with 20 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } Wild boar
 
-**Found in:** Blackwater Mountain: [mywild18](../maps/mywild18.md), Blackwater Mountain: [wild6](../maps/wild6.md), Fallhaven: [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md), Fallhaven: [wild10](../maps/wild10.md) (+7 more)
+**Found in:** Blackwater Mountain: [Mywild 18](../maps/mywild18.md), Blackwater Mountain: [Wild 6](../maps/wild6.md), Fallhaven: [Roadbeforecrossroads 5](../maps/roadbeforecrossroads5.md), Fallhaven: [Wild 10](../maps/wild10.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -57,17 +57,17 @@ description: "Wild boar is an enemy in Andor's Trail (animal) with 20 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain0](../maps/blackwater_mountain0.md) | Flagstone Prison | 4 | – |
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
-| [mywild18](../maps/mywild18.md) | Blackwater Mountain | 2 | – |
-| [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md) | Fallhaven | 1 | – |
-| [wild10](../maps/wild10.md) | Fallhaven | 2 | – |
-| [wild12](../maps/wild12.md) | Fallhaven | 2 | – |
-| [wild13](../maps/wild13.md) | Fallhaven | 3 | – |
-| [wild16](../maps/wild16.md) | Flagstone Prison | 2 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 1 | – |
-| [wild5](../maps/wild5.md) | Fallhaven | 3 | – |
-| [wild6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 0](../maps/blackwater_mountain0.md) | Flagstone Prison | 4 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
+| [Mywild 18](../maps/mywild18.md) | Blackwater Mountain | 2 | – |
+| [Roadbeforecrossroads 5](../maps/roadbeforecrossroads5.md) | Fallhaven | 1 | – |
+| [Wild 10](../maps/wild10.md) | Fallhaven | 2 | – |
+| [Wild 12](../maps/wild12.md) | Fallhaven | 2 | – |
+| [Wild 13](../maps/wild13.md) | Fallhaven | 3 | – |
+| [Wild 16](../maps/wild16.md) | Flagstone Prison | 2 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 1 | – |
+| [Wild 5](../maps/wild5.md) | Fallhaven | 3 | – |
+| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Weeping ash spectre is an enemy in Andor's Trail (ghost) with 75 H
 
 # ![](../assets/icons/monsters/monsters_ld2_224.png){ .sprite } Weeping ash spectre
 
-**Found in:** Charwood: [lostmine1a](../maps/lostmine1a.md), Charwood: [lostmine2](../maps/lostmine2.md)
+**Found in:** Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md)
 
 <div class="infobox" markdown>
 
@@ -59,8 +59,8 @@ description: "Weeping ash spectre is an enemy in Andor's Trail (ghost) with 75 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine1a](../maps/lostmine1a.md) | Charwood | 3 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 8 | – |
+| [Lostmine 1a](../maps/lostmine1a.md) | Charwood | 3 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 8 | – |
 
 
 ## Version history

@@ -27,9 +27,9 @@ description: "Life drain is a harmful spiritual condition in Andor's Trail: −2
 |---|---|
 | HP every round | −2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -46,21 +46,21 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | 0 rounds |
-| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | Until you rest |
+| stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) | – | 0 rounds |
+| [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | Until you rest |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-70).
-- **Removed by** [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier; permanent applications (from equipment or story events) are not removed by resting.
+- **Removed by** stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-70).
+- **Removed by** [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
+- **Duration and rest:** timed ones wear off, or rest them away; permanent ones (equipment, story events) stay through rest.
 
 ## Checked in dialogue
 
-- [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) checks whether you have this condition.
+- [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) checks whether you have this condition.
 
 
 ## Community notes

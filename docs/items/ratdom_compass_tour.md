@@ -43,7 +43,7 @@ Watch out for orange shields, but don't neglect the yellow shields.
 
 ### Quest & dialogue rewards
 
-- From [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) during [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-192) (1×)
+- From [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) during [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-192) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,9 +54,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md), stepping on a trigger on [ratdom_maze_403](../maps/ratdom_maze_403.md) | – | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md), stepping on a trigger on [ratdom_maze_403](../maps/ratdom_maze_403.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md), stepping on a trigger on [ratdom_maze_403](../maps/ratdom_maze_403.md) | – | must be carried (1×) | “How does the orange amulet work, in detail?” |
+| stepping on a trigger on [Ratdom maze 402](../maps/ratdom_maze_402.md), stepping on a trigger on [Ratdom maze 403](../maps/ratdom_maze_403.md) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 402](../maps/ratdom_maze_402.md), stepping on a trigger on [Ratdom maze 403](../maps/ratdom_maze_403.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 402](../maps/ratdom_maze_402.md), stepping on a trigger on [Ratdom maze 403](../maps/ratdom_maze_403.md) | – | must be carried (1×) | “How does the orange amulet work, in detail?” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -25,9 +25,9 @@ description: "Large empty bottle is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-40) (100%)
-- From [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-70) (100%)
-- From stepping on a trigger on [brimhaven7](../maps/brimhaven7.md), stepping on a trigger on [brimhaven_exit](../maps/brimhaven_exit.md) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-90) (100%)
+- From [Arlish](../monsters/arlish.md) ([Brimhaven general 1](../maps/brimhaven_general1.md)) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-40) (100%)
+- From [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-70) (100%)
+- From stepping on a trigger on [Brimhaven 7](../maps/brimhaven7.md), stepping on a trigger on [Brimhaven exit](../maps/brimhaven_exit.md) during [A cat and mouse game](../quests/cat_and_mouse.md#stage-90) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-50) | handed over (1×) | “Yes. Here it is.” |
+| [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-50) | handed over (1×) | “Yes. Here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

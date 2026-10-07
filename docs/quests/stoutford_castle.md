@@ -11,9 +11,9 @@ description: "Stoutford's old castle is a quest in Andor's Trail, started by ste
 | **Quest ID** | `stoutford_castle` |
 | **In journal** | Yes |
 | **Stages** | 11 (completes at 50, 60, 70) |
-| **Started by** | stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) |
+| **Started by** | stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) |
 | **NPCs involved** | [Tahalendor](../monsters/tahalendor.md), [Yolgen](../monsters/yolgen.md) |
-| **Locations** | [stoutford_church](../maps/stoutford_church.md) |
+| **Locations** | [Stoutford church](../maps/stoutford_church.md) |
 | **Total XP** | 6,550 |
 | **Related quests** | 3 |
 
@@ -25,11 +25,11 @@ description: "Stoutford's old castle is a quest in Andor's Trail, started by ste
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md). Required:
+Start with stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md). Required:
 
 - killed 1× [Lord Erwyn](../monsters/erwyn.md)
-- reached stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48)
-- NOT reached stage 49 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49)
+- reached stage 48 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48)
+- NOT reached stage 49 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-49)
 - killed 2× [Lord Erwyn](../monsters/erwyn.md)
 
 
@@ -41,80 +41,159 @@ Start with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-180) | stage 180 reached, for stages 10, 12 here |
-| Requires | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-190) | stage 190 reached, for stages 10, 12 here |
+| Requires | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-180) | stage 180 reached, for stages 10, 12 here |
+| Requires | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-190) | stage 190 reached, for stages 10, 12 here |
 | Requires | [Rumblings](rumblings.md#stage-80) | stage 80 reached, for stages 10, 12, 20, 30, 42, 50, 60, 70 here |
 | Requires | [Rumblings](rumblings.md#stage-106) | stage 106 reached, for stage 14 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-46) | stage 46 reached, for stages 20, 30 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-48) | stage 48 reached, for stages 5, 16 here |
-| Blocked by | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-49) | stage 49 must NOT be reached, for stage 5 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-46) | stage 46 reached, for stages 20, 30 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-48) | stage 48 reached, for stages 5, 16 here |
+| Blocked by | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-49) | stage 49 must NOT be reached, for stage 5 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | I tried to free this castle from the undead Lord Erwyn. But whenever I kill him, he reappears. I should seek help...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle0](../maps/stoutford_castle0.md).</span> | stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) | – | – |
-| <span id="stage-10"></span>10 | I talked to Yolgen, the Shadow priest of Stoutford, and he told me that the mighty Lord Erwyn used to reside here, but Lord Erwyn and his army were crushed during a war, the castle was sacked and the house extinguished. But recently Erwyn's knights have risen from the dead. Yolgen asked me to rid Stoutford of these undead once and for all. | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | – | – |
-| <span id="stage-12"></span>12 | I should ask Tahalendor for some special artifact that I can use to defeat powerful undead. | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | – | – |
-| <span id="stage-14"></span>14 | Tahalendor gave me a pair of special coins that I can use to defeat powerful undead. | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) | pay 2 gold, stage 12 | gives 2× [Gold coins](../items/erwyn_coin.md) |
-| <span id="stage-16"></span>16 | I slew Lord Erwyn himself and ensured that he remains dead now.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle0](../maps/stoutford_castle0.md).</span> | stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) | – | 500 XP<br>clears stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48)<br>removes monsters from stoutford_castle0 |
-| <span id="stage-20"></span>20 | I slew all the undead knights. | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10 | 2,000 XP |
-| <span id="stage-30"></span>30 | I slew Lord Erwyn's commander. | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10 | 1,000 XP |
-| <span id="stage-42"></span>42 | Among his remains I found a strange ring. I should show it to Yolgen. | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md), stage 10, stage 40 | – |
-| <span id="stage-50"></span>50 | Yolgen examined the ring thoroughly. He suspects it has somehow come from Mt. Galmore and reanimated the long dead soldiers. I should be wary of the evil grasp of Mt. Galmore and whatever lurks there... **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md), hand over 1× [Lord Erwyn's ring](../items/erwyn_ring.md), stage 10, stage 40 | 2,050 XP |
-| <span id="stage-60"></span>60 | I kept the ring for myself, which upset Yolgen. I should keep looking for its previous owner. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10, stage 40 | 500 XP |
-| <span id="stage-70"></span>70 | I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner. **(completes quest)** | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 10, stage 40 | 500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">I tried to free this castle from the undead Lord Erwyn. But whenever… ▸</span><span class="l">▴ less</span></summary>I tried to free this castle from the undead Lord Erwyn. But whenever I kill him, he reappears. I should seek help...</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle 0](../maps/stoutford_castle0.md).</span> | stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I talked to Yolgen, the Shadow priest of Stoutford, and he told me… ▸</span><span class="l">▴ less</span></summary>I talked to Yolgen, the Shadow priest of Stoutford, and he told me that the mighty Lord Erwyn used to reside here, but Lord Erwyn and his army were crushed during a war, the castle was sacked and the house extinguished. But recently Erwyn's knights have risen from the dead. Yolgen asked me to rid Stoutford of these undead once and for all.</details> | [Yolgen](../monsters/yolgen.md) | – |
+| <span id="stage-12"></span>[12](#route-12) | <details class="jt"><summary><span class="s">I should ask Tahalendor for some special artifact that I can use to… ▸</span><span class="l">▴ less</span></summary>I should ask Tahalendor for some special artifact that I can use to defeat powerful undead.</details> | [Yolgen](../monsters/yolgen.md) | – |
+| <span id="stage-14"></span>[14](#route-14) | <details class="jt"><summary><span class="s">Tahalendor gave me a pair of special coins that I can use to defeat… ▸</span><span class="l">▴ less</span></summary>Tahalendor gave me a pair of special coins that I can use to defeat powerful undead.</details> | [Tahalendor](../monsters/tahalendor.md) | 2× [Gold coins](../items/erwyn_coin.md) |
+| <span id="stage-16"></span>[16](#route-16) | I slew Lord Erwyn himself and ensured that he remains dead now.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle 0](../maps/stoutford_castle0.md).</span> | stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) | 500 XP, removes monsters from stoutford_castle0 |
+| <span id="stage-20"></span>[20](#route-20) | I slew all the undead knights. | [Yolgen](../monsters/yolgen.md) | 2,000 XP |
+| <span id="stage-30"></span>[30](#route-30) | I slew Lord Erwyn's commander. | [Yolgen](../monsters/yolgen.md) | 1,000 XP |
+| <span id="stage-42"></span>[42](#route-42) | Among his remains I found a strange ring. I should show it to Yolgen. | [Yolgen](../monsters/yolgen.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Yolgen examined the ring thoroughly. He suspects it has somehow come… ▸</span><span class="l">▴ less</span></summary>Yolgen examined the ring thoroughly. He suspects it has somehow come from Mt. Galmore and reanimated the long dead soldiers. I should be wary of the evil grasp of Mt. Galmore and whatever lurks there...</details> **(ends quest)** | [Yolgen](../monsters/yolgen.md) | 2,050 XP |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I kept the ring for myself, which upset Yolgen. I should keep… ▸</span><span class="l">▴ less</span></summary>I kept the ring for myself, which upset Yolgen. I should keep looking for its previous owner.</details> **(ends quest)** | [Yolgen](../monsters/yolgen.md) | 500 XP |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I kept the ring for myself and didn't tell Yolgen about it. He was… ▸</span><span class="l">▴ less</span></summary>I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner.</details> **(ends quest)** | [Yolgen](../monsters/yolgen.md) | 500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lord Erwyn](../monsters/erwyn.md); reached stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48); NOT reached stage 49 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49); killed 2× [Lord Erwyn](../monsters/erwyn.md) → **stage 5**. NPC: “I'm not dead, so you can't kill me. Haha. You don't know much about the undead, do you kid? You can't destroy me!”
+??? note "Stage 5 · stepping on a trigger on stoutford_castle0 · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md)
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “No problem. They are already as good as dead.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190); NOT reached stage 10 of [stoutford_reinforcements (hidden flag)](../quests/stoutford_reinforcements.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10); NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10) → **stage 10**. NPC: “Before you leave, go to Tahalendor. He might give you something that helps against undead.”
+    - **Needs:** killed 1× [Lord Erwyn](../monsters/erwyn.md); reached stage 48 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48); not reached stage 49 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-49); killed 2× [Lord Erwyn](../monsters/erwyn.md)
+    - *“I'm not dead, so you can't kill me. Haha. You don't know much about the undead, do you kid? You can't destroy me!”*
 
-???+ note "Stage 12: 1 route"
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “No problem. They are already as good as dead.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190); NOT reached stage 10 of [stoutford_reinforcements (hidden flag)](../quests/stoutford_reinforcements.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10); NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10) → **stage 12**. NPC: “Before you leave, go to Tahalendor. He might give you something that helps against undead.”
+<span id="route-10"></span>
 
-???+ note "Stage 14: 1 route"
+??? note "Stage 10 · Yolgen · 1 way"
 
-    1. Talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “OK.” — **conditions:** reached stage 106 of [Rumblings](../quests/rumblings.md#stage-106); reached stage 12 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-12); NOT reached stage 14 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-14); killed 1× [Lord Erwyn](../monsters/erwyn.md); pay 2 gold → **stage 14**; also gives 2× [Gold coins](../items/erwyn_coin.md). NPC: “Here you go. As soon as the undead lord appears to be destroyed, place one coin on each eye. This will prevent him…”
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “No problem. They are already as good as dead.”
 
-???+ note "Stage 16: 1 route"
+    - **Needs:** not yet stage 10; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 180 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-190); not reached stage 10 of stoutford reinforcements (flag not defined in the game data); reached stage 10 of not yet realized (flag not defined in the game data)
+    - *“Before you leave, go to Tahalendor. He might give you something that helps against undead.”*
 
-    1. stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lord Erwyn](../monsters/erwyn.md#v-erwyn2); reached stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48) → **stage 16**; also clears stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48), removes monsters from stoutford_castle0. NPC: “I followed Tahalendor's advice, and placed one coin in each eye socket. Not long after, Lord Erwyn's remains crumbled…”
 
-???+ note "Stage 20: 1 route"
+<span id="route-12"></span>
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “I have dealt with Erwyn's army.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 46 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-46) → **stage 20**. NPC: “Let me see... OK, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.”
+??? note "Stage 12 · Yolgen · 1 way"
 
-???+ note "Stage 30: 1 route"
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “No problem. They are already as good as dead.”
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “I have dealt with Erwyn's army.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 46 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-46); killed 1× [Karth the Unbowed](../monsters/erwyn_commander.md) → **stage 30**. NPC: “And you slew Lord Erwyn's commander.”
+    - **Needs:** not yet stage 10; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 180 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-190); not reached stage 10 of stoutford reinforcements (flag not defined in the game data); reached stage 10 of not yet realized (flag not defined in the game data)
+    - *“Before you leave, go to Tahalendor. He might give you something that helps against undead.”*
 
-???+ note "Stage 42: 2 routes"
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “Sure. I found this ring among his remains.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md) → **stage 42**. NPC: “I am very pleased to hear this. A ring you say? Let me take a look.”
-    2. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “Sure. I found this ring among his remains.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md) → **stage 42**. NPC: “Hmm. This looks most interesting. I suspected something like this. It is certainly some magical item and seems to have…”
+<span id="route-14"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 14 · Tahalendor · 1 way"
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “Sounds fine to me. Anything for the safety of the people of Stoutford.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md); hand over 1× [Lord Erwyn's ring](../items/erwyn_ring.md) → **stage 50**. NPC: “That is it. The ring is destroyed. I wonder where it came from. Maybe from the depths of Mt. Galmore, or some…”
+    **Way 1:** Talk to [Tahalendor](../monsters/tahalendor.md), choose “OK.”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** stage 12; not yet stage 14; reached stage 106 of [Rumblings](../quests/rumblings.md#stage-106); killed 1× [Lord Erwyn](../monsters/erwyn.md); pay 2 gold
+    - **Gives:** 2× [Gold coins](../items/erwyn_coin.md)
+    - *“Here you go. As soon as the undead lord appears to be destroyed, place one coin on each eye. This will prevent him from rising again, and…”*
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “No, I don't think so. I wonder who had owned the ring before Erwyn?” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40) → **stage 60**. NPC: “Do not play with ancient forces that are beyond your power.”
 
-???+ note "Stage 70: 1 route"
+<span id="route-16"></span>
 
-    1. Talk to [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “[Lie] Yes, but I found nothing worth having.” — **conditions:** reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70); reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40) → **stage 70**. NPC: “If you say so. I suspect Lord Erwyn had a ring, and if you find it you must bring it to me. It is dangerous.”
+??? note "Stage 16 · stepping on a trigger on stoutford_castle0 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md)
+
+    - **Needs:** killed 1× [Lord Erwyn](../monsters/erwyn.md#v-erwyn2); reached stage 48 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48)
+    - **Gives:** removes monsters from stoutford_castle0
+    - <small>Also: clears stage 48 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48)</small>
+    - *“I followed Tahalendor's advice, and placed one coin in each eye socket. Not long after, Lord Erwyn's remains crumbled to dust. He is gone…”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Yolgen · 1 way"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “I have dealt with Erwyn's army.”
+
+    - **Needs:** stage 10; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 46 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-46)
+    - *“Let me see... OK, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Yolgen · 1 way"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “I have dealt with Erwyn's army.”
+
+    - **Needs:** stage 10; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); reached stage 46 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-46); killed 1× [Karth the Unbowed](../monsters/erwyn_commander.md)
+    - *“And you slew Lord Erwyn's commander.”*
+
+
+<span id="route-42"></span>
+
+??? note "Stage 42 · Yolgen · 2 ways"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “Sure. I found this ring among his remains.”
+
+    - **Needs:** stage 10, 40; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md)
+    - *“I am very pleased to hear this. A ring you say? Let me take a look.”*
+
+    **Way 2:** Talk to [Yolgen](../monsters/yolgen.md), choose “Sure. I found this ring among his remains.”
+
+    - **Needs:** stage 10, 40; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md)
+    - *“Hmm. This looks most interesting. I suspected something like this. It is certainly some magical item and seems to have the powers to…”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Yolgen · 1 way"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “Sounds fine to me. Anything for the safety of the people of Stoutford.”
+
+    - **Needs:** stage 10, 40; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80); carry 1× [Lord Erwyn's ring](../items/erwyn_ring.md); hand over 1× [Lord Erwyn's ring](../items/erwyn_ring.md)
+    - *“That is it. The ring is destroyed. I wonder where it came from. Maybe from the depths of Mt. Galmore, or some mischievous traveller put it…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Yolgen · 1 way"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “No, I don't think so. I wonder who had owned the ring before Erwyn?”
+
+    - **Needs:** stage 10, 40; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80)
+    - *“Do not play with ancient forces that are beyond your power.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Yolgen · 1 way"
+
+    **Way 1:** Talk to [Yolgen](../monsters/yolgen.md), choose “[Lie] Yes, but I found nothing worth having.”
+
+    - **Needs:** stage 10, 40; not yet stage 50, 60, 70; reached stage 80 of [Rumblings](../quests/rumblings.md#stage-80)
+    - *“If you say so. I suspect Lord Erwyn had a ring, and if you find it you must bring it to me. It is dangerous.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

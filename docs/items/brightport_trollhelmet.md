@@ -49,7 +49,7 @@ description: "Trollbone helmet is a extraordinary headwear, metal (heavy) in And
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Charwood troll](../monsters/brightport_troll.md) | 100% | 1 | waytobrightport1 |
+| [Charwood troll](../monsters/brightport_troll.md) | 100% | 1 | Waytobrightport 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

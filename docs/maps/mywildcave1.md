@@ -1,8 +1,8 @@
 ---
-description: "Mywildcave1 is an indoor location in Andor's Trail. Enemies: Small stone worm, Stone worm, Old stone worm. Exits to Mywildcave, Mywildcave2."
+description: "Mywildcave 1 is an indoor location in Andor's Trail. Enemies: Small stone worm, Stone worm, Old stone worm. Exits to Mywildcave, Mywildcave 2."
 ---
 
-# Mywildcave1
+# Mywildcave 1
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Mywildcave1 is an indoor location in Andor's Trail. Enemies: Small
 
 </div>
 
-**Mywildcave1** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Mywildcave, Mywildcave2.
+**Mywildcave 1** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Mywildcave, Mywildcave 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mywildcave1.webp" alt="Map of Mywildcave1" width="512" height="384" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../mywildcave/#place-cave" title="Exit to Mywildcave" style="left:12.500%;top:91.667%;width:6.250%;height:8.333%"></a><a id="place-down" class="mo mo-mapchange" href="../mywildcave2/#place-up" title="Exit to Mywildcave2" style="left:81.250%;top:16.667%;width:6.250%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Small stone worm" style="left:12.500%;top:41.667%;width:50.000%;height:41.667%"></span><span class="mo mo-spawn" title="Spawns: Old stone worm, Stone worm" style="left:62.500%;top:41.667%;width:6.250%;height:16.667%"></span><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:25.000%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:50.000%;top:66.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:43.750%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/old_stone_worm/" title="Old stone worm" style="left:62.500%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik9_33.png" alt="Old stone worm"></a><a class="pin pin-exit" href="#key-1" style="left:15.625%;top:95.833%" title="Exit (south): to [Mywildcave](mywildcave.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:20.833%" title="Exit (stairs / passage): to [Mywildcave2](mywildcave2.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mywildcave1.webp" alt="Map of Mywildcave 1" width="512" height="384" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../mywildcave/#place-cave" title="Exit to Mywildcave" style="left:12.500%;top:91.667%;width:6.250%;height:8.333%"></a><a id="place-down" class="mo mo-mapchange" href="../mywildcave2/#place-up" title="Exit to Mywildcave 2" style="left:81.250%;top:16.667%;width:6.250%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Small stone worm" style="left:12.500%;top:41.667%;width:50.000%;height:41.667%"></span><span class="mo mo-spawn" title="Spawns: Old stone worm, Stone worm" style="left:62.500%;top:41.667%;width:6.250%;height:16.667%"></span><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:25.000%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:50.000%;top:66.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/small_stone_worm/" title="Small stone worm" style="left:43.750%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_snakes_0.png" alt="Small stone worm"></a><a class="mob" href="../../monsters/old_stone_worm/" title="Old stone worm" style="left:62.500%;top:41.667%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik9_33.png" alt="Old stone worm"></a><a class="pin pin-exit" href="#key-1" style="left:15.625%;top:95.833%" title="Exit (south): to [Mywildcave](mywildcave.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:20.833%" title="Exit (stairs / passage): to [Mywildcave 2](mywildcave2.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
     | <span id="key-1"></span>1 | Exit (south) | to [Mywildcave](mywildcave.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Mywildcave2](mywildcave2.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Mywildcave 2](mywildcave2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,7 +41,7 @@ description: "Mywildcave1 is an indoor location in Andor's Trail. Enemies: Small
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
 | South | [Mywildcave](mywildcave.md) | – | 1 |
-| Stairs / passage | [Mywildcave2](mywildcave2.md) | – | 2 |
+| Stairs / passage | [Mywildcave 2](mywildcave2.md) | – | 2 |
 
 ## Enemies
 

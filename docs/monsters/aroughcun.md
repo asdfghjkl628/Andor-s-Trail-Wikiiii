@@ -4,7 +4,7 @@ description: "Aroughcun is an enemy in Andor's Trail (animal) with 204 HP, worth
 
 # ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } Aroughcun
 
-**Found in:** Mt. Galmore: [galmore_55](../maps/galmore_55.md), Mt. Galmore: [galmore_57](../maps/galmore_57.md), Mt. Galmore: [galmore_63](../maps/galmore_63.md), Mt. Galmore: [galmore_64](../maps/galmore_64.md) (+5 more)
+**Found in:** Mt. Galmore: [Galmore 55](../maps/galmore_55.md), Mt. Galmore: [Galmore 57](../maps/galmore_57.md), Mt. Galmore: [Galmore 63](../maps/galmore_63.md), Mt. Galmore: [Galmore 64](../maps/galmore_64.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -59,15 +59,15 @@ description: "Aroughcun is an enemy in Andor's Trail (animal) with 204 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 6 | – |
-| [galmore_57](../maps/galmore_57.md) | Mt. Galmore | 5 | – |
-| [galmore_63](../maps/galmore_63.md) | Mt. Galmore | 8 | – |
-| [galmore_64](../maps/galmore_64.md) | Mt. Galmore | 12 | – |
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 9 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 7 | – |
-| [galmore_67](../maps/galmore_67.md) | Mt. Galmore | 9 | – |
-| [galmore_68](../maps/galmore_68.md) | Mt. Galmore | 9 | – |
-| [galmore_73](../maps/galmore_73.md) | Mt. Galmore | 8 | – |
+| [Galmore 55](../maps/galmore_55.md) | Mt. Galmore | 6 | – |
+| [Galmore 57](../maps/galmore_57.md) | Mt. Galmore | 5 | – |
+| [Galmore 63](../maps/galmore_63.md) | Mt. Galmore | 8 | – |
+| [Galmore 64](../maps/galmore_64.md) | Mt. Galmore | 12 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 9 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 7 | – |
+| [Galmore 67](../maps/galmore_67.md) | Mt. Galmore | 9 | – |
+| [Galmore 68](../maps/galmore_68.md) | Mt. Galmore | 9 | – |
+| [Galmore 73](../maps/galmore_73.md) | Mt. Galmore | 8 | – |
 
 
 ## Version history

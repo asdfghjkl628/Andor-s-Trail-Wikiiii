@@ -1,5 +1,5 @@
 ---
-description: "Dark spirit is an NPC who can also be fought in Andor's Trail, found in Crossglen, galmore_32."
+description: "Dark spirit is an NPC who can also be fought in Andor's Trail, found in Crossglen, Galmore 32."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_686.png){ .sprite } Dark spirit
@@ -11,7 +11,7 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Crossglen, galmore_32 |
+| **Found in** | Crossglen, Galmore 32 |
 | **Class** | Demon |
 | **HP** | 470–509 |
 | **XP when defeated** | 851–999 |
@@ -22,18 +22,18 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Dark spirit. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Dark spirit. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`crossglen_dark_spirit`](#v-crossglen_dark_spirit) | Enemy | Crossglen: [crossglen_farmhouse](../maps/crossglen_farmhouse.md) | – | 470 |
-| [`undertell_dark_spirit`](#v-undertell_dark_spirit) | NPC/Enemy | [galmore_32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit) | – | 509 |
+| [`crossglen_dark_spirit`](#v-crossglen_dark_spirit) | Enemy | Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md) | – | 470 |
+| [`undertell_dark_spirit`](#v-undertell_dark_spirit) | NPC/Enemy | [Galmore 32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit) | – | 509 |
 
 ## Crossglen, Crossglen farmhouse (crossglen_dark_spirit) { #v-crossglen_dark_spirit }
 
 **Entry ID:** `crossglen_dark_spirit` · **Type:** Enemy
 
-**Location:** Crossglen: [crossglen_farmhouse](../maps/crossglen_farmhouse.md)
+**Location:** Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md)
 
 ### Combat statistics
 
@@ -76,11 +76,11 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen_farmhouse](../maps/crossglen_farmhouse.md) | Crossglen | 1 | Appears later, during a quest |
+| [Crossglen farmhouse](../maps/crossglen_farmhouse.md) | Crossglen | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [A familiar shadow](../quests/familiar_shadow.md#stage-50) with stepping on a trigger on [crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
+- [A familiar shadow](../quests/familiar_shadow.md#stage-50) with stepping on a trigger on [Crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -148,7 +148,7 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 
 **Entry ID:** `undertell_dark_spirit` · **Type:** NPC/Enemy
 
-**Location:** [galmore_32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit)
+**Location:** [Galmore 32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -194,19 +194,19 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_32](../maps/galmore_32.md) | – | 1 | Appears later, during a quest |
+| [Galmore 32](../maps/galmore_32.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- A conversation with stepping on a trigger on [galmore_32](../maps/galmore_32.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Galmore 32](../maps/galmore_32.md) checks that this enemy has been defeated.
 
 ### Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 4
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 4
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark spirit. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark spirit. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/galmore_dark_spirit_selector.json" data-npc="Dark spirit" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -214,11 +214,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-undertell_dark_spirit-galmore_dark_spirit_selector"></span>**`galmore_dark_spirit_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 4 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-4))* → *fight starts*
+    - branch 1 *(if reached stage 4 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-4))* → *fight starts*
     - branch 2 → [galmore_dark_spirit_10](#d-undertell_dark_spirit-galmore_dark_spirit_10)
 
     <span id="d-undertell_dark_spirit-galmore_dark_spirit_10"></span>**`galmore_dark_spirit_10`** Dark spirit: “Destroy me? Foolish mortal! I am older than your bloodline, stronger than your resolve. You will break, just like the others. Their despair feeds me, and yours will be no different!”
@@ -229,7 +229,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [galmore_dark_spirit_20](#d-undertell_dark_spirit-galmore_dark_spirit_20)
 
-    <span id="d-undertell_dark_spirit-galmore_dark_spirit_20"></span>**`galmore_dark_spirit_20`** [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit): “Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness of my power!” — **effects:** spawns monsters on galmore_32, sets stage 4 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-4)
+    <span id="d-undertell_dark_spirit-galmore_dark_spirit_20"></span>**`galmore_dark_spirit_20`** [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit): “Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness of my power!” — **effects:** spawns monsters on galmore_32, sets stage 4 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-4)
 
     - “Let me show you the darkness of my power!” → *fight starts*
 

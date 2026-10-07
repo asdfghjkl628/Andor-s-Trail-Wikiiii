@@ -1,5 +1,5 @@
 ---
-description: "Liberated Elytharan ghost is an NPC who can also be fought in Andor's Trail, found in undertell_3_00. Starts About a girl."
+description: "Liberated Elytharan ghost is an NPC who can also be fought in Andor's Trail, found in Undertell 3 00. Starts About a girl."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Liberated Elytharan ghost
@@ -12,7 +12,7 @@ description: "Liberated Elytharan ghost is an NPC who can also be fought in Ando
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [About a girl](../quests/about_a_girl.md) |
-| **Found in** | undertell_3_00 |
+| **Found in** | Undertell 3 00 |
 | **Class** | Ghost |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -23,18 +23,18 @@ description: "Liberated Elytharan ghost is an NPC who can also be fought in Ando
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Liberated Elytharan ghost. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Liberated Elytharan ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`elytharan_liberated_ghost`](#v-elytharan_liberated_ghost) | NPC | [undertell_3_00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) | starts [About a girl](../quests/about_a_girl.md) | – |
-| [`elytharan_liberated_ghost2`](#v-elytharan_liberated_ghost2) | Enemy | [undertell_3_00](../maps/undertell_3_00.md) | – | 1 |
+| [`elytharan_liberated_ghost`](#v-elytharan_liberated_ghost) | NPC | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) | starts [About a girl](../quests/about_a_girl.md) | – |
+| [`elytharan_liberated_ghost2`](#v-elytharan_liberated_ghost2) | Enemy | [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 |
 
 ## Undertell 3 00 (elytharan_liberated_ghost) { #v-elytharan_liberated_ghost }
 
 **Entry ID:** `elytharan_liberated_ghost` · **Type:** NPC · **Role:** Starts [About a girl](../quests/about_a_girl.md)
 
-**Location:** [undertell_3_00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost)
+**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost)
 
 ### Quests
 
@@ -42,7 +42,7 @@ description: "Liberated Elytharan ghost is an NPC who can also be fought in Ando
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Liberated Elytharan ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Liberated Elytharan ghost. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/elytharan_liberated_ghost_selector.json" data-npc="Liberated Elytharan ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (22 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-elytharan_liberated_ghost-elytharan_liberated_ghost_selector"></span>**`elytharan_liberated_ghost_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -186,7 +186,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `elytharan_liberated_ghost2` · **Type:** Enemy
 
-**Location:** [undertell_3_00](../maps/undertell_3_00.md)
+**Location:** [Undertell 3 00](../maps/undertell_3_00.md)
 
 ### Combat statistics
 
@@ -217,7 +217,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
 
 
 ### Version history

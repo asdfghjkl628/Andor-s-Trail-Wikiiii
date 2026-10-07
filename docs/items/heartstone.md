@@ -25,7 +25,7 @@ description: "Heartstone is a quest gem in Andor's Trail. How to get it: quests 
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) during [Lost treasures](../quests/nocmar.md#stage-70) (1×)
+- From walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) during [Lost treasures](../quests/nocmar.md#stage-70) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Nocmar](../monsters/nocmar.md) | – | must be carried (1×) | “Actually, I found two. [extend your hands, one stone in each]” |
-| [Nocmar](../monsters/nocmar.md) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-10) | handed over (1×) | “Yes, at last I found it.” |
-| [Brenor](../monsters/brenor.md) ([undertell_1_0](../maps/undertell_1_0.md)) | – | must be carried (1×) | “(automatic)” |
-| [Nocmar](../monsters/nocmar.md) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-10) | handed over (1×) | “What about this other one? [showing Nocmar the stone in your left hand]” |
+| [Nocmar](../monsters/nocmar.md) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-10) | handed over (1×) | “Yes, at last I found it.” |
+| [Brenor](../monsters/brenor.md) ([Undertell 1 0](../maps/undertell_1_0.md)) | – | must be carried (1×) | “(automatic)” |
+| [Nocmar](../monsters/nocmar.md) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-10) | handed over (1×) | “What about this other one? [showing Nocmar the stone in your left hand]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

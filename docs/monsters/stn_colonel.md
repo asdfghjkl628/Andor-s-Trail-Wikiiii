@@ -4,7 +4,7 @@ description: "Colonel Lutarc is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_rltiles2_37.png){ .sprite } Colonel Lutarc
 
-**Where to find Colonel Lutarc:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md#pin-npc-stn_colonel)
+**Where to find Colonel Lutarc:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_colonel)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Colonel Lutarc is a non-player character (NPC) in Andor's Trail, f
 ## Quests
 
 - [Colonel Lutarc](../quests/stn_colonel.md): stages 10, 20, 170, 171, 172, 190
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 50, 110
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 50, 110
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Colonel Lutarc. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Colonel Lutarc. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_colonel_30.json" data-npc="Colonel Lutarc" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (34 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_colonel_30"></span>**`stn_colonel_30`** *(silent check: the first matching branch below is taken)*
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 190 of [Colonel Lutarc](../quests/stn_colonel.md#stage-190))* → [stn_colonel_300](#d-stn_colonel_300)
     - branch 2 *(if reached stage 160 of [Colonel Lutarc](../quests/stn_colonel.md#stage-160))* → [stn_colonel_200](#d-stn_colonel_200)
     - branch 3 *(if reached stage 10 of [Colonel Lutarc](../quests/stn_colonel.md#stage-10); NOT reached stage 20 of [Colonel Lutarc](../quests/stn_colonel.md#stage-20))* → [stn_colonel_40](#d-stn_colonel_40)
-    - branch 4 *(if NOT reached stage 110 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-110))* → [stn_colonel_32](#d-stn_colonel_32)
+    - branch 4 *(if NOT reached stage 110 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-110))* → [stn_colonel_32](#d-stn_colonel_32)
     - branch 5 → [stn_colonel_38](#d-stn_colonel_38)
 
     <span id="d-stn_colonel_300"></span>**`stn_colonel_300`** [Colonel Lutarc](../monsters/stn_colonel.md): “Greetings, $playername.”
@@ -92,7 +92,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “May I ask what you are doing here?” → [stn_colonel_50](#d-stn_colonel_50)
 
-    <span id="d-stn_colonel_34"></span>**`stn_colonel_34`** Colonel Lutarc: “Here you are.” — **effects:** sets stage 50 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-50)
+    <span id="d-stn_colonel_34"></span>**`stn_colonel_34`** Colonel Lutarc: “Here you are.” — **effects:** sets stage 50 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-50)
 
     - “Who are you and how do you know my name?” → [stn_colonel_40](#d-stn_colonel_40)
 
@@ -137,7 +137,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-stn_colonel_70"></span>**`stn_colonel_70`** Colonel Lutarc: “Now I am curious about how well you could handle a number of my better warriors. Would you like to try?”
 
-    - “Sure. After I have finished my tea of course.” *(if reached stage 50 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-50))* → [stn_colonel_72](#d-stn_colonel_72)
+    - “Sure. After I have finished my tea of course.” *(if reached stage 50 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-50))* → [stn_colonel_72](#d-stn_colonel_72)
     - “Why not? A little challenge is always good.” → [stn_colonel_80](#d-stn_colonel_80)
     - “Maybe some other time. I have to leave now.” → *conversation ends*
 
@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “[Drinking]” → [stn_colonel_74](#d-stn_colonel_74)
     - “OK, now to business.” → [stn_colonel_80](#d-stn_colonel_80)
 
-    <span id="d-stn_colonel_80"></span>**`stn_colonel_80`** [Colonel Lutarc](../monsters/stn_colonel.md): “Good. Please go to the foot of this hill, right down there, by the gate.” — **effects:** sets stage 20 of [Colonel Lutarc](../quests/stn_colonel.md#stage-20), sets stage 110 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-110)
+    <span id="d-stn_colonel_80"></span>**`stn_colonel_80`** [Colonel Lutarc](../monsters/stn_colonel.md): “Good. Please go to the foot of this hill, right down there, by the gate.” — **effects:** sets stage 20 of [Colonel Lutarc](../quests/stn_colonel.md#stage-20), sets stage 110 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-110)
 
     - Next → [stn_colonel_82](#d-stn_colonel_82)
 

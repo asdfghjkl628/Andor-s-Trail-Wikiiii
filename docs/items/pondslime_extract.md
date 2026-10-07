@@ -27,7 +27,7 @@ description: "Pondslime extract is a quest other in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [galmore_17](../maps/galmore_17.md) during [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-18) (10×)
+- From stepping on a trigger on [Galmore 17](../maps/galmore_17.md) during [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-18) (10×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,10 +38,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (10×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (10×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (10×) | “Here, take them, please.” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | handed over (10×) | “Here, take them, please.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (10×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (10×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (10×) | “Here, take them, please.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | handed over (10×) | “Here, take them, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

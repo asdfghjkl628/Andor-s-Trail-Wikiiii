@@ -1,8 +1,8 @@
 ---
-description: "Jan pitcave1 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Yellow cave ant. Exits to Jan pitcave2, Wild3."
+description: "Jan pitcave 1 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Yellow cave ant. Exits to Jan pitcave 2, Wild 3."
 ---
 
-# Jan pitcave1
+# Jan pitcave 1
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Jan pitcave1 is an indoor location in Andor's Trail, in Fallhaven 
 
 </div>
 
-**Jan pitcave1** is an indoor map, in Fallhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Jan pitcave2, Wild3.
+**Jan pitcave 1** is an indoor map, in Fallhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Jan pitcave 2, Wild 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/jan_pitcave1.webp" alt="Map of Jan pitcave1" width="320" height="320" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../jan_pitcave2/#place-up" title="Exit to Jan pitcave2" style="left:70.000%;top:70.000%;width:10.000%;height:10.000%"></a><a id="place-up" class="mo mo-mapchange" href="../wild3/#place-jan_pitcave" title="Exit to Wild3" style="left:20.000%;top:20.000%;width:10.000%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Yellow cave ant" style="left:40.000%;top:80.000%;width:30.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Yellow cave ant" style="left:40.000%;top:30.000%;width:50.000%;height:10.000%"></span><a class="mob" href="../../monsters/yellow_cave_ant/" title="Yellow cave ant" style="left:40.000%;top:80.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Yellow cave ant"></a><a class="mob" href="../../monsters/yellow_cave_ant/" title="Yellow cave ant" style="left:40.000%;top:30.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Yellow cave ant"></a><a class="pin pin-exit" href="#key-1" style="left:75.000%;top:75.000%" title="Exit (stairs / passage): to [Jan pitcave2](jan_pitcave2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:25.000%" title="Exit (exit outside): to [Wild3](wild3.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/jan_pitcave1.webp" alt="Map of Jan pitcave 1" width="320" height="320" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../jan_pitcave2/#place-up" title="Exit to Jan pitcave 2" style="left:70.000%;top:70.000%;width:10.000%;height:10.000%"></a><a id="place-up" class="mo mo-mapchange" href="../wild3/#place-jan_pitcave" title="Exit to Wild 3" style="left:20.000%;top:20.000%;width:10.000%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Yellow cave ant" style="left:40.000%;top:80.000%;width:30.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Yellow cave ant" style="left:40.000%;top:30.000%;width:50.000%;height:10.000%"></span><a class="mob" href="../../monsters/yellow_cave_ant/" title="Yellow cave ant" style="left:40.000%;top:80.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Yellow cave ant"></a><a class="mob" href="../../monsters/yellow_cave_ant/" title="Yellow cave ant" style="left:40.000%;top:30.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Yellow cave ant"></a><a class="pin pin-exit" href="#key-1" style="left:75.000%;top:75.000%" title="Exit (stairs / passage): to [Jan pitcave 2](jan_pitcave2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:25.000%" title="Exit (exit outside): to [Wild 3](wild3.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Jan pitcave2](jan_pitcave2.md) |
-    | <span id="key-2"></span>2 | Exit (exit outside) | to [Wild3](wild3.md) |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Jan pitcave 2](jan_pitcave2.md) |
+    | <span id="key-2"></span>2 | Exit (exit outside) | to [Wild 3](wild3.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Jan pitcave1 is an indoor location in Andor's Trail, in Fallhaven 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Stairs / passage | [Jan pitcave2](jan_pitcave2.md) | – | 1 |
-| Exit outside | [Wild3](wild3.md) | Fallhaven | 2 |
+| Stairs / passage | [Jan pitcave 2](jan_pitcave2.md) | – | 1 |
+| Exit outside | [Wild 3](wild3.md) | Fallhaven | 2 |
 
 ## Enemies
 

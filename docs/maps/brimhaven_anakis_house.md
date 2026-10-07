@@ -1,5 +1,5 @@
 ---
-description: "Brimhaven anakis house is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Anakis, Juttarka. Exits to Brimhaven4."
+description: "Brimhaven anakis house is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Anakis, Juttarka. Exits to Brimhaven 4."
 ---
 
 # Brimhaven anakis house
@@ -18,19 +18,19 @@ description: "Brimhaven anakis house is an indoor location in Andor's Trail, in 
 
 </div>
 
-**Brimhaven anakis house** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven4.
+**Brimhaven anakis house** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_anakis_house.webp" alt="Map of Brimhaven anakis house" width="256" height="288" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven4/#place-anakis_house" title="Exit to Brimhaven4" style="left:25.000%;top:88.889%;width:12.500%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Anakis (only appears later, during a quest)" style="left:25.000%;top:33.333%;width:37.500%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Juttarka (only appears later, during a quest)" style="left:62.500%;top:55.556%;width:25.000%;height:22.222%"></span><a class="mob mob-later" href="../../monsters/anakis/" title="Anakis (appears later in a quest)" style="left:37.500%;top:44.444%;width:12.500%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_84.png" alt="Anakis"></a><a class="mob mob-later" href="../../monsters/juttarka/" title="Juttarka (appears later in a quest)" style="left:75.000%;top:55.556%;width:12.500%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_185.png" alt="Juttarka"></a><a class="pin pin-exit" href="#key-1" style="left:31.250%;top:94.444%" title="Exit (south): to [Brimhaven4](brimhaven4.md)">1</a><a id="pin-npc-anakis" class="pin pin-npc" href="#key-2" style="left:43.750%;top:50.000%" title="[Anakis](../../monsters/anakis.md): 1 quest">2</a><a id="pin-npc-juttarka" class="pin pin-npc" href="#key-3" style="left:81.250%;top:61.111%" title="[Juttarka](../../monsters/juttarka.md): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_anakis_house.webp" alt="Map of Brimhaven anakis house" width="256" height="288" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven4/#place-anakis_house" title="Exit to Brimhaven 4" style="left:25.000%;top:88.889%;width:12.500%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Anakis (only appears later, during a quest)" style="left:25.000%;top:33.333%;width:37.500%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Juttarka (only appears later, during a quest)" style="left:62.500%;top:55.556%;width:25.000%;height:22.222%"></span><a class="mob mob-later" href="../../monsters/anakis/" title="Anakis (appears later in a quest)" style="left:37.500%;top:44.444%;width:12.500%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_84.png" alt="Anakis"></a><a class="mob mob-later" href="../../monsters/juttarka/" title="Juttarka (appears later in a quest)" style="left:75.000%;top:55.556%;width:12.500%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_185.png" alt="Juttarka"></a><a class="pin pin-exit" href="#key-1" style="left:31.250%;top:94.444%" title="Exit (south): to [Brimhaven 4](brimhaven4.md)">1</a><a id="pin-npc-anakis" class="pin pin-npc" href="#key-2" style="left:43.750%;top:50.000%" title="[Anakis](../../monsters/anakis.md): 1 quest">2</a><a id="pin-npc-juttarka" class="pin pin-npc" href="#key-3" style="left:81.250%;top:61.111%" title="[Juttarka](../../monsters/juttarka.md): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven4](brimhaven4.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 4](brimhaven4.md) |
     | <span id="key-2"></span>2 | [Anakis](../monsters/anakis.md) | 1 quest |
     | <span id="key-3"></span>3 | [Juttarka](../monsters/juttarka.md) | NPC |
 
@@ -41,7 +41,7 @@ description: "Brimhaven anakis house is an indoor location in Andor's Trail, in 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven4](brimhaven4.md) | Brimhaven | 1 |
+| South | [Brimhaven 4](brimhaven4.md) | Brimhaven | 1 |
 
 ## NPCs
 

@@ -4,7 +4,7 @@ description: "Room service is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_fatboy73_6.png){ .sprite } Room service
 
-**Where to find Room service:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-brv_cleaning)
+**Where to find Room service:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_cleaning)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Room service is a non-player character (NPC) in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Room service. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Room service. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_cleaning.json" data-npc="Room service" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_cleaning"></span>**`brv_cleaning`** *(silent check: the first matching branch below is taken)*
 

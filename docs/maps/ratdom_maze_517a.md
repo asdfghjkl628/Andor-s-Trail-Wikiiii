@@ -84,7 +84,7 @@ description: "Ratdom maze 517a is an indoor location in Andor's Trail. NPCs: Cle
 ## Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; blocked passage opens at stage 171; part of the map changes at stage 162; part of the map changes at stage 163; part of the map changes at stage 164; part of the map changes at stage 165; part of the map changes at stage 166; part of the map changes at stage 169; part of the map changes at stage 171; something on this map advances it; stepping on a trigger here sets stage 162; stepping on a trigger here sets stage 163; stepping on a trigger here sets stage 164; stepping on a trigger here sets stage 165; stepping on a trigger here sets stage 166; stepping on a trigger here sets stage 169
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; blocked passage opens at stage 171; part of the map changes at stage 162; part of the map changes at stage 163; part of the map changes at stage 164; part of the map changes at stage 165; part of the map changes at stage 166; part of the map changes at stage 169; part of the map changes at stage 171; something on this map advances it; stepping on a trigger here sets stage 162; stepping on a trigger here sets stage 163; stepping on a trigger here sets stage 164; stepping on a trigger here sets stage 165; stepping on a trigger here sets stage 166; stepping on a trigger here sets stage 169
 
 ## Points of interest
 

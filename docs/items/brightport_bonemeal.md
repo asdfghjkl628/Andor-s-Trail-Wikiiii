@@ -36,9 +36,9 @@ description: "Essence concentrate potion is a rare potion in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-110) (1×)
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-100) (2×)
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112) (1×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-110) (1×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-100) (2×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

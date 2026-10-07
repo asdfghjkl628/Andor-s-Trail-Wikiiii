@@ -4,7 +4,7 @@ description: "Young cave worm is an enemy in Andor's Trail (reptile) with 30 HP,
 
 # ![](../assets/icons/monsters/monsters_tometik9_23.png){ .sprite } Young cave worm
 
-**Found in:** Instrument maker: [ratdom_maze_454](../maps/ratdom_maze_454.md), Instrument maker: [ratdom_maze_463](../maps/ratdom_maze_463.md), Instrument maker: [ratdom_maze_464](../maps/ratdom_maze_464.md), Library: [ratdom_maze_521](../maps/ratdom_maze_521.md) (+4 more)
+**Found in:** Instrument maker: [Ratdom maze 454](../maps/ratdom_maze_454.md), Instrument maker: [Ratdom maze 463](../maps/ratdom_maze_463.md), Instrument maker: [Ratdom maze 464](../maps/ratdom_maze_464.md), Library: [Ratdom maze 521](../maps/ratdom_maze_521.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Young cave worm is an enemy in Andor's Trail (reptile) with 30 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_441](../maps/ratdom_maze_441.md) | Pub | 2 | – |
-| [ratdom_maze_451](../maps/ratdom_maze_451.md) | – | 2 | – |
-| [ratdom_maze_452](../maps/ratdom_maze_452.md) | – | 2 | – |
-| [ratdom_maze_454](../maps/ratdom_maze_454.md) | Instrument maker | 2 | – |
-| [ratdom_maze_463](../maps/ratdom_maze_463.md) | Instrument maker | 2 | – |
-| [ratdom_maze_464](../maps/ratdom_maze_464.md) | Instrument maker | 2 | – |
-| [ratdom_maze_521](../maps/ratdom_maze_521.md) | Library | 2 | – |
-| [ratdom_maze_531](../maps/ratdom_maze_531.md) | – | 2 | – |
+| [Ratdom maze 441](../maps/ratdom_maze_441.md) | Pub | 2 | – |
+| [Ratdom maze 451](../maps/ratdom_maze_451.md) | – | 2 | – |
+| [Ratdom maze 452](../maps/ratdom_maze_452.md) | – | 2 | – |
+| [Ratdom maze 454](../maps/ratdom_maze_454.md) | Instrument maker | 2 | – |
+| [Ratdom maze 463](../maps/ratdom_maze_463.md) | Instrument maker | 2 | – |
+| [Ratdom maze 464](../maps/ratdom_maze_464.md) | Instrument maker | 2 | – |
+| [Ratdom maze 521](../maps/ratdom_maze_521.md) | Library | 2 | – |
+| [Ratdom maze 531](../maps/ratdom_maze_531.md) | – | 2 | – |
 
 
 ## Version history

@@ -37,8 +37,8 @@ description: "Fine snakeskin gloves is a ordinary gloves, cloth in Andor's Trail
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 5% | 1 | lodar16, lodar19 |
-| [Venomscale master](../monsters/vscaleb2.md) | 5% | 1 | lodar17, lodar19 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 5% | 1 | Lodar 16, Lodar 19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 5% | 1 | Lodar 17, Lodar 19 |
 
 ### Sold by
 
@@ -54,8 +54,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my fine snakeskin gloves.” |
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my fine snakeskin gloves.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my fine snakeskin gloves.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my fine snakeskin gloves.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

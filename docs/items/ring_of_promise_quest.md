@@ -28,7 +28,7 @@ description: "Arensia's Ring of Promise is a quest ring in Andor's Trail. How to
 
 ### Quest & dialogue rewards
 
-- From [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) during [It's knot funny](../quests/fallhaven_lytwings.md#stage-91) (1×)
+- From [Arensia](../monsters/arensia.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) during [It's knot funny](../quests/fallhaven_lytwings.md#stage-91) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-92) | handed over (1×) | “Yes, here is her promise ring.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-92) | handed over (1×) | “Yes, here is her promise ring.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

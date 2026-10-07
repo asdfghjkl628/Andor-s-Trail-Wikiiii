@@ -1,10 +1,10 @@
 ---
-description: "Grimmthorn marauder is an enemy in Andor's Trail (humanoid) with 369 HP, worth 562 XP, found in way_to_sullengard_west_1, way_to_sullengard_west_3. Drops: Gold coins, Maul, Titanforge stompers."
+description: "Grimmthorn marauder is an enemy in Andor's Trail (humanoid) with 369 HP, worth 562 XP, found in Way to sullengard west 1, Way to sullengard west 3. Drops: Gold coins, Maul, Titanforge stompers."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_22.png){ .sprite } Grimmthorn marauder
 
-**Found in:** [way_to_sullengard_west_1](../maps/way_to_sullengard_west_1.md), [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md)
+**Found in:** [Way to sullengard west 1](../maps/way_to_sullengard_west_1.md), [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Grimmthorn marauder is an enemy in Andor's Trail (humanoid) with 3
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_west_1, way_to_sullengard_west_3 |
+| **Found in** | Way to sullengard west 1, Way to sullengard west 3 |
 | **Class** | Humanoid |
 | **HP** | 369 |
 | **XP when defeated** | 562 |
@@ -56,8 +56,8 @@ description: "Grimmthorn marauder is an enemy in Andor's Trail (humanoid) with 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_1](../maps/way_to_sullengard_west_1.md) | – | 3 | – |
-| [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md) | – | 2 | – |
+| [Way to sullengard west 1](../maps/way_to_sullengard_west_1.md) | – | 3 | – |
+| [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md) | – | 2 | – |
 
 
 ## Version history

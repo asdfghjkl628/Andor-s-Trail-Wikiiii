@@ -43,13 +43,13 @@ description: "Ring of lesser Shadow is a legendary ring in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 0.01% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
-| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 0.01% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 0.01% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
+| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 0.01% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
 
 ### Quest & dialogue rewards
 
-- From [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) (1×)
-- From [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward5) ([guynmart_main_1](../maps/guynmart_main_1.md)) (1×)
+- From [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) (1×)
+- From [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward5) ([Guynmart main 1](../maps/guynmart_main_1.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -60,12 +60,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | – | must be worn (1×) | “See this ring that I am wearing? This is the Ring of lesser Shadow.” |
-| [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | – | must be carried (1×) | “(automatic)” |
-| [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | – | must be worn (1×) | “(automatic)” |
-| [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | – | must be carried (1×) | “That's a pity. I have been trailing my big brother for quite some time.” |
-| [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1) | handed over (1×) | “Thank you for your offer Rorthron. Here is the ring - be careful with it.” |
-| [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) | – | must be carried (1×) | “My Ring of the Lesser Shadow” |
+| [Lleglaris](../monsters/lleglaris.md) ([Tradehouse 1](../maps/tradehouse1.md)) | – | must be worn (1×) | “See this ring that I am wearing? This is the Ring of lesser Shadow.” |
+| [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) | – | must be carried (1×) | “(automatic)” |
+| [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) | – | must be worn (1×) | “(automatic)” |
+| [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) | – | must be carried (1×) | “That's a pity. I have been trailing my big brother for quite some time.” |
+| [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) | [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1) | handed over (1×) | “Thank you for your offer Rorthron. Here is the ring - be careful with it.” |
+| [Madame Mim](../monsters/swamp_witch.md) ([Swamp hut](../maps/swamp_hut.md)) | – | must be carried (1×) | “My Ring of the Lesser Shadow” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

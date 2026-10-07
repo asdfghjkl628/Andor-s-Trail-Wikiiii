@@ -4,7 +4,7 @@ description: "Loirash is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } Loirash
 
-**Where to find Loirash:** Instrument maker: [ratdom_maze_464](../maps/ratdom_maze_464.md#pin-npc-ratdom_bone_collector), Museum: [ratdom_maze_634](../maps/ratdom_maze_634.md#pin-npc-ratdom_bone_collector)
+**Where to find Loirash:** Instrument maker: [Ratdom maze 464](../maps/ratdom_maze_464.md#pin-npc-ratdom_bone_collector), Museum: [Ratdom maze 634](../maps/ratdom_maze_634.md#pin-npc-ratdom_bone_collector)
 
 <div class="infobox" markdown>
 
@@ -23,16 +23,16 @@ description: "Loirash is a non-player character (NPC) in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_464](../maps/ratdom_maze_464.md) | Instrument maker | 1 | – |
-| [ratdom_maze_634](../maps/ratdom_maze_634.md) | Museum | 1 | – |
+| [Ratdom maze 464](../maps/ratdom_maze_464.md) | Instrument maker | 1 | – |
+| [Ratdom maze 634](../maps/ratdom_maze_634.md) | Museum | 1 | – |
 
 ## Quests
 
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stage 121
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stage 121
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Loirash. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Loirash. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_bone_collector.json" data-npc="Loirash" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -40,12 +40,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_bone_collector"></span>**`ratdom_bone_collector`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if carry 1× [Leg bone of a rat](../items/ratdom_rat_skelett_leg_coll.md))* → [ratdom_bone_collector_50](#d-ratdom_bone_collector_50)
-    - branch 2 *(if reached stage 121 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-121))* → [ratdom_bone_collector_20](#d-ratdom_bone_collector_20)
+    - branch 2 *(if reached stage 121 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-121))* → [ratdom_bone_collector_20](#d-ratdom_bone_collector_20)
     - branch 3 → [ratdom_bone_collector_10](#d-ratdom_bone_collector_10)
 
     <span id="d-ratdom_bone_collector_50"></span>**`ratdom_bone_collector_50`** [Loirash](../monsters/ratdom_bone_collector.md): “Looks like you have something that doesn't belong to you?”
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Yes. I found this old leg bone of a rat. Can I purchase it?” → [ratdom_bone_collector_52](#d-ratdom_bone_collector_52)
     - “[Lie] No. I haven't taken anything.” *(if hand over 1× [Leg bone of a rat](../items/ratdom_rat_skelett_leg_coll.md))* → [ratdom_bone_collector_54](#d-ratdom_bone_collector_54)
 
-    <span id="d-ratdom_bone_collector_20"></span>**`ratdom_bone_collector_20`** [Loirash](../monsters/ratdom_bone_collector.md): “This cave is a great source of bones of high quality, so I will stay until my instrument is complete.” — **effects:** sets stage 121 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-121)
+    <span id="d-ratdom_bone_collector_20"></span>**`ratdom_bone_collector_20`** [Loirash](../monsters/ratdom_bone_collector.md): “This cave is a great source of bones of high quality, so I will stay until my instrument is complete.” — **effects:** sets stage 121 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-121)
 
     - “May I have a look?” → [ratdom_bone_collector_22](#d-ratdom_bone_collector_22)
     - “OK. Have fun.” → *conversation ends*
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ratdom_bone_collector_52"></span>**`ratdom_bone_collector_52`** Loirash: “Well, no. This is my favorite bone, it makes a good sound. Put it back, please.”
 
 
-    <span id="d-ratdom_bone_collector_54"></span>**`ratdom_bone_collector_54`** Loirash: “Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]” — **effects:** clears stage 120 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-120)
+    <span id="d-ratdom_bone_collector_54"></span>**`ratdom_bone_collector_54`** Loirash: “Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]” — **effects:** clears stage 120 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-120)
 
     - “I see.” → *conversation ends*
 

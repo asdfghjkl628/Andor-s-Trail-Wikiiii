@@ -4,7 +4,7 @@ description: "Blooming amoeba is an enemy in Andor's Trail (insect) with 60 HP, 
 
 # ![](../assets/icons/monsters/monsters_tometik10_11.png){ .sprite } Blooming amoeba
 
-**Found in:** Brightport: [waytobrightport21](../maps/waytobrightport21.md)
+**Found in:** Brightport: [Waytobrightport 21](../maps/waytobrightport21.md)
 
 <div class="infobox" markdown>
 
@@ -50,7 +50,7 @@ description: "Blooming amoeba is an enemy in Andor's Trail (insect) with 60 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 3 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 3 | – |
 
 
 ## Version history

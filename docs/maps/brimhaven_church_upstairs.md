@@ -54,7 +54,7 @@ description: "Brimhaven church upstairs is an indoor location in Andor's Trail. 
 
 - [A cat and mouse game](../quests/cat_and_mouse.md): [Seviron](../monsters/brv_churchman.md) is involved
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): something on this map advances it
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): something on this map advances it
 
 ## Points of interest
 

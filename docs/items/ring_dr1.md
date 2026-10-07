@@ -37,13 +37,13 @@ description: "Ring of damage resistance is a ordinary ring in Andor's Trail (Dam
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave gargoyle](../monsters/waterwaycavebeast.md) | 1% | 1 | waterwayacave1, waterwayacave2, waterwayacave3 |
+| [Cave gargoyle](../monsters/waterwaycavebeast.md) | 1% | 1 | Waterwayacave 1, Waterwayacave 2, Waterwayacave 3 |
 
 ### Sold by
 
 - [Yolgen](../monsters/yolgen.md) (Stoutford)
 - [Quiet thief](../monsters/stoutford_thief.md) (Stoutford)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

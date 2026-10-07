@@ -1,10 +1,10 @@
 ---
-description: "Shy Cora is a non-player character (NPC) in Andor's Trail, found in undertell_01, undertell_1_1. Shopkeeper."
+description: "Shy Cora is a non-player character (NPC) in Andor's Trail, found in Undertell 01, Undertell 1 1. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } Shy Cora
 
-**Where to find Shy Cora:** [undertell_01](../maps/undertell_01.md#pin-npc-shy_cora), [undertell_1_1](../maps/undertell_1_1.md#pin-npc-shy_cora)
+**Where to find Shy Cora:** [Undertell 01](../maps/undertell_01.md#pin-npc-shy_cora), [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-shy_cora)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Shy Cora is a non-player character (NPC) in Andor's Trail, found i
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | undertell_01, undertell_1_1 |
+| **Found in** | Undertell 01, Undertell 1 1 |
 | **Entry ID** | `shy_cora` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -36,12 +36,12 @@ description: "Shy Cora is a non-player character (NPC) in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_01](../maps/undertell_01.md) | – | 1 | Appears later, during a quest |
-| [undertell_1_1](../maps/undertell_1_1.md) | – | 1 | Appears later, during a quest |
+| [Undertell 01](../maps/undertell_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 1 1](../maps/undertell_1_1.md) | – | 1 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shy Cora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shy Cora. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cora_vendor_intro.json" data-npc="Shy Cora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cora_vendor_intro"></span>**`cora_vendor_intro`** Shy Cora: “You don't shout.”
 

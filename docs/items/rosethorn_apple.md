@@ -51,7 +51,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “I know, I'll drop a rosethorn apple on the ground. Let's see if that gets me on ” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “I know, I'll drop a rosethorn apple on the ground. Let's see if that gets me on ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

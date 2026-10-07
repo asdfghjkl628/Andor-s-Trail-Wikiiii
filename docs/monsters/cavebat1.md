@@ -4,7 +4,7 @@ description: "Gray cave bat is an enemy in Andor's Trail (animal) with 28 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik4_0.png){ .sprite } Gray cave bat
 
-**Found in:** Lake Laeroth: [laerothbasement0](../maps/laerothbasement0.md), [laerothcave1](../maps/laerothcave1.md), [lodar12cave0](../maps/lodar12cave0.md), [lodar12cave1](../maps/lodar12cave1.md) (+21 more)
+**Found in:** Lake Laeroth: [Laerothbasement 0](../maps/laerothbasement0.md), [Laerothcave 1](../maps/laerothcave1.md), [Lodar 12cave 0](../maps/lodar12cave0.md), [Lodar 12cave 1](../maps/lodar12cave1.md) (+21 more)
 
 <div class="infobox" markdown>
 
@@ -54,31 +54,31 @@ description: "Gray cave bat is an enemy in Andor's Trail (animal) with 28 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothbasement0](../maps/laerothbasement0.md) | Lake Laeroth | 3 | – |
-| [laerothcave1](../maps/laerothcave1.md) | – | 5 | – |
-| [lodar12cave0](../maps/lodar12cave0.md) | – | 5 | – |
-| [lodar12cave1](../maps/lodar12cave1.md) | – | 5 | – |
-| [lodar1cave0](../maps/lodar1cave0.md) | – | 4 | – |
-| [lodar5cave0](../maps/lodar5cave0.md) | – | 13 | – |
-| [lodar5cave1](../maps/lodar5cave1.md) | – | 7 | – |
-| [lodar5cave2](../maps/lodar5cave2.md) | – | 7 | – |
-| [lodar8cave0](../maps/lodar8cave0.md) | – | 6 | – |
-| [lodarcave0](../maps/lodarcave0.md) | – | 4 | – |
-| [lodarcave1](../maps/lodarcave1.md) | – | 3 | – |
-| [lodarcave2](../maps/lodarcave2.md) | – | 3 | – |
-| [lodarcave3](../maps/lodarcave3.md) | – | 3 | – |
-| [lodarcave4](../maps/lodarcave4.md) | – | 3 | – |
-| [lodarcave5](../maps/lodarcave5.md) | – | 4 | – |
-| [lodarcave6](../maps/lodarcave6.md) | – | 6 | – |
-| [lodarcave7](../maps/lodarcave7.md) | – | 3 | – |
-| [mushroom_m2_1](../maps/mushroom_m2_1.md) | – | 3 | – |
-| [mushroom_m2_2](../maps/mushroom_m2_2.md) | – | 3 | – |
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 2 | – |
-| [secretpassage0](../maps/secretpassage0.md) | – | 3 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 4 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 4 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 5 | – |
-| [shortcut_lodar4](../maps/shortcut_lodar4.md) | – | 3 | – |
+| [Laerothbasement 0](../maps/laerothbasement0.md) | Lake Laeroth | 3 | – |
+| [Laerothcave 1](../maps/laerothcave1.md) | – | 5 | – |
+| [Lodar 12cave 0](../maps/lodar12cave0.md) | – | 5 | – |
+| [Lodar 12cave 1](../maps/lodar12cave1.md) | – | 5 | – |
+| [Lodar 1cave 0](../maps/lodar1cave0.md) | – | 4 | – |
+| [Lodar 5cave 0](../maps/lodar5cave0.md) | – | 13 | – |
+| [Lodar 5cave 1](../maps/lodar5cave1.md) | – | 7 | – |
+| [Lodar 5cave 2](../maps/lodar5cave2.md) | – | 7 | – |
+| [Lodar 8cave 0](../maps/lodar8cave0.md) | – | 6 | – |
+| [Lodarcave 0](../maps/lodarcave0.md) | – | 4 | – |
+| [Lodarcave 1](../maps/lodarcave1.md) | – | 3 | – |
+| [Lodarcave 2](../maps/lodarcave2.md) | – | 3 | – |
+| [Lodarcave 3](../maps/lodarcave3.md) | – | 3 | – |
+| [Lodarcave 4](../maps/lodarcave4.md) | – | 3 | – |
+| [Lodarcave 5](../maps/lodarcave5.md) | – | 4 | – |
+| [Lodarcave 6](../maps/lodarcave6.md) | – | 6 | – |
+| [Lodarcave 7](../maps/lodarcave7.md) | – | 3 | – |
+| [Mushroom m 2 1](../maps/mushroom_m2_1.md) | – | 3 | – |
+| [Mushroom m 2 2](../maps/mushroom_m2_2.md) | – | 3 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 2 | – |
+| [Secretpassage 0](../maps/secretpassage0.md) | – | 3 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 4 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 4 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 5 | – |
+| [Shortcut lodar 4](../maps/shortcut_lodar4.md) | – | 3 | – |
 
 
 ## Version history

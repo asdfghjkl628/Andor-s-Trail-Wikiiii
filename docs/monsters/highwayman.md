@@ -1,5 +1,5 @@
 ---
-description: "Highwayman is an NPC who can also be fought in Andor's Trail, found in Fallhaven, way_to_sullengard_east9."
+description: "Highwayman is an NPC who can also be fought in Andor's Trail, found in Fallhaven, Way to sullengard east 9."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Highwayman
@@ -11,7 +11,7 @@ description: "Highwayman is an NPC who can also be fought in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Fallhaven, way_to_sullengard_east9 |
+| **Found in** | Fallhaven, Way to sullengard east 9 |
 | **Class** | Humanoid |
 | **HP** | 54–200 |
 | **XP when defeated** | 85–621 |
@@ -21,19 +21,19 @@ description: "Highwayman is an NPC who can also be fought in Andor's Trail, foun
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Highwayman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Highwayman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`highwayman`](#v-highwayman) | NPC/Enemy | Fallhaven: [wild9](../maps/wild9.md#pin-npc-highwayman) | – | 54 |
-| [`highwayman1`](#v-highwayman1) | NPC/Enemy | Fallhaven: [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1) | – | 154 |
-| [`sullengard_highwayman`](#v-sullengard_highwayman) | NPC/Enemy | [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman) | – | 200 |
+| [`highwayman`](#v-highwayman) | NPC/Enemy | Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-highwayman) | – | 54 |
+| [`highwayman1`](#v-highwayman1) | NPC/Enemy | Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1) | – | 154 |
+| [`sullengard_highwayman`](#v-sullengard_highwayman) | NPC/Enemy | [Way to sullengard east 9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman) | – | 200 |
 
-## Fallhaven, Wild9 (highwayman) { #v-highwayman }
+## Fallhaven, Wild 9 (highwayman) { #v-highwayman }
 
 **Entry ID:** `highwayman` · **Type:** NPC/Enemy
 
-**Location:** Fallhaven: [wild9](../maps/wild9.md#pin-npc-highwayman)
+**Location:** Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-highwayman)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -70,16 +70,16 @@ description: "Highwayman is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild9](../maps/wild9.md) | Fallhaven | 1 | – |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 1 | – |
 
 ### Quests that count defeats
 
-- [Unusual experiences and achievements](../quests/achievements.md#stage-20) with stepping on a trigger on [wild9](../maps/wild9.md) checks that at least 20 of these enemies have been defeated.
-- A conversation with [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) ([way_to_sullengard_east9](../maps/way_to_sullengard_east9.md)) checks that this enemy has been defeated.
+- [Unusual experiences and achievements](../quests/achievements.md#stage-20) with stepping on a trigger on [Wild 9](../maps/wild9.md) checks that at least 20 of these enemies have been defeated.
+- A conversation with [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) ([Way to sullengard east 9](../maps/way_to_sullengard_east9.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Highwayman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Highwayman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bandit1.json" data-npc="Highwayman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -87,7 +87,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-highwayman-bandit1"></span>**`bandit1`** Highwayman: “What have we here? A lost wanderer?” — **effects:** faction “fct_bandit1” set to -10
 
@@ -160,11 +160,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Roadbeforecrossroads3 (highwayman1) { #v-highwayman1 }
+## Fallhaven, Roadbeforecrossroads 3 (highwayman1) { #v-highwayman1 }
 
 **Entry ID:** `highwayman1` · **Type:** NPC/Enemy
 
-**Location:** Fallhaven: [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1)
+**Location:** Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -203,15 +203,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md) | Fallhaven | 1 | – |
+| [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md) | Fallhaven | 1 | – |
 
 ### Quests that count defeats
 
-- A conversation with [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) ([way_to_sullengard_east9](../maps/way_to_sullengard_east9.md)) checks that this enemy has been defeated.
+- A conversation with [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) ([Way to sullengard east 9](../maps/way_to_sullengard_east9.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Highwayman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Highwayman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/highwayman1.json" data-npc="Highwayman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -219,7 +219,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-highwayman1-highwayman1"></span>**`highwayman1`** Highwayman: “Hold up. What have we here? A lone traveller on the Duleian road.” — **effects:** faction “fct_highwayman1” set to -10
 
@@ -302,11 +302,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Way to sullengard east9 (sullengard_highwayman) { #v-sullengard_highwayman }
+## Way to sullengard east 9 (sullengard_highwayman) { #v-sullengard_highwayman }
 
 **Entry ID:** `sullengard_highwayman` · **Type:** NPC/Enemy
 
-**Location:** [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman)
+**Location:** [Way to sullengard east 9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -345,11 +345,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Highwayman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Highwayman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_highwayman.json" data-npc="Highwayman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -357,7 +357,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_highwayman-sullengard_highwayman"></span>**`sullengard_highwayman`** Highwayman: “I've been looking for someone who fits your description.” — **effects:** faction “fct_highwayman2” set to -10
 

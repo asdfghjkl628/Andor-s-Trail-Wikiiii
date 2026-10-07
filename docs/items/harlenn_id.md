@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | [Clouded intent](../quests/prim_hunt.md#stage-99) | handed over (1×) | “Yes, he is dead.” |
+| [Guthbered](../monsters/guthbered.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) | [Clouded intent](../quests/prim_hunt.md#stage-99) | handed over (1×) | “Yes, he is dead.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

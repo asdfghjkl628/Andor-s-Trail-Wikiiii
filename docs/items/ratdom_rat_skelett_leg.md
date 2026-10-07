@@ -25,13 +25,13 @@ description: "Leg bones of a rat is a quest other in Andor's Trail. How to get i
 
 ### Found in containers
 
-- [ratdom_maze_535a](../maps/ratdom_maze_535a.md#container-0) (container 1, 100%), Gold hunter
-- [ratdom_maze_568](../maps/ratdom_maze_568.md#container-0) (container 1, 100%), Labyrinth
+- [Ratdom maze 535a](../maps/ratdom_maze_535a.md#container-0) (container 1, 100%), Gold hunter
+- [Ratdom maze 568](../maps/ratdom_maze_568.md#container-0) (container 1, 100%), Labyrinth
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) during [Yellow is it](../quests/ratdom_quest.md#stage-32) (1×)
-- From walking into a blocked passage on [ratdom_maze_543d](../maps/ratdom_maze_543d.md), stepping on a trigger on [ratdom_maze_543d](../maps/ratdom_maze_543d.md) during [Yellow is it](../quests/ratdom_quest.md#stage-34) (1×)
+- From stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) during [Yellow is it](../quests/ratdom_quest.md#stage-32) (1×)
+- From walking into a blocked passage on [Ratdom maze 543d](../maps/ratdom_maze_543d.md), stepping on a trigger on [Ratdom maze 543d](../maps/ratdom_maze_543d.md) during [Yellow is it](../quests/ratdom_quest.md#stage-34) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -42,12 +42,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-390) | handed over (4×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | – | must be carried (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-321) | must be carried (4×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-324) | must be carried (4×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-322) | must be carried (4×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-323) | must be carried (4×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-390) | handed over (4×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | – | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-321) | must be carried (4×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-324) | must be carried (4×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-322) | must be carried (4×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-323) | must be carried (4×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

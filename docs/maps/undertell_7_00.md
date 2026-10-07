@@ -11,7 +11,7 @@ description: "Undertell 7 00 is an indoor location in Andor's Trail. NPCs: Vaelz
 | **Map ID** | `undertell_7_00` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level7](index.md) |
+| **World map** | [Undertell level 7](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -63,8 +63,8 @@ description: "Undertell 7 00 is an indoor location in Andor's Trail. NPCs: Vaelz
 ## Quests
 
 - [The fifth master](../quests/fifth_master.md): [Vaelzahr](../monsters/vaelzahr.md) is involved
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Vaelzahr](../monsters/vaelzahr.md) is involved
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Vaelzahr](../monsters/vaelzahr.md) is involved
 
 
 ## Version history

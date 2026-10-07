@@ -1,10 +1,10 @@
 ---
-description: "Icy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, worth 540 XP, found in swamp2. Drops: Fog in a bottle."
+description: "Icy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, worth 540 XP, found in Swamp 2. Drops: Fog in a bottle."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_26.png){ .sprite } Icy foggerlump
 
-**Found in:** [swamp2](../maps/swamp2.md)
+**Found in:** [Swamp 2](../maps/swamp2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Icy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | swamp2 |
+| **Found in** | Swamp 2 |
 | **Class** | Demon |
 | **HP** | 220 |
 | **XP when defeated** | 540 |
@@ -60,7 +60,7 @@ description: "Icy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [swamp2](../maps/swamp2.md) | – | 1 | – |
+| [Swamp 2](../maps/swamp2.md) | – | 1 | – |
 
 
 ## Version history

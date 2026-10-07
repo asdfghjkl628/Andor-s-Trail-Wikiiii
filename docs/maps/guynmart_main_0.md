@@ -78,7 +78,7 @@ description: "Guynmart main 0 is an indoor location in Andor's Trail, in Guynmar
 
 - [Roses](../quests/guynmart.md): [Guynmart](../monsters/guynmart.md) is involved; [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) is involved; [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) is involved; a scripted event can trigger here from stage 161; blocked passage opens at stage 666
 - [Search for Andor](../quests/andor.md): [Guynmart](../monsters/guynmart.md) is involved; [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) is involved
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) is involved
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) is involved
 
 ## Points of interest
 

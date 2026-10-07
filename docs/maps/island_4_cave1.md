@@ -1,8 +1,8 @@
 ---
-description: "Island 4 cave1 is an indoor location in Andor's Trail. NPCs: Algangror, Jhaeld. Exits to Island4, Island 4 cave2."
+description: "Island 4 cave 1 is an indoor location in Andor's Trail. NPCs: Algangror, Jhaeld. Exits to Island 4, Island 4 cave 2."
 ---
 
-# Island 4 cave1
+# Island 4 cave 1
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Island 4 cave1 is an indoor location in Andor's Trail. NPCs: Algan
 
 </div>
 
-**Island 4 cave1** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Island4, Island 4 cave2.
+**Island 4 cave 1** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Island 4, Island 4 cave 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/island_4_cave1.webp" alt="Map of Island 4 cave1" width="192" height="192" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../island4/#place-cave" title="Exit to Island4" style="left:16.667%;top:83.333%;width:16.667%;height:16.667%"></a><a id="place-down" class="mo mo-mapchange" href="../island_4_cave2/#place-up" title="Exit to Island 4 cave2" style="left:16.667%;top:50.000%;width:16.667%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Algangror (only appears later, during a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Jhaeld (only appears later, during a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:33.333%"></span><a class="mo mo-key" href="../../quests/final_cave/#stage-12" title="Unlocked during the quest: hidden story flag “final_cave” (stage 12: “12: Algangror/Jhaeld talk”)" style="left:16.667%;top:50.000%;width:16.667%;height:16.667%"></a><a class="mob mob-later" href="../../monsters/algangror/#v-lae_algangror1" title="Algangror (appears later in a quest)" style="left:50.000%;top:66.667%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_68.png" alt="Algangror"></a><a class="mob mob-later" href="../../monsters/jhaeld/#v-lae_jhaeld1" title="Jhaeld (appears later in a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_mage_0.png" alt="Jhaeld"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:91.667%" title="Exit (southwest): to [Island4](island4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:58.333%" title="Exit (west): to [Island 4 cave2](island_4_cave2.md)">2</a><a id="pin-npc-lae_algangror1" class="pin pin-npc" href="#key-3" style="left:58.333%;top:75.000%" title="[Algangror](../../monsters/algangror.md#v-lae_algangror1): 1 quest">3</a><a id="pin-npc-lae_jhaeld1" class="pin pin-npc" href="#key-4" style="left:58.333%;top:58.333%" title="[Jhaeld](../../monsters/jhaeld.md#v-lae_jhaeld1): 1 quest">4</a><a class="pin pin-key" href="#key-5" style="left:26.097%;top:45.835%" title="Blocked passage: Unlocked during the quest: hidden story flag “final_cave” (stage 12: “12: Algangror/Jhaeld talk”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/island_4_cave1.webp" alt="Map of Island 4 cave 1" width="192" height="192" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../island4/#place-cave" title="Exit to Island 4" style="left:16.667%;top:83.333%;width:16.667%;height:16.667%"></a><a id="place-down" class="mo mo-mapchange" href="../island_4_cave2/#place-up" title="Exit to Island 4 cave 2" style="left:16.667%;top:50.000%;width:16.667%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Algangror (only appears later, during a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Jhaeld (only appears later, during a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:33.333%"></span><a class="mo mo-key" href="../../quests/final_cave/#stage-12" title="Unlocked during the quest: hidden story flag “final_cave” (stage 12: “12: Algangror/Jhaeld talk”)" style="left:16.667%;top:50.000%;width:16.667%;height:16.667%"></a><a class="mob mob-later" href="../../monsters/algangror/#v-lae_algangror1" title="Algangror (appears later in a quest)" style="left:50.000%;top:66.667%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_68.png" alt="Algangror"></a><a class="mob mob-later" href="../../monsters/jhaeld/#v-lae_jhaeld1" title="Jhaeld (appears later in a quest)" style="left:50.000%;top:50.000%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_mage_0.png" alt="Jhaeld"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:91.667%" title="Exit (southwest): to [Island 4](island4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:58.333%" title="Exit (west): to [Island 4 cave 2](island_4_cave2.md)">2</a><a id="pin-npc-lae_algangror1" class="pin pin-npc" href="#key-3" style="left:58.333%;top:75.000%" title="[Algangror](../../monsters/algangror.md#v-lae_algangror1): 1 quest">3</a><a id="pin-npc-lae_jhaeld1" class="pin pin-npc" href="#key-4" style="left:58.333%;top:58.333%" title="[Jhaeld](../../monsters/jhaeld.md#v-lae_jhaeld1): 1 quest">4</a><a class="pin pin-key" href="#key-5" style="left:26.097%;top:45.835%" title="Blocked passage: Unlocked during the quest: hidden story flag “final_cave” (stage 12: “12: Algangror/Jhaeld talk”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Island4](island4.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Island 4 cave2](island_4_cave2.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Island 4](island4.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Island 4 cave 2](island_4_cave2.md) |
     | <span id="key-3"></span>3 | [Algangror](../monsters/algangror.md#v-lae_algangror1) | 1 quest |
     | <span id="key-4"></span>4 | [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) | 1 quest |
     | <span id="key-5"></span>5 | Blocked passage | Unlocked during the quest: hidden story flag “final_cave” (stage 12: “12: Algangror/Jhaeld talk”) |
@@ -43,8 +43,8 @@ description: "Island 4 cave1 is an indoor location in Andor's Trail. NPCs: Algan
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Island4](island4.md) | – | 1 |
-| West | [Island 4 cave2](island_4_cave2.md) | – | 2 |
+| Southwest | [Island 4](island4.md) | – | 1 |
+| West | [Island 4 cave 2](island_4_cave2.md) | – | 2 |
 
 ## NPCs
 
@@ -54,7 +54,7 @@ description: "Island 4 cave1 is an indoor location in Andor's Trail. NPCs: Algan
 ## Quests
 
 - [Not Pony Island](../quests/lae_centaurs.md): [Algangror](../monsters/algangror.md#v-lae_algangror1) is involved; [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) is involved
-- [final_cave (hidden flag)](../quests/final_cave.md): [Algangror](../monsters/algangror.md#v-lae_algangror1) is involved; [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) is involved; blocked passage opens at stage 12
+- [Final cave (hidden flag)](../quests/final_cave.md): [Algangror](../monsters/algangror.md#v-lae_algangror1) is involved; [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) is involved; blocked passage opens at stage 12
 
 ## Points of interest
 

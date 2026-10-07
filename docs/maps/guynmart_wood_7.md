@@ -12,7 +12,7 @@ description: "Guynmart wood 7 is an outdoor location in Andor's Trail, near Guyn
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
 | **Quests** | 1 |
@@ -58,7 +58,7 @@ description: "Guynmart wood 7 is an outdoor location in Andor's Trail, near Guyn
 ## Quests
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): blocked passage opens at stage 10; part of the map changes at stage 10
-- [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) is involved; part of the map changes at stage 11; something on this map advances it; stepping on a trigger here sets stage 11
+- [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) is involved; part of the map changes at stage 11; something on this map advances it; stepping on a trigger here sets stage 11
 
 ## Points of interest
 

@@ -36,15 +36,15 @@ description: "Gison's mushroom soup is a rare food in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-100) (2×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-20) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-22) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-24) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-26) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-28) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) (1×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) (5×)
-- From [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) (10×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-100) (2×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-20) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-22) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-24) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-26) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-28) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) (1×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) (5×)
+- From [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) (10×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -55,11 +55,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | must be carried (1×) | “(automatic)” |
-| [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | [Delicious soup](../quests/gison_soup.md#stage-30) | handed over (1×) | “(automatic)” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “No, I still have it with me.” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “Could you make it hot again?” |
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) | – | must be carried (1×) | “(automatic)” |
+| [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) | – | must be carried (1×) | “(automatic)” |
+| [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) | [Delicious soup](../quests/gison_soup.md#stage-30) | handed over (1×) | “(automatic)” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “No, I still have it with me.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “Could you make it hot again?” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

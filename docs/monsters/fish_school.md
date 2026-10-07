@@ -4,7 +4,7 @@ description: "Blue fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1
 
 # ![](../assets/icons/monsters/monsters_ld2_137.png){ .sprite } Blue fish
 
-**Found in:** Flagstone Prison: [lake_shore_road_1](../maps/lake_shore_road_1.md), [lake_shore_road_3](../maps/lake_shore_road_3.md), [lake_shore_road_4](../maps/lake_shore_road_4.md)
+**Found in:** Flagstone Prison: [Lake shore road 1](../maps/lake_shore_road_1.md), [Lake shore road 3](../maps/lake_shore_road_3.md), [Lake shore road 4](../maps/lake_shore_road_4.md)
 
 <div class="infobox" markdown>
 
@@ -48,9 +48,9 @@ description: "Blue fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_1](../maps/lake_shore_road_1.md) | Flagstone Prison | 3 | – |
-| [lake_shore_road_3](../maps/lake_shore_road_3.md) | – | 3 | – |
-| [lake_shore_road_4](../maps/lake_shore_road_4.md) | – | 7 | – |
+| [Lake shore road 1](../maps/lake_shore_road_1.md) | Flagstone Prison | 3 | – |
+| [Lake shore road 3](../maps/lake_shore_road_3.md) | – | 3 | – |
+| [Lake shore road 4](../maps/lake_shore_road_4.md) | – | 7 | – |
 
 
 ## Version history

@@ -27,9 +27,9 @@ description: "Weak Poison is a harmful blood condition in Andor's Trail: −1 HP
 |---|---|
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -51,18 +51,18 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | When it hits you | 3 | 4 rounds | 50% | Lake Laeroth |
-| [Aggressive venomscale](../monsters/vscale4.md) | When it hits you | 2 | 3 rounds | 30% | lodar16, lodar17, lodar18 |
+| [Aggressive venomscale](../monsters/vscale4.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 16, Lodar 17, Lodar 18 |
 | [Angry cave worm](../monsters/ratdom_m11b.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Instrument maker, Library |
 | [Big cave snake](../monsters/cavesnake4.md) | When it hits you | 1 | 3 rounds | 10% | 4 wells, Roundlings |
 | [Biting caterpillar](../monsters/ratdom_m10b.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Gold hunter, Skeleton dance |
 | [Bloated carrion centipede](../monsters/ccentip2.md) | When it hits you | 2 | 3 rounds | 50% | Charwood, Foaming Flask Tavern |
-| [Breeder of venomscale](../monsters/vscaleb1.md) | When it hits you | 2 | 5 rounds | 30% | lodar16, lodar19 |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | When it hits you | 2 | 3 rounds | 30% | gamjee_well_1_1, gamjee_well_1_3, gamjee_well_2_1 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | When it hits you | 2 | 5 rounds | 30% | Lodar 16, Lodar 19 |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | When it hits you | 2 | 3 rounds | 30% | Gamjee well 1 1, Gamjee well 1 3, Gamjee well 2 1 |
 | [Carrion centipede](../monsters/ccentip0.md) | When it hits you | 1 | 3 rounds | 50% | Charwood, Foaming Flask Tavern |
 | [Fierce cave lizard](../monsters/ratdom_m7a.md) | When it hits you | 1 | 3 rounds | 10% | Bloskelt + Roskelt, Instrument maker, Entry |
 | [Giant centipede](../monsters/centipede.md) | When it hits you | 2 | 3 rounds | 25% | Lake Laeroth |
-| [Giant poisonous cave burrower](../monsters/caveburr5.md) | When it hits you | 2 | 3 rounds | 10% | lodar5cave0, lodar5cave1, lodar5cave2 |
-| [Gray venomscale](../monsters/vscale3.md) | When it hits you | 2 | 3 rounds | 30% | lodar16, lodar20, lodar21 |
+| [Giant poisonous cave burrower](../monsters/caveburr5.md) | When it hits you | 2 | 3 rounds | 10% | Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2 |
+| [Gray venomscale](../monsters/vscale3.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 16, Lodar 20, Lodar 21 |
 | [Lazy snail](../monsters/ratdom_m5a.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Bloskelt + Roskelt, Gold hunter |
 | [Lord Erwyn](../monsters/erwyn.md) | When it hits you | 2 | 4 rounds | 40% | Flagstone Prison |
 | [Malicious cave snake](../monsters/ratdom_m2b.md) | When it hits you | 1 | 3 rounds | 10% | Entry |
@@ -73,39 +73,39 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 | [Noxious venomfang](../monsters/noxious_venomfang.md) | When you defeat it | 3 | 2 rounds | 30% | Blackwater Mountain |
 | [Old cave worm](../monsters/ratdom_m11c.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Instrument maker, Library |
 | [Pernicious cave snake](../monsters/ratdom_m4a.md) | When it hits you | 1 | 3 rounds | 10% | Bloskelt + Roskelt, Gold hunter, Instrument maker |
-| [Plague groundberry](../monsters/plague_groundberry.md) | When it hits you | 4 | 3 rounds | 50% | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | When it hits you | 4 | 3 rounds | 50% | Sullengard woods 11, Sullengard woods 12, Sullengard woods 3 |
 | [Poisenous snail](../monsters/ratdom_m5b.md) | When it hits you | 1 | 3 rounds | 30% | Pub, Bloskelt + Roskelt, Gold hunter |
 | [Poisonous caterpillar](../monsters/ratdom_m10a.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Gold hunter, Skeleton dance |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | When it hits you | 1 | 3 rounds | 20% | Loneford |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | When it hits you | 5 | 5 rounds | 70% | Deebo's Orchard |
 | [Poisonous river frog](../monsters/frog_3.md) | When it hits you | 2 | 5 rounds | 30% | Guynmart Castle |
-| [Poisonous vine](../monsters/poison_vine_top.md) | When it hits you | 3 | 5 rounds | 90% | island_underground2, island_underground3, laerothcave0 |
-| [Puny venomscale](../monsters/vscale1.md) | When it hits you | 2 | 3 rounds | 30% | lodar16, lodar20, lodar21 |
-| [Quick venomscale](../monsters/vscale5.md) | When it hits you | 2 | 3 rounds | 30% | lodar16, lodar17, lodar18 |
+| [Poisonous vine](../monsters/poison_vine_top.md) | When it hits you | 3 | 5 rounds | 90% | Island underground 2, Island underground 3, Laerothcave 0 |
+| [Puny venomscale](../monsters/vscale1.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 16, Lodar 20, Lodar 21 |
+| [Quick venomscale](../monsters/vscale5.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 16, Lodar 17, Lodar 18 |
 | [Quick viper](../monsters/ratdom_m12a.md) | When it hits you | 1 | 3 rounds | 10% | Skeleton dance, Instrument maker, Pub |
 | [Ravenous carrion centipede](../monsters/ccentip1.md) | When it hits you | 1 | 3 rounds | 50% | Charwood, Foaming Flask Tavern |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | When it hits you | 1 | 2 rounds | 50% | Blackwater Mountain |
 | [Slippery Venomfang](../monsters/slippery_venomfang.md) | When it hits you | 1 | 3 rounds | 40% | Blackwater Mountain |
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | When it hits you | 1 | 2 rounds | 20% | Stoutford, Blackwater Mountain, Prim |
 | [Snappy cave lizard](../monsters/ratdom_m7b.md) | When it hits you | 1 | 3 rounds | 10% | Bloskelt + Roskelt, Instrument maker, Entry |
-| [Strong poisonous cave burrower](../monsters/caveburr4.md) | When it hits you | 1 | 5 rounds | 10% | lodar5cave0, lodar5cave1, lodar5cave2 |
-| [Strong venomscale](../monsters/vscale7.md) | When it hits you | 2 | 3 rounds | 30% | lodar18, lodar19, lodar21 |
+| [Strong poisonous cave burrower](../monsters/caveburr4.md) | When it hits you | 1 | 5 rounds | 10% | Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2 |
+| [Strong venomscale](../monsters/vscale7.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 18, Lodar 19, Lodar 21 |
 | [Tough venomfang](../monsters/tough_venomfang.md) | When it hits you | 1 | 2 rounds | 50% | Blackwater Mountain, Flagstone Prison |
-| [Tough venomscale](../monsters/vscale8.md) | When it hits you | 2 | 3 rounds | 30% | lodar19 |
-| [Venomous beach crawler](../monsters/beach_crawler_1.md) | When it hits you | 3 | 4 rounds | 45% | island3, island4, laerothcave0 |
+| [Tough venomscale](../monsters/vscale8.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 19 |
+| [Venomous beach crawler](../monsters/beach_crawler_1.md) | When it hits you | 3 | 4 rounds | 45% | Island 3, Island 4, Laerothcave 0 |
 | [Venomous cave snake](../monsters/venomous_cave_snake.md) | When it hits you | 1 | 1 round | 10% | Brimhaven, Bloskelt + Roskelt, Entry |
-| [Venomscale master](../monsters/vscaleb2.md) | When it hits you | 2 | 5 rounds | 30% | lodar17, lodar19 |
+| [Venomscale master](../monsters/vscaleb2.md) | When it hits you | 2 | 5 rounds | 30% | Lodar 17, Lodar 19 |
 | [Vicious cave snake](../monsters/ratdom_m2a.md) | When it hits you | 1 | 3 rounds | 10% | Entry |
-| [Vicious venomscale](../monsters/vscale6.md) | When it hits you | 2 | 3 rounds | 30% | lodar18, lodar19, lodar21 |
+| [Vicious venomscale](../monsters/vscale6.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 18, Lodar 19, Lodar 21 |
 | [Virulent cave snake](../monsters/ratdom_m4b.md) | When it hits you | 1 | 3 rounds | 10% | Bloskelt + Roskelt, Gold hunter, Instrument maker |
 | [Young cave worm](../monsters/ratdom_m11a.md) | When it hits you | 1 | 3 rounds | 10% | Pub, Instrument maker, Library |
-| [Young venomscale](../monsters/vscale2.md) | When it hits you | 2 | 3 rounds | 30% | lodar16, lodar20, lodar21 |
+| [Young venomscale](../monsters/vscale2.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 16, Lodar 20, Lodar 21 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [ratdom_maze_632](../maps/ratdom_maze_632.md) | – | 9 rounds |
+| walking into a blocked passage on [Ratdom maze 632](../maps/ratdom_maze_632.md) | – | 9 rounds |
 
 ## Applied to enemies
 
@@ -124,12 +124,12 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Pure Blood](../skills/resistanceBlood.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Pure Blood](../skills/resistanceBlood.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Weak poison antidote](../items/pot_poison_weak_antidote.md) (when used).
 - **Immunity** from [Ring of poison immunity](../items/ring_antipoison.md) (while equipped; while equipped).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

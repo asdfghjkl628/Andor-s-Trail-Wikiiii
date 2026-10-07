@@ -1,5 +1,5 @@
 ---
-description: "Tobby is a non-player character (NPC) in Andor's Trail, found in guynmart_wood_19, guynmart_wood_18, guynmart_wood_17b, guynmart_wood_17, Fallhaven. Starts Sobby's Trail."
+description: "Tobby is a non-player character (NPC) in Andor's Trail, found in Guynmart wood 19, Guynmart wood 18, Guynmart wood 17b, Guynmart wood 17, Fallhaven. Starts Sobby's Trail."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Tobby
@@ -12,30 +12,30 @@ description: "Tobby is a non-player character (NPC) in Andor's Trail, found in g
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Sobby's Trail](../quests/tobby.md) |
-| **Found in** | guynmart_wood_19, guynmart_wood_18, guynmart_wood_17b, guynmart_wood_17, Fallhaven |
+| **Found in** | Guynmart wood 19, Guynmart wood 18, Guynmart wood 17b, Guynmart wood 17, Fallhaven |
 | **Entries in game data** | 7 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
 !!! info "7 entries in the game data"
-    The game's data files define 7 separate characters named Tobby. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 7 separate characters named Tobby. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`tobby`](#v-tobby) | NPC | [guynmart_wood_19](../maps/guynmart_wood_19.md#pin-npc-tobby) | starts [Sobby's Trail](../quests/tobby.md) |
-| [`tobby2`](#v-tobby2) | NPC | [guynmart_wood_19](../maps/guynmart_wood_19.md#pin-npc-tobby2) | – |
-| [`tobby3`](#v-tobby3) | NPC | [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-tobby3) | – |
-| [`tobby4a`](#v-tobby4a) | NPC | [guynmart_wood_17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a) | – |
-| [`tobby4b`](#v-tobby4b) | NPC | [guynmart_wood_17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b) | – |
-| [`tobby5`](#v-tobby5) | NPC | [guynmart_wood_17](../maps/guynmart_wood_17.md#pin-npc-tobby5) | – |
-| [`tobby6`](#v-tobby6) | NPC | Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-tobby6) | – |
+| [`tobby`](#v-tobby) | NPC | [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby) | starts [Sobby's Trail](../quests/tobby.md) |
+| [`tobby2`](#v-tobby2) | NPC | [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby2) | – |
+| [`tobby3`](#v-tobby3) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-tobby3) | – |
+| [`tobby4a`](#v-tobby4a) | NPC | [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a) | – |
+| [`tobby4b`](#v-tobby4b) | NPC | [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b) | – |
+| [`tobby5`](#v-tobby5) | NPC | [Guynmart wood 17](../maps/guynmart_wood_17.md#pin-npc-tobby5) | – |
+| [`tobby6`](#v-tobby6) | NPC | Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-tobby6) | – |
 
 ## Guynmart wood 19 (tobby) { #v-tobby }
 
 **Entry ID:** `tobby` · **Type:** NPC · **Role:** Starts [Sobby's Trail](../quests/tobby.md)
 
-**Location:** [guynmart_wood_19](../maps/guynmart_wood_19.md#pin-npc-tobby)
+**Location:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby)
 
 ### Quests
 
@@ -43,7 +43,7 @@ description: "Tobby is a non-player character (NPC) in Andor's Trail, found in g
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tobby-tobby"></span>**`tobby`** *(silent check: the first matching branch below is taken)*
 
@@ -156,7 +156,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `tobby2` · **Type:** NPC
 
-**Location:** [guynmart_wood_19](../maps/guynmart_wood_19.md#pin-npc-tobby2)
+**Location:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby2)
 
 ### Quests
 
@@ -164,7 +164,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby2.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -172,7 +172,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tobby2-tobby2"></span>**`tobby2`** Tobby: “Ouch, my toes!”
 
@@ -232,7 +232,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `tobby3` · **Type:** NPC
 
-**Location:** [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-tobby3)
+**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-tobby3)
 
 ### Quests
 
@@ -240,7 +240,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby2.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -290,7 +290,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `tobby4a` · **Type:** NPC
 
-**Location:** [guynmart_wood_17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a)
+**Location:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a)
 
 ### Quests
 
@@ -298,7 +298,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby2.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -348,7 +348,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `tobby4b` · **Type:** NPC
 
-**Location:** [guynmart_wood_17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b)
+**Location:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b)
 
 ### Quests
 
@@ -356,7 +356,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby2.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -406,7 +406,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `tobby5` · **Type:** NPC
 
-**Location:** [guynmart_wood_17](../maps/guynmart_wood_17.md#pin-npc-tobby5)
+**Location:** [Guynmart wood 17](../maps/guynmart_wood_17.md#pin-npc-tobby5)
 
 ### Quests
 
@@ -414,7 +414,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby5_1.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -422,7 +422,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tobby5-tobby5_1"></span>**`tobby5_1`** [Tobby](../monsters/tobby.md#v-tobby5): “Wow, that was an adventure!”
 
@@ -471,11 +471,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Woodhouse1 (tobby6) { #v-tobby6 }
+## Fallhaven, Woodhouse 1 (tobby6) { #v-tobby6 }
 
 **Entry ID:** `tobby6` · **Type:** NPC
 
-**Location:** Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-tobby6)
+**Location:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-tobby6)
 
 ### Quests
 
@@ -483,7 +483,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tobby. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tobby. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tobby6.json" data-npc="Tobby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -491,7 +491,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tobby6-tobby6"></span>**`tobby6`** Tobby: “Hey $playername - great to see you again!”
 

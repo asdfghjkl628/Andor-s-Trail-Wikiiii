@@ -4,7 +4,7 @@ description: "Young shadow gargoyle is an enemy in Andor's Trail (construct) wit
 
 # ![](../assets/icons/monsters/monsters_misc_1.png){ .sprite } Young shadow gargoyle
 
-**Found in:** Foaming Flask Tavern: [road4](../maps/road4.md), [gargoylecave1](../maps/gargoylecave1.md), [gargoylecave2](../maps/gargoylecave2.md), [road4_gargoylecave](../maps/road4_gargoylecave.md)
+**Found in:** Foaming Flask Tavern: [Road 4](../maps/road4.md), [Gargoylecave 1](../maps/gargoylecave1.md), [Gargoylecave 2](../maps/gargoylecave2.md), [Road 4 gargoylecave](../maps/road4_gargoylecave.md)
 
 <div class="infobox" markdown>
 
@@ -59,10 +59,10 @@ description: "Young shadow gargoyle is an enemy in Andor's Trail (construct) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gargoylecave1](../maps/gargoylecave1.md) | – | 5 | – |
-| [gargoylecave2](../maps/gargoylecave2.md) | – | 1 | – |
-| [road4](../maps/road4.md) | Foaming Flask Tavern | 2 | – |
-| [road4_gargoylecave](../maps/road4_gargoylecave.md) | – | 4 | – |
+| [Gargoylecave 1](../maps/gargoylecave1.md) | – | 5 | – |
+| [Gargoylecave 2](../maps/gargoylecave2.md) | – | 1 | – |
+| [Road 4](../maps/road4.md) | Foaming Flask Tavern | 2 | – |
+| [Road 4 gargoylecave](../maps/road4_gargoylecave.md) | – | 4 | – |
 
 
 ## Version history

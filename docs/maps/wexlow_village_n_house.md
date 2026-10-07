@@ -44,7 +44,7 @@ description: "Wexlow village north house is an indoor location in Andor's Trail,
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it
 
 ## Points of interest
 

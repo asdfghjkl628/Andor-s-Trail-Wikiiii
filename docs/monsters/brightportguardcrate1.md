@@ -1,10 +1,10 @@
 ---
-description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in brightport_chimney, brightport_crate1, brightport_crate2."
+description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Brightport chimney, Brightport crate 1, Brightport crate 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } Guard 1
 
-**Found in:** [brightport_chimney](../maps/brightport_chimney.md), [brightport_crate1](../maps/brightport_crate1.md), [brightport_crate2](../maps/brightport_crate2.md)
+**Found in:** [Brightport chimney](../maps/brightport_chimney.md), [Brightport crate 1](../maps/brightport_crate1.md), [Brightport crate 2](../maps/brightport_crate2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | brightport_chimney, brightport_crate1, brightport_crate2 |
+| **Found in** | Brightport chimney, Brightport crate 1, Brightport crate 2 |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,9 +48,9 @@ description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_chimney](../maps/brightport_chimney.md) | – | 1 | – |
-| [brightport_crate1](../maps/brightport_crate1.md) | – | 1 | – |
-| [brightport_crate2](../maps/brightport_crate2.md) | – | 1 | – |
+| [Brightport chimney](../maps/brightport_chimney.md) | – | 1 | – |
+| [Brightport crate 1](../maps/brightport_crate1.md) | – | 1 | – |
+| [Brightport crate 2](../maps/brightport_crate2.md) | – | 1 | – |
 
 
 ## Version history

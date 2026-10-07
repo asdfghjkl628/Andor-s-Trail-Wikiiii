@@ -1,10 +1,10 @@
 ---
-description: "Bread golem is a non-player character (NPC) in Andor's Trail, found in brightportwild8."
+description: "Bread golem is a non-player character (NPC) in Andor's Trail, found in Brightportwild 8."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_1.png){ .sprite } Bread golem
 
-**Where to find Bread golem:** [brightportwild8](../maps/brightportwild8.md#pin-npc-breadgolem)
+**Where to find Bread golem:** [Brightportwild 8](../maps/brightportwild8.md#pin-npc-breadgolem)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Bread golem is a non-player character (NPC) in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brightportwild8 |
+| **Found in** | Brightportwild 8 |
 | **Entry ID** | `breadgolem` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
@@ -21,7 +21,7 @@ description: "Bread golem is a non-player character (NPC) in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bread golem. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bread golem. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_breadgolem.json" data-npc="Bread golem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_breadgolem"></span>**`brightport_breadgolem`** Bread golem: “[The golem is quietly tending to its chores]”
 

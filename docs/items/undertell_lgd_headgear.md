@@ -45,7 +45,7 @@ description: "Crown of studied defiance is a legendary headwear, metal (light) i
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) during [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-87) (1×)
+- From walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) during [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-87) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -58,12 +58,12 @@ Where the game checks for this item in dialogue:
 |---|---|---|---|
 | a scripted event | – | handed over (1×) | “(automatic)” |
 | a scripted event | – | worn item is taken (1×) | “(automatic)” |
-| walking into a blocked passage on [undertell_4_00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | must be worn (1×) | “(automatic)” |
-| walking into a blocked passage on [undertell_4_00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
-| walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) | – | handed over (1×) | “N” |
-| walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) | – | worn item is taken (1×) | “N” |
-| walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) | – | must be carried (1×) | “(automatic)” |
-| walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) | – | must be worn (1×) | “(automatic)” |
+| walking into a blocked passage on [Undertell 4 00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | must be worn (1×) | “(automatic)” |
+| walking into a blocked passage on [Undertell 4 00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
+| walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) | – | handed over (1×) | “N” |
+| walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) | – | worn item is taken (1×) | “N” |
+| walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) | – | must be carried (1×) | “(automatic)” |
+| walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

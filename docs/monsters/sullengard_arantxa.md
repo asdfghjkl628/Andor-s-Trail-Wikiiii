@@ -4,7 +4,7 @@ description: "Prowling Arantxa is a non-player character (NPC) in Andor's Trail,
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Prowling Arantxa
 
-**Where to find Prowling Arantxa:** Sullengard: [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md#pin-npc-sullengard_arantxa)
+**Where to find Prowling Arantxa:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-sullengard_arantxa)
 
 <div class="infobox" markdown>
 
@@ -40,7 +40,7 @@ description: "Prowling Arantxa is a non-player character (NPC) in Andor's Trail,
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prowling Arantxa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prowling Arantxa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_arantxa_0.json" data-npc="Prowling Arantxa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,11 +48,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_arantxa_0"></span>**`sullengard_arantxa_0`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30; reached stage 23 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-23); reached stage 24 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-24); reached stage 25 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-25))* → [sullengard_arantxa_10](#d-sullengard_arantxa_10)
+    - branch 1 *(if latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30; reached stage 23 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-23); reached stage 24 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-24); reached stage 25 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-25))* → [sullengard_arantxa_10](#d-sullengard_arantxa_10)
     - branch 2 → [sullengard_arantxa_sell](#d-sullengard_arantxa_sell)
 
     <span id="d-sullengard_arantxa_10"></span>**`sullengard_arantxa_10`** Prowling Arantxa: “I saw you talking with Gaelian and many other people in town. May I ask about what?”

@@ -4,7 +4,7 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
 
 # ![](../assets/icons/monsters/monsters_ld2_188.png){ .sprite } Slime
 
-**Found in:** Gold hunter: [ratdom_maze_444](../maps/ratdom_maze_444.md)
+**Found in:** Gold hunter: [Ratdom maze 444](../maps/ratdom_maze_444.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_444](../maps/ratdom_maze_444.md) | Gold hunter | 5 | – |
+| [Ratdom maze 444](../maps/ratdom_maze_444.md) | Gold hunter | 5 | – |
 
 
 ## Version history

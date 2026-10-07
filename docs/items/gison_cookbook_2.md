@@ -27,7 +27,7 @@ description: "Fabulous cookings (copy) is a quest other in Andor's Trail. How to
 
 ### Found in containers
 
-- [mywildcave4](../maps/mywildcave4.md#container-0) (container 1, 100%)
+- [Mywildcave 4](../maps/mywildcave4.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “Yes I have. Look here.” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | [A raid for a cookbook](../quests/gison_cookbook.md#stage-60) | handed over (1×) | “OK. Then I'll take the version with the spell. I can't read the dark words, but ” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “Yes I have. Look here.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | [A raid for a cookbook](../quests/gison_cookbook.md#stage-60) | handed over (1×) | “OK. Then I'll take the version with the spell. I can't read the dark words, but ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

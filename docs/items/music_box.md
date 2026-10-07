@@ -28,7 +28,7 @@ description: "Music box is a rare other in Andor's Trail. How to get it: monster
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Bonicksa](../monsters/wicked_witch_first.md) | 100% | 1 | witch_house |
+| [Bonicksa](../monsters/wicked_witch_first.md) | 100% | 1 | Witch house |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

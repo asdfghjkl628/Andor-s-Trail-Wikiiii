@@ -46,7 +46,7 @@ description: "Armored boots is a rare footwear, metal (heavy) in Andor's Trail (
 
 ### Found in containers
 
-- [gamjee_well_exit](../maps/gamjee_well_exit.md#container-1) (container 2, 100%)
+- [Gamjee well exit](../maps/gamjee_well_exit.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -29,7 +29,7 @@ description: "Soul pearl is a quest gem in Andor's Trail. How to get it: monster
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_pearl) | 100% | 1 | undertell_21, undertell_3_lava_01, undertell_4_01 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_pearl) | 100% | 1 | Undertell 21, Undertell 3 lava 01, Undertell 4 01 |
 | [Saki](../monsters/saki.md) | 100% | 5 | Mt. Galmore |
 
 
@@ -41,8 +41,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md)), [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | [Dominion](../quests/dominion.md#stage-30) | handed over (5×) | “Yeah, here they are.” |
-| [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | – | must be carried (5×) | “N” |
+| [Saki](../monsters/saki.md) ([Undertell 1 1](../maps/undertell_1_1.md)), [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) | [Dominion](../quests/dominion.md#stage-30) | handed over (5×) | “Yeah, here they are.” |
+| [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) | – | must be carried (5×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

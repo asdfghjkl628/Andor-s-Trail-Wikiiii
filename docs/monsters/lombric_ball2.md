@@ -1,10 +1,10 @@
 ---
-description: "Mature lombric ball is an enemy in Andor's Trail (animal) with 50 HP, worth 77 XP, found in mushroom_m2_10, mushroom_m2_9. Drops: Gold coins, Small rock."
+description: "Mature lombric ball is an enemy in Andor's Trail (animal) with 50 HP, worth 77 XP, found in Mushroom m 2 10, Mushroom m 2 9. Drops: Gold coins, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_139.png){ .sprite } Mature lombric ball
 
-**Found in:** [mushroom_m2_10](../maps/mushroom_m2_10.md), [mushroom_m2_9](../maps/mushroom_m2_9.md)
+**Found in:** [Mushroom m 2 10](../maps/mushroom_m2_10.md), [Mushroom m 2 9](../maps/mushroom_m2_9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Mature lombric ball is an enemy in Andor's Trail (animal) with 50 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mushroom_m2_10, mushroom_m2_9 |
+| **Found in** | Mushroom m 2 10, Mushroom m 2 9 |
 | **Class** | Animal |
 | **HP** | 50 |
 | **XP when defeated** | 77 |
@@ -55,8 +55,8 @@ description: "Mature lombric ball is an enemy in Andor's Trail (animal) with 50 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m2_10](../maps/mushroom_m2_10.md) | – | 1 | – |
-| [mushroom_m2_9](../maps/mushroom_m2_9.md) | – | 2 | – |
+| [Mushroom m 2 10](../maps/mushroom_m2_10.md) | – | 1 | – |
+| [Mushroom m 2 9](../maps/mushroom_m2_9.md) | – | 2 | – |
 
 
 ## Version history

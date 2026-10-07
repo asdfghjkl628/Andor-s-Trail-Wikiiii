@@ -39,7 +39,7 @@ description: "Large bottle of mountain water is a extraordinary healing item in 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kamelio](../monsters/kamelio.md) | 100% | 1-5 | elm5f_2 |
+| [Kamelio](../monsters/kamelio.md) | 100% | 1-5 | Elm 5f 2 |
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 20% | 1-10 | Prim |
 
 ### Sold by
@@ -49,7 +49,7 @@ description: "Large bottle of mountain water is a extraordinary healing item in 
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 10%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 10%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

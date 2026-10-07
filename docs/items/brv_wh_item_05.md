@@ -25,8 +25,8 @@ description: "Mysterious green something is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_05](../monsters/brv_wh_item_05.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_25](../monsters/brv_wh_item_25.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-105) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_05](../monsters/brv_wh_item_05.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_25](../monsters/brv_wh_item_25.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-105) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,12 +37,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “I'm surprised to see you here as well. Did you order 'Mysterious green something” |
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “OK. One question before I go: did you order a 'Mysterious green something'?” |
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “No problem. By the way, did you order a 'Mysterious green something'?” |
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “Indeed. By the way, did you order a 'Mysterious green something'?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “Not until I have delivered this to you. Are you the one who ordered a 'Mysteriou” |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “I'm surprised to see you here as well. Did you order 'Mysterious green something” |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “OK. One question before I go: did you order a 'Mysterious green something'?” |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “No problem. By the way, did you order a 'Mysterious green something'?” |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “Indeed. By the way, did you order a 'Mysterious green something'?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50) | handed over (1×) | “Not until I have delivered this to you. Are you the one who ordered a 'Mysteriou” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

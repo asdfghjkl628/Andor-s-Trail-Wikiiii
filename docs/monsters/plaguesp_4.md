@@ -1,10 +1,10 @@
 ---
-description: "Black plaguecrawler is an enemy in Andor's Trail (insect) with 61 HP, worth 207 XP, found in mountainlake0, waytolake0, waytolake1. Drops: Gold coins, Poison gland, Dead spider."
+description: "Black plaguecrawler is an enemy in Andor's Trail (insect) with 61 HP, worth 207 XP, found in Mountainlake 0, Waytolake 0, Waytolake 1. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_61.png){ .sprite } Black plaguecrawler
 
-**Found in:** [mountainlake0](../maps/mountainlake0.md), [waytolake0](../maps/waytolake0.md), [waytolake1](../maps/waytolake1.md), [waytolake10](../maps/waytolake10.md) (+5 more)
+**Found in:** [Mountainlake 0](../maps/mountainlake0.md), [Waytolake 0](../maps/waytolake0.md), [Waytolake 1](../maps/waytolake1.md), [Waytolake 10](../maps/waytolake10.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Black plaguecrawler is an enemy in Andor's Trail (insect) with 61 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake0, waytolake0, waytolake1 |
+| **Found in** | Mountainlake 0, Waytolake 0, Waytolake 1 |
 | **Class** | Insect |
 | **HP** | 61 |
 | **XP when defeated** | 207 |
@@ -58,15 +58,15 @@ description: "Black plaguecrawler is an enemy in Andor's Trail (insect) with 61 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake0](../maps/mountainlake0.md) | – | 2 | – |
-| [waytolake0](../maps/waytolake0.md) | – | 3 | – |
-| [waytolake1](../maps/waytolake1.md) | – | 10 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 2 | – |
-| [waytolake12](../maps/waytolake12.md) | – | 3 | – |
-| [waytolake2](../maps/waytolake2.md) | – | 10 | – |
-| [waytolake3](../maps/waytolake3.md) | – | 4 | – |
-| [waytolake6](../maps/waytolake6.md) | – | 6 | – |
-| [waytolake9](../maps/waytolake9.md) | – | 5 | – |
+| [Mountainlake 0](../maps/mountainlake0.md) | – | 2 | – |
+| [Waytolake 0](../maps/waytolake0.md) | – | 3 | – |
+| [Waytolake 1](../maps/waytolake1.md) | – | 10 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 2 | – |
+| [Waytolake 12](../maps/waytolake12.md) | – | 3 | – |
+| [Waytolake 2](../maps/waytolake2.md) | – | 10 | – |
+| [Waytolake 3](../maps/waytolake3.md) | – | 4 | – |
+| [Waytolake 6](../maps/waytolake6.md) | – | 6 | – |
+| [Waytolake 9](../maps/waytolake9.md) | – | 5 | – |
 
 
 ## Version history

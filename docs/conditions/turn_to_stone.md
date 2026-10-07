@@ -27,9 +27,9 @@ description: "Turning to stone is a harmful physical condition in Andor's Trail:
 |---|---|
 | HP every round | −10 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,21 +40,21 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | [quick_glance_hidden_position (hidden flag)](../quests/quick_glance_hidden_position.md#stage-110) | Permanent |
+| stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | [Quick glance: position (hidden flag)](../quests/quick_glance_hidden_position.md#stage-110) | Permanent |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md).
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Removed by** stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md).
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 ## Checked in dialogue
 
-- stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) ([quick_glance_hidden_position (hidden flag)](../quests/quick_glance_hidden_position.md#stage-110)) checks whether you do not have this condition.
-- stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) checks whether you have this condition.
-- walking into a blocked passage on [basiliskcave2](../maps/basiliskcave2.md) checks whether you have this condition.
+- stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) ([Quick glance: position (hidden flag)](../quests/quick_glance_hidden_position.md#stage-110)) checks whether you do not have this condition.
+- stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) checks whether you have this condition.
+- walking into a blocked passage on [Basiliskcave 2](../maps/basiliskcave2.md) checks whether you have this condition.
 
 
 ## Community notes

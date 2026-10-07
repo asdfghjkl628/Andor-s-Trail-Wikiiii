@@ -38,21 +38,21 @@ description: "Bonemeal potion is a ordinary potion in Andor's Trail. How to get 
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 20%)
-- [galmore_63](../maps/galmore_63.md#container-0) (container 1, 100%), Mt. Galmore
-- [guynmart_main_0](../maps/guynmart_main_0.md#container-1) (container 2, 100%), Guynmart Castle
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-3) (container 4, 80%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-4) (container 5, 80%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 20%)
+- [Galmore 63](../maps/galmore_63.md#container-0) (container 1, 100%), Mt. Galmore
+- [Guynmart main 0](../maps/guynmart_main_0.md#container-1) (container 2, 100%), Guynmart Castle
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-3) (container 4, 80%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-4) (container 5, 80%)
 
 ### Quest & dialogue rewards
 
-- From [Guynmart](../monsters/guynmart.md) ([guynmart_main_0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) ([guynmart_main_0](../maps/guynmart_main_0.md)) during [Search for Andor](../quests/andor.md#stage-92) (100%)
-- From [Tember](../monsters/remgard_prison_thief.md) ([remgard_prison](../maps/remgard_prison.md)) (1000×)
-- From [Tember](../monsters/remgard_prison_thief.md) ([remgard_prison](../maps/remgard_prison.md)) (100×)
-- From [Tember](../monsters/remgard_prison_thief.md) ([remgard_prison](../maps/remgard_prison.md)) (10×)
-- From [Tember](../monsters/remgard_prison_thief.md) ([remgard_prison](../maps/remgard_prison.md)) (1×)
-- From stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) (1×)
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112) (6×)
+- From [Guynmart](../monsters/guynmart.md) ([Guynmart main 0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) ([Guynmart main 0](../maps/guynmart_main_0.md)) during [Search for Andor](../quests/andor.md#stage-92) (100%)
+- From [Tember](../monsters/remgard_prison_thief.md) ([Remgard prison](../maps/remgard_prison.md)) (1000×)
+- From [Tember](../monsters/remgard_prison_thief.md) ([Remgard prison](../maps/remgard_prison.md)) (100×)
+- From [Tember](../monsters/remgard_prison_thief.md) ([Remgard prison](../maps/remgard_prison.md)) (10×)
+- From [Tember](../monsters/remgard_prison_thief.md) ([Remgard prison](../maps/remgard_prison.md)) (1×)
+- From stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) (1×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112) (6×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -63,27 +63,27 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | [Kaori's errands](../quests/kaori.md#stage-20) | handed over (10×) | “I already have some of those potions with me that you can have.” |
-| [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | [Kaori's errands](../quests/kaori.md#stage-20) | handed over (10×) | “Yes, I brought your potions.” |
-| [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-40) | handed over (1×) | “Here, take this bonemeal potion instead. It's very potent in healing deep wounds” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this bonemeal potion.” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (100000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (10000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (256×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (64×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (16×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (4×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42) | must be carried (1×) | “(automatic)” |
-| a scripted event | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1000×) | “(automatic)” |
-| a scripted event | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (100×) | “(automatic)” |
-| a scripted event | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (10×) | “(automatic)” |
-| a scripted event | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (2×) | “(automatic)” |
-| a scripted event | [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1×) | “(automatic)” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (20×) | “Honestly, I just use it to buy bonemeal.” |
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-43) | handed over (1×) | “Well I have a bonemeal potion. It's yours now. Take it.” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a bonemeal potion.” |
+| [Kaori](../monsters/kaori.md) ([Vilegard kaori](../maps/vilegard_kaori.md)) | [Kaori's errands](../quests/kaori.md#stage-20) | handed over (10×) | “I already have some of those potions with me that you can have.” |
+| [Kaori](../monsters/kaori.md) ([Vilegard kaori](../maps/vilegard_kaori.md)) | [Kaori's errands](../quests/kaori.md#stage-20) | handed over (10×) | “Yes, I brought your potions.” |
+| [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-40) | handed over (1×) | “Here, take this bonemeal potion instead. It's very potent in healing deep wounds” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this bonemeal potion.” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (100000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (10000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (256×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (64×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (16×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (4×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42) | must be carried (1×) | “(automatic)” |
+| a scripted event | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1000×) | “(automatic)” |
+| a scripted event | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (100×) | “(automatic)” |
+| a scripted event | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (10×) | “(automatic)” |
+| a scripted event | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (2×) | “(automatic)” |
+| a scripted event | [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142) | handed over (1×) | “(automatic)” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (20×) | “Honestly, I just use it to buy bonemeal.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-43) | handed over (1×) | “Well I have a bonemeal potion. It's yours now. Take it.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a bonemeal potion.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

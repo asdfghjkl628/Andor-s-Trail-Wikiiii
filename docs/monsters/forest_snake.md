@@ -4,7 +4,7 @@ description: "Forest snake is an enemy in Andor's Trail (reptile) with 7 HP, wor
 
 # ![](../assets/icons/monsters/monsters_snakes_1.png){ .sprite } Forest snake
 
-**Found in:** Blackwater Mountain: [wild2](../maps/wild2.md), Fallhaven: [wild5](../maps/wild5.md)
+**Found in:** Blackwater Mountain: [Wild 2](../maps/wild2.md), Fallhaven: [Wild 5](../maps/wild5.md)
 
 <div class="infobox" markdown>
 
@@ -56,8 +56,8 @@ description: "Forest snake is an enemy in Andor's Trail (reptile) with 7 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild2](../maps/wild2.md) | Blackwater Mountain | 2 | – |
-| [wild5](../maps/wild5.md) | Fallhaven | 2 | – |
+| [Wild 2](../maps/wild2.md) | Blackwater Mountain | 2 | – |
+| [Wild 5](../maps/wild5.md) | Fallhaven | 2 | – |
 
 
 ## Version history

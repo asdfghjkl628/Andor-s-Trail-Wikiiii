@@ -53,8 +53,8 @@ description: "Stoutford armorer is an indoor location in Andor's Trail, in Stout
 ## Quests
 
 - [Lost girl looking for lost things](../quests/stn_quest_gyra.md): [Odirath](../monsters/stoutford_armorer.md) is involved
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Odirath](../monsters/stoutford_armorer.md) is involved
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): [Odirath](../monsters/stoutford_armorer.md) is involved
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Odirath](../monsters/stoutford_armorer.md) is involved
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): [Odirath](../monsters/stoutford_armorer.md) is involved
 
 
 ## Version history

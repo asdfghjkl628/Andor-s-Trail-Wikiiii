@@ -1,8 +1,8 @@
 ---
-description: "guynmart_q1 is a hidden quest in Andor's Trail, started by Guynmart guard (guynmart). 2 stages. 1=rot"
+description: "Guynmart Castle step 1 is a hidden quest in Andor's Trail, started by Guynmart guard (guynmart). 2 stages. 1=rot"
 ---
 
-# guynmart_q1
+# Guynmart Castle step 1
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "guynmart_q1 is a hidden quest in Andor's Trail, started by Guynmar
 | **Quest ID** | `guynmart_q1` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
+| **Started by** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)) |
 | **NPCs involved** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) |
-| **Locations** | [guynmart](../maps/guynmart.md) |
+| **Locations** | [Guynmart](../maps/guynmart.md) |
 
 </div>
 
@@ -26,7 +26,7 @@ description: "guynmart_q1 is a hidden quest in Andor's Trail, started by Guynmar
 
 ## Prerequisites to start
 
-Start with [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)). Required:
+Start with [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)). Required:
 
 - have 100 gold
 
@@ -41,24 +41,42 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=rot | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold | clears stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2) |
-| <span id="stage-2"></span>2 | 2=schwarz | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold | clears stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=rot | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-2"></span>[2](#route-2) | 2=schwarz | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold → **stage 1**; also clears stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2)
+??? note "Stage 1 · Guynmart guard · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Black” — **conditions:** have 100 gold → **stage 2**; also clears stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1)
+    - **Needs:** have 100 gold
+    - <small>Also: clears stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2)</small>
+
+
+<span id="route-2"></span>
+
+??? note "Stage 2 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Black”
+
+    - **Needs:** have 100 gold
+    - <small>Also: clears stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1)</small>
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -103,6 +121,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_q1` |
+    | Name in game data | `guynmart_q1` |
     | showInLog | 0 |
     | Stage IDs | 1, 2 |
     | Dialogue nodes setting stages | 1: `guynmart_player_84`, 2: `guynmart_player_86` |

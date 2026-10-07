@@ -50,10 +50,10 @@ description: "Hunter's Sword is a extraordinary longsword in Andor's Trail (Atta
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Demonic Arulir](../monsters/arulir_8.md) | 0.1% | 1 | arulircave6 |
-| [Azurite Gornaud](../monsters/gornaud_4.md) | 0.01% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Garnet Gornaud](../monsters/gornaud_5.md) | 0.01% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Nephrite Gornaud](../monsters/gornaud_6.md) | 0.01% | 1 | arulircave1, arulircave2, arulircave6 |
+| [Demonic Arulir](../monsters/arulir_8.md) | 0.1% | 1 | Arulircave 6 |
+| [Azurite Gornaud](../monsters/gornaud_4.md) | 0.01% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Garnet Gornaud](../monsters/gornaud_5.md) | 0.01% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Nephrite Gornaud](../monsters/gornaud_6.md) | 0.01% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

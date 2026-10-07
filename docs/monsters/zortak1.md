@@ -1,10 +1,10 @@
 ---
-description: "Zortak scout is an enemy in Andor's Trail (giant) with 173 HP, worth 245 XP, found in lodar14, lodar18, lodar7. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
+description: "Zortak scout is an enemy in Andor's Trail (giant) with 173 HP, worth 245 XP, found in Lodar 14, Lodar 18, Lodar 7. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_83.png){ .sprite } Zortak scout
 
-**Found in:** [lodar14](../maps/lodar14.md), [lodar18](../maps/lodar18.md), [lodar7](../maps/lodar7.md)
+**Found in:** [Lodar 14](../maps/lodar14.md), [Lodar 18](../maps/lodar18.md), [Lodar 7](../maps/lodar7.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Zortak scout is an enemy in Andor's Trail (giant) with 173 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar14, lodar18, lodar7 |
+| **Found in** | Lodar 14, Lodar 18, Lodar 7 |
 | **Class** | Giant |
 | **HP** | 173 |
 | **XP when defeated** | 245 |
@@ -58,9 +58,9 @@ description: "Zortak scout is an enemy in Andor's Trail (giant) with 173 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar14](../maps/lodar14.md) | – | 1 | – |
-| [lodar18](../maps/lodar18.md) | – | 1 | – |
-| [lodar7](../maps/lodar7.md) | – | 4 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 1 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 1 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 4 | – |
 
 
 ## Version history

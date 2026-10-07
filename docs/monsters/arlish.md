@@ -4,7 +4,7 @@ description: "Arlish is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_164.png){ .sprite } Arlish
 
-**Where to find Arlish:** Brimhaven: [brimhaven_general1](../maps/brimhaven_general1.md#pin-npc-arlish)
+**Where to find Arlish:** Brimhaven: [Brimhaven general 1](../maps/brimhaven_general1.md#pin-npc-arlish)
 
 <div class="infobox" markdown>
 
@@ -41,12 +41,12 @@ description: "Arlish is a non-player character (NPC) in Andor's Trail, found in 
 
 - [A cat and mouse game](../quests/cat_and_mouse.md): stage 40
 - [A strange looking dagger](../quests/brv_dagger.md): stages 115, 120, 130, 200, 230
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 42
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 50
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 42
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arlish. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Arlish. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/arlish_0.json" data-npc="Arlish" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -54,14 +54,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (23 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-arlish_0"></span>**`arlish_0`** Arlish: “Hello. I'm Arlish, the proprietor. This is a general store, so I sell some of this, some of that, and a little bit of the other. Would you like to see what I have?”
 
     - “Yes, please show me.” → *shop opens*
     - “No thanks.” → *conversation ends*
-    - “The teacher said that you would give me a cake.” *(if reached stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40); NOT reached stage 42 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42))* → [arlish_10](#d-arlish_10)
-    - “The teacher said that you would give me a cake.” *(if reached stage 42 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42))* → [arlish_20](#d-arlish_20)
+    - “The teacher said that you would give me a cake.” *(if reached stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40); NOT reached stage 42 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42))* → [arlish_10](#d-arlish_10)
+    - “The teacher said that you would give me a cake.” *(if reached stage 42 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42))* → [arlish_20](#d-arlish_20)
     - “What can you tell me about Lawellyn's dagger?” *(if reached stage 110 of [A strange looking dagger](../quests/brv_dagger.md#stage-110); NOT reached stage 115 of [A strange looking dagger](../quests/brv_dagger.md#stage-115); NOT reached stage 120 of [A strange looking dagger](../quests/brv_dagger.md#stage-120); NOT reached stage 200 of [A strange looking dagger](../quests/brv_dagger.md#stage-200); NOT reached stage 230 of [A strange looking dagger](../quests/brv_dagger.md#stage-230))* → [arlish_asd_0](#d-arlish_asd_0)
     - “I want to talk about the investigation.” *(if reached stage 130 of [A strange looking dagger](../quests/brv_dagger.md#stage-130); NOT reached stage 200 of [A strange looking dagger](../quests/brv_dagger.md#stage-200); NOT reached stage 230 of [A strange looking dagger](../quests/brv_dagger.md#stage-230))* → [arlish_asd_100](#d-arlish_asd_100)
     - “I need to find a large empty bottle. Do you have one?” *(if reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); NOT reached stage 40 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-40))* → [arlish_bottle_1](#d-arlish_bottle_1)
@@ -78,8 +78,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Well, I have it right here.” *(if hand over 1× [Assassin's blade](../items/dagger_assassin.md))* → [arlish_asd_20](#d-arlish_asd_20)
     - “Well, I have it right here.” *(if wearing (and give up) [Assassin's blade](../items/dagger_assassin.md))* → [arlish_asd_20](#d-arlish_asd_20)
-    - “You have looked at the dagger. Can you tell me more?” *(if reached stage 50 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50))* → [arlish_asd_30](#d-arlish_asd_30)
-    - “I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.” *(if NOT carry 1× [Assassin's blade](../items/dagger_assassin.md); NOT wearing [Assassin's blade](../items/dagger_assassin.md); NOT reached stage 50 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50))* → [arlish_asd_15](#d-arlish_asd_15)
+    - “You have looked at the dagger. Can you tell me more?” *(if reached stage 50 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50))* → [arlish_asd_30](#d-arlish_asd_30)
+    - “I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.” *(if NOT carry 1× [Assassin's blade](../items/dagger_assassin.md); NOT wearing [Assassin's blade](../items/dagger_assassin.md); NOT reached stage 50 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50))* → [arlish_asd_15](#d-arlish_asd_15)
     - “Nothing. I was just curious. Bye.” → *conversation ends*
 
     <span id="d-arlish_asd_100"></span>**`arlish_asd_100`** Arlish: “What about it?”
@@ -98,7 +98,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Yes, please.” → [arlish_16](#d-arlish_16)
     - “No, thank you. I prefer the cake as a whole.” → [arlish_14](#d-arlish_14)
 
-    <span id="d-arlish_asd_20"></span>**`arlish_asd_20`** [Dummy NPC](../monsters/none.md): “Arlish takes the dagger and examines it while you continue to talk.” — **effects:** sets stage 50 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50)
+    <span id="d-arlish_asd_20"></span>**`arlish_asd_20`** [Dummy NPC](../monsters/none.md): “Arlish takes the dagger and examines it while you continue to talk.” — **effects:** sets stage 50 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50)
 
     - “I was able to acquire the dagger and its gem. Then Edrin repaired it for me.” → [arlish_asd_30](#d-arlish_asd_30)
 
@@ -120,11 +120,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-arlish_bottle_2"></span>**`arlish_bottle_2`** Arlish: “Well, I do happen to have one. I don't display it as shop inventory because I've never been asked for such a thing before. Since it's for the church, you can have it for free.” — **effects:** sets stage 40 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-40), gives [Large empty bottle](../items/large_bottle.md)
 
 
-    <span id="d-arlish_16"></span>**`arlish_16`** Arlish: “Well, I'm cutting the cake into 8 large pieces. I hope they taste good to you!” — **effects:** gives 8× [Piece of cake](../items/cake_piece.md), sets stage 42 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42)
+    <span id="d-arlish_16"></span>**`arlish_16`** Arlish: “Well, I'm cutting the cake into 8 large pieces. I hope they taste good to you!” — **effects:** gives 8× [Piece of cake](../items/cake_piece.md), sets stage 42 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42)
 
     - “Thank you.” → *conversation ends*
 
-    <span id="d-arlish_14"></span>**`arlish_14`** Arlish: “I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.” — **effects:** gives 1× [Cake](../items/cake.md), sets stage 42 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42)
+    <span id="d-arlish_14"></span>**`arlish_14`** Arlish: “I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.” — **effects:** gives 1× [Cake](../items/cake.md), sets stage 42 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42)
 
     - “Thank you.” → *conversation ends*
 

@@ -1,8 +1,8 @@
 ---
-description: "Lake Laeroth Maps found is a hidden quest in Andor's Trail, started by stepping on a trigger on mountainlake14. 25 stages. 14=mountainlake14"
+description: "Lake Laeroth maps found is a hidden quest in Andor's Trail, started by stepping on a trigger on mountainlake14. 25 stages. 14=mountainlake14"
 ---
 
-# Lake Laeroth Maps found
+# Lake Laeroth maps found
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "Lake Laeroth Maps found is a hidden quest in Andor's Trail, starte
 | **Quest ID** | `ll2_maps` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 25 |
-| **Started by** | stepping on a trigger on [mountainlake14](../maps/mountainlake14.md) |
+| **Started by** | stepping on a trigger on [Mountainlake 14](../maps/mountainlake14.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -25,9 +25,9 @@ description: "Lake Laeroth Maps found is a hidden quest in Andor's Trail, starte
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md). Required:
+Start with stepping on a trigger on [Mountainlake 14](../maps/mountainlake14.md). Required:
 
-- NOT reached stage 14 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-14)
+- NOT reached stage 14 of [Lake Laeroth maps found (hidden flag)](../quests/ll2_maps.md#stage-14)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -42,129 +42,243 @@ Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md).
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-14"></span>14 | 14=mountainlake14<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake14](../maps/mountainlake14.md).</span> | stepping on a trigger on [mountainlake14](../maps/mountainlake14.md) | – | – |
-| <span id="stage-15"></span>15 | 15=mountainlake15<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake15](../maps/mountainlake15.md).</span> | stepping on a trigger on [mountainlake15](../maps/mountainlake15.md) | – | – |
-| <span id="stage-16"></span>16 | 16=mountainlake16<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake16](../maps/mountainlake16.md).</span> | stepping on a trigger on [mountainlake16](../maps/mountainlake16.md) | – | – |
-| <span id="stage-17"></span>17 | 17=mountainlake17<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake17](../maps/mountainlake17.md).</span> | stepping on a trigger on [mountainlake17](../maps/mountainlake17.md) | – | – |
-| <span id="stage-18"></span>18 | 18=mountainlake18<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake18](../maps/mountainlake18.md).</span> | stepping on a trigger on [mountainlake18](../maps/mountainlake18.md) | – | – |
-| <span id="stage-19"></span>19 | 19=mountainlake19<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake19](../maps/mountainlake19.md).</span> | stepping on a trigger on [mountainlake19](../maps/mountainlake19.md) | – | – |
-| <span id="stage-20"></span>20 | 20=mountainlake20<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake20](../maps/mountainlake20.md).</span> | stepping on a trigger on [mountainlake20](../maps/mountainlake20.md) | – | – |
-| <span id="stage-21"></span>21 | 21=mountainlake21<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake21](../maps/mountainlake21.md).</span> | stepping on a trigger on [mountainlake21](../maps/mountainlake21.md) | – | – |
-| <span id="stage-22"></span>22 | 22=mountainlake22<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake22](../maps/mountainlake22.md).</span> | stepping on a trigger on [mountainlake22](../maps/mountainlake22.md) | – | – |
-| <span id="stage-23"></span>23 | 23=mountainlake23 | dialogue `ll2_maps_23_1`, which nothing in the data starts directly | – | – |
-| <span id="stage-24"></span>24 | 24=mountainlake24 | dialogue `ll2_maps_24_1`, which nothing in the data starts directly | – | – |
-| <span id="stage-25"></span>25 | 25=mountainlake25<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake25](../maps/mountainlake25.md).</span> | stepping on a trigger on [mountainlake25](../maps/mountainlake25.md) | – | – |
-| <span id="stage-26"></span>26 | 26=mountainlake26<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake26](../maps/mountainlake26.md).</span> | stepping on a trigger on [mountainlake26](../maps/mountainlake26.md) | – | – |
-| <span id="stage-27"></span>27 | 27=mountainlake27<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake27](../maps/mountainlake27.md).</span> | stepping on a trigger on [mountainlake27](../maps/mountainlake27.md) | – | – |
-| <span id="stage-28"></span>28 | 28=mountainlake28<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake28](../maps/mountainlake28.md).</span> | stepping on a trigger on [mountainlake28](../maps/mountainlake28.md) | – | – |
-| <span id="stage-29"></span>29 | 29=mountainlake29<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake29](../maps/mountainlake29.md).</span> | stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) | – | – |
-| <span id="stage-30"></span>30 | 30=mountainlake30<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake30](../maps/mountainlake30.md).</span> | stepping on a trigger on [mountainlake30](../maps/mountainlake30.md) | – | – |
-| <span id="stage-31"></span>31 | 31=mountainlake31<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake31](../maps/mountainlake31.md).</span> | stepping on a trigger on [mountainlake31](../maps/mountainlake31.md) | – | – |
-| <span id="stage-32"></span>32 | 32=mountainlake32<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake32](../maps/mountainlake32.md).</span> | stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) | – | – |
-| <span id="stage-33"></span>33 | 33=mountainlake33<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake33](../maps/mountainlake33.md).</span> | stepping on a trigger on [mountainlake33](../maps/mountainlake33.md) | – | – |
-| <span id="stage-34"></span>34 | 34=mountainlake34<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake34](../maps/mountainlake34.md).</span> | stepping on a trigger on [mountainlake34](../maps/mountainlake34.md) | – | – |
-| <span id="stage-35"></span>35 | 35=mountainlake35<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake35](../maps/mountainlake35.md).</span> | stepping on a trigger on [mountainlake35](../maps/mountainlake35.md) | – | – |
-| <span id="stage-36"></span>36 | 36=mountainlake36<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake36](../maps/mountainlake36.md).</span> | stepping on a trigger on [mountainlake36](../maps/mountainlake36.md) | – | – |
-| <span id="stage-37"></span>37 | 37=mountainlake37<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake37](../maps/mountainlake37.md).</span> | stepping on a trigger on [mountainlake37](../maps/mountainlake37.md) | – | – |
-| <span id="stage-38"></span>38 | 38=mountainlake38 | dialogue `ll2_maps_38_1`, which nothing in the data starts directly | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-14"></span>[14](#route-14) | 14=mountainlake14<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 14](../maps/mountainlake14.md).</span> | stepping on a trigger on [Mountainlake 14](../maps/mountainlake14.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | 15=mountainlake15<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 15](../maps/mountainlake15.md).</span> | stepping on a trigger on [Mountainlake 15](../maps/mountainlake15.md) | – |
+| <span id="stage-16"></span>[16](#route-16) | 16=mountainlake16<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 16](../maps/mountainlake16.md).</span> | stepping on a trigger on [Mountainlake 16](../maps/mountainlake16.md) | – |
+| <span id="stage-17"></span>[17](#route-17) | 17=mountainlake17<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 17](../maps/mountainlake17.md).</span> | stepping on a trigger on [Mountainlake 17](../maps/mountainlake17.md) | – |
+| <span id="stage-18"></span>[18](#route-18) | 18=mountainlake18<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 18](../maps/mountainlake18.md).</span> | stepping on a trigger on [Mountainlake 18](../maps/mountainlake18.md) | – |
+| <span id="stage-19"></span>[19](#route-19) | 19=mountainlake19<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 19](../maps/mountainlake19.md).</span> | stepping on a trigger on [Mountainlake 19](../maps/mountainlake19.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | 20=mountainlake20<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 20](../maps/mountainlake20.md).</span> | stepping on a trigger on [Mountainlake 20](../maps/mountainlake20.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | 21=mountainlake21<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 21](../maps/mountainlake21.md).</span> | stepping on a trigger on [Mountainlake 21](../maps/mountainlake21.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | 22=mountainlake22<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 22](../maps/mountainlake22.md).</span> | stepping on a trigger on [Mountainlake 22](../maps/mountainlake22.md) | – |
+| <span id="stage-23"></span>23 | 23=mountainlake23 | dialogue `ll2_maps_23_1`, never started directly | – |
+| <span id="stage-24"></span>24 | 24=mountainlake24 | dialogue `ll2_maps_24_1`, never started directly | – |
+| <span id="stage-25"></span>[25](#route-25) | 25=mountainlake25<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 25](../maps/mountainlake25.md).</span> | stepping on a trigger on [Mountainlake 25](../maps/mountainlake25.md) | – |
+| <span id="stage-26"></span>[26](#route-26) | 26=mountainlake26<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 26](../maps/mountainlake26.md).</span> | stepping on a trigger on [Mountainlake 26](../maps/mountainlake26.md) | – |
+| <span id="stage-27"></span>[27](#route-27) | 27=mountainlake27<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 27](../maps/mountainlake27.md).</span> | stepping on a trigger on [Mountainlake 27](../maps/mountainlake27.md) | – |
+| <span id="stage-28"></span>[28](#route-28) | 28=mountainlake28<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 28](../maps/mountainlake28.md).</span> | stepping on a trigger on [Mountainlake 28](../maps/mountainlake28.md) | – |
+| <span id="stage-29"></span>[29](#route-29) | 29=mountainlake29<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 29](../maps/mountainlake29.md).</span> | stepping on a trigger on [Mountainlake 29](../maps/mountainlake29.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | 30=mountainlake30<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 30](../maps/mountainlake30.md).</span> | stepping on a trigger on [Mountainlake 30](../maps/mountainlake30.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | 31=mountainlake31<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 31](../maps/mountainlake31.md).</span> | stepping on a trigger on [Mountainlake 31](../maps/mountainlake31.md) | – |
+| <span id="stage-32"></span>[32](#route-32) | 32=mountainlake32<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 32](../maps/mountainlake32.md).</span> | stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) | – |
+| <span id="stage-33"></span>[33](#route-33) | 33=mountainlake33<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 33](../maps/mountainlake33.md).</span> | stepping on a trigger on [Mountainlake 33](../maps/mountainlake33.md) | – |
+| <span id="stage-34"></span>[34](#route-34) | 34=mountainlake34<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 34](../maps/mountainlake34.md).</span> | stepping on a trigger on [Mountainlake 34](../maps/mountainlake34.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | 35=mountainlake35<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 35](../maps/mountainlake35.md).</span> | stepping on a trigger on [Mountainlake 35](../maps/mountainlake35.md) | – |
+| <span id="stage-36"></span>[36](#route-36) | 36=mountainlake36<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 36](../maps/mountainlake36.md).</span> | stepping on a trigger on [Mountainlake 36](../maps/mountainlake36.md) | – |
+| <span id="stage-37"></span>[37](#route-37) | 37=mountainlake37<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 37](../maps/mountainlake37.md).</span> | stepping on a trigger on [Mountainlake 37](../maps/mountainlake37.md) | – |
+| <span id="stage-38"></span>38 | 38=mountainlake38 | dialogue `ll2_maps_38_1`, never started directly | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 14: 1 route"
+<span id="route-14"></span>
 
-    1. stepping on a trigger on [mountainlake14](../maps/mountainlake14.md) → the conversation leads here automatically — **conditions:** NOT reached stage 14 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-14) → **stage 14**
+??? note "Stage 14 · stepping on a trigger on mountainlake14 · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Stepping on a trigger on [Mountainlake 14](../maps/mountainlake14.md)
 
-    1. stepping on a trigger on [mountainlake15](../maps/mountainlake15.md) → the conversation leads here automatically — **conditions:** NOT reached stage 15 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-15) → **stage 15**
+    - **Needs:** not yet stage 14
 
-???+ note "Stage 16: 1 route"
 
-    1. stepping on a trigger on [mountainlake16](../maps/mountainlake16.md) → the conversation leads here automatically — **conditions:** NOT reached stage 16 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-16) → **stage 16**
+<span id="route-15"></span>
 
-???+ note "Stage 17: 1 route"
+??? note "Stage 15 · stepping on a trigger on mountainlake15 · 1 way"
 
-    1. stepping on a trigger on [mountainlake17](../maps/mountainlake17.md) → the conversation leads here automatically — **conditions:** NOT reached stage 17 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-17) → **stage 17**
+    **Way 1:** Stepping on a trigger on [Mountainlake 15](../maps/mountainlake15.md)
 
-???+ note "Stage 18: 1 route"
+    - **Needs:** not yet stage 15
 
-    1. stepping on a trigger on [mountainlake18](../maps/mountainlake18.md) → the conversation leads here automatically — **conditions:** NOT reached stage 18 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-18) → **stage 18**
 
-???+ note "Stage 19: 1 route"
+<span id="route-16"></span>
 
-    1. stepping on a trigger on [mountainlake19](../maps/mountainlake19.md) → the conversation leads here automatically — **conditions:** NOT reached stage 19 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-19) → **stage 19**
+??? note "Stage 16 · stepping on a trigger on mountainlake16 · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Stepping on a trigger on [Mountainlake 16](../maps/mountainlake16.md)
 
-    1. stepping on a trigger on [mountainlake20](../maps/mountainlake20.md) → the conversation leads here automatically — **conditions:** NOT reached stage 20 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-20) → **stage 20**
+    - **Needs:** not yet stage 16
 
-???+ note "Stage 21: 1 route"
 
-    1. stepping on a trigger on [mountainlake21](../maps/mountainlake21.md) → the conversation leads here automatically — **conditions:** NOT reached stage 21 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-21) → **stage 21**
+<span id="route-17"></span>
 
-???+ note "Stage 22: 1 route"
+??? note "Stage 17 · stepping on a trigger on mountainlake17 · 1 way"
 
-    1. stepping on a trigger on [mountainlake22](../maps/mountainlake22.md) → the conversation leads here automatically — **conditions:** NOT reached stage 22 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-22) → **stage 22**
+    **Way 1:** Stepping on a trigger on [Mountainlake 17](../maps/mountainlake17.md)
 
-???+ note "Stage 25: 1 route"
+    - **Needs:** not yet stage 17
 
-    1. stepping on a trigger on [mountainlake25](../maps/mountainlake25.md) → the conversation leads here automatically — **conditions:** NOT reached stage 25 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-25) → **stage 25**
 
-???+ note "Stage 26: 1 route"
+<span id="route-18"></span>
 
-    1. stepping on a trigger on [mountainlake26](../maps/mountainlake26.md) → the conversation leads here automatically — **conditions:** NOT reached stage 26 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-26) → **stage 26**
+??? note "Stage 18 · stepping on a trigger on mountainlake18 · 1 way"
 
-???+ note "Stage 27: 1 route"
+    **Way 1:** Stepping on a trigger on [Mountainlake 18](../maps/mountainlake18.md)
 
-    1. stepping on a trigger on [mountainlake27](../maps/mountainlake27.md) → the conversation leads here automatically — **conditions:** NOT reached stage 27 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-27) → **stage 27**
+    - **Needs:** not yet stage 18
 
-???+ note "Stage 28: 1 route"
 
-    1. stepping on a trigger on [mountainlake28](../maps/mountainlake28.md) → the conversation leads here automatically — **conditions:** NOT reached stage 28 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-28) → **stage 28**
+<span id="route-19"></span>
 
-???+ note "Stage 29: 1 route"
+??? note "Stage 19 · stepping on a trigger on mountainlake19 · 1 way"
 
-    1. stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) → the conversation leads here automatically — **conditions:** NOT reached stage 29 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-29) → **stage 29**
+    **Way 1:** Stepping on a trigger on [Mountainlake 19](../maps/mountainlake19.md)
 
-???+ note "Stage 30: 1 route"
+    - **Needs:** not yet stage 19
 
-    1. stepping on a trigger on [mountainlake30](../maps/mountainlake30.md) → the conversation leads here automatically — **conditions:** NOT reached stage 30 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-30) → **stage 30**
 
-???+ note "Stage 31: 1 route"
+<span id="route-20"></span>
 
-    1. stepping on a trigger on [mountainlake31](../maps/mountainlake31.md) → the conversation leads here automatically — **conditions:** NOT reached stage 31 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-31) → **stage 31**
+??? note "Stage 20 · stepping on a trigger on mountainlake20 · 1 way"
 
-???+ note "Stage 32: 1 route"
+    **Way 1:** Stepping on a trigger on [Mountainlake 20](../maps/mountainlake20.md)
 
-    1. stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) → the conversation leads here automatically — **conditions:** NOT reached stage 32 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-32) → **stage 32**
+    - **Needs:** not yet stage 20
 
-???+ note "Stage 33: 1 route"
 
-    1. stepping on a trigger on [mountainlake33](../maps/mountainlake33.md) → the conversation leads here automatically — **conditions:** NOT reached stage 33 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-33) → **stage 33**
+<span id="route-21"></span>
 
-???+ note "Stage 34: 1 route"
+??? note "Stage 21 · stepping on a trigger on mountainlake21 · 1 way"
 
-    1. stepping on a trigger on [mountainlake34](../maps/mountainlake34.md) → the conversation leads here automatically — **conditions:** NOT reached stage 34 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-34) → **stage 34**
+    **Way 1:** Stepping on a trigger on [Mountainlake 21](../maps/mountainlake21.md)
 
-???+ note "Stage 35: 1 route"
+    - **Needs:** not yet stage 21
 
-    1. stepping on a trigger on [mountainlake35](../maps/mountainlake35.md) → the conversation leads here automatically — **conditions:** NOT reached stage 35 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-35) → **stage 35**
 
-???+ note "Stage 36: 1 route"
+<span id="route-22"></span>
 
-    1. stepping on a trigger on [mountainlake36](../maps/mountainlake36.md) → the conversation leads here automatically — **conditions:** NOT reached stage 36 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-36) → **stage 36**
+??? note "Stage 22 · stepping on a trigger on mountainlake22 · 1 way"
 
-???+ note "Stage 37: 1 route"
+    **Way 1:** Stepping on a trigger on [Mountainlake 22](../maps/mountainlake22.md)
 
-    1. stepping on a trigger on [mountainlake37](../maps/mountainlake37.md) → the conversation leads here automatically — **conditions:** NOT reached stage 37 of [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md#stage-37) → **stage 37**
+    - **Needs:** not yet stage 22
+
+
+<span id="route-25"></span>
+
+??? note "Stage 25 · stepping on a trigger on mountainlake25 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 25](../maps/mountainlake25.md)
+
+    - **Needs:** not yet stage 25
+
+
+<span id="route-26"></span>
+
+??? note "Stage 26 · stepping on a trigger on mountainlake26 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 26](../maps/mountainlake26.md)
+
+    - **Needs:** not yet stage 26
+
+
+<span id="route-27"></span>
+
+??? note "Stage 27 · stepping on a trigger on mountainlake27 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 27](../maps/mountainlake27.md)
+
+    - **Needs:** not yet stage 27
+
+
+<span id="route-28"></span>
+
+??? note "Stage 28 · stepping on a trigger on mountainlake28 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 28](../maps/mountainlake28.md)
+
+    - **Needs:** not yet stage 28
+
+
+<span id="route-29"></span>
+
+??? note "Stage 29 · stepping on a trigger on mountainlake29 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 29](../maps/mountainlake29.md)
+
+    - **Needs:** not yet stage 29
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · stepping on a trigger on mountainlake30 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 30](../maps/mountainlake30.md)
+
+    - **Needs:** not yet stage 30
+
+
+<span id="route-31"></span>
+
+??? note "Stage 31 · stepping on a trigger on mountainlake31 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 31](../maps/mountainlake31.md)
+
+    - **Needs:** not yet stage 31
+
+
+<span id="route-32"></span>
+
+??? note "Stage 32 · stepping on a trigger on mountainlake32 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md)
+
+    - **Needs:** not yet stage 32
+
+
+<span id="route-33"></span>
+
+??? note "Stage 33 · stepping on a trigger on mountainlake33 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 33](../maps/mountainlake33.md)
+
+    - **Needs:** not yet stage 33
+
+
+<span id="route-34"></span>
+
+??? note "Stage 34 · stepping on a trigger on mountainlake34 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 34](../maps/mountainlake34.md)
+
+    - **Needs:** not yet stage 34
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · stepping on a trigger on mountainlake35 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 35](../maps/mountainlake35.md)
+
+    - **Needs:** not yet stage 35
+
+
+<span id="route-36"></span>
+
+??? note "Stage 36 · stepping on a trigger on mountainlake36 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 36](../maps/mountainlake36.md)
+
+    - **Needs:** not yet stage 36
+
+
+<span id="route-37"></span>
+
+??? note "Stage 37 · stepping on a trigger on mountainlake37 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 37](../maps/mountainlake37.md)
+
+    - **Needs:** not yet stage 37
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -209,6 +323,7 @@ Start with stepping on a trigger on [mountainlake14](../maps/mountainlake14.md).
     | | |
     |---|---|
     | Quest ID | `ll2_maps` |
+    | Name in game data | `Lake Laeroth Maps found` |
     | showInLog | 0 |
     | Stage IDs | 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 |
     | Dialogue nodes setting stages | 14: `ll2_maps_14_1`, 15: `ll2_maps_15_1`, 16: `ll2_maps_16_1`, 17: `ll2_maps_17_1`, 18: `ll2_maps_18_1`, 19: `ll2_maps_19_1`, 20: `ll2_maps_20_1`, 21: `ll2_maps_21_1`, 22: `ll2_maps_22_1`, 23: `ll2_maps_23_1`, 24: `ll2_maps_24_1`, 25: `ll2_maps_25_1`, 26: `ll2_maps_26_1`, 27: `ll2_maps_27_1`, 28: `ll2_maps_28_1`, 29: `ll2_maps_29_1`, 30: `ll2_maps_30_1`, 31: `ll2_maps_31_1`, 32: `ll2_maps_32_1`, 33: `ll2_maps_33_1`, 34: `ll2_maps_34_1`, 35: `ll2_maps_35_1`, 36: `ll2_maps_36_1`, 37: `ll2_maps_37_1`, 38: `ll2_maps_38_1` |

@@ -37,7 +37,7 @@ description: "Fig is a ordinary food in Andor's Trail. How to get it: shops. A F
 
 ### Sold by
 
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -48,8 +48,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (5×) | “Here, take them all.” |
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | must be carried (5×) | “(automatic)” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (5×) | “Here, take them all.” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | – | must be carried (5×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,10 +1,10 @@
 ---
-description: "Strong cave troll is an enemy in Andor's Trail (giant) with 250 HP, worth 323 XP, found in lakecave0, lakecave2. Drops: Gold coins, Iron club."
+description: "Strong cave troll is an enemy in Andor's Trail (giant) with 250 HP, worth 323 XP, found in Lakecave 0, Lakecave 2. Drops: Gold coins, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_15.png){ .sprite } Strong cave troll
 
-**Found in:** [lakecave0](../maps/lakecave0.md), [lakecave2](../maps/lakecave2.md)
+**Found in:** [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Strong cave troll is an enemy in Andor's Trail (giant) with 250 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lakecave0, lakecave2 |
+| **Found in** | Lakecave 0, Lakecave 2 |
 | **Class** | Giant |
 | **HP** | 250 |
 | **XP when defeated** | 323 |
@@ -57,12 +57,12 @@ description: "Strong cave troll is an enemy in Andor's Trail (giant) with 250 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave0](../maps/lakecave0.md) | – | 4 | – |
-| [lakecave2](../maps/lakecave2.md) | – | 5 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 4 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 5 | – |
 
 ## Quests that count defeats
 
-- [A secret garden](../quests/secret_garden.md#stage-55) with stepping on a trigger on [lakecave0](../maps/lakecave0.md), stepping on a trigger on [lakecave2](../maps/lakecave2.md) checks that at least 7 of these enemies have been defeated.
+- [A secret garden](../quests/secret_garden.md#stage-55) with stepping on a trigger on [Lakecave 0](../maps/lakecave0.md), stepping on a trigger on [Lakecave 2](../maps/lakecave2.md) checks that at least 7 of these enemies have been defeated.
 
 
 ## Version history

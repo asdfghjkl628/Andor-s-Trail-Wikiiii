@@ -4,7 +4,7 @@ description: "Fierce cave lizard is an enemy in Andor's Trail (reptile) with 30 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } Fierce cave lizard
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_424](../maps/ratdom_maze_424.md), Bloskelt + Roskelt: [ratdom_maze_435](../maps/ratdom_maze_435.md), Entry: [ratdom_maze_467](../maps/ratdom_maze_467.md), Instrument maker: [ratdom_maze_445](../maps/ratdom_maze_445.md) (+4 more)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 424](../maps/ratdom_maze_424.md), Bloskelt + Roskelt: [Ratdom maze 435](../maps/ratdom_maze_435.md), Entry: [Ratdom maze 467](../maps/ratdom_maze_467.md), Instrument maker: [Ratdom maze 445](../maps/ratdom_maze_445.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -50,14 +50,14 @@ description: "Fierce cave lizard is an enemy in Andor's Trail (reptile) with 30 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_424](../maps/ratdom_maze_424.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_435](../maps/ratdom_maze_435.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_445](../maps/ratdom_maze_445.md) | Instrument maker | 2 | – |
-| [ratdom_maze_455](../maps/ratdom_maze_455.md) | Instrument maker | 2 | – |
-| [ratdom_maze_456](../maps/ratdom_maze_456.md) | Instrument maker | 2 | – |
-| [ratdom_maze_467](../maps/ratdom_maze_467.md) | Entry | 1 | – |
-| [ratdom_maze_558](../maps/ratdom_maze_558.md) | Labyrinth | 2 | – |
-| [ratdom_maze_566](../maps/ratdom_maze_566.md) | – | 1 | – |
+| [Ratdom maze 424](../maps/ratdom_maze_424.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 435](../maps/ratdom_maze_435.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 445](../maps/ratdom_maze_445.md) | Instrument maker | 2 | – |
+| [Ratdom maze 455](../maps/ratdom_maze_455.md) | Instrument maker | 2 | – |
+| [Ratdom maze 456](../maps/ratdom_maze_456.md) | Instrument maker | 2 | – |
+| [Ratdom maze 467](../maps/ratdom_maze_467.md) | Entry | 1 | – |
+| [Ratdom maze 558](../maps/ratdom_maze_558.md) | Labyrinth | 2 | – |
+| [Ratdom maze 566](../maps/ratdom_maze_566.md) | – | 1 | – |
 
 
 ## Version history

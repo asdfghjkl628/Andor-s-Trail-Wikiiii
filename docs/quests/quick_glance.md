@@ -11,9 +11,9 @@ description: "A quick glance is a quest in Andor's Trail, started by Anakis (bri
 | **Quest ID** | `quick_glance` |
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 90) |
-| **Started by** | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) |
+| **Started by** | [Anakis](../monsters/anakis.md) ([Brimhaven 7](../maps/brimhaven7.md)) |
 | **NPCs involved** | [Anakis](../monsters/anakis.md), [Fangwurm](../monsters/fangwurm.md) |
-| **Locations** | [brimhaven7](../maps/brimhaven7.md), [brimhaven_anakis_house](../maps/brimhaven_anakis_house.md), [brimhaven_church](../maps/brimhaven_church.md) |
+| **Locations** | [Brimhaven 7](../maps/brimhaven7.md), [Brimhaven anakis house](../maps/brimhaven_anakis_house.md), [Brimhaven church](../maps/brimhaven_church.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "A quick glance is a quest in Andor's Trail, started by Anakis (bri
 
 ## Prerequisites to start
 
-Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)). Required:
+Start with [Anakis](../monsters/anakis.md) ([Brimhaven 7](../maps/brimhaven7.md)). Required:
 
 - NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10)
 
@@ -38,97 +38,200 @@ Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-10) | stage 10 reached, for stages 40, 50 here |
-| Requires | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 reached, for stage 90 here |
-| Blocked by | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-10) | stage 10 must NOT be reached, for stage 20 here |
-| Blocked by | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 must NOT be reached, for stages 80, 85 here |
-| Unlocks | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-20) | stage 20 there needs stage 60 here |
-| Unlocks | [quick_glance_hidden_found_statue (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 there needs stage 60 here |
-| Unlocks | [quick_glance_hidden_position (hidden flag)](quick_glance_hidden_position.md#stage-110) | stage 110 there needs stage 20 here |
-| Blocks | [quick_glance_hidden_position (hidden flag)](quick_glance_hidden_position.md#stage-110) | reaching stages 15, 20, 50 here closes stage 110 there |
+| Requires | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-10) | stage 10 reached, for stages 40, 50 here |
+| Requires | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 reached, for stage 90 here |
+| Blocked by | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-10) | stage 10 must NOT be reached, for stage 20 here |
+| Blocked by | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 must NOT be reached, for stages 80, 85 here |
+| Unlocks | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-20) | stage 20 there needs stage 60 here |
+| Unlocks | [Quick glance: statue found (hidden flag)](quick_glance_hidden_found_statue.md#stage-30) | stage 30 there needs stage 60 here |
+| Unlocks | [Quick glance: position (hidden flag)](quick_glance_hidden_position.md#stage-110) | stage 110 there needs stage 20 here |
+| Blocks | [Quick glance: position (hidden flag)](quick_glance_hidden_position.md#stage-110) | reaching stages 15, 20, 50 here closes stage 110 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I talked to Anakis. He told me that his sister, Juttarka, went into the cave and did not come out again. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-15"></span>15 | I denied to help Anakis to find his sister, Juttarka. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-20"></span>20 | I agreed to help Anakis find his sister, Juttarka. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-40"></span>40 | I found a stone statue that looked almost like a real woman. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))<br>walking into a blocked passage on [basiliskcave2](../maps/basiliskcave2.md) | stage 10 | – |
-| <span id="stage-50"></span>50 | I told Anakis about the statue. He thinks that it is his sister, Juttarka, and thanked me for helping him. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | 100 XP |
-| <span id="stage-60"></span>60 | Anakis asked me if I could avenge his sister. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-70"></span>70 | I agreed to avenge Anakis' sister, Juttarka, and kill the Basilisk. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-75"></span>75 | I should talk to Fangwurm, the priest of west Brimhaven, to see if he has some information about how it may be possible to help Anakis' sister. | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | – | – |
-| <span id="stage-77"></span>77 | Fangwurm told me that the Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisk's blood might even be able to heal a person that has been turned to stone. | [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) | – | – |
-| <span id="stage-78"></span>78 | The priest Fangwurm told me that the potion maker in Fallhaven sells special crystal vials that are resistent to the blood of a Basilisk, and I will need one to handle it. | [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) | stage 77 | – |
-| <span id="stage-79"></span>79 | I should search the other rooms in this cave for a mirror that I can use to protect me from the glance of the Basilisk. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-80"></span>80 | I killed the Basilisk.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave2](../maps/basiliskcave2.md).</span> | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | stage 60 | – |
-| <span id="stage-85"></span>85 | I saved the life of Anakis' sister Juttarka.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave2](../maps/basiliskcave2.md).</span> | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | carry 1× [Empty crystal vial](../items/empty_crystal_vial.md), stage 60 | 400 XP<br>sets stage 20 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20)<br>sets stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30)<br>spawns monsters on brimhaven_anakis_house |
-| <span id="stage-90"></span>90 | I told Anakis that I killed the Basilisk. **(completes quest)** | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) | stage 85 | 1,000 XP<br>spawns monsters on brimhaven_anakis_house<br>removes monsters from brimhaven7 |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I talked to Anakis. He told me that his sister, Juttarka, went into… ▸</span><span class="l">▴ less</span></summary>I talked to Anakis. He told me that his sister, Juttarka, went into the cave and did not come out again.</details> | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | I denied to help Anakis to find his sister, Juttarka. | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I agreed to help Anakis find his sister, Juttarka. | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I found a stone statue that looked almost like a real woman. | [Anakis](../monsters/anakis.md), walking into a blocked passage on [Basiliskcave 2](../maps/basiliskcave2.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I told Anakis about the statue. He thinks that it is his sister,… ▸</span><span class="l">▴ less</span></summary>I told Anakis about the statue. He thinks that it is his sister, Juttarka, and thanked me for helping him.</details> | [Anakis](../monsters/anakis.md) | 100 XP |
+| <span id="stage-60"></span>[60](#route-60) | Anakis asked me if I could avenge his sister. | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | I agreed to avenge Anakis' sister, Juttarka, and kill the Basilisk. | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-75"></span>[75](#route-75) | <details class="jt"><summary><span class="s">I should talk to Fangwurm, the priest of west Brimhaven, to see if… ▸</span><span class="l">▴ less</span></summary>I should talk to Fangwurm, the priest of west Brimhaven, to see if he has some information about how it may be possible to help Anakis' sister.</details> | [Anakis](../monsters/anakis.md) | – |
+| <span id="stage-77"></span>[77](#route-77) | <details class="jt"><summary><span class="s">Fangwurm told me that the Basilisk's blood has special properties.… ▸</span><span class="l">▴ less</span></summary>Fangwurm told me that the Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisk's blood might even be able to heal a person that has been turned to stone.</details> | [Fangwurm](../monsters/fangwurm.md) | – |
+| <span id="stage-78"></span>[78](#route-78) | <details class="jt"><summary><span class="s">The priest Fangwurm told me that the potion maker in Fallhaven sells… ▸</span><span class="l">▴ less</span></summary>The priest Fangwurm told me that the potion maker in Fallhaven sells special crystal vials that are resistent to the blood of a Basilisk, and I will need one to handle it.</details> | [Fangwurm](../monsters/fangwurm.md) | – |
+| <span id="stage-79"></span>79 | <details class="jt"><summary><span class="s">I should search the other rooms in this cave for a mirror that I can… ▸</span><span class="l">▴ less</span></summary>I should search the other rooms in this cave for a mirror that I can use to protect me from the glance of the Basilisk.</details> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-80"></span>[80](#route-80) | I killed the Basilisk.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave 2](../maps/basiliskcave2.md).</span> | stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | – |
+| <span id="stage-85"></span>[85](#route-85) | I saved the life of Anakis' sister Juttarka.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave 2](../maps/basiliskcave2.md).</span> | stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | 400 XP, spawns monsters on brimhaven_anakis_house |
+| <span id="stage-90"></span>[90](#route-90) | I told Anakis that I killed the Basilisk. **(ends quest)** | [Anakis](../monsters/anakis.md) | 1,000 XP, spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7 |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10) → **stage 10**. NPC: “Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka left the city to go up to this hill.…”
+??? note "Stage 10 · Anakis · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), automatic
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “No, that's none of my business.” — **conditions:** NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10) → **stage 15**. NPC: “Oh, thats's sad.”
+    - **Needs:** not yet stage 10
+    - *“Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka left the city to go up to this hill. She did not come…”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “Yes, I will search for your sister.” — **conditions:** NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10); NOT reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10) → **stage 20**. NPC: “Thank you. My sister has long hair and is wearing a long skirt. Please take care. Fangwurm the priest in western…”
+<span id="route-15"></span>
 
-???+ note "Stage 40: 2 routes"
+??? note "Stage 15 · Anakis · 1 way"
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” — **conditions:** NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10); reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10) → **stage 40**. NPC: “Oh no, that's her! Thank you for helping me to find out what happened to her. I think it was the Basilisk who did that…”
-    2. walking into a blocked passage on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10); NOT reached stage 40 of [A quick glance](../quests/quick_glance.md#stage-40) → **stage 40**
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “No, that's none of my business.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** not yet stage 10
+    - *“Oh, thats's sad.”*
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” — **conditions:** NOT reached stage 10 of [A quick glance](../quests/quick_glance.md#stage-10); reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10) → **stage 50**. NPC: “Oh no, that's her! Thank you for helping me to find out what happened to her. I think it was the Basilisk who did that…”
 
-???+ note "Stage 60: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); NOT reached stage 70 of [A quick glance](../quests/quick_glance.md#stage-70) → **stage 60**. NPC: “Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate…”
+??? note "Stage 20 · Anakis · 1 way"
 
-???+ note "Stage 70: 2 routes"
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “Yes, I will search for your sister.”
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I can't imagine how to help your sister but I will take revenge for her and find a way to kill that Basilisk.” — **conditions:** NOT reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); NOT reached stage 70 of [A quick glance](../quests/quick_glance.md#stage-70); NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md) → **stage 70**
-    2. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I will take revenge, but first tell me how I might help your sister.” — **conditions:** NOT reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); NOT reached stage 70 of [A quick glance](../quests/quick_glance.md#stage-70); NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md) → **stage 70**. NPC: “I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.”
+    - **Needs:** not yet stage 10; not reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10)
+    - *“Thank you. My sister has long hair and is wearing a long skirt. Please take care. Fangwurm the priest in western Brimhaven told us about a…”*
 
-???+ note "Stage 75: 1 route"
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I will take revenge, but first tell me how I might help your sister.” — **conditions:** NOT reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); NOT reached stage 70 of [A quick glance](../quests/quick_glance.md#stage-70); NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md) → **stage 75**. NPC: “I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.”
+<span id="route-40"></span>
 
-???+ note "Stage 77: 1 route"
+??? note "Stage 40 · Anakis, walking into a blocked passage on basiliskcave2 · 2 ways"
 
-    1. Talk to [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “Can you please tell me again, what you know about the Basilisk's blood?” — **conditions:** reached stage 77 of [A quick glance](../quests/quick_glance.md#stage-77) → **stage 77**. NPC: “The Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm,…”
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]”
 
-???+ note "Stage 78: 1 route"
+    - **Needs:** not yet stage 10; reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10)
+    - *“Oh no, that's her! Thank you for helping me to find out what happened to her. I think it was the Basilisk who did that to her.”*
 
-    1. Talk to [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I will find a way to kill the Basilisk.” — **conditions:** reached stage 77 of [A quick glance](../quests/quick_glance.md#stage-77) → **stage 78**. NPC: “You would need a special crystal vial that is resistant to the Basilisk's blood to handle it. The potion maker in…”
+    **Way 2:** Walking into a blocked passage on [Basiliskcave 2](../maps/basiliskcave2.md)
 
-???+ note "Stage 80: 1 route"
+    - **Needs:** stage 10; not yet stage 40
 
-    1. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60) → **stage 80**. NPC: “You killed the Basilisk and the blood flows out of its wounds.”
 
-???+ note "Stage 85: 1 route"
+<span id="route-50"></span>
 
-    1. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → choose “I use the crystal vial and pour the blood over the stone statue.” — **conditions:** killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); carry 1× [Empty crystal vial](../items/empty_crystal_vial.md) → **stage 85**; also sets stage 20 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20), sets stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30), spawns monsters on brimhaven_anakis_house. NPC: “Slowly the stone statue gets colorful and starts to move. You healed the woman! After she comes back to life, she…”
+??? note "Stage 50 · Anakis · 1 way"
 
-???+ note "Stage 90: 3 routes"
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]”
 
-    1. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I already found the Basilisk and killed it.” — **conditions:** NOT reached stage 60 of [A quick glance](../quests/quick_glance.md#stage-60); NOT reached stage 70 of [A quick glance](../quests/quick_glance.md#stage-70); killed 1× [Ancient basilisk](../monsters/old_basilisk.md) → **stage 90**; also spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7. NPC: “Thank you for taking revenge for Juttarka. I will go now and mourn for my sister.”
-    2. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90); latest stage of [A quick glance](../quests/quick_glance.md#stage-85) is 85 → **stage 90**; also spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7. NPC: “Thank you so much for rescuing my sister Juttarka. She just came out of the cave and told me what you did for her. I…”
-    3. Talk to [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) → choose “I found the Basilisk and killed it, but I decided to take the blood for myself.” — **conditions:** NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) → **stage 90**; also spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7. NPC: “Oh no. Why did you not even try to help her? Now i will go and mourn for my sister.”
+    - **Needs:** not yet stage 10; reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10)
+    - *“Oh no, that's her! Thank you for helping me to find out what happened to her. I think it was the Basilisk who did that to her.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Anakis · 1 way"
+
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), automatic
+
+    - **Needs:** not yet stage 60, 70
+    - *“Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate that happened to my…”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Anakis · 2 ways"
+
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “I can't imagine how to help your sister but I will take revenge for her and find a way to kill that Basilisk.”
+
+    - **Needs:** not yet stage 60, 70; not killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
+
+    **Way 2:** Talk to [Anakis](../monsters/anakis.md), choose “I will take revenge, but first tell me how I might help your sister.”
+
+    - **Needs:** not yet stage 60, 70; not killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
+    - *“I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.”*
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · Anakis · 1 way"
+
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “I will take revenge, but first tell me how I might help your sister.”
+
+    - **Needs:** not yet stage 60, 70; not killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
+    - *“I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.”*
+
+
+<span id="route-77"></span>
+
+??? note "Stage 77 · Fangwurm · 1 way"
+
+    **Way 1:** Talk to [Fangwurm](../monsters/fangwurm.md), choose “Can you please tell me again, what you know about the Basilisk's blood?”
+
+    - **Needs:** stage 77
+    - *“The Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisks blood might even…”*
+
+
+<span id="route-78"></span>
+
+??? note "Stage 78 · Fangwurm · 1 way"
+
+    **Way 1:** Talk to [Fangwurm](../monsters/fangwurm.md), choose “I will find a way to kill the Basilisk.”
+
+    - **Needs:** stage 77
+    - *“You would need a special crystal vial that is resistant to the Basilisk's blood to handle it. The potion maker in Fallhaven might sell…”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · stepping on a trigger on basiliskcave2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)
+
+    - **Needs:** stage 60; killed 1× [Ancient basilisk](../monsters/old_basilisk.md); not reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30)
+    - *“You killed the Basilisk and the blood flows out of its wounds.”*
+
+
+<span id="route-85"></span>
+
+??? note "Stage 85 · stepping on a trigger on basiliskcave2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md), choose “I use the crystal vial and pour the blood over the stone statue.”
+
+    - **Needs:** stage 60; killed 1× [Ancient basilisk](../monsters/old_basilisk.md); not reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); carry 1× [Empty crystal vial](../items/empty_crystal_vial.md)
+    - **Gives:** spawns monsters on brimhaven_anakis_house
+    - <small>Also: sets stage 20 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20), sets stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30)</small>
+    - *“Slowly the stone statue gets colorful and starts to move. You healed the woman! After she comes back to life, she thanks you and tells you…”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Anakis · 3 ways"
+
+    **Way 1:** Talk to [Anakis](../monsters/anakis.md), choose “I already found the Basilisk and killed it.”
+
+    - **Needs:** not yet stage 60, 70; killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
+    - **Gives:** spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7
+    - *“Thank you for taking revenge for Juttarka. I will go now and mourn for my sister.”*
+
+    **Way 2:** Talk to [Anakis](../monsters/anakis.md), automatic
+
+    - **Needs:** not yet stage 90; latest stage of [A quick glance](../quests/quick_glance.md#stage-85) is 85
+    - **Gives:** spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7
+    - *“Thank you so much for rescuing my sister Juttarka. She just came out of the cave and told me what you did for her. I will now go home, too.”*
+
+    **Way 3:** Talk to [Anakis](../monsters/anakis.md), choose “I found the Basilisk and killed it, but I decided to take the blood for myself.”
+
+    - **Needs:** not yet stage 90; killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30)
+    - **Gives:** spawns monsters on brimhaven_anakis_house, removes monsters from brimhaven7
+    - *“Oh no. Why did you not even try to help her? Now i will go and mourn for my sister.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

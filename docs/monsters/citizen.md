@@ -4,7 +4,7 @@ description: "Citizen is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Citizen
 
-**Where to find Citizen:** Fallhaven: [fallhaven_ne](../maps/fallhaven_ne.md#pin-npc-citizen), Fallhaven: [fallhaven_sw](../maps/fallhaven_sw.md#pin-npc-citizen)
+**Where to find Citizen:** Fallhaven: [Fallhaven north-east](../maps/fallhaven_ne.md#pin-npc-citizen), Fallhaven: [Fallhaven south-west](../maps/fallhaven_sw.md#pin-npc-citizen)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Citizen is a non-player character (NPC) in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_ne](../maps/fallhaven_ne.md) | Fallhaven | 1 | – |
-| [fallhaven_sw](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
+| [Fallhaven north-east](../maps/fallhaven_ne.md) | Fallhaven | 1 | – |
+| [Fallhaven south-west](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Citizen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Citizen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_citizen3.json" data-npc="Citizen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_citizen3"></span>**`fallhaven_citizen3`** Citizen: “Hi. Can I help you?”
 

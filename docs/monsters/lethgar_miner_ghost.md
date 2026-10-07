@@ -1,5 +1,5 @@
 ---
-description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Trail, found in undertell_1_1."
+description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Trail, found in Undertell 1 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } Lethgar miner ghost
@@ -11,29 +11,29 @@ description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Tra
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_1_1 |
+| **Found in** | Undertell 1 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Lethgar miner ghost. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Lethgar miner ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`lethgar_miner_ghost`](#v-lethgar_miner_ghost) | NPC | [undertell_1_1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost) | – |
-| [`lethgar_miner_ghost2`](#v-lethgar_miner_ghost2) | NPC | [undertell_1_1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2) | – |
+| [`lethgar_miner_ghost`](#v-lethgar_miner_ghost) | NPC | [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost) | – |
+| [`lethgar_miner_ghost2`](#v-lethgar_miner_ghost2) | NPC | [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2) | – |
 
 ## Undertell 1 1 (lethgar_miner_ghost) { #v-lethgar_miner_ghost }
 
 **Entry ID:** `lethgar_miner_ghost` · **Type:** NPC
 
-**Location:** [undertell_1_1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost)
+**Location:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lethgar miner ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_miner_ghost_welcome.json" data-npc="Lethgar miner ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lethgar_miner_ghost-lethgar_miner_ghost_welcome"></span>**`lethgar_miner_ghost_welcome`** Lethgar miner ghost: “A human, here?”
 
@@ -104,15 +104,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `lethgar_miner_ghost2` · **Type:** NPC
 
-**Location:** [undertell_1_1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2)
+**Location:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2)
 
 ### Quests
 
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 50
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lethgar miner ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_miner_ghost2_welcome.json" data-npc="Lethgar miner ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -120,12 +120,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lethgar_miner_ghost2-lethgar_miner_ghost2_welcome"></span>**`lethgar_miner_ghost2_welcome`** Lethgar miner ghost: “What? A live human, down here? How? Why?”
 
     - “Shannal let me through.” → [lethgar_miner_ghost2_shannal_10](#d-lethgar_miner_ghost2-lethgar_miner_ghost2_shannal_10)
-    - “I found these ash covered dragon scales. Was this place once home to a dragon?” *(if latest stage of [The fifth master](../quests/fifth_master.md#stage-65) is 65; NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50); carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md))* → [lethgar_miner_ghost2_dragon_10](#d-lethgar_miner_ghost2-lethgar_miner_ghost2_dragon_10)
+    - “I found these ash covered dragon scales. Was this place once home to a dragon?” *(if latest stage of [The fifth master](../quests/fifth_master.md#stage-65) is 65; NOT reached stage 50 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-50); carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md))* → [lethgar_miner_ghost2_dragon_10](#d-lethgar_miner_ghost2-lethgar_miner_ghost2_dragon_10)
     - “I'm here for the Heartstone, of course!” *(if NOT reached stage 40 of [Lost treasures](../quests/nocmar.md#stage-40))* → [lethgar_miner_ghost2_heartstone_10](#d-lethgar_miner_ghost2-lethgar_miner_ghost2_heartstone_10)
 
     <span id="d-lethgar_miner_ghost2-lethgar_miner_ghost2_shannal_10"></span>**`lethgar_miner_ghost2_shannal_10`** Lethgar miner ghost: “Oh, Shannal! She's my girlfriend, you know?”
@@ -174,7 +174,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Maybe you're right.” → *conversation ends*
 
-    <span id="d-lethgar_miner_ghost2-lethgar_miner_ghost2_dragon_50"></span>**`lethgar_miner_ghost2_dragon_50`** Lethgar miner ghost: “If he still lives, child, best let him sleep. Some fires burn long after they should have gone out.” — **effects:** sets stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50)
+    <span id="d-lethgar_miner_ghost2-lethgar_miner_ghost2_dragon_50"></span>**`lethgar_miner_ghost2_dragon_50`** Lethgar miner ghost: “If he still lives, child, best let him sleep. Some fires burn long after they should have gone out.” — **effects:** sets stage 50 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-50)
 
     - “I'll remember that.” → *conversation ends*
 

@@ -29,9 +29,9 @@ description: "Kazaul mortality is a harmful spiritual condition in Andor's Trail
 |---|---|
 | HP every round | −50 to 0 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,15 +42,15 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [undertell_4_00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | 1 round |
+| walking into a blocked passage on [Undertell 4 00](../maps/undertell_4_00.md), [Kha'zaan Porter](../monsters/porter.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | 1 round |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** stepping on a trigger on [undertell_archive2](../maps/undertell_archive2.md) during [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-78).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Removed by** stepping on a trigger on [Undertell archive 2](../maps/undertell_archive2.md) during [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-78).
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

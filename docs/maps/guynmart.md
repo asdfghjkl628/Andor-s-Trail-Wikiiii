@@ -12,7 +12,7 @@ description: "Guynmart is an outdoor location in Andor's Trail, in Guynmart Cast
 | **Region** | In Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 11 |
 | **Enemy types** | 4 |
@@ -115,8 +115,8 @@ description: "Guynmart is an outdoor location in Andor's Trail, in Guynmart Cast
 |---|---|---|---|---|
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
-| [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_wguard1) | 120 | 5–20 | 3 | – |
 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_wguard9a) | 120 | 5–20 | 5 | appears later, during a quest |
+| [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_wguard1) | 120 | 5–20 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -127,13 +127,13 @@ description: "Guynmart is an outdoor location in Andor's Trail, in Guynmart Cast
 ## Quests
 
 - [Roses](../quests/guynmart.md): [Guynmart guard](../monsters/guynmart_gguard.md) is involved; [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_guard_guide) is involved; [Hannah](../monsters/guynmart_hannah.md) is involved; [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward3) is involved; blocked passage opens at stage 163; blocked passage opens at stage 170; something on this map advances it; stepping on a trigger here sets stage 180; stepping on a trigger here sets stage 181
-- [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md): [Guynmart guard](../monsters/guynmart_gguard.md) is involved; blocked passage opens at stage 1
 - [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md): [Hannah](../monsters/guynmart_hannah.md) is involved; a scripted event can trigger here from stage 7; blocked passage opens at stage 1; blocked passage opens at stage 7; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 71
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): [Hannah](../monsters/guynmart_hannah.md) is involved; part of the map changes at stage 2; something on this map advances it; stepping on a trigger here sets stage 51; stepping on a trigger here sets stage 52; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 59; stepping on a trigger here sets stage 60
-- [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 31
-- [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md): [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) is involved
-- [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md): [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) is involved
-- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): [Hannah](../monsters/guynmart_hannah.md) is involved
+- [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md): [Hannah](../monsters/guynmart_hannah.md) is involved
+- [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md): [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) is involved
+- [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md): [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) is involved
+- [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 31
+- [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md): [Guynmart guard](../monsters/guynmart_gguard.md) is involved; blocked passage opens at stage 1
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): [Hannah](../monsters/guynmart_hannah.md) is involved; part of the map changes at stage 2; something on this map advances it; stepping on a trigger here sets stage 51; stepping on a trigger here sets stage 52; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 59; stepping on a trigger here sets stage 60
 
 ## Points of interest
 

@@ -1,10 +1,10 @@
 ---
-description: "Dirty grimmthorn marauder is an NPC who can also be fought in Andor's Trail, found in way_to_sullengard_west_0, way_to_sullengard_west_1, way_to_sullengard_west_2."
+description: "Dirty grimmthorn marauder is an NPC who can also be fought in Andor's Trail, found in Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_20.png){ .sprite } Dirty grimmthorn marauder
 
-**Where to find Dirty grimmthorn marauder:** [way_to_sullengard_west_0](../maps/way_to_sullengard_west_0.md#pin-npc-dirty_grimmthorn_marauder), [way_to_sullengard_west_1](../maps/way_to_sullengard_west_1.md#pin-npc-dirty_grimmthorn_marauder), [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md#pin-npc-dirty_grimmthorn_marauder), [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md#pin-npc-dirty_grimmthorn_marauder)
+**Where to find Dirty grimmthorn marauder:** [Way to sullengard west 0](../maps/way_to_sullengard_west_0.md#pin-npc-dirty_grimmthorn_marauder), [Way to sullengard west 1](../maps/way_to_sullengard_west_1.md#pin-npc-dirty_grimmthorn_marauder), [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md#pin-npc-dirty_grimmthorn_marauder), [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md#pin-npc-dirty_grimmthorn_marauder)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dirty grimmthorn marauder is an NPC who can also be fought in Ando
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | way_to_sullengard_west_0, way_to_sullengard_west_1, way_to_sullengard_west_2 |
+| **Found in** | Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2 |
 | **Class** | Humanoid |
 | **HP** | 370 |
 | **XP when defeated** | 606 |
@@ -59,14 +59,14 @@ description: "Dirty grimmthorn marauder is an NPC who can also be fought in Ando
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_0](../maps/way_to_sullengard_west_0.md) | – | 1 | – |
-| [way_to_sullengard_west_1](../maps/way_to_sullengard_west_1.md) | – | 1 | – |
-| [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
-| [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md) | – | 2 | – |
+| [Way to sullengard west 0](../maps/way_to_sullengard_west_0.md) | – | 1 | – |
+| [Way to sullengard west 1](../maps/way_to_sullengard_west_1.md) | – | 1 | – |
+| [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
+| [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md) | – | 2 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dirty grimmthorn marauder. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dirty grimmthorn marauder. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dirty_grimmthorn_marauder_1.json" data-npc="Dirty grimmthorn marauder" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dirty_grimmthorn_marauder_1"></span>**`dirty_grimmthorn_marauder_1`** Dirty grimmthorn marauder: “We are in a rush to get through here, kid. Get out of our way or die.”
 

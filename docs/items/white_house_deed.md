@@ -27,7 +27,7 @@ description: "White house deed is a quest other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)), [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) during [A place to forge](../quests/place_to_forge.md#stage-50) (1×)
+- From [Mustura](../monsters/brv_guard_captain.md) ([Brimhaven 4](../maps/brimhaven4.md)), [Alkapoan](../monsters/brv_richman.md) ([Brimhaven house 1](../maps/brimhaven_house1.md)) during [A place to forge](../quests/place_to_forge.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

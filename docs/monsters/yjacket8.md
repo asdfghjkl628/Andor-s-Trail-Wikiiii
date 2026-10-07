@@ -1,10 +1,10 @@
 ---
-description: "Giant yellowjacket is an enemy in Andor's Trail (insect) with 74 HP, worth 180 XP, found in lodar14, lodar15, lodar16. Drops: Gold coins, Insect wing."
+description: "Giant yellowjacket is an enemy in Andor's Trail (insect) with 74 HP, worth 180 XP, found in Lodar 14, Lodar 15, Lodar 16. Drops: Gold coins, Insect wing."
 ---
 
 # ![](../assets/icons/monsters/monsters_insects_5.png){ .sprite } Giant yellowjacket
 
-**Found in:** [lodar14](../maps/lodar14.md), [lodar15](../maps/lodar15.md), [lodar16](../maps/lodar16.md)
+**Found in:** [Lodar 14](../maps/lodar14.md), [Lodar 15](../maps/lodar15.md), [Lodar 16](../maps/lodar16.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Giant yellowjacket is an enemy in Andor's Trail (insect) with 74 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar14, lodar15, lodar16 |
+| **Found in** | Lodar 14, Lodar 15, Lodar 16 |
 | **Class** | Insect |
 | **HP** | 74 |
 | **XP when defeated** | 180 |
@@ -57,9 +57,9 @@ description: "Giant yellowjacket is an enemy in Andor's Trail (insect) with 74 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar14](../maps/lodar14.md) | – | 2 | – |
-| [lodar15](../maps/lodar15.md) | – | 3 | – |
-| [lodar16](../maps/lodar16.md) | – | 4 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 2 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 3 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 4 | – |
 
 
 ## Version history

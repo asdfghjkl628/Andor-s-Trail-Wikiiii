@@ -1,8 +1,8 @@
 ---
-description: "Fields11 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: River frog, Tough river frog. Exits to Fields12, Fields7."
+description: "Fields 11 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: River frog, Tough river frog. Exits to Fields 12, Fields 7."
 ---
 
-# Fields11
+# Fields 11
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Fields11 is an outdoor location in Andor's Trail, near Loneford (s
 | **Region** | Near Loneford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Fields11** is an outdoor map, near Loneford (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Fields12, Fields7.
+**Fields 11** is an outdoor map, near Loneford (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Fields 12, Fields 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields11.webp" alt="Map of Fields11" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../fields7/#place-east" title="Exit to Fields7" style="left:0.000%;top:86.667%;width:5.000%;height:6.667%"></a><a id="place-east" class="mo mo-mapchange" href="../fields12/#place-west" title="Exit to Fields12" style="left:95.000%;top:40.000%;width:5.000%;height:33.333%"></a><span class="mo mo-spawn" title="Spawns: River frog" style="left:10.000%;top:66.667%;width:40.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Tough river frog" style="left:35.000%;top:40.000%;width:55.000%;height:60.000%"></span><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:20.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:35.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:85.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:40.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:40.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.667%" title="Exit (east): to [Fields12](fields12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:90.000%" title="Exit (southwest): to [Fields7](fields7.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields11.webp" alt="Map of Fields 11" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../fields7/#place-east" title="Exit to Fields 7" style="left:0.000%;top:86.667%;width:5.000%;height:6.667%"></a><a id="place-east" class="mo mo-mapchange" href="../fields12/#place-west" title="Exit to Fields 12" style="left:95.000%;top:40.000%;width:5.000%;height:33.333%"></a><span class="mo mo-spawn" title="Spawns: River frog" style="left:10.000%;top:66.667%;width:40.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Tough river frog" style="left:35.000%;top:40.000%;width:55.000%;height:60.000%"></span><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:20.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:35.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:85.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:40.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="mob" href="../../monsters/frog_2/" title="Tough river frog" style="left:40.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="Tough river frog"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.667%" title="Exit (east): to [Fields 12](fields12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:90.000%" title="Exit (southwest): to [Fields 7](fields7.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Fields12](fields12.md) |
-    | <span id="key-2"></span>2 | Exit (southwest) | to [Fields7](fields7.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Fields 12](fields12.md) |
+    | <span id="key-2"></span>2 | Exit (southwest) | to [Fields 7](fields7.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Fields11 is an outdoor location in Andor's Trail, near Loneford (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Fields12](fields12.md) | – | 1 |
-| Southwest | [Fields7](fields7.md) | Loneford | 2 |
+| East | [Fields 12](fields12.md) | – | 1 |
+| Southwest | [Fields 7](fields7.md) | Loneford | 2 |
 
 ## Enemies
 

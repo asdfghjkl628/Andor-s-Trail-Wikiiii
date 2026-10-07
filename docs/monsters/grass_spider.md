@@ -4,7 +4,7 @@ description: "Grass spider is an enemy in Andor's Trail (insect) with 79 HP, wor
 
 # ![](../assets/icons/monsters/monsters_tometik10_56.png){ .sprite } Grass spider
 
-**Found in:** Flagstone Prison: [galmore_9](../maps/galmore_9.md), Mt. Galmore: [galmore_35](../maps/galmore_35.md), Wexlow Village: [way_to_wexlow1](../maps/way_to_wexlow1.md), Wexlow Village: [way_to_wexlow2](../maps/way_to_wexlow2.md) (+2 more)
+**Found in:** Flagstone Prison: [Galmore 9](../maps/galmore_9.md), Mt. Galmore: [Galmore 35](../maps/galmore_35.md), Wexlow Village: [Way to wexlow 1](../maps/way_to_wexlow1.md), Wexlow Village: [Way to wexlow 2](../maps/way_to_wexlow2.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -57,12 +57,12 @@ description: "Grass spider is an enemy in Andor's Trail (insect) with 79 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_10](../maps/galmore_10.md) | – | 6 | – |
-| [galmore_11](../maps/galmore_11.md) | – | 4 | – |
-| [galmore_35](../maps/galmore_35.md) | Mt. Galmore | 6 | – |
-| [galmore_9](../maps/galmore_9.md) | Flagstone Prison | 3 | – |
-| [way_to_wexlow1](../maps/way_to_wexlow1.md) | Wexlow Village | 6 | – |
-| [way_to_wexlow2](../maps/way_to_wexlow2.md) | Wexlow Village | 6 | – |
+| [Galmore 10](../maps/galmore_10.md) | – | 6 | – |
+| [Galmore 11](../maps/galmore_11.md) | – | 4 | – |
+| [Galmore 35](../maps/galmore_35.md) | Mt. Galmore | 6 | – |
+| [Galmore 9](../maps/galmore_9.md) | Flagstone Prison | 3 | – |
+| [Way to wexlow 1](../maps/way_to_wexlow1.md) | Wexlow Village | 6 | – |
+| [Way to wexlow 2](../maps/way_to_wexlow2.md) | Wexlow Village | 6 | – |
 
 
 ## Version history

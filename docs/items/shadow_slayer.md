@@ -51,7 +51,7 @@ description: "Shadow of the slayer is a extraordinary greataxe in Andor's Trail 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 1 | blackwater_mountain42 |
+| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 1 | Blackwater mountain 42 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

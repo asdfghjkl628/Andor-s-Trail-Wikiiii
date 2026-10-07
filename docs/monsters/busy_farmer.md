@@ -18,30 +18,30 @@ description: "Busy farmer is a non-player character (NPC) in Andor's Trail, foun
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Busy farmer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Busy farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`busy_farmer`](#v-busy_farmer) | NPC | Fallhaven: [fallhaven_farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-busy_farmer) | – |
-| [`fallhaven_outdoor_farmer`](#v-fallhaven_outdoor_farmer) | NPC | Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer) | – |
-| [`stoutford_farmer2`](#v-stoutford_farmer2) | NPC | Stoutford: [stoutford_farmhouse2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2) | – |
+| [`busy_farmer`](#v-busy_farmer) | NPC | Fallhaven: [Fallhaven farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-busy_farmer) | – |
+| [`fallhaven_outdoor_farmer`](#v-fallhaven_outdoor_farmer) | NPC | Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer) | – |
+| [`stoutford_farmer2`](#v-stoutford_farmer2) | NPC | Stoutford: [Stoutford farmhouse 2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2) | – |
 
 ## Fallhaven, Fallhaven farmer and 1 more (busy_farmer) { #v-busy_farmer }
 
 **Entry ID:** `busy_farmer` · **Type:** NPC
 
-**Location:** Fallhaven: [fallhaven_farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-busy_farmer)
+**Location:** Fallhaven: [Fallhaven farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-busy_farmer)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_farmer](../maps/fallhaven_farmer.md) | Fallhaven | 1 | – |
-| [fallhaven_se](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
+| [Fallhaven farmer](../maps/fallhaven_farmer.md) | Fallhaven | 1 | – |
+| [Fallhaven south-east](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Busy farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Busy farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_farmer1.json" data-npc="Busy farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-busy_farmer-fallhaven_farmer1"></span>**`fallhaven_farmer1`** Busy farmer: “Hello there. Please do not bother me, I have a lot of work to do.”
 
@@ -97,7 +97,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `fallhaven_outdoor_farmer` · **Type:** NPC
 
-**Location:** Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer)
+**Location:** Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer)
 
 ### Quests
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Busy farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Busy farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_outdoor_farmer_10.json" data-npc="Busy farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -113,7 +113,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_outdoor_farmer-fallhaven_outdoor_farmer_10"></span>**`fallhaven_outdoor_farmer_10`** Busy farmer: “Hello there. Please do not bother me, I have a lot of work to do.”
 
@@ -236,15 +236,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Stoutford, Stoutford farmhouse2 (stoutford_farmer2) { #v-stoutford_farmer2 }
+## Stoutford, Stoutford farmhouse 2 (stoutford_farmer2) { #v-stoutford_farmer2 }
 
 **Entry ID:** `stoutford_farmer2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_farmhouse2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2)
+**Location:** Stoutford: [Stoutford farmhouse 2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Busy farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Busy farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_farmer2.json" data-npc="Busy farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -252,7 +252,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_farmer2-stoutford_farmer2"></span>**`stoutford_farmer2`** Busy farmer: “Hello there. Please do not bother me, I have a lot of work to do.”
 

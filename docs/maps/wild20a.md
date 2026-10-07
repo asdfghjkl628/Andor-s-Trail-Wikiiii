@@ -1,8 +1,8 @@
 ---
-description: "Wild20a is an outdoor location in Andor's Trail, near Stoutford (settlement). Exits to Wild20."
+description: "Wild 20a is an outdoor location in Andor's Trail, near Stoutford (settlement). Exits to Wild 20."
 ---
 
-# Wild20a
+# Wild 20a
 
 <div class="infobox" markdown>
 
@@ -17,19 +17,19 @@ description: "Wild20a is an outdoor location in Andor's Trail, near Stoutford (s
 
 </div>
 
-**Wild20a** is an outdoor map, near Stoutford (settlement). It has no NPCs, and no enemies. Exits lead to Wild20.
+**Wild 20a** is an outdoor map, near Stoutford (settlement). It has no NPCs, and no enemies. Exits lead to Wild 20.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild20a.webp" alt="Map of Wild20a" width="96" height="224" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../wild20/#place-wall_south" title="Exit to Wild20" style="left:33.333%;top:85.714%;width:33.333%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:92.857%" title="Exit (southwest): to [Wild20](wild20.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild20a.webp" alt="Map of Wild 20a" width="96" height="224" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../wild20/#place-wall_south" title="Exit to Wild 20" style="left:33.333%;top:85.714%;width:33.333%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:92.857%" title="Exit (southwest): to [Wild 20](wild20.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Wild20](wild20.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Wild 20](wild20.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -38,7 +38,7 @@ description: "Wild20a is an outdoor location in Andor's Trail, near Stoutford (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Wild20](wild20.md) | Stoutford | 1 |
+| Southwest | [Wild 20](wild20.md) | Stoutford | 1 |
 
 
 ## Version history

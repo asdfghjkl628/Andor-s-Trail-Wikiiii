@@ -40,19 +40,19 @@ description: "Kazaul bonemeal is a ordinary potion in Andor's Trail. How to get 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Saki](../monsters/saki.md) | 100% | 2-4 | Mt. Galmore |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 9% | 1-2 | undertell_4_01, undertell_5 |
-| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 9% | 1-2 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 9% | 1-2 | undertell_4_00, undertell_4_10, undertell_4_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 9% | 1-2 | undertell_4_00, undertell_4_11, undertell_7_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 9% | 1-2 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md) | 5% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 5% | 1 | undertell_3_lava_01, undertell_3_lava_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 5% | 1 | undertell_3_lava_00 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 9% | 1-2 | Undertell 4 01, Undertell 5 |
+| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 9% | 1-2 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 9% | 1-2 | Undertell 4 00, Undertell 4 10, Undertell 4 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 9% | 1-2 | Undertell 4 00, Undertell 4 11, Undertell 7 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 9% | 1-2 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md) | 5% | 1 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 5% | 1 | Undertell 3 lava 01, Undertell 3 lava 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 5% | 1 | Undertell 3 lava 00 |
 
 ### Found in containers
 
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-3) (container 4, 10%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-4) (container 5, 10%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-3) (container 4, 10%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-4) (container 5, 10%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -63,14 +63,14 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (100000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (10000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (1000×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (256×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (64×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (16×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (4×) | “(automatic)” |
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | – | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (100000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (10000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (1000×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (256×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (64×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (16×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (4×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | – | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

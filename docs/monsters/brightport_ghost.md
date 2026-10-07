@@ -4,7 +4,7 @@ description: "Agitated ghost is an NPC who can also be fought in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Agitated ghost
 
-**Where to find Agitated ghost:** Brightport: [brightport_grave](../maps/brightport_grave.md#pin-npc-brightport_ghost)
+**Where to find Agitated ghost:** Brightport: [Brightport grave](../maps/brightport_grave.md#pin-npc-brightport_ghost)
 
 <div class="infobox" markdown>
 
@@ -51,15 +51,15 @@ description: "Agitated ghost is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_grave](../maps/brightport_grave.md) | Brightport | 1 | – |
+| [Brightport grave](../maps/brightport_grave.md) | Brightport | 1 | – |
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 238, 239, 241
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 238, 239, 241
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agitated ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agitated ghost. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_ghost.json" data-npc="Agitated ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -67,15 +67,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_ghost"></span>**`brightport_ghost`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 241 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-241)
+    <span id="d-brightport_ghost"></span>**`brightport_ghost`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 241 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-241)
 
-    - Next *(if reached stage 239 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-239))* → [brightport_ghost8](#d-brightport_ghost8)
-    - Next *(if NOT reached stage 238 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_ghost1](#d-brightport_ghost1)
-    - Next *(if reached stage 238 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_ghost6](#d-brightport_ghost6)
+    - Next *(if reached stage 239 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-239))* → [brightport_ghost8](#d-brightport_ghost8)
+    - Next *(if NOT reached stage 238 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_ghost1](#d-brightport_ghost1)
+    - Next *(if reached stage 238 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_ghost6](#d-brightport_ghost6)
 
-    <span id="d-brightport_ghost8"></span>**`brightport_ghost8`** Agitated ghost: “Vengeance, vengeance!” — **effects:** sets stage 239 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-239)
+    <span id="d-brightport_ghost8"></span>**`brightport_ghost8`** Agitated ghost: “Vengeance, vengeance!” — **effects:** sets stage 239 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-239)
 
     - “I promise I will find a way to put you to rest properly.” → *conversation ends*
     - “You make no sense cursed creature, I will put you to rest now.” → *fight starts*
@@ -101,11 +101,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “It's time I put you to rest. [Fight.]” → [brightport_ghost4](#d-brightport_ghost4)
     - “What are you talking about?” → [brightport_ghost5](#d-brightport_ghost5)
 
-    <span id="d-brightport_ghost4"></span>**`brightport_ghost4`** *(silent check: the first matching branch below is taken)* — **effects:** removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8, sets stage 238 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-238)
+    <span id="d-brightport_ghost4"></span>**`brightport_ghost4`** *(silent check: the first matching branch below is taken)* — **effects:** removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8, sets stage 238 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238)
 
     - branch 1 → *fight starts*
 
-    <span id="d-brightport_ghost5"></span>**`brightport_ghost5`** [Dummy NPC](../monsters/none.md): “The two kids sneak past the ghost and leave in a hurry.” — **effects:** sets stage 238 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-238), removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8
+    <span id="d-brightport_ghost5"></span>**`brightport_ghost5`** [Dummy NPC](../monsters/none.md): “The two kids sneak past the ghost and leave in a hurry.” — **effects:** sets stage 238 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238), removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8
 
     - Next → [brightport_ghost6](#d-brightport_ghost6)
 

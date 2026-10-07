@@ -55,7 +55,7 @@ description: "Raw perch is a ordinary food in Andor's Trail. How to get it: mons
 
 ### Found in containers
 
-- [wild22](../maps/wild22.md#container-1) (container 2, 100%), Stoutford
+- [Wild 22](../maps/wild22.md#container-1) (container 2, 100%), Stoutford
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -66,7 +66,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_626](../maps/ratdom_maze_626.md) | – | handed over (1×) | “Stuff a fish into the hole.” |
+| walking into a blocked passage on [Ratdom maze 626](../maps/ratdom_maze_626.md) | – | handed over (1×) | “Stuff a fish into the hole.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

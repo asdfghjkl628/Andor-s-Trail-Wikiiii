@@ -4,7 +4,7 @@ description: "Bridge lookout is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } Bridge lookout
 
-**Where to find Bridge lookout:** Remgard: [mountainlake13a](../maps/mountainlake13a.md#pin-npc-remgard_bridge)
+**Where to find Bridge lookout:** Remgard: [Mountainlake 13a](../maps/mountainlake13a.md#pin-npc-remgard_bridge)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Bridge lookout is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bridge lookout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bridge lookout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_bridge.json" data-npc="Bridge lookout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (28 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-remgard_bridge"></span>**`remgard_bridge`** *(silent check: the first matching branch below is taken)*
 
@@ -168,7 +168,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Now, I must warn you - this could be dangerous. If it is as we suspec…” → “Now, I must warn you - this could be dangerous. If it is as we suspec…”<br>· text: “Hm, yes, that might be a good idea actually. Considering you made it …” → “Hmm, yes, that might be a good idea actually. Considering you made it…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Hm, yes, that might be a good idea actually. Considering you made it …” → “Hmm, yes, that might be a good idea actually. Considering you made it…”<br>· text: “Now, I must warn you - this could be dangerous. If it is as we suspec…” → “Now, I must warn you - this could be dangerous. If it is as we suspec…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

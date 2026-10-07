@@ -1,10 +1,10 @@
 ---
-description: "Dying general's henchman is a non-player character (NPC) in Andor's Trail, found in elm_mine5."
+description: "Dying general's henchman is a non-player character (NPC) in Andor's Trail, found in Elm mine 5."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Dying general's henchman
 
-**Where to find Dying general's henchman:** [elm_mine5](../maps/elm_mine5.md#pin-npc-ortholion_guard8)
+**Where to find Dying general's henchman:** [Elm mine 5](../maps/elm_mine5.md#pin-npc-ortholion_guard8)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dying general's henchman is a non-player character (NPC) in Andor'
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | elm_mine5 |
+| **Found in** | Elm mine 5 |
 | **Entry ID** | `ortholion_guard8` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
@@ -21,11 +21,11 @@ description: "Dying general's henchman is a non-player character (NPC) in Andor'
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 31, 32
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 31, 32
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dying general's henchman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dying general's henchman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard8.json" data-npc="Dying general&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,12 +33,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard8"></span>**`ortholion_guard8`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if 1 rounds passed since timer “elm5_corpse”)* → [ortholion_guard8_consumed](#d-ortholion_guard8_consumed)
-    - branch 2 *(if reached stage 32 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-32))* → [ortholion_guard8_dead](#d-ortholion_guard8_dead)
+    - branch 2 *(if reached stage 32 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-32))* → [ortholion_guard8_dead](#d-ortholion_guard8_dead)
     - branch 3 → [ortholion_guard8_1](#d-ortholion_guard8_1)
 
     <span id="d-ortholion_guard8_consumed"></span>**`ortholion_guard8_consumed`** [Dummy NPC](../monsters/none.md): “Of the soldier you met inside here, only dust remains.” — **effects:** removes monsters from elm_mine5
@@ -47,17 +47,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ortholion_guard8_dead"></span>**`ortholion_guard8_dead`** [Dummy NPC](../monsters/none.md): “On the top of the stairs lies a dead soldier. He is no longer breathing.”
 
     - “Leave.” → *conversation ends*
-    - “Plunder.” *(if NOT reached stage 31 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-31))* → [ortholion_guard8_plunder](#d-ortholion_guard8_plunder)
+    - “Plunder.” *(if NOT reached stage 31 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-31))* → [ortholion_guard8_plunder](#d-ortholion_guard8_plunder)
 
     <span id="d-ortholion_guard8_1"></span>**`ortholion_guard8_1`** Dying general's henchman: “Wh... *cough* ...at the heck?! *cough*, *cough*, *cough* Kid, go away. This thing... *cough*, *cough*... GO AWAY!”
 
     - “What's wrong?” → [ortholion_guard8_2](#d-ortholion_guard8_2)
     - “Whatever, I'll go down anyway.” → [ortholion_guard8_2](#d-ortholion_guard8_2)
 
-    <span id="d-ortholion_guard8_plunder"></span>**`ortholion_guard8_plunder`** Dying general's henchman: “You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.” — **effects:** sets stage 31 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-31), starts timer “elm5_corpse”
+    <span id="d-ortholion_guard8_plunder"></span>**`ortholion_guard8_plunder`** Dying general's henchman: “You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.” — **effects:** sets stage 31 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-31), starts timer “elm5_corpse”
 
 
-    <span id="d-ortholion_guard8_2"></span>**`ortholion_guard8_2`** Dying general's henchman: “*ignoring you*... You idiot kid... *cough*. It's a trap, THE WHOLE THING *cough*, *cough* is... ...This mine is... cur...” — **effects:** sets stage 32 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-32)
+    <span id="d-ortholion_guard8_2"></span>**`ortholion_guard8_2`** Dying general's henchman: “*ignoring you*... You idiot kid... *cough*. It's a trap, THE WHOLE THING *cough*, *cough* is... ...This mine is... cur...” — **effects:** sets stage 32 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-32)
 
     - Next → [ortholion_guard8_dead](#d-ortholion_guard8_dead)
 

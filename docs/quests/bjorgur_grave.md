@@ -11,9 +11,9 @@ description: "Awoken from slumber is a quest in Andor's Trail, started by Bjorgu
 | **Quest ID** | `bjorgur_grave` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 50, 60) |
-| **Started by** | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) |
+| **Started by** | [Bjorgur](../monsters/bjorgur.md) ([Blackwater mountain 26](../maps/blackwater_mountain26.md)) |
 | **NPCs involved** | [Bjorgur](../monsters/bjorgur.md), [Fulus](../monsters/fulus.md), [Graverobber](../monsters/graverobber.md) |
-| **Locations** | [blackwater_mountain26](../maps/blackwater_mountain26.md), [blackwater_mountain28](../maps/blackwater_mountain28.md), [blackwater_mountain35](../maps/blackwater_mountain35.md) |
+| **Locations** | [Blackwater mountain 26](../maps/blackwater_mountain26.md), [Blackwater mountain 28](../maps/blackwater_mountain28.md), [Blackwater mountain 35](../maps/blackwater_mountain35.md) |
 | **Total XP** | 3,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Awoken from slumber is a quest in Andor's Trail, started by Bjorgu
 
 ## Prerequisites to start
 
-Start with [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)). Required:
+Start with [Bjorgur](../monsters/bjorgur.md) ([Blackwater mountain 26](../maps/blackwater_mountain26.md)). Required:
 
 - reached stage 15 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-15)
 
@@ -39,54 +39,108 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Bjorgur in Prim at the base of the Blackwater mountain thinks that something has disturbed the grave of his parents, to the southwest of Prim, just outside the Elm mine. | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) | stage 15 | – |
-| <span id="stage-15"></span>15 | Bjorgur wants me to go check the grave, and make sure his family's dagger is still secure in the tomb. | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) | – | – |
-| <span id="stage-20"></span>20 | Fulus in Prim is interested in obtaining Bjorgur's family dagger that Bjorgur's grandfather used to possess. | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | – | – |
-| <span id="stage-30"></span>30 | I met a man that wielded a strange looking dagger in the lower parts of a tomb to the southwest of Prim. He must have robbed this dagger from the grave. | [Graverobber](../monsters/graverobber.md) ([blackwater_mountain35](../maps/blackwater_mountain35.md)) | – | – |
-| <span id="stage-40"></span>40 | I placed the dagger back into its place in the tomb. The restless undead seem much less restless now, strangely enough. | reading a sign on [blackwater_mountain35](../maps/blackwater_mountain35.md) | hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md) | 200 XP |
-| <span id="stage-50"></span>50 | Bjorgur thanked me for my assistance. He told me I should also seek his relatives in Feygard. **(completes quest)** | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) | stage 15, stage 40 | 1,100 XP |
-| <span id="stage-51"></span>51 | I have told Fulus that I helped Bjorgur return his family dagger to its original place. | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | – | – |
-| <span id="stage-60"></span>60 | I have given Bjorgur's family dagger to Fulus. He thanked me for bringing it to him, and rewarded me handsomely. **(completes quest)** | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md), stage 20 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Bjorgur in Prim at the base of the Blackwater mountain thinks that… ▸</span><span class="l">▴ less</span></summary>Bjorgur in Prim at the base of the Blackwater mountain thinks that something has disturbed the grave of his parents, to the southwest of Prim, just outside the Elm mine.</details> | [Bjorgur](../monsters/bjorgur.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">Bjorgur wants me to go check the grave, and make sure his family's… ▸</span><span class="l">▴ less</span></summary>Bjorgur wants me to go check the grave, and make sure his family's dagger is still secure in the tomb.</details> | [Bjorgur](../monsters/bjorgur.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Fulus in Prim is interested in obtaining Bjorgur's family dagger… ▸</span><span class="l">▴ less</span></summary>Fulus in Prim is interested in obtaining Bjorgur's family dagger that Bjorgur's grandfather used to possess.</details> | [Fulus](../monsters/fulus.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I met a man that wielded a strange looking dagger in the lower parts… ▸</span><span class="l">▴ less</span></summary>I met a man that wielded a strange looking dagger in the lower parts of a tomb to the southwest of Prim. He must have robbed this dagger from the grave.</details> | [Graverobber](../monsters/graverobber.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I placed the dagger back into its place in the tomb. The restless… ▸</span><span class="l">▴ less</span></summary>I placed the dagger back into its place in the tomb. The restless undead seem much less restless now, strangely enough.</details> | reading a sign on [Blackwater mountain 35](../maps/blackwater_mountain35.md) | 200 XP |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Bjorgur thanked me for my assistance. He told me I should also seek… ▸</span><span class="l">▴ less</span></summary>Bjorgur thanked me for my assistance. He told me I should also seek his relatives in Feygard.</details> **(ends quest)** | [Bjorgur](../monsters/bjorgur.md) | 1,100 XP |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">I have told Fulus that I helped Bjorgur return his family dagger to… ▸</span><span class="l">▴ less</span></summary>I have told Fulus that I helped Bjorgur return his family dagger to its original place.</details> | [Fulus](../monsters/fulus.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I have given Bjorgur's family dagger to Fulus. He thanked me for… ▸</span><span class="l">▴ less</span></summary>I have given Bjorgur's family dagger to Fulus. He thanked me for bringing it to him, and rewarded me handsomely.</details> **(ends quest)** | [Fulus](../monsters/fulus.md) | 1,700 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) → choose “What was I supposed to do again?” — **conditions:** reached stage 15 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-15) → **stage 10**. NPC: “Now I fear something has happened to the grave. I have not been sleeping well the last couple of nights, and I am sure…”
+??? note "Stage 10 · Bjorgur · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Bjorgur](../monsters/bjorgur.md), choose “What was I supposed to do again?”
 
-    1. Talk to [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) → choose “Sure. I will go check on your parents grave.” — **conditions:** reached stage 15 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-15) → **stage 15**. NPC: “Thank you. Please see if anything has happened to the grave, and what could be the cause of my nightly anxiety.”
+    - **Needs:** stage 15
+    - *“Now I fear something has happened to the grave. I have not been sleeping well the last couple of nights, and I am sure this must be the…”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) → choose “Sounds easy enough. I'll do it.” — **conditions:** reached stage 20 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-20) → **stage 20**. NPC: “Good. Return to me once you have it. Maybe you can talk to Bjorgur about directions to the tomb. His house is just…”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Bjorgur · 1 way"
 
-    1. Talk to [Graverobber](../monsters/graverobber.md) ([blackwater_mountain35](../maps/blackwater_mountain35.md)) → the conversation leads here automatically → **stage 30**. NPC: “Hey you! You shouldn't be here. This dagger is mine. Get out!”
+    **Way 1:** Talk to [Bjorgur](../monsters/bjorgur.md), choose “Sure. I will go check on your parents grave.”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** stage 15
+    - *“Thank you. Please see if anything has happened to the grave, and what could be the cause of my nightly anxiety.”*
 
-    1. reading a sign on [blackwater_mountain35](../maps/blackwater_mountain35.md) → choose “Place the dagger back into its original place.” — **conditions:** hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md) → **stage 40**. NPC: “You place the dagger back among the equipment, where it looks like it used to be.”
 
-???+ note "Stage 50: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) → choose “Yes. I killed the intruder and restored the dagger to its original place.” — **conditions:** reached stage 15 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-15); reached stage 40 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-40) → **stage 50**. NPC: “Thank you again. I'm afraid I can't give you anything except my gratitude. You should go see my relatives in Feygard…”
+??? note "Stage 20 · Fulus · 1 way"
 
-???+ note "Stage 51: 1 route"
+    **Way 1:** Talk to [Fulus](../monsters/fulus.md), choose “Sounds easy enough. I'll do it.”
 
-    1. Talk to [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) → the conversation leads here automatically — **conditions:** reached stage 51 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-51) → **stage 51**. NPC: “What?! Sigh. Stupid kid. That dagger is worth a fortune. We could have been rich! Rich I tell you!”
+    - **Needs:** stage 20
+    - *“Good. Return to me once you have it. Maybe you can talk to Bjorgur about directions to the tomb. His house is just outside here in Prim.…”*
 
-???+ note "Stage 60: 1 route"
 
-    1. Talk to [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) → choose “Yes. Here it is.” — **conditions:** reached stage 20 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-20); hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md) → **stage 60**; also gives [Gold coins](../items/gold.md). NPC: “Oh wow, you actually managed to get the dagger? Thank you kid. This is worth a lot. Here, take these coins as…”
+<span id="route-30"></span>
+
+??? note "Stage 30 · Graverobber · 1 way"
+
+    **Way 1:** Talk to [Graverobber](../monsters/graverobber.md), automatic
+
+    - *“Hey you! You shouldn't be here. This dagger is mine. Get out!”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · reading a sign on blackwater_mountain35 · 1 way"
+
+    **Way 1:** Reading a sign on [Blackwater mountain 35](../maps/blackwater_mountain35.md), choose “Place the dagger back into its original place.”
+
+    - **Needs:** hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md)
+    - *“You place the dagger back among the equipment, where it looks like it used to be.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Bjorgur · 1 way"
+
+    **Way 1:** Talk to [Bjorgur](../monsters/bjorgur.md), choose “Yes. I killed the intruder and restored the dagger to its original place.”
+
+    - **Needs:** stage 15, 40
+    - *“Thank you again. I'm afraid I can't give you anything except my gratitude. You should go see my relatives in Feygard if you get the chance…”*
+
+
+<span id="route-51"></span>
+
+??? note "Stage 51 · Fulus · 1 way"
+
+    **Way 1:** Talk to [Fulus](../monsters/fulus.md), automatic
+
+    - **Needs:** stage 51
+    - *“What?! Sigh. Stupid kid. That dagger is worth a fortune. We could have been rich! Rich I tell you!”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Fulus · 1 way"
+
+    **Way 1:** Talk to [Fulus](../monsters/fulus.md), choose “Yes. Here it is.”
+
+    - **Needs:** stage 20; hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Oh wow, you actually managed to get the dagger? Thank you kid. This is worth a lot. Here, take these coins as compensation for your efforts!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

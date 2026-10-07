@@ -1,8 +1,8 @@
 ---
-description: "Sullengard1 southeast house is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Ravynne. Enemies: Briwerra's family cat. Exits to Sullengard1."
+description: "Sullengard 1 southeast house is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Ravynne. Enemies: Briwerra's family cat. Exits to Sullengard 1."
 ---
 
-# Sullengard1 southeast house
+# Sullengard 1 southeast house
 
 <div class="infobox" markdown>
 
@@ -19,19 +19,19 @@ description: "Sullengard1 southeast house is an indoor location in Andor's Trail
 
 </div>
 
-**Sullengard1 southeast house** is an indoor map, in Sullengard (settlement). It has 1 NPC and 1 kind of enemy. Exits lead to Sullengard1.
+**Sullengard 1 southeast house** is an indoor map, in Sullengard (settlement). It has 1 NPC and 1 kind of enemy. Exits lead to Sullengard 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard1_southeast_house.webp" alt="Map of Sullengard1 southeast house" width="448" height="256" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../sullengard1/#place-sullengard1_southeast_house_outside" title="Exit to Sullengard1" style="left:35.714%;top:87.500%;width:7.143%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Ravynne" style="left:35.714%;top:50.000%;width:35.714%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Briwerra&#x27;s family cat" style="left:85.714%;top:37.500%;width:7.143%;height:12.500%"></span><a class="mob" href="../../monsters/sullengard_ravynne/" title="Ravynne" style="left:42.857%;top:50.000%;width:7.143%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_162.png" alt="Ravynne"></a><a class="mob" href="../../monsters/sullengard_briwerra_cat/" title="Briwerra&#x27;s family cat" style="left:85.714%;top:37.500%;width:7.143%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_103.png" alt="Briwerra&#x27;s family cat"></a><a class="pin pin-exit" href="#key-1" style="left:39.286%;top:93.750%" title="Exit (south): to [Sullengard1](sullengard1.md)">1</a><a id="pin-npc-sullengard_ravynne" class="pin pin-npc" href="#key-2" style="left:46.429%;top:56.250%" title="[Ravynne](../../monsters/sullengard_ravynne.md): NPC">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard1_southeast_house.webp" alt="Map of Sullengard 1 southeast house" width="448" height="256" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../sullengard1/#place-sullengard1_southeast_house_outside" title="Exit to Sullengard 1" style="left:35.714%;top:87.500%;width:7.143%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Ravynne" style="left:35.714%;top:50.000%;width:35.714%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Briwerra&#x27;s family cat" style="left:85.714%;top:37.500%;width:7.143%;height:12.500%"></span><a class="mob" href="../../monsters/sullengard_ravynne/" title="Ravynne" style="left:42.857%;top:50.000%;width:7.143%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_162.png" alt="Ravynne"></a><a class="mob" href="../../monsters/sullengard_briwerra_cat/" title="Briwerra&#x27;s family cat" style="left:85.714%;top:37.500%;width:7.143%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_103.png" alt="Briwerra&#x27;s family cat"></a><a class="pin pin-exit" href="#key-1" style="left:39.286%;top:93.750%" title="Exit (south): to [Sullengard 1](sullengard1.md)">1</a><a id="pin-npc-sullengard_ravynne" class="pin pin-npc" href="#key-2" style="left:46.429%;top:56.250%" title="[Ravynne](../../monsters/sullengard_ravynne.md): NPC">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Sullengard1](sullengard1.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Sullengard 1](sullengard1.md) |
     | <span id="key-2"></span>2 | [Ravynne](../monsters/sullengard_ravynne.md) | NPC |
 
 
@@ -41,7 +41,7 @@ description: "Sullengard1 southeast house is an indoor location in Andor's Trail
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Sullengard1](sullengard1.md) | Sullengard | 1 |
+| South | [Sullengard 1](sullengard1.md) | Sullengard | 1 |
 
 ## NPCs
 

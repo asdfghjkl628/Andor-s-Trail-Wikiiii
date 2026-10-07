@@ -4,7 +4,7 @@ description: "Anklebiter is an enemy in Andor's Trail (animal) with 31 HP, worth
 
 # ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } Anklebiter
 
-**Found in:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md), Fallhaven: [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md), Fallhaven: [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md), Fallhaven: [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md) (+14 more)
+**Found in:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md), Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md), Fallhaven: [Roadbeforecrossroads 4](../maps/roadbeforecrossroads4.md) (+14 more)
 
 <div class="infobox" markdown>
 
@@ -57,24 +57,24 @@ description: "Anklebiter is an enemy in Andor's Trail (animal) with 31 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [cabin_norcity_road1](../maps/cabin_norcity_road1.md) | – | 3 | – |
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 4 | – |
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
-| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
-| [road3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
-| [road4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
-| [road5](../maps/road5.md) | – | 1 | – |
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 2 | – |
-| [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md) | Fallhaven | 2 | – |
-| [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md) | Fallhaven | 3 | – |
-| [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md) | Fallhaven | 3 | – |
-| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 1 | – |
-| [roadbeforecrossroads7](../maps/roadbeforecrossroads7.md) | Fallhaven | 2 | – |
-| [wild14_cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 1 | – |
-| [wild14_clearing](../maps/wild14_clearing.md) | – | 1 | – |
-| [wild16](../maps/wild16.md) | Flagstone Prison | 2 | – |
+| [Cabin norcity road 1](../maps/cabin_norcity_road1.md) | – | 3 | – |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 4 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Guynmart wood 11](../maps/guynmart_wood_11.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
+| [Road 3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
+| [Road 4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
+| [Road 5](../maps/road5.md) | – | 1 | – |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 2 | – |
+| [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md) | Fallhaven | 2 | – |
+| [Roadbeforecrossroads 4](../maps/roadbeforecrossroads4.md) | Fallhaven | 3 | – |
+| [Roadbeforecrossroads 5](../maps/roadbeforecrossroads5.md) | Fallhaven | 3 | – |
+| [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md) | Fallhaven | 1 | – |
+| [Roadbeforecrossroads 7](../maps/roadbeforecrossroads7.md) | Fallhaven | 2 | – |
+| [Wild 14 cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 1 | – |
+| [Wild 14 clearing](../maps/wild14_clearing.md) | – | 1 | – |
+| [Wild 16](../maps/wild16.md) | Flagstone Prison | 2 | – |
 
 
 ## Version history

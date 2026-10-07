@@ -11,7 +11,7 @@ description: "Guynmart wood 17 is an outdoor location in Andor's Trail. NPCs: To
 | **Map ID** | `guynmart_wood_17` |
 | **Type** | Outdoors |
 | **Size** | 15×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 2 |
@@ -66,7 +66,7 @@ description: "Guynmart wood 17 is an outdoor location in Andor's Trail. NPCs: To
 ## Quests
 
 - [Sobby's Trail](../quests/tobby.md): [Tobby](../monsters/tobby.md#v-tobby5) is involved; something on this map advances it; stepping on a trigger here sets stage 25; stepping on a trigger here sets stage 40
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 90
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 90
 
 ## Points of interest
 

@@ -1,5 +1,5 @@
 ---
-description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–370 HP, worth 365–563 XP, found in lakecave0, lakecave2, lakecave0. Drops: Gold coins, Helm of Foreseeing, Polished gem, Iron club."
+description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–370 HP, worth 365–563 XP, found in Lakecave 0, Lakecave 2, Lakecave 0. Drops: Gold coins, Helm of Foreseeing, Polished gem, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_17.png){ .sprite } Cave troll shaman
@@ -11,7 +11,7 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lakecave0, lakecave2, lakecave0 |
+| **Found in** | Lakecave 0, Lakecave 2, Lakecave 0 |
 | **Class** | Giant |
 | **HP** | 300–370 |
 | **XP when defeated** | 365–563 |
@@ -21,18 +21,18 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Cave troll shaman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Cave troll shaman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`cave_troll_4`](#v-cave_troll_4) | Enemy | [lakecave0](../maps/lakecave0.md), [lakecave2](../maps/lakecave2.md) | – | 300 |
-| [`cave_troll_6`](#v-cave_troll_6) | Enemy | [lakecave0](../maps/lakecave0.md) | – | 370 |
+| [`cave_troll_4`](#v-cave_troll_4) | Enemy | [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md) | – | 300 |
+| [`cave_troll_6`](#v-cave_troll_6) | Enemy | [Lakecave 0](../maps/lakecave0.md) | – | 370 |
 
-## Lakecave0 and 1 more (cave_troll_4) { #v-cave_troll_4 }
+## Lakecave 0 and 1 more (cave_troll_4) { #v-cave_troll_4 }
 
 **Entry ID:** `cave_troll_4` · **Type:** Enemy
 
-**Location:** [lakecave0](../maps/lakecave0.md), [lakecave2](../maps/lakecave2.md)
+**Location:** [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md)
 
 ### Combat statistics
 
@@ -71,12 +71,12 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave0](../maps/lakecave0.md) | – | 4 | – |
-| [lakecave2](../maps/lakecave2.md) | – | 6 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 4 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 6 | – |
 
 ### Quests that count defeats
 
-- [A secret garden](../quests/secret_garden.md#stage-55) with stepping on a trigger on [lakecave0](../maps/lakecave0.md), stepping on a trigger on [lakecave2](../maps/lakecave2.md) checks that at least 7 of these enemies have been defeated.
+- [A secret garden](../quests/secret_garden.md#stage-55) with stepping on a trigger on [Lakecave 0](../maps/lakecave0.md), stepping on a trigger on [Lakecave 2](../maps/lakecave2.md) checks that at least 7 of these enemies have been defeated.
 
 
 ### Version history
@@ -147,11 +147,11 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
     ```
 
 
-## Lakecave0 (cave_troll_6) { #v-cave_troll_6 }
+## Lakecave 0 (cave_troll_6) { #v-cave_troll_6 }
 
 **Entry ID:** `cave_troll_6` · **Type:** Enemy
 
-**Location:** [lakecave0](../maps/lakecave0.md)
+**Location:** [Lakecave 0](../maps/lakecave0.md)
 
 ### Combat statistics
 
@@ -187,7 +187,7 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave0](../maps/lakecave0.md) | – | 1 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 1 | – |
 
 
 ### Version history

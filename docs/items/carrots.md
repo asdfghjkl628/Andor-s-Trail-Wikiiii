@@ -42,7 +42,7 @@ description: "Carrots is a ordinary food in Andor's Trail. How to get it: monste
 
 - [Khorailla](../monsters/khorailla.md) (Prim)
 - [Melona](../monsters/melona.md) (Brimhaven)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

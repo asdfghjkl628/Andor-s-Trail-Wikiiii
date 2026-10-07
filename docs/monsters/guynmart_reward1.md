@@ -4,7 +4,7 @@ description: "Gold is a non-player character (NPC) in Andor's Trail, found in Gu
 
 #  Gold
 
-**Where to find Gold:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_reward1)
+**Where to find Gold:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_reward1)
 
 <div class="infobox" markdown>
 
@@ -20,11 +20,11 @@ description: "Gold is a non-player character (NPC) in Andor's Trail, found in Gu
 ## Quests
 
 - [Roses](../quests/guynmart.md): stage 201
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 32
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 32
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gold. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gold. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_reward1_10.json" data-npc="Gold" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -32,13 +32,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_reward1_10"></span>**`guynmart_reward1_10`** Gold: “On the table there are 5,000 shining gold coins.”
 
-    - “You decide for the gold.” *(if NOT reached stage 32 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_reward1_20](#d-guynmart_reward1_20)
+    - “You decide for the gold.” *(if NOT reached stage 32 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_reward1_20](#d-guynmart_reward1_20)
 
-    <span id="d-guynmart_reward1_20"></span>**`guynmart_reward1_20`** Gold: “You feel the pleasant weight of the gold in your bag.” — **effects:** sets stage 32 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32), sets stage 201 of [Roses](../quests/guynmart.md#stage-201), gives 5000× [Gold coins](../items/gold.md), removes monsters from guynmart_main_1
+    <span id="d-guynmart_reward1_20"></span>**`guynmart_reward1_20`** Gold: “You feel the pleasant weight of the gold in your bag.” — **effects:** sets stage 32 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32), sets stage 201 of [Roses](../quests/guynmart.md#stage-201), gives 5000× [Gold coins](../items/gold.md), removes monsters from guynmart_main_1
 
 
 

@@ -1,8 +1,8 @@
 ---
-description: "mushroomcave_pathblock is a hidden quest in Andor's Trail. 1 stages."
+description: "Mushroom cave pathblock is a hidden quest in Andor's Trail. 1 stages."
 ---
 
-# mushroomcave_pathblock
+# Mushroom cave pathblock
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -32,11 +32,15 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 |  | dialogue `mushroomcave_pathblock_1`, which nothing in the data starts directly | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>10 |  | dialogue `mushroomcave_pathblock_1`, never started directly | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -80,6 +84,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `mushroomcave_pathblock` |
+    | Name in game data | `mushroomcave_pathblock` |
     | showInLog | 0 |
     | Stage IDs | 10 |
     | Dialogue nodes setting stages | 10: `mushroomcave_pathblock_1` |

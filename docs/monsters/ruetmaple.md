@@ -4,7 +4,7 @@ description: "Ruetmaple is an NPC who can also be fought in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Ruetmaple
 
-**Where to find Ruetmaple:** Stoutford: [galmore_12](../maps/galmore_12.md#pin-npc-ruetmaple), Stoutford: [galmore_12a](../maps/galmore_12a.md#pin-npc-ruetmaple), [galmore_11](../maps/galmore_11.md#pin-npc-ruetmaple)
+**Where to find Ruetmaple:** Stoutford: [Galmore 12](../maps/galmore_12.md#pin-npc-ruetmaple), Stoutford: [Galmore 12a](../maps/galmore_12a.md#pin-npc-ruetmaple), [Galmore 11](../maps/galmore_11.md#pin-npc-ruetmaple)
 
 <div class="infobox" markdown>
 
@@ -58,19 +58,19 @@ description: "Ruetmaple is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_11](../maps/galmore_11.md) | – | 1 | – |
-| [galmore_12](../maps/galmore_12.md) | Stoutford | 1 | – |
-| [galmore_12a](../maps/galmore_12a.md) | Stoutford | 1 | – |
+| [Galmore 11](../maps/galmore_11.md) | – | 1 | – |
+| [Galmore 12](../maps/galmore_12.md) | Stoutford | 1 | – |
+| [Galmore 12a](../maps/galmore_12a.md) | Stoutford | 1 | – |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [galmore_11](../maps/galmore_11.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [galmore_12](../maps/galmore_12.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Galmore 11](../maps/galmore_11.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Galmore 12](../maps/galmore_12.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ruetmaple. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ruetmaple. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ruetmaple.json" data-npc="Ruetmaple" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ruetmaple"></span>**`ruetmaple`** Ruetmaple: “Oops - you scared me!”
 

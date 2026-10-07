@@ -1,5 +1,5 @@
 ---
-description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 HP, worth 121–544 XP, found in laerothcave3, lakecave0, lakecave2, Burial cave, Buried citadel. Drops: Gold coins, Scorpion sting."
+description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 HP, worth 121–544 XP, found in Laerothcave 3, Lakecave 0, Lakecave 2, Burial cave, Buried citadel. Drops: Gold coins, Scorpion sting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik3_74.png){ .sprite } Cave scorpion
@@ -11,7 +11,7 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave3, lakecave0, lakecave2, Burial cave, Buried citadel |
+| **Found in** | Laerothcave 3, Lakecave 0, Lakecave 2, Burial cave, Buried citadel |
 | **Class** | Insect |
 | **HP** | 30–150 |
 | **XP when defeated** | 121–544 |
@@ -21,18 +21,18 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Cave scorpion. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Cave scorpion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`cave_scorpion_0`](#v-cave_scorpion_0) | Enemy | [laerothcave3](../maps/laerothcave3.md), [lakecave0](../maps/lakecave0.md) (+2 more) | – | 30 |
-| [`brightport_scorpion`](#v-brightport_scorpion) | Enemy | Burial cave: [brightport_cave10](../maps/brightport_cave10.md), Burial cave: [brightport_cave11](../maps/brightport_cave11.md) (+10 more) | – | 150 |
+| [`cave_scorpion_0`](#v-cave_scorpion_0) | Enemy | [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md) (+2 more) | – | 30 |
+| [`brightport_scorpion`](#v-brightport_scorpion) | Enemy | Burial cave: [Brightport cave 10](../maps/brightport_cave10.md), Burial cave: [Brightport cave 11](../maps/brightport_cave11.md) (+10 more) | – | 150 |
 
-## Laerothcave3 and 3 more (cave_scorpion_0) { #v-cave_scorpion_0 }
+## Laerothcave 3 and 3 more (cave_scorpion_0) { #v-cave_scorpion_0 }
 
 **Entry ID:** `cave_scorpion_0` · **Type:** Enemy
 
-**Location:** [laerothcave3](../maps/laerothcave3.md), [lakecave0](../maps/lakecave0.md), [lakecave2](../maps/lakecave2.md), [secretpassage0](../maps/secretpassage0.md)
+**Location:** [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md), [Secretpassage 0](../maps/secretpassage0.md)
 
 ### Combat statistics
 
@@ -69,10 +69,10 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave3](../maps/laerothcave3.md) | – | 4 | – |
-| [lakecave0](../maps/lakecave0.md) | – | 6 | – |
-| [lakecave2](../maps/lakecave2.md) | – | 2 | – |
-| [secretpassage0](../maps/secretpassage0.md) | – | 2 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 4 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 6 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 2 | – |
+| [Secretpassage 0](../maps/secretpassage0.md) | – | 2 | – |
 
 
 ### Version history
@@ -133,11 +133,11 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
     ```
 
 
-## Burial cave, Brightport cave10 and 11 more (brightport_scorpion) { #v-brightport_scorpion }
+## Burial cave, Brightport cave 10 and 11 more (brightport_scorpion) { #v-brightport_scorpion }
 
 **Entry ID:** `brightport_scorpion` · **Type:** Enemy
 
-**Location:** Burial cave: [brightport_cave10](../maps/brightport_cave10.md), Burial cave: [brightport_cave11](../maps/brightport_cave11.md), Burial cave: [brightport_cave12](../maps/brightport_cave12.md), Burial cave: [brightport_cave13](../maps/brightport_cave13.md), Burial cave: [brightport_cave9](../maps/brightport_cave9.md), Buried citadel: [brightport_cave18](../maps/brightport_cave18.md) (+6 more)
+**Location:** Burial cave: [Brightport cave 10](../maps/brightport_cave10.md), Burial cave: [Brightport cave 11](../maps/brightport_cave11.md), Burial cave: [Brightport cave 12](../maps/brightport_cave12.md), Burial cave: [Brightport cave 13](../maps/brightport_cave13.md), Burial cave: [Brightport cave 9](../maps/brightport_cave9.md), Buried citadel: [Brightport cave 18](../maps/brightport_cave18.md) (+6 more)
 
 ### Combat statistics
 
@@ -165,18 +165,18 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave1](../maps/brightport_cave1.md) | – | 2 | – |
-| [brightport_cave10](../maps/brightport_cave10.md) | Burial cave | 1 | – |
-| [brightport_cave11](../maps/brightport_cave11.md) | Burial cave | 2 | – |
-| [brightport_cave12](../maps/brightport_cave12.md) | Burial cave | 3 | – |
-| [brightport_cave13](../maps/brightport_cave13.md) | Burial cave | 2 | – |
-| [brightport_cave14](../maps/brightport_cave14.md) | – | 1 | – |
-| [brightport_cave15](../maps/brightport_cave15.md) | – | 2 | – |
-| [brightport_cave18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
-| [brightport_cave3](../maps/brightport_cave3.md) | Buried citadel | 3 | – |
-| [brightport_cave4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
-| [brightport_cave9](../maps/brightport_cave9.md) | Burial cave | 5 | – |
-| [brightport_smugglercave1](../maps/brightport_smugglercave1.md) | – | 1 | – |
+| [Brightport cave 1](../maps/brightport_cave1.md) | – | 2 | – |
+| [Brightport cave 10](../maps/brightport_cave10.md) | Burial cave | 1 | – |
+| [Brightport cave 11](../maps/brightport_cave11.md) | Burial cave | 2 | – |
+| [Brightport cave 12](../maps/brightport_cave12.md) | Burial cave | 3 | – |
+| [Brightport cave 13](../maps/brightport_cave13.md) | Burial cave | 2 | – |
+| [Brightport cave 14](../maps/brightport_cave14.md) | – | 1 | – |
+| [Brightport cave 15](../maps/brightport_cave15.md) | – | 2 | – |
+| [Brightport cave 18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
+| [Brightport cave 3](../maps/brightport_cave3.md) | Buried citadel | 3 | – |
+| [Brightport cave 4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
+| [Brightport cave 9](../maps/brightport_cave9.md) | Burial cave | 5 | – |
+| [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) | – | 1 | – |
 
 
 ### Version history

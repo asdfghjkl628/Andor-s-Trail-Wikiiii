@@ -4,7 +4,7 @@ description: "Tired citizen is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Tired citizen
 
-**Where to find Tired citizen:** Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-tired_citizen), Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-tired_citizen)
+**Where to find Tired citizen:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-tired_citizen), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-tired_citizen)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Tired citizen is a non-player character (NPC) in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_nw](../maps/fallhaven_nw.md) | Fallhaven | 1 | – |
-| [fallhaven_se](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
+| [Fallhaven north-west](../maps/fallhaven_nw.md) | Fallhaven | 1 | – |
+| [Fallhaven south-east](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tired citizen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tired citizen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_citizen4.json" data-npc="Tired citizen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_citizen4"></span>**`fallhaven_citizen4`** Tired citizen: “You're that kid from Crossglen village right?”
 

@@ -53,7 +53,7 @@ description: "Wexlow village north-west house is an indoor location in Andor's T
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): [Godelieve](../monsters/village_godelieve.md) is involved
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): [Godelieve](../monsters/village_godelieve.md) is involved; blocked passage opens at stage 9; something on this map advances it
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): [Godelieve](../monsters/village_godelieve.md) is involved; blocked passage opens at stage 9; something on this map advances it
 
 ## Points of interest
 

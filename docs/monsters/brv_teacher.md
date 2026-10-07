@@ -4,7 +4,7 @@ description: "Teacher is an NPC who can also be fought in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } Teacher
 
-**Where to find Teacher:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_teacher)
+**Where to find Teacher:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_teacher)
 
 <div class="infobox" markdown>
 
@@ -51,21 +51,21 @@ description: "Teacher is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
 
 ## Quests that count defeats
 
-- [Lessons learned](../quests/brv_school2.md#stage-122) with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
-- A conversation with [Statue](../monsters/brv_school_statue.md) ([brimhaven_school](../maps/brimhaven_school.md)) checks that this enemy has been defeated.
+- [Lessons learned](../quests/brv_school2.md#stage-122) with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
+- A conversation with [Statue](../monsters/brv_school_statue.md) ([Brimhaven school](../maps/brimhaven_school.md)) checks that this enemy has been defeated.
 
 ## Quests
 
 - [Lessons learned](../quests/brv_school2.md): stages 120, 124, 200, 210, 220, 230
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stages 10, 40
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stages 10, 40
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Teacher. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Teacher. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_teacher.json" data-npc="Teacher" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (37 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_teacher"></span>**`brv_teacher`** *(silent check: the first matching branch below is taken)*
 
@@ -85,7 +85,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 6 *(if reached stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150))* → [brv_teacher_150](#d-brv_teacher_150)
     - branch 7 *(if reached stage 124 of [Lessons learned](../quests/brv_school2.md#stage-124))* → [brv_teacher_124](#d-brv_teacher_124)
     - branch 8 *(if reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120))* → [brv_teacher_120](#d-brv_teacher_120)
-    - branch 9 *(if reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); reached stage 22 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22))* → [brv_teacher_104a](#d-brv_teacher_104a)
+    - branch 9 *(if reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); reached stage 22 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22))* → [brv_teacher_104a](#d-brv_teacher_104a)
     - branch 10 *(if reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104))* → [brv_teacher_104b](#d-brv_teacher_104b)
     - branch 11 *(if reached stage 102 of [Lessons learned](../quests/brv_school2.md#stage-102))* → [brv_teacher_102](#d-brv_teacher_102)
     - branch 12 *(if reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60))* → [brv_teacher_60](#d-brv_teacher_60)
@@ -152,7 +152,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Eh, really?” → [brv_teacher_12_10](#d-brv_teacher_12_10)
 
-    <span id="d-brv_school_enter_20"></span>**`brv_school_enter_20`** [Teacher](../monsters/brv_teacher.md): “No walking around in my lessons! Please sit down.” — **effects:** sets stage 10 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-10)
+    <span id="d-brv_school_enter_20"></span>**`brv_school_enter_20`** [Teacher](../monsters/brv_teacher.md): “No walking around in my lessons! Please sit down.” — **effects:** sets stage 10 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-10)
 
     - “OK.” → [brv_school_enter_90](#d-brv_school_enter_90)
 
@@ -197,11 +197,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brv_teacher_152_90](#d-brv_teacher_152_90)
 
-    <span id="d-brv_teacher_124_20"></span>**`brv_teacher_124_20`** Teacher: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 220 of [Lessons learned](../quests/brv_school2.md#stage-220), sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
+    <span id="d-brv_teacher_124_20"></span>**`brv_teacher_124_20`** Teacher: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 220 of [Lessons learned](../quests/brv_school2.md#stage-220), sets stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
 
     - “Thank you!” → *conversation ends*
 
-    <span id="d-brv_teacher_104a_20"></span>**`brv_teacher_104a_20`** Teacher: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
+    <span id="d-brv_teacher_104a_20"></span>**`brv_teacher_104a_20`** Teacher: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
 
     - “Thank you!” → [brv_teacher_104a_30](#d-brv_teacher_104a_30)
 
@@ -218,7 +218,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if wearing [Wooden sword](../items/brv_school_sword.md); wearing [Paper shield](../items/brv_school_shield.md))* → [brv_teacher_60_24](#d-brv_teacher_60_24)
     - branch 2 → [brv_teacher_60_22](#d-brv_teacher_60_22)
 
-    <span id="d-brv_teacher_152_90"></span>**`brv_teacher_152_90`** Teacher: “We all owe our lives to you! As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
+    <span id="d-brv_teacher_152_90"></span>**`brv_teacher_152_90`** Teacher: “We all owe our lives to you! As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.” — **effects:** sets stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)
 
     - “Thank you!” → *conversation ends*
 

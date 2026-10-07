@@ -1,5 +1,5 @@
 ---
-description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth 296 XP, found in lakecave0. Drops: Gold coins, Iron club."
+description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth 296 XP, found in Lakecave 0. Drops: Gold coins, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_14.png){ .sprite } Cave troll
@@ -11,7 +11,7 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lakecave0 |
+| **Found in** | Lakecave 0 |
 | **Class** | Giant |
 | **HP** | 230 |
 | **XP when defeated** | 296 |
@@ -21,18 +21,18 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Cave troll. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. These entries are identical apart from their IDs. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Cave troll. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. These entries are identical apart from their IDs. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`cave_troll_1`](#v-cave_troll_1) | Enemy | [lakecave0](../maps/lakecave0.md) | – | 230 |
-| [`cave_troll_7`](#v-cave_troll_7) | Enemy | [lakecave0](../maps/lakecave0.md) | – | 230 |
+| [`cave_troll_1`](#v-cave_troll_1) | Enemy | [Lakecave 0](../maps/lakecave0.md) | – | 230 |
+| [`cave_troll_7`](#v-cave_troll_7) | Enemy | [Lakecave 0](../maps/lakecave0.md) | – | 230 |
 
-## Lakecave0 (cave_troll_1) { #v-cave_troll_1 }
+## Lakecave 0 (cave_troll_1) { #v-cave_troll_1 }
 
 **Entry ID:** `cave_troll_1` · **Type:** Enemy
 
-**Location:** [lakecave0](../maps/lakecave0.md)
+**Location:** [Lakecave 0](../maps/lakecave0.md)
 
 ### Combat statistics
 
@@ -69,7 +69,7 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave0](../maps/lakecave0.md) | – | 5 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 5 | – |
 
 
 ### Version history
@@ -128,11 +128,11 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
     ```
 
 
-## Lakecave0 (cave_troll_7) { #v-cave_troll_7 }
+## Lakecave 0 (cave_troll_7) { #v-cave_troll_7 }
 
 **Entry ID:** `cave_troll_7` · **Type:** Enemy
 
-**Location:** [lakecave0](../maps/lakecave0.md)
+**Location:** [Lakecave 0](../maps/lakecave0.md)
 
 ### Combat statistics
 
@@ -169,7 +169,7 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave0](../maps/lakecave0.md) | – | 1 | Appears later, during a quest |
+| [Lakecave 0](../maps/lakecave0.md) | – | 1 | Appears later, during a quest |
 
 
 ### Version history

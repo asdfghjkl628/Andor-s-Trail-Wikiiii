@@ -1,10 +1,10 @@
 ---
-description: "Hira'zinn is an NPC who can also be fought in Andor's Trail, found in lodarcave4a."
+description: "Hira'zinn is an NPC who can also be fought in Andor's Trail, found in Lodarcave 4a."
 ---
 
 # ![](../assets/icons/monsters/monsters_demon2_0.png){ .sprite } Hira'zinn
 
-**Where to find Hira'zinn:** [lodarcave4a](../maps/lodarcave4a.md#pin-npc-hirazinn)
+**Where to find Hira'zinn:** [Lodarcave 4a](../maps/lodarcave4a.md#pin-npc-hirazinn)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Hira'zinn is an NPC who can also be fought in Andor's Trail, found
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | lodarcave4a |
+| **Found in** | Lodarcave 4a |
 | **Class** | Demon |
 | **HP** | 263 |
 | **XP when defeated** | 683 |
@@ -68,7 +68,7 @@ description: "Hira'zinn is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodarcave4a](../maps/lodarcave4a.md) | – | 1 | – |
+| [Lodarcave 4a](../maps/lodarcave4a.md) | – | 1 | – |
 
 ## Quests
 
@@ -76,7 +76,7 @@ description: "Hira'zinn is an NPC who can also be fought in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hira'zinn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hira'zinn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hirazinn.json" data-npc="Hira&#x27;zinn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hirazinn"></span>**`hirazinn`** Hira'zinn: “[The foul creature swings its many arms at you, while giving away a high-pitched shrieking sound]”
 

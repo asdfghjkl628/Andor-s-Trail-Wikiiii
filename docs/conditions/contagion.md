@@ -28,9 +28,9 @@ description: "Insect contagion is a harmful blood condition in Andor's Trail: at
 | Attack chance | −10 |
 | Attack damage | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,47 +42,47 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
 | [Basement spider](../monsters/laerothbasement_spider.md) | When it hits you | 4 | 6 rounds | 40% | Lake Laeroth |
-| [Black plaguecrawler](../monsters/plaguesp_4.md) | When it hits you | 4 | 5 rounds | 70% | mountainlake0, waytolake0, waytolake1 |
+| [Black plaguecrawler](../monsters/plaguesp_4.md) | When it hits you | 4 | 5 rounds | 70% | Mountainlake 0, Waytolake 0, Waytolake 1 |
 | [Dirt spider](../monsters/dirt_spider.md) | When it hits you | 4 | 6 rounds | 40% | Stoutford, Mt. Galmore |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | When it hits you | 1 | 3 rounds | 33% | Wexlow Village |
-| [Forest hunter](../monsters/forest_hunter.md) | When it hits you | 4 | 5 rounds | 50% | haunted_forest1, haunted_forest13, haunted_forest14 |
+| [Forest hunter](../monsters/forest_hunter.md) | When it hits you | 4 | 5 rounds | 50% | Haunted forest 1, Haunted forest 13, Haunted forest 14 |
 | [Giant mosquito](../monsters/giant_mosquito.md) | When it hits you | 7 | 5 rounds | 65% | Mt. Galmore |
 | [Grass spider](../monsters/grass_spider.md) | When it hits you | 4 | 6 rounds | 40% | Mt. Galmore, Flagstone Prison, Wexlow Village |
-| [Hardshell plaguestrider](../monsters/plaguesp_6.md) | When it hits you | 5 | 5 rounds | 70% | mountainlake0, waytolake0, waytolake1 |
-| [Nesting plaguestrider](../monsters/plaguesp_11.md) | When it hits you | 6 | 5 rounds | 70% | waytolake4, waytolake5 |
-| [Plaguecrawler](../monsters/plaguesp_2.md) | When it hits you | 3 | 5 rounds | 70% | waytolake0, waytolake1, waytolake2 |
-| [Plaguestrider](../monsters/plaguesp_5.md) | When it hits you | 4 | 5 rounds | 70% | mountainlake0, waytolake0, waytolake1 |
-| [Plaguestrider master](../monsters/plaguesp_13.md) | When it hits you | 7 | 5 rounds | 70% | waytolake5 |
-| [Plaguestrider master](../monsters/plaguesp_13.md) | When it hits you | 4 | 5 rounds | 70% | waytolake5 |
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | When it hits you | 7 | 5 rounds | 70% | waytolake4, waytolake5 |
+| [Hardshell plaguestrider](../monsters/plaguesp_6.md) | When it hits you | 5 | 5 rounds | 70% | Mountainlake 0, Waytolake 0, Waytolake 1 |
+| [Nesting plaguestrider](../monsters/plaguesp_11.md) | When it hits you | 6 | 5 rounds | 70% | Waytolake 4, Waytolake 5 |
+| [Plaguecrawler](../monsters/plaguesp_2.md) | When it hits you | 3 | 5 rounds | 70% | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Plaguestrider](../monsters/plaguesp_5.md) | When it hits you | 4 | 5 rounds | 70% | Mountainlake 0, Waytolake 0, Waytolake 1 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | When it hits you | 7 | 5 rounds | 70% | Waytolake 5 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | When it hits you | 4 | 5 rounds | 70% | Waytolake 5 |
+| [Plaguestrider servant](../monsters/plaguesp_12.md) | When it hits you | 7 | 5 rounds | 70% | Waytolake 4, Waytolake 5 |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | When it hits you | 2 | 3 rounds | 25% | Deebo's Orchard |
-| [Puny plaguecrawler](../monsters/plaguesp_1.md) | When it hits you | 1 | 5 rounds | 70% | waytolake0, waytolake1, waytolake2 |
-| [Red tree ant](../monsters/red_tree_ant.md) | When you defeat it | 6 | 3 rounds | 100% | nw_sullengard_1 |
-| [Swamp beetle](../monsters/swamp_bettle.md) | When it hits you | 6 | 5 rounds | 65% | galmore_17, galmore_19, galmore_27 |
-| [Swamp hornet](../monsters/swamp_hornet.md) | When it hits you | 7 | 5 rounds | 65% | galmore_17, galmore_18, galmore_27 |
-| [Tough plaguecrawler](../monsters/plaguesp_3.md) | When it hits you | 3 | 5 rounds | 70% | waytolake0, waytolake1, waytolake2 |
-| [Tough plaguestrider](../monsters/plaguesp_7.md) | When it hits you | 5 | 5 rounds | 70% | mountainlake0, waytolake11, waytolake12 |
-| [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | When it hits you | 6 | 5 rounds | 70% | mountainlake0, waytolake11, waytolake12 |
-| [Vile plaguestrider](../monsters/plaguesp_10.md) | When it hits you | 6 | 5 rounds | 70% | waytolake4, waytolake5 |
-| [Wooly plaguestrider](../monsters/plaguesp_8.md) | When it hits you | 6 | 5 rounds | 70% | mountainlake0, waytolake11, waytolake12 |
+| [Puny plaguecrawler](../monsters/plaguesp_1.md) | When it hits you | 1 | 5 rounds | 70% | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Red tree ant](../monsters/red_tree_ant.md) | When you defeat it | 6 | 3 rounds | 100% | Nw sullengard 1 |
+| [Swamp beetle](../monsters/swamp_bettle.md) | When it hits you | 6 | 5 rounds | 65% | Galmore 17, Galmore 19, Galmore 27 |
+| [Swamp hornet](../monsters/swamp_hornet.md) | When it hits you | 7 | 5 rounds | 65% | Galmore 17, Galmore 18, Galmore 27 |
+| [Tough plaguecrawler](../monsters/plaguesp_3.md) | When it hits you | 3 | 5 rounds | 70% | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Tough plaguestrider](../monsters/plaguesp_7.md) | When it hits you | 5 | 5 rounds | 70% | Mountainlake 0, Waytolake 11, Waytolake 12 |
+| [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | When it hits you | 6 | 5 rounds | 70% | Mountainlake 0, Waytolake 11, Waytolake 12 |
+| [Vile plaguestrider](../monsters/plaguesp_10.md) | When it hits you | 6 | 5 rounds | 70% | Waytolake 4, Waytolake 5 |
+| [Wooly plaguestrider](../monsters/plaguesp_8.md) | When it hits you | 6 | 5 rounds | 70% | Mountainlake 0, Waytolake 11, Waytolake 12 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [remgard_church_basement](../maps/remgard_church_basement.md) | – | 3 rounds |
+| walking into a blocked passage on [Remgard church basement](../maps/remgard_church_basement.md) | – | 3 rounds |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Pure Blood](../skills/resistanceBlood.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Pure Blood](../skills/resistanceBlood.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Insectbane tonic](../items/insectbane_tonic.md) (when used).
 - **Immunity** from [Insectbane tonic](../items/insectbane_tonic.md) (when used; 15 rounds).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

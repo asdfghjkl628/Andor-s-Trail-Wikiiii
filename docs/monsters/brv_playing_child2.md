@@ -18,23 +18,23 @@ description: "Playing child is a non-player character (NPC) in Andor's Trail, fo
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Playing child. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Playing child. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_playing_child2`](#v-brv_playing_child2) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child2) | – |
-| [`brv_playing_child3`](#v-brv_playing_child3) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child3) | – |
-| [`brv_playing_child4`](#v-brv_playing_child4) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child4) | – |
+| [`brv_playing_child2`](#v-brv_playing_child2) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child2) | – |
+| [`brv_playing_child3`](#v-brv_playing_child3) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child3) | – |
+| [`brv_playing_child4`](#v-brv_playing_child4) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child4) | – |
 
-## Brimhaven, Brimhaven3 (brv_playing_child2) { #v-brv_playing_child2 }
+## Brimhaven, Brimhaven 3 (brv_playing_child2) { #v-brv_playing_child2 }
 
 **Entry ID:** `brv_playing_child2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child2)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Playing child. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Playing child. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_playing_children.json" data-npc="Playing child" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_playing_child2-brv_playing_children"></span>**`brv_playing_children`** [Playing children](../monsters/brv_playing_child1.md): “Don't disturb our game. Go away!”
 
@@ -88,15 +88,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 (brv_playing_child3) { #v-brv_playing_child3 }
+## Brimhaven, Brimhaven 3 (brv_playing_child3) { #v-brv_playing_child3 }
 
 **Entry ID:** `brv_playing_child3` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child3)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Playing child. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Playing child. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_playing_children.json" data-npc="Playing child" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -139,15 +139,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Brimhaven, Brimhaven3 (brv_playing_child4) { #v-brv_playing_child4 }
+## Brimhaven, Brimhaven 3 (brv_playing_child4) { #v-brv_playing_child4 }
 
 **Entry ID:** `brv_playing_child4` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_playing_child4)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_playing_child4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Playing child. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Playing child. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_playing_children.json" data-npc="Playing child" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

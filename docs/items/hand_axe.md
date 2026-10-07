@@ -41,8 +41,8 @@ description: "Hand Axe is a quest axe in Andor's Trail (Attack damage 1 to 2, At
 
 ### Quest & dialogue rewards
 
-- From [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)), [Attohead](../monsters/brv_attohead.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) during [Much water](../quests/brv_flood.md#stage-50) (1×)
-- From stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) during [Much water](../quests/brv_flood.md#stage-53) (1×)
+- From [Alvies](../monsters/brv_alvies.md) ([Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md)), [Attohead](../monsters/brv_attohead.md) ([Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md)) during [Much water](../quests/brv_flood.md#stage-50) (1×)
+- From stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) during [Much water](../quests/brv_flood.md#stage-53) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -53,9 +53,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

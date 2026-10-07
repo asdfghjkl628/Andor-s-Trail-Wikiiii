@@ -26,7 +26,7 @@ description: "Wild Flower is a ordinary other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [Wild flower](../monsters/wild_flower.md) ([wild10](../maps/wild10.md)) (1×)
+- From [Wild flower](../monsters/wild_flower.md) ([Wild 10](../maps/wild10.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,10 +37,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | – | must be carried (1×) | “I found some wild flowers, I just need a few more.” |
-| [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | – | must be carried (12×) | “I have found a dozen wild flowers. I will take them to the lytwings.” |
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-41) | handed over (12×) | “Yes, here are your flowers.” |
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | – | must be carried (1×) | “Yes, here are your flowers.” |
+| [Arensia](../monsters/arensia.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | – | must be carried (1×) | “I found some wild flowers, I just need a few more.” |
+| [Arensia](../monsters/arensia.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | – | must be carried (12×) | “I have found a dozen wild flowers. I will take them to the lytwings.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-41) | handed over (12×) | “Yes, here are your flowers.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | – | must be carried (1×) | “Yes, here are your flowers.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

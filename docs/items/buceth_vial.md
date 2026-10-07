@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) | [Flows through the veins](../quests/loneford.md#stage-54) | handed over (1×) | “I know what the cause of the illness is. Have a look at this vial that Buceth ha” |
+| [Kuldan](../monsters/kuldan.md) ([Loneford 3](../maps/loneford3.md)) | [Flows through the veins](../quests/loneford.md#stage-54) | handed over (1×) | “I know what the cause of the illness is. Have a look at this vial that Buceth ha” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

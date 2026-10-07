@@ -1,5 +1,5 @@
 ---
-description: "Theobald is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, gamjee_well_jail_cells."
+description: "Theobald is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_121.png){ .sprite } Theobald
@@ -11,7 +11,7 @@ description: "Theobald is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Wexlow Village, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well jail cells |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -21,22 +21,22 @@ description: "Theobald is an NPC who can also be fought in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Theobald. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Theobald. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`village_theobald`](#v-village_theobald) | NPC | Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-village_theobald) | – | – |
-| [`troll_hollow_theobald`](#v-troll_hollow_theobald) | Enemy | [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| [`village_theobald`](#v-village_theobald) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theobald) | – | – |
+| [`troll_hollow_theobald`](#v-troll_hollow_theobald) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
 
 ## Wexlow Village, Wexlow village (village_theobald) { #v-village_theobald }
 
 **Entry ID:** `village_theobald` · **Type:** NPC
 
-**Location:** Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-village_theobald)
+**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theobald)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Theobald. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Theobald. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/village_theobald_start.json" data-npc="Theobald" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-village_theobald-village_theobald_start"></span>**`village_theobald_start`** Theobald: “We are indebted to you now. Your heroism will never be forgotten by the members of this tiny village.”
 
@@ -121,7 +121,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_theobald` · **Type:** Enemy
 
-**Location:** [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md)
+**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
 ### Combat statistics
 
@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
 
 
 ### Version history

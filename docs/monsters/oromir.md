@@ -18,23 +18,23 @@ description: "Oromir is a non-player character (NPC) in Andor's Trail, found in 
 </div>
 
 !!! info "7 entries in the game data"
-    The game's data files define 7 separate characters named Oromir. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 7 separate characters named Oromir. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`oromir`](#v-oromir) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir) | – |
-| [`oromir_basement`](#v-oromir_basement) | NPC | Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement) | – |
-| [`oromir_basement_help`](#v-oromir_basement_help) | NPC | Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help) | – |
-| [`oromir_behind_haystack`](#v-oromir_behind_haystack) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack) | – |
-| [`oromir_behind_haystack_help`](#v-oromir_behind_haystack_help) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help) | – |
-| [`oromir_behind_inn`](#v-oromir_behind_inn) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn) | – |
-| [`oromir_behind_inn_help`](#v-oromir_behind_inn_help) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help) | – |
+| [`oromir`](#v-oromir) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir) | – |
+| [`oromir_basement`](#v-oromir_basement) | NPC | Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement) | – |
+| [`oromir_basement_help`](#v-oromir_basement_help) | NPC | Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help) | – |
+| [`oromir_behind_haystack`](#v-oromir_behind_haystack) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack) | – |
+| [`oromir_behind_haystack_help`](#v-oromir_behind_haystack_help) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help) | – |
+| [`oromir_behind_inn`](#v-oromir_behind_inn) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn) | – |
+| [`oromir_behind_inn_help`](#v-oromir_behind_inn_help) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help) | – |
 
 ## Crossglen, Crossglen (oromir) { #v-oromir }
 
 **Entry ID:** `oromir` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir)
 
 ### Quests
 
@@ -42,7 +42,7 @@ description: "Oromir is a non-player character (NPC) in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir1.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir-oromir1"></span>**`oromir1`** Oromir: “Oh you startled me. Hello.”
 
@@ -108,7 +108,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_basement` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement)
+**Location:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement)
 
 ### Quests
 
@@ -116,7 +116,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_basement_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -124,7 +124,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_basement-oromir_basement_10"></span>**`oromir_basement_10`** Oromir: “You did it again? Stop telling Leta where I am.”
 
@@ -176,7 +176,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_basement_help` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help)
+**Location:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help)
 
 ### Quests
 
@@ -184,7 +184,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_basement_help_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -192,7 +192,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_basement_help-oromir_basement_help_10"></span>**`oromir_basement_help_10`** Oromir: “Thank you for not telling my wife where I've been.”
 
@@ -251,7 +251,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_behind_haystack` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack)
 
 ### Quests
 
@@ -259,7 +259,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_behind_haystack_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -267,7 +267,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_behind_haystack-oromir_behind_haystack_10"></span>**`oromir_behind_haystack_10`** Oromir: “You did it again? Stop telling Leta where I am.”
 
@@ -320,7 +320,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_behind_haystack_help` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help)
 
 ### Quests
 
@@ -328,7 +328,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_behind_haystack_help_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_behind_haystack_help-oromir_behind_haystack_help_10"></span>**`oromir_behind_haystack_help_10`** Oromir: “I had a feeling that Leta was close to finding me, so I moved here.”
 
@@ -389,7 +389,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_behind_inn` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn)
 
 ### Quests
 
@@ -397,7 +397,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_behind_inn_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -405,7 +405,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_behind_inn-oromir_behind_inn_10"></span>**`oromir_behind_inn_10`** Oromir: “Why did you tell Leta where I was?”
 
@@ -458,7 +458,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `oromir_behind_inn_help` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help)
 
 ### Quests
 
@@ -466,7 +466,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oromir_behind_inn_help_10.json" data-npc="Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -474,7 +474,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oromir_behind_inn_help-oromir_behind_inn_help_10"></span>**`oromir_behind_inn_help_10`** Oromir: “I had a feeling that Leta was close to finding me, so I moved here.”
 

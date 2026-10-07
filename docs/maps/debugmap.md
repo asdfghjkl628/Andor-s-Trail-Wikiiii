@@ -37,7 +37,7 @@ description: "Debugmap is an indoor location in Andor's Trail. "
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [scores (hidden flag)](../quests/scores.md): something on this map advances it; stepping on a trigger here sets stage 112; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 122; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 32
+- [Score counters (hidden flag)](../quests/scores.md): something on this map advances it; stepping on a trigger here sets stage 112; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 122; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 32
 
 ## Points of interest
 

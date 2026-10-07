@@ -4,7 +4,7 @@ description: "Kazaul spawn is an enemy in Andor's Trail (demon) with 45 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles1_41.png){ .sprite } Kazaul spawn
 
-**Found in:** Blackwater Mountain: [blackwater_mountain40](../maps/blackwater_mountain40.md), Blackwater Mountain: [blackwater_mountain41](../maps/blackwater_mountain41.md), Blackwater Mountain: [blackwater_mountain56](../maps/blackwater_mountain56.md), [blackwater_mountain42](../maps/blackwater_mountain42.md) (+1 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 40](../maps/blackwater_mountain40.md), Blackwater Mountain: [Blackwater mountain 41](../maps/blackwater_mountain41.md), Blackwater Mountain: [Blackwater mountain 56](../maps/blackwater_mountain56.md), [Blackwater mountain 42](../maps/blackwater_mountain42.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -61,11 +61,11 @@ description: "Kazaul spawn is an enemy in Andor's Trail (demon) with 45 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain40](../maps/blackwater_mountain40.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain41](../maps/blackwater_mountain41.md) | Blackwater Mountain | 6 | – |
-| [blackwater_mountain42](../maps/blackwater_mountain42.md) | – | 6 | – |
-| [blackwater_mountain56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain74](../maps/blackwater_mountain74.md) | – | 2 | – |
+| [Blackwater mountain 40](../maps/blackwater_mountain40.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 41](../maps/blackwater_mountain41.md) | Blackwater Mountain | 6 | – |
+| [Blackwater mountain 42](../maps/blackwater_mountain42.md) | – | 6 | – |
+| [Blackwater mountain 56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 74](../maps/blackwater_mountain74.md) | – | 2 | – |
 
 
 ## Version history

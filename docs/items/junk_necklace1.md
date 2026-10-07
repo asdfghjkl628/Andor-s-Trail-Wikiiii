@@ -37,13 +37,13 @@ description: "Polished necklace is a ordinary necklace in Andor's Trail (Attack 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 11.1111% | 1 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 11.1111% | 1 | elm5f_2, elm_2f_1, elm_3f |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 11.1111% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 11.1111% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
 | [Olive ooze](../monsters/jelly1.md) | 5% | 1 | Crossroads Guardhouse |
 | [Emerald jelly](../monsters/jelly2.md) | 5% | 1 | Crossroads Guardhouse |
 | [Poisonous ooze](../monsters/jelly3.md) | 5% | 1 | Crossroads Guardhouse |
 | [Ochre jelly](../monsters/jelly4.md) | 5% | 1 | Crossroads Guardhouse |
-| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | roadcave1 |
+| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | Roadcave 1 |
 
 ### Sold by
 

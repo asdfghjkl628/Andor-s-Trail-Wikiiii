@@ -25,7 +25,7 @@ description: "Rockfall deflecting cap is a ordinary headwear, cloth in Andor's T
 
 ### Sold by
 
-- [Bernhar](../monsters/bernhar.md) (arulirmountain1)
+- [Bernhar](../monsters/bernhar.md) (Arulirmountain 1)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,13 +36,13 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “Thanks to my protective cap I am not seriously hurt.” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “Good thing I am wearing this protective cap!” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “That was neat. I fear that not even my protective cap would have helped much aga” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “That could have been very bad without my cap!” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “Ouch! It could have been worse though, without the cap!” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave2](../maps/arulircave2.md) | – | must be worn (1×) | “*Sigh* Even with the protective cap, these rocks are really annoying!” |
-| stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “Thanks to my protective cap I am not seriously hurt.” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “Good thing I am wearing this protective cap!” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “That was neat. I fear that not even my protective cap would have helped much aga” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “That could have been very bad without my cap!” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “Ouch! It could have been worse though, without the cap!” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) | – | must be worn (1×) | “*Sigh* Even with the protective cap, these rocks are really annoying!” |
+| stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

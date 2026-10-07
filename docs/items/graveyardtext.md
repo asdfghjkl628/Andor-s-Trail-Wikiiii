@@ -27,7 +27,7 @@ description: "Ancient text is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) during [Mine for the taking](../quests/graveyard_quest.md#stage-40) (1×)
+- From [Hagale](../monsters/algore.md) ([Woodsettlement 0](../maps/woodsettlement0.md)) during [Mine for the taking](../quests/graveyard_quest.md#stage-40) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [graveyard1](../maps/graveyard1.md) | [Mine for the taking](../quests/graveyard_quest.md#stage-50) | must be carried (1×) | “N” |
-| stepping on a trigger on [graveyard1](../maps/graveyard1.md) | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) | handed over (1×) | “N” |
+| walking into a blocked passage on [Graveyard 1](../maps/graveyard1.md) | [Mine for the taking](../quests/graveyard_quest.md#stage-50) | must be carried (1×) | “N” |
+| stepping on a trigger on [Graveyard 1](../maps/graveyard1.md) | [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-240) | handed over (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -38,7 +38,7 @@ description: "Weak poison antidote is a ordinary potion in Andor's Trail. How to
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

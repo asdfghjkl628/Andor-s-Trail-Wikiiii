@@ -4,7 +4,7 @@ description: "Jakrar is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } Jakrar
 
-**Where to find Jakrar:** Fallhaven: [fallhaven_sw](../maps/fallhaven_sw.md#pin-npc-jakrar)
+**Where to find Jakrar:** Fallhaven: [Fallhaven south-west](../maps/fallhaven_sw.md#pin-npc-jakrar)
 
 <div class="infobox" markdown>
 
@@ -37,7 +37,7 @@ description: "Jakrar is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jakrar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jakrar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_lumberjack.json" data-npc="Jakrar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (18 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_lumberjack"></span>**`fallhaven_lumberjack`** *(silent check: the first matching branch below is taken)*
 

@@ -29,9 +29,9 @@ description: "Stunned is a harmful physical condition in Andor's Trail: max AP �
 | Attack cost (AP) | +5 |
 | Move cost (AP) | +8 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -48,39 +48,39 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Ancient ogre](../monsters/ratdom_troll_6.md) | When it hits you | 1 | 6 rounds | 5% | ratdom_maze_517a |
-| [Angry ogre](../monsters/ratdom_troll_3.md) | When it hits you | 1 | 4 rounds | 10% | ratdom_maze_517a |
-| [Arulir](../monsters/arulir_1.md) | When it hits you | 1 | 3 rounds | 20% | arulirmountain1, arulirmountain2, mountainlake5 |
-| [Arulir Pack Leader](../monsters/arulir_leader.md) | When it hits you | 1 | 4 rounds | 35% | arulircave6 |
-| [Cave Arulir](../monsters/arulir_3.md) | When it hits you | 1 | 4 rounds | 23% | arulircave1, arulircave2, arulircave3 |
-| [Cave troll](../monsters/cave_troll_1.md) | When it hits you | 1 | 2 rounds | 10% | lakecave0 |
-| [Cave troll leader](../monsters/cave_troll_5.md) | When it hits you | 1 | 3 rounds | 25% | lakecave2 |
-| [Cave troll shaman](../monsters/cave_troll_4.md) | When it hits you | 1 | 2 rounds | 15% | lakecave0, lakecave2 |
-| [Dangerous ogre](../monsters/ratdom_troll_5.md) | When it hits you | 1 | 4 rounds | 5% | ratdom_maze_517a |
-| [Demonic Arulir](../monsters/arulir_8.md) | When it hits you | 1 | 4 rounds | 30% | arulircave6 |
-| [Giant arulir](../monsters/arulir_2.md) | When it hits you | 1 | 3 rounds | 20% | arulirmountain1, arulirmountain2, mountainlake5 |
-| [Giant Cave Arulir](../monsters/arulir_4.md) | When it hits you | 1 | 4 rounds | 26% | arulircave1, arulircave2, arulircave3 |
-| [Giant Golden Arulir](../monsters/arulir_6.md) | When it hits you | 1 | 4 rounds | 30% | arulircave4, arulircave5, arulircave6 |
-| [Giant ogre](../monsters/ratdom_troll_9.md) | When it hits you | 1 | 5 rounds | 5% | ratdom_maze_517a |
-| [Golden Arulir](../monsters/arulir_5.md) | When it hits you | 1 | 4 rounds | 30% | arulircave4, arulircave5, arulircave6 |
-| [Mad ogre](../monsters/ratdom_troll_4.md) | When it hits you | 1 | 3 rounds | 10% | ratdom_maze_517a |
+| [Ancient ogre](../monsters/ratdom_troll_6.md) | When it hits you | 1 | 6 rounds | 5% | Ratdom maze 517a |
+| [Angry ogre](../monsters/ratdom_troll_3.md) | When it hits you | 1 | 4 rounds | 10% | Ratdom maze 517a |
+| [Arulir](../monsters/arulir_1.md) | When it hits you | 1 | 3 rounds | 20% | Arulirmountain 1, Arulirmountain 2, Mountainlake 5 |
+| [Arulir Pack Leader](../monsters/arulir_leader.md) | When it hits you | 1 | 4 rounds | 35% | Arulircave 6 |
+| [Cave Arulir](../monsters/arulir_3.md) | When it hits you | 1 | 4 rounds | 23% | Arulircave 1, Arulircave 2, Arulircave 3 |
+| [Cave troll](../monsters/cave_troll_1.md) | When it hits you | 1 | 2 rounds | 10% | Lakecave 0 |
+| [Cave troll leader](../monsters/cave_troll_5.md) | When it hits you | 1 | 3 rounds | 25% | Lakecave 2 |
+| [Cave troll shaman](../monsters/cave_troll_4.md) | When it hits you | 1 | 2 rounds | 15% | Lakecave 0, Lakecave 2 |
+| [Dangerous ogre](../monsters/ratdom_troll_5.md) | When it hits you | 1 | 4 rounds | 5% | Ratdom maze 517a |
+| [Demonic Arulir](../monsters/arulir_8.md) | When it hits you | 1 | 4 rounds | 30% | Arulircave 6 |
+| [Giant arulir](../monsters/arulir_2.md) | When it hits you | 1 | 3 rounds | 20% | Arulirmountain 1, Arulirmountain 2, Mountainlake 5 |
+| [Giant Cave Arulir](../monsters/arulir_4.md) | When it hits you | 1 | 4 rounds | 26% | Arulircave 1, Arulircave 2, Arulircave 3 |
+| [Giant Golden Arulir](../monsters/arulir_6.md) | When it hits you | 1 | 4 rounds | 30% | Arulircave 4, Arulircave 5, Arulircave 6 |
+| [Giant ogre](../monsters/ratdom_troll_9.md) | When it hits you | 1 | 5 rounds | 5% | Ratdom maze 517a |
+| [Golden Arulir](../monsters/arulir_5.md) | When it hits you | 1 | 4 rounds | 30% | Arulircave 4, Arulircave 5, Arulircave 6 |
+| [Mad ogre](../monsters/ratdom_troll_4.md) | When it hits you | 1 | 3 rounds | 10% | Ratdom maze 517a |
 | [Ogre](../monsters/ratdom_uglybrute.md) | When it hits you | 1 | 4 rounds | 10% | Gold hunter |
-| [Sleepy giant ogre](../monsters/mg2_troll.md) | When it hits you | 1 | 5 rounds | 5% | galmore_18 |
-| [Strong cave troll](../monsters/cave_troll_2.md) | When it hits you | 1 | 2 rounds | 15% | lakecave0, lakecave2 |
+| [Sleepy giant ogre](../monsters/mg2_troll.md) | When it hits you | 1 | 5 rounds | 5% | Galmore 18 |
+| [Strong cave troll](../monsters/cave_troll_2.md) | When it hits you | 1 | 2 rounds | 15% | Lakecave 0, Lakecave 2 |
 | [Strong maonit brute](../monsters/maonit_6.md) | When it hits you | 1 | 3 rounds | 10% | Lake Laeroth |
-| [Tough cave troll](../monsters/cave_troll_3.md) | When it hits you | 1 | 2 rounds | 15% | lakecave0, lakecave2 |
+| [Tough cave troll](../monsters/cave_troll_3.md) | When it hits you | 1 | 2 rounds | 15% | Lakecave 0, Lakecave 2 |
 | [Tough maonit brute](../monsters/maonit_5.md) | When it hits you | 1 | 3 rounds | 10% | Lake Laeroth |
-| [Weak ogre](../monsters/ratdom_troll_2.md) | When it hits you | 1 | 2 rounds | 10% | ratdom_maze_517a |
-| [Young ogre](../monsters/ratdom_troll_1.md) | When it hits you | 1 | 2 rounds | 5% | ratdom_maze_517a |
+| [Weak ogre](../monsters/ratdom_troll_2.md) | When it hits you | 1 | 2 rounds | 10% | Ratdom maze 517a |
+| [Young ogre](../monsters/ratdom_troll_1.md) | When it hits you | 1 | 2 rounds | 5% | Ratdom maze 517a |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [guynmart](../maps/guynmart.md) | [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-71) | 3 rounds |
-| stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-2) | 3 rounds |
-| stepping on a trigger on [lookout_lower](../maps/lookout_lower.md) | – | 7 rounds |
-| walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-1) | 3 rounds |
+| stepping on a trigger on [Guynmart](../maps/guynmart.md) | [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-71) | 3 rounds |
+| stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) | [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-2) | 3 rounds |
+| stepping on a trigger on [Lookout lower](../maps/lookout_lower.md) | – | 7 rounds |
+| walking into a blocked passage on [Guynmart wood 16](../maps/guynmart_wood_16.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-1) | 3 rounds |
 
 ## Applied to enemies
 
@@ -98,20 +98,20 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Cave troll leader](../monsters/cave_troll_5.md) | On itself, when it hits you | 1 | 3 rounds | 25% | lakecave2 |
+| [Cave troll leader](../monsters/cave_troll_5.md) | On itself, when it hits you | 1 | 3 rounds | 25% | Lakecave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Restore stunned](../items/pot_stunned_restore.md) (when used).
 - **Removed by** [Potion of awareness](../items/pot_awareness.md) (when used).
 - **Removed by** [Potion of sound mind](../items/pot_sound_mind.md) (when used).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

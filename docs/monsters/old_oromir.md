@@ -4,7 +4,7 @@ description: "Old Oromir is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } Old Oromir
 
-**Where to find Old Oromir:** Crossglen: [crossglen_farmhouse](../maps/crossglen_farmhouse.md#pin-npc-old_oromir)
+**Where to find Old Oromir:** Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md#pin-npc-old_oromir)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Old Oromir is a non-player character (NPC) in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old Oromir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old Oromir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/old_oromir_initial_phrase.json" data-npc="Old Oromir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-old_oromir_initial_phrase"></span>**`old_oromir_initial_phrase`** Old Oromir: “[Calm, almost welcoming.] Ah, there you are. You've come back to see us, then.”
 
@@ -47,7 +47,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-old_oromir_questions_10"></span>**`old_oromir_questions_10`** [Old Oromir](../monsters/old_oromir.md): “[With a gentle smile.] Of course. Ask what you will. We owe you that much.”
 
     - “Why were you affected too? Leta was the one possessed by the spirit, not you.” → [old_oromir_questions_bond_10n](#d-old_oromir_questions_bond_10n)
-    - “In your basement, I talked to a man, a farmer-looking man that is. I suspect that he is your child. But he is…” *(if reached stage 3 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-3))* → [old_oromir_questions_child_10n](#d-old_oromir_questions_child_10n)
+    - “In your basement, I talked to a man, a farmer-looking man that is. I suspect that he is your child. But he is…” *(if reached stage 3 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-3))* → [old_oromir_questions_child_10n](#d-old_oromir_questions_child_10n)
 
     <span id="d-old_oromir_leta_responds_10"></span>**`old_oromir_leta_responds_10`** [Old Leta](../monsters/old_leta.md): “[frail, but smiling warmly] Don't mind him, dear. He's always been dramatic. I may not remember everything, but I know this much--I finally feel at peace.”
 

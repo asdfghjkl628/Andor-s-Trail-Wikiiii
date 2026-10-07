@@ -1,10 +1,10 @@
 ---
-description: "Seire is a non-player character (NPC) in Andor's Trail, found in brightportwild10."
+description: "Seire is a non-player character (NPC) in Andor's Trail, found in Brightportwild 10."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } Seire
 
-**Where to find Seire:** [brightportwild10](../maps/brightportwild10.md#pin-npc-brightport_blockernpc)
+**Where to find Seire:** [Brightportwild 10](../maps/brightportwild10.md#pin-npc-brightport_blockernpc)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Seire is a non-player character (NPC) in Andor's Trail, found in b
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brightportwild10 |
+| **Found in** | Brightportwild 10 |
 | **Entry ID** | `brightport_blockernpc` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
@@ -21,7 +21,7 @@ description: "Seire is a non-player character (NPC) in Andor's Trail, found in b
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Seire. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Seire. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_blocker1.json" data-npc="Seire" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_blocker1"></span>**`brightport_blocker1`** Seire: “Those creatures are lurking everywhere, I better keep my behind in the tavern or I'm finished!!”
 

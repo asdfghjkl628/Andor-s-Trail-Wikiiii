@@ -4,7 +4,7 @@ description: "Ingus is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Ingus
 
-**Where to find Ingus:** Remgard: [remgard0](../maps/remgard0.md#pin-npc-ingus)
+**Where to find Ingus:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-ingus)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Ingus is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ingus. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ingus. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ingus.json" data-npc="Ingus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ingus"></span>**`ingus`** *(silent check: the first matching branch below is taken)*
 
@@ -137,7 +137,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” → “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…”<br>· text: “Oh .. nothing .. everything. I don't know. No one really puts much we…” → “Oh ... nothing ... everything. I don't know. No one really puts much …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Unfortunately, for whatever reason, people that live in their neighbo…” → “Unfortunately, for whatever reason, people that live in their neighbo…”<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

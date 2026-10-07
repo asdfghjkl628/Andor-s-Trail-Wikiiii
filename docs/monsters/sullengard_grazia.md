@@ -1,5 +1,5 @@
 ---
-description: "Grazia is a non-player character (NPC) in Andor's Trail, found in Sullengard, way_to_sullengard_east4_bridge."
+description: "Grazia is a non-player character (NPC) in Andor's Trail, found in Sullengard, Way to sullengard east 4 bridge."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_168.png){ .sprite } Grazia
@@ -11,29 +11,29 @@ description: "Grazia is a non-player character (NPC) in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Sullengard, way_to_sullengard_east4_bridge |
+| **Found in** | Sullengard, Way to sullengard east 4 bridge |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Grazia. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Grazia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`sullengard_grazia`](#v-sullengard_grazia) | NPC | Sullengard: [sullengard2_northwest_house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia) | – |
-| [`sull_ravine_grazia`](#v-sull_ravine_grazia) | NPC | [way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia) | – |
+| [`sullengard_grazia`](#v-sullengard_grazia) | NPC | Sullengard: [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia) | – |
+| [`sull_ravine_grazia`](#v-sull_ravine_grazia) | NPC | [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia) | – |
 
-## Sullengard, Sullengard2 northwest house (sullengard_grazia) { #v-sullengard_grazia }
+## Sullengard, Sullengard 2 northwest house (sullengard_grazia) { #v-sullengard_grazia }
 
 **Entry ID:** `sullengard_grazia` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard2_northwest_house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia)
+**Location:** Sullengard: [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Grazia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Grazia. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_grazia_0.json" data-npc="Grazia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_grazia-sullengard_grazia_0"></span>**`sullengard_grazia_0`** Grazia: “Thank you again for helping me cross that scary bridge.”
 
@@ -86,19 +86,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Way to sullengard east4 bridge (sull_ravine_grazia) { #v-sull_ravine_grazia }
+## Way to sullengard east 4 bridge (sull_ravine_grazia) { #v-sull_ravine_grazia }
 
 **Entry ID:** `sull_ravine_grazia` · **Type:** NPC
 
-**Location:** [way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia)
+**Location:** [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia)
 
 ### Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 17, 18
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stages 17, 18
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Grazia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Grazia. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sull_ravine_grazia_0.json" data-npc="Grazia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -106,15 +106,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sull_ravine_grazia-sull_ravine_grazia_0"></span>**`sull_ravine_grazia_0`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 18 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-18))* → *conversation ends*
-    - Next *(if reached stage 29 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-29))* → [sull_ravine_grazia_60](#d-sull_ravine_grazia-sull_ravine_grazia_60)
+    - Next *(if reached stage 18 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-18))* → *conversation ends*
+    - Next *(if reached stage 29 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-29))* → [sull_ravine_grazia_60](#d-sull_ravine_grazia-sull_ravine_grazia_60)
     - Next → [sull_ravine_grazia_1](#d-sull_ravine_grazia-sull_ravine_grazia_1)
 
-    <span id="d-sull_ravine_grazia-sull_ravine_grazia_60"></span>**`sull_ravine_grazia_60`** [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia): “Thank you so much. I can now continue onto my destination.” — **effects:** sets stage 18 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-18), removes monsters from way_to_sullengard_east4, spawns monsters on sullengard2_northwest_house
+    <span id="d-sull_ravine_grazia-sull_ravine_grazia_60"></span>**`sull_ravine_grazia_60`** [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia): “Thank you so much. I can now continue onto my destination.” — **effects:** sets stage 18 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-18), removes monsters from way_to_sullengard_east4, spawns monsters on sullengard2_northwest_house
 
     - “Where were you coming from anyway?” → [sull_ravine_grazia_70](#d-sull_ravine_grazia-sull_ravine_grazia_70)
 
@@ -124,19 +124,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-sull_ravine_grazia-sull_ravine_grazia_70"></span>**`sull_ravine_grazia_70`** Grazia: “I have been traveling from Nor City to Sullengard to visit my aunt and uncle and to help them prepare for the Sullengard beer festival next month. I hope to see you soon.”
 
-    - “Yeah, about seeing you soon. Where is Sullengard?” *(if NOT reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [sull_ravine_grazia_80](#d-sull_ravine_grazia-sull_ravine_grazia_80)
-    - “I'm looking forward to it.” *(if reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [sull_ravine_grazia_90](#d-sull_ravine_grazia-sull_ravine_grazia_90)
+    - “Yeah, about seeing you soon. Where is Sullengard?” *(if NOT reached stage 19 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [sull_ravine_grazia_80](#d-sull_ravine_grazia-sull_ravine_grazia_80)
+    - “I'm looking forward to it.” *(if reached stage 19 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [sull_ravine_grazia_90](#d-sull_ravine_grazia-sull_ravine_grazia_90)
 
     <span id="d-sull_ravine_grazia-sull_ravine_grazia_10"></span>**`sull_ravine_grazia_10`** Grazia: “I tried to do what Hadena said, but I just can't do it.”
 
     - “Do what?!” → [sull_ravine_grazia_20](#d-sull_ravine_grazia-sull_ravine_grazia_20)
-    - “Who is Hadena?” *(if NOT reached stage 16 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-16))* → [sull_ravine_grazia_15](#d-sull_ravine_grazia-sull_ravine_grazia_15)
+    - “Who is Hadena?” *(if NOT reached stage 16 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-16))* → [sull_ravine_grazia_15](#d-sull_ravine_grazia-sull_ravine_grazia_15)
 
     <span id="d-sull_ravine_grazia-sull_ravine_grazia_80"></span>**`sull_ravine_grazia_80`** Grazia: “Oh, you've never been there? It is southwest of here.”
 
     - Next → [sull_ravine_grazia_90](#d-sull_ravine_grazia-sull_ravine_grazia_90)
 
-    <span id="d-sull_ravine_grazia-sull_ravine_grazia_90"></span>**`sull_ravine_grazia_90`** Grazia: “I have to go now. See you there.” — **effects:** sets stage 18 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-18), removes monsters from way_to_sullengard_east4_bridge, spawns monsters on sullengard2_northwest_house
+    <span id="d-sull_ravine_grazia-sull_ravine_grazia_90"></span>**`sull_ravine_grazia_90`** Grazia: “I have to go now. See you there.” — **effects:** sets stage 18 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-18), removes monsters from way_to_sullengard_east4_bridge, spawns monsters on sullengard2_northwest_house
 
 
     <span id="d-sull_ravine_grazia-sull_ravine_grazia_20"></span>**`sull_ravine_grazia_20`** Grazia: “To cross the bridge of course.”
@@ -155,7 +155,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I will go first and you can follow close behind. Sound OK with you?” → [sull_ravine_grazia_50](#d-sull_ravine_grazia-sull_ravine_grazia_50)
 
-    <span id="d-sull_ravine_grazia-sull_ravine_grazia_50"></span>**`sull_ravine_grazia_50`** Grazia: “Yes. Thank you.” — **effects:** sets stage 17 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-17)
+    <span id="d-sull_ravine_grazia-sull_ravine_grazia_50"></span>**`sull_ravine_grazia_50`** Grazia: “Yes. Thank you.” — **effects:** sets stage 17 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-17)
 
     - “No problem. Let's go now.” → *conversation ends*
 

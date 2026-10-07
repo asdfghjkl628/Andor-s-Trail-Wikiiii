@@ -42,7 +42,7 @@ description: "Agent's cloak is a rare armor, cloth in Andor's Trail (Max HP +8, 
 
 ### Quest & dialogue rewards
 
-- From [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([brightport_bakery](../maps/brightport_bakery.md)) during [Boxed in](../quests/brightport_thieves.md#stage-60) (1×)
+- From [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([Brightport bakery](../maps/brightport_bakery.md)) during [Boxed in](../quests/brightport_thieves.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

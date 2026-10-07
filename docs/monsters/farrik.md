@@ -4,7 +4,7 @@ description: "Farrik is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Farrik
 
-**Where to find Farrik:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-farrik), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-farrik)
+**Where to find Farrik:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-farrik), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-farrik)
 
 <div class="infobox" markdown>
 
@@ -24,8 +24,8 @@ description: "Farrik is a non-player character (NPC) in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
 
 ## Quests
 
@@ -34,7 +34,7 @@ description: "Farrik is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farrik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farrik. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/farrik_select_1.json" data-npc="Farrik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (39 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-farrik_select_1"></span>**`farrik_select_1`** *(silent check: the first matching branch below is taken)*
 
@@ -116,7 +116,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-farrik_beer_town_10"></span>**`farrik_beer_town_10`** Farrik: “It is Sullengard, of course.” — **effects:** sets stage 50 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-50)
 
-    - “Sullengard? I've never been there. Where is it located?” *(if NOT reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [farrik_beer_sull_unknown](#d-farrik_beer_sull_unknown)
+    - “Sullengard? I've never been there. Where is it located?” *(if NOT reached stage 19 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [farrik_beer_sull_unknown](#d-farrik_beer_sull_unknown)
     - “Oh Sullengard? I know where that is...[I think]” → *conversation ends*
     - “Thank you.” → *conversation ends*
 

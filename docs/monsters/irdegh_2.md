@@ -1,10 +1,10 @@
 ---
-description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP, worth 292 XP, found in waytomountaincave0, waytomountaincave1, waytomountaincave2. Drops: Meat, Poison gland, Irdegh poison gland."
+description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP, worth 292 XP, found in Waytomountaincave 0, Waytomountaincave 1, Waytomountaincave 2. Drops: Meat, Poison gland, Irdegh poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_15.png){ .sprite } Venomous irdegh
 
-**Found in:** [waytomountaincave0](../maps/waytomountaincave0.md), [waytomountaincave1](../maps/waytomountaincave1.md), [waytomountaincave2](../maps/waytomountaincave2.md)
+**Found in:** [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md), [Waytomountaincave 2](../maps/waytomountaincave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytomountaincave0, waytomountaincave1, waytomountaincave2 |
+| **Found in** | Waytomountaincave 0, Waytomountaincave 1, Waytomountaincave 2 |
 | **Class** | Reptile |
 | **HP** | 120 |
 | **XP when defeated** | 292 |
@@ -58,9 +58,9 @@ description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytomountaincave0](../maps/waytomountaincave0.md) | – | 3 | – |
-| [waytomountaincave1](../maps/waytomountaincave1.md) | – | 2 | – |
-| [waytomountaincave2](../maps/waytomountaincave2.md) | – | 2 | – |
+| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 3 | – |
+| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 2 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 2 | – |
 
 
 ## Version history

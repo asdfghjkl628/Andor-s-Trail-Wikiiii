@@ -11,9 +11,9 @@ description: "Sweet sweet rat poison is a quest in Andor's Trail, started by Two
 | **Quest ID** | `lowyna` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 40) |
-| **Started by** | [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) |
+| **Started by** | [Two-teeth](../monsters/twoteeth.md) ([Woodhouse 1](../maps/woodhouse1.md)) |
 | **NPCs involved** | [Lowyna](../monsters/lowyna.md), [Two-teeth](../monsters/twoteeth.md) |
-| **Locations** | [woodhouse1](../maps/woodhouse1.md), [woodhouse2](../maps/woodhouse2.md) |
+| **Locations** | [Woodhouse 1](../maps/woodhouse1.md), [Woodhouse 2](../maps/woodhouse2.md) |
 | **Total XP** | 500 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Sweet sweet rat poison is a quest in Andor's Trail, started by Two
 
 ## Prerequisites to start
 
-Start with [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)). Required:
+Start with [Two-teeth](../monsters/twoteeth.md) ([Woodhouse 1](../maps/woodhouse1.md)). Required:
 
 - reached stage 10 of [Sweet sweet rat poison](../quests/lowyna.md#stage-10)
 
@@ -39,29 +39,53 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts. | [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) | – | – |
-| <span id="stage-20"></span>20 | Lowyna will now allow me to trade with her. | [Lowyna](../monsters/lowyna.md) ([woodhouse2](../maps/woodhouse2.md)) | stage 10 | – |
-| <span id="stage-40"></span>40 | I have given some rat poison to two-teeth. **(completes quest)** | [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) | hand over 1× [Lowyna's rat poison](../items/drink_lowyn3.md) | 500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Among some huts to the west of the Duleian road, I met a man called… ▸</span><span class="l">▴ less</span></summary>Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts.</details> | [Two-teeth](../monsters/twoteeth.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Lowyna will now allow me to trade with her. | [Lowyna](../monsters/lowyna.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I have given some rat poison to two-teeth. **(ends quest)** | [Two-teeth](../monsters/twoteeth.md) | 500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) → choose “I'll go get some rat poison for you.” — **conditions:** reached stage 10 of [Sweet sweet rat poison](../quests/lowyna.md#stage-10) → **stage 10**. NPC: “Good. Tell her two-teeth sent you.”
+??? note "Stage 10 · Two-teeth · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Two-teeth](../monsters/twoteeth.md), choose “I'll go get some rat poison for you.”
 
-    1. Talk to [Lowyna](../monsters/lowyna.md) ([woodhouse2](../maps/woodhouse2.md)) → choose “Two-teeth sent me to get some rat poison.” — **conditions:** reached stage 10 of [Sweet sweet rat poison](../quests/lowyna.md#stage-10) → **stage 20**. NPC: “For his sake, I'll let you browse my wares.”
+    - **Needs:** stage 10
+    - *“Good. Tell her two-teeth sent you.”*
 
-???+ note "Stage 40: 1 route"
 
-    1. Talk to [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) → choose “Here, have some.” — **conditions:** reached stage 40 of [Sweet sweet rat poison](../quests/lowyna.md#stage-40); hand over 1× [Lowyna's rat poison](../items/drink_lowyn3.md) → **stage 40**. NPC: “Har har. Thank you. Give that here.”
+<span id="route-20"></span>
+
+??? note "Stage 20 · Lowyna · 1 way"
+
+    **Way 1:** Talk to [Lowyna](../monsters/lowyna.md), choose “Two-teeth sent me to get some rat poison.”
+
+    - **Needs:** stage 10
+    - *“For his sake, I'll let you browse my wares.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Two-teeth · 1 way"
+
+    **Way 1:** Talk to [Two-teeth](../monsters/twoteeth.md), choose “Here, have some.”
+
+    - **Needs:** stage 40; hand over 1× [Lowyna's rat poison](../items/drink_lowyn3.md)
+    - *“Har har. Thank you. Give that here.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

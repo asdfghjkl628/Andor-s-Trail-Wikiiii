@@ -4,7 +4,7 @@ description: "Pernicious cave snake is an enemy in Andor's Trail (reptile) with 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite } Pernicious cave snake
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_524](../maps/ratdom_maze_524.md), Bloskelt + Roskelt: [ratdom_maze_546](../maps/ratdom_maze_546.md), Entry: [ratdom_maze_656](../maps/ratdom_maze_656.md), Gold hunter: [ratdom_maze_535](../maps/ratdom_maze_535.md) (+4 more)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 524](../maps/ratdom_maze_524.md), Bloskelt + Roskelt: [Ratdom maze 546](../maps/ratdom_maze_546.md), Entry: [Ratdom maze 656](../maps/ratdom_maze_656.md), Gold hunter: [Ratdom maze 535](../maps/ratdom_maze_535.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Pernicious cave snake is an enemy in Andor's Trail (reptile) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_524](../maps/ratdom_maze_524.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_535](../maps/ratdom_maze_535.md) | Gold hunter | 2 | – |
-| [ratdom_maze_535a](../maps/ratdom_maze_535a.md) | Gold hunter | 2 | – |
-| [ratdom_maze_545](../maps/ratdom_maze_545.md) | Gold hunter | 2 | – |
-| [ratdom_maze_546](../maps/ratdom_maze_546.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_555](../maps/ratdom_maze_555.md) | Instrument maker | 2 | – |
-| [ratdom_maze_565](../maps/ratdom_maze_565.md) | – | 2 | – |
-| [ratdom_maze_656](../maps/ratdom_maze_656.md) | Entry | 2 | – |
+| [Ratdom maze 524](../maps/ratdom_maze_524.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 535](../maps/ratdom_maze_535.md) | Gold hunter | 2 | – |
+| [Ratdom maze 535a](../maps/ratdom_maze_535a.md) | Gold hunter | 2 | – |
+| [Ratdom maze 545](../maps/ratdom_maze_545.md) | Gold hunter | 2 | – |
+| [Ratdom maze 546](../maps/ratdom_maze_546.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 555](../maps/ratdom_maze_555.md) | Instrument maker | 2 | – |
+| [Ratdom maze 565](../maps/ratdom_maze_565.md) | – | 2 | – |
+| [Ratdom maze 656](../maps/ratdom_maze_656.md) | Entry | 2 | – |
 
 
 ## Version history

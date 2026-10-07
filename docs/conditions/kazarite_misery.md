@@ -30,9 +30,9 @@ description: "Kazaul possession is a harmful spiritual condition in Andor's Trai
 | Damage resistance | +1 |
 | HP every round | −3 to −2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -52,19 +52,19 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Anoa](../monsters/anoa.md) | When you hit it | 3 | 2 rounds | 50% | undertell_3_02 |
-| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | When you hit it | 1 | 2 rounds | 5% | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | When you hit it | 1 | 2 rounds | 10% | undertell_4_01, undertell_5 |
+| [Anoa](../monsters/anoa.md) | When you hit it | 3 | 2 rounds | 50% | Undertell 3 02 |
+| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | When you hit it | 1 | 2 rounds | 5% | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | When you hit it | 1 | 2 rounds | 10% | Undertell 4 01, Undertell 5 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** spiritual conditions are not reduced by any of the three resistance skills.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **Removed by** stepping on a trigger on [undertell_archive2](../maps/undertell_archive2.md) during [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-78).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier; permanent applications (from equipment or story events) are not removed by resting.
+- **Resistance:** none; spiritual conditions ignore resistance skills.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **Removed by** stepping on a trigger on [Undertell archive 2](../maps/undertell_archive2.md) during [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-78).
+- **Duration and rest:** timed ones wear off, or rest them away; permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

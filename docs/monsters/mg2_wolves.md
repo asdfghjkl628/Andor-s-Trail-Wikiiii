@@ -4,7 +4,7 @@ description: "Galmore wolf is an NPC who can also be fought in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Galmore wolf
 
-**Where to find Galmore wolf:** Mt. Galmore: [galmore_54](../maps/galmore_54.md#pin-npc-mg2_wolves), Mt. Galmore: [galmore_55](../maps/galmore_55.md#pin-npc-mg2_wolves), Mt. Galmore: [galmore_64](../maps/galmore_64.md#pin-npc-mg2_wolves)
+**Where to find Galmore wolf:** Mt. Galmore: [Galmore 54](../maps/galmore_54.md#pin-npc-mg2_wolves), Mt. Galmore: [Galmore 55](../maps/galmore_55.md#pin-npc-mg2_wolves), Mt. Galmore: [Galmore 64](../maps/galmore_64.md#pin-npc-mg2_wolves)
 
 <div class="infobox" markdown>
 
@@ -58,18 +58,18 @@ description: "Galmore wolf is an NPC who can also be fought in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 12 | – |
-| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 1 | – |
-| [galmore_64](../maps/galmore_64.md) | Mt. Galmore | 1 | – |
+| [Galmore 54](../maps/galmore_54.md) | Mt. Galmore | 12 | – |
+| [Galmore 55](../maps/galmore_55.md) | Mt. Galmore | 1 | – |
+| [Galmore 64](../maps/galmore_64.md) | Mt. Galmore | 1 | – |
 
 ## Quests
 
 - [Unusual experiences and achievements](../quests/achievements.md): stage 200
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 70
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 70
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Galmore wolf. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Galmore wolf. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_wolves.json" data-npc="Galmore wolf" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mg2_wolves"></span>**`mg2_wolves`** *(silent check: the first matching branch below is taken)*
 
@@ -97,8 +97,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-mg2_wolves_10"></span>**`mg2_wolves_10`** Galmore wolf: “You may go thrrrough herrre. No tarrrrying.” — **effects:** sets stage 200 of [Unusual experiences and achievements](../quests/achievements.md#stage-200)
 
     - “Agrrreed.” → *conversation ends*
-    - “I am hungrrry.” *(if NOT reached stage 70 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-70))* → [mg2_wolves_20](#d-mg2_wolves_20)
-    - “I am hungrrry.” *(if reached stage 70 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-70))* → [mg2_wolves_30](#d-mg2_wolves_30)
+    - “I am hungrrry.” *(if NOT reached stage 70 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-70))* → [mg2_wolves_20](#d-mg2_wolves_20)
+    - “I am hungrrry.” *(if reached stage 70 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-70))* → [mg2_wolves_30](#d-mg2_wolves_30)
 
     <span id="d-mg2_wolves_20"></span>**`mg2_wolves_20`** Galmore wolf: “We can prrrovide you with good rrraw meat.”
 
@@ -110,7 +110,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Grrr.” → *conversation ends*
     - “That was looong ago. Long forrrgotten.” *(if 100 rounds passed since timer “mg2_wolves”)* → [mg2_wolves_40](#d-mg2_wolves_40)
 
-    <span id="d-mg2_wolves_22"></span>**`mg2_wolves_22`** Galmore wolf: “Much grrreat meat. Twenty fourrr bites.” — **effects:** sets stage 70 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-70), gives 24× [Meat](../items/meat.md), starts timer “mg2_wolves”
+    <span id="d-mg2_wolves_22"></span>**`mg2_wolves_22`** Galmore wolf: “Much grrreat meat. Twenty fourrr bites.” — **effects:** sets stage 70 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-70), gives 24× [Meat](../items/meat.md), starts timer “mg2_wolves”
 
     - “Tha... I mean grrr.” → *conversation ends*
 

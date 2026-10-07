@@ -54,7 +54,7 @@ description: "Crossglen hall is an indoor location in Andor's Trail, in Crossgle
 ## Quests
 
 - [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd1.md) is involved; [Knight of Elythom](../monsters/burhczyd1e.md) is involved
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md) is involved; [Knight of Elythom](../monsters/burhczyd1e.md) is involved
+- [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md) is involved; [Knight of Elythom](../monsters/burhczyd1e.md) is involved
 
 ## Points of interest
 

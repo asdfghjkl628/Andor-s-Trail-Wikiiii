@@ -40,7 +40,7 @@ description: "Crude iron shield is a ordinary shield, metal (heavy) in Andor's T
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graveyard corpse](../monsters/graveyard_corpse.md) | 5% | 1 | graveyard1 |
+| [Graveyard corpse](../monsters/graveyard_corpse.md) | 5% | 1 | Graveyard 1 |
 
 ### Sold by
 

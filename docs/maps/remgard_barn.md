@@ -1,5 +1,5 @@
 ---
-description: "Remgard barn is an indoor location in Andor's Trail, in Remgard (settlement). NPCs: Perlynn. Exits to Remgard3."
+description: "Remgard barn is an indoor location in Andor's Trail, in Remgard (settlement). NPCs: Perlynn. Exits to Remgard 3."
 ---
 
 # Remgard barn
@@ -18,19 +18,19 @@ description: "Remgard barn is an indoor location in Andor's Trail, in Remgard (s
 
 </div>
 
-**Remgard barn** is an indoor map, in Remgard (settlement). It has 1 NPC, and no enemies. Exits lead to Remgard3.
+**Remgard barn** is an indoor map, in Remgard (settlement). It has 1 NPC, and no enemies. Exits lead to Remgard 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/remgard_barn.webp" alt="Map of Remgard barn" width="384" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../remgard3/#place-remgard_barn" title="Exit to Remgard3" style="left:58.333%;top:87.500%;width:16.667%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Perlynn" style="left:8.333%;top:37.500%;width:83.333%;height:37.500%"></span><a class="mob" href="../../monsters/perlynn/" title="Perlynn" style="left:41.667%;top:62.500%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_mage2_0.png" alt="Perlynn"></a><a class="pin pin-exit" href="#key-1" style="left:66.667%;top:93.750%" title="Exit (south): to [Remgard3](remgard3.md)">1</a><a id="pin-npc-perlynn" class="pin pin-npc" href="#key-2" style="left:45.833%;top:68.750%" title="[Perlynn](../../monsters/perlynn.md): NPC">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/remgard_barn.webp" alt="Map of Remgard barn" width="384" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../remgard3/#place-remgard_barn" title="Exit to Remgard 3" style="left:58.333%;top:87.500%;width:16.667%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Perlynn" style="left:8.333%;top:37.500%;width:83.333%;height:37.500%"></span><a class="mob" href="../../monsters/perlynn/" title="Perlynn" style="left:41.667%;top:62.500%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_mage2_0.png" alt="Perlynn"></a><a class="pin pin-exit" href="#key-1" style="left:66.667%;top:93.750%" title="Exit (south): to [Remgard 3](remgard3.md)">1</a><a id="pin-npc-perlynn" class="pin pin-npc" href="#key-2" style="left:45.833%;top:68.750%" title="[Perlynn](../../monsters/perlynn.md): NPC">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Remgard3](remgard3.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Remgard 3](remgard3.md) |
     | <span id="key-2"></span>2 | [Perlynn](../monsters/perlynn.md) | NPC |
 
 
@@ -40,7 +40,7 @@ description: "Remgard barn is an indoor location in Andor's Trail, in Remgard (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Remgard3](remgard3.md) | Remgard | 1 |
+| South | [Remgard 3](remgard3.md) | Remgard | 1 |
 
 ## NPCs
 

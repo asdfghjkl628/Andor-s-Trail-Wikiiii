@@ -1,5 +1,5 @@
 ---
-description: "Falothen is a non-player character (NPC) in Andor's Trail, found in Charwood, tradehouse0a. Teaches One-handed sword proficiency, Two-handed sword proficiency, Axe proficiency, Blunt weapon proficiency, Dagger proficiency, Pole weapon proficiency, Unarmed fighting."
+description: "Falothen is a non-player character (NPC) in Andor's Trail, found in Charwood, Tradehouse 0a. Teaches One-handed sword proficiency, Two-handed sword proficiency, Axe proficiency, Blunt weapon proficiency, Dagger proficiency, Pole weapon proficiency, Unarmed fighting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } Falothen
@@ -12,25 +12,25 @@ description: "Falothen is a non-player character (NPC) in Andor's Trail, found i
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) |
-| **Found in** | Charwood, tradehouse0a |
+| **Found in** | Charwood, Tradehouse 0a |
 | **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Falothen. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Falothen. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`falothen0`](#v-falothen0) | NPC | Charwood: [minerhouse0](../maps/minerhouse0.md#pin-npc-falothen0) | – |
-| [`falothen1`](#v-falothen1) | NPC | [tradehouse0a](../maps/tradehouse0a.md#pin-npc-falothen1) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) |
+| [`falothen0`](#v-falothen0) | NPC | Charwood: [Minerhouse 0](../maps/minerhouse0.md#pin-npc-falothen0) | – |
+| [`falothen1`](#v-falothen1) | NPC | [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-falothen1) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) |
 
-## Charwood, Minerhouse0 (falothen0) { #v-falothen0 }
+## Charwood, Minerhouse 0 (falothen0) { #v-falothen0 }
 
 **Entry ID:** `falothen0` · **Type:** NPC
 
-**Location:** Charwood: [minerhouse0](../maps/minerhouse0.md#pin-npc-falothen0)
+**Location:** Charwood: [Minerhouse 0](../maps/minerhouse0.md#pin-npc-falothen0)
 
 ### Quests
 
@@ -38,7 +38,7 @@ description: "Falothen is a non-player character (NPC) in Andor's Trail, found i
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Falothen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Falothen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/falothen0.json" data-npc="Falothen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-falothen0-falothen0"></span>**`falothen0`** Falothen: “You there, thank the Shadow you're here! Quickly, untie these ropes!”
 
@@ -99,11 +99,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Tradehouse0a (falothen1) { #v-falothen1 }
+## Tradehouse 0a (falothen1) { #v-falothen1 }
 
 **Entry ID:** `falothen1` · **Type:** NPC · **Role:** Teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md)
 
-**Location:** [tradehouse0a](../maps/tradehouse0a.md#pin-npc-falothen1)
+**Location:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-falothen1)
 
 ### Quests
 
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Falothen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Falothen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/falothen1.json" data-npc="Falothen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -119,7 +119,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (72 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-falothen1-falothen1"></span>**`falothen1`** *(silent check: the first matching branch below is taken)*
 
@@ -464,7 +464,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…”<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…”<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 7 lines added, 4 lines changed<br>· text: “I can teach you about swords, either one-handed or two-handed ones. I…” → “I can teach you about swords, either one-handed or two-handed ones. I…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We usually don't teach anyone outside our settlement. Last time I did…” → “We usually don't teach anyone outside our settlement. Last time I did…” |
 

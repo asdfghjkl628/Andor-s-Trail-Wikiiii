@@ -21,18 +21,18 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Nightmare. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Nightmare. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`guynmart_mare`](#v-guynmart_mare) | Enemy | Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md) | – | 120 |
-| [`guynmart_mare0`](#v-guynmart_mare0) | Enemy | Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md) | – | 1 |
+| [`guynmart_mare`](#v-guynmart_mare) | Enemy | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | 120 |
+| [`guynmart_mare0`](#v-guynmart_mare0) | Enemy | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | 1 |
 
 ## Guynmart Castle, Guynmart tower 0 (guynmart_mare) { #v-guynmart_mare }
 
 **Entry ID:** `guynmart_mare` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md)
+**Location:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md)
 
 ### Combat statistics
 
@@ -60,7 +60,7 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_tower_0](../maps/guynmart_tower_0.md) | Guynmart Castle | 2 | Appears later, during a quest |
+| [Guynmart tower 0](../maps/guynmart_tower_0.md) | Guynmart Castle | 2 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -117,7 +117,7 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 
 **Entry ID:** `guynmart_mare0` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md)
+**Location:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md)
 
 ### Combat statistics
 
@@ -145,7 +145,7 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_tower_0](../maps/guynmart_tower_0.md) | Guynmart Castle | 1 | – |
+| [Guynmart tower 0](../maps/guynmart_tower_0.md) | Guynmart Castle | 1 | – |
 
 
 ### Version history

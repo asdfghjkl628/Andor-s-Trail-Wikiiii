@@ -22,12 +22,12 @@ description: "Tharal is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Tharal. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Tharal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`tharal`](#v-tharal) | NPC | Not on a map | shopkeeper; starts [Taste is everything](../quests/antifoodp.md) | – |
-| [`ratdom_tharal`](#v-ratdom_tharal) | Enemy | Crossglen: [crossglen](../maps/crossglen.md) | – | 160 |
+| [`ratdom_tharal`](#v-ratdom_tharal) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md) | – | 160 |
 
 ## Not placed on a map (tharal) { #v-tharal }
 
@@ -58,7 +58,7 @@ description: "Tharal is an NPC who can also be fought in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tharal. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tharal. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tharal1.json" data-npc="Tharal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -66,7 +66,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tharal-tharal1"></span>**`tharal1`** Tharal: “Walk in the glow of the Shadow, my child.”
 
@@ -164,7 +164,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_tharal` · **Type:** Enemy
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md)
 
 ### Combat statistics
 
@@ -198,13 +198,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [More rats!](../quests/ratdom_mikhail.md#stage-32) with stepping on a trigger on [crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
-- [More rats!](../quests/ratdom_mikhail.md#stage-52) with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) checks that this enemy has been defeated.
-- [More rats!](../quests/ratdom_mikhail.md#stage-54) with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-32) with stepping on a trigger on [Crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-52) with [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-54) with [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) checks that this enemy has been defeated.
 
 
 ### Version history

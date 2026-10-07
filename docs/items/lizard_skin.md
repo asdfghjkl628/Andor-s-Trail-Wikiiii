@@ -37,7 +37,7 @@ description: "Lizard skin is a ordinary animal part in Andor's Trail. How to get
 | [Green-fang-tylmio](../monsters/brightport_lizard4.md) | 100% | 1 | Greenscale tribe |
 | [Three-head-arminio](../monsters/brightport_lizard1.md) | 100% | 1 | Greenscale tribe |
 | [Island lizard](../monsters/island_lizard.md) | 30% | 1 | Lake Laeroth |
-| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 30% | 1 | galmore_18, galmore_28, galmore_38 |
+| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 30% | 1 | Galmore 18, Galmore 28, Galmore 38 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

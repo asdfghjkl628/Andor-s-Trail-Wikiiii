@@ -1,10 +1,10 @@
 ---
-description: "Fungi is an enemy in Andor's Trail (animal) with 25 HP, worth 83 XP, found in bogsten2, bogsten3, bogsten4. Drops: Spores of the giant mushroom, Bogsten's mushroom."
+description: "Fungi is an enemy in Andor's Trail (animal) with 25 HP, worth 83 XP, found in Bogsten 2, Bogsten 3, Bogsten 4. Drops: Spores of the giant mushroom, Bogsten's mushroom."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_4.png){ .sprite } Fungi
 
-**Found in:** [bogsten2](../maps/bogsten2.md), [bogsten3](../maps/bogsten3.md), [bogsten4](../maps/bogsten4.md), [mushroom_m2_1](../maps/mushroom_m2_1.md) (+5 more)
+**Found in:** [Bogsten 2](../maps/bogsten2.md), [Bogsten 3](../maps/bogsten3.md), [Bogsten 4](../maps/bogsten4.md), [Mushroom m 2 1](../maps/mushroom_m2_1.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Fungi is an enemy in Andor's Trail (animal) with 25 HP, worth 83 X
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | bogsten2, bogsten3, bogsten4 |
+| **Found in** | Bogsten 2, Bogsten 3, Bogsten 4 |
 | **Class** | Animal |
 | **HP** | 25 |
 | **XP when defeated** | 83 |
@@ -57,15 +57,15 @@ description: "Fungi is an enemy in Andor's Trail (animal) with 25 HP, worth 83 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten2](../maps/bogsten2.md) | – | 5 | – |
-| [bogsten3](../maps/bogsten3.md) | – | 6 | – |
-| [bogsten4](../maps/bogsten4.md) | – | 7 | – |
-| [mushroom_m2_1](../maps/mushroom_m2_1.md) | – | 5 | – |
-| [mushroom_m2_2](../maps/mushroom_m2_2.md) | – | 2 | – |
-| [mushroom_m2_4](../maps/mushroom_m2_4.md) | – | 4 | – |
-| [mushroom_m2_5](../maps/mushroom_m2_5.md) | – | 2 | – |
-| [mushroom_m3_1](../maps/mushroom_m3_1.md) | – | 3 | – |
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 2 | – |
+| [Bogsten 2](../maps/bogsten2.md) | – | 5 | – |
+| [Bogsten 3](../maps/bogsten3.md) | – | 6 | – |
+| [Bogsten 4](../maps/bogsten4.md) | – | 7 | – |
+| [Mushroom m 2 1](../maps/mushroom_m2_1.md) | – | 5 | – |
+| [Mushroom m 2 2](../maps/mushroom_m2_2.md) | – | 2 | – |
+| [Mushroom m 2 4](../maps/mushroom_m2_4.md) | – | 4 | – |
+| [Mushroom m 2 5](../maps/mushroom_m2_5.md) | – | 2 | – |
+| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 3 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 2 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Young carrion beetle is an enemy in Andor's Trail (insect) with 45
 
 # ![](../assets/icons/monsters/monsters_rltiles2_63.png){ .sprite } Young carrion beetle
 
-**Found in:** Brightport: [brightport_escape_cave](../maps/brightport_escape_cave.md), Brightport: [brightport_smugglercave](../maps/brightport_smugglercave.md), [mountaincave0](../maps/mountaincave0.md), [mountaincave1](../maps/mountaincave1.md) (+2 more)
+**Found in:** Brightport: [Brightport escape cave](../maps/brightport_escape_cave.md), Brightport: [Brightport smugglercave](../maps/brightport_smugglercave.md), [Mountaincave 0](../maps/mountaincave0.md), [Mountaincave 1](../maps/mountaincave1.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -56,12 +56,12 @@ description: "Young carrion beetle is an enemy in Andor's Trail (insect) with 45
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_escape_cave](../maps/brightport_escape_cave.md) | Brightport | 1 | – |
-| [brightport_smugglercave](../maps/brightport_smugglercave.md) | Brightport | 3 | – |
-| [mountaincave0](../maps/mountaincave0.md) | – | 8 | – |
-| [mountaincave1](../maps/mountaincave1.md) | – | 4 | – |
-| [mountaincave2](../maps/mountaincave2.md) | – | 4 | – |
-| [mountaincave3](../maps/mountaincave3.md) | – | 1 | – |
+| [Brightport escape cave](../maps/brightport_escape_cave.md) | Brightport | 1 | – |
+| [Brightport smugglercave](../maps/brightport_smugglercave.md) | Brightport | 3 | – |
+| [Mountaincave 0](../maps/mountaincave0.md) | – | 8 | – |
+| [Mountaincave 1](../maps/mountaincave1.md) | – | 4 | – |
+| [Mountaincave 2](../maps/mountaincave2.md) | – | 4 | – |
+| [Mountaincave 3](../maps/mountaincave3.md) | – | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "??? is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP,
 
 # ![](../assets/icons/monsters/monsters_unknown_0.png){ .sprite } ???
 
-**Found in:** Crossroads Guardhouse: [crackshot_hideout1](../maps/crackshot_hideout1.md)
+**Found in:** Crossroads Guardhouse: [Crackshot hideout 1](../maps/crackshot_hideout1.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "??? is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 1 | – |
+| [Crackshot hideout 1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 1 | – |
 
 
 ## Version history

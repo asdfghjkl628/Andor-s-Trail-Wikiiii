@@ -4,7 +4,7 @@ description: "Branchtender is an enemy in Andor's Trail (humanoid) with 57 HP, w
 
 # ![](../assets/icons/monsters/monsters_ld2_153.png){ .sprite } Branchtender
 
-**Found in:** Loneford: [lodar2](../maps/lodar2.md), [lodar15](../maps/lodar15.md), [lodar17](../maps/lodar17.md), [lodar21](../maps/lodar21.md) (+1 more)
+**Found in:** Loneford: [Lodar 2](../maps/lodar2.md), [Lodar 15](../maps/lodar15.md), [Lodar 17](../maps/lodar17.md), [Lodar 21](../maps/lodar21.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Branchtender is an enemy in Andor's Trail (humanoid) with 57 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar15](../maps/lodar15.md) | – | 1 | – |
-| [lodar17](../maps/lodar17.md) | – | 1 | – |
-| [lodar2](../maps/lodar2.md) | Loneford | 1 | – |
-| [lodar21](../maps/lodar21.md) | – | 1 | – |
-| [lodar4](../maps/lodar4.md) | – | 1 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 1 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 1 | – |
+| [Lodar 2](../maps/lodar2.md) | Loneford | 1 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 1 | – |
+| [Lodar 4](../maps/lodar4.md) | – | 1 | – |
 
 
 ## Version history

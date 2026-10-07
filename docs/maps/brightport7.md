@@ -1,8 +1,8 @@
 ---
-description: "Brightport7 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Brightport guard. Exits to Brightport5, Brightport temple."
+description: "Brightport 7 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Brightport guard. Exits to Brightport 5, Brightport temple."
 ---
 
-# Brightport7
+# Brightport 7
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Brightport7 is an indoor location in Andor's Trail, in Brightport 
 | **Region** | In Brightport (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 30×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **NPCs** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightport7** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport5, Brightport temple.
+**Brightport 7** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport 5, Brightport temple.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport7.webp" alt="Map of Brightport7" width="960" height="480" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../brightport5/#place-south" title="Exit to Brightport5" style="left:16.667%;top:0.000%;width:3.333%;height:6.667%"></a><a id="place-church" class="mo mo-mapchange" href="../brightport_temple/#place-entrance" title="Exit to Brightport temple" style="left:40.000%;top:40.000%;width:6.667%;height:6.667%"></a><a id="place-north3" class="mo mo-mapchange" href="../brightport5/#place-south3" title="Exit to Brightport5" style="left:93.333%;top:0.000%;width:3.333%;height:6.667%"></a><a id="place-north1" class="mo mo-mapchange" href="../brightport5/#place-south1" title="Exit to Brightport5" style="left:80.000%;top:0.000%;width:3.333%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Brightport guard" style="left:46.667%;top:53.333%;width:10.000%;height:6.667%"></span><a class="mob" href="../../monsters/brightportguard/#v-brightportchapelguard" title="Brightport guard" style="left:50.000%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld1_95.png" alt="Brightport guard"></a><a class="pin pin-exit" href="#key-1" style="left:18.333%;top:3.333%" title="Exit (north): to [Brightport5](brightport5.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:81.667%;top:3.333%" title="Exit (north): to [Brightport5](brightport5.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:3.333%" title="Exit (northeast): to [Brightport5](brightport5.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:43.333%;top:43.333%" title="Exit (stairs / passage): to [Brightport temple](brightport_temple.md)">3</a><a id="pin-npc-brightportchapelguard" class="pin pin-npc" href="#key-4" style="left:51.667%;top:56.667%" title="[Brightport guard](../../monsters/brightportguard.md#v-brightportchapelguard): NPC">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport7.webp" alt="Map of Brightport 7" width="960" height="480" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../brightport5/#place-south" title="Exit to Brightport 5" style="left:16.667%;top:0.000%;width:3.333%;height:6.667%"></a><a id="place-church" class="mo mo-mapchange" href="../brightport_temple/#place-entrance" title="Exit to Brightport temple" style="left:40.000%;top:40.000%;width:6.667%;height:6.667%"></a><a id="place-north3" class="mo mo-mapchange" href="../brightport5/#place-south3" title="Exit to Brightport 5" style="left:93.333%;top:0.000%;width:3.333%;height:6.667%"></a><a id="place-north1" class="mo mo-mapchange" href="../brightport5/#place-south1" title="Exit to Brightport 5" style="left:80.000%;top:0.000%;width:3.333%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Brightport guard" style="left:46.667%;top:53.333%;width:10.000%;height:6.667%"></span><a class="mob" href="../../monsters/brightportguard/#v-brightportchapelguard" title="Brightport guard" style="left:50.000%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld1_95.png" alt="Brightport guard"></a><a class="pin pin-exit" href="#key-1" style="left:18.333%;top:3.333%" title="Exit (north): to [Brightport 5](brightport5.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:81.667%;top:3.333%" title="Exit (north): to [Brightport 5](brightport5.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:3.333%" title="Exit (northeast): to [Brightport 5](brightport5.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:43.333%;top:43.333%" title="Exit (stairs / passage): to [Brightport temple](brightport_temple.md)">3</a><a id="pin-npc-brightportchapelguard" class="pin pin-npc" href="#key-4" style="left:51.667%;top:56.667%" title="[Brightport guard](../../monsters/brightportguard.md#v-brightportchapelguard): NPC">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightport5](brightport5.md) |
-    | <span id="key-2"></span>2 | Exit (northeast) | to [Brightport5](brightport5.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightport 5](brightport5.md) |
+    | <span id="key-2"></span>2 | Exit (northeast) | to [Brightport 5](brightport5.md) |
     | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Brightport temple](brightport_temple.md) |
     | <span id="key-4"></span>4 | [Brightport guard](../monsters/brightportguard.md#v-brightportchapelguard) | NPC |
 
@@ -43,8 +43,8 @@ description: "Brightport7 is an indoor location in Andor's Trail, in Brightport 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightport5](brightport5.md) | Brightport | 1 |
-| Northeast | [Brightport5](brightport5.md) | Brightport | 2 |
+| North | [Brightport 5](brightport5.md) | Brightport | 1 |
+| Northeast | [Brightport 5](brightport5.md) | Brightport | 2 |
 | Stairs / passage | [Brightport temple](brightport_temple.md) | Brightport | 3 |
 
 ## NPCs

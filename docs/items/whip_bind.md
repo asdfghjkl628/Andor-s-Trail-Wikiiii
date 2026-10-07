@@ -53,7 +53,7 @@ description: "Whip of binding is a extraordinary whip in Andor's Trail (Attack d
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Revenant](../monsters/revenant.md) | 0.1% | 1 | waterwayacave2, waterwayacave3, waterwayacave4 |
+| [Revenant](../monsters/revenant.md) | 0.1% | 1 | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

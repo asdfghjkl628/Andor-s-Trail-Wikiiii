@@ -4,7 +4,7 @@ description: "Rabid hound is an enemy in Andor's Trail (animal) with 40 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } Rabid hound
 
-**Found in:** Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md), Brimhaven: [waytobrimhaven5](../maps/waytobrimhaven5.md), Brimhaven: [waytobrimhaven6](../maps/waytobrimhaven6.md), Crossroads Guardhouse: [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) (+11 more)
+**Found in:** Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md), Brimhaven: [Waytobrimhaven 5](../maps/waytobrimhaven5.md), Brimhaven: [Waytobrimhaven 6](../maps/waytobrimhaven6.md), Crossroads Guardhouse: [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) (+11 more)
 
 <div class="infobox" markdown>
 
@@ -56,21 +56,21 @@ description: "Rabid hound is an enemy in Andor's Trail (animal) with 40 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain1](../maps/blackwater_mountain1.md) | Stoutford | 2 | – |
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
-| [guynmart_wood_3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_9](../maps/guynmart_wood_9.md) | Guynmart Castle | 2 | – |
-| [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
-| [waterwayb1](../maps/waterwayb1.md) | Loneford | 2 | – |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 5 | – |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 3 | – |
-| [waytobrimhaven5](../maps/waytobrimhaven5.md) | Brimhaven | 3 | – |
-| [waytobrimhaven6](../maps/waytobrimhaven6.md) | Brimhaven | 5 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Blackwater mountain 1](../maps/blackwater_mountain1.md) | Stoutford | 2 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 12](../maps/guynmart_wood_12.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 9](../maps/guynmart_wood_9.md) | Guynmart Castle | 2 | – |
+| [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
+| [Waterwayb 1](../maps/waterwayb1.md) | Loneford | 2 | – |
+| [Waytobrimhaven 1](../maps/waytobrimhaven1.md) | Loneford | 5 | – |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 3 | – |
+| [Waytobrimhaven 5](../maps/waytobrimhaven5.md) | Brimhaven | 3 | – |
+| [Waytobrimhaven 6](../maps/waytobrimhaven6.md) | Brimhaven | 5 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
 
 
 ## Version history

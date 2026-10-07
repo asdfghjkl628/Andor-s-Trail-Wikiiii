@@ -1,10 +1,10 @@
 ---
-description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 40 HP, worth 70 XP, found in waterwaya1, waterwaya2, waterwaya3. Drops: Gold coins, Caterpillar cocoon."
+description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 40 HP, worth 70 XP, found in Waterwaya 1, Waterwaya 2, Waterwaya 3. Drops: Gold coins, Caterpillar cocoon."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_39.png){ .sprite } Aggressive caterpillar
 
-**Found in:** [waterwaya1](../maps/waterwaya1.md), [waterwaya2](../maps/waterwaya2.md), [waterwaya3](../maps/waterwaya3.md), [waterwaya5](../maps/waterwaya5.md) (+3 more)
+**Found in:** [Waterwaya 1](../maps/waterwaya1.md), [Waterwaya 2](../maps/waterwaya2.md), [Waterwaya 3](../maps/waterwaya3.md), [Waterwaya 5](../maps/waterwaya5.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterwaya1, waterwaya2, waterwaya3 |
+| **Found in** | Waterwaya 1, Waterwaya 2, Waterwaya 3 |
 | **Class** | Insect |
 | **HP** | 40 |
 | **XP when defeated** | 70 |
@@ -55,13 +55,13 @@ description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwaya1](../maps/waterwaya1.md) | – | 3 | – |
-| [waterwaya2](../maps/waterwaya2.md) | – | 6 | – |
-| [waterwaya3](../maps/waterwaya3.md) | – | 5 | – |
-| [waterwaya5](../maps/waterwaya5.md) | – | 7 | – |
-| [waterwaya6](../maps/waterwaya6.md) | – | 6 | – |
-| [waterwayb2](../maps/waterwayb2.md) | – | 3 | – |
-| [waterwayb3](../maps/waterwayb3.md) | – | 9 | – |
+| [Waterwaya 1](../maps/waterwaya1.md) | – | 3 | – |
+| [Waterwaya 2](../maps/waterwaya2.md) | – | 6 | – |
+| [Waterwaya 3](../maps/waterwaya3.md) | – | 5 | – |
+| [Waterwaya 5](../maps/waterwaya5.md) | – | 7 | – |
+| [Waterwaya 6](../maps/waterwaya6.md) | – | 6 | – |
+| [Waterwayb 2](../maps/waterwayb2.md) | – | 3 | – |
+| [Waterwayb 3](../maps/waterwayb3.md) | – | 9 | – |
 
 
 ## Version history

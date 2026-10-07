@@ -29,9 +29,9 @@ description: "Kazaul exposure is a harmful spiritual condition in Andor's Trail:
 |---|---|
 | Damage resistance | −3 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,17 +42,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | When it hits you | 1 | 2 rounds | 25% | undertell_11, undertell_12, undertell_21 |
-| [Dreadstaff lich](../monsters/dreadblade.md) | When it hits you | 2 | 3 rounds | 18% | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | When it hits you | 1 | 2 rounds | 25% | Undertell 11, Undertell 12, Undertell 21 |
+| [Dreadstaff lich](../monsters/dreadblade.md) | When it hits you | 2 | 3 rounds | 18% | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** spiritual conditions are not reduced by any of the three resistance skills.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** none; spiritual conditions ignore resistance skills.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

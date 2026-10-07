@@ -1,5 +1,5 @@
 ---
-description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP, worth 822 XP, found in undertell_3_lava_10, undertell_3_lava_11, undertell_4_11, undertell_3_lava_00, undertell_3_lava_01, undertell_3_lava_10. Drops: Gold coins, Lich dust, Major potion of health, Kazaul bonemeal."
+description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP, worth 822 XP, found in Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11, Undertell 3 lava 00, Undertell 3 lava 01, Undertell 3 lava 10. Drops: Gold coins, Lich dust, Major potion of health, Kazaul bonemeal."
 ---
 
 # ![](../assets/icons/monsters/monsters_antison_2.png){ .sprite } Dreadstaff lich
@@ -11,7 +11,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11, undertell_3_lava_00, undertell_3_lava_01, undertell_3_lava_10 |
+| **Found in** | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11, Undertell 3 lava 00, Undertell 3 lava 01, Undertell 3 lava 10 |
 | **Class** | Undead |
 | **HP** | 285 |
 | **XP when defeated** | 822 |
@@ -21,19 +21,19 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Dreadstaff lich. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Dreadstaff lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`dreadblade`](#v-dreadblade) | Enemy | [undertell_3_lava_10](../maps/undertell_3_lava_10.md), [undertell_3_lava_11](../maps/undertell_3_lava_11.md) (+3 more) | – | 285 |
-| [`dreadstaff_help_liches`](#v-dreadstaff_help_liches) | Enemy | [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 285 |
-| [`dreadstaff_help_plague`](#v-dreadstaff_help_plague) | Enemy | [undertell_3_lava_01](../maps/undertell_3_lava_01.md), [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 285 |
+| [`dreadblade`](#v-dreadblade) | Enemy | [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) (+3 more) | – | 285 |
+| [`dreadstaff_help_liches`](#v-dreadstaff_help_liches) | Enemy | [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 285 |
+| [`dreadstaff_help_plague`](#v-dreadstaff_help_plague) | Enemy | [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 285 |
 
 ## Undertell 3 lava 10 and 4 more (dreadblade) { #v-dreadblade }
 
 **Entry ID:** `dreadblade` · **Type:** Enemy
 
-**Location:** [undertell_3_lava_10](../maps/undertell_3_lava_10.md), [undertell_3_lava_11](../maps/undertell_3_lava_11.md), [undertell_4_11](../maps/undertell_4_11.md), [undertell_5](../maps/undertell_5.md), [undertell_7_01](../maps/undertell_7_01.md)
+**Location:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 01](../maps/undertell_7_01.md)
 
 ### Combat statistics
 
@@ -72,11 +72,11 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 1 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 1 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 1 | – |
-| [undertell_5](../maps/undertell_5.md) | – | 5 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 1 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 1 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 1 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 5](../maps/undertell_5.md) | – | 5 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 1 | – |
 
 
 ### Version history
@@ -142,7 +142,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 **Entry ID:** `dreadstaff_help_liches` · **Type:** Enemy
 
-**Location:** [undertell_3_lava_00](../maps/undertell_3_lava_00.md)
+**Location:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
 
 ### Combat statistics
 
@@ -181,7 +181,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 3 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 3 | – |
 
 
 ### Version history
@@ -248,7 +248,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 **Entry ID:** `dreadstaff_help_plague` · **Type:** Enemy
 
-**Location:** [undertell_3_lava_01](../maps/undertell_3_lava_01.md), [undertell_3_lava_10](../maps/undertell_3_lava_10.md)
+**Location:** [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md)
 
 ### Combat statistics
 
@@ -287,8 +287,8 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 2 | – |
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 2 | – |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 2 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 2 | – |
 
 
 ### Version history

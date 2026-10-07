@@ -1,10 +1,10 @@
 ---
-description: "Bernhar is a non-player character (NPC) in Andor's Trail, found in arulirmountain1. Shopkeeper."
+description: "Bernhar is a non-player character (NPC) in Andor's Trail, found in Arulirmountain 1. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } Bernhar
 
-**Where to find Bernhar:** [arulirmountain1](../maps/arulirmountain1.md#pin-npc-bernhar)
+**Where to find Bernhar:** [Arulirmountain 1](../maps/arulirmountain1.md#pin-npc-bernhar)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Bernhar is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | arulirmountain1 |
+| **Found in** | Arulirmountain 1 |
 | **Entry ID** | `bernhar` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
@@ -29,11 +29,11 @@ description: "Bernhar is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md): stage 10
+- [Arulir cave story flags (hidden flag)](../quests/arulircave_non_display.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bernhar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bernhar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bernhar.json" data-npc="Bernhar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,11 +41,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bernhar"></span>**`bernhar`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 10 of [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md#stage-10))* → [bernhar_16](#d-bernhar_16)
+    - branch 1 *(if reached stage 10 of [Arulir cave story flags (hidden flag)](../quests/arulircave_non_display.md#stage-10))* → [bernhar_16](#d-bernhar_16)
     - branch 2 → [bernhar_10](#d-bernhar_10)
 
     <span id="d-bernhar_16"></span>**`bernhar_16`** Bernhar: “Oh - the wandering kid! You are still alive? How surprising!”
@@ -69,9 +69,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-bernhar_30"></span>**`bernhar_30`** Bernhar: “Steep mountain flanks and wide, branching, cave passages! But beware - it is dangerous ground! You must not go unprotected!”
 
     - “What do you mean by "unprotected"?” → [bernhar_40](#d-bernhar_40)
-    - “I have heard this before.” *(if reached stage 10 of [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md#stage-10))* → [bernhar_32](#d-bernhar_32)
+    - “I have heard this before.” *(if reached stage 10 of [Arulir cave story flags (hidden flag)](../quests/arulircave_non_display.md#stage-10))* → [bernhar_32](#d-bernhar_32)
 
-    <span id="d-bernhar_40"></span>**`bernhar_40`** Bernhar: “You are risking your life here. It is not only those Arulir brutes. They are just annoying.” — **effects:** sets stage 10 of [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md#stage-10)
+    <span id="d-bernhar_40"></span>**`bernhar_40`** Bernhar: “You are risking your life here. It is not only those Arulir brutes. They are just annoying.” — **effects:** sets stage 10 of [Arulir cave story flags (hidden flag)](../quests/arulircave_non_display.md#stage-10)
 
     - Next → [bernhar_50](#d-bernhar_50)
 

@@ -4,7 +4,7 @@ description: "Cook is an enemy in Andor's Trail (undead) with 35 HP, worth 35 XP
 
 # ![](../assets/icons/monsters/monsters_tometik8_35.png){ .sprite } Cook
 
-**Found in:** Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md), Stoutford: [stoutford_castle_barrack0](../maps/stoutford_castle_barrack0.md)
+**Found in:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md)
 
 <div class="infobox" markdown>
 
@@ -48,8 +48,8 @@ description: "Cook is an enemy in Andor's Trail (undead) with 35 HP, worth 35 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | – |
-| [stoutford_castle_barrack0](../maps/stoutford_castle_barrack0.md) | Stoutford | 1 | – |
+| [Stoutford castle 0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | – |
+| [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md) | Stoutford | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Mustura is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld2_49.png){ .sprite } Mustura
 
-**Where to find Mustura:** Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_guard_captain), [brimhaven_house1](../maps/brimhaven_house1.md#pin-npc-brv_guard_captain)
+**Where to find Mustura:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_guard_captain), [Brimhaven house 1](../maps/brimhaven_house1.md#pin-npc-brv_guard_captain)
 
 <div class="infobox" markdown>
 
@@ -23,19 +23,19 @@ description: "Mustura is a non-player character (NPC) in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
-| [brimhaven_house1](../maps/brimhaven_house1.md) | – | 1 | Appears later, during a quest |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
+| [Brimhaven house 1](../maps/brimhaven_house1.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [A place to forge](../quests/place_to_forge.md): stages 30, 35, 40, 50
 - [Much water](../quests/brv_flood.md): stages 100, 110, 200
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stages 110, 120
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 15
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stages 110, 120
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 15
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mustura. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mustura. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_guard_captain_10.json" data-npc="Mustura" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_guard_captain_10"></span>**`brv_guard_captain_10`** *(silent check: the first matching branch below is taken)*
 
@@ -53,9 +53,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_guard_captain_and_rich_man"></span>**`brv_guard_captain_and_rich_man`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 15 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-15); NOT reached stage 50 of [A place to forge](../quests/place_to_forge.md#stage-50))* → [talk_about_white_house_20](#d-talk_about_white_house_20)
-    - branch 2 *(if reached stage 120 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-120))* → [brv_guard_captain_and_rich_man_50](#d-brv_guard_captain_and_rich_man_50)
-    - branch 3 *(if reached stage 110 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-110))* → [brv_guard_captain_and_rich_man_40](#d-brv_guard_captain_and_rich_man_40)
+    - branch 1 *(if reached stage 15 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-15); NOT reached stage 50 of [A place to forge](../quests/place_to_forge.md#stage-50))* → [talk_about_white_house_20](#d-talk_about_white_house_20)
+    - branch 2 *(if reached stage 120 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-120))* → [brv_guard_captain_and_rich_man_50](#d-brv_guard_captain_and_rich_man_50)
+    - branch 3 *(if reached stage 110 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-110))* → [brv_guard_captain_and_rich_man_40](#d-brv_guard_captain_and_rich_man_40)
     - branch 4 → [brv_guard_captain_and_rich_man_10](#d-brv_guard_captain_and_rich_man_10)
 
     <span id="d-brv_guard_captain_25"></span>**`brv_guard_captain_25`** Mustura: “Hello again. Did you find out who destroyed the dam?”
@@ -66,9 +66,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_guard_captain_15"></span>**`brv_guard_captain_15`** Mustura: “Always stay on the right side of the law.”
 
-    - Next *(if reached stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100))* → [brv_guard_captain_20](#d-brv_guard_captain_20)
+    - Next *(if reached stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100))* → [brv_guard_captain_20](#d-brv_guard_captain_20)
 
-    <span id="d-talk_about_white_house_20"></span>**`talk_about_white_house_20`** [Alkapoan](../monsters/brv_richman.md): “What do you want, foolish child?” — **effects:** sets stage 15 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-15)
+    <span id="d-talk_about_white_house_20"></span>**`talk_about_white_house_20`** [Alkapoan](../monsters/brv_richman.md): “What do you want, foolish child?” — **effects:** sets stage 15 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-15)
 
     - “I've collected your 'operation tax' from the dealer. Now let's finish our deal.” *(if latest stage of [A place to forge](../quests/place_to_forge.md#stage-45) is 45)* → [alkapoan_lie_wh_50](#d-alkapoan_lie_wh_50)
     - “[lie] I want the glowing white house. I need a place to hide from my parents.” *(if NOT reached stage 30 of [A place to forge](../quests/place_to_forge.md#stage-30); NOT reached stage 45 of [A place to forge](../quests/place_to_forge.md#stage-45))* → [alkapoan_lie_wh_10](#d-alkapoan_lie_wh_10)
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “We are all reasonable people here. Let us settle this, shall we?” → [talk_about_white_house_10](#d-talk_about_white_house_10)
 
-    <span id="d-brv_guard_captain_and_rich_man_40"></span>**`brv_guard_captain_and_rich_man_40`** [Mustura](../monsters/brv_guard_captain.md): “It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.” — **effects:** sets stage 120 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-120)
+    <span id="d-brv_guard_captain_and_rich_man_40"></span>**`brv_guard_captain_and_rich_man_40`** [Mustura](../monsters/brv_guard_captain.md): “It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.” — **effects:** sets stage 120 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-120)
 
 
     <span id="d-brv_guard_captain_and_rich_man_10"></span>**`brv_guard_captain_and_rich_man_10`** [Alkapoan](../monsters/brv_richman.md): “[Laughs] You again. Welcome back, foolish child.”
@@ -89,7 +89,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “No, not yet, but I will try to help you.” → [brv_guard_captain_23](#d-brv_guard_captain_23)
 
-    <span id="d-brv_guard_captain_30"></span>**`brv_guard_captain_30`** Mustura: “We will check this and if it is true then you can leave the town.” — **effects:** sets stage 200 of [Much water](../quests/brv_flood.md#stage-200), clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1
+    <span id="d-brv_guard_captain_30"></span>**`brv_guard_captain_30`** Mustura: “We will check this and if it is true then you can leave the town.” — **effects:** sets stage 200 of [Much water](../quests/brv_flood.md#stage-200), clears stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100), removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1
 
 
     <span id="d-brv_guard_captain_20"></span>**`brv_guard_captain_20`** Mustura: “Do you know anything about the destruction of the dam?”
@@ -141,7 +141,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-alkapoan_bargin"></span>**`alkapoan_bargin`** Mustura: “Yeah, sure, twenty-five thousand and I take a couple of your fingers too?”
 
 
-    <span id="d-brv_guard_captain_and_rich_man_30"></span>**`brv_guard_captain_and_rich_man_30`** [Alkapoan](../monsters/brv_richman.md): “Let's see who is laughing in the end. The captain came to talk, not arrest me. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this a win-win.” — **effects:** sets stage 110 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-110)
+    <span id="d-brv_guard_captain_and_rich_man_30"></span>**`brv_guard_captain_and_rich_man_30`** [Alkapoan](../monsters/brv_richman.md): “Let's see who is laughing in the end. The captain came to talk, not arrest me. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this a win-win.” — **effects:** sets stage 110 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-110)
 
     - Next → [brv_guard_captain_and_rich_man_40](#d-brv_guard_captain_and_rich_man_40)
 
@@ -160,7 +160,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

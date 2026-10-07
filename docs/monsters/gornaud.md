@@ -4,7 +4,7 @@ description: "Gornaud is an enemy in Andor's Trail (giant) with 95 HP, worth 197
 
 # ![](../assets/icons/monsters/monsters_rltiles2_29.png){ .sprite } Gornaud
 
-**Found in:** Blackwater Mountain: [blackwater_mountain15](../maps/blackwater_mountain15.md), Blackwater Mountain: [blackwater_mountain16](../maps/blackwater_mountain16.md), Blackwater Mountain: [blackwater_mountain17](../maps/blackwater_mountain17.md), Blackwater Mountain: [blackwater_mountain18](../maps/blackwater_mountain18.md) (+10 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 15](../maps/blackwater_mountain15.md), Blackwater Mountain: [Blackwater mountain 16](../maps/blackwater_mountain16.md), Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md), Blackwater Mountain: [Blackwater mountain 18](../maps/blackwater_mountain18.md) (+10 more)
 
 <div class="infobox" markdown>
 
@@ -58,25 +58,25 @@ description: "Gornaud is an enemy in Andor's Trail (giant) with 95 HP, worth 197
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain15](../maps/blackwater_mountain15.md) | Blackwater Mountain | 4 | – |
-| [blackwater_mountain16](../maps/blackwater_mountain16.md) | Blackwater Mountain | 11 | – |
-| [blackwater_mountain17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 7 | – |
-| [blackwater_mountain3](../maps/blackwater_mountain3.md) | – | 2 | – |
-| [blackwater_mountain4](../maps/blackwater_mountain4.md) | – | 5 | – |
-| [blackwater_mountain5](../maps/blackwater_mountain5.md) | – | 4 | – |
-| [blackwater_mountain53](../maps/blackwater_mountain53.md) | Blackwater Mountain | 4 | – |
-| [blackwater_mountain56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain5a](../maps/blackwater_mountain5a.md) | – | 3 | – |
-| [blackwater_mountain70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 2 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 1 | – |
-| [bwmfill2](../maps/bwmfill2.md) | Blackwater Mountain | 3 | – |
-| [bwmfill8](../maps/bwmfill8.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 15](../maps/blackwater_mountain15.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 16](../maps/blackwater_mountain16.md) | Blackwater Mountain | 11 | – |
+| [Blackwater mountain 17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 7 | – |
+| [Blackwater mountain 3](../maps/blackwater_mountain3.md) | – | 2 | – |
+| [Blackwater mountain 4](../maps/blackwater_mountain4.md) | – | 5 | – |
+| [Blackwater mountain 5](../maps/blackwater_mountain5.md) | – | 4 | – |
+| [Blackwater mountain 53](../maps/blackwater_mountain53.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) | – | 3 | – |
+| [Blackwater mountain 70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 2 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 2](../maps/bwmfill2.md) | Blackwater Mountain | 3 | – |
+| [Bwmfill 8](../maps/bwmfill8.md) | Blackwater Mountain | 2 | – |
 
 ## Quests that count defeats
 
-- A conversation with [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) checks that at least 100 of these enemies have been defeated.
-- A conversation with [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) checks that at least 50 of these enemies have been defeated.
+- A conversation with [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) checks that at least 100 of these enemies have been defeated.
+- A conversation with [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) checks that at least 50 of these enemies have been defeated.
 
 
 ## Version history

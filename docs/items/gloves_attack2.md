@@ -38,7 +38,7 @@ description: "Fine gloves of swift attack is a ordinary gloves, leather in Andor
 ### Sold by
 
 - [Troublemaker](../monsters/troublemaker.md) (Fallhaven)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

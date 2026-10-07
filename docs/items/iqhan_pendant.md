@@ -37,22 +37,22 @@ description: "Iqhan pendant is a ordinary necklace in Andor's Trail (Attack chan
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 1 | pwcave4 |
+| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 1 | Pwcave 4 |
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 33.3333% | 0-2 | Prim |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 1% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 1% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 1% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan thrall](../monsters/iqhan_2b.md) | 1% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 1% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md) | 1% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 1% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | Pwcave 3, Pwcave 4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | Pwcave 3, Pwcave 4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
+| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 1% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 1% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 1% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan thrall](../monsters/iqhan_2b.md) | 1% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 1% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md) | 1% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 1% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
 
 ### Sold by
 
@@ -60,7 +60,7 @@ description: "Iqhan pendant is a ordinary necklace in Andor's Trail (Attack chan
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [elm_mine3](../maps/elm_mine3.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-24) (100%)
+- From walking into a blocked passage on [Elm mine 3](../maps/elm_mine3.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-24) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

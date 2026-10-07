@@ -1,10 +1,10 @@
 ---
-description: "Studying Blackwater priest is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain43, blackwater_mountain44."
+description: "Studying Blackwater priest is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 43, Blackwater mountain 44."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Studying Blackwater priest
 
-**Where to find Studying Blackwater priest:** [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-studying_blackwater_priest), [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-studying_blackwater_priest)
+**Where to find Studying Blackwater priest:** [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-studying_blackwater_priest), [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-studying_blackwater_priest)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Studying Blackwater priest is a non-player character (NPC) in Ando
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | blackwater_mountain43, blackwater_mountain44 |
+| **Found in** | Blackwater mountain 43, Blackwater mountain 44 |
 | **Entry ID** | `studying_blackwater_priest` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -23,12 +23,12 @@ description: "Studying Blackwater priest is a non-player character (NPC) in Ando
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 3 | – |
-| [blackwater_mountain44](../maps/blackwater_mountain44.md) | – | 1 | – |
+| [Blackwater mountain 43](../maps/blackwater_mountain43.md) | – | 3 | – |
+| [Blackwater mountain 44](../maps/blackwater_mountain44.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Studying Blackwater priest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Studying Blackwater priest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_pupil.json" data-npc="Studying Blackwater priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_pupil"></span>**`blackwater_pupil`** Studying Blackwater priest: “Sorry, I can't talk right now.”
 

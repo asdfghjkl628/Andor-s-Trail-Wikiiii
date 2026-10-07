@@ -1,8 +1,8 @@
 ---
-description: "Brimhaven2 farmhouse is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Peasant grandfather. Exits to Brimhaven2."
+description: "Brimhaven 2 farmhouse is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Peasant grandfather. Exits to Brimhaven 2."
 ---
 
-# Brimhaven2 farmhouse
+# Brimhaven 2 farmhouse
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brimhaven2 farmhouse is an indoor location in Andor's Trail, in Br
 
 </div>
 
-**Brimhaven2 farmhouse** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Brimhaven2.
+**Brimhaven 2 farmhouse** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Brimhaven 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven2_farmhouse.webp" alt="Map of Brimhaven2 farmhouse" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven2/#place-farmhouse" title="Exit to Brimhaven2" style="left:41.667%;top:87.500%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Peasant grandfather" style="left:16.667%;top:37.500%;width:75.000%;height:37.500%"></span><a class="mob" href="../../monsters/brv_old_farmer/" title="Peasant grandfather" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_5.png" alt="Peasant grandfather"></a><a class="pin pin-exit" href="#key-1" style="left:45.833%;top:93.750%" title="Exit (south): to [Brimhaven2](brimhaven2.md)">1</a><a id="pin-npc-brv_old_farmer" class="pin pin-npc" href="#key-2" style="left:54.167%;top:56.250%" title="[Peasant grandfather](../../monsters/brv_old_farmer.md): shopkeeper">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven2_farmhouse.webp" alt="Map of Brimhaven 2 farmhouse" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven2/#place-farmhouse" title="Exit to Brimhaven 2" style="left:41.667%;top:87.500%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Peasant grandfather" style="left:16.667%;top:37.500%;width:75.000%;height:37.500%"></span><a class="mob" href="../../monsters/brv_old_farmer/" title="Peasant grandfather" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_5.png" alt="Peasant grandfather"></a><a class="pin pin-exit" href="#key-1" style="left:45.833%;top:93.750%" title="Exit (south): to [Brimhaven 2](brimhaven2.md)">1</a><a id="pin-npc-brv_old_farmer" class="pin pin-npc" href="#key-2" style="left:54.167%;top:56.250%" title="[Peasant grandfather](../../monsters/brv_old_farmer.md): shopkeeper">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven2](brimhaven2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 2](brimhaven2.md) |
     | <span id="key-2"></span>2 | [Peasant grandfather](../monsters/brv_old_farmer.md) | shopkeeper |
 
 
@@ -40,7 +40,7 @@ description: "Brimhaven2 farmhouse is an indoor location in Andor's Trail, in Br
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven2](brimhaven2.md) | Brimhaven | 1 |
+| South | [Brimhaven 2](brimhaven2.md) | Brimhaven | 1 |
 
 ## NPCs
 

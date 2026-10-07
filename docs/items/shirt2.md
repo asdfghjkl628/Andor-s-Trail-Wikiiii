@@ -42,7 +42,7 @@ description: "Fine shirt is a ordinary armor, cloth in Andor's Trail (Block chan
 
 ### Found in containers
 
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

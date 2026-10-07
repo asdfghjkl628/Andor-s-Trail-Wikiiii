@@ -1,10 +1,10 @@
 ---
-description: "Ancient stone worm is an enemy in Andor's Trail (reptile) with 42 HP, worth 163 XP, found in mywildcave, mywildcave2, mywildcave3. Drops: Gold coins, Meat, Lithic scales."
+description: "Ancient stone worm is an enemy in Andor's Trail (reptile) with 42 HP, worth 163 XP, found in Mywildcave, Mywildcave 2, Mywildcave 3. Drops: Gold coins, Meat, Lithic scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_149.png){ .sprite } Ancient stone worm
 
-**Found in:** [mywildcave](../maps/mywildcave.md), [mywildcave2](../maps/mywildcave2.md), [mywildcave3](../maps/mywildcave3.md)
+**Found in:** [Mywildcave](../maps/mywildcave.md), [Mywildcave 2](../maps/mywildcave2.md), [Mywildcave 3](../maps/mywildcave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient stone worm is an enemy in Andor's Trail (reptile) with 42 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mywildcave, mywildcave2, mywildcave3 |
+| **Found in** | Mywildcave, Mywildcave 2, Mywildcave 3 |
 | **Class** | Reptile |
 | **HP** | 42 |
 | **XP when defeated** | 163 |
@@ -58,9 +58,9 @@ description: "Ancient stone worm is an enemy in Andor's Trail (reptile) with 42 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave](../maps/mywildcave.md) | – | 3 | – |
-| [mywildcave2](../maps/mywildcave2.md) | – | 1 | – |
-| [mywildcave3](../maps/mywildcave3.md) | – | 2 | – |
+| [Mywildcave](../maps/mywildcave.md) | – | 3 | – |
+| [Mywildcave 2](../maps/mywildcave2.md) | – | 1 | – |
+| [Mywildcave 3](../maps/mywildcave3.md) | – | 2 | – |
 
 
 ## Version history

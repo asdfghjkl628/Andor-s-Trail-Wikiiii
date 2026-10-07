@@ -37,7 +37,7 @@ description: "Vaelric's purging wash is a rare healing item in Andor's Trail. Ho
 
 ### Sold by
 
-- [Vaelric](../monsters/vaelric.md) (galmore_17_house)
+- [Vaelric](../monsters/vaelric.md) (Galmore 17 house)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -18,40 +18,40 @@ description: "Feygard soldier is a non-player character (NPC) in Andor's Trail, 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Feygard soldier. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Feygard soldier. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`patrol_roaming`](#v-patrol_roaming) | NPC | Blackwater Mountain: [wild6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-patrol_roaming) (+6 more) | – |
-| [`patrol2_captain`](#v-patrol2_captain) | NPC | Remgard: [remgard0](../maps/remgard0.md#pin-npc-patrol2_captain) | – |
-| [`patrol2_roaming`](#v-patrol2_roaming) | NPC | Remgard: [remgard0](../maps/remgard0.md#pin-npc-patrol2_roaming) | – |
+| [`patrol_roaming`](#v-patrol_roaming) | NPC | Blackwater Mountain: [Wild 6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-patrol_roaming) (+6 more) | – |
+| [`patrol2_captain`](#v-patrol2_captain) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_captain) | – |
+| [`patrol2_roaming`](#v-patrol2_roaming) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_roaming) | – |
 
-## Blackwater Mountain, Wild6 and 7 more (patrol_roaming) { #v-patrol_roaming }
+## Blackwater Mountain, Wild 6 and 7 more (patrol_roaming) { #v-patrol_roaming }
 
 **Entry ID:** `patrol_roaming` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [wild6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [fields6](../maps/fields6.md#pin-npc-patrol_roaming), Fallhaven: [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md#pin-npc-patrol_roaming), Fallhaven: [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md#pin-npc-patrol_roaming) (+2 more)
+**Location:** Blackwater Mountain: [Wild 6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md#pin-npc-patrol_roaming) (+2 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 6 | Appears later, during a quest |
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 6 | Appears later, during a quest |
-| [fields6](../maps/fields6.md) | Crossroads Guardhouse | 6 | Appears later, during a quest |
-| [remgard0](../maps/remgard0.md) | Remgard | 6 | Appears later, during a quest |
-| [road1](../maps/road1.md) | Foaming Flask Tavern | 6 | Appears later, during a quest |
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 6 | Appears later, during a quest |
-| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 6 | Appears later, during a quest |
-| [wild6](../maps/wild6.md) | Blackwater Mountain | 6 | Appears later, during a quest |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 6 | Appears later, during a quest |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 6 | Appears later, during a quest |
+| [Fields 6](../maps/fields6.md) | Crossroads Guardhouse | 6 | Appears later, during a quest |
+| [Remgard 0](../maps/remgard0.md) | Remgard | 6 | Appears later, during a quest |
+| [Road 1](../maps/road1.md) | Foaming Flask Tavern | 6 | Appears later, during a quest |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 6 | Appears later, during a quest |
+| [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md) | Fallhaven | 6 | Appears later, during a quest |
+| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 6 | Appears later, during a quest |
 
 ### Quests
 
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 141
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 141
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard soldier. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard soldier. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_patrol_roaming.json" data-npc="Feygard soldier" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -59,11 +59,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-patrol_roaming-brv_patrol_roaming"></span>**`brv_patrol_roaming`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141))* → [brv_patrol_roaming_20](#d-patrol_roaming-brv_patrol_roaming_20)
+    - branch 1 *(if reached stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141))* → [brv_patrol_roaming_20](#d-patrol_roaming-brv_patrol_roaming_20)
     - branch 2 → [brv_patrol_roaming_10](#d-patrol_roaming-brv_patrol_roaming_10)
 
     <span id="d-patrol_roaming-brv_patrol_roaming_20"></span>**`brv_patrol_roaming_20`** Feygard soldier: “You again. You have to wait while I check your belongings.”
@@ -76,17 +76,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-patrol_roaming-brv_patrol_roaming_11"></span>**`brv_patrol_roaming_11`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 142 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142))* → [brv_patrol_roaming_100](#d-patrol_roaming-brv_patrol_roaming_100)
+    - branch 1 *(if NOT reached stage 142 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142))* → [brv_patrol_roaming_100](#d-patrol_roaming-brv_patrol_roaming_100)
     - branch 2 → [brv_patrol_bonemeals_removed](#d-patrol_roaming-brv_patrol_bonemeals_removed)
 
-    <span id="d-patrol_roaming-brv_patrol_roaming_100"></span>**`brv_patrol_roaming_100`** Feygard soldier: “Everything is OK. Stay clean.” — **effects:** sets stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map
+    <span id="d-patrol_roaming-brv_patrol_roaming_100"></span>**`brv_patrol_roaming_100`** Feygard soldier: “Everything is OK. Stay clean.” — **effects:** sets stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map
 
 
-    <span id="d-patrol_roaming-brv_patrol_bonemeals_removed"></span>**`brv_patrol_bonemeals_removed`** Feygard soldier: “What's this? Smells like Bonemeal! Bonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it. [He gives you back all your belongings but keeps the Bonemeals] Keep away from illegal stuff. Now go on your way.” — **effects:** sets stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map
+    <span id="d-patrol_roaming-brv_patrol_bonemeals_removed"></span>**`brv_patrol_bonemeals_removed`** Feygard soldier: “What's this? Smells like Bonemeal! Bonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it. [He gives you back all your belongings but keeps the Bonemeals] Keep away from illegal stuff. Now go on your way.” — **effects:** sets stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map
 
-    - “Hey, what the ...?” *(if reached stage 40 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-40))* → [brv_patrol_bonemeals_removed_bur](#d-patrol_roaming-brv_patrol_bonemeals_removed_bur)
-    - “Phew, at least they didn't find my iron reserve in the bonemeal box.” *(if reached stage 42 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42))* → *conversation ends*
-    - “Phew, at least they had let me go.” *(if NOT reached stage 40 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-40); NOT reached stage 42 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42))* → *conversation ends*
+    - “Hey, what the ...?” *(if reached stage 40 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-40))* → [brv_patrol_bonemeals_removed_bur](#d-patrol_roaming-brv_patrol_bonemeals_removed_bur)
+    - “Phew, at least they didn't find my iron reserve in the bonemeal box.” *(if reached stage 42 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42))* → *conversation ends*
+    - “Phew, at least they had let me go.” *(if NOT reached stage 40 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-40); NOT reached stage 42 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42))* → *conversation ends*
 
     <span id="d-patrol_roaming-brv_patrol_bonemeals_removed_bur"></span>**`brv_patrol_bonemeals_removed_bur`** [Dummy NPC](../monsters/none.md): “One of the guards winks at you while putting the confiscated bonemeal potions back in your pouch.”
 
@@ -140,19 +140,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard0 (patrol2_captain) { #v-patrol2_captain }
+## Remgard, Remgard 0 (patrol2_captain) { #v-patrol2_captain }
 
 **Entry ID:** `patrol2_captain` · **Type:** NPC
 
-**Location:** Remgard: [remgard0](../maps/remgard0.md#pin-npc-patrol2_captain)
+**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_captain)
 
 ### Quests
 
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 141
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 141
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard soldier. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard soldier. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_patrol2_roaming.json" data-npc="Feygard soldier" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -160,11 +160,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-patrol2_captain-brv_patrol2_roaming"></span>**`brv_patrol2_roaming`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141))* → [brv_patrol2_roaming_20](#d-patrol2_captain-brv_patrol2_roaming_20)
+    - branch 1 *(if reached stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141))* → [brv_patrol2_roaming_20](#d-patrol2_captain-brv_patrol2_roaming_20)
     - branch 2 → [brv_patrol2_roaming_10](#d-patrol2_captain-brv_patrol2_roaming_10)
 
     <span id="d-patrol2_captain-brv_patrol2_roaming_20"></span>**`brv_patrol2_roaming_20`** Feygard soldier: “You again. You have to wait while I check your belongings.”
@@ -177,13 +177,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-patrol2_captain-brv_patrol2_roaming_11"></span>**`brv_patrol2_roaming_11`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 142 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-142))* → [brv_patrol2_roaming_100](#d-patrol2_captain-brv_patrol2_roaming_100)
+    - branch 1 *(if NOT reached stage 142 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-142))* → [brv_patrol2_roaming_100](#d-patrol2_captain-brv_patrol2_roaming_100)
     - branch 2 → [brv_patrol2_bonemeals_removed](#d-patrol2_captain-brv_patrol2_bonemeals_removed)
 
-    <span id="d-patrol2_captain-brv_patrol2_roaming_100"></span>**`brv_patrol2_roaming_100`** Feygard soldier: “Everything is OK. Stay clean.” — **effects:** sets stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map, removes monsters from the map
+    <span id="d-patrol2_captain-brv_patrol2_roaming_100"></span>**`brv_patrol2_roaming_100`** Feygard soldier: “Everything is OK. Stay clean.” — **effects:** sets stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map, removes monsters from the map
 
 
-    <span id="d-patrol2_captain-brv_patrol2_bonemeals_removed"></span>**`brv_patrol2_bonemeals_removed`** Feygard soldier: “What's this? Smells like Bonemeal! Bonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it. [He gives you back all your belongings but keeps the Bonemeals] And we have to arrest you of course. Report to…” — **effects:** sets stage 141 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map, changes map remgard0, clears stage 138 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-138), clears stage 139 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-139), starts timer “remgard_prison”, removes monsters from remgard_prison
+    <span id="d-patrol2_captain-brv_patrol2_bonemeals_removed"></span>**`brv_patrol2_bonemeals_removed`** Feygard soldier: “What's this? Smells like Bonemeal! Bonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it. [He gives you back all your belongings but keeps the Bonemeals] And we have to arrest you of course. Report to…” — **effects:** sets stage 141 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-141), clears stage 140 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-140), removes monsters from the map, changes map remgard0, clears stage 138 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-138), clears stage 139 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-139), starts timer “remgard_prison”, removes monsters from remgard_prison
 
 
 
@@ -226,19 +226,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard0 (patrol2_roaming) { #v-patrol2_roaming }
+## Remgard, Remgard 0 (patrol2_roaming) { #v-patrol2_roaming }
 
 **Entry ID:** `patrol2_roaming` · **Type:** NPC
 
-**Location:** Remgard: [remgard0](../maps/remgard0.md#pin-npc-patrol2_roaming)
+**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_roaming)
 
 ### Quests
 
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 141
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 141
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard soldier. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard soldier. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_patrol2_roaming.json" data-npc="Feygard soldier" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

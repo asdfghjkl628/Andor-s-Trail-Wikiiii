@@ -29,7 +29,7 @@ description: "Soap is a ordinary other in Andor's Trail. How to get it: shops, c
 
 ### Found in containers
 
-- [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
+- [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,7 +40,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md) | [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-55) | handed over (1×) | “Use the soap” |
+| walking into a blocked passage on [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md) | [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-55) | handed over (1×) | “Use the soap” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

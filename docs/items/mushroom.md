@@ -51,7 +51,7 @@ description: "Mushroom is a ordinary food in Andor's Trail. How to get it: monst
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [wild9](../maps/wild9.md) (100%)
+- From stepping on a trigger on [Wild 9](../maps/wild9.md) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

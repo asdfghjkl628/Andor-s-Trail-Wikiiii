@@ -4,7 +4,7 @@ description: "Lamberta is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_omi1_1.png){ .sprite } Lamberta
 
-**Where to find Lamberta:** Sullengard: [sullengard_weapon_shop](../maps/sullengard_weapon_shop.md#pin-npc-sullengard_lamberta)
+**Where to find Lamberta:** Sullengard: [Sullengard weapon shop](../maps/sullengard_weapon_shop.md#pin-npc-sullengard_lamberta)
 
 <div class="infobox" markdown>
 
@@ -35,11 +35,11 @@ description: "Lamberta is a non-player character (NPC) in Andor's Trail, found i
 
 ## Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 24
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 24
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lamberta. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lamberta. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_lamberta_0.json" data-npc="Lamberta" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -47,15 +47,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_lamberta_0"></span>**`sullengard_lamberta_0`** Lamberta: “How can I help you?”
 
-    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if NOT reached stage 24 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-24); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_lamberta_10](#d-sullengard_lamberta_10)
-    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if reached stage 24 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-24); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_lamberta_11](#d-sullengard_lamberta_11)
+    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if NOT reached stage 24 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-24); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_lamberta_10](#d-sullengard_lamberta_10)
+    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if reached stage 24 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-24); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_lamberta_11](#d-sullengard_lamberta_11)
     - “Can I see what you have for sale?” → [sullengard_lamberta_sell](#d-sullengard_lamberta_sell)
 
-    <span id="d-sullengard_lamberta_10"></span>**`sullengard_lamberta_10`** Lamberta: “No, I'm sorry, I don't. All I know is that I really hope it doesn't happen to me.” — **effects:** sets stage 24 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-24)
+    <span id="d-sullengard_lamberta_10"></span>**`sullengard_lamberta_10`** Lamberta: “No, I'm sorry, I don't. All I know is that I really hope it doesn't happen to me.” — **effects:** sets stage 24 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-24)
 
     - “Thank you anyway.” → *conversation ends*
 

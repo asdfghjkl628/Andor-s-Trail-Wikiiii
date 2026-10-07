@@ -4,7 +4,7 @@ description: "Long-tail-dominio is an NPC who can also be fought in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_johny_4.png){ .sprite } Long-tail-dominio
 
-**Where to find Long-tail-dominio:** Greenscale tribe: [brightport_lizardtemple](../maps/brightport_lizardtemple.md#pin-npc-brightport_lizardpriest)
+**Where to find Long-tail-dominio:** Greenscale tribe: [Brightport lizardtemple](../maps/brightport_lizardtemple.md#pin-npc-brightport_lizardpriest)
 
 <div class="infobox" markdown>
 
@@ -59,20 +59,20 @@ description: "Long-tail-dominio is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_lizardtemple](../maps/brightport_lizardtemple.md) | Greenscale tribe | 1 | – |
+| [Brightport lizardtemple](../maps/brightport_lizardtemple.md) | Greenscale tribe | 1 | – |
 
 ## Quests that count defeats
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [brightport_cave17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [Brightport cave 17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
 
 ## Quests
 
 - [The balance of scales](../quests/brightport_lizard.md): stages 65, 70
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 127
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 127
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Long-tail-dominio. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Long-tail-dominio. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_dominio.json" data-npc="Long-tail-dominio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -80,12 +80,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (32 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_dominio"></span>**`brightport_dominio`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 127 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-127))* → [brightport_dominio15](#d-brightport_dominio15)
-    - Next *(if reached stage 70 of [The balance of scales](../quests/brightport_lizard.md#stage-70); NOT reached stage 127 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-127); NOT reached stage 90 of [The balance of scales](../quests/brightport_lizard.md#stage-90))* → [brightport_dominio11](#d-brightport_dominio11)
+    - Next *(if reached stage 127 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-127))* → [brightport_dominio15](#d-brightport_dominio15)
+    - Next *(if reached stage 70 of [The balance of scales](../quests/brightport_lizard.md#stage-70); NOT reached stage 127 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-127); NOT reached stage 90 of [The balance of scales](../quests/brightport_lizard.md#stage-90))* → [brightport_dominio11](#d-brightport_dominio11)
     - Next *(if reached stage 60 of [The balance of scales](../quests/brightport_lizard.md#stage-60))* → [brightport_dominio0](#d-brightport_dominio0)
     - Next *(if NOT reached stage 60 of [The balance of scales](../quests/brightport_lizard.md#stage-60))* → [brightport_dominio3](#d-brightport_dominio3)
 
@@ -138,7 +138,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_dominio20](#d-brightport_dominio20)
 
-    <span id="d-brightport_dominio14"></span>**`brightport_dominio14`** Long-tail-dominio: “That is wonderful news! Please tell the chief about your deeds. I shall pray the Shadow guide one as brave as you.” — **effects:** sets stage 127 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-127)
+    <span id="d-brightport_dominio14"></span>**`brightport_dominio14`** Long-tail-dominio: “That is wonderful news! Please tell the chief about your deeds. I shall pray the Shadow guide one as brave as you.” — **effects:** sets stage 127 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-127)
 
 
     <span id="d-brightport_dominio5"></span>**`brightport_dominio5`** Long-tail-dominio: “In the caves close to here lies the entrance to a ruin from which at times beasts of darkness emerge to attack our village.” — **effects:** sets stage 65 of [The balance of scales](../quests/brightport_lizard.md#stage-65)

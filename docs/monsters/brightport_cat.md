@@ -1,10 +1,10 @@
 ---
-description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in brightportwild2."
+description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Brightportwild 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_cats_2.png){ .sprite } Duleian mountain cat cub
 
-**Found in:** [brightportwild2](../maps/brightportwild2.md)
+**Found in:** [Brightportwild 2](../maps/brightportwild2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | brightportwild2 |
+| **Found in** | Brightportwild 2 |
 | **Class** | Animal |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,7 +48,7 @@ description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild2](../maps/brightportwild2.md) | – | 3 | – |
+| [Brightportwild 2](../maps/brightportwild2.md) | – | 3 | – |
 
 
 ## Version history

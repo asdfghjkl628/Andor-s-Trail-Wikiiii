@@ -1,5 +1,5 @@
 ---
-description: "Galmore cavea is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Tough cave rat, Cave rat. Exits to Galmore cavea 3, Galmore 86, Galmore cavea 1, Galmore cavea 2."
+description: "Galmore cavea is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Cave rat, Tough cave rat. Exits to Galmore cavea 3, Galmore 86, Galmore cavea 1, Galmore cavea 2."
 ---
 
 # Galmore cavea
@@ -53,15 +53,15 @@ description: "Galmore cavea is an outdoor location in Andor's Trail, near Mt. Ga
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
 | [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 2 | – |
+| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
 - [Search for Andor](../quests/andor.md): a scripted event can trigger here from stage 914; something on this map advances it; stepping on a trigger here sets stage 910; stepping on a trigger here sets stage 914
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): a scripted event can trigger here from stage 22; something on this map advances it; stepping on a trigger here sets stage 20; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 23
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): a scripted event can trigger here from stage 22; something on this map advances it; stepping on a trigger here sets stage 20; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 23
 
 ## Points of interest
 

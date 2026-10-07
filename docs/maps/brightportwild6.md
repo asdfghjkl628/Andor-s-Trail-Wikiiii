@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild6 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Elder deer. Exits to Brightport cave2, Brightportwild4."
+description: "Brightportwild 6 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Elder deer. Exits to Brightport cave 2, Brightportwild 4."
 ---
 
-# Brightportwild6
+# Brightportwild 6
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Brightportwild6 is an indoor location in Andor's Trail, in Buried 
 | **Region** | In Buried citadel (other) |
 | **Type** | Indoors / underground |
 | **Size** | 16×4 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild6** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave2, Brightportwild4.
+**Brightportwild 6** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave 2, Brightportwild 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild6.webp" alt="Map of Brightportwild6" width="512" height="128" loading="lazy"><a id="place-west1" class="mo mo-mapchange" href="../brightportwild4/#place-east1" title="Exit to Brightportwild4" style="left:0.000%;top:50.000%;width:6.250%;height:25.000%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave2/#place-entrance" title="Exit to Brightport cave2" style="left:31.250%;top:25.000%;width:6.250%;height:25.000%"></a><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:12.500%;top:25.000%;width:12.500%;height:50.000%"></span><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:12.500%;top:50.000%;width:6.250%;height:25.000%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:34.375%;top:37.500%" title="Exit (north): to [Brightport cave2](brightport_cave2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.125%;top:62.500%" title="Exit (southwest): to [Brightportwild4](brightportwild4.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild6.webp" alt="Map of Brightportwild 6" width="512" height="128" loading="lazy"><a id="place-west1" class="mo mo-mapchange" href="../brightportwild4/#place-east1" title="Exit to Brightportwild 4" style="left:0.000%;top:50.000%;width:6.250%;height:25.000%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave2/#place-entrance" title="Exit to Brightport cave 2" style="left:31.250%;top:25.000%;width:6.250%;height:25.000%"></a><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:12.500%;top:25.000%;width:12.500%;height:50.000%"></span><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:12.500%;top:50.000%;width:6.250%;height:25.000%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:34.375%;top:37.500%" title="Exit (north): to [Brightport cave 2](brightport_cave2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.125%;top:62.500%" title="Exit (southwest): to [Brightportwild 4](brightportwild4.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightport cave2](brightport_cave2.md) |
-    | <span id="key-2"></span>2 | Exit (southwest) | to [Brightportwild4](brightportwild4.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightport cave 2](brightport_cave2.md) |
+    | <span id="key-2"></span>2 | Exit (southwest) | to [Brightportwild 4](brightportwild4.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Brightportwild6 is an indoor location in Andor's Trail, in Buried 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightport cave2](brightport_cave2.md) | Buried citadel | 1 |
-| Southwest | [Brightportwild4](brightportwild4.md) | Burial cave | 2 |
+| North | [Brightport cave 2](brightport_cave2.md) | Buried citadel | 1 |
+| Southwest | [Brightportwild 4](brightportwild4.md) | Burial cave | 2 |
 
 ## Enemies
 

@@ -45,9 +45,9 @@ description: "Assassin's blade is a extraordinary dagger in Andor's Trail (Attac
 
 ### Quest & dialogue rewards
 
-- From [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-90) (1×)
-- From [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-100) (1×)
-- From [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-230) (1×)
+- From [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-90) (1×)
+- From [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-100) (1×)
+- From [Arlish](../monsters/arlish.md) ([Brimhaven general 1](../maps/brimhaven_general1.md)) during [A strange looking dagger](../quests/brv_dagger.md#stage-230) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -58,8 +58,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) | [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50) | handed over (1×) | “Well, I have it right here.” |
-| [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) | [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50) | worn item is taken (1×) | “Well, I have it right here.” |
+| [Arlish](../monsters/arlish.md) ([Brimhaven general 1](../maps/brimhaven_general1.md)) | [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50) | handed over (1×) | “Well, I have it right here.” |
+| [Arlish](../monsters/arlish.md) ([Brimhaven general 1](../maps/brimhaven_general1.md)) | [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-50) | worn item is taken (1×) | “Well, I have it right here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -28,19 +28,19 @@ description: "Blue Crystals is a ordinary gem in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Azurite Gornaud](../monsters/gornaud_4.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Garnet Gornaud](../monsters/gornaud_5.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Nephrite Gornaud](../monsters/gornaud_6.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Arulir Pack Leader](../monsters/arulir_leader.md) | 5% | 1 | arulircave6 |
-| [Demonic Arulir](../monsters/arulir_8.md) | 3% | 1 | arulircave6 |
+| [Azurite Gornaud](../monsters/gornaud_4.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Garnet Gornaud](../monsters/gornaud_5.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Nephrite Gornaud](../monsters/gornaud_6.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Arulir Pack Leader](../monsters/arulir_leader.md) | 5% | 1 | Arulircave 6 |
+| [Demonic Arulir](../monsters/arulir_8.md) | 3% | 1 | Arulircave 6 |
 
 ### Found in containers
 
-- [galmore_53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [korhald_cave_hidden](../maps/korhald_cave_hidden.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
+- From stepping on a trigger on [Korhald cave hidden](../maps/korhald_cave_hidden.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

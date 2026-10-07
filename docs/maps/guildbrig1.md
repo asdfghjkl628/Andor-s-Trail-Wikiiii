@@ -1,8 +1,8 @@
 ---
-description: "Guildbrig1 is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Fallhaven tunnel2, Fallhaven gravedigger, Guildbrig2."
+description: "Guildbrig 1 is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Fallhaven tunnel 2, Fallhaven gravedigger, Guildbrig 2."
 ---
 
-# Guildbrig1
+# Guildbrig 1
 
 <div class="infobox" markdown>
 
@@ -18,21 +18,21 @@ description: "Guildbrig1 is an indoor location in Andor's Trail, in Fallhaven (s
 
 </div>
 
-**Guildbrig1** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to Fallhaven tunnel2, Fallhaven gravedigger, Guildbrig2.
+**Guildbrig 1** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to Fallhaven tunnel 2, Fallhaven gravedigger, Guildbrig 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/guildbrig1.webp" alt="Map of Guildbrig1" width="544" height="352" loading="lazy"><a id="place-ladder" class="mo mo-mapchange" href="../fallhaven_gravedigger/#place-hatchway" title="Exit to Fallhaven gravedigger" style="left:5.882%;top:45.455%;width:5.882%;height:9.091%"></a><a id="place-door" class="mo mo-mapchange" href="../guildbrig2/#place-south" title="Exit to Guildbrig2" style="left:17.647%;top:18.182%;width:5.882%;height:9.091%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:5.882%;top:63.636%;width:5.882%;height:9.091%"></a><a id="place-down" class="mo mo-mapchange" href="../fallhaven_tunnel2/#place-up" title="Exit to Fallhaven tunnel2" style="left:88.235%;top:54.545%;width:5.882%;height:9.091%"></a><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.588%;top:45.455%;width:5.882%;height:9.091%"></a><a class="pin pin-exit" href="#key-1" style="left:91.176%;top:59.091%" title="Exit (east): to [Fallhaven tunnel2](fallhaven_tunnel2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:8.824%;top:50.000%" title="Exit (west): to [Fallhaven gravedigger](fallhaven_gravedigger.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:20.588%;top:22.727%" title="Exit (stairs / passage): to [Guildbrig2](guildbrig2.md)">3</a><a class="pin pin-container" href="#key-4" style="left:8.824%;top:68.182%" title="Container 1: Rotten meat, Gold coins">4</a><a class="pin pin-key" href="#key-5" style="left:73.529%;top:50.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/guildbrig1.webp" alt="Map of Guildbrig 1" width="544" height="352" loading="lazy"><a id="place-ladder" class="mo mo-mapchange" href="../fallhaven_gravedigger/#place-hatchway" title="Exit to Fallhaven gravedigger" style="left:5.882%;top:45.455%;width:5.882%;height:9.091%"></a><a id="place-door" class="mo mo-mapchange" href="../guildbrig2/#place-south" title="Exit to Guildbrig 2" style="left:17.647%;top:18.182%;width:5.882%;height:9.091%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:5.882%;top:63.636%;width:5.882%;height:9.091%"></a><a id="place-down" class="mo mo-mapchange" href="../fallhaven_tunnel2/#place-up" title="Exit to Fallhaven tunnel 2" style="left:88.235%;top:54.545%;width:5.882%;height:9.091%"></a><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.588%;top:45.455%;width:5.882%;height:9.091%"></a><a class="pin pin-exit" href="#key-1" style="left:91.176%;top:59.091%" title="Exit (east): to [Fallhaven tunnel 2](fallhaven_tunnel2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:8.824%;top:50.000%" title="Exit (west): to [Fallhaven gravedigger](fallhaven_gravedigger.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:20.588%;top:22.727%" title="Exit (stairs / passage): to [Guildbrig 2](guildbrig2.md)">3</a><a class="pin pin-container" href="#key-4" style="left:8.824%;top:68.182%" title="Container 1: Rotten meat, Gold coins">4</a><a class="pin pin-key" href="#key-5" style="left:73.529%;top:50.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Fallhaven tunnel2](fallhaven_tunnel2.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Fallhaven tunnel 2](fallhaven_tunnel2.md) |
     | <span id="key-2"></span>2 | Exit (west) | to [Fallhaven gravedigger](fallhaven_gravedigger.md) |
-    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Guildbrig2](guildbrig2.md) |
+    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Guildbrig 2](guildbrig2.md) |
     | <span id="key-4"></span>4 | Container 1 | Rotten meat, Gold coins |
     | <span id="key-5"></span>5 | Blocked passage | Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”) |
 
@@ -43,9 +43,9 @@ description: "Guildbrig1 is an indoor location in Andor's Trail, in Fallhaven (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Fallhaven tunnel2](fallhaven_tunnel2.md) | Fallhaven | 1 |
+| East | [Fallhaven tunnel 2](fallhaven_tunnel2.md) | Fallhaven | 1 |
 | West | [Fallhaven gravedigger](fallhaven_gravedigger.md) | Fallhaven | 2 |
-| Stairs / passage | [Guildbrig2](guildbrig2.md) | Fallhaven | 3 |
+| Stairs / passage | [Guildbrig 2](guildbrig2.md) | Fallhaven | 3 |
 
 ## Items & containers
 

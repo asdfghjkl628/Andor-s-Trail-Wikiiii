@@ -1,8 +1,8 @@
 ---
-description: "guynmart_q2 Step is a hidden quest in Andor's Trail, started by Guynmart guard (guynmart). 14 stages. Step1"
+description: "Guynmart Castle step 2 is a hidden quest in Andor's Trail, started by Guynmart guard (guynmart). 14 stages. Step1"
 ---
 
-# guynmart_q2 Step
+# Guynmart Castle step 2
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "guynmart_q2 Step is a hidden quest in Andor's Trail, started by Gu
 | **Quest ID** | `guynmart_q2` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 14 |
-| **Started by** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)), [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
+| **Started by** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)), [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)) |
 | **NPCs involved** | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) |
-| **Locations** | [guynmart](../maps/guynmart.md) |
+| **Locations** | [Guynmart](../maps/guynmart.md) |
 
 </div>
 
@@ -26,14 +26,14 @@ description: "guynmart_q2 Step is a hidden quest in Andor's Trail, started by Gu
 
 ## Prerequisites to start
 
-**Route 1** ([Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md))):
+**Route 1** ([Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md))):
 
 - have 100 gold
 
-**Route 2** ([Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md))):
+**Route 2** ([Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md))):
 
 - have 100 gold
-- reached stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12)
+- reached stage 12 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-12)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -46,79 +46,160 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Step1 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 12 | clears stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12) |
-| <span id="stage-2"></span>2 | Step2 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 1 | clears stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1) |
-| <span id="stage-3"></span>3 | Step3 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 2 | clears stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2) |
-| <span id="stage-4"></span>4 | Step4 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 3 | clears stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3) |
-| <span id="stage-5"></span>5 | Step5 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 4 | clears stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4) |
-| <span id="stage-6"></span>6 | Step6 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 5 | clears stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5) |
-| <span id="stage-7"></span>7 | Step7 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 6 | clears stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6) |
-| <span id="stage-8"></span>8 | Step8 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 7 | clears stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7) |
-| <span id="stage-9"></span>9 | Step9 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 8 | clears stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8) |
-| <span id="stage-10"></span>10 | Step10 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 9 | clears stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9) |
-| <span id="stage-11"></span>11 | Step11 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 10 | clears stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10) |
-| <span id="stage-12"></span>12 | Step12 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) | have 100 gold, stage 11 | clears stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11) |
-| <span id="stage-13"></span>13 | Step13 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-99"></span>99 | Step99 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Step1 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-2"></span>[2](#route-2) | Step2 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-3"></span>[3](#route-3) | Step3 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-4"></span>[4](#route-4) | Step4 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-5"></span>[5](#route-5) | Step5 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-6"></span>[6](#route-6) | Step6 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-7"></span>[7](#route-7) | Step7 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-8"></span>[8](#route-8) | Step8 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-9"></span>[9](#route-9) | Step9 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-10"></span>[10](#route-10) | Step10 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-11"></span>[11](#route-11) | Step11 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-12"></span>[12](#route-12) | Step12 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) | – |
+| <span id="stage-13"></span>13 | Step13 | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-99"></span>99 | Step99 | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 2 routes"
+<span id="route-1"></span>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold → **stage 1**
-    2. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12) → **stage 1**; also clears stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12)
+??? note "Stage 1 · Guynmart guard · 2 ways"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1) → **stage 2**; also clears stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1)
+    - **Needs:** have 100 gold
 
-???+ note "Stage 3: 1 route"
+    **Way 2:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2) → **stage 3**; also clears stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2)
+    - **Needs:** stage 12; have 100 gold
+    - <small>Also: clears stage 12 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-12)</small>
 
-???+ note "Stage 4: 1 route"
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3) → **stage 4**; also clears stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3)
+<span id="route-2"></span>
 
-???+ note "Stage 5: 1 route"
+??? note "Stage 2 · Guynmart guard · 1 way"
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4) → **stage 5**; also clears stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4)
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-???+ note "Stage 6: 1 route"
+    - **Needs:** stage 1; have 100 gold
+    - <small>Also: clears stage 1 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-1)</small>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5) → **stage 6**; also clears stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5)
 
-???+ note "Stage 7: 1 route"
+<span id="route-3"></span>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6) → **stage 7**; also clears stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6)
+??? note "Stage 3 · Guynmart guard · 1 way"
 
-???+ note "Stage 8: 1 route"
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7) → **stage 8**; also clears stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7)
+    - **Needs:** stage 2; have 100 gold
+    - <small>Also: clears stage 2 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-2)</small>
 
-???+ note "Stage 9: 1 route"
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8) → **stage 9**; also clears stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8)
+<span id="route-4"></span>
 
-???+ note "Stage 10: 1 route"
+??? note "Stage 4 · Guynmart guard · 1 way"
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9) → **stage 10**; also clears stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9)
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
 
-???+ note "Stage 11: 1 route"
+    - **Needs:** stage 3; have 100 gold
+    - <small>Also: clears stage 3 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-3)</small>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10) → **stage 11**; also clears stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10)
 
-???+ note "Stage 12: 1 route"
+<span id="route-5"></span>
 
-    1. Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) → choose “Red” — **conditions:** have 100 gold; reached stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11) → **stage 12**; also clears stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11)
+??? note "Stage 5 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 4; have 100 gold
+    - <small>Also: clears stage 4 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-4)</small>
+
+
+<span id="route-6"></span>
+
+??? note "Stage 6 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 5; have 100 gold
+    - <small>Also: clears stage 5 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-5)</small>
+
+
+<span id="route-7"></span>
+
+??? note "Stage 7 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 6; have 100 gold
+    - <small>Also: clears stage 6 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-6)</small>
+
+
+<span id="route-8"></span>
+
+??? note "Stage 8 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 7; have 100 gold
+    - <small>Also: clears stage 7 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-7)</small>
+
+
+<span id="route-9"></span>
+
+??? note "Stage 9 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 8; have 100 gold
+    - <small>Also: clears stage 8 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-8)</small>
+
+
+<span id="route-10"></span>
+
+??? note "Stage 10 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 9; have 100 gold
+    - <small>Also: clears stage 9 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-9)</small>
+
+
+<span id="route-11"></span>
+
+??? note "Stage 11 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 10; have 100 gold
+    - <small>Also: clears stage 10 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-10)</small>
+
+
+<span id="route-12"></span>
+
+??? note "Stage 12 · Guynmart guard · 1 way"
+
+    **Way 1:** Talk to [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player), choose “Red”
+
+    - **Needs:** stage 11; have 100 gold
+    - <small>Also: clears stage 11 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-11)</small>
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -163,6 +244,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_q2` |
+    | Name in game data | `guynmart_q2 Step` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 99 |
     | Dialogue nodes setting stages | 1: `guynmart_player_100`, 1: `guynmart_player_112`, 2: `guynmart_player_101`, 3: `guynmart_player_102`, 4: `guynmart_player_103`, 5: `guynmart_player_104`, 6: `guynmart_player_105`, 7: `guynmart_player_106`, 8: `guynmart_player_107`, 9: `guynmart_player_108`, 10: `guynmart_player_109`, 11: `guynmart_player_110`, 12: `guynmart_player_111` |

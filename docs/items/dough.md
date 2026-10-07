@@ -30,7 +30,7 @@ description: "Raw dough is a ordinary other in Andor's Trail. How to get it: sho
 
 ### Quest & dialogue rewards
 
-- From [Androni](../monsters/brightport_chef.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-188) (1×)
+- From [Androni](../monsters/brightport_chef.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-188) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,8 +41,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (1×) | “Here, take them all.” |
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | must be carried (1×) | “(automatic)” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (1×) | “Here, take them all.” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

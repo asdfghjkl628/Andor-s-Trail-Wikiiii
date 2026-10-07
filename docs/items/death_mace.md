@@ -44,8 +44,8 @@ description: "Death mace is a ordinary mace in Andor's Trail (Attack damage 7 to
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Death wrecker](../monsters/death_wrecker.md) | 5% | 1 | haunted_house, haunted_house_basement, haunted_underground_1 |
-| [Mindless disgrace](../monsters/mindless_disgrace.md) | 5% | 1 | haunted_house, haunted_house_basement, haunted_underground_1 |
+| [Death wrecker](../monsters/death_wrecker.md) | 5% | 1 | Haunted house, Haunted house basement, Haunted underground 1 |
+| [Mindless disgrace](../monsters/mindless_disgrace.md) | 5% | 1 | Haunted house, Haunted house basement, Haunted underground 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

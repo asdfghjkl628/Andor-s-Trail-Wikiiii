@@ -4,7 +4,7 @@ description: "Elwel is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } Elwel
 
-**Where to find Elwel:** Remgard: [remgard_villager5](../maps/remgard_villager5.md#pin-npc-elwel)
+**Where to find Elwel:** Remgard: [Remgard villager 5](../maps/remgard_villager5.md#pin-npc-elwel)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Elwel is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Elwel. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Elwel. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/elwel.json" data-npc="Elwel" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-elwel"></span>**`elwel`** *(silent check: the first matching branch below is taken)*
 

@@ -45,7 +45,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Elwyl](../monsters/elwyl.md) ([remgard_villager5](../maps/remgard_villager5.md)) | [A difference of opinion](../quests/sisterfight.md#stage-70) | handed over (1×) | “I have a strong potion of accuracy focus for you.” |
+| [Elwyl](../monsters/elwyl.md) ([Remgard villager 5](../maps/remgard_villager5.md)) | [A difference of opinion](../quests/sisterfight.md#stage-70) | handed over (1×) | “I have a strong potion of accuracy focus for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

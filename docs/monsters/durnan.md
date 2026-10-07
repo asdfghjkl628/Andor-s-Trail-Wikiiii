@@ -1,10 +1,10 @@
 ---
-description: "Durnan the Hollow is a non-player character (NPC) in Andor's Trail, found in undertell_1_0."
+description: "Durnan the Hollow is a non-player character (NPC) in Andor's Trail, found in Undertell 1 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } Durnan the Hollow
 
-**Where to find Durnan the Hollow:** [undertell_1_0](../maps/undertell_1_0.md#pin-npc-durnan)
+**Where to find Durnan the Hollow:** [Undertell 1 0](../maps/undertell_1_0.md#pin-npc-durnan)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Durnan the Hollow is a non-player character (NPC) in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_1_0 |
+| **Found in** | Undertell 1 0 |
 | **Entry ID** | `durnan` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -25,7 +25,7 @@ description: "Durnan the Hollow is a non-player character (NPC) in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Durnan the Hollow. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Durnan the Hollow. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/undertell_ghost_durnan_10.json" data-npc="Durnan the Hollow" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-undertell_ghost_durnan_10"></span>**`undertell_ghost_durnan_10`** [Dummy NPC](../monsters/none.md): “A ghostly miner leans heavily on a spectral pickaxe, using it as a cane. His faded eyes glimmer faintly in the warm air of the tunnels.”
 

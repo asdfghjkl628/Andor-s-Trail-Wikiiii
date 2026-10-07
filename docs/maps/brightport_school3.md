@@ -1,8 +1,8 @@
 ---
-description: "Brightport school3 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Milena. Exits to Brightport school2, Brightport2, Brightport school5."
+description: "Brightport school 3 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Milena. Exits to Brightport school 2, Brightport 2, Brightport school 5."
 ---
 
-# Brightport school3
+# Brightport school 3
 
 <div class="infobox" markdown>
 
@@ -18,21 +18,21 @@ description: "Brightport school3 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport school3** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school2, Brightport2, Brightport school5.
+**Brightport school 3** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school 2, Brightport 2, Brightport school 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school3.webp" alt="Map of Brightport school3" width="384" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport2/#place-school1" title="Exit to Brightport2" style="left:50.000%;top:90.909%;width:8.333%;height:9.091%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_school2/#place-west" title="Exit to Brightport school2" style="left:91.667%;top:45.455%;width:8.333%;height:18.182%"></a><a id="place-west" class="mo mo-mapchange" href="../brightport_school5/#place-east" title="Exit to Brightport school5" style="left:0.000%;top:45.455%;width:8.333%;height:18.182%"></a><span class="mo mo-spawn" title="Spawns: Milena" style="left:25.000%;top:27.273%;width:25.000%;height:18.182%"></span><a class="mob" href="../../monsters/brightportnpc1/" title="Milena" style="left:41.667%;top:27.273%;width:8.333%;height:9.091%"><img src="../../assets/icons/monsters/monsters_karvis2_6.png" alt="Milena"></a><a class="pin pin-exit" href="#key-1" style="left:95.833%;top:54.545%" title="Exit (east): to [Brightport school2](brightport_school2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:54.167%;top:95.455%" title="Exit (south): to [Brightport2](brightport2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.167%;top:54.545%" title="Exit (west): to [Brightport school5](brightport_school5.md)">3</a><a id="pin-npc-brightportnpc1" class="pin pin-npc" href="#key-4" style="left:45.833%;top:31.818%" title="[Milena](../../monsters/brightportnpc1.md): 1 quest">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school3.webp" alt="Map of Brightport school 3" width="384" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport2/#place-school1" title="Exit to Brightport 2" style="left:50.000%;top:90.909%;width:8.333%;height:9.091%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_school2/#place-west" title="Exit to Brightport school 2" style="left:91.667%;top:45.455%;width:8.333%;height:18.182%"></a><a id="place-west" class="mo mo-mapchange" href="../brightport_school5/#place-east" title="Exit to Brightport school 5" style="left:0.000%;top:45.455%;width:8.333%;height:18.182%"></a><span class="mo mo-spawn" title="Spawns: Milena" style="left:25.000%;top:27.273%;width:25.000%;height:18.182%"></span><a class="mob" href="../../monsters/brightportnpc1/" title="Milena" style="left:41.667%;top:27.273%;width:8.333%;height:9.091%"><img src="../../assets/icons/monsters/monsters_karvis2_6.png" alt="Milena"></a><a class="pin pin-exit" href="#key-1" style="left:95.833%;top:54.545%" title="Exit (east): to [Brightport school 2](brightport_school2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:54.167%;top:95.455%" title="Exit (south): to [Brightport 2](brightport2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.167%;top:54.545%" title="Exit (west): to [Brightport school 5](brightport_school5.md)">3</a><a id="pin-npc-brightportnpc1" class="pin pin-npc" href="#key-4" style="left:45.833%;top:31.818%" title="[Milena](../../monsters/brightportnpc1.md): 1 quest">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightport school2](brightport_school2.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Brightport2](brightport2.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Brightport school5](brightport_school5.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightport school 2](brightport_school2.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Brightport 2](brightport2.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Brightport school 5](brightport_school5.md) |
     | <span id="key-4"></span>4 | [Milena](../monsters/brightportnpc1.md) | 1 quest |
 
 
@@ -42,9 +42,9 @@ description: "Brightport school3 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightport school2](brightport_school2.md) | Brightport | 1 |
-| South | [Brightport2](brightport2.md) | Brightport | 2 |
-| West | [Brightport school5](brightport_school5.md) | Brightport | 3 |
+| East | [Brightport school 2](brightport_school2.md) | Brightport | 1 |
+| South | [Brightport 2](brightport2.md) | Brightport | 2 |
+| West | [Brightport school 5](brightport_school5.md) | Brightport | 3 |
 
 ## NPCs
 

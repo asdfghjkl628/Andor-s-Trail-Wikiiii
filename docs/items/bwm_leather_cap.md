@@ -38,7 +38,7 @@ description: "Blackwater leather cap is a rare headwear, leather in Andor's Trai
 
 ### Sold by
 
-- [Iducus](../monsters/iducus.md) (blackwater_mountain44)
+- [Iducus](../monsters/iducus.md) (Blackwater mountain 44)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

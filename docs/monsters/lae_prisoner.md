@@ -1,5 +1,5 @@
 ---
-description: "Laeroth prisoner is a non-player character (NPC) in Andor's Trail, found in laerothprison4. Starts Shadow of the torturer."
+description: "Laeroth prisoner is a non-player character (NPC) in Andor's Trail, found in Laerothprison 4. Starts Shadow of the torturer."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_652.png){ .sprite } Laeroth prisoner
@@ -12,38 +12,38 @@ description: "Laeroth prisoner is a non-player character (NPC) in Andor's Trail,
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Shadow of the torturer](../quests/lae_torturer.md) |
-| **Found in** | laerothprison4 |
+| **Found in** | Laerothprison 4 |
 | **Entries in game data** | 11 |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
 !!! info "11 entries in the game data"
-    The game's data files define 11 separate characters named Laeroth prisoner. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 11 separate characters named Laeroth prisoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`lae_prisoner`](#v-lae_prisoner) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner) | – |
-| [`lae_prisoner1`](#v-lae_prisoner1) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner1) | – |
-| [`lae_prisoner2`](#v-lae_prisoner2) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2) | – |
-| [`lae_prisoner2a`](#v-lae_prisoner2a) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2a) | – |
-| [`lae_prisoner2i`](#v-lae_prisoner2i) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2i) | – |
-| [`lae_prisoner3`](#v-lae_prisoner3) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3) | – |
-| [`lae_prisoner3a`](#v-lae_prisoner3a) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3a) | – |
-| [`lae_prisoner3i`](#v-lae_prisoner3i) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3i) | – |
-| [`lae_prisoner4`](#v-lae_prisoner4) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner4) | starts [Shadow of the torturer](../quests/lae_torturer.md) |
-| [`lae_prisoner4i`](#v-lae_prisoner4i) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner4i) | starts [Shadow of the torturer](../quests/lae_torturer.md) |
+| [`lae_prisoner`](#v-lae_prisoner) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner) | – |
+| [`lae_prisoner1`](#v-lae_prisoner1) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner1) | – |
+| [`lae_prisoner2`](#v-lae_prisoner2) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2) | – |
+| [`lae_prisoner2a`](#v-lae_prisoner2a) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2a) | – |
+| [`lae_prisoner2i`](#v-lae_prisoner2i) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2i) | – |
+| [`lae_prisoner3`](#v-lae_prisoner3) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3) | – |
+| [`lae_prisoner3a`](#v-lae_prisoner3a) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3a) | – |
+| [`lae_prisoner3i`](#v-lae_prisoner3i) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3i) | – |
+| [`lae_prisoner4`](#v-lae_prisoner4) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner4) | starts [Shadow of the torturer](../quests/lae_torturer.md) |
+| [`lae_prisoner4i`](#v-lae_prisoner4i) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner4i) | starts [Shadow of the torturer](../quests/lae_torturer.md) |
 | [`lae_prisoner4a`](#v-lae_prisoner4a) | NPC | Not on a map | starts [Shadow of the torturer](../quests/lae_torturer.md) |
 
-## Laerothprison4 (lae_prisoner) { #v-lae_prisoner }
+## Laerothprison 4 (lae_prisoner) { #v-lae_prisoner }
 
 **Entry ID:** `lae_prisoner` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_prisoner-lae_prison1"></span>**`lae_prison1`** Laeroth prisoner: “Please help us!”
 
@@ -93,15 +93,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison4 (lae_prisoner1) { #v-lae_prisoner1 }
+## Laerothprison 4 (lae_prisoner1) { #v-lae_prisoner1 }
 
 **Entry ID:** `lae_prisoner1` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner1)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -145,15 +145,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner2) { #v-lae_prisoner2 }
+## Laerothprison 4 (lae_prisoner2) { #v-lae_prisoner2 }
 
 **Entry ID:** `lae_prisoner2` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -197,15 +197,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner2a) { #v-lae_prisoner2a }
+## Laerothprison 4 (lae_prisoner2a) { #v-lae_prisoner2a }
 
 **Entry ID:** `lae_prisoner2a` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2a)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2a)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -249,15 +249,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner2i) { #v-lae_prisoner2i }
+## Laerothprison 4 (lae_prisoner2i) { #v-lae_prisoner2i }
 
 **Entry ID:** `lae_prisoner2i` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner2i)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner2i)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -301,15 +301,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner3) { #v-lae_prisoner3 }
+## Laerothprison 4 (lae_prisoner3) { #v-lae_prisoner3 }
 
 **Entry ID:** `lae_prisoner3` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -353,15 +353,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner3a) { #v-lae_prisoner3a }
+## Laerothprison 4 (lae_prisoner3a) { #v-lae_prisoner3a }
 
 **Entry ID:** `lae_prisoner3a` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3a)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3a)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -405,15 +405,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner3i) { #v-lae_prisoner3i }
+## Laerothprison 4 (lae_prisoner3i) { #v-lae_prisoner3i }
 
 **Entry ID:** `lae_prisoner3i` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner3i)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner3i)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison1.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -457,11 +457,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_prisoner4) { #v-lae_prisoner4 }
+## Laerothprison 4 (lae_prisoner4) { #v-lae_prisoner4 }
 
 **Entry ID:** `lae_prisoner4` · **Type:** NPC · **Role:** Starts [Shadow of the torturer](../quests/lae_torturer.md)
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner4)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner4)
 
 ### Quests
 
@@ -469,7 +469,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison_01.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -477,12 +477,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_prisoner4-lae_prison_01"></span>**`lae_prison_01`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 25 of [Shadow of the torturer](../quests/lae_torturer.md#stage-25))* → [lae_prison_end](#d-lae_prisoner4-lae_prison_end)
-    - branch 2 *(if reached stage 31 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-31); reached stage 33 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-33); reached stage 34 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-34))* → [lae_prison_02](#d-lae_prisoner4-lae_prison_02)
+    - branch 2 *(if reached stage 31 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-31); reached stage 33 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-33); reached stage 34 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-34))* → [lae_prison_02](#d-lae_prisoner4-lae_prison_02)
     - branch 3 → [lae_prison_01a](#d-lae_prisoner4-lae_prison_01a)
 
     <span id="d-lae_prisoner4-lae_prison_end"></span>**`lae_prison_end`** *(silent check: the first matching branch below is taken)*
@@ -571,11 +571,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison4 (lae_prisoner4i) { #v-lae_prisoner4i }
+## Laerothprison 4 (lae_prisoner4i) { #v-lae_prisoner4i }
 
 **Entry ID:** `lae_prisoner4i` · **Type:** NPC · **Role:** Starts [Shadow of the torturer](../quests/lae_torturer.md)
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_prisoner4i)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_prisoner4i)
 
 ### Quests
 
@@ -583,7 +583,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison_01.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -639,7 +639,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laeroth prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laeroth prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_prison_01.json" data-npc="Laeroth prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

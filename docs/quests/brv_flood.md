@@ -11,9 +11,9 @@ description: "Much water is a quest in Andor's Trail, started by walking into a 
 | **Quest ID** | `brv_flood` |
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 200) |
-| **Started by** | walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) |
+| **Started by** | walking into a blocked passage on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) |
 | **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Alvies](../monsters/brv_alvies.md), [Attohead](../monsters/brv_attohead.md), [Guard](../monsters/guard.md#v-brv_exit_guard), [Mustura](../monsters/brv_guard_captain.md) |
-| **Locations** | [brimhaven3](../maps/brimhaven3.md), [brimhaven4](../maps/brimhaven4.md), [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md), [brimhaven_house1](../maps/brimhaven_house1.md) |
+| **Locations** | [Brimhaven 3](../maps/brimhaven3.md), [Brimhaven 4](../maps/brimhaven4.md), [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md), [Brimhaven house 1](../maps/brimhaven_house1.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 5 |
 
@@ -25,7 +25,7 @@ description: "Much water is a quest in Andor's Trail, started by walking into a 
 
 ## Prerequisites to start
 
-None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) to begin.
+None: talk to walking into a blocked passage on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -36,129 +36,265 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 reached, for stages 100, 110 here |
+| Requires | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 reached, for stages 100, 110 here |
 | Unlocks | [Search for Andor](andor.md#stage-65) | stage 65 there needs stages 120, 130 here |
 | Unlocks | [Search for Andor](andor.md#stage-910) | stage 910 there needs stage 200 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-71) | stage 71 there needs stages 52, 70 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-81) | stage 81 there needs stages 52, 70 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 there needs stages 52, 70 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-110) | stage 110 there needs stage 200 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-120) | stage 120 there needs stage 200 here |
-| Unlocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-20) | stage 20 there needs stage 200 here |
-| Unlocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-21) | stage 21 there needs stage 200 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-71) | stage 71 there needs stages 52, 70 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-81) | stage 81 there needs stages 52, 70 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-100) | stage 100 there needs stages 52, 70 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-110) | stage 110 there needs stage 200 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-120) | stage 120 there needs stage 200 here |
+| Unlocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-20) | stage 20 there needs stage 200 here |
+| Unlocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-21) | stage 21 there needs stage 200 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-20) | stage 20 there needs stage 130 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-30) | stage 30 there needs stage 200 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-35) | stage 35 there needs stage 200 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-40) | stage 40 there needs stage 200 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-50) | stage 50 there needs stage 200 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-15) | stage 15 there needs stage 200 here |
-| Blocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-71) | reaching stages 54, 70, 80 here closes stage 71 there |
-| Blocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-81) | reaching stages 54, 70, 80 here closes stage 81 there |
-| Blocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-100) | reaching stages 54, 70, 80 here closes stage 100 there |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-15) | stage 15 there needs stage 200 here |
+| Blocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-71) | reaching stages 54, 70, 80 here closes stage 71 there |
+| Blocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-81) | reaching stages 54, 70, 80 here closes stage 81 there |
+| Blocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-100) | reaching stages 54, 70, 80 here closes stage 100 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I found two not very bright brothers in a cellar of their house. They seemed to be talking about some sinister plan.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven brother1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | – | – |
-| <span id="stage-20"></span>20 | They were planning to destroy the great dam of Brimhaven. They just could not agree how they would do it. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | – | – |
-| <span id="stage-30"></span>30 | They asked me to help them. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | – | removes monsters from brimhaven1 |
-| <span id="stage-50"></span>50 | I have agreed to destroy the dam for them. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 30 | gives 1× [Hand Axe](../items/hand_axe.md) |
-| <span id="stage-52"></span>52 | The brothers gave me a hand axe that could weaken the dam in a vulnerable place. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 30 | gives 1× [Hand Axe](../items/hand_axe.md) |
-| <span id="stage-53"></span>53 | I took another hand axe. This time I shouldn't lose it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven brother1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | – | gives 1× [Hand Axe](../items/hand_axe.md) |
-| <span id="stage-54"></span>54 | I found the weak spot in the dam and started hacking at the wood.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | stage 52, wearing [Hand Axe](../items/hand_axe.md) | 500 XP<br>sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71)<br>sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81)<br>sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>spawns monsters on brimhaven3<br>spawns monsters on brimhaven4 |
-| <span id="stage-56"></span>56 | Water came pouring through the hole in the dam. A lot of water!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | stage 52, wearing [Hand Axe](../items/hand_axe.md) | sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71)<br>sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81)<br>sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>spawns monsters on brimhaven3<br>spawns monsters on brimhaven4 |
-| <span id="stage-70"></span>70 | I refused to destroy the dam for the brothers. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 30 | faction “brv_brothers” set to -1 |
-| <span id="stage-72"></span>72 | Given what I overheard, I was not allowed to leave. The two brothers attacked me. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 30 | faction “brv_brothers” set to -1 |
-| <span id="stage-75"></span>75 | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven brother1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | carry 1× [Coin bag (with the name "Alkapoan" on it)](../items/brv_richmans_coin_bag.md) | – |
-| <span id="stage-80"></span>80 | Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | stage 70 | sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71)<br>sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81)<br>sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>spawns monsters on brimhaven3<br>spawns monsters on brimhaven4 |
-| <span id="stage-100"></span>100 | The Brimhaven guards have informed me that I may not leave the town until they have investigated who destroyed the dam. | [Guard](../monsters/guard.md#v-brv_exit_guard) ([brimhaven3](../maps/brimhaven3.md))<br>[Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | stage 110 | – |
-| <span id="stage-110"></span>110 | I have promised to track down the real perpetrators. However, I still cannot leave the town. | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | – | – |
-| <span id="stage-120"></span>120 | The two brothers did not know their boss's name, but he seemed to have a lot of gold. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 110, stage 56 | – |
-| <span id="stage-130"></span>130 | The rich man living up on the hill of Brimhaven seemed to know more than he admitted. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 110, stage 120 | – |
-| <span id="stage-150"></span>150 | The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 120, stage 130 | gives 1× [Alkapoans's letters](../items/alkapoans_letters.md)<br>sets stage 65 of [Search for Andor](../quests/andor.md#stage-65) |
-| <span id="stage-200"></span>200 | I gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man. **(completes quest)** | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md), stage 110 | 1,000 XP<br>clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>removes monsters from brimhaven4<br>removes monsters from brimhaven3<br>removes monsters from brimhaven_house1<br>spawns monsters on brimhaven1<br>spawns monsters on brimhaven_house1 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I found two not very bright brothers in a cellar of their house.… ▸</span><span class="l">▴ less</span></summary>I found two not very bright brothers in a cellar of their house. They seemed to be talking about some sinister plan.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | walking into a blocked passage on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">They were planning to destroy the great dam of Brimhaven. They just… ▸</span><span class="l">▴ less</span></summary>They were planning to destroy the great dam of Brimhaven. They just could not agree how they would do it.</details> | [Alvies](../monsters/brv_alvies.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | They asked me to help them. | [Alvies](../monsters/brv_alvies.md) | removes monsters from brimhaven1 |
+| <span id="stage-50"></span>[50](#route-50) | I have agreed to destroy the dam for them. | [Alvies](../monsters/brv_alvies.md) | 1× [Hand Axe](../items/hand_axe.md) |
+| <span id="stage-52"></span>[52](#route-52) | The brothers gave me a hand axe that could weaken the dam in a vulnerable place. | [Alvies](../monsters/brv_alvies.md) | 1× [Hand Axe](../items/hand_axe.md) |
+| <span id="stage-53"></span>[53](#route-53) | I took another hand axe. This time I shouldn't lose it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | 1× [Hand Axe](../items/hand_axe.md) |
+| <span id="stage-54"></span>[54](#route-54) | I found the weak spot in the dam and started hacking at the wood.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | 500 XP, spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4 |
+| <span id="stage-56"></span>[56](#route-56) | Water came pouring through the hole in the dam. A lot of water!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4 |
+| <span id="stage-70"></span>[70](#route-70) | I refused to destroy the dam for the brothers. | [Alvies](../monsters/brv_alvies.md) | faction “brv_brothers” set to -1 |
+| <span id="stage-72"></span>[72](#route-72) | <details class="jt"><summary><span class="s">Given what I overheard, I was not allowed to leave. The two brothers… ▸</span><span class="l">▴ less</span></summary>Given what I overheard, I was not allowed to leave. The two brothers attacked me.</details> | [Alvies](../monsters/brv_alvies.md) | faction “brv_brothers” set to -1 |
+| <span id="stage-75"></span>[75](#route-75) | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | – |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">Someone else destroyed the dam and water came pouring through a hole… ▸</span><span class="l">▴ less</span></summary>Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4 |
+| <span id="stage-100"></span>[100](#route-100) | <details class="jt"><summary><span class="s">The Brimhaven guards have informed me that I may not leave the town… ▸</span><span class="l">▴ less</span></summary>The Brimhaven guards have informed me that I may not leave the town until they have investigated who destroyed the dam.</details> | [Guard](../monsters/guard.md#v-brv_exit_guard), [Mustura](../monsters/brv_guard_captain.md) | – |
+| <span id="stage-110"></span>[110](#route-110) | <details class="jt"><summary><span class="s">I have promised to track down the real perpetrators. However, I… ▸</span><span class="l">▴ less</span></summary>I have promised to track down the real perpetrators. However, I still cannot leave the town.</details> | [Mustura](../monsters/brv_guard_captain.md) | – |
+| <span id="stage-120"></span>[120](#route-120) | <details class="jt"><summary><span class="s">The two brothers did not know their boss's name, but he seemed to… ▸</span><span class="l">▴ less</span></summary>The two brothers did not know their boss's name, but he seemed to have a lot of gold.</details> | [Alvies](../monsters/brv_alvies.md) | – |
+| <span id="stage-130"></span>[130](#route-130) | <details class="jt"><summary><span class="s">The rich man living up on the hill of Brimhaven seemed to know more… ▸</span><span class="l">▴ less</span></summary>The rich man living up on the hill of Brimhaven seemed to know more than he admitted.</details> | [Alkapoan](../monsters/brv_richman.md) | – |
+| <span id="stage-150"></span>[150](#route-150) | <details class="jt"><summary><span class="s">The rich man boasted that he had been bribed by an important man in… ▸</span><span class="l">▴ less</span></summary>The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam.</details> | [Alkapoan](../monsters/brv_richman.md) | 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [Search for Andor](../quests/andor.md#stage-65) |
+| <span id="stage-200"></span>[200](#route-200) | <details class="jt"><summary><span class="s">I gave the letters as a piece of evidence to the captain of the… ▸</span><span class="l">▴ less</span></summary>I gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man.</details> **(ends quest)** | [Mustura](../monsters/brv_guard_captain.md) | 1,000 XP, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1 |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) → the conversation leads here automatically → **stage 10**. NPC: “[You eavesdrop on the middle of the conversation. ] ... have to make sure no one finds out what we are going to do.”
+??? note "Stage 10 · walking into a blocked passage on brimhaven_brother1_to_2 · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Walking into a blocked passage on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md)
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → the conversation leads here automatically → **stage 20**. NPC: “[It seems they still have not seen you, because they have their backs turned to you.] Your way of destroying the dam…”
+    - *“[You eavesdrop on the middle of the conversation. ] ... have to make sure no one finds out what we are going to do.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [Much water](../quests/brv_flood.md#stage-30) → **stage 30**; also removes monsters from brimhaven1. NPC: “Would you assist us in destroying the dam?”
+<span id="route-20"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 20 · Alvies · 1 way"
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → choose “OK, I would like to help you destroy the dam.” — **conditions:** reached stage 30 of [Much water](../quests/brv_flood.md#stage-30) → **stage 50**; also gives 1× [Hand Axe](../items/hand_axe.md). NPC: “To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of…”
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), automatic
 
-???+ note "Stage 52: 1 route"
+    - *“[It seems they still have not seen you, because they have their backs turned to you.] Your way of destroying the dam will not work. Better…”*
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → choose “OK, I would like to help you destroy the dam.” — **conditions:** reached stage 30 of [Much water](../quests/brv_flood.md#stage-30) → **stage 52**; also gives 1× [Hand Axe](../items/hand_axe.md). NPC: “To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of…”
 
-???+ note "Stage 53: 1 route"
+<span id="route-30"></span>
 
-    1. stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) → the conversation leads here automatically → **stage 53**; also gives 1× [Hand Axe](../items/hand_axe.md). NPC: “So lucky! Another small hand axe lies here.”
+??? note "Stage 30 · Alvies · 1 way"
 
-???+ note "Stage 54: 1 route"
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), automatic
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Start hacking on the wood.” — **conditions:** NOT reached stage 70 of [Much water](../quests/brv_flood.md#stage-70); reached stage 52 of [Much water](../quests/brv_flood.md#stage-52); NOT reached stage 54 of [Much water](../quests/brv_flood.md#stage-54); wearing [Hand Axe](../items/hand_axe.md) → **stage 54**; also sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4. NPC: “Water comes pouring through the hole in the dam. A lot of water!”
+    - **Needs:** stage 30
+    - **Gives:** removes monsters from brimhaven1
+    - *“Would you assist us in destroying the dam?”*
 
-???+ note "Stage 56: 1 route"
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Start hacking on the wood.” — **conditions:** NOT reached stage 70 of [Much water](../quests/brv_flood.md#stage-70); reached stage 52 of [Much water](../quests/brv_flood.md#stage-52); NOT reached stage 54 of [Much water](../quests/brv_flood.md#stage-54); wearing [Hand Axe](../items/hand_axe.md) → **stage 56**; also sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4. NPC: “Water comes pouring through the hole in the dam. A lot of water!”
+<span id="route-50"></span>
 
-???+ note "Stage 70: 1 route"
+??? note "Stage 50 · Alvies · 1 way"
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → choose “No, I will never do that!” — **conditions:** reached stage 30 of [Much water](../quests/brv_flood.md#stage-30) → **stage 70**; also faction “brv_brothers” set to -1. NPC: “Then we have to shut you up and do it ourselves.”
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), choose “OK, I would like to help you destroy the dam.”
 
-???+ note "Stage 72: 1 route"
+    - **Needs:** stage 30
+    - **Gives:** 1× [Hand Axe](../items/hand_axe.md)
+    - *“To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry…”*
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → choose “No, I will never do that!” — **conditions:** reached stage 30 of [Much water](../quests/brv_flood.md#stage-30) → **stage 72**; also faction “brv_brothers” set to -1. NPC: “Then we have to shut you up and do it ourselves.”
 
-???+ note "Stage 75: 1 route"
+<span id="route-52"></span>
 
-    1. stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) → the conversation leads here automatically — **conditions:** carry 1× [Coin bag (with the name "Alkapoan" on it)](../items/brv_richmans_coin_bag.md) → **stage 75**
+??? note "Stage 52 · Alvies · 1 way"
 
-???+ note "Stage 80: 1 route"
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), choose “OK, I would like to help you destroy the dam.”
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → the conversation leads here automatically — **conditions:** reached stage 70 of [Much water](../quests/brv_flood.md#stage-70); NOT reached stage 80 of [Much water](../quests/brv_flood.md#stage-80) → **stage 80**; also sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4. NPC: “Water comes pouring through a hole in the dam. A lot of water! If not the brothers, then someone else destroyed the dam.”
+    - **Needs:** stage 30
+    - **Gives:** 1× [Hand Axe](../items/hand_axe.md)
+    - *“To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry…”*
 
-???+ note "Stage 100: 3 routes"
 
-    1. Talk to [Guard](../monsters/guard.md#v-brv_exit_guard) ([brimhaven3](../maps/brimhaven3.md)) → the conversation leads here automatically → **stage 100**. NPC: “Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.”
-    2. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “[Lie] I have no idea, but I will try to help you.” — **conditions:** reached stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100) → **stage 100**. NPC: “Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.”
-    3. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “No, not yet, but I will try to help you.” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110) → **stage 100**. NPC: “Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave…”
+<span id="route-53"></span>
 
-???+ note "Stage 110: 2 routes"
+??? note "Stage 53 · stepping on a trigger on brimhaven_brother1_to_2 · 1 way"
 
-    1. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “[Lie] I have no idea, but I will try to help you.” — **conditions:** reached stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100) → **stage 110**. NPC: “Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.”
-    2. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “No, not yet, but I will try to help you.” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110) → **stage 110**. NPC: “Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave…”
+    **Way 1:** Stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md)
 
-???+ note "Stage 120: 1 route"
+    - **Gives:** 1× [Hand Axe](../items/hand_axe.md)
+    - *“So lucky! Another small hand axe lies here.”*
 
-    1. Talk to [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) → choose “Can you tell me who is your boss?” — **conditions:** reached stage 56 of [Much water](../quests/brv_flood.md#stage-56); reached stage 110 of [Much water](../quests/brv_flood.md#stage-110) → **stage 120**. NPC: “We don't know him by name. He looked very rich and I think he lives in the western town alone in a big house.”
 
-???+ note "Stage 130: 1 route"
+<span id="route-54"></span>
 
-    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “Are you sure?” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110); NOT reached stage 150 of [Much water](../quests/brv_flood.md#stage-150); reached stage 120 of [Much water](../quests/brv_flood.md#stage-120) → **stage 130**. NPC: “I... I.... know nothing. Really, it is the truth!”
+??? note "Stage 54 · stepping on a trigger on brimhaven1 · 1 way"
 
-???+ note "Stage 150: 1 route"
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Start hacking on the wood.”
 
-    1. Talk to [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) → choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.” — **conditions:** reached stage 130 of [Much water](../quests/brv_flood.md#stage-130); reached stage 120 of [Much water](../quests/brv_flood.md#stage-120) → **stage 150**; also gives 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [Search for Andor](../quests/andor.md#stage-65). NPC: “[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them,…”
+    - **Needs:** stage 52; not yet stage 54, 70; wearing [Hand Axe](../items/hand_axe.md)
+    - **Gives:** spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4
+    - <small>Also: sets stage 71 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)</small>
+    - *“Water comes pouring through the hole in the dam. A lot of water!”*
 
-???+ note "Stage 200: 1 route"
 
-    1. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110); hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md) → **stage 200**; also clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100), removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1. NPC: “We will check this and if it is true then you can leave the town.”
+<span id="route-56"></span>
+
+??? note "Stage 56 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Start hacking on the wood.”
+
+    - **Needs:** stage 52; not yet stage 54, 70; wearing [Hand Axe](../items/hand_axe.md)
+    - **Gives:** spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4
+    - <small>Also: sets stage 71 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)</small>
+    - *“Water comes pouring through the hole in the dam. A lot of water!”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Alvies · 1 way"
+
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), choose “No, I will never do that!”
+
+    - **Needs:** stage 30
+    - **Gives:** faction “brv_brothers” set to -1
+    - *“Then we have to shut you up and do it ourselves.”*
+
+
+<span id="route-72"></span>
+
+??? note "Stage 72 · Alvies · 1 way"
+
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), choose “No, I will never do that!”
+
+    - **Needs:** stage 30
+    - **Gives:** faction “brv_brothers” set to -1
+    - *“Then we have to shut you up and do it ourselves.”*
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · stepping on a trigger on brimhaven_brother1_to_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md)
+
+    - **Needs:** carry 1× [Coin bag (with the name "Alkapoan" on it)](../items/brv_richmans_coin_bag.md)
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md)
+
+    - **Needs:** stage 70; not yet stage 80
+    - **Gives:** spawns monsters on brimhaven3, spawns monsters on brimhaven4, spawns monsters on brimhaven4
+    - <small>Also: sets stage 71 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-71), sets stage 81 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-81), sets stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)</small>
+    - *“Water comes pouring through a hole in the dam. A lot of water! If not the brothers, then someone else destroyed the dam.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Guard, Mustura · 3 ways"
+
+    **Way 1:** Talk to [Guard](../monsters/guard.md#v-brv_exit_guard), automatic
+
+    - *“Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.”*
+
+    **Way 2:** Talk to [Mustura](../monsters/brv_guard_captain.md), choose “[Lie] I have no idea, but I will try to help you.”
+
+    - **Needs:** reached stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)
+    - *“Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.”*
+
+    **Way 3:** Talk to [Mustura](../monsters/brv_guard_captain.md), choose “No, not yet, but I will try to help you.”
+
+    - **Needs:** stage 110
+    - *“Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave the city.”*
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · Mustura · 2 ways"
+
+    **Way 1:** Talk to [Mustura](../monsters/brv_guard_captain.md), choose “[Lie] I have no idea, but I will try to help you.”
+
+    - **Needs:** reached stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)
+    - *“Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.”*
+
+    **Way 2:** Talk to [Mustura](../monsters/brv_guard_captain.md), choose “No, not yet, but I will try to help you.”
+
+    - **Needs:** stage 110
+    - *“Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave the city.”*
+
+
+<span id="route-120"></span>
+
+??? note "Stage 120 · Alvies · 1 way"
+
+    **Way 1:** Talk to [Alvies](../monsters/brv_alvies.md), choose “Can you tell me who is your boss?”
+
+    - **Needs:** stage 56, 110
+    - *“We don't know him by name. He looked very rich and I think he lives in the western town alone in a big house.”*
+
+
+<span id="route-130"></span>
+
+??? note "Stage 130 · Alkapoan · 1 way"
+
+    **Way 1:** Talk to [Alkapoan](../monsters/brv_richman.md), choose “Are you sure?”
+
+    - **Needs:** stage 110, 120; not yet stage 150
+    - *“I... I.... know nothing. Really, it is the truth!”*
+
+
+<span id="route-150"></span>
+
+??? note "Stage 150 · Alkapoan · 1 way"
+
+    **Way 1:** Talk to [Alkapoan](../monsters/brv_richman.md), choose “I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.”
+
+    - **Needs:** stage 120, 130
+    - **Gives:** 1× [Alkapoans's letters](../items/alkapoans_letters.md), sets stage 65 of [Search for Andor](../quests/andor.md#stage-65)
+    - *“[Breaks down] I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I…”*
+
+
+<span id="route-200"></span>
+
+??? note "Stage 200 · Mustura · 1 way"
+
+    **Way 1:** Talk to [Mustura](../monsters/brv_guard_captain.md), choose “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his home for you to arrest him.”
+
+    - **Needs:** stage 110; hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md)
+    - **Gives:** removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1
+    - <small>Also: clears stage 100 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-100)</small>
+    - *“We will check this and if it is true then you can leave the town.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

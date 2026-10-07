@@ -1,10 +1,10 @@
 ---
-description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found in lostmine11."
+description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found in Lostmine 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_123.png){ .sprite } Thukuzun
 
-**Where to find Thukuzun:** [lostmine11](../maps/lostmine11.md#pin-npc-thukuzun)
+**Where to find Thukuzun:** [Lostmine 11](../maps/lostmine11.md#pin-npc-thukuzun)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | lostmine11 |
+| **Found in** | Lostmine 11 |
 | **Class** | Undead |
 | **HP** | 193 |
 | **XP when defeated** | 564 |
@@ -63,7 +63,7 @@ description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine11](../maps/lostmine11.md) | – | 1 | – |
+| [Lostmine 11](../maps/lostmine11.md) | – | 1 | – |
 
 ## Quests
 
@@ -71,7 +71,7 @@ description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thukuzun. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thukuzun. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thukuzun.json" data-npc="Thukuzun" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,7 +79,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thukuzun"></span>**`thukuzun`** Thukuzun: “Ah, another mortal that has come to bow before the might of Thukuzun.” — **effects:** sets stage 30 of [Trial by fire](../quests/charwood2.md#stage-30)
 

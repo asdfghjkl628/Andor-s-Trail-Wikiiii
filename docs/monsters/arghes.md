@@ -4,7 +4,7 @@ description: "Arghes is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Arghes
 
-**Where to find Arghes:** Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-arghes)
+**Where to find Arghes:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-arghes)
 
 <div class="infobox" markdown>
 
@@ -32,11 +32,11 @@ description: "Arghes is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 70
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 70
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arghes. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Arghes. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/arghes.json" data-npc="Arghes" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-arghes"></span>**`arghes`** *(silent check: the first matching branch below is taken)*
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [arghes_4](#d-arghes_4)
 
-    <span id="d-brv_wh_delivery_arghes"></span>**`brv_wh_delivery_arghes`** Arghes: “Yes kid, thank you. Here, take this gold for them.” — **effects:** clears stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 70 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70), gives 50× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_arghes"></span>**`brv_wh_delivery_arghes`** Arghes: “Yes kid, thank you. Here, take this gold for them.” — **effects:** clears stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 70 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70), gives 50× [Gold coins](../items/gold.md)
 
     - “You're welcome.” → *conversation ends*
     - “Bye.” → *conversation ends*
@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “I know .. a great deal of things.” → “I know ... a great deal of things.”<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

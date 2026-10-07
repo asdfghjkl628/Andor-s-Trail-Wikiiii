@@ -49,7 +49,7 @@ description: "Venomous Dagger is a extraordinary dagger in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Snake master](../monsters/snake_master.md) | 100% | 1 | snakecave3 |
+| [Snake master](../monsters/snake_master.md) | 100% | 1 | Snakecave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

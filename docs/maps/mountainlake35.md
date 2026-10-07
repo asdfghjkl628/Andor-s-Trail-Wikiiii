@@ -1,8 +1,8 @@
 ---
-description: "Mountainlake35 is an indoor location in Andor's Trail. NPCs: Charybdis. Enemies: Fish, Jellyfish. Exits to Mountainlake34, Mountainlake33, Mountainlake4, Mountainlake36."
+description: "Mountainlake 35 is an indoor location in Andor's Trail. NPCs: Charybdis. Enemies: Fish, Jellyfish. Exits to Mountainlake 34, Mountainlake 33, Mountainlake 4, Mountainlake 36."
 ---
 
-# Mountainlake35
+# Mountainlake 35
 
 <div class="infobox" markdown>
 
@@ -11,7 +11,7 @@ description: "Mountainlake35 is an indoor location in Andor's Trail. NPCs: Chary
 | **Map ID** | `mountainlake35` |
 | **Type** | Indoors / underground |
 | **Size** | 8×10 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 10 |
@@ -19,23 +19,23 @@ description: "Mountainlake35 is an indoor location in Andor's Trail. NPCs: Chary
 
 </div>
 
-**Mountainlake35** is an indoor map. It has 1 NPC and 10 kinds of enemy. Exits lead to Mountainlake34, Mountainlake33, Mountainlake4, Mountainlake36 and 1 more.
+**Mountainlake 35** is an indoor map. It has 1 NPC and 10 kinds of enemy. Exits lead to Mountainlake 34, Mountainlake 33, Mountainlake 4, Mountainlake 36 and 1 more.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake35.webp" alt="Map of Mountainlake35" width="256" height="320" loading="lazy"><a id="place-east2" class="mo mo-mapchange" href="../mountainlake4/#place-west" title="Exit to Mountainlake4" style="left:87.500%;top:60.000%;width:12.500%;height:30.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../mountainlake33/#place-west2" title="Exit to Mountainlake33" style="left:87.500%;top:10.000%;width:12.500%;height:20.000%"></a><a id="place-north" class="mo mo-mapchange" href="../mountainlake34/#place-south2" title="Exit to Mountainlake34" style="left:25.000%;top:0.000%;width:62.500%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake36/#place-north" title="Exit to Mountainlake36" style="left:12.500%;top:90.000%;width:75.000%;height:10.000%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake31/#place-east" title="Exit to Mountainlake31" style="left:0.000%;top:10.000%;width:12.500%;height:80.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-35" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))" style="left:0.000%;top:10.000%;width:100.000%;height:80.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-35" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))" style="left:12.500%;top:0.000%;width:75.000%;height:100.000%"></a><a class="mo mo-script" href="../../quests/ll2_nd/#stage-31" title="Scripted event: advances the quest: hidden story flag “ll2_nd” to stage 31 (“31=Charybdis aktiv”)" style="left:12.500%;top:10.000%;width:75.000%;height:80.000%"></a><span id="place-whirl" class="mo mo-mapchange" title="Whirl" style="left:37.500%;top:50.000%;width:12.500%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Charybdis (only appears later, during a quest)" style="left:25.000%;top:20.000%;width:50.000%;height:60.000%"></span><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:25.000%;top:20.000%;width:50.000%;height:60.000%"></span><a class="mob mob-later" href="../../monsters/ll2_whirl/" title="Charybdis (appears later in a quest)" style="left:37.500%;top:50.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_81.png" alt="Charybdis"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish2" title="Fish" style="left:50.000%;top:70.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/ll2_watersnake1/" title="Eel" style="left:37.500%;top:60.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_17.png" alt="Eel"></a><a class="pin pin-exit" href="#key-1" style="left:56.250%;top:5.000%" title="Exit (north): to [Mountainlake34](mountainlake34.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:93.750%;top:20.000%" title="Exit (northeast): to [Mountainlake33](mountainlake33.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:93.750%;top:75.000%" title="Exit (east): to [Mountainlake4](mountainlake4.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:50.000%;top:95.000%" title="Exit (south): to [Mountainlake36](mountainlake36.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:6.250%;top:50.000%" title="Exit (west): to [Mountainlake31](mountainlake31.md)">5</a><a id="pin-npc-ll2_whirl" class="pin pin-npc" href="#key-6" style="left:43.750%;top:55.000%" title="[Charybdis](../../monsters/ll2_whirl.md): 1 quest">6</a><a class="pin pin-script" href="#key-7" style="left:50.000%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))">7</a><a class="pin pin-script" href="#key-7" style="left:50.823%;top:42.501%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))">7</a><a class="pin pin-script" href="#key-8" style="left:56.307%;top:56.581%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_nd” to stage 31 (“31=Charybdis aktiv”)">8</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake35.webp" alt="Map of Mountainlake 35" width="256" height="320" loading="lazy"><a id="place-east2" class="mo mo-mapchange" href="../mountainlake4/#place-west" title="Exit to Mountainlake 4" style="left:87.500%;top:60.000%;width:12.500%;height:30.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../mountainlake33/#place-west2" title="Exit to Mountainlake 33" style="left:87.500%;top:10.000%;width:12.500%;height:20.000%"></a><a id="place-north" class="mo mo-mapchange" href="../mountainlake34/#place-south2" title="Exit to Mountainlake 34" style="left:25.000%;top:0.000%;width:62.500%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake36/#place-north" title="Exit to Mountainlake 36" style="left:12.500%;top:90.000%;width:75.000%;height:10.000%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake31/#place-east" title="Exit to Mountainlake 31" style="left:0.000%;top:10.000%;width:12.500%;height:80.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-35" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))" style="left:0.000%;top:10.000%;width:100.000%;height:80.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-35" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))" style="left:12.500%;top:0.000%;width:75.000%;height:100.000%"></a><a class="mo mo-script" href="../../quests/ll2_nd/#stage-31" title="Scripted event: advances the quest: hidden story flag “ll2_nd” to stage 31 (“31=Charybdis aktiv”)" style="left:12.500%;top:10.000%;width:75.000%;height:80.000%"></a><span id="place-whirl" class="mo mo-mapchange" title="Whirl" style="left:37.500%;top:50.000%;width:12.500%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Charybdis (only appears later, during a quest)" style="left:25.000%;top:20.000%;width:50.000%;height:60.000%"></span><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:25.000%;top:20.000%;width:50.000%;height:60.000%"></span><a class="mob mob-later" href="../../monsters/ll2_whirl/" title="Charybdis (appears later in a quest)" style="left:37.500%;top:50.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_81.png" alt="Charybdis"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish2" title="Fish" style="left:50.000%;top:70.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/ll2_watersnake1/" title="Eel" style="left:37.500%;top:60.000%;width:12.500%;height:10.000%"><img src="../../assets/icons/monsters/monsters_nut_17.png" alt="Eel"></a><a class="pin pin-exit" href="#key-1" style="left:56.250%;top:5.000%" title="Exit (north): to [Mountainlake 34](mountainlake34.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:93.750%;top:20.000%" title="Exit (northeast): to [Mountainlake 33](mountainlake33.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:93.750%;top:75.000%" title="Exit (east): to [Mountainlake 4](mountainlake4.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:50.000%;top:95.000%" title="Exit (south): to [Mountainlake 36](mountainlake36.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:6.250%;top:50.000%" title="Exit (west): to [Mountainlake 31](mountainlake31.md)">5</a><a id="pin-npc-ll2_whirl" class="pin pin-npc" href="#key-6" style="left:43.750%;top:55.000%" title="[Charybdis](../../monsters/ll2_whirl.md): 1 quest">6</a><a class="pin pin-script" href="#key-7" style="left:50.000%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))">7</a><a class="pin pin-script" href="#key-7" style="left:50.823%;top:42.501%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s))">7</a><a class="pin pin-script" href="#key-8" style="left:56.307%;top:56.581%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_nd” to stage 31 (“31=Charybdis aktiv”)">8</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Mountainlake34](mountainlake34.md) |
-    | <span id="key-2"></span>2 | Exit (northeast) | to [Mountainlake33](mountainlake33.md) |
-    | <span id="key-3"></span>3 | Exit (east) | to [Mountainlake4](mountainlake4.md) |
-    | <span id="key-4"></span>4 | Exit (south) | to [Mountainlake36](mountainlake36.md) |
-    | <span id="key-5"></span>5 | Exit (west) | to [Mountainlake31](mountainlake31.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Mountainlake 34](mountainlake34.md) |
+    | <span id="key-2"></span>2 | Exit (northeast) | to [Mountainlake 33](mountainlake33.md) |
+    | <span id="key-3"></span>3 | Exit (east) | to [Mountainlake 4](mountainlake4.md) |
+    | <span id="key-4"></span>4 | Exit (south) | to [Mountainlake 36](mountainlake36.md) |
+    | <span id="key-5"></span>5 | Exit (west) | to [Mountainlake 31](mountainlake31.md) |
     | <span id="key-6"></span>6 | [Charybdis](../monsters/ll2_whirl.md) | 1 quest |
     | <span id="key-7"></span>7 | Quest trigger | Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 35 (“35=mountainlake35”) (+1 more quest(s)) |
     | <span id="key-8"></span>8 | Quest trigger | Scripted event: advances the quest: hidden story flag “ll2_nd” to stage 31 (“31=Charybdis aktiv”) |
@@ -47,11 +47,11 @@ description: "Mountainlake35 is an indoor location in Andor's Trail. NPCs: Chary
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Mountainlake34](mountainlake34.md) | – | 1 |
-| Northeast | [Mountainlake33](mountainlake33.md) | – | 2 |
-| East | [Mountainlake4](mountainlake4.md) | – | 3 |
-| South | [Mountainlake36](mountainlake36.md) | Lake Laeroth | 4 |
-| West | [Mountainlake31](mountainlake31.md) | Lake Laeroth | 5 |
+| North | [Mountainlake 34](mountainlake34.md) | – | 1 |
+| Northeast | [Mountainlake 33](mountainlake33.md) | – | 2 |
+| East | [Mountainlake 4](mountainlake4.md) | – | 3 |
+| South | [Mountainlake 36](mountainlake36.md) | Lake Laeroth | 4 |
+| West | [Mountainlake 31](mountainlake31.md) | Lake Laeroth | 5 |
 
 ## NPCs
 
@@ -61,24 +61,24 @@ description: "Mountainlake35 is an indoor location in Andor's Trail. NPCs: Chary
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 2 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid |
+| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 2 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
 - [A map of the Great Lake Laeroth](../quests/lake_map.md): [Charybdis](../monsters/ll2_whirl.md) is involved; something on this map advances it; stepping on a trigger here sets stage 900
-- [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md): something on this map advances it; stepping on a trigger here sets stage 35
-- [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md): something on this map advances it; stepping on a trigger here sets stage 31; stepping on a trigger here sets stage 33; stepping on a trigger here sets stage 34; stepping on a trigger here sets stage 35; stepping on a trigger here sets stage 36; stepping on a trigger here sets stage 37
+- [Lake Laeroth maps found (hidden flag)](../quests/ll2_maps.md): something on this map advances it; stepping on a trigger here sets stage 35
+- [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md): something on this map advances it; stepping on a trigger here sets stage 31; stepping on a trigger here sets stage 33; stepping on a trigger here sets stage 34; stepping on a trigger here sets stage 35; stepping on a trigger here sets stage 36; stepping on a trigger here sets stage 37
 
 ## Points of interest
 

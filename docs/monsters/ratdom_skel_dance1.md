@@ -18,27 +18,27 @@ description: "Dancing skeleton is a non-player character (NPC) in Andor's Trail,
 </div>
 
 !!! info "7 entries in the game data"
-    The game's data files define 7 separate characters named Dancing skeleton. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 7 separate characters named Dancing skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`ratdom_skel_dance1`](#v-ratdom_skel_dance1) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1) | – |
-| [`ratdom_skel_dance2`](#v-ratdom_skel_dance2) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2) | – |
-| [`ratdom_skel_dance3`](#v-ratdom_skel_dance3) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3) | – |
-| [`ratdom_skel_dance4`](#v-ratdom_skel_dance4) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4) | – |
-| [`ratdom_skel_dance5`](#v-ratdom_skel_dance5) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5) | – |
-| [`ratdom_skel_dance6`](#v-ratdom_skel_dance6) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6) | – |
-| [`ratdom_skel_dance7`](#v-ratdom_skel_dance7) | NPC | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7) | – |
+| [`ratdom_skel_dance1`](#v-ratdom_skel_dance1) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1) | – |
+| [`ratdom_skel_dance2`](#v-ratdom_skel_dance2) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2) | – |
+| [`ratdom_skel_dance3`](#v-ratdom_skel_dance3) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3) | – |
+| [`ratdom_skel_dance4`](#v-ratdom_skel_dance4) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4) | – |
+| [`ratdom_skel_dance5`](#v-ratdom_skel_dance5) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5) | – |
+| [`ratdom_skel_dance6`](#v-ratdom_skel_dance6) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6) | – |
+| [`ratdom_skel_dance7`](#v-ratdom_skel_dance7) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7) | – |
 
 ## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance1) { #v-ratdom_skel_dance1 }
 
 **Entry ID:** `ratdom_skel_dance1` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_skel_dance1-ratdom_do_nothing"></span>**`ratdom_do_nothing`** Dancing skeleton: “Let's do the bone dance again!”
 
@@ -93,11 +93,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_skel_dance2` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -146,11 +146,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_skel_dance3` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -199,11 +199,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_skel_dance4` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -252,11 +252,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_skel_dance5` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -305,11 +305,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_skel_dance6` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -358,11 +358,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_skel_dance7` · **Type:** NPC
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dancing skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

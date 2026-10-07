@@ -27,7 +27,7 @@ description: "Fancy looking key is a quest other in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-140) (1×)
+- From stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-140) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-150) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) | [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-150) | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

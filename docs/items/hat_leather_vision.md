@@ -38,7 +38,7 @@ description: "Leather cap of reduced vision is a ordinary headwear, leather in A
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

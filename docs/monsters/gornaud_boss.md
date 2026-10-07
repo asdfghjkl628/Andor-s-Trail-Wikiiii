@@ -4,7 +4,7 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 
 # ![](../assets/icons/monsters/monsters_rltiles2_30.png){ .sprite } Gornaud leader
 
-**Found in:** Blackwater Mountain: [bwmfill8](../maps/bwmfill8.md)
+**Found in:** Blackwater Mountain: [Bwmfill 8](../maps/bwmfill8.md)
 
 <div class="infobox" markdown>
 
@@ -59,7 +59,7 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bwmfill8](../maps/bwmfill8.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 8](../maps/bwmfill8.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Village ant is an enemy in Andor's Trail (insect) with 54 HP, wort
 
 # ![](../assets/icons/monsters/monsters_insects_0.png){ .sprite } Village ant
 
-**Found in:** Wexlow Village: [way_to_wexlow3](../maps/way_to_wexlow3.md), Wexlow Village: [wexlow_village](../maps/wexlow_village.md)
+**Found in:** Wexlow Village: [Way to wexlow 3](../maps/way_to_wexlow3.md), Wexlow Village: [Wexlow village](../maps/wexlow_village.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Village ant is an enemy in Andor's Trail (insect) with 54 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_wexlow3](../maps/way_to_wexlow3.md) | Wexlow Village | 1 | – |
-| [wexlow_village](../maps/wexlow_village.md) | Wexlow Village | 17 | – |
+| [Way to wexlow 3](../maps/way_to_wexlow3.md) | Wexlow Village | 1 | – |
+| [Wexlow village](../maps/wexlow_village.md) | Wexlow Village | 17 | – |
 
 
 ## Version history

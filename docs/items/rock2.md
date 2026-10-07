@@ -26,12 +26,12 @@ description: "Large rock is a ordinary other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kazarite golem](../monsters/elm_golem1.md) | 10% | 1 | elm5f_1, elm5f_2, elm_3f |
-| [Dried kazarite golem](../monsters/elm_golem2.md) | 10% | 1 | elm5f_1, elm5f_2, elm_3f |
+| [Kazarite golem](../monsters/elm_golem1.md) | 10% | 1 | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Dried kazarite golem](../monsters/elm_golem2.md) | 10% | 1 | Elm 5f 1, Elm 5f 2, Elm 3f |
 
 ### Found in containers
 
-- [elm_4f_2](../maps/elm_4f_2.md#container-0) (container 1, 10%)
+- [Elm 4f 2](../maps/elm_4f_2.md#container-0) (container 1, 10%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

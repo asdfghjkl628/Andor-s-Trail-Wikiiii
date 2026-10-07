@@ -11,7 +11,7 @@ description: "Galmore 11 is an outdoor location in Andor's Trail. NPCs: Ruetmapl
 | **Map ID** | `galmore_11` |
 | **Type** | Outdoors |
 | **Size** | 29×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 2 |

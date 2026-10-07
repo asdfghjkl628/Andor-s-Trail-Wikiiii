@@ -4,7 +4,7 @@ description: "Green-fang-tylmio is an NPC who can also be fought in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_johny_0.png){ .sprite } Green-fang-tylmio
 
-**Where to find Green-fang-tylmio:** Greenscale tribe: [brightport_lizard3](../maps/brightport_lizard3.md#pin-npc-brightport_lizard4)
+**Where to find Green-fang-tylmio:** Greenscale tribe: [Brightport lizard 3](../maps/brightport_lizard3.md#pin-npc-brightport_lizard4)
 
 <div class="infobox" markdown>
 
@@ -59,11 +59,11 @@ description: "Green-fang-tylmio is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_lizard3](../maps/brightport_lizard3.md) | Greenscale tribe | 1 | – |
+| [Brightport lizard 3](../maps/brightport_lizard3.md) | Greenscale tribe | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Green-fang-tylmio. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Green-fang-tylmio. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_genericlizard_selector.json" data-npc="Green-fang-tylmio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_genericlizard_selector"></span>**`brightport_genericlizard_selector`** *(silent check: the first matching branch below is taken)*
 

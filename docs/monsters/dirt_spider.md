@@ -4,7 +4,7 @@ description: "Dirt spider is an enemy in Andor's Trail (insect) with 82 HP, wort
 
 # ![](../assets/icons/monsters/monsters_tometik10_53.png){ .sprite } Dirt spider
 
-**Found in:** Mt. Galmore: [galmore_35](../maps/galmore_35.md), Mt. Galmore: [galmore_44](../maps/galmore_44.md), Mt. Galmore: [galmore_45](../maps/galmore_45.md), Stoutford: [galmore_12](../maps/galmore_12.md) (+11 more)
+**Found in:** Mt. Galmore: [Galmore 35](../maps/galmore_35.md), Mt. Galmore: [Galmore 44](../maps/galmore_44.md), Mt. Galmore: [Galmore 45](../maps/galmore_45.md), Stoutford: [Galmore 12](../maps/galmore_12.md) (+11 more)
 
 <div class="infobox" markdown>
 
@@ -57,21 +57,21 @@ description: "Dirt spider is an enemy in Andor's Trail (insect) with 82 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_10](../maps/galmore_10.md) | – | 1 | – |
-| [galmore_11](../maps/galmore_11.md) | – | 1 | – |
-| [galmore_12](../maps/galmore_12.md) | Stoutford | 7 | – |
-| [galmore_12a](../maps/galmore_12a.md) | Stoutford | 11 | – |
-| [galmore_13](../maps/galmore_13.md) | Stoutford | 1 | – |
-| [galmore_15](../maps/galmore_15.md) | – | 3 | – |
-| [galmore_23](../maps/galmore_23.md) | – | 2 | – |
-| [galmore_35](../maps/galmore_35.md) | Mt. Galmore | 8 | – |
-| [galmore_44](../maps/galmore_44.md) | Mt. Galmore | 6 | – |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 3 | – |
-| [rat_mountain_8](../maps/rat_mountain_8.md) | – | 5 | – |
-| [stoutford_filler_1](../maps/stoutford_filler_1.md) | Stoutford | 10 | – |
-| [stoutford_filler_2](../maps/stoutford_filler_2.md) | Stoutford | 12 | – |
-| [stoutford_filler_3](../maps/stoutford_filler_3.md) | Stoutford | 13 | – |
-| [stoutford_filler_4](../maps/stoutford_filler_4.md) | – | 10 | – |
+| [Galmore 10](../maps/galmore_10.md) | – | 1 | – |
+| [Galmore 11](../maps/galmore_11.md) | – | 1 | – |
+| [Galmore 12](../maps/galmore_12.md) | Stoutford | 7 | – |
+| [Galmore 12a](../maps/galmore_12a.md) | Stoutford | 11 | – |
+| [Galmore 13](../maps/galmore_13.md) | Stoutford | 1 | – |
+| [Galmore 15](../maps/galmore_15.md) | – | 3 | – |
+| [Galmore 23](../maps/galmore_23.md) | – | 2 | – |
+| [Galmore 35](../maps/galmore_35.md) | Mt. Galmore | 8 | – |
+| [Galmore 44](../maps/galmore_44.md) | Mt. Galmore | 6 | – |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 3 | – |
+| [Rat mountain 8](../maps/rat_mountain_8.md) | – | 5 | – |
+| [Stoutford filler 1](../maps/stoutford_filler_1.md) | Stoutford | 10 | – |
+| [Stoutford filler 2](../maps/stoutford_filler_2.md) | Stoutford | 12 | – |
+| [Stoutford filler 3](../maps/stoutford_filler_3.md) | Stoutford | 13 | – |
+| [Stoutford filler 4](../maps/stoutford_filler_4.md) | – | 10 | – |
 
 
 ## Version history

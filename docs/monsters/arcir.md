@@ -21,11 +21,11 @@ description: "Arcir is a non-player character (NPC) in Andor's Trail."
 ## Quests
 
 - [Undertell: What was not written](../quests/undertell_book.md): stages 40, 90
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 10
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arcir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Arcir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/arcir_start.json" data-npc="Arcir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,11 +33,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (29 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-arcir_start"></span>**`arcir_start`** Arcir: “Hello. I'm Arcir.”
 
-    - “I noticed your statue of Elythara downstairs.” *(if reached stage 10 of [Elythara (hidden flag)](../quests/arcir.md#stage-10))* → [arcir_elythara_1](#d-arcir_elythara_1)
+    - “I noticed your statue of Elythara downstairs.” *(if reached stage 10 of [Elythara (Arcir) flags (hidden flag)](../quests/arcir.md#stage-10))* → [arcir_elythara_1](#d-arcir_elythara_1)
     - “You really seem to like your books.” → [arcir_books_1](#d-arcir_books_1)
     - “And I'm your delivery kid. Did you order a 'Dusty old book'?” *(if hand over 1× [Dusty old book](../items/brv_wh_item_09.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20))* → [brv_wh_delivery_arcir](#d-brv_wh_delivery_arcir)
     - “What am I supposed to do again?” *(if reached stage 40 of [Undertell: What was not written](../quests/undertell_book.md#stage-40); NOT reached stage 50 of [Undertell: What was not written](../quests/undertell_book.md#stage-50); NOT reached stage 60 of [Undertell: What was not written](../quests/undertell_book.md#stage-60); NOT reached stage 70 of [Undertell: What was not written](../quests/undertell_book.md#stage-70))* → [arcir_remind_40](#d-arcir_remind_40)
@@ -62,7 +62,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I have a book about world history. Interested?” *(if carry 1× [World History](../items/book_world_history.md))* → [arcir_books_rares_book2](#d-arcir_books_rares_book2)
     - “I found a book about Undertell. I thought you might know something about it.” *(if NOT reached stage 40 of [Undertell: What was not written](../quests/undertell_book.md#stage-40); carry 1× [Undertell: Its Ghosts and History](../items/undertell_book.md))* → [arcir_undertell_10](#d-arcir_undertell_10)
 
-    <span id="d-brv_wh_delivery_arcir"></span>**`brv_wh_delivery_arcir`** Arcir: “Yes, an old but useful book, but you should have wiped it off first. Anyway, here's my delivery fee.” — **effects:** clears stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 10 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-10), gives 20× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_arcir"></span>**`brv_wh_delivery_arcir`** Arcir: “Yes, an old but useful book, but you should have wiped it off first. Anyway, here's my delivery fee.” — **effects:** clears stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 10 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-10), gives 20× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 
@@ -92,7 +92,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-arcir_anythingelse"></span>**`arcir_anythingelse`** Arcir: “Anything else you wanted to ask?”
 
-    - “I noticed your statue of Elythara downstairs.” *(if reached stage 10 of [Elythara (hidden flag)](../quests/arcir.md#stage-10))* → [arcir_elythara_1](#d-arcir_elythara_1)
+    - “I noticed your statue of Elythara downstairs.” *(if reached stage 10 of [Elythara (Arcir) flags (hidden flag)](../quests/arcir.md#stage-10))* → [arcir_elythara_1](#d-arcir_elythara_1)
     - “You really seem to like your books.” → [arcir_books_1](#d-arcir_books_1)
 
     <span id="d-arcir_calomyran_select"></span>**`arcir_calomyran_select`** *(silent check: the first matching branch below is taken)*
@@ -180,7 +180,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…”<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.11](../versions/0.8.11.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |

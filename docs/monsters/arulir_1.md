@@ -1,10 +1,10 @@
 ---
-description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403 XP, found in arulirmountain1, arulirmountain2, mountainlake5. Drops: Gold coins, Meat, Animal hair, Arulir skin."
+description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403 XP, found in Arulirmountain 1, Arulirmountain 2, Mountainlake 5. Drops: Gold coins, Meat, Animal hair, Arulir skin."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_13.png){ .sprite } Arulir
 
-**Found in:** [arulirmountain1](../maps/arulirmountain1.md), [arulirmountain2](../maps/arulirmountain2.md), [mountainlake5](../maps/mountainlake5.md)
+**Found in:** [Arulirmountain 1](../maps/arulirmountain1.md), [Arulirmountain 2](../maps/arulirmountain2.md), [Mountainlake 5](../maps/mountainlake5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulirmountain1, arulirmountain2, mountainlake5 |
+| **Found in** | Arulirmountain 1, Arulirmountain 2, Mountainlake 5 |
 | **Class** | Giant |
 | **HP** | 325 |
 | **XP when defeated** | 403 |
@@ -59,9 +59,9 @@ description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulirmountain1](../maps/arulirmountain1.md) | – | 20 | – |
-| [arulirmountain2](../maps/arulirmountain2.md) | – | 5 | – |
-| [mountainlake5](../maps/mountainlake5.md) | – | 11 | – |
+| [Arulirmountain 1](../maps/arulirmountain1.md) | – | 20 | – |
+| [Arulirmountain 2](../maps/arulirmountain2.md) | – | 5 | – |
+| [Mountainlake 5](../maps/mountainlake5.md) | – | 11 | – |
 
 
 ## Version history

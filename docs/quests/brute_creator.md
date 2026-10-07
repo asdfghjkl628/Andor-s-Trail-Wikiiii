@@ -11,9 +11,9 @@ description: "Brutes is a quest in Andor's Trail, started by Bidro (mountainlake
 | **Quest ID** | `brute_creator` |
 | **In journal** | Yes |
 | **Stages** | 6 (completes at 90) |
-| **Started by** | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) |
+| **Started by** | [Bidro](../monsters/brute_fisherman.md) ([Mountainlake 11](../maps/mountainlake11.md)) |
 | **NPCs involved** | [Bidro](../monsters/brute_fisherman.md), [Os](../monsters/brute_creator.md) |
-| **Locations** | [mountainlake11](../maps/mountainlake11.md), [mountainlake8_cave](../maps/mountainlake8_cave.md) |
+| **Locations** | [Mountainlake 11](../maps/mountainlake11.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md) |
 | **Total XP** | 2,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Brutes is a quest in Andor's Trail, started by Bidro (mountainlake
 
 ## Prerequisites to start
 
-Start with [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)). Required:
+Start with [Bidro](../monsters/brute_fisherman.md) ([Mountainlake 11](../maps/mountainlake11.md)). Required:
 
 - reached stage 10 of [Brutes](../quests/brute_creator.md#stage-10)
 - NOT reached stage 30 of [Brutes](../quests/brute_creator.md#stage-30)
@@ -40,45 +40,92 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays. | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) | – | – |
-| <span id="stage-20"></span>20 | I told Bidro about the many nasty monsters along the way.<br><span class="qnote">🗺️ Part of [Mountainlake8](../maps/mountainlake8.md) visibly changes.</span> | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) | – | – |
-| <span id="stage-30"></span>30 | I have discovered a cave where brutes seem to pour out.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake8 cave](../maps/mountainlake8_cave.md).</span> | stepping on a trigger on [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | faction “brute_creator_flash” set to 1<br>sets stage 201 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-201)<br>faction “brute_creator_flash” set to 2 |
-| <span id="stage-35"></span>35 | Then I have told Bidro about this cave full of brutes. | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) | stage 30 | – |
-| <span id="stage-40"></span>40 | I have talked to Os, a scientist about brute matters. He has built up a brute production facility. | [Os](../monsters/brute_creator.md) ([mountainlake8_cave](../maps/mountainlake8_cave.md)) | – | – |
-| <span id="stage-90"></span>90 | I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife. **(completes quest)** | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) | stage 35, stage 40 | 2,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I have met Bidro, a fisherman on the long way to Remgard. He… ▸</span><span class="l">▴ less</span></summary>I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays.</details> | [Bidro](../monsters/brute_fisherman.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I told Bidro about the many nasty monsters along the way.<br><span class="qnote">🗺️ Part of [Mountainlake 8](../maps/mountainlake8.md) visibly changes.</span> | [Bidro](../monsters/brute_fisherman.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have discovered a cave where brutes seem to pour out.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mountainlake 8 cave](../maps/mountainlake8_cave.md).</span> | stepping on a trigger on [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | varies by route (see below) |
+| <span id="stage-35"></span>[35](#route-35) | Then I have told Bidro about this cave full of brutes. | [Bidro](../monsters/brute_fisherman.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I have talked to Os, a scientist about brute matters. He has built… ▸</span><span class="l">▴ less</span></summary>I have talked to Os, a scientist about brute matters. He has built up a brute production facility.</details> | [Os](../monsters/brute_creator.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">I told Bidro what I have learned from Os. He thanked me for this new… ▸</span><span class="l">▴ less</span></summary>I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife.</details> **(ends quest)** | [Bidro](../monsters/brute_fisherman.md) | 2,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) → choose “About the few people who come this way ...” — **conditions:** reached stage 10 of [Brutes](../quests/brute_creator.md#stage-10); NOT reached stage 30 of [Brutes](../quests/brute_creator.md#stage-30) → **stage 10**. NPC: “So what's stopping people from using the route?”
+??? note "Stage 10 · Bidro · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Bidro](../monsters/brute_fisherman.md), choose “About the few people who come this way ...”
 
-    1. Talk to [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) → choose “About the monsters along the way here ...” — **conditions:** reached stage 20 of [Brutes](../quests/brute_creator.md#stage-20); NOT reached stage 30 of [Brutes](../quests/brute_creator.md#stage-30) → **stage 20**. NPC: “Have you been able to find out why the path is rarely used anymore?”
+    - **Needs:** stage 10; not yet stage 30
+    - *“So what's stopping people from using the route?”*
 
-???+ note "Stage 30: 2 routes"
 
-    1. stepping on a trigger on [mountainlake8_cave](../maps/mountainlake8_cave.md) → the conversation leads here automatically — **conditions:** random chance (3%) → **stage 30**; also faction “brute_creator_flash” set to 1, sets stage 201 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-201)
-    2. stepping on a trigger on [mountainlake8_cave](../maps/mountainlake8_cave.md) → the conversation leads here automatically — **conditions:** random chance (5%) → **stage 30**; also faction “brute_creator_flash” set to 2, sets stage 201 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-201)
+<span id="route-20"></span>
 
-???+ note "Stage 35: 1 route"
+??? note "Stage 20 · Bidro · 1 way"
 
-    1. Talk to [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) → choose “I have discovered a cave where brutes seem to pour out.” — **conditions:** reached stage 30 of [Brutes](../quests/brute_creator.md#stage-30); NOT reached stage 35 of [Brutes](../quests/brute_creator.md#stage-35) → **stage 35**. NPC: “Oh interesting. What did you find in the cave?”
+    **Way 1:** Talk to [Bidro](../monsters/brute_fisherman.md), choose “About the monsters along the way here ...”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** stage 20; not yet stage 30
+    - *“Have you been able to find out why the path is rarely used anymore?”*
 
-    1. Talk to [Os](../monsters/brute_creator.md) ([mountainlake8_cave](../maps/mountainlake8_cave.md)) → choose “That is understandable.” → **stage 40**. NPC: “I'll just say that my brutes evolve from rats. There are too many of them anyway.”
 
-???+ note "Stage 90: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) → choose “There are several bake rooms where the animals take on an even more hideous appearance. Until they finally…” — **conditions:** reached stage 35 of [Brutes](../quests/brute_creator.md#stage-35); reached stage 40 of [Brutes](../quests/brute_creator.md#stage-40); NOT reached stage 90 of [Brutes](../quests/brute_creator.md#stage-90) → **stage 90**. NPC: “Wow, what a great story!”
+??? note "Stage 30 · stepping on a trigger on mountainlake8_cave · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
+
+    - **Needs:** random chance (3%)
+    - **Gives:** faction “brute_creator_flash” set to 1
+    - <small>Also: sets stage 201 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-201)</small>
+
+    **Way 2:** Stepping on a trigger on [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
+
+    - **Needs:** random chance (5%)
+    - **Gives:** faction “brute_creator_flash” set to 2
+    - <small>Also: sets stage 201 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-201)</small>
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · Bidro · 1 way"
+
+    **Way 1:** Talk to [Bidro](../monsters/brute_fisherman.md), choose “I have discovered a cave where brutes seem to pour out.”
+
+    - **Needs:** stage 30; not yet stage 35
+    - *“Oh interesting. What did you find in the cave?”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Os · 1 way"
+
+    **Way 1:** Talk to [Os](../monsters/brute_creator.md), choose “That is understandable.”
+
+    - *“I'll just say that my brutes evolve from rats. There are too many of them anyway.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Bidro · 1 way"
+
+    **Way 1:** Talk to [Bidro](../monsters/brute_fisherman.md), choose “There are several bake rooms where the animals take on an even more hideous appearance. Until they finally…”
+
+    - **Needs:** stage 35, 40; not yet stage 90
+    - *“Wow, what a great story!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

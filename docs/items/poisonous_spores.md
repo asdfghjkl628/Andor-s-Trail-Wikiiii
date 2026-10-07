@@ -28,7 +28,7 @@ description: "Poisonous spores is a ordinary other in Andor's Trail. How to get 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Plague groundberry](../monsters/plague_groundberry.md) | 35% | 1 | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | 35% | 1 | Sullengard woods 11, Sullengard woods 12, Sullengard woods 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

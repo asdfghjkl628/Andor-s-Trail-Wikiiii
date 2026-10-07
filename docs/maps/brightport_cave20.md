@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave20 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith, Darkness beast. Exits to Brightport cave19."
+description: "Brightport cave 20 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith, Darkness beast. Exits to Brightport cave 19."
 ---
 
-# Brightport cave20
+# Brightport cave 20
 
 <div class="infobox" markdown>
 
@@ -19,19 +19,19 @@ description: "Brightport cave20 is an indoor location in Andor's Trail, in Burie
 
 </div>
 
-**Brightport cave20** is an indoor map, in Buried citadel (other). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport cave19.
+**Brightport cave 20** is an indoor map, in Buried citadel (other). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport cave 19.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave20.webp" alt="Map of Brightport cave20" width="320" height="352" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightport_cave19/#place-north" title="Exit to Brightport cave19" style="left:20.000%;top:90.909%;width:10.000%;height:9.091%"></a><span id="place-room" class="mo mo-mapchange" title="Room" style="left:50.000%;top:81.818%;width:10.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Darkness beast" style="left:50.000%;top:36.364%;width:40.000%;height:27.273%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:30.000%;top:54.545%;width:20.000%;height:18.182%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.000%;top:27.273%;width:10.000%;height:9.091%"></a><a class="mo mo-replace" href="../../quests/brightport_nondisplay/#stage-125" title="This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 125: “crystal 1 shattered”)" style="left:60.000%;top:18.182%;width:30.000%;height:27.273%"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:70.000%;top:45.455%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:80.000%;top:36.364%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:60.000%;top:54.545%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:30.000%;top:54.545%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:95.455%" title="Exit (south): to [Brightport cave19](brightport_cave19.md)">1</a><a class="pin pin-key" href="#key-2" style="left:75.000%;top:31.818%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">2</a><a class="pin pin-replace" href="#key-3" style="left:75.658%;top:25.001%" title="Changes during a quest: This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 125: “crystal 1 shattered”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave20.webp" alt="Map of Brightport cave 20" width="320" height="352" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightport_cave19/#place-north" title="Exit to Brightport cave 19" style="left:20.000%;top:90.909%;width:10.000%;height:9.091%"></a><span id="place-room" class="mo mo-mapchange" title="Room" style="left:50.000%;top:81.818%;width:10.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Darkness beast" style="left:50.000%;top:36.364%;width:40.000%;height:27.273%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:30.000%;top:54.545%;width:20.000%;height:18.182%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.000%;top:27.273%;width:10.000%;height:9.091%"></a><a class="mo mo-replace" href="../../quests/brightport_nondisplay/#stage-125" title="This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 125: “crystal 1 shattered”)" style="left:60.000%;top:18.182%;width:30.000%;height:27.273%"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:70.000%;top:45.455%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:80.000%;top:36.364%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:60.000%;top:54.545%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:30.000%;top:54.545%;width:10.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:95.455%" title="Exit (south): to [Brightport cave 19](brightport_cave19.md)">1</a><a class="pin pin-key" href="#key-2" style="left:75.000%;top:31.818%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">2</a><a class="pin pin-replace" href="#key-3" style="left:75.658%;top:25.001%" title="Changes during a quest: This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 125: “crystal 1 shattered”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightport cave19](brightport_cave19.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightport cave 19](brightport_cave19.md) |
     | <span id="key-2"></span>2 | Blocked passage | Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”) |
     | <span id="key-3"></span>3 | Changes during a quest | This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 125: “crystal 1 shattered”) |
 
@@ -42,7 +42,7 @@ description: "Brightport cave20 is an indoor location in Andor's Trail, in Burie
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightport cave19](brightport_cave19.md) | Buried citadel | 1 |
+| South | [Brightport cave 19](brightport_cave19.md) | Buried citadel | 1 |
 
 ## Enemies
 
@@ -57,7 +57,7 @@ description: "Brightport cave20 is an indoor location in Andor's Trail, in Burie
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [The balance of scales](../quests/brightport_lizard.md): something on this map advances it
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): part of the map changes at stage 125; something on this map advances it
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): part of the map changes at stage 125; something on this map advances it
 
 ## Points of interest
 

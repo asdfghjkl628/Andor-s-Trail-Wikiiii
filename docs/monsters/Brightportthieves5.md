@@ -4,7 +4,7 @@ description: "Oseanpry is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_114.png){ .sprite } Oseanpry
 
-**Where to find Oseanpry:** Brightport: [brightport_thieves](../maps/brightport_thieves.md#pin-npc-Brightportthieves5)
+**Where to find Oseanpry:** Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-Brightportthieves5)
 
 <div class="infobox" markdown>
 
@@ -32,11 +32,11 @@ description: "Oseanpry is a non-player character (NPC) in Andor's Trail, found i
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 109
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 109
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oseanpry. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oseanpry. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_oseanpry0.json" data-npc="Oseanpry" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_oseanpry0"></span>**`brightport_oseanpry0`** [Dummy NPC](../monsters/none.md): “The man looks at you with a hunter-like gaze, giving you a slight shiver.”
 
@@ -54,7 +54,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Who are you?” → [brightport_oseanpry2](#d-brightport_oseanpry2)
     - “What do you mean?” → [brightport_oseanpry1](#d-brightport_oseanpry1)
-    - “What's with this dog next to you?” *(if reached stage 108 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-108))* → [brightport_oseanpry5](#d-brightport_oseanpry5)
+    - “What's with this dog next to you?” *(if reached stage 108 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-108))* → [brightport_oseanpry5](#d-brightport_oseanpry5)
 
     <span id="d-brightport_oseanpry2"></span>**`brightport_oseanpry2`** [Oseanpry](../monsters/Brightportthieves5.md): “Im Oseanpry, a hunter, and the Guild's cook. I've hunted the deer of Brightport for many years, until the boss hired me to hunt for people.”
 
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I'm old enough to be responsible for my actions. I do what is right for me.” → [brightport_oseanpry3](#d-brightport_oseanpry3)
 
-    <span id="d-brightport_oseanpry5"></span>**`brightport_oseanpry5`** Oseanpry: “She is my loyal hunting partner. We've been through thick and thin.” — **effects:** sets stage 109 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-109)
+    <span id="d-brightport_oseanpry5"></span>**`brightport_oseanpry5`** Oseanpry: “She is my loyal hunting partner. We've been through thick and thin.” — **effects:** sets stage 109 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-109)
 
     - “Wow! can I get one too?” → [brightport_oseanpry6](#d-brightport_oseanpry6)
 

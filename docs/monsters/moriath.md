@@ -4,7 +4,7 @@ description: "Moriath is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } Moriath
 
-**Where to find Moriath:** Lake Laeroth: [laerothmanor1](../maps/laerothmanor1.md#pin-npc-moriath)
+**Where to find Moriath:** Lake Laeroth: [Laerothmanor 1](../maps/laerothmanor1.md#pin-npc-moriath)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Moriath is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Take care of the caretaker](../quests/laeroth_caretaker.md): stages 10, 15, 17, 35, 50, 180
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stage 120
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stage 120
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Moriath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Moriath. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/moriath_selector.json" data-npc="Moriath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (29 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-moriath_selector"></span>**`moriath_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I'm $playername. I'm looking for my brother, Andor. Have you seen him?” → [moriath_1](#d-moriath_1)
 
-    <span id="d-moriath_9_1"></span>**`moriath_9_1`** Moriath: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.” — **effects:** removes monsters from laerothmanor1, sets stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180), sets stage 120 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-120)
+    <span id="d-moriath_9_1"></span>**`moriath_9_1`** Moriath: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.” — **effects:** removes monsters from laerothmanor1, sets stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180), sets stage 120 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-120)
 
     - Next → *NPC leaves*
 

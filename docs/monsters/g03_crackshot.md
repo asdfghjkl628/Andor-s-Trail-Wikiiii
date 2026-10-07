@@ -1,10 +1,10 @@
 ---
-description: "Crackshot is an NPC who can also be fought in Andor's Trail, found in crackshot_hideout3."
+description: "Crackshot is an NPC who can also be fought in Andor's Trail, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_80.png){ .sprite } Crackshot
 
-**Where to find Crackshot:** [crackshot_hideout3](../maps/crackshot_hideout3.md#pin-npc-g03_crackshot)
+**Where to find Crackshot:** [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-g03_crackshot)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Crackshot is an NPC who can also be fought in Andor's Trail, found
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | crackshot_hideout3 |
+| **Found in** | Crackshot hideout 3 |
 | **Class** | Humanoid |
 | **HP** | 133 |
 | **XP when defeated** | 271 |
@@ -64,17 +64,17 @@ description: "Crackshot is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | 1 | – |
+| [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-90) with [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) checks that this enemy has been defeated.
-- [The ruthless Crackshot](../quests/Thieves03.md#stage-35) with stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) checks that this enemy has been defeated.
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-90) with [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([Crackshot hideout 3](../maps/crackshot_hideout3.md)) checks that this enemy has been defeated.
+- [The ruthless Crackshot](../quests/Thieves03.md#stage-35) with stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Crackshot. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Crackshot. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guild03_crackshot_1.json" data-npc="Crackshot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -82,7 +82,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guild03_crackshot_1"></span>**`guild03_crackshot_1`** [Crackshot](../monsters/g03_crackshot.md): “Oh ho! Welcome to my base, kid.”
 

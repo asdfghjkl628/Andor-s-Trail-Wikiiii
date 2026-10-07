@@ -39,13 +39,13 @@ description: "Torn shirt is a ordinary armor, cloth in Andor's Trail (Attack cha
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Highwayman](../monsters/highwayman.md#v-highwayman1) | 100% | 1 | Fallhaven |
-| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
 
 ### Sold by
 
@@ -54,7 +54,7 @@ description: "Torn shirt is a ordinary armor, cloth in Andor's Trail (Attack cha
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [elm_mine3](../maps/elm_mine3.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-24) (100%)
+- From walking into a blocked passage on [Elm mine 3](../maps/elm_mine3.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-24) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

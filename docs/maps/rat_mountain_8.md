@@ -11,7 +11,7 @@ description: "Rat mountain 8 is an outdoor location in Andor's Trail. Enemies: D
 | **Map ID** | `rat_mountain_8` |
 | **Type** | Outdoors |
 | **Size** | 31×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |

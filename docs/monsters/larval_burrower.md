@@ -4,7 +4,7 @@ description: "Larval burrower is an enemy in Andor's Trail (insect) with 35 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_164.png){ .sprite } Larval burrower
 
-**Found in:** Crossroads Guardhouse: [crackshot_hideout1](../maps/crackshot_hideout1.md), Crossroads Guardhouse: [woodcave0](../maps/woodcave0.md), Crossroads Guardhouse: [woodcave1](../maps/woodcave1.md)
+**Found in:** Crossroads Guardhouse: [Crackshot hideout 1](../maps/crackshot_hideout1.md), Crossroads Guardhouse: [Woodcave 0](../maps/woodcave0.md), Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md)
 
 <div class="infobox" markdown>
 
@@ -55,9 +55,9 @@ description: "Larval burrower is an enemy in Andor's Trail (insect) with 35 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 2 | – |
-| [woodcave0](../maps/woodcave0.md) | Crossroads Guardhouse | 14 | – |
-| [woodcave1](../maps/woodcave1.md) | Crossroads Guardhouse | 4 | – |
+| [Crackshot hideout 1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 2 | – |
+| [Woodcave 0](../maps/woodcave0.md) | Crossroads Guardhouse | 14 | – |
+| [Woodcave 1](../maps/woodcave1.md) | Crossroads Guardhouse | 4 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Graverobber is an NPC who can also be fought in Andor's Trail, found in blackwater_mountain35."
+description: "Graverobber is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 35."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis2_3.png){ .sprite } Graverobber
 
-**Where to find Graverobber:** [blackwater_mountain35](../maps/blackwater_mountain35.md#pin-npc-graverobber)
+**Where to find Graverobber:** [Blackwater mountain 35](../maps/blackwater_mountain35.md#pin-npc-graverobber)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Graverobber is an NPC who can also be fought in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | blackwater_mountain35 |
+| **Found in** | Blackwater mountain 35 |
 | **Class** | Humanoid |
 | **HP** | 62 |
 | **XP when defeated** | 102 |
@@ -61,7 +61,7 @@ description: "Graverobber is an NPC who can also be fought in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain35](../maps/blackwater_mountain35.md) | – | 1 | – |
+| [Blackwater mountain 35](../maps/blackwater_mountain35.md) | – | 1 | – |
 
 ## Quests
 
@@ -69,7 +69,7 @@ description: "Graverobber is an NPC who can also be fought in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Graverobber. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Graverobber. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bjorgur_bandit.json" data-npc="Graverobber" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bjorgur_bandit"></span>**`bjorgur_bandit`** Graverobber: “Hey you! You shouldn't be here. This dagger is mine. Get out!” — **effects:** sets stage 30 of [Awoken from slumber](../quests/bjorgur_grave.md#stage-30)
 

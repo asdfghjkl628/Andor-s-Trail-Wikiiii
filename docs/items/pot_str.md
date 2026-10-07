@@ -34,7 +34,7 @@ description: "Minor potion of strength is a ordinary potion in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) (100%)
+- From [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -45,7 +45,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22) | handed over (1×) | “Would you like this 'Minor potion of strength'?” |
+| [Arghest](../monsters/arghest.md) ([Blackwater mountain 13](../maps/blackwater_mountain13.md)) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22) | handed over (1×) | “Would you like this 'Minor potion of strength'?” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

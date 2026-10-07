@@ -26,10 +26,10 @@ description: "Lead bar is a ordinary gem in Andor's Trail. How to get it: contai
 
 ### Found in containers
 
-- [elm5f_2](../maps/elm5f_2.md#container-2) (container 3, 100%)
-- [elm_4f_1](../maps/elm_4f_1.md#container-1) (container 2, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-1) (container 2, 100%)
-- [elm_mine5](../maps/elm_mine5.md#container-3) (container 4, 100%)
+- [Elm 5f 2](../maps/elm5f_2.md#container-2) (container 3, 100%)
+- [Elm 4f 1](../maps/elm_4f_1.md#container-1) (container 2, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-1) (container 2, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-3) (container 4, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

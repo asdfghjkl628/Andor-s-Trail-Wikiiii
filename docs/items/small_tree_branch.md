@@ -26,9 +26,9 @@ description: "Small tree branch is a ordinary other in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Pixie Cort](../monsters/sull_forest_tree_fungus.md) | 160% | 1-2 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Huckleberreaper](../monsters/huckleber_reaper.md) | 65% | 1 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Broxwood](../monsters/broxwood.md) | 65% | 1 | sullengard_woods10, sullengard_woods11, sullengard_woods12 |
+| [Pixie Cort](../monsters/sull_forest_tree_fungus.md) | 160% | 1-2 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Huckleberreaper](../monsters/huckleber_reaper.md) | 65% | 1 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Broxwood](../monsters/broxwood.md) | 65% | 1 | Sullengard woods 10, Sullengard woods 11, Sullengard woods 12 |
 | [Bridge bogling](../monsters/bridge_bogling.md) | 25% | 1 | Mt. Galmore |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 25% | 1 | Mt. Galmore |
 

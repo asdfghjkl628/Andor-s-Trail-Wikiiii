@@ -26,13 +26,13 @@ description: "Spores of the giant mushroom is a ordinary other in Andor's Trail.
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Angry fungi](../monsters/mid_fungi_1.md) | 100% | 1-2 | mushroom_m3_2 |
-| [Angry dangerous fungi](../monsters/dangerous_fungi_1.md) | 100% | 1-2 | mushroom_m3_2 |
-| [Great fungi](../monsters/boss_fungi.md) | 100% | 1-2 | mushroom_m3_2 |
-| [Dangerous fungi](../monsters/dangerous_fungi.md) | 25% | 1 | bogsten3, bogsten4, mushroom_m2_1 |
-| [Fungi](../monsters/mid_fungi.md) | 10% | 1 | bogsten2, bogsten3, bogsten4 |
-| [Weak fungi](../monsters/weak_fungi.md) | 1% | 1 | bogsten2, bogsten3, mushroom_m2_2 |
-| [Angry weak fungi](../monsters/weak_fungi_1.md) | 1% | 1 | mushroom_m3_2 |
+| [Angry fungi](../monsters/mid_fungi_1.md) | 100% | 1-2 | Mushroom m 3 2 |
+| [Angry dangerous fungi](../monsters/dangerous_fungi_1.md) | 100% | 1-2 | Mushroom m 3 2 |
+| [Great fungi](../monsters/boss_fungi.md) | 100% | 1-2 | Mushroom m 3 2 |
+| [Dangerous fungi](../monsters/dangerous_fungi.md) | 25% | 1 | Bogsten 3, Bogsten 4, Mushroom m 2 1 |
+| [Fungi](../monsters/mid_fungi.md) | 10% | 1 | Bogsten 2, Bogsten 3, Bogsten 4 |
+| [Weak fungi](../monsters/weak_fungi.md) | 1% | 1 | Bogsten 2, Bogsten 3, Mushroom m 2 2 |
+| [Angry weak fungi](../monsters/weak_fungi_1.md) | 1% | 1 | Mushroom m 3 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -43,12 +43,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | must be carried (4×) | “Here are four samples of mushroom spores. Can you help Bogsten now?” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | must be carried (1×) | “Here's a sample of the mushroom spores. Can you help Bogsten now?” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | must be carried (4×) | “Yes. Here are some samples of the mushroom spores.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Fungi panic](../quests/fungi_panic.md#stage-20) | must be carried (4×) | “Here are four samples of the mushroom spores.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Fungi panic](../quests/fungi_panic.md#stage-50) | handed over (4×) | “OK, here you are.” |
-| [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) | [Fungi panic](../quests/fungi_panic.md#stage-40) | must be carried (1×) | “Yes. I have them with me.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | – | must be carried (4×) | “Here are four samples of mushroom spores. Can you help Bogsten now?” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | – | must be carried (1×) | “Here's a sample of the mushroom spores. Can you help Bogsten now?” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | – | must be carried (4×) | “Yes. Here are some samples of the mushroom spores.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Fungi panic](../quests/fungi_panic.md#stage-20) | must be carried (4×) | “Here are four samples of the mushroom spores.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Fungi panic](../quests/fungi_panic.md#stage-50) | handed over (4×) | “OK, here you are.” |
+| [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) | [Fungi panic](../quests/fungi_panic.md#stage-40) | must be carried (1×) | “Yes. I have them with me.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

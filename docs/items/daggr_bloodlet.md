@@ -43,7 +43,7 @@ description: "Bloodletter is a ordinary dagger in Andor's Trail (Attack damage 1
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Emerald ooze](../monsters/jelly6.md) | 100% | 1 | roadcave1 |
+| [Emerald ooze](../monsters/jelly6.md) | 100% | 1 | Roadcave 1 |
 
 ### Sold by
 

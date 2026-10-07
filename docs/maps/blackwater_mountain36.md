@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain36 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Wyrm apprentice, Wyrm trainer. Exits to Blackwater mountain32, Blackwater mountain37."
+description: "Blackwater mountain 36 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Wyrm apprentice, Wyrm trainer. Exits to Blackwater mountain 32, Blackwater mountain 37."
 ---
 
-# Blackwater mountain36
+# Blackwater mountain 36
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Blackwater mountain36 is an indoor location in Andor's Trail, in B
 | **Region** | In Blackwater Mountain (other) |
 | **Type** | Indoors / underground |
 | **Size** | 11×10 tiles |
-| **World map** | [Bwcave2](index.md) |
+| **World map** | [Bwcave 2](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Blackwater mountain36** is an indoor map, in Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Blackwater mountain32, Blackwater mountain37.
+**Blackwater mountain 36** is an indoor map, in Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Blackwater mountain 32, Blackwater mountain 37.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain36.webp" alt="Map of Blackwater mountain36" width="352" height="320" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain32/#place-north" title="Exit to Blackwater mountain32" style="left:45.455%;top:90.000%;width:9.091%;height:10.000%"></a><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain37/#place-north" title="Exit to Blackwater mountain37" style="left:45.455%;top:50.000%;width:9.091%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:63.636%;top:70.000%;width:9.091%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:27.273%;top:70.000%;width:9.091%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:18.182%;top:60.000%;width:9.091%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:72.727%;top:60.000%;width:9.091%;height:20.000%"></span><a class="mob" href="../../monsters/wyrm_trainer/" title="Wyrm trainer" style="left:63.636%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm trainer"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:27.273%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:18.182%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:72.727%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:95.000%" title="Exit (south): to [Blackwater mountain32](blackwater_mountain32.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:55.000%" title="Exit (stairs / passage): to [Blackwater mountain37](blackwater_mountain37.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain36.webp" alt="Map of Blackwater mountain 36" width="352" height="320" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain32/#place-north" title="Exit to Blackwater mountain 32" style="left:45.455%;top:90.000%;width:9.091%;height:10.000%"></a><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain37/#place-north" title="Exit to Blackwater mountain 37" style="left:45.455%;top:50.000%;width:9.091%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:63.636%;top:70.000%;width:9.091%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:27.273%;top:70.000%;width:9.091%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:18.182%;top:60.000%;width:9.091%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Wyrm apprentice, Wyrm trainer" style="left:72.727%;top:60.000%;width:9.091%;height:20.000%"></span><a class="mob" href="../../monsters/wyrm_trainer/" title="Wyrm trainer" style="left:63.636%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm trainer"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:27.273%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:18.182%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="mob" href="../../monsters/wyrm_apprentice/" title="Wyrm apprentice" style="left:72.727%;top:70.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_0.png" alt="Wyrm apprentice"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:95.000%" title="Exit (south): to [Blackwater mountain 32](blackwater_mountain32.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:55.000%" title="Exit (stairs / passage): to [Blackwater mountain 37](blackwater_mountain37.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain32](blackwater_mountain32.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain37](blackwater_mountain37.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain 32](blackwater_mountain32.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain 37](blackwater_mountain37.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Blackwater mountain36 is an indoor location in Andor's Trail, in B
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Blackwater mountain32](blackwater_mountain32.md) | Blackwater Mountain | 1 |
-| Stairs / passage | [Blackwater mountain37](blackwater_mountain37.md) | Blackwater Mountain | 2 |
+| South | [Blackwater mountain 32](blackwater_mountain32.md) | Blackwater Mountain | 1 |
+| Stairs / passage | [Blackwater mountain 37](blackwater_mountain37.md) | Blackwater Mountain | 2 |
 
 ## Enemies
 

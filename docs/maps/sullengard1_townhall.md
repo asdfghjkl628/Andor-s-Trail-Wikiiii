@@ -1,8 +1,8 @@
 ---
-description: "Sullengard1 townhall is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Maddalena, Mayor Ale. Exits to Sullengard1."
+description: "Sullengard 1 townhall is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Maddalena, Mayor Ale. Exits to Sullengard 1."
 ---
 
-# Sullengard1 townhall
+# Sullengard 1 townhall
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Sullengard1 townhall is an indoor location in Andor's Trail, in Su
 
 </div>
 
-**Sullengard1 townhall** is an indoor map, in Sullengard (settlement). It has 2 NPCs, and no enemies. Exits lead to Sullengard1.
+**Sullengard 1 townhall** is an indoor map, in Sullengard (settlement). It has 2 NPCs, and no enemies. Exits lead to Sullengard 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard1_townhall.webp" alt="Map of Sullengard1 townhall" width="448" height="384" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../sullengard1/#place-sullengard1_townhall_outside" title="Exit to Sullengard1" style="left:35.714%;top:91.667%;width:7.143%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Mayor Ale" style="left:50.000%;top:25.000%;width:28.571%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Maddalena" style="left:28.571%;top:58.333%;width:57.143%;height:8.333%"></span><a class="mob" href="../../monsters/sullengard_mayor/" title="Mayor Ale" style="left:71.429%;top:33.333%;width:7.143%;height:8.333%"><img src="../../assets/icons/monsters/monsters_mage_0.png" alt="Mayor Ale"></a><a class="mob" href="../../monsters/sullengard_town_clerk/" title="Maddalena" style="left:50.000%;top:58.333%;width:7.143%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_151.png" alt="Maddalena"></a><a class="pin pin-exit" href="#key-1" style="left:39.286%;top:95.833%" title="Exit (south): to [Sullengard1](sullengard1.md)">1</a><a id="pin-npc-sullengard_town_clerk" class="pin pin-npc" href="#key-2" style="left:53.571%;top:62.500%" title="[Maddalena](../../monsters/sullengard_town_clerk.md): 1 quest">2</a><a id="pin-npc-sullengard_mayor" class="pin pin-npc" href="#key-3" style="left:75.000%;top:37.500%" title="[Mayor Ale](../../monsters/sullengard_mayor.md): 2 quests">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard1_townhall.webp" alt="Map of Sullengard 1 townhall" width="448" height="384" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../sullengard1/#place-sullengard1_townhall_outside" title="Exit to Sullengard 1" style="left:35.714%;top:91.667%;width:7.143%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Mayor Ale" style="left:50.000%;top:25.000%;width:28.571%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Maddalena" style="left:28.571%;top:58.333%;width:57.143%;height:8.333%"></span><a class="mob" href="../../monsters/sullengard_mayor/" title="Mayor Ale" style="left:71.429%;top:33.333%;width:7.143%;height:8.333%"><img src="../../assets/icons/monsters/monsters_mage_0.png" alt="Mayor Ale"></a><a class="mob" href="../../monsters/sullengard_town_clerk/" title="Maddalena" style="left:50.000%;top:58.333%;width:7.143%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_151.png" alt="Maddalena"></a><a class="pin pin-exit" href="#key-1" style="left:39.286%;top:95.833%" title="Exit (south): to [Sullengard 1](sullengard1.md)">1</a><a id="pin-npc-sullengard_town_clerk" class="pin pin-npc" href="#key-2" style="left:53.571%;top:62.500%" title="[Maddalena](../../monsters/sullengard_town_clerk.md): 1 quest">2</a><a id="pin-npc-sullengard_mayor" class="pin pin-npc" href="#key-3" style="left:75.000%;top:37.500%" title="[Mayor Ale](../../monsters/sullengard_mayor.md): 2 quests">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Sullengard1](sullengard1.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Sullengard 1](sullengard1.md) |
     | <span id="key-2"></span>2 | [Maddalena](../monsters/sullengard_town_clerk.md) | 1 quest |
     | <span id="key-3"></span>3 | [Mayor Ale](../monsters/sullengard_mayor.md) | 2 quests |
 
@@ -41,7 +41,7 @@ description: "Sullengard1 townhall is an indoor location in Andor's Trail, in Su
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Sullengard1](sullengard1.md) | Sullengard | 1 |
+| South | [Sullengard 1](sullengard1.md) | Sullengard | 1 |
 
 ## NPCs
 
@@ -53,7 +53,7 @@ description: "Sullengard1 townhall is an indoor location in Andor's Trail, in Su
 - [Another ruthless Crackshot](../quests/Thieves04.md): [Mayor Ale](../monsters/sullengard_mayor.md) is involved
 - [Beer Bootlegging](../quests/beer_bootlegging.md): [Mayor Ale](../monsters/sullengard_mayor.md) is involved
 - [Restless in the grave](../quests/mg_restless_grave.md): [Maddalena](../monsters/sullengard_town_clerk.md) is involved
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): [Mayor Ale](../monsters/sullengard_mayor.md) is involved
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): [Mayor Ale](../monsters/sullengard_mayor.md) is involved
 
 
 ## Version history

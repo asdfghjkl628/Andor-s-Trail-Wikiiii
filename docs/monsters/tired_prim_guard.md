@@ -4,7 +4,7 @@ description: "Tired Prim guard is an NPC who can also be fought in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Tired Prim guard
 
-**Where to find Tired Prim guard:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-tired_prim_guard)
+**Where to find Tired Prim guard:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-tired_prim_guard)
 
 <div class="infobox" markdown>
 
@@ -51,11 +51,11 @@ description: "Tired Prim guard is an NPC who can also be fought in Andor's Trail
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tired Prim guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tired Prim guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard3.json" data-npc="Tired Prim guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard3"></span>**`prim_guard3`** Tired Prim guard: “Oh, I am so tired. When will we ever get to rest?”
 

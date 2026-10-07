@@ -26,12 +26,12 @@ description: "Scorpion sting is a ordinary animal part in Andor's Trail. How to 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | 20% | 1 | laerothcave3, lakecave0, lakecave2 |
-| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 20% | 1 | laerothcave2, laerothcave3, lakecave0 |
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 20% | 1 | laerothcave3, lakecave0, lakecave2 |
-| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 20% | 1 | laerothcave2, laerothcave3, lakecave0 |
-| [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 20% | 1 | laerothcave2, laerothcave3, lakecave0 |
-| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 20% | 1 | laerothcave2, laerothcave3, lakecave0 |
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | 20% | 1 | Laerothcave 3, Lakecave 0, Lakecave 2 |
+| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 20% | 1 | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 20% | 1 | Laerothcave 3, Lakecave 0, Lakecave 2 |
+| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 20% | 1 | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 20% | 1 | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 20% | 1 | Laerothcave 2, Laerothcave 3, Lakecave 0 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

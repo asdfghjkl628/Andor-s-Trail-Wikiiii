@@ -38,7 +38,7 @@ description: "Leather boots is a ordinary footwear, leather in Andor's Trail (Bl
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 20% | 1 | crackshot_hideout2, crackshot_hideout3 |
+| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 20% | 1 | Crackshot hideout 2, Crackshot hideout 3 |
 | [Rabid boar](../monsters/rabid_boar.md) | 5% | 1 | Blackwater Mountain, Crossroads Guardhouse, Crossglen |
 | [Wild boar](../monsters/wild_boar.md) | 5% | 1 | Flagstone Prison, Blackwater Mountain, Fallhaven |
 | [Vicious hound](../monsters/vicious_hound.md) | 5% | 1 | Foaming Flask Tavern, Stoutford, Prim |
@@ -52,8 +52,8 @@ description: "Leather boots is a ordinary footwear, leather in Andor's Trail (Bl
 
 ### Found in containers
 
-- [gamjee_well_1](../maps/gamjee_well_1.md#container-0) (container 1, 100%)
-- [mushroom_m2_2](../maps/mushroom_m2_2.md#container-0) (container 1, 100%)
+- [Gamjee well 1](../maps/gamjee_well_1.md#container-0) (container 1, 100%)
+- [Mushroom m 2 2](../maps/mushroom_m2_2.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -64,7 +64,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw a leather boot into the well]” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw a leather boot into the well]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

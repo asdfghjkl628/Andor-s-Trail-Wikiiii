@@ -46,14 +46,14 @@ description: "Runed scepter is a ordinary scepter in Andor's Trail (Attack damag
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 33.3333% | 0-2 | Prim |
-| [Hirathil spawn](../monsters/hirathil0.md) | 1% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Aggressive hirathil ghost](../monsters/hirathil1.md) | 1% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Hirathil ghost](../monsters/hirathil2.md) | 1% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Ferocious hirathil ghost](../monsters/hirathil3.md) | 1% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Restless hirathil ghost](../monsters/hirathil4.md) | 1% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Hirathil servant](../monsters/hirathil5.md) | 1% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Hirathil master](../monsters/hirathil6.md) | 1% | 1 | lodarcave4a, lodarcave5, lodarcave6 |
-| [Ancient hirathil ghost](../monsters/hirathil7.md) | 1% | 1 | lodarcave4a, lodarcave5, lodarcave6 |
+| [Hirathil spawn](../monsters/hirathil0.md) | 1% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Aggressive hirathil ghost](../monsters/hirathil1.md) | 1% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Hirathil ghost](../monsters/hirathil2.md) | 1% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Ferocious hirathil ghost](../monsters/hirathil3.md) | 1% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Restless hirathil ghost](../monsters/hirathil4.md) | 1% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Hirathil servant](../monsters/hirathil5.md) | 1% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Hirathil master](../monsters/hirathil6.md) | 1% | 1 | Lodarcave 4a, Lodarcave 5, Lodarcave 6 |
+| [Ancient hirathil ghost](../monsters/hirathil7.md) | 1% | 1 | Lodarcave 4a, Lodarcave 5, Lodarcave 6 |
 
 ### Sold by
 

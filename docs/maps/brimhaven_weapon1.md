@@ -1,8 +1,8 @@
 ---
-description: "Brimhaven weapon1 is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Truric. Exits to Brimhaven4."
+description: "Brimhaven weapon 1 is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Truric. Exits to Brimhaven 4."
 ---
 
-# Brimhaven weapon1
+# Brimhaven weapon 1
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brimhaven weapon1 is an indoor location in Andor's Trail, in Brimh
 
 </div>
 
-**Brimhaven weapon1** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Brimhaven4.
+**Brimhaven weapon 1** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Brimhaven 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_weapon1.webp" alt="Map of Brimhaven weapon1" width="224" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven4/#place-weapon1" title="Exit to Brimhaven4" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Truric" style="left:14.286%;top:37.500%;width:71.429%;height:37.500%"></span><a class="mob" href="../../monsters/truric/" title="Truric" style="left:28.571%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_86.png" alt="Truric"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brimhaven4](brimhaven4.md)">1</a><a id="pin-npc-truric" class="pin pin-npc" href="#key-2" style="left:35.714%;top:43.750%" title="[Truric](../../monsters/truric.md): shopkeeper">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_weapon1.webp" alt="Map of Brimhaven weapon 1" width="224" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven4/#place-weapon1" title="Exit to Brimhaven 4" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Truric" style="left:14.286%;top:37.500%;width:71.429%;height:37.500%"></span><a class="mob" href="../../monsters/truric/" title="Truric" style="left:28.571%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_86.png" alt="Truric"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brimhaven 4](brimhaven4.md)">1</a><a id="pin-npc-truric" class="pin pin-npc" href="#key-2" style="left:35.714%;top:43.750%" title="[Truric](../../monsters/truric.md): shopkeeper">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven4](brimhaven4.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 4](brimhaven4.md) |
     | <span id="key-2"></span>2 | [Truric](../monsters/truric.md) | shopkeeper |
 
 
@@ -40,7 +40,7 @@ description: "Brimhaven weapon1 is an indoor location in Andor's Trail, in Brimh
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven4](brimhaven4.md) | Brimhaven | 1 |
+| South | [Brimhaven 4](brimhaven4.md) | Brimhaven | 1 |
 
 ## NPCs
 

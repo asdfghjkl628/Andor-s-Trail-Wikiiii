@@ -25,7 +25,7 @@ description: "Andor's bonemeal box is a quest other in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From [Guynmart](../monsters/guynmart.md) ([guynmart_main_0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) ([guynmart_main_0](../maps/guynmart_main_0.md)) during [Search for Andor](../quests/andor.md#stage-92) (100%)
+- From [Guynmart](../monsters/guynmart.md) ([Guynmart main 0](../maps/guynmart_main_0.md)), [Unkorh](../monsters/guynmart_steward.md#v-guynmart_steward4) ([Guynmart main 0](../maps/guynmart_main_0.md)) during [Search for Andor](../quests/andor.md#stage-92) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brimhaven4](../maps/brimhaven4.md), stepping on a trigger on [crossroads](../maps/crossroads.md) | [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42) | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md), stepping on a trigger on [Crossroads](../maps/crossroads.md) | [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-42) | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -11,7 +11,7 @@ description: "Undertell 3 lava 00 is an indoor location in Andor's Trail. NPCs: 
 | **Map ID** | `undertell_3_lava_00` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level3](index.md) |
+| **World map** | [Undertell level 3](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 6 |
@@ -77,8 +77,8 @@ description: "Undertell 3 lava 00 is an indoor location in Andor's Trail. NPCs: 
 - [About a girl](../quests/about_a_girl.md): [Thalen](../monsters/thalen.md) is involved
 - [Search for Andor](../quests/andor.md): blocked passage opens at stage 1
 - [The fifth master](../quests/fifth_master.md): [Thalen](../monsters/thalen.md) is involved
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 3
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Thalen](../monsters/thalen.md) is involved
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 3
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Thalen](../monsters/thalen.md) is involved
 
 ## Points of interest
 

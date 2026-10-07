@@ -49,7 +49,7 @@ description: "Vilegard wrye is an indoor location in Andor's Trail, in Vilegard 
 ## Quests
 
 - [Uncertain cause](../quests/wrye.md): [Wrye](../monsters/wrye.md) is involved
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Wrye](../monsters/wrye.md) is involved
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Wrye](../monsters/wrye.md) is involved
 
 
 ## Version history

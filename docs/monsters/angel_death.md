@@ -1,10 +1,10 @@
 ---
-description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, worth 595 XP, found in haunted_cemetery1, haunted_cemetery2, haunted_forest16. Drops: Angel feather, Gold coins, Tonic of blood."
+description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, worth 595 XP, found in Haunted cemetery 1, Haunted cemetery 2, Haunted forest 16. Drops: Angel feather, Gold coins, Tonic of blood."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_33.png){ .sprite } Angel of death
 
-**Found in:** [haunted_cemetery1](../maps/haunted_cemetery1.md), [haunted_cemetery2](../maps/haunted_cemetery2.md), [haunted_forest16](../maps/haunted_forest16.md), [haunted_forest17](../maps/haunted_forest17.md) (+7 more)
+**Found in:** [Haunted cemetery 1](../maps/haunted_cemetery1.md), [Haunted cemetery 2](../maps/haunted_cemetery2.md), [Haunted forest 16](../maps/haunted_forest16.md), [Haunted forest 17](../maps/haunted_forest17.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_cemetery1, haunted_cemetery2, haunted_forest16 |
+| **Found in** | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 16 |
 | **Class** | Undead |
 | **HP** | 198 |
 | **XP when defeated** | 595 |
@@ -58,17 +58,17 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_cemetery1](../maps/haunted_cemetery1.md) | – | 5 | – |
-| [haunted_cemetery2](../maps/haunted_cemetery2.md) | – | 4 | – |
-| [haunted_forest16](../maps/haunted_forest16.md) | – | 2 | – |
-| [haunted_forest17](../maps/haunted_forest17.md) | – | 3 | – |
-| [haunted_forest20](../maps/haunted_forest20.md) | – | 1 | – |
-| [haunted_forest21](../maps/haunted_forest21.md) | – | 6 | – |
-| [haunted_forest22](../maps/haunted_forest22.md) | – | 4 | – |
-| [haunted_forest23](../maps/haunted_forest23.md) | – | 2 | – |
-| [haunted_forest_way_to_house4](../maps/haunted_forest_way_to_house4.md) | – | 2 | – |
-| [haunted_house](../maps/haunted_house.md) | – | 2 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
+| [Haunted cemetery 1](../maps/haunted_cemetery1.md) | – | 5 | – |
+| [Haunted cemetery 2](../maps/haunted_cemetery2.md) | – | 4 | – |
+| [Haunted forest 16](../maps/haunted_forest16.md) | – | 2 | – |
+| [Haunted forest 17](../maps/haunted_forest17.md) | – | 3 | – |
+| [Haunted forest 20](../maps/haunted_forest20.md) | – | 1 | – |
+| [Haunted forest 21](../maps/haunted_forest21.md) | – | 6 | – |
+| [Haunted forest 22](../maps/haunted_forest22.md) | – | 4 | – |
+| [Haunted forest 23](../maps/haunted_forest23.md) | – | 2 | – |
+| [Haunted forest way to house 4](../maps/haunted_forest_way_to_house4.md) | – | 2 | – |
+| [Haunted house](../maps/haunted_house.md) | – | 2 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
 
 
 ## Version history

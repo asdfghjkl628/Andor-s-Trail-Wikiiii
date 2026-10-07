@@ -4,7 +4,7 @@ description: "Melona is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } Melona
 
-**Where to find Melona:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-melona)
+**Where to find Melona:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-melona)
 
 <div class="infobox" markdown>
 
@@ -34,11 +34,11 @@ description: "Melona is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stage 230
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stage 230
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Melona. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Melona. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/melona_0.json" data-npc="Melona" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-melona_0"></span>**`melona_0`** Melona: “Hello. I'm Melona, and I run this fine establishment.”
 
@@ -55,7 +55,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-melona_0a"></span>**`melona_0a`** Melona: “What can I help you with?”
 
     - “I'm hungry. Do you have any food to sell?” → [melona_1](#d-melona_1)
-    - “I need somewhere to sleep. Do you have a bed available?” *(if NOT reached stage 230 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-230))* → [melona_2](#d-melona_2)
+    - “I need somewhere to sleep. Do you have a bed available?” *(if NOT reached stage 230 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-230))* → [melona_2](#d-melona_2)
     - “I'm looking for my brother, Andor. He looks a bit like me.” → [melona_3](#d-melona_3)
 
     <span id="d-melona_1"></span>**`melona_1`** Melona: “Certainly. Please take a look at what I can offer.”
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK. Let's talk about something else.” → [melona_0a](#d-melona_0a)
 
-    <span id="d-melona_2a"></span>**`melona_2a`** Melona: “Thank you for your patronage. You can use any available bed.” — **effects:** sets stage 230 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-230)
+    <span id="d-melona_2a"></span>**`melona_2a`** Melona: “Thank you for your patronage. You can use any available bed.” — **effects:** sets stage 230 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-230)
 
 
 

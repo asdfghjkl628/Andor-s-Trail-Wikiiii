@@ -1,10 +1,10 @@
 ---
-description: "Feygard patrol sergeant is a non-player character (NPC) in Andor's Trail, found in crackshot_hideout3."
+description: "Feygard patrol sergeant is a non-player character (NPC) in Andor's Trail, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Feygard patrol sergeant
 
-**Where to find Feygard patrol sergeant:** [crackshot_hideout3](../maps/crackshot_hideout3.md#pin-npc-g03_sergeant)
+**Where to find Feygard patrol sergeant:** [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-g03_sergeant)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Feygard patrol sergeant is a non-player character (NPC) in Andor's
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | crackshot_hideout3 |
+| **Found in** | Crackshot hideout 3 |
 | **Entry ID** | `g03_sergeant` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
@@ -22,11 +22,11 @@ description: "Feygard patrol sergeant is a non-player character (NPC) in Andor's
 ## Quests
 
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 30, 31, 32
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stage 90
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stage 90
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard patrol sergeant. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard patrol sergeant. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/FeygardSerg_guild03_select.json" data-npc="Feygard patrol sergeant" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-FeygardSerg_guild03_select"></span>**`FeygardSerg_guild03_select`** *(silent check: the first matching branch below is taken)*
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 3 *(if reached stage 30 of [The ruthless Crackshot](../quests/Thieves03.md#stage-30))* → [FeygardSerg_guild03_3](#d-FeygardSerg_guild03_3)
     - branch 4 → [FeygardSerg_guild03_1](#d-FeygardSerg_guild03_1)
 
-    <span id="d-FeygardSerg_guild03_dead"></span>**`FeygardSerg_guild03_dead`** Feygard patrol sergeant: “You ... Argh ... [The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he wanted to tell you.]” — **effects:** removes monsters from crackshot_hideout3, sets stage 90 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-90)
+    <span id="d-FeygardSerg_guild03_dead"></span>**`FeygardSerg_guild03_dead`** Feygard patrol sergeant: “You ... Argh ... [The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he wanted to tell you.]” — **effects:** removes monsters from crackshot_hideout3, sets stage 90 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-90)
 
 
     <span id="d-FeygardSerg_guild03_9b"></span>**`FeygardSerg_guild03_9b`** Feygard patrol sergeant: “Kid, why are you still here? Leave me, I'm just resting a bit.”

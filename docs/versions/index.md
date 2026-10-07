@@ -1,6 +1,6 @@
 # Version history
 
-What every release of Andor's Trail changed, worked out by comparing the game's own data release by release, from v0.7.0 to v0.8.18. Information found elsewhere may describe an older version; the pages below show what changed and when.
+What every release changed, from v0.7.0 to v0.8.18, worked out by comparing the game's data release by release. If something you read elsewhere doesn't match your game, the answer is probably here ~~or the forum post is from 2013~~.
 
 ![Content growth](../assets/charts/growth.png)
 

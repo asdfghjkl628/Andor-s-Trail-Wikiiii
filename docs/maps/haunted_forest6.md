@@ -1,8 +1,8 @@
 ---
-description: "Haunted forest6 is an outdoor location in Andor's Trail. Enemies: Forest hunter, Deadwalker. Exits to Haunted forest2, Haunted forest8, Haunted forest9."
+description: "Haunted forest 6 is an outdoor location in Andor's Trail. Enemies: Forest hunter, Deadwalker. Exits to Haunted forest 2, Haunted forest 8, Haunted forest 9."
 ---
 
-# Haunted forest6
+# Haunted forest 6
 
 <div class="infobox" markdown>
 
@@ -11,28 +11,28 @@ description: "Haunted forest6 is an outdoor location in Andor's Trail. Enemies: 
 | **Map ID** | `haunted_forest6` |
 | **Type** | Outdoors |
 | **Size** | 11×7 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Haunted forest6** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Haunted forest2, Haunted forest8, Haunted forest9.
+**Haunted forest 6** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Haunted forest 2, Haunted forest 8, Haunted forest 9.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest6.webp" alt="Map of Haunted forest6" width="352" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest2/#place-west" title="Exit to Haunted forest2" style="left:90.909%;top:14.286%;width:9.091%;height:71.429%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest9/#place-east" title="Exit to Haunted forest9" style="left:0.000%;top:28.571%;width:9.091%;height:57.143%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest8/#place-northeast" title="Exit to Haunted forest8" style="left:18.182%;top:85.714%;width:9.091%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:36.364%;top:57.143%;width:45.455%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Forest hunter" style="left:18.182%;top:14.286%;width:9.091%;height:57.143%"></span><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:45.455%;top:14.286%;width:27.273%;height:14.286%"></span><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:54.545%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:36.364%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:18.182%;top:28.571%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:18.182%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:54.545%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:50.000%" title="Exit (east): to [Haunted forest2](haunted_forest2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.727%;top:92.857%" title="Exit (south): to [Haunted forest8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.545%;top:57.143%" title="Exit (west): to [Haunted forest9](haunted_forest9.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest6.webp" alt="Map of Haunted forest 6" width="352" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest2/#place-west" title="Exit to Haunted forest 2" style="left:90.909%;top:14.286%;width:9.091%;height:71.429%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest9/#place-east" title="Exit to Haunted forest 9" style="left:0.000%;top:28.571%;width:9.091%;height:57.143%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest8/#place-northeast" title="Exit to Haunted forest 8" style="left:18.182%;top:85.714%;width:9.091%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:36.364%;top:57.143%;width:45.455%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Forest hunter" style="left:18.182%;top:14.286%;width:9.091%;height:57.143%"></span><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:45.455%;top:14.286%;width:27.273%;height:14.286%"></span><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:54.545%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:36.364%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:18.182%;top:28.571%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:18.182%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:54.545%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:50.000%" title="Exit (east): to [Haunted forest 2](haunted_forest2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.727%;top:92.857%" title="Exit (south): to [Haunted forest 8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.545%;top:57.143%" title="Exit (west): to [Haunted forest 9](haunted_forest9.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Haunted forest2](haunted_forest2.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Haunted forest8](haunted_forest8.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Haunted forest9](haunted_forest9.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Haunted forest 2](haunted_forest2.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Haunted forest 8](haunted_forest8.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Haunted forest 9](haunted_forest9.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,9 +41,9 @@ description: "Haunted forest6 is an outdoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Haunted forest2](haunted_forest2.md) | – | 1 |
-| South | [Haunted forest8](haunted_forest8.md) | – | 2 |
-| West | [Haunted forest9](haunted_forest9.md) | – | 3 |
+| East | [Haunted forest 2](haunted_forest2.md) | – | 1 |
+| South | [Haunted forest 8](haunted_forest8.md) | – | 2 |
+| West | [Haunted forest 9](haunted_forest9.md) | – | 3 |
 
 ## Enemies
 

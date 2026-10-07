@@ -1,8 +1,8 @@
 ---
-description: "Cabin norcity road1 is an indoor location in Andor's Trail. Enemies: Hardshell beetle, Anklebiter, Duleian buzzer. Exits to Cabin norcity road2, Road5."
+description: "Cabin norcity road 1 is an indoor location in Andor's Trail. Enemies: Hardshell beetle, Anklebiter, Duleian buzzer. Exits to Cabin norcity road 2, Road 5."
 ---
 
-# Cabin norcity road1
+# Cabin norcity road 1
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Cabin norcity road1 is an indoor location in Andor's Trail. Enemie
 | **Map ID** | `cabin_norcity_road1` |
 | **Type** | Indoors / underground |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Cabin norcity road1** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Cabin norcity road2, Road5.
+**Cabin norcity road 1** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Cabin norcity road 2, Road 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/cabin_norcity_road1.webp" alt="Map of Cabin norcity road1" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../road5/#place-east" title="Exit to Road5" style="left:0.000%;top:33.333%;width:5.000%;height:40.000%"></a><a id="place-north" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-south" title="Exit to Cabin norcity road2" style="left:50.000%;top:0.000%;width:45.000%;height:6.667%"></a><a class="mo mo-script" href="../../quests/dds_nd/#stage-11" title="Scripted event: advances the quest: hidden story flag “dds_nd” to stage 11 (“11=Borvis spawned near Alynndir&#x27;s hut”)" style="left:10.000%;top:33.333%;width:5.000%;height:40.000%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:13.333%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:10.000%;top:60.000%;width:80.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:70.000%;top:26.667%;width:25.000%;height:20.000%"></span><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:20.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:50.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:85.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:60.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:75.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:72.500%;top:3.333%" title="Exit (north): to [Cabin norcity road2](cabin_norcity_road2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:53.333%" title="Exit (west): to [Road5](road5.md)">2</a><a class="pin pin-script" href="#key-3" style="left:12.500%;top:53.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “dds_nd” to stage 11 (“11=Borvis spawned near Alynndir&#x27;s hut”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/cabin_norcity_road1.webp" alt="Map of Cabin norcity road 1" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../road5/#place-east" title="Exit to Road 5" style="left:0.000%;top:33.333%;width:5.000%;height:40.000%"></a><a id="place-north" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-south" title="Exit to Cabin norcity road 2" style="left:50.000%;top:0.000%;width:45.000%;height:6.667%"></a><a class="mo mo-script" href="../../quests/dds_nd/#stage-11" title="Scripted event: advances the quest: hidden story flag “dds_nd” to stage 11 (“11=Borvis spawned near Alynndir&#x27;s hut”)" style="left:10.000%;top:33.333%;width:5.000%;height:40.000%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:13.333%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:10.000%;top:60.000%;width:80.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:70.000%;top:26.667%;width:25.000%;height:20.000%"></span><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:20.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:50.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:85.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:60.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:75.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:72.500%;top:3.333%" title="Exit (north): to [Cabin norcity road 2](cabin_norcity_road2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:53.333%" title="Exit (west): to [Road 5](road5.md)">2</a><a class="pin pin-script" href="#key-3" style="left:12.500%;top:53.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “dds_nd” to stage 11 (“11=Borvis spawned near Alynndir&#x27;s hut”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Cabin norcity road2](cabin_norcity_road2.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Road5](road5.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Cabin norcity road 2](cabin_norcity_road2.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Road 5](road5.md) |
     | <span id="key-3"></span>3 | Quest trigger | Scripted event: advances the quest: hidden story flag “dds_nd” to stage 11 (“11=Borvis spawned near Alynndir's hut”) |
 
 
@@ -41,8 +41,8 @@ description: "Cabin norcity road1 is an indoor location in Andor's Trail. Enemie
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Cabin norcity road2](cabin_norcity_road2.md) | – | 1 |
-| West | [Road5](road5.md) | – | 2 |
+| North | [Cabin norcity road 2](cabin_norcity_road2.md) | – | 1 |
+| West | [Road 5](road5.md) | – | 2 |
 
 ## Enemies
 
@@ -56,7 +56,7 @@ description: "Cabin norcity road1 is an indoor location in Andor's Trail. Enemie
 
 ## Quests
 
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): something on this map advances it; stepping on a trigger here sets stage 11
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): something on this map advances it; stepping on a trigger here sets stage 11
 
 ## Points of interest
 

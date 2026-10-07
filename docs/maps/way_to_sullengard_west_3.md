@@ -11,7 +11,7 @@ description: "Way to sullengard west 3 is an outdoor location in Andor's Trail. 
 | **Map ID** | `way_to_sullengard_west_3` |
 | **Type** | Outdoors |
 | **Size** | 15×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 2 |
 | **Enemy types** | 2 |
@@ -64,7 +64,7 @@ description: "Way to sullengard west 3 is an outdoor location in Andor's Trail. 
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Egrinda](../monsters/egrinda.md) is involved
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Egrinda](../monsters/egrinda.md) is involved
 
 
 ## Version history

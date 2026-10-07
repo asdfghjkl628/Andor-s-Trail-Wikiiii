@@ -1,10 +1,10 @@
 ---
-description: "Burrowing glow worm is an enemy in Andor's Trail (reptile) with 48 HP, worth 256 XP, found in gamjee_well_1_1, gamjee_well_1_3, gamjee_well_2_1. Drops: Gold coins, Poison gland, Worm meat."
+description: "Burrowing glow worm is an enemy in Andor's Trail (reptile) with 48 HP, worth 256 XP, found in Gamjee well 1 1, Gamjee well 1 3, Gamjee well 2 1. Drops: Gold coins, Poison gland, Worm meat."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_20.png){ .sprite } Burrowing glow worm
 
-**Found in:** [gamjee_well_1_1](../maps/gamjee_well_1_1.md), [gamjee_well_1_3](../maps/gamjee_well_1_3.md), [gamjee_well_2_1](../maps/gamjee_well_2_1.md), [gamjee_well_exit](../maps/gamjee_well_exit.md) (+5 more)
+**Found in:** [Gamjee well 1 1](../maps/gamjee_well_1_1.md), [Gamjee well 1 3](../maps/gamjee_well_1_3.md), [Gamjee well 2 1](../maps/gamjee_well_2_1.md), [Gamjee well exit](../maps/gamjee_well_exit.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Burrowing glow worm is an enemy in Andor's Trail (reptile) with 48
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gamjee_well_1_1, gamjee_well_1_3, gamjee_well_2_1 |
+| **Found in** | Gamjee well 1 1, Gamjee well 1 3, Gamjee well 2 1 |
 | **Class** | Reptile |
 | **HP** | 48 |
 | **XP when defeated** | 256 |
@@ -58,15 +58,15 @@ description: "Burrowing glow worm is an enemy in Andor's Trail (reptile) with 48
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_1_1](../maps/gamjee_well_1_1.md) | – | 2 | – |
-| [gamjee_well_1_3](../maps/gamjee_well_1_3.md) | – | 1 | – |
-| [gamjee_well_2_1](../maps/gamjee_well_2_1.md) | – | 2 | – |
-| [gamjee_well_exit](../maps/gamjee_well_exit.md) | – | 1 | – |
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
-| [lodar16](../maps/lodar16.md) | – | 15 | – |
-| [lodar20](../maps/lodar20.md) | – | 2 | – |
-| [lodar21](../maps/lodar21.md) | – | 2 | – |
-| [lodar8](../maps/lodar8.md) | – | 4 | – |
+| [Gamjee well 1 1](../maps/gamjee_well_1_1.md) | – | 2 | – |
+| [Gamjee well 1 3](../maps/gamjee_well_1_3.md) | – | 1 | – |
+| [Gamjee well 2 1](../maps/gamjee_well_2_1.md) | – | 2 | – |
+| [Gamjee well exit](../maps/gamjee_well_exit.md) | – | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 15 | – |
+| [Lodar 20](../maps/lodar20.md) | – | 2 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 2 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 4 | – |
 
 
 ## Version history

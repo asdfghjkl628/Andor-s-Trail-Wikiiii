@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave11 is an indoor location in Andor's Trail, in Burial cave (other). Enemies: Cave scorpion, Cavern snake. Exits to Brightport cave10, Brightport cave12."
+description: "Brightport cave 11 is an indoor location in Andor's Trail, in Burial cave (other). Enemies: Cave scorpion, Cavern snake. Exits to Brightport cave 10, Brightport cave 12."
 ---
 
-# Brightport cave11
+# Brightport cave 11
 
 <div class="infobox" markdown>
 
@@ -19,20 +19,20 @@ description: "Brightport cave11 is an indoor location in Andor's Trail, in Buria
 
 </div>
 
-**Brightport cave11** is an indoor map, in Burial cave (other). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport cave10, Brightport cave12.
+**Brightport cave 11** is an indoor map, in Burial cave (other). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport cave 10, Brightport cave 12.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave11.webp" alt="Map of Brightport cave11" width="608" height="352" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave10/#place-west" title="Exit to Brightport cave10" style="left:94.737%;top:72.727%;width:5.263%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../brightport_cave12/#place-north" title="Exit to Brightport cave12" style="left:21.053%;top:90.909%;width:10.526%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Cavern snake" style="left:73.684%;top:36.364%;width:15.789%;height:45.455%"></span><span class="mo mo-spawn" title="Spawns: Cave scorpion" style="left:5.263%;top:27.273%;width:47.368%;height:27.273%"></span><span class="mo mo-spawn" title="Spawns: Cave scorpion" style="left:15.789%;top:72.727%;width:15.789%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_snake/" title="Cavern snake" style="left:78.947%;top:36.364%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik4_23.png" alt="Cavern snake"></a><a class="mob" href="../../monsters/cave_scorpion_0/#v-brightport_scorpion" title="Cave scorpion" style="left:47.368%;top:36.364%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik3_76.png" alt="Cave scorpion"></a><a class="mob" href="../../monsters/cave_scorpion_0/#v-brightport_scorpion" title="Cave scorpion" style="left:21.053%;top:72.727%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik3_76.png" alt="Cave scorpion"></a><a class="pin pin-exit" href="#key-1" style="left:97.368%;top:77.273%" title="Exit (east): to [Brightport cave10](brightport_cave10.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:26.316%;top:95.455%" title="Exit (south): to [Brightport cave12](brightport_cave12.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave11.webp" alt="Map of Brightport cave 11" width="608" height="352" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave10/#place-west" title="Exit to Brightport cave 10" style="left:94.737%;top:72.727%;width:5.263%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../brightport_cave12/#place-north" title="Exit to Brightport cave 12" style="left:21.053%;top:90.909%;width:10.526%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Cavern snake" style="left:73.684%;top:36.364%;width:15.789%;height:45.455%"></span><span class="mo mo-spawn" title="Spawns: Cave scorpion" style="left:5.263%;top:27.273%;width:47.368%;height:27.273%"></span><span class="mo mo-spawn" title="Spawns: Cave scorpion" style="left:15.789%;top:72.727%;width:15.789%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_snake/" title="Cavern snake" style="left:78.947%;top:36.364%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik4_23.png" alt="Cavern snake"></a><a class="mob" href="../../monsters/cave_scorpion_0/#v-brightport_scorpion" title="Cave scorpion" style="left:47.368%;top:36.364%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik3_76.png" alt="Cave scorpion"></a><a class="mob" href="../../monsters/cave_scorpion_0/#v-brightport_scorpion" title="Cave scorpion" style="left:21.053%;top:72.727%;width:5.263%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik3_76.png" alt="Cave scorpion"></a><a class="pin pin-exit" href="#key-1" style="left:97.368%;top:77.273%" title="Exit (east): to [Brightport cave 10](brightport_cave10.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:26.316%;top:95.455%" title="Exit (south): to [Brightport cave 12](brightport_cave12.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave10](brightport_cave10.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Brightport cave12](brightport_cave12.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave 10](brightport_cave10.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Brightport cave 12](brightport_cave12.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Brightport cave11 is an indoor location in Andor's Trail, in Buria
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightport cave10](brightport_cave10.md) | Burial cave | 1 |
-| South | [Brightport cave12](brightport_cave12.md) | Burial cave | 2 |
+| East | [Brightport cave 10](brightport_cave10.md) | Burial cave | 1 |
+| South | [Brightport cave 12](brightport_cave12.md) | Burial cave | 2 |
 
 ## Enemies
 

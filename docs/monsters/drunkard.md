@@ -4,7 +4,7 @@ description: "Drunkard is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Drunkard
 
-**Where to find Drunkard:** Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-drunkard)
+**Where to find Drunkard:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-drunkard)
 
 <div class="infobox" markdown>
 
@@ -24,11 +24,11 @@ description: "Drunkard is a non-player character (NPC) in Andor's Trail, found i
 
 - [Drunken tale](../quests/fallhavendrunk.md): stages 10, 100
 - [You shall pass](../quests/undertell_barricades.md): stages 130, 140
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 55
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 55
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drunkard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drunkard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_drunk_selector.json" data-npc="Drunkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_drunk_selector"></span>**`fallhaven_drunk_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -54,8 +54,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Yes.” → [fallhaven_drunk_3_1](#d-fallhaven_drunk_3_1)
     - “No.” → [fallhaven_drunk_3_2](#d-fallhaven_drunk_3_2)
-    - “No, I am here to give you something.” *(if reached stage 120 of [You shall pass](../quests/undertell_barricades.md#stage-120); carry 1× [Potion of heightened senses](../items/pot_senses.md); NOT reached stage 55 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55); have 5,000 gold)* → [fallhaven_drunk_potion_10](#d-fallhaven_drunk_potion_10)
-    - “Shannal sent me.” *(if reached stage 55 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55); NOT reached stage 130 of [You shall pass](../quests/undertell_barricades.md#stage-130); have 5,000 gold)* → [fallhaven_drunk_potion_30](#d-fallhaven_drunk_potion_30)
+    - “No, I am here to give you something.” *(if reached stage 120 of [You shall pass](../quests/undertell_barricades.md#stage-120); carry 1× [Potion of heightened senses](../items/pot_senses.md); NOT reached stage 55 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-55); have 5,000 gold)* → [fallhaven_drunk_potion_10](#d-fallhaven_drunk_potion_10)
+    - “Shannal sent me.” *(if reached stage 55 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-55); NOT reached stage 130 of [You shall pass](../quests/undertell_barricades.md#stage-130); have 5,000 gold)* → [fallhaven_drunk_potion_30](#d-fallhaven_drunk_potion_30)
     - “Are you okay now?” *(if latest stage of [You shall pass](../quests/undertell_barricades.md#stage-130) is 130)* → [fallhaven_drunk_remember_30](#d-fallhaven_drunk_remember_30)
 
     <span id="d-fallhaven_drunk_3_1"></span>**`fallhaven_drunk_3_1`** Drunkard: “Oh, guard. I'm not causing any trouble anymore, see? I sits outside now as you says, OK?”
@@ -70,7 +70,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “No, it's not mead. That's the last thing that you need.” → [fallhaven_drunk_potion_20](#d-fallhaven_drunk_potion_20)
 
-    <span id="d-fallhaven_drunk_potion_30"></span>**`fallhaven_drunk_potion_30`** Drunkard: “Shannal? That name sounds familiar to me, yet distant to me.” — **effects:** sets stage 55 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55)
+    <span id="d-fallhaven_drunk_potion_30"></span>**`fallhaven_drunk_potion_30`** Drunkard: “Shannal? That name sounds familiar to me, yet distant to me.” — **effects:** sets stage 55 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-55)
 
     - “Just drink the potion.” → [fallhaven_drunk_potion_drink_nar](#d-fallhaven_drunk_potion_drink_nar)
 
@@ -155,7 +155,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…”<br>· text: “*takes a gulp of the mead* That's good stuff!” → “[Takes a gulp of the mead] That's good stuff!” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “That's where we.. Hey, where did my mead go? Did you take it from me?” → “That's where we... Hey, where did my mead go? Did you take it from me?”<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” |
 | [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 10 lines added, 2 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, guard. I'm not causing any trouble anymore, see? I sits outside n…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

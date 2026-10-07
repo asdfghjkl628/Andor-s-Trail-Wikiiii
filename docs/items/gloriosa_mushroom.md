@@ -26,8 +26,8 @@ description: "Gloriosa mushroom is a rare other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [sullengard_woods14](../maps/sullengard_woods14.md) during [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-5) (1×)
-- From [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) (1×)
+- From stepping on a trigger on [Sullengard woods 14](../maps/sullengard_woods14.md) during [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-5) (1×)
+- From [Nimael](../monsters/nimael.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “While exploring the Sullengard forest, I stumbled across this giant mushroom and” |
-| [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (1×) | “[Hand it over to Nimael]” |
+| [Nimael](../monsters/nimael.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | must be carried (1×) | “While exploring the Sullengard forest, I stumbled across this giant mushroom and” |
+| [Nimael](../monsters/nimael.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (1×) | “[Hand it over to Nimael]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

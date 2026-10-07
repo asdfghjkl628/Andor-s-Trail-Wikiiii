@@ -1,5 +1,5 @@
 ---
-description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104–364 HP, worth 399–894 XP, found in elm5f_1, elm5f_2, elm_4f_1, elm5f_2. Drops: Bone, Human skull, Gold coins, Small empty vial."
+description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104–364 HP, worth 399–894 XP, found in Elm 5f 1, Elm 5f 2, Elm 4f 1, Elm 5f 2. Drops: Bone, Human skull, Gold coins, Small empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_19.png){ .sprite } Prim guard skeleton
@@ -11,7 +11,7 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_1, elm5f_2, elm_4f_1, elm5f_2 |
+| **Found in** | Elm 5f 1, Elm 5f 2, Elm 4f 1, Elm 5f 2 |
 | **Class** | Undead |
 | **HP** | 104–364 |
 | **XP when defeated** | 399–894 |
@@ -21,18 +21,18 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Prim guard skeleton. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Prim guard skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`elm_miner4`](#v-elm_miner4) | Enemy | [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md) (+3 more) | – | 104 |
-| [`elm_miner4a`](#v-elm_miner4a) | Enemy | [elm5f_2](../maps/elm5f_2.md) | – | 364 |
+| [`elm_miner4`](#v-elm_miner4) | Enemy | [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md) (+3 more) | – | 104 |
+| [`elm_miner4a`](#v-elm_miner4a) | Enemy | [Elm 5f 2](../maps/elm5f_2.md) | – | 364 |
 
-## Elm5f 1 and 4 more (elm_miner4) { #v-elm_miner4 }
+## Elm 5f 1 and 4 more (elm_miner4) { #v-elm_miner4 }
 
 **Entry ID:** `elm_miner4` · **Type:** Enemy
 
-**Location:** [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md), [elm_4f_1](../maps/elm_4f_1.md), [elm_4f_3](../maps/elm_4f_3.md), [elm_4f_4](../maps/elm_4f_4.md)
+**Location:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 3](../maps/elm_4f_3.md), [Elm 4f 4](../maps/elm_4f_4.md)
 
 ### Combat statistics
 
@@ -78,11 +78,11 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_1](../maps/elm5f_1.md) | – | 8 | – |
-| [elm5f_2](../maps/elm5f_2.md) | – | 7 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 2 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 2 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 2 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 8 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 7 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 2 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 2 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 2 | – |
 
 
 ### Version history
@@ -159,11 +159,11 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
     ```
 
 
-## Elm5f 2 (elm_miner4a) { #v-elm_miner4a }
+## Elm 5f 2 (elm_miner4a) { #v-elm_miner4a }
 
 **Entry ID:** `elm_miner4a` · **Type:** Enemy
 
-**Location:** [elm5f_2](../maps/elm5f_2.md)
+**Location:** [Elm 5f 2](../maps/elm5f_2.md)
 
 ### Combat statistics
 
@@ -203,7 +203,7 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_2](../maps/elm5f_2.md) | – | 1 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | – |
 
 
 ### Version history

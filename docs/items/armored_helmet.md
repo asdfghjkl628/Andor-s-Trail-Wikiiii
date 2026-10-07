@@ -47,7 +47,7 @@ description: "Armored helmet is a extraordinary headwear, metal (heavy) in Andor
 
 ### Sold by
 
-- [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) (lake_shore_road_9)
+- [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) (Lake shore road 9)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -58,7 +58,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [lake_shore_road_9](../maps/lake_shore_road_9.md) | [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-3) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Lake shore road 9](../maps/lake_shore_road_9.md) | [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-3) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

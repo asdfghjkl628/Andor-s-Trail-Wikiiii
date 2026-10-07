@@ -1,10 +1,10 @@
 ---
-description: "Gylew is an NPC who can also be fought in Andor's Trail, found in waterway5. Starts The odd coin collector."
+description: "Gylew is an NPC who can also be fought in Andor's Trail, found in Waterway 5. Starts The odd coin collector."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Gylew
 
-**Where to find Gylew:** [waterway5](../maps/waterway5.md#pin-npc-gylew)
+**Where to find Gylew:** [Waterway 5](../maps/waterway5.md#pin-npc-gylew)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Gylew is an NPC who can also be fought in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [The odd coin collector](../quests/odd_coin_collector.md) |
-| **Found in** | waterway5 |
+| **Found in** | Waterway 5 |
 | **Class** | Humanoid |
 | **HP** | 180 |
 | **XP when defeated** | 233 |
@@ -61,21 +61,21 @@ description: "Gylew is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway5](../maps/waterway5.md) | – | 1 | – |
+| [Waterway 5](../maps/waterway5.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [The odd coin collector](../quests/odd_coin_collector.md#stage-63) with stepping on a trigger on [waterway5](../maps/waterway5.md) checks that this enemy has been defeated.
+- [The odd coin collector](../quests/odd_coin_collector.md#stage-63) with stepping on a trigger on [Waterway 5](../maps/waterway5.md) checks that this enemy has been defeated.
 
 ## Quests
 
 - [The odd coin collector](../quests/odd_coin_collector.md): stages 10, 11, 12, 13, 20, 60, 62, 100, 105
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stages 44, 45, 47, 48
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stages 105, 106, 107
+- [General story flags (hidden flag)](../quests/nondisplay.md): stages 44, 45, 47, 48
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stages 105, 106, 107
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gylew. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gylew. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gylew.json" data-npc="Gylew" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -83,7 +83,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (71 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gylew"></span>**`gylew`** Gylew: “Hey kid.”
 
@@ -91,19 +91,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Hey old man.” *(if NOT reached stage 100 of [The odd coin collector](../quests/odd_coin_collector.md#stage-100); NOT reached stage 105 of [The odd coin collector](../quests/odd_coin_collector.md#stage-105))* → [gylew_old_man](#d-gylew_old_man)
     - “Hey. I found the Korhald tomb and it had two items that I think might interest you.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-66) is 66; carry 1× [Shield of the Brave](../items/shield_of_brave.md); carry 1× [Coin of Prestige](../items/hero_coin.md))* → [gylew_korhald_cop_0](#d-gylew_korhald_cop_0)
     - “Hey. I found the Korhald tomb and it had two items that I think might interest you.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-66) is 66; wearing [Shield of the Brave](../items/shield_of_brave.md); carry 1× [Coin of Prestige](../items/hero_coin.md))* → [gylew_korhald_cop_0](#d-gylew_korhald_cop_0)
-    - “Inside the Korhald tomb, I found a locked chest. Do you know where I can find its key?” *(if reached stage 66 of [The odd coin collector](../quests/odd_coin_collector.md#stage-66); reached stage 50 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-50))* → [odd_coin_collector_ask_about_locked_chest](#d-odd_coin_collector_ask_about_locked_chest)
-    - “About that "Coin of Prestige"...” *(if reached stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47))* → [gylew_korhald_cop_30a](#d-gylew_korhald_cop_30a)
+    - “Inside the Korhald tomb, I found a locked chest. Do you know where I can find its key?” *(if reached stage 66 of [The odd coin collector](../quests/odd_coin_collector.md#stage-66); reached stage 50 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-50))* → [odd_coin_collector_ask_about_locked_chest](#d-odd_coin_collector_ask_about_locked_chest)
+    - “About that "Coin of Prestige"...” *(if reached stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47))* → [gylew_korhald_cop_30a](#d-gylew_korhald_cop_30a)
     - “Hey. I need to go now and find this map.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-60) is 60)* → *conversation ends*
     - “I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” *(if reached stage 100 of [The odd coin collector](../quests/odd_coin_collector.md#stage-100); carry 3× [Mysterious coin](../items/mysterious_coin.md))* → [coin_collector_troll_coins](#d-coin_collector_troll_coins)
     - “We have no more business to discuss. I'll see you later.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-100) is 100)* → *conversation ends*
     - “I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” *(if reached stage 105 of [The odd coin collector](../quests/odd_coin_collector.md#stage-105); carry 3× [Mysterious coin](../items/mysterious_coin.md))* → [coin_collector_troll_coins](#d-coin_collector_troll_coins)
     - “I was glad to help fulfill you and your father's dream, but I need to go now.” *(if reached stage 105 of [The odd coin collector](../quests/odd_coin_collector.md#stage-105))* → *conversation ends*
-    - “[Lie]I have these bronze and silver coins that I "acquired" in a game of chance. I would like to know if you are…” *(if reached stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106); reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80); carry 50× [Bronze coin](../items/bronze_coin.md); carry 60× [Silver coin](../items/silver_coin.md); NOT reached stage 107 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-107))* → [coin_collector_thief_coins_10](#d-coin_collector_thief_coins_10)
+    - “[Lie]I have these bronze and silver coins that I "acquired" in a game of chance. I would like to know if you are…” *(if reached stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106); reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80); carry 50× [Bronze coin](../items/bronze_coin.md); carry 60× [Silver coin](../items/silver_coin.md); NOT reached stage 107 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-107))* → [coin_collector_thief_coins_10](#d-coin_collector_thief_coins_10)
 
     <span id="d-gylew_korhald_10"></span>**`gylew_korhald_10`** Gylew: “Did you find them?”
 
     - “Yes.” *(if carry 1× [Korhald coin chest](../items/korhald_coins.md); carry 1× [Forenza's key](../items/forenza_key.md); NOT reached stage 62 of [The odd coin collector](../quests/odd_coin_collector.md#stage-62))* → [gylew_korhald_20](#d-gylew_korhald_20)
-    - “Yes and I already gave them to you.” *(if reached stage 105 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-105))* → [gylew_korhald_25](#d-gylew_korhald_25)
+    - “Yes and I already gave them to you.” *(if reached stage 105 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-105))* → [gylew_korhald_25](#d-gylew_korhald_25)
     - “Yes, I found the Korhald coins, but you are not getting them...[Attack]” *(if reached stage 50 of [The odd coin collector](../quests/odd_coin_collector.md#stage-50))* → [gylew_attack](#d-gylew_attack)
     - “Yes, but I don't have them on me. I will go get them.” *(if NOT carry 1× [Korhald coin chest](../items/korhald_coins.md); NOT reached stage 62 of [The odd coin collector](../quests/odd_coin_collector.md#stage-62))* → *conversation ends*
 
@@ -165,7 +165,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sounds like a great deal. I'll take it.” *(if hand over 1× [Coin of Prestige](../items/hero_coin.md))* → [gylew_korhald_cop_50](#d-gylew_korhald_cop_50)
     - “Let me think about it. I will be back shortly.” → [gylew_korhald_cop_45](#d-gylew_korhald_cop_45)
 
-    <span id="d-gylew_korhald_cop_35"></span>**`gylew_korhald_cop_35`** Gylew: “Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you make that shield a little bit better.” — **effects:** sets stage 105 of [The odd coin collector](../quests/odd_coin_collector.md#stage-105), clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
+    <span id="d-gylew_korhald_cop_35"></span>**`gylew_korhald_cop_35`** Gylew: “Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you make that shield a little bit better.” — **effects:** sets stage 105 of [The odd coin collector](../quests/odd_coin_collector.md#stage-105), clears stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
 
 
     <span id="d-coin_collector_troll_coins_2"></span>**`coin_collector_troll_coins_2`** Gylew: “The coins hold a faint echo of the well's enchantment. Though their magic is subtle, they carry the essence of the well's power. As a token of my gratitude for bringing these to me, I offer you this rare artifact in exchange for three of…”
@@ -177,7 +177,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [coin_collector_thief_coins_30](#d-coin_collector_thief_coins_30)
 
-    <span id="d-gylew_korhald_30"></span>**`gylew_korhald_30`** Gylew: “[Gylew examines the chest] What?! There are two locks! How can this be? Do you know anything about a second key?” — **effects:** sets stage 105 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-105)
+    <span id="d-gylew_korhald_30"></span>**`gylew_korhald_30`** Gylew: “[Gylew examines the chest] What?! There are two locks! How can this be? Do you know anything about a second key?” — **effects:** sets stage 105 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-105)
 
     - “Yes. In fact, I met a 'friend' of yours who told me all about it.” → [gylew_korhald_40](#d-gylew_korhald_40)
 
@@ -197,10 +197,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [gylew_korhald_cop_30](#d-gylew_korhald_cop_30)
 
-    <span id="d-gylew_korhald_cop_50"></span>**`gylew_korhald_cop_50`** Gylew: “Excellent. Come see me if you ever find any more interesting coins.” — **effects:** gives [Gold coins](../items/gold.md), sets stage 100 of [The odd coin collector](../quests/odd_coin_collector.md#stage-100), clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
+    <span id="d-gylew_korhald_cop_50"></span>**`gylew_korhald_cop_50`** Gylew: “Excellent. Come see me if you ever find any more interesting coins.” — **effects:** gives [Gold coins](../items/gold.md), sets stage 100 of [The odd coin collector](../quests/odd_coin_collector.md#stage-100), clears stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
 
 
-    <span id="d-gylew_korhald_cop_45"></span>**`gylew_korhald_cop_45`** Gylew: “OK, but don't keep an old man waiting too long. I want that coin.” — **effects:** sets stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47)
+    <span id="d-gylew_korhald_cop_45"></span>**`gylew_korhald_cop_45`** Gylew: “OK, but don't keep an old man waiting too long. I want that coin.” — **effects:** sets stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47)
 
 
     <span id="d-coin_collector_troll_coins_3a"></span>**`coin_collector_troll_coins_3a`** Gylew: “Well, if you change your mind, I will be here.”
@@ -258,7 +258,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-gylew5"></span>**`gylew5`** Gylew: “This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger…”
 
     - “Oh, I see.” *(if reached stage 220 of [The silver scale](../quests/mermaid_scale.md#stage-220); have 5 gold; NOT reached stage 10 of [The odd coin collector](../quests/odd_coin_collector.md#stage-10); NOT reached stage 11 of [The odd coin collector](../quests/odd_coin_collector.md#stage-11))* → [gylew6](#d-gylew6)
-    - “[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?” *(if reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
+    - “[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?” *(if reached stage 250 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
     - “Yes, I know this already.” *(if reached stage 10 of [The odd coin collector](../quests/odd_coin_collector.md#stage-10))* → [gylew7](#d-gylew7)
     - “Yes, I know this already.” *(if reached stage 11 of [The odd coin collector](../quests/odd_coin_collector.md#stage-11))* → [gylew7](#d-gylew7)
     - “I am so not interested.” *(if NOT reached stage 220 of [The silver scale](../quests/mermaid_scale.md#stage-220))* → [gylew7](#d-gylew7)
@@ -354,13 +354,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-gylew7a_2"></span>**`gylew7a_2`** Gylew: “Here is 500 gold.” — **effects:** gives 500× [Gold coins](../items/gold.md), sets stage 10 of [The odd coin collector](../quests/odd_coin_collector.md#stage-10)
 
-    - “Now that's funny. A coin collector traded me his gold coins for my coins.” *(if reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
-    - “Now that's funny. A coin collector traded me his gold coins for my coins.” *(if NOT reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250))* → [gylew7](#d-gylew7)
+    - “Now that's funny. A coin collector traded me his gold coins for my coins.” *(if reached stage 250 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
+    - “Now that's funny. A coin collector traded me his gold coins for my coins.” *(if NOT reached stage 250 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250))* → [gylew7](#d-gylew7)
 
     <span id="d-gylew7a_3"></span>**`gylew7a_3`** Gylew: “That was foolish of you. This is very valuable and you just gave it to me.” — **effects:** sets stage 11 of [The odd coin collector](../quests/odd_coin_collector.md#stage-11)
 
-    - “Well, what can I say? You caught me me wanting to be charitable.” *(if reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
-    - “Well, I just gave it to you because I was hoping for something special in return.” *(if NOT reached stage 250 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250))* → [gylew7](#d-gylew7)
+    - “Well, what can I say? You caught me me wanting to be charitable.” *(if reached stage 250 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250); NOT reached stage 12 of [The odd coin collector](../quests/odd_coin_collector.md#stage-12); have 10 gold; NOT reached stage 13 of [The odd coin collector](../quests/odd_coin_collector.md#stage-13))* → [gylew8](#d-gylew8)
+    - “Well, I just gave it to you because I was hoping for something special in return.” *(if NOT reached stage 250 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250))* → [gylew7](#d-gylew7)
 
     <span id="d-gylew10_1"></span>**`gylew10_1`** Gylew: “You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story...”
 
@@ -377,10 +377,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-gylew10_2"></span>**`gylew10_2`** Gylew: “My father never mentioned the exact location to me, but from my efforts, I've ascertained a location near Remgard.”
 
-    - “Remgard? Where's that?” *(if NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [gylew10_2_1](#d-gylew10_2_1)
-    - “Great, I see where this is going. I need to go back to Remgard.” *(if reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [gylew11](#d-gylew11)
+    - “Remgard? Where's that?” *(if NOT reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [gylew10_2_1](#d-gylew10_2_1)
+    - “Great, I see where this is going. I need to go back to Remgard.” *(if reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [gylew11](#d-gylew11)
 
-    <span id="d-coin_collector_thief_coins_70"></span>**`coin_collector_thief_coins_70`** Gylew: “Thank you so much.” — **effects:** gives 160× [Gold coins](../items/gold.md), sets stage 107 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-107)
+    <span id="d-coin_collector_thief_coins_70"></span>**`coin_collector_thief_coins_70`** Gylew: “Thank you so much.” — **effects:** gives 160× [Gold coins](../items/gold.md), sets stage 107 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-107)
 
 
     <span id="d-korhald_chest_examine_40"></span>**`korhald_chest_examine_40`** Gylew: “But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.”
@@ -395,7 +395,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [gylew12](#d-gylew12)
 
-    <span id="d-korhald_chest_examine_50"></span>**`korhald_chest_examine_50`** Gylew: “Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.” — **effects:** gives 1× [Mysterious Korhald map](../items/korhald_map.md), sets stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60), gives 1× [Mysterious Korhald pendant](../items/korhald_chamber_key.md), sets stage 44 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-44), sets stage 45 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-45), sets stage 48 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-48)
+    <span id="d-korhald_chest_examine_50"></span>**`korhald_chest_examine_50`** Gylew: “Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.” — **effects:** gives 1× [Mysterious Korhald map](../items/korhald_map.md), sets stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60), gives 1× [Mysterious Korhald pendant](../items/korhald_chamber_key.md), sets stage 44 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-44), sets stage 45 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-45), sets stage 48 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-48)
 
 
     <span id="d-gylew12"></span>**`gylew12`** Gylew: “We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?”

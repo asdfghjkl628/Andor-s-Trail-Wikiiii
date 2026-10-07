@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | [Calomyran secrets](../quests/calomyran.md#stage-100) | handed over (1×) | “Yes, I found it.” |
+| [Old man](../monsters/old_man.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | [Calomyran secrets](../quests/calomyran.md#stage-100) | handed over (1×) | “Yes, I found it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

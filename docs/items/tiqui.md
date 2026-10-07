@@ -27,7 +27,7 @@ description: "Tiqui's shield is a quest other in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Tiqui](../monsters/tiqui.md) | 100% | 1 | lodar14 |
+| [Tiqui](../monsters/tiqui.md) | 100% | 1 | Lodar 14 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-40) | handed over (1×) | “I have already killed it.” |
-| [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-40) | handed over (1×) | “Yes, I defeated the creature.” |
+| [Aulowenn](../monsters/aulowenn.md) ([Lodar 13](../maps/lodar13.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-40) | handed over (1×) | “I have already killed it.” |
+| [Aulowenn](../monsters/aulowenn.md) ([Lodar 13](../maps/lodar13.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-40) | handed over (1×) | “Yes, I defeated the creature.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

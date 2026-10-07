@@ -4,7 +4,7 @@ description: "Hadracor is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } Hadracor
 
-**Where to find Hadracor:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-hadracor)
+**Where to find Hadracor:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-hadracor)
 
 <div class="infobox" markdown>
 
@@ -43,7 +43,7 @@ description: "Hadracor is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hadracor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hadracor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hadracor.json" data-npc="Hadracor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (37 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hadracor"></span>**`hadracor`** *(silent check: the first matching branch below is taken)*
 

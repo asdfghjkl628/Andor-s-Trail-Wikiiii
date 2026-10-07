@@ -1,5 +1,5 @@
 ---
-description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65–365 HP, worth 311–921 XP, found in waytolake5. Drops: Regular potion of health, Small empty vial, Silk robe of Valugha, Valugha's shimmering hat."
+description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65–365 HP, worth 311–921 XP, found in Waytolake 5. Drops: Regular potion of health, Small empty vial, Silk robe of Valugha, Valugha's shimmering hat."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_38.png){ .sprite } Plaguestrider master
@@ -11,7 +11,7 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytolake5 |
+| **Found in** | Waytolake 5 |
 | **Class** | Undead |
 | **HP** | 65–365 |
 | **XP when defeated** | 311–921 |
@@ -21,18 +21,18 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Plaguestrider master. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Plaguestrider master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`plaguesp_13`](#v-plaguesp_13) | Enemy | [waytolake5](../maps/waytolake5.md) | – | 65 |
-| [`plaguesp_cr`](#v-plaguesp_cr) | Enemy | [waytolake5](../maps/waytolake5.md) | – | 365 |
+| [`plaguesp_13`](#v-plaguesp_13) | Enemy | [Waytolake 5](../maps/waytolake5.md) | – | 65 |
+| [`plaguesp_cr`](#v-plaguesp_cr) | Enemy | [Waytolake 5](../maps/waytolake5.md) | – | 365 |
 
-## Waytolake5 (plaguesp_13) { #v-plaguesp_13 }
+## Waytolake 5 (plaguesp_13) { #v-plaguesp_13 }
 
 **Entry ID:** `plaguesp_13` · **Type:** Enemy
 
-**Location:** [waytolake5](../maps/waytolake5.md)
+**Location:** [Waytolake 5](../maps/waytolake5.md)
 
 ### Combat statistics
 
@@ -71,7 +71,7 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake5](../maps/waytolake5.md) | – | 3 | – |
+| [Waytolake 5](../maps/waytolake5.md) | – | 3 | – |
 
 
 ### Version history
@@ -140,11 +140,11 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
     ```
 
 
-## Waytolake5 (plaguesp_cr) { #v-plaguesp_cr }
+## Waytolake 5 (plaguesp_cr) { #v-plaguesp_cr }
 
 **Entry ID:** `plaguesp_cr` · **Type:** Enemy
 
-**Location:** [waytolake5](../maps/waytolake5.md)
+**Location:** [Waytolake 5](../maps/waytolake5.md)
 
 ### Combat statistics
 
@@ -180,11 +180,11 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake5](../maps/waytolake5.md) | – | 1 | – |
+| [Waytolake 5](../maps/waytolake5.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- A conversation with stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) checks that this enemy has been defeated.
 
 
 ### Version history

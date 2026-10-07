@@ -11,7 +11,7 @@ description: "Undertell 23 is an indoor location in Andor's Trail. Enemies: Grav
 | **Map ID** | `undertell_23` |
 | **Type** | Indoors / underground |
 | **Size** | 30×18 tiles |
-| **World map** | [Undertell floor1](index.md) |
+| **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |

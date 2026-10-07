@@ -11,9 +11,9 @@ description: "About a girl is a quest in Andor's Trail, started by Liberated Ely
 | **Quest ID** | `about_a_girl` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 90) |
-| **Started by** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) |
+| **Started by** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([Undertell 3 00](../maps/undertell_3_00.md)) |
 | **NPCs involved** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), [Thalen](../monsters/thalen.md) |
-| **Locations** | [undertell_3_00](../maps/undertell_3_00.md), [undertell_3_lava_00](../maps/undertell_3_lava_00.md) |
+| **Locations** | [Undertell 3 00](../maps/undertell_3_00.md), [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) |
 | **Total XP** | 10,207 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "About a girl is a quest in Andor's Trail, started by Liberated Ely
 
 ## Prerequisites to start
 
-Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)). Required:
+Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([Undertell 3 00](../maps/undertell_3_00.md)). Required:
 
 - reached stage 10 of [About a girl](../quests/about_a_girl.md#stage-10)
 - NOT reached stage 20 of [About a girl](../quests/about_a_girl.md#stage-20)
@@ -40,68 +40,131 @@ Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md)
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [The fifth master](fifth_master.md#stage-90) | stage 90 reached, for stage 50 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-85) | stage 85 reached, for stage 80 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-85) | stage 85 there needs stage 70 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-90) | stage 90 there needs stage 40 here |
-| Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-85) | reaching stage 80 here closes stage 85 there |
-| Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-90) | reaching stage 70 here closes stage 90 there |
-| Blocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-95) | reaching stage 50 here closes stage 95 there |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-85) | stage 85 reached, for stage 80 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-85) | stage 85 there needs stage 70 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-90) | stage 90 there needs stage 40 here |
+| Blocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-85) | reaching stage 80 here closes stage 85 there |
+| Blocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-90) | reaching stage 70 here closes stage 90 there |
+| Blocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-95) | reaching stage 50 here closes stage 95 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Two Elytharan slave ghosts spoke quietly of another who has not joined them at the table. They said she still hides east of them, afraid the Shades might return. | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | – | – |
-| <span id="stage-20"></span>20 | The ghosts said the girl believed she could protect herself with a folded copper talisman she made long ago, but she lost it before she could hide it away from the evil of Undertell. | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | They remembered that such objects were sometimes taken during inspections, gathered with other personal effects and carried upward to the Masters. | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | stage 20 | – |
-| <span id="stage-40"></span>40 | I was told that one of the Masters may still possess the folded copper talisman, kept not for protection, but for understanding. | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | stage 30 | spawns monsters on undertell_3_12 |
-| <span id="stage-50"></span>50 | A Master acknowledged the talisman when I asked about it. He spoke of fear made solid, and said such fear was useful to those who taught the Shadow obedience rather than faith. It can be found in the "lower records", whatever that means.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Undertell 4 00](../maps/undertell_4_00.md).</span> | [Thalen](../monsters/thalen.md) ([undertell_3_lava_00](../maps/undertell_3_lava_00.md)) | stage 40 | – |
-| <span id="stage-60"></span>60 | In the Undertell archival room, I found the folded coin talisman. | walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) | – | gives 1× [Folded copper talisman](../items/folded_copper_talisman.md) |
-| <span id="stage-70"></span>70 | I found the terrified girl hiding behind a collapsed rock wall. She would not approach me, nor leave her hiding place. | walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) | stage 40 | – |
-| <span id="stage-80"></span>80 | I tossed the folded copper talisman to her. Only then did she step forward, no longer clinging to the corner she had claimed as safety. | walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) | stage 70 | removes monsters from undertell_3_12<br>spawns monsters on undertell_3_00 |
-| <span id="stage-90"></span>90 | The girl rejoined the others at the table. The Elytharan ghosts spoke her name softly, as if afraid to lose her again. **(completes quest)** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | stage 80 | 10,207 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Two Elytharan slave ghosts spoke quietly of another who has not… ▸</span><span class="l">▴ less</span></summary>Two Elytharan slave ghosts spoke quietly of another who has not joined them at the table. They said she still hides east of them, afraid the Shades might return.</details> | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">The ghosts said the girl believed she could protect herself with a… ▸</span><span class="l">▴ less</span></summary>The ghosts said the girl believed she could protect herself with a folded copper talisman she made long ago, but she lost it before she could hide it away from the evil of Undertell.</details> | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">They remembered that such objects were sometimes taken during… ▸</span><span class="l">▴ less</span></summary>They remembered that such objects were sometimes taken during inspections, gathered with other personal effects and carried upward to the Masters.</details> | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I was told that one of the Masters may still possess the folded… ▸</span><span class="l">▴ less</span></summary>I was told that one of the Masters may still possess the folded copper talisman, kept not for protection, but for understanding.</details> | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) | spawns monsters on undertell_3_12 |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">A Master acknowledged the talisman when I asked about it. He spoke… ▸</span><span class="l">▴ less</span></summary>A Master acknowledged the talisman when I asked about it. He spoke of fear made solid, and said such fear was useful to those who taught the Shadow obedience rather than faith. It can be found in the "lower records", whatever that means.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Undertell 4 00](../maps/undertell_4_00.md).</span> | [Thalen](../monsters/thalen.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | In the Undertell archival room, I found the folded coin talisman. | walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) | 1× [Folded copper talisman](../items/folded_copper_talisman.md) |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I found the terrified girl hiding behind a collapsed rock wall. She… ▸</span><span class="l">▴ less</span></summary>I found the terrified girl hiding behind a collapsed rock wall. She would not approach me, nor leave her hiding place.</details> | walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md) | – |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">I tossed the folded copper talisman to her. Only then did she step… ▸</span><span class="l">▴ less</span></summary>I tossed the folded copper talisman to her. Only then did she step forward, no longer clinging to the corner she had claimed as safety.</details> | walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md) | removes monsters from undertell_3_12, spawns monsters on undertell_3_00 |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">The girl rejoined the others at the table. The Elytharan ghosts… ▸</span><span class="l">▴ less</span></summary>The girl rejoined the others at the table. The Elytharan ghosts spoke her name softly, as if afraid to lose her again.</details> **(ends quest)** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) | 10,207 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) → the conversation leads here automatically — **conditions:** reached stage 10 of [About a girl](../quests/about_a_girl.md#stage-10); NOT reached stage 20 of [About a girl](../quests/about_a_girl.md#stage-20) → **stage 10**. NPC: “There is another. A girl. She never came back here when the shades fell. Instead, she hides east of here. Probably in…”
+??? note "Stage 10 · Liberated Elytharan ghost · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), automatic
 
-    1. Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) → choose “What did she make?” — **conditions:** reached stage 10 of [About a girl](../quests/about_a_girl.md#stage-10); NOT reached stage 20 of [About a girl](../quests/about_a_girl.md#stage-20) → **stage 20**. NPC: “A folded coin. Copper. She believed evil could be trapped if it could not breathe.”
+    - **Needs:** stage 10; not yet stage 20
+    - *“There is another. A girl. She never came back here when the shades fell. Instead, she hides east of here. Probably in a corner somewhere.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) → choose “I am still trying to understand what happened to the talisman.” — **conditions:** reached stage 20 of [About a girl](../quests/about_a_girl.md#stage-20); NOT reached stage 30 of [About a girl](../quests/about_a_girl.md#stage-30) → **stage 30**. NPC: “They used to gather our things. Count them. Decide what mattered.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Liberated Elytharan ghost · 1 way"
 
-    1. Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) → choose “Then where should I look?” — **conditions:** latest stage of [About a girl](../quests/about_a_girl.md#stage-30) is 30 → **stage 40**; also spawns monsters on undertell_3_12. NPC: “With those who believed fear could be shaped. Go to the Masters.”
+    **Way 1:** Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), choose “What did she make?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 10; not yet stage 20
+    - *“A folded coin. Copper. She believed evil could be trapped if it could not breathe.”*
 
-    1. Talk to [Thalen](../monsters/thalen.md) ([undertell_3_lava_00](../maps/undertell_3_lava_00.md)) → choose “Where do I find it?” — **conditions:** reached stage 90 of [The fifth master](../quests/fifth_master.md#stage-90); reached stage 40 of [About a girl](../quests/about_a_girl.md#stage-40); NOT reached stage 50 of [About a girl](../quests/about_a_girl.md#stage-50) → **stage 50**. NPC: “In the lower records. Where discarded faith is kept for study, not mercy.”
 
-???+ note "Stage 60: 1 route"
+<span id="route-30"></span>
 
-    1. walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) → choose “[Take the folded copper piece.]” — **conditions:** NOT reached stage 60 of [About a girl](../quests/about_a_girl.md#stage-60) → **stage 60**; also gives 1× [Folded copper talisman](../items/folded_copper_talisman.md). NPC: “You grab the coin off the shelf.”
+??? note "Stage 30 · Liberated Elytharan ghost · 1 way"
 
-???+ note "Stage 70: 1 route"
+    **Way 1:** Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), choose “I am still trying to understand what happened to the talisman.”
 
-    1. walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) → the conversation leads here automatically — **conditions:** reached stage 40 of [About a girl](../quests/about_a_girl.md#stage-40); NOT reached stage 70 of [About a girl](../quests/about_a_girl.md#stage-70) → **stage 70**. NPC: “THIS PERSON IS TRYING TO DESTROY ME!”
+    - **Needs:** stage 20; not yet stage 30
+    - *“They used to gather our things. Count them. Decide what mattered.”*
 
-???+ note "Stage 80: 1 route"
 
-    1. walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) → choose “I will meet you there.” — **conditions:** reached stage 70 of [About a girl](../quests/about_a_girl.md#stage-70); NOT reached stage 80 of [About a girl](../quests/about_a_girl.md#stage-80); reached stage 85 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-85) → **stage 80**; also removes monsters from undertell_3_12, spawns monsters on undertell_3_00. NPC: “My name is Syrra. Thank you for bringing it back.”
+<span id="route-40"></span>
 
-???+ note "Stage 90: 1 route"
+??? note "Stage 40 · Liberated Elytharan ghost · 1 way"
 
-    1. Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) → choose “Then this is enough.” — **conditions:** reached stage 80 of [About a girl](../quests/about_a_girl.md#stage-80); NOT reached stage 90 of [About a girl](../quests/about_a_girl.md#stage-90) → **stage 90**. NPC: “It is.”
+    **Way 1:** Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), choose “Then where should I look?”
+
+    - **Needs:** latest stage of [About a girl](../quests/about_a_girl.md#stage-30) is 30
+    - **Gives:** spawns monsters on undertell_3_12
+    - *“With those who believed fear could be shaped. Go to the Masters.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Thalen · 1 way"
+
+    **Way 1:** Talk to [Thalen](../monsters/thalen.md), choose “Where do I find it?”
+
+    - **Needs:** stage 40; not yet stage 50; reached stage 90 of [The fifth master](../quests/fifth_master.md#stage-90)
+    - *“In the lower records. Where discarded faith is kept for study, not mercy.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · walking into a blocked passage on undertell_archive2 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md), choose “[Take the folded copper piece.]”
+
+    - **Needs:** not yet stage 60
+    - **Gives:** 1× [Folded copper talisman](../items/folded_copper_talisman.md)
+    - *“You grab the coin off the shelf.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · walking into a blocked passage on undertell_3_12 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md)
+
+    - **Needs:** stage 40; not yet stage 70
+    - *“THIS PERSON IS TRYING TO DESTROY ME!”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · walking into a blocked passage on undertell_3_12 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md), choose “I will meet you there.”
+
+    - **Needs:** stage 70; not yet stage 80; reached stage 85 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-85)
+    - **Gives:** removes monsters from undertell_3_12, spawns monsters on undertell_3_00
+    - *“My name is Syrra. Thank you for bringing it back.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Liberated Elytharan ghost · 1 way"
+
+    **Way 1:** Talk to [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md), choose “Then this is enough.”
+
+    - **Needs:** stage 80; not yet stage 90
+    - *“It is.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

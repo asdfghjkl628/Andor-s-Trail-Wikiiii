@@ -4,7 +4,7 @@ description: "Steelthorn hexileg is an enemy in Andor's Trail (insect) with 211 
 
 # ![](../assets/icons/monsters/monsters_newb_1_570.png){ .sprite } Steelthorn hexileg
 
-**Found in:** Flagstone Prison: [lake_shore_road_5](../maps/lake_shore_road_5.md), Flagstone Prison: [lake_shore_road_6](../maps/lake_shore_road_6.md), Flagstone Prison: [rat_mountain_5](../maps/rat_mountain_5.md), [rat_mountain_4](../maps/rat_mountain_4.md)
+**Found in:** Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md), Flagstone Prison: [Lake shore road 6](../maps/lake_shore_road_6.md), Flagstone Prison: [Rat mountain 5](../maps/rat_mountain_5.md), [Rat mountain 4](../maps/rat_mountain_4.md)
 
 <div class="infobox" markdown>
 
@@ -57,10 +57,10 @@ description: "Steelthorn hexileg is an enemy in Andor's Trail (insect) with 211 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
-| [lake_shore_road_6](../maps/lake_shore_road_6.md) | Flagstone Prison | 2 | – |
-| [rat_mountain_4](../maps/rat_mountain_4.md) | – | 3 | – |
-| [rat_mountain_5](../maps/rat_mountain_5.md) | Flagstone Prison | 5 | – |
+| [Lake shore road 5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
+| [Lake shore road 6](../maps/lake_shore_road_6.md) | Flagstone Prison | 2 | – |
+| [Rat mountain 4](../maps/rat_mountain_4.md) | – | 3 | – |
+| [Rat mountain 5](../maps/rat_mountain_5.md) | Flagstone Prison | 5 | – |
 
 
 ## Version history

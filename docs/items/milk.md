@@ -48,7 +48,7 @@ description: "Milk is a ordinary drink in Andor's Trail. How to get it: monster 
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -59,8 +59,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | [Well rested](../quests/prim_innquest.md#stage-40) | handed over (5×) | “Yes, here you go, enjoy!” |
-| [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | [Well rested](../quests/prim_innquest.md#stage-40) | handed over (5×) | “Yes, but this nearly cost me a fortune!” |
+| [Arghest](../monsters/arghest.md) ([Blackwater mountain 13](../maps/blackwater_mountain13.md)) | [Well rested](../quests/prim_innquest.md#stage-40) | handed over (5×) | “Yes, here you go, enjoy!” |
+| [Arghest](../monsters/arghest.md) ([Blackwater mountain 13](../maps/blackwater_mountain13.md)) | [Well rested](../quests/prim_innquest.md#stage-40) | handed over (5×) | “Yes, but this nearly cost me a fortune!” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

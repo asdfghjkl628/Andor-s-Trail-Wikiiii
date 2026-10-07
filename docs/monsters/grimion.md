@@ -4,7 +4,7 @@ description: "Grimion is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } Grimion
 
-**Where to find Grimion:** Loneford: [loneford3](../maps/loneford3.md#pin-npc-grimion)
+**Where to find Grimion:** Loneford: [Loneford 3](../maps/loneford3.md#pin-npc-grimion)
 
 <div class="infobox" markdown>
 
@@ -31,7 +31,7 @@ description: "Grimion is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Grimion. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Grimion. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/grimion.json" data-npc="Grimion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -39,7 +39,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-grimion"></span>**`grimion`** Grimion: “Hello and welcome to Loneford. Please have a seat, I'll be right there.”
 

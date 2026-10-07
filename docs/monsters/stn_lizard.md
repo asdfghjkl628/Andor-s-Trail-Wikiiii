@@ -21,18 +21,18 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Lizard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Lizard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`stn_lizard`](#v-stn_lizard) | Enemy | Flagstone Prison: [flagstone0](../maps/flagstone0.md), Flagstone Prison: [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) (+5 more) | – | 50 |
-| [`stn_colonel_mons1`](#v-stn_colonel_mons1) | Enemy | Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md) | – | 100 |
+| [`stn_lizard`](#v-stn_lizard) | Enemy | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) (+5 more) | – | 50 |
+| [`stn_colonel_mons1`](#v-stn_colonel_mons1) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
 
-## Flagstone Prison, Flagstone0 and 6 more (stn_lizard) { #v-stn_lizard }
+## Flagstone Prison, Flagstone 0 and 6 more (stn_lizard) { #v-stn_lizard }
 
 **Entry ID:** `stn_lizard` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md), Flagstone Prison: [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md), Flagstone Prison: [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md), Flagstone Prison: [lake_shore_road_0](../maps/lake_shore_road_0.md), Flagstone Prison: [lake_shore_road_2](../maps/lake_shore_road_2.md), Flagstone Prison: [lake_shore_road_5](../maps/lake_shore_road_5.md) (+1 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md), Flagstone Prison: [Flagstone filler east 2](../maps/flagstone_filler_east_2.md), Flagstone Prison: [Lake shore road 0](../maps/lake_shore_road_0.md), Flagstone Prison: [Lake shore road 2](../maps/lake_shore_road_2.md), Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md) (+1 more)
 
 ### Combat statistics
 
@@ -60,13 +60,13 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 5 | Appears later, during a quest |
-| [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 3 | – |
-| [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 4 | – |
-| [lake_shore_road_0](../maps/lake_shore_road_0.md) | Flagstone Prison | 2 | – |
-| [lake_shore_road_2](../maps/lake_shore_road_2.md) | Flagstone Prison | 5 | – |
-| [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 5 | Appears later, during a quest |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 5 | Appears later, during a quest |
+| [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 3 | – |
+| [Flagstone filler east 2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 4 | – |
+| [Lake shore road 0](../maps/lake_shore_road_0.md) | Flagstone Prison | 2 | – |
+| [Lake shore road 2](../maps/lake_shore_road_2.md) | Flagstone Prison | 5 | – |
+| [Lake shore road 5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 5 | Appears later, during a quest |
 
 
 ### Version history
@@ -116,11 +116,11 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
     ```
 
 
-## Flagstone Prison, Waytogalmore0 (stn_colonel_mons1) { #v-stn_colonel_mons1 }
+## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons1) { #v-stn_colonel_mons1 }
 
 **Entry ID:** `stn_colonel_mons1` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 ### Combat statistics
 
@@ -148,11 +148,11 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-112) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-112) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 
 ### Version history

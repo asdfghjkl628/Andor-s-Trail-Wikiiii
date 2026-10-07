@@ -4,7 +4,7 @@ description: "Cave bat is an enemy in Andor's Trail (animal) with 39 HP, worth 1
 
 # ![](../assets/icons/monsters/monsters_tometik4_2.png){ .sprite } Cave bat
 
-**Found in:** Lake Laeroth: [laerothbasement1](../maps/laerothbasement1.md), [final_cave_labyrinth](../maps/final_cave_labyrinth.md), [island2_cave](../maps/island2_cave.md), [island_4_cave2](../maps/island_4_cave2.md) (+16 more)
+**Found in:** Lake Laeroth: [Laerothbasement 1](../maps/laerothbasement1.md), [Final cave labyrinth](../maps/final_cave_labyrinth.md), [Island 2 cave](../maps/island2_cave.md), [Island 4 cave 2](../maps/island_4_cave2.md) (+16 more)
 
 <div class="infobox" markdown>
 
@@ -54,26 +54,26 @@ description: "Cave bat is an enemy in Andor's Trail (animal) with 39 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave_labyrinth](../maps/final_cave_labyrinth.md) | – | 19 | – |
-| [island2_cave](../maps/island2_cave.md) | – | 3 | – |
-| [island_4_cave2](../maps/island_4_cave2.md) | – | 3 | – |
-| [island_underground2](../maps/island_underground2.md) | – | 9 | – |
-| [island_underground3](../maps/island_underground3.md) | – | 13 | – |
-| [island_underground4](../maps/island_underground4.md) | – | 6 | – |
-| [island_underground4a](../maps/island_underground4a.md) | – | 10 | – |
-| [island_underground4b](../maps/island_underground4b.md) | – | 16 | – |
-| [island_underground4c](../maps/island_underground4c.md) | – | 8 | – |
-| [island_underground5](../maps/island_underground5.md) | – | 5 | – |
-| [laerothbasement1](../maps/laerothbasement1.md) | Lake Laeroth | 4 | – |
-| [laerothcave2](../maps/laerothcave2.md) | – | 5 | – |
-| [lodar5cave1](../maps/lodar5cave1.md) | – | 1 | – |
-| [lodar5cave2](../maps/lodar5cave2.md) | – | 4 | – |
-| [lodarcave4a](../maps/lodarcave4a.md) | – | 4 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 6 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 4 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 5 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 2 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 3 | – |
+| [Final cave labyrinth](../maps/final_cave_labyrinth.md) | – | 19 | – |
+| [Island 2 cave](../maps/island2_cave.md) | – | 3 | – |
+| [Island 4 cave 2](../maps/island_4_cave2.md) | – | 3 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 9 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 13 | – |
+| [Island underground 4](../maps/island_underground4.md) | – | 6 | – |
+| [Island underground 4a](../maps/island_underground4a.md) | – | 10 | – |
+| [Island underground 4b](../maps/island_underground4b.md) | – | 16 | – |
+| [Island underground 4c](../maps/island_underground4c.md) | – | 8 | – |
+| [Island underground 5](../maps/island_underground5.md) | – | 5 | – |
+| [Laerothbasement 1](../maps/laerothbasement1.md) | Lake Laeroth | 4 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 5 | – |
+| [Lodar 5cave 1](../maps/lodar5cave1.md) | – | 1 | – |
+| [Lodar 5cave 2](../maps/lodar5cave2.md) | – | 4 | – |
+| [Lodarcave 4a](../maps/lodarcave4a.md) | – | 4 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 6 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 4 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 5 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 2 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 3 | – |
 
 
 ## Version history

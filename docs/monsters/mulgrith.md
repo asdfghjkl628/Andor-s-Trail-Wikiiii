@@ -1,10 +1,10 @@
 ---
-description: "Mulgrith is an enemy in Andor's Trail (humanoid) with 315 HP, worth 756 XP, found in galmore_19."
+description: "Mulgrith is an enemy in Andor's Trail (humanoid) with 315 HP, worth 756 XP, found in Galmore 19."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_68.png){ .sprite } Mulgrith
 
-**Found in:** [galmore_19](../maps/galmore_19.md)
+**Found in:** [Galmore 19](../maps/galmore_19.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Mulgrith is an enemy in Andor's Trail (humanoid) with 315 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_19 |
+| **Found in** | Galmore 19 |
 | **Class** | Humanoid |
 | **HP** | 315 |
 | **XP when defeated** | 756 |
@@ -50,7 +50,7 @@ description: "Mulgrith is an enemy in Andor's Trail (humanoid) with 315 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_19](../maps/galmore_19.md) | – | 1 | – |
+| [Galmore 19](../maps/galmore_19.md) | – | 1 | – |
 
 
 ## Version history

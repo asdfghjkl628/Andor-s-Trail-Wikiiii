@@ -26,17 +26,17 @@ description: "Ruby gem is a ordinary gem in Andor's Trail. How to get it: monste
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
+| [Graverobber](../monsters/graverobber.md) | 100% | 1 | Blackwater mountain 35 |
 | [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 100% | 1 | Crossroads Guardhouse |
-| [Cave troll leader](../monsters/cave_troll_5.md) | 100% | 1 | lakecave2 |
-| [Kazarite golem](../monsters/elm_golem1.md) | 100% | 1-5 | elm5f_1, elm5f_2, elm_3f |
-| [Dried kazarite golem](../monsters/elm_golem2.md) | 100% | 1-5 | elm5f_1, elm5f_2, elm_3f |
-| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 50% | 1-2 | crackshot_hideout2, crackshot_hideout3 |
-| [Shadowfang](../monsters/shadowfang1.md) | 50% | 1-5 | blackwater_mountain76, elm_2f_1, elm_2f_3 |
-| [Hardened erumen lizard](../monsters/erumen_7.md) | 30% | 1 | waterway11, waterway11_east, waterway9 |
-| [Snake servant](../monsters/snake_servant.md) | 25% | 1 | snakecave3 |
-| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 | jan_pitcave2 |
-| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 | jan_pitcave2 |
+| [Cave troll leader](../monsters/cave_troll_5.md) | 100% | 1 | Lakecave 2 |
+| [Kazarite golem](../monsters/elm_golem1.md) | 100% | 1-5 | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Dried kazarite golem](../monsters/elm_golem2.md) | 100% | 1-5 | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 50% | 1-2 | Crackshot hideout 2, Crackshot hideout 3 |
+| [Shadowfang](../monsters/shadowfang1.md) | 50% | 1-5 | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
+| [Hardened erumen lizard](../monsters/erumen_7.md) | 30% | 1 | Waterway 11, Waterway 11 east, Waterway 9 |
+| [Snake servant](../monsters/snake_servant.md) | 25% | 1 | Snakecave 3 |
+| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 | Jan pitcave 2 |
+| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 | Jan pitcave 2 |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 25% | 1 | Flagstone Prison |
 | [Skeletal master](../monsters/skeletal_master.md) | 25% | 1 | Flagstone Prison |
 | [Skeleton](../monsters/skeleton.md) | 25% | 1 | Flagstone Prison |
@@ -54,62 +54,62 @@ description: "Ruby gem is a ordinary gem in Andor's Trail. How to get it: monste
 | [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 25% | 1 | Flagstone Prison |
 | [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 25% | 1 | Foaming Flask Tavern |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 25% | 1 | Foaming Flask Tavern |
-| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 25% | 1 | gargoylecave1, gargoylecave2 |
-| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 25% | 1 | gargoylecave1, gargoylecave2 |
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 25% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
-| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 25% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
+| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 25% | 1 | Gargoylecave 1, Gargoylecave 2 |
+| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 25% | 1 | Gargoylecave 1, Gargoylecave 2 |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 25% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
+| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 25% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
 | [Rancid zombie](../monsters/zombie1.md) | 25% | 1 | Foaming Flask Tavern |
 | [Rotting zombie](../monsters/zombie2.md) | 25% | 1 | Foaming Flask Tavern |
 | [Blighted zombie](../monsters/zombie3.md) | 25% | 1 | Foaming Flask Tavern |
 | [Corrupted zombie](../monsters/zombie5.md) | 25% | 1 | Foaming Flask Tavern |
 | [Bloodthirsty zombie](../monsters/zombie6.md) | 25% | 1 | Foaming Flask Tavern |
 | [Tainted zombie](../monsters/zombie7.md) | 25% | 1 | Foaming Flask Tavern |
-| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 25% | 1 | crackshot_hideout4 |
-| [Luthor's skeleton guard](../monsters/tt_monster1.md#v-tt_monster2) | 25% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md) | 25% | 1 | Crackshot hideout 4 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md#v-tt_monster2) | 25% | 1 | Crackshot hideout 4 |
 
 *…and 27 more.*
 
 ### Sold by
 
 - [Gruil](../monsters/gruil.md)
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 ### Found in containers
 
-- [elm_4f_2](../maps/elm_4f_2.md#container-0) (container 1, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 33.3333%)
-- [gamjee_well_1](../maps/gamjee_well_1.md#container-1) (container 2, 100%)
-- [guynmart_wood_18](../maps/guynmart_wood_18.md#container-0) (container 1, 100%)
-- [guynmart_wood_18](../maps/guynmart_wood_18.md#container-1) (container 2, 100%)
-- [haunted_house](../maps/haunted_house.md#container-0) (container 1, 100%)
-- [island1](../maps/island1.md#container-2) (container 3, 33%)
-- [island1](../maps/island1.md#container-3) (container 4, 33%)
-- [island1](../maps/island1.md#container-5) (container 6, 100%)
-- [island1](../maps/island1.md#container-7) (container 8, 33%)
-- [island1](../maps/island1.md#container-10) (container 11, 33%)
-- [island1](../maps/island1.md#container-13) (container 14, 33%)
-- [island2](../maps/island2.md#container-2) (container 3, 33%)
-- [island2](../maps/island2.md#container-5) (container 6, 100%)
-- [island3](../maps/island3.md#container-2) (container 3, 33%)
-- [island3](../maps/island3.md#container-3) (container 4, 100%)
-- [island3](../maps/island3.md#container-5) (container 6, 100%)
-- [island3](../maps/island3.md#container-7) (container 8, 100%)
-- [island3](../maps/island3.md#container-10) (container 11, 100%)
-- [island3](../maps/island3.md#container-13) (container 14, 100%)
-- [island4](../maps/island4.md#container-2) (container 3, 33%)
-- [island4](../maps/island4.md#container-3) (container 4, 100%)
-- [island4](../maps/island4.md#container-5) (container 6, 100%)
-- [island_underground5](../maps/island_underground5.md#container-0) (container 1, 100%)
-- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
-- [laerothcave2](../maps/laerothcave2.md#container-0) (container 1, 100%)
-- [lake_shore_road_4](../maps/lake_shore_road_4.md#container-0) (container 1, 100%)
-- [mountainlake8_cave](../maps/mountainlake8_cave.md#container-2) (container 3, 100%)
-- [mushroom_m2_4b](../maps/mushroom_m2_4b.md#container-1) (container 2, 100%)
-- [mushroom_m3_2](../maps/mushroom_m3_2.md#container-0) (container 1, 50%)
+- [Elm 4f 2](../maps/elm_4f_2.md#container-0) (container 1, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 33.3333%)
+- [Gamjee well 1](../maps/gamjee_well_1.md#container-1) (container 2, 100%)
+- [Guynmart wood 18](../maps/guynmart_wood_18.md#container-0) (container 1, 100%)
+- [Guynmart wood 18](../maps/guynmart_wood_18.md#container-1) (container 2, 100%)
+- [Haunted house](../maps/haunted_house.md#container-0) (container 1, 100%)
+- [Island 1](../maps/island1.md#container-2) (container 3, 33%)
+- [Island 1](../maps/island1.md#container-3) (container 4, 33%)
+- [Island 1](../maps/island1.md#container-5) (container 6, 100%)
+- [Island 1](../maps/island1.md#container-7) (container 8, 33%)
+- [Island 1](../maps/island1.md#container-10) (container 11, 33%)
+- [Island 1](../maps/island1.md#container-13) (container 14, 33%)
+- [Island 2](../maps/island2.md#container-2) (container 3, 33%)
+- [Island 2](../maps/island2.md#container-5) (container 6, 100%)
+- [Island 3](../maps/island3.md#container-2) (container 3, 33%)
+- [Island 3](../maps/island3.md#container-3) (container 4, 100%)
+- [Island 3](../maps/island3.md#container-5) (container 6, 100%)
+- [Island 3](../maps/island3.md#container-7) (container 8, 100%)
+- [Island 3](../maps/island3.md#container-10) (container 11, 100%)
+- [Island 3](../maps/island3.md#container-13) (container 14, 100%)
+- [Island 4](../maps/island4.md#container-2) (container 3, 33%)
+- [Island 4](../maps/island4.md#container-3) (container 4, 100%)
+- [Island 4](../maps/island4.md#container-5) (container 6, 100%)
+- [Island underground 5](../maps/island_underground5.md#container-0) (container 1, 100%)
+- [Korhald cave hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
+- [Laerothcave 2](../maps/laerothcave2.md#container-0) (container 1, 100%)
+- [Lake shore road 4](../maps/lake_shore_road_4.md#container-0) (container 1, 100%)
+- [Mountainlake 8 cave](../maps/mountainlake8_cave.md#container-2) (container 3, 100%)
+- [Mushroom m 2 4b](../maps/mushroom_m2_4b.md#container-1) (container 2, 100%)
+- [Mushroom m 3 2](../maps/mushroom_m3_2.md#container-0) (container 1, 50%)
 
 ### Quest & dialogue rewards
 
-- From [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) (1×)
+- From [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -120,12 +120,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (1×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
-| [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) | [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84) | handed over (1×) | “(automatic)” |
-| [Godoe](../monsters/godoe1.md) ([guynmart_wood_18](../maps/guynmart_wood_18.md)), [Godoe](../monsters/godoe1.md#v-godoe2) ([guynmart_wood_18](../maps/guynmart_wood_18.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-80) | handed over (5×) | “Sure, I have plenty of them.” |
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Ruby gem]” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (1×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
+| [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) | [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84) | handed over (1×) | “(automatic)” |
+| [Godoe](../monsters/godoe1.md) ([Guynmart wood 18](../maps/guynmart_wood_18.md)), [Godoe](../monsters/godoe1.md#v-godoe2) ([Guynmart wood 18](../maps/guynmart_wood_18.md)) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-80) | handed over (5×) | “Sure, I have plenty of them.” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Ruby gem]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

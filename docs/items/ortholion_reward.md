@@ -40,7 +40,7 @@ description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail 
 
 ### Quest & dialogue rewards
 
-- From [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62) (1×)
+- From [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

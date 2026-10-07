@@ -4,7 +4,7 @@ description: "Garvhel is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Garvhel
 
-**Where to find Garvhel:** Brightport: [brightport_bakery](../maps/brightport_bakery.md#pin-npc-brightport_newcommander)
+**Where to find Garvhel:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-brightport_newcommander)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Garvhel is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 152
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 152
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Garvhel. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Garvhel. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_newcommander.json" data-npc="Garvhel" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,9 +33,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_newcommander"></span>**`brightport_newcommander`** Garvhel: “What happened to the honorable commander Gunfryk is unfortunate, but we'll make sure there is nothing to worry about now.” — **effects:** sets stage 152 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-152)
+    <span id="d-brightport_newcommander"></span>**`brightport_newcommander`** Garvhel: “What happened to the honorable commander Gunfryk is unfortunate, but we'll make sure there is nothing to worry about now.” — **effects:** sets stage 152 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-152)
 
     - “Does this mean Feygard will finally do something about those creatures?” → [brightport_newcommander0](#d-brightport_newcommander0)
 

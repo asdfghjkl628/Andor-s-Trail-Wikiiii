@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) | [Rat infestation](../quests/odair.md#stage-100) | handed over (1×) | “Yes, I have killed the large rat.” |
+| [Odair](../monsters/odair.md) ([Crossglen](../maps/crossglen.md)) | [Rat infestation](../quests/odair.md#stage-100) | handed over (1×) | “Yes, I have killed the large rat.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

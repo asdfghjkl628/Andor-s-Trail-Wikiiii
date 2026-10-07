@@ -26,10 +26,10 @@ description: "Irdegh poison gland is a ordinary animal part in Andor's Trail. Ho
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Irdegh](../monsters/irdegh_1.md) | 5% | 1 | waterway11_east, waytomountaincave0 |
-| [Venomous irdegh](../monsters/irdegh_2.md) | 5% | 1 | waytomountaincave0, waytomountaincave1, waytomountaincave2 |
-| [Piercing irdegh](../monsters/irdegh_3.md) | 5% | 1 | waytomountaincave1, waytomountaincave2 |
-| [Ancient piercing irdegh](../monsters/irdegh_4.md) | 5% | 1 | waytomountaincave2 |
+| [Irdegh](../monsters/irdegh_1.md) | 5% | 1 | Waterway 11 east, Waytomountaincave 0 |
+| [Venomous irdegh](../monsters/irdegh_2.md) | 5% | 1 | Waytomountaincave 0, Waytomountaincave 1, Waytomountaincave 2 |
+| [Piercing irdegh](../monsters/irdegh_3.md) | 5% | 1 | Waytomountaincave 1, Waytomountaincave 2 |
+| [Ancient piercing irdegh](../monsters/irdegh_4.md) | 5% | 1 | Waytomountaincave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

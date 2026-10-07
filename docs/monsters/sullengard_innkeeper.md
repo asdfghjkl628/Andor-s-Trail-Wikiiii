@@ -4,7 +4,7 @@ description: "Godfrey is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_97.png){ .sprite } Godfrey
 
-**Where to find Godfrey:** Sullengard: [sullengard_inn](../maps/sullengard_inn.md#pin-npc-sullengard_innkeeper)
+**Where to find Godfrey:** Sullengard: [Sullengard inn](../maps/sullengard_inn.md#pin-npc-sullengard_innkeeper)
 
 <div class="infobox" markdown>
 
@@ -30,11 +30,11 @@ description: "Godfrey is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 1
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 1
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Godfrey. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Godfrey. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_godrey_0.json" data-npc="Godfrey" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_godrey_0"></span>**`sullengard_godrey_0`** Godfrey: “Hello. I'm Godfrey, and I own this place, but I'm forced to work today because somebody quit on me.”
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-sullengard_godrey_10"></span>**`sullengard_godrey_10`** Godfrey: “What can I help you with?”
 
-    - “I need somewhere to relax and refresh. Do you have a bed available?” *(if NOT reached stage 1 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-1))* → [sullengard_godrey_30](#d-sullengard_godrey_30)
+    - “I need somewhere to relax and refresh. Do you have a bed available?” *(if NOT reached stage 1 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-1))* → [sullengard_godrey_30](#d-sullengard_godrey_30)
     - “I'm hungry. Do you have any food to sell?” → [sullengard_godrey_sell](#d-sullengard_godrey_sell)
     - “Do you know by chance where this lost travelor is?” *(if reached stage 40 of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-40); NOT reached stage 50 of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-50))* → [sullengard_godrey_10a](#d-sullengard_godrey_10a)
     - “Where I can find Celdar?” *(if latest stage of [Restless in the grave](../quests/mg_restless_grave.md#stage-123) is 123)* → [sullengard_godrey_celdar](#d-sullengard_godrey_celdar)
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Oh, OK, thanks.” → *conversation ends*
 
-    <span id="d-sullengard_godrey_40"></span>**`sullengard_godrey_40`** Godfrey: “Thank you! It pays to be the owner. You can use any available bed.” — **effects:** sets stage 1 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-1)
+    <span id="d-sullengard_godrey_40"></span>**`sullengard_godrey_40`** Godfrey: “Thank you! It pays to be the owner. You can use any available bed.” — **effects:** sets stage 1 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-1)
 
 
 

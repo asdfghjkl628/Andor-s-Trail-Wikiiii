@@ -11,9 +11,9 @@ description: "Rat infestation is a quest in Andor's Trail, started by Odair (cro
 | **Quest ID** | `odair` |
 | **In journal** | Yes |
 | **Stages** | 2 (completes at 100) |
-| **Started by** | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) |
+| **Started by** | [Odair](../monsters/odair.md) ([Crossglen](../maps/crossglen.md)) |
 | **NPCs involved** | [Odair](../monsters/odair.md) |
-| **Locations** | [crossglen](../maps/crossglen.md) |
+| **Locations** | [Crossglen](../maps/crossglen.md) |
 | **Total XP** | 400 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Rat infestation is a quest in Andor's Trail, started by Odair (cro
 
 ## Prerequisites to start
 
-Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Required:
+Start with [Odair](../monsters/odair.md) ([Crossglen](../maps/crossglen.md)). Required:
 
 - reached stage 10 of [Rat infestation](../quests/odair.md#stage-10)
 
@@ -38,31 +38,50 @@ Start with [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)). Re
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 there needs stage 100 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-2) | stage 2 there needs stage 100 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-10) | stage 10 there needs stage 100 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 there needs stage 100 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-2) | stage 2 there needs stage 100 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-10) | stage 10 there needs stage 100 here |
 | Unlocks | [Yellow is it](ratdom_quest.md#stage-10) | stage 10 there needs stage 100 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Odair wants me to clear the supply cave in Crossglen village of rats. In particular, I should kill the large rat and return to Odair. | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) | – | – |
-| <span id="stage-100"></span>100 | I have helped Odair clear out the rats in the supply cave in Crossglen village. **(completes quest)** | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) | hand over 1× [Cave rat tail](../items/tail_caverat.md), stage 10 | 400 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Odair wants me to clear the supply cave in Crossglen village of… ▸</span><span class="l">▴ less</span></summary>Odair wants me to clear the supply cave in Crossglen village of rats. In particular, I should kill the large rat and return to Odair.</details> | [Odair](../monsters/odair.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I have helped Odair clear out the rats in the supply cave in Crossglen village. **(ends quest)** | [Odair](../monsters/odair.md) | 400 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) → choose “What was I supposed to do again?” — **conditions:** reached stage 10 of [Rat infestation](../quests/odair.md#stage-10) → **stage 10**. NPC: “I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave…”
+??? note "Stage 10 · Odair · 1 way"
 
-???+ note "Stage 100: 1 route"
+    **Way 1:** Talk to [Odair](../monsters/odair.md), choose “What was I supposed to do again?”
 
-    1. Talk to [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) → choose “Yes, I have killed the large rat.” — **conditions:** reached stage 10 of [Rat infestation](../quests/odair.md#stage-10); hand over 1× [Cave rat tail](../items/tail_caverat.md) → **stage 100**; also gives [Gold coins](../items/gold.md). NPC: “Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these…”
+    - **Needs:** stage 10
+    - *“I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as…”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Odair · 1 way"
+
+    **Way 1:** Talk to [Odair](../monsters/odair.md), choose “Yes, I have killed the large rat.”
+
+    - **Needs:** stage 10; hand over 1× [Cave rat tail](../items/tail_caverat.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

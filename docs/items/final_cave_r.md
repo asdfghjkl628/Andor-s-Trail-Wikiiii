@@ -25,14 +25,14 @@ description: "Red globe of the elements is a quest other in Andor's Trail. How t
 
 ### Found in containers
 
-- [island3](../maps/island3.md#container-1) (container 2, 100%)
-- [island3](../maps/island3.md#container-4) (container 5, 100%)
-- [island3](../maps/island3.md#container-11) (container 12, 100%)
-- [island3](../maps/island3.md#container-14) (container 15, 100%)
+- [Island 3](../maps/island3.md#container-1) (container 2, 100%)
+- [Island 3](../maps/island3.md#container-4) (container 5, 100%)
+- [Island 3](../maps/island3.md#container-11) (container 12, 100%)
+- [Island 3](../maps/island3.md#container-14) (container 15, 100%)
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [final_cave1](../maps/final_cave1.md) (1×)
+- From walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -43,9 +43,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-2) | handed over (1×) | “The red globe” |
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-4) | handed over (1×) | “The red globe” |
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-6) | handed over (1×) | “The red globe” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-2) | handed over (1×) | “The red globe” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-4) | handed over (1×) | “The red globe” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-6) | handed over (1×) | “The red globe” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -27,7 +27,7 @@ description: "Heart of the Hira'zinn is a quest other in Andor's Trail. How to g
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | lodarcave4a |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | Lodarcave 4a |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Searching for madness](../quests/lodar2.md#stage-50) | handed over (1×) | “I have defeated the Hira'zinn in the tomb below. Here is its heart.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Searching for madness](../quests/lodar2.md#stage-50) | handed over (1×) | “I have defeated the Hira'zinn in the tomb below. Here is its heart.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

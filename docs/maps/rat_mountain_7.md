@@ -12,7 +12,7 @@ description: "Rat mountain 7 is an outdoor location in Andor's Trail, near Flags
 | **Region** | Near Flagstone Prison (other) |
 | **Type** | Outdoors |
 | **Size** | 25×23 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |

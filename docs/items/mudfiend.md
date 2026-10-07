@@ -26,8 +26,8 @@ description: "Mudfiend goo is a ordinary animal part in Andor's Trail. How to ge
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 25% | 1 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 25% | 1 | elm5f_2, elm_2f_1, elm_3f |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 25% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 25% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
 | [Mudfiend](../monsters/mudfiend1.md) | 20% | 1 | Loneford |
 | [Tough mudfiend](../monsters/mudfiend2.md) | 20% | 1 | Loneford |
 
@@ -40,8 +40,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (1×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (1×) | “Here, take them, please.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (1×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (1×) | “Here, take them, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

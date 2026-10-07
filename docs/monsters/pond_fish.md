@@ -4,7 +4,7 @@ description: "Pond fish is an enemy in Andor's Trail (humanoid) with 1 HP, worth
 
 # ![](../assets/icons/monsters/monsters_ld2_137.png){ .sprite } Pond fish
 
-**Found in:** Flagstone Prison: [lake_shore_road_7](../maps/lake_shore_road_7.md), Flagstone Prison: [lake_shore_road_8](../maps/lake_shore_road_8.md), Lake Laeroth: [laerothisland0](../maps/laerothisland0.md), Lake Laeroth: [laerothisland1](../maps/laerothisland1.md) (+8 more)
+**Found in:** Flagstone Prison: [Lake shore road 7](../maps/lake_shore_road_7.md), Flagstone Prison: [Lake shore road 8](../maps/lake_shore_road_8.md), Lake Laeroth: [Laerothisland 0](../maps/laerothisland0.md), Lake Laeroth: [Laerothisland 1](../maps/laerothisland1.md) (+8 more)
 
 <div class="infobox" markdown>
 
@@ -48,18 +48,18 @@ description: "Pond fish is an enemy in Andor's Trail (humanoid) with 1 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_26](../maps/galmore_26.md) | – | 1 | – |
-| [galmore_27](../maps/galmore_27.md) | – | 1 | – |
-| [galmore_36](../maps/galmore_36.md) | Mt. Galmore | 3 | – |
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 2 | – |
-| [laerothisland0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
-| [laerothisland1](../maps/laerothisland1.md) | Lake Laeroth | 10 | – |
-| [lake_shore_road_3](../maps/lake_shore_road_3.md) | – | 3 | – |
-| [lake_shore_road_4](../maps/lake_shore_road_4.md) | – | 4 | – |
-| [lake_shore_road_7](../maps/lake_shore_road_7.md) | Flagstone Prison | 2 | – |
-| [lake_shore_road_8](../maps/lake_shore_road_8.md) | Flagstone Prison | 1 | – |
-| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 3 | – |
-| [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md) | – | 3 | – |
+| [Galmore 26](../maps/galmore_26.md) | – | 1 | – |
+| [Galmore 27](../maps/galmore_27.md) | – | 1 | – |
+| [Galmore 36](../maps/galmore_36.md) | Mt. Galmore | 3 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 2 | – |
+| [Laerothisland 0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
+| [Laerothisland 1](../maps/laerothisland1.md) | Lake Laeroth | 10 | – |
+| [Lake shore road 3](../maps/lake_shore_road_3.md) | – | 3 | – |
+| [Lake shore road 4](../maps/lake_shore_road_4.md) | – | 4 | – |
+| [Lake shore road 7](../maps/lake_shore_road_7.md) | Flagstone Prison | 2 | – |
+| [Lake shore road 8](../maps/lake_shore_road_8.md) | Flagstone Prison | 1 | – |
+| [Sullengard pond](../maps/sullengard_pond.md) | Sullengard | 3 | – |
+| [Way to sullengard pond road](../maps/way_to_sullengard_pond_road.md) | – | 3 | – |
 
 
 ## Version history

@@ -1,5 +1,5 @@
 ---
-description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 1972 XP, found in mountainlake32."
+description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 1972 XP, found in Mountainlake 32."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } Furious Scylla
@@ -11,7 +11,7 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake32 |
+| **Found in** | Mountainlake 32 |
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 1,972 |
@@ -21,18 +21,18 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Furious Scylla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Furious Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`scylla_b1`](#v-scylla_b1) | Enemy | [mountainlake32](../maps/mountainlake32.md) | – | 180 |
-| [`scylla_b2`](#v-scylla_b2) | Enemy | [mountainlake32](../maps/mountainlake32.md) | – | 180 |
+| [`scylla_b1`](#v-scylla_b1) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
+| [`scylla_b2`](#v-scylla_b2) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
 
-## Mountainlake32 (scylla_b1) { #v-scylla_b1 }
+## Mountainlake 32 (scylla_b1) { #v-scylla_b1 }
 
 **Entry ID:** `scylla_b1` · **Type:** Enemy
 
-**Location:** [mountainlake32](../maps/mountainlake32.md)
+**Location:** [Mountainlake 32](../maps/mountainlake32.md)
 
 ### Combat statistics
 
@@ -62,11 +62,11 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -129,11 +129,11 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
     ```
 
 
-## Mountainlake32 (scylla_b2) { #v-scylla_b2 }
+## Mountainlake 32 (scylla_b2) { #v-scylla_b2 }
 
 **Entry ID:** `scylla_b2` · **Type:** Enemy
 
-**Location:** [mountainlake32](../maps/mountainlake32.md)
+**Location:** [Mountainlake 32](../maps/mountainlake32.md)
 
 ### Combat statistics
 
@@ -163,11 +163,11 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
 
 
 ### Version history

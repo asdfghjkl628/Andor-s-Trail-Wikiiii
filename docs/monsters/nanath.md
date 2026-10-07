@@ -4,7 +4,7 @@ description: "Nanath is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_newb_1_41.png){ .sprite } Nanath
 
-**Where to find Nanath:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-nanath)
+**Where to find Nanath:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-nanath)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Nanath is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nanath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Nanath. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/nanath.json" data-npc="Nanath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (55 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-nanath"></span>**`nanath`** *(silent check: the first matching branch below is taken)*
 
@@ -152,7 +152,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “So?” → [nanath_24](#d-nanath_24)
 
-    <span id="d-nanath_302"></span>**`nanath_302`** Nanath: “Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again.” — **effects:** sets stage 302 of [Troubling times](../quests/troubling_times.md#stage-302), clears stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20)
+    <span id="d-nanath_302"></span>**`nanath_302`** Nanath: “Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again.” — **effects:** sets stage 302 of [Troubling times](../quests/troubling_times.md#stage-302), clears stage 20 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-20)
 
     - “So quick?” → [nanath_304](#d-nanath_304)
 
@@ -177,8 +177,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-nanath_122"></span>**`nanath_122`** Nanath: “Then ... only one person may know: Fanamor's friend Sly Seraphina.”
 
-    - “Sly Seraphina? Where can she be found?” *(if NOT reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [nanath_130](#d-nanath_130)
-    - “On no! Not Seraphina! I refuse to talk to her.” *(if reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [nanath_132](#d-nanath_132)
+    - “Sly Seraphina? Where can she be found?” *(if NOT reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [nanath_130](#d-nanath_130)
+    - “On no! Not Seraphina! I refuse to talk to her.” *(if reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [nanath_132](#d-nanath_132)
 
     <span id="d-nanath_80"></span>**`nanath_80`** Nanath: “What a relief.”
 

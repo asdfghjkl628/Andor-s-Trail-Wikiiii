@@ -27,9 +27,9 @@ description: "Environmental poisoning is a harmful physical condition in Andor's
 |---|---|
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,15 +40,15 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md), stepping on a trigger on [waterway10](../maps/waterway10.md) | – | 1 round |
+| stepping on a trigger on [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md), stepping on a trigger on [Waterway 10](../maps/waterway10.md) | – | 1 round |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

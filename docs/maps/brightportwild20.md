@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild20 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman fencer, Lizardman corsair. Exits to Brightport8, Brightport smugglercave."
+description: "Brightportwild 20 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman corsair, Lizardman fencer. Exits to Brightport 8, Brightport smugglercave."
 ---
 
-# Brightportwild20
+# Brightportwild 20
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Brightportwild20 is an indoor location in Andor's Trail, in Bright
 | **Region** | In Brightport (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 30×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 1 |
 
 </div>
 
-**Brightportwild20** is an indoor map, in Brightport (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport8, Brightport smugglercave.
+**Brightportwild 20** is an indoor map, in Brightport (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport 8, Brightport smugglercave.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild20.webp" alt="Map of Brightportwild20" width="960" height="640" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightport8/#place-east" title="Exit to Brightport8" style="left:0.000%;top:85.000%;width:3.333%;height:5.000%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_smugglercave/#place-entrance" title="Exit to Brightport smugglercave" style="left:50.000%;top:20.000%;width:3.333%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:23.333%;top:75.000%;width:16.667%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman fencer" style="left:40.000%;top:30.000%;width:16.667%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:10.000%;top:85.000%;width:3.333%;height:5.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:50.000%;top:20.000%;width:3.333%;height:5.000%"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:26.667%;top:75.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:53.333%;top:45.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:10.000%;top:85.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="pin pin-exit" href="#key-1" style="left:1.667%;top:87.500%" title="Exit (west): to [Brightport8](brightport8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:51.667%;top:22.500%" title="Exit (stairs / passage): to [Brightport smugglercave](brightport_smugglercave.md)">2</a><a class="pin pin-key" href="#key-3" style="left:51.886%;top:18.750%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild20.webp" alt="Map of Brightportwild 20" width="960" height="640" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightport8/#place-east" title="Exit to Brightport 8" style="left:0.000%;top:85.000%;width:3.333%;height:5.000%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_smugglercave/#place-entrance" title="Exit to Brightport smugglercave" style="left:50.000%;top:20.000%;width:3.333%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:23.333%;top:75.000%;width:16.667%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman fencer" style="left:40.000%;top:30.000%;width:16.667%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:10.000%;top:85.000%;width:3.333%;height:5.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:50.000%;top:20.000%;width:3.333%;height:5.000%"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:26.667%;top:75.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:53.333%;top:45.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:10.000%;top:85.000%;width:3.333%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="pin pin-exit" href="#key-1" style="left:1.667%;top:87.500%" title="Exit (west): to [Brightport 8](brightport8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:51.667%;top:22.500%" title="Exit (stairs / passage): to [Brightport smugglercave](brightport_smugglercave.md)">2</a><a class="pin pin-key" href="#key-3" style="left:51.886%;top:18.750%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (west) | to [Brightport8](brightport8.md) |
+    | <span id="key-1"></span>1 | Exit (west) | to [Brightport 8](brightport8.md) |
     | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport smugglercave](brightport_smugglercave.md) |
     | <span id="key-3"></span>3 | Blocked passage | Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”) |
 
@@ -42,15 +42,15 @@ description: "Brightportwild20 is an indoor location in Andor's Trail, in Bright
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| West | [Brightport8](brightport8.md) | Brightport | 1 |
+| West | [Brightport 8](brightport8.md) | Brightport | 1 |
 | Stairs / passage | [Brightport smugglercave](brightport_smugglercave.md) | Brightport | 2 |
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
 | [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 2 | – |
+| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

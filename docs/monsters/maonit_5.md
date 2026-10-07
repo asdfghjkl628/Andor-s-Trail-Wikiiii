@@ -4,7 +4,7 @@ description: "Tough maonit brute is an enemy in Andor's Trail (giant) with 310 H
 
 # ![](../assets/icons/monsters/monsters_rltiles1_107.png){ .sprite } Tough maonit brute
 
-**Found in:** Lake Laeroth: [mountainlake3](../maps/mountainlake3.md), [mountainlake4](../maps/mountainlake4.md), [mountainlake5](../maps/mountainlake5.md), [waytolake11](../maps/waytolake11.md)
+**Found in:** Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md), [Mountainlake 5](../maps/mountainlake5.md), [Waytolake 11](../maps/waytolake11.md)
 
 <div class="infobox" markdown>
 
@@ -59,10 +59,10 @@ description: "Tough maonit brute is an enemy in Andor's Trail (giant) with 310 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake3](../maps/mountainlake3.md) | Lake Laeroth | 4 | – |
-| [mountainlake4](../maps/mountainlake4.md) | – | 3 | – |
-| [mountainlake5](../maps/mountainlake5.md) | – | 2 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 3 | – |
+| [Mountainlake 3](../maps/mountainlake3.md) | Lake Laeroth | 4 | – |
+| [Mountainlake 4](../maps/mountainlake4.md) | – | 3 | – |
+| [Mountainlake 5](../maps/mountainlake5.md) | – | 2 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 3 | – |
 
 
 ## Version history

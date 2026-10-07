@@ -14,7 +14,7 @@ description: "Arulir Mountain Trap is a hidden quest in Andor's Trail, started b
 | **Quest ID** | `arulirmountain_trap` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 5 |
-| **Started by** | stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) |
+| **Started by** | stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md) |
 
 </div>
 
@@ -24,7 +24,7 @@ description: "Arulir Mountain Trap is a hidden quest in Andor's Trail, started b
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) to begin.
+None: talk to stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,39 +37,65 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 01=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain2](../maps/arulirmountain2.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain2](../maps/arulirmountain2.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) | – | – |
-| <span id="stage-2"></span>2 | 02=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain2](../maps/arulirmountain2.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain2](../maps/arulirmountain2.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) | – | – |
-| <span id="stage-3"></span>3 | 03=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | – |
-| <span id="stage-4"></span>4 | 04=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | – |
-| <span id="stage-5"></span>5 | 05=Rocks<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 01=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 2](../maps/arulirmountain2.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain 2](../maps/arulirmountain2.md) becomes blocked off.</span> | stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | 02=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 2](../maps/arulirmountain2.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain 2](../maps/arulirmountain2.md) becomes blocked off.</span> | stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md) | – |
+| <span id="stage-3"></span>[3](#route-3) | 03=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain 1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | – |
+| <span id="stage-4"></span>[4](#route-4) | 04=Hole<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain 1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | – |
+| <span id="stage-5"></span>[5](#route-5) | 05=Rocks<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 1](../maps/arulirmountain1.md).</span><br><span class="qnote">🔒 An area on [Arulirmountain 1](../maps/arulirmountain1.md) becomes blocked off.</span> | stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) → the conversation leads here automatically → **stage 1**
+??? note "Stage 1 · stepping on a trigger on arulirmountain2 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md)
 
-    1. stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) → the conversation leads here automatically → **stage 2**
 
-???+ note "Stage 3: 1 route"
 
-    1. stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) → the conversation leads here automatically → **stage 3**
+<span id="route-2"></span>
 
-???+ note "Stage 4: 1 route"
+??? note "Stage 2 · stepping on a trigger on arulirmountain2 · 1 way"
 
-    1. stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) → the conversation leads here automatically → **stage 4**
+    **Way 1:** Stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md)
 
-???+ note "Stage 5: 1 route"
 
-    1. stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) → the conversation leads here automatically → **stage 5**
+
+<span id="route-3"></span>
+
+??? note "Stage 3 · stepping on a trigger on arulirmountain1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md)
+
+
+
+<span id="route-4"></span>
+
+??? note "Stage 4 · stepping on a trigger on arulirmountain1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md)
+
+
+
+<span id="route-5"></span>
+
+??? note "Stage 5 · stepping on a trigger on arulirmountain1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md)
+
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -114,6 +140,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `arulirmountain_trap` |
+    | Name in game data | `Arulir Mountain Trap` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5 |
     | Dialogue nodes setting stages | 1: `arulirmountain_trap01`, 2: `arulirmountain_trap02`, 3: `arulirmountain_trap03`, 4: `arulirmountain_trap04`, 5: `arulirmountain_trap05` |

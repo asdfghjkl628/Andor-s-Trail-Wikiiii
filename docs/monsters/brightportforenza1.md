@@ -4,7 +4,7 @@ description: "Florencia is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_206.png){ .sprite } Florencia
 
-**Where to find Florencia:** Brightport: [brightport_forenza](../maps/brightport_forenza.md#pin-npc-brightportforenza1)
+**Where to find Florencia:** Brightport: [Brightport forenza](../maps/brightport_forenza.md#pin-npc-brightportforenza1)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Florencia is a non-player character (NPC) in Andor's Trail, found 
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 183, 242, 254
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 183, 242, 254
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Florencia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Florencia. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_florencia_selector.json" data-npc="Florencia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,13 +33,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_florencia_selector"></span>**`brightport_florencia_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115); NOT reached stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia0](#d-brightport_florencia0)
-    - Next *(if reached stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia2](#d-brightport_florencia2)
-    - Next *(if NOT reached stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia](#d-brightport_florencia)
+    - Next *(if reached stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115); NOT reached stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia0](#d-brightport_florencia0)
+    - Next *(if reached stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia2](#d-brightport_florencia2)
+    - Next *(if NOT reached stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_florencia](#d-brightport_florencia)
 
     <span id="d-brightport_florencia0"></span>**`brightport_florencia0`** Florencia: “Hello, $playername! I received a letter from my father, Forenza, about how much you helped him on his travel.”
 
@@ -53,15 +53,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “That is an interesting vault you have there, what is it for?” → [brightport_florencia6](#d-brightport_florencia6)
 
-    <span id="d-brightport_florencia3"></span>**`brightport_florencia3`** Florencia: “Please feel free to rest at our house any time you're in Brightport. The couch is over there, against the far wall.” — **effects:** sets stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183)
+    <span id="d-brightport_florencia3"></span>**`brightport_florencia3`** Florencia: “Please feel free to rest at our house any time you're in Brightport. The couch is over there, against the far wall.” — **effects:** sets stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183)
 
 
-    <span id="d-brightport_florencia6"></span>**`brightport_florencia6`** Florencia: “My husband, who is the bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his coin collection.” — **effects:** sets stage 242 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-242)
+    <span id="d-brightport_florencia6"></span>**`brightport_florencia6`** Florencia: “My husband, who is the bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his coin collection.” — **effects:** sets stage 242 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-242)
 
     - “Your father?” → [brightport_florencia7](#d-brightport_florencia7)
     - “I see, bye.” → *conversation ends*
 
-    <span id="d-brightport_florencia7"></span>**`brightport_florencia7`** Florencia: “My father Forenza... I wish he would come visit us more often. What is he doing traveling alone at his age?” — **effects:** sets stage 254 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-254)
+    <span id="d-brightport_florencia7"></span>**`brightport_florencia7`** Florencia: “My father Forenza... I wish he would come visit us more often. What is he doing traveling alone at his age?” — **effects:** sets stage 254 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-254)
 
     - “I should get going.” → *conversation ends*
 

@@ -4,7 +4,7 @@ description: "Shade is an enemy in Andor's Trail (ghost) with 16 HP, worth 35 XP
 
 # ![](../assets/icons/monsters/monsters_ghost1_0.png){ .sprite } Shade
 
-**Found in:** Fallhaven: [catacombs3](../maps/catacombs3.md), [catacombs4](../maps/catacombs4.md), [hauntedhouse3](../maps/hauntedhouse3.md)
+**Found in:** Fallhaven: [Catacombs 3](../maps/catacombs3.md), [Catacombs 4](../maps/catacombs4.md), [Hauntedhouse 3](../maps/hauntedhouse3.md)
 
 <div class="infobox" markdown>
 
@@ -62,9 +62,9 @@ description: "Shade is an enemy in Andor's Trail (ghost) with 16 HP, worth 35 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [catacombs3](../maps/catacombs3.md) | Fallhaven | 6 | – |
-| [catacombs4](../maps/catacombs4.md) | – | 2 | – |
-| [hauntedhouse3](../maps/hauntedhouse3.md) | – | 1 | – |
+| [Catacombs 3](../maps/catacombs3.md) | Fallhaven | 6 | – |
+| [Catacombs 4](../maps/catacombs4.md) | – | 2 | – |
+| [Hauntedhouse 3](../maps/hauntedhouse3.md) | – | 1 | – |
 
 
 ## Version history

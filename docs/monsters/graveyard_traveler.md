@@ -1,10 +1,10 @@
 ---
-description: "Waterway traveler is a non-player character (NPC) in Andor's Trail, found in graveyard0."
+description: "Waterway traveler is a non-player character (NPC) in Andor's Trail, found in Graveyard 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_6.png){ .sprite } Waterway traveler
 
-**Where to find Waterway traveler:** [graveyard0](../maps/graveyard0.md#pin-npc-graveyard_traveler)
+**Where to find Waterway traveler:** [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_traveler)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Waterway traveler is a non-player character (NPC) in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | graveyard0 |
+| **Found in** | Graveyard 0 |
 | **Entry ID** | `graveyard_traveler` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
@@ -25,7 +25,7 @@ description: "Waterway traveler is a non-player character (NPC) in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Waterway traveler. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Waterway traveler. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/graveyardtraveler_begin.json" data-npc="Waterway traveler" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-graveyardtraveler_begin"></span>**`graveyardtraveler_begin`** *(silent check: the first matching branch below is taken)*
 

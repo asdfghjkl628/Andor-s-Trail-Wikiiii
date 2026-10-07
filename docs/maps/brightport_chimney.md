@@ -45,7 +45,7 @@ description: "Brightport chimney is an indoor location in Andor's Trail. Enemies
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 144; stepping on a trigger here sets stage 159; stepping on a trigger here sets stage 174; stepping on a trigger here sets stage 220
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 144; stepping on a trigger here sets stage 159; stepping on a trigger here sets stage 174; stepping on a trigger here sets stage 220
 
 ## Points of interest
 

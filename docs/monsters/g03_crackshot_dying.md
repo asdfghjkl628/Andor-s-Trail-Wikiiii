@@ -1,10 +1,10 @@
 ---
-description: "Dying Crackshot is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in crackshot_hideout3."
+description: "Dying Crackshot is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_80.png){ .sprite } Dying Crackshot
 
-**Found in:** [crackshot_hideout3](../maps/crackshot_hideout3.md)
+**Found in:** [Crackshot hideout 3](../maps/crackshot_hideout3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dying Crackshot is an enemy in Andor's Trail (humanoid) with 1 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | crackshot_hideout3 |
+| **Found in** | Crackshot hideout 3 |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,7 +48,7 @@ description: "Dying Crackshot is an enemy in Andor's Trail (humanoid) with 1 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | 1 | – |
+| [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – | 1 | – |
 
 
 ## Version history

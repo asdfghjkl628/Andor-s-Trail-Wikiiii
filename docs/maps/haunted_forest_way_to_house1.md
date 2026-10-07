@@ -1,8 +1,8 @@
 ---
-description: "Haunted forest way to house1 is an outdoor location in Andor's Trail. Enemies: Graveyard gatekeeper. Exits to Haunted forest12, Haunted forest way to house2."
+description: "Haunted forest way to house 1 is an outdoor location in Andor's Trail. Enemies: Graveyard gatekeeper. Exits to Haunted forest 12, Haunted forest way to house 2."
 ---
 
-# Haunted forest way to house1
+# Haunted forest way to house 1
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Haunted forest way to house1 is an outdoor location in Andor's Tra
 | **Map ID** | `haunted_forest_way_to_house1` |
 | **Type** | Outdoors |
 | **Size** | 10×2 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Haunted forest way to house1** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Haunted forest12, Haunted forest way to house2.
+**Haunted forest way to house 1** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Haunted forest 12, Haunted forest way to house 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest_way_to_house1.webp" alt="Map of Haunted forest way to house1" width="320" height="64" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest12/#place-west" title="Exit to Haunted forest12" style="left:90.000%;top:0.000%;width:10.000%;height:100.000%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest_way_to_house2/#place-east" title="Exit to Haunted forest way to house2" style="left:0.000%;top:0.000%;width:10.000%;height:100.000%"></a><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:20.000%;top:0.000%;width:10.000%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:70.000%;top:0.000%;width:10.000%;height:50.000%"></span><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:20.000%;top:0.000%;width:10.000%;height:50.000%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:70.000%;top:0.000%;width:10.000%;height:50.000%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="pin pin-exit" href="#key-1" style="left:95.000%;top:50.000%" title="Exit (northeast): to [Haunted forest12](haunted_forest12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:5.000%;top:50.000%" title="Exit (northwest): to [Haunted forest way to house2](haunted_forest_way_to_house2.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest_way_to_house1.webp" alt="Map of Haunted forest way to house 1" width="320" height="64" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest12/#place-west" title="Exit to Haunted forest 12" style="left:90.000%;top:0.000%;width:10.000%;height:100.000%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest_way_to_house2/#place-east" title="Exit to Haunted forest way to house 2" style="left:0.000%;top:0.000%;width:10.000%;height:100.000%"></a><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:20.000%;top:0.000%;width:10.000%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:70.000%;top:0.000%;width:10.000%;height:50.000%"></span><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:20.000%;top:0.000%;width:10.000%;height:50.000%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:70.000%;top:0.000%;width:10.000%;height:50.000%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="pin pin-exit" href="#key-1" style="left:95.000%;top:50.000%" title="Exit (northeast): to [Haunted forest 12](haunted_forest12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:5.000%;top:50.000%" title="Exit (northwest): to [Haunted forest way to house 2](haunted_forest_way_to_house2.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (northeast) | to [Haunted forest12](haunted_forest12.md) |
-    | <span id="key-2"></span>2 | Exit (northwest) | to [Haunted forest way to house2](haunted_forest_way_to_house2.md) |
+    | <span id="key-1"></span>1 | Exit (northeast) | to [Haunted forest 12](haunted_forest12.md) |
+    | <span id="key-2"></span>2 | Exit (northwest) | to [Haunted forest way to house 2](haunted_forest_way_to_house2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Haunted forest way to house1 is an outdoor location in Andor's Tra
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Northeast | [Haunted forest12](haunted_forest12.md) | – | 1 |
-| Northwest | [Haunted forest way to house2](haunted_forest_way_to_house2.md) | – | 2 |
+| Northeast | [Haunted forest 12](haunted_forest12.md) | – | 1 |
+| Northwest | [Haunted forest way to house 2](haunted_forest_way_to_house2.md) | – | 2 |
 
 ## Enemies
 

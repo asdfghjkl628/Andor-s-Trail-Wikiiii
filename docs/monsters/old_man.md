@@ -19,18 +19,18 @@ description: "Old man is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Old man. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Old man. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`old_man`](#v-old_man) | NPC | Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-old_man) | starts [Calomyran secrets](../quests/calomyran.md) |
-| [`guynmart_wise`](#v-guynmart_wise) | NPC | Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise) | starts [Rare delicacies](../quests/guynmart_wise.md) |
+| [`old_man`](#v-old_man) | NPC | Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-old_man) | starts [Calomyran secrets](../quests/calomyran.md) |
+| [`guynmart_wise`](#v-guynmart_wise) | NPC | Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise) | starts [Rare delicacies](../quests/guynmart_wise.md) |
 
 ## Fallhaven, Fallhaven north-west (old_man) { #v-old_man }
 
 **Entry ID:** `old_man` · **Type:** NPC · **Role:** Starts [Calomyran secrets](../quests/calomyran.md)
 
-**Location:** Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-old_man)
+**Location:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-old_man)
 
 ### Quests
 
@@ -39,7 +39,7 @@ description: "Old man is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old man. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old man. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_oldman.json" data-npc="Old man" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -47,7 +47,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-old_man-fallhaven_oldman"></span>**`fallhaven_oldman`** *(silent check: the first matching branch below is taken)*
 
@@ -175,16 +175,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_wise` · **Type:** NPC · **Role:** Starts [Rare delicacies](../quests/guynmart_wise.md)
 
-**Location:** Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise)
+**Location:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise)
 
 ### Quests
 
 - [Rare delicacies](../quests/guynmart_wise.md): stages 10, 20, 30, 90
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 35
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 35
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old man. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old man. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_wise_10.json" data-npc="Old man" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -192,11 +192,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (42 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_wise-guynmart_wise_10"></span>**`guynmart_wise_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35))* → [guynmart_wise_14](#d-guynmart_wise-guynmart_wise_14)
+    - branch 1 *(if reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35))* → [guynmart_wise_14](#d-guynmart_wise-guynmart_wise_14)
     - branch 2 → [guynmart_wise_12](#d-guynmart_wise-guynmart_wise_12)
 
     <span id="d-guynmart_wise-guynmart_wise_14"></span>**`guynmart_wise_14`** Old man: “Oh, it is you again. I am delighted!”
@@ -299,7 +299,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sorry, I really must go now.” → [guynmart_wise_900](#d-guynmart_wise-guynmart_wise_900)
     - “Just say what you would like. What can I do for you?” → [guynmart_wise_130](#d-guynmart_wise-guynmart_wise_130)
 
-    <span id="d-guynmart_wise-guynmart_wise_102"></span>**`guynmart_wise_102`** Old man: “From time to time a friendly soul brings me some food, but no one stays for long. I have noticed that their pace uphill is usually much slower than back downhill.” — **effects:** sets stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
+    <span id="d-guynmart_wise-guynmart_wise_102"></span>**`guynmart_wise_102`** Old man: “From time to time a friendly soul brings me some food, but no one stays for long. I have noticed that their pace uphill is usually much slower than back downhill.” — **effects:** sets stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
 
     - Next → [guynmart_wise_110](#d-guynmart_wise-guynmart_wise_110)
 

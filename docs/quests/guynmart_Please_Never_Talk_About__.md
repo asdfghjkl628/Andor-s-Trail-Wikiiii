@@ -1,8 +1,8 @@
 ---
-description: "guynmart_q1ta is a hidden quest in Andor's Trail. 1 stages. 1"
+description: "Guynmart Castle step 1a is a hidden quest in Andor's Trail. 1 stages. 1"
 ---
 
-# guynmart_q1ta
+# Guynmart Castle step 1a
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -29,11 +29,17 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1 | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>1 | 1 | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -77,6 +83,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_Please_Never_Talk_About__` |
+    | Name in game data | `guynmart_q1ta` |
     | showInLog | 0 |
     | Stage IDs | 1 |
     | Dialogue nodes setting stages | – |

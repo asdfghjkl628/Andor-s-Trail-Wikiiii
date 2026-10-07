@@ -67,7 +67,7 @@ description: "Gamjee well 4 1 is an indoor location in Andor's Trail. NPCs: Gamj
 ## Quests
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): [Gamjee](../monsters/gamjee.md) is involved; [Gamjee](../monsters/gamjee.md#v-gamjee_oc) is involved; something on this map advances it; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 9
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): [Gamjee](../monsters/gamjee.md) is involved; [Gamjee](../monsters/gamjee.md#v-gamjee_oc) is involved
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): [Gamjee](../monsters/gamjee.md) is involved; [Gamjee](../monsters/gamjee.md#v-gamjee_oc) is involved
 
 ## Points of interest
 

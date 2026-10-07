@@ -4,7 +4,7 @@ description: "Franz is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_34.png){ .sprite } Franz
 
-**Where to find Franz:** Brightport: [brightport_school12](../maps/brightport_school12.md#pin-npc-brightportnpc4)
+**Where to find Franz:** Brightport: [Brightport school 12](../maps/brightport_school12.md#pin-npc-brightportnpc4)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Franz is a non-player character (NPC) in Andor's Trail, found in B
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stage 45
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 42, 45
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 42, 45
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Franz. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Franz. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_franz_selector.json" data-npc="Franz" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,12 +34,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_franz_selector"></span>**`brightport_franz_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT 6 rounds passed since timer “franz_note_read_timer”; NOT latest stage of [No rest for the wicked](../quests/Stanwickquest.md#stage-45) is 45; reached stage 45 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-45))* → [brightport_franz3](#d-brightport_franz3)
-    - Next *(if reached stage 45 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-45); 6 rounds passed since timer “franz_note_read_timer”; NOT reached stage 45 of [No rest for the wicked](../quests/Stanwickquest.md#stage-45))* → [brightport_franz](#d-brightport_franz)
+    - Next *(if NOT 6 rounds passed since timer “franz_note_read_timer”; NOT latest stage of [No rest for the wicked](../quests/Stanwickquest.md#stage-45) is 45; reached stage 45 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-45))* → [brightport_franz3](#d-brightport_franz3)
+    - Next *(if reached stage 45 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-45); 6 rounds passed since timer “franz_note_read_timer”; NOT reached stage 45 of [No rest for the wicked](../quests/Stanwickquest.md#stage-45))* → [brightport_franz](#d-brightport_franz)
     - Next → [brightport_franz1](#d-brightport_franz1)
 
     <span id="d-brightport_franz3"></span>**`brightport_franz3`** Franz: “I haven't read your question yet. Come back later.”
@@ -53,17 +53,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_franz1"></span>**`brightport_franz1`** [Franz](../monsters/brightportnpc4.md): “I am currently busy grading today's assignment papers. If you have any questions, please write them down and bring them to me.”
 
     - “[Give written note]” *(if hand over 1× [Written note](../items/brightport_note.md))* → [brightport_franz2](#d-brightport_franz2)
-    - “Could you tell me what you know about the library theft?” *(if NOT reached stage 45 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-45); reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25))* → [brightport_franz6](#d-brightport_franz6)
+    - “Could you tell me what you know about the library theft?” *(if NOT reached stage 45 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-45); reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25))* → [brightport_franz6](#d-brightport_franz6)
     - “Never mind, that's too much hassle.” → *conversation ends*
 
     <span id="d-brightport_franz4"></span>**`brightport_franz4`** Franz: “There is not much I can tell you about the incident. None of us teachers knew anything about the scroll or where it was kept. In such a case, one might presume that the most logical step would be to investigate the room where it was stored.” — **effects:** sets stage 45 of [No rest for the wicked](../quests/Stanwickquest.md#stage-45)
 
     - Next → [brightport_franz5](#d-brightport_franz5)
 
-    <span id="d-brightport_franz2"></span>**`brightport_franz2`** Franz: “I'll read it next after I'm done with this other paper. Please come back later.” — **effects:** sets stage 45 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-45), starts timer “franz_note_read_timer”
+    <span id="d-brightport_franz2"></span>**`brightport_franz2`** Franz: “I'll read it next after I'm done with this other paper. Please come back later.” — **effects:** sets stage 45 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-45), starts timer “franz_note_read_timer”
 
 
-    <span id="d-brightport_franz6"></span>**`brightport_franz6`** Franz: “As I've said, I'm busy. Write your question down and I'll answer you later.” — **effects:** sets stage 42 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-42)
+    <span id="d-brightport_franz6"></span>**`brightport_franz6`** Franz: “As I've said, I'm busy. Write your question down and I'll answer you later.” — **effects:** sets stage 42 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-42)
 
     - “[Guess I'll find some paper and ink.]” → *conversation ends*
 

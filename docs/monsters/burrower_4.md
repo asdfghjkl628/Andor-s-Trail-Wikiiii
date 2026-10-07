@@ -1,5 +1,5 @@
 ---
-description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 75–175 HP, worth 159–285 XP, found in Pub, Bloskelt + Roskelt, Entry, waterwaycave. Drops: Gold coins, Insect shell, Glass gem, Oegyth crystal."
+description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 75–175 HP, worth 159–285 XP, found in Pub, Bloskelt + Roskelt, Entry, Waterwaycave. Drops: Gold coins, Insect shell, Glass gem, Oegyth crystal."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite } Giant larval burrower
@@ -11,7 +11,7 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | Pub, Bloskelt + Roskelt, Entry, waterwaycave |
+| **Found in** | Pub, Bloskelt + Roskelt, Entry, Waterwaycave |
 | **Class** | Insect |
 | **HP** | 75–175 |
 | **XP when defeated** | 159–285 |
@@ -21,18 +21,18 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Giant larval burrower. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Giant larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`burrower_4`](#v-burrower_4) | Enemy | Bloskelt + Roskelt: [ratdom_maze_437](../maps/ratdom_maze_437.md), Entry: [ratdom_maze_438](../maps/ratdom_maze_438.md) (+9 more) | – | 75 |
-| [`burrower_cr`](#v-burrower_cr) | Enemy | [waterwaycave](../maps/waterwaycave.md) | – | 175 |
+| [`burrower_4`](#v-burrower_4) | Enemy | Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md), Entry: [Ratdom maze 438](../maps/ratdom_maze_438.md) (+9 more) | – | 75 |
+| [`burrower_cr`](#v-burrower_cr) | Enemy | [Waterwaycave](../maps/waterwaycave.md) | – | 175 |
 
 ## Bloskelt + Roskelt, Ratdom maze 437 and 10 more (burrower_4) { #v-burrower_4 }
 
 **Entry ID:** `burrower_4` · **Type:** Enemy
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_437](../maps/ratdom_maze_437.md), Entry: [ratdom_maze_438](../maps/ratdom_maze_438.md), Entry: [ratdom_maze_635](../maps/ratdom_maze_635.md), Instrument maker: [ratdom_maze_455](../maps/ratdom_maze_455.md), Pub: [ratdom_maze_413](../maps/ratdom_maze_413.md), Pub: [ratdom_maze_432](../maps/ratdom_maze_432.md) (+5 more)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md), Entry: [Ratdom maze 438](../maps/ratdom_maze_438.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Instrument maker: [Ratdom maze 455](../maps/ratdom_maze_455.md), Pub: [Ratdom maze 413](../maps/ratdom_maze_413.md), Pub: [Ratdom maze 432](../maps/ratdom_maze_432.md) (+5 more)
 
 ### Combat statistics
 
@@ -68,17 +68,17 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_413](../maps/ratdom_maze_413.md) | Pub | 2 | – |
-| [ratdom_maze_432](../maps/ratdom_maze_432.md) | Pub | 2 | – |
-| [ratdom_maze_437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_438](../maps/ratdom_maze_438.md) | Entry | 2 | – |
-| [ratdom_maze_455](../maps/ratdom_maze_455.md) | Instrument maker | 2 | – |
-| [ratdom_maze_542](../maps/ratdom_maze_542.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_566](../maps/ratdom_maze_566.md) | – | 2 | – |
-| [ratdom_maze_626](../maps/ratdom_maze_626.md) | Pub | 10 | – |
-| [ratdom_maze_635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
-| [ratdom_maze_638](../maps/ratdom_maze_638.md) | Roundlings | 2 | – |
-| [waterwaycave](../maps/waterwaycave.md) | – | 8 | – |
+| [Ratdom maze 413](../maps/ratdom_maze_413.md) | Pub | 2 | – |
+| [Ratdom maze 432](../maps/ratdom_maze_432.md) | Pub | 2 | – |
+| [Ratdom maze 437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 438](../maps/ratdom_maze_438.md) | Entry | 2 | – |
+| [Ratdom maze 455](../maps/ratdom_maze_455.md) | Instrument maker | 2 | – |
+| [Ratdom maze 542](../maps/ratdom_maze_542.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 566](../maps/ratdom_maze_566.md) | – | 2 | – |
+| [Ratdom maze 626](../maps/ratdom_maze_626.md) | Pub | 10 | – |
+| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
+| [Ratdom maze 638](../maps/ratdom_maze_638.md) | Roundlings | 2 | – |
+| [Waterwaycave](../maps/waterwaycave.md) | – | 8 | – |
 
 
 ### Version history
@@ -132,7 +132,7 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 
 **Entry ID:** `burrower_cr` · **Type:** Enemy
 
-**Location:** [waterwaycave](../maps/waterwaycave.md)
+**Location:** [Waterwaycave](../maps/waterwaycave.md)
 
 ### Combat statistics
 
@@ -166,7 +166,7 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwaycave](../maps/waterwaycave.md) | – | 1 | – |
+| [Waterwaycave](../maps/waterwaycave.md) | – | 1 | – |
 
 
 ### Version history

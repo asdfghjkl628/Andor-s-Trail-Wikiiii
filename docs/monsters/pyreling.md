@@ -4,7 +4,7 @@ description: "Pyreling is an enemy in Andor's Trail (construct) with 266 HP, wor
 
 # ![](../assets/icons/monsters/monsters_newb_1_1200.png){ .sprite } Pyreling
 
-**Found in:** Mt. Galmore: [galmore_42](../maps/galmore_42.md), Mt. Galmore: [galmore_52](../maps/galmore_52.md), Mt. Galmore: [galmore_53](../maps/galmore_53.md), Mt. Galmore: [galmore_62](../maps/galmore_62.md) (+6 more)
+**Found in:** Mt. Galmore: [Galmore 42](../maps/galmore_42.md), Mt. Galmore: [Galmore 52](../maps/galmore_52.md), Mt. Galmore: [Galmore 53](../maps/galmore_53.md), Mt. Galmore: [Galmore 62](../maps/galmore_62.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -61,16 +61,16 @@ description: "Pyreling is an enemy in Andor's Trail (construct) with 266 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_32](../maps/galmore_32.md) | – | 4 | – |
-| [galmore_41](../maps/galmore_41.md) | – | 8 | – |
-| [galmore_42](../maps/galmore_42.md) | Mt. Galmore | 5 | – |
-| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 8 | – |
-| [galmore_53](../maps/galmore_53.md) | Mt. Galmore | 1 | – |
-| [galmore_62](../maps/galmore_62.md) | Mt. Galmore | 7 | – |
-| [galmore_72](../maps/galmore_72.md) | – | 1 | – |
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 1 | – |
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 2 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 2 | – |
+| [Galmore 32](../maps/galmore_32.md) | – | 4 | – |
+| [Galmore 41](../maps/galmore_41.md) | – | 8 | – |
+| [Galmore 42](../maps/galmore_42.md) | Mt. Galmore | 5 | – |
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 8 | – |
+| [Galmore 53](../maps/galmore_53.md) | Mt. Galmore | 1 | – |
+| [Galmore 62](../maps/galmore_62.md) | Mt. Galmore | 7 | – |
+| [Galmore 72](../maps/galmore_72.md) | – | 1 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 1 | – |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 2 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 2 | – |
 
 
 ## Version history

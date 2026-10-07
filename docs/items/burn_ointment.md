@@ -26,11 +26,11 @@ description: "Burn ointment is a rare healing item in Andor's Trail. How to get 
 
 ### Sold by
 
-- [Vaelric](../monsters/vaelric.md) (galmore_17_house)
+- [Vaelric](../monsters/vaelric.md) (Galmore 17 house)
 
 ### Found in containers
 
-- [galmore_17_house_2f](../maps/galmore_17_house_2f.md#container-0) (container 1, 100%)
+- [Galmore 17 house 2f](../maps/galmore_17_house_2f.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

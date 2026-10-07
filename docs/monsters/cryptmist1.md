@@ -1,10 +1,10 @@
 ---
-description: "Thin mist of the crypt is an enemy in Andor's Trail (ghost) with 162 HP, worth 302 XP, found in lodar12cave0, lodar12cave1. Drops: Axe of fear."
+description: "Thin mist of the crypt is an enemy in Andor's Trail (ghost) with 162 HP, worth 302 XP, found in Lodar 12cave 0, Lodar 12cave 1. Drops: Axe of fear."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_142.png){ .sprite } Thin mist of the crypt
 
-**Found in:** [lodar12cave0](../maps/lodar12cave0.md), [lodar12cave1](../maps/lodar12cave1.md)
+**Found in:** [Lodar 12cave 0](../maps/lodar12cave0.md), [Lodar 12cave 1](../maps/lodar12cave1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Thin mist of the crypt is an enemy in Andor's Trail (ghost) with 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar12cave0, lodar12cave1 |
+| **Found in** | Lodar 12cave 0, Lodar 12cave 1 |
 | **Class** | Ghost |
 | **HP** | 162 |
 | **XP when defeated** | 302 |
@@ -58,8 +58,8 @@ description: "Thin mist of the crypt is an enemy in Andor's Trail (ghost) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar12cave0](../maps/lodar12cave0.md) | – | 4 | – |
-| [lodar12cave1](../maps/lodar12cave1.md) | – | 3 | – |
+| [Lodar 12cave 0](../maps/lodar12cave0.md) | – | 4 | – |
+| [Lodar 12cave 1](../maps/lodar12cave1.md) | – | 3 | – |
 
 
 ## Version history

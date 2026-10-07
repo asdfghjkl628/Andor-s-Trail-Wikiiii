@@ -1,10 +1,10 @@
 ---
-description: "Drakthorn warrior is an enemy in Andor's Trail (reptile) with 146 HP, worth 279 XP, found in final_cave_labyrinth, island_underground2, island_underground3. Drops: Gold coins, Regular potion of health, Steel shortsword."
+description: "Drakthorn warrior is an enemy in Andor's Trail (reptile) with 146 HP, worth 279 XP, found in Final cave labyrinth, Island underground 2, Island underground 3. Drops: Gold coins, Regular potion of health, Steel shortsword."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_14.png){ .sprite } Drakthorn warrior
 
-**Found in:** [final_cave_labyrinth](../maps/final_cave_labyrinth.md), [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md)
+**Found in:** [Final cave labyrinth](../maps/final_cave_labyrinth.md), [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Drakthorn warrior is an enemy in Andor's Trail (reptile) with 146 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | final_cave_labyrinth, island_underground2, island_underground3 |
+| **Found in** | Final cave labyrinth, Island underground 2, Island underground 3 |
 | **Class** | Reptile |
 | **HP** | 146 |
 | **XP when defeated** | 279 |
@@ -56,9 +56,9 @@ description: "Drakthorn warrior is an enemy in Andor's Trail (reptile) with 146 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave_labyrinth](../maps/final_cave_labyrinth.md) | – | 6 | – |
-| [island_underground2](../maps/island_underground2.md) | – | 14 | – |
-| [island_underground3](../maps/island_underground3.md) | – | 10 | – |
+| [Final cave labyrinth](../maps/final_cave_labyrinth.md) | – | 6 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 14 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 10 | – |
 
 
 ## Version history

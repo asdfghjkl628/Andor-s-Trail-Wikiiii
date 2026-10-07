@@ -4,7 +4,7 @@ description: "Ice berries is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/items_japozero_483.png){ .sprite } Ice berries
 
-**Where to find Ice berries:** Blackwater Mountain: [blackwater_mountain32](../maps/blackwater_mountain32.md#pin-npc-wild_berry2)
+**Where to find Ice berries:** Blackwater Mountain: [Blackwater mountain 32](../maps/blackwater_mountain32.md#pin-npc-wild_berry2)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Ice berries is a non-player character (NPC) in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ice berries. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ice berries. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chk_wild_berry2.json" data-npc="Ice berries" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,11 +29,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-chk_wild_berry2"></span>**`chk_wild_berry2`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
+    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
     - branch 2 *(if random chance (5%))* → [chk_wild_berry2_20](#d-chk_wild_berry2_20)
     - branch 3 → [chk_wild_berry2_10](#d-chk_wild_berry2_10)
 

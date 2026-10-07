@@ -1,8 +1,8 @@
 ---
-description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, started by stepping on a trigger on basiliskcave2. 2 stages. Anakis left"
+description: "Quick glance: position is a hidden quest in Andor's Trail, started by stepping on a trigger on basiliskcave2. 2 stages. Anakis left"
 ---
 
-# quick_glance_hidden_position
+# Quick glance: position
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, s
 | **Quest ID** | `quick_glance_hidden_position` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md), stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) |
+| **Started by** | stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md), stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -25,7 +25,7 @@ description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, s
 
 ## Prerequisites to start
 
-**Route 1** (stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md)):
+**Route 1** (stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)):
 
 - NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
 - NOT wearing [Hand mirror](../items/hand_mirror.md)
@@ -33,13 +33,13 @@ description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, s
 - NOT reached stage 15 of [A quick glance](../quests/quick_glance.md#stage-15)
 - NOT reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20)
 
-**Route 2** (stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md)):
+**Route 2** (stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)):
 
 - NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md)
 - NOT wearing [Hand mirror](../items/hand_mirror.md)
 - NOT affected by turn_to_stone
 
-**Route 3** (stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md)):
+**Route 3** (stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)):
 
 - reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20)
 - NOT reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50)
@@ -60,24 +60,45 @@ description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, s
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-100"></span>100 | Anakis left | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-110"></span>110 | Basilisk blocked<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave2](../maps/basiliskcave2.md).</span><br><span class="qnote">🔒 An area on [Basiliskcave2](../maps/basiliskcave2.md) becomes blocked off.</span> | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | – | applies condition turn_to_stone |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-100"></span>100 | Anakis left | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-110"></span>[110](#route-110) | Basilisk blocked<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Basiliskcave 2](../maps/basiliskcave2.md).</span><br><span class="qnote">🔒 An area on [Basiliskcave 2](../maps/basiliskcave2.md) becomes blocked off.</span> | stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | varies by route (see below) |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 110: 3 routes"
+<span id="route-110"></span>
 
-    1. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT wearing [Hand mirror](../items/hand_mirror.md); NOT affected by turn_to_stone; NOT reached stage 15 of [A quick glance](../quests/quick_glance.md#stage-15); NOT reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20) → **stage 110**; also applies condition turn_to_stone. NPC: “You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get…”
-    2. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** NOT killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT wearing [Hand mirror](../items/hand_mirror.md); NOT affected by turn_to_stone → **stage 110**; also applies condition turn_to_stone. NPC: “You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get…”
-    3. stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) → the conversation leads here automatically — **conditions:** reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20); NOT reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50) → **stage 110**
+??? note "Stage 110 · stepping on a trigger on basiliskcave2 · 3 ways"
+
+    **Way 1:** Stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)
+
+    - **Needs:** not killed 1× [Ancient basilisk](../monsters/old_basilisk.md); not wearing [Hand mirror](../items/hand_mirror.md); not affected by turn_to_stone; not reached stage 15 of [A quick glance](../quests/quick_glance.md#stage-15); not reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20)
+    - **Gives:** applies condition turn_to_stone
+    - *“You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer…”*
+
+    **Way 2:** Stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)
+
+    - **Needs:** not killed 1× [Ancient basilisk](../monsters/old_basilisk.md); not wearing [Hand mirror](../items/hand_mirror.md); not affected by turn_to_stone
+    - **Gives:** applies condition turn_to_stone
+    - *“You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer…”*
+
+    **Way 3:** Stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md)
+
+    - **Needs:** reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20); not reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -122,6 +143,7 @@ description: "quick_glance_hidden_position is a hidden quest in Andor's Trail, s
     | | |
     |---|---|
     | Quest ID | `quick_glance_hidden_position` |
+    | Name in game data | `quick_glance_hidden_position` |
     | showInLog | 0 |
     | Stage IDs | 100, 110 |
     | Dialogue nodes setting stages | 110: `basiliskcave2_warn`, 110: `basiliskcave2_warn_hint`, 110: `basiliskcave2_check_turntostone_20` |

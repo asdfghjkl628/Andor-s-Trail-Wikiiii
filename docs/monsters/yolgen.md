@@ -4,7 +4,7 @@ description: "Yolgen is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Yolgen
 
-**Where to find Yolgen:** Stoutford: [stoutford_church](../maps/stoutford_church.md#pin-npc-yolgen)
+**Where to find Yolgen:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-yolgen)
 
 <div class="infobox" markdown>
 
@@ -37,11 +37,11 @@ description: "Yolgen is a non-player character (NPC) in Andor's Trail, found in 
 - [Rumblings](../quests/rumblings.md): stages 20, 80
 - [Search for Andor](../quests/andor.md): stage 85
 - [Stoutford's old castle](../quests/stoutford_castle.md): stages 10, 12, 20, 30, 42, 50, 60, 70
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 180, 190
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stages 180, 190
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Yolgen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Yolgen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/yolgen_0.json" data-npc="Yolgen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (67 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-yolgen_0"></span>**`yolgen_0`** *(silent check: the first matching branch below is taken)*
 
@@ -63,11 +63,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Shadow be with you.” → *conversation ends*
     - “Whatever.” → *conversation ends*
-    - “Tahalendor told me that you may have items to trade.” *(if reached stage 23 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-23))* → *shop opens*
+    - “Tahalendor told me that you may have items to trade.” *(if reached stage 23 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-23))* → *shop opens*
     - “What can you tell me about the area around here?” → [yolgen_surroundings_0](#d-yolgen_surroundings_0)
     - “I have dealt with Erwyn's army.” *(if reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70))* → [yolgen_castle_1](#d-yolgen_castle_1)
     - “I cleared Flagstone of an evil demon.” *(if reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_flagstone_10](#d-yolgen_flagstone_10)
-    - “Is there anything I can do to help?” *(if reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_task_0](#d-yolgen_task_0)
+    - “Is there anything I can do to help?” *(if reached stage 180 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-180); reached stage 190 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_task_0](#d-yolgen_task_0)
     - “I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.” *(if reached stage 50 of [Troubling times](../quests/troubling_times.md#stage-50); NOT reached stage 70 of [Troubling times](../quests/troubling_times.md#stage-70))* → [tt_yolgen_10](#d-tt_yolgen_10)
 
     <span id="d-yolgen_rumblings50_0"></span>**`yolgen_rumblings50_0`** Yolgen: “Hello again. Have you found anything about what is causing the noises in the church? It seems they have stopped.”
@@ -98,7 +98,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-yolgen_castle_1"></span>**`yolgen_castle_1`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 40 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-40))* → [yolgen_castle_2](#d-yolgen_castle_2)
-    - branch 2 *(if reached stage 46 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-46))* → [yolgen_castle_1_1a](#d-yolgen_castle_1_1a)
+    - branch 2 *(if reached stage 46 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-46))* → [yolgen_castle_1_1a](#d-yolgen_castle_1_1a)
     - branch 3 *(if killed 2× [Erwyn's soldier](../monsters/erwyn_soldier.md))* → [yolgen_castle_1_1b](#d-yolgen_castle_1_1b)
     - branch 4 → [yolgen_castle_1_1c](#d-yolgen_castle_1_1c)
 
@@ -109,10 +109,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-yolgen_task_0"></span>**`yolgen_task_0`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 10 of [stoutford_reinforcements (hidden flag)](../quests/stoutford_reinforcements.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
+    - branch 1 *(if NOT reached stage 10 of stoutford reinforcements (flag not defined in the game data); reached stage 10 of not yet realized (flag not defined in the game data))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
     - branch 2 *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
     - branch 3 *(if NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
-    - branch 4 *(if NOT reached stage 10 of [prim_tunnel (hidden flag)](../quests/prim_tunnel.md#stage-10); reached stage 10 of [not_yet_realized (hidden flag)](../quests/not_yet_realized.md#stage-10))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
+    - branch 4 *(if NOT reached stage 10 of prim tunnel (flag not defined in the game data); reached stage 10 of not yet realized (flag not defined in the game data))* → [yolgen_task_0_2](#d-yolgen_task_0_2)
     - branch 5 *(if NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100))* → [yolgen_task_0_2_1](#d-yolgen_task_0_2_1)
     - branch 6 *(if NOT reached stage 50 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-50); NOT reached stage 60 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-60); NOT reached stage 70 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-70))* → [yolgen_task_0_2_2](#d-yolgen_task_0_2_2)
     - branch 7 → [yolgen_task_0_1](#d-yolgen_task_0_1)
@@ -132,7 +132,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Who?” → [yolgen_rumblings10_2](#d-yolgen_rumblings10_2)
 
-    <span id="d-yolgen_surroundings_1"></span>**`yolgen_surroundings_1`** Yolgen: “Flagstone Prison was built four hundred years ago by house Gorland of Stoutford, and was used until the Noble Wars, when the house was vanquished by its enemies. They mostly used it to detain people that were worshipping the "old gods".” — **effects:** sets stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190)
+    <span id="d-yolgen_surroundings_1"></span>**`yolgen_surroundings_1`** Yolgen: “Flagstone Prison was built four hundred years ago by house Gorland of Stoutford, and was used until the Noble Wars, when the house was vanquished by its enemies. They mostly used it to detain people that were worshipping the "old gods".” — **effects:** sets stage 190 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-190)
 
     - Next → [yolgen_surroundings_1a](#d-yolgen_surroundings_1a)
 
@@ -168,8 +168,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-yolgen_task_0_2"></span>**`yolgen_task_0_2`** Yolgen: “Well, you look a bit young. But I guess we could still make use of you in these dark times. Let me think about some tasks I can offer you.”
 
-    - “What about the undead in the castle?” *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); reached stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180))* → [yolgen_castle_0](#d-yolgen_castle_0)
-    - “What about Flagstone prison?” *(if NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5); NOT reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100); reached stage 190 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
+    - “What about the undead in the castle?” *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); reached stage 180 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-180))* → [yolgen_castle_0](#d-yolgen_castle_0)
+    - “What about Flagstone prison?” *(if NOT reached stage 5 of [Ancient secrets](../quests/flagstone.md#stage-5); NOT reached stage 60 of [Ancient secrets](../quests/flagstone.md#stage-60); NOT reached stage 100 of [Ancient secrets](../quests/flagstone.md#stage-100); reached stage 190 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-190))* → [yolgen_flagstone_0](#d-yolgen_flagstone_0)
     - “OK, bye.” → *conversation ends*
 
     <span id="d-yolgen_task_0_2_1"></span>**`yolgen_task_0_2_1`** Yolgen: “Could you help with Flagstone?”
@@ -286,7 +286,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [yolgen_1a](#d-yolgen_1a)
 
-    <span id="d-yolgen_surroundings_2c"></span>**`yolgen_surroundings_2c`** Yolgen: “However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. There are rumors that the mines are once gain being worked. If true, that is very foolish, and dangerous. With the rise…” — **effects:** sets stage 180 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-180)
+    <span id="d-yolgen_surroundings_2c"></span>**`yolgen_surroundings_2c`** Yolgen: “However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. There are rumors that the mines are once gain being worked. If true, that is very foolish, and dangerous. With the rise…” — **effects:** sets stage 180 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-180)
 
     - “That sounds dreadful. Can I help you with the castle?” *(if NOT reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10))* → [yolgen_castle_0](#d-yolgen_castle_0)
     - “Is there anything I could do to help?” → [yolgen_task_0](#d-yolgen_task_0)

@@ -39,7 +39,7 @@ description: "Strange looking helmet is a quest headwear, metal (light) in Andor
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) during [The dark protector](../quests/darkprotector.md#stage-10) (100%)
+- From reading a sign on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) during [The dark protector](../quests/darkprotector.md#stage-10) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -50,8 +50,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | [The dark protector](../quests/darkprotector.md#stage-30) | handed over (1×) | “Here is the helmet and the heart.” |
-| reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | [The dark protector](../quests/darkprotector.md#stage-65) | handed over (1×) | “Place the helmet in front of the shrine” |
+| [Ulirfendor](../monsters/ulirfendor.md) ([Waytobrimhavencave 4](../maps/waytobrimhavencave4.md)) | [The dark protector](../quests/darkprotector.md#stage-30) | handed over (1×) | “Here is the helmet and the heart.” |
+| reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | [The dark protector](../quests/darkprotector.md#stage-65) | handed over (1×) | “Place the helmet in front of the shrine” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

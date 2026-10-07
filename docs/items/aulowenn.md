@@ -27,7 +27,7 @@ description: "Aulowenn's signet ring is a quest other in Andor's Trail. How to g
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | lodar13 |
+| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | Lodar 13 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-41) | handed over (1×) | “I've dealt with Aulowenn for you.” |
+| [Tiqui](../monsters/tiqui.md) ([Lodar 14](../maps/lodar14.md)) | [No rest for the guilty](../quests/lodar13_rest.md#stage-41) | handed over (1×) | “I've dealt with Aulowenn for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

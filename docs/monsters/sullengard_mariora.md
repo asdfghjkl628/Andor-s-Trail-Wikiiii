@@ -4,7 +4,7 @@ description: "Mariora is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_223.png){ .sprite } Mariora
 
-**Where to find Mariora:** Sullengard: [sullengard2_garden_house](../maps/sullengard2_garden_house.md#pin-npc-sullengard_mariora)
+**Where to find Mariora:** Sullengard: [Sullengard 2 garden house](../maps/sullengard2_garden_house.md#pin-npc-sullengard_mariora)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Mariora is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mariora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mariora. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_mariora_0.json" data-npc="Mariora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_mariora_0"></span>**`sullengard_mariora_0`** Mariora: “Hello. Isn't Sullengard a beautiful town?”
 

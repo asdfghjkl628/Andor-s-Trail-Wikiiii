@@ -25,7 +25,7 @@ description: "Key for Adakin's chest is a quest other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothmanor0](../maps/laerothmanor0.md) during [The last lord of Laeroth](../quests/last_lord.md#stage-40) (1×)
+- From stepping on a trigger on [Laerothmanor 0](../maps/laerothmanor0.md) during [The last lord of Laeroth](../quests/last_lord.md#stage-40) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) | [The last lord of Laeroth](../quests/last_lord.md#stage-50) | handed over (1×) | “N” |
+| stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) | [The last lord of Laeroth](../quests/last_lord.md#stage-50) | handed over (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Defy is an NPC who can also be fought in Andor's Trail, found in Sullengard, aidem_base_2, aidem_camp, Fallhaven, Blackwater Mountain."
+description: "Defy is an NPC who can also be fought in Andor's Trail, found in Sullengard, Aidem base 2, Aidem camp, Fallhaven, Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } Defy
@@ -11,7 +11,7 @@ description: "Defy is an NPC who can also be fought in Andor's Trail, found in S
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Sullengard, aidem_base_2, aidem_camp, Fallhaven, Blackwater Mountain |
+| **Found in** | Sullengard, Aidem base 2, Aidem camp, Fallhaven, Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 359 |
 | **XP when defeated** | 851 |
@@ -21,21 +21,21 @@ description: "Defy is an NPC who can also be fought in Andor's Trail, found in S
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Defy. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Defy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`g04_defy`](#v-g04_defy) | NPC | Sullengard: [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy) | – | – |
-| [`aidem_base_defy`](#v-aidem_base_defy) | NPC/Enemy | [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy) | – | 359 |
-| [`aidem_camp_defy`](#v-aidem_camp_defy) | NPC | [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy) | – | – |
-| [`aidem_jail_defy`](#v-aidem_jail_defy) | Enemy | Fallhaven: [guildbrig2](../maps/guildbrig2.md) | – | 1 |
-| [`defy_wild6house`](#v-defy_wild6house) | NPC | Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-defy_wild6house) | – | – |
+| [`g04_defy`](#v-g04_defy) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy) | – | – |
+| [`aidem_base_defy`](#v-aidem_base_defy) | NPC/Enemy | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy) | – | 359 |
+| [`aidem_camp_defy`](#v-aidem_camp_defy) | NPC | [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy) | – | – |
+| [`aidem_jail_defy`](#v-aidem_jail_defy) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`defy_wild6house`](#v-defy_wild6house) | NPC | Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house) | – | – |
 
 ## Sullengard, Sullengard tavern basement (g04_defy) { #v-g04_defy }
 
 **Entry ID:** `g04_defy` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy)
+**Location:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy)
 
 ### Quests
 
@@ -43,7 +43,7 @@ description: "Defy is an NPC who can also be fought in Andor's Trail, found in S
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Defy. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Defy. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guild04_defy.json" data-npc="Defy" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-g04_defy-guild04_defy"></span>**`guild04_defy`** *(silent check: the first matching branch below is taken)*
 
@@ -127,7 +127,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `aidem_base_defy` · **Type:** NPC/Enemy
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -168,11 +168,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
+- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
 
 ### Quests
 
@@ -180,7 +180,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Defy. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Defy. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_base_defy_selector.json" data-npc="Defy" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -188,7 +188,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_base_defy-aidem_base_defy_selector"></span>**`aidem_base_defy_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -294,7 +294,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `aidem_camp_defy` · **Type:** NPC
 
-**Location:** [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy)
+**Location:** [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy)
 
 ### Quests
 
@@ -302,7 +302,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Defy. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Defy. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_camp_defy_10.json" data-npc="Defy" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -310,7 +310,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (33 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_camp_defy-aidem_camp_defy_10"></span>**`aidem_camp_defy_10`** Defy: “Oh, how interesting your timing is.”
 
@@ -496,11 +496,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Guildbrig2 (aidem_jail_defy) { #v-aidem_jail_defy }
+## Fallhaven, Guildbrig 2 (aidem_jail_defy) { #v-aidem_jail_defy }
 
 **Entry ID:** `aidem_jail_defy` · **Type:** Enemy
 
-**Location:** Fallhaven: [guildbrig2](../maps/guildbrig2.md)
+**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 ### Combat statistics
 
@@ -528,7 +528,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guildbrig2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
 
 
 ### Version history
@@ -565,11 +565,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Wild6 house (defy_wild6house) { #v-defy_wild6house }
+## Blackwater Mountain, Wild 6 house (defy_wild6house) { #v-defy_wild6house }
 
 **Entry ID:** `defy_wild6house` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-defy_wild6house)
+**Location:** Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house)
 
 ### Quests
 
@@ -577,7 +577,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Defy. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Defy. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/defy_wild6house_selector.json" data-npc="Defy" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -585,7 +585,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-defy_wild6house-defy_wild6house_selector"></span>**`defy_wild6house_selector`** *(silent check: the first matching branch below is taken)*
 

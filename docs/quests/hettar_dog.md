@@ -11,9 +11,9 @@ description: "Where is Norry? is a quest in Andor's Trail, started by Little Het
 | **Quest ID** | `hettar_dog` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 80, 90) |
-| **Started by** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) |
+| **Started by** | [Little Hettar](../monsters/hettar.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) |
 | **NPCs involved** | [Little Hettar](../monsters/hettar.md), [Wolfhound](../monsters/hettar_dog.md) |
-| **Locations** | [blackwater_mountain55](../maps/blackwater_mountain55.md) |
+| **Locations** | [Blackwater mountain 55](../maps/blackwater_mountain55.md) |
 | **Total XP** | 2,200 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Where is Norry? is a quest in Andor's Trail, started by Little Het
 
 ## Prerequisites to start
 
-None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) to begin.
+None: talk to [Little Hettar](../monsters/hettar.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -36,53 +36,104 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [hettar_dog_nd (hidden flag)](hettar_dog_nd.md#stage-2) | stage 2 reached, for stage 40 here |
+| Requires | [Hettar dog story flags (hidden flag)](hettar_dog_nd.md#stage-2) | stage 2 reached, for stage 40 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I found Hettar, a tough boy about my age, on top of Blackwater mountain. He kept calling for a certain Norry. | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | – | – |
-| <span id="stage-20"></span>20 | Hettar's little dog Norry has run away. He was very anxious to find him. I promised to get Norry back. | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | – | removes monsters from blackwater_mountain55<br>spawns monsters on blackwater_mountain55 |
-| <span id="stage-30"></span>30 | Hettar has given me a piece of Norry's favorite food. | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 20 | gives 1× [Wyrm meat](../items/hettar_bone.md) |
-| <span id="stage-40"></span>40 | I have offered Hettar's piece of Wyrm meat to Norry, who took it eagerly. | [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | hand over 1× [Wyrm meat](../items/hettar_bone.md) | sets stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) |
-| <span id="stage-50"></span>50 | Norry ran off to reunite with Hettar. | [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 40 | removes monsters from blackwater_mountain55<br>spawns monsters on blackwater_mountain55 |
-| <span id="stage-80"></span>80 | Hettar thanked me a thousand times for my help in finding Norry. **(completes quest)** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 50 | 2,000 XP |
-| <span id="stage-90"></span>90 | I explained to Hettar that I killed Norry. Hettar broke down on the floor in agony. **(completes quest)** | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | stage 30 | 200 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I found Hettar, a tough boy about my age, on top of Blackwater… ▸</span><span class="l">▴ less</span></summary>I found Hettar, a tough boy about my age, on top of Blackwater mountain. He kept calling for a certain Norry.</details> | [Little Hettar](../monsters/hettar.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Hettar's little dog Norry has run away. He was very anxious to find… ▸</span><span class="l">▴ less</span></summary>Hettar's little dog Norry has run away. He was very anxious to find him. I promised to get Norry back.</details> | [Little Hettar](../monsters/hettar.md) | removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55 |
+| <span id="stage-30"></span>[30](#route-30) | Hettar has given me a piece of Norry's favorite food. | [Little Hettar](../monsters/hettar.md) | 1× [Wyrm meat](../items/hettar_bone.md) |
+| <span id="stage-40"></span>[40](#route-40) | I have offered Hettar's piece of Wyrm meat to Norry, who took it eagerly. | [Wolfhound](../monsters/hettar_dog.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | Norry ran off to reunite with Hettar. | [Wolfhound](../monsters/hettar_dog.md) | removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55 |
+| <span id="stage-80"></span>[80](#route-80) | Hettar thanked me a thousand times for my help in finding Norry. **(ends quest)** | [Little Hettar](../monsters/hettar.md) | 2,000 XP |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">I explained to Hettar that I killed Norry. Hettar broke down on the… ▸</span><span class="l">▴ less</span></summary>I explained to Hettar that I killed Norry. Hettar broke down on the floor in agony.</details> **(ends quest)** | [Little Hettar](../monsters/hettar.md) | 200 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Who is Norry?” → **stage 10**. NPC: “Norry is my little doggie. He fell down the steep slope and has not found his way back yet.”
+??? note "Stage 10 · Little Hettar · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Little Hettar](../monsters/hettar.md), choose “Who is Norry?”
 
-    1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “OK, I'll do it.” — **conditions:** reached stage 20 of [Where is Norry?](../quests/hettar_dog.md#stage-20); NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3) → **stage 20**; also removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55. NPC: “Great! Go immediately, as long as he might be alive still.”
+    - *“Norry is my little doggie. He fell down the steep slope and has not found his way back yet.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “I hope he will follow me.” — **conditions:** reached stage 20 of [Where is Norry?](../quests/hettar_dog.md#stage-20); NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3); NOT reached stage 30 of [Where is Norry?](../quests/hettar_dog.md#stage-30) → **stage 30**; also gives 1× [Wyrm meat](../items/hettar_bone.md). NPC: “Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves…”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Little Hettar · 1 way"
 
-    1. Talk to [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Hey Norry, look here! I have some much better food for you from Hettar.” — **conditions:** hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 40**; also sets stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2). NPC: “The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.”
+    **Way 1:** Talk to [Little Hettar](../monsters/hettar.md), choose “OK, I'll do it.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 20; not killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3)
+    - **Gives:** removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55
+    - *“Great! Go immediately, as long as he might be alive still.”*
 
-    1. Talk to [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Now run to Hettar! He is waiting for you.” — **conditions:** reached stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40) → **stage 50**; also removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55. NPC: “A moment later the huge wolfhound was gone.”
 
-???+ note "Stage 80: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.” — **conditions:** reached stage 50 of [Where is Norry?](../quests/hettar_dog.md#stage-50) → **stage 80**. NPC: “Oh. Thank you then.”
+??? note "Stage 30 · Little Hettar · 1 way"
 
-???+ note "Stage 90: 1 route"
+    **Way 1:** Talk to [Little Hettar](../monsters/hettar.md), choose “I hope he will follow me.”
 
-    1. Talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “This brute attacked me, so I had to kill it.” — **conditions:** reached stage 30 of [Where is Norry?](../quests/hettar_dog.md#stage-30); killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3) → **stage 90**. NPC: “[Hettar fell on the floor] Nooo! What did you do?!”
+    - **Needs:** stage 20; not yet stage 30; not killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3)
+    - **Gives:** 1× [Wyrm meat](../items/hettar_bone.md)
+    - *“Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Wolfhound · 1 way"
+
+    **Way 1:** Talk to [Wolfhound](../monsters/hettar_dog.md), choose “Hey Norry, look here! I have some much better food for you from Hettar.”
+
+    - **Needs:** hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2)
+    - <small>Also: sets stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2)</small>
+    - *“The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Wolfhound · 1 way"
+
+    **Way 1:** Talk to [Wolfhound](../monsters/hettar_dog.md), choose “Now run to Hettar! He is waiting for you.”
+
+    - **Needs:** stage 40
+    - **Gives:** removes monsters from blackwater_mountain55, spawns monsters on blackwater_mountain55
+    - *“A moment later the huge wolfhound was gone.”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Little Hettar · 1 way"
+
+    **Way 1:** Talk to [Little Hettar](../monsters/hettar.md), choose “Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.”
+
+    - **Needs:** stage 50
+    - *“Oh. Thank you then.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Little Hettar · 1 way"
+
+    **Way 1:** Talk to [Little Hettar](../monsters/hettar.md), choose “This brute attacked me, so I had to kill it.”
+
+    - **Needs:** stage 30; killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3)
+    - *“[Hettar fell on the floor] Nooo! What did you do?!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

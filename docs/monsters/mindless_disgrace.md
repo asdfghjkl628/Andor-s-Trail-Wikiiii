@@ -1,10 +1,10 @@
 ---
-description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 HP, worth 740 XP, found in haunted_house, haunted_house_basement, haunted_underground_1. Drops: Gold coins, Tonic of blood, Death mace."
+description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 HP, worth 740 XP, found in Haunted house, Haunted house basement, Haunted underground 1. Drops: Gold coins, Tonic of blood, Death mace."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_21.png){ .sprite } Mindless disgrace
 
-**Found in:** [haunted_house](../maps/haunted_house.md), [haunted_house_basement](../maps/haunted_house_basement.md), [haunted_underground_1](../maps/haunted_underground_1.md), [haunted_underground_3](../maps/haunted_underground_3.md) (+1 more)
+**Found in:** [Haunted house](../maps/haunted_house.md), [Haunted house basement](../maps/haunted_house_basement.md), [Haunted underground 1](../maps/haunted_underground_1.md), [Haunted underground 3](../maps/haunted_underground_3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_house, haunted_house_basement, haunted_underground_1 |
+| **Found in** | Haunted house, Haunted house basement, Haunted underground 1 |
 | **Class** | Undead |
 | **HP** | 275 |
 | **XP when defeated** | 740 |
@@ -58,11 +58,11 @@ description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_house](../maps/haunted_house.md) | – | 2 | – |
-| [haunted_house_basement](../maps/haunted_house_basement.md) | – | 5 | – |
-| [haunted_underground_1](../maps/haunted_underground_1.md) | – | 1 | – |
-| [haunted_underground_3](../maps/haunted_underground_3.md) | – | 1 | – |
-| [haunted_underground_4](../maps/haunted_underground_4.md) | – | 2 | – |
+| [Haunted house](../maps/haunted_house.md) | – | 2 | – |
+| [Haunted house basement](../maps/haunted_house_basement.md) | – | 5 | – |
+| [Haunted underground 1](../maps/haunted_underground_1.md) | – | 1 | – |
+| [Haunted underground 3](../maps/haunted_underground_3.md) | – | 1 | – |
+| [Haunted underground 4](../maps/haunted_underground_4.md) | – | 2 | – |
 
 
 ## Version history

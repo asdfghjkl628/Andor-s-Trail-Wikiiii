@@ -4,7 +4,7 @@ description: "Audela is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_gisons_15.png){ .sprite } Audela
 
-**Where to find Audela:** Lake Laeroth: [laerothtomb1](../maps/laerothtomb1.md#pin-npc-audela)
+**Where to find Audela:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-audela)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Audela is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Audela. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Audela. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/audela_0.json" data-npc="Audela" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-audela_0"></span>**`audela_0`** [Audela](../monsters/audela.md): “Why did you summon me? I was finally at rest, after spending years directing my husband about what he needed to do each day.”
 

@@ -37,7 +37,7 @@ description: "Cave fern is a rare food in Andor's Trail. How to get it: containe
 
 ### Found in containers
 
-- [elm_4f_4](../maps/elm_4f_4.md#container-0) (container 1, 100%)
+- [Elm 4f 4](../maps/elm_4f_4.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

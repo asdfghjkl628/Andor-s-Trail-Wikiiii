@@ -4,7 +4,7 @@ description: "Shady bandit is an NPC who can also be fought in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Shady bandit
 
-**Where to find Shady bandit:** Fallhaven: [fallhaven_se](../maps/fallhaven_se.md#pin-npc-shady_bandit), Fallhaven: [wild10](../maps/wild10.md#pin-npc-shady_bandit), Fallhaven: [wild12](../maps/wild12.md#pin-npc-shady_bandit), Fallhaven: [wild9](../maps/wild9.md#pin-npc-shady_bandit)
+**Where to find Shady bandit:** Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-shady_bandit), Fallhaven: [Wild 10](../maps/wild10.md#pin-npc-shady_bandit), Fallhaven: [Wild 12](../maps/wild12.md#pin-npc-shady_bandit), Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-shady_bandit)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Shady bandit is an NPC who can also be fought in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_se](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
-| [wild10](../maps/wild10.md) | Fallhaven | 1 | – |
-| [wild12](../maps/wild12.md) | Fallhaven | 1 | – |
-| [wild9](../maps/wild9.md) | Fallhaven | 1 | – |
+| [Fallhaven south-east](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
+| [Wild 10](../maps/wild10.md) | Fallhaven | 1 | – |
+| [Wild 12](../maps/wild12.md) | Fallhaven | 1 | – |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shady bandit. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shady bandit. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_bandit.json" data-npc="Shady bandit" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_bandit"></span>**`fallhaven_bandit`** Shady bandit: “Get lost kid. I don't have time for you.”
 

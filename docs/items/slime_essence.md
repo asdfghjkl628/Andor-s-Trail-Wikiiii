@@ -26,7 +26,7 @@ description: "Slime essence is a ordinary other in Andor's Trail. How to get it:
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Spotted tentaslime](../monsters/spotted_tentaslime.md) | 2% | 1 | gamjee_well_1_1, gamjee_well_2_1, gamjee_well_3_1 |
+| [Spotted tentaslime](../monsters/spotted_tentaslime.md) | 2% | 1 | Gamjee well 1 1, Gamjee well 2 1, Gamjee well 3 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

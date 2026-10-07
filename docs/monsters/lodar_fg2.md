@@ -4,7 +4,7 @@ description: "Rambling Feygard guard is a non-player character (NPC) in Andor's 
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Rambling Feygard guard
 
-**Where to find Rambling Feygard guard:** Loneford: [lodar2](../maps/lodar2.md#pin-npc-lodar_fg2)
+**Where to find Rambling Feygard guard:** Loneford: [Lodar 2](../maps/lodar2.md#pin-npc-lodar_fg2)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Rambling Feygard guard is a non-player character (NPC) in Andor's 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rambling Feygard guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rambling Feygard guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lodar_fg2.json" data-npc="Rambling Feygard guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lodar_fg2"></span>**`lodar_fg2`** *(silent check: the first matching branch below is taken)*
 
@@ -80,7 +80,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “(the guard continues with his mumbling)” → “[The guard continues with his mumbling]”<br>· text: “(the guard mumbles something that you can't understand)” → “[The guard mumbles something that you can't understand]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “(the guard mumbles something that you can't understand)” → “[The guard mumbles something that you can't understand]”<br>· text: “(the guard continues with his mumbling)” → “[The guard continues with his mumbling]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

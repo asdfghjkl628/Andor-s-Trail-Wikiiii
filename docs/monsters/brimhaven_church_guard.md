@@ -4,7 +4,7 @@ description: "Church guard is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Church guard
 
-**Where to find Church guard:** Brimhaven: [brimhaven_church](../maps/brimhaven_church.md#pin-npc-brimhaven_church_guard)
+**Where to find Church guard:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-brimhaven_church_guard)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Church guard is a non-player character (NPC) in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Church guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Church guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brimhaven_church_guard.json" data-npc="Church guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brimhaven_church_guard"></span>**`brimhaven_church_guard`** Church guard: “Stop! You are not allowed to go any further.”
 

@@ -4,7 +4,7 @@ description: "Flamejaw tunnelbeast is an enemy in Andor's Trail (reptile) with 2
 
 # ![](../assets/icons/monsters/monsters_newb_1_561.png){ .sprite } Flamejaw tunnelbeast
 
-**Found in:** Flagstone Prison: [lake_shore_road_5](../maps/lake_shore_road_5.md), Flagstone Prison: [rat_mountain_1](../maps/rat_mountain_1.md), Flagstone Prison: [rat_mountain_2](../maps/rat_mountain_2.md), Flagstone Prison: [rat_mountain_3](../maps/rat_mountain_3.md) (+1 more)
+**Found in:** Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md), Flagstone Prison: [Rat mountain 1](../maps/rat_mountain_1.md), Flagstone Prison: [Rat mountain 2](../maps/rat_mountain_2.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Flamejaw tunnelbeast is an enemy in Andor's Trail (reptile) with 2
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
-| [rat_mountain_1](../maps/rat_mountain_1.md) | Flagstone Prison | 4 | – |
-| [rat_mountain_2](../maps/rat_mountain_2.md) | Flagstone Prison | 3 | – |
-| [rat_mountain_3](../maps/rat_mountain_3.md) | Flagstone Prison | 2 | – |
-| [rat_mountain_6](../maps/rat_mountain_6.md) | – | 5 | – |
+| [Lake shore road 5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
+| [Rat mountain 1](../maps/rat_mountain_1.md) | Flagstone Prison | 4 | – |
+| [Rat mountain 2](../maps/rat_mountain_2.md) | Flagstone Prison | 3 | – |
+| [Rat mountain 3](../maps/rat_mountain_3.md) | Flagstone Prison | 2 | – |
+| [Rat mountain 6](../maps/rat_mountain_6.md) | – | 5 | – |
 
 
 ## Version history

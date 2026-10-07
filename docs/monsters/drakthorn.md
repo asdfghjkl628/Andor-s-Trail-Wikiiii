@@ -1,10 +1,10 @@
 ---
-description: "Drakthorn is an enemy in Andor's Trail (reptile) with 143 HP, worth 254 XP, found in island_underground2, island_underground3, island_underground4. Drops: Gold coins, Steel fauchard, Regular potion of health."
+description: "Drakthorn is an enemy in Andor's Trail (reptile) with 143 HP, worth 254 XP, found in Island underground 2, Island underground 3, Island underground 4. Drops: Gold coins, Steel fauchard, Regular potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_13.png){ .sprite } Drakthorn
 
-**Found in:** [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md), [island_underground4](../maps/island_underground4.md)
+**Found in:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Island underground 4](../maps/island_underground4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Drakthorn is an enemy in Andor's Trail (reptile) with 143 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | island_underground2, island_underground3, island_underground4 |
+| **Found in** | Island underground 2, Island underground 3, Island underground 4 |
 | **Class** | Reptile |
 | **HP** | 143 |
 | **XP when defeated** | 254 |
@@ -56,9 +56,9 @@ description: "Drakthorn is an enemy in Andor's Trail (reptile) with 143 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground2](../maps/island_underground2.md) | – | 13 | – |
-| [island_underground3](../maps/island_underground3.md) | – | 9 | – |
-| [island_underground4](../maps/island_underground4.md) | – | 5 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 13 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 9 | – |
+| [Island underground 4](../maps/island_underground4.md) | – | 5 | – |
 
 
 ## Version history

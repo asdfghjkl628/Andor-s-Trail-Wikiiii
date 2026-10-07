@@ -49,7 +49,7 @@ description: "Engraved steel helmet is a rare headwear, metal (heavy) in Andor's
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Ancient basilisk](../monsters/old_basilisk.md) | 100% | 1 | basiliskcave2 |
+| [Ancient basilisk](../monsters/old_basilisk.md) | 100% | 1 | Basiliskcave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

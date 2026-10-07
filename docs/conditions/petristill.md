@@ -30,9 +30,9 @@ description: "Petristill is a harmful physical condition in Andor's Trail: block
 | Block chance | −10 |
 | Damage resistance | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -49,14 +49,14 @@ Nothing in the game data applies this condition to you.
 |---|---|---|---|---|---|
 | [Kazaul statue](../monsters/dds_kazaul_statue.md) | On itself, when you hit it | 1 | 20 rounds | 100% | Mt. Galmore |
 | [Rock eater](../monsters/rock_eater.md) | On itself, when you hit it | 1 | 10 rounds | 100% | Mt. Galmore |
-| [Young rock eater](../monsters/young_rock_eater.md) | On itself, when you hit it | 1 | 5 rounds | 45% | undertell_12, undertell_13, undertell_14 |
+| [Young rock eater](../monsters/young_rock_eater.md) | On itself, when you hit it | 1 | 5 rounds | 45% | Undertell 12, Undertell 13, Undertell 14 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

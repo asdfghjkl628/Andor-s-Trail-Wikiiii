@@ -27,7 +27,7 @@ description: "Algangror's ring is a quest other in Andor's Trail. How to get it:
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Algangror](../monsters/algangror.md) | 100% | 1 | lonelyhouse0 |
+| [Algangror](../monsters/algangror.md) | 100% | 1 | Lonelyhouse 0 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | [What is that stench?](../quests/remgard2.md#stage-40) | handed over (1×) | “I have brought you her ring as proof that what I say is true.” |
+| [Jhaeld](../monsters/jhaeld.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) | [What is that stench?](../quests/remgard2.md#stage-40) | handed over (1×) | “I have brought you her ring as proof that what I say is true.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

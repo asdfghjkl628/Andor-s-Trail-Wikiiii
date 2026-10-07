@@ -4,7 +4,7 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_newb_1_213.png){ .sprite } Snapmaw
 
-**Found in:** Mt. Galmore: [galmore_25](../maps/galmore_25.md), [galmore_14](../maps/galmore_14.md), [galmore_15](../maps/galmore_15.md), [galmore_16](../maps/galmore_16.md) (+3 more)
+**Found in:** Mt. Galmore: [Galmore 25](../maps/galmore_25.md), [Galmore 14](../maps/galmore_14.md), [Galmore 15](../maps/galmore_15.md), [Galmore 16](../maps/galmore_16.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -52,13 +52,13 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_14](../maps/galmore_14.md) | – | 6 | – |
-| [galmore_15](../maps/galmore_15.md) | – | 10 | – |
-| [galmore_16](../maps/galmore_16.md) | – | 5 | – |
-| [galmore_25](../maps/galmore_25.md) | Mt. Galmore | 14 | – |
-| [galmore_26](../maps/galmore_26.md) | – | 13 | – |
-| [galmore_27](../maps/galmore_27.md) | – | 3 | – |
-| [galmore_37](../maps/galmore_37.md) | – | 8 | – |
+| [Galmore 14](../maps/galmore_14.md) | – | 6 | – |
+| [Galmore 15](../maps/galmore_15.md) | – | 10 | – |
+| [Galmore 16](../maps/galmore_16.md) | – | 5 | – |
+| [Galmore 25](../maps/galmore_25.md) | Mt. Galmore | 14 | – |
+| [Galmore 26](../maps/galmore_26.md) | – | 13 | – |
+| [Galmore 27](../maps/galmore_27.md) | – | 3 | – |
+| [Galmore 37](../maps/galmore_37.md) | – | 8 | – |
 
 
 ## Version history

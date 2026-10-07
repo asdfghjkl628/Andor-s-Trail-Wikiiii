@@ -43,7 +43,7 @@ description: "Lesser ring of block is a rare ring in Andor's Trail (Block chance
 
 - [Talion](../monsters/talion.md)
 - [Quiet thief](../monsters/stoutford_thief.md) (Stoutford)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

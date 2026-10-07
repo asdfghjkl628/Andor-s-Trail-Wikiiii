@@ -27,7 +27,7 @@ description: "Sturdy fence is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-150) (100%)
+- From [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([Loneford 2](../maps/loneford2.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-150) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | – | must be carried (10×) | “Here, I brought you fences.” |
+| [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) | – | must be carried (10×) | “Here, I brought you fences.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

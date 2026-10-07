@@ -12,7 +12,7 @@ description: "Guynmart wood 10 is an outdoor location in Andor's Trail, near Guy
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 9 |
 | **Enemy types** | 2 |
@@ -92,7 +92,7 @@ description: "Guynmart wood 10 is an outdoor location in Andor's Trail, near Guy
 - [Marble hunting](../quests/guynmart_marbles.md): [Golden marble](../monsters/guynmart_marble4.md) is involved; [Green marble](../monsters/guynmart_marble1.md) is involved; [Pearl white marble](../monsters/guynmart_marble5.md) is involved; [Pink marble](../monsters/guynmart_marble3.md) is involved; [Red marble](../monsters/guynmart_marble2.md) is involved; [Stuephant](../monsters/guynmart_child.md) is involved
 - [Rare delicacies](../quests/guynmart_wise.md): [Old man](../monsters/old_man.md#v-guynmart_wise) is involved
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): [Old man](../monsters/old_man.md#v-guynmart_wise) is involved; part of the map changes at stage 41; part of the map changes at stage 42; part of the map changes at stage 43; part of the map changes at stage 44; part of the map changes at stage 45; something on this map advances it; stepping on a trigger here sets stage 41; stepping on a trigger here sets stage 42; stepping on a trigger here sets stage 44; stepping on a trigger here sets stage 45
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): [Old man](../monsters/old_man.md#v-guynmart_wise) is involved; part of the map changes at stage 41; part of the map changes at stage 42; part of the map changes at stage 43; part of the map changes at stage 44; part of the map changes at stage 45; something on this map advances it; stepping on a trigger here sets stage 41; stepping on a trigger here sets stage 42; stepping on a trigger here sets stage 44; stepping on a trigger here sets stage 45
 
 ## Points of interest
 

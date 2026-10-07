@@ -1,5 +1,5 @@
 ---
-description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim. Enemies: Madame Mim. Exits to Swamp3."
+description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim. Enemies: Madame Mim. Exits to Swamp 3."
 ---
 
 # Swamp hut
@@ -19,20 +19,20 @@ description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim
 
 </div>
 
-**Swamp hut** is an indoor map. It has 1 NPC and 1 kind of enemy. Exits lead to Swamp3.
+**Swamp hut** is an indoor map. It has 1 NPC and 1 kind of enemy. Exits lead to Swamp 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/swamp_hut.webp" alt="Map of Swamp hut" width="352" height="320" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../swamp3/#place-hut" title="Exit to Swamp3" style="left:63.636%;top:90.000%;width:9.091%;height:10.000%"></a><a id="place-board" class="mo mo-mapchange" href="../swamp3/#place-hut2" title="Exit to Swamp3" style="left:81.818%;top:20.000%;width:9.091%;height:10.000%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:9.091%;top:80.000%;width:9.091%;height:10.000%"></a><a class="mo mo-script" href="../../quests/feygard_fog/#stage-9" title="Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 9 (“9=Fogs ended”) (+1 more quest(s))" style="left:9.091%;top:40.000%;width:81.818%;height:50.000%"></a><a class="mo mo-script" href="../../quests/feygard_fog/#stage-10" title="Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 10 (“10=Board”)" style="left:81.818%;top:30.000%;width:9.091%;height:10.000%"></a><a class="mo mo-key" href="../../quests/base_nondisplay/#stage-2" title="Unlocked during the quest: base_nondisplay (stage 2: “2=This stage is never set”)" style="left:9.091%;top:30.000%;width:36.364%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Madame Mim" style="left:18.182%;top:40.000%;width:72.727%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Madame Mim" style="left:90.909%;top:0.000%;width:9.091%;height:10.000%"></span><a class="mob" href="../../monsters/swamp_witch/" title="Madame Mim" style="left:54.545%;top:50.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld2_95.png" alt="Madame Mim"></a><a class="mob" href="../../monsters/swamp_witch/#v-swamp_witch_shop" title="Madame Mim" style="left:90.909%;top:0.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld2_95.png" alt="Madame Mim"></a><a class="pin pin-exit" href="#key-1" style="left:86.364%;top:25.000%" title="Exit (east): to [Swamp3](swamp3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:68.182%;top:95.000%" title="Exit (south): to [Swamp3](swamp3.md)">2</a><a id="pin-npc-swamp_witch" class="pin pin-npc" href="#key-3" style="left:59.091%;top:55.000%" title="[Madame Mim](../../monsters/swamp_witch.md): shopkeeper, 1 quest">3</a><a class="pin pin-container" href="#key-4" style="left:13.636%;top:85.000%" title="Container 1: Polished sparkling gem, Gold coins">4</a><a class="pin pin-script" href="#key-5" style="left:50.000%;top:65.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 9 (“9=Fogs ended”) (+1 more quest(s))">5</a><a class="pin pin-script" href="#key-6" style="left:86.364%;top:35.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 10 (“10=Board”)">6</a><a class="pin pin-key" href="#key-7" style="left:27.273%;top:35.000%" title="Blocked passage: Unlocked during the quest: base_nondisplay (stage 2: “2=This stage is never set”)">7</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/swamp_hut.webp" alt="Map of Swamp hut" width="352" height="320" loading="lazy"><a id="place-door" class="mo mo-mapchange" href="../swamp3/#place-hut" title="Exit to Swamp 3" style="left:63.636%;top:90.000%;width:9.091%;height:10.000%"></a><a id="place-board" class="mo mo-mapchange" href="../swamp3/#place-hut2" title="Exit to Swamp 3" style="left:81.818%;top:20.000%;width:9.091%;height:10.000%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:9.091%;top:80.000%;width:9.091%;height:10.000%"></a><a class="mo mo-script" href="../../quests/feygard_fog/#stage-9" title="Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 9 (“9=Fogs ended”) (+1 more quest(s))" style="left:9.091%;top:40.000%;width:81.818%;height:50.000%"></a><a class="mo mo-script" href="../../quests/feygard_fog/#stage-10" title="Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 10 (“10=Board”)" style="left:81.818%;top:30.000%;width:9.091%;height:10.000%"></a><a class="mo mo-key" href="../../quests/base_nondisplay/#stage-2" title="Unlocked during the quest: base_nondisplay (stage 2: “2=This stage is never set”)" style="left:9.091%;top:30.000%;width:36.364%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Madame Mim" style="left:18.182%;top:40.000%;width:72.727%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Madame Mim" style="left:90.909%;top:0.000%;width:9.091%;height:10.000%"></span><a class="mob" href="../../monsters/swamp_witch/" title="Madame Mim" style="left:54.545%;top:50.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld2_95.png" alt="Madame Mim"></a><a class="mob" href="../../monsters/swamp_witch/#v-swamp_witch_shop" title="Madame Mim" style="left:90.909%;top:0.000%;width:9.091%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld2_95.png" alt="Madame Mim"></a><a class="pin pin-exit" href="#key-1" style="left:86.364%;top:25.000%" title="Exit (east): to [Swamp 3](swamp3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:68.182%;top:95.000%" title="Exit (south): to [Swamp 3](swamp3.md)">2</a><a id="pin-npc-swamp_witch" class="pin pin-npc" href="#key-3" style="left:59.091%;top:55.000%" title="[Madame Mim](../../monsters/swamp_witch.md): shopkeeper, 1 quest">3</a><a class="pin pin-container" href="#key-4" style="left:13.636%;top:85.000%" title="Container 1: Polished sparkling gem, Gold coins">4</a><a class="pin pin-script" href="#key-5" style="left:50.000%;top:65.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 9 (“9=Fogs ended”) (+1 more quest(s))">5</a><a class="pin pin-script" href="#key-6" style="left:86.364%;top:35.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 10 (“10=Board”)">6</a><a class="pin pin-key" href="#key-7" style="left:27.273%;top:35.000%" title="Blocked passage: Unlocked during the quest: base_nondisplay (stage 2: “2=This stage is never set”)">7</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Swamp3](swamp3.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Swamp3](swamp3.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Swamp 3](swamp3.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Swamp 3](swamp3.md) |
     | <span id="key-3"></span>3 | [Madame Mim](../monsters/swamp_witch.md) | shopkeeper, 1 quest |
     | <span id="key-4"></span>4 | Container 1 | Polished sparkling gem, Gold coins |
     | <span id="key-5"></span>5 | Quest trigger | Scripted event: advances the quest: hidden story flag “feygard_fog” to stage 9 (“9=Fogs ended”) (+1 more quest(s)) |
@@ -46,8 +46,8 @@ description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Swamp3](swamp3.md) | Guynmart Castle | 1 |
-| South | [Swamp3](swamp3.md) | Guynmart Castle | 2 |
+| East | [Swamp 3](swamp3.md) | Guynmart Castle | 1 |
+| South | [Swamp 3](swamp3.md) | Guynmart Castle | 2 |
 
 ## NPCs
 
@@ -71,7 +71,7 @@ description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim
 
 - [base_nondisplay](../quests/base_nondisplay.md): blocked passage opens at stage 2
 - [Fog in the woods](../quests/fogmonster.md): [Madame Mim](../monsters/swamp_witch.md) is involved; something on this map advances it; stepping on a trigger here sets stage 70
-- [feygard fog (hidden flag)](../quests/feygard_fog.md): [Madame Mim](../monsters/swamp_witch.md) is involved; something on this map advances it; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 9
+- [Feygard fog (hidden flag)](../quests/feygard_fog.md): [Madame Mim](../monsters/swamp_witch.md) is involved; something on this map advances it; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 9
 
 ## Points of interest
 

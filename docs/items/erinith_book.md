@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-30) | handed over (1×) | “Yes, here is your book.” |
+| [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-30) | handed over (1×) | “Yes, here is your book.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

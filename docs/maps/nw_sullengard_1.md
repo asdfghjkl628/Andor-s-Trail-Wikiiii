@@ -1,5 +1,5 @@
 ---
-description: "Nw sullengard 1 is an outdoor location in Andor's Trail. NPCs: Favlon. Enemies: Red tree ant, Cyclopea creeper, Crimoculus Cyclopea creeper. Exits to Way to sullengard west 4."
+description: "Nw sullengard 1 is an outdoor location in Andor's Trail. NPCs: Favlon. Enemies: Red tree ant, Crimoculus Cyclopea creeper, Cyclopea creeper. Exits to Way to sullengard west 4."
 ---
 
 # Nw sullengard 1
@@ -11,7 +11,7 @@ description: "Nw sullengard 1 is an outdoor location in Andor's Trail. NPCs: Fav
 | **Map ID** | `nw_sullengard_1` |
 | **Type** | Outdoors |
 | **Size** | 28×14 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 3 |
@@ -52,8 +52,8 @@ description: "Nw sullengard 1 is an outdoor location in Andor's Trail. NPCs: Fav
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Red tree ant](../monsters/red_tree_ant.md) | 131 | 12–15 | 9 | – |
-| [Cyclopea creeper](../monsters/cyclopea_creeper.md) | 245 | 5–7 | 2 | – |
 | [Crimoculus Cyclopea creeper](../monsters/agg_cyclopea_creeper.md) | 245 | 6–6 | 9 | – |
+| [Cyclopea creeper](../monsters/cyclopea_creeper.md) | 245 | 5–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

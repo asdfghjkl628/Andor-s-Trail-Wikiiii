@@ -27,9 +27,9 @@ description: "Concussion is a harmful physical condition in Andor's Trail: attac
 |---|---|
 | Attack chance | −30 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,17 +40,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Gamjee](../monsters/gamjee.md) | When it hits you | 1 | 2 rounds | 5% | gamjee_well_4_1 |
+| [Gamjee](../monsters/gamjee.md) | When it hits you | 1 | 2 rounds | 5% | Gamjee well 4 1 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [elm_mine5](../maps/elm_mine5.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-30) | 5 rounds |
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-1) | 10 rounds |
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | 10 rounds |
-| walking into a blocked passage on [galmore_33](../maps/galmore_33.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-50) | 10 rounds |
-| walking into a blocked passage on [brightport_cave6](../maps/brightport_cave6.md), walking into a blocked passage on [brightport_cave20](../maps/brightport_cave20.md) | – | 3 rounds |
+| stepping on a trigger on [Elm mine 5](../maps/elm_mine5.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-30) | 5 rounds |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-1) | 10 rounds |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | 10 rounds |
+| walking into a blocked passage on [Galmore 33](../maps/galmore_33.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-50) | 10 rounds |
+| walking into a blocked passage on [Brightport cave 6](../maps/brightport_cave6.md), walking into a blocked passage on [Brightport cave 20](../maps/brightport_cave20.md) | – | 3 rounds |
 
 ## Applied to enemies
 
@@ -71,16 +71,16 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Immunity** from [Spiritbane potion](../items/spiritbane_potion.md) (when used; 6 rounds).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 ## Checked in dialogue
 
-- stepping on a trigger on [gamjee_well_1_1](../maps/gamjee_well_1_1.md) ([Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-2)) checks whether you have this condition.
-- stepping on a trigger on [gamjee_well_1_1](../maps/gamjee_well_1_1.md) ([Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-3)) checks whether you do not have this condition.
+- stepping on a trigger on [Gamjee well 1 1](../maps/gamjee_well_1_1.md) ([Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-2)) checks whether you have this condition.
+- stepping on a trigger on [Gamjee well 1 1](../maps/gamjee_well_1_1.md) ([Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-3)) checks whether you do not have this condition.
 
 
 ## Community notes

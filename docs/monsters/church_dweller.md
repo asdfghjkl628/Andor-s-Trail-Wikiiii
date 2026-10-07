@@ -4,7 +4,7 @@ description: "Church dweller is an enemy in Andor's Trail (insect) with 98 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_525.png){ .sprite } Church dweller
 
-**Found in:** Remgard: [island_underground1](../maps/island_underground1.md), [island_underground4](../maps/island_underground4.md)
+**Found in:** Remgard: [Island underground 1](../maps/island_underground1.md), [Island underground 4](../maps/island_underground4.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Church dweller is an enemy in Andor's Trail (insect) with 98 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground1](../maps/island_underground1.md) | Remgard | 4 | – |
-| [island_underground4](../maps/island_underground4.md) | – | 3 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 4 | – |
+| [Island underground 4](../maps/island_underground4.md) | – | 3 | – |
 
 
 ## Version history

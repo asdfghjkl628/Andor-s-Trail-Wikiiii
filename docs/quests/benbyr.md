@@ -11,9 +11,9 @@ description: "Cheap cuts is a quest in Andor's Trail, started by Benbyr (crossro
 | **Quest ID** | `benbyr` |
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30, 60) |
-| **Started by** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
-| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md#v-lostsheep1) |
-| **Locations** | [crossroads](../maps/crossroads.md), [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md) |
+| **Started by** | [Benbyr](../monsters/benbyr.md) ([Crossroads](../maps/crossroads.md)) |
+| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3) |
+| **Locations** | [Crossroads](../maps/crossroads.md), [Fields 1](../maps/fields1.md), [Fields 2](../maps/fields2.md), [Fields 3](../maps/fields3.md) |
 | **Total XP** | 900 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Cheap cuts is a quest in Andor's Trail, started by Benbyr (crossro
 
 ## Prerequisites to start
 
-Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)). Required:
+Start with [Benbyr](../monsters/benbyr.md) ([Crossroads](../maps/crossroads.md)). Required:
 
 - reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
 
@@ -48,43 +48,90 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I have met Benbyr outside the Crossroads guardhouse. He wants to get revenge on an old 'business partner' of his - Tinlyn. Benbyr wants me to kill all Tinlyn's sheep. | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | stage 20 | – |
-| <span id="stage-20"></span>20 | I have agreed to help Benbyr find Tinlyn's sheep and kill all eight of them. I should go look for them in the fields northwest of the Crossroads guardhouse. | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | – | – |
-| <span id="stage-21"></span>21 | I have started attacking the sheep. I should return to Benbyr once I have killed all eight of them. | [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md))<br>+2 more | stage 20 | – |
-| <span id="stage-30"></span>30 | Benbyr was thrilled to hear that all of Tinlyn's sheep are dead. **(completes quest)** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | hand over 8× [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md), stage 20 | 900 XP |
-| <span id="stage-60"></span>60 | I declined to help Benbyr kill the sheep. **(completes quest)** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | stage 20 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I have met Benbyr outside the Crossroads guardhouse. He wants to get… ▸</span><span class="l">▴ less</span></summary>I have met Benbyr outside the Crossroads guardhouse. He wants to get revenge on an old 'business partner' of his - Tinlyn. Benbyr wants me to kill all Tinlyn's sheep.</details> | [Benbyr](../monsters/benbyr.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I have agreed to help Benbyr find Tinlyn's sheep and kill all eight… ▸</span><span class="l">▴ less</span></summary>I have agreed to help Benbyr find Tinlyn's sheep and kill all eight of them. I should go look for them in the fields northwest of the Crossroads guardhouse.</details> | [Benbyr](../monsters/benbyr.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">I have started attacking the sheep. I should return to Benbyr once I… ▸</span><span class="l">▴ less</span></summary>I have started attacking the sheep. I should return to Benbyr once I have killed all eight of them.</details> | [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep2) +3 | – |
+| <span id="stage-30"></span>[30](#route-30) | Benbyr was thrilled to hear that all of Tinlyn's sheep are dead. **(ends quest)** | [Benbyr](../monsters/benbyr.md) | 900 XP |
+| <span id="stage-60"></span>[60](#route-60) | I declined to help Benbyr kill the sheep. **(ends quest)** | [Benbyr](../monsters/benbyr.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) → choose “Can you tell me your story again?” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 10**. NPC: “Do this, and I will have avenged that fool Tinlyn.”
+??? note "Stage 10 · Benbyr · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Benbyr](../monsters/benbyr.md), choose “Can you tell me your story again?”
 
-    1. Talk to [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) → choose “Sounds like just my type of thing. I'll do it!” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 20**. NPC: “Splendid!”
+    - **Needs:** stage 20
+    - *“Do this, and I will have avenged that fool Tinlyn.”*
 
-???+ note "Stage 21: 5 routes"
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    2. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) → choose “[Attack]” — **conditions:** reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    3. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) → choose “[Attack]” — **conditions:** reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    4. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) → choose “[Attack]” — **conditions:** reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    5. Talk to [Sheep](../monsters/sheep1.md) ([fields6](../maps/fields6.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Benbyr · 1 way"
 
-    1. Talk to [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) → choose “I have slain all eight of Tinlyn's sheep for you.” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); hand over 8× [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) → **stage 30**. NPC: “Ha ha! That fool Tinlyn must be in tears. The Shadow surely walks with you my friend.”
+    **Way 1:** Talk to [Benbyr](../monsters/benbyr.md), choose “Sounds like just my type of thing. I'll do it!”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** stage 20
+    - *“Splendid!”*
 
-    1. Talk to [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) → choose “No way, killing innocent sheep is beneath me. I will never do your task.” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 60**. NPC: “Very well, but remember that I have my eyes on you ... adventurer.”
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Sheep · 5 ways"
+
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1), choose “[Attack]”
+
+    - **Needs:** stage 20; reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20)
+
+    **Way 2:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2), choose “[Attack]”
+
+    - **Needs:** stage 20; reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21)
+
+    **Way 3:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3), choose “[Attack]”
+
+    - **Needs:** stage 20; reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22)
+
+    **Way 4:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4), choose “[Attack]”
+
+    - **Needs:** stage 20; reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23)
+
+    **Way 5:** Talk to [Sheep](../monsters/sheep1.md), choose “[Attack]”
+
+    - **Needs:** stage 20
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Benbyr · 1 way"
+
+    **Way 1:** Talk to [Benbyr](../monsters/benbyr.md), choose “I have slain all eight of Tinlyn's sheep for you.”
+
+    - **Needs:** stage 20; hand over 8× [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md)
+    - *“Ha ha! That fool Tinlyn must be in tears. The Shadow surely walks with you my friend.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Benbyr · 1 way"
+
+    **Way 1:** Talk to [Benbyr](../monsters/benbyr.md), choose “No way, killing innocent sheep is beneath me. I will never do your task.”
+
+    - **Needs:** stage 20
+    - *“Very well, but remember that I have my eyes on you ... adventurer.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

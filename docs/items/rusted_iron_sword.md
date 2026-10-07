@@ -45,12 +45,12 @@ description: "Rusted iron sword is a ordinary longsword in Andor's Trail (Attack
 
 ### Found in containers
 
-- [arulircave1](../maps/arulircave1.md#container-1) (container 2, 100%)
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 25%)
+- [Arulircave 1](../maps/arulircave1.md#container-1) (container 2, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 25%)
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [waterwayacave2](../maps/waterwayacave2.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
+- From reading a sign on [Waterwayacave 2](../maps/waterwayacave2.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

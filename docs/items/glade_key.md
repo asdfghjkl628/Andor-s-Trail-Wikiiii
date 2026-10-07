@@ -25,8 +25,8 @@ description: "Key to the glade is a quest other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [lakecave2](../maps/lakecave2.md) during [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-212) (1×)
-- From [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) during [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-205) (1×)
+- From stepping on a trigger on [Lakecave 2](../maps/lakecave2.md) during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-212) (1×)
+- From [Caeda](../monsters/caeda.md) ([Lakecave 2](../maps/lakecave2.md)) during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-205) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) | [A secret garden](../quests/secret_garden.md#stage-40) | handed over (1×) | “Yes. Here. Please take it.” |
-| stepping on a trigger on [lakecave0](../maps/lakecave0.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-26) | must be carried (1×) | “N” |
-| stepping on a trigger on [lakecave0](../maps/lakecave0.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-25) | must be carried (1×) | “N” |
+| [Caeda](../monsters/caeda.md) ([Lakecave 2](../maps/lakecave2.md)) | [A secret garden](../quests/secret_garden.md#stage-40) | handed over (1×) | “Yes. Here. Please take it.” |
+| stepping on a trigger on [Lakecave 0](../maps/lakecave0.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-26) | must be carried (1×) | “N” |
+| stepping on a trigger on [Lakecave 0](../maps/lakecave0.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-25) | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

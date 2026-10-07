@@ -36,9 +36,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “I have beeswax with me now.” |
-| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “Luckily yes, here it is.” |
-| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | handed over (4×) | “N” |
+| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “I have beeswax with me now.” |
+| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “Luckily yes, here it is.” |
+| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | handed over (4×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

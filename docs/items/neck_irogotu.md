@@ -38,7 +38,7 @@ description: "Irogotu's necklace is a extraordinary necklace in Andor's Trail (B
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Irogotu](../monsters/irogotu.md) | 100% | 1 | jan_pitcave3 |
+| [Irogotu](../monsters/irogotu.md) | 100% | 1 | Jan pitcave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

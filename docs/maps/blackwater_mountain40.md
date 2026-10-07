@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain40 is an outdoor location in Andor's Trail, near Blackwater Mountain (other). Enemies: Kazaul spawn. Exits to Blackwater mountain14, Blackwater mountain41."
+description: "Blackwater mountain 40 is an outdoor location in Andor's Trail, near Blackwater Mountain (other). Enemies: Kazaul spawn. Exits to Blackwater mountain 14, Blackwater mountain 41."
 ---
 
-# Blackwater mountain40
+# Blackwater mountain 40
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Blackwater mountain40 is an outdoor location in Andor's Trail, nea
 | **Region** | Near Blackwater Mountain (other) |
 | **Type** | Outdoors |
 | **Size** | 11×11 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Blackwater mountain40** is an outdoor map, near Blackwater Mountain (other). It has no NPCs and 1 kind of enemy. Exits lead to Blackwater mountain14, Blackwater mountain41.
+**Blackwater mountain 40** is an outdoor map, near Blackwater Mountain (other). It has no NPCs and 1 kind of enemy. Exits lead to Blackwater mountain 14, Blackwater mountain 41.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain40.webp" alt="Map of Blackwater mountain40" width="352" height="352" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain14/#place-east" title="Exit to Blackwater mountain14" style="left:45.455%;top:0.000%;width:9.091%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain41/#place-north" title="Exit to Blackwater mountain41" style="left:45.455%;top:72.727%;width:9.091%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:45.455%;top:54.545%;width:9.091%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:63.636%;top:36.364%;width:27.273%;height:36.364%"></span><a class="mob" href="../../monsters/kazaul_spawn/" title="Kazaul spawn" style="left:45.455%;top:54.545%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_rltiles1_41.png" alt="Kazaul spawn"></a><a class="mob" href="../../monsters/kazaul_spawn/" title="Kazaul spawn" style="left:63.636%;top:36.364%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_rltiles1_41.png" alt="Kazaul spawn"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:4.545%" title="Exit (north): to [Blackwater mountain14](blackwater_mountain14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:77.273%" title="Exit (door): to [Blackwater mountain41](blackwater_mountain41.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain40.webp" alt="Map of Blackwater mountain 40" width="352" height="352" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain14/#place-east" title="Exit to Blackwater mountain 14" style="left:45.455%;top:0.000%;width:9.091%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain41/#place-north" title="Exit to Blackwater mountain 41" style="left:45.455%;top:72.727%;width:9.091%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:45.455%;top:54.545%;width:9.091%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:63.636%;top:36.364%;width:27.273%;height:36.364%"></span><a class="mob" href="../../monsters/kazaul_spawn/" title="Kazaul spawn" style="left:45.455%;top:54.545%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_rltiles1_41.png" alt="Kazaul spawn"></a><a class="mob" href="../../monsters/kazaul_spawn/" title="Kazaul spawn" style="left:63.636%;top:36.364%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_rltiles1_41.png" alt="Kazaul spawn"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:4.545%" title="Exit (north): to [Blackwater mountain 14](blackwater_mountain14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:77.273%" title="Exit (door): to [Blackwater mountain 41](blackwater_mountain41.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain14](blackwater_mountain14.md) |
-    | <span id="key-2"></span>2 | Exit (door) | to [Blackwater mountain41](blackwater_mountain41.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain 14](blackwater_mountain14.md) |
+    | <span id="key-2"></span>2 | Exit (door) | to [Blackwater mountain 41](blackwater_mountain41.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Blackwater mountain40 is an outdoor location in Andor's Trail, nea
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Blackwater mountain14](blackwater_mountain14.md) | Blackwater Mountain | 1 |
-| Door | [Blackwater mountain41](blackwater_mountain41.md) | Blackwater Mountain | 2 |
+| North | [Blackwater mountain 14](blackwater_mountain14.md) | Blackwater Mountain | 1 |
+| Door | [Blackwater mountain 41](blackwater_mountain41.md) | Blackwater Mountain | 2 |
 
 ## Enemies
 

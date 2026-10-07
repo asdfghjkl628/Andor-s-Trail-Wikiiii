@@ -28,7 +28,7 @@ description: "Angel feather is a rare other in Andor's Trail. How to get it: mon
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Angel of death](../monsters/angel_death.md) | 5% | 1 | haunted_cemetery1, haunted_cemetery2, haunted_forest16 |
+| [Angel of death](../monsters/angel_death.md) | 5% | 1 | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 16 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

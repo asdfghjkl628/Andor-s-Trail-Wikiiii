@@ -27,9 +27,9 @@ description: "Shadow's accuracy is a beneficial spiritual condition in Andor's T
 |---|---|
 | Attack chance | +15 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -48,14 +48,14 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Animated debris](../monsters/elm_debris.md) | On itself, when it hits you | 2 | 2 rounds | 10% | elm5f_2, elm_2f_1 |
+| [Animated debris](../monsters/elm_debris.md) | On itself, when it hits you | 2 | 2 rounds | 10% | Elm 5f 2, Elm 2f 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

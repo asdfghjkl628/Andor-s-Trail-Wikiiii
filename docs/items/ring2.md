@@ -37,20 +37,20 @@ description: "Polished ring is a ordinary ring in Andor's Trail (Block chance +1
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
-| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | lodar13 |
-| [Tiqui](../monsters/tiqui.md) | 100% | 1 | lodar14 |
+| [Graverobber](../monsters/graverobber.md) | 100% | 1 | Blackwater mountain 35 |
+| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | Lodar 13 |
+| [Tiqui](../monsters/tiqui.md) | 100% | 1 | Lodar 14 |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 20% | 1 | Brimhaven |
 | [Grasslands lizard](../monsters/grass_lizard.md) | 5% | 1 | Crossroads Guardhouse |
 | [Black grasslands lizard](../monsters/grass_lizard2.md) | 5% | 1 | Crossroads Guardhouse, Flagstone Prison |
-| [Young izthiel](../monsters/izthiel_1.md) | 5% | 1 | korhald_cave_outdoor1, waterway0, waterway1 |
+| [Young izthiel](../monsters/izthiel_1.md) | 5% | 1 | Korhald cave outdoor 1, Waterway 0, Waterway 1 |
 | [Izthiel](../monsters/izthiel_2.md) | 5% | 1 | Brimhaven, Brightport |
 | [Strong izthiel](../monsters/izthiel_3.md) | 5% | 1 | Flagstone Prison, Brimhaven |
 | [Olive ooze](../monsters/jelly1.md) | 5% | 1 | Crossroads Guardhouse |
 | [Emerald jelly](../monsters/jelly2.md) | 5% | 1 | Crossroads Guardhouse |
 | [Poisonous ooze](../monsters/jelly3.md) | 5% | 1 | Crossroads Guardhouse |
 | [Ochre jelly](../monsters/jelly4.md) | 5% | 1 | Crossroads Guardhouse |
-| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | roadcave1 |
+| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | Roadcave 1 |
 
 ### Sold by
 
@@ -58,7 +58,7 @@ description: "Polished ring is a ordinary ring in Andor's Trail (Block chance +1
 
 ### Found in containers
 
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 33.3333%)
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 33.3333%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

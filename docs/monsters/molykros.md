@@ -1,10 +1,10 @@
 ---
-description: "Molykros is an enemy in Andor's Trail (humanoid) with 100 HP, worth 200 XP, found in mountainlake_sub."
+description: "Molykros is an enemy in Andor's Trail (humanoid) with 100 HP, worth 200 XP, found in Mountainlake sub."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_63.png){ .sprite } Molykros
 
-**Found in:** [mountainlake_sub](../maps/mountainlake_sub.md)
+**Found in:** [Mountainlake sub](../maps/mountainlake_sub.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Molykros is an enemy in Andor's Trail (humanoid) with 100 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake_sub |
+| **Found in** | Mountainlake sub |
 | **Class** | Humanoid |
 | **HP** | 100 |
 | **XP when defeated** | 200 |
@@ -48,7 +48,7 @@ description: "Molykros is an enemy in Andor's Trail (humanoid) with 100 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake_sub](../maps/mountainlake_sub.md) | – | 1 | – |
+| [Mountainlake sub](../maps/mountainlake_sub.md) | – | 1 | – |
 
 
 ## Version history

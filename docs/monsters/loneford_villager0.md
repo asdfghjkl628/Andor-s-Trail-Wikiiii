@@ -19,21 +19,21 @@ description: "Villager is a non-player character (NPC) in Andor's Trail, found i
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Villager. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Villager. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`loneford_villager0`](#v-loneford_villager0) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager0) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager1`](#v-loneford_villager1) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager1) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager2`](#v-loneford_villager2) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager2) | – |
-| [`loneford_villager3`](#v-loneford_villager3) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager3) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager4`](#v-loneford_villager4) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager4) | – |
+| [`loneford_villager0`](#v-loneford_villager0) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager0) | starts [Flows through the veins](../quests/loneford.md) |
+| [`loneford_villager1`](#v-loneford_villager1) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager1) | starts [Flows through the veins](../quests/loneford.md) |
+| [`loneford_villager2`](#v-loneford_villager2) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager2) | – |
+| [`loneford_villager3`](#v-loneford_villager3) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager3) | starts [Flows through the veins](../quests/loneford.md) |
+| [`loneford_villager4`](#v-loneford_villager4) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager4) | – |
 
-## Loneford, Loneford2 (loneford_villager0) { #v-loneford_villager0 }
+## Loneford, Loneford 2 (loneford_villager0) { #v-loneford_villager0 }
 
 **Entry ID:** `loneford_villager0` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager0)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager0)
 
 ### Quests
 
@@ -41,7 +41,7 @@ description: "Villager is a non-player character (NPC) in Andor's Trail, found i
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Villager. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Villager. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_villager0.json" data-npc="Villager" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_villager0-loneford_villager0"></span>**`loneford_villager0`** Villager: “*cough* Please help us, soon there won't be many left of us!”
 
@@ -124,11 +124,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford2 (loneford_villager1) { #v-loneford_villager1 }
+## Loneford, Loneford 2 (loneford_villager1) { #v-loneford_villager1 }
 
 **Entry ID:** `loneford_villager1` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager1)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager1)
 
 ### Quests
 
@@ -136,7 +136,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Villager. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Villager. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_villager1.json" data-npc="Villager" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -144,7 +144,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_villager1-loneford_villager1"></span>**`loneford_villager1`** Villager: “I can't feel my face anymore, please help us!”
 
@@ -188,11 +188,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford2 (loneford_villager2) { #v-loneford_villager2 }
+## Loneford, Loneford 2 (loneford_villager2) { #v-loneford_villager2 }
 
 **Entry ID:** `loneford_villager2` · **Type:** NPC
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager2)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager2)
 
 ### Quests
 
@@ -200,7 +200,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Villager. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Villager. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_villager2.json" data-npc="Villager" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -208,7 +208,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_villager2-loneford_villager2"></span>**`loneford_villager2`** Villager: “Don't disturb me, I need to finish chopping this wood. Go bother someone else.”
 
@@ -282,11 +282,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford2 (loneford_villager3) { #v-loneford_villager3 }
+## Loneford, Loneford 2 (loneford_villager3) { #v-loneford_villager3 }
 
 **Entry ID:** `loneford_villager3` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager3)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager3)
 
 ### Quests
 
@@ -294,7 +294,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Villager. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Villager. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_villager3.json" data-npc="Villager" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -302,7 +302,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_villager3-loneford_villager3"></span>**`loneford_villager3`** Villager: “I fear for our survival. It seems we are getting worse every day that passes. It's a good thing Feygard helps us at least.”
 
@@ -346,15 +346,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford2 (loneford_villager4) { #v-loneford_villager4 }
+## Loneford, Loneford 2 (loneford_villager4) { #v-loneford_villager4 }
 
 **Entry ID:** `loneford_villager4` · **Type:** NPC
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_villager4)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Villager. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Villager. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_villager4.json" data-npc="Villager" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -362,7 +362,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_villager4-loneford_villager4"></span>**`loneford_villager4`** Villager: “Don't I know you from somewhere? You look familiar somehow.”
 

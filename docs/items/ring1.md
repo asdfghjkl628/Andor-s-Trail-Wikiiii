@@ -37,8 +37,8 @@ description: "Mundane ring is a ordinary ring in Andor's Trail (Attack damage 0 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
-| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
+| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 | Mountainlake 8, Mountainlake 8 cave |
+| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 | Mountainlake 8, Mountainlake 8 cave |
 | [Grasslands snake](../monsters/grass_snake.md) | 5% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
 | [Tough grasslands snake](../monsters/grass_snake2.md) | 5% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
 | [Grasslands lizard](../monsters/grass_lizard.md) | 5% | 1 | Crossroads Guardhouse |
@@ -49,17 +49,17 @@ description: "Mundane ring is a ordinary ring in Andor's Trail (Attack damage 0 
 | [Emerald jelly](../monsters/jelly2.md) | 5% | 1 | Crossroads Guardhouse |
 | [Poisonous ooze](../monsters/jelly3.md) | 5% | 1 | Crossroads Guardhouse |
 | [Ochre jelly](../monsters/jelly4.md) | 5% | 1 | Crossroads Guardhouse |
-| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | roadcave1 |
-| [Young mountain brute](../monsters/mbrute_1.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Weak mountain brute](../monsters/mbrute_2.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Whitefur mountain brute](../monsters/mbrute_3.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Mountain brute](../monsters/mbrute_4.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Large mountain brute](../monsters/mbrute_5.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Fast mountain brute](../monsters/mbrute_6.md) | 1% | 1 | mountainlake10, mountainlake6, mountainlake7 |
-| [Quick mountain brute](../monsters/mbrute_7.md) | 1% | 1 | mountainlake8, mountainlake9 |
-| [Aggressive mountain brute](../monsters/mbrute_8.md) | 1% | 1 | mountainlake8, mountainlake9 |
-| [Strong mountain brute](../monsters/mbrute_9.md) | 1% | 1 | mountainlake8, mountainlake9 |
-| [Tough mountain brute](../monsters/mbrute_10.md) | 1% | 1 | mountainlake8, mountainlake8_cave |
+| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | Roadcave 1 |
+| [Young mountain brute](../monsters/mbrute_1.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Weak mountain brute](../monsters/mbrute_2.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Whitefur mountain brute](../monsters/mbrute_3.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Mountain brute](../monsters/mbrute_4.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Large mountain brute](../monsters/mbrute_5.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Fast mountain brute](../monsters/mbrute_6.md) | 1% | 1 | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
+| [Quick mountain brute](../monsters/mbrute_7.md) | 1% | 1 | Mountainlake 8, Mountainlake 9 |
+| [Aggressive mountain brute](../monsters/mbrute_8.md) | 1% | 1 | Mountainlake 8, Mountainlake 9 |
+| [Strong mountain brute](../monsters/mbrute_9.md) | 1% | 1 | Mountainlake 8, Mountainlake 9 |
+| [Tough mountain brute](../monsters/mbrute_10.md) | 1% | 1 | Mountainlake 8, Mountainlake 8 cave |
 
 ### Sold by
 
@@ -69,24 +69,24 @@ description: "Mundane ring is a ordinary ring in Andor's Trail (Attack damage 0 
 
 ### Found in containers
 
-- [arulircave1](../maps/arulircave1.md#container-0) (container 1, 100%)
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 5%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 5%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 5%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 5%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 5%)
-- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 5%)
-- [guynmart_tower_4](../maps/guynmart_tower_4.md#container-0) (container 1, 33%), Guynmart Castle
+- [Arulircave 1](../maps/arulircave1.md#container-0) (container 1, 100%)
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 5%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 5%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-2) (container 3, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-0) (container 1, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-1) (container 2, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-2) (container 3, 5%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-0) (container 1, 5%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-1) (container 2, 5%)
+- [Elm mine 4](../maps/elm_mine4.md#container-0) (container 1, 5%)
+- [Guynmart tower 4](../maps/guynmart_tower_4.md#container-0) (container 1, 33%), Guynmart Castle
 
 ### Quest & dialogue rewards
 
-- From [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42) (20×)
+- From [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42) (20×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

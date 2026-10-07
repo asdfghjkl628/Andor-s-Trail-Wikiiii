@@ -4,7 +4,7 @@ description: "Freen is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_rltiles1_77.png){ .sprite } Freen
 
-**Where to find Freen:** Remgard: [remgard_school](../maps/remgard_school.md#pin-npc-freen)
+**Where to find Freen:** Remgard: [Remgard school](../maps/remgard_school.md#pin-npc-freen)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Freen is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Freen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Freen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/freen.json" data-npc="Freen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-freen"></span>**`freen`** Freen: “Sorry, we are closed. If you want to practice your reading skills, please come back another day. If there is a specific book you are looking for, I might be able to help you.”
 

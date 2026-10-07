@@ -1,5 +1,5 @@
 ---
-description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–354 HP, worth 218–554 XP, found in Brimhaven, waterway10. Drops: Gold coins, Izthiel claw, Jinxed ring of damage resistance, Polished ring."
+description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–354 HP, worth 218–554 XP, found in Brimhaven, Waterway 10. Drops: Gold coins, Izthiel claw, Jinxed ring of damage resistance, Polished ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_52.png){ .sprite } Izthiel guardian
@@ -11,7 +11,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | Brimhaven, waterway10 |
+| **Found in** | Brimhaven, Waterway 10 |
 | **Class** | Reptile |
 | **HP** | 54–354 |
 | **XP when defeated** | 218–554 |
@@ -21,18 +21,18 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Izthiel guardian. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Izthiel guardian. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`izthiel_4`](#v-izthiel_4) | Enemy | Brimhaven: [waterway6](../maps/waterway6.md), [waterway1](../maps/waterway1.md) (+5 more) | – | 54 |
-| [`izthiel_cr`](#v-izthiel_cr) | Enemy | [waterway10](../maps/waterway10.md) | – | 354 |
+| [`izthiel_4`](#v-izthiel_4) | Enemy | Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 1](../maps/waterway1.md) (+5 more) | – | 54 |
+| [`izthiel_cr`](#v-izthiel_cr) | Enemy | [Waterway 10](../maps/waterway10.md) | – | 354 |
 
-## Brimhaven, Waterway6 and 6 more (izthiel_4) { #v-izthiel_4 }
+## Brimhaven, Waterway 6 and 6 more (izthiel_4) { #v-izthiel_4 }
 
 **Entry ID:** `izthiel_4` · **Type:** Enemy
 
-**Location:** Brimhaven: [waterway6](../maps/waterway6.md), [waterway1](../maps/waterway1.md), [waterway4](../maps/waterway4.md), [waterway5](../maps/waterway5.md), [waterway8](../maps/waterway8.md), [waterway9](../maps/waterway9.md) (+1 more)
+**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 1](../maps/waterway1.md), [Waterway 4](../maps/waterway4.md), [Waterway 5](../maps/waterway5.md), [Waterway 8](../maps/waterway8.md), [Waterway 9](../maps/waterway9.md) (+1 more)
 
 ### Combat statistics
 
@@ -72,13 +72,13 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway1](../maps/waterway1.md) | – | 1 | – |
-| [waterway4](../maps/waterway4.md) | – | 2 | – |
-| [waterway5](../maps/waterway5.md) | – | 4 | – |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 2 | – |
-| [waterway8](../maps/waterway8.md) | – | 2 | – |
-| [waterway9](../maps/waterway9.md) | – | 3 | – |
-| [waterwayextention](../maps/waterwayextention.md) | – | 2 | – |
+| [Waterway 1](../maps/waterway1.md) | – | 1 | – |
+| [Waterway 4](../maps/waterway4.md) | – | 2 | – |
+| [Waterway 5](../maps/waterway5.md) | – | 4 | – |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 2 | – |
+| [Waterway 8](../maps/waterway8.md) | – | 2 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 3 | – |
+| [Waterwayextention](../maps/waterwayextention.md) | – | 2 | – |
 
 
 ### Version history
@@ -139,11 +139,11 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
     ```
 
 
-## Waterway10 (izthiel_cr) { #v-izthiel_cr }
+## Waterway 10 (izthiel_cr) { #v-izthiel_cr }
 
 **Entry ID:** `izthiel_cr` · **Type:** Enemy
 
-**Location:** [waterway10](../maps/waterway10.md)
+**Location:** [Waterway 10](../maps/waterway10.md)
 
 ### Combat statistics
 
@@ -179,7 +179,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway10](../maps/waterway10.md) | – | 1 | – |
+| [Waterway 10](../maps/waterway10.md) | – | 1 | – |
 
 
 ### Version history

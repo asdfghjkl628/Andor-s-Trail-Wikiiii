@@ -42,7 +42,7 @@ description: "Serpent's hauberk is a extraordinary armor (light) in Andor's Trai
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zortak leader](../monsters/zortakb.md) | 100% | 1 | lodar8 |
+| [Zortak leader](../monsters/zortakb.md) | 100% | 1 | Lodar 8 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

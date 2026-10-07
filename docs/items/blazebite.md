@@ -51,7 +51,7 @@ description: "Blazebite is a extraordinary shortsword in Andor's Trail (Attack d
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 1 | galmore_71 |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 1 | Galmore 71 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

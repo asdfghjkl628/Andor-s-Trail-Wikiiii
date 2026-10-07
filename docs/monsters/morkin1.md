@@ -1,10 +1,10 @@
 ---
-description: "Morkin lookout is an enemy in Andor's Trail (humanoid) with 145 HP, worth 241 XP, found in lodar10, lodar11, lodar12. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
+description: "Morkin lookout is an enemy in Andor's Trail (humanoid) with 145 HP, worth 241 XP, found in Lodar 10, Lodar 11, Lodar 12. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_67.png){ .sprite } Morkin lookout
 
-**Found in:** [lodar10](../maps/lodar10.md), [lodar11](../maps/lodar11.md), [lodar12](../maps/lodar12.md), [lodar18](../maps/lodar18.md) (+2 more)
+**Found in:** [Lodar 10](../maps/lodar10.md), [Lodar 11](../maps/lodar11.md), [Lodar 12](../maps/lodar12.md), [Lodar 18](../maps/lodar18.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Morkin lookout is an enemy in Andor's Trail (humanoid) with 145 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar10, lodar11, lodar12 |
+| **Found in** | Lodar 10, Lodar 11, Lodar 12 |
 | **Class** | Humanoid |
 | **HP** | 145 |
 | **XP when defeated** | 241 |
@@ -58,12 +58,12 @@ description: "Morkin lookout is an enemy in Andor's Trail (humanoid) with 145 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar10](../maps/lodar10.md) | – | 1 | – |
-| [lodar11](../maps/lodar11.md) | – | 3 | – |
-| [lodar12](../maps/lodar12.md) | – | 1 | – |
-| [lodar18](../maps/lodar18.md) | – | 3 | – |
-| [lodar20](../maps/lodar20.md) | – | 2 | – |
-| [lodar21](../maps/lodar21.md) | – | 1 | – |
+| [Lodar 10](../maps/lodar10.md) | – | 1 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 3 | – |
+| [Lodar 12](../maps/lodar12.md) | – | 1 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 3 | – |
+| [Lodar 20](../maps/lodar20.md) | – | 2 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 1 | – |
 
 
 ## Version history

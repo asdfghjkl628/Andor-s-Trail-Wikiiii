@@ -4,20 +4,21 @@ description: "An unofficial reference wiki for Andor's Trail v0.8.18: items, mon
 
 # Andor's Trail Wiki
 
-A reference wiki for **Andor's Trail**, an open-source role-playing game in which the player searches for their missing brother, Andor.
+A wiki for **Andor's Trail**, the open-source RPG where you set out to find your brother Andor ~~and end up running errands for half the continent~~.
 
-All content is generated from the game's own data files and source code, so values on this wiki match those used by the game. When the developers publish a new release, the wiki is rebuilt automatically within an hour. Each page states the game version it describes. This build covers **v0.8.18**, with version history back to v0.7.0.
+Everything here is generated from the game's own data and code, so the numbers are the game's numbers. New release? The wiki rebuilds itself within the hour. This build covers **v0.8.18**, with history back to v0.7.0.
 
 <div class="grid cards" markdown>
 
-- **[Items](items/index.md)**<br>1000 items, including weapons, armor, jewelry and consumables
-- **[Monsters & NPCs](monsters/index.md)**<br>Every enemy and non-player character, with statistics, locations and roles
-- **[Stats & Skills](skills/index.md)**<br>Character statistics, levelling, combat formulas and all 45 skills
-- **[Conditions](conditions/index.md)**<br>All 147 conditions, such as poison, bleeding and blessings: effects, causes and remedies
-- **[Strategy](strategy/index.md)**<br>Guidance on character builds, levelling and combat
-- **[Quests](quests/index.md)**<br>136 journal quests with every stage, plus the hidden quest flags behind them
-- **[World map](maps/index.md)**<br>1296 maps with enemies, NPCs, containers and connections
-- **[Version history](versions/index.md)**<br>Changes in every release since v0.7.0
+- **[Items](items/index.md)**<br>1000 items, from bread to legendaries
+- **[Monsters & NPCs](monsters/index.md)**<br>Who to fight, who to talk to, and where they are
+- **[Stats & Skills](skills/index.md)**<br>How the numbers work, plus all 45 skills
+- **[Conditions](conditions/index.md)**<br>Poison, bleeding, blessings: what they do and how to get rid of them
+- **[Strategy](strategy/index.md)**<br>Builds, levelling and combat advice
+- **[Quests](quests/index.md)**<br>136 quests, every stage, every route
+- **[World map](maps/index.md)**<br>1296 maps, every enemy, every chest
+- **[Glossary](glossary.md)**<br>AC, BC, DR, JoF… what all the abbreviations mean
+- **[Version history](versions/index.md)**<br>What every release since v0.7.0 changed
 
 </div>
 

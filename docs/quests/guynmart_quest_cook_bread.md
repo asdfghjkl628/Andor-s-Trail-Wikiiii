@@ -1,8 +1,8 @@
 ---
-description: "guynmart_quest_cook_bread is a hidden quest in Andor's Trail, started by Hofala (guynmart_main_2). 1 stages. 1=got"
+description: "Guynmart quest cook bread is a hidden quest in Andor's Trail, started by Hofala (guynmart_main_2). 1 stages. 1=got"
 ---
 
-# guynmart_quest_cook_bread
+# Guynmart quest cook bread
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "guynmart_quest_cook_bread is a hidden quest in Andor's Trail, star
 | **Quest ID** | `guynmart_quest_cook_bread` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
-| **Started by** | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
+| **Started by** | [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) |
 | **NPCs involved** | [Hofala](../monsters/guynmart_cook.md) |
-| **Locations** | [guynmart_main_2](../maps/guynmart_main_2.md) |
+| **Locations** | [Guynmart main 2](../maps/guynmart_main_2.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,7 +27,7 @@ description: "guynmart_quest_cook_bread is a hidden quest in Andor's Trail, star
 
 ## Prerequisites to start
 
-Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)). Required:
+Start with [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)). Required:
 
 - reached stage 62 of [Roses](../quests/guynmart.md#stage-62)
 - NOT reached stage 64 of [Roses](../quests/guynmart.md#stage-64)
@@ -48,19 +48,32 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=got | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | – | gives [Bread](../items/bread.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=got | [Hofala](../monsters/guynmart_cook.md) | [Bread](../items/bread.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) → choose “The steward told me you could give me some bread.” — **conditions:** reached stage 62 of [Roses](../quests/guynmart.md#stage-62); NOT reached stage 64 of [Roses](../quests/guynmart.md#stage-64); reached stage 40 of [Roses](../quests/guynmart.md#stage-40) → **stage 1**; also gives [Bread](../items/bread.md). NPC: “Here I have some fresh bread for you. Enjoy it.”
+??? note "Stage 1 · Hofala · 1 way"
+
+    **Way 1:** Talk to [Hofala](../monsters/guynmart_cook.md), choose “The steward told me you could give me some bread.”
+
+    - **Needs:** reached stage 62 of [Roses](../quests/guynmart.md#stage-62); not reached stage 64 of [Roses](../quests/guynmart.md#stage-64); reached stage 40 of [Roses](../quests/guynmart.md#stage-40)
+    - **Gives:** [Bread](../items/bread.md)
+    - *“Here I have some fresh bread for you. Enjoy it.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -105,6 +118,7 @@ Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guy
     | | |
     |---|---|
     | Quest ID | `guynmart_quest_cook_bread` |
+    | Name in game data | `guynmart_quest_cook_bread` |
     | showInLog | 0 |
     | Stage IDs | 1 |
     | Dialogue nodes setting stages | 1: `guynmart_cook_36` |

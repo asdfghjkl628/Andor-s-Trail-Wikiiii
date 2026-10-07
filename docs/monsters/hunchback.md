@@ -1,10 +1,10 @@
 ---
-description: "Quasi is a non-player character (NPC) in Andor's Trail, found in brimhaven_church_basement."
+description: "Quasi is a non-player character (NPC) in Andor's Trail, found in Brimhaven church basement."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_58.png){ .sprite } Quasi
 
-**Where to find Quasi:** [brimhaven_church_basement](../maps/brimhaven_church_basement.md#pin-npc-hunchback)
+**Where to find Quasi:** [Brimhaven church basement](../maps/brimhaven_church_basement.md#pin-npc-hunchback)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Quasi is a non-player character (NPC) in Andor's Trail, found in b
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brimhaven_church_basement |
+| **Found in** | Brimhaven church basement |
 | **Entry ID** | `hunchback` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
@@ -21,7 +21,7 @@ description: "Quasi is a non-player character (NPC) in Andor's Trail, found in b
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Quasi. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Quasi. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/quasi_0.json" data-npc="Quasi" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,14 +29,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-quasi_0"></span>**`quasi_0`** Quasi: “Hello. I'm Quasi. I like to dig.”
 
     - “Dig?” → [quasi_1](#d-quasi_1)
     - “I think I'll leave now.” → *conversation ends*
 
-    <span id="d-quasi_1"></span>**`quasi_1`** Quasi: “Yes. Holes. To put people in.” — **effects:** sets stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30)
+    <span id="d-quasi_1"></span>**`quasi_1`** Quasi: “Yes. Holes. To put people in.” — **effects:** sets stage 30 of nondisplay bhvt (flag not defined in the game data)
 
     - Next → [quasi_2](#d-quasi_2)
 

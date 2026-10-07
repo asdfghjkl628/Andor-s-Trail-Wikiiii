@@ -4,7 +4,7 @@ description: "Rotting corpse is an NPC who can also be fought in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_zombie1_0.png){ .sprite } Rotting corpse
 
-**Where to find Rotting corpse:** Flagstone Prison: [flagstone1](../maps/flagstone1.md#pin-npc-rotting_corpse), Flagstone Prison: [flagstone2](../maps/flagstone2.md#pin-npc-rotting_corpse), Flagstone Prison: [flagstone_inner](../maps/flagstone_inner.md#pin-npc-rotting_corpse), [flagstone3](../maps/flagstone3.md#pin-npc-rotting_corpse)
+**Where to find Rotting corpse:** Flagstone Prison: [Flagstone 1](../maps/flagstone1.md#pin-npc-rotting_corpse), Flagstone Prison: [Flagstone 2](../maps/flagstone2.md#pin-npc-rotting_corpse), Flagstone Prison: [Flagstone inner](../maps/flagstone_inner.md#pin-npc-rotting_corpse), [Flagstone 3](../maps/flagstone3.md#pin-npc-rotting_corpse)
 
 <div class="infobox" markdown>
 
@@ -60,14 +60,14 @@ description: "Rotting corpse is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 3 | – |
-| [flagstone3](../maps/flagstone3.md) | – | 3 | – |
-| [flagstone_inner](../maps/flagstone_inner.md) | Flagstone Prison | 8 | – |
+| [Flagstone 1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 3 | – |
+| [Flagstone 3](../maps/flagstone3.md) | – | 3 | – |
+| [Flagstone inner](../maps/flagstone_inner.md) | Flagstone Prison | 8 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rotting corpse. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rotting corpse. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zombie1.json" data-npc="Rotting corpse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zombie1"></span>**`zombie1`** Rotting corpse: “Fresh flesh!”
 

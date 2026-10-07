@@ -4,7 +4,7 @@ description: "Feygard mountain scout is a non-player character (NPC) in Andor's 
 
 # ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } Feygard mountain scout
 
-**Where to find Feygard mountain scout:** Prim: [blackwater_mountain10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard5)
+**Where to find Feygard mountain scout:** Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard5)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Feygard mountain scout is a non-player character (NPC) in Andor's 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard mountain scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard mountain scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fms_selector.json" data-npc="Feygard mountain scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fms_selector"></span>**`fms_selector`** *(silent check: the first matching branch below is taken)*
 

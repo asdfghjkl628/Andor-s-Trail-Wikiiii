@@ -26,7 +26,7 @@ description: "Insect wing is a ordinary animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan2) | 100% | 1-2 | mushroom_m2_3 |
+| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan2) | 100% | 1-2 | Mushroom m 2 3 |
 | [Small wasp](../monsters/small_wasp.md) | 30% | 1 | Crossglen |
 | [Forest wasp](../monsters/forest_wasp.md) | 30% | 1 | Blackwater Mountain, Fallhaven, Crossroads Guardhouse |
 | [Stinging wasp](../monsters/stinging_wasp.md) | 30% | 1 | Fallhaven, Flagstone Prison |
@@ -36,24 +36,24 @@ description: "Insect wing is a ordinary animal part in Andor's Trail. How to get
 | [Giant dungfly](../monsters/dungfly1.md) | 30% | 1 | Loneford, Crossroads Guardhouse |
 | [Aggressive dungfly](../monsters/dungfly2.md) | 30% | 1 | Loneford, Crossroads Guardhouse |
 | [Vicious dungfly](../monsters/dungfly3.md) | 30% | 1 | Loneford |
-| [Puny yellowjacket](../monsters/yjacket1.md) | 30% | 1 | lodar11, lodar14, lodar4 |
-| [Small yellowjacket](../monsters/yjacket2.md) | 30% | 1 | lodar11, lodar14, lodar4 |
-| [Swarming yellowjacket](../monsters/yjacket3.md) | 30% | 1 | lodar11, lodar14, lodar4 |
-| [Stinging yellowjacket](../monsters/yjacket4.md) | 30% | 1 | lodar11, lodar14, lodar15 |
-| [Quick yellowjacket](../monsters/yjacket5.md) | 30% | 1 | lodar11, lodar14, lodar15 |
-| [Aggressive yellowjacket](../monsters/yjacket6.md) | 30% | 1 | lodar14, lodar15 |
-| [Enraged yellowjacket](../monsters/yjacket7.md) | 30% | 1 | lodar14, lodar15 |
-| [Giant yellowjacket](../monsters/yjacket8.md) | 30% | 1 | lodar14, lodar15, lodar16 |
-| [Yellowjacket queen](../monsters/yjacket9.md) | 30% | 1 | lodar15 |
+| [Puny yellowjacket](../monsters/yjacket1.md) | 30% | 1 | Lodar 11, Lodar 14, Lodar 4 |
+| [Small yellowjacket](../monsters/yjacket2.md) | 30% | 1 | Lodar 11, Lodar 14, Lodar 4 |
+| [Swarming yellowjacket](../monsters/yjacket3.md) | 30% | 1 | Lodar 11, Lodar 14, Lodar 4 |
+| [Stinging yellowjacket](../monsters/yjacket4.md) | 30% | 1 | Lodar 11, Lodar 14, Lodar 15 |
+| [Quick yellowjacket](../monsters/yjacket5.md) | 30% | 1 | Lodar 11, Lodar 14, Lodar 15 |
+| [Aggressive yellowjacket](../monsters/yjacket6.md) | 30% | 1 | Lodar 14, Lodar 15 |
+| [Enraged yellowjacket](../monsters/yjacket7.md) | 30% | 1 | Lodar 14, Lodar 15 |
+| [Giant yellowjacket](../monsters/yjacket8.md) | 30% | 1 | Lodar 14, Lodar 15, Lodar 16 |
+| [Yellowjacket queen](../monsters/yjacket9.md) | 30% | 1 | Lodar 15 |
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 10% | 1 | Stoutford, Flagstone Prison, Sullengard |
 | [Preabola fly](../monsters/preabola_fly.md) | 10% | 1 | Sullengard |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | 10% | 1 | Wexlow Village |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 10% | 1 | Deebo's Orchard |
-| [Red tree ant](../monsters/red_tree_ant.md) | 10% | 1 | nw_sullengard_1 |
+| [Red tree ant](../monsters/red_tree_ant.md) | 10% | 1 | Nw sullengard 1 |
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) during [Vines in bwm_17 (hidden flag)](../quests/bwm17_vine.md#stage-1) (75%)
+- From stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) during [Blackwater Mountain vines (hidden flag)](../quests/bwm17_vine.md#stage-1) (75%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -65,12 +65,12 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Tharal](../monsters/tharal.md) | [Disallowed substance](../quests/bonemeal.md#stage-30) | handed over (5×) | “Here, I have the insect wings.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (1×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-15) | handed over (5×) | “I have these with me. Take them.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-15) | handed over (5×) | “Yes. Here they are.” |
-| walking into a blocked passage on [debugmap](../maps/debugmap.md) | – | handed over (-5×) | “5 insect wings” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (1×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-15) | handed over (5×) | “I have these with me. Take them.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-15) | handed over (5×) | “Yes. Here they are.” |
+| walking into a blocked passage on [Debugmap](../maps/debugmap.md) | – | handed over (-5×) | “5 insect wings” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -11,7 +11,7 @@ description: "Galmore 16 is an outdoor location in Andor's Trail. Enemies: Snapm
 | **Map ID** | `galmore_16` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |

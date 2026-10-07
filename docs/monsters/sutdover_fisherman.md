@@ -1,10 +1,10 @@
 ---
-description: "Isobel is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in lake_shore_road_3."
+description: "Isobel is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Lake shore road 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_phoenix01_6.png){ .sprite } Isobel
 
-**Found in:** [lake_shore_road_3](../maps/lake_shore_road_3.md)
+**Found in:** [Lake shore road 3](../maps/lake_shore_road_3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Isobel is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lake_shore_road_3 |
+| **Found in** | Lake shore road 3 |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,7 +48,7 @@ description: "Isobel is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_3](../maps/lake_shore_road_3.md) | – | 1 | – |
+| [Lake shore road 3](../maps/lake_shore_road_3.md) | – | 1 | – |
 
 
 ## Version history

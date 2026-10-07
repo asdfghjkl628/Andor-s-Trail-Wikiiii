@@ -51,7 +51,7 @@ description: "Wexlow village south-east house is an indoor location in Andor's T
 ## Quests
 
 - [A Feygard delicacy](../quests/feygard_delicacy.md): [Philippa](../monsters/village_philippa.md) is involved
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): [Philippa](../monsters/village_philippa.md) is involved
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): [Philippa](../monsters/village_philippa.md) is involved
 
 
 ## Version history

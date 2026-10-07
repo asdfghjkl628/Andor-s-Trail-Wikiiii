@@ -4,7 +4,7 @@ description: "Bridge bogling is an enemy in Andor's Trail (humanoid) with 222 HP
 
 # ![](../assets/icons/monsters/monsters_misc_7.png){ .sprite } Bridge bogling
 
-**Found in:** Mt. Galmore: [galmore_36](../maps/galmore_36.md), Mt. Galmore: [galmore_48](../maps/galmore_48.md), [galmore_15](../maps/galmore_15.md), [galmore_19](../maps/galmore_19.md) (+2 more)
+**Found in:** Mt. Galmore: [Galmore 36](../maps/galmore_36.md), Mt. Galmore: [Galmore 48](../maps/galmore_48.md), [Galmore 15](../maps/galmore_15.md), [Galmore 19](../maps/galmore_19.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -59,12 +59,12 @@ description: "Bridge bogling is an enemy in Andor's Trail (humanoid) with 222 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_15](../maps/galmore_15.md) | – | 2 | – |
-| [galmore_19](../maps/galmore_19.md) | – | 2 | – |
-| [galmore_36](../maps/galmore_36.md) | Mt. Galmore | 1 | – |
-| [galmore_38](../maps/galmore_38.md) | – | 2 | – |
-| [galmore_39](../maps/galmore_39.md) | – | 1 | – |
-| [galmore_48](../maps/galmore_48.md) | Mt. Galmore | 1 | – |
+| [Galmore 15](../maps/galmore_15.md) | – | 2 | – |
+| [Galmore 19](../maps/galmore_19.md) | – | 2 | – |
+| [Galmore 36](../maps/galmore_36.md) | Mt. Galmore | 1 | – |
+| [Galmore 38](../maps/galmore_38.md) | – | 2 | – |
+| [Galmore 39](../maps/galmore_39.md) | – | 1 | – |
+| [Galmore 48](../maps/galmore_48.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

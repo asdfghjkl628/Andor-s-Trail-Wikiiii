@@ -27,7 +27,7 @@ description: "Mayor Ale's letter is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Mayor Ale](../monsters/sullengard_mayor.md) ([sullengard1_townhall](../maps/sullengard1_townhall.md)) during [Beer Bootlegging](../quests/beer_bootlegging.md#stage-60) (1×)
+- From [Mayor Ale](../monsters/sullengard_mayor.md) ([Sullengard 1 townhall](../maps/sullengard1_townhall.md)) during [Beer Bootlegging](../quests/beer_bootlegging.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [Beer Bootlegging](../quests/beer_bootlegging.md#stage-70) | handed over (1×) | “Mayor Ale has asked me to give this letter to you.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [Beer Bootlegging](../quests/beer_bootlegging.md#stage-70) | handed over (1×) | “Mayor Ale has asked me to give this letter to you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -18,22 +18,22 @@ description: "Oegyth crystal is a non-player character (NPC) in Andor's Trail, f
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Oegyth crystal. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Oegyth crystal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`mg2_cavea_home`](#v-mg2_cavea_home) | NPC | Mt. Galmore: [galmore_cavea_2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home) | – |
-| [`mg2_cavea_throdna`](#v-mg2_cavea_throdna) | NPC | Mt. Galmore: [galmore_cavea_2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna) | – |
+| [`mg2_cavea_home`](#v-mg2_cavea_home) | NPC | Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home) | – |
+| [`mg2_cavea_throdna`](#v-mg2_cavea_throdna) | NPC | Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna) | – |
 
 ## Mt. Galmore, Galmore cavea 2 (mg2_cavea_home) { #v-mg2_cavea_home }
 
 **Entry ID:** `mg2_cavea_home` · **Type:** NPC
 
-**Location:** Mt. Galmore: [galmore_cavea_2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home)
+**Location:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oegyth crystal. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oegyth crystal. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_cavea_home.json" data-npc="Oegyth crystal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,9 +41,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-mg2_cavea_home-mg2_cavea_home"></span>**`mg2_cavea_home`** Oegyth crystal: “You are watching Mikhail at home.” — **effects:** moves you to [home](../maps/home.md)
+    <span id="d-mg2_cavea_home-mg2_cavea_home"></span>**`mg2_cavea_home`** Oegyth crystal: “You are watching Mikhail at home.” — **effects:** moves you to [Home](../maps/home.md)
 
 
 
@@ -88,11 +88,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `mg2_cavea_throdna` · **Type:** NPC
 
-**Location:** Mt. Galmore: [galmore_cavea_2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna)
+**Location:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oegyth crystal. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oegyth crystal. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_cavea_throdna.json" data-npc="Oegyth crystal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -100,9 +100,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-mg2_cavea_throdna-mg2_cavea_throdna"></span>**`mg2_cavea_throdna`** Oegyth crystal: “You are watching Throdna and his followers.” — **effects:** moves you to [blackwater_mountain50](../maps/blackwater_mountain50.md)
+    <span id="d-mg2_cavea_throdna-mg2_cavea_throdna"></span>**`mg2_cavea_throdna`** Oegyth crystal: “You are watching Throdna and his followers.” — **effects:** moves you to [Blackwater mountain 50](../maps/blackwater_mountain50.md)
 
 
 

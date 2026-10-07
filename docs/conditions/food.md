@@ -27,9 +27,9 @@ description: "Sustenance is a beneficial physical condition in Andor's Trail: +1
 |---|---|
 | HP every round | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -107,8 +107,8 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [ratdom_maze_632](../maps/ratdom_maze_632.md) | – | 10 rounds |
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | 3 rounds |
+| walking into a blocked passage on [Ratdom maze 632](../maps/ratdom_maze_632.md) | – | 10 rounds |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | – | 3 rounds |
 
 ## Applied to enemies
 
@@ -116,17 +116,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Yczorah](../monsters/elm_yzczorah2.md) | On itself, when it hits you | 3 | 2 rounds | 20% | elm5f_1, elm5f_2 |
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | On itself, when it hits you | 2 | 2 rounds | 20% | elm5f_1, elm5f_2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | On itself, when it hits you | 3 | 2 rounds | 20% | Elm 5f 1, Elm 5f 2 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | On itself, when it hits you | 2 | 2 rounds | 20% | Elm 5f 1, Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted. Note that resistance also applies to beneficial conditions: it lowers the chance of receiving this one from sources with a chance below 100%.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted. Yes, it also lowers your chance of getting this *beneficial* one.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

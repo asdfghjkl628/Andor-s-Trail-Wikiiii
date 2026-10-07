@@ -56,15 +56,15 @@ description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynma
 |---|---|---|---|---|
 | [Nightmare](../monsters/guynmart_mare.md#v-guynmart_mare0) | 0 | 0–0 | 1 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
-| [Torturer](../monsters/guynmart_tort1.md) | 120 | 5–20 | 1 | appears later, during a quest |
 | [Nightmare](../monsters/guynmart_mare.md) | 120 | 8–25 | 2 | appears later, during a quest |
+| [Torturer](../monsters/guynmart_tort1.md) | 120 | 5–20 | 1 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
 - [Roses](../quests/guynmart.md): [Lovis](../monsters/guynmart_lovis.md) is involved; blocked passage opens at stage 136; something on this map advances it
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): [Lovis](../monsters/guynmart_lovis.md) is involved
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): [Lovis](../monsters/guynmart_lovis.md) is involved
 
 ## Points of interest
 

@@ -1,10 +1,10 @@
 ---
-description: "Ortholion's henchman is a non-player character (NPC) in Andor's Trail, found in elm_3f."
+description: "Ortholion's henchman is a non-player character (NPC) in Andor's Trail, found in Elm 3f."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Ortholion's henchman
 
-**Where to find Ortholion's henchman:** [elm_3f](../maps/elm_3f.md#pin-npc-ortholion_guard9)
+**Where to find Ortholion's henchman:** [Elm 3f](../maps/elm_3f.md#pin-npc-ortholion_guard9)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ortholion's henchman is a non-player character (NPC) in Andor's Tr
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | elm_3f |
+| **Found in** | Elm 3f |
 | **Entry ID** | `ortholion_guard9` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
@@ -22,11 +22,11 @@ description: "Ortholion's henchman is a non-player character (NPC) in Andor's Tr
 ## Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stage 50
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 34, 35
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 34, 35
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ortholion's henchman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ortholion's henchman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard9_s.json" data-npc="Ortholion&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,21 +34,21 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard9_s"></span>**`ortholion_guard9_s`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 35 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-35))* → [ortholion_guard9_11](#d-ortholion_guard9_11)
+    - branch 1 *(if reached stage 35 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-35))* → [ortholion_guard9_11](#d-ortholion_guard9_11)
     - branch 2 *(if reached stage 50 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-50))* → [ortholion_guard9_10a](#d-ortholion_guard9_10a)
     - branch 3 *(if 6 rounds passed since timer “elm3f_grow”)* → [ortholion_guard9_3](#d-ortholion_guard9_3)
     - branch 4 → [ortholion_guard9_1](#d-ortholion_guard9_1)
 
-    <span id="d-ortholion_guard9_11"></span>**`ortholion_guard9_11`** Ortholion's henchman: “I will leave this place right now and come back with more men anyway! Kids these days...Annoying.” — **effects:** clears stage 34 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-34), sets stage 50 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-50), sets stage 35 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-35)
+    <span id="d-ortholion_guard9_11"></span>**`ortholion_guard9_11`** Ortholion's henchman: “I will leave this place right now and come back with more men anyway! Kids these days...Annoying.” — **effects:** clears stage 34 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-34), sets stage 50 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-50), sets stage 35 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-35)
 
     - “Goodbye!” → *NPC leaves*
     - “Whatever, I'm leaving.” → *NPC leaves*
 
-    <span id="d-ortholion_guard9_10a"></span>**`ortholion_guard9_10a`** Ortholion's henchman: “I knew I could count on you! This sign of bravery won't be forgotten.” — **effects:** clears stage 34 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-34), sets stage 50 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-50)
+    <span id="d-ortholion_guard9_10a"></span>**`ortholion_guard9_10a`** Ortholion's henchman: “I knew I could count on you! This sign of bravery won't be forgotten.” — **effects:** clears stage 34 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-34), sets stage 50 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-50)
 
     - “See you soon, sir.” → *NPC leaves*
     - “Whatever. Step aside, I'm leading the way!” → *NPC leaves*
@@ -61,13 +61,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ortholion_guard9_1"></span>**`ortholion_guard9_1`** Ortholion's henchman: “Be quiet.”
 
     - “What?” → [ortholion_guard9_1](#d-ortholion_guard9_1)
-    - “Why?” *(if NOT reached stage 34 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-34))* → [orhtolion_guard9_2](#d-orhtolion_guard9_2)
+    - “Why?” *(if NOT reached stage 34 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-34))* → [orhtolion_guard9_2](#d-orhtolion_guard9_2)
 
     <span id="d-ortholion_guard9_4"></span>**`ortholion_guard9_4`** Ortholion's henchman: “General...Oh! That's right. I don't think this is the right way.”
 
     - Next → [ortholion_guard9_5](#d-ortholion_guard9_5)
 
-    <span id="d-orhtolion_guard9_2"></span>**`orhtolion_guard9_2`** Ortholion's henchman: “Look *points to the large crystals*...It grows.” — **effects:** sets stage 34 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-34), starts timer “elm3f_grow”
+    <span id="d-orhtolion_guard9_2"></span>**`orhtolion_guard9_2`** Ortholion's henchman: “Look *points to the large crystals*...It grows.” — **effects:** sets stage 34 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-34), starts timer “elm3f_grow”
 
     - “[Look]” → *conversation ends*
 

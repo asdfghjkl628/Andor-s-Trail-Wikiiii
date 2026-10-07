@@ -81,7 +81,7 @@ Then he even banned the trade and use of heartsteel weapons as he feared they wo
 
 ### Found in containers
 
-- [brimhaven_school](../maps/brimhaven_school.md#container-1) (container 2, 100%), Brimhaven
+- [Brimhaven school](../maps/brimhaven_school.md#container-1) (container 2, 100%), Brimhaven
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -93,8 +93,8 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Arcir](../monsters/arcir.md) | – | must be carried (1×) | “I have a book about world history. Interested?” |
-| [Librarian](../monsters/ratdom_librarian.md) ([ratdom_maze_611](../maps/ratdom_maze_611.md)) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-95) | handed over (1×) | “Here I have a new book for your library.” |
-| [Librarian](../monsters/ratdom_librarian.md) ([ratdom_maze_611](../maps/ratdom_maze_611.md)) | – | must be carried (1×) | “N” |
+| [Librarian](../monsters/ratdom_librarian.md) ([Ratdom maze 611](../maps/ratdom_maze_611.md)) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-95) | handed over (1×) | “Here I have a new book for your library.” |
+| [Librarian](../monsters/ratdom_librarian.md) ([Ratdom maze 611](../maps/ratdom_maze_611.md)) | – | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

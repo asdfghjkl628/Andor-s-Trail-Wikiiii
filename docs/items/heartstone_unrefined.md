@@ -25,7 +25,7 @@ description: "Heartstone is a quest gem in Andor's Trail. How to get it: quests 
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [undertell_10](../maps/undertell_10.md) during [Lost treasures](../quests/nocmar.md#stage-45) (1×)
+- From walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) during [Lost treasures](../quests/nocmar.md#stage-45) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 |---|---|---|---|
 | [Nocmar](../monsters/nocmar.md) | [Lost treasures](../quests/nocmar.md#stage-48) | must be carried (1×) | “Yes, at last I found it.” |
 | [Nocmar](../monsters/nocmar.md) | – | must be carried (1×) | “Actually, I found two. [extend your hands, one stone in each]” |
-| walking into a blocked passage on [undertell_10](../maps/undertell_10.md) | [Lost treasures](../quests/nocmar.md#stage-60) | handed over (1×) | “N” |
-| walking into a blocked passage on [undertell_10](../maps/undertell_10.md) | – | must be carried (1×) | “(automatic)” |
+| walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) | [Lost treasures](../quests/nocmar.md#stage-60) | handed over (1×) | “N” |
+| walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

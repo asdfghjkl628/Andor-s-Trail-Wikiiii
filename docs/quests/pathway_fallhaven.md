@@ -11,9 +11,9 @@ description: "A path to the Duleian Road is a quest in Andor's Trail, started by
 | **Quest ID** | `pathway_fallhaven` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 60) |
-| **Started by** | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) |
+| **Started by** | [Watchman](../monsters/guard_pathway.md) ([Fallhaven north-east](../maps/fallhaven_ne.md)) |
 | **NPCs involved** | [Guard captain](../monsters/warden.md), [Jakrar](../monsters/jakrar.md), [Watchman](../monsters/guard_pathway.md) |
-| **Locations** | [fallhaven_ne](../maps/fallhaven_ne.md), [fallhaven_prison](../maps/fallhaven_prison.md), [fallhaven_sw](../maps/fallhaven_sw.md) |
+| **Locations** | [Fallhaven north-east](../maps/fallhaven_ne.md), [Fallhaven prison](../maps/fallhaven_prison.md), [Fallhaven south-west](../maps/fallhaven_sw.md) |
 | **Total XP** | 1,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "A path to the Duleian Road is a quest in Andor's Trail, started by
 
 ## Prerequisites to start
 
-None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) to begin.
+None: talk to [Watchman](../monsters/guard_pathway.md) ([Fallhaven north-east](../maps/fallhaven_ne.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -41,49 +41,96 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I talked to a guard in the east of Fallhaven. He watches over the old passage to the Duleian Road, which is now blocked by fallen trees. If I want to help opening the path I should talk to his superior, the guard captain in the Fallhaven prison. | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) | – | – |
-| <span id="stage-20"></span>20 | I talked to the guard captain. I wasn't able to convince him, but he advised me to talk to the woodcutter Jakrar, who lives just south of Fallhaven's prison. | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | I talked to Jakrar the woodcutter. He will only clear the trees away if I do him a favor. I should search for his favorite axe east of the Crossroads Guardhouse, located to the north of Fallhaven. I should keep my eyes open for an evil wolf pack.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md).</span> | [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 20 | – |
-| <span id="stage-35"></span>35 | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md).</span> | stepping on a trigger on [roadbeforecrossroads](../maps/roadbeforecrossroads.md) | – | – |
-| <span id="stage-40"></span>40 | I showed Jakrar the axe I found and he recognized it immediately. | [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | hand over 1× [Jakrar's woodcutting axe](../items/jakrar_axe.md), stage 30 | – |
-| <span id="stage-50"></span>50 | Jakrar was very happy to see his good old axe again. He expressed his gratitude, and started to clear away the trees immediately. | [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 40 | – |
-| <span id="stage-60"></span>60 | Now the woodcutter has cleared away all the trees that blocked the path. Finally, the townsfolk have got back their shortcut to the Duleian Road! **(completes quest)** | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) | stage 50 | 700 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I talked to a guard in the east of Fallhaven. He watches over the… ▸</span><span class="l">▴ less</span></summary>I talked to a guard in the east of Fallhaven. He watches over the old passage to the Duleian Road, which is now blocked by fallen trees. If I want to help opening the path I should talk to his superior, the guard captain in the Fallhaven prison.</details> | [Watchman](../monsters/guard_pathway.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I talked to the guard captain. I wasn't able to convince him, but he… ▸</span><span class="l">▴ less</span></summary>I talked to the guard captain. I wasn't able to convince him, but he advised me to talk to the woodcutter Jakrar, who lives just south of Fallhaven's prison.</details> | [Guard captain](../monsters/warden.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I talked to Jakrar the woodcutter. He will only clear the trees away… ▸</span><span class="l">▴ less</span></summary>I talked to Jakrar the woodcutter. He will only clear the trees away if I do him a favor. I should search for his favorite axe east of the Crossroads Guardhouse, located to the north of Fallhaven. I should keep my eyes open for an evil wolf pack.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md).</span> | [Jakrar](../monsters/jakrar.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md).</span> | stepping on a trigger on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I showed Jakrar the axe I found and he recognized it immediately. | [Jakrar](../monsters/jakrar.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Jakrar was very happy to see his good old axe again. He expressed… ▸</span><span class="l">▴ less</span></summary>Jakrar was very happy to see his good old axe again. He expressed his gratitude, and started to clear away the trees immediately.</details> | [Jakrar](../monsters/jakrar.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Now the woodcutter has cleared away all the trees that blocked the… ▸</span><span class="l">▴ less</span></summary>Now the woodcutter has cleared away all the trees that blocked the path. Finally, the townsfolk have got back their shortcut to the Duleian Road!</details> **(ends quest)** | [Watchman](../monsters/guard_pathway.md) | 700 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) → choose “You're right, but I'd really love to be able to take this path.” → **stage 10**. NPC: “OK, maybe you can be of use. Talk to the guard captain. Maybe you can convince him to pay the woodcutter first. But I…”
+??? note "Stage 10 · Watchman · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Watchman](../monsters/guard_pathway.md), choose “You're right, but I'd really love to be able to take this path.”
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “So where can I find him?” — **conditions:** reached stage 60 of [Night visit](../quests/farrik.md#stage-60); latest stage of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-10) is 10 → **stage 20**. NPC: “He lives in his hut, immediately south of my prison. Don't you bother me again!”
+    - *“OK, maybe you can be of use. Talk to the guard captain. Maybe you can convince him to pay the woodcutter first. But I have to warn you, he…”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “So I guess you want me to retrieve your axe?” — **conditions:** latest stage of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-20) is 20 → **stage 30**. NPC: “Yes exactly. If you would do me that favor I will gladly cut away the trees and receive payment afterwards. Just head…”
+<span id="route-20"></span>
 
-???+ note "Stage 35: 1 route"
+??? note "Stage 20 · Guard captain · 1 way"
 
-    1. stepping on a trigger on [roadbeforecrossroads](../maps/roadbeforecrossroads.md) → the conversation leads here automatically — **conditions:** killed 1× [Korvan the leader of the wolves](../monsters/wolf_leader.md); NOT reached stage 35 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-35) → **stage 35**. NPC: “You have found Jakrar's axe next to the body of the beast.”
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “So where can I find him?”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** reached stage 60 of [Night visit](../quests/farrik.md#stage-60); latest stage of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-10) is 10
+    - *“He lives in his hut, immediately south of my prison. Don't you bother me again!”*
 
-    1. Talk to [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Hello again! I've finally found your axe!” — **conditions:** reached stage 30 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-30); hand over 1× [Jakrar's woodcutting axe](../items/jakrar_axe.md) → **stage 40**. NPC: “Let me see... Oh yes! This is my axe! I cannot thank you enough!”
 
-???+ note "Stage 50: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “So will you cut away those trees that block the old pathway?” — **conditions:** reached stage 40 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-40); NOT reached stage 50 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-50) → **stage 50**. NPC: “Sure! Already on my way! The work will be finished soon.”
+??? note "Stage 30 · Jakrar · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Talk to [Jakrar](../monsters/jakrar.md), choose “So I guess you want me to retrieve your axe?”
 
-    1. Talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-50) → **stage 60**. NPC: “Hello again. It seems like you have sorted things out. Now the passage isn't blocked anymore. You have my gratitude…”
+    - **Needs:** latest stage of [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-20) is 20
+    - *“Yes exactly. If you would do me that favor I will gladly cut away the trees and receive payment afterwards. Just head north to the…”*
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · stepping on a trigger on roadbeforecrossroads · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md)
+
+    - **Needs:** not yet stage 35; killed 1× [Korvan the leader of the wolves](../monsters/wolf_leader.md)
+    - *“You have found Jakrar's axe next to the body of the beast.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Jakrar · 1 way"
+
+    **Way 1:** Talk to [Jakrar](../monsters/jakrar.md), choose “Hello again! I've finally found your axe!”
+
+    - **Needs:** stage 30; hand over 1× [Jakrar's woodcutting axe](../items/jakrar_axe.md)
+    - *“Let me see... Oh yes! This is my axe! I cannot thank you enough!”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Jakrar · 1 way"
+
+    **Way 1:** Talk to [Jakrar](../monsters/jakrar.md), choose “So will you cut away those trees that block the old pathway?”
+
+    - **Needs:** stage 40; not yet stage 50
+    - *“Sure! Already on my way! The work will be finished soon.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Watchman · 1 way"
+
+    **Way 1:** Talk to [Watchman](../monsters/guard_pathway.md), automatic
+
+    - **Needs:** stage 50
+    - *“Hello again. It seems like you have sorted things out. Now the passage isn't blocked anymore. You have my gratitude for doing that.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

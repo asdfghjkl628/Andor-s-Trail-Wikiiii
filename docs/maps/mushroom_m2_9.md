@@ -1,8 +1,8 @@
 ---
-description: "Mushroom m2 9 is an indoor location in Andor's Trail. Enemies: Quick lombric ball, Mature lombric ball. Exits to Mushroom m2 8, Mushroom m2 10."
+description: "Mushroom m 2 9 is an indoor location in Andor's Trail. Enemies: Quick lombric ball, Mature lombric ball. Exits to Mushroom m 2 8, Mushroom m 2 10."
 ---
 
-# Mushroom m2 9
+# Mushroom m 2 9
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Mushroom m2 9 is an indoor location in Andor's Trail. Enemies: Qui
 
 </div>
 
-**Mushroom m2 9** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Mushroom m2 8, Mushroom m2 10.
+**Mushroom m 2 9** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Mushroom m 2 8, Mushroom m 2 10.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mushroom_m2_9.webp" alt="Map of Mushroom m2 9" width="960" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mushroom_m2_8/#place-west" title="Exit to Mushroom m2 8" style="left:96.667%;top:33.333%;width:3.333%;height:33.333%"></a><a id="place-west" class="mo mo-mapchange" href="../mushroom_m2_10/#place-east" title="Exit to Mushroom m2 10" style="left:0.000%;top:33.333%;width:3.333%;height:33.333%"></a><span class="mo mo-spawn" title="Spawns: Mature lombric ball" style="left:76.667%;top:33.333%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Mature lombric ball" style="left:76.667%;top:55.556%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Quick lombric ball" style="left:36.667%;top:33.333%;width:30.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Quick lombric ball" style="left:6.667%;top:33.333%;width:23.333%;height:33.333%"></span><a class="mob" href="../../monsters/lombric_ball2/" title="Mature lombric ball" style="left:76.667%;top:33.333%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_139.png" alt="Mature lombric ball"></a><a class="mob" href="../../monsters/lombric_ball2/" title="Mature lombric ball" style="left:83.333%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_139.png" alt="Mature lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:46.667%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:63.333%;top:44.444%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:16.667%;top:44.444%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:10.000%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:50.000%" title="Exit (east): to [Mushroom m2 8](mushroom_m2_8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:50.000%" title="Exit (west): to [Mushroom m2 10](mushroom_m2_10.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mushroom_m2_9.webp" alt="Map of Mushroom m 2 9" width="960" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mushroom_m2_8/#place-west" title="Exit to Mushroom m 2 8" style="left:96.667%;top:33.333%;width:3.333%;height:33.333%"></a><a id="place-west" class="mo mo-mapchange" href="../mushroom_m2_10/#place-east" title="Exit to Mushroom m 2 10" style="left:0.000%;top:33.333%;width:3.333%;height:33.333%"></a><span class="mo mo-spawn" title="Spawns: Mature lombric ball" style="left:76.667%;top:33.333%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Mature lombric ball" style="left:76.667%;top:55.556%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Quick lombric ball" style="left:36.667%;top:33.333%;width:30.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Quick lombric ball" style="left:6.667%;top:33.333%;width:23.333%;height:33.333%"></span><a class="mob" href="../../monsters/lombric_ball2/" title="Mature lombric ball" style="left:76.667%;top:33.333%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_139.png" alt="Mature lombric ball"></a><a class="mob" href="../../monsters/lombric_ball2/" title="Mature lombric ball" style="left:83.333%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_139.png" alt="Mature lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:46.667%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:63.333%;top:44.444%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:16.667%;top:44.444%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="mob" href="../../monsters/lombric_ball3/" title="Quick lombric ball" style="left:10.000%;top:55.556%;width:3.333%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles2_167.png" alt="Quick lombric ball"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:50.000%" title="Exit (east): to [Mushroom m 2 8](mushroom_m2_8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:50.000%" title="Exit (west): to [Mushroom m 2 10](mushroom_m2_10.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Mushroom m2 8](mushroom_m2_8.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Mushroom m2 10](mushroom_m2_10.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Mushroom m 2 8](mushroom_m2_8.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Mushroom m 2 10](mushroom_m2_10.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Mushroom m2 9 is an indoor location in Andor's Trail. Enemies: Qui
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Mushroom m2 8](mushroom_m2_8.md) | – | 1 |
-| West | [Mushroom m2 10](mushroom_m2_10.md) | – | 2 |
+| East | [Mushroom m 2 8](mushroom_m2_8.md) | – | 1 |
+| West | [Mushroom m 2 10](mushroom_m2_10.md) | – | 2 |
 
 ## Enemies
 

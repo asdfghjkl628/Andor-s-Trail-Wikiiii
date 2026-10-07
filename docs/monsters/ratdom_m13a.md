@@ -4,7 +4,7 @@ description: "Young roundling is an enemy in Andor's Trail (animal) with 30 HP, 
 
 # ![](../assets/icons/monsters/monsters_eye1_0.png){ .sprite } Young roundling
 
-**Found in:** Museum: [ratdom_maze_625](../maps/ratdom_maze_625.md), Pub: [ratdom_maze_616](../maps/ratdom_maze_616.md), Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md)
+**Found in:** Museum: [Ratdom maze 625](../maps/ratdom_maze_625.md), Pub: [Ratdom maze 616](../maps/ratdom_maze_616.md), Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md)
 
 <div class="infobox" markdown>
 
@@ -48,9 +48,9 @@ description: "Young roundling is an enemy in Andor's Trail (animal) with 30 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_616](../maps/ratdom_maze_616.md) | Pub | 2 | – |
-| [ratdom_maze_625](../maps/ratdom_maze_625.md) | Museum | 2 | – |
-| [ratdom_maze_627](../maps/ratdom_maze_627.md) | Roundlings | 2 | – |
+| [Ratdom maze 616](../maps/ratdom_maze_616.md) | Pub | 2 | – |
+| [Ratdom maze 625](../maps/ratdom_maze_625.md) | Museum | 2 | – |
+| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | – |
 
 
 ## Version history

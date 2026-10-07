@@ -11,7 +11,7 @@ description: "Undertell 10 is an indoor location in Andor's Trail. Enemies: Dryb
 | **Map ID** | `undertell_10` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell floor1](index.md) |
+| **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 5 |
 | **Quests** | 2 |
@@ -54,8 +54,8 @@ description: "Undertell 10 is an indoor location in Andor's Trail. Enemies: Dryb
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Drybone lich](../monsters/drybone_lich.md) | 212 | 8–10 | 4 | – |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 232 | 9–11 | 1 | – |
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 232 | 9–11 | 1 | – |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 232 | 9–11 | 1 | – |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 | 15–21 | 5 | – |
 | [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 1 | – |
 
@@ -65,7 +65,7 @@ description: "Undertell 10 is an indoor location in Andor's Trail. Enemies: Dryb
 
 - [Lost treasures](../quests/nocmar.md): blocked passage closes at stage 48; part of the map changes at stage 45; part of the map changes at stage 60; something on this map advances it
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
 
 ## Points of interest
 

@@ -4,7 +4,7 @@ description: "Stiyl is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Stiyl
 
-**Where to find Stiyl:** Brightport: [brightport_temple1](../maps/brightport_temple1.md#pin-npc-brightportpriest1)
+**Where to find Stiyl:** Brightport: [Brightport temple 1](../maps/brightport_temple1.md#pin-npc-brightportpriest1)
 
 <div class="infobox" markdown>
 
@@ -30,11 +30,11 @@ description: "Stiyl is a non-player character (NPC) in Andor's Trail, found in B
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 10
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stiyl. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stiyl. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_priest_1.json" data-npc="Stiyl" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,16 +42,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_priest_1"></span>**`brightport_priest_1`** [Stiyl](../monsters/brightportpriest1.md): “Hello there, child. Are you perhaps interested in following the Shadow?”
 
     - “I'm searching for my brother, Andor. Have you seen him?” → [brightport_priest_1_reply1](#d-brightport_priest_1_reply1)
     - “How do I follow the Shadow?” → [brightport_priest_1_reply2](#d-brightport_priest_1_reply2)
     - “Could you provide me with supplies?” → *shop opens*
-    - “I've visited the chapel, and for a town of this size, it's surprisingly small.” *(if reached stage 5 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-5); NOT reached stage 10 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story](#d-brightport_priest_story)
-    - “Can you tell me the story about the temple again?” *(if reached stage 10 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story1](#d-brightport_priest_story1)
-    - “I heard a rumor from one of the guards about a place called the Water Temple.” *(if reached stage 251 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-251); NOT reached stage 10 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story1](#d-brightport_priest_story1)
+    - “I've visited the chapel, and for a town of this size, it's surprisingly small.” *(if reached stage 5 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-5); NOT reached stage 10 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story](#d-brightport_priest_story)
+    - “Can you tell me the story about the temple again?” *(if reached stage 10 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story1](#d-brightport_priest_story1)
+    - “I heard a rumor from one of the guards about a place called the Water Temple.” *(if reached stage 251 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-251); NOT reached stage 10 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-10))* → [brightport_priest_story1](#d-brightport_priest_story1)
     - “All this Shadow stuff. What a bunch of nonsense.” → [brightport_priest_1_reply](#d-brightport_priest_1_reply)
 
     <span id="d-brightport_priest_1_reply1"></span>**`brightport_priest_1_reply1`** [Stiyl](../monsters/brightportpriest1.md): “I'm sorry, there are many students from the academy playing, and their faces are not imprinted on my memory.”
@@ -67,7 +67,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_priest_story1](#d-brightport_priest_story1)
 
-    <span id="d-brightport_priest_story1"></span>**`brightport_priest_story1`** [Stiyl](../monsters/brightportpriest1.md): “In the past, the chapel was only a minor shrine. The people of Brightport used to worship the Shadow at the great Water Temple.” — **effects:** sets stage 10 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-10)
+    <span id="d-brightport_priest_story1"></span>**`brightport_priest_story1`** [Stiyl](../monsters/brightportpriest1.md): “In the past, the chapel was only a minor shrine. The people of Brightport used to worship the Shadow at the great Water Temple.” — **effects:** sets stage 10 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-10)
 
     - Next → [brightport_priest_story2](#d-brightport_priest_story2)
 

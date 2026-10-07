@@ -4,7 +4,7 @@ description: "Benbyr is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } Benbyr
 
-**Where to find Benbyr:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-benbyr)
+**Where to find Benbyr:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-benbyr)
 
 <div class="infobox" markdown>
 
@@ -28,7 +28,7 @@ description: "Benbyr is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Benbyr. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Benbyr. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/benbyr.json" data-npc="Benbyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (46 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-benbyr"></span>**`benbyr`** *(silent check: the first matching branch below is taken)*
 
@@ -241,7 +241,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”<br>· text: “You look like an aspiring adventurer. Are you willing to do some .. (…” → “You look like an aspiring adventurer. Are you willing to do some ... …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines added, 1 line changed |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “(This man seems to be inmersed in his thoughts)” → “(This man seems to be immersed in his thoughts)” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 15 lines added, 1 line changed |

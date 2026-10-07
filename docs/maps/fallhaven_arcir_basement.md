@@ -45,7 +45,7 @@ description: "Fallhaven arcir basement is an indoor location in Andor's Trail, i
 ## Quests
 
 - [Calomyran secrets](../quests/calomyran.md): something on this map advances it
-- [Elythara (hidden flag)](../quests/arcir.md): something on this map advances it
+- [Elythara (Arcir) flags (hidden flag)](../quests/arcir.md): something on this map advances it
 
 ## Points of interest
 

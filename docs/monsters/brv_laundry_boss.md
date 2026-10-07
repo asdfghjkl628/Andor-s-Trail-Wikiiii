@@ -4,7 +4,7 @@ description: "Venanra is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_187.png){ .sprite } Venanra
 
-**Where to find Venanra:** Brimhaven: [brimhaven2_laundry](../maps/brimhaven2_laundry.md#pin-npc-brv_laundry_boss)
+**Where to find Venanra:** Brimhaven: [Brimhaven 2 laundry](../maps/brimhaven2_laundry.md#pin-npc-brv_laundry_boss)
 
 <div class="infobox" markdown>
 
@@ -29,12 +29,12 @@ description: "Venanra is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [A strange looking dagger](../quests/brv_dagger.md): stage 180
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 40
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stages 10, 15
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stages 10, 15
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 40
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Venanra. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Venanra. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_laundry_boss_0.json" data-npc="Venanra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,18 +42,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_laundry_boss_0"></span>**`brv_laundry_boss_0`** Venanra: “Hello, what can I do for you?”
 
-    - “Can you sell me something?” *(if NOT reached stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10))* → [brv_laundry_boss_1](#d-brv_laundry_boss_1)
-    - “I want to buy the dresses.” *(if reached stage 15 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-15))* → *shop opens*
-    - “I want you to improve some of my clothes.” *(if reached stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10))* → [brv_laundry_boss_4](#d-brv_laundry_boss_4)
+    - “Can you sell me something?” *(if NOT reached stage 10 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10))* → [brv_laundry_boss_1](#d-brv_laundry_boss_1)
+    - “I want to buy the dresses.” *(if reached stage 15 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-15))* → *shop opens*
+    - “I want you to improve some of my clothes.” *(if reached stage 10 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10))* → [brv_laundry_boss_4](#d-brv_laundry_boss_4)
     - “I am looking for my brother, Andor. He looks a bit like me.” → [brv_laundry_boss_0b](#d-brv_laundry_boss_0b)
     - “Have you ever seen a glove like this? [Shows Venanra the glove.]” *(if reached stage 170 of [A strange looking dagger](../quests/brv_dagger.md#stage-170); carry 1× [Suspect's glove](../items/ogea_glove.md))* → [brv_laundry_boss_10](#d-brv_laundry_boss_10)
     - “Did you order an 'Old, worn cape'?” *(if hand over 1× [Old, worn cape](../items/brv_wh_item_06.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50))* → [brv_wh_delivery_venanra](#d-brv_wh_delivery_venanra)
 
-    <span id="d-brv_laundry_boss_1"></span>**`brv_laundry_boss_1`** Venanra: “We are working on some nice green dresses. We can also repair and improve your clothes.” — **effects:** sets stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10), sets stage 15 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-15)
+    <span id="d-brv_laundry_boss_1"></span>**`brv_laundry_boss_1`** Venanra: “We are working on some nice green dresses. We can also repair and improve your clothes.” — **effects:** sets stage 10 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10), sets stage 15 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-15)
 
     - “I want to buy the dresses.” → *shop opens*
     - “What clothes can be improved and how much does it cost?” → [brv_laundry_boss_4](#d-brv_laundry_boss_4)
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Can you remember who the customer was?” → [brv_laundry_boss_20](#d-brv_laundry_boss_20)
 
-    <span id="d-brv_wh_delivery_venanra"></span>**`brv_wh_delivery_venanra`** Venanra: “Yes I did, kid. Incredibly, it has become the latest fashion to buy new capes with holes. Here's my delivery fee.” — **effects:** clears stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 40 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40), gives 10× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_venanra"></span>**`brv_wh_delivery_venanra`** Venanra: “Yes I did, kid. Incredibly, it has become the latest fashion to buy new capes with holes. Here's my delivery fee.” — **effects:** clears stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 40 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40), gives 10× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 

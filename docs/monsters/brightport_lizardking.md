@@ -4,7 +4,7 @@ description: "Three-fang-elyzard is an NPC who can also be fought in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_johny_2.png){ .sprite } Three-fang-elyzard
 
-**Where to find Three-fang-elyzard:** Greenscale tribe: [brightport_lizard1](../maps/brightport_lizard1.md#pin-npc-brightport_lizardking)
+**Where to find Three-fang-elyzard:** Greenscale tribe: [Brightport lizard 1](../maps/brightport_lizard1.md#pin-npc-brightport_lizardking)
 
 <div class="infobox" markdown>
 
@@ -60,21 +60,21 @@ description: "Three-fang-elyzard is an NPC who can also be fought in Andor's Tra
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_lizard1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
+| [Brightport lizard 1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
 
 ## Quests that count defeats
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [brightport_cave17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
-- [The balance of scales](../quests/brightport_lizard.md#stage-32) with stepping on a trigger on [brightport_lizard1](../maps/brightport_lizard1.md) checks that this enemy has been defeated.
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [Brightport cave 17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
+- [The balance of scales](../quests/brightport_lizard.md#stage-32) with stepping on a trigger on [Brightport lizard 1](../maps/brightport_lizard1.md) checks that this enemy has been defeated.
 
 ## Quests
 
 - [The balance of scales](../quests/brightport_lizard.md): stages 40, 60, 90, 95
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 117, 118
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 117, 118
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Three-fang-elyzard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Three-fang-elyzard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_lizardking.json" data-npc="Three-fang-elyzard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -82,7 +82,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_lizardking"></span>**`brightport_lizardking`** *(silent check: the first matching branch below is taken)*
 
@@ -96,7 +96,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_elyzard4"></span>**`brightport_elyzard4`** Three-fang-elyzard: “Help the Shadow Chaplain with task, only then our trust be restored.”
 
-    - “I helped Dominio with his task.” *(if reached stage 127 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-127))* → [brightport_elyzard5](#d-brightport_elyzard5)
+    - “I helped Dominio with his task.” *(if reached stage 127 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-127))* → [brightport_elyzard5](#d-brightport_elyzard5)
 
     <span id="d-brightport_elyzard1"></span>**`brightport_elyzard1`** Three-fang-elyzard: “Outsider, have you returned with the bones?”
 
@@ -123,13 +123,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_elyzard0](#d-brightport_elyzard0)
 
-    <span id="d-brightport_lizardkingfight"></span>**`brightport_lizardkingfight`** [Three-fang-elyzard](../monsters/brightport_lizardking.md): “Despicable creature, you show your true self before us. Your days end!” — **effects:** faction “lizardman” set to -110, sets stage 118 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-118), faction “lizardfight” set to -110
+    <span id="d-brightport_lizardkingfight"></span>**`brightport_lizardkingfight`** [Three-fang-elyzard](../monsters/brightport_lizardking.md): “Despicable creature, you show your true self before us. Your days end!” — **effects:** faction “lizardman” set to -110, sets stage 118 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-118), faction “lizardfight” set to -110
 
-    - Next *(if NOT reached stage 117 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-117))* → [brightport_lizardfight](#d-brightport_lizardfight)
+    - Next *(if NOT reached stage 117 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-117))* → [brightport_lizardfight](#d-brightport_lizardfight)
 
     <span id="d-brightport_elyzard6"></span>**`brightport_elyzard6`** Three-fang-elyzard: “Our trust is given, what else do you wish to ask for.”
 
-    - “Would you agree to trade Bryma the bones of animals you hunt?” *(if reached stage 221 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-221))* → [brightport_elyzard7](#d-brightport_elyzard7)
+    - “Would you agree to trade Bryma the bones of animals you hunt?” *(if reached stage 221 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-221))* → [brightport_elyzard7](#d-brightport_elyzard7)
     - “Peace is enough.” → [brightport_elyzard9](#d-brightport_elyzard9)
 
     <span id="d-brightport_elyzard3"></span>**`brightport_elyzard3`** Three-fang-elyzard: “Speak with Dominio our Shadow chaplain, he will tell you the task.” — **effects:** sets stage 60 of [The balance of scales](../quests/brightport_lizard.md#stage-60)
@@ -138,10 +138,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_elyzard0"></span>**`brightport_elyzard0`** [Tail-swing-tyliad](../monsters/brightport_lizardadvisor.md): “Minion of the witch! From our burial chamber 13 bones of our ancestors were shamelessly stolen. Return them to us or we will return them ourselves.” — **effects:** sets stage 40 of [The balance of scales](../quests/brightport_lizard.md#stage-40)
 
 
-    <span id="d-brightport_lizardfight"></span>**`brightport_lizardfight`** *(silent check: the first matching branch below is taken)* — **effects:** spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_lizard1, sets stage 117 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-117), faction “lizardfight” set to -111, removes monsters from brightport_lizard3, removes monsters from brightport_lizard2, removes monsters from brightport_lizard3, removes monsters from brightport_lizard1, removes monsters from brightport_lizard1
+    <span id="d-brightport_lizardfight"></span>**`brightport_lizardfight`** *(silent check: the first matching branch below is taken)* — **effects:** spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_cave17, spawns monsters on brightport_lizard1, sets stage 117 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-117), faction “lizardfight” set to -111, removes monsters from brightport_lizard3, removes monsters from brightport_lizard2, removes monsters from brightport_lizard3, removes monsters from brightport_lizard1, removes monsters from brightport_lizard1
 
-    - Next *(if NOT reached stage 118 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-118))* → [brightport_lizardfight1_1](#d-brightport_lizardfight1_1)
-    - Next *(if reached stage 118 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-118))* → [brightport_lizardkingfight1](#d-brightport_lizardkingfight1)
+    - Next *(if NOT reached stage 118 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-118))* → [brightport_lizardfight1_1](#d-brightport_lizardfight1_1)
+    - Next *(if reached stage 118 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-118))* → [brightport_lizardkingfight1](#d-brightport_lizardkingfight1)
 
     <span id="d-brightport_elyzard7"></span>**`brightport_elyzard7`** Three-fang-elyzard: “It is agreed. Now go and rest well, we welcome you.” — **effects:** sets stage 95 of [The balance of scales](../quests/brightport_lizard.md#stage-95)
 

@@ -43,7 +43,7 @@ description: "Crossglen smith is an indoor location in Andor's Trail, in Crossgl
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): blocked passage opens at stage 5
+- [General story flags (hidden flag)](../quests/nondisplay.md): blocked passage opens at stage 5
 
 ## Points of interest
 

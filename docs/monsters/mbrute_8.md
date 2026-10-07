@@ -1,10 +1,10 @@
 ---
-description: "Aggressive mountain brute is an enemy in Andor's Trail (giant) with 104 HP, worth 223 XP, found in mountainlake8, mountainlake9. Drops: Bone, Mundane ring."
+description: "Aggressive mountain brute is an enemy in Andor's Trail (giant) with 104 HP, worth 223 XP, found in Mountainlake 8, Mountainlake 9. Drops: Bone, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_34.png){ .sprite } Aggressive mountain brute
 
-**Found in:** [mountainlake8](../maps/mountainlake8.md), [mountainlake9](../maps/mountainlake9.md)
+**Found in:** [Mountainlake 8](../maps/mountainlake8.md), [Mountainlake 9](../maps/mountainlake9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Aggressive mountain brute is an enemy in Andor's Trail (giant) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake8, mountainlake9 |
+| **Found in** | Mountainlake 8, Mountainlake 9 |
 | **Class** | Giant |
 | **HP** | 104 |
 | **XP when defeated** | 223 |
@@ -55,8 +55,8 @@ description: "Aggressive mountain brute is an enemy in Andor's Trail (giant) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake8](../maps/mountainlake8.md) | – | 3 | – |
-| [mountainlake9](../maps/mountainlake9.md) | – | 7 | – |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 3 | – |
+| [Mountainlake 9](../maps/mountainlake9.md) | – | 7 | – |
 
 
 ## Version history

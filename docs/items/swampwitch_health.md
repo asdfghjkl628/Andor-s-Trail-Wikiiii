@@ -38,12 +38,12 @@ description: "Madame Mim's Medicine is a ordinary potion in Andor's Trail. How t
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 7 | swamp_hut |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 7 | Swamp hut |
 
 ### Quest & dialogue rewards
 
-- From [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) (2×)
-- From [Madame Mim](../monsters/swamp_witch.md) ([swamp_hut](../maps/swamp_hut.md)) during [Fog in the woods](../quests/fogmonster.md#stage-92) (1×)
+- From [Madame Mim](../monsters/swamp_witch.md) ([Swamp hut](../maps/swamp_hut.md)) (2×)
+- From [Madame Mim](../monsters/swamp_witch.md) ([Swamp hut](../maps/swamp_hut.md)) during [Fog in the woods](../quests/fogmonster.md#stage-92) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

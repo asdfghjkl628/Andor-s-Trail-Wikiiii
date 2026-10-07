@@ -1,10 +1,10 @@
 ---
-description: "Thorin is a non-player character (NPC) in Andor's Trail, found in mountaincave3. Shopkeeper; starts Bits and pieces."
+description: "Thorin is a non-player character (NPC) in Andor's Trail, found in Mountaincave 3. Shopkeeper; starts Bits and pieces."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } Thorin
 
-**Where to find Thorin:** [mountaincave3](../maps/mountaincave3.md#pin-npc-thorin)
+**Where to find Thorin:** [Mountaincave 3](../maps/mountaincave3.md#pin-npc-thorin)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Thorin is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper; starts [Bits and pieces](../quests/thorin.md) |
-| **Found in** | mountaincave3 |
+| **Found in** | Mountaincave 3 |
 | **Entry ID** | `thorin` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -32,7 +32,7 @@ description: "Thorin is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thorin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thorin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thorin.json" data-npc="Thorin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -40,7 +40,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (30 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thorin"></span>**`thorin`** *(silent check: the first matching branch below is taken)*
 
@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Oh yes. The upside of this cave is that it literally is crawling with…” → “Oh yes. The upside of this cave is that it literally is crawling with…”<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…”<br>· text: “Ok then. Please return when you have found them all. I would go searc…” → “OK then. Please return when you have found them all. I would go searc…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -4,7 +4,7 @@ description: "Fiamma is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_219.png){ .sprite } Fiamma
 
-**Where to find Fiamma:** Brightport: [brightport_weapon](../maps/brightport_weapon.md#pin-npc-brightportsmith)
+**Where to find Fiamma:** Brightport: [Brightport weapon](../maps/brightport_weapon.md#pin-npc-brightportsmith)
 
 <div class="infobox" markdown>
 
@@ -33,11 +33,11 @@ description: "Fiamma is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Too hot to handle](../quests/brightport_fiamma.md): stages 5, 10, 15, 20, 25, 30, 35, 40, 45, 50
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 87
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 87
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fiamma. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fiamma. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_fiamma_selector2.json" data-npc="Fiamma" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (28 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_fiamma_selector2"></span>**`brightport_fiamma_selector2`** *(silent check: the first matching branch below is taken)*
 
@@ -67,7 +67,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_smith"></span>**`brightport_smith`** [Fiamma](../monsters/brightportsmith.md): “Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread.”
 
     - “Could you show me what you have to sell?” → [brightport_fiamma_selector](#d-brightport_fiamma_selector)
-    - “That makes it sound like you're not a very good baker either.” *(if reached stage 87 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-87); NOT reached stage 20 of [Too hot to handle](../quests/brightport_fiamma.md#stage-20))* → [brightport_fiamma0](#d-brightport_fiamma0)
+    - “That makes it sound like you're not a very good baker either.” *(if reached stage 87 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-87); NOT reached stage 20 of [Too hot to handle](../quests/brightport_fiamma.md#stage-20))* → [brightport_fiamma0](#d-brightport_fiamma0)
     - “I have the cold lava rocks and arulir skin.” *(if hand over 15× [Cold Lava Rock](../items/lava_rock_cold.md); hand over 1× [Arulir skin](../items/arulir_skin.md); NOT reached stage 25 of [Too hot to handle](../quests/brightport_fiamma.md#stage-25); reached stage 15 of [Too hot to handle](../quests/brightport_fiamma.md#stage-15); reached stage 20 of [Too hot to handle](../quests/brightport_fiamma.md#stage-20))* → [brightport_fiamma9](#d-brightport_fiamma9)
     - “I have the cold lava rocks.” *(if carry 15× [Cold Lava Rock](../items/lava_rock_cold.md); reached stage 15 of [Too hot to handle](../quests/brightport_fiamma.md#stage-15); NOT reached stage 25 of [Too hot to handle](../quests/brightport_fiamma.md#stage-25); NOT carry 1× [Arulir skin](../items/arulir_skin.md))* → [brightport_fiamma_rocks](#d-brightport_fiamma_rocks)
     - “I have the red crystal here.” *(if hand over 1× [Red Crystals](../items/crystal_red.md); NOT reached stage 30 of [Too hot to handle](../quests/brightport_fiamma.md#stage-30); reached stage 20 of [Too hot to handle](../quests/brightport_fiamma.md#stage-20))* → [brightport_fiamma10](#d-brightport_fiamma10)
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_fiamma17](#d-brightport_fiamma17)
 
-    <span id="d-brightport_fiamma_selector"></span>**`brightport_fiamma_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 87 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-87)
+    <span id="d-brightport_fiamma_selector"></span>**`brightport_fiamma_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 87 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-87)
 
     - branch 1 → *shop opens*
 

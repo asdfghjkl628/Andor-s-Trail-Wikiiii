@@ -18,7 +18,7 @@ description: "Bela is a non-player character (NPC) in Andor's Trail. Shopkeeper;
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Bela. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Bela. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
@@ -49,11 +49,11 @@ description: "Bela is a non-player character (NPC) in Andor's Trail. Shopkeeper;
 - [A Wicked witch](../quests/wicked_witch.md): stage 10
 - [A giant snake](../quests/bela_gsnake.md): stages 10, 90
 - [You shall pass](../quests/undertell_barricades.md): stage 150
-- [Room to rent (hidden flag)](../quests/fallhaventavern.md): stage 10
+- [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md): stage 10
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bela. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bela. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bela_gsnake.json" data-npc="Bela" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (31 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bela-bela_gsnake"></span>**`bela_gsnake`** *(silent check: the first matching branch below is taken)*
 
@@ -118,7 +118,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-bela-bela_room_select"></span>**`bela_room_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 10 of [Room to rent (hidden flag)](../quests/fallhaventavern.md#stage-10))* → [bela_room_3](#d-bela-bela_room_3)
+    - branch 1 *(if reached stage 10 of [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md#stage-10))* → [bela_room_3](#d-bela-bela_room_3)
     - branch 2 → [bela_room_1](#d-bela-bela_room_1)
 
     <span id="d-bela-bela_beer"></span>**`bela_beer`** Bela: “Who is Torilo?”
@@ -161,7 +161,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “[Buy for 10 gold]” *(if pay 10 gold)* → [bela_room_2](#d-bela-bela_room_2)
     - “I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]” *(if NOT have 10 gold; reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1))* → [bela_room_2](#d-bela-bela_room_2)
-    - “Umar sent me.” *(if reached stage 20 of [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-20))* → [bela_room_2](#d-bela-bela_room_2)
+    - “Umar sent me.” *(if reached stage 20 of [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md#stage-20))* → [bela_room_2](#d-bela-bela_room_2)
     - “No thanks.” → [bela](#d-bela-bela)
 
     <span id="d-bela-bela_beer_10"></span>**`bela_beer_10`** Bela: “No, really, I don't know anyone by that name.”
@@ -176,7 +176,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [bela_witch_31](#d-bela-bela_witch_31)
 
-    <span id="d-bela-bela_room_2"></span>**`bela_room_2`** Bela: “OK. Take the last room down at the end of the hall.” — **effects:** sets stage 10 of [Room to rent (hidden flag)](../quests/fallhaventavern.md#stage-10)
+    <span id="d-bela-bela_room_2"></span>**`bela_room_2`** Bela: “OK. Take the last room down at the end of the hall.” — **effects:** sets stage 10 of [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md#stage-10)
 
     - “Thank you. There was something else I wanted to talk about.” → [bela](#d-bela-bela)
     - “Thanks, bye.” → *conversation ends*
@@ -278,11 +278,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 ### Quests
 
 - [You shall pass](../quests/undertell_barricades.md): stage 150
-- [Room to rent (hidden flag)](../quests/fallhaventavern.md): stage 10
+- [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md): stage 10
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bela. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bela. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bela.json" data-npc="Bela" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

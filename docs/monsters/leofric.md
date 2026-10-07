@@ -19,18 +19,18 @@ description: "Leofric is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Leofric. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Leofric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`leofric`](#v-leofric) | NPC | Foaming Flask Tavern: [beekeeper1](../maps/beekeeper1.md#pin-npc-leofric) | shopkeeper |
-| [`leofric_remgard`](#v-leofric_remgard) | NPC | Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard) | shopkeeper |
+| [`leofric`](#v-leofric) | NPC | Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md#pin-npc-leofric) | shopkeeper |
+| [`leofric_remgard`](#v-leofric_remgard) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard) | shopkeeper |
 
-## Foaming Flask Tavern, Beekeeper1 (leofric) { #v-leofric }
+## Foaming Flask Tavern, Beekeeper 1 (leofric) { #v-leofric }
 
 **Entry ID:** `leofric` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Foaming Flask Tavern: [beekeeper1](../maps/beekeeper1.md#pin-npc-leofric)
+**Location:** Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md#pin-npc-leofric)
 
 ### Shop stock
 
@@ -43,11 +43,11 @@ description: "Leofric is a non-player character (NPC) in Andor's Trail, found in
 
 ### Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 10
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 10
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Leofric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Leofric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/leofric_welcome.json" data-npc="Leofric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -55,7 +55,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-leofric-leofric_welcome"></span>**`leofric_welcome`** Leofric: “Ah, greetings, traveler! What brings you to my humble apiary?”
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “What exactly do you do here, Leofric?” → [leofric_job](#d-leofric-leofric_job)
 
-    <span id="d-leofric-leofric_sell"></span>**`leofric_sell`** Leofric: “Aye, I have many wares to offer. Jars of honey, beeswax and some fine mead. But that's it for now as my supply is lower than normal. Take a look, and see what catches your fancy.” — **effects:** sets stage 10 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-10)
+    <span id="d-leofric-leofric_sell"></span>**`leofric_sell`** Leofric: “Aye, I have many wares to offer. Jars of honey, beeswax and some fine mead. But that's it for now as my supply is lower than normal. Take a look, and see what catches your fancy.” — **effects:** sets stage 10 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-10)
 
     - “Sounds great.” → *shop opens*
 
@@ -116,11 +116,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard tavern0 (leofric_remgard) { #v-leofric_remgard }
+## Remgard, Remgard tavern 0 (leofric_remgard) { #v-leofric_remgard }
 
 **Entry ID:** `leofric_remgard` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard)
+**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard)
 
 ### Shop stock
 
@@ -134,7 +134,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Leofric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Leofric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/leofric_remgard.json" data-npc="Leofric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -142,7 +142,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-leofric_remgard-leofric_remgard"></span>**`leofric_remgard`** Leofric: “Hello kid. Finally, a sober tavern patron!”
 

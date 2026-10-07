@@ -48,7 +48,7 @@ description: "Cloth shirt is a ordinary armor, cloth in Andor's Trail (Block cha
 
 ### Found in containers
 
-- [arulircave1](../maps/arulircave1.md#container-0) (container 1, 100%)
+- [Arulircave 1](../maps/arulircave1.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

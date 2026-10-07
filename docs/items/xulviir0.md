@@ -27,7 +27,7 @@ description: "Broken sword is a quest other in Andor's Trail. How to get it: mon
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | lodarcave4a |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | Lodarcave 4a |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,12 +38,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | – | must be carried (1×) | “On the body of something called the Hira'zinn, I found this peculiar sword. Do y” |
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [Trusting an outsider](../quests/vilegard.md#stage-10) | must be carried (1×) | “On the body of something called the Hira'zinn, I found this peculiar sword. Do y” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Searching for madness](../quests/lodar2.md#stage-60) | must be carried (1×) | “On the body of the Hira'zinn, I found this peculiar sword. Do you know anything ” |
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-30) | handed over (1×) | “Here it is. We had better get rid of it.” |
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-30) | handed over (1×) | “Never mind. Here is the sword. We had better destroy it.” |
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-20) | handed over (1×) | “I'm sure. Here is the sword and three of those crystals. Restore it to how it on” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | – | must be carried (1×) | “On the body of something called the Hira'zinn, I found this peculiar sword. Do y” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [Trusting an outsider](../quests/vilegard.md#stage-10) | must be carried (1×) | “On the body of something called the Hira'zinn, I found this peculiar sword. Do y” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Searching for madness](../quests/lodar2.md#stage-60) | must be carried (1×) | “On the body of the Hira'zinn, I found this peculiar sword. Do you know anything ” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-30) | handed over (1×) | “Here it is. We had better get rid of it.” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-30) | handed over (1×) | “Never mind. Here is the sword. We had better destroy it.” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [A creeping fear](../quests/xulviir.md#stage-20) | handed over (1×) | “I'm sure. Here is the sword and three of those crystals. Restore it to how it on” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

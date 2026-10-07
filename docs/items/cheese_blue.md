@@ -40,7 +40,7 @@ description: "Blue cheese is a ordinary food in Andor's Trail. How to get it: sh
 
 ### Quest & dialogue rewards
 
-- From [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) (1×)
+- From [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -51,8 +51,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
-| [Fraedro](../monsters/ratdom_fraedro.md) ([ratdom_maze_626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some moldy blue cheese for you here.” |
+| walking into a blocked passage on [Ratdom maze 624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
+| [Fraedro](../monsters/ratdom_fraedro.md) ([Ratdom maze 626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some moldy blue cheese for you here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

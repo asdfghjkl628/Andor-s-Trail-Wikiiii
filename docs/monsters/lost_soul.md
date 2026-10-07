@@ -4,7 +4,7 @@ description: "Lost soul is an enemy in Andor's Trail (ghost) with 15 HP, worth 3
 
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Lost soul
 
-**Found in:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md), Guynmart Castle: [guynmart_passage](../maps/guynmart_passage.md), [hauntedhouse2](../maps/hauntedhouse2.md), [hauntedhouse3](../maps/hauntedhouse3.md)
+**Found in:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md), Guynmart Castle: [Guynmart passage](../maps/guynmart_passage.md), [Hauntedhouse 2](../maps/hauntedhouse2.md), [Hauntedhouse 3](../maps/hauntedhouse3.md)
 
 <div class="infobox" markdown>
 
@@ -59,10 +59,10 @@ description: "Lost soul is an enemy in Andor's Trail (ghost) with 15 HP, worth 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_0](../maps/guynmart_main_0.md) | Guynmart Castle | 4 | – |
-| [guynmart_passage](../maps/guynmart_passage.md) | Guynmart Castle | 5 | – |
-| [hauntedhouse2](../maps/hauntedhouse2.md) | – | 2 | – |
-| [hauntedhouse3](../maps/hauntedhouse3.md) | – | 3 | – |
+| [Guynmart main 0](../maps/guynmart_main_0.md) | Guynmart Castle | 4 | – |
+| [Guynmart passage](../maps/guynmart_passage.md) | Guynmart Castle | 5 | – |
+| [Hauntedhouse 2](../maps/hauntedhouse2.md) | – | 2 | – |
+| [Hauntedhouse 3](../maps/hauntedhouse3.md) | – | 3 | – |
 
 
 ## Version history

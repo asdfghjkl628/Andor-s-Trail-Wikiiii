@@ -1,10 +1,10 @@
 ---
-description: "Steelhide horned anklebiter is an enemy in Andor's Trail (animal) with 124 HP, worth 303 XP, found in lodar15, lodar17, lodar21. Drops: Gold coins, Ruby gem, Meat, Animal hair."
+description: "Steelhide horned anklebiter is an enemy in Andor's Trail (animal) with 124 HP, worth 303 XP, found in Lodar 15, Lodar 17, Lodar 21. Drops: Gold coins, Ruby gem, Meat, Animal hair."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_51.png){ .sprite } Steelhide horned anklebiter
 
-**Found in:** [lodar15](../maps/lodar15.md), [lodar17](../maps/lodar17.md), [lodar21](../maps/lodar21.md)
+**Found in:** [Lodar 15](../maps/lodar15.md), [Lodar 17](../maps/lodar17.md), [Lodar 21](../maps/lodar21.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Steelhide horned anklebiter is an enemy in Andor's Trail (animal) 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar15, lodar17, lodar21 |
+| **Found in** | Lodar 15, Lodar 17, Lodar 21 |
 | **Class** | Animal |
 | **HP** | 124 |
 | **XP when defeated** | 303 |
@@ -57,9 +57,9 @@ description: "Steelhide horned anklebiter is an enemy in Andor's Trail (animal) 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar15](../maps/lodar15.md) | – | 3 | – |
-| [lodar17](../maps/lodar17.md) | – | 4 | – |
-| [lodar21](../maps/lodar21.md) | – | 2 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 3 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 4 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 2 | – |
 
 
 ## Version history

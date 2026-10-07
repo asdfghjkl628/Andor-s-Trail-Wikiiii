@@ -1,10 +1,10 @@
 ---
-description: "Alynndir is a non-player character (NPC) in Andor's Trail, found in road5_house. Shopkeeper."
+description: "Alynndir is a non-player character (NPC) in Andor's Trail, found in Road 5 house. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Alynndir
 
-**Where to find Alynndir:** [road5_house](../maps/road5_house.md#pin-npc-alynndir)
+**Where to find Alynndir:** [Road 5 house](../maps/road5_house.md#pin-npc-alynndir)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Alynndir is a non-player character (NPC) in Andor's Trail, found i
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | road5_house |
+| **Found in** | Road 5 house |
 | **Entry ID** | `alynndir` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -40,7 +40,7 @@ description: "Alynndir is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Alynndir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Alynndir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/alynndir_1.json" data-npc="Alynndir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-alynndir_1"></span>**`alynndir_1`** Alynndir: “Hello there. Welcome to my cabin.”
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-alynndir_6"></span>**`alynndir_6`** Alynndir: “I really wonder what is up there.”
 
     - “Goodbye.” → *conversation ends*
-    - “You mentioned Sullengard. What can you tell me about it?” *(if NOT reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [alynndir_10](#d-alynndir_10)
+    - “You mentioned Sullengard. What can you tell me about it?” *(if NOT reached stage 19 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-19))* → [alynndir_10](#d-alynndir_10)
 
     <span id="d-alynndir_10"></span>**`alynndir_10`** Alynndir: “It is home of the best beer in all of Dhayavar! Every year they hold a beer festival. Matter of fact, that event is coming very soon.”
 

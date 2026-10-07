@@ -1,10 +1,10 @@
 ---
-description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, worth 202 XP, found in waterwayacave1, waterwayacave2, waterwayacave3. Drops: Gold coins, Azure gem, Stone club, Small rock."
+description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, worth 202 XP, found in Waterwayacave 1, Waterwayacave 2, Waterwayacave 3. Drops: Gold coins, Azure gem, Stone club, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_46.png){ .sprite } Rock fiend
 
-**Found in:** [waterwayacave1](../maps/waterwayacave1.md), [waterwayacave2](../maps/waterwayacave2.md), [waterwayacave3](../maps/waterwayacave3.md), [waterwayacave4](../maps/waterwayacave4.md)
+**Found in:** [Waterwayacave 1](../maps/waterwayacave1.md), [Waterwayacave 2](../maps/waterwayacave2.md), [Waterwayacave 3](../maps/waterwayacave3.md), [Waterwayacave 4](../maps/waterwayacave4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterwayacave1, waterwayacave2, waterwayacave3 |
+| **Found in** | Waterwayacave 1, Waterwayacave 2, Waterwayacave 3 |
 | **Class** | Construct |
 | **HP** | 80 |
 | **XP when defeated** | 202 |
@@ -63,10 +63,10 @@ description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwayacave1](../maps/waterwayacave1.md) | – | 10 | – |
-| [waterwayacave2](../maps/waterwayacave2.md) | – | 12 | – |
-| [waterwayacave3](../maps/waterwayacave3.md) | – | 24 | – |
-| [waterwayacave4](../maps/waterwayacave4.md) | – | 11 | – |
+| [Waterwayacave 1](../maps/waterwayacave1.md) | – | 10 | – |
+| [Waterwayacave 2](../maps/waterwayacave2.md) | – | 12 | – |
+| [Waterwayacave 3](../maps/waterwayacave3.md) | – | 24 | – |
+| [Waterwayacave 4](../maps/waterwayacave4.md) | – | 11 | – |
 
 
 ## Version history

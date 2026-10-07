@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain24 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Jueth. Exits to Blackwater mountain11."
+description: "Blackwater mountain 24 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Jueth. Exits to Blackwater mountain 11."
 ---
 
-# Blackwater mountain24
+# Blackwater mountain 24
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Blackwater mountain24 is an indoor location in Andor's Trail, in P
 
 </div>
 
-**Blackwater mountain24** is an indoor map, in Prim (settlement). It has 1 NPC, and no enemies. Exits lead to Blackwater mountain11.
+**Blackwater mountain 24** is an indoor map, in Prim (settlement). It has 1 NPC, and no enemies. Exits lead to Blackwater mountain 11.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain24.webp" alt="Map of Blackwater mountain24" width="224" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain11/#place-house4" title="Exit to Blackwater mountain11" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Jueth" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"></span><a class="mob" href="../../monsters/jueth/" title="Jueth" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_men2_0.png" alt="Jueth"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Blackwater mountain11](blackwater_mountain11.md)">1</a><a id="pin-npc-jueth" class="pin pin-npc" href="#key-2" style="left:50.000%;top:43.750%" title="[Jueth](../../monsters/jueth.md): NPC">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain24.webp" alt="Map of Blackwater mountain 24" width="224" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain11/#place-house4" title="Exit to Blackwater mountain 11" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Jueth" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"></span><a class="mob" href="../../monsters/jueth/" title="Jueth" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_men2_0.png" alt="Jueth"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Blackwater mountain 11](blackwater_mountain11.md)">1</a><a id="pin-npc-jueth" class="pin pin-npc" href="#key-2" style="left:50.000%;top:43.750%" title="[Jueth](../../monsters/jueth.md): NPC">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain11](blackwater_mountain11.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain 11](blackwater_mountain11.md) |
     | <span id="key-2"></span>2 | [Jueth](../monsters/jueth.md) | NPC |
 
 
@@ -40,7 +40,7 @@ description: "Blackwater mountain24 is an indoor location in Andor's Trail, in P
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Blackwater mountain11](blackwater_mountain11.md) | Prim | 1 |
+| South | [Blackwater mountain 11](blackwater_mountain11.md) | Prim | 1 |
 
 ## NPCs
 

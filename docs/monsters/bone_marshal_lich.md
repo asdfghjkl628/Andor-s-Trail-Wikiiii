@@ -1,5 +1,5 @@
 ---
-description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 HP, worth 693 XP, found in undertell_11, undertell_12, undertell_21, undertell_00, undertell_10, undertell_12, undertell_11, undertell_10, undertell_11, undertell_21, undertell_21, undertell_3_lava_01, undertell_4_01. Drops: Gold…"
+description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 HP, worth 693 XP, found in Undertell 11, Undertell 12, Undertell 21, Undertell 00, Undertell 10, Undertell 12, Undertell 11, Undertell 10, Undertell 11, Undertell 21, Undertell 21, Undertell 3 lava 01, Undertell 4 01. Drops: Gold…"
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_42.png){ .sprite } Bone-Marshal lich
@@ -11,7 +11,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_11, undertell_12, undertell_21, undertell_00, undertell_10, undertell_12, undertell_11, undertell_10, undertell_11, undertell_21, undertell_21, undertell_3_lava_01, undertell_4_01 |
+| **Found in** | Undertell 11, Undertell 12, Undertell 21, Undertell 00, Undertell 10, Undertell 12, Undertell 11, Undertell 10, Undertell 11, Undertell 21, Undertell 21, Undertell 3 lava 01, Undertell 4 01 |
 | **Class** | Undead |
 | **HP** | 232 |
 | **XP when defeated** | 693 |
@@ -21,21 +21,21 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Bone-Marshal lich. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Bone-Marshal lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`bone_marshal_lich`](#v-bone_marshal_lich) | Enemy | [undertell_11](../maps/undertell_11.md), [undertell_12](../maps/undertell_12.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_help_liches`](#v-bone_marshal_lich_help_liches) | Enemy | [undertell_00](../maps/undertell_00.md), [undertell_10](../maps/undertell_10.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_help_others`](#v-bone_marshal_lich_help_others) | Enemy | [undertell_11](../maps/undertell_11.md) | – | 232 |
-| [`bone_marshal_lich_help_plague`](#v-bone_marshal_lich_help_plague) | Enemy | [undertell_10](../maps/undertell_10.md), [undertell_11](../maps/undertell_11.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_pearl`](#v-bone_marshal_lich_pearl) | Enemy | [undertell_21](../maps/undertell_21.md), [undertell_3_lava_01](../maps/undertell_3_lava_01.md) (+3 more) | – | 232 |
+| [`bone_marshal_lich`](#v-bone_marshal_lich) | Enemy | [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md) (+1 more) | – | 232 |
+| [`bone_marshal_lich_help_liches`](#v-bone_marshal_lich_help_liches) | Enemy | [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md) (+1 more) | – | 232 |
+| [`bone_marshal_lich_help_others`](#v-bone_marshal_lich_help_others) | Enemy | [Undertell 11](../maps/undertell_11.md) | – | 232 |
+| [`bone_marshal_lich_help_plague`](#v-bone_marshal_lich_help_plague) | Enemy | [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md) (+1 more) | – | 232 |
+| [`bone_marshal_lich_pearl`](#v-bone_marshal_lich_pearl) | Enemy | [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) (+3 more) | – | 232 |
 
 ## Undertell 11 and 2 more (bone_marshal_lich) { #v-bone_marshal_lich }
 
 **Entry ID:** `bone_marshal_lich` · **Type:** Enemy
 
-**Location:** [undertell_11](../maps/undertell_11.md), [undertell_12](../maps/undertell_12.md), [undertell_21](../maps/undertell_21.md)
+**Location:** [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 21](../maps/undertell_21.md)
 
 ### Combat statistics
 
@@ -73,9 +73,9 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_11](../maps/undertell_11.md) | – | 1 | – |
-| [undertell_12](../maps/undertell_12.md) | – | 2 | – |
-| [undertell_21](../maps/undertell_21.md) | – | 1 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+| [Undertell 12](../maps/undertell_12.md) | – | 2 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 1 | – |
 
 
 ### Version history
@@ -141,7 +141,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 **Entry ID:** `bone_marshal_lich_help_liches` · **Type:** Enemy
 
-**Location:** [undertell_00](../maps/undertell_00.md), [undertell_10](../maps/undertell_10.md), [undertell_12](../maps/undertell_12.md)
+**Location:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 12](../maps/undertell_12.md)
 
 ### Combat statistics
 
@@ -179,9 +179,9 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_00](../maps/undertell_00.md) | – | 1 | – |
-| [undertell_10](../maps/undertell_10.md) | – | 1 | – |
-| [undertell_12](../maps/undertell_12.md) | – | 3 | – |
+| [Undertell 00](../maps/undertell_00.md) | – | 1 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
+| [Undertell 12](../maps/undertell_12.md) | – | 3 | – |
 
 
 ### Version history
@@ -247,7 +247,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 **Entry ID:** `bone_marshal_lich_help_others` · **Type:** Enemy
 
-**Location:** [undertell_11](../maps/undertell_11.md)
+**Location:** [Undertell 11](../maps/undertell_11.md)
 
 ### Combat statistics
 
@@ -285,7 +285,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_11](../maps/undertell_11.md) | – | 1 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
 
 
 ### Version history
@@ -351,7 +351,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 **Entry ID:** `bone_marshal_lich_help_plague` · **Type:** Enemy
 
-**Location:** [undertell_10](../maps/undertell_10.md), [undertell_11](../maps/undertell_11.md), [undertell_21](../maps/undertell_21.md)
+**Location:** [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 21](../maps/undertell_21.md)
 
 ### Combat statistics
 
@@ -389,9 +389,9 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_10](../maps/undertell_10.md) | – | 1 | – |
-| [undertell_11](../maps/undertell_11.md) | – | 1 | – |
-| [undertell_21](../maps/undertell_21.md) | – | 3 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 3 | – |
 
 
 ### Version history
@@ -457,7 +457,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 **Entry ID:** `bone_marshal_lich_pearl` · **Type:** Enemy
 
-**Location:** [undertell_21](../maps/undertell_21.md), [undertell_3_lava_01](../maps/undertell_3_lava_01.md), [undertell_4_01](../maps/undertell_4_01.md), [undertell_5](../maps/undertell_5.md), [undertell_7_10](../maps/undertell_7_10.md)
+**Location:** [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 10](../maps/undertell_7_10.md)
 
 ### Combat statistics
 
@@ -493,11 +493,11 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_21](../maps/undertell_21.md) | – | 1 | Appears later, during a quest |
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 1 | Appears later, during a quest |
-| [undertell_4_01](../maps/undertell_4_01.md) | – | 1 | Appears later, during a quest |
-| [undertell_5](../maps/undertell_5.md) | – | 1 | Appears later, during a quest |
-| [undertell_7_10](../maps/undertell_7_10.md) | – | 1 | Appears later, during a quest |
+| [Undertell 21](../maps/undertell_21.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 5](../maps/undertell_5.md) | – | 1 | Appears later, during a quest |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 1 | Appears later, during a quest |
 
 
 ### Version history

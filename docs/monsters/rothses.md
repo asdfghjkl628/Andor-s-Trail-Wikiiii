@@ -4,7 +4,7 @@ description: "Rothses is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } Rothses
 
-**Where to find Rothses:** Remgard: [remgard_armour](../maps/remgard_armour.md#pin-npc-rothses)
+**Where to find Rothses:** Remgard: [Remgard armour](../maps/remgard_armour.md#pin-npc-rothses)
 
 <div class="infobox" markdown>
 
@@ -44,7 +44,7 @@ description: "Rothses is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rothses. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rothses. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/rothses.json" data-npc="Rothses" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rothses"></span>**`rothses`** *(silent check: the first matching branch below is taken)*
 
@@ -220,7 +220,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Hm, let me see.” → “Hmm, let me see.”<br>· text: “Oh, I don't know much about that. Funny you should ask. (Rothses give…” → “Oh, I don't know much about that. Funny you should ask. [Rothses give…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Oh, I don't know much about that. Funny you should ask. (Rothses give…” → “Oh, I don't know much about that. Funny you should ask. [Rothses give…”<br>· text: “Hm, let me see.” → “Hmm, let me see.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Now that is one fine looking chain mail you have there! For 3000 gold…” → “Now that is one fine looking chain mail you have there! For {3000} go…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -1,10 +1,10 @@
 ---
-description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 82 HP, worth 282 XP, found in elm5f_1, elm5f_2, elm_4f_2. Drops: Bone, Blackwater rusted pickaxe, Empty vial, Gold coins."
+description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 82 HP, worth 282 XP, found in Elm 5f 1, Elm 5f 2, Elm 4f 2. Drops: Bone, Blackwater rusted pickaxe, Empty vial, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik9_55.png){ .sprite } Foul miner's skeleton
 
-**Found in:** [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md), [elm_4f_2](../maps/elm_4f_2.md), [elm_4f_3](../maps/elm_4f_3.md) (+2 more)
+**Found in:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 4f 2](../maps/elm_4f_2.md), [Elm 4f 3](../maps/elm_4f_3.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 8
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_1, elm5f_2, elm_4f_2 |
+| **Found in** | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
 | **Class** | Undead |
 | **HP** | 82 |
 | **XP when defeated** | 282 |
@@ -60,12 +60,12 @@ description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 8
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_1](../maps/elm5f_1.md) | – | 3 | – |
-| [elm5f_2](../maps/elm5f_2.md) | – | 11 | – |
-| [elm_4f_2](../maps/elm_4f_2.md) | – | 4 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 12 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 6 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 3 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 3 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 11 | – |
+| [Elm 4f 2](../maps/elm_4f_2.md) | – | 4 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 12 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 6 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 3 | – |
 
 
 ## Version history

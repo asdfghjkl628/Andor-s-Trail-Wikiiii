@@ -22,30 +22,30 @@ description: "Guynmart guard is an NPC who can also be fought in Andor's Trail, 
 </div>
 
 !!! info "14 entries in the game data"
-    The game's data files define 14 separate characters named Guynmart guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 14 separate characters named Guynmart guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`guynmart_gguard`](#v-guynmart_gguard) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard) | shopkeeper | – |
-| [`guynmart_gateguard`](#v-guynmart_gateguard) | Enemy | Guynmart Castle: [guynmart_gate_2](../maps/guynmart_gate_2.md) | – | 120 |
-| [`guynmart_guard_arms`](#v-guynmart_guard_arms) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms) | – | – |
-| [`guynmart_guard_guide`](#v-guynmart_guard_guide) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide) | – | – |
-| [`guynmart_guard_store`](#v-guynmart_guard_store) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store) | – | – |
-| [`guynmart_guard_storea`](#v-guynmart_guard_storea) | Enemy | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md) | – | 120 |
-| [`guynmart_guard_storea2`](#v-guynmart_guard_storea2) | Enemy | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md) | – | 120 |
-| [`guynmart_mguard`](#v-guynmart_mguard) | NPC | Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard) | – | – |
-| [`guynmart_player`](#v-guynmart_player) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_player) | – | – |
-| [`guynmart_tguard`](#v-guynmart_tguard) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard) | – | – |
-| [`guynmart_tguard2`](#v-guynmart_tguard2) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2) | – | – |
-| [`guynmart_wguard`](#v-guynmart_wguard) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [guynmart_tower_2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard) | – | – |
-| [`guynmart_wguard1`](#v-guynmart_wguard1) | Enemy | Guynmart Castle: [guynmart](../maps/guynmart.md) | – | 120 |
-| [`guynmart_wguard9a`](#v-guynmart_wguard9a) | Enemy | Guynmart Castle: [guynmart](../maps/guynmart.md), Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md) | – | 120 |
+| [`guynmart_gguard`](#v-guynmart_gguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard) | shopkeeper | – |
+| [`guynmart_gateguard`](#v-guynmart_gateguard) | Enemy | Guynmart Castle: [Guynmart gate 2](../maps/guynmart_gate_2.md) | – | 120 |
+| [`guynmart_guard_arms`](#v-guynmart_guard_arms) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms) | – | – |
+| [`guynmart_guard_guide`](#v-guynmart_guard_guide) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide) | – | – |
+| [`guynmart_guard_store`](#v-guynmart_guard_store) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store) | – | – |
+| [`guynmart_guard_storea`](#v-guynmart_guard_storea) | Enemy | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md) | – | 120 |
+| [`guynmart_guard_storea2`](#v-guynmart_guard_storea2) | Enemy | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md) | – | 120 |
+| [`guynmart_mguard`](#v-guynmart_mguard) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard) | – | – |
+| [`guynmart_player`](#v-guynmart_player) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_player) | – | – |
+| [`guynmart_tguard`](#v-guynmart_tguard) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard) | – | – |
+| [`guynmart_tguard2`](#v-guynmart_tguard2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2) | – | – |
+| [`guynmart_wguard`](#v-guynmart_wguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard) | – | – |
+| [`guynmart_wguard1`](#v-guynmart_wguard1) | Enemy | Guynmart Castle: [Guynmart](../maps/guynmart.md) | – | 120 |
+| [`guynmart_wguard9a`](#v-guynmart_wguard9a) | Enemy | Guynmart Castle: [Guynmart](../maps/guynmart.md), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md) | – | 120 |
 
 ## Guynmart Castle, Guynmart (guynmart_gguard) { #v-guynmart_gguard }
 
 **Entry ID:** `guynmart_gguard` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard)
 
 ### Shop stock
 
@@ -56,11 +56,11 @@ description: "Guynmart guard is an NPC who can also be fought in Andor's Trail, 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 30, 32
-- [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md): stages 1, 82
+- [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md): stages 1, 82
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_gguard_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -68,12 +68,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (43 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_gguard-guynmart_gguard_10"></span>**`guynmart_gguard_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md#stage-1))* → [guynmart_gguard_919](#d-guynmart_gguard-guynmart_gguard_919)
-    - branch 2 *(if reached stage 170 of [Roses](../quests/guynmart.md#stage-170); reached stage 2 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-2))* → [guynmart_gguard_400](#d-guynmart_gguard-guynmart_gguard_400)
+    - branch 1 *(if reached stage 1 of [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md#stage-1))* → [guynmart_gguard_919](#d-guynmart_gguard-guynmart_gguard_919)
+    - branch 2 *(if reached stage 170 of [Roses](../quests/guynmart.md#stage-170); reached stage 2 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-2))* → [guynmart_gguard_400](#d-guynmart_gguard-guynmart_gguard_400)
     - branch 3 *(if reached stage 70 of [Roses](../quests/guynmart.md#stage-70))* → [guynmart_gguard_220](#d-guynmart_gguard-guynmart_gguard_220)
     - branch 4 → [guynmart_gguard_20](#d-guynmart_gguard-guynmart_gguard_20)
 
@@ -125,7 +125,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Come on. With so many plants she will not miss a single flower.” → [guynmart_gguard_70](#d-guynmart_gguard-guynmart_gguard_70)
     - “But Lady Hannah herself told me to get her one.” *(if NOT reached stage 132 of [Roses](../quests/guynmart.md#stage-132))* → [guynmart_gguard_360](#d-guynmart_gguard-guynmart_gguard_360)
 
-    <span id="d-guynmart_gguard-guynmart_gguard_900"></span>**`guynmart_gguard_900`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md#stage-1), sets stage 30 of [Roses](../quests/guynmart.md#stage-30)
+    <span id="d-guynmart_gguard-guynmart_gguard_900"></span>**`guynmart_gguard_900`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md#stage-1), sets stage 30 of [Roses](../quests/guynmart.md#stage-30)
 
     - branch 1 *(if NOT reached stage 10 of [Roses](../quests/guynmart.md#stage-10); NOT reached stage 32 of [Roses](../quests/guynmart.md#stage-32))* → [guynmart_gguard_902](#d-guynmart_gguard-guynmart_gguard_902)
     - branch 2 → [guynmart_gguard_910](#d-guynmart_gguard-guynmart_gguard_910)
@@ -241,7 +241,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Whatever.” → [guynmart_gguard_120](#d-guynmart_gguard-guynmart_gguard_120)
     - “La la la ... I'm not listening anymore...” → [guynmart_gguard_120](#d-guynmart_gguard-guynmart_gguard_120)
 
-    <span id="d-guynmart_gguard-guynmart_gguard_380"></span>**`guynmart_gguard_380`** Guynmart guard: “And here is the rose. Don't tell anybody that you got it from me.” — **effects:** gives [Rose](../items/guynmart_rose.md), sets stage 82 of [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md#stage-82)
+    <span id="d-guynmart_gguard-guynmart_gguard_380"></span>**`guynmart_gguard_380`** Guynmart guard: “And here is the rose. Don't tell anybody that you got it from me.” — **effects:** gives [Rose](../items/guynmart_rose.md), sets stage 82 of [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md#stage-82)
 
     - “OK.” → *conversation ends*
     - “Hmm, we will see.” → *conversation ends*
@@ -321,7 +321,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_gateguard` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_gate_2](../maps/guynmart_gate_2.md)
+**Location:** Guynmart Castle: [Guynmart gate 2](../maps/guynmart_gate_2.md)
 
 ### Combat statistics
 
@@ -355,7 +355,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_gate_2](../maps/guynmart_gate_2.md) | Guynmart Castle | 2 | – |
+| [Guynmart gate 2](../maps/guynmart_gate_2.md) | Guynmart Castle | 2 | – |
 
 
 ### Version history
@@ -409,11 +409,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_guard_arms` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_arms_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -421,7 +421,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_guard_arms-guynmart_guard_arms_10"></span>**`guynmart_guard_arms_10`** Guynmart guard: “You are too young to be here. Sharp swords are stored in this room.”
 
@@ -469,7 +469,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_guard_guide` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide)
 
 ### Quests
 
@@ -477,7 +477,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_guide_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -485,7 +485,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_guard_guide-guynmart_guard_guide_10"></span>**`guynmart_guard_guide_10`** Guynmart guard: “Hi, kid. Wanna visit Guynmart Castle? Ancient walls, and sometimes a ghost at midnight?”
 
@@ -552,11 +552,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_guard_store` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -564,7 +564,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_guard_store-guynmart_guard_10"></span>**`guynmart_guard_10`** Guynmart guard: “Go away, kid.”
 
@@ -612,7 +612,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_guard_storea` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
 
 ### Combat statistics
 
@@ -646,7 +646,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_1](../maps/guynmart_main_1.md) | Guynmart Castle | 2 | Appears later, during a quest |
+| [Guynmart main 1](../maps/guynmart_main_1.md) | Guynmart Castle | 2 | Appears later, during a quest |
 
 
 ### Version history
@@ -700,7 +700,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_guard_storea2` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
 
 ### Combat statistics
 
@@ -734,7 +734,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_1](../maps/guynmart_main_1.md) | Guynmart Castle | 2 | Appears later, during a quest |
+| [Guynmart main 1](../maps/guynmart_main_1.md) | Guynmart Castle | 2 | Appears later, during a quest |
 
 
 ### Version history
@@ -788,11 +788,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_mguard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard)
+**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -842,16 +842,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `guynmart_player` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_player)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_player)
 
 ### Quests
 
-- [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md): stages 1, 2
-- [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md): stages 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+- [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md): stages 1, 2
+- [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md): stages 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_player_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -859,7 +859,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (28 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_player-guynmart_player_10"></span>**`guynmart_player_10`** Guynmart guard: “Hi kid! Would you like to play a card game?”
 
@@ -886,8 +886,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Red” → [guynmart_player_84](#d-guynmart_player-guynmart_player_84)
     - “Black” → [guynmart_player_86](#d-guynmart_player-guynmart_player_86)
-    - “Blue” *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); reached stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3))* → [guynmart_player_82](#d-guynmart_player-guynmart_player_82)
-    - “Blue” *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); reached stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7))* → [guynmart_player_82](#d-guynmart_player-guynmart_player_82)
+    - “Blue” *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); reached stage 3 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-3))* → [guynmart_player_82](#d-guynmart_player-guynmart_player_82)
+    - “Blue” *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); reached stage 7 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-7))* → [guynmart_player_82](#d-guynmart_player-guynmart_player_82)
 
     <span id="d-guynmart_player-guynmart_player_80_1"></span>**`guynmart_player_80_1`** Guynmart guard: “Hey, you look like you have no money left.”
 
@@ -898,11 +898,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “OK, got it.” → [guynmart_player_80](#d-guynmart_player-guynmart_player_80)
     - “Eh, could you explain once more?” → [guynmart_player_30](#d-guynmart_player-guynmart_player_30)
 
-    <span id="d-guynmart_player-guynmart_player_84"></span>**`guynmart_player_84`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1), clears stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2)
+    <span id="d-guynmart_player-guynmart_player_84"></span>**`guynmart_player_84`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1), clears stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2)
 
     - branch 1 → [guynmart_player_90](#d-guynmart_player-guynmart_player_90)
 
-    <span id="d-guynmart_player-guynmart_player_86"></span>**`guynmart_player_86`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2), clears stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1)
+    <span id="d-guynmart_player-guynmart_player_86"></span>**`guynmart_player_86`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2), clears stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1)
 
     - branch 1 → [guynmart_player_90](#d-guynmart_player-guynmart_player_90)
 
@@ -912,84 +912,84 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_player-guynmart_player_90"></span>**`guynmart_player_90`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12))* → [guynmart_player_112](#d-guynmart_player-guynmart_player_112)
-    - branch 2 *(if reached stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11))* → [guynmart_player_111](#d-guynmart_player-guynmart_player_111)
-    - branch 3 *(if reached stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10))* → [guynmart_player_110](#d-guynmart_player-guynmart_player_110)
-    - branch 4 *(if reached stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9))* → [guynmart_player_109](#d-guynmart_player-guynmart_player_109)
-    - branch 5 *(if reached stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8))* → [guynmart_player_108](#d-guynmart_player-guynmart_player_108)
-    - branch 6 *(if reached stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7))* → [guynmart_player_107](#d-guynmart_player-guynmart_player_107)
-    - branch 7 *(if reached stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6))* → [guynmart_player_106](#d-guynmart_player-guynmart_player_106)
-    - branch 8 *(if reached stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5))* → [guynmart_player_105](#d-guynmart_player-guynmart_player_105)
-    - branch 9 *(if reached stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4))* → [guynmart_player_104](#d-guynmart_player-guynmart_player_104)
-    - branch 10 *(if reached stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3))* → [guynmart_player_103](#d-guynmart_player-guynmart_player_103)
-    - branch 11 *(if reached stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2))* → [guynmart_player_102](#d-guynmart_player-guynmart_player_102)
-    - branch 12 *(if reached stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1))* → [guynmart_player_101](#d-guynmart_player-guynmart_player_101)
+    - branch 1 *(if reached stage 12 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-12))* → [guynmart_player_112](#d-guynmart_player-guynmart_player_112)
+    - branch 2 *(if reached stage 11 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-11))* → [guynmart_player_111](#d-guynmart_player-guynmart_player_111)
+    - branch 3 *(if reached stage 10 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-10))* → [guynmart_player_110](#d-guynmart_player-guynmart_player_110)
+    - branch 4 *(if reached stage 9 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-9))* → [guynmart_player_109](#d-guynmart_player-guynmart_player_109)
+    - branch 5 *(if reached stage 8 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-8))* → [guynmart_player_108](#d-guynmart_player-guynmart_player_108)
+    - branch 6 *(if reached stage 7 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-7))* → [guynmart_player_107](#d-guynmart_player-guynmart_player_107)
+    - branch 7 *(if reached stage 6 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-6))* → [guynmart_player_106](#d-guynmart_player-guynmart_player_106)
+    - branch 8 *(if reached stage 5 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-5))* → [guynmart_player_105](#d-guynmart_player-guynmart_player_105)
+    - branch 9 *(if reached stage 4 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-4))* → [guynmart_player_104](#d-guynmart_player-guynmart_player_104)
+    - branch 10 *(if reached stage 3 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-3))* → [guynmart_player_103](#d-guynmart_player-guynmart_player_103)
+    - branch 11 *(if reached stage 2 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-2))* → [guynmart_player_102](#d-guynmart_player-guynmart_player_102)
+    - branch 12 *(if reached stage 1 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-1))* → [guynmart_player_101](#d-guynmart_player-guynmart_player_101)
     - branch 13 → [guynmart_player_100](#d-guynmart_player-guynmart_player_100)
 
-    <span id="d-guynmart_player-guynmart_player_112"></span>**`guynmart_player_112`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12), sets stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1)
+    <span id="d-guynmart_player-guynmart_player_112"></span>**`guynmart_player_112`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 12 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-12), sets stage 1 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-1)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
-    <span id="d-guynmart_player-guynmart_player_111"></span>**`guynmart_player_111`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11), sets stage 12 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-12)
+    <span id="d-guynmart_player-guynmart_player_111"></span>**`guynmart_player_111`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 11 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-11), sets stage 12 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-12)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_110"></span>**`guynmart_player_110`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10), sets stage 11 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-11)
+    <span id="d-guynmart_player-guynmart_player_110"></span>**`guynmart_player_110`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 10 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-10), sets stage 11 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-11)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_109"></span>**`guynmart_player_109`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9), sets stage 10 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-10)
+    <span id="d-guynmart_player-guynmart_player_109"></span>**`guynmart_player_109`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 9 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-9), sets stage 10 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-10)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
-    <span id="d-guynmart_player-guynmart_player_108"></span>**`guynmart_player_108`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8), sets stage 9 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-9)
+    <span id="d-guynmart_player-guynmart_player_108"></span>**`guynmart_player_108`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 8 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-8), sets stage 9 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-9)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
-    <span id="d-guynmart_player-guynmart_player_107"></span>**`guynmart_player_107`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7), sets stage 8 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-8)
+    <span id="d-guynmart_player-guynmart_player_107"></span>**`guynmart_player_107`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 7 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-7), sets stage 8 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-8)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_106"></span>**`guynmart_player_106`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6), sets stage 7 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-7)
+    <span id="d-guynmart_player-guynmart_player_106"></span>**`guynmart_player_106`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 6 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-6), sets stage 7 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-7)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_105"></span>**`guynmart_player_105`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5), sets stage 6 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-6)
+    <span id="d-guynmart_player-guynmart_player_105"></span>**`guynmart_player_105`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 5 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-5), sets stage 6 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-6)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
-    <span id="d-guynmart_player-guynmart_player_104"></span>**`guynmart_player_104`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4), sets stage 5 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-5)
+    <span id="d-guynmart_player-guynmart_player_104"></span>**`guynmart_player_104`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 4 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-4), sets stage 5 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-5)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_103"></span>**`guynmart_player_103`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3), sets stage 4 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-4)
+    <span id="d-guynmart_player-guynmart_player_103"></span>**`guynmart_player_103`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 3 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-3), sets stage 4 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-4)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
-    <span id="d-guynmart_player-guynmart_player_102"></span>**`guynmart_player_102`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2), sets stage 3 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-3)
+    <span id="d-guynmart_player-guynmart_player_102"></span>**`guynmart_player_102`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 2 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-2), sets stage 3 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-3)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_101"></span>**`guynmart_player_101`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1), sets stage 2 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-2)
+    <span id="d-guynmart_player-guynmart_player_101"></span>**`guynmart_player_101`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 1 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-1), sets stage 2 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-2)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay 100 gold)* → [guynmart_player_151](#d-guynmart_player-guynmart_player_151)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay 100 gold)* → [guynmart_player_152](#d-guynmart_player-guynmart_player_152)
 
-    <span id="d-guynmart_player-guynmart_player_100"></span>**`guynmart_player_100`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [guynmart_q2 Step (hidden flag)](../quests/guynmart_q2.md#stage-1)
+    <span id="d-guynmart_player-guynmart_player_100"></span>**`guynmart_player_100`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [Guynmart Castle step 2 (hidden flag)](../quests/guynmart_q2.md#stage-1)
 
-    - branch 1 *(if reached stage 1 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
-    - branch 2 *(if reached stage 2 of [guynmart_q1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-1); pay -100 gold)* → [guynmart_player_161](#d-guynmart_player-guynmart_player_161)
+    - branch 2 *(if reached stage 2 of [Guynmart Castle step 1 (hidden flag)](../quests/guynmart_q1.md#stage-2); pay -100 gold)* → [guynmart_player_162](#d-guynmart_player-guynmart_player_162)
 
     <span id="d-guynmart_player-guynmart_player_161"></span>**`guynmart_player_161`** Guynmart guard: “Red! How did you know? Here you get 100 again. [Gold received] Can you do this again?”
 
@@ -1049,11 +1049,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_tguard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_tguard_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1061,7 +1061,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_tguard-guynmart_tguard_10"></span>**`guynmart_tguard_10`** Guynmart guard: “No entry!”
 
@@ -1109,11 +1109,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_tguard2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_tguard2_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1121,11 +1121,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_tguard2-guynmart_tguard2_10"></span>**`guynmart_tguard2_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 32 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_tguard2_30](#d-guynmart_tguard2-guynmart_tguard2_30)
+    - branch 1 *(if reached stage 32 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_tguard2_30](#d-guynmart_tguard2-guynmart_tguard2_30)
     - branch 2 → [guynmart_tguard2_20](#d-guynmart_tguard2-guynmart_tguard2_20)
 
     <span id="d-guynmart_tguard2-guynmart_tguard2_30"></span>**`guynmart_tguard2_30`** Guynmart guard: “You made a good choice.”
@@ -1177,18 +1177,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_wguard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [guynmart_tower_2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 3 | – |
-| [guynmart_tower_2](../maps/guynmart_tower_2.md) | Guynmart Castle | 2 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 3 | – |
+| [Guynmart tower 2](../maps/guynmart_tower_2.md) | Guynmart Castle | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_10.json" data-npc="Guynmart guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1238,7 +1238,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `guynmart_wguard1` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md)
 
 ### Combat statistics
 
@@ -1272,7 +1272,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 3 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 3 | – |
 
 
 ### Version history
@@ -1326,7 +1326,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `guynmart_wguard9a` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md), Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md)
 
 ### Combat statistics
 
@@ -1360,8 +1360,8 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 5 | Appears later, during a quest |
-| [guynmart_main_2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 5 | Appears later, during a quest |
+| [Guynmart main 2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
 
 
 ### Version history

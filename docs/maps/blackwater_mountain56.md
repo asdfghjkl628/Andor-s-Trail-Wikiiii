@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain56 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Slithering venomfang, Kazaul spawn, Young gornaud, Gornaud. Exits to Blackwater mountain16, Bwmfill3, Blackwater mountain55."
+description: "Blackwater mountain 56 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Slithering venomfang, Kazaul spawn, Young gornaud, Gornaud. Exits to Blackwater mountain 16, Bwmfill 3, Blackwater mountain 55."
 ---
 
-# Blackwater mountain56
+# Blackwater mountain 56
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Blackwater mountain56 is an outdoor location in Andor's Trail, in 
 | **Region** | In Blackwater Mountain (other) |
 | **Type** | Outdoors |
 | **Size** | 21×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 | **Enemy types** | 5 |
 | **Quests** | 0 |
 
 </div>
 
-**Blackwater mountain56** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 5 kinds of enemy. Exits lead to Blackwater mountain16, Bwmfill3, Blackwater mountain55.
+**Blackwater mountain 56** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 5 kinds of enemy. Exits lead to Blackwater mountain 16, Bwmfill 3, Blackwater mountain 55.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain56.webp" alt="Map of Blackwater mountain56" width="672" height="640" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain16/#place-south" title="Exit to Blackwater mountain16" style="left:47.619%;top:0.000%;width:14.286%;height:5.000%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain55/#place-north" title="Exit to Blackwater mountain55" style="left:52.381%;top:95.000%;width:42.857%;height:5.000%"></a><a id="place-east" class="mo mo-mapchange" href="../bwmfill3/#place-west4" title="Exit to Bwmfill3" style="left:95.238%;top:15.000%;width:4.762%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:61.905%;top:30.000%;width:28.571%;height:35.000%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:0.000%;top:15.000%;width:95.238%;height:80.000%"></span><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:80.952%;top:55.000%;width:4.762%;height:5.000%"></span><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:66.667%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:80.952%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:61.905%;top:90.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:71.429%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:9.524%;top:45.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:14.286%;top:80.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:14.286%;top:50.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:28.571%;top:80.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:54.762%;top:2.500%" title="Exit (north): to [Blackwater mountain16](blackwater_mountain16.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.619%;top:17.500%" title="Exit (east): to [Bwmfill3](bwmfill3.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:73.810%;top:97.500%" title="Exit (south): to [Blackwater mountain55](blackwater_mountain55.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain56.webp" alt="Map of Blackwater mountain 56" width="672" height="640" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain16/#place-south" title="Exit to Blackwater mountain 16" style="left:47.619%;top:0.000%;width:14.286%;height:5.000%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain55/#place-north" title="Exit to Blackwater mountain 55" style="left:52.381%;top:95.000%;width:42.857%;height:5.000%"></a><a id="place-east" class="mo mo-mapchange" href="../bwmfill3/#place-west4" title="Exit to Bwmfill 3" style="left:95.238%;top:15.000%;width:4.762%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:61.905%;top:30.000%;width:28.571%;height:35.000%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:0.000%;top:15.000%;width:95.238%;height:80.000%"></span><span class="mo mo-spawn" title="Spawns: Kazaul spawn" style="left:80.952%;top:55.000%;width:4.762%;height:5.000%"></span><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:66.667%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:80.952%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:61.905%;top:90.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:71.429%;top:55.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:9.524%;top:45.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:14.286%;top:80.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:14.286%;top:50.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:28.571%;top:80.000%;width:4.762%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:54.762%;top:2.500%" title="Exit (north): to [Blackwater mountain 16](blackwater_mountain16.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.619%;top:17.500%" title="Exit (east): to [Bwmfill 3](bwmfill3.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:73.810%;top:97.500%" title="Exit (south): to [Blackwater mountain 55](blackwater_mountain55.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain16](blackwater_mountain16.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Bwmfill3](bwmfill3.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Blackwater mountain55](blackwater_mountain55.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain 16](blackwater_mountain16.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Bwmfill 3](bwmfill3.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Blackwater mountain 55](blackwater_mountain55.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Blackwater mountain56 is an outdoor location in Andor's Trail, in 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Blackwater mountain16](blackwater_mountain16.md) | Blackwater Mountain | 1 |
-| East | [Bwmfill3](bwmfill3.md) | Blackwater Mountain | 2 |
-| South | [Blackwater mountain55](blackwater_mountain55.md) | Blackwater Mountain | 3 |
+| North | [Blackwater mountain 16](blackwater_mountain16.md) | Blackwater Mountain | 1 |
+| East | [Bwmfill 3](bwmfill3.md) | Blackwater Mountain | 2 |
+| South | [Blackwater mountain 55](blackwater_mountain55.md) | Blackwater Mountain | 3 |
 
 ## Enemies
 

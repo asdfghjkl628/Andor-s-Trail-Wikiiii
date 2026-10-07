@@ -56,7 +56,7 @@ description: "Spiked Gloves is a rare gauntlet in Andor's Trail (Attack damage 3
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kamelio](../monsters/kamelio.md) | 100% | 1 | elm5f_2 |
+| [Kamelio](../monsters/kamelio.md) | 100% | 1 | Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

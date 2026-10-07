@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | [Long lost memories](../quests/lleglaris.md#stage-30) | handed over (1×) | “Yes, here it is.” |
+| [Lleglaris](../monsters/lleglaris.md) ([Tradehouse 1](../maps/tradehouse1.md)) | [Long lost memories](../quests/lleglaris.md#stage-30) | handed over (1×) | “Yes, here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

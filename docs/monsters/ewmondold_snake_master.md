@@ -1,5 +1,5 @@
 ---
-description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found in snakecave3, Blackwater Mountain. Starts Perception is not reality."
+description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found in Snakecave 3, Blackwater Mountain. Starts Perception is not reality."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_18.png){ .sprite } Ewmondold
@@ -12,7 +12,7 @@ description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [Perception is not reality](../quests/new_snake_master.md) |
-| **Found in** | snakecave3, Blackwater Mountain |
+| **Found in** | Snakecave 3, Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 70 |
 | **XP when defeated** | 150 |
@@ -22,18 +22,18 @@ description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Ewmondold. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Ewmondold. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ewmondold_snake_master`](#v-ewmondold_snake_master) | NPC/Enemy | [snakecave3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master) | – | 70 |
-| [`inspiring_snake_master`](#v-inspiring_snake_master) | NPC | Blackwater Mountain: [wild2](../maps/wild2.md#pin-npc-inspiring_snake_master) | starts [Perception is not reality](../quests/new_snake_master.md) | – |
+| [`ewmondold_snake_master`](#v-ewmondold_snake_master) | NPC/Enemy | [Snakecave 3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master) | – | 70 |
+| [`inspiring_snake_master`](#v-inspiring_snake_master) | NPC | Blackwater Mountain: [Wild 2](../maps/wild2.md#pin-npc-inspiring_snake_master) | starts [Perception is not reality](../quests/new_snake_master.md) | – |
 
-## Snakecave3 (ewmondold_snake_master) { #v-ewmondold_snake_master }
+## Snakecave 3 (ewmondold_snake_master) { #v-ewmondold_snake_master }
 
 **Entry ID:** `ewmondold_snake_master` · **Type:** NPC/Enemy
 
-**Location:** [snakecave3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master)
+**Location:** [Snakecave 3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -70,16 +70,16 @@ description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [snakecave3](../maps/snakecave3.md) | – | 1 | Appears later, during a quest |
+| [Snakecave 3](../maps/snakecave3.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
 - A conversation with [Arcir](../monsters/arcir.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [snakecave3](../maps/snakecave3.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Snakecave 3](../maps/snakecave3.md) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ewmondold. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ewmondold. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ewmondold_snake_master_10.json" data-npc="Ewmondold" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -87,7 +87,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ewmondold_snake_master-ewmondold_snake_master_10"></span>**`ewmondold_snake_master_10`** Ewmondold: “My new powers have enhanced my appearance, don't you agree?”
 
@@ -147,11 +147,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Wild2 (inspiring_snake_master) { #v-inspiring_snake_master }
+## Blackwater Mountain, Wild 2 (inspiring_snake_master) { #v-inspiring_snake_master }
 
 **Entry ID:** `inspiring_snake_master` · **Type:** NPC · **Role:** Starts [Perception is not reality](../quests/new_snake_master.md)
 
-**Location:** Blackwater Mountain: [wild2](../maps/wild2.md#pin-npc-inspiring_snake_master)
+**Location:** Blackwater Mountain: [Wild 2](../maps/wild2.md#pin-npc-inspiring_snake_master)
 
 ### Quests
 
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ewmondold. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ewmondold. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/inspiring_snake_master_10.json" data-npc="Ewmondold" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -167,7 +167,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-inspiring_snake_master-inspiring_snake_master_10"></span>**`inspiring_snake_master_10`** Ewmondold: “Hello, young adventurer. I am Ewmondold, a world famous traveler.”
 

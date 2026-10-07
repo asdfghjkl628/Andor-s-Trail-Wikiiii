@@ -27,14 +27,14 @@ description: "Shimmering opal is a ordinary gem in Andor's Trail. How to get it:
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Beholder](../monsters/beholder.md) | 100% | 2-7 | Mt. Galmore |
-| [Swamp lizard](../monsters/swamp_lizard.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
-| [Bog eel](../monsters/bog_eel.md) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
-| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
-| [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 3% | 1 | galmore_18, galmore_28, galmore_38 |
+| [Swamp lizard](../monsters/swamp_lizard.md) | 3% | 1 | Galmore 18, Galmore 28, Galmore 38 |
+| [Bog eel](../monsters/bog_eel.md) | 3% | 1 | Galmore 18, Galmore 28, Galmore 38 |
+| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 3% | 1 | Galmore 18, Galmore 28, Galmore 38 |
+| [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 3% | 1 | Galmore 18, Galmore 28, Galmore 38 |
 
 ### Quest & dialogue rewards
 
-- From a scripted event during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-210) (100%)
+- From a scripted event during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-210) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

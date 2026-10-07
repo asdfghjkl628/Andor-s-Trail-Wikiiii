@@ -27,8 +27,8 @@ description: "Vaelric's empty bottle is a quest other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-97) (10×)
-- From [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) (10×)
+- From [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-97) (10×)
+- From [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) (10×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,9 +39,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (0×) | “N” |
-| stepping on a trigger on [galmore_17](../maps/galmore_17.md) | – | must be carried (10×) | “(automatic)” |
-| stepping on a trigger on [galmore_17](../maps/galmore_17.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-18) | handed over (10×) | “Sure.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (0×) | “N” |
+| stepping on a trigger on [Galmore 17](../maps/galmore_17.md) | – | must be carried (10×) | “(automatic)” |
+| stepping on a trigger on [Galmore 17](../maps/galmore_17.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-18) | handed over (10×) | “Sure.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

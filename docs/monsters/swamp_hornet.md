@@ -1,10 +1,10 @@
 ---
-description: "Swamp hornet is an enemy in Andor's Trail (insect) with 99 HP, worth 481 XP, found in galmore_17, galmore_18, galmore_27."
+description: "Swamp hornet is an enemy in Andor's Trail (insect) with 99 HP, worth 481 XP, found in Galmore 17, Galmore 18, Galmore 27."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_113.png){ .sprite } Swamp hornet
 
-**Found in:** [galmore_17](../maps/galmore_17.md), [galmore_18](../maps/galmore_18.md), [galmore_27](../maps/galmore_27.md), [galmore_28](../maps/galmore_28.md) (+2 more)
+**Found in:** [Galmore 17](../maps/galmore_17.md), [Galmore 18](../maps/galmore_18.md), [Galmore 27](../maps/galmore_27.md), [Galmore 28](../maps/galmore_28.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Swamp hornet is an enemy in Andor's Trail (insect) with 99 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_17, galmore_18, galmore_27 |
+| **Found in** | Galmore 17, Galmore 18, Galmore 27 |
 | **Class** | Insect |
 | **HP** | 99 |
 | **XP when defeated** | 481 |
@@ -50,12 +50,12 @@ description: "Swamp hornet is an enemy in Andor's Trail (insect) with 99 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_17](../maps/galmore_17.md) | – | 10 | – |
-| [galmore_18](../maps/galmore_18.md) | – | 12 | – |
-| [galmore_27](../maps/galmore_27.md) | – | 6 | – |
-| [galmore_28](../maps/galmore_28.md) | – | 13 | – |
-| [galmore_38](../maps/galmore_38.md) | – | 9 | – |
-| [galmore_39](../maps/galmore_39.md) | – | 10 | – |
+| [Galmore 17](../maps/galmore_17.md) | – | 10 | – |
+| [Galmore 18](../maps/galmore_18.md) | – | 12 | – |
+| [Galmore 27](../maps/galmore_27.md) | – | 6 | – |
+| [Galmore 28](../maps/galmore_28.md) | – | 13 | – |
+| [Galmore 38](../maps/galmore_38.md) | – | 9 | – |
+| [Galmore 39](../maps/galmore_39.md) | – | 10 | – |
 
 
 ## Version history

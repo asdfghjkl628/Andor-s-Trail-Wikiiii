@@ -1,5 +1,5 @@
 ---
-description: "Galmore cavea 1 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Tough cave rat, Cave rat. Exits to Galmore cavea."
+description: "Galmore cavea 1 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Cave rat, Tough cave rat. Exits to Galmore cavea."
 ---
 
 # Galmore cavea 1
@@ -46,14 +46,14 @@ description: "Galmore cavea 1 is an outdoor location in Andor's Trail, near Mt. 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
 | [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 2 | – |
+| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): part of the map changes at stage 22
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): part of the map changes at stage 22
 
 ## Points of interest
 

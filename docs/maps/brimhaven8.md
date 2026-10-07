@@ -1,8 +1,8 @@
 ---
-description: "Brimhaven8 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Exits to Brimhaven2, Brimhaven house1."
+description: "Brimhaven 8 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Exits to Brimhaven 2, Brimhaven house 1."
 ---
 
-# Brimhaven8
+# Brimhaven 8
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Brimhaven8 is an outdoor location in Andor's Trail, near Brimhaven
 | **Region** | Near Brimhaven (settlement) |
 | **Type** | Outdoors |
 | **Size** | 30×10 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Brimhaven8** is an outdoor map, near Brimhaven (settlement). It has no NPCs, and no enemies. Exits lead to Brimhaven2, Brimhaven house1.
+**Brimhaven 8** is an outdoor map, near Brimhaven (settlement). It has no NPCs, and no enemies. Exits lead to Brimhaven 2, Brimhaven house 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven8.webp" alt="Map of Brimhaven8" width="960" height="320" loading="lazy"><a id="place-west1" class="mo mo-mapchange" href="../brimhaven2/#place-east1" title="Exit to Brimhaven2" style="left:0.000%;top:10.000%;width:3.333%;height:10.000%"></a><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven_house1/#place-entrance" title="Exit to Brimhaven house1" style="left:43.333%;top:30.000%;width:3.333%;height:10.000%"></a><a class="pin pin-exit" href="#key-1" style="left:1.667%;top:15.000%" title="Exit (northwest): to [Brimhaven2](brimhaven2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.000%;top:35.000%" title="Exit (door): to [Brimhaven house1](brimhaven_house1.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven8.webp" alt="Map of Brimhaven 8" width="960" height="320" loading="lazy"><a id="place-west1" class="mo mo-mapchange" href="../brimhaven2/#place-east1" title="Exit to Brimhaven 2" style="left:0.000%;top:10.000%;width:3.333%;height:10.000%"></a><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven_house1/#place-entrance" title="Exit to Brimhaven house 1" style="left:43.333%;top:30.000%;width:3.333%;height:10.000%"></a><a class="pin pin-exit" href="#key-1" style="left:1.667%;top:15.000%" title="Exit (northwest): to [Brimhaven 2](brimhaven2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.000%;top:35.000%" title="Exit (door): to [Brimhaven house 1](brimhaven_house1.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (northwest) | to [Brimhaven2](brimhaven2.md) |
-    | <span id="key-2"></span>2 | Exit (door) | to [Brimhaven house1](brimhaven_house1.md) |
+    | <span id="key-1"></span>1 | Exit (northwest) | to [Brimhaven 2](brimhaven2.md) |
+    | <span id="key-2"></span>2 | Exit (door) | to [Brimhaven house 1](brimhaven_house1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brimhaven8 is an outdoor location in Andor's Trail, near Brimhaven
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Northwest | [Brimhaven2](brimhaven2.md) | Brimhaven | 1 |
-| Door | [Brimhaven house1](brimhaven_house1.md) | – | 2 |
+| Northwest | [Brimhaven 2](brimhaven2.md) | Brimhaven | 1 |
+| Door | [Brimhaven house 1](brimhaven_house1.md) | – | 2 |
 
 
 ## Version history

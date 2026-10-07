@@ -1,10 +1,10 @@
 ---
-description: "Zortak barbarian is an enemy in Andor's Trail (giant) with 207 HP, worth 337 XP, found in lodar18, lodar8. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
+description: "Zortak barbarian is an enemy in Andor's Trail (giant) with 207 HP, worth 337 XP, found in Lodar 18, Lodar 8. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_87.png){ .sprite } Zortak barbarian
 
-**Found in:** [lodar18](../maps/lodar18.md), [lodar8](../maps/lodar8.md)
+**Found in:** [Lodar 18](../maps/lodar18.md), [Lodar 8](../maps/lodar8.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Zortak barbarian is an enemy in Andor's Trail (giant) with 207 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar18, lodar8 |
+| **Found in** | Lodar 18, Lodar 8 |
 | **Class** | Giant |
 | **HP** | 207 |
 | **XP when defeated** | 337 |
@@ -58,8 +58,8 @@ description: "Zortak barbarian is an enemy in Andor's Trail (giant) with 207 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar18](../maps/lodar18.md) | – | 1 | – |
-| [lodar8](../maps/lodar8.md) | – | 12 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 1 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 12 | – |
 
 
 ## Version history

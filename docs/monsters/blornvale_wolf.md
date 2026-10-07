@@ -4,7 +4,7 @@ description: "Great dark wolf is an enemy in Andor's Trail (animal) with 30 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } Great dark wolf
 
-**Found in:** Stoutford: [stoutford_sw](../maps/stoutford_sw.md)
+**Found in:** Stoutford: [Stoutford south-west](../maps/stoutford_sw.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Great dark wolf is an enemy in Andor's Trail (animal) with 30 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_sw](../maps/stoutford_sw.md) | Stoutford | 1 | Appears later, during a quest |
+| [Stoutford south-west](../maps/stoutford_sw.md) | Stoutford | 1 | Appears later, during a quest |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Ridgehowler is an enemy in Andor's Trail (animal) with 180 HP, wor
 
 # ![](../assets/icons/monsters/monsters_newb_1_305.png){ .sprite } Ridgehowler
 
-**Found in:** Mt. Galmore: [galmore_24](../maps/galmore_24.md), Mt. Galmore: [galmore_25](../maps/galmore_25.md), Mt. Galmore: [galmore_34](../maps/galmore_34.md), Mt. Galmore: [galmore_35](../maps/galmore_35.md) (+4 more)
+**Found in:** Mt. Galmore: [Galmore 24](../maps/galmore_24.md), Mt. Galmore: [Galmore 25](../maps/galmore_25.md), Mt. Galmore: [Galmore 34](../maps/galmore_34.md), Mt. Galmore: [Galmore 35](../maps/galmore_35.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Ridgehowler is an enemy in Andor's Trail (animal) with 180 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_24](../maps/galmore_24.md) | Mt. Galmore | 2 | – |
-| [galmore_25](../maps/galmore_25.md) | Mt. Galmore | 9 | – |
-| [galmore_34](../maps/galmore_34.md) | Mt. Galmore | 3 | – |
-| [galmore_35](../maps/galmore_35.md) | Mt. Galmore | 10 | – |
-| [galmore_36](../maps/galmore_36.md) | Mt. Galmore | 6 | – |
-| [galmore_44](../maps/galmore_44.md) | Mt. Galmore | 3 | – |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 2 | – |
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 1 | – |
+| [Galmore 24](../maps/galmore_24.md) | Mt. Galmore | 2 | – |
+| [Galmore 25](../maps/galmore_25.md) | Mt. Galmore | 9 | – |
+| [Galmore 34](../maps/galmore_34.md) | Mt. Galmore | 3 | – |
+| [Galmore 35](../maps/galmore_35.md) | Mt. Galmore | 10 | – |
+| [Galmore 36](../maps/galmore_36.md) | Mt. Galmore | 6 | – |
+| [Galmore 44](../maps/galmore_44.md) | Mt. Galmore | 3 | – |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 2 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

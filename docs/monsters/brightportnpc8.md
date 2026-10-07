@@ -4,7 +4,7 @@ description: "Janwick is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } Janwick
 
-**Where to find Janwick:** Brightport: [brightport_stanwick](../maps/brightport_stanwick.md#pin-npc-brightportnpc8)
+**Where to find Janwick:** Brightport: [Brightport stanwick](../maps/brightport_stanwick.md#pin-npc-brightportnpc8)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Janwick is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stage 10
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 248
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 248
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Janwick. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Janwick. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_janwick_selector.json" data-npc="Janwick" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_janwick_selector"></span>**`brightport_janwick_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_janwick2](#d-brightport_janwick2)
 
-    <span id="d-brightport_janwick3"></span>**`brightport_janwick3`** Janwick: “It sounds familiar, but I struggle a bit with my memory. Go and ask my good friend Richimor, his house is right next to ours.” — **effects:** sets stage 248 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-248)
+    <span id="d-brightport_janwick3"></span>**`brightport_janwick3`** Janwick: “It sounds familiar, but I struggle a bit with my memory. Go and ask my good friend Richimor, his house is right next to ours.” — **effects:** sets stage 248 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-248)
 
 
     <span id="d-brightport_janwick2"></span>**`brightport_janwick2`** Janwick: “He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?” — **effects:** sets stage 10 of [No rest for the wicked](../quests/Stanwickquest.md#stage-10), gives 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md)

@@ -27,7 +27,7 @@ description: "Mysterious Korhald map is a quest other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-60) (1×)
+- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,9 +38,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [waterway9](../maps/waterway9.md) | – | must be carried (1×) | “N” |
-| walking into a blocked passage on [waterway12](../maps/waterway12.md), walking into a blocked passage on [waterway7](../maps/waterway7.md) | – | must be carried (1×) | “N” |
-| walking into a blocked passage on [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) | – | must be carried (1×) | “N” |
+| walking into a blocked passage on [Waterway 9](../maps/waterway9.md) | – | must be carried (1×) | “N” |
+| walking into a blocked passage on [Waterway 12](../maps/waterway12.md), walking into a blocked passage on [Waterway 7](../maps/waterway7.md) | – | must be carried (1×) | “N” |
+| walking into a blocked passage on [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) | – | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

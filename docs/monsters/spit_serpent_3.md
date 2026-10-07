@@ -4,7 +4,7 @@ description: "Aggressive spitting serpent is an enemy in Andor's Trail (reptile)
 
 # ![](../assets/icons/monsters/monsters_snakes_5.png){ .sprite } Aggressive spitting serpent
 
-**Found in:** Lake Laeroth: [laerothisland0](../maps/laerothisland0.md), Lake Laeroth: [laerothisland1](../maps/laerothisland1.md), Lake Laeroth: [laerothisland2](../maps/laerothisland2.md), Lake Laeroth: [laerothisland3](../maps/laerothisland3.md)
+**Found in:** Lake Laeroth: [Laerothisland 0](../maps/laerothisland0.md), Lake Laeroth: [Laerothisland 1](../maps/laerothisland1.md), Lake Laeroth: [Laerothisland 2](../maps/laerothisland2.md), Lake Laeroth: [Laerothisland 3](../maps/laerothisland3.md)
 
 <div class="infobox" markdown>
 
@@ -57,10 +57,10 @@ description: "Aggressive spitting serpent is an enemy in Andor's Trail (reptile)
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothisland0](../maps/laerothisland0.md) | Lake Laeroth | 10 | – |
-| [laerothisland1](../maps/laerothisland1.md) | Lake Laeroth | 8 | – |
-| [laerothisland2](../maps/laerothisland2.md) | Lake Laeroth | 10 | – |
-| [laerothisland3](../maps/laerothisland3.md) | Lake Laeroth | 6 | – |
+| [Laerothisland 0](../maps/laerothisland0.md) | Lake Laeroth | 10 | – |
+| [Laerothisland 1](../maps/laerothisland1.md) | Lake Laeroth | 8 | – |
+| [Laerothisland 2](../maps/laerothisland2.md) | Lake Laeroth | 10 | – |
+| [Laerothisland 3](../maps/laerothisland3.md) | Lake Laeroth | 6 | – |
 
 
 ## Version history

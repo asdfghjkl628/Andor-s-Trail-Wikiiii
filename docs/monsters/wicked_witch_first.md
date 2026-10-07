@@ -1,5 +1,5 @@
 ---
-description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found in witch_house."
+description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found in Witch house."
 ---
 
 # ![](../assets/icons/monsters/monsters_phoenix01_8.png){ .sprite } Bonicksa
@@ -11,7 +11,7 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | witch_house |
+| **Found in** | Witch house |
 | **Class** | Humanoid |
 | **HP** | 229–277 |
 | **XP when defeated** | 619–768 |
@@ -21,19 +21,19 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Bonicksa. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Bonicksa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`wicked_witch_first`](#v-wicked_witch_first) | NPC/Enemy | [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_first) | – | 229 |
-| [`wicked_witch_second`](#v-wicked_witch_second) | NPC/Enemy | [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_second) | – | 277 |
-| [`wicked_witch_third`](#v-wicked_witch_third) | NPC | [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_third) | – | – |
+| [`wicked_witch_first`](#v-wicked_witch_first) | NPC/Enemy | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_first) | – | 229 |
+| [`wicked_witch_second`](#v-wicked_witch_second) | NPC/Enemy | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_second) | – | 277 |
+| [`wicked_witch_third`](#v-wicked_witch_third) | NPC | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_third) | – | – |
 
 ## Witch house (wicked_witch_first) { #v-wicked_witch_first }
 
 **Entry ID:** `wicked_witch_first` · **Type:** NPC/Enemy
 
-**Location:** [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_first)
+**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_first)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -72,11 +72,11 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [witch_house](../maps/witch_house.md) | – | 1 | – |
+| [Witch house](../maps/witch_house.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [A Wicked witch](../quests/wicked_witch.md#stage-60) with stepping on a trigger on [witch_house](../maps/witch_house.md) checks that this enemy has been defeated.
+- [A Wicked witch](../quests/wicked_witch.md#stage-60) with stepping on a trigger on [Witch house](../maps/witch_house.md) checks that this enemy has been defeated.
 
 ### Quests
 
@@ -84,7 +84,7 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bonicksa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_first_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -92,7 +92,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wicked_witch_first-wicked_witch_first_selector"></span>**`wicked_witch_first_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -188,7 +188,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `wicked_witch_second` · **Type:** NPC/Enemy
 
-**Location:** [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_second)
+**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_second)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -229,15 +229,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [witch_house](../maps/witch_house.md) | – | 1 | Appears later, during a quest |
+| [Witch house](../maps/witch_house.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [A Wicked witch](../quests/wicked_witch.md#stage-65) with stepping on a trigger on [witch_house](../maps/witch_house.md) checks that this enemy has been defeated.
+- [A Wicked witch](../quests/wicked_witch.md#stage-65) with stepping on a trigger on [Witch house](../maps/witch_house.md) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bonicksa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_second_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -245,7 +245,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wicked_witch_second-wicked_witch_second_selector"></span>**`wicked_witch_second_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -331,16 +331,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `wicked_witch_third` · **Type:** NPC
 
-**Location:** [witch_house](../maps/witch_house.md#pin-npc-wicked_witch_third)
+**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_third)
 
 ### Quests
 
 - [A Wicked witch](../quests/wicked_witch.md): stage 70
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): stage 1
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): stage 1
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bonicksa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_third_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -348,7 +348,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wicked_witch_third-wicked_witch_third_selector"></span>**`wicked_witch_third_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -366,7 +366,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “[disgruntled] Is this some kind of sick game to you?” → [wicked_witch_third_30](#d-wicked_witch_third-wicked_witch_third_30)
 
-    <span id="d-wicked_witch_third-wicked_witch_third_30"></span>**`wicked_witch_third_30`** Bonicksa: “[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?” — **effects:** sets stage 70 of [A Wicked witch](../quests/wicked_witch.md#stage-70), sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
+    <span id="d-wicked_witch_third-wicked_witch_third_30"></span>**`wicked_witch_third_30`** Bonicksa: “[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?” — **effects:** sets stage 70 of [A Wicked witch](../quests/wicked_witch.md#stage-70), sets stage 1 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
 
 
 

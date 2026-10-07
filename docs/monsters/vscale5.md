@@ -1,10 +1,10 @@
 ---
-description: "Quick venomscale is an enemy in Andor's Trail (reptile) with 56 HP, worth 294 XP, found in lodar16, lodar17, lodar18. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
+description: "Quick venomscale is an enemy in Andor's Trail (reptile) with 56 HP, worth 294 XP, found in Lodar 16, Lodar 17, Lodar 18. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_22.png){ .sprite } Quick venomscale
 
-**Found in:** [lodar16](../maps/lodar16.md), [lodar17](../maps/lodar17.md), [lodar18](../maps/lodar18.md), [lodar19](../maps/lodar19.md) (+2 more)
+**Found in:** [Lodar 16](../maps/lodar16.md), [Lodar 17](../maps/lodar17.md), [Lodar 18](../maps/lodar18.md), [Lodar 19](../maps/lodar19.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Quick venomscale is an enemy in Andor's Trail (reptile) with 56 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar16, lodar17, lodar18 |
+| **Found in** | Lodar 16, Lodar 17, Lodar 18 |
 | **Class** | Reptile |
 | **HP** | 56 |
 | **XP when defeated** | 294 |
@@ -59,12 +59,12 @@ description: "Quick venomscale is an enemy in Andor's Trail (reptile) with 56 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar16](../maps/lodar16.md) | – | 2 | – |
-| [lodar17](../maps/lodar17.md) | – | 3 | – |
-| [lodar18](../maps/lodar18.md) | – | 4 | – |
-| [lodar19](../maps/lodar19.md) | – | 3 | – |
-| [lodar20](../maps/lodar20.md) | – | 4 | – |
-| [lodar21](../maps/lodar21.md) | – | 2 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 2 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 3 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 4 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 3 | – |
+| [Lodar 20](../maps/lodar20.md) | – | 4 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 2 | – |
 
 
 ## Version history

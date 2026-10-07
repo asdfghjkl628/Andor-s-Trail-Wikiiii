@@ -4,7 +4,7 @@ description: "Gorwath is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_88.png){ .sprite } Gorwath
 
-**Where to find Gorwath:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-gorwath)
+**Where to find Gorwath:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-gorwath)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Gorwath is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gorwath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gorwath. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gorwath.json" data-npc="Gorwath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gorwath"></span>**`gorwath`** *(silent check: the first matching branch below is taken)*
 
@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 25 lines added |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed |
-| [v0.8.5](../versions/0.8.5.md) | Dialogue: 2 lines changed<br>· text: “And when we get married, you will of course be invited.” → “Before we go our separate ways, please take this ring that I found be…”<br>· text: “I will go now and prepare a present for lovely Arensia.” → “I will go now and prepare a present for lovely Arensia. When we get m…” |
+| [v0.8.5](../versions/0.8.5.md) | Dialogue: 2 lines changed<br>· text: “I will go now and prepare a present for lovely Arensia.” → “I will go now and prepare a present for lovely Arensia. When we get m…”<br>· text: “And when we get married, you will of course be invited.” → “Before we go our separate ways, please take this ring that I found be…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

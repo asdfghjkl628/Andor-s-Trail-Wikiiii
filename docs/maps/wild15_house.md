@@ -1,8 +1,8 @@
 ---
-description: "Wild15 house is an indoor location in Andor's Trail, in Foaming Flask Tavern (other). Enemies: Haunting. Exits to Wild15."
+description: "Wild 15 house is an indoor location in Andor's Trail, in Foaming Flask Tavern (other). Enemies: Haunting. Exits to Wild 15."
 ---
 
-# Wild15 house
+# Wild 15 house
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Wild15 house is an indoor location in Andor's Trail, in Foaming Fl
 
 </div>
 
-**Wild15 house** is an indoor map, in Foaming Flask Tavern (other). It has no NPCs and 1 kind of enemy. Exits lead to Wild15.
+**Wild 15 house** is an indoor map, in Foaming Flask Tavern (other). It has no NPCs and 1 kind of enemy. Exits lead to Wild 15.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild15_house.webp" alt="Map of Wild15 house" width="288" height="224" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../wild15/#place-house" title="Exit to Wild15" style="left:22.222%;top:85.714%;width:11.111%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Haunting" style="left:22.222%;top:42.857%;width:55.556%;height:28.571%"></span><a class="mob" href="../../monsters/haunting/" title="Haunting" style="left:22.222%;top:57.143%;width:11.111%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ghost1_0.png" alt="Haunting"></a><a class="pin pin-exit" href="#key-1" style="left:27.778%;top:92.857%" title="Exit (south): to [Wild15](wild15.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild15_house.webp" alt="Map of Wild 15 house" width="288" height="224" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../wild15/#place-house" title="Exit to Wild 15" style="left:22.222%;top:85.714%;width:11.111%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Haunting" style="left:22.222%;top:42.857%;width:55.556%;height:28.571%"></span><a class="mob" href="../../monsters/haunting/" title="Haunting" style="left:22.222%;top:57.143%;width:11.111%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ghost1_0.png" alt="Haunting"></a><a class="pin pin-exit" href="#key-1" style="left:27.778%;top:92.857%" title="Exit (south): to [Wild 15](wild15.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Wild15](wild15.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Wild 15](wild15.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -39,7 +39,7 @@ description: "Wild15 house is an indoor location in Andor's Trail, in Foaming Fl
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Wild15](wild15.md) | Foaming Flask Tavern | 1 |
+| South | [Wild 15](wild15.md) | Foaming Flask Tavern | 1 |
 
 ## Enemies
 

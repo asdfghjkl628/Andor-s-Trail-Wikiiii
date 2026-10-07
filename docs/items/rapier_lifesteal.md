@@ -55,7 +55,7 @@ description: "Rapier of lifesteal is a legendary rapier in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kazaul imp](../monsters/kazaul_imp.md) | 0.01% | 1 | blackwater_mountain42 |
+| [Kazaul imp](../monsters/kazaul_imp.md) | 0.01% | 1 | Blackwater mountain 42 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

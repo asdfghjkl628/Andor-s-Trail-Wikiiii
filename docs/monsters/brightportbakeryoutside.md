@@ -4,7 +4,7 @@ description: "Eatloni is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_98.png){ .sprite } Eatloni
 
-**Where to find Eatloni:** Brightport: [brightport5](../maps/brightport5.md#pin-npc-brightportbakeryoutside)
+**Where to find Eatloni:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportbakeryoutside)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Eatloni is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Bread and circus](../quests/brightport_bakery.md): stages 25, 60, 65
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 157, 198, 213, 245
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 157, 198, 213, 245
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Eatloni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Eatloni. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_storemaster_selector.json" data-npc="Eatloni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,11 +34,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (18 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_storemaster_selector"></span>**`brightport_storemaster_selector`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 245 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-245)
+    <span id="d-brightport_storemaster_selector"></span>**`brightport_storemaster_selector`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 245 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-245)
 
-    - Next *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); NOT reached stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_storemaster_apples](#d-brightport_storemaster_apples)
+    - Next *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); NOT reached stage 198 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_storemaster_apples](#d-brightport_storemaster_apples)
     - Next → [brightport_storemaster](#d-brightport_storemaster)
 
     <span id="d-brightport_storemaster_apples"></span>**`brightport_storemaster_apples`** Eatloni: “Have you learned what happened with the apple delivery?”
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_storemaster9"></span>**`brightport_storemaster9`** Eatloni: “The merchant arrived safe and sound shortly before you did. Well not quite, apparently he got robbed by highwaymen, and had to run for it with nothing but his cloak and a sack of 15 apples.”
 
-    - “Coincidentally I found 15 apples myself.” *(if reached stage 197 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-197))* → [brightport_storemaster10](#d-brightport_storemaster10)
+    - “Coincidentally I found 15 apples myself.” *(if reached stage 197 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-197))* → [brightport_storemaster10](#d-brightport_storemaster10)
 
     <span id="d-brightport_storemaster2"></span>**`brightport_storemaster2`** Eatloni: “Our bakery bakes the finest bread in all of Dhayavar. There's bound to be a bit of a jumble getting it onto the rich folk's tables.”
 
@@ -78,10 +78,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_eatloni_selector"></span>**`brightport_eatloni_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 245 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-245))* → [brightport_storemaster1](#d-brightport_storemaster1)
-    - Next *(if reached stage 245 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-245))* → [brightport_eatloni](#d-brightport_eatloni)
+    - Next *(if NOT reached stage 245 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-245))* → [brightport_storemaster1](#d-brightport_storemaster1)
+    - Next *(if reached stage 245 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-245))* → [brightport_eatloni](#d-brightport_eatloni)
 
-    <span id="d-brightport_storemaster7"></span>**`brightport_storemaster7`** Eatloni: “Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.” — **effects:** sets stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198), sets stage 60 of [Bread and circus](../quests/brightport_bakery.md#stage-60), gives 700× [Gold coins](../items/gold.md)
+    <span id="d-brightport_storemaster7"></span>**`brightport_storemaster7`** Eatloni: “Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.” — **effects:** sets stage 198 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198), sets stage 60 of [Bread and circus](../quests/brightport_bakery.md#stage-60), gives 700× [Gold coins](../items/gold.md)
 
 
     <span id="d-brightport_storemaster8"></span>**`brightport_storemaster8`** Eatloni: “That's not good. I need all 30, if you don't have them then I can't repay you.”
@@ -96,14 +96,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Here you go. [Hand over the apples.]” *(if hand over 15× [Orchard apple](../items/deebo_apples.md))* → [brightport_storemaster11](#d-brightport_storemaster11)
     - “I think I might have eaten some.” *(if NOT carry 15× [Orchard apple](../items/deebo_apples.md); used 1× [Orchard apple](../items/deebo_apples.md))* → [brightport_storemaster8](#d-brightport_storemaster8)
 
-    <span id="d-brightport_storemaster3"></span>**`brightport_storemaster3`** Eatloni: “You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.” — **effects:** sets stage 157 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-157)
+    <span id="d-brightport_storemaster3"></span>**`brightport_storemaster3`** Eatloni: “You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.” — **effects:** sets stage 157 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-157)
 
 
-    <span id="d-brightport_storemaster5"></span>**`brightport_storemaster5`** Eatloni: “But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up.” — **effects:** sets stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25), sets stage 213 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-213)
+    <span id="d-brightport_storemaster5"></span>**`brightport_storemaster5`** Eatloni: “But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up.” — **effects:** sets stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25), sets stage 213 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-213)
 
     - “Sure, can do.” → *conversation ends*
 
-    <span id="d-brightport_storemaster1"></span>**`brightport_storemaster1`** Eatloni: “I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.” — **effects:** sets stage 245 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-245)
+    <span id="d-brightport_storemaster1"></span>**`brightport_storemaster1`** Eatloni: “I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.” — **effects:** sets stage 245 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-245)
 
     - “Is there any work for me to do here?” *(if NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1))* → [brightport_storemaster3](#d-brightport_storemaster3)
     - “That explains the mess.” → [brightport_storemaster2](#d-brightport_storemaster2)
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_eatloni"></span>**`brightport_eatloni`** Eatloni: “Do you not have other things to occupy yourself with. Why must you bother me?”
 
 
-    <span id="d-brightport_storemaster11"></span>**`brightport_storemaster11`** Eatloni: “Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration, he will reward you sufficiently.” — **effects:** sets stage 65 of [Bread and circus](../quests/brightport_bakery.md#stage-65), sets stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198)
+    <span id="d-brightport_storemaster11"></span>**`brightport_storemaster11`** Eatloni: “Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration, he will reward you sufficiently.” — **effects:** sets stage 65 of [Bread and circus](../quests/brightport_bakery.md#stage-65), sets stage 198 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198)
 
 
 

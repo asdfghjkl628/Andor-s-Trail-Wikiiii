@@ -1,10 +1,10 @@
 ---
-description: "Irogotu is an NPC who can also be fought in Andor's Trail, found in jan_pitcave3."
+description: "Irogotu is an NPC who can also be fought in Andor's Trail, found in Jan pitcave 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Irogotu
 
-**Where to find Irogotu:** [jan_pitcave3](../maps/jan_pitcave3.md#pin-npc-irogotu)
+**Where to find Irogotu:** [Jan pitcave 3](../maps/jan_pitcave3.md#pin-npc-irogotu)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Irogotu is an NPC who can also be fought in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | jan_pitcave3 |
+| **Found in** | Jan pitcave 3 |
 | **Class** | Undead |
 | **HP** | 61 |
 | **XP when defeated** | 123 |
@@ -59,11 +59,11 @@ description: "Irogotu is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [jan_pitcave3](../maps/jan_pitcave3.md) | – | 1 | – |
+| [Jan pitcave 3](../maps/jan_pitcave3.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Irogotu. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Irogotu. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/irogotu.json" data-npc="Irogotu" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-irogotu"></span>**`irogotu`** Irogotu: “Well hello there. Another adventurer coming to steal my bounty. This is MY CAVE. The treasure will be MINE!”
 

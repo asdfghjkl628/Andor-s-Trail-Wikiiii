@@ -26,8 +26,8 @@ description: "Miner's lamp fuel is a ordinary other in Andor's Trail. How to get
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 100%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [elm_mine2](../maps/elm_mine2.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-23) | handed over (1×) | “Add fuel to the miner's lamp.” |
+| walking into a blocked passage on [Elm mine 2](../maps/elm_mine2.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-23) | handed over (1×) | “Add fuel to the miner's lamp.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

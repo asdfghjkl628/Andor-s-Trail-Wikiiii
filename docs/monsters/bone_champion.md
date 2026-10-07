@@ -4,7 +4,7 @@ description: "Bone champion is an enemy in Andor's Trail (construct) with 49 HP,
 
 # ![](../assets/icons/monsters/monsters_skeleton1_0.png){ .sprite } Bone champion
 
-**Found in:** Flagstone Prison: [flagstone_upper](../maps/flagstone_upper.md), Loneford: [waytobrimhaven2](../maps/waytobrimhaven2.md), [flagstone3](../maps/flagstone3.md), [waytobrimhavencave0](../maps/waytobrimhavencave0.md) (+3 more)
+**Found in:** Flagstone Prison: [Flagstone upper](../maps/flagstone_upper.md), Loneford: [Waytobrimhaven 2](../maps/waytobrimhaven2.md), [Flagstone 3](../maps/flagstone3.md), [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -62,13 +62,13 @@ description: "Bone champion is an enemy in Andor's Trail (construct) with 49 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone3](../maps/flagstone3.md) | – | 2 | – |
-| [flagstone_upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
-| [waytobrimhaven2](../maps/waytobrimhaven2.md) | Loneford | 1 | – |
-| [waytobrimhavencave0](../maps/waytobrimhavencave0.md) | – | 3 | – |
-| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 3 | – |
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 5 | – |
-| [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 8 | – |
+| [Flagstone 3](../maps/flagstone3.md) | – | 2 | – |
+| [Flagstone upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
+| [Waytobrimhaven 2](../maps/waytobrimhaven2.md) | Loneford | 1 | – |
+| [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md) | – | 3 | – |
+| [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md) | – | 3 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 5 | – |
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 8 | – |
 
 
 ## Version history

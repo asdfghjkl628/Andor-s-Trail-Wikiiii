@@ -4,7 +4,7 @@ description: "Thieves guild cook is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Thieves guild cook
 
-**Where to find Thieves guild cook:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-thieves_guild_cook), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-thieves_guild_cook)
+**Where to find Thieves guild cook:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-thieves_guild_cook), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-thieves_guild_cook)
 
 <div class="infobox" markdown>
 
@@ -35,8 +35,8 @@ description: "Thieves guild cook is a non-player character (NPC) in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
 
 ## Quests
 
@@ -44,7 +44,7 @@ description: "Thieves guild cook is a non-player character (NPC) in Andor's Trai
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thieves guild cook. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thieves guild cook. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thievesguild_cook_1.json" data-npc="Thieves guild cook" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thievesguild_cook_1"></span>**`thievesguild_cook_1`** Thieves guild cook: “Hello, did you want something?”
 

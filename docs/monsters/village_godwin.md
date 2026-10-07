@@ -1,5 +1,5 @@
 ---
-description: "Godwin is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, gamjee_well_jail_cells."
+description: "Godwin is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } Godwin
@@ -11,7 +11,7 @@ description: "Godwin is an NPC who can also be fought in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Wexlow Village, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well jail cells |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -21,26 +21,26 @@ description: "Godwin is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Godwin. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Godwin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`village_godwin`](#v-village_godwin) | NPC | Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-village_godwin) | – | – |
-| [`troll_hollow_godwin`](#v-troll_hollow_godwin) | Enemy | [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| [`village_godwin`](#v-village_godwin) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_godwin) | – | – |
+| [`troll_hollow_godwin`](#v-troll_hollow_godwin) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
 
 ## Wexlow Village, Wexlow village (village_godwin) { #v-village_godwin }
 
 **Entry ID:** `village_godwin` · **Type:** NPC
 
-**Location:** Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-village_godwin)
+**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_godwin)
 
 ### Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 7, 13, 14, 15
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 7, 13, 14, 15
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Godwin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Godwin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/village_godwin_selector.json" data-npc="Godwin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,12 +48,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-village_godwin-village_godwin_selector"></span>**`village_godwin_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 7 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7))* → [village_godwin_lost_ring_1](#d-village_godwin-village_godwin_lost_ring_1)
-    - Next *(if reached stage 7 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7))* → [village_godwin_has_ring](#d-village_godwin-village_godwin_has_ring)
+    - Next *(if NOT reached stage 7 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7))* → [village_godwin_lost_ring_1](#d-village_godwin-village_godwin_lost_ring_1)
+    - Next *(if reached stage 7 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7))* → [village_godwin_has_ring](#d-village_godwin-village_godwin_has_ring)
 
     <span id="d-village_godwin-village_godwin_lost_ring_1"></span>**`village_godwin_lost_ring_1`** Godwin: “Have you by any chance seen my wedding ring? Oh my, Godelieve is going to kill me when she sees it's missing.”
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sure. Here, it's yours.” *(if hand over 1× [Godwin's ring](../items/godwin_ring.md))* → [village_godwin_lost_ring_give_ring_free](#d-village_godwin-village_godwin_lost_ring_give_ring_free)
     - “What do you want to give me in exchange for your wife not "killing you"?” → [village_godwin_lost_ring_5](#d-village_godwin-village_godwin_lost_ring_5)
 
-    <span id="d-village_godwin-village_godwin_lost_ring_give_ring_free"></span>**`village_godwin_lost_ring_give_ring_free`** Godwin: “Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble.” — **effects:** sets stage 7 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), gives 100× [Gold coins](../items/gold.md), sets stage 13 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-13)
+    <span id="d-village_godwin-village_godwin_lost_ring_give_ring_free"></span>**`village_godwin_lost_ring_give_ring_free`** Godwin: “Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble.” — **effects:** sets stage 7 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), gives 100× [Gold coins](../items/gold.md), sets stage 13 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-13)
 
 
     <span id="d-village_godwin-village_godwin_lost_ring_5"></span>**`village_godwin_lost_ring_5`** Godwin: “Give you? How about 2,000 gold coins?”
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sounds good.” *(if hand over 1× [Godwin's ring](../items/godwin_ring.md))* → [village_godwin_lost_ring_take_ring](#d-village_godwin-village_godwin_lost_ring_take_ring)
     - “Hey Godelieve, did you hear what happened to Godwin?” → [village_godwin_lost_ring_godelieve](#d-village_godwin-village_godwin_lost_ring_godelieve)
 
-    <span id="d-village_godwin-village_godwin_lost_ring_take_ring"></span>**`village_godwin_lost_ring_take_ring`** Godwin: “Thank you so much! Here take these coins.” — **effects:** gives 2000× [Gold coins](../items/gold.md), sets stage 7 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), sets stage 14 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-14)
+    <span id="d-village_godwin-village_godwin_lost_ring_take_ring"></span>**`village_godwin_lost_ring_take_ring`** Godwin: “Thank you so much! Here take these coins.” — **effects:** gives 2000× [Gold coins](../items/gold.md), sets stage 7 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), sets stage 14 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-14)
 
 
     <span id="d-village_godwin-village_godwin_lost_ring_godelieve"></span>**`village_godwin_lost_ring_godelieve`** [Godelieve](../monsters/village_godelieve.md#v-village_godelieve_hidden): “No. What happened?”
@@ -95,7 +95,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “3,000 gold or no ring.” *(if hand over 1× [Godwin's ring](../items/godwin_ring.md))* → [village_godwin_lost_ring_3k](#d-village_godwin-village_godwin_lost_ring_3k)
 
-    <span id="d-village_godwin-village_godwin_lost_ring_3k"></span>**`village_godwin_lost_ring_3k`** Godwin: “Fine! Take the coins you thief.” — **effects:** gives 3000× [Gold coins](../items/gold.md), sets stage 7 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), sets stage 15 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-15)
+    <span id="d-village_godwin-village_godwin_lost_ring_3k"></span>**`village_godwin_lost_ring_3k`** Godwin: “Fine! Take the coins you thief.” — **effects:** gives 3000× [Gold coins](../items/gold.md), sets stage 7 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7), sets stage 15 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-15)
 
     - “I will put them to good use.” → *conversation ends*
 
@@ -143,7 +143,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_godwin` · **Type:** Enemy
 
-**Location:** [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md)
+**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
 ### Combat statistics
 
@@ -171,7 +171,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
 
 
 ### Version history

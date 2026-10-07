@@ -35,7 +35,7 @@ description: "Mikhail's ring is a ordinary ring in Andor's Trail (Attack chance 
 
 ### Quest & dialogue rewards
 
-- From [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) (1×)
+- From [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -46,10 +46,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | handed over (1×) | “Sure, here is your ring. It was very useful in the beginning, but I don't need i” |
-| stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | must be carried (1×) | “[Lie] I don't have it anymore, sorry.” |
-| stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | must be worn (1×) | “[Lie] I don't have it anymore, sorry. This ring on my finger just looks similar.” |
-| [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) | [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | handed over (1×) | “Sure, here is your ring. It was very useful in the beginning, but I don't need i” |
+| stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | must be carried (1×) | “[Lie] I don't have it anymore, sorry.” |
+| stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) | [Colonel Lutarc](../quests/stn_colonel.md#stage-131) | must be worn (1×) | “[Lie] I don't have it anymore, sorry. This ring on my finger just looks similar.” |
+| [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) | [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83) | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

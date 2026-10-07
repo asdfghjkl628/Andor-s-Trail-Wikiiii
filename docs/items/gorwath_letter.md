@@ -27,7 +27,7 @@ description: "Gorwath's letter is a quest other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md)) during [You're the postman](../quests/postman.md#stage-15) (1×)
+- From [Gorwath](../monsters/gorwath.md) ([Crossglen](../maps/crossglen.md)) during [You're the postman](../quests/postman.md#stage-15) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,9 +38,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | – | must be carried (1×) | “I have a letter for you.” |
+| [Arensia](../monsters/arensia.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | – | must be carried (1×) | “I have a letter for you.” |
 | a scripted event | – | must be carried (1×) | “I have a letter for you.” |
-| [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | [You're the postman](../quests/postman.md#stage-20) | handed over (1×) | “Here it is.” |
+| [Arensia](../monsters/arensia.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | [You're the postman](../quests/postman.md#stage-20) | handed over (1×) | “Here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

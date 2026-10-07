@@ -4,7 +4,7 @@ description: "Ehrenfest is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_tometik1_86.png){ .sprite } Ehrenfest
 
-**Where to find Ehrenfest:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-ehrenfest), [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-ehrenfest), [elm5f_2](../maps/elm5f_2.md#pin-npc-ehrenfest), [elm_mine1](../maps/elm_mine1.md#pin-npc-ehrenfest)
+**Where to find Ehrenfest:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ehrenfest), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ehrenfest), [Elm 5f 2](../maps/elm5f_2.md#pin-npc-ehrenfest), [Elm mine 1](../maps/elm_mine1.md#pin-npc-ehrenfest)
 
 <div class="infobox" markdown>
 
@@ -23,19 +23,19 @@ description: "Ehrenfest is a non-player character (NPC) in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 1 | Appears later, during a quest |
-| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | Appears later, during a quest |
-| [elm5f_2](../maps/elm5f_2.md) | – | 1 | – |
-| [elm_mine1](../maps/elm_mine1.md) | – | 1 | Appears later, during a quest |
+| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 1 | Appears later, during a quest |
+| [Blackwater mountain 43](../maps/blackwater_mountain43.md) | – | 1 | Appears later, during a quest |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | – |
+| [Elm mine 1](../maps/elm_mine1.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 6, 7, 10, 11, 15, 16, 20, 31, 33, 45, 46, 53
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 5, 6, 7, 14, 21
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 5, 6, 7, 14, 21
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ehrenfest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ehrenfest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ehrenfest_selector_2.json" data-npc="Ehrenfest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (126 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ehrenfest_selector_2"></span>**`ehrenfest_selector_2`** *(silent check: the first matching branch below is taken)*
 
@@ -53,14 +53,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 4 *(if reached stage 40 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-40))* → [ortholion_conversation2_1](#d-ortholion_conversation2_1)
     - branch 5 *(if reached stage 33 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-33))* → [ehrenfest_46b](#d-ehrenfest_46b)
     - branch 6 *(if reached stage 32 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-32))* → [ehrenfest_39c](#d-ehrenfest_39c)
-    - branch 7 *(if reached stage 14 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-14))* → [ehrenfest_38a](#d-ehrenfest_38a)
+    - branch 7 *(if reached stage 14 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-14))* → [ehrenfest_38a](#d-ehrenfest_38a)
     - branch 8 *(if reached stage 20 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-20))* → [ehrenfest_34](#d-ehrenfest_34)
     - branch 9 *(if reached stage 16 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-16))* → [ehrenfest_30c](#d-ehrenfest_30c)
     - branch 10 *(if reached stage 15 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-15))* → [ehrenfest_25b](#d-ehrenfest_25b)
     - branch 11 *(if reached stage 11 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-11))* → [ehrenfest_11](#d-ehrenfest_11)
     - branch 12 *(if reached stage 7 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-7))* → [ehrenfest_8](#d-ehrenfest_8)
-    - branch 13 *(if reached stage 7 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-7))* → [ehrenfest_4](#d-ehrenfest_4)
-    - branch 14 *(if reached stage 6 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-6))* → [ehrenfest_3b](#d-ehrenfest_3b)
+    - branch 13 *(if reached stage 7 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-7))* → [ehrenfest_4](#d-ehrenfest_4)
+    - branch 14 *(if reached stage 6 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-6))* → [ehrenfest_3b](#d-ehrenfest_3b)
     - branch 15 *(if latest stage of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-6) is 6)* → [ehrenfest_2b2](#d-ehrenfest_2b2)
     - branch 16 → [ehrenfest_0](#d-ehrenfest_0)
 
@@ -88,7 +88,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “You are already aware of my information.” → [ehrenfest_40b](#d-ehrenfest_40b)
     - “What have you found out?” → [ehrenfest_40c](#d-ehrenfest_40c)
 
-    <span id="d-ehrenfest_38a"></span>**`ehrenfest_38a`** Ehrenfest: “I won't try to convince you. Now you must decide whether to help me or not. I won't ask twice, so make your choice wisely.” — **effects:** sets stage 14 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-14)
+    <span id="d-ehrenfest_38a"></span>**`ehrenfest_38a`** Ehrenfest: “I won't try to convince you. Now you must decide whether to help me or not. I won't ask twice, so make your choice wisely.” — **effects:** sets stage 14 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-14)
 
     - “I don't trust you. I will find my own way to solve this.” *(if NOT reached stage 32 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-32))* → [ehrenfest_39a](#d-ehrenfest_39a)
     - “I'll think about it. See you soon.” → *conversation ends*
@@ -124,7 +124,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “How did they reach this place?” → [ehrenfest_5a](#d-ehrenfest_5a)
     - “How do you know what I've seen?” → [ehrenfest_5b](#d-ehrenfest_5b)
 
-    <span id="d-ehrenfest_3b"></span>**`ehrenfest_3b`** Ehrenfest: “This is not a good place to talk about this. But trust me, there is much at stake and Prim's situation is only going to get worse. Let me introduce myself. My name is Ehrenfest, and...” — **effects:** sets stage 6 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-6)
+    <span id="d-ehrenfest_3b"></span>**`ehrenfest_3b`** Ehrenfest: “This is not a good place to talk about this. But trust me, there is much at stake and Prim's situation is only going to get worse. Let me introduce myself. My name is Ehrenfest, and...” — **effects:** sets stage 6 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-6)
 
     - Next → [ehrenfest_conversation_1](#d-ehrenfest_conversation_1)
 
@@ -226,7 +226,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [ehrenfest_conversation_1a](#d-ehrenfest_conversation_1a)
 
-    <span id="d-ehrenfest_3a"></span>**`ehrenfest_3a`** Ehrenfest: “OK, kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehrenfest.” — **effects:** sets stage 7 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-7), spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, sets stage 5 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-5)
+    <span id="d-ehrenfest_3a"></span>**`ehrenfest_3a`** Ehrenfest: “OK, kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehrenfest.” — **effects:** sets stage 7 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-7), spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, spawns monsters on blackwater_mountain29, sets stage 5 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-5)
 
     - “Do whatever you want, bye.” → *conversation ends*
     - “OK.” → *conversation ends*
@@ -453,8 +453,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-ortholion_conversation2_6a"></span>**`ortholion_conversation2_6a`** [General Ortholion](../monsters/ortholion.md): “Ehrenfest, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.”
 
-    - “Those guards are no match for...” *(if reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_7a](#d-ortholion_conversation2_7a)
-    - “Die!” *(if NOT reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_6a2](#d-ortholion_conversation2_6a2)
+    - “Those guards are no match for...” *(if reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_7a](#d-ortholion_conversation2_7a)
+    - “Die!” *(if NOT reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_6a2](#d-ortholion_conversation2_6a2)
 
     <span id="d-ortholion_1"></span>**`ortholion_1`** Ehrenfest: “Look, I don't have time for you, but I don't kill kids, not yet. So step aside.”
 
@@ -481,7 +481,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Have you finished?” → [ehrenfest_17a](#d-ehrenfest_17a)
     - “Obviously you needed the rest.” → [ehrenfest_17](#d-ehrenfest_17)
 
-    <span id="d-ehrenfest_conversation_4"></span>**`ehrenfest_conversation_4`** [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden): “Yes, my general.” — **effects:** sets stage 7 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-7), sets stage 10 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-10), spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain11, spawns monsters on blackwater_mountain11
+    <span id="d-ehrenfest_conversation_4"></span>**`ehrenfest_conversation_4`** [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden): “Yes, my general.” — **effects:** sets stage 7 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-7), sets stage 10 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-10), spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain11, spawns monsters on blackwater_mountain11
 
     - Next → [ehrenfest_conversation_4a](#d-ehrenfest_conversation_4a)
 
@@ -490,7 +490,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “W...What?!” → [ortholion_conversation2_8a](#d-ortholion_conversation2_8a)
     - “Hah. I always knew you were far too shady to be an honest man.” → [ortholion_conversation2_8a](#d-ortholion_conversation2_8a)
 
-    <span id="d-ortholion_conversation2_6a2"></span>**`ortholion_conversation2_6a2`** [Dummy NPC](../monsters/none.md): “Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow.” — **effects:** sets stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21), applies condition confusion
+    <span id="d-ortholion_conversation2_6a2"></span>**`ortholion_conversation2_6a2`** [Dummy NPC](../monsters/none.md): “Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow.” — **effects:** sets stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21), applies condition confusion
 
     - Next → [ortholion_conversation2_7a](#d-ortholion_conversation2_7a)
 
@@ -549,7 +549,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ortholion_3b"></span>**`ortholion_3b`** Ehrenfest: “Nothing impressive. Loyal followers of the Shadow have their tricks, just as I have my own.”
 
     - “The Shadow? Do you believe in that?” → [ortholion_4b](#d-ortholion_4b)
-    - “Hope those tricks are better than your chasing abilities.” *(if reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_4c](#d-ortholion_4c)
+    - “Hope those tricks are better than your chasing abilities.” *(if reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_4c](#d-ortholion_4c)
 
     <span id="d-ehrenfest_46a"></span>**`ehrenfest_46a`** Ehrenfest: “What else could we do?”
 
@@ -664,7 +664,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “*looks nervious* I told you. Something big is about to happen. I beli…” → “*looks nervous* I told you. Something big is about to happen. I belie…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 3 lines changed<br>· text: “Lorn lay next to me, just a few meters away. His armor was entirely c…” → “Lorn lay next to me, just a few steps away. His armor was entirely co…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…”<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

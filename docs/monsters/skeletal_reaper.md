@@ -4,7 +4,7 @@ description: "Skeletal reaper is an enemy in Andor's Trail (construct) with 15 H
 
 # ![](../assets/icons/monsters/monsters_rltiles1_27.png){ .sprite } Skeletal reaper
 
-**Found in:** Prim: [blackwater_mountain33](../maps/blackwater_mountain33.md), [blackwater_mountain34](../maps/blackwater_mountain34.md)
+**Found in:** Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
 
 <div class="infobox" markdown>
 
@@ -62,8 +62,8 @@ description: "Skeletal reaper is an enemy in Andor's Trail (construct) with 15 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain33](../maps/blackwater_mountain33.md) | Prim | 1 | – |
-| [blackwater_mountain34](../maps/blackwater_mountain34.md) | – | 4 | – |
+| [Blackwater mountain 33](../maps/blackwater_mountain33.md) | Prim | 1 | – |
+| [Blackwater mountain 34](../maps/blackwater_mountain34.md) | – | 4 | – |
 
 
 ## Version history

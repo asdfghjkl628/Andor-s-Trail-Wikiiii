@@ -52,9 +52,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_531](../maps/ratdom_maze_531.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-91) | must be worn (1×) | “(automatic)” |
-| walking into a blocked passage on [ratdom_maze_626](../maps/ratdom_maze_626.md) | – | must be carried (1×) | “Hit the hole with your pickaxe.” |
-| [Andor's statue](../monsters/ratdom_rat_statue.md) ([crossglen_cave](../maps/crossglen_cave.md)) | – | must be worn (1×) | “(automatic)” |
+| walking into a blocked passage on [Ratdom maze 531](../maps/ratdom_maze_531.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-91) | must be worn (1×) | “(automatic)” |
+| walking into a blocked passage on [Ratdom maze 626](../maps/ratdom_maze_626.md) | – | must be carried (1×) | “Hit the hole with your pickaxe.” |
+| [Andor's statue](../monsters/ratdom_rat_statue.md) ([Crossglen cave](../maps/crossglen_cave.md)) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

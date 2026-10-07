@@ -1,5 +1,5 @@
 ---
-description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor, Embergeist, Pyreling, Lava entity. Exits to Galmore 62, Galmore 71."
+description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor, Pyreling, Embergeist, Lava entity. Exits to Galmore 62, Galmore 71."
 ---
 
 # Galmore 72
@@ -11,7 +11,7 @@ description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor
 | **Map ID** | `galmore_72` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
@@ -48,8 +48,8 @@ description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Andor](../monsters/dds_andor.md#v-mg2_andor) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 8 | – |
 | [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 1 | – |
+| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 8 | – |
 | [Lava entity](../monsters/lava_entity.md) | 290 | 30–35 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

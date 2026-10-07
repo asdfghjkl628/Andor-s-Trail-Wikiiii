@@ -4,7 +4,7 @@ description: "Young mountain wolf is an enemy in Andor's Trail (animal) with 52 
 
 # ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } Young mountain wolf
 
-**Found in:** Lake Laeroth: [mountainlake1](../maps/mountainlake1.md), Lake Laeroth: [mountainlake10a](../maps/mountainlake10a.md), Remgard: [mountainlake12](../maps/mountainlake12.md), Remgard: [mountainlake13](../maps/mountainlake13.md) (+3 more)
+**Found in:** Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md), Lake Laeroth: [Mountainlake 10a](../maps/mountainlake10a.md), Remgard: [Mountainlake 12](../maps/mountainlake12.md), Remgard: [Mountainlake 13](../maps/mountainlake13.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Young mountain wolf is an enemy in Andor's Trail (animal) with 52 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake1](../maps/mountainlake1.md) | Lake Laeroth | 3 | – |
-| [mountainlake10a](../maps/mountainlake10a.md) | Lake Laeroth | 5 | – |
-| [mountainlake11](../maps/mountainlake11.md) | – | 1 | – |
-| [mountainlake12](../maps/mountainlake12.md) | Remgard | 6 | – |
-| [mountainlake13](../maps/mountainlake13.md) | Remgard | 9 | – |
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 1 | – |
-| [waytolake9](../maps/waytolake9.md) | – | 4 | – |
+| [Mountainlake 1](../maps/mountainlake1.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 10a](../maps/mountainlake10a.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 11](../maps/mountainlake11.md) | – | 1 | – |
+| [Mountainlake 12](../maps/mountainlake12.md) | Remgard | 6 | – |
+| [Mountainlake 13](../maps/mountainlake13.md) | Remgard | 9 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 1 | – |
+| [Waytolake 9](../maps/waytolake9.md) | – | 4 | – |
 
 
 ## Version history

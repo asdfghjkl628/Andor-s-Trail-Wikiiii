@@ -36,7 +36,7 @@ description: "Bandage is a quest healing item in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) during [Thief apprentice](../quests/Thieves01.md#stage-50) (1×)
+- From [Thoronir](../monsters/thoronir.md) ([Fallhaven church](../maps/fallhaven_church.md)) during [Thief apprentice](../quests/Thieves01.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -47,7 +47,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Fanamor](../monsters/fanamor.md) ([crossroads](../maps/crossroads.md)) | [Thief apprentice](../quests/Thieves01.md#stage-55) | handed over (1×) | “Yes, I have it!” |
+| [Fanamor](../monsters/fanamor.md) ([Crossroads](../maps/crossroads.md)) | [Thief apprentice](../quests/Thieves01.md#stage-55) | handed over (1×) | “Yes, I have it!” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

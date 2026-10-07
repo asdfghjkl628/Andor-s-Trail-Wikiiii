@@ -1,10 +1,10 @@
 ---
-description: "Hadena is a non-player character (NPC) in Andor's Trail, found in sullengard_ravine_cabin. Starts Getting home on time."
+description: "Hadena is a non-player character (NPC) in Andor's Trail, found in Sullengard ravine cabin. Starts Getting home on time."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } Hadena
 
-**Where to find Hadena:** [sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md#pin-npc-sullengard_cabin_wife)
+**Where to find Hadena:** [Sullengard ravine cabin](../maps/sullengard_ravine_cabin.md#pin-npc-sullengard_cabin_wife)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Hadena is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Getting home on time](../quests/deebo_orchard_ght.md) |
-| **Found in** | sullengard_ravine_cabin |
+| **Found in** | Sullengard ravine cabin |
 | **Entry ID** | `sullengard_cabin_wife` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
@@ -23,11 +23,11 @@ description: "Hadena is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Getting home on time](../quests/deebo_orchard_ght.md): stages 10, 20, 60
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 16
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 16
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hadena. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hadena. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_hadena_selector_0.json" data-npc="Hadena" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_hadena_selector_0"></span>**`sullengard_hadena_selector_0`** *(silent check: the first matching branch below is taken)*
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 2 *(if NOT reached stage 60 of [Getting home on time](../quests/deebo_orchard_ght.md#stage-60))* → [sullengard_hadena_6](#d-sullengard_hadena_6)
     - branch 3 *(if reached stage 60 of [Getting home on time](../quests/deebo_orchard_ght.md#stage-60))* → [sullengard_hadena_completed](#d-sullengard_hadena_completed)
 
-    <span id="d-sullengard_hadena_0"></span>**`sullengard_hadena_0`** Hadena: “Andor, good timing! Your arrival is much appreciated because I need your help to get my husband home on time today.” — **effects:** sets stage 16 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-16)
+    <span id="d-sullengard_hadena_0"></span>**`sullengard_hadena_0`** Hadena: “Andor, good timing! Your arrival is much appreciated because I need your help to get my husband home on time today.” — **effects:** sets stage 16 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-16)
 
     - “So, my brother Andor was here as well? I'm $playername and you are?” → [sullengard_hadena_1](#d-sullengard_hadena_1)
     - “You must be mistaken. I'm $playername and Andor is my brother, and you are?” → [sullengard_hadena_1](#d-sullengard_hadena_1)

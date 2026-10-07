@@ -18,21 +18,21 @@ description: "Unkorh is a non-player character (NPC) in Andor's Trail, found in 
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Unkorh. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Unkorh. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_steward`](#v-guynmart_steward) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward) | – |
-| [`guynmart_steward2`](#v-guynmart_steward2) | NPC | Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2) | – |
-| [`guynmart_steward3`](#v-guynmart_steward3) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3) | – |
-| [`guynmart_steward4`](#v-guynmart_steward4) | NPC | Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4) | – |
-| [`guynmart_steward5`](#v-guynmart_steward5) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5) | – |
+| [`guynmart_steward`](#v-guynmart_steward) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward) | – |
+| [`guynmart_steward2`](#v-guynmart_steward2) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2) | – |
+| [`guynmart_steward3`](#v-guynmart_steward3) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3) | – |
+| [`guynmart_steward4`](#v-guynmart_steward4) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4) | – |
+| [`guynmart_steward5`](#v-guynmart_steward5) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5) | – |
 
 ## Guynmart Castle, Guynmart main 1 (guynmart_steward) { #v-guynmart_steward }
 
 **Entry ID:** `guynmart_steward` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward)
 
 ### Quests
 
@@ -40,7 +40,7 @@ description: "Unkorh is a non-player character (NPC) in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Unkorh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Unkorh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_steward_10.json" data-npc="Unkorh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_steward-guynmart_steward_10"></span>**`guynmart_steward_10`** *(silent check: the first matching branch below is taken)*
 
@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_steward2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2)
+**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2)
 
 ### Quests
 
@@ -157,7 +157,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Unkorh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Unkorh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_steward_10.json" data-npc="Unkorh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -206,7 +206,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `guynmart_steward3` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3)
 
 ### Quests
 
@@ -214,7 +214,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Unkorh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Unkorh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_steward3_10.json" data-npc="Unkorh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -222,7 +222,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_steward3-guynmart_steward3_10"></span>**`guynmart_steward3_10`** *(silent check: the first matching branch below is taken)*
 
@@ -291,7 +291,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_steward4` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4)
+**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4)
 
 ### Quests
 
@@ -300,7 +300,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Unkorh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Unkorh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_steward4_10.json" data-npc="Unkorh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -308,7 +308,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (30 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_steward4-guynmart_steward4_10"></span>**`guynmart_steward4_10`** *(silent check: the first matching branch below is taken)*
 
@@ -477,16 +477,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_steward5` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5)
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 200, 210, 211
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Unkorh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Unkorh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_steward5_10.json" data-npc="Unkorh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -494,15 +494,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (51 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_steward5-guynmart_steward5_10"></span>**`guynmart_steward5_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 211 of [Roses](../quests/guynmart.md#stage-211); reached stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_450](#d-guynmart_steward5-guynmart_lovis2_450)
+    - branch 1 *(if reached stage 211 of [Roses](../quests/guynmart.md#stage-211); reached stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_450](#d-guynmart_steward5-guynmart_lovis2_450)
     - branch 2 *(if reached stage 211 of [Roses](../quests/guynmart.md#stage-211); NOT reached stage 200 of [Roses](../quests/guynmart.md#stage-200))* → [guynmart_steward5_12](#d-guynmart_steward5-guynmart_steward5_12)
     - branch 3 *(if reached stage 211 of [Roses](../quests/guynmart.md#stage-211))* → [guynmart_steward5_14](#d-guynmart_steward5-guynmart_steward5_14)
     - branch 4 *(if NOT reached stage 200 of [Roses](../quests/guynmart.md#stage-200))* → [guynmart_steward5_20](#d-guynmart_steward5-guynmart_steward5_20)
-    - branch 5 *(if reached stage 32 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_lovis2_120](#d-guynmart_steward5-guynmart_lovis2_120)
+    - branch 5 *(if reached stage 32 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_lovis2_120](#d-guynmart_steward5-guynmart_lovis2_120)
     - branch 6 → [guynmart_lovis2_40](#d-guynmart_steward5-guynmart_lovis2_40)
 
     <span id="d-guynmart_steward5-guynmart_lovis2_450"></span>**`guynmart_lovis2_450`** Unkorh: “We have good news for you.”
@@ -525,14 +525,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_steward5-guynmart_lovis2_40"></span>**`guynmart_lovis2_40`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_steward5-guynmart_lovis2_50)
+    - branch 1 *(if reached stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_steward5-guynmart_lovis2_50)
     - branch 2 → [guynmart_lovis2_70](#d-guynmart_steward5-guynmart_lovis2_70)
 
     <span id="d-guynmart_steward5-guynmart_lovis2_452"></span>**`guynmart_lovis2_452`** Unkorh: “Rorthron, the ringmaker, was behaving rather strangely, and so we questioned him. It came to light that he seems to have damaged one of your rings.”
 
     - Next → [guynmart_lovis2_454](#d-guynmart_steward5-guynmart_lovis2_454)
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_130"></span>**`guynmart_lovis2_130`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)
+    <span id="d-guynmart_steward5-guynmart_lovis2_130"></span>**`guynmart_lovis2_130`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)
 
     - branch 1 *(if reached stage 181 of [Roses](../quests/guynmart.md#stage-181))* → [guynmart_lovis2_141](#d-guynmart_steward5-guynmart_lovis2_141)
     - branch 2 → [guynmart_lovis2_140](#d-guynmart_steward5-guynmart_lovis2_140)
@@ -543,7 +543,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_steward5-guynmart_lovis2_70"></span>**`guynmart_lovis2_70`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_steward5-guynmart_lovis2_200)
+    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_steward5-guynmart_lovis2_200)
     - branch 2 → [guynmart_lovis2_100](#d-guynmart_steward5-guynmart_lovis2_100)
 
     <span id="d-guynmart_steward5-guynmart_lovis2_454"></span>**`guynmart_lovis2_454`** Unkorh: “He eventually admitted that he secretly exchanged your ring for a worthless ring.”
@@ -589,7 +589,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [guynmart_lovis2_220](#d-guynmart_steward5-guynmart_lovis2_220)
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_460"></span>**`guynmart_lovis2_460`** Unkorh: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
+    <span id="d-guynmart_steward5-guynmart_lovis2_460"></span>**`guynmart_lovis2_460`** Unkorh: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
 
     - “Oh! I can't believe it! Is it really true?” → *conversation ends*
 
@@ -602,7 +602,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 181 of [Roses](../quests/guynmart.md#stage-181))* → [guynmart_lovis2_220b](#d-guynmart_steward5-guynmart_lovis2_220b)
     - branch 2 → [guynmart_lovis2_220a](#d-guynmart_steward5-guynmart_lovis2_220a)
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Unkorh: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
+    <span id="d-guynmart_steward5-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Unkorh: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
 
     - “Oh! I can't believe it! Is it really true?” → [guynmart_lovis2_70](#d-guynmart_steward5-guynmart_lovis2_70)
 
@@ -720,7 +720,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “No, sorry, I didn't mean it.” → [guynmart_lovis2_220](#d-guynmart_steward5-guynmart_lovis2_220)
     - “I will go. Bye.” → [guynmart_lovis2_240](#d-guynmart_steward5-guynmart_lovis2_240)
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Unkorh: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
+    <span id="d-guynmart_steward5-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Unkorh: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
 
     - “I am relieved.” → [guynmart_lovis2_100](#d-guynmart_steward5-guynmart_lovis2_100)
 
@@ -728,10 +728,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK.” → *conversation ends*
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
+    <span id="d-guynmart_steward5-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
 
 
-    <span id="d-guynmart_steward5-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
+    <span id="d-guynmart_steward5-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
 
 
 

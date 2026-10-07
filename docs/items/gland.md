@@ -26,20 +26,20 @@ description: "Poison gland is a ordinary animal part in Andor's Trail. How to ge
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 | galmore_28 |
+| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 | Galmore 28 |
 | [Grasslands snake](../monsters/grass_snake.md) | 30% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
 | [Tough grasslands snake](../monsters/grass_snake2.md) | 30% | 1 | Loneford, Crossroads Guardhouse, Guynmart Castle |
 | [Grasslands lizard](../monsters/grass_lizard.md) | 30% | 1 | Crossroads Guardhouse |
 | [Black grasslands lizard](../monsters/grass_lizard2.md) | 30% | 1 | Crossroads Guardhouse, Flagstone Prison |
 | [Poisonous river frog](../monsters/frog_3.md) | 30% | 1 | Guynmart Castle |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 30% | 1 | Sullengard |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 | way_to_sullengard_east9 |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 30% | 1 | Way to sullengard east 9 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 30% | 1 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
 | [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 30% | 1 | Deebo's Orchard |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 | way_to_sullengard_east1 |
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 | lodar16, lodar19 |
-| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 | lodar17, lodar19 |
-| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 30% | 1 | Way to sullengard east 1 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 | Lodar 16, Lodar 19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 | Lodar 17, Lodar 19 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | 20% | 1 | Sullengard woods 11, Sullengard woods 12, Sullengard woods 3 |
 | [ViridToxin dartmaw](../monsters/virid_toxin.md) | 8% | 1 | Flagstone Prison |
 | [Forest snake](../monsters/forest_snake.md) | 5% | 1 | Blackwater Mountain, Fallhaven |
 | [Young cave snake](../monsters/young_cave_snake.md) | 5% | 1 | Blackwater Mountain |
@@ -51,18 +51,18 @@ description: "Poison gland is a ordinary animal part in Andor's Trail. How to ge
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | 5% | 1 | Stoutford, Blackwater Mountain, Prim |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 5% | 1 | Blackwater Mountain |
 | [Tough venomfang](../monsters/tough_venomfang.md) | 5% | 1 | Blackwater Mountain, Flagstone Prison |
-| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Young venomscale](../monsters/vscale2.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 | lodar16, lodar17, lodar18 |
-| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 | lodar16, lodar17, lodar18 |
-| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 | lodar18, lodar19, lodar21 |
-| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 | lodar18, lodar19, lodar21 |
-| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 | lodar19 |
-| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
-| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
-| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
-| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
+| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Young venomscale](../monsters/vscale2.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 | Lodar 16, Lodar 17, Lodar 18 |
+| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 | Lodar 16, Lodar 17, Lodar 18 |
+| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 | Lodar 18, Lodar 19, Lodar 21 |
+| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 | Lodar 18, Lodar 19, Lodar 21 |
+| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 | Lodar 19 |
+| [Young cave serpent](../monsters/young_cave_serpent.md) | 5% | 1 | Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3 |
+| [Cave serpent](../monsters/cave_serpent.md) | 5% | 1 | Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3 |
+| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 5% | 1 | Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5 |
+| [Tough cave serpent](../monsters/tough_cave_serpent.md) | 5% | 1 | Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5 |
 | [Slippery Venomfang](../monsters/slippery_venomfang.md) | 5% | 0-2 | Blackwater Mountain |
 | [Noxious venomfang](../monsters/noxious_venomfang.md) | 5% | 0-2 | Blackwater Mountain |
 | [Big cave snake](../monsters/cavesnake4.md) | 5% | 1 | 4 wells, Roundlings |
@@ -79,10 +79,10 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Gruil](../monsters/gruil.md) | [Search for Andor](../quests/andor.md#stage-30) | handed over (1×) | “Here, I have a poison gland for you.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (1×) | “I have those ingredients for you.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (1×) | “I have those ingredients for you.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (5×) | “Here, I have enough of those ingredients for five potions.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for ten potions.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (1×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (1×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (5×) | “Here, I have enough of those ingredients for five potions.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for ten potions.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

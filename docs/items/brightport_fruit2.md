@@ -36,7 +36,7 @@ description: "Fruit assortment is a ordinary food in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) (1×)
+- From [Stanwick](../monsters/brightportnpc.md) ([Brightport school 7](../maps/brightport_school7.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

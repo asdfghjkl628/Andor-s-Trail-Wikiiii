@@ -22,18 +22,18 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Grave spawn. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Grave spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`grave_spawn`](#v-grave_spawn) | Enemy | Blackwater Mountain: [blackwater_mountain51](../maps/blackwater_mountain51.md), Blackwater Mountain: [blackwater_mountain52](../maps/blackwater_mountain52.md) (+3 more) | – | 45 |
-| [`bwm_grave_spawn`](#v-bwm_grave_spawn) | Enemy | Blackwater Mountain: [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | 45 |
+| [`grave_spawn`](#v-grave_spawn) | Enemy | Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md) (+3 more) | – | 45 |
+| [`bwm_grave_spawn`](#v-bwm_grave_spawn) | Enemy | Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – | 45 |
 
-## Blackwater Mountain, Blackwater mountain51 and 4 more (grave_spawn) { #v-grave_spawn }
+## Blackwater Mountain, Blackwater mountain 51 and 4 more (grave_spawn) { #v-grave_spawn }
 
 **Entry ID:** `grave_spawn` · **Type:** Enemy
 
-**Location:** Blackwater Mountain: [blackwater_mountain51](../maps/blackwater_mountain51.md), Blackwater Mountain: [blackwater_mountain52](../maps/blackwater_mountain52.md), Prim: [blackwater_mountain12](../maps/blackwater_mountain12.md), Prim: [blackwater_mountain33](../maps/blackwater_mountain33.md), [blackwater_mountain34](../maps/blackwater_mountain34.md)
+**Location:** Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md), Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
 
 ### Combat statistics
 
@@ -73,11 +73,11 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 1 | – |
-| [blackwater_mountain33](../maps/blackwater_mountain33.md) | Prim | 7 | – |
-| [blackwater_mountain34](../maps/blackwater_mountain34.md) | – | 4 | – |
-| [blackwater_mountain51](../maps/blackwater_mountain51.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain52](../maps/blackwater_mountain52.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 12](../maps/blackwater_mountain12.md) | Prim | 1 | – |
+| [Blackwater mountain 33](../maps/blackwater_mountain33.md) | Prim | 7 | – |
+| [Blackwater mountain 34](../maps/blackwater_mountain34.md) | – | 4 | – |
+| [Blackwater mountain 51](../maps/blackwater_mountain51.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 52](../maps/blackwater_mountain52.md) | Blackwater Mountain | 4 | – |
 
 
 ### Version history
@@ -130,11 +130,11 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
     ```
 
 
-## Blackwater Mountain, Blackwater mountain72 (bwm_grave_spawn) { #v-bwm_grave_spawn }
+## Blackwater Mountain, Blackwater mountain 72 (bwm_grave_spawn) { #v-bwm_grave_spawn }
 
 **Entry ID:** `bwm_grave_spawn` · **Type:** Enemy
 
-**Location:** Blackwater Mountain: [blackwater_mountain72](../maps/blackwater_mountain72.md)
+**Location:** Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md)
 
 ### Combat statistics
 
@@ -174,7 +174,7 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 3 | Appears later, during a quest |
+| [Blackwater mountain 72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 3 | Appears later, during a quest |
 
 
 ### Version history

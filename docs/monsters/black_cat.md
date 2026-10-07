@@ -4,7 +4,7 @@ description: "Black cat is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } Black cat
 
-**Where to find Black cat:** Flagstone Prison: [rat_mountain_3](../maps/rat_mountain_3.md#pin-npc-black_cat)
+**Where to find Black cat:** Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md#pin-npc-black_cat)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Black cat is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black cat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black cat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cat_dialog.json" data-npc="Black cat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cat_dialog"></span>**`cat_dialog`** Black cat: “Meow.”
 

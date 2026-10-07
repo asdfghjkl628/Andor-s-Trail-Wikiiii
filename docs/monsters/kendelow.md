@@ -4,7 +4,7 @@ description: "Kendelow is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Kendelow
 
-**Where to find Kendelow:** Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-kendelow)
+**Where to find Kendelow:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-kendelow)
 
 <div class="infobox" markdown>
 
@@ -31,11 +31,11 @@ description: "Kendelow is a non-player character (NPC) in Andor's Trail, found i
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 21
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 21
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kendelow. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kendelow. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kendelow.json" data-npc="Kendelow" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (24 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-kendelow"></span>**`kendelow`** *(silent check: the first matching branch below is taken)*
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-kendelow_room_1"></span>**`kendelow_room_1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 21 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-21))* → [kendelow_room_2](#d-kendelow_room_2)
+    - branch 1 *(if reached stage 21 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-21))* → [kendelow_room_2](#d-kendelow_room_2)
     - branch 2 → [kendelow_room_3](#d-kendelow_room_3)
 
     <span id="d-kendelow_meat"></span>**`kendelow_meat`** Kendelow: “No, sorry. I can't let you use my kitchen. But...”
@@ -134,7 +134,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 45 of [What is that stench?](../quests/remgard2.md#stage-45))* → [kendelow_room_6b](#d-kendelow_room_6b)
     - branch 2 → [kendelow_room_6a](#d-kendelow_room_6a)
 
-    <span id="d-kendelow_room_8"></span>**`kendelow_room_8`** Kendelow: “Thank you. The room is upstairs. You may rent it for as long as you wish.” — **effects:** sets stage 21 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-21)
+    <span id="d-kendelow_room_8"></span>**`kendelow_room_8`** Kendelow: “Thank you. The room is upstairs. You may rent it for as long as you wish.” — **effects:** sets stage 21 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-21)
 
 
     <span id="d-kendelow_room_7"></span>**`kendelow_room_7`** Kendelow: “You are welcome to return once you have the gold, if you are still interested.”

@@ -11,9 +11,9 @@ description: "Skeleton brothers is a quest in Andor's Trail, started by Roskelt 
 | **Quest ID** | `ratdom_skeleton` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 90) |
-| **Started by** | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) |
+| **Started by** | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([Ratdom maze 415](../maps/ratdom_maze_415.md)) |
 | **NPCs involved** | [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Roskelt](../monsters/ratdom_skeleton_boss1.md) |
-| **Locations** | [ratdom_maze_415](../maps/ratdom_maze_415.md), [ratdom_maze_416](../maps/ratdom_maze_416.md) |
+| **Locations** | [Ratdom maze 415](../maps/ratdom_maze_415.md), [Ratdom maze 416](../maps/ratdom_maze_416.md) |
 | **Total XP** | 1,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Skeleton brothers is a quest in Andor's Trail, started by Roskelt 
 
 ## Prerequisites to start
 
-Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)). Required:
+Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([Ratdom maze 415](../maps/ratdom_maze_415.md)). Required:
 
 - NOT reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62)
 - NOT reached stage 42 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-42)
@@ -43,60 +43,124 @@ Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](..
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-41"></span>41 | Roskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that I would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death. | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) | – | – |
-| <span id="stage-42"></span>42 | Bloskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that I would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death. | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | – | – |
-| <span id="stage-51"></span>51 | Bloskelt, a leader of another gang of skeletons, also had claimed to be king of the caves. I delivered Roskelt's message, but earned nothing but laughter. | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | stage 41 | – |
-| <span id="stage-52"></span>52 | Roskelt, a leader of another gang of skeletons, also had claimed to be king of the caves. I delivered Bloskelt's message, but earned nothing but laughter. | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) | stage 42 | – |
-| <span id="stage-61"></span>61 | Roskelt asked me to kill his brother. | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) | stage 51 | – |
-| <span id="stage-62"></span>62 | Bloskelt asked me to kill his brother. | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | stage 52 | – |
-| <span id="stage-71"></span>71 | I have killed Bloskelt.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ratdom maze 416](../maps/ratdom_maze_416.md).</span> | stepping on a trigger on [ratdom_maze_416](../maps/ratdom_maze_416.md) | – | – |
-| <span id="stage-72"></span>72 | I have killed Roskelt.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ratdom maze 415](../maps/ratdom_maze_415.md).</span> | stepping on a trigger on [ratdom_maze_415](../maps/ratdom_maze_415.md) | – | – |
-| <span id="stage-90"></span>90 | For all my efforts, I've got a pretty poor reward. **(completes quest)** | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md))<br>[Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | stage 61, stage 62, stage 71, stage 72 | 1,000 XP<br>gives 18× [Gold coins](../items/gold.md)<br>gives 2× [Glass gem](../items/gem1.md)<br>sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37)<br>gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-41"></span>[41](#route-41) | <details class="jt"><summary><span class="s">Roskelt, the leader of a gang of skeletons, claimed to be king of… ▸</span><span class="l">▴ less</span></summary>Roskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that I would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death.</details> | [Roskelt](../monsters/ratdom_skeleton_boss1.md) | – |
+| <span id="stage-42"></span>[42](#route-42) | <details class="jt"><summary><span class="s">Bloskelt, the leader of a gang of skeletons, claimed to be king of… ▸</span><span class="l">▴ less</span></summary>Bloskelt, the leader of a gang of skeletons, claimed to be king of the caves. He demanded that I would seek out his brother and bring him a message: if he came and surrendered, then he would have the grace of a quick, almost painless death.</details> | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) | – |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">Bloskelt, a leader of another gang of skeletons, also had claimed to… ▸</span><span class="l">▴ less</span></summary>Bloskelt, a leader of another gang of skeletons, also had claimed to be king of the caves. I delivered Roskelt's message, but earned nothing but laughter.</details> | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) | – |
+| <span id="stage-52"></span>[52](#route-52) | <details class="jt"><summary><span class="s">Roskelt, a leader of another gang of skeletons, also had claimed to… ▸</span><span class="l">▴ less</span></summary>Roskelt, a leader of another gang of skeletons, also had claimed to be king of the caves. I delivered Bloskelt's message, but earned nothing but laughter.</details> | [Roskelt](../monsters/ratdom_skeleton_boss1.md) | – |
+| <span id="stage-61"></span>[61](#route-61) | Roskelt asked me to kill his brother. | [Roskelt](../monsters/ratdom_skeleton_boss1.md) | – |
+| <span id="stage-62"></span>[62](#route-62) | Bloskelt asked me to kill his brother. | [Bloskelt](../monsters/ratdom_skeleton_boss2.md) | – |
+| <span id="stage-71"></span>[71](#route-71) | I have killed Bloskelt.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ratdom maze 416](../maps/ratdom_maze_416.md).</span> | stepping on a trigger on [Ratdom maze 416](../maps/ratdom_maze_416.md) | – |
+| <span id="stage-72"></span>[72](#route-72) | I have killed Roskelt.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Ratdom maze 415](../maps/ratdom_maze_415.md).</span> | stepping on a trigger on [Ratdom maze 415](../maps/ratdom_maze_415.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | For all my efforts, I've got a pretty poor reward. **(ends quest)** | [Roskelt](../monsters/ratdom_skeleton_boss1.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md) | 1,000 XP, 18× [Gold coins](../items/gold.md), 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 41: 1 route"
+<span id="route-41"></span>
 
-    1. Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) → choose “Aha.” — **conditions:** NOT reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62); NOT reached stage 42 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-42) → **stage 41**. NPC: “You go and find Bloskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick,…”
+??? note "Stage 41 · Roskelt · 1 way"
 
-???+ note "Stage 42: 1 route"
+    **Way 1:** Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md), choose “Aha.”
 
-    1. Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) → choose “Aha.” — **conditions:** NOT reached stage 61 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-61); NOT reached stage 41 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-41) → **stage 42**. NPC: “You go and find Roskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick, almost…”
+    - **Needs:** not yet stage 42, 62
+    - *“You go and find Bloskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick, almost painless death.”*
 
-???+ note "Stage 51: 1 route"
 
-    1. Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) → choose “Eh, yes. How did you know?” — **conditions:** NOT reached stage 61 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-61); reached stage 41 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-41) → **stage 51**. NPC: “HAHAHA! I will not give up and surrender to him! Never! Tell him that. HAHAHAHA!”
+<span id="route-42"></span>
 
-???+ note "Stage 52: 1 route"
+??? note "Stage 42 · Bloskelt · 1 way"
 
-    1. Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) → choose “Eh, yes. How did you know?” — **conditions:** NOT reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62); reached stage 42 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-42) → **stage 52**. NPC: “HAHAHA! I will not give up and surrender to him! Never! Tell him that. HAHAHAHA!”
+    **Way 1:** Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md), choose “Aha.”
 
-???+ note "Stage 61: 1 route"
+    - **Needs:** not yet stage 41, 61
+    - *“You go and find Roskelt! Tell him that he shall come to me to surrender! He would receive the grace of a quick, almost painless death.”*
 
-    1. Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) → choose “I delivered your message, but Bloskelt was just laughing.” — **conditions:** reached stage 51 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-51) → **stage 61**. NPC: “Then go again. And kill him.”
 
-???+ note "Stage 62: 1 route"
+<span id="route-51"></span>
 
-    1. Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) → choose “I delivered your message, but Roskelt was just laughing.” — **conditions:** reached stage 52 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-52) → **stage 62**. NPC: “Then go again. And kill him.”
+??? note "Stage 51 · Bloskelt · 1 way"
 
-???+ note "Stage 71: 1 route"
+    **Way 1:** Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md), choose “Eh, yes. How did you know?”
 
-    1. stepping on a trigger on [ratdom_maze_416](../maps/ratdom_maze_416.md) → the conversation leads here automatically — **conditions:** killed 1× [Bloskelt](../monsters/ratdom_skeleton_boss2.md); NOT reached stage 90 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-90) → **stage 71**
+    - **Needs:** stage 41; not yet stage 61
+    - *“HAHAHA! I will not give up and surrender to him! Never! Tell him that. HAHAHAHA!”*
 
-???+ note "Stage 72: 1 route"
 
-    1. stepping on a trigger on [ratdom_maze_415](../maps/ratdom_maze_415.md) → the conversation leads here automatically — **conditions:** killed 1× [Roskelt](../monsters/ratdom_skeleton_boss1.md); NOT reached stage 90 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-90) → **stage 72**
+<span id="route-52"></span>
 
-???+ note "Stage 90: 2 routes"
+??? note "Stage 52 · Roskelt · 1 way"
 
-    1. Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) → choose “Yes. Your brother is dead.” — **conditions:** reached stage 71 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-71); reached stage 61 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-61) → **stage 90**; also gives 18× [Gold coins](../items/gold.md), gives 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md). NPC: “Good. I will shower you with gold, jewels and bones.”
-    2. Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) → choose “Yes. Your brother is dead.” — **conditions:** reached stage 72 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-72); reached stage 62 of [Skeleton brothers](../quests/ratdom_skeleton.md#stage-62) → **stage 90**; also gives 18× [Gold coins](../items/gold.md), gives 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), gives 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md). NPC: “Good. I will shower you with gold, jewels and bones.”
+    **Way 1:** Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md), choose “Eh, yes. How did you know?”
+
+    - **Needs:** stage 42; not yet stage 62
+    - *“HAHAHA! I will not give up and surrender to him! Never! Tell him that. HAHAHAHA!”*
+
+
+<span id="route-61"></span>
+
+??? note "Stage 61 · Roskelt · 1 way"
+
+    **Way 1:** Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md), choose “I delivered your message, but Bloskelt was just laughing.”
+
+    - **Needs:** stage 51
+    - *“Then go again. And kill him.”*
+
+
+<span id="route-62"></span>
+
+??? note "Stage 62 · Bloskelt · 1 way"
+
+    **Way 1:** Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md), choose “I delivered your message, but Roskelt was just laughing.”
+
+    - **Needs:** stage 52
+    - *“Then go again. And kill him.”*
+
+
+<span id="route-71"></span>
+
+??? note "Stage 71 · stepping on a trigger on ratdom_maze_416 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Ratdom maze 416](../maps/ratdom_maze_416.md)
+
+    - **Needs:** not yet stage 90; killed 1× [Bloskelt](../monsters/ratdom_skeleton_boss2.md)
+
+
+<span id="route-72"></span>
+
+??? note "Stage 72 · stepping on a trigger on ratdom_maze_415 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Ratdom maze 415](../maps/ratdom_maze_415.md)
+
+    - **Needs:** not yet stage 90; killed 1× [Roskelt](../monsters/ratdom_skeleton_boss1.md)
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Roskelt, Bloskelt · 2 ways"
+
+    **Way 1:** Talk to [Roskelt](../monsters/ratdom_skeleton_boss1.md), choose “Yes. Your brother is dead.”
+
+    - **Needs:** stage 61, 71
+    - **Gives:** 18× [Gold coins](../items/gold.md), 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md)
+    - *“Good. I will shower you with gold, jewels and bones.”*
+
+    **Way 2:** Talk to [Bloskelt](../monsters/ratdom_skeleton_boss2.md), choose “Yes. Your brother is dead.”
+
+    - **Needs:** stage 62, 72
+    - **Gives:** 18× [Gold coins](../items/gold.md), 2× [Glass gem](../items/gem1.md), sets stage 37 of [Yellow is it](../quests/ratdom_quest.md#stage-37), 1× [Rib bones of a rat](../items/ratdom_rat_skelett_ribs.md)
+    - *“Good. I will shower you with gold, jewels and bones.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

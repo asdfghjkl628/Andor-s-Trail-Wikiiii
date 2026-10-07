@@ -1,10 +1,10 @@
 ---
-description: "Yczorah is an enemy in Andor's Trail (demon) with 231 HP, worth 542 XP, found in elm5f_1, elm5f_2. Drops: Gold coins, Yczorah tentacle, Contaminated bone, Major potion of health."
+description: "Yczorah is an enemy in Andor's Trail (demon) with 231 HP, worth 542 XP, found in Elm 5f 1, Elm 5f 2. Drops: Gold coins, Yczorah tentacle, Contaminated bone, Major potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_9.png){ .sprite } Yczorah
 
-**Found in:** [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md)
+**Found in:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Yczorah is an enemy in Andor's Trail (demon) with 231 HP, worth 54
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_1, elm5f_2 |
+| **Found in** | Elm 5f 1, Elm 5f 2 |
 | **Class** | Demon |
 | **HP** | 231 |
 | **XP when defeated** | 542 |
@@ -69,8 +69,8 @@ description: "Yczorah is an enemy in Andor's Trail (demon) with 231 HP, worth 54
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_1](../maps/elm5f_1.md) | – | 1 | – |
-| [elm5f_2](../maps/elm5f_2.md) | – | 4 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 1 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 4 | – |
 
 
 ## Version history

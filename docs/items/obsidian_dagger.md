@@ -51,7 +51,7 @@ description: "Obsidian dagger is a extraordinary dagger in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kotheses](../monsters/kotheses.md) | 100% | 1 | laerothprison7 |
+| [Kotheses](../monsters/kotheses.md) | 100% | 1 | Laerothprison 7 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

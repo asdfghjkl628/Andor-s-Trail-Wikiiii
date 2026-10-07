@@ -37,8 +37,8 @@ description: "Crude cloth gloves is a ordinary gloves, cloth in Andor's Trail (B
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
 
 ### Sold by
 

@@ -12,7 +12,7 @@ description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galm
 | **Region** | In Mt. Galmore (other) |
 | **Type** | Indoors / underground |
 | **Size** | 6×30 tiles |
-| **World map** | [Undertell floor1](index.md) |
+| **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 2 |
 | **Enemy types** | 2 |
@@ -69,8 +69,8 @@ description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galm
 
 - [Dominion](../quests/dominion.md): [Saki](../monsters/saki.md) is involved
 - [Undertell: What was not written](../quests/undertell_book.md): something on this map advances it; stepping on a trigger here sets stage 10
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): something on this map advances it; stepping on a trigger here sets stage 1
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Rock eater](../monsters/rock_eater.md) is involved
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): something on this map advances it; stepping on a trigger here sets stage 1
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Rock eater](../monsters/rock_eater.md) is involved
 
 ## Points of interest
 

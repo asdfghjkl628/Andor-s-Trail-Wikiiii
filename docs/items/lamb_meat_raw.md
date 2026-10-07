@@ -52,7 +52,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) | – | handed over (10×) | “Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake tho” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) | – | handed over (10×) | “Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake tho” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

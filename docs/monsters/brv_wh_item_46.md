@@ -4,7 +4,7 @@ description: "Old, worn cape is an enemy in Andor's Trail (humanoid) with 1 HP, 
 
 # ![](../assets/icons/monsters/items_japozero_127.png){ .sprite } Old, worn cape
 
-**Found in:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md)
+**Found in:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Old, worn cape is an enemy in Andor's Trail (humanoid) with 1 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
+| [Brimhaven warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
 
 
 ## Version history

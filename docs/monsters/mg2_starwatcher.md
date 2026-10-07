@@ -4,7 +4,7 @@ description: "Teccow is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_230.png){ .sprite } Teccow
 
-**Where to find Teccow:** Stoutford: [wild22](../maps/wild22.md#pin-npc-mg2_starwatcher)
+**Where to find Teccow:** Stoutford: [Wild 22](../maps/wild22.md#pin-npc-mg2_starwatcher)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Teccow is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [The exploded star](../quests/mg2_exploded_star.md): stages 5, 10, 15, 20, 30, 40, 45, 46, 50
-- [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md): stages 90, 91
+- [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md): stages 90, 91
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Teccow. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Teccow. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_starwatcher.json" data-npc="Teccow" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,15 +35,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mg2_starwatcher"></span>**`mg2_starwatcher`** Teccow: “Hello kid.”
 
     - “Hello oldie.” → *conversation ends*
     - “What are you doing here?” *(if NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80))* → [mg2_starwatcher_1](#d-mg2_starwatcher_1)
-    - “What are you doing here?” *(if NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_2](#d-mg2_starwatcher_2)
-    - “About the falling star ...” *(if reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_20](#d-mg2_starwatcher_20)
-    - “About the falling star ...” *(if reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_3](#d-mg2_starwatcher_3)
+    - “What are you doing here?” *(if NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80); NOT reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_2](#d-mg2_starwatcher_2)
+    - “About the falling star ...” *(if reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_20](#d-mg2_starwatcher_20)
+    - “About the falling star ...” *(if reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [mg2_starwatcher_3](#d-mg2_starwatcher_3)
 
     <span id="d-mg2_starwatcher_1"></span>**`mg2_starwatcher_1`** Teccow: “I'm doing adult things. Come back when you're much stronger. Then we can talk.” — **effects:** sets stage 5 of [The exploded star](../quests/mg2_exploded_star.md#stage-5)
 
@@ -91,7 +91,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I've changed my mind. These glittery things are too pretty to be destroyed.” *(if carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md))* → [mg2_starwatcher_40](#d-mg2_starwatcher_40)
     - “Hmm, I still have to think about it. I'll be back...” → *conversation ends*
 
-    <span id="d-mg2_starwatcher_32"></span>**`mg2_starwatcher_32`** Teccow: “You fool!” — **effects:** sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_32"></span>**`mg2_starwatcher_32`** Teccow: “You fool!” — **effects:** sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
     - “It was the right thing to do.” → [mg2_starwatcher_34](#d-mg2_starwatcher_34)
 
@@ -128,7 +128,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Nothing. Bye.” → *conversation ends*
 
-    <span id="d-mg2_starwatcher_42"></span>**`mg2_starwatcher_42`** Teccow: “NOOOOO!!” — **effects:** sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_42"></span>**`mg2_starwatcher_42`** Teccow: “NOOOOO!!” — **effects:** sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
     - “Now you're exaggerating. I'll go then.” → *conversation ends*
 
@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Maybe later. I have to go now.” → *conversation ends*
     - “No, I have enough other things to do.” → [mg2_starwatcher_19b](#d-mg2_starwatcher_19b)
 
-    <span id="d-mg2_starwatcher_19b"></span>**`mg2_starwatcher_19b`** Teccow: “Woe, woe! Then leave me. I hope you can live with the guilt.” — **effects:** sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20), sets stage 90 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_19b"></span>**`mg2_starwatcher_19b`** Teccow: “Woe, woe! Then leave me. I hope you can live with the guilt.” — **effects:** sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20), sets stage 90 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
 
 

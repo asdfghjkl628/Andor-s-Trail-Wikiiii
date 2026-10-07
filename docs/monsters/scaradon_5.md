@@ -4,7 +4,7 @@ description: "Hardshell scaradon is an enemy in Andor's Trail (insect) with 38 H
 
 # ![](../assets/icons/monsters/monsters_rltiles1_97.png){ .sprite } Hardshell scaradon
 
-**Found in:** Brightport: [brightport_escape_cave](../maps/brightport_escape_cave.md), Brightport: [brightport_smugglercave](../maps/brightport_smugglercave.md), [brightport_smugglercave1](../maps/brightport_smugglercave1.md), [mountaincave2](../maps/mountaincave2.md) (+2 more)
+**Found in:** Brightport: [Brightport escape cave](../maps/brightport_escape_cave.md), Brightport: [Brightport smugglercave](../maps/brightport_smugglercave.md), [Brightport smugglercave 1](../maps/brightport_smugglercave1.md), [Mountaincave 2](../maps/mountaincave2.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -57,12 +57,12 @@ description: "Hardshell scaradon is an enemy in Andor's Trail (insect) with 38 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_escape_cave](../maps/brightport_escape_cave.md) | Brightport | 1 | – |
-| [brightport_smugglercave](../maps/brightport_smugglercave.md) | Brightport | 1 | – |
-| [brightport_smugglercave1](../maps/brightport_smugglercave1.md) | – | 2 | – |
-| [mountaincave2](../maps/mountaincave2.md) | – | 3 | – |
-| [waytolake7](../maps/waytolake7.md) | – | 3 | – |
-| [waytolake8](../maps/waytolake8.md) | – | 6 | – |
+| [Brightport escape cave](../maps/brightport_escape_cave.md) | Brightport | 1 | – |
+| [Brightport smugglercave](../maps/brightport_smugglercave.md) | Brightport | 1 | – |
+| [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) | – | 2 | – |
+| [Mountaincave 2](../maps/mountaincave2.md) | – | 3 | – |
+| [Waytolake 7](../maps/waytolake7.md) | – | 3 | – |
+| [Waytolake 8](../maps/waytolake8.md) | – | 6 | – |
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "TODO is a hidden quest in Andor's Trail, started by Leonid. 1 stages."
+description: "Crossglen story flags is a hidden quest in Andor's Trail, started by Leonid. 1 stages."
 ---
 
-# TODO
+# Crossglen story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -34,19 +34,30 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 |  | [Leonid](../monsters/leonid.md) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) |  | [Leonid](../monsters/leonid.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Leonid](../monsters/leonid.md) → choose “Has there been any recent activity in the village?” → **stage 1**. NPC: “Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen.”
+??? note "Stage 1 · Leonid · 1 way"
+
+    **Way 1:** Talk to [Leonid](../monsters/leonid.md), choose “Has there been any recent activity in the village?”
+
+    - *“Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -91,6 +102,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `crossglen` |
+    | Name in game data | `TODO` |
     | showInLog | 0 |
     | Stage IDs | 1 |
     | Dialogue nodes setting stages | 1: `leonid_crossglen8` |

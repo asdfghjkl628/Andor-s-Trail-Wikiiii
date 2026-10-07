@@ -1,8 +1,8 @@
 ---
-description: "Excluded endings for the main quest andor is a hidden quest in Andor's Trail. 2 stages. Giving up the quest to be a hero or villain"
+description: "Main quest endings is a hidden quest in Andor's Trail. 2 stages. Giving up the quest to be a hero or villain"
 ---
 
-# Excluded endings for the main quest andor
+# Main quest endings
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -29,18 +29,24 @@ description: "Excluded endings for the main quest andor is a hidden quest in And
 | Relationship | Quest | Detail |
 |---|---|---|
 | Blocks | [Search for Andor](andor.md#stage-910) | reaching stage 1 here closes stage 910 there |
-| Blocks | [brightport_nondisplay (hidden flag)](brightport_nondisplay.md#stage-35) | reaching stage 900 here closes stage 35 there |
-| Blocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-20) | reaching stage 1 here closes stage 20 there |
-| Blocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-21) | reaching stage 1 here closes stage 21 there |
+| Blocks | [Brightport story flags (hidden flag)](brightport_nondisplay.md#stage-35) | reaching stage 900 here closes stage 35 there |
+| Blocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-20) | reaching stage 1 here closes stage 20 there |
+| Blocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-21) | reaching stage 1 here closes stage 21 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Giving up the quest to be a hero or villain<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 86](../maps/galmore_86.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-900"></span>900 | Search for andor ended, used to supress questions related to the search like "have you seen my brother andor" | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>1 | Giving up the quest to be a hero or villain<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 86](../maps/galmore_86.md).</span> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-900"></span>900 | <details class="jt"><summary><span class="s">Search for andor ended, used to supress questions related to the… ▸</span><span class="l">▴ less</span></summary>Search for andor ended, used to supress questions related to the search like "have you seen my brother andor"</details> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -85,6 +91,7 @@ description: "Excluded endings for the main quest andor is a hidden quest in And
     | | |
     |---|---|
     | Quest ID | `andor_ending` |
+    | Name in game data | `Excluded endings for the main quest andor` |
     | showInLog | 0 |
     | Stage IDs | 1, 900 |
     | Dialogue nodes setting stages | – |

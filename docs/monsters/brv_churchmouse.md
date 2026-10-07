@@ -1,10 +1,10 @@
 ---
-description: "Mouse is a non-player character (NPC) in Andor's Trail, found in brimhaven_church_upstairs."
+description: "Mouse is a non-player character (NPC) in Andor's Trail, found in Brimhaven church upstairs."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Mouse
 
-**Where to find Mouse:** [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchmouse)
+**Where to find Mouse:** [Brimhaven church upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchmouse)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Mouse is a non-player character (NPC) in Andor's Trail, found in b
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brimhaven_church_upstairs |
+| **Found in** | Brimhaven church upstairs |
 | **Entry ID** | `brv_churchmouse` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
@@ -21,7 +21,7 @@ description: "Mouse is a non-player character (NPC) in Andor's Trail, found in b
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mouse. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mouse. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_churchmouse.json" data-npc="Mouse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_churchmouse"></span>**`brv_churchmouse`** Mouse: “Peep.”
 

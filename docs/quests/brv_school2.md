@@ -11,9 +11,9 @@ description: "Lessons learned is a quest in Andor's Trail, started by stepping o
 | **Quest ID** | `brv_school2` |
 | **In journal** | Yes |
 | **Stages** | 22 (completes at 200, 210, 220, 230, 240) |
-| **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil5), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4) +5 |
-| **Locations** | [brimhaven_school](../maps/brimhaven_school.md) |
+| **Started by** | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) |
+| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil6), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil5) +5 |
+| **Locations** | [Brimhaven school](../maps/brimhaven_school.md) |
 | **Total XP** | 9,500 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Lessons learned is a quest in Andor's Trail, started by stepping o
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md). Required:
+Start with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md). Required:
 
 - NOT reached stage 10 of [Lessons learned](../quests/brv_school2.md#stage-10)
 
@@ -38,144 +38,332 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-21) | stage 21 reached, for stage 40 here |
-| Requires | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-22) | stage 22 reached, for stage 220 here |
-| Requires | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-30) | stage 30 reached, for stage 150 here |
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-20) | stage 20 there needs stage 30 here |
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-21) | stage 21 there needs stage 30 here |
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-22) | stage 22 there needs stage 100 here |
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-40) | stage 40 there needs stages 104, 120, 124, 152 here |
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-50) | stage 50 there needs stages 60, 100, 102, 120, 150 here |
-| Blocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-10) | reaching stage 60 here closes stage 10 there |
-| Blocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-30) | reaching stages 100, 102, 104, 120, 122, 124 here closes stage 30 there |
+| Requires | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-21) | stage 21 reached, for stage 40 here |
+| Requires | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-22) | stage 22 reached, for stage 220 here |
+| Requires | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-30) | stage 30 reached, for stage 150 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-20) | stage 20 there needs stage 30 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-21) | stage 21 there needs stage 30 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-22) | stage 22 there needs stage 100 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-40) | stage 40 there needs stages 104, 120, 124, 152 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-50) | stage 50 there needs stages 60, 100, 102, 120, 150 here |
+| Blocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-10) | reaching stage 60 here closes stage 10 there |
+| Blocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-30) | reaching stages 100, 102, 104, 120, 122, 124 here closes stage 30 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I entered a classroom in Brimhaven's school. The teacher told me to sit down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | – | – |
-| <span id="stage-12"></span>12 | I noticed an evil-looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school? | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-20"></span>20 | I found a free place next to a student named Golin.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | – |
-| <span id="stage-30"></span>30 | The teacher was droning endlessly about Brimhaven history.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | – |
-| <span id="stage-40"></span>40 | Then a practice lesson started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 30 | – |
-| <span id="stage-50"></span>50 | Everyone should take a set of practice weapons from the chest and sit down again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 40 | – |
-| <span id="stage-60"></span>60 | I should look for a dueling partner.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | carry 1× [Paper shield](../items/brv_school_shield.md), carry 1× [Wooden sword](../items/brv_school_sword.md), stage 50 | changes map brimhaven_school |
-| <span id="stage-100"></span>100 | I started a fight with Golin. | [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 60 | – |
-| <span id="stage-102"></span>102 | I started a fight with Golin and killed him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | stage 100 | clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100) |
-| <span id="stage-104"></span>104 | I started a fight with Golin, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 100 | 500 XP<br>clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100)<br>faction “brv_fct_school_duel” set to 10<br>removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school |
-| <span id="stage-110"></span>110 | I tried to fight a pupil, but they all ran away screaming. | [Pupil](../monsters/brv_pupil1.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 60 | sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50)<br>removes monsters from brimhaven_school |
-| <span id="stage-120"></span>120 | I started a fight with the teacher. | [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 60, wearing [Paper shield](../items/brv_school_shield.md), wearing [Wooden sword](../items/brv_school_sword.md) | – |
-| <span id="stage-122"></span>122 | I started a fight with the teacher and killed her.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | stage 120 | 1,000 XP<br>clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120)<br>faction “brv_fct_school_duel” set to 10<br>sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50)<br>removes monsters from brimhaven_school |
-| <span id="stage-124"></span>124 | I started a fight with the teacher, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 120 | 500 XP<br>clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120)<br>removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school |
-| <span id="stage-130"></span>130 | I feel the evil stare of the statue. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-150"></span>150 | The evil grinning statue suddenly grew to an incredible size and attacked me! | [Statue](../monsters/brv_school_statue.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | removes monsters from brimhaven_school<br>spawns monsters on brimhaven_school |
-| <span id="stage-152"></span>152 | I killed the evil statue.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | stage 150 | clears stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150) |
-| <span id="stage-200"></span>200 | The teacher thanked me for saving her. School is over for me. I can go to the general store and get a cake for good performance. **(completes quest)** | [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 152 | 5,000 XP |
-| <span id="stage-210"></span>210 | I cheated during the duel. The teacher noticed it and banned me from the school. **(completes quest)** | [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 104 | 500 XP |
-| <span id="stage-220"></span>220 | The teacher was very satisfied with my performance in the duel. School is over for me. I can go to the general store and get a cake for good performance. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md))<br>stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | stage 104, stage 120, stage 124 | 1,000 XP<br>sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40) |
-| <span id="stage-230"></span>230 | The teacher sent me away, because I killed Golin in the duel. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md)<br>[Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 100, stage 102 | 500 XP |
-| <span id="stage-240"></span>240 | Golin was horrified by my murder of the teacher and attacked me to avenge her. **(completes quest)** | [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | stage 122 | 500 XP<br>faction “brv_fct_school_duel” -10 |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | I entered a classroom in Brimhaven's school. The teacher told me to sit down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | – |
+| <span id="stage-12"></span>12 | <details class="jt"><summary><span class="s">I noticed an evil-looking statue in a corner. Who on earth puts such… ▸</span><span class="l">▴ less</span></summary>I noticed an evil-looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?</details> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-20"></span>[20](#route-20) | I found a free place next to a student named Golin.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | The teacher was droning endlessly about Brimhaven history.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | Then a practice lesson started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Everyone should take a set of practice weapons from the chest and… ▸</span><span class="l">▴ less</span></summary>Everyone should take a set of practice weapons from the chest and sit down again.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | I should look for a dueling partner.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | changes map brimhaven_school |
+| <span id="stage-100"></span>[100](#route-100) | I started a fight with Golin. | [Golin](../monsters/golin.md) | – |
+| <span id="stage-102"></span>[102](#route-102) | I started a fight with Golin and killed him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100) |
+| <span id="stage-104"></span>[104](#route-104) | I started a fight with Golin, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) | 500 XP; varies by route (see below) |
+| <span id="stage-110"></span>[110](#route-110) | I tried to fight a pupil, but they all ran away screaming. | [Pupil](../monsters/brv_pupil1.md) | removes monsters from brimhaven_school |
+| <span id="stage-120"></span>[120](#route-120) | I started a fight with the teacher. | [Teacher](../monsters/brv_teacher.md) | – |
+| <span id="stage-122"></span>[122](#route-122) | I started a fight with the teacher and killed her.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | 1,000 XP, clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), faction “brv_fct_school_duel” set to 10, removes monsters from brimhaven_school |
+| <span id="stage-124"></span>[124](#route-124) | I started a fight with the teacher, but I broke off the duel. Very good.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Teacher](../monsters/brv_teacher.md) | 500 XP; varies by route (see below) |
+| <span id="stage-130"></span>130 | I feel the evil stare of the statue. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-150"></span>[150](#route-150) | The evil grinning statue suddenly grew to an incredible size and attacked me! | [Statue](../monsters/brv_school_statue.md) | removes monsters from brimhaven_school, spawns monsters on brimhaven_school |
+| <span id="stage-152"></span>[152](#route-152) | I killed the evil statue.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | clears stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150) |
+| <span id="stage-200"></span>[200](#route-200) | <details class="jt"><summary><span class="s">The teacher thanked me for saving her. School is over for me. I can… ▸</span><span class="l">▴ less</span></summary>The teacher thanked me for saving her. School is over for me. I can go to the general store and get a cake for good performance.</details> **(ends quest)** | [Teacher](../monsters/brv_teacher.md) | 5,000 XP |
+| <span id="stage-210"></span>[210](#route-210) | I cheated during the duel. The teacher noticed it and banned me from the school. **(ends quest)** | [Teacher](../monsters/brv_teacher.md) | 500 XP |
+| <span id="stage-220"></span>[220](#route-220) | <details class="jt"><summary><span class="s">The teacher was very satisfied with my performance in the duel.… ▸</span><span class="l">▴ less</span></summary>The teacher was very satisfied with my performance in the duel. School is over for me. I can go to the general store and get a cake for good performance.</details> **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | [Teacher](../monsters/brv_teacher.md), stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | 1,000 XP |
+| <span id="stage-230"></span>[230](#route-230) | The teacher sent me away, because I killed Golin in the duel. **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven school](../maps/brimhaven_school.md).</span> | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Teacher](../monsters/brv_teacher.md) | 500 XP |
+| <span id="stage-240"></span>[240](#route-240) | Golin was horrified by my murder of the teacher and attacked me to avenge her. **(ends quest)** | [Golin](../monsters/golin.md) | 500 XP, faction “brv_fct_school_duel” -10 |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [Lessons learned](../quests/brv_school2.md#stage-10) → **stage 10**. NPC: “Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”
-    2. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [Lessons learned](../quests/brv_school2.md#stage-10) → **stage 10**. NPC: “Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”
+??? note "Stage 10 · stepping on a trigger on brimhaven_school · 2 ways"
 
-???+ note "Stage 20: 2 routes"
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically → **stage 20**. NPC: “Hi kid. I am Golin.”
-    2. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → the conversation leads here automatically → **stage 20**. NPC: “Hi kid. I am Golin.”
+    - **Needs:** not yet stage 10
+    - *“Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”*
 
-???+ note "Stage 30: 2 routes"
+    **Way 2:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 30 of [Lessons learned](../quests/brv_school2.md#stage-30) → **stage 30**. NPC: “In the glorious days of year 2177, the enslavement of men ended.”
-    2. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “[nod silently]” — **conditions:** reached stage 30 of [Lessons learned](../quests/brv_school2.md#stage-30) → **stage 30**. NPC: “In the glorious days of year 2177, the enslavement of men ended.”
+    - **Needs:** not yet stage 10
+    - *“Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.”*
 
-???+ note "Stage 40: 2 routes"
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → choose “[keep silent]” — **conditions:** reached stage 30 of [Lessons learned](../quests/brv_school2.md#stage-30); reached stage 21 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21) → **stage 40**. NPC: “And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”
-    2. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “[keep silent]” — **conditions:** reached stage 30 of [Lessons learned](../quests/brv_school2.md#stage-30); reached stage 21 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21) → **stage 40**. NPC: “And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”
+<span id="route-20"></span>
 
-???+ note "Stage 50: 2 routes"
+??? note "Stage 20 · stepping on a trigger on brimhaven_school, Golin · 2 ways"
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 40 of [Lessons learned](../quests/brv_school2.md#stage-40) → **stage 50**. NPC: “Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield,…”
-    2. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Hush, the teacher is talking again.” — **conditions:** reached stage 50 of [Lessons learned](../quests/brv_school2.md#stage-50); reached stage 40 of [Lessons learned](../quests/brv_school2.md#stage-40) → **stage 50**. NPC: “Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield,…”
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
 
-???+ note "Stage 60: 2 routes"
+    - *“Hi kid. I am Golin.”*
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → choose “Anybody?” — **conditions:** carry 1× [Wooden sword](../items/brv_school_sword.md); carry 1× [Paper shield](../items/brv_school_shield.md) → **stage 60**; also changes map brimhaven_school. NPC: “Just go ahead. But don't forget: You must use the school weapon and shield.”
-    2. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Anybody?” — **conditions:** reached stage 50 of [Lessons learned](../quests/brv_school2.md#stage-50); carry 1× [Wooden sword](../items/brv_school_sword.md); carry 1× [Paper shield](../items/brv_school_shield.md) → **stage 60**; also changes map brimhaven_school. NPC: “Just go ahead. But don't forget: You must use the school weapon and shield.”
+    **Way 2:** Talk to [Golin](../monsters/golin.md), automatic
 
-???+ note "Stage 100: 1 route"
+    - *“Hi kid. I am Golin.”*
 
-    1. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Yes, en Garde!” — **conditions:** reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60) → **stage 100**
 
-???+ note "Stage 102: 1 route"
+<span id="route-30"></span>
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); killed 1× [Golin](../monsters/golin.md) → **stage 102**; also clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100)
+??? note "Stage 30 · stepping on a trigger on brimhaven_school, Golin · 2 ways"
 
-???+ note "Stage 104: 3 routes"
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100) → **stage 104**; also clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), faction “brv_fct_school_duel” set to 10, removes monsters from brimhaven_school, spawns monsters on brimhaven_school
-    2. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); killed 1× [Golin](../monsters/golin.md); reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104) → **stage 104**; also clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), spawns monsters on brimhaven_school. NPC: “Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”
-    3. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → the conversation leads here automatically — **conditions:** reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100) → **stage 104**; also clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), spawns monsters on brimhaven_school. NPC: “Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”
+    - **Needs:** stage 30
+    - *“In the glorious days of year 2177, the enslavement of men ended.”*
 
-???+ note "Stage 110: 1 route"
+    **Way 2:** Talk to [Golin](../monsters/golin.md), choose “[nod silently]”
 
-    1. Talk to [Pupil](../monsters/brv_pupil1.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Wait, I'll show you...” — **conditions:** reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60) → **stage 110**; also sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school. NPC: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]”
+    - **Needs:** stage 30
+    - *“In the glorious days of year 2177, the enslavement of men ended.”*
 
-???+ note "Stage 120: 1 route"
 
-    1. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Draw your weapon!” — **conditions:** reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60); wearing [Wooden sword](../items/brv_school_sword.md); wearing [Paper shield](../items/brv_school_shield.md) → **stage 120**
+<span id="route-40"></span>
 
-???+ note "Stage 122: 1 route"
+??? note "Stage 40 · stepping on a trigger on brimhaven_school, Golin · 2 ways"
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120); killed 1× [Teacher](../monsters/brv_teacher.md) → **stage 122**; also clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), faction “brv_fct_school_duel” set to 10, sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school. NPC: “When the little students see how you killed their teacher, a panic breaks out. Screaming, they all run out of the…”
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), choose “[keep silent]”
 
-???+ note "Stage 124: 3 routes"
+    - **Needs:** stage 30; reached stage 21 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21)
+    - *“And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”*
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120) → **stage 124**; also clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), removes monsters from brimhaven_school, spawns monsters on brimhaven_school
-    2. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120) → **stage 124**; also clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), spawns monsters on brimhaven_school. NPC: “Enough - stop now! I have seen enough. You have an interesting fighting style.”
-    3. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → the conversation leads here automatically — **conditions:** reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120) → **stage 124**; also clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), spawns monsters on brimhaven_school. NPC: “Enough - stop now! I have seen enough. You have an interesting fighting style.”
+    **Way 2:** Talk to [Golin](../monsters/golin.md), choose “[keep silent]”
 
-???+ note "Stage 150: 1 route"
+    - **Needs:** stage 30; reached stage 21 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21)
+    - *“And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.”*
 
-    1. Talk to [Statue](../monsters/brv_school_statue.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Um, yes. Let's try, and see how long you might be able to defend yourself.” — **conditions:** reached stage 30 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30); NOT reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); NOT reached stage 102 of [Lessons learned](../quests/brv_school2.md#stage-102); NOT reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); NOT reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120); NOT reached stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122); NOT reached stage 124 of [Lessons learned](../quests/brv_school2.md#stage-124) → **stage 150**; also removes monsters from brimhaven_school, spawns monsters on brimhaven_school. NPC: “Suddenly the small ugly figure begins to grow! Bigger and bigger, until it seems to almost fill the whole room.”
 
-???+ note "Stage 152: 1 route"
+<span id="route-50"></span>
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → the conversation leads here automatically — **conditions:** reached stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150); killed 1× [Statue](../monsters/brv_school_statue.md#v-brv_school_statue2) → **stage 152**; also clears stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150)
+??? note "Stage 50 · stepping on a trigger on brimhaven_school, Golin · 2 ways"
 
-???+ note "Stage 200: 1 route"
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
 
-    1. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “I just destroyed the evil statue in the corner.” — **conditions:** reached stage 152 of [Lessons learned](../quests/brv_school2.md#stage-152) → **stage 200**. NPC: “The statue is gone? What a relief - I don't know how to thank you! I never had a good feeling about it.”
+    - **Needs:** stage 40
+    - *“Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit…”*
 
-???+ note "Stage 210: 1 route"
+    **Way 2:** Talk to [Golin](../monsters/golin.md), choose “Hush, the teacher is talking again.”
 
-    1. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Eh, yes...” — **conditions:** reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104) → **stage 210**. NPC: “I cannot accept such a behaviour! You have to leave our school - now!”
+    - **Needs:** stage 40, 50
+    - *“Everybody get your practice gear out of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit…”*
 
-???+ note "Stage 220: 3 routes"
 
-    1. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Thank you!” — **conditions:** reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); reached stage 22 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22) → **stage 220**. NPC: “I can't teach you things that are new for you. Leave now, you don't need to come to school anymore.”
-    2. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → choose “Thank you.” — **conditions:** reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120) → **stage 220**; also sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40). NPC: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”
-    3. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “It was no big thing...” — **conditions:** reached stage 124 of [Lessons learned](../quests/brv_school2.md#stage-124) → **stage 220**; also sets stage 40 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40). NPC: “As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”
+<span id="route-60"></span>
 
-???+ note "Stage 230: 2 routes"
+??? note "Stage 60 · stepping on a trigger on brimhaven_school, Golin · 2 ways"
 
-    1. stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) → choose “Eh...” — **conditions:** reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); killed 1× [Golin](../monsters/golin.md) → **stage 230**. NPC: “I still can't believe it. Leave the school - now!”
-    2. Talk to [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) → choose “Eh...” — **conditions:** reached stage 102 of [Lessons learned](../quests/brv_school2.md#stage-102) → **stage 230**. NPC: “I still can't believe it. Leave the school - now!”
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), choose “Anybody?”
 
-???+ note "Stage 240: 1 route"
+    - **Needs:** carry 1× [Wooden sword](../items/brv_school_sword.md); carry 1× [Paper shield](../items/brv_school_shield.md)
+    - **Gives:** changes map brimhaven_school
+    - *“Just go ahead. But don't forget: You must use the school weapon and shield.”*
 
-    1. Talk to [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) → the conversation leads here automatically — **conditions:** reached stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122) → **stage 240**; also faction “brv_fct_school_duel” -10. NPC: “I will avenge her. Prepare to die!”
+    **Way 2:** Talk to [Golin](../monsters/golin.md), choose “Anybody?”
+
+    - **Needs:** stage 50; carry 1× [Wooden sword](../items/brv_school_sword.md); carry 1× [Paper shield](../items/brv_school_shield.md)
+    - **Gives:** changes map brimhaven_school
+    - *“Just go ahead. But don't forget: You must use the school weapon and shield.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Golin · 1 way"
+
+    **Way 1:** Talk to [Golin](../monsters/golin.md), choose “Yes, en Garde!”
+
+    - **Needs:** stage 60
+
+
+<span id="route-102"></span>
+
+??? note "Stage 102 · stepping on a trigger on brimhaven_school · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 100; killed 1× [Golin](../monsters/golin.md)
+    - **Gives:** clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100)
+
+
+<span id="route-104"></span>
+
+??? note "Stage 104 · stepping on a trigger on brimhaven_school, Golin · 3 ways"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 100
+    - **Gives:** clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), faction “brv_fct_school_duel” set to 10, removes monsters from brimhaven_school, spawns monsters on brimhaven_school
+
+    **Way 2:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 100, 104; killed 1× [Golin](../monsters/golin.md)
+    - **Gives:** clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), spawns monsters on brimhaven_school
+    - *“Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”*
+
+    **Way 3:** Talk to [Golin](../monsters/golin.md), automatic
+
+    - **Needs:** stage 100
+    - **Gives:** clears stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100), spawns monsters on brimhaven_school
+    - *“Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.”*
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · Pupil · 1 way"
+
+    **Way 1:** Talk to [Pupil](../monsters/brv_pupil1.md), choose “Wait, I'll show you...”
+
+    - **Needs:** stage 60
+    - **Gives:** removes monsters from brimhaven_school
+    - <small>Also: sets stage 50 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50)</small>
+    - *“[He jumps up and runs screaming out of the room. The other little students follow in panic.]”*
+
+
+<span id="route-120"></span>
+
+??? note "Stage 120 · Teacher · 1 way"
+
+    **Way 1:** Talk to [Teacher](../monsters/brv_teacher.md), choose “Draw your weapon!”
+
+    - **Needs:** stage 60; wearing [Wooden sword](../items/brv_school_sword.md); wearing [Paper shield](../items/brv_school_shield.md)
+
+
+<span id="route-122"></span>
+
+??? note "Stage 122 · stepping on a trigger on brimhaven_school · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 120; killed 1× [Teacher](../monsters/brv_teacher.md)
+    - **Gives:** clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), faction “brv_fct_school_duel” set to 10, removes monsters from brimhaven_school
+    - <small>Also: sets stage 50 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50)</small>
+    - *“When the little students see how you killed their teacher, a panic breaks out. Screaming, they all run out of the building. Just Golin…”*
+
+
+<span id="route-124"></span>
+
+??? note "Stage 124 · stepping on a trigger on brimhaven_school, Teacher · 3 ways"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 120
+    - **Gives:** clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), removes monsters from brimhaven_school, spawns monsters on brimhaven_school
+
+    **Way 2:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 120
+    - **Gives:** clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), spawns monsters on brimhaven_school
+    - *“Enough - stop now! I have seen enough. You have an interesting fighting style.”*
+
+    **Way 3:** Talk to [Teacher](../monsters/brv_teacher.md), automatic
+
+    - **Needs:** stage 120
+    - **Gives:** clears stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120), spawns monsters on brimhaven_school
+    - *“Enough - stop now! I have seen enough. You have an interesting fighting style.”*
+
+
+<span id="route-150"></span>
+
+??? note "Stage 150 · Statue · 1 way"
+
+    **Way 1:** Talk to [Statue](../monsters/brv_school_statue.md), choose “Um, yes. Let's try, and see how long you might be able to defend yourself.”
+
+    - **Needs:** not yet stage 100, 102, 104, 120, 122, 124; reached stage 30 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30)
+    - **Gives:** removes monsters from brimhaven_school, spawns monsters on brimhaven_school
+    - *“Suddenly the small ugly figure begins to grow! Bigger and bigger, until it seems to almost fill the whole room.”*
+
+
+<span id="route-152"></span>
+
+??? note "Stage 152 · stepping on a trigger on brimhaven_school · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md)
+
+    - **Needs:** stage 150; killed 1× [Statue](../monsters/brv_school_statue.md#v-brv_school_statue2)
+    - **Gives:** clears stage 150 of [Lessons learned](../quests/brv_school2.md#stage-150)
+
+
+<span id="route-200"></span>
+
+??? note "Stage 200 · Teacher · 1 way"
+
+    **Way 1:** Talk to [Teacher](../monsters/brv_teacher.md), choose “I just destroyed the evil statue in the corner.”
+
+    - **Needs:** stage 152
+    - *“The statue is gone? What a relief - I don't know how to thank you! I never had a good feeling about it.”*
+
+
+<span id="route-210"></span>
+
+??? note "Stage 210 · Teacher · 1 way"
+
+    **Way 1:** Talk to [Teacher](../monsters/brv_teacher.md), choose “Eh, yes...”
+
+    - **Needs:** stage 104
+    - *“I cannot accept such a behaviour! You have to leave our school - now!”*
+
+
+<span id="route-220"></span>
+
+??? note "Stage 220 · Teacher, stepping on a trigger on brimhaven_school · 3 ways"
+
+    **Way 1:** Talk to [Teacher](../monsters/brv_teacher.md), choose “Thank you!”
+
+    - **Needs:** stage 104; reached stage 22 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22)
+    - *“I can't teach you things that are new for you. Leave now, you don't need to come to school anymore.”*
+
+    **Way 2:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), choose “Thank you.”
+
+    - **Needs:** stage 120
+    - <small>Also: sets stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)</small>
+    - *“As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”*
+
+    **Way 3:** Talk to [Teacher](../monsters/brv_teacher.md), choose “It was no big thing...”
+
+    - **Needs:** stage 124
+    - <small>Also: sets stage 40 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-40)</small>
+    - *“As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.”*
+
+
+<span id="route-230"></span>
+
+??? note "Stage 230 · stepping on a trigger on brimhaven_school, Teacher · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), choose “Eh...”
+
+    - **Needs:** stage 100; killed 1× [Golin](../monsters/golin.md)
+    - *“I still can't believe it. Leave the school - now!”*
+
+    **Way 2:** Talk to [Teacher](../monsters/brv_teacher.md), choose “Eh...”
+
+    - **Needs:** stage 102
+    - *“I still can't believe it. Leave the school - now!”*
+
+
+<span id="route-240"></span>
+
+??? note "Stage 240 · Golin · 1 way"
+
+    **Way 1:** Talk to [Golin](../monsters/golin.md), automatic
+
+    - **Needs:** stage 122
+    - **Gives:** faction “brv_fct_school_duel” -10
+    - *“I will avenge her. Prepare to die!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

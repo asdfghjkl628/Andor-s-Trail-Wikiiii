@@ -4,7 +4,7 @@ description: "Vilegard smith is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Vilegard smith
 
-**Where to find Vilegard smith:** Vilegard: [vilegard_smith](../maps/vilegard_smith.md#pin-npc-vilegard_smith)
+**Where to find Vilegard smith:** Vilegard: [Vilegard smith](../maps/vilegard_smith.md#pin-npc-vilegard_smith)
 
 <div class="infobox" markdown>
 
@@ -44,7 +44,7 @@ description: "Vilegard smith is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Vilegard smith. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Vilegard smith. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vilegard_smith_select.json" data-npc="Vilegard smith" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (29 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-vilegard_smith_select"></span>**`vilegard_smith_select`** *(silent check: the first matching branch below is taken)*
 
@@ -187,7 +187,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…”<br>· text: “I.. what? Are you threatening me?” → “I ... what? Are you threatening me?” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I.. what? Are you threatening me?” → “I ... what? Are you threatening me?”<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

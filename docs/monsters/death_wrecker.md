@@ -1,10 +1,10 @@
 ---
-description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, worth 652 XP, found in haunted_house, haunted_house_basement, haunted_underground_1. Drops: Death mace, Gold coins, Human skull, Skeletal remains."
+description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, worth 652 XP, found in Haunted house, Haunted house basement, Haunted underground 1. Drops: Death mace, Gold coins, Human skull, Skeletal remains."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_57.png){ .sprite } Death wrecker
 
-**Found in:** [haunted_house](../maps/haunted_house.md), [haunted_house_basement](../maps/haunted_house_basement.md), [haunted_underground_1](../maps/haunted_underground_1.md), [haunted_underground_2](../maps/haunted_underground_2.md) (+4 more)
+**Found in:** [Haunted house](../maps/haunted_house.md), [Haunted house basement](../maps/haunted_house_basement.md), [Haunted underground 1](../maps/haunted_underground_1.md), [Haunted underground 2](../maps/haunted_underground_2.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_house, haunted_house_basement, haunted_underground_1 |
+| **Found in** | Haunted house, Haunted house basement, Haunted underground 1 |
 | **Class** | Undead |
 | **HP** | 253 |
 | **XP when defeated** | 652 |
@@ -62,14 +62,14 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_house](../maps/haunted_house.md) | – | 1 | – |
-| [haunted_house_basement](../maps/haunted_house_basement.md) | – | 3 | – |
-| [haunted_underground_1](../maps/haunted_underground_1.md) | – | 3 | – |
-| [haunted_underground_2](../maps/haunted_underground_2.md) | – | 1 | – |
-| [haunted_underground_3](../maps/haunted_underground_3.md) | – | 2 | – |
-| [haunted_underground_4](../maps/haunted_underground_4.md) | – | 3 | – |
-| [haunted_underground_5](../maps/haunted_underground_5.md) | – | 1 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
+| [Haunted house](../maps/haunted_house.md) | – | 1 | – |
+| [Haunted house basement](../maps/haunted_house_basement.md) | – | 3 | – |
+| [Haunted underground 1](../maps/haunted_underground_1.md) | – | 3 | – |
+| [Haunted underground 2](../maps/haunted_underground_2.md) | – | 1 | – |
+| [Haunted underground 3](../maps/haunted_underground_3.md) | – | 2 | – |
+| [Haunted underground 4](../maps/haunted_underground_4.md) | – | 3 | – |
+| [Haunted underground 5](../maps/haunted_underground_5.md) | – | 1 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
 
 
 ## Version history

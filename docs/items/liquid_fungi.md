@@ -36,7 +36,7 @@ description: "Fungi potion is a extraordinary potion in Andor's Trail. How to ge
 
 ### Found in containers
 
-- [mushroom_m3_2](../maps/mushroom_m3_2.md#container-1) (container 2, 100%)
+- [Mushroom m 3 2](../maps/mushroom_m3_2.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

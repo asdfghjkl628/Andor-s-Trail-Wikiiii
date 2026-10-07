@@ -36,17 +36,17 @@ description: "Cold Lava Rock is a ordinary other in Andor's Trail. How to get it
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-2) (container 3, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-2) (container 3, 100%), Foaming Flask Tavern
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [arulircave6](../maps/arulircave6.md) (1×)
-- From stepping on a trigger on [arulircave2](../maps/arulircave2.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-217) (3×)
-- From stepping on a trigger on [arulircave4](../maps/arulircave4.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-219) (3×)
-- From stepping on a trigger on [arulircave1](../maps/arulircave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-214) (3×)
-- From stepping on a trigger on [arulircave1](../maps/arulircave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-216) (3×)
-- From stepping on a trigger on [arulircave3](../maps/arulircave3.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-218) (3×)
-- From stepping on a trigger on [arulircave1](../maps/arulircave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-215) (3×)
+- From stepping on a trigger on [Arulircave 6](../maps/arulircave6.md) (1×)
+- From stepping on a trigger on [Arulircave 2](../maps/arulircave2.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-217) (3×)
+- From stepping on a trigger on [Arulircave 4](../maps/arulircave4.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-219) (3×)
+- From stepping on a trigger on [Arulircave 1](../maps/arulircave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-214) (3×)
+- From stepping on a trigger on [Arulircave 1](../maps/arulircave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-216) (3×)
+- From stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-218) (3×)
+- From stepping on a trigger on [Arulircave 1](../maps/arulircave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-215) (3×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,8 +57,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-25) | handed over (15×) | “I have the cold lava rocks and arulir skin.” |
-| [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | – | must be carried (15×) | “I have the cold lava rocks.” |
+| [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-25) | handed over (15×) | “I have the cold lava rocks and arulir skin.” |
+| [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) | – | must be carried (15×) | “I have the cold lava rocks.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

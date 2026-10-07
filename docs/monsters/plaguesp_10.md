@@ -1,10 +1,10 @@
 ---
-description: "Vile plaguestrider is an enemy in Andor's Trail (insect) with 67 HP, worth 247 XP, found in waytolake4, waytolake5. Drops: Gold coins, Poison gland, Dead spider."
+description: "Vile plaguestrider is an enemy in Andor's Trail (insect) with 67 HP, worth 247 XP, found in Waytolake 4, Waytolake 5. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_151.png){ .sprite } Vile plaguestrider
 
-**Found in:** [waytolake4](../maps/waytolake4.md), [waytolake5](../maps/waytolake5.md)
+**Found in:** [Waytolake 4](../maps/waytolake4.md), [Waytolake 5](../maps/waytolake5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Vile plaguestrider is an enemy in Andor's Trail (insect) with 67 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytolake4, waytolake5 |
+| **Found in** | Waytolake 4, Waytolake 5 |
 | **Class** | Insect |
 | **HP** | 67 |
 | **XP when defeated** | 247 |
@@ -58,8 +58,8 @@ description: "Vile plaguestrider is an enemy in Andor's Trail (insect) with 67 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake4](../maps/waytolake4.md) | – | 12 | – |
-| [waytolake5](../maps/waytolake5.md) | – | 8 | – |
+| [Waytolake 4](../maps/waytolake4.md) | – | 12 | – |
+| [Waytolake 5](../maps/waytolake5.md) | – | 8 | – |
 
 
 ## Version history

@@ -25,7 +25,7 @@ description: "Tiny grey stone key from Polyphem is a quest other in Andor's Trai
 
 ### Found in containers
 
-- [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#container-0) (container 1, 100%)
+- [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Polyphem's key.” |
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-113) | handed over (1×) | “Use Polyphem's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Polyphem's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-113) | handed over (1×) | “Use Polyphem's key.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

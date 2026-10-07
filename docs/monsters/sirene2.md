@@ -4,7 +4,7 @@ description: "Ligeia is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } Ligeia
 
-**Where to find Ligeia:** Lake Laeroth: [mountainlake21](../maps/mountainlake21.md#pin-npc-sirene2)
+**Where to find Ligeia:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-sirene2)
 
 <div class="infobox" markdown>
 

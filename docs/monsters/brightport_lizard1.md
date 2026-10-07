@@ -4,7 +4,7 @@ description: "Three-head-arminio is an NPC who can also be fought in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_johny_0.png){ .sprite } Three-head-arminio
 
-**Where to find Three-head-arminio:** Greenscale tribe: [brightport_lizard1](../maps/brightport_lizard1.md#pin-npc-brightport_lizard1)
+**Where to find Three-head-arminio:** Greenscale tribe: [Brightport lizard 1](../maps/brightport_lizard1.md#pin-npc-brightport_lizard1)
 
 <div class="infobox" markdown>
 
@@ -59,11 +59,11 @@ description: "Three-head-arminio is an NPC who can also be fought in Andor's Tra
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_lizard1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
+| [Brightport lizard 1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Three-head-arminio. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Three-head-arminio. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_genericlizard_selector.json" data-npc="Three-head-arminio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_genericlizard_selector"></span>**`brightport_genericlizard_selector`** *(silent check: the first matching branch below is taken)*
 

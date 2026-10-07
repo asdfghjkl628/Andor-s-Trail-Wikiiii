@@ -1,10 +1,10 @@
 ---
-description: "Morkin berserker is an enemy in Andor's Trail (humanoid) with 171 HP, worth 310 XP, found in lodar11, lodar12. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
+description: "Morkin berserker is an enemy in Andor's Trail (humanoid) with 171 HP, worth 310 XP, found in Lodar 11, Lodar 12. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_70.png){ .sprite } Morkin berserker
 
-**Found in:** [lodar11](../maps/lodar11.md), [lodar12](../maps/lodar12.md)
+**Found in:** [Lodar 11](../maps/lodar11.md), [Lodar 12](../maps/lodar12.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Morkin berserker is an enemy in Andor's Trail (humanoid) with 171 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar11, lodar12 |
+| **Found in** | Lodar 11, Lodar 12 |
 | **Class** | Humanoid |
 | **HP** | 171 |
 | **XP when defeated** | 310 |
@@ -58,8 +58,8 @@ description: "Morkin berserker is an enemy in Andor's Trail (humanoid) with 171 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 2 | – |
-| [lodar12](../maps/lodar12.md) | – | 3 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 2 | – |
+| [Lodar 12](../maps/lodar12.md) | – | 3 | – |
 
 
 ## Version history

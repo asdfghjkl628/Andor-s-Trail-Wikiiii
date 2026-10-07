@@ -48,7 +48,7 @@ description: "Sullengard ravine cabin is an indoor location in Andor's Trail. NP
 ## Quests
 
 - [Getting home on time](../quests/deebo_orchard_ght.md): [Hadena](../monsters/sullengard_cabin_wife.md) is involved
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): [Hadena](../monsters/sullengard_cabin_wife.md) is involved
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): [Hadena](../monsters/sullengard_cabin_wife.md) is involved
 
 
 ## Version history

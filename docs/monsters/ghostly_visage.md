@@ -4,7 +4,7 @@ description: "Ghostly visage is an enemy in Andor's Trail (ghost) with 16 HP, wo
 
 # ![](../assets/icons/monsters/monsters_ghost1_0.png){ .sprite } Ghostly visage
 
-**Found in:** Fallhaven: [catacombs2](../maps/catacombs2.md), Fallhaven: [catacombs3](../maps/catacombs3.md), [hauntedhouse3](../maps/hauntedhouse3.md)
+**Found in:** Fallhaven: [Catacombs 2](../maps/catacombs2.md), Fallhaven: [Catacombs 3](../maps/catacombs3.md), [Hauntedhouse 3](../maps/hauntedhouse3.md)
 
 <div class="infobox" markdown>
 
@@ -62,9 +62,9 @@ description: "Ghostly visage is an enemy in Andor's Trail (ghost) with 16 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [catacombs2](../maps/catacombs2.md) | Fallhaven | 5 | – |
-| [catacombs3](../maps/catacombs3.md) | Fallhaven | 4 | – |
-| [hauntedhouse3](../maps/hauntedhouse3.md) | – | 2 | – |
+| [Catacombs 2](../maps/catacombs2.md) | Fallhaven | 5 | – |
+| [Catacombs 3](../maps/catacombs3.md) | Fallhaven | 4 | – |
+| [Hauntedhouse 3](../maps/hauntedhouse3.md) | – | 2 | – |
 
 
 ## Version history

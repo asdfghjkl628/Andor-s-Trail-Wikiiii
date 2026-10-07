@@ -27,9 +27,9 @@ description: "Blessing of Shadow regeneration is a beneficial spiritual conditio
 |---|---|
 | HP every round | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -41,14 +41,14 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 | From | Quest | Duration |
 |---|---|---|
 | [Talion](../monsters/talion.md) | – | 45 rounds |
-| stepping on a trigger on [ratdom_maze_618](../maps/ratdom_maze_618.md) | – | 25 rounds |
+| stepping on a trigger on [Ratdom maze 618](../maps/ratdom_maze_618.md) | – | 25 rounds |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

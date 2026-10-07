@@ -27,7 +27,7 @@ description: "Thukuzun bone is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Thukuzun](../monsters/thukuzun.md) | 100% | 1 | lostmine11 |
+| [Thukuzun](../monsters/thukuzun.md) | 100% | 1 | Lostmine 11 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | [Trial by fire](../quests/charwood2.md#stage-40) | handed over (1×) | “Whatever that thing was, it won't bother you any more now that I've killed it. H” |
+| [Maevalia](../monsters/maevalia.md) ([Tradehouse 0](../maps/tradehouse0.md)) | [Trial by fire](../quests/charwood2.md#stage-40) | handed over (1×) | “Whatever that thing was, it won't bother you any more now that I've killed it. H” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

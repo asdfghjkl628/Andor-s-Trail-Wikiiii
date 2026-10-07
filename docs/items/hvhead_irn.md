@@ -38,12 +38,12 @@ description: "Heavy iron skullcap is a ordinary headwear, metal (heavy) in Andor
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Morkin lookout](../monsters/morkin1.md) | 1% | 1 | lodar10, lodar11, lodar12 |
-| [Morkin scout](../monsters/morkin2.md) | 1% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin fighter](../monsters/morkin3.md) | 1% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin guard](../monsters/morkin4.md) | 1% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin berserker](../monsters/morkin5.md) | 1% | 1 | lodar11, lodar12 |
-| [Morkin leader](../monsters/morkin6.md) | 1% | 1 | lodar12 |
+| [Morkin lookout](../monsters/morkin1.md) | 1% | 1 | Lodar 10, Lodar 11, Lodar 12 |
+| [Morkin scout](../monsters/morkin2.md) | 1% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin fighter](../monsters/morkin3.md) | 1% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin guard](../monsters/morkin4.md) | 1% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin berserker](../monsters/morkin5.md) | 1% | 1 | Lodar 11, Lodar 12 |
+| [Morkin leader](../monsters/morkin6.md) | 1% | 1 | Lodar 12 |
 
 ### Sold by
 

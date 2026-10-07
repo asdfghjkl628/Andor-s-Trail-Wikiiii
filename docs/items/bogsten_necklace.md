@@ -28,7 +28,7 @@ description: "Bogsten's necklace is a quest necklace in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-60) (1×)
+- From [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [bogsten3](../maps/bogsten3.md), stepping on a trigger on [bogsten4](../maps/bogsten4.md) | [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-60) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Bogsten 3](../maps/bogsten3.md), stepping on a trigger on [Bogsten 4](../maps/bogsten4.md) | [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-60) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | [Devastated land](../quests/hadracor.md#stage-21) | handed over (6×) | “Yes, I killed six of them.” |
-| [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | [Devastated land](../quests/hadracor.md#stage-20) | handed over (5×) | “Yes, I killed five of them.” |
+| [Hadracor](../monsters/hadracor.md) ([Roadtocarntower 1](../maps/roadtocarntower1.md)) | [Devastated land](../quests/hadracor.md#stage-21) | handed over (6×) | “Yes, I killed six of them.” |
+| [Hadracor](../monsters/hadracor.md) ([Roadtocarntower 1](../maps/roadtocarntower1.md)) | [Devastated land](../quests/hadracor.md#stage-20) | handed over (5×) | “Yes, I killed five of them.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

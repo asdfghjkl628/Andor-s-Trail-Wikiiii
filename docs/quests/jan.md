@@ -38,24 +38,42 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Jan tells me his story, where he and his two friends Gandir and Irogotu, went down the hole to dig for a hidden treasure, but they started fighting and Irogotu killed Gandir in his rage. I should bring back Gandir's ring from Irogotu, and see Jan when I have it. | [Jan](../monsters/jan.md) | – | – |
-| <span id="stage-100"></span>100 | Irogotu is dead. I have brought Jan the ring of Gandir, and avenged his friend. **(completes quest)** | [Jan](../monsters/jan.md) | hand over 1× [Gandir's ring](../items/ring_gandir.md), stage 10 | 1,500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Jan tells me his story, where he and his two friends Gandir and… ▸</span><span class="l">▴ less</span></summary>Jan tells me his story, where he and his two friends Gandir and Irogotu, went down the hole to dig for a hidden treasure, but they started fighting and Irogotu killed Gandir in his rage. I should bring back Gandir's ring from Irogotu, and see Jan when I have it.</details> | [Jan](../monsters/jan.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | Irogotu is dead. I have brought Jan the ring of Gandir, and avenged his friend. **(ends quest)** | [Jan](../monsters/jan.md) | 1,500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Jan](../monsters/jan.md) → choose “Sure, there may be some treasure in this for me.” — **conditions:** reached stage 10 of [Fallen friends](../quests/jan.md#stage-10) → **stage 10**. NPC: “Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.”
+??? note "Stage 10 · Jan · 1 way"
 
-???+ note "Stage 100: 1 route"
+    **Way 1:** Talk to [Jan](../monsters/jan.md), choose “Sure, there may be some treasure in this for me.”
 
-    1. Talk to [Jan](../monsters/jan.md) → choose “Yes, I have killed Irogotu.” — **conditions:** reached stage 10 of [Fallen friends](../quests/jan.md#stage-10); hand over 1× [Gandir's ring](../items/ring_gandir.md) → **stage 100**. NPC: “Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into…”
+    - **Needs:** stage 10
+    - *“Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Jan · 1 way"
+
+    **Way 1:** Talk to [Jan](../monsters/jan.md), choose “Yes, I have killed Irogotu.”
+
+    - **Needs:** stage 10; hand over 1× [Gandir's ring](../items/ring_gandir.md)
+    - *“Wait, what? You actually went down there and returned alive? How did you manage that? Wow, I almost died going into that cave. Oh thank…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

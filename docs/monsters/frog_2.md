@@ -4,7 +4,7 @@ description: "Tough river frog is an enemy in Andor's Trail (reptile) with 17 HP
 
 # ![](../assets/icons/monsters/monsters_rltiles1_131.png){ .sprite } Tough river frog
 
-**Found in:** Loneford: [fields11](../maps/fields11.md), [fields12](../maps/fields12.md), [waterway2](../maps/waterway2.md)
+**Found in:** Loneford: [Fields 11](../maps/fields11.md), [Fields 12](../maps/fields12.md), [Waterway 2](../maps/waterway2.md)
 
 <div class="infobox" markdown>
 
@@ -54,9 +54,9 @@ description: "Tough river frog is an enemy in Andor's Trail (reptile) with 17 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields11](../maps/fields11.md) | Loneford | 3 | – |
-| [fields12](../maps/fields12.md) | – | 5 | – |
-| [waterway2](../maps/waterway2.md) | – | 3 | – |
+| [Fields 11](../maps/fields11.md) | Loneford | 3 | – |
+| [Fields 12](../maps/fields12.md) | – | 5 | – |
+| [Waterway 2](../maps/waterway2.md) | – | 3 | – |
 
 
 ## Version history

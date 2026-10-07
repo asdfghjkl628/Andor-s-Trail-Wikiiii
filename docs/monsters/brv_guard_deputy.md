@@ -4,7 +4,7 @@ description: "Ito is a non-player character (NPC) in Andor's Trail, found in Bri
 
 # ![](../assets/icons/monsters/monsters_ld1_109.png){ .sprite } Ito
 
-**Where to find Ito:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_guard_deputy)
+**Where to find Ito:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_guard_deputy)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Ito is a non-player character (NPC) in Andor's Trail, found in Bri
 ## Quests
 
 - [A strange looking dagger](../quests/brv_dagger.md): stage 220
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 60
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 60
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ito. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ito. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_guard_deputy_10.json" data-npc="Ito" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,19 +34,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_guard_deputy_10"></span>**`brv_guard_deputy_10`** Ito: “Hello. I am Ito. I help Mustura keep the law around here.”
 
     - “I'll bear that in mind.” → *conversation ends*
     - “I have proof that Ogea murdered Lawellyn and stole his prized dagger.” *(if reached stage 210 of [A strange looking dagger](../quests/brv_dagger.md#stage-210); carry 1× [Suspect's glove](../items/ogea_glove.md); NOT reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220))* → [brv_guard_deputy_asd_10](#d-brv_guard_deputy_asd_10)
-    - “I want to discuss Ogea again.” *(if reached stage 60 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60); NOT reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220))* → [brv_guard_deputy_asd_20](#d-brv_guard_deputy_asd_20)
+    - “I want to discuss Ogea again.” *(if reached stage 60 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60); NOT reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220))* → [brv_guard_deputy_asd_20](#d-brv_guard_deputy_asd_20)
 
     <span id="d-brv_guard_deputy_asd_10"></span>**`brv_guard_deputy_asd_10`** Ito: “Let me hear it.”
 
     - “I found his glove at the scene of the murder covered in dried blood and a witness that says the glove is Ogea's. Ogea…” *(if hand over 1× [Suspect's glove](../items/ogea_glove.md))* → [brv_guard_deputy_asd_20](#d-brv_guard_deputy_asd_20)
 
-    <span id="d-brv_guard_deputy_asd_20"></span>**`brv_guard_deputy_asd_20`** Ito: “Wow. You did a great job! Do you want a job on our team?” — **effects:** sets stage 60 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60)
+    <span id="d-brv_guard_deputy_asd_20"></span>**`brv_guard_deputy_asd_20`** Ito: “Wow. You did a great job! Do you want a job on our team?” — **effects:** sets stage 60 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60)
 
     - “No, thanks. I just want Ogea punished.” → [brv_guard_deputy_asd_30](#d-brv_guard_deputy_asd_30)
 

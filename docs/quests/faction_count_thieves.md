@@ -1,8 +1,8 @@
 ---
-description: "faction_count_thieves is a hidden quest in Andor's Trail. 30 stages. Ranges: ..."
+description: "Thieves faction counter is a hidden quest in Andor's Trail. 30 stages. Ranges: ..."
 ---
 
-# faction_count_thieves
+# Thieves faction counter
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -36,40 +36,46 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-0"></span>0 | Ranges: ... | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-10"></span>10 |  8-  wanted_men:65   Returned fake key to Troublemaker | dialogue `faction_count_thieves_10a`, which nothing in the data starts directly | – | faction “faction_count_thieves” -8<br>faction “factionCountThieves” -8<br>faction “scoreThieves2” +0<br>faction “scoreThieves” -8 |
-| <span id="stage-20"></span>20 |  3   wanted_men:80   Defy and his men killed | dialogue `faction_count_thieves_20a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-30"></span>30 |   | dialogue `faction_count_thieves_30a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-40"></span>40 |   | dialogue `faction_count_thieves_40a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-50"></span>50 |   | dialogue `faction_count_thieves_50a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-60"></span>60 |   | dialogue `faction_count_thieves_60a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-70"></span>70 |   | dialogue `faction_count_thieves_70a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-80"></span>80 |   | dialogue `faction_count_thieves_80a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-90"></span>90 |   | dialogue `faction_count_thieves_90a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-100"></span>100 |   | dialogue `faction_count_thieves_100a`, which nothing in the data starts directly | – | faction “faction_count_thieves” +0 |
-| <span id="stage-110"></span>110 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-120"></span>120 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-130"></span>130 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-140"></span>140 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-150"></span>150 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-160"></span>160 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-170"></span>170 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-180"></span>180 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-190"></span>190 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-200"></span>200 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-210"></span>210 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-220"></span>220 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-230"></span>230 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-240"></span>240 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-250"></span>250 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-260"></span>260 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-270"></span>270 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-280"></span>280 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-290"></span>290 |   | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-0"></span>0 | Ranges: ... | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-10"></span>10 | 8- wanted_men:65 Returned fake key to Troublemaker | dialogue `faction_count_thieves_10a`, never started directly | – |
+| <span id="stage-20"></span>20 | 3 wanted_men:80 Defy and his men killed | dialogue `faction_count_thieves_20a`, never started directly | – |
+| <span id="stage-30"></span>30 |  | dialogue `faction_count_thieves_30a`, never started directly | – |
+| <span id="stage-40"></span>40 |  | dialogue `faction_count_thieves_40a`, never started directly | – |
+| <span id="stage-50"></span>50 |  | dialogue `faction_count_thieves_50a`, never started directly | – |
+| <span id="stage-60"></span>60 |  | dialogue `faction_count_thieves_60a`, never started directly | – |
+| <span id="stage-70"></span>70 |  | dialogue `faction_count_thieves_70a`, never started directly | – |
+| <span id="stage-80"></span>80 |  | dialogue `faction_count_thieves_80a`, never started directly | – |
+| <span id="stage-90"></span>90 |  | dialogue `faction_count_thieves_90a`, never started directly | – |
+| <span id="stage-100"></span>100 |  | dialogue `faction_count_thieves_100a`, never started directly | – |
+| <span id="stage-110"></span>110 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-120"></span>120 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-130"></span>130 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-140"></span>140 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-150"></span>150 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-160"></span>160 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-170"></span>170 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-180"></span>180 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-190"></span>190 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-200"></span>200 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-210"></span>210 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-220"></span>220 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-230"></span>230 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-240"></span>240 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-250"></span>250 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-260"></span>260 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-270"></span>270 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-280"></span>280 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-290"></span>290 |  | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -115,6 +121,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `faction_count_thieves` |
+    | Name in game data | `faction_count_thieves` |
     | showInLog | 0 |
     | Stage IDs | 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290 |
     | Dialogue nodes setting stages | 10: `faction_count_thieves_10a`, 20: `faction_count_thieves_20a`, 30: `faction_count_thieves_30a`, 40: `faction_count_thieves_40a`, 50: `faction_count_thieves_50a`, 60: `faction_count_thieves_60a`, 70: `faction_count_thieves_70a`, 80: `faction_count_thieves_80a`, 90: `faction_count_thieves_90a`, 100: `faction_count_thieves_100a` |

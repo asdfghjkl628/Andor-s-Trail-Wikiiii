@@ -1,8 +1,8 @@
 ---
-description: "Loneford11 is an outdoor location in Andor's Trail, near Loneford (settlement). Exits to Loneford2, Waytobrimhaven0, Fields11b."
+description: "Loneford 11 is an outdoor location in Andor's Trail, near Loneford (settlement). Exits to Loneford 2, Waytobrimhaven 0, Fields 11b."
 ---
 
-# Loneford11
+# Loneford 11
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Loneford11 is an outdoor location in Andor's Trail, near Loneford 
 | **Region** | Near Loneford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 19×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Loneford11** is an outdoor map, near Loneford (settlement). It has no NPCs, and no enemies. Exits lead to Loneford2, Waytobrimhaven0, Fields11b.
+**Loneford 11** is an outdoor map, near Loneford (settlement). It has no NPCs, and no enemies. Exits lead to Loneford 2, Waytobrimhaven 0, Fields 11b.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford11.webp" alt="Map of Loneford11" width="608" height="512" loading="lazy"><a id="place-south2" class="mo mo-mapchange" href="../waytobrimhaven0/#place-north" title="Exit to Waytobrimhaven0" style="left:57.895%;top:93.750%;width:36.842%;height:6.250%"></a><a id="place-west2" class="mo mo-mapchange" href="../fields11b/#place-east2" title="Exit to Fields11b" style="left:0.000%;top:6.250%;width:5.263%;height:50.000%"></a><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-north" title="Exit to Loneford2" style="left:5.263%;top:93.750%;width:36.842%;height:6.250%"></a><a id="place-west" class="mo mo-mapchange" href="../fields11b/#place-east" title="Exit to Fields11b" style="left:0.000%;top:62.500%;width:5.263%;height:31.250%"></a><a class="pin pin-exit" href="#key-1" style="left:23.684%;top:96.875%" title="Exit (south): to [Loneford2](loneford2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:76.316%;top:96.875%" title="Exit (south): to [Waytobrimhaven0](waytobrimhaven0.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.632%;top:31.250%" title="Exit (west): to [Fields11b](fields11b.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:2.632%;top:78.125%" title="Exit (west): to [Fields11b](fields11b.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford11.webp" alt="Map of Loneford 11" width="608" height="512" loading="lazy"><a id="place-south2" class="mo mo-mapchange" href="../waytobrimhaven0/#place-north" title="Exit to Waytobrimhaven 0" style="left:57.895%;top:93.750%;width:36.842%;height:6.250%"></a><a id="place-west2" class="mo mo-mapchange" href="../fields11b/#place-east2" title="Exit to Fields 11b" style="left:0.000%;top:6.250%;width:5.263%;height:50.000%"></a><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-north" title="Exit to Loneford 2" style="left:5.263%;top:93.750%;width:36.842%;height:6.250%"></a><a id="place-west" class="mo mo-mapchange" href="../fields11b/#place-east" title="Exit to Fields 11b" style="left:0.000%;top:62.500%;width:5.263%;height:31.250%"></a><a class="pin pin-exit" href="#key-1" style="left:23.684%;top:96.875%" title="Exit (south): to [Loneford 2](loneford2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:76.316%;top:96.875%" title="Exit (south): to [Waytobrimhaven 0](waytobrimhaven0.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.632%;top:31.250%" title="Exit (west): to [Fields 11b](fields11b.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:2.632%;top:78.125%" title="Exit (west): to [Fields 11b](fields11b.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Loneford2](loneford2.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Waytobrimhaven0](waytobrimhaven0.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Fields11b](fields11b.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Loneford 2](loneford2.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Waytobrimhaven 0](waytobrimhaven0.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Fields 11b](fields11b.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,9 +41,9 @@ description: "Loneford11 is an outdoor location in Andor's Trail, near Loneford 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Loneford2](loneford2.md) | Loneford | 1 |
-| South | [Waytobrimhaven0](waytobrimhaven0.md) | Loneford | 2 |
-| West | [Fields11b](fields11b.md) | Loneford | 3 |
+| South | [Loneford 2](loneford2.md) | Loneford | 1 |
+| South | [Waytobrimhaven 0](waytobrimhaven0.md) | Loneford | 2 |
+| West | [Fields 11b](fields11b.md) | Loneford | 3 |
 
 
 ## Version history

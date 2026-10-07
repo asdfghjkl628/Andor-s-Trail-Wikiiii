@@ -1,8 +1,8 @@
 ---
-description: "Mountainlake12 is an outdoor location in Andor's Trail, near Remgard (settlement). Enemies: Mountain wolf pup, Young mountain wolf, Young mountain fox, Mountain fox, Ferocious mountain fox. Exits to Mountainlake11, Mountainlake14, Mountainlake13."
+description: "Mountainlake 12 is an outdoor location in Andor's Trail, near Remgard (settlement). Enemies: Mountain wolf pup, Young mountain wolf, Young mountain fox, Mountain fox, Ferocious mountain fox. Exits to Mountainlake 11, Mountainlake 14, Mountainlake 13."
 ---
 
-# Mountainlake12
+# Mountainlake 12
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Mountainlake12 is an outdoor location in Andor's Trail, near Remga
 | **Region** | Near Remgard (settlement) |
 | **Type** | Outdoors |
 | **Size** | 29×22 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 6 |
 | **Quests** | 0 |
 
 </div>
 
-**Mountainlake12** is an outdoor map, near Remgard (settlement). It has no NPCs and 6 kinds of enemy. Exits lead to Mountainlake11, Mountainlake14, Mountainlake13.
+**Mountainlake 12** is an outdoor map, near Remgard (settlement). It has no NPCs and 6 kinds of enemy. Exits lead to Mountainlake 11, Mountainlake 14, Mountainlake 13.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake12.webp" alt="Map of Mountainlake12" width="928" height="704" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mountainlake11/#place-west" title="Exit to Mountainlake11" style="left:96.552%;top:40.909%;width:3.448%;height:31.818%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake13/#place-east" title="Exit to Mountainlake13" style="left:0.000%;top:68.182%;width:3.448%;height:13.636%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake14/#place-north" title="Exit to Mountainlake14" style="left:3.448%;top:95.455%;width:93.103%;height:4.545%"></a><a id="place-east2" class="mo mo-mapchange" href="../mountainlake11/#place-west2" title="Exit to Mountainlake11" style="left:96.552%;top:81.818%;width:3.448%;height:13.636%"></a><span class="mo mo-spawn" title="Spawns: Ferocious mountain fox, Mountain fox, Rabid mountain wolf" style="left:31.034%;top:68.182%;width:3.448%;height:4.545%"></span><span class="mo mo-spawn" title="Spawns: Ferocious mountain fox, Mountain fox, Rabid mountain wolf" style="left:65.517%;top:50.000%;width:3.448%;height:4.545%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf pup, Young mountain fox, Young mountain wolf" style="left:6.897%;top:22.727%;width:72.414%;height:59.091%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf pup, Young mountain fox, Young mountain wolf" style="left:79.310%;top:22.727%;width:13.793%;height:31.818%"></span><a class="mob" href="../../monsters/mwolf_4/" title="Mountain fox" style="left:31.034%;top:68.182%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Mountain fox"></a><a class="mob" href="../../monsters/mwolf_6/" title="Rabid mountain wolf" style="left:65.517%;top:50.000%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Rabid mountain wolf"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:55.172%;top:63.636%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_2/" title="Young mountain wolf" style="left:58.621%;top:40.909%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Young mountain wolf"></a><a class="mob" href="../../monsters/mwolf_2/" title="Young mountain wolf" style="left:24.138%;top:54.545%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Young mountain wolf"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:27.586%;top:59.091%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:62.069%;top:63.636%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_1/" title="Mountain wolf pup" style="left:89.655%;top:40.909%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Mountain wolf pup"></a><a class="pin pin-exit" href="#key-1" style="left:98.276%;top:56.818%" title="Exit (east): to [Mountainlake11](mountainlake11.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:98.276%;top:88.636%" title="Exit (east): to [Mountainlake11](mountainlake11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:97.727%" title="Exit (south): to [Mountainlake14](mountainlake14.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.724%;top:75.000%" title="Exit (west): to [Mountainlake13](mountainlake13.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake12.webp" alt="Map of Mountainlake 12" width="928" height="704" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mountainlake11/#place-west" title="Exit to Mountainlake 11" style="left:96.552%;top:40.909%;width:3.448%;height:31.818%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake13/#place-east" title="Exit to Mountainlake 13" style="left:0.000%;top:68.182%;width:3.448%;height:13.636%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake14/#place-north" title="Exit to Mountainlake 14" style="left:3.448%;top:95.455%;width:93.103%;height:4.545%"></a><a id="place-east2" class="mo mo-mapchange" href="../mountainlake11/#place-west2" title="Exit to Mountainlake 11" style="left:96.552%;top:81.818%;width:3.448%;height:13.636%"></a><span class="mo mo-spawn" title="Spawns: Ferocious mountain fox, Mountain fox, Rabid mountain wolf" style="left:31.034%;top:68.182%;width:3.448%;height:4.545%"></span><span class="mo mo-spawn" title="Spawns: Ferocious mountain fox, Mountain fox, Rabid mountain wolf" style="left:65.517%;top:50.000%;width:3.448%;height:4.545%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf pup, Young mountain fox, Young mountain wolf" style="left:6.897%;top:22.727%;width:72.414%;height:59.091%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf pup, Young mountain fox, Young mountain wolf" style="left:79.310%;top:22.727%;width:13.793%;height:31.818%"></span><a class="mob" href="../../monsters/mwolf_4/" title="Mountain fox" style="left:31.034%;top:68.182%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Mountain fox"></a><a class="mob" href="../../monsters/mwolf_6/" title="Rabid mountain wolf" style="left:65.517%;top:50.000%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Rabid mountain wolf"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:55.172%;top:63.636%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_2/" title="Young mountain wolf" style="left:58.621%;top:40.909%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Young mountain wolf"></a><a class="mob" href="../../monsters/mwolf_2/" title="Young mountain wolf" style="left:24.138%;top:54.545%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Young mountain wolf"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:27.586%;top:59.091%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_3/" title="Young mountain fox" style="left:62.069%;top:63.636%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_2.png" alt="Young mountain fox"></a><a class="mob" href="../../monsters/mwolf_1/" title="Mountain wolf pup" style="left:89.655%;top:40.909%;width:3.448%;height:4.545%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Mountain wolf pup"></a><a class="pin pin-exit" href="#key-1" style="left:98.276%;top:56.818%" title="Exit (east): to [Mountainlake 11](mountainlake11.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:98.276%;top:88.636%" title="Exit (east): to [Mountainlake 11](mountainlake11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:97.727%" title="Exit (south): to [Mountainlake 14](mountainlake14.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.724%;top:75.000%" title="Exit (west): to [Mountainlake 13](mountainlake13.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Mountainlake11](mountainlake11.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Mountainlake14](mountainlake14.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Mountainlake13](mountainlake13.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Mountainlake 11](mountainlake11.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Mountainlake 14](mountainlake14.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Mountainlake 13](mountainlake13.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Mountainlake12 is an outdoor location in Andor's Trail, near Remga
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Mountainlake11](mountainlake11.md) | – | 1 |
-| South | [Mountainlake14](mountainlake14.md) | Remgard | 2 |
-| West | [Mountainlake13](mountainlake13.md) | Remgard | 3 |
+| East | [Mountainlake 11](mountainlake11.md) | – | 1 |
+| South | [Mountainlake 14](mountainlake14.md) | Remgard | 2 |
+| West | [Mountainlake 13](mountainlake13.md) | Remgard | 3 |
 
 ## Enemies
 

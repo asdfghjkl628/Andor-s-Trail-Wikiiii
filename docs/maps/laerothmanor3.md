@@ -1,8 +1,8 @@
 ---
-description: "Laerothmanor3 is an indoor location in Andor's Trail, in Lake Laeroth (other). Exits to Laerothisland3, Laerothmanor0."
+description: "Laerothmanor 3 is an indoor location in Andor's Trail, in Lake Laeroth (other). Exits to Laerothisland 3, Laerothmanor 0."
 ---
 
-# Laerothmanor3
+# Laerothmanor 3
 
 <div class="infobox" markdown>
 
@@ -17,20 +17,20 @@ description: "Laerothmanor3 is an indoor location in Andor's Trail, in Lake Laer
 
 </div>
 
-**Laerothmanor3** is an indoor map, in Lake Laeroth (other). It has no NPCs, and no enemies. Exits lead to Laerothisland3, Laerothmanor0.
+**Laerothmanor 3** is an indoor map, in Lake Laeroth (other). It has no NPCs, and no enemies. Exits lead to Laerothisland 3, Laerothmanor 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothmanor3.webp" alt="Map of Laerothmanor3" width="256" height="288" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../laerothmanor0/#place-east" title="Exit to Laerothmanor0" style="left:0.000%;top:44.444%;width:12.500%;height:11.111%"></a><a id="place-south" class="mo mo-mapchange" href="../laerothisland3/#place-north4" title="Exit to Laerothisland3" style="left:62.500%;top:88.889%;width:12.500%;height:11.111%"></a><a class="mo mo-script" href="../../quests/last_lord/#stage-15" title="Scripted event: advances the quest: The last lord of Laeroth to stage 15 (“I didn&#x27;t really care about where the last lord went. I left this place, and whatever happened to him didn&#x27;t make any difference to me.”)" style="left:50.000%;top:77.778%;width:25.000%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:68.750%;top:94.444%" title="Exit (south): to [Laerothisland3](laerothisland3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:6.250%;top:50.000%" title="Exit (west): to [Laerothmanor0](laerothmanor0.md)">2</a><a class="pin pin-script" href="#key-3" style="left:62.500%;top:83.333%" title="Quest trigger: Scripted event: advances the quest: The last lord of Laeroth to stage 15 (“I didn&#x27;t really care about where the last lord went. I left this place, and whatever happened to him didn&#x27;t make any difference to me.”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothmanor3.webp" alt="Map of Laerothmanor 3" width="256" height="288" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../laerothmanor0/#place-east" title="Exit to Laerothmanor 0" style="left:0.000%;top:44.444%;width:12.500%;height:11.111%"></a><a id="place-south" class="mo mo-mapchange" href="../laerothisland3/#place-north4" title="Exit to Laerothisland 3" style="left:62.500%;top:88.889%;width:12.500%;height:11.111%"></a><a class="mo mo-script" href="../../quests/last_lord/#stage-15" title="Scripted event: advances the quest: The last lord of Laeroth to stage 15 (“I didn&#x27;t really care about where the last lord went. I left this place, and whatever happened to him didn&#x27;t make any difference to me.”)" style="left:50.000%;top:77.778%;width:25.000%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:68.750%;top:94.444%" title="Exit (south): to [Laerothisland 3](laerothisland3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:6.250%;top:50.000%" title="Exit (west): to [Laerothmanor 0](laerothmanor0.md)">2</a><a class="pin pin-script" href="#key-3" style="left:62.500%;top:83.333%" title="Quest trigger: Scripted event: advances the quest: The last lord of Laeroth to stage 15 (“I didn&#x27;t really care about where the last lord went. I left this place, and whatever happened to him didn&#x27;t make any difference to me.”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Laerothisland3](laerothisland3.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Laerothmanor0](laerothmanor0.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Laerothisland 3](laerothisland3.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Laerothmanor 0](laerothmanor0.md) |
     | <span id="key-3"></span>3 | Quest trigger | Scripted event: advances the quest: The last lord of Laeroth to stage 15 (“I didn't really care about where the last lord went. I left this place, and whatever happened to him didn't make any difference to me.”) |
 
 
@@ -40,8 +40,8 @@ description: "Laerothmanor3 is an indoor location in Andor's Trail, in Lake Laer
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Laerothisland3](laerothisland3.md) | Lake Laeroth | 1 |
-| West | [Laerothmanor0](laerothmanor0.md) | Lake Laeroth | 2 |
+| South | [Laerothisland 3](laerothisland3.md) | Lake Laeroth | 1 |
+| West | [Laerothmanor 0](laerothmanor0.md) | Lake Laeroth | 2 |
 
 ## Quests
 

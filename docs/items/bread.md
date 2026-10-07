@@ -47,17 +47,17 @@ description: "Bread is a ordinary food in Andor's Trail. How to get it: monster 
 - [Gallain](../monsters/gallain.md) (Crossroads Guardhouse)
 - [Cadoren](../monsters/stoutford_cook.md) (Stoutford)
 - [Hofala](../monsters/guynmart_cook.md) (Guynmart Castle)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 - [Effa](../monsters/brightportbakery2.md) (Brightport)
 - [Gunther](../monsters/brightportbakery3.md) (Brightport)
 
 ### Quest & dialogue rewards
 
-- From [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (5×)
-- From [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
-- From [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) during [guynmart_quest_cook_bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1) (100%)
-- From [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-60) (5×)
-- From walking into a blocked passage on [crossglen](../maps/crossglen.md) during [More rats!](../quests/ratdom_mikhail.md#stage-72) (1×)
+- From [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (5×)
+- From [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
+- From [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) during [Guynmart quest cook bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1) (100%)
+- From [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-60) (5×)
+- From walking into a blocked passage on [Crossglen](../maps/crossglen.md) during [More rats!](../quests/ratdom_mikhail.md#stage-72) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -68,16 +68,16 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | [Breakfast bread](../quests/mikhail_bread.md#stage-100) | handed over (1×) | “Yes, here you go.” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (2×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “Yes, here you are. Enjoy it!” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “I can help with that. I can spare 2 loaves of bread.” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “I could spare bread, some cheese and a bottle of red wine.” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (2×) | “Here I have bread, some cheese and a bottle of red wine.” |
-| stepping on a trigger on [guildbrig2](../maps/guildbrig2.md), [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) | [Immaculate kidnapping](../quests/Thieves02.md#stage-65) | handed over (5×) | “[Give the Bread]” |
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) | [More rats!](../quests/ratdom_mikhail.md#stage-74) | handed over (1×) | “Here I have some bread for you.” |
-| [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) | [Sobby's Trail](../quests/tobby.md#stage-22) | handed over (1×) | “OK. And bring your father this loaf of bread.” |
-| [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) | [Sobby's Trail](../quests/tobby.md#stage-22) | handed over (1×) | “Also here, bring him a loaf of bread.” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) | [Breakfast bread](../quests/mikhail_bread.md#stage-100) | handed over (1×) | “Yes, here you go.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (2×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “Yes, here you are. Enjoy it!” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “I can help with that. I can spare 2 loaves of bread.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (2×) | “I could spare bread, some cheese and a bottle of red wine.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (2×) | “Here I have bread, some cheese and a bottle of red wine.” |
+| stepping on a trigger on [Guildbrig 2](../maps/guildbrig2.md), [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)) | [Immaculate kidnapping](../quests/Thieves02.md#stage-65) | handed over (5×) | “[Give the Bread]” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) | [More rats!](../quests/ratdom_mikhail.md#stage-74) | handed over (1×) | “Here I have some bread for you.” |
+| [Tobby](../monsters/tobby.md) ([Guynmart wood 19](../maps/guynmart_wood_19.md)) | [Sobby's Trail](../quests/tobby.md#stage-22) | handed over (1×) | “OK. And bring your father this loaf of bread.” |
+| [Tobby](../monsters/tobby.md) ([Guynmart wood 19](../maps/guynmart_wood_19.md)) | [Sobby's Trail](../quests/tobby.md#stage-22) | handed over (1×) | “Also here, bring him a loaf of bread.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

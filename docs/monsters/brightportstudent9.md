@@ -4,7 +4,7 @@ description: "Evelina is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_178.png){ .sprite } Evelina
 
-**Where to find Evelina:** Brightport: [brightport_school10](../maps/brightport_school10.md#pin-npc-brightportstudent9)
+**Where to find Evelina:** Brightport: [Brightport school 10](../maps/brightport_school10.md#pin-npc-brightportstudent9)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Evelina is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Evelina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Evelina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_student_4.json" data-npc="Evelina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_student_4"></span>**`brightport_student_4`** Evelina: “[You see a girl sitting at the table with her arms resting on it and her head lowered.]”
 

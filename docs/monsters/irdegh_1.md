@@ -1,10 +1,10 @@
 ---
-description: "Irdegh is an enemy in Andor's Trail (reptile) with 115 HP, worth 280 XP, found in waterway11_east, waytomountaincave0. Drops: Meat, Poison gland, Irdegh poison gland."
+description: "Irdegh is an enemy in Andor's Trail (reptile) with 115 HP, worth 280 XP, found in Waterway 11 east, Waytomountaincave 0. Drops: Meat, Poison gland, Irdegh poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_15.png){ .sprite } Irdegh
 
-**Found in:** [waterway11_east](../maps/waterway11_east.md), [waytomountaincave0](../maps/waytomountaincave0.md)
+**Found in:** [Waterway 11 east](../maps/waterway11_east.md), [Waytomountaincave 0](../maps/waytomountaincave0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Irdegh is an enemy in Andor's Trail (reptile) with 115 HP, worth 2
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterway11_east, waytomountaincave0 |
+| **Found in** | Waterway 11 east, Waytomountaincave 0 |
 | **Class** | Reptile |
 | **HP** | 115 |
 | **XP when defeated** | 280 |
@@ -58,8 +58,8 @@ description: "Irdegh is an enemy in Andor's Trail (reptile) with 115 HP, worth 2
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway11_east](../maps/waterway11_east.md) | – | 2 | – |
-| [waytomountaincave0](../maps/waytomountaincave0.md) | – | 1 | – |
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 2 | – |
+| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 1 | – |
 
 
 ## Version history

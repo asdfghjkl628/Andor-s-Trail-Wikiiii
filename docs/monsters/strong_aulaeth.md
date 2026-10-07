@@ -4,7 +4,7 @@ description: "Strong aulaeth is an enemy in Andor's Trail (giant) with 135 HP, w
 
 # ![](../assets/icons/monsters/monsters_rltiles2_58.png){ .sprite } Strong aulaeth
 
-**Found in:** Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md), Blackwater Mountain: [blackwater_mountain32](../maps/blackwater_mountain32.md), Blackwater Mountain: [blackwater_mountain37](../maps/blackwater_mountain37.md), Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md) (+2 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md), Blackwater Mountain: [Blackwater mountain 32](../maps/blackwater_mountain32.md), Blackwater Mountain: [Blackwater mountain 37](../maps/blackwater_mountain37.md), Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -62,12 +62,12 @@ description: "Strong aulaeth is an enemy in Andor's Trail (giant) with 135 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 16 | – |
-| [blackwater_mountain37](../maps/blackwater_mountain37.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 5 | – |
-| [bwmfill5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
-| [bwmfill6](../maps/bwmfill6.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 16 | – |
+| [Blackwater mountain 37](../maps/blackwater_mountain37.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 5 | – |
+| [Bwmfill 5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 6](../maps/bwmfill6.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

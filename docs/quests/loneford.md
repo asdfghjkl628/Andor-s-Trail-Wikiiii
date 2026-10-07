@@ -11,9 +11,9 @@ description: "Flows through the veins is a quest in Andor's Trail, started by Ga
 | **Quest ID** | `loneford` |
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 55, 60) |
-| **Started by** | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) |
+| **Started by** | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) ([Houseatcrossroads 4](../maps/houseatcrossroads4.md)) |
 | **NPCs involved** | [Buceth](../monsters/buceth.md), [Farmer](../monsters/farmer.md#v-loneford_farmer0), [Gandoren](../monsters/gandoren.md), [Kuldan](../monsters/kuldan.md), [Landa](../monsters/landa.md), [Minarra](../monsters/minarra.md) +6 |
-| **Locations** | [fields0](../maps/fields0.md), [houseatcrossroads4](../maps/houseatcrossroads4.md), [loneford1](../maps/loneford1.md), [loneford2](../maps/loneford2.md) |
+| **Locations** | [Fields 0](../maps/fields0.md), [Houseatcrossroads 4](../maps/houseatcrossroads4.md), [Loneford 1](../maps/loneford1.md), [Loneford 2](../maps/loneford2.md) |
 | **Total XP** | 30,000 |
 | **Related quests** | 5 |
 
@@ -30,24 +30,24 @@ description: "Flows through the veins is a quest in Andor's Trail, started by Ga
 - reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25)
 - NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21)
 
-**Route 2** ([Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))):
+**Route 2** ([Minarra](../monsters/minarra.md) ([Houseatcrossroads 4](../maps/houseatcrossroads4.md))):
 
 - reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20)
 - NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21)
 
-**Route 3** ([Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))):
+**Route 3** ([Farmer](../monsters/farmer.md#v-loneford_farmer0) ([Loneford 1](../maps/loneford1.md))):
 
 - nothing
 
-**Route 4** ([Villager](../monsters/loneford_villager0.md) ([loneford2](../maps/loneford2.md))):
+**Route 4** ([Villager](../monsters/loneford_villager0.md) ([Loneford 2](../maps/loneford2.md))):
 
 - nothing
 
-**Route 5** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md))):
+**Route 5** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([Loneford 2](../maps/loneford2.md))):
 
 - nothing
 
-**Route 6** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md))):
+**Route 6** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([Loneford 2](../maps/loneford2.md))):
 
 - nothing
 
@@ -65,121 +65,289 @@ description: "Flows through the veins is a quest in Andor's Trail, started by Ga
 | Requires | [The path is clear to me](rogorn.md#stage-20) | stage 20 reached, for stages 10, 11, 21 here |
 | Unlocks | [Search for Andor](andor.md#stage-61) | stage 61 there needs stage 45 here |
 | Unlocks | [Search for Andor](andor.md#stage-62) | stage 62 there needs stage 45 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-19) | stage 19 there needs stage 55 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-19) | stage 19 there needs stage 55 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
-| <span id="stage-11"></span>11 | I should investigate what could have caused the people of Loneford to become ill. To gather clues, I should ask the citizens of Loneford and the surrounding areas about what they think is the cause. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
-| <span id="stage-21"></span>21 | The guards in the Crossroads guardhouse are certain that the illness in Loneford is caused by some sabotage done by the priests or people from Nor City. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | – | – |
-| <span id="stage-22"></span>22 | Some villagers in Loneford believe that the illness is caused by the guards from Feygard, in some scheme to make the people suffer even more than they already have. | [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) | stage 11 | – |
-| <span id="stage-23"></span>23 | Talion, the chapel priest in Loneford, thinks that the illness is the work of the Shadow, as punishment for Loneford's lack of devotion to the Shadow. | [Talion](../monsters/talion.md) | stage 11 | – |
-| <span id="stage-24"></span>24 | Taevinn in Loneford is certain that Sienn in the southeast barn has something to do with the illness. Apparently, Sienn keeps a pet around that has approached Taevinn in a threatening manner several times. | [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) | stage 11 | – |
-| <span id="stage-25"></span>25 | I should go see Landa in the Loneford tavern. Rumor has it that he saw something that he doesn't dare tell anyone. | [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md))<br>[Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md))<br>[Talion](../monsters/talion.md) | stage 11, stage 21, stage 22, stage 23, stage 24 | – |
-| <span id="stage-30"></span>30 | Landa confused me with someone else at first. He apparently saw a boy doing something around the town well during the night before the illness started. He was scared to talk to me at first since he thought I looked like the boy he had seen. Could it have been Andor that he saw? | [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) | stage 25 | – |
-| <span id="stage-31"></span>31 | Also, the night after he saw the boy at the well, he saw Buceth taking samples of the water in the well. Strangely enough, Buceth has not gotten ill like the others in the village. | [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) | stage 25 | – |
-| <span id="stage-35"></span>35 | I should go question Buceth at the Loneford chapel about what he was doing at the well, and about whether he knows anything about Andor. | [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) | stage 25 | – |
-| <span id="stage-41"></span>41 | I have bribed Buceth into talking to me. | [Buceth](../monsters/buceth.md) | pay 1,000 gold, stage 35 | – |
-| <span id="stage-42"></span>42 | I have told Buceth that I am ready to follow the Shadow. | [Buceth](../monsters/buceth.md) | stage 35 | – |
-| <span id="stage-45"></span>45 | Buceth tells me that he is assigned by the priests in Nor City to make sure the Shadow casts its glow over Loneford. Apparently, the priests had sent a boy to do some business in Loneford, and Buceth was tasked with gathering some samples from the water well. | [Buceth](../monsters/buceth.md) | – | – |
-| <span id="stage-50"></span>50 | I have attacked Buceth. I should bring any evidence that Buceth has on him to Kuldan, the guard captain in the longhouse in Loneford. | [Buceth](../monsters/buceth.md) | – | – |
-| <span id="stage-54"></span>54 | I have given the vial that Buceth had on him to Kuldan, the guard captain in Loneford. | [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) | – | – |
-| <span id="stage-55"></span>55 | Kuldan thanked me for solving the mystery of the illness in Loneford. They will start bringing in water with help from Feygard instead of drinking from the well from now on. Kuldan also told me to visit the castle steward in Feygard if I want to help further. **(completes quest)** | [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) | stage 54 | 15,000 XP |
-| <span id="stage-60"></span>60 | I have promised to keep Buceth's story a secret. If Andor was indeed here, he must have had a good reason for doing what he did. Buceth also told me to visit the chapel custodian in Nor City if I want to learn more about the Shadow. **(completes quest)** | [Buceth](../monsters/buceth.md) | stage 45 | 15,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I heard a story about Loneford. Apparently, a lot of people have… ▸</span><span class="l">▴ less</span></summary>I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown.</details> | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) +6 | – |
+| <span id="stage-11"></span>[11](#route-11) | <details class="jt"><summary><span class="s">I should investigate what could have caused the people of Loneford… ▸</span><span class="l">▴ less</span></summary>I should investigate what could have caused the people of Loneford to become ill. To gather clues, I should ask the citizens of Loneford and the surrounding areas about what they think is the cause.</details> | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) +6 | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">The guards in the Crossroads guardhouse are certain that the illness… ▸</span><span class="l">▴ less</span></summary>The guards in the Crossroads guardhouse are certain that the illness in Loneford is caused by some sabotage done by the priests or people from Nor City.</details> | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | <details class="jt"><summary><span class="s">Some villagers in Loneford believe that the illness is caused by the… ▸</span><span class="l">▴ less</span></summary>Some villagers in Loneford believe that the illness is caused by the guards from Feygard, in some scheme to make the people suffer even more than they already have.</details> | [Rolwynn](../monsters/rolwynn.md) | – |
+| <span id="stage-23"></span>[23](#route-23) | <details class="jt"><summary><span class="s">Talion, the chapel priest in Loneford, thinks that the illness is… ▸</span><span class="l">▴ less</span></summary>Talion, the chapel priest in Loneford, thinks that the illness is the work of the Shadow, as punishment for Loneford's lack of devotion to the Shadow.</details> | [Talion](../monsters/talion.md) | – |
+| <span id="stage-24"></span>[24](#route-24) | <details class="jt"><summary><span class="s">Taevinn in Loneford is certain that Sienn in the southeast barn has… ▸</span><span class="l">▴ less</span></summary>Taevinn in Loneford is certain that Sienn in the southeast barn has something to do with the illness. Apparently, Sienn keeps a pet around that has approached Taevinn in a threatening manner several times.</details> | [Taevinn](../monsters/taevinn.md) | – |
+| <span id="stage-25"></span>[25](#route-25) | <details class="jt"><summary><span class="s">I should go see Landa in the Loneford tavern. Rumor has it that he… ▸</span><span class="l">▴ less</span></summary>I should go see Landa in the Loneford tavern. Rumor has it that he saw something that he doesn't dare tell anyone.</details> | [Rolwynn](../monsters/rolwynn.md), [Taevinn](../monsters/taevinn.md) +1 | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Landa confused me with someone else at first. He apparently saw a… ▸</span><span class="l">▴ less</span></summary>Landa confused me with someone else at first. He apparently saw a boy doing something around the town well during the night before the illness started. He was scared to talk to me at first since he thought I looked like the boy he had seen. Could it have been Andor that he saw?</details> | [Landa](../monsters/landa.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | <details class="jt"><summary><span class="s">Also, the night after he saw the boy at the well, he saw Buceth… ▸</span><span class="l">▴ less</span></summary>Also, the night after he saw the boy at the well, he saw Buceth taking samples of the water in the well. Strangely enough, Buceth has not gotten ill like the others in the village.</details> | [Landa](../monsters/landa.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">I should go question Buceth at the Loneford chapel about what he was… ▸</span><span class="l">▴ less</span></summary>I should go question Buceth at the Loneford chapel about what he was doing at the well, and about whether he knows anything about Andor.</details> | [Landa](../monsters/landa.md) | – |
+| <span id="stage-41"></span>[41](#route-41) | I have bribed Buceth into talking to me. | [Buceth](../monsters/buceth.md) | – |
+| <span id="stage-42"></span>[42](#route-42) | I have told Buceth that I am ready to follow the Shadow. | [Buceth](../monsters/buceth.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">Buceth tells me that he is assigned by the priests in Nor City to… ▸</span><span class="l">▴ less</span></summary>Buceth tells me that he is assigned by the priests in Nor City to make sure the Shadow casts its glow over Loneford. Apparently, the priests had sent a boy to do some business in Loneford, and Buceth was tasked with gathering some samples from the water well.</details> | [Buceth](../monsters/buceth.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I have attacked Buceth. I should bring any evidence that Buceth has… ▸</span><span class="l">▴ less</span></summary>I have attacked Buceth. I should bring any evidence that Buceth has on him to Kuldan, the guard captain in the longhouse in Loneford.</details> | [Buceth](../monsters/buceth.md) | – |
+| <span id="stage-54"></span>[54](#route-54) | <details class="jt"><summary><span class="s">I have given the vial that Buceth had on him to Kuldan, the guard… ▸</span><span class="l">▴ less</span></summary>I have given the vial that Buceth had on him to Kuldan, the guard captain in Loneford.</details> | [Kuldan](../monsters/kuldan.md) | – |
+| <span id="stage-55"></span>[55](#route-55) | <details class="jt"><summary><span class="s">Kuldan thanked me for solving the mystery of the illness in… ▸</span><span class="l">▴ less</span></summary>Kuldan thanked me for solving the mystery of the illness in Loneford. They will start bringing in water with help from Feygard instead of drinking from the well from now on. Kuldan also told me to visit the castle steward in Feygard if I want to help further.</details> **(ends quest)** | [Kuldan](../monsters/kuldan.md) | 15,000 XP |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I have promised to keep Buceth's story a secret. If Andor was indeed… ▸</span><span class="l">▴ less</span></summary>I have promised to keep Buceth's story a secret. If Andor was indeed here, he must have had a good reason for doing what he did. Buceth also told me to visit the chapel custodian in Nor City if I want to learn more about the Shadow.</details> **(ends quest)** | [Buceth](../monsters/buceth.md) | 15,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 8 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Gandoren](../monsters/gandoren.md) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 10**. NPC: “Everyone started investigating what could be the cause. Currently, the cause is still unknown.”
-    2. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 10**. NPC: “Everyone started investigating what could be the cause. Currently, the cause is still unknown.”
-    3. Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    4. Talk to [Villager](../monsters/loneford_villager0.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    5. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    6. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    7. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    8. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
+??? note "Stage 10 · Gandoren, Minarra, Farmer, Villager, Rolwynn, Taevinn · 8 ways"
 
-???+ note "Stage 11: 8 routes"
+    **Way 1:** Talk to [Gandoren](../monsters/gandoren.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
 
-    1. Talk to [Gandoren](../monsters/gandoren.md) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering…”
-    2. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering…”
-    3. Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    4. Talk to [Villager](../monsters/loneford_villager0.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    5. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    6. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    7. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    8. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
+    - **Needs:** not yet stage 21; reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25)
+    - *“Everyone started investigating what could be the cause. Currently, the cause is still unknown.”*
 
-???+ note "Stage 21: 2 routes"
+    **Way 2:** Talk to [Minarra](../monsters/minarra.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
 
-    1. Talk to [Gandoren](../monsters/gandoren.md) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 21**. NPC: “I tell you. Savages - that's what they are. No respect for the laws or authority.”
-    2. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 21**. NPC: “I tell you. Savages - that's what they are. No respect for the laws or authority.”
+    - **Needs:** not yet stage 21; reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20)
+    - *“Everyone started investigating what could be the cause. Currently, the cause is still unknown.”*
 
-???+ note "Stage 22: 1 route"
+    **Way 3:** Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0), choose “What illness?”
 
-    1. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What do you think is the cause of the illness?” — **conditions:** reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11) → **stage 22**. NPC: “I am sure that they did something to us as punishment for not following their *rules*. They are always talking about…”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 23: 1 route"
+    **Way 4:** Talk to [Villager](../monsters/loneford_villager0.md), choose “What illness?”
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Do you know anything about the illness here in Loneford?” — **conditions:** reached stage 51 of [I have it in me](../quests/maggots.md#stage-51); reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11) → **stage 23**. NPC: “My feeling is that this illness is caused by the Shadow, as punishment to all of us here in Loneford.”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 24: 1 route"
+    **Way 5:** Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1), choose “What illness?”
 
-    1. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “Do you know anything about the illness?” — **conditions:** reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11) → **stage 24**. NPC: “I tell you, there's mischief all around him and that thing he keeps around. I am sure they are up to something. They…”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 25: 3 routes"
+    **Way 6:** Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3), choose “What illness?”
 
-    1. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What do you think is the cause of the illness?” — **conditions:** reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11); reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21); reached stage 22 of [Flows through the veins](../quests/loneford.md#stage-22); reached stage 23 of [Flows through the veins](../quests/loneford.md#stage-23); reached stage 24 of [Flows through the veins](../quests/loneford.md#stage-24) → **stage 25**. NPC: “There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but…”
-    2. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “Do you know anything about the illness?” — **conditions:** reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11); reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21); reached stage 22 of [Flows through the veins](../quests/loneford.md#stage-22); reached stage 23 of [Flows through the veins](../quests/loneford.md#stage-23); reached stage 24 of [Flows through the veins](../quests/loneford.md#stage-24) → **stage 25**. NPC: “There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but…”
-    3. Talk to [Talion](../monsters/talion.md) → choose “Do you know anything about the illness here in Loneford?” — **conditions:** reached stage 51 of [I have it in me](../quests/maggots.md#stage-51); reached stage 11 of [Flows through the veins](../quests/loneford.md#stage-11); reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21); reached stage 22 of [Flows through the veins](../quests/loneford.md#stage-22); reached stage 23 of [Flows through the veins](../quests/loneford.md#stage-23); reached stage 24 of [Flows through the veins](../quests/loneford.md#stage-24) → **stage 25**. NPC: “There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but…”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 30: 1 route"
+    **Way 7:** Talk to [Rolwynn](../monsters/rolwynn.md), choose “What illness?”
 
-    1. Talk to [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) → choose “When was this?” — **conditions:** reached stage 25 of [Flows through the veins](../quests/loneford.md#stage-25) → **stage 30**. NPC: “Almost the whole village wanted to see what had happened to Hesor. I kept to myself and didn't dare talk to anyone.”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 31: 1 route"
+    **Way 8:** Talk to [Taevinn](../monsters/taevinn.md), choose “What illness?”
 
-    1. Talk to [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) → choose “When was this?” — **conditions:** reached stage 25 of [Flows through the veins](../quests/loneford.md#stage-25) → **stage 31**. NPC: “Also, isn't it strange how Buceth has not gotten ill, while all the others in the village have gotten ill?”
+    - *“We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our suspicions.”*
 
-???+ note "Stage 35: 1 route"
 
-    1. Talk to [Landa](../monsters/landa.md) ([loneford6](../maps/loneford6.md)) → choose “When was this?” — **conditions:** reached stage 25 of [Flows through the veins](../quests/loneford.md#stage-25) → **stage 35**. NPC: “He must be up to something. He and that boy that looked like you. Are you sure it wasn't you?”
+<span id="route-11"></span>
 
-???+ note "Stage 41: 1 route"
+??? note "Stage 11 · Gandoren, Minarra, Farmer, Villager, Rolwynn, Taevinn · 8 ways"
 
-    1. Talk to [Buceth](../monsters/buceth.md) → choose “Here's 1,000 gold, take it.” — **conditions:** reached stage 35 of [Flows through the veins](../quests/loneford.md#stage-35); pay 1,000 gold → **stage 41**. NPC: “You seem to realize the true value of the Shadow. Yes, this will do fine, thank you.”
+    **Way 1:** Talk to [Gandoren](../monsters/gandoren.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
 
-???+ note "Stage 42: 1 route"
+    - **Needs:** not yet stage 21; reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25)
+    - *“Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering though.”*
 
-    1. Talk to [Buceth](../monsters/buceth.md) → choose “I am ready to follow the Shadow.” — **conditions:** reached stage 35 of [Flows through the veins](../quests/loneford.md#stage-35) → **stage 42**. NPC: “I am glad to hear that, but then again, I had a feeling all along that you would say that.”
+    **Way 2:** Talk to [Minarra](../monsters/minarra.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
 
-???+ note "Stage 45: 1 route"
+    - **Needs:** not yet stage 21; reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20)
+    - *“Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering though.”*
 
-    1. Talk to [Buceth](../monsters/buceth.md) → choose “Do you know where he went after he left Loneford?” — **conditions:** reached stage 45 of [Flows through the veins](../quests/loneford.md#stage-45) → **stage 45**. NPC: “Apparently, the boy they sent was successful in his mission. The task that I did was also successful, if I may say so…”
+    **Way 3:** Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0), choose “What illness?”
 
-???+ note "Stage 50: 1 route"
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
 
-    1. Talk to [Buceth](../monsters/buceth.md) → the conversation leads here automatically — **conditions:** reached stage 50 of [Flows through the veins](../quests/loneford.md#stage-50) → **stage 50**. NPC: “Infidel, you will not defeat me! For the Shadow!”
+    **Way 4:** Talk to [Villager](../monsters/loneford_villager0.md), choose “What illness?”
 
-???+ note "Stage 54: 1 route"
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
 
-    1. Talk to [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) → the conversation leads here automatically — **conditions:** reached stage 54 of [Flows through the veins](../quests/loneford.md#stage-54) → **stage 54**. NPC: “What is this? This smells like Narwood poison. You say you retrieved this from Buceth?”
+    **Way 5:** Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1), choose “What illness?”
 
-???+ note "Stage 55: 1 route"
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
 
-    1. Talk to [Kuldan](../monsters/kuldan.md) ([loneford3](../maps/loneford3.md)) → choose “He is already dead.” — **conditions:** reached stage 54 of [Flows through the veins](../quests/loneford.md#stage-54) → **stage 55**. NPC: “For the glory of Feygard, the people of Loneford may live on thanks to your help.”
+    **Way 6:** Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3), choose “What illness?”
 
-???+ note "Stage 60: 2 routes"
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
 
-    1. Talk to [Buceth](../monsters/buceth.md) → choose “Absolutely. Walk with the Shadow.” — **conditions:** reached stage 45 of [Flows through the veins](../quests/loneford.md#stage-45) → **stage 60**. NPC: “Thank you, my friend.”
-    2. Talk to [Buceth](../monsters/buceth.md) → the conversation leads here automatically — **conditions:** reached stage 60 of [Flows through the veins](../quests/loneford.md#stage-60) → **stage 60**. NPC: “If you want to learn more about the Shadow, please visit the chapel custodian in Nor City. Tell them I sent you, and…”
+    **Way 7:** Talk to [Rolwynn](../monsters/rolwynn.md), choose “What illness?”
+
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
+
+    **Way 8:** Talk to [Taevinn](../monsters/taevinn.md), choose “What illness?”
+
+    - *“Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and we fear who will be…”*
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Gandoren, Minarra · 2 ways"
+
+    **Way 1:** Talk to [Gandoren](../monsters/gandoren.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
+
+    - **Needs:** not yet stage 21; reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25)
+    - *“I tell you. Savages - that's what they are. No respect for the laws or authority.”*
+
+    **Way 2:** Talk to [Minarra](../monsters/minarra.md), choose “I'd rather talk about the troubles in Loneford that you had mentioned.”
+
+    - **Needs:** not yet stage 21; reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20)
+    - *“I tell you. Savages - that's what they are. No respect for the laws or authority.”*
+
+
+<span id="route-22"></span>
+
+??? note "Stage 22 · Rolwynn · 1 way"
+
+    **Way 1:** Talk to [Rolwynn](../monsters/rolwynn.md), choose “What do you think is the cause of the illness?”
+
+    - **Needs:** stage 11
+    - *“I am sure that they did something to us as punishment for not following their *rules*. They are always talking about how the laws and…”*
+
+
+<span id="route-23"></span>
+
+??? note "Stage 23 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Do you know anything about the illness here in Loneford?”
+
+    - **Needs:** stage 11; reached stage 51 of [I have it in me](../quests/maggots.md#stage-51)
+    - *“My feeling is that this illness is caused by the Shadow, as punishment to all of us here in Loneford.”*
+
+
+<span id="route-24"></span>
+
+??? note "Stage 24 · Taevinn · 1 way"
+
+    **Way 1:** Talk to [Taevinn](../monsters/taevinn.md), choose “Do you know anything about the illness?”
+
+    - **Needs:** stage 11
+    - *“I tell you, there's mischief all around him and that thing he keeps around. I am sure they are up to something. They probably caused this…”*
+
+
+<span id="route-25"></span>
+
+??? note "Stage 25 · Rolwynn, Taevinn, Talion · 3 ways"
+
+    **Way 1:** Talk to [Rolwynn](../monsters/rolwynn.md), choose “What do you think is the cause of the illness?”
+
+    - **Needs:** stage 11, 21, 22, 23, 24
+    - *“There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but didn't dare tell me…”*
+
+    **Way 2:** Talk to [Taevinn](../monsters/taevinn.md), choose “Do you know anything about the illness?”
+
+    - **Needs:** stage 11, 21, 22, 23, 24
+    - *“There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but didn't dare tell me…”*
+
+    **Way 3:** Talk to [Talion](../monsters/talion.md), choose “Do you know anything about the illness here in Loneford?”
+
+    - **Needs:** stage 11, 21, 22, 23, 24; reached stage 51 of [I have it in me](../quests/maggots.md#stage-51)
+    - *“There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but didn't dare tell me…”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Landa · 1 way"
+
+    **Way 1:** Talk to [Landa](../monsters/landa.md), choose “When was this?”
+
+    - **Needs:** stage 25
+    - *“Almost the whole village wanted to see what had happened to Hesor. I kept to myself and didn't dare talk to anyone.”*
+
+
+<span id="route-31"></span>
+
+??? note "Stage 31 · Landa · 1 way"
+
+    **Way 1:** Talk to [Landa](../monsters/landa.md), choose “When was this?”
+
+    - **Needs:** stage 25
+    - *“Also, isn't it strange how Buceth has not gotten ill, while all the others in the village have gotten ill?”*
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · Landa · 1 way"
+
+    **Way 1:** Talk to [Landa](../monsters/landa.md), choose “When was this?”
+
+    - **Needs:** stage 25
+    - *“He must be up to something. He and that boy that looked like you. Are you sure it wasn't you?”*
+
+
+<span id="route-41"></span>
+
+??? note "Stage 41 · Buceth · 1 way"
+
+    **Way 1:** Talk to [Buceth](../monsters/buceth.md), choose “Here's 1,000 gold, take it.”
+
+    - **Needs:** stage 35; pay 1,000 gold
+    - *“You seem to realize the true value of the Shadow. Yes, this will do fine, thank you.”*
+
+
+<span id="route-42"></span>
+
+??? note "Stage 42 · Buceth · 1 way"
+
+    **Way 1:** Talk to [Buceth](../monsters/buceth.md), choose “I am ready to follow the Shadow.”
+
+    - **Needs:** stage 35
+    - *“I am glad to hear that, but then again, I had a feeling all along that you would say that.”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Buceth · 1 way"
+
+    **Way 1:** Talk to [Buceth](../monsters/buceth.md), choose “Do you know where he went after he left Loneford?”
+
+    - **Needs:** stage 45
+    - *“Apparently, the boy they sent was successful in his mission. The task that I did was also successful, if I may say so myself.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Buceth · 1 way"
+
+    **Way 1:** Talk to [Buceth](../monsters/buceth.md), automatic
+
+    - **Needs:** stage 50
+    - *“Infidel, you will not defeat me! For the Shadow!”*
+
+
+<span id="route-54"></span>
+
+??? note "Stage 54 · Kuldan · 1 way"
+
+    **Way 1:** Talk to [Kuldan](../monsters/kuldan.md), automatic
+
+    - **Needs:** stage 54
+    - *“What is this? This smells like Narwood poison. You say you retrieved this from Buceth?”*
+
+
+<span id="route-55"></span>
+
+??? note "Stage 55 · Kuldan · 1 way"
+
+    **Way 1:** Talk to [Kuldan](../monsters/kuldan.md), choose “He is already dead.”
+
+    - **Needs:** stage 54
+    - *“For the glory of Feygard, the people of Loneford may live on thanks to your help.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Buceth · 2 ways"
+
+    **Way 1:** Talk to [Buceth](../monsters/buceth.md), choose “Absolutely. Walk with the Shadow.”
+
+    - **Needs:** stage 45
+    - *“Thank you, my friend.”*
+
+    **Way 2:** Talk to [Buceth](../monsters/buceth.md), automatic
+
+    - **Needs:** stage 60
+    - *“If you want to learn more about the Shadow, please visit the chapel custodian in Nor City. Tell them I sent you, and they will surely…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

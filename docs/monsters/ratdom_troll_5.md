@@ -1,10 +1,10 @@
 ---
-description: "Dangerous ogre is an enemy in Andor's Trail (giant) with 380 HP, worth 559 XP, found in ratdom_maze_517a. Drops: Gold coins, Iron club."
+description: "Dangerous ogre is an enemy in Andor's Trail (giant) with 380 HP, worth 559 XP, found in Ratdom maze 517a. Drops: Gold coins, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_14.png){ .sprite } Dangerous ogre
 
-**Found in:** [ratdom_maze_517a](../maps/ratdom_maze_517a.md)
+**Found in:** [Ratdom maze 517a](../maps/ratdom_maze_517a.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dangerous ogre is an enemy in Andor's Trail (giant) with 380 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | ratdom_maze_517a |
+| **Found in** | Ratdom maze 517a |
 | **Class** | Giant |
 | **HP** | 380 |
 | **XP when defeated** | 559 |
@@ -57,11 +57,11 @@ description: "Dangerous ogre is an enemy in Andor's Trail (giant) with 380 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_517a](../maps/ratdom_maze_517a.md) | – | 10 | – |
+| [Ratdom maze 517a](../maps/ratdom_maze_517a.md) | – | 10 | – |
 
 ## Quests that count defeats
 
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-166) with stepping on a trigger on [ratdom_maze_517a](../maps/ratdom_maze_517a.md) checks that at least 10 of these enemies have been defeated.
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-166) with stepping on a trigger on [Ratdom maze 517a](../maps/ratdom_maze_517a.md) checks that at least 10 of these enemies have been defeated.
 
 
 ## Version history

@@ -21,18 +21,18 @@ description: "Feygard patrol watch is an NPC who can also be fought in Andor's T
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Feygard patrol watch. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Feygard patrol watch. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`feygard_patrol_watch`](#v-feygard_patrol_watch) | NPC/Enemy | Foaming Flask Tavern: [road1](../maps/road1.md#pin-npc-feygard_patrol_watch) | – | 80 |
-| [`ratdom_ff_guard`](#v-ratdom_ff_guard) | NPC/Enemy | Pub: [ratdom_maze_412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard) | – | 80 |
+| [`feygard_patrol_watch`](#v-feygard_patrol_watch) | NPC/Enemy | Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-feygard_patrol_watch) | – | 80 |
+| [`ratdom_ff_guard`](#v-ratdom_ff_guard) | NPC/Enemy | Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard) | – | 80 |
 
-## Foaming Flask Tavern, Road1 (feygard_patrol_watch) { #v-feygard_patrol_watch }
+## Foaming Flask Tavern, Road 1 (feygard_patrol_watch) { #v-feygard_patrol_watch }
 
 **Entry ID:** `feygard_patrol_watch` · **Type:** NPC/Enemy
 
-**Location:** Foaming Flask Tavern: [road1](../maps/road1.md#pin-npc-feygard_patrol_watch)
+**Location:** Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-feygard_patrol_watch)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -72,7 +72,7 @@ description: "Feygard patrol watch is an NPC who can also be fought in Andor's T
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [road1](../maps/road1.md) | Foaming Flask Tavern | 1 | – |
+| [Road 1](../maps/road1.md) | Foaming Flask Tavern | 1 | – |
 
 ### Quests
 
@@ -80,7 +80,7 @@ description: "Feygard patrol watch is an NPC who can also be fought in Andor's T
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard patrol watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard patrol watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ff_outsideguard_select.json" data-npc="Feygard patrol watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -88,7 +88,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (26 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-feygard_patrol_watch-ff_outsideguard_select"></span>**`ff_outsideguard_select`** *(silent check: the first matching branch below is taken)*
 
@@ -264,7 +264,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_ff_guard` · **Type:** NPC/Enemy
 
-**Location:** Pub: [ratdom_maze_412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard)
+**Location:** Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -301,15 +301,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
+| [Ratdom maze 412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
 
 ### Quests that count defeats
 
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-173) with walking into a blocked passage on [ratdom_maze_412](../maps/ratdom_maze_412.md) checks that this enemy has been defeated.
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-173) with walking into a blocked passage on [Ratdom maze 412](../maps/ratdom_maze_412.md) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard patrol watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard patrol watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_ff_guard.json" data-npc="Feygard patrol watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -317,7 +317,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_ff_guard-ratdom_ff_guard"></span>**`ratdom_ff_guard`** *(silent check: the first matching branch below is taken)*
 

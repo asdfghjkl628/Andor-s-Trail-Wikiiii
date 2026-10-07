@@ -4,7 +4,7 @@ description: "Grasslands lizard is an enemy in Andor's Trail (reptile) with 45 H
 
 # ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } Grasslands lizard
 
-**Found in:** Crossroads Guardhouse: [fields2](../maps/fields2.md)
+**Found in:** Crossroads Guardhouse: [Fields 2](../maps/fields2.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Grasslands lizard is an enemy in Andor's Trail (reptile) with 45 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
+| [Fields 2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
 
 
 ## Version history

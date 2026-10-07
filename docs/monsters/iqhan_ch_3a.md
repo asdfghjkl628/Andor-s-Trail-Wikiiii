@@ -1,5 +1,5 @@
 ---
-description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83–85 HP, worth 273–275 XP, found in pwcave2a, pwcave3, pwcave4. Drops: Gold coins, Iqhan pendant, Crude cloth gloves, Iron dagger."
+description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83–85 HP, worth 273–275 XP, found in Pwcave 2a, Pwcave 3, Pwcave 4. Drops: Gold coins, Iqhan pendant, Crude cloth gloves, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_136.png){ .sprite } Iqhan chaos master
@@ -11,7 +11,7 @@ description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave2a, pwcave3, pwcave4 |
+| **Found in** | Pwcave 2a, Pwcave 3, Pwcave 4 |
 | **Class** | Humanoid |
 | **HP** | 83–85 |
 | **XP when defeated** | 273–275 |
@@ -21,18 +21,18 @@ description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Iqhan chaos master. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Iqhan chaos master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`iqhan_ch_3a`](#v-iqhan_ch_3a) | Enemy | [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md) (+1 more) | – | 83 |
-| [`iqhan_ch_3b`](#v-iqhan_ch_3b) | Enemy | [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md) (+1 more) | – | 85 |
+| [`iqhan_ch_3a`](#v-iqhan_ch_3a) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md) (+1 more) | – | 83 |
+| [`iqhan_ch_3b`](#v-iqhan_ch_3b) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md) (+1 more) | – | 85 |
 
-## Pwcave2a and 2 more (iqhan_ch_3a) { #v-iqhan_ch_3a }
+## Pwcave 2a and 2 more (iqhan_ch_3a) { #v-iqhan_ch_3a }
 
 **Entry ID:** `iqhan_ch_3a` · **Type:** Enemy
 
-**Location:** [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -72,9 +72,9 @@ description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 2 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 10 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 2 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 10 | – |
 
 
 ### Version history
@@ -136,11 +136,11 @@ description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83
     ```
 
 
-## Pwcave2a and 2 more (iqhan_ch_3b) { #v-iqhan_ch_3b }
+## Pwcave 2a and 2 more (iqhan_ch_3b) { #v-iqhan_ch_3b }
 
 **Entry ID:** `iqhan_ch_3b` · **Type:** Enemy
 
-**Location:** [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -180,9 +180,9 @@ description: "Iqhan chaos master is an enemy in Andor's Trail (humanoid) with 83
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 2 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 10 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 2 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 10 | – |
 
 
 ### Version history

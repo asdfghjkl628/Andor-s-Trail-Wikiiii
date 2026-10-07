@@ -12,7 +12,7 @@ description: "Vilegard south-west is an outdoor location in Andor's Trail, near 
 | **Region** | Near Vilegard (settlement) |
 | **Type** | Outdoors |
 | **Size** | 10×10 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Quests** | 0 |
 

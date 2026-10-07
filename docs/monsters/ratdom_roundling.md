@@ -21,19 +21,19 @@ description: "Roundling is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Roundling. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Roundling. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ratdom_roundling`](#v-ratdom_roundling) | NPC/Enemy | Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling) | – | 200 |
-| [`ratdom_roundling2`](#v-ratdom_roundling2) | NPC/Enemy | Entry: [ratdom_maze_448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2) | – | 200 |
-| [`ratdom_roundling3`](#v-ratdom_roundling3) | Enemy | Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md) | – | 200 |
+| [`ratdom_roundling`](#v-ratdom_roundling) | NPC/Enemy | Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling) | – | 200 |
+| [`ratdom_roundling2`](#v-ratdom_roundling2) | NPC/Enemy | Entry: [Ratdom maze 448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2) | – | 200 |
+| [`ratdom_roundling3`](#v-ratdom_roundling3) | Enemy | Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md) | – | 200 |
 
 ## Roundlings, Ratdom maze 627 (ratdom_roundling) { #v-ratdom_roundling }
 
 **Entry ID:** `ratdom_roundling` · **Type:** NPC/Enemy
 
-**Location:** Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling)
+**Location:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -64,11 +64,11 @@ description: "Roundling is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_627](../maps/ratdom_maze_627.md) | Roundlings | 2 | – |
+| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Roundling. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Roundling. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_roundling.json" data-npc="Roundling" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_roundling-ratdom_roundling"></span>**`ratdom_roundling`** Roundling: “If strangers come hither to gain our treasure, their hope is in vain. In the darkest deep ground, with our Yellow Round, their bones will forever remain.”
 
@@ -141,7 +141,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_roundling2` · **Type:** NPC/Enemy
 
-**Location:** Entry: [ratdom_maze_448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2)
+**Location:** Entry: [Ratdom maze 448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -172,16 +172,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_448](../maps/ratdom_maze_448.md) | Entry | 5 | Appears later, during a quest |
+| [Ratdom maze 448](../maps/ratdom_maze_448.md) | Entry | 5 | Appears later, during a quest |
 
 ### Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): stage 960
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stage 13
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stage 13
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Roundling. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Roundling. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_roundling2.json" data-npc="Roundling" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -189,7 +189,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_roundling2-ratdom_roundling2"></span>**`ratdom_roundling2`** Roundling: “A thief who thinks to get through with our treasure, is due to give his life upon a strife, and all his stolen goods too.”
 
@@ -211,7 +211,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “If you think so, then let's attack!” → [ratdom_roundling2_90](#d-ratdom_roundling2-ratdom_roundling2_90)
     - “Die you will, if you can't let go of it. I will leave it behind.” → [ratdom_roundling2_20](#d-ratdom_roundling2-ratdom_roundling2_20)
 
-    <span id="d-ratdom_roundling2-ratdom_roundling2_20"></span>**`ratdom_roundling2_20`** Roundling: “I see. I thought you were braver. Go then, I don't want to see you again!” — **effects:** sets stage 960 of [Yellow is it](../quests/ratdom_quest.md#stage-960), clears stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), clears stage 11 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-11), sets stage 13 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-13), removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_448, removes monsters from home, removes monsters from ratdom_bwm1
+    <span id="d-ratdom_roundling2-ratdom_roundling2_20"></span>**`ratdom_roundling2_20`** Roundling: “I see. I thought you were braver. Go then, I don't want to see you again!” — **effects:** sets stage 960 of [Yellow is it](../quests/ratdom_quest.md#stage-960), clears stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), clears stage 11 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-11), sets stage 13 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-13), removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_448, removes monsters from home, removes monsters from ratdom_bwm1
 
 
 
@@ -265,7 +265,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_roundling3` · **Type:** Enemy
 
-**Location:** Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md)
+**Location:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md)
 
 ### Combat statistics
 
@@ -293,7 +293,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_627](../maps/ratdom_maze_627.md) | Roundlings | 2 | Appears later, during a quest |
+| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | Appears later, during a quest |
 
 
 ### Version history

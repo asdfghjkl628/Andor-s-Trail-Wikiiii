@@ -19,18 +19,18 @@ description: "Blornvale is a non-player character (NPC) in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Blornvale. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Blornvale. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`stoutford_alchemist`](#v-stoutford_alchemist) | NPC | Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist) | shopkeeper |
-| [`stoutford_alchemist2`](#v-stoutford_alchemist2) | NPC | Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2) | shopkeeper |
+| [`stoutford_alchemist`](#v-stoutford_alchemist) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist) | shopkeeper |
+| [`stoutford_alchemist2`](#v-stoutford_alchemist2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2) | shopkeeper |
 
 ## Stoutford, Stoutford potion (stoutford_alchemist) { #v-stoutford_alchemist }
 
 **Entry ID:** `stoutford_alchemist` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist)
+**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist)
 
 ### Shop stock
 
@@ -42,11 +42,11 @@ description: "Blornvale is a non-player character (NPC) in Andor's Trail, found 
 ### Quests
 
 - [The thorns of vengeance](../quests/thorns_vengeance.md): stages 70, 71, 72, 74, 75, 80
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 201, 202
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 201, 202
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blornvale. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blornvale. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blornvale_select_0.json" data-npc="Blornvale" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -54,7 +54,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (39 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_alchemist-blornvale_select_0"></span>**`blornvale_select_0`** *(silent check: the first matching branch below is taken)*
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 4 *(if reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71))* → [blornvale_thorns70_20](#d-stoutford_alchemist-blornvale_thorns70_20)
     - branch 5 *(if reached stage 70 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-70))* → [blornvale_thorns70](#d-stoutford_alchemist-blornvale_thorns70)
     - branch 6 *(if carry 1× [Potion of truth](../items/potion_truth.md))* → [blornvale_thorns50](#d-stoutford_alchemist-blornvale_thorns50)
-    - branch 7 *(if reached stage 202 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → [blornvale_select_1](#d-stoutford_alchemist-blornvale_select_1)
+    - branch 7 *(if reached stage 202 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → [blornvale_select_1](#d-stoutford_alchemist-blornvale_select_1)
     - branch 8 → [blornvale_select_2](#d-stoutford_alchemist-blornvale_select_2)
 
     <span id="d-stoutford_alchemist-blornvale_thorns72_90"></span>**`blornvale_thorns72_90`** Blornvale: “And you child, go away now and tell no more fairy tales.” — **effects:** sets stage 75 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-75)
@@ -100,7 +100,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-stoutford_alchemist-blornvale_select_2"></span>**`blornvale_select_2`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 202 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → [blornvale_shop2](#d-stoutford_alchemist-blornvale_shop2)
+    - branch 1 *(if reached stage 202 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → [blornvale_shop2](#d-stoutford_alchemist-blornvale_shop2)
     - branch 2 → [blornvale_shop1](#d-stoutford_alchemist-blornvale_shop1)
 
     <span id="d-stoutford_alchemist-blornvale_thorns72_92"></span>**`blornvale_thorns72_92`** Blornvale: “No more talk. Go now!”
@@ -130,16 +130,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Well, who believes that? Prove it!” → [blornvale_thorns50_20](#d-stoutford_alchemist-blornvale_thorns50_20)
 
-    <span id="d-stoutford_alchemist-blornvale_shop2"></span>**`blornvale_shop2`** [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2): “Come, I will show you my special selection.” — **effects:** clears stage 201 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-201)
+    <span id="d-stoutford_alchemist-blornvale_shop2"></span>**`blornvale_shop2`** [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2): “Come, I will show you my special selection.” — **effects:** clears stage 201 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-201)
 
-    - “OK, let's see if it's more interesting than soap.” *(if reached stage 201 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-201); NOT reached stage 202 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → *shop opens*
-    - “Yes, let's have a look.” *(if reached stage 202 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → *shop opens*
+    - “OK, let's see if it's more interesting than soap.” *(if reached stage 201 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-201); NOT reached stage 202 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → *shop opens*
+    - “Yes, let's have a look.” *(if reached stage 202 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-202))* → *shop opens*
     - “No, thank you.” → *conversation ends*
     - “Do you happen to sell empty bottles?” *(if reached stage 23 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-23); NOT reached stage 25 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25))* → [stoutford_widow2_10_b](#d-stoutford_alchemist-stoutford_widow2_10_b)
 
     <span id="d-stoutford_alchemist-blornvale_shop1"></span>**`blornvale_shop1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 200 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-200))* → [blornvale_shop1_8](#d-stoutford_alchemist-blornvale_shop1_8)
+    - branch 1 *(if NOT reached stage 200 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-200))* → [blornvale_shop1_8](#d-stoutford_alchemist-blornvale_shop1_8)
     - branch 2 *(if NOT killed 1× [Great dark wolf](../monsters/blornvale_wolf.md))* → [blornvale_shop1_2](#d-stoutford_alchemist-blornvale_shop1_2)
     - branch 3 → [blornvale_shop1_6](#d-stoutford_alchemist-blornvale_shop1_6)
 
@@ -176,7 +176,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Yes.” → [blornvale_shop1_4](#d-stoutford_alchemist-blornvale_shop1_4)
     - “No, not yet.” → *conversation ends*
 
-    <span id="d-stoutford_alchemist-blornvale_shop1_6"></span>**`blornvale_shop1_6`** Blornvale: “You have indeed killed this brute behind my house!” — **effects:** sets stage 202 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-202)
+    <span id="d-stoutford_alchemist-blornvale_shop1_6"></span>**`blornvale_shop1_6`** Blornvale: “You have indeed killed this brute behind my house!” — **effects:** sets stage 202 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-202)
 
     - “Yes. Are you content now?” → [blornvale_select_1](#d-stoutford_alchemist-blornvale_select_1)
 
@@ -199,7 +199,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-stoutford_alchemist-blornvale_thorns50_22"></span>**`blornvale_thorns50_22`** Blornvale: “Then you can never prove it. That's good. Out now, leave my shop, you scum!” — **effects:** sets stage 74 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-74)
 
 
-    <span id="d-stoutford_alchemist-blornvale_shop1_10"></span>**`blornvale_shop1_10`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 201 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-201)
+    <span id="d-stoutford_alchemist-blornvale_shop1_10"></span>**`blornvale_shop1_10`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 201 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-201)
 
     - branch 1 → *shop opens*
 
@@ -277,7 +277,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_alchemist2` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2)
+**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2)
 
 ### Shop stock
 
@@ -295,11 +295,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 ### Quests
 
 - [The thorns of vengeance](../quests/thorns_vengeance.md): stages 70, 71, 72, 74, 75, 80
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 201, 202
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 201, 202
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blornvale. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blornvale. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blornvale_select_0.json" data-npc="Blornvale" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

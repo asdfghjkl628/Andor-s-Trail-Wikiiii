@@ -48,7 +48,7 @@ description: "Blood seeker is a extraordinary longsword in Andor's Trail (Attack
 
 ### Quest & dialogue rewards
 
-- From [Celdar](../monsters/celdar.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-130) (1×)
+- From [Celdar](../monsters/celdar.md) ([Houseatcrossroads 0](../maps/houseatcrossroads0.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-130) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

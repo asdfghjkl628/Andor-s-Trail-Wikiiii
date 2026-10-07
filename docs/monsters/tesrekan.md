@@ -1,10 +1,10 @@
 ---
-description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found in waterwayacave4."
+description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found in Waterwayacave 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_122.png){ .sprite } Tesrekan
 
-**Where to find Tesrekan:** [waterwayacave4](../maps/waterwayacave4.md#pin-npc-tesrekan)
+**Where to find Tesrekan:** [Waterwayacave 4](../maps/waterwayacave4.md#pin-npc-tesrekan)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | waterwayacave4 |
+| **Found in** | Waterwayacave 4 |
 | **Class** | Undead |
 | **HP** | 350 |
 | **XP when defeated** | 852 |
@@ -59,7 +59,7 @@ description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwayacave4](../maps/waterwayacave4.md) | – | 1 | – |
+| [Waterwayacave 4](../maps/waterwayacave4.md) | – | 1 | – |
 
 ## Quests
 
@@ -67,7 +67,7 @@ description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tesrekan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tesrekan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tesrekan.json" data-npc="Tesrekan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tesrekan"></span>**`tesrekan`** Tesrekan: “Ah, another puny mortal that has come to die and serve Tesrekan.” — **effects:** sets stage 50 of [Just the beginning](../quests/waterwayacave.md#stage-50)
 

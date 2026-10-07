@@ -11,9 +11,9 @@ description: "No rest for the guilty is a quest in Andor's Trail, started by Aul
 | **Quest ID** | `lodar13_rest` |
 | **In journal** | Yes |
 | **Stages** | 11 (completes at 60, 65) |
-| **Started by** | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) |
+| **Started by** | [Aulowenn](../monsters/aulowenn.md) ([Lodar 13](../maps/lodar13.md)) |
 | **NPCs involved** | [Aulowenn](../monsters/aulowenn.md), [Tiqui](../monsters/tiqui.md) |
-| **Locations** | [lodar13](../maps/lodar13.md), [lodar14](../maps/lodar14.md) |
+| **Locations** | [Lodar 13](../maps/lodar13.md), [Lodar 14](../maps/lodar14.md) |
 | **Total XP** | 3,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "No rest for the guilty is a quest in Andor's Trail, started by Aul
 
 ## Prerequisites to start
 
-None: talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) to begin.
+None: talk to [Aulowenn](../monsters/aulowenn.md) ([Lodar 13](../maps/lodar13.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,71 +37,148 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | In the maze of green vines east of the Duleian road, I met a guard named Aulowenn from Feygard, guarding some crates. She told me that she was part of a larger group of guards searching for a madman that supposedly hides somewhere in the nearby hills, but that the other guards are now dead or missing. | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | – | – |
-| <span id="stage-11"></span>11 | Aulowenn requested my help in defeating a monster that haunts the grave of her fellow guards to the east. She warned me that the foul beast will most likely try to trick me into listening to its story. | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | – | – |
-| <span id="stage-20"></span>20 | I have met the creature that Aulowenn spoke of. | [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | stage 11 | – |
-| <span id="stage-22"></span>22 | I listened to the creature's story. Its name is Tiqui, and he is the head of his clan. Apparently, the guards have been ruthlessly killing off his kin. He asked me to kill the guard for him, as revenge for what they have done. | [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | – | – |
-| <span id="stage-24"></span>24 | The creature tried to trick me into listening to its story. | [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | stage 30 | – |
-| <span id="stage-30"></span>30 | I attacked the creature before it could spew out more of its foul lies. | [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | – | – |
-| <span id="stage-31"></span>31 | I attacked Aulowenn. | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | – | – |
-| <span id="stage-40"></span>40 | Aulowenn thanked me for bringing peace to the grave of her fallen companions by killing the creature. | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) | – | – |
-| <span id="stage-41"></span>41 | Tiqui was overjoyed that I helped him kill the guard for him. He promised that if we ever run into each other again, he'd help me somehow. | [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | – | – |
-| <span id="stage-60"></span>60 | I am now able to use Aulowenn's bed whenever I wish to rest. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Lodar13](../maps/lodar13.md).</span> | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md))<br>[Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | – | 3,000 XP |
-| <span id="stage-65"></span>65 | I will not be able to resolve the conflict between Aulowenn and her attacker. **(completes quest)** | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md))<br>[Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | stage 30, stage 31 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">In the maze of green vines east of the Duleian road, I met a guard… ▸</span><span class="l">▴ less</span></summary>In the maze of green vines east of the Duleian road, I met a guard named Aulowenn from Feygard, guarding some crates. She told me that she was part of a larger group of guards searching for a madman that supposedly hides somewhere in the nearby hills, but that the other guards are now dead or missing.</details> | [Aulowenn](../monsters/aulowenn.md) | – |
+| <span id="stage-11"></span>[11](#route-11) | <details class="jt"><summary><span class="s">Aulowenn requested my help in defeating a monster that haunts the… ▸</span><span class="l">▴ less</span></summary>Aulowenn requested my help in defeating a monster that haunts the grave of her fellow guards to the east. She warned me that the foul beast will most likely try to trick me into listening to its story.</details> | [Aulowenn](../monsters/aulowenn.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I have met the creature that Aulowenn spoke of. | [Tiqui](../monsters/tiqui.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | <details class="jt"><summary><span class="s">I listened to the creature's story. Its name is Tiqui, and he is the… ▸</span><span class="l">▴ less</span></summary>I listened to the creature's story. Its name is Tiqui, and he is the head of his clan. Apparently, the guards have been ruthlessly killing off his kin. He asked me to kill the guard for him, as revenge for what they have done.</details> | [Tiqui](../monsters/tiqui.md) | – |
+| <span id="stage-24"></span>[24](#route-24) | The creature tried to trick me into listening to its story. | [Tiqui](../monsters/tiqui.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I attacked the creature before it could spew out more of its foul lies. | [Tiqui](../monsters/tiqui.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | I attacked Aulowenn. | [Aulowenn](../monsters/aulowenn.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Aulowenn thanked me for bringing peace to the grave of her fallen… ▸</span><span class="l">▴ less</span></summary>Aulowenn thanked me for bringing peace to the grave of her fallen companions by killing the creature.</details> | [Aulowenn](../monsters/aulowenn.md) | – |
+| <span id="stage-41"></span>[41](#route-41) | <details class="jt"><summary><span class="s">Tiqui was overjoyed that I helped him kill the guard for him. He… ▸</span><span class="l">▴ less</span></summary>Tiqui was overjoyed that I helped him kill the guard for him. He promised that if we ever run into each other again, he'd help me somehow.</details> | [Tiqui](../monsters/tiqui.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | I am now able to use Aulowenn's bed whenever I wish to rest. **(ends quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Lodar 13](../maps/lodar13.md).</span> | [Aulowenn](../monsters/aulowenn.md), [Tiqui](../monsters/tiqui.md) | 3,000 XP |
+| <span id="stage-65"></span>[65](#route-65) | I will not be able to resolve the conflict between Aulowenn and her attacker. **(ends quest)** | [Aulowenn](../monsters/aulowenn.md), [Tiqui](../monsters/tiqui.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → choose “What about the others?” → **stage 10**. NPC: “Some of my men were killed by the creatures that live in these woods, some ran away by themselves and some have never…”
+??? note "Stage 10 · Aulowenn · 1 way"
 
-???+ note "Stage 11: 1 route"
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), choose “What about the others?”
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → choose “So, you want me to go visit the graves to the east and defeat whatever creature is there?” — **conditions:** reached stage 11 of [No rest for the guilty](../quests/lodar13_rest.md#stage-11) → **stage 11**. NPC: “Yes, that's it. I should also warn you that those creatures are intelligible, so I would urge you to act quickly when…”
+    - *“Some of my men were killed by the creatures that live in these woods, some ran away by themselves and some have never come back from their…”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → choose “I am sent here by Aulowenn to take care of you.” — **conditions:** reached stage 11 of [No rest for the guilty](../quests/lodar13_rest.md#stage-11) → **stage 20**. NPC: “Tiqui not want fight. Tiqui angry that men who smell bad kill his friends.”
+<span id="route-11"></span>
 
-???+ note "Stage 22: 1 route"
+??? note "Stage 11 · Aulowenn · 1 way"
 
-    1. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → choose “What can I do to help?” — **conditions:** reached stage 22 of [No rest for the guilty](../quests/lodar13_rest.md#stage-22) → **stage 22**. NPC: “You go take care of last smelly person. Tiqui can be friend to you. Tiqui can have revenge.”
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), choose “So, you want me to go visit the graves to the east and defeat whatever creature is there?”
 
-???+ note "Stage 24: 1 route"
+    - **Needs:** stage 11
+    - *“Yes, that's it. I should also warn you that those creatures are intelligible, so I would urge you to act quickly when encountering it,…”*
 
-    1. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [No rest for the guilty](../quests/lodar13_rest.md#stage-30) → **stage 24**. NPC: “No, you die now! You one of them! Tiqui angry!”
 
-???+ note "Stage 30: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [No rest for the guilty](../quests/lodar13_rest.md#stage-30) → **stage 30**. NPC: “No, you die now! You one of them! Tiqui angry!”
+??? note "Stage 20 · Tiqui · 1 way"
 
-???+ note "Stage 31: 1 route"
+    **Way 1:** Talk to [Tiqui](../monsters/tiqui.md), choose “I am sent here by Aulowenn to take care of you.”
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → the conversation leads here automatically — **conditions:** reached stage 31 of [No rest for the guilty](../quests/lodar13_rest.md#stage-31) → **stage 31**. NPC: “For Feygard!”
+    - **Needs:** stage 11
+    - *“Tiqui not want fight. Tiqui angry that men who smell bad kill his friends.”*
 
-???+ note "Stage 40: 1 route"
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [No rest for the guilty](../quests/lodar13_rest.md#stage-40) → **stage 40**. NPC: “Excellent. Maybe now my brethren can rest peacefully. Thank you so much for helping me.”
+<span id="route-22"></span>
 
-???+ note "Stage 41: 1 route"
+??? note "Stage 22 · Tiqui · 1 way"
 
-    1. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → the conversation leads here automatically — **conditions:** reached stage 41 of [No rest for the guilty](../quests/lodar13_rest.md#stage-41) → **stage 41**. NPC: “Yes! Yes! The smell is gone. You friend of Tiqui now! Tiqui help you when we meet again!”
+    **Way 1:** Talk to [Tiqui](../monsters/tiqui.md), choose “What can I do to help?”
 
-???+ note "Stage 60: 2 routes"
+    - **Needs:** stage 22
+    - *“You go take care of last smelly person. Tiqui can be friend to you. Tiqui can have revenge.”*
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [No rest for the guilty](../quests/lodar13_rest.md#stage-60) → **stage 60**. NPC: “In return, you are very welcome to use my bed to rest whenever you wish.”
-    2. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [No rest for the guilty](../quests/lodar13_rest.md#stage-60) → **stage 60**. NPC: “You also use bed of smelly men, and Tiqui keep you safe.”
 
-???+ note "Stage 65: 2 routes"
+<span id="route-24"></span>
 
-    1. Talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) → the conversation leads here automatically — **conditions:** reached stage 31 of [No rest for the guilty](../quests/lodar13_rest.md#stage-31); reached stage 30 of [No rest for the guilty](../quests/lodar13_rest.md#stage-30) → **stage 65**
-    2. Talk to [Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [No rest for the guilty](../quests/lodar13_rest.md#stage-30); reached stage 31 of [No rest for the guilty](../quests/lodar13_rest.md#stage-31) → **stage 65**
+??? note "Stage 24 · Tiqui · 1 way"
+
+    **Way 1:** Talk to [Tiqui](../monsters/tiqui.md), automatic
+
+    - **Needs:** stage 30
+    - *“No, you die now! You one of them! Tiqui angry!”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Tiqui · 1 way"
+
+    **Way 1:** Talk to [Tiqui](../monsters/tiqui.md), automatic
+
+    - **Needs:** stage 30
+    - *“No, you die now! You one of them! Tiqui angry!”*
+
+
+<span id="route-31"></span>
+
+??? note "Stage 31 · Aulowenn · 1 way"
+
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), automatic
+
+    - **Needs:** stage 31
+    - *“For Feygard!”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Aulowenn · 1 way"
+
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), automatic
+
+    - **Needs:** stage 40
+    - *“Excellent. Maybe now my brethren can rest peacefully. Thank you so much for helping me.”*
+
+
+<span id="route-41"></span>
+
+??? note "Stage 41 · Tiqui · 1 way"
+
+    **Way 1:** Talk to [Tiqui](../monsters/tiqui.md), automatic
+
+    - **Needs:** stage 41
+    - *“Yes! Yes! The smell is gone. You friend of Tiqui now! Tiqui help you when we meet again!”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Aulowenn, Tiqui · 2 ways"
+
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), automatic
+
+    - **Needs:** stage 60
+    - *“In return, you are very welcome to use my bed to rest whenever you wish.”*
+
+    **Way 2:** Talk to [Tiqui](../monsters/tiqui.md), automatic
+
+    - **Needs:** stage 60
+    - *“You also use bed of smelly men, and Tiqui keep you safe.”*
+
+
+<span id="route-65"></span>
+
+??? note "Stage 65 · Aulowenn, Tiqui · 2 ways"
+
+    **Way 1:** Talk to [Aulowenn](../monsters/aulowenn.md), automatic
+
+    - **Needs:** stage 30, 31
+
+    **Way 2:** Talk to [Tiqui](../monsters/tiqui.md), automatic
+
+    - **Needs:** stage 30, 31
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

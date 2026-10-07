@@ -18,29 +18,29 @@ description: "Watchdog is a non-player character (NPC) in Andor's Trail, found i
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Watchdog. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Watchdog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brightportthieves4`](#v-brightportthieves4) | NPC | Brightport: [brightport_jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [brightport_thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4) | – |
-| [`brv_brother1_watchdog`](#v-brv_brother1_watchdog) | NPC | Brimhaven: [brimhaven_brother1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog) | – |
+| [`brightportthieves4`](#v-brightportthieves4) | NPC | Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4) | – |
+| [`brv_brother1_watchdog`](#v-brv_brother1_watchdog) | NPC | Brimhaven: [Brimhaven brother 1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog) | – |
 
 ## Brightport, Brightport jail and 1 more (brightportthieves4) { #v-brightportthieves4 }
 
 **Entry ID:** `brightportthieves4` · **Type:** NPC
 
-**Location:** Brightport: [brightport_jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [brightport_thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4)
+**Location:** Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_jail](../maps/brightport_jail.md) | Brightport | 1 | – |
-| [brightport_thieves](../maps/brightport_thieves.md) | Brightport | 1 | – |
+| [Brightport jail](../maps/brightport_jail.md) | Brightport | 1 | – |
+| [Brightport thieves](../maps/brightport_thieves.md) | Brightport | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Watchdog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Watchdog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brighport_watchdog.json" data-npc="Watchdog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightportthieves4-brighport_watchdog"></span>**`brighport_watchdog`** [Watchdog](../monsters/brightportthieves4.md): “Sigh. It's almost time for my shift again, but I can't complain. The Guild pays good money.”
 
@@ -89,15 +89,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven brother1 (brv_brother1_watchdog) { #v-brv_brother1_watchdog }
+## Brimhaven, Brimhaven brother 1 (brv_brother1_watchdog) { #v-brv_brother1_watchdog }
 
 **Entry ID:** `brv_brother1_watchdog` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_brother1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog)
+**Location:** Brimhaven: [Brimhaven brother 1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Watchdog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Watchdog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_brother1_watchdog.json" data-npc="Watchdog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_brother1_watchdog-brv_brother1_watchdog"></span>**`brv_brother1_watchdog`** Watchdog: “Grrr.... Woof.”
 

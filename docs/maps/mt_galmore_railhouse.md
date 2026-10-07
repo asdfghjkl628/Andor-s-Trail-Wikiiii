@@ -56,7 +56,7 @@ description: "Mt galmore railhouse is an indoor location in Andor's Trail, in Mt
 ## Quests
 
 - [You shall pass](../quests/undertell_barricades.md): [Shannal](../monsters/shannal.md) is involved
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 9
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 9
 
 ## Points of interest
 

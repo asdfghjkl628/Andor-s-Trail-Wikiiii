@@ -18,18 +18,18 @@ description: "Valentina is a non-player character (NPC) in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Valentina. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Valentina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`crossglen_valentina`](#v-crossglen_valentina) | NPC | Crossglen: [home](../maps/home.md#pin-npc-crossglen_valentina) | – |
-| [`sullengard_valentina`](#v-sullengard_valentina) | NPC | Sullengard: [sullengard1_aunts_house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina) | – |
+| [`crossglen_valentina`](#v-crossglen_valentina) | NPC | Crossglen: [Home](../maps/home.md#pin-npc-crossglen_valentina) | – |
+| [`sullengard_valentina`](#v-sullengard_valentina) | NPC | Sullengard: [Sullengard 1 aunts house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina) | – |
 
 ## Crossglen, Home (crossglen_valentina) { #v-crossglen_valentina }
 
 **Entry ID:** `crossglen_valentina` · **Type:** NPC
 
-**Location:** Crossglen: [home](../maps/home.md#pin-npc-crossglen_valentina)
+**Location:** Crossglen: [Home](../maps/home.md#pin-npc-crossglen_valentina)
 
 ### Quests
 
@@ -37,7 +37,7 @@ description: "Valentina is a non-player character (NPC) in Andor's Trail, found 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Valentina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Valentina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossglen_valentina_selector.json" data-npc="Valentina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,22 +45,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-crossglen_valentina-crossglen_valentina_selector"></span>**`crossglen_valentina_selector`** *(silent check: the first matching branch below is taken)*
 
-    - “Can we talk about Andor?” *(if reached stage 26 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-26))* → [crossglen_valentina_andor_10](#d-crossglen_valentina-crossglen_valentina_andor_10)
-    - “I would like to learn more about Aunt Valeria.” *(if reached stage 26 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-26))* → [crossglen_valentina_valeria_10](#d-crossglen_valentina-crossglen_valentina_valeria_10)
+    - “Can we talk about Andor?” *(if reached stage 26 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-26))* → [crossglen_valentina_andor_10](#d-crossglen_valentina-crossglen_valentina_andor_10)
+    - “I would like to learn more about Aunt Valeria.” *(if reached stage 26 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-26))* → [crossglen_valentina_valeria_10](#d-crossglen_valentina-crossglen_valentina_valeria_10)
     - “What's wrong?” → [crossglen_valentina_10](#d-crossglen_valentina-crossglen_valentina_10)
 
     <span id="d-crossglen_valentina-crossglen_valentina_andor_10"></span>**`crossglen_valentina_andor_10`** Valentina: “I should be able to help you, but first you have to tell me where have you been?”
 
-    - “I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina-crossglen_valentina_andor_20)
+    - “I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina-crossglen_valentina_andor_20)
     - “I've been around a lot of Dhayavar and have spoken to a lot of people about Andor.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_20](#d-crossglen_valentina-crossglen_valentina_andor_20)
-    - “I've talked with a potion maker.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
-    - “I've been to Remgard looking for Andor” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
-    - “I've been to this really cool place called Blackwater settlement.” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
-    - “I've not gone much past Sullengard.” *(if NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
+    - “I've talked with a potion maker.” *(if reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
+    - “I've been to Remgard looking for Andor” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
+    - “I've been to this really cool place called Blackwater settlement.” *(if NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170); reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
+    - “I've not gone much past Sullengard.” *(if NOT reached stage 85 of [Search for Andor](../quests/andor.md#stage-85); NOT reached stage 72 of [Search for Andor](../quests/andor.md#stage-72); NOT reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170); NOT reached stage 60 of [The agent and the beast](../quests/bwm_agent.md#stage-60))* → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
     - “I've been running around a lot, but I've not learned much.” → [crossglen_valentina_andor_21](#d-crossglen_valentina-crossglen_valentina_andor_21)
 
     <span id="d-crossglen_valentina-crossglen_valentina_valeria_10"></span>**`crossglen_valentina_valeria_10`** Valentina: “Right now? No. I am not ready to discuss this with you.”
@@ -147,11 +147,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Sullengard, Sullengard1 aunts house (sullengard_valentina) { #v-sullengard_valentina }
+## Sullengard, Sullengard 1 aunts house (sullengard_valentina) { #v-sullengard_valentina }
 
 **Entry ID:** `sullengard_valentina` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard1_aunts_house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina)
+**Location:** Sullengard: [Sullengard 1 aunts house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina)
 
 ### Quests
 
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Valentina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Valentina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_valentina_0.json" data-npc="Valentina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -167,7 +167,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_valentina-sullengard_valentina_0"></span>**`sullengard_valentina_0`** [Valentina](../monsters/crossglen_valentina.md#v-sullengard_valentina): “$playername, what are you doing here?!”
 

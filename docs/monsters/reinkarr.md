@@ -4,7 +4,7 @@ description: "Reinkarr is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } Reinkarr
 
-**Where to find Reinkarr:** Remgard: [remgard3](../maps/remgard3.md#pin-npc-reinkarr)
+**Where to find Reinkarr:** Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-reinkarr)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Reinkarr is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Reinkarr. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Reinkarr. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/reinkarr.json" data-npc="Reinkarr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-reinkarr"></span>**`reinkarr`** Reinkarr: “You look just like an adventurer. Tell me child, what brings you here?”
 
@@ -97,7 +97,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “Ok then. Good luck with that.” → “OK then. Good luck with that.”<br>· text: “No, not really. I never got the hang of the whole adventuring busines…” → “No, not really. I never got the hang of the whole adventuring busines…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “No, not really. I never got the hang of the whole adventuring busines…” → “No, not really. I never got the hang of the whole adventuring busines…”<br>· text: “Ok then. Good luck with that.” → “OK then. Good luck with that.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -4,7 +4,7 @@ description: "Guthbered is an NPC who can also be fought in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_rltiles1_92.png){ .sprite } Guthbered
 
-**Where to find Guthbered:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-guthbered)
+**Where to find Guthbered:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-guthbered)
 
 <div class="infobox" markdown>
 
@@ -59,7 +59,7 @@ description: "Guthbered is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
 
 ## Quests
 
@@ -68,7 +68,7 @@ description: "Guthbered is an NPC who can also be fought in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guthbered. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guthbered. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guthbered_start.json" data-npc="Guthbered" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (83 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guthbered_start"></span>**`guthbered_start`** *(silent check: the first matching branch below is taken)*
 
@@ -454,7 +454,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “Hello again. Did you find anything up in the Blackwater Mountain sett…” → “Hello again. Did you find anything up in the Blackwater mountain sett…”<br>· text: “Hello again. Did you manage to remove that bastard battle master Harl…” → “Hello again. Did you manage to remove that bastard battle master Harl…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “By killing him, we can be sure that their attacks will .. shall we sa…” → “By killing him, we can be sure that their attacks will ... shall we s…”<br>· text: “Ok. We will have to investigate that later.” → “OK. We will have to investigate that later.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

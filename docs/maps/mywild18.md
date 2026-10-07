@@ -1,8 +1,8 @@
 ---
-description: "Mywild18 is an outdoor location in Andor's Trail, near Blackwater Mountain (other). Enemies: Wild boar, Wolf. Exits to Mywild19, Lake shore road 1, Wild7."
+description: "Mywild 18 is an outdoor location in Andor's Trail, near Blackwater Mountain (other). Enemies: Wild boar, Wolf. Exits to Mywild 19, Lake shore road 1, Wild 7."
 ---
 
-# Mywild18
+# Mywild 18
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Mywild18 is an outdoor location in Andor's Trail, near Blackwater 
 | **Region** | Near Blackwater Mountain (other) |
 | **Type** | Outdoors |
 | **Size** | 23×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Mywild18** is an outdoor map, near Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Mywild19, Lake shore road 1, Wild7.
+**Mywild 18** is an outdoor map, near Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Mywild 19, Lake shore road 1, Wild 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mywild18.webp" alt="Map of Mywild18" width="736" height="640" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../wild7/#place-east" title="Exit to Wild7" style="left:0.000%;top:50.000%;width:4.348%;height:5.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../mywild19/#place-west1" title="Exit to Mywild19" style="left:95.652%;top:25.000%;width:4.348%;height:10.000%"></a><a id="place-east2" class="mo mo-mapchange" href="../mywild19/#place-west2" title="Exit to Mywild19" style="left:95.652%;top:50.000%;width:4.348%;height:5.000%"></a><a id="place-east3" class="mo mo-mapchange" href="../mywild19/#place-west3" title="Exit to Mywild19" style="left:95.652%;top:75.000%;width:4.348%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../lake_shore_road_1/#place-north" title="Exit to Lake shore road 1" style="left:8.696%;top:95.000%;width:8.696%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Wolf" style="left:8.696%;top:15.000%;width:47.826%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:60.870%;top:20.000%;width:17.391%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:39.130%;top:75.000%;width:26.087%;height:15.000%"></span><span class="mo mo-spawn" title="Spawns: Wolf" style="left:4.348%;top:65.000%;width:39.130%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Wolf" style="left:65.217%;top:40.000%;width:17.391%;height:40.000%"></span><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:34.783%;top:25.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:17.391%;top:20.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:69.565%;top:35.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:56.522%;top:80.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:17.391%;top:70.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:34.783%;top:85.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:78.261%;top:70.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:69.565%;top:40.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:30.000%" title="Exit (east): to [Mywild19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:52.500%" title="Exit (east): to [Mywild19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:80.000%" title="Exit (east): to [Mywild19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:13.043%;top:97.500%" title="Exit (south): to [Lake shore road 1](lake_shore_road_1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.174%;top:52.500%" title="Exit (west): to [Wild7](wild7.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mywild18.webp" alt="Map of Mywild 18" width="736" height="640" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../wild7/#place-east" title="Exit to Wild 7" style="left:0.000%;top:50.000%;width:4.348%;height:5.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../mywild19/#place-west1" title="Exit to Mywild 19" style="left:95.652%;top:25.000%;width:4.348%;height:10.000%"></a><a id="place-east2" class="mo mo-mapchange" href="../mywild19/#place-west2" title="Exit to Mywild 19" style="left:95.652%;top:50.000%;width:4.348%;height:5.000%"></a><a id="place-east3" class="mo mo-mapchange" href="../mywild19/#place-west3" title="Exit to Mywild 19" style="left:95.652%;top:75.000%;width:4.348%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../lake_shore_road_1/#place-north" title="Exit to Lake shore road 1" style="left:8.696%;top:95.000%;width:8.696%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Wolf" style="left:8.696%;top:15.000%;width:47.826%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:60.870%;top:20.000%;width:17.391%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:39.130%;top:75.000%;width:26.087%;height:15.000%"></span><span class="mo mo-spawn" title="Spawns: Wolf" style="left:4.348%;top:65.000%;width:39.130%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Wolf" style="left:65.217%;top:40.000%;width:17.391%;height:40.000%"></span><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:34.783%;top:25.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:17.391%;top:20.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:69.565%;top:35.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:56.522%;top:80.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:17.391%;top:70.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:34.783%;top:85.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:78.261%;top:70.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="mob" href="../../monsters/wolf/" title="Wolf" style="left:69.565%;top:40.000%;width:4.348%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_4.png" alt="Wolf"></a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:30.000%" title="Exit (east): to [Mywild 19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:52.500%" title="Exit (east): to [Mywild 19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-1" style="left:97.826%;top:80.000%" title="Exit (east): to [Mywild 19](mywild19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:13.043%;top:97.500%" title="Exit (south): to [Lake shore road 1](lake_shore_road_1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.174%;top:52.500%" title="Exit (west): to [Wild 7](wild7.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Mywild19](mywild19.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Mywild 19](mywild19.md) |
     | <span id="key-2"></span>2 | Exit (south) | to [Lake shore road 1](lake_shore_road_1.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Wild7](wild7.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Wild 7](wild7.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Mywild18 is an outdoor location in Andor's Trail, near Blackwater 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Mywild19](mywild19.md) | Fallhaven | 1 |
+| East | [Mywild 19](mywild19.md) | Fallhaven | 1 |
 | South | [Lake shore road 1](lake_shore_road_1.md) | Flagstone Prison | 2 |
-| West | [Wild7](wild7.md) | Blackwater Mountain | 3 |
+| West | [Wild 7](wild7.md) | Blackwater Mountain | 3 |
 
 ## Enemies
 

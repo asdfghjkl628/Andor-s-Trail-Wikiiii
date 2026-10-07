@@ -1,8 +1,8 @@
 ---
-description: "Mountainlake26 is an indoor location in Andor's Trail. Enemies: Fish, Jellyfish. Exits to Mountainlake25, Mountainlake27, Mountainlake28."
+description: "Mountainlake 26 is an indoor location in Andor's Trail. Enemies: Fish, Jellyfish. Exits to Mountainlake 25, Mountainlake 27, Mountainlake 28."
 ---
 
-# Mountainlake26
+# Mountainlake 26
 
 <div class="infobox" markdown>
 
@@ -11,28 +11,28 @@ description: "Mountainlake26 is an indoor location in Andor's Trail. Enemies: Fi
 | **Map ID** | `mountainlake26` |
 | **Type** | Indoors / underground |
 | **Size** | 7×11 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 10 |
 | **Quests** | 1 |
 
 </div>
 
-**Mountainlake26** is an indoor map. It has no NPCs and 10 kinds of enemy. Exits lead to Mountainlake25, Mountainlake27, Mountainlake28.
+**Mountainlake 26** is an indoor map. It has no NPCs and 10 kinds of enemy. Exits lead to Mountainlake 25, Mountainlake 27, Mountainlake 28.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake26.webp" alt="Map of Mountainlake26" width="224" height="352" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mountainlake27/#place-west" title="Exit to Mountainlake27" style="left:85.714%;top:9.091%;width:14.286%;height:81.818%"></a><a id="place-north" class="mo mo-mapchange" href="../mountainlake25/#place-south" title="Exit to Mountainlake25" style="left:14.286%;top:0.000%;width:71.429%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake28/#place-north1" title="Exit to Mountainlake28" style="left:14.286%;top:90.909%;width:71.429%;height:9.091%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-26" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))" style="left:14.286%;top:9.091%;width:85.714%;height:81.818%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-26" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))" style="left:14.286%;top:0.000%;width:71.429%;height:100.000%"></a><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:14.286%;top:18.182%;width:57.143%;height:63.636%"></span><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish4" title="Fish" style="left:14.286%;top:72.727%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish2" title="Fish" style="left:57.143%;top:45.455%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish4" title="Fish" style="left:28.571%;top:54.545%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish5" title="Fish" style="left:28.571%;top:27.273%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:4.545%" title="Exit (north): to [Mountainlake25](mountainlake25.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:92.857%;top:50.000%" title="Exit (east): to [Mountainlake27](mountainlake27.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:50.000%;top:95.455%" title="Exit (south): to [Mountainlake28](mountainlake28.md)">3</a><a class="pin pin-script" href="#key-4" style="left:57.143%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))">4</a><a class="pin pin-script" href="#key-4" style="left:43.120%;top:54.011%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake26.webp" alt="Map of Mountainlake 26" width="224" height="352" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../mountainlake27/#place-west" title="Exit to Mountainlake 27" style="left:85.714%;top:9.091%;width:14.286%;height:81.818%"></a><a id="place-north" class="mo mo-mapchange" href="../mountainlake25/#place-south" title="Exit to Mountainlake 25" style="left:14.286%;top:0.000%;width:71.429%;height:9.091%"></a><a id="place-south" class="mo mo-mapchange" href="../mountainlake28/#place-north1" title="Exit to Mountainlake 28" style="left:14.286%;top:90.909%;width:71.429%;height:9.091%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-26" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))" style="left:14.286%;top:9.091%;width:85.714%;height:81.818%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-26" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))" style="left:14.286%;top:0.000%;width:71.429%;height:100.000%"></a><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:14.286%;top:18.182%;width:57.143%;height:63.636%"></span><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish4" title="Fish" style="left:14.286%;top:72.727%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish2" title="Fish" style="left:57.143%;top:45.455%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish4" title="Fish" style="left:28.571%;top:54.545%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish5" title="Fish" style="left:28.571%;top:27.273%;width:14.286%;height:9.091%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:4.545%" title="Exit (north): to [Mountainlake 25](mountainlake25.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:92.857%;top:50.000%" title="Exit (east): to [Mountainlake 27](mountainlake27.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:50.000%;top:95.455%" title="Exit (south): to [Mountainlake 28](mountainlake28.md)">3</a><a class="pin pin-script" href="#key-4" style="left:57.143%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))">4</a><a class="pin pin-script" href="#key-4" style="left:43.120%;top:54.011%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s))">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Mountainlake25](mountainlake25.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Mountainlake27](mountainlake27.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Mountainlake28](mountainlake28.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Mountainlake 25](mountainlake25.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Mountainlake 27](mountainlake27.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Mountainlake 28](mountainlake28.md) |
     | <span id="key-4"></span>4 | Quest trigger | Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 26 (“26=mountainlake26”) (+1 more quest(s)) |
 
 
@@ -42,31 +42,31 @@ description: "Mountainlake26 is an indoor location in Andor's Trail. Enemies: Fi
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Mountainlake25](mountainlake25.md) | – | 1 |
-| East | [Mountainlake27](mountainlake27.md) | – | 2 |
-| South | [Mountainlake28](mountainlake28.md) | – | 3 |
+| North | [Mountainlake 25](mountainlake25.md) | – | 1 |
+| East | [Mountainlake 27](mountainlake27.md) | – | 2 |
+| South | [Mountainlake 28](mountainlake28.md) | – | 3 |
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 4 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid |
+| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
 - [A map of the Great Lake Laeroth](../quests/lake_map.md): something on this map advances it; stepping on a trigger here sets stage 900
-- [Lake Laeroth Maps found (hidden flag)](../quests/ll2_maps.md): something on this map advances it; stepping on a trigger here sets stage 26
+- [Lake Laeroth maps found (hidden flag)](../quests/ll2_maps.md): something on this map advances it; stepping on a trigger here sets stage 26
 
 ## Points of interest
 

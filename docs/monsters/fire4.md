@@ -1,10 +1,10 @@
 ---
-description: "Tough lava spawn is an enemy in Andor's Trail (construct) with 107 HP, worth 293 XP, found in lostmine7, lostmine8, lostmine9. Drops: Burnt ash, Glass gem."
+description: "Tough lava spawn is an enemy in Andor's Trail (construct) with 107 HP, worth 293 XP, found in Lostmine 7, Lostmine 8, Lostmine 9. Drops: Burnt ash, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_24.png){ .sprite } Tough lava spawn
 
-**Found in:** [lostmine7](../maps/lostmine7.md), [lostmine8](../maps/lostmine8.md), [lostmine9](../maps/lostmine9.md)
+**Found in:** [Lostmine 7](../maps/lostmine7.md), [Lostmine 8](../maps/lostmine8.md), [Lostmine 9](../maps/lostmine9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough lava spawn is an enemy in Andor's Trail (construct) with 107
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine7, lostmine8, lostmine9 |
+| **Found in** | Lostmine 7, Lostmine 8, Lostmine 9 |
 | **Class** | Construct |
 | **HP** | 107 |
 | **XP when defeated** | 293 |
@@ -61,9 +61,9 @@ description: "Tough lava spawn is an enemy in Andor's Trail (construct) with 107
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine7](../maps/lostmine7.md) | – | 4 | – |
-| [lostmine8](../maps/lostmine8.md) | – | 2 | – |
-| [lostmine9](../maps/lostmine9.md) | – | 11 | – |
+| [Lostmine 7](../maps/lostmine7.md) | – | 4 | – |
+| [Lostmine 8](../maps/lostmine8.md) | – | 2 | – |
+| [Lostmine 9](../maps/lostmine9.md) | – | 11 | – |
 
 
 ## Version history

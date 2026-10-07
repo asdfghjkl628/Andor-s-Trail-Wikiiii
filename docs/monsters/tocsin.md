@@ -1,10 +1,10 @@
 ---
-description: "Tocsin is a non-player character (NPC) in Andor's Trail, found in undertell_4_00."
+description: "Tocsin is a non-player character (NPC) in Andor's Trail, found in Undertell 4 00."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_161.png){ .sprite } Tocsin
 
-**Where to find Tocsin:** [undertell_4_00](../maps/undertell_4_00.md#pin-npc-tocsin)
+**Where to find Tocsin:** [Undertell 4 00](../maps/undertell_4_00.md#pin-npc-tocsin)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tocsin is a non-player character (NPC) in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_4_00 |
+| **Found in** | Undertell 4 00 |
 | **Entry ID** | `tocsin` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -21,11 +21,11 @@ description: "Tocsin is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 95
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 95
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tocsin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tocsin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tocsin_selector.json" data-npc="Tocsin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tocsin_selector"></span>**`tocsin_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -48,9 +48,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-tocsin_switch"></span>**`tocsin_switch`** [Kha'zaan Porter](../monsters/porter.md): “What is wrong with you?”
 
     - “Nothing.” → [tocsin_porter_10](#d-tocsin_porter_10)
-    - “Nothing. I'm just happy to still have ten fingers!” *(if reached stage 95 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [tocsin_porter_10](#d-tocsin_porter_10)
+    - “Nothing. I'm just happy to still have ten fingers!” *(if reached stage 95 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [tocsin_porter_10](#d-tocsin_porter_10)
 
-    <span id="d-tocsin_rotten_20"></span>**`tocsin_rotten_20`** [Dummy NPC](../monsters/none.md): “The creature lunges forward...you pull back moments before it clamps onto your hand!” — **effects:** sets stage 95 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-95)
+    <span id="d-tocsin_rotten_20"></span>**`tocsin_rotten_20`** [Dummy NPC](../monsters/none.md): “The creature lunges forward...you pull back moments before it clamps onto your hand!” — **effects:** sets stage 95 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-95)
 
     - Next → [tocsin_switch](#d-tocsin_switch)
 
@@ -69,8 +69,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-porter_pet_15"></span>**`porter_pet_15`** Tocsin: “She helps me do my job of preventing rift rafts such as yourself from passing through this here door.”
 
-    - “But what's through that door?” *(if NOT reached stage 95 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [porter_door_10](#d-porter_door_10)
-    - “But what's through that door?” *(if reached stage 95 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [porter_pet_hungry_10](#d-porter_pet_hungry_10)
+    - “But what's through that door?” *(if NOT reached stage 95 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [porter_door_10](#d-porter_door_10)
+    - “But what's through that door?” *(if reached stage 95 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-95))* → [porter_pet_hungry_10](#d-porter_pet_hungry_10)
 
     <span id="d-porter_pet_20"></span>**`porter_pet_20`** Tocsin: “Well, you are an explorer, so you will find yourself in places unsuitable for pets.”
 

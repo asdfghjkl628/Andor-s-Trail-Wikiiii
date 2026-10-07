@@ -36,17 +36,17 @@ description: "Weak poison is a ordinary potion in Andor's Trail. How to get it: 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Venomous beach crawler](../monsters/beach_crawler_1.md) | 15% | 1-2 | island3, island4, laerothcave0 |
+| [Venomous beach crawler](../monsters/beach_crawler_1.md) | 15% | 1-2 | Island 3, Island 4, Laerothcave 0 |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 5% | 1-3 | Blackwater Mountain |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 5% | 1-3 | Blackwater Mountain |
 
 ### Sold by
 
-- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+- [Mazeg](../monsters/mazeg.md) (Blackwater mountain 43)
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 5%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 5%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,8 +57,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Drunk](../monsters/drunk.md) ([crossglen_hall](../maps/crossglen_hall.md)) | – | handed over (1×) | “Well, if you really want to. But I have a new and definitive game for you. Here,” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-252) | handed over (1×) | “Here, have this nice potion. [give her a poison potion]” |
+| [Drunk](../monsters/drunk.md) ([Crossglen hall](../maps/crossglen_hall.md)) | – | handed over (1×) | “Well, if you really want to. But I have a new and definitive game for you. Here,” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-252) | handed over (1×) | “Here, have this nice potion. [give her a poison potion]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

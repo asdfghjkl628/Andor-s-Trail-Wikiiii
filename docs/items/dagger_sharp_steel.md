@@ -44,7 +44,7 @@ description: "Sharp steel dagger is a ordinary dagger in Andor's Trail (Attack d
 - [Ailshara](../monsters/ailshara.md) (Crossroads Guardhouse)
 - [Arnal](../monsters/arnal.md) (Remgard)
 - [Quiet thief](../monsters/stoutford_thief.md) (Stoutford)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 - [Truric](../monsters/truric.md) (Brimhaven)
 
 

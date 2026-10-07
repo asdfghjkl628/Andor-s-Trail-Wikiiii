@@ -4,7 +4,7 @@ description: "Briwerra's family cat is an enemy in Andor's Trail (animal) with 1
 
 # ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } Briwerra's family cat
 
-**Found in:** Sullengard: [sullengard1_southeast_house](../maps/sullengard1_southeast_house.md)
+**Found in:** Sullengard: [Sullengard 1 southeast house](../maps/sullengard1_southeast_house.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Briwerra's family cat is an enemy in Andor's Trail (animal) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard1_southeast_house](../maps/sullengard1_southeast_house.md) | Sullengard | 1 | – |
+| [Sullengard 1 southeast house](../maps/sullengard1_southeast_house.md) | Sullengard | 1 | – |
 
 
 ## Version history

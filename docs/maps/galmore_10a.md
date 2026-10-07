@@ -11,7 +11,7 @@ description: "Galmore 10a is an outdoor location in Andor's Trail. Enemies: Hard
 | **Map ID** | `galmore_10a` |
 | **Type** | Outdoors |
 | **Size** | 30×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **Enemy types** | 2 |
 | **Quests** | 2 |

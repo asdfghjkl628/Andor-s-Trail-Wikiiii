@@ -4,7 +4,7 @@ description: "Prim tavern regular is a non-player character (NPC) in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_rltiles1_106.png){ .sprite } Prim tavern regular
 
-**Where to find Prim tavern regular:** Prim: [blackwater_mountain22](../maps/blackwater_mountain22.md#pin-npc-prim_tavern_regular)
+**Where to find Prim tavern regular:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-prim_tavern_regular)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Prim tavern regular is a non-player character (NPC) in Andor's Tra
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim tavern regular. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim tavern regular. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_tavern_guest2.json" data-npc="Prim tavern regular" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_tavern_guest2"></span>**`prim_tavern_guest2`** Prim tavern regular: “*hic* Hey theeere kid. Will you buy an old-timer like me a new round of mead?”
 

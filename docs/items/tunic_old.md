@@ -39,7 +39,7 @@ description: "Old tunic is a ordinary armor, cloth in Andor's Trail (Move cost +
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [waterwaya6](../maps/waterwaya6.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-130) (4×)
+- From stepping on a trigger on [Waterwaya 6](../maps/waterwaya6.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-130) (4×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

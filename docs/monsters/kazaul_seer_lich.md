@@ -1,5 +1,5 @@
 ---
-description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP, worth 842 XP, found in undertell_4_01, undertell_5, undertell_4_00, undertell_4_11, undertell_7_11, undertell_4_00, undertell_4_01, undertell_4_10, undertell_4_00, undertell_4_10, undertell_4_11. Drops: Gold coins, Lich dust,…"
+description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP, worth 842 XP, found in Undertell 4 01, Undertell 5, Undertell 4 00, Undertell 4 11, Undertell 7 11, Undertell 4 00, Undertell 4 01, Undertell 4 10, Undertell 4 00, Undertell 4 10, Undertell 4 11. Drops: Gold coins, Lich dust,…"
 ---
 
 # ![](../assets/icons/monsters/monsters_antison_3.png){ .sprite } Kazaul seer lich
@@ -11,7 +11,7 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_4_01, undertell_5, undertell_4_00, undertell_4_11, undertell_7_11, undertell_4_00, undertell_4_01, undertell_4_10, undertell_4_00, undertell_4_10, undertell_4_11 |
+| **Found in** | Undertell 4 01, Undertell 5, Undertell 4 00, Undertell 4 11, Undertell 7 11, Undertell 4 00, Undertell 4 01, Undertell 4 10, Undertell 4 00, Undertell 4 10, Undertell 4 11 |
 | **Class** | Undead |
 | **HP** | 295 |
 | **XP when defeated** | 842 |
@@ -21,20 +21,20 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Kazaul seer lich. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Kazaul seer lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`kazaul_seer_lich`](#v-kazaul_seer_lich) | Enemy | [undertell_4_01](../maps/undertell_4_01.md), [undertell_5](../maps/undertell_5.md) | – | 295 |
-| [`kazaul_seer_lich_help_liches`](#v-kazaul_seer_lich_help_liches) | Enemy | [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_11](../maps/undertell_4_11.md) (+1 more) | – | 295 |
-| [`kazaul_seer_lich_help_others`](#v-kazaul_seer_lich_help_others) | Enemy | [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_01](../maps/undertell_4_01.md) (+3 more) | – | 295 |
-| [`kazaul_seer_lich_help_plague`](#v-kazaul_seer_lich_help_plague) | Enemy | [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_10](../maps/undertell_4_10.md) (+5 more) | – | 295 |
+| [`kazaul_seer_lich`](#v-kazaul_seer_lich) | Enemy | [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md) | – | 295 |
+| [`kazaul_seer_lich_help_liches`](#v-kazaul_seer_lich_help_liches) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 11](../maps/undertell_4_11.md) (+1 more) | – | 295 |
+| [`kazaul_seer_lich_help_others`](#v-kazaul_seer_lich_help_others) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md) (+3 more) | – | 295 |
+| [`kazaul_seer_lich_help_plague`](#v-kazaul_seer_lich_help_plague) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 10](../maps/undertell_4_10.md) (+5 more) | – | 295 |
 
 ## Undertell 4 01 and 1 more (kazaul_seer_lich) { #v-kazaul_seer_lich }
 
 **Entry ID:** `kazaul_seer_lich` · **Type:** Enemy
 
-**Location:** [undertell_4_01](../maps/undertell_4_01.md), [undertell_5](../maps/undertell_5.md)
+**Location:** [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md)
 
 ### Combat statistics
 
@@ -75,8 +75,8 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_4_01](../maps/undertell_4_01.md) | – | 2 | – |
-| [undertell_5](../maps/undertell_5.md) | – | 4 | – |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 2 | – |
+| [Undertell 5](../maps/undertell_5.md) | – | 4 | – |
 
 
 ### Version history
@@ -151,7 +151,7 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 **Entry ID:** `kazaul_seer_lich_help_liches` · **Type:** Enemy
 
-**Location:** [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_11](../maps/undertell_4_11.md), [undertell_7_11](../maps/undertell_7_11.md)
+**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 11](../maps/undertell_7_11.md)
 
 ### Combat statistics
 
@@ -192,9 +192,9 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 1 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 1 | – |
-| [undertell_7_11](../maps/undertell_7_11.md) | – | 4 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 4 | – |
 
 
 ### Version history
@@ -270,7 +270,7 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 **Entry ID:** `kazaul_seer_lich_help_others` · **Type:** Enemy
 
-**Location:** [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_01](../maps/undertell_4_01.md), [undertell_4_10](../maps/undertell_4_10.md), [undertell_4_11](../maps/undertell_4_11.md), [undertell_7_01](../maps/undertell_7_01.md)
+**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 01](../maps/undertell_7_01.md)
 
 ### Combat statistics
 
@@ -311,11 +311,11 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 1 | – |
-| [undertell_4_01](../maps/undertell_4_01.md) | – | 2 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 1 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 1 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 1 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 2 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 1 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 1 | – |
 
 
 ### Version history
@@ -391,7 +391,7 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 **Entry ID:** `kazaul_seer_lich_help_plague` · **Type:** Enemy
 
-**Location:** [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_10](../maps/undertell_4_10.md), [undertell_4_11](../maps/undertell_4_11.md), [undertell_7_00](../maps/undertell_7_00.md), [undertell_7_01](../maps/undertell_7_01.md), [undertell_7_10](../maps/undertell_7_10.md) (+1 more)
+**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 00](../maps/undertell_7_00.md), [Undertell 7 01](../maps/undertell_7_01.md), [Undertell 7 10](../maps/undertell_7_10.md) (+1 more)
 
 ### Combat statistics
 
@@ -432,13 +432,13 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 1 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 2 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 1 | – |
-| [undertell_7_00](../maps/undertell_7_00.md) | – | 2 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 2 | – |
-| [undertell_7_10](../maps/undertell_7_10.md) | – | 3 | – |
-| [undertell_7_11](../maps/undertell_7_11.md) | – | 1 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 2 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 00](../maps/undertell_7_00.md) | – | 2 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 2 | – |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 3 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 1 | – |
 
 
 ### Version history

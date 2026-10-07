@@ -22,7 +22,7 @@ description: "Old Teddy Bear is a ordinary other in Andor's Trail. How to get it
 
 ### Found in containers
 
-- [guynmart_tower_3](../maps/guynmart_tower_3.md#container-0) (container 1, 100%), Guynmart Castle
+- [Guynmart tower 3](../maps/guynmart_tower_3.md#container-0) (container 1, 100%), Guynmart Castle
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -33,7 +33,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Look, here I have a nice teddy bear for you.” |
+| [Stuephant](../monsters/guynmart_child.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Look, here I have a nice teddy bear for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

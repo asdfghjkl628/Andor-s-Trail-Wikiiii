@@ -30,9 +30,9 @@ description: "Haste is a beneficial physical condition in Andor's Trail: max AP 
 | Use item cost (AP) | −2 |
 | Re-equip cost (AP) | −2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -50,7 +50,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | 2 rounds |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | – | 2 rounds |
 
 ## Applied to enemies
 
@@ -66,12 +66,12 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 ## Checked in dialogue
 
-- stepping on a trigger on [guynmart_wood_18](../maps/guynmart_wood_18.md), stepping on a trigger on [guynmart_wood_18b](../maps/guynmart_wood_18b.md) checks whether you do not have this condition.
-- stepping on a trigger on [guynmart_wood_18c](../maps/guynmart_wood_18c.md) checks whether you do not have this condition.
+- stepping on a trigger on [Guynmart wood 18](../maps/guynmart_wood_18.md), stepping on a trigger on [Guynmart wood 18b](../maps/guynmart_wood_18b.md) checks whether you do not have this condition.
+- stepping on a trigger on [Guynmart wood 18c](../maps/guynmart_wood_18c.md) checks whether you do not have this condition.
 
 
 ## Community notes

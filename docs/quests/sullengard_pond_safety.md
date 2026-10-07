@@ -11,9 +11,9 @@ description: "Pond safety is a quest in Andor's Trail, started by Nanette (sulle
 | **Quest ID** | `sullengard_pond_safety` |
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 50) |
-| **Started by** | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) |
+| **Started by** | [Nanette](../monsters/sullengard_nanette.md) ([Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md)) |
 | **NPCs involved** | [Kealwea](../monsters/sullengard_priest.md), [Nanette](../monsters/sullengard_nanette.md) |
-| **Locations** | [sullengard2_northwest_house](../maps/sullengard2_northwest_house.md), [sullengard_church](../maps/sullengard_church.md) |
+| **Locations** | [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md), [Sullengard church](../maps/sullengard_church.md) |
 | **Total XP** | 2,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Pond safety is a quest in Andor's Trail, started by Nanette (sulle
 
 ## Prerequisites to start
 
-Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)). Required:
+Start with [Nanette](../monsters/sullengard_nanette.md) ([Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md)). Required:
 
 - latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-10) is 10
 
@@ -38,43 +38,79 @@ Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 reached, for stage 40 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 reached, for stage 40 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Nanette was troubled that her pond is unsafe because of the monsters that emerged in the pond.  | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) | – | – |
-| <span id="stage-20"></span>20 | I accepted her request to clear out the monsters in her pond area so that she could enjoy the pond again. | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | I have now cleared the pond area. Nanette told me that I should talk to Kaelwea, the priest of Sullengard, to see if he has some information about the cause of the monster's appearance in the pond area. | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) | stage 20 | – |
-| <span id="stage-40"></span>40 | The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I should better tell her the moral of the story. | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | stage 30 | – |
-| <span id="stage-50"></span>50 | I told Nanette the moral of the story. She had already learned from her mistake and she promised never to do it again just to release her anger issue against the unfair taxes of Feygard. **(completes quest)** | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) | stage 40 | 2,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Nanette was troubled that her pond is unsafe because of the monsters… ▸</span><span class="l">▴ less</span></summary>Nanette was troubled that her pond is unsafe because of the monsters that emerged in the pond.</details> | [Nanette](../monsters/sullengard_nanette.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I accepted her request to clear out the monsters in her pond area so… ▸</span><span class="l">▴ less</span></summary>I accepted her request to clear out the monsters in her pond area so that she could enjoy the pond again.</details> | [Nanette](../monsters/sullengard_nanette.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I have now cleared the pond area. Nanette told me that I should talk… ▸</span><span class="l">▴ less</span></summary>I have now cleared the pond area. Nanette told me that I should talk to Kaelwea, the priest of Sullengard, to see if he has some information about the cause of the monster's appearance in the pond area.</details> | [Nanette](../monsters/sullengard_nanette.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">The priest Kaelwea told me a story about his strange experience same… ▸</span><span class="l">▴ less</span></summary>The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I should better tell her the moral of the story.</details> | [Kealwea](../monsters/sullengard_priest.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I told Nanette the moral of the story. She had already learned from… ▸</span><span class="l">▴ less</span></summary>I told Nanette the moral of the story. She had already learned from her mistake and she promised never to do it again just to release her anger issue against the unfair taxes of Feygard.</details> **(ends quest)** | [Nanette](../monsters/sullengard_nanette.md) | 2,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) → the conversation leads here automatically — **conditions:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-10) is 10 → **stage 10**. NPC: “[Sigh]. Please help me. For I'm longing to enjoy my pond again.”
+??? note "Stage 10 · Nanette · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Nanette](../monsters/sullengard_nanette.md), automatic
 
-    1. Talk to [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) → choose “Fine. I'm going now.” — **conditions:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-10) is 10 → **stage 20**. NPC: “Remember. It is just southeast from here.”
+    - **Needs:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-10) is 10
+    - *“[Sigh]. Please help me. For I'm longing to enjoy my pond again.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) → choose “Yes, your pond is safe again. May I know the cause of it?” — **conditions:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-20) is 20; killed 26× [Sullengard snapper](../monsters/sullengard_snapper.md) → **stage 30**. NPC: “I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Nanette · 1 way"
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “I will listen to your story.” — **conditions:** reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 30 of [Pond safety](../quests/sullengard_pond_safety.md#stage-30); NOT reached stage 40 of [Pond safety](../quests/sullengard_pond_safety.md#stage-40) → **stage 40**. NPC: “The moral of my story is to never again to throw rocks there, be it small or large. Thank you for listening. Please…”
+    **Way 1:** Talk to [Nanette](../monsters/sullengard_nanette.md), choose “Fine. I'm going now.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-10) is 10
+    - *“Remember. It is just southeast from here.”*
 
-    1. Talk to [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) → choose “Don't throw pebbles into the pond. You might disturb whatever lies beneath the surface.” — **conditions:** reached stage 40 of [Pond safety](../quests/sullengard_pond_safety.md#stage-40) → **stage 50**. NPC: “Oh. I remember now. I kept throwing pebbles on the pond to relieve my anger issues caused by the unfair taxes of…”
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Nanette · 1 way"
+
+    **Way 1:** Talk to [Nanette](../monsters/sullengard_nanette.md), choose “Yes, your pond is safe again. May I know the cause of it?”
+
+    - **Needs:** latest stage of [Pond safety](../quests/sullengard_pond_safety.md#stage-20) is 20; killed 26× [Sullengard snapper](../monsters/sullengard_snapper.md)
+    - *“I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Kealwea · 1 way"
+
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “I will listen to your story.”
+
+    - **Needs:** stage 30; not yet stage 40; reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    - *“The moral of my story is to never again to throw rocks there, be it small or large. Thank you for listening. Please talk to Nanette about…”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Nanette · 1 way"
+
+    **Way 1:** Talk to [Nanette](../monsters/sullengard_nanette.md), choose “Don't throw pebbles into the pond. You might disturb whatever lies beneath the surface.”
+
+    - **Needs:** stage 40
+    - *“Oh. I remember now. I kept throwing pebbles on the pond to relieve my anger issues caused by the unfair taxes of Feygard.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

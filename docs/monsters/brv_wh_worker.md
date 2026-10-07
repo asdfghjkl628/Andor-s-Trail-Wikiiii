@@ -18,23 +18,23 @@ description: "Warehouse worker is a non-player character (NPC) in Andor's Trail,
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Warehouse worker. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Warehouse worker. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_wh_worker`](#v-brv_wh_worker) | NPC | Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker) | – |
-| [`brv_wh_worker2`](#v-brv_wh_worker2) | NPC | Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2) | – |
-| [`brv_wh_worker3`](#v-brv_wh_worker3) | NPC | Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3) | – |
+| [`brv_wh_worker`](#v-brv_wh_worker) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker) | – |
+| [`brv_wh_worker2`](#v-brv_wh_worker2) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2) | – |
+| [`brv_wh_worker3`](#v-brv_wh_worker3) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3) | – |
 
 ## Brimhaven, Brimhaven warehouse (brv_wh_worker) { #v-brv_wh_worker }
 
 **Entry ID:** `brv_wh_worker` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker)
+**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Warehouse worker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_wh_worker-brv_wh_worker"></span>**`brv_wh_worker`** Warehouse worker: “Do you have some work for me to do?”
 
@@ -90,11 +90,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_wh_worker2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2)
+**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Warehouse worker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -144,11 +144,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_wh_worker3` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3)
+**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Warehouse worker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

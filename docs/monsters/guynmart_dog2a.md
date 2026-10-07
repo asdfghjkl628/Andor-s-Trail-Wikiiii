@@ -21,18 +21,18 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Wild dog. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Wild dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`guynmart_dog2a`](#v-guynmart_dog2a) | Enemy | Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | 40 |
-| [`guynmart_dog3a`](#v-guynmart_dog3a) | Enemy | Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | 40 |
+| [`guynmart_dog2a`](#v-guynmart_dog2a) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md) | – | 40 |
+| [`guynmart_dog3a`](#v-guynmart_dog3a) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md) | – | 40 |
 
 ## Guynmart Castle, Guynmart wood 2 (guynmart_dog2a) { #v-guynmart_dog2a }
 
 **Entry ID:** `guynmart_dog2a` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md)
+**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
 ### Combat statistics
 
@@ -68,7 +68,7 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 9 | Appears later, during a quest |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 9 | Appears later, during a quest |
 
 
 ### Version history
@@ -122,7 +122,7 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 
 **Entry ID:** `guynmart_dog3a` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md)
+**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
 ### Combat statistics
 
@@ -158,7 +158,7 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 5 | Appears later, during a quest |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 5 | Appears later, during a quest |
 
 
 ### Version history

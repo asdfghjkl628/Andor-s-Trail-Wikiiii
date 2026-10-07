@@ -28,7 +28,7 @@ description: "Garnet stone is a rare gem in Andor's Trail. How to get it: monste
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dark spirit minion](../monsters/dark_spirit_minion.md) | 25% | 1 | galmore_32 |
+| [Dark spirit minion](../monsters/dark_spirit_minion.md) | 25% | 1 | Galmore 32 |
 | [Embergeist](../monsters/embergeist.md) | 8% | 1 | Mt. Galmore |
 | [Pyreling](../monsters/pyreling.md) | 5% | 1 | Mt. Galmore |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 3% | 1 | Mt. Galmore |
@@ -38,8 +38,8 @@ description: "Garnet stone is a rare gem in Andor's Trail. How to get it: monste
 
 ### Found in containers
 
-- [galmore_53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
-- [galmore_64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

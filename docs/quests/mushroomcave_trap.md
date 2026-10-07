@@ -1,8 +1,8 @@
 ---
-description: "mushroomcave_trap is a hidden quest in Andor's Trail, started by stepping on a trigger on mushroom_m2_2. 1 stages."
+description: "Mushroom cave trap is a hidden quest in Andor's Trail, started by stepping on a trigger on mushroom_m2_2. 1 stages."
 ---
 
-# mushroomcave_trap
+# Mushroom cave trap
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,13 +14,13 @@ description: "mushroomcave_trap is a hidden quest in Andor's Trail, started by s
 | **Quest ID** | `mushroomcave_trap` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
-| **Started by** | stepping on a trigger on [mushroom_m2_2](../maps/mushroom_m2_2.md) |
+| **Started by** | stepping on a trigger on [Mushroom m 2 2](../maps/mushroom_m2_2.md) |
 
 </div>
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [mushroom_m2_2](../maps/mushroom_m2_2.md) to begin.
+None: talk to stepping on a trigger on [Mushroom m 2 2](../maps/mushroom_m2_2.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -33,19 +33,31 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m2 2](../maps/mushroom_m2_2.md).</span> | stepping on a trigger on [mushroom_m2_2](../maps/mushroom_m2_2.md) | – | applies condition bleeding_wound |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m 2 2](../maps/mushroom_m2_2.md).</span> | stepping on a trigger on [Mushroom m 2 2](../maps/mushroom_m2_2.md) | applies condition bleeding_wound |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [mushroom_m2_2](../maps/mushroom_m2_2.md) → the conversation leads here automatically → **stage 10**; also applies condition bleeding_wound. NPC: “A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground.”
+??? note "Stage 10 · stepping on a trigger on mushroom_m2_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mushroom m 2 2](../maps/mushroom_m2_2.md)
+
+    - **Gives:** applies condition bleeding_wound
+    - *“A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -90,6 +102,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `mushroomcave_trap` |
+    | Name in game data | `mushroomcave_trap` |
     | showInLog | 0 |
     | Stage IDs | 10 |
     | Dialogue nodes setting stages | 10: `mushroomcave_trap` |

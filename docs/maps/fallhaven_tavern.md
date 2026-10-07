@@ -61,9 +61,9 @@ description: "Fallhaven tavern is an indoor location in Andor's Trail, in Fallha
 
 - [The ruthless Crackshot](../quests/Thieves03.md): blocked passage opens at stage 3; something on this map advances it; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3
 - [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd2e) is involved
-- [Room to rent (hidden flag)](../quests/fallhaventavern.md): blocked passage opens at stage 10; blocked passage opens at stage 20
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): something on this map advances it; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd2e) is involved
+- [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md): blocked passage opens at stage 10; blocked passage opens at stage 20
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): something on this map advances it; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8
+- [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd2e) is involved
 
 ## Points of interest
 

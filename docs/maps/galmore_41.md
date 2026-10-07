@@ -11,7 +11,7 @@ description: "Galmore 41 is an outdoor location in Andor's Trail. NPCs: Borvis, 
 | **Map ID** | `galmore_41` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 4 |
 | **Enemy types** | 5 |
@@ -69,7 +69,7 @@ description: "Galmore 41 is an outdoor location in Andor's Trail. NPCs: Borvis, 
 
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): [Dark priest](../monsters/dds_dark_priest.md) is involved; [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) is involved; [Miri](../monsters/dds_miri.md) is involved
 - [Shadows](../quests/shadows.md): [Borvis](../monsters/dds_borvis.md) is involved; [Dark priest](../monsters/dds_dark_priest.md) is involved; [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) is involved
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): [Borvis](../monsters/dds_borvis.md) is involved; [Miri](../monsters/dds_miri.md) is involved
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): [Borvis](../monsters/dds_borvis.md) is involved; [Miri](../monsters/dds_miri.md) is involved
 
 
 ## Version history

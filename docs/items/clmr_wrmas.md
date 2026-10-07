@@ -53,7 +53,7 @@ description: "Wraith's massive claymore is a extraordinary two-handed sword in A
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Branchtender](../monsters/brtender1.md) | 0.1% | 1 | Loneford |
-| [Frantic branchtender](../monsters/brtender2.md) | 0.1% | 1 | lodar19 |
+| [Frantic branchtender](../monsters/brtender2.md) | 0.1% | 1 | Lodar 19 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

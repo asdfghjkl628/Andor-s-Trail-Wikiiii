@@ -1,10 +1,10 @@
 ---
-description: "Glowing abcess is an enemy in Andor's Trail (construct) with 91 HP, worth 258 XP, found in lostmine6, lostmine7, lostmine8. Drops: Burnt ash, Glass gem."
+description: "Glowing abcess is an enemy in Andor's Trail (construct) with 91 HP, worth 258 XP, found in Lostmine 6, Lostmine 7, Lostmine 8. Drops: Burnt ash, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_154.png){ .sprite } Glowing abcess
 
-**Found in:** [lostmine6](../maps/lostmine6.md), [lostmine7](../maps/lostmine7.md), [lostmine8](../maps/lostmine8.md)
+**Found in:** [Lostmine 6](../maps/lostmine6.md), [Lostmine 7](../maps/lostmine7.md), [Lostmine 8](../maps/lostmine8.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Glowing abcess is an enemy in Andor's Trail (construct) with 91 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine6, lostmine7, lostmine8 |
+| **Found in** | Lostmine 6, Lostmine 7, Lostmine 8 |
 | **Class** | Construct |
 | **HP** | 91 |
 | **XP when defeated** | 258 |
@@ -61,9 +61,9 @@ description: "Glowing abcess is an enemy in Andor's Trail (construct) with 91 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine6](../maps/lostmine6.md) | – | 2 | – |
-| [lostmine7](../maps/lostmine7.md) | – | 24 | – |
-| [lostmine8](../maps/lostmine8.md) | – | 6 | – |
+| [Lostmine 6](../maps/lostmine6.md) | – | 2 | – |
+| [Lostmine 7](../maps/lostmine7.md) | – | 24 | – |
+| [Lostmine 8](../maps/lostmine8.md) | – | 6 | – |
 
 
 ## Version history

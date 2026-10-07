@@ -43,7 +43,7 @@ description: "Blackwater ring of combat is a rare ring in Andor's Trail (Attack 
 
 ### Sold by
 
-- [Iducus](../monsters/iducus.md) (blackwater_mountain44)
+- [Iducus](../monsters/iducus.md) (Blackwater mountain 44)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,5 +1,5 @@
 ---
-description: "Lake shore road 4 is an outdoor location in Andor's Trail. Enemies: Pond fish, Blue fish. Exits to Mywildcave, Lake shore road 6."
+description: "Lake shore road 4 is an outdoor location in Andor's Trail. Enemies: Blue fish, Pond fish. Exits to Mywildcave, Lake shore road 6."
 ---
 
 # Lake shore road 4
@@ -11,7 +11,7 @@ description: "Lake shore road 4 is an outdoor location in Andor's Trail. Enemies
 | **Map ID** | `lake_shore_road_4` |
 | **Type** | Outdoors |
 | **Size** | 30×23 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
@@ -50,8 +50,8 @@ description: "Lake shore road 4 is an outdoor location in Andor's Trail. Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 4 | – |
 | [Blue fish](../monsters/fish_school.md) | 0 | 0–0 | 7 | – |
+| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

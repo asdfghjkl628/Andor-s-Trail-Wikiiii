@@ -1,5 +1,5 @@
 ---
-description: "Waterwaybhouse is an indoor location in Andor's Trail. NPCs: Cithurn, Cithurn's cat. Exits to Waterwayb4."
+description: "Waterwaybhouse is an indoor location in Andor's Trail. NPCs: Cithurn, Cithurn's cat. Exits to Waterwayb 4."
 ---
 
 # Waterwaybhouse
@@ -17,19 +17,19 @@ description: "Waterwaybhouse is an indoor location in Andor's Trail. NPCs: Cithu
 
 </div>
 
-**Waterwaybhouse** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Waterwayb4.
+**Waterwaybhouse** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Waterwayb 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwaybhouse.webp" alt="Map of Waterwaybhouse" width="416" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waterwayb4/#place-north" title="Exit to Waterwayb4" style="left:23.077%;top:88.889%;width:7.692%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Cithurn" style="left:46.154%;top:55.556%;width:23.077%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Cithurn&#x27;s cat" style="left:23.077%;top:44.444%;width:38.462%;height:11.111%"></span><a class="mob" href="../../monsters/waterwayhermit/" title="Cithurn" style="left:46.154%;top:55.556%;width:7.692%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_30.png" alt="Cithurn"></a><a class="mob" href="../../monsters/cithurncat/" title="Cithurn&#x27;s cat" style="left:46.154%;top:44.444%;width:7.692%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_103.png" alt="Cithurn&#x27;s cat"></a><a class="pin pin-exit" href="#key-1" style="left:26.923%;top:94.444%" title="Exit (south): to [Waterwayb4](waterwayb4.md)">1</a><a id="pin-npc-waterwayhermit" class="pin pin-npc" href="#key-2" style="left:50.000%;top:61.111%" title="[Cithurn](../../monsters/waterwayhermit.md): 1 quest">2</a><a id="pin-npc-cithurncat" class="pin pin-npc" href="#key-3" style="left:50.000%;top:50.000%" title="[Cithurn&#x27;s cat](../../monsters/cithurncat.md): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwaybhouse.webp" alt="Map of Waterwaybhouse" width="416" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waterwayb4/#place-north" title="Exit to Waterwayb 4" style="left:23.077%;top:88.889%;width:7.692%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Cithurn" style="left:46.154%;top:55.556%;width:23.077%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Cithurn&#x27;s cat" style="left:23.077%;top:44.444%;width:38.462%;height:11.111%"></span><a class="mob" href="../../monsters/waterwayhermit/" title="Cithurn" style="left:46.154%;top:55.556%;width:7.692%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld1_30.png" alt="Cithurn"></a><a class="mob" href="../../monsters/cithurncat/" title="Cithurn&#x27;s cat" style="left:46.154%;top:44.444%;width:7.692%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_103.png" alt="Cithurn&#x27;s cat"></a><a class="pin pin-exit" href="#key-1" style="left:26.923%;top:94.444%" title="Exit (south): to [Waterwayb 4](waterwayb4.md)">1</a><a id="pin-npc-waterwayhermit" class="pin pin-npc" href="#key-2" style="left:50.000%;top:61.111%" title="[Cithurn](../../monsters/waterwayhermit.md): 1 quest">2</a><a id="pin-npc-cithurncat" class="pin pin-npc" href="#key-3" style="left:50.000%;top:50.000%" title="[Cithurn&#x27;s cat](../../monsters/cithurncat.md): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Waterwayb4](waterwayb4.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Waterwayb 4](waterwayb4.md) |
     | <span id="key-2"></span>2 | [Cithurn](../monsters/waterwayhermit.md) | 1 quest |
     | <span id="key-3"></span>3 | [Cithurn's cat](../monsters/cithurncat.md) | NPC |
 
@@ -40,7 +40,7 @@ description: "Waterwaybhouse is an indoor location in Andor's Trail. NPCs: Cithu
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Waterwayb4](waterwayb4.md) | – | 1 |
+| South | [Waterwayb 4](waterwayb4.md) | – | 1 |
 
 ## NPCs
 
@@ -50,7 +50,7 @@ description: "Waterwaybhouse is an indoor location in Andor's Trail. NPCs: Cithu
 ## Quests
 
 - [Just the beginning](../quests/waterwayacave.md): [Cithurn](../monsters/waterwayhermit.md) is involved
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): [Cithurn's cat](../monsters/cithurncat.md) is involved; [Cithurn](../monsters/waterwayhermit.md) is involved
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): [Cithurn's cat](../monsters/cithurncat.md) is involved; [Cithurn](../monsters/waterwayhermit.md) is involved
 
 
 ## Version history

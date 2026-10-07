@@ -26,7 +26,7 @@ description: "Rare coins is a rare money in Andor's Trail. How to get it: quests
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [undertell_3_02](../maps/undertell_3_02.md) during [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-84) (1×)
+- From walking into a blocked passage on [Undertell 3 02](../maps/undertell_3_02.md) during [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-84) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,7 +37,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found these coins [showing Ysrine the rare coins] here in Undertell. Are you f” |
+| [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found these coins [showing Ysrine the rare coins] here in Undertell. Are you f” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

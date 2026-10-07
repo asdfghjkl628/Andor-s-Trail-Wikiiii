@@ -4,7 +4,7 @@ description: "Torilo is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Torilo
 
-**Where to find Torilo:** Foaming Flask Tavern: [foaming_flask](../maps/foaming_flask.md#pin-npc-torilo)
+**Where to find Torilo:** Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-torilo)
 
 <div class="infobox" markdown>
 
@@ -34,11 +34,11 @@ description: "Torilo is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Beer Bootlegging](../quests/beer_bootlegging.md): stage 20
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 10
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Torilo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Torilo. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/torilo_1.json" data-npc="Torilo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (26 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-torilo_1"></span>**`torilo_1`** Torilo: “Welcome to the Foaming Flask tavern. We welcome all travelers in here.”
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-torilo_rest_select"></span>**`torilo_rest_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 10 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10))* → [torilo_rest_1](#d-torilo_rest_1)
+    - branch 1 *(if reached stage 10 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-10))* → [torilo_rest_1](#d-torilo_rest_1)
     - branch 2 → [torilo_rest_3](#d-torilo_rest_3)
 
     <span id="d-torilo_guards_1"></span>**`torilo_guards_1`** Torilo: “*Sigh* Yes. Those guards have been here for quite some time now.”
@@ -131,7 +131,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Funny, I thought it was because you are a jerk.” → *conversation ends*
     - “Oh, fine! What do you want? Gold? How much?” → [torilo_beer_40](#d-torilo_beer_40)
 
-    <span id="d-torilo_rest_6"></span>**`torilo_rest_6`** Torilo: “Thank you. The room is now rented to you.” — **effects:** sets stage 10 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10)
+    <span id="d-torilo_rest_6"></span>**`torilo_rest_6`** Torilo: “Thank you. The room is now rented to you.” — **effects:** sets stage 10 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-10)
 
     - Next → [torilo_rest_2](#d-torilo_rest_2)
 
@@ -176,7 +176,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 11 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?”<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -38,7 +38,7 @@ description: "Blackwater leather armor is a rare armor, leather in Andor's Trail
 
 ### Sold by
 
-- [Iducus](../monsters/iducus.md) (blackwater_mountain44)
+- [Iducus](../monsters/iducus.md) (Blackwater mountain 44)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

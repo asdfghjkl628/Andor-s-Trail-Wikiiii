@@ -4,7 +4,7 @@ description: "Unknown well voice is an enemy in Andor's Trail (humanoid) with 1 
 
 # ![](../assets/icons/monsters/monsters_unknown_0.png){ .sprite } Unknown well voice
 
-**Found in:** Wexlow Village: [wexlow_village](../maps/wexlow_village.md)
+**Found in:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Unknown well voice is an enemy in Andor's Trail (humanoid) with 1 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wexlow_village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
+| [Wexlow village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
 
 
 ## Version history

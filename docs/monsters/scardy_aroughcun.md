@@ -4,7 +4,7 @@ description: "Scardy aroughcun is an enemy in Andor's Trail (animal) with 170 HP
 
 # ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } Scardy aroughcun
 
-**Found in:** Mt. Galmore: [galmore_47](../maps/galmore_47.md), Mt. Galmore: [galmore_57](../maps/galmore_57.md), Mt. Galmore: [galmore_58](../maps/galmore_58.md), Mt. Galmore: [galmore_67](../maps/galmore_67.md) (+1 more)
+**Found in:** Mt. Galmore: [Galmore 47](../maps/galmore_47.md), Mt. Galmore: [Galmore 57](../maps/galmore_57.md), Mt. Galmore: [Galmore 58](../maps/galmore_58.md), Mt. Galmore: [Galmore 67](../maps/galmore_67.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -58,11 +58,11 @@ description: "Scardy aroughcun is an enemy in Andor's Trail (animal) with 170 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_47](../maps/galmore_47.md) | Mt. Galmore | 1 | – |
-| [galmore_57](../maps/galmore_57.md) | Mt. Galmore | 1 | – |
-| [galmore_58](../maps/galmore_58.md) | Mt. Galmore | 3 | – |
-| [galmore_67](../maps/galmore_67.md) | Mt. Galmore | 3 | – |
-| [galmore_rail_cave](../maps/galmore_rail_cave.md) | Mt. Galmore | 3 | – |
+| [Galmore 47](../maps/galmore_47.md) | Mt. Galmore | 1 | – |
+| [Galmore 57](../maps/galmore_57.md) | Mt. Galmore | 1 | – |
+| [Galmore 58](../maps/galmore_58.md) | Mt. Galmore | 3 | – |
+| [Galmore 67](../maps/galmore_67.md) | Mt. Galmore | 3 | – |
+| [Galmore rail cave](../maps/galmore_rail_cave.md) | Mt. Galmore | 3 | – |
 
 
 ## Version history

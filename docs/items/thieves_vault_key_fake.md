@@ -27,7 +27,7 @@ description: "Fake Thieve's Guild vault key is a quest other in Andor's Trail. H
 
 ### Quest & dialogue rewards
 
-- From [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Wanted men](../quests/wanted_men.md#stage-55) (100%)
+- From [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Wanted men](../quests/wanted_men.md#stage-55) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | [Wanted men](../quests/wanted_men.md#stage-56) | handed over (1×) | “Yes, Here it is. [Handing over the fake key] ” |
+| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([Aidem base 2](../maps/aidem_base_2.md)) | [Wanted men](../quests/wanted_men.md#stage-56) | handed over (1×) | “Yes, Here it is. [Handing over the fake key] ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

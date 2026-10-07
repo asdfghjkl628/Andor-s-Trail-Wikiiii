@@ -11,9 +11,9 @@ description: "Lost sheep is a quest in Andor's Trail, started by Tinlyn (fields6
 | **Quest ID** | `tinlyn` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 31, 60) |
-| **Started by** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
-| **NPCs involved** | [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Tinlyn](../monsters/tinlyn.md) |
-| **Locations** | [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md), [fields6](../maps/fields6.md) |
+| **Started by** | [Tinlyn](../monsters/tinlyn.md) ([Fields 6](../maps/fields6.md)) |
+| **NPCs involved** | [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Tinlyn](../monsters/tinlyn.md) |
+| **Locations** | [Fields 1](../maps/fields1.md), [Fields 2](../maps/fields2.md), [Fields 3](../maps/fields3.md), [Fields 6](../maps/fields6.md) |
 | **Total XP** | 800 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Lost sheep is a quest in Andor's Trail, started by Tinlyn (fields6
 
 ## Prerequisites to start
 
-Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Required:
+Start with [Tinlyn](../monsters/tinlyn.md) ([Fields 6](../maps/fields6.md)). Required:
 
 - reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15)
 
@@ -45,72 +45,157 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | On the road to Feygard, near the Feygard bridge, I met a shepherd named Tinlyn. Tinlyn told me that four of his sheep have wandered away and that he won't dare leave the remaining sheep to go look for them. | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 15 | – |
-| <span id="stage-15"></span>15 | I have agreed to help Tinlyn find his four lost sheep. | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | – | gives [Tinlyn's sheep bell](../items/tinlyn_bells.md) |
-| <span id="stage-20"></span>20 | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) | hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) | – |
-| <span id="stage-21"></span>21 | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) | hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) | – |
-| <span id="stage-22"></span>22 | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) | hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) | – |
-| <span id="stage-23"></span>23 | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) | hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) | – |
-| <span id="stage-25"></span>25 | I have found all four of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md))<br>+1 more | hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md), stage 20, stage 21, stage 22, stage 23 | – |
-| <span id="stage-30"></span>30 | Tinlyn thanked me for finding his lost sheep. **(completes quest)** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 15, stage 25 | 300 XP |
-| <span id="stage-31"></span>31 | Tinlyn thanked me for finding his lost sheep, but he had no reward to give me. **(completes quest)** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 15, stage 25 | 500 XP |
-| <span id="stage-60"></span>60 | I have attacked at least one of Tinlyn's lost sheep and I am therefore unable to return them all to Tinlyn. **(completes quest)** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md))<br>+3 more | stage 10, stage 20, stage 21, stage 22, stage 23 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">On the road to Feygard, near the Feygard bridge, I met a shepherd… ▸</span><span class="l">▴ less</span></summary>On the road to Feygard, near the Feygard bridge, I met a shepherd named Tinlyn. Tinlyn told me that four of his sheep have wandered away and that he won't dare leave the remaining sheep to go look for them.</details> | [Tinlyn](../monsters/tinlyn.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | I have agreed to help Tinlyn find his four lost sheep. | [Tinlyn](../monsters/tinlyn.md) | [Tinlyn's sheep bell](../items/tinlyn_bells.md) |
+| <span id="stage-20"></span>[20](#route-20) | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep1) | – |
+| <span id="stage-21"></span>[21](#route-21) | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep2) | – |
+| <span id="stage-22"></span>[22](#route-22) | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep3) | – |
+| <span id="stage-23"></span>[23](#route-23) | I have found one of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep4) | – |
+| <span id="stage-25"></span>[25](#route-25) | I have found all four of Tinlyn's lost sheep. | [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep2) +2 | – |
+| <span id="stage-30"></span>[30](#route-30) | Tinlyn thanked me for finding his lost sheep. **(ends quest)** | [Tinlyn](../monsters/tinlyn.md) | 300 XP |
+| <span id="stage-31"></span>[31](#route-31) | Tinlyn thanked me for finding his lost sheep, but he had no reward to give me. **(ends quest)** | [Tinlyn](../monsters/tinlyn.md) | 500 XP |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I have attacked at least one of Tinlyn's lost sheep and I am… ▸</span><span class="l">▴ less</span></summary>I have attacked at least one of Tinlyn's lost sheep and I am therefore unable to return them all to Tinlyn.</details> **(ends quest)** | [Tinlyn](../monsters/tinlyn.md), [Sheep](../monsters/sheep1.md#v-lostsheep1) +4 | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) → choose “What was I supposed to do?” — **conditions:** reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15) → **stage 10**. NPC: “The thing is, I have lost four of them. Now I won't dare leave the ones I still have in my sight to go look for the…”
+??? note "Stage 10 · Tinlyn · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Tinlyn](../monsters/tinlyn.md), choose “What was I supposed to do?”
 
-    1. Talk to [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) → choose “Absolutely, it would be my honor to assist you in locating your missing sheep.” — **conditions:** reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15) → **stage 15**; also gives [Tinlyn's sheep bell](../items/tinlyn_bells.md). NPC: “Good, thank you. Please put these bells around their necks so I can hear them.”
+    - **Needs:** stage 15
+    - *“The thing is, I have lost four of them. Now I won't dare leave the ones I still have in my sight to go look for the lost ones.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) → **stage 20**
+<span id="route-15"></span>
 
-???+ note "Stage 21: 1 route"
+??? note "Stage 15 · Tinlyn · 1 way"
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) → **stage 21**
+    **Way 1:** Talk to [Tinlyn](../monsters/tinlyn.md), choose “Absolutely, it would be my honor to assist you in locating your missing sheep.”
 
-???+ note "Stage 22: 1 route"
+    - **Needs:** stage 15
+    - **Gives:** [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+    - *“Good, thank you. Please put these bells around their necks so I can hear them.”*
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) → **stage 22**
 
-???+ note "Stage 23: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md) → **stage 23**
+??? note "Stage 20 · Sheep · 1 way"
 
-???+ note "Stage 25: 4 routes"
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1), choose “[Place Tinlyn's bell around the neck of the sheep]”
 
-    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md); reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23) → **stage 25**
-    2. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md); reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23) → **stage 25**
-    3. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md); reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23) → **stage 25**
-    4. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) → choose “[Place Tinlyn's bell around the neck of the sheep]” — **conditions:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md); reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23) → **stage 25**
+    - **Needs:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) → choose “I am happy to help.” — **conditions:** reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15); reached stage 25 of [Lost sheep](../quests/tinlyn.md#stage-25) → **stage 30**. NPC: “Thank you for helping me.”
+<span id="route-21"></span>
 
-???+ note "Stage 31: 1 route"
+??? note "Stage 21 · Sheep · 1 way"
 
-    1. Talk to [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) → choose “That was some hard work. What about a reward?” — **conditions:** reached stage 15 of [Lost sheep](../quests/tinlyn.md#stage-15); reached stage 25 of [Lost sheep](../quests/tinlyn.md#stage-25) → **stage 31**. NPC: “I am sorry, but I am a simple shepherd. I have no wealth or magical trinkets to give you.”
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2), choose “[Place Tinlyn's bell around the neck of the sheep]”
 
-???+ note "Stage 60: 6 routes"
+    - **Needs:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
 
-    1. Talk to [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Cheap cuts](../quests/benbyr.md#stage-21); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
-    2. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
-    3. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) → choose “[Attack]” — **conditions:** reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
-    4. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) → choose “[Attack]” — **conditions:** reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
-    5. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) → choose “[Attack]” — **conditions:** reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
-    6. Talk to [Sheep](../monsters/sheep1.md) ([fields6](../maps/fields6.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20); reached stage 10 of [Lost sheep](../quests/tinlyn.md#stage-10) → **stage 60**
+
+<span id="route-22"></span>
+
+??? note "Stage 22 · Sheep · 1 way"
+
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+
+<span id="route-23"></span>
+
+??? note "Stage 23 · Sheep · 1 way"
+
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+
+<span id="route-25"></span>
+
+??? note "Stage 25 · Sheep · 4 ways"
+
+    **Way 1:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** stage 20, 21, 22, 23; hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+    **Way 2:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** stage 20, 21, 22, 23; hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+    **Way 3:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** stage 20, 21, 22, 23; hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+    **Way 4:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4), choose “[Place Tinlyn's bell around the neck of the sheep]”
+
+    - **Needs:** stage 20, 21, 22, 23; hand over 1× [Tinlyn's sheep bell](../items/tinlyn_bells.md)
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Tinlyn · 1 way"
+
+    **Way 1:** Talk to [Tinlyn](../monsters/tinlyn.md), choose “I am happy to help.”
+
+    - **Needs:** stage 15, 25
+    - *“Thank you for helping me.”*
+
+
+<span id="route-31"></span>
+
+??? note "Stage 31 · Tinlyn · 1 way"
+
+    **Way 1:** Talk to [Tinlyn](../monsters/tinlyn.md), choose “That was some hard work. What about a reward?”
+
+    - **Needs:** stage 15, 25
+    - *“I am sorry, but I am a simple shepherd. I have no wealth or magical trinkets to give you.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Tinlyn, Sheep · 6 ways"
+
+    **Way 1:** Talk to [Tinlyn](../monsters/tinlyn.md), automatic
+
+    - **Needs:** stage 10; reached stage 21 of [Cheap cuts](../quests/benbyr.md#stage-21)
+
+    **Way 2:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1), choose “[Attack]”
+
+    - **Needs:** stage 10, 20; reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
+
+    **Way 3:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2), choose “[Attack]”
+
+    - **Needs:** stage 10, 21; reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
+
+    **Way 4:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3), choose “[Attack]”
+
+    - **Needs:** stage 10, 22; reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
+
+    **Way 5:** Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4), choose “[Attack]”
+
+    - **Needs:** stage 10, 23; reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
+
+    **Way 6:** Talk to [Sheep](../monsters/sheep1.md), choose “[Attack]”
+
+    - **Needs:** stage 10; reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

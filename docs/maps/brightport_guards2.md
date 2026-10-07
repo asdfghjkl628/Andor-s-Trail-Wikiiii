@@ -1,8 +1,8 @@
 ---
-description: "Brightport guards2 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Brightport guard, Leorio. Exits to Brightport9."
+description: "Brightport guards 2 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Brightport guard, Leorio. Exits to Brightport 9."
 ---
 
-# Brightport guards2
+# Brightport guards 2
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brightport guards2 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport guards2** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport9.
+**Brightport guards 2** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport 9.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_guards2.webp" alt="Map of Brightport guards2" width="224" height="512" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport9/#place-office" title="Exit to Brightport9" style="left:42.857%;top:93.750%;width:14.286%;height:6.250%"></a><span class="mo mo-spawn" title="Spawns: Leorio" style="left:57.143%;top:56.250%;width:14.286%;height:6.250%"></span><span class="mo mo-spawn" title="Spawns: Brightport guard" style="left:42.857%;top:75.000%;width:28.571%;height:12.500%"></span><a class="mob" href="../../monsters/brightport_gunfrykassistant/" title="Leorio" style="left:57.143%;top:56.250%;width:14.286%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld1_11.png" alt="Leorio"></a><a class="mob" href="../../monsters/brightportguard/" title="Brightport guard" style="left:57.143%;top:81.250%;width:14.286%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld1_94.png" alt="Brightport guard"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:96.875%" title="Exit (south): to [Brightport9](brightport9.md)">1</a><a id="pin-npc-brightportguard" class="pin pin-npc" href="#key-2" style="left:64.286%;top:84.375%" title="[Brightport guard](../../monsters/brightportguard.md): NPC">2</a><a id="pin-npc-brightport_gunfrykassistant" class="pin pin-npc" href="#key-3" style="left:64.286%;top:59.375%" title="[Leorio](../../monsters/brightport_gunfrykassistant.md): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_guards2.webp" alt="Map of Brightport guards 2" width="224" height="512" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport9/#place-office" title="Exit to Brightport 9" style="left:42.857%;top:93.750%;width:14.286%;height:6.250%"></a><span class="mo mo-spawn" title="Spawns: Leorio" style="left:57.143%;top:56.250%;width:14.286%;height:6.250%"></span><span class="mo mo-spawn" title="Spawns: Brightport guard" style="left:42.857%;top:75.000%;width:28.571%;height:12.500%"></span><a class="mob" href="../../monsters/brightport_gunfrykassistant/" title="Leorio" style="left:57.143%;top:56.250%;width:14.286%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld1_11.png" alt="Leorio"></a><a class="mob" href="../../monsters/brightportguard/" title="Brightport guard" style="left:57.143%;top:81.250%;width:14.286%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld1_94.png" alt="Brightport guard"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:96.875%" title="Exit (south): to [Brightport 9](brightport9.md)">1</a><a id="pin-npc-brightportguard" class="pin pin-npc" href="#key-2" style="left:64.286%;top:84.375%" title="[Brightport guard](../../monsters/brightportguard.md): NPC">2</a><a id="pin-npc-brightport_gunfrykassistant" class="pin pin-npc" href="#key-3" style="left:64.286%;top:59.375%" title="[Leorio](../../monsters/brightport_gunfrykassistant.md): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightport9](brightport9.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightport 9](brightport9.md) |
     | <span id="key-2"></span>2 | [Brightport guard](../monsters/brightportguard.md) | NPC |
     | <span id="key-3"></span>3 | [Leorio](../monsters/brightport_gunfrykassistant.md) | NPC |
 
@@ -41,7 +41,7 @@ description: "Brightport guards2 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightport9](brightport9.md) | Brightport | 1 |
+| South | [Brightport 9](brightport9.md) | Brightport | 1 |
 
 ## NPCs
 

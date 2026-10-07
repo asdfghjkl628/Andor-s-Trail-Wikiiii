@@ -29,9 +29,9 @@ description: "Kazaul rotworms is a harmful physical condition in Andor's Trail: 
 | Max AP | −3 |
 | Damage resistance | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,7 +42,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) | [I have it in me](../quests/maggots.md#stage-10) | Permanent |
+| [Toszylae](../monsters/toszylae.md) ([Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md)) | [I have it in me](../quests/maggots.md#stage-10) | Permanent |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
@@ -50,7 +50,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 ## Removal and protection
 
 - **Removed by** [Talion](../monsters/talion.md) during [I have it in me](../quests/maggots.md#stage-50).
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

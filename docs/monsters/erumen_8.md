@@ -1,10 +1,10 @@
 ---
-description: "Young erumen forest lizard is an enemy in Andor's Trail (reptile) with 92 HP, worth 140 XP, found in lodar13, lodar14, lodar6. Drops: Gold coins, Glass gem."
+description: "Young erumen forest lizard is an enemy in Andor's Trail (reptile) with 92 HP, worth 140 XP, found in Lodar 13, Lodar 14, Lodar 6. Drops: Gold coins, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_12.png){ .sprite } Young erumen forest lizard
 
-**Found in:** [lodar13](../maps/lodar13.md), [lodar14](../maps/lodar14.md), [lodar6](../maps/lodar6.md), [lodar7](../maps/lodar7.md)
+**Found in:** [Lodar 13](../maps/lodar13.md), [Lodar 14](../maps/lodar14.md), [Lodar 6](../maps/lodar6.md), [Lodar 7](../maps/lodar7.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young erumen forest lizard is an enemy in Andor's Trail (reptile) 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar13, lodar14, lodar6 |
+| **Found in** | Lodar 13, Lodar 14, Lodar 6 |
 | **Class** | Reptile |
 | **HP** | 92 |
 | **XP when defeated** | 140 |
@@ -55,10 +55,10 @@ description: "Young erumen forest lizard is an enemy in Andor's Trail (reptile) 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar13](../maps/lodar13.md) | – | 6 | – |
-| [lodar14](../maps/lodar14.md) | – | 5 | – |
-| [lodar6](../maps/lodar6.md) | – | 15 | – |
-| [lodar7](../maps/lodar7.md) | – | 4 | – |
+| [Lodar 13](../maps/lodar13.md) | – | 6 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 5 | – |
+| [Lodar 6](../maps/lodar6.md) | – | 15 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 4 | – |
 
 
 ## Version history

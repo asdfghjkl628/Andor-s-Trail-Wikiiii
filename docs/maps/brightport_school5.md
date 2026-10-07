@@ -1,8 +1,8 @@
 ---
-description: "Brightport school5 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightport school3, Brightport school6, Brightport school7, Brightport school8."
+description: "Brightport school 5 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightport school 3, Brightport school 6, Brightport school 7, Brightport school 8."
 ---
 
-# Brightport school5
+# Brightport school 5
 
 <div class="infobox" markdown>
 
@@ -17,22 +17,22 @@ description: "Brightport school5 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport school5** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightport school3, Brightport school6, Brightport school7, Brightport school8.
+**Brightport school 5** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightport school 3, Brightport school 6, Brightport school 7, Brightport school 8.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school5.webp" alt="Map of Brightport school5" width="320" height="864" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_school3/#place-west" title="Exit to Brightport school3" style="left:90.000%;top:11.111%;width:10.000%;height:7.407%"></a><a id="place-dorm" class="mo mo-mapchange" href="../brightport_school6/#place-entrance" title="Exit to Brightport school6" style="left:60.000%;top:37.037%;width:10.000%;height:3.704%"></a><a id="place-dorm1" class="mo mo-mapchange" href="../brightport_school7/#place-entrance" title="Exit to Brightport school7" style="left:60.000%;top:62.963%;width:10.000%;height:3.704%"></a><a id="place-dorm2" class="mo mo-mapchange" href="../brightport_school8/#place-entrance" title="Exit to Brightport school8" style="left:60.000%;top:88.889%;width:10.000%;height:3.704%"></a><a class="mo mo-key" href="../../quests/brightport_nondisplay/#stage-237" title="Unlocked during the quest: hidden story flag “brightport_nondisplay” (stage 237: “knocked twice”)" style="left:60.000%;top:62.963%;width:10.000%;height:3.704%"></a><a class="pin pin-exit" href="#key-1" style="left:95.000%;top:14.815%" title="Exit (east): to [Brightport school3](brightport_school3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:65.000%;top:38.889%" title="Exit (stairs / passage): to [Brightport school6](brightport_school6.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:65.000%;top:64.815%" title="Exit (stairs / passage): to [Brightport school7](brightport_school7.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:65.000%;top:90.741%" title="Exit (stairs / passage): to [Brightport school8](brightport_school8.md)">4</a><a class="pin pin-key" href="#key-5" style="left:65.658%;top:62.037%" title="Blocked passage: Unlocked during the quest: hidden story flag “brightport_nondisplay” (stage 237: “knocked twice”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school5.webp" alt="Map of Brightport school 5" width="320" height="864" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_school3/#place-west" title="Exit to Brightport school 3" style="left:90.000%;top:11.111%;width:10.000%;height:7.407%"></a><a id="place-dorm" class="mo mo-mapchange" href="../brightport_school6/#place-entrance" title="Exit to Brightport school 6" style="left:60.000%;top:37.037%;width:10.000%;height:3.704%"></a><a id="place-dorm1" class="mo mo-mapchange" href="../brightport_school7/#place-entrance" title="Exit to Brightport school 7" style="left:60.000%;top:62.963%;width:10.000%;height:3.704%"></a><a id="place-dorm2" class="mo mo-mapchange" href="../brightport_school8/#place-entrance" title="Exit to Brightport school 8" style="left:60.000%;top:88.889%;width:10.000%;height:3.704%"></a><a class="mo mo-key" href="../../quests/brightport_nondisplay/#stage-237" title="Unlocked during the quest: hidden story flag “brightport_nondisplay” (stage 237: “knocked twice”)" style="left:60.000%;top:62.963%;width:10.000%;height:3.704%"></a><a class="pin pin-exit" href="#key-1" style="left:95.000%;top:14.815%" title="Exit (east): to [Brightport school 3](brightport_school3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:65.000%;top:38.889%" title="Exit (stairs / passage): to [Brightport school 6](brightport_school6.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:65.000%;top:64.815%" title="Exit (stairs / passage): to [Brightport school 7](brightport_school7.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:65.000%;top:90.741%" title="Exit (stairs / passage): to [Brightport school 8](brightport_school8.md)">4</a><a class="pin pin-key" href="#key-5" style="left:65.658%;top:62.037%" title="Blocked passage: Unlocked during the quest: hidden story flag “brightport_nondisplay” (stage 237: “knocked twice”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightport school3](brightport_school3.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport school6](brightport_school6.md) |
-    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Brightport school7](brightport_school7.md) |
-    | <span id="key-4"></span>4 | Exit (stairs / passage) | to [Brightport school8](brightport_school8.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightport school 3](brightport_school3.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport school 6](brightport_school6.md) |
+    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Brightport school 7](brightport_school7.md) |
+    | <span id="key-4"></span>4 | Exit (stairs / passage) | to [Brightport school 8](brightport_school8.md) |
     | <span id="key-5"></span>5 | Blocked passage | Unlocked during the quest: hidden story flag “brightport_nondisplay” (stage 237: “knocked twice”) |
 
 
@@ -42,14 +42,14 @@ description: "Brightport school5 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightport school3](brightport_school3.md) | Brightport | 1 |
-| Stairs / passage | [Brightport school6](brightport_school6.md) | Brightport | 2 |
-| Stairs / passage | [Brightport school7](brightport_school7.md) | Brightport | 3 |
-| Stairs / passage | [Brightport school8](brightport_school8.md) | Brightport | 4 |
+| East | [Brightport school 3](brightport_school3.md) | Brightport | 1 |
+| Stairs / passage | [Brightport school 6](brightport_school6.md) | Brightport | 2 |
+| Stairs / passage | [Brightport school 7](brightport_school7.md) | Brightport | 3 |
+| Stairs / passage | [Brightport school 8](brightport_school8.md) | Brightport | 4 |
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): blocked passage opens at stage 237; something on this map advances it
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): blocked passage opens at stage 237; something on this map advances it
 
 ## Points of interest
 

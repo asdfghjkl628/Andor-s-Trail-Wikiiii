@@ -4,7 +4,7 @@ description: "Poisonous caterpillar is an enemy in Andor's Trail (reptile) with 
 
 # ![](../assets/icons/monsters/monsters_rltiles4_38.png){ .sprite } Poisonous caterpillar
 
-**Found in:** Gold hunter: [ratdom_maze_443](../maps/ratdom_maze_443.md), Instrument maker: [ratdom_maze_564](../maps/ratdom_maze_564.md), Pub: [ratdom_maze_433](../maps/ratdom_maze_433.md), Pub: [ratdom_maze_442](../maps/ratdom_maze_442.md) (+7 more)
+**Found in:** Gold hunter: [Ratdom maze 443](../maps/ratdom_maze_443.md), Instrument maker: [Ratdom maze 564](../maps/ratdom_maze_564.md), Pub: [Ratdom maze 433](../maps/ratdom_maze_433.md), Pub: [Ratdom maze 442](../maps/ratdom_maze_442.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -58,17 +58,17 @@ description: "Poisonous caterpillar is an enemy in Andor's Trail (reptile) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_433](../maps/ratdom_maze_433.md) | Pub | 2 | – |
-| [ratdom_maze_442](../maps/ratdom_maze_442.md) | Pub | 2 | – |
-| [ratdom_maze_443](../maps/ratdom_maze_443.md) | Gold hunter | 2 | – |
-| [ratdom_maze_461](../maps/ratdom_maze_461.md) | – | 2 | – |
-| [ratdom_maze_552](../maps/ratdom_maze_552.md) | – | 2 | – |
-| [ratdom_maze_553](../maps/ratdom_maze_553.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_554](../maps/ratdom_maze_554.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_562](../maps/ratdom_maze_562.md) | – | 2 | – |
-| [ratdom_maze_563](../maps/ratdom_maze_563.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_564](../maps/ratdom_maze_564.md) | Instrument maker | 2 | – |
-| [ratdom_maze_572](../maps/ratdom_maze_572.md) | – | 2 | – |
+| [Ratdom maze 433](../maps/ratdom_maze_433.md) | Pub | 2 | – |
+| [Ratdom maze 442](../maps/ratdom_maze_442.md) | Pub | 2 | – |
+| [Ratdom maze 443](../maps/ratdom_maze_443.md) | Gold hunter | 2 | – |
+| [Ratdom maze 461](../maps/ratdom_maze_461.md) | – | 2 | – |
+| [Ratdom maze 552](../maps/ratdom_maze_552.md) | – | 2 | – |
+| [Ratdom maze 553](../maps/ratdom_maze_553.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 554](../maps/ratdom_maze_554.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 562](../maps/ratdom_maze_562.md) | – | 2 | – |
+| [Ratdom maze 563](../maps/ratdom_maze_563.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 564](../maps/ratdom_maze_564.md) | Instrument maker | 2 | – |
+| [Ratdom maze 572](../maps/ratdom_maze_572.md) | – | 2 | – |
 
 
 ## Version history

@@ -47,7 +47,7 @@ description: "Quarterstaff is a ordinary quarterstaff in Andor's Trail (Attack d
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) during [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9) (1×)
+- From stepping on a trigger on [Swamp hut](../maps/swamp_hut.md) during [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

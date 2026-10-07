@@ -4,7 +4,7 @@ description: "Winona is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_222.png){ .sprite } Winona
 
-**Where to find Winona:** Sullengard: [sullengard1_southwest_house](../maps/sullengard1_southwest_house.md#pin-npc-sullengard_winona)
+**Where to find Winona:** Sullengard: [Sullengard 1 southwest house](../maps/sullengard1_southwest_house.md#pin-npc-sullengard_winona)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Winona is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Winona. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Winona. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/winona_10.json" data-npc="Winona" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-winona_10"></span>**`winona_10`** Winona: “Hey, traveler. Where are you traveling from?”
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Yes, and I have traveled through it. Why do you ask?” *(if reached stage 40 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40))* → [winona_30](#d-winona_30)
     - “Yes, I have been in that forest. Why?” → [winona_30](#d-winona_30)
-    - “No. What is so special about it?” *(if NOT reached stage 40 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40); NOT reached stage 27 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-27))* → [winona_30](#d-winona_30)
+    - “No. What is so special about it?” *(if NOT reached stage 40 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40); NOT reached stage 27 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-27))* → [winona_30](#d-winona_30)
 
     <span id="d-winona_30"></span>**`winona_30`** Winona: “I just love walking in there as nature is so beautiful there.”
 

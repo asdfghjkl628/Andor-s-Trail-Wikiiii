@@ -4,7 +4,7 @@ description: "Sienn's pet is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_misc_0.png){ .sprite } Sienn's pet
 
-**Where to find Sienn's pet:** Loneford: [loneford9](../maps/loneford9.md#pin-npc-sienn_pet)
+**Where to find Sienn's pet:** Loneford: [Loneford 9](../maps/loneford9.md#pin-npc-sienn_pet)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Sienn's pet is a non-player character (NPC) in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sienn's pet. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sienn's pet. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sienn_pet.json" data-npc="Sienn&#x27;s pet" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sienn_pet"></span>**`sienn_pet`** Sienn's pet: “Aaargh! [The creature looks up at you, showing all its teeth, while making a high-pitched piercing sound]”
 

@@ -27,7 +27,7 @@ description: "Written note is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-60) (1×)
+- From stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Franz](../monsters/brightportnpc4.md) ([brightport_school12](../maps/brightport_school12.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-45) | handed over (1×) | “[Give written note]” |
+| [Franz](../monsters/brightportnpc4.md) ([Brightport school 12](../maps/brightport_school12.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-45) | handed over (1×) | “[Give written note]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

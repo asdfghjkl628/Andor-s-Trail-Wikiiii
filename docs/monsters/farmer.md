@@ -19,25 +19,25 @@ description: "Farmer is a non-player character (NPC) in Andor's Trail, found in 
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Farmer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`farmer`](#v-farmer) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-farmer) | – |
-| [`loneford_farmer0`](#v-loneford_farmer0) | NPC | Crossroads Guardhouse: [loneford1](../maps/loneford1.md#pin-npc-loneford_farmer0) | starts [Flows through the veins](../quests/loneford.md) |
-| [`remgard_farmer1`](#v-remgard_farmer1) | NPC | Remgard: [remgard1](../maps/remgard1.md#pin-npc-remgard_farmer1) | – |
-| [`remgard_farmer2`](#v-remgard_farmer2) | NPC | Remgard: [remgard4](../maps/remgard4.md#pin-npc-remgard_farmer2) | – |
-| [`stouford_farmer2`](#v-stouford_farmer2) | NPC | Stoutford: [stoutford_nw](../maps/stoutford_nw.md#pin-npc-stouford_farmer2) | – |
+| [`farmer`](#v-farmer) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-farmer) | – |
+| [`loneford_farmer0`](#v-loneford_farmer0) | NPC | Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-loneford_farmer0) | starts [Flows through the veins](../quests/loneford.md) |
+| [`remgard_farmer1`](#v-remgard_farmer1) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-remgard_farmer1) | – |
+| [`remgard_farmer2`](#v-remgard_farmer2) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-remgard_farmer2) | – |
+| [`stouford_farmer2`](#v-stouford_farmer2) | NPC | Stoutford: [Stoutford north-west](../maps/stoutford_nw.md#pin-npc-stouford_farmer2) | – |
 
 ## Crossglen, Crossglen (farmer) { #v-farmer }
 
 **Entry ID:** `farmer` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-farmer)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-farmer)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/farm1.json" data-npc="Farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-farmer-farm1"></span>**`farm1`** Farmer: “Please do not disturb me, I have work to do.”
 
@@ -92,11 +92,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Loneford1 (loneford_farmer0) { #v-loneford_farmer0 }
+## Crossroads Guardhouse, Loneford 1 (loneford_farmer0) { #v-loneford_farmer0 }
 
 **Entry ID:** `loneford_farmer0` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
-**Location:** Crossroads Guardhouse: [loneford1](../maps/loneford1.md#pin-npc-loneford_farmer0)
+**Location:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-loneford_farmer0)
 
 ### Quests
 
@@ -104,7 +104,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_farmer0.json" data-npc="Farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -112,7 +112,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_farmer0-loneford_farmer0"></span>**`loneford_farmer0`** Farmer: “What have we done to deserve this?”
 
@@ -187,15 +187,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard1 (remgard_farmer1) { #v-remgard_farmer1 }
+## Remgard, Remgard 1 (remgard_farmer1) { #v-remgard_farmer1 }
 
 **Entry ID:** `remgard_farmer1` · **Type:** NPC
 
-**Location:** Remgard: [remgard1](../maps/remgard1.md#pin-npc-remgard_farmer1)
+**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-remgard_farmer1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_farmer1.json" data-npc="Farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -203,7 +203,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-remgard_farmer1-remgard_farmer1"></span>**`remgard_farmer1`** Farmer: “Oh, hello. I can't talk right now, must finish planting these crops.”
 
@@ -251,15 +251,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard4 (remgard_farmer2) { #v-remgard_farmer2 }
+## Remgard, Remgard 4 (remgard_farmer2) { #v-remgard_farmer2 }
 
 **Entry ID:** `remgard_farmer2` · **Type:** NPC
 
-**Location:** Remgard: [remgard4](../maps/remgard4.md#pin-npc-remgard_farmer2)
+**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-remgard_farmer2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_farmer2.json" data-npc="Farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -267,7 +267,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-remgard_farmer2-remgard_farmer2"></span>**`remgard_farmer2`** Farmer: “I hope the lands will be good to us this season.”
 
@@ -324,11 +324,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stouford_farmer2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_nw](../maps/stoutford_nw.md#pin-npc-stouford_farmer2)
+**Location:** Stoutford: [Stoutford north-west](../maps/stoutford_nw.md#pin-npc-stouford_farmer2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_builder_0.json" data-npc="Farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stouford_farmer2-stoutford_builder_0"></span>**`stoutford_builder_0`** Farmer: “Sorry. I have work to do.”
 

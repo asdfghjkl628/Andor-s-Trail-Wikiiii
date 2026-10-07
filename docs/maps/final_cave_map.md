@@ -1,5 +1,5 @@
 ---
-description: "Final cave map is an indoor location in Andor's Trail. Exits to Final cave1."
+description: "Final cave map is an indoor location in Andor's Trail. Exits to Final cave 1."
 ---
 
 # Final cave map
@@ -16,19 +16,19 @@ description: "Final cave map is an indoor location in Andor's Trail. Exits to Fi
 
 </div>
 
-**Final cave map** is an indoor map. It has no NPCs, and no enemies. Exits lead to Final cave1.
+**Final cave map** is an indoor map. It has no NPCs, and no enemies. Exits lead to Final cave 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/final_cave_map.webp" alt="Map of Final cave map" width="480" height="480" loading="lazy"><a id="place-map" class="mo mo-mapchange" href="../final_cave1/#place-map_exit" title="Exit to Final cave1" style="left:46.667%;top:73.333%;width:6.667%;height:6.667%"></a><span class="mo mo-script" title="Scripted event: “F i r e”" style="left:0.000%;top:0.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “A i r”" style="left:80.000%;top:0.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “E a r t h”" style="left:0.000%;top:80.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “W a t e r”" style="left:80.000%;top:80.000%;width:20.000%;height:20.000%"></span><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:76.667%" title="Exit (stairs / passage): to [Final cave1](final_cave1.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/final_cave_map.webp" alt="Map of Final cave map" width="480" height="480" loading="lazy"><a id="place-map" class="mo mo-mapchange" href="../final_cave1/#place-map_exit" title="Exit to Final cave 1" style="left:46.667%;top:73.333%;width:6.667%;height:6.667%"></a><span class="mo mo-script" title="Scripted event: “F i r e”" style="left:0.000%;top:0.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “A i r”" style="left:80.000%;top:0.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “E a r t h”" style="left:0.000%;top:80.000%;width:20.000%;height:20.000%"></span><span class="mo mo-script" title="Scripted event: “W a t e r”" style="left:80.000%;top:80.000%;width:20.000%;height:20.000%"></span><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:76.667%" title="Exit (stairs / passage): to [Final cave 1](final_cave1.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Final cave1](final_cave1.md) |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Final cave 1](final_cave1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -37,7 +37,7 @@ description: "Final cave map is an indoor location in Andor's Trail. Exits to Fi
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Stairs / passage | [Final cave1](final_cave1.md) | – | 1 |
+| Stairs / passage | [Final cave 1](final_cave1.md) | – | 1 |
 
 
 ## Version history

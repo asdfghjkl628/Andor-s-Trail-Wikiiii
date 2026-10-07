@@ -4,7 +4,7 @@ description: "Maddalena is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_151.png){ .sprite } Maddalena
 
-**Where to find Maddalena:** Sullengard: [sullengard1_townhall](../maps/sullengard1_townhall.md#pin-npc-sullengard_town_clerk)
+**Where to find Maddalena:** Sullengard: [Sullengard 1 townhall](../maps/sullengard1_townhall.md#pin-npc-sullengard_town_clerk)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Maddalena is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Maddalena. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Maddalena. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_town_clerk_selector.json" data-npc="Maddalena" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,13 +33,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_town_clerk_selector"></span>**`sullengard_town_clerk_selector`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75))* → [sullengard_town_clerk_0](#d-sullengard_town_clerk_0)
-    - branch 2 *(if reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 37 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-37))* → [sullengard_town_clerk_bridge_0](#d-sullengard_town_clerk_bridge_0)
-    - branch 3 *(if reached stage 37 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-37))* → [sullengard_town_clerk_bridge_5](#d-sullengard_town_clerk_bridge_5)
+    - branch 2 *(if reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 37 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-37))* → [sullengard_town_clerk_bridge_0](#d-sullengard_town_clerk_bridge_0)
+    - branch 3 *(if reached stage 37 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-37))* → [sullengard_town_clerk_bridge_5](#d-sullengard_town_clerk_bridge_5)
 
     <span id="d-sullengard_town_clerk_0"></span>**`sullengard_town_clerk_0`** Maddalena: “Hello. I am Maddalena, the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy.”
 
@@ -47,8 +47,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-sullengard_town_clerk_bridge_0"></span>**`sullengard_town_clerk_bridge_0`** Maddalena: “With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west.”
 
-    - “"Bridge"? What bridge? To the west?” *(if NOT reached stage 36 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-36))* → [sullengard_town_clerk_bridge_10](#d-sullengard_town_clerk_bridge_10)
-    - “Oh, that's great news indeed! It's going to make my life easier.” *(if reached stage 36 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-36))* → [sullengard_town_clerk_bridge_20](#d-sullengard_town_clerk_bridge_20)
+    - “"Bridge"? What bridge? To the west?” *(if NOT reached stage 36 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-36))* → [sullengard_town_clerk_bridge_10](#d-sullengard_town_clerk_bridge_10)
+    - “Oh, that's great news indeed! It's going to make my life easier.” *(if reached stage 36 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-36))* → [sullengard_town_clerk_bridge_20](#d-sullengard_town_clerk_bridge_20)
 
     <span id="d-sullengard_town_clerk_bridge_5"></span>**`sullengard_town_clerk_bridge_5`** Maddalena: “The bridge that crosses over the Sutdover River has been repaired thanks to you.”
 

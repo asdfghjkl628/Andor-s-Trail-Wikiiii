@@ -4,7 +4,7 @@ description: "Morgisia is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_rltiles3_5.png){ .sprite } Morgisia
 
-**Where to find Morgisia:** Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-morgisia)
+**Where to find Morgisia:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-morgisia)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Morgisia is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Morgisia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Morgisia. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/morgisia.json" data-npc="Morgisia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-morgisia"></span>**`morgisia`** Morgisia: “Guards! Someone has broken into my room and is trying to rob me!”
 

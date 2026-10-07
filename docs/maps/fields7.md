@@ -1,8 +1,8 @@
 ---
-description: "Fields7 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: River frog, Grasslands beetle, Tough grasslands beetle. Exits to Fields11, Fields11b, Fields4, Fields6."
+description: "Fields 7 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: River frog, Grasslands beetle, Tough grasslands beetle. Exits to Fields 11, Fields 11b, Fields 4, Fields 6."
 ---
 
-# Fields7
+# Fields 7
 
 <div class="infobox" markdown>
 
@@ -12,29 +12,29 @@ description: "Fields7 is an outdoor location in Andor's Trail, near Loneford (se
 | **Region** | Near Loneford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 27×24 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Fields7** is an outdoor map, near Loneford (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Fields11, Fields11b, Fields4, Fields6.
+**Fields 7** is an outdoor map, near Loneford (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Fields 11, Fields 11b, Fields 4, Fields 6.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields7.webp" alt="Map of Fields7" width="864" height="768" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../fields6/#place-east" title="Exit to Fields6" style="left:0.000%;top:33.333%;width:3.704%;height:62.500%"></a><a id="place-south" class="mo mo-mapchange" href="../fields4/#place-north" title="Exit to Fields4" style="left:0.000%;top:95.833%;width:74.074%;height:4.167%"></a><a id="place-east" class="mo mo-mapchange" href="../fields11/#place-west" title="Exit to Fields11" style="left:96.296%;top:12.500%;width:3.704%;height:4.167%"></a><a id="place-east2" class="mo mo-mapchange" href="../fields11b/#place-west2" title="Exit to Fields11b" style="left:96.296%;top:29.167%;width:3.704%;height:58.333%"></a><span class="mo mo-spawn" title="Spawns: Grasslands beetle, Tough grasslands beetle" style="left:7.407%;top:41.667%;width:66.667%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: River frog" style="left:25.926%;top:16.667%;width:48.148%;height:20.833%"></span><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:37.037%;top:41.667%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:7.407%;top:45.833%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:37.037%;top:70.833%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:37.037%;top:29.167%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:70.370%;top:29.167%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:40.741%;top:25.000%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="pin pin-exit" href="#key-1" style="left:98.148%;top:14.583%" title="Exit (east): to [Fields11](fields11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.148%;top:58.333%" title="Exit (east): to [Fields11b](fields11b.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:37.037%;top:97.917%" title="Exit (south): to [Fields4](fields4.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:1.852%;top:64.583%" title="Exit (west): to [Fields6](fields6.md)">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields7.webp" alt="Map of Fields 7" width="864" height="768" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../fields6/#place-east" title="Exit to Fields 6" style="left:0.000%;top:33.333%;width:3.704%;height:62.500%"></a><a id="place-south" class="mo mo-mapchange" href="../fields4/#place-north" title="Exit to Fields 4" style="left:0.000%;top:95.833%;width:74.074%;height:4.167%"></a><a id="place-east" class="mo mo-mapchange" href="../fields11/#place-west" title="Exit to Fields 11" style="left:96.296%;top:12.500%;width:3.704%;height:4.167%"></a><a id="place-east2" class="mo mo-mapchange" href="../fields11b/#place-west2" title="Exit to Fields 11b" style="left:96.296%;top:29.167%;width:3.704%;height:58.333%"></a><span class="mo mo-spawn" title="Spawns: Grasslands beetle, Tough grasslands beetle" style="left:7.407%;top:41.667%;width:66.667%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: River frog" style="left:25.926%;top:16.667%;width:48.148%;height:20.833%"></span><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:37.037%;top:41.667%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:7.407%;top:45.833%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:37.037%;top:70.833%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:37.037%;top:29.167%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:70.370%;top:29.167%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="mob" href="../../monsters/frog_1/" title="River frog" style="left:40.741%;top:25.000%;width:3.704%;height:4.167%"><img src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt="River frog"></a><a class="pin pin-exit" href="#key-1" style="left:98.148%;top:14.583%" title="Exit (east): to [Fields 11](fields11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.148%;top:58.333%" title="Exit (east): to [Fields 11b](fields11b.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:37.037%;top:97.917%" title="Exit (south): to [Fields 4](fields4.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:1.852%;top:64.583%" title="Exit (west): to [Fields 6](fields6.md)">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Fields11](fields11.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Fields11b](fields11b.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Fields4](fields4.md) |
-    | <span id="key-4"></span>4 | Exit (west) | to [Fields6](fields6.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Fields 11](fields11.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Fields 11b](fields11b.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Fields 4](fields4.md) |
+    | <span id="key-4"></span>4 | Exit (west) | to [Fields 6](fields6.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -43,10 +43,10 @@ description: "Fields7 is an outdoor location in Andor's Trail, near Loneford (se
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Fields11](fields11.md) | Loneford | 1 |
-| East | [Fields11b](fields11b.md) | Loneford | 2 |
-| South | [Fields4](fields4.md) | Loneford | 3 |
-| West | [Fields6](fields6.md) | Crossroads Guardhouse | 4 |
+| East | [Fields 11](fields11.md) | Loneford | 1 |
+| East | [Fields 11b](fields11b.md) | Loneford | 2 |
+| South | [Fields 4](fields4.md) | Loneford | 3 |
+| West | [Fields 6](fields6.md) | Crossroads Guardhouse | 4 |
 
 ## Enemies
 

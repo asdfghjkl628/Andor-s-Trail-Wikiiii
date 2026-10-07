@@ -4,7 +4,7 @@ description: "Stinging wasp is an enemy in Andor's Trail (insect) with 15 HP, wo
 
 # ![](../assets/icons/monsters/monsters_insects_1.png){ .sprite } Stinging wasp
 
-**Found in:** Fallhaven: [wild11](../maps/wild11.md), Fallhaven: [wild5](../maps/wild5.md), Fallhaven: [wild9](../maps/wild9.md), Flagstone Prison: [wild8](../maps/wild8.md)
+**Found in:** Fallhaven: [Wild 11](../maps/wild11.md), Fallhaven: [Wild 5](../maps/wild5.md), Fallhaven: [Wild 9](../maps/wild9.md), Flagstone Prison: [Wild 8](../maps/wild8.md)
 
 <div class="infobox" markdown>
 
@@ -55,10 +55,10 @@ description: "Stinging wasp is an enemy in Andor's Trail (insect) with 15 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild11](../maps/wild11.md) | Fallhaven | 2 | – |
-| [wild5](../maps/wild5.md) | Fallhaven | 4 | – |
-| [wild8](../maps/wild8.md) | Flagstone Prison | 2 | – |
-| [wild9](../maps/wild9.md) | Fallhaven | 5 | – |
+| [Wild 11](../maps/wild11.md) | Fallhaven | 2 | – |
+| [Wild 5](../maps/wild5.md) | Fallhaven | 4 | – |
+| [Wild 8](../maps/wild8.md) | Flagstone Prison | 2 | – |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 5 | – |
 
 
 ## Version history

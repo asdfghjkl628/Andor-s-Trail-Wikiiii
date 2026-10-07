@@ -52,7 +52,7 @@ description: "Greataxe of shattered hope is a rare greataxe in Andor's Trail (At
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 1 | lodar8 |
+| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 1 | Lodar 8 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

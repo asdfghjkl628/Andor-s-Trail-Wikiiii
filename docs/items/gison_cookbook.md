@@ -78,7 +78,7 @@ Cook slowly, add starch at end to thicken
 
 ### Found in containers
 
-- [mywildcave4](../maps/mywildcave4.md#container-0) (container 1, 100%)
+- [Mywildcave 4](../maps/mywildcave4.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

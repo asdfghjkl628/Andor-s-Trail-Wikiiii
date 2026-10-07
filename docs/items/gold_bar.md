@@ -26,10 +26,10 @@ description: "Gold bar is a ordinary gem in Andor's Trail. How to get it: contai
 
 ### Found in containers
 
-- [elm5f_2](../maps/elm5f_2.md#container-0) (container 1, 100%)
-- [elm_4f_3](../maps/elm_4f_3.md#container-1) (container 2, 100%)
-- [galmore_53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
-- [galmore_73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
+- [Elm 5f 2](../maps/elm5f_2.md#container-0) (container 1, 100%)
+- [Elm 4f 3](../maps/elm_4f_3.md#container-1) (container 2, 100%)
+- [Galmore 53](../maps/galmore_53.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

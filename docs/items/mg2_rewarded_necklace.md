@@ -27,7 +27,7 @@ description: "Necklace with a medal from Teccow is a rare necklace in Andor's Tr
 
 ### Quest & dialogue rewards
 
-- From [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) (1×)
+- From [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -19,12 +19,12 @@ description: "Jan is a non-player character (NPC) in Andor's Trail, found in Sto
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Jan. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Jan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
 | [`jan`](#v-jan) | NPC | Not on a map | starts [Fallen friends](../quests/jan.md) |
-| [`stoutford_farmer_jan`](#v-stoutford_farmer_jan) | NPC | Stoutford: [stoutford_farmhouse1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan) | – |
+| [`stoutford_farmer_jan`](#v-stoutford_farmer_jan) | NPC | Stoutford: [Stoutford farmhouse 1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan) | – |
 
 ## Not placed on a map (jan) { #v-jan }
 
@@ -38,7 +38,7 @@ description: "Jan is a non-player character (NPC) in Andor's Trail, found in Sto
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/jan_start_select.json" data-npc="Jan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-jan-jan_start_select"></span>**`jan_start_select`** *(silent check: the first matching branch below is taken)*
 
@@ -150,7 +150,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Well, I guess it's ok to tell you. You seem to be a nice enough kid.” → “Well, I guess it's OK to tell you. You seem to be a nice enough kid.”<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Well, I guess it's ok to tell you. You seem to be a nice enough kid.” → “Well, I guess it's OK to tell you. You seem to be a nice enough kid.”<br>· text: “That's when it happened. *sob* Oh what have we done?” → “That's when it happened. *sob* Oh what have we done?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -182,15 +182,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Stoutford, Stoutford farmhouse1 (stoutford_farmer_jan) { #v-stoutford_farmer_jan }
+## Stoutford, Stoutford farmhouse 1 (stoutford_farmer_jan) { #v-stoutford_farmer_jan }
 
 **Entry ID:** `stoutford_farmer_jan` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_farmhouse1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan)
+**Location:** Stoutford: [Stoutford farmhouse 1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_farmer_jan_0.json" data-npc="Jan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -198,7 +198,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_farmer_jan-stoutford_farmer_jan_0"></span>**`stoutford_farmer_jan_0`** Jan: “Can't you see I'm busy? Go talk to my brother Jen, he's always slacking off in the field.”
 

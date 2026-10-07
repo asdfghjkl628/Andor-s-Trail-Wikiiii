@@ -29,17 +29,17 @@ description: "Red Crystals is a ordinary gem in Andor's Trail. How to get it: mo
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Embergeist](../monsters/embergeist.md) | 10% | 1 | Mt. Galmore |
-| [Azurite Gornaud](../monsters/gornaud_4.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Garnet Gornaud](../monsters/gornaud_5.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Nephrite Gornaud](../monsters/gornaud_6.md) | 5% | 1 | arulircave1, arulircave2, arulircave6 |
-| [Arulir Pack Leader](../monsters/arulir_leader.md) | 5% | 1 | arulircave6 |
-| [Demonic Arulir](../monsters/arulir_8.md) | 3% | 1 | arulircave6 |
+| [Azurite Gornaud](../monsters/gornaud_4.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Garnet Gornaud](../monsters/gornaud_5.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Nephrite Gornaud](../monsters/gornaud_6.md) | 5% | 1 | Arulircave 1, Arulircave 2, Arulircave 6 |
+| [Arulir Pack Leader](../monsters/arulir_leader.md) | 5% | 1 | Arulircave 6 |
+| [Demonic Arulir](../monsters/arulir_8.md) | 3% | 1 | Arulircave 6 |
 | [Pyreling](../monsters/pyreling.md) | 3% | 1 | Mt. Galmore |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 2% | 1 | Mt. Galmore |
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [korhald_cave_hidden](../maps/korhald_cave_hidden.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
+- From stepping on a trigger on [Korhald cave hidden](../maps/korhald_cave_hidden.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -50,7 +50,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-30) | handed over (1×) | “I have the red crystal here.” |
+| [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-30) | handed over (1×) | “I have the red crystal here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

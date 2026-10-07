@@ -1,10 +1,10 @@
 ---
-description: "Graveyard gatekeeper is an enemy in Andor's Trail (undead) with 169 HP, worth 492 XP, found in haunted_cemetery1, haunted_cemetery2, haunted_forest12. Drops: Skeletal remains, Gold coins, Human skull, Tonic of blood."
+description: "Graveyard gatekeeper is an enemy in Andor's Trail (undead) with 169 HP, worth 492 XP, found in Haunted cemetery 1, Haunted cemetery 2, Haunted forest 12. Drops: Skeletal remains, Gold coins, Human skull, Tonic of blood."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_70.png){ .sprite } Graveyard gatekeeper
 
-**Found in:** [haunted_cemetery1](../maps/haunted_cemetery1.md), [haunted_cemetery2](../maps/haunted_cemetery2.md), [haunted_forest12](../maps/haunted_forest12.md), [haunted_forest15](../maps/haunted_forest15.md) (+4 more)
+**Found in:** [Haunted cemetery 1](../maps/haunted_cemetery1.md), [Haunted cemetery 2](../maps/haunted_cemetery2.md), [Haunted forest 12](../maps/haunted_forest12.md), [Haunted forest 15](../maps/haunted_forest15.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Graveyard gatekeeper is an enemy in Andor's Trail (undead) with 16
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_cemetery1, haunted_cemetery2, haunted_forest12 |
+| **Found in** | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 12 |
 | **Class** | Undead |
 | **HP** | 169 |
 | **XP when defeated** | 492 |
@@ -57,14 +57,14 @@ description: "Graveyard gatekeeper is an enemy in Andor's Trail (undead) with 16
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_cemetery1](../maps/haunted_cemetery1.md) | – | 6 | – |
-| [haunted_cemetery2](../maps/haunted_cemetery2.md) | – | 5 | – |
-| [haunted_forest12](../maps/haunted_forest12.md) | – | 3 | – |
-| [haunted_forest15](../maps/haunted_forest15.md) | – | 3 | – |
-| [haunted_forest20](../maps/haunted_forest20.md) | – | 1 | – |
-| [haunted_forest_way_to_house1](../maps/haunted_forest_way_to_house1.md) | – | 2 | – |
-| [haunted_forest_way_to_house2](../maps/haunted_forest_way_to_house2.md) | – | 2 | – |
-| [haunted_forest_way_to_house4](../maps/haunted_forest_way_to_house4.md) | – | 1 | – |
+| [Haunted cemetery 1](../maps/haunted_cemetery1.md) | – | 6 | – |
+| [Haunted cemetery 2](../maps/haunted_cemetery2.md) | – | 5 | – |
+| [Haunted forest 12](../maps/haunted_forest12.md) | – | 3 | – |
+| [Haunted forest 15](../maps/haunted_forest15.md) | – | 3 | – |
+| [Haunted forest 20](../maps/haunted_forest20.md) | – | 1 | – |
+| [Haunted forest way to house 1](../maps/haunted_forest_way_to_house1.md) | – | 2 | – |
+| [Haunted forest way to house 2](../maps/haunted_forest_way_to_house2.md) | – | 2 | – |
+| [Haunted forest way to house 4](../maps/haunted_forest_way_to_house4.md) | – | 1 | – |
 
 
 ## Version history

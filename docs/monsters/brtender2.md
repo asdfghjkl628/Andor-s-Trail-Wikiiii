@@ -1,10 +1,10 @@
 ---
-description: "Frantic branchtender is an enemy in Andor's Trail (humanoid) with 72 HP, worth 249 XP, found in lodar19. Drops: Regular potion of health, Wraith's massive claymore."
+description: "Frantic branchtender is an enemy in Andor's Trail (humanoid) with 72 HP, worth 249 XP, found in Lodar 19. Drops: Regular potion of health, Wraith's massive claymore."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_153.png){ .sprite } Frantic branchtender
 
-**Found in:** [lodar19](../maps/lodar19.md)
+**Found in:** [Lodar 19](../maps/lodar19.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Frantic branchtender is an enemy in Andor's Trail (humanoid) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar19 |
+| **Found in** | Lodar 19 |
 | **Class** | Humanoid |
 | **HP** | 72 |
 | **XP when defeated** | 249 |
@@ -57,7 +57,7 @@ description: "Frantic branchtender is an enemy in Andor's Trail (humanoid) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar19](../maps/lodar19.md) | – | 1 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 1 | – |
 
 
 ## Version history

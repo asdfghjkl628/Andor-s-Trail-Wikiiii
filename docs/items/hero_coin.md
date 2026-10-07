@@ -27,7 +27,7 @@ description: "Coin of Prestige is a quest money in Andor's Trail. How to get it:
 
 ### Found in containers
 
-- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-1) (container 2, 100%)
+- [Korhald cave hidden](../maps/korhald_cave_hidden.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,13 +38,13 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
-| stepping on a trigger on [korhald_cave_hidden](../maps/korhald_cave_hidden.md) | – | must be carried (1×) | “(automatic)” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-105) | handed over (1×) | “Here, take it. I have enough coins.” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-100) | handed over (1×) | “Sounds like a great deal. I'll take it.” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-115) | handed over (1×) | “Here, take it. I have enough coins.” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-110) | handed over (1×) | “Sounds like a great deal. I'll take it.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| stepping on a trigger on [Korhald cave hidden](../maps/korhald_cave_hidden.md) | – | must be carried (1×) | “(automatic)” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-105) | handed over (1×) | “Here, take it. I have enough coins.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-100) | handed over (1×) | “Sounds like a great deal. I'll take it.” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-115) | handed over (1×) | “Here, take it. I have enough coins.” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-110) | handed over (1×) | “Sounds like a great deal. I'll take it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

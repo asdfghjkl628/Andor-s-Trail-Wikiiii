@@ -4,7 +4,7 @@ description: "Aulaeth is an enemy in Andor's Trail (giant) with 120 HP, worth 16
 
 # ![](../assets/icons/monsters/monsters_rltiles2_58.png){ .sprite } Aulaeth
 
-**Found in:** Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md), Blackwater Mountain: [blackwater_mountain32](../maps/blackwater_mountain32.md), Blackwater Mountain: [blackwater_mountain39](../maps/blackwater_mountain39.md), Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md) (+2 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md), Blackwater Mountain: [Blackwater mountain 32](../maps/blackwater_mountain32.md), Blackwater Mountain: [Blackwater mountain 39](../maps/blackwater_mountain39.md), Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -62,12 +62,12 @@ description: "Aulaeth is an enemy in Andor's Trail (giant) with 120 HP, worth 16
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 7 | – |
-| [blackwater_mountain32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 8 | – |
-| [blackwater_mountain39](../maps/blackwater_mountain39.md) | Blackwater Mountain | 5 | – |
-| [blackwater_mountain55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 4 | – |
-| [bwmfill4](../maps/bwmfill4.md) | Blackwater Mountain | 1 | – |
-| [bwmfill5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 7 | – |
+| [Blackwater mountain 32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 8 | – |
+| [Blackwater mountain 39](../maps/blackwater_mountain39.md) | Blackwater Mountain | 5 | – |
+| [Blackwater mountain 55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 4 | – |
+| [Bwmfill 4](../maps/bwmfill4.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Deebo is a non-player character (NPC) in Andor's Trail, found in D
 
 # ![](../assets/icons/monsters/monsters_tometik2_39.png){ .sprite } Deebo
 
-**Where to find Deebo:** Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md#pin-npc-deebo_orchard_deebo)
+**Where to find Deebo:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-deebo_orchard_deebo)
 
 <div class="infobox" markdown>
 
@@ -33,12 +33,12 @@ description: "Deebo is a non-player character (NPC) in Andor's Trail, found in D
 
 - [Bread and circus](../quests/brightport_bakery.md): stages 30, 45
 - [Hunting the hunter](../quests/deebo_orchard_hth.md): stages 0, 10, 50
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 205
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 4
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 205
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 4
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Deebo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Deebo. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/deebo_orchard_deebo_0.json" data-npc="Deebo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,14 +46,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (34 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-deebo_orchard_deebo_0"></span>**`deebo_orchard_deebo_0`** Deebo: “What a lovely day for some good quality hard work outside.”
 
     - “It sounds like you love being outside.” *(if NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50))* → [deebo_orchard_deebo_10](#d-deebo_orchard_deebo_10)
     - “Your horses are magnificent.” → [deebo_orchard_deebo_horse_talk_10](#d-deebo_orchard_deebo_horse_talk_10)
-    - “Can I get a new batch of apples for the bakery?” *(if reached stage 205 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-205); NOT reached stage 50 of [Bread and circus](../quests/brightport_bakery.md#stage-50); NOT reached stage 40 of [Bread and circus](../quests/brightport_bakery.md#stage-40))* → [brightport_deebo_selector](#d-brightport_deebo_selector)
-    - “Hello. Eatloni from Brightport sent me to ask about the apples.” *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); NOT reached stage 205 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-205))* → [brightport_deebo](#d-brightport_deebo)
+    - “Can I get a new batch of apples for the bakery?” *(if reached stage 205 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-205); NOT reached stage 50 of [Bread and circus](../quests/brightport_bakery.md#stage-50); NOT reached stage 40 of [Bread and circus](../quests/brightport_bakery.md#stage-40))* → [brightport_deebo_selector](#d-brightport_deebo_selector)
+    - “Hello. Eatloni from Brightport sent me to ask about the apples.” *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); NOT reached stage 205 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-205))* → [brightport_deebo](#d-brightport_deebo)
     - “I will let you get back to your business. Have a great time enjoying the nice weather.” → *conversation ends*
     - “Can I see what you have to trade?” *(if reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50))* → *shop opens*
 
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_deebo5"></span>**`brightport_deebo5`** Deebo: “I already told you they'll be picked soon, just go speak with Alduan in the orchard.”
 
 
-    <span id="d-brightport_deebo1"></span>**`brightport_deebo1`** Deebo: “Oh no! I just hope nothing happened to my precious apples.” — **effects:** sets stage 205 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-205)
+    <span id="d-brightport_deebo1"></span>**`brightport_deebo1`** Deebo: “Oh no! I just hope nothing happened to my precious apples.” — **effects:** sets stage 205 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-205)
 
     - “Can I get a new batch of apples?” *(if NOT reached stage 40 of [Bread and circus](../quests/brightport_bakery.md#stage-40))* → [brightport_deebo_selector](#d-brightport_deebo_selector)
     - “A little too late now...” *(if reached stage 40 of [Bread and circus](../quests/brightport_bakery.md#stage-40))* → *conversation ends*
@@ -166,7 +166,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-deebo_orchard_deebo_71"></span>**`deebo_orchard_deebo_71`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4))* → [deebo_orchard_deebo_spawn_gj](#d-deebo_orchard_deebo_spawn_gj)
+    - Next *(if NOT reached stage 4 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-4))* → [deebo_orchard_deebo_spawn_gj](#d-deebo_orchard_deebo_spawn_gj)
     - Next *(if latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-10) is 10)* → [deebo_orchard_deebo_81](#d-deebo_orchard_deebo_81)
 
     <span id="d-deebo_orchard_deebo_spawn_gj"></span>**`deebo_orchard_deebo_spawn_gj`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 10 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-10)
@@ -195,7 +195,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [deebo_orchard_deebo_80](#d-deebo_orchard_deebo_80)
 
-    <span id="d-deebo_orchard_deebo_80"></span>**`deebo_orchard_deebo_80`** Deebo: “The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me with proof of it's death.” — **effects:** sets stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4), sets stage 10 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-10)
+    <span id="d-deebo_orchard_deebo_80"></span>**`deebo_orchard_deebo_80`** Deebo: “The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me with proof of it's death.” — **effects:** sets stage 4 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-4), sets stage 10 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-10)
 
 
 

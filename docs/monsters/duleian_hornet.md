@@ -4,7 +4,7 @@ description: "Duleian buzzer is an enemy in Andor's Trail (insect) with 77 HP, w
 
 # ![](../assets/icons/monsters/monsters_ld2_222.png){ .sprite } Duleian buzzer
 
-**Found in:** Wexlow Village: [way_to_wexlow1](../maps/way_to_wexlow1.md), Wexlow Village: [wayto_feygard_duleian_1](../maps/wayto_feygard_duleian_1.md), [cabin_norcity_road1](../maps/cabin_norcity_road1.md), [cabin_norcity_road2](../maps/cabin_norcity_road2.md) (+6 more)
+**Found in:** Wexlow Village: [Way to wexlow 1](../maps/way_to_wexlow1.md), Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md), [Cabin norcity road 1](../maps/cabin_norcity_road1.md), [Cabin norcity road 2](../maps/cabin_norcity_road2.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -57,16 +57,16 @@ description: "Duleian buzzer is an enemy in Andor's Trail (insect) with 77 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [cabin_norcity_road1](../maps/cabin_norcity_road1.md) | – | 1 | – |
-| [cabin_norcity_road2](../maps/cabin_norcity_road2.md) | – | 7 | – |
-| [cabin_norcity_road3](../maps/cabin_norcity_road3.md) | – | 4 | – |
-| [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md) | – | 9 | – |
-| [way_to_wexlow1](../maps/way_to_wexlow1.md) | Wexlow Village | 1 | – |
-| [wayto_feygard_duleian_1](../maps/wayto_feygard_duleian_1.md) | Wexlow Village | 8 | – |
-| [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md) | – | 6 | – |
-| [waytobrightport3](../maps/waytobrightport3.md) | – | 2 | – |
-| [waytobrightport6](../maps/waytobrightport6.md) | – | 4 | – |
-| [waytobrightport8](../maps/waytobrightport8.md) | – | 7 | – |
+| [Cabin norcity road 1](../maps/cabin_norcity_road1.md) | – | 1 | – |
+| [Cabin norcity road 2](../maps/cabin_norcity_road2.md) | – | 7 | – |
+| [Cabin norcity road 3](../maps/cabin_norcity_road3.md) | – | 4 | – |
+| [Way to sullengard east 1](../maps/way_to_sullengard_east1.md) | – | 9 | – |
+| [Way to wexlow 1](../maps/way_to_wexlow1.md) | Wexlow Village | 1 | – |
+| [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md) | Wexlow Village | 8 | – |
+| [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md) | – | 6 | – |
+| [Waytobrightport 3](../maps/waytobrightport3.md) | – | 2 | – |
+| [Waytobrightport 6](../maps/waytobrightport6.md) | – | 4 | – |
+| [Waytobrightport 8](../maps/waytobrightport8.md) | – | 7 | – |
 
 
 ## Version history

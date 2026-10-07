@@ -4,7 +4,7 @@ description: "Isolated man is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_ld2_52.png){ .sprite } Isolated man
 
-**Where to find Isolated man:** Brightport: [waterway_forest2](../maps/waterway_forest2.md#pin-npc-isolated_man)
+**Where to find Isolated man:** Brightport: [Waterway forest 2](../maps/waterway_forest2.md#pin-npc-isolated_man)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Isolated man is a non-player character (NPC) in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Isolated man. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Isolated man. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/waterway_forest_isolated_man.json" data-npc="Isolated man" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,13 +29,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-waterway_forest_isolated_man"></span>**`waterway_forest_isolated_man`** Isolated man: “What were you doing in my house!”
 
     - “I've come a long distance in the persuit of my brother Andor. So I peeked inside to see if he was in there.” → [waterway_forest_isolated_man_5](#d-waterway_forest_isolated_man_5)
     - “I am looking for someone that could explain why that land over there [pointing west] is poisoned.” → [waterway_forest_isolated_man_5](#d-waterway_forest_isolated_man_5)
-    - “I was looking for help in getting into that cave just west of here.” *(if NOT reached stage 46 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-46))* → [waterway_forest_isolated_man_5](#d-waterway_forest_isolated_man_5)
+    - “I was looking for help in getting into that cave just west of here.” *(if NOT reached stage 46 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-46))* → [waterway_forest_isolated_man_5](#d-waterway_forest_isolated_man_5)
 
     <span id="d-waterway_forest_isolated_man_5"></span>**`waterway_forest_isolated_man_5`** Isolated man: “Do you really think that I believe that? Who are you?! What do you really want?!”
 

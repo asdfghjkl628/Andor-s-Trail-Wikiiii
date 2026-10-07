@@ -1,8 +1,8 @@
 ---
-description: "Heights change in bwm_17 (Actually 70) is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain70. 2 stages. Level 0"
+description: "Blackwater Mountain heights is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain70. 2 stages. Level 0"
 ---
 
-# Heights change in bwm_17 (Actually 70)
+# Blackwater Mountain heights
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "Heights change in bwm_17 (Actually 70) is a hidden quest in Andor'
 | **Quest ID** | `bwm17_heights` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
+| **Started by** | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) |
 
 </div>
 
@@ -24,9 +24,9 @@ description: "Heights change in bwm_17 (Actually 70) is a hidden quest in Andor'
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md). Required:
+Start with stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md). Required:
 
-- NOT reached stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1)
+- NOT reached stage 1 of [Blackwater Mountain heights (hidden flag)](../quests/bwm17_heights.md#stage-1)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -39,24 +39,42 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Level 0<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span><br><span class="qnote">🗺️ Part of [Blackwater mountain70](../maps/blackwater_mountain70.md) visibly changes.</span> | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) | – | clears stage 2 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-2) |
-| <span id="stage-2"></span>2 | Level 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span> | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) | stage 1 | clears stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Level 0<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 70](../maps/blackwater_mountain70.md).</span><br><span class="qnote">🗺️ Part of [Blackwater mountain 70](../maps/blackwater_mountain70.md) visibly changes.</span> | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | Level 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 70](../maps/blackwater_mountain70.md).</span> | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) → the conversation leads here automatically — **conditions:** NOT reached stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1) → **stage 1**; also clears stage 2 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-2)
+??? note "Stage 1 · stepping on a trigger on blackwater_mountain70 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md)
 
-    1. stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1) → **stage 2**; also clears stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1)
+    - **Needs:** not yet stage 1
+    - <small>Also: clears stage 2 of [Blackwater Mountain heights (hidden flag)](../quests/bwm17_heights.md#stage-2)</small>
+
+
+<span id="route-2"></span>
+
+??? note "Stage 2 · stepping on a trigger on blackwater_mountain70 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md)
+
+    - **Needs:** stage 1
+    - <small>Also: clears stage 1 of [Blackwater Mountain heights (hidden flag)](../quests/bwm17_heights.md#stage-1)</small>
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -101,6 +119,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `bwm17_heights` |
+    | Name in game data | `Heights change in bwm_17 (Actually 70)` |
     | showInLog | 0 |
     | Stage IDs | 1, 2 |
     | Dialogue nodes setting stages | 1: `bwm17_heights_2`, 2: `bwm17_heights2_2` |

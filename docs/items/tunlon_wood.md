@@ -27,7 +27,7 @@ description: "Pile of wood is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-230) (100%)
+- From [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([Loneford 2](../maps/loneford2.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-230) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) | [It makes no fence](../quests/tunlon_fence.md#stage-235) | handed over (1×) | “Here is your wood.” |
+| [Wood craftsman](../monsters/brv_woodcraftsman.md) ([Brimhaven 2 woodcutter](../maps/brimhaven2_woodcutter.md)) | [It makes no fence](../quests/tunlon_fence.md#stage-235) | handed over (1×) | “Here is your wood.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

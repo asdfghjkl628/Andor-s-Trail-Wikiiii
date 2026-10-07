@@ -1,10 +1,10 @@
 ---
-description: "Nightfur rat is an enemy in Andor's Trail (animal) with 194 HP, worth 531 XP, found in witch_house_basement. Drops: Cursed rat fang."
+description: "Nightfur rat is an enemy in Andor's Trail (animal) with 194 HP, worth 531 XP, found in Witch house basement. Drops: Cursed rat fang."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_284.png){ .sprite } Nightfur rat
 
-**Found in:** [witch_house_basement](../maps/witch_house_basement.md)
+**Found in:** [Witch house basement](../maps/witch_house_basement.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Nightfur rat is an enemy in Andor's Trail (animal) with 194 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | witch_house_basement |
+| **Found in** | Witch house basement |
 | **Class** | Animal |
 | **HP** | 194 |
 | **XP when defeated** | 531 |
@@ -56,7 +56,7 @@ description: "Nightfur rat is an enemy in Andor's Trail (animal) with 194 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [witch_house_basement](../maps/witch_house_basement.md) | – | 3 | – |
+| [Witch house basement](../maps/witch_house_basement.md) | – | 3 | – |
 
 
 ## Version history

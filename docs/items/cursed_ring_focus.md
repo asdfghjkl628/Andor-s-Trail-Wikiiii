@@ -38,8 +38,8 @@ description: "Cursed ring of focus is a quest ring in Andor's Trail (Grants Curs
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [galmore_17_house_2f](../maps/galmore_17_house_2f.md) during [Restless in the grave](../quests/mg_restless_grave.md#stage-77) (1×)
-- From [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-70) (1×)
+- From walking into a blocked passage on [Galmore 17 house 2f](../maps/galmore_17_house_2f.md) during [Restless in the grave](../quests/mg_restless_grave.md#stage-77) (1×)
+- From [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) during [Restless in the grave](../quests/mg_restless_grave.md#stage-70) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -50,12 +50,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-85) | handed over (1×) | “Yes, here it is. [Hand it over]” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-85) | worn item is taken (1×) | “Yes, here it is. [Take it off and hand it over.]” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-17) | handed over (1×) | “Yes, here it is. [Hand it over]” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-17) | worn item is taken (1×) | “Yes, here it is. [Take it off and hand it over.]” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-110) | must be carried (1×) | “I have it, but I've decided to keep it for myself.” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-110) | must be worn (1×) | “I'm wearing it, and you can't have it.” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-85) | handed over (1×) | “Yes, here it is. [Hand it over]” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-85) | worn item is taken (1×) | “Yes, here it is. [Take it off and hand it over.]” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-17) | handed over (1×) | “Yes, here it is. [Hand it over]” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-17) | worn item is taken (1×) | “Yes, here it is. [Take it off and hand it over.]” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-110) | must be carried (1×) | “I have it, but I've decided to keep it for myself.” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-110) | must be worn (1×) | “I'm wearing it, and you can't have it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

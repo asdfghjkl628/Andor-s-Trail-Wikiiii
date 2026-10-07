@@ -41,7 +41,7 @@ description: "Iron halberd is a ordinary pole weapon in Andor's Trail (Attack da
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 - [Fiamma](../monsters/brightportsmith.md) (Brightport)
 
 

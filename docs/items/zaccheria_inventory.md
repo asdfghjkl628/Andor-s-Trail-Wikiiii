@@ -27,7 +27,7 @@ description: "Zaccheria's shop inventory is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [sullengard_woods9](../maps/sullengard_woods9.md) during [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) (1×)
+- From stepping on a trigger on [Sullengard woods 9](../maps/sullengard_woods9.md) during [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,9 +38,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | – | must be carried (1×) | “N” |
-| [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) | handed over (1×) | “I wish I knew. After he told me where to find your stuff, he took off and I was ” |
-| [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | – | must be carried (0×) | “I wish I knew. After he told me where to find your stuff, he took off and I was ” |
+| [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)) | – | must be carried (1×) | “N” |
+| [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)) | [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) | handed over (1×) | “I wish I knew. After he told me where to find your stuff, he took off and I was ” |
+| [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)) | – | must be carried (0×) | “I wish I knew. After he told me where to find your stuff, he took off and I was ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

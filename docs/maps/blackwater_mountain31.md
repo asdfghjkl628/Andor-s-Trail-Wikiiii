@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain31 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Wounded Feygard mountain scout. Exits to Blackwater mountain30, Blackwater mountain51."
+description: "Blackwater mountain 31 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Wounded Feygard mountain scout. Exits to Blackwater mountain 30, Blackwater mountain 51."
 ---
 
-# Blackwater mountain31
+# Blackwater mountain 31
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Blackwater mountain31 is an indoor location in Andor's Trail, in B
 
 </div>
 
-**Blackwater mountain31** is an indoor map, in Blackwater Mountain (other). It has 1 NPC, and no enemies. Exits lead to Blackwater mountain30, Blackwater mountain51.
+**Blackwater mountain 31** is an indoor map, in Blackwater Mountain (other). It has 1 NPC, and no enemies. Exits lead to Blackwater mountain 30, Blackwater mountain 51.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain31.webp" alt="Map of Blackwater mountain31" width="352" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain30/#place-east" title="Exit to Blackwater mountain30" style="left:45.455%;top:87.500%;width:9.091%;height:12.500%"></a><span class="mo mo-rest" title="Resting place (respawn point)" style="left:9.091%;top:50.000%;width:9.091%;height:12.500%"></span><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain51/#place-east" title="Exit to Blackwater mountain51" style="left:72.727%;top:75.000%;width:9.091%;height:12.500%"></a><span class="mo mo-sign" title="Sign: You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal." style="left:36.364%;top:50.000%;width:9.091%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Wounded Feygard mountain scout (only appears later, during a quest)" style="left:18.182%;top:75.000%;width:9.091%;height:12.500%"></span><a class="mob mob-later" href="../../monsters/ortholion_guard_wounded/" title="Wounded Feygard mountain scout (appears later in a quest)" style="left:18.182%;top:75.000%;width:9.091%;height:12.500%"><img src="../../assets/icons/monsters/monsters_omi2_11.png" alt="Wounded Feygard mountain scout"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Blackwater mountain30](blackwater_mountain30.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:81.250%" title="Exit (south): to [Blackwater mountain51](blackwater_mountain51.md)">2</a><a id="pin-npc-ortholion_guard_wounded" class="pin pin-npc" href="#key-3" style="left:22.727%;top:81.250%" title="[Wounded Feygard mountain scout](../../monsters/ortholion_guard_wounded.md): 1 quest">3</a><a class="pin pin-rest" href="#key-4" style="left:13.636%;top:56.250%" title="Resting place: Rest here to heal and set your respawn point">4</a><a class="pin pin-sign" href="#key-5" style="left:40.909%;top:56.250%" title="Sign: “You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal.”">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain31.webp" alt="Map of Blackwater mountain 31" width="352" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain30/#place-east" title="Exit to Blackwater mountain 30" style="left:45.455%;top:87.500%;width:9.091%;height:12.500%"></a><span class="mo mo-rest" title="Resting place (respawn point)" style="left:9.091%;top:50.000%;width:9.091%;height:12.500%"></span><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain51/#place-east" title="Exit to Blackwater mountain 51" style="left:72.727%;top:75.000%;width:9.091%;height:12.500%"></a><span class="mo mo-sign" title="Sign: You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal." style="left:36.364%;top:50.000%;width:9.091%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Wounded Feygard mountain scout (only appears later, during a quest)" style="left:18.182%;top:75.000%;width:9.091%;height:12.500%"></span><a class="mob mob-later" href="../../monsters/ortholion_guard_wounded/" title="Wounded Feygard mountain scout (appears later in a quest)" style="left:18.182%;top:75.000%;width:9.091%;height:12.500%"><img src="../../assets/icons/monsters/monsters_omi2_11.png" alt="Wounded Feygard mountain scout"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Blackwater mountain 30](blackwater_mountain30.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:81.250%" title="Exit (south): to [Blackwater mountain 51](blackwater_mountain51.md)">2</a><a id="pin-npc-ortholion_guard_wounded" class="pin pin-npc" href="#key-3" style="left:22.727%;top:81.250%" title="[Wounded Feygard mountain scout](../../monsters/ortholion_guard_wounded.md): 1 quest">3</a><a class="pin pin-rest" href="#key-4" style="left:13.636%;top:56.250%" title="Resting place: Rest here to heal and set your respawn point">4</a><a class="pin pin-sign" href="#key-5" style="left:40.909%;top:56.250%" title="Sign: “You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal.”">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain30](blackwater_mountain30.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Blackwater mountain51](blackwater_mountain51.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain 30](blackwater_mountain30.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Blackwater mountain 51](blackwater_mountain51.md) |
     | <span id="key-3"></span>3 | [Wounded Feygard mountain scout](../monsters/ortholion_guard_wounded.md) | 1 quest |
     | <span id="key-4"></span>4 | Resting place | Rest here to heal and set your respawn point |
     | <span id="key-5"></span>5 | Sign | “You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal.” |
@@ -43,8 +43,8 @@ description: "Blackwater mountain31 is an indoor location in Andor's Trail, in B
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Blackwater mountain30](blackwater_mountain30.md) | Blackwater Mountain | 1 |
-| South | [Blackwater mountain51](blackwater_mountain51.md) | Blackwater Mountain | 2 |
+| South | [Blackwater mountain 30](blackwater_mountain30.md) | Blackwater Mountain | 1 |
+| South | [Blackwater mountain 51](blackwater_mountain51.md) | Blackwater Mountain | 2 |
 
 ## NPCs
 

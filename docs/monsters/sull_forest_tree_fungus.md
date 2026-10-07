@@ -1,10 +1,10 @@
 ---
-description: "Pixie Cort is an enemy in Andor's Trail (construct) with 160 HP, worth 620 XP, found in sullengard_west_ravine, sullengard_woods1, sullengard_woods13. Drops: Gold coins, Small tree branch, Small rock."
+description: "Pixie Cort is an enemy in Andor's Trail (construct) with 160 HP, worth 620 XP, found in Sullengard west ravine, Sullengard woods 1, Sullengard woods 13. Drops: Gold coins, Small tree branch, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_154.png){ .sprite } Pixie Cort
 
-**Found in:** [sullengard_west_ravine](../maps/sullengard_west_ravine.md), [sullengard_woods1](../maps/sullengard_woods1.md), [sullengard_woods13](../maps/sullengard_woods13.md), [sullengard_woods14](../maps/sullengard_woods14.md) (+2 more)
+**Found in:** [Sullengard west ravine](../maps/sullengard_west_ravine.md), [Sullengard woods 1](../maps/sullengard_woods1.md), [Sullengard woods 13](../maps/sullengard_woods13.md), [Sullengard woods 14](../maps/sullengard_woods14.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Pixie Cort is an enemy in Andor's Trail (construct) with 160 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| **Found in** | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
 | **Class** | Construct |
 | **HP** | 160 |
 | **XP when defeated** | 620 |
@@ -60,12 +60,12 @@ description: "Pixie Cort is an enemy in Andor's Trail (construct) with 160 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | 6 | – |
-| [sullengard_woods1](../maps/sullengard_woods1.md) | – | 3 | – |
-| [sullengard_woods13](../maps/sullengard_woods13.md) | – | 5 | – |
-| [sullengard_woods14](../maps/sullengard_woods14.md) | – | 5 | – |
-| [sullengard_woods2](../maps/sullengard_woods2.md) | – | 4 | – |
-| [sullengard_woods3](../maps/sullengard_woods3.md) | – | 1 | – |
+| [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – | 6 | – |
+| [Sullengard woods 1](../maps/sullengard_woods1.md) | – | 3 | – |
+| [Sullengard woods 13](../maps/sullengard_woods13.md) | – | 5 | – |
+| [Sullengard woods 14](../maps/sullengard_woods14.md) | – | 5 | – |
+| [Sullengard woods 2](../maps/sullengard_woods2.md) | – | 4 | – |
+| [Sullengard woods 3](../maps/sullengard_woods3.md) | – | 1 | – |
 
 
 ## Version history

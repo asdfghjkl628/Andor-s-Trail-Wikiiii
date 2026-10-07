@@ -28,7 +28,7 @@ description: "Stinging gland is a ordinary animal part in Andor's Trail. How to 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Venomous beach crawler](../monsters/beach_crawler_1.md) | 10% | 1 | island3, island4, laerothcave0 |
+| [Venomous beach crawler](../monsters/beach_crawler_1.md) | 10% | 1 | Island 3, Island 4, Laerothcave 0 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Elwyl is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_ld1_187.png){ .sprite } Elwyl
 
-**Where to find Elwyl:** Remgard: [remgard_villager5](../maps/remgard_villager5.md#pin-npc-elwyl)
+**Where to find Elwyl:** Remgard: [Remgard villager 5](../maps/remgard_villager5.md#pin-npc-elwyl)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Elwyl is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Elwyl. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Elwyl. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/elwyl.json" data-npc="Elwyl" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (32 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-elwyl"></span>**`elwyl`** *(silent check: the first matching branch below is taken)*
 
@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line added, 2 lines changed |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Hm, yes, it smells exactly as I remember it. It must be the right pot…” → “Hmm, yes, it smells exactly as I remember it. It must be the right po…”<br>· text: “Why .. yes .. of course. I am not wrong! They were clearly blue.” → “Why ... yes ... of course. I am not wrong! They were clearly blue.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Why .. yes .. of course. I am not wrong! They were clearly blue.” → “Why ... yes ... of course. I am not wrong! They were clearly blue.”<br>· text: “His house is up on the northeast shore of town. *Elwyl points outside*” → “His house is up on the northeast shore of town. [Elwyl points outside]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

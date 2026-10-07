@@ -4,7 +4,7 @@ description: "Kazaul statue is an enemy in Andor's Trail (demon) with 478 HP, wo
 
 # ![](../assets/icons/monsters/monsters_1x2_2.png){ .sprite } Kazaul statue
 
-**Found in:** Mt. Galmore: [galmore_45](../maps/galmore_45.md)
+**Found in:** Mt. Galmore: [Galmore 45](../maps/galmore_45.md)
 
 <div class="infobox" markdown>
 
@@ -60,7 +60,7 @@ description: "Kazaul statue is an enemy in Andor's Trail (demon) with 478 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
 
 
 ## Version history

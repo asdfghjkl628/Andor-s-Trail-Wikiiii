@@ -27,7 +27,7 @@ description: "Piece of bright shining crystal is a quest other in Andor's Trail.
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [galmore_66](../maps/galmore_66.md), stepping on a trigger on [galmore_77](../maps/galmore_77.md) (1×)
+- From stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,27 +38,27 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | – | must be carried (10×) | “(automatic)” |
-| [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-60) | handed over (10×) | “Here, you can have them for the greater glory.” |
-| [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-62) | handed over (10×) | “Sounds great - I choose this one. [Touch the item]” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | – | must be carried (1×) | “Here I have some pieces already.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | – | must be carried (5×) | “I might give you half of them - five pieces.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-48) | handed over (5×) | “I might give you the rest of them - five pieces.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “OK, you are right. Here take them and do what you must.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-47) | handed over (5×) | “No, I will give you only half of them.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-47) | must be carried (1×) | “I might throw the remaining ones at Andor. Hmm ...” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “Here you go. Take it and do what you have to do.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-32) | must be carried (10×) | “I've changed my mind. These glittery things are too pretty to be destroyed.” |
-| [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “You are certainly right. Take it and do what you have to do.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | – | must be carried (1×) | “Anyway, here I have some pieces already.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | – | must be carried (5×) | “I might give you half of them - five pieces.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-46) | handed over (5×) | “I might give you the rest of them - five pieces.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “OK, you are right. Here take them and do what you must.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-45) | handed over (5×) | “No, I will give you only half of them.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-45) | must be carried (1×) | “I might throw the remaining ones at Andor. Hmm ...” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “Here you go. Take it and do what you have to do.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-30) | must be carried (10×) | “I've changed my mind. These glittery things are too pretty to be destroyed.” |
-| [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “You are certainly right. Take it and do what you have to do.” |
+| [Pangitain](../monsters/brv_fortune_teller.md) ([Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md)) | – | must be carried (10×) | “(automatic)” |
+| [Pangitain](../monsters/brv_fortune_teller.md) ([Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-60) | handed over (10×) | “Here, you can have them for the greater glory.” |
+| [Pangitain](../monsters/brv_fortune_teller.md) ([Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-62) | handed over (10×) | “Sounds great - I choose this one. [Touch the item]” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | – | must be carried (1×) | “Here I have some pieces already.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | – | must be carried (5×) | “I might give you half of them - five pieces.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-48) | handed over (5×) | “I might give you the rest of them - five pieces.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “OK, you are right. Here take them and do what you must.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-47) | handed over (5×) | “No, I will give you only half of them.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-47) | must be carried (1×) | “I might throw the remaining ones at Andor. Hmm ...” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “Here you go. Take it and do what you have to do.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-32) | must be carried (10×) | “I've changed my mind. These glittery things are too pretty to be destroyed.” |
+| [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-52) | handed over (10×) | “You are certainly right. Take it and do what you have to do.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | – | must be carried (1×) | “Anyway, here I have some pieces already.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | – | must be carried (5×) | “I might give you half of them - five pieces.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-46) | handed over (5×) | “I might give you the rest of them - five pieces.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “OK, you are right. Here take them and do what you must.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-45) | handed over (5×) | “No, I will give you only half of them.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-45) | must be carried (1×) | “I might throw the remaining ones at Andor. Hmm ...” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “Here you go. Take it and do what you have to do.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-30) | must be carried (10×) | “I've changed my mind. These glittery things are too pretty to be destroyed.” |
+| [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) | [The exploded star](../quests/mg2_exploded_star.md#stage-50) | handed over (10×) | “You are certainly right. Take it and do what you have to do.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

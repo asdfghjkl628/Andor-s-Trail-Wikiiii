@@ -1,8 +1,8 @@
 ---
-description: "Waterwaya6 is an outdoor location in Andor's Trail. Enemies: Aggressive caterpillar, Creeping fungus. Exits to Waterwaya1."
+description: "Waterwaya 6 is an outdoor location in Andor's Trail. Enemies: Aggressive caterpillar, Creeping fungus. Exits to Waterwaya 1."
 ---
 
-# Waterwaya6
+# Waterwaya 6
 
 <div class="infobox" markdown>
 
@@ -11,26 +11,26 @@ description: "Waterwaya6 is an outdoor location in Andor's Trail. Enemies: Aggre
 | **Map ID** | `waterwaya6` |
 | **Type** | Outdoors |
 | **Size** | 20×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Waterwaya6** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waterwaya1.
+**Waterwaya 6** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waterwaya 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwaya6.webp" alt="Map of Waterwaya6" width="640" height="512" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waterwaya1/#place-west" title="Exit to Waterwaya1" style="left:95.000%;top:50.000%;width:5.000%;height:12.500%"></a><a class="mo mo-script" href="../../quests/nondisplay_2/#stage-130" title="Scripted event: advances the quest: hidden story flag “nondisplay_2” to stage 130 (“Found old clothes”)" style="left:40.000%;top:18.750%;width:5.000%;height:6.250%"></a><span class="mo mo-script" title="Scripted event: “You found some crates that look as though they have been here for a very long time.”" style="left:25.000%;top:25.000%;width:15.000%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:55.000%;top:43.750%;width:35.000%;height:43.750%"></span><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:20.000%;top:12.500%;width:40.000%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:60.000%;top:18.750%;width:30.000%;height:31.250%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:35.000%;top:50.000%;width:30.000%;height:37.500%"></span><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:75.000%;top:56.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:70.000%;top:62.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:75.000%;top:81.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:45.000%;top:12.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:45.000%;top:25.000%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:50.000%;top:31.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:70.000%;top:31.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:60.000%;top:37.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:35.000%;top:75.000%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:55.000%;top:68.750%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.250%" title="Exit (east): to [Waterwaya1](waterwaya1.md)">1</a><a class="pin pin-script" href="#key-2" style="left:42.500%;top:21.875%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “nondisplay_2” to stage 130 (“Found old clothes”)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwaya6.webp" alt="Map of Waterwaya 6" width="640" height="512" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waterwaya1/#place-west" title="Exit to Waterwaya 1" style="left:95.000%;top:50.000%;width:5.000%;height:12.500%"></a><a class="mo mo-script" href="../../quests/nondisplay_2/#stage-130" title="Scripted event: advances the quest: hidden story flag “nondisplay_2” to stage 130 (“Found old clothes”)" style="left:40.000%;top:18.750%;width:5.000%;height:6.250%"></a><span class="mo mo-script" title="Scripted event: “You found some crates that look as though they have been here for a very long time.”" style="left:25.000%;top:25.000%;width:15.000%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:55.000%;top:43.750%;width:35.000%;height:43.750%"></span><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:20.000%;top:12.500%;width:40.000%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:60.000%;top:18.750%;width:30.000%;height:31.250%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:35.000%;top:50.000%;width:30.000%;height:37.500%"></span><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:75.000%;top:56.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:70.000%;top:62.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:75.000%;top:81.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:45.000%;top:12.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:45.000%;top:25.000%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:50.000%;top:31.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:70.000%;top:31.250%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:60.000%;top:37.500%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:35.000%;top:75.000%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:55.000%;top:68.750%;width:5.000%;height:6.250%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.250%" title="Exit (east): to [Waterwaya 1](waterwaya1.md)">1</a><a class="pin pin-script" href="#key-2" style="left:42.500%;top:21.875%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “nondisplay_2” to stage 130 (“Found old clothes”)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Waterwaya1](waterwaya1.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Waterwaya 1](waterwaya1.md) |
     | <span id="key-2"></span>2 | Quest trigger | Scripted event: advances the quest: hidden story flag “nondisplay_2” to stage 130 (“Found old clothes”) |
 
 
@@ -40,7 +40,7 @@ description: "Waterwaya6 is an outdoor location in Andor's Trail. Enemies: Aggre
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Waterwaya1](waterwaya1.md) | – | 1 |
+| East | [Waterwaya 1](waterwaya1.md) | – | 1 |
 
 ## Enemies
 
@@ -53,7 +53,7 @@ description: "Waterwaya6 is an outdoor location in Andor's Trail. Enemies: Aggre
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): something on this map advances it; stepping on a trigger here sets stage 130
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): something on this map advances it; stepping on a trigger here sets stage 130
 
 ## Points of interest
 

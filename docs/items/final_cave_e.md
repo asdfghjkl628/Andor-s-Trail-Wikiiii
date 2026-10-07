@@ -25,14 +25,14 @@ description: "Scroll of earth is a quest other in Andor's Trail. How to get it: 
 
 ### Found in containers
 
-- [island3](../maps/island3.md#container-0) (container 1, 100%)
-- [island3](../maps/island3.md#container-6) (container 7, 100%)
-- [island3](../maps/island3.md#container-9) (container 10, 100%)
-- [island3](../maps/island3.md#container-15) (container 16, 100%)
+- [Island 3](../maps/island3.md#container-0) (container 1, 100%)
+- [Island 3](../maps/island3.md#container-6) (container 7, 100%)
+- [Island 3](../maps/island3.md#container-9) (container 10, 100%)
+- [Island 3](../maps/island3.md#container-15) (container 16, 100%)
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [final_cave1](../maps/final_cave1.md) (1×)
+- From walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -43,10 +43,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-1) | handed over (1×) | “The scroll of earth” |
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-3) | handed over (1×) | “The scroll of earth” |
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-5) | handed over (1×) | “The scroll of earth” |
-| walking into a blocked passage on [final_cave1](../maps/final_cave1.md) | [final_cave (hidden flag)](../quests/final_cave.md#stage-7) | handed over (1×) | “The scroll of earth” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-1) | handed over (1×) | “The scroll of earth” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-3) | handed over (1×) | “The scroll of earth” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-5) | handed over (1×) | “The scroll of earth” |
+| walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) | [Final cave (hidden flag)](../quests/final_cave.md#stage-7) | handed over (1×) | “The scroll of earth” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

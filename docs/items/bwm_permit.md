@@ -25,7 +25,7 @@ description: "Forged papers for Blackwater is a quest other in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
+- From [Guthbered](../monsters/guthbered.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Blackwater chamber guard](../monsters/blackwater_chamber_guard.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | [Clouded intent](../quests/prim_hunt.md#stage-140) | handed over (1×) | “Here, I have a written permit to enter.” |
+| [Blackwater chamber guard](../monsters/blackwater_chamber_guard.md) ([Blackwater mountain 45](../maps/blackwater_mountain45.md)) | [Clouded intent](../quests/prim_hunt.md#stage-140) | handed over (1×) | “Here, I have a written permit to enter.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

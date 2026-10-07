@@ -46,7 +46,7 @@ description: "Black defender is a extraordinary shield, metal (light) in Andor's
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Crimson jelly](../monsters/jelly5.md) | 0.1% | 1 | roadcave1 |
+| [Crimson jelly](../monsters/jelly5.md) | 0.1% | 1 | Roadcave 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

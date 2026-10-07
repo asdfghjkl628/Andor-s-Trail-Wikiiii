@@ -55,8 +55,8 @@ description: "Ointment of bleeding wounds is a ordinary potion in Andor's Trail.
 
 ### Found in containers
 
-- [laerothprison1](../maps/laerothprison1.md#container-0) (container 1, 80%), Lake Laeroth
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Laerothprison 1](../maps/laerothprison1.md#container-0) (container 1, 80%), Lake Laeroth
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -67,7 +67,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-42) | handed over (1×) | “Well, I have this ointment for stopping wounds. Take it.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-42) | handed over (1×) | “Well, I have this ointment for stopping wounds. Take it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

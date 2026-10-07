@@ -4,7 +4,7 @@ description: "Trauerquol is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_ld1_105.png){ .sprite } Trauerquol
 
-**Where to find Trauerquol:** Brightport: [brightport_inn](../maps/brightport_inn.md#pin-npc-brightportinnvisitor)
+**Where to find Trauerquol:** Brightport: [Brightport inn](../maps/brightport_inn.md#pin-npc-brightportinnvisitor)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Trauerquol is a non-player character (NPC) in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Trauerquol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Trauerquol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_bakery2.json" data-npc="Trauerquol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_bakery2"></span>**`brightport_bakery2`** [Trauerquol](../monsters/brightportinnvisitor.md): “I've just been to the bakery, and it left a sour taste in my mouth! Those apple pies are so bad, I could die!”
 

@@ -1,10 +1,10 @@
 ---
-description: "Undead Kamelio is an enemy in Andor's Trail (undead) with 304 HP, worth 796 XP, found in elm5f_2. Drops: Gold coins, Prim arming sword, Fire opal necklace, Kazarite cloak."
+description: "Undead Kamelio is an enemy in Andor's Trail (undead) with 304 HP, worth 796 XP, found in Elm 5f 2. Drops: Gold coins, Prim arming sword, Fire opal necklace, Kazarite cloak."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_20.png){ .sprite } Undead Kamelio
 
-**Found in:** [elm5f_2](../maps/elm5f_2.md)
+**Found in:** [Elm 5f 2](../maps/elm5f_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Undead Kamelio is an enemy in Andor's Trail (undead) with 304 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_2 |
+| **Found in** | Elm 5f 2 |
 | **Class** | Undead |
 | **HP** | 304 |
 | **XP when defeated** | 796 |
@@ -61,11 +61,11 @@ description: "Undead Kamelio is an enemy in Andor's Trail (undead) with 304 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_2](../maps/elm5f_2.md) | – | 1 | Appears later, during a quest |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54) with stepping on a trigger on [elm5f_2](../maps/elm5f_2.md) checks that this enemy has been defeated.
+- [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54) with stepping on a trigger on [Elm 5f 2](../maps/elm5f_2.md) checks that this enemy has been defeated.
 
 
 ## Version history

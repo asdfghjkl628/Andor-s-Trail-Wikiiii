@@ -4,7 +4,7 @@ description: "Aggressive cave bat is an enemy in Andor's Trail (animal) with 41 
 
 # ![](../assets/icons/monsters/monsters_tometik4_4.png){ .sprite } Aggressive cave bat
 
-**Found in:** Lake Laeroth: [laerothbasement1](../maps/laerothbasement1.md), [korhald_cave_bear](../maps/korhald_cave_bear.md), [laerothcave2](../maps/laerothcave2.md), [lodar5cave1](../maps/lodar5cave1.md) (+7 more)
+**Found in:** Lake Laeroth: [Laerothbasement 1](../maps/laerothbasement1.md), [Korhald cave bear](../maps/korhald_cave_bear.md), [Laerothcave 2](../maps/laerothcave2.md), [Lodar 5cave 1](../maps/lodar5cave1.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -54,17 +54,17 @@ description: "Aggressive cave bat is an enemy in Andor's Trail (animal) with 41 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [korhald_cave_bear](../maps/korhald_cave_bear.md) | – | 1 | – |
-| [laerothbasement1](../maps/laerothbasement1.md) | Lake Laeroth | 4 | – |
-| [laerothcave2](../maps/laerothcave2.md) | – | 5 | – |
-| [lodar5cave1](../maps/lodar5cave1.md) | – | 1 | – |
-| [lodar5cave2](../maps/lodar5cave2.md) | – | 4 | – |
-| [lodarcave4a](../maps/lodarcave4a.md) | – | 4 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 6 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 4 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 5 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 2 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 3 | – |
+| [Korhald cave bear](../maps/korhald_cave_bear.md) | – | 1 | – |
+| [Laerothbasement 1](../maps/laerothbasement1.md) | Lake Laeroth | 4 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 5 | – |
+| [Lodar 5cave 1](../maps/lodar5cave1.md) | – | 1 | – |
+| [Lodar 5cave 2](../maps/lodar5cave2.md) | – | 4 | – |
+| [Lodarcave 4a](../maps/lodarcave4a.md) | – | 4 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 6 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 4 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 5 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 2 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 3 | – |
 
 
 ## Version history

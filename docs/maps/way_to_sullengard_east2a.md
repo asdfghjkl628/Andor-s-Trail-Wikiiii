@@ -1,8 +1,8 @@
 ---
-description: "Way to sullengard east2a is an indoor location in Andor's Trail. Enemies: Poisonous jitterfly, Flying tree ant. Exits to Way to sullengard east2, Way to sullengard east ravine north."
+description: "Way to sullengard east 2a is an indoor location in Andor's Trail. Enemies: Poisonous jitterfly, Flying tree ant. Exits to Way to sullengard east 2, Way to sullengard east ravine north."
 ---
 
-# Way to sullengard east2a
+# Way to sullengard east 2a
 
 <div class="infobox" markdown>
 
@@ -11,26 +11,26 @@ description: "Way to sullengard east2a is an indoor location in Andor's Trail. E
 | **Map ID** | `way_to_sullengard_east2a` |
 | **Type** | Indoors / underground |
 | **Size** | 15×14 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Way to sullengard east2a** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Way to sullengard east2, Way to sullengard east ravine north.
+**Way to sullengard east 2a** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Way to sullengard east 2, Way to sullengard east ravine north.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/way_to_sullengard_east2a.webp" alt="Map of Way to sullengard east2a" width="480" height="448" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../way_to_sullengard_east2/#place-south" title="Exit to Way to sullengard east2" style="left:26.667%;top:0.000%;width:6.667%;height:7.143%"></a><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_east_ravine_north/#place-east" title="Exit to Way to sullengard east ravine north" style="left:0.000%;top:42.857%;width:6.667%;height:28.571%"></a><span class="mo mo-spawn" title="Spawns: Flying tree ant" style="left:73.333%;top:21.429%;width:26.667%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Poisonous jitterfly" style="left:13.333%;top:21.429%;width:20.000%;height:35.714%"></span><a class="mob" href="../../monsters/flying_tree_ant/" title="Flying tree ant" style="left:73.333%;top:21.429%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_omi2_5.png" alt="Flying tree ant"></a><a class="mob" href="../../monsters/flying_tree_ant/" title="Flying tree ant" style="left:93.333%;top:42.857%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_omi2_5.png" alt="Flying tree ant"></a><a class="mob" href="../../monsters/poisonous_jitterfly/" title="Poisonous jitterfly" style="left:26.667%;top:42.857%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_rltiles2_65.png" alt="Poisonous jitterfly"></a><a class="pin pin-exit" href="#key-1" style="left:30.000%;top:3.571%" title="Exit (north): to [Way to sullengard east2](way_to_sullengard_east2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.333%;top:57.143%" title="Exit (west): to [Way to sullengard east ravine north](way_to_sullengard_east_ravine_north.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/way_to_sullengard_east2a.webp" alt="Map of Way to sullengard east 2a" width="480" height="448" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../way_to_sullengard_east2/#place-south" title="Exit to Way to sullengard east 2" style="left:26.667%;top:0.000%;width:6.667%;height:7.143%"></a><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_east_ravine_north/#place-east" title="Exit to Way to sullengard east ravine north" style="left:0.000%;top:42.857%;width:6.667%;height:28.571%"></a><span class="mo mo-spawn" title="Spawns: Flying tree ant" style="left:73.333%;top:21.429%;width:26.667%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Poisonous jitterfly" style="left:13.333%;top:21.429%;width:20.000%;height:35.714%"></span><a class="mob" href="../../monsters/flying_tree_ant/" title="Flying tree ant" style="left:73.333%;top:21.429%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_omi2_5.png" alt="Flying tree ant"></a><a class="mob" href="../../monsters/flying_tree_ant/" title="Flying tree ant" style="left:93.333%;top:42.857%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_omi2_5.png" alt="Flying tree ant"></a><a class="mob" href="../../monsters/poisonous_jitterfly/" title="Poisonous jitterfly" style="left:26.667%;top:42.857%;width:6.667%;height:7.143%"><img src="../../assets/icons/monsters/monsters_rltiles2_65.png" alt="Poisonous jitterfly"></a><a class="pin pin-exit" href="#key-1" style="left:30.000%;top:3.571%" title="Exit (north): to [Way to sullengard east 2](way_to_sullengard_east2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.333%;top:57.143%" title="Exit (west): to [Way to sullengard east ravine north](way_to_sullengard_east_ravine_north.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Way to sullengard east2](way_to_sullengard_east2.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Way to sullengard east 2](way_to_sullengard_east2.md) |
     | <span id="key-2"></span>2 | Exit (west) | to [Way to sullengard east ravine north](way_to_sullengard_east_ravine_north.md) |
 
 
@@ -40,7 +40,7 @@ description: "Way to sullengard east2a is an indoor location in Andor's Trail. E
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Way to sullengard east2](way_to_sullengard_east2.md) | – | 1 |
+| North | [Way to sullengard east 2](way_to_sullengard_east2.md) | – | 1 |
 | West | [Way to sullengard east ravine north](way_to_sullengard_east_ravine_north.md) | – | 2 |
 
 ## Enemies

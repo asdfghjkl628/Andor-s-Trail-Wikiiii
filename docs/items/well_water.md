@@ -36,7 +36,7 @@ description: "Bottle of well water is a extraordinary healing item in Andor's Tr
 
 ### Found in containers
 
-- [ratdom_maze_424](../maps/ratdom_maze_424.md#container-0) (container 1, 100%), Bloskelt + Roskelt
+- [Ratdom maze 424](../maps/ratdom_maze_424.md#container-0) (container 1, 100%), Bloskelt + Roskelt
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

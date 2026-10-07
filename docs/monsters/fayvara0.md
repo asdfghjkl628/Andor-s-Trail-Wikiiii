@@ -1,5 +1,5 @@
 ---
-description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in Charwood, tradehouse0a. Teaches Heavy armor proficiency, Light armor proficiency, Shield proficiency, Unarmored fighting."
+description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in Charwood, Tradehouse 0a. Teaches Heavy armor proficiency, Light armor proficiency, Shield proficiency, Unarmored fighting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } Fayvara
@@ -12,25 +12,25 @@ description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) |
-| **Found in** | Charwood, tradehouse0a |
+| **Found in** | Charwood, Tradehouse 0a |
 | **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Fayvara. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Fayvara. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`fayvara0`](#v-fayvara0) | NPC | Charwood: [minerhouse7](../maps/minerhouse7.md#pin-npc-fayvara0) | – |
-| [`fayvara1`](#v-fayvara1) | NPC | [tradehouse0a](../maps/tradehouse0a.md#pin-npc-fayvara1) | teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) |
+| [`fayvara0`](#v-fayvara0) | NPC | Charwood: [Minerhouse 7](../maps/minerhouse7.md#pin-npc-fayvara0) | – |
+| [`fayvara1`](#v-fayvara1) | NPC | [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-fayvara1) | teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) |
 
-## Charwood, Minerhouse7 (fayvara0) { #v-fayvara0 }
+## Charwood, Minerhouse 7 (fayvara0) { #v-fayvara0 }
 
 **Entry ID:** `fayvara0` · **Type:** NPC
 
-**Location:** Charwood: [minerhouse7](../maps/minerhouse7.md#pin-npc-fayvara0)
+**Location:** Charwood: [Minerhouse 7](../maps/minerhouse7.md#pin-npc-fayvara0)
 
 ### Quests
 
@@ -38,7 +38,7 @@ description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fayvara. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fayvara. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fayvara0.json" data-npc="Fayvara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fayvara0-fayvara0"></span>**`fayvara0`** Fayvara: “Please help me! I'm being held captive here.”
 
@@ -99,11 +99,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Tradehouse0a (fayvara1) { #v-fayvara1 }
+## Tradehouse 0a (fayvara1) { #v-fayvara1 }
 
 **Entry ID:** `fayvara1` · **Type:** NPC · **Role:** Teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md)
 
-**Location:** [tradehouse0a](../maps/tradehouse0a.md#pin-npc-fayvara1)
+**Location:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-fayvara1)
 
 ### Quests
 
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fayvara. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fayvara. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fayvara1.json" data-npc="Fayvara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -119,7 +119,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (53 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fayvara1-fayvara1"></span>**`fayvara1`** *(silent check: the first matching branch below is taken)*
 
@@ -372,8 +372,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 12 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…” |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “I can teach you about using shields to your advantage, or how to best…” → “I can teach you about using shields and parrying weapons to your adva…”<br>· text: “I can teach you to better withstand attacks using a shield, so that y…” → “I can teach you to better withstand attacks using a shield, or to div…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.”<br>· text: “We very rarely teach anyone outside our settlement, Falothen and I. I…” → “We very rarely teach anyone outside our settlement, Falothen and I. I…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “I can teach you to better withstand attacks using a shield, so that y…” → “I can teach you to better withstand attacks using a shield, or to div…”<br>· text: “I can teach you about using shields to your advantage, or how to best…” → “I can teach you about using shields and parrying weapons to your adva…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “We very rarely teach anyone outside our settlement, Falothen and I. I…” → “We very rarely teach anyone outside our settlement, Falothen and I. I…”<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

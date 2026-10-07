@@ -4,7 +4,7 @@ description: "Lizard warrior is an enemy in Andor's Trail (reptile) with 250 HP,
 
 # ![](../assets/icons/monsters/monsters_johny_0.png){ .sprite } Lizard warrior
 
-**Found in:** Greenscale tribe: [brightport_cave17](../maps/brightport_cave17.md), Greenscale tribe: [brightport_lizard1](../maps/brightport_lizard1.md)
+**Found in:** Greenscale tribe: [Brightport cave 17](../maps/brightport_cave17.md), Greenscale tribe: [Brightport lizard 1](../maps/brightport_lizard1.md)
 
 <div class="infobox" markdown>
 
@@ -56,12 +56,12 @@ description: "Lizard warrior is an enemy in Andor's Trail (reptile) with 250 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave17](../maps/brightport_cave17.md) | Greenscale tribe | 3 | Appears later, during a quest |
-| [brightport_lizard1](../maps/brightport_lizard1.md) | Greenscale tribe | 2 | Appears later, during a quest |
+| [Brightport cave 17](../maps/brightport_cave17.md) | Greenscale tribe | 3 | Appears later, during a quest |
+| [Brightport lizard 1](../maps/brightport_lizard1.md) | Greenscale tribe | 2 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [brightport_cave17](../maps/brightport_cave17.md) checks that at least 5 of these enemies have been defeated.
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [Brightport cave 17](../maps/brightport_cave17.md) checks that at least 5 of these enemies have been defeated.
 
 
 ## Version history

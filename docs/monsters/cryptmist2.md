@@ -1,10 +1,10 @@
 ---
-description: "Clear mist of the crypt is an enemy in Andor's Trail (ghost) with 166 HP, worth 314 XP, found in lodar12cave0, lodar12cave1. Drops: Axe of fear."
+description: "Clear mist of the crypt is an enemy in Andor's Trail (ghost) with 166 HP, worth 314 XP, found in Lodar 12cave 0, Lodar 12cave 1. Drops: Axe of fear."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_142.png){ .sprite } Clear mist of the crypt
 
-**Found in:** [lodar12cave0](../maps/lodar12cave0.md), [lodar12cave1](../maps/lodar12cave1.md)
+**Found in:** [Lodar 12cave 0](../maps/lodar12cave0.md), [Lodar 12cave 1](../maps/lodar12cave1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Clear mist of the crypt is an enemy in Andor's Trail (ghost) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar12cave0, lodar12cave1 |
+| **Found in** | Lodar 12cave 0, Lodar 12cave 1 |
 | **Class** | Ghost |
 | **HP** | 166 |
 | **XP when defeated** | 314 |
@@ -58,8 +58,8 @@ description: "Clear mist of the crypt is an enemy in Andor's Trail (ghost) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar12cave0](../maps/lodar12cave0.md) | – | 4 | – |
-| [lodar12cave1](../maps/lodar12cave1.md) | – | 3 | – |
+| [Lodar 12cave 0](../maps/lodar12cave0.md) | – | 4 | – |
+| [Lodar 12cave 1](../maps/lodar12cave1.md) | – | 3 | – |
 
 
 ## Version history

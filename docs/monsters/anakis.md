@@ -4,7 +4,7 @@ description: "Anakis is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_84.png){ .sprite } Anakis
 
-**Where to find Anakis:** Brimhaven: [brimhaven7](../maps/brimhaven7.md#pin-npc-anakis), Brimhaven: [brimhaven_anakis_house](../maps/brimhaven_anakis_house.md#pin-npc-anakis)
+**Where to find Anakis:** Brimhaven: [Brimhaven 7](../maps/brimhaven7.md#pin-npc-anakis), Brimhaven: [Brimhaven anakis house](../maps/brimhaven_anakis_house.md#pin-npc-anakis)
 
 <div class="infobox" markdown>
 
@@ -24,8 +24,8 @@ description: "Anakis is a non-player character (NPC) in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven7](../maps/brimhaven7.md) | Brimhaven | 1 | – |
-| [brimhaven_anakis_house](../maps/brimhaven_anakis_house.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven 7](../maps/brimhaven7.md) | Brimhaven | 1 | – |
+| [Brimhaven anakis house](../maps/brimhaven_anakis_house.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -33,7 +33,7 @@ description: "Anakis is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Anakis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Anakis. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/anakis_start.json" data-npc="Anakis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (17 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-anakis_start"></span>**`anakis_start`** *(silent check: the first matching branch below is taken)*
 
@@ -52,25 +52,25 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 5 *(if NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90); latest stage of [A quick glance](../quests/quick_glance.md#stage-85) is 85)* → [anakis_thank_healing_sister](#d-anakis_thank_healing_sister)
     - branch 6 *(if NOT reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90))* → [anakis_did_you_take_revenge](#d-anakis_did_you_take_revenge)
     - branch 7 *(if reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [anakis_at_home_thanks](#d-anakis_at_home_thanks)
-    - branch 8 *(if reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); NOT reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [anakis_at_home_angry](#d-anakis_at_home_angry)
+    - branch 8 *(if reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); NOT reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [anakis_at_home_angry](#d-anakis_at_home_angry)
     - branch 9 → [anakis_at_home_morning](#d-anakis_at_home_morning)
 
     <span id="d-anakis_help_find_sister"></span>**`anakis_help_find_sister`** Anakis: “Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka left the city to go up to this hill. She did not come home and now I am searching for her. I fear she went into that cave.” — **effects:** sets stage 10 of [A quick glance](../quests/quick_glance.md#stage-10)
 
-    - “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
-    - “Yes, I will search for your sister.” *(if NOT reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_agreed_find_sister](#d-anakis_agreed_find_sister)
+    - “I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
+    - “Yes, I will search for your sister.” *(if NOT reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_agreed_find_sister](#d-anakis_agreed_find_sister)
     - “No, that's none of my business.” → [anakis_deny_help](#d-anakis_deny_help)
 
     <span id="d-anakis_meet_2nd_time"></span>**`anakis_meet_2nd_time`** Anakis: “Hello again. Can you please help me to find my sister Juttarka?”
 
-    - “I found a statue looking almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
+    - “I found a statue looking almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
     - “Yes, I will search for your sister.” → [anakis_agreed_find_sister](#d-anakis_agreed_find_sister)
     - “No, that's none of my business.” → [anakis_deny_help](#d-anakis_deny_help)
 
     <span id="d-anakis_did_you_find_my_sister"></span>**`anakis_did_you_find_my_sister`** Anakis: “Did you find my sister?”
 
     - “No, not yet.” → *conversation ends*
-    - “I only found a stone statue that looks almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
+    - “I only found a stone statue that looks almost like a real woman. [Describe the statue to Anakis]” *(if reached stage 10 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-10))* → [anakis_thank_finding_sister](#d-anakis_thank_finding_sister)
 
     <span id="d-anakis_can_you_take_revenge"></span>**`anakis_can_you_take_revenge`** Anakis: “Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate that happened to my sister does not befall you.” — **effects:** sets stage 60 of [A quick glance](../quests/quick_glance.md#stage-60)
 
@@ -85,9 +85,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-anakis_did_you_take_revenge"></span>**`anakis_did_you_take_revenge`** Anakis: “Did you kill the Basilisk?”
 
-    - “I found the Basilisk and killed it, but I decided to take the blood for myself.” *(if killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30))* → [anakis_sad_blood_not_use_for_sister](#d-anakis_sad_blood_not_use_for_sister)
+    - “I found the Basilisk and killed it, but I decided to take the blood for myself.” *(if killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30))* → [anakis_sad_blood_not_use_for_sister](#d-anakis_sad_blood_not_use_for_sister)
     - “I found the Basilisk and killed it.” *(if NOT reached stage 75 of [A quick glance](../quests/quick_glance.md#stage-75); killed 1× [Ancient basilisk](../monsters/old_basilisk.md))* → [anakis_thank_taking_revenge](#d-anakis_thank_taking_revenge)
-    - “I found no way to help your sister, but I took revenge and killed the Basilisk.” *(if reached stage 75 of [A quick glance](../quests/quick_glance.md#stage-75); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30))* → [anakis_thank_taking_revenge](#d-anakis_thank_taking_revenge)
+    - “I found no way to help your sister, but I took revenge and killed the Basilisk.” *(if reached stage 75 of [A quick glance](../quests/quick_glance.md#stage-75); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); NOT reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30))* → [anakis_thank_taking_revenge](#d-anakis_thank_taking_revenge)
     - “No, not yet.” → *conversation ends*
     - “I will take revenge, but let me first think if it is possible to help your sister.” → [anakis_talk_to_priest](#d-anakis_talk_to_priest)
 

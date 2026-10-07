@@ -25,8 +25,8 @@ description: "Crystal globe is a quest other in Andor's Trail. How to get it: qu
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_00](../monsters/brv_wh_item_00.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_20](../monsters/brv_wh_item_20.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-100) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_00](../monsters/brv_wh_item_00.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_20](../monsters/brv_wh_item_20.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-100) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100) | handed over (1×) | “Are you the one who ordered a 'Crystal Globe'?” |
-| [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100) | handed over (1×) | “So you are the one who ordered a 'Crystal Globe'?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Pangitain](../monsters/brv_fortune_teller.md) ([Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100) | handed over (1×) | “Are you the one who ordered a 'Crystal Globe'?” |
+| [Pangitain](../monsters/brv_fortune_teller.md) ([Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100) | handed over (1×) | “So you are the one who ordered a 'Crystal Globe'?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

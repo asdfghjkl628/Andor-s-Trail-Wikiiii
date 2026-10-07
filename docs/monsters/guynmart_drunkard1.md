@@ -18,26 +18,26 @@ description: "Fjoerkard is a non-player character (NPC) in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Fjoerkard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Fjoerkard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_drunkard1`](#v-guynmart_drunkard1) | NPC | Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1) | – |
-| [`guynmart_drunkard5`](#v-guynmart_drunkard5) | NPC | Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5) | – |
+| [`guynmart_drunkard1`](#v-guynmart_drunkard1) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1) | – |
+| [`guynmart_drunkard5`](#v-guynmart_drunkard5) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5) | – |
 
 ## Guynmart Castle, Guynmart main 2 (guynmart_drunkard1) { #v-guynmart_drunkard1 }
 
 **Entry ID:** `guynmart_drunkard1` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1)
+**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1)
 
 ### Quests
 
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 4
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 4
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fjoerkard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fjoerkard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_drunkard1_10.json" data-npc="Fjoerkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,19 +45,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_drunkard1-guynmart_drunkard1_10"></span>**`guynmart_drunkard1_10`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if carry 1× [Wine](../items/guynmart_wine.md))* → [guynmart_drunkard1_30](#d-guynmart_drunkard1-guynmart_drunkard1_30)
     - branch 2 → [guynmart_drunkard1_20](#d-guynmart_drunkard1-guynmart_drunkard1_20)
 
-    <span id="d-guynmart_drunkard1-guynmart_drunkard1_30"></span>**`guynmart_drunkard1_30`** Fjoerkard: “Hey, why don't you take a seat and open one of those bottles of wine you have. I could tell you things you wouldn't believe!” — **effects:** sets stage 4 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-4)
+    <span id="d-guynmart_drunkard1-guynmart_drunkard1_30"></span>**`guynmart_drunkard1_30`** Fjoerkard: “Hey, why don't you take a seat and open one of those bottles of wine you have. I could tell you things you wouldn't believe!” — **effects:** sets stage 4 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-4)
 
     - “OK, I'll sit down.” → *conversation ends*
     - “You should drink less.” → *conversation ends*
 
-    <span id="d-guynmart_drunkard1-guynmart_drunkard1_20"></span>**`guynmart_drunkard1_20`** Fjoerkard: “Hey, get us some bottles of wine and then take a seat. I could tell you things you wouldn't believe!” — **effects:** sets stage 4 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-4)
+    <span id="d-guynmart_drunkard1-guynmart_drunkard1_20"></span>**`guynmart_drunkard1_20`** Fjoerkard: “Hey, get us some bottles of wine and then take a seat. I could tell you things you wouldn't believe!” — **effects:** sets stage 4 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-4)
 
     - “I'll go for the wine, wait a minute.” → *conversation ends*
     - “You should drink less.” → *conversation ends*
@@ -104,11 +104,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_drunkard5` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5)
+**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fjoerkard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fjoerkard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_drunkard5_10.json" data-npc="Fjoerkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -116,13 +116,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (22 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_drunkard5-guynmart_drunkard5_10"></span>**`guynmart_drunkard5_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if carry 1× [Wine](../items/guynmart_wine.md); reached stage 5 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-5))* → [guynmart_drunkard5_100](#d-guynmart_drunkard5-guynmart_drunkard5_100)
+    - branch 1 *(if carry 1× [Wine](../items/guynmart_wine.md); reached stage 5 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-5))* → [guynmart_drunkard5_100](#d-guynmart_drunkard5-guynmart_drunkard5_100)
     - branch 2 *(if carry 1× [Wine](../items/guynmart_wine.md))* → [guynmart_drunkard5_20](#d-guynmart_drunkard5-guynmart_drunkard5_20)
-    - branch 3 *(if reached stage 4 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-4))* → [guynmart_drunkard5_12](#d-guynmart_drunkard5-guynmart_drunkard5_12)
+    - branch 3 *(if reached stage 4 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-4))* → [guynmart_drunkard5_12](#d-guynmart_drunkard5-guynmart_drunkard5_12)
     - branch 4 → [guynmart_drunkard5_13](#d-guynmart_drunkard5-guynmart_drunkard5_13)
 
     <span id="d-guynmart_drunkard5-guynmart_drunkard5_100"></span>**`guynmart_drunkard5_100`** [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5): “Let's have a sip, then I will tell you my story.”

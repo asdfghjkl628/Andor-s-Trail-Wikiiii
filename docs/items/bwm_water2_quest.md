@@ -27,7 +27,7 @@ description: "Cold jar of mountain water is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) (100%)
+- From walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25) | handed over (1×) | “Here you are, a large bottle of fresh water.” |
+| [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25) | handed over (1×) | “Here you are, a large bottle of fresh water.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

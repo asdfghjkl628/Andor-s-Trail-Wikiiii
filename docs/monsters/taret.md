@@ -4,7 +4,7 @@ description: "Taret is a non-player character (NPC) in Andor's Trail, found in L
 
 # ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } Taret
 
-**Where to find Taret:** Loneford: [loneford17](../maps/loneford17.md#pin-npc-taret)
+**Where to find Taret:** Loneford: [Loneford 17](../maps/loneford17.md#pin-npc-taret)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Taret is a non-player character (NPC) in Andor's Trail, found in L
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 60, 75
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stages 60, 75
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Taret. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Taret. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/taret_0.json" data-npc="Taret" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-taret_0"></span>**`taret_0`** Taret: “Hello kid. What can I do for you?”
 
@@ -49,17 +49,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [taret_3](#d-taret_3)
 
-    <span id="d-taret_3"></span>**`taret_3`** Taret: “The nastiest person in town is probably my neighbor. *laughs*. Be careful about walking in on her!” — **effects:** sets stage 60 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-60)
+    <span id="d-taret_3"></span>**`taret_3`** Taret: “The nastiest person in town is probably my neighbor. *laughs*. Be careful about walking in on her!” — **effects:** sets stage 60 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-60)
 
-    - “I appreciate the warning, but unfortunately it's too late. I already met her.” *(if reached stage 50 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-50); NOT reached stage 70 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-70))* → [taret_4](#d-taret_4)
+    - “I appreciate the warning, but unfortunately it's too late. I already met her.” *(if reached stage 50 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-50); NOT reached stage 70 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-70))* → [taret_4](#d-taret_4)
     - “Thanks for the warning.” → [taret_4](#d-taret_4)
-    - “You are right. I told her you warned me that she was not always nice to strangers, but I think that just annoyed her.” *(if reached stage 70 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-70); NOT reached stage 75 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-75))* → [taret_5](#d-taret_5)
+    - “You are right. I told her you warned me that she was not always nice to strangers, but I think that just annoyed her.” *(if reached stage 70 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-70); NOT reached stage 75 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-75))* → [taret_5](#d-taret_5)
 
     <span id="d-taret_4"></span>**`taret_4`** Taret: “Is there anything else I can help you with?”
 
     - “I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → [taret_1](#d-taret_1)
 
-    <span id="d-taret_5"></span>**`taret_5`** Taret: “Thanks kid. *sigh*. I expect she will be around here later to complain about that. You should be more careful what you say to people.” — **effects:** sets stage 75 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-75)
+    <span id="d-taret_5"></span>**`taret_5`** Taret: “Thanks kid. *sigh*. I expect she will be around here later to complain about that. You should be more careful what you say to people.” — **effects:** sets stage 75 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-75)
 
     - “Sorry. You are right.” → [taret_4](#d-taret_4)
 

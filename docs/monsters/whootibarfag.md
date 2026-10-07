@@ -4,7 +4,7 @@ description: "Whootibarfag is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_rltiles3_16.png){ .sprite } Whootibarfag
 
-**Where to find Whootibarfag:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-whootibarfag)
+**Where to find Whootibarfag:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-whootibarfag)
 
 <div class="infobox" markdown>
 
@@ -31,11 +31,11 @@ description: "Whootibarfag is a non-player character (NPC) in Andor's Trail, fou
 ## Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): stages 200, 210
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stage 191
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stage 191
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Whootibarfag. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Whootibarfag. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/whootibarfag.json" data-npc="Whootibarfag" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (48 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-whootibarfag"></span>**`whootibarfag`** Whootibarfag: “Greetings, young being.” — **effects:** sets stage 200 of [Yellow is it](../quests/ratdom_quest.md#stage-200)
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-whootibarfag_24"></span>**`whootibarfag_24`** Whootibarfag: “Now, what brings you to this lonely area?”
 
-    - “I'm helping a cheeky little rat find an artifact.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10); NOT reached stage 900 of [Yellow is it](../quests/ratdom_quest.md#stage-900))* → [whootibarfag_50](#d-whootibarfag_50)
+    - “I'm helping a cheeky little rat find an artifact.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10); NOT reached stage 900 of [Yellow is it](../quests/ratdom_quest.md#stage-900))* → [whootibarfag_50](#d-whootibarfag_50)
     - “Do you have anything to trade?” → [whootibarfag_30](#d-whootibarfag_30)
     - “I recovered and brought back Rat King Rah's skeleton.” *(if reached stage 390 of [Yellow is it](../quests/ratdom_quest.md#stage-390); NOT reached stage 210 of [Yellow is it](../quests/ratdom_quest.md#stage-210))* → [whootibarfag_200](#d-whootibarfag_200)
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-whootibarfag_30"></span>**`whootibarfag_30`** Whootibarfag: “I should have known. No one comes up here to ask for wisdom.”
 
     - “Not now. Let us trade first.” → [whootibarfag_32](#d-whootibarfag_32)
-    - “All right, let's get this over with. Enlighten us.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
+    - “All right, let's get this over with. Enlighten us.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
 
     <span id="d-whootibarfag_200"></span>**`whootibarfag_200`** Whootibarfag: “Oh, yes. Of course I know.”
 
@@ -90,12 +90,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-whootibarfag_52"></span>**`whootibarfag_52`** Whootibarfag: “Who knows? Tell me about your artifact.”
 
     - “Maybe another time. Let's just trade.” → [whootibarfag_40](#d-whootibarfag_40)
-    - “It's big, round and yellow. Clevered, what else do you know about this?” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_54](#d-whootibarfag_54)
+    - “It's big, round and yellow. Clevered, what else do you know about this?” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_54](#d-whootibarfag_54)
 
     <span id="d-whootibarfag_32"></span>**`whootibarfag_32`** Whootibarfag: “I have great knowledge, you know?”
 
     - “Maybe another time. Let's just trade.” → [whootibarfag_40](#d-whootibarfag_40)
-    - “Then finally say what you want to say. And after that show me your goods.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
+    - “Then finally say what you want to say. And after that show me your goods.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
 
     <span id="d-whootibarfag_100"></span>**`whootibarfag_100`** Whootibarfag: “I know that I know nothing.”
 
@@ -168,7 +168,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-whootibarfag_46"></span>**`whootibarfag_46`** Whootibarfag: “And finally, a medallion that will help you find your way here if your memory fails you.”
 
     - “Now that sounds interesting. Show me your items, please.” → *shop opens*
-    - “However, I am as poor as a church rat.” *(if NOT have 3,333 gold; NOT reached stage 191 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-191))* → [whootibarfag_48](#d-whootibarfag_48)
+    - “However, I am as poor as a church rat.” *(if NOT have 3,333 gold; NOT reached stage 191 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-191))* → [whootibarfag_48](#d-whootibarfag_48)
 
     <span id="d-whootibarfag_70"></span>**`whootibarfag_70`** [Whootibarfag](../monsters/whootibarfag.md): “Hold on!”
 
@@ -176,8 +176,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-whootibarfag_122"></span>**`whootibarfag_122`** Whootibarfag: “I didn't really expect you to know.”
 
-    - “Yes. I know.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_130](#d-whootibarfag_130)
-    - “Enough. It's getting late.” *(if NOT reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_190](#d-whootibarfag_190)
+    - “Yes. I know.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_130](#d-whootibarfag_130)
+    - “Enough. It's getting late.” *(if NOT reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_190](#d-whootibarfag_190)
 
     <span id="d-whootibarfag_224"></span>**`whootibarfag_224`** Whootibarfag: “Come closer.”
 
@@ -199,20 +199,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-whootibarfag_190"></span>**`whootibarfag_190`** [Whootibarfag](../monsters/whootibarfag.md): “Seize the day.”
 
     - “Enough! What. do. you. have. for. sale?” → [whootibarfag_40](#d-whootibarfag_40)
-    - “I give up. Come, Clevred, let us leave.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → *conversation ends*
+    - “I give up. Come, Clevred, let us leave.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → *conversation ends*
 
     <span id="d-whootibarfag_226"></span>**`whootibarfag_226`** Whootibarfag: “Closer ...”
 
     - “[You hold your breath - from tension, and because of his bad breath.]” → [whootibarfag_230](#d-whootibarfag_230)
 
-    <span id="d-whootibarfag_48a"></span>**`whootibarfag_48a`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Blue rat necklace](../items/ratdom_compass_bwm.md), sets stage 191 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-191)
+    <span id="d-whootibarfag_48a"></span>**`whootibarfag_48a`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Blue rat necklace](../items/ratdom_compass_bwm.md), sets stage 191 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-191)
 
     - Next → [whootibarfag_48b](#d-whootibarfag_48b)
 
     <span id="d-whootibarfag_48b"></span>**`whootibarfag_48b`** Whootibarfag: “Well, now some wisdom ...”
 
     - “It is getting late. Bye.” → *conversation ends*
-    - “All right, let's get this over with. Enlighten us.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
+    - “All right, let's get this over with. Enlighten us.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [whootibarfag_100](#d-whootibarfag_100)
 
     <span id="d-whootibarfag_72"></span>**`whootibarfag_72`** Whootibarfag: “But you might ask an old friend of mine. He has a small but valuable collection of important items and I'm sure he'll be happy to show you around.”
 

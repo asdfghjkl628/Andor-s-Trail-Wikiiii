@@ -1,5 +1,5 @@
 ---
-description: "Percival is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, gamjee_well_4_1, gamjee_well_jail_cells."
+description: "Percival is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, Gamjee well 4 1, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_140.png){ .sprite } Percival
@@ -11,29 +11,29 @@ description: "Percival is a non-player character (NPC) in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Wexlow Village, gamjee_well_4_1, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well 4 1, Gamjee well jail cells |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Percival. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Percival. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`village_percival`](#v-village_percival) | NPC | Wexlow Village: [wexlow_village_se_house](../maps/wexlow_village_se_house.md#pin-npc-village_percival) | – |
-| [`troll_hollow_percival`](#v-troll_hollow_percival) | NPC | [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival) | – |
+| [`village_percival`](#v-village_percival) | NPC | Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_percival) | – |
+| [`troll_hollow_percival`](#v-troll_hollow_percival) | NPC | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival) | – |
 
 ## Wexlow Village, Wexlow village south-east house (village_percival) { #v-village_percival }
 
 **Entry ID:** `village_percival` · **Type:** NPC
 
-**Location:** Wexlow Village: [wexlow_village_se_house](../maps/wexlow_village_se_house.md#pin-npc-village_percival)
+**Location:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_percival)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Percival. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Percival. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/village_percival_start.json" data-npc="Percival" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-village_percival-village_percival_start"></span>**`village_percival_start`** Percival: “Thank you for rescuing us earlier! I would have done it myself but...”
 
@@ -107,18 +107,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_percival` · **Type:** NPC
 
-**Location:** [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival)
+**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | Appears later, during a quest |
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | Appears later, during a quest |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Percival. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Percival. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/perciva_int_phrasel.json" data-npc="Percival" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -126,7 +126,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-troll_hollow_percival-perciva_int_phrasel"></span>**`perciva_int_phrasel`** Percival: “What are you doing? Help us!”
 

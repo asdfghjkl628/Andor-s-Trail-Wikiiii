@@ -1,8 +1,8 @@
 ---
-description: "Waytobrimhaven5 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waytobrimhaven6, Waytobrimhaven4."
+description: "Waytobrimhaven 5 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waytobrimhaven 6, Waytobrimhaven 4."
 ---
 
-# Waytobrimhaven5
+# Waytobrimhaven 5
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Waytobrimhaven5 is an outdoor location in Andor's Trail, near Brim
 | **Region** | Near Brimhaven (settlement) |
 | **Type** | Outdoors |
 | **Size** | 20×8 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrimhaven5** is an outdoor map, near Brimhaven (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Waytobrimhaven6, Waytobrimhaven4.
+**Waytobrimhaven 5** is an outdoor map, near Brimhaven (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Waytobrimhaven 6, Waytobrimhaven 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven5.webp" alt="Map of Waytobrimhaven5" width="640" height="256" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waytobrimhaven6/#place-west" title="Exit to Waytobrimhaven6" style="left:95.000%;top:37.500%;width:5.000%;height:37.500%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrimhaven4/#place-east" title="Exit to Waytobrimhaven4" style="left:0.000%;top:25.000%;width:5.000%;height:37.500%"></a><span class="mo mo-spawn" title="Spawns: Spotted erumen lizard, Young erumen lizard" style="left:15.000%;top:25.000%;width:30.000%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Rabid hound" style="left:40.000%;top:25.000%;width:45.000%;height:50.000%"></span><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:30.000%;top:37.500%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:20.000%;top:25.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:40.000%;top:50.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:50.000%;top:37.500%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:45.000%;top:25.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:45.000%;top:50.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.250%" title="Exit (east): to [Waytobrimhaven6](waytobrimhaven6.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:43.750%" title="Exit (west): to [Waytobrimhaven4](waytobrimhaven4.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven5.webp" alt="Map of Waytobrimhaven 5" width="640" height="256" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waytobrimhaven6/#place-west" title="Exit to Waytobrimhaven 6" style="left:95.000%;top:37.500%;width:5.000%;height:37.500%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrimhaven4/#place-east" title="Exit to Waytobrimhaven 4" style="left:0.000%;top:25.000%;width:5.000%;height:37.500%"></a><span class="mo mo-spawn" title="Spawns: Spotted erumen lizard, Young erumen lizard" style="left:15.000%;top:25.000%;width:30.000%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Rabid hound" style="left:40.000%;top:25.000%;width:45.000%;height:50.000%"></span><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:30.000%;top:37.500%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:20.000%;top:25.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/erumen_1/" title="Young erumen lizard" style="left:40.000%;top:50.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_114.png" alt="Young erumen lizard"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:50.000%;top:37.500%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:45.000%;top:25.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:45.000%;top:50.000%;width:5.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:56.250%" title="Exit (east): to [Waytobrimhaven 6](waytobrimhaven6.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:43.750%" title="Exit (west): to [Waytobrimhaven 4](waytobrimhaven4.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Waytobrimhaven6](waytobrimhaven6.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhaven4](waytobrimhaven4.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Waytobrimhaven 6](waytobrimhaven6.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhaven 4](waytobrimhaven4.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Waytobrimhaven5 is an outdoor location in Andor's Trail, near Brim
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Waytobrimhaven6](waytobrimhaven6.md) | Brimhaven | 1 |
-| West | [Waytobrimhaven4](waytobrimhaven4.md) | Loneford | 2 |
+| East | [Waytobrimhaven 6](waytobrimhaven6.md) | Brimhaven | 1 |
+| West | [Waytobrimhaven 4](waytobrimhaven4.md) | Loneford | 2 |
 
 ## Enemies
 

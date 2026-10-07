@@ -4,7 +4,7 @@ description: "Prim evoker is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Prim evoker
 
-**Where to find Prim evoker:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-prim_evoker)
+**Where to find Prim evoker:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-prim_evoker)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Prim evoker is a non-player character (NPC) in Andor's Trail, foun
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stage 10
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim evoker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim evoker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_commoner4.json" data-npc="Prim evoker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_commoner4"></span>**`prim_commoner4`** Prim evoker: “Hello. Who are you? Are you here to help us?”
 
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Anything more?” → [prim_commoner4_6](#d-prim_commoner4_6)
 
-    <span id="d-prim_commoner4_6"></span>**`prim_commoner4_6`** Prim evoker: “Uhm, well. I heard Lorn was popular among the children here in Prim because of his scary stories about, you know, the monsters.” — **effects:** sets stage 10 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-10)
+    <span id="d-prim_commoner4_6"></span>**`prim_commoner4_6`** Prim evoker: “Uhm, well. I heard Lorn was popular among the children here in Prim because of his scary stories about, you know, the monsters.” — **effects:** sets stage 10 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-10)
 
     - “Gonna ask some child. Thanks.” → *conversation ends*
     - “My father probably told me scarier stories. Bye.” → *conversation ends*

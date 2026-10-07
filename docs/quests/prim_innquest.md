@@ -11,9 +11,9 @@ description: "Well rested is a quest in Andor's Trail, started by Prim cook (bla
 | **Quest ID** | `prim_innquest` |
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 50) |
-| **Started by** | [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) |
+| **Started by** | [Prim cook](../monsters/prim_cook.md) ([Blackwater mountain 21](../maps/blackwater_mountain21.md)) |
 | **NPCs involved** | [Arghest](../monsters/arghest.md), [Prim cook](../monsters/prim_cook.md) |
-| **Locations** | [blackwater_mountain13](../maps/blackwater_mountain13.md), [blackwater_mountain21](../maps/blackwater_mountain21.md) |
+| **Locations** | [Blackwater mountain 13](../maps/blackwater_mountain13.md), [Blackwater mountain 21](../maps/blackwater_mountain21.md) |
 | **Total XP** | 500 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Well rested is a quest in Andor's Trail, started by Prim cook (bla
 
 ## Prerequisites to start
 
-Start with [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)). Required:
+Start with [Prim cook](../monsters/prim_cook.md) ([Blackwater mountain 21](../maps/blackwater_mountain21.md)). Required:
 
 - reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10)
 
@@ -39,39 +39,75 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I talked to the cook in Prim, at the base of Blackwater mountain. There is a back room available for rent, but it is currently rented out to Arghest. I should go talk to Arghest to see whether he still wants to rent the room. The cook pointed me towards the southwest of Prim. | [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) | – | – |
-| <span id="stage-20"></span>20 | I talked to Arghest about the back room at the inn. He is still interested in having it as an option to rest at. But he told me he could probably be persuaded to let me use it if I compensate him sufficiently. | [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | Arghest wants me to bring him 5 bottles of milk. I can probably find some milk in any of the larger villages. | [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | stage 10 | – |
-| <span id="stage-40"></span>40 | I have brought the milk to Arghest. He agreed to let me use the back room at the Prim inn. I should be able to rest there now. I should go talk to the cook at the inn. | [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) | hand over 5× [Milk](../items/milk.md), stage 30 | 500 XP |
-| <span id="stage-50"></span>50 | I have explained to the cook that I have permission by Arghest to use the back room. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain21](../maps/blackwater_mountain21.md).</span> | [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) | stage 10, stage 40 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I talked to the cook in Prim, at the base of Blackwater mountain.… ▸</span><span class="l">▴ less</span></summary>I talked to the cook in Prim, at the base of Blackwater mountain. There is a back room available for rent, but it is currently rented out to Arghest. I should go talk to Arghest to see whether he still wants to rent the room. The cook pointed me towards the southwest of Prim.</details> | [Prim cook](../monsters/prim_cook.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I talked to Arghest about the back room at the inn. He is still… ▸</span><span class="l">▴ less</span></summary>I talked to Arghest about the back room at the inn. He is still interested in having it as an option to rest at. But he told me he could probably be persuaded to let me use it if I compensate him sufficiently.</details> | [Arghest](../monsters/arghest.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Arghest wants me to bring him 5 bottles of milk. I can probably find… ▸</span><span class="l">▴ less</span></summary>Arghest wants me to bring him 5 bottles of milk. I can probably find some milk in any of the larger villages.</details> | [Arghest](../monsters/arghest.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I have brought the milk to Arghest. He agreed to let me use the back… ▸</span><span class="l">▴ less</span></summary>I have brought the milk to Arghest. He agreed to let me use the back room at the Prim inn. I should be able to rest there now. I should go talk to the cook at the inn.</details> | [Arghest](../monsters/arghest.md) | 500 XP |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I have explained to the cook that I have permission by Arghest to… ▸</span><span class="l">▴ less</span></summary>I have explained to the cook that I have permission by Arghest to use the back room.</details> **(ends quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain 21](../maps/blackwater_mountain21.md).</span> | [Prim cook](../monsters/prim_cook.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “Any idea where he might be?” — **conditions:** reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10) → **stage 10**. NPC: “I don't know where he is now, but I do know that he used to be part of the mining effort in our mine to the southwest.”
+??? note "Stage 10 · Prim cook · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Prim cook](../monsters/prim_cook.md), choose “Any idea where he might be?”
 
-    1. Talk to [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) → choose “Mind if I use the room at the inn to rest in?” — **conditions:** reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10) → **stage 20**. NPC: “Well, I would like to still keep the option of using it. But I guess someone else could rest there now that I'm not…”
+    - **Needs:** stage 10
+    - *“I don't know where he is now, but I do know that he used to be part of the mining effort in our mine to the southwest.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) → choose “Sure, no problem. I'll get you your bottles of milk. How much do you need?” — **conditions:** reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10) → **stage 30**. NPC: “Bring me 5 bottles of milk. That should be enough.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Arghest · 1 way"
 
-    1. Talk to [Arghest](../monsters/arghest.md) ([blackwater_mountain13](../maps/blackwater_mountain13.md)) → choose “Yes, here you go, enjoy!” — **conditions:** reached stage 30 of [Well rested](../quests/prim_innquest.md#stage-30); hand over 5× [Milk](../items/milk.md) → **stage 40**. NPC: “Thank you my friend! Now I can restock my supply.”
+    **Way 1:** Talk to [Arghest](../monsters/arghest.md), choose “Mind if I use the room at the inn to rest in?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 10
+    - *“Well, I would like to still keep the option of using it. But I guess someone else could rest there now that I'm not actively using it.”*
 
-    1. Talk to [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) → choose “Yes, he gave me permission to use the back room whenever I wish.” — **conditions:** reached stage 10 of [Well rested](../quests/prim_innquest.md#stage-10); reached stage 40 of [Well rested](../quests/prim_innquest.md#stage-40) → **stage 50**. NPC: “Really, he did? Well then, go ahead. I'm just glad the back room is being used.”
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Arghest · 1 way"
+
+    **Way 1:** Talk to [Arghest](../monsters/arghest.md), choose “Sure, no problem. I'll get you your bottles of milk. How much do you need?”
+
+    - **Needs:** stage 10
+    - *“Bring me 5 bottles of milk. That should be enough.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Arghest · 1 way"
+
+    **Way 1:** Talk to [Arghest](../monsters/arghest.md), choose “Yes, here you go, enjoy!”
+
+    - **Needs:** stage 30; hand over 5× [Milk](../items/milk.md)
+    - *“Thank you my friend! Now I can restock my supply.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Prim cook · 1 way"
+
+    **Way 1:** Talk to [Prim cook](../monsters/prim_cook.md), choose “Yes, he gave me permission to use the back room whenever I wish.”
+
+    - **Needs:** stage 10, 40
+    - *“Really, he did? Well then, go ahead. I'm just glad the back room is being used.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

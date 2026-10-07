@@ -38,7 +38,7 @@ description: "Blackwater shield is a rare shield, wood (light) in Andor's Trail 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [galmore_15](../maps/galmore_15.md) during [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-43) (1×)
+- From stepping on a trigger on [Galmore 15](../maps/galmore_15.md) during [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-43) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

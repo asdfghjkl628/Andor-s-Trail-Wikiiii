@@ -1,10 +1,10 @@
 ---
-description: "Strong poisonous cave burrower is an enemy in Andor's Trail (insect) with 67 HP, worth 172 XP, found in lodar5cave0, lodar5cave1, lodar5cave2. Drops: Gold coins, Insect shell, Glass gem."
+description: "Strong poisonous cave burrower is an enemy in Andor's Trail (insect) with 67 HP, worth 172 XP, found in Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2. Drops: Gold coins, Insect shell, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_164.png){ .sprite } Strong poisonous cave burrower
 
-**Found in:** [lodar5cave0](../maps/lodar5cave0.md), [lodar5cave1](../maps/lodar5cave1.md), [lodar5cave2](../maps/lodar5cave2.md), [shortcut_lodar1](../maps/shortcut_lodar1.md) (+2 more)
+**Found in:** [Lodar 5cave 0](../maps/lodar5cave0.md), [Lodar 5cave 1](../maps/lodar5cave1.md), [Lodar 5cave 2](../maps/lodar5cave2.md), [Shortcut lodar 1](../maps/shortcut_lodar1.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Strong poisonous cave burrower is an enemy in Andor's Trail (insec
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar5cave0, lodar5cave1, lodar5cave2 |
+| **Found in** | Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2 |
 | **Class** | Insect |
 | **HP** | 67 |
 | **XP when defeated** | 172 |
@@ -58,12 +58,12 @@ description: "Strong poisonous cave burrower is an enemy in Andor's Trail (insec
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar5cave0](../maps/lodar5cave0.md) | – | 2 | – |
-| [lodar5cave1](../maps/lodar5cave1.md) | – | 1 | – |
-| [lodar5cave2](../maps/lodar5cave2.md) | – | 9 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 4 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 5 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 3 | – |
+| [Lodar 5cave 0](../maps/lodar5cave0.md) | – | 2 | – |
+| [Lodar 5cave 1](../maps/lodar5cave1.md) | – | 1 | – |
+| [Lodar 5cave 2](../maps/lodar5cave2.md) | – | 9 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 4 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 5 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 3 | – |
 
 
 ## Version history

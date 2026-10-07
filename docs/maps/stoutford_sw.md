@@ -12,7 +12,7 @@ description: "Stoutford south-west is an outdoor location in Andor's Trail, in S
 | **Region** | In Stoutford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 24×18 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 2 |

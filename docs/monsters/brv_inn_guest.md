@@ -18,22 +18,22 @@ description: "Guest is a non-player character (NPC) in Andor's Trail, found in B
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Guest. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Guest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_inn_guest`](#v-brv_inn_guest) | NPC | Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest) | – |
-| [`brv_tavern_west_guest`](#v-brv_tavern_west_guest) | NPC | Brimhaven: [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest) | – |
+| [`brv_inn_guest`](#v-brv_inn_guest) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest) | – |
+| [`brv_tavern_west_guest`](#v-brv_tavern_west_guest) | NPC | Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest) | – |
 
 ## Brimhaven, Brimhaven inn east (brv_inn_guest) { #v-brv_inn_guest }
 
 **Entry ID:** `brv_inn_guest` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest)
+**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_inn_guest_0.json" data-npc="Guest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_inn_guest-brv_inn_guest_0"></span>**`brv_inn_guest_0`** Guest: “Do you mind not bumping into me, kid. I've had a long day, and I don't need rude little children bumping into me.”
 
@@ -89,11 +89,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_tavern_west_guest` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest)
+**Location:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern_west_guest.json" data-npc="Guest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_tavern_west_guest-brv_tavern_west_guest"></span>**`brv_tavern_west_guest`** Guest: “Go away and let me eat.”
 

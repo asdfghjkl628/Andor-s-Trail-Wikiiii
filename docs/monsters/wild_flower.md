@@ -4,7 +4,7 @@ description: "Wild flower is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/items_japozero_547.png){ .sprite } Wild flower
 
-**Where to find Wild flower:** Fallhaven: [wild10](../maps/wild10.md#pin-npc-wild_flower), Fallhaven: [wild11](../maps/wild11.md#pin-npc-wild_flower)
+**Where to find Wild flower:** Fallhaven: [Wild 10](../maps/wild10.md#pin-npc-wild_flower), Fallhaven: [Wild 11](../maps/wild11.md#pin-npc-wild_flower)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Wild flower is a non-player character (NPC) in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild10](../maps/wild10.md) | Fallhaven | 3 | Appears later, during a quest |
-| [wild11](../maps/wild11.md) | Fallhaven | 2 | Appears later, during a quest |
+| [Wild 10](../maps/wild10.md) | Fallhaven | 3 | Appears later, during a quest |
+| [Wild 11](../maps/wild11.md) | Fallhaven | 2 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wild flower. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wild flower. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chk_wildflower.json" data-npc="Wild flower" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-chk_wildflower"></span>**`chk_wildflower`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Wild Flower](../items/wild_flower.md)
 

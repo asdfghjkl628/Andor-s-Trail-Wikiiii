@@ -1,10 +1,10 @@
 ---
-description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 HP, worth 253 XP, found in lodar3, lodar9. Drops: Gold coins, Meat, Khakin eye."
+description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 HP, worth 253 XP, found in Lodar 3, Lodar 9. Drops: Gold coins, Meat, Khakin eye."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_113.png){ .sprite } Tough khakin beast
 
-**Found in:** [lodar3](../maps/lodar3.md), [lodar9](../maps/lodar9.md)
+**Found in:** [Lodar 3](../maps/lodar3.md), [Lodar 9](../maps/lodar9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar3, lodar9 |
+| **Found in** | Lodar 3, Lodar 9 |
 | **Class** | Reptile |
 | **HP** | 49 |
 | **XP when defeated** | 253 |
@@ -56,8 +56,8 @@ description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar3](../maps/lodar3.md) | – | 5 | – |
-| [lodar9](../maps/lodar9.md) | – | 11 | – |
+| [Lodar 3](../maps/lodar3.md) | – | 5 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 11 | – |
 
 
 ## Version history

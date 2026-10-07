@@ -4,7 +4,7 @@ description: "Sylvester is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_101.png){ .sprite } Sylvester
 
-**Where to find Sylvester:** Brightport: [brightport_forenza](../maps/brightport_forenza.md#pin-npc-brightportforenza)
+**Where to find Sylvester:** Brightport: [Brightport forenza](../maps/brightport_forenza.md#pin-npc-brightportforenza)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Sylvester is a non-player character (NPC) in Andor's Trail, found 
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 182
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 182
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sylvester. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sylvester. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_sylverster_selector.json" data-npc="Sylvester" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,17 +33,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_sylverster_selector"></span>**`brightport_sylverster_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_sylvester2](#d-brightport_sylvester2)
-    - Next *(if reached stage 182 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-182); NOT reached stage 183 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_sylvester5](#d-brightport_sylvester5)
-    - Next *(if NOT reached stage 182 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-182))* → [brightport_sylvester0](#d-brightport_sylvester0)
+    - Next *(if reached stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_sylvester2](#d-brightport_sylvester2)
+    - Next *(if reached stage 182 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-182); NOT reached stage 183 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-183))* → [brightport_sylvester5](#d-brightport_sylvester5)
+    - Next *(if NOT reached stage 182 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-182))* → [brightport_sylvester0](#d-brightport_sylvester0)
 
     <span id="d-brightport_sylvester2"></span>**`brightport_sylvester2`** [Sylvester](../monsters/brightportforenza.md): “You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now.”
 
-    - “While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?” *(if carry 1× [Bakery ledger](../items/brightport_documents.md); reached stage 242 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-242))* → [brightport_sylvester](#d-brightport_sylvester)
+    - “While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?” *(if carry 1× [Bakery ledger](../items/brightport_documents.md); reached stage 242 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-242))* → [brightport_sylvester](#d-brightport_sylvester)
 
     <span id="d-brightport_sylvester5"></span>**`brightport_sylvester5`** Sylvester: “I'm really thankful that you found that ledger for me.”
 
@@ -58,8 +58,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_sylvester1"></span>**`brightport_sylvester1`** [Florencia](../monsters/brightportforenza1.md): “Ah, he's always grumpy when he's working. Did you wish to ask something child?”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_florencia1](#d-brightport_florencia1)
-    - “While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” *(if reached stage 243 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-243); carry 1× [Bakery ledger](../items/brightport_documents.md); reached stage 242 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-242))* → [brightport_sylvester](#d-brightport_sylvester)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Main quest endings (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_florencia1](#d-brightport_florencia1)
+    - “While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” *(if reached stage 243 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-243); carry 1× [Bakery ledger](../items/brightport_documents.md); reached stage 242 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-242))* → [brightport_sylvester](#d-brightport_sylvester)
 
     <span id="d-brightport_sylvester3"></span>**`brightport_sylvester3`** Sylvester: “Good heavens, that's the missing ledger I was losing sleep over! I was beginning to suspect someone stole and hid it, I'm glad you found it.”
 
@@ -69,7 +69,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Thanks.” → *conversation ends*
 
-    <span id="d-brightport_sylvester4"></span>**`brightport_sylvester4`** Sylvester: “You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.” — **effects:** sets stage 182 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-182)
+    <span id="d-brightport_sylvester4"></span>**`brightport_sylvester4`** Sylvester: “You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.” — **effects:** sets stage 182 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-182)
 
 
 

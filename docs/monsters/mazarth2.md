@@ -4,7 +4,7 @@ description: "Tough mazarth beast is an enemy in Andor's Trail (giant) with 148 
 
 # ![](../assets/icons/monsters/monsters_ld2_37.png){ .sprite } Tough mazarth beast
 
-**Found in:** Charwood: [lostmine0](../maps/lostmine0.md), Charwood: [lostmine1a](../maps/lostmine1a.md), Charwood: [lostmine2](../maps/lostmine2.md), Charwood: [waytolostmine3](../maps/waytolostmine3.md) (+1 more)
+**Found in:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md), Charwood: [Waytolostmine 3](../maps/waytolostmine3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Tough mazarth beast is an enemy in Andor's Trail (giant) with 148 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine0](../maps/lostmine0.md) | Charwood | 1 | – |
-| [lostmine1a](../maps/lostmine1a.md) | Charwood | 2 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 2 | – |
-| [lostmine2a](../maps/lostmine2a.md) | – | 3 | – |
-| [waytolostmine3](../maps/waytolostmine3.md) | Charwood | 1 | – |
+| [Lostmine 0](../maps/lostmine0.md) | Charwood | 1 | – |
+| [Lostmine 1a](../maps/lostmine1a.md) | Charwood | 2 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 2 | – |
+| [Lostmine 2a](../maps/lostmine2a.md) | – | 3 | – |
+| [Waytolostmine 3](../maps/waytolostmine3.md) | Charwood | 1 | – |
 
 
 ## Version history

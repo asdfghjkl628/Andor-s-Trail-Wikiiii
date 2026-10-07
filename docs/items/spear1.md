@@ -50,8 +50,8 @@ description: "Pine spear is a ordinary pole weapon in Andor's Trail (Attack dama
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 0.8% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 0.8% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 0.8% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 0.8% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

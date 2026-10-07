@@ -26,7 +26,7 @@ description: "Caterpillar cocoon is a ordinary animal part in Andor's Trail. How
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Aggressive caterpillar](../monsters/waterwayacaterpillar.md) | 3% | 1 | waterwaya1, waterwaya2, waterwaya3 |
+| [Aggressive caterpillar](../monsters/waterwayacaterpillar.md) | 3% | 1 | Waterwaya 1, Waterwaya 2, Waterwaya 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

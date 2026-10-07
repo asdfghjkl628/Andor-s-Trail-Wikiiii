@@ -4,7 +4,7 @@ description: "Darkness beast is an enemy in Andor's Trail (demon) with 333 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_657.png){ .sprite } Darkness beast
 
-**Found in:** Buried citadel: [brightport_cave20](../maps/brightport_cave20.md), Buried citadel: [brightport_cave6](../maps/brightport_cave6.md)
+**Found in:** Buried citadel: [Brightport cave 20](../maps/brightport_cave20.md), Buried citadel: [Brightport cave 6](../maps/brightport_cave6.md)
 
 <div class="infobox" markdown>
 
@@ -52,8 +52,8 @@ description: "Darkness beast is an enemy in Andor's Trail (demon) with 333 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave20](../maps/brightport_cave20.md) | Buried citadel | 3 | – |
-| [brightport_cave6](../maps/brightport_cave6.md) | Buried citadel | 3 | – |
+| [Brightport cave 20](../maps/brightport_cave20.md) | Buried citadel | 3 | – |
+| [Brightport cave 6](../maps/brightport_cave6.md) | Buried citadel | 3 | – |
 
 
 ## Version history

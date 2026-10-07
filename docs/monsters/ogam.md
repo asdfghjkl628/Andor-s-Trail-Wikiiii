@@ -4,7 +4,7 @@ description: "Ogam is a non-player character (NPC) in Andor's Trail, found in Vi
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Ogam
 
-**Where to find Ogam:** Vilegard: [vilegard_ogam](../maps/vilegard_ogam.md#pin-npc-ogam)
+**Where to find Ogam:** Vilegard: [Vilegard ogam](../maps/vilegard_ogam.md#pin-npc-ogam)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Ogam is a non-player character (NPC) in Andor's Trail, found in Vi
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ogam. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ogam. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ogam_1.json" data-npc="Ogam" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ogam_1"></span>**`ogam_1`** Ogam: “Belief. Power. Struggle.”
 

@@ -38,7 +38,7 @@ description: "Marrowtaint is a extraordinary necklace in Andor's Trail (Max HP +
 
 ### Quest & dialogue rewards
 
-- From [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) during [The five idols](../quests/fiveidols.md#stage-70) (100%)
+- From [Algangror](../monsters/algangror.md) ([Lonelyhouse 0](../maps/lonelyhouse0.md)) during [The five idols](../quests/fiveidols.md#stage-70) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | – | must be worn (1×) | “See this amulet that I'm wearing? This is Marrowtaint.” |
+| [Lleglaris](../monsters/lleglaris.md) ([Tradehouse 1](../maps/tradehouse1.md)) | – | must be worn (1×) | “See this amulet that I'm wearing? This is Marrowtaint.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

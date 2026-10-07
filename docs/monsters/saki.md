@@ -4,7 +4,7 @@ description: "Saki is an NPC who can also be fought in Andor's Trail, found in M
 
 # ![](../assets/icons/monsters/monsters_newb_1_122.png){ .sprite } Saki
 
-**Where to find Saki:** Mt. Galmore: [undertell_exit](../maps/undertell_exit.md#pin-npc-saki), [undertell_1_1](../maps/undertell_1_1.md#pin-npc-saki)
+**Where to find Saki:** Mt. Galmore: [Undertell exit](../maps/undertell_exit.md#pin-npc-saki), [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-saki)
 
 <div class="infobox" markdown>
 
@@ -65,12 +65,12 @@ description: "Saki is an NPC who can also be fought in Andor's Trail, found in M
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_1_1](../maps/undertell_1_1.md) | – | 1 | Appears later, during a quest |
-| [undertell_exit](../maps/undertell_exit.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Undertell 1 1](../maps/undertell_1_1.md) | – | 1 | Appears later, during a quest |
+| [Undertell exit](../maps/undertell_exit.md) | Mt. Galmore | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) checks that this enemy has been defeated.
+- A conversation with [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -78,7 +78,7 @@ description: "Saki is an NPC who can also be fought in Andor's Trail, found in M
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Saki. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Saki. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/saki_selector.json" data-npc="Saki" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -86,7 +86,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-saki_selector"></span>**`saki_selector`** *(silent check: the first matching branch below is taken)*
 

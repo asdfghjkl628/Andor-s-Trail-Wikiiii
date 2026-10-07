@@ -25,8 +25,8 @@ description: "Lyre is a quest other in Andor's Trail. How to get it: quests and 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_02](../monsters/brv_wh_item_02.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_22](../monsters/brv_wh_item_22.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-102) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_02](../monsters/brv_wh_item_02.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_22](../monsters/brv_wh_item_22.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-102) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,11 +37,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Not yet, but your order has finally arrived.” |
-| [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80) | handed over (1×) | “Yes, I came back to deliver your order of a 'Lyre'. You must be good at playing ” |
-| [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Excuse me, I'm here to deliver your order for a 'Lyre'.” |
-| [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Maybe your order here will comfort you?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Wrye](../monsters/wrye.md) ([Vilegard wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Not yet, but your order has finally arrived.” |
+| [Wrye](../monsters/wrye.md) ([Vilegard wrye](../maps/vilegard_wrye.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80) | handed over (1×) | “Yes, I came back to deliver your order of a 'Lyre'. You must be good at playing ” |
+| [Wrye](../monsters/wrye.md) ([Vilegard wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Excuse me, I'm here to deliver your order for a 'Lyre'.” |
+| [Wrye](../monsters/wrye.md) ([Vilegard wrye](../maps/vilegard_wrye.md)) | – | must be carried (1×) | “Maybe your order here will comfort you?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

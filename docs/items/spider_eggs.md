@@ -38,11 +38,11 @@ description: "Spider eggs is a ordinary edible animal part in Andor's Trail. How
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Forest hunter](../monsters/forest_hunter.md) | 25% | 1-2 | haunted_forest1, haunted_forest13, haunted_forest14 |
+| [Forest hunter](../monsters/forest_hunter.md) | 25% | 1-2 | Haunted forest 1, Haunted forest 13, Haunted forest 14 |
 
 ### Found in containers
 
-- [haunted_house](../maps/haunted_house.md#container-0) (container 1, 100%)
+- [Haunted house](../maps/haunted_house.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -28,7 +28,7 @@ description: "Unknown book passage is a extraordinary other in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [galmore_23](../maps/galmore_23.md) during [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-51) (1×)
+- From stepping on a trigger on [Galmore 23](../maps/galmore_23.md) during [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-51) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 HP, worth 93 XP, found in gargoylecave1, gargoylecave2. Drops: Gold coins, Ruby gem."
+description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 HP, worth 93 XP, found in Gargoylecave 1, Gargoylecave 2. Drops: Gold coins, Ruby gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_2.png){ .sprite } Shadow gargoyle
 
-**Found in:** [gargoylecave1](../maps/gargoylecave1.md), [gargoylecave2](../maps/gargoylecave2.md)
+**Found in:** [Gargoylecave 1](../maps/gargoylecave1.md), [Gargoylecave 2](../maps/gargoylecave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gargoylecave1, gargoylecave2 |
+| **Found in** | Gargoylecave 1, Gargoylecave 2 |
 | **Class** | Construct |
 | **HP** | 37 |
 | **XP when defeated** | 93 |
@@ -59,8 +59,8 @@ description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gargoylecave1](../maps/gargoylecave1.md) | – | 3 | – |
-| [gargoylecave2](../maps/gargoylecave2.md) | – | 2 | – |
+| [Gargoylecave 1](../maps/gargoylecave1.md) | – | 3 | – |
+| [Gargoylecave 2](../maps/gargoylecave2.md) | – | 2 | – |
 
 
 ## Version history

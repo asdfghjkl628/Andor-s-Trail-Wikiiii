@@ -40,7 +40,7 @@ description: "Hard leather armor is a ordinary armor, leather in Andor's Trail (
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 10%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 10%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -41,7 +41,7 @@ And if they didn't die, they're still afraid today. But they also know that cour
 
 ### Quest & dialogue rewards
 
-- From [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) (1×)
+- From [Kealwea](../monsters/sullengard_priest.md) ([Sullengard church](../maps/sullengard_church.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

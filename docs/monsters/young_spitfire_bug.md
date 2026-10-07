@@ -4,7 +4,7 @@ description: "Young spitfire bug is an enemy in Andor's Trail (insect) with 106 
 
 # ![](../assets/icons/monsters/monsters_insects_7.png){ .sprite } Young spitfire bug
 
-**Found in:** Mt. Galmore: [galmore_45](../maps/galmore_45.md), Mt. Galmore: [galmore_46](../maps/galmore_46.md)
+**Found in:** Mt. Galmore: [Galmore 45](../maps/galmore_45.md), Mt. Galmore: [Galmore 46](../maps/galmore_46.md)
 
 <div class="infobox" markdown>
 
@@ -58,8 +58,8 @@ description: "Young spitfire bug is an enemy in Andor's Trail (insect) with 106 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 5 | – |
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 9 | – |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 5 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 9 | – |
 
 
 ## Version history

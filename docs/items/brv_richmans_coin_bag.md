@@ -39,10 +39,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-150) | must be carried (1×) | “I found your coin bags, and you paid the brothers to destroy the dam. [Show the ” |
-| [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-130) | must be carried (1×) | “Are you sure?” |
-| [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-150) | handed over (1×) | “I found your coin bags, and you paid the brothers for destroying the dam. [Hand ” |
-| stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | [Much water](../quests/brv_flood.md#stage-75) | must be carried (1×) | “(automatic)” |
+| [Alkapoan](../monsters/brv_richman.md) ([Brimhaven house 1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-150) | must be carried (1×) | “I found your coin bags, and you paid the brothers to destroy the dam. [Show the ” |
+| [Alkapoan](../monsters/brv_richman.md) ([Brimhaven house 1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-130) | must be carried (1×) | “Are you sure?” |
+| [Alkapoan](../monsters/brv_richman.md) ([Brimhaven house 1](../maps/brimhaven_house1.md)) | [Much water](../quests/brv_flood.md#stage-150) | handed over (1×) | “I found your coin bags, and you paid the brothers for destroying the dam. [Hand ” |
+| stepping on a trigger on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | [Much water](../quests/brv_flood.md#stage-75) | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

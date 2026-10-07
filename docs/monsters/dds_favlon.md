@@ -1,10 +1,10 @@
 ---
-description: "Favlon is a non-player character (NPC) in Andor's Trail, found in nw_sullengard_1."
+description: "Favlon is a non-player character (NPC) in Andor's Trail, found in Nw sullengard 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_5.png){ .sprite } Favlon
 
-**Where to find Favlon:** [nw_sullengard_1](../maps/nw_sullengard_1.md#pin-npc-dds_favlon)
+**Where to find Favlon:** [Nw sullengard 1](../maps/nw_sullengard_1.md#pin-npc-dds_favlon)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Favlon is a non-player character (NPC) in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | nw_sullengard_1 |
+| **Found in** | Nw sullengard 1 |
 | **Entry ID** | `dds_favlon` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
@@ -25,7 +25,7 @@ description: "Favlon is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Favlon. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Favlon. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_favlon.json" data-npc="Favlon" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_favlon"></span>**`dds_favlon`** *(silent check: the first matching branch below is taken)*
 

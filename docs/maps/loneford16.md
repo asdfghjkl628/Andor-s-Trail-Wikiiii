@@ -1,8 +1,8 @@
 ---
-description: "Loneford16 is an indoor location in Andor's Trail, in Loneford (settlement). NPCs: Aemens. Exits to Loneford13."
+description: "Loneford 16 is an indoor location in Andor's Trail, in Loneford (settlement). NPCs: Aemens. Exits to Loneford 13."
 ---
 
-# Loneford16
+# Loneford 16
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Loneford16 is an indoor location in Andor's Trail, in Loneford (se
 
 </div>
 
-**Loneford16** is an indoor map, in Loneford (settlement). It has 1 NPC, and no enemies. Exits lead to Loneford13.
+**Loneford 16** is an indoor map, in Loneford (settlement). It has 1 NPC, and no enemies. Exits lead to Loneford 13.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford16.webp" alt="Map of Loneford16" width="288" height="256" loading="lazy"><a id="place-inside" class="mo mo-mapchange" href="../loneford13/#place-outside" title="Exit to Loneford13" style="left:33.333%;top:87.500%;width:11.111%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Aemens" style="left:11.111%;top:37.500%;width:77.778%;height:37.500%"></span><a class="mob" href="../../monsters/aemens/" title="Aemens" style="left:77.778%;top:50.000%;width:11.111%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_6.png" alt="Aemens"></a><a class="pin pin-exit" href="#key-1" style="left:38.889%;top:93.750%" title="Exit (south): to [Loneford13](loneford13.md)">1</a><a id="pin-npc-aemens" class="pin pin-npc" href="#key-2" style="left:83.333%;top:56.250%" title="[Aemens](../../monsters/aemens.md): NPC">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford16.webp" alt="Map of Loneford 16" width="288" height="256" loading="lazy"><a id="place-inside" class="mo mo-mapchange" href="../loneford13/#place-outside" title="Exit to Loneford 13" style="left:33.333%;top:87.500%;width:11.111%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Aemens" style="left:11.111%;top:37.500%;width:77.778%;height:37.500%"></span><a class="mob" href="../../monsters/aemens/" title="Aemens" style="left:77.778%;top:50.000%;width:11.111%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_6.png" alt="Aemens"></a><a class="pin pin-exit" href="#key-1" style="left:38.889%;top:93.750%" title="Exit (south): to [Loneford 13](loneford13.md)">1</a><a id="pin-npc-aemens" class="pin pin-npc" href="#key-2" style="left:83.333%;top:56.250%" title="[Aemens](../../monsters/aemens.md): NPC">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Loneford13](loneford13.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Loneford 13](loneford13.md) |
     | <span id="key-2"></span>2 | [Aemens](../monsters/aemens.md) | NPC |
 
 
@@ -40,7 +40,7 @@ description: "Loneford16 is an indoor location in Andor's Trail, in Loneford (se
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Loneford13](loneford13.md) | Loneford | 1 |
+| South | [Loneford 13](loneford13.md) | Loneford | 1 |
 
 ## NPCs
 
@@ -48,7 +48,7 @@ description: "Loneford16 is an indoor location in Andor's Trail, in Loneford (se
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): [Aemens](../monsters/aemens.md) is involved
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): [Aemens](../monsters/aemens.md) is involved
 
 
 ## Version history

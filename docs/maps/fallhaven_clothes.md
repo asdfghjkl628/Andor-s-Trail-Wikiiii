@@ -59,7 +59,7 @@ description: "Fallhaven clothes is an indoor location in Andor's Trail, in Fallh
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): [Tailor](../monsters/tailor.md) is involved; blocked passage opens at stage 66; part of the map changes at stage 73; something on this map advances it; stepping on a trigger here sets stage 68; stepping on a trigger here sets stage 69
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): [Tailor](../monsters/tailor.md) is involved; blocked passage opens at stage 66; part of the map changes at stage 73; something on this map advances it; stepping on a trigger here sets stage 68; stepping on a trigger here sets stage 69
 
 ## Points of interest
 

@@ -26,22 +26,22 @@ description: "Venomscale scales is a ordinary animal part in Andor's Trail. How 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 | lodar16, lodar19 |
-| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 | lodar17, lodar19 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 20% | 1-3 | Lodar 16, Lodar 19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 20% | 1-3 | Lodar 17, Lodar 19 |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 10% | 1 | Sullengard |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 10% | 1 | way_to_sullengard_east9 |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 10% | 1 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 10% | 1 | Way to sullengard east 9 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 10% | 1 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
 | [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 10% | 1 | Deebo's Orchard |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 10% | 1 | way_to_sullengard_east1 |
-| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | 10% | 3 | way_to_sullengard_east8 |
-| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Young venomscale](../monsters/vscale2.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 | lodar16, lodar20, lodar21 |
-| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 | lodar16, lodar17, lodar18 |
-| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 | lodar16, lodar17, lodar18 |
-| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 | lodar18, lodar19, lodar21 |
-| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 | lodar18, lodar19, lodar21 |
-| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 | lodar19 |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 10% | 1 | Way to sullengard east 1 |
+| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | 10% | 3 | Way to sullengard east 8 |
+| [Puny venomscale](../monsters/vscale1.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Young venomscale](../monsters/vscale2.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Gray venomscale](../monsters/vscale3.md) | 5% | 1 | Lodar 16, Lodar 20, Lodar 21 |
+| [Aggressive venomscale](../monsters/vscale4.md) | 5% | 1 | Lodar 16, Lodar 17, Lodar 18 |
+| [Quick venomscale](../monsters/vscale5.md) | 5% | 1 | Lodar 16, Lodar 17, Lodar 18 |
+| [Vicious venomscale](../monsters/vscale6.md) | 5% | 1 | Lodar 18, Lodar 19, Lodar 21 |
+| [Strong venomscale](../monsters/vscale7.md) | 5% | 1 | Lodar 18, Lodar 19, Lodar 21 |
+| [Tough venomscale](../monsters/vscale8.md) | 5% | 1 | Lodar 19 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -52,8 +52,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-175) | handed over (10×) | “Like these 10?” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-175) | handed over (10×) | “I have these.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-175) | handed over (10×) | “Like these 10?” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-175) | handed over (10×) | “I have these.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

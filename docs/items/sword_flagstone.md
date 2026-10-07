@@ -43,7 +43,7 @@ description: "Flagstone's pride is a extraordinary longsword in Andor's Trail (A
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | flagstone4 |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | Flagstone 4 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,7 +54,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “Hah! Good one. Go buy a better sword, rookie.” |
+| [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “Hah! Good one. Go buy a better sword, rookie.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

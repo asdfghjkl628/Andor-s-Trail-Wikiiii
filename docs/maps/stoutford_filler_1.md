@@ -12,7 +12,7 @@ description: "Stoutford filler 1 is an outdoor location in Andor's Trail, near S
 | **Region** | Near Stoutford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 23×24 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 3 |
 | **Quests** | 1 |
@@ -62,7 +62,7 @@ description: "Stoutford filler 1 is an outdoor location in Andor's Trail, near S
 ## Quests
 
 - [base_nondisplay](../quests/base_nondisplay.md): blocked passage opens at stage 2
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): a scripted event can trigger here from stage 52; something on this map advances it; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 56; stepping on a trigger here sets stage 57
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): a scripted event can trigger here from stage 52; something on this map advances it; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 56; stepping on a trigger here sets stage 57
 
 ## Points of interest
 

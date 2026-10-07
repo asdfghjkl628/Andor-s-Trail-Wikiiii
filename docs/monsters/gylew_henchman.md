@@ -1,5 +1,5 @@
 ---
-description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail, found in waterway5."
+description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail, found in Waterway 5."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Gylew's henchman
@@ -11,7 +11,7 @@ description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | waterway5 |
+| **Found in** | Waterway 5 |
 | **Class** | Humanoid |
 | **HP** | 219 |
 | **XP when defeated** | 394 |
@@ -21,22 +21,22 @@ description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Gylew's henchman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Gylew's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`gylew_henchman`](#v-gylew_henchman) | NPC | [waterway5](../maps/waterway5.md#pin-npc-gylew_henchman) | – | – |
-| [`gylew_henchman_aggresive`](#v-gylew_henchman_aggresive) | Enemy | [waterway5](../maps/waterway5.md) | – | 219 |
+| [`gylew_henchman`](#v-gylew_henchman) | NPC | [Waterway 5](../maps/waterway5.md#pin-npc-gylew_henchman) | – | – |
+| [`gylew_henchman_aggresive`](#v-gylew_henchman_aggresive) | Enemy | [Waterway 5](../maps/waterway5.md) | – | 219 |
 
-## Waterway5 (gylew_henchman) { #v-gylew_henchman }
+## Waterway 5 (gylew_henchman) { #v-gylew_henchman }
 
 **Entry ID:** `gylew_henchman` · **Type:** NPC
 
-**Location:** [waterway5](../maps/waterway5.md#pin-npc-gylew_henchman)
+**Location:** [Waterway 5](../maps/waterway5.md#pin-npc-gylew_henchman)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gylew's henchman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gylew's henchman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gylew_henchman.json" data-npc="Gylew&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gylew_henchman-gylew_henchman"></span>**`gylew_henchman`** Gylew's henchman: “Hey, I'm trying to admire the view here. Get out of my way.”
 
@@ -98,11 +98,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Waterway5 (gylew_henchman_aggresive) { #v-gylew_henchman_aggresive }
+## Waterway 5 (gylew_henchman_aggresive) { #v-gylew_henchman_aggresive }
 
 **Entry ID:** `gylew_henchman_aggresive` · **Type:** Enemy
 
-**Location:** [waterway5](../maps/waterway5.md)
+**Location:** [Waterway 5](../maps/waterway5.md)
 
 ### Combat statistics
 
@@ -138,7 +138,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway5](../maps/waterway5.md) | – | 1 | Appears later, during a quest |
+| [Waterway 5](../maps/waterway5.md) | – | 1 | Appears later, during a quest |
 
 
 ### Version history

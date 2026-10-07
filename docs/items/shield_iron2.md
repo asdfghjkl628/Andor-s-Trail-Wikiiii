@@ -42,7 +42,7 @@ description: "Iron shield is a ordinary shield, metal (heavy) in Andor's Trail (
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 2%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 2%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

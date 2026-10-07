@@ -11,9 +11,9 @@ description: "Of mice and men is a quest in Andor's Trail, started by Algangror 
 | **Quest ID** | `algangror` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 21, 100, 101) |
-| **Started by** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) |
+| **Started by** | [Algangror](../monsters/algangror.md) ([Lonelyhouse 0](../maps/lonelyhouse0.md)) |
 | **NPCs involved** | [Algangror](../monsters/algangror.md) |
-| **Locations** | [lonelyhouse0](../maps/lonelyhouse0.md) |
+| **Locations** | [Lonelyhouse 0](../maps/lonelyhouse0.md) |
 | **Total XP** | 5,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Of mice and men is a quest in Andor's Trail, started by Algangror 
 
 ## Prerequisites to start
 
-None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) to begin.
+None: talk to [Algangror](../monsters/algangror.md) ([Lonelyhouse 0](../maps/lonelyhouse0.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -44,50 +44,97 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | In a lonely house on a peninsula at the northern shore of lake Laeroth up in the mountains to the north-east, I met a woman called Algangror. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | – | – |
-| <span id="stage-11"></span>11 | She has a rodent problem and needs help dealing with some of them that she has trapped in her basement. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | – | – |
-| <span id="stage-15"></span>15 | I have agreed to help Algangror deal with her rodent problem. I should return to her when I have killed all six rodents in her basement. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | – | – |
-| <span id="stage-20"></span>20 | Algangror thanked me for helping her with her problem. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | hand over 6× [Strange looking rat tail](../items/algangror_rat.md), stage 15 | 5,000 XP |
-| <span id="stage-21"></span>21 | She also told me not to talk to anyone in Remgard about her whereabouts. Apparently, they are looking for her for some reason that she would not say. Under no circumstances should I tell anyone where she is. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 20 | – |
-| <span id="stage-100"></span>100 | I will not help Algangror with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 15 | – |
-| <span id="stage-101"></span>101 | Algangror won't talk to me, and I will be unable to help her with her task. **(completes quest)** | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | stage 10, stage 15, stage 21 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">In a lonely house on a peninsula at the northern shore of lake… ▸</span><span class="l">▴ less</span></summary>In a lonely house on a peninsula at the northern shore of lake Laeroth up in the mountains to the north-east, I met a woman called Algangror.</details> | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-11"></span>[11](#route-11) | <details class="jt"><summary><span class="s">She has a rodent problem and needs help dealing with some of them… ▸</span><span class="l">▴ less</span></summary>She has a rodent problem and needs help dealing with some of them that she has trapped in her basement.</details> | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">I have agreed to help Algangror deal with her rodent problem. I… ▸</span><span class="l">▴ less</span></summary>I have agreed to help Algangror deal with her rodent problem. I should return to her when I have killed all six rodents in her basement.</details> | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Algangror thanked me for helping her with her problem. | [Algangror](../monsters/algangror.md) | 5,000 XP |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">She also told me not to talk to anyone in Remgard about her… ▸</span><span class="l">▴ less</span></summary>She also told me not to talk to anyone in Remgard about her whereabouts. Apparently, they are looking for her for some reason that she would not say. Under no circumstances should I tell anyone where she is.</details> **(ends quest)** | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I will not help Algangror with her task. **(ends quest)** | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-101"></span>[101](#route-101) | Algangror won't talk to me, and I will be unable to help her with her task. **(ends quest)** | [Algangror](../monsters/algangror.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → the conversation leads here automatically → **stage 10**. NPC: “Oh my, a child. He he, how nice. Tell me, what brings you here?”
+??? note "Stage 10 · Algangror · 1 way"
 
-???+ note "Stage 11: 1 route"
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), automatic
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “Sure, what's the problem?” → **stage 11**. NPC: “That's where you come in. Would you be willing to ... ahem ... handle those rodents for me?”
+    - *“Oh my, a child. He he, how nice. Tell me, what brings you here?”*
 
-???+ note "Stage 15: 1 route"
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “Sure, some rodents, I can handle that.” → **stage 15**. NPC: “Splendid. Return to me with some proof that they have been dealt with.”
+<span id="route-11"></span>
 
-???+ note "Stage 20: 1 route"
+??? note "Stage 11 · Algangror · 1 way"
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “Yes, they are all dead.” — **conditions:** reached stage 15 of [Of mice and men](../quests/algangror.md#stage-15); hand over 6× [Strange looking rat tail](../items/algangror_rat.md) → **stage 20**. NPC: “He he. I bet you sure showed them. Excellent. Thank you for ... ahem ... helping me.”
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “Sure, what's the problem?”
 
-???+ note "Stage 21: 1 route"
+    - *“That's where you come in. Would you be willing to ... ahem ... handle those rodents for me?”*
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “OK.” — **conditions:** reached stage 20 of [Of mice and men](../quests/algangror.md#stage-20) → **stage 21**. NPC: “Under no circumstances.”
 
-???+ note "Stage 100: 1 route"
+<span id="route-15"></span>
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “I won't do your stupid task, count me out.” — **conditions:** reached stage 15 of [Of mice and men](../quests/algangror.md#stage-15) → **stage 100**. NPC: “Ah yes. After all, you are just a child and I can understand such a task would be too much for you. He he.”
+??? note "Stage 15 · Algangror · 1 way"
 
-???+ note "Stage 101: 2 routes"
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “Sure, some rodents, I can handle that.”
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → choose “I am sent by Jhaeld to end whatever it is you do to the people of Remgard.” — **conditions:** reached stage 15 of [Of mice and men](../quests/algangror.md#stage-15); reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21); reached stage 10 of [Of mice and men](../quests/algangror.md#stage-10) → **stage 101**
-    2. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Of mice and men](../quests/algangror.md#stage-21); reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10); reached stage 10 of [Of mice and men](../quests/algangror.md#stage-10) → **stage 101**
+    - *“Splendid. Return to me with some proof that they have been dealt with.”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Algangror · 1 way"
+
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “Yes, they are all dead.”
+
+    - **Needs:** stage 15; hand over 6× [Strange looking rat tail](../items/algangror_rat.md)
+    - *“He he. I bet you sure showed them. Excellent. Thank you for ... ahem ... helping me.”*
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Algangror · 1 way"
+
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “OK.”
+
+    - **Needs:** stage 20
+    - *“Under no circumstances.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Algangror · 1 way"
+
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “I won't do your stupid task, count me out.”
+
+    - **Needs:** stage 15
+    - *“Ah yes. After all, you are just a child and I can understand such a task would be too much for you. He he.”*
+
+
+<span id="route-101"></span>
+
+??? note "Stage 101 · Algangror · 2 ways"
+
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), choose “I am sent by Jhaeld to end whatever it is you do to the people of Remgard.”
+
+    - **Needs:** stage 10, 15; reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21)
+
+    **Way 2:** Talk to [Algangror](../monsters/algangror.md), automatic
+
+    - **Needs:** stage 10, 21; reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -98,7 +145,7 @@ None: talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lone
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …”<br>· text: “That's where you come in. Would you be willing to .. ahem .. handle t…” → “That's where you come in. Would you be willing to ... ahem ... handle…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “That's where you come in. Would you be willing to .. ahem .. handle t…” → “That's where you come in. Would you be willing to ... ahem ... handle…”<br>· text: “He he. I bet you sure showed them. Excellent. Thank you for .. ahem .…” → “He he. I bet you sure showed them. Excellent. Thank you for ... ahem …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

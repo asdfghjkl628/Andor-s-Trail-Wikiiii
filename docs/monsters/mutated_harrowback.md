@@ -4,7 +4,7 @@ description: "Mutated harrowback is an enemy in Andor's Trail (animal) with 197 
 
 # ![](../assets/icons/monsters/monsters_tometik1_84.png){ .sprite } Mutated harrowback
 
-**Found in:** Mt. Galmore: [galmore_34](../maps/galmore_34.md), Mt. Galmore: [galmore_43](../maps/galmore_43.md), Mt. Galmore: [galmore_44](../maps/galmore_44.md), Mt. Galmore: [galmore_45](../maps/galmore_45.md) (+2 more)
+**Found in:** Mt. Galmore: [Galmore 34](../maps/galmore_34.md), Mt. Galmore: [Galmore 43](../maps/galmore_43.md), Mt. Galmore: [Galmore 44](../maps/galmore_44.md), Mt. Galmore: [Galmore 45](../maps/galmore_45.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -58,12 +58,12 @@ description: "Mutated harrowback is an enemy in Andor's Trail (animal) with 197 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_34](../maps/galmore_34.md) | Mt. Galmore | 3 | – |
-| [galmore_43](../maps/galmore_43.md) | Mt. Galmore | 2 | – |
-| [galmore_44](../maps/galmore_44.md) | Mt. Galmore | 12 | – |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 14 | – |
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 7 | – |
-| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 3 | – |
+| [Galmore 34](../maps/galmore_34.md) | Mt. Galmore | 3 | – |
+| [Galmore 43](../maps/galmore_43.md) | Mt. Galmore | 2 | – |
+| [Galmore 44](../maps/galmore_44.md) | Mt. Galmore | 12 | – |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 14 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 7 | – |
+| [Galmore 54](../maps/galmore_54.md) | Mt. Galmore | 3 | – |
 
 
 ## Version history

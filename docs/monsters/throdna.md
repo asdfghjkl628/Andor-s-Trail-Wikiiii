@@ -4,7 +4,7 @@ description: "Throdna is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } Throdna
 
-**Where to find Throdna:** Prim: [blackwater_mountain50](../maps/blackwater_mountain50.md#pin-npc-throdna)
+**Where to find Throdna:** Prim: [Blackwater mountain 50](../maps/blackwater_mountain50.md#pin-npc-throdna)
 
 <div class="infobox" markdown>
 
@@ -27,7 +27,7 @@ description: "Throdna is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Throdna. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Throdna. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/throdna_start.json" data-npc="Throdna" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (71 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-throdna_start"></span>**`throdna_start`** *(silent check: the first matching branch below is taken)*
 
@@ -348,7 +348,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…”<br>· text: “.. Kazaul .. Shadow ..” → “...Kazaul ... Shadow...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “Hm, maybe you could be of use here..” → “Hmm, maybe you could be of use here...”<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 22 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

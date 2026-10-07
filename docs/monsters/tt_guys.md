@@ -4,7 +4,7 @@ description: "Seraphina's bodyguard is an enemy in Andor's Trail (humanoid) with
 
 # ![](../assets/icons/monsters/monsters_ld1_87.png){ .sprite } Seraphina's bodyguard
 
-**Found in:** Brimhaven: [waterway6](../maps/waterway6.md), Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md), Loneford: [waytobrimhaven1](../maps/waytobrimhaven1.md), Prim: [blackwater_mountain12](../maps/blackwater_mountain12.md) (+3 more)
+**Found in:** Brimhaven: [Waterway 6](../maps/waterway6.md), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md), Loneford: [Waytobrimhaven 1](../maps/waytobrimhaven1.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Seraphina's bodyguard is an enemy in Andor's Trail (humanoid) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 5 | Appears later, during a quest |
-| [sullengard3](../maps/sullengard3.md) | – | 5 | Appears later, during a quest |
-| [vilegard_s](../maps/vilegard_s.md) | Vilegard | 5 | Appears later, during a quest |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 5 | Appears later, during a quest |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 5 | Appears later, during a quest |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 5 | Appears later, during a quest |
-| [wild21](../maps/wild21.md) | Stoutford | 5 | Appears later, during a quest |
+| [Blackwater mountain 12](../maps/blackwater_mountain12.md) | Prim | 5 | Appears later, during a quest |
+| [Sullengard 3](../maps/sullengard3.md) | – | 5 | Appears later, during a quest |
+| [Vilegard south](../maps/vilegard_s.md) | Vilegard | 5 | Appears later, during a quest |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 5 | Appears later, during a quest |
+| [Waytobrimhaven 1](../maps/waytobrimhaven1.md) | Loneford | 5 | Appears later, during a quest |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 5 | Appears later, during a quest |
+| [Wild 21](../maps/wild21.md) | Stoutford | 5 | Appears later, during a quest |
 
 
 ## Version history

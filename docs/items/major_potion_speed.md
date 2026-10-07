@@ -34,7 +34,7 @@ description: "Major potion of speed is a rare potion in Andor's Trail. How to ge
 
 ### Found in containers
 
-- [witch_house_basement](../maps/witch_house_basement.md#container-1) (container 2, 100%)
+- [Witch house basement](../maps/witch_house_basement.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

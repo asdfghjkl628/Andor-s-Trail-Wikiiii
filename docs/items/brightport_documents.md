@@ -25,7 +25,7 @@ description: "Bakery ledger is a ordinary item in Andor's Trail. How to get it: 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [brightport_bakery1](../maps/brightport_bakery1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-243) (1×)
+- From stepping on a trigger on [Brightport bakery 1](../maps/brightport_bakery1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-243) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Sylvester](../monsters/brightportforenza.md) ([brightport_forenza](../maps/brightport_forenza.md)) | – | must be carried (1×) | “While cleaning at the bakery I found this paper recording the bakery's revenue, ” |
-| [Sylvester](../monsters/brightportforenza.md) ([brightport_forenza](../maps/brightport_forenza.md)) | – | handed over (1×) | “Sure.” |
+| [Sylvester](../monsters/brightportforenza.md) ([Brightport forenza](../maps/brightport_forenza.md)) | – | must be carried (1×) | “While cleaning at the bakery I found this paper recording the bakery's revenue, ” |
+| [Sylvester](../monsters/brightportforenza.md) ([Brightport forenza](../maps/brightport_forenza.md)) | – | handed over (1×) | “Sure.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

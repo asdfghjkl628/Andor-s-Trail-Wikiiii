@@ -4,7 +4,7 @@ description: "Gold hunter is an enemy in Andor's Trail (humanoid) with 70 HP, wo
 
 # ![](../assets/icons/monsters/monsters_ld1_82.png){ .sprite } Gold hunter
 
-**Found in:** Gold hunter: [ratdom_maze_535a](../maps/ratdom_maze_535a.md)
+**Found in:** Gold hunter: [Ratdom maze 535a](../maps/ratdom_maze_535a.md)
 
 <div class="infobox" markdown>
 
@@ -54,11 +54,11 @@ description: "Gold hunter is an enemy in Andor's Trail (humanoid) with 70 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_535a](../maps/ratdom_maze_535a.md) | Gold hunter | 1 | – |
+| [Ratdom maze 535a](../maps/ratdom_maze_535a.md) | Gold hunter | 1 | – |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [ratdom_maze_535a](../maps/ratdom_maze_535a.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Ratdom maze 535a](../maps/ratdom_maze_535a.md) checks that this enemy has been defeated.
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Celdar is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Celdar
 
-**Where to find Celdar:** Crossroads Guardhouse: [houseatcrossroads0](../maps/houseatcrossroads0.md#pin-npc-celdar)
+**Where to find Celdar:** Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-celdar)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Celdar is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Restless in the grave](../quests/mg_restless_grave.md): stage 130
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 19
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 19
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Celdar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Celdar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/celdar.json" data-npc="Celdar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (24 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-celdar"></span>**`celdar`** Celdar: “And who might you be? Come to sell me one of those trinkets that you people sell, eh?”
 
@@ -90,9 +90,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “You reach out, your hands meet with the mysterious music box held between your hands and she takes it from you.” *(if hand over 1× [Mysterious music box](../items/mg_music_box.md))* → [celdar_musicbox_45](#d-celdar_musicbox_45)
     - “I can't believe this, but I forgot to bring the music box. Sorry. I will have to come back later. Stay here.” *(if NOT carry 1× [Mysterious music box](../items/mg_music_box.md))* → *conversation ends*
-    - “I just gave you that music box...” *(if reached stage 19 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-19); NOT reached stage 130 of [Restless in the grave](../quests/mg_restless_grave.md#stage-130))* → [celdar_musicbox_50](#d-celdar_musicbox_50)
+    - “I just gave you that music box...” *(if reached stage 19 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-19); NOT reached stage 130 of [Restless in the grave](../quests/mg_restless_grave.md#stage-130))* → [celdar_musicbox_50](#d-celdar_musicbox_50)
 
-    <span id="d-celdar_musicbox_45"></span>**`celdar_musicbox_45`** [Celdar](../monsters/celdar.md): “Hmph. Fine. If he truly meant it, then I'll take it. Not that it changes anything. Eryndor and I were never friends, and his little gesture won't rewrite history. But... at least he finally understood what was mine to begin with.” — **effects:** sets stage 19 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-19)
+    <span id="d-celdar_musicbox_45"></span>**`celdar_musicbox_45`** [Celdar](../monsters/celdar.md): “Hmph. Fine. If he truly meant it, then I'll take it. Not that it changes anything. Eryndor and I were never friends, and his little gesture won't rewrite history. But... at least he finally understood what was mine to begin with.” — **effects:** sets stage 19 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-19)
 
     - Next → [celdar_musicbox_50](#d-celdar_musicbox_50)
 

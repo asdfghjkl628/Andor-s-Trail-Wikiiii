@@ -1,10 +1,10 @@
 ---
-description: "Ancient basilisk is an enemy in Andor's Trail (reptile) with 120 HP, worth 290 XP, found in basiliskcave2. Drops: Engraved steel helmet, Gold coins."
+description: "Ancient basilisk is an enemy in Andor's Trail (reptile) with 120 HP, worth 290 XP, found in Basiliskcave 2. Drops: Engraved steel helmet, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_giantbasilisk_0.png){ .sprite } Ancient basilisk
 
-**Found in:** [basiliskcave2](../maps/basiliskcave2.md)
+**Found in:** [Basiliskcave 2](../maps/basiliskcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient basilisk is an enemy in Andor's Trail (reptile) with 120 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | basiliskcave2 |
+| **Found in** | Basiliskcave 2 |
 | **Class** | Reptile |
 | **HP** | 120 |
 | **XP when defeated** | 290 |
@@ -55,14 +55,14 @@ description: "Ancient basilisk is an enemy in Andor's Trail (reptile) with 120 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave2](../maps/basiliskcave2.md) | – | 1 | – |
+| [Basiliskcave 2](../maps/basiliskcave2.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [A quick glance](../quests/quick_glance.md#stage-90) with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) checks that this enemy has been defeated.
-- [A quick glance](../quests/quick_glance.md#stage-80) with stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) checks that this enemy has been defeated.
-- [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60) with [Fangwurm](../monsters/fangwurm.md) ([brimhaven_church](../maps/brimhaven_church.md)) checks that this enemy has been defeated.
+- [A quick glance](../quests/quick_glance.md#stage-90) with [Anakis](../monsters/anakis.md) ([Brimhaven 7](../maps/brimhaven7.md)) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) checks that this enemy has been defeated.
+- [A quick glance](../quests/quick_glance.md#stage-80) with stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) checks that this enemy has been defeated.
+- [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60) with [Fangwurm](../monsters/fangwurm.md) ([Brimhaven church](../maps/brimhaven_church.md)) checks that this enemy has been defeated.
 
 
 ## Version history

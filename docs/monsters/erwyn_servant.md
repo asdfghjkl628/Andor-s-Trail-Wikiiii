@@ -1,5 +1,5 @@
 ---
-description: "Servant is an NPC who can also be fought in Andor's Trail, found in stoutford_castle1, stoutford_castle2, Guynmart Castle."
+description: "Servant is an NPC who can also be fought in Andor's Trail, found in Stoutford castle 1, Stoutford castle 2, Guynmart Castle."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_28.png){ .sprite } Servant
@@ -11,7 +11,7 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | stoutford_castle1, stoutford_castle2, Guynmart Castle |
+| **Found in** | Stoutford castle 1, Stoutford castle 2, Guynmart Castle |
 | **Class** | Undead |
 | **HP** | 30 |
 | **XP when defeated** | 30 |
@@ -21,18 +21,18 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Servant. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`erwyn_servant`](#v-erwyn_servant) | Enemy | [stoutford_castle1](../maps/stoutford_castle1.md), [stoutford_castle2](../maps/stoutford_castle2.md) | – | 30 |
-| [`guynmart_servant`](#v-guynmart_servant) | NPC | Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant) | – | – |
+| [`erwyn_servant`](#v-erwyn_servant) | Enemy | [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford castle 2](../maps/stoutford_castle2.md) | – | 30 |
+| [`guynmart_servant`](#v-guynmart_servant) | NPC | Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant) | – | – |
 
-## Stoutford castle1 and 1 more (erwyn_servant) { #v-erwyn_servant }
+## Stoutford castle 1 and 1 more (erwyn_servant) { #v-erwyn_servant }
 
 **Entry ID:** `erwyn_servant` · **Type:** Enemy
 
-**Location:** [stoutford_castle1](../maps/stoutford_castle1.md), [stoutford_castle2](../maps/stoutford_castle2.md)
+**Location:** [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford castle 2](../maps/stoutford_castle2.md)
 
 ### Combat statistics
 
@@ -60,8 +60,8 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle1](../maps/stoutford_castle1.md) | – | 2 | – |
-| [stoutford_castle2](../maps/stoutford_castle2.md) | – | 2 | – |
+| [Stoutford castle 1](../maps/stoutford_castle1.md) | – | 2 | – |
+| [Stoutford castle 2](../maps/stoutford_castle2.md) | – | 2 | – |
 
 
 ### Version history
@@ -113,15 +113,15 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 
 **Entry ID:** `guynmart_servant` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant)
+**Location:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant)
 
 ### Quests
 
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 60
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 60
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Servant. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Servant. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_servant_10.json" data-npc="Servant" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -129,7 +129,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_servant-guynmart_servant_10"></span>**`guynmart_servant_10`** Servant: “What are you doing in my lords rooms?”
 
@@ -139,7 +139,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-guynmart_servant-guynmart_servant_20"></span>**`guynmart_servant_20`** Servant: “I am checking that the bed of young Robalyrius is still in order.”
 
 
-    <span id="d-guynmart_servant-brv_wh_delivery_servant"></span>**`brv_wh_delivery_servant`** Servant: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.” — **effects:** clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 60 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60), gives 40× [Gold coins](../items/gold.md)
+    <span id="d-guynmart_servant-brv_wh_delivery_servant"></span>**`brv_wh_delivery_servant`** Servant: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.” — **effects:** clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 60 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60), gives 40× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 

@@ -4,7 +4,7 @@ description: "Gnossath is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } Gnossath
 
-**Where to find Gnossath:** Brimhaven: [brimhaven1](../maps/brimhaven1.md#pin-npc-brv_employer)
+**Where to find Gnossath:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_employer)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Gnossath is a non-player character (NPC) in Andor's Trail, found i
 ## Quests
 
 - [Work for debts](../quests/brv_employee.md): stage 30
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 11
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 11
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gnossath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gnossath. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_employer.json" data-npc="Gnossath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_employer"></span>**`brv_employer`** *(silent check: the first matching branch below is taken)*
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Stebbarik is ill at home. He is very anxious that you might get angry.” → [brv_employer_10_10](#d-brv_employer_10_10)
 
-    <span id="d-brv_employer_01"></span>**`brv_employer_01`** Gnossath: “I am waiting for Stebbarik. Have you seen him?” — **effects:** sets stage 11 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-11), removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1
+    <span id="d-brv_employer_01"></span>**`brv_employer_01`** Gnossath: “I am waiting for Stebbarik. Have you seen him?” — **effects:** sets stage 11 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-11), removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1
 
     - “No. What do you want of him?” → [brv_employer_02](#d-brv_employer_02)
 

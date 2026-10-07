@@ -1,8 +1,8 @@
 ---
-description: "guynmart_quest_cook_lunch is a hidden quest in Andor's Trail, started by Hofala (guynmart_main_2). 1 stages. 1=got"
+description: "Guynmart quest cook lunch is a hidden quest in Andor's Trail, started by Hofala (guynmart_main_2). 1 stages. 1=got"
 ---
 
-# guynmart_quest_cook_lunch
+# Guynmart quest cook lunch
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "guynmart_quest_cook_lunch is a hidden quest in Andor's Trail, star
 | **Quest ID** | `guynmart_quest_cook_lunch` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
-| **Started by** | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
+| **Started by** | [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) |
 | **NPCs involved** | [Hofala](../monsters/guynmart_cook.md) |
-| **Locations** | [guynmart_main_2](../maps/guynmart_main_2.md) |
+| **Locations** | [Guynmart main 2](../maps/guynmart_main_2.md) |
 
 </div>
 
@@ -26,7 +26,7 @@ description: "guynmart_quest_cook_lunch is a hidden quest in Andor's Trail, star
 
 ## Prerequisites to start
 
-Start with [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)). Required:
+Start with [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)). Required:
 
 - hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md)
 
@@ -41,19 +41,32 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=got<br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart main 2](../maps/guynmart_main_2.md).</span> | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md) | gives [Hannah's lunch](../items/guynmart_lunch.md)<br>sets stage 64 of [Roses](../quests/guynmart.md#stage-64) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=got<br><span class="qnote">🔓 You can finally access a previously blocked area on [Guynmart main 2](../maps/guynmart_main_2.md).</span> | [Hofala](../monsters/guynmart_cook.md) | [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) → the conversation leads here automatically — **conditions:** hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md) → **stage 1**; also gives [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64). NPC: “...and now it is suitable for her. Hurry now, while it is still hot!”
+??? note "Stage 1 · Hofala · 1 way"
+
+    **Way 1:** Talk to [Hofala](../monsters/guynmart_cook.md), automatic
+
+    - **Needs:** hand over 1× [Hannah's special herbs](../items/guynmart_herbs.md)
+    - **Gives:** [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64)
+    - *“...and now it is suitable for her. Hurry now, while it is still hot!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -98,6 +111,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_quest_cook_lunch` |
+    | Name in game data | `guynmart_quest_cook_lunch` |
     | showInLog | 0 |
     | Stage IDs | 1 |
     | Dialogue nodes setting stages | 1: `guynmart_cook_120` |

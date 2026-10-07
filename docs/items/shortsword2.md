@@ -49,7 +49,7 @@ description: "Steel shortsword is a ordinary shortsword in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Drakthorn warrior](../monsters/drakthorn_warrior.md) | 5% | 1 | final_cave_labyrinth, island_underground2, island_underground3 |
+| [Drakthorn warrior](../monsters/drakthorn_warrior.md) | 5% | 1 | Final cave labyrinth, Island underground 2, Island underground 3 |
 
 ### Sold by
 

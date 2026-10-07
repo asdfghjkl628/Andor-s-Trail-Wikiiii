@@ -18,22 +18,22 @@ description: "Dog is a non-player character (NPC) in Andor's Trail, found in Rem
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Dog. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`petdog`](#v-petdog) | NPC | Remgard: [remgard_villager4](../maps/remgard_villager4.md#pin-npc-petdog) | – |
-| [`guynmart_dog10`](#v-guynmart_dog10) | NPC | Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [guynmart_wood_11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10) | – |
+| [`petdog`](#v-petdog) | NPC | Remgard: [Remgard villager 4](../maps/remgard_villager4.md#pin-npc-petdog) | – |
+| [`guynmart_dog10`](#v-guynmart_dog10) | NPC | Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [Guynmart wood 11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10) | – |
 
-## Remgard, Remgard villager4 (petdog) { #v-petdog }
+## Remgard, Remgard villager 4 (petdog) { #v-petdog }
 
 **Entry ID:** `petdog` · **Type:** NPC
 
-**Location:** Remgard: [remgard_villager4](../maps/remgard_villager4.md#pin-npc-petdog)
+**Location:** Remgard: [Remgard villager 4](../maps/remgard_villager4.md#pin-npc-petdog)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/petdog.json" data-npc="Dog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-petdog-petdog"></span>**`petdog`** Dog: “Woof! *pant* *pant*”
 
@@ -88,18 +88,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_dog10` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [guynmart_wood_11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10)
+**Location:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [Guynmart wood 11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_10](../maps/guynmart_wood_10.md) | Guynmart Castle | 6 | – |
-| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 6 | – |
+| [Guynmart wood 10](../maps/guynmart_wood_10.md) | Guynmart Castle | 6 | – |
+| [Guynmart wood 11](../maps/guynmart_wood_11.md) | Guynmart Castle | 6 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_dog10_10.json" data-npc="Dog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_dog10-guynmart_dog10_10"></span>**`guynmart_dog10_10`** [Dog](../monsters/petdog.md#v-guynmart_dog10): “Grrrrrr”
 

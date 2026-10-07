@@ -4,7 +4,7 @@ description: "Seviron is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles2_136.png){ .sprite } Seviron
 
-**Where to find Seviron:** Brimhaven: [brimhaven_church](../maps/brimhaven_church.md#pin-npc-brv_churchman), [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchman)
+**Where to find Seviron:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-brv_churchman), [Brimhaven church upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchman)
 
 <div class="infobox" markdown>
 
@@ -24,8 +24,8 @@ description: "Seviron is a non-player character (NPC) in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_church](../maps/brimhaven_church.md) | Brimhaven | 1 | – |
-| [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md) | – | 1 | – |
+| [Brimhaven church](../maps/brimhaven_church.md) | Brimhaven | 1 | – |
+| [Brimhaven church upstairs](../maps/brimhaven_church_upstairs.md) | – | 1 | – |
 
 ## Quests
 
@@ -33,7 +33,7 @@ description: "Seviron is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Seviron. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Seviron. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_churchman_start.json" data-npc="Seviron" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (27 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_churchman_start"></span>**`brv_churchman_start`** *(silent check: the first matching branch below is taken)*
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 4 *(if reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30))* → [brv_churchman_i1](#d-brv_churchman_i1)
     - branch 5 *(if reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30))* → [brv_churchman_i1](#d-brv_churchman_i1)
     - branch 6 *(if reached stage 50 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-50); NOT reached stage 60 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-60))* → [brv_churchman_trap1](#d-brv_churchman_trap1)
-    - branch 7 *(if reached stage 60 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-60))* → [brv_churchman_banned](#d-brv_churchman_banned)
+    - branch 7 *(if reached stage 60 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-60))* → [brv_churchman_banned](#d-brv_churchman_banned)
     - branch 8 *(if NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10))* → [brv_churchman](#d-brv_churchman)
     - branch 9 → [brv_churchman_default1](#d-brv_churchman_default1)
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_churchman_trap1"></span>**`brv_churchman_trap1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 40 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-40))* → [brv_churchman_trap2](#d-brv_churchman_trap2)
+    - branch 1 *(if reached stage 40 of nondisplay bhvt (flag not defined in the game data))* → [brv_churchman_trap2](#d-brv_churchman_trap2)
     - branch 2 → [brv_churchman_trap3](#d-brv_churchman_trap3)
 
     <span id="d-brv_churchman_banned"></span>**`brv_churchman_banned`** Seviron: “Go away, naughty kid!”
@@ -137,8 +137,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_churchman_03"></span>**`brv_churchman_03`** Seviron: “I am the bell-ringer. Unfortunately, I also have to guard the bells from Quasi. He likes to ring them even when there is no reason to do so.”
 
-    - “Who is Quasi?” *(if NOT reached stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30); NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10))* → [brv_churchman_04a](#d-brv_churchman_04a)
-    - “Quasi is...interesting.” *(if reached stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30); NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10))* → [brv_churchman_04b](#d-brv_churchman_04b)
+    - “Who is Quasi?” *(if NOT reached stage 30 of nondisplay bhvt (flag not defined in the game data); NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10))* → [brv_churchman_04a](#d-brv_churchman_04a)
+    - “Quasi is...interesting.” *(if reached stage 30 of nondisplay bhvt (flag not defined in the game data); NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10))* → [brv_churchman_04b](#d-brv_churchman_04b)
     - “OK. Thanks. I'm looking for my brother, Andor. Have you seen him?” → [brv_churchman_01a](#d-brv_churchman_01a)
 
     <span id="d-brv_churchman_04a"></span>**`brv_churchman_04a`** Seviron: “Quasi is the grave digger. He is usually in the basement. Sometimes he is trouble, but mostly he is useful. Anyway, he has nowhere else to go, so he lives in the church.”

@@ -40,7 +40,7 @@ description: "Elytharan gloves is a extraordinary gloves, cloth in Andor's Trail
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) | 100% | 1 | galmore_32 |
+| [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) | 100% | 1 | Galmore 32 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

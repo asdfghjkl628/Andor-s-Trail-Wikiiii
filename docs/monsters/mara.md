@@ -22,12 +22,12 @@ description: "Mara is an NPC who can also be fought in Andor's Trail, found in C
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Mara. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Mara. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`mara`](#v-mara) | NPC | Not on a map | shopkeeper | – |
-| [`ratdom_mara`](#v-ratdom_mara) | Enemy | Crossglen: [crossglen](../maps/crossglen.md) | – | 90 |
+| [`ratdom_mara`](#v-ratdom_mara) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md) | – | 90 |
 
 ## Not placed on a map (mara) { #v-mara }
 
@@ -48,7 +48,7 @@ description: "Mara is an NPC who can also be fought in Andor's Trail, found in C
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mara. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mara. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mara1.json" data-npc="Mara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -56,7 +56,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mara-mara1"></span>**`mara1`** *(silent check: the first matching branch below is taken)*
 
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_mara` · **Type:** Enemy
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md)
 
 ### Combat statistics
 
@@ -149,13 +149,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [More rats!](../quests/ratdom_mikhail.md#stage-30) with stepping on a trigger on [crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
-- [More rats!](../quests/ratdom_mikhail.md#stage-52) with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) checks that this enemy has been defeated.
-- [More rats!](../quests/ratdom_mikhail.md#stage-54) with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-30) with stepping on a trigger on [Crossglen](../maps/crossglen.md) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-52) with [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) checks that this enemy has been defeated.
+- [More rats!](../quests/ratdom_mikhail.md#stage-54) with [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) checks that this enemy has been defeated.
 
 
 ### Version history

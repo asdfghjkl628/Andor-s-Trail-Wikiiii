@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [crackshot_hideout3](../maps/crackshot_hideout3.md) | [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-70) | must be carried (1×) | “Insert the blessed key of Luthor into the lock.” |
+| walking into a blocked passage on [Crackshot hideout 3](../maps/crackshot_hideout3.md) | [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-70) | must be carried (1×) | “Insert the blessed key of Luthor into the lock.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

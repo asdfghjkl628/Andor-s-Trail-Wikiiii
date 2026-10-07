@@ -11,7 +11,7 @@ description: "Undertell 7 10 is an indoor location in Andor's Trail. Enemies: Bo
 | **Map ID** | `undertell_7_10` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level7](index.md) |
+| **World map** | [Undertell level 7](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 5 |
 | **Quests** | 1 |
@@ -68,7 +68,7 @@ description: "Undertell 7 10 is an indoor location in Andor's Trail. Enemies: Bo
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage opens at stage 1
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 7
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 7
 
 ## Points of interest
 

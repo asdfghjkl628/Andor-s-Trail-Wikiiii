@@ -1,10 +1,10 @@
 ---
-description: "Ash fisher is a non-player character (NPC) in Andor's Trail, found in mountainlake_sub."
+description: "Ash fisher is a non-player character (NPC) in Andor's Trail, found in Mountainlake sub."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_48.png){ .sprite } Ash fisher
 
-**Where to find Ash fisher:** [mountainlake_sub](../maps/mountainlake_sub.md#pin-npc-ash_fisher)
+**Where to find Ash fisher:** [Mountainlake sub](../maps/mountainlake_sub.md#pin-npc-ash_fisher)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ash fisher is a non-player character (NPC) in Andor's Trail, found
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | mountainlake_sub |
+| **Found in** | Mountainlake sub |
 | **Entry ID** | `ash_fisher` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -21,7 +21,7 @@ description: "Ash fisher is a non-player character (NPC) in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ash fisher. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ash fisher. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ash_fisher.json" data-npc="Ash fisher" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ash_fisher"></span>**`ash_fisher`** Ash fisher: “We cast for names.”
 

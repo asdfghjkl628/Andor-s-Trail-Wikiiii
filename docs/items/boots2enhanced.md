@@ -36,7 +36,7 @@ description: "Enhanced leather boots is a ordinary footwear, leather in Andor's 
 
 ### Quest & dialogue rewards
 
-- From [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) (1×)
+- From [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

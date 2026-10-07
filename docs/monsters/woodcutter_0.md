@@ -18,26 +18,26 @@ description: "Woodcutter is a non-player character (NPC) in Andor's Trail, found
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Woodcutter. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Woodcutter. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`woodcutter_0`](#v-woodcutter_0) | NPC | Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0) | – |
-| [`brv_woodcutter`](#v-brv_woodcutter) | NPC | Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_woodcutter) | – |
-| [`woodcutter_2`](#v-woodcutter_2) | NPC | Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2) | – |
-| [`woodcutter_3`](#v-woodcutter_3) | NPC | Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3) | – |
-| [`woodcutter_4`](#v-woodcutter_4) | NPC | Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4) | – |
-| [`woodcutter_5`](#v-woodcutter_5) | NPC | Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5) | – |
+| [`woodcutter_0`](#v-woodcutter_0) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0) | – |
+| [`brv_woodcutter`](#v-brv_woodcutter) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_woodcutter) | – |
+| [`woodcutter_2`](#v-woodcutter_2) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2) | – |
+| [`woodcutter_3`](#v-woodcutter_3) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3) | – |
+| [`woodcutter_4`](#v-woodcutter_4) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4) | – |
+| [`woodcutter_5`](#v-woodcutter_5) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5) | – |
 
-## Crossroads Guardhouse, Roadtocarntower1 (woodcutter_0) { #v-woodcutter_0 }
+## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_0) { #v-woodcutter_0 }
 
 **Entry ID:** `woodcutter_0` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0)
+**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/woodcutter_0.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-woodcutter_0-woodcutter_0"></span>**`woodcutter_0`** Woodcutter: “Stupid wasps...”
 
@@ -89,15 +89,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven2 (brv_woodcutter) { #v-brv_woodcutter }
+## Brimhaven, Brimhaven 2 (brv_woodcutter) { #v-brv_woodcutter }
 
 **Entry ID:** `brv_woodcutter` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_woodcutter)
+**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_woodcutter)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_woodcutter_0.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_woodcutter-brv_woodcutter_0"></span>**`brv_woodcutter_0`** Woodcutter: “[Cutting wood]”
 
@@ -151,15 +151,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Roadtocarntower1 (woodcutter_2) { #v-woodcutter_2 }
+## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_2) { #v-woodcutter_2 }
 
 **Entry ID:** `woodcutter_2` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2)
+**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/woodcutter_2.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -167,7 +167,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-woodcutter_2-woodcutter_2"></span>**`woodcutter_2`** Woodcutter: “Stay away from the road to the west, for it leads to Carn Tower. You most certainly do not want to go there.”
 
@@ -214,15 +214,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Roadtocarntower1 (woodcutter_3) { #v-woodcutter_3 }
+## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_3) { #v-woodcutter_3 }
 
 **Entry ID:** `woodcutter_3` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3)
+**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/woodcutter_3.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -230,7 +230,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-woodcutter_3-woodcutter_3"></span>**`woodcutter_3`** Woodcutter: “Maybe we shouldn't have cut down all the trees over there. Those wasps really seem upset.”
 
@@ -273,15 +273,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Roadtocarntower1 (woodcutter_4) { #v-woodcutter_4 }
+## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_4) { #v-woodcutter_4 }
 
 **Entry ID:** `woodcutter_4` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4)
+**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/woodcutter_4.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -289,7 +289,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-woodcutter_4-woodcutter_4"></span>**`woodcutter_4`** Woodcutter: “I can still feel the sting from those wasps in my legs. Good thing we are done with all the trees now.”
 
@@ -332,15 +332,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Roadtocarntower1 (woodcutter_5) { #v-woodcutter_5 }
+## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_5) { #v-woodcutter_5 }
 
 **Entry ID:** `woodcutter_5` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5)
+**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Woodcutter. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Woodcutter. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/woodcutter_5.json" data-npc="Woodcutter" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -348,7 +348,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-woodcutter_5-woodcutter_5"></span>**`woodcutter_5`** Woodcutter: “Hello there, welcome to our encampment. You should talk to Hadracor over there.”
 

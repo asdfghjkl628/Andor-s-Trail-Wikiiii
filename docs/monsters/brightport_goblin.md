@@ -4,7 +4,7 @@ description: "Charwood goblin hogrider is an enemy in Andor's Trail (animal) wit
 
 # ![](../assets/icons/monsters/monsters_newb_1_48.png){ .sprite } Charwood goblin hogrider
 
-**Found in:** Charwood: [waytobrightport0](../maps/waytobrightport0.md), [waytobrightport1](../maps/waytobrightport1.md), [waytobrightport2](../maps/waytobrightport2.md)
+**Found in:** Charwood: [Waytobrightport 0](../maps/waytobrightport0.md), [Waytobrightport 1](../maps/waytobrightport1.md), [Waytobrightport 2](../maps/waytobrightport2.md)
 
 <div class="infobox" markdown>
 
@@ -58,9 +58,9 @@ description: "Charwood goblin hogrider is an enemy in Andor's Trail (animal) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport0](../maps/waytobrightport0.md) | Charwood | 6 | – |
-| [waytobrightport1](../maps/waytobrightport1.md) | – | 1 | – |
-| [waytobrightport2](../maps/waytobrightport2.md) | – | 1 | – |
+| [Waytobrightport 0](../maps/waytobrightport0.md) | Charwood | 6 | – |
+| [Waytobrightport 1](../maps/waytobrightport1.md) | – | 1 | – |
+| [Waytobrightport 2](../maps/waytobrightport2.md) | – | 1 | – |
 
 
 ## Version history

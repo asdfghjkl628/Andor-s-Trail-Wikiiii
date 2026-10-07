@@ -25,7 +25,7 @@ description: "Gatekeeper stone is a quest other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) during [Searching for madness](../quests/lodar2.md#stage-20) (100%)
+- From [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) during [Searching for madness](../quests/lodar2.md#stage-20) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [lodarcave4a](../maps/lodarcave4a.md) | [Searching for madness](../quests/lodar2.md#stage-35) | handed over (1×) | “(automatic)” |
+| walking into a blocked passage on [Lodarcave 4a](../maps/lodarcave4a.md) | [Searching for madness](../quests/lodar2.md#stage-35) | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

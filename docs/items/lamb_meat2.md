@@ -35,8 +35,8 @@ description: "Specially peppered lamb meat is a extraordinary food in Andor's Tr
 
 ### Quest & dialogue rewards
 
-- From [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-250) (100%)
-- From [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) (1×)
+- From [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-250) (100%)
+- From [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -44,8 +44,8 @@ description: "Godwin's ring is a rare ring in Andor's Trail (Max HP -5, Attack c
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gamjee](../monsters/gamjee.md) | 100% | 1 | gamjee_well_4_1 |
-| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | gamjee_well_4_1 |
+| [Gamjee](../monsters/gamjee.md) | 100% | 1 | Gamjee well 4 1 |
+| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | Gamjee well 4 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -56,10 +56,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Godwin](../monsters/village_godwin.md) ([wexlow_village](../maps/wexlow_village.md)) | – | must be carried (1×) | “Actually, this is your lucky day. I have it here.” |
-| [Godwin](../monsters/village_godwin.md) ([wexlow_village](../maps/wexlow_village.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “Sure. Here, it's yours.” |
-| [Godwin](../monsters/village_godwin.md) ([wexlow_village](../maps/wexlow_village.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “Sounds good.” |
-| [Godwin](../monsters/village_godwin.md) ([wexlow_village](../maps/wexlow_village.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “{3000} gold or no ring.” |
+| [Godwin](../monsters/village_godwin.md) ([Wexlow village](../maps/wexlow_village.md)) | – | must be carried (1×) | “Actually, this is your lucky day. I have it here.” |
+| [Godwin](../monsters/village_godwin.md) ([Wexlow village](../maps/wexlow_village.md)) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “Sure. Here, it's yours.” |
+| [Godwin](../monsters/village_godwin.md) ([Wexlow village](../maps/wexlow_village.md)) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “Sounds good.” |
+| [Godwin](../monsters/village_godwin.md) ([Wexlow village](../maps/wexlow_village.md)) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-7) | handed over (1×) | “{3000} gold or no ring.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

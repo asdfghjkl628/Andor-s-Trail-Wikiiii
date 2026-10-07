@@ -11,9 +11,9 @@ description: "Darkness in the Daylight is a quest in Andor's Trail, started by M
 | **Quest ID** | `darkness_in_daylight` |
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 30, 310) |
-| **Started by** | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) |
+| **Started by** | [Miri](../monsters/dds_miri.md) ([Galmore 41](../maps/galmore_41.md)) |
 | **NPCs involved** | [Andor](../monsters/dds_andor.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), [Old hermit](../monsters/dds_oldhermit.md) +2 |
-| **Locations** | [blackwater_mountain50](../maps/blackwater_mountain50.md), [fallhaven_nw](../maps/fallhaven_nw.md), [galmore_41](../maps/galmore_41.md), [galmore_45](../maps/galmore_45.md) |
+| **Locations** | [Blackwater mountain 50](../maps/blackwater_mountain50.md), [Fallhaven north-west](../maps/fallhaven_nw.md), [Galmore 41](../maps/galmore_41.md), [Galmore 45](../maps/galmore_45.md) |
 | **Total XP** | 27,002 |
 | **Related quests** | 5 |
 
@@ -25,7 +25,7 @@ description: "Darkness in the Daylight is a quest in Andor's Trail, started by M
 
 ## Prerequisites to start
 
-None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) to begin.
+None: talk to [Miri](../monsters/dds_miri.md) ([Galmore 41](../maps/galmore_41.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -41,184 +41,405 @@ None: talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.m
 | Unlocks | [Search for Andor](andor.md#stage-145) | stage 145 there needs stage 280 here |
 | Unlocks | [Search for Andor](andor.md#stage-147) | stage 147 there needs stage 280 here |
 | Unlocks | [Search for Andor](andor.md#stage-999) | stage 999 there needs stage 280 here |
-| Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-2) | stage 2 there needs stage 150 here |
-| Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-3) | stage 3 there needs stage 50 here |
-| Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-6) | stage 6 there needs stage 260 here |
-| Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-20) | stage 20 there needs stage 310 here |
+| Unlocks | [Darkness in the Daylight and Shadows story flags (hidden flag)](dds_nd.md#stage-2) | stage 2 there needs stage 150 here |
+| Unlocks | [Darkness in the Daylight and Shadows story flags (hidden flag)](dds_nd.md#stage-3) | stage 3 there needs stage 50 here |
+| Unlocks | [Darkness in the Daylight and Shadows story flags (hidden flag)](dds_nd.md#stage-6) | stage 6 there needs stage 260 here |
+| Unlocks | [Darkness in the Daylight and Shadows story flags (hidden flag)](dds_nd.md#stage-20) | stage 20 there needs stage 310 here |
 | Unlocks | [Shadows](shadows.md#stage-290) | stage 290 there needs stage 280 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I met Miri in the Crossroads Guardhouse. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | – |
-| <span id="stage-20"></span>20 | Since I had helped Ailshara, she wouldn't tell me about Andor. **(completes quest)** | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | 1 XP |
-| <span id="stage-30"></span>30 | Since I had hidden the truth about the bootlegging of beer from Sullengard, she wouldn't tell me about Andor. **(completes quest)** | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | 1 XP<br>removes monsters from loneford4 |
-| <span id="stage-40"></span>40 | Since I had aided Feygard once or twice earlier, she would tell me about Andor, after I had completed an investigation for her. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | – |
-| <span id="stage-50"></span>50 | Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the Purple Hills in the strange areas to the south of Stoutford. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | sets stage 3 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-3)<br>spawns monsters on galmore_45 |
-| <span id="stage-60"></span>60 | I went to the area to the south of Stoutford and encountered an impassable force there. | walking into a blocked passage on [galmore_45](../maps/galmore_45.md) | stage 50 | – |
-| <span id="stage-70"></span>70 | There was a piece of Kazaul ritual there, which I had encountered before. I should inform Miri. | walking into a blocked passage on [galmore_45](../maps/galmore_45.md) | stage 50, stage 60 | – |
-| <span id="stage-80"></span>80 | Miri asked me where I had seen this before. I told her about a task I had carried out on behalf of Throdna of the Blackwater settlement. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 60, stage 70 | – |
-| <span id="stage-90"></span>90 | Miri told me to meet him and enquire further. And gave me a phrase to use whenever he started rambling. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | – |
-| <span id="stage-100"></span>100 | Throdna told me it was part of a ritual to break the barrier which forms when one does a ritual to call strong Kazaul monsters. | [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) | stage 90 | – |
-| <span id="stage-110"></span>110 | The ritual consisted of two parts which I had found earlier, and a chant in a book called Calomyran Secrets. I need to report this to Miri. | [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) | stage 90 | – |
-| <span id="stage-120"></span>120 | I told Miri about finding the book for an Old Man in Fallhaven.  She told me to talk to him. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 100, stage 110 | – |
-| <span id="stage-130"></span>130 | The Old Man would not let me borrow the book, so I started noting the chant in front of him. | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | stage 110 | – |
-| <span id="stage-140"></span>140 | The book contained half the chant. The rest was to be found in another book Azimyran Secrets. | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | stage 110 | – |
-| <span id="stage-150"></span>150 | Miri told me she'd trace the book. She told me to wait for her return. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 120, stage 140 | removes monsters from houseatcrossroads0<br>starts timer “dds_miri” |
-| <span id="stage-160"></span>160 | Miri came back and told me that the book Azimyran Secrets was with an old hermit near Arulir mountain. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 150 | – |
-| <span id="stage-170"></span>170 | I met the old hermit and asked him about the book, Azimyran Secrets. | [Old hermit](../monsters/dds_oldhermit.md) ([waytolake12](../maps/waytolake12.md)) | stage 160 | – |
-| <span id="stage-180"></span>180 | He refused to give it to me, so I copied the chant sitting with him. I needed to tell Miri. | [Old hermit](../monsters/dds_oldhermit.md) ([waytolake12](../maps/waytolake12.md)) | stage 160 | – |
-| <span id="stage-190"></span>190 | Miri told me to hurry, and pass the barrier. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | – | removes monsters from houseatcrossroads0 |
-| <span id="stage-198"></span>198 | After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 190 | 5,000 XP |
-| <span id="stage-200"></span>200 | She was performing a ritual that should bring her husband back to life. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 190 | spawns monsters on galmore_45 |
-| <span id="stage-210"></span>210 | Miri, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayavar with Kazaul's monsters. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 190 | – |
-| <span id="stage-220"></span>220 | The mourning woman told us that the ritual was given to her by a priest who walks on lava east of the Purple Hills. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 190, stage 210 | removes monsters from galmore_45<br>spawns monsters on loneford4 |
-| <span id="stage-230"></span>230 | We let the mourning woman go. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-232"></span>232 | The mourning woman cried that she would never be happy again. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 220 | 2,000 XP |
-| <span id="stage-240"></span>240 | I had to travel to the lava wastelands. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 190, stage 220 | spawns monsters on galmore_41 |
-| <span id="stage-250"></span>250 | There, after fighting monsters, I met a priest in red. | [Dark priest](../monsters/dds_dark_priest.md) ([galmore_41](../maps/galmore_41.md)) | stage 190 | – |
-| <span id="stage-260"></span>260 | He accused me of interfering. Miri, who again followed me, revealed the red priest to be a monster. | [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) ([galmore_41](../maps/galmore_41.md))<br>[Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 190 | removes monsters from galmore_41<br>spawns monsters on galmore_41 |
-| <span id="stage-270"></span>270 | I defeated the monster. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 260 | – |
-| <span id="stage-280"></span>280 | Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand. | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) | stage 260 | 15,000 XP<br>removes monsters from galmore_41<br>spawns monsters on houseatcrossroads0<br>sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6)<br>spawns monsters on wayto_feygard_duleian_2 |
-| <span id="stage-300"></span>300 | Indeed, I have found Andor there. | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 280 | – |
-| <span id="stage-310"></span>310 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 280 | 5,000 XP<br>sets stage 145 of [Search for Andor](../quests/andor.md#stage-145) |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | I met Miri in the Crossroads Guardhouse. | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Since I had helped Ailshara, she wouldn't tell me about Andor. **(ends quest)** | [Miri](../monsters/dds_miri.md) | 1 XP |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Since I had hidden the truth about the bootlegging of beer from… ▸</span><span class="l">▴ less</span></summary>Since I had hidden the truth about the bootlegging of beer from Sullengard, she wouldn't tell me about Andor.</details> **(ends quest)** | [Miri](../monsters/dds_miri.md) | 1 XP, removes monsters from loneford4 |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Since I had aided Feygard once or twice earlier, she would tell me… ▸</span><span class="l">▴ less</span></summary>Since I had aided Feygard once or twice earlier, she would tell me about Andor, after I had completed an investigation for her.</details> | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Since Miri was poisoned by slitherers near Sullengard, and healing… ▸</span><span class="l">▴ less</span></summary>Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the Purple Hills in the strange areas to the south of Stoutford.</details> | [Miri](../monsters/dds_miri.md) | spawns monsters on galmore_45, spawns monsters on galmore_45 |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I went to the area to the south of Stoutford and encountered an… ▸</span><span class="l">▴ less</span></summary>I went to the area to the south of Stoutford and encountered an impassable force there.</details> | walking into a blocked passage on [Galmore 45](../maps/galmore_45.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">There was a piece of Kazaul ritual there, which I had encountered… ▸</span><span class="l">▴ less</span></summary>There was a piece of Kazaul ritual there, which I had encountered before. I should inform Miri.</details> | walking into a blocked passage on [Galmore 45](../maps/galmore_45.md) | – |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">Miri asked me where I had seen this before. I told her about a task… ▸</span><span class="l">▴ less</span></summary>Miri asked me where I had seen this before. I told her about a task I had carried out on behalf of Throdna of the Blackwater settlement.</details> | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">Miri told me to meet him and enquire further. And gave me a phrase… ▸</span><span class="l">▴ less</span></summary>Miri told me to meet him and enquire further. And gave me a phrase to use whenever he started rambling.</details> | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | <details class="jt"><summary><span class="s">Throdna told me it was part of a ritual to break the barrier which… ▸</span><span class="l">▴ less</span></summary>Throdna told me it was part of a ritual to break the barrier which forms when one does a ritual to call strong Kazaul monsters.</details> | [Throdna](../monsters/throdna.md) | – |
+| <span id="stage-110"></span>[110](#route-110) | <details class="jt"><summary><span class="s">The ritual consisted of two parts which I had found earlier, and a… ▸</span><span class="l">▴ less</span></summary>The ritual consisted of two parts which I had found earlier, and a chant in a book called Calomyran Secrets. I need to report this to Miri.</details> | [Throdna](../monsters/throdna.md) | – |
+| <span id="stage-120"></span>[120](#route-120) | <details class="jt"><summary><span class="s">I told Miri about finding the book for an Old Man in Fallhaven. She… ▸</span><span class="l">▴ less</span></summary>I told Miri about finding the book for an Old Man in Fallhaven. She told me to talk to him.</details> | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-130"></span>[130](#route-130) | <details class="jt"><summary><span class="s">The Old Man would not let me borrow the book, so I started noting… ▸</span><span class="l">▴ less</span></summary>The Old Man would not let me borrow the book, so I started noting the chant in front of him.</details> | [Old man](../monsters/old_man.md) | – |
+| <span id="stage-140"></span>[140](#route-140) | <details class="jt"><summary><span class="s">The book contained half the chant. The rest was to be found in… ▸</span><span class="l">▴ less</span></summary>The book contained half the chant. The rest was to be found in another book Azimyran Secrets.</details> | [Old man](../monsters/old_man.md) | – |
+| <span id="stage-150"></span>[150](#route-150) | Miri told me she'd trace the book. She told me to wait for her return. | [Miri](../monsters/dds_miri.md) | removes monsters from houseatcrossroads0 |
+| <span id="stage-160"></span>[160](#route-160) | <details class="jt"><summary><span class="s">Miri came back and told me that the book Azimyran Secrets was with… ▸</span><span class="l">▴ less</span></summary>Miri came back and told me that the book Azimyran Secrets was with an old hermit near Arulir mountain.</details> | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-170"></span>[170](#route-170) | I met the old hermit and asked him about the book, Azimyran Secrets. | [Old hermit](../monsters/dds_oldhermit.md) | – |
+| <span id="stage-180"></span>[180](#route-180) | <details class="jt"><summary><span class="s">He refused to give it to me, so I copied the chant sitting with him.… ▸</span><span class="l">▴ less</span></summary>He refused to give it to me, so I copied the chant sitting with him. I needed to tell Miri.</details> | [Old hermit](../monsters/dds_oldhermit.md) | – |
+| <span id="stage-190"></span>[190](#route-190) | Miri told me to hurry, and pass the barrier. | [Miri](../monsters/dds_miri.md) | removes monsters from houseatcrossroads0 |
+| <span id="stage-198"></span>[198](#route-198) | <details class="jt"><summary><span class="s">After destroying the ritual statue of Kazaul, beyond the barrier I… ▸</span><span class="l">▴ less</span></summary>After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman.</details> | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | 5,000 XP |
+| <span id="stage-200"></span>[200](#route-200) | She was performing a ritual that should bring her husband back to life. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | spawns monsters on galmore_45 |
+| <span id="stage-210"></span>[210](#route-210) | <details class="jt"><summary><span class="s">Miri, who followed me, convinced the woman that it was actually an… ▸</span><span class="l">▴ less</span></summary>Miri, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayavar with Kazaul's monsters.</details> | [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | – |
+| <span id="stage-220"></span>[220](#route-220) | <details class="jt"><summary><span class="s">The mourning woman told us that the ritual was given to her by a… ▸</span><span class="l">▴ less</span></summary>The mourning woman told us that the ritual was given to her by a priest who walks on lava east of the Purple Hills.</details> | [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | removes monsters from galmore_45, spawns monsters on loneford4 |
+| <span id="stage-230"></span>230 | We let the mourning woman go. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-232"></span>[232](#route-232) | The mourning woman cried that she would never be happy again. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | 2,000 XP |
+| <span id="stage-240"></span>[240](#route-240) | I had to travel to the lava wastelands. | [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | spawns monsters on galmore_41 |
+| <span id="stage-250"></span>[250](#route-250) | There, after fighting monsters, I met a priest in red. | [Dark priest](../monsters/dds_dark_priest.md) | – |
+| <span id="stage-260"></span>[260](#route-260) | <details class="jt"><summary><span class="s">He accused me of interfering. Miri, who again followed me, revealed… ▸</span><span class="l">▴ less</span></summary>He accused me of interfering. Miri, who again followed me, revealed the red priest to be a monster.</details> | [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Miri](../monsters/dds_miri.md) | removes monsters from galmore_41, spawns monsters on galmore_41 |
+| <span id="stage-270"></span>[270](#route-270) | I defeated the monster. | [Miri](../monsters/dds_miri.md) | – |
+| <span id="stage-280"></span>[280](#route-280) | <details class="jt"><summary><span class="s">Miri fulfilled her promise and told me that Andor would be refilling… ▸</span><span class="l">▴ less</span></summary>Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand.</details> | [Miri](../monsters/dds_miri.md) | 15,000 XP, removes monsters from galmore_41, spawns monsters on houseatcrossroads0, spawns monsters on wayto_feygard_duleian_2 |
+| <span id="stage-300"></span>[300](#route-300) | Indeed, I have found Andor there. | [Andor](../monsters/dds_andor.md) | – |
+| <span id="stage-310"></span>[310](#route-310) | He told me he couldn't come home now, and vanished. **(ends quest)** | [Andor](../monsters/dds_andor.md) | 5,000 XP, sets stage 145 of [Search for Andor](../quests/andor.md#stage-145) |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically → **stage 10**. NPC: “Ah, one of the kids who've been causing trouble around Dhayavar.”
+??? note "Stage 10 · Miri · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Tell me please.” — **conditions:** reached stage 82 of [Feygard errands](../quests/feygard_shipment.md#stage-82) → **stage 20**. NPC: “By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, when I was last there…”
+    - *“Ah, one of the kids who've been causing trouble around Dhayavar.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Tell me please.” — **conditions:** reached stage 120 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-120) → **stage 30**; also removes monsters from loneford4. NPC: “By hiding the truth of the beer bootlegging from Sullengard, you have proved not to be. Suffice to say, when I was…”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Miri · 1 way"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-40) → **stage 40**. NPC: “You've aided Feygard once before. Now, investigate something for me. If you succeed, I'll tell you what I know of Andor.”
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Tell me please.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** reached stage 82 of [Feygard errands](../quests/feygard_shipment.md#stage-82)
+    - *“By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, when I was last there I heard your brother…”*
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-50) → **stage 50**; also sets stage 3 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-3), spawns monsters on galmore_45, spawns monsters on galmore_45. NPC: “Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Purple Hills.”
 
-???+ note "Stage 60: 1 route"
+<span id="route-30"></span>
 
-    1. walking into a blocked passage on [galmore_45](../maps/galmore_45.md) → the conversation leads here automatically — **conditions:** reached stage 50 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-50) → **stage 60**. NPC: “I have never seen such a barrier.”
+??? note "Stage 30 · Miri · 1 way"
 
-???+ note "Stage 70: 1 route"
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Tell me please.”
 
-    1. walking into a blocked passage on [galmore_45](../maps/galmore_45.md) → the conversation leads here automatically — **conditions:** reached stage 50 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-50); reached stage 60 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-60); NOT reached stage 70 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-70); random chance (20%) → **stage 70**. NPC: “You stumble upon a piece of paper.”
+    - **Needs:** reached stage 120 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-120)
+    - **Gives:** removes monsters from loneford4
+    - *“By hiding the truth of the beer bootlegging from Sullengard, you have proved not to be. Suffice to say, when I was last there I heard your…”*
 
-???+ note "Stage 80: 1 route"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “When I was at the Blackwater settlement, I had used this, on the guidance of Throdna, as part of purifying…” — **conditions:** reached stage 60 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-60); reached stage 70 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-70) → **stage 80**. NPC: “That is bad news indeed. We must act.”
+<span id="route-40"></span>
 
-???+ note "Stage 90: 1 route"
+??? note "Stage 40 · Miri · 1 way"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 90 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-90) → **stage 90**. NPC: “Go meet Throdna. Since he's known to ramble, just say 'Kazaul est' to focus him again.”
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
 
-???+ note "Stage 100: 1 route"
+    - **Needs:** stage 40
+    - *“You've aided Feygard once before. Now, investigate something for me. If you succeed, I'll tell you what I know of Andor.”*
 
-    1. Talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) → choose “Not again - Kazaul Est!” — **conditions:** reached stage 90 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-90); NOT reached stage 100 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-100) → **stage 100**. NPC: “Yes. This piece of the ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in…”
 
-???+ note "Stage 110: 1 route"
+<span id="route-50"></span>
 
-    1. Talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) → choose “So, nothing to be done?” — **conditions:** reached stage 90 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-90); NOT reached stage 100 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-100) → **stage 110**. NPC: “I didn't say that! There was a traveler a long time back - he wrote a book Calomyran Secrets. It has the chant of…”
+??? note "Stage 50 · Miri · 1 way"
 
-???+ note "Stage 120: 1 route"
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “I know! I helped find this book for that old man in Fallhaven. He must still have it. Let me talk to him.” — **conditions:** reached stage 100 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-100); reached stage 110 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-110); NOT reached stage 140 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-140) → **stage 120**. NPC: “Good thinking! Do that, seek the old man with the book.”
+    - **Needs:** stage 50
+    - **Gives:** spawns monsters on galmore_45, spawns monsters on galmore_45
+    - <small>Also: sets stage 3 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-3)</small>
+    - *“Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Purple Hills.”*
 
-???+ note "Stage 130: 1 route"
 
-    1. Talk to [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “I need a chant from it to break a Kazaul spell.” — **conditions:** reached stage 110 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-110); NOT reached stage 140 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-140) → **stage 130**. NPC: “Copy it then.”
+<span id="route-60"></span>
 
-???+ note "Stage 140: 1 route"
+??? note "Stage 60 · walking into a blocked passage on galmore_45 · 1 way"
 
-    1. Talk to [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “However, it is not complete. Do you also have the book Azimyran Secrets?” — **conditions:** reached stage 110 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-110); NOT reached stage 140 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-140) → **stage 140**. NPC: “No, sorry. Do let me know if you come across a copy.”
+    **Way 1:** Walking into a blocked passage on [Galmore 45](../maps/galmore_45.md)
 
-???+ note "Stage 150: 1 route"
+    - **Needs:** stage 50
+    - *“I have never seen such a barrier.”*
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “I don't know.” — **conditions:** reached stage 120 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-120); reached stage 140 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-140) → **stage 150**; also removes monsters from houseatcrossroads0, starts timer “dds_miri”. NPC: “You have run around enough. Let me ask around. Why don't you rest? Stroll around outside a bit to refresh!”
 
-???+ note "Stage 160: 1 route"
+<span id="route-70"></span>
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Tell me.” — **conditions:** reached stage 150 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-150) → **stage 160**. NPC: “You know, at the old watch tower. The Hermit is said to have a copy of Azimyran Secrets. Go ...”
+??? note "Stage 70 · walking into a blocked passage on galmore_45 · 1 way"
 
-???+ note "Stage 170: 1 route"
+    **Way 1:** Walking into a blocked passage on [Galmore 45](../maps/galmore_45.md)
 
-    1. Talk to [Old hermit](../monsters/dds_oldhermit.md) ([waytolake12](../maps/waytolake12.md)) → choose “You are not no one. You have a copy of Azimyran Secrets.” — **conditions:** reached stage 160 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-160); NOT reached stage 180 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-180) → **stage 170**. NPC: “So? I'm not giving it to anyone. I'm too old to be threatened. And I want nothing.”
+    - **Needs:** stage 50, 60; not yet stage 70; random chance (20%)
+    - *“You stumble upon a piece of paper.”*
 
-???+ note "Stage 180: 1 route"
 
-    1. Talk to [Old hermit](../monsters/dds_oldhermit.md) ([waytolake12](../maps/waytolake12.md)) → choose “Sounds oddly appealing. Can I copy the rest of the chant?” — **conditions:** reached stage 160 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-160); NOT reached stage 180 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-180) → **stage 180**. NPC: “Sure. Here you go.”
+<span id="route-80"></span>
 
-???+ note "Stage 190: 1 route"
+??? note "Stage 80 · Miri · 1 way"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 190**; also removes monsters from houseatcrossroads0. NPC: “Great. And now off to the barrier! Make haste - I'll join you as fast as my injuries allow.”
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “When I was at the Blackwater settlement, I had used this, on the guidance of Throdna, as part of purifying…”
 
-???+ note "Stage 198: 1 route"
+    - **Needs:** stage 60, 70
+    - *“That is bad news indeed. We must act.”*
 
-    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 198**. NPC: “Nooooo!”
 
-???+ note "Stage 200: 1 route"
+<span id="route-90"></span>
 
-    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Do you know what you were doing?” — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 200**; also spawns monsters on galmore_45. NPC: “I was getting my husband back from the afterlife!”
+??? note "Stage 90 · Miri · 1 way"
 
-???+ note "Stage 210: 2 routes"
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Miri? When did you get here?” — **conditions:** reached stage 210 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-210) → **stage 210**. NPC: “Then why did the ritual not include something that links to your husband? Something precious to him?”
-    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Miri? When did you get here?” — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 210**. NPC: “Then why did the ritual not include something that links to your husband? Something precious to him?”
+    - **Needs:** stage 90
+    - *“Go meet Throdna. Since he's known to ramble, just say 'Kazaul est' to focus him again.”*
 
-???+ note "Stage 220: 2 routes"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Yes, who put you up to this?” — **conditions:** reached stage 210 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-210) → **stage 220**; also removes monsters from galmore_45, spawns monsters on loneford4. NPC: “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn…”
-    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Yes, who put you up to this?” — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 220**; also removes monsters from galmore_45, spawns monsters on loneford4. NPC: “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn…”
+<span id="route-100"></span>
 
-???+ note "Stage 232: 1 route"
+??? note "Stage 100 · Throdna · 1 way"
 
-    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 220 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-220) → **stage 232**. NPC: “Go away. I will never be happy in my life.”
+    **Way 1:** Talk to [Throdna](../monsters/throdna.md), choose “Not again - Kazaul Est!”
 
-???+ note "Stage 240: 2 routes"
+    - **Needs:** stage 90; not yet stage 100
+    - *“Yes. This piece of the ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive…”*
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 220 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-220) → **stage 240**; also spawns monsters on galmore_41. NPC: “It's not done yet. Can you talk to this priest? And tackle him as he deserves?”
-    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Nice job.” — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 240**; also spawns monsters on galmore_41. NPC: “It's not done yet. Can you talk to this priest? And tackle him as he deserves?”
 
-???+ note "Stage 250: 1 route"
+<span id="route-110"></span>
 
-    1. Talk to [Dark priest](../monsters/dds_dark_priest.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 250**. NPC: “How dare you stop my spell?”
+??? note "Stage 110 · Throdna · 1 way"
 
-???+ note "Stage 260: 2 routes"
+    **Way 1:** Talk to [Throdna](../monsters/throdna.md), choose “So, nothing to be done?”
 
-    1. Talk to [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) ([galmore_41](../maps/galmore_41.md)) → choose “But it's unfair to ...” — **conditions:** reached stage 190 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-190) → **stage 260**; also removes monsters from galmore_41, spawns monsters on galmore_41. NPC: “Are we going to do this now, or are you two going to talk all day?”
-    2. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “But it's unfair to ...” — **conditions:** reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260) → **stage 260**; also removes monsters from galmore_41, spawns monsters on galmore_41. NPC: “Are we going to do this now, or are you two going to talk all day?”
+    - **Needs:** stage 90; not yet stage 100
+    - *“I didn't say that! There was a traveler a long time back - he wrote a book Calomyran Secrets. It has the chant of passage, among other…”*
 
-???+ note "Stage 270: 1 route"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) → **stage 270**. NPC: “Finally. Well done, kid.”
+<span id="route-120"></span>
 
-???+ note "Stage 280: 1 route"
+??? note "Stage 120 · Miri · 1 way"
 
-    1. Talk to [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) → choose “Really? Tell me!” — **conditions:** reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) → **stage 280**; also removes monsters from galmore_41, spawns monsters on houseatcrossroads0, sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on wayto_feygard_duleian_2. NPC: “Andor is going to visit Rosmara to refill his travel supplies.”
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “I know! I helped find this book for that old man in Fallhaven. He must still have it. Let me talk to him.”
 
-???+ note "Stage 300: 1 route"
+    - **Needs:** stage 100, 110; not yet stage 140
+    - *“Good thinking! Do that, seek the old man with the book.”*
 
-    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Hey, Andor!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280) → **stage 300**
 
-???+ note "Stage 310: 1 route"
+<span id="route-130"></span>
 
-    1. Talk to [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) → choose “Are you just going to disappear again? Please don't!” — **conditions:** reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280) → **stage 310**; also sets stage 145 of [Search for Andor](../quests/andor.md#stage-145)
+??? note "Stage 130 · Old man · 1 way"
+
+    **Way 1:** Talk to [Old man](../monsters/old_man.md), choose “I need a chant from it to break a Kazaul spell.”
+
+    - **Needs:** stage 110; not yet stage 140
+    - *“Copy it then.”*
+
+
+<span id="route-140"></span>
+
+??? note "Stage 140 · Old man · 1 way"
+
+    **Way 1:** Talk to [Old man](../monsters/old_man.md), choose “However, it is not complete. Do you also have the book Azimyran Secrets?”
+
+    - **Needs:** stage 110; not yet stage 140
+    - *“No, sorry. Do let me know if you come across a copy.”*
+
+
+<span id="route-150"></span>
+
+??? note "Stage 150 · Miri · 1 way"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “I don't know.”
+
+    - **Needs:** stage 120, 140
+    - **Gives:** removes monsters from houseatcrossroads0
+    - <small>Also: starts timer “dds_miri”</small>
+    - *“You have run around enough. Let me ask around. Why don't you rest? Stroll around outside a bit to refresh!”*
+
+
+<span id="route-160"></span>
+
+??? note "Stage 160 · Miri · 1 way"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Tell me.”
+
+    - **Needs:** stage 150
+    - *“You know, at the old watch tower. The Hermit is said to have a copy of Azimyran Secrets. Go ...”*
+
+
+<span id="route-170"></span>
+
+??? note "Stage 170 · Old hermit · 1 way"
+
+    **Way 1:** Talk to [Old hermit](../monsters/dds_oldhermit.md), choose “You are not no one. You have a copy of Azimyran Secrets.”
+
+    - **Needs:** stage 160; not yet stage 180
+    - *“So? I'm not giving it to anyone. I'm too old to be threatened. And I want nothing.”*
+
+
+<span id="route-180"></span>
+
+??? note "Stage 180 · Old hermit · 1 way"
+
+    **Way 1:** Talk to [Old hermit](../monsters/dds_oldhermit.md), choose “Sounds oddly appealing. Can I copy the rest of the chant?”
+
+    - **Needs:** stage 160; not yet stage 180
+    - *“Sure. Here you go.”*
+
+
+<span id="route-190"></span>
+
+??? note "Stage 190 · Miri · 1 way"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
+
+    - **Needs:** stage 190
+    - **Gives:** removes monsters from houseatcrossroads0
+    - *“Great. And now off to the barrier! Make haste - I'll join you as fast as my injuries allow.”*
+
+
+<span id="route-198"></span>
+
+??? note "Stage 198 · Mourning woman · 1 way"
+
+    **Way 1:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), automatic
+
+    - **Needs:** stage 190
+    - *“Nooooo!”*
+
+
+<span id="route-200"></span>
+
+??? note "Stage 200 · Mourning woman · 1 way"
+
+    **Way 1:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), choose “Do you know what you were doing?”
+
+    - **Needs:** stage 190
+    - **Gives:** spawns monsters on galmore_45
+    - *“I was getting my husband back from the afterlife!”*
+
+
+<span id="route-210"></span>
+
+??? note "Stage 210 · Miri, Mourning woman · 2 ways"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Miri? When did you get here?”
+
+    - **Needs:** stage 210
+    - *“Then why did the ritual not include something that links to your husband? Something precious to him?”*
+
+    **Way 2:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), choose “Miri? When did you get here?”
+
+    - **Needs:** stage 190
+    - *“Then why did the ritual not include something that links to your husband? Something precious to him?”*
+
+
+<span id="route-220"></span>
+
+??? note "Stage 220 · Miri, Mourning woman · 2 ways"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Yes, who put you up to this?”
+
+    - **Needs:** stage 210
+    - **Gives:** removes monsters from galmore_45, spawns monsters on loneford4
+    - *“Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.”*
+
+    **Way 2:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), choose “Yes, who put you up to this?”
+
+    - **Needs:** stage 190
+    - **Gives:** removes monsters from galmore_45, spawns monsters on loneford4
+    - *“Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.”*
+
+
+<span id="route-232"></span>
+
+??? note "Stage 232 · Mourning woman · 1 way"
+
+    **Way 1:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), automatic
+
+    - **Needs:** stage 220
+    - *“Go away. I will never be happy in my life.”*
+
+
+<span id="route-240"></span>
+
+??? note "Stage 240 · Miri, Mourning woman · 2 ways"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
+
+    - **Needs:** stage 220
+    - **Gives:** spawns monsters on galmore_41
+    - *“It's not done yet. Can you talk to this priest? And tackle him as he deserves?”*
+
+    **Way 2:** Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), choose “Nice job.”
+
+    - **Needs:** stage 190
+    - **Gives:** spawns monsters on galmore_41
+    - *“It's not done yet. Can you talk to this priest? And tackle him as he deserves?”*
+
+
+<span id="route-250"></span>
+
+??? note "Stage 250 · Dark priest · 1 way"
+
+    **Way 1:** Talk to [Dark priest](../monsters/dds_dark_priest.md), automatic
+
+    - **Needs:** stage 190
+    - *“How dare you stop my spell?”*
+
+
+<span id="route-260"></span>
+
+??? note "Stage 260 · Dark priest, Miri · 2 ways"
+
+    **Way 1:** Talk to [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), choose “But it's unfair to ...”
+
+    - **Needs:** stage 190
+    - **Gives:** removes monsters from galmore_41, spawns monsters on galmore_41
+    - *“Are we going to do this now, or are you two going to talk all day?”*
+
+    **Way 2:** Talk to [Miri](../monsters/dds_miri.md), choose “But it's unfair to ...”
+
+    - **Needs:** stage 260
+    - **Gives:** removes monsters from galmore_41, spawns monsters on galmore_41
+    - *“Are we going to do this now, or are you two going to talk all day?”*
+
+
+<span id="route-270"></span>
+
+??? note "Stage 270 · Miri · 1 way"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), automatic
+
+    - **Needs:** stage 260; killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster)
+    - *“Finally. Well done, kid.”*
+
+
+<span id="route-280"></span>
+
+??? note "Stage 280 · Miri · 1 way"
+
+    **Way 1:** Talk to [Miri](../monsters/dds_miri.md), choose “Really? Tell me!”
+
+    - **Needs:** stage 260; killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster)
+    - **Gives:** removes monsters from galmore_41, spawns monsters on houseatcrossroads0, spawns monsters on wayto_feygard_duleian_2
+    - <small>Also: sets stage 6 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-6)</small>
+    - *“Andor is going to visit Rosmara to refill his travel supplies.”*
+
+
+<span id="route-300"></span>
+
+??? note "Stage 300 · Andor · 1 way"
+
+    **Way 1:** Talk to [Andor](../monsters/dds_andor.md), choose “Hey, Andor!”
+
+    - **Needs:** stage 280
+
+
+<span id="route-310"></span>
+
+??? note "Stage 310 · Andor · 1 way"
+
+    **Way 1:** Talk to [Andor](../monsters/dds_andor.md), choose “Are you just going to disappear again? Please don't!”
+
+    - **Needs:** stage 280
+    - **Gives:** sets stage 145 of [Search for Andor](../quests/andor.md#stage-145)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

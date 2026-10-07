@@ -1,5 +1,5 @@
 ---
-description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, found in undertell_3_02, undertell_3_12, undertell_3_13, undertell_3_11, undertell_3_00, undertell_3_10, undertell_3_03."
+description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, found in Undertell 3 02, Undertell 3 12, Undertell 3 13, Undertell 3 11, Undertell 3 00, Undertell 3 10, Undertell 3 03."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_663.png){ .sprite } Forsaken shade
@@ -11,7 +11,7 @@ description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | undertell_3_02, undertell_3_12, undertell_3_13, undertell_3_11, undertell_3_00, undertell_3_10, undertell_3_03 |
+| **Found in** | Undertell 3 02, Undertell 3 12, Undertell 3 13, Undertell 3 11, Undertell 3 00, Undertell 3 10, Undertell 3 03 |
 | **Class** | Ghost |
 | **HP** | 431 |
 | **XP when defeated** | 1,221–1,231 |
@@ -22,27 +22,27 @@ description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, 
 </div>
 
 !!! info "11 entries in the game data"
-    The game's data files define 11 separate characters named Forsaken shade. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 11 separate characters named Forsaken shade. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`shade1`](#v-shade1) | NPC/Enemy | [undertell_3_02](../maps/undertell_3_02.md#pin-npc-shade1) | – | 431 |
-| [`shade2`](#v-shade2) | NPC/Enemy | [undertell_3_02](../maps/undertell_3_02.md#pin-npc-shade2) | – | 431 |
-| [`shade3`](#v-shade3) | NPC/Enemy | [undertell_3_12](../maps/undertell_3_12.md#pin-npc-shade3) | – | 431 |
-| [`shade4`](#v-shade4) | NPC/Enemy | [undertell_3_12](../maps/undertell_3_12.md#pin-npc-shade4) | – | 431 |
-| [`shade5`](#v-shade5) | NPC/Enemy | [undertell_3_13](../maps/undertell_3_13.md#pin-npc-shade5) | – | 431 |
-| [`shade6`](#v-shade6) | NPC/Enemy | [undertell_3_11](../maps/undertell_3_11.md#pin-npc-shade6) | – | 431 |
-| [`shade7`](#v-shade7) | NPC/Enemy | [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade7) | – | 431 |
-| [`shade8`](#v-shade8) | NPC/Enemy | [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade8) | – | 431 |
-| [`shade9`](#v-shade9) | NPC/Enemy | [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade9) | – | 431 |
-| [`shade10`](#v-shade10) | NPC/Enemy | [undertell_3_10](../maps/undertell_3_10.md#pin-npc-shade10) | – | 431 |
-| [`shade11`](#v-shade11) | NPC/Enemy | [undertell_3_03](../maps/undertell_3_03.md#pin-npc-shade11) | – | 431 |
+| [`shade1`](#v-shade1) | NPC/Enemy | [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade1) | – | 431 |
+| [`shade2`](#v-shade2) | NPC/Enemy | [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade2) | – | 431 |
+| [`shade3`](#v-shade3) | NPC/Enemy | [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade3) | – | 431 |
+| [`shade4`](#v-shade4) | NPC/Enemy | [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade4) | – | 431 |
+| [`shade5`](#v-shade5) | NPC/Enemy | [Undertell 3 13](../maps/undertell_3_13.md#pin-npc-shade5) | – | 431 |
+| [`shade6`](#v-shade6) | NPC/Enemy | [Undertell 3 11](../maps/undertell_3_11.md#pin-npc-shade6) | – | 431 |
+| [`shade7`](#v-shade7) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade7) | – | 431 |
+| [`shade8`](#v-shade8) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade8) | – | 431 |
+| [`shade9`](#v-shade9) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade9) | – | 431 |
+| [`shade10`](#v-shade10) | NPC/Enemy | [Undertell 3 10](../maps/undertell_3_10.md#pin-npc-shade10) | – | 431 |
+| [`shade11`](#v-shade11) | NPC/Enemy | [Undertell 3 03](../maps/undertell_3_03.md#pin-npc-shade11) | – | 431 |
 
 ## Undertell 3 02 (shade1) { #v-shade1 }
 
 **Entry ID:** `shade1` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_02](../maps/undertell_3_02.md#pin-npc-shade1)
+**Location:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -78,20 +78,20 @@ description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-1) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-1) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade1_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -99,11 +99,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (38 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade1-shade1_selector"></span>**`shade1_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 140 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-140))* → [shade_fight](#d-shade1-shade_fight)
+    - branch 1 *(if reached stage 140 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140))* → [shade_fight](#d-shade1-shade_fight)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_1](#d-shade1-shade_return_wearing_ring_1)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade1_initial](#d-shade1-shade1_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2)
@@ -172,7 +172,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I know my history. You shall cease to exist.” *(if faction “currentShade” = 11)* → [shade_kill_11](#d-shade1-shade_kill_11)
     - “Let me think...” → *conversation ends*
 
-    <span id="d-shade1-undertell_shade_teleport_loc_selector"></span>**`undertell_shade_teleport_loc_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 20 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-20)
+    <span id="d-shade1-undertell_shade_teleport_loc_selector"></span>**`undertell_shade_teleport_loc_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 20 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-20)
 
     - Next *(if random chance (1/4%))* → [mt_galmore1_h1](#d-shade1-mt_galmore1_h1)
     - Next *(if random chance (1/3%))* → [mt_galmore0_h2](#d-shade1-mt_galmore0_h2)
@@ -212,60 +212,60 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-shade1-shade_freed_11"></span>**`shade_freed_11`** Forsaken shade: “Thank you.” — **effects:** faction “shadeSetFreeCount” +1, sets stage 420 of [Devotion](../quests/devotion.md#stage-420), removes monsters from undertell_3_03
 
 
-    <span id="d-shade1-shade_kill_1"></span>**`shade_kill_1`** Forsaken shade: “You shall not live.” — **effects:** sets stage 140 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-140)
+    <span id="d-shade1-shade_kill_1"></span>**`shade_kill_1`** Forsaken shade: “You shall not live.” — **effects:** sets stage 140 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_2"></span>**`shade_kill_2`** Forsaken shade: “You shall not live.” — **effects:** sets stage 170 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-170)
+    <span id="d-shade1-shade_kill_2"></span>**`shade_kill_2`** Forsaken shade: “You shall not live.” — **effects:** sets stage 170 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_3"></span>**`shade_kill_3`** Forsaken shade: “You shall not live.” — **effects:** sets stage 200 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-200)
+    <span id="d-shade1-shade_kill_3"></span>**`shade_kill_3`** Forsaken shade: “You shall not live.” — **effects:** sets stage 200 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_4"></span>**`shade_kill_4`** Forsaken shade: “You shall not live.” — **effects:** sets stage 230 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-230)
+    <span id="d-shade1-shade_kill_4"></span>**`shade_kill_4`** Forsaken shade: “You shall not live.” — **effects:** sets stage 230 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_5"></span>**`shade_kill_5`** Forsaken shade: “You shall not live.” — **effects:** sets stage 260 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-260)
+    <span id="d-shade1-shade_kill_5"></span>**`shade_kill_5`** Forsaken shade: “You shall not live.” — **effects:** sets stage 260 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_6"></span>**`shade_kill_6`** Forsaken shade: “You shall not live.” — **effects:** sets stage 290 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-290)
+    <span id="d-shade1-shade_kill_6"></span>**`shade_kill_6`** Forsaken shade: “You shall not live.” — **effects:** sets stage 290 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_7"></span>**`shade_kill_7`** Forsaken shade: “You shall not live.” — **effects:** sets stage 320 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-320)
+    <span id="d-shade1-shade_kill_7"></span>**`shade_kill_7`** Forsaken shade: “You shall not live.” — **effects:** sets stage 320 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_8"></span>**`shade_kill_8`** Forsaken shade: “You shall not live.” — **effects:** sets stage 350 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-350)
+    <span id="d-shade1-shade_kill_8"></span>**`shade_kill_8`** Forsaken shade: “You shall not live.” — **effects:** sets stage 350 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_9"></span>**`shade_kill_9`** Forsaken shade: “You shall not live.” — **effects:** sets stage 380 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-380)
+    <span id="d-shade1-shade_kill_9"></span>**`shade_kill_9`** Forsaken shade: “You shall not live.” — **effects:** sets stage 380 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_10"></span>**`shade_kill_10`** Forsaken shade: “You shall not live.” — **effects:** sets stage 410 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-410)
+    <span id="d-shade1-shade_kill_10"></span>**`shade_kill_10`** Forsaken shade: “You shall not live.” — **effects:** sets stage 410 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-shade_kill_11"></span>**`shade_kill_11`** Forsaken shade: “You shall not live.” — **effects:** sets stage 440 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-440)
+    <span id="d-shade1-shade_kill_11"></span>**`shade_kill_11`** Forsaken shade: “You shall not live.” — **effects:** sets stage 440 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440)
 
     - “We will see!” → *fight starts*
 
-    <span id="d-shade1-mt_galmore1_h1"></span>**`mt_galmore1_h1`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [mt_galmore1_h1](../maps/mt_galmore1_h1.md)
+    <span id="d-shade1-mt_galmore1_h1"></span>**`mt_galmore1_h1`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [Mt galmore 1 h 1](../maps/mt_galmore1_h1.md)
 
 
-    <span id="d-shade1-mt_galmore0_h2"></span>**`mt_galmore0_h2`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [mt_galmore0_h2](../maps/mt_galmore0_h2.md)
+    <span id="d-shade1-mt_galmore0_h2"></span>**`mt_galmore0_h2`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [Mt galmore 0 h 2](../maps/mt_galmore0_h2.md)
 
 
-    <span id="d-shade1-mt_galmore1_h5"></span>**`mt_galmore1_h5`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [mt_galmore1_h5](../maps/mt_galmore1_h5.md)
+    <span id="d-shade1-mt_galmore1_h5"></span>**`mt_galmore1_h5`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [Mt galmore 1 h 5](../maps/mt_galmore1_h5.md)
 
 
-    <span id="d-shade1-galmore_58"></span>**`galmore_58`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [galmore_58](../maps/galmore_58.md)
+    <span id="d-shade1-galmore_58"></span>**`galmore_58`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [Galmore 58](../maps/galmore_58.md)
 
 
 
@@ -337,7 +337,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade2` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_02](../maps/undertell_3_02.md#pin-npc-shade2)
+**Location:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -373,20 +373,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-2) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-2) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade2_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -394,11 +394,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade2-shade2_selector"></span>**`shade2_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 170 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-170))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 170 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_2](#d-shade2-shade_return_wearing_ring_2)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade2_initial](#d-shade2-shade2_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -486,7 +486,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade3` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_12](../maps/undertell_3_12.md#pin-npc-shade3)
+**Location:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -522,20 +522,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-3) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-3) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade3_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -543,11 +543,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade3-shade3_selector"></span>**`shade3_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 200 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-200))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 200 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_3](#d-shade3-shade_return_wearing_ring_3)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade3_initial](#d-shade3-shade3_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -635,7 +635,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade4` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_12](../maps/undertell_3_12.md#pin-npc-shade4)
+**Location:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade4)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -671,20 +671,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-4) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-4) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade4_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -692,11 +692,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade4-shade4_selector"></span>**`shade4_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 230 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-230))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 230 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_4](#d-shade4-shade_return_wearing_ring_4)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade4_initial](#d-shade4-shade4_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -784,7 +784,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade5` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_13](../maps/undertell_3_13.md#pin-npc-shade5)
+**Location:** [Undertell 3 13](../maps/undertell_3_13.md#pin-npc-shade5)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -820,20 +820,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_13](../maps/undertell_3_13.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 13](../maps/undertell_3_13.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-5) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-5) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade5_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -841,11 +841,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade5-shade5_selector"></span>**`shade5_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 260 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-260))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 260 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_5](#d-shade5-shade_return_wearing_ring_5)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade5_initial](#d-shade5-shade5_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -933,7 +933,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade6` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_11](../maps/undertell_3_11.md#pin-npc-shade6)
+**Location:** [Undertell 3 11](../maps/undertell_3_11.md#pin-npc-shade6)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -969,20 +969,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_11](../maps/undertell_3_11.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 11](../maps/undertell_3_11.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-6) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-6) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade6_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -990,11 +990,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade6-shade6_selector"></span>**`shade6_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 290 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-290))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 290 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_6](#d-shade6-shade_return_wearing_ring_6)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade6_initial](#d-shade6-shade6_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -1082,7 +1082,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade7` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade7)
+**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade7)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -1118,20 +1118,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-7) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-7) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade7_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1139,11 +1139,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade7-shade7_selector"></span>**`shade7_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 320 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-320))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 320 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_7](#d-shade7-shade_return_wearing_ring_7)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade7_initial](#d-shade7-shade7_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -1231,7 +1231,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade8` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade8)
+**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade8)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -1267,20 +1267,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-8) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-8) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade8_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1288,11 +1288,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade8-shade8_selector"></span>**`shade8_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 350 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-350))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 350 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_8](#d-shade8-shade_return_wearing_ring_8)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade8_initial](#d-shade8-shade8_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -1380,7 +1380,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade9` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_00](../maps/undertell_3_00.md#pin-npc-shade9)
+**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade9)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -1416,20 +1416,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-9) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-9) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade9_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1437,11 +1437,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade9-shade9_selector"></span>**`shade9_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 380 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-380))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 380 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_9](#d-shade9-shade_return_wearing_ring_9)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade9_initial](#d-shade9-shade9_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -1529,7 +1529,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade10` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_10](../maps/undertell_3_10.md#pin-npc-shade10)
+**Location:** [Undertell 3 10](../maps/undertell_3_10.md#pin-npc-shade10)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -1565,20 +1565,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_10](../maps/undertell_3_10.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 10](../maps/undertell_3_10.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-10) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-10) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade10_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1586,11 +1586,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade10-shade10_selector"></span>**`shade10_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 410 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-410))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 410 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_10](#d-shade10-shade_return_wearing_ring_10)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade10_initial](#d-shade10-shade10_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)
@@ -1678,7 +1678,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `shade11` · **Type:** NPC/Enemy
 
-**Location:** [undertell_3_03](../maps/undertell_3_03.md#pin-npc-shade11)
+**Location:** [Undertell 3 03](../maps/undertell_3_03.md#pin-npc-shade11)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -1714,20 +1714,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_03](../maps/undertell_3_03.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 03](../maps/undertell_3_03.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-11) with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-11) with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Devotion](../quests/devotion.md): stages 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stages 20, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forsaken shade. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade11_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1735,11 +1735,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shade11-shade11_selector"></span>**`shade11_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 440 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-440))* → [shade_fight](#d-shade1-shade_fight) (listed above)
+    - branch 1 *(if reached stage 440 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440))* → [shade_fight](#d-shade1-shade_fight) (listed above)
     - branch 2 *(if reached stage 110 of [Devotion](../quests/devotion.md#stage-110); wearing [Elythara's ring](../items/elythara_ring.md))* → [shade_return_wearing_ring_11](#d-shade11-shade_return_wearing_ring_11)
     - branch 3 *(if NOT reached stage 40 of [Devotion](../quests/devotion.md#stage-40))* → [shade11_initial](#d-shade11-shade11_initial)
     - branch 4 *(if reached stage 40 of [Devotion](../quests/devotion.md#stage-40); NOT reached stage 60 of [Devotion](../quests/devotion.md#stage-60))* → [shade_retry2](#d-shade1-shade_retry2) (listed above)

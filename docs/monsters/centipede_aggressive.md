@@ -4,7 +4,7 @@ description: "Aggressive giant centipede is an enemy in Andor's Trail (insect) w
 
 # ![](../assets/icons/monsters/monsters_gisons_2.png){ .sprite } Aggressive giant centipede
 
-**Found in:** Lake Laeroth: [laerothbarn0](../maps/laerothbarn0.md), Lake Laeroth: [laerothbarn1](../maps/laerothbarn1.md), Lake Laeroth: [laerothtomb1](../maps/laerothtomb1.md), [laerothcave0](../maps/laerothcave0.md) (+2 more)
+**Found in:** Lake Laeroth: [Laerothbarn 0](../maps/laerothbarn0.md), Lake Laeroth: [Laerothbarn 1](../maps/laerothbarn1.md), Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md), [Laerothcave 0](../maps/laerothcave0.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -57,12 +57,12 @@ description: "Aggressive giant centipede is an enemy in Andor's Trail (insect) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothbarn0](../maps/laerothbarn0.md) | Lake Laeroth | 6 | – |
-| [laerothbarn1](../maps/laerothbarn1.md) | Lake Laeroth | 2 | Appears later, during a quest |
-| [laerothcave0](../maps/laerothcave0.md) | – | 9 | – |
-| [laerothcave1](../maps/laerothcave1.md) | – | 2 | – |
-| [laerothtomb1](../maps/laerothtomb1.md) | Lake Laeroth | 6 | – |
-| [secretpassage0](../maps/secretpassage0.md) | – | 3 | – |
+| [Laerothbarn 0](../maps/laerothbarn0.md) | Lake Laeroth | 6 | – |
+| [Laerothbarn 1](../maps/laerothbarn1.md) | Lake Laeroth | 2 | Appears later, during a quest |
+| [Laerothcave 0](../maps/laerothcave0.md) | – | 9 | – |
+| [Laerothcave 1](../maps/laerothcave1.md) | – | 2 | – |
+| [Laerothtomb 1](../maps/laerothtomb1.md) | Lake Laeroth | 6 | – |
+| [Secretpassage 0](../maps/secretpassage0.md) | – | 3 | – |
 
 
 ## Version history

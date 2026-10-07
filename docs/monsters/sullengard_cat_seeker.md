@@ -4,7 +4,7 @@ description: "Lindauer is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } Lindauer
 
-**Where to find Lindauer:** Sullengard: [sullengard1](../maps/sullengard1.md#pin-npc-sullengard_cat_seeker)
+**Where to find Lindauer:** Sullengard: [Sullengard 1](../maps/sullengard1.md#pin-npc-sullengard_cat_seeker)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Lindauer is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lindauer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lindauer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_cat_seeker_0.json" data-npc="Lindauer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_cat_seeker_0"></span>**`sullengard_cat_seeker_0`** Lindauer: “Hey there. You haven't seen my cat by any chance have you?”
 
@@ -37,9 +37,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-sullengard_cat_seeker_10"></span>**`sullengard_cat_seeker_10`** Lindauer: “He is entirely white. He looks like a fresh coat of snow.”
 
-    - “Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]” *(if reached stage 31 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → [sullengard_cat_seeker_20](#d-sullengard_cat_seeker_20)
-    - “[Lie] No, I have not.” *(if reached stage 31 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → *conversation ends*
-    - “No, I have not. Sorry.” *(if NOT reached stage 31 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → *conversation ends*
+    - “Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]” *(if reached stage 31 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → [sullengard_cat_seeker_20](#d-sullengard_cat_seeker_20)
+    - “[Lie] No, I have not.” *(if reached stage 31 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → *conversation ends*
+    - “No, I have not. Sorry.” *(if NOT reached stage 31 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-31))* → *conversation ends*
 
     <span id="d-sullengard_cat_seeker_20"></span>**`sullengard_cat_seeker_20`** Lindauer: “Oh, thank you so much!”
 

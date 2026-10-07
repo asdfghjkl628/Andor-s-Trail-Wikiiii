@@ -1,10 +1,10 @@
 ---
-description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail, found in blackwater_mountain42."
+description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 42."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite } Kazaul guardian
 
-**Where to find Kazaul guardian:** [blackwater_mountain42](../maps/blackwater_mountain42.md#pin-npc-kazaul_guardian)
+**Where to find Kazaul guardian:** [Blackwater mountain 42](../maps/blackwater_mountain42.md#pin-npc-kazaul_guardian)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail,
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | blackwater_mountain42 |
+| **Found in** | Blackwater mountain 42 |
 | **Class** | Demon |
 | **HP** | 95 |
 | **XP when defeated** | 175 |
@@ -64,7 +64,7 @@ description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain42](../maps/blackwater_mountain42.md) | – | 1 | – |
+| [Blackwater mountain 42](../maps/blackwater_mountain42.md) | – | 1 | – |
 
 ## Quests
 
@@ -72,7 +72,7 @@ description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail,
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kazaul guardian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kazaul guardian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kazaul_guardian.json" data-npc="Kazaul guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -80,7 +80,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-kazaul_guardian"></span>**`kazaul_guardian`** Kazaul guardian: “Kazaul...”
 
@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …”<br>· text: “Kazaul..” → “Kazaul...” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

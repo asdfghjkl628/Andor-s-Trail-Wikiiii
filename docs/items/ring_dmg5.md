@@ -37,7 +37,7 @@ description: "Ring of damage +5 is a rare ring in Andor's Trail (Attack damage 5
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) | 5% | 1 | way_to_sullengard_east9 |
+| [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) | 5% | 1 | Way to sullengard east 9 |
 
 ### Sold by
 

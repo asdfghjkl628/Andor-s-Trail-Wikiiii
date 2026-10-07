@@ -46,7 +46,7 @@ description: "Prim arming sword is a ordinary rapier in Andor's Trail (Attack da
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | elm5f_2 |
+| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

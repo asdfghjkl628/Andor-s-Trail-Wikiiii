@@ -4,7 +4,7 @@ description: "Rabid wolf is an enemy in Andor's Trail (animal) with 42 HP, worth
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Rabid wolf
 
-**Found in:** Fallhaven: [wild11_clearing](../maps/wild11_clearing.md), [clearing_level1](../maps/clearing_level1.md), [clearing_level2](../maps/clearing_level2.md)
+**Found in:** Fallhaven: [Wild 11 clearing](../maps/wild11_clearing.md), [Clearing level 1](../maps/clearing_level1.md), [Clearing level 2](../maps/clearing_level2.md)
 
 <div class="infobox" markdown>
 
@@ -57,9 +57,9 @@ description: "Rabid wolf is an enemy in Andor's Trail (animal) with 42 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [clearing_level1](../maps/clearing_level1.md) | – | 2 | – |
-| [clearing_level2](../maps/clearing_level2.md) | – | 8 | – |
-| [wild11_clearing](../maps/wild11_clearing.md) | Fallhaven | 1 | – |
+| [Clearing level 1](../maps/clearing_level1.md) | – | 2 | – |
+| [Clearing level 2](../maps/clearing_level2.md) | – | 8 | – |
+| [Wild 11 clearing](../maps/wild11_clearing.md) | Fallhaven | 1 | – |
 
 
 ## Version history

@@ -21,20 +21,20 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Frantic forest wasp. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Frantic forest wasp. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`fieldwasp_0`](#v-fieldwasp_0) | Enemy | Crossroads Guardhouse: [crossroads](../maps/crossroads.md), Crossroads Guardhouse: [fields0](../maps/fields0.md) (+1 more) | – | 29 |
-| [`fieldwasp_1`](#v-fieldwasp_1) | Enemy | Crossroads Guardhouse: [fields8](../maps/fields8.md), Crossroads Guardhouse: [roadtocarntower0](../maps/roadtocarntower0.md) | – | 32 |
-| [`fieldwasp_2`](#v-fieldwasp_2) | Enemy | Crossroads Guardhouse: [fields9](../maps/fields9.md), Crossroads Guardhouse: [roadtocarntower2](../maps/roadtocarntower2.md) | – | 35 |
-| [`fieldwasp_unique`](#v-fieldwasp_unique) | Enemy | Crossroads Guardhouse: [crossroads](../maps/crossroads.md), Crossroads Guardhouse: [fields8](../maps/fields8.md) (+3 more) | – | 70 |
+| [`fieldwasp_0`](#v-fieldwasp_0) | Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 0](../maps/fields0.md) (+1 more) | – | 29 |
+| [`fieldwasp_1`](#v-fieldwasp_1) | Enemy | Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md) | – | 32 |
+| [`fieldwasp_2`](#v-fieldwasp_2) | Enemy | Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md) | – | 35 |
+| [`fieldwasp_unique`](#v-fieldwasp_unique) | Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 8](../maps/fields8.md) (+3 more) | – | 70 |
 
 ## Crossroads Guardhouse, Crossroads and 2 more (fieldwasp_0) { #v-fieldwasp_0 }
 
 **Entry ID:** `fieldwasp_0` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md), Crossroads Guardhouse: [fields0](../maps/fields0.md), Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md)
+**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 0](../maps/fields0.md), Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md)
 
 ### Combat statistics
 
@@ -69,9 +69,9 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 2 | – |
-| [fields0](../maps/fields0.md) | Crossroads Guardhouse | 1 | – |
-| [roadtocarntower1](../maps/roadtocarntower1.md) | Crossroads Guardhouse | 1 | – |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 2 | – |
+| [Fields 0](../maps/fields0.md) | Crossroads Guardhouse | 1 | – |
+| [Roadtocarntower 1](../maps/roadtocarntower1.md) | Crossroads Guardhouse | 1 | – |
 
 
 ### Version history
@@ -123,11 +123,11 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
     ```
 
 
-## Crossroads Guardhouse, Fields8 and 1 more (fieldwasp_1) { #v-fieldwasp_1 }
+## Crossroads Guardhouse, Fields 8 and 1 more (fieldwasp_1) { #v-fieldwasp_1 }
 
 **Entry ID:** `fieldwasp_1` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [fields8](../maps/fields8.md), Crossroads Guardhouse: [roadtocarntower0](../maps/roadtocarntower0.md)
+**Location:** Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md)
 
 ### Combat statistics
 
@@ -162,8 +162,8 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields8](../maps/fields8.md) | Crossroads Guardhouse | 6 | – |
-| [roadtocarntower0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 5 | – |
+| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 6 | – |
+| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 5 | – |
 
 
 ### Version history
@@ -215,11 +215,11 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
     ```
 
 
-## Crossroads Guardhouse, Fields9 and 1 more (fieldwasp_2) { #v-fieldwasp_2 }
+## Crossroads Guardhouse, Fields 9 and 1 more (fieldwasp_2) { #v-fieldwasp_2 }
 
 **Entry ID:** `fieldwasp_2` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [fields9](../maps/fields9.md), Crossroads Guardhouse: [roadtocarntower2](../maps/roadtocarntower2.md)
+**Location:** Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
 
 ### Combat statistics
 
@@ -254,8 +254,8 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields9](../maps/fields9.md) | Crossroads Guardhouse | 6 | – |
-| [roadtocarntower2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 3 | – |
+| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 6 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 3 | – |
 
 
 ### Version history
@@ -311,7 +311,7 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 **Entry ID:** `fieldwasp_unique` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md), Crossroads Guardhouse: [fields8](../maps/fields8.md), Crossroads Guardhouse: [fields9](../maps/fields9.md), Crossroads Guardhouse: [roadtocarntower0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [roadtocarntower2](../maps/roadtocarntower2.md)
+**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
 
 ### Combat statistics
 
@@ -346,11 +346,11 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
-| [fields8](../maps/fields8.md) | Crossroads Guardhouse | 1 | – |
-| [fields9](../maps/fields9.md) | Crossroads Guardhouse | 2 | – |
-| [roadtocarntower0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 1 | – |
-| [roadtocarntower2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 2 | – |
+| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 1 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
 
 
 ### Version history

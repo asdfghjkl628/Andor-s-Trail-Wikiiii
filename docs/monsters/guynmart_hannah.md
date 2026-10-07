@@ -18,30 +18,30 @@ description: "Hannah is a non-player character (NPC) in Andor's Trail, found in 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Hannah. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Hannah. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_hannah`](#v-guynmart_hannah) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah) | – |
-| [`guynmart_hannah2`](#v-guynmart_hannah2) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2) | – |
-| [`guynmart_hannah3`](#v-guynmart_hannah3) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3) | – |
+| [`guynmart_hannah`](#v-guynmart_hannah) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah) | – |
+| [`guynmart_hannah2`](#v-guynmart_hannah2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2) | – |
+| [`guynmart_hannah3`](#v-guynmart_hannah3) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3) | – |
 
 ## Guynmart Castle, Guynmart (guynmart_hannah) { #v-guynmart_hannah }
 
 **Entry ID:** `guynmart_hannah` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah)
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 70, 90, 100
 - [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md): stage 7
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 34
-- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
+- [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 34
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hannah. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,9 +49,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-guynmart_hannah-guynmart_hannah_10"></span>**`guynmart_hannah_10`** *(silent check: the first matching branch below is taken)* — **effects:** removes monsters from guynmart_main_1, removes monsters from guynmart_main_2, sets stage 34 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-34)
+    <span id="d-guynmart_hannah-guynmart_hannah_10"></span>**`guynmart_hannah_10`** *(silent check: the first matching branch below is taken)* — **effects:** removes monsters from guynmart_main_1, removes monsters from guynmart_main_2, sets stage 34 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-34)
 
     - branch 1 *(if carry 1× [Rose](../items/guynmart_rose.md))* → [guynmart_hannah_110](#d-guynmart_hannah-guynmart_hannah_110)
     - branch 2 *(if reached stage 70 of [Roses](../quests/guynmart.md#stage-70))* → [guynmart_hannah_12](#d-guynmart_hannah-guynmart_hannah_12)
@@ -97,7 +97,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I will not disappoint you.” → [guynmart_hannah_150](#d-guynmart_hannah-guynmart_hannah_150)
     - “No, I do not feel like running back and forth.” → *conversation ends*
 
-    <span id="d-guynmart_hannah-guynmart_hannah_150"></span>**`guynmart_hannah_150`** Hannah: “So take this flute and take good care of it.” — **effects:** sets stage 100 of [Roses](../quests/guynmart.md#stage-100), gives 1× [Lovis' Flute](../items/guynmart_flute.md), sets stage 1 of [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1), removes monsters from guynmart_main_3, spawns monsters on guynmart_tower_3
+    <span id="d-guynmart_hannah-guynmart_hannah_150"></span>**`guynmart_hannah_150`** Hannah: “So take this flute and take good care of it.” — **effects:** sets stage 100 of [Roses](../quests/guynmart.md#stage-100), gives 1× [Lovis' Flute](../items/guynmart_flute.md), sets stage 1 of [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1), removes monsters from guynmart_main_3, spawns monsters on guynmart_tower_3
 
     - “I will.” → *conversation ends*
 
@@ -143,23 +143,23 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_hannah2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
-| [guynmart_main_2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 190, 200, 210, 211
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hannah. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah2_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -167,7 +167,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (46 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_hannah2-guynmart_hannah2_10"></span>**`guynmart_hannah2_10`** *(silent check: the first matching branch below is taken)*
 
@@ -200,7 +200,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_hannah2-guynmart_lovis2_40"></span>**`guynmart_lovis2_40`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_hannah2-guynmart_lovis2_50)
+    - branch 1 *(if reached stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_hannah2-guynmart_lovis2_50)
     - branch 2 → [guynmart_lovis2_70](#d-guynmart_hannah2-guynmart_lovis2_70)
 
     <span id="d-guynmart_hannah2-guynmart_hannah2_34"></span>**`guynmart_hannah2_34`** [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2): “And Lovis and I are finally married. In spite of the cruel events, or just to forget them a little, we celebrated a joyous feast.”
@@ -213,7 +213,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_hannah2-guynmart_lovis2_70"></span>**`guynmart_lovis2_70`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_hannah2-guynmart_lovis2_200)
+    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_hannah2-guynmart_lovis2_200)
     - branch 2 → [guynmart_lovis2_100](#d-guynmart_hannah2-guynmart_lovis2_100)
 
     <span id="d-guynmart_hannah2-guynmart_hannah2_40"></span>**`guynmart_hannah2_40`** [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2): “If it wasn't for you, Guynmart castle would look different today: dark and gloomy and no place you would want to live.”
@@ -252,7 +252,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 181 of [Roses](../quests/guynmart.md#stage-181))* → [guynmart_lovis2_220b](#d-guynmart_hannah2-guynmart_lovis2_220b)
     - branch 2 → [guynmart_lovis2_220a](#d-guynmart_hannah2-guynmart_lovis2_220a)
 
-    <span id="d-guynmart_hannah2-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Hannah: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
+    <span id="d-guynmart_hannah2-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Hannah: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
 
     - “Oh! I can't believe it! Is it really true?” → [guynmart_lovis2_70](#d-guynmart_hannah2-guynmart_lovis2_70)
 
@@ -370,7 +370,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “No, sorry, I didn't mean it.” → [guynmart_lovis2_220](#d-guynmart_hannah2-guynmart_lovis2_220)
     - “I will go. Bye.” → [guynmart_lovis2_240](#d-guynmart_hannah2-guynmart_lovis2_240)
 
-    <span id="d-guynmart_hannah2-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Hannah: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
+    <span id="d-guynmart_hannah2-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Hannah: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
 
     - “I am relieved.” → [guynmart_lovis2_100](#d-guynmart_hannah2-guynmart_lovis2_100)
 
@@ -378,10 +378,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK.” → *conversation ends*
 
-    <span id="d-guynmart_hannah2-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
+    <span id="d-guynmart_hannah2-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
 
 
-    <span id="d-guynmart_hannah2-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
+    <span id="d-guynmart_hannah2-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
 
 
 
@@ -427,18 +427,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_hannah3` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3)
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 70, 90, 100
 - [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md): stage 7
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 34
-- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
+- [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 34
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hannah. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

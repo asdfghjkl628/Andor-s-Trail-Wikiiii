@@ -1,10 +1,10 @@
 ---
-description: "Shadow gargoyle trainer is an enemy in Andor's Trail (undead) with 35 HP, worth 102 XP, found in gargoylecave2, gargoylecave3, gargoylecave4. Drops: Gold coins, Ruby gem, Polished gem, Regular potion of health."
+description: "Shadow gargoyle trainer is an enemy in Andor's Trail (undead) with 35 HP, worth 102 XP, found in Gargoylecave 2, Gargoylecave 3, Gargoylecave 4. Drops: Gold coins, Ruby gem, Polished gem, Regular potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Shadow gargoyle trainer
 
-**Found in:** [gargoylecave2](../maps/gargoylecave2.md), [gargoylecave3](../maps/gargoylecave3.md), [gargoylecave4](../maps/gargoylecave4.md)
+**Found in:** [Gargoylecave 2](../maps/gargoylecave2.md), [Gargoylecave 3](../maps/gargoylecave3.md), [Gargoylecave 4](../maps/gargoylecave4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Shadow gargoyle trainer is an enemy in Andor's Trail (undead) with
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gargoylecave2, gargoylecave3, gargoylecave4 |
+| **Found in** | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
 | **Class** | Undead |
 | **HP** | 35 |
 | **XP when defeated** | 102 |
@@ -59,9 +59,9 @@ description: "Shadow gargoyle trainer is an enemy in Andor's Trail (undead) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gargoylecave2](../maps/gargoylecave2.md) | – | 5 | – |
-| [gargoylecave3](../maps/gargoylecave3.md) | – | 3 | – |
-| [gargoylecave4](../maps/gargoylecave4.md) | – | 1 | – |
+| [Gargoylecave 2](../maps/gargoylecave2.md) | – | 5 | – |
+| [Gargoylecave 3](../maps/gargoylecave3.md) | – | 3 | – |
+| [Gargoylecave 4](../maps/gargoylecave4.md) | – | 1 | – |
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "Bwmfill5 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Slithering venomfang, Young white wyrm, Mountain wolf, White wyrm, Young gornaud. Exits to Bwmfill3, Bwmfill6, Bwmfill4."
+description: "Bwmfill 5 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Slithering venomfang, Young white wyrm, Mountain wolf, White wyrm, Young gornaud. Exits to Bwmfill 3, Bwmfill 6, Bwmfill 4."
 ---
 
-# Bwmfill5
+# Bwmfill 5
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Bwmfill5 is an outdoor location in Andor's Trail, in Blackwater Mo
 | **Region** | In Blackwater Mountain (other) |
 | **Type** | Outdoors |
 | **Size** | 22×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.10](../versions/0.8.10.md) |
 | **Enemy types** | 7 |
 | **Quests** | 0 |
 
 </div>
 
-**Bwmfill5** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 7 kinds of enemy. Exits lead to Bwmfill3, Bwmfill6, Bwmfill4.
+**Bwmfill 5** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 7 kinds of enemy. Exits lead to Bwmfill 3, Bwmfill 6, Bwmfill 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bwmfill5.webp" alt="Map of Bwmfill5" width="704" height="640" loading="lazy"><a id="place-north1" class="mo mo-mapchange" href="../bwmfill3/#place-south2" title="Exit to Bwmfill3" style="left:0.000%;top:0.000%;width:95.455%;height:5.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../bwmfill6/#place-west1" title="Exit to Bwmfill6" style="left:95.455%;top:0.000%;width:4.545%;height:55.000%"></a><a id="place-east2" class="mo mo-mapchange" href="../bwmfill6/#place-west2" title="Exit to Bwmfill6" style="left:95.455%;top:80.000%;width:4.545%;height:10.000%"></a><a id="place-west1" class="mo mo-mapchange" href="../bwmfill4/#place-east1" title="Exit to Bwmfill4" style="left:0.000%;top:30.000%;width:4.545%;height:25.000%"></a><a id="place-west2" class="mo mo-mapchange" href="../bwmfill4/#place-east2" title="Exit to Bwmfill4" style="left:0.000%;top:65.000%;width:4.545%;height:25.000%"></a><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:27.273%;top:20.000%;width:45.455%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf" style="left:13.636%;top:10.000%;width:22.727%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf" style="left:77.273%;top:10.000%;width:13.636%;height:45.000%"></span><span class="mo mo-spawn" title="Spawns: Aulaeth, Young white wyrm" style="left:22.727%;top:70.000%;width:4.545%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Strong aulaeth, White wyrm" style="left:50.000%;top:75.000%;width:31.818%;height:10.000%"></span><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:50.000%;top:40.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:31.818%;top:25.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:18.182%;top:15.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:77.273%;top:10.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:86.364%;top:15.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/aulaeth/" title="Aulaeth" style="left:22.727%;top:70.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_58.png" alt="Aulaeth"></a><a class="mob" href="../../monsters/white_wyrm/" title="White wyrm" style="left:50.000%;top:75.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_119.png" alt="White wyrm"></a><a class="pin pin-exit" href="#key-1" style="left:47.727%;top:2.500%" title="Exit (north): to [Bwmfill3](bwmfill3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:27.500%" title="Exit (east): to [Bwmfill6](bwmfill6.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:85.000%" title="Exit (east): to [Bwmfill6](bwmfill6.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:42.500%" title="Exit (west): to [Bwmfill4](bwmfill4.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:77.500%" title="Exit (west): to [Bwmfill4](bwmfill4.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bwmfill5.webp" alt="Map of Bwmfill 5" width="704" height="640" loading="lazy"><a id="place-north1" class="mo mo-mapchange" href="../bwmfill3/#place-south2" title="Exit to Bwmfill 3" style="left:0.000%;top:0.000%;width:95.455%;height:5.000%"></a><a id="place-east1" class="mo mo-mapchange" href="../bwmfill6/#place-west1" title="Exit to Bwmfill 6" style="left:95.455%;top:0.000%;width:4.545%;height:55.000%"></a><a id="place-east2" class="mo mo-mapchange" href="../bwmfill6/#place-west2" title="Exit to Bwmfill 6" style="left:95.455%;top:80.000%;width:4.545%;height:10.000%"></a><a id="place-west1" class="mo mo-mapchange" href="../bwmfill4/#place-east1" title="Exit to Bwmfill 4" style="left:0.000%;top:30.000%;width:4.545%;height:25.000%"></a><a id="place-west2" class="mo mo-mapchange" href="../bwmfill4/#place-east2" title="Exit to Bwmfill 4" style="left:0.000%;top:65.000%;width:4.545%;height:25.000%"></a><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:27.273%;top:20.000%;width:45.455%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf" style="left:13.636%;top:10.000%;width:22.727%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Mountain wolf" style="left:77.273%;top:10.000%;width:13.636%;height:45.000%"></span><span class="mo mo-spawn" title="Spawns: Aulaeth, Young white wyrm" style="left:22.727%;top:70.000%;width:4.545%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Strong aulaeth, White wyrm" style="left:50.000%;top:75.000%;width:31.818%;height:10.000%"></span><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:50.000%;top:40.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:31.818%;top:25.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:18.182%;top:15.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:77.273%;top:10.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/mountain_wolf/" title="Mountain wolf" style="left:86.364%;top:15.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_109.png" alt="Mountain wolf"></a><a class="mob" href="../../monsters/aulaeth/" title="Aulaeth" style="left:22.727%;top:70.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_58.png" alt="Aulaeth"></a><a class="mob" href="../../monsters/white_wyrm/" title="White wyrm" style="left:50.000%;top:75.000%;width:4.545%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_119.png" alt="White wyrm"></a><a class="pin pin-exit" href="#key-1" style="left:47.727%;top:2.500%" title="Exit (north): to [Bwmfill 3](bwmfill3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:27.500%" title="Exit (east): to [Bwmfill 6](bwmfill6.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:85.000%" title="Exit (east): to [Bwmfill 6](bwmfill6.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:42.500%" title="Exit (west): to [Bwmfill 4](bwmfill4.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:77.500%" title="Exit (west): to [Bwmfill 4](bwmfill4.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Bwmfill3](bwmfill3.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Bwmfill6](bwmfill6.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Bwmfill4](bwmfill4.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Bwmfill 3](bwmfill3.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Bwmfill 6](bwmfill6.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Bwmfill 4](bwmfill4.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Bwmfill5 is an outdoor location in Andor's Trail, in Blackwater Mo
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Bwmfill3](bwmfill3.md) | Blackwater Mountain | 1 |
-| East | [Bwmfill6](bwmfill6.md) | Blackwater Mountain | 2 |
-| West | [Bwmfill4](bwmfill4.md) | Blackwater Mountain | 3 |
+| North | [Bwmfill 3](bwmfill3.md) | Blackwater Mountain | 1 |
+| East | [Bwmfill 6](bwmfill6.md) | Blackwater Mountain | 2 |
+| West | [Bwmfill 4](bwmfill4.md) | Blackwater Mountain | 3 |
 
 ## Enemies
 

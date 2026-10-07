@@ -48,7 +48,7 @@ description: "Superior stiletto is a ordinary dagger in Andor's Trail (Attack da
 
 ### Found in containers
 
-- [galmore_37](../maps/galmore_37.md#container-0) (container 1, 100%)
+- [Galmore 37](../maps/galmore_37.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

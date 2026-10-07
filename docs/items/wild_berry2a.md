@@ -34,7 +34,7 @@ description: "Especially sweet ice berries is a ordinary food in Andor's Trail. 
 
 ### Quest & dialogue rewards
 
-- From [Ice berries](../monsters/wild_berry2.md) ([blackwater_mountain32](../maps/blackwater_mountain32.md)) (1×)
+- From [Ice berries](../monsters/wild_berry2.md) ([Blackwater mountain 32](../maps/blackwater_mountain32.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

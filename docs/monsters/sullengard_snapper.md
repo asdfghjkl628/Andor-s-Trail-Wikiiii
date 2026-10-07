@@ -4,7 +4,7 @@ description: "Sullengard snapper is an NPC who can also be fought in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_tometik3_69.png){ .sprite } Sullengard snapper
 
-**Where to find Sullengard snapper:** Sullengard: [sullengard5](../maps/sullengard5.md#pin-npc-sullengard_snapper), Sullengard: [sullengard_pond](../maps/sullengard_pond.md#pin-npc-sullengard_snapper), [sullengard_pond_east](../maps/sullengard_pond_east.md#pin-npc-sullengard_snapper), [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md#pin-npc-sullengard_snapper) (+1 more)
+**Where to find Sullengard snapper:** Sullengard: [Sullengard 5](../maps/sullengard5.md#pin-npc-sullengard_snapper), Sullengard: [Sullengard pond](../maps/sullengard_pond.md#pin-npc-sullengard_snapper), [Sullengard pond east](../maps/sullengard_pond_east.md#pin-npc-sullengard_snapper), [Way to sullengard east 10](../maps/way_to_sullengard_east10.md#pin-npc-sullengard_snapper) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -60,19 +60,19 @@ description: "Sullengard snapper is an NPC who can also be fought in Andor's Tra
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard5](../maps/sullengard5.md) | Sullengard | 2 | – |
-| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 9 | – |
-| [sullengard_pond_east](../maps/sullengard_pond_east.md) | – | 2 | – |
-| [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md) | – | 4 | – |
-| [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md) | – | 9 | – |
+| [Sullengard 5](../maps/sullengard5.md) | Sullengard | 2 | – |
+| [Sullengard pond](../maps/sullengard_pond.md) | Sullengard | 9 | – |
+| [Sullengard pond east](../maps/sullengard_pond_east.md) | – | 2 | – |
+| [Way to sullengard east 10](../maps/way_to_sullengard_east10.md) | – | 4 | – |
+| [Way to sullengard pond road](../maps/way_to_sullengard_pond_road.md) | – | 9 | – |
 
 ## Quests that count defeats
 
-- [Pond safety](../quests/sullengard_pond_safety.md#stage-30) with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) checks that at least 26 of these enemies have been defeated.
+- [Pond safety](../quests/sullengard_pond_safety.md#stage-30) with [Nanette](../monsters/sullengard_nanette.md) ([Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md)) checks that at least 26 of these enemies have been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sullengard snapper. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sullengard snapper. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_snapper_00.json" data-npc="Sullengard snapper" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -80,7 +80,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_snapper_00"></span>**`sullengard_snapper_00`** *(silent check: the first matching branch below is taken)*
 

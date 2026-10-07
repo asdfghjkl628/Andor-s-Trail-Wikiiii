@@ -1,10 +1,10 @@
 ---
-description: "Tough mountain brute is an enemy in Andor's Trail (giant) with 126 HP, worth 248 XP, found in mountainlake8, mountainlake8_cave. Drops: Bone, Mundane ring."
+description: "Tough mountain brute is an enemy in Andor's Trail (giant) with 126 HP, worth 248 XP, found in Mountainlake 8, Mountainlake 8 cave. Drops: Bone, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_33.png){ .sprite } Tough mountain brute
 
-**Found in:** [mountainlake8](../maps/mountainlake8.md), [mountainlake8_cave](../maps/mountainlake8_cave.md)
+**Found in:** [Mountainlake 8](../maps/mountainlake8.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough mountain brute is an enemy in Andor's Trail (giant) with 126
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake8, mountainlake8_cave |
+| **Found in** | Mountainlake 8, Mountainlake 8 cave |
 | **Class** | Giant |
 | **HP** | 126 |
 | **XP when defeated** | 248 |
@@ -55,8 +55,8 @@ description: "Tough mountain brute is an enemy in Andor's Trail (giant) with 126
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake8](../maps/mountainlake8.md) | – | 4 | – |
-| [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 4 | – |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 4 | – |
+| [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 4 | – |
 
 
 ## Version history

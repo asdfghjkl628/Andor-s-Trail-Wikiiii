@@ -54,8 +54,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my superior leather boots.” |
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my superior leather boots.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my superior leather boots.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my superior leather boots.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

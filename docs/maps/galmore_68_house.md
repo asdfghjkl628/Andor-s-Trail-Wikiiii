@@ -1,5 +1,5 @@
 ---
-description: "Galmore 68 house is an indoor location in Andor's Trail, in Mt. Galmore (other). Exits to Galmore 68, Mt galmore south-west tower f1."
+description: "Galmore 68 house is an indoor location in Andor's Trail, in Mt. Galmore (other). Exits to Galmore 68, Mt galmore south-west tower f 1."
 ---
 
 # Galmore 68 house
@@ -17,20 +17,20 @@ description: "Galmore 68 house is an indoor location in Andor's Trail, in Mt. Ga
 
 </div>
 
-**Galmore 68 house** is an indoor map, in Mt. Galmore (other). It has no NPCs, and no enemies. Exits lead to Galmore 68, Mt galmore south-west tower f1.
+**Galmore 68 house** is an indoor map, in Mt. Galmore (other). It has no NPCs, and no enemies. Exits lead to Galmore 68, Mt galmore south-west tower f 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_68_house.webp" alt="Map of Galmore 68 house" width="608" height="384" loading="lazy"><a id="place-inside" class="mo mo-mapchange" href="../galmore_68/#place-outside" title="Exit to Galmore 68" style="left:52.632%;top:91.667%;width:5.263%;height:8.333%"></a><a id="place-tower" class="mo mo-mapchange" href="../mt_galmore_sw_tower_f1/#place-exit" title="Exit to Mt galmore south-west tower f1" style="left:0.000%;top:58.333%;width:5.263%;height:8.333%"></a><a class="pin pin-exit" href="#key-1" style="left:55.263%;top:95.833%" title="Exit (south): to [Galmore 68](galmore_68.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.632%;top:62.500%" title="Exit (west): to [Mt galmore south-west tower f1](mt_galmore_sw_tower_f1.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_68_house.webp" alt="Map of Galmore 68 house" width="608" height="384" loading="lazy"><a id="place-inside" class="mo mo-mapchange" href="../galmore_68/#place-outside" title="Exit to Galmore 68" style="left:52.632%;top:91.667%;width:5.263%;height:8.333%"></a><a id="place-tower" class="mo mo-mapchange" href="../mt_galmore_sw_tower_f1/#place-exit" title="Exit to Mt galmore south-west tower f 1" style="left:0.000%;top:58.333%;width:5.263%;height:8.333%"></a><a class="pin pin-exit" href="#key-1" style="left:55.263%;top:95.833%" title="Exit (south): to [Galmore 68](galmore_68.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.632%;top:62.500%" title="Exit (west): to [Mt galmore south-west tower f 1](mt_galmore_sw_tower_f1.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
     | <span id="key-1"></span>1 | Exit (south) | to [Galmore 68](galmore_68.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Mt galmore south-west tower f1](mt_galmore_sw_tower_f1.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Mt galmore south-west tower f 1](mt_galmore_sw_tower_f1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,7 +40,7 @@ description: "Galmore 68 house is an indoor location in Andor's Trail, in Mt. Ga
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
 | South | [Galmore 68](galmore_68.md) | Mt. Galmore | 1 |
-| West | [Mt galmore south-west tower f1](mt_galmore_sw_tower_f1.md) | Mt. Galmore | 2 |
+| West | [Mt galmore south-west tower f 1](mt_galmore_sw_tower_f1.md) | Mt. Galmore | 2 |
 
 
 ## Version history

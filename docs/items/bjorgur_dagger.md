@@ -41,7 +41,7 @@ description: "Bjorgur's family dagger is a quest dagger in Andor's Trail (Attack
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
+| [Graverobber](../monsters/graverobber.md) | 100% | 1 | Blackwater mountain 35 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -52,8 +52,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| reading a sign on [blackwater_mountain35](../maps/blackwater_mountain35.md) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-40) | handed over (1×) | “Place the dagger back into its original place.” |
-| [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-60) | handed over (1×) | “Yes. Here it is.” |
+| reading a sign on [Blackwater mountain 35](../maps/blackwater_mountain35.md) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-40) | handed over (1×) | “Place the dagger back into its original place.” |
+| [Fulus](../monsters/fulus.md) ([Blackwater mountain 28](../maps/blackwater_mountain28.md)) | [Awoken from slumber](../quests/bjorgur_grave.md#stage-60) | handed over (1×) | “Yes. Here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

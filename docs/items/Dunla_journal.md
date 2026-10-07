@@ -25,7 +25,7 @@ description: "Dunla's Journal is a quest other in Andor's Trail. How to get it: 
 
 ### Quest & dialogue rewards
 
-- From [Dunla](../monsters/dunla.md) ([vilegard_tavern](../maps/vilegard_tavern.md)) during [Thief apprentice](../quests/Thieves01.md#stage-30) (1×)
+- From [Dunla](../monsters/dunla.md) ([Vilegard tavern](../maps/vilegard_tavern.md)) during [Thief apprentice](../quests/Thieves01.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100) | handed over (1×) | “I've brought all the journals.” |
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100) | handed over (1×) | “I have the journals, but one of your spies, Fanamor, was killed by a Feygard sco” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-100) | handed over (1×) | “I've brought all the journals.” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-100) | handed over (1×) | “I have the journals, but one of your spies, Fanamor, was killed by a Feygard sco” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -18,27 +18,27 @@ description: "Drinking brother is a non-player character (NPC) in Andor's Trail,
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Drinking brother. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Drinking brother. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`sullengard_drinking_brother`](#v-sullengard_drinking_brother) | NPC | Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother) | – |
-| [`sullengard_drinking_brother2`](#v-sullengard_drinking_brother2) | NPC | Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2) | – |
-| [`sullengard_drinking_brother3`](#v-sullengard_drinking_brother3) | NPC | Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3) | – |
+| [`sullengard_drinking_brother`](#v-sullengard_drinking_brother) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother) | – |
+| [`sullengard_drinking_brother2`](#v-sullengard_drinking_brother2) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2) | – |
+| [`sullengard_drinking_brother3`](#v-sullengard_drinking_brother3) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3) | – |
 
 ## Sullengard, Sullengard tavern (sullengard_drinking_brother) { #v-sullengard_drinking_brother }
 
 **Entry ID:** `sullengard_drinking_brother` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother)
+**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother)
 
 ### Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 23
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drinking brother. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,13 +46,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_drinking_brother-sullengard_drinking_brother_0"></span>**`sullengard_drinking_brother_0`** Drinking brother: “Hey there kid. Us three here are brothers from Stoutford, but we travel all the way here for the vast greatness of brews! [burp]”
 
-    - “Stoutford? Where's that?” *(if NOT reached stage 4 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-4))* → [sullengard_drinking_brother_10](#d-sullengard_drinking_brother-sullengard_drinking_brother_10)
+    - “Stoutford? Where's that?” *(if NOT reached stage 4 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-4))* → [sullengard_drinking_brother_10](#d-sullengard_drinking_brother-sullengard_drinking_brother_10)
     - “I'm looking for my my brother Andor. He looks a lot like me, but he is older. Have you seen him?” → [sullengard_drinking_brother_20](#d-sullengard_drinking_brother-sullengard_drinking_brother_20)
-    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if NOT reached stage 23 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-23); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_drinking_brother_30](#d-sullengard_drinking_brother-sullengard_drinking_brother_30)
+    - “I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?” *(if NOT reached stage 23 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-23); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_drinking_brother_30](#d-sullengard_drinking_brother-sullengard_drinking_brother_30)
 
     <span id="d-sullengard_drinking_brother-sullengard_drinking_brother_10"></span>**`sullengard_drinking_brother_10`** Drinking brother: “Oh, you know nothing. I feel sorry for you.”
 
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-sullengard_drinking_brother-sullengard_drinking_brother_20"></span>**`sullengard_drinking_brother_20`** Drinking brother: “Nope. Sorry kid.”
 
 
-    <span id="d-sullengard_drinking_brother-sullengard_drinking_brother_30"></span>**`sullengard_drinking_brother_30`** Drinking brother: “Are you kidding? We are always in here enjoying ourselves. So unless the crime happened in here, I've not seen it.” — **effects:** sets stage 23 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-23)
+    <span id="d-sullengard_drinking_brother-sullengard_drinking_brother_30"></span>**`sullengard_drinking_brother_30`** Drinking brother: “Are you kidding? We are always in here enjoying ourselves. So unless the crime happened in here, I've not seen it.” — **effects:** sets stage 23 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-23)
 
     - “Thanks.” → *conversation ends*
 
@@ -107,15 +107,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `sullengard_drinking_brother2` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2)
+**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2)
 
 ### Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 23
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drinking brother. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -165,15 +165,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `sullengard_drinking_brother3` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3)
+**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3)
 
 ### Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 23
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drinking brother. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

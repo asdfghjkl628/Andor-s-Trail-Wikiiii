@@ -27,7 +27,7 @@ description: "Circe's Necklace is a extraordinary necklace in Andor's Trail. How
 
 ### Found in containers
 
-- [mountainlake_sub](../maps/mountainlake_sub.md#container-1) (container 2, 100%)
+- [Mountainlake sub](../maps/mountainlake_sub.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

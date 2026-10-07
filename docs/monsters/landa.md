@@ -4,7 +4,7 @@ description: "Landa is a non-player character (NPC) in Andor's Trail, found in L
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Landa
 
-**Where to find Landa:** Loneford: [loneford6](../maps/loneford6.md#pin-npc-landa)
+**Where to find Landa:** Loneford: [Loneford 6](../maps/loneford6.md#pin-npc-landa)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Landa is a non-player character (NPC) in Andor's Trail, found in L
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Landa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Landa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/landa.json" data-npc="Landa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-landa"></span>**`landa`** *(silent check: the first matching branch below is taken)*
 
@@ -128,7 +128,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(Landa gives you a terrified look)” → “[Landa gives you a terrified look]”<br>· text: “Or was it you? No, it looked like you, and I have a good memory! *bit…” → “Or was it you? No, it looked like you, and I have a good memory! [Bit…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Or was it you? No, it looked like you, and I have a good memory! *bit…” → “Or was it you? No, it looked like you, and I have a good memory! [Bit…”<br>· text: “Now, get out of here kid, before anyone sees you talking to me. *Look…” → “Now, get out of here kid, before anyone sees you talking to me. [Look…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Also, isn't it strange how Buceth has not gotten ill, while all the o…” → “Also, isn't it strange how Buceth has not gotten ill, while all the o…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

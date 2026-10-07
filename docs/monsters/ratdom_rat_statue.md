@@ -4,7 +4,7 @@ description: "Andor's statue is an NPC who can also be fought in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } Andor's statue
 
-**Where to find Andor's statue:** Crossglen: [crossglen_cave](../maps/crossglen_cave.md#pin-npc-ratdom_rat_statue)
+**Where to find Andor's statue:** Crossglen: [Crossglen cave](../maps/crossglen_cave.md#pin-npc-ratdom_rat_statue)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Andor's statue is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen_cave](../maps/crossglen_cave.md) | Crossglen | 1 | Appears later, during a quest |
+| [Crossglen cave](../maps/crossglen_cave.md) | Crossglen | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -65,7 +65,7 @@ description: "Andor's statue is an NPC who can also be fought in Andor's Trail, 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Andor's statue. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Andor's statue. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat_statue.json" data-npc="Andor&#x27;s statue" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat_statue"></span>**`ratdom_rat_statue`** *(silent check: the first matching branch below is taken)*
 

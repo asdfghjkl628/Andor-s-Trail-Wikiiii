@@ -22,19 +22,19 @@ description: "Feygard scout is an NPC who can also be fought in Andor's Trail, f
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Feygard scout. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Feygard scout. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`feygard_scout`](#v-feygard_scout) | NPC/Enemy | Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-feygard_scout) | – | 83 |
-| [`ortholion_guard2`](#v-ortholion_guard2) | NPC | Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2) | – | – |
-| [`ortholion_guard6`](#v-ortholion_guard6) | NPC | Prim: [blackwater_mountain10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6) | shopkeeper | – |
+| [`feygard_scout`](#v-feygard_scout) | NPC/Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout) | – | 83 |
+| [`ortholion_guard2`](#v-ortholion_guard2) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2) | – | – |
+| [`ortholion_guard6`](#v-ortholion_guard6) | NPC | Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6) | shopkeeper | – |
 
 ## Crossroads Guardhouse, Crossroads (feygard_scout) { #v-feygard_scout }
 
 **Entry ID:** `feygard_scout` · **Type:** NPC/Enemy
 
-**Location:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-feygard_scout)
+**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -73,11 +73,11 @@ description: "Feygard scout is an NPC who can also be fought in Andor's Trail, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- A conversation with [Fanamor](../monsters/fanamor.md) ([crossroads](../maps/crossroads.md)) checks that this enemy has been defeated.
+- A conversation with [Fanamor](../monsters/fanamor.md) ([Crossroads](../maps/crossroads.md)) checks that this enemy has been defeated.
 
 ### Quests
 
@@ -85,7 +85,7 @@ description: "Feygard scout is an NPC who can also be fought in Andor's Trail, f
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/feygard_scout_3.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -93,7 +93,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-feygard_scout-feygard_scout_3"></span>**`feygard_scout_3`** [Feygard scout](../monsters/feygard_scout.md): “(Grabs the book) What have we here? A lost kid trying to do business with this scum, hah? You are under arrest!” — **effects:** sets stage 40 of [Thief apprentice](../quests/Thieves01.md#stage-40)
 
@@ -155,15 +155,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain29 (ortholion_guard2) { #v-ortholion_guard2 }
+## Prim, Blackwater mountain 29 (ortholion_guard2) { #v-ortholion_guard2 }
 
 **Entry ID:** `ortholion_guard2` · **Type:** NPC
 
-**Location:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2)
+**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard6_1.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -171,7 +171,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard2-ortholion_guard6_1"></span>**`ortholion_guard6_1`** Feygard scout: “*Looks nervous* Kid! Go back now, it's really dangerous past here.”
 
@@ -239,11 +239,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain10 (ortholion_guard6) { #v-ortholion_guard6 }
+## Prim, Blackwater mountain 10 (ortholion_guard6) { #v-ortholion_guard6 }
 
 **Entry ID:** `ortholion_guard6` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Prim: [blackwater_mountain10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6)
+**Location:** Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6)
 
 ### Shop stock
 
@@ -269,7 +269,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard_selector.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -277,7 +277,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (33 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard6-ortholion_guard_selector"></span>**`ortholion_guard_selector`** *(silent check: the first matching branch below is taken)*
 

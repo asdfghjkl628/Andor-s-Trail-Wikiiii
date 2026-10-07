@@ -1,10 +1,10 @@
 ---
-description: "Bryma is a non-player character (NPC) in Andor's Trail, found in brightport_forest."
+description: "Bryma is a non-player character (NPC) in Andor's Trail, found in Brightport forest."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Bryma
 
-**Where to find Bryma:** [brightport_forest](../maps/brightport_forest.md#pin-npc-brightportnpc7)
+**Where to find Bryma:** [Brightport forest](../maps/brightport_forest.md#pin-npc-brightportnpc7)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Bryma is a non-player character (NPC) in Andor's Trail, found in b
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brightport_forest |
+| **Found in** | Brightport forest |
 | **Entry ID** | `brightportnpc7` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
@@ -24,11 +24,11 @@ description: "Bryma is a non-player character (NPC) in Andor's Trail, found in b
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 86, 92, 95
 - [Search for Andor](../quests/andor.md): stage 132
 - [The balance of scales](../quests/brightport_lizard.md): stages 5, 10, 36, 50, 55, 100, 110
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 104, 105, 106, 107, 110, 111, 112, 221, 233, 257
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 104, 105, 106, 107, 110, 111, 112, 221, 233, 257
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bryma. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bryma. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_bryma_selector.json" data-npc="Bryma" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,13 +36,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (67 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_bryma_selector"></span>**`brightport_bryma_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112))* → [brightport_bryma38](#d-brightport_bryma38)
-    - Next *(if reached stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112))* → [brightport_bryma50](#d-brightport_bryma50)
-    - Next *(if reached stage 104 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-104))* → [brightport_bryma6_alt](#d-brightport_bryma6_alt)
+    - Next *(if reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10); NOT reached stage 112 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112))* → [brightport_bryma38](#d-brightport_bryma38)
+    - Next *(if reached stage 112 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112))* → [brightport_bryma50](#d-brightport_bryma50)
+    - Next *(if reached stage 104 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-104))* → [brightport_bryma6_alt](#d-brightport_bryma6_alt)
     - Next → [brightport_bryma](#d-brightport_bryma)
 
     <span id="d-brightport_bryma38"></span>**`brightport_bryma38`** Bryma: “Have you had any success with the creatures?”
@@ -88,34 +88,34 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_bryma14"></span>**`brightport_bryma14`** Bryma: “Sure, what do you want to know?”
 
-    - “Can you tell me about Andor again?” *(if reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105); reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma13](#d-brightport_bryma13)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
     - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
-    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma22](#d-brightport_bryma22)
-    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
+    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma22](#d-brightport_bryma22)
+    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
 
     <span id="d-brightport_bryma6"></span>**`brightport_bryma6`** Bryma: “You're back again? The forest isn't as quiet as it used to be.”
 
     - “I saw a strange creature in the cave under your house. It didn't stick around though.” *(if reached stage 1 of [The balance of scales](../quests/brightport_lizard.md#stage-1); NOT reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10))* → [brightport_bryma39](#d-brightport_bryma39)
-    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
     - “I'm curious, how did that scroll reach you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
-    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 107 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-107); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106))* → [brightport_bryma22](#d-brightport_bryma22)
-    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
+    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 107 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-107); NOT reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 106 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-106))* → [brightport_bryma22](#d-brightport_bryma22)
+    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
 
     <span id="d-brightport_bryma_alternative_greeting"></span>**`brightport_bryma_alternative_greeting`** Bryma: “Hello, I am most happy to have someone to talk with.”
 
     - “I saw a strange creature in the cave under your house. It didn't stick around though.” *(if reached stage 1 of [The balance of scales](../quests/brightport_lizard.md#stage-1); NOT reached stage 10 of [The balance of scales](../quests/brightport_lizard.md#stage-10))* → [brightport_bryma39](#d-brightport_bryma39)
-    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
-    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me more about what you know of my brother Andor?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); NOT reached stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
+    - “Can you tell me about Andor again?” *(if reached stage 132 of [Search for Andor](../quests/andor.md#stage-132); reached stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105))* → [brightport_bryma13](#d-brightport_bryma13)
     - “I'm curious, how did that scroll get to you?” *(if NOT reached stage 132 of [Search for Andor](../quests/andor.md#stage-132))* → [brightport_bryma8](#d-brightport_bryma8)
     - “What's with that statue at the entrance of the forest?” → [brightport_bryma37](#d-brightport_bryma37)
     - “Why do you live here in the forest?” → [brightport_bryma15](#d-brightport_bryma15)
-    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 107 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-107))* → [brightport_bryma22](#d-brightport_bryma22)
-    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
+    - “You mentioned your bonemeal research, what can you tell me about the potion?” *(if reached stage 106 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-106); NOT reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111); reached stage 107 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-107))* → [brightport_bryma22](#d-brightport_bryma22)
+    - “Can you tell me about your bonemeal theory again?” *(if reached stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111))* → [brightport_bryma31](#d-brightport_bryma31)
 
     <span id="d-brightport_bryma0"></span>**`brightport_bryma0`** Bryma: “It's an odd coincidence that the only two visitors I have had in years are asking the same question. You two could almost be twins.”
 
@@ -126,11 +126,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma0](#d-brightport_bryma0)
 
-    <span id="d-brightport_bryma47"></span>**`brightport_bryma47`** Bryma: “You've done a great job, $playername. I have little of value to offer, just these two special potions. I possess very few, so I can't give you more. Use them well.” — **effects:** sets stage 100 of [The balance of scales](../quests/brightport_lizard.md#stage-100), gives 2× [Essence concentrate potion](../items/brightport_bonemeal.md), sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112)
+    <span id="d-brightport_bryma47"></span>**`brightport_bryma47`** Bryma: “You've done a great job, $playername. I have little of value to offer, just these two special potions. I possess very few, so I can't give you more. Use them well.” — **effects:** sets stage 100 of [The balance of scales](../quests/brightport_lizard.md#stage-100), gives 2× [Essence concentrate potion](../items/brightport_bonemeal.md), sets stage 112 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112)
 
     - Next *(if reached stage 115 of [Destined for great things](../quests/charwood1.md#stage-115))* → [brightport_bryma48](#d-brightport_bryma48)
 
-    <span id="d-brightport_bryma53"></span>**`brightport_bryma53`** Bryma: “You're right. I can figure the rest out, $playername. I don't have much to offer, except one of my special potions. I have very few, so use it wisely.” — **effects:** gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md), sets stage 110 of [The balance of scales](../quests/brightport_lizard.md#stage-110), sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112)
+    <span id="d-brightport_bryma53"></span>**`brightport_bryma53`** Bryma: “You're right. I can figure the rest out, $playername. I don't have much to offer, except one of my special potions. I have very few, so use it wisely.” — **effects:** gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md), sets stage 110 of [The balance of scales](../quests/brightport_lizard.md#stage-110), sets stage 112 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112)
 
     - Next *(if reached stage 35 of [Destined for great things](../quests/charwood1.md#stage-35))* → [brightport_bryma48](#d-brightport_bryma48)
 
@@ -138,7 +138,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Fine.” → *conversation ends*
 
-    <span id="d-brightport_bryma_lizarddead"></span>**`brightport_bryma_lizarddead`** Bryma: “Good work $playername. Now I have access to as much bonemeal as I need. Please have these potions, including a special one.” — **effects:** sets stage 112 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-112), gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md), gives 6× [Bonemeal potion](../items/bonemeal_potion.md), sets stage 36 of [The balance of scales](../quests/brightport_lizard.md#stage-36)
+    <span id="d-brightport_bryma_lizarddead"></span>**`brightport_bryma_lizarddead`** Bryma: “Good work $playername. Now I have access to as much bonemeal as I need. Please have these potions, including a special one.” — **effects:** sets stage 112 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-112), gives 1× [Essence concentrate potion](../items/brightport_bonemeal.md), gives 6× [Bonemeal potion](../items/bonemeal_potion.md), sets stage 36 of [The balance of scales](../quests/brightport_lizard.md#stage-36)
 
     - Next *(if reached stage 115 of [Destined for great things](../quests/charwood1.md#stage-115))* → [brightport_bryma48](#d-brightport_bryma48)
 
@@ -195,7 +195,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma11](#d-brightport_bryma11)
 
-    <span id="d-brightport_bryma18"></span>**`brightport_bryma18`** Bryma: “The application of potions in baking, but primarily bonemeal potions. Their healing potency and various properties puzzled me for many years. I studied them with the great minds of Feygard and Nor City alike.” — **effects:** sets stage 106 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-106)
+    <span id="d-brightport_bryma18"></span>**`brightport_bryma18`** Bryma: “The application of potions in baking, but primarily bonemeal potions. Their healing potency and various properties puzzled me for many years. I studied them with the great minds of Feygard and Nor City alike.” — **effects:** sets stage 106 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-106)
 
     - “What do potions have to do with baking?” → [brightport_bryma21](#d-brightport_bryma21)
 
@@ -222,10 +222,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I'll see what I can do about those creatures.” → [brightport_bryma41](#d-brightport_bryma41)
 
-    <span id="d-brightport_bryma4"></span>**`brightport_bryma4`** Bryma: “Is that any way to speak to someone you just met? So rude! Here - have it. I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.” — **effects:** sets stage 95 of [No rest for the wicked](../quests/Stanwickquest.md#stage-95), gives 1× [Secret scroll](../items/brightport_scroll.md), sets stage 104 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-104)
+    <span id="d-brightport_bryma4"></span>**`brightport_bryma4`** Bryma: “Is that any way to speak to someone you just met? So rude! Here - have it. I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.” — **effects:** sets stage 95 of [No rest for the wicked](../quests/Stanwickquest.md#stage-95), gives 1× [Secret scroll](../items/brightport_scroll.md), sets stage 104 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-104)
 
 
-    <span id="d-brightport_bryma5"></span>**`brightport_bryma5`** Bryma: “It was never my intention to keep it, as it's not particularly useful to me. Here, take it.” — **effects:** sets stage 92 of [No rest for the wicked](../quests/Stanwickquest.md#stage-92), gives 1× [Secret scroll](../items/brightport_scroll.md), sets stage 104 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-104)
+    <span id="d-brightport_bryma5"></span>**`brightport_bryma5`** Bryma: “It was never my intention to keep it, as it's not particularly useful to me. Here, take it.” — **effects:** sets stage 92 of [No rest for the wicked](../quests/Stanwickquest.md#stage-92), gives 1× [Secret scroll](../items/brightport_scroll.md), sets stage 104 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-104)
 
     - “Thanks! I will make sure it's returned to its place.” → *conversation ends*
 
@@ -234,14 +234,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I was looking for that scroll, can I have it?” → [brightport_bryma5](#d-brightport_bryma5)
     - “You can give that scroll to me, or I can take it by force.” → [brightport_bryma4](#d-brightport_bryma4)
 
-    <span id="d-brightport_bryma49"></span>**`brightport_bryma49`** Bryma: “I later investigated and found another statue, the activation word for that specific one is "Elythara" I hope this information assists you well.” — **effects:** sets stage 233 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-233)
+    <span id="d-brightport_bryma49"></span>**`brightport_bryma49`** Bryma: “I later investigated and found another statue, the activation word for that specific one is "Elythara" I hope this information assists you well.” — **effects:** sets stage 233 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-233)
 
 
     <span id="d-brightport_bryma43"></span>**`brightport_bryma43`** Bryma: “No need to look at me like that, if those bones are gone just find more to replace them with.”
 
     - Next → [brightport_bryma44](#d-brightport_bryma44)
 
-    <span id="d-brightport_bryma11"></span>**`brightport_bryma11`** Bryma: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'last resort...'” — **effects:** sets stage 132 of [Search for Andor](../quests/andor.md#stage-132), sets stage 105 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-105)
+    <span id="d-brightport_bryma11"></span>**`brightport_bryma11`** Bryma: “I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'last resort...'” — **effects:** sets stage 132 of [Search for Andor](../quests/andor.md#stage-132), sets stage 105 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-105)
 
     - Next → [brightport_bryma12](#d-brightport_bryma12)
 
@@ -267,7 +267,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma26](#d-brightport_bryma26)
 
-    <span id="d-brightport_bryma25"></span>**`brightport_bryma25`** Bryma: “That is true, any ordinary tomb will do for some bones. And monsters are not an uncommon appearance in our day and age.” — **effects:** sets stage 110 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-110)
+    <span id="d-brightport_bryma25"></span>**`brightport_bryma25`** Bryma: “That is true, any ordinary tomb will do for some bones. And monsters are not an uncommon appearance in our day and age.” — **effects:** sets stage 110 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-110)
 
     - Next → [brightport_bryma26](#d-brightport_bryma26)
 
@@ -300,7 +300,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma35](#d-brightport_bryma35)
 
-    <span id="d-brightport_bryma52"></span>**`brightport_bryma52`** Bryma: “If you can pacify those creatures and they're truly capable of reason, see if you can come to an understanding. They could supply me with what I need.” — **effects:** sets stage 221 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-221)
+    <span id="d-brightport_bryma52"></span>**`brightport_bryma52`** Bryma: “If you can pacify those creatures and they're truly capable of reason, see if you can come to an understanding. They could supply me with what I need.” — **effects:** sets stage 221 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-221)
 
 
     <span id="d-brightport_bryma17"></span>**`brightport_bryma17`** Bryma: “I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. On a whim, I decided to mix a bonemeal potion into the process.”
@@ -315,11 +315,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma29](#d-brightport_bryma29)
 
-    <span id="d-brightport_bryma35"></span>**`brightport_bryma35`** Bryma: “This essence exists within every part of Dhayavar. The soil, the mountains, the creatures, and the people all hold it. The proof lies in the crystals that form inside monsters. These crystals are concentrated forms of essence. Bones are…” — **effects:** sets stage 111 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-111)
+    <span id="d-brightport_bryma35"></span>**`brightport_bryma35`** Bryma: “This essence exists within every part of Dhayavar. The soil, the mountains, the creatures, and the people all hold it. The proof lies in the crystals that form inside monsters. These crystals are concentrated forms of essence. Bones are…” — **effects:** sets stage 111 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-111)
 
     - Next → [brightport_bryma36](#d-brightport_bryma36)
 
-    <span id="d-brightport_bryma19"></span>**`brightport_bryma19`** Bryma: “To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It was very well received, and I was rewarded with a specially made bonemeal potion from his collection.” — **effects:** sets stage 257 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-257)
+    <span id="d-brightport_bryma19"></span>**`brightport_bryma19`** Bryma: “To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It was very well received, and I was rewarded with a specially made bonemeal potion from his collection.” — **effects:** sets stage 257 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-257)
 
     - Next → [brightport_bryma20](#d-brightport_bryma20)
 
@@ -331,7 +331,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_bryma51](#d-brightport_bryma51)
 
-    <span id="d-brightport_bryma20"></span>**`brightport_bryma20`** Bryma: “But the bread baked using that potion started mutating, much like what you can see in my kitchen. Soon afterward, my research was banned, and I had no choice but to leave if I wanted to continue my studies.” — **effects:** sets stage 107 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-107)
+    <span id="d-brightport_bryma20"></span>**`brightport_bryma20`** Bryma: “But the bread baked using that potion started mutating, much like what you can see in my kitchen. Soon afterward, my research was banned, and I had no choice but to leave if I wanted to continue my studies.” — **effects:** sets stage 107 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-107)
 
     - “Can I ask you something else?” → [brightport_bryma14](#d-brightport_bryma14)
     - “Thanks for telling me this story. I will be on my way.” → *conversation ends*

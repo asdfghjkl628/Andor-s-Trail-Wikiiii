@@ -4,7 +4,7 @@ description: "Tjure is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } Tjure
 
-**Where to find Tjure:** Blackwater Mountain: [blackwater_mountain54](../maps/blackwater_mountain54.md#pin-npc-tjure)
+**Where to find Tjure:** Blackwater Mountain: [Blackwater mountain 54](../maps/blackwater_mountain54.md#pin-npc-tjure)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Tjure is a non-player character (NPC) in Andor's Trail, found in B
 ## Quests
 
 - [The silver scale](../quests/mermaid_scale.md): stages 10, 20, 30, 90, 100
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 50
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 50
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tjure. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tjure. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tjure.json" data-npc="Tjure" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tjure"></span>**`tjure`** *(silent check: the first matching branch below is taken)*
 
@@ -86,7 +86,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Eh, sorry to disturb you.” → *conversation ends*
     - “I'm surprised to see you here as well. Did you order 'Mysterious green something'?” *(if hand over 1× [Mysterious green something](../items/brv_wh_item_05.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60))* → [brv_wh_delivery_tjure](#d-brv_wh_delivery_tjure)
 
-    <span id="d-brv_wh_delivery_tjure"></span>**`brv_wh_delivery_tjure`** Tjure: “What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck. Here's my delivery fee.” — **effects:** clears stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 50 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50), gives 50× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_tjure"></span>**`brv_wh_delivery_tjure`** Tjure: “What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck. Here's my delivery fee.” — **effects:** clears stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 50 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50), gives 50× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 

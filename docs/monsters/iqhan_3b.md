@@ -1,5 +1,5 @@
 ---
-description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 HP, worth 162–185 XP, found in pwcave1, pwcave2, pwcave3, pwcave2, pwcave2a, pwcave3. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
+description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 HP, worth 162–185 XP, found in Pwcave 1, Pwcave 2, Pwcave 3, Pwcave 2, Pwcave 2a, Pwcave 3. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_129.png){ .sprite } Iqhan master
@@ -11,7 +11,7 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave1, pwcave2, pwcave3, pwcave2, pwcave2a, pwcave3 |
+| **Found in** | Pwcave 1, Pwcave 2, Pwcave 3, Pwcave 2, Pwcave 2a, Pwcave 3 |
 | **Class** | Humanoid |
 | **HP** | 67–71 |
 | **XP when defeated** | 162–185 |
@@ -21,19 +21,19 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Iqhan master. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Iqhan master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`iqhan_3b`](#v-iqhan_3b) | Enemy | [pwcave1](../maps/pwcave1.md), [pwcave2](../maps/pwcave2.md) (+1 more) | – | 67 |
-| [`iqhan_4a`](#v-iqhan_4a) | Enemy | [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md) (+2 more) | – | 69 |
-| [`iqhan_4b`](#v-iqhan_4b) | Enemy | [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md) (+2 more) | – | 71 |
+| [`iqhan_3b`](#v-iqhan_3b) | Enemy | [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md) (+1 more) | – | 67 |
+| [`iqhan_4a`](#v-iqhan_4a) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 69 |
+| [`iqhan_4b`](#v-iqhan_4b) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 71 |
 
-## Pwcave1 and 2 more (iqhan_3b) { #v-iqhan_3b }
+## Pwcave 1 and 2 more (iqhan_3b) { #v-iqhan_3b }
 
 **Entry ID:** `iqhan_3b` · **Type:** Enemy
 
-**Location:** [pwcave1](../maps/pwcave1.md), [pwcave2](../maps/pwcave2.md), [pwcave3](../maps/pwcave3.md)
+**Location:** [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md), [Pwcave 3](../maps/pwcave3.md)
 
 ### Combat statistics
 
@@ -70,9 +70,9 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave1](../maps/pwcave1.md) | – | 1 | – |
-| [pwcave2](../maps/pwcave2.md) | – | 12 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 4 | – |
+| [Pwcave 1](../maps/pwcave1.md) | – | 1 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 12 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 4 | – |
 
 
 ### Version history
@@ -124,11 +124,11 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
     ```
 
 
-## Pwcave2 and 3 more (iqhan_4a) { #v-iqhan_4a }
+## Pwcave 2 and 3 more (iqhan_4a) { #v-iqhan_4a }
 
 **Entry ID:** `iqhan_4a` · **Type:** Enemy
 
-**Location:** [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -165,10 +165,10 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2](../maps/pwcave2.md) | – | 7 | – |
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 8 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history
@@ -220,11 +220,11 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
     ```
 
 
-## Pwcave2 and 3 more (iqhan_4b) { #v-iqhan_4b }
+## Pwcave 2 and 3 more (iqhan_4b) { #v-iqhan_4b }
 
 **Entry ID:** `iqhan_4b` · **Type:** Enemy
 
-**Location:** [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -261,10 +261,10 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2](../maps/pwcave2.md) | – | 7 | – |
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 8 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history

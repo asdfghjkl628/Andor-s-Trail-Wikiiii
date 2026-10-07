@@ -25,11 +25,11 @@ description: "Stuephant's marble is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-21) (1×)
-- From [Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-22) (1×)
-- From [Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-23) (1×)
-- From [Golden marble](../monsters/guynmart_marble4.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-24) (1×)
-- From [Pearl white marble](../monsters/guynmart_marble5.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-25) (1×)
+- From [Green marble](../monsters/guynmart_marble1.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-21) (1×)
+- From [Red marble](../monsters/guynmart_marble2.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-22) (1×)
+- From [Pink marble](../monsters/guynmart_marble3.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-23) (1×)
+- From [Golden marble](../monsters/guynmart_marble4.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-24) (1×)
+- From [Pearl white marble](../monsters/guynmart_marble5.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Marble hunting](../quests/guynmart_marbles.md#stage-25) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,7 +40,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Marble hunting](../quests/guynmart_marbles.md#stage-90) | handed over (5×) | “(automatic)” |
+| [Stuephant](../monsters/guynmart_child.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | [Marble hunting](../quests/guynmart_marbles.md#stage-90) | handed over (5×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

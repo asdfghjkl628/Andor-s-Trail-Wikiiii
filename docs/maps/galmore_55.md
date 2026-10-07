@@ -12,7 +12,7 @@ description: "Galmore 55 is an outdoor location in Andor's Trail, in Mt. Galmore
 | **Region** | In Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -68,7 +68,7 @@ description: "Galmore 55 is an outdoor location in Andor's Trail, in Mt. Galmore
 ## Quests
 
 - [Unusual experiences and achievements](../quests/achievements.md): [Galmore wolf](../monsters/mg2_wolves.md) is involved
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): [Galmore wolf](../monsters/mg2_wolves.md) is involved
+- [General story flags (hidden flag)](../quests/nondisplay.md): [Galmore wolf](../monsters/mg2_wolves.md) is involved
 
 
 ## Version history

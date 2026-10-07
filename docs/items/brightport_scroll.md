@@ -27,8 +27,8 @@ description: "Secret scroll is a quest other in Andor's Trail. How to get it: qu
 
 ### Quest & dialogue rewards
 
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-95) (1×)
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-92) (1×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-95) (1×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-92) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,8 +39,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | – | must be carried (1×) | “I have the scroll right here” |
-| [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85) | handed over (1×) | “I have the scroll here, take it.” |
+| [Stanwick](../monsters/brightportnpc.md) ([Brightport school 7](../maps/brightport_school7.md)) | – | must be carried (1×) | “I have the scroll right here” |
+| [Oswald](../monsters/brightportnpc6.md) ([Brightport school 9](../maps/brightport_school9.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-85) | handed over (1×) | “I have the scroll here, take it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

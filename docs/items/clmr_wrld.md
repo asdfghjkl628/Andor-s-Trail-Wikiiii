@@ -46,10 +46,10 @@ description: "Claymore of the warlord is a rare two-handed sword in Andor's Trai
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zortak scout](../monsters/zortak1.md) | 1% | 1 | lodar14, lodar18, lodar7 |
-| [Zortak fighter](../monsters/zortak2.md) | 1% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak guard](../monsters/zortak3.md) | 1% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak barbarian](../monsters/zortak4.md) | 1% | 1 | lodar18, lodar8 |
+| [Zortak scout](../monsters/zortak1.md) | 1% | 1 | Lodar 14, Lodar 18, Lodar 7 |
+| [Zortak fighter](../monsters/zortak2.md) | 1% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak guard](../monsters/zortak3.md) | 1% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak barbarian](../monsters/zortak4.md) | 1% | 1 | Lodar 18, Lodar 8 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Loudmouth is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_85.png){ .sprite } Loudmouth
 
-**Where to find Loudmouth:** Brightport: [brightport_thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves)
+**Where to find Loudmouth:** Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Loudmouth is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Loudmouth. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Loudmouth. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_loudmouth.json" data-npc="Loudmouth" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_loudmouth"></span>**`brightport_loudmouth`** [Loudmouth](../monsters/brightportthieves.md): “Hey kid, have you met my brother outside? Haha, that guy's a real scrooge. They say we're nothing alike. I'm telling you, he's just like mom - we'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or…”
 

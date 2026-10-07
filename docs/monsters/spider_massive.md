@@ -4,7 +4,7 @@ description: "Giant spider is an enemy in Andor's Trail (insect) with 104 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles4_45.png){ .sprite } Giant spider
 
-**Found in:** Lake Laeroth: [laerothbarn0](../maps/laerothbarn0.md), Lake Laeroth: [laerothbarn1](../maps/laerothbarn1.md), Lake Laeroth: [laerothbasement0](../maps/laerothbasement0.md), Lake Laeroth: [laerothbasement1](../maps/laerothbasement1.md) (+5 more)
+**Found in:** Lake Laeroth: [Laerothbarn 0](../maps/laerothbarn0.md), Lake Laeroth: [Laerothbarn 1](../maps/laerothbarn1.md), Lake Laeroth: [Laerothbasement 0](../maps/laerothbasement0.md), Lake Laeroth: [Laerothbasement 1](../maps/laerothbasement1.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -57,15 +57,15 @@ description: "Giant spider is an enemy in Andor's Trail (insect) with 104 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothbarn0](../maps/laerothbarn0.md) | Lake Laeroth | 1 | – |
-| [laerothbarn1](../maps/laerothbarn1.md) | Lake Laeroth | 5 | – |
-| [laerothbasement0](../maps/laerothbasement0.md) | Lake Laeroth | 4 | – |
-| [laerothbasement1](../maps/laerothbasement1.md) | Lake Laeroth | 3 | – |
-| [laerothcave3](../maps/laerothcave3.md) | – | 1 | – |
-| [laerothcave4](../maps/laerothcave4.md) | – | 2 | – |
-| [laerothprison0](../maps/laerothprison0.md) | Lake Laeroth | 4 | – |
-| [laerothprison1](../maps/laerothprison1.md) | Lake Laeroth | 5 | – |
-| [laerothsmith0](../maps/laerothsmith0.md) | Lake Laeroth | 4 | – |
+| [Laerothbarn 0](../maps/laerothbarn0.md) | Lake Laeroth | 1 | – |
+| [Laerothbarn 1](../maps/laerothbarn1.md) | Lake Laeroth | 5 | – |
+| [Laerothbasement 0](../maps/laerothbasement0.md) | Lake Laeroth | 4 | – |
+| [Laerothbasement 1](../maps/laerothbasement1.md) | Lake Laeroth | 3 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 1 | – |
+| [Laerothcave 4](../maps/laerothcave4.md) | – | 2 | – |
+| [Laerothprison 0](../maps/laerothprison0.md) | Lake Laeroth | 4 | – |
+| [Laerothprison 1](../maps/laerothprison1.md) | Lake Laeroth | 5 | – |
+| [Laerothsmith 0](../maps/laerothsmith0.md) | Lake Laeroth | 4 | – |
 
 
 ## Version history

@@ -11,9 +11,9 @@ description: "Kaori's errands is a quest in Andor's Trail, started by Jolnor (vi
 | **Quest ID** | `kaori` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 20) |
-| **Started by** | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
+| **Started by** | [Jolnor](../monsters/jolnor.md) ([Vilegard chapel](../maps/vilegard_chapel.md)) |
 | **NPCs involved** | [Jolnor](../monsters/jolnor.md), [Kaori](../monsters/kaori.md) |
-| **Locations** | [vilegard_chapel](../maps/vilegard_chapel.md), [vilegard_kaori](../maps/vilegard_kaori.md) |
+| **Locations** | [Vilegard chapel](../maps/vilegard_chapel.md), [Vilegard kaori](../maps/vilegard_kaori.md) |
 | **Total XP** | 520 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Kaori's errands is a quest in Andor's Trail, started by Jolnor (vi
 
 ## Prerequisites to start
 
-Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)). Required:
+Start with [Jolnor](../monsters/jolnor.md) ([Vilegard chapel](../maps/vilegard_chapel.md)). Required:
 
 - reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
@@ -43,29 +43,53 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | Jolnor in Vilegard chapel wants me to talk to Kaori in northern Vilegard, to see if she wants any help. | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | – | – |
-| <span id="stage-10"></span>10 | Kaori in northern Vilegard wants me to bring her 10 bonemeal potions. | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | stage 5 | – |
-| <span id="stage-20"></span>20 | I have brought 10 bonemeal potions to Kaori. **(completes quest)** | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | hand over 10× [Bonemeal potion](../items/bonemeal_potion.md), stage 10 | 520 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">Jolnor in Vilegard chapel wants me to talk to Kaori in northern… ▸</span><span class="l">▴ less</span></summary>Jolnor in Vilegard chapel wants me to talk to Kaori in northern Vilegard, to see if she wants any help.</details> | [Jolnor](../monsters/jolnor.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | Kaori in northern Vilegard wants me to bring her 10 bonemeal potions. | [Kaori](../monsters/kaori.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I have brought 10 bonemeal potions to Kaori. **(ends quest)** | [Kaori](../monsters/kaori.md) | 520 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. Talk to [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) → choose “Is there anything I can do to gain your trust?” — **conditions:** reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10) → **stage 5**. NPC: “First, there is Kaori. She lives up in the northern part of Vilegard. Ask her if she wants help with anything.”
+??? note "Stage 5 · Jolnor · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Talk to [Jolnor](../monsters/jolnor.md), choose “Is there anything I can do to gain your trust?”
 
-    1. Talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) → choose “Is there anything I can do to gain your trust?” — **conditions:** reached stage 5 of [Kaori's errands](../quests/kaori.md#stage-5) → **stage 10**. NPC: “I would really like to have a few more of those. If you can bring me 10 bonemeal potions, I might consider trusting…”
+    - **Needs:** reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
+    - *“First, there is Kaori. She lives up in the northern part of Vilegard. Ask her if she wants help with anything.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) → choose “Yes, I brought your potions.” — **conditions:** reached stage 10 of [Kaori's errands](../quests/kaori.md#stage-10); hand over 10× [Bonemeal potion](../items/bonemeal_potion.md) → **stage 20**. NPC: “Good. Give them to me.”
+<span id="route-10"></span>
+
+??? note "Stage 10 · Kaori · 1 way"
+
+    **Way 1:** Talk to [Kaori](../monsters/kaori.md), choose “Is there anything I can do to gain your trust?”
+
+    - **Needs:** stage 5
+    - *“I would really like to have a few more of those. If you can bring me 10 bonemeal potions, I might consider trusting you a bit more.”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Kaori · 1 way"
+
+    **Way 1:** Talk to [Kaori](../monsters/kaori.md), choose “Yes, I brought your potions.”
+
+    - **Needs:** stage 10; hand over 10× [Bonemeal potion](../items/bonemeal_potion.md)
+    - *“Good. Give them to me.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

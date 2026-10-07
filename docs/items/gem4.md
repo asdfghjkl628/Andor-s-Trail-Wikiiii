@@ -28,55 +28,55 @@ description: "Sharpened gem is a ordinary gem in Andor's Trail. How to get it: m
 |---|---|---|---|
 | [Undead warden](../monsters/undead_warden.md) | 100% | 1 | Flagstone Prison |
 | [Cave guardian](../monsters/cave_guardian.md) | 100% | 1 | Flagstone Prison |
-| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | flagstone4 |
-| [Pack leader](../monsters/pack_leader.md) | 100% | 1 | clearing_level2 |
-| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1 | waytobrimhavencave3a |
-| [Algangror](../monsters/algangror.md) | 100% | 1 | lonelyhouse0 |
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 1-5 | swamp_hut |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | Flagstone 4 |
+| [Pack leader](../monsters/pack_leader.md) | 100% | 1 | Clearing level 2 |
+| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1 | Waytobrimhavencave 3a |
+| [Algangror](../monsters/algangror.md) | 100% | 1 | Lonelyhouse 0 |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 1-5 | Swamp hut |
 | [Embergeist](../monsters/embergeist.md) | 100% | 1-2 | Mt. Galmore |
-| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
-| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
-| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 20% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
+| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
+| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 20% | 1 | Mountainlake 10, Mountainlake 11, Waytolake 10 |
 | [Restless apparition](../monsters/restless_apparition.md) | 10% | 1 | Prim |
 | [Skeletal reaper](../monsters/skeletal_reaper.md) | 10% | 1 | Prim |
 | [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 | Blackwater Mountain |
-| [Pack hunter](../monsters/pack_hunter.md) | 5% | 1 | clearing_level2 |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5% | 0-1 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5% | 0-1 | elm5f_2, elm_2f_1, elm_3f |
+| [Pack hunter](../monsters/pack_hunter.md) | 5% | 1 | Clearing level 2 |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5% | 0-1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5% | 0-1 | Elm 5f 2, Elm 2f 1, Elm 3f |
 | [Lizardman corsair](../monsters/brightport_redlizard.md) | 5% | 1-2 | Brightport, Buried citadel |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 5% | 1-2 | Buried citadel, Brightport |
 
 ### Sold by
 
 - [Prowling Arantxa](../monsters/sullengard_arantxa.md) (Sullengard)
-- [Madame Mim](../monsters/swamp_witch.md) (swamp_hut)
+- [Madame Mim](../monsters/swamp_witch.md) (Swamp hut)
 
 ### Found in containers
 
-- [arulirmountain2](../maps/arulirmountain2.md#container-0) (container 1, 100%)
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-2) (container 3, 50%), Prim
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 10%)
-- [island1](../maps/island1.md#container-8) (container 9, 33%)
-- [island1](../maps/island1.md#container-12) (container 13, 100%)
-- [island2](../maps/island2.md#container-3) (container 4, 100%)
-- [island2](../maps/island2.md#container-7) (container 8, 100%)
-- [island2](../maps/island2.md#container-8) (container 9, 33%)
-- [island2](../maps/island2.md#container-10) (container 11, 100%)
-- [island2](../maps/island2.md#container-12) (container 13, 100%)
-- [island2](../maps/island2.md#container-13) (container 14, 100%)
-- [island3](../maps/island3.md#container-8) (container 9, 33%)
-- [island3](../maps/island3.md#container-12) (container 13, 100%)
-- [island4](../maps/island4.md#container-7) (container 8, 100%)
-- [island4](../maps/island4.md#container-8) (container 9, 33%)
-- [island4](../maps/island4.md#container-10) (container 11, 100%)
-- [island4](../maps/island4.md#container-12) (container 13, 100%)
-- [island4](../maps/island4.md#container-13) (container 14, 100%)
-- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
+- [Arulirmountain 2](../maps/arulirmountain2.md#container-0) (container 1, 100%)
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-2) (container 3, 50%), Prim
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 10%)
+- [Island 1](../maps/island1.md#container-8) (container 9, 33%)
+- [Island 1](../maps/island1.md#container-12) (container 13, 100%)
+- [Island 2](../maps/island2.md#container-3) (container 4, 100%)
+- [Island 2](../maps/island2.md#container-7) (container 8, 100%)
+- [Island 2](../maps/island2.md#container-8) (container 9, 33%)
+- [Island 2](../maps/island2.md#container-10) (container 11, 100%)
+- [Island 2](../maps/island2.md#container-12) (container 13, 100%)
+- [Island 2](../maps/island2.md#container-13) (container 14, 100%)
+- [Island 3](../maps/island3.md#container-8) (container 9, 33%)
+- [Island 3](../maps/island3.md#container-12) (container 13, 100%)
+- [Island 4](../maps/island4.md#container-7) (container 8, 100%)
+- [Island 4](../maps/island4.md#container-8) (container 9, 33%)
+- [Island 4](../maps/island4.md#container-10) (container 11, 100%)
+- [Island 4](../maps/island4.md#container-12) (container 13, 100%)
+- [Island 4](../maps/island4.md#container-13) (container 14, 100%)
+- [Korhald cave hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [waytolake6](../maps/waytolake6.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-30) (1×)
-- From stepping on a trigger on [arulircave5](../maps/arulircave5.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) (80%)
+- From stepping on a trigger on [Waytolake 6](../maps/waytolake6.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-30) (1×)
+- From stepping on a trigger on [Arulircave 5](../maps/arulircave5.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250) (80%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -87,7 +87,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Sharpened gem]” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Sharpened gem]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

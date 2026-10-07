@@ -39,8 +39,8 @@ description: "Broken wooden buckler is a ordinary buckler in Andor's Trail (Atta
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 5% | 1 | lodar11 |
-| [Insane Feygard guard](../monsters/lodar_fg4.md) | 5% | 1 | lodar8 |
+| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 5% | 1 | Lodar 11 |
+| [Insane Feygard guard](../monsters/lodar_fg4.md) | 5% | 1 | Lodar 8 |
 | [Puny Charwood goblin](../monsters/charwdg1.md) | 1% | 1 | Charwood |
 | [Charwood goblin scout](../monsters/charwdg2.md) | 1% | 1 | Charwood |
 | [Starving Charwood goblin](../monsters/charwdg3.md) | 1% | 1 | Charwood |
@@ -62,7 +62,7 @@ description: "Broken wooden buckler is a ordinary buckler in Andor's Trail (Atta
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [waterwayacave2](../maps/waterwayacave2.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
+- From reading a sign on [Waterwayacave 2](../maps/waterwayacave2.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

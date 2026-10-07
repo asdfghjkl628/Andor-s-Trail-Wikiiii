@@ -28,7 +28,7 @@ description: "Hand carved snowball is a ordinary other in Andor's Trail. How to 
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-0) (container 1, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-0) (container 1, 100%), Foaming Flask Tavern
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

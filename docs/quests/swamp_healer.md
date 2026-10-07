@@ -11,9 +11,9 @@ description: "The swamp healer is a quest in Andor's Trail, started by Vaelric (
 | **Quest ID** | `swamp_healer` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 30) |
-| **Started by** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) |
+| **Started by** | [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) |
 | **NPCs involved** | [Vaelric](../monsters/vaelric.md) |
-| **Locations** | [galmore_17_house](../maps/galmore_17_house.md) |
+| **Locations** | [Galmore 17 house](../maps/galmore_17_house.md) |
 | **Total XP** | 2,449 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "The swamp healer is a quest in Andor's Trail, started by Vaelric (
 
 ## Prerequisites to start
 
-Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)). Required:
+Start with [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)). Required:
 
 - NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10)
 
@@ -38,9 +38,9 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Blocked by | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-59) | stage 59 must NOT be reached, for stage 30 here |
-| Unlocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-10) | stage 10 there needs stage 10 here |
-| Unlocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-59) | stage 59 there needs stage 30 here |
+| Blocked by | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-59) | stage 59 must NOT be reached, for stage 30 here |
+| Unlocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-10) | stage 10 there needs stage 10 here |
+| Unlocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-59) | stage 59 there needs stage 30 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-10) | stage 10 there needs stage 30 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-20) | stage 20 there needs stage 30 here |
 | Unlocks | [Restless in the grave](mg_restless_grave.md#stage-63) | stage 63 there needs stage 30 here |
@@ -54,29 +54,54 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools. | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | spawns monsters on galmore_28 |
-| <span id="stage-20"></span>20 | I defeated the monstrous creature that I found on Vaelric's land. This creature was enormous and venomous, feeding on the lifeblood of the swamp.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 28](../maps/galmore_28.md).</span> | stepping on a trigger on [galmore_28](../maps/galmore_28.md) | – | – |
-| <span id="stage-30"></span>30 | Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power. **(completes quest)** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | 2,449 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I encountered Vaelric, a reclusive healer living in the swamp… ▸</span><span class="l">▴ less</span></summary>I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools.</details> | [Vaelric](../monsters/vaelric.md) | spawns monsters on galmore_28 |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I defeated the monstrous creature that I found on Vaelric's land.… ▸</span><span class="l">▴ less</span></summary>I defeated the monstrous creature that I found on Vaelric's land. This creature was enormous and venomous, feeding on the lifeblood of the swamp.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 28](../maps/galmore_28.md).</span> | stepping on a trigger on [Galmore 28](../maps/galmore_28.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Vaelric rewarded me for my efforts by teaching me how to use leeches… ▸</span><span class="l">▴ less</span></summary>Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power.</details> **(ends quest)** | [Vaelric](../monsters/vaelric.md) | 2,449 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) → choose “What kind of creature?” — **conditions:** NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10) → **stage 10**; also spawns monsters on galmore_28. NPC: “A swamp creature, but far from the kind you'd expect to see. This one is massive, venomous, and ravenous. It's…”
+??? note "Stage 10 · Vaelric · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Vaelric](../monsters/vaelric.md), choose “What kind of creature?”
 
-    1. stepping on a trigger on [galmore_28](../maps/galmore_28.md) → the conversation leads here automatically — **conditions:** killed 1× [Venomous swamp creature](../monsters/venomous_swamp_creature.md); NOT reached stage 20 of [The swamp healer](../quests/swamp_healer.md#stage-20) → **stage 20**. NPC: “It's time to revisit Vaelric.”
+    - **Needs:** not yet stage 10
+    - **Gives:** spawns monsters on galmore_28
+    - *“A swamp creature, but far from the kind you'd expect to see. This one is massive, venomous, and ravenous. It's draining the life from my…”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) → choose “Can you teach me?” — **conditions:** reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30); NOT reached stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59) → **stage 30**. NPC: “See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here,…”
+<span id="route-20"></span>
+
+??? note "Stage 20 · stepping on a trigger on galmore_28 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Galmore 28](../maps/galmore_28.md)
+
+    - **Needs:** not yet stage 20; killed 1× [Venomous swamp creature](../monsters/venomous_swamp_creature.md)
+    - *“It's time to revisit Vaelric.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Vaelric · 1 way"
+
+    **Way 1:** Talk to [Vaelric](../monsters/vaelric.md), choose “Can you teach me?”
+
+    - **Needs:** stage 30; not reached stage 59 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59)
+    - *“See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here, take this.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

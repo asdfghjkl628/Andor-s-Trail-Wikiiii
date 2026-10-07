@@ -1,10 +1,10 @@
 ---
-description: "Elytharan cooker slave is a non-player character (NPC) in Andor's Trail, found in undertell_1_1."
+description: "Elytharan cooker slave is a non-player character (NPC) in Andor's Trail, found in Undertell 1 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_653.png){ .sprite } Elytharan cooker slave
 
-**Where to find Elytharan cooker slave:** [undertell_1_1](../maps/undertell_1_1.md#pin-npc-elytharan_cook_slave)
+**Where to find Elytharan cooker slave:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-elytharan_cook_slave)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Elytharan cooker slave is a non-player character (NPC) in Andor's 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_1_1 |
+| **Found in** | Undertell 1 1 |
 | **Entry ID** | `elytharan_cook_slave` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -25,7 +25,7 @@ description: "Elytharan cooker slave is a non-player character (NPC) in Andor's 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Elytharan cooker slave. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Elytharan cooker slave. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/elytharan_cooker_slave_default.json" data-npc="Elytharan cooker slave" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-elytharan_cooker_slave_default"></span>**`elytharan_cooker_slave_default`** Elytharan cooker slave: “Tell those ingrates over in the other room that their dinner is almost ready!”
 

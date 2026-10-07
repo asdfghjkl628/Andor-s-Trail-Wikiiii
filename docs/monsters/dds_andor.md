@@ -1,5 +1,5 @@
 ---
-description: "Andor is an NPC who can also be fought in Andor's Trail, found in road5_house, wayto_feygard_duleian_2, final_cave1, final_cave2, Mt. Galmore."
+description: "Andor is an NPC who can also be fought in Andor's Trail, found in Road 5 house, Wayto feygard duleian 2, Final cave 1, Final cave 2, Mt. Galmore."
 ---
 
 # ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } Andor
@@ -11,7 +11,7 @@ description: "Andor is an NPC who can also be fought in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | road5_house, wayto_feygard_duleian_2, final_cave1, final_cave2, Mt. Galmore |
+| **Found in** | Road 5 house, Wayto feygard duleian 2, Final cave 1, Final cave 2, Mt. Galmore |
 | **Class** | Humanoid |
 | **HP** | 200 |
 | **XP when defeated** | 258 |
@@ -21,27 +21,27 @@ description: "Andor is an NPC who can also be fought in Andor's Trail, found in 
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Andor. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Andor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`dds_andor`](#v-dds_andor) | NPC | [road5_house](../maps/road5_house.md#pin-npc-dds_andor), [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor) | – | – |
-| [`lae_andor2`](#v-lae_andor2) | NPC | [final_cave1](../maps/final_cave1.md#pin-npc-lae_andor2) | – | – |
-| [`lae_andor3`](#v-lae_andor3) | NPC/Enemy | [final_cave2](../maps/final_cave2.md#pin-npc-lae_andor3) | – | 200 |
-| [`mg2_andor`](#v-mg2_andor) | Enemy | Mt. Galmore: [galmore_52](../maps/galmore_52.md), [galmore_72](../maps/galmore_72.md) | – | 1 |
+| [`dds_andor`](#v-dds_andor) | NPC | [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor) | – | – |
+| [`lae_andor2`](#v-lae_andor2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2) | – | – |
+| [`lae_andor3`](#v-lae_andor3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3) | – | 200 |
+| [`mg2_andor`](#v-mg2_andor) | Enemy | Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md) | – | 1 |
 
-## Road5 house and 1 more (dds_andor) { #v-dds_andor }
+## Road 5 house and 1 more (dds_andor) { #v-dds_andor }
 
 **Entry ID:** `dds_andor` · **Type:** NPC
 
-**Location:** [road5_house](../maps/road5_house.md#pin-npc-dds_andor), [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor)
+**Location:** [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [road5_house](../maps/road5_house.md) | – | 1 | Appears later, during a quest |
-| [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md) | – | 1 | Appears later, during a quest |
+| [Road 5 house](../maps/road5_house.md) | – | 1 | Appears later, during a quest |
+| [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -51,7 +51,7 @@ description: "Andor is an NPC who can also be fought in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Andor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_andor.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -59,7 +59,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_andor-dds_andor"></span>**`dds_andor`** Andor: “Hey, who's that running over?”
 
@@ -149,11 +149,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave1 (lae_andor2) { #v-lae_andor2 }
+## Final cave 1 (lae_andor2) { #v-lae_andor2 }
 
 **Entry ID:** `lae_andor2` · **Type:** NPC
 
-**Location:** [final_cave1](../maps/final_cave1.md#pin-npc-lae_andor2)
+**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2)
 
 ### Quests
 
@@ -161,7 +161,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Andor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -169,7 +169,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_andor2-lae_algangror2"></span>**`lae_algangror2`** Andor: “$playername, what have you done?”
 
@@ -237,11 +237,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave2 (lae_andor3) { #v-lae_andor3 }
+## Final cave 2 (lae_andor3) { #v-lae_andor3 }
 
 **Entry ID:** `lae_andor3` · **Type:** NPC/Enemy
 
-**Location:** [final_cave2](../maps/final_cave2.md#pin-npc-lae_andor3)
+**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_andor3`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -278,11 +278,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave2](../maps/final_cave2.md) | – | 1 | – |
+| [Final cave 2](../maps/final_cave2.md) | – | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Andor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_andor3.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -290,7 +290,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_andor3-lae_andor3"></span>**`lae_andor3`** Andor: “You really believed I was your brother? Hahaha!” — **effects:** faction “lae_andor3” set to -99
 
@@ -350,7 +350,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `mg2_andor` · **Type:** Enemy
 
-**Location:** Mt. Galmore: [galmore_52](../maps/galmore_52.md), [galmore_72](../maps/galmore_72.md)
+**Location:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md)
 
 ### Combat statistics
 
@@ -378,8 +378,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 1 | Appears later, during a quest |
-| [galmore_72](../maps/galmore_72.md) | – | 1 | Appears later, during a quest |
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Galmore 72](../maps/galmore_72.md) | – | 1 | Appears later, during a quest |
 
 
 ### Version history

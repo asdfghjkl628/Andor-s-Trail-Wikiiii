@@ -1,10 +1,10 @@
 ---
-description: "Bogsten is an NPC who can also be fought in Andor's Trail, found in bogsten1. Starts Fungi panic."
+description: "Bogsten is an NPC who can also be fought in Andor's Trail, found in Bogsten 1. Starts Fungi panic."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_77.png){ .sprite } Bogsten
 
-**Where to find Bogsten:** [bogsten1](../maps/bogsten1.md#pin-npc-bogsten)
+**Where to find Bogsten:** [Bogsten 1](../maps/bogsten1.md#pin-npc-bogsten)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Bogsten is an NPC who can also be fought in Andor's Trail, found i
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [Fungi panic](../quests/fungi_panic.md) |
-| **Found in** | bogsten1 |
+| **Found in** | Bogsten 1 |
 | **Class** | Humanoid |
 | **HP** | 35 |
 | **XP when defeated** | 53 |
@@ -61,13 +61,13 @@ description: "Bogsten is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten1](../maps/bogsten1.md) | – | 1 | – |
+| [Bogsten 1](../maps/bogsten1.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-90) with stepping on a trigger on [bogsten4](../maps/bogsten4.md) checks that this enemy has been defeated.
-- A conversation with [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) checks that this enemy has been defeated.
-- A conversation with [Undina Bogsten](../monsters/bogsten_granny.md) ([mushroom_m2_4](../maps/mushroom_m2_4.md)), [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1) ([mushroom_m2_4](../maps/mushroom_m2_4.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-90) with stepping on a trigger on [Bogsten 4](../maps/bogsten4.md) checks that this enemy has been defeated.
+- A conversation with [Zuul'khan](../monsters/zuul_khan.md) ([Bogsten 4](../maps/bogsten4.md)) checks that this enemy has been defeated.
+- A conversation with [Undina Bogsten](../monsters/bogsten_granny.md) ([Mushroom m 2 4](../maps/mushroom_m2_4.md)), [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1) ([Mushroom m 2 4](../maps/mushroom_m2_4.md)) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -75,7 +75,7 @@ description: "Bogsten is an NPC who can also be fought in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bogsten. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bogsten. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bogsten_start_select.json" data-npc="Bogsten" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -83,7 +83,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (54 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bogsten_start_select"></span>**`bogsten_start_select`** *(silent check: the first matching branch below is taken)*
 

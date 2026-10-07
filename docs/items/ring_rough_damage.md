@@ -38,8 +38,8 @@ description: "Rough ring of damage is a ordinary ring in Andor's Trail (Attack d
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 100% | 0-3 | Prim |
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 3.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
-| [Foul miner's skeleton](../monsters/elm_miner2.md) | 3.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 3.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Foul miner's skeleton](../monsters/elm_miner2.md) | 3.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
 
 ### Sold by
 

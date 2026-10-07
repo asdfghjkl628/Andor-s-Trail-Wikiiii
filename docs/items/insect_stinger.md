@@ -30,7 +30,7 @@ description: "Insect stinger is a ordinary animal part in Andor's Trail. How to 
 | [Preabola fly](../monsters/preabola_fly.md) | 10% | 1 | Sullengard |
 | [Duleian buzzer](../monsters/duleian_hornet.md) | 10% | 1 | Wexlow Village |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 10% | 1 | Deebo's Orchard |
-| [Red tree ant](../monsters/red_tree_ant.md) | 10% | 1 | nw_sullengard_1 |
+| [Red tree ant](../monsters/red_tree_ant.md) | 10% | 1 | Nw sullengard 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

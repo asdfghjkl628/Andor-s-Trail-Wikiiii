@@ -4,7 +4,7 @@ description: "Stoneclaw prowler is an enemy in Andor's Trail (animal) with 230 H
 
 # ![](../assets/icons/monsters/monsters_newb_1_250.png){ .sprite } Stoneclaw prowler
 
-**Found in:** Flagstone Prison: [lake_shore_road_6](../maps/lake_shore_road_6.md), Flagstone Prison: [rat_mountain_1](../maps/rat_mountain_1.md), Flagstone Prison: [rat_mountain_2](../maps/rat_mountain_2.md), Flagstone Prison: [rat_mountain_5](../maps/rat_mountain_5.md) (+6 more)
+**Found in:** Flagstone Prison: [Lake shore road 6](../maps/lake_shore_road_6.md), Flagstone Prison: [Rat mountain 1](../maps/rat_mountain_1.md), Flagstone Prison: [Rat mountain 2](../maps/rat_mountain_2.md), Flagstone Prison: [Rat mountain 5](../maps/rat_mountain_5.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -57,16 +57,16 @@ description: "Stoneclaw prowler is an enemy in Andor's Trail (animal) with 230 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_13](../maps/galmore_13.md) | Stoutford | 2 | – |
-| [galmore_15](../maps/galmore_15.md) | – | 1 | – |
-| [galmore_18](../maps/galmore_18.md) | – | 1 | – |
-| [lake_shore_road_6](../maps/lake_shore_road_6.md) | Flagstone Prison | 1 | – |
-| [rat_mountain_1](../maps/rat_mountain_1.md) | Flagstone Prison | 1 | – |
-| [rat_mountain_2](../maps/rat_mountain_2.md) | Flagstone Prison | 2 | – |
-| [rat_mountain_4](../maps/rat_mountain_4.md) | – | 1 | – |
-| [rat_mountain_5](../maps/rat_mountain_5.md) | Flagstone Prison | 2 | – |
-| [rat_mountain_6](../maps/rat_mountain_6.md) | – | 3 | – |
-| [rat_mountain_7](../maps/rat_mountain_7.md) | Flagstone Prison | 3 | – |
+| [Galmore 13](../maps/galmore_13.md) | Stoutford | 2 | – |
+| [Galmore 15](../maps/galmore_15.md) | – | 1 | – |
+| [Galmore 18](../maps/galmore_18.md) | – | 1 | – |
+| [Lake shore road 6](../maps/lake_shore_road_6.md) | Flagstone Prison | 1 | – |
+| [Rat mountain 1](../maps/rat_mountain_1.md) | Flagstone Prison | 1 | – |
+| [Rat mountain 2](../maps/rat_mountain_2.md) | Flagstone Prison | 2 | – |
+| [Rat mountain 4](../maps/rat_mountain_4.md) | – | 1 | – |
+| [Rat mountain 5](../maps/rat_mountain_5.md) | Flagstone Prison | 2 | – |
+| [Rat mountain 6](../maps/rat_mountain_6.md) | – | 3 | – |
+| [Rat mountain 7](../maps/rat_mountain_7.md) | Flagstone Prison | 3 | – |
 
 
 ## Version history

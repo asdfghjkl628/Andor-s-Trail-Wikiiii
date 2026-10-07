@@ -25,7 +25,7 @@ description: "Potion of truth is a quest other in Andor's Trail. How to get it: 
 
 ### Quest & dialogue rewards
 
-- From [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) during [The thorns of vengeance](../quests/thorns_vengeance.md#stage-40) (1×)
+- From [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) during [The thorns of vengeance](../quests/thorns_vengeance.md#stage-40) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2) ([stoutford_potion](../maps/stoutford_potion.md)) | – | must be carried (1×) | “(automatic)” |
-| [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2) ([stoutford_potion](../maps/stoutford_potion.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-70) | handed over (1×) | “Yes, here. I still have one bottle of your potion of the brave.” |
+| [Blornvale](../monsters/stoutford_alchemist.md) ([Stoutford potion](../maps/stoutford_potion.md)), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2) ([Stoutford potion](../maps/stoutford_potion.md)) | – | must be carried (1×) | “(automatic)” |
+| [Blornvale](../monsters/stoutford_alchemist.md) ([Stoutford potion](../maps/stoutford_potion.md)), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2) ([Stoutford potion](../maps/stoutford_potion.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-70) | handed over (1×) | “Yes, here. I still have one bottle of your potion of the brave.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

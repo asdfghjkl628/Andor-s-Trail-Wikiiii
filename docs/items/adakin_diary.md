@@ -27,7 +27,7 @@ description: "Adakin's diary is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) during [The last lord of Laeroth](../quests/last_lord.md#stage-50) (1×)
+- From stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) during [The last lord of Laeroth](../quests/last_lord.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | – | handed over (1×) | “N” |
+| stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) | – | handed over (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

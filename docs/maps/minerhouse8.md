@@ -1,8 +1,8 @@
 ---
-description: "Minerhouse8 is an indoor location in Andor's Trail, in Charwood (settlement). Enemies: Puny Charwood goblin, Charwood goblin scout, Starving Charwood goblin, Charwood goblin, Charwood goblin fighter. Exits to Waytolostmine3."
+description: "Minerhouse 8 is an indoor location in Andor's Trail, in Charwood (settlement). Enemies: Puny Charwood goblin, Charwood goblin scout, Starving Charwood goblin, Charwood goblin, Charwood goblin fighter. Exits to Waytolostmine 3."
 ---
 
-# Minerhouse8
+# Minerhouse 8
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Minerhouse8 is an indoor location in Andor's Trail, in Charwood (s
 
 </div>
 
-**Minerhouse8** is an indoor map, in Charwood (settlement). It has no NPCs and 8 kinds of enemy. Exits lead to Waytolostmine3.
+**Minerhouse 8** is an indoor map, in Charwood (settlement). It has no NPCs and 8 kinds of enemy. Exits lead to Waytolostmine 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/minerhouse8.webp" alt="Map of Minerhouse8" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolostmine3/#place-minerhouse8" title="Exit to Waytolostmine3" style="left:25.000%;top:87.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Aggressive Charwood goblin, Strong Charwood goblin" style="left:12.500%;top:50.000%;width:18.750%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin scout, Puny Charwood goblin, Starving Charwood goblin" style="left:43.750%;top:62.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:56.250%;top:50.000%;width:12.500%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Aggressive Charwood goblin, Strong Charwood goblin" style="left:75.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin scout, Puny Charwood goblin, Starving Charwood goblin" style="left:37.500%;top:75.000%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:18.750%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg2/" title="Charwood goblin scout" style="left:43.750%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_17.png" alt="Charwood goblin scout"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:62.500%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:75.000%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:75.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg3/" title="Starving Charwood goblin" style="left:37.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Starving Charwood goblin"></a><a class="pin pin-exit" href="#key-1" style="left:28.125%;top:93.750%" title="Exit (south): to [Waytolostmine3](waytolostmine3.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/minerhouse8.webp" alt="Map of Minerhouse 8" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolostmine3/#place-minerhouse8" title="Exit to Waytolostmine 3" style="left:25.000%;top:87.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Aggressive Charwood goblin, Strong Charwood goblin" style="left:12.500%;top:50.000%;width:18.750%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin scout, Puny Charwood goblin, Starving Charwood goblin" style="left:43.750%;top:62.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:56.250%;top:50.000%;width:12.500%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Aggressive Charwood goblin, Strong Charwood goblin" style="left:75.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin scout, Puny Charwood goblin, Starving Charwood goblin" style="left:37.500%;top:75.000%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:18.750%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg2/" title="Charwood goblin scout" style="left:43.750%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_17.png" alt="Charwood goblin scout"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:62.500%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:75.000%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg7/" title="Aggressive Charwood goblin" style="left:75.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_23.png" alt="Aggressive Charwood goblin"></a><a class="mob" href="../../monsters/charwdg3/" title="Starving Charwood goblin" style="left:37.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Starving Charwood goblin"></a><a class="pin pin-exit" href="#key-1" style="left:28.125%;top:93.750%" title="Exit (south): to [Waytolostmine 3](waytolostmine3.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Waytolostmine3](waytolostmine3.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Waytolostmine 3](waytolostmine3.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -39,7 +39,7 @@ description: "Minerhouse8 is an indoor location in Andor's Trail, in Charwood (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Waytolostmine3](waytolostmine3.md) | Charwood | 1 |
+| South | [Waytolostmine 3](waytolostmine3.md) | Charwood | 1 |
 
 ## Enemies
 

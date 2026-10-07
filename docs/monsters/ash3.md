@@ -4,7 +4,7 @@ description: "Strong ash gargoyle is an enemy in Andor's Trail (construct) with 
 
 # ![](../assets/icons/monsters/monsters_misc_2.png){ .sprite } Strong ash gargoyle
 
-**Found in:** Charwood: [lostmine2](../maps/lostmine2.md), [lostmine3](../maps/lostmine3.md), [lostmine4](../maps/lostmine4.md), [lostmine5](../maps/lostmine5.md) (+1 more)
+**Found in:** Charwood: [Lostmine 2](../maps/lostmine2.md), [Lostmine 3](../maps/lostmine3.md), [Lostmine 4](../maps/lostmine4.md), [Lostmine 5](../maps/lostmine5.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -59,11 +59,11 @@ description: "Strong ash gargoyle is an enemy in Andor's Trail (construct) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine2](../maps/lostmine2.md) | Charwood | 1 | – |
-| [lostmine3](../maps/lostmine3.md) | – | 2 | – |
-| [lostmine4](../maps/lostmine4.md) | – | 2 | – |
-| [lostmine5](../maps/lostmine5.md) | – | 8 | – |
-| [lostmine7](../maps/lostmine7.md) | – | 1 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 1 | – |
+| [Lostmine 3](../maps/lostmine3.md) | – | 2 | – |
+| [Lostmine 4](../maps/lostmine4.md) | – | 2 | – |
+| [Lostmine 5](../maps/lostmine5.md) | – | 8 | – |
+| [Lostmine 7](../maps/lostmine7.md) | – | 1 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Dying patrol is a non-player character (NPC) in Andor's Trail, found in crackshot_hideout2."
+description: "Dying patrol is a non-player character (NPC) in Andor's Trail, found in Crackshot hideout 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Dying patrol
 
-**Where to find Dying patrol:** [crackshot_hideout2](../maps/crackshot_hideout2.md#pin-npc-g03_deadpatrol_1)
+**Where to find Dying patrol:** [Crackshot hideout 2](../maps/crackshot_hideout2.md#pin-npc-g03_deadpatrol_1)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dying patrol is a non-player character (NPC) in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | crackshot_hideout2 |
+| **Found in** | Crackshot hideout 2 |
 | **Entry ID** | `g03_deadpatrol_1` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
@@ -22,11 +22,11 @@ description: "Dying patrol is a non-player character (NPC) in Andor's Trail, fou
 ## Quests
 
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 25, 28
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stage 40
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stage 40
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dying patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dying patrol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guild03_deadpatrol1_select.json" data-npc="Dying patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,11 +34,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guild03_deadpatrol1_select"></span>**`guild03_deadpatrol1_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 50 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-50))* → [guild03_deadpatrol1_was_first](#d-guild03_deadpatrol1_was_first)
+    - branch 1 *(if NOT reached stage 50 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-50))* → [guild03_deadpatrol1_was_first](#d-guild03_deadpatrol1_was_first)
     - branch 2 → [guild03_deadpatrol1_was_second](#d-guild03_deadpatrol1_was_second)
 
     <span id="d-guild03_deadpatrol1_was_first"></span>**`guild03_deadpatrol1_was_first`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 25 of [The ruthless Crackshot](../quests/Thieves03.md#stage-25)
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - branch 1 → [guild03_deadpatrol_1_1](#d-guild03_deadpatrol_1_1)
 
-    <span id="d-guild03_deadpatrol_1_1"></span>**`guild03_deadpatrol_1_1`** Dying patrol: “(You see, horrified, how this man is bleeding out rapidly. He has countless cuts and his face is mutilated. You can almost hear his gasps.)” — **effects:** removes monsters from crackshot_hideout2, sets stage 40 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-40)
+    <span id="d-guild03_deadpatrol_1_1"></span>**`guild03_deadpatrol_1_1`** Dying patrol: “(You see, horrified, how this man is bleeding out rapidly. He has countless cuts and his face is mutilated. You can almost hear his gasps.)” — **effects:** removes monsters from crackshot_hideout2, sets stage 40 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-40)
 
     - “Shadow, embrace him.” → *NPC leaves*
     - “For the glory of Feygard, you will be avenged!” → *NPC leaves*

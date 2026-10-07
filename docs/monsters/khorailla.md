@@ -22,18 +22,18 @@ description: "Khorailla is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Khorailla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Khorailla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`khorailla`](#v-khorailla) | NPC | Prim: [tradehouse0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper | – |
-| [`khorailla_cheddar`](#v-khorailla_cheddar) | Enemy | Prim: [tradehouse0](../maps/tradehouse0.md) | – | 1 |
+| [`khorailla`](#v-khorailla) | NPC | Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper | – |
+| [`khorailla_cheddar`](#v-khorailla_cheddar) | Enemy | Prim: [Tradehouse 0](../maps/tradehouse0.md) | – | 1 |
 
-## Prim, Tradehouse0 (khorailla) { #v-khorailla }
+## Prim, Tradehouse 0 (khorailla) { #v-khorailla }
 
 **Entry ID:** `khorailla` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Prim: [tradehouse0](../maps/tradehouse0.md#pin-npc-khorailla)
+**Location:** Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla)
 
 ### Shop stock
 
@@ -53,7 +53,7 @@ description: "Khorailla is an NPC who can also be fought in Andor's Trail, found
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Khorailla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Khorailla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/khorailla.json" data-npc="Khorailla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-khorailla-khorailla"></span>**`khorailla`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 19 of [Destined for great things](../quests/charwood1.md#stage-19)
 
@@ -132,11 +132,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Tradehouse0 (khorailla_cheddar) { #v-khorailla_cheddar }
+## Prim, Tradehouse 0 (khorailla_cheddar) { #v-khorailla_cheddar }
 
 **Entry ID:** `khorailla_cheddar` · **Type:** Enemy
 
-**Location:** Prim: [tradehouse0](../maps/tradehouse0.md)
+**Location:** Prim: [Tradehouse 0](../maps/tradehouse0.md)
 
 ### Combat statistics
 
@@ -177,7 +177,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [tradehouse0](../maps/tradehouse0.md) | Prim | 1 | – |
+| [Tradehouse 0](../maps/tradehouse0.md) | Prim | 1 | – |
 
 
 ### Version history

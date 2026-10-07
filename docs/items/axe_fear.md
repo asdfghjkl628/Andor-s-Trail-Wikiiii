@@ -52,11 +52,11 @@ description: "Axe of fear is a rare axe in Andor's Trail (Attack damage 1 to 2, 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Thin mist of the crypt](../monsters/cryptmist1.md) | 1% | 1 | lodar12cave0, lodar12cave1 |
-| [Clear mist of the crypt](../monsters/cryptmist2.md) | 1% | 1 | lodar12cave0, lodar12cave1 |
-| [Mist of the crypt](../monsters/cryptmist3.md) | 1% | 1 | lodar12cave0, lodar12cave1 |
-| [Thick mist of the crypt](../monsters/cryptmist4.md) | 1% | 1 | lodar12cave0, lodar12cave1 |
-| [Bright mist of the crypt](../monsters/cryptmist5.md) | 1% | 1 | lodar12cave1 |
+| [Thin mist of the crypt](../monsters/cryptmist1.md) | 1% | 1 | Lodar 12cave 0, Lodar 12cave 1 |
+| [Clear mist of the crypt](../monsters/cryptmist2.md) | 1% | 1 | Lodar 12cave 0, Lodar 12cave 1 |
+| [Mist of the crypt](../monsters/cryptmist3.md) | 1% | 1 | Lodar 12cave 0, Lodar 12cave 1 |
+| [Thick mist of the crypt](../monsters/cryptmist4.md) | 1% | 1 | Lodar 12cave 0, Lodar 12cave 1 |
+| [Bright mist of the crypt](../monsters/cryptmist5.md) | 1% | 1 | Lodar 12cave 1 |
 
 ### Sold by
 

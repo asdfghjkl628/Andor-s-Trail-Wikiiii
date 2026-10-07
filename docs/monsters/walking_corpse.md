@@ -4,7 +4,7 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
 
 # ![](../assets/icons/monsters/monsters_zombie1_0.png){ .sprite } Walking corpse
 
-**Found in:** Flagstone Prison: [flagstone1](../maps/flagstone1.md), Flagstone Prison: [flagstone2](../maps/flagstone2.md), Flagstone Prison: [flagstone_inner](../maps/flagstone_inner.md), [flagstone3](../maps/flagstone3.md)
+**Found in:** Flagstone Prison: [Flagstone 1](../maps/flagstone1.md), Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), Flagstone Prison: [Flagstone inner](../maps/flagstone_inner.md), [Flagstone 3](../maps/flagstone3.md)
 
 <div class="infobox" markdown>
 
@@ -57,10 +57,10 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 3 | – |
-| [flagstone3](../maps/flagstone3.md) | – | 3 | – |
-| [flagstone_inner](../maps/flagstone_inner.md) | Flagstone Prison | 8 | – |
+| [Flagstone 1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 3 | – |
+| [Flagstone 3](../maps/flagstone3.md) | – | 3 | – |
+| [Flagstone inner](../maps/flagstone_inner.md) | Flagstone Prison | 8 | – |
 
 
 ## Version history

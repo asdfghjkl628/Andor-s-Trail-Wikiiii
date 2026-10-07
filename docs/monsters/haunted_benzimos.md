@@ -1,10 +1,10 @@
 ---
-description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 980 XP, found in haunted_house_basement. Drops: Gold coins, Shield of the undead, Major flask of health, Tonic of blood."
+description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 980 XP, found in Haunted house basement. Drops: Gold coins, Shield of the undead, Major flask of health, Tonic of blood."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_47.png){ .sprite } Benzimos
 
-**Found in:** [haunted_house_basement](../maps/haunted_house_basement.md)
+**Found in:** [Haunted house basement](../maps/haunted_house_basement.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_house_basement |
+| **Found in** | Haunted house basement |
 | **Class** | Demon |
 | **HP** | 291 |
 | **XP when defeated** | 980 |
@@ -65,11 +65,11 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_house_basement](../maps/haunted_house_basement.md) | – | 1 | – |
+| [Haunted house basement](../maps/haunted_house_basement.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [The Dead are Walking](../quests/dead_walking.md#stage-60) with stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) checks that this enemy has been defeated.
+- [The Dead are Walking](../quests/dead_walking.md#stage-60) with stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md) checks that this enemy has been defeated.
 
 
 ## Version history

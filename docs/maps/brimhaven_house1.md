@@ -1,8 +1,8 @@
 ---
-description: "Brimhaven house1 is an indoor location in Andor's Trail. NPCs: Alkapoan, Mustura. Exits to Brimhaven8."
+description: "Brimhaven house 1 is an indoor location in Andor's Trail. NPCs: Alkapoan, Mustura. Exits to Brimhaven 8."
 ---
 
-# Brimhaven house1
+# Brimhaven house 1
 
 <div class="infobox" markdown>
 
@@ -17,19 +17,19 @@ description: "Brimhaven house1 is an indoor location in Andor's Trail. NPCs: Alk
 
 </div>
 
-**Brimhaven house1** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Brimhaven8.
+**Brimhaven house 1** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Brimhaven 8.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_house1.webp" alt="Map of Brimhaven house1" width="512" height="288" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven8/#place-entrance" title="Exit to Brimhaven8" style="left:43.750%;top:88.889%;width:6.250%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Alkapoan" style="left:12.500%;top:44.444%;width:75.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Alkapoan (only appears later, during a quest)" style="left:50.000%;top:33.333%;width:6.250%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Mustura (only appears later, during a quest)" style="left:56.250%;top:33.333%;width:6.250%;height:22.222%"></span><a class="mob" href="../../monsters/brv_richman/" title="Alkapoan" style="left:12.500%;top:55.556%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik1_2.png" alt="Alkapoan"></a><a class="mob mob-later" href="../../monsters/brv_richman/" title="Alkapoan (appears later in a quest)" style="left:50.000%;top:44.444%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik1_2.png" alt="Alkapoan"></a><a class="mob mob-later" href="../../monsters/brv_guard_captain/" title="Mustura (appears later in a quest)" style="left:56.250%;top:33.333%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_49.png" alt="Mustura"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:94.444%" title="Exit (south): to [Brimhaven8](brimhaven8.md)">1</a><a id="pin-npc-brv_richman" class="pin pin-npc" href="#key-2" style="left:15.625%;top:61.111%" title="[Alkapoan](../../monsters/brv_richman.md): 3 quests">2</a><a id="pin-npc-brv_guard_captain" class="pin pin-npc" href="#key-3" style="left:59.375%;top:38.889%" title="[Mustura](../../monsters/brv_guard_captain.md): 2 quests">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_house1.webp" alt="Map of Brimhaven house 1" width="512" height="288" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven8/#place-entrance" title="Exit to Brimhaven 8" style="left:43.750%;top:88.889%;width:6.250%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Alkapoan" style="left:12.500%;top:44.444%;width:75.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Alkapoan (only appears later, during a quest)" style="left:50.000%;top:33.333%;width:6.250%;height:22.222%"></span><span class="mo mo-spawn" title="Spawns: Mustura (only appears later, during a quest)" style="left:56.250%;top:33.333%;width:6.250%;height:22.222%"></span><a class="mob" href="../../monsters/brv_richman/" title="Alkapoan" style="left:12.500%;top:55.556%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik1_2.png" alt="Alkapoan"></a><a class="mob mob-later" href="../../monsters/brv_richman/" title="Alkapoan (appears later in a quest)" style="left:50.000%;top:44.444%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik1_2.png" alt="Alkapoan"></a><a class="mob mob-later" href="../../monsters/brv_guard_captain/" title="Mustura (appears later in a quest)" style="left:56.250%;top:33.333%;width:6.250%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_49.png" alt="Mustura"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:94.444%" title="Exit (south): to [Brimhaven 8](brimhaven8.md)">1</a><a id="pin-npc-brv_richman" class="pin pin-npc" href="#key-2" style="left:15.625%;top:61.111%" title="[Alkapoan](../../monsters/brv_richman.md): 3 quests">2</a><a id="pin-npc-brv_guard_captain" class="pin pin-npc" href="#key-3" style="left:59.375%;top:38.889%" title="[Mustura](../../monsters/brv_guard_captain.md): 2 quests">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven8](brimhaven8.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 8](brimhaven8.md) |
     | <span id="key-2"></span>2 | [Alkapoan](../monsters/brv_richman.md) | 3 quests |
     | <span id="key-3"></span>3 | [Mustura](../monsters/brv_guard_captain.md) | 2 quests |
 
@@ -40,7 +40,7 @@ description: "Brimhaven house1 is an indoor location in Andor's Trail. NPCs: Alk
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven8](brimhaven8.md) | Brimhaven | 1 |
+| South | [Brimhaven 8](brimhaven8.md) | Brimhaven | 1 |
 
 ## NPCs
 
@@ -52,9 +52,9 @@ description: "Brimhaven house1 is an indoor location in Andor's Trail. NPCs: Alk
 - [A place to forge](../quests/place_to_forge.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
 - [Much water](../quests/brv_flood.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
 - [Search for Andor](../quests/andor.md): [Alkapoan](../monsters/brv_richman.md) is involved
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Alkapoan](../monsters/brv_richman.md) is involved
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Alkapoan](../monsters/brv_richman.md) is involved
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Alkapoan](../monsters/brv_richman.md) is involved; [Mustura](../monsters/brv_guard_captain.md) is involved
 
 
 ## Version history

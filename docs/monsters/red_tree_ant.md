@@ -1,10 +1,10 @@
 ---
-description: "Red tree ant is an enemy in Andor's Trail (insect) with 131 HP, worth 618 XP, found in nw_sullengard_1. Drops: Insect wing, Insect stinger."
+description: "Red tree ant is an enemy in Andor's Trail (insect) with 131 HP, worth 618 XP, found in Nw sullengard 1. Drops: Insect wing, Insect stinger."
 ---
 
 # ![](../assets/icons/monsters/monsters_insects_3.png){ .sprite } Red tree ant
 
-**Found in:** [nw_sullengard_1](../maps/nw_sullengard_1.md)
+**Found in:** [Nw sullengard 1](../maps/nw_sullengard_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Red tree ant is an enemy in Andor's Trail (insect) with 131 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | nw_sullengard_1 |
+| **Found in** | Nw sullengard 1 |
 | **Class** | Insect |
 | **HP** | 131 |
 | **XP when defeated** | 618 |
@@ -59,7 +59,7 @@ description: "Red tree ant is an enemy in Andor's Trail (insect) with 131 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [nw_sullengard_1](../maps/nw_sullengard_1.md) | – | 9 | – |
+| [Nw sullengard 1](../maps/nw_sullengard_1.md) | – | 9 | – |
 
 
 ## Version history

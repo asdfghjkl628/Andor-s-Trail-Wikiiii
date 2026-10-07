@@ -1,10 +1,10 @@
 ---
-description: "Cave jelly is an enemy in Andor's Trail (animal) with 30 HP, worth 137 XP, found in laerothcave1, laerothcave2, laerothcave3. Drops: Gelatinous blob, Gold coins."
+description: "Cave jelly is an enemy in Andor's Trail (animal) with 30 HP, worth 137 XP, found in Laerothcave 1, Laerothcave 2, Laerothcave 3. Drops: Gelatinous blob, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_150.png){ .sprite } Cave jelly
 
-**Found in:** [laerothcave1](../maps/laerothcave1.md), [laerothcave2](../maps/laerothcave2.md), [laerothcave3](../maps/laerothcave3.md)
+**Found in:** [Laerothcave 1](../maps/laerothcave1.md), [Laerothcave 2](../maps/laerothcave2.md), [Laerothcave 3](../maps/laerothcave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cave jelly is an enemy in Andor's Trail (animal) with 30 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave1, laerothcave2, laerothcave3 |
+| **Found in** | Laerothcave 1, Laerothcave 2, Laerothcave 3 |
 | **Class** | Animal |
 | **HP** | 30 |
 | **XP when defeated** | 137 |
@@ -57,9 +57,9 @@ description: "Cave jelly is an enemy in Andor's Trail (animal) with 30 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave1](../maps/laerothcave1.md) | – | 6 | – |
-| [laerothcave2](../maps/laerothcave2.md) | – | 2 | – |
-| [laerothcave3](../maps/laerothcave3.md) | – | 3 | – |
+| [Laerothcave 1](../maps/laerothcave1.md) | – | 6 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 2 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 3 | – |
 
 
 ## Version history

@@ -11,7 +11,7 @@ description: "Guynmart wood 16 is an outdoor location in Andor's Trail. Enemies:
 | **Map ID** | `guynmart_wood_16` |
 | **Type** | Outdoors |
 | **Size** | 15×14 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 1 |
@@ -54,7 +54,7 @@ description: "Guynmart wood 16 is an outdoor location in Andor's Trail. Enemies:
 ## Quests
 
 - [base_nondisplay](../quests/base_nondisplay.md): blocked passage opens at stage 2
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): something on this map advances it
 
 ## Points of interest
 

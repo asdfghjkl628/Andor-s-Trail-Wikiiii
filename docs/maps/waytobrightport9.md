@@ -1,8 +1,8 @@
 ---
-description: "Waytobrightport9 is an indoor location in Andor's Trail. Enemies: Rash Muskrat, Elder deer. Exits to Waytobrightport10, Waytobrightport5."
+description: "Waytobrightport 9 is an indoor location in Andor's Trail. Enemies: Rash Muskrat, Elder deer. Exits to Waytobrightport 10, Waytobrightport 5."
 ---
 
-# Waytobrightport9
+# Waytobrightport 9
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waytobrightport9 is an indoor location in Andor's Trail. Enemies: 
 | **Map ID** | `waytobrightport9` |
 | **Type** | Indoors / underground |
 | **Size** | 20×11 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrightport9** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport10, Waytobrightport5.
+**Waytobrightport 9** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport 10, Waytobrightport 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport9.webp" alt="Map of Waytobrightport9" width="640" height="352" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waytobrightport10/#place-south" title="Exit to Waytobrightport10" style="left:15.000%;top:0.000%;width:10.000%;height:9.091%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport5/#place-east1" title="Exit to Waytobrightport5" style="left:0.000%;top:45.455%;width:5.000%;height:27.273%"></a><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:30.000%;top:9.091%;width:50.000%;height:36.364%"></span><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:10.000%;top:54.545%;width:70.000%;height:36.364%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:20.000%;top:72.727%;width:5.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:60.000%;top:54.545%;width:5.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:30.000%;top:9.091%;width:5.000%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:60.000%;top:36.364%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:45.000%;top:9.091%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:50.000%;top:63.636%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:20.000%;top:72.727%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:60.000%;top:54.545%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:30.000%;top:9.091%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:20.000%;top:4.545%" title="Exit (north): to [Waytobrightport10](waytobrightport10.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:59.091%" title="Exit (west): to [Waytobrightport5](waytobrightport5.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport9.webp" alt="Map of Waytobrightport 9" width="640" height="352" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waytobrightport10/#place-south" title="Exit to Waytobrightport 10" style="left:15.000%;top:0.000%;width:10.000%;height:9.091%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport5/#place-east1" title="Exit to Waytobrightport 5" style="left:0.000%;top:45.455%;width:5.000%;height:27.273%"></a><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:30.000%;top:9.091%;width:50.000%;height:36.364%"></span><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:10.000%;top:54.545%;width:70.000%;height:36.364%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:20.000%;top:72.727%;width:5.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:60.000%;top:54.545%;width:5.000%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:30.000%;top:9.091%;width:5.000%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:60.000%;top:36.364%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:45.000%;top:9.091%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:50.000%;top:63.636%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:20.000%;top:72.727%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:60.000%;top:54.545%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:30.000%;top:9.091%;width:5.000%;height:9.091%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:20.000%;top:4.545%" title="Exit (north): to [Waytobrightport 10](waytobrightport10.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:59.091%" title="Exit (west): to [Waytobrightport 5](waytobrightport5.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Waytobrightport10](waytobrightport10.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrightport5](waytobrightport5.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Waytobrightport 10](waytobrightport10.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrightport 5](waytobrightport5.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waytobrightport9 is an indoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Waytobrightport10](waytobrightport10.md) | – | 1 |
-| West | [Waytobrightport5](waytobrightport5.md) | – | 2 |
+| North | [Waytobrightport 10](waytobrightport10.md) | – | 1 |
+| West | [Waytobrightport 5](waytobrightport5.md) | – | 2 |
 
 ## Enemies
 

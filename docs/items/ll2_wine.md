@@ -36,7 +36,7 @@ description: "Polyphem's favourite wine is a ordinary food in Andor's Trail. How
 
 ### Found in containers
 
-- [mountainlake_sub](../maps/mountainlake_sub.md#container-2) (container 3, 100%)
+- [Mountainlake sub](../maps/mountainlake_sub.md#container-2) (container 3, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

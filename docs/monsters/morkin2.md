@@ -1,10 +1,10 @@
 ---
-description: "Morkin scout is an enemy in Andor's Trail (humanoid) with 152 HP, worth 259 XP, found in lodar11, lodar12, lodar18. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
+description: "Morkin scout is an enemy in Andor's Trail (humanoid) with 152 HP, worth 259 XP, found in Lodar 11, Lodar 12, Lodar 18. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_66.png){ .sprite } Morkin scout
 
-**Found in:** [lodar11](../maps/lodar11.md), [lodar12](../maps/lodar12.md), [lodar18](../maps/lodar18.md), [lodar20](../maps/lodar20.md)
+**Found in:** [Lodar 11](../maps/lodar11.md), [Lodar 12](../maps/lodar12.md), [Lodar 18](../maps/lodar18.md), [Lodar 20](../maps/lodar20.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Morkin scout is an enemy in Andor's Trail (humanoid) with 152 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar11, lodar12, lodar18 |
+| **Found in** | Lodar 11, Lodar 12, Lodar 18 |
 | **Class** | Humanoid |
 | **HP** | 152 |
 | **XP when defeated** | 259 |
@@ -58,10 +58,10 @@ description: "Morkin scout is an enemy in Andor's Trail (humanoid) with 152 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 5 | – |
-| [lodar12](../maps/lodar12.md) | – | 4 | – |
-| [lodar18](../maps/lodar18.md) | – | 4 | – |
-| [lodar20](../maps/lodar20.md) | – | 9 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 5 | – |
+| [Lodar 12](../maps/lodar12.md) | – | 4 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 4 | – |
+| [Lodar 20](../maps/lodar20.md) | – | 9 | – |
 
 
 ## Version history

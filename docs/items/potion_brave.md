@@ -46,10 +46,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “By chance, I have three potions of the brave with me. Here, take them.” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “Yes, here they are.” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | must be carried (3×) | “Yes, I have them. But I won't give them to you.” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “I'm just kidding. Here, take the three potions.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “By chance, I have three potions of the brave with me. Here, take them.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “Yes, here they are.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | – | must be carried (3×) | “Yes, I have them. But I won't give them to you.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) | handed over (3×) | “I'm just kidding. Here, take the three potions.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

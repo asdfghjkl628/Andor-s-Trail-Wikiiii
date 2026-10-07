@@ -4,7 +4,7 @@ description: "Young poisonous cave burrower is an enemy in Andor's Trail (insect
 
 # ![](../assets/icons/monsters/monsters_rltiles2_161.png){ .sprite } Young poisonous cave burrower
 
-**Found in:** Loneford: [lodar5](../maps/lodar5.md), [lodar5cave0](../maps/lodar5cave0.md), [lodar5cave1](../maps/lodar5cave1.md), [lodar5cave2](../maps/lodar5cave2.md) (+3 more)
+**Found in:** Loneford: [Lodar 5](../maps/lodar5.md), [Lodar 5cave 0](../maps/lodar5cave0.md), [Lodar 5cave 1](../maps/lodar5cave1.md), [Lodar 5cave 2](../maps/lodar5cave2.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Young poisonous cave burrower is an enemy in Andor's Trail (insect
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar5](../maps/lodar5.md) | Loneford | 3 | – |
-| [lodar5cave0](../maps/lodar5cave0.md) | – | 22 | – |
-| [lodar5cave1](../maps/lodar5cave1.md) | – | 10 | – |
-| [lodar5cave2](../maps/lodar5cave2.md) | – | 3 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 3 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 4 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 2 | – |
+| [Lodar 5](../maps/lodar5.md) | Loneford | 3 | – |
+| [Lodar 5cave 0](../maps/lodar5cave0.md) | – | 22 | – |
+| [Lodar 5cave 1](../maps/lodar5cave1.md) | – | 10 | – |
+| [Lodar 5cave 2](../maps/lodar5cave2.md) | – | 3 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 3 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 4 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 2 | – |
 
 
 ## Version history

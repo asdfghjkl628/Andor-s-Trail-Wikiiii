@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | [Spies in the foam](../quests/jolnor.md#stage-30) | handed over (1×) | “Yes, he is removed.” |
+| [Jolnor](../monsters/jolnor.md) ([Vilegard chapel](../maps/vilegard_chapel.md)) | [Spies in the foam](../quests/jolnor.md#stage-30) | handed over (1×) | “Yes, he is removed.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

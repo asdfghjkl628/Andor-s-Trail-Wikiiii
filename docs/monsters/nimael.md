@@ -4,7 +4,7 @@ description: "Nimael is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } Nimael
 
-**Where to find Nimael:** Fallhaven: [mywild20_houseleft](../maps/mywild20_houseleft.md#pin-npc-nimael)
+**Where to find Nimael:** Fallhaven: [Mywild 20 houseleft](../maps/mywild20_houseleft.md#pin-npc-nimael)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Nimael is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Delicious soup](../quests/gison_soup.md): stages 70, 90, 110, 120
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 20, 21
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stages 20, 21
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nimael. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Nimael. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/nimael.json" data-npc="Nimael" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-nimael"></span>**`nimael`** Nimael: “Hello kid.”
 
@@ -65,8 +65,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Alaun told me that you also make very good soup.” *(if reached stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35); NOT reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); NOT reached stage 110 of [Delicious soup](../quests/gison_soup.md#stage-110))* → [nimael_arg_10](#d-nimael_arg_10)
     - “OK. Bye.” → *conversation ends*
-    - “While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.” *(if reached stage 5 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-5); carry 1× [Gloriosa mushroom](../items/gloriosa_mushroom.md); reached stage 120 of [Delicious soup](../quests/gison_soup.md#stage-120))* → [nimael_pm_0](#d-nimael_pm_0)
-    - “Is the Gloriosa soup ready?” *(if reached stage 20 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-20); NOT reached stage 21 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-21))* → [nimael_pm_40](#d-nimael_pm_40)
+    - “While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.” *(if reached stage 5 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-5); carry 1× [Gloriosa mushroom](../items/gloriosa_mushroom.md); reached stage 120 of [Delicious soup](../quests/gison_soup.md#stage-120))* → [nimael_pm_0](#d-nimael_pm_0)
+    - “Is the Gloriosa soup ready?” *(if reached stage 20 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-20); NOT reached stage 21 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-21))* → [nimael_pm_40](#d-nimael_pm_40)
 
     <span id="d-nimael_2"></span>**`nimael_2`** Nimael: “I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much.”
 
@@ -103,7 +103,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “So it is useless?” → [nimael_pm_20](#d-nimael_pm_20)
 
-    <span id="d-nimael_pm_50"></span>**`nimael_pm_50`** Nimael: “Yes. Please enjoy while it's hot.” — **effects:** sets stage 21 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-21), gives 1× [Gloriosa mushroom soup](../items/gloriosa_mushroom_soup.md)
+    <span id="d-nimael_pm_50"></span>**`nimael_pm_50`** Nimael: “Yes. Please enjoy while it's hot.” — **effects:** sets stage 21 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-21), gives 1× [Gloriosa mushroom soup](../items/gloriosa_mushroom_soup.md)
 
 
     <span id="d-nimael_pm_45"></span>**`nimael_pm_45`** Nimael: “No, not yet. You must have patience. Making the Gloriosa soup safe to eat takes time.”
@@ -121,7 +121,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-nimael_pm_25"></span>**`nimael_pm_25`** Nimael: “Well, if you change your mind, you know where to find me.” — **effects:** gives 1× [Gloriosa mushroom](../items/gloriosa_mushroom.md)
 
 
-    <span id="d-nimael_pm_30"></span>**`nimael_pm_30`** Nimael: “I just need a little bit of time. Please come back soon and I will have your soup ready.” — **effects:** starts timer “gloriosa_soup_making”, sets stage 20 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-20)
+    <span id="d-nimael_pm_30"></span>**`nimael_pm_30`** Nimael: “I just need a little bit of time. Please come back soon and I will have your soup ready.” — **effects:** starts timer “gloriosa_soup_making”, sets stage 20 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-20)
 
 
 
@@ -134,7 +134,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Thanks to your advice, we have been successful selling more soup to t…” → “Thanks to your advice, we have been successful selling more soup to t…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed |
-| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…”<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…”<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…” |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

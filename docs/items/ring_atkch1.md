@@ -40,8 +40,8 @@ description: "Ring of surehit is a ordinary ring in Andor's Trail (Attack chance
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1) | 100% | 1 | Brimhaven |
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2) | 100% | 1 | Brimhaven |
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3) | 100% | 1 | Brimhaven |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 2.5% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 2.5% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 2.5% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 2.5% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 
 ### Sold by
 
@@ -50,7 +50,7 @@ description: "Ring of surehit is a ordinary ring in Andor's Trail (Attack chance
 
 ### Quest & dialogue rewards
 
-- From [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) during [Trial by fire](../quests/charwood2.md#stage-50) (100%)
+- From [Maevalia](../monsters/maevalia.md) ([Tradehouse 0](../maps/tradehouse0.md)) during [Trial by fire](../quests/charwood2.md#stage-50) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

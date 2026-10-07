@@ -1,10 +1,10 @@
 ---
-description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptile) with 207 HP, worth 880 XP, found in way_to_sullengard_east9. Drops: Poison gland, Snake meat, Venomscale scales."
+description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptile) with 207 HP, worth 880 XP, found in Way to sullengard east 9. Drops: Poison gland, Snake meat, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_24.png){ .sprite } Queen Sullengard forest snake
 
-**Found in:** [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md)
+**Found in:** [Way to sullengard east 9](../maps/way_to_sullengard_east9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptil
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_east9 |
+| **Found in** | Way to sullengard east 9 |
 | **Class** | Reptile |
 | **HP** | 207 |
 | **XP when defeated** | 880 |
@@ -58,7 +58,7 @@ description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptil
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 2 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 2 | – |
 
 
 ## Version history

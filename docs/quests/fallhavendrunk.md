@@ -11,9 +11,9 @@ description: "Drunken tale is a quest in Andor's Trail, started by Drunkard (fal
 | **Quest ID** | `fallhavendrunk` |
 | **In journal** | Yes |
 | **Stages** | 2 (completes at 100) |
-| **Started by** | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)), [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
+| **Started by** | [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)), [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) |
 | **NPCs involved** | [Drunkard](../monsters/drunkard.md) |
-| **Locations** | [fallhaven_nw](../maps/fallhaven_nw.md) |
+| **Locations** | [Fallhaven north-west](../maps/fallhaven_nw.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Drunken tale is a quest in Andor's Trail, started by Drunkard (fal
 
 ## Prerequisites to start
 
-None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) to begin.
+None: talk to [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -39,25 +39,45 @@ None: talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallha
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | A drunk outside Fallhaven tavern began telling me his story, but wants me to bring him some mead. I don't know if his story will lead anywhere though. | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | – |
-| <span id="stage-100"></span>100 | The drunk told me he used to travel with Unnmir. I should go talk to Unnmir. **(completes quest)** | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">A drunk outside Fallhaven tavern began telling me his story, but… ▸</span><span class="l">▴ less</span></summary>A drunk outside Fallhaven tavern began telling me his story, but wants me to bring him some mead. I don't know if his story will lead anywhere though.</details> | [Drunkard](../monsters/drunkard.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | The drunk told me he used to travel with Unnmir. I should go talk to Unnmir. **(ends quest)** | [Drunkard](../monsters/drunkard.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “Yes” → **stage 10**. NPC: “Well then give it back! Or go buy me another mead.”
-    2. Talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “No” → **stage 10**. NPC: “I must have drunk it then. Could you get me a new mead do you think?”
+??? note "Stage 10 · Drunkard · 2 ways"
 
-???+ note "Stage 100: 1 route"
+    **Way 1:** Talk to [Drunkard](../monsters/drunkard.md), choose “Yes”
 
-    1. Talk to [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “Yes.” — **conditions:** reached stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100) → **stage 100**. NPC: “Yeah, me and Unnmir had good times. Go ask him yourself, he is usually in the barn to the east of here. I wonder…”
+    - *“Well then give it back! Or go buy me another mead.”*
+
+    **Way 2:** Talk to [Drunkard](../monsters/drunkard.md), choose “No”
+
+    - *“I must have drunk it then. Could you get me a new mead do you think?”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Drunkard · 1 way"
+
+    **Way 1:** Talk to [Drunkard](../monsters/drunkard.md), choose “Yes.”
+
+    - **Needs:** stage 100
+    - *“Yeah, me and Unnmir had good times. Go ask him yourself, he is usually in the barn to the east of here. I wonder *burps* where that…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

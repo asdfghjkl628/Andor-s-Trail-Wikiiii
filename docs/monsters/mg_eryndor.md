@@ -1,10 +1,10 @@
 ---
-description: "Eryndor is an NPC who can also be fought in Andor's Trail, found in mt_galmore0_h1, mt_galmore0_h1_2, mt_galmore_nw_tower_f2."
+description: "Eryndor is an NPC who can also be fought in Andor's Trail, found in Mt galmore 0 h 1, Mt galmore 0 h 1 2, Mt galmore north-west tower f 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Eryndor
 
-**Where to find Eryndor:** [mt_galmore0_h1](../maps/mt_galmore0_h1.md#pin-npc-mg_eryndor), [mt_galmore0_h1_2](../maps/mt_galmore0_h1_2.md#pin-npc-mg_eryndor), [mt_galmore_nw_tower_f2](../maps/mt_galmore_nw_tower_f2.md#pin-npc-mg_eryndor), [mt_galmore_sw_tower_f2](../maps/mt_galmore_sw_tower_f2.md#pin-npc-mg_eryndor)
+**Where to find Eryndor:** [Mt galmore 0 h 1](../maps/mt_galmore0_h1.md#pin-npc-mg_eryndor), [Mt galmore 0 h 1 2](../maps/mt_galmore0_h1_2.md#pin-npc-mg_eryndor), [Mt galmore north-west tower f 2](../maps/mt_galmore_nw_tower_f2.md#pin-npc-mg_eryndor), [Mt galmore south-west tower f 2](../maps/mt_galmore_sw_tower_f2.md#pin-npc-mg_eryndor)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Eryndor is an NPC who can also be fought in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | mt_galmore0_h1, mt_galmore0_h1_2, mt_galmore_nw_tower_f2 |
+| **Found in** | Mt galmore 0 h 1, Mt galmore 0 h 1 2, Mt galmore north-west tower f 2 |
 | **Class** | Ghost |
 | **HP** | 287 |
 | **XP when defeated** | 989 |
@@ -57,23 +57,23 @@ description: "Eryndor is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mt_galmore0_h1](../maps/mt_galmore0_h1.md) | – | 1 | Appears later, during a quest |
-| [mt_galmore0_h1_2](../maps/mt_galmore0_h1_2.md) | – | 1 | Appears later, during a quest |
-| [mt_galmore_nw_tower_f2](../maps/mt_galmore_nw_tower_f2.md) | – | 1 | Appears later, during a quest |
-| [mt_galmore_sw_tower_f2](../maps/mt_galmore_sw_tower_f2.md) | – | 1 | Appears later, during a quest |
+| [Mt galmore 0 h 1](../maps/mt_galmore0_h1.md) | – | 1 | Appears later, during a quest |
+| [Mt galmore 0 h 1 2](../maps/mt_galmore0_h1_2.md) | – | 1 | Appears later, during a quest |
+| [Mt galmore north-west tower f 2](../maps/mt_galmore_nw_tower_f2.md) | – | 1 | Appears later, during a quest |
+| [Mt galmore south-west tower f 2](../maps/mt_galmore_sw_tower_f2.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [mt_galmore0_h1](../maps/mt_galmore0_h1.md), stepping on a trigger on [mt_galmore0_h1_2](../maps/mt_galmore0_h1_2.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Mt galmore 0 h 1](../maps/mt_galmore0_h1.md), stepping on a trigger on [Mt galmore 0 h 1 2](../maps/mt_galmore0_h1_2.md) checks that this enemy has been defeated.
 
 ## Quests
 
 - [Restless in the grave](../quests/mg_restless_grave.md): stages 50, 60, 65, 85, 90, 110, 123
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stages 15, 17
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stages 15, 17
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Eryndor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Eryndor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg_eryndor_selector.json" data-npc="Eryndor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -81,9 +81,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (50 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-mg_eryndor_selector"></span>**`mg_eryndor_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 15 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-15)
+    <span id="d-mg_eryndor_selector"></span>**`mg_eryndor_selector`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 15 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-15)
 
     - branch 1 *(if latest stage of [Restless in the grave](../quests/mg_restless_grave.md#stage-50) is 50)* → [mg_eryndor_give_items_20](#d-mg_eryndor_give_items_20)
     - branch 2 *(if reached stage 77 of [Restless in the grave](../quests/mg_restless_grave.md#stage-77); NOT reached stage 85 of [Restless in the grave](../quests/mg_restless_grave.md#stage-85))* → [mg_eryndor_give_stolen_ring_10](#d-mg_eryndor_give_stolen_ring_10)
@@ -112,7 +112,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Yes, here it is. [Hand it over]” *(if hand over 1× [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_give_ring_20](#d-mg_eryndor_give_ring_20)
     - “Yes, here it is. [Take it off and hand it over.]” *(if wearing (and give up) [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_give_ring_20](#d-mg_eryndor_give_ring_20)
-    - “I already gave it to you.” *(if reached stage 17 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-17); NOT carry 1× [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_give_ring_50](#d-mg_eryndor_give_ring_50)
+    - “I already gave it to you.” *(if reached stage 17 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-17); NOT carry 1× [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_give_ring_50](#d-mg_eryndor_give_ring_50)
     - “I have it, but I've decided to keep it for myself.” *(if carry 1× [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_keep_ring_10](#d-mg_eryndor_keep_ring_10)
     - “I'm wearing it, and you can't have it.” *(if wearing [Cursed ring of focus](../items/cursed_ring_focus.md))* → [mg_eryndor_keep_ring_10](#d-mg_eryndor_keep_ring_10)
     - “Yes, but I forgot to bring it with me. I will have to come back later.” *(if NOT carry 1× [Cursed ring of focus](../items/cursed_ring_focus.md); NOT wearing [Cursed ring of focus](../items/cursed_ring_focus.md))* → *conversation ends*
@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [mg_eryndor_give_stolen_ring_50](#d-mg_eryndor_give_stolen_ring_50)
 
-    <span id="d-mg_eryndor_give_ring_20"></span>**`mg_eryndor_give_ring_20`** [Dummy NPC](../monsters/none.md): “Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.” — **effects:** sets stage 17 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-17)
+    <span id="d-mg_eryndor_give_ring_20"></span>**`mg_eryndor_give_ring_20`** [Dummy NPC](../monsters/none.md): “Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.” — **effects:** sets stage 17 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-17)
 
     - Next → [mg_eryndor_give_ring_30](#d-mg_eryndor_give_ring_30)
 
@@ -290,7 +290,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [mg_eryndor_music_box_30](#d-mg_eryndor_music_box_30)
 
-    <span id="d-mg_eryndor_give_ring_110"></span>**`mg_eryndor_give_ring_110`** [Eryndor](../monsters/mg_eryndor.md): “I have been bound to this world by resentment, by the belief that my suffering was without meaning. But now, with my ring returned, I feel... lighter. It's time to let go. [With a final, grateful nod, Eryndor begins to fade, his form…” — **effects:** sets stage 90 of [Restless in the grave](../quests/mg_restless_grave.md#stage-90), clears stage 15 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-15), removes monsters from mt_galmore_nw_tower_f2, removes monsters from mt_galmore_sw_tower_f2, removes monsters from mt_galmore0_h1, removes monsters from mt_galmore0_h1_2
+    <span id="d-mg_eryndor_give_ring_110"></span>**`mg_eryndor_give_ring_110`** [Eryndor](../monsters/mg_eryndor.md): “I have been bound to this world by resentment, by the belief that my suffering was without meaning. But now, with my ring returned, I feel... lighter. It's time to let go. [With a final, grateful nod, Eryndor begins to fade, his form…” — **effects:** sets stage 90 of [Restless in the grave](../quests/mg_restless_grave.md#stage-90), clears stage 15 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-15), removes monsters from mt_galmore_nw_tower_f2, removes monsters from mt_galmore_sw_tower_f2, removes monsters from mt_galmore0_h1, removes monsters from mt_galmore0_h1_2
 
 
     <span id="d-mg_eryndor_music_box_30"></span>**`mg_eryndor_music_box_30`** [Eryndor](../monsters/mg_eryndor.md): “But now? What does a dead man need with a relic? It is time to put an old contest to rest. I want you to find Celdar and give this to her. Not as a gesture of kindness, but because it is right.”

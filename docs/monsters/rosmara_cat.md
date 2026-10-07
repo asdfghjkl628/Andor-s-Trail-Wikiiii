@@ -1,10 +1,10 @@
 ---
-description: "Mean cat is a non-player character (NPC) in Andor's Trail, found in wayto_feygard_duleian_2."
+description: "Mean cat is a non-player character (NPC) in Andor's Trail, found in Wayto feygard duleian 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } Mean cat
 
-**Where to find Mean cat:** [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md#pin-npc-rosmara_cat)
+**Where to find Mean cat:** [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-rosmara_cat)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Mean cat is a non-player character (NPC) in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | wayto_feygard_duleian_2 |
+| **Found in** | Wayto feygard duleian 2 |
 | **Entry ID** | `rosmara_cat` |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
@@ -21,7 +21,7 @@ description: "Mean cat is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mean cat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mean cat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mean_cat.json" data-npc="Mean cat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mean_cat"></span>**`mean_cat`** Mean cat: “Hsss!”
 

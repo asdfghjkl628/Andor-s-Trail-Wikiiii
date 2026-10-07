@@ -1,10 +1,10 @@
 ---
-description: "Anoa is an NPC who can also be fought in Andor's Trail, found in undertell_3_02. Starts Devotion."
+description: "Anoa is an NPC who can also be fought in Andor's Trail, found in Undertell 3 02. Starts Devotion."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_641.png){ .sprite } Anoa
 
-**Where to find Anoa:** [undertell_3_02](../maps/undertell_3_02.md#pin-npc-anoa)
+**Where to find Anoa:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-anoa)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Anoa is an NPC who can also be fought in Andor's Trail, found in u
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [Devotion](../quests/devotion.md) |
-| **Found in** | undertell_3_02 |
+| **Found in** | Undertell 3 02 |
 | **Class** | Ghost |
 | **HP** | 545 |
 | **XP when defeated** | 2,455 |
@@ -60,20 +60,20 @@ description: "Anoa is an NPC who can also be fought in Andor's Trail, found in u
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_02](../maps/undertell_3_02.md) | – | 1 | – |
+| [Undertell 3 02](../maps/undertell_3_02.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 ## Quests
 
 - [Devotion](../quests/devotion.md): stages 20, 40, 60, 80, 110, 450, 470
-- [hidden_devotion (hidden flag)](../quests/hidden_devotion.md): stage 450
+- [Devotion story flags (hidden flag)](../quests/hidden_devotion.md): stage 450
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Anoa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Anoa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/anoa_selector.json" data-npc="Anoa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (56 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-anoa_selector"></span>**`anoa_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -312,7 +312,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “How did they stay hidden?” → [anoa_story_20f](#d-anoa_story_20f)
 
-    <span id="d-anoa_ring_upgrade_10"></span>**`anoa_ring_upgrade_10`** Anoa: “As you have truly vanquished the Kha'zaan and resisted their whispers, Elythara grants her favor. Through this ring, her blessing now flows anew.” — **effects:** gives 1× [Elythara's ring](../items/elythara_ring_upgraded.md), sets stage 450 of [Devotion](../quests/devotion.md#stage-450), removes monsters from undertell_3_02, sets stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450), spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02
+    <span id="d-anoa_ring_upgrade_10"></span>**`anoa_ring_upgrade_10`** Anoa: “As you have truly vanquished the Kha'zaan and resisted their whispers, Elythara grants her favor. Through this ring, her blessing now flows anew.” — **effects:** gives 1× [Elythara's ring](../items/elythara_ring_upgraded.md), sets stage 450 of [Devotion](../quests/devotion.md#stage-450), removes monsters from undertell_3_02, sets stage 450 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-450), spawns monsters on undertell_3_00, spawns monsters on undertell_3_01, spawns monsters on undertell_3_11, spawns monsters on undertell_3_12, spawns monsters on undertell_3_13, spawns monsters on undertell_3_03, spawns monsters on undertell_3_02
 
     - “Thank you, Anoa.” → *conversation ends*
 

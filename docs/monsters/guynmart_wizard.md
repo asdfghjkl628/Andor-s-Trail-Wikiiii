@@ -4,7 +4,7 @@ description: "Rorthron is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_30.png){ .sprite } Rorthron
 
-**Where to find Rorthron:** Guynmart Castle: [guynmart_tower_4](../maps/guynmart_tower_4.md#pin-npc-guynmart_wizard)
+**Where to find Rorthron:** Guynmart Castle: [Guynmart tower 4](../maps/guynmart_tower_4.md#pin-npc-guynmart_wizard)
 
 <div class="infobox" markdown>
 
@@ -31,11 +31,11 @@ description: "Rorthron is a non-player character (NPC) in Andor's Trail, found i
 
 ## Quests
 
-- [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md): stages 1, 2, 100
+- [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md): stages 1, 2, 100
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rorthron. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rorthron. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_wizard_10.json" data-npc="Rorthron" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,11 +43,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (18 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_wizard_10"></span>**`guynmart_wizard_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12))* → [guynmart_wizard_20](#d-guynmart_wizard_20)
+    - branch 1 *(if reached stage 12 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12))* → [guynmart_wizard_20](#d-guynmart_wizard_20)
     - branch 2 → [guynmart_wizard_12](#d-guynmart_wizard_12)
 
     <span id="d-guynmart_wizard_20"></span>**`guynmart_wizard_20`** *(silent check: the first matching branch below is taken)*
@@ -116,7 +116,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Thank you for your offer Rorthron. Here is the ring - be careful with it.” *(if hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md))* → [guynmart_wizard_70](#d-guynmart_wizard_70)
     - “No, I would never give you my ring.” → *conversation ends*
 
-    <span id="d-guynmart_wizard_70"></span>**`guynmart_wizard_70`** Rorthron: “Oops!” — **effects:** gives [Ring of far lesser Shadow](../items/ring_shadow1.md), sets stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1), sets stage 2 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2), sets stage 100 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-100)
+    <span id="d-guynmart_wizard_70"></span>**`guynmart_wizard_70`** Rorthron: “Oops!” — **effects:** gives [Ring of far lesser Shadow](../items/ring_shadow1.md), sets stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1), sets stage 2 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2), sets stage 100 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-100)
 
     - “Oops? What does "oops" mean? Something went wrong?” → [guynmart_wizard_72](#d-guynmart_wizard_72)
 

@@ -12,7 +12,7 @@ description: "Vilegard south is an outdoor location in Andor's Trail, in Vilegar
 | **Region** | In Vilegard (settlement) |
 | **Type** | Outdoors |
 | **Size** | 23×26 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 5 |
 | **Enemy types** | 1 |
@@ -82,7 +82,7 @@ description: "Vilegard south is an outdoor location in Andor's Trail, in Vilegar
 - [The Dead are Walking](../quests/dead_walking.md): [Gabriel](../monsters/gabriel.md) is involved
 - [Troubling times](../quests/troubling_times.md): [Sly Seraphina](../monsters/tt_seraphina.md) is involved
 - [Trusting an outsider](../quests/vilegard.md): [Vilegard woman](../monsters/vilegard_woman.md) is involved
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): something on this map advances it; stepping on a trigger here sets stage 54
+- [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md): something on this map advances it; stepping on a trigger here sets stage 54
 
 ## Points of interest
 

@@ -1,10 +1,10 @@
 ---
-description: "Allaceph is an enemy in Andor's Trail (demon) with 94 HP, worth 237 XP, found in waytobrimhavencave1, waytobrimhavencave2. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
+description: "Allaceph is an enemy in Andor's Trail (demon) with 94 HP, worth 237 XP, found in Waytobrimhavencave 1, Waytobrimhavencave 2. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite } Allaceph
 
-**Found in:** [waytobrimhavencave1](../maps/waytobrimhavencave1.md), [waytobrimhavencave2](../maps/waytobrimhavencave2.md)
+**Found in:** [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md), [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Allaceph is an enemy in Andor's Trail (demon) with 94 HP, worth 23
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave1, waytobrimhavencave2 |
+| **Found in** | Waytobrimhavencave 1, Waytobrimhavencave 2 |
 | **Class** | Demon |
 | **HP** | 94 |
 | **XP when defeated** | 237 |
@@ -63,8 +63,8 @@ description: "Allaceph is an enemy in Andor's Trail (demon) with 94 HP, worth 23
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 9 | – |
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 6 | – |
+| [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md) | – | 9 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 6 | – |
 
 
 ## Version history

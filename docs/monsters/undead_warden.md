@@ -4,7 +4,7 @@ description: "Undead warden is an NPC who can also be fought in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Undead warden
 
-**Where to find Undead warden:** Flagstone Prison: [flagstone_upper](../maps/flagstone_upper.md#pin-npc-undead_warden)
+**Where to find Undead warden:** Flagstone Prison: [Flagstone upper](../maps/flagstone_upper.md#pin-npc-undead_warden)
 
 <div class="infobox" markdown>
 
@@ -60,7 +60,7 @@ description: "Undead warden is an NPC who can also be fought in Andor's Trail, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone_upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
+| [Flagstone upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
 
 ## Quests
 
@@ -68,7 +68,7 @@ description: "Undead warden is an NPC who can also be fought in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Undead warden. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Undead warden. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/flagstone_guard0.json" data-npc="Undead warden" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-flagstone_guard0"></span>**`flagstone_guard0`** Undead warden: “Ah, another mortal. Prepare to become part of my undead army!” — **effects:** sets stage 31 of [Ancient secrets](../quests/flagstone.md#stage-31)
 

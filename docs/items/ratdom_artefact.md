@@ -36,7 +36,7 @@ description: "Rat's artifact is a extraordinary food in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [ratdom_maze_448](../maps/ratdom_maze_448.md) during [Yellow is it](../quests/ratdom_quest.md#stage-950) (1×)
+- From stepping on a trigger on [Ratdom maze 448](../maps/ratdom_maze_448.md) during [Yellow is it](../quests/ratdom_quest.md#stage-950) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -47,7 +47,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [ratdom_maze_448](../maps/ratdom_maze_448.md) | [Yellow is it](../quests/ratdom_quest.md#stage-948) | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 448](../maps/ratdom_maze_448.md) | [Yellow is it](../quests/ratdom_quest.md#stage-948) | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

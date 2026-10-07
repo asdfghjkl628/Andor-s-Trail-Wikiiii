@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild14 is an indoor location in Andor's Trail. Enemies: Duleian panther. Exits to Brightportwild13, Brightport cave16."
+description: "Brightportwild 14 is an indoor location in Andor's Trail. Enemies: Duleian panther. Exits to Brightportwild 13, Brightport cave 16."
 ---
 
-# Brightportwild14
+# Brightportwild 14
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Brightportwild14 is an indoor location in Andor's Trail. Enemies: 
 | **Map ID** | `brightportwild14` |
 | **Type** | Indoors / underground |
 | **Size** | 25×9 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild14** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild13, Brightport cave16.
+**Brightportwild 14** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild 13, Brightport cave 16.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild14.webp" alt="Map of Brightportwild14" width="800" height="288" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../brightportwild13/#place-south" title="Exit to Brightportwild13" style="left:40.000%;top:0.000%;width:24.000%;height:11.111%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave16/#place-entrance" title="Exit to Brightport cave16" style="left:72.000%;top:33.333%;width:4.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:44.000%;top:22.222%;width:24.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:64.000%;top:11.111%;width:4.000%;height:11.111%"></span><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:52.000%;top:22.222%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:60.000%;top:33.333%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:64.000%;top:11.111%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="pin pin-exit" href="#key-1" style="left:52.000%;top:5.556%" title="Exit (north): to [Brightportwild13](brightportwild13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:74.000%;top:38.889%" title="Exit (stairs / passage): to [Brightport cave16](brightport_cave16.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild14.webp" alt="Map of Brightportwild 14" width="800" height="288" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../brightportwild13/#place-south" title="Exit to Brightportwild 13" style="left:40.000%;top:0.000%;width:24.000%;height:11.111%"></a><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave16/#place-entrance" title="Exit to Brightport cave 16" style="left:72.000%;top:33.333%;width:4.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:44.000%;top:22.222%;width:24.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:64.000%;top:11.111%;width:4.000%;height:11.111%"></span><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:52.000%;top:22.222%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:60.000%;top:33.333%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:64.000%;top:11.111%;width:4.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="pin pin-exit" href="#key-1" style="left:52.000%;top:5.556%" title="Exit (north): to [Brightportwild 13](brightportwild13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:74.000%;top:38.889%" title="Exit (stairs / passage): to [Brightport cave 16](brightport_cave16.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild13](brightportwild13.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave16](brightport_cave16.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 13](brightportwild13.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave 16](brightport_cave16.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brightportwild14 is an indoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild13](brightportwild13.md) | Burial cave | 1 |
-| Stairs / passage | [Brightport cave16](brightport_cave16.md) | – | 2 |
+| North | [Brightportwild 13](brightportwild13.md) | Burial cave | 1 |
+| Stairs / passage | [Brightport cave 16](brightport_cave16.md) | – | 2 |
 
 ## Enemies
 

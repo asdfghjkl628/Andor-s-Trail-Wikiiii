@@ -25,7 +25,7 @@ description: "Shimmering globe is a quest other in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [ratdom_maze_768](../maps/ratdom_maze_768.md) (5×)
+- From stepping on a trigger on [Ratdom maze 768](../maps/ratdom_maze_768.md) (5×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,9 +36,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_768](../maps/ratdom_maze_768.md) | – | handed over (1×) | “You throw a shimmering globe into the well.” |
-| walking into a blocked passage on [ratdom_maze_768](../maps/ratdom_maze_768.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-48) | handed over (1×) | “You throw a shimmering globe into the well.” |
-| stepping on a trigger on [ratdom_maze_768](../maps/ratdom_maze_768.md) | – | handed over (1×) | “(automatic)” |
+| walking into a blocked passage on [Ratdom maze 768](../maps/ratdom_maze_768.md) | – | handed over (1×) | “You throw a shimmering globe into the well.” |
+| walking into a blocked passage on [Ratdom maze 768](../maps/ratdom_maze_768.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-48) | handed over (1×) | “You throw a shimmering globe into the well.” |
+| stepping on a trigger on [Ratdom maze 768](../maps/ratdom_maze_768.md) | – | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

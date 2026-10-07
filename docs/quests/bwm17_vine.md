@@ -1,8 +1,8 @@
 ---
-description: "Vines in bwm_17 is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain70. 3 stages. Vine taken."
+description: "Blackwater Mountain vines is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain70. 3 stages. Vine taken."
 ---
 
-# Vines in bwm_17
+# Blackwater Mountain vines
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "Vines in bwm_17 is a hidden quest in Andor's Trail, started by ste
 | **Quest ID** | `bwm17_vine` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
+| **Started by** | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -25,7 +25,7 @@ description: "Vines in bwm_17 is a hidden quest in Andor's Trail, started by ste
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) to begin.
+None: talk to stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -40,29 +40,53 @@ None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwate
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Vine taken.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span> | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) | – | gives [Rotten meat](../items/meat2.md), [Rolled up vine](../items/bwm17_vine.md), [Insect wing](../items/insectwing.md), [Mead](../items/mead.md) |
-| <span id="stage-2"></span>2 | Vine placed.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span> | walking into a blocked passage on [blackwater_mountain70](../maps/blackwater_mountain70.md) | hand over 1× [Rolled up vine](../items/bwm17_vine.md) | – |
-| <span id="stage-3"></span>3 | Quest Climbing forbidden enabled.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain14](../maps/blackwater_mountain14.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span><br><span class="qnote">🗺️ Part of [Blackwater mountain70](../maps/blackwater_mountain70.md) visibly changes.</span> | stepping on a trigger on [blackwater_mountain14](../maps/blackwater_mountain14.md) | – | removes monsters from blackwater_mountain70 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Vine taken.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 70](../maps/blackwater_mountain70.md).</span> | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) | [Rotten meat](../items/meat2.md), [Rolled up vine](../items/bwm17_vine.md), [Insect wing](../items/insectwing.md), [Mead](../items/mead.md) |
+| <span id="stage-2"></span>[2](#route-2) | Vine placed.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain 70](../maps/blackwater_mountain70.md).</span> | walking into a blocked passage on [Blackwater mountain 70](../maps/blackwater_mountain70.md) | – |
+| <span id="stage-3"></span>[3](#route-3) | Quest Climbing forbidden enabled.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 14](../maps/blackwater_mountain14.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain 70](../maps/blackwater_mountain70.md).</span><br><span class="qnote">🗺️ Part of [Blackwater mountain 70](../maps/blackwater_mountain70.md) visibly changes.</span> | stepping on a trigger on [Blackwater mountain 14](../maps/blackwater_mountain14.md) | removes monsters from blackwater_mountain70 |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) → choose “Take a better look.” → **stage 1**; also gives [Rotten meat](../items/meat2.md), [Rolled up vine](../items/bwm17_vine.md), [Insect wing](../items/insectwing.md), [Mead](../items/mead.md). NPC: “Under all the rotten food, there is a long vine all rolled up. It might be useful, so you decide to take it.”
+??? note "Stage 1 · stepping on a trigger on blackwater_mountain70 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md), choose “Take a better look.”
 
-    1. walking into a blocked passage on [blackwater_mountain70](../maps/blackwater_mountain70.md) → choose “Tie the vine to the rock.” — **conditions:** hand over 1× [Rolled up vine](../items/bwm17_vine.md) → **stage 2**. NPC: “Once tied, you give the improvised rope a couple of firm tugs. It seems stable enough to help you climb down the hole.”
+    - **Gives:** [Rotten meat](../items/meat2.md), [Rolled up vine](../items/bwm17_vine.md), [Insect wing](../items/insectwing.md), [Mead](../items/mead.md)
+    - *“Under all the rotten food, there is a long vine all rolled up. It might be useful, so you decide to take it.”*
 
-???+ note "Stage 3: 1 route"
 
-    1. stepping on a trigger on [blackwater_mountain14](../maps/blackwater_mountain14.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [Lights in the dark](../quests/kazaul.md#stage-9) → **stage 3**; also removes monsters from blackwater_mountain70
+<span id="route-2"></span>
+
+??? note "Stage 2 · walking into a blocked passage on blackwater_mountain70 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Blackwater mountain 70](../maps/blackwater_mountain70.md), choose “Tie the vine to the rock.”
+
+    - **Needs:** hand over 1× [Rolled up vine](../items/bwm17_vine.md)
+    - *“Once tied, you give the improvised rope a couple of firm tugs. It seems stable enough to help you climb down the hole.”*
+
+
+<span id="route-3"></span>
+
+??? note "Stage 3 · stepping on a trigger on blackwater_mountain14 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 14](../maps/blackwater_mountain14.md)
+
+    - **Needs:** reached stage 9 of [Lights in the dark](../quests/kazaul.md#stage-9)
+    - **Gives:** removes monsters from blackwater_mountain70
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -107,6 +131,7 @@ None: talk to stepping on a trigger on [blackwater_mountain70](../maps/blackwate
     | | |
     |---|---|
     | Quest ID | `bwm17_vine` |
+    | Name in game data | `Vines in bwm_17` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3 |
     | Dialogue nodes setting stages | 1: `bwm17_vine_2`, 2: `bwm17_vine2_2`, 3: `bwm17_questenabled_check_1` |

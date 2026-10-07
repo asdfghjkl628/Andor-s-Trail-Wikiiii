@@ -12,7 +12,7 @@ description: "Sullengard apple farm west is an outdoor location in Andor's Trail
 | **Region** | Near Deebo's Orchard (other) |
 | **Type** | Outdoors |
 | **Size** | 20×40 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 3 |
 | **Quests** | 2 |

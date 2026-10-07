@@ -38,7 +38,7 @@ description: "Kid's ring is a ordinary ring in Andor's Trail (Attack damage 1, A
 
 ### Quest & dialogue rewards
 
-- From [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md)) (100%)
+- From [Gorwath](../monsters/gorwath.md) ([Crossglen](../maps/crossglen.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

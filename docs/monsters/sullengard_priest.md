@@ -4,7 +4,7 @@ description: "Kealwea is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles2_92.png){ .sprite } Kealwea
 
-**Where to find Kealwea:** Sullengard: [sullengard_church](../maps/sullengard_church.md#pin-npc-sullengard_priest)
+**Where to find Kealwea:** Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_priest)
 
 <div class="infobox" markdown>
 
@@ -35,11 +35,11 @@ description: "Kealwea is a non-player character (NPC) in Andor's Trail, found in
 - [Pond safety](../quests/sullengard_pond_safety.md): stage 40
 - [The exploded star](../quests/mg2_exploded_star.md): stages 12, 17, 20, 32, 40, 47, 48, 52
 - [The fifth master](../quests/fifth_master.md): stage 40
-- [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md): stages 90, 91
+- [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md): stages 90, 91
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kealwea. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kealwea. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_kealwea_00.json" data-npc="Kealwea" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -47,11 +47,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (48 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_kealwea_00"></span>**`sullengard_kealwea_00`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [sullengard_kealwea_0](#d-sullengard_kealwea_0)
+    - branch 1 *(if reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91))* → [sullengard_kealwea_0](#d-sullengard_kealwea_0)
     - branch 2 *(if NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80))* → [mg2_kealwea_2](#d-mg2_kealwea_2)
     - branch 3 *(if reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52))* → [mg2_kealwea_20](#d-mg2_kealwea_20)
     - branch 4 *(if reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); NOT reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17))* → [mg2_kealwea_3](#d-mg2_kealwea_3)
@@ -129,7 +129,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I've changed my mind. These glittery things are too pretty to be destroyed.” *(if carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md))* → [mg2_kealwea_40](#d-mg2_kealwea_40)
     - “Hmm, I still have to think about it. I'll be back...” → *conversation ends*
 
-    <span id="d-mg2_starwatcher_32"></span>**`mg2_starwatcher_32`** Kealwea: “You fool!” — **effects:** sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_32"></span>**`mg2_starwatcher_32`** Kealwea: “You fool!” — **effects:** sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
     - “It was the right thing to do.” → [mg2_starwatcher_34](#d-mg2_starwatcher_34)
 
@@ -186,7 +186,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Nothing. Bye.” → *conversation ends*
 
-    <span id="d-mg2_starwatcher_42"></span>**`mg2_starwatcher_42`** Kealwea: “NOOOOO!!” — **effects:** sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_42"></span>**`mg2_starwatcher_42`** Kealwea: “NOOOOO!!” — **effects:** sets stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
     - “Now you're exaggerating. I'll go then.” → *conversation ends*
 
@@ -264,7 +264,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Maybe later. I have to go now.” → *conversation ends*
     - “No, I have enough other things to do.” → [mg2_starwatcher_19b](#d-mg2_starwatcher_19b)
 
-    <span id="d-mg2_starwatcher_19b"></span>**`mg2_starwatcher_19b`** Kealwea: “Woe, woe! Then leave me. I hope you can live with the guilt.” — **effects:** sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20), sets stage 90 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    <span id="d-mg2_starwatcher_19b"></span>**`mg2_starwatcher_19b`** Kealwea: “Woe, woe! Then leave me. I hope you can live with the guilt.” — **effects:** sets stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20), sets stage 90 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
 
 
 

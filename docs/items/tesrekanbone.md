@@ -29,7 +29,7 @@ description: "Tesrekan's bone is a quest other in Andor's Trail. How to get it: 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Tesrekan](../monsters/tesrekan.md) | 100% | 1 | waterwayacave4 |
+| [Tesrekan](../monsters/tesrekan.md) | 100% | 1 | Waterwayacave 4 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,10 +40,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [waterwayacave4](../maps/waterwayacave4.md) | [Just the beginning](../quests/waterwayacave.md#stage-55) | must be carried (1×) | “N” |
-| [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | – | must be carried (1×) | “I explored the cave. You were correct. I found a monster called Tesrekan, which ” |
-| [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-60) | handed over (1×) | “Certainly. Here you are.” |
-| [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-70) | handed over (1×) | “You are right about that debt. I think I'll keep the talisman as payment.” |
+| stepping on a trigger on [Waterwayacave 4](../maps/waterwayacave4.md) | [Just the beginning](../quests/waterwayacave.md#stage-55) | must be carried (1×) | “N” |
+| [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) | – | must be carried (1×) | “I explored the cave. You were correct. I found a monster called Tesrekan, which ” |
+| [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-60) | handed over (1×) | “Certainly. Here you are.” |
+| [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-70) | handed over (1×) | “You are right about that debt. I think I'll keep the talisman as payment.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

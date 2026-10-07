@@ -4,7 +4,7 @@ description: "Izthiel is an enemy in Andor's Trail (reptile) with 45 HP, worth 1
 
 # ![](../assets/icons/monsters/monsters_rltiles2_49.png){ .sprite } Izthiel
 
-**Found in:** Brightport: [waytobrightport21](../maps/waytobrightport21.md), Brimhaven: [waterway12](../maps/waterway12.md), Brimhaven: [waterway6](../maps/waterway6.md), [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) (+7 more)
+**Found in:** Brightport: [Waytobrightport 21](../maps/waytobrightport21.md), Brimhaven: [Waterway 12](../maps/waterway12.md), Brimhaven: [Waterway 6](../maps/waterway6.md), [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -57,17 +57,17 @@ description: "Izthiel is an enemy in Andor's Trail (reptile) with 45 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) | – | 3 | – |
-| [waterway0](../maps/waterway0.md) | – | 1 | – |
-| [waterway1](../maps/waterway1.md) | – | 4 | – |
-| [waterway10](../maps/waterway10.md) | – | 2 | – |
-| [waterway11](../maps/waterway11.md) | – | 2 | – |
-| [waterway12](../maps/waterway12.md) | Brimhaven | 2 | – |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 4 | – |
-| [waterway7](../maps/waterway7.md) | – | 1 | – |
-| [waterway9](../maps/waterway9.md) | – | 2 | – |
-| [waterway_forest1](../maps/waterway_forest1.md) | – | 13 | – |
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 1 | – |
+| [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) | – | 3 | – |
+| [Waterway 0](../maps/waterway0.md) | – | 1 | – |
+| [Waterway 1](../maps/waterway1.md) | – | 4 | – |
+| [Waterway 10](../maps/waterway10.md) | – | 2 | – |
+| [Waterway 11](../maps/waterway11.md) | – | 2 | – |
+| [Waterway 12](../maps/waterway12.md) | Brimhaven | 2 | – |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 4 | – |
+| [Waterway 7](../maps/waterway7.md) | – | 1 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 2 | – |
+| [Waterway forest 1](../maps/waterway_forest1.md) | – | 13 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 1 | – |
 
 
 ## Version history

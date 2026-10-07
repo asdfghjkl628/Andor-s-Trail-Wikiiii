@@ -4,7 +4,7 @@ description: "Borvis is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Borvis
 
-**Where to find Borvis:** Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_borvis), [galmore_41](../maps/galmore_41.md#pin-npc-dds_borvis), [road5](../maps/road5.md#pin-npc-dds_borvis)
+**Where to find Borvis:** Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_borvis), [Galmore 41](../maps/galmore_41.md#pin-npc-dds_borvis), [Road 5](../maps/road5.md#pin-npc-dds_borvis)
 
 <div class="infobox" markdown>
 
@@ -24,18 +24,18 @@ description: "Borvis is a non-player character (NPC) in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
-| [road5](../maps/road5.md) | – | 1 | Appears later, during a quest |
+| [Galmore 41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Road 5](../maps/road5.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [Shadows](../quests/shadows.md): stages 10, 20, 30, 40, 70, 80, 150, 160, 165, 190, 200, 220, 240, 250, 260
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): stages 3, 6
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): stages 3, 6
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Borvis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Borvis. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_borvis.json" data-npc="Borvis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (77 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_borvis"></span>**`dds_borvis`** Borvis: “Hello, $playername” — **effects:** sets stage 10 of [Shadows](../quests/shadows.md#stage-10)
 
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “There's some sort of force shield blocking the path.” → [dds_borvis_152](#d-dds_borvis_152)
 
-    <span id="d-dds_borvis_100"></span>**`dds_borvis_100`** Borvis: “Journey to the south of Stoutford, into the forests there. See what that Shadow priest is doing there, and stop him from doing it.” — **effects:** sets stage 40 of [Shadows](../quests/shadows.md#stage-40), sets stage 3 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-3), spawns monsters on galmore_45, spawns monsters on galmore_45
+    <span id="d-dds_borvis_100"></span>**`dds_borvis_100`** Borvis: “Journey to the south of Stoutford, into the forests there. See what that Shadow priest is doing there, and stop him from doing it.” — **effects:** sets stage 40 of [Shadows](../quests/shadows.md#stage-40), sets stage 3 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-3), spawns monsters on galmore_45, spawns monsters on galmore_45
 
     - “Sounds easy. I'll do it.” → *conversation ends*
 
@@ -269,7 +269,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “That's terrible!” → [dds_borvis_60](#d-dds_borvis_60)
 
-    <span id="d-dds_borvis_590"></span>**`dds_borvis_590`** Borvis: “Andor is going to visit Alynndir to refill his travel supplies.” — **effects:** sets stage 260 of [Shadows](../quests/shadows.md#stage-260), removes monsters from galmore_41, spawns monsters on road5, sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on road5_house
+    <span id="d-dds_borvis_590"></span>**`dds_borvis_590`** Borvis: “Andor is going to visit Alynndir to refill his travel supplies.” — **effects:** sets stage 260 of [Shadows](../quests/shadows.md#stage-260), removes monsters from galmore_41, spawns monsters on road5, sets stage 6 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on road5_house
 
     - “Thank you!” → *conversation ends*
     - “Who is Alynndir?” → [dds_borvis_592](#d-dds_borvis_592)

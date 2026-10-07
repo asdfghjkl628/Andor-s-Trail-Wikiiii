@@ -11,7 +11,7 @@ description: "Wayto feygard duleian 2 is an outdoor location in Andor's Trail. N
 | **Map ID** | `wayto_feygard_duleian_2` |
 | **Type** | Outdoors |
 | **Size** | 30×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **NPCs** | 3 |
 | **Enemy types** | 2 |
@@ -70,7 +70,7 @@ description: "Wayto feygard duleian 2 is an outdoor location in Andor's Trail. N
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): [Andor](../monsters/dds_andor.md) is involved
 - [Search for Andor](../quests/andor.md): [Andor](../monsters/dds_andor.md) is involved
 - [Shadows](../quests/shadows.md): [Andor](../monsters/dds_andor.md) is involved
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): [Rosmara](../monsters/rosmara.md) is involved; blocked passage opens at stage 20
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): [Rosmara](../monsters/rosmara.md) is involved; blocked passage opens at stage 20
 
 ## Points of interest
 

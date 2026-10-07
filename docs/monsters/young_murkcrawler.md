@@ -4,7 +4,7 @@ description: "Young murkcrawler is an enemy in Andor's Trail (animal) with 117 H
 
 # ![](../assets/icons/monsters/monsters_newb_1_259.png){ .sprite } Young murkcrawler
 
-**Found in:** Wexlow Village: [way_to_wexlow1](../maps/way_to_wexlow1.md), Wexlow Village: [way_to_wexlow2](../maps/way_to_wexlow2.md), Wexlow Village: [way_to_wexlow3](../maps/way_to_wexlow3.md)
+**Found in:** Wexlow Village: [Way to wexlow 1](../maps/way_to_wexlow1.md), Wexlow Village: [Way to wexlow 2](../maps/way_to_wexlow2.md), Wexlow Village: [Way to wexlow 3](../maps/way_to_wexlow3.md)
 
 <div class="infobox" markdown>
 
@@ -55,9 +55,9 @@ description: "Young murkcrawler is an enemy in Andor's Trail (animal) with 117 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_wexlow1](../maps/way_to_wexlow1.md) | Wexlow Village | 5 | – |
-| [way_to_wexlow2](../maps/way_to_wexlow2.md) | Wexlow Village | 2 | – |
-| [way_to_wexlow3](../maps/way_to_wexlow3.md) | Wexlow Village | 2 | – |
+| [Way to wexlow 1](../maps/way_to_wexlow1.md) | Wexlow Village | 5 | – |
+| [Way to wexlow 2](../maps/way_to_wexlow2.md) | Wexlow Village | 2 | – |
+| [Way to wexlow 3](../maps/way_to_wexlow3.md) | Wexlow Village | 2 | – |
 
 
 ## Version history

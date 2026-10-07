@@ -1,10 +1,10 @@
 ---
-description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 360 HP, worth 997 XP, found in galmore_71. Drops: Blazebite, Major potion of health, Emberwylde, Glass gem."
+description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 360 HP, worth 997 XP, found in Galmore 71. Drops: Blazebite, Major potion of health, Emberwylde, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_3_11.png){ .sprite } Pyreling behemoth
 
-**Found in:** [galmore_71](../maps/galmore_71.md)
+**Found in:** [Galmore 71](../maps/galmore_71.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_71 |
+| **Found in** | Galmore 71 |
 | **Class** | Construct |
 | **HP** | 360 |
 | **XP when defeated** | 997 |
@@ -64,7 +64,7 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_71](../maps/galmore_71.md) | – | 1 | – |
+| [Galmore 71](../maps/galmore_71.md) | – | 1 | – |
 
 
 ## Version history

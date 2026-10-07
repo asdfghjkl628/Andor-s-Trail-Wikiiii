@@ -1,10 +1,10 @@
 ---
-description: "Dying Patrol is a non-player character (NPC) in Andor's Trail, found in crackshot_hideout2."
+description: "Dying Patrol is a non-player character (NPC) in Andor's Trail, found in Crackshot hideout 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Dying Patrol
 
-**Where to find Dying Patrol:** [crackshot_hideout2](../maps/crackshot_hideout2.md#pin-npc-g03_deadpatrol_2)
+**Where to find Dying Patrol:** [Crackshot hideout 2](../maps/crackshot_hideout2.md#pin-npc-g03_deadpatrol_2)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dying Patrol is a non-player character (NPC) in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | crackshot_hideout2 |
+| **Found in** | Crackshot hideout 2 |
 | **Entry ID** | `g03_deadpatrol_2` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
@@ -22,11 +22,11 @@ description: "Dying Patrol is a non-player character (NPC) in Andor's Trail, fou
 ## Quests
 
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 26, 27
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stage 50
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stage 50
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dying Patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dying Patrol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guild03_deadpatrol_2_1.json" data-npc="Dying Patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guild03_deadpatrol_2_1"></span>**`guild03_deadpatrol_2_1`** Dying Patrol: “Sar...gent. *gasps*.”
 
@@ -42,8 +42,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guild03_deadpatrol_2_2"></span>**`guild03_deadpatrol_2_2`** Dying Patrol: “Y..you kid ... Argh! *spits up blood*. That guy is not ... Argh.”
 
-    - “What guy?” *(if reached stage 40 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-40))* → [guild03_deadpatrol_2_was_second](#d-guild03_deadpatrol_2_was_second)
-    - “What guy?” *(if NOT reached stage 40 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-40))* → [guild03_deadpatrol_2_was_first](#d-guild03_deadpatrol_2_was_first)
+    - “What guy?” *(if reached stage 40 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-40))* → [guild03_deadpatrol_2_was_second](#d-guild03_deadpatrol_2_was_second)
+    - “What guy?” *(if NOT reached stage 40 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-40))* → [guild03_deadpatrol_2_was_first](#d-guild03_deadpatrol_2_was_first)
 
     <span id="d-guild03_deadpatrol_2_was_second"></span>**`guild03_deadpatrol_2_was_second`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 26 of [The ruthless Crackshot](../quests/Thieves03.md#stage-26)
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - branch 1 → [guild03_deadpatrol_2_3](#d-guild03_deadpatrol_2_3)
 
-    <span id="d-guild03_deadpatrol_2_3"></span>**`guild03_deadpatrol_2_3`** Dying Patrol: “No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]” — **effects:** removes monsters from crackshot_hideout2, sets stage 50 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-50)
+    <span id="d-guild03_deadpatrol_2_3"></span>**`guild03_deadpatrol_2_3`** Dying Patrol: “No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]” — **effects:** removes monsters from crackshot_hideout2, sets stage 50 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-50)
 
     - “Shadow, embrace him ....” → *NPC leaves*
     - “I'll save your sergeant!” → *NPC leaves*

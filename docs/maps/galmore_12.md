@@ -12,7 +12,7 @@ description: "Galmore 12 is an outdoor location in Andor's Trail, near Stoutford
 | **Region** | Near Stoutford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 29×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 1 |

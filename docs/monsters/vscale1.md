@@ -1,10 +1,10 @@
 ---
-description: "Puny venomscale is an enemy in Andor's Trail (reptile) with 42 HP, worth 201 XP, found in lodar16, lodar20, lodar21. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
+description: "Puny venomscale is an enemy in Andor's Trail (reptile) with 42 HP, worth 201 XP, found in Lodar 16, Lodar 20, Lodar 21. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_21.png){ .sprite } Puny venomscale
 
-**Found in:** [lodar16](../maps/lodar16.md), [lodar20](../maps/lodar20.md), [lodar21](../maps/lodar21.md), [lodar8](../maps/lodar8.md)
+**Found in:** [Lodar 16](../maps/lodar16.md), [Lodar 20](../maps/lodar20.md), [Lodar 21](../maps/lodar21.md), [Lodar 8](../maps/lodar8.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Puny venomscale is an enemy in Andor's Trail (reptile) with 42 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar16, lodar20, lodar21 |
+| **Found in** | Lodar 16, Lodar 20, Lodar 21 |
 | **Class** | Reptile |
 | **HP** | 42 |
 | **XP when defeated** | 201 |
@@ -59,10 +59,10 @@ description: "Puny venomscale is an enemy in Andor's Trail (reptile) with 42 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar16](../maps/lodar16.md) | – | 15 | – |
-| [lodar20](../maps/lodar20.md) | – | 2 | – |
-| [lodar21](../maps/lodar21.md) | – | 2 | – |
-| [lodar8](../maps/lodar8.md) | – | 4 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 15 | – |
+| [Lodar 20](../maps/lodar20.md) | – | 2 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 2 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 4 | – |
 
 
 ## Version history

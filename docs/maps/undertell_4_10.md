@@ -1,5 +1,5 @@
 ---
-description: "Undertell 4 10 is an indoor location in Andor's Trail. Enemies: Plague-Lich, Kazaul Hex-Binder lich, Embergeist, Kazaul seer lich. Exits to Undertell 4 00, Undertell 4 11, Undertell 3 lava 10, Undertell 7 10."
+description: "Undertell 4 10 is an indoor location in Andor's Trail. Enemies: Kazaul Hex-Binder lich, Plague-Lich, Embergeist, Kazaul seer lich. Exits to Undertell 4 00, Undertell 4 11, Undertell 3 lava 10, Undertell 7 10."
 ---
 
 # Undertell 4 10
@@ -11,7 +11,7 @@ description: "Undertell 4 10 is an indoor location in Andor's Trail. Enemies: Pl
 | **Map ID** | `undertell_4_10` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level4](index.md) |
+| **World map** | [Undertell level 4](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 6 |
 | **Quests** | 1 |
@@ -53,8 +53,8 @@ description: "Undertell 4 10 is an indoor location in Andor's Trail. Enemies: Pl
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 2 | – |
 | [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 263 | 8–10 | 1 | – |
+| [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 2 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 5 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 295 | 10–12 | 2 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 295 | 10–12 | 1 | – |
@@ -65,7 +65,7 @@ description: "Undertell 4 10 is an indoor location in Andor's Trail. Enemies: Pl
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage opens at stage 1
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 4
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 4
 
 ## Points of interest
 

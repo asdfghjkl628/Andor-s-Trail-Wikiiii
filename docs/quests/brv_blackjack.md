@@ -11,9 +11,9 @@ description: "Fair play? is a quest in Andor's Trail, started by Guard (brimhave
 | **Quest ID** | `brv_blackjack` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 70, 80) |
-| **Started by** | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) |
+| **Started by** | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([Brimhaven tavern west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) |
 | **NPCs involved** | [Dealer](../monsters/brv_blackjack_dealer.md), [Guard](../monsters/guard.md#v-brv_tavern_west_guard), [Zimsko](../monsters/zimsko.md) |
-| **Locations** | [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md), [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) |
+| **Locations** | [Brimhaven tavern west](../maps/brimhaven_tavern_west.md), [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) |
 | **Total XP** | 2,450 |
 | **Related quests** | 2 |
 
@@ -25,11 +25,11 @@ description: "Fair play? is a quest in Andor's Trail, started by Guard (brimhave
 
 ## Prerequisites to start
 
-**Route 1** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
+**Route 1** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([Brimhaven tavern west](../maps/brimhaven_tavern_west.md))):
 
 - reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20)
 
-**Route 2** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
+**Route 2** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([Brimhaven tavern west](../maps/brimhaven_tavern_west.md))):
 
 - nothing
 
@@ -42,84 +42,181 @@ description: "Fair play? is a quest in Andor's Trail, started by Guard (brimhave
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-110) | stage 110 reached, for stages 20, 30, 31, 70, 80 here |
-| Requires | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-140) | stage 140 reached, for stages 70, 80 here |
-| Requires | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-150) | stage 150 reached, for stage 60 here |
-| Unlocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-150) | stage 150 there needs stages 40, 50, 60 here |
-| Blocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-1) | reaching stage 50 here closes stage 1 there |
-| Blocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-10) | reaching stage 50 here closes stage 10 there |
-| Blocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-20) | reaching stage 50 here closes stage 20 there |
-| Blocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-30) | reaching stage 50 here closes stage 30 there |
-| Blocks | [brv_blackjack_hidden (hidden flag)](brv_blackjack_hidden.md#stage-140) | reaching stage 50 here closes stage 140 there |
+| Requires | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-110) | stage 110 reached, for stages 20, 30, 31, 70, 80 here |
+| Requires | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-140) | stage 140 reached, for stages 70, 80 here |
+| Requires | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-150) | stage 150 reached, for stage 60 here |
+| Unlocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-150) | stage 150 there needs stages 40, 50, 60 here |
+| Blocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-1) | reaching stage 50 here closes stage 1 there |
+| Blocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-10) | reaching stage 50 here closes stage 10 there |
+| Blocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-20) | reaching stage 50 here closes stage 20 there |
+| Blocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-30) | reaching stage 50 here closes stage 30 there |
+| Blocks | [Brimhaven blackjack story flags (hidden flag)](brv_blackjack_hidden.md#stage-140) | reaching stage 50 here closes stage 140 there |
 | Blocks | [A place to forge](place_to_forge.md#stage-45) | reaching stage 50 here closes stage 45 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I heard noices from the back room but I was not allowed to enter because I didn't know the password. | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 20 | – |
-| <span id="stage-20"></span>20 | Zimsko told me about gambling in the back room and that he lost a lot of money. He thinks that they are cheating. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 70 | – |
-| <span id="stage-30"></span>30 | I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 20, stage 70 | – |
-| <span id="stage-31"></span>31 | I have to win and lose a few times until they trust me and play for higher amounts. Then they start cheating. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 20, stage 70 | – |
-| <span id="stage-40"></span>40 | With the password, I was allowed to enter the back room. | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | – | 300 XP<br>sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
-| <span id="stage-45"></span>45 | They trust me and now and are playing for higher amounts. | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | – | 500 XP |
-| <span id="stage-50"></span>50 | After I accused the dealer of cheating, a tavern brawl started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md).</span> | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | pay 1 gold | removes monsters from brimhaven_tavern_west_back<br>spawns monsters on brimhaven_tavern_west_back |
-| <span id="stage-60"></span>60 | All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)<br>[Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 50 | clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
-| <span id="stage-70"></span>70 | I told Zimsko that I believe the gamblers are cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30, stage 50 | 500 XP |
-| <span id="stage-80"></span>80 | I told Zimsko that I believe the gamblers are not cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30 | 1,150 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I heard noices from the back room but I was not allowed to enter… ▸</span><span class="l">▴ less</span></summary>I heard noices from the back room but I was not allowed to enter because I didn't know the password.</details> | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Zimsko told me about gambling in the back room and that he lost a… ▸</span><span class="l">▴ less</span></summary>Zimsko told me about gambling in the back room and that he lost a lot of money. He thinks that they are cheating.</details> | [Zimsko](../monsters/zimsko.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I told Zimsko that I want to find out more about the gambling and he… ▸</span><span class="l">▴ less</span></summary>I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room.</details> | [Zimsko](../monsters/zimsko.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | <details class="jt"><summary><span class="s">I have to win and lose a few times until they trust me and play for… ▸</span><span class="l">▴ less</span></summary>I have to win and lose a few times until they trust me and play for higher amounts. Then they start cheating.</details> | [Zimsko](../monsters/zimsko.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | With the password, I was allowed to enter the back room. | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) | 300 XP |
+| <span id="stage-45"></span>[45](#route-45) | They trust me and now and are playing for higher amounts. | [Dealer](../monsters/brv_blackjack_dealer.md), stepping on a trigger on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | 500 XP |
+| <span id="stage-50"></span>[50](#route-50) | After I accused the dealer of cheating, a tavern brawl started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md).</span> | [Dealer](../monsters/brv_blackjack_dealer.md), stepping on a trigger on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">All the people involved in the tavern brawl survived, but I am no… ▸</span><span class="l">▴ less</span></summary>All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | stepping on a trigger on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md), [Guard](../monsters/guard.md#v-brv_tavern_west_guard) | – |
+| <span id="stage-70"></span>[70](#route-70) | I told Zimsko that I believe the gamblers are cheating. **(ends quest)** | [Zimsko](../monsters/zimsko.md) | 500 XP |
+| <span id="stage-80"></span>[80](#route-80) | I told Zimsko that I believe the gamblers are not cheating. **(ends quest)** | [Zimsko](../monsters/zimsko.md) | 1,150 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20) → **stage 10**. NPC: “[You hear noises from the back room...] Stop! Tell me the password, if you want to enter.”
-    2. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically → **stage 10**
+??? note "Stage 10 · Guard · 2 ways"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard), automatic
 
-    1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “Do you know something about the back room?” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); reached stage 10 of [Fair play?](../quests/brv_blackjack.md#stage-10); NOT reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20) → **stage 20**. NPC: “I lost all my money gambling in the backroom. I think they are cheating.”
+    - **Needs:** stage 20
+    - *“[You hear noises from the back room...] Stop! Tell me the password, if you want to enter.”*
 
-???+ note "Stage 30: 2 routes"
+    **Way 2:** Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard), automatic
 
-    1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I want to find out what's happening in the back room.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20); NOT reached stage 10 of [Fair play?](../quests/brv_blackjack.md#stage-10); NOT reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30) → **stage 30**. NPC: “Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password…”
-    2. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I want to find out what's happening in the back room, but they want a password.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20); reached stage 10 of [Fair play?](../quests/brv_blackjack.md#stage-10); NOT reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30) → **stage 30**. NPC: “Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your…”
 
-???+ note "Stage 31: 2 routes"
 
-    1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I want to find out what's happening in the back room.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20); NOT reached stage 10 of [Fair play?](../quests/brv_blackjack.md#stage-10); NOT reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30) → **stage 31**. NPC: “Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password…”
-    2. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I want to find out what's happening in the back room, but they want a password.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20); reached stage 10 of [Fair play?](../quests/brv_blackjack.md#stage-10); NOT reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30) → **stage 31**. NPC: “Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your…”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Zimsko · 1 way"
 
-    1. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40) → **stage 40**; also sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I wish you good luck. [Laughs]”
+    **Way 1:** Talk to [Zimsko](../monsters/zimsko.md), choose “Do you know something about the back room?”
 
-???+ note "Stage 45: 2 routes"
+    - **Needs:** stage 10, 70; not yet stage 20; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“I lost all my money gambling in the backroom. I think they are cheating.”*
 
-    1. Talk to [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)) → choose “Yes” — **conditions:** faction “brv_blackjack_won” ≥ 3; NOT reached stage 45 of [Fair play?](../quests/brv_blackjack.md#stage-45) → **stage 45**. NPC: “Now let's stop this child's game and play for higher amounts.”
-    2. stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) → choose “Yes” — **conditions:** NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); faction “brv_blackjack_won” ≥ 3; NOT reached stage 45 of [Fair play?](../quests/brv_blackjack.md#stage-45) → **stage 45**. NPC: “Now let's stop this child's game and play for higher amounts.”
 
-???+ note "Stage 50: 2 routes"
+<span id="route-30"></span>
 
-    1. Talk to [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)) → choose “Let's fight it out. [Killing him in town is a bad idea. I will try to only knock him out.]” — **conditions:** pay 1 gold; random chance (12%); random chance (8%); NOT reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); NOT reached stage 80 of [Fair play?](../quests/brv_blackjack.md#stage-80); faction “brv_blackjack_won” ≥ 3 → **stage 50**; also removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Let us start the tavern brawl!”
-    2. stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) → choose “Let's fight it out. [Killing him in town is a bad idea. I will try to only knock him out.]” — **conditions:** NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); pay 1 gold; random chance (12%); random chance (8%); NOT reached stage 70 of [Fair play?](../quests/brv_blackjack.md#stage-70); NOT reached stage 80 of [Fair play?](../quests/brv_blackjack.md#stage-80); faction “brv_blackjack_won” ≥ 3 → **stage 50**; also removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Let us start the tavern brawl!”
+??? note "Stage 30 · Zimsko · 2 ways"
 
-???+ note "Stage 60: 2 routes"
+    **Way 1:** Talk to [Zimsko](../monsters/zimsko.md), choose “I want to find out what's happening in the back room.”
 
-    1. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → the conversation leads here automatically — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
-    2. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
+    - **Needs:** stage 20, 70; not yet stage 10, 30; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.] You…”*
 
-???+ note "Stage 70: 2 routes"
+    **Way 2:** Talk to [Zimsko](../monsters/zimsko.md), choose “I want to find out what's happening in the back room, but they want a password.”
 
-    1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I gambled with them and it seems they are cheating.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30); reached stage 140 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140); NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50) → **stage 70**. NPC: “Thats what I thought. Thank you for your help.”
-    2. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I gambled with them and it seems they are cheating. I even had a fight with them.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50) → **stage 70**. NPC: “That's what I thought. Thank you for your help and the fight. Someone had to do it.”
+    - **Needs:** stage 10, 20, 70; not yet stage 30; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.] You have to win…”*
 
-???+ note "Stage 80: 1 route"
 
-    1. Talk to [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “I gambled with them and I think they are playing fair.” — **conditions:** reached stage 110 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 30 of [Fair play?](../quests/brv_blackjack.md#stage-30); reached stage 140 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140); NOT reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50) → **stage 80**. NPC: “I still believe they are cheating. Thanks anyway.”
+<span id="route-31"></span>
+
+??? note "Stage 31 · Zimsko · 2 ways"
+
+    **Way 1:** Talk to [Zimsko](../monsters/zimsko.md), choose “I want to find out what's happening in the back room.”
+
+    - **Needs:** stage 20, 70; not yet stage 10, 30; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.] You…”*
+
+    **Way 2:** Talk to [Zimsko](../monsters/zimsko.md), choose “I want to find out what's happening in the back room, but they want a password.”
+
+    - **Needs:** stage 10, 20, 70; not yet stage 30; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.] You have to win…”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Guard · 1 way"
+
+    **Way 1:** Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard), automatic
+
+    - **Needs:** stage 40
+    - <small>Also: sets stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150)</small>
+    - *“I wish you good luck. [Laughs]”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Dealer, stepping on a trigger on brimhaven_tavern_west_back · 2 ways"
+
+    **Way 1:** Talk to [Dealer](../monsters/brv_blackjack_dealer.md), choose “Yes”
+
+    - **Needs:** not yet stage 45; faction “brv_blackjack_won” ≥ 3
+    - *“Now let's stop this child's game and play for higher amounts.”*
+
+    **Way 2:** Stepping on a trigger on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md), choose “Yes”
+
+    - **Needs:** not yet stage 45, 50; faction “brv_blackjack_won” ≥ 3
+    - *“Now let's stop this child's game and play for higher amounts.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Dealer, stepping on a trigger on brimhaven_tavern_west_back · 2 ways"
+
+    **Way 1:** Talk to [Dealer](../monsters/brv_blackjack_dealer.md), choose “Let's fight it out. [Killing him in town is a bad idea. I will try to only knock him out.]”
+
+    - **Needs:** not yet stage 70, 80; pay 1 gold; random chance (12%); random chance (8%); faction “brv_blackjack_won” ≥ 3
+    - **Gives:** removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back
+    - *“Let us start the tavern brawl!”*
+
+    **Way 2:** Stepping on a trigger on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md), choose “Let's fight it out. [Killing him in town is a bad idea. I will try to only knock him out.]”
+
+    - **Needs:** not yet stage 50, 70, 80; pay 1 gold; random chance (12%); random chance (8%); faction “brv_blackjack_won” ≥ 3
+    - **Gives:** removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, removes monsters from brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back
+    - *“Let us start the tavern brawl!”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on brimhaven_tavern_west, Guard · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md)
+
+    - **Needs:** stage 50; reached stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil)
+    - <small>Also: clears stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150)</small>
+    - *“I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”*
+
+    **Way 2:** Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard), automatic
+
+    - **Needs:** stage 50; killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil)
+    - <small>Also: clears stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150)</small>
+    - *“I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Zimsko · 2 ways"
+
+    **Way 1:** Talk to [Zimsko](../monsters/zimsko.md), choose “I gambled with them and it seems they are cheating.”
+
+    - **Needs:** stage 30; not yet stage 50; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 140 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
+    - *“Thats what I thought. Thank you for your help.”*
+
+    **Way 2:** Talk to [Zimsko](../monsters/zimsko.md), choose “I gambled with them and it seems they are cheating. I even had a fight with them.”
+
+    - **Needs:** stage 30, 50; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110)
+    - *“That's what I thought. Thank you for your help and the fight. Someone had to do it.”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Zimsko · 1 way"
+
+    **Way 1:** Talk to [Zimsko](../monsters/zimsko.md), choose “I gambled with them and I think they are playing fair.”
+
+    - **Needs:** stage 30; not yet stage 50; reached stage 110 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-110); reached stage 140 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
+    - *“I still believe they are cheating. Thanks anyway.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

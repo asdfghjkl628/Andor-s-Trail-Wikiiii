@@ -4,7 +4,7 @@ description: "Karth the Unbowed is an NPC who can also be fought in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_tometik8_45.png){ .sprite } Karth the Unbowed
 
-**Where to find Karth the Unbowed:** Stoutford: [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md#pin-npc-erwyn_commander)
+**Where to find Karth the Unbowed:** Stoutford: [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md#pin-npc-erwyn_commander)
 
 <div class="infobox" markdown>
 
@@ -51,16 +51,16 @@ description: "Karth the Unbowed is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md) | Stoutford | 1 | – |
+| [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md) | Stoutford | 1 | – |
 
 ## Quests that count defeats
 
-- [Stoutford's old castle](../quests/stoutford_castle.md#stage-30) with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md), stepping on a trigger on [wild18](../maps/wild18.md) checks that this enemy has been defeated.
+- [Stoutford's old castle](../quests/stoutford_castle.md#stage-30) with [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md), stepping on a trigger on [Wild 18](../maps/wild18.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Karth the Unbowed. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Karth the Unbowed. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_2.json" data-npc="Karth the Unbowed" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -68,7 +68,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_castle_2"></span>**`stoutford_castle_2`** Karth the Unbowed: “I shall crush you little mortal!”
 

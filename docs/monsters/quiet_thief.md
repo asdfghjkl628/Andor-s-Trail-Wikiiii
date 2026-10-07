@@ -22,20 +22,20 @@ description: "Pixtumn is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Pixtumn. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Pixtumn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`quiet_thief`](#v-quiet_thief) | NPC | Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper | – |
-| [`quiet_thief_1`](#v-quiet_thief_1) | Enemy | Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | – | 1 |
-| [`quiet_thief_2`](#v-quiet_thief_2) | Enemy | Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | – | 1 |
-| [`quiet_thief_3`](#v-quiet_thief_3) | Enemy | Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | – | 1 |
+| [`quiet_thief`](#v-quiet_thief) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper | – |
+| [`quiet_thief_1`](#v-quiet_thief_1) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
+| [`quiet_thief_2`](#v-quiet_thief_2) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
+| [`quiet_thief_3`](#v-quiet_thief_3) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
 
 ## Brimhaven, Brimhaven inn east (quiet_thief) { #v-quiet_thief }
 
 **Entry ID:** `quiet_thief` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief)
+**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief)
 
 ### Shop stock
 
@@ -52,11 +52,11 @@ description: "Pixtumn is an NPC who can also be fought in Andor's Trail, found i
 ### Quests
 
 - [A strange looking dagger](../quests/brv_dagger.md): stages 30, 40
-- [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md): stages 30, 40
+- [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md): stages 30, 40
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pixtumn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pixtumn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/quiet_thief_0.json" data-npc="Pixtumn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -64,15 +64,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-quiet_thief-quiet_thief_0"></span>**`quiet_thief_0`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40))* → [quiet_thief_1_0](#d-quiet_thief-quiet_thief_1_0)
-    - branch 2 *(if reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30))* → [quiet_thief_2_0](#d-quiet_thief-quiet_thief_2_0)
-    - branch 3 *(if NOT reached stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30); reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20))* → [quiet_thief_2_2](#d-quiet_thief-quiet_thief_2_2)
-    - branch 4 *(if reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); NOT reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40))* → [quiet_thief_3_0](#d-quiet_thief-quiet_thief_3_0)
-    - branch 5 *(if NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40); reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10))* → [quiet_thief_3_2](#d-quiet_thief-quiet_thief_3_2)
+    - branch 1 *(if NOT reached stage 10 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 30 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 40 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40))* → [quiet_thief_1_0](#d-quiet_thief-quiet_thief_1_0)
+    - branch 2 *(if reached stage 10 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 30 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30))* → [quiet_thief_2_0](#d-quiet_thief-quiet_thief_2_0)
+    - branch 3 *(if NOT reached stage 30 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30); reached stage 10 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20))* → [quiet_thief_2_2](#d-quiet_thief-quiet_thief_2_2)
+    - branch 4 *(if reached stage 20 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 40 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); NOT reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40))* → [quiet_thief_3_0](#d-quiet_thief-quiet_thief_3_0)
+    - branch 5 *(if NOT reached stage 40 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40); reached stage 20 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10))* → [quiet_thief_3_2](#d-quiet_thief-quiet_thief_3_2)
     - branch 6 → [quiet_thief_0_0](#d-quiet_thief-quiet_thief_0_0)
 
     <span id="d-quiet_thief-quiet_thief_1_0"></span>**`quiet_thief_1_0`** [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1): “Psst! Hey kid, you want to buy some nice stuff?”
@@ -131,10 +131,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “No, that's too much for me.” → *conversation ends*
     - “I don't think it's fair, but I'll pay it.” *(if pay 1,500 gold)* → [quiet_thief_3_4](#d-quiet_thief-quiet_thief_3_4)
 
-    <span id="d-quiet_thief-quiet_thief_2_4"></span>**`quiet_thief_2_4`** Pixtumn: “Here you go kid.” — **effects:** sets stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30), gives 1× [A strange looking dagger](../items/strange_dagger.md)
+    <span id="d-quiet_thief-quiet_thief_2_4"></span>**`quiet_thief_2_4`** Pixtumn: “Here you go kid.” — **effects:** sets stage 30 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30), gives 1× [A strange looking dagger](../items/strange_dagger.md)
 
 
-    <span id="d-quiet_thief-quiet_thief_3_4"></span>**`quiet_thief_3_4`** Pixtumn: “Here you go kid” — **effects:** sets stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40), gives 1× [A strange-looking gem](../items/strange_gem.md)
+    <span id="d-quiet_thief-quiet_thief_3_4"></span>**`quiet_thief_3_4`** Pixtumn: “Here you go kid” — **effects:** sets stage 40 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40), gives 1× [A strange-looking gem](../items/strange_gem.md)
 
 
 
@@ -144,8 +144,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?”<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?”<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?” |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?”<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?”<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `quiet_thief_1` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md)
+**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
 ### Combat statistics
 
@@ -225,7 +225,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
 
 
 ### Version history
@@ -270,7 +270,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `quiet_thief_2` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md)
+**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
 ### Combat statistics
 
@@ -311,7 +311,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
 
 
 ### Version history
@@ -356,7 +356,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `quiet_thief_3` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_inn_east](../maps/brimhaven_inn_east.md)
+**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
 ### Combat statistics
 
@@ -397,7 +397,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
 
 
 ### Version history

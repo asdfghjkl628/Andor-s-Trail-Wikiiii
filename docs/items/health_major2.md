@@ -36,21 +36,21 @@ description: "Major potion of health is a ordinary potion in Andor's Trail. How 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 3-5 | galmore_71 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 40% | 2-3 | undertell_4_01, undertell_5 |
-| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 40% | 2-3 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 40% | 2-3 | undertell_4_00, undertell_4_10, undertell_4_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 40% | 2-3 | undertell_4_00, undertell_4_11, undertell_7_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 40% | 2-3 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md) | 30% | 1-3 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 30% | 1-2 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 30% | 1-3 | undertell_3_lava_01, undertell_3_lava_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 30% | 1-3 | undertell_3_lava_00 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 30% | 1-2 | undertell_3_lava_00 |
-| [Plague-Lich](../monsters/plague_lich.md) | 25% | 1-2 | undertell_10, undertell_11, undertell_21 |
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 12.5% | 1 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 12.5% | 1 | elm5f_1, elm5f_2 |
-| [Drakthorn warrior captain](../monsters/drakthorn_warrior_captain.md) | 8% | 1 | final_cave_labyrinth |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 3-5 | Galmore 71 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 40% | 2-3 | Undertell 4 01, Undertell 5 |
+| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 40% | 2-3 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 40% | 2-3 | Undertell 4 00, Undertell 4 10, Undertell 4 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 40% | 2-3 | Undertell 4 00, Undertell 4 11, Undertell 7 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 40% | 2-3 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md) | 30% | 1-3 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 30% | 1-2 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 30% | 1-3 | Undertell 3 lava 01, Undertell 3 lava 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 30% | 1-3 | Undertell 3 lava 00 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 30% | 1-2 | Undertell 3 lava 00 |
+| [Plague-Lich](../monsters/plague_lich.md) | 25% | 1-2 | Undertell 10, Undertell 11, Undertell 21 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 12.5% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 12.5% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Drakthorn warrior captain](../monsters/drakthorn_warrior_captain.md) | 8% | 1 | Final cave labyrinth |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 0% | 1-2 | Mt. Galmore |
 
 ### Sold by
@@ -59,7 +59,7 @@ description: "Major potion of health is a ordinary potion in Andor's Trail. How 
 - [Potion merchant](../monsters/potion_merchant.md) (Fallhaven)
 - [Jolnor](../monsters/jolnor.md) (Vilegard)
 - [Samar](../monsters/samar.md) (Prim)
-- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+- [Mazeg](../monsters/mazeg.md) (Blackwater mountain 43)
 - [Talion](../monsters/talion.md)
 - [Skylenar](../monsters/skylenar.md) (Remgard)
 - [Yolgen](../monsters/yolgen.md) (Stoutford)
@@ -69,18 +69,18 @@ description: "Major potion of health is a ordinary potion in Andor's Trail. How 
 
 ### Found in containers
 
-- [elm5f_1](../maps/elm5f_1.md#container-0) (container 1, 100%)
-- [galmore_63](../maps/galmore_63.md#container-0) (container 1, 40%), Mt. Galmore
-- [galmore_73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
-- [lodarhouse0](../maps/lodarhouse0.md#container-0) (container 1, 100%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-3) (container 4, 75%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-4) (container 5, 75%)
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Elm 5f 1](../maps/elm5f_1.md#container-0) (container 1, 100%)
+- [Galmore 63](../maps/galmore_63.md#container-0) (container 1, 40%), Mt. Galmore
+- [Galmore 73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
+- [Lodarhouse 0](../maps/lodarhouse0.md#container-0) (container 1, 100%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-3) (container 4, 75%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-4) (container 5, 75%)
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
 
 ### Quest & dialogue rewards
 
-- From [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
-- From stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) during [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-140) (3×)
+- From [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
+- From stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) during [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-140) (3×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -91,11 +91,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-41) | handed over (1×) | “Here, take this major potion of health.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this major potion of health.” |
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-44) | handed over (1×) | “Here, take it. It's a really strong potion of healing.” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major potion of health.” |
-| walking into a blocked passage on [debugmap](../maps/debugmap.md) | – | handed over (-1000×) | “Major potion of health” |
+| [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-41) | handed over (1×) | “Here, take this major potion of health.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this major potion of health.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-44) | handed over (1×) | “Here, take it. It's a really strong potion of healing.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major potion of health.” |
+| walking into a blocked passage on [Debugmap](../maps/debugmap.md) | – | handed over (-1000×) | “Major potion of health” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

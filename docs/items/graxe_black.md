@@ -45,7 +45,7 @@ description: "Black greataxe is a ordinary greataxe in Andor's Trail (Attack dam
 
 ### Found in containers
 
-- [galmore_64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

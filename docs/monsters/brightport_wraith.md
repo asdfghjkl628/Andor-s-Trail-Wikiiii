@@ -4,7 +4,7 @@ description: "Wraith is an enemy in Andor's Trail (undead) with 150 HP, worth 50
 
 # ![](../assets/icons/monsters/monsters_newb_1_67.png){ .sprite } Wraith
 
-**Found in:** Buried citadel: [brightport_cave18](../maps/brightport_cave18.md), Buried citadel: [brightport_cave19](../maps/brightport_cave19.md), Buried citadel: [brightport_cave20](../maps/brightport_cave20.md), Buried citadel: [brightport_cave5](../maps/brightport_cave5.md) (+2 more)
+**Found in:** Buried citadel: [Brightport cave 18](../maps/brightport_cave18.md), Buried citadel: [Brightport cave 19](../maps/brightport_cave19.md), Buried citadel: [Brightport cave 20](../maps/brightport_cave20.md), Buried citadel: [Brightport cave 5](../maps/brightport_cave5.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -55,12 +55,12 @@ description: "Wraith is an enemy in Andor's Trail (undead) with 150 HP, worth 50
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
-| [brightport_cave19](../maps/brightport_cave19.md) | Buried citadel | 3 | – |
-| [brightport_cave20](../maps/brightport_cave20.md) | Buried citadel | 1 | – |
-| [brightport_cave5](../maps/brightport_cave5.md) | Buried citadel | 4 | – |
-| [brightport_cave7](../maps/brightport_cave7.md) | Buried citadel | 2 | – |
-| [brightport_cave8](../maps/brightport_cave8.md) | Buried citadel | 3 | – |
+| [Brightport cave 18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
+| [Brightport cave 19](../maps/brightport_cave19.md) | Buried citadel | 3 | – |
+| [Brightport cave 20](../maps/brightport_cave20.md) | Buried citadel | 1 | – |
+| [Brightport cave 5](../maps/brightport_cave5.md) | Buried citadel | 4 | – |
+| [Brightport cave 7](../maps/brightport_cave7.md) | Buried citadel | 2 | – |
+| [Brightport cave 8](../maps/brightport_cave8.md) | Buried citadel | 3 | – |
 
 
 ## Version history

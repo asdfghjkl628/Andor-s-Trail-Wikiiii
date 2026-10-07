@@ -1,8 +1,8 @@
 ---
-description: "Minerhouse7 is an indoor location in Andor's Trail, in Charwood (settlement). NPCs: Fayvara. Enemies: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin. Exits to Waytolostmine3."
+description: "Minerhouse 7 is an indoor location in Andor's Trail, in Charwood (settlement). NPCs: Fayvara. Enemies: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin. Exits to Waytolostmine 3."
 ---
 
-# Minerhouse7
+# Minerhouse 7
 
 <div class="infobox" markdown>
 
@@ -19,19 +19,19 @@ description: "Minerhouse7 is an indoor location in Andor's Trail, in Charwood (s
 
 </div>
 
-**Minerhouse7** is an indoor map, in Charwood (settlement). It has 1 NPC and 3 kinds of enemy. Exits lead to Waytolostmine3.
+**Minerhouse 7** is an indoor map, in Charwood (settlement). It has 1 NPC and 3 kinds of enemy. Exits lead to Waytolostmine 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/minerhouse7.webp" alt="Map of Minerhouse7" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolostmine3/#place-minerhouse7" title="Exit to Waytolostmine3" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:25.000%;top:50.000%;width:37.500%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:62.500%;top:37.500%;width:31.250%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Fayvara" style="left:6.250%;top:62.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/charwdg4/" title="Charwood goblin" style="left:56.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Charwood goblin"></a><a class="mob" href="../../monsters/charwdg5/" title="Charwood goblin fighter" style="left:50.000%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Charwood goblin fighter"></a><a class="mob" href="../../monsters/charwdg4/" title="Charwood goblin" style="left:31.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Charwood goblin"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:75.000%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:81.250%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/fayvara0/" title="Fayvara" style="left:6.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik6_10.png" alt="Fayvara"></a><a class="pin pin-exit" href="#key-1" style="left:59.375%;top:93.750%" title="Exit (south): to [Waytolostmine3](waytolostmine3.md)">1</a><a id="pin-npc-fayvara0" class="pin pin-npc" href="#key-2" style="left:9.375%;top:68.750%" title="[Fayvara](../../monsters/fayvara0.md): 1 quest">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/minerhouse7.webp" alt="Map of Minerhouse 7" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolostmine3/#place-minerhouse7" title="Exit to Waytolostmine 3" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:25.000%;top:50.000%;width:37.500%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Charwood goblin, Charwood goblin fighter, Tough Charwood goblin" style="left:62.500%;top:37.500%;width:31.250%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Fayvara" style="left:6.250%;top:62.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/charwdg4/" title="Charwood goblin" style="left:56.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Charwood goblin"></a><a class="mob" href="../../monsters/charwdg5/" title="Charwood goblin fighter" style="left:50.000%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Charwood goblin fighter"></a><a class="mob" href="../../monsters/charwdg4/" title="Charwood goblin" style="left:31.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_18.png" alt="Charwood goblin"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:75.000%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/charwdg6/" title="Tough Charwood goblin" style="left:81.250%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles4_21.png" alt="Tough Charwood goblin"></a><a class="mob" href="../../monsters/fayvara0/" title="Fayvara" style="left:6.250%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik6_10.png" alt="Fayvara"></a><a class="pin pin-exit" href="#key-1" style="left:59.375%;top:93.750%" title="Exit (south): to [Waytolostmine 3](waytolostmine3.md)">1</a><a id="pin-npc-fayvara0" class="pin pin-npc" href="#key-2" style="left:9.375%;top:68.750%" title="[Fayvara](../../monsters/fayvara0.md): 1 quest">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Waytolostmine3](waytolostmine3.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Waytolostmine 3](waytolostmine3.md) |
     | <span id="key-2"></span>2 | [Fayvara](../monsters/fayvara0.md) | 1 quest |
 
 
@@ -41,7 +41,7 @@ description: "Minerhouse7 is an indoor location in Andor's Trail, in Charwood (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Waytolostmine3](waytolostmine3.md) | Charwood | 1 |
+| South | [Waytolostmine 3](waytolostmine3.md) | Charwood | 1 |
 
 ## NPCs
 

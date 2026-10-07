@@ -4,7 +4,7 @@ description: "Lizardman fencer is an enemy in Andor's Trail (reptile) with 230 H
 
 # ![](../assets/icons/monsters/monsters_johny_6.png){ .sprite } Lizardman fencer
 
-**Found in:** Brightport: [brightportwild20](../maps/brightportwild20.md), Brightport: [brightportwild7](../maps/brightportwild7.md), Brightport: [waytobrightport18](../maps/waytobrightport18.md), Buried citadel: [brightportwild12](../maps/brightportwild12.md) (+1 more)
+**Found in:** Brightport: [Brightportwild 20](../maps/brightportwild20.md), Brightport: [Brightportwild 7](../maps/brightportwild7.md), Brightport: [Waytobrightport 18](../maps/waytobrightport18.md), Buried citadel: [Brightportwild 12](../maps/brightportwild12.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Lizardman fencer is an enemy in Andor's Trail (reptile) with 230 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild10](../maps/brightportwild10.md) | – | 2 | – |
-| [brightportwild12](../maps/brightportwild12.md) | Buried citadel | 1 | – |
-| [brightportwild20](../maps/brightportwild20.md) | Brightport | 1 | – |
-| [brightportwild7](../maps/brightportwild7.md) | Brightport | 1 | – |
-| [waytobrightport18](../maps/waytobrightport18.md) | Brightport | 1 | – |
+| [Brightportwild 10](../maps/brightportwild10.md) | – | 2 | – |
+| [Brightportwild 12](../maps/brightportwild12.md) | Buried citadel | 1 | – |
+| [Brightportwild 20](../maps/brightportwild20.md) | Brightport | 1 | – |
+| [Brightportwild 7](../maps/brightportwild7.md) | Brightport | 1 | – |
+| [Waytobrightport 18](../maps/waytobrightport18.md) | Brightport | 1 | – |
 
 
 ## Version history

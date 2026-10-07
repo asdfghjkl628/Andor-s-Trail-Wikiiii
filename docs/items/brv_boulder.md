@@ -25,7 +25,7 @@ description: "Boulder is a quest other in Andor's Trail. How to get it: quests a
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [brimhaven1](../maps/brimhaven1.md) (1×)
+- From walking into a blocked passage on [Brimhaven 1](../maps/brimhaven1.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,16 +36,16 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | handed over (5×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | must be carried (2×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | must be carried (3×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | must be carried (4×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | handed over (1×) | “(automatic)” |
-| walking into a blocked passage on [brimhaven1](../maps/brimhaven1.md) | – | must be carried (4×) | “Ah, no. This would be too much.” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | handed over (4×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | handed over (3×) | “(automatic)” |
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | handed over (2×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | handed over (5×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | must be carried (2×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | must be carried (3×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | must be carried (4×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | handed over (1×) | “(automatic)” |
+| walking into a blocked passage on [Brimhaven 1](../maps/brimhaven1.md) | – | must be carried (4×) | “Ah, no. This would be too much.” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | handed over (4×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | handed over (3×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

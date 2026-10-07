@@ -1,10 +1,10 @@
 ---
-description: "Quick kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 299 XP, found in guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c. Drops: Gold coins."
+description: "Quick kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 299 XP, found in Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c. Drops: Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis1_0.png){ .sprite } Quick kobold
 
-**Found in:** [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_18b](../maps/guynmart_wood_18b.md), [guynmart_wood_18c](../maps/guynmart_wood_18c.md)
+**Found in:** [Guynmart wood 18](../maps/guynmart_wood_18.md), [Guynmart wood 18b](../maps/guynmart_wood_18b.md), [Guynmart wood 18c](../maps/guynmart_wood_18c.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Quick kobold is an enemy in Andor's Trail (humanoid) with 70 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c |
+| **Found in** | Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c |
 | **Class** | Humanoid |
 | **HP** | 70 |
 | **XP when defeated** | 299 |
@@ -56,9 +56,9 @@ description: "Quick kobold is an enemy in Andor's Trail (humanoid) with 70 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | 4 | – |
-| [guynmart_wood_18b](../maps/guynmart_wood_18b.md) | – | 4 | – |
-| [guynmart_wood_18c](../maps/guynmart_wood_18c.md) | – | 1 | – |
+| [Guynmart wood 18](../maps/guynmart_wood_18.md) | – | 4 | – |
+| [Guynmart wood 18b](../maps/guynmart_wood_18b.md) | – | 4 | – |
+| [Guynmart wood 18c](../maps/guynmart_wood_18c.md) | – | 1 | – |
 
 
 ## Version history

@@ -37,7 +37,7 @@ description: "Pineapple is a rare food in Andor's Trail. How to get it: containe
 
 ### Found in containers
 
-- [mt_galmore_railhouse](../maps/mt_galmore_railhouse.md#container-0) (container 1, 100%), Mt. Galmore
+- [Mt galmore railhouse](../maps/mt_galmore_railhouse.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

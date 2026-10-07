@@ -4,7 +4,7 @@ description: "Forest fox is an enemy in Andor's Trail (animal) with 35 HP, worth
 
 # ![](../assets/icons/monsters/monsters_rltiles4_4.png){ .sprite } Forest fox
 
-**Found in:** Fallhaven: [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md), Fallhaven: [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md), Fallhaven: [waytominingtown0](../maps/waytominingtown0.md), Foaming Flask Tavern: [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md) (+1 more)
+**Found in:** Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md), Fallhaven: [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md), Fallhaven: [Waytominingtown 0](../maps/waytominingtown0.md), Foaming Flask Tavern: [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Forest fox is an enemy in Andor's Trail (animal) with 35 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 3 | – |
-| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 4 | – |
-| [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 3 | – |
-| [waytominingtown0](../maps/waytominingtown0.md) | Fallhaven | 4 | – |
-| [waytominingtown2](../maps/waytominingtown2.md) | Foaming Flask Tavern | 1 | – |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 3 | – |
+| [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md) | Fallhaven | 4 | – |
+| [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 3 | – |
+| [Waytominingtown 0](../maps/waytominingtown0.md) | Fallhaven | 4 | – |
+| [Waytominingtown 2](../maps/waytominingtown2.md) | Foaming Flask Tavern | 1 | – |
 
 
 ## Version history

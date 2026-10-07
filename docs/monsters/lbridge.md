@@ -1,10 +1,10 @@
 ---
-description: "Guardian of the bridge is an NPC who can also be fought in Andor's Trail, found in lodar8."
+description: "Guardian of the bridge is an NPC who can also be fought in Andor's Trail, found in Lodar 8."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_23.png){ .sprite } Guardian of the bridge
 
-**Where to find Guardian of the bridge:** [lodar8](../maps/lodar8.md#pin-npc-lbridge)
+**Where to find Guardian of the bridge:** [Lodar 8](../maps/lodar8.md#pin-npc-lbridge)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Guardian of the bridge is an NPC who can also be fought in Andor's
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | lodar8 |
+| **Found in** | Lodar 8 |
 | **Class** | Giant |
 | **HP** | 213 |
 | **XP when defeated** | 575 |
@@ -62,11 +62,11 @@ description: "Guardian of the bridge is an NPC who can also be fought in Andor's
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar8](../maps/lodar8.md) | – | 1 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guardian of the bridge. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guardian of the bridge. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lbridge.json" data-npc="Guardian of the bridge" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lbridge"></span>**`lbridge`** Guardian of the bridge: “You will not pass me.”
 

@@ -39,7 +39,7 @@ description: "Cake is a ordinary food in Andor's Trail. How to get it: shops, qu
 
 ### Quest & dialogue rewards
 
-- From [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) during [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42) (1×)
+- From [Arlish](../monsters/arlish.md) ([Brimhaven general 1](../maps/brimhaven_general1.md)) during [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-42) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,5 +1,5 @@
 ---
-description: "Lake shore road 3 is an outdoor location in Andor's Trail. Enemies: Pond fish, Blue fish, Isobel, Strong izthiel. Exits to Lake shore road 6, Lake shore road 2, Lake shore road 5."
+description: "Lake shore road 3 is an outdoor location in Andor's Trail. Enemies: Blue fish, Isobel, Pond fish, Strong izthiel. Exits to Lake shore road 6, Lake shore road 2, Lake shore road 5."
 ---
 
 # Lake shore road 3
@@ -11,7 +11,7 @@ description: "Lake shore road 3 is an outdoor location in Andor's Trail. Enemies
 | **Map ID** | `lake_shore_road_3` |
 | **Type** | Outdoors |
 | **Size** | 23×23 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
@@ -49,9 +49,9 @@ description: "Lake shore road 3 is an outdoor location in Andor's Trail. Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 3 | – |
 | [Blue fish](../monsters/fish_school.md) | 0 | 0–0 | 3 | – |
 | [Isobel](../monsters/sutdover_fisherman.md) | 0 | 0–0 | 1 | – |
+| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 3 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

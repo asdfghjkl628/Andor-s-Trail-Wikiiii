@@ -25,7 +25,7 @@ description: "Package is a quest other in Andor's Trail. How to get it: quests a
 
 ### Quest & dialogue rewards
 
-- From [Nor agent](../monsters/brightport_agent.md) ([brightport_abandoned](../maps/brightport_abandoned.md)) during [Boxed in](../quests/brightport_thieves.md#stage-32) (1×)
+- From [Nor agent](../monsters/brightport_agent.md) ([Brightport abandoned](../maps/brightport_abandoned.md)) during [Boxed in](../quests/brightport_thieves.md#stage-32) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,13 +36,13 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [brightport_abandoned](../maps/brightport_abandoned.md) | – | must be carried (1×) | “N” |
-| stepping on a trigger on [brightport_chimney](../maps/brightport_chimney.md), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate) ([brightport_abandoned](../maps/brightport_abandoned.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-144) | handed over (1×) | “N” |
-| [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-256) | handed over (1×) | “Here it is.” |
-| [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) | [Boxed in](../quests/brightport_thieves.md#stage-70) | must be carried (1×) | “I actually have the package here!” |
-| stepping on a trigger on [brightport_crate1](../maps/brightport_crate1.md), stepping on a trigger on [brightport_crate2](../maps/brightport_crate2.md) | [Boxed in](../quests/brightport_thieves.md#stage-40) | handed over (1×) | “N” |
-| [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) | – | handed over (1×) | “Here you go. [Give her the package.]” |
-| [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) | – | must be carried (1×) | “The guards came in after I got it from the agent. I tried hiding, but they found” |
+| walking into a blocked passage on [Brightport abandoned](../maps/brightport_abandoned.md) | – | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport chimney](../maps/brightport_chimney.md), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate) ([Brightport abandoned](../maps/brightport_abandoned.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-144) | handed over (1×) | “N” |
+| [Elysa](../monsters/brightportthieves6.md) ([Brightport thieves](../maps/brightport_thieves.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-256) | handed over (1×) | “Here it is.” |
+| [Elysa](../monsters/brightportthieves6.md) ([Brightport thieves](../maps/brightport_thieves.md)) | [Boxed in](../quests/brightport_thieves.md#stage-70) | must be carried (1×) | “I actually have the package here!” |
+| stepping on a trigger on [Brightport crate 1](../maps/brightport_crate1.md), stepping on a trigger on [Brightport crate 2](../maps/brightport_crate2.md) | [Boxed in](../quests/brightport_thieves.md#stage-40) | handed over (1×) | “N” |
+| [Elysa](../monsters/brightportthieves6.md) ([Brightport thieves](../maps/brightport_thieves.md)) | – | handed over (1×) | “Here you go. [Give her the package.]” |
+| [Elysa](../monsters/brightportthieves6.md) ([Brightport thieves](../maps/brightport_thieves.md)) | – | must be carried (1×) | “The guards came in after I got it from the agent. I tried hiding, but they found” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

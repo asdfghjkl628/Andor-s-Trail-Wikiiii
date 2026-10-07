@@ -46,8 +46,8 @@ description: "Iron mace is a ordinary mace in Andor's Trail (Attack damage 4 to 
 |---|---|---|---|
 | [Mazarth beast](../monsters/mazarth1.md) | 5% | 1 | Charwood |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 5% | 1 | Charwood |
-| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 5% | 1 | lodar11 |
-| [Insane Feygard guard](../monsters/lodar_fg4.md) | 5% | 1 | lodar8 |
+| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 5% | 1 | Lodar 11 |
+| [Insane Feygard guard](../monsters/lodar_fg4.md) | 5% | 1 | Lodar 8 |
 | [Puny Charwood goblin](../monsters/charwdg1.md) | 1% | 1 | Charwood |
 | [Charwood goblin scout](../monsters/charwdg2.md) | 1% | 1 | Charwood |
 | [Starving Charwood goblin](../monsters/charwdg3.md) | 1% | 1 | Charwood |

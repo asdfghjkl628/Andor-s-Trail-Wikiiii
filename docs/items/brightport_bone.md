@@ -43,7 +43,7 @@ description: "Lizardman bone is a ordinary animal part in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [Bryma](../monsters/brightportnpc7.md) ([brightport_forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-55) (3×)
+- From [Bryma](../monsters/brightportnpc7.md) ([Brightport forest](../maps/brightport_forest.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-55) (3×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,7 +54,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Three-fang-elyzard](../monsters/brightport_lizardking.md) ([brightport_lizard1](../maps/brightport_lizard1.md)) | – | handed over (13×) | “Yes, 13 as promised.” |
+| [Three-fang-elyzard](../monsters/brightport_lizardking.md) ([Brightport lizard 1](../maps/brightport_lizard1.md)) | – | handed over (13×) | “Yes, 13 as promised.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

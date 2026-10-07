@@ -4,7 +4,7 @@ description: "Leta's son is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } Leta's son
 
-**Where to find Leta's son:** Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md#pin-npc-leta_child)
+**Where to find Leta's son:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-leta_child)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Leta's son is a non-player character (NPC) in Andor's Trail, found
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 3
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 3
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Leta's son. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Leta's son. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/leta_child_10.json" data-npc="Leta&#x27;s son" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,14 +33,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-leta_child_10"></span>**`leta_child_10`** Leta's son: “I am terrified! Who are those old people upstairs?”
 
     - “Seriously? You are scared of your own parents?” → [leta_child_20](#d-leta_child_20)
     - “"Those old people" are your parents.” → [leta_child_20](#d-leta_child_20)
 
-    <span id="d-leta_child_20"></span>**`leta_child_20`** Leta's son: “Those people? No, no, no, they are not my parents. You liar!” — **effects:** sets stage 3 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-3)
+    <span id="d-leta_child_20"></span>**`leta_child_20`** Leta's son: “Those people? No, no, no, they are not my parents. You liar!” — **effects:** sets stage 3 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-3)
 
     - “I'm sorry to say that, but it is true...I think.” → *conversation ends*
 

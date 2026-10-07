@@ -4,7 +4,7 @@ description: "Beholder is an enemy in Andor's Trail (demon) with 180 HP, worth 3
 
 # ![](../assets/icons/monsters/monsters_eye4_0.png){ .sprite } Beholder
 
-**Found in:** Mt. Galmore: [galmore_cavea_2](../maps/galmore_cavea_2.md)
+**Found in:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md)
 
 <div class="infobox" markdown>
 
@@ -59,7 +59,7 @@ description: "Beholder is an enemy in Andor's Trail (demon) with 180 HP, worth 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_cavea_2](../maps/galmore_cavea_2.md) | Mt. Galmore | 1 | – |
+| [Galmore cavea 2](../maps/galmore_cavea_2.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

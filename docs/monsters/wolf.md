@@ -4,7 +4,7 @@ description: "Wolf is an enemy in Andor's Trail (animal) with 30 HP, worth 49 XP
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Wolf
 
-**Found in:** Blackwater Mountain: [bwmfill1](../maps/bwmfill1.md), Blackwater Mountain: [mywild18](../maps/mywild18.md), Blackwater Mountain: [wild6](../maps/wild6.md), Blackwater Mountain: [wild7](../maps/wild7.md) (+24 more)
+**Found in:** Blackwater Mountain: [Bwmfill 1](../maps/bwmfill1.md), Blackwater Mountain: [Mywild 18](../maps/mywild18.md), Blackwater Mountain: [Wild 6](../maps/wild6.md), Blackwater Mountain: [Wild 7](../maps/wild7.md) (+24 more)
 
 <div class="infobox" markdown>
 
@@ -56,34 +56,34 @@ description: "Wolf is an enemy in Andor's Trail (animal) with 30 HP, worth 49 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain0](../maps/blackwater_mountain0.md) | Flagstone Prison | 6 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
-| [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 4 | – |
-| [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 1 | – |
-| [guynmart_wood_1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | 2 | – |
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_3](../maps/guynmart_wood_3.md) | Guynmart Castle | 3 | – |
-| [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 1 | – |
-| [lake_shore_road_0](../maps/lake_shore_road_0.md) | Flagstone Prison | 3 | – |
-| [lake_shore_road_1](../maps/lake_shore_road_1.md) | Flagstone Prison | 6 | – |
-| [mywild18](../maps/mywild18.md) | Blackwater Mountain | 6 | – |
-| [mywild19](../maps/mywild19.md) | Fallhaven | 3 | – |
-| [mywild20](../maps/mywild20.md) | Fallhaven | 1 | – |
-| [mywildcave](../maps/mywildcave.md) | – | 6 | – |
-| [road2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
-| [roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 3 | – |
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 6 | – |
-| [wild11](../maps/wild11.md) | Fallhaven | 2 | – |
-| [wild14](../maps/wild14.md) | Foaming Flask Tavern | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 2 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild6](../maps/wild6.md) | Blackwater Mountain | 3 | – |
-| [wild7](../maps/wild7.md) | Blackwater Mountain | 2 | – |
-| [wild9](../maps/wild9.md) | Fallhaven | 5 | – |
+| [Blackwater mountain 0](../maps/blackwater_mountain0.md) | Flagstone Prison | 6 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
+| [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 4 | – |
+| [Flagstone filler east 2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 1 | – |
+| [Guynmart wood 1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 12](../maps/guynmart_wood_12.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 18](../maps/guynmart_wood_18.md) | – | 2 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 3](../maps/guynmart_wood_3.md) | Guynmart Castle | 3 | – |
+| [Guynmart wood 4](../maps/guynmart_wood_4.md) | Guynmart Castle | 1 | – |
+| [Lake shore road 0](../maps/lake_shore_road_0.md) | Flagstone Prison | 3 | – |
+| [Lake shore road 1](../maps/lake_shore_road_1.md) | Flagstone Prison | 6 | – |
+| [Mywild 18](../maps/mywild18.md) | Blackwater Mountain | 6 | – |
+| [Mywild 19](../maps/mywild19.md) | Fallhaven | 3 | – |
+| [Mywild 20](../maps/mywild20.md) | Fallhaven | 1 | – |
+| [Mywildcave](../maps/mywildcave.md) | – | 6 | – |
+| [Road 2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
+| [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 3 | – |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 6 | – |
+| [Wild 11](../maps/wild11.md) | Fallhaven | 2 | – |
+| [Wild 14](../maps/wild14.md) | Foaming Flask Tavern | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 2 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 3 | – |
+| [Wild 7](../maps/wild7.md) | Blackwater Mountain | 2 | – |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 5 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Sinister wraith is an enemy in Andor's Trail (ghost) with 255 HP, worth 1010 XP, found in haunted_underground_3, haunted_underground_4, haunted_underground_5. Drops: Gold coins, Tonic of blood, Jinxed ring of damage resistance."
+description: "Sinister wraith is an enemy in Andor's Trail (ghost) with 255 HP, worth 1010 XP, found in Haunted underground 3, Haunted underground 4, Haunted underground 5. Drops: Gold coins, Tonic of blood, Jinxed ring of damage resistance."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_14.png){ .sprite } Sinister wraith
 
-**Found in:** [haunted_underground_3](../maps/haunted_underground_3.md), [haunted_underground_4](../maps/haunted_underground_4.md), [haunted_underground_5](../maps/haunted_underground_5.md)
+**Found in:** [Haunted underground 3](../maps/haunted_underground_3.md), [Haunted underground 4](../maps/haunted_underground_4.md), [Haunted underground 5](../maps/haunted_underground_5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Sinister wraith is an enemy in Andor's Trail (ghost) with 255 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_underground_3, haunted_underground_4, haunted_underground_5 |
+| **Found in** | Haunted underground 3, Haunted underground 4, Haunted underground 5 |
 | **Class** | Ghost |
 | **HP** | 255 |
 | **XP when defeated** | 1,010 |
@@ -60,9 +60,9 @@ description: "Sinister wraith is an enemy in Andor's Trail (ghost) with 255 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_underground_3](../maps/haunted_underground_3.md) | – | 3 | – |
-| [haunted_underground_4](../maps/haunted_underground_4.md) | – | 2 | – |
-| [haunted_underground_5](../maps/haunted_underground_5.md) | – | 2 | – |
+| [Haunted underground 3](../maps/haunted_underground_3.md) | – | 3 | – |
+| [Haunted underground 4](../maps/haunted_underground_4.md) | – | 2 | – |
+| [Haunted underground 5](../maps/haunted_underground_5.md) | – | 2 | – |
 
 
 ## Version history

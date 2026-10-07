@@ -1,10 +1,10 @@
 ---
-description: "Orion, the centaur is a non-player character (NPC) in Andor's Trail, found in island1. Starts Not Pony Island."
+description: "Orion, the centaur is a non-player character (NPC) in Andor's Trail, found in Island 1. Starts Not Pony Island."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } Orion, the centaur
 
-**Where to find Orion, the centaur:** [island1](../maps/island1.md#pin-npc-lae_centaur1)
+**Where to find Orion, the centaur:** [Island 1](../maps/island1.md#pin-npc-lae_centaur1)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Orion, the centaur is a non-player character (NPC) in Andor's Trai
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Not Pony Island](../quests/lae_centaurs.md) |
-| **Found in** | island1 |
+| **Found in** | Island 1 |
 | **Entry ID** | `lae_centaur1` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
@@ -23,11 +23,11 @@ description: "Orion, the centaur is a non-player character (NPC) in Andor's Trai
 ## Quests
 
 - [Not Pony Island](../quests/lae_centaurs.md): stage 10
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stage 211
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stage 211
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Orion, the centaur. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Orion, the centaur. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_centaur1.json" data-npc="Orion, the centaur" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,12 +35,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_centaur1"></span>**`lae_centaur1`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 30 of [Not Pony Island](../quests/lae_centaurs.md#stage-30))* → [lae_centaur](#d-lae_centaur)
-    - branch 2 *(if reached stage 211 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-211))* → [lae_centaur1_20](#d-lae_centaur1_20)
+    - branch 2 *(if reached stage 211 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-211))* → [lae_centaur1_20](#d-lae_centaur1_20)
     - branch 3 → [lae_centaur1_1](#d-lae_centaur1_1)
 
     <span id="d-lae_centaur"></span>**`lae_centaur`** *(silent check: the first matching branch below is taken)*
@@ -83,7 +83,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “It's okay, calm down. Where is this leader?” → [lae_centaur1_8](#d-lae_centaur1_8)
 
-    <span id="d-lae_centaur1_8"></span>**`lae_centaur1_8`** Orion, the centaur: “Thalos, our wise guide, is currently in the northeast of the island.” — **effects:** sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10), sets stage 211 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-211)
+    <span id="d-lae_centaur1_8"></span>**`lae_centaur1_8`** Orion, the centaur: “Thalos, our wise guide, is currently in the northeast of the island.” — **effects:** sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10), sets stage 211 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-211)
 
     - “Fine, I'll go see him.” → [lae_centaur1_10](#d-lae_centaur1_10)
     - “Hopefully this Thalos will be a little more accommodating.” → [lae_centaur1_10](#d-lae_centaur1_10)

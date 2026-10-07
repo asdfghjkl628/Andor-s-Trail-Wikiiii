@@ -1,10 +1,10 @@
 ---
-description: "Verdant cyclopea creeper is an enemy in Andor's Trail (reptile) with 227 HP, worth 524 XP, found in way_to_sullengard_west_2, way_to_sullengard_west_5. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
+description: "Verdant cyclopea creeper is an enemy in Andor's Trail (reptile) with 227 HP, worth 524 XP, found in Way to sullengard west 2, Way to sullengard west 5. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_1090.png){ .sprite } Verdant cyclopea creeper
 
-**Found in:** [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md), [way_to_sullengard_west_5](../maps/way_to_sullengard_west_5.md)
+**Found in:** [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md), [Way to sullengard west 5](../maps/way_to_sullengard_west_5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Verdant cyclopea creeper is an enemy in Andor's Trail (reptile) wi
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_west_2, way_to_sullengard_west_5 |
+| **Found in** | Way to sullengard west 2, Way to sullengard west 5 |
 | **Class** | Reptile |
 | **HP** | 227 |
 | **XP when defeated** | 524 |
@@ -58,8 +58,8 @@ description: "Verdant cyclopea creeper is an enemy in Andor's Trail (reptile) wi
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
-| [way_to_sullengard_west_5](../maps/way_to_sullengard_west_5.md) | – | 8 | – |
+| [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
+| [Way to sullengard west 5](../maps/way_to_sullengard_west_5.md) | – | 8 | – |
 
 
 ## Version history

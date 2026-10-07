@@ -4,7 +4,7 @@ description: "Visitor is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } Visitor
 
-**Where to find Visitor:** Crossroads Guardhouse: [houseatcrossroads0](../maps/houseatcrossroads0.md#pin-npc-crossroads_guest), Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md#pin-npc-crossroads_guest)
+**Where to find Visitor:** Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-crossroads_guest), Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_guest)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Visitor is a non-player character (NPC) in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [houseatcrossroads0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 2 | – |
-| [houseatcrossroads1](../maps/houseatcrossroads1.md) | Crossroads Guardhouse | 2 | – |
+| [Houseatcrossroads 0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 2 | – |
+| [Houseatcrossroads 1](../maps/houseatcrossroads1.md) | Crossroads Guardhouse | 2 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Visitor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Visitor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_guest.json" data-npc="Visitor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-crossroads_guest"></span>**`crossroads_guest`** Visitor: “Did you hear about what happened up in Loneford? The guards seem like a bunch of angry bees about it.”
 

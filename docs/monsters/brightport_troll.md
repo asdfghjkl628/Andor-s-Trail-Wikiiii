@@ -1,10 +1,10 @@
 ---
-description: "Charwood troll is an enemy in Andor's Trail (giant) with 420 HP, worth 1262 XP, found in waytobrightport1. Drops: Trollbone helmet, Gold coins."
+description: "Charwood troll is an enemy in Andor's Trail (giant) with 420 HP, worth 1262 XP, found in Waytobrightport 1. Drops: Trollbone helmet, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_87.png){ .sprite } Charwood troll
 
-**Found in:** [waytobrightport1](../maps/waytobrightport1.md)
+**Found in:** [Waytobrightport 1](../maps/waytobrightport1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Charwood troll is an enemy in Andor's Trail (giant) with 420 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrightport1 |
+| **Found in** | Waytobrightport 1 |
 | **Class** | Giant |
 | **HP** | 420 |
 | **XP when defeated** | 1,262 |
@@ -57,7 +57,7 @@ description: "Charwood troll is an enemy in Andor's Trail (giant) with 420 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport1](../maps/waytobrightport1.md) | – | 1 | – |
+| [Waytobrightport 1](../maps/waytobrightport1.md) | – | 1 | – |
 
 
 ## Version history

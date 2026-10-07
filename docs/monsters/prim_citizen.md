@@ -4,7 +4,7 @@ description: "Prim citizen is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } Prim citizen
 
-**Where to find Prim citizen:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-prim_citizen)
+**Where to find Prim citizen:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-prim_citizen)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Prim citizen is a non-player character (NPC) in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim citizen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim citizen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_commoner1.json" data-npc="Prim citizen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_commoner1"></span>**`prim_commoner1`** Prim citizen: “Hello there. Welcome to Prim. Are you here to help us?”
 

@@ -21,18 +21,18 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Irdegh spawn. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Irdegh spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`irdegh_sp_1`](#v-irdegh_sp_1) | Enemy | Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md) (+5 more) | – | 57 |
-| [`irdegh_sp_2`](#v-irdegh_sp_2) | Enemy | Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md) (+5 more) | – | 68 |
+| [`irdegh_sp_1`](#v-irdegh_sp_1) | Enemy | Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+5 more) | – | 57 |
+| [`irdegh_sp_2`](#v-irdegh_sp_2) | Enemy | Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+5 more) | – | 68 |
 
-## Brightport, Waytobrightport22 and 6 more (irdegh_sp_1) { #v-irdegh_sp_1 }
+## Brightport, Waytobrightport 22 and 6 more (irdegh_sp_1) { #v-irdegh_sp_1 }
 
 **Entry ID:** `irdegh_sp_1` · **Type:** Enemy
 
-**Location:** Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md), [waterway11_east](../maps/waterway11_east.md), [waterway_forest3](../maps/waterway_forest3.md), [waytomountaincave0](../maps/waytomountaincave0.md), [waytomountaincave1](../maps/waytomountaincave1.md) (+1 more)
+**Location:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
 
 ### Combat statistics
 
@@ -69,13 +69,13 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway11_east](../maps/waterway11_east.md) | – | 7 | – |
-| [waterway_forest3](../maps/waterway_forest3.md) | – | 12 | – |
-| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 2 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytomountaincave0](../maps/waytomountaincave0.md) | – | 8 | – |
-| [waytomountaincave1](../maps/waytomountaincave1.md) | – | 8 | – |
-| [waytomountaincave2](../maps/waytomountaincave2.md) | – | 8 | – |
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 7 | – |
+| [Waterway forest 3](../maps/waterway_forest3.md) | – | 12 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 2 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 8 | – |
+| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 8 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 8 | – |
 
 
 ### Version history
@@ -135,11 +135,11 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
     ```
 
 
-## Brightport, Waytobrightport22 and 6 more (irdegh_sp_2) { #v-irdegh_sp_2 }
+## Brightport, Waytobrightport 22 and 6 more (irdegh_sp_2) { #v-irdegh_sp_2 }
 
 **Entry ID:** `irdegh_sp_2` · **Type:** Enemy
 
-**Location:** Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md), [waterway11_east](../maps/waterway11_east.md), [waterway_forest3](../maps/waterway_forest3.md), [waytomountaincave0](../maps/waytomountaincave0.md), [waytomountaincave1](../maps/waytomountaincave1.md) (+1 more)
+**Location:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
 
 ### Combat statistics
 
@@ -176,13 +176,13 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway11_east](../maps/waterway11_east.md) | – | 7 | – |
-| [waterway_forest3](../maps/waterway_forest3.md) | – | 12 | – |
-| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 2 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytomountaincave0](../maps/waytomountaincave0.md) | – | 8 | – |
-| [waytomountaincave1](../maps/waytomountaincave1.md) | – | 8 | – |
-| [waytomountaincave2](../maps/waytomountaincave2.md) | – | 8 | – |
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 7 | – |
+| [Waterway forest 3](../maps/waterway_forest3.md) | – | 12 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 2 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 8 | – |
+| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 8 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 8 | – |
 
 
 ### Version history

@@ -4,7 +4,7 @@ description: "Caeda is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_ld1_145.png){ .sprite } Caeda
 
-**Where to find Caeda:** Remgard: [remgard0](../maps/remgard0.md#pin-npc-caeda), [lakecave2](../maps/lakecave2.md#pin-npc-caeda)
+**Where to find Caeda:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-caeda), [Lakecave 2](../maps/lakecave2.md#pin-npc-caeda)
 
 <div class="infobox" markdown>
 
@@ -24,18 +24,18 @@ description: "Caeda is a non-player character (NPC) in Andor's Trail, found in R
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave2](../maps/lakecave2.md) | – | 1 | Appears later, during a quest |
-| [remgard0](../maps/remgard0.md) | Remgard | 1 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 1 | Appears later, during a quest |
+| [Remgard 0](../maps/remgard0.md) | Remgard | 1 | – |
 
 ## Quests
 
 - [A secret garden](../quests/secret_garden.md): stages 10, 20, 40, 50, 60
 - [The roots of love](../quests/roots_love.md): stage 20
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stage 205
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 205
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Caeda. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Caeda. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/caeda.json" data-npc="Caeda" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (33 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-caeda"></span>**`caeda`** *(silent check: the first matching branch below is taken)*
 
@@ -72,7 +72,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-caeda_60"></span>**`caeda_60`** Caeda: “Oh, it is you again. Thank you for all you have done.”
 
-    - “Could you give me the key for the glade again?” *(if reached stage 30 of [The roots of love](../quests/roots_love.md#stage-30); NOT reached stage 205 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-205))* → [caeda_root60_1](#d-caeda_root60_1)
+    - “Could you give me the key for the glade again?” *(if reached stage 30 of [The roots of love](../quests/roots_love.md#stage-30); NOT reached stage 205 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-205))* → [caeda_root60_1](#d-caeda_root60_1)
     - “No problem.” → *conversation ends*
     - “It was all for the Shadow.” → *conversation ends*
 
@@ -125,7 +125,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [caeda_root40_1a](#d-caeda_root40_1a)
 
-    <span id="d-caeda_root60_2"></span>**`caeda_root60_2`** Caeda: “Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.” — **effects:** sets stage 205 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-205), removes monsters from remgard0, spawns monsters on lakecave2, gives 1× [Key to the glade](../items/glade_key.md), removes monsters from lakecave2
+    <span id="d-caeda_root60_2"></span>**`caeda_root60_2`** Caeda: “Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.” — **effects:** sets stage 205 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-205), removes monsters from remgard0, spawns monsters on lakecave2, gives 1× [Key to the glade](../items/glade_key.md), removes monsters from lakecave2
 
     - “So I will meet you there. Bye.” → *NPC leaves*
 

@@ -11,7 +11,7 @@ description: "Undertell 3 lava 11 is an indoor location in Andor's Trail. Enemie
 | **Map ID** | `undertell_3_lava_11` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level3](index.md) |
+| **World map** | [Undertell level 3](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 6 |
 | **Quests** | 1 |
@@ -63,7 +63,7 @@ description: "Undertell 3 lava 11 is an indoor location in Andor's Trail. Enemie
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage opens at stage 1
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 3
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7; something on this map advances it; stepping on a trigger here sets stage 3
 
 ## Points of interest
 

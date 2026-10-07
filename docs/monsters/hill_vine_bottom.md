@@ -4,7 +4,7 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 
 # ![](../assets/icons/monsters/monsters_guynmart_10.png){ .sprite } Hillside vine
 
-**Found in:** Stoutford: [stoutford_filler_1](../maps/stoutford_filler_1.md), Stoutford: [stoutford_filler_2](../maps/stoutford_filler_2.md), Stoutford: [stoutford_filler_3](../maps/stoutford_filler_3.md), [stoutford_filler_4](../maps/stoutford_filler_4.md)
+**Found in:** Stoutford: [Stoutford filler 1](../maps/stoutford_filler_1.md), Stoutford: [Stoutford filler 2](../maps/stoutford_filler_2.md), Stoutford: [Stoutford filler 3](../maps/stoutford_filler_3.md), [Stoutford filler 4](../maps/stoutford_filler_4.md)
 
 <div class="infobox" markdown>
 
@@ -54,10 +54,10 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_filler_1](../maps/stoutford_filler_1.md) | Stoutford | 3 | – |
-| [stoutford_filler_2](../maps/stoutford_filler_2.md) | Stoutford | 3 | – |
-| [stoutford_filler_3](../maps/stoutford_filler_3.md) | Stoutford | 2 | – |
-| [stoutford_filler_4](../maps/stoutford_filler_4.md) | – | 1 | – |
+| [Stoutford filler 1](../maps/stoutford_filler_1.md) | Stoutford | 3 | – |
+| [Stoutford filler 2](../maps/stoutford_filler_2.md) | Stoutford | 3 | – |
+| [Stoutford filler 3](../maps/stoutford_filler_3.md) | Stoutford | 2 | – |
+| [Stoutford filler 4](../maps/stoutford_filler_4.md) | – | 1 | – |
 
 
 ## Version history

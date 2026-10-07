@@ -1,8 +1,8 @@
 ---
-description: "Waytolake7b is an outdoor location in Andor's Trail. Enemies: Puny plaguecrawler. Exits to Waytolake7."
+description: "Waytolake 7b is an outdoor location in Andor's Trail. Enemies: Puny plaguecrawler. Exits to Waytolake 7."
 ---
 
-# Waytolake7b
+# Waytolake 7b
 
 <div class="infobox" markdown>
 
@@ -11,26 +11,26 @@ description: "Waytolake7b is an outdoor location in Andor's Trail. Enemies: Puny
 | **Map ID** | `waytolake7b` |
 | **Type** | Outdoors |
 | **Size** | 20×10 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytolake7b** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Waytolake7.
+**Waytolake 7b** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Waytolake 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytolake7b.webp" alt="Map of Waytolake7b" width="640" height="320" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waytolake7/#place-south" title="Exit to Waytolake7" style="left:20.000%;top:0.000%;width:40.000%;height:10.000%"></a><span class="mo mo-sign" title="Sign: sign_waytolake7b_0" style="left:60.000%;top:60.000%;width:5.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Puny plaguecrawler" style="left:15.000%;top:20.000%;width:55.000%;height:50.000%"></span><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:65.000%;top:20.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:55.000%;top:60.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:65.000%;top:40.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:50.000%;top:50.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:15.000%;top:30.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:60.000%;top:50.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:50.000%;top:60.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:20.000%;top:20.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="pin pin-exit" href="#key-1" style="left:40.000%;top:5.000%" title="Exit (north): to [Waytolake7](waytolake7.md)">1</a><a class="pin pin-sign" href="#key-2" style="left:62.500%;top:65.000%" title="Sign: A sign">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytolake7b.webp" alt="Map of Waytolake 7b" width="640" height="320" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waytolake7/#place-south" title="Exit to Waytolake 7" style="left:20.000%;top:0.000%;width:40.000%;height:10.000%"></a><span class="mo mo-sign" title="Sign: sign_waytolake7b_0" style="left:60.000%;top:60.000%;width:5.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Puny plaguecrawler" style="left:15.000%;top:20.000%;width:55.000%;height:50.000%"></span><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:65.000%;top:20.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:55.000%;top:60.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:65.000%;top:40.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:50.000%;top:50.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:15.000%;top:30.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:60.000%;top:50.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:50.000%;top:60.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="mob" href="../../monsters/plaguesp_1/" title="Puny plaguecrawler" style="left:20.000%;top:20.000%;width:5.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_61.png" alt="Puny plaguecrawler"></a><a class="pin pin-exit" href="#key-1" style="left:40.000%;top:5.000%" title="Exit (north): to [Waytolake 7](waytolake7.md)">1</a><a class="pin pin-sign" href="#key-2" style="left:62.500%;top:65.000%" title="Sign: A sign">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Waytolake7](waytolake7.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Waytolake 7](waytolake7.md) |
     | <span id="key-2"></span>2 | Sign | A sign |
 
 
@@ -40,7 +40,7 @@ description: "Waytolake7b is an outdoor location in Andor's Trail. Enemies: Puny
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Waytolake7](waytolake7.md) | – | 1 |
+| North | [Waytolake 7](waytolake7.md) | – | 1 |
 
 ## Enemies
 
@@ -52,7 +52,7 @@ description: "Waytolake7b is an outdoor location in Andor's Trail. Enemies: Puny
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): something on this map advances it
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): something on this map advances it
 
 ## Points of interest
 

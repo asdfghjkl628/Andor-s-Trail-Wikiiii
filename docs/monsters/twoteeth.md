@@ -4,7 +4,7 @@ description: "Two-teeth is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_tometik7_40.png){ .sprite } Two-teeth
 
-**Where to find Two-teeth:** Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-twoteeth)
+**Where to find Two-teeth:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-twoteeth)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Two-teeth is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Two-teeth. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Two-teeth. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/twoteeth.json" data-npc="Two-teeth" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (22 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-twoteeth"></span>**`twoteeth`** *(silent check: the first matching branch below is taken)*
 
@@ -141,7 +141,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “[coughs heavily]” → “[Coughs heavily]”<br>· text: “Ok, ok! No need to get all violent.” → “OK, OK! No need to get all violent.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “She's in the other hut over there. *points*” → “She's in the other hut over there [points].”<br>· text: “[coughs heavily]” → “[Coughs heavily]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

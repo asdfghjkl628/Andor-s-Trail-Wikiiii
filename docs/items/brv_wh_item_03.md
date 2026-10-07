@@ -25,8 +25,8 @@ description: "Yellow boot is a quest other in Andor's Trail. How to get it: ques
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_03](../monsters/brv_wh_item_03.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_23](../monsters/brv_wh_item_23.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-103) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_03](../monsters/brv_wh_item_03.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_23](../monsters/brv_wh_item_23.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-103) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Arghes](../monsters/arghes.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70) | handed over (1×) | “And how interesting that you ordered a pair of 'Yellow boots'. Did you really or” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Arghes](../monsters/arghes.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70) | handed over (1×) | “And how interesting that you ordered a pair of 'Yellow boots'. Did you really or” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

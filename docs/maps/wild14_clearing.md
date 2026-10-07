@@ -1,8 +1,8 @@
 ---
-description: "Wild14 clearing is an outdoor location in Andor's Trail. NPCs: Oluag. Enemies: Anklebiter. Exits to Wild14 cave."
+description: "Wild 14 clearing is an outdoor location in Andor's Trail. NPCs: Oluag. Enemies: Anklebiter. Exits to Wild 14 cave."
 ---
 
-# Wild14 clearing
+# Wild 14 clearing
 
 <div class="infobox" markdown>
 
@@ -11,7 +11,7 @@ description: "Wild14 clearing is an outdoor location in Andor's Trail. NPCs: Olu
 | **Map ID** | `wild14_clearing` |
 | **Type** | Outdoors |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 1 |
 | **Enemy types** | 1 |
@@ -19,19 +19,19 @@ description: "Wild14 clearing is an outdoor location in Andor's Trail. NPCs: Olu
 
 </div>
 
-**Wild14 clearing** is an outdoor map. It has 1 NPC and 1 kind of enemy. Exits lead to Wild14 cave.
+**Wild 14 clearing** is an outdoor map. It has 1 NPC and 1 kind of enemy. Exits lead to Wild 14 cave.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild14_clearing.webp" alt="Map of Wild14 clearing" width="640" height="480" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../wild14_cave/#place-up_north" title="Exit to Wild14 cave" style="left:70.000%;top:13.333%;width:5.000%;height:6.667%"></a><span class="mo mo-sign" title="Sign: You see a recently dug grave." style="left:70.000%;top:73.333%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Oluag" style="left:35.000%;top:20.000%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:20.000%;top:66.667%;width:30.000%;height:26.667%"></span><a class="mob" href="../../monsters/oluag/" title="Oluag" style="left:35.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_men_8.png" alt="Oluag"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:35.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="pin pin-exit" href="#key-1" style="left:72.500%;top:16.667%" title="Exit (cave entrance): to [Wild14 cave](wild14_cave.md)">1</a><a id="pin-npc-oluag" class="pin pin-npc" href="#key-2" style="left:37.500%;top:23.333%" title="[Oluag](../../monsters/oluag.md): 1 quest">2</a><a class="pin pin-sign" href="#key-3" style="left:72.500%;top:76.667%" title="Sign: “You see a recently dug grave.”">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild14_clearing.webp" alt="Map of Wild 14 clearing" width="640" height="480" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../wild14_cave/#place-up_north" title="Exit to Wild 14 cave" style="left:70.000%;top:13.333%;width:5.000%;height:6.667%"></a><span class="mo mo-sign" title="Sign: You see a recently dug grave." style="left:70.000%;top:73.333%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Oluag" style="left:35.000%;top:20.000%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:20.000%;top:66.667%;width:30.000%;height:26.667%"></span><a class="mob" href="../../monsters/oluag/" title="Oluag" style="left:35.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_men_8.png" alt="Oluag"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:35.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="pin pin-exit" href="#key-1" style="left:72.500%;top:16.667%" title="Exit (cave entrance): to [Wild 14 cave](wild14_cave.md)">1</a><a id="pin-npc-oluag" class="pin pin-npc" href="#key-2" style="left:37.500%;top:23.333%" title="[Oluag](../../monsters/oluag.md): 1 quest">2</a><a class="pin pin-sign" href="#key-3" style="left:72.500%;top:76.667%" title="Sign: “You see a recently dug grave.”">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (cave entrance) | to [Wild14 cave](wild14_cave.md) |
+    | <span id="key-1"></span>1 | Exit (cave entrance) | to [Wild 14 cave](wild14_cave.md) |
     | <span id="key-2"></span>2 | [Oluag](../monsters/oluag.md) | 1 quest |
     | <span id="key-3"></span>3 | Sign | “You see a recently dug grave.” |
 
@@ -42,7 +42,7 @@ description: "Wild14 clearing is an outdoor location in Andor's Trail. NPCs: Olu
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Cave entrance | [Wild14 cave](wild14_cave.md) | Foaming Flask Tavern | 1 |
+| Cave entrance | [Wild 14 cave](wild14_cave.md) | Foaming Flask Tavern | 1 |
 
 ## NPCs
 

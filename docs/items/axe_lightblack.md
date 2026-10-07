@@ -49,7 +49,7 @@ description: "Light black axe is a ordinary axe in Andor's Trail (Attack damage 
 
 ### Found in containers
 
-- [laerothbarn0](../maps/laerothbarn0.md#container-0) (container 1, 80%), Lake Laeroth
+- [Laerothbarn 0](../maps/laerothbarn0.md#container-0) (container 1, 80%), Lake Laeroth
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Zaroth is a non-player character (NPC) in Andor's Trail, found in undertell_4_00. Starts The fifth master."
+description: "Zaroth is a non-player character (NPC) in Andor's Trail, found in Undertell 4 00. Starts The fifth master."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik6_34.png){ .sprite } Zaroth
 
-**Where to find Zaroth:** [undertell_4_00](../maps/undertell_4_00.md#pin-npc-zaroth)
+**Where to find Zaroth:** [Undertell 4 00](../maps/undertell_4_00.md#pin-npc-zaroth)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Zaroth is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [The fifth master](../quests/fifth_master.md) |
-| **Found in** | undertell_4_00 |
+| **Found in** | Undertell 4 00 |
 | **Entry ID** | `zaroth` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -23,11 +23,11 @@ description: "Zaroth is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [The fifth master](../quests/fifth_master.md): stages 10, 20, 78
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 5, 7
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stages 5, 7
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zaroth. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zaroth. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/Zaroth_initial_selector.json" data-npc="Zaroth" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,12 +35,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-Zaroth_initial_selector"></span>**`Zaroth_initial_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [kazaul_masters_not_met_10](#d-kazaul_masters_not_met_10)
-    - branch 2 *(if reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5); NOT reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10))* → [kazaul_masters_met_but_no_quest_started_10](#d-kazaul_masters_met_but_no_quest_started_10)
+    - branch 1 *(if NOT reached stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [kazaul_masters_not_met_10](#d-kazaul_masters_not_met_10)
+    - branch 2 *(if reached stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5); NOT reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10))* → [kazaul_masters_met_but_no_quest_started_10](#d-kazaul_masters_met_but_no_quest_started_10)
     - branch 3 *(if reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); NOT reached stage 20 of [The fifth master](../quests/fifth_master.md#stage-20))* → [the_fifth_master_10](#d-the_fifth_master_10)
     - branch 4 *(if carry 1× [The Ritual of Five Aspects](../items/ancient_kazaul_ritual.md))* → [masters_send_to_thalen_10](#d-masters_send_to_thalen_10)
     - branch 5 *(if reached stage 90 of [The fifth master](../quests/fifth_master.md#stage-90))* → [zaroth_after_fifth_master_narrator](#d-zaroth_after_fifth_master_narrator)
@@ -70,7 +70,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [zaroth_intro_10](#d-zaroth_intro_10)
 
-    <span id="d-kazaul_masters_not_met_20"></span>**`kazaul_masters_not_met_20`** Zaroth: “We are "masters", not "bosses". And yes, there are five of us.” — **effects:** sets stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5)
+    <span id="d-kazaul_masters_not_met_20"></span>**`kazaul_masters_not_met_20`** Zaroth: “We are "masters", not "bosses". And yes, there are five of us.” — **effects:** sets stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5)
 
     - Next → [kazaul_masters_not_met_30](#d-kazaul_masters_not_met_30)
 
@@ -83,7 +83,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Then I will find it.” → [the_fifth_master_accept](#d-the_fifth_master_accept)
     - “I do not trust you, but I will look.” → [the_fifth_master_accept](#d-the_fifth_master_accept)
 
-    <span id="d-masters_send_to_thalen_20"></span>**`masters_send_to_thalen_20`** Zaroth: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only ink on lost parchment.” — **effects:** sets stage 78 of [The fifth master](../quests/fifth_master.md#stage-78), sets stage 7 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-7)
+    <span id="d-masters_send_to_thalen_20"></span>**`masters_send_to_thalen_20`** Zaroth: “He will guide your unlearned hands. He alone can draw the pattern that binds the Five. Without him, the ritual is only ink on lost parchment.” — **effects:** sets stage 78 of [The fifth master](../quests/fifth_master.md#stage-78), sets stage 7 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-7)
 
     - “I will find him.” → *conversation ends*
 

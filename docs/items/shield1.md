@@ -40,12 +40,12 @@ description: "Wooden buckler is a ordinary buckler in Andor's Trail (Attack chan
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | 100% | 1 | Foaming Flask Tavern |
-| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 20% | 1 | crackshot_hideout2, crackshot_hideout3 |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | pwcave3, pwcave4 |
+| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 20% | 1 | Crackshot hideout 2, Crackshot hideout 3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | Pwcave 3, Pwcave 4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | Pwcave 3, Pwcave 4 |
 
 ### Sold by
 

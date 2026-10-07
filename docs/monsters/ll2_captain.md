@@ -1,5 +1,5 @@
 ---
-description: "Captain Burry is an NPC who can also be fought in Andor's Trail, found in Remgard, Lake Laeroth, mountainlake_circe."
+description: "Captain Burry is an NPC who can also be fought in Andor's Trail, found in Remgard, Lake Laeroth, Mountainlake circe."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Captain Burry
@@ -11,7 +11,7 @@ description: "Captain Burry is an NPC who can also be fought in Andor's Trail, f
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Remgard, Lake Laeroth, mountainlake_circe |
+| **Found in** | Remgard, Lake Laeroth, Mountainlake circe |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -21,35 +21,35 @@ description: "Captain Burry is an NPC who can also be fought in Andor's Trail, f
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Captain Burry. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Captain Burry. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ll2_captain`](#v-ll2_captain) | NPC | Lake Laeroth: [mountainlake21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [mountainlake14](../maps/mountainlake14.md#pin-npc-ll2_captain) (+6 more) | – | – |
-| [`ll2_captain_0`](#v-ll2_captain_0) | Enemy | [mountainlake_circe](../maps/mountainlake_circe.md) | – | 1 |
+| [`ll2_captain`](#v-ll2_captain) | NPC | Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain) (+6 more) | – | – |
+| [`ll2_captain_0`](#v-ll2_captain_0) | Enemy | [Mountainlake circe](../maps/mountainlake_circe.md) | – | 1 |
 
-## Lake Laeroth, Mountainlake21 and 7 more (ll2_captain) { #v-ll2_captain }
+## Lake Laeroth, Mountainlake 21 and 7 more (ll2_captain) { #v-ll2_captain }
 
 **Entry ID:** `ll2_captain` · **Type:** NPC
 
-**Location:** Lake Laeroth: [mountainlake21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [mountainlake14](../maps/mountainlake14.md#pin-npc-ll2_captain), Remgard: [remgard2a](../maps/remgard2a.md#pin-npc-ll2_captain), [mountainlake22](../maps/mountainlake22.md#pin-npc-ll2_captain), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_captain), [mountainlake29](../maps/mountainlake29.md#pin-npc-ll2_captain) (+2 more)
+**Location:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain), Remgard: [Remgard 2a](../maps/remgard2a.md#pin-npc-ll2_captain), [Mountainlake 22](../maps/mountainlake22.md#pin-npc-ll2_captain), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_captain), [Mountainlake 29](../maps/mountainlake29.md#pin-npc-ll2_captain) (+2 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 1 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 1 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 1 | – |
-| [mountainlake27](../maps/mountainlake27.md) | – | 1 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 1 | – |
-| [mountainlake_circe](../maps/mountainlake_circe.md) | – | 1 | Appears later, during a quest |
-| [mountainlake_sub](../maps/mountainlake_sub.md) | – | 1 | – |
-| [remgard2a](../maps/remgard2a.md) | Remgard | 1 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 1 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 1 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 1 | – |
+| [Mountainlake 27](../maps/mountainlake27.md) | – | 1 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 1 | – |
+| [Mountainlake circe](../maps/mountainlake_circe.md) | – | 1 | Appears later, during a quest |
+| [Mountainlake sub](../maps/mountainlake_sub.md) | – | 1 | – |
+| [Remgard 2a](../maps/remgard2a.md) | Remgard | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Captain Burry. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Captain Burry. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_captain.json" data-npc="Captain Burry" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -57,7 +57,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_captain-ll2_captain"></span>**`ll2_captain`** Captain Burry: “Hey, little landlubber - everything alright?”
 
@@ -104,7 +104,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ll2_captain_0` · **Type:** Enemy
 
-**Location:** [mountainlake_circe](../maps/mountainlake_circe.md)
+**Location:** [Mountainlake circe](../maps/mountainlake_circe.md)
 
 ### Combat statistics
 
@@ -132,7 +132,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake_circe](../maps/mountainlake_circe.md) | – | 1 | – |
+| [Mountainlake circe](../maps/mountainlake_circe.md) | – | 1 | – |
 
 
 ### Version history

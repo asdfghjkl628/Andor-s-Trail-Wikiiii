@@ -1,10 +1,10 @@
 ---
-description: "Young teeth critter is an enemy in Andor's Trail (reptile) with 15 HP, worth 24 XP, found in jan_pitcave2. Drops: Gold coins, Glass gem, Claws."
+description: "Young teeth critter is an enemy in Andor's Trail (reptile) with 15 HP, worth 24 XP, found in Jan pitcave 2. Drops: Gold coins, Glass gem, Claws."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_0.png){ .sprite } Young teeth critter
 
-**Found in:** [jan_pitcave2](../maps/jan_pitcave2.md)
+**Found in:** [Jan pitcave 2](../maps/jan_pitcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young teeth critter is an enemy in Andor's Trail (reptile) with 15
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | jan_pitcave2 |
+| **Found in** | Jan pitcave 2 |
 | **Class** | Reptile |
 | **HP** | 15 |
 | **XP when defeated** | 24 |
@@ -56,7 +56,7 @@ description: "Young teeth critter is an enemy in Andor's Trail (reptile) with 15
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [jan_pitcave2](../maps/jan_pitcave2.md) | – | 15 | – |
+| [Jan pitcave 2](../maps/jan_pitcave2.md) | – | 15 | – |
 
 
 ## Version history

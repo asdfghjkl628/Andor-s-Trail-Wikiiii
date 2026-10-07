@@ -11,7 +11,7 @@ description: "Undertell 1 0 is an indoor location in Andor's Trail. NPCs: Brenor
 | **Map ID** | `undertell_1_0` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell floor2](index.md) |
+| **World map** | [Undertell floor 2](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 2 |
 | **Enemy types** | 1 |
@@ -66,7 +66,7 @@ description: "Undertell 1 0 is an indoor location in Andor's Trail. NPCs: Brenor
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [The fifth master](../quests/fifth_master.md): [Durnan the Hollow](../monsters/durnan.md) is involved
 - [Undertell: What was not written](../quests/undertell_book.md): [Brenor](../monsters/brenor.md) is involved
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Brenor](../monsters/brenor.md) is involved; blocked passage opens at stage 82; something on this map advances it; stepping on a trigger here sets stage 81
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Brenor](../monsters/brenor.md) is involved; blocked passage opens at stage 82; something on this map advances it; stepping on a trigger here sets stage 81
 
 ## Points of interest
 

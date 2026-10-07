@@ -19,29 +19,29 @@ description: "Tahalendor is a non-player character (NPC) in Andor's Trail, found
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Tahalendor. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Tahalendor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`tahalendor`](#v-tahalendor) | NPC | Stoutford: [stoutford_church](../maps/stoutford_church.md#pin-npc-tahalendor) | starts [Rumblings](../quests/rumblings.md) |
-| [`tahalendor2`](#v-tahalendor2) | NPC | Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-tahalendor2) | – |
+| [`tahalendor`](#v-tahalendor) | NPC | Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-tahalendor) | starts [Rumblings](../quests/rumblings.md) |
+| [`tahalendor2`](#v-tahalendor2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-tahalendor2) | – |
 
 ## Stoutford, Stoutford church (tahalendor) { #v-tahalendor }
 
 **Entry ID:** `tahalendor` · **Type:** NPC · **Role:** Starts [Rumblings](../quests/rumblings.md)
 
-**Location:** Stoutford: [stoutford_church](../maps/stoutford_church.md#pin-npc-tahalendor)
+**Location:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-tahalendor)
 
 ### Quests
 
 - [Rumblings](../quests/rumblings.md): stages 10, 90, 100, 103, 106
 - [Stoutford's old castle](../quests/stoutford_castle.md): stage 14
 - [The thorns of vengeance](../quests/thorns_vengeance.md): stage 65
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 23
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 23
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tahalendor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tahalendor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tahalendor_0.json" data-npc="Tahalendor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tahalendor-tahalendor_0"></span>**`tahalendor_0`** *(silent check: the first matching branch below is taken)*
 
@@ -96,7 +96,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I met an undead lord in the castle, but every time it seems that I have destroyed him, he rises again. Do you have any…” *(if killed 1× [Lord Erwyn](../monsters/erwyn.md))* → [tahalendor_erwyn_2](#d-tahalendor-tahalendor_erwyn_2)
     - “I want to help you clean the castle of the undead. Yolgen seems to be worried, perhaps because he believes the undead…” *(if NOT killed 1× [Lord Erwyn](../monsters/erwyn.md))* → [tahalendor_erwyn_2](#d-tahalendor-tahalendor_erwyn_2)
 
-    <span id="d-tahalendor-tahalendor_rumblings10x_1"></span>**`tahalendor_rumblings10x_1`** Tahalendor: “Talk to Yolgen. He handles such things for me.” — **effects:** sets stage 23 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-23)
+    <span id="d-tahalendor-tahalendor_rumblings10x_1"></span>**`tahalendor_rumblings10x_1`** Tahalendor: “Talk to Yolgen. He handles such things for me.” — **effects:** sets stage 23 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-23)
 
     - “OK. Thanks.” → *conversation ends*
 
@@ -211,7 +211,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `tahalendor2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-tahalendor2)
+**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-tahalendor2)
 
 ### Quests
 
@@ -219,7 +219,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tahalendor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tahalendor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tahalendor2_0.json" data-npc="Tahalendor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -227,7 +227,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tahalendor2-tahalendor2_0"></span>**`tahalendor2_0`** *(silent check: the first matching branch below is taken)*
 

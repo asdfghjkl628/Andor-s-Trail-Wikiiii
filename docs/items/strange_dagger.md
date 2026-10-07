@@ -48,7 +48,7 @@ description: "A strange looking dagger is a quest dagger in Andor's Trail (Attac
 
 ### Quest & dialogue rewards
 
-- From [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) during [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30) (1×)
+- From [Pixtumn](../monsters/quiet_thief.md) ([Brimhaven inn east](../maps/brimhaven_inn_east.md)) during [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -59,12 +59,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-25) | must be carried (1×) | “If you have those skills I would like you to look at two items I purchased local” |
-| [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-10) | must be carried (1×) | “If you have those skills I would like you to look at something I purchased local” |
-| [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-50) | must be carried (1×) | “I have a gem. I think it's the right one for the dagger we discussed.” |
-| [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-50) | must be carried (1×) | “I have a dagger. I think it's the one that matches the gem we discussed. ” |
-| [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-80) | handed over (1×) | “OK. I agree. Here are the dagger and the gem.” |
-| stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20) | must be carried (1×) | “N” |
+| [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-25) | must be carried (1×) | “If you have those skills I would like you to look at two items I purchased local” |
+| [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-10) | must be carried (1×) | “If you have those skills I would like you to look at something I purchased local” |
+| [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-50) | must be carried (1×) | “I have a gem. I think it's the right one for the dagger we discussed.” |
+| [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-50) | must be carried (1×) | “I have a dagger. I think it's the one that matches the gem we discussed. ” |
+| [Edrin](../monsters/brv_metalsmith.md) ([Brimhaven metalsmith](../maps/brimhaven_metalsmith.md)) | [A strange looking dagger](../quests/brv_dagger.md#stage-80) | handed over (1×) | “OK. I agree. Here are the dagger and the gem.” |
+| stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) | [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20) | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

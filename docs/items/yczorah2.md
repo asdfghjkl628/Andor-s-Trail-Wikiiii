@@ -65,8 +65,8 @@ description: "Yczorah nucleus is a legendary scepter in Andor's Trail (Attack da
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 0.01% | 1 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 0.01% | 1 | elm5f_1, elm5f_2 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 0.01% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 0.01% | 1 | Elm 5f 1, Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

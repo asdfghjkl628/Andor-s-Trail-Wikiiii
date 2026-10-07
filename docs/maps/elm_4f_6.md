@@ -11,7 +11,7 @@ description: "Elm 4f 6 is an indoor location in Andor's Trail. Exits to Elm 4f 4
 | **Map ID** | `elm_4f_6` |
 | **Type** | Indoors / underground |
 | **Size** | 15×14 tiles |
-| **World map** | [Elm4f](index.md) |
+| **World map** | [Elm 4f](index.md) |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 | **Quests** | 0 |
 

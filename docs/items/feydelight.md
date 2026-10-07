@@ -36,7 +36,7 @@ description: "Feydelight is a extraordinary food in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) during [A Feygard delicacy](../quests/feygard_delicacy.md#stage-8) (1×)
+- From [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) during [A Feygard delicacy](../quests/feygard_delicacy.md#stage-8) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -26,7 +26,7 @@ description: "Rusted key is a ordinary other in Andor's Trail. How to get it: qu
 
 ### Quest & dialogue rewards
 
-- From [Prim guard captain](../monsters/prim_guard5.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-43) (1×)
+- From [Prim guard captain](../monsters/prim_guard5.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-43) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [elm_mine2](../maps/elm_mine2.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-25) | handed over (1×) | “Use Jern's rusty key.” |
-| walking into a blocked passage on [elm_mine2](../maps/elm_mine2.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-25) | handed over (1×) | “Try using Jern's key.” |
+| walking into a blocked passage on [Elm mine 2](../maps/elm_mine2.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-25) | handed over (1×) | “Use Jern's rusty key.” |
+| walking into a blocked passage on [Elm mine 2](../maps/elm_mine2.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-25) | handed over (1×) | “Try using Jern's key.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

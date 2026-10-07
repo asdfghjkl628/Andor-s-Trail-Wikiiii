@@ -43,7 +43,7 @@ description: "Steel fauchard is a ordinary pole weapon in Andor's Trail (Attack 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Drakthorn](../monsters/drakthorn.md) | 4% | 1 | island_underground2, island_underground3, island_underground4 |
+| [Drakthorn](../monsters/drakthorn.md) | 4% | 1 | Island underground 2, Island underground 3, Island underground 4 |
 
 ### Sold by
 

@@ -26,10 +26,10 @@ description: "Thin amphibian skin is a ordinary animal part in Andor's Trail. Ho
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Albino olm](../monsters/bwm_olm2.md) | 15% | 1 | blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75 |
-| [Hard-skinned olm](../monsters/bwm_olm3.md) | 15% | 1 | blackwater_mountain75, elm_4f_5, elm_mine2 |
-| [Blackened olm](../monsters/bwm_olm4.md) | 15% | 1 | blackwater_mountain75, elm_4f_5, elm_mine2 |
-| [Contaminated olm](../monsters/bwm_olm5.md) | 15% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
+| [Albino olm](../monsters/bwm_olm2.md) | 15% | 1 | Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75 |
+| [Hard-skinned olm](../monsters/bwm_olm3.md) | 15% | 1 | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
+| [Blackened olm](../monsters/bwm_olm4.md) | 15% | 1 | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
+| [Contaminated olm](../monsters/bwm_olm5.md) | 15% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
 
 ### Sold by
 
@@ -37,8 +37,8 @@ description: "Thin amphibian skin is a ordinary animal part in Andor's Trail. Ho
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 33.3333%)
-- [elm_mine5](../maps/elm_mine5.md#container-2) (container 3, 20%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 33.3333%)
+- [Elm mine 5](../maps/elm_mine5.md#container-2) (container 3, 20%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,8 +1,8 @@
 ---
-description: "Brightport bakery3 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Nicolo, Rubiano. Exits to Brightport bakery2."
+description: "Brightport bakery 3 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Nicolo, Rubiano. Exits to Brightport bakery 2."
 ---
 
-# Brightport bakery3
+# Brightport bakery 3
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brightport bakery3 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport bakery3** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport bakery2.
+**Brightport bakery 3** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport bakery 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_bakery3.webp" alt="Map of Brightport bakery3" width="512" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_bakery2/#place-office" title="Exit to Brightport bakery2" style="left:43.750%;top:90.909%;width:6.250%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Rubiano" style="left:50.000%;top:36.364%;width:6.250%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Nicolo" style="left:12.500%;top:63.636%;width:6.250%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_mayor/" title="Rubiano" style="left:50.000%;top:36.364%;width:6.250%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_77.png" alt="Rubiano"></a><a class="mob" href="../../monsters/brightport_councilor/" title="Nicolo" style="left:12.500%;top:63.636%;width:6.250%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_130.png" alt="Nicolo"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:95.455%" title="Exit (south): to [Brightport bakery2](brightport_bakery2.md)">1</a><a id="pin-npc-brightport_councilor" class="pin pin-npc" href="#key-2" style="left:15.625%;top:68.182%" title="[Nicolo](../../monsters/brightport_councilor.md): NPC">2</a><a id="pin-npc-brightport_mayor" class="pin pin-npc" href="#key-3" style="left:53.125%;top:40.909%" title="[Rubiano](../../monsters/brightport_mayor.md): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_bakery3.webp" alt="Map of Brightport bakery 3" width="512" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_bakery2/#place-office" title="Exit to Brightport bakery 2" style="left:43.750%;top:90.909%;width:6.250%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Rubiano" style="left:50.000%;top:36.364%;width:6.250%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Nicolo" style="left:12.500%;top:63.636%;width:6.250%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_mayor/" title="Rubiano" style="left:50.000%;top:36.364%;width:6.250%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_77.png" alt="Rubiano"></a><a class="mob" href="../../monsters/brightport_councilor/" title="Nicolo" style="left:12.500%;top:63.636%;width:6.250%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_130.png" alt="Nicolo"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:95.455%" title="Exit (south): to [Brightport bakery 2](brightport_bakery2.md)">1</a><a id="pin-npc-brightport_councilor" class="pin pin-npc" href="#key-2" style="left:15.625%;top:68.182%" title="[Nicolo](../../monsters/brightport_councilor.md): NPC">2</a><a id="pin-npc-brightport_mayor" class="pin pin-npc" href="#key-3" style="left:53.125%;top:40.909%" title="[Rubiano](../../monsters/brightport_mayor.md): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightport bakery2](brightport_bakery2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightport bakery 2](brightport_bakery2.md) |
     | <span id="key-2"></span>2 | [Nicolo](../monsters/brightport_councilor.md) | NPC |
     | <span id="key-3"></span>3 | [Rubiano](../monsters/brightport_mayor.md) | NPC |
 
@@ -41,7 +41,7 @@ description: "Brightport bakery3 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightport bakery2](brightport_bakery2.md) | Brightport | 1 |
+| South | [Brightport bakery 2](brightport_bakery2.md) | Brightport | 1 |
 
 ## NPCs
 

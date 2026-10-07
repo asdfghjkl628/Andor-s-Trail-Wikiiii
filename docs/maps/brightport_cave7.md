@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave7 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith. Exits to Brightport cave8, Brightport cave5."
+description: "Brightport cave 7 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith. Exits to Brightport cave 8, Brightport cave 5."
 ---
 
-# Brightport cave7
+# Brightport cave 7
 
 <div class="infobox" markdown>
 
@@ -19,20 +19,20 @@ description: "Brightport cave7 is an indoor location in Andor's Trail, in Buried
 
 </div>
 
-**Brightport cave7** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave8, Brightport cave5.
+**Brightport cave 7** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave 8, Brightport cave 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave7.webp" alt="Map of Brightport cave7" width="352" height="352" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightport_cave5/#place-east" title="Exit to Brightport cave5" style="left:0.000%;top:72.727%;width:9.091%;height:18.182%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_cave8/#place-west" title="Exit to Brightport cave8" style="left:90.909%;top:72.727%;width:9.091%;height:18.182%"></a><span class="mo mo-spawn" title="Spawns: Wraith" style="left:27.273%;top:81.818%;width:27.273%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:63.636%;top:72.727%;width:18.182%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:36.364%;top:81.818%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:72.727%;top:72.727%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:81.818%" title="Exit (southeast): to [Brightport cave8](brightport_cave8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:4.545%;top:81.818%" title="Exit (southwest): to [Brightport cave5](brightport_cave5.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave7.webp" alt="Map of Brightport cave 7" width="352" height="352" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightport_cave5/#place-east" title="Exit to Brightport cave 5" style="left:0.000%;top:72.727%;width:9.091%;height:18.182%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_cave8/#place-west" title="Exit to Brightport cave 8" style="left:90.909%;top:72.727%;width:9.091%;height:18.182%"></a><span class="mo mo-spawn" title="Spawns: Wraith" style="left:27.273%;top:81.818%;width:27.273%;height:9.091%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:63.636%;top:72.727%;width:18.182%;height:9.091%"></span><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:36.364%;top:81.818%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:72.727%;top:72.727%;width:9.091%;height:9.091%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:81.818%" title="Exit (southeast): to [Brightport cave 8](brightport_cave8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:4.545%;top:81.818%" title="Exit (southwest): to [Brightport cave 5](brightport_cave5.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southeast) | to [Brightport cave8](brightport_cave8.md) |
-    | <span id="key-2"></span>2 | Exit (southwest) | to [Brightport cave5](brightport_cave5.md) |
+    | <span id="key-1"></span>1 | Exit (southeast) | to [Brightport cave 8](brightport_cave8.md) |
+    | <span id="key-2"></span>2 | Exit (southwest) | to [Brightport cave 5](brightport_cave5.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Brightport cave7 is an indoor location in Andor's Trail, in Buried
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southeast | [Brightport cave8](brightport_cave8.md) | Buried citadel | 1 |
-| Southwest | [Brightport cave5](brightport_cave5.md) | Buried citadel | 2 |
+| Southeast | [Brightport cave 8](brightport_cave8.md) | Buried citadel | 1 |
+| Southwest | [Brightport cave 5](brightport_cave5.md) | Buried citadel | 2 |
 
 ## Enemies
 

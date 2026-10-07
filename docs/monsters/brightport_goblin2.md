@@ -4,7 +4,7 @@ description: "Charwood hobgoblin is an enemy in Andor's Trail (humanoid) with 31
 
 # ![](../assets/icons/monsters/monsters_newb_1_92.png){ .sprite } Charwood hobgoblin
 
-**Found in:** Charwood: [waytobrightport0](../maps/waytobrightport0.md), [waytobrightport10](../maps/waytobrightport10.md), [waytobrightport2](../maps/waytobrightport2.md)
+**Found in:** Charwood: [Waytobrightport 0](../maps/waytobrightport0.md), [Waytobrightport 10](../maps/waytobrightport10.md), [Waytobrightport 2](../maps/waytobrightport2.md)
 
 <div class="infobox" markdown>
 
@@ -58,9 +58,9 @@ description: "Charwood hobgoblin is an enemy in Andor's Trail (humanoid) with 31
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport0](../maps/waytobrightport0.md) | Charwood | 3 | – |
-| [waytobrightport10](../maps/waytobrightport10.md) | – | 1 | – |
-| [waytobrightport2](../maps/waytobrightport2.md) | – | 2 | – |
+| [Waytobrightport 0](../maps/waytobrightport0.md) | Charwood | 3 | – |
+| [Waytobrightport 10](../maps/waytobrightport10.md) | – | 1 | – |
+| [Waytobrightport 2](../maps/waytobrightport2.md) | – | 2 | – |
 
 
 ## Version history

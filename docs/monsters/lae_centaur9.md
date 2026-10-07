@@ -1,10 +1,10 @@
 ---
-description: "Thalos, the centaur is a non-player character (NPC) in Andor's Trail, found in island2."
+description: "Thalos, the centaur is a non-player character (NPC) in Andor's Trail, found in Island 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_194.png){ .sprite } Thalos, the centaur
 
-**Where to find Thalos, the centaur:** [island2](../maps/island2.md#pin-npc-lae_centaur9)
+**Where to find Thalos, the centaur:** [Island 2](../maps/island2.md#pin-npc-lae_centaur9)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Thalos, the centaur is a non-player character (NPC) in Andor's Tra
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | island2 |
+| **Found in** | Island 2 |
 | **Entry ID** | `lae_centaur9` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
@@ -25,7 +25,7 @@ description: "Thalos, the centaur is a non-player character (NPC) in Andor's Tra
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thalos, the centaur. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thalos, the centaur. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_centaur9.json" data-npc="Thalos, the centaur" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,13 +33,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (30 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_centaur9"></span>**`lae_centaur9`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 310 of [Not Pony Island](../quests/lae_centaurs.md#stage-310))* → [lae_centaur9_310](#d-lae_centaur9_310)
     - branch 2 *(if reached stage 300 of [Not Pony Island](../quests/lae_centaurs.md#stage-300))* → [lae_centaur9_302](#d-lae_centaur9_302)
-    - branch 3 *(if reached stage 12 of [final_cave (hidden flag)](../quests/final_cave.md#stage-12))* → [lae_centaur9_100](#d-lae_centaur9_100)
+    - branch 3 *(if reached stage 12 of [Final cave (hidden flag)](../quests/final_cave.md#stage-12))* → [lae_centaur9_100](#d-lae_centaur9_100)
     - branch 4 *(if reached stage 30 of [Not Pony Island](../quests/lae_centaurs.md#stage-30))* → [lae_centaur9_30](#d-lae_centaur9_30)
     - branch 5 → [lae_centaur9_1](#d-lae_centaur9_1)
 

@@ -4,7 +4,7 @@ description: "Giant serpent is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite } Giant serpent
 
-**Found in:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Found in:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 <div class="infobox" markdown>
 
@@ -48,11 +48,11 @@ description: "Giant serpent is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-142) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-142) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 
 ## Version history

@@ -1,5 +1,5 @@
 ---
-description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–333 HP, worth 315–616 XP, found in waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b, waytobrimhavencave3. Drops: Gold coins, Sharpened gem, Regular potion of health, Empty vial."
+description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–333 HP, worth 315–616 XP, found in Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b, Waytobrimhavencave 3. Drops: Gold coins, Sharpened gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_103.png){ .sprite } Ancient allaceph
@@ -11,7 +11,7 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b, waytobrimhavencave3 |
+| **Found in** | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b, Waytobrimhavencave 3 |
 | **Class** | Demon |
 | **HP** | 133–333 |
 | **XP when defeated** | 315–616 |
@@ -22,18 +22,18 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Ancient allaceph. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Ancient allaceph. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`allaceph_6`](#v-allaceph_6) | Enemy | [waytobrimhavencave3](../maps/waytobrimhavencave3.md), [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) (+1 more) | – | 133 |
-| [`allaceph_cr`](#v-allaceph_cr) | Enemy | [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 333 |
+| [`allaceph_6`](#v-allaceph_6) | Enemy | [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) (+1 more) | – | 133 |
+| [`allaceph_cr`](#v-allaceph_cr) | Enemy | [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 333 |
 
-## Waytobrimhavencave3 and 2 more (allaceph_6) { #v-allaceph_6 }
+## Waytobrimhavencave 3 and 2 more (allaceph_6) { #v-allaceph_6 }
 
 **Entry ID:** `allaceph_6` · **Type:** Enemy
 
-**Location:** [waytobrimhavencave3](../maps/waytobrimhavencave3.md), [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md), [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md)
+**Location:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md)
 
 ### Combat statistics
 
@@ -75,9 +75,9 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 6 | – |
-| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
-| [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 6 | – |
+| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
+| [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
 
 
 ### Version history
@@ -144,11 +144,11 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
     ```
 
 
-## Waytobrimhavencave3 (allaceph_cr) { #v-allaceph_cr }
+## Waytobrimhavencave 3 (allaceph_cr) { #v-allaceph_cr }
 
 **Entry ID:** `allaceph_cr` · **Type:** Enemy
 
-**Location:** [waytobrimhavencave3](../maps/waytobrimhavencave3.md)
+**Location:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md)
 
 ### Combat statistics
 
@@ -187,7 +187,7 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 1 | – |
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 1 | – |
 
 
 ### Version history

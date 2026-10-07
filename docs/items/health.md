@@ -36,26 +36,26 @@ description: "Regular potion of health is a ordinary potion in Andor's Trail. Ho
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Snake master](../monsters/snake_master.md) | 100% | 1 | snakecave3 |
-| [Irogotu](../monsters/irogotu.md) | 100% | 1 | jan_pitcave3 |
+| [Snake master](../monsters/snake_master.md) | 100% | 1 | Snakecave 3 |
+| [Irogotu](../monsters/irogotu.md) | 100% | 1 | Jan pitcave 3 |
 | [Vacor](../monsters/vacor.md) | 100% | 1 | Fallhaven |
 | [Unzel](../monsters/unzel.md) | 100% | 1 | Blackwater Mountain |
 | [Undead warden](../monsters/undead_warden.md) | 100% | 1 | Flagstone Prison |
 | [Cave guardian](../monsters/cave_guardian.md) | 100% | 2 | Flagstone Prison |
-| [Winged demon](../monsters/winged_demon.md) | 100% | 3 | flagstone4 |
-| [Maelveon](../monsters/maelveon.md) | 100% | 2 | gargoylecave3 |
-| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 2 | blackwater_mountain42 |
-| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 5-7 | pwcave4 |
-| [Gylew](../monsters/gylew.md) | 100% | 2-3 | waterway5 |
-| [Toszylae](../monsters/toszylae.md) | 100% | 5-7 | waytobrimhavencave3a |
-| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1-2 | waytobrimhavencave3a |
-| [Algangror](../monsters/algangror.md) | 100% | 1-2 | lonelyhouse0 |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 3 | Flagstone 4 |
+| [Maelveon](../monsters/maelveon.md) | 100% | 2 | Gargoylecave 3 |
+| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 2 | Blackwater mountain 42 |
+| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 5-7 | Pwcave 4 |
+| [Gylew](../monsters/gylew.md) | 100% | 2-3 | Waterway 5 |
+| [Toszylae](../monsters/toszylae.md) | 100% | 5-7 | Waytobrimhavencave 3a |
+| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 1-2 | Waytobrimhavencave 3a |
+| [Algangror](../monsters/algangror.md) | 100% | 1-2 | Lonelyhouse 0 |
 | [Kaverin](../monsters/kaverin.md) | 100% | 1-2 | Remgard |
-| [Zortak leader](../monsters/zortakb.md) | 100% | 2 | lodar8 |
-| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 3 | lodar8 |
+| [Zortak leader](../monsters/zortakb.md) | 100% | 2 | Lodar 8 |
+| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 3 | Lodar 8 |
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 100% | 1-10 | Prim |
-| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1-2 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
-| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1-2 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
+| [Radiant allaceph](../monsters/allaceph_5.md) | 30% | 1-2 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
+| [Ancient allaceph](../monsters/allaceph_6.md) | 30% | 1-2 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 25% | 1 | Flagstone Prison |
 | [Skeletal master](../monsters/skeletal_master.md) | 25% | 1 | Flagstone Prison |
 | [Skeleton](../monsters/skeleton.md) | 25% | 1 | Flagstone Prison |
@@ -71,9 +71,9 @@ description: "Regular potion of health is a ordinary potion in Andor's Trail. Ho
 | [Walking corpse](../monsters/walking_corpse.md) | 25% | 1 | Flagstone Prison |
 | [Gargoyle](../monsters/gargoyle.md) | 25% | 1 | Flagstone Prison |
 | [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 25% | 1 | Flagstone Prison |
-| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 25% | 1 | gargoylecave1, gargoylecave2 |
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 25% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
-| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 25% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
+| [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 25% | 1 | Gargoylecave 1, Gargoylecave 2 |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 25% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
+| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 25% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
 | [Rancid zombie](../monsters/zombie1.md) | 25% | 1 | Foaming Flask Tavern |
 | [Rotting zombie](../monsters/zombie2.md) | 25% | 1 | Foaming Flask Tavern |
 
@@ -84,10 +84,10 @@ description: "Regular potion of health is a ordinary potion in Andor's Trail. Ho
 - [Tharal](../monsters/tharal.md)
 - [Potion merchant](../monsters/potion_merchant.md) (Fallhaven)
 - [Jolnor](../monsters/jolnor.md) (Vilegard)
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 - [Birgil](../monsters/birgil.md) (Prim)
 - [Samar](../monsters/samar.md) (Prim)
-- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+- [Mazeg](../monsters/mazeg.md) (Blackwater mountain 43)
 - [Talion](../monsters/talion.md)
 - [Skylenar](../monsters/skylenar.md) (Remgard)
 - [Yolgen](../monsters/yolgen.md) (Stoutford)
@@ -99,15 +99,15 @@ description: "Regular potion of health is a ordinary potion in Andor's Trail. Ho
 
 ### Found in containers
 
-- [island_underground5](../maps/island_underground5.md#container-0) (container 1, 100%)
-- [lodarhouse0](../maps/lodarhouse0.md#container-0) (container 1, 100%)
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Island underground 5](../maps/island_underground5.md#container-0) (container 1, 100%)
+- [Lodarhouse 0](../maps/lodarhouse0.md#container-0) (container 1, 100%)
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
 
 ### Quest & dialogue rewards
 
-- From [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
-- From [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
-- From [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) (100%)
+- From [Guthbered](../monsters/guthbered.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
+- From [Harlenn](../monsters/harlenn.md) ([Blackwater mountain 45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
+- From [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -118,10 +118,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-42) | handed over (4×) | “Here, take these four regular potions of health.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-112) | handed over (1×) | “Here, take this regular potion of health.” |
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-47) | handed over (1×) | “I have an ordinary potion of health for you. Take it!” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a potion of health.” |
+| [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-42) | handed over (4×) | “Here, take these four regular potions of health.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-112) | handed over (1×) | “Here, take this regular potion of health.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-47) | handed over (1×) | “I have an ordinary potion of health for you. Take it!” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a potion of health.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

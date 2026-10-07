@@ -36,14 +36,14 @@ description: "Izthiel claw is a ordinary edible animal part in Andor's Trail. Ho
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Young izthiel](../monsters/izthiel_1.md) | 30% | 1 | korhald_cave_outdoor1, waterway0, waterway1 |
+| [Young izthiel](../monsters/izthiel_1.md) | 30% | 1 | Korhald cave outdoor 1, Waterway 0, Waterway 1 |
 | [Izthiel](../monsters/izthiel_2.md) | 30% | 1 | Brimhaven, Brightport |
 | [Strong izthiel](../monsters/izthiel_3.md) | 30% | 1 | Flagstone Prison, Brimhaven |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 30% | 1 | Brimhaven |
 
 ### Quest & dialogue rewards
 
-- From [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) (4×)
+- From [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) (4×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,10 +54,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (1×) | “Here's one.” |
-| [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (5×) | “Here's five.” |
-| [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (10×) | “Here's ten.” |
-| [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (20×) | “Here's twenty.” |
+| [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (1×) | “Here's one.” |
+| [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (5×) | “Here's five.” |
+| [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (10×) | “Here's ten.” |
+| [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) | – | handed over (20×) | “Here's twenty.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

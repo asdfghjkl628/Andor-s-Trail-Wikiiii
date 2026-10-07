@@ -4,7 +4,7 @@ description: "Laska blizz is an enemy in Andor's Trail (giant) with 300 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles4_26.png){ .sprite } Laska blizz
 
-**Found in:** Mt. Galmore: [galmore_76](../maps/galmore_76.md), Mt. Galmore: [galmore_85](../maps/galmore_85.md), Mt. Galmore: [galmore_86](../maps/galmore_86.md)
+**Found in:** Mt. Galmore: [Galmore 76](../maps/galmore_76.md), Mt. Galmore: [Galmore 85](../maps/galmore_85.md), Mt. Galmore: [Galmore 86](../maps/galmore_86.md)
 
 <div class="infobox" markdown>
 
@@ -58,9 +58,9 @@ description: "Laska blizz is an enemy in Andor's Trail (giant) with 300 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
-| [galmore_85](../maps/galmore_85.md) | Mt. Galmore | 2 | – |
-| [galmore_86](../maps/galmore_86.md) | Mt. Galmore | 8 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
+| [Galmore 85](../maps/galmore_85.md) | Mt. Galmore | 2 | – |
+| [Galmore 86](../maps/galmore_86.md) | Mt. Galmore | 8 | – |
 
 
 ## Version history

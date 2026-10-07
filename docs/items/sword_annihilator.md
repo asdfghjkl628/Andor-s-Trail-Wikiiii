@@ -51,7 +51,7 @@ description: "Sword of the annihilator is a extraordinary two-handed sword in An
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave troll leader](../monsters/cave_troll_5.md) | 100% | 1 | lakecave2 |
+| [Cave troll leader](../monsters/cave_troll_5.md) | 100% | 1 | Lakecave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

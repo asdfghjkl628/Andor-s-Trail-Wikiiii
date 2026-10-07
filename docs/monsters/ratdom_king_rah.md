@@ -4,7 +4,7 @@ description: "King Rah is an enemy in Andor's Trail (animal) with 160 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_tometik8_59.png){ .sprite } King Rah
 
-**Found in:** Roundlings: [ratdom_maze_627](../maps/ratdom_maze_627.md)
+**Found in:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md)
 
 <div class="infobox" markdown>
 
@@ -54,7 +54,7 @@ description: "King Rah is an enemy in Andor's Trail (animal) with 160 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_627](../maps/ratdom_maze_627.md) | Roundlings | 1 | Appears later, during a quest |
+| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 1 | Appears later, during a quest |
 
 
 ## Version history

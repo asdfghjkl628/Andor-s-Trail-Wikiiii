@@ -1,10 +1,10 @@
 ---
-description: "Narael is a non-player character (NPC) in Andor's Trail, found in flagstone4."
+description: "Narael is a non-player character (NPC) in Andor's Trail, found in Flagstone 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Narael
 
-**Where to find Narael:** [flagstone4](../maps/flagstone4.md#pin-npc-narael)
+**Where to find Narael:** [Flagstone 4](../maps/flagstone4.md#pin-npc-narael)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Narael is a non-player character (NPC) in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | flagstone4 |
+| **Found in** | Flagstone 4 |
 | **Entry ID** | `narael` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -25,7 +25,7 @@ description: "Narael is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Narael. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Narael. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/narael.json" data-npc="Narael" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-narael"></span>**`narael`** Narael: “Thank you, thank you for freeing me from that monster.”
 
@@ -89,7 +89,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
-| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines changed<br>· text: “I was once a citizen in Nor City, and worked on the excavation of Mou…” → “I was once a citizen in Nor City, during which time some men wanted t…”<br>· text: “The officer in charge would not let me, and I was sent to Flagstone a…” → “The officer in charge would not let me, and out of malice he threw me…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines changed<br>· text: “The officer in charge would not let me, and I was sent to Flagstone a…” → “The officer in charge would not let me, and out of malice he threw me…”<br>· text: “I was once a citizen in Nor City, and worked on the excavation of Mou…” → “I was once a citizen in Nor City, during which time some men wanted t…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

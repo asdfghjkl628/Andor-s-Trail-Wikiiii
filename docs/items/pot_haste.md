@@ -38,9 +38,9 @@ description: "Potion of haste is a rare potion in Andor's Trail. How to get it: 
 
 ### Found in containers
 
-- [galmore_63](../maps/galmore_63.md#container-0) (container 1, 50%), Mt. Galmore
-- [guynmart_wood_18c](../maps/guynmart_wood_18c.md#container-0) (container 1, 100%)
-- [guynmart_wood_18c](../maps/guynmart_wood_18c.md#container-1) (container 2, 100%)
+- [Galmore 63](../maps/galmore_63.md#container-0) (container 1, 50%), Mt. Galmore
+- [Guynmart wood 18c](../maps/guynmart_wood_18c.md#container-0) (container 1, 100%)
+- [Guynmart wood 18c](../maps/guynmart_wood_18c.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

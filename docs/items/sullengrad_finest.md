@@ -43,7 +43,7 @@ description: "Sullengard's Finest is a ordinary drink in Andor's Trail. How to g
 
 ### Found in containers
 
-- [ratdom_maze_412](../maps/ratdom_maze_412.md#container-0) (container 1, 100%), Pub
+- [Ratdom maze 412](../maps/ratdom_maze_412.md#container-0) (container 1, 100%), Pub
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

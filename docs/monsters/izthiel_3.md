@@ -4,7 +4,7 @@ description: "Strong izthiel is an enemy in Andor's Trail (reptile) with 52 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_48.png){ .sprite } Strong izthiel
 
-**Found in:** Brimhaven: [waterway12](../maps/waterway12.md), Brimhaven: [waterway6](../maps/waterway6.md), Flagstone Prison: [lake_shore_road_6](../maps/lake_shore_road_6.md), Flagstone Prison: [lake_shore_road_7](../maps/lake_shore_road_7.md) (+10 more)
+**Found in:** Brimhaven: [Waterway 12](../maps/waterway12.md), Brimhaven: [Waterway 6](../maps/waterway6.md), Flagstone Prison: [Lake shore road 6](../maps/lake_shore_road_6.md), Flagstone Prison: [Lake shore road 7](../maps/lake_shore_road_7.md) (+10 more)
 
 <div class="infobox" markdown>
 
@@ -59,20 +59,20 @@ description: "Strong izthiel is an enemy in Andor's Trail (reptile) with 52 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_3](../maps/lake_shore_road_3.md) | – | 2 | – |
-| [lake_shore_road_6](../maps/lake_shore_road_6.md) | Flagstone Prison | 1 | – |
-| [lake_shore_road_7](../maps/lake_shore_road_7.md) | Flagstone Prison | 1 | – |
-| [waterway1](../maps/waterway1.md) | – | 4 | – |
-| [waterway12](../maps/waterway12.md) | Brimhaven | 2 | – |
-| [waterway13](../maps/waterway13.md) | – | 3 | – |
-| [waterway2](../maps/waterway2.md) | – | 2 | – |
-| [waterway3](../maps/waterway3.md) | – | 6 | – |
-| [waterway4](../maps/waterway4.md) | – | 6 | – |
-| [waterway5](../maps/waterway5.md) | – | 4 | – |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 4 | – |
-| [waterway7](../maps/waterway7.md) | – | 2 | – |
-| [waterway8](../maps/waterway8.md) | – | 4 | – |
-| [waterway9](../maps/waterway9.md) | – | 2 | – |
+| [Lake shore road 3](../maps/lake_shore_road_3.md) | – | 2 | – |
+| [Lake shore road 6](../maps/lake_shore_road_6.md) | Flagstone Prison | 1 | – |
+| [Lake shore road 7](../maps/lake_shore_road_7.md) | Flagstone Prison | 1 | – |
+| [Waterway 1](../maps/waterway1.md) | – | 4 | – |
+| [Waterway 12](../maps/waterway12.md) | Brimhaven | 2 | – |
+| [Waterway 13](../maps/waterway13.md) | – | 3 | – |
+| [Waterway 2](../maps/waterway2.md) | – | 2 | – |
+| [Waterway 3](../maps/waterway3.md) | – | 6 | – |
+| [Waterway 4](../maps/waterway4.md) | – | 6 | – |
+| [Waterway 5](../maps/waterway5.md) | – | 4 | – |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 4 | – |
+| [Waterway 7](../maps/waterway7.md) | – | 2 | – |
+| [Waterway 8](../maps/waterway8.md) | – | 4 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 2 | – |
 
 
 ## Version history

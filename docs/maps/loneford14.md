@@ -1,8 +1,8 @@
 ---
-description: "Loneford14 is an outdoor location in Andor's Trail, near Loneford (settlement). Exits to Loneford13, Loneford15."
+description: "Loneford 14 is an outdoor location in Andor's Trail, near Loneford (settlement). Exits to Loneford 13, Loneford 15."
 ---
 
-# Loneford14
+# Loneford 14
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Loneford14 is an outdoor location in Andor's Trail, near Loneford 
 | **Region** | Near Loneford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 11×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Loneford14** is an outdoor map, near Loneford (settlement). It has no NPCs, and no enemies. Exits lead to Loneford13, Loneford15.
+**Loneford 14** is an outdoor map, near Loneford (settlement). It has no NPCs, and no enemies. Exits lead to Loneford 13, Loneford 15.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford14.webp" alt="Map of Loneford14" width="352" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../loneford13/#place-east" title="Exit to Loneford13" style="left:0.000%;top:86.667%;width:9.091%;height:6.667%"></a><a id="place-outside" class="mo mo-mapchange" href="../loneford15/#place-inside" title="Exit to Loneford15" style="left:27.273%;top:46.667%;width:9.091%;height:6.667%"></a><a class="pin pin-exit" href="#key-1" style="left:4.545%;top:90.000%" title="Exit (southwest): to [Loneford13](loneford13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:31.818%;top:50.000%" title="Exit (door): to [Loneford15](loneford15.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford14.webp" alt="Map of Loneford 14" width="352" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../loneford13/#place-east" title="Exit to Loneford 13" style="left:0.000%;top:86.667%;width:9.091%;height:6.667%"></a><a id="place-outside" class="mo mo-mapchange" href="../loneford15/#place-inside" title="Exit to Loneford 15" style="left:27.273%;top:46.667%;width:9.091%;height:6.667%"></a><a class="pin pin-exit" href="#key-1" style="left:4.545%;top:90.000%" title="Exit (southwest): to [Loneford 13](loneford13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:31.818%;top:50.000%" title="Exit (door): to [Loneford 15](loneford15.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Loneford13](loneford13.md) |
-    | <span id="key-2"></span>2 | Exit (door) | to [Loneford15](loneford15.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Loneford 13](loneford13.md) |
+    | <span id="key-2"></span>2 | Exit (door) | to [Loneford 15](loneford15.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Loneford14 is an outdoor location in Andor's Trail, near Loneford 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Loneford13](loneford13.md) | Loneford | 1 |
-| Door | [Loneford15](loneford15.md) | Loneford | 2 |
+| Southwest | [Loneford 13](loneford13.md) | Loneford | 1 |
+| Door | [Loneford 15](loneford15.md) | Loneford | 2 |
 
 
 ## Version history

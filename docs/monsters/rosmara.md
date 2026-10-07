@@ -1,10 +1,10 @@
 ---
-description: "Rosmara is a non-player character (NPC) in Andor's Trail, found in wayto_feygard_duleian_2. Shopkeeper."
+description: "Rosmara is a non-player character (NPC) in Andor's Trail, found in Wayto feygard duleian 2. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_180.png){ .sprite } Rosmara
 
-**Where to find Rosmara:** [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md#pin-npc-rosmara)
+**Where to find Rosmara:** [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-rosmara)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Rosmara is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | wayto_feygard_duleian_2 |
+| **Found in** | Wayto feygard duleian 2 |
 | **Entry ID** | `rosmara` |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
@@ -37,11 +37,11 @@ description: "Rosmara is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 8
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 8
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rosmara. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rosmara. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/rosmara_initial_phrase.json" data-npc="Rosmara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,14 +49,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rosmara_initial_phrase"></span>**`rosmara_initial_phrase`** Rosmara: “How can I help you today?”
 
     - “What is going on with that cat?” → [rosmara_cat_1](#d-rosmara_cat_1)
     - “What is this place?” → [rosmara_explain](#d-rosmara_explain)
-    - “Do you know why the village of Wexlow is void of people?” *(if reached stage 11 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-11); NOT reached stage 10 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10))* → [rosmara_wexlow](#d-rosmara_wexlow)
-    - “I would like to make a purchase, please.” *(if reached stage 8 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-8))* → *shop opens*
+    - “Do you know why the village of Wexlow is void of people?” *(if reached stage 11 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-11); NOT reached stage 10 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10))* → [rosmara_wexlow](#d-rosmara_wexlow)
+    - “I would like to make a purchase, please.” *(if reached stage 8 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-8))* → *shop opens*
 
     <span id="d-rosmara_cat_1"></span>**`rosmara_cat_1`** Rosmara: “Well, you see, he's my guard cat.”
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “The fog that the witch had created in the swamp, of course.” *(if reached stage 30 of [Fog in the woods](../quests/fogmonster.md#stage-30))* → [rosmara_explain_11](#d-rosmara_explain_11)
     - “The fog further down the road behind the kobolds, of course.” *(if NOT reached stage 30 of [Fog in the woods](../quests/fogmonster.md#stage-30))* → [rosmara_explain_11a](#d-rosmara_explain_11a)
 
-    <span id="d-rosmara_explain_4"></span>**`rosmara_explain_4`** Rosmara: “I sell fruits and vegetables.” — **effects:** sets stage 8 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-8)
+    <span id="d-rosmara_explain_4"></span>**`rosmara_explain_4`** Rosmara: “I sell fruits and vegetables.” — **effects:** sets stage 8 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-8)
 
     - “As an adult, I am interested in seeing what you have.” → *shop opens*
     - “Where do you get these fruits and vegetables?” → [rosmara_explain_5](#d-rosmara_explain_5)

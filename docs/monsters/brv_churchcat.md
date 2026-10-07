@@ -1,10 +1,10 @@
 ---
-description: "Cat is a non-player character (NPC) in Andor's Trail, found in brimhaven_church_upstairs."
+description: "Cat is a non-player character (NPC) in Andor's Trail, found in Brimhaven church upstairs."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } Cat
 
-**Where to find Cat:** [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchcat)
+**Where to find Cat:** [Brimhaven church upstairs](../maps/brimhaven_church_upstairs.md#pin-npc-brv_churchcat)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cat is a non-player character (NPC) in Andor's Trail, found in bri
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brimhaven_church_upstairs |
+| **Found in** | Brimhaven church upstairs |
 | **Entry ID** | `brv_churchcat` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
@@ -21,7 +21,7 @@ description: "Cat is a non-player character (NPC) in Andor's Trail, found in bri
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_churchcat.json" data-npc="Cat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_churchcat"></span>**`brv_churchcat`** Cat: “Purr.”
 

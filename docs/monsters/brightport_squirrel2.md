@@ -4,7 +4,7 @@ description: "Rash Muskrat is an enemy in Andor's Trail (animal) with 140 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik5_27.png){ .sprite } Rash Muskrat
 
-**Found in:** Brightport: [brightportwild18](../maps/brightportwild18.md), Brightport: [waytobrightport18](../maps/waytobrightport18.md), Buried citadel: [brightport_cave2](../maps/brightport_cave2.md), [brightportwild10](../maps/brightportwild10.md) (+5 more)
+**Found in:** Brightport: [Brightportwild 18](../maps/brightportwild18.md), Brightport: [Waytobrightport 18](../maps/waytobrightport18.md), Buried citadel: [Brightport cave 2](../maps/brightport_cave2.md), [Brightportwild 10](../maps/brightportwild10.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -48,15 +48,15 @@ description: "Rash Muskrat is an enemy in Andor's Trail (animal) with 140 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave2](../maps/brightport_cave2.md) | Buried citadel | 2 | – |
-| [brightportwild10](../maps/brightportwild10.md) | – | 3 | – |
-| [brightportwild18](../maps/brightportwild18.md) | Brightport | 2 | – |
-| [brightportwild19](../maps/brightportwild19.md) | – | 1 | – |
-| [brightportwild5](../maps/brightportwild5.md) | – | 4 | – |
-| [brightportwild8](../maps/brightportwild8.md) | – | 4 | – |
-| [brightportwild9](../maps/brightportwild9.md) | – | 4 | – |
-| [waytobrightport18](../maps/waytobrightport18.md) | Brightport | 2 | – |
-| [waytobrightport9](../maps/waytobrightport9.md) | – | 3 | – |
+| [Brightport cave 2](../maps/brightport_cave2.md) | Buried citadel | 2 | – |
+| [Brightportwild 10](../maps/brightportwild10.md) | – | 3 | – |
+| [Brightportwild 18](../maps/brightportwild18.md) | Brightport | 2 | – |
+| [Brightportwild 19](../maps/brightportwild19.md) | – | 1 | – |
+| [Brightportwild 5](../maps/brightportwild5.md) | – | 4 | – |
+| [Brightportwild 8](../maps/brightportwild8.md) | – | 4 | – |
+| [Brightportwild 9](../maps/brightportwild9.md) | – | 4 | – |
+| [Waytobrightport 18](../maps/waytobrightport18.md) | Brightport | 2 | – |
+| [Waytobrightport 9](../maps/waytobrightport9.md) | – | 3 | – |
 
 
 ## Version history

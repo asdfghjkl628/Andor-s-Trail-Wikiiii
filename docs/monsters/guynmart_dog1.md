@@ -18,22 +18,22 @@ description: "Shepherd's dog is a non-player character (NPC) in Andor's Trail, f
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Shepherd's dog. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. These entries are identical apart from their IDs. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Shepherd's dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. These entries are identical apart from their IDs. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_dog1`](#v-guynmart_dog1) | NPC | Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1) | – |
-| [`guynmart_dog2`](#v-guynmart_dog2) | NPC | Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2) | – |
+| [`guynmart_dog1`](#v-guynmart_dog1) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1) | – |
+| [`guynmart_dog2`](#v-guynmart_dog2) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2) | – |
 
 ## Guynmart Castle, Guynmart wood 9 (guynmart_dog1) { #v-guynmart_dog1 }
 
 **Entry ID:** `guynmart_dog1` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1)
+**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shepherd's dog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shepherd's dog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_dog10_10.json" data-npc="Shepherd&#x27;s dog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_dog1-guynmart_dog10_10"></span>**`guynmart_dog10_10`** [Dog](../monsters/petdog.md#v-guynmart_dog10): “Grrrrrr”
 
@@ -88,11 +88,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_dog2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2)
+**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shepherd's dog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shepherd's dog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_dog10_10.json" data-npc="Shepherd&#x27;s dog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

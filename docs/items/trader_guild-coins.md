@@ -25,7 +25,7 @@ description: "Trader's Guild bronze coin is a quest money in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [Shannal](../monsters/shannal.md) ([mt_galmore_railhouse](../maps/mt_galmore_railhouse.md)) during [You shall pass](../quests/undertell_barricades.md#stage-40) (1×)
+- From [Shannal](../monsters/shannal.md) ([Mt galmore railhouse](../maps/mt_galmore_railhouse.md)) during [You shall pass](../quests/undertell_barricades.md#stage-40) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | – | must be carried (1×) | “(automatic)” |
+| [Benbyr](../monsters/benbyr.md) ([Crossroads](../maps/crossroads.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

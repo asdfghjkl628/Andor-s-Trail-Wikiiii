@@ -27,7 +27,7 @@ description: "Strange looking rat tail is a quest animal part in Andor's Trail. 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Basement rat](../monsters/lonelyhouse_sp.md) | 100% | 1 | lonelyhouse1 |
+| [Basement rat](../monsters/lonelyhouse_sp.md) | 100% | 1 | Lonelyhouse 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | [Of mice and men](../quests/algangror.md#stage-20) | handed over (6×) | “Yes, they are all dead.” |
+| [Algangror](../monsters/algangror.md) ([Lonelyhouse 0](../maps/lonelyhouse0.md)) | [Of mice and men](../quests/algangror.md#stage-20) | handed over (6×) | “Yes, they are all dead.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

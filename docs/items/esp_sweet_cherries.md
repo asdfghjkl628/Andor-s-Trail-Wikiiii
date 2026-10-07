@@ -34,7 +34,7 @@ description: "Especially sweet cherries is a ordinary food in Andor's Trail. How
 
 ### Found in containers
 
-- [lake_shore_road_4](../maps/lake_shore_road_4.md#container-1) (container 2, 100%)
+- [Lake shore road 4](../maps/lake_shore_road_4.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

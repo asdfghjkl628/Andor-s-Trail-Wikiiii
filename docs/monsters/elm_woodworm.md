@@ -1,10 +1,10 @@
 ---
-description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 76 HP, worth 292 XP, found in elm_2f_1, elm_3f, elm_4f_1. Drops: Claws, Rotten meat, Worm meat, Gold coins."
+description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 76 HP, worth 292 XP, found in Elm 2f 1, Elm 3f, Elm 4f 1. Drops: Claws, Rotten meat, Worm meat, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite } Contaminated woodworm
 
-**Found in:** [elm_2f_1](../maps/elm_2f_1.md), [elm_3f](../maps/elm_3f.md), [elm_4f_1](../maps/elm_4f_1.md), [elm_4f_2](../maps/elm_4f_2.md) (+4 more)
+**Found in:** [Elm 2f 1](../maps/elm_2f_1.md), [Elm 3f](../maps/elm_3f.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 2](../maps/elm_4f_2.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 7
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm_2f_1, elm_3f, elm_4f_1 |
+| **Found in** | Elm 2f 1, Elm 3f, Elm 4f 1 |
 | **Class** | Animal |
 | **HP** | 76 |
 | **XP when defeated** | 292 |
@@ -63,14 +63,14 @@ description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 7
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 19 | – |
-| [elm_3f](../maps/elm_3f.md) | – | 9 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 6 | – |
-| [elm_4f_2](../maps/elm_4f_2.md) | – | 7 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 2 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 3 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 3 | – |
-| [elm_mine5](../maps/elm_mine5.md) | – | 8 | – |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 19 | – |
+| [Elm 3f](../maps/elm_3f.md) | – | 9 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 6 | – |
+| [Elm 4f 2](../maps/elm_4f_2.md) | – | 7 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 2 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 3 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 3 | – |
+| [Elm mine 5](../maps/elm_mine5.md) | – | 8 | – |
 
 
 ## Version history

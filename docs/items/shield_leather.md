@@ -39,7 +39,7 @@ description: "Reinforced leather buckler is a ordinary buckler in Andor's Trail 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Greater wight](../monsters/wight_greater.md) | 6% | 1 | laerothprison6, laerothprison7 |
+| [Greater wight](../monsters/wight_greater.md) | 6% | 1 | Laerothprison 6, Laerothprison 7 |
 
 ### Sold by
 

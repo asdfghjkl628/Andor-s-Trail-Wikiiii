@@ -38,7 +38,7 @@ description: "Smoked sausage is a ordinary food in Andor's Trail. How to get it:
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1 | waterway5 |
+| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1 | Waterway 5 |
 
 ### Sold by
 

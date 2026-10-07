@@ -4,7 +4,7 @@ description: "Lost traveler is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } Lost traveler
 
-**Where to find Lost traveler:** Sullengard: [sullengard_inn](../maps/sullengard_inn.md#pin-npc-sullengard_inn_traveler)
+**Where to find Lost traveler:** Sullengard: [Sullengard inn](../maps/sullengard_inn.md#pin-npc-sullengard_inn_traveler)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Lost traveler is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lost traveler. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lost traveler. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_inn_traveler_0.json" data-npc="Lost traveler" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_inn_traveler_0"></span>**`sullengard_inn_traveler_0`** Lost traveler: “Hey there.”
 

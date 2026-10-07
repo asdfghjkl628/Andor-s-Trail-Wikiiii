@@ -35,7 +35,7 @@ description: "Basilisk blood is a quest potion in Andor's Trail. How to get it: 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) during [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) (1×)
+- From stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) during [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -55,7 +55,7 @@ description: "Shadowstalker is a extraordinary armor (heavy) in Andor's Trail (A
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | lodarcave4a |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1 | Lodarcave 4a |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

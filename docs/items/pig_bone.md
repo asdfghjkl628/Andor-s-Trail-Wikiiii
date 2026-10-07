@@ -28,7 +28,7 @@ description: "Pig's bone is a rare animal part in Andor's Trail. How to get it: 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Golden jackal](../monsters/golden_jackal.md) | 100% | 2-5 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
+| [Golden jackal](../monsters/golden_jackal.md) | 100% | 2-5 | Sullengard west ravine, Sullengard woods 12, Sullengard woods 4 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

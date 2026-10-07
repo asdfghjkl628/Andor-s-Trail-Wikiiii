@@ -1,10 +1,10 @@
 ---
-description: "Maelveon is an NPC who can also be fought in Andor's Trail, found in gargoylecave3."
+description: "Maelveon is an NPC who can also be fought in Andor's Trail, found in Gargoylecave 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } Maelveon
 
-**Where to find Maelveon:** [gargoylecave3](../maps/gargoylecave3.md#pin-npc-maelveon)
+**Where to find Maelveon:** [Gargoylecave 3](../maps/gargoylecave3.md#pin-npc-maelveon)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Maelveon is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | gargoylecave3 |
+| **Found in** | Gargoylecave 3 |
 | **Class** | Undead |
 | **HP** | 55 |
 | **XP when defeated** | 149 |
@@ -60,11 +60,11 @@ description: "Maelveon is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gargoylecave3](../maps/gargoylecave3.md) | – | 1 | – |
+| [Gargoylecave 3](../maps/gargoylecave3.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Maelveon. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Maelveon. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/maelveon.json" data-npc="Maelveon" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -72,7 +72,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-maelveon"></span>**`maelveon`** Maelveon: “[You feel a tingling sensation in your body as the frightening figure begins to speak]”
 

@@ -21,18 +21,18 @@ description: "River wretch is an enemy in Andor's Trail (humanoid) with 201 HP, 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named River wretch. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named River wretch. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`river_wretch`](#v-river_wretch) | Enemy | Mt. Galmore: [galmore_46](../maps/galmore_46.md), Mt. Galmore: [galmore_55](../maps/galmore_55.md) (+3 more) | – | 201 |
-| [`river_wretch2`](#v-river_wretch2) | Enemy | Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_65](../maps/galmore_65.md) (+2 more) | – | 201 |
+| [`river_wretch`](#v-river_wretch) | Enemy | Mt. Galmore: [Galmore 46](../maps/galmore_46.md), Mt. Galmore: [Galmore 55](../maps/galmore_55.md) (+3 more) | – | 201 |
+| [`river_wretch2`](#v-river_wretch2) | Enemy | Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 65](../maps/galmore_65.md) (+2 more) | – | 201 |
 
 ## Mt. Galmore, Galmore 46 and 4 more (river_wretch) { #v-river_wretch }
 
 **Entry ID:** `river_wretch` · **Type:** Enemy
 
-**Location:** Mt. Galmore: [galmore_46](../maps/galmore_46.md), Mt. Galmore: [galmore_55](../maps/galmore_55.md), Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_65](../maps/galmore_65.md), Mt. Galmore: [galmore_66](../maps/galmore_66.md)
+**Location:** Mt. Galmore: [Galmore 46](../maps/galmore_46.md), Mt. Galmore: [Galmore 55](../maps/galmore_55.md), Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 65](../maps/galmore_65.md), Mt. Galmore: [Galmore 66](../maps/galmore_66.md)
 
 ### Combat statistics
 
@@ -70,11 +70,11 @@ description: "River wretch is an enemy in Andor's Trail (humanoid) with 201 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 1 | – |
-| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 1 | – |
-| [galmore_56](../maps/galmore_56.md) | Mt. Galmore | 4 | – |
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 4 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 1 | – |
+| [Galmore 55](../maps/galmore_55.md) | Mt. Galmore | 1 | – |
+| [Galmore 56](../maps/galmore_56.md) | Mt. Galmore | 4 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 4 | – |
 
 
 ### Version history
@@ -139,7 +139,7 @@ description: "River wretch is an enemy in Andor's Trail (humanoid) with 201 HP, 
 
 **Entry ID:** `river_wretch2` · **Type:** Enemy
 
-**Location:** Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_65](../maps/galmore_65.md), Mt. Galmore: [galmore_66](../maps/galmore_66.md), Mt. Galmore: [galmore_76](../maps/galmore_76.md)
+**Location:** Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 65](../maps/galmore_65.md), Mt. Galmore: [Galmore 66](../maps/galmore_66.md), Mt. Galmore: [Galmore 76](../maps/galmore_76.md)
 
 ### Combat statistics
 
@@ -175,10 +175,10 @@ description: "River wretch is an enemy in Andor's Trail (humanoid) with 201 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_56](../maps/galmore_56.md) | Mt. Galmore | 8 | – |
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 2 | – |
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
+| [Galmore 56](../maps/galmore_56.md) | Mt. Galmore | 8 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 2 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
 
 
 ### Version history

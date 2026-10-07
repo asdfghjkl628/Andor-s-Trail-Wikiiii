@@ -1,8 +1,8 @@
 ---
-description: "Elm mine0 is an indoor location in Andor's Trail. Exits to Blackwater mountain13."
+description: "Elm mine 0 is an indoor location in Andor's Trail. Exits to Blackwater mountain 13."
 ---
 
-# Elm mine0
+# Elm mine 0
 
 <div class="infobox" markdown>
 
@@ -17,19 +17,19 @@ description: "Elm mine0 is an indoor location in Andor's Trail. Exits to Blackwa
 
 </div>
 
-**Elm mine0** is an indoor map. It has no NPCs, and no enemies. Exits lead to Blackwater mountain13.
+**Elm mine 0** is an indoor map. It has no NPCs, and no enemies. Exits lead to Blackwater mountain 13.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/elm_mine0.webp" alt="Map of Elm mine0" width="800" height="832" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain13/#place-west" title="Exit to Blackwater mountain13" style="left:96.000%;top:50.000%;width:4.000%;height:7.692%"></a><a class="pin pin-exit" href="#key-1" style="left:98.000%;top:53.846%" title="Exit (east): to [Blackwater mountain13](blackwater_mountain13.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/elm_mine0.webp" alt="Map of Elm mine 0" width="800" height="832" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain13/#place-west" title="Exit to Blackwater mountain 13" style="left:96.000%;top:50.000%;width:4.000%;height:7.692%"></a><a class="pin pin-exit" href="#key-1" style="left:98.000%;top:53.846%" title="Exit (east): to [Blackwater mountain 13](blackwater_mountain13.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Blackwater mountain13](blackwater_mountain13.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Blackwater mountain 13](blackwater_mountain13.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -38,7 +38,7 @@ description: "Elm mine0 is an indoor location in Andor's Trail. Exits to Blackwa
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Blackwater mountain13](blackwater_mountain13.md) | Prim | 1 |
+| East | [Blackwater mountain 13](blackwater_mountain13.md) | Prim | 1 |
 
 
 ## Version history

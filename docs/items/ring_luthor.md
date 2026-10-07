@@ -36,7 +36,7 @@ description: "Luthor's Ring is a quest ring in Andor's Trail (Grants Life drain 
 
 ### Quest & dialogue rewards
 
-- From [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) during [Troubling times](../quests/troubling_times.md#stage-270) (1×)
+- From [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) during [Troubling times](../quests/troubling_times.md#stage-270) (1×)
 - From [Talion](../monsters/talion.md) during [Troubling times](../quests/troubling_times.md#stage-300) (1×)
 
 

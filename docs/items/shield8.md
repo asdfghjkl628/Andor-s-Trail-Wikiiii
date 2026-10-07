@@ -50,7 +50,7 @@ description: "Iced broken wooden buckler is a ordinary buckler in Andor's Trail 
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 1.33333%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 1.33333%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

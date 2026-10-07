@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain4 is an outdoor location in Andor's Trail. NPCs: Halvor. Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain3, Blackwater mountain5."
+description: "Blackwater mountain 4 is an outdoor location in Andor's Trail. NPCs: Halvor. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 3, Blackwater mountain 5."
 ---
 
-# Blackwater mountain4
+# Blackwater mountain 4
 
 <div class="infobox" markdown>
 
@@ -11,7 +11,7 @@ description: "Blackwater mountain4 is an outdoor location in Andor's Trail. NPCs
 | **Map ID** | `blackwater_mountain4` |
 | **Type** | Outdoors |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -19,20 +19,20 @@ description: "Blackwater mountain4 is an outdoor location in Andor's Trail. NPCs
 
 </div>
 
-**Blackwater mountain4** is an outdoor map. It has 1 NPC and 4 kinds of enemy. Exits lead to Blackwater mountain3, Blackwater mountain5.
+**Blackwater mountain 4** is an outdoor map. It has 1 NPC and 4 kinds of enemy. Exits lead to Blackwater mountain 3, Blackwater mountain 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain4.webp" alt="Map of Blackwater mountain4" width="640" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain3/#place-north" title="Exit to Blackwater mountain3" style="left:25.000%;top:93.333%;width:40.000%;height:6.667%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../blackwater_mountain5/#place-exit1" title="Exit to Blackwater mountain5" style="left:45.000%;top:20.000%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:30.000%;top:46.667%;width:35.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:5.000%;top:33.333%;width:70.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:25.000%;top:66.667%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Halvor (only appears later, during a quest)" style="left:20.000%;top:26.667%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:5.000%;top:33.333%;width:25.000%;height:60.000%"></span><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:45.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:35.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:70.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:35.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:60.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob mob-later" href="../../monsters/halvor/" title="Halvor (appears later in a quest)" style="left:20.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik1_67.png" alt="Halvor"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:10.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:45.000%;top:96.667%" title="Exit (south): to [Blackwater mountain3](blackwater_mountain3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:47.500%;top:23.333%" title="Exit (door): to [Blackwater mountain5](blackwater_mountain5.md)">2</a><a id="pin-npc-halvor" class="pin pin-npc" href="#key-3" style="left:22.500%;top:30.000%" title="[Halvor](../../monsters/halvor.md): 1 quest">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain4.webp" alt="Map of Blackwater mountain 4" width="640" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain3/#place-north" title="Exit to Blackwater mountain 3" style="left:25.000%;top:93.333%;width:40.000%;height:6.667%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../blackwater_mountain5/#place-exit1" title="Exit to Blackwater mountain 5" style="left:45.000%;top:20.000%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:30.000%;top:46.667%;width:35.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:5.000%;top:33.333%;width:70.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:25.000%;top:66.667%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Halvor (only appears later, during a quest)" style="left:20.000%;top:26.667%;width:5.000%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:5.000%;top:33.333%;width:25.000%;height:60.000%"></span><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:45.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:35.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:70.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:35.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:60.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob mob-later" href="../../monsters/halvor/" title="Halvor (appears later in a quest)" style="left:20.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik1_67.png" alt="Halvor"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:10.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:45.000%;top:96.667%" title="Exit (south): to [Blackwater mountain 3](blackwater_mountain3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:47.500%;top:23.333%" title="Exit (door): to [Blackwater mountain 5](blackwater_mountain5.md)">2</a><a id="pin-npc-halvor" class="pin pin-npc" href="#key-3" style="left:22.500%;top:30.000%" title="[Halvor](../../monsters/halvor.md): 1 quest">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain3](blackwater_mountain3.md) |
-    | <span id="key-2"></span>2 | Exit (door) | to [Blackwater mountain5](blackwater_mountain5.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain 3](blackwater_mountain3.md) |
+    | <span id="key-2"></span>2 | Exit (door) | to [Blackwater mountain 5](blackwater_mountain5.md) |
     | <span id="key-3"></span>3 | [Halvor](../monsters/halvor.md) | 1 quest |
 
 
@@ -42,8 +42,8 @@ description: "Blackwater mountain4 is an outdoor location in Andor's Trail. NPCs
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Blackwater mountain3](blackwater_mountain3.md) | – | 1 |
-| Door | [Blackwater mountain5](blackwater_mountain5.md) | – | 2 |
+| South | [Blackwater mountain 3](blackwater_mountain3.md) | – | 1 |
+| Door | [Blackwater mountain 5](blackwater_mountain5.md) | – | 2 |
 
 ## NPCs
 
@@ -53,8 +53,8 @@ description: "Blackwater mountain4 is an outdoor location in Andor's Trail. NPCs
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 1 | shares spawn with Young gornaud |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 5 | shares spawn with Gornaud |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 1 | shares spawn with Young gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 1 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 5 | shares spawn with Scaled venomfang |
 

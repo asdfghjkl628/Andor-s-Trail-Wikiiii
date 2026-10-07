@@ -11,7 +11,7 @@ description: "Aidem camp is an indoor location in Andor's Trail. NPCs: Defy, Gra
 | **Map ID** | `aidem_camp` |
 | **Type** | Indoors / underground |
 | **Size** | 25×25 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 5 |
 | **Enemy types** | 3 |
@@ -72,7 +72,7 @@ description: "Aidem camp is an indoor location in Andor's Trail. NPCs: Defy, Gra
 ## Quests
 
 - [Wanted men](../quests/wanted_men.md): [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) is involved; a scripted event can trigger here from stage 15; something on this map advances it; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 15
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): a scripted event can trigger here from stage 41; blocked passage opens at stage 41; something on this map advances it; stepping on a trigger here sets stage 41
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): a scripted event can trigger here from stage 41; blocked passage opens at stage 41; something on this map advances it; stepping on a trigger here sets stage 41
 
 ## Points of interest
 

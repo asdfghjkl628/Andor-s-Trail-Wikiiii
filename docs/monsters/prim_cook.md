@@ -4,7 +4,7 @@ description: "Prim cook is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } Prim cook
 
-**Where to find Prim cook:** Prim: [blackwater_mountain21](../maps/blackwater_mountain21.md#pin-npc-prim_cook)
+**Where to find Prim cook:** Prim: [Blackwater mountain 21](../maps/blackwater_mountain21.md#pin-npc-prim_cook)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Prim cook is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim cook. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim cook. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_cook_start.json" data-npc="Prim cook" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_cook_start"></span>**`prim_cook_start`** *(silent check: the first matching branch below is taken)*
 

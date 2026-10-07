@@ -28,7 +28,7 @@ description: "Tattered coin purse is a rare other in Andor's Trail. How to get i
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Drybone lich](../monsters/drybone_lich.md) | 1% | 1 | undertell_00, undertell_10, undertell_11 |
+| [Drybone lich](../monsters/drybone_lich.md) | 1% | 1 | Undertell 00, Undertell 10, Undertell 11 |
 | [Drybone lich](../monsters/drybone_lich.md#v-drybone_lich_help_liches) | 1% | 1 | – |
 
 

@@ -25,8 +25,8 @@ description: "Map to Vacor's old hideout is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) during [Old friends?](../quests/kaverin.md#stage-45) (100%)
-- From [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) during [Old friends?](../quests/kaverin.md#stage-75) (100%)
+- From [Kaverin](../monsters/kaverin.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) during [Old friends?](../quests/kaverin.md#stage-45) (100%)
+- From [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) during [Old friends?](../quests/kaverin.md#stage-75) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

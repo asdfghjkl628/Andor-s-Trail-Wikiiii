@@ -18,26 +18,26 @@ description: "Horse is a non-player character (NPC) in Andor's Trail, found in F
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Horse. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`stn_horse`](#v-stn_horse) | NPC | Flagstone Prison: [stoutford_castle_stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse) | – |
-| [`guynmart_horse`](#v-guynmart_horse) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse) (+1 more) | – |
+| [`stn_horse`](#v-stn_horse) | NPC | Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse) | – |
+| [`guynmart_horse`](#v-guynmart_horse) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse) (+1 more) | – |
 
 ## Flagstone Prison, Stoutford castle stable (stn_horse) { #v-stn_horse }
 
 **Entry ID:** `stn_horse` · **Type:** NPC
 
-**Location:** Flagstone Prison: [stoutford_castle_stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse)
+**Location:** Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse)
 
 ### Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stage 6
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 6
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Horse. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Horse. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_horse.json" data-npc="Horse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,11 +45,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_horse-stn_horse"></span>**`stn_horse`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 6 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-6))* → [stn_horse_90](#d-stn_horse-stn_horse_90)
+    - branch 1 *(if reached stage 6 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-6))* → [stn_horse_90](#d-stn_horse-stn_horse_90)
     - branch 2 → [stn_horse_10](#d-stn_horse-stn_horse_10)
 
     <span id="d-stn_horse-stn_horse_90"></span>**`stn_horse_90`** Horse: “Neigh.”
@@ -70,7 +70,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Oh I see now. They left you here without anything to drink. Wait, Here is a bucket of water.” → [stn_horse_30](#d-stn_horse-stn_horse_30)
     - “You are becoming gradually more annoying. I'm leaving now.” → *conversation ends*
 
-    <span id="d-stn_horse-stn_horse_30"></span>**`stn_horse_30`** Horse: “[After drinking greedily] Neiiieieiiigh!!” — **effects:** sets stage 6 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-6)
+    <span id="d-stn_horse-stn_horse_30"></span>**`stn_horse_30`** Horse: “[After drinking greedily] Neiiieieiiigh!!” — **effects:** sets stage 6 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-6)
 
     - “There, now you feel better! I have to leave now.” → [stn_horse_90](#d-stn_horse-stn_horse_90)
 
@@ -115,19 +115,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_horse` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse), [waytolake11](../maps/waytolake11.md#pin-npc-guynmart_horse)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse), [Waytolake 11](../maps/waytolake11.md#pin-npc-guynmart_horse)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 4 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 1 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 4](../maps/guynmart_wood_4.md) | Guynmart Castle | 4 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Horse. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Horse. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_horse_10.json" data-npc="Horse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -135,7 +135,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_horse-guynmart_horse_10"></span>**`guynmart_horse_10`** Horse: “Neigh.”
 

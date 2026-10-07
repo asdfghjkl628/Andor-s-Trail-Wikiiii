@@ -1,5 +1,5 @@
 ---
-description: "Dark watch is an NPC who can also be fought in Andor's Trail, found in laerothprison7, laerothprison4, laerothprison5."
+description: "Dark watch is an NPC who can also be fought in Andor's Trail, found in Laerothprison 7, Laerothprison 4, Laerothprison 5."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_238.png){ .sprite } Dark watch
@@ -11,7 +11,7 @@ description: "Dark watch is an NPC who can also be fought in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | laerothprison7, laerothprison4, laerothprison5 |
+| **Found in** | Laerothprison 7, Laerothprison 4, Laerothprison 5 |
 | **Class** | Demon |
 | **HP** | 180 |
 | **XP when defeated** | 313 |
@@ -22,26 +22,26 @@ description: "Dark watch is an NPC who can also be fought in Andor's Trail, foun
 </div>
 
 !!! info "10 entries in the game data"
-    The game's data files define 10 separate characters named Dark watch. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 10 separate characters named Dark watch. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`lae_demon4`](#v-lae_demon4) | NPC/Enemy | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon4) | – | 180 |
-| [`lae_demon4_safe`](#v-lae_demon4_safe) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_demon4_safe) | – | – |
-| [`lae_demon4b`](#v-lae_demon4b) | NPC/Enemy | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon4b) | – | 180 |
-| [`lae_demon4b_safe`](#v-lae_demon4b_safe) | NPC | [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_demon4b_safe) | – | – |
-| [`lae_demon5`](#v-lae_demon5) | NPC/Enemy | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon5) | – | 180 |
-| [`lae_demon5_safe`](#v-lae_demon5_safe) | NPC | [laerothprison5](../maps/laerothprison5.md#pin-npc-lae_demon5_safe) | – | – |
-| [`lae_demon7`](#v-lae_demon7) | NPC/Enemy | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon7) | – | 180 |
-| [`lae_demon7_safe`](#v-lae_demon7_safe) | NPC | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon7_safe) | – | – |
-| [`lae_demon9`](#v-lae_demon9) | NPC/Enemy | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon9) | – | 180 |
-| [`lae_demon9_safe`](#v-lae_demon9_safe) | NPC | [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon9_safe) | – | – |
+| [`lae_demon4`](#v-lae_demon4) | NPC/Enemy | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon4) | – | 180 |
+| [`lae_demon4_safe`](#v-lae_demon4_safe) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_demon4_safe) | – | – |
+| [`lae_demon4b`](#v-lae_demon4b) | NPC/Enemy | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon4b) | – | 180 |
+| [`lae_demon4b_safe`](#v-lae_demon4b_safe) | NPC | [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_demon4b_safe) | – | – |
+| [`lae_demon5`](#v-lae_demon5) | NPC/Enemy | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon5) | – | 180 |
+| [`lae_demon5_safe`](#v-lae_demon5_safe) | NPC | [Laerothprison 5](../maps/laerothprison5.md#pin-npc-lae_demon5_safe) | – | – |
+| [`lae_demon7`](#v-lae_demon7) | NPC/Enemy | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon7) | – | 180 |
+| [`lae_demon7_safe`](#v-lae_demon7_safe) | NPC | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon7_safe) | – | – |
+| [`lae_demon9`](#v-lae_demon9) | NPC/Enemy | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon9) | – | 180 |
+| [`lae_demon9_safe`](#v-lae_demon9_safe) | NPC | [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon9_safe) | – | – |
 
-## Laerothprison7 (lae_demon4) { #v-lae_demon4 }
+## Laerothprison 7 (lae_demon4) { #v-lae_demon4 }
 
 **Entry ID:** `lae_demon4` · **Type:** NPC/Enemy
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon4)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon4)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_demon`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -85,7 +85,7 @@ description: "Dark watch is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 3 | Appears later, during a quest |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 3 | Appears later, during a quest |
 
 ### Quests
 
@@ -93,7 +93,7 @@ description: "Dark watch is an NPC who can also be fought in Andor's Trail, foun
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon4.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -101,9 +101,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-lae_demon4-lae_demon4"></span>**`lae_demon4`** Dark watch: “Command us!” — **effects:** sets stage 114 of [Shadow of the torturer](../quests/lae_torturer.md#stage-114), removes monsters from laerothprison7, removes monsters from laerothprison7, spawns monsters on laerothprison4, spawns monsters on laerothprison4, changes map laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4, clears stage 31 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-31), clears stage 32 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-32), clears stage 33 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-33), clears stage 34 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-34)
+    <span id="d-lae_demon4-lae_demon4"></span>**`lae_demon4`** Dark watch: “Command us!” — **effects:** sets stage 114 of [Shadow of the torturer](../quests/lae_torturer.md#stage-114), removes monsters from laerothprison7, removes monsters from laerothprison7, spawns monsters on laerothprison4, spawns monsters on laerothprison4, changes map laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, removes monsters from laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4, spawns monsters on laerothprison4, clears stage 31 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-31), clears stage 32 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-32), clears stage 33 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-33), clears stage 34 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-34)
 
     - “You go and watch over the prisoners in the cells.” → [lae_demon4_10](#d-lae_demon4-lae_demon4_10)
 
@@ -178,15 +178,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison4 (lae_demon4_safe) { #v-lae_demon4_safe }
+## Laerothprison 4 (lae_demon4_safe) { #v-lae_demon4_safe }
 
 **Entry ID:** `lae_demon4_safe` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_demon4_safe)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_demon4_safe)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -194,7 +194,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_demon4_safe-lae_demon"></span>**`lae_demon`** Dark watch: “We are legion. Fear us.”
 
@@ -237,11 +237,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison7 (lae_demon4b) { #v-lae_demon4b }
+## Laerothprison 7 (lae_demon4b) { #v-lae_demon4b }
 
 **Entry ID:** `lae_demon4b` · **Type:** NPC/Enemy
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon4b)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon4b)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_demon`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -285,7 +285,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
 
 ### Quests
 
@@ -293,7 +293,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon4.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -368,15 +368,15 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison4 (lae_demon4b_safe) { #v-lae_demon4b_safe }
+## Laerothprison 4 (lae_demon4b_safe) { #v-lae_demon4b_safe }
 
 **Entry ID:** `lae_demon4b_safe` · **Type:** NPC
 
-**Location:** [laerothprison4](../maps/laerothprison4.md#pin-npc-lae_demon4b_safe)
+**Location:** [Laerothprison 4](../maps/laerothprison4.md#pin-npc-lae_demon4b_safe)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -421,11 +421,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison7 (lae_demon5) { #v-lae_demon5 }
+## Laerothprison 7 (lae_demon5) { #v-lae_demon5 }
 
 **Entry ID:** `lae_demon5` · **Type:** NPC/Enemy
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon5)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon5)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_demon`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -469,11 +469,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon5.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -481,7 +481,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_demon5-lae_demon5"></span>**`lae_demon5`** Dark watch: “Command us!” — **effects:** removes monsters from laerothprison7, spawns monsters on laerothprison5, removes monsters from laerothprison5, removes monsters from laerothprison5, removes monsters from laerothprison5, removes monsters from laerothprison5, spawns monsters on laerothprison5
 
@@ -555,15 +555,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison5 (lae_demon5_safe) { #v-lae_demon5_safe }
+## Laerothprison 5 (lae_demon5_safe) { #v-lae_demon5_safe }
 
 **Entry ID:** `lae_demon5_safe` · **Type:** NPC
 
-**Location:** [laerothprison5](../maps/laerothprison5.md#pin-npc-lae_demon5_safe)
+**Location:** [Laerothprison 5](../maps/laerothprison5.md#pin-npc-lae_demon5_safe)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -608,11 +608,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison7 (lae_demon7) { #v-lae_demon7 }
+## Laerothprison 7 (lae_demon7) { #v-lae_demon7 }
 
 **Entry ID:** `lae_demon7` · **Type:** NPC/Enemy
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon7)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon7)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_demon`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -656,11 +656,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 2 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon7.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -668,7 +668,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_demon7-lae_demon7"></span>**`lae_demon7`** Dark watch: “Command us!” — **effects:** removes monsters from laerothprison7, spawns monsters on laerothprison7
 
@@ -742,15 +742,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison7 (lae_demon7_safe) { #v-lae_demon7_safe }
+## Laerothprison 7 (lae_demon7_safe) { #v-lae_demon7_safe }
 
 **Entry ID:** `lae_demon7_safe` · **Type:** NPC
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon7_safe)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon7_safe)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -795,11 +795,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Laerothprison7 (lae_demon9) { #v-lae_demon9 }
+## Laerothprison 7 (lae_demon9) { #v-lae_demon9 }
 
 **Entry ID:** `lae_demon9` · **Type:** NPC/Enemy
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon9)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon9)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_demon`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -844,7 +844,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 1 | Appears later, during a quest |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -852,7 +852,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon9.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -860,7 +860,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_demon9-lae_demon9"></span>**`lae_demon9`** Dark watch: “[hollow voice] Take back your glass ball, brave little human.” — **effects:** gives 1× [Oegyth crystal](../items/oegyth.md), sets stage 110 of [Shadow of the torturer](../quests/lae_torturer.md#stage-110), removes monsters from laerothprison7, spawns monsters on laerothprison7
 
@@ -935,15 +935,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Laerothprison7 (lae_demon9_safe) { #v-lae_demon9_safe }
+## Laerothprison 7 (lae_demon9_safe) { #v-lae_demon9_safe }
 
 **Entry ID:** `lae_demon9_safe` · **Type:** NPC
 
-**Location:** [laerothprison7](../maps/laerothprison7.md#pin-npc-lae_demon9_safe)
+**Location:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-lae_demon9_safe)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark watch. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

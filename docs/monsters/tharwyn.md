@@ -4,7 +4,7 @@ description: "Tharwyn is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Tharwyn
 
-**Where to find Tharwyn:** Vilegard: [vilegard_tavern](../maps/vilegard_tavern.md#pin-npc-tharwyn)
+**Where to find Tharwyn:** Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-tharwyn)
 
 <div class="infobox" markdown>
 
@@ -34,11 +34,11 @@ description: "Tharwyn is a non-player character (NPC) in Andor's Trail, found in
 
 - [Beer Bootlegging](../quests/beer_bootlegging.md): stage 30
 - [Trusting an outsider](../quests/vilegard.md): stage 10
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 32
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 32
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tharwyn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tharwyn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tharwyn_select.json" data-npc="Tharwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tharwyn_select"></span>**`tharwyn_select`** *(silent check: the first matching branch below is taken)*
 
@@ -66,7 +66,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Show me what food you have available.” → *shop opens*
     - “Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a…” *(if latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-20) is 20)* → [tharwyn_beer](#d-tharwyn_beer)
-    - “Let's get back to discussing your 'business agreement' with the 'distributors'.” *(if reached stage 32 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-32); NOT reached stage 30 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-30))* → [tharwyn_beer_50](#d-tharwyn_beer_50)
+    - “Let's get back to discussing your 'business agreement' with the 'distributors'.” *(if reached stage 32 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-32); NOT reached stage 30 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-30))* → [tharwyn_beer_50](#d-tharwyn_beer_50)
 
     <span id="d-vilegard_shop_notrust_2"></span>**`vilegard_shop_notrust_2`** Tharwyn: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.” — **effects:** sets stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I am sure you do. What do I have to do to hear what you know?” → [tharwyn_beer_10](#d-tharwyn_beer_10)
 
-    <span id="d-tharwyn_beer_50"></span>**`tharwyn_beer_50`** Tharwyn: “I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.” — **effects:** sets stage 32 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-32)
+    <span id="d-tharwyn_beer_50"></span>**`tharwyn_beer_50`** Tharwyn: “I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.” — **effects:** sets stage 32 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-32)
 
     - “Great. Start talking.” → [tharwyn_beer_60](#d-tharwyn_beer_60)
 
@@ -120,7 +120,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.”<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…”<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

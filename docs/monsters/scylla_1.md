@@ -1,5 +1,5 @@
 ---
-description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 1442 XP, found in mountainlake32."
+description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 1442 XP, found in Mountainlake 32."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } Scylla
@@ -11,7 +11,7 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake32 |
+| **Found in** | Mountainlake 32 |
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 1,442 |
@@ -21,18 +21,18 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Scylla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`scylla_1`](#v-scylla_1) | Enemy | [mountainlake32](../maps/mountainlake32.md) | – | 180 |
-| [`scylla_2`](#v-scylla_2) | Enemy | [mountainlake32](../maps/mountainlake32.md) | – | 180 |
+| [`scylla_1`](#v-scylla_1) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
+| [`scylla_2`](#v-scylla_2) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
 
-## Mountainlake32 (scylla_1) { #v-scylla_1 }
+## Mountainlake 32 (scylla_1) { #v-scylla_1 }
 
 **Entry ID:** `scylla_1` · **Type:** Enemy
 
-**Location:** [mountainlake32](../maps/mountainlake32.md)
+**Location:** [Mountainlake 32](../maps/mountainlake32.md)
 
 ### Combat statistics
 
@@ -62,11 +62,11 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake32](../maps/mountainlake32.md) | – | 6 | – |
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | – |
 
 ### Quests that count defeats
 
-- A conversation with stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -127,11 +127,11 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
     ```
 
 
-## Mountainlake32 (scylla_2) { #v-scylla_2 }
+## Mountainlake 32 (scylla_2) { #v-scylla_2 }
 
 **Entry ID:** `scylla_2` · **Type:** Enemy
 
-**Location:** [mountainlake32](../maps/mountainlake32.md)
+**Location:** [Mountainlake 32](../maps/mountainlake32.md)
 
 ### Combat statistics
 
@@ -161,11 +161,11 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake32](../maps/mountainlake32.md) | – | 6 | – |
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | – |
 
 ### Quests that count defeats
 
-- A conversation with stepping on a trigger on [mountainlake32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
 
 
 ### Version history

@@ -1,10 +1,10 @@
 ---
-description: "Zortak guard is an enemy in Andor's Trail (giant) with 195 HP, worth 301 XP, found in lodar18, lodar7, lodar8. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
+description: "Zortak guard is an enemy in Andor's Trail (giant) with 195 HP, worth 301 XP, found in Lodar 18, Lodar 7, Lodar 8. Drops: Gold coins, Regular potion of health, Heavy iron gloves, Claymore of the warlord."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_87.png){ .sprite } Zortak guard
 
-**Found in:** [lodar18](../maps/lodar18.md), [lodar7](../maps/lodar7.md), [lodar8](../maps/lodar8.md)
+**Found in:** [Lodar 18](../maps/lodar18.md), [Lodar 7](../maps/lodar7.md), [Lodar 8](../maps/lodar8.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Zortak guard is an enemy in Andor's Trail (giant) with 195 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar18, lodar7, lodar8 |
+| **Found in** | Lodar 18, Lodar 7, Lodar 8 |
 | **Class** | Giant |
 | **HP** | 195 |
 | **XP when defeated** | 301 |
@@ -58,9 +58,9 @@ description: "Zortak guard is an enemy in Andor's Trail (giant) with 195 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar18](../maps/lodar18.md) | – | 1 | – |
-| [lodar7](../maps/lodar7.md) | – | 8 | – |
-| [lodar8](../maps/lodar8.md) | – | 11 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 1 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 8 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 11 | – |
 
 
 ## Version history

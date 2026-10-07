@@ -25,7 +25,7 @@ description: "Stoutford chief's helmet is a quest other in Andor's Trail. How to
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [stoutford_castle2](../maps/stoutford_castle2.md), stepping on a trigger on [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md) during [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50) (1×)
+- From stepping on a trigger on [Stoutford castle 2](../maps/stoutford_castle2.md), stepping on a trigger on [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md) during [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,11 +36,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | – | must be carried (1×) | “Gyra found your helmet and asked me to give it to you, so that you could start t” |
-| [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90) | handed over (1×) | “Will you make the songs a reality now?” |
-| [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92) | handed over (1×) | “(automatic)” |
-| [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | – | must be carried (1×) | “Psst. I have something for you.” |
-| [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | – | handed over (1×) | “Gyra found your helmet and asked me to give it to you.” |
+| [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) | – | must be carried (1×) | “Gyra found your helmet and asked me to give it to you, so that you could start t” |
+| [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) | [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90) | handed over (1×) | “Will you make the songs a reality now?” |
+| [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) | [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92) | handed over (1×) | “(automatic)” |
+| [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) | – | must be carried (1×) | “Psst. I have something for you.” |
+| [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) | – | handed over (1×) | “Gyra found your helmet and asked me to give it to you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

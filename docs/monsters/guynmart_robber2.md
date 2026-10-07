@@ -4,7 +4,7 @@ description: "Robber is an enemy in Andor's Trail (humanoid) with 120 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_tometik6_13.png){ .sprite } Robber
 
-**Found in:** Guynmart Castle: [fields5](../maps/fields5.md)
+**Found in:** Guynmart Castle: [Fields 5](../maps/fields5.md)
 
 <div class="infobox" markdown>
 
@@ -54,7 +54,7 @@ description: "Robber is an enemy in Andor's Trail (humanoid) with 120 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields5](../maps/fields5.md) | Guynmart Castle | 1 | – |
+| [Fields 5](../maps/fields5.md) | Guynmart Castle | 1 | – |
 
 
 ## Version history

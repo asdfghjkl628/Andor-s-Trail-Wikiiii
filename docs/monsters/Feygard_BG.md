@@ -4,7 +4,7 @@ description: "Feygard barricade guard is a non-player character (NPC) in Andor's
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard barricade guard
 
-**Where to find Feygard barricade guard:** Foaming Flask Tavern: [road1](../maps/road1.md#pin-npc-Feygard_BG)
+**Where to find Feygard barricade guard:** Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-Feygard_BG)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Feygard barricade guard is a non-player character (NPC) in Andor's
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard barricade guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard barricade guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/Feygard_BG_selector.json" data-npc="Feygard barricade guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-Feygard_BG_selector"></span>**`Feygard_BG_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 9 lines added |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…”<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…”<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

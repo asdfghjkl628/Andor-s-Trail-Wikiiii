@@ -4,7 +4,7 @@ description: "River snapper is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 # ![](../assets/icons/monsters/monsters_newb_1_210.png){ .sprite } River snapper
 
-**Found in:** Mt. Galmore: [galmore_36](../maps/galmore_36.md), Mt. Galmore: [galmore_46](../maps/galmore_46.md), Mt. Galmore: [galmore_47](../maps/galmore_47.md), [galmore_29](../maps/galmore_29.md) (+1 more)
+**Found in:** Mt. Galmore: [Galmore 36](../maps/galmore_36.md), Mt. Galmore: [Galmore 46](../maps/galmore_46.md), Mt. Galmore: [Galmore 47](../maps/galmore_47.md), [Galmore 29](../maps/galmore_29.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -50,11 +50,11 @@ description: "River snapper is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_29](../maps/galmore_29.md) | – | 6 | – |
-| [galmore_36](../maps/galmore_36.md) | Mt. Galmore | 9 | – |
-| [galmore_39](../maps/galmore_39.md) | – | 14 | – |
-| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 2 | – |
-| [galmore_47](../maps/galmore_47.md) | Mt. Galmore | 9 | – |
+| [Galmore 29](../maps/galmore_29.md) | – | 6 | – |
+| [Galmore 36](../maps/galmore_36.md) | Mt. Galmore | 9 | – |
+| [Galmore 39](../maps/galmore_39.md) | – | 14 | – |
+| [Galmore 46](../maps/galmore_46.md) | Mt. Galmore | 2 | – |
+| [Galmore 47](../maps/galmore_47.md) | Mt. Galmore | 9 | – |
 
 
 ## Version history

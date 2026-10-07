@@ -36,13 +36,13 @@ description: "Bogsten's mushroom is a ordinary food in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dangerous fungi](../monsters/dangerous_fungi.md) | 25% | 1 | bogsten3, bogsten4, mushroom_m2_1 |
-| [Angry dangerous fungi](../monsters/dangerous_fungi_1.md) | 25% | 1 | mushroom_m3_2 |
-| [Great fungi](../monsters/boss_fungi.md) | 25% | 1 | mushroom_m3_2 |
-| [Fungi](../monsters/mid_fungi.md) | 10% | 1 | bogsten2, bogsten3, bogsten4 |
-| [Angry fungi](../monsters/mid_fungi_1.md) | 10% | 1 | mushroom_m3_2 |
-| [Weak fungi](../monsters/weak_fungi.md) | 5% | 1 | bogsten2, bogsten3, mushroom_m2_2 |
-| [Angry weak fungi](../monsters/weak_fungi_1.md) | 5% | 1 | mushroom_m3_2 |
+| [Dangerous fungi](../monsters/dangerous_fungi.md) | 25% | 1 | Bogsten 3, Bogsten 4, Mushroom m 2 1 |
+| [Angry dangerous fungi](../monsters/dangerous_fungi_1.md) | 25% | 1 | Mushroom m 3 2 |
+| [Great fungi](../monsters/boss_fungi.md) | 25% | 1 | Mushroom m 3 2 |
+| [Fungi](../monsters/mid_fungi.md) | 10% | 1 | Bogsten 2, Bogsten 3, Bogsten 4 |
+| [Angry fungi](../monsters/mid_fungi_1.md) | 10% | 1 | Mushroom m 3 2 |
+| [Weak fungi](../monsters/weak_fungi.md) | 5% | 1 | Bogsten 2, Bogsten 3, Mushroom m 2 2 |
+| [Angry weak fungi](../monsters/weak_fungi_1.md) | 5% | 1 | Mushroom m 3 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -53,9 +53,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (20×) | “I need soup! At least ten bottles! Quick!!” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (10×) | “Give me five bottles.” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (2×) | “Just one, please.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (20×) | “I need soup! At least ten bottles! Quick!!” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (10×) | “Give me five bottles.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (2×) | “Just one, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

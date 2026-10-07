@@ -58,7 +58,7 @@ description: "Oaken staff is a rare quarterstaff in Andor's Trail (Attack damage
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Egrinda](../monsters/egrinda.md) | 100% | 1 | way_to_sullengard_west_3 |
+| [Egrinda](../monsters/egrinda.md) | 100% | 1 | Way to sullengard west 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

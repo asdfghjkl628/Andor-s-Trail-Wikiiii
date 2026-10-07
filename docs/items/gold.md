@@ -26,9 +26,9 @@ description: "Gold coins is a ordinary money in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Pixie Cort](../monsters/sull_forest_tree_fungus.md) | 566.667% | 1-10 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Huckleberreaper](../monsters/huckleber_reaper.md) | 166.667% | 5-7 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Broxwood](../monsters/broxwood.md) | 166.667% | 5-7 | sullengard_woods10, sullengard_woods11, sullengard_woods12 |
+| [Pixie Cort](../monsters/sull_forest_tree_fungus.md) | 566.667% | 1-10 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Huckleberreaper](../monsters/huckleber_reaper.md) | 166.667% | 5-7 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Broxwood](../monsters/broxwood.md) | 166.667% | 5-7 | Sullengard woods 10, Sullengard woods 11, Sullengard woods 12 |
 | [Tiny rat](../monsters/tiny_rat.md) | 100% | 0-2 | Crossglen, Flagstone Prison |
 | [Cave rat](../monsters/cave_rat.md) | 100% | 2-4 | Crossglen, Mt. Galmore, Flagstone Prison |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 100% | 2-4 | Crossglen, Mt. Galmore, Guynmart Castle |
@@ -38,32 +38,32 @@ description: "Gold coins is a ordinary money in Andor's Trail. How to get it: mo
 | [Shady bandit](../monsters/shady_bandit.md) | 100% | 4-41 | Fallhaven |
 | [Undead warden](../monsters/undead_warden.md) | 100% | 20-29 | Flagstone Prison |
 | [Cave guardian](../monsters/cave_guardian.md) | 100% | 20-52 | Flagstone Prison |
-| [Winged demon](../monsters/winged_demon.md) | 100% | 62 | flagstone4 |
-| [Pack leader](../monsters/pack_leader.md) | 100% | 3-35 | clearing_level2 |
-| [Maelveon](../monsters/maelveon.md) | 100% | 52 | gargoylecave3 |
-| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 100% | 2-4 | blackwater_mountain6 |
-| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 52 | blackwater_mountain42 |
-| [Graverobber](../monsters/graverobber.md) | 100% | 10-50 | blackwater_mountain35 |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 62 | Flagstone 4 |
+| [Pack leader](../monsters/pack_leader.md) | 100% | 3-35 | Clearing level 2 |
+| [Maelveon](../monsters/maelveon.md) | 100% | 52 | Gargoylecave 3 |
+| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 100% | 2-4 | Blackwater mountain 6 |
+| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 52 | Blackwater mountain 42 |
+| [Graverobber](../monsters/graverobber.md) | 100% | 10-50 | Blackwater mountain 35 |
 | [Guthbered](../monsters/guthbered.md) | 100% | 20-50 | Prim |
 | [Harlenn](../monsters/harlenn.md) | 100% | 20-50 | Prim |
 | [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 100% | 0-9 | Crossroads Guardhouse |
 | [Rat](../monsters/vermin0.md#v-crossroads_rat) | 100% | 2-4 | Crossroads Guardhouse, Remgard, Wexlow Village |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 100% | 2-4 | Loneford |
-| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 50-100 | pwcave4 |
-| [Gylew](../monsters/gylew.md) | 100% | 20-50 | waterway5 |
-| [Gylew's henchman](../monsters/gylew_henchman.md) | 100% | 100 | waterway5 |
-| [Toszylae](../monsters/toszylae.md) | 100% | 0-20 | waytobrimhavencave3a |
-| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 0-20 | waytobrimhavencave3a |
-| [Algangror](../monsters/algangror.md) | 100% | 0-20 | lonelyhouse0 |
+| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 50-100 | Pwcave 4 |
+| [Gylew](../monsters/gylew.md) | 100% | 20-50 | Waterway 5 |
+| [Gylew's henchman](../monsters/gylew_henchman.md) | 100% | 100 | Waterway 5 |
+| [Toszylae](../monsters/toszylae.md) | 100% | 0-20 | Waytobrimhavencave 3a |
+| [Radiant guardian](../monsters/toszylae_guard.md) | 100% | 0-20 | Waytobrimhavencave 3a |
+| [Algangror](../monsters/algangror.md) | 100% | 0-20 | Lonelyhouse 0 |
 | [Kaverin](../monsters/kaverin.md) | 100% | 100 | Remgard |
-| [Thukuzun](../monsters/thukuzun.md) | 100% | 200-500 | lostmine11 |
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 200-500 | lodarcave4a |
-| [Zortak leader](../monsters/zortakb.md) | 100% | 50-100 | lodar8 |
-| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 20-40 | lodar8 |
+| [Thukuzun](../monsters/thukuzun.md) | 100% | 200-500 | Lostmine 11 |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 200-500 | Lodarcave 4a |
+| [Zortak leader](../monsters/zortakb.md) | 100% | 50-100 | Lodar 8 |
+| [Guardian of the bridge](../monsters/lbridge.md) | 100% | 20-40 | Lodar 8 |
 | [Dread zombie](../monsters/oldcaveboss.md) | 100% | 5-30 | Foaming Flask Tavern |
-| [Emerald ooze](../monsters/jelly6.md) | 100% | 5-30 | roadcave1 |
-| [Aulowenn](../monsters/aulowenn.md) | 100% | 50-150 | lodar13 |
-| [Tiqui](../monsters/tiqui.md) | 100% | 50-150 | lodar14 |
+| [Emerald ooze](../monsters/jelly6.md) | 100% | 5-30 | Roadcave 1 |
+| [Aulowenn](../monsters/aulowenn.md) | 100% | 50-150 | Lodar 13 |
+| [Tiqui](../monsters/tiqui.md) | 100% | 50-150 | Lodar 14 |
 | [Highwayman](../monsters/highwayman.md#v-highwayman1) | 100% | 1-20 | Fallhaven |
 | [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 50 | Crossroads Guardhouse |
 
@@ -73,60 +73,60 @@ description: "Gold coins is a ordinary money in Andor's Trail. How to get it: mo
 
 - [Guynmart guard](../monsters/guynmart_gguard.md) (Guynmart Castle)
 - [Wart](../monsters/ratdom_rat_warden.md#v-ratdom_rat_warden2) (Museum)
-- [Madame Mim](../monsters/swamp_witch.md) (swamp_hut)
+- [Madame Mim](../monsters/swamp_witch.md) (Swamp hut)
 
 ### Found in containers
 
-- [arulircave1](../maps/arulircave1.md#container-0) (container 1, 100%)
-- [basiliskcave1_1_1](../maps/basiliskcave1_1_1.md#container-0) (container 1, 100%)
-- [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md#container-0) (container 1, 100%)
-- [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md#container-1) (container 2, 100%)
-- [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md#container-2) (container 3, 100%)
-- [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md#container-3) (container 4, 100%)
-- [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md#container-0) (container 1, 100%)
-- [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md#container-1) (container 2, 100%)
-- [basiliskcave1_1_4](../maps/basiliskcave1_1_4.md#container-0) (container 1, 100%)
-- [basiliskcave2](../maps/basiliskcave2.md#container-1) (container 2, 100%)
-- [beekeeper2](../maps/beekeeper2.md#container-0) (container 1, 100%), Foaming Flask Tavern
-- [beekeeper2](../maps/beekeeper2.md#container-1) (container 2, 100%), Foaming Flask Tavern
-- [beekeeper2](../maps/beekeeper2.md#container-2) (container 3, 100%), Foaming Flask Tavern
-- [beekeeper2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
-- [beekeeper2](../maps/beekeeper2.md#container-4) (container 5, 100%), Foaming Flask Tavern
-- [beekeeper2](../maps/beekeeper2.md#container-5) (container 6, 100%), Foaming Flask Tavern
-- [blackwater_mountain21](../maps/blackwater_mountain21.md#container-0) (container 1, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-1) (container 2, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-2) (container 3, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-3) (container 4, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-4) (container 5, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-5) (container 6, 100%), Prim
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-6) (container 7, 100%), Prim
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-0) (container 1, 100%), Blackwater Mountain
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 50%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 50%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 50%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 50%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 50%)
+- [Arulircave 1](../maps/arulircave1.md#container-0) (container 1, 100%)
+- [Basiliskcave 1 1 1](../maps/basiliskcave1_1_1.md#container-0) (container 1, 100%)
+- [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md#container-0) (container 1, 100%)
+- [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md#container-1) (container 2, 100%)
+- [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md#container-2) (container 3, 100%)
+- [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md#container-3) (container 4, 100%)
+- [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md#container-0) (container 1, 100%)
+- [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md#container-1) (container 2, 100%)
+- [Basiliskcave 1 1 4](../maps/basiliskcave1_1_4.md#container-0) (container 1, 100%)
+- [Basiliskcave 2](../maps/basiliskcave2.md#container-1) (container 2, 100%)
+- [Beekeeper 2](../maps/beekeeper2.md#container-0) (container 1, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-1) (container 2, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-2) (container 3, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-4) (container 5, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-5) (container 6, 100%), Foaming Flask Tavern
+- [Blackwater mountain 21](../maps/blackwater_mountain21.md#container-0) (container 1, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-1) (container 2, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-2) (container 3, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-3) (container 4, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-4) (container 5, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-5) (container 6, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-6) (container 7, 100%), Prim
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 50%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 50%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 50%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 50%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 50%)
 
 ### Quest & dialogue rewards
 
-- From [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) during [Breakfast bread](../quests/mikhail_bread.md#stage-100) (100%)
-- From [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) during [Rat infestation](../quests/odair.md#stage-100) (100%)
+- From [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) during [Breakfast bread](../quests/mikhail_bread.md#stage-100) (100%)
+- From [Odair](../monsters/odair.md) ([Crossglen](../maps/crossglen.md)) during [Rat infestation](../quests/odair.md#stage-100) (100%)
 - From [Arcir](../monsters/arcir.md) (500×)
 - From [Arcir](../monsters/arcir.md) (200×)
-- From [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) during [Calomyran secrets](../quests/calomyran.md#stage-100) (100%)
-- From [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) (100%)
-- From [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) during [Missing pieces](../quests/vacor.md#stage-61) (100%)
-- From [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (10×)
-- From [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (15×)
-- From [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (20×)
-- From [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) (100%)
-- From [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) during [Night visit](../quests/farrik.md#stage-90) (100%)
-- From [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
-- From [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
-- From [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) during [Awoken from slumber](../quests/bjorgur_grave.md#stage-60) (100%)
-- From [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) (100%)
-- From [Gauward](../monsters/gauward.md) ([waterwayhouse](../maps/waterwayhouse.md)) (100%)
+- From [Old man](../monsters/old_man.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) during [Calomyran secrets](../quests/calomyran.md#stage-100) (100%)
+- From [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) (100%)
+- From [Unzel](../monsters/unzel.md) ([Wild 6](../maps/wild6.md)) during [Missing pieces](../quests/vacor.md#stage-61) (100%)
+- From [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (10×)
+- From [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (15×)
+- From [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (20×)
+- From [Farrik](../monsters/farrik.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) (100%)
+- From [Guard captain](../monsters/warden.md) ([Fallhaven prison](../maps/fallhaven_prison.md)) during [Night visit](../quests/farrik.md#stage-90) (100%)
+- From [Guthbered](../monsters/guthbered.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
+- From [Harlenn](../monsters/harlenn.md) ([Blackwater mountain 45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
+- From [Fulus](../monsters/fulus.md) ([Blackwater mountain 28](../maps/blackwater_mountain28.md)) during [Awoken from slumber](../quests/bjorgur_grave.md#stage-60) (100%)
+- From [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) (100%)
+- From [Gauward](../monsters/gauward.md) ([Waterwayhouse](../maps/waterwayhouse.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -137,33 +137,33 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | – | handed over (200×) | “Here are 200 gold. Now let me see the potions.” |
-| [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | must be carried (5000×) | “No, I am here to give you something.” |
-| [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55) | must be carried (5000×) | “Shannal sent me.” |
+| [Thoronir](../monsters/thoronir.md) ([Fallhaven church](../maps/fallhaven_church.md)) | – | handed over (200×) | “Here are 200 gold. Now let me see the potions.” |
+| [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | – | must be carried (5000×) | “No, I am here to give you something.” |
+| [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-55) | must be carried (5000×) | “Shannal sent me.” |
 | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | [You shall pass](../quests/undertell_barricades.md#stage-150) | handed over (4850×) | “Please keep these {4850} gold coins for safekeeping. Rain asked for you until he” |
-| [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | [Room to rent (hidden flag)](../quests/fallhaventavern.md#stage-10) | handed over (10×) | “[Buy for 10 gold]” |
-| [Highwayman](../monsters/highwayman.md) ([wild9](../maps/wild9.md)) | – | handed over (100×) | “OK OK. Here is the gold. Please don't hurt me!” |
-| [Pickpocket](../monsters/pickpocket.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | handed over (1×) | “Do you mean like stealing?” |
-| [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-60) | handed over (500×) | “I have 500 gold right here that you could have.” |
-| [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-60) | handed over (400×) | “So what if I pay you, say, 400 gold. Would that cover enough of your anxiety to ” |
-| [Torilo](../monsters/torilo.md) ([foaming_flask](../maps/foaming_flask.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold? Sure, that's nothing to me. Here you go.” |
-| [Torilo](../monsters/torilo.md) ([foaming_flask](../maps/foaming_flask.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold is a lot, but I guess it is worth it. Here you go.” |
-| [Strong Prim treasury guard](../monsters/prim_treasury_guard2.md) ([blackwater_mountain25](../maps/blackwater_mountain25.md)) | – | handed over (2000×) | “OK, here.” |
-| [Guard](../monsters/guard.md#v-crossroads_backguard) ([houseatcrossroads1](../maps/houseatcrossroads1.md)) | – | handed over (800×) | “Here is the gold, now get out of the way.” |
+| [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | [Fallhaven tavern room (hidden flag)](../quests/fallhaventavern.md#stage-10) | handed over (10×) | “[Buy for 10 gold]” |
+| [Highwayman](../monsters/highwayman.md) ([Wild 9](../maps/wild9.md)) | – | handed over (100×) | “OK OK. Here is the gold. Please don't hurt me!” |
+| [Pickpocket](../monsters/pickpocket.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | – | handed over (1×) | “Do you mean like stealing?” |
+| [Guard captain](../monsters/warden.md) ([Fallhaven prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-60) | handed over (500×) | “I have 500 gold right here that you could have.” |
+| [Guard captain](../monsters/warden.md) ([Fallhaven prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-60) | handed over (400×) | “So what if I pay you, say, 400 gold. Would that cover enough of your anxiety to ” |
+| [Torilo](../monsters/torilo.md) ([Foaming flask](../maps/foaming_flask.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold? Sure, that's nothing to me. Here you go.” |
+| [Torilo](../monsters/torilo.md) ([Foaming flask](../maps/foaming_flask.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold is a lot, but I guess it is worth it. Here you go.” |
+| [Strong Prim treasury guard](../monsters/prim_treasury_guard2.md) ([Blackwater mountain 25](../maps/blackwater_mountain25.md)) | – | handed over (2000×) | “OK, here.” |
+| [Guard](../monsters/guard.md#v-crossroads_backguard) ([Houseatcrossroads 1](../maps/houseatcrossroads1.md)) | – | handed over (800×) | “Here is the gold, now get out of the way.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (10×) | “Here's 10 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (100×) | “Here's 100 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (250×) | “Here's 250 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (500×) | “Here's 500 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | [Flows through the veins](../quests/loneford.md#stage-41) | handed over (1000×) | “Here's {1000} gold, take it.” |
 | [Buceth](../monsters/buceth.md) | [Flows through the veins](../quests/loneford.md#stage-41) | handed over (2000×) | “Here's {2000} gold, take it.” |
-| [Arngyr](../monsters/arngyr.md) ([loneford10](../maps/loneford10.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-19) | handed over (600×) | “Sure, here is the gold.” |
-| [Arngyr](../monsters/arngyr.md) ([loneford10](../maps/loneford10.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-19) | handed over (600×) | “Fine, here is the gold.” |
+| [Arngyr](../monsters/arngyr.md) ([Loneford 10](../maps/loneford10.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-19) | handed over (600×) | “Sure, here is the gold.” |
+| [Arngyr](../monsters/arngyr.md) ([Loneford 10](../maps/loneford10.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-19) | handed over (600×) | “Fine, here is the gold.” |
 | [Talion](../monsters/talion.md) | – | handed over (300×) | “OK, I'll take it for 300 gold.” |
 | [Talion](../monsters/talion.md) | – | must be carried (300×) | “OK, I'll take it for 300 gold. I need it for Borvis to work an enchantment. He i” |
 | [Talion](../monsters/talion.md) | – | handed over (250×) | “OK, I'll take it for 250 gold.” |
 | [Talion](../monsters/talion.md) | – | handed over (400×) | “OK, I'll take it for 400 gold.” |
-| [Mazeg](../monsters/mazeg.md) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) | [A difference of opinion](../quests/sisterfight.md#stage-55) | handed over (400×) | “Here is 400 gold.” |
-| [Mazeg](../monsters/mazeg.md) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) | [A difference of opinion](../quests/sisterfight.md#stage-55) | handed over (800×) | “Here is 800 gold.” |
+| [Mazeg](../monsters/mazeg.md) ([Blackwater mountain 43](../maps/blackwater_mountain43.md)) | [A difference of opinion](../quests/sisterfight.md#stage-55) | handed over (400×) | “Here is 400 gold.” |
+| [Mazeg](../monsters/mazeg.md) ([Blackwater mountain 43](../maps/blackwater_mountain43.md)) | [A difference of opinion](../quests/sisterfight.md#stage-55) | handed over (800×) | “Here is 800 gold.” |
 
 *…and 245 more.*
 

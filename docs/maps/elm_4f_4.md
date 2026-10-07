@@ -11,7 +11,7 @@ description: "Elm 4f 4 is an indoor location in Andor's Trail. Enemies: Resurrec
 | **Map ID** | `elm_4f_4` |
 | **Type** | Indoors / underground |
 | **Size** | 31×10 tiles |
-| **World map** | [Elm4f](index.md) |
+| **World map** | [Elm 4f](index.md) |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 | **Enemy types** | 9 |
 | **Quests** | 0 |

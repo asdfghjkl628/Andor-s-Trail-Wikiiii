@@ -1,5 +1,5 @@
 ---
-description: "Brightport cave is an indoor location in Andor's Trail. Exits to Brightportwild8, Brightport cave1."
+description: "Brightport cave is an indoor location in Andor's Trail. Exits to Brightportwild 8, Brightport cave 1."
 ---
 
 # Brightport cave
@@ -17,20 +17,20 @@ description: "Brightport cave is an indoor location in Andor's Trail. Exits to B
 
 </div>
 
-**Brightport cave** is an indoor map. It has no NPCs, and no enemies. Exits lead to Brightportwild8, Brightport cave1.
+**Brightport cave** is an indoor map. It has no NPCs, and no enemies. Exits lead to Brightportwild 8, Brightport cave 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave.webp" alt="Map of Brightport cave" width="800" height="480" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild8/#place-cave" title="Exit to Brightportwild8" style="left:84.000%;top:6.667%;width:4.000%;height:6.667%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../brightport_cave1/#place-entrance" title="Exit to Brightport cave1" style="left:24.000%;top:93.333%;width:12.000%;height:6.667%"></a><a class="pin pin-exit" href="#key-1" style="left:86.000%;top:10.000%" title="Exit (north): to [Brightportwild8](brightportwild8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:30.000%;top:96.667%" title="Exit (south): to [Brightport cave1](brightport_cave1.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave.webp" alt="Map of Brightport cave" width="800" height="480" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild8/#place-cave" title="Exit to Brightportwild 8" style="left:84.000%;top:6.667%;width:4.000%;height:6.667%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../brightport_cave1/#place-entrance" title="Exit to Brightport cave 1" style="left:24.000%;top:93.333%;width:12.000%;height:6.667%"></a><a class="pin pin-exit" href="#key-1" style="left:86.000%;top:10.000%" title="Exit (north): to [Brightportwild 8](brightportwild8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:30.000%;top:96.667%" title="Exit (south): to [Brightport cave 1](brightport_cave1.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild8](brightportwild8.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Brightport cave1](brightport_cave1.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 8](brightportwild8.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Brightport cave 1](brightport_cave1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -39,8 +39,8 @@ description: "Brightport cave is an indoor location in Andor's Trail. Exits to B
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild8](brightportwild8.md) | – | 1 |
-| South | [Brightport cave1](brightport_cave1.md) | – | 2 |
+| North | [Brightportwild 8](brightportwild8.md) | – | 1 |
+| South | [Brightport cave 1](brightport_cave1.md) | – | 2 |
 
 
 ## Version history

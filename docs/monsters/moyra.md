@@ -4,7 +4,7 @@ description: "Moyra is a non-player character (NPC) in Andor's Trail, found in P
 
 # ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } Moyra
 
-**Where to find Moyra:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-moyra)
+**Where to find Moyra:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-moyra)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Moyra is a non-player character (NPC) in Andor's Trail, found in P
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stage 9
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stage 9
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Moyra. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Moyra. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/moyra_1.json" data-npc="Moyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,14 +33,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-moyra_1"></span>**`moyra_1`** Moyra: “Stay away. This is my hiding spot.”
 
     - “What are you hiding from?” → [moyra_2](#d-moyra_2)
-    - “Do you know anything about the accident with Lorn?” *(if reached stage 20 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-20); NOT reached stage 9 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [moyra_8](#d-moyra_8)
+    - “Do you know anything about the accident with Lorn?” *(if reached stage 20 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-20); NOT reached stage 9 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [moyra_8](#d-moyra_8)
     - “Who are you?” → [moyra_3](#d-moyra_3)
-    - “Do you know anything about the accident with Lorn?” *(if reached stage 9 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [moyra_12](#d-moyra_12)
+    - “Do you know anything about the accident with Lorn?” *(if reached stage 9 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [moyra_12](#d-moyra_12)
 
     <span id="d-moyra_2"></span>**`moyra_2`** Moyra: “Claws, beasts, gornauds. They cannot reach me here.”
 
@@ -90,7 +90,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-moyra_7"></span>**`moyra_7`** Moyra: “I hide here now, so they cannot get to me.”
 
 
-    <span id="d-moyra_11"></span>**`moyra_11`** Moyra: “They're still missing, but I don't know...” — **effects:** sets stage 9 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-9)
+    <span id="d-moyra_11"></span>**`moyra_11`** Moyra: “They're still missing, but I don't know...” — **effects:** sets stage 9 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-9)
 
     - “Thank you for your honest words.” → *conversation ends*
     - “Bah, useless kid.” → *conversation ends*

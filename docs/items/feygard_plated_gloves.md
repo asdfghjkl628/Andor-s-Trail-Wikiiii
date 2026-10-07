@@ -44,7 +44,7 @@ description: "Feygard plated gloves is a rare gloves, metal (heavy) in Andor's T
 
 ### Quest & dialogue rewards
 
-- From [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-13) (1×)
+- From [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-13) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

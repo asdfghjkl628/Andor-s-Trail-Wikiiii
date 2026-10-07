@@ -25,7 +25,7 @@ description: "Prepared sleepy mead is a quest other in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From [Thieves guild cook](../monsters/thieves_guild_cook.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Night visit](../quests/farrik.md#stage-25) (100%)
+- From [Thieves guild cook](../monsters/thieves_guild_cook.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Night visit](../quests/farrik.md#stage-25) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-32) | handed over (1×) | “I brought some with me if you would like to have a sip.” |
+| [Guard captain](../monsters/warden.md) ([Fallhaven prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-32) | handed over (1×) | “I brought some with me if you would like to have a sip.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

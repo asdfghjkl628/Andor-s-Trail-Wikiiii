@@ -1,5 +1,5 @@
 ---
-description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in gamjee_well_4_1."
+description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in Gamjee well 4 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Gamjee
@@ -11,7 +11,7 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | gamjee_well_4_1 |
+| **Found in** | Gamjee well 4 1 |
 | **Class** | Giant |
 | **HP** | 417 |
 | **XP when defeated** | 741 |
@@ -21,19 +21,19 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Gamjee. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Gamjee. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`gamjee`](#v-gamjee) | NPC/Enemy | [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-gamjee) | – | 417 |
-| [`gamjee_hidden`](#v-gamjee_hidden) | Enemy | [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 |
-| [`gamjee_oc`](#v-gamjee_oc) | NPC/Enemy | [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc) | – | 417 |
+| [`gamjee`](#v-gamjee) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee) | – | 417 |
+| [`gamjee_hidden`](#v-gamjee_hidden) | Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 |
+| [`gamjee_oc`](#v-gamjee_oc) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc) | – | 417 |
 
 ## Gamjee well 4 1 (gamjee) { #v-gamjee }
 
 **Entry ID:** `gamjee` · **Type:** NPC/Enemy
 
-**Location:** [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-gamjee)
+**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -76,21 +76,21 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | – |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): stages 8, 12, 13
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gamjee. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gamjee. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gamjee_selector.json" data-npc="Gamjee" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -98,11 +98,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (23 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gamjee-gamjee_selector"></span>**`gamjee_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 5 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-5))* → *fight starts*
+    - branch 1 *(if reached stage 5 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-5))* → *fight starts*
     - Next *(if NOT reached stage 5 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-5); NOT reached stage 13 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-13); NOT reached stage 8 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-8))* → [gamjee_villagers_unknown_1](#d-gamjee-gamjee_villagers_unknown_1)
     - Next *(if reached stage 13 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-13))* → [gamjee_no_business](#d-gamjee-gamjee_no_business)
     - Next *(if reached stage 5 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-5))* → [gamjee_villagers_known_1](#d-gamjee-gamjee_villagers_known_1)
@@ -136,8 +136,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-gamjee-gamjee_compromise_1"></span>**`gamjee_compromise_1`** Gamjee: “You help Gamjee? Humans no hurt?”
 
     - “I'll do what I can. Let's talk to the villagers.” *(if NOT reached stage 8 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-8))* → [gamjee_compromise_2](#d-gamjee-gamjee_compromise_2)
-    - “I'll do what I can. Let's talk to the villagers.” *(if NOT reached stage 6 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-6); reached stage 8 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-8))* → [gamjee_compromise_2a](#d-gamjee-gamjee_compromise_2a)
-    - “I'll do what I can. Let's talk to the villagers.” *(if reached stage 6 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-6))* → [gamjee_compromise_2](#d-gamjee-gamjee_compromise_2)
+    - “I'll do what I can. Let's talk to the villagers.” *(if NOT reached stage 6 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-6); reached stage 8 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-8))* → [gamjee_compromise_2a](#d-gamjee-gamjee_compromise_2a)
+    - “I'll do what I can. Let's talk to the villagers.” *(if reached stage 6 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-6))* → [gamjee_compromise_2](#d-gamjee-gamjee_compromise_2)
 
     <span id="d-gamjee-gamjee_villagers_unknown_peace"></span>**`gamjee_villagers_unknown_peace`** Gamjee: “Yes! Humans take all if no stop. Gamjee alone. If you help, tell humans Gamjee no bad. Maybe they listen. Maybe they share well, no fight. You help, no need for hurt.”
 
@@ -161,11 +161,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Let's talk about how you guys can reach a compromise and share the well water.” → [gamjee_compromise_4](#d-gamjee-gamjee_compromise_4)
 
-    <span id="d-gamjee-gamjee_villagers_unknown_attack"></span>**`gamjee_villagers_unknown_attack`** Gamjee: “No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared.” — **effects:** sets stage 3 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-3), sets stage 5 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-5)
+    <span id="d-gamjee-gamjee_villagers_unknown_attack"></span>**`gamjee_villagers_unknown_attack`** Gamjee: “No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared.” — **effects:** sets stage 3 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-3), sets stage 5 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-5)
 
     - “I don't believe you! I can't take that risk. This ends now” → *fight starts*
 
-    <span id="d-gamjee-gamjee_villagers_known_fight"></span>**`gamjee_villagers_known_fight`** Gamjee: “No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared.” — **effects:** sets stage 4 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-4), sets stage 5 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-5)
+    <span id="d-gamjee-gamjee_villagers_known_fight"></span>**`gamjee_villagers_known_fight`** Gamjee: “No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared.” — **effects:** sets stage 4 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-4), sets stage 5 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-5)
 
     - “This ends now for you!” → *fight starts*
 
@@ -190,10 +190,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Alright. Let's make this work.” *(if NOT reached stage 12 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-12))* → [gamjee_compromise_9](#d-gamjee-gamjee_compromise_9)
     - “So our business here is done?” *(if reached stage 12 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-12))* → [gamjee_compromise_10_no_ac](#d-gamjee-gamjee_compromise_10_no_ac)
 
-    <span id="d-gamjee-gamjee_compromise_9"></span>**`gamjee_compromise_9`** Gamjee: “You human, go back village now.” — **effects:** removes monsters from gamjee_well_4_1, sets stage 6 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-6), sets stage 12 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-12), spawns monsters on wexlow_village
+    <span id="d-gamjee-gamjee_compromise_9"></span>**`gamjee_compromise_9`** Gamjee: “You human, go back village now.” — **effects:** removes monsters from gamjee_well_4_1, sets stage 6 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-6), sets stage 12 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-12), spawns monsters on wexlow_village
 
-    - “So our business here is done?” *(if NOT reached stage 2 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-2))* → [gamjee_compromise_10_no_ac](#d-gamjee-gamjee_compromise_10_no_ac)
-    - “So our business here is done?” *(if reached stage 2 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-2))* → [gamjee_compromise_10_oc](#d-gamjee-gamjee_compromise_10_oc)
+    - “So our business here is done?” *(if NOT reached stage 2 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-2))* → [gamjee_compromise_10_no_ac](#d-gamjee-gamjee_compromise_10_no_ac)
+    - “So our business here is done?” *(if reached stage 2 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-2))* → [gamjee_compromise_10_oc](#d-gamjee-gamjee_compromise_10_oc)
 
     <span id="d-gamjee-gamjee_compromise_10_no_ac"></span>**`gamjee_compromise_10_no_ac`** Gamjee: “Not same. Take rope, use to free others from pit.” — **effects:** gives 1× [Gamjee's rope](../items/gamjee_rope.md), sets stage 13 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-13)
 
@@ -277,7 +277,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `gamjee_hidden` · **Type:** Enemy
 
-**Location:** [gamjee_well_4_1](../maps/gamjee_well_4_1.md)
+**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md)
 
 ### Combat statistics
 
@@ -305,7 +305,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | – |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
 
 
 ### Version history
@@ -345,7 +345,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `gamjee_oc` · **Type:** NPC/Enemy
 
-**Location:** [gamjee_well_4_1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc)
+**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -389,21 +389,21 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | Appears later, during a quest |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): stages 8, 12, 13
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gamjee. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gamjee. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gamjee_selector.json" data-npc="Gamjee" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

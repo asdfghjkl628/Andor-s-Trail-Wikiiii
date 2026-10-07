@@ -11,9 +11,9 @@ description: "Devastated land is a quest in Andor's Trail, started by Hadracor (
 | **Quest ID** | `hadracor` |
 | **In journal** | Yes |
 | **Stages** | 4 (completes at 30) |
-| **Started by** | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) |
+| **Started by** | [Hadracor](../monsters/hadracor.md) ([Roadtocarntower 1](../maps/roadtocarntower1.md)) |
 | **NPCs involved** | [Hadracor](../monsters/hadracor.md) |
-| **Locations** | [roadtocarntower1](../maps/roadtocarntower1.md) |
+| **Locations** | [Roadtocarntower 1](../maps/roadtocarntower1.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Devastated land is a quest in Andor's Trail, started by Hadracor (
 
 ## Prerequisites to start
 
-Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)). Required:
+Start with [Hadracor](../monsters/hadracor.md) ([Roadtocarntower 1](../maps/roadtocarntower1.md)). Required:
 
 - reached stage 10 of [Devastated land](../quests/hadracor.md#stage-10)
 
@@ -42,34 +42,65 @@ Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadt
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | On the road to Carn Tower, west of the Crossroads guardhouse, I met a group of woodcutters led by Hadracor. Hadracor wants me to help him get revenge on some wasps that were attacking them while they were cutting down the forest. To help them get revenge, I should look for giant wasps near their encampment and bring him at least five giant wasp wings. | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | – | – |
-| <span id="stage-20"></span>20 | I have brought five giant wasp wings to Hadracor. | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | hand over 5× [Giant wasp wing](../items/hadracor_waspwing.md), stage 10 | – |
-| <span id="stage-21"></span>21 | I have brought six giant wasp wings to Hadracor. For helping him, he gave me a pair of gloves. | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | hand over 6× [Giant wasp wing](../items/hadracor_waspwing.md), stage 10 | gives [Woodcutter's gloves](../items/gloves_woodcutter.md) |
-| <span id="stage-30"></span>30 | Hadracor thanked me for helping him and the other woodcutters get revenge on the wasps. In return, he offered me to trade for some of his items. **(completes quest)** | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">On the road to Carn Tower, west of the Crossroads guardhouse, I met… ▸</span><span class="l">▴ less</span></summary>On the road to Carn Tower, west of the Crossroads guardhouse, I met a group of woodcutters led by Hadracor. Hadracor wants me to help him get revenge on some wasps that were attacking them while they were cutting down the forest. To help them get revenge, I should look for giant wasps near their encampment and bring him at least five giant wasp wings.</details> | [Hadracor](../monsters/hadracor.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I have brought five giant wasp wings to Hadracor. | [Hadracor](../monsters/hadracor.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">I have brought six giant wasp wings to Hadracor. For helping him, he… ▸</span><span class="l">▴ less</span></summary>I have brought six giant wasp wings to Hadracor. For helping him, he gave me a pair of gloves.</details> | [Hadracor](../monsters/hadracor.md) | [Woodcutter's gloves](../items/gloves_woodcutter.md) |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Hadracor thanked me for helping him and the other woodcutters get… ▸</span><span class="l">▴ less</span></summary>Hadracor thanked me for helping him and the other woodcutters get revenge on the wasps. In return, he offered me to trade for some of his items.</details> **(ends quest)** | [Hadracor](../monsters/hadracor.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) → choose “Not yet, but I am working on it.” — **conditions:** reached stage 10 of [Devastated land](../quests/hadracor.md#stage-10) → **stage 10**. NPC: “Good, hurry back once you are done.”
+??? note "Stage 10 · Hadracor · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Hadracor](../monsters/hadracor.md), choose “Not yet, but I am working on it.”
 
-    1. Talk to [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) → choose “Yes, I killed five of them.” — **conditions:** reached stage 10 of [Devastated land](../quests/hadracor.md#stage-10); hand over 5× [Giant wasp wing](../items/hadracor_waspwing.md) → **stage 20**. NPC: “Wow, you actually killed those things?”
+    - **Needs:** stage 10
+    - *“Good, hurry back once you are done.”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) → choose “Yes, I killed six of them.” — **conditions:** reached stage 10 of [Devastated land](../quests/hadracor.md#stage-10); hand over 6× [Giant wasp wing](../items/hadracor_waspwing.md) → **stage 21**; also gives [Woodcutter's gloves](../items/gloves_woodcutter.md). NPC: “Wow, you actually killed six of those things? I thought there were only five, so I guess I should be even more…”
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Hadracor · 1 way"
 
-    1. Talk to [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [Devastated land](../quests/hadracor.md#stage-30) → **stage 30**. NPC: “As a token of our appreciation, we are willing to trade some of our equipment with you if you want.”
+    **Way 1:** Talk to [Hadracor](../monsters/hadracor.md), choose “Yes, I killed five of them.”
+
+    - **Needs:** stage 10; hand over 5× [Giant wasp wing](../items/hadracor_waspwing.md)
+    - *“Wow, you actually killed those things?”*
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Hadracor · 1 way"
+
+    **Way 1:** Talk to [Hadracor](../monsters/hadracor.md), choose “Yes, I killed six of them.”
+
+    - **Needs:** stage 10; hand over 6× [Giant wasp wing](../items/hadracor_waspwing.md)
+    - **Gives:** [Woodcutter's gloves](../items/gloves_woodcutter.md)
+    - *“Wow, you actually killed six of those things? I thought there were only five, so I guess I should be even more grateful. Here, take these…”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Hadracor · 1 way"
+
+    **Way 1:** Talk to [Hadracor](../monsters/hadracor.md), automatic
+
+    - **Needs:** stage 30
+    - *“As a token of our appreciation, we are willing to trade some of our equipment with you if you want.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

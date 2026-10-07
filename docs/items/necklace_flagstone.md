@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Flagstone sentry](../monsters/flagstone_sentry.md) ([flagstone0](../maps/flagstone0.md)) | [Ancient secrets](../quests/flagstone.md#stage-40) | handed over (1×) | “I slew the former warden and found a peculiar necklace among his remains.” |
+| [Flagstone sentry](../monsters/flagstone_sentry.md) ([Flagstone 0](../maps/flagstone0.md)) | [Ancient secrets](../quests/flagstone.md#stage-40) | handed over (1×) | “I slew the former warden and found a peculiar necklace among his remains.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

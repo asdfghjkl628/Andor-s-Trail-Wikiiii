@@ -25,8 +25,8 @@ description: "Pretty porcelain figure is a quest other in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_07](../monsters/brv_wh_item_07.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_27](../monsters/brv_wh_item_27.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-107) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_07](../monsters/brv_wh_item_07.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_27](../monsters/brv_wh_item_27.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-107) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30) | handed over (1×) | “Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Odirath](../monsters/stoutford_armorer.md) ([Stoutford armorer](../maps/stoutford_armorer.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30) | handed over (1×) | “Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

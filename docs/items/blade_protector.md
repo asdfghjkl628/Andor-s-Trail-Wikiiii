@@ -49,7 +49,7 @@ description: "Blade of the protector is a extraordinary parrying weapon in Andor
 
 ### Quest & dialogue rewards
 
-- From [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Another ruthless Crackshot](../quests/Thieves04.md#stage-80) (1×)
+- From [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Another ruthless Crackshot](../quests/Thieves04.md#stage-80) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -56,8 +56,8 @@ description: "White house basement is an indoor location in Andor's Trail, in Fa
 
 - [Lost treasures](../quests/nocmar.md): blocked passage closes at stage 200; something on this map advances it; stepping on a trigger here sets stage 110
 - [The fifth master](../quests/fifth_master.md): something on this map advances it; stepping on a trigger here sets stage 70; stepping on a trigger here sets stage 72; stepping on a trigger here sets stage 75
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): something on this map advances it; stepping on a trigger here sets stage 50
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): something on this map advances it; stepping on a trigger here sets stage 50
 
 ## Points of interest
 

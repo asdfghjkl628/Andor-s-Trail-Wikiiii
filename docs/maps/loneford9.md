@@ -1,8 +1,8 @@
 ---
-description: "Loneford9 is an indoor location in Andor's Trail, in Loneford (settlement). NPCs: Sienn, Sienn's pet. Enemies: Warehouse rat. Exits to Loneford2."
+description: "Loneford 9 is an indoor location in Andor's Trail, in Loneford (settlement). NPCs: Sienn, Sienn's pet. Enemies: Warehouse rat. Exits to Loneford 2."
 ---
 
-# Loneford9
+# Loneford 9
 
 <div class="infobox" markdown>
 
@@ -19,19 +19,19 @@ description: "Loneford9 is an indoor location in Andor's Trail, in Loneford (set
 
 </div>
 
-**Loneford9** is an indoor map, in Loneford (settlement). It has 2 NPCs and 1 kind of enemy. Exits lead to Loneford2.
+**Loneford 9** is an indoor map, in Loneford (settlement). It has 2 NPCs and 1 kind of enemy. Exits lead to Loneford 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford9.webp" alt="Map of Loneford9" width="640" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-lonefordhouse7" title="Exit to Loneford2" style="left:60.000%;top:88.889%;width:10.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Siola" style="left:20.000%;top:44.444%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Sienn&#x27;s pet" style="left:80.000%;top:55.556%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Sienn" style="left:75.000%;top:44.444%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Warehouse rat" style="left:10.000%;top:66.667%;width:50.000%;height:22.222%"></span><a class="mob" href="../../monsters/sienn_pet/" title="Sienn&#x27;s pet" style="left:80.000%;top:55.556%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_misc_0.png" alt="Sienn&#x27;s pet"></a><a class="mob" href="../../monsters/sienn/" title="Sienn" style="left:75.000%;top:44.444%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_66.png" alt="Sienn"></a><a class="mob" href="../../monsters/puny_warehouserat/" title="Warehouse rat" style="left:30.000%;top:66.667%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Warehouse rat"></a><a class="pin pin-exit" href="#key-1" style="left:65.000%;top:94.444%" title="Exit (south): to [Loneford2](loneford2.md)">1</a><a id="pin-npc-sienn" class="pin pin-npc" href="#key-2" style="left:77.500%;top:50.000%" title="[Sienn](../../monsters/sienn.md): NPC">2</a><a id="pin-npc-sienn_pet" class="pin pin-npc" href="#key-3" style="left:82.500%;top:61.111%" title="[Sienn&#x27;s pet](../../monsters/sienn_pet.md): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford9.webp" alt="Map of Loneford 9" width="640" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-lonefordhouse7" title="Exit to Loneford 2" style="left:60.000%;top:88.889%;width:10.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Siola" style="left:20.000%;top:44.444%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Sienn&#x27;s pet" style="left:80.000%;top:55.556%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Sienn" style="left:75.000%;top:44.444%;width:5.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Warehouse rat" style="left:10.000%;top:66.667%;width:50.000%;height:22.222%"></span><a class="mob" href="../../monsters/sienn_pet/" title="Sienn&#x27;s pet" style="left:80.000%;top:55.556%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_misc_0.png" alt="Sienn&#x27;s pet"></a><a class="mob" href="../../monsters/sienn/" title="Sienn" style="left:75.000%;top:44.444%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_66.png" alt="Sienn"></a><a class="mob" href="../../monsters/puny_warehouserat/" title="Warehouse rat" style="left:30.000%;top:66.667%;width:5.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Warehouse rat"></a><a class="pin pin-exit" href="#key-1" style="left:65.000%;top:94.444%" title="Exit (south): to [Loneford 2](loneford2.md)">1</a><a id="pin-npc-sienn" class="pin pin-npc" href="#key-2" style="left:77.500%;top:50.000%" title="[Sienn](../../monsters/sienn.md): NPC">2</a><a id="pin-npc-sienn_pet" class="pin pin-npc" href="#key-3" style="left:82.500%;top:61.111%" title="[Sienn&#x27;s pet](../../monsters/sienn_pet.md): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Loneford2](loneford2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Loneford 2](loneford2.md) |
     | <span id="key-2"></span>2 | [Sienn](../monsters/sienn.md) | NPC |
     | <span id="key-3"></span>3 | [Sienn's pet](../monsters/sienn_pet.md) | NPC |
 
@@ -42,7 +42,7 @@ description: "Loneford9 is an indoor location in Andor's Trail, in Loneford (set
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Loneford2](loneford2.md) | Loneford | 1 |
+| South | [Loneford 2](loneford2.md) | Loneford | 1 |
 
 ## NPCs
 

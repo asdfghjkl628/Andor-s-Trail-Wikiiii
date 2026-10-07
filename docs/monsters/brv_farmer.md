@@ -4,7 +4,7 @@ description: "Peasant is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } Peasant
 
-**Where to find Peasant:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_farmer)
+**Where to find Peasant:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_farmer)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Peasant is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Peasant. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Peasant. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_farmer.json" data-npc="Peasant" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_farmer"></span>**`brv_farmer`** Peasant: “It is really warm today. Please let me finish my work before it gets too hot.”
 

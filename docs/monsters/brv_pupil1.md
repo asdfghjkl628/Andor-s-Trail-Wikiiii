@@ -18,33 +18,33 @@ description: "Pupil is a non-player character (NPC) in Andor's Trail, found in B
 </div>
 
 !!! info "8 entries in the game data"
-    The game's data files define 8 separate characters named Pupil. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 8 separate characters named Pupil. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_pupil1`](#v-brv_pupil1) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil1) | – |
-| [`brv_pupil2`](#v-brv_pupil2) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil2) | – |
-| [`brv_pupil3`](#v-brv_pupil3) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil3) | – |
-| [`brv_pupil4`](#v-brv_pupil4) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil4) | – |
-| [`brv_pupil5`](#v-brv_pupil5) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil5) | – |
-| [`brv_pupil6`](#v-brv_pupil6) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil6) | – |
-| [`brv_pupil7`](#v-brv_pupil7) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil7) | – |
-| [`brv_pupil8`](#v-brv_pupil8) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil8) | – |
+| [`brv_pupil1`](#v-brv_pupil1) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil1) | – |
+| [`brv_pupil2`](#v-brv_pupil2) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil2) | – |
+| [`brv_pupil3`](#v-brv_pupil3) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil3) | – |
+| [`brv_pupil4`](#v-brv_pupil4) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil4) | – |
+| [`brv_pupil5`](#v-brv_pupil5) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil5) | – |
+| [`brv_pupil6`](#v-brv_pupil6) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil6) | – |
+| [`brv_pupil7`](#v-brv_pupil7) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil7) | – |
+| [`brv_pupil8`](#v-brv_pupil8) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil8) | – |
 
 ## Brimhaven, Brimhaven school (brv_pupil1) { #v-brv_pupil1 }
 
 **Entry ID:** `brv_pupil1` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil1)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil1)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_pupil1-brv_school_pupil"></span>**`brv_school_pupil`** *(silent check: the first matching branch below is taken)*
 
@@ -67,7 +67,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brv_pupil1-brv_school_pupil_10"></span>**`brv_school_pupil_10`** Pupil: “Hello, big one.”
 
 
-    <span id="d-brv_pupil1-brv_school_pupil_60_20"></span>**`brv_school_pupil_60_20`** Pupil: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]” — **effects:** sets stage 110 of [Lessons learned](../quests/brv_school2.md#stage-110), sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school
+    <span id="d-brv_pupil1-brv_school_pupil_60_20"></span>**`brv_school_pupil_60_20`** Pupil: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]” — **effects:** sets stage 110 of [Lessons learned](../quests/brv_school2.md#stage-110), sets stage 50 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school
 
 
 
@@ -114,16 +114,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_pupil2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil2)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil2)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -174,16 +174,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil3` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil3)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil3)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -234,16 +234,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil4` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil4)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil4)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -294,16 +294,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil5` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil5)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil5)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -354,16 +354,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil6` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil6)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil6)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -414,16 +414,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil7` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil7)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil7)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -474,16 +474,16 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `brv_pupil8` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil8)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil8)
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

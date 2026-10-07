@@ -4,7 +4,7 @@ description: "Ambelie is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } Ambelie
 
-**Where to find Ambelie:** Foaming Flask Tavern: [foaming_flask](../maps/foaming_flask.md#pin-npc-ambelie)
+**Where to find Ambelie:** Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-ambelie)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Ambelie is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Immaculate kidnapping](../quests/Thieves02.md): stages 10, 20, 21, 24, 65
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stage 20
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stage 20
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ambelie. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ambelie. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ambelie_selector.json" data-npc="Ambelie" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (31 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ambelie_selector"></span>**`ambelie_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -80,7 +80,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [ff_captain_guild02_4](#d-ff_captain_guild02_4)
 
-    <span id="d-ambelie_guild02_4b"></span>**`ambelie_guild02_4b`** Ambelie: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)” — **effects:** sets stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20), removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie, sets stage 20 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-20)
+    <span id="d-ambelie_guild02_4b"></span>**`ambelie_guild02_4b`** Ambelie: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)” — **effects:** sets stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20), removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie, sets stage 20 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-20)
 
     - “Fine ...” → *NPC leaves*
 
@@ -153,7 +153,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “But I'm not a commoner! I'm a ... Feygard spy. These clothes are my disguise!” → [ambelie_guild02_2](#d-ambelie_guild02_2)
     - “I'm stronger than those smug guards.” → [ambelie_guild02_2](#d-ambelie_guild02_2)
 
-    <span id="d-ambelie_guild02_19"></span>**`ambelie_guild02_19`** Ambelie: “Take this and leave me, please.” — **effects:** gives 1× [Sapphire Necklace](../items/g02_ambelie.md), sets stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24), spawns monsters on road1, sets stage 20 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-20)
+    <span id="d-ambelie_guild02_19"></span>**`ambelie_guild02_19`** Ambelie: “Take this and leave me, please.” — **effects:** gives 1× [Sapphire Necklace](../items/g02_ambelie.md), sets stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24), spawns monsters on road1, sets stage 20 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-20)
 
     - “It has been a pleasure, my lady.” → *conversation ends*
     - “Sure, thank you.” → *conversation ends*

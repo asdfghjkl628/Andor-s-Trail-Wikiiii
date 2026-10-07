@@ -64,7 +64,7 @@ description: "Venomfang dirk is a rare dagger in Andor's Trail (Attack damage 2 
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 0.4%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 0.4%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

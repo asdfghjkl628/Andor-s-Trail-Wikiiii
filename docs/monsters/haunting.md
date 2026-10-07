@@ -4,7 +4,7 @@ description: "Haunting is an enemy in Andor's Trail (ghost) with 31 HP, worth 56
 
 # ![](../assets/icons/monsters/monsters_ghost1_0.png){ .sprite } Haunting
 
-**Found in:** Foaming Flask Tavern: [wild15_house](../maps/wild15_house.md), [hauntedhouse3](../maps/hauntedhouse3.md)
+**Found in:** Foaming Flask Tavern: [Wild 15 house](../maps/wild15_house.md), [Hauntedhouse 3](../maps/hauntedhouse3.md)
 
 <div class="infobox" markdown>
 
@@ -59,8 +59,8 @@ description: "Haunting is an enemy in Andor's Trail (ghost) with 31 HP, worth 56
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [hauntedhouse3](../maps/hauntedhouse3.md) | – | 4 | – |
-| [wild15_house](../maps/wild15_house.md) | Foaming Flask Tavern | 1 | – |
+| [Hauntedhouse 3](../maps/hauntedhouse3.md) | – | 4 | – |
+| [Wild 15 house](../maps/wild15_house.md) | Foaming Flask Tavern | 1 | – |
 
 
 ## Version history

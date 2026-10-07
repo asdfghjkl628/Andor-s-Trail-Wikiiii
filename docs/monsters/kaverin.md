@@ -4,7 +4,7 @@ description: "Kaverin is an NPC who can also be fought in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } Kaverin
 
-**Where to find Kaverin:** Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-kaverin)
+**Where to find Kaverin:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-kaverin)
 
 <div class="infobox" markdown>
 
@@ -62,7 +62,7 @@ description: "Kaverin is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [remgard_tavern1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
+| [Remgard tavern 1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
 
 ## Quests
 
@@ -70,7 +70,7 @@ description: "Kaverin is an NPC who can also be fought in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kaverin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kaverin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kaverin.json" data-npc="Kaverin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (28 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-kaverin"></span>**`kaverin`** *(silent check: the first matching branch below is taken)*
 
@@ -207,7 +207,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “I have an old .. shall we say .. friend .. from Fallhaven. Goes by th…” → “I have an old ... shall we say ... friend ... from Fallhaven. Goes by…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

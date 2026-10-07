@@ -47,7 +47,7 @@ description: "Arschleder is a rare armor, leather in Andor's Trail (Move cost +1
 
 ### Sold by
 
-- [Shy Cora](../monsters/shy_cora.md) (undertell_01, undertell_1_1)
+- [Shy Cora](../monsters/shy_cora.md) (Undertell 01, Undertell 1 1)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

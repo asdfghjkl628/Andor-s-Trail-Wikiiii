@@ -1,10 +1,10 @@
 ---
-description: "Dark spirit minion is an enemy in Andor's Trail (demon) with 247 HP, worth 553 XP, found in galmore_32. Drops: Gold coins, Tonic of blood, Garnet stone."
+description: "Dark spirit minion is an enemy in Andor's Trail (demon) with 247 HP, worth 553 XP, found in Galmore 32. Drops: Gold coins, Tonic of blood, Garnet stone."
 ---
 
 # ![](../assets/icons/monsters/monsters_eye2_0.png){ .sprite } Dark spirit minion
 
-**Found in:** [galmore_32](../maps/galmore_32.md)
+**Found in:** [Galmore 32](../maps/galmore_32.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dark spirit minion is an enemy in Andor's Trail (demon) with 247 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_32 |
+| **Found in** | Galmore 32 |
 | **Class** | Demon |
 | **HP** | 247 |
 | **XP when defeated** | 553 |
@@ -60,7 +60,7 @@ description: "Dark spirit minion is an enemy in Andor's Trail (demon) with 247 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_32](../maps/galmore_32.md) | – | 4 | Appears later, during a quest |
+| [Galmore 32](../maps/galmore_32.md) | – | 4 | Appears later, during a quest |
 
 
 ## Version history

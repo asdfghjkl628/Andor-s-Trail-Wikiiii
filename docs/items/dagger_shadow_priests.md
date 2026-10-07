@@ -44,11 +44,11 @@ description: "Dagger of the Shadow priests is a extraordinary dagger in Andor's 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 1 | pwcave4 |
+| [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 1 | Pwcave 4 |
 
 ### Quest & dialogue rewards
 
-- From [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) (1×)
+- From [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -59,7 +59,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) | [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) | handed over (1×) | “(automatic)” |
+| [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) | [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

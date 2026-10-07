@@ -38,8 +38,8 @@ description: "Rotten apple is a ordinary food in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Huckleberreaper](../monsters/huckleber_reaper.md) | 300% | 1-2 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Broxwood](../monsters/broxwood.md) | 300% | 1-2 | sullengard_woods10, sullengard_woods11, sullengard_woods12 |
+| [Huckleberreaper](../monsters/huckleber_reaper.md) | 300% | 1-2 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Broxwood](../monsters/broxwood.md) | 300% | 1-2 | Sullengard woods 10, Sullengard woods 11, Sullengard woods 12 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

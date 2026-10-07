@@ -1,5 +1,5 @@
 ---
-description: "Galmore 62 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Embergeist, Pyreling, Lava entity. Exits to Galmore 52, Galmore 72."
+description: "Galmore 62 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Pyreling, Embergeist, Lava entity. Exits to Galmore 52, Galmore 72."
 ---
 
 # Galmore 62
@@ -12,7 +12,7 @@ description: "Galmore 62 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Region** | Near Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
@@ -49,15 +49,15 @@ description: "Galmore 62 is an outdoor location in Andor's Trail, near Mt. Galmo
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 14 | – |
 | [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 7 | – |
+| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 14 | – |
 | [Lava entity](../monsters/lava_entity.md) | 290 | 30–35 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 11
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 11
 
 ## Points of interest
 

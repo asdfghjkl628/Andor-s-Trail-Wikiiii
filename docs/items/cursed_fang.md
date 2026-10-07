@@ -28,7 +28,7 @@ description: "Cursed rat fang is a rare animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Nightfur rat](../monsters/nightfur_rat.md) | 33% | 1 | witch_house_basement |
+| [Nightfur rat](../monsters/nightfur_rat.md) | 33% | 1 | Witch house basement |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

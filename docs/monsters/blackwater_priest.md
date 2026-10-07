@@ -1,10 +1,10 @@
 ---
-description: "Blackwater priest is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain44."
+description: "Blackwater priest is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 44."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_80.png){ .sprite } Blackwater priest
 
-**Where to find Blackwater priest:** [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-blackwater_priest)
+**Where to find Blackwater priest:** [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-blackwater_priest)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Blackwater priest is a non-player character (NPC) in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | blackwater_mountain44 |
+| **Found in** | Blackwater mountain 44 |
 | **Entry ID** | `blackwater_priest` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -21,7 +21,7 @@ description: "Blackwater priest is a non-player character (NPC) in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blackwater priest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blackwater priest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_priest.json" data-npc="Blackwater priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_priest"></span>**`blackwater_priest`** Blackwater priest: “...Kazaul, destroyer of spilled hope... No that's not it.”
 

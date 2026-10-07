@@ -47,7 +47,7 @@ description: "Elythara's ring is a extraordinary ring in Andor's Trail (Attack d
 
 ### Quest & dialogue rewards
 
-- From [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) during [Devotion](../quests/devotion.md#stage-450) (1×)
+- From [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) during [Devotion](../quests/devotion.md#stage-450) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

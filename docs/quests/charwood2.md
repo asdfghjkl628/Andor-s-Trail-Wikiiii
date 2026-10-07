@@ -11,9 +11,9 @@ description: "Trial by fire is a quest in Andor's Trail, started by Kantya (trad
 | **Quest ID** | `charwood2` |
 | **In journal** | Yes |
 | **Stages** | 6 (completes at 50) |
-| **Started by** | [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md)) |
+| **Started by** | [Kantya](../monsters/kantya.md) ([Tradehouse 0](../maps/tradehouse0.md)) |
 | **NPCs involved** | [Kantya](../monsters/kantya.md), [Maevalia](../monsters/maevalia.md), [Thukuzun](../monsters/thukuzun.md) |
-| **Locations** | [lostmine11](../maps/lostmine11.md), [tradehouse0](../maps/tradehouse0.md) |
+| **Locations** | [Lostmine 11](../maps/lostmine11.md), [Tradehouse 0](../maps/tradehouse0.md) |
 | **Total XP** | 7,000 |
 | **Related quests** | 3 |
 
@@ -25,7 +25,7 @@ description: "Trial by fire is a quest in Andor's Trail, started by Kantya (trad
 
 ## Prerequisites to start
 
-Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md)). Required:
+Start with [Kantya](../monsters/kantya.md) ([Tradehouse 0](../maps/tradehouse0.md)). Required:
 
 - reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50)
 
@@ -39,7 +39,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Destined for great things](charwood1.md#stage-50) | stage 50 reached, for stage 10 here |
-| Unlocks | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-10) | stage 10 there needs stage 50 here |
+| Unlocks | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-10) | stage 10 there needs stage 50 here |
 | Unlocks | [Just the beginning](waterwayacave.md#stage-15) | stage 15 there needs stage 50 here |
 | Unlocks | [Just the beginning](waterwayacave.md#stage-20) | stage 20 there needs stage 50 here |
 | Unlocks | [Just the beginning](waterwayacave.md#stage-25) | stage 25 there needs stage 50 here |
@@ -49,46 +49,96 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I've heard a story that the whole reason for the Charwood hills being invaded by the monsters in the first place was that something had been awoken deep in the Charwood mine. The people in the Charwood cabin say that the miners uncovered some sort of marking on the ground in a cave, with strange noises coming from below it. When they finally broke through the ground around the markings, all the troubles started. I should talk to Maevalia again. | [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md)) | – | – |
-| <span id="stage-15"></span>15 | I've promised Maevalia to investigate the deeper parts of the Charwood mine. I should be on the lookout for the dangerous monsters that inhabit the mine.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Lostmine0](../maps/lostmine0.md).</span> | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | – | – |
-| <span id="stage-20"></span>20 | I've reached the part of the mine that was broken into. The air around here seems to get hotter as I get deeper into the mine. | reading a sign on [lostmine4](../maps/lostmine4.md) | – | – |
-| <span id="stage-30"></span>30 | Among the fires in the lower parts of the mine, I've encountered some type of dragon-like creature. I guess this is the source of all the chaos in the mine. I should attempt to kill it and then venture back to Maevalia to tell her about it once I'm victorious. | [Thukuzun](../monsters/thukuzun.md) ([lostmine11](../maps/lostmine11.md)) | – | – |
-| <span id="stage-40"></span>40 | I have presented one of the bones from the corpse of the Thukuzun to Maevalia. | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | – | – |
-| <span id="stage-50"></span>50 | Maevalia was happy to hear that I killed the source of the monster invasion. **(completes quest)** | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | stage 40 | 7,000 XP<br>gives [Gold coins](../items/gold.md)<br>gives [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I've heard a story that the whole reason for the Charwood hills… ▸</span><span class="l">▴ less</span></summary>I've heard a story that the whole reason for the Charwood hills being invaded by the monsters in the first place was that something had been awoken deep in the Charwood mine. The people in the Charwood cabin say that the miners uncovered some sort of marking on the ground in a cave, with strange noises coming from below it. When they finally broke through the ground around the markings, all the troubles started. I should talk to Maevalia again.</details> | [Kantya](../monsters/kantya.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">I've promised Maevalia to investigate the deeper parts of the… ▸</span><span class="l">▴ less</span></summary>I've promised Maevalia to investigate the deeper parts of the Charwood mine. I should be on the lookout for the dangerous monsters that inhabit the mine.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Lostmine 0](../maps/lostmine0.md).</span> | [Maevalia](../monsters/maevalia.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I've reached the part of the mine that was broken into. The air… ▸</span><span class="l">▴ less</span></summary>I've reached the part of the mine that was broken into. The air around here seems to get hotter as I get deeper into the mine.</details> | reading a sign on [Lostmine 4](../maps/lostmine4.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Among the fires in the lower parts of the mine, I've encountered… ▸</span><span class="l">▴ less</span></summary>Among the fires in the lower parts of the mine, I've encountered some type of dragon-like creature. I guess this is the source of all the chaos in the mine. I should attempt to kill it and then venture back to Maevalia to tell her about it once I'm victorious.</details> | [Thukuzun](../monsters/thukuzun.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I have presented one of the bones from the corpse of the Thukuzun to Maevalia. | [Maevalia](../monsters/maevalia.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | Maevalia was happy to hear that I killed the source of the monster invasion. **(ends quest)** | [Maevalia](../monsters/maevalia.md) | 7,000 XP; varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “Is there anything I can do?” — **conditions:** reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50) → **stage 10**. NPC: “You've helped us this far. Talk to Maevalia again, she might have something else for you.”
+??? note "Stage 10 · Kantya · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Kantya](../monsters/kantya.md), choose “Is there anything I can do?”
 
-    1. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “I'll go down into the Charwood mine and investigate.” — **conditions:** reached stage 15 of [Trial by fire](../quests/charwood2.md#stage-15) → **stage 15**. NPC: “Thank you.”
+    - **Needs:** reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50)
+    - *“You've helped us this far. Talk to Maevalia again, she might have something else for you.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. reading a sign on [lostmine4](../maps/lostmine4.md) → the conversation leads here automatically → **stage 20**. NPC: “The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be…”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Maevalia · 1 way"
 
-    1. Talk to [Thukuzun](../monsters/thukuzun.md) ([lostmine11](../maps/lostmine11.md)) → the conversation leads here automatically → **stage 30**. NPC: “Ah, another mortal that has come to bow before the might of Thukuzun.”
+    **Way 1:** Talk to [Maevalia](../monsters/maevalia.md), choose “I'll go down into the Charwood mine and investigate.”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** stage 15
+    - *“Thank you.”*
 
-    1. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 40**. NPC: “You actually killed it?”
 
-???+ note "Stage 50: 3 routes"
+<span id="route-20"></span>
 
-    1. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “I'm just happy to help.” — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 50**. NPC: “You are truly our hero. Thank you yet again.”
-    2. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “How about some gold for all my troubles?” — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 50**; also gives [Gold coins](../items/gold.md). NPC: “Certainly. Here is what we can spare. Thank you yet again.”
-    3. Talk to [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) → choose “I think that one of your most precious items will suffice as payment.” — **conditions:** reached stage 40 of [Trial by fire](../quests/charwood2.md#stage-40) → **stage 50**; also gives [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md). NPC: “I guess we have no choice but to agree. Here, take these. They used to belong to my mother.”
+??? note "Stage 20 · reading a sign on lostmine4 · 1 way"
+
+    **Way 1:** Reading a sign on [Lostmine 4](../maps/lostmine4.md)
+
+    - *“The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found…”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Thukuzun · 1 way"
+
+    **Way 1:** Talk to [Thukuzun](../monsters/thukuzun.md), automatic
+
+    - *“Ah, another mortal that has come to bow before the might of Thukuzun.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Maevalia · 1 way"
+
+    **Way 1:** Talk to [Maevalia](../monsters/maevalia.md), automatic
+
+    - **Needs:** stage 40
+    - *“You actually killed it?”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Maevalia · 3 ways"
+
+    **Way 1:** Talk to [Maevalia](../monsters/maevalia.md), choose “I'm just happy to help.”
+
+    - **Needs:** stage 40
+    - *“You are truly our hero. Thank you yet again.”*
+
+    **Way 2:** Talk to [Maevalia](../monsters/maevalia.md), choose “How about some gold for all my troubles?”
+
+    - **Needs:** stage 40
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Certainly. Here is what we can spare. Thank you yet again.”*
+
+    **Way 3:** Talk to [Maevalia](../monsters/maevalia.md), choose “I think that one of your most precious items will suffice as payment.”
+
+    - **Needs:** stage 40
+    - **Gives:** [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md)
+    - *“I guess we have no choice but to agree. Here, take these. They used to belong to my mother.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

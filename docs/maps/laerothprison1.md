@@ -1,8 +1,8 @@
 ---
-description: "Laerothprison1 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Giant spider. Exits to Laerothisland2, Laerothprison0."
+description: "Laerothprison 1 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Giant spider. Exits to Laerothisland 2, Laerothprison 0."
 ---
 
-# Laerothprison1
+# Laerothprison 1
 
 <div class="infobox" markdown>
 
@@ -19,20 +19,20 @@ description: "Laerothprison1 is an indoor location in Andor's Trail, in Lake Lae
 
 </div>
 
-**Laerothprison1** is an indoor map, in Lake Laeroth (other). It has no NPCs and 1 kind of enemy. Exits lead to Laerothisland2, Laerothprison0.
+**Laerothprison 1** is an indoor map, in Lake Laeroth (other). It has no NPCs and 1 kind of enemy. Exits lead to Laerothisland 2, Laerothprison 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothprison1.webp" alt="Map of Laerothprison1" width="352" height="288" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../laerothprison0/#place-up" title="Exit to Laerothprison0" style="left:72.727%;top:33.333%;width:9.091%;height:11.111%"></a><a id="place-up" class="mo mo-mapchange" href="../laerothisland2/#place-down" title="Exit to Laerothisland2" style="left:81.818%;top:22.222%;width:9.091%;height:11.111%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:9.091%;top:77.778%;width:9.091%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:9.091%;top:33.333%;width:54.545%;height:55.556%"></span><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:54.545%;top:55.556%;width:36.364%;height:33.333%"></span><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:45.455%;top:77.778%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:36.364%;top:55.556%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:54.545%;top:55.556%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:63.636%;top:77.778%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:63.636%;top:66.667%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="pin pin-exit" href="#key-1" style="left:86.364%;top:27.778%" title="Exit (east): to [Laerothisland2](laerothisland2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:38.889%" title="Exit (stairs / passage): to [Laerothprison0](laerothprison0.md)">2</a><a class="pin pin-container" href="#key-3" style="left:13.636%;top:83.333%" title="Container 1: Gold coins, Polished sparkling gem, Ointment of bleeding wounds">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothprison1.webp" alt="Map of Laerothprison 1" width="352" height="288" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../laerothprison0/#place-up" title="Exit to Laerothprison 0" style="left:72.727%;top:33.333%;width:9.091%;height:11.111%"></a><a id="place-up" class="mo mo-mapchange" href="../laerothisland2/#place-down" title="Exit to Laerothisland 2" style="left:81.818%;top:22.222%;width:9.091%;height:11.111%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:9.091%;top:77.778%;width:9.091%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:9.091%;top:33.333%;width:54.545%;height:55.556%"></span><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:54.545%;top:55.556%;width:36.364%;height:33.333%"></span><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:45.455%;top:77.778%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:36.364%;top:55.556%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:54.545%;top:55.556%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:63.636%;top:77.778%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:63.636%;top:66.667%;width:9.091%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="pin pin-exit" href="#key-1" style="left:86.364%;top:27.778%" title="Exit (east): to [Laerothisland 2](laerothisland2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:38.889%" title="Exit (stairs / passage): to [Laerothprison 0](laerothprison0.md)">2</a><a class="pin pin-container" href="#key-3" style="left:13.636%;top:83.333%" title="Container 1: Gold coins, Polished sparkling gem, Ointment of bleeding wounds">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Laerothisland2](laerothisland2.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Laerothprison0](laerothprison0.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Laerothisland 2](laerothisland2.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Laerothprison 0](laerothprison0.md) |
     | <span id="key-3"></span>3 | Container 1 | Gold coins, Polished sparkling gem, Ointment of bleeding wounds |
 
 
@@ -42,8 +42,8 @@ description: "Laerothprison1 is an indoor location in Andor's Trail, in Lake Lae
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Laerothisland2](laerothisland2.md) | Lake Laeroth | 1 |
-| Stairs / passage | [Laerothprison0](laerothprison0.md) | Lake Laeroth | 2 |
+| East | [Laerothisland 2](laerothisland2.md) | Lake Laeroth | 1 |
+| Stairs / passage | [Laerothprison 0](laerothprison0.md) | Lake Laeroth | 2 |
 
 ## Enemies
 

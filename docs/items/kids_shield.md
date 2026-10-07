@@ -39,7 +39,7 @@ description: "Kid's shield is a rare shield, wood (light) in Andor's Trail (Bloc
 
 ### Quest & dialogue rewards
 
-- From [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) during [Rats!](../quests/mikhail_rats.md#stage-100) (1×)
+- From [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) during [Rats!](../quests/mikhail_rats.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

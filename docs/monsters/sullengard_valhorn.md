@@ -4,7 +4,7 @@ description: "Valhorn is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } Valhorn
 
-**Where to find Valhorn:** Sullengard: [sullengard2_northeast_house](../maps/sullengard2_northeast_house.md#pin-npc-sullengard_valhorn)
+**Where to find Valhorn:** Sullengard: [Sullengard 2 northeast house](../maps/sullengard2_northeast_house.md#pin-npc-sullengard_valhorn)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Valhorn is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Valhorn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Valhorn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_valhorn_10.json" data-npc="Valhorn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_valhorn_10"></span>**`sullengard_valhorn_10`** Valhorn: “Please leave me be so that I can concentrate. I need to win this year's 'Best beer in festival' competition so that my wife will respect me again.”
 

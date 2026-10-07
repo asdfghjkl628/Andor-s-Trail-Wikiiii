@@ -4,7 +4,7 @@ description: "Cave teckel is an enemy in Andor's Trail (animal) with 30 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles2_111.png){ .sprite } Cave teckel
 
-**Found in:** Library: [ratdom_maze_611](../maps/ratdom_maze_611.md), Library: [ratdom_maze_621](../maps/ratdom_maze_621.md), Library: [ratdom_maze_631](../maps/ratdom_maze_631.md), Library: [ratdom_maze_632](../maps/ratdom_maze_632.md) (+7 more)
+**Found in:** Library: [Ratdom maze 611](../maps/ratdom_maze_611.md), Library: [Ratdom maze 621](../maps/ratdom_maze_621.md), Library: [Ratdom maze 631](../maps/ratdom_maze_631.md), Library: [Ratdom maze 632](../maps/ratdom_maze_632.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -56,17 +56,17 @@ description: "Cave teckel is an enemy in Andor's Trail (animal) with 30 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_611](../maps/ratdom_maze_611.md) | Library | 2 | – |
-| [ratdom_maze_621](../maps/ratdom_maze_621.md) | Library | 2 | – |
-| [ratdom_maze_631](../maps/ratdom_maze_631.md) | Library | 2 | – |
-| [ratdom_maze_632](../maps/ratdom_maze_632.md) | Library | 2 | – |
-| [ratdom_maze_641](../maps/ratdom_maze_641.md) | Library | 2 | – |
-| [ratdom_maze_642](../maps/ratdom_maze_642.md) | Library | 2 | – |
-| [ratdom_maze_643](../maps/ratdom_maze_643.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_652](../maps/ratdom_maze_652.md) | – | 2 | – |
-| [ratdom_maze_653](../maps/ratdom_maze_653.md) | – | 2 | – |
-| [ratdom_maze_661](../maps/ratdom_maze_661.md) | – | 1 | – |
-| [ratdom_maze_662](../maps/ratdom_maze_662.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 611](../maps/ratdom_maze_611.md) | Library | 2 | – |
+| [Ratdom maze 621](../maps/ratdom_maze_621.md) | Library | 2 | – |
+| [Ratdom maze 631](../maps/ratdom_maze_631.md) | Library | 2 | – |
+| [Ratdom maze 632](../maps/ratdom_maze_632.md) | Library | 2 | – |
+| [Ratdom maze 641](../maps/ratdom_maze_641.md) | Library | 2 | – |
+| [Ratdom maze 642](../maps/ratdom_maze_642.md) | Library | 2 | – |
+| [Ratdom maze 643](../maps/ratdom_maze_643.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 652](../maps/ratdom_maze_652.md) | – | 2 | – |
+| [Ratdom maze 653](../maps/ratdom_maze_653.md) | – | 2 | – |
+| [Ratdom maze 661](../maps/ratdom_maze_661.md) | – | 1 | – |
+| [Ratdom maze 662](../maps/ratdom_maze_662.md) | Skeleton dance | 2 | – |
 
 
 ## Version history

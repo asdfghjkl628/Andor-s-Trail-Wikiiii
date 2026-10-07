@@ -1,10 +1,10 @@
 ---
-description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, worth 502 XP, found in laerothcave2, secretpassage1, undertell_1_1. Drops: Spider fang, Insect shell, Gold coins."
+description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, worth 502 XP, found in Laerothcave 2, Secretpassage 1, Undertell 1 1. Drops: Spider fang, Insect shell, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_redshrike1_4.png){ .sprite } Queen spider
 
-**Found in:** [laerothcave2](../maps/laerothcave2.md), [secretpassage1](../maps/secretpassage1.md), [undertell_1_1](../maps/undertell_1_1.md)
+**Found in:** [Laerothcave 2](../maps/laerothcave2.md), [Secretpassage 1](../maps/secretpassage1.md), [Undertell 1 1](../maps/undertell_1_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave2, secretpassage1, undertell_1_1 |
+| **Found in** | Laerothcave 2, Secretpassage 1, Undertell 1 1 |
 | **Class** | Insect |
 | **HP** | 135 |
 | **XP when defeated** | 502 |
@@ -58,9 +58,9 @@ description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave2](../maps/laerothcave2.md) | – | 1 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 1 | – |
-| [undertell_1_1](../maps/undertell_1_1.md) | – | 2 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 1 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
+| [Undertell 1 1](../maps/undertell_1_1.md) | – | 2 | – |
 
 
 ## Version history

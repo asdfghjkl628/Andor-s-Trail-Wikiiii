@@ -26,32 +26,32 @@ description: "Azure gem is a ordinary gem in Andor's Trail. How to get it: monst
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Shadowfang](../monsters/shadowfang1.md) | 100% | 1-3 | blackwater_mountain76, elm_2f_1, elm_2f_3 |
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 1-5 | galmore_71 |
+| [Shadowfang](../monsters/shadowfang1.md) | 100% | 1-3 | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 1-5 | Galmore 71 |
 | [Forenza](../monsters/forenza.md) | 15% | 1 | Lake Laeroth |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 6.66667% | 1-3 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 6.66667% | 1-3 | elm5f_2, elm_2f_1, elm_3f |
-| [Rock fiend](../monsters/waterwaycaverockmonster.md) | 5% | 1 | waterwayacave1, waterwayacave2, waterwayacave3 |
-| [Spearborn thrall](../monsters/spearborn_thrall.md) | 3% | 1 | crackshot_hideout4 |
-| [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 3% | 1 | crackshot_hideout4 |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 6.66667% | 1-3 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 6.66667% | 1-3 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Rock fiend](../monsters/waterwaycaverockmonster.md) | 5% | 1 | Waterwayacave 1, Waterwayacave 2, Waterwayacave 3 |
+| [Spearborn thrall](../monsters/spearborn_thrall.md) | 3% | 1 | Crackshot hideout 4 |
+| [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 3% | 1 | Crackshot hideout 4 |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 3% | 1 | Mt. Galmore |
 
 ### Found in containers
 
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 10%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 10%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 10%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 10%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 10%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 10%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 10%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 10%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 10%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 10%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 10%)
-- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 10%)
-- [galmore_64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
-- [laerothbarn0](../maps/laerothbarn0.md#container-0) (container 1, 100%), Lake Laeroth
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 10%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 10%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 10%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 10%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 10%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-2) (container 3, 10%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-0) (container 1, 10%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-1) (container 2, 10%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-2) (container 3, 10%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-0) (container 1, 10%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-1) (container 2, 10%)
+- [Elm mine 4](../maps/elm_mine4.md#container-0) (container 1, 10%)
+- [Galmore 64](../maps/galmore_64.md#container-0) (container 1, 100%), Mt. Galmore
+- [Laerothbarn 0](../maps/laerothbarn0.md#container-0) (container 1, 100%), Lake Laeroth
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Feygard patrol guard is a non-player character (NPC) in Andor's Tr
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard patrol guard
 
-**Where to find Feygard patrol guard:** Prim: [blackwater_mountain10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard3), [elm_mine2](../maps/elm_mine2.md#pin-npc-ortholion_guard3)
+**Where to find Feygard patrol guard:** Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard3), [Elm mine 2](../maps/elm_mine2.md#pin-npc-ortholion_guard3)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Feygard patrol guard is a non-player character (NPC) in Andor's Tr
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain10](../maps/blackwater_mountain10.md) | Prim | 3 | Appears later, during a quest |
-| [elm_mine2](../maps/elm_mine2.md) | – | 2 | – |
+| [Blackwater mountain 10](../maps/blackwater_mountain10.md) | Prim | 3 | Appears later, during a quest |
+| [Elm mine 2](../maps/elm_mine2.md) | – | 2 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard patrol guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard patrol guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard3_selector.json" data-npc="Feygard patrol guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard3_selector"></span>**`ortholion_guard3_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -117,7 +117,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 10 lines added |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 5 lines added, 3 lines changed<br>· text: “We soldiers of Feygard have come to this lonely place by direct comma…” → “We soldiers of Feygard have come to this lonely place by direct comma…”<br>· text: “Our... mighty general has already caught that Shadow fanatic...Yes. D…” → “Our... mighty general has already caught that Shadow fanatic...Yes. D…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 5 lines added, 3 lines changed<br>· text: “Our... mighty general has already caught that Shadow fanatic...Yes. D…” → “Our... mighty general has already caught that Shadow fanatic...Yes. D…”<br>· text: “We soldiers of Feygard have come to this lonely place by direct comma…” → “We soldiers of Feygard have come to this lonely place by direct comma…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Yes sir, I w... Hey! What did you just say?” → “Yes, I w... Hey! What did you just say?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

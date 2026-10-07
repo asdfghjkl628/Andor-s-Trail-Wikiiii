@@ -1,8 +1,8 @@
 ---
-description: "Sullengard woods8 is an indoor location in Andor's Trail. Enemies: Preabola fly, Sullengard forest snake. Exits to Sullengard woods7, Way to sullengard east11."
+description: "Sullengard woods 8 is an indoor location in Andor's Trail. Enemies: Preabola fly, Sullengard forest snake. Exits to Sullengard woods 7, Way to sullengard east 11."
 ---
 
-# Sullengard woods8
+# Sullengard woods 8
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Sullengard woods8 is an indoor location in Andor's Trail. Enemies:
 | **Map ID** | `sullengard_woods8` |
 | **Type** | Indoors / underground |
 | **Size** | 20×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Sullengard woods8** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Sullengard woods7, Way to sullengard east11.
+**Sullengard woods 8** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Sullengard woods 7, Way to sullengard east 11.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard_woods8.webp" alt="Map of Sullengard woods8" width="640" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../sullengard_woods7/#place-west" title="Exit to Sullengard woods7" style="left:95.000%;top:20.000%;width:5.000%;height:3.333%"></a><a id="place-south1" class="mo mo-mapchange" href="../way_to_sullengard_east11/#place-north1" title="Exit to Way to sullengard east11" style="left:30.000%;top:96.667%;width:5.000%;height:3.333%"></a><a id="place-south2" class="mo mo-mapchange" href="../way_to_sullengard_east11/#place-north2" title="Exit to Way to sullengard east11" style="left:75.000%;top:96.667%;width:5.000%;height:3.333%"></a><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:75.000%;top:26.667%;width:5.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:75.000%;top:73.333%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:15.000%;top:76.667%;width:5.000%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:20.000%;top:46.667%;width:5.000%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Sullengard forest snake" style="left:45.000%;top:20.000%;width:25.000%;height:3.333%"></span><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:36.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:46.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:53.333%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:76.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:73.333%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:15.000%;top:86.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:20.000%;top:56.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/sullengard_venom_snake/" title="Sullengard forest snake" style="left:60.000%;top:20.000%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_tometik4_24.png" alt="Sullengard forest snake"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:21.667%" title="Exit (east): to [Sullengard woods7](sullengard_woods7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:32.500%;top:98.333%" title="Exit (south): to [Way to sullengard east11](way_to_sullengard_east11.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:77.500%;top:98.333%" title="Exit (south): to [Way to sullengard east11](way_to_sullengard_east11.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard_woods8.webp" alt="Map of Sullengard woods 8" width="640" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../sullengard_woods7/#place-west" title="Exit to Sullengard woods 7" style="left:95.000%;top:20.000%;width:5.000%;height:3.333%"></a><a id="place-south1" class="mo mo-mapchange" href="../way_to_sullengard_east11/#place-north1" title="Exit to Way to sullengard east 11" style="left:30.000%;top:96.667%;width:5.000%;height:3.333%"></a><a id="place-south2" class="mo mo-mapchange" href="../way_to_sullengard_east11/#place-north2" title="Exit to Way to sullengard east 11" style="left:75.000%;top:96.667%;width:5.000%;height:3.333%"></a><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:75.000%;top:26.667%;width:5.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:75.000%;top:73.333%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:15.000%;top:76.667%;width:5.000%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Preabola fly" style="left:20.000%;top:46.667%;width:5.000%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Sullengard forest snake" style="left:45.000%;top:20.000%;width:25.000%;height:3.333%"></span><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:36.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:46.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:53.333%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:76.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:75.000%;top:73.333%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:15.000%;top:86.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/preabola_fly/" title="Preabola fly" style="left:20.000%;top:56.667%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_170.png" alt="Preabola fly"></a><a class="mob" href="../../monsters/sullengard_venom_snake/" title="Sullengard forest snake" style="left:60.000%;top:20.000%;width:5.000%;height:3.333%"><img src="../../assets/icons/monsters/monsters_tometik4_24.png" alt="Sullengard forest snake"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:21.667%" title="Exit (east): to [Sullengard woods 7](sullengard_woods7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:32.500%;top:98.333%" title="Exit (south): to [Way to sullengard east 11](way_to_sullengard_east11.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:77.500%;top:98.333%" title="Exit (south): to [Way to sullengard east 11](way_to_sullengard_east11.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Sullengard woods7](sullengard_woods7.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Way to sullengard east11](way_to_sullengard_east11.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Sullengard woods 7](sullengard_woods7.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Way to sullengard east 11](way_to_sullengard_east11.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Sullengard woods8 is an indoor location in Andor's Trail. Enemies:
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Sullengard woods7](sullengard_woods7.md) | – | 1 |
-| South | [Way to sullengard east11](way_to_sullengard_east11.md) | – | 2 |
+| East | [Sullengard woods 7](sullengard_woods7.md) | – | 1 |
+| South | [Way to sullengard east 11](way_to_sullengard_east11.md) | – | 2 |
 
 ## Enemies
 

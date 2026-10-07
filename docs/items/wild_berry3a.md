@@ -34,7 +34,7 @@ description: "Especially sweet red berries is a ordinary food in Andor's Trail. 
 
 ### Quest & dialogue rewards
 
-- From [Especially sweet berries](../monsters/wild_berry3.md) ([lodar19](../maps/lodar19.md)) (1×)
+- From [Especially sweet berries](../monsters/wild_berry3.md) ([Lodar 19](../maps/lodar19.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

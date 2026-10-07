@@ -1,8 +1,8 @@
 ---
-description: "Tradehouse0a is an indoor location in Andor's Trail. NPCs: Falothen, Fayvara. Exits to Tradehouse0."
+description: "Tradehouse 0a is an indoor location in Andor's Trail. NPCs: Falothen, Fayvara. Exits to Tradehouse 0."
 ---
 
-# Tradehouse0a
+# Tradehouse 0a
 
 <div class="infobox" markdown>
 
@@ -17,19 +17,19 @@ description: "Tradehouse0a is an indoor location in Andor's Trail. NPCs: Falothe
 
 </div>
 
-**Tradehouse0a** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Tradehouse0.
+**Tradehouse 0a** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Tradehouse 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/tradehouse0a.webp" alt="Map of Tradehouse0a" width="576" height="384" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../tradehouse0/#place-down" title="Exit to Tradehouse0" style="left:66.667%;top:33.333%;width:5.556%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Falothen" style="left:66.667%;top:66.667%;width:22.222%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Fayvara" style="left:33.333%;top:33.333%;width:27.778%;height:25.000%"></span><a class="mob" href="../../monsters/falothen0/#v-falothen1" title="Falothen" style="left:72.222%;top:66.667%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik5_0.png" alt="Falothen"></a><a class="mob" href="../../monsters/fayvara0/#v-fayvara1" title="Fayvara" style="left:33.333%;top:33.333%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik6_10.png" alt="Fayvara"></a><a class="pin pin-exit" href="#key-1" style="left:69.444%;top:37.500%" title="Exit (stairs / passage): to [Tradehouse0](tradehouse0.md)">1</a><a id="pin-npc-falothen1" class="pin pin-npc" href="#key-2" style="left:75.000%;top:70.833%" title="[Falothen](../../monsters/falothen0.md#v-falothen1): 1 quest">2</a><a id="pin-npc-fayvara1" class="pin pin-npc" href="#key-3" style="left:36.111%;top:37.500%" title="[Fayvara](../../monsters/fayvara0.md#v-fayvara1): 1 quest">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/tradehouse0a.webp" alt="Map of Tradehouse 0a" width="576" height="384" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../tradehouse0/#place-down" title="Exit to Tradehouse 0" style="left:66.667%;top:33.333%;width:5.556%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Falothen" style="left:66.667%;top:66.667%;width:22.222%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Fayvara" style="left:33.333%;top:33.333%;width:27.778%;height:25.000%"></span><a class="mob" href="../../monsters/falothen0/#v-falothen1" title="Falothen" style="left:72.222%;top:66.667%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik5_0.png" alt="Falothen"></a><a class="mob" href="../../monsters/fayvara0/#v-fayvara1" title="Fayvara" style="left:33.333%;top:33.333%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_tometik6_10.png" alt="Fayvara"></a><a class="pin pin-exit" href="#key-1" style="left:69.444%;top:37.500%" title="Exit (stairs / passage): to [Tradehouse 0](tradehouse0.md)">1</a><a id="pin-npc-falothen1" class="pin pin-npc" href="#key-2" style="left:75.000%;top:70.833%" title="[Falothen](../../monsters/falothen0.md#v-falothen1): 1 quest">2</a><a id="pin-npc-fayvara1" class="pin pin-npc" href="#key-3" style="left:36.111%;top:37.500%" title="[Fayvara](../../monsters/fayvara0.md#v-fayvara1): 1 quest">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Tradehouse0](tradehouse0.md) |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Tradehouse 0](tradehouse0.md) |
     | <span id="key-2"></span>2 | [Falothen](../monsters/falothen0.md#v-falothen1) | 1 quest |
     | <span id="key-3"></span>3 | [Fayvara](../monsters/fayvara0.md#v-fayvara1) | 1 quest |
 
@@ -40,7 +40,7 @@ description: "Tradehouse0a is an indoor location in Andor's Trail. NPCs: Falothe
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Stairs / passage | [Tradehouse0](tradehouse0.md) | Prim | 1 |
+| Stairs / passage | [Tradehouse 0](tradehouse0.md) | Prim | 1 |
 
 ## NPCs
 

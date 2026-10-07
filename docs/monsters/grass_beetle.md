@@ -4,7 +4,7 @@ description: "Grasslands beetle is an enemy in Andor's Trail (insect) with 34 HP
 
 # ![](../assets/icons/monsters/monsters_insects_4.png){ .sprite } Grasslands beetle
 
-**Found in:** Crossroads Guardhouse: [fields1](../maps/fields1.md), Crossroads Guardhouse: [fields2](../maps/fields2.md), Guynmart Castle: [fields5](../maps/fields5.md), Loneford: [fields4](../maps/fields4.md) (+5 more)
+**Found in:** Crossroads Guardhouse: [Fields 1](../maps/fields1.md), Crossroads Guardhouse: [Fields 2](../maps/fields2.md), Guynmart Castle: [Fields 5](../maps/fields5.md), Loneford: [Fields 4](../maps/fields4.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -55,15 +55,15 @@ description: "Grasslands beetle is an enemy in Andor's Trail (insect) with 34 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields1](../maps/fields1.md) | Crossroads Guardhouse | 5 | – |
-| [fields2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
-| [fields4](../maps/fields4.md) | Loneford | 2 | – |
-| [fields5](../maps/fields5.md) | Guynmart Castle | 2 | – |
-| [fields7](../maps/fields7.md) | Loneford | 3 | – |
-| [waterwayb1](../maps/waterwayb1.md) | Loneford | 2 | – |
-| [waterwayb4](../maps/waterwayb4.md) | – | 3 | – |
-| [waytobrimhaven0](../maps/waytobrimhaven0.md) | Loneford | 3 | – |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 3 | – |
+| [Fields 1](../maps/fields1.md) | Crossroads Guardhouse | 5 | – |
+| [Fields 2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
+| [Fields 4](../maps/fields4.md) | Loneford | 2 | – |
+| [Fields 5](../maps/fields5.md) | Guynmart Castle | 2 | – |
+| [Fields 7](../maps/fields7.md) | Loneford | 3 | – |
+| [Waterwayb 1](../maps/waterwayb1.md) | Loneford | 2 | – |
+| [Waterwayb 4](../maps/waterwayb4.md) | – | 3 | – |
+| [Waytobrimhaven 0](../maps/waytobrimhaven0.md) | Loneford | 3 | – |
+| [Waytobrimhaven 1](../maps/waytobrimhaven1.md) | Loneford | 3 | – |
 
 
 ## Version history

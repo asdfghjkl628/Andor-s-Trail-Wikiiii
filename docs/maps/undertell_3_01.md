@@ -11,7 +11,7 @@ description: "Undertell 3 01 is an indoor location in Andor's Trail. Enemies: Gr
 | **Map ID** | `undertell_3_01` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level3](index.md) |
+| **World map** | [Undertell level 3](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |

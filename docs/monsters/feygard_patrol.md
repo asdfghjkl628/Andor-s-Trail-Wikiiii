@@ -4,7 +4,7 @@ description: "Feygard patrol is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard patrol
 
-**Where to find Feygard patrol:** Foaming Flask Tavern: [foaming_flask](../maps/foaming_flask.md#pin-npc-feygard_patrol)
+**Where to find Feygard patrol:** Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-feygard_patrol)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Feygard patrol is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard patrol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ff_guard_1.json" data-npc="Feygard patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ff_guard_1"></span>**`ff_guard_1`** Feygard patrol: “Ha ha, you tell him Garl! *burp*”
 

@@ -1,5 +1,5 @@
 ---
-description: "Angry graveyard corpse is an NPC who can also be fought in Andor's Trail, found in graveyard1, graveyard0."
+description: "Angry graveyard corpse is an NPC who can also be fought in Andor's Trail, found in Graveyard 1, Graveyard 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_zombie2_0.png){ .sprite } Angry graveyard corpse
@@ -11,7 +11,7 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | graveyard1, graveyard0 |
+| **Found in** | Graveyard 1, Graveyard 0 |
 | **Class** | Undead |
 | **HP** | 90 |
 | **XP when defeated** | 447 |
@@ -21,18 +21,18 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Angry graveyard corpse. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Angry graveyard corpse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`graveyard_corpse2`](#v-graveyard_corpse2) | Enemy | [graveyard1](../maps/graveyard1.md) | – | 90 |
-| [`graveyard_corpse3`](#v-graveyard_corpse3) | NPC/Enemy | [graveyard0](../maps/graveyard0.md#pin-npc-graveyard_corpse3) | – | 90 |
+| [`graveyard_corpse2`](#v-graveyard_corpse2) | Enemy | [Graveyard 1](../maps/graveyard1.md) | – | 90 |
+| [`graveyard_corpse3`](#v-graveyard_corpse3) | NPC/Enemy | [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_corpse3) | – | 90 |
 
-## Graveyard1 (graveyard_corpse2) { #v-graveyard_corpse2 }
+## Graveyard 1 (graveyard_corpse2) { #v-graveyard_corpse2 }
 
 **Entry ID:** `graveyard_corpse2` · **Type:** Enemy
 
-**Location:** [graveyard1](../maps/graveyard1.md)
+**Location:** [Graveyard 1](../maps/graveyard1.md)
 
 ### Combat statistics
 
@@ -68,7 +68,7 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [graveyard1](../maps/graveyard1.md) | – | 6 | Appears later, during a quest |
+| [Graveyard 1](../maps/graveyard1.md) | – | 6 | Appears later, during a quest |
 
 
 ### Version history
@@ -136,11 +136,11 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
     ```
 
 
-## Graveyard0 (graveyard_corpse3) { #v-graveyard_corpse3 }
+## Graveyard 0 (graveyard_corpse3) { #v-graveyard_corpse3 }
 
 **Entry ID:** `graveyard_corpse3` · **Type:** NPC/Enemy
 
-**Location:** [graveyard0](../maps/graveyard0.md#pin-npc-graveyard_corpse3)
+**Location:** [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_corpse3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -179,11 +179,11 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [graveyard0](../maps/graveyard0.md) | – | 1 | – |
+| [Graveyard 0](../maps/graveyard0.md) | – | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Angry graveyard corpse. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Angry graveyard corpse. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/graveyard_corpse1.json" data-npc="Angry graveyard corpse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -191,7 +191,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-graveyard_corpse3-graveyard_corpse1"></span>**`graveyard_corpse1`** *(silent check: the first matching branch below is taken)*
 

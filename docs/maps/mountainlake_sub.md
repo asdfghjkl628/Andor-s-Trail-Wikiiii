@@ -78,7 +78,7 @@ description: "Mountainlake sub is an outdoor location in Andor's Trail. NPCs: As
 
 - [A map of the Great Lake Laeroth](../quests/lake_map.md): [Charybdis](../monsters/ll2_whirl.md#v-ll2_whirl_return) is involved
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md): part of the map changes at stage 111; part of the map changes at stage 112; part of the map changes at stage 113; part of the map changes at stage 20; something on this map advances it; stepping on a trigger here sets stage 111; stepping on a trigger here sets stage 112; stepping on a trigger here sets stage 113; stepping on a trigger here sets stage 20
+- [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md): part of the map changes at stage 111; part of the map changes at stage 112; part of the map changes at stage 113; part of the map changes at stage 20; something on this map advances it; stepping on a trigger here sets stage 111; stepping on a trigger here sets stage 112; stepping on a trigger here sets stage 113; stepping on a trigger here sets stage 20
 
 ## Points of interest
 

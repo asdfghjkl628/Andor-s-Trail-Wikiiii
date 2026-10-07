@@ -1,8 +1,8 @@
 ---
-description: "Elythara is a hidden quest in Andor's Trail, started by reading a sign on fallhaven_arcir_basement. 1 stages."
+description: "Elythara (Arcir) flags is a hidden quest in Andor's Trail, started by reading a sign on fallhaven_arcir_basement. 1 stages."
 ---
 
-# Elythara
+# Elythara (Arcir) flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,13 +14,13 @@ description: "Elythara is a hidden quest in Andor's Trail, started by reading a 
 | **Quest ID** | `arcir` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
-| **Started by** | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) |
+| **Started by** | reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md) |
 
 </div>
 
 ## Prerequisites to start
 
-None: talk to reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) to begin.
+None: talk to reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -33,19 +33,30 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 |  | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) |  | reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) → the conversation leads here automatically → **stage 10**. NPC: “Elythara, mother of the light. Protect us from the curse of the Shadow.”
+??? note "Stage 10 · reading a sign on fallhaven_arcir_basement · 1 way"
+
+    **Way 1:** Reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md)
+
+    - *“Elythara, mother of the light. Protect us from the curse of the Shadow.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -90,6 +101,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `arcir` |
+    | Name in game data | `Elythara` |
     | showInLog | 0 |
     | Stage IDs | 10 |
     | Dialogue nodes setting stages | 10: `arcir_basement_statue` |

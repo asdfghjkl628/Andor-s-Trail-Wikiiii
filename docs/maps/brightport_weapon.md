@@ -1,5 +1,5 @@
 ---
-description: "Brightport weapon is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Fiamma. Exits to Brightport3."
+description: "Brightport weapon is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Fiamma. Exits to Brightport 3."
 ---
 
 # Brightport weapon
@@ -18,19 +18,19 @@ description: "Brightport weapon is an indoor location in Andor's Trail, in Brigh
 
 </div>
 
-**Brightport weapon** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport3.
+**Brightport weapon** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_weapon.webp" alt="Map of Brightport weapon" width="576" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport3/#place-weapon" title="Exit to Brightport3" style="left:33.333%;top:63.636%;width:5.556%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Fiamma" style="left:11.111%;top:27.273%;width:16.667%;height:18.182%"></span><a class="mob" href="../../monsters/brightportsmith/" title="Fiamma" style="left:22.222%;top:27.273%;width:5.556%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_219.png" alt="Fiamma"></a><a class="pin pin-exit" href="#key-1" style="left:36.111%;top:68.182%" title="Exit (stairs / passage): to [Brightport3](brightport3.md)">1</a><a id="pin-npc-brightportsmith" class="pin pin-npc" href="#key-2" style="left:25.000%;top:31.818%" title="[Fiamma](../../monsters/brightportsmith.md): shopkeeper, 1 quest">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_weapon.webp" alt="Map of Brightport weapon" width="576" height="352" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport3/#place-weapon" title="Exit to Brightport 3" style="left:33.333%;top:63.636%;width:5.556%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Fiamma" style="left:11.111%;top:27.273%;width:16.667%;height:18.182%"></span><a class="mob" href="../../monsters/brightportsmith/" title="Fiamma" style="left:22.222%;top:27.273%;width:5.556%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_219.png" alt="Fiamma"></a><a class="pin pin-exit" href="#key-1" style="left:36.111%;top:68.182%" title="Exit (stairs / passage): to [Brightport 3](brightport3.md)">1</a><a id="pin-npc-brightportsmith" class="pin pin-npc" href="#key-2" style="left:25.000%;top:31.818%" title="[Fiamma](../../monsters/brightportsmith.md): shopkeeper, 1 quest">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Brightport3](brightport3.md) |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Brightport 3](brightport3.md) |
     | <span id="key-2"></span>2 | [Fiamma](../monsters/brightportsmith.md) | shopkeeper, 1 quest |
 
 
@@ -40,7 +40,7 @@ description: "Brightport weapon is an indoor location in Andor's Trail, in Brigh
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Stairs / passage | [Brightport3](brightport3.md) | Brightport | 1 |
+| Stairs / passage | [Brightport 3](brightport3.md) | Brightport | 1 |
 
 ## NPCs
 
@@ -53,7 +53,7 @@ description: "Brightport weapon is an indoor location in Andor's Trail, in Brigh
 ## Quests
 
 - [Too hot to handle](../quests/brightport_fiamma.md): [Fiamma](../monsters/brightportsmith.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Fiamma](../monsters/brightportsmith.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Fiamma](../monsters/brightportsmith.md) is involved
 
 
 ## Version history

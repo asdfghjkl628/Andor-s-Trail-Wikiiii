@@ -11,9 +11,9 @@ description: "Breakfast bread is a quest in Andor's Trail, started by Mikhail (h
 | **Quest ID** | `mikhail_bread` |
 | **In journal** | Yes |
 | **Stages** | 2 (completes at 100) |
-| **Started by** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
+| **Started by** | [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) |
 | **NPCs involved** | [Mikhail](../monsters/mikhail.md) |
-| **Locations** | [home](../maps/home.md), [waytogalmore0](../maps/waytogalmore0.md) |
+| **Locations** | [Home](../maps/home.md), [Waytogalmore 0](../maps/waytogalmore0.md) |
 | **Total XP** | 30 |
 | **Related quests** | 9 |
 
@@ -25,7 +25,7 @@ description: "Breakfast bread is a quest in Andor's Trail, started by Mikhail (h
 
 ## Prerequisites to start
 
-Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required:
+Start with [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)). Required:
 
 - reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10)
 - NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100)
@@ -43,38 +43,57 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Requires | [Rats!](mikhail_rats.md#stage-100) | stage 100 reached, for stage 10 here |
 | Unlocks | [Unusual experiences and achievements](achievements.md#stage-1) | stage 1 there needs stages 10, 100 here |
 | Unlocks | [Search for Andor](andor.md#stage-1) | stage 1 there needs stage 100 here |
-| Unlocks | [brv_nondisplay_multipurpose (hidden flag)](brv_nondisplay_multipurpose.md#stage-40) | stage 40 there needs stage 10 here |
+| Unlocks | [Brimhaven multipurpose story flags (hidden flag)](brv_nondisplay_multipurpose.md#stage-40) | stage 40 there needs stage 10 here |
 | Unlocks | [Honor your parents](brv_present.md#stage-30) | stage 30 there needs stage 10 here |
 | Unlocks | [Honor your parents](brv_present.md#stage-40) | stage 40 there needs stage 10 here |
 | Unlocks | [Honor your parents](brv_present.md#stage-50) | stage 50 there needs stage 10 here |
 | Unlocks | [Honor your parents](brv_present.md#stage-60) | stage 60 there needs stage 10 here |
-| Unlocks | [Delivery - nondisplay (hidden flag)](brv_wh_delivery_nondisplay.md#stage-90) | stage 90 there needs stage 10 here |
-| Unlocks | [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](dds_nd.md#stage-20) | stage 20 there needs stage 10 here |
+| Unlocks | [Brimhaven warehouse delivery (hidden flag)](brv_wh_delivery_nondisplay.md#stage-90) | stage 90 there needs stage 10 here |
+| Unlocks | [Darkness in the Daylight and Shadows story flags (hidden flag)](dds_nd.md#stage-20) | stage 20 there needs stage 10 here |
 | Unlocks | [A familiar shadow](familiar_shadow.md#stage-30) | stage 30 there needs stage 10 here |
 | Unlocks | [Rats!](mikhail_rats.md#stage-10) | stage 10 there needs stages 10, 100 here |
 | Unlocks | [Rats!](mikhail_rats.md#stage-100) | stage 100 there needs stage 100 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-1) | stage 1 there needs stages 10, 100 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-1) | stage 1 there needs stages 10, 100 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Mikhail wants me to go buy a loaf of bread from Mara at the town hall. | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | – | – |
-| <span id="stage-100"></span>100 | I have brought the bread to Mikhail. **(completes quest)** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Bread](../items/bread.md), stage 10 | 30 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Mikhail wants me to go buy a loaf of bread from Mara at the town hall. | [Mikhail](../monsters/mikhail.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I have brought the bread to Mikhail. **(ends quest)** | [Mikhail](../monsters/mikhail.md) | 30 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “What about the bread?” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100) → **stage 10**. NPC: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.”
+??? note "Stage 10 · Mikhail · 1 way"
 
-???+ note "Stage 100: 1 route"
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “What about the bread?”
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, here you go.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); hand over 1× [Bread](../items/bread.md) → **stage 100**; also gives [Gold coins](../items/gold.md). NPC: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.”
+    - **Needs:** stage 10; not yet stage 100; reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100)
+    - *“Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Mikhail · 1 way"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “Yes, here you go.”
+
+    - **Needs:** stage 10; hand over 1× [Bread](../items/bread.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Thanks a lot, now I can make my breakfast. Here, take these coins for your help.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild13 is an indoor location in Andor's Trail, in Burial cave (other). Exits to Brightportwild4, Brightportwild14."
+description: "Brightportwild 13 is an indoor location in Andor's Trail, in Burial cave (other). Exits to Brightportwild 4, Brightportwild 14."
 ---
 
-# Brightportwild13
+# Brightportwild 13
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Brightportwild13 is an indoor location in Andor's Trail, in Burial
 | **Region** | In Burial cave (other) |
 | **Type** | Indoors / underground |
 | **Size** | 16×8 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild13** is an indoor map, in Burial cave (other). It has no NPCs, and no enemies. Exits lead to Brightportwild4, Brightportwild14.
+**Brightportwild 13** is an indoor map, in Burial cave (other). It has no NPCs, and no enemies. Exits lead to Brightportwild 4, Brightportwild 14.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild13.webp" alt="Map of Brightportwild13" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightportwild14/#place-north" title="Exit to Brightportwild14" style="left:62.500%;top:87.500%;width:37.500%;height:12.500%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild4/#place-south" title="Exit to Brightportwild4" style="left:50.000%;top:0.000%;width:31.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: duleian_panteras" style="left:43.750%;top:25.000%;width:37.500%;height:50.000%"></span><a class="pin pin-exit" href="#key-1" style="left:65.625%;top:6.250%" title="Exit (north): to [Brightportwild4](brightportwild4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:81.250%;top:93.750%" title="Exit (south): to [Brightportwild14](brightportwild14.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild13.webp" alt="Map of Brightportwild 13" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightportwild14/#place-north" title="Exit to Brightportwild 14" style="left:62.500%;top:87.500%;width:37.500%;height:12.500%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild4/#place-south" title="Exit to Brightportwild 4" style="left:50.000%;top:0.000%;width:31.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: duleian_panteras" style="left:43.750%;top:25.000%;width:37.500%;height:50.000%"></span><a class="pin pin-exit" href="#key-1" style="left:65.625%;top:6.250%" title="Exit (north): to [Brightportwild 4](brightportwild4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:81.250%;top:93.750%" title="Exit (south): to [Brightportwild 14](brightportwild14.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild4](brightportwild4.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Brightportwild14](brightportwild14.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 4](brightportwild4.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Brightportwild 14](brightportwild14.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brightportwild13 is an indoor location in Andor's Trail, in Burial
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild4](brightportwild4.md) | Burial cave | 1 |
-| South | [Brightportwild14](brightportwild14.md) | – | 2 |
+| North | [Brightportwild 4](brightportwild4.md) | Burial cave | 1 |
+| South | [Brightportwild 14](brightportwild14.md) | – | 2 |
 
 
 ## Version history

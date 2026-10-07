@@ -4,7 +4,7 @@ description: "Reindeer is an enemy in Andor's Trail (animal) with 5 HP, worth 39
 
 # ![](../assets/icons/monsters/monsters_johny_24.png){ .sprite } Reindeer
 
-**Found in:** Crossglen: [crossglen](../maps/crossglen.md)
+**Found in:** Crossglen: [Crossglen](../maps/crossglen.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Reindeer is an enemy in Andor's Trail (animal) with 5 HP, worth 39
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 1 | Appears later, during a quest |
 
 
 ## Version history

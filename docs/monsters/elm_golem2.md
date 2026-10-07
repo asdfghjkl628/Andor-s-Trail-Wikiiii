@@ -1,10 +1,10 @@
 ---
-description: "Dried kazarite golem is an enemy in Andor's Trail (giant) with 183 HP, worth 349 XP, found in elm5f_1, elm5f_2, elm_3f. Drops: Ruby gem, Small rock, Gold coins, Large rock."
+description: "Dried kazarite golem is an enemy in Andor's Trail (giant) with 183 HP, worth 349 XP, found in Elm 5f 1, Elm 5f 2, Elm 3f. Drops: Ruby gem, Small rock, Gold coins, Large rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_29.png){ .sprite } Dried kazarite golem
 
-**Found in:** [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md), [elm_3f](../maps/elm_3f.md), [elm_4f_1](../maps/elm_4f_1.md) (+3 more)
+**Found in:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 3f](../maps/elm_3f.md), [Elm 4f 1](../maps/elm_4f_1.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dried kazarite golem is an enemy in Andor's Trail (giant) with 183
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_1, elm5f_2, elm_3f |
+| **Found in** | Elm 5f 1, Elm 5f 2, Elm 3f |
 | **Class** | Giant |
 | **HP** | 183 |
 | **XP when defeated** | 349 |
@@ -64,13 +64,13 @@ description: "Dried kazarite golem is an enemy in Andor's Trail (giant) with 183
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_1](../maps/elm5f_1.md) | – | 2 | – |
-| [elm5f_2](../maps/elm5f_2.md) | – | 3 | – |
-| [elm_3f](../maps/elm_3f.md) | – | 6 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 4 | – |
-| [elm_4f_2](../maps/elm_4f_2.md) | – | 6 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 3 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 8 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 2 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 3 | – |
+| [Elm 3f](../maps/elm_3f.md) | – | 6 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 4 | – |
+| [Elm 4f 2](../maps/elm_4f_2.md) | – | 6 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 3 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 8 | – |
 
 
 ## Version history

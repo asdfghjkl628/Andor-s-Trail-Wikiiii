@@ -27,7 +27,7 @@ description: "Mystery Laeroth key is a quest other in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothbarn1](../maps/laerothbarn1.md) during [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-102) (1×)
+- From stepping on a trigger on [Laerothbarn 1](../maps/laerothbarn1.md) during [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-102) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [korhald_cave_hidden](../maps/korhald_cave_hidden.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Korhald cave hidden](../maps/korhald_cave_hidden.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

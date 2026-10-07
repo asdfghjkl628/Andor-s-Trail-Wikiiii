@@ -4,7 +4,7 @@ description: "Agile aroughcun is an enemy in Andor's Trail (animal) with 168 HP,
 
 # ![](../assets/icons/monsters/monsters_newb_1_276.png){ .sprite } Agile aroughcun
 
-**Found in:** Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_58](../maps/galmore_58.md), Mt. Galmore: [galmore_66](../maps/galmore_66.md), Mt. Galmore: [galmore_68](../maps/galmore_68.md)
+**Found in:** Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 58](../maps/galmore_58.md), Mt. Galmore: [Galmore 66](../maps/galmore_66.md), Mt. Galmore: [Galmore 68](../maps/galmore_68.md)
 
 <div class="infobox" markdown>
 
@@ -59,10 +59,10 @@ description: "Agile aroughcun is an enemy in Andor's Trail (animal) with 168 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_56](../maps/galmore_56.md) | Mt. Galmore | 1 | – |
-| [galmore_58](../maps/galmore_58.md) | Mt. Galmore | 2 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 3 | – |
-| [galmore_68](../maps/galmore_68.md) | Mt. Galmore | 7 | – |
+| [Galmore 56](../maps/galmore_56.md) | Mt. Galmore | 1 | – |
+| [Galmore 58](../maps/galmore_58.md) | Mt. Galmore | 2 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 3 | – |
+| [Galmore 68](../maps/galmore_68.md) | Mt. Galmore | 7 | – |
 
 
 ## Version history

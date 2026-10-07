@@ -41,7 +41,7 @@ description: "Crude wooden buckler is a ordinary buckler in Andor's Trail (Block
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 25%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 25%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

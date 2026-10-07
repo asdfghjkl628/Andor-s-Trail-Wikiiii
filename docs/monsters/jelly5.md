@@ -1,10 +1,10 @@
 ---
-description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP, worth 211 XP, found in roadcave1. Drops: Gold coins, Mundane ring, Polished ring, Mundane necklace."
+description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP, worth 211 XP, found in Roadcave 1. Drops: Gold coins, Mundane ring, Polished ring, Mundane necklace."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_1.png){ .sprite } Crimson jelly
 
-**Found in:** [roadcave1](../maps/roadcave1.md)
+**Found in:** [Roadcave 1](../maps/roadcave1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | roadcave1 |
+| **Found in** | Roadcave 1 |
 | **Class** | Construct |
 | **HP** | 65 |
 | **XP when defeated** | 211 |
@@ -65,7 +65,7 @@ description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadcave1](../maps/roadcave1.md) | – | 10 | – |
+| [Roadcave 1](../maps/roadcave1.md) | – | 10 | – |
 
 
 ## Version history

@@ -1,5 +1,5 @@
 ---
-description: "Dark priest is an NPC who can also be fought in Andor's Trail, found in galmore_41."
+description: "Dark priest is an NPC who can also be fought in Andor's Trail, found in Galmore 41."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } Dark priest
@@ -11,7 +11,7 @@ description: "Dark priest is an NPC who can also be fought in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | galmore_41 |
+| **Found in** | Galmore 41 |
 | **Class** | Demon |
 | **HP** | 330 |
 | **XP when defeated** | 1,128 |
@@ -22,19 +22,19 @@ description: "Dark priest is an NPC who can also be fought in Andor's Trail, fou
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Dark priest. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Dark priest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`dds_dark_priest`](#v-dds_dark_priest) | NPC | [galmore_41](../maps/galmore_41.md#pin-npc-dds_dark_priest) | – | – |
-| [`dds_dark_priest2`](#v-dds_dark_priest2) | NPC | [galmore_41](../maps/galmore_41.md#pin-npc-dds_dark_priest2) | – | – |
-| [`dds_dark_priest_monster`](#v-dds_dark_priest_monster) | Enemy | [galmore_41](../maps/galmore_41.md) | – | 330 |
+| [`dds_dark_priest`](#v-dds_dark_priest) | NPC | [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest) | – | – |
+| [`dds_dark_priest2`](#v-dds_dark_priest2) | NPC | [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest2) | – | – |
+| [`dds_dark_priest_monster`](#v-dds_dark_priest_monster) | Enemy | [Galmore 41](../maps/galmore_41.md) | – | 330 |
 
 ## Galmore 41 (dds_dark_priest) { #v-dds_dark_priest }
 
 **Entry ID:** `dds_dark_priest` · **Type:** NPC
 
-**Location:** [galmore_41](../maps/galmore_41.md#pin-npc-dds_dark_priest)
+**Location:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest)
 
 ### Quests
 
@@ -43,7 +43,7 @@ description: "Dark priest is an NPC who can also be fought in Andor's Trail, fou
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark priest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark priest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_dark_priest.json" data-npc="Dark priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_dark_priest-dds_dark_priest"></span>**`dds_dark_priest`** *(silent check: the first matching branch below is taken)*
 
@@ -113,7 +113,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `dds_dark_priest2` · **Type:** NPC
 
-**Location:** [galmore_41](../maps/galmore_41.md#pin-npc-dds_dark_priest2)
+**Location:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest2)
 
 ### Quests
 
@@ -122,7 +122,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dark priest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dark priest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_dark_priest2.json" data-npc="Dark priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -130,7 +130,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_dark_priest2-dds_dark_priest2"></span>**`dds_dark_priest2`** [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2): “You again? This must end now.”
 
@@ -226,7 +226,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `dds_dark_priest_monster` · **Type:** Enemy
 
-**Location:** [galmore_41](../maps/galmore_41.md)
+**Location:** [Galmore 41](../maps/galmore_41.md)
 
 ### Combat statistics
 
@@ -265,12 +265,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
+| [Galmore 41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Shadows](../quests/shadows.md#stage-250) with [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) checks that this enemy has been defeated.
-- [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-270) with [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) checks that this enemy has been defeated.
+- [Shadows](../quests/shadows.md#stage-250) with [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) checks that this enemy has been defeated.
+- [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-270) with [Miri](../monsters/dds_miri.md) ([Galmore 41](../maps/galmore_41.md)) checks that this enemy has been defeated.
 
 
 ### Version history

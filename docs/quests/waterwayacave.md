@@ -11,9 +11,9 @@ description: "Just the beginning is a quest in Andor's Trail, started by Cithurn
 | **Quest ID** | `waterwayacave` |
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 60, 70) |
-| **Started by** | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) |
+| **Started by** | [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) |
 | **NPCs involved** | [Cithurn](../monsters/waterwayhermit.md), [Tesrekan](../monsters/tesrekan.md) |
-| **Locations** | [waterwayacave4](../maps/waterwayacave4.md), [waterwaybhouse](../maps/waterwaybhouse.md) |
+| **Locations** | [Waterwayacave 4](../maps/waterwayacave4.md), [Waterwaybhouse](../maps/waterwaybhouse.md) |
 | **Total XP** | 11,500 |
 | **Related quests** | 2 |
 
@@ -25,10 +25,10 @@ description: "Just the beginning is a quest in Andor's Trail, started by Cithurn
 
 ## Prerequisites to start
 
-Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)). Required:
+Start with [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)). Required:
 
 - NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10)
-- NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90)
+- NOT reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -41,85 +41,167 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 |---|---|---|
 | Requires | [Trial by fire](charwood2.md#stage-50) | stage 50 reached, for stages 15, 20, 25, 30, 35 here |
 | Blocked by | [Trial by fire](charwood2.md#stage-50) | stage 50 must NOT be reached, for stage 12 here |
-| Mutually exclusive | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-90) | stage 90 must NOT be reached, for stages 10, 60, 70 here |
-| Unlocks | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-10) | stage 10 there needs stage 35 here |
-| Unlocks | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](nondisplay_2.md#stage-120) | stage 120 there needs stage 70 here |
+| Mutually exclusive | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-90) | stage 90 must NOT be reached, for stages 10, 60, 70 here |
+| Unlocks | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-10) | stage 10 there needs stage 35 here |
+| Unlocks | [General story flags 2 (hidden flag)](nondisplay_2.md#stage-120) | stage 120 there needs stage 70 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | In a lonely house east of Loneford, I met an old man named Cithurn. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | – | – |
-| <span id="stage-12"></span>12 | Cithurn told me he needs an experienced fighter to help with his problem. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-15"></span>15 | Cithurn told me that the surrounding forest has been under invasion by monsters for several weeks. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-20"></span>20 | Cithurn heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath the city. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-25"></span>25 | I told Cithurn about my role in Charwood and of my battle with Thukuzun. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | Cithurn did not remember if the forest invasion began before the events in Charwood or after. However, based on my experiences in Charwood, Cithurn believes there is a connection between the two. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-35"></span>35 | I promised Cithurn I would investigate the source of the monster invasion in the forest. I will have to pass through the forest to access an entrance to a cave east of Cithurn's home. | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | stage 10 | – |
-| <span id="stage-40"></span>40 | I found the entrance to the cave.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave1](../maps/waterwayacave1.md).</span> | stepping on a trigger on [waterwayacave1](../maps/waterwayacave1.md) | stage 35 | – |
-| <span id="stage-45"></span>45 | I reached the end of the cave system. The air became damper the deeper I went.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave3](../maps/waterwayacave3.md).</span> | stepping on a trigger on [waterwayacave3](../maps/waterwayacave3.md) | – | – |
-| <span id="stage-50"></span>50 | Among the cold and damp lower parts of the cave, I encountered another dragon-like creature. This must be the source of all the chaos in the forest above. I should attempt to kill it. | [Tesrekan](../monsters/tesrekan.md) ([waterwayacave4](../maps/waterwayacave4.md)) | – | – |
-| <span id="stage-55"></span>55 | I killed the monster called Tesrekan and took one of its bones as proof. I should venture back to Cithurn to tell him about it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave4](../maps/waterwayacave4.md).</span> | stepping on a trigger on [waterwayacave4](../maps/waterwayacave4.md) | carry 1× [Tesrekan's bone](../items/tesrekanbone.md) | – |
-| <span id="stage-60"></span>60 | I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman. **(completes quest)** | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | carry 1× [Tesrekan's bone](../items/tesrekanbone.md), hand over 1× [Cithurn's talisman](../items/cithurn_talisman.md), hand over 1× [Tesrekan's bone](../items/tesrekanbone.md), stage 55 | 7,000 XP |
-| <span id="stage-70"></span>70 | I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work. **(completes quest)** | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | carry 1× [Tesrekan's bone](../items/tesrekanbone.md), hand over 1× [Tesrekan's bone](../items/tesrekanbone.md), stage 55 | 4,500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | In a lonely house east of Loneford, I met an old man named Cithurn. | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-12"></span>[12](#route-12) | Cithurn told me he needs an experienced fighter to help with his problem. | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">Cithurn told me that the surrounding forest has been under invasion… ▸</span><span class="l">▴ less</span></summary>Cithurn told me that the surrounding forest has been under invasion by monsters for several weeks.</details> | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Cithurn heard something similar was occurring in Charwood until a… ▸</span><span class="l">▴ less</span></summary>Cithurn heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath the city.</details> | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-25"></span>[25](#route-25) | I told Cithurn about my role in Charwood and of my battle with Thukuzun. | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Cithurn did not remember if the forest invasion began before the… ▸</span><span class="l">▴ less</span></summary>Cithurn did not remember if the forest invasion began before the events in Charwood or after. However, based on my experiences in Charwood, Cithurn believes there is a connection between the two.</details> | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">I promised Cithurn I would investigate the source of the monster… ▸</span><span class="l">▴ less</span></summary>I promised Cithurn I would investigate the source of the monster invasion in the forest. I will have to pass through the forest to access an entrance to a cave east of Cithurn's home.</details> | [Cithurn](../monsters/waterwayhermit.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I found the entrance to the cave.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave 1](../maps/waterwayacave1.md).</span> | stepping on a trigger on [Waterwayacave 1](../maps/waterwayacave1.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | I reached the end of the cave system. The air became damper the deeper I went.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave 3](../maps/waterwayacave3.md).</span> | stepping on a trigger on [Waterwayacave 3](../maps/waterwayacave3.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Among the cold and damp lower parts of the cave, I encountered… ▸</span><span class="l">▴ less</span></summary>Among the cold and damp lower parts of the cave, I encountered another dragon-like creature. This must be the source of all the chaos in the forest above. I should attempt to kill it.</details> | [Tesrekan](../monsters/tesrekan.md) | – |
+| <span id="stage-55"></span>[55](#route-55) | <details class="jt"><summary><span class="s">I killed the monster called Tesrekan and took one of its bones as… ▸</span><span class="l">▴ less</span></summary>I killed the monster called Tesrekan and took one of its bones as proof. I should venture back to Cithurn to tell him about it.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterwayacave 4](../maps/waterwayacave4.md).</span> | stepping on a trigger on [Waterwayacave 4](../maps/waterwayacave4.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I presented one of the bones from the corpse of Tesrekan to Cithurn.… ▸</span><span class="l">▴ less</span></summary>I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman.</details> **(ends quest)** | [Cithurn](../monsters/waterwayhermit.md) | 7,000 XP |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I presented one of the bones from the corpse of Tesrekan to Cithurn.… ▸</span><span class="l">▴ less</span></summary>I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work.</details> **(ends quest)** | [Cithurn](../monsters/waterwayhermit.md) | 4,500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “Sorry. I didn't mean to be rude. I'm $playername. I come from a small village where people tend to leave…” — **conditions:** NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90) → **stage 10**. NPC: “Well $playername, you are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not…”
+??? note "Stage 10 · Cithurn · 1 way"
 
-???+ note "Stage 12: 1 route"
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “Sorry. I didn't mean to be rude. I'm $playername. I come from a small village where people tend to leave…”
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “Dangerous? Perhaps I can help?” — **conditions:** reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 12 of [Just the beginning](../quests/waterwayacave.md#stage-12); NOT reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50) → **stage 12**. NPC: “I don't think so. It would need an experienced fighter to help with this problem.”
+    - **Needs:** not yet stage 10; not reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90)
+    - *“Well $playername, you are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like…”*
 
-???+ note "Stage 15: 1 route"
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35) → **stage 15**. NPC: “The surrounding forest is usually quiet, but for some time now it has been under a monster invasion. I am surprised…”
+<span id="route-12"></span>
 
-???+ note "Stage 20: 1 route"
+??? note "Stage 12 · Cithurn · 1 way"
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35) → **stage 20**. NPC: “I heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath…”
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “Dangerous? Perhaps I can help?”
 
-???+ note "Stage 25: 1 route"
+    - **Needs:** stage 10; not yet stage 12; not reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“I don't think so. It would need an experienced fighter to help with this problem.”*
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “I was in Charwood recently and what you heard was true. [You describe your experiences in Charwood and the…” — **conditions:** reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35) → **stage 25**. NPC: “I do not know if it began happening here before the events in Charwood or after. However, from what you tell me, maybe…”
 
-???+ note "Stage 30: 1 route"
+<span id="route-15"></span>
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “I was in Charwood recently and what you heard was true. [You describe your experiences in Charwood and the…” — **conditions:** reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35) → **stage 30**. NPC: “There is a cave system that runs underneath the forest. If something sinister is afoot, it could be emanating from the…”
+??? note "Stage 15 · Cithurn · 1 way"
 
-???+ note "Stage 35: 1 route"
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), automatic
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “OK, I will help you.” — **conditions:** reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35) → **stage 35**. NPC: “Thank you. You will have to pass through the forest to reach an opening to the cave where you can enter. The opening…”
+    - **Needs:** stage 10; not yet stage 35; reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“The surrounding forest is usually quiet, but for some time now it has been under a monster invasion. I am surprised you managed to reach…”*
 
-???+ note "Stage 40: 1 route"
 
-    1. stepping on a trigger on [waterwayacave1](../maps/waterwayacave1.md) → the conversation leads here automatically — **conditions:** reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35); NOT reached stage 40 of [Just the beginning](../quests/waterwayacave.md#stage-40) → **stage 40**. NPC: “You have found the entrance to the cave Cithurn was talking about.”
+<span id="route-20"></span>
 
-???+ note "Stage 45: 1 route"
+??? note "Stage 20 · Cithurn · 1 way"
 
-    1. stepping on a trigger on [waterwayacave3](../maps/waterwayacave3.md) → the conversation leads here automatically — **conditions:** NOT reached stage 45 of [Just the beginning](../quests/waterwayacave.md#stage-45) → **stage 45**. NPC: “You notice that the air has become much damper as you make your way towards the end of the cave system.”
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), automatic
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 10; not yet stage 35; reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“I heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath the city.”*
 
-    1. Talk to [Tesrekan](../monsters/tesrekan.md) ([waterwayacave4](../maps/waterwayacave4.md)) → the conversation leads here automatically → **stage 50**. NPC: “Ah, another puny mortal that has come to die and serve Tesrekan.”
 
-???+ note "Stage 55: 1 route"
+<span id="route-25"></span>
 
-    1. stepping on a trigger on [waterwayacave4](../maps/waterwayacave4.md) → the conversation leads here automatically — **conditions:** carry 1× [Tesrekan's bone](../items/tesrekanbone.md) → **stage 55**
+??? note "Stage 25 · Cithurn · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “I was in Charwood recently and what you heard was true. [You describe your experiences in Charwood and the…”
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “Certainly. Here you are.” — **conditions:** NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70); reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55); carry 1× [Tesrekan's bone](../items/tesrekanbone.md); hand over 1× [Cithurn's talisman](../items/cithurn_talisman.md); hand over 1× [Tesrekan's bone](../items/tesrekanbone.md) → **stage 60**. NPC: “Thank you. I see you are not just a great fighter, but also an adventurer that keeps his word.”
+    - **Needs:** stage 10; not yet stage 35; reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“I do not know if it began happening here before the events in Charwood or after. However, from what you tell me, maybe there is a…”*
 
-???+ note "Stage 70: 1 route"
 
-    1. Talk to [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) → choose “You are right about that debt. I think I'll keep the talisman as payment.” — **conditions:** NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70); reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55); carry 1× [Tesrekan's bone](../items/tesrekanbone.md); hand over 1× [Tesrekan's bone](../items/tesrekanbone.md) → **stage 70**. NPC: “I see. You are apparently a great fighter, but not a very honorable one.”
+<span id="route-30"></span>
+
+??? note "Stage 30 · Cithurn · 1 way"
+
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “I was in Charwood recently and what you heard was true. [You describe your experiences in Charwood and the…”
+
+    - **Needs:** stage 10; not yet stage 35; reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“There is a cave system that runs underneath the forest. If something sinister is afoot, it could be emanating from the ground below.…”*
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · Cithurn · 1 way"
+
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “OK, I will help you.”
+
+    - **Needs:** stage 10; not yet stage 35; reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50)
+    - *“Thank you. You will have to pass through the forest to reach an opening to the cave where you can enter. The opening is roughly east of my…”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · stepping on a trigger on waterwayacave1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Waterwayacave 1](../maps/waterwayacave1.md)
+
+    - **Needs:** stage 35; not yet stage 40
+    - *“You have found the entrance to the cave Cithurn was talking about.”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · stepping on a trigger on waterwayacave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Waterwayacave 3](../maps/waterwayacave3.md)
+
+    - **Needs:** not yet stage 45
+    - *“You notice that the air has become much damper as you make your way towards the end of the cave system.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Tesrekan · 1 way"
+
+    **Way 1:** Talk to [Tesrekan](../monsters/tesrekan.md), automatic
+
+    - *“Ah, another puny mortal that has come to die and serve Tesrekan.”*
+
+
+<span id="route-55"></span>
+
+??? note "Stage 55 · stepping on a trigger on waterwayacave4 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Waterwayacave 4](../maps/waterwayacave4.md)
+
+    - **Needs:** carry 1× [Tesrekan's bone](../items/tesrekanbone.md)
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Cithurn · 1 way"
+
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “Certainly. Here you are.”
+
+    - **Needs:** stage 55; not yet stage 70; not reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90); carry 1× [Tesrekan's bone](../items/tesrekanbone.md); hand over 1× [Cithurn's talisman](../items/cithurn_talisman.md); hand over 1× [Tesrekan's bone](../items/tesrekanbone.md)
+    - *“Thank you. I see you are not just a great fighter, but also an adventurer that keeps his word.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Cithurn · 1 way"
+
+    **Way 1:** Talk to [Cithurn](../monsters/waterwayhermit.md), choose “You are right about that debt. I think I'll keep the talisman as payment.”
+
+    - **Needs:** stage 55; not yet stage 70; not reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90); carry 1× [Tesrekan's bone](../items/tesrekanbone.md); hand over 1× [Tesrekan's bone](../items/tesrekanbone.md)
+    - *“I see. You are apparently a great fighter, but not a very honorable one.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

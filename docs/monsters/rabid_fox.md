@@ -4,7 +4,7 @@ description: "Rabid fox is an enemy in Andor's Trail (animal) with 25 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } Rabid fox
 
-**Found in:** Crossglen: [wild1](../maps/wild1.md), Crossglen: [wild4](../maps/wild4.md), Crossroads Guardhouse: [roadtocarntower0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [roadtocarntower1](../maps/roadtocarntower1.md) (+3 more)
+**Found in:** Crossglen: [Wild 1](../maps/wild1.md), Crossglen: [Wild 4](../maps/wild4.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Rabid fox is an enemy in Andor's Trail (animal) with 25 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadtocarntower0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 3 | – |
-| [roadtocarntower1](../maps/roadtocarntower1.md) | Crossroads Guardhouse | 1 | – |
-| [wild0](../maps/wild0.md) | Crossroads Guardhouse | 4 | – |
-| [wild1](../maps/wild1.md) | Crossglen | 3 | – |
-| [wild4](../maps/wild4.md) | Crossglen | 2 | – |
-| [wild8](../maps/wild8.md) | Flagstone Prison | 2 | – |
-| [woodcave0](../maps/woodcave0.md) | Crossroads Guardhouse | 3 | – |
+| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 3 | – |
+| [Roadtocarntower 1](../maps/roadtocarntower1.md) | Crossroads Guardhouse | 1 | – |
+| [Wild 0](../maps/wild0.md) | Crossroads Guardhouse | 4 | – |
+| [Wild 1](../maps/wild1.md) | Crossglen | 3 | – |
+| [Wild 4](../maps/wild4.md) | Crossglen | 2 | – |
+| [Wild 8](../maps/wild8.md) | Flagstone Prison | 2 | – |
+| [Woodcave 0](../maps/woodcave0.md) | Crossroads Guardhouse | 3 | – |
 
 
 ## Version history

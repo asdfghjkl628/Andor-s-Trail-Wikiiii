@@ -21,19 +21,19 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Beetle. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Beetle. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`beetle`](#v-beetle) | Enemy | Crossglen: [crossglen](../maps/crossglen.md), Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md) (+2 more) | – | 4 |
-| [`guynmart_fighter1`](#v-guynmart_fighter1) | Enemy | Guynmart Castle: [guynmart_wood_8](../maps/guynmart_wood_8.md) | – | 1 |
-| [`guynmart_fighter2`](#v-guynmart_fighter2) | Enemy | Guynmart Castle: [guynmart_wood_8](../maps/guynmart_wood_8.md) | – | 1 |
+| [`beetle`](#v-beetle) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md) (+2 more) | – | 4 |
+| [`guynmart_fighter1`](#v-guynmart_fighter1) | Enemy | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | 1 |
+| [`guynmart_fighter2`](#v-guynmart_fighter2) | Enemy | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | 1 |
 
 ## Crossglen, Crossglen and 3 more (beetle) { #v-beetle }
 
 **Entry ID:** `beetle` · **Type:** Enemy
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md), Crossglen: [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md), [guynmart_wood_19](../maps/guynmart_wood_19.md), [hauntedhouse2](../maps/hauntedhouse2.md)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md), [Guynmart wood 19](../maps/guynmart_wood_19.md), [Hauntedhouse 2](../maps/hauntedhouse2.md)
 
 ### Combat statistics
 
@@ -68,10 +68,10 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 1 | – |
-| [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md) | Crossglen | 3 | – |
-| [guynmart_wood_19](../maps/guynmart_wood_19.md) | – | 3 | – |
-| [hauntedhouse2](../maps/hauntedhouse2.md) | – | 2 | – |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 1 | – |
+| [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md) | Crossglen | 3 | – |
+| [Guynmart wood 19](../maps/guynmart_wood_19.md) | – | 3 | – |
+| [Hauntedhouse 2](../maps/hauntedhouse2.md) | – | 2 | – |
 
 
 ### Version history
@@ -124,7 +124,7 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 **Entry ID:** `guynmart_fighter1` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_8](../maps/guynmart_wood_8.md)
+**Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
 
 ### Combat statistics
 
@@ -152,7 +152,7 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
 
 
 ### Version history
@@ -194,7 +194,7 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 **Entry ID:** `guynmart_fighter2` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_8](../maps/guynmart_wood_8.md)
+**Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
 
 ### Combat statistics
 
@@ -222,7 +222,7 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
 
 
 ### Version history

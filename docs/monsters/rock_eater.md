@@ -4,7 +4,7 @@ description: "Rock eater is an NPC who can also be fought in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_bosses_2x2_4.png){ .sprite } Rock eater
 
-**Where to find Rock eater:** Mt. Galmore: [undertell_exit](../maps/undertell_exit.md#pin-npc-rock_eater)
+**Where to find Rock eater:** Mt. Galmore: [Undertell exit](../maps/undertell_exit.md#pin-npc-rock_eater)
 
 <div class="infobox" markdown>
 
@@ -63,15 +63,15 @@ description: "Rock eater is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | Appears later, during a quest |
+| [Undertell exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | Appears later, during a quest |
 
 ## Quests
 
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 60
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 60
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rock eater. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rock eater. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/rock_eater_selector.json" data-npc="Rock eater" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,12 +79,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rock_eater_selector"></span>**`rock_eater_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 60 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-60))* → [rock_eater_move_along](#d-rock_eater_move_along)
-    - branch 2 *(if reached stage 2 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [rock_eater_pc_rewarded_with_nixite_10](#d-rock_eater_pc_rewarded_with_nixite_10)
+    - branch 1 *(if reached stage 60 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-60))* → [rock_eater_move_along](#d-rock_eater_move_along)
+    - branch 2 *(if reached stage 2 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [rock_eater_pc_rewarded_with_nixite_10](#d-rock_eater_pc_rewarded_with_nixite_10)
     - branch 3 → [rock_eater_fight](#d-rock_eater_fight)
 
     <span id="d-rock_eater_move_along"></span>**`rock_eater_move_along`** Rock eater: “Move along. I'm busy!”
@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [rock_eater_fight](#d-rock_eater_fight)
 
-    <span id="d-rock_eater_pc_give_nixite_10"></span>**`rock_eater_pc_give_nixite_10`** Rock eater: “Wonderful! Now move along before I change my mind.” — **effects:** sets stage 60 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-60), removes monsters from undertell_exit, spawns monsters on undertell_exit
+    <span id="d-rock_eater_pc_give_nixite_10"></span>**`rock_eater_pc_give_nixite_10`** Rock eater: “Wonderful! Now move along before I change my mind.” — **effects:** sets stage 60 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-60), removes monsters from undertell_exit, spawns monsters on undertell_exit
 
 
 

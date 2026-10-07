@@ -1,10 +1,10 @@
 ---
-description: "Puny cave scorpion is an enemy in Andor's Trail (insect) with 30 HP, worth 107 XP, found in laerothcave3, lakecave0, lakecave2. Drops: Gold coins, Scorpion sting."
+description: "Puny cave scorpion is an enemy in Andor's Trail (insect) with 30 HP, worth 107 XP, found in Laerothcave 3, Lakecave 0, Lakecave 2. Drops: Gold coins, Scorpion sting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik3_77.png){ .sprite } Puny cave scorpion
 
-**Found in:** [laerothcave3](../maps/laerothcave3.md), [lakecave0](../maps/lakecave0.md), [lakecave2](../maps/lakecave2.md), [secretpassage0](../maps/secretpassage0.md)
+**Found in:** [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md), [Secretpassage 0](../maps/secretpassage0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Puny cave scorpion is an enemy in Andor's Trail (insect) with 30 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave3, lakecave0, lakecave2 |
+| **Found in** | Laerothcave 3, Lakecave 0, Lakecave 2 |
 | **Class** | Insect |
 | **HP** | 30 |
 | **XP when defeated** | 107 |
@@ -57,10 +57,10 @@ description: "Puny cave scorpion is an enemy in Andor's Trail (insect) with 30 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave3](../maps/laerothcave3.md) | – | 4 | – |
-| [lakecave0](../maps/lakecave0.md) | – | 6 | – |
-| [lakecave2](../maps/lakecave2.md) | – | 2 | – |
-| [secretpassage0](../maps/secretpassage0.md) | – | 2 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 4 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 6 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 2 | – |
+| [Secretpassage 0](../maps/secretpassage0.md) | – | 2 | – |
 
 
 ## Version history

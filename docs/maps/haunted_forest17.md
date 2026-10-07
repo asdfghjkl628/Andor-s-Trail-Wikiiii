@@ -1,8 +1,8 @@
 ---
-description: "Haunted forest17 is an outdoor location in Andor's Trail. Enemies: Musty prowler, Grieveless dead, Angel of death. Exits to Haunted forest19, Haunted forest16, Haunted forest way to house5."
+description: "Haunted forest 17 is an outdoor location in Andor's Trail. Enemies: Musty prowler, Grieveless dead, Angel of death. Exits to Haunted forest 19, Haunted forest 16, Haunted forest way to house 5."
 ---
 
-# Haunted forest17
+# Haunted forest 17
 
 <div class="infobox" markdown>
 
@@ -11,28 +11,28 @@ description: "Haunted forest17 is an outdoor location in Andor's Trail. Enemies:
 | **Map ID** | `haunted_forest17` |
 | **Type** | Outdoors |
 | **Size** | 10×9 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Haunted forest17** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Haunted forest19, Haunted forest16, Haunted forest way to house5.
+**Haunted forest 17** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Haunted forest 19, Haunted forest 16, Haunted forest way to house 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest17.webp" alt="Map of Haunted forest17" width="320" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest16/#place-west" title="Exit to Haunted forest16" style="left:90.000%;top:22.222%;width:10.000%;height:55.556%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest_way_to_house5/#place-north" title="Exit to Haunted forest way to house5" style="left:10.000%;top:88.889%;width:50.000%;height:11.111%"></a><a id="place-north" class="mo mo-mapchange" href="../haunted_forest19/#place-south" title="Exit to Haunted forest19" style="left:40.000%;top:0.000%;width:60.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Angel of death" style="left:10.000%;top:66.667%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Angel of death" style="left:60.000%;top:22.222%;width:20.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:30.000%;top:66.667%;width:20.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:40.000%;top:22.222%;width:10.000%;height:44.444%"></span><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:10.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:70.000%;top:22.222%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:70.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:30.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:40.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="pin pin-exit" href="#key-1" style="left:70.000%;top:5.556%" title="Exit (north): to [Haunted forest19](haunted_forest19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:50.000%" title="Exit (east): to [Haunted forest16](haunted_forest16.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:35.000%;top:94.444%" title="Exit (south): to [Haunted forest way to house5](haunted_forest_way_to_house5.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest17.webp" alt="Map of Haunted forest 17" width="320" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest16/#place-west" title="Exit to Haunted forest 16" style="left:90.000%;top:22.222%;width:10.000%;height:55.556%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest_way_to_house5/#place-north" title="Exit to Haunted forest way to house 5" style="left:10.000%;top:88.889%;width:50.000%;height:11.111%"></a><a id="place-north" class="mo mo-mapchange" href="../haunted_forest19/#place-south" title="Exit to Haunted forest 19" style="left:40.000%;top:0.000%;width:60.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Angel of death" style="left:10.000%;top:66.667%;width:10.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Angel of death" style="left:60.000%;top:22.222%;width:20.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:30.000%;top:66.667%;width:20.000%;height:11.111%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:40.000%;top:22.222%;width:10.000%;height:44.444%"></span><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:10.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:70.000%;top:22.222%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/angel_death/" title="Angel of death" style="left:70.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles1_33.png" alt="Angel of death"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:30.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:40.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="pin pin-exit" href="#key-1" style="left:70.000%;top:5.556%" title="Exit (north): to [Haunted forest 19](haunted_forest19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:50.000%" title="Exit (east): to [Haunted forest 16](haunted_forest16.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:35.000%;top:94.444%" title="Exit (south): to [Haunted forest way to house 5](haunted_forest_way_to_house5.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Haunted forest19](haunted_forest19.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Haunted forest16](haunted_forest16.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Haunted forest way to house5](haunted_forest_way_to_house5.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Haunted forest 19](haunted_forest19.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Haunted forest 16](haunted_forest16.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Haunted forest way to house 5](haunted_forest_way_to_house5.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,9 +41,9 @@ description: "Haunted forest17 is an outdoor location in Andor's Trail. Enemies:
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Haunted forest19](haunted_forest19.md) | – | 1 |
-| East | [Haunted forest16](haunted_forest16.md) | – | 2 |
-| South | [Haunted forest way to house5](haunted_forest_way_to_house5.md) | – | 3 |
+| North | [Haunted forest 19](haunted_forest19.md) | – | 1 |
+| East | [Haunted forest 16](haunted_forest16.md) | – | 2 |
+| South | [Haunted forest way to house 5](haunted_forest_way_to_house5.md) | – | 3 |
 
 ## Enemies
 

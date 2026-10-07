@@ -4,7 +4,7 @@ description: "Nutritious cave snake is an enemy in Andor's Trail (reptile) with 
 
 # ![](../assets/icons/monsters/monsters_snakes_3.png){ .sprite } Nutritious cave snake
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_516](../maps/ratdom_maze_516.md)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 516](../maps/ratdom_maze_516.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Nutritious cave snake is an enemy in Andor's Trail (reptile) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 1 | – |
 
 
 ## Version history

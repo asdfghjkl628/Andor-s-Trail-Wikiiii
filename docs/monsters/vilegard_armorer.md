@@ -4,7 +4,7 @@ description: "Vilegard armorer is a non-player character (NPC) in Andor's Trail,
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Vilegard armorer
 
-**Where to find Vilegard armorer:** Vilegard: [vilegard_armorer](../maps/vilegard_armorer.md#pin-npc-vilegard_armorer)
+**Where to find Vilegard armorer:** Vilegard: [Vilegard armorer](../maps/vilegard_armorer.md#pin-npc-vilegard_armorer)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Vilegard armorer is a non-player character (NPC) in Andor's Trail,
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Vilegard armorer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Vilegard armorer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vilegard_armorer_select.json" data-npc="Vilegard armorer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -56,7 +56,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-vilegard_armorer_select"></span>**`vilegard_armorer_select`** *(silent check: the first matching branch below is taken)*
 

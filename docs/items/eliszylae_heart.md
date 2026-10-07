@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) | – | must be carried (1×) | “[Show Demon heart] Some monster. Here's what it left when I killed it.” |
+| [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) | – | must be carried (1×) | “[Show Demon heart] Some monster. Here's what it left when I killed it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

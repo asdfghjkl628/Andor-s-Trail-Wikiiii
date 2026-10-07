@@ -4,7 +4,7 @@ description: "Young church dweller is an enemy in Andor's Trail (insect) with 93
 
 # ![](../assets/icons/monsters/monsters_newb_1_524.png){ .sprite } Young church dweller
 
-**Found in:** Remgard: [island_underground1](../maps/island_underground1.md), [island_underground4](../maps/island_underground4.md)
+**Found in:** Remgard: [Island underground 1](../maps/island_underground1.md), [Island underground 4](../maps/island_underground4.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Young church dweller is an enemy in Andor's Trail (insect) with 93
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground1](../maps/island_underground1.md) | Remgard | 2 | – |
-| [island_underground4](../maps/island_underground4.md) | – | 4 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 2 | – |
+| [Island underground 4](../maps/island_underground4.md) | – | 4 | – |
 
 
 ## Version history

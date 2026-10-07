@@ -21,18 +21,18 @@ description: "Lord Erwyn is an NPC who can also be fought in Andor's Trail, foun
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Lord Erwyn. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Lord Erwyn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`erwyn`](#v-erwyn) | NPC/Enemy | Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md#pin-npc-erwyn) | – | 110 |
-| [`erwyn2`](#v-erwyn2) | NPC/Enemy | Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md#pin-npc-erwyn2) | – | 110 |
+| [`erwyn`](#v-erwyn) | NPC/Enemy | Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-erwyn) | – | 110 |
+| [`erwyn2`](#v-erwyn2) | NPC/Enemy | Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-erwyn2) | – | 110 |
 
-## Flagstone Prison, Stoutford castle0 (erwyn) { #v-erwyn }
+## Flagstone Prison, Stoutford castle 0 (erwyn) { #v-erwyn }
 
 **Entry ID:** `erwyn` · **Type:** NPC/Enemy
 
-**Location:** Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md#pin-npc-erwyn)
+**Location:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-erwyn)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -65,21 +65,21 @@ description: "Lord Erwyn is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | – |
+| [Stoutford castle 0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | – |
 
 ### Quests that count defeats
 
-- A conversation with [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) checks that this enemy has been defeated.
-- [Stoutford's old castle](../quests/stoutford_castle.md#stage-5) with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) checks that at least 2 of these enemies have been defeated.
+- A conversation with [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) checks that this enemy has been defeated.
+- [Stoutford's old castle](../quests/stoutford_castle.md#stage-5) with stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) checks that at least 2 of these enemies have been defeated.
 
 ### Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 48, 148
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 48, 148
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lord Erwyn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_3.json" data-npc="Lord Erwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -87,12 +87,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-erwyn-stoutford_castle_3"></span>**`stoutford_castle_3`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 148 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-148); reached stage 49 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49))* → [stoutford_castle_3_2](#d-erwyn-stoutford_castle_3_2)
-    - branch 2 *(if reached stage 148 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-148))* → [stoutford_castle_3a](#d-erwyn-stoutford_castle_3a)
+    - branch 1 *(if reached stage 148 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-148); reached stage 49 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-49))* → [stoutford_castle_3_2](#d-erwyn-stoutford_castle_3_2)
+    - branch 2 *(if reached stage 148 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-148))* → [stoutford_castle_3a](#d-erwyn-stoutford_castle_3a)
     - branch 3 → [stoutford_castle_3_1](#d-erwyn-stoutford_castle_3_1)
 
     <span id="d-erwyn-stoutford_castle_3_2"></span>**`stoutford_castle_3_2`** [Lord Erwyn](../monsters/erwyn.md#v-erwyn2): “Did you come to serve me? On your knees!”
@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “You are very rude and poorly educated. Maybe I should introduce myself? $playername is my name.” → [stoutford_castle_3c](#d-erwyn-stoutford_castle_3c)
     - “I will serve you - my weapon. Attack!” → [stoutford_castle_5](#d-erwyn-stoutford_castle_5)
 
-    <span id="d-erwyn-stoutford_castle_3_1"></span>**`stoutford_castle_3_1`** [Dummy NPC](../monsters/none.md): “You see a heavily armed and cloaked skeleton moving towards you. This must be Lord Erwyn himself.” — **effects:** sets stage 148 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-148)
+    <span id="d-erwyn-stoutford_castle_3_1"></span>**`stoutford_castle_3_1`** [Dummy NPC](../monsters/none.md): “You see a heavily armed and cloaked skeleton moving towards you. This must be Lord Erwyn himself.” — **effects:** sets stage 148 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-148)
 
     - Next → [stoutford_castle_3_1a](#d-erwyn-stoutford_castle_3_1a)
 
@@ -119,13 +119,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “No. The floor is not clean here.” → [stoutford_castle_4](#d-erwyn-stoutford_castle_4)
 
-    <span id="d-erwyn-stoutford_castle_5"></span>**`stoutford_castle_5`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 48 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-48)
+    <span id="d-erwyn-stoutford_castle_5"></span>**`stoutford_castle_5`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 48 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48)
 
     - branch 1 → *fight starts*
 
     <span id="d-erwyn-stoutford_castle_3_1a"></span>**`stoutford_castle_3_1a`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 49 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49))* → [stoutford_castle_3_2](#d-erwyn-stoutford_castle_3_2)
+    - branch 1 *(if reached stage 49 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-49))* → [stoutford_castle_3_2](#d-erwyn-stoutford_castle_3_2)
     - branch 2 → [stoutford_castle_3a](#d-erwyn-stoutford_castle_3a)
 
     <span id="d-erwyn-stoutford_castle_4"></span>**`stoutford_castle_4`** Lord Erwyn: “You shall die now mortal!”
@@ -200,11 +200,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Stoutford castle0 (erwyn2) { #v-erwyn2 }
+## Flagstone Prison, Stoutford castle 0 (erwyn2) { #v-erwyn2 }
 
 **Entry ID:** `erwyn2` · **Type:** NPC/Enemy
 
-**Location:** Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md#pin-npc-erwyn2)
+**Location:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-erwyn2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -243,21 +243,21 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Stoutford castle 0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- A conversation with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) checks that this enemy has been defeated.
-- A conversation with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md), stepping on a trigger on [wild18](../maps/wild18.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) checks that this enemy has been defeated.
+- A conversation with [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) checks that this enemy has been defeated.
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md), stepping on a trigger on [Wild 18](../maps/wild18.md) checks that this enemy has been defeated.
 
 ### Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 48, 148
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 48, 148
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lord Erwyn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_3.json" data-npc="Lord Erwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

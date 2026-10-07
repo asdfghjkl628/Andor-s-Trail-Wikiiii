@@ -34,7 +34,7 @@ description: "Coconut is a extraordinary food in Andor's Trail. How to get it: c
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-1) (container 2, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-1) (container 2, 100%), Foaming Flask Tavern
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Aroughcun kit is an enemy in Andor's Trail (animal) with 155 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_278.png){ .sprite } Aroughcun kit
 
-**Found in:** Mt. Galmore: [galmore_48](../maps/galmore_48.md), Mt. Galmore: [galmore_58](../maps/galmore_58.md), Mt. Galmore: [galmore_66_house](../maps/galmore_66_house.md), Mt. Galmore: [galmore_68](../maps/galmore_68.md) (+2 more)
+**Found in:** Mt. Galmore: [Galmore 48](../maps/galmore_48.md), Mt. Galmore: [Galmore 58](../maps/galmore_58.md), Mt. Galmore: [Galmore 66 house](../maps/galmore_66_house.md), Mt. Galmore: [Galmore 68](../maps/galmore_68.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -55,12 +55,12 @@ description: "Aroughcun kit is an enemy in Andor's Trail (animal) with 155 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_48](../maps/galmore_48.md) | Mt. Galmore | 3 | – |
-| [galmore_58](../maps/galmore_58.md) | Mt. Galmore | 6 | – |
-| [galmore_66_house](../maps/galmore_66_house.md) | Mt. Galmore | 3 | – |
-| [galmore_68](../maps/galmore_68.md) | Mt. Galmore | 1 | – |
-| [galmore_train_cave](../maps/galmore_train_cave.md) | – | 2 | – |
-| [mt_galmore0_h2](../maps/mt_galmore0_h2.md) | – | 2 | – |
+| [Galmore 48](../maps/galmore_48.md) | Mt. Galmore | 3 | – |
+| [Galmore 58](../maps/galmore_58.md) | Mt. Galmore | 6 | – |
+| [Galmore 66 house](../maps/galmore_66_house.md) | Mt. Galmore | 3 | – |
+| [Galmore 68](../maps/galmore_68.md) | Mt. Galmore | 1 | – |
+| [Galmore train cave](../maps/galmore_train_cave.md) | – | 2 | – |
+| [Mt galmore 0 h 2](../maps/mt_galmore0_h2.md) | – | 2 | – |
 
 
 ## Version history

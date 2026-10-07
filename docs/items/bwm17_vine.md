@@ -27,7 +27,7 @@ description: "Rolled up vine is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) during [Vines in bwm_17 (hidden flag)](../quests/bwm17_vine.md#stage-1) (100%)
+- From stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) during [Blackwater Mountain vines (hidden flag)](../quests/bwm17_vine.md#stage-1) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [blackwater_mountain70](../maps/blackwater_mountain70.md) | [Vines in bwm_17 (hidden flag)](../quests/bwm17_vine.md#stage-2) | handed over (1×) | “Tie the vine to the rock.” |
+| walking into a blocked passage on [Blackwater mountain 70](../maps/blackwater_mountain70.md) | [Blackwater Mountain vines (hidden flag)](../quests/bwm17_vine.md#stage-2) | handed over (1×) | “Tie the vine to the rock.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

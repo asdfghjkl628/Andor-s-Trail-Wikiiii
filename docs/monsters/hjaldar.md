@@ -4,7 +4,7 @@ description: "Hjaldar is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite } Hjaldar
 
-**Where to find Hjaldar:** Remgard: [remgard_villager1](../maps/remgard_villager1.md#pin-npc-hjaldar)
+**Where to find Hjaldar:** Remgard: [Remgard villager 1](../maps/remgard_villager1.md#pin-npc-hjaldar)
 
 <div class="infobox" markdown>
 
@@ -35,7 +35,7 @@ description: "Hjaldar is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hjaldar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hjaldar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hjaldar.json" data-npc="Hjaldar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (32 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hjaldar"></span>**`hjaldar`** *(silent check: the first matching branch below is taken)*
 
@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Ok then. Sorry I couldn't help you. Goodbye.” → “OK then. Sorry I couldn't help you. Goodbye.”<br>· text: “Blackwater Mountain? I'm afraid I don't know where that is. Never min…” → “Blackwater mountain? I'm afraid I don't know where that is. Never min…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “*Hjaldar shakes the vials vigorously, one in each of his hands*” → “[Hjaldar shakes the vials vigorously, one in each of his hands]”<br>· text: “Finally, the Lyson marrow extract..” → “Finally, the Lyson marrow extract...” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

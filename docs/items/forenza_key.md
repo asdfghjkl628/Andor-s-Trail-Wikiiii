@@ -40,8 +40,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (1×) | “Yes.” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | handed over (1×) | “Of course.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (1×) | “Yes.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | handed over (1×) | “Of course.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

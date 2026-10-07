@@ -4,7 +4,7 @@ description: "Reading Prim pupil is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } Reading Prim pupil
 
-**Where to find Reading Prim pupil:** Prim: [blackwater_mountain25](../maps/blackwater_mountain25.md#pin-npc-reading_prim_pupil)
+**Where to find Reading Prim pupil:** Prim: [Blackwater mountain 25](../maps/blackwater_mountain25.md#pin-npc-reading_prim_pupil)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Reading Prim pupil is a non-player character (NPC) in Andor's Trai
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Reading Prim pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Reading Prim pupil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_pupil2.json" data-npc="Reading Prim pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_pupil2"></span>**`prim_pupil2`** Reading Prim pupil: “Can't talk now, I have work to do.”
 

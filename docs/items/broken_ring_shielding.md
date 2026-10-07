@@ -36,7 +36,7 @@ description: "Broken ring of shielding is a rare ring in Andor's Trail (Block ch
 
 ### Found in containers
 
-- [undertell_7_10](../maps/undertell_7_10.md#container-0) (container 1, 100%)
+- [Undertell 7 10](../maps/undertell_7_10.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

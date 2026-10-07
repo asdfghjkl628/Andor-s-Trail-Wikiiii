@@ -38,7 +38,7 @@ description: "Corrupted swamp core is a extraordinary edible animal part in Ando
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 1 | galmore_28 |
+| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 1 | Galmore 28 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,9 +49,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “Yes, and here, I have this thing that proves it. [shows the 'Corrupted swamp cor” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | handed over (1×) | “Oh, yeah, sure. I don't need that thing.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “Yes, and here, I have this thing that proves it. [shows the 'Corrupted swamp cor” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | handed over (1×) | “Oh, yeah, sure. I don't need that thing.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

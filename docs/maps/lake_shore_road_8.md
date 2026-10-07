@@ -12,7 +12,7 @@ description: "Lake shore road 8 is an outdoor location in Andor's Trail, near Fl
 | **Region** | Near Flagstone Prison (other) |
 | **Type** | Outdoors |
 | **Size** | 30×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 3 |

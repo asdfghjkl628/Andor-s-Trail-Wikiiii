@@ -1,8 +1,8 @@
 ---
-description: "Stoutford farmhouse1 is an indoor location in Andor's Trail, in Stoutford (settlement). NPCs: Jan. Exits to Stoutford north-east."
+description: "Stoutford farmhouse 1 is an indoor location in Andor's Trail, in Stoutford (settlement). NPCs: Jan. Exits to Stoutford north-east."
 ---
 
-# Stoutford farmhouse1
+# Stoutford farmhouse 1
 
 <div class="infobox" markdown>
 
@@ -18,13 +18,13 @@ description: "Stoutford farmhouse1 is an indoor location in Andor's Trail, in St
 
 </div>
 
-**Stoutford farmhouse1** is an indoor map, in Stoutford (settlement). It has 1 NPC, and no enemies. Exits lead to Stoutford north-east.
+**Stoutford farmhouse 1** is an indoor map, in Stoutford (settlement). It has 1 NPC, and no enemies. Exits lead to Stoutford north-east.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/stoutford_farmhouse1.webp" alt="Map of Stoutford farmhouse1" width="256" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../stoutford_ne/#place-farmer1" title="Exit to Stoutford north-east" style="left:62.500%;top:87.500%;width:12.500%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Jan" style="left:12.500%;top:37.500%;width:75.000%;height:50.000%"></span><a class="mob" href="../../monsters/jan/#v-stoutford_farmer_jan" title="Jan" style="left:25.000%;top:75.000%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_1.png" alt="Jan"></a><a class="pin pin-exit" href="#key-1" style="left:68.750%;top:93.750%" title="Exit (south): to [Stoutford north-east](stoutford_ne.md)">1</a><a id="pin-npc-stoutford_farmer_jan" class="pin pin-npc" href="#key-2" style="left:31.250%;top:81.250%" title="[Jan](../../monsters/jan.md#v-stoutford_farmer_jan): NPC">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/stoutford_farmhouse1.webp" alt="Map of Stoutford farmhouse 1" width="256" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../stoutford_ne/#place-farmer1" title="Exit to Stoutford north-east" style="left:62.500%;top:87.500%;width:12.500%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Jan" style="left:12.500%;top:37.500%;width:75.000%;height:50.000%"></span><a class="mob" href="../../monsters/jan/#v-stoutford_farmer_jan" title="Jan" style="left:25.000%;top:75.000%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_karvis2_1.png" alt="Jan"></a><a class="pin pin-exit" href="#key-1" style="left:68.750%;top:93.750%" title="Exit (south): to [Stoutford north-east](stoutford_ne.md)">1</a><a id="pin-npc-stoutford_farmer_jan" class="pin pin-npc" href="#key-2" style="left:31.250%;top:81.250%" title="[Jan](../../monsters/jan.md#v-stoutford_farmer_jan): NPC">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 

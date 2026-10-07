@@ -4,7 +4,7 @@ description: "Thelry is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_133.png){ .sprite } Thelry
 
-**Where to find Thelry:** Brimhaven: [brimhaven_armor1](../maps/brimhaven_armor1.md#pin-npc-thelry)
+**Where to find Thelry:** Brimhaven: [Brimhaven armor 1](../maps/brimhaven_armor1.md#pin-npc-thelry)
 
 <div class="infobox" markdown>
 
@@ -35,7 +35,7 @@ description: "Thelry is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thelry. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thelry. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thelry_0.json" data-npc="Thelry" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thelry_0"></span>**`thelry_0`** Thelry: “Hi kid. I'm Thelry, the local armorer. You are too young to need armor though. If you need armor, then you are doing something which could get you hurt. Kids should stay at home, where it's safe.”
 

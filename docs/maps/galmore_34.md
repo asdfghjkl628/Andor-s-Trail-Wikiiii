@@ -1,5 +1,5 @@
 ---
-description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Ridgehowler, Mutated harrowback, Harrowback. Exits to Galmore 24, Galmore 35, Galmore 44, Galmore 33."
+description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Ridgehowler, Harrowback, Mutated harrowback. Exits to Galmore 24, Galmore 35, Galmore 44, Galmore 33."
 ---
 
 # Galmore 34
@@ -12,7 +12,7 @@ description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Region** | Near Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
@@ -54,14 +54,14 @@ description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmo
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Ridgehowler](../monsters/ridgehowler.md) | 180 | 19–19 | 3 | – |
-| [Mutated harrowback](../monsters/mutated_harrowback.md) | 197 | 10–13 | 3 | – |
 | [Harrowback](../monsters/harrowback.md) | 197 | 10–11 | 6 | – |
+| [Mutated harrowback](../monsters/mutated_harrowback.md) | 197 | 10–13 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2
 
 ## Points of interest
 

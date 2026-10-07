@@ -1,10 +1,10 @@
 ---
-description: "Lethgar slave ghost is a non-player character (NPC) in Andor's Trail, found in undertell_1_1."
+description: "Lethgar slave ghost is a non-player character (NPC) in Andor's Trail, found in Undertell 1 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } Lethgar slave ghost
 
-**Where to find Lethgar slave ghost:** [undertell_1_1](../maps/undertell_1_1.md#pin-npc-lethgar_female_ghost)
+**Where to find Lethgar slave ghost:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_female_ghost)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Lethgar slave ghost is a non-player character (NPC) in Andor's Tra
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_1_1 |
+| **Found in** | Undertell 1 1 |
 | **Entry ID** | `lethgar_female_ghost` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -21,11 +21,11 @@ description: "Lethgar slave ghost is a non-player character (NPC) in Andor's Tra
 
 ## Quests
 
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 80, 82
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stages 80, 82
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lethgar slave ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lethgar slave ghost. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_female_ghost_selector.json" data-npc="Lethgar slave ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,11 +33,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lethgar_female_ghost_selector"></span>**`lethgar_female_ghost_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 80 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-80))* → [lethgar_female_ghost_default](#d-lethgar_female_ghost_default)
+    - branch 1 *(if NOT reached stage 80 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-80))* → [lethgar_female_ghost_default](#d-lethgar_female_ghost_default)
     - branch 2 → [lethgar_female_ghost_welcome_10](#d-lethgar_female_ghost_welcome_10)
 
     <span id="d-lethgar_female_ghost_default"></span>**`lethgar_female_ghost_default`** Lethgar slave ghost: “Oh, a real live human here? I don't believe it.”
@@ -46,12 +46,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-lethgar_female_ghost_welcome_10"></span>**`lethgar_female_ghost_welcome_10`** Lethgar slave ghost: “What brings you to me now?”
 
-    - “Can I rest here?” *(if NOT reached stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_no](#d-lethgar_female_ghost_rest_no)
-    - “I would really like to rest here now.” *(if reached stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_yes](#d-lethgar_female_ghost_rest_yes)
+    - “Can I rest here?” *(if NOT reached stage 450 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_no](#d-lethgar_female_ghost_rest_no)
+    - “I would really like to rest here now.” *(if reached stage 450 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_yes](#d-lethgar_female_ghost_rest_yes)
     - “Are you a Lethgar?” *(if reached stage 85 of [No rest for the wicked](../quests/Stanwickquest.md#stage-85))* → [lethgar_female_ghost_lethgar_10](#d-lethgar_female_ghost_lethgar_10)
     - “Nothing right now. Thanks anyway.” → *conversation ends*
 
-    <span id="d-lethgar_female_ghost_pinch_10"></span>**`lethgar_female_ghost_pinch_10`** Lethgar slave ghost: “She reaches out and pinches your arm to confirm that you are in fact human.” — **effects:** sets stage 80 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-80)
+    <span id="d-lethgar_female_ghost_pinch_10"></span>**`lethgar_female_ghost_pinch_10`** Lethgar slave ghost: “She reaches out and pinches your arm to confirm that you are in fact human.” — **effects:** sets stage 80 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-80)
 
     - “Ouch!” → [lethgar_female_ghost_welcome_10](#d-lethgar_female_ghost_welcome_10)
 
@@ -59,7 +59,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “What is that supposed to mean?” → [lethgar_female_ghost_rest_no_explain](#d-lethgar_female_ghost_rest_no_explain)
 
-    <span id="d-lethgar_female_ghost_rest_yes"></span>**`lethgar_female_ghost_rest_yes`** Lethgar slave ghost: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.” — **effects:** sets stage 82 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-82)
+    <span id="d-lethgar_female_ghost_rest_yes"></span>**`lethgar_female_ghost_rest_yes`** Lethgar slave ghost: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.” — **effects:** sets stage 82 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-82)
 
     - “Finally! Thank you.” → *conversation ends*
 
@@ -92,8 +92,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-lethgar_female_ghost_lethgar_60"></span>**`lethgar_female_ghost_lethgar_60`** Lethgar slave ghost: “Good. You should be troubled. It means you have not yet stopped thinking for yourself. Now, was there something else you needed?”
 
-    - “Can I rest here?” *(if NOT reached stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_no](#d-lethgar_female_ghost_rest_no)
-    - “I would really like to rest here now.” *(if reached stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_yes](#d-lethgar_female_ghost_rest_yes)
+    - “Can I rest here?” *(if NOT reached stage 450 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_no](#d-lethgar_female_ghost_rest_no)
+    - “I would really like to rest here now.” *(if reached stage 450 of [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-450); reached stage 81 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-81))* → [lethgar_female_ghost_rest_yes](#d-lethgar_female_ghost_rest_yes)
     - “Nothing else. Thank you.” → *conversation ends*
 
 

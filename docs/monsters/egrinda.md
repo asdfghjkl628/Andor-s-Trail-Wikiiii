@@ -1,10 +1,10 @@
 ---
-description: "Egrinda is an NPC who can also be fought in Andor's Trail, found in way_to_sullengard_west_3."
+description: "Egrinda is an NPC who can also be fought in Andor's Trail, found in Way to sullengard west 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_146.png){ .sprite } Egrinda
 
-**Where to find Egrinda:** [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md#pin-npc-egrinda)
+**Where to find Egrinda:** [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md#pin-npc-egrinda)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Egrinda is an NPC who can also be fought in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | way_to_sullengard_west_3 |
+| **Found in** | Way to sullengard west 3 |
 | **Class** | Humanoid |
 | **HP** | 255 |
 | **XP when defeated** | 989 |
@@ -64,15 +64,15 @@ description: "Egrinda is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md) | – | 1 | Appears later, during a quest |
+| [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 61
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 61
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Egrinda. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Egrinda. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/egrinda_selector.json" data-npc="Egrinda" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -80,11 +80,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-egrinda_selector"></span>**`egrinda_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 61 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-61))* → [egrinda_already_given_gold_10](#d-egrinda_already_given_gold_10)
+    - branch 1 *(if reached stage 61 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-61))* → [egrinda_already_given_gold_10](#d-egrinda_already_given_gold_10)
     - branch 2 → [egrinda_wants_gold_10](#d-egrinda_wants_gold_10)
 
     <span id="d-egrinda_already_given_gold_10"></span>**`egrinda_already_given_gold_10`** Egrinda: “This gold will really help me rebuild my life. Now I just need to decide where to do that.”
@@ -122,7 +122,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Oh, you mean that gold that now belongs to me? It's now mine.” → [egrinda_wants_gold_fight](#d-egrinda_wants_gold_fight)
     - “[Lie] Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]” → [egrinda_wants_gold_lier](#d-egrinda_wants_gold_lier)
 
-    <span id="d-egrinda_wants_gold_reward_qs61"></span>**`egrinda_wants_gold_reward_qs61`** Egrinda: “Thank you very much!” — **effects:** sets stage 61 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-61)
+    <span id="d-egrinda_wants_gold_reward_qs61"></span>**`egrinda_wants_gold_reward_qs61`** Egrinda: “Thank you very much!” — **effects:** sets stage 61 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-61)
 
     - Next → [egrinda_already_given_gold_10](#d-egrinda_already_given_gold_10)
 

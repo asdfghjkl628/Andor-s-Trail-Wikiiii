@@ -4,7 +4,7 @@ description: "Small stone worm is an enemy in Andor's Trail (reptile) with 17 HP
 
 # ![](../assets/icons/monsters/monsters_snakes_0.png){ .sprite } Small stone worm
 
-**Found in:** Flagstone Prison: [lake_shore_road_1](../maps/lake_shore_road_1.md), [mywildcave](../maps/mywildcave.md), [mywildcave1](../maps/mywildcave1.md), [mywildcave2](../maps/mywildcave2.md) (+1 more)
+**Found in:** Flagstone Prison: [Lake shore road 1](../maps/lake_shore_road_1.md), [Mywildcave](../maps/mywildcave.md), [Mywildcave 1](../maps/mywildcave1.md), [Mywildcave 2](../maps/mywildcave2.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Small stone worm is an enemy in Andor's Trail (reptile) with 17 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_1](../maps/lake_shore_road_1.md) | Flagstone Prison | 2 | – |
-| [mywildcave](../maps/mywildcave.md) | – | 9 | – |
-| [mywildcave1](../maps/mywildcave1.md) | – | 3 | – |
-| [mywildcave2](../maps/mywildcave2.md) | – | 2 | – |
-| [mywildcave3](../maps/mywildcave3.md) | – | 3 | – |
+| [Lake shore road 1](../maps/lake_shore_road_1.md) | Flagstone Prison | 2 | – |
+| [Mywildcave](../maps/mywildcave.md) | – | 9 | – |
+| [Mywildcave 1](../maps/mywildcave1.md) | – | 3 | – |
+| [Mywildcave 2](../maps/mywildcave2.md) | – | 2 | – |
+| [Mywildcave 3](../maps/mywildcave3.md) | – | 3 | – |
 
 
 ## Version history

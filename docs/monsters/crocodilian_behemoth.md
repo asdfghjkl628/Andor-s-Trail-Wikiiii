@@ -1,10 +1,10 @@
 ---
-description: "Crocodilian behemoth is an enemy in Andor's Trail (reptile) with 130 HP, worth 554 XP, found in galmore_17, galmore_19, galmore_28. Drops: Duskbloom."
+description: "Crocodilian behemoth is an enemy in Andor's Trail (reptile) with 130 HP, worth 554 XP, found in Galmore 17, Galmore 19, Galmore 28. Drops: Duskbloom."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_459.png){ .sprite } Crocodilian behemoth
 
-**Found in:** [galmore_17](../maps/galmore_17.md), [galmore_19](../maps/galmore_19.md), [galmore_28](../maps/galmore_28.md), [galmore_38](../maps/galmore_38.md) (+1 more)
+**Found in:** [Galmore 17](../maps/galmore_17.md), [Galmore 19](../maps/galmore_19.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Crocodilian behemoth is an enemy in Andor's Trail (reptile) with 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_17, galmore_19, galmore_28 |
+| **Found in** | Galmore 17, Galmore 19, Galmore 28 |
 | **Class** | Reptile |
 | **HP** | 130 |
 | **XP when defeated** | 554 |
@@ -54,11 +54,11 @@ description: "Crocodilian behemoth is an enemy in Andor's Trail (reptile) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_17](../maps/galmore_17.md) | – | 1 | – |
-| [galmore_19](../maps/galmore_19.md) | – | 2 | – |
-| [galmore_28](../maps/galmore_28.md) | – | 3 | – |
-| [galmore_38](../maps/galmore_38.md) | – | 2 | – |
-| [galmore_39](../maps/galmore_39.md) | – | 2 | – |
+| [Galmore 17](../maps/galmore_17.md) | – | 1 | – |
+| [Galmore 19](../maps/galmore_19.md) | – | 2 | – |
+| [Galmore 28](../maps/galmore_28.md) | – | 3 | – |
+| [Galmore 38](../maps/galmore_38.md) | – | 2 | – |
+| [Galmore 39](../maps/galmore_39.md) | – | 2 | – |
 
 
 ## Version history

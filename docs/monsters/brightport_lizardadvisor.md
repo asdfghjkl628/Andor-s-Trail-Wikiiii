@@ -4,7 +4,7 @@ description: "Tail-swing-tyliad is an NPC who can also be fought in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_johny_1.png){ .sprite } Tail-swing-tyliad
 
-**Where to find Tail-swing-tyliad:** Greenscale tribe: [brightport_lizard1](../maps/brightport_lizard1.md#pin-npc-brightport_lizardadvisor)
+**Where to find Tail-swing-tyliad:** Greenscale tribe: [Brightport lizard 1](../maps/brightport_lizard1.md#pin-npc-brightport_lizardadvisor)
 
 <div class="infobox" markdown>
 
@@ -59,15 +59,15 @@ description: "Tail-swing-tyliad is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_lizard1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
+| [Brightport lizard 1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
 
 ## Quests that count defeats
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [brightport_cave17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-120) with stepping on a trigger on [Brightport cave 17](../maps/brightport_cave17.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tail-swing-tyliad. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tail-swing-tyliad. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_tyliad.json" data-npc="Tail-swing-tyliad" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_tyliad"></span>**`brightport_tyliad`** *(silent check: the first matching branch below is taken)*
 

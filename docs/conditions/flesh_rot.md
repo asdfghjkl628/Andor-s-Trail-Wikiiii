@@ -28,9 +28,9 @@ description: "Flesh rot is a harmful physical condition in Andor's Trail: block 
 | Block chance | −5 |
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -41,9 +41,9 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | When it hits you | 4 | 2 rounds | 25% | elm5f_1, elm5f_2, elm_4f_2 |
-| [Revenant](../monsters/revenant.md) | When it hits you | 2 | 3 rounds | 20% | waterwayacave2, waterwayacave3, waterwayacave4 |
-| [Revenant servant](../monsters/revenant_servant.md) | When it hits you | 1 | 3 rounds | 10% | waterwayacave2, waterwayacave3, waterwayacave4 |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | When it hits you | 4 | 2 rounds | 25% | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Revenant](../monsters/revenant.md) | When it hits you | 2 | 3 rounds | 20% | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
+| [Revenant servant](../monsters/revenant_servant.md) | When it hits you | 1 | 3 rounds | 10% | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
 
 ## Applied to enemies
 
@@ -51,17 +51,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | On itself, when it hits you | 4 | 2 rounds | 25% | elm5f_1, elm5f_2, elm_4f_2 |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | On itself, when it hits you | 4 | 2 rounds | 25% | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

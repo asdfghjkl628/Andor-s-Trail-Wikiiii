@@ -19,18 +19,18 @@ description: "Stebbarik is a non-player character (NPC) in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Stebbarik. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Stebbarik. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_employee`](#v-brv_employee) | NPC | Brimhaven: [brimhaven_employee](../maps/brimhaven_employee.md#pin-npc-brv_employee) | starts [Work for debts](../quests/brv_employee.md) |
-| [`brv_employee2`](#v-brv_employee2) | NPC | Brimhaven: [brimhaven_tavern1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2) | – |
+| [`brv_employee`](#v-brv_employee) | NPC | Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee) | starts [Work for debts](../quests/brv_employee.md) |
+| [`brv_employee2`](#v-brv_employee2) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2) | – |
 
 ## Brimhaven, Brimhaven employee (brv_employee) { #v-brv_employee }
 
 **Entry ID:** `brv_employee` · **Type:** NPC · **Role:** Starts [Work for debts](../quests/brv_employee.md)
 
-**Location:** Brimhaven: [brimhaven_employee](../maps/brimhaven_employee.md#pin-npc-brv_employee)
+**Location:** Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee)
 
 ### Quests
 
@@ -38,7 +38,7 @@ description: "Stebbarik is a non-player character (NPC) in Andor's Trail, found 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stebbarik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stebbarik. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_employee.json" data-npc="Stebbarik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_employee-brv_employee"></span>**`brv_employee`** *(silent check: the first matching branch below is taken)*
 
@@ -137,15 +137,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven tavern1 (brv_employee2) { #v-brv_employee2 }
+## Brimhaven, Brimhaven tavern 1 (brv_employee2) { #v-brv_employee2 }
 
 **Entry ID:** `brv_employee2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2)
+**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stebbarik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stebbarik. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_employee2.json" data-npc="Stebbarik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -153,9 +153,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brv_employee2-brv_employee2"></span>**`brv_employee2`** Stebbarik: “Hey kid! Come and have a drink with me!” — **effects:** clears stage 11 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-11)
+    <span id="d-brv_employee2-brv_employee2"></span>**`brv_employee2`** Stebbarik: “Hey kid! Come and have a drink with me!” — **effects:** clears stage 11 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-11)
 
     - “No, thank you.” → *conversation ends*
     - “I thought you were ill?” *(if reached stage 90 of [Work for debts](../quests/brv_employee.md#stage-90))* → [brv_employee2_10](#d-brv_employee2-brv_employee2_10)

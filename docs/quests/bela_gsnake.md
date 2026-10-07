@@ -38,30 +38,50 @@ Start with [Bela](../monsters/bela.md). Required:
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Everything in order](remgard.md#stage-10) | stage 10 reached, for stage 10 here |
-| Unlocks | [Room to rent (hidden flag)](fallhaventavern.md#stage-10) | stage 10 there needs stage 90 here |
+| Unlocks | [Fallhaven tavern room (hidden flag)](fallhaventavern.md#stage-10) | stage 10 there needs stage 90 here |
 | Unlocks | [You shall pass](undertell_barricades.md#stage-150) | stage 150 there needs stage 90 here |
 | Unlocks | [A Wicked witch](wicked_witch.md#stage-10) | stage 10 there needs stage 90 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I heard rumours of a giant snake to the south of Fallhaven. | [Bela](../monsters/bela.md) | – | spawns monsters on gapfiller2 |
-| <span id="stage-90"></span>90 | Bela was happy that I freed Fallhaven from the threat of this monstrous snake. **(completes quest)** | [Bela](../monsters/bela.md) | – | 1,000 XP<br>gives 1× [Mead](../items/mead.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | I heard rumours of a giant snake to the south of Fallhaven. | [Bela](../monsters/bela.md) | spawns monsters on gapfiller2 |
+| <span id="stage-90"></span>[90](#route-90) | Bela was happy that I freed Fallhaven from the threat of this monstrous snake. **(ends quest)** | [Bela](../monsters/bela.md) | 1,000 XP, 1× [Mead](../items/mead.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bela](../monsters/bela.md) → choose “Of course I'll go there.” — **conditions:** reached stage 10 of [Everything in order](../quests/remgard.md#stage-10) → **stage 10**; also spawns monsters on gapfiller2. NPC: “What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern.”
+??? note "Stage 10 · Bela · 1 way"
 
-???+ note "Stage 90: 1 route"
+    **Way 1:** Talk to [Bela](../monsters/bela.md), choose “Of course I'll go there.”
 
-    1. Talk to [Bela](../monsters/bela.md) → choose “Sure. And your little snake monster is no more.” — **conditions:** killed 1× [Giant snake](../monsters/giant_snake.md) → **stage 90**; also gives 1× [Mead](../items/mead.md). NPC: “Incredible! Let's feast now! Everyone have a free drink!”
+    - **Needs:** reached stage 10 of [Everything in order](../quests/remgard.md#stage-10)
+    - **Gives:** spawns monsters on gapfiller2
+    - *“What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Bela · 1 way"
+
+    **Way 1:** Talk to [Bela](../monsters/bela.md), choose “Sure. And your little snake monster is no more.”
+
+    - **Needs:** killed 1× [Giant snake](../monsters/giant_snake.md)
+    - **Gives:** 1× [Mead](../items/mead.md)
+    - *“Incredible! Let's feast now! Everyone have a free drink!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

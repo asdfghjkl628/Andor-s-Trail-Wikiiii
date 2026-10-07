@@ -25,7 +25,7 @@ description: "Vial of Lyson marrow extract is a quest other in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From [Mazeg](../monsters/mazeg.md) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) during [A difference of opinion](../quests/sisterfight.md#stage-55) (100%)
+- From [Mazeg](../monsters/mazeg.md) ([Blackwater mountain 43](../maps/blackwater_mountain43.md)) during [A difference of opinion](../quests/sisterfight.md#stage-55) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hjaldar](../monsters/hjaldar.md) ([remgard_villager1](../maps/remgard_villager1.md)) | [A difference of opinion](../quests/sisterfight.md#stage-60) | handed over (1×) | “Yes, I brought you some Lyson marrow extract.” |
+| [Hjaldar](../monsters/hjaldar.md) ([Remgard villager 1](../maps/remgard_villager1.md)) | [A difference of opinion](../quests/sisterfight.md#stage-60) | handed over (1×) | “Yes, I brought you some Lyson marrow extract.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

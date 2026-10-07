@@ -1,10 +1,10 @@
 ---
-description: "Ancient ogre is an enemy in Andor's Trail (giant) with 430 HP, worth 647 XP, found in ratdom_maze_517a. Drops: Gold coins, Iron club."
+description: "Ancient ogre is an enemy in Andor's Trail (giant) with 430 HP, worth 647 XP, found in Ratdom maze 517a. Drops: Gold coins, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_14.png){ .sprite } Ancient ogre
 
-**Found in:** [ratdom_maze_517a](../maps/ratdom_maze_517a.md)
+**Found in:** [Ratdom maze 517a](../maps/ratdom_maze_517a.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient ogre is an enemy in Andor's Trail (giant) with 430 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | ratdom_maze_517a |
+| **Found in** | Ratdom maze 517a |
 | **Class** | Giant |
 | **HP** | 430 |
 | **XP when defeated** | 647 |
@@ -57,11 +57,11 @@ description: "Ancient ogre is an enemy in Andor's Trail (giant) with 430 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_517a](../maps/ratdom_maze_517a.md) | – | 5 | – |
+| [Ratdom maze 517a](../maps/ratdom_maze_517a.md) | – | 5 | – |
 
 ## Quests that count defeats
 
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-169) with stepping on a trigger on [ratdom_maze_517a](../maps/ratdom_maze_517a.md) checks that at least 5 of these enemies have been defeated.
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-169) with stepping on a trigger on [Ratdom maze 517a](../maps/ratdom_maze_517a.md) checks that at least 5 of these enemies have been defeated.
 
 
 ## Version history

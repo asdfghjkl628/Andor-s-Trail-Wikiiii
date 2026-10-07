@@ -39,8 +39,8 @@ description: "Jewel of Fallhaven is a rare necklace in Andor's Trail (Attack cos
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [fallhaven_clothes](../maps/fallhaven_clothes.md) during [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-65) (1×)
-- From stepping on a trigger on [undertell_exit](../maps/undertell_exit.md) during [Undertell: What was not written](../quests/undertell_book.md#stage-10) (1×)
+- From walking into a blocked passage on [Fallhaven clothes](../maps/fallhaven_clothes.md) during [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-65) (1×)
+- From stepping on a trigger on [Undertell exit](../maps/undertell_exit.md) during [Undertell: What was not written](../quests/undertell_book.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -51,9 +51,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tailor](../monsters/tailor.md) ([fallhaven_clothes](../maps/fallhaven_clothes.md)) | – | must be worn (1×) | “Let me see your wares.” |
-| stepping on a trigger on [fallhaven_clothes](../maps/fallhaven_clothes.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69) | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [fallhaven_clothes](../maps/fallhaven_clothes.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69) | must be worn (1×) | “(automatic)” |
+| [Tailor](../monsters/tailor.md) ([Fallhaven clothes](../maps/fallhaven_clothes.md)) | – | must be worn (1×) | “Let me see your wares.” |
+| stepping on a trigger on [Fallhaven clothes](../maps/fallhaven_clothes.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69) | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Fallhaven clothes](../maps/fallhaven_clothes.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

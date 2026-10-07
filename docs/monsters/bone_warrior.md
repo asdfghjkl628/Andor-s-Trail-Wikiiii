@@ -4,7 +4,7 @@ description: "Bone warrior is an enemy in Andor's Trail (construct) with 32 HP, 
 
 # ![](../assets/icons/monsters/monsters_skeleton1_0.png){ .sprite } Bone warrior
 
-**Found in:** Flagstone Prison: [flagstone1](../maps/flagstone1.md), Flagstone Prison: [flagstone2](../maps/flagstone2.md), Flagstone Prison: [flagstone_inner](../maps/flagstone_inner.md), Flagstone Prison: [flagstone_upper](../maps/flagstone_upper.md) (+3 more)
+**Found in:** Flagstone Prison: [Flagstone 1](../maps/flagstone1.md), Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), Flagstone Prison: [Flagstone inner](../maps/flagstone_inner.md), Flagstone Prison: [Flagstone upper](../maps/flagstone_upper.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -62,13 +62,13 @@ description: "Bone warrior is an enemy in Andor's Trail (construct) with 32 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
-| [flagstone3](../maps/flagstone3.md) | – | 4 | – |
-| [flagstone_inner](../maps/flagstone_inner.md) | Flagstone Prison | 1 | – |
-| [flagstone_upper](../maps/flagstone_upper.md) | Flagstone Prison | 4 | – |
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 2 | – |
-| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 6 | – |
+| [Flagstone 1](../maps/flagstone1.md) | Flagstone Prison | 1 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
+| [Flagstone 3](../maps/flagstone3.md) | – | 4 | – |
+| [Flagstone inner](../maps/flagstone_inner.md) | Flagstone Prison | 1 | – |
+| [Flagstone upper](../maps/flagstone_upper.md) | Flagstone Prison | 4 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 2 | – |
+| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 6 | – |
 
 
 ## Version history

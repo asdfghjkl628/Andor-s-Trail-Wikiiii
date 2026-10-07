@@ -1,10 +1,10 @@
 ---
-description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, worth 587 XP, found in haunted_cemetery1, haunted_cemetery2, haunted_forest17. Drops: Gold coins, Tonic of blood."
+description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, worth 587 XP, found in Haunted cemetery 1, Haunted cemetery 2, Haunted forest 17. Drops: Gold coins, Tonic of blood."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_4.png){ .sprite } Grieveless dead
 
-**Found in:** [haunted_cemetery1](../maps/haunted_cemetery1.md), [haunted_cemetery2](../maps/haunted_cemetery2.md), [haunted_forest17](../maps/haunted_forest17.md), [haunted_forest20](../maps/haunted_forest20.md) (+9 more)
+**Found in:** [Haunted cemetery 1](../maps/haunted_cemetery1.md), [Haunted cemetery 2](../maps/haunted_cemetery2.md), [Haunted forest 17](../maps/haunted_forest17.md), [Haunted forest 20](../maps/haunted_forest20.md) (+9 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_cemetery1, haunted_cemetery2, haunted_forest17 |
+| **Found in** | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 17 |
 | **Class** | Ghost |
 | **HP** | 189 |
 | **XP when defeated** | 587 |
@@ -61,19 +61,19 @@ description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_cemetery1](../maps/haunted_cemetery1.md) | – | 7 | – |
-| [haunted_cemetery2](../maps/haunted_cemetery2.md) | – | 1 | – |
-| [haunted_forest17](../maps/haunted_forest17.md) | – | 1 | – |
-| [haunted_forest20](../maps/haunted_forest20.md) | – | 1 | – |
-| [haunted_forest21](../maps/haunted_forest21.md) | – | 3 | – |
-| [haunted_forest22](../maps/haunted_forest22.md) | – | 2 | – |
-| [haunted_forest23](../maps/haunted_forest23.md) | – | 1 | – |
-| [haunted_forest24](../maps/haunted_forest24.md) | – | 1 | – |
-| [haunted_forest25](../maps/haunted_forest25.md) | – | 4 | – |
-| [haunted_forest9](../maps/haunted_forest9.md) | – | 4 | – |
-| [haunted_forest_way_to_house2](../maps/haunted_forest_way_to_house2.md) | – | 1 | – |
-| [haunted_forest_way_to_house5](../maps/haunted_forest_way_to_house5.md) | – | 1 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
+| [Haunted cemetery 1](../maps/haunted_cemetery1.md) | – | 7 | – |
+| [Haunted cemetery 2](../maps/haunted_cemetery2.md) | – | 1 | – |
+| [Haunted forest 17](../maps/haunted_forest17.md) | – | 1 | – |
+| [Haunted forest 20](../maps/haunted_forest20.md) | – | 1 | – |
+| [Haunted forest 21](../maps/haunted_forest21.md) | – | 3 | – |
+| [Haunted forest 22](../maps/haunted_forest22.md) | – | 2 | – |
+| [Haunted forest 23](../maps/haunted_forest23.md) | – | 1 | – |
+| [Haunted forest 24](../maps/haunted_forest24.md) | – | 1 | – |
+| [Haunted forest 25](../maps/haunted_forest25.md) | – | 4 | – |
+| [Haunted forest 9](../maps/haunted_forest9.md) | – | 4 | – |
+| [Haunted forest way to house 2](../maps/haunted_forest_way_to_house2.md) | – | 1 | – |
+| [Haunted forest way to house 5](../maps/haunted_forest_way_to_house5.md) | – | 1 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
 
 
 ## Version history

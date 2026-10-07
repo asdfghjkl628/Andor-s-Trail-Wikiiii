@@ -28,9 +28,9 @@ description: "Venom is a harmful blood condition in Andor's Trail: max HP −2, 
 | Max HP | −2 |
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -47,24 +47,24 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Cave serpent](../monsters/cave_serpent.md) | When it hits you | 1 | 2 rounds | 10% | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
+| [Cave serpent](../monsters/cave_serpent.md) | When it hits you | 1 | 2 rounds | 10% | Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3 |
 | [Giant snake](../monsters/giant_snake.md) | When it hits you | 2 | 4 rounds | 50% | Fallhaven |
-| [Shadowfang](../monsters/shadowfang1.md) | When it hits you | 2 | 4 rounds | 10% | blackwater_mountain76, elm_2f_1, elm_2f_3 |
+| [Shadowfang](../monsters/shadowfang1.md) | When it hits you | 2 | 4 rounds | 10% | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
 | [Steelthorn hexileg](../monsters/steelthorn_hexileg.md) | When it hits you | 2 | 4 rounds | 25% | Flagstone Prison |
-| [Tough cave serpent](../monsters/tough_cave_serpent.md) | When it hits you | 1 | 3 rounds | 10% | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
-| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | When it hits you | 1 | 3 rounds | 10% | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
-| [Young cave serpent](../monsters/young_cave_serpent.md) | When it hits you | 1 | 2 rounds | 10% | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
+| [Tough cave serpent](../monsters/tough_cave_serpent.md) | When it hits you | 1 | 3 rounds | 10% | Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5 |
+| [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | When it hits you | 1 | 3 rounds | 10% | Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5 |
+| [Young cave serpent](../monsters/young_cave_serpent.md) | When it hits you | 1 | 2 rounds | 10% | Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Pure Blood](../skills/resistanceBlood.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Pure Blood](../skills/resistanceBlood.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Immunity** from [Ring of poison immunity](../items/ring_antipoison.md) (while equipped; while equipped).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

@@ -28,7 +28,7 @@ description: "Spider fang is a ordinary animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Queen spider](../monsters/spider_queen.md) | 65% | 1-2 | laerothcave2, secretpassage1, undertell_1_1 |
+| [Queen spider](../monsters/spider_queen.md) | 65% | 1-2 | Laerothcave 2, Secretpassage 1, Undertell 1 1 |
 | [Basement spider](../monsters/laerothbasement_spider.md) | 34% | 1 | Lake Laeroth |
 | [Giant spider](../monsters/spider_massive.md) | 34% | 1 | Lake Laeroth |
 | [Grass spider](../monsters/grass_spider.md) | 34% | 1 | Mt. Galmore, Flagstone Prison, Wexlow Village |

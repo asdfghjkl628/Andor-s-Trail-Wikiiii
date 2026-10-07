@@ -40,10 +40,10 @@ description: "Heavy iron gloves is a ordinary gloves, metal (heavy) in Andor's T
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zortak scout](../monsters/zortak1.md) | 5% | 1 | lodar14, lodar18, lodar7 |
-| [Zortak fighter](../monsters/zortak2.md) | 5% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak guard](../monsters/zortak3.md) | 5% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak barbarian](../monsters/zortak4.md) | 5% | 1 | lodar18, lodar8 |
+| [Zortak scout](../monsters/zortak1.md) | 5% | 1 | Lodar 14, Lodar 18, Lodar 7 |
+| [Zortak fighter](../monsters/zortak2.md) | 5% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak guard](../monsters/zortak3.md) | 5% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak barbarian](../monsters/zortak4.md) | 5% | 1 | Lodar 18, Lodar 8 |
 
 ### Sold by
 
@@ -51,7 +51,7 @@ description: "Heavy iron gloves is a ordinary gloves, metal (heavy) in Andor's T
 
 ### Found in containers
 
-- [shortcut_lodar2](../maps/shortcut_lodar2.md#container-0) (container 1, 100%)
+- [Shortcut lodar 2](../maps/shortcut_lodar2.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

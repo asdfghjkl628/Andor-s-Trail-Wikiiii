@@ -1,10 +1,10 @@
 ---
-description: "Enraged yellowjacket is an enemy in Andor's Trail (insect) with 66 HP, worth 179 XP, found in lodar14, lodar15. Drops: Gold coins, Insect wing."
+description: "Enraged yellowjacket is an enemy in Andor's Trail (insect) with 66 HP, worth 179 XP, found in Lodar 14, Lodar 15. Drops: Gold coins, Insect wing."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_171.png){ .sprite } Enraged yellowjacket
 
-**Found in:** [lodar14](../maps/lodar14.md), [lodar15](../maps/lodar15.md)
+**Found in:** [Lodar 14](../maps/lodar14.md), [Lodar 15](../maps/lodar15.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Enraged yellowjacket is an enemy in Andor's Trail (insect) with 66
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar14, lodar15 |
+| **Found in** | Lodar 14, Lodar 15 |
 | **Class** | Insect |
 | **HP** | 66 |
 | **XP when defeated** | 179 |
@@ -57,8 +57,8 @@ description: "Enraged yellowjacket is an enemy in Andor's Trail (insect) with 66
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar14](../maps/lodar14.md) | – | 5 | – |
-| [lodar15](../maps/lodar15.md) | – | 3 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 5 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 3 | – |
 
 
 ## Version history

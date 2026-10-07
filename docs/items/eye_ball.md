@@ -28,7 +28,7 @@ description: "Bat eye is a ordinary animal part in Andor's Trail. How to get it:
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Three-eyed bat](../monsters/three_eyed_bat.md) | 25% | 1-3 | haunted_underground_1, haunted_underground_2, haunted_underground_3 |
+| [Three-eyed bat](../monsters/three_eyed_bat.md) | 25% | 1-3 | Haunted underground 1, Haunted underground 2, Haunted underground 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

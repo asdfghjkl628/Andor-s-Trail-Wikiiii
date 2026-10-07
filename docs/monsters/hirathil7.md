@@ -1,10 +1,10 @@
 ---
-description: "Ancient hirathil ghost is an enemy in Andor's Trail (ghost) with 92 HP, worth 373 XP, found in lodarcave4a, lodarcave5, lodarcave6. Drops: Small empty vial, Glass gem, Runed scepter."
+description: "Ancient hirathil ghost is an enemy in Andor's Trail (ghost) with 92 HP, worth 373 XP, found in Lodarcave 4a, Lodarcave 5, Lodarcave 6. Drops: Small empty vial, Glass gem, Runed scepter."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_43.png){ .sprite } Ancient hirathil ghost
 
-**Found in:** [lodarcave4a](../maps/lodarcave4a.md), [lodarcave5](../maps/lodarcave5.md), [lodarcave6](../maps/lodarcave6.md), [lodarcave7](../maps/lodarcave7.md) (+1 more)
+**Found in:** [Lodarcave 4a](../maps/lodarcave4a.md), [Lodarcave 5](../maps/lodarcave5.md), [Lodarcave 6](../maps/lodarcave6.md), [Lodarcave 7](../maps/lodarcave7.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient hirathil ghost is an enemy in Andor's Trail (ghost) with 9
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodarcave4a, lodarcave5, lodarcave6 |
+| **Found in** | Lodarcave 4a, Lodarcave 5, Lodarcave 6 |
 | **Class** | Ghost |
 | **HP** | 92 |
 | **XP when defeated** | 373 |
@@ -60,11 +60,11 @@ description: "Ancient hirathil ghost is an enemy in Andor's Trail (ghost) with 9
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodarcave4a](../maps/lodarcave4a.md) | – | 13 | – |
-| [lodarcave5](../maps/lodarcave5.md) | – | 1 | – |
-| [lodarcave6](../maps/lodarcave6.md) | – | 3 | – |
-| [lodarcave7](../maps/lodarcave7.md) | – | 1 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 1 | – |
+| [Lodarcave 4a](../maps/lodarcave4a.md) | – | 13 | – |
+| [Lodarcave 5](../maps/lodarcave5.md) | – | 1 | – |
+| [Lodarcave 6](../maps/lodarcave6.md) | – | 3 | – |
+| [Lodarcave 7](../maps/lodarcave7.md) | – | 1 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 1 | – |
 
 
 ## Version history

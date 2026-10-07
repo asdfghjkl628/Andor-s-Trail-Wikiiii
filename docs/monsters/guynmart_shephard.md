@@ -18,22 +18,22 @@ description: "Shepherd is a non-player character (NPC) in Andor's Trail, found i
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Shepherd. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Shepherd. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_shephard`](#v-guynmart_shephard) | NPC | Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard) | – |
-| [`guynmart_shephard2`](#v-guynmart_shephard2) | NPC | Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2) | – |
+| [`guynmart_shephard`](#v-guynmart_shephard) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard) | – |
+| [`guynmart_shephard2`](#v-guynmart_shephard2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2) | – |
 
 ## Guynmart Castle, Guynmart wood 9 (guynmart_shephard) { #v-guynmart_shephard }
 
 **Entry ID:** `guynmart_shephard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard)
+**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shepherd. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shepherd. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_shephard_10.json" data-npc="Shepherd" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_shephard-guynmart_shephard_10"></span>**`guynmart_shephard_10`** *(silent check: the first matching branch below is taken)*
 
@@ -102,11 +102,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_shephard2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2)
+**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shepherd. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shepherd. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_shephard_10.json" data-npc="Shepherd" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

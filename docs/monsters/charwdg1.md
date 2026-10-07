@@ -4,7 +4,7 @@ description: "Puny Charwood goblin is an enemy in Andor's Trail (humanoid) with 
 
 # ![](../assets/icons/monsters/monsters_rltiles4_17.png){ .sprite } Puny Charwood goblin
 
-**Found in:** Charwood: [lostmine1](../maps/lostmine1.md), Charwood: [lostmine2](../maps/lostmine2.md), Charwood: [minerhouse1](../maps/minerhouse1.md), Charwood: [minerhouse2](../maps/minerhouse2.md) (+7 more)
+**Found in:** Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Lostmine 2](../maps/lostmine2.md), Charwood: [Minerhouse 1](../maps/minerhouse1.md), Charwood: [Minerhouse 2](../maps/minerhouse2.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -58,17 +58,17 @@ description: "Puny Charwood goblin is an enemy in Andor's Trail (humanoid) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine1](../maps/lostmine1.md) | Charwood | 3 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 1 | – |
-| [minerhouse1](../maps/minerhouse1.md) | Charwood | 3 | – |
-| [minerhouse2](../maps/minerhouse2.md) | Charwood | 2 | – |
-| [minerhouse3](../maps/minerhouse3.md) | Charwood | 1 | – |
-| [minerhouse8](../maps/minerhouse8.md) | Charwood | 2 | – |
-| [minerhouse9](../maps/minerhouse9.md) | Charwood | 2 | – |
-| [waytolostmine0](../maps/waytolostmine0.md) | Charwood | 2 | – |
-| [waytolostmine1](../maps/waytolostmine1.md) | Charwood | 15 | – |
-| [waytolostmine2](../maps/waytolostmine2.md) | Charwood | 5 | – |
-| [waytolostmine3](../maps/waytolostmine3.md) | Charwood | 1 | – |
+| [Lostmine 1](../maps/lostmine1.md) | Charwood | 3 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 1 | – |
+| [Minerhouse 1](../maps/minerhouse1.md) | Charwood | 3 | – |
+| [Minerhouse 2](../maps/minerhouse2.md) | Charwood | 2 | – |
+| [Minerhouse 3](../maps/minerhouse3.md) | Charwood | 1 | – |
+| [Minerhouse 8](../maps/minerhouse8.md) | Charwood | 2 | – |
+| [Minerhouse 9](../maps/minerhouse9.md) | Charwood | 2 | – |
+| [Waytolostmine 0](../maps/waytolostmine0.md) | Charwood | 2 | – |
+| [Waytolostmine 1](../maps/waytolostmine1.md) | Charwood | 15 | – |
+| [Waytolostmine 2](../maps/waytolostmine2.md) | Charwood | 5 | – |
+| [Waytolostmine 3](../maps/waytolostmine3.md) | Charwood | 1 | – |
 
 
 ## Version history

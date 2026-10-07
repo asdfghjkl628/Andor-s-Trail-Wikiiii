@@ -21,36 +21,36 @@ description: "General Ortholion is an NPC who can also be fought in Andor's Trai
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named General Ortholion. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named General Ortholion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ortholion`](#v-ortholion) | NPC | Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-ortholion) (+2 more) | – | – |
-| [`ortholion_hidden`](#v-ortholion_hidden) | Enemy | Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md) | – | 1 |
+| [`ortholion`](#v-ortholion) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion) (+2 more) | – | – |
+| [`ortholion_hidden`](#v-ortholion_hidden) | Enemy | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – | 1 |
 
-## Prim, Blackwater mountain29 and 3 more (ortholion) { #v-ortholion }
+## Prim, Blackwater mountain 29 and 3 more (ortholion) { #v-ortholion }
 
 **Entry ID:** `ortholion` · **Type:** NPC
 
-**Location:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-ortholion), [elm5f_2](../maps/elm5f_2.md#pin-npc-ortholion), [elm_mine1](../maps/elm_mine1.md#pin-npc-ortholion)
+**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion), [Elm 5f 2](../maps/elm5f_2.md#pin-npc-ortholion), [Elm mine 1](../maps/elm_mine1.md#pin-npc-ortholion)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
-| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | Appears later, during a quest |
-| [elm5f_2](../maps/elm5f_2.md) | – | 2 | Appears later, during a quest |
-| [elm_mine1](../maps/elm_mine1.md) | – | 1 | Appears later, during a quest |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
+| [Blackwater mountain 43](../maps/blackwater_mountain43.md) | – | 1 | Appears later, during a quest |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 2 | Appears later, during a quest |
+| [Elm mine 1](../maps/elm_mine1.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 45, 46, 55, 56, 59, 60, 61, 62, 63
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 21, 39, 41, 42
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 21, 39, 41, 42
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with General Ortholion. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to General Ortholion. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_selector.json" data-npc="General Ortholion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -58,17 +58,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (63 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion-ortholion_selector"></span>**`ortholion_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42))* → [ortholion_busy](#d-ortholion-ortholion_busy)
+    - branch 1 *(if reached stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42))* → [ortholion_busy](#d-ortholion-ortholion_busy)
     - branch 2 *(if reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56))* → [ortholion_16d](#d-ortholion-ortholion_16d)
     - branch 3 *(if reached stage 55 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-55))* → [ortholion_16c](#d-ortholion-ortholion_16c)
-    - branch 4 *(if reached stage 40 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-40))* → [ortholion_13](#d-ortholion-ortholion_13)
+    - branch 4 *(if reached stage 40 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-40))* → [ortholion_13](#d-ortholion-ortholion_13)
     - branch 5 *(if reached stage 54 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54))* → [ortholion_9](#d-ortholion-ortholion_9)
-    - branch 6 *(if reached stage 39 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-39); NOT reached stage 54 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54))* → [ortholion_c3](#d-ortholion-ortholion_c3)
-    - branch 7 *(if killed 1× [Kamelio](../monsters/kamelio.md); NOT reached stage 39 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-39))* → [ortholion_conscious](#d-ortholion-ortholion_conscious)
+    - branch 6 *(if reached stage 39 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-39); NOT reached stage 54 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-54))* → [ortholion_c3](#d-ortholion-ortholion_c3)
+    - branch 7 *(if killed 1× [Kamelio](../monsters/kamelio.md); NOT reached stage 39 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-39))* → [ortholion_conscious](#d-ortholion-ortholion_conscious)
     - branch 8 *(if reached stage 51 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-51))* → [ortholion_unconscious](#d-ortholion-ortholion_unconscious)
     - branch 9 *(if carry 1× [Ortholion's signet](../items/ortholion_signet.md))* → [ortholion_8a](#d-ortholion-ortholion_8a)
     - branch 10 *(if reached stage 45 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-45))* → [ortholion_1](#d-ortholion-ortholion_1)
@@ -145,7 +145,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Those who don't believe will eventually be punished!” → [ortholion_19e](#d-ortholion-ortholion_19e)
     - “You couldn't land a single hit on me!” → [ortholion_19e](#d-ortholion-ortholion_19e)
 
-    <span id="d-ortholion-ortholion_18d"></span>**`ortholion_18d`** General Ortholion: “I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.” — **effects:** sets stage 63 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-63), sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”
+    <span id="d-ortholion-ortholion_18d"></span>**`ortholion_18d`** General Ortholion: “I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.” — **effects:** sets stage 63 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-63), sets stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”
 
     - “So no reward...hmph, bye.” → *conversation ends*
     - “I'll remember to come back, farewell.” → *conversation ends*
@@ -194,7 +194,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Stop!” → [ortholion_conversation2_3b](#d-ortholion-ortholion_conversation2_3b)
     - “Do you always talk this much, liar?” → [ortholion_conversation2_3b](#d-ortholion-ortholion_conversation2_3b)
 
-    <span id="d-ortholion-ortholion_19a"></span>**`ortholion_19a`** General Ortholion: “Fine. Now let some days pass and meet me again here. I may need your help and you may want more gold.” — **effects:** gives 2000× [Gold coins](../items/gold.md), starts timer “ortholion_next1”, sets stage 59 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-59), sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42)
+    <span id="d-ortholion-ortholion_19a"></span>**`ortholion_19a`** General Ortholion: “Fine. Now let some days pass and meet me again here. I may need your help and you may want more gold.” — **effects:** gives 2000× [Gold coins](../items/gold.md), starts timer “ortholion_next1”, sets stage 59 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-59), sets stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42)
 
     - “Count on me, general!” → *conversation ends*
     - “I'll think about it. Goodbye.” → *conversation ends*
@@ -204,12 +204,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Great! [Take the large bag]” → [ortholion_20a](#d-ortholion-ortholion_20a)
     - “Ehm... I'd rather take the small bag, thanks. [Take the gold]” → [ortholion_19a](#d-ortholion-ortholion_19a)
 
-    <span id="d-ortholion-ortholion_19c"></span>**`ortholion_19c`** General Ortholion: “Should I be surprised? That shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.” — **effects:** sets stage 61 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-61), sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”, gives 50× [Gold coins](../items/gold.md)
+    <span id="d-ortholion-ortholion_19c"></span>**`ortholion_19c`** General Ortholion: “Should I be surprised? That shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.” — **effects:** sets stage 61 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-61), sets stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”, gives 50× [Gold coins](../items/gold.md)
 
     - “You liar...! Hmpf.” → *conversation ends*
     - “I'll think about it, but you'd better pay me next time!” → *conversation ends*
 
-    <span id="d-ortholion-ortholion_19d"></span>**`ortholion_19d`** General Ortholion: “*Withdraws his hand with the gold bag and makes a nod of approval* Good, good. I accept your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude. We'll talk later. Now we all need some rest.” — **effects:** sets stage 62 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62), sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”, gives 1× [Ortholion's talisman](../items/ortholion_reward.md)
+    <span id="d-ortholion-ortholion_19d"></span>**`ortholion_19d`** General Ortholion: “*Withdraws his hand with the gold bag and makes a nod of approval* Good, good. I accept your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude. We'll talk later. Now we all need some rest.” — **effects:** sets stage 62 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62), sets stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42), starts timer “ortholion_next1”, gives 1× [Ortholion's talisman](../items/ortholion_reward.md)
 
     - “Your debt is settled, sir.” → *conversation ends*
     - “Thank you, I will keep it as the most valuable treasure.” → *conversation ends*
@@ -235,13 +235,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Yeah, yeah. Where's my reward for saving your life?” → [ortholion_16a](#d-ortholion-ortholion_16a)
     - “What will you do now?” → [ortholion_15a](#d-ortholion-ortholion_15a)
 
-    <span id="d-ortholion-ortholion_11"></span>**`ortholion_11`** General Ortholion: “Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice.” — **effects:** sets stage 41 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-41)
+    <span id="d-ortholion-ortholion_11"></span>**`ortholion_11`** General Ortholion: “Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice.” — **effects:** sets stage 41 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-41)
 
     - “You are of no interest to me. Bye.” → *NPC leaves*
     - “OK, sir.” → *NPC leaves*
     - “Are you sure you don't need an escort?” → [ortholion_12](#d-ortholion-ortholion_12)
 
-    <span id="d-ortholion-kamelio_undead"></span>**`kamelio_undead`** [Undead Kamelio](../monsters/kamelio2.md): “...D...Die...” — **effects:** applies condition putrefaction, applies condition putrefaction, applies condition putrefaction, sets stage 39 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-39), spawns monsters on elm5f_2, spawns monsters on elm5f_2
+    <span id="d-ortholion-kamelio_undead"></span>**`kamelio_undead`** [Undead Kamelio](../monsters/kamelio2.md): “...D...Die...” — **effects:** applies condition putrefaction, applies condition putrefaction, applies condition putrefaction, sets stage 39 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-39), spawns monsters on elm5f_2, spawns monsters on elm5f_2
 
     - “Aah!” → *conversation ends*
     - “Hmpf, I will kill you ten more times if needed.” → *conversation ends*
@@ -265,7 +265,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ortholion-ortholion_3b"></span>**`ortholion_3b`** General Ortholion: “Nothing impressive. Loyal followers of the Shadow have their tricks, just as I have my own.”
 
     - “The Shadow? Do you believe in that?” → [ortholion_4b](#d-ortholion-ortholion_4b)
-    - “Hope those tricks are better than your chasing abilities.” *(if reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_4c](#d-ortholion-ortholion_4c)
+    - “Hope those tricks are better than your chasing abilities.” *(if reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_4c](#d-ortholion-ortholion_4c)
 
     <span id="d-ortholion-ortholion_conversation2_3a"></span>**`ortholion_conversation2_3a`** [General Ortholion](../monsters/ortholion.md): “Hmmm... What crimes, evil creature? You even dared to think you had a chance to trick a general of glorious Feygard?!”
 
@@ -276,7 +276,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Hey, stop you two!” → [ortholion_conversation2_4b](#d-ortholion-ortholion_conversation2_4b)
     - “Ehrenfest, you have many things to explain!” → [ortholion_conversation2_4b](#d-ortholion-ortholion_conversation2_4b)
 
-    <span id="d-ortholion-ortholion_20a"></span>**`ortholion_20a`** General Ortholion: “Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use.” — **effects:** gives 30× [Mundane necklace](../items/junk_necklace0.md), gives 20× [Mundane ring](../items/ring1.md), sets stage 42 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42), sets stage 60 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-60), starts timer “ortholion_next1”
+    <span id="d-ortholion-ortholion_20a"></span>**`ortholion_20a`** General Ortholion: “Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use.” — **effects:** gives 30× [Mundane necklace](../items/junk_necklace0.md), gives 20× [Mundane ring](../items/ring1.md), sets stage 42 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42), sets stage 60 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-60), starts timer “ortholion_next1”
 
     - “A bag full of junk necklaces and rings?! No way, trickster!” → *conversation ends*
     - “I...will.” → *conversation ends*
@@ -356,15 +356,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-ortholion-ortholion_conversation2_6a"></span>**`ortholion_conversation2_6a`** [General Ortholion](../monsters/ortholion.md): “Ehrenfest, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.”
 
-    - “Those guards are no match for...” *(if reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_7a](#d-ortholion-ortholion_conversation2_7a)
-    - “Die!” *(if NOT reached stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_6a2](#d-ortholion-ortholion_conversation2_6a2)
+    - “Those guards are no match for...” *(if reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_7a](#d-ortholion-ortholion_conversation2_7a)
+    - “Die!” *(if NOT reached stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21))* → [ortholion_conversation2_6a2](#d-ortholion-ortholion_conversation2_6a2)
 
     <span id="d-ortholion-ortholion_conversation2_7a"></span>**`ortholion_conversation2_7a`** [Ehrenfest](../monsters/ehrenfest.md): “Bah! This is enough. $playername. Weren't you so strong? Pathetic. You only had to distract him and take the blame!”
 
     - “W...What?!” → [ortholion_conversation2_8a](#d-ortholion-ortholion_conversation2_8a)
     - “Hah. I always knew you were far too shady to be an honest man.” → [ortholion_conversation2_8a](#d-ortholion-ortholion_conversation2_8a)
 
-    <span id="d-ortholion-ortholion_conversation2_6a2"></span>**`ortholion_conversation2_6a2`** [Dummy NPC](../monsters/none.md): “Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow.” — **effects:** sets stage 21 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21), applies condition confusion
+    <span id="d-ortholion-ortholion_conversation2_6a2"></span>**`ortholion_conversation2_6a2`** [Dummy NPC](../monsters/none.md): “Just before starting to launch an attack, General Ortholion moves and disarms you with a single blow.” — **effects:** sets stage 21 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21), applies condition confusion
 
     - Next → [ortholion_conversation2_7a](#d-ortholion-ortholion_conversation2_7a)
 
@@ -383,8 +383,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…”<br>· text: “A knight's only trusted escorts are his sword and his horse. I'm pret…” → “A knight's only trustworthy escorts are his sword and his horse. *get…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…”<br>· text: “*unsheathes his sword* Well, enough talk. I won't ignore your threats…” → “[unsheathes his sword] Well, enough talk. I won't ignore your threats…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -418,11 +418,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain11 (ortholion_hidden) { #v-ortholion_hidden }
+## Prim, Blackwater mountain 11 (ortholion_hidden) { #v-ortholion_hidden }
 
 **Entry ID:** `ortholion_hidden` · **Type:** Enemy
 
-**Location:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md)
+**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
 
 ### Combat statistics
 
@@ -450,7 +450,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
+| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
 
 
 ### Version history

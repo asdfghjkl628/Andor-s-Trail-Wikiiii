@@ -1,5 +1,5 @@
 ---
-description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 489 XP, found in galmore_18, galmore_28, galmore_38. Drops: Leech, Shimmering opal, Gold coins."
+description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 489 XP, found in Galmore 18, Galmore 28, Galmore 38. Drops: Leech, Shimmering opal, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_25.png){ .sprite } Bog eel
@@ -11,7 +11,7 @@ description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_18, galmore_28, galmore_38 |
+| **Found in** | Galmore 18, Galmore 28, Galmore 38 |
 | **Class** | Reptile |
 | **HP** | 121 |
 | **XP when defeated** | 489 |
@@ -21,18 +21,18 @@ description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Bog eel. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Bog eel. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`bog_eel`](#v-bog_eel) | Enemy | [galmore_18](../maps/galmore_18.md), [galmore_28](../maps/galmore_28.md) (+1 more) | – | 121 |
-| [`bog_eel_leech`](#v-bog_eel_leech) | Enemy | [galmore_18](../maps/galmore_18.md), [galmore_28](../maps/galmore_28.md) (+1 more) | – | 121 |
+| [`bog_eel`](#v-bog_eel) | Enemy | [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md) (+1 more) | – | 121 |
+| [`bog_eel_leech`](#v-bog_eel_leech) | Enemy | [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md) (+1 more) | – | 121 |
 
 ## Galmore 18 and 2 more (bog_eel) { #v-bog_eel }
 
 **Entry ID:** `bog_eel` · **Type:** Enemy
 
-**Location:** [galmore_18](../maps/galmore_18.md), [galmore_28](../maps/galmore_28.md), [galmore_38](../maps/galmore_38.md)
+**Location:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
 
 ### Combat statistics
 
@@ -68,9 +68,9 @@ description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_18](../maps/galmore_18.md) | – | 2 | – |
-| [galmore_28](../maps/galmore_28.md) | – | 3 | – |
-| [galmore_38](../maps/galmore_38.md) | – | 3 | – |
+| [Galmore 18](../maps/galmore_18.md) | – | 2 | – |
+| [Galmore 28](../maps/galmore_28.md) | – | 3 | – |
+| [Galmore 38](../maps/galmore_38.md) | – | 3 | – |
 
 
 ### Version history
@@ -124,7 +124,7 @@ description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 
 
 **Entry ID:** `bog_eel_leech` · **Type:** Enemy
 
-**Location:** [galmore_18](../maps/galmore_18.md), [galmore_28](../maps/galmore_28.md), [galmore_38](../maps/galmore_38.md)
+**Location:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
 
 ### Combat statistics
 
@@ -160,9 +160,9 @@ description: "Bog eel is an enemy in Andor's Trail (reptile) with 121 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_18](../maps/galmore_18.md) | – | 2 | Appears later, during a quest |
-| [galmore_28](../maps/galmore_28.md) | – | 3 | Appears later, during a quest |
-| [galmore_38](../maps/galmore_38.md) | – | 3 | Appears later, during a quest |
+| [Galmore 18](../maps/galmore_18.md) | – | 2 | Appears later, during a quest |
+| [Galmore 28](../maps/galmore_28.md) | – | 3 | Appears later, during a quest |
+| [Galmore 38](../maps/galmore_38.md) | – | 3 | Appears later, during a quest |
 
 
 ### Version history

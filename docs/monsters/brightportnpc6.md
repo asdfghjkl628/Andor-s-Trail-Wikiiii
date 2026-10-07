@@ -4,7 +4,7 @@ description: "Oswald is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_56.png){ .sprite } Oswald
 
-**Where to find Oswald:** Brightport: [brightport_school9](../maps/brightport_school9.md#pin-npc-brightportnpc6)
+**Where to find Oswald:** Brightport: [Brightport school 9](../maps/brightport_school9.md#pin-npc-brightportnpc6)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Oswald is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 35, 46, 47, 96, 97, 100
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 75, 80, 85
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 75, 80, 85
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Oswald. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Oswald. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/oswald_selector.json" data-npc="Oswald" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,18 +34,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (36 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-oswald_selector"></span>**`oswald_selector`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96))* → [oswald_end](#d-oswald_end)
-    - Next *(if reached stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85))* → [brightport_oswald13](#d-brightport_oswald13)
+    - Next *(if reached stage 85 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-85))* → [brightport_oswald13](#d-brightport_oswald13)
     - Next *(if reached stage 35 of [No rest for the wicked](../quests/Stanwickquest.md#stage-35))* → [oswald_quest](#d-oswald_quest)
     - Next *(if NOT reached stage 35 of [No rest for the wicked](../quests/Stanwickquest.md#stage-35))* → [oswald_start](#d-oswald_start)
 
     <span id="d-oswald_end"></span>**`oswald_end`** Oswald: “How unfortunate to be stuck inside, when the sun's so dazzling.”
 
-    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald_selector_lecture](#d-brightport_oswald_selector_lecture)
+    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald_selector_lecture](#d-brightport_oswald_selector_lecture)
 
     <span id="d-brightport_oswald13"></span>**`brightport_oswald13`** [Oswald](../monsters/brightportnpc6.md): “You've truly saved my skin - I mean, the people of Brightport! Yes, ahem.”
 
@@ -55,7 +55,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I have the scroll here, take it.” *(if hand over 1× [Secret scroll](../items/brightport_scroll.md))* → [brightport_oswald12](#d-brightport_oswald12)
     - “Do you know who Bryma is?” *(if reached stage 55 of [No rest for the wicked](../quests/Stanwickquest.md#stage-55); NOT reached stage 60 of [No rest for the wicked](../quests/Stanwickquest.md#stage-60))* → [brightport_oswald27](#d-brightport_oswald27)
-    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald26](#d-brightport_oswald26)
+    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald26](#d-brightport_oswald26)
     - “If I could investigate the library, maybe I could find something.” *(if reached stage 45 of [No rest for the wicked](../quests/Stanwickquest.md#stage-45); NOT reached stage 46 of [No rest for the wicked](../quests/Stanwickquest.md#stage-46))* → [brightport_oswald7](#d-brightport_oswald7)
     - “Sir, what's that thing looking at us through the window?” *(if reached stage 46 of [No rest for the wicked](../quests/Stanwickquest.md#stage-46); NOT reached stage 50 of [No rest for the wicked](../quests/Stanwickquest.md#stage-50); NOT reached stage 47 of [No rest for the wicked](../quests/Stanwickquest.md#stage-47))* → [brightport_oswald_selector](#d-brightport_oswald_selector)
     - “No, not really.” → [brightport_oswald6](#d-brightport_oswald6)
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-oswald_start"></span>**`oswald_start`** Oswald: “Hey, stop running around my office! You're distracting me from my work.”
 
     - “Excuse me sir. I wish to help Stanwick by investigating the theft. Could you tell me more about it?” *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25))* → [brightport_oswald](#d-brightport_oswald)
-    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald23](#d-brightport_oswald23)
+    - “Excuse me sir. I was kicked out of the lecture room for misbehaving.” *(if reached stage 228 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-228))* → [brightport_oswald23](#d-brightport_oswald23)
 
     <span id="d-brightport_oswald_selector_lecture"></span>**`brightport_oswald_selector_lecture`** *(silent check: the first matching branch below is taken)*
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “A former baker named Bryma was in possesion of it. I'm unaware of how she acquired it.” → [brightport_oswald16](#d-brightport_oswald16)
     - “Hey, I spent a lot of time to find it! Why did you burn it?” → [brightport_oswald3](#d-brightport_oswald3)
 
-    <span id="d-brightport_oswald12"></span>**`brightport_oswald12`** [Dummy NPC](../monsters/none.md): “The Headmaster hurriedly grabs the scroll and opens it to confirm its contents. A moment later, he breathes a sigh of relief as he moves it over the flame of a nearby candle.” — **effects:** sets stage 85 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-85)
+    <span id="d-brightport_oswald12"></span>**`brightport_oswald12`** [Dummy NPC](../monsters/none.md): “The Headmaster hurriedly grabs the scroll and opens it to confirm its contents. A moment later, he breathes a sigh of relief as he moves it over the flame of a nearby candle.” — **effects:** sets stage 85 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-85)
 
     - Next → [brightport_oswald13](#d-brightport_oswald13)
 
@@ -94,7 +94,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_oswald_selector"></span>**`brightport_oswald_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 80 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-80))* → [brightport_oswald9](#d-brightport_oswald9)
+    - Next *(if NOT reached stage 80 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-80))* → [brightport_oswald9](#d-brightport_oswald9)
     - Next → [brightport_oswald10](#d-brightport_oswald10)
 
     <span id="d-brightport_oswald6"></span>**`brightport_oswald6`** Oswald: “I had no expectations of you in the first place. Now stroll along.”
@@ -106,13 +106,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I made a deal with Stanwick. I scratch his back, and he scratches mine.” → [brightport_oswald1](#d-brightport_oswald1)
     - “Nothing. I wish to help out, from the kindness of my heart.” → [brightport_oswald0](#d-brightport_oswald0)
 
-    <span id="d-brightport_oswald23"></span>**`brightport_oswald23`** Oswald: “This time I'll forgive it. But maybe next time I won't, so don't do it again!” — **effects:** clears stage 228 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-228)
+    <span id="d-brightport_oswald23"></span>**`brightport_oswald23`** Oswald: “This time I'll forgive it. But maybe next time I won't, so don't do it again!” — **effects:** clears stage 228 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-228)
 
 
     <span id="d-brightport_oswald24"></span>**`brightport_oswald24`** Oswald: “Serves you right, $playername, don't misbehave.”
 
 
-    <span id="d-brightport_oswald25"></span>**`brightport_oswald25`** Oswald: “I permit you to go back, you're a good kid.” — **effects:** clears stage 228 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-228)
+    <span id="d-brightport_oswald25"></span>**`brightport_oswald25`** Oswald: “I permit you to go back, you're a good kid.” — **effects:** clears stage 228 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-228)
 
     - “I'll be back.” → *conversation ends*
 
@@ -132,12 +132,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_oswald18](#d-brightport_oswald18)
 
-    <span id="d-brightport_oswald8"></span>**`brightport_oswald8`** [Dummy NPC](../monsters/none.md): “You notice a key on a shelf under the desk. If he were distracted for a moment you could steal it.” — **effects:** sets stage 75 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-75)
+    <span id="d-brightport_oswald8"></span>**`brightport_oswald8`** [Dummy NPC](../monsters/none.md): “You notice a key on a shelf under the desk. If he were distracted for a moment you could steal it.” — **effects:** sets stage 75 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-75)
 
     - “[I should distract him.]” → *conversation ends*
     - “[There has to be a different way.]” → *conversation ends*
 
-    <span id="d-brightport_oswald9"></span>**`brightport_oswald9`** Oswald: “[The headmaster looks in the direction of the window. For a moment he is distracted.]” — **effects:** sets stage 80 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-80)
+    <span id="d-brightport_oswald9"></span>**`brightport_oswald9`** Oswald: “[The headmaster looks in the direction of the window. For a moment he is distracted.]” — **effects:** sets stage 80 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-80)
 
     - “[Grab the key.]” → [brightport_oswald11](#d-brightport_oswald11)
 

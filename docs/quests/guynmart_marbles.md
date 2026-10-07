@@ -11,9 +11,9 @@ description: "Marble hunting is a quest in Andor's Trail, started by Stuephant (
 | **Quest ID** | `guynmart_marbles` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 90) |
-| **Started by** | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
+| **Started by** | [Stuephant](../monsters/guynmart_child.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) |
 | **NPCs involved** | [Golden marble](../monsters/guynmart_marble4.md), [Green marble](../monsters/guynmart_marble1.md), [Pearl white marble](../monsters/guynmart_marble5.md), [Pink marble](../monsters/guynmart_marble3.md), [Red marble](../monsters/guynmart_marble2.md), [Stuephant](../monsters/guynmart_child.md) |
-| **Locations** | [guynmart_wood_10](../maps/guynmart_wood_10.md) |
+| **Locations** | [Guynmart wood 10](../maps/guynmart_wood_10.md) |
 | **Total XP** | 1,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Marble hunting is a quest in Andor's Trail, started by Stuephant (
 
 ## Prerequisites to start
 
-None: talk to [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) to begin.
+None: talk to [Stuephant](../monsters/guynmart_child.md) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,58 +37,128 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Little Stuephant was crying because he lost his marbles. You told him you would find them for him. | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | spawns monsters on guynmart_wood_10 |
-| <span id="stage-21"></span>21 | I found a green marble. | [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | gives 1× [Stuephant's marble](../items/guynmart_marble.md)<br>removes monsters from guynmart_wood_10 |
-| <span id="stage-22"></span>22 | I found a red marble. | [Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | gives 1× [Stuephant's marble](../items/guynmart_marble.md)<br>removes monsters from guynmart_wood_10 |
-| <span id="stage-23"></span>23 | I found a pink marble. | [Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | gives 1× [Stuephant's marble](../items/guynmart_marble.md)<br>removes monsters from guynmart_wood_10 |
-| <span id="stage-24"></span>24 | I found a golden marble. | [Golden marble](../monsters/guynmart_marble4.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | gives 1× [Stuephant's marble](../items/guynmart_marble.md)<br>removes monsters from guynmart_wood_10 |
-| <span id="stage-25"></span>25 | I found a pearl white marble. | [Pearl white marble](../monsters/guynmart_marble5.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | gives 1× [Stuephant's marble](../items/guynmart_marble.md)<br>removes monsters from guynmart_wood_10 |
-| <span id="stage-30"></span>30 | That was all of them. I should give them to Stuephant now. | [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>[Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>[Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md))<br>+2 more | stage 21, stage 22, stage 23, stage 24, stage 25 | – |
-| <span id="stage-90"></span>90 | Stuephant was happy again. **(completes quest)** | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 5× [Stuephant's marble](../items/guynmart_marble.md), stage 21, stage 22, stage 23, stage 24, stage 25 | 1,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Little Stuephant was crying because he lost his marbles. You told… ▸</span><span class="l">▴ less</span></summary>Little Stuephant was crying because he lost his marbles. You told him you would find them for him.</details> | [Stuephant](../monsters/guynmart_child.md) | spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10 |
+| <span id="stage-21"></span>[21](#route-21) | I found a green marble. | [Green marble](../monsters/guynmart_marble1.md) | 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10 |
+| <span id="stage-22"></span>[22](#route-22) | I found a red marble. | [Red marble](../monsters/guynmart_marble2.md) | 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10 |
+| <span id="stage-23"></span>[23](#route-23) | I found a pink marble. | [Pink marble](../monsters/guynmart_marble3.md) | 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10 |
+| <span id="stage-24"></span>[24](#route-24) | I found a golden marble. | [Golden marble](../monsters/guynmart_marble4.md) | 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10 |
+| <span id="stage-25"></span>[25](#route-25) | I found a pearl white marble. | [Pearl white marble](../monsters/guynmart_marble5.md) | 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10 |
+| <span id="stage-30"></span>[30](#route-30) | That was all of them. I should give them to Stuephant now. | [Green marble](../monsters/guynmart_marble1.md), [Red marble](../monsters/guynmart_marble2.md) +3 | – |
+| <span id="stage-90"></span>[90](#route-90) | Stuephant was happy again. **(ends quest)** | [Stuephant](../monsters/guynmart_child.md) | 1,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Oh dear, That is all? I will find them for you.” → **stage 10**; also spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10. NPC: “I have lost them here in the yard or in the field over there.”
+??? note "Stage 10 · Stuephant · 1 way"
 
-???+ note "Stage 21: 1 route"
+    **Way 1:** Talk to [Stuephant](../monsters/guynmart_child.md), choose “Oh dear, That is all? I will find them for you.”
 
-    1. Talk to [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically → **stage 21**; also gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10. NPC: “I found a green marble!”
+    - **Gives:** spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10, spawns monsters on guynmart_wood_10
+    - *“I have lost them here in the yard or in the field over there.”*
 
-???+ note "Stage 22: 1 route"
 
-    1. Talk to [Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically → **stage 22**; also gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10. NPC: “I found a red marble!”
+<span id="route-21"></span>
 
-???+ note "Stage 23: 1 route"
+??? note "Stage 21 · Green marble · 1 way"
 
-    1. Talk to [Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically → **stage 23**; also gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10. NPC: “I found a pink marble!”
+    **Way 1:** Talk to [Green marble](../monsters/guynmart_marble1.md), automatic
 
-???+ note "Stage 24: 1 route"
+    - **Gives:** 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
+    - *“I found a green marble!”*
 
-    1. Talk to [Golden marble](../monsters/guynmart_marble4.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically → **stage 24**; also gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10. NPC: “Wow - a golden marble!”
 
-???+ note "Stage 25: 1 route"
+<span id="route-22"></span>
 
-    1. Talk to [Pearl white marble](../monsters/guynmart_marble5.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically → **stage 25**; also gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10. NPC: “I found a pearl white marble!”
+??? note "Stage 22 · Red marble · 1 way"
 
-???+ note "Stage 30: 5 routes"
+    **Way 1:** Talk to [Red marble](../monsters/guynmart_marble2.md), automatic
 
-    1. Talk to [Green marble](../monsters/guynmart_marble1.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25) → **stage 30**. NPC: “That was the last one. I have found them all. Stuephant will be happy.”
-    2. Talk to [Red marble](../monsters/guynmart_marble2.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25) → **stage 30**. NPC: “That was the last one. I have found them all. Stuephant will be happy.”
-    3. Talk to [Pink marble](../monsters/guynmart_marble3.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25) → **stage 30**. NPC: “That was the last one. I have found them all. Stuephant will be happy.”
-    4. Talk to [Golden marble](../monsters/guynmart_marble4.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25) → **stage 30**. NPC: “That was the last one. I have found them all. Stuephant will be happy.”
-    5. Talk to [Pearl white marble](../monsters/guynmart_marble5.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25) → **stage 30**. NPC: “That was the last one. I have found them all. Stuephant will be happy.”
+    - **Gives:** 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
+    - *“I found a red marble!”*
 
-???+ note "Stage 90: 1 route"
 
-    1. Talk to [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → the conversation leads here automatically — **conditions:** reached stage 21 of [Marble hunting](../quests/guynmart_marbles.md#stage-21); reached stage 22 of [Marble hunting](../quests/guynmart_marbles.md#stage-22); reached stage 23 of [Marble hunting](../quests/guynmart_marbles.md#stage-23); reached stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24); reached stage 25 of [Marble hunting](../quests/guynmart_marbles.md#stage-25); hand over 5× [Stuephant's marble](../items/guynmart_marble.md) → **stage 90**. NPC: “My lost marbles! All five! Great, thank you! [Stuephant takes the marbles]”
+<span id="route-23"></span>
+
+??? note "Stage 23 · Pink marble · 1 way"
+
+    **Way 1:** Talk to [Pink marble](../monsters/guynmart_marble3.md), automatic
+
+    - **Gives:** 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
+    - *“I found a pink marble!”*
+
+
+<span id="route-24"></span>
+
+??? note "Stage 24 · Golden marble · 1 way"
+
+    **Way 1:** Talk to [Golden marble](../monsters/guynmart_marble4.md), automatic
+
+    - **Gives:** 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
+    - *“Wow - a golden marble!”*
+
+
+<span id="route-25"></span>
+
+??? note "Stage 25 · Pearl white marble · 1 way"
+
+    **Way 1:** Talk to [Pearl white marble](../monsters/guynmart_marble5.md), automatic
+
+    - **Gives:** 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
+    - *“I found a pearl white marble!”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Green marble, Red marble, Pink marble, Golden marble, Pearl  · 5 ways"
+
+    **Way 1:** Talk to [Green marble](../monsters/guynmart_marble1.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25
+    - *“That was the last one. I have found them all. Stuephant will be happy.”*
+
+    **Way 2:** Talk to [Red marble](../monsters/guynmart_marble2.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25
+    - *“That was the last one. I have found them all. Stuephant will be happy.”*
+
+    **Way 3:** Talk to [Pink marble](../monsters/guynmart_marble3.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25
+    - *“That was the last one. I have found them all. Stuephant will be happy.”*
+
+    **Way 4:** Talk to [Golden marble](../monsters/guynmart_marble4.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25
+    - *“That was the last one. I have found them all. Stuephant will be happy.”*
+
+    **Way 5:** Talk to [Pearl white marble](../monsters/guynmart_marble5.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25
+    - *“That was the last one. I have found them all. Stuephant will be happy.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Stuephant · 1 way"
+
+    **Way 1:** Talk to [Stuephant](../monsters/guynmart_child.md), automatic
+
+    - **Needs:** stage 21, 22, 23, 24, 25; hand over 5× [Stuephant's marble](../items/guynmart_marble.md)
+    - *“My lost marbles! All five! Great, thank you! [Stuephant takes the marbles]”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

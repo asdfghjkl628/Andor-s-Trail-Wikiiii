@@ -26,7 +26,7 @@ description: "The Noble Wars is a ordinary other in Andor's Trail. How to get it
 
 ### Found in containers
 
-- [brightport_school10](../maps/brightport_school10.md#container-0) (container 1, 100%), Brightport
+- [Brightport school 10](../maps/brightport_school10.md#container-0) (container 1, 100%), Brightport
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

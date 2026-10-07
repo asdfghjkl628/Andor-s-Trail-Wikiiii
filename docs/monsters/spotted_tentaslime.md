@@ -1,10 +1,10 @@
 ---
-description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 150 HP, worth 333 XP, found in gamjee_well_1_1, gamjee_well_2_1, gamjee_well_3_1. Drops: Gold coins, Small rock, Slime essence."
+description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 150 HP, worth 333 XP, found in Gamjee well 1 1, Gamjee well 2 1, Gamjee well 3 1. Drops: Gold coins, Small rock, Slime essence."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_145.png){ .sprite } Spotted tentaslime
 
-**Found in:** [gamjee_well_1_1](../maps/gamjee_well_1_1.md), [gamjee_well_2_1](../maps/gamjee_well_2_1.md), [gamjee_well_3_1](../maps/gamjee_well_3_1.md), [gamjee_well_4_1](../maps/gamjee_well_4_1.md)
+**Found in:** [Gamjee well 1 1](../maps/gamjee_well_1_1.md), [Gamjee well 2 1](../maps/gamjee_well_2_1.md), [Gamjee well 3 1](../maps/gamjee_well_3_1.md), [Gamjee well 4 1](../maps/gamjee_well_4_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gamjee_well_1_1, gamjee_well_2_1, gamjee_well_3_1 |
+| **Found in** | Gamjee well 1 1, Gamjee well 2 1, Gamjee well 3 1 |
 | **Class** | Construct |
 | **HP** | 150 |
 | **XP when defeated** | 333 |
@@ -62,10 +62,10 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_1_1](../maps/gamjee_well_1_1.md) | – | 1 | – |
-| [gamjee_well_2_1](../maps/gamjee_well_2_1.md) | – | 4 | – |
-| [gamjee_well_3_1](../maps/gamjee_well_3_1.md) | – | 2 | – |
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | – |
+| [Gamjee well 1 1](../maps/gamjee_well_1_1.md) | – | 1 | – |
+| [Gamjee well 2 1](../maps/gamjee_well_2_1.md) | – | 4 | – |
+| [Gamjee well 3 1](../maps/gamjee_well_3_1.md) | – | 2 | – |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
 
 
 ## Version history

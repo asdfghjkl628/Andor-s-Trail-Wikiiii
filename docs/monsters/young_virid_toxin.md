@@ -4,7 +4,7 @@ description: "Young ViridToxin dartmaw is an enemy in Andor's Trail (reptile) wi
 
 # ![](../assets/icons/monsters/monsters_newb_1_363.png){ .sprite } Young ViridToxin dartmaw
 
-**Found in:** Flagstone Prison: [lake_shore_road_7](../maps/lake_shore_road_7.md), Flagstone Prison: [lake_shore_road_8](../maps/lake_shore_road_8.md), [lake_shore_road_9](../maps/lake_shore_road_9.md)
+**Found in:** Flagstone Prison: [Lake shore road 7](../maps/lake_shore_road_7.md), Flagstone Prison: [Lake shore road 8](../maps/lake_shore_road_8.md), [Lake shore road 9](../maps/lake_shore_road_9.md)
 
 <div class="infobox" markdown>
 
@@ -58,9 +58,9 @@ description: "Young ViridToxin dartmaw is an enemy in Andor's Trail (reptile) wi
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_7](../maps/lake_shore_road_7.md) | Flagstone Prison | 5 | – |
-| [lake_shore_road_8](../maps/lake_shore_road_8.md) | Flagstone Prison | 2 | – |
-| [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | 3 | – |
+| [Lake shore road 7](../maps/lake_shore_road_7.md) | Flagstone Prison | 5 | – |
+| [Lake shore road 8](../maps/lake_shore_road_8.md) | Flagstone Prison | 2 | – |
+| [Lake shore road 9](../maps/lake_shore_road_9.md) | – | 3 | – |
 
 
 ## Version history

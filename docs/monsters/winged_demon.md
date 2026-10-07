@@ -1,10 +1,10 @@
 ---
-description: "Winged demon is an NPC who can also be fought in Andor's Trail, found in flagstone4."
+description: "Winged demon is an NPC who can also be fought in Andor's Trail, found in Flagstone 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_demon1_0.png){ .sprite } Winged demon
 
-**Where to find Winged demon:** [flagstone4](../maps/flagstone4.md#pin-npc-winged_demon)
+**Where to find Winged demon:** [Flagstone 4](../maps/flagstone4.md#pin-npc-winged_demon)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Winged demon is an NPC who can also be fought in Andor's Trail, fo
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | flagstone4 |
+| **Found in** | Flagstone 4 |
 | **Class** | Demon |
 | **HP** | 82 |
 | **XP when defeated** | 166 |
@@ -65,7 +65,7 @@ description: "Winged demon is an NPC who can also be fought in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone4](../maps/flagstone4.md) | – | 1 | – |
+| [Flagstone 4](../maps/flagstone4.md) | – | 1 | – |
 
 ## Quests
 
@@ -73,7 +73,7 @@ description: "Winged demon is an NPC who can also be fought in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Winged demon. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Winged demon. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/flagstone_guard2.json" data-npc="Winged demon" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-flagstone_guard2"></span>**`flagstone_guard2`** Winged demon: “What, a mortal in here that is not marked by my touch?” — **effects:** sets stage 50 of [Ancient secrets](../quests/flagstone.md#stage-50)
 

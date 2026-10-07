@@ -4,7 +4,7 @@ description: "Tough grasslands ant is an enemy in Andor's Trail (insect) with 29
 
 # ![](../assets/icons/monsters/monsters_insects_2.png){ .sprite } Tough grasslands ant
 
-**Found in:** Crossroads Guardhouse: [fields1](../maps/fields1.md), Crossroads Guardhouse: [fields6](../maps/fields6.md), Guynmart Castle: [fields5](../maps/fields5.md), Loneford: [waytobrimhaven0](../maps/waytobrimhaven0.md)
+**Found in:** Crossroads Guardhouse: [Fields 1](../maps/fields1.md), Crossroads Guardhouse: [Fields 6](../maps/fields6.md), Guynmart Castle: [Fields 5](../maps/fields5.md), Loneford: [Waytobrimhaven 0](../maps/waytobrimhaven0.md)
 
 <div class="infobox" markdown>
 
@@ -55,10 +55,10 @@ description: "Tough grasslands ant is an enemy in Andor's Trail (insect) with 29
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields1](../maps/fields1.md) | Crossroads Guardhouse | 5 | – |
-| [fields5](../maps/fields5.md) | Guynmart Castle | 2 | – |
-| [fields6](../maps/fields6.md) | Crossroads Guardhouse | 3 | – |
-| [waytobrimhaven0](../maps/waytobrimhaven0.md) | Loneford | 2 | – |
+| [Fields 1](../maps/fields1.md) | Crossroads Guardhouse | 5 | – |
+| [Fields 5](../maps/fields5.md) | Guynmart Castle | 2 | – |
+| [Fields 6](../maps/fields6.md) | Crossroads Guardhouse | 3 | – |
+| [Waytobrimhaven 0](../maps/waytobrimhaven0.md) | Loneford | 2 | – |
 
 
 ## Version history

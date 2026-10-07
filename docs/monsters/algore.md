@@ -4,7 +4,7 @@ description: "Hagale is an NPC who can also be fought in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_111.png){ .sprite } Hagale
 
-**Where to find Hagale:** Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-algore)
+**Where to find Hagale:** Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-algore)
 
 <div class="infobox" markdown>
 
@@ -59,11 +59,11 @@ description: "Hagale is an NPC who can also be fought in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [woodsettlement0](../maps/woodsettlement0.md) | Fallhaven | 1 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 1 | – |
 
 ## Quests that count defeats
 
-- [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-20) with stepping on a trigger on [woodsettlement0](../maps/woodsettlement0.md) checks that this enemy has been defeated.
+- [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-20) with stepping on a trigger on [Woodsettlement 0](../maps/woodsettlement0.md) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -71,7 +71,7 @@ description: "Hagale is an NPC who can also be fought in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hagale. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hagale. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/algore_begin.json" data-npc="Hagale" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,7 +79,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-algore_begin"></span>**`algore_begin`** *(silent check: the first matching branch below is taken)*
 

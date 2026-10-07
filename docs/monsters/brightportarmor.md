@@ -4,7 +4,7 @@ description: "Freya is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } Freya
 
-**Where to find Freya:** Brightport: [brightport_armorer](../maps/brightport_armorer.md#pin-npc-brightportarmor)
+**Where to find Freya:** Brightport: [Brightport armorer](../maps/brightport_armorer.md#pin-npc-brightportarmor)
 
 <div class="infobox" markdown>
 
@@ -31,11 +31,11 @@ description: "Freya is a non-player character (NPC) in Andor's Trail, found in B
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 33, 235, 236
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 33, 235, 236
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Freya. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Freya. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_armor.json" data-npc="Freya" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,18 +43,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_armor"></span>**`brightport_armor`** Freya: “Welcome to Brightport's armor smithy, how can I assist you?” — **effects:** sets stage 33 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-33)
+    <span id="d-brightport_armor"></span>**`brightport_armor`** Freya: “Welcome to Brightport's armor smithy, how can I assist you?” — **effects:** sets stage 33 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-33)
 
     - “Please show me your wares.” → [brightport_armor0](#d-brightport_armor0)
-    - “Everything seems pretty worn out, don't you have anything better to offer?” *(if reached stage 235 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-235))* → [brightport_armor4](#d-brightport_armor4)
+    - “Everything seems pretty worn out, don't you have anything better to offer?” *(if reached stage 235 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-235))* → [brightport_armor4](#d-brightport_armor4)
 
-    <span id="d-brightport_armor0"></span>**`brightport_armor0`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 235 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-235), sets stage 33 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-33)
+    <span id="d-brightport_armor0"></span>**`brightport_armor0`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 235 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-235), sets stage 33 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-33)
 
     - branch 1 → *shop opens*
 
-    <span id="d-brightport_armor4"></span>**`brightport_armor4`** Freya: “My husband and I maintain the guards' equipment, and we have pieces of great quality. But the Doughe set strict rules, so with Feygard soldiers stationed here we can't sell anything without approval.” — **effects:** sets stage 236 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-236)
+    <span id="d-brightport_armor4"></span>**`brightport_armor4`** Freya: “My husband and I maintain the guards' equipment, and we have pieces of great quality. But the Doughe set strict rules, so with Feygard soldiers stationed here we can't sell anything without approval.” — **effects:** sets stage 236 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-236)
 
     - “Doughe?” → [brightport_armor5](#d-brightport_armor5)
     - “How can I receive approval then?” → [brightport_armor7](#d-brightport_armor7)

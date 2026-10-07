@@ -4,7 +4,7 @@ description: "Parthenope is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } Parthenope
 
-**Where to find Parthenope:** Lake Laeroth: [mountainlake21](../maps/mountainlake21.md#pin-npc-sirene1)
+**Where to find Parthenope:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-sirene1)
 
 <div class="infobox" markdown>
 

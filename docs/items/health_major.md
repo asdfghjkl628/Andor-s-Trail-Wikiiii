@@ -37,7 +37,7 @@ description: "Major flask of health is a ordinary potion in Andor's Trail. How t
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Ghost of Luthor](../monsters/ghost_of_luthor.md) | 100% | 1 | – |
-| [Benzimos](../monsters/haunted_benzimos.md) | 100% | 2-4 | haunted_house_basement |
+| [Benzimos](../monsters/haunted_benzimos.md) | 100% | 2-4 | Haunted house basement |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -48,9 +48,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-41) | handed over (1×) | “Here, take this major flask of health.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this major flask of health.” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major flask of health.” |
+| [Erinith](../monsters/erinith.md) ([Wild 0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-41) | handed over (1×) | “Here, take this major flask of health.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this major flask of health.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major flask of health.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -45,12 +45,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 green pepper and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 green peppers and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 yellow pepper and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 yellow peppers and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 red pepper and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 red peppers and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 green pepper and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 green peppers and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 yellow pepper and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 yellow peppers and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 red pepper and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 red peppers and rice.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

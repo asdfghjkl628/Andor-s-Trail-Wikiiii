@@ -1,10 +1,10 @@
 ---
-description: "Blackwater inhabitant is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain43."
+description: "Blackwater inhabitant is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 43."
 ---
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Blackwater inhabitant
 
-**Where to find Blackwater inhabitant:** [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-blackwater_inhabitant)
+**Where to find Blackwater inhabitant:** [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-blackwater_inhabitant)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Blackwater inhabitant is a non-player character (NPC) in Andor's T
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | blackwater_mountain43 |
+| **Found in** | Blackwater mountain 43 |
 | **Entry ID** | `blackwater_inhabitant` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -21,7 +21,7 @@ description: "Blackwater inhabitant is a non-player character (NPC) in Andor's T
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blackwater inhabitant. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blackwater inhabitant. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_guest2.json" data-npc="Blackwater inhabitant" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_guest2"></span>**`blackwater_guest2`** Blackwater inhabitant: “Teehee. Mazeg's potions make you feel all tingly and funny.”
 

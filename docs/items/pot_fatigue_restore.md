@@ -34,7 +34,7 @@ description: "Restore fatigue is a ordinary potion in Andor's Trail. How to get 
 
 ### Sold by
 
-- [Herec](../monsters/herec.md) (blackwater_mountain44)
+- [Herec](../monsters/herec.md) (Blackwater mountain 44)
 - [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) (Stoutford)
 
 

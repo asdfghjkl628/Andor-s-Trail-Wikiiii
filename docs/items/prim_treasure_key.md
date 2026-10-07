@@ -24,7 +24,7 @@ description: "Prim treasury key is a ordinary other in Andor's Trail. How to get
 
 ### Found in containers
 
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-0) (container 1, 100%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-0) (container 1, 100%), Prim
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -35,7 +35,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [blackwater_mountain25](../maps/blackwater_mountain25.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-80) | handed over (1×) | “Let's try the key.” |
+| walking into a blocked passage on [Blackwater mountain 25](../maps/blackwater_mountain25.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-80) | handed over (1×) | “Let's try the key.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

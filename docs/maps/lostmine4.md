@@ -1,8 +1,8 @@
 ---
-description: "Lostmine4 is an indoor location in Andor's Trail. Enemies: Strong ash gargoyle, Hardened ash gargoyle. Exits to Lostmine3, Lostmine5."
+description: "Lostmine 4 is an indoor location in Andor's Trail. Enemies: Strong ash gargoyle, Hardened ash gargoyle. Exits to Lostmine 3, Lostmine 5."
 ---
 
-# Lostmine4
+# Lostmine 4
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Lostmine4 is an indoor location in Andor's Trail. Enemies: Strong 
 | **Map ID** | `lostmine4` |
 | **Type** | Indoors / underground |
 | **Size** | 15×17 tiles |
-| **World map** | [Lostmine2](index.md) |
+| **World map** | [Lostmine 2](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 1 |
 
 </div>
 
-**Lostmine4** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Lostmine3, Lostmine5.
+**Lostmine 4** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Lostmine 3, Lostmine 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/lostmine4.webp" alt="Map of Lostmine4" width="480" height="544" loading="lazy"><a id="place-up lostmine4" class="mo mo-mapchange" href="../lostmine3/#place-down lostmine3" title="Exit to Lostmine3" style="left:40.000%;top:11.765%;width:6.667%;height:5.882%"></a><a id="place-down lostmine4" class="mo mo-mapchange" href="../lostmine5/#place-up lostmine5" title="Exit to Lostmine5" style="left:46.667%;top:58.824%;width:6.667%;height:5.882%"></a><span class="mo mo-sign" title="Sign: The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found the strange markings on the ground." style="left:46.667%;top:41.176%;width:20.000%;height:5.882%"></span><span class="mo mo-spawn" title="Spawns: Hardened ash gargoyle, Strong ash gargoyle" style="left:33.333%;top:23.529%;width:46.667%;height:29.412%"></span><a class="mob" href="../../monsters/ash4/" title="Hardened ash gargoyle" style="left:73.333%;top:35.294%;width:6.667%;height:5.882%"><img src="../../assets/icons/monsters/monsters_misc_2.png" alt="Hardened ash gargoyle"></a><a class="mob" href="../../monsters/ash3/" title="Strong ash gargoyle" style="left:53.333%;top:29.412%;width:6.667%;height:5.882%"><img src="../../assets/icons/monsters/monsters_misc_2.png" alt="Strong ash gargoyle"></a><a class="pin pin-exit" href="#key-1" style="left:43.333%;top:14.706%" title="Exit (stairs / passage): to [Lostmine3](lostmine3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:61.765%" title="Exit (stairs / passage): to [Lostmine5](lostmine5.md)">2</a><a class="pin pin-sign" href="#key-3" style="left:56.667%;top:44.118%" title="Sign: “The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found the strange markings on the ground.”">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/lostmine4.webp" alt="Map of Lostmine 4" width="480" height="544" loading="lazy"><a id="place-up lostmine4" class="mo mo-mapchange" href="../lostmine3/#place-down lostmine3" title="Exit to Lostmine 3" style="left:40.000%;top:11.765%;width:6.667%;height:5.882%"></a><a id="place-down lostmine4" class="mo mo-mapchange" href="../lostmine5/#place-up lostmine5" title="Exit to Lostmine 5" style="left:46.667%;top:58.824%;width:6.667%;height:5.882%"></a><span class="mo mo-sign" title="Sign: The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found the strange markings on the ground." style="left:46.667%;top:41.176%;width:20.000%;height:5.882%"></span><span class="mo mo-spawn" title="Spawns: Hardened ash gargoyle, Strong ash gargoyle" style="left:33.333%;top:23.529%;width:46.667%;height:29.412%"></span><a class="mob" href="../../monsters/ash4/" title="Hardened ash gargoyle" style="left:73.333%;top:35.294%;width:6.667%;height:5.882%"><img src="../../assets/icons/monsters/monsters_misc_2.png" alt="Hardened ash gargoyle"></a><a class="mob" href="../../monsters/ash3/" title="Strong ash gargoyle" style="left:53.333%;top:29.412%;width:6.667%;height:5.882%"><img src="../../assets/icons/monsters/monsters_misc_2.png" alt="Strong ash gargoyle"></a><a class="pin pin-exit" href="#key-1" style="left:43.333%;top:14.706%" title="Exit (stairs / passage): to [Lostmine 3](lostmine3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:61.765%" title="Exit (stairs / passage): to [Lostmine 5](lostmine5.md)">2</a><a class="pin pin-sign" href="#key-3" style="left:56.667%;top:44.118%" title="Sign: “The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found the strange markings on the ground.”">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Lostmine3](lostmine3.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Lostmine5](lostmine5.md) |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Lostmine 3](lostmine3.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Lostmine 5](lostmine5.md) |
     | <span id="key-3"></span>3 | Sign | “The air around here is much hotter around the hole in the ground here than in the rest of this room. This must be where the miners found the strange markings on the ground.” |
 
 
@@ -41,8 +41,8 @@ description: "Lostmine4 is an indoor location in Andor's Trail. Enemies: Strong 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Stairs / passage | [Lostmine3](lostmine3.md) | – | 1 |
-| Stairs / passage | [Lostmine5](lostmine5.md) | – | 2 |
+| Stairs / passage | [Lostmine 3](lostmine3.md) | – | 1 |
+| Stairs / passage | [Lostmine 5](lostmine5.md) | – | 2 |
 
 ## Enemies
 

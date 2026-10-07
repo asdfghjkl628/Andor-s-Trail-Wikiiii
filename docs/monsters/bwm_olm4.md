@@ -1,10 +1,10 @@
 ---
-description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, worth 261 XP, found in blackwater_mountain75, elm_4f_5, elm_mine2. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
+description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, worth 261 XP, found in Blackwater mountain 75, Elm 4f 5, Elm mine 2. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_20.png){ .sprite } Blackened olm
 
-**Found in:** [blackwater_mountain75](../maps/blackwater_mountain75.md), [elm_4f_5](../maps/elm_4f_5.md), [elm_mine2](../maps/elm_mine2.md), [elm_mine3](../maps/elm_mine3.md) (+2 more)
+**Found in:** [Blackwater mountain 75](../maps/blackwater_mountain75.md), [Elm 4f 5](../maps/elm_4f_5.md), [Elm mine 2](../maps/elm_mine2.md), [Elm mine 3](../maps/elm_mine3.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | blackwater_mountain75, elm_4f_5, elm_mine2 |
+| **Found in** | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
 | **Class** | Animal |
 | **HP** | 75 |
 | **XP when defeated** | 261 |
@@ -59,12 +59,12 @@ description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain75](../maps/blackwater_mountain75.md) | – | 11 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 5 | – |
-| [elm_mine2](../maps/elm_mine2.md) | – | 5 | – |
-| [elm_mine3](../maps/elm_mine3.md) | – | 8 | – |
-| [elm_mine4](../maps/elm_mine4.md) | – | 4 | – |
-| [elm_mine5](../maps/elm_mine5.md) | – | 3 | – |
+| [Blackwater mountain 75](../maps/blackwater_mountain75.md) | – | 11 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 5 | – |
+| [Elm mine 2](../maps/elm_mine2.md) | – | 5 | – |
+| [Elm mine 3](../maps/elm_mine3.md) | – | 8 | – |
+| [Elm mine 4](../maps/elm_mine4.md) | – | 4 | – |
+| [Elm mine 5](../maps/elm_mine5.md) | – | 3 | – |
 
 
 ## Version history

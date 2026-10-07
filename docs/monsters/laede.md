@@ -1,10 +1,10 @@
 ---
-description: "Laede is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain44."
+description: "Laede is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 44."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_81.png){ .sprite } Laede
 
-**Where to find Laede:** [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-laede)
+**Where to find Laede:** [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-laede)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Laede is a non-player character (NPC) in Andor's Trail, found in b
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | blackwater_mountain44 |
+| **Found in** | Blackwater mountain 44 |
 | **Entry ID** | `laede` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -21,11 +21,11 @@ description: "Laede is a non-player character (NPC) in Andor's Trail, found in b
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 16
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 16
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laede. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laede. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/laede.json" data-npc="Laede" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,14 +33,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-laede"></span>**`laede`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 240 of [The agent and the beast](../quests/bwm_agent.md#stage-240))* → [laede_1](#d-laede_1)
     - branch 2 → [laede_3](#d-laede_3)
 
-    <span id="d-laede_1"></span>**`laede_1`** Laede: “You are welcome to rest here if you want. Pick any bed you wish.” — **effects:** sets stage 16 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-16)
+    <span id="d-laede_1"></span>**`laede_1`** Laede: “You are welcome to rest here if you want. Pick any bed you wish.” — **effects:** sets stage 16 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-16)
 
     - Next → [laede_2](#d-laede_2)
 

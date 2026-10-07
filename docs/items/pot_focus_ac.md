@@ -38,7 +38,7 @@ description: "Potion of accuracy focus is a ordinary potion in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From [Hjaldar](../monsters/hjaldar.md) ([remgard_villager1](../maps/remgard_villager1.md)) during [A difference of opinion](../quests/sisterfight.md#stage-61) (100%)
+- From [Hjaldar](../monsters/hjaldar.md) ([Remgard villager 1](../maps/remgard_villager1.md)) during [A difference of opinion](../quests/sisterfight.md#stage-61) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Elwyl](../monsters/elwyl.md) ([remgard_villager5](../maps/remgard_villager5.md)) | [A difference of opinion](../quests/sisterfight.md#stage-70) | handed over (1×) | “I have one of those potions of accuracy focus for you.” |
+| [Elwyl](../monsters/elwyl.md) ([Remgard villager 5](../maps/remgard_villager5.md)) | [A difference of opinion](../quests/sisterfight.md#stage-70) | handed over (1×) | “I have one of those potions of accuracy focus for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, worth 174 XP, found in laerothprison6, laerothprison5. Drops: Gold coins, Small rock, Bone."
+description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, worth 174 XP, found in Laerothprison 6, Laerothprison 5. Drops: Gold coins, Small rock, Bone."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_13.png){ .sprite } Lesser wight
@@ -11,7 +11,7 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothprison6, laerothprison5 |
+| **Found in** | Laerothprison 6, Laerothprison 5 |
 | **Class** | Undead |
 | **HP** | 130 |
 | **XP when defeated** | 174 |
@@ -21,19 +21,19 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Lesser wight. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Lesser wight. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`wight_lesser`](#v-wight_lesser) | Enemy | [laerothprison6](../maps/laerothprison6.md) | – | 130 |
-| [`wight_lesser5`](#v-wight_lesser5) | Enemy | [laerothprison5](../maps/laerothprison5.md) | – | 130 |
-| [`wight_lesser5b`](#v-wight_lesser5b) | Enemy | [laerothprison5](../maps/laerothprison5.md) | – | 130 |
+| [`wight_lesser`](#v-wight_lesser) | Enemy | [Laerothprison 6](../maps/laerothprison6.md) | – | 130 |
+| [`wight_lesser5`](#v-wight_lesser5) | Enemy | [Laerothprison 5](../maps/laerothprison5.md) | – | 130 |
+| [`wight_lesser5b`](#v-wight_lesser5b) | Enemy | [Laerothprison 5](../maps/laerothprison5.md) | – | 130 |
 
-## Laerothprison6 (wight_lesser) { #v-wight_lesser }
+## Laerothprison 6 (wight_lesser) { #v-wight_lesser }
 
 **Entry ID:** `wight_lesser` · **Type:** Enemy
 
-**Location:** [laerothprison6](../maps/laerothprison6.md)
+**Location:** [Laerothprison 6](../maps/laerothprison6.md)
 
 ### Combat statistics
 
@@ -73,7 +73,7 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison6](../maps/laerothprison6.md) | – | 3 | – |
+| [Laerothprison 6](../maps/laerothprison6.md) | – | 3 | – |
 
 
 ### Version history
@@ -138,11 +138,11 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
     ```
 
 
-## Laerothprison5 (wight_lesser5) { #v-wight_lesser5 }
+## Laerothprison 5 (wight_lesser5) { #v-wight_lesser5 }
 
 **Entry ID:** `wight_lesser5` · **Type:** Enemy
 
-**Location:** [laerothprison5](../maps/laerothprison5.md)
+**Location:** [Laerothprison 5](../maps/laerothprison5.md)
 
 ### Combat statistics
 
@@ -182,7 +182,7 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison5](../maps/laerothprison5.md) | – | 17 | – |
+| [Laerothprison 5](../maps/laerothprison5.md) | – | 17 | – |
 
 
 ### Version history
@@ -247,11 +247,11 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
     ```
 
 
-## Laerothprison5 (wight_lesser5b) { #v-wight_lesser5b }
+## Laerothprison 5 (wight_lesser5b) { #v-wight_lesser5b }
 
 **Entry ID:** `wight_lesser5b` · **Type:** Enemy
 
-**Location:** [laerothprison5](../maps/laerothprison5.md)
+**Location:** [Laerothprison 5](../maps/laerothprison5.md)
 
 ### Combat statistics
 
@@ -291,7 +291,7 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison5](../maps/laerothprison5.md) | – | 5 | – |
+| [Laerothprison 5](../maps/laerothprison5.md) | – | 5 | – |
 
 
 ### Version history

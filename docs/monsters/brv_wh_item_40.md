@@ -4,7 +4,7 @@ description: "Crystal globe is an enemy in Andor's Trail (humanoid) with 1 HP, w
 
 # ![](../assets/icons/monsters/items_japozero_227.png){ .sprite } Crystal globe
 
-**Found in:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md)
+**Found in:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Crystal globe is an enemy in Andor's Trail (humanoid) with 1 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
+| [Brimhaven warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
 
 
 ## Version history

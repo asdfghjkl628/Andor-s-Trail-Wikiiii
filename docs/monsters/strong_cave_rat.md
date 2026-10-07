@@ -4,7 +4,7 @@ description: "Strong cave rat is an enemy in Andor's Trail (animal) with 20 HP, 
 
 # ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } Strong cave rat
 
-**Found in:** Crossglen: [crossglen_cave](../maps/crossglen_cave.md)
+**Found in:** Crossglen: [Crossglen cave](../maps/crossglen_cave.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Strong cave rat is an enemy in Andor's Trail (animal) with 20 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen_cave](../maps/crossglen_cave.md) | Crossglen | 1 | – |
+| [Crossglen cave](../maps/crossglen_cave.md) | Crossglen | 1 | – |
 
 
 ## Version history

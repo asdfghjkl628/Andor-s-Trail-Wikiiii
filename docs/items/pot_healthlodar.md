@@ -46,8 +46,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-114) | handed over (1×) | “Here, take this Lodar's potion of health.” |
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-46) | handed over (1×) | “I have this really special potion of healing that I got from a very wise old man” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-114) | handed over (1×) | “Here, take this Lodar's potion of health.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-46) | handed over (1×) | “I have this really special potion of healing that I got from a very wise old man” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

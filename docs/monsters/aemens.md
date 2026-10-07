@@ -4,7 +4,7 @@ description: "Aemens is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } Aemens
 
-**Where to find Aemens:** Loneford: [loneford16](../maps/loneford16.md#pin-npc-aemens)
+**Where to find Aemens:** Loneford: [Loneford 16](../maps/loneford16.md#pin-npc-aemens)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Aemens is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 50, 70
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stages 50, 70
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aemens. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Aemens. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aemens_0.json" data-npc="Aemens" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,15 +33,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-aemens_0"></span>**`aemens_0`** Aemens: “Don't you know that it's rude to walk into someone's house without knocking?” — **effects:** sets stage 50 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-50)
+    <span id="d-aemens_0"></span>**`aemens_0`** Aemens: “Don't you know that it's rude to walk into someone's house without knocking?” — **effects:** sets stage 50 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-50)
 
-    - “Your neighbor was right. He said you were not always a nice person.” *(if reached stage 60 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-60); NOT reached stage 75 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-75))* → [aemens_3](#d-aemens_3)
+    - “Your neighbor was right. He said you were not always a nice person.” *(if reached stage 60 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-60); NOT reached stage 75 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-75))* → [aemens_3](#d-aemens_3)
     - “Sorry. I'll leave.” → *conversation ends*
     - “Sorry. I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → [aemens_1](#d-aemens_1)
 
-    <span id="d-aemens_3"></span>**`aemens_3`** Aemens: “Did he now! Well, I'll have a word or two to say to him later! What do you want?” — **effects:** sets stage 70 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-70)
+    <span id="d-aemens_3"></span>**`aemens_3`** Aemens: “Did he now! Well, I'll have a word or two to say to him later! What do you want?” — **effects:** sets stage 70 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-70)
 
     - “Sorry. Nothing. I'll leave.” → *conversation ends*
     - “I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → [aemens_1](#d-aemens_1)

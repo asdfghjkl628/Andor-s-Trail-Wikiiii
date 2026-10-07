@@ -4,7 +4,7 @@ description: "Fraedro is an NPC who can also be fought in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Fraedro
 
-**Where to find Fraedro:** Pub: [ratdom_maze_626](../maps/ratdom_maze_626.md#pin-npc-ratdom_fraedro)
+**Where to find Fraedro:** Pub: [Ratdom maze 626](../maps/ratdom_maze_626.md#pin-npc-ratdom_fraedro)
 
 <div class="infobox" markdown>
 
@@ -38,16 +38,16 @@ No combat statistics are defined for this entry in the game data. Where the stor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_626](../maps/ratdom_maze_626.md) | Pub | 1 | – |
+| [Ratdom maze 626](../maps/ratdom_maze_626.md) | Pub | 1 | – |
 
 ## Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): stages 398, 399
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stage 180
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stage 180
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fraedro. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fraedro. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_fraedro.json" data-npc="Fraedro" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -55,11 +55,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_fraedro"></span>**`ratdom_fraedro`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180))* → [ratdom_fraedro_1](#d-ratdom_fraedro_1)
+    - Next *(if reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180))* → [ratdom_fraedro_1](#d-ratdom_fraedro_1)
     - Next → [ratdom_fraedro_1s](#d-ratdom_fraedro_1s)
 
     <span id="d-ratdom_fraedro_1"></span>**`ratdom_fraedro_1`** [Fraedro](../monsters/ratdom_fraedro.md): “Please don't hurt me.”
@@ -72,11 +72,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Who are you?” → [ratdom_fraedro_2](#d-ratdom_fraedro_2)
     - “Why did you steal King Rah's skeleton?” → [ratdom_fraedro_10](#d-ratdom_fraedro_10)
-    - “Starving? I have some cheese for you here.” *(if NOT reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); hand over 1× [Cheese](../items/cheese.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
-    - “Starving? I have some good cheddar from Charwood for you here.” *(if NOT reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); hand over 1× [Charwood cheddar](../items/charwood_cheddar.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
-    - “Starving? I have some moldy blue cheese for you here.” *(if NOT reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); hand over 1× [Blue cheese](../items/cheese_blue.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
-    - “Starving? I have some goat cheese for you here. It smells only slightly.” *(if NOT reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); NOT carry 1× [Blue cheese](../items/cheese_blue.md); hand over 1× [Goat cheese](../items/cheese_goat.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
-    - “Starving? Sorry, I have no cheese for you.” *(if NOT reached stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); NOT carry 1× [Blue cheese](../items/cheese_blue.md); NOT carry 1× [Goat cheese](../items/cheese_goat.md))* → [ratdom_fraedro](#d-ratdom_fraedro)
+    - “Starving? I have some cheese for you here.” *(if NOT reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); hand over 1× [Cheese](../items/cheese.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
+    - “Starving? I have some good cheddar from Charwood for you here.” *(if NOT reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); hand over 1× [Charwood cheddar](../items/charwood_cheddar.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
+    - “Starving? I have some moldy blue cheese for you here.” *(if NOT reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); hand over 1× [Blue cheese](../items/cheese_blue.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
+    - “Starving? I have some goat cheese for you here. It smells only slightly.” *(if NOT reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); NOT carry 1× [Blue cheese](../items/cheese_blue.md); hand over 1× [Goat cheese](../items/cheese_goat.md))* → [ratdom_fraedro_cheese_1](#d-ratdom_fraedro_cheese_1)
+    - “Starving? Sorry, I have no cheese for you.” *(if NOT reached stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180); NOT carry 1× [Cheese](../items/cheese.md); NOT carry 1× [Charwood cheddar](../items/charwood_cheddar.md); NOT carry 1× [Blue cheese](../items/cheese_blue.md); NOT carry 1× [Goat cheese](../items/cheese_goat.md))* → [ratdom_fraedro](#d-ratdom_fraedro)
     - “OK, bye.” → *conversation ends*
 
     <span id="d-ratdom_fraedro_2"></span>**`ratdom_fraedro_2`** Fraedro: “Fraedro, good traveler. Please don't hurt me.”
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-ratdom_fraedro_cheese_10"></span>**`ratdom_fraedro_cheese_10`** Fraedro: “You must be the rightful heir of King Rah.”
 
-    - “Who, me?” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_fraedro_cheese_12](#d-ratdom_fraedro_cheese_12)
+    - “Who, me?” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_fraedro_cheese_12](#d-ratdom_fraedro_cheese_12)
     - “Sure.” → [ratdom_fraedro_cheese_20](#d-ratdom_fraedro_cheese_20)
 
     <span id="d-ratdom_fraedro_14"></span>**`ratdom_fraedro_14`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 399 of [Yellow is it](../quests/ratdom_quest.md#stage-399)
@@ -126,9 +126,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “King Rah's sword?” → [ratdom_fraedro_cheese_30](#d-ratdom_fraedro_cheese_30)
 
-    <span id="d-ratdom_fraedro_cheese_30"></span>**`ratdom_fraedro_cheese_30`** Fraedro: “You'll find it further down in the caves. Say the words 'Veni gladio fidelis'.” — **effects:** sets stage 180 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-180)
+    <span id="d-ratdom_fraedro_cheese_30"></span>**`ratdom_fraedro_cheese_30`** Fraedro: “You'll find it further down in the caves. Say the words 'Veni gladio fidelis'.” — **effects:** sets stage 180 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-180)
 
-    - “I'll try to remember.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_fraedro_cheese_32](#d-ratdom_fraedro_cheese_32)
+    - “I'll try to remember.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_fraedro_cheese_32](#d-ratdom_fraedro_cheese_32)
 
     <span id="d-ratdom_fraedro_cheese_32"></span>**`ratdom_fraedro_cheese_32`** [Clevred](../monsters/ratdom_rat.md): “[Clevred rolls his eyes] He. will. try. to remember. That can only go wrong.”
 

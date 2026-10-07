@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | [The path is clear to me](../quests/rogorn.md#stage-50) | handed over (3×) | “Yes, I killed them and recovered the three pieces of the painting.” |
+| [Minarra](../monsters/minarra.md) ([Houseatcrossroads 4](../maps/houseatcrossroads4.md)) | [The path is clear to me](../quests/rogorn.md#stage-50) | handed over (3×) | “Yes, I killed them and recovered the three pieces of the painting.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -29,7 +29,7 @@ description: "Key of Luthor is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Crackshot](../monsters/g03_crackshot.md) | 100% | 1 | crackshot_hideout3 |
+| [Crackshot](../monsters/g03_crackshot.md) | 100% | 1 | Crackshot hideout 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,10 +40,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | must be carried (1×) | “Insert the key of Luthor into the lock.” |
-| [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Yes ... [give key]. Why is this key so important to us?” |
-| [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Sure, here, take it. And maybe it's time to give me some more information.” |
-| [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Oh. Yes, I remember now that I found the key. Here, take it.” |
+| walking into a blocked passage on [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – | must be carried (1×) | “Insert the key of Luthor into the lock.” |
+| [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Yes ... [give key]. Why is this key so important to us?” |
+| [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Sure, here, take it. And maybe it's time to give me some more information.” |
+| [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-45) | handed over (1×) | “Oh. Yes, I remember now that I found the key. Here, take it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

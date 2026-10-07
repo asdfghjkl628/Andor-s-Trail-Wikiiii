@@ -39,34 +39,34 @@ description: "Mundane necklace is a ordinary necklace in Andor's Trail (Attack c
 |---|---|---|---|
 | [Mudfiend](../monsters/mudfiend1.md) | 5% | 1 | Loneford |
 | [Tough mudfiend](../monsters/mudfiend2.md) | 5% | 1 | Loneford |
-| [Zortak scout](../monsters/zortak1.md) | 5% | 1 | lodar14, lodar18, lodar7 |
-| [Zortak fighter](../monsters/zortak2.md) | 5% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak guard](../monsters/zortak3.md) | 5% | 1 | lodar18, lodar7, lodar8 |
-| [Zortak barbarian](../monsters/zortak4.md) | 5% | 1 | lodar18, lodar8 |
+| [Zortak scout](../monsters/zortak1.md) | 5% | 1 | Lodar 14, Lodar 18, Lodar 7 |
+| [Zortak fighter](../monsters/zortak2.md) | 5% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak guard](../monsters/zortak3.md) | 5% | 1 | Lodar 18, Lodar 7, Lodar 8 |
+| [Zortak barbarian](../monsters/zortak4.md) | 5% | 1 | Lodar 18, Lodar 8 |
 | [Olive ooze](../monsters/jelly1.md) | 5% | 1 | Crossroads Guardhouse |
 | [Emerald jelly](../monsters/jelly2.md) | 5% | 1 | Crossroads Guardhouse |
 | [Poisonous ooze](../monsters/jelly3.md) | 5% | 1 | Crossroads Guardhouse |
 | [Ochre jelly](../monsters/jelly4.md) | 5% | 1 | Crossroads Guardhouse |
-| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | roadcave1 |
+| [Crimson jelly](../monsters/jelly5.md) | 5% | 1 | Roadcave 1 |
 
 ### Found in containers
 
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 5%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 5%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 5%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 5%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 5%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 5%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 5%)
-- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 5%)
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 5%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 5%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 5%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-2) (container 3, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-0) (container 1, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-1) (container 2, 5%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-2) (container 3, 5%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-0) (container 1, 5%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-1) (container 2, 5%)
+- [Elm mine 4](../maps/elm_mine4.md#container-0) (container 1, 5%)
 
 ### Quest & dialogue rewards
 
-- From [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-42) (30×)
+- From [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-42) (30×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

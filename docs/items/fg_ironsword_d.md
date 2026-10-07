@@ -40,7 +40,7 @@ description: "Degraded Feygard iron sword is a quest longsword in Andor's Trail 
 
 ### Quest & dialogue rewards
 
-- From [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) during [Feygard errands](../quests/feygard_shipment.md#stage-56) (100%)
+- From [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) during [Feygard errands](../quests/feygard_shipment.md#stage-56) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -51,7 +51,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-60) | handed over (10×) | “I have a shipment of iron swords from Gandoren for you.” |
+| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([Foaming flask](../maps/foaming_flask.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-60) | handed over (10×) | “I have a shipment of iron swords from Gandoren for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

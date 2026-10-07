@@ -4,7 +4,7 @@ description: "Sullengard forest snake is an enemy in Andor's Trail (reptile) wit
 
 # ![](../assets/icons/monsters/monsters_tometik4_24.png){ .sprite } Sullengard forest snake
 
-**Found in:** Sullengard: [sullengard5](../maps/sullengard5.md), Sullengard: [sullengard6](../maps/sullengard6.md), Sullengard: [sullengard_pond](../maps/sullengard_pond.md), [aidem_camp](../maps/aidem_camp.md) (+24 more)
+**Found in:** Sullengard: [Sullengard 5](../maps/sullengard5.md), Sullengard: [Sullengard 6](../maps/sullengard6.md), Sullengard: [Sullengard pond](../maps/sullengard_pond.md), [Aidem camp](../maps/aidem_camp.md) (+24 more)
 
 <div class="infobox" markdown>
 
@@ -58,34 +58,34 @@ description: "Sullengard forest snake is an enemy in Andor's Trail (reptile) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_camp](../maps/aidem_camp.md) | – | 2 | – |
-| [sullengard5](../maps/sullengard5.md) | Sullengard | 1 | – |
-| [sullengard6](../maps/sullengard6.md) | Sullengard | 5 | – |
-| [sullengard9](../maps/sullengard9.md) | – | 3 | – |
-| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 1 | – |
-| [sullengard_woods10](../maps/sullengard_woods10.md) | – | 3 | – |
-| [sullengard_woods11](../maps/sullengard_woods11.md) | – | 4 | – |
-| [sullengard_woods12](../maps/sullengard_woods12.md) | – | 11 | – |
-| [sullengard_woods13](../maps/sullengard_woods13.md) | – | 1 | – |
-| [sullengard_woods14](../maps/sullengard_woods14.md) | – | 2 | – |
-| [sullengard_woods2](../maps/sullengard_woods2.md) | – | 4 | – |
-| [sullengard_woods3](../maps/sullengard_woods3.md) | – | 8 | – |
-| [sullengard_woods4](../maps/sullengard_woods4.md) | – | 6 | – |
-| [sullengard_woods5](../maps/sullengard_woods5.md) | – | 8 | – |
-| [sullengard_woods6](../maps/sullengard_woods6.md) | – | 8 | – |
-| [sullengard_woods7](../maps/sullengard_woods7.md) | – | 6 | – |
-| [sullengard_woods8](../maps/sullengard_woods8.md) | – | 1 | – |
-| [sullengard_woods9](../maps/sullengard_woods9.md) | – | 8 | – |
-| [way_to_aidem_camp_1](../maps/way_to_aidem_camp_1.md) | – | 5 | – |
-| [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md) | – | 6 | – |
-| [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md) | – | 1 | – |
-| [way_to_sullengard_east4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
-| [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md) | – | 6 | – |
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
-| [way_to_sullengard_east9a](../maps/way_to_sullengard_east9a.md) | – | 2 | – |
-| [way_to_sullengard_east_ravine_cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 2 | – |
-| [way_to_sullengard_east_ravine_north](../maps/way_to_sullengard_east_ravine_north.md) | – | 2 | – |
-| [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md) | – | 2 | – |
+| [Aidem camp](../maps/aidem_camp.md) | – | 2 | – |
+| [Sullengard 5](../maps/sullengard5.md) | Sullengard | 1 | – |
+| [Sullengard 6](../maps/sullengard6.md) | Sullengard | 5 | – |
+| [Sullengard 9](../maps/sullengard9.md) | – | 3 | – |
+| [Sullengard pond](../maps/sullengard_pond.md) | Sullengard | 1 | – |
+| [Sullengard woods 10](../maps/sullengard_woods10.md) | – | 3 | – |
+| [Sullengard woods 11](../maps/sullengard_woods11.md) | – | 4 | – |
+| [Sullengard woods 12](../maps/sullengard_woods12.md) | – | 11 | – |
+| [Sullengard woods 13](../maps/sullengard_woods13.md) | – | 1 | – |
+| [Sullengard woods 14](../maps/sullengard_woods14.md) | – | 2 | – |
+| [Sullengard woods 2](../maps/sullengard_woods2.md) | – | 4 | – |
+| [Sullengard woods 3](../maps/sullengard_woods3.md) | – | 8 | – |
+| [Sullengard woods 4](../maps/sullengard_woods4.md) | – | 6 | – |
+| [Sullengard woods 5](../maps/sullengard_woods5.md) | – | 8 | – |
+| [Sullengard woods 6](../maps/sullengard_woods6.md) | – | 8 | – |
+| [Sullengard woods 7](../maps/sullengard_woods7.md) | – | 6 | – |
+| [Sullengard woods 8](../maps/sullengard_woods8.md) | – | 1 | – |
+| [Sullengard woods 9](../maps/sullengard_woods9.md) | – | 8 | – |
+| [Way to aidem camp 1](../maps/way_to_aidem_camp_1.md) | – | 5 | – |
+| [Way to sullengard east 10](../maps/way_to_sullengard_east10.md) | – | 6 | – |
+| [Way to sullengard east 11](../maps/way_to_sullengard_east11.md) | – | 1 | – |
+| [Way to sullengard east 4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
+| [Way to sullengard east 8](../maps/way_to_sullengard_east8.md) | – | 6 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
+| [Way to sullengard east 9a](../maps/way_to_sullengard_east9a.md) | – | 2 | – |
+| [Way to sullengard east ravine cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 2 | – |
+| [Way to sullengard east ravine north](../maps/way_to_sullengard_east_ravine_north.md) | – | 2 | – |
+| [Way to sullengard pond road](../maps/way_to_sullengard_pond_road.md) | – | 2 | – |
 
 
 ## Version history

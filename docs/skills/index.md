@@ -1,6 +1,6 @@
 # Stats & Skills
 
-How character statistics, levelling and combat work in v0.8.18, as implemented in the game's source code. Each section can be collapsed by clicking its heading. For recommendations on how to use this information, see [Strategy](../strategy/index.md).
+How stats, levelling and combat work in v0.8.18, straight from the game's source code ~~not from forum folklore~~. For what to *do* with it, see [Strategy](../strategy/index.md).
 
 ???+ section "Starting stats (level 1)"
 

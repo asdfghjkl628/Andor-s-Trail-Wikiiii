@@ -11,7 +11,7 @@ description: "Elm 2f 2 is an indoor location in Andor's Trail. Exits to Elm 2f 1
 | **Map ID** | `elm_2f_2` |
 | **Type** | Indoors / underground |
 | **Size** | 8×9 tiles |
-| **World map** | [Elmmine2f](index.md) |
+| **World map** | [Elmmine 2f](index.md) |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 | **Quests** | 0 |
 | **Containers** | 2 |
@@ -65,7 +65,7 @@ Signed by Guthbered of Prim”">3</a><a class="pin pin-key" href="#key-4" style=
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): blocked passage opens at stage 33; something on this map advances it
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): blocked passage opens at stage 33; something on this map advances it
 
 ## Points of interest
 
