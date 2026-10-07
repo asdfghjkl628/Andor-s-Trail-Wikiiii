@@ -10,7 +10,7 @@ theme:
       accent: custom
   features: [navigation.tabs, navigation.top, navigation.sections, search.suggest, search.highlight, content.code.copy]
 extra_css: [stylesheets/extra.css]
-extra_javascript: [javascripts/maps.js, javascripts/dialogue-sim.js, javascripts/build-calc.js]
+extra_javascript: [javascripts/maps.js, javascripts/dialogue-sim.js, javascripts/build-calc.js, javascripts/link-hints.js]
 plugins: [search]
 markdown_extensions:
   - admonition
@@ -32,6 +32,7 @@ nav:
       - Stat glossary: skills/stats.md
       - Build calculator: skills/calculator.md
   - Conditions: conditions/index.md
+  - Glossary: glossary.md
   - Strategy:
       - strategy/index.md
       - Levelling & skill points: strategy/levelling.md

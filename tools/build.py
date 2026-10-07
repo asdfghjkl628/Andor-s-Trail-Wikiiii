@@ -133,6 +133,60 @@ for sid, sk in skills.items():
     first = re.split(r'(?<=\.)\s', html.unescape(sk['long']).strip(), maxsplit=1)[0] if sk['long'] else ''
     sk['summary'] = (first if len(first) <= 170 else first[:167].rsplit(' ', 1)[0] + '…') or sk['short']
 if unfilled: print('WARNING: could not evaluate skill description values:', unfilled)
+# compact "What it does" text for tables (abbreviations: see glossary.md). Values come from SkillCollection.java constants.
+BRIEF = {
+    'weaponChance': '+{PER_SKILLPOINT_INCREASE_WEAPON_CHANCE} AC per level',
+    'weaponDmg': '+{PER_SKILLPOINT_INCREASE_WEAPON_DAMAGE_MAX} max dmg per level',
+    'barter': 'Shop price penalty −{PER_SKILLPOINT_INCREASE_BARTER_PRICEFACTOR_PERCENTAGE} points per level (better buy and sell prices)',
+    'dodge': '+{PER_SKILLPOINT_INCREASE_DODGE} BC per level',
+    'barkSkin': '+{PER_SKILLPOINT_INCREASE_BARKSKIN} DR per level',
+    'moreCriticals': '+{PER_SKILLPOINT_INCREASE_MORE_CRITICALS_PERCENT}% of equipment CS per level',
+    'betterCriticals': '+{PER_SKILLPOINT_INCREASE_BETTER_CRITICALS_PERCENT}% of equipment CM per level',
+    'speed': '+{PER_SKILLPOINT_INCREASE_SPEED} max AP per level',
+    'coinfinder': '+{PER_SKILLPOINT_INCREASE_COINFINDER_CHANCE_PERCENT}% chance of gold drops, +{PER_SKILLPOINT_INCREASE_COINFINDER_QUANTITY_PERCENT}% gold per drop, per level',
+    'moreExp': '+{PER_SKILLPOINT_INCREASE_MORE_EXP_PERCENT}% XP from kills per level',
+    'cleave': '+{PER_SKILLPOINT_INCREASE_CLEAVE_AP} AP per kill per level',
+    'eater': '+{PER_SKILLPOINT_INCREASE_EATER_HEALTH} HP per kill per level',
+    'fortitude': '+{PER_SKILLPOINT_INCREASE_FORTITUDE_HEALTH} max HP on every later level-up, per level',
+    'evasion': '−{PER_SKILLPOINT_INCREASE_EVASION_FLEE_CHANCE_PERCENTAGE}% flee failure and −{PER_SKILLPOINT_INCREASE_EVASION_MONSTER_ATTACK_CHANCE_PERCENTAGE}% chance of adjacent enemies attacking, per level',
+    'regeneration': '+{PER_SKILLPOINT_INCREASE_REGENERATION} HP per round when no enemy is adjacent, per level',
+    'lowerExploss': '−{PER_SKILLPOINT_INCREASE_EXPLOSS_PERCENT}% XP lost on death per level',
+    'magicfinder': '+{PER_SKILLPOINT_INCREASE_MAGICFINDER_CHANCE_PERCENT}% chance of non-ordinary item drops per level',
+    'resistanceMental': '−{PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT}% chance of mental conditions per level',
+    'resistancePhysical': '−{PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT}% chance of physical conditions per level',
+    'resistanceBlood': '−{PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT}% chance of blood conditions per level',
+    'shadowBless': '−{PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS}% chance of all conditions',
+    'crit1': '{PER_SKILLPOINT_INCREASE_CRIT1_CHANCE}% chance per crit to inflict Internal bleeding',
+    'crit2': '{PER_SKILLPOINT_INCREASE_CRIT2_CHANCE}% chance per crit to inflict Fracture',
+    'rejuvenation': '{PER_SKILLPOINT_INCREASE_REJUVENATION_CHANCE}% chance per round to weaken one harmful condition',
+    'taunt': '{PER_SKILLPOINT_INCREASE_TAUNT_CHANCE}% chance that an enemy who misses you loses {TAUNT_AP_LOSS} AP',
+    'concussion': '{PER_SKILLPOINT_INCREASE_CONCUSSION_CHANCE}% chance to inflict Concussion when your AC exceeds the target\'s BC by {CONCUSSION_THRESHOLD}+',
+    'weaponProficiencyDagger': 'Daggers, shortswords: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiency1hsword': 'Longswords, broadswords, rapiers: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiency2hsword': 'Two-handed swords: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiencyAxe': 'Axes, greataxes: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiencyBlunt': 'Blunt weapons: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiencyPole': 'Pole weapons: +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_AC_PERCENT}% of weapon AC and BC, +{PER_SKILLPOINT_INCREASE_WEAPON_PROF_CS_PERCENT}% of its CS, per level',
+    'weaponProficiencyUnarmed': 'No weapon or shield: +{PER_SKILLPOINT_INCREASE_UNARMED_AC} AC, +{PER_SKILLPOINT_INCREASE_UNARMED_DMG} dmg, +{PER_SKILLPOINT_INCREASE_UNARMED_BC} BC per level',
+    'armorProficiencyShield': 'With a shield or parrying weapon: +{PER_SKILLPOINT_INCREASE_SHIELD_PROF_DR} DR per level',
+    'armorProficiencyUnarmored': 'No armor: +{PER_SKILLPOINT_INCREASE_UNARMORED_BC} BC per level',
+    'armorProficiencyLight': 'Light armor: +{PER_SKILLPOINT_INCREASE_LIGHT_ARMOR_BC_PERCENT}% of its BC per level',
+    'armorProficiencyHeavy': 'Heavy armor: +{PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_BC_PERCENT}% of its BC, −{PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_MOVECOST_PERCENT}% of its AP-cost penalties, per level',
+    'fightstyleDualWield': 'Off-hand weapon counts {DUALWIELD_EFFICIENCY_LEVEL1}% (level 1) or {DUALWIELD_EFFICIENCY_LEVEL2}% (level 2), up from {DUALWIELD_EFFICIENCY_LEVEL0}%',
+    'fightstyle2hand': 'Two-handed weapons: +{PER_SKILLPOINT_INCREASE_FIGHTSTYLE_2HAND_DMG_PERCENT}% of weapon dmg per level',
+    'fightstyleWeaponShield': 'Weapon + shield: +{PER_SKILLPOINT_INCREASE_FIGHTSTYLE_WEAPON_AC_PERCENT}% of weapon AC and +{PER_SKILLPOINT_INCREASE_FIGHTSTYLE_SHIELD_BC_PERCENT}% of shield BC per level',
+    'fightstyleUnarmedUnarmored': 'No weapon, shield or armor: +{PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_AC} AC, +{PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_BC} BC, +{PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DR} DR, +{PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DMG_MAX} max dmg per level; CM ×(1 + 0.25 per level)',
+    'specializationDualWield': 'Both weapons: +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_DUALWIELD_AC_PERCENT}% of their AC and +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_DUALWIELD_BC_PERCENT}% of their BC',
+    'specialization2hand': 'Two-handed weapon: +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_2HAND_DMG_PERCENT}% of its dmg, +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_2HAND_AC_PERCENT}% of its AC',
+    'specializationWeaponShield': 'Main-hand weapon: +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_AC_PERCENT}% of its AC, +{PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_DMG_PERCENT}% of its dmg',
+    'sporeImmunity': 'Immune to Spore poisoning',
+}
+class _K(dict):
+    def __missing__(self, k): return '?'
+for sid, sk in skills.items():
+    sk['brief'] = BRIEF[sid].format_map(_K({k: (int(v) if isinstance(v, float) and v == int(v) else v) for k, v in consts.items()})) if sid in BRIEF else sk['summary']
+_missing_brief = [x for x in skills if x not in BRIEF]
+if _missing_brief: print('::warning::No short skill description for:', _missing_brief)
 
 # ---------------------------------------------------------------- cross references
 # map spawns are computed by tools/maps.py (which also renders the maps)
@@ -272,6 +326,7 @@ import history as H
 hist = H.update_history(DATA, os.path.join(GAME, 'res'), VERSION)
 _names = {'items': {k: v.get('name', k) for k, v in items.items()}, 'monsters': {k: v.get('name', k) for k, v in monsters.items()},
           'quests': {k: v.get('name', k) for k, v in quests.items()}}
+H.RENDER_NAMES.update({'items': _names['items'], 'monsters': _names['monsters'], 'conditions': {k: v.get('name', k) for k, v in conditions.items()}})
 def page_exists(kind, oid):
     if kind == 'maps': return os.path.exists(os.path.join(GAME, 'res', 'xml', oid + '.tmx'))
     return oid in {'items': items, 'monsters': monsters, 'quests': quests}.get(kind, {})
@@ -692,6 +747,8 @@ write('monsters/index.md', front(f"Every enemy and non-player character in Andor
       "\n## NPCs\n\nCharacters who cannot be attacked, in alphabetical order. The [Where is…?](../where.md) page lists them by location.\n\n"
       "| | Name | Role | Found in |\n|---|---|---|---|\n" + ''.join(r for _, r in sorted(npc_rows)))
 _map_ctx['kind_of'] = kind_of
+json.dump({c: {'Enemy': 'enemy', 'NPC': 'NPC', 'NPC/Enemy': 'NPC who can be fought'}[group_kind(ids)] for c, ids in group_ids.items()},
+          open(os.path.join(DOCS, 'assets', 'linkinfo.json'), 'w', encoding='utf-8'), separators=(',', ':'))
 
 write_map_pages(_map_pages, _map_ctx, QG, notes, shopkeepers, introduced)
 
@@ -822,7 +879,7 @@ def level_rows(sk):
 
 for sid, sk in skills.items():
     first_req = prereq_short(sk) if 'prereq_short' in globals() else ''
-    info = [('Category', sk['category'].capitalize()), ('Max level', sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else 'Unlimited'),
+    info = [('In short', sk['brief'] + ' ([abbreviations](../glossary.md))'), ('Category', sk['category'].capitalize()), ('Max level', sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else 'Unlimited'),
             ('Obtained via', LUT.get(sk['levelUpType'], sk['levelUpType'])),
             ('Also from quests', 'Yes' if sid in skill_sources and sk['levelUpType'] == 'alwaysShown' else None),
             ('Unlocks', ', '.join(f"[{skills[u]['name']}]({u}.md)" for u, _ in unlocks.get(sid, [])) or None)]
@@ -924,15 +981,21 @@ def make_charts():
     lv = list(range(1, 61)); f, ax = fig('Experience needed for the next level', 'Current level', 'XP to next level')
     ax.plot(lv, [LV['exp_base'] * l * l for l in lv], color=CY, lw=2.5)
     ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f'{int(v):,}')); save(f, 'experience.png')
-    # Fortitude vs health level-ups
-    L = list(range(1, 51)); f, ax = fig('Bonus max HP: Fortitude vs. health level-ups', 'Character level', 'Bonus max HP')
-    fort = lambda starts: [sum(max(0, l - st) * LV['fort'] for st in starts) for l in L]
-    ax.plot(L, fort([5]), color=OR, lw=2.5, label='Fortitude 1 (taken at 5)')
-    ax.plot(L, fort([5, 20]), color=OR, lw=1.8, ls='--', label='Fortitude 1–2 (5, 20)')
-    ax.plot(L, fort([5, 20, 35]), color=OR, lw=1.2, ls=':', label='Fortitude 1–3 (5, 20, 35)')
-    ax.plot(L, [LV['hp'] * min(9, max(0, l - 1)) for l in L], color=CY, lw=2, label='9 health level-ups (levels 2–10)')
-    ax.legend(facecolor=BG, edgecolor=GR, labelcolor=FG, fontsize=8); save(f, 'fortitude_vs_health.png')
-make_charts()
+    # Fortitude vs a hero who puts every level-up into max health (strategy/levelling.md)
+    L = list(range(1, 161)); f, ax = fig('Bonus max HP: Fortitude vs. every level-up into health', 'Character level', 'Bonus max HP')
+    fort = lambda n: [sum(max(0, l - (15 * k - 10)) * LV['fort'] for k in range(1, n + 1)) for l in L]
+    fort_all = [sum(max(0, l - (15 * k - 10)) * LV['fort'] for k in range(1, (l + 10) // 15 + 1)) for l in L]
+    ax.plot(L, [LV['hp'] * (l - 1) for l in L], color=CY, lw=2.8, label=f"+{LV['hp']} HP at every level-up")
+    for n, ls, lw in ((1, '-', 1.2), (2, '-', 1.4), (3, '-', 1.6), (4, '-', 1.8), (6, '-', 2.0)):
+        ax.plot(L, fort(n), color=OR, lw=lw, alpha=0.35 + 0.1 * n, label=f"Fortitude 1–{n}" if n > 1 else 'Fortitude 1')
+    ax.plot(L, fort_all, color=OR, lw=2.6, ls='--', label='Fortitude at every opportunity')
+    cross = next((l for l in L if l > 1 and fort_all[l - 1] >= LV['hp'] * (l - 1)), None)
+    if cross:
+        ax.axvline(cross, color=GR, lw=1, ls=':'); ax.text(cross - 2, 40, f'level {cross}', color=FG, ha='right', fontsize=9)
+    ax.axvline(50, color=GR, lw=1, ls=':'); ax.text(52, 600, 'level 50', color=FG, fontsize=9)
+    ax.legend(facecolor=BG, edgecolor=GR, labelcolor=FG, fontsize=8, loc='upper left'); save(f, 'fortitude_vs_health.png')
+    return cross
+FORT_CROSS = make_charts()
 CH = '../assets/charts/'
 
 # --- Cobalt UI frames, taken straight from the game (9-patch guide pixels stripped)
@@ -974,9 +1037,7 @@ One bonus is chosen at each level-up, and the choice is permanent (the game has 
 
 ![Experience needed per level]({CH}experience.png)
 
-![Fortitude vs health level-ups]({CH}fortitude_vs_health.png)
-
-One point of [Fortitude](fortitude.md) at level 5 out-earns a health level-up by level 10. Add a second level at 20 and it matches nine health level-ups by level 35, while those nine level-ups were free to go into other stats. Details on [Strategy](../strategy/levelling.md).
+For how the max health level-up compares with the [Fortitude](fortitude.md) skill, see [Strategy: Levelling & skill points](../strategy/levelling.md#fortitude-compared-with-the-max-health-level-up).
 
 | Level | Total XP | XP to next |
 |---|---|---|
@@ -1009,11 +1070,12 @@ combat_body = f"""Every attack is resolved in the same four steps, described bel
 def skill_row(sid, star=False):
     sk = skills[sid]
     mx = sk['maxLevel'] if sk['maxLevel'] != 'unlimited' else '∞'
-    return f"| [{md_esc(sk['name'])}]({sid}.md){'\\*' if star else ''} | {mx} | {prereq_short(sk)} | {md_esc(sk['summary'])} |\n"
+    return f"| [{md_esc(sk['name'])}]({sid}.md){'\\*' if star else ''} | {mx} | {prereq_short(sk)} | {md_esc(sk['brief'])} |\n"
 points_skills = [sid for sid, sk in skills.items() if sk['levelUpType'] == 'alwaysShown']
 quest_skills = [sid for sid, sk in skills.items() if sk['levelUpType'] != 'alwaysShown']
 hdr = "| Skill | Max | Prerequisite | What it does |\n|---|---|---|---|\n"
-skill_body = ("**Learned with skill points** (in the order the game lists them)\n\n" + hdr +
+skill_abbr_note = "Abbreviations (AC, BC, DR…) are explained in the [glossary](../glossary.md).\n\n"
+skill_body = (skill_abbr_note + "**Learned with skill points** (in the order the game lists them)\n\n" + hdr +
               ''.join(skill_row(x, x in skill_sources) for x in points_skills) +
               "\n\\* Some quests also reward a level of this skill directly, without spending a skill point.\n\n**Unlocked through quests**\n\n" + hdr +
               ''.join(skill_row(x) for x in quest_skills) +
@@ -1065,6 +1127,29 @@ AP to use an item, e.g. drinking a potion in the middle of a fight.
 ## Re-equip cost
 AP to change equipment during combat. Changing equipment during combat is possible but uses AP that could otherwise be spent attacking.
 """)
+# ---------------------------------------------------------------- glossary of abbreviations
+GLOSSARY = [
+    ('AC', 'Attack chance', 'Your accuracy; compared with the target\'s BC to decide whether an attack hits. (Not "armor class".)', 'skills/stats.md#attack-chance'),
+    ('AP', 'Action points', 'Points spent on attacking, moving and using items during a combat turn.', 'skills/stats.md#max-ap'),
+    ('BC', 'Block chance', 'Your evasion; compared with the attacker\'s AC.', 'skills/stats.md#block-chance'),
+    ('CM', 'Critical multiplier', 'How much a critical hit multiplies damage (e.g. ×2). Comes from the weapon.', 'skills/stats.md#critical-multiplier'),
+    ('CS', 'Critical skill', 'Determines the chance of a critical hit.', 'skills/stats.md#critical-skill'),
+    ('Dmg', 'Attack damage', 'The damage range of an attack (minimum to maximum).', 'skills/stats.md#attack-damage'),
+    ('DR', 'Damage resistance', 'Subtracted from every hit you take.', 'skills/stats.md#damage-resistance'),
+    ('HP', 'Health points', 'Current and maximum health.', 'skills/stats.md#max-hp'),
+    ('Lv', 'Level', 'Character level (or skill level, where stated).', 'skills/index.md'),
+    ('NPC', 'Non-player character', 'A character you can talk to. Some can also be fought (NPC/Enemy).', 'monsters/index.md'),
+    ('XP / Exp', 'Experience points', 'Earned by defeating enemies and completing quests; needed to level up.', 'skills/index.md'),
+    ('Crit', 'Critical hit', 'A hit whose damage is multiplied by the CM.', 'skills/stats.md#critical-skill'),
+]
+write('glossary.md', front("Abbreviations used on the Andor's Trail wiki and by the player community: AC, BC, DR, AP, CS, CM and more.") +
+      "# Glossary\n\nAbbreviations used across this wiki. Most are also common in the Andor's Trail community. "
+      "Each statistic is explained in full in the [stat glossary](skills/stats.md).\n\n"
+      "| Abbreviation | Stands for | Meaning |\n|---|---|---|\n" +
+      ''.join(f"| **{ab}** | [{full}]({ln}) | {md_esc(desc)} |\n" for ab, full, desc, ln in GLOSSARY) +
+      "\n**Percentages and points.** Skill descriptions that say \"+20% of weapon AC\" mean 20% of the bonus that item itself provides. "
+      "\"+9 BC\" means nine points of block chance.\n")
+
 # ---------------------------------------------------------------- "Where is…?" page
 def _letter(n): c = (n[:1] or '#').upper(); return c if c.isalpha() else '#'
 people = defaultdict(list)
@@ -1218,8 +1303,8 @@ if old and old.get('version') != VERSION:
         if added: E.append(f"\n**New {sec} ({len(added)}):** " + ', '.join(link(sec, k, n[k].get(namekey, k)).replace('../', '') for k in added) + '\n')
         if removed: E.append(f"\n**Removed {sec} ({len(removed)}):** " + ', '.join(o[k].get(namekey, k) for k in removed) + '\n')
         for k in changed:
-            diffs = [f"{f}: `{json.dumps(o[k].get(f))}` → `{json.dumps(n[k].get(f))}`" for f in sorted(set(o[k]) | set(n[k])) if o[k].get(f) != n[k].get(f)]
-            E.append(f"- {link(sec, k, n[k].get(namekey, k)).replace('../', '')}: " + '; '.join(diffs) + '\n')
+            diffs = [H.render(d).replace('](../', '](') for d in H._entity_diff(o[k], n[k])]
+            E.append(f"- {link(sec, k, n[k].get(namekey, k)).replace('../', '')}: " + '; '.join(diffs or ['minor data change']) + '\n')
     newq = [k for k in snap['quests'] if k not in old.get('quests', {})]
     if newq: E.append(f"\n**New quests ({len(newq)}):** " + ', '.join(snap['quests'][k] or k for k in newq) + '\n')
     body = ''.join(E) + body

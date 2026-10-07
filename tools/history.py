@@ -109,8 +109,95 @@ def _t(v, n=90):
     return s if len(s) <= n else s[:n - 1] + '…'
 
 
+# ---- readable change descriptions. Names are stored as markers (⟦items:id⟧, ⟦conditions:id⟧) and turned into links when pages are written.
+BLOCKS = {'equipEffect': 'When equipped', 'useEffect': 'When used', 'hitEffect': 'On hit', 'missEffect': 'On miss', 'killEffect': 'On kill',
+          'hitReceivedEffect': 'When hit', 'missReceivedEffect': 'When an attack misses', 'deathEffect': 'On death'}
+STATS = {'increaseMaxHP': 'max HP', 'increaseMaxAP': 'max AP', 'increaseAttackChance': 'attack chance', 'increaseAttackDamage': 'attack damage',
+         'increaseBlockChance': 'block chance', 'increaseDamageResistance': 'damage resistance', 'increaseCriticalSkill': 'critical skill',
+         'setCriticalMultiplier': 'critical multiplier', 'increaseAttackCost': 'attack cost', 'increaseMoveCost': 'move cost',
+         'increaseUseItemCost': 'item use cost', 'increaseReequipCost': 're-equip cost', 'setNonWeaponDamageModifier': 'non-weapon damage modifier (%)',
+         'increaseCurrentHP': 'HP restored', 'increaseCurrentAP': 'AP restored',
+         'maxHP': 'max HP', 'maxAP': 'max AP', 'attackChance': 'attack chance', 'attackDamage': 'attack damage', 'blockChance': 'block chance',
+         'damageResistance': 'damage resistance', 'criticalSkill': 'critical skill', 'criticalMultiplier': 'critical multiplier',
+         'attackCost': 'attack cost', 'moveCost': 'move cost', 'baseMarketCost': 'base value (gold)'}
+CONDS = {'conditionsSource': 'condition on self', 'conditionsTarget': 'condition on target', 'addedConditions': 'grants condition'}
+TEXT = {'name': 'name', 'description': 'description text', 'category': 'category', 'displaytype': 'rarity', 'monsterClass': 'class',
+        'faction': 'faction', 'droplistID': 'loot table', 'phraseID': 'conversation', 'spawnGroup': 'spawn group',
+        'movementAggressionType': 'movement', 'unique': 'unique flag', 'hasManualPrice': 'manual price flag', 'aggressionChance': 'aggression chance', 'horizontalFlipChance': 'chance of appearing mirrored', 'size': 'size'}
+QUIET = {'description', 'phraseID', 'droplistID', 'spawnGroup'}   # say that it changed, not the raw values
+
+
+def _v(x):
+    if isinstance(x, dict) and ('min' in x or 'max' in x):
+        a, b = x.get('min', 0), x.get('max', 0)
+        return str(a) if a == b else f"{a}–{b}"
+    if isinstance(x, (int, float)) and not isinstance(x, bool): return f"{x:g}" if isinstance(x, float) else str(x)
+    return _t(x, 40)
+
+
+def _cond(c):
+    bits = [f"magnitude {c['magnitude']}" if 'magnitude' in c else '', f"{c['duration']} rounds" if c.get('duration') else '',
+            f"{c['chance']}% chance" if 'chance' in c and str(c['chance']) != '100' else '']
+    return f"⟦conditions:{c.get('condition')}⟧" + (f" ({', '.join(b for b in bits if b)})" if any(bits) else '')
+
+
+def _change(label, a, b, signed=False):
+    f = (lambda x: (f"+{x}" if x > 0 else f"−{-x}" if x < 0 else "0") if signed and isinstance(x, int) and not isinstance(x, bool) else _v(x))
+    if a is None: return f"{label}: added ({f(b)})"
+    if b is None: return f"{label}: removed (was {f(a)})"
+    return f"{label}: {f(a)} → {f(b)}"
+
+
+def _block_diff(name, A, B):
+    """Differences inside an effect block such as equipEffect."""
+    out, A, B = [], A or {}, B or {}
+    pre = BLOCKS.get(name, name)
+    for k in sorted(set(A) | set(B)):
+        if A.get(k) == B.get(k): continue
+        if k in CONDS:
+            ca = {c.get('condition'): c for c in A.get(k) or []}; cb = {c.get('condition'): c for c in B.get(k) or []}
+            for cid in sorted(set(ca) | set(cb)):
+                if ca.get(cid) == cb.get(cid): continue
+                if cid not in ca: out.append(f"{pre}, {CONDS[k]}: added {_cond(cb[cid])}")
+                elif cid not in cb: out.append(f"{pre}, {CONDS[k]}: removed {_cond(ca[cid])}")
+                else: out.append(f"{pre}, {CONDS[k]}: {_cond(ca[cid])} → {_cond(cb[cid])}".replace(f" → ⟦conditions:{cid}⟧", " →"))
+        elif k == 'visualEffectID': continue
+        else: out.append(_change(f"{pre}, {STATS.get(k, k)}", A.get(k), B.get(k), signed=not k.startswith('set')))
+    return out
+
+
+def _entity_diff(A, B):
+    out = []
+    for f in sorted(set(A) | set(B)):
+        a, b = A.get(f), B.get(f)
+        if a == b or f == 'id': continue
+        if f in BLOCKS: out.extend(_block_diff(f, a, b))
+        elif f in QUIET: out.append(f"{TEXT.get(f, f)} {'added' if a is None else 'removed' if b is None else 'changed'}")
+        elif f in STATS: out.append(_change(STATS[f], a, b))
+        elif f == 'hasManualPrice': out.append('price now set manually instead of calculated from its statistics' if b else 'price now calculated from its statistics')
+        elif f == 'name' and a and b: out.append(f"renamed “{_t(a)}” → “{_t(b)}”")
+        else: out.append(_change(TEXT.get(f, f), a, b))
+    return out
+
+
+def _droplist_diff(A, B):
+    ia = {e.get('itemID'): e for e in A.get('items', [])}; ib = {e.get('itemID'): e for e in B.get('items', [])}
+    q = lambda e: _v(e.get('quantity', {'min': 1, 'max': 1}))
+    out = []
+    for i in sorted(set(ia) | set(ib)):
+        a, b = ia.get(i), ib.get(i)
+        if a == b: continue
+        if a is None: out.append(f"added ⟦items:{i}⟧ ({b.get('chance')}% chance, ×{q(b)})")
+        elif b is None: out.append(f"removed ⟦items:{i}⟧")
+        else:
+            bits = ([f"chance {a.get('chance')}% → {b.get('chance')}%"] if a.get('chance') != b.get('chance') else []) + \
+                   ([f"quantity {q(a)} → {q(b)}"] if q(a) != q(b) else [])
+            out.append(f"⟦items:{i}⟧: " + ', '.join(bits or ['changed']))
+    return out
+
+
 def _diff(kind, a, b):
-    """Short, human-readable list of what changed in one entity."""
+    """Readable list of what changed in one entity."""
     if kind == 'maps': return ['map layout or objects changed']
     A, B = json.loads(a), json.loads(b)
     if kind == 'quests':
@@ -134,12 +221,19 @@ def _diff(kind, a, b):
         if A.get('replies') != B.get('replies'): out.append('choices or their conditions changed')
         if A.get('rewards') != B.get('rewards'): out.append('effects changed')
         return out or ['minor data change']
-    out = []
-    for f in sorted(set(A) | set(B)):
-        if A.get(f) != B.get(f) and f != 'id':
-            out.append(f"{f}: {_t(A.get(f), 40)} → {_t(B.get(f), 40)}" if f in A and f in B else
-                       (f"{f} added ({_t(B.get(f), 40)})" if f in B else f"{f} removed"))
-    return out or ['minor data change']
+    if kind == 'droplists': return _droplist_diff(A, B) or ['formatting change only (no gameplay effect)']
+    return _entity_diff(A, B) or ['formatting change only (no gameplay effect)']
+
+
+# names for the ⟦kind:id⟧ markers; build.py fills this before writing pages
+RENDER_NAMES = {}
+def render(text, page_exists=None):
+    def rep(m):
+        kind, oid = m.group(1), m.group(2)
+        nm = RENDER_NAMES.get(kind, {}).get(oid)
+        if nm is None: return f"`{oid}`"
+        return f"[{nm}](../{kind}/{oid}.md)" if (page_exists is None or page_exists(kind, oid)) else nm
+    return re.sub(r'⟦(\w+):([^⟧]+)⟧', rep, text)
 
 
 def diff(prev, cur, version, hist):
@@ -288,7 +382,7 @@ def history_section(hist, kind, oid, version, dialogue_ids=(), lead=''):
         if ev == 'added':
             rows[v] = f"Present in v{v} (earliest release tracked)" if v == hist.get('first') else 'Added'
         elif ev == 'removed': rows[v] = 'Removed from the game'
-        else: rows[v] = '; '.join(det[:6]) + (f" (+{len(det) - 6} more)" if len(det) > 6 else '')
+        else: rows[v] = '<br>'.join(_cap(render(d)) for d in det[:10]) + (f"<br>(+{len(det) - 10} more)" if len(det) > 10 else '')
     for v, t in _dialogue_rows(hist, dialogue_ids).items():
         rows[v] = (rows[v] + '<br>' + t) if v in rows else t
     if not rows and not lead: return ''
@@ -333,16 +427,20 @@ def write_version_pages(hist, write, names, version, page_exists):
                 ch = sorted((i, det) for i, evs in E.items() for ver, ev, det in evs if ver == v and ev == 'changed')
                 rem = sorted(i for i, evs in E.items() for ver, ev, _ in evs if ver == v and ev == 'removed')
                 if not (add or ch or rem): continue
-                P.append(f"## {labels[kind].capitalize()}\n\n")
+                P.append(f"## {labels[kind][:1].upper() + labels[kind][1:]}\n\n")
                 if add: P.append(f"**Added ({len(add)}):** " + ', '.join(_name(names, kind, x, page_exists) for x in add) + "\n\n")
                 if rem: P.append(f"**Removed ({len(rem)}):** " + ', '.join(_name(names, kind, x, page_exists) for x in rem) + "\n\n")
                 if ch:
-                    body = ''.join(f"    - {_name(names, kind, x, page_exists)}: {'; '.join(d[:4]).replace('|', '/')}\n" for x, d in ch)
+                    body = ''.join(f"    - {_name(names, kind, x, page_exists)}\n" + ''.join(f"        - {_cap(render(t, page_exists)).replace('|', '/')}\n" for t in d[:10])
+                                   + (f"        - (+{len(d) - 10} more)\n" if len(d) > 10 else '') for x, d in ch)
                     P.append(f"??? note \"Changed ({len(ch)})\"\n\n{body}\n")
             sm = hist['summary'].get(v, {}).get('dialogue', [0, 0, 0])
             P.append(f"## Dialogue\n\n{sm[0]} lines added, {sm[1]} changed, {sm[2]} removed. Each NPC's and quest's page lists the changes that affect it.\n")
         P.append(verified(f"and v{prev} data" if prev else "data", v))
         write(f'versions/{v}.md', ''.join(P))
+
+
+def _cap(t): return t[:1].upper() + t[1:]
 
 
 def _nice(why, names):

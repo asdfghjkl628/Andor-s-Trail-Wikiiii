@@ -14,17 +14,38 @@ description: "How to allocate level-ups and skill points in Andor's Trail v0.8.1
     - **Spend the remaining level-ups on attack chance and attack damage**, with more emphasis on damage later in the game.
     - **Plan skill points around the skills you intend to learn.** Many skills require a minimum character level, and skill points cannot be reallocated.
 
+<span id="fortitude-compared-with-the-max-health-level-up"></span>
+
 ???+ section "Fortitude compared with the max health level-up"
 
-    The **max health** level-up gives +5 HP once. [Fortitude](../skills/fortitude.md) gives +1 HP per skill level on **every level-up after it is learned**. It is not retroactive, so learning it earlier yields more HP:
+    The **max health** level-up gives +5 HP, once. [Fortitude](../skills/fortitude.md) gives +1 HP per skill level on **every level-up after it is learned**. It is not retroactive, and each level of Fortitude needs a higher character level (5, 20, 35, 50, 65 and so on, 15 levels apart), so earlier levels are worth more.
 
-    | Fortitude level | Earliest level | Extra HP by level 50 | Equivalent number of health level-ups |
+    **A thought experiment.** Imagine a hero who chooses max health at *every single* level-up: no attack chance, no damage, no block chance, only +5 HP each time. Why would anyone do this? Nobody should: the hero would struggle to hit or avoid anything. It is, however, the most HP that level-ups can ever provide, which makes it a useful extreme for comparison. How does Fortitude compare?
+
+    ![Bonus max HP: Fortitude vs. every level-up into health](../assets/charts/fortitude_vs_health.png)
+
+    | Character level | Every level-up into health | Fortitude 1 | Fortitude 1–2 | Fortitude 1–3 | Fortitude 1–4 | Fortitude 1–6 |
+    |---|---|---|---|---|---|---|
+    | 20 | +95 | +15 | +15 | +15 | +15 | +15 |
+    | 35 | +170 | +30 | +45 | +45 | +45 | +45 |
+    | 50 | +245 | +45 | +75 | +90 | +90 | +90 |
+    | 70 | +345 | +65 | +115 | +150 | +170 | +175 |
+    | 100 | +495 | +95 | +175 | +240 | +290 | +345 |
+
+    In raw HP, the all-health hero stays ahead for a very long time. Fortitude, even taken at every opportunity, only catches up at **level 144**, after ten skill points and roughly 54 million experience points. Taken at face value, the graph seems to favour the health level-up.
+
+    The comparison changes once the cost of each option is considered:
+
+    | Option | Cost | HP gained by level 50 | HP per unit of cost |
     |---|---|---|---|
-    | 1 | 5 | +45 | 9 |
-    | 2 | 20 | +30 | 6 |
-    | 3 | 35 | +15 | 3 |
+    | Every level-up into health | 49 level-ups | +245 | 5 per level-up |
+    | Fortitude 1 (taken at level 5) | 1 skill point | +45 | 45 per skill point |
+    | Fortitude 2 (taken at level 20) | 1 skill point | +30 | 30 per skill point |
+    | Fortitude 3 (taken at level 35) | 1 skill point | +15 | 15 per skill point |
 
-    A single skill point spent at level 5 provides as much HP by level 50 as nine health level-ups, and those nine level-ups can instead be used for statistics that skills cannot replace. This is the reasoning behind the common recommendation not to choose the health level-up.
+    The all-health hero pays for those 245 HP with all 49 level-ups, which would otherwise have provided, for example, +245 attack chance or +49 damage. Fortitude 1 provides 45 HP for one skill point, and leaves every level-up free for statistics that skills and equipment cannot easily replace. A single point of Fortitude at level 5 matches nine health level-ups by level 50. This is the reasoning behind the common recommendation to take Fortitude early and avoid the health level-up.
+
+    Later levels of Fortitude are less efficient, because they are learned later and have fewer level-ups left to pay off. Fortitude 2 at level 20 is still worth six health level-ups by level 50; Fortitude 3 at level 35 is worth three; Fortitude 4 cannot be learned before level 50 at all. Whether the later levels are worth a skill point depends on how far beyond level 50 the character will be played.
 
     The first skill point is awarded at level 4, but Fortitude requires character level 5. Keeping the level-4 point unspent for one level allows it to be used on Fortitude as early as possible.
 
