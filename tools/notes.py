@@ -12,6 +12,7 @@ SECTIONS = {
     'skills':   ['Strategy', 'Trivia'],
     'items':    ['Strategy', 'Lore', 'Trivia', 'Theory / speculation'],
     'maps':     ['Observations', 'Lore', 'Trivia', 'Theory / speculation'],
+    'conditions': ['Strategy', 'Observations', 'Trivia'],
 }
 HINTS = {
     'Walkthrough': 'step-by-step help for players',

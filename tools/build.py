@@ -217,19 +217,29 @@ def rng(v):
     if isinstance(v, dict) and 'min' in v:
         return str(v['min']) if v.get('min') == v.get('max') else f"{v.get('min')} to {v.get('max')}"
     return str(v)
-def cond_text(clist):
+def cond_text(clist, equip=False):
+    """Condition effects as the parsers read them: equip effects default to magnitude 1 (while worn); other effects default to
+    magnitude -99 (= remove the condition) and duration 0. Magnitude -99 with a duration is an immunity."""
     parts = []
     for c in clist:
-        name = conditions.get(c.get('condition'), {}).get('name', c.get('condition'))
-        bits = [f"magnitude {c['magnitude']}" if 'magnitude' in c else '', f"{c['duration']} rounds" if c.get('duration') else '',
-                f"{c['chance']}% chance" if 'chance' in c else '']
+        cid = c.get('condition')
+        name = f"[{conditions.get(cid, {}).get('name', cid)}](../conditions/{cid}.md)" if cid in conditions else str(cid)
+        mag = c.get('magnitude', 1 if equip else -99)
+        dur = 999 if equip else c.get('duration', 0)
+        ch = f"{chance_txt(c['chance'])} chance" if 'chance' in c and chance_pct(c['chance']) < 100 else ''
+        if mag == -99:
+            what = f"removes {name}" if dur == 0 else f"immunity to {name}" + ('' if equip else f" for {dur} rounds" if dur not in (998, 999) else '')
+            parts.append(what + (f" ({ch})" if ch else ''))
+            continue
+        d = '' if equip else ('permanent' if dur == 999 else 'until rest' if dur == 998 else f"{dur} round{'s' if dur != 1 else ''}")
+        bits = [f"magnitude {mag}", d, ch]
         parts.append(f"{name} ({', '.join(b for b in bits if b)})")
     return '; '.join(parts)
 def effect_rows(eff):
     rows = []
     for k, v in (eff or {}).items():
         label = LABELS.get(k, k)
-        val = cond_text(v) if isinstance(v, list) else rng(v)
+        val = cond_text(v, k == 'addedConditions') if isinstance(v, list) else rng(v)
         if isinstance(v, (int, float)) and not isinstance(v, bool) and k != 'setCriticalMultiplier' and v > 0: val = f'+{v}'
         rows.append((label, val))
     return rows
@@ -819,7 +829,9 @@ for sid, sk in skills.items():
     P = [f"# {sk['name']}\n\n*{sk['summary']}*\n\n",
          '<div class="infobox" markdown>\n\n| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in info if v) + '\n</div>\n\n',
          "## Effect\n\n" + (html.unescape(sk['long']).replace('\n', '\n\n') if sk['long'] else sk['short']) + "\n\n",
-         "## Requirements per skill level\n\n" + level_rows(sk) + H.verified("game code (`SkillCollection.java`)", VERSION)]
+         "## Requirements per skill level\n\n" + level_rows(sk) + H.verified("game code (`SkillCollection.java`)", VERSION),
+         ("See [Conditions](../conditions/index.md#categories-and-resistance) for the conditions this skill affects.\n\n"
+          if sid in ('resistanceMental', 'resistancePhysical', 'resistanceBlood', 'shadowBless', 'rejuvenation', 'sporeImmunity') else '')]
     if sk['levelUpType'] == 'firstLevelRequiresQuest':
         P.append("The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.\n\n")
     if unlocks.get(sid):
@@ -1170,6 +1182,14 @@ Plan a character before spending level-ups and skill points. Pick a level, split
 <p class="verified">Verified against v{VERSION} game code (ActorStatsController, ItemController, SkillController, CombatController) and item data.</p>
 """)
 
+# ---------------------------------------------------------------- conditions (tools/conditions.py)
+from conditions import write_condition_pages
+shutil.rmtree(os.path.join(DOCS, 'conditions'), ignore_errors=True)
+write_condition_pages(dict(conditions=conditions, items=items, monsters=monsters, conversations=conversations, skills=skills,
+    write=write, md_esc=md_esc, chance_txt=chance_txt, chance_pct=chance_pct, icon=icon, VERSION=VERSION, consts=consts, canon_of=canon_of,
+    where=where, speakers_md=speakers_md, node_quests=node_quests, QG=QG, verified=H.verified, notes=notes, file_of=FILE_OF,
+    front=front, img=img, infobox=infobox, raw_json=raw_json, section=section))
+
 # ---------------------------------------------------------------- version history pages
 if hist:
     shutil.rmtree(os.path.join(DOCS, 'versions'), ignore_errors=True)
@@ -1222,6 +1242,7 @@ All content is generated from the game's own data files and source code, so valu
 - **[Items](items/index.md)**<br>{len(items)} items, including weapons, armor, jewelry and consumables
 - **[Monsters & NPCs](monsters/index.md)**<br>Every enemy and non-player character, with statistics, locations and roles
 - **[Stats & Skills](skills/index.md)**<br>Character statistics, levelling, combat formulas and all {len(skills)} skills
+- **[Conditions](conditions/index.md)**<br>All {len(conditions)} conditions, such as poison, bleeding and blessings: effects, causes and remedies
 - **[Strategy](strategy/index.md)**<br>Guidance on character builds, levelling and combat
 - **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} journal quests with every stage, plus the hidden quest flags behind them
 - **[World map](maps/index.md)**<br>{n_maps} maps with enemies, NPCs, containers and connections

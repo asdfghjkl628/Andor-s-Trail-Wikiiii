@@ -31,6 +31,7 @@ nav:
       - Overview: skills/index.md
       - Stat glossary: skills/stats.md
       - Build calculator: skills/calculator.md
+  - Conditions: conditions/index.md
   - Strategy:
       - strategy/index.md
       - Levelling & skill points: strategy/levelling.md
@@ -41,6 +42,7 @@ nav:
 not_in_nav: |
   /items/*.md
   /monsters/*.md
+  /conditions/*.md
   /skills/*.md
   /quests/*.md
   /maps/*.md
