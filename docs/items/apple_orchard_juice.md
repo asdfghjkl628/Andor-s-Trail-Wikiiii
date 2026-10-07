@@ -28,7 +28,7 @@ description: "Deebo's apple juice is a rare food in Andor's Trail. How to get it
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 2, 12 rounds, 100% chance); Vulnerability (magnitude -99, 2 rounds, 30% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 12 rounds); immunity to [Vulnerability](../conditions/vulnerability.md) for 2 rounds (30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -47,7 +47,7 @@ description: "Deebo's apple juice is a rare food in Andor's Trail. How to get it
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | baseMarketCost: 45 → 97; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",… |
+| [v0.8.5](../versions/0.8.5.md) | Base value (gold): 45 → 97<br>When used, condition on self: added [Vulnerability](../conditions/vulnerability.md) (magnitude -99, 2 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

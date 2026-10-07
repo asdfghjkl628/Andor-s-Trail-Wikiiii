@@ -187,15 +187,15 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 11 lines added |
-| [v0.8.2](../versions/0.8.2.md) | stages added: 110, 120 |
+| [v0.8.2](../versions/0.8.2.md) | Stages added: 110, 120 |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines added |
-| [v0.8.5](../versions/0.8.5.md) | stages added: 125; stage 80 journal text changed<br>Dialogue: 2 lines added, 1 line changed<br>· text: “This must be the great Duleian Road! I have heard so much of it - and…” → “This must be the great Duleian Road! I have heard so much about it - …” |
-| [v0.8.7](../versions/0.8.7.md) | stage 110 journal text changed; stage 120 journal text changed |
-| [v0.8.10](../versions/0.8.10.md) | stages added: 130<br>Dialogue: 1 line added |
-| [v0.8.11](../versions/0.8.11.md) | stages added: 135; stages removed: 130<br>Dialogue: 1 line added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stages added: 130; stage 135 journal text changed |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 150, 200<br>Dialogue: 3 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 160, 225; stage 30 journal text changed<br>Dialogue: 1 line changed<br>· text: “Reflecting on your journey, you marvel at how you were able to go fro…” → “Reflecting on your journey, you marvel at how you were able to go fro…” |
+| [v0.8.5](../versions/0.8.5.md) | Stages added: 125<br>Stage 80 journal text changed<br>Dialogue: 2 lines added, 1 line changed<br>· text: “This must be the great Duleian Road! I have heard so much of it - and…” → “This must be the great Duleian Road! I have heard so much about it - …” |
+| [v0.8.7](../versions/0.8.7.md) | Stage 110 journal text changed<br>Stage 120 journal text changed |
+| [v0.8.10](../versions/0.8.10.md) | Stages added: 130<br>Dialogue: 1 line added |
+| [v0.8.11](../versions/0.8.11.md) | Stages added: 135<br>Stages removed: 130<br>Dialogue: 1 line added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stages added: 130<br>Stage 135 journal text changed |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 150, 200<br>Dialogue: 3 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 160, 225<br>Stage 30 journal text changed<br>Dialogue: 1 line changed<br>· text: “Reflecting on your journey, you marvel at how you were able to go fro…” → “Reflecting on your journey, you marvel at how you were able to go fro…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

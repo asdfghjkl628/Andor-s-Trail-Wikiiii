@@ -41,7 +41,7 @@ description: "Young glacibite is an enemy in Andor's Trail (humanoid) with 201 H
 | Critical multiplier | 1.5 |
 | Critical hit chance | 10% |
 
-**On hit:** On target: Frostbite (magnitude 1, 3 rounds, 10% chance)
+**On hit:** On target: [Frostbite](../conditions/frostbite.md) (magnitude 1, 3 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

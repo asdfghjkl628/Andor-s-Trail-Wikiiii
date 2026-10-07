@@ -41,7 +41,7 @@ description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 32% |
 
-**On hit:** On target: Spider bite (magnitude 3, 5 rounds, 70% chance)
+**On hit:** On target: [Spider bite](../conditions/spider_bite.md) (magnitude 3, 5 rounds, 70% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

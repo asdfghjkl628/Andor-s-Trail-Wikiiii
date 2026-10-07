@@ -41,7 +41,7 @@ description: "Blazebite is a extraordinary shortsword in Andor's Trail (Attack d
 
 | Stat | Value |
 |---|---|
-| On target | Ablaze (magnitude 2, 4 rounds, 15% chance) |
+| On target | [Ablaze](../conditions/fire.md) (magnitude 2, 4 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

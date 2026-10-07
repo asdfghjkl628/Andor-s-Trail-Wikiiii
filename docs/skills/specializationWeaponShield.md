@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Main-hand weapon: +50% of its AC, +20% of its dmg ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

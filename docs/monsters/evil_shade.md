@@ -45,11 +45,11 @@ description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 2 rounds, 25% chance)
 
-**When hit:** On target: Revealed (magnitude 4, 2 rounds, 40% chance)
+**When hit:** On target: [Revealed](../conditions/revealed.md) (magnitude 4, 2 rounds, 40% chance)
 
-**On death:** On self: Curse of Vainglory (magnitude 5, 998 rounds, 100% chance)
+**On death:** On self: [Curse of Vainglory](../conditions/vainglory.md) (magnitude 5, until rest)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

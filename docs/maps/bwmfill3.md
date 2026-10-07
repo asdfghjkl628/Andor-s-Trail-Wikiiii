@@ -101,7 +101,7 @@ Please do not feed any animals.”">10</a><a class="pin pin-script" href="#key-1
 | Version | Change |
 |---|---|
 | [v0.8.10](../versions/0.8.10.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

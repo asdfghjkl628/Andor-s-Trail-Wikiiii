@@ -41,7 +41,7 @@ description: "Stinging yellowjacket is an enemy in Andor's Trail (insect) with 4
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On target: Minor sting (magnitude 2, 5 rounds, 30% chance)
+**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 5 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -69,7 +69,7 @@ description: "Stinging yellowjacket is an enemy in Andor's Trail (insect) with 4
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 30, "c… → {"conditionsTarget": [{"chance": "30", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 5 rounds, 30% chance) → (magnitude 2, 5 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

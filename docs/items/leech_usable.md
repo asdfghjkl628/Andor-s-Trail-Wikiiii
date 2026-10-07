@@ -28,7 +28,7 @@ description: "Leech is a ordinary edible animal part in Andor's Trail. How to ge
 
 | Stat | Value |
 |---|---|
-| On self | Bleeding wound (magnitude -99, 100% chance) |
+| On self | removes [Bleeding wound](../conditions/bleeding_wound.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

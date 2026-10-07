@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Both weapons: +50% of their AC and +50% of their BC ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

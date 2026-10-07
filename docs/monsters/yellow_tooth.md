@@ -41,7 +41,7 @@ description: "Yellow tooth slitherer is an enemy in Andor's Trail (reptile) with
 | Critical multiplier | 2.5 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Nausea (magnitude 3, 4 rounds, 42% chance)
+**On hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 4 rounds, 42% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

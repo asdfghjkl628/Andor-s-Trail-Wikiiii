@@ -41,9 +41,9 @@ description: "King Sullengard forest snake is an enemy in Andor's Trail (reptile
 | Critical multiplier | 3.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Nausea (magnitude 3, 5 rounds, 43% chance)
+**On hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 43% chance)
 
-**When hit:** On target: Trapped (magnitude 1, 2 rounds, 100% chance)
+**When hit:** On target: [Trapped](../conditions/trapped.md) (magnitude 1, 2 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

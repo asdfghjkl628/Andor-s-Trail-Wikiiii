@@ -41,7 +41,7 @@ description: "Poisonous jitterfly is an enemy in Andor's Trail (insect) with 97 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 5, 5 rounds, 70% chance); Minor sting (magnitude 3, 3 rounds, 35% chance); Insect contagion (magnitude 2, 3 rounds, 25% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 5, 5 rounds, 70% chance); [Minor sting](../conditions/sting_minor.md) (magnitude 3, 3 rounds, 35% chance); [Insect contagion](../conditions/contagion.md) (magnitude 2, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

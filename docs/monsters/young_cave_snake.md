@@ -66,7 +66,7 @@ description: "Young cave snake is an enemy in Andor's Trail (reptile) with 8 HP,
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Young Cave Snake → Young cave snake |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Young Cave Snake” → “Young cave snake” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

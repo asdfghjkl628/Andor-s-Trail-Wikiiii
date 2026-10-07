@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 13 is an outdoor location in Andor's Trail, near Guynmart Castle (other). NPCs: Feygard road guard. Enemies: Forest beetle, Vicious forest serpent, Wolf, Vicious hound, Anklebiter. Exits to Guynmart wood 8, Guynmart wood 12, Guynmart wood 13, Swamp3."
+description: "Guynmart wood 13 is an outdoor location in Andor's Trail, near Guynmart Castle (other). NPCs: Feygard road guard. Enemies: Forest beetle, Vicious forest serpent, Wolf, Anklebiter, Vicious hound. Exits to Guynmart wood 8, Guynmart wood 12, Guynmart wood 13, Swamp3."
 ---
 
 # Guynmart wood 13
@@ -71,8 +71,8 @@ description: "Guynmart wood 13 is an outdoor location in Andor's Trail, near Guy
 | [Forest beetle](../monsters/forest_beetle.md) | 14 | 2–4 | 3 | – |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 | 3–4 | 2 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
-| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 4 | – |
 | [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 2 | – |
+| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 4 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -98,8 +98,8 @@ description: "Guynmart wood 13 is an outdoor location in Andor's Trail, near Guy
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.4](../versions/0.7.4.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

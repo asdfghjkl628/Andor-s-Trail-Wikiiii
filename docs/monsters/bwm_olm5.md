@@ -41,9 +41,9 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
 | Critical multiplier | 1.5 |
 | Critical hit chance | 17% |
 
-**On hit:** On target: Bleeding wound (magnitude 2, 2 rounds, 10% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 2 rounds, 10% chance)
 
-**When hit:** On self: Panic (magnitude 1, 3 rounds, 30% chance); On target: Nausea (magnitude 2, 2 rounds, 15% chance)
+**When hit:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 30% chance); On target: [Nausea](../conditions/nausea.md) (magnitude 2, 2 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

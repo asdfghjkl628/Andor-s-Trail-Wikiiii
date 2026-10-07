@@ -27,7 +27,7 @@ description: "Yellow Pepper is a ordinary food in Andor's Trail. How to get it: 
 | Stat | Value |
 |---|---|
 | Heal HP | 2 to 3 |
-| On self | Sustenance (magnitude 3, 6 rounds, 100% chance); Thirst (magnitude 1, 7 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 6 rounds); [Thirst](../conditions/thirst.md) (magnitude 1, 7 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Hauntedhouse4 is an indoor location in Andor's Trail. Enemies: Skeleton, Skeletal master, Skeletal warrior. Exits to Hauntedhouse3."
+description: "Hauntedhouse4 is an indoor location in Andor's Trail. Enemies: Skeleton, Skeletal warrior, Skeletal master. Exits to Hauntedhouse3."
 ---
 
 # Hauntedhouse4
@@ -45,8 +45,8 @@ description: "Hauntedhouse4 is an indoor location in Andor's Trail. Enemies: Ske
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Skeleton](../monsters/skeleton.md) | 35 | 1–4 | 1 | shares spawn with Skeletal warrior |
-| [Skeletal master](../monsters/skeletal_master.md) | 52 | 1–3 | 1 | – |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 | 1–3 | 1 | shares spawn with Skeleton |
+| [Skeletal master](../monsters/skeletal_master.md) | 52 | 1–3 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -56,10 +56,10 @@ description: "Hauntedhouse4 is an indoor location in Andor's Trail. Enemies: Ske
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

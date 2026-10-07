@@ -54,7 +54,7 @@ description: "Titanforge stompers is a extraordinary footwear, metal (heavy) in 
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | description: A heavy boot that boasts animposing des… → A heavy boot that boasts an imposing de… |
+| [v0.8.18](../versions/0.8.18.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

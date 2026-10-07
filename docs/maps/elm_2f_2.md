@@ -78,8 +78,8 @@ Signed by Guthbered of Prim”">3</a><a class="pin pin-key" href="#key-4" style=
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

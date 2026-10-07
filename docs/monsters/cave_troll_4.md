@@ -53,7 +53,7 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Stunned (magnitude 1, 2 rounds, 15% chance); Dazed (magnitude 1, 3 rounds, 10% chance); Minor fatigue (magnitude 1, 4 rounds, 10% chance)
+**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -172,7 +172,7 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Stunned (magnitude 1, 2 rounds, 15% chance); Dazed (magnitude 1, 3 rounds, 10% chance); Minor fatigue (magnitude 1, 4 rounds, 10% chance)
+**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

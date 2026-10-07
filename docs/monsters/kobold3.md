@@ -41,7 +41,7 @@ description: "Ancient kobold is an enemy in Andor's Trail (humanoid) with 70 HP,
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Confusion (magnitude 1, 3 rounds, 5% chance); Confusion (magnitude 1, 6 rounds, 1% chance)
+**On hit:** On target: [Confusion](../conditions/confusion.md) (magnitude 1, 3 rounds, 5% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 6 rounds, 1% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

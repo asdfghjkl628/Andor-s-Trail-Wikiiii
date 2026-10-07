@@ -40,7 +40,7 @@ description: "Stormcloak armor is a extraordinary armor (heavy) in Andor's Trail
 
 | Stat | Value |
 |---|---|
-| On target | Fear (magnitude 1, 5 rounds, 20% chance) |
+| On target | [Fear](../conditions/fear.md) (magnitude 1, 5 rounds, 20% chance) |
 
 ### On kill
 
@@ -52,7 +52,7 @@ description: "Stormcloak armor is a extraordinary armor (heavy) in Andor's Trail
 
 | Stat | Value |
 |---|---|
-| On self | Minor increased defense (magnitude 1, 1 rounds, 3% chance) |
+| On self | [Minor increased defense](../conditions/minor_increased_defense.md) (magnitude 1, 1 round, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

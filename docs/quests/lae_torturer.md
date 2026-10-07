@@ -12,7 +12,7 @@ description: "Shadow of the torturer is a quest in Andor's Trail, started by Lae
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 80, 130) |
 | **Started by** | [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) |
-| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md#v-lae_demon4b), [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon4.md#v-lae_demon9), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4i) +1 |
+| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md#v-lae_demon4b), [Dark watch](../monsters/lae_demon4.md#v-lae_demon9), [Dark watch](../monsters/lae_demon4.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4i) +1 |
 | **Locations** | [laerothprison4](../maps/laerothprison4.md), [laerothprison7](../maps/laerothprison7.md) |
 | **Related quests** | 1 |
 
@@ -148,7 +148,7 @@ Start with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([lae
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 15 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stage 40 journal text changed; stage 100 journal text changed; stage 130 journal text changed<br>Dialogue: 1 line changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stage 40 journal text changed<br>Stage 100 journal text changed<br>Stage 130 journal text changed<br>Dialogue: 1 line changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

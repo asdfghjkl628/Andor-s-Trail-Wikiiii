@@ -41,7 +41,7 @@ description: "Aggressive giant centipede is an enemy in Andor's Trail (insect) w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 3, 4 rounds, 50% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 4 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

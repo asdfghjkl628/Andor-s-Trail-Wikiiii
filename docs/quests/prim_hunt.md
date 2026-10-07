@@ -165,7 +165,7 @@ None: talk to [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/bla
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+3 more)<br>Dialogue: 3 lines changed<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 10 journal text changed<br>Stage 20 journal text changed<br>Stage 25 journal text changed<br>Stage 30 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 80 journal text changed<br>Stage 100 journal text changed<br>Stage 251 journal text changed<br>Dialogue: 3 lines changed<br>· text: “Those evil bastards up in the Blackwater Mountain settlement probably…” → “Those evil bastards up in the Blackwater mountain settlement probably…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -45,7 +45,7 @@ description: "Bridgebreaker is a legendary warhammer in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On target | Unstable footing (magnitude 1, 5 rounds, 5% chance) |
+| On target | [Unstable footing](../conditions/unstable_footing.md) (magnitude 1, 5 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

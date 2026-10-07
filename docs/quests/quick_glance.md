@@ -139,7 +139,7 @@ Start with [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md))
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 15 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 15 journal text changed; stage 77 journal text changed; stage 79 journal text changed |
+| [v0.7.12](../versions/0.7.12.md) | Stage 15 journal text changed<br>Stage 77 journal text changed<br>Stage 79 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

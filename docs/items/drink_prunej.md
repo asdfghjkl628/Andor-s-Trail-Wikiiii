@@ -27,7 +27,7 @@ description: "Prune juice is a ordinary drink in Andor's Trail. How to get it: s
 | Stat | Value |
 |---|---|
 | Heal HP | 0 to 10 |
-| On self | Sustenance (magnitude 1, 15 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 1, 15 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -46,7 +46,7 @@ description: "Prune juice is a ordinary drink in Andor's Trail. How to get it: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | useEffect: {"conditionsSource": [{"chance": 100, "… → {"conditionsSource": [{"chance": "100",… |
+| [v0.7.2](../versions/0.7.2.md) | When used, condition on self: [Sustenance](../conditions/food.md) (magnitude 1, 15 rounds) → (magnitude 1, 15 rounds)<br>When used, HP restored: 0–10 → 0–10 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

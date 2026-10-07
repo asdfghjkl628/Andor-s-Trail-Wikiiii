@@ -337,7 +337,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
-| [v0.7.8](../versions/0.7.8.md) | phraseID: thievesguild_troublemaker_1 → troublemaker_selector<br>Dialogue: 32 lines added, 1 line changed |
+| [v0.7.8](../versions/0.7.8.md) | Conversation changed<br>Dialogue: 32 lines added, 1 line changed |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 20 lines added, 1 line changed |

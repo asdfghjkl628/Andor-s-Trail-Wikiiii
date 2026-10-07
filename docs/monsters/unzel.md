@@ -217,8 +217,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 6 lines changed<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 6 lines changed<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

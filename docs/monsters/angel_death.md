@@ -41,7 +41,7 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 7% |
 
-**On hit:** On target: Death Plague (magnitude 3, 3 rounds, 15% chance)
+**On hit:** On target: [Death Plague](../conditions/death_plague.md) (magnitude 3, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -28,7 +28,7 @@ description: "Curative potion against mushroom wounding is a ordinary potion in 
 
 | Stat | Value |
 |---|---|
-| On self | Food-poisoning (magnitude 22, 1 rounds, 100% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 22, 1 round) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

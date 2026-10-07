@@ -40,14 +40,14 @@ description: "Undertell shovel is a rare pole weapon in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On self | Fatigue (magnitude 1, 1 rounds, 10% chance) |
-| On target | Head wound (magnitude 1, 2 rounds, 5% chance) |
+| On self | [Fatigue](../conditions/fatigue2.md) (magnitude 1, 1 round, 10% chance) |
+| On target | [Head wound](../conditions/head_wound.md) (magnitude 1, 2 rounds, 5% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Increased defense (magnitude 1, 2 rounds, 100% chance) |
+| On self | [Increased defense](../conditions/increased_defense.md) (magnitude 1, 2 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

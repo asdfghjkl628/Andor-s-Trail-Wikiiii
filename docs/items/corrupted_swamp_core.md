@@ -28,7 +28,7 @@ description: "Corrupted swamp core is a extraordinary edible animal part in Ando
 
 | Stat | Value |
 |---|---|
-| On self | Kazaul possession (magnitude 10, 10 rounds, 100% chance); Bad taste (magnitude 5, 3 rounds, 100% chance); Venom (magnitude 3, 5 rounds, 100% chance); Lightning attack (magnitude 1, 7 rounds, 100% chance); Concentration (magnitude 2, 8 rounds, 100% chance) |
+| On self | [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 10, 10 rounds); [Bad taste](../conditions/bad_taste.md) (magnitude 5, 3 rounds); [Venom](../conditions/venom.md) (magnitude 3, 5 rounds); [Lightning attack](../conditions/light_attack.md) (magnitude 1, 7 rounds); [Concentration](../conditions/g03_concentration.md) (magnitude 2, 8 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

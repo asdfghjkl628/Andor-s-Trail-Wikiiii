@@ -29,7 +29,7 @@ description: "Bottle of mountain water is a extraordinary healing item in Andor'
 | Stat | Value |
 |---|---|
 | Heal HP | 5 to 20 |
-| On self | Satiety (magnitude 1, 5 rounds, 100% chance) |
+| On self | [Satiety](../conditions/satiety.md) (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

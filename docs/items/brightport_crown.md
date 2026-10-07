@@ -35,7 +35,7 @@ description: "Argentscale diadem is a extraordinary headwear, metal (light) in A
 | Critical skill | 0 |
 | Block chance | +10 |
 | Damage resistance | +2 |
-| Grants | Incompatible biology (magnitude 1) |
+| Grants | [Incompatible biology](../conditions/brightport_diadem.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

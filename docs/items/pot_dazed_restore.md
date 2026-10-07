@@ -26,7 +26,7 @@ description: "Restore dazed is a ordinary potion in Andor's Trail. How to get it
 
 | Stat | Value |
 |---|---|
-| On self | Dazed (magnitude -99, 100% chance); Minor fatigue (magnitude 1, 5 rounds, 25% chance) |
+| On self | removes [Dazed](../conditions/dazed.md); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 5 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

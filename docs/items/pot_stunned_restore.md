@@ -26,7 +26,7 @@ description: "Restore stunned is a ordinary potion in Andor's Trail. How to get 
 
 | Stat | Value |
 |---|---|
-| On self | Stunned (magnitude -99, 100% chance); Dazed (magnitude 1, 4 rounds, 30% chance) |
+| On self | removes [Stunned](../conditions/stunned.md); [Dazed](../conditions/dazed.md) (magnitude 1, 4 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

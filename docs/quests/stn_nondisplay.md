@@ -484,7 +484,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “Hey, this looks like Caedas lost key.” → “Hey, this looks like Caeda's lost key.” |
 | [v0.8.9](../versions/0.8.9.md) | Dialogue: 1 line changed |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 8, 9<br>Dialogue: 3 lines added, 1 line changed<br>· text: “NO! Please not through the gate! I won't go there!” → “NO! Please not to the south! I won't go to those devasted lands!” |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 8, 9<br>Dialogue: 3 lines added, 1 line changed<br>· text: “NO! Please not through the gate! I won't go there!” → “NO! Please not to the south! I won't go to those devasted lands!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

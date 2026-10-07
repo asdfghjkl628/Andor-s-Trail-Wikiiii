@@ -13,6 +13,7 @@ All content is generated from the game's own data files and source code, so valu
 - **[Items](items/index.md)**<br>1000 items, including weapons, armor, jewelry and consumables
 - **[Monsters & NPCs](monsters/index.md)**<br>Every enemy and non-player character, with statistics, locations and roles
 - **[Stats & Skills](skills/index.md)**<br>Character statistics, levelling, combat formulas and all 45 skills
+- **[Conditions](conditions/index.md)**<br>All 147 conditions, such as poison, bleeding and blessings: effects, causes and remedies
 - **[Strategy](strategy/index.md)**<br>Guidance on character builds, levelling and combat
 - **[Quests](quests/index.md)**<br>136 journal quests with every stage, plus the hidden quest flags behind them
 - **[World map](maps/index.md)**<br>1296 maps with enemies, NPCs, containers and connections

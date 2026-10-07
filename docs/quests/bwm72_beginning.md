@@ -321,8 +321,8 @@ None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwate
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 56 lines added |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines changed<br>· text: “Everything seems too old and stinky to be worth a penny, but after ha…” → “Everything seems too old and stinky to be worth anything much, but af…” |
-| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…”<br>· text: “You try to put off the armor first but you soon discover both the man…” → “You try to pull off the armor first but you soon discover both the ma…” |
-| [v0.8.8](../versions/0.8.8.md) | stages added: 43<br>Dialogue: 1 line added, 2 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…” |
+| [v0.8.4](../versions/0.8.4.md) | Dialogue: 2 lines changed<br>· text: “You try to put off the armor first but you soon discover both the man…” → “You try to pull off the armor first but you soon discover both the ma…”<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
+| [v0.8.8](../versions/0.8.8.md) | Stages added: 43<br>Dialogue: 1 line added, 2 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

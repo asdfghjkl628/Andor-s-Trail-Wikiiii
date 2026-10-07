@@ -95,7 +95,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…”<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.”<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

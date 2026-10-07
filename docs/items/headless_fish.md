@@ -29,7 +29,7 @@ description: "Headless fish is a ordinary food in Andor's Trail. How to get it: 
 | Stat | Value |
 |---|---|
 | Heal HP | 0 to 2 |
-| On self | Food-poisoning (magnitude 3, 8 rounds, 50% chance); Sustenance (magnitude 1, 10 rounds, 50% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 3, 8 rounds, 50% chance); [Sustenance](../conditions/food.md) (magnitude 1, 10 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

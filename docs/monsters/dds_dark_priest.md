@@ -250,7 +250,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On target: Cinder rage (magnitude 2, 2 rounds, 100% chance)
+**When hit:** On target: [Cinder rage](../conditions/cinder_rage.md) (magnitude 2, 2 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

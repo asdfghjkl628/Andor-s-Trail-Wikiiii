@@ -41,7 +41,7 @@ description: "Ancient stone worm is an enemy in Andor's Trail (reptile) with 42 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Dazed (magnitude 1, 8 rounds, 15% chance)
+**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 8 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

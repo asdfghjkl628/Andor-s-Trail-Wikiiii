@@ -94,10 +94,10 @@ description: "Blackwater mountain55 is an outdoor location in Andor's Trail, in 
 | Version | Change |
 |---|---|
 | [v0.7.12](../versions/0.7.12.md) | Added |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
-| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
-| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
-| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | Map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | Map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

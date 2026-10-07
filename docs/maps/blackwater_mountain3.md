@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain3 is an outdoor location in Andor's Trail. Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain4, Blackwater mountain2, Blackwater mountain4a."
+description: "Blackwater mountain3 is an outdoor location in Andor's Trail. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain4, Blackwater mountain2, Blackwater mountain4a."
 ---
 
 # Blackwater mountain3
@@ -49,8 +49,8 @@ description: "Blackwater mountain3 is an outdoor location in Andor's Trail. Enem
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 1 | shares spawn with Young gornaud |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 2 | shares spawn with Gornaud |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 1 | shares spawn with Young gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 1 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 2 | shares spawn with Scaled venomfang |
 
@@ -62,8 +62,8 @@ description: "Blackwater mountain3 is an outdoor location in Andor's Trail. Enem
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

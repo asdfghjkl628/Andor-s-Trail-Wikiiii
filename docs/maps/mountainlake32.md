@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake32 is an indoor location in Andor's Trail. Enemies: Scylla, Furious Scylla, Enraged Scylla. Exits to Mountainlake30, Mountainlake29, Mountainlake33."
+description: "Mountainlake32 is an indoor location in Andor's Trail. Enemies: Furious Scylla, Enraged Scylla, Scylla. Exits to Mountainlake30, Mountainlake29, Mountainlake33."
 ---
 
 # Mountainlake32
@@ -52,11 +52,11 @@ description: "Mountainlake32 is an indoor location in Andor's Trail. Enemies: Sc
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Scylla](../monsters/scylla_1.md#v-scylla_2) | 180 | 1–1 | 6 | shares spawn with Scylla |
 | [Furious Scylla](../monsters/scylla_b1.md#v-scylla_b2) | 180 | 1–15 | 6 | appears later, during a quest; shares spawn with Furious Scylla |
-| [Furious Scylla](../monsters/scylla_b1.md) | 180 | 1–15 | 6 | appears later, during a quest; shares spawn with Furious Scylla |
 | [Enraged Scylla](../monsters/scylla_c1.md) | 180 | 1–15 | 6 | appears later, during a quest |
 | [Scylla](../monsters/scylla_1.md) | 180 | 1–1 | 6 | shares spawn with Scylla |
+| [Scylla](../monsters/scylla_1.md#v-scylla_2) | 180 | 1–1 | 6 | shares spawn with Scylla |
+| [Furious Scylla](../monsters/scylla_b1.md) | 180 | 1–15 | 6 | appears later, during a quest; shares spawn with Furious Scylla |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

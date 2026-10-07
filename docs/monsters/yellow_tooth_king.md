@@ -41,7 +41,7 @@ description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile)
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Nausea (magnitude 3, 4 rounds, 49% chance)
+**On hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 4 rounds, 49% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -66,7 +66,7 @@ description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile)
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | spawnGroup: yellow_tooth →  |
+| [v0.8.8](../versions/0.8.8.md) | Spawn group changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

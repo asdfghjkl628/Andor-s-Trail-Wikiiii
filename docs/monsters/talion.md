@@ -655,7 +655,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Third, I will need a gland of poison from a creature called the Irdeg…” → “Third, I will need a gland of poison from a creature called the irdeg…”<br>· text: “Now, let's get this cure started. I just need to grind this .. and mi…” → “Now, let's get this cure started. I just need to grind this ... and m…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “(Talion mixes the ground up ingredients together in the vial you brou…” → “[Talion mixes the ground up ingredients together in the vial you brou…”<br>· text: “(He gives the potion a thorough shake for quite a while.)” → “[He gives the potion a thorough shake for quite a while]” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 36 lines added, 1 line changed |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 15 lines added, 2 lines changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |

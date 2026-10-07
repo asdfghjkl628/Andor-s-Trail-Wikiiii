@@ -45,7 +45,7 @@ description: "Cave gargoyle is an enemy in Andor's Trail (construct) with 70 HP,
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Vulnerability (magnitude 1, 5 rounds, 15% chance)
+**On hit:** On target: [Vulnerability](../conditions/vulnerability.md) (magnitude 1, 5 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

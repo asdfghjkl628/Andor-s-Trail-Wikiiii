@@ -82,7 +82,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 19 lines added |
-| [v0.8.15](../versions/0.8.15.md) | stages added: 32, 34, 42; stage 30 journal text changed<br>Dialogue: 3 lines added, 19 lines changed |
+| [v0.8.15](../versions/0.8.15.md) | Stages added: 32, 34, 42<br>Stage 30 journal text changed<br>Dialogue: 3 lines added, 19 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

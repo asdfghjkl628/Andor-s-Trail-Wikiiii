@@ -33,7 +33,7 @@ description: "Shield of the undead is a extraordinary shield, metal (light) in A
 | Attack chance | -5 |
 | Block chance | +12 |
 | Damage resistance | +1 |
-| Grants | Curse of the Undead (magnitude 1) |
+| Grants | [Curse of the Undead](../conditions/curse_undead.md) (magnitude 1) |
 
 ### On kill
 
@@ -66,9 +66,9 @@ description: "Shield of the undead is a extraordinary shield, metal (light) in A
 | Version | Change |
 |---|---|
 | [v0.8.3](../versions/0.8.3.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | baseMarketCost added (11155); hasManualPrice added (1) |
-| [v0.8.5](../versions/0.8.5.md) | category: shld_wd_li → shld_mtl_li |
-| [v0.8.12.1](../versions/0.8.12.1.md) | hitReceivedEffect: {"increaseAttackerCurrentHP": {"max": -… → {"increaseAttackerCurrentHP": {"max": -… |
+| [v0.8.4](../versions/0.8.4.md) | Base value (gold): added (11155)<br>Price now set manually instead of calculated from its statistics |
+| [v0.8.5](../versions/0.8.5.md) | Category: shld_wd_li → shld_mtl_li |
+| [v0.8.12.1](../versions/0.8.12.1.md) | When hit, increaseAttackerCurrentHP: -1–-3 → -3–-1 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

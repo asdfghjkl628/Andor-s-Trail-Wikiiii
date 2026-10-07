@@ -41,7 +41,7 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On target: Blood poisoning (magnitude 5, 5 rounds, 50% chance)
+**On hit:** On target: [Blood poisoning](../conditions/poison_blood.md) (magnitude 5, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -90,7 +90,7 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.14](../versions/0.8.14.md) | attackCost added (5) |
+| [v0.8.14](../versions/0.8.14.md) | Attack cost: added (5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -41,7 +41,7 @@ description: "River snapper is an enemy in Andor's Trail (reptile) with 100 HP, 
 | Critical multiplier | 2.5 |
 | Critical hit chance | 15% |
 
-**When hit:** On self: Bark skin (magnitude 1, 3 rounds, 15% chance); On target: Bleeding wound (magnitude 3, 3 rounds, 15% chance)
+**When hit:** On self: [Bark skin](../conditions/barkskin.md) (magnitude 1, 3 rounds, 15% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

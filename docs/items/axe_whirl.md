@@ -41,7 +41,7 @@ description: "Axe of whirlwind is a rare axe in Andor's Trail (Attack damage 2 t
 
 | Stat | Value |
 |---|---|
-| On self | Minor speed (magnitude 1, 3 rounds, 5% chance) |
+| On self | [Minor speed](../conditions/speed_minor.md) (magnitude 1, 3 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -60,8 +60,8 @@ description: "Axe of whirlwind is a rare axe in Andor's Trail (Attack damage 2 t
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsSource": [{"chance": 5, "co… → {"conditionsSource": [{"chance": "5", "… |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 16, "increaseA… → {"increaseAttackChance": 16, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on self: [Minor speed](../conditions/speed_minor.md) (magnitude 1, 3 rounds, 5% chance) → (magnitude 1, 3 rounds, 5% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (175) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

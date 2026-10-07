@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 532 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Elvedridge, Dangerous elvedridge. Exits to Ratdom maze 522, Ratdom maze 542, Ratdom maze 541, Ratdom maze 521."
+description: "Ratdom maze 532 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Elvedridge, Dangerous elvedridge. Exits to Ratdom maze 522, Ratdom maze 542, Ratdom maze 541, Ratdom maze 521."
 ---
 
 # Ratdom maze 532
@@ -77,8 +77,8 @@ description: "Ratdom maze 532 is an indoor location in Andor's Trail. NPCs: Clev
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Elvedridge](../monsters/ratdom_m8a.md) | 30 | 5–5 | 2 | shares spawn with Dangerous elvedridge |
 | [Dangerous elvedridge](../monsters/ratdom_m8b.md) | 30 | 5–5 | 2 | shares spawn with Elvedridge |
 

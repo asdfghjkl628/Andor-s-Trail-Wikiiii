@@ -55,8 +55,8 @@ description: "Shortcut lodar2 is an indoor location in Andor's Trail. Enemies: G
 | [Brown cave bat](../monsters/cavebat3.md) | 36 | 1–7 | 4 | shares spawn with Black cave bat, Gray cave bat |
 | [Mudfiend](../monsters/mudfiend1.md) | 37 | 4–6 | 1 | shares spawn with Tough mudfiend |
 | [Cave bat](../monsters/cavebat4.md) | 39 | 1–7 | 2 | shares spawn with Aggressive cave bat |
-| [Aggressive cave bat](../monsters/cavebat5.md) | 41 | 1–7 | 2 | shares spawn with Cave bat |
 | [Tough mudfiend](../monsters/mudfiend2.md) | 41 | 5–6 | 1 | shares spawn with Mudfiend |
+| [Aggressive cave bat](../monsters/cavebat5.md) | 41 | 1–7 | 2 | shares spawn with Cave bat |
 | [Young poisonous cave burrower](../monsters/caveburr1.md) | 57 | 0–5 | 4 | shares spawn with Infected larval cave burrower, Poisonous cave burrower |
 | [Infected larval cave burrower](../monsters/caveburr2.md) | 62 | 0–6 | 4 | shares spawn with Poisonous cave burrower, Young poisonous cave burrower |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 65 | 0–6 | 4 | shares spawn with Infected larval cave burrower, Young poisonous cave burrower |
@@ -75,8 +75,8 @@ description: "Shortcut lodar2 is an indoor location in Andor's Trail. Enemies: G
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

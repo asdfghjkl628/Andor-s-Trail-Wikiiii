@@ -68,8 +68,8 @@ description: "Waytolake7 is an outdoor location in Andor's Trail. Enemies: Scara
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.7.4](../versions/0.7.4.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

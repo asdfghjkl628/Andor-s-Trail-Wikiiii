@@ -65,8 +65,8 @@ description: "Lostmine2 is an indoor location in Andor's Trail, in Charwood (set
 | [Young ash gargoyle](../monsters/ash1.md) | 109 | 3–10 | 3 | shares spawn with Ash gargoyle |
 | [Strong Charwood goblin](../monsters/charwdg8.md) | 112 | 9–11 | 5 | shares spawn with Aggressive Charwood goblin |
 | [Ash gargoyle](../monsters/ash2.md) | 116 | 3–10 | 3 | shares spawn with Young ash gargoyle |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 1 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 148 | 0–20 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -77,9 +77,9 @@ description: "Lostmine2 is an indoor location in Andor's Trail, in Charwood (set
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

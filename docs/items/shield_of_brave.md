@@ -38,13 +38,13 @@ description: "Shield of the Brave is a extraordinary shield, metal (heavy) in An
 
 | Stat | Value |
 |---|---|
-| On self | Fear (magnitude -99, 3 rounds, 3% chance) |
+| On self | immunity to [Fear](../conditions/fear.md) for 3 rounds (3% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Courage (magnitude 1, 3 rounds, 20% chance) |
+| On self | [Courage](../conditions/courage.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

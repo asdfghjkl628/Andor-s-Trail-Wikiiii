@@ -186,9 +186,9 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…” |
-| [v0.8.5](../versions/0.8.5.md) | stage 20 journal text changed |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 30, 35; stage 20 journal text changed<br>Dialogue: 2 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 40, 45, 48, 50, 60, 70, 80, 90, 100, 110; stage 30 journal text changed; stage 35 journal text changed; stage 200 journal text changed; stage 200 XP 1200 → 10036<br>Dialogue: 21 lines added, 2 lines changed<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…” |
+| [v0.8.5](../versions/0.8.5.md) | Stage 20 journal text changed |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 30, 35<br>Stage 20 journal text changed<br>Dialogue: 2 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 40, 45, 48, 50, 60, 70, 80, 90, 100, 110<br>Stage 30 journal text changed<br>Stage 35 journal text changed<br>Stage 200 journal text changed<br>Stage 200 XP 1200 → 10036<br>Dialogue: 21 lines added, 2 lines changed<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

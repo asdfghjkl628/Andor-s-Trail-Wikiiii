@@ -125,7 +125,7 @@ None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remga
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]”<br>· text: “Hmmm, yes... Let's see... (Unzel opens the sealed message and reads i…” → “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

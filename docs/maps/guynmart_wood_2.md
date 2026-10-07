@@ -84,14 +84,14 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Fish](../monsters/brv_fish1.md#v-guynmart_fish1) | 0 | 0–0 | 1 | – |
+| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 6 | 2–2 | 1 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
+| [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 1 | – |
 | [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
-| [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -143,11 +143,11 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.4](../versions/0.7.4.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

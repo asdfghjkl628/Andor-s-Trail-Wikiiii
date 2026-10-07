@@ -41,7 +41,7 @@ description: "Tough cave scorpion is an enemy in Andor's Trail (insect) with 30 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor sting (magnitude 2, 2 rounds, 20% chance)
+**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 2 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

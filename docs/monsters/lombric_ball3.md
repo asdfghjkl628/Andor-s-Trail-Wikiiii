@@ -63,7 +63,7 @@ description: "Quick lombric ball is an enemy in Andor's Trail (animal) with 30 H
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added |
-| [v0.8.3](../versions/0.8.3.md) | name: Lombric ball → Quick lombric ball |
+| [v0.8.3](../versions/0.8.3.md) | Renamed “Lombric ball” → “Quick lombric ball” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

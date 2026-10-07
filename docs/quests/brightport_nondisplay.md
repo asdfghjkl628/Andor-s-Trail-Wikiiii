@@ -15,7 +15,7 @@ description: "brightport_nondisplay is a hidden quest in Andor's Trail, started 
 | **In journal** | No (hidden flag) |
 | **Stages** | 197 |
 | **Started by** | [Othinus](../monsters/brightportpriest.md) ([brightport_temple](../maps/brightport_temple.md)) |
-| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard.md#v-brightportnorthguard), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate), [Brightport guard](../monsters/brightportguard.md#v-brightportguard2) +28 |
+| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard.md#v-brightportguard2), [Brightport guard](../monsters/brightportguard.md#v-brightportnorthguard), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate) +28 |
 | **Locations** | [brightport1](../maps/brightport1.md), [brightport4](../maps/brightport4.md), [brightport5](../maps/brightport5.md), [brightport_abandoned](../maps/brightport_abandoned.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 13 |
@@ -1254,7 +1254,7 @@ None: talk to [Othinus](../monsters/brightportpriest.md) ([brightport_temple](..
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 257, 258; stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…”<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …” |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 257, 258<br>Stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…”<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

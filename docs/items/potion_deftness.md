@@ -26,7 +26,7 @@ description: "Potion of deftness is a ordinary potion in Andor's Trail. How to g
 
 | Stat | Value |
 |---|---|
-| On self | Deftness (magnitude 3, 1 rounds, 100% chance) |
+| On self | [Deftness](../conditions/deftness.md) (magnitude 3, 1 round) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

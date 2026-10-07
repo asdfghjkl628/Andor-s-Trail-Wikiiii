@@ -176,7 +176,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 11 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?”<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

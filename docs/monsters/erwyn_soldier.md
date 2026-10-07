@@ -210,7 +210,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
-| [v0.8.9](../versions/0.8.9.md) | movementAggressionType: helpOthers → protectSpawn |
+| [v0.8.9](../versions/0.8.9.md) | Movement: helpOthers → protectSpawn |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

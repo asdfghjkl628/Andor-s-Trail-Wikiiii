@@ -61,8 +61,8 @@ description: "Gapfillerhole is an indoor location in Andor's Trail, in Fallhaven
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 1 | shares spawn with Rat |
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -89,8 +89,8 @@ description: "Gapfillerhole is an indoor location in Andor's Trail, in Fallhaven
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

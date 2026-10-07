@@ -34,7 +34,7 @@ description: "Heartfire pendant of Kazaul is a extraordinary necklace in Andor's
 | Attack chance | +2 |
 | Block chance | +2 |
 | Damage resistance | +1 |
-| Grants | Regeneration (magnitude 4); Kazaul possession (magnitude 1); Burning (magnitude -99); Ablaze (magnitude -99) |
+| Grants | [Regeneration](../conditions/regen2.md) (magnitude 4); [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1); immunity to [Burning](../conditions/burning.md); immunity to [Ablaze](../conditions/fire.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

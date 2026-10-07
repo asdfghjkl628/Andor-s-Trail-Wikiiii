@@ -41,9 +41,9 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
 | Critical multiplier | 2.0 |
 | Critical hit chance | 2% |
 
-**On hit:** On target: Fear (magnitude 4, 3 rounds, 25% chance)
+**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 4, 3 rounds, 25% chance)
 
-**When hit:** On self: Regeneration (magnitude 6, 1 rounds, 100% chance)
+**When hit:** On self: [Regeneration](../conditions/regen2.md) (magnitude 6, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

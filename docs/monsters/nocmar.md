@@ -339,9 +339,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…” |
-| [v0.8.18](../versions/0.8.18.md) | phraseID: nocmar → nocmar_selector<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…”<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.” |
+| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.”<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

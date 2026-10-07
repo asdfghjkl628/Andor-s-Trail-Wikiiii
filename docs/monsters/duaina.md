@@ -157,7 +157,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…”<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

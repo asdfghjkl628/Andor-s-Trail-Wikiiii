@@ -62,7 +62,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 1 line added |
-| [v0.7.12](../versions/0.7.12.md) | name: Customer → Forlin<br>Dialogue: 4 lines added, 1 line changed<br>· text: “I hate myself, because I'm drinking...” → “I'm drinking because my wife left me and took my beagle with her. Now…” |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “Customer” → “Forlin”<br>Dialogue: 4 lines added, 1 line changed<br>· text: “I hate myself, because I'm drinking...” → “I'm drinking because my wife left me and took my beagle with her. Now…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

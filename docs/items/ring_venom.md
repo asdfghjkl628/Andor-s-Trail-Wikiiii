@@ -27,7 +27,7 @@ description: "Ring of venom is a rare ring in Andor's Trail. How to get it: shop
 
 | Stat | Value |
 |---|---|
-| On target | Weak Poison (magnitude 1, 12 rounds, 10% chance) |
+| On target | [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 12 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

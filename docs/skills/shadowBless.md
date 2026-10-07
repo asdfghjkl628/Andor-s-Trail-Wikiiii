@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | −5% chance of all conditions ([abbreviations](../glossary.md)) |
 | **Category** | Immunity |
 | **Max level** | 1 |
 | **Obtained via** | Quest reward only |
@@ -23,6 +24,8 @@ Lowers the chance of being afflicted with all types of conditions by 5 %. This i
 | 1 | Quest reward |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
+See [Conditions](../conditions/index.md#categories-and-resistance) for the conditions this skill affects.
 
 ## Relevant quest
 

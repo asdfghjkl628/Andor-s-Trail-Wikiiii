@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Weapon + shield: +25% of weapon AC and +25% of shield BC per level ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 2 |
 | **Obtained via** | Skill points |

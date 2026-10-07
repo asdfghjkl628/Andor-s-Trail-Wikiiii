@@ -41,7 +41,7 @@ description: "Sullengard forest snake is an enemy in Andor's Trail (reptile) wit
 | Critical multiplier | 3.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Nausea (magnitude 3, 5 rounds, 40% chance)
+**On hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

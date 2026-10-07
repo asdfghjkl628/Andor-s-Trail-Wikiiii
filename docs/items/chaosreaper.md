@@ -40,7 +40,7 @@ description: "Chaosreaper is a extraordinary scepter in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On target | Chaotic grip (magnitude 5, 3 rounds, 50% chance) |
+| On target | [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 3 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -62,9 +62,9 @@ description: "Chaosreaper is a extraordinary scepter in Andor's Trail (Attack da
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": -30, "increase… → {"increaseAttackChance": -30, "increase… |
-| [v0.7.12](../versions/0.7.12.md) | equipEffect: {"increaseAttackChance": -30, "increase… → {"increaseAttackChance": -10, "increase… |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 3 rounds, 50% chance) → (magnitude 5, 3 rounds, 50% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (102) |
+| [v0.7.12](../versions/0.7.12.md) | When equipped, attack chance: −30 → −10<br>When equipped, critical skill: added (+1)<br>When equipped, critical multiplier: added (1.5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -41,7 +41,7 @@ description: "Glacibite is an enemy in Andor's Trail (humanoid) with 212 HP, wor
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Frostbite (magnitude 2, 2 rounds, 15% chance)
+**On hit:** On target: [Frostbite](../conditions/frostbite.md) (magnitude 2, 2 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

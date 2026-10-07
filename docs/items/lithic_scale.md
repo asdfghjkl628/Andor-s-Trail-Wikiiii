@@ -42,7 +42,7 @@ description: "Lithic scales is a ordinary animal part in Andor's Trail. How to g
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added |
-| [v0.7.15](../versions/0.7.15.md) | category: other → animal |
+| [v0.7.15](../versions/0.7.15.md) | Category: other → animal |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

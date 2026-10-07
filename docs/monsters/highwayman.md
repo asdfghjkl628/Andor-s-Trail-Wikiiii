@@ -114,7 +114,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_bandit1); movementAggressionType added (protectSpawn)<br>Dialogue: 4 lines changed<br>· text: “Ok then, your life it is. Let's fight. I have been looking forward to…” → “OK then, your life it is. Let's fight. I have been looking forward to…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bandit1)<br>Movement: added (protectSpawn)<br>Dialogue: 4 lines changed<br>· text: “Ok then, your life it is. Let's fight. I have been looking forward to…” → “OK then, your life it is. Let's fight. I have been looking forward to…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -259,8 +259,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_highwayman1); unique removed<br>Dialogue: 4 lines changed<br>· text: “Tell you what, if you give me .. shall we say .. 500 gold, I can almo…” → “Tell you what, if you give me ... shall we say ... 500 gold, I can al…” |
-| [v0.8.7](../versions/0.8.7.md) | monsterClass added (humanoid) |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_highwayman1)<br>Unique flag: removed (was 1)<br>Dialogue: 4 lines changed<br>· text: “Tell you what, if you give me .. shall we say .. 500 gold, I can almo…” → “Tell you what, if you give me ... shall we say ... 500 gold, I can al…” |
+| [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

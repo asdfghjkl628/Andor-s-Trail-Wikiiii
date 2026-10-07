@@ -41,7 +41,7 @@ description: "Obsidian dagger is a extraordinary dagger in Andor's Trail (Attack
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 3, 5 rounds, 20% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -62,7 +62,7 @@ description: "Obsidian dagger is a extraordinary dagger in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.13](../versions/0.8.13.md) | equipEffect: {"increaseAttackCost": 4, "increaseAtta… → {"increaseAttackChance": 15, "increaseA…; hitEffect: {"conditionsTarget": [{"chance": "20", … → {"conditionsTarget": [{"chance": "20", … |
+| [v0.8.13](../versions/0.8.13.md) | When equipped, attack chance: added (+15)<br>On hit, condition on target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 5 rounds, 20% chance) → (magnitude 3, 5 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

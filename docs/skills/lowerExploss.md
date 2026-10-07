@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | −20% XP lost on death per level ([abbreviations](../glossary.md)) |
 | **Category** | Utility |
 | **Max level** | 5 |
 | **Obtained via** | Skill points |

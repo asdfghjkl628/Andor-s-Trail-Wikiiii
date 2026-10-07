@@ -41,9 +41,9 @@ description: "Dried kazarite golem is an enemy in Andor's Trail (giant) with 183
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** Heal HP: 2 to 4; On target: Bleeding wound (magnitude 8, 2 rounds, 10% chance)
+**On hit:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 8, 2 rounds, 10% chance)
 
-**When hit:** Heal HP: 0; On target: Nausea (magnitude 4, 4 rounds, 15% chance)
+**When hit:** Heal HP: 0; On target: [Nausea](../conditions/nausea.md) (magnitude 4, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

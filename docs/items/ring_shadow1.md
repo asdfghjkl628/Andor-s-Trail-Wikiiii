@@ -33,7 +33,7 @@ description: "Ring of far lesser Shadow is a legendary ring in Andor's Trail (At
 | Attack chance | +26 |
 | Critical skill | +7 |
 | Block chance | +6 |
-| Grants | Shadow Degeneration (magnitude 1) |
+| Grants | [Shadow Degeneration](../conditions/regenNeg.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

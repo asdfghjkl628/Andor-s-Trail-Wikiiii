@@ -391,7 +391,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 46 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.”<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.”<br>· text: “1000 gold for 10 or perhaps even more killed sheep.” → “{1000} gold for 10 or perhaps even more killed sheep.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -41,7 +41,7 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Potent venom (magnitude 1, 3 rounds, 15% chance)
+**On hit:** On target: [Potent venom](../conditions/potent_venom.md) (magnitude 1, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -54,7 +54,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 | Critical multiplier | 2.1 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Kazaul exposure (magnitude 2, 3 rounds, 18% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -163,7 +163,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 | Critical multiplier | 2.1 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Kazaul exposure (magnitude 2, 3 rounds, 18% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -269,7 +269,7 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 | Critical multiplier | 2.1 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Kazaul exposure (magnitude 2, 3 rounds, 18% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

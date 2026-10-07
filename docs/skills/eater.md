@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +1 HP per kill per level ([abbreviations](../glossary.md)) |
 | **Category** | Immunity |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

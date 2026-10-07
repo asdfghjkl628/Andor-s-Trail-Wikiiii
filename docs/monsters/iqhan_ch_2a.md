@@ -53,7 +53,7 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | Critical multiplier | 2.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On target: Chaotic grip (magnitude 4, 5 rounds, 50% chance)
+**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -80,7 +80,7 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance) → (magnitude 4, 5 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -159,7 +159,7 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | Critical multiplier | 2.0 |
 | Critical hit chance | 17% |
 
-**On hit:** On target: Chaotic grip (magnitude 4, 5 rounds, 50% chance)
+**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -186,7 +186,7 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance) → (magnitude 4, 5 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

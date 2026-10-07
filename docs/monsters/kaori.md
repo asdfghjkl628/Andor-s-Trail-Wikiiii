@@ -140,7 +140,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Hello again. Have you found those 10 Bonemeal potions I asked for?” → “Hello again. Have you found those 10 bonemeal potions I asked for?”<br>· text: “He did? I guess you are not all that bad as I first thought.” → “He did? I guess you are not as bad as I first thought.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Hello again. Have you found those 10 Bonemeal potions I asked for?” → “Hello again. Have you found those 10 bonemeal potions I asked for?”<br>· text: “Up until recently, we have been using special potions made of ground …” → “Up until recently, we have been using special potions made of ground …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

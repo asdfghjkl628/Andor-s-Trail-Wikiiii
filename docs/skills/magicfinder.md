@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +50% chance of non-ordinary item drops per level ([abbreviations](../glossary.md)) |
 | **Category** | Utility |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

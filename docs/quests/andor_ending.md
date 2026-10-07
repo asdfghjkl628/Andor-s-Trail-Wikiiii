@@ -50,7 +50,7 @@ description: "Excluded endings for the main quest andor is a hidden quest in And
 | Version | Change |
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added |
-| [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 900 |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Stages added: 900 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

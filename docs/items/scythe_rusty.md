@@ -41,7 +41,7 @@ description: "Rusty scythe is a ordinary pole weapon in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On target | Blood poisoning (magnitude 1, 3 rounds, 7% chance) |
+| On target | [Blood poisoning](../conditions/poison_blood.md) (magnitude 1, 3 rounds, 7% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -60,8 +60,8 @@ description: "Rusty scythe is a ordinary pole weapon in Andor's Trail (Attack da
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.8](../versions/0.7.8.md) | category: scythe → pole |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 8, "increaseAt… → {"increaseAttackChance": 8, "increaseAt… |
+| [v0.7.8](../versions/0.7.8.md) | Category: scythe → pole |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (135) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

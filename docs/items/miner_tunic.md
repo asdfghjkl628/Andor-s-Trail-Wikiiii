@@ -32,7 +32,7 @@ description: "Miner's tunic is a rare armor, cloth in Andor's Trail (Max HP -10,
 | Critical skill | -8 |
 | Block chance | +13 |
 | Damage resistance | +3 |
-| Grants | Bleeding wound () |
+| Grants | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

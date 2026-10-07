@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +1 max HP on every later level-up, per level ([abbreviations](../glossary.md)) |
 | **Category** | Immunity |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +1 DR per level ([abbreviations](../glossary.md)) |
 | **Category** | Defense |
 | **Max level** | 5 |
 | **Obtained via** | Skill points |

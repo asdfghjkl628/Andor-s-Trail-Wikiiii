@@ -26,7 +26,7 @@ description: "Potion of lightning attack is a extraordinary potion in Andor's Tr
 
 | Stat | Value |
 |---|---|
-| On self | Lightning attack (magnitude 1, 5 rounds, 100% chance) |
+| On self | [Lightning attack](../conditions/light_attack.md) (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -49,7 +49,7 @@ description: "Potion of lightning attack is a extraordinary potion in Andor's Tr
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",… |
+| [v0.8.8](../versions/0.8.8.md) | When used, condition on self: [Lightning attack](../conditions/light_attack.md) (magnitude 1, 2 rounds) → (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

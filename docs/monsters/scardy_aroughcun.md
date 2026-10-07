@@ -41,7 +41,7 @@ description: "Scardy aroughcun is an enemy in Andor's Trail (animal) with 170 HP
 | Critical multiplier | 1.75 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Rabies (magnitude 2, 2 rounds, 25% chance)
+**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 2, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

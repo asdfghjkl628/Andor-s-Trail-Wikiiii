@@ -29,7 +29,7 @@ description: "Spiritbane potion is a rare potion in Andor's Trail. How to get it
 | Stat | Value |
 |---|---|
 | Heal HP | 10 to 50 |
-| On self | Concussion (magnitude -99, 6 rounds, 100% chance); Internal bleeding (magnitude -99, 6 rounds, 100% chance); Fracture (magnitude -99, 6 rounds, 100% chance) |
+| On self | immunity to [Concussion](../conditions/concussion.md) for 6 rounds; immunity to [Internal bleeding](../conditions/crit1.md) for 6 rounds; immunity to [Fracture](../conditions/crit2.md) for 6 rounds |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

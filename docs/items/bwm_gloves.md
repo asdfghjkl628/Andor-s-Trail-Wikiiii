@@ -31,7 +31,7 @@ description: "Blackwater gloves is a rare gloves, leather in Andor's Trail (Max 
 | Max HP | +2 |
 | Attack chance | -5 |
 | Block chance | +14 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

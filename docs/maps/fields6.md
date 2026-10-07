@@ -1,5 +1,5 @@
 ---
-description: "Fields6 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Feygard soldier, Sheep, Tinlyn. Enemies: Tough grasslands ant, Grasslands ant. Exits to Fields7, Fields1, Fields5."
+description: "Fields6 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Feygard soldier, Sheep, Tinlyn. Enemies: Grasslands ant, Tough grasslands ant. Exits to Fields7, Fields1, Fields5."
 ---
 
 # Fields6
@@ -65,8 +65,8 @@ South: Nor City.”">7</a><a class="pin pin-script" href="#key-8" style="left:43
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 3 | shares spawn with Grasslands ant |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 3 | shares spawn with Tough grasslands ant |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 3 | shares spawn with Grasslands ant |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -90,11 +90,11 @@ South: Nor City.”">7</a><a class="pin pin-script" href="#key-8" style="left:43
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

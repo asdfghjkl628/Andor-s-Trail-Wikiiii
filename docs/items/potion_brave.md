@@ -27,7 +27,7 @@ description: "Potion of the brave is a ordinary potion in Andor's Trail. How to 
 | Stat | Value |
 |---|---|
 | Heal HP | 35 to 45 |
-| On self | Tight grip (magnitude 1, 3 rounds, 80% chance) |
+| On self | [Tight grip](../conditions/tight_grip.md) (magnitude 1, 3 rounds, 80% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

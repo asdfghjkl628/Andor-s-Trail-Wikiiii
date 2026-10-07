@@ -12,7 +12,7 @@ description: "Yellow is it is a quest in Andor's Trail, started by stepping on a
 | **In journal** | Yes |
 | **Stages** | 44 (completes at 940, 948, 999) |
 | **Started by** | stepping on a trigger on [home](../maps/home.md), [Clevred](../monsters/ratdom_rat.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) |
-| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat.md#v-ratdom_rat_bwm1), [Clevred](../monsters/ratdom_rat.md), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
+| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat.md), [Clevred](../monsters/ratdom_rat.md#v-ratdom_rat_bwm1), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
 | **Locations** | [blackwater_mountain55](../maps/blackwater_mountain55.md), [crossglen_cave](../maps/crossglen_cave.md), [home](../maps/home.md), [ratdom_bwm1](../maps/ratdom_bwm1.md) |
 | **Total XP** | 47,910 |
 | **Related quests** | 9 |
@@ -326,7 +326,7 @@ description: "Yellow is it is a quest in Andor's Trail, started by stepping on a
 | Version | Change |
 |---|---|
 | [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 44 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stage 10 journal text changed; stage 30 journal text changed; stage 31 journal text changed; stage 32 journal text changed; stage 33 journal text changed; stage 34 journal text changed (+34 more) |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stage 10 journal text changed<br>Stage 30 journal text changed<br>Stage 31 journal text changed<br>Stage 32 journal text changed<br>Stage 33 journal text changed<br>Stage 34 journal text changed<br>Stage 35 journal text changed<br>Stage 36 journal text changed<br>Stage 37 journal text changed<br>Stage 50 journal text changed<br>(+30 more) |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “This is a lot of money for our museum. But here you have 1000 gold.” → “This is a lot of money for our museum. But here you have {1000} gold.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

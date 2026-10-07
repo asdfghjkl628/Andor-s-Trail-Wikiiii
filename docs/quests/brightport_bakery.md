@@ -220,7 +220,7 @@ description: "Bread and circus is a quest in Andor's Trail, started by Allares (
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 21 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stage 22 journal text changed; stage 25 journal text changed<br>Dialogue: 1 line changed<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …” |
+| [v0.8.18](../versions/0.8.18.md) | Stage 22 journal text changed<br>Stage 25 journal text changed<br>Dialogue: 1 line changed<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

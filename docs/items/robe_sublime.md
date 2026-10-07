@@ -40,7 +40,7 @@ description: "Robe of the Sublimate is a rare armor, cloth in Andor's Trail (Mov
 
 | Stat | Value |
 |---|---|
-| On target | Confusion (magnitude 1, 2 rounds, 20% chance) |
+| On target | [Confusion](../conditions/confusion.md) (magnitude 1, 2 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

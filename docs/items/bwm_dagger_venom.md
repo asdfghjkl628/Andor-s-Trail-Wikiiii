@@ -32,13 +32,13 @@ description: "Blackwater poisoned dagger is a rare dagger in Andor's Trail (Atta
 | Attack damage | 1 |
 | Attack cost | +3 |
 | Attack chance | +45 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 ### On hit
 
 | Stat | Value |
 |---|---|
-| On target | Weak Poison (magnitude 1, 5 rounds, 50% chance) |
+| On target | [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 5 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -57,7 +57,7 @@ description: "Blackwater poisoned dagger is a rare dagger in Andor's Trail (Atta
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 5 rounds, 50% chance) → (magnitude 1, 5 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

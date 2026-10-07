@@ -60,9 +60,9 @@ description: "Claymore of the warlord is a rare two-handed sword in Andor's Trai
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | equipEffect: {"increaseAttackChance": 19, "increaseA… → {"increaseAttackChance": 19, "increaseA… |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 19, "increaseA… → {"increaseAttackChance": 19, "increaseA… |
-| [v0.8.13](../versions/0.8.13.md) | displaytype added (rare) |
+| [v0.7.2](../versions/0.7.2.md) | When equipped, critical multiplier: 1.5 → 1.5 |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (150) |
+| [v0.8.13](../versions/0.8.13.md) | Rarity: added (rare) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

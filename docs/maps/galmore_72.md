@@ -1,5 +1,5 @@
 ---
-description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor, Pyreling, Embergeist, Lava entity. Exits to Galmore 62, Galmore 71."
+description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor, Embergeist, Pyreling, Lava entity. Exits to Galmore 62, Galmore 71."
 ---
 
 # Galmore 72
@@ -48,8 +48,8 @@ description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Andor](../monsters/dds_andor.md#v-mg2_andor) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 1 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 8 | – |
+| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 1 | – |
 | [Lava entity](../monsters/lava_entity.md) | 290 | 30–35 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -60,7 +60,7 @@ description: "Galmore 72 is an outdoor location in Andor's Trail. Enemies: Andor
 | Version | Change |
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added |
-| [v0.8.15](../versions/0.8.15.md) | map layout or objects changed |
+| [v0.8.15](../versions/0.8.15.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

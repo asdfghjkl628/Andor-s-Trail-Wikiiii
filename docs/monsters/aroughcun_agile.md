@@ -41,7 +41,7 @@ description: "Agile aroughcun is an enemy in Andor's Trail (animal) with 168 HP,
 | Critical multiplier | 1.5 |
 | Critical hit chance | 10% |
 
-**On hit:** On target: Rabies (magnitude 2, 2 rounds, 25% chance)
+**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 2, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

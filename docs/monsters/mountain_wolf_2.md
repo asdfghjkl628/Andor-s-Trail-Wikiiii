@@ -41,7 +41,7 @@ description: "Trained mountain wolf is an enemy in Andor's Trail (animal) with 6
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On self: Haste (magnitude 1, 2 rounds, 20% chance)
+**On hit:** On self: [Haste](../conditions/haste.md) (magnitude 1, 2 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

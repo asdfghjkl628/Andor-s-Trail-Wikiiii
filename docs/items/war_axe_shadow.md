@@ -42,7 +42,7 @@ description: "War Axe of the Shadow is a rare axe in Andor's Trail (Attack damag
 
 | Stat | Value |
 |---|---|
-| On target | Concussion (magnitude 1, 3 rounds, 20% chance) |
+| On target | [Concussion](../conditions/concussion.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -61,7 +61,7 @@ description: "War Axe of the Shadow is a rare axe in Andor's Trail (Attack damag
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | equipEffect: {"increaseAttackChance": 12, "increaseA… → {"increaseAttackChance": 8, "increaseAt… |
+| [v0.8.5](../versions/0.8.5.md) | When equipped, attack chance: +12 → +8<br>When equipped, block chance: −3 → +5<br>When equipped, critical skill: +12 → +10 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

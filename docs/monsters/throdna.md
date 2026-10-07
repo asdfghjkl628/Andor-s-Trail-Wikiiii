@@ -348,7 +348,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “We need you to do two things. First, you must find the shrine of Kaza…” → “We need you to do two things. First, you must find the shrine of Kaza…”<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…”<br>· text: “.. Kazaul .. Shadow ..” → “...Kazaul ... Shadow...” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 22 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

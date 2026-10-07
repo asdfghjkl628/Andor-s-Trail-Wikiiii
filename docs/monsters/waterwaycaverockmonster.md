@@ -45,7 +45,7 @@ description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, wo
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Petrification (magnitude 1, 4 rounds, 25% chance)
+**On hit:** On target: [Petrification](../conditions/petrification.md) (magnitude 1, 4 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -52,8 +52,8 @@ description: "Laerothcave1 is an indoor location in Andor's Trail. Enemies: Gray
 | [Black cave bat](../monsters/cavebat2.md) | 32 | 2–6 | 5 | shares spawn with Brown cave bat, Gray cave bat |
 | [Brown cave bat](../monsters/cavebat3.md) | 36 | 1–7 | 5 | shares spawn with Black cave bat, Gray cave bat |
 | [Cave worm](../monsters/cave_worm.md) | 80 | 1–11 | 2 | shares spawn with Vicious cave worm |
-| [Vicious cave worm](../monsters/cave_worm_vicious.md) | 90 | 3–12 | 2 | shares spawn with Cave worm |
 | [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 2 | shares spawn with Aggressive giant centipede |
+| [Vicious cave worm](../monsters/cave_worm_vicious.md) | 90 | 3–12 | 2 | shares spawn with Cave worm |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 | 5–11 | 2 | shares spawn with Giant centipede |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -64,7 +64,7 @@ description: "Laerothcave1 is an indoor location in Andor's Trail. Enemies: Gray
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

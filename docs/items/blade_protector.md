@@ -41,7 +41,7 @@ description: "Blade of the protector is a extraordinary parrying weapon in Andor
 
 | Stat | Value |
 |---|---|
-| On self | Shadow's protection (magnitude 2, 2 rounds, 15% chance) |
+| On self | [Shadow's protection](../conditions/shadow_prot.md) (magnitude 2, 2 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

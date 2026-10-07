@@ -1,5 +1,5 @@
 ---
-description: "Waytolake4 is an indoor location in Andor's Trail. Enemies: Puny plaguecrawler, Plaguecrawler, Tough plaguecrawler, Tough plaguestrider, Plaguestrider servant. Exits to Waytolake3, Waytolake5."
+description: "Waytolake4 is an indoor location in Andor's Trail. Enemies: Puny plaguecrawler, Plaguecrawler, Tough plaguecrawler, Tough plaguestrider, Wooly plaguestrider. Exits to Waytolake3, Waytolake5."
 ---
 
 # Waytolake4
@@ -50,8 +50,8 @@ description: "Waytolake4 is an indoor location in Andor's Trail. Enemies: Puny p
 | [Plaguecrawler](../monsters/plaguesp_2.md) | 57 | 1–6 | 1 | shares spawn with Puny plaguecrawler, Tough plaguecrawler |
 | [Tough plaguecrawler](../monsters/plaguesp_3.md) | 59 | 1–6 | 1 | shares spawn with Plaguecrawler, Puny plaguecrawler |
 | [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 | 2–6 | 3 | shares spawn with Tough wooly plaguestrider, Wooly plaguestrider |
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 5 | – |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 | 2–6 | 3 | shares spawn with Tough plaguestrider, Tough wooly plaguestrider |
+| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 5 | – |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 | 2–7 | 3 | shares spawn with Tough plaguestrider, Wooly plaguestrider |
 | [Vile plaguestrider](../monsters/plaguesp_10.md) | 67 | 2–7 | 12 | shares spawn with Nesting plaguestrider |
 | [Nesting plaguestrider](../monsters/plaguesp_11.md) | 68 | 2–7 | 12 | shares spawn with Vile plaguestrider |
@@ -64,9 +64,9 @@ description: "Waytolake4 is an indoor location in Andor's Trail. Enemies: Puny p
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

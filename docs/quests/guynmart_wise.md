@@ -82,7 +82,7 @@ Start with [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10]
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Cheddar! I can't belive it!” → “Cheddar! I can't believe it!” |
-| [v0.7.13](../versions/0.7.13.md) | stage 10 journal text changed |
+| [v0.7.13](../versions/0.7.13.md) | Stage 10 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

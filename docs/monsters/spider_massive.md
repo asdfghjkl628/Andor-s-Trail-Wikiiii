@@ -41,7 +41,7 @@ description: "Giant spider is an enemy in Andor's Trail (insect) with 104 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 29% |
 
-**On hit:** On target: Spider bite (magnitude 2, 4 rounds, 30% chance)
+**On hit:** On target: [Spider bite](../conditions/spider_bite.md) (magnitude 2, 4 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

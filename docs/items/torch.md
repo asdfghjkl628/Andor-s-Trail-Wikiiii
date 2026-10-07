@@ -48,7 +48,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | baseMarketCost: 348 → 34; description: Useful for pitch black tunnels, caves a… → Miner's lamp oil with low odor and poll…; name: Torch → Miner's lamp fuel |
+| [v0.8.8](../versions/0.8.8.md) | Base value (gold): 348 → 34<br>Description text changed<br>Renamed “Torch” → “Miner's lamp fuel” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

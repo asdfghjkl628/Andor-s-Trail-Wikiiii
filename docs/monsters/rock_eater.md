@@ -48,7 +48,7 @@ description: "Rock eater is an NPC who can also be fought in Andor's Trail, foun
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On self: Petristill (magnitude 1, 10 rounds, 100% chance); On target: Minor weapon feebleness (magnitude 1, 1 rounds, 25% chance)
+**When hit:** On self: [Petristill](../conditions/petristill.md) (magnitude 1, 10 rounds); On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 1, 1 round, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

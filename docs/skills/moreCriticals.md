@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +20% of equipment CS per level ([abbreviations](../glossary.md)) |
 | **Category** | Criticals |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

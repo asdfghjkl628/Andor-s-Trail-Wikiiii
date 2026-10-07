@@ -45,9 +45,9 @@ description: "Ravenous glowing mudfiend is an enemy in Andor's Trail (construct)
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Bleeding wound (magnitude 3, 5 rounds, 20% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 20% chance)
 
-**When hit:** On target: Nausea (magnitude 3, 5 rounds, 30% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -30,7 +30,7 @@ description: "Necklace of the Undead is a extraordinary necklace in Andor's Trai
 | Stat | Value |
 |---|---|
 | Max HP | +10 |
-| Grants | Curse of the Undead (magnitude 1) |
+| Grants | [Curse of the Undead](../conditions/curse_undead.md) (magnitude 1) |
 
 ### On hit
 

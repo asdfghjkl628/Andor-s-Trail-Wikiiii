@@ -41,9 +41,9 @@ description: "Red tree ant is an enemy in Andor's Trail (insect) with 131 HP, wo
 | Critical multiplier | 3.0 |
 | Critical hit chance | 13% |
 
-**On hit:** On target: Blood poisoning (magnitude 5, 5 rounds, 50% chance)
+**On hit:** On target: [Blood poisoning](../conditions/poison_blood.md) (magnitude 5, 5 rounds, 50% chance)
 
-**On death:** On self: Insect contagion (magnitude 6, 3 rounds, 100% chance)
+**On death:** On self: [Insect contagion](../conditions/contagion.md) (magnitude 6, 3 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

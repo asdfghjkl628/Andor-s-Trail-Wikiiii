@@ -42,7 +42,7 @@ description: "Raider's reach is a rare whip in Andor's Trail (Attack damage 1 to
 
 | Stat | Value |
 |---|---|
-| On target | Minor sting (magnitude 1, 2 rounds, 10% chance) |
+| On target | [Minor sting](../conditions/sting_minor.md) (magnitude 1, 2 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -63,7 +63,7 @@ description: "Raider's reach is a rare whip in Andor's Trail (Attack damage 1 to
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | equipEffect: {"increaseAttackChance": 6, "increaseAt… → {"increaseAttackChance": 6, "increaseAt… |
+| [v0.8.12.1](../versions/0.8.12.1.md) | When equipped, non-weapon damage modifier (%): 127 → 130 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

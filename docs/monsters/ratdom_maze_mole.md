@@ -112,7 +112,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Bleeding wound (magnitude 1, 2 rounds, 75% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

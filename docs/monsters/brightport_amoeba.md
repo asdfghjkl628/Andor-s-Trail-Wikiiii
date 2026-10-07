@@ -41,7 +41,7 @@ description: "Blooming amoeba is an enemy in Andor's Trail (insect) with 60 HP, 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**When hit:** On target: Poisonous vapors (magnitude 1, 8 rounds, 80% chance)
+**When hit:** On target: [Poisonous vapors](../conditions/brightport_poison.md) (magnitude 1, 8 rounds, 80% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

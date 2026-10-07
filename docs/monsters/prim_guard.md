@@ -87,7 +87,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackChance added (60); attackCost added (5); attackDamage added ({"max": 6, "min": 3}); blockChance added (70); damageResistance added (3); faction added (fct_prim) (+3 more) |
+| [v0.7.2](../versions/0.7.2.md) | Attack chance: added (60)<br>Attack cost: added (5)<br>Attack damage: added (3–6)<br>Block chance: added (70)<br>Damage resistance: added (3)<br>Faction: added (fct_prim)<br>Max AP: added (10)<br>Max HP: added (60)<br>Move cost: added (5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

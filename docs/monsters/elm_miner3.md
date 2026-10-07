@@ -41,9 +41,9 @@ description: "Contaminated miner's skeleton is an enemy in Andor's Trail (undead
 | Critical multiplier | 3.0 |
 | Critical hit chance | 12% |
 
-**On hit:** Heal HP: 2 to 6; On target: Bleeding wound (magnitude 4, 3 rounds, 20% chance)
+**On hit:** Heal HP: 2 to 6; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 4, 3 rounds, 20% chance)
 
-**When hit:** On target: Nausea (magnitude 4, 3 rounds, 20% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 4, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

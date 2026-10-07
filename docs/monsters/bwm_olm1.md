@@ -41,7 +41,7 @@ description: "Dun olm is an enemy in Andor's Trail (animal) with 61 HP, worth 19
 | Critical multiplier | 1.5 |
 | Critical hit chance | 9% |
 
-**When hit:** On self: Panic (magnitude 1, 1 rounds, 20% chance)
+**When hit:** On self: [Panic](../conditions/panic.md) (magnitude 1, 1 round, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

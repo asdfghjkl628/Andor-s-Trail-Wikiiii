@@ -26,7 +26,7 @@ description: "Hard biscuits is a ordinary food in Andor's Trail. How to get it: 
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 2, 11 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 11 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -57,7 +57,7 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Chaotic grip (magnitude 5, 5 rounds, 50% chance)
+**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -83,8 +83,8 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance) → (magnitude 5, 5 rounds, 50% chance) |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -167,7 +167,7 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Chaotic grip (magnitude 5, 5 rounds, 50% chance)
+**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -193,8 +193,8 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance) → (magnitude 5, 5 rounds, 50% chance) |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

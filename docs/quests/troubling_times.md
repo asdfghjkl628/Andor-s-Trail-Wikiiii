@@ -12,7 +12,7 @@ description: "Troubling times is a quest in Andor's Trail, started by Nanath (fa
 | **In journal** | Yes |
 | **Stages** | 42 (completes at 20, 30, 310) |
 | **Started by** | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)), [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) +2 |
+| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) +2 |
 | **Locations** | [blackwater_mountain12](../maps/blackwater_mountain12.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 15,002 |
 | **Related quests** | 7 |
@@ -298,7 +298,7 @@ description: "Troubling times is a quest in Andor's Trail, started by Nanath (fa
 | Version | Change |
 |---|---|
 | [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

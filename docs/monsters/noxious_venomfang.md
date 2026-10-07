@@ -41,9 +41,9 @@ description: "Noxious venomfang is an enemy in Andor's Trail (reptile) with 44 H
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 1, 3 rounds, 60% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 60% chance)
 
-**On death:** On self: Weak Poison (magnitude 3, 2 rounds, 30% chance)
+**On death:** On self: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

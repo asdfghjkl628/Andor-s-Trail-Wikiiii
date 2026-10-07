@@ -28,7 +28,7 @@ description: "Polyphem's favourite wine is a ordinary food in Andor's Trail. How
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 6, 8 rounds, 100% chance); Dazed (magnitude 1, 10 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 6, 8 rounds); [Dazed](../conditions/dazed.md) (magnitude 1, 10 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

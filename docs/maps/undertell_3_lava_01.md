@@ -1,5 +1,5 @@
 ---
-description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemies: Bone-Marshal lich, Molten pyreling, Erupting pyreling, Pyreling, Embergeist. Exits to Undertell 3 lava 00."
+description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemies: Bone-Marshal lich, Molten pyreling, Erupting pyreling, Embergeist, Pyreling. Exits to Undertell 3 lava 00."
 ---
 
 # Undertell 3 lava 01
@@ -56,8 +56,8 @@ description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemie
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_pearl) | 232 | 9–11 | 1 | appears later, during a quest |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 | 15–21 | 4 | – |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 246 | 19–26 | 4 | – |
-| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 2 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
+| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 2 | – |
 | [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 285 | 10–13 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

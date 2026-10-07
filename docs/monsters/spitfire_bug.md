@@ -41,7 +41,7 @@ description: "Spitfire bug is an enemy in Andor's Trail (insect) with 106 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 5% |
 
-**On hit:** On target: Ablaze (magnitude 2, 4 rounds, 50% chance)
+**On hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 2, 4 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake22 is an indoor location in Andor's Trail. NPCs: Captain Burry. Enemies: Turtle, Jellyfish, Fish. Exits to Mountainlake10, Mountainlake9, Mountainlake8, Mountainlake25."
+description: "Mountainlake22 is an indoor location in Andor's Trail. NPCs: Captain Burry. Enemies: Fish, Jellyfish. Exits to Mountainlake10, Mountainlake9, Mountainlake8, Mountainlake25."
 ---
 
 # Mountainlake22
@@ -65,16 +65,16 @@ description: "Mountainlake22 is an indoor location in Andor's Trail. NPCs: Capta
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 4 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

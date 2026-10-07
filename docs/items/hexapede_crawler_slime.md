@@ -28,7 +28,7 @@ description: "Hexapede crawler slime is a ordinary potion in Andor's Trail. How 
 
 | Stat | Value |
 |---|---|
-| On self | Rootsnare (magnitude -99, 5 rounds, 100% chance); Bad taste (magnitude 2, 5 rounds, 100% chance) |
+| On self | immunity to [Rootsnare](../conditions/rootsnare.md) for 5 rounds; [Bad taste](../conditions/bad_taste.md) (magnitude 2, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

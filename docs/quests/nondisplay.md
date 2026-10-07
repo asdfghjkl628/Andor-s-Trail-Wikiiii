@@ -341,15 +341,15 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | stages added: 5 |
-| [v0.7.2](../versions/0.7.2.md) | stages added: 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39; stage 20 journal text changed<br>Dialogue: 16 lines added |
+| [v0.7.1](../versions/0.7.1.md) | Stages added: 5 |
+| [v0.7.2](../versions/0.7.2.md) | Stages added: 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39<br>Stage 20 journal text changed<br>Dialogue: 16 lines added |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “You see large shapes moving in the shadows to the East. It looks dang…” → “You see large shapes moving in the shadows to the east. It looks dang…” |
-| [v0.7.13](../versions/0.7.13.md) | stages added: 1<br>Dialogue: 1 line added |
+| [v0.7.13](../versions/0.7.13.md) | Stages added: 1<br>Dialogue: 1 line added |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line added |
-| [v0.8.11](../versions/0.8.11.md) | stages added: 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52<br>Dialogue: 24 lines added |
+| [v0.8.11](../versions/0.8.11.md) | Stages added: 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52<br>Dialogue: 24 lines added |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 60, 70<br>Dialogue: 1 line added, 1 line changed |
-| [v0.8.15](../versions/0.8.15.md) | stages added: 80, 81, 82, 83, 84, 85, 87, 88, 89<br>Dialogue: 9 lines added |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 60, 70<br>Dialogue: 1 line added, 1 line changed |
+| [v0.8.15](../versions/0.8.15.md) | Stages added: 80, 81, 82, 83, 84, 85, 87, 88, 89<br>Dialogue: 9 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

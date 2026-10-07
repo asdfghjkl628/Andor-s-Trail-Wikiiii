@@ -44,11 +44,11 @@ description: "Egrinda is an NPC who can also be fought in Andor's Trail, found i
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Baited strike (magnitude 4, 2 rounds, 50% chance)
+**On hit:** On target: [Baited strike](../conditions/baited_strike.md) (magnitude 4, 2 rounds, 50% chance)
 
-**When hit:** On target: Trapped (magnitude 1, 2 rounds, 100% chance)
+**When hit:** On target: [Trapped](../conditions/trapped.md) (magnitude 1, 2 rounds)
 
-**On death:** On self: Trapped (100% chance)
+**On death:** On self: removes [Trapped](../conditions/trapped.md)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

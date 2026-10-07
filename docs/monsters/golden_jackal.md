@@ -41,7 +41,7 @@ description: "Golden jackal is an enemy in Andor's Trail (animal) with 345 HP, w
 | Critical multiplier | 2.0 |
 | Critical hit chance | 19% |
 
-**On hit:** On target: Bleeding wound (magnitude 3, 3 rounds, 15% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -15,7 +15,7 @@ description: "feygard_nondisplayed is a hidden quest in Andor's Trail, started b
 | **In journal** | No (hidden flag) |
 | **Stages** | 35 |
 | **Started by** | walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) |
-| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md), [Godoe](../monsters/godoe1.md#v-godoe2) +5 |
+| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md#v-godoe2), [Godoe](../monsters/godoe1.md) +5 |
 | **Locations** | [beekeeper1](../maps/beekeeper1.md), [fallhaven_clothes](../maps/fallhaven_clothes.md), [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [guynmart_wood_18](../maps/guynmart_wood_18.md) |
 | **Total XP** | 1,101 |
 | **Related quests** | 3 |

@@ -38,7 +38,7 @@ description: "Helm of Foreseeing is a legendary headwear, metal (light) in Andor
 
 | Stat | Value |
 |---|---|
-| On self | Clairvoyance (magnitude 2, 4 rounds, 15% chance); Mind fog (magnitude 2, 5 rounds, 4% chance) |
+| On self | [Clairvoyance](../conditions/clairvoyance.md) (magnitude 2, 4 rounds, 15% chance); [Mind fog](../conditions/mind_fog.md) (magnitude 2, 5 rounds, 4% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

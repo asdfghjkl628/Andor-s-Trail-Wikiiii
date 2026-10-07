@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.10](../versions/0.8.10.md) | category: other → neck |
+| [v0.8.10](../versions/0.8.10.md) | Category: other → neck |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

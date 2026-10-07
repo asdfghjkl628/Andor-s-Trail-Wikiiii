@@ -45,9 +45,9 @@ description: "Yczorah marauder is an enemy in Andor's Trail (demon) with 256 HP,
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 0 to 5; On self: Sustenance (magnitude 2, 2 rounds, 20% chance); On target: Bleeding wound (magnitude 5, 2 rounds, 10% chance)
+**On hit:** Heal HP: 0 to 5; On self: [Sustenance](../conditions/food.md) (magnitude 2, 2 rounds, 20% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 10% chance)
 
-**When hit:** On target: Nausea (magnitude 5, 2 rounds, 20% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -78,7 +78,7 @@ description: "Yczorah marauder is an enemy in Andor's Trail (demon) with 256 HP,
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | hitEffect: {"conditionsSource": [{"chance": "20", … → {"conditionsSource": [{"chance": "20", … |
+| [v0.8.8](../versions/0.8.8.md) | On hit, HP restored: 0 → 0–5 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Lodar8 is an outdoor location in Andor's Trail. NPCs: Guardian of the bridge, Insane Feygard guard, Zortak leader. Enemies: Puny yellowjacket, Small yellowjacket, Small horned anklebiter, Swarming yellowjacket, Puny venomscale. Exits to Lodar4, Lodar8cave0, Lodar11, Lodar18."
+description: "Lodar8 is an outdoor location in Andor's Trail. NPCs: Guardian of the bridge, Insane Feygard guard, Zortak leader. Enemies: Puny yellowjacket, Small yellowjacket, Small horned anklebiter, Puny venomscale, Swarming yellowjacket. Exits to Lodar4, Lodar8cave0, Lodar11, Lodar18."
 ---
 
 # Lodar8
@@ -70,10 +70,10 @@ description: "Lodar8 is an outdoor location in Andor's Trail. NPCs: Guardian of 
 | [Puny yellowjacket](../monsters/yjacket1.md) | 31 | 3–4 | 4 | shares spawn with Small yellowjacket, Swarming yellowjacket |
 | [Small yellowjacket](../monsters/yjacket2.md) | 37 | 3–4 | 4 | shares spawn with Puny yellowjacket, Swarming yellowjacket |
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 | 3–7 | 1 | shares spawn with Young horned anklebiter |
-| [Swarming yellowjacket](../monsters/yjacket3.md) | 42 | 3–4 | 4 | shares spawn with Puny yellowjacket, Small yellowjacket |
 | [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
-| [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
+| [Swarming yellowjacket](../monsters/yjacket3.md) | 42 | 3–4 | 4 | shares spawn with Puny yellowjacket, Small yellowjacket |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 | 5–7 | 1 | shares spawn with Small horned anklebiter |
+| [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 4 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Gray venomscale](../monsters/vscale3.md) | 48 | 3–6 | 4 | shares spawn with Burrowing glow worm, Puny venomscale, Young venomscale |
 | [Zortak fighter](../monsters/zortak2.md) | 189 | 4–9 | 11 | shares spawn with Zortak guard |
@@ -92,9 +92,9 @@ description: "Lodar8 is an outdoor location in Andor's Trail. NPCs: Guardian of 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

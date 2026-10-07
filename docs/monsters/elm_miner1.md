@@ -41,7 +41,7 @@ description: "Resurrected miner's skeleton is an enemy in Andor's Trail (undead)
 | Critical multiplier | 2.25 |
 | Critical hit chance | 15% |
 
-**On hit:** Heal HP: 5; On self: Flesh rot (magnitude 4, 2 rounds, 25% chance); On target: Flesh rot (magnitude 4, 2 rounds, 25% chance)
+**On hit:** Heal HP: 5; On self: [Flesh rot](../conditions/flesh_rot.md) (magnitude 4, 2 rounds, 25% chance); On target: [Flesh rot](../conditions/flesh_rot.md) (magnitude 4, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -73,7 +73,7 @@ description: "Resurrected miner's skeleton is an enemy in Andor's Trail (undead)
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | hitEffect: {"conditionsSource": [{"chance": "25", … → {"conditionsSource": [{"chance": "25", … |
+| [v0.8.8](../versions/0.8.8.md) | On hit, condition on target: added [Flesh rot](../conditions/flesh_rot.md) (magnitude 4, 2 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

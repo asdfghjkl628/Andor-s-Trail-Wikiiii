@@ -40,7 +40,7 @@ description: "Hat of the protector is a rare headwear, cloth in Andor's Trail (A
 
 | Stat | Value |
 |---|---|
-| On self | Courage (magnitude 1, 3 rounds, 10% chance) |
+| On self | [Courage](../conditions/courage.md) (magnitude 1, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

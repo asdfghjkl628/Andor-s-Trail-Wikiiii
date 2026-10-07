@@ -45,7 +45,7 @@ description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP,
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Corrosive slime (magnitude 3, 5 rounds, 40% chance)
+**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 3, 5 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -73,7 +73,7 @@ description: "Crimson jelly is an enemy in Andor's Trail (construct) with 65 HP,
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | droplistID: jelly → jelly1; hitEffect: {"conditionsTarget": [{"chance": 40, "c… → {"conditionsTarget": [{"chance": "40", …; name: Crimson Jelly → Crimson jelly |
+| [v0.7.2](../versions/0.7.2.md) | Loot table changed<br>On hit, condition on target: [Corrosive slime](../conditions/slime.md) (magnitude 3, 5 rounds, 40% chance) → (magnitude 3, 5 rounds, 40% chance)<br>Renamed “Crimson Jelly” → “Crimson jelly” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

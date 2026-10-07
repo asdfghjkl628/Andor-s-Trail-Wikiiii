@@ -58,8 +58,8 @@ description: "Undertell 3 lava 10 is an indoor location in Andor's Trail. Enemie
 | [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 2 | – |
 | [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 263 | 8–10 | 5 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
-| [Dreadstaff lich](../monsters/dreadblade.md) | 285 | 10–13 | 1 | – |
 | [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 285 | 10–13 | 2 | – |
+| [Dreadstaff lich](../monsters/dreadblade.md) | 285 | 10–13 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -41,7 +41,7 @@ description: "Dangerous ogre is an enemy in Andor's Trail (giant) with 380 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Stunned (magnitude 1, 4 rounds, 5% chance)
+**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 4 rounds, 5% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

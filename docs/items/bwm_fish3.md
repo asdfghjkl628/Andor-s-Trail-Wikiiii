@@ -29,7 +29,7 @@ description: "Toasted inkyfish is a ordinary food in Andor's Trail. How to get i
 | Stat | Value |
 |---|---|
 | Heal HP | 5 to 10 |
-| On self | Sustenance (magnitude 4, 7 rounds, 100% chance); Strength (magnitude 3, 5 rounds, 10% chance); Nausea (magnitude 2, 7 rounds, 5% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 4, 7 rounds); [Strength](../conditions/str.md) (magnitude 3, 5 rounds, 10% chance); [Nausea](../conditions/nausea.md) (magnitude 2, 7 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

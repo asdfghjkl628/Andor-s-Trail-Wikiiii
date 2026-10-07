@@ -15,7 +15,7 @@ description: "troubling_times_nd is a hidden quest in Andor's Trail, started by 
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
-| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) |
+| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) |
 | **Locations** | [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md) |
 | **Related quests** | 1 |
 

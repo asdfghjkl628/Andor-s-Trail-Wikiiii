@@ -28,7 +28,7 @@ description: "Spider eggs is a ordinary edible animal part in Andor's Trail. How
 
 | Stat | Value |
 |---|---|
-| On self | Food-poisoning (magnitude 3, 10 rounds, 5% chance); Sustenance (magnitude 6, 3 rounds, 100% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 3, 10 rounds, 5% chance); [Sustenance](../conditions/food.md) (magnitude 6, 3 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

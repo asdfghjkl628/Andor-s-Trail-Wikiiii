@@ -41,7 +41,7 @@ description: "Gravewing is an enemy in Andor's Trail (animal) with 138 HP, worth
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Rabies (magnitude 1, 3 rounds, 15% chance)
+**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 1, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

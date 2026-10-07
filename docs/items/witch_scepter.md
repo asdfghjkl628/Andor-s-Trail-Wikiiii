@@ -36,13 +36,13 @@ description: "Enchanted evergreen rod is a extraordinary scepter in Andor's Trai
 | Attack chance | 0 |
 | Block chance | +1 |
 | setNonWeaponDamageModifier | +132 |
-| Grants | Bless (magnitude 2) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 2) |
 
 ### On hit
 
 | Stat | Value |
 |---|---|
-| On target | Rootsnare (magnitude 1, 3 rounds, 3% chance) |
+| On target | [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -56,7 +56,7 @@ description: "Lord Erwyn is an NPC who can also be fought in Andor's Trail, foun
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** Heal HP: 3; On target: Weak Poison (magnitude 2, 4 rounds, 40% chance)
+**On hit:** Heal HP: 3; On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 4 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -140,7 +140,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 9 lines added |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 53 → 5; attackDamage: {"max": 7, "min": 5} → {"max": 22, "min": 13}; damageResistance added (5); hitEffect: {"conditionsTarget": [{"chance": "40", … → {"conditionsTarget": [{"chance": "40", … |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 53 → 5<br>Attack damage: 5–7 → 13–22<br>Damage resistance: added (5)<br>On hit, HP restored: added (3) |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Gain? I am the the one who gains!” → “Gain? I am the one who gains!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -228,7 +228,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** Heal HP: 3; On target: Weak Poison (magnitude 2, 4 rounds, 40% chance)
+**On hit:** Heal HP: 3; On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 4 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -271,7 +271,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 9 lines added |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 53 → 5; attackDamage: {"max": 7, "min": 5} → {"max": 22, "min": 13}; damageResistance added (5); hitEffect: {"conditionsTarget": [{"chance": "40", … → {"conditionsTarget": [{"chance": "40", … |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 53 → 5<br>Attack damage: 5–7 → 13–22<br>Damage resistance: added (5)<br>On hit, HP restored: added (3) |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Gain? I am the the one who gains!” → “Gain? I am the one who gains!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -52,7 +52,7 @@ description: "Gloves of life force is a extraordinary gloves, leather in Andor's
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.8.13](../versions/0.8.13.md) | baseMarketCost: 390 → 685; equipEffect: {"increaseAttackChance": 5, "increaseBl… → {"increaseAttackChance": 5, "increaseBl… |
+| [v0.8.13](../versions/0.8.13.md) | Base value (gold): 390 → 685<br>When equipped, block chance: +3 → +6<br>When equipped, max HP: +9 → +13 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -133,7 +133,7 @@ None: talk to [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 8 journal text changed; stage 10 journal text changed; stage 40 journal text changed; stage 50 journal text changed<br>Dialogue: 2 lines changed<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 8 journal text changed<br>Stage 10 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Dialogue: 2 lines changed<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …”<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

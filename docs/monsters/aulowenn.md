@@ -251,7 +251,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...”<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I don't know if was just me imagining things or if something truly ha…” → “I don't know if it was just me imagining things or if something truly…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
-| [v0.8.7](../versions/0.8.7.md) | monsterClass added (humanoid) |
+| [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

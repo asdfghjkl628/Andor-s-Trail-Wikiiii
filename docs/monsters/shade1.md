@@ -69,7 +69,7 @@ description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -364,7 +364,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -513,7 +513,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -662,7 +662,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -811,7 +811,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -960,7 +960,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -1109,7 +1109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -1258,7 +1258,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -1407,7 +1407,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -1556,7 +1556,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -1705,7 +1705,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance); Vulnerability (magnitude 6, 2 rounds, 75% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -35,13 +35,13 @@ description: "Kazarite cloak is a extraordinary hide armor in Andor's Trail (Att
 | Attack chance | +8 |
 | Block chance | +8 |
 | Damage resistance | +2 |
-| Grants | Nausea (magnitude -99); Kazaul possession (magnitude 1) |
+| Grants | immunity to [Nausea](../conditions/nausea.md); [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1) |
 
 ### On hit
 
 | Stat | Value |
 |---|---|
-| On self | Regeneration (magnitude 5, 1 rounds, 10% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 5, 1 round, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -72,7 +72,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.7.15](../versions/0.7.15.md) | description: This cloak is gelid to the touch and un… → This cloak is icy to the touch and unbe… |
+| [v0.7.15](../versions/0.7.15.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

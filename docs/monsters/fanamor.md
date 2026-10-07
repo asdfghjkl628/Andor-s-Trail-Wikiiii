@@ -239,8 +239,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “.. sigh ..” → “*sigh*”<br>· text: “Oh, who am I kidding. Ok, I was trying to get through the forest here…” → “Oh, who am I kidding. OK, I was trying to get through the forest here…” |
-| [v0.7.8](../versions/0.7.8.md) | movementAggressionType added (none); phraseID: fanamor → fanamor_selector<br>Dialogue: 19 lines added, 1 line changed |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “I was just strolling through these woods .. eh .. killing Anklebiters.” → “I was just strolling through these woods ... eh ... killing anklebite…”<br>· text: “.. sigh ..” → “*sigh*” |
+| [v0.7.8](../versions/0.7.8.md) | Movement: added (none)<br>Conversation changed<br>Dialogue: 19 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 13 lines added, 1 line changed |
 

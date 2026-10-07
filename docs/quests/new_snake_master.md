@@ -81,7 +81,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 4 lines added |
-| [v0.7.13](../versions/0.7.13.md) | stage 10 journal text changed |
+| [v0.7.13](../versions/0.7.13.md) | Stage 10 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

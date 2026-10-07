@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | With a shield or parrying weapon: +1 DR per level ([abbreviations](../glossary.md)) |
 | **Category** | Proficiency |
 | **Max level** | 2 |
 | **Obtained via** | First level from a quest, then skill points |

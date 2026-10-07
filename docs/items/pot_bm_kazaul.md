@@ -29,7 +29,7 @@ description: "Kazaul bonemeal is a ordinary potion in Andor's Trail. How to get 
 | Stat | Value |
 |---|---|
 | Heal HP | 25 to 45 |
-| On self | Regeneration (magnitude 3, 5 rounds, 100% chance); Kazaul possession (magnitude 4, 4 rounds, 20% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 3, 5 rounds); [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 4, 4 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

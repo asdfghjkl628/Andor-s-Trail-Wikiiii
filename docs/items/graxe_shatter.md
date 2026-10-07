@@ -42,7 +42,7 @@ description: "Greataxe of shattered hope is a rare greataxe in Andor's Trail (At
 
 | Stat | Value |
 |---|---|
-| On target | Minor fatigue (magnitude 1, 3 rounds, 20% chance) |
+| On target | [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -63,9 +63,9 @@ description: "Greataxe of shattered hope is a rare greataxe in Andor's Trail (At
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 32, "increaseA… → {"increaseAttackChance": 32, "increaseA… |
-| [v0.7.11](../versions/0.7.11.md) | equipEffect: {"increaseAttackChance": 32, "increaseA… → {"increaseAttackChance": 32, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 20% chance) → (magnitude 1, 3 rounds, 20% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (150) |
+| [v0.7.11](../versions/0.7.11.md) | When equipped, non-weapon damage modifier (%): 150 → 180 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

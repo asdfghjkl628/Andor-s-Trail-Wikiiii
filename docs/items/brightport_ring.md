@@ -51,7 +51,7 @@ description: "Stanwick's signet ring is a quest ring in Andor's Trail (Attack da
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 15, "increaseA… |
+| [v0.8.18](../versions/0.8.18.md) | When equipped, damage resistance: +3 → +1 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

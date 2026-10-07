@@ -41,7 +41,7 @@ description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) wit
 | Critical multiplier | 2.0 |
 | Critical hit chance | 10% |
 
-**On hit:** On target: Rootsnare (magnitude 1, 3 rounds, 20% chance)
+**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

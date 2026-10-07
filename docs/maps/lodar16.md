@@ -1,5 +1,5 @@
 ---
-description: "Lodar16 is an outdoor location in Andor's Trail. Enemies: Puny venomscale, Young venomscale, Burrowing glow worm, Stinging yellowjacket, Gray venomscale. Exits to Lodar8, Lodar18, Lodar19, Lodar17."
+description: "Lodar16 is an outdoor location in Andor's Trail. Enemies: Puny venomscale, Young venomscale, Stinging yellowjacket, Burrowing glow worm, Gray venomscale. Exits to Lodar8, Lodar18, Lodar19, Lodar17."
 ---
 
 # Lodar16
@@ -55,8 +55,8 @@ description: "Lodar16 is an outdoor location in Andor's Trail. Enemies: Puny ven
 |---|---|---|---|---|
 | [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 15 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
 | [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 15 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 15 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Stinging yellowjacket](../monsters/yjacket4.md) | 48 | 3–4 | 3 | shares spawn with Quick yellowjacket |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 15 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Gray venomscale](../monsters/vscale3.md) | 48 | 3–6 | 15 | shares spawn with Burrowing glow worm, Puny venomscale, Young venomscale |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 | 4–6 | 2 | shares spawn with Quick venomscale |
 | [Quick yellowjacket](../monsters/yjacket5.md) | 53 | 3–4 | 3 | shares spawn with Stinging yellowjacket |
@@ -72,9 +72,9 @@ description: "Lodar16 is an outdoor location in Andor's Trail. Enemies: Puny ven
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

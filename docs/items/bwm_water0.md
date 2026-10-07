@@ -29,7 +29,7 @@ description: "Small vial of mountain water is a ordinary potion in Andor's Trail
 | Stat | Value |
 |---|---|
 | Heal HP | 5 to 10 |
-| On self | Satiety (magnitude 1, 3 rounds, 100% chance) |
+| On self | [Satiety](../conditions/satiety.md) (magnitude 1, 3 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -100,7 +100,7 @@ None: talk to [Leonid](../monsters/leonid.md) to begin.
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 50, 110<br>Dialogue: 2 lines added |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Stages added: 50, 110<br>Dialogue: 2 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -29,7 +29,7 @@ description: "Southernhaze is a ordinary drink in Andor's Trail. How to get it: 
 | Stat | Value |
 |---|---|
 | Heal HP | 8 |
-| On self | Sustenance (magnitude 3, 1 rounds, 100% chance); Intoxicated (magnitude 1, 2 rounds, 40% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 1 round); [Intoxicated](../conditions/intoxicated.md) (magnitude 1, 2 rounds, 40% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

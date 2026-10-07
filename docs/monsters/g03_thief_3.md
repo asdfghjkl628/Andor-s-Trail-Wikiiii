@@ -41,7 +41,7 @@ description: "Rebelled rogue is an enemy in Andor's Trail (humanoid) with 58 HP,
 | Critical multiplier | 2.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On self: Combo (magnitude 1, 1 rounds, 33% chance)
+**On hit:** On self: [Combo](../conditions/g03_combo.md) (magnitude 1, 1 round, 33% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

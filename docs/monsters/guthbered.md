@@ -454,7 +454,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “This is a permit that we have .. produced .. , that according to our …” → “This is a permit that we have ... produced, which according to our so…”<br>· text: “Now, the permit is not .. shall we say .. completely genuine. But we …” → “Now, the permit is not ... shall we say ... completely genuine. But w…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “Hello again. Did you find anything up in the Blackwater Mountain sett…” → “Hello again. Did you find anything up in the Blackwater mountain sett…”<br>· text: “Hello again. Did you manage to remove that bastard battle master Harl…” → “Hello again. Did you manage to remove that bastard battle master Harl…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

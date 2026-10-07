@@ -41,7 +41,7 @@ description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 4
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Spore poisoning (magnitude 1, 3 rounds, 10% chance)
+**On hit:** On target: [Spore poisoning](../conditions/spore_poison.md) (magnitude 1, 3 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

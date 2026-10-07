@@ -28,7 +28,7 @@ description: "Boiled tripe is a ordinary food in Andor's Trail. How to get it: s
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 1, 9 rounds, 100% chance); Nausea (magnitude 2, 3 rounds, 3% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 1, 9 rounds); [Nausea](../conditions/nausea.md) (magnitude 2, 3 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

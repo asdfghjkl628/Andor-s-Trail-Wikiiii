@@ -29,7 +29,7 @@ description: "Large bottle of mountain water is a extraordinary healing item in 
 | Stat | Value |
 |---|---|
 | Heal HP | 10 to 35 |
-| On self | Satiety (magnitude 1, 5 rounds, 100% chance) |
+| On self | [Satiety](../conditions/satiety.md) (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

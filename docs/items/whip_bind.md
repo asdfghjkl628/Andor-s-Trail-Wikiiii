@@ -43,7 +43,7 @@ description: "Whip of binding is a extraordinary whip in Andor's Trail (Attack d
 
 | Stat | Value |
 |---|---|
-| On target | Entanglement (magnitude 1, 2 rounds, 25% chance) |
+| On target | [Entanglement](../conditions/entanglement.md) (magnitude 1, 2 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

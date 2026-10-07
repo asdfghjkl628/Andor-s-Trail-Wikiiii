@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.8.12.1](../versions/0.8.12.1.md) | phraseID: fallhaven_clothes → fallhaven_clothes_0<br>Dialogue: 8 lines added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Conversation changed<br>Dialogue: 8 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

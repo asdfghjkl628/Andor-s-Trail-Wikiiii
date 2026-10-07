@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Those 'Scaradon' things are tough! They did not even seem to take any…” → “Those 'scaradon' things are tough! They did not even seem to take any…”<br>· text: “Oh yes. The upside of this cave is that it literally is crawling with…” → “Oh yes. The upside of this cave is that it literally is crawling with…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Oh yes. The upside of this cave is that it literally is crawling with…” → “Oh yes. The upside of this cave is that it literally is crawling with…”<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

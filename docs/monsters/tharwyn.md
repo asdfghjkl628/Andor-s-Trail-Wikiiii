@@ -120,7 +120,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…”<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.”<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

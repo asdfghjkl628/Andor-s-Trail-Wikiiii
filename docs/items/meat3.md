@@ -29,7 +29,7 @@ description: "Worm meat is a ordinary edible animal part in Andor's Trail. How t
 | Stat | Value |
 |---|---|
 | Heal HP | 0 to 2 |
-| On self | Sustenance (magnitude 5, 2 rounds, 75% chance); Sustenance (magnitude 2, 6 rounds, 100% chance); Food-poisoning (magnitude 3, 7 rounds, 30% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 5, 2 rounds, 75% chance); [Sustenance](../conditions/food.md) (magnitude 2, 6 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 3, 7 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

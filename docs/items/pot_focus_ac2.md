@@ -26,7 +26,7 @@ description: "Strong potion of accuracy focus is a ordinary potion in Andor's Tr
 
 | Stat | Value |
 |---|---|
-| On self | Focused accuracy (magnitude 2, 4 rounds, 100% chance) |
+| On self | [Focused accuracy](../conditions/focus_ac.md) (magnitude 2, 4 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -55,7 +55,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | useEffect: {"conditionsSource": [{"chance": 100, "… → {"conditionsSource": [{"chance": "100",… |
+| [v0.7.2](../versions/0.7.2.md) | When used, condition on self: [Focused accuracy](../conditions/focus_ac.md) (magnitude 2, 4 rounds) → (magnitude 2, 4 rounds) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

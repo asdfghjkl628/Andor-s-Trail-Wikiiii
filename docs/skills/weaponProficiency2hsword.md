@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Two-handed swords: +30% of weapon AC and BC, +10% of its CS, per level ([abbreviations](../glossary.md)) |
 | **Category** | Proficiency |
 | **Max level** | 3 |
 | **Obtained via** | First level from a quest, then skill points |

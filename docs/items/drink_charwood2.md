@@ -26,7 +26,7 @@ description: "Concentrated charwood sap is a ordinary drink in Andor's Trail. Ho
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 3, 15 rounds, 100% chance); Weak Poison (magnitude 4, 10 rounds, 15% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 15 rounds); [Weak Poison](../conditions/poison_weak.md) (magnitude 4, 10 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -51,7 +51,7 @@ description: "Concentrated charwood sap is a ordinary drink in Andor's Trail. Ho
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | useEffect: {"conditionsSource": [{"chance": 100, "… → {"conditionsSource": [{"chance": "100",… |
+| [v0.7.2](../versions/0.7.2.md) | When used, condition on self: [Sustenance](../conditions/food.md) (magnitude 3, 15 rounds) → (magnitude 3, 15 rounds)<br>When used, condition on self: [Weak Poison](../conditions/poison_weak.md) (magnitude 4, 10 rounds, 15% chance) → (magnitude 4, 10 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

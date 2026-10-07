@@ -48,7 +48,7 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 5; On target: Minor weapon feebleness (magnitude 2, 3 rounds, 20% chance)
+**On hit:** Heal HP: 5; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 11 lines changed<br>· text: “(Its eyes pulsate in an intense glow as the creature starts moving to…” → “[Its eyes pulsate in an intense glow as the creature starts moving to…”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(The creature turns away)” → “[The creature turns away]”<br>· text: “(It raises its claw-like hands above its head, looking to get ready t…” → “[It raises its claw-like hands above its head, looking to get ready t…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

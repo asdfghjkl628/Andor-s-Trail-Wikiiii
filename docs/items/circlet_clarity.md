@@ -38,13 +38,13 @@ description: "Circlet of clarity is a extraordinary ring in Andor's Trail (Max H
 
 | Stat | Value |
 |---|---|
-| On self | Confusion (magnitude -99, 4 rounds, 100% chance) |
+| On self | immunity to [Confusion](../conditions/confusion.md) for 4 rounds |
 
 ### When hit
 
 | Stat | Value |
 |---|---|
-| On self | Dazed (magnitude -99, 3 rounds, 100% chance); Mind fog (magnitude -99, 2 rounds, 100% chance) |
+| On self | immunity to [Dazed](../conditions/dazed.md) for 3 rounds; immunity to [Mind fog](../conditions/mind_fog.md) for 2 rounds |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

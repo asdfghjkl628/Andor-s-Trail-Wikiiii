@@ -57,9 +57,9 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 | Critical multiplier | 2.0 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Concussion (magnitude 1, 2 rounds, 5% chance)
+**On hit:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
 
-**When hit:** On target: Soaked vision (magnitude 1, 2 rounds, 30% chance)
+**When hit:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -369,9 +369,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Critical multiplier | 2.0 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Concussion (magnitude 1, 2 rounds, 5% chance)
+**On hit:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
 
-**When hit:** On target: Soaked vision (magnitude 1, 2 rounds, 30% chance)
+**When hit:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

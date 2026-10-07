@@ -41,7 +41,7 @@ description: "Duleian buzzer is an enemy in Andor's Trail (insect) with 77 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Insect contagion (magnitude 1, 3 rounds, 33% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 1, 3 rounds, 33% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

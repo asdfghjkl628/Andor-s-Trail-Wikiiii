@@ -28,7 +28,7 @@ description: "Raw venison is a ordinary food in Andor's Trail. How to get it: mo
 
 | Stat | Value |
 |---|---|
-| On self | Brainworm infection (magnitude 1, 10 rounds, 10% chance); Sustenance (magnitude 3, 10 rounds, 100% chance); Food-poisoning (magnitude 4, 10 rounds, 15% chance) |
+| On self | [Brainworm infection](../conditions/brightport_worm.md) (magnitude 1, 10 rounds, 10% chance); [Sustenance](../conditions/food.md) (magnitude 3, 10 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 4, 10 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

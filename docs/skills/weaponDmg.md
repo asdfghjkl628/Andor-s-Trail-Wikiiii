@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +2 max dmg per level ([abbreviations](../glossary.md)) |
 | **Category** | Offense |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

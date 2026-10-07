@@ -53,7 +53,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Bleeding wound (magnitude 3, 5 rounds, 50% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -86,7 +86,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", …; name: Izthiel Guardian → Izthiel guardian |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>Renamed “Izthiel Guardian” → “Izthiel guardian” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -164,7 +164,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Bleeding wound (magnitude 3, 5 rounds, 50% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -187,7 +187,7 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", …; name: Izthiel Guardian → Izthiel guardian |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>Renamed “Izthiel Guardian” → “Izthiel guardian” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

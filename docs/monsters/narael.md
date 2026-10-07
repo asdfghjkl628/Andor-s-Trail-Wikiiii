@@ -89,7 +89,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
-| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines changed<br>· text: “The officer in charge would not let me, and I was sent to Flagstone a…” → “The officer in charge would not let me, and out of malice he threw me…”<br>· text: “I was once a citizen in Nor City, and worked on the excavation of Mou…” → “I was once a citizen in Nor City, during which time some men wanted t…” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines changed<br>· text: “I was once a citizen in Nor City, and worked on the excavation of Mou…” → “I was once a citizen in Nor City, during which time some men wanted t…”<br>· text: “The officer in charge would not let me, and I was sent to Flagstone a…” → “The officer in charge would not let me, and out of malice he threw me…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

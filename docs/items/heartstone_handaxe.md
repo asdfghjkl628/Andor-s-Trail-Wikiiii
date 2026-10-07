@@ -44,13 +44,13 @@ description: "Heartsteel handaxe is a legendary axe in Andor's Trail (Attack dam
 
 | Stat | Value |
 |---|---|
-| On target | Heartstone poisoning (magnitude 4, 2 rounds, 10% chance); Head trauma (magnitude 2, 3 rounds, 5% chance) |
+| On target | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 10% chance); [Head trauma](../conditions/head_trauma.md) (magnitude 2, 3 rounds, 5% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 6, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 6, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

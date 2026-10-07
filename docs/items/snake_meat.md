@@ -28,7 +28,7 @@ description: "Snake meat is a ordinary food in Andor's Trail. How to get it: mon
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 2, 15 rounds, 100% chance); Food-poisoning (magnitude 3, 10 rounds, 10% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 15 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 3, 10 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -64,7 +64,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | baseMarketCost added (34); hasManualPrice added (1) |
+| [v0.8.4](../versions/0.8.4.md) | Base value (gold): added (34)<br>Price now set manually instead of calculated from its statistics |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Waytobrightport21 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Izthiel, Erumen lizard, Blooming amoeba, Strong erumen lizard,  Moonwalker tree stump. Exits to Korhald cave outdoor1, Waytobrightport22."
+description: "Waytobrightport21 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Erumen lizard, Izthiel, Blooming amoeba, Strong erumen lizard, Muskrat. Exits to Korhald cave outdoor1, Waytobrightport22."
 ---
 
 # Waytobrightport21
@@ -48,12 +48,12 @@ description: "Waytobrightport21 is an indoor location in Andor's Trail, in Brigh
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 1 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Blooming amoeba](../monsters/brightport_amoeba.md) | 60 | 4–10 | 3 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 1 | shares spawn with Erumen lizard |
-| [ Moonwalker tree stump](../monsters/brightport_tree.md) | 100 | 3–12 | 7 | – |
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 | 6–15 | 1 | – |
+| [ Moonwalker tree stump](../monsters/brightport_tree.md) | 100 | 3–12 | 7 | – |
 | [Forest fawn](../monsters/brightport_sickfawn.md) | 120 | 3–13 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

@@ -29,7 +29,7 @@ description: "Bandit's Brew is a ordinary drink in Andor's Trail. How to get it:
 | Stat | Value |
 |---|---|
 | Heal HP | 5 |
-| On self | Sustenance (magnitude 2, 3 rounds, 100% chance); Intoxicated (magnitude 1, 3 rounds, 10% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 3 rounds); [Intoxicated](../conditions/intoxicated.md) (magnitude 1, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

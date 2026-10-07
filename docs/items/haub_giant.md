@@ -37,7 +37,7 @@ description: "Giant's hauberk is a extraordinary armor (heavy) in Andor's Trail 
 
 | Stat | Value |
 |---|---|
-| On self | Increased defense (magnitude 1, 3 rounds, 15% chance) |
+| On self | [Increased defense](../conditions/increased_defense.md) (magnitude 1, 3 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

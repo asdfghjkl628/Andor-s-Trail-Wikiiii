@@ -44,7 +44,7 @@ description: "Cave troll leader is an NPC who can also be fought in Andor's Trai
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On self: Stunned (magnitude 1, 3 rounds, 25% chance); On target: Stunned (magnitude 1, 3 rounds, 25% chance)
+**On hit:** On self: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance); On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -152,7 +152,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 15 lines added |
-| [v0.7.9](../versions/0.7.9.md) | hitEffect: {"conditionsSource": [{"chance": "25", … → {"conditionsSource": [{"chance": "25", … |
+| [v0.7.9](../versions/0.7.9.md) | On hit, condition on target: added [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

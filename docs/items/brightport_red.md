@@ -28,7 +28,7 @@ description: "Stuffed pepper is a rare food in Andor's Trail. How to get it: que
 
 | Stat | Value |
 |---|---|
-| On self | Ablaze (magnitude 1, 2 rounds, 30% chance); Sustenance (magnitude 5, 10 rounds, 100% chance); Sated (magnitude 1, 1 rounds, 100% chance) |
+| On self | [Ablaze](../conditions/fire.md) (magnitude 1, 2 rounds, 30% chance); [Sustenance](../conditions/food.md) (magnitude 5, 10 rounds); [Sated](../conditions/sated.md) (magnitude 1, 1 round) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

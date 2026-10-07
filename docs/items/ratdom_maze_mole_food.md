@@ -26,7 +26,7 @@ description: "Nutritious snake meat is a ordinary food in Andor's Trail. How to 
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 4, 10 rounds, 100% chance); Food-poisoning (magnitude 5, 9 rounds, 10% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 4, 10 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 5, 9 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

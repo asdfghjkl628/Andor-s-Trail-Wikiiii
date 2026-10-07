@@ -44,7 +44,7 @@ description: "Klingenlied is a rare longsword in Andor's Trail (Attack damage 4 
 
 | Stat | Value |
 |---|---|
-| On self | Courage (magnitude 1, 2 rounds, 5% chance) |
+| On self | [Courage](../conditions/courage.md) (magnitude 1, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 11 lines added, 2 lines changed |
-| [v0.8.14](../versions/0.8.14.md) | phraseID: leta1 → leta_selector<br>Dialogue: 10 lines added, 1 line changed |
+| [v0.8.14](../versions/0.8.14.md) | Conversation changed<br>Dialogue: 10 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

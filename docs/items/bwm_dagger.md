@@ -33,7 +33,7 @@ description: "Blackwater dagger is a rare dagger in Andor's Trail (Attack damage
 | Attack cost | +3 |
 | Attack chance | +40 |
 | Block chance | +5 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

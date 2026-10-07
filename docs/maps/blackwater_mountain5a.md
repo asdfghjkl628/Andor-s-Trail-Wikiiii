@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain5."
+description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain5."
 ---
 
 # Blackwater mountain5a
@@ -46,8 +46,8 @@ description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enem
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 4 | shares spawn with Young gornaud |
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 3 | shares spawn with Gornaud |
+| [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 4 | shares spawn with Young gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 4 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 3 | shares spawn with Scaled venomfang |
 
@@ -67,8 +67,8 @@ description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enem
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.8](../versions/0.7.8.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.8](../versions/0.7.8.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

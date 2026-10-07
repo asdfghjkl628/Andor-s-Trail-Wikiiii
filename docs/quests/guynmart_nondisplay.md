@@ -15,7 +15,7 @@ description: "guynmart nondisplay is a hidden quest in Andor's Trail, started by
 | **In journal** | No (hidden flag) |
 | **Stages** | 29 |
 | **Started by** | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) +6 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) +6 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Related quests** | 3 |
 

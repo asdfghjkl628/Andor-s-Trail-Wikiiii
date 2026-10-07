@@ -28,7 +28,7 @@ description: "Rotten apple is a ordinary food in Andor's Trail. How to get it: m
 
 | Stat | Value |
 |---|---|
-| On self | Food-poisoning (magnitude 3, 5 rounds, 100% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 3, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

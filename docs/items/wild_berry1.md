@@ -26,7 +26,7 @@ description: "Wild berries is a ordinary food in Andor's Trail. How to get it: q
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 1, 5 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

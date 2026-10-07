@@ -41,11 +41,11 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Divine judgement (magnitude 1, 3 rounds, 14% chance)
+**On hit:** On target: [Divine judgement](../conditions/divine_judgement.md) (magnitude 1, 3 rounds, 14% chance)
 
-**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 5% chance)
+**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 5% chance)
 
-**On death:** On self: Divine punishment (magnitude 1, 2 rounds, 100% chance)
+**On death:** On self: [Divine punishment](../conditions/divine_punishment.md) (magnitude 1, 2 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -1,5 +1,5 @@
 ---
-description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail (Attack damage 2 to 4, Max HP +5, Block chance +12, Grants Fear (magnitude -99)). How to get it: quests and dialogue. You feel warm and comfortable while holding it."
+description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail (Attack damage 2 to 4, Max HP +5, Block chance +12, Grants immunity to Fear). How to get it: quests and dialogue. You feel warm and comfortable while holding it."
 ---
 
 # ![](../assets/icons/items/items_necklaces_1_15.png){ .sprite } Ortholion's talisman
@@ -32,7 +32,7 @@ description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail 
 | Attack damage | 2 to 4 |
 | Max HP | +5 |
 | Block chance | +12 |
-| Grants | Fear (magnitude -99) |
+| Grants | immunity to [Fear](../conditions/fear.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -51,7 +51,7 @@ description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail 
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | description: You feel a warm and comfortable feeling… → You feel warm and comfortable while hol… |
+| [v0.8.4](../versions/0.8.4.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

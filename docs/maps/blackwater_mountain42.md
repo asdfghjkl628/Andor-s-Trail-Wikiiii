@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain42 is an indoor location in Andor's Trail. NPCs: Kazaul guardian. Enemies: Kazaul spawn, Kazaul imp. Exits to Blackwater mountain41."
+description: "Blackwater mountain42 is an indoor location in Andor's Trail. NPCs: Kazaul guardian. Enemies: Kazaul imp, Kazaul spawn. Exits to Blackwater mountain41."
 ---
 
 # Blackwater mountain42
@@ -51,8 +51,8 @@ description: "Blackwater mountain42 is an indoor location in Andor's Trail. NPCs
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Kazaul spawn](../monsters/kazaul_spawn.md) | 45 | 3–5 | 6 | – |
 | [Kazaul imp](../monsters/kazaul_imp.md) | 45 | 3–7 | 8 | – |
+| [Kazaul spawn](../monsters/kazaul_spawn.md) | 45 | 3–5 | 6 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -70,9 +70,9 @@ description: "Blackwater mountain42 is an indoor location in Andor's Trail. NPCs
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

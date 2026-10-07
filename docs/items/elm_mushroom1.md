@@ -29,7 +29,7 @@ description: "Boletus spelunca is a rare food in Andor's Trail. How to get it: c
 | Stat | Value |
 |---|---|
 | Heal HP | 18 to 20 |
-| On self | Nausea (magnitude -99, 75 rounds, 100% chance); Sustenance (magnitude 1, 30 rounds, 100% chance); Confusion (magnitude -99, 10 rounds, 50% chance) |
+| On self | immunity to [Nausea](../conditions/nausea.md) for 75 rounds; [Sustenance](../conditions/food.md) (magnitude 1, 30 rounds); immunity to [Confusion](../conditions/confusion.md) for 10 rounds (50% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

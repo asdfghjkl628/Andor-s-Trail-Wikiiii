@@ -40,7 +40,7 @@ description: "Thieves' cloak of whispers is a rare armor, cloth in Andor's Trail
 
 | Stat | Value |
 |---|---|
-| On self | Minor speed (magnitude 1, 3 rounds, 10% chance) |
+| On self | [Minor speed](../conditions/speed_minor.md) (magnitude 1, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -59,7 +59,7 @@ description: "Thieves' cloak of whispers is a rare armor, cloth in Andor's Trail
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | name: Thieve's cloak of whispers → Thieves' cloak of whispers |
+| [v0.8.8](../versions/0.8.8.md) | Renamed “Thieve's cloak of whispers” → “Thieves' cloak of whispers” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

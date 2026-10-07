@@ -45,7 +45,7 @@ description: "Plague groundberry is an enemy in Andor's Trail (construct) with 1
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Weak Poison (magnitude 4, 3 rounds, 50% chance); Spore contagion (magnitude 1, 3 rounds, 15% chance); Nausea (magnitude 2, 2 rounds, 25% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 4, 3 rounds, 50% chance); [Spore contagion](../conditions/contagion2.md) (magnitude 1, 3 rounds, 15% chance); [Nausea](../conditions/nausea.md) (magnitude 2, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -45,9 +45,9 @@ description: "Glowing mudfiend is an enemy in Andor's Trail (construct) with 132
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Bleeding wound (magnitude 3, 3 rounds, 15% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 3 rounds, 15% chance)
 
-**When hit:** On target: Nausea (magnitude 3, 3 rounds, 20% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

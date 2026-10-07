@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake13a is an outdoor location in Andor's Trail, near Remgard (settlement). NPCs: Bridge lookout. Enemies: Turtle, Fish, Jellyfish. Exits to Mountainlake13, Mountainlake15, Mountainlake16, Remgard0."
+description: "Mountainlake13a is an outdoor location in Andor's Trail, near Remgard (settlement). NPCs: Bridge lookout. Enemies: Fish, Jellyfish. Exits to Mountainlake13, Mountainlake15, Mountainlake16, Remgard0."
 ---
 
 # Mountainlake13a
@@ -59,16 +59,16 @@ description: "Mountainlake13a is an outdoor location in Andor's Trail, near Remg
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Turtle |
 | [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 3 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid |
 | [Mountain wolf pup](../monsters/mwolf_1.md) | 45 | 2–7 | 1 | shares spawn with Young mountain fox, Young mountain wolf |
 | [Young mountain wolf](../monsters/mwolf_2.md) | 52 | 3–7 | 1 | shares spawn with Mountain wolf pup, Young mountain fox |
 | [Young mountain fox](../monsters/mwolf_3.md) | 56 | 3–7 | 1 | shares spawn with Mountain wolf pup, Young mountain wolf |
@@ -92,11 +92,11 @@ description: "Mountainlake13a is an outdoor location in Andor's Trail, near Remg
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -44,9 +44,9 @@ description: "Crackshot is an NPC who can also be fought in Andor's Trail, found
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On self: Combo (magnitude 1, 1 rounds, 25% chance)
+**On hit:** On self: [Combo](../conditions/g03_combo.md) (magnitude 1, 1 round, 25% chance)
 
-**When hit:** On self: Concentration (magnitude 1, 2 rounds, 33% chance)
+**When hit:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 33% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

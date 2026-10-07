@@ -31,7 +31,7 @@ description: "Valugha's gloves is a extraordinary gloves, cloth in Andor's Trail
 | Use item cost | -1 |
 | Attack chance | +12 |
 | Block chance | +10 |
-| Grants | Clumsiness () |
+| Grants | [Clumsiness](../conditions/clumsiness.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -49,7 +49,7 @@ description: "Arulir skin gloves is a ordinary gloves, leather in Andor's Trail 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.17](../versions/0.7.17.md) | equipEffect: {"increaseAttackChance": -3, "increaseB… → {"increaseAttackChance": -3, "increaseB… |
+| [v0.7.17](../versions/0.7.17.md) | When equipped, block chance: +7 → +8 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

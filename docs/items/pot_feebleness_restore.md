@@ -26,7 +26,7 @@ description: "Restore weapon feebleness is a ordinary potion in Andor's Trail. H
 
 | Stat | Value |
 |---|---|
-| On self | Minor weapon feebleness (magnitude -99, 100% chance); Stunned (magnitude 1, 6 rounds, 15% chance) |
+| On self | removes [Minor weapon feebleness](../conditions/feebleness_minor.md); [Stunned](../conditions/stunned.md) (magnitude 1, 6 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

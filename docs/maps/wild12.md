@@ -1,5 +1,5 @@
 ---
-description: "Wild12 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit. Enemies: Forest wasp, Wild boar, Forest serpent. Exits to Wild13, Bogsten5, Gapfiller1, Fallhaven south-east."
+description: "Wild12 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit. Enemies: Forest wasp, Forest serpent, Wild boar. Exits to Wild13, Bogsten5, Gapfiller1, Fallhaven south-east."
 ---
 
 # Wild12
@@ -64,8 +64,8 @@ East: Nor City”">6</a></div>
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
-| [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 2 | – |
+| [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -79,9 +79,9 @@ East: Nor City”">6</a></div>
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

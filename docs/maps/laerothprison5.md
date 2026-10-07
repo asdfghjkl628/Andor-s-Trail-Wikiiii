@@ -53,8 +53,8 @@ description: "Laerothprison5 is an indoor location in Andor's Trail. NPCs: Dark 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Lesser wight](../monsters/wight_lesser.md#v-wight_lesser5b) | 130 | 1–13 | 5 | – |
 | [Lesser wight](../monsters/wight_lesser.md#v-wight_lesser5) | 130 | 1–13 | 17 | – |
+| [Lesser wight](../monsters/wight_lesser.md#v-wight_lesser5b) | 130 | 1–13 | 5 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

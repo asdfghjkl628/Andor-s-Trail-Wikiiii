@@ -41,7 +41,7 @@ description: "Cave jelly is an enemy in Andor's Trail (animal) with 30 HP, worth
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Major sting (magnitude 1, 5 rounds, 25% chance)
+**On hit:** On target: [Major sting](../conditions/sting_major.md) (magnitude 1, 5 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

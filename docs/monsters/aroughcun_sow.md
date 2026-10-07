@@ -41,7 +41,7 @@ description: "Sow aroughcun is an enemy in Andor's Trail (animal) with 175 HP, w
 | Critical multiplier | 2.5 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Rabies (magnitude 2, 2 rounds, 30% chance)
+**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 2, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

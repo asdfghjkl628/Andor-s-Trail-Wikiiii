@@ -41,9 +41,9 @@ description: "Undead Kamelio is an enemy in Andor's Trail (undead) with 304 HP, 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 15% |
 
-**On hit:** Heal HP: 0 to 6; On target: Bleeding wound (magnitude 4, 4 rounds, 30% chance)
+**On hit:** Heal HP: 0 to 6; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 4, 4 rounds, 30% chance)
 
-**When hit:** On target: Nausea (magnitude 4, 2 rounds, 30% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 4, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

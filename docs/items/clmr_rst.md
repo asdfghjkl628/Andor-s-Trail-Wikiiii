@@ -37,7 +37,7 @@ description: "Rusty claymore is a ordinary two-handed sword in Andor's Trail (At
 | Damage resistance | -1 |
 | Critical multiplier | 1.2 |
 | setNonWeaponDamageModifier | +155 |
-| Grants | Dazed (magnitude 1) |
+| Grants | [Dazed](../conditions/dazed.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -56,8 +56,8 @@ description: "Rusty claymore is a ordinary two-handed sword in Andor's Trail (At
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | equipEffect: {"addedConditions": [{"condition": "daz… → {"addedConditions": [{"condition": "daz… |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"addedConditions": [{"condition": "daz… → {"addedConditions": [{"condition": "daz… |
+| [v0.7.2](../versions/0.7.2.md) | When equipped, critical multiplier: 1.2 → 1.2 |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (155) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

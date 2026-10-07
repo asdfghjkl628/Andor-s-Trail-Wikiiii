@@ -247,8 +247,8 @@ Start with stepping on a trigger on [debugmap](../maps/debugmap.md). Required:
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line added |
 | [v0.8.15](../versions/0.8.15.md) | Added<br>Dialogue: 1 line changed |
-| [v0.8.16.1](../versions/0.8.16.1.md) | journal visibility changed; stages added: 10, 20, 30, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 112, 113, 115, 117, 118, 122, 123, 125, 127, 128, 132, 133, 135, 137, 138<br>Dialogue: 30 lines added |
-| [v0.8.17](../versions/0.8.17.md) | journal visibility changed; stages added: 11, 21, 31, 41, 51 |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Journal visibility changed<br>Stages added: 10, 20, 30, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 112, 113, 115, 117, 118, 122, 123, 125, 127, 128, 132, 133, 135, 137, 138<br>Dialogue: 30 lines added |
+| [v0.8.17](../versions/0.8.17.md) | Journal visibility changed<br>Stages added: 11, 21, 31, 41, 51 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -44,13 +44,13 @@ description: "Heartsteel claymore is a legendary two-handed sword in Andor's Tra
 
 | Stat | Value |
 |---|---|
-| On target | Heartstone poisoning (magnitude 4, 2 rounds, 10% chance) |
+| On target | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 10% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 4, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -372,7 +372,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “(Vacor opens the sealed message and starts reading)” → “[Vacor opens the sealed message and starts reading]”<br>· text: “Ok, find the four pieces of my rift spell that the bandits took, and …” → “OK, find the four pieces of my rift spell that the bandits took, and …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “What are you, some kind of adventurer? Hm. Maybe you can be of use to…” → “What are you, some kind of adventurer? Hmm. Maybe you can be of use t…”<br>· text: “After years of work, I can't seem to remember the last parts of the s…” → “After years of work, I can't seem to remember the last parts of the s…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

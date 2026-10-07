@@ -38,7 +38,7 @@ description: "Shield of dark reflections is a extraordinary shield, metal (heavy
 
 | Stat | Value |
 |---|---|
-| On target | Fear (magnitude 1, 4 rounds, 18% chance) |
+| On target | [Fear](../conditions/fear.md) (magnitude 1, 4 rounds, 18% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

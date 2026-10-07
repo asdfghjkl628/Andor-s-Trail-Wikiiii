@@ -39,7 +39,7 @@ description: "Shadowstalker is a extraordinary armor (heavy) in Andor's Trail (A
 
 | Stat | Value |
 |---|---|
-| On target | Fear (magnitude 1, 5 rounds, 20% chance) |
+| On target | [Fear](../conditions/fear.md) (magnitude 1, 5 rounds, 20% chance) |
 
 ### On kill
 
@@ -66,7 +66,7 @@ description: "Shadowstalker is a extraordinary armor (heavy) in Andor's Trail (A
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Fear](../conditions/fear.md) (magnitude 1, 5 rounds, 20% chance) → (magnitude 1, 5 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

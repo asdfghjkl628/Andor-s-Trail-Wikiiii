@@ -41,7 +41,7 @@ description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403
 | Critical multiplier | 3.0 |
 | Critical hit chance | 19% |
 
-**On hit:** On target: Stunned (magnitude 1, 3 rounds, 20% chance)
+**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -69,8 +69,8 @@ description: "Arulir is an enemy in Andor's Trail (giant) with 325 HP, worth 403
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", … |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 5 → 4 |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 20% chance) → (magnitude 1, 3 rounds, 20% chance) |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 5 → 4 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

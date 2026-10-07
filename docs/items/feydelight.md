@@ -28,7 +28,7 @@ description: "Feydelight is a extraordinary food in Andor's Trail. How to get it
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 3, 35 rounds, 100% chance); Haste (magnitude 1, 15 rounds, 100% chance); Sweet tooth (magnitude 1, 10 rounds, 25% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 35 rounds); [Haste](../conditions/haste.md) (magnitude 1, 15 rounds); [Sweet tooth](../conditions/sweet_tooth.md) (magnitude 1, 10 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

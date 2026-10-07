@@ -41,7 +41,7 @@ description: "Fungi is an enemy in Andor's Trail (animal) with 25 HP, worth 83 X
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Spore poisoning (magnitude 1, 2 rounds, 10% chance)
+**On hit:** On target: [Spore poisoning](../conditions/spore_poison.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

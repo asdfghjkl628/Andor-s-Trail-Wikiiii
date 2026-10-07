@@ -41,7 +41,7 @@ description: "Hardshell plaguestrider is an enemy in Andor's Trail (insect) with
 | Critical multiplier | 3.0 |
 | Critical hit chance | 29% |
 
-**On hit:** On target: Insect contagion (magnitude 5, 5 rounds, 70% chance); Blistering skin (magnitude 4, 5 rounds, 20% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 5, 5 rounds, 70% chance); [Blistering skin](../conditions/blister.md) (magnitude 4, 5 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -74,7 +74,7 @@ description: "Hardshell plaguestrider is an enemy in Andor's Trail (insect) with
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 70, "c… → {"conditionsTarget": [{"chance": "70", …; name: Hardshell Plaguestrider → Hardshell plaguestrider |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Blistering skin](../conditions/blister.md) (magnitude 4, 5 rounds, 20% chance) → (magnitude 4, 5 rounds, 20% chance)<br>On hit, condition on target: [Insect contagion](../conditions/contagion.md) (magnitude 5, 5 rounds, 70% chance) → (magnitude 5, 5 rounds, 70% chance)<br>Renamed “Hardshell Plaguestrider” → “Hardshell plaguestrider” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

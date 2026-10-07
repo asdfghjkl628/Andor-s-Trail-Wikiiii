@@ -52,7 +52,7 @@ description: "Hunter's knife is a ordinary shortsword in Andor's Trail (Attack d
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | equipEffect: {"increaseAttackChance": 16, "increaseA… → {"increaseAttackChance": 16, "increaseA… |
+| [v0.8.18](../versions/0.8.18.md) | When equipped, critical multiplier: added (3) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

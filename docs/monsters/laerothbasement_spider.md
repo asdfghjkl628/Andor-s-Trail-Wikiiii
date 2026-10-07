@@ -41,7 +41,7 @@ description: "Basement spider is an enemy in Andor's Trail (insect) with 90 HP, 
 | Critical multiplier | 1.0 |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Insect contagion (magnitude 4, 6 rounds, 40% chance); Spider bite (magnitude 1, 4 rounds, 15% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 6 rounds, 40% chance); [Spider bite](../conditions/spider_bite.md) (magnitude 1, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

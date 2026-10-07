@@ -35,7 +35,7 @@ description: "Elytharan redeemer is a legendary two-handed sword in Andor's Trai
 | Attack chance | +25 |
 | Block chance | +5 |
 | setNonWeaponDamageModifier | +123 |
-| Grants | Bless (magnitude 1) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -57,7 +57,7 @@ description: "Elytharan redeemer is a legendary two-handed sword in Andor's Trai
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"addedConditions": [{"condition": "ble… → {"addedConditions": [{"condition": "ble… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (123) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

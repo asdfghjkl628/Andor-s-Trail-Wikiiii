@@ -28,7 +28,7 @@ description: "Healthier worm meat is a ordinary edible animal part in Andor's Tr
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 6, 4 rounds, 100% chance); Food-poisoning (magnitude 5, 6 rounds, 22% chance); Strength (magnitude 2, 3 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 6, 4 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 5, 6 rounds, 22% chance); [Strength](../conditions/str.md) (magnitude 2, 3 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

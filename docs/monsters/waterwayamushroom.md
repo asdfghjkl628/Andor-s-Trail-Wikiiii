@@ -45,7 +45,7 @@ description: "Creeping fungus is an enemy in Andor's Trail (construct) with 65 H
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Spore contagion (magnitude 1, 4 rounds, 15% chance)
+**On hit:** On target: [Spore contagion](../conditions/contagion2.md) (magnitude 1, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

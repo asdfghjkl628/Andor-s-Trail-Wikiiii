@@ -39,7 +39,7 @@ description: "Quarterstaff is a ordinary quarterstaff in Andor's Trail (Attack d
 
 | Stat | Value |
 |---|---|
-| On target | Mind fog (magnitude 2, 4 rounds, 33% chance) |
+| On target | [Mind fog](../conditions/mind_fog.md) (magnitude 2, 4 rounds, 33% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

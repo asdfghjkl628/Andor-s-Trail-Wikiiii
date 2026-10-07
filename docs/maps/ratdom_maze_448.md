@@ -127,7 +127,7 @@ With a last breath he thanked me for my company and died in my arms.”) (+1 mor
 | Version | Change |
 |---|---|
 | [v0.8.5](../versions/0.8.5.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

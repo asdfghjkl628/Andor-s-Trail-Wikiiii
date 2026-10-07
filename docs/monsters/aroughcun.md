@@ -41,7 +41,7 @@ description: "Aroughcun is an enemy in Andor's Trail (animal) with 204 HP, worth
 | Critical multiplier | 2.75 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Rabies (magnitude 2, 2 rounds, 30% chance)
+**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 2, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

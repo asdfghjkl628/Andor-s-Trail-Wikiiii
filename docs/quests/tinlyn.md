@@ -12,7 +12,7 @@ description: "Lost sheep is a quest in Andor's Trail, started by Tinlyn (fields6
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 31, 60) |
 | **Started by** | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
-| **NPCs involved** | [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Tinlyn](../monsters/tinlyn.md) |
+| **NPCs involved** | [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Tinlyn](../monsters/tinlyn.md) |
 | **Locations** | [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md), [fields6](../maps/fields6.md) |
 | **Total XP** | 800 |
 | **Related quests** | 2 |
@@ -122,7 +122,7 @@ Start with [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)). Requ
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…” |
-| [v0.8.7](../versions/0.8.7.md) | stage 60 journal text changed |
+| [v0.8.7](../versions/0.8.7.md) | Stage 60 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

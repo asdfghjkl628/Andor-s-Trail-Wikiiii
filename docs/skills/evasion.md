@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | −5% flee failure and −5% chance of adjacent enemies attacking, per level ([abbreviations](../glossary.md)) |
 | **Category** | Defense |
 | **Max level** | 4 |
 | **Obtained via** | Skill points |

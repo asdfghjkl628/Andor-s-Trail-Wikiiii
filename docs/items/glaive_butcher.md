@@ -43,7 +43,7 @@ description: "Glaive of Imeria is a extraordinary pole weapon in Andor's Trail (
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 2, 4 rounds, 20% chance); Internal bleeding (magnitude 1, 3 rounds, 7% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 4 rounds, 20% chance); [Internal bleeding](../conditions/crit1.md) (magnitude 1, 3 rounds, 7% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -68,7 +68,7 @@ description: "Glaive of Imeria is a extraordinary pole weapon in Andor's Trail (
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.16.1](../versions/0.8.16.1.md) | description: Shiny, and sharp! → Shiny, and sharp, carries a long histor…; equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 15, "increaseA…; name: Glaive of the butcher → Glaive of Imeria |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Description text changed<br>When equipped, non-weapon damage modifier (%): 158 → 137<br>Renamed “Glaive of the butcher” → “Glaive of Imeria” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

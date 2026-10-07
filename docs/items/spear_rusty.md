@@ -52,7 +52,7 @@ description: "Rusty iron spear is a ordinary pole weapon in Andor's Trail (Attac
 | Version | Change |
 |---|---|
 | [v0.7.12](../versions/0.7.12.md) | Added |
-| [v0.7.13](../versions/0.7.13.md) | equipEffect: {"increaseAttackCost": 6, "increaseAtta… → {"increaseAttackChance": 9, "increaseAt… |
+| [v0.7.13](../versions/0.7.13.md) | When equipped, attack chance: added (+9) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

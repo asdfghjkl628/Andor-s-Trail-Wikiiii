@@ -41,7 +41,7 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Insect contagion (magnitude 6, 5 rounds, 65% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 6, 5 rounds, 65% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

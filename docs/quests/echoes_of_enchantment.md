@@ -12,7 +12,7 @@ description: "Echoes of enchantment is a quest in Andor's Trail, started by step
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 14) |
 | **Started by** | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
-| **NPCs involved** | [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md) |
+| **NPCs involved** | [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Godelieve](../monsters/village_godelieve.md) |
 | **Locations** | [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md) |
 | **Total XP** | 5,200 |
 | **Related quests** | 1 |
@@ -146,7 +146,7 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 | Version | Change |
 |---|---|
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.13](../versions/0.8.13.md) | stage 1 journal text changed |
+| [v0.8.13](../versions/0.8.13.md) | Stage 1 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

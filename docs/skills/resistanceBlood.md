@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | −10% chance of blood conditions per level ([abbreviations](../glossary.md)) |
 | **Category** | Immunity |
 | **Max level** | 7 |
 | **Obtained via** | Skill points |
@@ -22,6 +23,8 @@ Lowers the chance of being afflicted with disorders of the blood by 10 % for eve
 No requirements: any skill point can go here.
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
+See [Conditions](../conditions/index.md#categories-and-resistance) for the conditions this skill affects.
 
 ## Unlocks
 

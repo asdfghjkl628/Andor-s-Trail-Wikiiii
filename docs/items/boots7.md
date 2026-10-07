@@ -39,7 +39,7 @@ description: "Iced leather boots is a ordinary footwear, leather in Andor's Trai
 | Attack chance | -9 |
 | Block chance | +6 |
 | Damage resistance | 0 |
-| Grants | Minor freeze (magnitude 1) |
+| Grants | [Minor freeze](../conditions/frozen1.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

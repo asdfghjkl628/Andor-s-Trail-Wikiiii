@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Hello there. You wouldn't happen to want to help an old shepherd do y…” → “Hello there. You wouldn't happen to want to help an old shepherd woul…”<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…”<br>· text: “Hello there. You wouldn't happen to want to help an old shepherd do y…” → “Hello there. You wouldn't happen to want to help an old shepherd woul…” |
 | [v0.8.10](../versions/0.8.10.md) | Dialogue: 4 lines added, 3 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

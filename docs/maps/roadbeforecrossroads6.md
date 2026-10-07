@@ -1,5 +1,5 @@
 ---
-description: "Roadbeforecrossroads6 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Agthor, Agthor's guard, Feygard soldier. Enemies: Wild fox, Vicious forest serpent, Young forest fox, Anklebiter, Forest fox. Exits to Roadbeforecrossroads7, Waytominingtown0, Roadbeforecrossroads5."
+description: "Roadbeforecrossroads6 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Agthor, Agthor's guard, Feygard soldier. Enemies: Wild fox, Vicious forest serpent, Anklebiter, Young forest fox, Forest fox. Exits to Roadbeforecrossroads7, Waytominingtown0, Roadbeforecrossroads5."
 ---
 
 # Roadbeforecrossroads6
@@ -70,8 +70,8 @@ East: Nor City”">7</a><a class="pin pin-sign" href="#key-8" style="left:42.500
 |---|---|---|---|---|
 | [Wild fox](../monsters/wild_fox.md) | 25 | 4–5 | 1 | – |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 | 3–4 | 2 | – |
-| [Young forest fox](../monsters/forestfox2.md) | 31 | 0–5 | 4 | shares spawn with Forest fox |
 | [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 1 | – |
+| [Young forest fox](../monsters/forestfox2.md) | 31 | 0–5 | 4 | shares spawn with Forest fox |
 | [Forest fox](../monsters/forestfox3.md) | 35 | 0–5 | 4 | shares spawn with Young forest fox |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -98,11 +98,11 @@ East: Nor City”">7</a><a class="pin pin-sign" href="#key-8" style="left:42.500
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

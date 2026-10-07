@@ -30,7 +30,7 @@ description: "Blackwater leather armor is a rare armor, leather in Andor's Trail
 |---|---|
 | Block chance | +25 |
 | Damage resistance | +1 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -49,7 +49,7 @@ description: "Blackwater leather armor is a rare armor, leather in Andor's Trail
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.8](../versions/0.7.8.md) | name: Blackwater leather armour → Blackwater leather armor |
+| [v0.7.8](../versions/0.7.8.md) | Renamed “Blackwater leather armour” → “Blackwater leather armor” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

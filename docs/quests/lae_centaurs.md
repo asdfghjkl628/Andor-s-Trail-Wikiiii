@@ -12,7 +12,7 @@ description: "Not Pony Island is a quest in Andor's Trail, started by Orion, the
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 310) |
 | **Started by** | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)), [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) |
-| **NPCs involved** | [Algangror](../monsters/algangror.md#v-lae_algangror2), [Algangror](../monsters/algangror.md#v-lae_algangror1), [Algangror](../monsters/algangror.md#v-lae_algangror3), [Andor](../monsters/dds_andor.md#v-lae_andor2), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld3) +5 |
+| **NPCs involved** | [Algangror](../monsters/algangror.md#v-lae_algangror2), [Algangror](../monsters/algangror.md#v-lae_algangror3), [Algangror](../monsters/algangror.md#v-lae_algangror1), [Andor](../monsters/dds_andor.md#v-lae_andor2), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld2) +5 |
 | **Locations** | [final_cave1](../maps/final_cave1.md), [final_cave2](../maps/final_cave2.md), [island1](../maps/island1.md), [island2](../maps/island2.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |

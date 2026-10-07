@@ -26,7 +26,7 @@ description: "Restore fear is a ordinary potion in Andor's Trail. How to get it:
 
 | Stat | Value |
 |---|---|
-| On self | Fear (magnitude -99, 100% chance); Dazed (magnitude 1, 5 rounds, 20% chance) |
+| On self | removes [Fear](../conditions/fear.md); [Dazed](../conditions/dazed.md) (magnitude 1, 5 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

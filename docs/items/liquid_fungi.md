@@ -28,7 +28,7 @@ description: "Fungi potion is a extraordinary potion in Andor's Trail. How to ge
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 5, 15 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 5, 15 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

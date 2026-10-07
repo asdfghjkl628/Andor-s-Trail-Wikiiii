@@ -1,5 +1,5 @@
 ---
-description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Enemies: Grazing horse, Farm horse. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
+description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Enemies: Farm horse, Grazing horse. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
 ---
 
 # Sullengard apple farm east
@@ -58,10 +58,10 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Grazing horse](../monsters/graze_horse_left.md) | 0 | 0–0 | 1 | – |
-| [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right) | 0 | 0–0 | 1 | – |
 | [Farm horse](../monsters/farm_horse.md#v-farm_horse_right) | 0 | 0–0 | 1 | – |
 | [Farm horse](../monsters/farm_horse.md) | 0 | 0–0 | 1 | – |
+| [Grazing horse](../monsters/graze_horse_left.md) | 0 | 0–0 | 1 | – |
+| [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right) | 0 | 0–0 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -82,7 +82,7 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | map layout or objects changed |
+| [v0.8.4](../versions/0.8.4.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

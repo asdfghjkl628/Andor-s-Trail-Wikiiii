@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Hm, let me see.” → “Hmm, let me see.”<br>· text: “I know .. a great deal of things.” → “I know ... a great deal of things.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

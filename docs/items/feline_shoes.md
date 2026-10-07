@@ -31,7 +31,7 @@ description: "Feline shoes is a rare footwear, cloth in Andor's Trail (Move cost
 | Re-equip cost | -1 |
 | Attack chance | +15 |
 | Block chance | +10 |
-| Grants | Clumsiness (magnitude 1) |
+| Grants | [Clumsiness](../conditions/clumsiness.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

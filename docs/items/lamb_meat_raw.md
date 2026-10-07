@@ -27,7 +27,7 @@ description: "Raw lamb meat is a ordinary food in Andor's Trail. How to get it: 
 | Stat | Value |
 |---|---|
 | Heal HP | 5 |
-| On self | Sustenance (magnitude 2, 10 rounds, 100% chance); Food-poisoning (magnitude 2, 12 rounds, 25% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 10 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 2, 12 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

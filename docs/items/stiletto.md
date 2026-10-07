@@ -40,7 +40,7 @@ description: "Stiletto is a ordinary dagger in Andor's Trail (Attack damage 1 to
 
 | Stat | Value |
 |---|---|
-| On self | Minor speed (magnitude 2, 2 rounds, 5% chance) |
+| On self | [Minor speed](../conditions/speed_minor.md) (magnitude 2, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -60,8 +60,8 @@ description: "Stiletto is a ordinary dagger in Andor's Trail (Attack damage 1 to
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.8](../versions/0.7.8.md) | killEffect: {"conditionsSource": [{"chance": "5", "… → {"conditionsSource": [{"chance": "5", "… |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 17, "increaseA… → {"increaseAttackChance": 17, "increaseA… |
+| [v0.7.8](../versions/0.7.8.md) | On kill, condition on self: [Minor speed](../conditions/speed_minor.md) (magnitude 2, 1 rounds, 5% chance) → (magnitude 2, 2 rounds, 5% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (105) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

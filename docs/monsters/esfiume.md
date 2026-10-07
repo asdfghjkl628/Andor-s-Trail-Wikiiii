@@ -59,7 +59,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Oh, we .. um .. stay here. Completely legit. Not at all doing anythin…” → “Oh, we ... um ... stay here. Completely legit. Not at all doing anyth…”<br>· text: “Oh nothing. They're .. uh .. empty. Yes, that's it, empty.” → “Oh nothing. They're ... uh ... empty. Yes, that's it, empty.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “These aren't even our things. We are only .. uh .. standing around he…” → “These aren't even our things. We are only ... uh ... standing around …”<br>· text: “Oh, we .. um .. stay here. Completely legit. Not at all doing anythin…” → “Oh, we ... um ... stay here. Completely legit. Not at all doing anyth…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

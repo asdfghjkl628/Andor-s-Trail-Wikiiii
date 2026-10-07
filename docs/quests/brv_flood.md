@@ -169,9 +169,9 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 15 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 30 journal text changed; stage 50 journal text changed; stage 52 journal text changed; stage 54 journal text changed; stage 70 journal text changed (+4 more) |
-| [v0.7.13](../versions/0.7.13.md) | stages added: 53<br>Dialogue: 1 line added, 1 line changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
-| [v0.8.14](../versions/0.8.14.md) | stage 100 journal text changed; stage 110 journal text changed |
+| [v0.7.12](../versions/0.7.12.md) | Stage 10 journal text changed<br>Stage 30 journal text changed<br>Stage 50 journal text changed<br>Stage 52 journal text changed<br>Stage 54 journal text changed<br>Stage 70 journal text changed<br>Stage 72 journal text changed<br>Stage 100 journal text changed<br>Stage 110 journal text changed<br>Stage 200 journal text changed |
+| [v0.7.13](../versions/0.7.13.md) | Stages added: 53<br>Dialogue: 1 line added, 1 line changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.8.14](../versions/0.8.14.md) | Stage 100 journal text changed<br>Stage 110 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

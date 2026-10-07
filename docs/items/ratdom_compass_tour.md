@@ -30,7 +30,7 @@ Watch out for orange shields, but don't neglect the yellow shields.
 
 | Stat | Value |
 |---|---|
-| Grants | Confusion (magnitude 1) |
+| Grants | [Confusion](../conditions/confusion.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -30,7 +30,7 @@ description: "Elytharan tabi is a extraordinary footwear, cloth in Andor's Trail
 | Move cost | -1 |
 | Attack chance | +4 |
 | Block chance | +18 |
-| Grants | Bless (magnitude 1) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

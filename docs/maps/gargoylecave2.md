@@ -1,5 +1,5 @@
 ---
-description: "Gargoylecave2 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Shadow gargoyle trainer, Shadow gargoyle master, Fledgling shadow gargoyle, Tough shadow gargoyle. Exits to Gargoylecave4, Gargoylecave1, Gargoylecave3."
+description: "Gargoylecave2 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Shadow gargoyle master, Shadow gargoyle trainer, Fledgling shadow gargoyle, Tough shadow gargoyle. Exits to Gargoylecave4, Gargoylecave1, Gargoylecave3."
 ---
 
 # Gargoylecave2
@@ -50,8 +50,8 @@ description: "Gargoylecave2 is an indoor location in Andor's Trail. Enemies: You
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 | 3–9 | 1 | shares spawn with Fledgling shadow gargoyle |
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 5 | – |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 35 | 3–6 | 1 | – |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 5 | – |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 36 | 3–9 | 1 | shares spawn with Young shadow gargoyle |
 | [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 | 4–10 | 2 | shares spawn with Shadow gargoyle |
 | [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 | 4–10 | 2 | shares spawn with Tough shadow gargoyle |
@@ -64,11 +64,11 @@ description: "Gargoylecave2 is an indoor location in Andor's Trail. Enemies: You
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -26,7 +26,7 @@ description: "Major potion of speed is a rare potion in Andor's Trail. How to ge
 
 | Stat | Value |
 |---|---|
-| On self | Minor speed (magnitude 2, 5 rounds, 100% chance) |
+| On self | [Minor speed](../conditions/speed_minor.md) (magnitude 2, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

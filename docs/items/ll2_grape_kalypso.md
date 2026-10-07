@@ -26,7 +26,7 @@ description: "A single grape from Kalypso is a extraordinary food in Andor's Tra
 
 | Stat | Value |
 |---|---|
-| On self | Hero's body (magnitude 1, 2 rounds, 100% chance) |
+| On self | [Hero's body](../conditions/heros_body.md) (magnitude 1, 2 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

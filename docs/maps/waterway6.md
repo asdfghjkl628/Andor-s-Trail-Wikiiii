@@ -1,5 +1,5 @@
 ---
-description: "Waterway6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Sly Seraphina. Enemies: Strong larval burrower, Young erumen lizard, Izthiel, Spotted erumen lizard, Seraphina's bodyguard. Exits to Waterway15, Waterway5, Waterway7, Waytobrimhaven3."
+description: "Waterway6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Sly Seraphina. Enemies: Strong larval burrower, Young erumen lizard, Spotted erumen lizard, Izthiel, Strong izthiel. Exits to Waterway15, Waterway5, Waterway7, Waytobrimhaven3."
 ---
 
 # Waterway6
@@ -68,10 +68,10 @@ Southeast: Brightport”">6</a><a class="pin pin-key" href="#key-7" style="left:
 |---|---|---|---|---|
 | [Strong larval burrower](../monsters/burrower_3.md) | 44 | 1–25 | 2 | – |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 4 | – |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
-| [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 4 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 4 | – |
+| [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 54 | 3–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -92,12 +92,12 @@ Southeast: Brightport”">6</a><a class="pin pin-key" href="#key-7" style="left:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.4](../versions/0.7.4.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

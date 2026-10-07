@@ -70,7 +70,7 @@ description: "Lost soul is an enemy in Andor's Trail (ghost) with 15 HP, worth 3
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 10 → 9 |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

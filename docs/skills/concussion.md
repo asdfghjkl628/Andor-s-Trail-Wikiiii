@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | 15% chance to inflict Concussion when your AC exceeds the target's BC by 50+ ([abbreviations](../glossary.md)) |
 | **Category** | Offense |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

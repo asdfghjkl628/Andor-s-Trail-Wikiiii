@@ -1,5 +1,5 @@
 ---
-description: "Clearing level1 is an indoor location in Andor's Trail. Enemies: Hunting dog, Young wolf, Rabid wolf, Fledgling wolf. Exits to Clearing level2, Wild11 clearing."
+description: "Clearing level1 is an indoor location in Andor's Trail. Enemies: Hunting dog, Young wolf, Fledgling wolf, Rabid wolf. Exits to Clearing level2, Wild11 clearing."
 ---
 
 # Clearing level1
@@ -48,8 +48,8 @@ description: "Clearing level1 is an indoor location in Andor's Trail. Enemies: H
 |---|---|---|---|---|
 | [Hunting dog](../monsters/hunting_dog.md) | 25 | 2–5 | 12 | shares spawn with Young wolf |
 | [Young wolf](../monsters/young_wolf.md) | 35 | 2–5 | 12 | shares spawn with Hunting dog |
-| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 2 | shares spawn with Fledgling wolf |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 42 | 2–5 | 2 | shares spawn with Rabid wolf |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 2 | shares spawn with Fledgling wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -59,9 +59,9 @@ description: "Clearing level1 is an indoor location in Andor's Trail. Enemies: H
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

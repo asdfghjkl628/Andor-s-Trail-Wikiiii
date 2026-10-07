@@ -209,11 +209,11 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 22 lines added |
-| [v0.7.4](../versions/0.7.4.md) | stages added: 200, 210, 220<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Flagstone Prison was built four hundred years ago by house Gorland of…” → “Flagstone Prison was built four hundred years ago by house Gorland of…” |
-| [v0.7.11](../versions/0.7.11.md) | stages added: 230<br>Dialogue: 1 line added |
-| [v0.7.12](../versions/0.7.12.md) | stages added: 240<br>Dialogue: 3 lines added, 1 line changed |
+| [v0.7.4](../versions/0.7.4.md) | Stages added: 200, 210, 220<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Flagstone Prison was built four hundred years ago by house Gorland of…” → “Flagstone Prison was built four hundred years ago by house Gorland of…” |
+| [v0.7.11](../versions/0.7.11.md) | Stages added: 230<br>Dialogue: 1 line added |
+| [v0.7.12](../versions/0.7.12.md) | Stages added: 240<br>Dialogue: 3 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
-| [v0.8.11](../versions/0.8.11.md) | stages added: 250<br>Dialogue: 1 line added |
+| [v0.8.11](../versions/0.8.11.md) | Stages added: 250<br>Dialogue: 1 line added |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 1 line changed<br>· text: “However, recently more and more of the most foul monsters are coming …” → “However, recently more and more of the most foul monsters are coming …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -107,7 +107,7 @@ Start with [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](..
 | Version | Change |
 |---|---|
 | [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 9 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stage 41 journal text changed; stage 42 journal text changed; stage 51 journal text changed; stage 52 journal text changed; stage 61 journal text changed; stage 62 journal text changed (+3 more) |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stage 41 journal text changed<br>Stage 42 journal text changed<br>Stage 51 journal text changed<br>Stage 52 journal text changed<br>Stage 61 journal text changed<br>Stage 62 journal text changed<br>Stage 71 journal text changed<br>Stage 72 journal text changed<br>Stage 90 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

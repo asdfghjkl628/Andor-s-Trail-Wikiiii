@@ -58,7 +58,7 @@ description: "Bloodletter is a ordinary dagger in Andor's Trail (Attack damage 1
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 8, "increaseAt… → {"increaseAttackChance": 8, "increaseAt… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (99) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

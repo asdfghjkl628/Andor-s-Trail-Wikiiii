@@ -652,7 +652,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.14](../versions/0.7.14.md) | name: Prim bar regular → Jern; phraseID: prim_tavern_guest4 → prim_tavern_guest4_selector<br>Dialogue: 92 lines added, 1 line changed |
+| [v0.7.14](../versions/0.7.14.md) | Renamed “Prim bar regular” → “Jern”<br>Conversation changed<br>Dialogue: 92 lines added, 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 33 lines added, 3 lines changed<br>· text: “Look, you should leave this be. Maybe this is too shady for a kid lik…” → “Look, you should leave this be. This is too shady for a kid like you.”<br>· text: “Hah! What about the shady guy you mentioned?” → “What about that shady guy you mentioned?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |

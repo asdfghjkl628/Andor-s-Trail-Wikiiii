@@ -29,13 +29,13 @@ description: "Blackwater ring of combat is a rare ring in Andor's Trail (Attack 
 |---|---|
 | Attack damage | 0 to 7 |
 | Attack chance | +5 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 ### On hit
 
 | Stat | Value |
 |---|---|
-| On self | Regeneration (magnitude 1, 3 rounds, 20% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -54,7 +54,7 @@ description: "Blackwater ring of combat is a rare ring in Andor's Trail (Attack 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect added ({"conditionsSource": [{"chance": "20", …) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on self: added [Regeneration](../conditions/regen2.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

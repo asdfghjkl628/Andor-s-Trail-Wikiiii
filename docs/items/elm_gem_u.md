@@ -38,7 +38,7 @@ description: "Unknown gem (extracted from the Elm mine) is a quest gem in Andor'
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.7.17](../versions/0.7.17.md) | description: It is very cold and very sticky to the … → It is very cold and very sticky to the … |
+| [v0.7.17](../versions/0.7.17.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

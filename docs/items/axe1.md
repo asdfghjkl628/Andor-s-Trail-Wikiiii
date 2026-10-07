@@ -53,7 +53,7 @@ description: "Woodcutter's axe is a ordinary axe in Andor's Trail (Attack damage
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 5, "increaseAt… → {"increaseAttackChance": 5, "increaseAt…; name: Woodcutter axe → Woodcutter's axe |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, attack cost: +5 → +7<br>When equipped, attack damage: 1–3 → 6–12<br>When equipped, non-weapon damage modifier (%): added (187)<br>Renamed “Woodcutter axe” → “Woodcutter's axe” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
