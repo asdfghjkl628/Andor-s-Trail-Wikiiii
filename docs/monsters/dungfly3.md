@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles2_169.png){ .sprite } Vicious dungfly
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_169.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `dungfly3` |
+| **Type** | Enemy |
+| **Class** | Insect |
+| **HP** | 34 |
+| **XP when killed** | 96 |
+| **Found in** | Loneford |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | insect |
 | HP | 34 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 7 to 8 |
 | Attack chance | 75 |
 | Block chance | 45 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 10 |
 | Critical multiplier | 2.0 |
+| Crit chance | 9% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,13 +45,16 @@
 | [Gold coins](../items/gold.md) | 70% | 2 to 4 |
 | [Insect wing](../items/insectwing.md) | 30% | 1 |
 
-## Found on
+## Locations
 
-- [lodar11](../maps/lodar11.md)
-- [lodar2](../maps/lodar2.md)
-- [lodar3](../maps/lodar3.md)
-- [lodar4](../maps/lodar4.md)
-- [lodar9](../maps/lodar9.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodar11](../maps/lodar11.md) | – | 3 | – |
+| [lodar2](../maps/lodar2.md) | Loneford | 5 | – |
+| [lodar3](../maps/lodar3.md) | – | 1 | – |
+| [lodar4](../maps/lodar4.md) | – | 3 | – |
+| [lodar9](../maps/lodar9.md) | – | 2 | – |
+
 
 ## Version history
 
@@ -38,4 +65,66 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `dungfly3` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dungfly3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dungfly3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dungfly3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dungfly3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `dungfly3` |
+    | Spawn group | `forestfly2` |
+    | Loot table | `wasp` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_rltiles2:169` |
+    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "dungfly3",
+     "name": "Vicious dungfly",
+     "iconID": "monsters_rltiles2:169",
+     "maxHP": 34,
+     "moveCost": 5,
+     "monsterClass": "insect",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 7,
+      "max": 8
+     },
+     "spawnGroup": "forestfly2",
+     "droplistID": "wasp",
+     "attackCost": 3,
+     "attackChance": 75,
+     "criticalSkill": 10,
+     "criticalMultiplier": 2.0,
+     "blockChance": 45,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

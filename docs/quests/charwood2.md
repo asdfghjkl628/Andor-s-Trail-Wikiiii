@@ -27,6 +27,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -54,6 +55,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 | <span id="stage-50"></span>50 | Maevalia was happy to hear that I killed the source of the monster invasion. **(completes quest)** | [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) | stage 40 | 7,000 XP<br>gives [Gold coins](../items/gold.md)<br>gives [Worn iron boots](../items/hboot_wirn.md), [Ring of surehit](../items/ring_atkch1.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -87,6 +89,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -95,6 +98,7 @@ Start with [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -27,6 +27,7 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +57,7 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 | <span id="stage-30"></span>30 | Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power. **(completes quest)** | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | 2,449 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -75,6 +77,7 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -82,6 +85,7 @@ Start with [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 3 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

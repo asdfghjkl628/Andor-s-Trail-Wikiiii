@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 310) |
 | **Started by** | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)), [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) |
-| **NPCs involved** | [Algangror](../monsters/lae_algangror3.md), [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror1.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld1.md) +5 |
+| **NPCs involved** | [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror3.md), [Algangror](../monsters/lae_algangror1.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld1.md) +5 |
 | **Locations** | [final_cave1](../maps/final_cave1.md), [final_cave2](../maps/final_cave2.md), [island1](../maps/island1.md), [island2](../maps/island2.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |
@@ -25,6 +25,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -68,6 +69,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -150,6 +152,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -157,6 +160,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 19 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

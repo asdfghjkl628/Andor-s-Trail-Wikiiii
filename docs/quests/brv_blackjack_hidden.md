@@ -34,6 +34,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -69,6 +70,7 @@
 | <span id="stage-150"></span>150 | Allowed to enter backroom<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))<br>stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) | – | sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)<br>spawns monsters on brimhaven_tavern_west_back |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -125,6 +127,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -135,6 +138,7 @@
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

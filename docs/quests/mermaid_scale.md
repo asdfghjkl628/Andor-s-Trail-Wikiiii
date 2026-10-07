@@ -27,6 +27,7 @@ Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackw
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +52,7 @@ Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackw
 | <span id="stage-220"></span>220 | You found a heavy bag of gold.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower2](../maps/roadtocarntower2.md).</span> | stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) | stage 210 | gives 1000× [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -90,6 +92,7 @@ Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackw
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -99,6 +102,7 @@ Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackw
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “You found a heavy bag of gold. 1000 shining pieces of gold!” → “You found a heavy bag of gold. {1000} shining pieces of gold!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

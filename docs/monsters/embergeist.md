@@ -1,21 +1,48 @@
 # ![](../assets/icons/monsters/monsters_newb_1_658.png){ .sprite } Embergeist
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_658.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `embergeist` |
+| **Type** | Enemy |
+| **Class** | Construct |
+| **HP** | 266 |
+| **XP when killed** | 787 |
+| **Found in** | Mt. Galmore |
+| **Immune to crits** | Yes |
+| **Introduced** | [v0.8.14](../versions/0.8.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | construct |
 | HP | 266 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 4 |
 | Damage | 21 to 22 |
 | Attack chance | 150 |
 | Block chance | 219 |
 | Damage resistance | 9 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 4 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
+
+**When hit:** On target: Ablaze (magnitude 2, 5 rounds, 90% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -26,22 +53,25 @@
 | [Red Crystals](../items/crystal_red.md) | 10% | 1 |
 | [Garnet stone](../items/garnet_stone.md) | 8% | 1 |
 
-## Found on
+## Locations
 
-- [galmore_52](../maps/galmore_52.md)
-- [galmore_62](../maps/galmore_62.md)
-- [galmore_71](../maps/galmore_71.md)
-- [galmore_72](../maps/galmore_72.md)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md)
-- [undertell_3_lava_10](../maps/undertell_3_lava_10.md)
-- [undertell_4_00](../maps/undertell_4_00.md)
-- [undertell_4_01](../maps/undertell_4_01.md)
-- [undertell_4_10](../maps/undertell_4_10.md)
-- [undertell_4_11](../maps/undertell_4_11.md)
-- [undertell_7_00](../maps/undertell_7_00.md)
-- [undertell_7_01](../maps/undertell_7_01.md)
-- [undertell_7_10](../maps/undertell_7_10.md)
-- [undertell_7_11](../maps/undertell_7_11.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 1 | – |
+| [galmore_62](../maps/galmore_62.md) | Mt. Galmore | 14 | – |
+| [galmore_71](../maps/galmore_71.md) | – | 1 | – |
+| [galmore_72](../maps/galmore_72.md) | – | 8 | – |
+| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 1 | – |
+| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 1 | – |
+| [undertell_4_00](../maps/undertell_4_00.md) | – | 3 | – |
+| [undertell_4_01](../maps/undertell_4_01.md) | – | 8 | – |
+| [undertell_4_10](../maps/undertell_4_10.md) | – | 5 | – |
+| [undertell_4_11](../maps/undertell_4_11.md) | – | 4 | – |
+| [undertell_7_00](../maps/undertell_7_00.md) | – | 2 | – |
+| [undertell_7_01](../maps/undertell_7_01.md) | – | 3 | – |
+| [undertell_7_10](../maps/undertell_7_10.md) | – | 8 | – |
+| [undertell_7_11](../maps/undertell_7_11.md) | – | 3 | – |
+
 
 ## Version history
 
@@ -51,4 +81,72 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `embergeist` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=embergeist.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=embergeist.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=embergeist.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=embergeist.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `embergeist` |
+    | Spawn group | `embergeist` |
+    | Loot table | `embergeist_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_newb_1:658` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "embergeist",
+     "name": "Embergeist",
+     "iconID": "monsters_newb_1:658",
+     "maxHP": 266,
+     "moveCost": 4,
+     "monsterClass": "construct",
+     "attackDamage": {
+      "min": 21,
+      "max": 22
+     },
+     "droplistID": "embergeist_dl",
+     "attackCost": 5,
+     "attackChance": 150,
+     "blockChance": 219,
+     "damageResistance": 9,
+     "hitReceivedEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "fire",
+        "magnitude": 2,
+        "duration": 5,
+        "chance": "90"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

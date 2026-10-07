@@ -25,6 +25,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -75,6 +76,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | <span id="stage-200"></span>200 | I gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man. **(completes quest)** | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | hand over 1× [Alkapoans's letters](../items/alkapoans_letters.md), stage 110 | 1,000 XP<br>clears stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>removes monsters from brimhaven4<br>removes monsters from brimhaven3<br>removes monsters from brimhaven_house1<br>spawns monsters on brimhaven1<br>spawns monsters on brimhaven_house1 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -157,6 +159,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -167,6 +170,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | [v0.8.14](../versions/0.8.14.md) | stage 100 journal text changed; stage 110 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

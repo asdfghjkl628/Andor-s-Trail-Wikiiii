@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Highwayman
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `highwayman` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 54 |
+| **XP when killed** | 85 |
+| **Found in** | Fallhaven |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 54 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 2 to 4 |
 | Attack chance | 90 |
 | Block chance | 30 |
 | Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 50 |
 | Critical multiplier | 2.0 |
+| Crit chance | 26% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -20,9 +44,18 @@
 |---|---|---|
 | [Gold coins](../items/gold.md) | 70% | 4 to 41 |
 
-## Found on
+## Locations
 
-- [wild9](../maps/wild9.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [wild9](../maps/wild9.md) | Fallhaven | 1 | – |
+
+
+## Quests that count kills
+
+- [Unusual experiences and achievements](../quests/achievements.md#stage-20) with stepping on a trigger on [wild9](../maps/wild9.md) checks that you've killed at least 20
+- A conversation with [Highwayman](../monsters/sullengard_highwayman.md) ([way_to_sullengard_east9](../maps/way_to_sullengard_east9.md)) checks that you've killed at least 1
+
 
 ## Dialogue simulator
 
@@ -65,6 +98,7 @@ Set up your situation (quest stages, items, kills…), then talk to Highwayman. 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -86,4 +120,45 @@ Set up your situation (quest stages, items, kills…), then talk to Highwayman. 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=highwayman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `highwayman` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `highwayman` |
+    | Spawn group | `bandit1` |
+    | Loot table | `bandit1` |
+    | Conversation | `bandit1` |
+    | Faction | `fct_bandit1` |
+    | Movement | protectSpawn |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_wilderness.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "highwayman",
+     "name": "Highwayman",
+     "iconID": "monsters_men:8",
+     "maxHP": 54,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 2,
+      "max": 4
+     },
+     "spawnGroup": "bandit1",
+     "faction": "fct_bandit1",
+     "phraseID": "bandit1",
+     "droplistID": "bandit1",
+     "attackCost": 5,
+     "attackChance": 90,
+     "criticalSkill": 50,
+     "criticalMultiplier": 2.0,
+     "blockChance": 30,
+     "damageResistance": 2
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

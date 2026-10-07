@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_ld1_187.png){ .sprite } Venanra
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_187.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `brv_laundry_boss` |
+| **Type** | Shopkeeper |
+| **Class** | ? |
+| **HP** | 1 |
+| **Found in** | Brimhaven |
+| **Introduced** | [v0.7.11](../versions/0.7.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ? |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -20,9 +43,12 @@
 |---|---|---|
 | [Green dress](../items/green_dress.md) | 100% | 10 |
 
-## Found on
+## Locations
 
-- [brimhaven2_laundry](../maps/brimhaven2_laundry.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [brimhaven2_laundry](../maps/brimhaven2_laundry.md) | Brimhaven | 1 | – |
+
 
 ## Quests
 
@@ -128,9 +154,10 @@ Set up your situation (quest stages, items, kills…), then talk to Venanra. The
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
 | [v0.7.12](../versions/0.7.12.md) | name: Laundry owner → Venanra<br>Dialogue: 4 lines added, 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Improving a fine green hat costs 1,397 gold, fine snakeskin gloves co…” → “Improving a fine green hat costs {1397} gold, fine snakeskin gloves c…”<br>· text: “You don't have the required 1,397 gold to improve your fine green hat.” → “You don't have the required {1397} gold to improve your fine green ha…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “You don't have the required 1,397 gold to improve your fine green hat.” → “You don't have the required {1397} gold to improve your fine green ha…”<br>· text: “Improving a fine green hat costs 1,397 gold, fine snakeskin gloves co…” → “Improving a fine green hat costs {1397} gold, fine snakeskin gloves c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -153,4 +180,30 @@ Set up your situation (quest stages, items, kills…), then talk to Venanra. The
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_laundry_boss.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `brv_laundry_boss` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `brv_laundry_boss` |
+    | Spawn group | `brv_laundry_boss` |
+    | Loot table | `brv_laundry` |
+    | Conversation | `brv_laundry_boss_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:187` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_laundry_boss",
+     "name": "Venanra",
+     "iconID": "monsters_ld1:187",
+     "phraseID": "brv_laundry_boss_0",
+     "droplistID": "brv_laundry"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

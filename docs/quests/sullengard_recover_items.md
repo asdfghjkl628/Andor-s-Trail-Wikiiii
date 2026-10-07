@@ -28,6 +28,7 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -56,6 +57,7 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 | <span id="stage-70"></span>70 | Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold. **(completes quest)** | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), stage 60 | 3,800 XP<br>gives 15000× [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -91,6 +93,7 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -101,6 +104,7 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Well that's unfortunate that we cannot punish this individual. But ve…” → “Well that's unfortunate that we cannot punish this individual. But ve…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

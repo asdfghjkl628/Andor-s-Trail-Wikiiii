@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_tometik5_87.png){ .sprite } Tiqui
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_87.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `tiqui` |
+| **Type** | NPC |
+| **Class** | ? |
+| **HP** | 145 |
+| **XP when killed** | 306 |
+| **Found in** | lodar14 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ? |
 | HP | 145 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 0 to 9 |
 | Attack chance | 90 |
 | Block chance | 120 |
 | Damage resistance | 9 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Gold coins](../items/gold.md) | 100% | 50 to 150 |
 | [Polished ring](../items/ring2.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [lodar14](../maps/lodar14.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodar14](../maps/lodar14.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -164,9 +191,10 @@ Set up your situation (quest stages, items, kills…), then talk to Tiqui. The s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Tiqui knows smelly person with crates. [points in the direction to wh…” → “Tiqui knows smelly person with crates [points in the direction to whe…”<br>· text: “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…” → “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…” → “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…”<br>· text: “Tiqui knows smelly person with crates. [points in the direction to wh…” → “Tiqui knows smelly person with crates [points in the direction to whe…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -189,4 +217,42 @@ Set up your situation (quest stages, items, kills…), then talk to Tiqui. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tiqui.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `tiqui` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `tiqui` |
+    | Spawn group | `tiqui` |
+    | Loot table | `tiqui` |
+    | Conversation | `tiqui` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:87` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tiqui",
+     "name": "Tiqui",
+     "iconID": "monsters_tometik5:87",
+     "maxHP": 145,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "attackDamage": {
+      "min": 0,
+      "max": 9
+     },
+     "phraseID": "tiqui",
+     "droplistID": "tiqui",
+     "attackCost": 3,
+     "attackChance": 90,
+     "blockChance": 120,
+     "damageResistance": 9
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

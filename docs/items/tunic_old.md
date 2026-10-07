@@ -1,12 +1,27 @@
 # ![](../assets/icons/items/items_misc_3_160.png){ .sprite } Old tunic
-*Ordinary* · Armor, cloth · value 3 gold
+
+*Ordinary armor, cloth.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_misc_3_160.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `tunic_old` |
+| **Category** | Armor, cloth |
+| **Slot** | body |
+| **Rarity** | Ordinary |
+| **Base value** | 3 gold |
+| **Introduced** | [v0.7.2](../versions/0.7.2.md) |
+
+</div>
 
 > This is so old and damaged it's useless.
 
-**Slot:** body
+## Statistics
 
-
-## When equipped
+### When equipped
 
 | Stat | Value |
 |---|---|
@@ -16,6 +31,16 @@
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
+## How to get it
+
+### Quest & dialogue rewards
+
+- From stepping on a trigger on [waterwaya6](../maps/waterwaya6.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-130) (4×)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+
 ## Version history
 
 | Version | Change |
@@ -24,4 +49,55 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `tunic_old` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tunic_old.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tunic_old.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tunic_old.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tunic_old.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `tunic_old` |
+    | Category ID | `bdy_clth` |
+    | Icon | `items_misc_3:160` |
+    | Defined in | `res/raw/itemlist_graveyard1.json` |
+    | Loot tables containing it | – |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tunic_old",
+     "iconID": "items_misc_3:160",
+     "name": "Old tunic",
+     "baseMarketCost": 3,
+     "category": "bdy_clth",
+     "description": "This is so old and damaged it's useless.",
+     "equipEffect": {
+      "increaseMoveCost": 1,
+      "increaseAttackChance": 0,
+      "increaseBlockChance": 1
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

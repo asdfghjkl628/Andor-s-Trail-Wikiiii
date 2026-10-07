@@ -1,22 +1,44 @@
 # ![](../assets/icons/monsters/monsters_tometik1_84.png){ .sprite } Mutated harrowback
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_84.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `mutated_harrowback` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 197 |
+| **XP when killed** | 519 |
+| **Found in** | Mt. Galmore |
+| **Introduced** | [v0.8.14](../versions/0.8.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 197 |
-| Max AP | 14 |
-| Attack cost | 3 |
-| Move cost | 3 |
 | Damage | 10 to 13 |
 | Attack chance | 201 |
 | Block chance | 135 |
 | Damage resistance | 0 |
+| Max AP | 14 |
+| Attack cost | 3 AP |
+| Attacks per turn | 4 |
+| Move cost | 3 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## On hit
+**On hit:** Restore AP: 1
 
-- **Restore AP:** 1
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -26,14 +48,17 @@
 | [Gold coins](../items/gold.md) | 15% | 8 to 20 |
 | [Bone](../items/bone.md) | 25% | 1 to 2 |
 
-## Found on
+## Locations
 
-- [galmore_34](../maps/galmore_34.md)
-- [galmore_43](../maps/galmore_43.md)
-- [galmore_44](../maps/galmore_44.md)
-- [galmore_45](../maps/galmore_45.md)
-- [galmore_46](../maps/galmore_46.md)
-- [galmore_54](../maps/galmore_54.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [galmore_34](../maps/galmore_34.md) | Mt. Galmore | 3 | – |
+| [galmore_43](../maps/galmore_43.md) | Mt. Galmore | 2 | – |
+| [galmore_44](../maps/galmore_44.md) | Mt. Galmore | 12 | – |
+| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 14 | – |
+| [galmore_46](../maps/galmore_46.md) | Mt. Galmore | 7 | – |
+| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 3 | – |
+
 
 ## Version history
 
@@ -43,4 +68,68 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `mutated_harrowback` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mutated_harrowback.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mutated_harrowback.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mutated_harrowback.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mutated_harrowback.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `mutated_harrowback` |
+    | Spawn group | `mutated_harrowback` |
+    | Loot table | `harrowback_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik1:84` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "mutated_harrowback",
+     "name": "Mutated harrowback",
+     "iconID": "monsters_tometik1:84",
+     "maxHP": 197,
+     "maxAP": 14,
+     "moveCost": 3,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 10,
+      "max": 13
+     },
+     "droplistID": "harrowback_dl",
+     "attackCost": 3,
+     "attackChance": 201,
+     "blockChance": 135,
+     "hitEffect": {
+      "increaseCurrentAP": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

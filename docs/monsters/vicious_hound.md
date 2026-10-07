@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } Vicious hound
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `vicious_hound` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 31 |
+| **XP when killed** | 92 |
+| **Found in** | Foaming Flask Tavern, Stoutford, Prim |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 31 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 5 |
 | Damage | 3 to 9 |
 | Attack chance | 150 |
 | Block chance | 60 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,31 +47,34 @@
 | [Meat](../items/meat.md) | 30% | 1 |
 | [Leather boots](../items/boots1.md) | 5% | 1 |
 
-## Found on
+## Locations
 
-- [beekeeper2](../maps/beekeeper2.md)
-- [blackwater_mountain1](../maps/blackwater_mountain1.md)
-- [blackwater_mountain10](../maps/blackwater_mountain10.md)
-- [blackwater_mountain12](../maps/blackwater_mountain12.md)
-- [blackwater_mountain14](../maps/blackwater_mountain14.md)
-- [blackwater_mountain70](../maps/blackwater_mountain70.md)
-- [bwmfill1](../maps/bwmfill1.md)
-- [guynmart](../maps/guynmart.md)
-- [guynmart_wood_1](../maps/guynmart_wood_1.md)
-- [guynmart_wood_10](../maps/guynmart_wood_10.md)
-- [guynmart_wood_11](../maps/guynmart_wood_11.md)
-- [guynmart_wood_12](../maps/guynmart_wood_12.md)
-- [guynmart_wood_13](../maps/guynmart_wood_13.md)
-- [guynmart_wood_15](../maps/guynmart_wood_15.md)
-- [guynmart_wood_17](../maps/guynmart_wood_17.md)
-- [guynmart_wood_17b](../maps/guynmart_wood_17b.md)
-- [guynmart_wood_2](../maps/guynmart_wood_2.md)
-- [guynmart_wood_3](../maps/guynmart_wood_3.md)
-- [guynmart_wood_4](../maps/guynmart_wood_4.md)
-- [guynmart_wood_6](../maps/guynmart_wood_6.md)
-- [guynmart_wood_8](../maps/guynmart_wood_8.md)
-- [lake_shore_road_2](../maps/lake_shore_road_2.md)
-- [wild17](../maps/wild17.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [beekeeper2](../maps/beekeeper2.md) | Foaming Flask Tavern | 3 | – |
+| [blackwater_mountain1](../maps/blackwater_mountain1.md) | Stoutford | 3 | – |
+| [blackwater_mountain10](../maps/blackwater_mountain10.md) | Prim | 2 | – |
+| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 2 | – |
+| [blackwater_mountain14](../maps/blackwater_mountain14.md) | Blackwater Mountain | 2 | – |
+| [blackwater_mountain70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 3 | – |
+| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
+| [guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
+| [guynmart_wood_1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
+| [guynmart_wood_10](../maps/guynmart_wood_10.md) | Guynmart Castle | 1 | – |
+| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 3 | – |
+| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
+| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 4 | – |
+| [guynmart_wood_15](../maps/guynmart_wood_15.md) | – | 3 | – |
+| [guynmart_wood_17](../maps/guynmart_wood_17.md) | – | 3 | – |
+| [guynmart_wood_17b](../maps/guynmart_wood_17b.md) | – | 3 | – |
+| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 2 | – |
+| [guynmart_wood_3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
+| [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 1 | – |
+| [guynmart_wood_6](../maps/guynmart_wood_6.md) | Guynmart Castle | 3 | – |
+| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 5 | – |
+| [lake_shore_road_2](../maps/lake_shore_road_2.md) | Flagstone Prison | 2 | – |
+| [wild17](../maps/wild17.md) | Stoutford | 2 | – |
+
 
 ## Version history
 
@@ -57,4 +84,64 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `vicious_hound` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vicious_hound.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vicious_hound.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vicious_hound.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vicious_hound.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `vicious_hound` |
+    | Spawn group | `forestboar4` |
+    | Loot table | `canineboss` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:110` |
+    | Defined in | `res/raw/monsterlist_v069_monsters.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "vicious_hound",
+     "name": "Vicious hound",
+     "iconID": "monsters_rltiles2:110",
+     "maxHP": 31,
+     "maxAP": 10,
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "forestboar4",
+     "droplistID": "canineboss",
+     "attackCost": 5,
+     "attackChance": 150,
+     "blockChance": 60,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

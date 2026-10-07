@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_karvis2_3.png){ .sprite } Fulus
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_3.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `fulus` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Prim |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [blackwater_mountain28](../maps/blackwater_mountain28.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [blackwater_mountain28](../maps/blackwater_mountain28.md) | Prim | 1 | – |
+
 
 ## Quests
 
@@ -118,10 +144,11 @@ Set up your situation (quest stages, items, kills…), then talk to Fulus. The s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Thank you again. Now, let's see.. how much should we sell this dagger…” → “Thank you again. Now, let's see ... how much should we sell this dagg…”<br>· text: “Now, I happen to know that this particular dagger can be found in the…” → “Now, I happen to know that this particular dagger can be found in the…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Now, I happen to know that this particular dagger can be found in the…” → “Now, I happen to know that this particular dagger can be found in the…”<br>· text: “Thank you again. Now, let's see.. how much should we sell this dagger…” → “Thank you again. Now, let's see ... how much should we sell this dagg…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -144,4 +171,31 @@ Set up your situation (quest stages, items, kills…), then talk to Fulus. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fulus.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `fulus` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `fulus` |
+    | Spawn group | `fulus` |
+    | Loot table | – |
+    | Conversation | `fulus_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:3` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "fulus",
+     "name": "Fulus",
+     "iconID": "monsters_karvis2:3",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fulus",
+     "phraseID": "fulus_start"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

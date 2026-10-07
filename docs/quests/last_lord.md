@@ -27,6 +27,7 @@ Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -50,6 +51,7 @@ Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.
 | <span id="stage-70"></span>70 | The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | hand over 1× [Adakin's diary](../items/adakin_diary.md), hand over 1× [Key for Adakin's diary](../items/adakin_diary_key.md), stage 60 | 1,000 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -89,6 +91,7 @@ Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -96,6 +99,7 @@ Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 8 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

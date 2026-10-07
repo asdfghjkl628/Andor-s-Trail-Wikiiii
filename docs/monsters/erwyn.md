@@ -1,27 +1,58 @@
 # ![](../assets/icons/monsters/monsters_tometik8_46.png){ .sprite } Lord Erwyn
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_46.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `erwyn` |
+| **Type** | NPC |
+| **Class** | Undead |
+| **HP** | 110 |
+| **XP when killed** | 373 |
+| **Found in** | Flagstone Prison |
+| **Introduced** | [v0.7.2](../versions/0.7.2.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 110 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 13 to 22 |
 | Attack chance | 130 |
 | Block chance | 80 |
 | Damage resistance | 5 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 20 |
 | Critical multiplier | 3.0 |
+| Crit chance | 15% |
 
-## On hit
+**On hit:** Heal HP: 3; On target: Weak Poison (magnitude 2, 4 rounds, 40% chance)
 
-- **Heal HP:** 3
-- **On target:** Weak Poison (magnitude 2, 4 rounds, 40% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-## Found on
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
 
-- [stoutford_castle0](../maps/stoutford_castle0.md)
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [stoutford_castle0](../maps/stoutford_castle0.md) | Flagstone Prison | 1 | – |
+
+
+## Quests that count kills
+
+- A conversation with [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) checks that you've killed at least 1
+- A conversation with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) checks that you've killed at least 1
+- [Stoutford's old castle](../quests/stoutford_castle.md#stage-5) with stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) checks that you've killed at least 2
+
 
 ## Quests
 
@@ -95,6 +126,7 @@ Set up your situation (quest stages, items, kills…), then talk to Lord Erwyn. 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -116,4 +148,58 @@ Set up your situation (quest stages, items, kills…), then talk to Lord Erwyn. 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `erwyn` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `erwyn` |
+    | Spawn group | `erwyn` |
+    | Loot table | – |
+    | Conversation | `stoutford_castle_3` |
+    | Faction | – |
+    | Movement | helpOthers |
+    | Icon | `monsters_tometik8:46` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "erwyn",
+     "name": "Lord Erwyn",
+     "iconID": "monsters_tometik8:46",
+     "maxHP": 110,
+     "unique": 1,
+     "monsterClass": "undead",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 13,
+      "max": 22
+     },
+     "spawnGroup": "erwyn",
+     "phraseID": "stoutford_castle_3",
+     "attackCost": 5,
+     "attackChance": 130,
+     "criticalSkill": 20,
+     "criticalMultiplier": 3.0,
+     "blockChance": 80,
+     "damageResistance": 5,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 3,
+       "max": 3
+      },
+      "conditionsTarget": [
+       {
+        "condition": "poison_weak",
+        "magnitude": 2,
+        "duration": 4,
+        "chance": "40"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -1,114 +1,111 @@
 # ![](../assets/icons/items/items_misc_0.png){ .sprite } Glass gem
-*Ordinary* · Gem · value 2 gold
 
+*Ordinary gem.*
 
-## Dropped by
+<div class="infobox" markdown>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Ghost of Luthor](../monsters/ghost_of_luthor.md) | 100% | 1 |
-| [Glowing abcess](../monsters/fire1.md) | 100% | 1-3 |
-| [Blazing abcess](../monsters/fire2.md) | 100% | 1-3 |
-| [Lava spawn](../monsters/fire3.md) | 100% | 1-3 |
-| [Tough lava spawn](../monsters/fire4.md) | 100% | 1-3 |
-| [Glowing flame](../monsters/fire5.md) | 100% | 1-3 |
-| [Flame spawn](../monsters/fire6.md) | 100% | 1-3 |
-| [Walking flame](../monsters/fire7.md) | 100% | 1-3 |
-| [Walking inferno](../monsters/fire8.md) | 100% | 1-3 |
-| [Ancient walking inferno](../monsters/fire9.md) | 100% | 1-3 |
-| [Thukuzun](../monsters/thukuzun.md) | 100% | 1-3 |
-| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1-3 |
-| [Lava entity](../monsters/lava_entity.md) | 100% | 1-2 |
-| [Dark watch](../monsters/lae_demon4.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon4b.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon5.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon7.md) | 100% | 1 |
-| [Dark watch](../monsters/lae_demon9.md) | 100% | 1 |
-| [Beholder](../monsters/beholder.md) | 100% | 5-15 |
-| [Pyreling](../monsters/pyreling.md) | 100% | 1-2 |
-| [Erupting pyreling](../monsters/erupting_pyreling.md) | 100% | 1-2 |
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 5-15 |
-| [Spearborn thrall](../monsters/spearborn_thrall.md) | 75% | 1-2 |
-| [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 75% | 1-2 |
-| [Molten pyreling](../monsters/molten_pyreling.md) | 75% | 1-2 |
-| [Gruil](../monsters/ratdom_gruil.md) | 50% | 1 |
-| [Young larval burrower](../monsters/young_larval_burrower.md) | 30% | 1 |
-| [Larval burrower](../monsters/larval_burrower.md) | 30% | 1 |
-| [Basilisk](../monsters/basilisk.md) | 25% | 1 |
-| [Young teeth critter](../monsters/young_teeth_critter.md) | 25% | 1 |
-| [Teeth critter](../monsters/teeth_critter.md) | 25% | 1 |
-| [Lost spirit](../monsters/lost_spirit.md) | 25% | 1 |
-| [Lost soul](../monsters/lost_soul.md) | 25% | 1 |
-| [Haunting](../monsters/haunting.md) | 25% | 1 |
-| [Catacomb rat](../monsters/catacomb_rat.md) | 25% | 1 |
-| [Large catacomb rat](../monsters/large_catacomb_rat.md) | 25% | 1 |
-| [Large cave rat](../monsters/large_cave_rat.md) | 25% | 1 |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 20% | 1-5 |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 20% | 1-5 |
-| [Young erumen lizard](../monsters/erumen_1.md) | 10% | 1 |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 10% | 1 |
-| [Erumen lizard](../monsters/erumen_3.md) | 10% | 1 |
-| [Strong erumen lizard](../monsters/erumen_4.md) | 10% | 1 |
-| [Vile erumen lizard](../monsters/erumen_5.md) | 10% | 1 |
-| [Tough erumen lizard](../monsters/erumen_6.md) | 10% | 1 |
-| [Young erumen forest lizard](../monsters/erumen_8.md) | 10% | 1 |
-| [Erumen forest lizard](../monsters/erumen_9.md) | 10% | 1 |
-| [Erumen forest lizard matriarch](../monsters/erumen_10.md) | 10% | 1 |
-| [Strong cave rat](../monsters/strong_cave_rat.md) | 5% | 1 |
-| [Small rabid dog](../monsters/small_rabid_dog.md) | 5% | 1 |
-| [Rabid fox](../monsters/rabid_fox.md) | 5% | 1 |
-| [Wild fox](../monsters/wild_fox.md) | 5% | 1 |
-| [Wolf](../monsters/wolf.md) | 5% | 1 |
-| [Anklebiter](../monsters/anklebiter.md) | 5% | 1 |
-| [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 5% | 1 |
-| [Rabid hound](../monsters/rabid_hound.md) | 5% | 1 |
-| [Mountain wolf](../monsters/mountain_wolf.md) | 5% | 1 |
-| [Young carrion beetle](../monsters/cbeetle_1.md) | 5% | 1 |
-| [Carrion beetle](../monsters/cbeetle_2.md) | 5% | 1 |
-| [Young scaradon](../monsters/scaradon_1.md) | 5% | 1 |
-| [Small scaradon](../monsters/scaradon_2.md) | 5% | 1 |
-| [Scaradon](../monsters/scaradon_3.md) | 5% | 1 |
-| [Tough scaradon](../monsters/scaradon_4.md) | 5% | 1 |
-| [Hardshell scaradon](../monsters/scaradon_5.md) | 5% | 1 |
-| [Larval cave burrower](../monsters/burrower_1.md) | 5% | 1 |
-| [Cave burrower](../monsters/burrower_2.md) | 5% | 1 |
-| [Strong larval burrower](../monsters/burrower_3.md) | 5% | 1 |
-| [Giant larval burrower](../monsters/burrower_4.md) | 5% | 1 |
-| [Carrion centipede](../monsters/ccentip0.md) | 5% | 1 |
-| [Ravenous carrion centipede](../monsters/ccentip1.md) | 5% | 1 |
-| [Bloated carrion centipede](../monsters/ccentip2.md) | 5% | 1 |
-| [Young poisonous cave burrower](../monsters/caveburr1.md) | 5% | 1 |
-| [Infected larval cave burrower](../monsters/caveburr2.md) | 5% | 1 |
-| [Poisonous cave burrower](../monsters/caveburr3.md) | 5% | 1 |
-| [Strong poisonous cave burrower](../monsters/caveburr4.md) | 5% | 1 |
-| [Giant poisonous cave burrower](../monsters/caveburr5.md) | 5% | 1 |
-| [Hirathil spawn](../monsters/hirathil0.md) | 5% | 1 |
-| [Aggressive hirathil ghost](../monsters/hirathil1.md) | 5% | 1 |
-| [Hirathil ghost](../monsters/hirathil2.md) | 5% | 1 |
-| [Ferocious hirathil ghost](../monsters/hirathil3.md) | 5% | 1 |
-| [Restless hirathil ghost](../monsters/hirathil4.md) | 5% | 1 |
-| [Hirathil servant](../monsters/hirathil5.md) | 5% | 1 |
-| [Hirathil master](../monsters/hirathil6.md) | 5% | 1 |
-| [Ancient hirathil ghost](../monsters/hirathil7.md) | 5% | 1 |
-| [Rat](../monsters/vermin0.md) | 5% | 1 |
-| [Rat](../monsters/vermin1.md) | 5% | 1 |
-| [Roach](../monsters/vermin2.md) | 5% | 1 |
-| [Dungeon rat](../monsters/guynmart_rat.md) | 5% | 1 |
-| [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 5% | 1 |
-| [Wild dog](../monsters/guynmart_dog2a.md) | 5% | 1 |
-| [Wild dog](../monsters/guynmart_dog3a.md) | 5% | 1 |
-| [Trained mountain wolf](../monsters/mountain_wolf_2.md) | 5% | 1 |
-| [Young allaceph](../monsters/allaceph_1.md) | 1% | 1 |
-| [Allaceph](../monsters/allaceph_2.md) | 1% | 1 |
-| [Strong allaceph](../monsters/allaceph_3.md) | 1% | 1 |
-| [Tough allaceph](../monsters/allaceph_4.md) | 1% | 1 |
-| [Vaeregh](../monsters/vaeregh_1.md) | 1% | 1 |
+<p class="ib-img">![](../../assets/icons/items/items_misc_0.png){ .sprite }</p>
 
-## Sold by
+| | |
+|---|---|
+| **Item ID** | `gem1` |
+| **Category** | Gem |
+| **Rarity** | Ordinary |
+| **Base value** | 2 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Ghost of Luthor](../monsters/ghost_of_luthor.md) | 100% | 1 | – |
+| [Glowing abcess](../monsters/fire1.md) | 100% | 1-3 | lostmine6, lostmine7, lostmine8 |
+| [Blazing abcess](../monsters/fire2.md) | 100% | 1-3 | lostmine6, lostmine7, lostmine8 |
+| [Lava spawn](../monsters/fire3.md) | 100% | 1-3 | lostmine7, lostmine8, lostmine9 |
+| [Tough lava spawn](../monsters/fire4.md) | 100% | 1-3 | lostmine7, lostmine8, lostmine9 |
+| [Glowing flame](../monsters/fire5.md) | 100% | 1-3 | lostmine10, lostmine9 |
+| [Flame spawn](../monsters/fire6.md) | 100% | 1-3 | lostmine10, lostmine9 |
+| [Walking flame](../monsters/fire7.md) | 100% | 1-3 | lostmine10, lostmine11 |
+| [Walking inferno](../monsters/fire8.md) | 100% | 1-3 | lostmine10, lostmine11 |
+| [Ancient walking inferno](../monsters/fire9.md) | 100% | 1-3 | lostmine11 |
+| [Thukuzun](../monsters/thukuzun.md) | 100% | 1-3 | lostmine11 |
+| [Hira'zinn](../monsters/hirazinn.md) | 100% | 1-3 | lodarcave4a |
+| [Lava entity](../monsters/lava_entity.md) | 100% | 1-2 | Mt. Galmore |
+| [Dark watch](../monsters/lae_demon4.md) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon4b.md) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon5.md) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon7.md) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon9.md) | 100% | 1 | laerothprison7 |
+| [Beholder](../monsters/beholder.md) | 100% | 5-15 | Mt. Galmore |
+| [Pyreling](../monsters/pyreling.md) | 100% | 1-2 | Mt. Galmore |
+| [Erupting pyreling](../monsters/erupting_pyreling.md) | 100% | 1-2 | Mt. Galmore |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 5-15 | galmore_71 |
+| [Spearborn thrall](../monsters/spearborn_thrall.md) | 75% | 1-2 | crackshot_hideout4 |
+| [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 75% | 1-2 | crackshot_hideout4 |
+| [Molten pyreling](../monsters/molten_pyreling.md) | 75% | 1-2 | Mt. Galmore |
+| [Gruil](../monsters/ratdom_gruil.md) | 50% | 1 | – |
+| [Young larval burrower](../monsters/young_larval_burrower.md) | 30% | 1 | Crossroads Guardhouse |
+| [Larval burrower](../monsters/larval_burrower.md) | 30% | 1 | Crossroads Guardhouse |
+| [Basilisk](../monsters/basilisk.md) | 25% | 1 | Flagstone Prison, Foaming Flask Tavern, Blackwater Mountain |
+| [Young teeth critter](../monsters/young_teeth_critter.md) | 25% | 1 | jan_pitcave2 |
+| [Teeth critter](../monsters/teeth_critter.md) | 25% | 1 | jan_pitcave2 |
+| [Lost spirit](../monsters/lost_spirit.md) | 25% | 1 | Crossglen |
+| [Lost soul](../monsters/lost_soul.md) | 25% | 1 | Guynmart Castle |
+| [Haunting](../monsters/haunting.md) | 25% | 1 | Foaming Flask Tavern |
+| [Catacomb rat](../monsters/catacomb_rat.md) | 25% | 1 | Fallhaven |
+| [Large catacomb rat](../monsters/large_catacomb_rat.md) | 25% | 1 | Fallhaven |
+| [Large cave rat](../monsters/large_cave_rat.md) | 25% | 1 | Flagstone Prison |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 20% | 1-5 | elm5f_2, elm_2f_1, elm_3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 20% | 1-5 | elm5f_2, elm_2f_1, elm_3f |
+| [Young erumen lizard](../monsters/erumen_1.md) | 10% | 1 | Brimhaven, Loneford |
+
+*…and 57 more.*
+
+### Sold by
 
 - [Gruil](../monsters/gruil.md)
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+### Found in containers
+
+- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-2) (container 3, 100%), Prim
+- [gamjee_well_1](../maps/gamjee_well_1.md#container-1) (container 2, 100%)
+- [gapfillerhole](../maps/gapfillerhole.md#container-0) (container 1, 100%), Fallhaven
+- [island1](../maps/island1.md#container-2) (container 3, 100%)
+- [island1](../maps/island1.md#container-3) (container 4, 100%)
+- [island1](../maps/island1.md#container-7) (container 8, 100%)
+- [island1](../maps/island1.md#container-10) (container 11, 100%)
+- [island1](../maps/island1.md#container-13) (container 14, 100%)
+- [island2](../maps/island2.md#container-2) (container 3, 100%)
+- [island3](../maps/island3.md#container-2) (container 3, 100%)
+- [island4](../maps/island4.md#container-2) (container 3, 100%)
+- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
+- [mushroom_m2_1](../maps/mushroom_m2_1.md#container-0) (container 1, 50%)
+- [mushroom_m2_4b](../maps/mushroom_m2_4b.md#container-0) (container 1, 100%)
+- [mushroom_m3_2](../maps/mushroom_m3_2.md#container-0) (container 1, 50%)
+- [ratdom_maze_517a](../maps/ratdom_maze_517a.md#container-1) (container 2, 100%)
+- [ratdom_maze_568](../maps/ratdom_maze_568.md#container-0) (container 1, 50%), Labyrinth
+
+### Quest & dialogue rewards
+
+- From [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)), [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) during [Skeleton brothers](../quests/ratdom_skeleton.md#stage-90) (2×)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+## Uses
+
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw Glass gem]” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -118,4 +115,50 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `gem1` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `gem1` |
+    | Category ID | `gem` |
+    | Icon | `items_misc:0` |
+    | Defined in | `res/raw/itemlist_junk.json` |
+    | Loot tables containing it | `canine`, `caveratboss`, `haunt`, `cavecritter`, `catacombrat`, `luthor`, `canine2`, `shop_gruil`, `larva_1`, `larva_2`, `scaradon`, `scaradon_b`, `burrower`, `allaceph`, `erumen`, `hirazinn`, `thukuzun`, `vermin`, `hirathil`, `fire`, `bogsten_tomb_loot2`, `mushroom_m2_1_chest`, `mushroom_m3_2_loot`, `primcanine`, `elm_fiend`, `lava_entity_dl`, `gapfillerhole_drop`, `drop_ratdom_gruil`, `drop_ratdom_kriih`, `ratdom_mz_center`, `ratdom_troll_loot_2`, `korhald_gems`, `lae_fc1_1x1`, `lae_fc1_2x1`, `lae_fc1_3x1`, `lae_fc1_4x1`, `lae_fc1_1y1`, `lae_fc1_1y2`, `lae_fc1_1y3`, `lae_fc1_1y4`, `lae_demon`, `lae_demon9`, `gamjee_well_gems_dl`, `beholder`, `pyreling_dl`, `erupting_pyreling_dl`, `molten_pyreling_dl`, `Pyreling_behemoth_dl`, `prim_treasure_8` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gem1",
+     "iconID": "items_misc:0",
+     "name": "Glass gem",
+     "hasManualPrice": 1,
+     "baseMarketCost": 2,
+     "category": "gem"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

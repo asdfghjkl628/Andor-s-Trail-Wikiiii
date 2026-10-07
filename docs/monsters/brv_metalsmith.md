@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } Edrin
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_22.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `brv_metalsmith` |
+| **Type** | Shopkeeper |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Brimhaven |
+| **Introduced** | [v0.7.11](../versions/0.7.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -25,9 +48,12 @@
 | [Jeweled dagger](../items/dagger_jeweled.md) | 100% | 1 |
 | [Inlaid scepter](../items/scepter_inlaid.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [brimhaven_metalsmith](../maps/brimhaven_metalsmith.md) | Brimhaven | 1 | – |
+
 
 ## Quests
 
@@ -172,10 +198,11 @@ Set up your situation (quest stages, items, kills…), then talk to Edrin. The s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 25 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…”<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…”<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -198,4 +225,33 @@ Set up your situation (quest stages, items, kills…), then talk to Edrin. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_metalsmith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `brv_metalsmith` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `brv_metalsmith` |
+    | Spawn group | `brv_metalsmith` |
+    | Loot table | `edrin` |
+    | Conversation | `edrin_0_0` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:22` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_metalsmith",
+     "name": "Edrin",
+     "iconID": "monsters_ld1:22",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "edrin_0_0",
+     "droplistID": "edrin"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

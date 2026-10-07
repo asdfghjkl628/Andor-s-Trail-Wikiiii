@@ -28,6 +28,7 @@ Start with [Ingus](../monsters/ingus.md) ([remgard0](../maps/remgard0.md)). Requ
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,6 +59,7 @@ Start with [Ingus](../monsters/ingus.md) ([remgard0](../maps/remgard0.md)). Requ
 | <span id="stage-71"></span>71 | Unfortunately, it did not cause their squabbling to diminish. On the contrary, they seem to be even more angry at each other now, since both of them had the color wrong. **(completes quest)** | [Elwyl](../monsters/elwyl.md) ([remgard_villager5](../maps/remgard_villager5.md)) | – | 9,000 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -126,6 +128,7 @@ Start with [Ingus](../monsters/ingus.md) ([remgard0](../maps/remgard0.md)). Requ
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -134,6 +137,7 @@ Start with [Ingus](../monsters/ingus.md) ([remgard0](../maps/remgard0.md)). Requ
 | [v0.7.2](../versions/0.7.2.md) | renamed “A difference in opinion” → “A difference of opinion”; stage 30 journal text changed<br>Dialogue: 2 lines changed<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…”<br>· text: “Since you helped us up here in the Blackwater Mountain settlement ear…” → “Since you helped us up here in the Blackwater mountain settlement ear…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

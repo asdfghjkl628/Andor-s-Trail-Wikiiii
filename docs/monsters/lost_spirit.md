@@ -1,21 +1,46 @@
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Lost spirit
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `lost_spirit` |
+| **Type** | NPC |
+| **Class** | Ghost |
+| **HP** | 15 |
+| **XP when killed** | 33 |
+| **Found in** | Crossglen |
+| **Immune to crits** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ghost |
 | HP | 15 |
-| Max AP | 10 |
-| Attack cost | 9 |
-| Move cost | 10 |
 | Damage | 1 to 2 |
 | Attack chance | 50 |
 | Block chance | 10 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 9 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -24,11 +49,14 @@
 | [Small empty vial](../items/vial_empty1.md) | 25% | 1 |
 | [Glass gem](../items/gem1.md) | 25% | 1 |
 
-## Found on
+## Locations
 
-- [hauntedhouse1](../maps/hauntedhouse1.md)
-- [hauntedhouse2](../maps/hauntedhouse2.md)
-- [wild4](../maps/wild4.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [hauntedhouse1](../maps/hauntedhouse1.md) | Crossglen | 2 | – |
+| [hauntedhouse2](../maps/hauntedhouse2.md) | – | 2 | – |
+| [wild4](../maps/wild4.md) | Crossglen | 1 | – |
+
 
 ## Dialogue simulator
 
@@ -58,6 +86,7 @@ Set up your situation (quest stages, items, kills…), then talk to Lost spirit.
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -79,4 +108,41 @@ Set up your situation (quest stages, items, kills…), then talk to Lost spirit.
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lost_spirit.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `lost_spirit` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `lost_spirit` |
+    | Spawn group | `minorhaunt1` |
+    | Loot table | `haunt` |
+    | Conversation | `haunt` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:45` |
+    | Defined in | `res/raw/monsterlist_fallhaven_animals.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lost_spirit",
+     "name": "Lost spirit",
+     "iconID": "monsters_rltiles2:45",
+     "maxHP": 15,
+     "monsterClass": "ghost",
+     "attackDamage": {
+      "min": 1,
+      "max": 2
+     },
+     "spawnGroup": "minorhaunt1",
+     "phraseID": "haunt",
+     "droplistID": "haunt",
+     "attackCost": 9,
+     "attackChance": 50,
+     "blockChance": 10,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

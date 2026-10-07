@@ -32,6 +32,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -70,6 +71,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 | <span id="stage-100"></span>100 | I delivered 'Crystal Globe' | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | hand over 1× [Crystal globe](../items/brv_wh_item_00.md) | 50 XP<br>clears stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110)<br>gives 100× [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -117,6 +119,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -124,6 +127,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 | [v0.7.17](../versions/0.7.17.md) | Added<br>Dialogue: 10 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

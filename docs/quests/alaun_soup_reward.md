@@ -30,6 +30,7 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,6 +59,7 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
 | <span id="stage-30"></span>30 | Failure | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | applies condition fear |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -93,6 +95,7 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -100,6 +103,7 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
 | [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 7 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

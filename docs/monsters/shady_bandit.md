@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Shady bandit
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_9.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `shady_bandit` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 45 |
+| **XP when killed** | 94 |
+| **Found in** | Fallhaven |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 45 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 3 to 9 |
 | Attack chance | 70 |
 | Block chance | 50 |
 | Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 30 |
 | Critical multiplier | 3.0 |
+| Crit chance | 19% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,12 +45,15 @@
 | [Gold coins](../items/gold.md) | 100% | 4 to 41 |
 | [Piece of Vacor's spell](../items/vacor_spell.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [fallhaven_se](../maps/fallhaven_se.md)
-- [wild10](../maps/wild10.md)
-- [wild12](../maps/wild12.md)
-- [wild9](../maps/wild9.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [fallhaven_se](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
+| [wild10](../maps/wild10.md) | Fallhaven | 1 | – |
+| [wild12](../maps/wild12.md) | Fallhaven | 1 | – |
+| [wild9](../maps/wild9.md) | Fallhaven | 1 | – |
+
 
 ## Dialogue simulator
 
@@ -59,6 +86,7 @@ Set up your situation (quest stages, items, kills…), then talk to Shady bandit
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -80,4 +108,44 @@ Set up your situation (quest stages, items, kills…), then talk to Shady bandit
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=shady_bandit.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `shady_bandit` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `shady_bandit` |
+    | Spawn group | `fallhaven_bandit` |
+    | Loot table | `fallhaven_bandit` |
+    | Conversation | `fallhaven_bandit` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men2:9` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shady_bandit",
+     "name": "Shady bandit",
+     "iconID": "monsters_men2:9",
+     "maxHP": 45,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "fallhaven_bandit",
+     "phraseID": "fallhaven_bandit",
+     "droplistID": "fallhaven_bandit",
+     "attackCost": 5,
+     "attackChance": 70,
+     "criticalSkill": 30,
+     "criticalMultiplier": 3.0,
+     "blockChance": 50,
+     "damageResistance": 2
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

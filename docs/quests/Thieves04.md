@@ -28,6 +28,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,6 +64,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-80"></span>80 | At last, Sullengard can now sleep calmly and eat sufficiently with their finances restored. **(completes quest)** | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | 35,000 XP<br>faction “ThievesGuild” +10<br>gives 1× [Blade of the protector](../items/blade_protector.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -110,6 +112,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -121,6 +124,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “Thank you. You are my only hope here. I don't trust those unlawful Fe…” → “Thank you. You are my only hope here. I don't trust those unlawful Fe…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

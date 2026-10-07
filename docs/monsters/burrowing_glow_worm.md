@@ -1,22 +1,44 @@
 # ![](../assets/icons/monsters/monsters_tometik4_20.png){ .sprite } Burrowing glow worm
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik4_20.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `burrowing_glow_worm` |
+| **Type** | Enemy |
+| **Class** | Reptile |
+| **HP** | 48 |
+| **XP when killed** | 256 |
+| **Found in** | gamjee_well_1_1, gamjee_well_1_3, gamjee_well_2_1 |
+| **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | reptile |
 | HP | 48 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 4 to 7 |
 | Attack chance | 101 |
 | Block chance | 109 |
 | Damage resistance | 7 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 80 |
 | Critical multiplier | 2.0 |
+| Crit chance | 35% |
 
-## On hit
+**On hit:** On target: Weak Poison (magnitude 2, 3 rounds, 30% chance)
 
-- **On target:** Weak Poison (magnitude 2, 3 rounds, 30% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -26,17 +48,20 @@
 | [Poison gland](../items/gland.md) | 5% | 1 |
 | [Worm meat](../items/meat3.md) | 25% | 1 |
 
-## Found on
+## Locations
 
-- [gamjee_well_1_1](../maps/gamjee_well_1_1.md)
-- [gamjee_well_1_3](../maps/gamjee_well_1_3.md)
-- [gamjee_well_2_1](../maps/gamjee_well_2_1.md)
-- [gamjee_well_exit](../maps/gamjee_well_exit.md)
-- [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md)
-- [lodar16](../maps/lodar16.md)
-- [lodar20](../maps/lodar20.md)
-- [lodar21](../maps/lodar21.md)
-- [lodar8](../maps/lodar8.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [gamjee_well_1_1](../maps/gamjee_well_1_1.md) | – | 2 | – |
+| [gamjee_well_1_3](../maps/gamjee_well_1_3.md) | – | 1 | – |
+| [gamjee_well_2_1](../maps/gamjee_well_2_1.md) | – | 2 | – |
+| [gamjee_well_exit](../maps/gamjee_well_exit.md) | – | 1 | – |
+| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [lodar16](../maps/lodar16.md) | – | 15 | – |
+| [lodar20](../maps/lodar20.md) | – | 2 | – |
+| [lodar21](../maps/lodar21.md) | – | 2 | – |
+| [lodar8](../maps/lodar8.md) | – | 4 | – |
+
 
 ## Version history
 
@@ -46,4 +71,75 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `burrowing_glow_worm` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrowing_glow_worm.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrowing_glow_worm.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrowing_glow_worm.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrowing_glow_worm.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `burrowing_glow_worm` |
+    | Spawn group | `vscale1` |
+    | Loot table | `burrowing_glow_worm_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik4:20` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burrowing_glow_worm",
+     "name": "Burrowing glow worm",
+     "iconID": "monsters_tometik4:20",
+     "maxHP": 48,
+     "moveCost": 5,
+     "monsterClass": "reptile",
+     "attackDamage": {
+      "min": 4,
+      "max": 7
+     },
+     "spawnGroup": "vscale1",
+     "droplistID": "burrowing_glow_worm_dl",
+     "attackCost": 3,
+     "attackChance": 101,
+     "criticalSkill": 80,
+     "criticalMultiplier": 2.0,
+     "blockChance": 109,
+     "damageResistance": 7,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "poison_weak",
+        "magnitude": 2,
+        "duration": 3,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

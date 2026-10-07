@@ -1,24 +1,106 @@
 # Ratdom maze2
 
-8×30 tiles · part of [Ratdom cave](index.md)
+<div class="infobox" markdown>
 
-<div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label></div>
-
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/ratdom_maze2.webp" alt="ratdom_maze2" width="256" height="960" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../ratdom_maze_448/#place-north2" title="Exit to Ratdom maze 448" style="left:37.500%;top:90.000%;width:12.500%;height:3.333%"></a><a id="place-up" class="mo mo-mapchange" href="../ratdom_maze3/#place-down" title="Exit to Ratdom maze3" style="left:25.000%;top:43.333%;width:12.500%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../ratdom_maze1/#place-west" title="Exit to Ratdom maze1" style="left:87.500%;top:13.333%;width:12.500%;height:3.333%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-1" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 1 (“Light-1”)" style="left:12.500%;top:10.000%;width:50.000%;height:20.000%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-2" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 2 (“Light-2”)" style="left:12.500%;top:70.000%;width:62.500%;height:26.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-3" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 3 (“Light-3”)" style="left:37.500%;top:30.000%;width:62.500%;height:16.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-4" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 4 (“Light-4”)" style="left:62.500%;top:46.667%;width:25.000%;height:13.333%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-5" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 5 (“Light-5”)" style="left:62.500%;top:10.000%;width:37.500%;height:6.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-6" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 6 (“Light-6”)" style="left:12.500%;top:43.333%;width:50.000%;height:26.667%"></a><a class="mo mo-script" href="../../quests/ratdom_nondisplay/#stage-10" title="Scripted event that only happens during the quest: hidden story flag “ratdom_nondisplay” (stage 10)" style="left:12.500%;top:63.333%;width:12.500%;height:3.333%"></a><span class="mo mo-spawn" title="Spawns: Clevred" style="left:87.500%;top:0.000%;width:12.500%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Tough cave rat" style="left:37.500%;top:33.333%;width:25.000%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Cave rat" style="left:12.500%;top:10.000%;width:62.500%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Cave rat" style="left:12.500%;top:53.333%;width:75.000%;height:33.333%"></span><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-10" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 10: “Light off”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-1" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 1: “Light-1”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-2" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 2: “Light-2”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-3" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 3: “Light-3”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-4" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 4: “Light-4”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-5" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 5: “Light-5”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-6" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 6: “Light-6”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-7" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 7: “Light-7”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-8" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 8: “Light-8”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-31" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 31: “compass BWM”)" style="left:37.500%;top:73.333%;width:12.500%;height:3.333%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-32" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 32: “compass Tour”)" style="left:50.000%;top:76.667%;width:12.500%;height:3.333%"></a><a class="mob" href="../../monsters/ratdom_rat/" title="Clevred" style="left:87.500%;top:0.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Clevred"></a><a class="mob" href="../../monsters/tough_cave_rat/" title="Tough cave rat" style="left:37.500%;top:33.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Tough cave rat"></a><a class="mob" href="../../monsters/tough_cave_rat/" title="Tough cave rat" style="left:50.000%;top:33.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Tough cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:12.500%;top:16.667%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:37.500%;top:20.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:25.000%;top:80.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:75.000%;top:53.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a></div>
-
-## Exits
-
-- [Ratdom maze1](ratdom_maze1.md)
-- [Ratdom maze3](ratdom_maze3.md)
-- [Ratdom maze 448](ratdom_maze_448.md)
-
-## Monsters & NPCs here
-
-| Name | HP |
+| | |
 |---|---|
-| [Clevred](../monsters/ratdom_rat.md) | 0 |
-| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 |
-| [Cave rat](../monsters/cave_rat.md) | 5 |
+| **Map ID** | `ratdom_maze2` |
+| **Region** | In Entry (other) |
+| **Type** | Indoors / underground |
+| **Size** | 8×30 tiles |
+| **World map** | [Ratdom cave](index.md) |
+| **Introduced** | [v0.8.5](../versions/0.8.5.md) |
+| **NPCs** | 1 |
+| **Enemy types** | 2 |
+| **Quests** | 2 |
+
+</div>
+
+**Ratdom maze2** is an indoor map, in Entry (other). It has 1 NPC and 2 kinds of enemy. Exits lead to Ratdom maze1, Ratdom maze3, Ratdom maze 448.
+
+## Map
+
+<div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
+
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/ratdom_maze2.webp" alt="Map of Ratdom maze2" width="256" height="960" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../ratdom_maze_448/#place-north2" title="Exit to Ratdom maze 448" style="left:37.500%;top:90.000%;width:12.500%;height:3.333%"></a><a id="place-up" class="mo mo-mapchange" href="../ratdom_maze3/#place-down" title="Exit to Ratdom maze3" style="left:25.000%;top:43.333%;width:12.500%;height:3.333%"></a><a id="place-east" class="mo mo-mapchange" href="../ratdom_maze1/#place-west" title="Exit to Ratdom maze1" style="left:87.500%;top:13.333%;width:12.500%;height:3.333%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-1" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 1 (“Light-1”)" style="left:12.500%;top:10.000%;width:50.000%;height:20.000%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-2" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 2 (“Light-2”)" style="left:12.500%;top:70.000%;width:62.500%;height:26.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-3" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 3 (“Light-3”)" style="left:37.500%;top:30.000%;width:62.500%;height:16.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-4" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 4 (“Light-4”)" style="left:62.500%;top:46.667%;width:25.000%;height:13.333%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-5" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 5 (“Light-5”)" style="left:62.500%;top:10.000%;width:37.500%;height:6.667%"></a><a class="mo mo-script" href="../../quests/ratdom_maze/#stage-6" title="Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 6 (“Light-6”)" style="left:12.500%;top:43.333%;width:50.000%;height:26.667%"></a><a class="mo mo-script" href="../../quests/ratdom_nondisplay/#stage-10" title="Scripted event that only happens during the quest: hidden story flag “ratdom_nondisplay” (stage 10)" style="left:12.500%;top:63.333%;width:12.500%;height:3.333%"></a><span class="mo mo-spawn" title="Spawns: Clevred" style="left:87.500%;top:0.000%;width:12.500%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Tough cave rat" style="left:37.500%;top:33.333%;width:25.000%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Cave rat" style="left:12.500%;top:10.000%;width:62.500%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Cave rat" style="left:12.500%;top:53.333%;width:75.000%;height:33.333%"></span><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-10" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 10: “Light off”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-1" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 1: “Light-1”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-2" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 2: “Light-2”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-3" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 3: “Light-3”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-4" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 4: “Light-4”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-5" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 5: “Light-5”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-6" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 6: “Light-6”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-7" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 7: “Light-7”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-8" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 8: “Light-8”)" style="left:0.000%;top:0.000%;width:100.000%;height:100.000%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-31" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 31: “compass BWM”)" style="left:37.500%;top:73.333%;width:12.500%;height:3.333%"></a><a class="mo mo-replace" href="../../quests/ratdom_maze/#stage-32" title="This area changes during the quest: hidden story flag “ratdom_maze” (stage 32: “compass Tour”)" style="left:50.000%;top:76.667%;width:12.500%;height:3.333%"></a><a class="mob" href="../../monsters/ratdom_rat/" title="Clevred" style="left:87.500%;top:0.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Clevred"></a><a class="mob" href="../../monsters/tough_cave_rat/" title="Tough cave rat" style="left:37.500%;top:33.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Tough cave rat"></a><a class="mob" href="../../monsters/tough_cave_rat/" title="Tough cave rat" style="left:50.000%;top:33.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Tough cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:12.500%;top:16.667%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:37.500%;top:20.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:25.000%;top:80.000%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="mob" href="../../monsters/cave_rat/" title="Cave rat" style="left:75.000%;top:53.333%;width:12.500%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rats_1.png" alt="Cave rat"></a><a class="pin pin-exit" href="#key-1" style="left:93.750%;top:15.000%" title="Exit (east): to [Ratdom maze1](../ratdom_maze1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:31.250%;top:45.000%" title="Exit (stairs / passage): to [Ratdom maze3](../ratdom_maze3.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:43.750%;top:91.667%" title="Exit (stairs / passage): to [Ratdom maze 448](../ratdom_maze_448.md)">3</a><a class="pin pin-npc" href="#key-4" style="left:93.750%;top:1.667%" title="[Clevred](../../monsters/ratdom_rat.md): 1 quest">4</a><a class="pin pin-script" href="#key-5" style="left:37.500%;top:20.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 1 (“Light-1”)">5</a><a class="pin pin-script" href="#key-6" style="left:43.750%;top:83.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 2 (“Light-2”)">6</a><a class="pin pin-script" href="#key-7" style="left:68.750%;top:38.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 3 (“Light-3”)">7</a><a class="pin pin-script" href="#key-8" style="left:75.000%;top:53.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 4 (“Light-4”)">8</a><a class="pin pin-script" href="#key-9" style="left:81.250%;top:13.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 5 (“Light-5”)">9</a><a class="pin pin-script" href="#key-10" style="left:37.500%;top:56.667%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 6 (“Light-6”)">10</a><a class="pin pin-replace" href="#key-11" style="left:50.000%;top:50.000%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 10: “Light off”)">11</a><a class="pin pin-replace" href="#key-12" style="left:50.823%;top:47.500%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 1: “Light-1”)">12</a><a class="pin pin-replace" href="#key-13" style="left:56.307%;top:52.194%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 2: “Light-2”)">13</a><a class="pin pin-replace" href="#key-14" style="left:38.999%;top:49.481%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 3: “Light-3”)">14</a><a class="pin pin-replace" href="#key-15" style="left:60.025%;top:48.299%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 4: “Light-4”)">15</a><a class="pin pin-replace" href="#key-16" style="left:46.749%;top:53.225%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 5: “Light-5”)">16</a><a class="pin pin-replace" href="#key-17" style="left:68.771%;top:50.673%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 6: “Light-6”)">17</a><a class="pin pin-replace" href="#key-18" style="left:34.188%;top:52.934%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 7: “Light-7”)">18</a><a class="pin pin-replace" href="#key-19" style="left:54.296%;top:44.906%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 8: “Light-8”)">19</a><a class="pin pin-replace" href="#key-20" style="left:43.750%;top:75.000%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 31: “compass BWM”)">20</a><a class="pin pin-replace" href="#key-21" style="left:56.250%;top:78.333%" title="Changes during a quest: This area changes during the quest: hidden story flag “ratdom_maze” (stage 32: “compass Tour”)">21</a></div>
+
+??? abstract "Key to the numbers on the map"
+
+    | # | What | Details |
+    |---|---|---|
+    | <span id="key-1"></span>1 | Exit (east) | to [Ratdom maze1](../ratdom_maze1.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Ratdom maze3](../ratdom_maze3.md) |
+    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Ratdom maze 448](../ratdom_maze_448.md) |
+    | <span id="key-4"></span>4 | [Clevred](../monsters/ratdom_rat.md) | 1 quest |
+    | <span id="key-5"></span>5 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 1 (“Light-1”) |
+    | <span id="key-6"></span>6 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 2 (“Light-2”) |
+    | <span id="key-7"></span>7 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 3 (“Light-3”) |
+    | <span id="key-8"></span>8 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 4 (“Light-4”) |
+    | <span id="key-9"></span>9 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 5 (“Light-5”) |
+    | <span id="key-10"></span>10 | Quest trigger | Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 6 (“Light-6”) |
+    | <span id="key-11"></span>11 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 10: “Light off”) |
+    | <span id="key-12"></span>12 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 1: “Light-1”) |
+    | <span id="key-13"></span>13 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 2: “Light-2”) |
+    | <span id="key-14"></span>14 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 3: “Light-3”) |
+    | <span id="key-15"></span>15 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 4: “Light-4”) |
+    | <span id="key-16"></span>16 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 5: “Light-5”) |
+    | <span id="key-17"></span>17 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 6: “Light-6”) |
+    | <span id="key-18"></span>18 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 7: “Light-7”) |
+    | <span id="key-19"></span>19 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 8: “Light-8”) |
+    | <span id="key-20"></span>20 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 31: “compass BWM”) |
+    | <span id="key-21"></span>21 | Changes during a quest | This area changes during the quest: hidden story flag “ratdom_maze” (stage 32: “compass Tour”) |
+
+
+<p class="verified">Verified against v0.8.18 map data.</p>
+
+## Connections
+
+| Direction | Leads to | Region there | Map # |
+|---|---|---|---|
+| East | [Ratdom maze1](ratdom_maze1.md) | Crossglen | 1 |
+| Stairs / passage | [Ratdom maze3](ratdom_maze3.md) | Blackwater Mountain | 2 |
+| Stairs / passage | [Ratdom maze 448](ratdom_maze_448.md) | Entry | 3 |
+
+## NPCs
+
+- [Clevred](../monsters/ratdom_rat.md) — quests: [Yellow is it](../quests/ratdom_quest.md) (#4)
+
+## Enemies
+
+| Enemy | HP | Damage | Up to | Notes |
+|---|---|---|---|---|
+| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 4 | – |
+| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
+
+<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+## Quests
+
+- [Rats!](../quests/mikhail_rats.md): a scripted event can trigger here from stage 100
+- [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
+- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6
+- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10
+
+## Points of interest
+
+- **Quest trigger** (#5): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 1 (“Light-1”)
+- **Quest trigger** (#6): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 2 (“Light-2”)
+- **Quest trigger** (#7): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 3 (“Light-3”)
+- **Quest trigger** (#8): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 4 (“Light-4”)
+- **Quest trigger** (#9): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 5 (“Light-5”)
+- **Quest trigger** (#10): Scripted event: advances the quest: hidden story flag “ratdom_maze” to stage 6 (“Light-6”)
+- **Changes during a quest** (#11): This area changes during the quest: hidden story flag “ratdom_maze” (stage 10: “Light off”)
+- **Changes during a quest** (#12): This area changes during the quest: hidden story flag “ratdom_maze” (stage 1: “Light-1”)
+- **Changes during a quest** (#13): This area changes during the quest: hidden story flag “ratdom_maze” (stage 2: “Light-2”)
+- **Changes during a quest** (#14): This area changes during the quest: hidden story flag “ratdom_maze” (stage 3: “Light-3”)
+- **Changes during a quest** (#15): This area changes during the quest: hidden story flag “ratdom_maze” (stage 4: “Light-4”)
+- **Changes during a quest** (#16): This area changes during the quest: hidden story flag “ratdom_maze” (stage 5: “Light-5”)
+- **Changes during a quest** (#17): This area changes during the quest: hidden story flag “ratdom_maze” (stage 6: “Light-6”)
+- **Changes during a quest** (#18): This area changes during the quest: hidden story flag “ratdom_maze” (stage 7: “Light-7”)
+- **Changes during a quest** (#19): This area changes during the quest: hidden story flag “ratdom_maze” (stage 8: “Light-8”)
+- **Changes during a quest** (#20): This area changes during the quest: hidden story flag “ratdom_maze” (stage 31: “compass BWM”)
+- **Changes during a quest** (#21): This area changes during the quest: hidden story flag “ratdom_maze” (stage 32: “compass Tour”)
+
 
 ## Version history
 
@@ -28,4 +110,40 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Map ID: `ratdom_maze2` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=ratdom_maze2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=ratdom_maze2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=ratdom_maze2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=ratdom_maze2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Map ID | `ratdom_maze2` |
+    | File | `res/xml/ratdom_maze2.tmx` |
+    | Size | 8×30 tiles (256×960 px) |
+    | outdoors property | – |
+    | Layers drawn | ground, objects, above, top |
+    | Tilesets | map_bed_1, map_border_1, map_bridge_1, map_bridge_2, map_broken_1, map_cavewall_1, map_cavewall_2, map_cavewall_3, map_cavewall_4, map_chair_table_1, map_chair_table_2, map_crate_1, map_cupboard_1, map_curtain_1, map_entrance_1, map_entrance_2, map_fence_1, map_fence_2, map_fence_3, map_fence_4, map_ground_1, map_ground_2, map_ground_3, map_ground_4, map_ground_5, map_ground_6, map_ground_7, map_ground_8, map_guynmart, map_house_1, map_house_2, map_indoor_1, map_indoor_2, map_kitchen_1, map_outdoor_1, map_pillar_1, map_pillar_2, map_plant_1, map_plant_2, map_ratdom, map_rock_1, map_rock_2, map_roof_1, map_roof_2, map_roof_3, map_shop_1, map_sign_ladder_1, map_table_1, map_trail_1, map_transition_1, map_transition_2, map_transition_3, map_transition_4, map_transition_5, map_tree_1, map_tree_2, map_wall_1, map_wall_2, map_wall_3, map_wall_4, map_window_1, map_window_2 |
+    | Map objects | replace: 11, script: 7, spawn: 4, mapchange: 3 |
+    | World map position | segment `ratdom_cave`, x -15, y -2 |
+
+
+<small>Data from v0.8.18</small>

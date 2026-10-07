@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Undead warden
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `undead_warden` |
+| **Type** | NPC |
+| **Class** | Undead |
+| **HP** | 57 |
+| **XP when killed** | 113 |
+| **Found in** | Flagstone Prison |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 57 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 4 to 8 |
 | Attack chance | 120 |
 | Block chance | 60 |
 | Damage resistance | 1 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 20 |
 | Critical multiplier | 2.0 |
+| Crit chance | 15% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Regular potion of health](../items/health.md) | 100% | 1 |
 | [Flagstone Warden's necklace](../items/necklace_flagstone.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [flagstone_upper](../maps/flagstone_upper.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [flagstone_upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
+
 
 ## Quests
 
@@ -59,6 +86,7 @@ Set up your situation (quest stages, items, kills…), then talk to Undead warde
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -80,4 +108,44 @@ Set up your situation (quest stages, items, kills…), then talk to Undead warde
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=undead_warden.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `undead_warden` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `undead_warden` |
+    | Spawn group | `flagstone_guard0` |
+    | Loot table | `flagstone_guard0` |
+    | Conversation | `flagstone_guard0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:0` |
+    | Defined in | `res/raw/monsterlist_wilderness.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "undead_warden",
+     "name": "Undead warden",
+     "iconID": "monsters_liches:0",
+     "maxHP": 57,
+     "unique": 1,
+     "monsterClass": "undead",
+     "attackDamage": {
+      "min": 4,
+      "max": 8
+     },
+     "spawnGroup": "flagstone_guard0",
+     "phraseID": "flagstone_guard0",
+     "droplistID": "flagstone_guard0",
+     "attackCost": 5,
+     "attackChance": 120,
+     "criticalSkill": 20,
+     "criticalMultiplier": 2.0,
+     "blockChance": 60,
+     "damageResistance": 1
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

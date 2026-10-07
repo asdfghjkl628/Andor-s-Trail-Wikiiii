@@ -1,23 +1,50 @@
 # ![](../assets/icons/monsters/monsters_ld1_37.png){ .sprite } Polyasem
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_37.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `ll2_cyclops1` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 100 |
+| **XP when killed** | 194 |
+| **Found in** | ll2_cyclops_cave, mountainlake27 |
+| **Introduced** | [v0.8.18](../versions/0.8.18.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 100 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
 | Damage | 8 to 16 |
 | Attack chance | 100 |
 | Block chance | 50 |
 | Damage resistance | 10 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md)
-- [mountainlake27](../maps/mountainlake27.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md) | – | 1 | – |
+| [mountainlake27](../maps/mountainlake27.md) | – | 1 | appears later in a quest |
+
 
 ## Dialogue simulator
 
@@ -53,6 +80,7 @@ Set up your situation (quest stages, items, kills…), then talk to Polyasem. Th
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -74,4 +102,42 @@ Set up your situation (quest stages, items, kills…), then talk to Polyasem. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ll2_cyclops1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `ll2_cyclops1` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `ll2_cyclops1` |
+    | Spawn group | `ll2_cyclops1` |
+    | Loot table | – |
+    | Conversation | `ll2_cyclops` |
+    | Faction | `ll2_cyclops` |
+    | Movement | – |
+    | Icon | `monsters_ld1:37` |
+    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ll2_cyclops1",
+     "name": "Polyasem",
+     "iconID": "monsters_ld1:37",
+     "maxHP": 100,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 8,
+      "max": 16
+     },
+     "spawnGroup": "ll2_cyclops1",
+     "faction": "ll2_cyclops",
+     "phraseID": "ll2_cyclops",
+     "attackCost": 10,
+     "attackChance": 100,
+     "blockChance": 50,
+     "damageResistance": 10
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

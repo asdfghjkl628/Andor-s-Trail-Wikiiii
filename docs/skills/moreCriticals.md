@@ -22,6 +22,7 @@ Increases any existing critical skill given by equipment by 20 % for each skill 
 No requirements: any skill point can go here.
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Unlocks
 
 - [Better Criticals](betterCriticals.md): needs this skill at level 1

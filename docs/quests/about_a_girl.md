@@ -28,6 +28,7 @@ Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -57,6 +58,7 @@ Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md)
 | <span id="stage-90"></span>90 | The girl rejoined the others at the table. The Elytharan ghosts spoke her name softly, as if afraid to lose her again. **(completes quest)** | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) | stage 80 | 10,207 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -100,6 +102,7 @@ Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md)
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -107,6 +110,7 @@ Start with [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md)
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 9 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

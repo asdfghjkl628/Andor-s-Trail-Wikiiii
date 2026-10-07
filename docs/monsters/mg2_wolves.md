@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Galmore wolf
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_4.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `mg2_wolves` |
+| **Type** | NPC |
+| **Class** | Animal |
+| **HP** | 251 |
+| **XP when killed** | 679 |
+| **Found in** | Mt. Galmore |
+| **Introduced** | [v0.8.14](../versions/0.8.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 251 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 3 |
 | Damage | 15 to 20 |
 | Attack chance | 177 |
 | Block chance | 153 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 3 AP |
 | Critical skill | 10 |
 | Critical multiplier | 2.0 |
+| Crit chance | 9% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,11 +45,14 @@
 | [Meat](../items/meat.md) | 20% | 1 to 3 |
 | [Gold coins](../items/gold.md) | 10% | 1 to 21 |
 
-## Found on
+## Locations
 
-- [galmore_54](../maps/galmore_54.md)
-- [galmore_55](../maps/galmore_55.md)
-- [galmore_64](../maps/galmore_64.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 12 | – |
+| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 1 | – |
+| [galmore_64](../maps/galmore_64.md) | Mt. Galmore | 1 | – |
+
 
 ## Quests
 
@@ -97,6 +124,7 @@ Set up your situation (quest stages, items, kills…), then talk to Galmore wolf
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -118,4 +146,44 @@ Set up your situation (quest stages, items, kills…), then talk to Galmore wolf
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=mg2_wolves.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `mg2_wolves` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `mg2_wolves` |
+    | Spawn group | `mg2_wolves` |
+    | Loot table | `canine_dl` |
+    | Conversation | `mg2_wolves` |
+    | Faction | `mg2_wolves_faction` |
+    | Movement | – |
+    | Icon | `monsters_dogs:4` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "mg2_wolves",
+     "name": "Galmore wolf",
+     "iconID": "monsters_dogs:4",
+     "maxHP": 251,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 15,
+      "max": 20
+     },
+     "faction": "mg2_wolves_faction",
+     "phraseID": "mg2_wolves",
+     "droplistID": "canine_dl",
+     "attackCost": 3,
+     "attackChance": 177,
+     "criticalSkill": 10,
+     "criticalMultiplier": 2.0,
+     "blockChance": 153
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -1,23 +1,44 @@
 # ![](../assets/icons/monsters/monsters_tometik5_23.png){ .sprite } Guardian of the bridge
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_23.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `lbridge` |
+| **Type** | NPC |
+| **Class** | Giant |
+| **HP** | 213 |
+| **XP when killed** | 575 |
+| **Found in** | lodar8 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | giant |
 | HP | 213 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 5 |
 | Damage | 5 to 15 |
 | Attack chance | 127 |
 | Block chance | 153 |
 | Damage resistance | 9 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 35 |
 | Critical multiplier | 2.0 |
+| Crit chance | 21% |
 
-## On hit
+**On hit:** Heal HP: 1; On target: Minor fatigue (magnitude 1, 7 rounds, 30% chance)
 
-- **Heal HP:** 1
-- **On target:** Minor fatigue (magnitude 1, 7 rounds, 30% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -28,9 +49,12 @@
 | [Greataxe of shattered hope](../items/graxe_shatter.md) | 100% | 1 |
 | [Regular potion of health](../items/health.md) | 100% | 3 |
 
-## Found on
+## Locations
 
-- [lodar8](../maps/lodar8.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [lodar8](../maps/lodar8.md) | – | 1 | – |
+
 
 ## Dialogue simulator
 
@@ -59,6 +83,7 @@ Set up your situation (quest stages, items, kills…), then talk to Guardian of 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -80,4 +105,58 @@ Set up your situation (quest stages, items, kills…), then talk to Guardian of 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lbridge.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `lbridge` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `lbridge` |
+    | Spawn group | `lbridge` |
+    | Loot table | `lbridge` |
+    | Conversation | `lbridge` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:23` |
+    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lbridge",
+     "name": "Guardian of the bridge",
+     "iconID": "monsters_tometik5:23",
+     "maxHP": 213,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "giant",
+     "attackDamage": {
+      "min": 5,
+      "max": 15
+     },
+     "phraseID": "lbridge",
+     "droplistID": "lbridge",
+     "attackCost": 5,
+     "attackChance": 127,
+     "criticalSkill": 35,
+     "criticalMultiplier": 2.0,
+     "blockChance": 153,
+     "damageResistance": 9,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 1,
+       "max": 1
+      },
+      "conditionsTarget": [
+       {
+        "condition": "fatigue_minor",
+        "magnitude": 1,
+        "duration": 7,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

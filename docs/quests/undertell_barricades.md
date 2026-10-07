@@ -29,6 +29,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -61,6 +62,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 | <span id="stage-160"></span>160 | Shannal thanked me for helping Rain and warned me to be careful. She removed the barricades in front of the entrance to Undertell. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 58](../maps/galmore_58.md).</span><br><span class="qnote">🗺️ Part of [Galmore 58](../maps/galmore_58.md) visibly changes.</span> | [Shannal](../monsters/shannal.md) ([mt_galmore_railhouse](../maps/mt_galmore_railhouse.md)) | stage 150 | 7,204 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -125,6 +127,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -132,6 +135,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 14 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

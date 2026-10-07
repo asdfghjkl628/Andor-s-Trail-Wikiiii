@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 29 |
 | **Started by** | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah2.md) +6 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah2.md), [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md) +6 |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_0](../maps/guynmart_main_0.md), [guynmart_main_1](../maps/guynmart_main_1.md), [guynmart_main_2](../maps/guynmart_main_2.md) |
 | **Related quests** | 3 |
 
@@ -30,6 +30,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -92,6 +93,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -229,6 +231,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -237,6 +240,7 @@ Start with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 7 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

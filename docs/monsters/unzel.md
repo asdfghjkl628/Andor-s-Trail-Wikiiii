@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Unzel
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `unzel` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 59 |
+| **XP when killed** | 93 |
+| **Found in** | Blackwater Mountain |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 59 |
-| Max AP | 10 |
-| Attack cost | 9 |
-| Move cost | 10 |
 | Damage | 5 to 9 |
 | Attack chance | 80 |
 | Block chance | 40 |
 | Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 9 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 30 |
 | Critical multiplier | 3.0 |
+| Crit chance | 19% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Unzel's ring](../items/ring_unzel.md) | 100% | 1 |
 | [Unzel's defensive boots](../items/boots_unzel.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [wild6](../maps/wild6.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [wild6](../maps/wild6.md) | Blackwater Mountain | 1 | – |
+
 
 ## Quests
 
@@ -187,6 +214,7 @@ Set up your situation (quest stages, items, kills…), then talk to Unzel. The s
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -208,4 +236,44 @@ Set up your situation (quest stages, items, kills…), then talk to Unzel. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=unzel.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `unzel` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `unzel` |
+    | Spawn group | `unzel` |
+    | Loot table | `unzel` |
+    | Conversation | `unzel` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "unzel",
+     "name": "Unzel",
+     "iconID": "monsters_men:8",
+     "maxHP": 59,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 5,
+      "max": 9
+     },
+     "spawnGroup": "unzel",
+     "phraseID": "unzel",
+     "droplistID": "unzel",
+     "attackCost": 9,
+     "attackChance": 80,
+     "criticalSkill": 30,
+     "criticalMultiplier": 3.0,
+     "blockChance": 40,
+     "damageResistance": 2
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

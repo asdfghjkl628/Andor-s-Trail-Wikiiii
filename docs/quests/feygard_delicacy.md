@@ -27,6 +27,7 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -52,6 +53,7 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -87,6 +89,7 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -94,6 +97,7 @@ Start with [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 7 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -26,6 +26,7 @@ Start with [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_n
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -41,6 +42,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-100"></span>100 | I gave the book back to the old man. **(completes quest)** | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | hand over 1× [Calomyran secrets](../items/calomyran_secrets.md), stage 10 | 600 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -60,6 +62,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -68,6 +71,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “I have no idea where it might be. You could go ask Arcir, he seems ve…” → “I have no idea where it might be. You could go ask Arcir, he seems ve…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

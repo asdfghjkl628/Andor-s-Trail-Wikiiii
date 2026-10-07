@@ -27,6 +27,7 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -65,6 +66,7 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 | <span id="stage-82"></span>82 | I have reported back to Ailshara. **(completes quest)** | [Ailshara](../monsters/ailshara.md) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) | stage 35, stage 55, stage 81 | 500 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -132,6 +134,7 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -140,6 +143,7 @@ Start with [Gandoren](../monsters/gandoren.md). Required:
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “Ok then.” → “OK then.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

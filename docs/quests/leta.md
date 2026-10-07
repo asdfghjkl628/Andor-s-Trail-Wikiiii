@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 100, 105) |
 | **Started by** | [Leta](../monsters/leta.md), [Leta](../monsters/leta.md) |
-| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir_behind_haystack_help.md), [Oromir](../monsters/oromir_basement.md), [Oromir](../monsters/oromir.md), [Oromir](../monsters/oromir_basement_help.md), [Oromir](../monsters/oromir_behind_haystack.md) +2 |
+| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir_behind_inn_help.md), [Oromir](../monsters/oromir_basement.md), [Oromir](../monsters/oromir_behind_haystack.md), [Oromir](../monsters/oromir_behind_haystack_help.md), [Oromir](../monsters/oromir.md) +2 |
 | **Locations** | [crossglen](../maps/crossglen.md), [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md) |
 | **Total XP** | 520 |
 | **Related quests** | 1 |
@@ -49,6 +49,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -76,6 +77,7 @@
 | <span id="stage-105"></span>105 | Even after all my help, Oromir was still brought back home to Leta. **(completes quest)** | [Oromir](../monsters/oromir_basement_help.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | stage 45 | 50 XP<br>gives 1× [Kid's boots](../items/kids_boots.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -138,6 +140,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -148,6 +151,7 @@
 | [v0.7.12](../versions/0.7.12.md) | stages added: 25, 30, 35, 40, 45, 50, 60, 70, 80, 105; stage 100 journal text changed<br>Dialogue: 14 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

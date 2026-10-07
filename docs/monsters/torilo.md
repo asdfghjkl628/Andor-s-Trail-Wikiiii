@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Torilo
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_9.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `torilo` |
+| **Type** | Shopkeeper |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Foaming Flask Tavern |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -25,9 +48,12 @@
 | [Mead](../items/mead.md) | 100% | 5 |
 | [Pear](../items/pear.md) | 100% | 5 |
 
-## Found on
+## Locations
 
-- [foaming_flask](../maps/foaming_flask.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [foaming_flask](../maps/foaming_flask.md) | Foaming Flask Tavern | 1 | – |
+
 
 ## Quests
 
@@ -174,9 +200,10 @@ Set up your situation (quest stages, items, kills…), then talk to Torilo. The 
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 11 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?”<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -199,4 +226,32 @@ Set up your situation (quest stages, items, kills…), then talk to Torilo. The 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=torilo.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `torilo` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `torilo` |
+    | Spawn group | `torilo` |
+    | Loot table | `shop_torilo` |
+    | Conversation | `torilo_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men2:9` |
+    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "torilo",
+     "name": "Torilo",
+     "iconID": "monsters_men2:9",
+     "monsterClass": "humanoid",
+     "spawnGroup": "torilo",
+     "phraseID": "torilo_1",
+     "droplistID": "shop_torilo"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

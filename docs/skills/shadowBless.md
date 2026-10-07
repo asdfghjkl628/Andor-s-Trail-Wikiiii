@@ -23,6 +23,7 @@ Lowers the chance of being afflicted with all types of conditions by 5 %. This i
 | 1 | Quest reward |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Relevant quest
 
 **Quest:** [The dark protector](../quests/darkprotector.md#stage-40) (reaching stage 40)

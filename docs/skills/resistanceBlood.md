@@ -22,6 +22,7 @@ Lowers the chance of being afflicted with disorders of the blood by 10 % for eve
 No requirements: any skill point can go here.
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Unlocks
 
 - [Rejuvenation](rejuvenation.md): needs this skill at level 3

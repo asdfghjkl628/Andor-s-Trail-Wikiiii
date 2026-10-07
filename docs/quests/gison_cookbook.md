@@ -27,6 +27,7 @@ Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +50,7 @@ Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_
 | <span id="stage-70"></span>70 | Gison will give me mushroom soup in thanks if I bring him 50 gold, 2 of Bogsten's mushrooms and an empty bottle. **(completes quest)** | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -88,6 +90,7 @@ Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -95,6 +98,7 @@ Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_
 | [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 8 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

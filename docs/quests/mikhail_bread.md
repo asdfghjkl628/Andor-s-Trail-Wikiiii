@@ -29,6 +29,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -58,6 +59,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | <span id="stage-100"></span>100 | I have brought the bread to Mikhail. **(completes quest)** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Bread](../items/bread.md), stage 10 | 30 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -73,6 +75,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -81,6 +84,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | [v0.7.10](../versions/0.7.10.md) | stage 100 XP 0 → 30<br>Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

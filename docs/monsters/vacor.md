@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Vacor
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_mage_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `vacor` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 72 |
+| **XP when killed** | 111 |
+| **Found in** | Fallhaven |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 72 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 4 to 8 |
 | Attack chance | 110 |
 | Block chance | 40 |
 | Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Vacor's ring](../items/ring_vacor.md) | 100% | 1 |
 | [Vacor's boots of attack](../items/boots_vacor.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [fallhaven_sw](../maps/fallhaven_sw.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [fallhaven_sw](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
+
 
 ## Quests
 
@@ -336,9 +363,10 @@ Set up your situation (quest stages, items, kills…), then talk to Vacor. The s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Yes ... hm ... Really?! *mumbles* ... yes, indeed ...” → “Yes ... hmm ... really?! *mumbles* ...yes, indeed...”<br>· text: “(Vacor opens the sealed message and starts reading)” → “[Vacor opens the sealed message and starts reading]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Ok, find the four pieces of my rift spell that the bandits took, and …” → “OK, find the four pieces of my rift spell that the bandits took, and …”<br>· text: “After years of work, I can't seem to remember the last parts of the s…” → “After years of work, I can't seem to remember the last parts of the s…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -361,4 +389,42 @@ Set up your situation (quest stages, items, kills…), then talk to Vacor. The s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=vacor.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `vacor` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `vacor` |
+    | Spawn group | `vacor` |
+    | Loot table | `vacor` |
+    | Conversation | `vacor` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage:0` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "vacor",
+     "name": "Vacor",
+     "iconID": "monsters_mage:0",
+     "maxHP": 72,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 4,
+      "max": 8
+     },
+     "spawnGroup": "vacor",
+     "phraseID": "vacor",
+     "droplistID": "vacor",
+     "attackCost": 5,
+     "attackChance": 110,
+     "blockChance": 40,
+     "damageResistance": 2
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

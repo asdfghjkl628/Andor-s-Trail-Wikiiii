@@ -1,29 +1,76 @@
 # ![](../assets/icons/items/items_consumables_27.png){ .sprite } Cooked meat
-*Ordinary* · Food · value 78 gold
 
+*Ordinary food.*
 
-## When used
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_consumables_27.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `meat_cooked` |
+| **Category** | Food |
+| **Rarity** | Ordinary |
+| **Base value** | 78 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When used
 
 | Stat | Value |
 |---|---|
 | On self | Sustenance (magnitude 3, 11 rounds, 100% chance) |
 
-## Sold by
+<p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Sold by
 
 - [Mara](../monsters/mara.md)
 - [Bela](../monsters/bela.md)
-- [Thieves guild cook](../monsters/thieves_guild_cook.md)
-- [Tharwyn](../monsters/tharwyn.md)
-- [Torilo](../monsters/torilo.md)
-- [Gallain](../monsters/gallain.md)
-- [Grimion](../monsters/grimion.md)
-- [Kendelow](../monsters/kendelow.md)
-- [Waitress](../monsters/brv_tavern_west_waitress.md)
-- [Melona](../monsters/melona.md)
+- [Thieves guild cook](../monsters/thieves_guild_cook.md) (Fallhaven)
+- [Tharwyn](../monsters/tharwyn.md) (Vilegard)
+- [Torilo](../monsters/torilo.md) (Foaming Flask Tavern)
+- [Gallain](../monsters/gallain.md) (Crossroads Guardhouse)
+- [Grimion](../monsters/grimion.md) (Loneford)
+- [Kendelow](../monsters/kendelow.md) (Remgard)
+- [Waitress](../monsters/brv_tavern_west_waitress.md) (Brimhaven)
+- [Melona](../monsters/melona.md) (Brimhaven)
 - [Bela](../monsters/bela_2.md)
-- [Godfrey](../monsters/sullengard_innkeeper.md)
+- [Godfrey](../monsters/sullengard_innkeeper.md) (Sullengard)
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+### Quest & dialogue rewards
+
+- From [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) (100%)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+## Uses
+
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Athamyr](../monsters/athamyr.md) | [Key of Luthor](../quests/bucus.md#stage-40) | handed over (1×) | “Here, I have cooked meat for you.” |
+| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60) | must be carried (10×) | “OK. I have ten deliciously cooked pieces of meat now.” |
+| [Athamyr](../monsters/athamyr.md) | – | must be carried (10×) | “I have ten deliciously cooked pieces of meat now.” |
+| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-61) | handed over (10×) | “Here, take it.” |
+| [Athamyr](../monsters/athamyr.md) | – | must be carried (20×) | “I have bought the twenty cooked pieces of cooked meat.” |
+| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63) | handed over (20×) | “Here take it. And don't forget to unlock the window.” |
+| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Take these supplies and leave. I'll avenge your mates.” |
+| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Calm down. Take these supplies and call backup!” |
+| [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/ortholion_guard6.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | handed over (1×) | “How about some cooked meat?” |
+| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-130) | must be carried (10×) | “OK, I have it here.” |
+| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | handed over (10×) | “Yes, I'm sure.” |
+| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | – | must be carried (10×) | “Sure. Here, enjoy.” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -34,4 +81,60 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `meat_cooked` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat_cooked.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat_cooked.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat_cooked.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat_cooked.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `meat_cooked` |
+    | Category ID | `food` |
+    | Icon | `items_consumables:27` |
+    | Defined in | `res/raw/itemlist_food.json` |
+    | Loot tables containing it | `shop_thieves_guild_cook`, `shop_mara`, `shop_bela`, `shop_torilo`, `shop_tharwyn`, `shop_gallain`, `shop_grimion`, `shop_kendelow`, `brv_tavern_west_waitress`, `melona`, `shop_bela_2`, `sullengard_godrey_dl`, `one_cooked_meat`, `five_cooked_meat`, `ten_cooked_meat`, `twenty_cooked_meat` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "meat_cooked",
+     "iconID": "items_consumables:27",
+     "name": "Cooked meat",
+     "hasManualPrice": 1,
+     "baseMarketCost": 78,
+     "category": "food",
+     "useEffect": {
+      "conditionsSource": [
+       {
+        "condition": "food",
+        "magnitude": 3,
+        "duration": 11,
+        "chance": "100"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

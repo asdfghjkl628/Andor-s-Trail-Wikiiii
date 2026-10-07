@@ -1,21 +1,48 @@
 # ![](../assets/icons/monsters/monsters_bosses_2x2_4.png){ .sprite } Rock eater
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_bosses_2x2_4.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `rock_eater` |
+| **Type** | NPC |
+| **Class** | Construct |
+| **HP** | 500 |
+| **XP when killed** | 1,315 |
+| **Found in** | Mt. Galmore |
+| **Immune to crits** | Yes |
+| **Introduced** | [v0.8.18](../versions/0.8.18.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | construct |
 | HP | 500 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 5 |
 | Damage | 12 to 14 |
 | Attack chance | 254 |
 | Block chance | 180 |
 | Damage resistance | 20 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
 | Critical skill | 23 |
 | Critical multiplier | 2.2 |
+| Crit chance | 16% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
+
+**When hit:** On self: Petristill (magnitude 1, 10 rounds, 100% chance); On target: Minor weapon feebleness (magnitude 1, 1 rounds, 25% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +50,12 @@
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 2500 |
 
-## Found on
+## Locations
 
-- [undertell_exit](../maps/undertell_exit.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [undertell_exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | appears later in a quest |
+
 
 ## Quests
 
@@ -82,6 +112,7 @@ Set up your situation (quest stages, items, kills…), then talk to Rock eater. 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -103,4 +134,64 @@ Set up your situation (quest stages, items, kills…), then talk to Rock eater. 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=rock_eater.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `rock_eater` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `rock_eater` |
+    | Spawn group | `rock_eater` |
+    | Loot table | `gold2500` |
+    | Conversation | `rock_eater_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_bosses_2x2:4` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rock_eater",
+     "name": "Rock eater",
+     "iconID": "monsters_bosses_2x2:4",
+     "maxHP": 500,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "construct",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 12,
+      "max": 14
+     },
+     "phraseID": "rock_eater_selector",
+     "droplistID": "gold2500",
+     "attackCost": 5,
+     "attackChance": 254,
+     "criticalSkill": 23,
+     "criticalMultiplier": 2.2,
+     "blockChance": 180,
+     "damageResistance": 20,
+     "hitReceivedEffect": {
+      "conditionsSource": [
+       {
+        "condition": "petristill",
+        "magnitude": 1,
+        "duration": 10,
+        "chance": "100"
+       }
+      ],
+      "conditionsTarget": [
+       {
+        "condition": "feebleness_minor",
+        "magnitude": 1,
+        "duration": 1,
+        "chance": "25"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

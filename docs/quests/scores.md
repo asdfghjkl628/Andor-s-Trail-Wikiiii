@@ -30,6 +30,7 @@ Start with stepping on a trigger on [debugmap](../maps/debugmap.md). Required:
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -105,6 +106,7 @@ Start with stepping on a trigger on [debugmap](../maps/debugmap.md). Required:
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -232,6 +234,7 @@ Start with stepping on a trigger on [debugmap](../maps/debugmap.md). Required:
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 **Completability:** From v0.8.16.1, this quest could not be completed: it had no ending yet. It became completable in [v0.8.17](../versions/0.8.17.md).
@@ -244,6 +247,7 @@ Start with stepping on a trigger on [debugmap](../maps/debugmap.md). Required:
 | [v0.8.17](../versions/0.8.17.md) | journal visibility changed; stages added: 11, 21, 31, 41, 51 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

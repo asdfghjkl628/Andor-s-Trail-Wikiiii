@@ -1,18 +1,44 @@
 # ![](../assets/icons/monsters/monsters_tometik3_69.png){ .sprite } Sullengard snapper
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_69.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `sullengard_snapper` |
+| **Type** | NPC |
+| **Class** | Reptile |
+| **HP** | 100 |
+| **XP when killed** | 327 |
+| **Found in** | Sullengard |
+| **Introduced** | [v0.8.2](../versions/0.8.2.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | reptile |
 | HP | 100 |
-| Max AP | 10 |
-| Attack cost | 7 |
-| Move cost | 10 |
 | Damage | 11 to 15 |
 | Attack chance | 130 |
 | Block chance | 200 |
 | Damage resistance | 10 |
+| Max AP | 10 |
+| Attack cost | 7 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 20 |
 | Critical multiplier | 2.5 |
+| Crit chance | 15% |
+
+**When hit:** On self: Bark skin (magnitude 1, 5 rounds, 5% chance); On target: Bleeding wound (magnitude 1, 5 rounds, 10% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,13 +47,21 @@
 | [Small rock](../items/rock.md) | 5% | 1 to 3 |
 | [Gold coins](../items/gold.md) | 100% | 0 to 10 |
 
-## Found on
+## Locations
 
-- [sullengard5](../maps/sullengard5.md)
-- [sullengard_pond](../maps/sullengard_pond.md)
-- [sullengard_pond_east](../maps/sullengard_pond_east.md)
-- [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md)
-- [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [sullengard5](../maps/sullengard5.md) | Sullengard | 2 | – |
+| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 9 | – |
+| [sullengard_pond_east](../maps/sullengard_pond_east.md) | – | 2 | – |
+| [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md) | – | 4 | – |
+| [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md) | – | 9 | – |
+
+
+## Quests that count kills
+
+- [Pond safety](../quests/sullengard_pond_safety.md#stage-30) with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) checks that you've killed at least 26
+
 
 ## Dialogue simulator
 
@@ -67,6 +101,7 @@ Set up your situation (quest stages, items, kills…), then talk to Sullengard s
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -88,4 +123,63 @@ Set up your situation (quest stages, items, kills…), then talk to Sullengard s
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=sullengard_snapper.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `sullengard_snapper` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `sullengard_snapper` |
+    | Spawn group | `sullengard_snapper` |
+    | Loot table | `sullengard_snapper` |
+    | Conversation | `sullengard_snapper_00` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_tometik3:69` |
+    | Defined in | `res/raw/monsterlist_sullengard.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "sullengard_snapper",
+     "name": "Sullengard snapper",
+     "iconID": "monsters_tometik3:69",
+     "maxHP": 100,
+     "unique": 1,
+     "monsterClass": "reptile",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 11,
+      "max": 15
+     },
+     "spawnGroup": "sullengard_snapper",
+     "phraseID": "sullengard_snapper_00",
+     "droplistID": "sullengard_snapper",
+     "attackCost": 7,
+     "attackChance": 130,
+     "criticalSkill": 20,
+     "criticalMultiplier": 2.5,
+     "blockChance": 200,
+     "damageResistance": 10,
+     "hitReceivedEffect": {
+      "conditionsSource": [
+       {
+        "condition": "barkskin",
+        "magnitude": 1,
+        "duration": 5,
+        "chance": "5"
+       }
+      ],
+      "conditionsTarget": [
+       {
+        "condition": "bleeding_wound",
+        "magnitude": 1,
+        "duration": 5,
+        "chance": "10"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -27,6 +27,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +50,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 | <span id="stage-60"></span>60 | Hadena was so grateful to me for helping them. **(completes quest)** | [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md)) | stage 50 | 5,000 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -84,6 +86,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -94,6 +97,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

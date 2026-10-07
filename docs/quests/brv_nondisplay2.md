@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil8.md), [Pupil](../monsters/brv_pupil4.md), [Pupil](../monsters/brv_pupil2.md) +6 |
+| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil5.md), [Pupil](../monsters/brv_pupil7.md), [Pupil](../monsters/brv_pupil8.md), [Pupil](../monsters/brv_pupil2.md) +6 |
 | **Locations** | [brimhaven_general1](../maps/brimhaven_general1.md), [brimhaven_school](../maps/brimhaven_school.md) |
 | **Related quests** | 2 |
 
@@ -34,6 +34,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -76,6 +77,7 @@
 | <span id="stage-60"></span>60 | 60=banned fromtower<br><span class="qnote">⚡ A scripted event can now trigger on [Brimhaven2](../maps/brimhaven2.md).</span><br><span class="qnote">🔒 An area on [Brimhaven church](../maps/brimhaven_church.md) becomes blocked off.</span> | walking into a blocked passage on [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -130,6 +132,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -138,6 +141,7 @@
 | [v0.7.12](../versions/0.7.12.md) | stages added: 60<br>Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

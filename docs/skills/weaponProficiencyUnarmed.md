@@ -25,6 +25,7 @@ When fighting without a weapon and shield, gain 20 attack chance, 2 damage poten
 | 3 | Skill point |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 The first level can only be learned from a quest (see below). After that, further levels are bought with skill points like any other skill.
 
 ## Relevant quest

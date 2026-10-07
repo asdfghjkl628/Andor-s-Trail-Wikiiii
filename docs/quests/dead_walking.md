@@ -26,6 +26,7 @@ Start with [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-70"></span>70 | Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard. **(completes quest)** | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) | stage 60 | 6,000 XP<br>gives [Gold coins](../items/gold.md)<br>faction “factionCountShadow” set to 2 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -81,6 +83,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -90,6 +93,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Very! In fact, here are 3000 gold pieces for all your trouble.” → “Very! In fact, here are {3000} gold pieces for all your trouble.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

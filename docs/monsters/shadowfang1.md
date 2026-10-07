@@ -1,26 +1,48 @@
 # ![](../assets/icons/monsters/monsters_omi2_7.png){ .sprite } Shadowfang
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_7.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `shadowfang1` |
+| **Type** | NPC |
+| **Class** | Demon |
+| **HP** | 98 |
+| **XP when killed** | 330 |
+| **Found in** | blackwater_mountain76, elm_2f_1, elm_2f_3 |
+| **Immune to crits** | Yes |
+| **Introduced** | [v0.7.14](../versions/0.7.14.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 98 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 2 |
 | Damage | 3 to 21 |
 | Attack chance | 130 |
 | Block chance | 110 |
 | Damage resistance | 9 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 2 AP |
 | Critical skill | 10 |
 | Critical multiplier | 2.0 |
+| Crit chance | 9% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
-## On hit
+**On hit:** Heal HP: 0 to 3; On target: Venom (magnitude 2, 4 rounds, 10% chance); Vulnerability (magnitude 3, 3 rounds, 10% chance); Bleeding wound (magnitude 3, 2 rounds, 5% chance)
 
-- **Heal HP:** 0 to 3
-- **On target:** Venom (magnitude 2, 4 rounds, 10% chance); Vulnerability (magnitude 3, 3 rounds, 10% chance); Bleeding wound (magnitude 3, 2 rounds, 5% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -32,15 +54,18 @@
 | [Contaminated poison gland](../items/gland2.md) | 25% | 1 to 2 |
 | [Empty potion bottle](../items/vial_empty4.md) | 33.3333% | 1 |
 
-## Found on
+## Locations
 
-- [blackwater_mountain76](../maps/blackwater_mountain76.md)
-- [elm_2f_1](../maps/elm_2f_1.md)
-- [elm_2f_3](../maps/elm_2f_3.md)
-- [elm_4f_1](../maps/elm_4f_1.md)
-- [elm_4f_5](../maps/elm_4f_5.md)
-- [elm_mine3](../maps/elm_mine3.md)
-- [elm_mine5](../maps/elm_mine5.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 2 | appears later in a quest |
+| [elm_2f_1](../maps/elm_2f_1.md) | – | 1 | – |
+| [elm_2f_3](../maps/elm_2f_3.md) | – | 1 | – |
+| [elm_4f_1](../maps/elm_4f_1.md) | – | 1 | – |
+| [elm_4f_5](../maps/elm_4f_5.md) | – | 1 | – |
+| [elm_mine3](../maps/elm_mine3.md) | – | 2 | appears later in a quest |
+| [elm_mine5](../maps/elm_mine5.md) | – | 3 | – |
+
 
 ## Dialogue simulator
 
@@ -70,6 +95,7 @@ Set up your situation (quest stages, items, kills…), then talk to Shadowfang. 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -91,4 +117,73 @@ Set up your situation (quest stages, items, kills…), then talk to Shadowfang. 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=shadowfang1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `shadowfang1` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `shadowfang1` |
+    | Spawn group | `shadowfang` |
+    | Loot table | `shadowfang1` |
+    | Conversation | `shadowfang_1` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_omi2:7` |
+    | Defined in | `res/raw/monsterlist_omi2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shadowfang1",
+     "name": "Shadowfang",
+     "iconID": "monsters_omi2:7",
+     "maxHP": 98,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "demon",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 3,
+      "max": 21
+     },
+     "spawnGroup": "shadowfang",
+     "faction": "",
+     "phraseID": "shadowfang_1",
+     "droplistID": "shadowfang1",
+     "attackCost": 5,
+     "attackChance": 130,
+     "criticalSkill": 10,
+     "criticalMultiplier": 2.0,
+     "blockChance": 110,
+     "damageResistance": 9,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 0,
+       "max": 3
+      },
+      "conditionsTarget": [
+       {
+        "condition": "venom",
+        "magnitude": 2,
+        "duration": 4,
+        "chance": "10"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 3,
+        "duration": 3,
+        "chance": "10"
+       },
+       {
+        "condition": "bleeding_wound",
+        "magnitude": 3,
+        "duration": 2,
+        "chance": "5"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

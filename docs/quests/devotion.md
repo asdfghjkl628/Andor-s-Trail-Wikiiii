@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 24 (completes at 450, 480) |
 | **Started by** | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) |
-| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade10.md), [Forsaken shade](../monsters/shade4.md), [Forsaken shade](../monsters/shade8.md), [Forsaken shade](../monsters/shade3.md), [Forsaken shade](../monsters/shade2.md) +6 |
+| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade11.md), [Forsaken shade](../monsters/shade2.md), [Forsaken shade](../monsters/shade4.md), [Forsaken shade](../monsters/shade8.md), [Forsaken shade](../monsters/shade5.md) +6 |
 | **Locations** | [undertell_3_00](../maps/undertell_3_00.md), [undertell_3_02](../maps/undertell_3_02.md), [undertell_3_03](../maps/undertell_3_03.md), [undertell_3_10](../maps/undertell_3_10.md) |
 | **Total XP** | 9,003 |
 | **Related quests** | 2 |
@@ -28,6 +28,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -94,6 +95,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 | <span id="stage-480"></span>480 | I killed all the shades including Anoa. I did not get any reward. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Undertell 3 02](../maps/undertell_3_02.md).</span> | stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) | stage 470 | 13 XP<br>sets stage 450 of [hidden_devotion (hidden flag)](../quests/hidden_devotion.md#stage-450)<br>spawns monsters on undertell_3_00<br>spawns monsters on undertell_3_01<br>spawns monsters on undertell_3_11<br>spawns monsters on undertell_3_12<br>spawns monsters on undertell_3_13<br>spawns monsters on undertell_3_03<br>spawns monsters on undertell_3_02 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -317,6 +319,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -324,6 +327,7 @@ Start with [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 34 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

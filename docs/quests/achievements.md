@@ -34,6 +34,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -97,6 +98,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -173,6 +175,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 **Completability:** As of v0.8.18, this quest cannot be completed: it had no ending yet. This has been the case since v0.7.13.
@@ -191,6 +194,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | [v0.8.18](../versions/0.8.18.md) | stages added: 160, 225; stage 30 journal text changed<br>Dialogue: 1 line changed<br>· text: “Reflecting on your journey, you marvel at how you were able to go fro…” → “Reflecting on your journey, you marvel at how you were able to go fro…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

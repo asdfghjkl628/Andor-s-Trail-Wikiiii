@@ -22,6 +22,7 @@ For every skill level, decreases the buying and selling gold penalty by 4 percen
 No requirements: any skill point can go here.
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
 ## Relevant quest
 
 **Quest:** [The exploded star](../quests/mg2_exploded_star.md#stage-62) (reaching stage 62)

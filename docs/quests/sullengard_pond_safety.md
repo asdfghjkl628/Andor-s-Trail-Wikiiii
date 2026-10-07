@@ -27,6 +27,7 @@ Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +47,7 @@ Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_
 | <span id="stage-50"></span>50 | I told Nanette the moral of the story. She had already learned from her mistake and she promised never to do it again just to release her anger issue against the unfair taxes of Feygard. **(completes quest)** | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) | stage 40 | 2,000 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -73,6 +75,7 @@ Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -80,6 +83,7 @@ Start with [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 5 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

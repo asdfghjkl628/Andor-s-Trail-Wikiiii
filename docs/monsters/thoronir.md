@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Thoronir
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_8.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `thoronir` |
+| **Type** | Shopkeeper |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Fallhaven |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -20,9 +43,12 @@
 |---|---|---|
 | [Bonemeal potion](../items/bonemeal_potion.md) | 100% | 50 |
 
-## Found on
+## Locations
 
-- [fallhaven_church](../maps/fallhaven_church.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [fallhaven_church](../maps/fallhaven_church.md) | Fallhaven | 1 | – |
+
 
 ## Quests
 
@@ -215,7 +241,7 @@ Set up your situation (quest stages, items, kills…), then talk to Thoronir. Th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Give me some time to mix the Bonemeal potion. It is a very potent hea…” → “Give me some time to mix the bonemeal potion. It is a very potent hea…”<br>· text: “Yes, the Bonemeal potions are ready. Please use them with care, and d…” → “Yes, the bonemeal potions are ready. Please use them with care, and d…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Give me some time to mix the Bonemeal potion. It is a very potent hea…” → “Give me some time to mix the bonemeal potion. It is a very potent hea…”<br>· text: “Shhh, we shouldn't talk so loud about using Bonemeal. As you know, Lo…” → “Shhh, we shouldn't talk so loud about using bonemeal. As you know, Lo…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 8 lines added, 1 line changed<br>· text: “Bask in the Shadow, my child.” → “null” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed |
@@ -224,6 +250,7 @@ Set up your situation (quest stages, items, kills…), then talk to Thoronir. Th
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -246,4 +273,32 @@ Set up your situation (quest stages, items, kills…), then talk to Thoronir. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=thoronir.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `thoronir` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `thoronir` |
+    | Spawn group | `thoronir` |
+    | Loot table | `shop_thoronir` |
+    | Conversation | `thoronir_default` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men2:8` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "thoronir",
+     "name": "Thoronir",
+     "iconID": "monsters_men2:8",
+     "monsterClass": "humanoid",
+     "spawnGroup": "thoronir",
+     "phraseID": "thoronir_default",
+     "droplistID": "shop_thoronir"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

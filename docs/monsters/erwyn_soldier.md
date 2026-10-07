@@ -1,29 +1,63 @@
 # ![](../assets/icons/monsters/monsters_tometik8_38.png){ .sprite } Erwyn's soldier
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_38.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `erwyn_soldier` |
+| **Type** | NPC |
+| **Class** | Undead |
+| **HP** | 65 |
+| **XP when killed** | 99 |
+| **Found in** | Stoutford, Prim, Flagstone Prison |
+| **Introduced** | [v0.7.2](../versions/0.7.2.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 65 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 10 |
 | Damage | 4 to 5 |
 | Attack chance | 90 |
 | Block chance | 60 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [stoutford_castle_barrack0](../maps/stoutford_castle_barrack0.md)
-- [stoutford_castle_barrack2](../maps/stoutford_castle_barrack2.md)
-- [stoutford_castle_tower0](../maps/stoutford_castle_tower0.md)
-- [stoutford_tower4](../maps/stoutford_tower4.md)
-- [waytogalmore0](../maps/waytogalmore0.md)
-- [waytogalmore1](../maps/waytogalmore1.md)
-- [wild18](../maps/wild18.md)
-- [wild22](../maps/wild22.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [stoutford_castle_barrack0](../maps/stoutford_castle_barrack0.md) | Stoutford | 2 | – |
+| [stoutford_castle_barrack2](../maps/stoutford_castle_barrack2.md) | Prim | 2 | – |
+| [stoutford_castle_tower0](../maps/stoutford_castle_tower0.md) | Flagstone Prison | 1 | – |
+| [stoutford_tower4](../maps/stoutford_tower4.md) | – | 1 | – |
+| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 2 | – |
+| [waytogalmore1](../maps/waytogalmore1.md) | Flagstone Prison | 1 | – |
+| [wild18](../maps/wild18.md) | Flagstone Prison | 1 | – |
+| [wild22](../maps/wild22.md) | Stoutford | 3 | – |
+
+
+## Quests that count kills
+
+- A conversation with [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) checks that you've killed at least 2
+- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-46) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md), stepping on a trigger on [wild18](../maps/wild18.md) checks that you've killed at least 13
+- A conversation with [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md)), stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that you've killed at least 1
+
 
 ## Dialogue simulator
 
@@ -51,6 +85,7 @@ Set up your situation (quest stages, items, kills…), then talk to Erwyn's sold
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -72,4 +107,42 @@ Set up your situation (quest stages, items, kills…), then talk to Erwyn's sold
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_soldier.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `erwyn_soldier` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `erwyn_soldier` |
+    | Spawn group | `erwyn_soldier` |
+    | Loot table | – |
+    | Conversation | `stoutford_castle_1` |
+    | Faction | – |
+    | Movement | helpOthers |
+    | Icon | `monsters_tometik8:38` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "erwyn_soldier",
+     "name": "Erwyn's soldier",
+     "iconID": "monsters_tometik8:38",
+     "maxHP": 65,
+     "unique": 1,
+     "monsterClass": "undead",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 4,
+      "max": 5
+     },
+     "spawnGroup": "erwyn_soldier",
+     "phraseID": "stoutford_castle_1",
+     "attackCost": 3,
+     "attackChance": 90,
+     "blockChance": 60,
+     "damageResistance": 0
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

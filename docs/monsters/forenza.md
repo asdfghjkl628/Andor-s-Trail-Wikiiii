@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_tometik7_22.png){ .sprite } Forenza
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_22.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `forenza` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 215 |
+| **XP when killed** | 302 |
+| **Found in** | Lake Laeroth |
+| **Introduced** | [v0.8.11](../versions/0.8.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 215 |
-| Max AP | 10 |
-| Attack cost | 4 |
-| Move cost | 2 |
 | Damage | 10 to 22 |
 | Attack chance | 70 |
 | Block chance | 50 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 4 AP |
+| Attacks per turn | 2 |
+| Move cost | 2 AP |
 | Critical skill | 30 |
 | Critical multiplier | 2.0 |
+| Crit chance | 19% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -22,9 +46,12 @@
 | [Necklace of strike](../items/necklace_strike.md) | 100% | 1 |
 | [Azure gem](../items/gem6.md) | 15% | 1 |
 
-## Found on
+## Locations
 
-- [laerothbasement2](../maps/laerothbasement2.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [laerothbasement2](../maps/laerothbasement2.md) | Lake Laeroth | 1 | appears later in a quest |
+
 
 ## Quests
 
@@ -199,6 +226,7 @@ Set up your situation (quest stages, items, kills…), then talk to Forenza. The
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -220,4 +248,45 @@ Set up your situation (quest stages, items, kills…), then talk to Forenza. The
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=forenza.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `forenza` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `forenza` |
+    | Spawn group | `forenza_laerothisland2` |
+    | Loot table | `forenza_dl` |
+    | Conversation | `forenza_island_selector` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_tometik7:22` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "forenza",
+     "name": "Forenza",
+     "iconID": "monsters_tometik7:22",
+     "maxHP": 215,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 10,
+      "max": 22
+     },
+     "spawnGroup": "forenza_laerothisland2",
+     "phraseID": "forenza_island_selector",
+     "droplistID": "forenza_dl",
+     "attackCost": 4,
+     "attackChance": 70,
+     "criticalSkill": 30,
+     "criticalMultiplier": 2.0,
+     "blockChance": 50
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

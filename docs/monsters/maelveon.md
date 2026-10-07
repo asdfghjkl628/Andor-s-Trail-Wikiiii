@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } Maelveon
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_2.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `maelveon` |
+| **Type** | NPC |
+| **Class** | Undead |
+| **HP** | 55 |
+| **XP when killed** | 149 |
+| **Found in** | gargoylecave3 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | undead |
 | HP | 55 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 10 |
 | Damage | 0 to 12 |
 | Attack chance | 80 |
 | Block chance | 90 |
 | Damage resistance | 5 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 10 AP |
 | Critical skill | 15 |
 | Critical multiplier | 3.0 |
+| Crit chance | 12% |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -23,9 +47,12 @@
 | [Regular potion of health](../items/health.md) | 100% | 2 |
 | [Stone Cuirass](../items/armor_stone.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [gargoylecave3](../maps/gargoylecave3.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [gargoylecave3](../maps/gargoylecave3.md) | – | 1 | – |
+
 
 ## Dialogue simulator
 
@@ -74,9 +101,10 @@ Set up your situation (quest stages, items, kills…), then talk to Maelveon. Th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “G.. argoyle Shadow.” → “G ... argoyle Shadow.”<br>· text: “A.. llow the Sssshadow in you.” → “A ... llow the Sssshadow in you.” |
+| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “A.. llow the Sssshadow in you.” → “A ... llow the Sssshadow in you.”<br>· text: “[you feel a tingling sensation in your body as the frightening figure…” → “[You feel a tingling sensation in your body as the frightening figure…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -99,4 +127,44 @@ Set up your situation (quest stages, items, kills…), then talk to Maelveon. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=maelveon.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `maelveon` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `maelveon` |
+    | Spawn group | `maelveon` |
+    | Loot table | `maelveon` |
+    | Conversation | `maelveon` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:2` |
+    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "maelveon",
+     "name": "Maelveon",
+     "iconID": "monsters_liches:2",
+     "maxHP": 55,
+     "unique": 1,
+     "monsterClass": "undead",
+     "attackDamage": {
+      "min": 0,
+      "max": 12
+     },
+     "spawnGroup": "maelveon",
+     "phraseID": "maelveon",
+     "droplistID": "maelveon",
+     "attackCost": 3,
+     "attackChance": 80,
+     "criticalSkill": 15,
+     "criticalMultiplier": 3.0,
+     "blockChance": 90,
+     "damageResistance": 5
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -28,6 +28,7 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -51,6 +52,7 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 | <span id="stage-90"></span>90 | I released the mouse. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven exit](../maps/brimhaven_exit.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven7](../maps/brimhaven7.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterway12](../maps/waterway12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven3](../maps/waytobrimhaven3.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven6](../maps/waytobrimhaven6.md).</span> | stepping on a trigger on [brimhaven7](../maps/brimhaven7.md) | carry 1× [Trapped mouse](../items/trapped_mouse.md), hand over 1× [Trapped mouse](../items/trapped_mouse.md) | 1,500 XP<br>gives [Large empty bottle](../items/large_bottle.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -96,6 +98,7 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -104,6 +107,7 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

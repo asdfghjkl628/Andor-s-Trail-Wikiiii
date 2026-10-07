@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Knight of Elythom
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `burhczyd3e` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Loneford |
+| **Introduced** | [v0.7.11](../versions/0.7.11.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [loneford6](../maps/loneford6.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [loneford6](../maps/loneford6.md) | Loneford | 1 | appears later in a quest |
+
 
 ## Quests
 
@@ -704,15 +730,16 @@ Set up your situation (quest stages, items, kills…), then talk to Knight of El
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Wow, splendid idea! I will take my fathers cart. Then all I need is a…” → “Wow, splendid idea! I will take my father's cart. Then all I need is …”<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “null” → “Well, her parents haven't given me their consent yet.”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…”<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “null” → “Deep conversations.” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -735,4 +762,31 @@ Set up your situation (quest stages, items, kills…), then talk to Knight of El
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burhczyd3e.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `burhczyd3e` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `burhczyd3e` |
+    | Spawn group | `burhczyd3e` |
+    | Loot table | – |
+    | Conversation | `burhczyd3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd3e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd3"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 910) |
 | **Started by** | [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) |
-| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md), [Charybdis](../monsters/ll2_whirl_return.md), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem.md), [Polyphem](../monsters/polyphem_bed.md) +3 |
+| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md), [Charybdis](../monsters/ll2_whirl_return.md), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem_bed.md), [Polyphem](../monsters/polyphem.md) +3 |
 | **Locations** | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md), [mountainlake14](../maps/mountainlake14.md), [mountainlake19](../maps/mountainlake19.md), [mountainlake27](../maps/mountainlake27.md) |
 | **Total XP** | 13,000 |
 | **Related quests** | 2 |
@@ -27,6 +27,7 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -109,6 +110,7 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 <span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -275,6 +277,7 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -282,6 +285,7 @@ Start with [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0
 | [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 38 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

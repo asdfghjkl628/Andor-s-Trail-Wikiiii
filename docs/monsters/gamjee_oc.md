@@ -1,22 +1,46 @@
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Gamjee
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_cyclops_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `gamjee_oc` |
+| **Type** | NPC |
+| **Class** | Giant |
+| **HP** | 417 |
+| **XP when killed** | 741 |
+| **Found in** | gamjee_well_4_1 |
+| **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | giant |
 | HP | 417 |
-| Max AP | 10 |
-| Attack cost | 6 |
-| Move cost | 10 |
 | Damage | 10 to 13 |
 | Attack chance | 70 |
 | Block chance | 101 |
 | Damage resistance | 13 |
+| Max AP | 10 |
+| Attack cost | 6 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 15 |
 | Critical multiplier | 2.0 |
+| Crit chance | 12% |
 
-## On hit
+**On hit:** On target: Concussion (magnitude 1, 2 rounds, 5% chance)
 
-- **On target:** Concussion (magnitude 1, 2 rounds, 5% chance)
+**When hit:** On target: Soaked vision (magnitude 1, 2 rounds, 30% chance)
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -27,9 +51,18 @@
 | [Godwin's ring](../items/godwin_ring.md) | 100% | 1 |
 | [Stormcloak armor](../items/stormcloak_armor.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [gamjee_well_4_1](../maps/gamjee_well_4_1.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | appears later in a quest |
+
+
+## Quests that count kills
+
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that you've killed at least 1
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) checks that you've killed at least 1
+
 
 ## Quests
 
@@ -160,6 +193,7 @@ Set up your situation (quest stages, items, kills…), then talk to Gamjee. The 
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -181,4 +215,64 @@ Set up your situation (quest stages, items, kills…), then talk to Gamjee. The 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gamjee_oc.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `gamjee_oc` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `gamjee_oc` |
+    | Spawn group | `gamjee_oc` |
+    | Loot table | `gamjee_oc_dl` |
+    | Conversation | `gamjee_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_cyclops:0` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gamjee_oc",
+     "name": "Gamjee",
+     "iconID": "monsters_cyclops:0",
+     "maxHP": 417,
+     "unique": 1,
+     "monsterClass": "giant",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 10,
+      "max": 13
+     },
+     "phraseID": "gamjee_selector",
+     "droplistID": "gamjee_oc_dl",
+     "attackCost": 6,
+     "attackChance": 70,
+     "criticalSkill": 15,
+     "criticalMultiplier": 2.0,
+     "blockChance": 101,
+     "damageResistance": 13,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "concussion",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "5"
+       }
+      ]
+     },
+     "hitReceivedEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "soaked_vision",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

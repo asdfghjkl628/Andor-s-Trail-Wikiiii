@@ -29,6 +29,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -74,6 +75,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | <span id="stage-60"></span>60 | I returned to Troublemaker and gave him the journals. He told me to talk with Umar, maybe he has another task for me. **(completes quest)** | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 20 | 1,750 XP<br>gives 900× [Gold coins](../items/gold.md)<br>sets stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -135,6 +137,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -143,6 +146,7 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

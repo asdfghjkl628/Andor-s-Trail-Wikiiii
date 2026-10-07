@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Tough cave rat
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rats_1.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `tough_cave_rat3` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 5 |
+| **XP when killed** | 15 |
+| **Found in** | Pub, Bloskelt + Roskelt, Entry |
+| **Introduced** | [v0.8.5](../versions/0.8.5.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 5 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 3 |
 | Attack chance | 90 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,142 +45,73 @@
 | [Gold coins](../items/gold.md) | 100% | 2 to 4 |
 | [Rat tail](../items/rat_tail.md) | 30% | 1 |
 
-## Found on
+## Locations
 
-- [ratdom_maze_402](../maps/ratdom_maze_402.md)
-- [ratdom_maze_403](../maps/ratdom_maze_403.md)
-- [ratdom_maze_412](../maps/ratdom_maze_412.md)
-- [ratdom_maze_413](../maps/ratdom_maze_413.md)
-- [ratdom_maze_414](../maps/ratdom_maze_414.md)
-- [ratdom_maze_415](../maps/ratdom_maze_415.md)
-- [ratdom_maze_416](../maps/ratdom_maze_416.md)
-- [ratdom_maze_417](../maps/ratdom_maze_417.md)
-- [ratdom_maze_418](../maps/ratdom_maze_418.md)
-- [ratdom_maze_421](../maps/ratdom_maze_421.md)
-- [ratdom_maze_422](../maps/ratdom_maze_422.md)
-- [ratdom_maze_423](../maps/ratdom_maze_423.md)
-- [ratdom_maze_424](../maps/ratdom_maze_424.md)
-- [ratdom_maze_425](../maps/ratdom_maze_425.md)
-- [ratdom_maze_426](../maps/ratdom_maze_426.md)
-- [ratdom_maze_427](../maps/ratdom_maze_427.md)
-- [ratdom_maze_428](../maps/ratdom_maze_428.md)
-- [ratdom_maze_432](../maps/ratdom_maze_432.md)
-- [ratdom_maze_433](../maps/ratdom_maze_433.md)
-- [ratdom_maze_434](../maps/ratdom_maze_434.md)
-- [ratdom_maze_434b](../maps/ratdom_maze_434b.md)
-- [ratdom_maze_435](../maps/ratdom_maze_435.md)
-- [ratdom_maze_436](../maps/ratdom_maze_436.md)
-- [ratdom_maze_437](../maps/ratdom_maze_437.md)
-- [ratdom_maze_438](../maps/ratdom_maze_438.md)
-- [ratdom_maze_441](../maps/ratdom_maze_441.md)
-- [ratdom_maze_442](../maps/ratdom_maze_442.md)
-- [ratdom_maze_443](../maps/ratdom_maze_443.md)
-- [ratdom_maze_444](../maps/ratdom_maze_444.md)
-- [ratdom_maze_445](../maps/ratdom_maze_445.md)
-- [ratdom_maze_446](../maps/ratdom_maze_446.md)
-- [ratdom_maze_447](../maps/ratdom_maze_447.md)
-- [ratdom_maze_448](../maps/ratdom_maze_448.md)
-- [ratdom_maze_451](../maps/ratdom_maze_451.md)
-- [ratdom_maze_452](../maps/ratdom_maze_452.md)
-- [ratdom_maze_453](../maps/ratdom_maze_453.md)
-- [ratdom_maze_454](../maps/ratdom_maze_454.md)
-- [ratdom_maze_455](../maps/ratdom_maze_455.md)
-- [ratdom_maze_455a](../maps/ratdom_maze_455a.md)
-- [ratdom_maze_456](../maps/ratdom_maze_456.md)
-- [ratdom_maze_457](../maps/ratdom_maze_457.md)
-- [ratdom_maze_458](../maps/ratdom_maze_458.md)
-- [ratdom_maze_461](../maps/ratdom_maze_461.md)
-- [ratdom_maze_463](../maps/ratdom_maze_463.md)
-- [ratdom_maze_464](../maps/ratdom_maze_464.md)
-- [ratdom_maze_466](../maps/ratdom_maze_466.md)
-- [ratdom_maze_467](../maps/ratdom_maze_467.md)
-- [ratdom_maze_476](../maps/ratdom_maze_476.md)
-- [ratdom_maze_506](../maps/ratdom_maze_506.md)
-- [ratdom_maze_513](../maps/ratdom_maze_513.md)
-- [ratdom_maze_514](../maps/ratdom_maze_514.md)
-- [ratdom_maze_515](../maps/ratdom_maze_515.md)
-- [ratdom_maze_516](../maps/ratdom_maze_516.md)
-- [ratdom_maze_517](../maps/ratdom_maze_517.md)
-- [ratdom_maze_517a](../maps/ratdom_maze_517a.md)
-- [ratdom_maze_521](../maps/ratdom_maze_521.md)
-- [ratdom_maze_522](../maps/ratdom_maze_522.md)
-- [ratdom_maze_523](../maps/ratdom_maze_523.md)
-- [ratdom_maze_524](../maps/ratdom_maze_524.md)
-- [ratdom_maze_525](../maps/ratdom_maze_525.md)
-- [ratdom_maze_526](../maps/ratdom_maze_526.md)
-- [ratdom_maze_527](../maps/ratdom_maze_527.md)
-- [ratdom_maze_531](../maps/ratdom_maze_531.md)
-- [ratdom_maze_532](../maps/ratdom_maze_532.md)
-- [ratdom_maze_533](../maps/ratdom_maze_533.md)
-- [ratdom_maze_534](../maps/ratdom_maze_534.md)
-- [ratdom_maze_535](../maps/ratdom_maze_535.md)
-- [ratdom_maze_535a](../maps/ratdom_maze_535a.md)
-- [ratdom_maze_536](../maps/ratdom_maze_536.md)
-- [ratdom_maze_537](../maps/ratdom_maze_537.md)
-- [ratdom_maze_538](../maps/ratdom_maze_538.md)
-- [ratdom_maze_541](../maps/ratdom_maze_541.md)
-- [ratdom_maze_542](../maps/ratdom_maze_542.md)
-- [ratdom_maze_543](../maps/ratdom_maze_543.md)
-- [ratdom_maze_544](../maps/ratdom_maze_544.md)
-- [ratdom_maze_545](../maps/ratdom_maze_545.md)
-- [ratdom_maze_546](../maps/ratdom_maze_546.md)
-- [ratdom_maze_547](../maps/ratdom_maze_547.md)
-- [ratdom_maze_551](../maps/ratdom_maze_551.md)
-- [ratdom_maze_552](../maps/ratdom_maze_552.md)
-- [ratdom_maze_553](../maps/ratdom_maze_553.md)
-- [ratdom_maze_554](../maps/ratdom_maze_554.md)
-- [ratdom_maze_555](../maps/ratdom_maze_555.md)
-- [ratdom_maze_557](../maps/ratdom_maze_557.md)
-- [ratdom_maze_558](../maps/ratdom_maze_558.md)
-- [ratdom_maze_562](../maps/ratdom_maze_562.md)
-- [ratdom_maze_563](../maps/ratdom_maze_563.md)
-- [ratdom_maze_564](../maps/ratdom_maze_564.md)
-- [ratdom_maze_565](../maps/ratdom_maze_565.md)
-- [ratdom_maze_566](../maps/ratdom_maze_566.md)
-- [ratdom_maze_567](../maps/ratdom_maze_567.md)
-- [ratdom_maze_568](../maps/ratdom_maze_568.md)
-- [ratdom_maze_572](../maps/ratdom_maze_572.md)
-- [ratdom_maze_611](../maps/ratdom_maze_611.md)
-- [ratdom_maze_612](../maps/ratdom_maze_612.md)
-- [ratdom_maze_616](../maps/ratdom_maze_616.md)
-- [ratdom_maze_617](../maps/ratdom_maze_617.md)
-- [ratdom_maze_618](../maps/ratdom_maze_618.md)
-- [ratdom_maze_621](../maps/ratdom_maze_621.md)
-- [ratdom_maze_622](../maps/ratdom_maze_622.md)
-- [ratdom_maze_623](../maps/ratdom_maze_623.md)
-- [ratdom_maze_624](../maps/ratdom_maze_624.md)
-- [ratdom_maze_625](../maps/ratdom_maze_625.md)
-- [ratdom_maze_626](../maps/ratdom_maze_626.md)
-- [ratdom_maze_627](../maps/ratdom_maze_627.md)
-- [ratdom_maze_628](../maps/ratdom_maze_628.md)
-- [ratdom_maze_631](../maps/ratdom_maze_631.md)
-- [ratdom_maze_632](../maps/ratdom_maze_632.md)
-- [ratdom_maze_633](../maps/ratdom_maze_633.md)
-- [ratdom_maze_634](../maps/ratdom_maze_634.md)
-- [ratdom_maze_635](../maps/ratdom_maze_635.md)
-- [ratdom_maze_636](../maps/ratdom_maze_636.md)
-- [ratdom_maze_637](../maps/ratdom_maze_637.md)
-- [ratdom_maze_638](../maps/ratdom_maze_638.md)
-- [ratdom_maze_641](../maps/ratdom_maze_641.md)
-- [ratdom_maze_642](../maps/ratdom_maze_642.md)
-- [ratdom_maze_643](../maps/ratdom_maze_643.md)
-- [ratdom_maze_644](../maps/ratdom_maze_644.md)
-- [ratdom_maze_645](../maps/ratdom_maze_645.md)
-- [ratdom_maze_646](../maps/ratdom_maze_646.md)
-- [ratdom_maze_647](../maps/ratdom_maze_647.md)
-- [ratdom_maze_648](../maps/ratdom_maze_648.md)
-- [ratdom_maze_652](../maps/ratdom_maze_652.md)
-- [ratdom_maze_653](../maps/ratdom_maze_653.md)
-- [ratdom_maze_655](../maps/ratdom_maze_655.md)
-- [ratdom_maze_656](../maps/ratdom_maze_656.md)
-- [ratdom_maze_657](../maps/ratdom_maze_657.md)
-- [ratdom_maze_658](../maps/ratdom_maze_658.md)
-- [ratdom_maze_661](../maps/ratdom_maze_661.md)
-- [ratdom_maze_662](../maps/ratdom_maze_662.md)
-- [ratdom_maze_664](../maps/ratdom_maze_664.md)
-- [ratdom_maze_666](../maps/ratdom_maze_666.md)
-- [ratdom_maze_705](../maps/ratdom_maze_705.md)
-- [ratdom_maze_768](../maps/ratdom_maze_768.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [ratdom_maze_402](../maps/ratdom_maze_402.md) | Pub | 1 | – |
+| [ratdom_maze_403](../maps/ratdom_maze_403.md) | Pub | 1 | – |
+| [ratdom_maze_412](../maps/ratdom_maze_412.md) | Pub | 2 | – |
+| [ratdom_maze_413](../maps/ratdom_maze_413.md) | Pub | 1 | – |
+| [ratdom_maze_414](../maps/ratdom_maze_414.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_415](../maps/ratdom_maze_415.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_417](../maps/ratdom_maze_417.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_418](../maps/ratdom_maze_418.md) | Entry | 1 | – |
+| [ratdom_maze_421](../maps/ratdom_maze_421.md) | Pub | 1 | – |
+| [ratdom_maze_422](../maps/ratdom_maze_422.md) | Pub | 1 | – |
+| [ratdom_maze_423](../maps/ratdom_maze_423.md) | Gold hunter | 1 | – |
+| [ratdom_maze_424](../maps/ratdom_maze_424.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_425](../maps/ratdom_maze_425.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_426](../maps/ratdom_maze_426.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_427](../maps/ratdom_maze_427.md) | Entry | 1 | – |
+| [ratdom_maze_428](../maps/ratdom_maze_428.md) | Entry | 1 | – |
+| [ratdom_maze_432](../maps/ratdom_maze_432.md) | Pub | 1 | – |
+| [ratdom_maze_433](../maps/ratdom_maze_433.md) | Pub | 1 | – |
+| [ratdom_maze_434](../maps/ratdom_maze_434.md) | Gold hunter | 1 | – |
+| [ratdom_maze_434b](../maps/ratdom_maze_434b.md) | Gold hunter | 1 | – |
+| [ratdom_maze_435](../maps/ratdom_maze_435.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_436](../maps/ratdom_maze_436.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_438](../maps/ratdom_maze_438.md) | Entry | 1 | – |
+| [ratdom_maze_441](../maps/ratdom_maze_441.md) | Pub | 1 | – |
+| [ratdom_maze_442](../maps/ratdom_maze_442.md) | Pub | 1 | – |
+| [ratdom_maze_443](../maps/ratdom_maze_443.md) | Gold hunter | 1 | – |
+| [ratdom_maze_444](../maps/ratdom_maze_444.md) | Gold hunter | 1 | – |
+| [ratdom_maze_445](../maps/ratdom_maze_445.md) | Instrument maker | 1 | – |
+| [ratdom_maze_446](../maps/ratdom_maze_446.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_447](../maps/ratdom_maze_447.md) | Entry | 1 | – |
+| [ratdom_maze_448](../maps/ratdom_maze_448.md) | Entry | 4 | – |
+| [ratdom_maze_451](../maps/ratdom_maze_451.md) | – | 1 | – |
+| [ratdom_maze_452](../maps/ratdom_maze_452.md) | – | 1 | – |
+| [ratdom_maze_453](../maps/ratdom_maze_453.md) | Gold hunter | 1 | – |
+| [ratdom_maze_454](../maps/ratdom_maze_454.md) | Instrument maker | 1 | – |
+| [ratdom_maze_455](../maps/ratdom_maze_455.md) | Instrument maker | 1 | – |
+| [ratdom_maze_455a](../maps/ratdom_maze_455a.md) | Blackwater Mountain | 1 | – |
+| [ratdom_maze_456](../maps/ratdom_maze_456.md) | Instrument maker | 1 | – |
+| [ratdom_maze_457](../maps/ratdom_maze_457.md) | Entry | 1 | – |
+| [ratdom_maze_458](../maps/ratdom_maze_458.md) | Entry | 1 | – |
+| [ratdom_maze_461](../maps/ratdom_maze_461.md) | – | 1 | – |
+| [ratdom_maze_463](../maps/ratdom_maze_463.md) | Instrument maker | 1 | – |
+| [ratdom_maze_464](../maps/ratdom_maze_464.md) | Instrument maker | 1 | – |
+| [ratdom_maze_466](../maps/ratdom_maze_466.md) | – | 1 | – |
+| [ratdom_maze_467](../maps/ratdom_maze_467.md) | Entry | 1 | – |
+| [ratdom_maze_476](../maps/ratdom_maze_476.md) | – | 1 | – |
+| [ratdom_maze_506](../maps/ratdom_maze_506.md) | Pub | 1 | – |
+| [ratdom_maze_513](../maps/ratdom_maze_513.md) | Pub | 1 | – |
+| [ratdom_maze_514](../maps/ratdom_maze_514.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_515](../maps/ratdom_maze_515.md) | Museum | 1 | – |
+| [ratdom_maze_516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_517](../maps/ratdom_maze_517.md) | Entry | 1 | – |
+| [ratdom_maze_517a](../maps/ratdom_maze_517a.md) | – | 1 | – |
+| [ratdom_maze_521](../maps/ratdom_maze_521.md) | Library | 1 | – |
+| [ratdom_maze_522](../maps/ratdom_maze_522.md) | Pub | 1 | – |
+| [ratdom_maze_523](../maps/ratdom_maze_523.md) | Pub | 1 | – |
+| [ratdom_maze_524](../maps/ratdom_maze_524.md) | Bloskelt + Roskelt | 1 | – |
+| [ratdom_maze_525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 1 | – |
+
+*…and 74 more maps.*
+
 
 ## Version history
 
@@ -166,4 +121,60 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `tough_cave_rat3` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tough_cave_rat3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tough_cave_rat3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tough_cave_rat3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tough_cave_rat3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `tough_cave_rat3` |
+    | Spawn group | `ratdom_maze_rat` |
+    | Loot table | `rat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:1` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tough_cave_rat3",
+     "name": "Tough cave rat",
+     "iconID": "monsters_rats:1",
+     "maxHP": 5,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 3,
+      "max": 3
+     },
+     "spawnGroup": "ratdom_maze_rat",
+     "droplistID": "rat",
+     "attackCost": 5,
+     "attackChance": 90
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

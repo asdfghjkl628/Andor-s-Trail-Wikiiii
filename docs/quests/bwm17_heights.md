@@ -26,6 +26,7 @@ Start with stepping on a trigger on [blackwater_mountain70](../maps/blackwater_m
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -40,6 +41,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-2"></span>2 | Level 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain70](../maps/blackwater_mountain70.md).</span> | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) | stage 1 | clears stage 1 of [Heights change in bwm_17 (Actually 70) (hidden flag)](../quests/bwm17_heights.md#stage-1) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -55,6 +57,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -62,6 +65,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 2 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

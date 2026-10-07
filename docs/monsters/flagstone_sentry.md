@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Flagstone sentry
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `flagstone_sentry` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Flagstone Prison |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [flagstone0](../maps/flagstone0.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+
 
 ## Quests
 
@@ -141,9 +167,10 @@ Set up your situation (quest stages, items, kills…), then talk to Flagstone se
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Flagstone Sentry → Flagstone sentry<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Are you really sure you want to head in there? Well, ok, fine by me.” → “Are you really sure you want to head in there? Well, OK, fine by me.”<br>· text: “A guardian you say? This is troubling news, since it means there is s…” → “A guardian and undead prisoners you say? This is troubling news, sinc…” |
+| [v0.7.2](../versions/0.7.2.md) | name: Flagstone Sentry → Flagstone sentry<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Flagstone used to be a prison camp for runaway workers from when Moun…” → “Flagstone Prison was built a few hundred years ago by house Gorland o…”<br>· text: “Are you really sure you want to head in there? Well, ok, fine by me.” → “Are you really sure you want to head in there? Well, OK, fine by me.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -166,4 +193,31 @@ Set up your situation (quest stages, items, kills…), then talk to Flagstone se
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=flagstone_sentry.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `flagstone_sentry` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `flagstone_sentry` |
+    | Spawn group | `flagstone_sentry` |
+    | Loot table | – |
+    | Conversation | `flagstone_sentry` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_wilderness.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "flagstone_sentry",
+     "name": "Flagstone sentry",
+     "iconID": "monsters_men:3",
+     "monsterClass": "humanoid",
+     "spawnGroup": "flagstone_sentry",
+     "phraseID": "flagstone_sentry"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

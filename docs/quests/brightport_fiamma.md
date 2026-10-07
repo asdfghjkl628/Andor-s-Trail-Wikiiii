@@ -27,6 +27,7 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -65,6 +66,7 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 | <span id="stage-50"></span>50 | I thanked Fiamma and went on my merry way. **(completes quest)** | [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | – | gives 1× [Glaive of Imeria](../items/glaive_butcher.md)<br>gives 1× [Flaming greatsword](../items/brightportflamesword.md)<br>gives 1× [Salamander gloves](../items/brightport_glove.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -113,6 +115,7 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -120,6 +123,7 @@ Start with [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 10 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

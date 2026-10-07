@@ -26,6 +26,7 @@ Start with [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/bl
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +47,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-60"></span>60 | I have given Bjorgur's family dagger to Fulus. He thanked me for bringing it to him, and rewarded me handsomely. **(completes quest)** | [Fulus](../monsters/fulus.md) ([blackwater_mountain28](../maps/blackwater_mountain28.md)) | hand over 1× [Bjorgur's family dagger](../items/bjorgur_dagger.md), stage 20 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -85,6 +87,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -93,6 +96,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -24,6 +24,7 @@ None: talk to [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -47,6 +48,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-65"></span>65 | I will not be able to resolve the conflict between Aulowenn and her attacker. **(completes quest)** | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md))<br>[Tiqui](../monsters/tiqui.md) ([lodar14](../maps/lodar14.md)) | stage 30, stage 31 | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -100,6 +102,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -108,6 +111,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…” → “Tiqui not want fight. Tiqui angry that men who smell bad kill his fri…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

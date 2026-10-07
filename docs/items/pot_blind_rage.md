@@ -1,18 +1,46 @@
 # ![](../assets/icons/items/items_consumables_63.png){ .sprite } Potion of blind rage
-*Ordinary* · Potion · value 495 gold
 
+*Ordinary potion.*
 
-## When used
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_consumables_63.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `pot_blind_rage` |
+| **Category** | Potion |
+| **Rarity** | Ordinary |
+| **Base value** | 495 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When used
 
 | Stat | Value |
 |---|---|
 | On self | Minor berserker rage (magnitude 1, 5 rounds, 100% chance) |
 
-## Sold by
-
-- [Mazeg](../monsters/mazeg.md)
-
 <p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Sold by
+
+- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+
+### Found in containers
+
+- [galmore_63](../maps/galmore_63.md#container-0) (container 1, 100%), Mt. Galmore
+- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [witch_house_basement](../maps/witch_house_basement.md#container-1) (container 2, 100%)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -23,4 +51,60 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `pot_blind_rage` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=pot_blind_rage.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=pot_blind_rage.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=pot_blind_rage.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=pot_blind_rage.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `pot_blind_rage` |
+    | Category ID | `pot` |
+    | Icon | `items_consumables:63` |
+    | Defined in | `res/raw/itemlist_v069.json` |
+    | Loot tables containing it | `shop_mazeg`, `wild16_cave2`, `witch_basement_dl2`, `galmore_63_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "pot_blind_rage",
+     "iconID": "items_consumables:63",
+     "name": "Potion of blind rage",
+     "hasManualPrice": 1,
+     "baseMarketCost": 495,
+     "category": "pot",
+     "useEffect": {
+      "conditionsSource": [
+       {
+        "condition": "rage_minor",
+        "magnitude": 1,
+        "duration": 5,
+        "chance": "100"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

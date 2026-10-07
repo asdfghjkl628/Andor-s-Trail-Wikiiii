@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 240, 250, 251) |
 | **Started by** | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) |
-| **NPCs involved** | [Agent](../monsters/agent1.md), [Agent](../monsters/agent4.md), [Agent](../monsters/agent6.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent3.md) +2 |
+| **NPCs involved** | [Agent](../monsters/agent4.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent3.md), [Agent](../monsters/agent1.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent6.md) +2 |
 | **Locations** | [blackwater_mountain14](../maps/blackwater_mountain14.md), [blackwater_mountain17](../maps/blackwater_mountain17.md), [blackwater_mountain29](../maps/blackwater_mountain29.md), [blackwater_mountain30](../maps/blackwater_mountain30.md) |
 | **Total XP** | 8,250 |
 | **Related quests** | 4 |
@@ -25,6 +25,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -75,6 +76,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 | <span id="stage-251"></span>251 | Since I am helping Prim, Harlenn no longer wants to talk to me. **(completes quest)** | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -184,14 +186,16 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
+| [v0.7.2](../versions/0.7.2.md) | stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…”<br>· text: “Thank you, friend. Your help is greatly appreciated. Everyone in the …” → “Thank you, friend. Your help is greatly appreciated. Everyone in the …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

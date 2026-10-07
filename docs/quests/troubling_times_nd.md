@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
-| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina2.md), [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina4.md) |
+| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina4.md), [Sly Seraphina](../monsters/tt_seraphina2.md) |
 | **Locations** | [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md) |
 | **Related quests** | 1 |
 
@@ -27,6 +27,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4
 | <span id="stage-30"></span>30 | 1=standing north of Sly while she blocks the passage<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | stepping on a trigger on [crackshot_hideout4](../maps/crackshot_hideout4.md)<br>[Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | faction “tt_sly_attack2” +1<br>moves you to [crackshot_hideout4](../maps/crackshot_hideout4.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -65,6 +67,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -72,6 +75,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4
 | [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 6 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -1,21 +1,45 @@
 # ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } Ghost of Luthor
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_2.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `ghost_of_luthor` |
+| **Type** | NPC |
+| **Class** | Ghost |
+| **HP** | 86 |
+| **XP when killed** | 133 |
+| **Immune to crits** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ghost |
 | HP | 86 |
-| Max AP | 10 |
-| Attack cost | 5 |
-| Move cost | 10 |
 | Damage | 2 to 5 |
 | Attack chance | 120 |
 | Block chance | 50 |
 | Damage resistance | 3 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 10 AP |
 | Critical skill | 15 |
 | Critical multiplier | 2.0 |
+| Crit chance | 12% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -55,6 +79,7 @@ Set up your situation (quest stages, items, kills…), then talk to Ghost of Lut
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -76,4 +101,46 @@ Set up your situation (quest stages, items, kills…), then talk to Ghost of Lut
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ghost_of_luthor.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `ghost_of_luthor` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `ghost_of_luthor` |
+    | Spawn group | `luthor` |
+    | Loot table | `luthor` |
+    | Conversation | `luthor` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:2` |
+    | Defined in | `res/raw/monsterlist_fallhaven_animals.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ghost_of_luthor",
+     "name": "Ghost of Luthor",
+     "iconID": "monsters_liches:2",
+     "maxHP": 86,
+     "maxAP": 10,
+     "moveCost": 10,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "attackDamage": {
+      "min": 2,
+      "max": 5
+     },
+     "spawnGroup": "luthor",
+     "phraseID": "luthor",
+     "droplistID": "luthor",
+     "attackCost": 5,
+     "attackChance": 120,
+     "criticalSkill": 15,
+     "criticalMultiplier": 2.0,
+     "blockChance": 50,
+     "damageResistance": 3
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

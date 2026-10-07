@@ -33,6 +33,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -120,6 +121,7 @@
 | <span id="stage-70"></span>70 | I completed all the tasks at the bakery. **(completes quest)** | [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | stage 5 | 10,000 XP<br>gives 200× [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -208,6 +210,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -216,6 +219,7 @@
 | [v0.8.18](../versions/0.8.18.md) | stage 22 journal text changed; stage 25 journal text changed<br>Dialogue: 1 line changed<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

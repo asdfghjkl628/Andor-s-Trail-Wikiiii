@@ -8,7 +8,7 @@
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 40) |
 | **Started by** | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
-| **NPCs involved** | [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby4b.md), [Tobby](../monsters/tobby4a.md), [Tobby](../monsters/tobby5.md), [Tobby](../monsters/tobby6.md), [Tobby](../monsters/tobby3.md) +1 |
+| **NPCs involved** | [Tobby](../monsters/tobby6.md), [Tobby](../monsters/tobby2.md), [Tobby](../monsters/tobby4a.md), [Tobby](../monsters/tobby3.md), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby5.md) +1 |
 | **Locations** | [guynmart_wood_17](../maps/guynmart_wood_17.md), [guynmart_wood_17b](../maps/guynmart_wood_17b.md), [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_19](../maps/guynmart_wood_19.md) |
 | **Total XP** | 1,560 |
 
@@ -24,6 +24,7 @@ None: talk to [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -46,6 +47,7 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-50"></span>50 | I have met Tobby again, together with Sobby in the little village in the woods. | [Tobby](../monsters/tobby6.md) ([woodhouse1](../maps/woodhouse1.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -95,6 +97,7 @@ No links to other quests were found in the dialogue conditions.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -102,6 +105,7 @@ No links to other quests were found in the dialogue conditions.
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 11 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

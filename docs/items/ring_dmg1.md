@@ -1,29 +1,55 @@
 # ![](../assets/icons/items/items_jewelry_0.png){ .sprite } Ring of damage +1
-*Ordinary* · Ring · value 215 gold
 
-**Slot:** leftring
+*Ordinary ring.*
 
+<div class="infobox" markdown>
 
-## When equipped
+<p class="ib-img">![](../../assets/icons/items/items_jewelry_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `ring_dmg1` |
+| **Category** | Ring |
+| **Slot** | leftring |
+| **Rarity** | Ordinary |
+| **Base value** | 215 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When equipped
 
 | Stat | Value |
 |---|---|
 | Attack damage | 1 |
 
-## Dropped by
+<p class="verified">Verified against v0.8.18 item data.</p>
 
-| Monster | Chance | Qty |
-|---|---|---|
-| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 |
-| [Bone warrior](../monsters/bone_warrior.md) | 1% | 1 |
+## How to get it
 
-## Sold by
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | elm_mine2 |
+| [Bone warrior](../monsters/bone_warrior.md) | 1% | 1 | Flagstone Prison |
+
+### Sold by
 
 - [Arambold](../monsters/arambold.md)
 - [Tharal](../monsters/tharal.md)
-- [Rorthron](../monsters/guynmart_wizard.md)
+- [Rorthron](../monsters/guynmart_wizard.md) (Guynmart Castle)
 
-<p class="verified">Verified against v0.8.18 item data.</p>
+### Found in containers
+
+- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-3) (container 4, 33%), Prim
+- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 50%)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
 
 ## Version history
 
@@ -33,4 +59,55 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `ring_dmg1` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=ring_dmg1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=ring_dmg1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=ring_dmg1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=ring_dmg1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `ring_dmg1` |
+    | Category ID | `ring` |
+    | Icon | `items_jewelry:0` |
+    | Defined in | `res/raw/itemlist_rings.json` |
+    | Loot tables containing it | `skeleton2`, `shop_arambold`, `shop_tharal`, `guynmart_drp_wizard_shop`, `guildbrig_2`, `elm2_passage2`, `ortholion_guard7`, `prim_treasure_7` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ring_dmg1",
+     "iconID": "items_jewelry:0",
+     "name": "Ring of damage +1",
+     "baseMarketCost": 215,
+     "category": "ring",
+     "equipEffect": {
+      "increaseAttackDamage": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

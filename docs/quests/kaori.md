@@ -27,6 +27,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 | <span id="stage-20"></span>20 | I have brought 10 bonemeal potions to Kaori. **(completes quest)** | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) | hand over 10× [Bonemeal potion](../items/bonemeal_potion.md), stage 10 | 520 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -64,6 +66,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -72,6 +75,7 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “I would really like to have a few more of those. If you can bring me …” → “I would really like to have a few more of those. If you can bring me …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

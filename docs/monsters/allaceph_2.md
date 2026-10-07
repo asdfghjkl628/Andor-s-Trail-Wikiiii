@@ -1,26 +1,48 @@
 # ![](../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite } Allaceph
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `allaceph_2` |
+| **Type** | Enemy |
+| **Class** | Demon |
+| **HP** | 94 |
+| **XP when killed** | 237 |
+| **Found in** | waytobrimhavencave1, waytobrimhavencave2 |
+| **Immune to crits** | Yes |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | demon |
 | HP | 94 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 3 to 7 |
 | Attack chance | 80 |
 | Block chance | 105 |
 | Damage resistance | 1 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 40 |
 | Critical multiplier | 2.0 |
+| Crit chance | 23% |
 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.
 
-## On hit
+**On hit:** Heal HP: 4; On target: Minor weapon feebleness (magnitude 2, 3 rounds, 20% chance)
 
-- **Heal HP:** 4
-- **On target:** Minor weapon feebleness (magnitude 2, 3 rounds, 20% chance)
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -31,10 +53,13 @@
 | [Regular potion of health](../items/health.md) | 5% | 1 |
 | [Empty vial](../items/vial_empty2.md) | 5% | 1 |
 
-## Found on
+## Locations
 
-- [waytobrimhavencave1](../maps/waytobrimhavencave1.md)
-- [waytobrimhavencave2](../maps/waytobrimhavencave2.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 9 | – |
+| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 6 | – |
+
 
 ## Version history
 
@@ -45,4 +70,80 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `allaceph_2` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=allaceph_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=allaceph_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=allaceph_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=allaceph_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `allaceph_2` |
+    | Spawn group | `allaceph_1` |
+    | Loot table | `allaceph` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:101` |
+    | Defined in | `res/raw/monsterlist_v0611_monsters1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "allaceph_2",
+     "name": "Allaceph",
+     "iconID": "monsters_rltiles2:101",
+     "maxHP": 94,
+     "maxAP": 10,
+     "moveCost": 5,
+     "monsterClass": "demon",
+     "attackDamage": {
+      "min": 3,
+      "max": 7
+     },
+     "spawnGroup": "allaceph_1",
+     "droplistID": "allaceph",
+     "attackCost": 3,
+     "attackChance": 80,
+     "criticalSkill": 40,
+     "criticalMultiplier": 2.0,
+     "blockChance": 105,
+     "damageResistance": 1,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 4,
+       "max": 4
+      },
+      "conditionsTarget": [
+       {
+        "condition": "feebleness_minor",
+        "magnitude": 2,
+        "duration": 3,
+        "chance": "20"
+       }
+      ]
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

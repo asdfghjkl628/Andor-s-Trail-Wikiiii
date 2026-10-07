@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Tiny rat
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rats_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `tobby_trainingrat` |
+| **Type** | Enemy |
+| **Class** | Animal |
+| **HP** | 2 |
+| **XP when killed** | 3 |
+| **Found in** | guynmart_wood_19 |
+| **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | animal |
 | HP | 2 |
-| Max AP | 10 |
-| Attack cost | 9 |
-| Move cost | 10 |
 | Damage | 1 |
 | Attack chance | 50 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 9 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -21,9 +45,17 @@
 | [Gold coins](../items/gold.md) | 100% | 2 to 4 |
 | [Rat tail](../items/rat_tail.md) | 30% | 1 |
 
-## Found on
+## Locations
 
-- [guynmart_wood_19](../maps/guynmart_wood_19.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [guynmart_wood_19](../maps/guynmart_wood_19.md) | – | 1 | – |
+
+
+## Quests that count kills
+
+- [Sobby's Trail](../quests/tobby.md#stage-21) with [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) checks that you've killed at least 1
+
 
 ## Version history
 
@@ -33,4 +65,60 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Monster ID: `tobby_trainingrat` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tobby_trainingrat.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tobby_trainingrat.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tobby_trainingrat.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tobby_trainingrat.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `tobby_trainingrat` |
+    | Spawn group | `tobby_trainingrat` |
+    | Loot table | `rat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby_trainingrat",
+     "name": "Tiny rat",
+     "iconID": "monsters_rats:0",
+     "maxHP": 2,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 1,
+      "max": 1
+     },
+     "spawnGroup": "tobby_trainingrat",
+     "droplistID": "rat",
+     "attackCost": 9,
+     "attackChance": 50
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

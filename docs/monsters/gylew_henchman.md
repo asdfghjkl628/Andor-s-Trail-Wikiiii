@@ -1,18 +1,42 @@
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Gylew's henchman
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `gylew_henchman` |
+| **Type** | NPC |
+| **Class** | Humanoid |
+| **HP** | 200 |
+| **XP when killed** | 297 |
+| **Found in** | waterway5 |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
 | HP | 200 |
-| Max AP | 10 |
-| Attack cost | 3 |
-| Move cost | 5 |
 | Damage | 11 to 22 |
 | Attack chance | 70 |
 | Block chance | 60 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 5 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Drops
 
@@ -20,9 +44,12 @@
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 100 |
 
-## Found on
+## Locations
 
-- [waterway5](../maps/waterway5.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waterway5](../maps/waterway5.md) | – | 1 | – |
+
 
 ## Dialogue simulator
 
@@ -50,6 +77,7 @@ Set up your situation (quest stages, items, kills…), then talk to Gylew's henc
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
 ## Community notes
 
 <small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
@@ -71,4 +99,41 @@ Set up your situation (quest stages, items, kills…), then talk to Gylew's henc
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=gylew_henchman.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `gylew_henchman` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `gylew_henchman` |
+    | Spawn group | `gylew_henchman` |
+    | Loot table | `gold100` |
+    | Conversation | `gylew_henchman` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gylew_henchman",
+     "name": "Gylew's henchman",
+     "iconID": "monsters_men:8",
+     "maxHP": 200,
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 11,
+      "max": 22
+     },
+     "spawnGroup": "gylew_henchman",
+     "phraseID": "gylew_henchman",
+     "droplistID": "gold100",
+     "attackCost": 3,
+     "attackChance": 70,
+     "blockChance": 60
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

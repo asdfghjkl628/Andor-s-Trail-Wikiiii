@@ -1,41 +1,74 @@
 # ![](../assets/icons/items/items_consumables_35.png){ .sprite } Minor vial of health
-*Ordinary* · Potion · value 5 gold
 
+*Ordinary potion.*
 
-## When used
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/items/items_consumables_35.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Item ID** | `health_minor` |
+| **Category** | Potion |
+| **Rarity** | Ordinary |
+| **Base value** | 5 gold |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Statistics
+
+### When used
 
 | Stat | Value |
 |---|---|
 | Heal HP | 5 |
 
-## Dropped by
-
-| Monster | Chance | Qty |
-|---|---|---|
-| [Strong larval burrower](../monsters/larval_boss.md) | 100% | 1 |
-| [Keknazar](../monsters/keknazar.md) | 100% | 1-2 |
-| [Rogorn](../monsters/rogorn.md) | 100% | 1-2 |
-| [Rogorn's henchman](../monsters/rogorn_henchman.md) | 100% | 1-2 |
-| [Buceth](../monsters/buceth.md) | 100% | 1-4 |
-| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1-2 |
-| [Snake servant](../monsters/snake_servant.md) | 25% | 1 |
-| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 |
-| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 |
-| [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 |
-| [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1-2 |
-| [Wyrm trainer](../monsters/wyrm_trainer.md) | 10% | 1-2 |
-| [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 10% | 1-2 |
-| [Restless dead](../monsters/restless_dead.md) | 10% | 1 |
-| [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 |
-| [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 |
-| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 |
-| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 |
-
-## Sold by
-
-- [Kealwea](../monsters/sullengard_priest.md)
-
 <p class="verified">Verified against v0.8.18 item data.</p>
+
+## How to get it
+
+### Dropped by
+
+| Monster | Chance | Qty | Found in |
+|---|---|---|---|
+| [Strong larval burrower](../monsters/larval_boss.md) | 100% | 1 | Crossroads Guardhouse |
+| [Keknazar](../monsters/keknazar.md) | 100% | 1-2 | Crossroads Guardhouse |
+| [Rogorn](../monsters/rogorn.md) | 100% | 1-2 | Crossroads Guardhouse |
+| [Rogorn's henchman](../monsters/rogorn_henchman.md) | 100% | 1-2 | Crossroads Guardhouse |
+| [Buceth](../monsters/buceth.md) | 100% | 1-4 | – |
+| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1-2 | waytobrimhavencave4 |
+| [Snake servant](../monsters/snake_servant.md) | 25% | 1 | snakecave3 |
+| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 | jan_pitcave2 |
+| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 | jan_pitcave2 |
+| [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 | Blackwater Mountain |
+| [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1-2 | Blackwater Mountain |
+| [Wyrm trainer](../monsters/wyrm_trainer.md) | 10% | 1-2 | Blackwater Mountain |
+| [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 10% | 1-2 | Blackwater Mountain |
+| [Restless dead](../monsters/restless_dead.md) | 10% | 1 | Prim, Blackwater Mountain |
+| [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 | Prim, Blackwater Mountain |
+| [Kazaul spawn](../monsters/kazaul_spawn.md) | 10% | 1 | Blackwater Mountain |
+| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 | Blackwater Mountain |
+| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 | Blackwater Mountain |
+
+### Sold by
+
+- [Kealwea](../monsters/sullengard_priest.md) (Sullengard)
+
+
+<p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
+
+## Uses
+
+Where the game checks for this item in dialogue:
+
+| With | Quest | What happens to it | Option |
+|---|---|---|---|
+| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-111) | handed over (1×) | “Here, take this minor vial of health.” |
+| [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | handed over (1×) | “Here, have a minor vial of health.” |
+
+<p class="verified">Verified against v0.8.18 dialogue data.</p>
+
 
 ## Version history
 
@@ -45,4 +78,56 @@
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
-<small>Item ID: `health_minor` · Data from v0.8.18</small>
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Strategy
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_minor.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_minor.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_minor.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_minor.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Item ID | `health_minor` |
+    | Category ID | `pot` |
+    | Icon | `items_consumables:35` |
+    | Defined in | `res/raw/itemlist_potions.json` |
+    | Loot tables containing it | `cavemonster`, `lich1`, `kazaul_1`, `restless_dead_1`, `wyrm_1`, `wyrm_2`, `wyrm_4`, `larva_boss`, `keknazar`, `rogorn`, `rogorn_henchman`, `buceth`, `ulirfendor`, `sullengard_kealwea_dl` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "health_minor",
+     "iconID": "items_consumables:35",
+     "name": "Minor vial of health",
+     "hasManualPrice": 1,
+     "baseMarketCost": 5,
+     "category": "pot",
+     "useEffect": {
+      "increaseCurrentHP": {
+       "min": 5,
+       "max": 5
+      }
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

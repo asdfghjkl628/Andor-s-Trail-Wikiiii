@@ -26,6 +26,7 @@ Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadt
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadt
 | <span id="stage-30"></span>30 | Hadracor thanked me for helping him and the other woodcutters get revenge on the wasps. In return, he offered me to trade for some of his items. **(completes quest)** | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -68,6 +70,7 @@ Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadt
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -76,6 +79,7 @@ Start with [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadt
 | [v0.7.2](../versions/0.7.2.md) | stage 10 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

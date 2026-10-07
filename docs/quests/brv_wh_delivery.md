@@ -27,6 +27,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -65,6 +66,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 | <span id="stage-130"></span>130 | I reported back to Facutloni. He is very happy. **(completes quest)** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | pay 330 gold | 10,000 XP<br>sets stage 3 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3)<br>gives 100× [Gold coins](../items/gold.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -124,6 +126,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -131,6 +134,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 | [v0.7.17](../versions/0.7.17.md) | Added<br>Dialogue: 12 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

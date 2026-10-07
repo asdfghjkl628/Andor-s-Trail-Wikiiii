@@ -1,22 +1,48 @@
 # ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } Falothen
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `falothen1` |
+| **Type** | NPC |
+| **Class** | ? |
+| **HP** | 1 |
+| **Found in** | tradehouse0a |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ? |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
 
-## Found on
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
-- [tradehouse0a](../maps/tradehouse0a.md)
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+
+## Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [tradehouse0a](../maps/tradehouse0a.md) | – | 1 | – |
+
 
 ## Quests
 
@@ -377,11 +403,12 @@ Set up your situation (quest stages, items, kills…), then talk to Falothen. Th
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…”<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…”<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 7 lines added, 4 lines changed<br>· text: “I can teach you about swords, either one-handed or two-handed ones. I…” → “I can teach you about swords, either one-handed or two-handed ones. I…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We usually don't teach anyone outside our settlement. Last time I did…” → “We usually don't teach anyone outside our settlement. Last time I did…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -404,4 +431,29 @@ Set up your situation (quest stages, items, kills…), then talk to Falothen. Th
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=falothen1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `falothen1` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `falothen1` |
+    | Spawn group | `falothen1` |
+    | Loot table | – |
+    | Conversation | `falothen1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:0` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "falothen1",
+     "name": "Falothen",
+     "iconID": "monsters_tometik5:0",
+     "phraseID": "falothen1"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

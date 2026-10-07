@@ -43,3 +43,4 @@ What every release of Andor's Trail changed, worked out by comparing the game's 
 | [v0.7.0](versions/0.7.0.md) | (baseline: 51 quests) | 386 | 645 | 377 | – |
 
 <p class="verified">Verified against v0.8.18 and every earlier release (counts come from the game data, so they can differ slightly from the official release notes).</p>
+

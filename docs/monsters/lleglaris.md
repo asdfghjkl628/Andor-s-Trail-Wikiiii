@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } Lleglaris
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_41.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `lleglaris` |
+| **Type** | Shopkeeper |
+| **Class** | ? |
+| **HP** | 1 |
+| **Found in** | Foaming Flask Tavern |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | ? |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -29,9 +52,12 @@
 | [Axe of fear](../items/axe_fear.md) | 100% | 1 to 5 |
 | [Steel glaive](../items/glaive_steel.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [tradehouse1](../maps/tradehouse1.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [tradehouse1](../maps/tradehouse1.md) | Foaming Flask Tavern | 1 | – |
+
 
 ## Quests
 
@@ -166,10 +192,11 @@ Set up your situation (quest stages, items, kills…), then talk to Lleglaris. T
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…”<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.”<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -192,4 +219,30 @@ Set up your situation (quest stages, items, kills…), then talk to Lleglaris. T
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=lleglaris.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `lleglaris` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `lleglaris` |
+    | Spawn group | `lleglaris` |
+    | Loot table | `shop_lleglaris` |
+    | Conversation | `lleglaris` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:41` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lleglaris",
+     "name": "Lleglaris",
+     "iconID": "monsters_ld1:41",
+     "phraseID": "lleglaris",
+     "droplistID": "shop_lleglaris"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -33,6 +33,7 @@
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -49,6 +50,7 @@
 | <span id="stage-2"></span>2 | 2=picked up bones<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)<br>[Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | hand over 1× [Wyrm meat](../items/hettar_bone.md) | gives 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)<br>sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -66,6 +68,7 @@
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -73,6 +76,7 @@
 | [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 4 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

@@ -1,18 +1,41 @@
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Arghes
 
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Monster ID** | `arghes` |
+| **Type** | Shopkeeper |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **Found in** | Remgard |
+| **Introduced** | v0.7.0 or earlier |
+
+</div>
+
+## Combat stats
+
 | Stat | Value |
 |---|---|
-| Class | humanoid |
-| HP | 0 |
-| Max AP | 10 |
-| Attack cost | 10 |
-| Move cost | 10 |
+| HP | 1 |
 | Damage | 0 |
 | Attack chance | 0 |
 | Block chance | 0 |
 | Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
 | Critical skill | 0 |
-| Critical multiplier | 0 |
+| Critical multiplier | – |
+| Crit chance | none (needs critical skill and a multiplier) |
+
+**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
 
 ## Shop stock
 
@@ -24,9 +47,12 @@
 | [Cap of bloody eyes](../items/helm_redeye2.md) | 100% | 1 |
 | [Troublemaker's ring](../items/ring_troublemaker.md) | 100% | 1 |
 
-## Found on
+## Locations
 
-- [remgard_tavern0](../maps/remgard_tavern0.md)
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [remgard_tavern0](../maps/remgard_tavern0.md) | Remgard | 1 | – |
+
 
 ## Quests
 
@@ -107,10 +133,11 @@ Set up your situation (quest stages, items, kills…), then talk to Arghes. The 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…”<br>· text: “Hm, let me see.” → “Hmm, let me see.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”<br>· text: “Hm, let me see.” → “Hmm, let me see.” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
@@ -133,4 +160,32 @@ Set up your situation (quest stages, items, kills…), then talk to Arghes. The 
 *Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=arghes.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
-<small>Monster ID: `arghes` · Data from v0.8.18</small>
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Monster ID | `arghes` |
+    | Spawn group | `arghes` |
+    | Loot table | `shop_arghes` |
+    | Conversation | `arghes` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rogue1:0` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "arghes",
+     "name": "Arghes",
+     "iconID": "monsters_rogue1:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "arghes",
+     "phraseID": "arghes",
+     "droplistID": "shop_arghes"
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

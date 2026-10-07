@@ -11,7 +11,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | stepping on a trigger on [guynmart](../maps/guynmart.md) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah3.md), [Hannah](../monsters/guynmart_hannah.md) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah3.md) |
 | **Locations** | [guynmart](../maps/guynmart.md), [guynmart_main_1](../maps/guynmart_main_1.md) |
 | **Related quests** | 1 |
 
@@ -27,6 +27,7 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -45,6 +46,7 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 | <span id="stage-71"></span>71 | 71 wall<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | – | applies condition stunned<br>applies condition bone_fracture |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -65,6 +67,7 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -72,6 +75,7 @@ None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 9 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 

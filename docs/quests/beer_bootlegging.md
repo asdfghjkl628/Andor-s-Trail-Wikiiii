@@ -27,6 +27,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
+
 ## Dependencies
 
 *Quest logic, read from the dialogue conditions.*
@@ -63,6 +64,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 | <span id="stage-120"></span>120 | I lied to the guard captain at the Foaming flask tavern and told him nothing about the beer bootlegging operation. **(completes quest)** | [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) | stage 10, stage 80 | 3,900 XP<br>faction “factionCountShadow” set to 4<br>faction “factionCountThieves” set to 4<br>faction “factionCountFeygard” set to -4 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
+
 ## How each stage is reached
 
 *Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
@@ -119,6 +121,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
+
 ## Version history
 
 | Version | Change |
@@ -128,6 +131,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
 
 ## Community notes
 
